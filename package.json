@@ -10,10 +10,15 @@
     "export-build": "set NEXT_EXPORT=true && next build"
   },
   "dependencies": {
+    "@portabletext/react": "^6.0.2",
+    "@sanity/client": "^7.14.1",
+    "@sanity/image-url": "^2.0.3",
     "firebase": "^12.8.0",
     "next": "16.1.4",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-photo-view": "^1.2.7",
+    "swiper": "^12.1.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
