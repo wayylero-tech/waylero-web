@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { PortableText } from "@portabletext/react";
 import imageUrlBuilder from "@sanity/image-url";
-import { client } from "@/lib/sanity";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
