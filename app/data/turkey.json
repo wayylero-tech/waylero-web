@@ -8147,53 +8147,7 @@
         "https://example.com/aksehir_golleri.jpg"
       ]
     },
-    {
-      "slug": "karatay-camii",
-      "name": {
-        "tr": "Karatay Camii",
-        "en": "Karatay Mosque",
-        "de": "Karatay Moschee"
-      },
-      "latitude": 37.86667,
-      "longitude": 32.5,
-      "description": {
-        "tr": "    Karatay Camii, Konya il sınırlarında yer alan ve 1251 yılında Selçuklu Sultanı I. İzzeddin Keykavus tarafından inşa edilen tarihi bir camidir.\n    Selçuklu döneminin en önemli örneklerinden biri olan camii, zarif taş işçiliği ve etkileyici iç mekan süslemeleriyle dikkat çeker.\n    Bugün müze olarak kullanılan camii, Konya'nın en önemli kültürel miraslarından biridir. ",
-        "en": "    Karatay Mosque is a historical mosque located in Konya province and was built in 1251 by the Seljuk Sultan Izzeddin Keykavus I.    One of the most important examples of the Seljuk period, the mosque attracts attention with    its elegant stone work and impressive interior decorations.    Today used as a museum, the mosque is one of the most important cultural heritages of Konya. ",
-        "de": "    Die Karatay-Moschee ist eine historische Moschee in der Provinz Konya und wurde 1251 von dem seldschukischen Sultan Izzeddin Keykavus I. erbaut.    Die Moschee ist eines der bedeutendsten Zeugnisse der seldschukischen Epoche und besticht durch    ihre elegante Steinbearbeitung und beeindruckende Innenausstattung.    Die Moschee, die heute als Museum genutzt wird, ist eines der wichtigsten Kulturdenkmäler von Konya.  "
-      },
-      "activities": {
-        "tr": [
-          "Tarihi ve kültürel geziler yapmak",
-          "Mimari detayları incelemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Take historical and cultural tours",
-          "Examine architectural details",
-          "Photography"
-        ],
-        "de": [
-          "Historische und kulturelle Touren machen",
-          "Architektonische Details untersuchen",
-          "Fotografie"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "cami"
-        ],
-        "en": [
-          "mosque"
-        ],
-        "de": [
-          "Moschee"
-        ]
-      },
-      "images": [
-        "https://example.com/karatay_camii.jpg"
-      ]
-    },
-    {
+        {
       "slug": "haciveyiszade-camii",
       "name": {
         "tr": "Hacıveyiszade Camii",
