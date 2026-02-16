@@ -1,27 +1,35 @@
-import { client } from "@/lib/sanity";
 import BlogDetail from "./BlogDetail";
+import { notFound } from "next/navigation";
+
+import { generalPosts } from "@/app/data/blog/muzekart/posts";
+import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
+import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
+import { konyaPosts } from "@/app/data/blog/konya/posts";
+import { istanbulPosts } from "@/app/data/blog/istanbul/posts";
+import { konyaPosts2 } from "@/app/data/blog/konya/posts2";
+
+const posts = [
+  ...generalPosts,
+  ...uygulamaPosts,
+  ...antikkentPosts,
+  ...konyaPosts,
+  ...istanbulPosts,
+  ...konyaPosts2,
+];
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string; category: string }>;
+  params: Promise<{ category: string; slug: string }>;
 }) {
-  const { slug } = await params; // 🔥 BURASI ÖNEMLİ
+  const { category, slug } = await params;
 
-  const query = `
-    *[_type == "post" && slug.current == $slug][0]{
-      title,
-      body,
-      mainImage
-    }
-  `;
-
-  const post = await client.fetch(query, {
-    slug: slug, // 🔥 slug burada gerçekten gönderiliyor
-  });
+  const post = posts.find(
+    (p) => p.city === category && p.slug === slug
+  );
 
   if (!post) {
-    return <div>Post bulunamadı</div>;
+    return notFound();
   }
 
   return <BlogDetail post={post} />;
