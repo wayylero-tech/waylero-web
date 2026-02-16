@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/aysofya",
-        destination: "/kesfet/turkey/istanbul/aysofya",
+        source: "/ayasofya",
+        destination: "/kesfet/turkey/istanbul/ayasofya",
         permanent: true,
       },
     ];
