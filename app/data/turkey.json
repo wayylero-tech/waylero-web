@@ -3568,6 +3568,93 @@
         "https://example.com/agacalti_kilisesi_2.jpg"
       ]
     },
+{
+    "slug": "yilanli-kilise",
+    "name": {
+      "tr": "Yılanlı Kilise",
+      "en": "Serpentine Church",
+      "de": "Schlangen Kirche"
+    },
+    "latitude": 38.2512,
+    "longitude": 34.3901,
+    "description": {
+      "tr": "Ihlara Vadisi’nde yer alan Yılanlı Kilise, serbest Yunan haçı planında tasarlanmış kaya kiliselerinden biridir. Freskoları 9. yüzyıl ile 12. yüzyıl arasına tarihlenir ve İsa’nın çarmıhta çilesi, Kudüs’e giriş gibi sahneler yer alır. Kilise kayalara oyulmuş mimarisi ve tarihi freskleriyle dikkat çeker.",
+      "en": "Located in the Ihlara Valley, Serpentine Church is a rock-hewn church designed in a free Greek cross plan. Its frescoes date from the 9th to the 12th century and depict scenes such as the Passion of Christ and the entry into Jerusalem. The church is notable for its carved architecture and historic murals.",
+      "de": "Die Schlangen Kirche im Ihlara-Tal ist eine in den Felsen gehauene Kirche mit freiem griechischem Kreuzgrundriss. Ihre Fresken, die vom 9. bis 12. Jahrhundert datiert werden, zeigen Szenen wie die Passion Christi und den Einzug in Jerusalem. Die Kirche besticht durch ihre Felsarchitektur und historischen Wandmalereien."
+    },
+    "activities": {
+      "tr": ["Freskleri ve kaya mimarisini incelemek", "Ihlara Vadisi’ni gezmek", "Fotoğraf çekmek"],
+      "en": ["Examine the frescoes and rock architecture", "Explore Ihlara Valley", "Photography"],
+      "de": ["Die Fresken und Felsarchitektur untersuchen", "Das Ihlara-Tal erkunden", "Fotografieren"]
+    },
+    "categories": {
+      "tr": ["kilise", "tarihî yapı"],
+      "en": ["church", "historic site"],
+      "de": ["Kirche", "historische Stätte"]
+    },
+    "images": [
+      "https://example.com/yilanli_kilise_1.jpg",
+      "https://example.com/yilanli_kilise_2.jpg"
+    ]
+  },
+  {
+    "slug": "sumbullu-kilise",
+    "name": {
+      "tr": "Sümbüllü Kilise",
+      "en": "Hyacinth Church",
+      "de": "Hyazinthen Kirche"
+    },
+    "latitude": 38.2512,
+    "longitude": 34.3901,
+    "description": {
+      "tr": "Ihlara Vadisi’nde adını çevresinde yetişen sümbül çiçeklerinden alan Sümbüllü Kilise, iki katlı kaya oyma manastır yapısı içinde yer alır. Freskoları 10. – 12. yüzyıllara tarihlenir ve Mikail ile Cebrail arasında Meryem, İsa Pantokrator gibi sahneler içerir.",
+      "en": "Located in the Ihlara Valley, the Hyacinth Church is named after the wild hyacinths around it and is situated within a two‑story rock‑cut monastery structure. Its frescoes date from the 10th to 12th centuries and include scenes such as Mary between Michael and Gabriel and Christ Pantocrator.",
+      "de": "Die Hyazinthen Kirche im Ihlara‑Tal, benannt nach den umgebenden wilden Hyazinthen, befindet sich in einem zweistöckigen in den Felsen gehauenen Klosterbau. Ihre Fresken stammen aus dem 10. bis 12. Jahrhundert und zeigen Szenen wie Maria zwischen Michael und Gabriel und Christus Pantokrator."
+    },
+    "activities": {
+      "tr": ["Manastır ve kiliseyi keşfetmek", "Tarihi freskleri incelemek", "Doğayı ve vadinin güzelliğini görmek"],
+      "en": ["Explore the monastery and church", "Study historic frescoes", "Enjoy nature and valley views"],
+      "de": ["Das Kloster und die Kirche erkunden", "Historische Fresken studieren", "Die Natur und Talansichten genießen"]
+    },
+    "categories": {
+      "tr": ["kilise", "manastır", "tarihî yapı"],
+      "en": ["church", "monastery", "historic site"],
+      "de": ["Kirche", "Kloster", "historische Stätte"]
+    },
+    "images": [
+      "https://example.com/sumbullu_kilise_1.jpg",
+      "https://example.com/sumbullu_kilise_2.jpg"
+    ]
+  },
+  {
+    "slug": "selime-katedrali",
+    "name": {
+      "tr": "Selime Katedrali",
+      "en": "Selime Cathedral",
+      "de": "Selime Kathedrale"
+    },
+    "latitude": 38.2720,
+    "longitude": 34.3115,
+    "description": {
+      "tr": "Selime Kasabası’nda Ihlara Vadisi bitiminde yer alan Selime Katedrali, kayalara oyulmuş büyük bazilikal kilisedir. İki sıra sütunla üç nefe ayrılır. İçindeki fresklerde İsa’nın göğe yükselişi, Meryem sahneleri gibi birçok dini anlatım bulunur. Ayrıca katedralin üst kısmı bir kale gibi inşa edilmiştir.",
+      "en": "Located at the end of Ihlara Valley in Selime town, Selime Cathedral is a large rock‑cut basilica church divided into three naves by two rows of columns. It contains frescoes depicting scenes such as the Ascension of Christ and Virgin Mary. The upper part of the cathedral was built with defensive features like a castle.",
+      "de": "Die Selime Kathedrale am Ende des Ihlara‑Tals in Selime ist eine große in den Felsen gehauene Basilika, die durch zwei Säulenreihen in drei Schiffe geteilt wird. Sie enthält Fresken mit Szenen wie der Himmelfahrt Christi und der Jungfrau Maria. Der obere Teil der Kathedrale wurde mit wehrhaften Elementen wie einer Burg erbaut."
+    },
+    "activities": {
+      "tr": ["Katedrali gezmek", "Freskleri ve kaya mimarisini görmek", "Peribacaları bölgesini keşfetmek"],
+      "en": ["Tour the cathedral", "See frescoes and rock architecture", "Explore nearby fairy chimneys"],
+      "de": ["Die Kathedrale besichtigen", "Fresken und Felsarchitektur sehen", "Die nahe gelegenen Feenkamine erkunden"]
+    },
+    "categories": {
+      "tr": ["katedral", "tarihî yapı"],
+      "en": ["cathedral", "historic site"],
+      "de": ["Kathedrale", "historische Stätte"]
+    },
+    "images": [
+      "https://example.com/selime_katedrali_1.jpg",
+      "https://example.com/selime_katedrali_2.jpg"
+    ]
+  }
     {
       "slug": "aksaray-muzesi",
       "name": {
@@ -7106,6 +7193,105 @@
         "https://example.com/mevlana_muzesi.jpg"
       ]
     },
+ {
+    "slug": "zaman-muzesi",
+    "name": {
+      "tr": "Zaman Müzesi",
+      "en": "Time Museum",
+      "de": "Zeitmuseum"
+    },
+    "latitude": 37.92506,
+    "longitude": 32.40978,
+    "description": {
+      "tr": "Sille Mahallesi’ndeki tarihi bir şapelin restore edilmesiyle oluşturulan Zaman Müzesi, Osmanlı’dan Cumhuriyet’e kadar farklı dönemlerde zamanın nasıl ölçüldüğünü gösteren saatler, takvimler ve güneş saatleri gibi objeleri sergileyen kültürel bir müzedir. Ziyaretçilere zamanda yolculuk hissi verir ve Türkiye’nin ilk “zaman temalı” müzelerinden biridir.",
+      "en": "Located in a restored chapel in Sille neighbourhood, the Time Museum exhibits artifacts showing how time was measured from Ottoman to Republican periods including clocks, calendars and sundials. It offers visitors a cultural journey through time and is one of Turkey’s first 'time-themed' museums.",
+      "de": "Das im historischen Sille-Viertel in einer restaurierten Kapelle gelegene Zeitmuseum zeigt Exponate zur Zeitmessung vom Osmanischen Reich bis zur frühen Republik, einschließlich Uhren, Kalendern und Sonnenuhren. Es bietet Besuchern eine kulturelle Zeitreise und gehört zu den ersten Zeitmuseen der Türkei."
+    },
+    "activities": {
+      "tr": [
+        "Müze koleksiyonunu gezmek",
+        "Tarihî zaman ölçüm cihazlarını incelemek",
+        "Sille’nin tarihi dokusunu keşfetmek"
+      ],
+      "en": [
+        "Explore the museum collection",
+        "Examine historic timekeeping artifacts",
+        "Discover the historic fabric of Sille"
+      ],
+      "de": [
+        "Die Museumsammlung erkunden",
+        "Historische Zeitmessgeräte untersuchen",
+        "Die historische Struktur von Sille entdecken"
+      ]
+    },
+    "categories": {
+      "tr": ["müze"],
+      "en": ["museum"],
+      "de": ["Museum"]
+    },
+    "images": [
+      "https://example.com/sille_zaman_muzesi_1.jpg",
+      "https://example.com/sille_zaman_muzesi_2.jpg"
+    ]
+  },
+  {
+    "slug": "seytan-koprusu",
+    "name": {
+      "tr": "Şeytan Köprüsü",
+      "en": "Devil’s Bridge",
+      "de": "Teufelsbrücke"
+    },
+    "latitude": 37.92928,
+    "longitude": 32.41216,
+    "description": {
+      "tr": "Sille Mahallesi’nde bir su kemeri olarak inşa edilmiş, zamanla iki yamacı birbirine bağlayan tarihi taş yapı. Dar ve yüksek yapısıyla dikkat çeker ve halk arasında 'Şeytan Köprüsü' olarak adlandırılır. Bugün doğa yürüyüş rotalarında da görülebilir.",
+      "en": "Originally built as a water aqueduct in the Sille neighbourhood, this historic stone structure became a narrow crossing between two slopes and is popularly known as the 'Devil’s Bridge.' It is notable for its striking appearance and is a point of interest on walking trails.",
+      "de": "Ursprünglich als Wasserleitung im Stadtteil Sille erbaut, dient diese historische Steinbrücke als schmaler Übergang zwischen zwei Hängen und ist als 'Teufelsbrücke' bekannt. Sie besticht durch ihr markantes Erscheinungsbild und ist ein interessanter Punkt auf Wanderwegen."
+    },
+    "activities": {
+      "tr": ["Yürüyüş ve fotoğraf çekme", "Tarihi yapıyı gözlemleme", "Doğayı keşfetme"],
+      "en": ["Hiking and photography", "Observe the historic structure", "Explore the natural surroundings"],
+      "de": ["Wandern und fotografieren", "Die historische Struktur beobachten", "Die natürliche Umgebung erkunden"]
+    },
+    "categories": {
+      "tr": ["köprü"],
+      "en": ["bridge"],
+      "de": ["Brücke"]
+    },
+    "images": [
+      "https://example.com/seytan_koprusu_1.jpg",
+      "https://example.com/seytan_koprusu_2.jpg"
+    ]
+  },
+  {
+    "slug": "cemel-ali-dede-turbesi",
+    "name": {
+      "tr": "Cemel Ali Dede Türbesi ve Zaviye",
+      "en": "Cemel Ali Dede Tomb and Zaviye",
+      "de": "Cemel Ali Dede Grab und Zaviye"
+    },
+    "latitude": 37.8665,
+    "longitude": 32.4823,
+    "description": {
+      "tr": "Hz. Mevlâna’nın lalası olarak bilinen Cemel Ali Dede, onu çocukken sırtında taşıdığı için bu isimle anılmıştır. Meram bağlarında kurulan bu yapı bir Mevlevî zaviyesidir. Günümüze türbe ve mescid (semahane) bölümü ulaşmıştır. Eyvan biçimli mimarisi ve Selçuklu dönemi çini süslemeleriyle dikkat çeker ve Konya’daki eyvan tipli türbelerin önemli örneklerinden biridir. Yüzyıllardır ayakta duran bu manevi mekân, Konya’nın tasavvuf mirasının sessiz ama güçlü izlerinden biridir.",
+      "en": "Known as Rumi’s caretaker in his childhood, Cemel Ali Dede carried him on his back, giving him this name. Established in the vineyards of Meram, this site is a Mevlevi zaviye. Today, the tomb and mosque (semhane) sections survive. Notable for its iwan-style architecture and Seljuk ceramic decorations, it is one of the key examples of iwan-type tombs in Konya. Standing for centuries, this spiritual place is a quiet yet powerful trace of Konya’s Sufi heritage.",
+      "de": "Bekannt als Betreuer von Rumi in seiner Kindheit, trug Cemel Ali Dede ihn auf dem Rücken, weshalb er diesen Namen erhielt. In den Weinbergen von Meram gegründet, ist dies eine Mevlevî-Zaviye. Heute sind Grab und Moschee (Semahane) erhalten. Auffällig ist die Eywan-Architektur und die seldschukischen Keramikverzierungen; sie ist eines der wichtigsten Beispiele für Eywan-Typ-Türben in Konya. Seit Jahrhunderten stehend, ist dieser spirituelle Ort eine stille, aber kraftvolle Spur des Sufi-Erbes von Konya."
+    },
+    "activities": {
+      "tr": ["Türbeyi ve mescidi ziyaret etmek", "Mevlevî kültürü ve tarihi hakkında bilgi edinmek", "Eyvan mimarisini ve çini süslemeleri incelemek", "Fotoğraf çekmek"],
+      "en": ["Visit the tomb and mosque", "Learn about Mevlevi culture and history", "Examine the iwan architecture and ceramic decorations", "Photography"],
+      "de": ["Besuche das Grab und die Moschee", "Über Mevlevî-Kultur und Geschichte informieren", "Die Eywan-Architektur und Keramikverzierungen untersuchen", "Fotografieren"]
+    },
+    "categories": {
+      "tr": ["türbe", "zaviye", "tasavvuf"],
+      "en": ["tomb", "zaviye", "sufism"],
+      "de": ["Grab", "Zaviye", "Sufismus"]
+    },
+    "images": [
+      "https://example.com/cemel_ali_dede_turbe_1.jpg",
+      "https://example.com/cemel_ali_dede_turbe_2.jpg"
+    ]
+  },
     {
       "slug": "alaaddin-tepesi-ve-alaaddin-camii",
       "name": {
