@@ -53,6 +53,7 @@
     ]
   },
  "konya": {
+ 
   "konya-80-binde-devr-i-alem-parki": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F80-binde-devr-i-alem-park%C4%B1%2F1765526477055_0.jpg?alt=media&token=4b005e1f-a36a-4949-bddf-6bbb4f9a03ec",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F80-binde-devr-i-alem-park%C4%B1%2F1765530154365_0.jpg?alt=media&token=409b56c4-4ec8-4e11-aed4-72d02a4fc2bc",
@@ -93,6 +94,16 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fbey%C5%9Fehir-g%C3%B6l%C3%BC%2F1765533254498_5.jpg?alt=media&token=0e3823ca-5490-4d0d-8627-213316883d57",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fbey%C5%9Fehir-g%C3%B6l%C3%BC%2F1765533242069_3.jpg?alt=media&token=aafd6117-9aeb-497c-b438-00b02adf3c3d",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fbey%C5%9Fehir-g%C3%B6l%C3%BC%2F1765533259865_6.jpg?alt=media&token=d8489aa3-18f5-4442-b3b3-148300091fb1"
+  ],
+  "konya-cemel-ali-dede-turbesi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251413995_0.jpg?alt=media&token=e3b122cc-e99c-4130-a905-c6679e0888bf",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251549208_7.jpg?alt=media&token=1ad0b335-e82e-4c50-aa64-c5df47371d05",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251434264_3.jpg?alt=media&token=868aebe7-82a8-468c-8f70-9ae43b663820",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251428314_2.jpg?alt=media&token=b02d65a7-dd7e-481f-83af-2d4bb82c58bf",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251539376_5.jpg?alt=media&token=b228b8b5-4f01-4846-869a-2906f4c16b34",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251543539_6.jpg?alt=media&token=7eb5314e-2798-44f5-9897-5d5d29887c5a",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251420994_1.jpg?alt=media&token=543f1208-f4b9-4391-b68e-7a451df410e3",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fcemel-ali-dede-t%C3%BCrbesi-ve-zaviye%2F1771251535144_4.jpg?alt=media&token=88b12fc3-41b6-4148-9156-489ed5e160aa"
   ],
   "konya-derebucak-suluin-magarasi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fderebucak-suluin-ma%C4%9Faras%C4%B1%2F1765522628198_2.jpg?alt=media&token=ca71183d-de88-4f66-b355-f2aab52d5b3e",
@@ -156,7 +167,9 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1765533386058_0.jpg?alt=media&token=ede52d95-948d-4523-90e8-93e956ec428e",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1765533392116_1.jpg?alt=media&token=a62f7451-3c5a-404b-8733-01210ab715f8",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1765533400296_2.jpg?alt=media&token=3df0eb40-1cf8-4aef-b7fd-943e067463e5",
-    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1765533408305_3.jpg?alt=media&token=c6cc58d3-058d-4efe-8655-33cf0ddf823b"
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1765533408305_3.jpg?alt=media&token=c6cc58d3-058d-4efe-8655-33cf0ddf823b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1771251232194_1.jpg?alt=media&token=480bd688-b570-434b-a29c-4861902203a4",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkapu-camii%2F1771251224172_0.jpg?alt=media&token=3658b472-3048-4522-bd51-0e9c6b01777e"
   ],
   "konya-karatay-medresesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkaratay-medresesi%2F1765522749938_2.jpg?alt=media&token=6eab14c8-cb03-44fd-b1b9-e1ea21d58812",
@@ -168,7 +181,8 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkaratay-medresesi%2F1765522736628_0.jpg?alt=media&token=66c074f0-8b2f-4fed-8b61-88e18a798371"
   ],
   "konya-karatay-sehir-parki": [
-    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkaratay-%C5%9Fehir-park%C4%B1%2F1766691960933_0.jpg?alt=media&token=030cc2e0-a509-4294-a21a-04644cb9f1f5"
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkaratay-%C5%9Fehir-park%C4%B1%2F1770979993994_1.jpg?alt=media&token=2ed9b041-8a8b-44c0-8392-82a67e1481c5",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkaratay-%C5%9Fehir-park%C4%B1%2F1770979981711_0.jpg?alt=media&token=d60f35b3-a299-473d-b990-fb6505f07934"
   ],
   "konya-kestel-baraji": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkestel-baraj%C4%B1%2F1765530117168_0.jpg?alt=media&token=f4657ff6-f2ea-4adf-9d44-febe5c15417e"
@@ -189,8 +203,12 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fkonya-tropikal-kelebek-bah%C3%A7esi%2F1765546231760_0.jpg?alt=media&token=c0d336d9-02e9-4d1a-8401-da8c5ef7bbf9"
   ],
   "konya-kizlar-kayasi": [
-    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1765521644420_0.jpg?alt=media&token=afe66955-27b0-46f0-affc-ae471dd09bde",
-    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1765521650253_1.jpg?alt=media&token=086bddef-cc7d-4277-93ba-b7294fc7df1c"
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1771250682711_4.jpg?alt=media&token=154def3a-2d2a-493e-8d27-db6899dec1cc",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1771250658513_0.jpg?alt=media&token=27ab65c3-1636-4a4d-91ce-f672ee6c70fa",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1771250664899_1.jpg?alt=media&token=6a6f74e0-c25e-4fdd-bbdd-e957bcbccbca",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1771250688250_5.jpg?alt=media&token=5d96aae3-59d2-4392-8698-d5d32e45224c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1771250670805_2.jpg?alt=media&token=ffcf9a0f-318b-458b-ab2d-3a660d8e5e53",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fk%C4%B1zlar-kayas%C4%B1%2F1771250676598_3.jpg?alt=media&token=3a496ae4-688d-4c37-926d-cfccbbe197fd"
   ],
   "konya-meke-golu": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fmeke-g%C3%B6l%C3%BC%2F1765533174610_1.jpg?alt=media&token=ae1bd243-34c4-4d8b-a1fc-c2954f96ea29",
@@ -226,6 +244,15 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsavatra-antik-kenti%2F1765521803342_4.jpg?alt=media&token=ce9be2a5-38fa-4748-aeeb-3d99342e6823",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsavatra-antik-kenti%2F1765521777633_0.jpg?alt=media&token=e17612ad-f60b-4a1a-80ce-394875944f20"
   ],
+  "konya-sille-koyu": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250988448_6.jpg?alt=media&token=2549d4c7-cdff-42fb-8d64-bfd3516fe563",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250981916_5.jpg?alt=media&token=b32a7b90-dfb1-443a-9916-943c7aec6b59",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250957703_1.jpg?alt=media&token=be175c6d-766a-498e-a52d-25733c1508dd",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250951018_0.jpg?alt=media&token=c9a3f203-ab0c-4601-b990-1ff347f6a13c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250964418_2.jpg?alt=media&token=267ebe5a-f938-4136-857e-49cb567d812a",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250971932_3.jpg?alt=media&token=41e0bc3b-ca57-4bf3-973a-607a73c4779f",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsille-k%C3%B6y%C3%BC%2F1771250975676_4.jpg?alt=media&token=227779c3-a740-4871-bd25-c732735d72e6"
+  ],
   "konya-sultan-selim-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsultan-selim-camii%2F1765666607542_0.jpg?alt=media&token=2892fc90-4b46-4f8a-914e-100417833c46",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fsultan-selim-camii%2F1765666611462_1.jpg?alt=media&token=ab91519b-029e-4c36-933b-9fd0e368ad46",
@@ -260,6 +287,11 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Ft%C4%B1naztepe-ma%C4%9Faras%C4%B1%2F1770406356144_4.jpg?alt=media&token=42f788d7-3af3-4569-943d-a5e6abfa6dd9",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Ft%C4%B1naztepe-ma%C4%9Faras%C4%B1%2F1770406341915_2.jpg?alt=media&token=76e822ce-1bc4-4cf9-9ec4-a665bd04a0a5"
   ],
+  "konya-zaman-muzesi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fzaman-m%C3%BCzesi%2F1771251288953_0.jpg?alt=media&token=7742992e-bcde-4ecd-8faa-20a5602f5202",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fzaman-m%C3%BCzesi%2F1771251300237_1.jpg?alt=media&token=9c99acec-acd5-4b4a-8b1a-15b426c9de27",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2Fzaman-m%C3%BCzesi%2F1771251310012_2.jpg?alt=media&token=9e95ca84-5bb0-45fd-a154-238fba86d52c"
+  ],
   "konya-catalhoyuk": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F%C3%A7atalh%C3%B6y%C3%BCk%2F1765530038899_3.jpg?alt=media&token=850b2afb-a0b3-485a-8164-a83ed6c10596",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F%C3%A7atalh%C3%B6y%C3%BCk%2F1765530023853_1.jpg?alt=media&token=6ebb5fa2-0002-46d4-b348-7a2640a9ea2d",
@@ -275,6 +307,32 @@
   ],
   "konya-serafeddin-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F%C5%9Ferafeddin-camii%2F1767605285703_0.jpg?alt=media&token=c1ebc028-8d93-4ad0-a2b8-e22b0597f369"
+  ],
+  "konya-seytan-koprusu": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F%C5%9Feytan-k%C3%B6pr%C3%BCs%C3%BC%2F1771251372626_1.jpg?alt=media&token=f58e3b1f-0302-4f36-a826-7bf8dcdc1877",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F%C5%9Feytan-k%C3%B6pr%C3%BCs%C3%BC%2F1771251380672_2.jpg?alt=media&token=e000f5e6-ba5a-486f-9511-1a5e47dfd4d6",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkonya%2F%C5%9Feytan-k%C3%B6pr%C3%BCs%C3%BC%2F1771251360185_0.jpg?alt=media&token=f84722d7-ab2c-4c04-b76b-432e0113342a"
+  ]
+},
+"şanlıurfa": {
+
+  "sanliurfa-balikligol": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fbal%C4%B1kl%C4%B1g%C3%B6l%2F1766416102409_4.jpg?alt=media&token=0381d0fe-52a7-401e-b0b8-03e0fe5d2e3c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fbal%C4%B1kl%C4%B1g%C3%B6l%2F1766416092510_2.jpg?alt=media&token=3355843d-e4e1-4e5f-80db-01633be04883",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fbal%C4%B1kl%C4%B1g%C3%B6l%2F1766416088380_1.jpg?alt=media&token=bf93735e-9ebc-4cc3-aa4c-ea859244f1d6",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fbal%C4%B1kl%C4%B1g%C3%B6l%2F1766416098101_3.jpg?alt=media&token=856eb88a-4fb8-45e9-b8eb-756e73b75f66",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fbal%C4%B1kl%C4%B1g%C3%B6l%2F1766416082289_0.jpg?alt=media&token=1ddfe85a-7b2b-44e4-a761-ed3d74d7017e"
+  ],
+  "sanliurfa-gobeklitepe": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fg%C3%B6beklitepe%2F1766416001532_4.jpg?alt=media&token=e9565e5f-39c8-4226-a6ca-246947acdd6f",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fg%C3%B6beklitepe%2F1766415996612_3.jpg?alt=media&token=8e2973d7-e6b7-44fb-afd4-ddc2dda0b86b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fg%C3%B6beklitepe%2F1766415986128_1.jpg?alt=media&token=52d558c0-c94d-448a-9a0d-77aa98d7d504",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fg%C3%B6beklitepe%2F1766415990942_2.jpg?alt=media&token=b4703e78-31d0-4609-82b1-a0bc8f05540c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fg%C3%B6beklitepe%2F1766415979166_0.jpg?alt=media&token=ca9751d7-4687-495c-a285-b8dcfaf93076"
+  ],
+  "sanliurfa-rizvaniye-camii": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fr%C4%B1zvaniye-camii%2F1766416451892_0.jpg?alt=media&token=a7559f7f-d643-411c-b730-8ebc314e7ef5",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C5%9Fanl%C4%B1urfa%2Fr%C4%B1zvaniye-camii%2F1766416457927_1.jpg?alt=media&token=7cfd0b0e-e014-49cc-bb50-315429cc6292"
   ]
 }
 }

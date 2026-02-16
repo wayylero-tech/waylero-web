@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import PlaceSlider from "./PlaceSlider";
 
 // Data importları
@@ -37,6 +38,62 @@ type Props = {
   params: Promise<{ region: string; city: string; place: string }>;
 };
 
+
+
+// ==========================
+// 🔥 SEO METADATA
+// ==========================
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+
+  const region = resolvedParams.region;
+  const cityParam = slugify(decodeURIComponent(resolvedParams.city));
+  const placeParam = slugify(decodeURIComponent(resolvedParams.place));
+
+  const regionData = allData[region];
+  if (!regionData) return {};
+
+  const cityKey = Object.keys(regionData).find(
+    (key) => slugify(key) === cityParam
+  );
+  if (!cityKey) return {};
+
+  const foundPlace = regionData[cityKey].find(
+    (p: any) => slugify(p.slug) === placeParam
+  );
+  if (!foundPlace) return {};
+
+  const title = `${foundPlace.name?.tr} (${cityKey}) | Gezi Rehberi | Waylero`;
+
+  const description =
+    foundPlace.description?.tr?.slice(0, 155) ||
+    `${foundPlace.name?.tr}, ${cityKey} şehrinde bulunan popüler bir gezi noktasıdır.`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `https://waylero.com/kesfet/${region}/${cityParam}/${placeParam}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://waylero.com/kesfet/${region}/${cityParam}/${placeParam}`,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
+
+
+
+// ==========================
+// 🔥 PAGE
+// ==========================
 export default async function Page({ params }: Props) {
   const resolvedParams = await params;
 
@@ -57,7 +114,6 @@ export default async function Page({ params }: Props) {
   );
   if (!foundPlace) return notFound();
 
-  // Görselleri al
   const cityImageKey = slugify(cityKey);
   const placeKey = slugify(foundPlace.slug);
   const targetImageKey = placeKey.startsWith(cityImageKey)
@@ -69,10 +125,31 @@ export default async function Page({ params }: Props) {
     allImages[region]?.[targetImageKey] ||
     [];
 
+  // ==========================
+  // 🔥 SCHEMA (Google Boost)
+  // ==========================
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    name: foundPlace.name?.tr,
+    description: foundPlace.description?.tr,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: cityKey,
+      addressCountry: "TR",
+    },
+    geo: foundPlace.latitude && foundPlace.longitude
+      ? {
+          "@type": "GeoCoordinates",
+          latitude: foundPlace.latitude,
+          longitude: foundPlace.longitude,
+        }
+      : undefined,
+  };
+
   return (
     <main className="max-w-6xl mx-auto px-4 py-8 space-y-10">
       
-      {/* 🔹 Başlık ve breadcrumb en üstte */}
       <header className="border-b pb-8">
         <nav className="text-sm text-gray-400 uppercase mb-2">
           {region} / <span className="text-blue-500 font-bold">{cityKey}</span>
@@ -82,13 +159,9 @@ export default async function Page({ params }: Props) {
         </h1>
       </header>
 
-      {/* 🔹 Resim Slider */}
       <section>
         {placeImages.length > 0 ? (
-          <PlaceSlider
-            images={placeImages}
-            title={foundPlace.name?.tr}
-          />
+          <PlaceSlider images={placeImages} title={foundPlace.name?.tr} />
         ) : (
           <div className="h-[300px] rounded-[2.5rem] bg-gray-100 flex items-center justify-center text-gray-400">
             Resim yok
@@ -96,7 +169,6 @@ export default async function Page({ params }: Props) {
         )}
       </section>
 
-      {/* 🔹 Hakkında ve Aktiviteler */}
       <div className="grid md:grid-cols-3 gap-8">
         <div className="md:col-span-2 bg-white rounded-[2rem] border p-8 shadow-sm">
           <h2 className="text-xl font-bold mb-4">
@@ -126,7 +198,6 @@ export default async function Page({ params }: Props) {
         </div>
       </div>
 
-      {/* 🔹 Harita */}
       {foundPlace.latitude && foundPlace.longitude && (
         <section className="rounded-[2.5rem] overflow-hidden border shadow-xl h-[400px]">
           <iframe
@@ -138,6 +209,12 @@ export default async function Page({ params }: Props) {
           />
         </section>
       )}
+
+      {/* 🔥 JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </main>
   );
 }
