@@ -1,16 +1,17 @@
 "use client";
-
 import { useEffect, useState } from "react";
 
 export default function PlaceLightboxGallery({
   images,
+  initialIndex = 0,
   children,
 }: {
   images: string[];
+  initialIndex?: number;
   children: React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(initialIndex);
 
   useEffect(() => {
     if (!open) return;
@@ -31,7 +32,7 @@ export default function PlaceLightboxGallery({
     <>
       <div
         onClick={() => {
-          setIndex(0);
+          setIndex(initialIndex); // 🔥 gridde tıklanan resim ile aç
           setOpen(true);
         }}
         className="cursor-zoom-in"
@@ -41,7 +42,6 @@ export default function PlaceLightboxGallery({
 
       {open && (
         <div className="fixed inset-0 z-[9999] bg-black/95 flex items-center justify-center">
-          {/* KAPAT */}
           <button
             onClick={() => setOpen(false)}
             className="absolute top-6 right-6 text-white text-4xl font-black"
@@ -49,7 +49,6 @@ export default function PlaceLightboxGallery({
             ×
           </button>
 
-          {/* SOL */}
           {index > 0 && (
             <button
               onClick={() => setIndex(index - 1)}
@@ -59,13 +58,11 @@ export default function PlaceLightboxGallery({
             </button>
           )}
 
-          {/* RESİM */}
           <img
             src={images[index]}
             className="max-w-[92vw] max-h-[92vh] object-contain"
           />
 
-          {/* SAĞ */}
           {index < images.length - 1 && (
             <button
               onClick={() => setIndex(index + 1)}
@@ -75,7 +72,6 @@ export default function PlaceLightboxGallery({
             </button>
           )}
 
-          {/* SAYI */}
           <div className="absolute bottom-6 text-white text-sm opacity-70">
             {index + 1} / {images.length}
           </div>
