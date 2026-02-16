@@ -5,7 +5,7 @@ import turkey from "@/app/data/turkey.json";
 import europa from "@/app/data/europa.json";
 import asia from "@/app/data/asia.json";
 
-const allRegions = [
+const allRegions: any[] = [
   { data: turkey, region: "turkey" },
   { data: europa, region: "europa" },
   { data: asia, region: "asia" },
@@ -19,13 +19,13 @@ export function middleware(request: NextRequest) {
     const slug = pathname.replace("/", "");
 
     for (const regionObj of allRegions) {
-      const regionData = regionObj.data;
+      const regionData: any = regionObj.data;
 
       for (const city in regionData) {
-        const places = regionData[city];
+        const places = regionData[city] as any[];
 
         const found = places.find(
-          (place: any) => place.slug === slug
+          (place) => place.slug === slug
         );
 
         if (found) {
