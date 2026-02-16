@@ -11,10 +11,9 @@ const allRegions: any[] = [
   { data: asia, region: "asia" },
 ];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // sadece /slug formatını yakala
   if (pathname.split("/").length === 2) {
     const slug = pathname.replace("/", "");
 
