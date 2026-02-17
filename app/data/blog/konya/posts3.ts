@@ -3,7 +3,7 @@ export const konyaRehberPost = [
     slug: "konya-gezilecek-yerler-rehberi",
     title: "Konya’da Gezilecek Yerler (2026 Güncel ve Detaylı Rehber)",
     excerpt: "Konya gezilecek yerler 2026 rehberi: Mevlana Müzesi, Sille Köyü, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası ve Konya mutfağı dahil en kapsamlı gezi rotası.",
-    image: "/assets/blog/konya/genel/cover.png",
+    image: "/assets/blog/konya/genel/tinaztepe.png",
     gallery: [
       "/assets/blog/konya/genel/sille.png",
       "/assets/blog/konya/genel/meram.png",
