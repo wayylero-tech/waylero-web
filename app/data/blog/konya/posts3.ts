@@ -5,9 +5,13 @@ export const konyaRehberPost = [
     excerpt: "Konya gezilecek yerler 2026 rehberi: Mevlana Müzesi, Sille Köyü, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası ve Konya mutfağı dahil en kapsamlı gezi rotası.",
     image: "/assets/blog/konya/genel/tinaztepe.png",
     gallery: [
-      "/assets/blog/konya/genel/sille.png",
-      "/assets/blog/konya/genel/meram.png",
+      "/assets/blog/konya/genel/beysehir.png",
+      "/assets/blog/konya/genel/eflatun.png",
       "/assets/blog/konya/genel/tinaztepe.png",
+      "/assets/blog/konya/genel/esrefoglu.png",
+      "/assets/blog/konya/genel/yerköprü.png",
+
+
     ],
     date: "2026-02-17",
     city: "konya",
@@ -59,6 +63,16 @@ Detaylar için tıkla 🔗 **[İnce Minareli Medrese’yi İncele](https://www.w
 Detaylar için tıkla 🔗 **[Alaaddin Camii ve Tepesi Rehberi](https://www.waylero.com/kesfet/turkey/konya/alaaddin-tepesi-ve-alaaddin-camii)**
 
 ---
+
+
+### 🕌 Eşrefoğlu Camii (Beyşehir)
+
+1299 yılında Eşrefoğlu Süleyman Bey tarafından yaptırılmıştır. Anadolu’daki en büyük ahşap direkli camilerden biridir ve UNESCO Dünya Mirası Listesi’ndedir. İç mekandaki ahşap işçiliği ve atmosferi oldukça etkileyicidir.
+
+Detaylar için tıkla 🔗 **[Eşrefoğlu Camii Rehberi](https://www.waylero.com/kesfet/turkey/konya/esrefoglu-camii)**
+
+---
+
 
 ## 🏛 Antik Kentler
 
@@ -112,11 +126,13 @@ Detaylar için tıkla 🔗 **[Meram Bağları](https://www.waylero.com/kesfet/tu
 
 ---
 
-### 🌊 Yerköprü Şelalesi
+### 🌊 Yerköprü Şelalesi (Mutlaka Görülmeli)
 
-Turkuaz rengi ile fotoğraf severler için eşsiz bir lokasyondur.
+Göksu Nehri üzerinde yer alan Yerköprü Şelalesi, turkuaz rengi ve doğal oluşumuyla Konya’nın en etkileyici doğa harikalarından biridir. Ahşap yürüyüş platformları sayesinde şelalenin alt kısmına kadar inilebilir.
 
-Detaylar için tıkla 🔗**[Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkey/konya/yerkopru-selalesi)**
+Detaylar için tıkla 🔗 **[Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkey/konya/goksu-yerkopru-selalesi)**
+
+---
 
 ---
 
@@ -156,6 +172,9 @@ Detaylar için tıkla 🔗 **[Sille Köyü Rehberi](https://www.waylero.com/kesf
 
 Konya sadece bir şehir değil; bir medeniyetin merkezidir.
 
-Waylero ile rotanı oluştur, keşfetmeye başla.    `
+Konya için daha fazla yer önerisi için tıkla 
+Detaylar için tıkla 🔗 **[Konya'da Gezilecek Yerler](https://www.waylero.com/kesfet?q=konya)**
+
+Waylero ile keşfet, planla, paylaş.    `
   }
 ];

@@ -1,6 +1,5 @@
 "use client";
 
-
 import { useEffect } from "react";
 import Link from "next/link";
 import HomeSearch from "./HomeSearch";
@@ -54,7 +53,6 @@ function AdSlot({ slot }: { slot: string }) {
   );
 }
 
-
 export default function HomePage() {
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -70,19 +68,6 @@ export default function HomePage() {
     });
   }, []);
 
-  const openNearbyPharmacies = () => {
-    navigator.geolocation.getCurrentPosition(
-      ({ coords }) => {
-        window.open(
-          `https://www.google.com/maps/search/eczane/@${coords.latitude},${coords.longitude},14z`,
-          "_blank",
-          "noopener,noreferrer"
-        );
-      },
-      () => alert("Konum alınamadı")
-    );
-  };
-
   return (
     <main className="min-h-screen bg-gray-50/50 flex flex-col">
       <div className="flex-1 flex justify-center max-w-[1600px] mx-auto gap-4 w-full">
@@ -93,52 +78,67 @@ export default function HomePage() {
 
         <div className="flex-1 max-w-6xl bg-white shadow-sm px-4 py-6">
 
-          {/* HEADER */}
-          <header className="flex items-center justify-between mb-6">
-            <Link href="/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/logo.png" className="h-20" />
-            </Link>
-            <Link href="/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/logo-sag.png" className="h-20" />
-            </Link>
-          </header>
+         {/* HEADER */}
+<header className="mb-6">
+  <div className="flex items-center justify-between">
+    
+    {/* SOL TARAF */}
+    <div className="flex flex-col items-start">
+      <Link href="/" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/logo.png" className="h-20" />
+      </Link>
+
+      {/* 🔥 SLOGAN SOLA ALINDI */}
+    <p className="mt-4 text-base font-semibold ml-6 
+bg-gradient-to-r from-blue-700 via-cyan-500 to-blue-500 
+bg-clip-text text-transparent">
+  Keşfet, Planla, Paylaş.
+</p>
+    </div>
+
+    {/* SAĞ LOGO */}
+    <Link href="/" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/logo-sag.png" className="h-40" />
+    </Link>
+
+  </div>
+</header>
 
           <HomeSearch />
 
           {/* QUICK MENU */}
           <section className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-10">
-  {quickMenu.map((item) => (
-    <div key={item.title} className="flex flex-col items-center">
-      {item.url ? (
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="h-60 w-full rounded-2xl overflow-hidden block"
-        >
-          <div
-            className="h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${item.image})` }}
-          />
-        </a>
-      ) : (
-        <Link
-          href={item.route!}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="h-60 w-full rounded-2xl overflow-hidden block"
-        >
-          <div
-            className="h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${item.image})` }}
-          />
-        </Link>
-      )}
-      <span className="mt-2 font-medium">{item.title}</span>
-    </div>
-  ))}
-</section>
-
+            {quickMenu.map((item) => (
+              <div key={item.title} className="flex flex-col items-center">
+                {item.url ? (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-60 w-full rounded-2xl overflow-hidden block"
+                  >
+                    <div
+                      className="h-full bg-cover bg-center"
+                      style={{ backgroundImage: `url(${item.image})` }}
+                    />
+                  </a>
+                ) : (
+                  <Link
+                    href={item.route!}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-60 w-full rounded-2xl overflow-hidden block"
+                  >
+                    <div
+                      className="h-full bg-cover bg-center"
+                      style={{ backgroundImage: `url(${item.image})` }}
+                    />
+                  </Link>
+                )}
+                <span className="mt-2 font-medium">{item.title}</span>
+              </div>
+            ))}
+          </section>
 
           <HomeBlogSlider />
 
@@ -172,8 +172,6 @@ export default function HomePage() {
           <AdSlot slot="5241070307" />
         </aside>
       </div>
-
- 
     </main>
   );
 }
