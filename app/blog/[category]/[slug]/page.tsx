@@ -8,6 +8,8 @@ import { konyaPosts } from "@/app/data/blog/konya/posts";
 import { istanbulPosts } from "@/app/data/blog/istanbul/posts";
 import { konyaPosts2 } from "@/app/data/blog/konya/posts2";
 import { konyaRehberPost } from "@/app/data/blog/konya/posts3";
+import { selalelerRehberPost } from "@/app/data/blog/selale/posts";
+
 
 const posts = [
   ...generalPosts,
@@ -17,6 +19,8 @@ const posts = [
   ...istanbulPosts,
   ...konyaPosts2,
   ...konyaRehberPost,
+  ...selalelerRehberPost,
+
 ];
 
 export default async function Page({

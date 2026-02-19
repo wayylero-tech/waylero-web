@@ -46,7 +46,7 @@
         ]
       },
       "images": [
-        "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fk%C4%B1z-kulesi%2F1766739199080_1.jpg?alt=media&token=5dfe329c-6102-4ce5-b796-feadff51fb2d"
+        "https://example.com/maiden_tower_istanbul.jpg"
       ]
     },
     {
@@ -3568,93 +3568,6 @@
         "https://example.com/agacalti_kilisesi_2.jpg"
       ]
     },
-{
-    "slug": "yilanli-kilise",
-    "name": {
-      "tr": "Yılanlı Kilise",
-      "en": "Serpentine Church",
-      "de": "Schlangen Kirche"
-    },
-    "latitude": 38.2512,
-    "longitude": 34.3901,
-    "description": {
-      "tr": "Ihlara Vadisi’nde yer alan Yılanlı Kilise, serbest Yunan haçı planında tasarlanmış kaya kiliselerinden biridir. Freskoları 9. yüzyıl ile 12. yüzyıl arasına tarihlenir ve İsa’nın çarmıhta çilesi, Kudüs’e giriş gibi sahneler yer alır. Kilise kayalara oyulmuş mimarisi ve tarihi freskleriyle dikkat çeker.",
-      "en": "Located in the Ihlara Valley, Serpentine Church is a rock-hewn church designed in a free Greek cross plan. Its frescoes date from the 9th to the 12th century and depict scenes such as the Passion of Christ and the entry into Jerusalem. The church is notable for its carved architecture and historic murals.",
-      "de": "Die Schlangen Kirche im Ihlara-Tal ist eine in den Felsen gehauene Kirche mit freiem griechischem Kreuzgrundriss. Ihre Fresken, die vom 9. bis 12. Jahrhundert datiert werden, zeigen Szenen wie die Passion Christi und den Einzug in Jerusalem. Die Kirche besticht durch ihre Felsarchitektur und historischen Wandmalereien."
-    },
-    "activities": {
-      "tr": ["Freskleri ve kaya mimarisini incelemek", "Ihlara Vadisi’ni gezmek", "Fotoğraf çekmek"],
-      "en": ["Examine the frescoes and rock architecture", "Explore Ihlara Valley", "Photography"],
-      "de": ["Die Fresken und Felsarchitektur untersuchen", "Das Ihlara-Tal erkunden", "Fotografieren"]
-    },
-    "categories": {
-      "tr": ["kilise", "tarihî yapı"],
-      "en": ["church", "historic site"],
-      "de": ["Kirche", "historische Stätte"]
-    },
-    "images": [
-      "https://example.com/yilanli_kilise_1.jpg",
-      "https://example.com/yilanli_kilise_2.jpg"
-    ]
-  },
-  {
-    "slug": "sumbullu-kilise",
-    "name": {
-      "tr": "Sümbüllü Kilise",
-      "en": "Hyacinth Church",
-      "de": "Hyazinthen Kirche"
-    },
-    "latitude": 38.2512,
-    "longitude": 34.3901,
-    "description": {
-      "tr": "Ihlara Vadisi’nde adını çevresinde yetişen sümbül çiçeklerinden alan Sümbüllü Kilise, iki katlı kaya oyma manastır yapısı içinde yer alır. Freskoları 10. – 12. yüzyıllara tarihlenir ve Mikail ile Cebrail arasında Meryem, İsa Pantokrator gibi sahneler içerir.",
-      "en": "Located in the Ihlara Valley, the Hyacinth Church is named after the wild hyacinths around it and is situated within a two‑story rock‑cut monastery structure. Its frescoes date from the 10th to 12th centuries and include scenes such as Mary between Michael and Gabriel and Christ Pantocrator.",
-      "de": "Die Hyazinthen Kirche im Ihlara‑Tal, benannt nach den umgebenden wilden Hyazinthen, befindet sich in einem zweistöckigen in den Felsen gehauenen Klosterbau. Ihre Fresken stammen aus dem 10. bis 12. Jahrhundert und zeigen Szenen wie Maria zwischen Michael und Gabriel und Christus Pantokrator."
-    },
-    "activities": {
-      "tr": ["Manastır ve kiliseyi keşfetmek", "Tarihi freskleri incelemek", "Doğayı ve vadinin güzelliğini görmek"],
-      "en": ["Explore the monastery and church", "Study historic frescoes", "Enjoy nature and valley views"],
-      "de": ["Das Kloster und die Kirche erkunden", "Historische Fresken studieren", "Die Natur und Talansichten genießen"]
-    },
-    "categories": {
-      "tr": ["kilise", "manastır", "tarihî yapı"],
-      "en": ["church", "monastery", "historic site"],
-      "de": ["Kirche", "Kloster", "historische Stätte"]
-    },
-    "images": [
-      "https://example.com/sumbullu_kilise_1.jpg",
-      "https://example.com/sumbullu_kilise_2.jpg"
-    ]
-  },
-  {
-    "slug": "selime-katedrali",
-    "name": {
-      "tr": "Selime Katedrali",
-      "en": "Selime Cathedral",
-      "de": "Selime Kathedrale"
-    },
-    "latitude": 38.2720,
-    "longitude": 34.3115,
-    "description": {
-      "tr": "Selime Kasabası’nda Ihlara Vadisi bitiminde yer alan Selime Katedrali, kayalara oyulmuş büyük bazilikal kilisedir. İki sıra sütunla üç nefe ayrılır. İçindeki fresklerde İsa’nın göğe yükselişi, Meryem sahneleri gibi birçok dini anlatım bulunur. Ayrıca katedralin üst kısmı bir kale gibi inşa edilmiştir.",
-      "en": "Located at the end of Ihlara Valley in Selime town, Selime Cathedral is a large rock‑cut basilica church divided into three naves by two rows of columns. It contains frescoes depicting scenes such as the Ascension of Christ and Virgin Mary. The upper part of the cathedral was built with defensive features like a castle.",
-      "de": "Die Selime Kathedrale am Ende des Ihlara‑Tals in Selime ist eine große in den Felsen gehauene Basilika, die durch zwei Säulenreihen in drei Schiffe geteilt wird. Sie enthält Fresken mit Szenen wie der Himmelfahrt Christi und der Jungfrau Maria. Der obere Teil der Kathedrale wurde mit wehrhaften Elementen wie einer Burg erbaut."
-    },
-    "activities": {
-      "tr": ["Katedrali gezmek", "Freskleri ve kaya mimarisini görmek", "Peribacaları bölgesini keşfetmek"],
-      "en": ["Tour the cathedral", "See frescoes and rock architecture", "Explore nearby fairy chimneys"],
-      "de": ["Die Kathedrale besichtigen", "Fresken und Felsarchitektur sehen", "Die nahe gelegenen Feenkamine erkunden"]
-    },
-    "categories": {
-      "tr": ["katedral", "tarihî yapı"],
-      "en": ["cathedral", "historic site"],
-      "de": ["Kathedrale", "historische Stätte"]
-    },
-    "images": [
-      "https://example.com/selime_katedrali_1.jpg",
-      "https://example.com/selime_katedrali_2.jpg"
-    ]
-  },
     {
       "slug": "aksaray-muzesi",
       "name": {
@@ -6722,7 +6635,8 @@
       "latitude": 37.02824,
       "longitude": 32.69926,
       "description": {
-        "tr": "Yerköprü Şelalesi, Konya'nın Hadim ilçesinde yer alır ve Konya merkeze 110 kilometre uzaklıktadır. Göksu Nehri üzerinde bulunan bu şelale, eşsiz doğal güzelliğiyle her yıl çok sayıda turistin ilgisini çeker. Özellikle Haziran ayında, zakkum çiçeklerinin renk cümbüşüyle ve diğer ağaçların çiçekleriyle çevrili olan şelale, adeta bir doğa harikası haline gelir.\n",
+        "tr": "Yerköprü Şelalesi (Konya)\n\nYerköprü Şelalesi, Konya’nın Hadim ilçesinde yer alır ve Konya şehir merkezine yaklaşık 110 kilometre uzaklıktadır. Göksu Nehri üzerinde bulunan bu doğa harikası, turkuaz renkli suyu, doğal kaya oluşumları ve etkileyici manzarasıyla İç Anadolu’nun en dikkat çekici doğal güzelliklerinden biridir.\n\nŞelale, adını suyun doğal kaya köprüsünün altından akarak oluşturduğu eşsiz görüntüden alır. Suyun döküldüğü noktada oluşan berrak havuz ve çevresindeki yemyeşil bitki örtüsü, bölgeye adeta saklı bir cennet atmosferi kazandırır. Özellikle yaz aylarında serin havası ve huzurlu ortamıyla ziyaretçilerine dinlendirici bir deneyim sunar.\n\nHaziran ayında açan zakkum çiçekleri ve çevredeki ağaçların oluşturduğu renk cümbüşü, şelaleye ayrı bir güzellik katar. Fotoğraf tutkunları için doğal ışık, suyun akışı ve bitki örtüsü muhteşem kareler yakalama imkânı sunar.\n\n📍 Neden Önemli?\n• Konya’nın en etkileyici doğal güzelliklerinden biridir\n• Turkuaz renkli doğal havuzu ile dikkat çeker\n• Doğal kaya köprüsü ve farklı jeolojik yapısıyla benzersizdir\n• Fotoğraf ve doğa tutkunları için ideal bir rotadır\n\n🗓 Ne Zaman Gidilir?\n• Mayıs – Haziran: Doğanın en canlı ve çiçekli dönemi\n• Yaz ayları: Serinlemek ve doğayla baş başa kalmak için ideal\n• İlkbahar: Su debisinin arttığı en etkileyici dönem\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Doğayı koruyun ve çevreyi temiz bırakın\n• Fotoğraf için sabah veya gün batımı saatlerini tercih edin\n• Yazın serin hava için hafif bir üst giysi bulundurabilirsiniz\n\nYerköprü Şelalesi, doğal güzelliği, sakin atmosferi ve büyüleyici manzarasıyla Konya çevresinde mutlaka görülmesi gereken rotalar arasında yer alır."
+,
         "en": "Yerköprü Waterfall is located in the Hadim district of Konya, 110 kilometers away from Konya city center. Situated on the Göksu River, this waterfall captivates visitors with its unique natural beauty. The best time to visit is in June when the vivid colors of oleanders and the blossoms of many trees turn the waterfall into a true natural wonder.\n",
         "de": "Der Yerköprü-Wasserfall befindet sich im Landkreis Hadim in Konya und ist 110 Kilometer vom Stadtzentrum von Konya entfernt. Der Wasserfall, der am Göksu-Fluss liegt, zieht mit seiner einzigartigen natürlichen Schönheit viele Touristen an. Besonders im Juni, wenn die leuchtenden Farben der Oleander und die Blüten vieler Bäume die Wasserfälle umgeben, verwandelt sich der Wasserfall in ein wahres Naturwunder.\n"
       },
@@ -7193,116 +7107,17 @@
         "https://example.com/mevlana_muzesi.jpg"
       ]
     },
- {
-    "slug": "zaman-muzesi",
-    "name": {
-      "tr": "Zaman Müzesi",
-      "en": "Time Museum",
-      "de": "Zeitmuseum"
-    },
-    "latitude": 37.92506,
-    "longitude": 32.40978,
-    "description": {
-      "tr": "Sille Mahallesi’ndeki tarihi bir şapelin restore edilmesiyle oluşturulan Zaman Müzesi, Osmanlı’dan Cumhuriyet’e kadar farklı dönemlerde zamanın nasıl ölçüldüğünü gösteren saatler, takvimler ve güneş saatleri gibi objeleri sergileyen kültürel bir müzedir. Ziyaretçilere zamanda yolculuk hissi verir ve Türkiye’nin ilk “zaman temalı” müzelerinden biridir.",
-      "en": "Located in a restored chapel in Sille neighbourhood, the Time Museum exhibits artifacts showing how time was measured from Ottoman to Republican periods including clocks, calendars and sundials. It offers visitors a cultural journey through time and is one of Turkey’s first 'time-themed' museums.",
-      "de": "Das im historischen Sille-Viertel in einer restaurierten Kapelle gelegene Zeitmuseum zeigt Exponate zur Zeitmessung vom Osmanischen Reich bis zur frühen Republik, einschließlich Uhren, Kalendern und Sonnenuhren. Es bietet Besuchern eine kulturelle Zeitreise und gehört zu den ersten Zeitmuseen der Türkei."
-    },
-    "activities": {
-      "tr": [
-        "Müze koleksiyonunu gezmek",
-        "Tarihî zaman ölçüm cihazlarını incelemek",
-        "Sille’nin tarihi dokusunu keşfetmek"
-      ],
-      "en": [
-        "Explore the museum collection",
-        "Examine historic timekeeping artifacts",
-        "Discover the historic fabric of Sille"
-      ],
-      "de": [
-        "Die Museumsammlung erkunden",
-        "Historische Zeitmessgeräte untersuchen",
-        "Die historische Struktur von Sille entdecken"
-      ]
-    },
-    "categories": {
-      "tr": ["müze"],
-      "en": ["museum"],
-      "de": ["Museum"]
-    },
-    "images": [
-      "https://example.com/sille_zaman_muzesi_1.jpg",
-      "https://example.com/sille_zaman_muzesi_2.jpg"
-    ]
-  },
-  {
-    "slug": "seytan-koprusu",
-    "name": {
-      "tr": "Şeytan Köprüsü",
-      "en": "Devil’s Bridge",
-      "de": "Teufelsbrücke"
-    },
-    "latitude": 37.92928,
-    "longitude": 32.41216,
-    "description": {
-      "tr": "Sille Mahallesi’nde bir su kemeri olarak inşa edilmiş, zamanla iki yamacı birbirine bağlayan tarihi taş yapı. Dar ve yüksek yapısıyla dikkat çeker ve halk arasında 'Şeytan Köprüsü' olarak adlandırılır. Bugün doğa yürüyüş rotalarında da görülebilir.",
-      "en": "Originally built as a water aqueduct in the Sille neighbourhood, this historic stone structure became a narrow crossing between two slopes and is popularly known as the 'Devil’s Bridge.' It is notable for its striking appearance and is a point of interest on walking trails.",
-      "de": "Ursprünglich als Wasserleitung im Stadtteil Sille erbaut, dient diese historische Steinbrücke als schmaler Übergang zwischen zwei Hängen und ist als 'Teufelsbrücke' bekannt. Sie besticht durch ihr markantes Erscheinungsbild und ist ein interessanter Punkt auf Wanderwegen."
-    },
-    "activities": {
-      "tr": ["Yürüyüş ve fotoğraf çekme", "Tarihi yapıyı gözlemleme", "Doğayı keşfetme"],
-      "en": ["Hiking and photography", "Observe the historic structure", "Explore the natural surroundings"],
-      "de": ["Wandern und fotografieren", "Die historische Struktur beobachten", "Die natürliche Umgebung erkunden"]
-    },
-    "categories": {
-      "tr": ["köprü"],
-      "en": ["bridge"],
-      "de": ["Brücke"]
-    },
-    "images": [
-      "https://example.com/seytan_koprusu_1.jpg",
-      "https://example.com/seytan_koprusu_2.jpg"
-    ]
-  },
-  {
-    "slug": "cemel-ali-dede-turbesi",
-    "name": {
-      "tr": "Cemel Ali Dede Türbesi ve Zaviye",
-      "en": "Cemel Ali Dede Tomb and Zaviye",
-      "de": "Cemel Ali Dede Grab und Zaviye"
-    },
-    "latitude": 37.8665,
-    "longitude": 32.4823,
-    "description": {
-      "tr": "Hz. Mevlâna’nın lalası olarak bilinen Cemel Ali Dede, onu çocukken sırtında taşıdığı için bu isimle anılmıştır. Meram bağlarında kurulan bu yapı bir Mevlevî zaviyesidir. Günümüze türbe ve mescid (semahane) bölümü ulaşmıştır. Eyvan biçimli mimarisi ve Selçuklu dönemi çini süslemeleriyle dikkat çeker ve Konya’daki eyvan tipli türbelerin önemli örneklerinden biridir. Yüzyıllardır ayakta duran bu manevi mekân, Konya’nın tasavvuf mirasının sessiz ama güçlü izlerinden biridir.",
-      "en": "Known as Rumi’s caretaker in his childhood, Cemel Ali Dede carried him on his back, giving him this name. Established in the vineyards of Meram, this site is a Mevlevi zaviye. Today, the tomb and mosque (semhane) sections survive. Notable for its iwan-style architecture and Seljuk ceramic decorations, it is one of the key examples of iwan-type tombs in Konya. Standing for centuries, this spiritual place is a quiet yet powerful trace of Konya’s Sufi heritage.",
-      "de": "Bekannt als Betreuer von Rumi in seiner Kindheit, trug Cemel Ali Dede ihn auf dem Rücken, weshalb er diesen Namen erhielt. In den Weinbergen von Meram gegründet, ist dies eine Mevlevî-Zaviye. Heute sind Grab und Moschee (Semahane) erhalten. Auffällig ist die Eywan-Architektur und die seldschukischen Keramikverzierungen; sie ist eines der wichtigsten Beispiele für Eywan-Typ-Türben in Konya. Seit Jahrhunderten stehend, ist dieser spirituelle Ort eine stille, aber kraftvolle Spur des Sufi-Erbes von Konya."
-    },
-    "activities": {
-      "tr": ["Türbeyi ve mescidi ziyaret etmek", "Mevlevî kültürü ve tarihi hakkında bilgi edinmek", "Eyvan mimarisini ve çini süslemeleri incelemek", "Fotoğraf çekmek"],
-      "en": ["Visit the tomb and mosque", "Learn about Mevlevi culture and history", "Examine the iwan architecture and ceramic decorations", "Photography"],
-      "de": ["Besuche das Grab und die Moschee", "Über Mevlevî-Kultur und Geschichte informieren", "Die Eywan-Architektur und Keramikverzierungen untersuchen", "Fotografieren"]
-    },
-    "categories": {
-      "tr": ["türbe", "zaviye", "tasavvuf"],
-      "en": ["tomb", "zaviye", "sufism"],
-      "de": ["Grab", "Zaviye", "Sufismus"]
-    },
-    "images": [
-      "https://example.com/cemel_ali_dede_turbe_1.jpg",
-      "https://example.com/cemel_ali_dede_turbe_2.jpg"
-    ]
-  },
     {
-      "slug": "alaaddin-tepesi-ve-alaaddin-camii",
+      "slug": "alaeddin-tepesi-ve-alaeddin-camii",
       "name": {
-        "tr": "Alaaddin Tepesi ve Alaaddin Camii",
-        "en": "Alaaddin Hill and Alaaddin Mosque",
-        "de": "Alaaddin Hügel und Alaaddin Moschee"
+        "tr": "Alaeddin Tepesi ve Alaeddin Camii",
+        "en": "Alaeddin Hill and Alaeddin Mosque",
+        "de": "Alaeddin Hügel und Alaeddin Moschee"
       },
       "latitude": 37.87272,
       "longitude": 32.49228,
       "description": {
-        "tr": "    Alaaddin Tepesi, Konya'nın merkezine hakim bir tepedir. Tepede bulunan Alaaddin Camii, Selçuklu dönemi mimarisinin örneklerinden biridir. Ayrıca, çevresindeki park ve alan, şehrin merkezinden güzel bir manzara sunmaktadır.",
+        "tr": "    Alaeddin Tepesi, Konya'nın merkezine hakim bir tepedir. Tepede bulunan Alaeddin Camii, Selçuklu dönemi mimarisinin örneklerinden biridir. Ayrıca, çevresindeki park ve alan, şehrin merkezinden güzel bir manzara sunmaktadır.",
         "de": "    Der Alaeddin-Hügel ist ein Hügel, der das Zentrum von Konya dominiert. Die Alaeddin-Moschee auf dem Hügel ist ein Beispiel für die Architektur der Seldschukenzeit. Auch der umliegende Park und die Umgebung bieten einen schönen Blick auf das Stadtzentrum. ",
         "en": "    Alaeddin Hill is a hill    overlooking the center of Konya. Alaeddin Mosque, located on the hill, is one of the examples of Seljuk period architecture. Also, the surrounding park and area offers a beautiful view from the center of the city."
       },
@@ -8147,7 +7962,53 @@
         "https://example.com/aksehir_golleri.jpg"
       ]
     },
-        {
+    {
+      "slug": "karatay-camii",
+      "name": {
+        "tr": "Karatay Camii",
+        "en": "Karatay Mosque",
+        "de": "Karatay Moschee"
+      },
+      "latitude": 37.86667,
+      "longitude": 32.5,
+      "description": {
+        "tr": "    Karatay Camii, Konya il sınırlarında yer alan ve 1251 yılında Selçuklu Sultanı I. İzzeddin Keykavus tarafından inşa edilen tarihi bir camidir.\n    Selçuklu döneminin en önemli örneklerinden biri olan camii, zarif taş işçiliği ve etkileyici iç mekan süslemeleriyle dikkat çeker.\n    Bugün müze olarak kullanılan camii, Konya'nın en önemli kültürel miraslarından biridir. ",
+        "en": "    Karatay Mosque is a historical mosque located in Konya province and was built in 1251 by the Seljuk Sultan Izzeddin Keykavus I.    One of the most important examples of the Seljuk period, the mosque attracts attention with    its elegant stone work and impressive interior decorations.    Today used as a museum, the mosque is one of the most important cultural heritages of Konya. ",
+        "de": "    Die Karatay-Moschee ist eine historische Moschee in der Provinz Konya und wurde 1251 von dem seldschukischen Sultan Izzeddin Keykavus I. erbaut.    Die Moschee ist eines der bedeutendsten Zeugnisse der seldschukischen Epoche und besticht durch    ihre elegante Steinbearbeitung und beeindruckende Innenausstattung.    Die Moschee, die heute als Museum genutzt wird, ist eines der wichtigsten Kulturdenkmäler von Konya.  "
+      },
+      "activities": {
+        "tr": [
+          "Tarihi ve kültürel geziler yapmak",
+          "Mimari detayları incelemek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Take historical and cultural tours",
+          "Examine architectural details",
+          "Photography"
+        ],
+        "de": [
+          "Historische und kulturelle Touren machen",
+          "Architektonische Details untersuchen",
+          "Fotografie"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "cami"
+        ],
+        "en": [
+          "mosque"
+        ],
+        "de": [
+          "Moschee"
+        ]
+      },
+      "images": [
+        "https://example.com/karatay_camii.jpg"
+      ]
+    },
+    {
       "slug": "haciveyiszade-camii",
       "name": {
         "tr": "Hacıveyiszade Camii",
@@ -18338,7 +18199,7 @@
       "latitude": 40.72354,
       "longitude": 31.04988,
       "description": {
-        "tr": "Güzeldere Şelalesi, Düzce'nin en güzel doğa harikalarından biridir. Yüksekten düşen suyun oluşturduğu manzara, doğa severler ve fotoğrafçılar için mükemmel bir yerdir.\n",
+         "tr": "Güzeldere Şelalesi, Düzce’nin Gölyaka ilçesi sınırlarında, Güzeldere Tabiat Parkı içerisinde yer alan ve Batı Karadeniz’in en etkileyici doğal güzelliklerinden biridir. Yaklaşık 130 metre yükseklikten dökülen suyu ile Türkiye’nin en yüksek şelaleleri arasında gösterilir.\n\nOrmanlarla çevrili dik bir vadide bulunan şelale, özellikle ilkbahar aylarında artan su debisiyle birlikte oldukça görkemli bir manzara sunar. Gürül gürül akan su sesi ve çevresindeki zengin bitki örtüsü, ziyaretçilere huzurlu ve serin bir atmosfer sağlar.\n\nŞelaleye ulaşım için düzenlenmiş yürüyüş yolları ve merdivenler bulunmaktadır. Doğa yürüyüşü, fotoğrafçılık ve manzara seyri için oldukça elverişli bir ortam sunar. Sonbahar aylarında ise ormanın sarı ve kızıl tonları şelaleye ayrı bir güzellik katar.",
         "en": "Güzeldere Waterfall is one of Düzce's most beautiful natural wonders. The view created by the water falling from a great height is perfect for nature lovers and photographers.\n",
         "de": "Der Güzeldere-Wasserfall ist eines der schönsten Naturwunder von Düzce. Der Anblick des Wassers, das aus großer Höhe fällt, ist perfekt für Naturliebhaber und Fotografen.\n"
       },
@@ -19029,6 +18890,53 @@
         "https://example.com/karanlik_kanyon.jpg"
       ]
     },
+{
+  "slug": "girlevik-selalesi",
+  "name": {
+    "tr": "Girlevik Şelalesi",
+    "en": "Girlevik Waterfall",
+    "de": "Girlevik Wasserfall"
+  },
+  "latitude": 39.60750,
+  "longitude": 39.34694,
+  "description": {
+    "tr": "Girlevik Şelalesi, Erzincan şehir merkezine yaklaşık 35 kilometre uzaklıkta, Çağlayan beldesi yakınlarında yer alan etkileyici bir doğa harikasıdır. Munzur Dağları’nın eteklerinden çıkan yer altı kaynak sularının kayalık yamaçlardan dökülmesiyle oluşur.\n\nYaklaşık 30–40 metre genişliğe yayılan çoklu su akışları, özellikle ilkbahar aylarında artan debiyle birlikte oldukça görkemli bir manzara sunar. Şelalenin çevresi düzenlenmiş yürüyüş alanları ve dinlenme noktalarıyla ziyaretçiler için elverişlidir.\n\nKış aylarında donan su kütleleri dev buz sarkıtları oluşturarak bölgeyi adeta doğal bir buz sarayına dönüştürür. Bu özelliği sayesinde Girlevik Şelalesi dört mevsim ziyaret edilebilen özel bir rota haline gelmiştir.",
+    "en": "Girlevik Waterfall is located approximately 35 kilometers from Erzincan city center, near Çağlayan town. It is formed by underground spring waters emerging from the foothills of the Munzur Mountains and cascading down rocky cliffs.\n\nSpreading across a width of about 30–40 meters, the multiple streams create an impressive view, especially during spring when the water flow increases. The surrounding area includes walking paths and resting spots for visitors.\n\nIn winter, the waterfall freezes and forms massive icicles, transforming the area into a natural ice palace. This seasonal transformation makes Girlevik Waterfall a year-round attraction.",
+    "de": "Der Girlevik-Wasserfall liegt etwa 35 Kilometer vom Stadtzentrum von Erzincan entfernt, in der Nähe der Ortschaft Çağlayan. Er entsteht durch unterirdische Quellen, die aus den Ausläufern des Munzur-Gebirges austreten und über felsige Hänge hinabstürzen.\n\nMit einer Breite von etwa 30–40 Metern bietet der Wasserfall besonders im Frühling, wenn die Wassermenge zunimmt, ein beeindruckendes Naturschauspiel. Die Umgebung verfügt über Spazierwege und Rastbereiche.\n\nIm Winter gefriert der Wasserfall teilweise und bildet große Eiszapfen, wodurch sich die Landschaft in eine natürliche Eislandschaft verwandelt. Dadurch ist der Girlevik-Wasserfall das ganze Jahr über ein attraktives Ausflugsziel."
+  },
+  "activities": {
+    "tr": [
+      "Doğa yürüyüşü",
+      "Fotoğrafçılık",
+      "Piknik yapmak"
+    ],
+    "en": [
+      "Nature walks",
+      "Photography",
+      "Picnicking"
+    ],
+    "de": [
+      "Naturwanderungen",
+      "Fotografie",
+      "Picknick"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "şelale"
+    ],
+    "en": [
+      "waterfall"
+    ],
+    "de": [
+      "Wasserfall"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/5/5e/Girlevik_Selalesi_Erzincan.jpg"
+  ]
+},
+
     {
       "slug": "kemah-kalesi",
       "name": {
@@ -19189,7 +19097,8 @@
       "longitude": 41.66861,
       "description": {
         "en": "Tortum Waterfall, located in Erzurum Province in eastern Turkey, is one of the highest and most spectacular waterfalls in the country. With a height of approximately 48 meters and a width of 22 meters, it originates from the Tortum Lake and cascades with impressive force, especially during springtime. Formed by a massive landslide that blocked the river centuries ago, the waterfall offers scenic beauty and is surrounded by lush nature. A walking path and viewing terraces make it accessible for visitors, making it a popular tourist attraction in the region.",
-        "tr": "Tortum Şelalesi, Türkiye’nin Doğu Anadolu Bölgesi’nde, Erzurum ilinin Uzundere ilçesinde yer alır ve Türkiye’nin en yüksek ve görkemli şelalelerinden biridir. Yaklaşık 48 metre yüksekliğe ve 22 metre genişliğe sahiptir. Tortum Gölü’nden akan suların oluşturduğu bu şelale, özellikle ilkbaharda etkileyici bir debiyle akar. Yüzyıllar önce yaşanan büyük bir heyelanın vadiyi kapatmasıyla oluşmuştur. Etrafı yemyeşil doğa ile çevrili olan şelale, yürüyüş yolları ve seyir terasları sayesinde ziyaretçilere keyifli bir deneyim sunar.",
+        "tr": "Tortum Şelalesi (Erzurum)\n\nTortum Şelalesi, Erzurum’un Uzundere ilçesinde, Tortum Gölü’nün fazla sularının dökülmesiyle oluşmuş Türkiye’nin en büyük ve en etkileyici şelalelerinden biridir. Yaklaşık 48 metre yüksekliği ve geniş su perdesiyle özellikle ilkbahar aylarında son derece görkemli bir manzara sunar.\n\nŞelale, tek parça halinde yüksekten dökülmesiyle klasik basamaklı şelalelerden ayrılır. Güçlü akışı nedeniyle suyun düştüğü noktada yoğun bir su buharı oluşur ve bu da dramatik fotoğraflar için harika bir atmosfer yaratır.\n\n📍 Neden Önemli?\n• Türkiye’nin en yüksek ve en büyük şelalelerinden biridir\n• Tek parça ve güçlü su perdesine sahiptir\n• Seyir terasları ve yürüyüş alanları düzenlidir\n• Doğu Anadolu’nun en popüler doğal turizm noktalarındandır\n\n🗓 Ne Zaman Gidilir?\n• Mayıs – Haziran: En coşkulu ve etkileyici dönem\n• Yaz ayları: Ulaşım daha rahattır\n• Kış: Çevresi karla kaplandığında farklı bir manzara sunar\n\n🎯 Ziyaret Tavsiyeleri\n• Islanmaya karşı dikkatli olun (su buharı yoğun olabilir)\n• Kaygan zeminlere uygun ayakkabı tercih edin\n• Seyir platformlarından manzara fotoğrafları çekin\n• İlkbaharda debi çok yükseldiği için güvenlik bariyerlerine dikkat edin\n\nTortum Şelalesi, yüksekliği ve ihtişamıyla Doğu Anadolu’nun en etkileyici doğa harikalarından biridir. Güçlü su akışı ve dramatik görünümü sayesinde mutlaka görülmesi gereken rotalar arasında yer alır."
+,
         "de": "Der Tortum-Wasserfall befindet sich in der Provinz Erzurum im Osten der Türkei und zählt zu den höchsten und beeindruckendsten Wasserfällen des Landes. Mit einer Höhe von etwa 48 Metern und einer Breite von 22 Metern entsteht er aus dem Tortum-See und stürzt insbesondere im Frühling mit großer Kraft hinab. Der Wasserfall entstand durch einen Erdrutsch, der den Fluss vor Jahrhunderten blockierte. Umgeben von üppiger Natur, ist er über Spazierwege und Aussichtsterrassen gut zugänglich und ein beliebtes Ausflugsziel in der Region."
       },
       "activities": {
@@ -21053,7 +20962,8 @@
       "latitude": 40.08169,
       "longitude": 39.04448,
       "description": {
-        "tr": "Tomara Şelalesi, Gümüşhane'nin en büyük şelalelerinden biridir. Doğal güzelliği ve çevresindeki yeşil alanlar harika bir doğa deneyimi sunar.",
+        "tr": "Tomara Şelalesi (Gümüşhane)\n\nTomara Şelalesi, Gümüşhane’nin Şiran ilçesine bağlı Seydibaba Köyü yakınlarında yer alan ve Doğu Karadeniz’in en etkileyici doğal güzelliklerinden biri olarak kabul edilen bir tabiat harikasıdır. Şelale, yer altı kaynak sularının geniş bir kaya yamacından onlarca farklı noktadan yüzeye çıkarak dökülmesiyle oluşur ve bu özelliğiyle klasik tek akışlı şelalelerden ayrılır.\n\nYaklaşık 40 metre genişliğe yayılan su çıkışları, kayaların arasından adeta fışkırarak aşağıya doğru akarken görsel olarak büyüleyici bir manzara oluşturur. Özellikle ilkbahar ve yaz başında su debisinin artmasıyla birlikte şelalenin coşkusu daha da etkileyici hale gelir.\n\nŞelale çevresi yürüyüş yolları, seyir alanları ve düzenlenmiş mesire alanlarıyla ziyaretçiler için oldukça elverişlidir. Gürül gürül akan su sesi ve yemyeşil doğa atmosferi, huzurlu ve serin bir ortam sunar.\n\n📍 Neden Önemli?\n• Yer altı kaynaklarının çoklu çıkış noktalarından oluşmasıyla benzersizdir\n• Gümüşhane’nin en bilinen doğal turizm noktalarındandır\n• Doğa yürüyüşü ve fotoğrafçılık için ideal bir ortam sunar\n• Yaz aylarında serin iklimiyle tercih edilir\n\n🗓 Ne Zaman Gidilir?\n• Mayıs – Haziran: En güçlü ve etkileyici su akışı dönemi\n• Yaz ayları: Serinlemek ve doğada vakit geçirmek için ideal\n• İlkbahar: Doğanın en canlı olduğu dönem\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Rahat yürüyüş ayakkabısı tercih edin\n• Sabah saatlerinde daha sakin bir atmosfer yakalayabilirsiniz\n• Çevre temizliğine özen gösterin\n\nTomara Şelalesi, çoklu su çıkışları, doğal yapısı ve huzur veren atmosferiyle Doğu Karadeniz’in mutlaka görülmesi gereken saklı cennetlerinden biridir."
+,
         "en": "Tomara Waterfall is one of the largest waterfalls in Gümüşhane, offering a wonderful nature experience with its beauty and green surroundings.",
         "de": "Der Tomara-Wasserfall ist einer der größten Wasserfälle in Gümüşhane und bietet ein wunderbares Naturerlebnis mit seiner Schönheit und den grünen Umgebungen."
       },
@@ -23347,7 +23257,7 @@
       "latitude": 38.77448,
       "longitude": 35.39329,
       "description": {
-        "tr": "Kapuzbaşı Şelaleleri, Türkiye'nin Kayseri ilinin Yahyalı ilçesinde yer alan ve ülkenin en yüksek şelaleleri arasında bulunan doğal bir harikadır...",
+       "tr": "Kapuzbaşı Şelaleleri (Kayseri)\n\nKapuzbaşı Şelaleleri, Kayseri’nin Yahyalı ilçesi sınırlarında, Aladağlar Milli Parkı içerisinde yer alan ve Türkiye’nin en yüksek şelaleleri arasında gösterilen eşsiz bir doğa harikasıdır. Toros Dağları’nın eteklerinde bulunan bu şelaleler, yaklaşık 500–700 metre rakımda, yüksek kayalık yamaçlardan dökülen birden fazla büyük su kaynağından oluşur.\n\nKapuzbaşı’nı özel kılan en önemli özellik, suların tek bir dere yatağından değil, dağın içinden çıkan güçlü kaynaklardan beslenerek kayaların arasından aniden yüzeye çıkmasıdır. En yüksek düşüş yaklaşık 76 metreye ulaşır ve bu özelliğiyle Türkiye’nin en yüksek debili ve en etkileyici şelale gruplarından biri kabul edilir.\n\nBölge, Aladağlar’ın sarp ve dramatik coğrafyasıyla birleşerek ziyaretçilere büyüleyici bir manzara sunar. Gürül gürül akan su sesi, serin dağ havası ve çevredeki doğal bitki örtüsü, özellikle yaz aylarında serinlemek ve doğayla baş başa kalmak isteyenler için ideal bir ortam oluşturur.\n\n📍 Neden Önemli?\n• Türkiye’nin en yüksek şelaleleri arasında yer alır\n• Dağ içi kaynaklardan beslenen nadir şelale sistemlerinden biridir\n• Aladağlar Milli Parkı’nın en önemli doğal cazibe merkezlerinden biridir\n• Doğa yürüyüşü ve kamp için elverişli bir çevreye sahiptir\n\n🗓 Ne Zaman Gidilir?\n• Mayıs – Temmuz: Su debisinin en güçlü olduğu dönem\n• Yaz ayları: Serin dağ havası için ideal\n• İlkbahar: Doğanın canlandığı en etkileyici zaman\n\n🎯 Ziyaret Tavsiyeleri\n• Yol yer yer dar ve virajlıdır, dikkatli sürüş önerilir\n• Kaygan zeminlere karşı uygun ayakkabı tercih edin\n• Serin hava için yanınıza ince bir ceket alın\n• Doğal alanı korumaya özen gösterin\n\nKapuzbaşı Şelaleleri, yüksekliği, güçlü su akışı ve etkileyici dağ manzarasıyla Türkiye’de mutlaka görülmesi gereken doğal güzellikler arasında yer alır.",
         "en": "Kapuzbaşı Waterfalls, located in Yahyalı district of Kayseri province, is a natural wonder among the highest waterfalls in Turkey...",
         "de": "Die Kapuzbaşı-Wasserfälle, die im Bezirk Yahyalı der Provinz Kayseri liegen, sind ein Naturwunder und gehören zu den höchsten Wasserfällen in der Türkei..."
       },
@@ -30440,7 +30350,8 @@
       "latitude": 41.84058,
       "longitude": 34.77976,
       "description": {
-        "tr": "Erfelek Şelaleleri, doğa severler için eşsiz bir yerdir. Şelalenin etrafında yürüyüş yapabilir ve bölgedeki flora ve faunayı gözlemleyebilirsiniz.\n",
+       "tr": "Erfelek Tatlıca Şelaleleri (Sinop)\n\nErfelek Tatlıca Şelaleleri, Sinop’un Erfelek ilçesine bağlı Tatlıca Köyü yakınlarında yer alan ve Karadeniz Bölgesi’nin en etkileyici doğal güzelliklerinden biri olarak kabul edilen bir şelale sistemidir. Tatlıca Deresi üzerinde bulunan bu doğa harikası, irili ufaklı toplam 28 basamaklı şelaleden oluşur ve bu özelliğiyle Türkiye’nin en özel şelale rotalarından biridir.\n\nŞelaleler, ormanlık alan içerisinde birbirini takip eden doğal kaya terasları üzerinden akarak görsel açıdan büyüleyici bir manzara oluşturur. Özellikle ilkbahar ve yaz başında su debisinin artmasıyla birlikte şelalelerin coşkusu daha da etkileyici hale gelir. Bölge, serin havası ve temiz doğasıyla ziyaretçilere huzurlu bir atmosfer sunar.\n\nAhşap yürüyüş platformları ve merdivenler sayesinde şelalelerin büyük bir kısmı güvenli şekilde gezilebilir. Doğa yürüyüşü, fotoğrafçılık ve keşif sevenler için oldukça ideal bir parkurdur.\n\n📍 Neden Önemli?\n• 28 basamaklı doğal şelale sistemine sahiptir\n• Karadeniz’in en etkileyici yürüyüş rotalarından biridir\n• Zengin flora ve fauna çeşitliliği barındırır\n• Fotoğraf ve doğa tutkunları için benzersiz manzaralar sunar\n\n🗓 Ne Zaman Gidilir?\n• Nisan – Haziran: Su debisinin en güçlü olduğu dönem\n• Yaz ayları: Serin doğa yürüyüşleri için ideal\n• Sonbahar: Orman renkleriyle farklı bir atmosfer sunar\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Rahat yürüyüş ayakkabısı tercih edin\n• Parkurun tamamını gezmek için yeterli zaman ayırın\n• Doğayı korumaya özen gösterin\n\nErfelek Tatlıca Şelaleleri, çok basamaklı yapısı, yemyeşil orman dokusu ve doğal yürüyüş parkurlarıyla Karadeniz’de mutlaka görülmesi gereken doğa rotalarından biridir."
+,
         "en": "Erfelek Waterfalls is a unique place for nature lovers. You can walk around the waterfall and observe the flora and fauna of the area.\n",
         "de": "Die Erfelek Wasserfälle sind ein einzigartiger Ort für Naturliebhaber. Sie können um die Wasserfälle spazieren und die Flora und Fauna der Region beobachten.\n"
       },
@@ -32909,8 +32820,10 @@
       "latitude": 38.05721,
       "longitude": 43.75672,
       "description": {
-        "tr": "Muradiye Şelalesi, Van’ın en güzel doğal alanlarından biridir. Yüksek kayalardan akan suyun yarattığı manzara eşsizdir.\n",
-        "en": "Muradiye Waterfall is one of the most beautiful natural sites in Van. The view created by the water flowing from high cliffs is unique.\n",
+        "tr": "Muradiye Şelalesi (Van)\n\nMuradiye Şelalesi, Van’ın Muradiye ilçesi sınırlarında, Bendimahi Çayı üzerinde yer alan ve Doğu Anadolu Bölgesi’nin en etkileyici doğal güzelliklerinden biri olarak kabul edilen bir şelaledir. Van şehir merkezine yaklaşık 90 kilometre uzaklıkta bulunan bu doğa harikası, özellikle ilkbahar aylarında artan su debisiyle görkemli bir manzara sunar.\n\nYaklaşık 18–20 metre yükseklikten geniş bir hat boyunca dökülen sular, kayalık zemin üzerinde güçlü bir akış oluşturarak etkileyici bir görüntü meydana getirir. Şelalenin çevresi düzenlenmiş yürüyüş yolları ve seyir alanları sayesinde ziyaretçiler için oldukça elverişlidir. Gürül gürül akan su sesi ve serin havası, özellikle yaz aylarında ferahlatıcı bir atmosfer sunar.\n\nKış aylarında ise şelale ve çevresi buz tutarak adeta doğal bir buz heykeline dönüşür. Bu görüntü, Muradiye Şelalesi’ni dört mevsim ziyaret edilebilen özel bir rota haline getirir.\n\n📍 Neden Önemli?\n• Van’ın en bilinen doğal turizm noktalarından biridir\n• İlkbaharda güçlü su debisiyle etkileyici bir manzara sunar\n• Kışın donarak farklı ve dramatik bir görünüm kazanır\n• Fotoğraf ve doğa gezileri için ideal bir destinasyondur\n\n🗓 Ne Zaman Gidilir?\n• Nisan – Haziran: En coşkulu akış dönemi\n• Yaz ayları: Serinlemek ve manzara keyfi için ideal\n• Kış: Donmuş şelale manzarası için eşsiz bir zaman\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Kışın ziyaret edecekseniz sıcak ve uygun kıyafet tercih edin\n• Seyir noktalarından panoramik fotoğraflar çekin\n• Çevre temizliğine özen gösterin\n\nMuradiye Şelalesi, güçlü akışı, geniş su perdesi ve dört mevsim değişen manzarasıyla Van’da mutlaka görülmesi gereken doğal güzellikler arasında yer alır.",
+  
+"en": "Muradiye Waterfall (Van)\n\nMuradiye Waterfall is located in the Muradiye district of Van, on the Bendimahi River, and is considered one of the most impressive natural attractions in Eastern Anatolia. Approximately 90 kilometers from Van city center, the waterfall becomes especially magnificent during spring when the water flow increases.\n\nThe water cascades from a height of around 18–20 meters across a wide rocky formation, creating a powerful and scenic view. The surrounding area features walking paths and viewing platforms, making it easily accessible for visitors. The sound of rushing water and the cool air provide a refreshing atmosphere, particularly in summer.\n\nDuring winter, the waterfall partially freezes, transforming into a natural ice sculpture. This unique seasonal transformation makes Muradiye Waterfall a destination worth visiting throughout the year.\n\n📍 Why It’s Important?\n• One of Van’s most popular natural attractions\n• Impressive water flow during spring\n• Unique frozen landscape in winter\n• Ideal for photography and nature trips\n\n🗓 Best Time to Visit\n• April – June: Peak water flow period\n• Summer: Perfect for enjoying the cool atmosphere\n• Winter: For stunning frozen waterfall views\n\n🎯 Visitor Tips\n• Be cautious of slippery surfaces\n• Wear warm clothing if visiting in winter\n• Capture panoramic views from observation points\n• Help preserve the natural environment\n\nMuradiye Waterfall stands out as one of Van’s must-see natural wonders with its powerful flow, wide cascade, and ever-changing seasonal beauty."
+,
         "de": "Der Muradiye Wasserfall ist einer der schönsten Naturorte in Van. Der Blick auf das Wasser, das von hohen Klippen fließt, ist einzigartig.\n"
       },
       "activities": {
