@@ -3524,6 +3524,178 @@
         "https://example.com/agzi_kara_han_2.jpg"
       ]
     },
+{
+ "slug": "selime-katedrali",
+  "name": {
+    "tr": "Selime Katedrali",
+    "en": "Selime Cathedral",
+    "de": "Kathedrale von Selime"
+  },
+  "latitude": 38.2506,
+  "longitude": 34.2994,
+  "description": {
+    "tr": "Selime Katedrali, Aksaray’ın Güzelyurt ilçesine bağlı Selime beldesinde, Ihlara Vadisi’nin bitim noktasında yer alan Kapadokya’nın en büyük kaya oyma dini yapılarından biridir. 8. ve 9. yüzyıllara tarihlenen yapı, Bizans döneminde katedral olarak kullanılmış ve bölgedeki ruhani merkezlerden biri olmuştur. Tüf kayalara oyularak inşa edilen Selime Katedrali; geniş ibadet alanı, sütunları, yan odaları, keşiş hücreleri ve savunma amaçlı geçitleriyle dikkat çeker. İç mekânda yer alan fresk kalıntıları, dönemin dini sanat anlayışını yansıtır. Yüksek konumu sayesinde Melendiz Çayı ve Ihlara Vadisi manzarasına hâkim olan yapı, hem tarihi hem de panoramik açıdan etkileyici bir atmosfere sahiptir. Kapadokya bölgesinin en görkemli kaya kiliselerinden biri olarak kabul edilir.",
+    "en": "Selime Cathedral is one of the largest rock-cut religious structures in Cappadocia, located in the town of Selime in the Güzelyurt district of Aksaray, at the end of the Ihlara Valley. Dating back to the 8th and 9th centuries, it was used as a cathedral during the Byzantine period and served as an important spiritual center in the region. Carved into volcanic tuff rock, the structure features a large nave, columns, side chambers, monk cells, and defensive passages. The remaining fresco fragments inside reflect the religious art of the era. Due to its elevated position, it offers a panoramic view over the Melendiz River and Ihlara Valley, creating a remarkable historical and scenic atmosphere. It is considered one of the most magnificent rock churches in Cappadocia.",
+    "de": "Die Kathedrale von Selime ist eine der größten in Fels gehauenen religiösen Strukturen in Kappadokien und befindet sich im Ort Selime im Bezirk Güzelyurt in Aksaray, am Ende des Ihlara-Tals. Sie stammt aus dem 8. und 9. Jahrhundert und wurde in byzantinischer Zeit als Kathedrale genutzt und war ein bedeutendes geistliches Zentrum der Region. In das weiche Tuffgestein gehauen, beeindruckt die Anlage mit einem großen Kirchenschiff, Säulen, Nebenräumen, Mönchszellen und Verteidigungsgängen. Die erhaltenen Freskenreste im Inneren spiegeln die religiöse Kunst jener Zeit wider. Durch ihre erhöhte Lage bietet sie einen weiten Blick über den Melendiz-Fluss und das Ihlara-Tal und schafft eine eindrucksvolle historische Atmosphäre. Sie gilt als eine der prächtigsten Felsenkirchen Kappadokiens."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi yapıyı keşfetme",
+      "Fotoğrafçılık",
+      "Ihlara Vadisi yürüyüşü",
+      "Panoramik manzara izleme"
+    ],
+    "en": [
+      "Exploring the historical structure",
+      "Photography",
+      "Hiking in Ihlara Valley",
+      "Enjoying panoramic views"
+    ],
+    "de": [
+      "Erkundung der historischen Struktur",
+      "Fotografie",
+      "Wanderung im Ihlara-Tal",
+      "Panoramablick genießen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarih",
+      "kültür",
+      "kapadokya"
+    ],
+    "en": [
+      "history",
+      "culture",
+      "cappadocia"
+    ],
+    "de": [
+      "Geschichte",
+      "Kultur",
+      "Kappadokien"
+    ]
+  },
+  "images": [
+    "https://example.com/selime_katedrali.jpg"
+  ]
+},
+{
+ "slug": "sumbullu-kilise",
+  "name": {
+    "tr": "Sümbüllü Kilise (Ihlara Vadisi)",
+    "en": "Sumbullu Church (Ihlara Valley)",
+    "de": "Sümbüllü-Kirche (Ihlara-Tal)"
+  },
+  "latitude": 38.2470,
+  "longitude": 34.3015,
+  "description": {
+    "tr": "Sümbüllü Kilise, Aksaray’ın Güzelyurt ilçesi sınırlarında yer alan Ihlara Vadisi içerisindeki önemli kaya oyma ibadet mekânlarından biridir. Melendiz Çayı boyunca uzanan vadide, tüf kayalara oyularak inşa edilmiştir. Orta Bizans dönemine (yaklaşık 10.–11. yüzyıl) tarihlendirilen kilise, bölgedeki Hristiyan keşiş yaşamının izlerini taşır. Yapı, sade mimarisi ve kısmen günümüze ulaşan fresk kalıntılarıyla dikkat çeker. İç mekânda İncil’den sahneler ve aziz tasvirleri yer almakta olup, zamanla doğal aşınmalar nedeniyle bazı bölümler tahrip olmuştur. Ihlara Vadisi’nin doğal yapısıyla bütünleşen Sümbüllü Kilise, hem dini tarih hem de Kapadokya kaya yerleşim kültürü açısından önemli bir örnektir. Vadide yürüyüş yapan ziyaretçiler tarafından kolaylıkla ulaşılabilen duraklardan biridir.",
+    "en": "Sumbullu Church is one of the significant rock-cut places of worship located within the Ihlara Valley in the Güzelyurt district of Aksaray. Carved into volcanic tuff rock along the Melendiz Stream, it dates back to the Middle Byzantine period (approximately 10th–11th centuries). The church reflects the monastic Christian life that once flourished in the valley. It is known for its modest architecture and partially preserved fresco remains. Inside, scenes from the Bible and depictions of saints can be seen, although some parts have been damaged over time due to natural erosion. Integrated with the dramatic landscape of Ihlara Valley, Sumbullu Church represents an important example of Cappadocian rock-cut religious architecture and is easily accessible along the valley’s hiking route.",
+    "de": "Die Sümbüllü-Kirche befindet sich im Ihlara-Tal im Bezirk Güzelyurt in Aksaray und gehört zu den bedeutenden in Fels gehauenen Gotteshäusern der Region. Sie wurde entlang des Melendiz-Flusses in vulkanisches Tuffgestein gemeißelt und stammt aus der mittelbyzantinischen Zeit (ca. 10.–11. Jahrhundert). Die Kirche spiegelt das frühere klösterliche Leben der Christen im Tal wider. Sie zeichnet sich durch ihre schlichte Architektur und teilweise erhaltene Freskenreste aus. Im Inneren befinden sich biblische Szenen und Heiligendarstellungen, von denen einige durch natürliche Erosion beschädigt wurden. In die beeindruckende Landschaft des Ihlara-Tals eingebettet, stellt die Sümbüllü-Kirche ein wichtiges Beispiel der kappadokischen Felsarchitektur dar und ist über den Wanderweg im Tal gut erreichbar."
+  },
+  "activities": {
+    "tr": [
+      "Ihlara Vadisi yürüyüşü",
+      "Kaya oyma kiliseleri keşfetme",
+      "Fresk kalıntılarını inceleme",
+      "Doğa ve tarih fotoğrafçılığı"
+    ],
+    "en": [
+      "Hiking in Ihlara Valley",
+      "Exploring rock-cut churches",
+      "Examining fresco remains",
+      "Nature and history photography"
+    ],
+    "de": [
+      "Wanderung im Ihlara-Tal",
+      "Erkundung von Felsenkirchen",
+      "Freskenreste betrachten",
+      "Natur- und Geschichtsfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarih",
+      "kültür",
+      "kilise",
+      "vadi"
+    ],
+    "en": [
+      "history",
+      "culture",
+      "church",
+      "valley"
+    ],
+    "de": [
+      "Geschichte",
+      "Kultur",
+      "Kirche",
+      "Tal"
+    ]
+  },
+  "images": [
+    "https://example.com/sumbullu_kilise_ihlara.jpg"
+  ]
+},
+{
+  "slug": "yilanli-kilise",
+  "name": {
+    "tr": "Yılanlı Kilise (Ihlara Vadisi)",
+    "en": "Yilanli Church (Ihlara Valley)",
+    "de": "Schlangenkirche (Ihlara-Tal)"
+  },
+  "latitude": 38.2462,
+  "longitude": 34.3008,
+  "description": {
+    "tr": "Yılanlı Kilise, Aksaray’ın Güzelyurt ilçesinde bulunan Ihlara Vadisi içerisindeki en dikkat çekici kaya oyma kiliselerden biridir. Orta Bizans dönemine (9.–11. yüzyıl) tarihlenen yapı, adını iç mekânda yer alan ve günahkâr ruhları cezalandıran yılan tasvirlerinden alır. Fresklerde özellikle kadın günahkârların göğüslerine dolanmış yılan figürleri dikkat çeker; bu sahnelerin ahlaki uyarı niteliği taşıdığı düşünülmektedir. Tek nefli plan tipine sahip olan kilise, tüf kayalara oyularak inşa edilmiştir. İç mekânda ayrıca Hz. İsa, Meryem ve çeşitli aziz tasvirleri yer alır. Ihlara Vadisi’nin doğal yapısıyla bütünleşen Yılanlı Kilise, hem sanatsal freskleri hem de sembolik anlatımıyla bölgenin en ilgi çekici ibadet yapılarından biridir.",
+    "en": "Yilanli Church is one of the most remarkable rock-cut churches located in the Ihlara Valley in the Güzelyurt district of Aksaray. Dating back to the Middle Byzantine period (9th–11th centuries), the church takes its name from the snake depictions inside that symbolize the punishment of sinful souls. Particularly striking are the frescoes showing snakes coiled around the bodies of female sinners, believed to represent moral warnings. The church has a single-nave plan and was carved into volcanic tuff rock. Inside, there are also depictions of Jesus Christ, the Virgin Mary, and various saints. Integrated with the dramatic landscape of the Ihlara Valley, Yilanli Church stands out for its symbolic frescoes and religious significance.",
+    "de": "Die Schlangenkirche im Ihlara-Tal im Bezirk Güzelyurt in Aksaray gehört zu den eindrucksvollsten Felsenkirchen der Region. Sie stammt aus der mittelbyzantinischen Zeit (9.–11. Jahrhundert) und erhielt ihren Namen aufgrund der Schlangendarstellungen im Inneren, die die Bestrafung sündiger Seelen symbolisieren. Besonders auffällig sind Fresken, auf denen sich Schlangen um die Körper weiblicher Sünderinnen winden – vermutlich als moralische Warnung gedacht. Die Kirche besitzt einen einschiffigen Grundriss und wurde in vulkanisches Tuffgestein gehauen. Im Inneren finden sich zudem Darstellungen von Jesus Christus, der Jungfrau Maria und verschiedenen Heiligen. Eingebettet in die beeindruckende Landschaft des Ihlara-Tals ist die Schlangenkirche ein bedeutendes Beispiel religiöser Felsarchitektur."
+  },
+  "activities": {
+    "tr": [
+      "Freskleri inceleme",
+      "Ihlara Vadisi yürüyüşü",
+      "Tarihi keşif",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Examining frescoes",
+      "Hiking in Ihlara Valley",
+      "Historical exploration",
+      "Photography"
+    ],
+    "de": [
+      "Fresken betrachten",
+      "Wanderung im Ihlara-Tal",
+      "Historische Erkundung",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarih",
+      "kültür",
+      "kilise",
+      "vadi"
+    ],
+    "en": [
+      "history",
+      "culture",
+      "church",
+      "valley"
+    ],
+    "de": [
+      "Geschichte",
+      "Kultur",
+      "Kirche",
+      "Tal"
+    ]
+  },
+  "images": [
+    "https://example.com/yilanli_kilise_ihlara.jpg"
+  ]
+},
+
     {
       "slug": "agacalti-kilisesi",
       "name": {
@@ -3752,6 +3924,884 @@
     }
   ],
   "antalya": [
+ {
+      "slug": "koprulu-kanyon-milli-parki",
+      "name": {
+        "tr": "Köprülü Kanyon Milli Parkı",
+        "en": "Köprülü Canyon National Park",
+        "de": "Köprülü Canyon Nationalpark"
+      },
+      "latitude": 37.20718,
+      "longitude": 31.17156,
+      "description": {
+        "tr": "Köprülü Kanyon Milli Parkı, Antalya'nın Serik ilçesinde yer alan ve etkileyici doğası, zengin bitki örtüsü ve tarihi kalıntıları ile ünlü bir milli parktır. Köprülü Kanyon, rafting yapmak isteyenler için mükemmel bir yerdir. Ayrıca, bölgedeki yürüyüş parkurları da doğa severler için harika bir seçenek sunar.\n\nKöprülü Kanyon Milli Parkı, aynı zamanda antik Perge kenti ve Roma köprüsü gibi tarihi zenginliklere de ev sahipliği yapmaktadır. Ziyaretçiler, hem doğa aktiviteleri yapabilir hem de tarihi kalıntıları keşfedebilirler. Antalya şehir merkezine yaklaşık 90 km mesafededir ve kolayca ulaşılabilir.",
+        "en": "Köprülü Canyon National Park is located in the Serik district of Antalya and is famous for its impressive nature, rich vegetation and historical ruins. Köprülü Canyon is the perfect place for those who want to go rafting. In addition, the hiking trails in the region are also a great option for nature lovers.\n\nKöprülü Canyon National Park is also home to historical riches such as the ancient city of Perge and the Roman Bridge. Visitors can enjoy nature activities as well as explore the historical ruins. It is about 90 km from Antalya city center and is easily accessible.",
+        "de": "Der Köprülü Canyon Nationalpark ist ein Nationalpark im Bezirk Serik von Antalya, der für seine beeindruckende Natur, reiche Vegetation und historischen Ruinen bekannt ist. Die Köprülü-Schlucht ist der ideale Ort für Rafting. Darüber hinaus bieten die Wanderwege in der Region eine gute Möglichkeit für Naturliebhaber.\n\nDer Köprülü Canyon Nationalpark beherbergt auch historische Schätze wie die antike Stadt Perge und die römische Brücke. Besucher können hier sowohl Naturaktivitäten nachgehen als auch historische Ruinen erkunden. Der Park liegt etwa 90 km vom Stadtzentrum Antalya entfernt und ist leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Rafting yapmak",
+          "Kamp yapmak",
+          "Doğa yürüyüşleri yapmak"
+        ],
+        "en": [
+          "Go rafting",
+          "Camp in the park",
+          "Hike in nature"
+        ],
+        "de": [
+          "Rafting machen",
+          "Im Park campen",
+          "Wandern in der Natur"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/koprulu_kanyon_milli_parki.jpg"
+      ]
+    },
+    {
+      "slug": "duden-selalesi",
+      "name": {
+        "tr": "Düden Şelalesi",
+        "en": "Düden Waterfall",
+        "de": "Düden Wasserfall"
+      },
+      "latitude": 36.85695,
+      "longitude": 30.78291,
+      "description": {
+        "tr": "Düden Şelalesi, Antalya şehir merkezine yakın ve hem doğa hem de fotoğrafçılık açısından popüler bir mekan olan bir şelaledir. Şelale, özellikle şehir merkezinin gürültüsünden uzaklaşmak isteyenler için mükemmel bir kaçış noktasıdır. Düden Şelalesi'nin iki farklı bölgesi vardır: Biri şehir merkezine yakın olan ve diğer ise denizle buluştuğu noktada yer alan mağara şeklinde bir şelaledir.\n\nDüden Şelalesi, çevresindeki doğal parklar ve yürüyüş alanlarıyla birlikte ziyaretçilerine serinletici bir atmosfer sunar. Antalya şehir merkezine yaklaşık 10 km mesafede yer alır ve toplu taşıma veya özel araçla kolayca ulaşılabilir.",
+        "en": "Duden Waterfall is a waterfall near Antalya city center and a popular place for both nature and photography. The waterfall is a perfect escape, especially for those who want to get away from the noise of the city center. Duden Waterfall has two different areas: One is close to the city center and the other is a cave-shaped waterfall located at the point where it meets the sea.\n\nDuden Waterfall, together with the surrounding natural parks and hiking areas, offers a refreshing atmosphere to its visitors. It is located about 10 km from Antalya city center and is easily accessible by public transportation or private car.",
+        "de": "Der Duden-Wasserfall liegt in der Nähe des Stadtzentrums von Antalya und ist ein beliebter Ort für Naturliebhaber und Fotografen. Der Wasserfall ist ein perfekter Zufluchtsort, besonders für diejenigen, die dem Lärm des Stadtzentrums entfliehen wollen. Der Duden-Wasserfall besteht aus zwei verschiedenen Bereichen: Der eine befindet sich in der Nähe des Stadtzentrums, der andere ist ein höhlenartiger Wasserfall, der sich dort befindet, wo er ins Meer mündet.\n\nDer Duden-Wasserfall bietet seinen Besuchern zusammen mit den umliegenden Naturparks und Wandergebieten eine erfrischende Atmosphäre. Er liegt ca. 10 km vom Stadtzentrum Antalya entfernt und ist mit öffentlichen Verkehrsmitteln oder dem eigenen Auto leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Şelale etrafında yürüyüş yapmak",
+          "Doğa Gezisini keşfetmek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Walk around the waterfall",
+          "Explore the nature trail",
+          "Take photos"
+        ],
+        "de": [
+          "Rund um den Wasserfall gehen",
+          "Den Naturpfad erkunden",
+          "Fotos machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şelale"
+        ],
+        "en": [
+          "waterfall"
+        ],
+        "de": [
+          "Wasserfall"
+        ]
+      },
+      "images": [
+        "https://example.com/duden_selalesi.jpg"
+      ]
+    },
+    {
+      "slug": "manavgat-selalesi",
+      "name": {
+        "tr": "Manavgat Şelalesi",
+        "en": "Manavgat Waterfall",
+        "de": "Manavgat Wasserfall"
+      },
+      "latitude": 36.81324,
+      "longitude": 31.45324,
+      "description": {
+        "tr": "Manavgat Şelalesi, Antalya'nın Manavgat ilçesinde yer alan ve bölgenin en bilinen doğal cazibe merkezlerinden biridir. Şelale, özellikle yaz aylarında serinlemek ve doğa ile iç içe olmak isteyen turistler için popülerdir. Manavgat Şelalesi, yerel halkın da sıklıkla ziyaret ettiği bir alandır.\n\nŞelale, büyük bir alanda akan sular ve çevresindeki yemyeşil bitki örtüsüyle büyüleyici bir görüntü sunar. Ziyaretçiler, şelale etrafındaki yürüyüş yollarında gezebilir, fotoğraf çekebilir veya çevredeki restoranlarda dinlenebilirler. Manavgat şehir merkezine yaklaşık 3 km mesafede yer alır ve özel araçla kolayca ulaşılabilir.\n\n",
+        "en": "Manavgat Waterfall is located in the Manavgat district of Antalya and is one of the most famous natural attractions of the region. The waterfall is especially popular with tourists who want to cool off and get in touch with nature during the summer months. Manavgat Waterfall is also an area frequently visited by local people.\n\nThe waterfall offers a fascinating view with the water flowing over a large area and the lush vegetation around it. Visitors can stroll on the walking paths around the waterfall, take photos or relax in the surrounding restaurants. It is located about 3 km from Manavgat city center and is easily accessible by private car.",
+        "de": "Der Manavgat-Wasserfall befindet sich im Stadtteil Manavgat von Antalya und ist eine der bekanntesten Naturattraktionen der Region. Der Wasserfall ist besonders bei Touristen beliebt, die in den Sommermonaten Abkühlung und Naturerlebnis suchen. Der Manavgat-Wasserfall wird auch häufig von Einheimischen besucht.\n\nDer Wasserfall bietet einen faszinierenden Anblick mit dem Wasser, das über eine große Fläche fließt, und der üppigen Vegetation, die ihn umgibt. Besucher können auf den Wanderwegen rund um den Wasserfall spazieren gehen, Fotos machen oder sich in den umliegenden Restaurants entspannen. Der Wasserfall liegt etwa 3 km vom Stadtzentrum von Manavgat entfernt und ist mit dem Auto leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Şelale etrafında gezinti yapmak",
+          "Doğa Gezisi fotoğrafçılığı yapmak",
+          "Doğa Gezisında dinlenmek"
+        ],
+        "en": [
+          "Walk around the waterfall",
+          "Practice nature photography",
+          "Rest in the nature area"
+        ],
+        "de": [
+          "Um den Wasserfall spazieren gehen",
+          "Naturfotografie üben",
+          "Im Naturgebiet ausruhen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şelale"
+        ],
+        "en": [
+          "waterfall"
+        ],
+        "de": [
+          "Wasserfall"
+        ]
+      },
+      "images": [
+        "https://example.com/manavgat_selalesi.jpg"
+      ]
+    },
+    {
+      "slug": "goynuk-kanyonu",
+      "name": {
+        "tr": "Göynük Kanyonu",
+        "en": "Göynük Canyon",
+        "de": "Göynük Canyon"
+      },
+      "latitude": 36.68281,
+      "longitude": 30.53403,
+      "description": {
+        "tr": "Göynük Kanyonu, Kemer ilçesinde yer alan ve doğa severler için popüler bir destinasyon olan etkileyici bir kanyondur. Kanyon, sıcaktan bunalanlar için serin bir kaçış noktası sunar. Göynük Kanyonu, yürüyüş, dağcılık ve kano gibi açık hava aktiviteleri için mükemmel bir alandır. Aynı zamanda kanyonun içinde yürüyüş parkurları ve doğa ile iç içe olabileceğiniz birçok rota bulunmaktadır.\n\nKemer şehir merkezine yaklaşık 20 km mesafedeki kanyona, özel araçlarla kolayca ulaşılabilir. Bu bölge, doğa yürüyüşleri ve macera severler için mükemmel bir seçenektir.",
+        "en": "Göynük Canyon is an impressive canyon located in Kemer district and is a popular destination for nature lovers. The canyon offers a cool escape for those who are overwhelmed by the heat. Göynük Canyon is a perfect area for outdoor activities such as hiking, mountaineering and canoeing. There are also hiking trails in the canyon and many routes where you can get in touch with nature.\n\nThe canyon, which is about 20 km from Kemer city center, is easily accessible by private vehicles. This region is an excellent option for nature lovers and adventure lovers.",
+        "de": "Der Göynük Canyon ist eine beeindruckende Schlucht im Landkreis Kemer und ein beliebtes Ausflugsziel für Naturliebhaber. Die Schlucht ist ein kühler Zufluchtsort für diejenigen, denen die Hitze zu viel wird. Die Göynük-Schlucht eignet sich hervorragend für Outdoor-Aktivitäten wie Wandern, Bergsteigen und Kanufahren. Es gibt Wanderwege in der Schlucht und viele Routen, die den Kontakt mit der Natur ermöglichen.\n\nDie Schlucht liegt etwa 20 km vom Stadtzentrum von Kemer entfernt und ist mit dem Auto leicht zu erreichen. Dieses Gebiet ist eine ausgezeichnete Wahl für Naturliebhaber und Abenteuerlustige."
+      },
+      "activities": {
+        "tr": [
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Kanyon keşfi yapmak",
+          "Kamp yapmak"
+        ],
+        "en": [
+          "Hike in nature",
+          "Explore the canyon",
+          "Camp in the area"
+        ],
+        "de": [
+          "Wandern in der Natur",
+          "Die Schlucht erkunden",
+          "Im Bereich campen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kanyon"
+        ],
+        "en": [
+          "canyon"
+        ],
+        "de": [
+          "Schlucht"
+        ]
+      },
+      "images": [
+        "https://example.com/goynuk_kanyonu.jpg"
+      ]
+    },
+    {
+      "slug": "alanya-dim-cayi",
+      "name": {
+        "tr": "Alanya Dim Çayı",
+        "en": "Alanya Dim Stream",
+        "de": "Alanya Dim Bach"
+      },
+      "latitude": 36.55261,
+      "longitude": 32.18673,
+      "description": {
+        "tr": "Dim Çayı, Alanya'nın Dim Mağarası yakınlarında yer alan ve etrafı ormanlarla çevrili bir akarsudur. Çayın etrafındaki doğa, doğa yürüyüşleri ve piknik yapmak için ideal bir ortam sunar. Ayrıca, Dim Çayı boyunca birçok restoran bulunur ve ziyaretçiler burada serin su kenarında oturup dinlenebilirler.\n\nDim Çayı, özellikle sıcak yaz aylarında serinlemek için mükemmel bir yerdir. Alanya şehir merkezine yaklaşık 12 km mesafede yer alır ve özel araçla kolayca ulaşılabilir.",
+        "en": "Dim Stream is a stream located near Dim Cave in Alanya and is surrounded by forests. The nature around the stream provides an ideal setting for nature walks and picnics. There are also many restaurants along the Dim Stream where visitors can sit and relax by the cool water.\n\nDim Stream is the perfect place to cool off, especially during the hot summer months. It is located about 12 km from Alanya city center and is easily accessible by private car.",
+        "de": "Der Dim-Bach ist ein Bach in der Nähe der Dim-Höhle in Alanya, der von Wäldern umgeben ist. Die Natur rund um den Bach bietet eine ideale Umgebung für Spaziergänge und Picknicks. Es gibt auch viele Restaurants entlang des Dim Baches, wo die Besucher am kühlen Wasser sitzen und entspannen können.\n\nBesonders in den heißen Sommermonaten ist der Dim Stream ein idealer Ort, um sich abzukühlen. Er liegt etwa 12 km vom Stadtzentrum Alanyas entfernt und ist mit dem Auto leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Çay etrafında yürüyüş yapmak",
+          "Su sporları yapmak",
+          "Dinlenmek"
+        ],
+        "en": [
+          "Walk around the stream",
+          "Do water sports",
+          "Relax in nature"
+        ],
+        "de": [
+          "Um den Bach spazieren gehen",
+          "Wassersport treiben",
+          "In der Natur entspannen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/dim_cayi.jpg"
+      ]
+    },
+    {
+      "slug": "kizilkule-alanya",
+      "name": {
+        "tr": "Kızılkule (Alanya)",
+        "en": "Red Tower (Alanya)",
+        "de": "Rote Turm (Alanya)"
+      },
+      "latitude": 36.53661,
+      "longitude": 31.99834,
+      "description": {
+        "tr": "Kızılkule, Alanya'nın en önemli tarihi yapılarından biridir. 13. yüzyıldan kalma olan bu kule, Alanya Kalesi'nin girişinde yer alır ve Alanya'nın simgelerinden biridir. Kızılkule, Selçuklu döneminin mimarisine örnek gösterilen bir yapı olup, denizle birleşen muazzam manzarası ile dikkat çeker.\n\nKule, aynı zamanda Alanya'da denizcilik müzesi olarak kullanılmaktadır ve ziyaretçilere Alanya'nın tarihini keşfetme fırsatı sunar. Alanya şehir merkezine oldukça yakın olan Kızılkule, yürüyerek veya özel araçla kolayca ulaşılabilir.",
+        "en": "Kizilkule is one of the most important historical buildings in Alanya. The 13th century tower is located at the entrance of Alanya Castle and is one of the symbols of Alanya. Kızılkule is an example of the architecture of the Seljuk period and attracts attention with its magnificent view of the sea.\n\nThe tower is also used as the maritime museum of Alanya and offers visitors the opportunity to discover the history of Alanya. Kızılkule, which is very close to the center of Alanya, can be easily reached on foot or by private car.",
+        "de": "Der Kizilkule ist eines der wichtigsten historischen Gebäude in Alanya. Dieser Turm aus dem 13. Jahrhundert befindet sich am Eingang der Burg von Alanya und ist eines der Wahrzeichen der Stadt. Der Kızılkule ist ein Beispiel für die Architektur der Seldschukenzeit und zieht mit seinem herrlichen Blick auf das Meer die Aufmerksamkeit auf sich.\n\nDer Turm wird auch als Schifffahrtsmuseum von Alanya genutzt und bietet Besuchern die Möglichkeit, die Geschichte Alanyas zu entdecken. Die Kızılkule liegt in der Nähe des Stadtzentrums von Alanya und ist leicht zu Fuß oder mit dem Auto zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Kızılkuleyi gezmek",
+          "Alanya manzarasında fotoğraf çekmek"
+        ],
+        "en": [
+          "Visit the Red Tower",
+          "Take photos of the Alanya view"
+        ],
+        "de": [
+          "Den Roten Turm besuchen",
+          "Fotos von der Aussicht in Alanya machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şehir simgesi"
+        ],
+        "en": [
+          "city landmark"
+        ],
+        "de": [
+          "Wahrzeichen der Stadt"
+        ]
+      },
+      "images": [
+        "https://example.com/kizilkule_alanya.jpg"
+      ]
+    },
+    {
+      "slug": "termessos-milli-parki",
+      "name": {
+        "tr": "Termessos Milli Parkı",
+        "en": "Termessos National Park",
+        "de": "Termessos Nationalpark"
+      },
+      "latitude": 37.03073,
+      "longitude": 30.51164,
+      "description": {
+        "tr": "Termessos Milli Parkı, Antalya il sınırları içinde, Toros Dağları'nın eteklerinde yer alan bir milli parktır. Bu bölge, hem doğal güzellikleri hem de tarihi kalıntıları ile büyük bir ilgi görmektedir. Termessos, antik Pisidya kentlerinden biri olup, yüksek dağlar ve zorlu coğrafi koşullar sayesinde tarihte oldukça iyi korunmuş bir yerleşimdir. Antik kentin yüksekliği nedeniyle, bölgeye ulaşım zordur, ancak bu da burayı koruyan bir etken olmuştur.",
+        "en": "Termessos National Park is a national park located at the foot of the Taurus Mountains within the borders of Antalya province. This region attracts great attention with its natural beauties and historical ruins. Termessos is one of the ancient Pisidian cities and is a well-preserved settlement in history thanks to the high mountains and difficult geographical conditions. Due to the height of the ancient city, transportation to the area is difficult, but this has also been a factor in protecting it.",
+        "de": "Der Nationalpark Termessos liegt am Fuße des Taurusgebirges in der Provinz Antalya. Dieses Gebiet ist sowohl wegen seiner Naturschönheiten als auch wegen seiner historischen Ruinen sehr interessant. Termessos ist eine der antiken pisidischen Städte und dank der hohen Berge und der schwierigen geographischen Bedingungen eine gut erhaltene historische Siedlung. Die Höhenlage der antiken Stadt erschwert den Zugang zu der Region, ist aber auch ein Faktor, der sie schützt."
+      },
+      "activities": {
+        "tr": [
+          "Antik kalıntıları gezmek",
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Visit ancient ruins",
+          "Hike the nature trail",
+          "Take photos"
+        ],
+        "de": [
+          "Antike Ruinen besichtigen",
+          "Wanderung auf dem Naturpfad",
+          "Fotos machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/termessos_milli_parki.jpg"
+      ]
+    },
+    {
+      "slug": "kursunlu-selalesi",
+      "name": {
+        "tr": "Kurşunlu Şelalesi",
+        "en": "Kurşunlu Waterfall",
+        "de": "Kurşunlu Wasserfall"
+      },
+      "latitude": 37.0031,
+      "longitude": 30.82182,
+      "description": {
+        "tr": "Kurşunlu Şelalesi, Antalya il sınırlarında, şelale etrafındaki ormanlarla çevrili doğal bir alan olarak öne çıkmaktadır. Şelale, adını suyun içindeki yansıyan ışıkla kurşun renginde bir görüntü oluşturmasından alır. Şelale, yaklaşık 18 metre yükseklikten düşen sularıyla oldukça etkileyicidir. Bu şelale, doğa yürüyüşleri yapmak, piknik yapmak ve fotoğrafçılıkla ilgilenenler için mükemmel bir yerdir.",
+        "en": "Kurşunlu Waterfall stands out as a natural area surrounded by forests around the waterfall in Antalya province. The waterfall takes its name from the reflected light in the water, creating a lead-colored image. The waterfall is quite impressive with its water falling from a height of about 18 meters. This waterfall is a perfect place for nature walks, picnics and those interested in photography.",
+        "de": "Der Kurşunlu-Wasserfall ist ein von Wäldern umgebenes Naturschutzgebiet rund um den Wasserfall in der Provinz Antalya. Der Wasserfall verdankt seinen Namen dem Licht, das vom Wasser reflektiert wird und ein bleifarbenes Bild erzeugt. Der Wasserfall ist sehr beeindruckend, da das Wasser aus einer Höhe von ca. 18 Metern in die Tiefe stürzt. Der Wasserfall ist ein idealer Ort für Spaziergänge in der Natur, für Picknicks und für alle, die sich für Fotografie interessieren."
+      },
+      "activities": {
+        "tr": [
+          "Şelale etrafında gezinti yapmak",
+          "Doğa Gezisi yürüyüşleri yapmak"
+        ],
+        "en": [
+          "Walk around the waterfall",
+          "Hike the nature trail"
+        ],
+        "de": [
+          "Um den Wasserfall spazieren gehen",
+          "Wanderung auf dem Naturpfad machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şelale"
+        ],
+        "en": [
+          "waterfall"
+        ],
+        "de": [
+          "Wasserfall"
+        ]
+      },
+      "images": [
+        "https://example.com/kursunlu_selalesi.jpg"
+      ]
+    },
+    {
+      "slug": "perge-antik-kent",
+      "name": {
+        "tr": "Perge Antik Kent",
+        "en": "Perge Ancient City",
+        "de": "Perge Antike Stadt"
+      },
+      "latitude": 36.95755,
+      "longitude": 30.85217,
+      "description": {
+        "tr": "Perge Antik Kenti, MÖ 1000’lerde kurulmuş olup, özellikle Roma dönemine ait kalıntıları ile ünlüdür. Perge, Roma'nın önemli ticaret yollarından birinde yer alıyordu ve bu nedenle oldukça gelişmiş bir şehirdi. Antik kentteki en dikkat çekici yapılar, Roma dönemi kalıntılarıdır. Tiyatro, agora, stadyum ve şehir surları gibi yapılar oldukça iyi korunmuştur. Ayrıca, Antik Perge'deki mozaikler de çok önemli bir arkeolojik buluş olarak kabul edilir. Şehir, Antalya şehir merkezine yaklaşık 18 km mesafededir ve ulaşım oldukça kolaydır.",
+        "en": "The ancient city of Perge was founded around 1000 BC and is most famous for its Roman ruins. Perge was located on one of the important trade routes of Rome and was therefore a highly developed city. The most remarkable structures in the ancient city are the ruins from the Roman period. Structures such as the theater, agora, stadium and city walls are very well preserved. Also, the mosaics in ancient Perge are considered a very important archaeological find. The city is about 18 km from Antalya city center and transportation is quite easy.",
+        "de": "Die antike Stadt Perge wurde um 1000 v. Chr. gegründet und ist vor allem für ihre Ruinen aus der Römerzeit bekannt. Perge lag an einer der wichtigsten Handelsstraßen Roms und war daher eine hoch entwickelte Stadt. Die Ruinen aus der Römerzeit sind die bemerkenswertesten Bauwerke der antiken Stadt. Gebäude wie das Theater, die Agora, das Stadion und die Stadtmauer sind sehr gut erhalten. Darüber hinaus gelten die Mosaiken des antiken Perge als eine sehr wichtige archäologische Entdeckung. Die Stadt liegt ca. 18 km vom Stadtzentrum Antalya entfernt und ist leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Tarihi ve Turistik kalıntıları gezmek",
+          "Arkeolojik alanları keşfetmek"
+        ],
+        "en": [
+          "Explore the historic and tourist ruins",
+          "Discover the archaeological sites"
+        ],
+        "de": [
+          "Die historischen und touristischen Ruinen besichtigen",
+          "Die archäologischen Stätten entdecken"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/perge.jpg"
+      ]
+    },
+    {
+      "slug": "aspendos-antik-kenti",
+      "name": {
+        "tr": "Aspendos Antik Kenti",
+        "en": "Aspendos Ancient City",
+        "de": "Aspendos Antike Stadt"
+      },
+      "latitude": 36.939,
+      "longitude": 31.17222,
+      "description": {
+        "tr": "Aspendos, Roma İmparatorluğu döneminin en iyi korunmuş tiyatrolarından birine sahip olan bir antik kenttir. Kent, MÖ 10. yüzyılda kurulmuş olup, zaman içinde büyük bir kültürel ve ticari öneme sahip olmuştur. Aspendos'taki tiyatro, 15.000 kişilik kapasitesi ile Roma döneminin en büyük tiyatrolarından biridir. Tiyatronun akustik yapısı oldukça etkileyicidir. Ayrıca, Aspendos'ta bir stadyum, hamamlar ve anıtsal yapılar da bulunmaktadır. Kentin kalıntıları, büyük ölçüde Roma döneminden kalmadır.",
+        "en": "Aspendos is an ancient city with one of the best preserved theatres in the Roman Empire. The city was founded in the 10th century BC and over time became of great cultural and commercial importance. The theatre of Aspendos is one of the largest of the Roman period with a capacity of 15,000 people. The acoustic structure of the theatre is quite impressive. There is also a stadium, baths and monumental buildings in Aspendos. The ruins of the city are mostly from the Roman period.",
+        "de": "Aspendos ist eine antike Stadt mit einem der am besten erhaltenen Theater aus römischer Zeit. Die Stadt wurde im 10. Jahrhundert v. Chr. gegründet und erlangte im Laufe der Zeit große kulturelle und wirtschaftliche Bedeutung. Das Theater von Aspendos ist eines der größten Theater der römischen Epoche mit einem Fassungsvermögen von 15.000 Zuschauern. Die Akustik des Theaters ist sehr beeindruckend. Außerdem gibt es in Aspendos ein Stadion, Bäder und Monumentalbauten. Die Ruinen der Stadt stammen größtenteils aus römischer Zeit."
+      },
+      "activities": {
+        "tr": [
+          "Tiyatroyu gezmek",
+          "Tarihi ve Turistik kalıntıları görmek"
+        ],
+        "en": [
+          "Visit the theater",
+          "See the historic and tourist ruins"
+        ],
+        "de": [
+          "Das Theater besichtigen",
+          "Die historischen und touristischen Ruinen sehen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/aspendos.jpg"
+      ]
+    },
+    {
+      "slug": "termessos-antik-kenti",
+      "name": {
+        "tr": "Termessos Antik Kenti",
+        "en": "Termessos Ancient City",
+        "de": "Termessos Antike Stadt"
+      },
+      "latitude": 36.98278,
+      "longitude": 30.46502,
+      "description": {
+        "tr": "Termessos Antik Kenti, Antalya'nın yaklaşık 30 kilometre kuzeybatısında, Toros Dağları'nın zirvelerinden biri olan Güllük Dağı'nın (eski adıyla Solymos Dağı) eteklerinde, deniz seviyesinden yaklaşık 1.000 metre yükseklikte konumlanmış, iyi korunmuş antik bir şehirdir. Pisidya bölgesinin önemli şehirlerinden biri olan Termessos, Homeros'un İlyada destanında bahsedilen Solym halkı tarafından kurulmuştur. Şehir, doğal savunma avantajları ve stratejik konumu sayesinde Büyük İskender'in fetih girişimlerine karşı koyabilmiştir. Termessos, etkileyici kalıntılarıyla ziyaretçilerini büyülemektedir. Antik tiyatro, yaklaşık 4.200 kişilik kapasitesi ve muhteşem dağ manzarasıyla dikkat çeker. Ayrıca, agora, odeon, gymnasium, sarnıçlar ve kaya mezarları gibi yapılar da görülebilir. Şehir, doğal bitki örtüsüyle iç içe geçmiş yapısıyla da benzersiz bir atmosfere sahiptir.\nTermessos Antik Kenti, Güllük Dağı-Termessos Milli Parkı sınırları içinde yer almakta olup, zengin biyolojik çeşitliliği ve doğal güzellikleriyle doğa severler için de cazip bir destinasyondur. Ziyaretçiler, antik kenti keşfederken aynı zamanda milli parkın sunduğu yürüyüş parkurlarında doğanın tadını çıkarabilirler. Termessos Antik Kenti'ne ulaşım için Antalya şehir merkezinden özel araçla yaklaşık 30 kilometrelik bir yolculuk yapmak gerekmektedir. Toplu taşıma imkanı sınırlı olduğundan, özel araç veya tur hizmetleri tercih edilmelidir.\n",
+        "en": "The ancient city of Termessos is a well-preserved ancient city located about 30 kilometres northwest of Antalya, about 1,000 metres above sea level at the foot of Mount Güllük (formerly Mount Solymos), one of the peaks of the Taurus Mountains. Termessos, one of the most important cities in the Pisidian region, was founded by the Solymans, who are mentioned in Homer's Iliad. Thanks to its natural defensive advantages and strategic location, the city was able to resist Alexander the Great's attempts to conquer it. Termessos fascinates visitors with its impressive ruins. The ancient theatre has a capacity of around 4,200 people and a magnificent view of the mountains. There are also structures such as the agora, odeon, gymnasium, cisterns and rock tombs. The city also has a unique atmosphere with its structure intertwined with the natural vegetation.\nTermessos Ancient City is located within the boundaries of Güllük Mountain-Termessos National Park and is an attractive destination for nature lovers with its rich biodiversity and natural beauty. While exploring the ancient city, visitors can also enjoy nature on the hiking trails offered by the national park. To reach Termessos Ancient City, it is necessary to drive about 30 kilometres from Antalya city centre by private car. As public transport is limited, private cars or tour services should be preferred.\n",
+        "de": "Die antike Stadt Termessos ist eine gut erhaltene antike Stadt, die ca. 30 km nordwestlich von Antalya, ca. 1.000 m über dem Meeresspiegel am Fuße des Berges Güllük (früher Solymos), einem der Gipfel des Taurusgebirges, liegt. Termessos, eine der wichtigsten Städte der pisidischen Region, wurde vom Volk der Solymos gegründet, das in Homers Epos Ilias erwähnt wird. Dank ihrer natürlichen Verteidigungsvorteile und ihrer strategischen Lage konnte die Stadt den Eroberungsversuchen Alexanders des Großen widerstehen. Termessos fasziniert seine Besucher mit beeindruckenden Ruinen. Das antike Theater mit einem Fassungsvermögen von ca. 4.200 Personen und einem herrlichen Blick auf die Berge zieht die Aufmerksamkeit auf sich. Weitere Sehenswürdigkeiten sind die Agora, das Odeon, das Gymnasion, Zisternen und Felsengräber. Die Stadt hat eine einzigartige Atmosphäre mit ihrer Struktur, die mit der natürlichen Vegetation verwoben ist.\nDie antike Stadt Termessos liegt innerhalb der Grenzen des Nationalparks Güllük-Berg-Termessos und ist mit ihrer reichen Artenvielfalt und Naturschönheit ein attraktives Ziel für Naturliebhaber. Neben der Erkundung der antiken Stadt können Besucher auf den Wanderwegen des Nationalparks auch die Natur genießen. Um die antike Stadt Termessos zu erreichen, muss man von Antalya aus etwa 30 Kilometer mit dem Auto fahren. Da öffentliche Verkehrsmittel nur begrenzt zur Verfügung stehen, empfiehlt es sich, einen Privatwagen oder einen Reiseveranstalter zu nutzen.\n"
+      },
+      "activities": {
+        "tr": [
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Antik kalıntıları gezmek"
+        ],
+        "en": [
+          "Hike the nature trail",
+          "Visit ancient ruins"
+        ],
+        "de": [
+          "Wanderung auf dem Naturpfad machen",
+          "Antike Ruinen besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/termessos.jpg"
+      ]
+    },
+    {
+      "slug": "olympos-antik-kenti",
+      "name": {
+        "tr": "Olympos Antik Kenti",
+        "en": "Olympos Ancient City",
+        "de": "Olympos Antike Stadt"
+      },
+      "latitude": 36.39569,
+      "longitude": 30.47216,
+      "description": {
+        "tr": "Olympos, Antalya'nın Kemer ilçesinde yer alan bir antik Likya kentidir. Olympos'un tarihi, MÖ 2. yüzyıla kadar gitmektedir ve Roma dönemine ait birçok kalıntıya sahiptir. Olympos’un en ilgi çekici yapısı, Roma dönemi tiyatrosudur. Ayrıca, Olympos'un etrafında çam ormanları, dağlar ve bir plaj bulunur. Çıralı Plajı, Caretta Caretta deniz kaplumbağalarının üreme alanıdır. Bu bölge, aynı zamanda Yanartaş'a (Chimaera) ev sahipliği yapmaktadır; burada, yer altındaki gazların yüzeye çıkmasıyla oluşan sürekli yanan alevler vardır.",
+        "de": "Olympos ist eine antike lykische Stadt im Bezirk Kemer in Antalya. Die Geschichte von Olympos reicht bis ins 2. Jahrhundert v. Chr. zurück und weist viele Ruinen aus der Römerzeit auf. Das interessanteste Bauwerk von Olympos ist das römische Theater. Darüber hinaus gibt es rund um Olympos Pinienwälder, Berge und einen Strand. Der Strand von Çıralı ist der Brutplatz der Caretta-Caretta-Meeresschildkröten. In dieser Region befindet sich auch Yanartaş (Chimaera); Hier gibt es ständig brennende Flammen, die durch an die Oberfläche aufsteigende unterirdische Gase verursacht werden.",
+        "en": "Olympos is an ancient Lycian city located in the Kemer district of Antalya. The history of Olympos dates back to the 2nd century BC and has many ruins from the Roman period. The most interesting structure of Olympos is the Roman theater. There are also pine forests, mountains and a beach around Olympos. Çıralı Beach is a breeding ground for the Caretta Caretta sea turtles. This region is also home to Yanartaş (Chimaera), where there are constantly burning flames created by underground gases rising to the surface."
+      },
+      "activities": {
+        "tr": [
+          "Yanartaş’ı görmek",
+          "Plajda yüzmek",
+          "Antik kalıntıları gezmek"
+        ],
+        "en": [
+          "Visit Yanartaş",
+          "Swim at the beach",
+          "Explore the ancient ruins"
+        ],
+        "de": [
+          "Yanartaş besichtigen",
+          "Am Strand schwimmen",
+          "Die antiken Ruinen erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/olympos.jpg"
+      ]
+    },
+    {
+      "slug": "phaselis-antik-kenti",
+      "name": {
+        "tr": "Phaselis Antik Kenti",
+        "en": "Phaselis Ancient City",
+        "de": "Phaselis Antike Stadt"
+      },
+      "latitude": 36.52525,
+      "longitude": 30.5527,
+      "description": {
+        "tr": "Phaselis, özellikle deniz kenarında konumlanmış antik bir Likya kentidir. Bu antik şehir, limanıyla ünlüdür. Phaselis, Roma ve Bizans dönemlerine ait yapılarla doludur. Kentteki önemli yapılar arasında bir antik tiyatro, agora, hamamlar ve su yolları bulunmaktadır. Phaselis'in etrafında güzel bir doğa vardır ve bölge, hem tarihî hem de doğal geziler yapmak isteyenler için mükemmel bir yerdir. Ayrıca, Phaselis, Kemer ilçesine oldukça yakın bir mesafededir.  ",
+        "en": "Phaselis is an ancient Lycian city located especially by the sea. This ancient city is famous for its port. Phaselis is full of structures from the Roman and Byzantine periods. Important structures in the city include an ancient theater, agora, baths and waterways. There is beautiful nature around Phaselis and the region is a perfect place for those who want to do both historical and natural trips. Phaselis is also very close to the Kemer district. ",
+        "de": "Phaselis ist eine antike lykische Stadt, die besonders am Meer liegt. Diese antike Stadt ist berühmt für ihren Hafen. Phaselis ist voller Gebäude aus der römischen und byzantinischen Zeit. Zu den wichtigen Gebäuden der Stadt zählen ein antikes Theater, eine Agora, Bäder und Wasserstraßen. Rund um Phaselis gibt es wunderschöne Natur und die Gegend ist ein perfekter Ort für diejenigen, die sowohl historische als auch natürliche Ausflüge unternehmen möchten. Darüber hinaus liegt Phaselis ganz in der Nähe des Bezirks Kemer.  "
+      },
+      "activities": {
+        "tr": [
+          "Plajda dinlenmek",
+          "Antik kent kalıntılarını gezmek"
+        ],
+        "en": [
+          "Relaxing at the beach",
+          "Exploring ancient city ruins"
+        ],
+        "de": [
+          "Am Strand entspannen",
+          "Antike Stadt ruinen besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/phaselis.jpg"
+      ]
+    },
+    {
+      "slug": "myra-antik-kenti",
+      "name": {
+        "tr": "Myra Antik Kenti",
+        "en": "Myra Ancient City",
+        "de": "Myra Antike Stadt"
+      },
+      "latitude": 36.25904,
+      "longitude": 29.98516,
+      "description": {
+        "tr": "Myra, Likya bölgesinin en önemli şehirlerinden biriydi ve MÖ 5. yüzyıldan Roma İmparatorluğu dönemine kadar önemli bir ticaret merkezi olmuştur. Myra'daki en dikkat çekici yapılar, kaya mezarlarıdır. Kaya mezarları, Likya'nın geleneksel mezar yapıları olup, kayaların içine oyulmuş büyük mezar odalarından oluşur. Ayrıca, Myra'da bir antik tiyatro da bulunmaktadır. Bölge, Aziz Nikolas’ın doğum yeri olarak bilinir ve bu nedenle özellikle Hristiyanlık tarihi açısından önemlidir.  ",
+        "en": "Myra was one of the most important cities in the Lycian region and was an important trade center from the 5th century BC to the Roman Empire. The most striking structures in Myra are the rock tombs. Rock tombs are traditional Lycian tomb structures, consisting of large burial chambers carved into the rocks. There is also an ancient theater in Myra. The region is known as the birthplace of St. Nicholas and is therefore particularly important in terms of Christian history.",
+        "de": "Myra war eine der bedeutendsten Städte der lykischen Region und war vom 5. Jahrhundert v. Chr. bis zum Römischen Reich ein wichtiges Handelszentrum. Die auffälligsten Bauwerke in Myra sind die Felsengräber. Felsengräber sind traditionelle Grabstrukturen Lykiens und bestehen aus großen, in den Felsen gehauenen Grabkammern. In Myra gibt es auch ein antikes Theater. Die Region ist als Geburtsort des Heiligen Nikolaus bekannt und daher für die christliche Geschichte von besonderer Bedeutung."
+      },
+      "activities": {
+        "tr": [
+          "Kaya mezarlarını görmek",
+          "Antik tiyatroyu gezmek"
+        ],
+        "en": [
+          "Visiting the rock tombs",
+          "Exploring the ancient theatre"
+        ],
+        "de": [
+          "Die Felsengräber besichtigen",
+          "Das antike Theater besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/myra.jpg"
+      ]
+    },
+    {
+      "slug": "patara-antik-kent",
+      "name": {
+        "tr": "Patara Antik Kent",
+        "en": "Patara Ancient City",
+        "de": "Patara Antike Stadt"
+      },
+      "latitude": 36.26149,
+      "longitude": 29.31574,
+      "description": {
+        "tr": "Patara, Likya'nın en önemli şehirlerinden biridir. Kent, uzun bir tarihe sahip olup, MÖ 8. yüzyıldan itibaren varlığını sürdürmüştür. Patara, ünlü Patara Plajı'na oldukça yakındır ve bu plaj, Caretta Caretta deniz kaplumbağalarının üreme alanıdır. Patara'daki en önemli yapılar, antik tiyatro, stadyum, agora ve tapınaklardır. Patara, aynı zamanda Roma İmparatoru Vespasian’ın doğum yeri olarak bilinir. Patara Antik Kenti, tarihi kalıntılarla doludur ve bölgedeki doğal güzelliklerle birleşen bir tarihi deneyim sunar.  ",
+        "en": "Patara is one of the most important cities of Lycia. The city has a long history and has existed since the 8th century BC. Patara is very close to the famous Patara Beach, which is the breeding ground of the Caretta Caretta sea turtles. The most important structures in Patara are the ancient theater, stadium, agora and temples. Patara is also known as the birthplace of the Roman Emperor Vespasian. The ancient city of Patara is full of historical ruins and offers a historical experience combined with the natural beauty of the region. ",
+        "de": "Patara ist eine der wichtigsten Städte Lykiens. Die Stadt hat eine lange Geschichte und existiert seit dem 8. Jahrhundert v. Chr. Patara liegt ganz in der Nähe des berühmten Patara-Strands und dieser Strand ist die Brutstätte der Caretta-Caretta-Meeresschildkröten. Die wichtigsten Gebäude in Patara sind das antike Theater, Stadion, Agora und Tempel. Patara ist auch als Geburtsort des römischen Kaisers Vespasian bekannt. Die antike Stadt Patara ist voller historischer Ruinen und bietet ein historisches Erlebnis kombiniert mit den Naturschönheiten der Region.  "
+      },
+      "activities": {
+        "tr": [
+          "Plajda yüzmek",
+          "Antik kalıntıları gezmek"
+        ],
+        "en": [
+          "Swimming at the beach",
+          "Exploring the ancient ruins"
+        ],
+        "de": [
+          "Am Strand schwimmen",
+          "Antike Ruinen besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/patara.jpg"
+      ]
+    },
+    {
+      "slug": "xanthos-antik-kenti",
+      "name": {
+        "tr": "Xanthos Antik Kenti",
+        "en": "Xanthos Ancient City",
+        "de": "Xanthos Antike Stadt"
+      },
+      "latitude": 36.35681,
+      "longitude": 29.31824,
+      "description": {
+        "tr": "Xanthos, Likya'nın başkenti olarak bilinir ve UNESCO Dünya Mirası Listesi'nde yer alır. Kent, Likya Uygarlığı'nın en önemli şehirlerinden biriydi. Xanthos'ta yer alan kaya mezarları, bölgenin en dikkat çekici kalıntılarındandır. Ayrıca, Xanthos'ta bir antik tiyatro, agora ve tapınaklar da bulunmaktadır. Kentin büyük bir kısmı Roma dönemine aittir. Xanthos Antik Kenti, oldukça büyük ve etkileyici bir alan olup, Likya uygarlığının zengin kültürel mirasını yansıtır.  ",
+        "en": "Xanthos is known as the capital of Lycia and is on the UNESCO World Heritage List. The city was one of the most important cities of the Lycian Civilization. The rock tombs in Xanthos are among the most striking ruins of the region. There is also an ancient theater, agora and temples in Xanthos. A large part of the city dates back to the Roman period. The Ancient City of Xanthos is a very large and impressive area and reflects the rich cultural heritage of the Lycian civilization.  ",
+        "de": "Xanthos ist als Hauptstadt Lykiens bekannt und steht auf der Liste des UNESCO-Weltkulturerbes. Die Stadt war eine der wichtigsten Städte der lykischen Zivilisation. Die Felsengräber in Xanthos gehören zu den markantesten Ruinen der Region. Außerdem gibt es in Xanthos ein antikes Theater, eine Agora und Tempel. Der Großteil der Stadt stammt aus der Römerzeit. Die antike Stadt Xanthos ist ein sehr großes und beeindruckendes Gebiet und spiegelt das reiche kulturelle Erbe der lykischen Zivilisation wider. "
+      },
+      "activities": {
+        "tr": [
+          "Tarihi ve Turistik kalıntıları gezmek",
+          "Arkeolojik alanları keşfetmek"
+        ],
+        "en": [
+          "Exploring historical and tourist ruins",
+          "Exploring archaeological sites"
+        ],
+        "de": [
+          "Historische und touristische Ruinen besichtigen",
+          "Archäologische Stätten erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/xanthos.jpg"
+      ]
+    },
+    {
+      "slug": "side-antik-kenti",
+      "name": {
+        "tr": "Side Antik Kenti",
+        "en": "Side Ancient City",
+        "de": "Side Antike Stadt"
+      },
+      "latitude": 36.76821,
+      "longitude": 31.39078,
+      "description": {
+        "tr": "Side, Akdeniz'in en güzel antik şehirlerinden biridir. Side, Roma İmparatorluğu döneminde büyük bir liman kenti olarak önem kazanmıştır. Side'deki en önemli yapılar arasında büyük bir antik tiyatro, Apollon Tapınağı ve Agora bulunmaktadır. Side'nin tarihi, MÖ 7. yüzyıla kadar gitmektedir. Ayrıca, Side'nin etrafında uzun kumsallar ve plajlar da bulunmaktadır. Bu nedenle, hem tarih severler hem de deniz tatili yapmak isteyenler için ideal bir destinasyondur.  ",
+        "de": "Side ist eine der schönsten antiken Städte des Mittelmeerraums. Während des Römischen Reiches erlangte Side als wichtige Hafenstadt Bedeutung. Zu den wichtigsten Gebäuden in Side zählen ein großes antikes Theater, der Apollontempel und die Agora. Die Geschichte von Side reicht bis ins 7. Jahrhundert v. Chr. zurück. Auch rund um Side gibt es lange Sandstrände und Strände. Daher ist es ein ideales Reiseziel sowohl für Geschichtsliebhaber als auch für diejenigen, die einen Urlaub am Meer verbringen möchten.  ",
+        "en": "Side is one of the most beautiful ancient cities in the Mediterranean. Side gained importance as a major port city during the Roman Empire. The most important structures in Side include a large ancient theater, the Temple of Apollo and the Agora. The history of Side dates back to the 7th century BC. There are also long sandy beaches around Side. For this reason, it is an ideal destination for both history lovers and those who want to have a seaside holiday. "
+      },
+      "activities": {
+        "tr": [
+          "Antik tiyatroyu gezmek",
+          "Plajda dinlenmek"
+        ],
+        "en": [
+          "Visiting the ancient theatre",
+          "Relaxing at the beach"
+        ],
+        "de": [
+          "Das antike Theater besichtigen",
+          "Am Strand entspannen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/side.jpg"
+      ]
+    },
+    {
+      "slug": "selge-antik-kenti",
+      "name": {
+        "tr": "Selge Antik Kenti",
+        "en": "Selge Ancient City",
+        "de": "Selge Antike Stadt"
+      },
+      "latitude": 37.2277,
+      "longitude": 31.12846,
+      "description": {
+        "tr": "Selge, Akseki ilçesinde yer alan ve iyi korunmuş bir Pisidya kentidir. Kentin en dikkat çekici yapıları arasında tiyatro, stadyum ve tapınaklar yer alır. Selge Antik Kenti, oldukça yüksek rakımlı bir bölgede yer aldığı için, doğa severler için mükemmel bir yerdir. Selge'nin surları ve kaya mezarları da oldukça ilgi çekicidir. Akseki ilçesine yaklaşık 30 km mesafede yer alan Selge, dağlık bir alanda olduğu için doğa yürüyüşleri için idealdir.  ",
+        "en": "Selge is a well-preserved Pisidian city located in the Akseki district. The most striking structures of the city include the theater, stadium and temples. The ancient city of Selge is a perfect place for nature lovers, as it is located in a very high altitude area. The walls and rock tombs of Selge are also quite interesting. Located approximately 30 km from the Akseki district, Selge is ideal for nature walks as it is in a mountainous area.  ",
+        "de": "Selge ist eine gut erhaltene pisidische Stadt im Bezirk Akseki. Zu den auffälligsten Bauwerken der Stadt zählen Theater, Stadien und Tempel. Die antike Stadt Selge ist ein perfekter Ort für Naturliebhaber, da sie in einer sehr hochgelegenen Gegend liegt. Sehr interessant sind auch die Mauern und Felsengräber von Selge. Selge liegt etwa 30 km vom Bezirk Akseki entfernt und eignet sich ideal für Spaziergänge in der Natur, da es in einer bergigen Gegend liegt.  "
+      },
+      "activities": {
+        "tr": [
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Antik kalıntıları gezmek"
+        ],
+        "en": [
+          "Hiking in nature walks",
+          "Exploring ancient ruins"
+        ],
+        "de": [
+          "Wandern in Naturwanderungen",
+          "Antike Ruinen besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/selge.jpg"
+      ]
+    },
+    {
+      "slug": "antiphellos-antik-kenti",
+      "name": {
+        "tr": "Antiphellos Antik Kenti",
+        "en": "Antiphellos Ancient City",
+        "de": "Antiphellos Antike Stadt"
+      },
+      "latitude": 36.20026,
+      "longitude": 29.63488,
+      "description": {
+        "tr": "Antiphellos, Kaş ilçesinde yer alan bir antik Likya kentidir. Antiphellos, deniz kenarındaki konumu ve güzel manzarasıyla bilinir. Kentteki en önemli yapılar arasında bir antik tiyatro ve kaya mezarları yer alır. Antiphellos, Kaş ilçe merkezine oldukça yakın bir mesafede yer alır ve bu nedenle bölgeye kolayca ulaşılabilir. Antiphellos, tarih severler ve doğa severler için mükemmel bir yerdir.  ",
+        "en": "Antiphellos is an ancient Lycian city located in the Kas district. Antiphellos is known for its seaside location and beautiful views. The most important structures in the city include an ancient theater and rock tombs. Antiphellos is located very close to the Kas district center and is therefore easily accessible. Antiphellos is a perfect place for history lovers and nature lovers.  ",
+        "de": "Antiphellos ist eine antike lykische Stadt im Bezirk Kaş. Antiphellos ist für seine Lage am Meer und die schöne Aussicht bekannt. Zu den wichtigsten Bauwerken der Stadt zählen ein antikes Theater und Felsengräber. Antiphellos liegt ganz in der Nähe des Stadtzentrums von Kaş und ist daher leicht zu erreichen. Antiphellos ist ein perfekter Ort für Geschichtsliebhaber und Naturliebhaber.  "
+      },
+      "activities": {
+        "tr": [
+          "Kaya mezarlarını görmek",
+          "Tarihi ve Turistik tiyatroyu gezmek"
+        ],
+        "en": [
+          "Visiting the rock tombs",
+          "Exploring the historical and tourist theatre"
+        ],
+        "de": [
+          "Die Felsengräber besichtigen",
+          "Das historische und touristische Theater besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/antiphellos.jpg"
+      ]
+    },
+    {
+      "slug": "lyrbe-antik-kenti",
+      "name": {
+        "tr": "Lyrbe Antik Kenti",
+        "en": "Lyrbe Ancient City",
+        "de": "Lyrbe Antike Stadt"
+      },
+      "latitude": 36.8994,
+      "longitude": 31.48102,
+      "description": {
+        "tr": "Lyrbe, Akseki ilçesinde yer alan bir Pisidya kentidir. Kentin en dikkat çekici yapısı, büyük bir Roma tiyatrosudur. Lyrbe Antik Kenti, oldukça yüksek bir rakıma sahip olup, çevresi dağlarla çevrilidir. Bu nedenle, hem doğa yürüyüşleri hem de tarihî geziler için ideal bir bölgedir. Kentin diğer önemli yapıları arasında stadyum ve tapınaklar da bulunmaktadır. Akseki ilçesine yaklaşık 20 km mesafededir.  ",
+        "en": "Lyrbe is a Pisidian city located in the Akseki district. The most striking structure of the city is a large Roman theater. Lyrbe Ancient City has a very high altitude and is surrounded by mountains. For this reason, it is an ideal area for both nature walks and historical tours. Other important structures of the city include a stadium and temples. It is approximately 20 km from the Akseki district.  ",
+        "de": "Lyrbe ist eine pisidische Stadt im Bezirk Akseki. Das auffälligste Bauwerk der Stadt ist ein großes römisches Theater. Die antike Stadt Lyrbe liegt sehr hoch und ist von Bergen umgeben. Daher ist es eine ideale Region sowohl für Naturwanderungen als auch für historische Ausflüge. Weitere wichtige Bauwerke der Stadt sind Stadien und Tempel. Es ist etwa 20 km vom Bezirk Akseki entfernt. "
+      },
+      "activities": {
+        "tr": [
+          "Antik kalıntıları gezmek"
+        ],
+        "en": [
+          "Exploring the ancient ruins"
+        ],
+        "de": [
+          "Die antiken Ruinen besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/lyrbe.jpg"
+      ]
+    },
     {
       "slug": "hadrian-kapisi",
       "name": {
@@ -5319,885 +6369,8 @@
       "images": [
         "https://example.com/tahtali_dagi_kamp.jpg"
       ]
-    },
-    {
-      "slug": "koprulu-kanyon-milli-parki",
-      "name": {
-        "tr": "Köprülü Kanyon Milli Parkı",
-        "en": "Köprülü Canyon National Park",
-        "de": "Köprülü Canyon Nationalpark"
-      },
-      "latitude": 37.20718,
-      "longitude": 31.17156,
-      "description": {
-        "tr": "Köprülü Kanyon Milli Parkı, Antalya'nın Serik ilçesinde yer alan ve etkileyici doğası, zengin bitki örtüsü ve tarihi kalıntıları ile ünlü bir milli parktır. Köprülü Kanyon, rafting yapmak isteyenler için mükemmel bir yerdir. Ayrıca, bölgedeki yürüyüş parkurları da doğa severler için harika bir seçenek sunar.\n\nKöprülü Kanyon Milli Parkı, aynı zamanda antik Perge kenti ve Roma köprüsü gibi tarihi zenginliklere de ev sahipliği yapmaktadır. Ziyaretçiler, hem doğa aktiviteleri yapabilir hem de tarihi kalıntıları keşfedebilirler. Antalya şehir merkezine yaklaşık 90 km mesafededir ve kolayca ulaşılabilir.",
-        "en": "Köprülü Canyon National Park is located in the Serik district of Antalya and is famous for its impressive nature, rich vegetation and historical ruins. Köprülü Canyon is the perfect place for those who want to go rafting. In addition, the hiking trails in the region are also a great option for nature lovers.\n\nKöprülü Canyon National Park is also home to historical riches such as the ancient city of Perge and the Roman Bridge. Visitors can enjoy nature activities as well as explore the historical ruins. It is about 90 km from Antalya city center and is easily accessible.",
-        "de": "Der Köprülü Canyon Nationalpark ist ein Nationalpark im Bezirk Serik von Antalya, der für seine beeindruckende Natur, reiche Vegetation und historischen Ruinen bekannt ist. Die Köprülü-Schlucht ist der ideale Ort für Rafting. Darüber hinaus bieten die Wanderwege in der Region eine gute Möglichkeit für Naturliebhaber.\n\nDer Köprülü Canyon Nationalpark beherbergt auch historische Schätze wie die antike Stadt Perge und die römische Brücke. Besucher können hier sowohl Naturaktivitäten nachgehen als auch historische Ruinen erkunden. Der Park liegt etwa 90 km vom Stadtzentrum Antalya entfernt und ist leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Rafting yapmak",
-          "Kamp yapmak",
-          "Doğa yürüyüşleri yapmak"
-        ],
-        "en": [
-          "Go rafting",
-          "Camp in the park",
-          "Hike in nature"
-        ],
-        "de": [
-          "Rafting machen",
-          "Im Park campen",
-          "Wandern in der Natur"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/koprulu_kanyon_milli_parki.jpg"
-      ]
-    },
-    {
-      "slug": "duden-selalesi",
-      "name": {
-        "tr": "Düden Şelalesi",
-        "en": "Düden Waterfall",
-        "de": "Düden Wasserfall"
-      },
-      "latitude": 36.85695,
-      "longitude": 30.78291,
-      "description": {
-        "tr": "Düden Şelalesi, Antalya şehir merkezine yakın ve hem doğa hem de fotoğrafçılık açısından popüler bir mekan olan bir şelaledir. Şelale, özellikle şehir merkezinin gürültüsünden uzaklaşmak isteyenler için mükemmel bir kaçış noktasıdır. Düden Şelalesi'nin iki farklı bölgesi vardır: Biri şehir merkezine yakın olan ve diğer ise denizle buluştuğu noktada yer alan mağara şeklinde bir şelaledir.\n\nDüden Şelalesi, çevresindeki doğal parklar ve yürüyüş alanlarıyla birlikte ziyaretçilerine serinletici bir atmosfer sunar. Antalya şehir merkezine yaklaşık 10 km mesafede yer alır ve toplu taşıma veya özel araçla kolayca ulaşılabilir.",
-        "en": "Duden Waterfall is a waterfall near Antalya city center and a popular place for both nature and photography. The waterfall is a perfect escape, especially for those who want to get away from the noise of the city center. Duden Waterfall has two different areas: One is close to the city center and the other is a cave-shaped waterfall located at the point where it meets the sea.\n\nDuden Waterfall, together with the surrounding natural parks and hiking areas, offers a refreshing atmosphere to its visitors. It is located about 10 km from Antalya city center and is easily accessible by public transportation or private car.",
-        "de": "Der Duden-Wasserfall liegt in der Nähe des Stadtzentrums von Antalya und ist ein beliebter Ort für Naturliebhaber und Fotografen. Der Wasserfall ist ein perfekter Zufluchtsort, besonders für diejenigen, die dem Lärm des Stadtzentrums entfliehen wollen. Der Duden-Wasserfall besteht aus zwei verschiedenen Bereichen: Der eine befindet sich in der Nähe des Stadtzentrums, der andere ist ein höhlenartiger Wasserfall, der sich dort befindet, wo er ins Meer mündet.\n\nDer Duden-Wasserfall bietet seinen Besuchern zusammen mit den umliegenden Naturparks und Wandergebieten eine erfrischende Atmosphäre. Er liegt ca. 10 km vom Stadtzentrum Antalya entfernt und ist mit öffentlichen Verkehrsmitteln oder dem eigenen Auto leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Şelale etrafında yürüyüş yapmak",
-          "Doğa Gezisini keşfetmek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Walk around the waterfall",
-          "Explore the nature trail",
-          "Take photos"
-        ],
-        "de": [
-          "Rund um den Wasserfall gehen",
-          "Den Naturpfad erkunden",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şelale"
-        ],
-        "en": [
-          "waterfall"
-        ],
-        "de": [
-          "Wasserfall"
-        ]
-      },
-      "images": [
-        "https://example.com/duden_selalesi.jpg"
-      ]
-    },
-    {
-      "slug": "manavgat-selalesi",
-      "name": {
-        "tr": "Manavgat Şelalesi",
-        "en": "Manavgat Waterfall",
-        "de": "Manavgat Wasserfall"
-      },
-      "latitude": 36.81324,
-      "longitude": 31.45324,
-      "description": {
-        "tr": "Manavgat Şelalesi, Antalya'nın Manavgat ilçesinde yer alan ve bölgenin en bilinen doğal cazibe merkezlerinden biridir. Şelale, özellikle yaz aylarında serinlemek ve doğa ile iç içe olmak isteyen turistler için popülerdir. Manavgat Şelalesi, yerel halkın da sıklıkla ziyaret ettiği bir alandır.\n\nŞelale, büyük bir alanda akan sular ve çevresindeki yemyeşil bitki örtüsüyle büyüleyici bir görüntü sunar. Ziyaretçiler, şelale etrafındaki yürüyüş yollarında gezebilir, fotoğraf çekebilir veya çevredeki restoranlarda dinlenebilirler. Manavgat şehir merkezine yaklaşık 3 km mesafede yer alır ve özel araçla kolayca ulaşılabilir.\n\n",
-        "en": "Manavgat Waterfall is located in the Manavgat district of Antalya and is one of the most famous natural attractions of the region. The waterfall is especially popular with tourists who want to cool off and get in touch with nature during the summer months. Manavgat Waterfall is also an area frequently visited by local people.\n\nThe waterfall offers a fascinating view with the water flowing over a large area and the lush vegetation around it. Visitors can stroll on the walking paths around the waterfall, take photos or relax in the surrounding restaurants. It is located about 3 km from Manavgat city center and is easily accessible by private car.",
-        "de": "Der Manavgat-Wasserfall befindet sich im Stadtteil Manavgat von Antalya und ist eine der bekanntesten Naturattraktionen der Region. Der Wasserfall ist besonders bei Touristen beliebt, die in den Sommermonaten Abkühlung und Naturerlebnis suchen. Der Manavgat-Wasserfall wird auch häufig von Einheimischen besucht.\n\nDer Wasserfall bietet einen faszinierenden Anblick mit dem Wasser, das über eine große Fläche fließt, und der üppigen Vegetation, die ihn umgibt. Besucher können auf den Wanderwegen rund um den Wasserfall spazieren gehen, Fotos machen oder sich in den umliegenden Restaurants entspannen. Der Wasserfall liegt etwa 3 km vom Stadtzentrum von Manavgat entfernt und ist mit dem Auto leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Şelale etrafında gezinti yapmak",
-          "Doğa Gezisi fotoğrafçılığı yapmak",
-          "Doğa Gezisında dinlenmek"
-        ],
-        "en": [
-          "Walk around the waterfall",
-          "Practice nature photography",
-          "Rest in the nature area"
-        ],
-        "de": [
-          "Um den Wasserfall spazieren gehen",
-          "Naturfotografie üben",
-          "Im Naturgebiet ausruhen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şelale"
-        ],
-        "en": [
-          "waterfall"
-        ],
-        "de": [
-          "Wasserfall"
-        ]
-      },
-      "images": [
-        "https://example.com/manavgat_selalesi.jpg"
-      ]
-    },
-    {
-      "slug": "goynuk-kanyonu",
-      "name": {
-        "tr": "Göynük Kanyonu",
-        "en": "Göynük Canyon",
-        "de": "Göynük Canyon"
-      },
-      "latitude": 36.68281,
-      "longitude": 30.53403,
-      "description": {
-        "tr": "Göynük Kanyonu, Kemer ilçesinde yer alan ve doğa severler için popüler bir destinasyon olan etkileyici bir kanyondur. Kanyon, sıcaktan bunalanlar için serin bir kaçış noktası sunar. Göynük Kanyonu, yürüyüş, dağcılık ve kano gibi açık hava aktiviteleri için mükemmel bir alandır. Aynı zamanda kanyonun içinde yürüyüş parkurları ve doğa ile iç içe olabileceğiniz birçok rota bulunmaktadır.\n\nKemer şehir merkezine yaklaşık 20 km mesafedeki kanyona, özel araçlarla kolayca ulaşılabilir. Bu bölge, doğa yürüyüşleri ve macera severler için mükemmel bir seçenektir.",
-        "en": "Göynük Canyon is an impressive canyon located in Kemer district and is a popular destination for nature lovers. The canyon offers a cool escape for those who are overwhelmed by the heat. Göynük Canyon is a perfect area for outdoor activities such as hiking, mountaineering and canoeing. There are also hiking trails in the canyon and many routes where you can get in touch with nature.\n\nThe canyon, which is about 20 km from Kemer city center, is easily accessible by private vehicles. This region is an excellent option for nature lovers and adventure lovers.",
-        "de": "Der Göynük Canyon ist eine beeindruckende Schlucht im Landkreis Kemer und ein beliebtes Ausflugsziel für Naturliebhaber. Die Schlucht ist ein kühler Zufluchtsort für diejenigen, denen die Hitze zu viel wird. Die Göynük-Schlucht eignet sich hervorragend für Outdoor-Aktivitäten wie Wandern, Bergsteigen und Kanufahren. Es gibt Wanderwege in der Schlucht und viele Routen, die den Kontakt mit der Natur ermöglichen.\n\nDie Schlucht liegt etwa 20 km vom Stadtzentrum von Kemer entfernt und ist mit dem Auto leicht zu erreichen. Dieses Gebiet ist eine ausgezeichnete Wahl für Naturliebhaber und Abenteuerlustige."
-      },
-      "activities": {
-        "tr": [
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Kanyon keşfi yapmak",
-          "Kamp yapmak"
-        ],
-        "en": [
-          "Hike in nature",
-          "Explore the canyon",
-          "Camp in the area"
-        ],
-        "de": [
-          "Wandern in der Natur",
-          "Die Schlucht erkunden",
-          "Im Bereich campen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kanyon"
-        ],
-        "en": [
-          "canyon"
-        ],
-        "de": [
-          "Schlucht"
-        ]
-      },
-      "images": [
-        "https://example.com/goynuk_kanyonu.jpg"
-      ]
-    },
-    {
-      "slug": "alanya-dim-cayi",
-      "name": {
-        "tr": "Alanya Dim Çayı",
-        "en": "Alanya Dim Stream",
-        "de": "Alanya Dim Bach"
-      },
-      "latitude": 36.55261,
-      "longitude": 32.18673,
-      "description": {
-        "tr": "Dim Çayı, Alanya'nın Dim Mağarası yakınlarında yer alan ve etrafı ormanlarla çevrili bir akarsudur. Çayın etrafındaki doğa, doğa yürüyüşleri ve piknik yapmak için ideal bir ortam sunar. Ayrıca, Dim Çayı boyunca birçok restoran bulunur ve ziyaretçiler burada serin su kenarında oturup dinlenebilirler.\n\nDim Çayı, özellikle sıcak yaz aylarında serinlemek için mükemmel bir yerdir. Alanya şehir merkezine yaklaşık 12 km mesafede yer alır ve özel araçla kolayca ulaşılabilir.",
-        "en": "Dim Stream is a stream located near Dim Cave in Alanya and is surrounded by forests. The nature around the stream provides an ideal setting for nature walks and picnics. There are also many restaurants along the Dim Stream where visitors can sit and relax by the cool water.\n\nDim Stream is the perfect place to cool off, especially during the hot summer months. It is located about 12 km from Alanya city center and is easily accessible by private car.",
-        "de": "Der Dim-Bach ist ein Bach in der Nähe der Dim-Höhle in Alanya, der von Wäldern umgeben ist. Die Natur rund um den Bach bietet eine ideale Umgebung für Spaziergänge und Picknicks. Es gibt auch viele Restaurants entlang des Dim Baches, wo die Besucher am kühlen Wasser sitzen und entspannen können.\n\nBesonders in den heißen Sommermonaten ist der Dim Stream ein idealer Ort, um sich abzukühlen. Er liegt etwa 12 km vom Stadtzentrum Alanyas entfernt und ist mit dem Auto leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Çay etrafında yürüyüş yapmak",
-          "Su sporları yapmak",
-          "Dinlenmek"
-        ],
-        "en": [
-          "Walk around the stream",
-          "Do water sports",
-          "Relax in nature"
-        ],
-        "de": [
-          "Um den Bach spazieren gehen",
-          "Wassersport treiben",
-          "In der Natur entspannen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/dim_cayi.jpg"
-      ]
-    },
-    {
-      "slug": "kizilkule-alanya",
-      "name": {
-        "tr": "Kızılkule (Alanya)",
-        "en": "Red Tower (Alanya)",
-        "de": "Rote Turm (Alanya)"
-      },
-      "latitude": 36.53661,
-      "longitude": 31.99834,
-      "description": {
-        "tr": "Kızılkule, Alanya'nın en önemli tarihi yapılarından biridir. 13. yüzyıldan kalma olan bu kule, Alanya Kalesi'nin girişinde yer alır ve Alanya'nın simgelerinden biridir. Kızılkule, Selçuklu döneminin mimarisine örnek gösterilen bir yapı olup, denizle birleşen muazzam manzarası ile dikkat çeker.\n\nKule, aynı zamanda Alanya'da denizcilik müzesi olarak kullanılmaktadır ve ziyaretçilere Alanya'nın tarihini keşfetme fırsatı sunar. Alanya şehir merkezine oldukça yakın olan Kızılkule, yürüyerek veya özel araçla kolayca ulaşılabilir.",
-        "en": "Kizilkule is one of the most important historical buildings in Alanya. The 13th century tower is located at the entrance of Alanya Castle and is one of the symbols of Alanya. Kızılkule is an example of the architecture of the Seljuk period and attracts attention with its magnificent view of the sea.\n\nThe tower is also used as the maritime museum of Alanya and offers visitors the opportunity to discover the history of Alanya. Kızılkule, which is very close to the center of Alanya, can be easily reached on foot or by private car.",
-        "de": "Der Kizilkule ist eines der wichtigsten historischen Gebäude in Alanya. Dieser Turm aus dem 13. Jahrhundert befindet sich am Eingang der Burg von Alanya und ist eines der Wahrzeichen der Stadt. Der Kızılkule ist ein Beispiel für die Architektur der Seldschukenzeit und zieht mit seinem herrlichen Blick auf das Meer die Aufmerksamkeit auf sich.\n\nDer Turm wird auch als Schifffahrtsmuseum von Alanya genutzt und bietet Besuchern die Möglichkeit, die Geschichte Alanyas zu entdecken. Die Kızılkule liegt in der Nähe des Stadtzentrums von Alanya und ist leicht zu Fuß oder mit dem Auto zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Kızılkuleyi gezmek",
-          "Alanya manzarasında fotoğraf çekmek"
-        ],
-        "en": [
-          "Visit the Red Tower",
-          "Take photos of the Alanya view"
-        ],
-        "de": [
-          "Den Roten Turm besuchen",
-          "Fotos von der Aussicht in Alanya machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şehir simgesi"
-        ],
-        "en": [
-          "city landmark"
-        ],
-        "de": [
-          "Wahrzeichen der Stadt"
-        ]
-      },
-      "images": [
-        "https://example.com/kizilkule_alanya.jpg"
-      ]
-    },
-    {
-      "slug": "termessos-milli-parki",
-      "name": {
-        "tr": "Termessos Milli Parkı",
-        "en": "Termessos National Park",
-        "de": "Termessos Nationalpark"
-      },
-      "latitude": 37.03073,
-      "longitude": 30.51164,
-      "description": {
-        "tr": "Termessos Milli Parkı, Antalya il sınırları içinde, Toros Dağları'nın eteklerinde yer alan bir milli parktır. Bu bölge, hem doğal güzellikleri hem de tarihi kalıntıları ile büyük bir ilgi görmektedir. Termessos, antik Pisidya kentlerinden biri olup, yüksek dağlar ve zorlu coğrafi koşullar sayesinde tarihte oldukça iyi korunmuş bir yerleşimdir. Antik kentin yüksekliği nedeniyle, bölgeye ulaşım zordur, ancak bu da burayı koruyan bir etken olmuştur.",
-        "en": "Termessos National Park is a national park located at the foot of the Taurus Mountains within the borders of Antalya province. This region attracts great attention with its natural beauties and historical ruins. Termessos is one of the ancient Pisidian cities and is a well-preserved settlement in history thanks to the high mountains and difficult geographical conditions. Due to the height of the ancient city, transportation to the area is difficult, but this has also been a factor in protecting it.",
-        "de": "Der Nationalpark Termessos liegt am Fuße des Taurusgebirges in der Provinz Antalya. Dieses Gebiet ist sowohl wegen seiner Naturschönheiten als auch wegen seiner historischen Ruinen sehr interessant. Termessos ist eine der antiken pisidischen Städte und dank der hohen Berge und der schwierigen geographischen Bedingungen eine gut erhaltene historische Siedlung. Die Höhenlage der antiken Stadt erschwert den Zugang zu der Region, ist aber auch ein Faktor, der sie schützt."
-      },
-      "activities": {
-        "tr": [
-          "Antik kalıntıları gezmek",
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Visit ancient ruins",
-          "Hike the nature trail",
-          "Take photos"
-        ],
-        "de": [
-          "Antike Ruinen besichtigen",
-          "Wanderung auf dem Naturpfad",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/termessos_milli_parki.jpg"
-      ]
-    },
-    {
-      "slug": "kursunlu-selalesi",
-      "name": {
-        "tr": "Kurşunlu Şelalesi",
-        "en": "Kurşunlu Waterfall",
-        "de": "Kurşunlu Wasserfall"
-      },
-      "latitude": 37.0031,
-      "longitude": 30.82182,
-      "description": {
-        "tr": "Kurşunlu Şelalesi, Antalya il sınırlarında, şelale etrafındaki ormanlarla çevrili doğal bir alan olarak öne çıkmaktadır. Şelale, adını suyun içindeki yansıyan ışıkla kurşun renginde bir görüntü oluşturmasından alır. Şelale, yaklaşık 18 metre yükseklikten düşen sularıyla oldukça etkileyicidir. Bu şelale, doğa yürüyüşleri yapmak, piknik yapmak ve fotoğrafçılıkla ilgilenenler için mükemmel bir yerdir.",
-        "en": "Kurşunlu Waterfall stands out as a natural area surrounded by forests around the waterfall in Antalya province. The waterfall takes its name from the reflected light in the water, creating a lead-colored image. The waterfall is quite impressive with its water falling from a height of about 18 meters. This waterfall is a perfect place for nature walks, picnics and those interested in photography.",
-        "de": "Der Kurşunlu-Wasserfall ist ein von Wäldern umgebenes Naturschutzgebiet rund um den Wasserfall in der Provinz Antalya. Der Wasserfall verdankt seinen Namen dem Licht, das vom Wasser reflektiert wird und ein bleifarbenes Bild erzeugt. Der Wasserfall ist sehr beeindruckend, da das Wasser aus einer Höhe von ca. 18 Metern in die Tiefe stürzt. Der Wasserfall ist ein idealer Ort für Spaziergänge in der Natur, für Picknicks und für alle, die sich für Fotografie interessieren."
-      },
-      "activities": {
-        "tr": [
-          "Şelale etrafında gezinti yapmak",
-          "Doğa Gezisi yürüyüşleri yapmak"
-        ],
-        "en": [
-          "Walk around the waterfall",
-          "Hike the nature trail"
-        ],
-        "de": [
-          "Um den Wasserfall spazieren gehen",
-          "Wanderung auf dem Naturpfad machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şelale"
-        ],
-        "en": [
-          "waterfall"
-        ],
-        "de": [
-          "Wasserfall"
-        ]
-      },
-      "images": [
-        "https://example.com/kursunlu_selalesi.jpg"
-      ]
-    },
-    {
-      "slug": "perge-antik-kent",
-      "name": {
-        "tr": "Perge Antik Kent",
-        "en": "Perge Ancient City",
-        "de": "Perge Antike Stadt"
-      },
-      "latitude": 36.95755,
-      "longitude": 30.85217,
-      "description": {
-        "tr": "Perge Antik Kenti, MÖ 1000’lerde kurulmuş olup, özellikle Roma dönemine ait kalıntıları ile ünlüdür. Perge, Roma'nın önemli ticaret yollarından birinde yer alıyordu ve bu nedenle oldukça gelişmiş bir şehirdi. Antik kentteki en dikkat çekici yapılar, Roma dönemi kalıntılarıdır. Tiyatro, agora, stadyum ve şehir surları gibi yapılar oldukça iyi korunmuştur. Ayrıca, Antik Perge'deki mozaikler de çok önemli bir arkeolojik buluş olarak kabul edilir. Şehir, Antalya şehir merkezine yaklaşık 18 km mesafededir ve ulaşım oldukça kolaydır.",
-        "en": "The ancient city of Perge was founded around 1000 BC and is most famous for its Roman ruins. Perge was located on one of the important trade routes of Rome and was therefore a highly developed city. The most remarkable structures in the ancient city are the ruins from the Roman period. Structures such as the theater, agora, stadium and city walls are very well preserved. Also, the mosaics in ancient Perge are considered a very important archaeological find. The city is about 18 km from Antalya city center and transportation is quite easy.",
-        "de": "Die antike Stadt Perge wurde um 1000 v. Chr. gegründet und ist vor allem für ihre Ruinen aus der Römerzeit bekannt. Perge lag an einer der wichtigsten Handelsstraßen Roms und war daher eine hoch entwickelte Stadt. Die Ruinen aus der Römerzeit sind die bemerkenswertesten Bauwerke der antiken Stadt. Gebäude wie das Theater, die Agora, das Stadion und die Stadtmauer sind sehr gut erhalten. Darüber hinaus gelten die Mosaiken des antiken Perge als eine sehr wichtige archäologische Entdeckung. Die Stadt liegt ca. 18 km vom Stadtzentrum Antalya entfernt und ist leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Tarihi ve Turistik kalıntıları gezmek",
-          "Arkeolojik alanları keşfetmek"
-        ],
-        "en": [
-          "Explore the historic and tourist ruins",
-          "Discover the archaeological sites"
-        ],
-        "de": [
-          "Die historischen und touristischen Ruinen besichtigen",
-          "Die archäologischen Stätten entdecken"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/perge.jpg"
-      ]
-    },
-    {
-      "slug": "aspendos-antik-kenti",
-      "name": {
-        "tr": "Aspendos Antik Kenti",
-        "en": "Aspendos Ancient City",
-        "de": "Aspendos Antike Stadt"
-      },
-      "latitude": 36.939,
-      "longitude": 31.17222,
-      "description": {
-        "tr": "Aspendos, Roma İmparatorluğu döneminin en iyi korunmuş tiyatrolarından birine sahip olan bir antik kenttir. Kent, MÖ 10. yüzyılda kurulmuş olup, zaman içinde büyük bir kültürel ve ticari öneme sahip olmuştur. Aspendos'taki tiyatro, 15.000 kişilik kapasitesi ile Roma döneminin en büyük tiyatrolarından biridir. Tiyatronun akustik yapısı oldukça etkileyicidir. Ayrıca, Aspendos'ta bir stadyum, hamamlar ve anıtsal yapılar da bulunmaktadır. Kentin kalıntıları, büyük ölçüde Roma döneminden kalmadır.",
-        "en": "Aspendos is an ancient city with one of the best preserved theatres in the Roman Empire. The city was founded in the 10th century BC and over time became of great cultural and commercial importance. The theatre of Aspendos is one of the largest of the Roman period with a capacity of 15,000 people. The acoustic structure of the theatre is quite impressive. There is also a stadium, baths and monumental buildings in Aspendos. The ruins of the city are mostly from the Roman period.",
-        "de": "Aspendos ist eine antike Stadt mit einem der am besten erhaltenen Theater aus römischer Zeit. Die Stadt wurde im 10. Jahrhundert v. Chr. gegründet und erlangte im Laufe der Zeit große kulturelle und wirtschaftliche Bedeutung. Das Theater von Aspendos ist eines der größten Theater der römischen Epoche mit einem Fassungsvermögen von 15.000 Zuschauern. Die Akustik des Theaters ist sehr beeindruckend. Außerdem gibt es in Aspendos ein Stadion, Bäder und Monumentalbauten. Die Ruinen der Stadt stammen größtenteils aus römischer Zeit."
-      },
-      "activities": {
-        "tr": [
-          "Tiyatroyu gezmek",
-          "Tarihi ve Turistik kalıntıları görmek"
-        ],
-        "en": [
-          "Visit the theater",
-          "See the historic and tourist ruins"
-        ],
-        "de": [
-          "Das Theater besichtigen",
-          "Die historischen und touristischen Ruinen sehen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/aspendos.jpg"
-      ]
-    },
-    {
-      "slug": "termessos-antik-kenti",
-      "name": {
-        "tr": "Termessos Antik Kenti",
-        "en": "Termessos Ancient City",
-        "de": "Termessos Antike Stadt"
-      },
-      "latitude": 36.98278,
-      "longitude": 30.46502,
-      "description": {
-        "tr": "Termessos Antik Kenti, Antalya'nın yaklaşık 30 kilometre kuzeybatısında, Toros Dağları'nın zirvelerinden biri olan Güllük Dağı'nın (eski adıyla Solymos Dağı) eteklerinde, deniz seviyesinden yaklaşık 1.000 metre yükseklikte konumlanmış, iyi korunmuş antik bir şehirdir. Pisidya bölgesinin önemli şehirlerinden biri olan Termessos, Homeros'un İlyada destanında bahsedilen Solym halkı tarafından kurulmuştur. Şehir, doğal savunma avantajları ve stratejik konumu sayesinde Büyük İskender'in fetih girişimlerine karşı koyabilmiştir. Termessos, etkileyici kalıntılarıyla ziyaretçilerini büyülemektedir. Antik tiyatro, yaklaşık 4.200 kişilik kapasitesi ve muhteşem dağ manzarasıyla dikkat çeker. Ayrıca, agora, odeon, gymnasium, sarnıçlar ve kaya mezarları gibi yapılar da görülebilir. Şehir, doğal bitki örtüsüyle iç içe geçmiş yapısıyla da benzersiz bir atmosfere sahiptir.\nTermessos Antik Kenti, Güllük Dağı-Termessos Milli Parkı sınırları içinde yer almakta olup, zengin biyolojik çeşitliliği ve doğal güzellikleriyle doğa severler için de cazip bir destinasyondur. Ziyaretçiler, antik kenti keşfederken aynı zamanda milli parkın sunduğu yürüyüş parkurlarında doğanın tadını çıkarabilirler. Termessos Antik Kenti'ne ulaşım için Antalya şehir merkezinden özel araçla yaklaşık 30 kilometrelik bir yolculuk yapmak gerekmektedir. Toplu taşıma imkanı sınırlı olduğundan, özel araç veya tur hizmetleri tercih edilmelidir.\n",
-        "en": "The ancient city of Termessos is a well-preserved ancient city located about 30 kilometres northwest of Antalya, about 1,000 metres above sea level at the foot of Mount Güllük (formerly Mount Solymos), one of the peaks of the Taurus Mountains. Termessos, one of the most important cities in the Pisidian region, was founded by the Solymans, who are mentioned in Homer's Iliad. Thanks to its natural defensive advantages and strategic location, the city was able to resist Alexander the Great's attempts to conquer it. Termessos fascinates visitors with its impressive ruins. The ancient theatre has a capacity of around 4,200 people and a magnificent view of the mountains. There are also structures such as the agora, odeon, gymnasium, cisterns and rock tombs. The city also has a unique atmosphere with its structure intertwined with the natural vegetation.\nTermessos Ancient City is located within the boundaries of Güllük Mountain-Termessos National Park and is an attractive destination for nature lovers with its rich biodiversity and natural beauty. While exploring the ancient city, visitors can also enjoy nature on the hiking trails offered by the national park. To reach Termessos Ancient City, it is necessary to drive about 30 kilometres from Antalya city centre by private car. As public transport is limited, private cars or tour services should be preferred.\n",
-        "de": "Die antike Stadt Termessos ist eine gut erhaltene antike Stadt, die ca. 30 km nordwestlich von Antalya, ca. 1.000 m über dem Meeresspiegel am Fuße des Berges Güllük (früher Solymos), einem der Gipfel des Taurusgebirges, liegt. Termessos, eine der wichtigsten Städte der pisidischen Region, wurde vom Volk der Solymos gegründet, das in Homers Epos Ilias erwähnt wird. Dank ihrer natürlichen Verteidigungsvorteile und ihrer strategischen Lage konnte die Stadt den Eroberungsversuchen Alexanders des Großen widerstehen. Termessos fasziniert seine Besucher mit beeindruckenden Ruinen. Das antike Theater mit einem Fassungsvermögen von ca. 4.200 Personen und einem herrlichen Blick auf die Berge zieht die Aufmerksamkeit auf sich. Weitere Sehenswürdigkeiten sind die Agora, das Odeon, das Gymnasion, Zisternen und Felsengräber. Die Stadt hat eine einzigartige Atmosphäre mit ihrer Struktur, die mit der natürlichen Vegetation verwoben ist.\nDie antike Stadt Termessos liegt innerhalb der Grenzen des Nationalparks Güllük-Berg-Termessos und ist mit ihrer reichen Artenvielfalt und Naturschönheit ein attraktives Ziel für Naturliebhaber. Neben der Erkundung der antiken Stadt können Besucher auf den Wanderwegen des Nationalparks auch die Natur genießen. Um die antike Stadt Termessos zu erreichen, muss man von Antalya aus etwa 30 Kilometer mit dem Auto fahren. Da öffentliche Verkehrsmittel nur begrenzt zur Verfügung stehen, empfiehlt es sich, einen Privatwagen oder einen Reiseveranstalter zu nutzen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Antik kalıntıları gezmek"
-        ],
-        "en": [
-          "Hike the nature trail",
-          "Visit ancient ruins"
-        ],
-        "de": [
-          "Wanderung auf dem Naturpfad machen",
-          "Antike Ruinen besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/termessos.jpg"
-      ]
-    },
-    {
-      "slug": "olympos-antik-kenti",
-      "name": {
-        "tr": "Olympos Antik Kenti",
-        "en": "Olympos Ancient City",
-        "de": "Olympos Antike Stadt"
-      },
-      "latitude": 36.39569,
-      "longitude": 30.47216,
-      "description": {
-        "tr": "Olympos, Antalya'nın Kemer ilçesinde yer alan bir antik Likya kentidir. Olympos'un tarihi, MÖ 2. yüzyıla kadar gitmektedir ve Roma dönemine ait birçok kalıntıya sahiptir. Olympos’un en ilgi çekici yapısı, Roma dönemi tiyatrosudur. Ayrıca, Olympos'un etrafında çam ormanları, dağlar ve bir plaj bulunur. Çıralı Plajı, Caretta Caretta deniz kaplumbağalarının üreme alanıdır. Bu bölge, aynı zamanda Yanartaş'a (Chimaera) ev sahipliği yapmaktadır; burada, yer altındaki gazların yüzeye çıkmasıyla oluşan sürekli yanan alevler vardır.",
-        "de": "Olympos ist eine antike lykische Stadt im Bezirk Kemer in Antalya. Die Geschichte von Olympos reicht bis ins 2. Jahrhundert v. Chr. zurück und weist viele Ruinen aus der Römerzeit auf. Das interessanteste Bauwerk von Olympos ist das römische Theater. Darüber hinaus gibt es rund um Olympos Pinienwälder, Berge und einen Strand. Der Strand von Çıralı ist der Brutplatz der Caretta-Caretta-Meeresschildkröten. In dieser Region befindet sich auch Yanartaş (Chimaera); Hier gibt es ständig brennende Flammen, die durch an die Oberfläche aufsteigende unterirdische Gase verursacht werden.",
-        "en": "Olympos is an ancient Lycian city located in the Kemer district of Antalya. The history of Olympos dates back to the 2nd century BC and has many ruins from the Roman period. The most interesting structure of Olympos is the Roman theater. There are also pine forests, mountains and a beach around Olympos. Çıralı Beach is a breeding ground for the Caretta Caretta sea turtles. This region is also home to Yanartaş (Chimaera), where there are constantly burning flames created by underground gases rising to the surface."
-      },
-      "activities": {
-        "tr": [
-          "Yanartaş’ı görmek",
-          "Plajda yüzmek",
-          "Antik kalıntıları gezmek"
-        ],
-        "en": [
-          "Visit Yanartaş",
-          "Swim at the beach",
-          "Explore the ancient ruins"
-        ],
-        "de": [
-          "Yanartaş besichtigen",
-          "Am Strand schwimmen",
-          "Die antiken Ruinen erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/olympos.jpg"
-      ]
-    },
-    {
-      "slug": "phaselis-antik-kenti",
-      "name": {
-        "tr": "Phaselis Antik Kenti",
-        "en": "Phaselis Ancient City",
-        "de": "Phaselis Antike Stadt"
-      },
-      "latitude": 36.52525,
-      "longitude": 30.5527,
-      "description": {
-        "tr": "Phaselis, özellikle deniz kenarında konumlanmış antik bir Likya kentidir. Bu antik şehir, limanıyla ünlüdür. Phaselis, Roma ve Bizans dönemlerine ait yapılarla doludur. Kentteki önemli yapılar arasında bir antik tiyatro, agora, hamamlar ve su yolları bulunmaktadır. Phaselis'in etrafında güzel bir doğa vardır ve bölge, hem tarihî hem de doğal geziler yapmak isteyenler için mükemmel bir yerdir. Ayrıca, Phaselis, Kemer ilçesine oldukça yakın bir mesafededir.  ",
-        "en": "Phaselis is an ancient Lycian city located especially by the sea. This ancient city is famous for its port. Phaselis is full of structures from the Roman and Byzantine periods. Important structures in the city include an ancient theater, agora, baths and waterways. There is beautiful nature around Phaselis and the region is a perfect place for those who want to do both historical and natural trips. Phaselis is also very close to the Kemer district. ",
-        "de": "Phaselis ist eine antike lykische Stadt, die besonders am Meer liegt. Diese antike Stadt ist berühmt für ihren Hafen. Phaselis ist voller Gebäude aus der römischen und byzantinischen Zeit. Zu den wichtigen Gebäuden der Stadt zählen ein antikes Theater, eine Agora, Bäder und Wasserstraßen. Rund um Phaselis gibt es wunderschöne Natur und die Gegend ist ein perfekter Ort für diejenigen, die sowohl historische als auch natürliche Ausflüge unternehmen möchten. Darüber hinaus liegt Phaselis ganz in der Nähe des Bezirks Kemer.  "
-      },
-      "activities": {
-        "tr": [
-          "Plajda dinlenmek",
-          "Antik kent kalıntılarını gezmek"
-        ],
-        "en": [
-          "Relaxing at the beach",
-          "Exploring ancient city ruins"
-        ],
-        "de": [
-          "Am Strand entspannen",
-          "Antike Stadt ruinen besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/phaselis.jpg"
-      ]
-    },
-    {
-      "slug": "myra-antik-kenti",
-      "name": {
-        "tr": "Myra Antik Kenti",
-        "en": "Myra Ancient City",
-        "de": "Myra Antike Stadt"
-      },
-      "latitude": 36.25904,
-      "longitude": 29.98516,
-      "description": {
-        "tr": "Myra, Likya bölgesinin en önemli şehirlerinden biriydi ve MÖ 5. yüzyıldan Roma İmparatorluğu dönemine kadar önemli bir ticaret merkezi olmuştur. Myra'daki en dikkat çekici yapılar, kaya mezarlarıdır. Kaya mezarları, Likya'nın geleneksel mezar yapıları olup, kayaların içine oyulmuş büyük mezar odalarından oluşur. Ayrıca, Myra'da bir antik tiyatro da bulunmaktadır. Bölge, Aziz Nikolas’ın doğum yeri olarak bilinir ve bu nedenle özellikle Hristiyanlık tarihi açısından önemlidir.  ",
-        "en": "Myra was one of the most important cities in the Lycian region and was an important trade center from the 5th century BC to the Roman Empire. The most striking structures in Myra are the rock tombs. Rock tombs are traditional Lycian tomb structures, consisting of large burial chambers carved into the rocks. There is also an ancient theater in Myra. The region is known as the birthplace of St. Nicholas and is therefore particularly important in terms of Christian history.",
-        "de": "Myra war eine der bedeutendsten Städte der lykischen Region und war vom 5. Jahrhundert v. Chr. bis zum Römischen Reich ein wichtiges Handelszentrum. Die auffälligsten Bauwerke in Myra sind die Felsengräber. Felsengräber sind traditionelle Grabstrukturen Lykiens und bestehen aus großen, in den Felsen gehauenen Grabkammern. In Myra gibt es auch ein antikes Theater. Die Region ist als Geburtsort des Heiligen Nikolaus bekannt und daher für die christliche Geschichte von besonderer Bedeutung."
-      },
-      "activities": {
-        "tr": [
-          "Kaya mezarlarını görmek",
-          "Antik tiyatroyu gezmek"
-        ],
-        "en": [
-          "Visiting the rock tombs",
-          "Exploring the ancient theatre"
-        ],
-        "de": [
-          "Die Felsengräber besichtigen",
-          "Das antike Theater besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/myra.jpg"
-      ]
-    },
-    {
-      "slug": "patara-antik-kent",
-      "name": {
-        "tr": "Patara Antik Kent",
-        "en": "Patara Ancient City",
-        "de": "Patara Antike Stadt"
-      },
-      "latitude": 36.26149,
-      "longitude": 29.31574,
-      "description": {
-        "tr": "Patara, Likya'nın en önemli şehirlerinden biridir. Kent, uzun bir tarihe sahip olup, MÖ 8. yüzyıldan itibaren varlığını sürdürmüştür. Patara, ünlü Patara Plajı'na oldukça yakındır ve bu plaj, Caretta Caretta deniz kaplumbağalarının üreme alanıdır. Patara'daki en önemli yapılar, antik tiyatro, stadyum, agora ve tapınaklardır. Patara, aynı zamanda Roma İmparatoru Vespasian’ın doğum yeri olarak bilinir. Patara Antik Kenti, tarihi kalıntılarla doludur ve bölgedeki doğal güzelliklerle birleşen bir tarihi deneyim sunar.  ",
-        "en": "Patara is one of the most important cities of Lycia. The city has a long history and has existed since the 8th century BC. Patara is very close to the famous Patara Beach, which is the breeding ground of the Caretta Caretta sea turtles. The most important structures in Patara are the ancient theater, stadium, agora and temples. Patara is also known as the birthplace of the Roman Emperor Vespasian. The ancient city of Patara is full of historical ruins and offers a historical experience combined with the natural beauty of the region. ",
-        "de": "Patara ist eine der wichtigsten Städte Lykiens. Die Stadt hat eine lange Geschichte und existiert seit dem 8. Jahrhundert v. Chr. Patara liegt ganz in der Nähe des berühmten Patara-Strands und dieser Strand ist die Brutstätte der Caretta-Caretta-Meeresschildkröten. Die wichtigsten Gebäude in Patara sind das antike Theater, Stadion, Agora und Tempel. Patara ist auch als Geburtsort des römischen Kaisers Vespasian bekannt. Die antike Stadt Patara ist voller historischer Ruinen und bietet ein historisches Erlebnis kombiniert mit den Naturschönheiten der Region.  "
-      },
-      "activities": {
-        "tr": [
-          "Plajda yüzmek",
-          "Antik kalıntıları gezmek"
-        ],
-        "en": [
-          "Swimming at the beach",
-          "Exploring the ancient ruins"
-        ],
-        "de": [
-          "Am Strand schwimmen",
-          "Antike Ruinen besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/patara.jpg"
-      ]
-    },
-    {
-      "slug": "xanthos-antik-kenti",
-      "name": {
-        "tr": "Xanthos Antik Kenti",
-        "en": "Xanthos Ancient City",
-        "de": "Xanthos Antike Stadt"
-      },
-      "latitude": 36.35681,
-      "longitude": 29.31824,
-      "description": {
-        "tr": "Xanthos, Likya'nın başkenti olarak bilinir ve UNESCO Dünya Mirası Listesi'nde yer alır. Kent, Likya Uygarlığı'nın en önemli şehirlerinden biriydi. Xanthos'ta yer alan kaya mezarları, bölgenin en dikkat çekici kalıntılarındandır. Ayrıca, Xanthos'ta bir antik tiyatro, agora ve tapınaklar da bulunmaktadır. Kentin büyük bir kısmı Roma dönemine aittir. Xanthos Antik Kenti, oldukça büyük ve etkileyici bir alan olup, Likya uygarlığının zengin kültürel mirasını yansıtır.  ",
-        "en": "Xanthos is known as the capital of Lycia and is on the UNESCO World Heritage List. The city was one of the most important cities of the Lycian Civilization. The rock tombs in Xanthos are among the most striking ruins of the region. There is also an ancient theater, agora and temples in Xanthos. A large part of the city dates back to the Roman period. The Ancient City of Xanthos is a very large and impressive area and reflects the rich cultural heritage of the Lycian civilization.  ",
-        "de": "Xanthos ist als Hauptstadt Lykiens bekannt und steht auf der Liste des UNESCO-Weltkulturerbes. Die Stadt war eine der wichtigsten Städte der lykischen Zivilisation. Die Felsengräber in Xanthos gehören zu den markantesten Ruinen der Region. Außerdem gibt es in Xanthos ein antikes Theater, eine Agora und Tempel. Der Großteil der Stadt stammt aus der Römerzeit. Die antike Stadt Xanthos ist ein sehr großes und beeindruckendes Gebiet und spiegelt das reiche kulturelle Erbe der lykischen Zivilisation wider. "
-      },
-      "activities": {
-        "tr": [
-          "Tarihi ve Turistik kalıntıları gezmek",
-          "Arkeolojik alanları keşfetmek"
-        ],
-        "en": [
-          "Exploring historical and tourist ruins",
-          "Exploring archaeological sites"
-        ],
-        "de": [
-          "Historische und touristische Ruinen besichtigen",
-          "Archäologische Stätten erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/xanthos.jpg"
-      ]
-    },
-    {
-      "slug": "side-antik-kenti",
-      "name": {
-        "tr": "Side Antik Kenti",
-        "en": "Side Ancient City",
-        "de": "Side Antike Stadt"
-      },
-      "latitude": 36.76821,
-      "longitude": 31.39078,
-      "description": {
-        "tr": "Side, Akdeniz'in en güzel antik şehirlerinden biridir. Side, Roma İmparatorluğu döneminde büyük bir liman kenti olarak önem kazanmıştır. Side'deki en önemli yapılar arasında büyük bir antik tiyatro, Apollon Tapınağı ve Agora bulunmaktadır. Side'nin tarihi, MÖ 7. yüzyıla kadar gitmektedir. Ayrıca, Side'nin etrafında uzun kumsallar ve plajlar da bulunmaktadır. Bu nedenle, hem tarih severler hem de deniz tatili yapmak isteyenler için ideal bir destinasyondur.  ",
-        "de": "Side ist eine der schönsten antiken Städte des Mittelmeerraums. Während des Römischen Reiches erlangte Side als wichtige Hafenstadt Bedeutung. Zu den wichtigsten Gebäuden in Side zählen ein großes antikes Theater, der Apollontempel und die Agora. Die Geschichte von Side reicht bis ins 7. Jahrhundert v. Chr. zurück. Auch rund um Side gibt es lange Sandstrände und Strände. Daher ist es ein ideales Reiseziel sowohl für Geschichtsliebhaber als auch für diejenigen, die einen Urlaub am Meer verbringen möchten.  ",
-        "en": "Side is one of the most beautiful ancient cities in the Mediterranean. Side gained importance as a major port city during the Roman Empire. The most important structures in Side include a large ancient theater, the Temple of Apollo and the Agora. The history of Side dates back to the 7th century BC. There are also long sandy beaches around Side. For this reason, it is an ideal destination for both history lovers and those who want to have a seaside holiday. "
-      },
-      "activities": {
-        "tr": [
-          "Antik tiyatroyu gezmek",
-          "Plajda dinlenmek"
-        ],
-        "en": [
-          "Visiting the ancient theatre",
-          "Relaxing at the beach"
-        ],
-        "de": [
-          "Das antike Theater besichtigen",
-          "Am Strand entspannen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/side.jpg"
-      ]
-    },
-    {
-      "slug": "selge-antik-kenti",
-      "name": {
-        "tr": "Selge Antik Kenti",
-        "en": "Selge Ancient City",
-        "de": "Selge Antike Stadt"
-      },
-      "latitude": 37.2277,
-      "longitude": 31.12846,
-      "description": {
-        "tr": "Selge, Akseki ilçesinde yer alan ve iyi korunmuş bir Pisidya kentidir. Kentin en dikkat çekici yapıları arasında tiyatro, stadyum ve tapınaklar yer alır. Selge Antik Kenti, oldukça yüksek rakımlı bir bölgede yer aldığı için, doğa severler için mükemmel bir yerdir. Selge'nin surları ve kaya mezarları da oldukça ilgi çekicidir. Akseki ilçesine yaklaşık 30 km mesafede yer alan Selge, dağlık bir alanda olduğu için doğa yürüyüşleri için idealdir.  ",
-        "en": "Selge is a well-preserved Pisidian city located in the Akseki district. The most striking structures of the city include the theater, stadium and temples. The ancient city of Selge is a perfect place for nature lovers, as it is located in a very high altitude area. The walls and rock tombs of Selge are also quite interesting. Located approximately 30 km from the Akseki district, Selge is ideal for nature walks as it is in a mountainous area.  ",
-        "de": "Selge ist eine gut erhaltene pisidische Stadt im Bezirk Akseki. Zu den auffälligsten Bauwerken der Stadt zählen Theater, Stadien und Tempel. Die antike Stadt Selge ist ein perfekter Ort für Naturliebhaber, da sie in einer sehr hochgelegenen Gegend liegt. Sehr interessant sind auch die Mauern und Felsengräber von Selge. Selge liegt etwa 30 km vom Bezirk Akseki entfernt und eignet sich ideal für Spaziergänge in der Natur, da es in einer bergigen Gegend liegt.  "
-      },
-      "activities": {
-        "tr": [
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Antik kalıntıları gezmek"
-        ],
-        "en": [
-          "Hiking in nature walks",
-          "Exploring ancient ruins"
-        ],
-        "de": [
-          "Wandern in Naturwanderungen",
-          "Antike Ruinen besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/selge.jpg"
-      ]
-    },
-    {
-      "slug": "antiphellos-antik-kenti",
-      "name": {
-        "tr": "Antiphellos Antik Kenti",
-        "en": "Antiphellos Ancient City",
-        "de": "Antiphellos Antike Stadt"
-      },
-      "latitude": 36.20026,
-      "longitude": 29.63488,
-      "description": {
-        "tr": "Antiphellos, Kaş ilçesinde yer alan bir antik Likya kentidir. Antiphellos, deniz kenarındaki konumu ve güzel manzarasıyla bilinir. Kentteki en önemli yapılar arasında bir antik tiyatro ve kaya mezarları yer alır. Antiphellos, Kaş ilçe merkezine oldukça yakın bir mesafede yer alır ve bu nedenle bölgeye kolayca ulaşılabilir. Antiphellos, tarih severler ve doğa severler için mükemmel bir yerdir.  ",
-        "en": "Antiphellos is an ancient Lycian city located in the Kas district. Antiphellos is known for its seaside location and beautiful views. The most important structures in the city include an ancient theater and rock tombs. Antiphellos is located very close to the Kas district center and is therefore easily accessible. Antiphellos is a perfect place for history lovers and nature lovers.  ",
-        "de": "Antiphellos ist eine antike lykische Stadt im Bezirk Kaş. Antiphellos ist für seine Lage am Meer und die schöne Aussicht bekannt. Zu den wichtigsten Bauwerken der Stadt zählen ein antikes Theater und Felsengräber. Antiphellos liegt ganz in der Nähe des Stadtzentrums von Kaş und ist daher leicht zu erreichen. Antiphellos ist ein perfekter Ort für Geschichtsliebhaber und Naturliebhaber.  "
-      },
-      "activities": {
-        "tr": [
-          "Kaya mezarlarını görmek",
-          "Tarihi ve Turistik tiyatroyu gezmek"
-        ],
-        "en": [
-          "Visiting the rock tombs",
-          "Exploring the historical and tourist theatre"
-        ],
-        "de": [
-          "Die Felsengräber besichtigen",
-          "Das historische und touristische Theater besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/antiphellos.jpg"
-      ]
-    },
-    {
-      "slug": "lyrbe-antik-kenti",
-      "name": {
-        "tr": "Lyrbe Antik Kenti",
-        "en": "Lyrbe Ancient City",
-        "de": "Lyrbe Antike Stadt"
-      },
-      "latitude": 36.8994,
-      "longitude": 31.48102,
-      "description": {
-        "tr": "Lyrbe, Akseki ilçesinde yer alan bir Pisidya kentidir. Kentin en dikkat çekici yapısı, büyük bir Roma tiyatrosudur. Lyrbe Antik Kenti, oldukça yüksek bir rakıma sahip olup, çevresi dağlarla çevrilidir. Bu nedenle, hem doğa yürüyüşleri hem de tarihî geziler için ideal bir bölgedir. Kentin diğer önemli yapıları arasında stadyum ve tapınaklar da bulunmaktadır. Akseki ilçesine yaklaşık 20 km mesafededir.  ",
-        "en": "Lyrbe is a Pisidian city located in the Akseki district. The most striking structure of the city is a large Roman theater. Lyrbe Ancient City has a very high altitude and is surrounded by mountains. For this reason, it is an ideal area for both nature walks and historical tours. Other important structures of the city include a stadium and temples. It is approximately 20 km from the Akseki district.  ",
-        "de": "Lyrbe ist eine pisidische Stadt im Bezirk Akseki. Das auffälligste Bauwerk der Stadt ist ein großes römisches Theater. Die antike Stadt Lyrbe liegt sehr hoch und ist von Bergen umgeben. Daher ist es eine ideale Region sowohl für Naturwanderungen als auch für historische Ausflüge. Weitere wichtige Bauwerke der Stadt sind Stadien und Tempel. Es ist etwa 20 km vom Bezirk Akseki entfernt. "
-      },
-      "activities": {
-        "tr": [
-          "Antik kalıntıları gezmek"
-        ],
-        "en": [
-          "Exploring the ancient ruins"
-        ],
-        "de": [
-          "Die antiken Ruinen besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/lyrbe.jpg"
-      ]
     }
+   
   ],
   "konya": [
     {
@@ -9871,6 +10044,67 @@
         "https://example.com/milet_ancient_city.jpg"
       ]
     },
+{
+  "slug": "kusadasi",
+  "name": {
+    "tr": "Kuşadası",
+    "en": "Kuşadası",
+    "de": "Kuşadası"
+  },
+  "latitude": 37.8570,
+  "longitude": 27.2610,
+  "description": {
+    "tr": "Kuşadası, Aydın iline bağlı ve Ege Denizi kıyısında yer alan Türkiye’nin en popüler turizm merkezlerinden biridir. Doğal güzellikleri, masmavi plajları, kruvaziyer limanı ve tarihi zenginlikleriyle her yıl yerli ve yabancı milyonlarca ziyaretçiyi ağırlar. İlçe adını, sahil açıklarında yer alan ve kuş başını andıran Güvercinada’dan alır. Kuşadası aynı zamanda antik çağın önemli merkezlerinden Efes Antik Kenti’ne ve Meryem Ana Evi’ne oldukça yakın konumdadır. Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı ise tertemiz koyları ve zengin biyolojik çeşitliliğiyle doğa severler için eşsiz bir deneyim sunar. Yaz aylarında hareketli gece hayatı, beach kulüpleri ve festivalleriyle öne çıkan Kuşadası, hem deniz tatili hem kültür turizmi hem de doğa keşfi için ideal bir destinasyondur.",
+    "en": "Kuşadası is one of Turkey’s most popular tourist destinations, located on the Aegean coast in the province of Aydın. With its stunning beaches, turquoise waters, cruise port, and rich historical heritage, it attracts millions of domestic and international visitors every year. The town takes its name from Güvercinada (Pigeon Island), located just off the coast and resembling a bird’s head. Kuşadası is also very close to the ancient city of Ephesus and the House of the Virgin Mary, two of the region’s most important historical sites. The Dilek Peninsula–Büyük Menderes Delta National Park offers pristine bays and rich biodiversity for nature lovers. With its vibrant nightlife, beach clubs, and festivals during the summer, Kuşadası is an ideal destination for sea holidays, cultural tourism, and nature exploration.",
+    "de": "Kuşadası ist eines der beliebtesten Touristenziele der Türkei und liegt an der Ägäisküste in der Provinz Aydın. Mit seinen wunderschönen Stränden, dem türkisfarbenen Meer, dem Kreuzfahrthafen und seinem reichen historischen Erbe zieht die Stadt jedes Jahr Millionen von Besuchern an. Ihren Namen verdankt sie der vorgelagerten Insel Güvercinada, die einem Vogelkopf ähnelt. Kuşadası liegt zudem in der Nähe der antiken Stadt Ephesos und des Hauses der Jungfrau Maria, zwei bedeutenden historischen Stätten der Region. Der Nationalpark Dilek-Halbinsel–Büyük-Menderes-Delta bietet unberührte Buchten und eine vielfältige Tier- und Pflanzenwelt. Mit seinem lebhaften Nachtleben, Strandclubs und Sommerfestivals ist Kuşadası ein ideales Reiseziel für Badeurlaub, Kulturreisen und Naturerlebnisse."
+  },
+  "activities": {
+    "tr": [
+      "Denize girme ve plaj keyfi",
+      "Tekne turlarına katılma",
+      "Tarihi yerleri ziyaret etme",
+      "Milli parkta doğa yürüyüşü",
+      "Gece hayatını deneyimleme"
+    ],
+    "en": [
+      "Swimming and beach activities",
+      "Boat tours",
+      "Visiting historical sites",
+      "Nature walks in the national park",
+      "Experiencing nightlife"
+    ],
+    "de": [
+      "Schwimmen und Strandaktivitäten",
+      "Bootstouren",
+      "Besuch historischer Stätten",
+      "Naturwanderungen im Nationalpark",
+      "Nachtleben erleben"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "şehir",
+      "deniz",
+      "tarih",
+      "turizm"
+    ],
+    "en": [
+      "city",
+      "sea",
+      "history",
+      "tourism"
+    ],
+    "de": [
+      "Stadt",
+      "Meer",
+      "Geschichte",
+      "Tourismus"
+    ]
+  },
+  "images": [
+    "https://example.com/kusadasi.jpg"
+  ]
+},
     {
       "slug": "cavus-koprusu",
       "name": {
@@ -13937,6 +14171,64 @@
     }
   ],
   "balıkesir": [
+{
+  "slug": "sahindere-kanyonu",
+  "name": {
+    "tr": "Şahindere Kanyonu",
+    "en": "Şahindere Canyon",
+    "de": "Şahindere-Schlucht"
+  },
+  "latitude": 39.5706,
+  "longitude": 26.7452,
+  "description": {
+    "tr": "Şahindere Kanyonu, Balıkesir’in Edremit ilçesine bağlı Altınoluk Mahallesi sınırlarında, Kazdağları (İda Dağı) eteklerinde yer alan etkileyici bir doğal oluşumdur. Kazdağları Milli Parkı içerisinde bulunan kanyon, yüksek kaya duvarları, serin akan deresi ve zengin bitki örtüsü ile dikkat çeker. Bölge, dünyanın oksijen oranı en yüksek alanlarından biri olarak bilinen Kazdağları ekosisteminin önemli parçalarındandır. Kanyon boyunca yürüyüş parkurları, doğal su havuzları ve seyir noktaları bulunur. Özellikle yaz aylarında serinlemek isteyen ziyaretçiler için ideal bir kaçış noktasıdır. İlkbahar döneminde su debisinin artmasıyla doğa daha da canlanır ve manzara fotoğrafçılar için eşsiz kareler sunar. Doğa yürüyüşü, trekking ve kamp faaliyetleri için uygun olan Şahindere Kanyonu, hem macera hem de huzur arayanlar için Balıkesir’in en özel doğal alanlarından biridir.",
+    "en": "Şahindere Canyon is an impressive natural formation located in the Altınoluk neighborhood of Edremit district in Balıkesir, at the foothills of the Kaz Mountains (Mount Ida). Situated within the Kazdağları National Park, the canyon stands out with its high rock walls, cool flowing stream, and rich vegetation. The area is part of the Kaz Mountains ecosystem, known for having one of the highest oxygen levels in the world. Along the canyon, visitors can find hiking trails, natural pools, and scenic viewpoints. It is an ideal escape, especially during the summer months for those seeking cooler weather. In spring, with increased water flow, nature becomes even more vibrant, offering stunning landscapes for photographers. Suitable for trekking, nature walks, and camping, Şahindere Canyon is one of the most remarkable natural attractions of Balıkesir for both adventure seekers and those looking for tranquility.",
+    "de": "Die Şahindere-Schlucht befindet sich im Stadtteil Altınoluk des Bezirks Edremit in Balıkesir, am Fuße des Kazdağları-Gebirges (Ida-Gebirge). Sie liegt innerhalb des Nationalparks Kazdağları und beeindruckt mit hohen Felswänden, einem kühlen Bach und einer reichen Vegetation. Das Gebiet ist Teil des Ökosystems der Kazdağları, das für seinen besonders hohen Sauerstoffgehalt bekannt ist. Entlang der Schlucht gibt es Wanderwege, natürliche Wasserbecken und Aussichtspunkte. Besonders in den Sommermonaten ist sie ein beliebtes Ziel für Besucher, die Abkühlung suchen. Im Frühling sorgt der erhöhte Wasserstand für eine noch lebendigere Natur und bietet beeindruckende Fotomotive. Die Şahindere-Schlucht eignet sich hervorragend für Trekking, Naturwanderungen und Camping und zählt zu den bedeutendsten Naturattraktionen Balıkesirs."
+  },
+  "activities": {
+    "tr": [
+      "Doğa yürüyüşü (trekking)",
+      "Fotoğrafçılık",
+      "Doğal su havuzlarında serinleme",
+      "Kamp yapma",
+      "Manzara izleme"
+    ],
+    "en": [
+      "Hiking (trekking)",
+      "Photography",
+      "Swimming in natural pools",
+      "Camping",
+      "Scenic viewing"
+    ],
+    "de": [
+      "Wandern (Trekking)",
+      "Fotografie",
+      "Abkühlung in natürlichen Wasserbecken",
+      "Camping",
+      "Aussicht genießen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğa",
+      "kanyon",
+      "milli park"
+    ],
+    "en": [
+      "nature",
+      "canyon",
+      "national park"
+    ],
+    "de": [
+      "Natur",
+      "Schlucht",
+      "Nationalpark"
+    ]
+  },
+  "images": [
+    "https://example.com/sahindere_kanyonu.jpg"
+  ]
+},
     {
       "slug": "balikesir-kizilkecili",
       "name": {
@@ -16647,6 +16939,61 @@
     }
   ],
   "çanakkale": [
+{
+  "slug": "canakkale-truva-ati",
+  "name": {
+    "tr": "Çanakkale Truva Atı",
+    "en": "Çanakkale Trojan Horse",
+    "de": "Trojanisches Pferd von Çanakkale"
+  },
+  "latitude": 40.1553,
+  "longitude": 26.4142,
+  "description": {
+    "tr": "Çanakkale Truva Atı, Çanakkale şehir merkezinde sahil kordonunda sergilenen ve 2004 yapımı 'Troy' filminde kullanılan orijinal ahşap makettir. Film çekimlerinin ardından Çanakkale halkına hediye edilen bu dev Truva Atı, kısa sürede kentin simgelerinden biri haline gelmiştir. Çanakkale Boğazı manzarasına karşı konumlanan yapı, hem yerli hem yabancı turistlerin en çok fotoğraf çektirdiği noktalardan biridir. Antik Truva efsanesini ve Homeros’un İlyada destanındaki hikayeyi simgeleyen bu at, şehrin tarihi kimliğiyle bütünleşmiştir. Özellikle gün batımında boğaz manzarası eşliğinde etkileyici bir atmosfer sunar.",
+    "en": "The Çanakkale Trojan Horse is the original wooden prop used in the 2004 movie 'Troy' and is displayed on the waterfront promenade in the city center of Çanakkale. After the filming, it was gifted to the people of Çanakkale and quickly became one of the city's iconic landmarks. Positioned against the scenic view of the Dardanelles, it is one of the most photographed spots by both domestic and international tourists. Symbolizing the ancient legend of Troy and the story told in Homer's Iliad, the horse has become integrated with the historical identity of the city. It offers a particularly impressive atmosphere at sunset.",
+    "de": "Das Trojanische Pferd von Çanakkale ist das originale Holzmodell, das im Film 'Troy' aus dem Jahr 2004 verwendet wurde, und wird an der Uferpromenade im Stadtzentrum von Çanakkale ausgestellt. Nach den Dreharbeiten wurde es der Bevölkerung von Çanakkale geschenkt und entwickelte sich schnell zu einem Wahrzeichen der Stadt. Mit Blick auf die Dardanellen ist es einer der meistfotografierten Orte der Region. Das Pferd symbolisiert die antike Legende von Troja und die Geschichte aus Homers Ilias und ist eng mit der historischen Identität der Stadt verbunden. Besonders bei Sonnenuntergang entsteht hier eine beeindruckende Atmosphäre."
+  },
+  "activities": {
+    "tr": [
+      "Fotoğraf çekimi",
+      "Sahil yürüyüşü",
+      "Gün batımı izleme",
+      "Şehir merkezini keşfetme"
+    ],
+    "en": [
+      "Photography",
+      "Seafront walking",
+      "Watching the sunset",
+      "Exploring the city center"
+    ],
+    "de": [
+      "Fotografieren",
+      "Spaziergang an der Uferpromenade",
+      "Sonnenuntergang beobachten",
+      "Stadtzentrum erkunden"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarih",
+      "sembol",
+      "şehir"
+    ],
+    "en": [
+      "history",
+      "landmark",
+      "city"
+    ],
+    "de": [
+      "Geschichte",
+      "Wahrzeichen",
+      "Stadt"
+    ]
+  },
+  "images": [
+    "https://example.com/canakkale_truva_ati.jpg"
+  ]
+},
     {
       "slug": "biga",
       "name": {
