@@ -218,7 +218,7 @@ Dicle Nehri kıyısında yer alan ve binlerce oyma mağaradan oluşan kaya yerle
 
 ---
 
-Türkiye’nin mağaraları yalnızca doğal oluşum değil, aynı zamanda jeolojik ve tarihi miras niteliğindedir... 
+Türkiye’nin mağaraları yalnızca doğal oluşum değil, aynı zamanda jeolojik ve tarihi bir miras niteliğindedir. 
 
 Waylero ile keşfet, planla, paylaş.
 `
