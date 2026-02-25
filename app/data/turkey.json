@@ -6014,6 +6014,52 @@
         "https://example.com/altinbesik_magara.jpg"
       ]
     },
+{
+  "slug": "damlatas-magarasi",
+  "name": {
+    "tr": "Damlataş Mağarası",
+    "en": "Damlataş Cave",
+    "de": "Damlataş-Höhle"
+  },
+  "latitude": 36.5439,
+  "longitude": 31.9996,
+"description": {
+  "tr": "Damlataş Mağarası, Antalya'nın Alanya ilçesinde, tarihi Alanya Kalesi'nin batı eteklerinde ve ünlü Kleopatra Plajı'nın hemen yanında yer alan doğal bir oluşumdur. 1948 yılında Alanya Limanı'nın inşaatı sırasında yapılan patlatmalar esnasında tesadüfen keşfedilmiştir ve Türkiye'de turizme açılan ilk mağaralardan biri olma özelliğini taşır. Mağara adını, tavanından sürekli olarak damlayan ve kireçtaşı oluşumunu besleyen su damlacıklarından alır.\n\nYaklaşık 15 metre yüksekliğinde silindirik bir girişten inilen mağaranın içinde 50 metre uzunluğunda yatay bir galeri bulunmaktadır. İç kısımda binlerce yıl boyunca oluşmuş etkileyici sarkıt ve dikitler yer alır. Bu oluşumların yaklaşık 10-15 bin yıllık olduğu tahmin edilmektedir. Mağara içerisindeki sıcaklık yıl boyunca ortalama 22-23°C civarında sabit kalırken, nem oranı %90'ın üzerindedir.\n\nYüksek nem oranı ve karbondioksit dengesi nedeniyle mağara havasının özellikle astım hastalarına iyi geldiği düşünülmekte, bu nedenle belirli dönemlerde kontrollü sağlık amaçlı ziyaretler de yapılmaktadır. Damlataş Mağarası, hem doğal güzelliği hem de şehir merkezine olan yakınlığı sayesinde Alanya'nın en çok ziyaret edilen turistik noktalarından biridir ve yıl boyunca yerli ve yabancı turistleri ağırlamaktadır.",
+  "en": "Damlatas Cave is located in the Alanya district of Antalya, at the western foot of Alanya Castle and right next to the famous Cleopatra Beach. It was accidentally discovered in 1948 during blasting operations carried out for the construction of Alanya Harbor and became one of the first caves in Turkey opened to tourism. The cave takes its name from the water droplets continuously dripping from its ceiling, which contribute to the formation of limestone deposits.\n\nVisitors descend into the cave through a cylindrical entrance approximately 15 meters high, leading to a horizontal gallery about 50 meters long. Inside, there are impressive stalactites and stalagmites formed over thousands of years, estimated to be around 10,000–15,000 years old. The temperature inside the cave remains constant at around 22–23°C throughout the year, while the humidity level exceeds 90%.\n\nDue to its high humidity and balanced carbon dioxide levels, the cave's air is believed to be beneficial for asthma patients, and controlled health visits are organized during certain periods. Thanks to its natural beauty and central location, Damlatas Cave is one of the most visited tourist attractions in Alanya and welcomes both domestic and international visitors all year round.",
+  "de": "Die Damlataş-Höhle befindet sich im Stadtteil Alanya von Antalya, am westlichen Fuß der Burg von Alanya und direkt neben dem berühmten Kleopatra-Strand. Sie wurde 1948 bei Sprengarbeiten im Rahmen des Hafenbaus zufällig entdeckt und ist eine der ersten für den Tourismus geöffneten Höhlen der Türkei. Ihren Namen verdankt sie den ständig von der Decke herabtropfenden Wassertropfen, die die Kalksteinformationen im Inneren speisen.\n\nDer Zugang erfolgt über einen etwa 15 Meter hohen zylindrischen Eingang, der zu einer rund 50 Meter langen horizontalen Galerie führt. Im Inneren befinden sich beeindruckende Stalaktiten und Stalagmiten, die sich über Tausende von Jahren gebildet haben und auf ein Alter von etwa 10.000 bis 15.000 Jahren geschätzt werden. Die Temperatur in der Höhle bleibt das ganze Jahr über konstant bei etwa 22–23°C, während die Luftfeuchtigkeit über 90% liegt.\n\nAufgrund der hohen Luftfeuchtigkeit und des ausgewogenen Kohlendioxidgehalts gilt die Höhlenluft als wohltuend für Asthmapatienten, weshalb in bestimmten Zeiträumen kontrollierte Gesundheitsaufenthalte organisiert werden. Dank ihrer natürlichen Schönheit und der zentralen Lage zählt die Damlataş-Höhle zu den meistbesuchten Sehenswürdigkeiten in Alanya und wird das ganze Jahr über von einheimischen und internationalen Touristen besucht."
+},
+  "activities": {
+    "tr": [
+      "Mağara turu yapmak",
+      "Sarkıt ve dikit oluşumlarını incelemek",
+      "Kleopatra Plajı'nda vakit geçirmek"
+    ],
+    "en": [
+      "Take a cave tour",
+      "Observe stalactite and stalagmite formations",
+      "Spend time at Cleopatra Beach"
+    ],
+    "de": [
+      "Eine Höhlentour machen",
+      "Stalaktiten- und Stalagmitenformationen beobachten",
+      "Zeit am Kleopatra-Strand verbringen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "mağara"
+    ],
+    "en": [
+      "cave"
+    ],
+    "de": [
+      "Höhle"
+    ]
+  },
+  "images": [
+    "https://example.com/damlatas_magara.jpg"
+  ]
+},
     {
       "slug": "beldibi-magarasi",
       "name": {

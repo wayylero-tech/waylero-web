@@ -9,6 +9,7 @@ import { istanbulPosts } from "../data/blog/istanbul/posts";
 import { konyaPosts2 } from "../data/blog/konya/posts2";
 import { konyaRehberPost } from "../data/blog/konya/posts3";
 import { selalelerRehberPost } from "../data/blog/selale/posts";
+import { magaralarRehberPost } from "../data/blog/magaralar/posts";
 
 const posts = [
   ...generalPosts,
@@ -19,6 +20,7 @@ const posts = [
   ...konyaPosts2,
   ...konyaRehberPost,
   ...selalelerRehberPost,
+  ...magaralarRehberPost,
 ];
 
 export default function HomeBlogSlider() {

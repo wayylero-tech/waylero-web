@@ -55,18 +55,22 @@ export default function BlogDetail({ post }: { post: Post }) {
             className="py-10"
           >
             {images.map((img, index) => (
-              <SwiperSlide key={index}>
-                <img
-                  src={img}
-                  alt={post.title}
-                  draggable={false}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setLightboxImage(img);
-                  }}
-                  className="cursor-pointer max-h-[600px] w-full object-contain select-none"
-                />
-              </SwiperSlide>
+             <SwiperSlide key={index}>
+  <div
+    className="relative w-full aspect-[9/16] bg-black rounded-2xl overflow-hidden"
+    onClick={(e) => {
+      e.stopPropagation();
+      setLightboxImage(img);
+    }}
+  >
+    <img
+      src={img}
+      alt={post.title}
+      draggable={false}
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+  </div>
+</SwiperSlide>
             ))}
           </Swiper>
         </div>
