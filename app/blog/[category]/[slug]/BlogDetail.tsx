@@ -91,14 +91,8 @@ export default function BlogDetail({ post }: { post: Post }) {
 
       {/* Content */}
   {post.content && (
-  <div className="prose prose-lg max-w-none">
-    <ReactMarkdown
-      components={{
-        a: ({ node, ...props }) => (
-          <a {...props} target="_blank" rel="noopener noreferrer" />
-        ),
-      }}
-    >
+  <div className="whitespace-pre-line leading-8 text-lg max-w-3xl mx-auto">
+    <ReactMarkdown>
       {post.content}
     </ReactMarkdown>
   </div>
