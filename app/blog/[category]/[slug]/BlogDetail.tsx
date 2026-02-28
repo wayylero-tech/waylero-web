@@ -57,7 +57,7 @@ export default function BlogDetail({ post }: { post: Post }) {
             {images.map((img, index) => (
              <SwiperSlide key={index}>
   <div
-    className="relative w-full aspect-[9/16] bg-black rounded-2xl overflow-hidden"
+className="relative w-full aspect-video bg-black rounded-2xl overflow-hidden"
     onClick={(e) => {
       e.stopPropagation();
       setLightboxImage(img);
