@@ -31,19 +31,19 @@ Bu yazıda **İstanbul’da 3 günde ne yapılır?** sorusuna, yormadan ama dolu
 İstanbul gezisine başlamak için en doğru adres **Tarihi Yarımada**.
 
 ### Ayasofya Camii
-Bizans ve Osmanlı izlerini aynı anda görebileceğin, İstanbul’un simgesi olan Ayasofya mutlaka ilk durak olmalı.
+Bizans ve Osmanlı izlerini aynı anda görebileceğiniz İstanbul simgesi. İç dekorasyonu, mozaikleri ve kubbesiyle mutlaka görülmesi gereken bir yapıdır. Rehberli tur ile detaylı bilgi edinebilirsiniz.
 
 ### Sultanahmet Camii
-Mavi çinileriyle ünlü bu cami, Ayasofya’nın hemen karşısında yer alır ve fotoğraf çekmek için harika bir noktadır.
+Mavi çinileriyle ünlü bu cami, Ayasofya’nın hemen karşısında yer alır. Fotoğraf çekmek ve tarihi atmosferi yaşamak için ideal bir noktadır. Öğle saatlerinden kaçınmak daha sakin bir ziyaret sağlar.
 
 ### Topkapı Sarayı
-Osmanlı padişahlarının yaşadığı sarayda Kutsal Emanetler, Harem ve Boğaz manzaralı bahçeleri gezebilirsin.
+Osmanlı padişahlarının yaşam alanı olan saray; Harem, kutsal emanetler ve Boğaz manzaralı bahçeleri ile dikkat çeker. Ziyaretçiler için rehberli turlar ve audio rehber seçenekleri mevcuttur.
 
 ### Öğle Yemeği
 Sultanahmet veya Eminönü’nde köfteciler ya da meşhur balık-ekmek iyi bir tercih olur.
 
 ### Kapalıçarşı & Mısır Çarşısı
-İstanbul’un en hareketli noktalarında alışveriş yapabilir veya sadece sokaklarında kaybolmanın keyfini çıkarabilirsin.
+Alışveriş ve sokak keyfi için tarihi çarşılarda dolaşabilirsiniz. Antika, takı, baharat ve hediyelik eşya dükkanlarıyla dolu bu alanlar, hem alışveriş hem de kültürel keşif sunar.
 
 ### Akşam: Galata Köprüsü
 Gün batımında Galata Köprüsü’nde yürüyüş yaparak ilk günü keyifli şekilde tamamlayabilirsin.
@@ -63,11 +63,11 @@ Boğaz turu sonrası Beşiktaş’ta sahile yakın bir mekânda kahvaltı yapabi
 ### Dolmabahçe Sarayı
 Osmanlı’nın en ihtişamlı saraylarından biri olan Dolmabahçe, mimarisi ve Boğaz manzarasıyla etkileyicidir.
 
-### Taksim & İstiklal Caddesi
-İstanbul’un en canlı caddesinde yürüyüş yapabilir, Galata Kulesi’ni ziyaret edebilirsin.
+### 🌆 Taksim Meydanı & İstiklal Caddesi
+İstanbul’un kalbi sayılan **Taksim Meydanı**, şehrin en hareketli ve kültürel merkezi olarak bilinir. Meydan, Atatürk Heykeli ve çevresindeki önemli yapılarla ziyaretçilerine tarihi bir atmosfer sunar.  
 
-### Akşam: Karaköy
-Karaköy’de kafelerde vakit geçirip gün batımını izleyerek günü noktalayabilirsin.
+### 🌅 Karaköy
+**Karaköy**, tarihi ve modern dokuyu bir arada sunar. Gün batımı izlemek için sahil şeridi idealdir. Bölgedeki kafelerde Türk kahvesi veya çay eşliğinde günün tadını çıkarabilirsiniz.
 
 ---
 
@@ -79,13 +79,13 @@ Son gün rotamızı Anadolu Yakası’na çeviriyoruz.
 Vapur yolculuğu İstanbul deneyiminin vazgeçilmezlerinden biridir.
 
 ### Kadıköy & Moda
-Moda sokaklarında gezebilir, sahil boyunca yürüyüş yapabilirsin.
+Sokak lezzetleri, kafeler ve butik dükkanları ile hem gün boyu hem akşam saatlerinde keşfe uygun bir bölge. Moda sahilinde yürüyüş ve gün batımı keyfi önerilir.
 
 ### Öğle Yemeği
 Kadıköy, sokak lezzetleri ve modern restoranlarıyla oldukça zengindir.
 
-### Çamlıca Tepesi
-İstanbul’u yukarıdan izlemek için en güzel noktalardan biri.
+###  Çamlıca Tepesi
+İstanbul’u kuşbakışı izlemek için en iyi noktalardan biri olan **Çamlıca Tepesi**, özellikle panoramik manzarasıyla ziyaretçilerin ilgisini çeker. Anadolu Yakası’nda bulunan tepe, şehrin tüm siluetini gözler önüne serer.
 
 ### Akşam: Moda Sahili
 Gün batımıyla birlikte İstanbul gezisini keyifli bir şekilde tamamlayabilirsin.
