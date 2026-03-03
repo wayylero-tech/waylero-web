@@ -94,9 +94,9 @@ Gün batımıyla birlikte İstanbul gezisini keyifli bir şekilde tamamlayabilir
 
 ## İstanbul Gezi İpuçları
 
-- Toplu taşıma için İstanbulkart kullan  
-- Rahat ayakkabı tercih et  
-- Sabah erken saatlerde gezmeye başla  
+- Toplu taşıma için İstanbulkart kullan
+- Rahat ayakkabı tercih et
+- Sabah erken saatlerde gezmeye başla
 - Fotoğraf için powerbank almayı unutma
 
 ---

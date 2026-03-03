@@ -91,11 +91,52 @@ className="relative w-full aspect-video bg-black rounded-2xl overflow-hidden"
 
       {/* Content */}
   {post.content && (
-  <div className="whitespace-pre-line leading-8 text-lg max-w-3xl mx-auto">
-    <ReactMarkdown>
-      {post.content}
-    </ReactMarkdown>
-  </div>
+ <div className="max-w-3xl mx-auto">
+  <ReactMarkdown
+    components={{
+      h1: ({ children }) => (
+        <h1 className="text-3xl font-bold mt-10 mb-6">
+          {children}
+        </h1>
+      ),
+      h2: ({ children }) => (
+        <h2 className="text-2xl font-bold mt-8 mb-4 border-b pb-2">
+          {children}
+        </h2>
+      ),
+      h3: ({ children }) => (
+        <h3 className="text-xl font-semibold mt-6 mb-3">
+          {children}
+        </h3>
+      ),
+      p: ({ children }) => (
+        <p className="text-lg leading-8 mb-4 text-gray-700">
+          {children}
+        </p>
+      ),
+      ul: ({ children }) => (
+        <ul className="list-disc pl-6 mb-6 space-y-2 text-lg text-gray-700">
+          {children}
+        </ul>
+      ),
+      ol: ({ children }) => (
+        <ol className="list-decimal pl-6 mb-6 space-y-2 text-lg text-gray-700">
+          {children}
+        </ol>
+      ),
+      li: ({ children }) => (
+        <li className="leading-8">
+          {children}
+        </li>
+      ),
+      hr: () => (
+        <hr className="my-10 border-gray-300" />
+      ),
+    }}
+  >
+    {post.content}
+  </ReactMarkdown>
+</div>
 )}
     </div>
   );
