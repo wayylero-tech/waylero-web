@@ -3970,6 +3970,56 @@
         "https://example.com/koprulu_kanyon_milli_parki.jpg"
       ]
     },
+{
+  "slug": "tazi-kanyonu",
+  "name": {
+    "tr": "Tazı Kanyonu",
+    "en": "Tazi Canyon",
+    "de": "Tazi Schlucht"
+  },
+  "latitude": 37.14828121088454, 
+  "longitude": 31.18961576432251,
+  "description": {
+    "tr": "Tazı Kanyonu, Antalya'nın Manavgat ilçesi sınırları içerisinde bulunan ve Köprülü Kanyon Milli Parkı içinde yer alan etkileyici bir doğal oluşumdur. Toros Dağları'nın etkileyici manzaraları arasında yer alan bu kanyon, yüksek kayalık uçurumları ve geniş panoramik manzarası ile son yıllarda doğa severlerin ve fotoğrafçıların en çok ziyaret ettiği noktalardan biri haline gelmiştir.\n\nKanyon, yaklaşık 200 ila 400 metreyi bulan dik kayalık duvarlarıyla oldukça etkileyici bir görüntü sunar. Köprülü Kanyon Vadisi'ni yukarıdan izleme imkanı sunan seyir noktası, ziyaretçilere Türkiye'nin en etkileyici doğal manzaralarından birini sunar. Gün doğumu ve gün batımı saatlerinde oluşan ışık oyunları, kanyonu fotoğrafçılar için eşsiz bir noktaya dönüştürmektedir.\n\nTazı Kanyonu özellikle doğa yürüyüşü, manzara izleme ve fotoğraf çekmek isteyen ziyaretçiler için oldukça popülerdir. Bölgede yürüyüş yapabileceğiniz patikalar bulunur ve çevresi tamamen doğal orman alanları ile kaplıdır. Ayrıca Köprülü Kanyon bölgesinde rafting, doğa yürüyüşü ve kamp gibi birçok farklı aktivite de yapılabilmektedir.\n\nTazı Kanyonu'na ulaşım için genellikle Köprülü Kanyon Milli Parkı yolu kullanılır. Antalya şehir merkezine yaklaşık 100 kilometre, Manavgat ilçesine ise yaklaşık 60 kilometre mesafededir. Manavgat üzerinden Beşkonak yönüne doğru ilerledikten sonra Köprülü Kanyon tabelalarını takip ederek bölgeye ulaşabilirsiniz. Son birkaç kilometrelik yol genellikle orman yolu şeklindedir ve dikkatli sürüş gerektirir.\n\nDoğanın gücünü ve Toros Dağları'nın büyüleyici manzarasını görmek isteyen ziyaretçiler için Tazı Kanyonu, Antalya'nın keşfedilmeye değer en etkileyici doğal noktalarından biridir.\n",
+    "en": "Tazi Canyon is a stunning natural formation located within Köprülü Canyon National Park in the Manavgat district of Antalya. Surrounded by the dramatic landscapes of the Taurus Mountains, the canyon has become one of the most visited natural viewpoints in the region in recent years.\n\nThe canyon features steep cliffs that reach heights of approximately 200 to 400 meters, offering breathtaking panoramic views of the Köprülü Canyon valley below. The main viewpoint allows visitors to observe the deep canyon and surrounding forest landscape from above. During sunrise and sunset, the changing light creates spectacular scenery that attracts photographers and nature enthusiasts.\n\nTazi Canyon is especially popular for nature walks, sightseeing, and photography. The surrounding area is covered with pine forests and natural trails, making it an excellent destination for outdoor exploration. Visitors can also combine their trip with rafting, hiking, and camping activities in the nearby Köprülü Canyon National Park.\n\nThe canyon can be reached by following the road to Köprülü Canyon National Park. It is located about 100 kilometers from Antalya city center and approximately 60 kilometers from Manavgat. Travelers usually reach the area by heading toward Beşkonak village and following the signs for Köprülü Canyon. The final part of the road consists of forest paths and requires careful driving.\n\nWith its dramatic cliffs and breathtaking views over the canyon valley, Tazi Canyon is considered one of the most impressive natural viewpoints in the Antalya region.\n",
+    "de": "Die Tazi Schlucht befindet sich im Bezirk Manavgat in der Provinz Antalya und liegt innerhalb des Köprülü-Kanyon-Nationalparks. Umgeben von der beeindruckenden Landschaft des Taurusgebirges hat sich diese Schlucht in den letzten Jahren zu einem beliebten Ziel für Naturfreunde und Fotografen entwickelt.\n\nDie Schlucht ist von steilen Felswänden umgeben, die eine Höhe von etwa 200 bis 400 Metern erreichen. Vom Aussichtspunkt aus können Besucher einen spektakulären Blick auf das Köprülü-Kanyon-Tal und die umliegenden Wälder genießen. Besonders bei Sonnenaufgang und Sonnenuntergang entstehen beeindruckende Lichtstimmungen, die die Landschaft noch faszinierender wirken lassen.\n\nDie Tazi Schlucht ist besonders beliebt für Naturwanderungen, Aussichtspunkte und Fotografie. Die Umgebung ist von Pinienwäldern und natürlichen Wanderwegen geprägt. Zudem können Besucher ihren Ausflug mit Aktivitäten wie Rafting, Wandern oder Camping im nahegelegenen Köprülü-Kanyon-Nationalpark verbinden.\n\nDie Anreise erfolgt über die Straße zum Köprülü-Kanyon-Nationalpark. Die Schlucht liegt etwa 100 Kilometer vom Stadtzentrum von Antalya und rund 60 Kilometer von Manavgat entfernt. Von Manavgat aus fährt man in Richtung Beşkonak und folgt anschließend den Schildern zum Köprülü Kanyon. Die letzten Kilometer führen über Waldwege und erfordern vorsichtiges Fahren.\n\nMit ihren beeindruckenden Felsformationen und der spektakulären Aussicht gehört die Tazi Schlucht zu den schönsten Naturaussichtspunkten der Region Antalya.\n"
+  },
+  "activities": {
+    "tr": [
+      "Manzara izlemek",
+      "Fotoğraf çekmek",
+      "Doğa yürüyüşü",
+      "Kamp yapmak"
+    ],
+    "en": [
+      "Sightseeing",
+      "Photography",
+      "Hiking",
+      "Camping"
+    ],
+    "de": [
+      "Aussicht genießen",
+      "Fotografie",
+      "Wandern",
+      "Camping"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kanyon"
+    ],
+    "en": [
+      "canyon"
+    ],
+    "de": [
+      "Schlucht"
+    ]
+  },
+  "images": [
+    "https://example.com/tazi_kanyonu.jpg",
+    "https://example.com/tazi_kanyonu_2.jpg"
+  ]
+},
     {
       "slug": "duden-selalesi",
       "name": {
@@ -10293,6 +10343,56 @@
         "https://example.com/apollon_tapinagi_columns.jpg"
       ]
     },
+{
+  "slug": "arapapisti-kanyonu",
+  "name": {
+    "tr": "Arapapıştı Kanyonu",
+    "en": "Arapapisti Canyon",
+    "de": "Arapapisti Schlucht"
+  },
+  "latitude": 37.89290,
+  "longitude": 28.48370,
+  "description": {
+    "tr": "Arapapıştı Kanyonu, Aydın ilinin Bozdoğan ilçesi ile Denizli ilinin sınırları arasında yer alan etkileyici bir doğal oluşumdur. Kanyon, Kemer Barajı üzerinde bulunur ve halk arasında İnceğiz Kanyonu olarak da bilinmektedir. Yüksek kayalık duvarları, dar geçitleri ve turkuaz renkli baraj gölü manzarası ile Ege Bölgesi'nin en dikkat çekici doğal güzelliklerinden biridir.\n\nKanyonun bazı noktalarında kayalık duvarların yüksekliği 300 metreye kadar ulaşmaktadır. Bu devasa kayalıklar ve dar geçitler ziyaretçilere oldukça etkileyici bir manzara sunar. Kanyon genellikle tekne turları ile keşfedilmektedir. Tekne ile yapılan geziler sırasında dik kayalıklar, doğal mağaralar ve tarihi kalıntılar görülebilir.\n\nArapapıştı Kanyonu çevresinde tarihi kalıntılar da bulunmaktadır. Bölgede yer alan antik yerleşim izleri ve kaya mezarları, kanyonun sadece doğal değil aynı zamanda tarihi açıdan da önemli bir alan olduğunu göstermektedir. Bu özellikleri sayesinde bölge hem doğa severler hem de fotoğrafçılar için oldukça popüler bir destinasyon haline gelmiştir.\n\nKanyona ulaşım genellikle Aydın'ın Bozdoğan ilçesi üzerinden sağlanmaktadır. Aydın şehir merkezine yaklaşık 90 kilometre, Denizli şehir merkezine ise yaklaşık 80 kilometre mesafededir. Bozdoğan ilçesine ulaştıktan sonra Kemer Barajı yönüne ilerleyerek kanyon bölgesine ulaşabilirsiniz. Bölgede ziyaretçiler için tekne turları düzenlenmektedir.\n\nEge Bölgesi'nin saklı doğal güzelliklerinden biri olan Arapapıştı Kanyonu, yüksek kayalık duvarları, etkileyici manzarası ve sakin atmosferi ile keşfedilmeye değer doğa harikalarından biridir.",
+    "en": "Arapapisti Canyon is a remarkable natural formation located between the borders of Aydın's Bozdoğan district and Denizli province. The canyon lies along the Kemer Dam reservoir and is also known locally as İnceğiz Canyon. With its steep cliffs, narrow passages, and turquoise-colored water, it is considered one of the most impressive natural attractions in the Aegean region of Turkey.\n\nIn some parts of the canyon, the rocky cliffs rise up to 300 meters in height, creating a dramatic landscape. The canyon is mostly explored through boat tours that allow visitors to travel between the narrow rock walls while enjoying breathtaking scenery. During these tours, visitors can observe natural caves, impressive rock formations, and traces of ancient settlements along the cliffs.\n\nThe surrounding area of the canyon also contains historical remains such as ancient structures and rock tombs carved into the cliffs. These features make Arapapisti Canyon not only a natural wonder but also a place with historical significance.\n\nArapapisti Canyon is usually accessed through the Bozdoğan district of Aydın province. It is approximately 90 kilometers from Aydın city center and about 80 kilometers from Denizli. Visitors typically travel to Bozdoğan first and then continue toward the Kemer Dam area where boat tours are organized.\n\nWith its towering cliffs, peaceful atmosphere, and stunning water scenery, Arapapisti Canyon is considered one of the hidden natural treasures of the Aegean region.",
+    "de": "Die Arapapisti Schlucht befindet sich zwischen dem Bezirk Bozdoğan in der Provinz Aydın und der Provinz Denizli. Die Schlucht liegt am Kemer-Stausee und wird auch als İnceğiz-Schlucht bezeichnet. Mit ihren steilen Felswänden, engen Passagen und dem türkisfarbenen Wasser gehört sie zu den beeindruckendsten Naturlandschaften der Ägäisregion.\n\nAn einigen Stellen erreichen die Felswände der Schlucht eine Höhe von bis zu 300 Metern. Diese hohen Felsen und die schmalen Durchgänge schaffen eine spektakuläre Landschaft. Die Schlucht wird meist im Rahmen von Bootstouren erkundet, bei denen Besucher zwischen den hohen Felsen hindurchfahren und die beeindruckende Natur genießen können.\n\nIn der Umgebung der Schlucht befinden sich auch historische Überreste wie antike Siedlungsspuren und in den Felsen gehauene Gräber. Dadurch ist die Arapapisti Schlucht nicht nur ein Naturwunder, sondern auch historisch interessant.\n\nDie Anreise erfolgt in der Regel über den Bezirk Bozdoğan in der Provinz Aydın. Die Schlucht liegt etwa 90 Kilometer vom Stadtzentrum von Aydın und ungefähr 80 Kilometer von Denizli entfernt. Von Bozdoğan aus fährt man in Richtung Kemer-Staudamm, wo Bootstouren zur Erkundung der Schlucht angeboten werden.\n\nMit ihren hohen Felsformationen, der ruhigen Atmosphäre und der beeindruckenden Wasserlandschaft zählt die Arapapisti Schlucht zu den versteckten Naturschätzen der Ägäisregion."
+  },
+  "activities": {
+    "tr": [
+      "Tekne turu",
+      "Fotoğraf çekmek",
+      "Manzara izlemek",
+      "Doğa keşfi"
+    ],
+    "en": [
+      "Boat tour",
+      "Photography",
+      "Sightseeing",
+      "Nature exploration"
+    ],
+    "de": [
+      "Bootstour",
+      "Fotografie",
+      "Aussicht genießen",
+      "Naturerkundung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kanyon"
+    ],
+    "en": [
+      "canyon"
+    ],
+    "de": [
+      "Schlucht"
+    ]
+  },
+  "images": [
+    "https://example.com/arapapisti_kanyonu.jpg",
+    "https://example.com/arapapisti_kanyonu_2.jpg"
+  ]
+},
     {
       "slug": "kadinlar-denizi-plaji",
       "name": {
@@ -22266,59 +22366,7 @@
         "https://example.com/safranbolu_evleri.jpg"
       ]
     },
-    {
-      "slug": "valla-kanyonu",
-      "name": {
-        "tr": "Valla Kanyonu",
-        "en": "Valla Canyon",
-        "de": "Valla-Schlucht"
-      },
-      "latitude": 41.72014,
-      "longitude": 33.07305,
-      "description": {
-        "tr": "Valla Kanyonu, Karabük ilinin Ulus ilçesi yakınlarında bulunan ve Türkiye'nin en derin kanyonlarından biri olan doğa harikası bir alandır. Büyük Melen Çayı tarafından şekillendirilmiş olan kanyon, etkileyici kaya yapıları, derinlikleri ve eşsiz manzarasıyla doğa severlerin ilgisini çeker. Kanyonun çevresi, zengin flora ve fauna ile doludur ve yürüyüş parkurları ile keşfedilmeye değerdir.",
-        "en": "Valla Canyon, located near the Ulus district of Karabük province, is one of the deepest canyons in Turkey. Shaped by the Büyük Melen River, the canyon attracts nature lovers with its impressive rock formations, depths, and unique scenery. Its surroundings are rich in flora and fauna and are worth exploring through walking trails.",
-        "de": "Die Valla-Schlucht, die sich in der Nähe des Bezirks Ulus in der Provinz Karabük befindet, ist eine der tiefsten Schluchten der Türkei. Geformt vom Büyük-Melen-Fluss zieht die Schlucht Naturfreunde mit ihren beeindruckenden Felsformationen, Tiefen und einzigartigen Landschaften an. Die Umgebung ist reich an Flora und Fauna und lädt zu Erkundungen auf Wanderwegen ein."
-      },
-      "activities": {
-        "tr": [
-          "Kanyonun derinliklerine inmek",
-          "Doğa yürüyüşü yapmak",
-          "Fotoğraf çekmek",
-          "Kanyon manzarasında vakit geçirmek",
-          "Dağcılık yapmak"
-        ],
-        "en": [
-          "Descend into the canyon",
-          "Take a nature walk",
-          "Take photos",
-          "Enjoy the canyon view",
-          "Go climbing"
-        ],
-        "de": [
-          "In die Schlucht hinabsteigen",
-          "Naturwanderung machen",
-          "Fotos machen",
-          "Die Schluchtenansicht genießen",
-          "Klettern gehen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kanyon"
-        ],
-        "en": [
-          "canyon"
-        ],
-        "de": [
-          "Schlucht"
-        ]
-      },
-      "images": [
-        "https://example.com/valla_kanyonu_1.jpg",
-        "https://example.com/valla_kanyonu_2.jpg"
-      ]
-    },
+   
     {
       "slug": "safranbolu-carsisi",
       "name": {
@@ -23404,6 +23452,59 @@
       },
       "images": [
         "https://example.com/kastamonu_kalesi.jpg"
+      ]
+    },
+ {
+      "slug": "valla-kanyonu",
+      "name": {
+        "tr": "Valla Kanyonu",
+        "en": "Valla Canyon",
+        "de": "Valla-Schlucht"
+      },
+      "latitude": 41.72014,
+      "longitude": 33.07305,
+      "description": {
+        "tr": "Valla Kanyonu, Karabük ilinin Ulus ilçesi yakınlarında bulunan ve Türkiye'nin en derin kanyonlarından biri olan doğa harikası bir alandır. Büyük Melen Çayı tarafından şekillendirilmiş olan kanyon, etkileyici kaya yapıları, derinlikleri ve eşsiz manzarasıyla doğa severlerin ilgisini çeker. Kanyonun çevresi, zengin flora ve fauna ile doludur ve yürüyüş parkurları ile keşfedilmeye değerdir.",
+        "en": "Valla Canyon, located near the Ulus district of Karabük province, is one of the deepest canyons in Turkey. Shaped by the Büyük Melen River, the canyon attracts nature lovers with its impressive rock formations, depths, and unique scenery. Its surroundings are rich in flora and fauna and are worth exploring through walking trails.",
+        "de": "Die Valla-Schlucht, die sich in der Nähe des Bezirks Ulus in der Provinz Karabük befindet, ist eine der tiefsten Schluchten der Türkei. Geformt vom Büyük-Melen-Fluss zieht die Schlucht Naturfreunde mit ihren beeindruckenden Felsformationen, Tiefen und einzigartigen Landschaften an. Die Umgebung ist reich an Flora und Fauna und lädt zu Erkundungen auf Wanderwegen ein."
+      },
+      "activities": {
+        "tr": [
+          "Kanyonun derinliklerine inmek",
+          "Doğa yürüyüşü yapmak",
+          "Fotoğraf çekmek",
+          "Kanyon manzarasında vakit geçirmek",
+          "Dağcılık yapmak"
+        ],
+        "en": [
+          "Descend into the canyon",
+          "Take a nature walk",
+          "Take photos",
+          "Enjoy the canyon view",
+          "Go climbing"
+        ],
+        "de": [
+          "In die Schlucht hinabsteigen",
+          "Naturwanderung machen",
+          "Fotos machen",
+          "Die Schluchtenansicht genießen",
+          "Klettern gehen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kanyon"
+        ],
+        "en": [
+          "canyon"
+        ],
+        "de": [
+          "Schlucht"
+        ]
+      },
+      "images": [
+        "https://example.com/valla_kanyonu_1.jpg",
+        "https://example.com/valla_kanyonu_2.jpg"
       ]
     },
     {
@@ -27064,6 +27165,56 @@
         "https://example.com/gynap_koyu_2.jpg"
       ]
     },
+{
+  "slug": "saklikent-kanyonu",
+  "name": {
+    "tr": "Saklıkent Kanyonu",
+    "en": "Saklikent Canyon",
+    "de": "Saklikent Schlucht"
+  },
+  "latitude": 36.47487,
+  "longitude": 29.40236,
+  "description": {
+  "tr": "Saklıkent Kanyonu, Muğla'nın Seydikemer ilçesinde yer alan ve Türkiye'nin en uzun ve en etkileyici kanyonlarından biridir. Yaklaşık 18 kilometre uzunluğa ve yer yer 300 metreyi aşan kayalık duvarlara sahip olan kanyon, doğal güzelliği ve serin atmosferi ile özellikle yaz aylarında yoğun ziyaretçi çeker.\n\nKanyonun içinden buz gibi kaynak suları akmaktadır ve bu suyun sıcaklığı yaz aylarında bile oldukça düşüktür. Ziyaretçiler ahşap yürüyüş platformları ve kanyon içerisindeki su yolu boyunca yürüyerek eşsiz manzaraları keşfedebilir. Macera severler için kanyon yürüyüşü, doğa fotoğrafçılığı ve serin sularda yürüyüş gibi aktiviteler oldukça popülerdir.\n\nSaklıkent Kanyonu’na girişte restoranlar, dinlenme alanları ve küçük işletmeler bulunur. Özellikle kanyon girişinde su üzerinde kurulu platformlarda yemek yemek ziyaretçiler için farklı bir deneyim sunar.\n\nSaklıkent Kanyonu’na ulaşım oldukça kolaydır. Muğla'nın Fethiye ilçesine yaklaşık 40 kilometre, Antalya'nın Kaş ilçesine ise yaklaşık 60 kilometre mesafededir. Fethiye’den Seydikemer yönüne doğru ilerleyip Saklıkent tabelalarını takip ederek özel araçla rahatlıkla ulaşılabilir. Yaz aylarında Fethiye ve çevre turizm merkezlerinden kanyona düzenli tur ve minibüs seferleri de yapılmaktadır.\n\nDoğa ile iç içe vakit geçirmek isteyenler için Saklıkent Kanyonu, serin havası, yüksek kayalık duvarları ve etkileyici manzarasıyla Türkiye’de mutlaka görülmesi gereken doğal oluşumlardan biridir.\n",
+  "en": "Saklikent Canyon is located in the Seydikemer district of Muğla and is one of the longest and most impressive canyons in Turkey. Stretching approximately 18 kilometers in length and surrounded by steep rock walls reaching up to 300 meters in height, the canyon offers a breathtaking natural environment that attracts many visitors, especially during the summer months.\n\nCold spring water flows through the canyon and remains extremely chilly even during the hottest days of summer. Visitors can explore the canyon by walking along wooden platforms at the entrance and continuing through shallow streams inside the canyon. Activities such as canyon trekking, nature exploration, and photography are very popular among visitors.\n\nAt the entrance of the canyon, there are restaurants, cafes, and resting areas. One of the most unique experiences here is enjoying a meal on wooden platforms built over the cold river water.\n\nGetting to Saklikent Canyon is quite easy. It is located about 40 kilometers from Fethiye and around 60 kilometers from Kaş. Visitors traveling by car can reach the canyon by following the Saklikent signs from the Seydikemer direction. During the summer season, there are also regular tours and minibuses departing from Fethiye and nearby tourist destinations.\n\nWith its dramatic cliffs, refreshing waters, and beautiful natural scenery, Saklikent Canyon is considered one of the must-see natural attractions in Turkey.\n",
+  "de": "Die Saklikent Schlucht befindet sich im Bezirk Seydikemer in der Provinz Muğla und gehört zu den längsten und beeindruckendsten Schluchten der Türkei. Mit einer Länge von etwa 18 Kilometern und steilen Felswänden, die teilweise bis zu 300 Meter hoch sind, bietet die Schlucht eine spektakuläre Naturlandschaft und zieht besonders im Sommer viele Besucher an.\n\nDurch die Schlucht fließt eiskaltes Quellwasser, das selbst an heißen Sommertagen sehr kühl bleibt. Besucher können die Schlucht über Holzstege am Eingang betreten und anschließend durch das flache Wasser im Inneren der Schlucht wandern. Aktivitäten wie Schluchtenwanderungen, Naturerkundungen und Fotografie sind hier sehr beliebt.\n\nAm Eingang der Schlucht befinden sich Restaurants, Cafés und Rastbereiche. Besonders beliebt ist es, auf Plattformen zu sitzen, die direkt über dem kalten Flusswasser gebaut sind, und dort eine Mahlzeit zu genießen.\n\nDie Anreise zur Saklikent Schlucht ist relativ einfach. Sie liegt etwa 40 Kilometer von Fethiye und ungefähr 60 Kilometer von Kaş entfernt. Mit dem Auto erreicht man die Schlucht über die Straße Richtung Seydikemer, wobei die Beschilderung nach Saklikent leicht zu folgen ist. Im Sommer verkehren außerdem regelmäßig Tourbusse und Minibusse von Fethiye und anderen touristischen Orten.\n\nMit ihren beeindruckenden Felswänden, dem erfrischend kalten Wasser und der spektakulären Natur zählt die Saklikent Schlucht zu den Sehenswürdigkeiten, die man in der Türkei unbedingt besuchen sollte.\n"
+},
+  "activities": {
+    "tr": [
+      "Kanyon yürüyüşü",
+      "Fotoğraf çekmek",
+      "Doğa keşfi",
+      "Serinlemek"
+    ],
+    "en": [
+      "Canyon walking",
+      "Photography",
+      "Nature exploration",
+      "Cooling off"
+    ],
+    "de": [
+      "Canyon-Wanderung",
+      "Fotografie",
+      "Naturerkundung",
+      "Abkühlen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kanyon"
+    ],
+    "en": [
+      "canyon"
+    ],
+    "de": [
+      "Schlucht"
+    ]
+  },
+  "images": [
+    "https://example.com/saklikent_kanyonu.jpg",
+    "https://example.com/saklikent_kanyonu_2.jpg"
+  ]
+},
     {
       "slug": "ovabuku-sahili",
       "name": {
@@ -29583,6 +29734,56 @@
         "https://example.com/samsun_arkeoloji_muze.jpg"
       ]
     },
+{
+  "slug": "sahinkaya-kanyonu",
+  "name": {
+    "tr": "Şahinkaya Kanyonu",
+    "en": "Sahinkaya Canyon",
+    "de": "Sahinkaya Schlucht"
+  },
+  "latitude": 41.27948162846563, 
+  "longitude": 35.42884785234311,
+  "description": {
+    "tr": "Şahinkaya Kanyonu, Samsun ilinin Vezirköprü ilçesi sınırları içerisinde yer alan ve Altınkaya Baraj Gölü üzerinde bulunan etkileyici bir doğal oluşumdur. Yaklaşık 1.500 metre uzunluğa ve yer yer 300 metreyi aşan dik kayalık duvarlara sahip olan kanyon, Karadeniz Bölgesi'nin en görkemli doğal manzaralarından birini sunar.\n\nKanyonun iki tarafında yükselen devasa kayalıklar ve ortasından geçen baraj gölü, bölgeye oldukça etkileyici bir görünüm kazandırır. Şahinkaya Kanyonu özellikle tekne turları ile keşfedilen bir doğa harikasıdır. Tekne ile kanyonun dar geçitlerinden ilerlerken yüksek kayalık duvarların arasında etkileyici manzaralar görmek mümkündür.\n\nBölge aynı zamanda doğa yürüyüşü, manzara izleme ve fotoğrafçılık için oldukça popülerdir. Kanyon çevresindeki seyir noktalarından Altınkaya Baraj Gölü ve kanyonun geniş panoramik manzarası izlenebilir. Özellikle gün batımı saatlerinde oluşan manzara ziyaretçilere unutulmaz bir deneyim sunar.\n\nŞahinkaya Kanyonu’na ulaşım genellikle Vezirköprü ilçesi üzerinden sağlanır. Samsun şehir merkezine yaklaşık 110 kilometre uzaklıkta bulunan kanyona özel araçla rahatlıkla gidilebilir. Vezirköprü’den sonra Altınkaya Barajı yönüne ilerleyerek Şahinkaya Kanyonu tabelaları takip edilmelidir. Bölgede ziyaretçiler için tekne turları, dinlenme alanları ve seyir noktaları bulunmaktadır.\n\nDoğal güzelliği, yüksek kayalık duvarları ve göl manzarası ile Şahinkaya Kanyonu, Karadeniz Bölgesi'nde keşfedilmesi gereken en etkileyici doğal alanlardan biridir.",
+    "en": "Sahinkaya Canyon is an impressive natural formation located in the Vezirköprü district of Samsun, situated along the Altınkaya Dam Lake. The canyon stretches for about 1,500 meters and features steep rock walls that rise up to 300 meters in some areas, offering one of the most striking natural landscapes in the Black Sea region of Turkey.\n\nMassive cliffs on both sides of the canyon combined with the deep waters of the dam lake create a dramatic and scenic environment. Sahinkaya Canyon is best explored by boat tours, which allow visitors to travel through the narrow passages of the canyon while enjoying the towering cliffs and peaceful surroundings.\n\nThe area is also popular for nature observation, sightseeing, and photography. Several viewpoints around the canyon provide panoramic views of the Altınkaya Dam Lake and the surrounding mountains. The scenery becomes especially impressive during sunset when the cliffs reflect warm colors over the lake.\n\nSahinkaya Canyon can be reached via the Vezirköprü district, which is about 110 kilometers from Samsun city center. Visitors traveling by car usually follow the route toward Altınkaya Dam after reaching Vezirköprü. Direction signs guide visitors to the canyon area, where boat tours, viewing terraces, and small visitor facilities are available.\n\nWith its dramatic cliffs, tranquil waters, and breathtaking scenery, Sahinkaya Canyon is considered one of the most impressive natural attractions in the Black Sea region.",
+    "de": "Die Sahinkaya Schlucht befindet sich im Bezirk Vezirköprü in der Provinz Samsun und liegt am Altınkaya-Stausee. Die Schlucht ist etwa 1.500 Meter lang und von steilen Felswänden umgeben, die teilweise eine Höhe von bis zu 300 Metern erreichen. Sie gehört zu den beeindruckendsten Naturlandschaften der Schwarzmeerregion.\n\nDie hohen Felsen auf beiden Seiten der Schlucht und das ruhige Wasser des Stausees schaffen eine spektakuläre Landschaft. Die Sahinkaya Schlucht wird häufig mit Bootstouren erkundet, bei denen Besucher durch die schmalen Passagen der Schlucht fahren und die imposanten Felsformationen aus nächster Nähe erleben können.\n\nDie Umgebung ist auch ideal für Naturbeobachtung, Aussichtspunkte und Fotografie. Von verschiedenen Aussichtspunkten aus kann man einen weiten Blick über den Altınkaya-Stausee und die umliegenden Berge genießen. Besonders bei Sonnenuntergang entstehen beeindruckende Landschaftsbilder.\n\nDie Anreise erfolgt in der Regel über den Bezirk Vezirköprü, der etwa 110 Kilometer vom Stadtzentrum von Samsun entfernt liegt. Von dort aus fährt man in Richtung Altınkaya-Staudamm und folgt anschließend den Schildern zur Sahinkaya Schlucht. Vor Ort gibt es Bootstouren, Aussichtspunkte und kleine Besuchereinrichtungen.\n\nMit ihren steilen Felswänden, dem ruhigen Wasser und der beeindruckenden Landschaft zählt die Sahinkaya Schlucht zu den sehenswertesten Naturgebieten der Schwarzmeerregion."
+  },
+  "activities": {
+    "tr": [
+      "Tekne turu",
+      "Fotoğraf çekmek",
+      "Manzara izlemek",
+      "Doğa yürüyüşü"
+    ],
+    "en": [
+      "Boat tour",
+      "Photography",
+      "Sightseeing",
+      "Hiking"
+    ],
+    "de": [
+      "Bootstour",
+      "Fotografie",
+      "Aussicht genießen",
+      "Wandern"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kanyon"
+    ],
+    "en": [
+      "canyon"
+    ],
+    "de": [
+      "Schlucht"
+    ]
+  },
+  "images": [
+    "https://example.com/sahinkaya_kanyonu.jpg",
+    "https://example.com/sahinkaya_kanyonu_2.jpg"
+  ]
+},
     {
       "slug": "amazon-koyu",
       "name": {
@@ -32632,49 +32833,56 @@
         "https://example.com/tasyaran_vadisi_view.jpg"
       ]
     },
-    {
-      "slug": "ulubey-kanyonu",
-      "name": {
-        "tr": "Ulubey Kanyonu",
-        "en": "Ulubey Canyon",
-        "de": "Ulubey Schlucht"
-      },
-      "latitude": 38.41867,
-      "longitude": 29.30371,
-      "description": {
-        "tr": "Ulubey Kanyonu, Türkiye'nin en derin kanyonlarından biridir ve muazzam bir doğa manzarası sunar. Yürüyüş ve doğa gezileri için ideal bir bölgedir.\n",
-        "en": "Ulubey Canyon is one of the deepest canyons in Turkey and offers a magnificent natural view. It is an ideal area for hiking and nature tours.\n",
-        "de": "Die Ulubey-Schlucht ist eine der tiefsten Schluchten in der Türkei und bietet einen herrlichen Naturblick. Sie ist ein ideales Gebiet für Wanderungen und Naturtouren.\n"
-      },
-      "activities": {
-        "tr": [
-          "Kanyon gezisi",
-          "Doğa yürüyüşü"
-        ],
-        "en": [
-          "Canyon tour",
-          "Nature walk"
-        ],
-        "de": [
-          "Schluchtenführung",
-          "Wanderung in der Natur"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kanyon"
-        ],
-        "en": [
-          "canyon"
-        ],
-        "de": [
-          "Schlucht"
-        ]
-      },
-      "images": [
-        "https://example.com/ulubey_kanyonu.jpg"
-      ]
-    },
+   {
+  "slug": "ulubey-kanyonu",
+  "name": {
+    "tr": "Ulubey Kanyonu",
+    "en": "Ulubey Canyon",
+    "de": "Ulubey Schlucht"
+  },
+  "latitude": 38.41970,
+  "longitude": 29.29190,
+  "description": {
+    "tr": "Ulubey Kanyonu, Uşak ilinin Ulubey ilçesi sınırlarında yer alan ve dünyanın en büyük kanyonları arasında gösterilen etkileyici bir doğal oluşumdur. Yaklaşık 45 kilometre uzunluğa sahip olan kanyon, Banaz Çayı ve kolları tarafından milyonlarca yıl boyunca aşındırılarak oluşmuştur. Geniş vadi yapısı, derin kayalık duvarları ve doğal manzarası ile Türkiye'nin en dikkat çekici doğal alanlarından biridir.\n\nKanyonun bazı bölgelerinde kayalık duvarların yüksekliği 150 ila 170 metreye kadar ulaşmaktadır. Kanyon boyunca uzanan vadiler, kayalık oluşumlar ve doğal bitki örtüsü ziyaretçilere oldukça etkileyici bir manzara sunar. Bölge özellikle doğa fotoğrafçılığı, manzara izleme ve doğa yürüyüşleri için oldukça popülerdir.\n\nUlubey Kanyonu'nda ziyaretçiler için yapılan seyir terasları ve cam teras alanları bulunmaktadır. Bu cam teraslar sayesinde ziyaretçiler kanyonun geniş manzarasını yukarıdan izleyebilir ve oldukça etkileyici fotoğraflar çekebilir. Kanyonun çevresinde yürüyüş yolları ve dinlenme alanları da bulunmaktadır.\n\nUlubey Kanyonu'na ulaşım oldukça kolaydır. Uşak şehir merkezine yaklaşık 30 kilometre uzaklıkta bulunan kanyon, Ulubey ilçesine ise yaklaşık 5 kilometre mesafededir. Uşak şehir merkezinden Ulubey ilçesi yönüne ilerledikten sonra Ulubey Kanyonu tabelaları takip edilerek bölgeye ulaşılabilir. Ziyaretçiler genellikle özel araç ile rahatlıkla kanyona ulaşabilmektedir.\n\nGeniş vadisi, etkileyici manzarası ve doğal yapısı ile Ulubey Kanyonu, Türkiye'de mutlaka görülmesi gereken en önemli doğal oluşumlardan biri olarak kabul edilmektedir.",
+    "en": "Ulubey Canyon is an impressive natural formation located in the Ulubey district of Uşak province and is considered one of the largest canyon systems in the world. Stretching approximately 45 kilometers in length, the canyon was formed over millions of years by the erosion of the Banaz Stream and its tributaries. With its wide valleys, steep cliffs, and unique natural landscape, it is one of the most remarkable natural attractions in Turkey.\n\nIn some areas, the rocky cliffs of the canyon reach heights of about 150 to 170 meters. The canyon landscape features dramatic rock formations, deep valleys, and natural vegetation, creating a breathtaking environment for visitors. The area is particularly popular for sightseeing, nature photography, and hiking.\n\nSeveral observation terraces have been built for visitors, including a famous glass terrace that allows visitors to walk above the canyon and enjoy panoramic views of the valley below. Walking paths and resting areas are also available around the canyon.\n\nUlubey Canyon is located about 30 kilometers from the city center of Uşak and approximately 5 kilometers from the town of Ulubey. Visitors can easily reach the canyon by following the road toward Ulubey and the direction signs leading to the canyon area.\n\nWith its dramatic landscapes and impressive natural formations, Ulubey Canyon is considered one of the must-see natural wonders of Turkey.",
+    "de": "Die Ulubey Schlucht befindet sich im Bezirk Ulubey in der Provinz Uşak und gehört zu den größten Schluchten der Welt. Die Schlucht ist etwa 45 Kilometer lang und wurde über Millionen von Jahren durch die Erosion des Banaz-Flusses und seiner Nebenflüsse geformt. Mit ihren weiten Tälern, steilen Felswänden und der beeindruckenden Natur gehört sie zu den bemerkenswertesten Naturlandschaften der Türkei.\n\nIn einigen Bereichen erreichen die Felswände der Schlucht Höhen von etwa 150 bis 170 Metern. Die Landschaft ist geprägt von tiefen Tälern, markanten Felsformationen und natürlicher Vegetation, die eine spektakuläre Kulisse für Besucher bildet. Besonders beliebt ist die Region für Aussichtspunkte, Naturfotografie und Wanderungen.\n\nFür Besucher wurden mehrere Aussichtsterrassen errichtet, darunter auch eine berühmte Glasplattform. Von dort aus können Besucher die beeindruckende Weite der Schlucht aus der Vogelperspektive betrachten.\n\nDie Ulubey Schlucht liegt etwa 30 Kilometer vom Stadtzentrum von Uşak und rund 5 Kilometer vom Ort Ulubey entfernt. Besucher erreichen die Schlucht über die Straße in Richtung Ulubey und folgen anschließend den entsprechenden Hinweisschildern.\n\nMit ihrer beeindruckenden Landschaft und den spektakulären Ausblicken gilt die Ulubey Schlucht als eines der sehenswertesten Naturwunder der Türkei."
+  },
+  "activities": {
+    "tr": [
+      "Manzara izlemek",
+      "Fotoğraf çekmek",
+      "Doğa yürüyüşü",
+      "Cam terası ziyaret etmek"
+    ],
+    "en": [
+      "Sightseeing",
+      "Photography",
+      "Hiking",
+      "Visiting the glass terrace"
+    ],
+    "de": [
+      "Aussicht genießen",
+      "Fotografie",
+      "Wandern",
+      "Besuch der Glasplattform"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kanyon"
+    ],
+    "en": [
+      "canyon"
+    ],
+    "de": [
+      "Schlucht"
+    ]
+  },
+  "images": [
+    "https://example.com/ulubey_kanyonu.jpg",
+    "https://example.com/ulubey_kanyonu_2.jpg"
+  ]
+},
     {
       "slug": "usak-muzesi",
       "name": {
