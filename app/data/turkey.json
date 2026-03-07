@@ -26364,6 +26364,56 @@
         "https://example.com/alahan_manastiri.jpg"
       ]
     },
+{
+  "slug": "tarsus-selalesi",
+  "name": {
+    "tr": "Tarsus Şelalesi",
+    "en": "Tarsus Waterfall",
+    "de": "Tarsus Wasserfall"
+  },
+  "latitude": 36.92170,
+  "longitude": 34.88640,
+  "description": {
+    "tr": "Tarsus Şelalesi, Mersin ilinin Tarsus ilçesinde yer alan ve Berdan Çayı üzerinde oluşmuş doğal bir şelaledir. Şehir merkezine oldukça yakın konumda bulunan bu şelale, hem doğal güzelliği hem de çevresindeki yeşil alanları ile bölgenin en popüler turistik noktalarından biridir.\n\nŞelale, Berdan Çayı'nın yaklaşık 4 ila 5 metre yüksekliğindeki kayalıklardan dökülmesiyle oluşur. Çok yüksek olmamasına rağmen güçlü su akışı ve genişliği sayesinde oldukça etkileyici bir manzara sunar. Özellikle ilkbahar ve kış aylarında yağışların artmasıyla birlikte şelalenin debisi yükselir ve daha görkemli bir görünüm kazanır.\n\nTarsus Şelalesi'nin çevresi restoranlar, yürüyüş yolları ve dinlenme alanları ile düzenlenmiştir. Şelalenin hemen yanında yer alan restoranlarda suyun serinliği eşliğinde yemek yemek oldukça popülerdir. Bölge özellikle fotoğraf çekmek, doğa ile iç içe vakit geçirmek ve kısa yürüyüşler yapmak isteyen ziyaretçiler tarafından sıkça tercih edilmektedir.\n\nTarsus Şelalesi'ne ulaşım oldukça kolaydır. Şelale, Tarsus ilçe merkezine yaklaşık 3 kilometre mesafededir ve şehir içinden kısa sürede ulaşılabilir. Mersin şehir merkezine yaklaşık 30 kilometre uzaklıkta bulunan şelaleye özel araçla veya toplu taşıma ile rahatlıkla gidilebilir.\n\nDoğal güzelliği, güçlü su akışı ve şehir merkezine yakın konumu sayesinde Tarsus Şelalesi, Mersin bölgesinde mutlaka görülmesi gereken doğal noktalardan biri olarak kabul edilmektedir.",
+    "en": "Tarsus Waterfall is a natural waterfall located in the Tarsus district of Mersin, formed on the Berdan River. Due to its location very close to the city center, it is one of the most popular tourist attractions in the region.\n\nThe waterfall is formed as the waters of the Berdan River cascade over rocky formations about 4 to 5 meters high. Although it is not extremely tall, the strong water flow and wide structure create a very impressive natural view. During the rainy seasons, especially in winter and spring, the water flow increases and the waterfall becomes even more spectacular.\n\nThe area around Tarsus Waterfall has been developed with restaurants, walking paths, and resting areas. Dining at the restaurants located next to the flowing water is a popular experience for visitors. The area is especially favored by people who want to enjoy nature, take photographs, and relax in a peaceful environment.\n\nTarsus Waterfall is located about 3 kilometers from the center of Tarsus and can be reached within a few minutes from the town center. It is approximately 30 kilometers from Mersin city center and can easily be accessed by car or local transportation.\n\nWith its natural beauty, strong water flow, and convenient location near the city, Tarsus Waterfall is considered one of the must-see natural attractions in the Mersin region.",
+    "de": "Der Tarsus Wasserfall befindet sich im Bezirk Tarsus in der Provinz Mersin und entsteht durch den Berdan-Fluss. Aufgrund seiner Nähe zum Stadtzentrum gehört er zu den beliebtesten Naturattraktionen der Region.\n\nDer Wasserfall entsteht, wenn das Wasser des Berdan-Flusses über etwa 4 bis 5 Meter hohe Felsen hinabstürzt. Obwohl er nicht sehr hoch ist, sorgt die starke Strömung und die breite Wasserfläche für ein beeindruckendes Naturbild. Besonders im Winter und Frühjahr, wenn der Wasserstand steigt, wirkt der Wasserfall noch eindrucksvoller.\n\nDie Umgebung des Wasserfalls ist mit Restaurants, Spazierwegen und Rastplätzen ausgestattet. Viele Besucher genießen es, in den Restaurants direkt neben dem Wasser zu essen und dabei die natürliche Atmosphäre zu erleben. Der Ort ist besonders beliebt für Spaziergänge, Fotografie und entspannte Stunden in der Natur.\n\nDer Tarsus Wasserfall liegt etwa 3 Kilometer vom Stadtzentrum von Tarsus entfernt und ist leicht erreichbar. Von der Stadt Mersin aus beträgt die Entfernung etwa 30 Kilometer und der Wasserfall kann sowohl mit dem Auto als auch mit öffentlichen Verkehrsmitteln erreicht werden.\n\nMit seiner natürlichen Schönheit und seiner zentralen Lage zählt der Tarsus Wasserfall zu den sehenswerten Naturorten der Region Mersin."
+  },
+  "activities": {
+    "tr": [
+      "Fotoğraf çekmek",
+      "Manzara izlemek",
+      "Yürüyüş yapmak",
+      "Restoranlarda vakit geçirmek"
+    ],
+    "en": [
+      "Photography",
+      "Sightseeing",
+      "Walking",
+      "Dining at nearby restaurants"
+    ],
+    "de": [
+      "Fotografie",
+      "Aussicht genießen",
+      "Spazieren",
+      "In Restaurants essen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "şelale"
+    ],
+    "en": [
+      "waterfall"
+    ],
+    "de": [
+      "Wasserfall"
+    ]
+  },
+  "images": [
+    "https://example.com/tarsus_selalesi.jpg",
+    "https://example.com/tarsus_selalesi_2.jpg"
+  ]
+},
     {
       "slug": "karamanastir-selalesi",
       "name": {
@@ -26613,10 +26663,10 @@
       "latitude": 36.45729,
       "longitude": 34.14787,
       "description": {
-        "tr": "Kızkalesi, Mersin’in en bilinen tarihi ve doğal zenginliklerinden biridir. Adada yer alan kaleye tekneyle ulaşılabilir.\n",
-        "en": "Kızkalesi is one of Mersin’s most famous historical and natural treasures. The castle located on the island can be reached by boat.\n",
-        "de": "Kızkalesi ist eines der bekanntesten historischen und natürlichen Schätze von Mersin. Die Burg auf der Insel ist mit dem Boot erreichbar.\n"
-      },
+    "tr": "Kızkalesi, Mersin ilinin Erdemli ilçesine bağlı aynı adlı sahil beldesinde yer alan tarihi bir deniz kalesidir. Akdeniz'in ortasında küçük bir ada üzerinde bulunan bu etkileyici yapı, kıyıdan yaklaşık 200 metre açıkta yer almaktadır ve bölgenin en önemli tarihi simgelerinden biridir.\n\nKalenin kesin yapım tarihi tam olarak bilinmemekle birlikte Bizans döneminde, yaklaşık 12. yüzyılda inşa edildiği düşünülmektedir. Kızkalesi, Orta Çağ boyunca korsan saldırılarına karşı limanı korumak amacıyla kullanılmıştır. Daha sonraki dönemlerde Ermeniler, Selçuklular ve Osmanlılar tarafından da kullanılmış ve çeşitli onarımlar görmüştür.\n\nKızkalesi ile kıyıda bulunan Kara Kalesi (Corycus Kalesi) arasında savunma amaçlı bir bağlantı sistemi olduğu düşünülmektedir. Günümüzde kalenin surları, kuleleri ve iç yapısının büyük bölümü ayakta kalmayı başarmıştır ve ziyaretçilere etkileyici bir tarihi atmosfer sunmaktadır.\n\nKızkalesi aynı zamanda ünlü bir efsaneye de konu olmuştur. Rivayete göre bir kral, kızının yılan tarafından öldürüleceğini öğrenince onu korumak için bu kaleyi yaptırarak denizin ortasına yerleştirir. Ancak bir gün kaleye gönderilen üzüm sepetinin içinden çıkan yılan prensesi sokar ve kehanet gerçekleşir. Bu efsane nedeniyle yapı halk arasında Kızkalesi olarak anılmaya başlanmıştır.\n\nKızkalesi'ne ulaşım yaz aylarında sahilden kalkan küçük teknelerle sağlanmaktadır. Ziyaretçiler tekne ile kaleye giderek tarihi yapıyı yakından inceleyebilir. Mersin şehir merkezine yaklaşık 60 kilometre uzaklıkta bulunan Kızkalesi, hem tarihi yapısı hem de güzel plajları ile bölgenin en popüler turizm noktalarından biridir.",
+    "en": "Maiden's Castle (Kızkalesi) is a historic sea castle located in the Erdemli district of Mersin, Turkey. The castle stands on a small island in the Mediterranean Sea, approximately 200 meters from the shore, and is one of the most iconic landmarks of the region.\n\nAlthough the exact construction date is unknown, the castle is believed to have been built during the Byzantine period around the 12th century. During the Middle Ages, the castle served as a defensive structure protecting the harbor from pirate attacks. Later, it was used and repaired by the Armenians, Seljuks, and Ottomans.\n\nIt is believed that there was a defensive connection between Maiden's Castle and the nearby land fortress known as Corycus Castle. Today, much of the castle's walls, towers, and internal structures remain standing, offering visitors an impressive glimpse into medieval architecture.\n\nMaiden's Castle is also famous for a local legend. According to the story, a king learned from a prophecy that his daughter would die from a snake bite. To protect her, he built a castle in the middle of the sea and placed her there. However, a snake hidden in a basket of grapes eventually reached the princess and fulfilled the prophecy. Because of this legend, the castle became known as Maiden's Castle.\n\nVisitors can reach the castle by small boats departing from the nearby beach during the summer season. Located about 60 kilometers from the city center of Mersin, Maiden's Castle is one of the most popular tourist destinations in the region thanks to its historical significance and beautiful beaches.",
+    "de": "Die Mädchenburg (Kızkalesi) ist eine historische Seefestung im Bezirk Erdemli der Provinz Mersin in der Türkei. Die Burg befindet sich auf einer kleinen Insel im Mittelmeer, etwa 200 Meter von der Küste entfernt, und ist eines der bekanntesten Wahrzeichen der Region.\n\nDas genaue Baujahr der Burg ist nicht bekannt, jedoch wird angenommen, dass sie im 12. Jahrhundert während der byzantinischen Zeit errichtet wurde. Im Mittelalter diente die Burg zum Schutz des Hafens vor Piratenangriffen. Später wurde sie von Armeniern, Seldschuken und Osmanen genutzt und mehrfach restauriert.\n\nEs wird vermutet, dass es ein Verteidigungssystem zwischen der Inselburg und der nahegelegenen Landfestung Corycus gab. Heute sind große Teile der Mauern, Türme und inneren Strukturen der Burg noch erhalten.\n\nDie Burg ist auch Gegenstand einer bekannten Legende. Einer Prophezeiung zufolge sollte die Tochter eines Königs durch einen Schlangenbiss sterben. Um sie zu schützen, ließ der König die Burg mitten im Meer errichten. Dennoch gelangte eine Schlange in einem Korb mit Trauben zur Prinzessin und erfüllte die Prophezeiung. Daher erhielt die Burg den Namen Mädchenburg.\n\nDie Burg kann im Sommer mit kleinen Booten vom Strand aus erreicht werden. Sie liegt etwa 60 Kilometer vom Stadtzentrum von Mersin entfernt und zählt aufgrund ihrer historischen Bedeutung und der schönen Strände zu den beliebtesten touristischen Zielen der Region."
+  },
       "activities": {
         "tr": [
           "Kızkalesi’ni ziyaret etmek",
@@ -26646,113 +26696,7 @@
         "https://example.com/kizkalesi.jpg"
       ]
     },
-    {
-      "slug": "kizkalesi-sahili",
-      "name": {
-        "tr": "Kızkalesi Sahili",
-        "en": "Kızkalesi Beach",
-        "de": "Kızkalesi Strand"
-      },
-      "latitude": 36.46036,
-      "longitude": 34.14402,
-      "description": {
-        "tr": "Kızkalesi Sahili, Mersin ilinin Erdemli ilçesinde yer alan popüler bir tatil beldesidir.\nBerrak denizi, uzun kumsalı ve tarihi Kızkalesi'ne olan yakınlığıyla ünlüdür. Sahil, hem tatilcilerin hem de tarihi ve doğal güzellikleri keşfetmek isteyenlerin ilgisini çeker. Kızkalesi, denizin ortasında yer alan tarihi bir kale ile çevrilidir ve bu kale, bölgenin simgesi haline gelmiştir.\n",
-        "en": "Kızkalesi Beach is a popular holiday destination located in Erdemli district of Mersin. It is famous for its clear sea, long sandy beach, and proximity to the historic Kızkalesi. The beach attracts both holidaymakers and those interested in exploring historical and natural beauties. Kızkalesi is surrounded by a historic castle in the middle of the sea, which has become a symbol of the area.\n",
-        "de": "Der Kızkalesi-Strand ist ein beliebtes Urlaubsziel im Bezirk Erdemli in Mersin. Es ist berühmt für sein klares Meer, den langen Sandstrand und die Nähe zum historischen Kızkalesi. Der Strand zieht sowohl Urlauber als auch diejenigen an, die an historischen und natürlichen Schönheiten interessiert sind. Kızkalesi ist von einer historischen Festung in der Mitte des Meeres umgeben, die zum Wahrzeichen der Region geworden ist.\n"
-      },
-      "activities": {
-        "tr": [
-          "Denize girmek ve güneşlenmek",
-          "Su sporları yapmak",
-          "Tarihi Kızkalesi’ni ziyaret etmek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Swim and sunbathe",
-          "Engage in water sports",
-          "Visit the historic Kızkalesi",
-          "Take photos"
-        ],
-        "de": [
-          "Schwimmen und Sonnenbaden",
-          "Wassersport betreiben",
-          "Das historische Kızkalesi besuchen",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih",
-          "plaj"
-        ],
-        "en": [
-          "historic",
-          "beach"
-        ],
-        "de": [
-          "Historisch",
-          "Strand"
-        ]
-      },
-      "images": [
-        "https://example.com/kizkalesi_sahili_1.jpg",
-        "https://example.com/kizkalesi_sahili_2.jpg"
-      ]
-    },
-    {
-      "slug": "antik-kiz-kalesi",
-      "name": {
-        "tr": "Antik Kız Kalesi",
-        "en": "Ancient Kız Castle",
-        "de": "Antike Kız Burg"
-      },
-      "latitude": 36.46438,
-      "longitude": 34.15056,
-      "description": {
-        "tr": "Antik Kız Kalesi, Mersin ilinin Erdemli ilçesinde, denizin ortasında yer alan tarihi bir kaledir.\nBu kale, Roma dönemine kadar uzandığı düşünülen ve bölgedeki önemli tarihi yapıtlar arasında yer alan etkileyici bir yapıdır.\nKız Kalesi, hem denizden hem de kara tarafından ziyaret edilebilir ve görkemli yapısı, tarihi geçmişi ile dikkat çeker.\nEfsanelere göre, prensesi korumak amacıyla inşa edilen kale, bugün hem tarih hem de doğal güzellik arayan turistlerin ilgisini çekmektedir.\n",
-        "en": "The Ancient Kız Castle is a historical castle located in the middle of the sea in Erdemli district of Mersin.\nThis impressive structure is believed to date back to the Roman period and is among the most significant historical monuments in the region.\nKız Castle can be visited by both sea and land, and its majestic structure and historical background attract attention.\nAccording to legends, the castle was built to protect a princess and today it attracts tourists interested in both history and natural beauty.\n",
-        "de": "Die antike Kız-Burg ist eine historische Burg, die sich mitten im Meer im Bezirk Erdemli in Mersin befindet.\nDiese beeindruckende Struktur soll bis in die römische Zeit zurückreichen und gehört zu den bedeutendsten historischen Bauwerken der Region.\nDie Kız-Burg kann sowohl vom Meer als auch vom Land aus besichtigt werden und zieht mit ihrer majestätischen Struktur und ihrer historischen Bedeutung die Aufmerksamkeit auf sich.\nLaut Legenden wurde die Burg zum Schutz einer Prinzessin erbaut und zieht heute Touristen an, die sowohl an Geschichte als auch an natürlicher Schönheit interessiert sind.\n"
-      },
-      "activities": {
-        "tr": [
-          "Kale içinde gezinti yapmak",
-          "Fotoğraf çekmek",
-          "Deniz manzarası izlemek",
-          "Tarihi yapıları keşfetmek"
-        ],
-        "en": [
-          "Explore the castle",
-          "Take photos",
-          "Enjoy the sea view",
-          "Explore historical structures"
-        ],
-        "de": [
-          "Die Burg erkunden",
-          "Fotos machen",
-          "Den Meerblick genießen",
-          "Historische Bauwerke erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih",
-          "antik kent"
-        ],
-        "en": [
-          "historic",
-          "ancient site"
-        ],
-        "de": [
-          "Historisch",
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/antik_kiz_kalesi_1.jpg",
-        "https://example.com/antik_kiz_kalesi_2.jpg"
-      ]
-    },
-    {
+        {
       "slug": "adamkayalar",
       "name": {
         "tr": "Adamkayalar",
@@ -26867,11 +26811,11 @@
       },
       "latitude": 36.74323,
       "longitude": 34.53491,
-      "description": {
-        "tr": "Soloi Pompeiopolis, Roma dönemine ait antik bir kenttir. Burada antik tiyatro, agoralar ve hamamlar yer alır.\n",
-        "en": "Soloi Pompeiopolis is an ancient city from the Roman period. It includes an ancient theater, agoras, and baths.\n",
-        "de": "Soloi Pompeiopolis ist eine antike Stadt aus der römischen Zeit. Hier gibt es ein antikes Theater, Agoren und Bäder.\n"
-      },
+     "description": {
+    "tr": "Soloi-Pompeiopolis Antik Kenti, Mersin'in Mezitli ilçesinde Akdeniz kıyısında yer alan önemli bir arkeolojik yerleşim alanıdır. Antik kentin kuruluşunun MÖ 7. yüzyıla kadar uzandığı düşünülmektedir. Kent, antik çağlarda Kilikya bölgesinin önemli liman şehirlerinden biri olarak ticaret ve denizcilik açısından büyük önem taşımıştır.\n\nSoloi adıyla kurulan kent, Roma döneminde ünlü Romalı komutan Pompeius tarafından yeniden düzenlenmiş ve bu nedenle Pompeiopolis adıyla anılmaya başlanmıştır. Kent özellikle Roma döneminde büyük bir gelişim göstermiştir.\n\nAntik kentte günümüze kadar ulaşan en dikkat çekici yapı kalıntıları arasında sütunlu cadde (colonnaded street), antik liman kalıntıları, hamam yapıları, tiyatro ve çeşitli mezar yapıları bulunmaktadır. Özellikle yaklaşık 200 metre uzunluğundaki sütunlu cadde, kentin en etkileyici bölümlerinden biridir ve ziyaretçilere antik dönem mimarisini yakından görme fırsatı sunar.\n\nSoloi-Pompeiopolis Antik Kenti aynı zamanda felsefe ve kültür açısından da önemli bir merkez olmuştur. Ünlü Stoacı filozof Chrysippos'un bu kentte doğduğu bilinmektedir.\n\nAntik kent Mersin şehir merkezine yaklaşık 11 kilometre uzaklıktadır ve Mezitli ilçesinde yer almaktadır. Şehir merkezinden özel araçla veya toplu taşıma ile kolayca ulaşılabilir. Bölge günümüzde arkeolojik sit alanı olarak korunmakta ve ziyaretçilere açık bir açık hava müzesi niteliği taşımaktadır.\n\nTarihi limanı, sütunlu caddesi ve etkileyici kalıntıları ile Soloi-Pompeiopolis Antik Kenti, Mersin'de görülmesi gereken en önemli tarihi yerlerden biridir.",
+    "en": "Soloi-Pompeiopolis Ancient City is an important archaeological site located on the Mediterranean coast in the Mezitli district of Mersin. The origins of the city are believed to date back to the 7th century BC. In ancient times, it was one of the most important port cities of the Cilicia region and played a significant role in maritime trade.\n\nOriginally founded as Soloi, the city was later reorganized by the Roman general Pompey after his campaigns against pirates in the Mediterranean. Following this reconstruction, the city became known as Pompeiopolis.\n\nAmong the most remarkable remains of the ancient city are the colonnaded street, ancient harbor structures, baths, theater ruins, and various tomb structures. The colonnaded street, approximately 200 meters long, is one of the most impressive features of the site and offers visitors a glimpse into Roman urban architecture.\n\nSoloi-Pompeiopolis was also an important cultural and philosophical center. The famous Stoic philosopher Chrysippus is believed to have been born in this city.\n\nThe ancient city is located about 11 kilometers from Mersin city center and can easily be reached from the city by car or public transportation. Today, the site is protected as an archaeological area and functions as an open-air museum.\n\nWith its historical harbor, monumental columns, and fascinating ruins, Soloi-Pompeiopolis Ancient City is considered one of the most important historical attractions in the Mersin region.",
+    "de": "Die antike Stadt Soloi-Pompeiopolis befindet sich im Bezirk Mezitli der Provinz Mersin an der Mittelmeerküste. Die Gründung der Stadt wird auf das 7. Jahrhundert v. Chr. datiert. In der Antike war sie eine bedeutende Hafenstadt der Region Kilikien und spielte eine wichtige Rolle im Seehandel.\n\nDie Stadt wurde ursprünglich unter dem Namen Soloi gegründet. Während der römischen Zeit wurde sie vom römischen Feldherrn Pompeius nach seinen Feldzügen gegen Piraten neu organisiert und erhielt den Namen Pompeiopolis.\n\nZu den wichtigsten erhaltenen Überresten gehören eine etwa 200 Meter lange Säulenstraße, Hafenreste, Badeanlagen, Theaterstrukturen und verschiedene Grabstätten. Besonders die Säulenstraße zählt zu den beeindruckendsten Bereichen der antiken Stadt.\n\nSoloi-Pompeiopolis war auch ein bedeutendes kulturelles Zentrum. Der berühmte stoische Philosoph Chrysipp soll hier geboren worden sein.\n\nDie antike Stadt liegt etwa 11 Kilometer vom Stadtzentrum von Mersin entfernt und ist sowohl mit dem Auto als auch mit öffentlichen Verkehrsmitteln leicht erreichbar. Heute ist das Gebiet als archäologische Stätte geschützt und kann als Freilichtmuseum besucht werden.\n\nMit ihrem historischen Hafen, den beeindruckenden Säulen und den antiken Ruinen gehört die antike Stadt Soloi-Pompeiopolis zu den wichtigsten historischen Sehenswürdigkeiten der Region Mersin."
+  },
       "activities": {
         "tr": [
           "Antik kentte gezinti yapmak",
@@ -26901,49 +26845,59 @@
         "https://example.com/soloi_pompeiopolis.jpg"
       ]
     },
-    {
-      "slug": "cennet-ve-cehennem-obruklari",
-      "name": {
-        "tr": "Cennet ve Cehennem Obrukları",
-        "en": "Cennet and Cehennem Sinkholes",
-        "de": "Cennet und Cehennem Senken"
-      },
-      "latitude": 36.4521,
-      "longitude": 34.10639,
-      "description": {
-        "tr": "Cennet ve Cehennem Obrukları, yerin derinliklerine inen büyük çukurlar ve mağaralardan oluşan doğal oluşumlardır.\n",
-        "en": "Cennet and Cehennem Sinkholes are natural formations consisting of large pits and caves that descend into the depths of the earth.\n",
-        "de": "Cennet- und Cehennem-Senken sind natürliche Formationen, die aus großen Gruben und Höhlen bestehen, die in die Tiefen der Erde hinabsteigen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Obrukları gezmek",
-          "Doğa yürüyüşü yapmak"
-        ],
-        "en": [
-          "Explore the sinkholes",
-          "Go for a nature walk"
-        ],
-        "de": [
-          "Die Senken erkunden",
-          "Wandern gehen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/cennet_cehennem.jpg"
-      ]
-    },
+   {
+  "slug": "cennet-ve-cehennem-obruklari",
+  "name": {
+    "tr": "Cennet ve Cehennem Obrukları",
+    "en": "Heaven and Hell Sinkholes",
+    "de": "Himmel und Hölle Dolinen"
+  },
+  "latitude": 36.45460,
+  "longitude": 34.10670,
+  "description": {
+    "tr": "Cennet ve Cehennem Obrukları, Mersin ilinin Silifke ilçesine bağlı Narlıkuyu bölgesinde yer alan ve Türkiye'nin en dikkat çekici doğal oluşumlarından biri olarak kabul edilen iki büyük obruk çukurudur. Karstik yapıya sahip bu doğal oluşumlar, yer altı sularının milyonlarca yıl boyunca kireçtaşı tabakalarını aşındırması sonucunda meydana gelmiştir.\n\nCennet Obruğu yaklaşık 70 metre derinliğe ve 250 metre uzunluğa sahiptir. Obruğun içerisine yaklaşık 450 basamaklı bir merdiven ile inilebilmektedir. İniş sırasında ziyaretçiler etkileyici kaya duvarlarını ve doğal bitki örtüsünü yakından görme fırsatı bulur. Obruğun tabanında Bizans dönemine ait olduğu düşünülen küçük bir kilise kalıntısı da bulunmaktadır.\n\nCehennem Obruğu ise yaklaşık 120 metre derinliğe sahip olup oldukça dik ve sarp kayalık duvarlarla çevrilidir. Bu nedenle obruğun içine inmek mümkün değildir. Ziyaretçiler obruğu üst tarafta bulunan seyir teraslarından izleyebilir. Derinliği ve karanlık görünümü nedeniyle bu obruğa tarih boyunca çeşitli efsaneler atfedilmiştir.\n\nYunan mitolojisine göre Cehennem Obruğu'nun yer altı dünyasına açılan bir kapı olduğuna inanılmıştır. Rivayete göre Zeus, yüz başlı dev Typhon'u burada hapsetmiştir. Bu efsane bölgeyi tarih ve mitoloji açısından da oldukça ilgi çekici hale getirmektedir.\n\nCennet ve Cehennem Obrukları, Silifke ilçe merkezine yaklaşık 25 kilometre, Mersin şehir merkezine ise yaklaşık 70 kilometre uzaklıkta yer alır. Narlıkuyu sahiline oldukça yakın bir konumda bulunan bölgeye özel araçla kolayca ulaşılabilir. Bölgede yürüyüş yolları, seyir terasları ve ziyaretçi alanları bulunmaktadır.\n\nDoğal oluşumu, etkileyici manzarası ve mitolojik hikayeleri ile Cennet ve Cehennem Obrukları, Mersin bölgesinde mutlaka görülmesi gereken en önemli doğal ve tarihi turistik alanlardan biridir.",
+    "en": "The Heaven and Hell Sinkholes are two remarkable natural formations located in the Narlıkuyu area of the Silifke district in Mersin province. These large sinkholes were formed through the erosion of limestone layers by underground water over millions of years and are considered among the most fascinating geological formations in Turkey.\n\nThe Heaven Sinkhole is approximately 70 meters deep and about 250 meters long. Visitors can descend into the sinkhole using a staircase of around 450 steps. Along the way, impressive rock formations and lush vegetation can be observed. At the bottom of the sinkhole, there are the remains of a small Byzantine-era church.\n\nThe Hell Sinkhole is deeper, reaching approximately 120 meters, and is surrounded by steep vertical cliffs. Due to its structure, it is not possible to descend into this sinkhole. Visitors can observe it from viewing terraces located at the top.\n\nAccording to Greek mythology, the Hell Sinkhole was believed to be an entrance to the underworld. Legend says that Zeus imprisoned the hundred-headed monster Typhon here. These myths make the area historically and culturally interesting as well.\n\nThe sinkholes are located about 25 kilometers from the center of Silifke and approximately 70 kilometers from Mersin city center. The site is very close to the Narlıkuyu coastal area and can easily be reached by car. The area includes walking paths, observation terraces, and visitor facilities.\n\nWith their impressive geological structure, fascinating depth, and mythological stories, the Heaven and Hell Sinkholes are considered one of the must-see natural and historical attractions in the Mersin region.",
+    "de": "Die Himmel und Hölle Dolinen befinden sich in der Region Narlıkuyu im Bezirk Silifke der Provinz Mersin. Diese beeindruckenden natürlichen Einsturztrichter entstanden über Millionen von Jahren durch die Erosion von Kalksteinschichten durch unterirdisches Wasser und zählen zu den faszinierendsten geologischen Formationen der Türkei.\n\nDie Himmelsdoline ist etwa 70 Meter tief und rund 250 Meter lang. Besucher können über eine Treppe mit etwa 450 Stufen in die Doline hinabsteigen. Während des Abstiegs lassen sich beeindruckende Felsformationen und üppige Vegetation beobachten. Am Boden der Doline befinden sich außerdem die Überreste einer kleinen Kirche aus byzantinischer Zeit.\n\nDie Höllendoline ist mit etwa 120 Metern deutlich tiefer und von steilen Felswänden umgeben. Aufgrund ihrer Struktur ist ein Abstieg nicht möglich. Besucher können sie von Aussichtsterrassen am oberen Rand der Doline betrachten.\n\nDer griechischen Mythologie zufolge galt die Höllendoline als Eingang zur Unterwelt. Einer Legende nach soll Zeus das hundertköpfige Monster Typhon hier eingesperrt haben. Diese Geschichten verleihen dem Ort zusätzliche historische und mythologische Bedeutung.\n\nDie Dolinen liegen etwa 25 Kilometer vom Zentrum von Silifke und rund 70 Kilometer von der Stadt Mersin entfernt. Die Anlage befindet sich in der Nähe der Küste von Narlıkuyu und ist leicht mit dem Auto erreichbar. Vor Ort gibt es Wanderwege, Aussichtsterrassen und Besucherbereiche.\n\nMit ihrer beeindruckenden geologischen Struktur und den faszinierenden Legenden gehören die Himmel und Hölle Dolinen zu den wichtigsten Natur- und Kultursehenswürdigkeiten der Region Mersin."
+  },
+  "activities": {
+    "tr": [
+      "Merdivenle obruğa inmek",
+      "Fotoğraf çekmek",
+      "Manzara izlemek",
+      "Doğa keşfi"
+    ],
+    "en": [
+      "Descending into the sinkhole",
+      "Photography",
+      "Sightseeing",
+      "Nature exploration"
+    ],
+    "de": [
+      "In die Doline hinabsteigen",
+      "Fotografie",
+      "Aussicht genießen",
+      "Naturerkundung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "obruk",
+      "doğal oluşum"
+    ],
+    "en": [
+      "sinkhole",
+      "natural formation"
+    ],
+    "de": [
+      "Doline",
+      "Naturformation"
+    ]
+  },
+  "images": [
+    "https://example.com/cennet_cehennem_obruklari.jpg",
+    "https://example.com/cennet_cehennem_obruklari_2.jpg"
+  ]
+},
     {
       "slug": "mersin-arkeoloji-muzesi",
       "name": {
@@ -27031,48 +26985,110 @@
       ]
     },
     {
-      "slug": "limonlu-sahili",
-      "name": {
-        "tr": "Limonlu Sahili",
-        "en": "Limonlu Beach",
-        "de": "Limonlu Strand"
-      },
-      "latitude": 36.55128,
-      "longitude": 34.24242,
-      "description": {
-        "tr": "Limonlu Sahili, Mersin’in doğa harikalarından biridir. Denizin berrak suları, kumsalları ve doğasıyla ünlüdür.\n",
-        "en": "Limonlu Beach is one of Mersin’s natural wonders, famous for its clear waters, sandy shores, and natural beauty.\n",
-        "de": "Der Limonlu-Strand ist eines der Naturwunder von Mersin und bekannt für sein klares Wasser, seine Sandstrände und seine natürliche Schönheit.\n"
-      },
-      "activities": {
-        "tr": [
-          "Plajda dinlenmek",
-          "Yarımadayı keşfetmek"
-        ],
-        "en": [
-          "Relax on the beach",
-          "Explore the peninsula"
-        ],
-        "de": [
-          "Am Strand entspannen",
-          "Die Halbinsel erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "plaj"
-        ],
-        "en": [
-          "beach"
-        ],
-        "de": [
-          "Strand"
-        ]
-      },
-      "images": [
-        "https://example.com/limonlu_yarimadasi.jpg"
-      ]
-    },
+  "slug": "limonlu-sahili",
+  "name": {
+    "tr": "Limonlu Sahili",
+    "en": "Limonlu Beach",
+    "de": "Limonlu Strand"
+  },
+  "latitude": 36.55128,
+  "longitude": 34.24242,
+  "description": {
+    "tr": "Limonlu Sahili, Mersin’in Erdemli ilçesine bağlı Limonlu Mahallesi’nde bulunan doğal ve uzun kumsallarıyla bilinen bir Akdeniz sahilidir. Adını bölgede Akdeniz’e dökülen Limonlu Çayı’ndan alan sahil, temiz denizi, geniş kumsalı ve sakin atmosferiyle yaz aylarında hem yerli halkın hem de ziyaretçilerin sıkça tercih ettiği bir yerdir. Sahil boyunca yürüyüş yapmak, denize girmek ve gün batımını izlemek oldukça keyiflidir. Çevresinde küçük kafeler, restoranlar ve dinlenme alanları bulunur. Doğal yapısını büyük ölçüde koruyan Limonlu Sahili, kalabalık turistik merkezlere kıyasla daha sakin bir deniz deneyimi sunar ve doğayla iç içe vakit geçirmek isteyenler için ideal bir destinasyondur.",
+    "en": "Limonlu Beach is a beautiful Mediterranean coastline located in the Limonlu neighborhood of Erdemli district in Mersin, Turkey. Named after the nearby Limonlu River that flows into the Mediterranean Sea, the beach is known for its clear waters, long sandy shoreline, and peaceful atmosphere. It is a popular destination during the summer for both locals and visitors who want to swim, relax, walk along the coast, or enjoy the sunset. Small cafes, restaurants, and resting areas can be found nearby. Compared to more crowded tourist destinations, Limonlu Beach offers a quieter and more natural seaside experience.",
+    "de": "Der Limonlu-Strand befindet sich im Stadtteil Limonlu im Bezirk Erdemli der türkischen Provinz Mersin an der Mittelmeerküste. Der Strand ist nach dem Limonlu-Fluss benannt, der hier ins Mittelmeer mündet. Er ist bekannt für sein klares Wasser, seinen langen Sandstrand und seine ruhige Atmosphäre. Besonders in den Sommermonaten ist der Strand ein beliebtes Ziel für Einheimische und Besucher, die schwimmen, spazieren gehen oder den Sonnenuntergang genießen möchten. In der Umgebung gibt es kleine Cafés, Restaurants und Erholungsbereiche. Im Vergleich zu stark touristischen Orten bietet der Limonlu-Strand eine ruhigere und naturnahe Badeerfahrung."
+  },
+  "activities": {
+    "tr": [
+      "Denize girmek",
+      "Plajda dinlenmek",
+      "Sahil yürüyüşü yapmak",
+      "Gün batımını izlemek",
+      "Fotoğraf çekmek"
+    ],
+    "en": [
+      "Swimming",
+      "Relaxing on the beach",
+      "Walking along the coast",
+      "Watching the sunset",
+      "Photography"
+    ],
+    "de": [
+      "Schwimmen",
+      "Am Strand entspannen",
+      "Spaziergänge entlang der Küste",
+      "Den Sonnenuntergang beobachten",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "plaj",
+      "doğa"
+    ],
+    "en": [
+      "beach",
+      "nature"
+    ],
+    "de": [
+      "Strand",
+      "Natur"
+    ]
+  },
+  "images": [
+    "https://example.com/limonlu_sahili.jpg"
+  ]
+},
+{
+  "slug": "ayvagedigi-plaji",
+  "name": {
+    "tr": "Ayvagediği Plajı",
+    "en": "Ayvagedigi Beach",
+    "de": "Ayvagedigi Strand"
+  },
+  "latitude": 36.41260,
+  "longitude": 34.08370,
+  "description": {
+    "tr": "Ayvagediği Plajı, Mersin ilinin Erdemli ilçesi sınırları içerisinde yer alan sakin ve doğal plajlardan biridir. Akdeniz'in berrak ve temiz sularına sahip olan bu plaj, özellikle kalabalık turistik plajlardan uzak durmak isteyen ziyaretçiler için ideal bir dinlenme noktasıdır.\n\nPlaj ince kum ve küçük çakıl karışımından oluşur. Deniz genellikle sakin ve berraktır, bu nedenle yüzmek ve serinlemek için oldukça uygun bir ortam sunar. Bölgenin doğal yapısı büyük ölçüde korunmuş durumdadır ve çevresi Akdeniz bitki örtüsü ile çevrilidir.\n\nAyvagediği Plajı özellikle yaz aylarında yerel halk ve doğa severler tarafından tercih edilmektedir. Plaj çevresinde bazı küçük işletmeler, dinlenme alanları ve yürüyüş yapılabilecek sahil bölümleri bulunmaktadır. Gün batımı manzarası ise bölgenin en dikkat çekici özelliklerinden biridir.\n\nPlaja ulaşım Erdemli ilçesi üzerinden sağlanmaktadır. Mersin şehir merkezine yaklaşık 70 kilometre uzaklıkta bulunan Ayvagediği Plajı'na özel araçla kolaylıkla ulaşılabilir. Erdemli yönünden sahil yolunu takip ederek plaja ulaşmak mümkündür.\n\nDoğal atmosferi, sakin ortamı ve temiz denizi ile Ayvagediği Plajı, Mersin bölgesinde denize girmek ve huzurlu bir gün geçirmek isteyenler için güzel alternatiflerden biridir.",
+    "en": "Ayvagedigi Beach is a quiet and natural beach located in the Erdemli district of Mersin on the Mediterranean coast of Turkey. Known for its clear and clean waters, the beach is a peaceful destination for visitors who prefer a more relaxed environment away from crowded tourist areas.\n\nThe beach consists of fine sand mixed with small pebbles. The sea is generally calm and very clear, making it ideal for swimming and relaxing. The natural environment around the beach is largely preserved and surrounded by typical Mediterranean vegetation.\n\nAyvagedigi Beach is mostly visited by locals and nature lovers, especially during the summer months. There are small facilities and resting areas nearby, and the coastline offers pleasant walking opportunities. The sunset view over the Mediterranean is one of the most beautiful aspects of the area.\n\nThe beach can be reached via the Erdemli district. It is located approximately 70 kilometers from the city center of Mersin and can easily be accessed by car by following the coastal road.\n\nWith its calm atmosphere, clear sea, and natural surroundings, Ayvagedigi Beach is a great alternative for those who want to enjoy a peaceful day by the sea in the Mersin region.",
+    "de": "Der Ayvagedigi Strand befindet sich im Bezirk Erdemli der Provinz Mersin an der Mittelmeerküste der Türkei. Der Strand ist bekannt für sein klares Wasser und seine ruhige Atmosphäre und eignet sich besonders für Besucher, die einen entspannten Ort abseits der überfüllten Touristenstrände suchen.\n\nDer Strand besteht aus feinem Sand und kleinen Kieselsteinen. Das Meer ist meist ruhig und sehr klar, wodurch sich der Ort ideal zum Schwimmen und Entspannen eignet. Die natürliche Umgebung ist weitgehend erhalten und von typischer mediterraner Vegetation umgeben.\n\nBesonders im Sommer wird der Strand von Einheimischen und Naturliebhabern besucht. In der Nähe befinden sich kleine Einrichtungen und Ruhebereiche, außerdem lädt die Küste zu Spaziergängen ein. Besonders beeindruckend ist der Sonnenuntergang über dem Mittelmeer.\n\nDer Strand ist über den Bezirk Erdemli erreichbar und liegt etwa 70 Kilometer vom Stadtzentrum von Mersin entfernt. Besucher können den Strand bequem über die Küstenstraße mit dem Auto erreichen.\n\nMit seiner ruhigen Atmosphäre und dem klaren Wasser ist der Ayvagedigi Strand ein schöner Ort für einen entspannten Tag am Meer in der Region Mersin."
+  },
+  "activities": {
+    "tr": [
+      "Denize girmek",
+      "Güneşlenmek",
+      "Fotoğraf çekmek",
+      "Sahil yürüyüşü"
+    ],
+    "en": [
+      "Swimming",
+      "Sunbathing",
+      "Photography",
+      "Beach walking"
+    ],
+    "de": [
+      "Schwimmen",
+      "Sonnenbaden",
+      "Fotografie",
+      "Strandspaziergang"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "plaj"
+    ],
+    "en": [
+      "beach"
+    ],
+    "de": [
+      "strand"
+    ]
+  },
+  "images": [
+    "https://example.com/ayvagedigi_plaji.jpg",
+    "https://example.com/ayvagedigi_plaji_2.jpg"
+  ]
+},
     {
       "slug": "sebaste-antik-kenti",
       "name": {

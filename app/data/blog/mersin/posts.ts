@@ -116,7 +116,7 @@ Mersin’in Silifke ilçesinde bulunan Cennet ve Cehennem Obrukları, jeolojik o
 - Fotoğraf çekmek  
 - Yakın yürüyüş yollarını keşfetmek  
 
-Detaylar için tıkla 🔗 **[Cennet-Cehennem Obrukları](https://www.waylero.com/kesfet/turkey/mersin/cennet-cehennem)**
+Detaylar için tıkla 🔗 **[Cennet-Cehennem Obrukları](https://www.waylero.com/kesfet/turkey/mersin/cennet-ve-cehennem-obruklari)**
 
 ---
 
@@ -147,7 +147,7 @@ Tarih boyunca önemli bir liman kenti olan Soli Pompeiopolis, Mersin’in Mezitl
 - Fotoğraf çekmek  
 - Tarihi yapıları incelemek  
 
-Detaylar için tıkla 🔗 **[Soli Pompeiopolis](https://www.waylero.com/kesfet/turkey/mersin/soli-pompeiopolis)**
+Detaylar için tıkla 🔗 **[Soli Pompeiopolis](https://www.waylero.com/kesfet/turkey/mersin/soloi-pompeiopolis-antik-kenti)**
 
 ---
 
