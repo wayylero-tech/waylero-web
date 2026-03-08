@@ -319,6 +319,441 @@
         "https://example.com/galata_kulesi.jpg"
       ]
     },
+ {
+      "slug": "misir-carsisi",
+      "name": {
+        "tr": "Mısır Çarşısı",
+        "en": "Spice Bazaar",
+        "de": "Ägyptischer Basar"
+      },
+      "latitude": 41.0166,
+      "longitude": 28.97053,
+      "description": {
+        "tr": "Mısır Çarşısı, İstanbul’un en eski ve en ünlü çarşılarından biridir. Aynı zamanda Kapalı Çarşı'nın hemen yanındadır. Burada geleneksel Türk baharatları, kuru meyveler, tatlılar, lokumlar ve hediyelikler satılmaktadır. Çarşı, rengarenk dükkanları ve zengin kokularıyla ziyaretçilere unutulmaz bir deneyim sunar.\n",
+        "en": "The Spice Bazaar is one of the oldest and most famous bazaars in Istanbul. It is also located next to the Grand Bazaar. Traditional Turkish spices, dried fruits, sweets, Turkish delicacies and souvenirs are sold here. The bazaar offers visitors an unforgettable experience with its colourful shops and rich smells.\n",
+        "de": "Der Gewürzbasar ist einer der ältesten und bekanntesten Basare Istanbuls. Er befindet sich direkt neben dem Großen Basar. Hier werden traditionelle türkische Gewürze, Trockenfrüchte, Süßigkeiten, türkische Delikatessen und Souvenirs verkauft. Mit seinen bunten Läden und den vielen Gerüchen bietet der Basar seinen Besuchern ein unvergessliches Erlebnis.\n"
+      },
+      "activities": {
+        "tr": [
+          "Baharat ve lokum alışverişi yapmak"
+        ],
+        "en": [
+          "Shopping for spices and Turkish delight"
+        ],
+        "de": [
+          "Einkaufen von Gewürzen und Türkischem Honig"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "çarşı"
+        ],
+        "en": [
+          "marketplace"
+        ],
+        "de": [
+          "marktplatz"
+        ],
+        "ar": [
+          "السوق"
+        ],
+        "ja": [
+          "マーケットプレイス"
+        ],
+        "ru": [
+          "рынок"
+        ]
+      },
+      "images": [
+        "https://example.com/misir_carsisi.jpg"
+      ]
+    },
+    {
+      "slug": "kapali-carsi",
+      "name": {
+        "tr": "Kapalı Çarşı",
+        "en": "Grand Bazaar",
+        "de": "Großer Basar"
+      },
+      "latitude": 41.01087,
+      "longitude": 28.96807,
+      "description": {
+        "tr": "Kapalı Çarşı, dünyanın en büyük ve en eski kapalı çarşılarından biridir. 15. yüzyılda Osmanlı döneminde inşa edilmiştir. İçinde 4000'den fazla dükkan barındıran çarşı, takı, halı, tekstil, antika eşyalar ve hediyelikler gibi birçok farklı ürünün satıldığı bir alışveriş cennetidir.\n",
+        "en": "The Grand Bazaar is one of the largest and oldest covered bazaars in the world. It was built in the 15th century during the Ottoman period. With more than 4000 shops, the bazaar is a shopping paradise, selling a wide variety of products such as jewellery, carpets, textiles, antiques and souvenirs.\n",
+        "de": "Der Große Basar ist einer der größten und ältesten überdachten Basare der Welt. Er wurde im 15. Jahrhundert während der osmanischen Herrschaft erbaut. Der Basar ist ein Einkaufsparadies mit über 4.000 Läden, in denen eine Vielzahl von Produkten wie Schmuck, Teppiche, Textilien, Antiquitäten und Souvenirs angeboten werden.\n"
+      },
+      "activities": {
+        "tr": [
+          "Alışveriş yaparak hediyelikler almak"
+        ],
+        "en": [
+          "Shopping for souvenirs"
+        ],
+        "de": [
+          "Einkaufen von Souvenirs"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "çarşı"
+        ],
+        "en": [
+          "marketplace"
+        ],
+        "de": [
+          "marktplatz"
+        ],
+        "ar": [
+          "السوق"
+        ],
+        "ja": [
+          "マーケットプレイス"
+        ],
+        "ru": [
+          "рынок"
+        ]
+      },
+      "images": [
+        "https://example.com/kapali_carsisi.jpg"
+      ]
+    },
+    {
+      "slug": "rumeli-hisari",
+      "name": {
+        "tr": "Rumeli Hisarı",
+        "en": "Rumeli Fortress",
+        "de": "Rumeli Festung"
+      },
+      "latitude": 41.085,
+      "longitude": 29.05669,
+      "description": {
+        "tr": "Rumeli Hisarı, İstanbul Boğazı'nın Avrupa yakasında yer alan tarihi bir kaledir. 1452 yılında Osmanlı Padişahı II. Mehmet tarafından inşa edilmiştir. Hisar, Boğaz’ın kontrolünü sağlamak amacıyla yapılmış olup, günümüzde bir müze olarak ziyaretçilere açıktır. Kaleye çıkıp İstanbul Boğazı'nın muazzam manzarasını izlemek mümkündür.\n",
+        "en": "Rumeli Hisarı is a historic castle on the European side of the Bosphorus. It was built in 1452 by the Ottoman Sultan Mehmet II. The fortress was built to ensure control of the Bosphorus and is now open to visitors as a museum. It is possible to go up to the castle and enjoy the magnificent view of the Bosphorus.\n",
+        "de": "Rumeli Hisarı ist eine historische Burg auf der europäischen Seite des Bosporus. Sie wurde 1452 vom osmanischen Sultan Mehmet II. erbaut. Die Festung sollte die Kontrolle über den Bosporus gewährleisten und ist heute als Museum für Besucher geöffnet. Es besteht die Möglichkeit, die Burg zu besteigen und den herrlichen Blick über den Bosporus zu genießen.\n"
+      },
+      "activities": {
+        "tr": [
+          "Hisara tırmanarak Boğaz manzarasını izlemek"
+        ],
+        "en": [
+          "Climbing the fortress and enjoying the Bosphorus view"
+        ],
+        "de": [
+          "Besteigen der Festung und Genießen des Bosporusblicks"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/rumeli_hisari.jpg"
+      ]
+    },
+    {
+      "slug": "anadolu-hisari",
+      "name": {
+        "tr": "Anadolu Hisarı",
+        "en": "Anadolu Fortress",
+        "de": "Anadolu Festung"
+      },
+      "latitude": 41.08233,
+      "longitude": 29.067,
+      "description": {
+        "tr": "Anadolu Hisarı, İstanbul’un Anadolu yakasında yer alan ve II. Mehmet tarafından 1393 yılında inşa edilen tarihi bir kaledir. Hisar, İstanbul Boğazı'na hakim bir konumda yer alır ve tarihi kalıntılarıyla dikkat çeker. Aynı zamanda çevresinde yürüyüş yolları ve kafe alanları da bulunmaktadır.\n",
+        "en": "Anadolu Hisarı is a historical castle located on the Anatolian side of Istanbul and was built by Mehmet II in 1393. Hisar is located in a position overlooking the Bosphorus and attracts attention with its historical ruins. There are also walking paths and cafes around it.\n",
+        "de": "Anadolu Hisarı ist eine historische Burg auf der anatolischen Seite Istanbuls, die 1393 von Mehmet II. erbaut wurde. Hisar liegt hoch über dem Bosporus und zieht mit seinen historischen Ruinen die Aufmerksamkeit auf sich. Rund um die Burg gibt es Wanderwege und Cafés.\n"
+      },
+      "activities": {
+        "tr": [
+          "Hisarın surlarına tırmanmak"
+        ],
+        "en": [
+          "Climbing the fortress walls"
+        ],
+        "de": [
+          "Klettern auf den Festungsmauern"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/anadolu_hisari.jpg"
+      ]
+    },
+ {
+      "slug": "bozdogan-kemeri-valens-su-kemeri",
+      "name": {
+        "tr": "Bozdoğan Kemeri (Valens Su Kemeri)",
+        "en": "Bozdoğan Aqueduct (Valens Aqueduct)",
+        "de": "Bozdoğan Aquädukt (Valens Aquädukt)"
+      },
+      "latitude": 41.01625,
+      "longitude": 28.95683,
+      "description": {
+        "tr": "Bozdoğan Kemeri, İstanbul’un tarihi yapılarından biri olup, Bizans İmparatoru Valens tarafından M.S. 368-375 yılları arasında inşa ettirilmiştir. Bu su kemeri, İstanbul’a su temin etmek amacıyla yapılmış olup, şehri besleyen en önemli su yollarından biri olmuştur. İstanbul’un en eski yapılarından biri olan Bozdoğan Kemeri, günümüzde de hala ayakta durmaktadır.\n\n**Tarih ve Mimari**\n\nBozdoğan Kemeri, 19 gözlü uzun bir yapıdır ve yaklaşık 920 metre uzunluğundadır. Bizans döneminin mühendislik harikalarından biri olarak kabul edilen kemer, Roma İmparatorluğu’nun su kemerleri mimarisinin etkilerini taşır. Yapımında kullanılan taşlar, kemerin zamanla daha da sağlamlaşmasını sağlamıştır. Kemerin yüksekliği ve büyüklüğü, Bizans’ın mühendislik alanındaki yetkinliğini gösterir.\n\n**Deneyim ve Etkinlikler**\n\nBozdoğan Kemeri, hem tarihi bir yapı hem de şehrin kalbinde bir simge haline gelmiştir. Ziyaretçiler, kemerin büyüklüğüne hayran kalabilir ve etrafındaki tarihi alanlarda yürüyüş yaparak İstanbul’un geçmişine dair izler keşfedebilirler.\n\n**Nasıl Gidilir?**\n\nBozdoğan Kemeri, İstanbul’un Fatih ilçesinde, Aksaray semtine yakın bir konumda yer almaktadır. Toplu taşıma ile kolayca ulaşılabilir, Aksaray tramvay durağından kemere yürüyerek ulaşmak mümkündür.\n",
+        "en": "Bozdoğan Aqueduct, also known as the Valens Aqueduct, is one of Istanbul’s historic structures, built by the Byzantine Emperor Valens between A.D. 368 and 375. The aqueduct was constructed to supply water to the city and was one of the most important water systems in ancient Istanbul. It is one of the oldest surviving structures in the city.\n\n**History and Architecture**\n\nThe Bozdoğan Aqueduct is a long structure with 19 arches and stretches approximately 920 meters. Considered one of the marvels of Byzantine engineering, the aqueduct reflects the architectural influence of the Roman Empire's water systems. The stones used in its construction have contributed to the aqueduct’s durability over time. Its impressive height and size are a testament to the engineering skills of the Byzantines.\n\n**Experience and Activities**\n\nBozdoğan Aqueduct serves as both a historical monument and a symbol of the city. Visitors can marvel at the size of the aqueduct and explore the surrounding historical areas on foot, discovering traces of Istanbul’s past.\n\n**How to Get There?**\n\nThe Bozdoğan Aqueduct is located in the Fatih district of Istanbul, near Aksaray. It is easily accessible by public transport, with a short walk from the Aksaray tram station to the aqueduct.\n",
+        "de": "Das Bozdoğan-Aquädukt, auch als Valens-Aquädukt bekannt, ist eines der historischen Bauwerke Istanbuls, das zwischen 368 und 375 n. Chr. vom byzantinischen Kaiser Valens erbaut wurde. Es wurde zur Wasserversorgung der Stadt gebaut und war eines der wichtigsten Wassersysteme im antiken Istanbul. Es gehört zu den ältesten erhaltenen Bauwerken der Stadt.\n\n**Geschichte und Architektur**\n\nDas Bozdoğan-Aquädukt ist eine lange Struktur mit 19 Bögen und erstreckt sich über etwa 920 Meter. Es wird als eines der Wunder der byzantinischen Ingenieurkunst betrachtet und spiegelt die Architektur des römischen Wassersystems wider. Die verwendeten Steine haben zur Haltbarkeit des Aquädukts im Laufe der Zeit beigetragen. Seine beeindruckende Höhe und Größe zeugen von den ingenieurtechnischen Fähigkeiten der Byzantiner.\n\n**Erlebnis und Aktivitäten**\n\nDas Bozdoğan-Aquädukt ist sowohl ein historisches Denkmal als auch ein Symbol der Stadt. Besucher können sich an der Größe des Aquädukts erfreuen und die umliegenden historischen Gebiete zu Fuß erkunden und Spuren der Vergangenheit Istanbuls entdecken.\n\n**Anfahrt**\n\nDas Bozdoğan-Aquädukt befindet sich im Stadtteil Fatih in Istanbul, nahe Aksaray. Es ist mit öffentlichen Verkehrsmitteln leicht erreichbar, und von der Straßenbahnhaltestelle Aksaray aus ist der Aquädukt nur einen kurzen Spaziergang entfernt.\n"
+      },
+      "activities": {
+        "tr": [
+          "Bizans mühendisliğini incelemek",
+          "Tarihi yapıyı keşfetmek",
+          "Şehri keşfederek yürüyüş yapmak"
+        ],
+        "en": [
+          "Exploring Byzantine engineering",
+          "Discovering the historical structure",
+          "Walking through the city and exploring"
+        ],
+        "de": [
+          "Byzantinische Ingenieurkunst erkunden",
+          "Das historische Bauwerk entdecken",
+          "Durch die Stadt spazieren und erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/bozdogan_aqueduct_1.jpg",
+        "https://example.com/bozdogan_aqueduct_2.jpg"
+      ]
+    },
+ {
+      "slug": "dolmabahce-sarayi",
+      "name": {
+        "tr": "Dolmabahçe Sarayı",
+        "en": "Dolmabahçe Palace",
+        "de": "Dolmabahçe-Palast"
+      },
+      "latitude": 41.03913,
+      "longitude": 29.00046,
+      "description": {
+        "tr": "Dolmabahçe Sarayı, Osmanlı İmparatorluğu'nun son dönemine ait en büyük saraylardan biridir ve Boğaziçi kıyısında yer alır. Saray, Avrupa mimarisinin izlerini taşıyan bir yapıdır ve zengin iç mekanları ile dikkat çeker. Cumhuriyet’in ilk yıllarında ise Türkiye Cumhuriyeti’nin yönetim merkezi olmuştur.",
+        "en": "Dolmabahçe Palace is one of the largest palaces of the last period of the Ottoman Empire and is located on the shores of the Bosphorus. The palace is a building that bears traces of European architecture and attracts attention with its rich interiors. In the early years of the Republic, it became the administrative centre of the Republic of Turkey.",
+        "de": "Der Dolmabahçe-Palast ist einer der größten Paläste des späten Osmanischen Reiches und liegt an der Bosporusküste. Der Palast ist ein Gebäude, das die Spuren der europäischen Architektur trägt und mit seiner reichen Innenausstattung die Aufmerksamkeit auf sich zieht. In den ersten Jahren der Republik wurde der Palast zum Verwaltungszentrum der Türkischen Republik."
+      },
+      "activities": {
+        "tr": [
+          "Sarayın içindeki odaları ve mücevher koleksiyonlarını görmek"
+        ],
+        "en": [
+          "Seeing the rooms inside the palace and the jewellery collections",
+          "Taking a walk in the garden of Dolmabahçe Palace"
+        ],
+        "de": [
+          "Die Räume im Inneren des Palastes und die Schmucksammlungen zu sehen",
+          "Spaziergang im Garten des Dolmabahçe-Palastes"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/dolmabahce_sarayi.jpg",
+        "https://example.com/dolmabahce_sarayi_2.jpg"
+      ]
+    },
+    {
+      "slug": "topkapi-sarayi",
+      "name": {
+        "tr": "Topkapı Sarayı",
+        "en": "Topkapi Palace",
+        "de": "Topkapi-Palast"
+      },
+      "latitude": 41.01156,
+      "longitude": 28.98338,
+      "description": {
+        "tr": "Topkapı Sarayı, Osmanlı İmparatorluğu'na 400 yıl başkentlik yapmış İstanbul'da, Sarayburnu'nda yer alan en önemli yapıdır. Saray, padişahların ve saray halkının yaşadığı, Osmanlı İmparatorluğu'nun zengin kültürünü ve tarihi yansıtayan bir komplekstir. Günümüzde müze olarak ziyaretçilere açıktır ve Osmanlı dönemine ait değerli eserler sergilenmektedir.\n",
+        "en": "Topkapi Palace is the most important building on Sarayburnu in Istanbul, which was the capital of the Ottoman Empire for 400 years. The palace is a complex where sultans and palace officials lived, reflecting the rich culture and history of the Ottoman Empire. Today it is open to visitors as a museum and displays valuable artefacts from the Ottoman period.\n",
+        "de": "Der Topkapi-Palast ist das bedeutendste Gebäude in der Sarayburnu in Istanbul, die 400 Jahre lang die Hauptstadt des Osmanischen Reiches war. Der Palast ist ein Komplex, in dem Sultane und Palastbeamte lebten und der die reiche Kultur und Geschichte des Osmanischen Reiches widerspiegelt. Heute ist der Palast ein Museum, in dem wertvolle Artefakte aus der osmanischen Zeit ausgestellt sind.\n"
+      },
+      "activities": {
+        "tr": [
+          "Sarayın farklı bölümlerini keşfetmek"
+        ],
+        "en": [
+          "Exploring different parts of the palace",
+          "Entering the harem and learning about the life of the Ottoman sultans",
+          "Taking a walk in the gardens of Topkapi Palace"
+        ],
+        "de": [
+          "Erkundung verschiedener Teile des Palastes",
+          "Den Harem betreten und das Leben der osmanischen Sultane kennen lernen",
+          "Spaziergang in den Gärten des Topkapi-Palastes"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/topkapi_sarayi.jpg"
+      ]
+    },
+    {
+      "slug": "kariye-muzesi-chora-kilisesi",
+      "name": {
+        "tr": "Kariye Müzesi (Chora Kilisesi)",
+        "en": "Chora Museum (Church of the Holy Saviour)",
+        "de": "Chora-Museum (Kirche des Heiligen Erlösers)"
+      },
+      "latitude": 41.03135,
+      "longitude": 28.93925,
+      "description": {
+        "tr": "Kariye Müzesi, Bizans dönemine ait önemli bir yapıdır ve özellikle içindeki mozaikler ile ünlüdür. Chora Kilisesi olarak da bilinen bu yapı, Bizans sanatının en güzel örneklerinden birini sunar. Bugün müze olarak kullanılan yapı, tarih meraklıları için önemli bir noktadır.\n",
+        "en": "The Chora Museum, also known as the Church of the Holy Saviour, is an important Byzantine building, famous for its stunning mosaics. This building houses some of the finest examples of Byzantine art. Now a museum, it is a must-see for history buffs.\n",
+        "de": "Das Chora-Museum, auch bekannt als Kirche des Heiligen Erlösers, ist ein bedeutendes byzantinisches Bauwerk, das vor allem für seine beeindruckenden Mosaike bekannt ist. Das Gebäude beherbergt einige der schönsten Beispiele byzantinischer Kunst. Heute dient sie als Museum und ist ein wichtiger Ort für Geschichtsinteressierte.\n"
+      },
+      "activities": {
+        "tr": [
+          "İç mekanındaki mozaikleri ve freskleri incelemek"
+        ],
+        "en": [
+          "Exploring the mosaics and frescoes inside the museum"
+        ],
+        "de": [
+          "Die Mosaiken und Fresken im Inneren des Museums erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kilise",
+          "müze"
+        ],
+        "en": [
+          "church",
+          "museum"
+        ],
+        "de": [
+          "Kirche",
+          "Museum"
+        ]
+      },
+      "images": [
+        "https://example.com/kariye_muzesi.jpg"
+      ]
+    },
+    {
+      "slug": "ciragan-sarayi",
+      "name": {
+        "tr": "Çırağan Sarayı",
+        "en": "Çırağan Palace",
+        "de": "Çırağan-Palast"
+      },
+      "latitude": 41.04422,
+      "longitude": 29.01704,
+      "description": {
+        "tr": "Çırağan Sarayı, Osmanlı İmparatorluğu döneminde yapılan ve Boğaz kenarında yer alan lüks bir saraydır. Günümüzde beş yıldızlı bir otel olarak hizmet vermektedir. Sarayın tarihi yapısı ve muazzam Boğaz manzarası, ziyaretçileri cezbetmektedir.\n",
+        "en": "Çırağan Palace is a luxurious palace built during the Ottoman Empire on the shores of the Bosphorus. Today it is a five-star hotel. Its historic structure and magnificent views of the Bosphorus captivate visitors.\n",
+        "de": "Der Çırağan Palast ist ein luxuriöser Palast, der während des Osmanischen Reiches am Bosporus erbaut wurde. Heute dient er als Fünf-Sterne-Hotel. Seine historische Architektur und der atemberaubende Blick auf den Bosporus begeistern die Besucher.\n"
+      },
+      "activities": {
+        "tr": [
+          "Sarayın dış mimarisini görmek ve Boğaz manzarasının keyfini çıkarmak"
+        ],
+        "en": [
+          "Admiring the palace’s exterior architecture and enjoying the Bosphorus view"
+        ],
+        "de": [
+          "Die Außenarchitektur des Palastes bewundern und den Blick auf den Bosporus genießen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/ciragan_sarayi.jpg"
+      ]
+    },
+    {
+      "slug": "beylerbeyi-sarayi",
+      "name": {
+        "tr": "Beylerbeyi Sarayı",
+        "en": "Beylerbeyi Palace",
+        "de": "Beylerbeyi-Palast"
+      },
+      "latitude": 41.04269,
+      "longitude": 29.04006,
+      "description": {
+        "tr": "Beylerbeyi Sarayı, Osmanlı İmparatorluğu döneminde sultanın yazlık sarayı olarak kullanılan ve Boğaziçi'nin Anadolu yakasında yer alan bir yapıdır. Saray, lüks iç mekanları ve tarihi atmosferiyle dikkat çeker. Saray, günümüzde müze olarak ziyaretçilere açıktır ve zarif bahçeleriyle ünlüdür.",
+        "en": "Beylerbeyi Palace is a building on the Anatolian side of the Bosphorus that was used as the summer palace of the Sultan during the Ottoman Empire. The palace is remarkable for its luxurious interiors and historic atmosphere. Today, the palace is open to visitors as a museum and is famous for its elegant gardens.",
+        "de": "Der Beylerbeyi Palast ist ein Gebäude auf der anatolischen Seite des Bosporus, das während des Osmanischen Reiches als Sommerpalast des Sultans diente. Der Palast besticht durch seine luxuriösen Innenräume und seine historische Atmosphäre. Heute ist der Palast ein Museum und berühmt für seine eleganten Gärten.\n"
+      },
+      "activities": {
+        "tr": [
+          "Beylerbeyi Sarayının iç odalarını gezmek ve tarihi atmosferi hissetmek"
+        ],
+        "en": [
+          "Walking among the columns"
+        ],
+        "de": [
+          "Spaziergang zwischen den Säulen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/beylerbeyi_sarayi.jpg"
+      ]
+    },
     {
       "slug": "beylikduzu-yasam-vadisi",
       "name": {
@@ -466,53 +901,7 @@
         "https://example.com/mihrimah_sultan_mosque_2.jpg"
       ]
     },
-    {
-      "slug": "bozdogan-kemeri-valens-su-kemeri",
-      "name": {
-        "tr": "Bozdoğan Kemeri (Valens Su Kemeri)",
-        "en": "Bozdoğan Aqueduct (Valens Aqueduct)",
-        "de": "Bozdoğan Aquädukt (Valens Aquädukt)"
-      },
-      "latitude": 41.01625,
-      "longitude": 28.95683,
-      "description": {
-        "tr": "Bozdoğan Kemeri, İstanbul’un tarihi yapılarından biri olup, Bizans İmparatoru Valens tarafından M.S. 368-375 yılları arasında inşa ettirilmiştir. Bu su kemeri, İstanbul’a su temin etmek amacıyla yapılmış olup, şehri besleyen en önemli su yollarından biri olmuştur. İstanbul’un en eski yapılarından biri olan Bozdoğan Kemeri, günümüzde de hala ayakta durmaktadır.\n\n**Tarih ve Mimari**\n\nBozdoğan Kemeri, 19 gözlü uzun bir yapıdır ve yaklaşık 920 metre uzunluğundadır. Bizans döneminin mühendislik harikalarından biri olarak kabul edilen kemer, Roma İmparatorluğu’nun su kemerleri mimarisinin etkilerini taşır. Yapımında kullanılan taşlar, kemerin zamanla daha da sağlamlaşmasını sağlamıştır. Kemerin yüksekliği ve büyüklüğü, Bizans’ın mühendislik alanındaki yetkinliğini gösterir.\n\n**Deneyim ve Etkinlikler**\n\nBozdoğan Kemeri, hem tarihi bir yapı hem de şehrin kalbinde bir simge haline gelmiştir. Ziyaretçiler, kemerin büyüklüğüne hayran kalabilir ve etrafındaki tarihi alanlarda yürüyüş yaparak İstanbul’un geçmişine dair izler keşfedebilirler.\n\n**Nasıl Gidilir?**\n\nBozdoğan Kemeri, İstanbul’un Fatih ilçesinde, Aksaray semtine yakın bir konumda yer almaktadır. Toplu taşıma ile kolayca ulaşılabilir, Aksaray tramvay durağından kemere yürüyerek ulaşmak mümkündür.\n",
-        "en": "Bozdoğan Aqueduct, also known as the Valens Aqueduct, is one of Istanbul’s historic structures, built by the Byzantine Emperor Valens between A.D. 368 and 375. The aqueduct was constructed to supply water to the city and was one of the most important water systems in ancient Istanbul. It is one of the oldest surviving structures in the city.\n\n**History and Architecture**\n\nThe Bozdoğan Aqueduct is a long structure with 19 arches and stretches approximately 920 meters. Considered one of the marvels of Byzantine engineering, the aqueduct reflects the architectural influence of the Roman Empire's water systems. The stones used in its construction have contributed to the aqueduct’s durability over time. Its impressive height and size are a testament to the engineering skills of the Byzantines.\n\n**Experience and Activities**\n\nBozdoğan Aqueduct serves as both a historical monument and a symbol of the city. Visitors can marvel at the size of the aqueduct and explore the surrounding historical areas on foot, discovering traces of Istanbul’s past.\n\n**How to Get There?**\n\nThe Bozdoğan Aqueduct is located in the Fatih district of Istanbul, near Aksaray. It is easily accessible by public transport, with a short walk from the Aksaray tram station to the aqueduct.\n",
-        "de": "Das Bozdoğan-Aquädukt, auch als Valens-Aquädukt bekannt, ist eines der historischen Bauwerke Istanbuls, das zwischen 368 und 375 n. Chr. vom byzantinischen Kaiser Valens erbaut wurde. Es wurde zur Wasserversorgung der Stadt gebaut und war eines der wichtigsten Wassersysteme im antiken Istanbul. Es gehört zu den ältesten erhaltenen Bauwerken der Stadt.\n\n**Geschichte und Architektur**\n\nDas Bozdoğan-Aquädukt ist eine lange Struktur mit 19 Bögen und erstreckt sich über etwa 920 Meter. Es wird als eines der Wunder der byzantinischen Ingenieurkunst betrachtet und spiegelt die Architektur des römischen Wassersystems wider. Die verwendeten Steine haben zur Haltbarkeit des Aquädukts im Laufe der Zeit beigetragen. Seine beeindruckende Höhe und Größe zeugen von den ingenieurtechnischen Fähigkeiten der Byzantiner.\n\n**Erlebnis und Aktivitäten**\n\nDas Bozdoğan-Aquädukt ist sowohl ein historisches Denkmal als auch ein Symbol der Stadt. Besucher können sich an der Größe des Aquädukts erfreuen und die umliegenden historischen Gebiete zu Fuß erkunden und Spuren der Vergangenheit Istanbuls entdecken.\n\n**Anfahrt**\n\nDas Bozdoğan-Aquädukt befindet sich im Stadtteil Fatih in Istanbul, nahe Aksaray. Es ist mit öffentlichen Verkehrsmitteln leicht erreichbar, und von der Straßenbahnhaltestelle Aksaray aus ist der Aquädukt nur einen kurzen Spaziergang entfernt.\n"
-      },
-      "activities": {
-        "tr": [
-          "Bizans mühendisliğini incelemek",
-          "Tarihi yapıyı keşfetmek",
-          "Şehri keşfederek yürüyüş yapmak"
-        ],
-        "en": [
-          "Exploring Byzantine engineering",
-          "Discovering the historical structure",
-          "Walking through the city and exploring"
-        ],
-        "de": [
-          "Byzantinische Ingenieurkunst erkunden",
-          "Das historische Bauwerk entdecken",
-          "Durch die Stadt spazieren und erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/bozdogan_aqueduct_1.jpg",
-        "https://example.com/bozdogan_aqueduct_2.jpg"
-      ]
-    },
+   
     {
       "slug": "murat-pasa-camii",
       "name": {
@@ -794,216 +1183,7 @@
         "https://example.com/fethiye_camii_istanbul.jpg"
       ]
     },
-    {
-      "slug": "dolmabahce-sarayi",
-      "name": {
-        "tr": "Dolmabahçe Sarayı",
-        "en": "Dolmabahçe Palace",
-        "de": "Dolmabahçe-Palast"
-      },
-      "latitude": 41.03913,
-      "longitude": 29.00046,
-      "description": {
-        "tr": "Dolmabahçe Sarayı, Osmanlı İmparatorluğu'nun son dönemine ait en büyük saraylardan biridir ve Boğaziçi kıyısında yer alır. Saray, Avrupa mimarisinin izlerini taşıyan bir yapıdır ve zengin iç mekanları ile dikkat çeker. Cumhuriyet’in ilk yıllarında ise Türkiye Cumhuriyeti’nin yönetim merkezi olmuştur.",
-        "en": "Dolmabahçe Palace is one of the largest palaces of the last period of the Ottoman Empire and is located on the shores of the Bosphorus. The palace is a building that bears traces of European architecture and attracts attention with its rich interiors. In the early years of the Republic, it became the administrative centre of the Republic of Turkey.",
-        "de": "Der Dolmabahçe-Palast ist einer der größten Paläste des späten Osmanischen Reiches und liegt an der Bosporusküste. Der Palast ist ein Gebäude, das die Spuren der europäischen Architektur trägt und mit seiner reichen Innenausstattung die Aufmerksamkeit auf sich zieht. In den ersten Jahren der Republik wurde der Palast zum Verwaltungszentrum der Türkischen Republik."
-      },
-      "activities": {
-        "tr": [
-          "Sarayın içindeki odaları ve mücevher koleksiyonlarını görmek"
-        ],
-        "en": [
-          "Seeing the rooms inside the palace and the jewellery collections",
-          "Taking a walk in the garden of Dolmabahçe Palace"
-        ],
-        "de": [
-          "Die Räume im Inneren des Palastes und die Schmucksammlungen zu sehen",
-          "Spaziergang im Garten des Dolmabahçe-Palastes"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/dolmabahce_sarayi.jpg",
-        "https://example.com/dolmabahce_sarayi_2.jpg"
-      ]
-    },
-    {
-      "slug": "topkapi-sarayi",
-      "name": {
-        "tr": "Topkapı Sarayı",
-        "en": "Topkapi Palace",
-        "de": "Topkapi-Palast"
-      },
-      "latitude": 41.01156,
-      "longitude": 28.98338,
-      "description": {
-        "tr": "Topkapı Sarayı, Osmanlı İmparatorluğu'na 400 yıl başkentlik yapmış İstanbul'da, Sarayburnu'nda yer alan en önemli yapıdır. Saray, padişahların ve saray halkının yaşadığı, Osmanlı İmparatorluğu'nun zengin kültürünü ve tarihi yansıtayan bir komplekstir. Günümüzde müze olarak ziyaretçilere açıktır ve Osmanlı dönemine ait değerli eserler sergilenmektedir.\n",
-        "en": "Topkapi Palace is the most important building on Sarayburnu in Istanbul, which was the capital of the Ottoman Empire for 400 years. The palace is a complex where sultans and palace officials lived, reflecting the rich culture and history of the Ottoman Empire. Today it is open to visitors as a museum and displays valuable artefacts from the Ottoman period.\n",
-        "de": "Der Topkapi-Palast ist das bedeutendste Gebäude in der Sarayburnu in Istanbul, die 400 Jahre lang die Hauptstadt des Osmanischen Reiches war. Der Palast ist ein Komplex, in dem Sultane und Palastbeamte lebten und der die reiche Kultur und Geschichte des Osmanischen Reiches widerspiegelt. Heute ist der Palast ein Museum, in dem wertvolle Artefakte aus der osmanischen Zeit ausgestellt sind.\n"
-      },
-      "activities": {
-        "tr": [
-          "Sarayın farklı bölümlerini keşfetmek"
-        ],
-        "en": [
-          "Exploring different parts of the palace",
-          "Entering the harem and learning about the life of the Ottoman sultans",
-          "Taking a walk in the gardens of Topkapi Palace"
-        ],
-        "de": [
-          "Erkundung verschiedener Teile des Palastes",
-          "Den Harem betreten und das Leben der osmanischen Sultane kennen lernen",
-          "Spaziergang in den Gärten des Topkapi-Palastes"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/topkapi_sarayi.jpg"
-      ]
-    },
-    {
-      "slug": "kariye-muzesi-chora-kilisesi",
-      "name": {
-        "tr": "Kariye Müzesi (Chora Kilisesi)",
-        "en": "Chora Museum (Church of the Holy Saviour)",
-        "de": "Chora-Museum (Kirche des Heiligen Erlösers)"
-      },
-      "latitude": 41.03135,
-      "longitude": 28.93925,
-      "description": {
-        "tr": "Kariye Müzesi, Bizans dönemine ait önemli bir yapıdır ve özellikle içindeki mozaikler ile ünlüdür. Chora Kilisesi olarak da bilinen bu yapı, Bizans sanatının en güzel örneklerinden birini sunar. Bugün müze olarak kullanılan yapı, tarih meraklıları için önemli bir noktadır.\n",
-        "en": "The Chora Museum, also known as the Church of the Holy Saviour, is an important Byzantine building, famous for its stunning mosaics. This building houses some of the finest examples of Byzantine art. Now a museum, it is a must-see for history buffs.\n",
-        "de": "Das Chora-Museum, auch bekannt als Kirche des Heiligen Erlösers, ist ein bedeutendes byzantinisches Bauwerk, das vor allem für seine beeindruckenden Mosaike bekannt ist. Das Gebäude beherbergt einige der schönsten Beispiele byzantinischer Kunst. Heute dient sie als Museum und ist ein wichtiger Ort für Geschichtsinteressierte.\n"
-      },
-      "activities": {
-        "tr": [
-          "İç mekanındaki mozaikleri ve freskleri incelemek"
-        ],
-        "en": [
-          "Exploring the mosaics and frescoes inside the museum"
-        ],
-        "de": [
-          "Die Mosaiken und Fresken im Inneren des Museums erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kilise",
-          "müze"
-        ],
-        "en": [
-          "church",
-          "museum"
-        ],
-        "de": [
-          "Kirche",
-          "Museum"
-        ]
-      },
-      "images": [
-        "https://example.com/kariye_muzesi.jpg"
-      ]
-    },
-    {
-      "slug": "ciragan-sarayi",
-      "name": {
-        "tr": "Çırağan Sarayı",
-        "en": "Çırağan Palace",
-        "de": "Çırağan-Palast"
-      },
-      "latitude": 41.04422,
-      "longitude": 29.01704,
-      "description": {
-        "tr": "Çırağan Sarayı, Osmanlı İmparatorluğu döneminde yapılan ve Boğaz kenarında yer alan lüks bir saraydır. Günümüzde beş yıldızlı bir otel olarak hizmet vermektedir. Sarayın tarihi yapısı ve muazzam Boğaz manzarası, ziyaretçileri cezbetmektedir.\n",
-        "en": "Çırağan Palace is a luxurious palace built during the Ottoman Empire on the shores of the Bosphorus. Today it is a five-star hotel. Its historic structure and magnificent views of the Bosphorus captivate visitors.\n",
-        "de": "Der Çırağan Palast ist ein luxuriöser Palast, der während des Osmanischen Reiches am Bosporus erbaut wurde. Heute dient er als Fünf-Sterne-Hotel. Seine historische Architektur und der atemberaubende Blick auf den Bosporus begeistern die Besucher.\n"
-      },
-      "activities": {
-        "tr": [
-          "Sarayın dış mimarisini görmek ve Boğaz manzarasının keyfini çıkarmak"
-        ],
-        "en": [
-          "Admiring the palace’s exterior architecture and enjoying the Bosphorus view"
-        ],
-        "de": [
-          "Die Außenarchitektur des Palastes bewundern und den Blick auf den Bosporus genießen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/ciragan_sarayi.jpg"
-      ]
-    },
-    {
-      "slug": "beylerbeyi-sarayi",
-      "name": {
-        "tr": "Beylerbeyi Sarayı",
-        "en": "Beylerbeyi Palace",
-        "de": "Beylerbeyi-Palast"
-      },
-      "latitude": 41.04269,
-      "longitude": 29.04006,
-      "description": {
-        "tr": "Beylerbeyi Sarayı, Osmanlı İmparatorluğu döneminde sultanın yazlık sarayı olarak kullanılan ve Boğaziçi'nin Anadolu yakasında yer alan bir yapıdır. Saray, lüks iç mekanları ve tarihi atmosferiyle dikkat çeker. Saray, günümüzde müze olarak ziyaretçilere açıktır ve zarif bahçeleriyle ünlüdür.",
-        "en": "Beylerbeyi Palace is a building on the Anatolian side of the Bosphorus that was used as the summer palace of the Sultan during the Ottoman Empire. The palace is remarkable for its luxurious interiors and historic atmosphere. Today, the palace is open to visitors as a museum and is famous for its elegant gardens.",
-        "de": "Der Beylerbeyi Palast ist ein Gebäude auf der anatolischen Seite des Bosporus, das während des Osmanischen Reiches als Sommerpalast des Sultans diente. Der Palast besticht durch seine luxuriösen Innenräume und seine historische Atmosphäre. Heute ist der Palast ein Museum und berühmt für seine eleganten Gärten.\n"
-      },
-      "activities": {
-        "tr": [
-          "Beylerbeyi Sarayının iç odalarını gezmek ve tarihi atmosferi hissetmek"
-        ],
-        "en": [
-          "Walking among the columns"
-        ],
-        "de": [
-          "Spaziergang zwischen den Säulen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/beylerbeyi_sarayi.jpg"
-      ]
-    },
+   
     {
       "slug": "fener-ve-balat-semtleri",
       "name": {
@@ -1124,184 +1304,7 @@
         "https://example.com/suleymaniye_camii.jpg"
       ]
     },
-    {
-      "slug": "misir-carsisi",
-      "name": {
-        "tr": "Mısır Çarşısı",
-        "en": "Spice Bazaar",
-        "de": "Ägyptischer Basar"
-      },
-      "latitude": 41.0166,
-      "longitude": 28.97053,
-      "description": {
-        "tr": "Mısır Çarşısı, İstanbul’un en eski ve en ünlü çarşılarından biridir. Aynı zamanda Kapalı Çarşı'nın hemen yanındadır. Burada geleneksel Türk baharatları, kuru meyveler, tatlılar, lokumlar ve hediyelikler satılmaktadır. Çarşı, rengarenk dükkanları ve zengin kokularıyla ziyaretçilere unutulmaz bir deneyim sunar.\n",
-        "en": "The Spice Bazaar is one of the oldest and most famous bazaars in Istanbul. It is also located next to the Grand Bazaar. Traditional Turkish spices, dried fruits, sweets, Turkish delicacies and souvenirs are sold here. The bazaar offers visitors an unforgettable experience with its colourful shops and rich smells.\n",
-        "de": "Der Gewürzbasar ist einer der ältesten und bekanntesten Basare Istanbuls. Er befindet sich direkt neben dem Großen Basar. Hier werden traditionelle türkische Gewürze, Trockenfrüchte, Süßigkeiten, türkische Delikatessen und Souvenirs verkauft. Mit seinen bunten Läden und den vielen Gerüchen bietet der Basar seinen Besuchern ein unvergessliches Erlebnis.\n"
-      },
-      "activities": {
-        "tr": [
-          "Baharat ve lokum alışverişi yapmak"
-        ],
-        "en": [
-          "Shopping for spices and Turkish delight"
-        ],
-        "de": [
-          "Einkaufen von Gewürzen und Türkischem Honig"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "çarşı"
-        ],
-        "en": [
-          "marketplace"
-        ],
-        "de": [
-          "marktplatz"
-        ],
-        "ar": [
-          "السوق"
-        ],
-        "ja": [
-          "マーケットプレイス"
-        ],
-        "ru": [
-          "рынок"
-        ]
-      },
-      "images": [
-        "https://example.com/misir_carsisi.jpg"
-      ]
-    },
-    {
-      "slug": "kapali-carsi",
-      "name": {
-        "tr": "Kapalı Çarşı",
-        "en": "Grand Bazaar",
-        "de": "Großer Basar"
-      },
-      "latitude": 41.01087,
-      "longitude": 28.96807,
-      "description": {
-        "tr": "Kapalı Çarşı, dünyanın en büyük ve en eski kapalı çarşılarından biridir. 15. yüzyılda Osmanlı döneminde inşa edilmiştir. İçinde 4000'den fazla dükkan barındıran çarşı, takı, halı, tekstil, antika eşyalar ve hediyelikler gibi birçok farklı ürünün satıldığı bir alışveriş cennetidir.\n",
-        "en": "The Grand Bazaar is one of the largest and oldest covered bazaars in the world. It was built in the 15th century during the Ottoman period. With more than 4000 shops, the bazaar is a shopping paradise, selling a wide variety of products such as jewellery, carpets, textiles, antiques and souvenirs.\n",
-        "de": "Der Große Basar ist einer der größten und ältesten überdachten Basare der Welt. Er wurde im 15. Jahrhundert während der osmanischen Herrschaft erbaut. Der Basar ist ein Einkaufsparadies mit über 4.000 Läden, in denen eine Vielzahl von Produkten wie Schmuck, Teppiche, Textilien, Antiquitäten und Souvenirs angeboten werden.\n"
-      },
-      "activities": {
-        "tr": [
-          "Alışveriş yaparak hediyelikler almak"
-        ],
-        "en": [
-          "Shopping for souvenirs"
-        ],
-        "de": [
-          "Einkaufen von Souvenirs"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "çarşı"
-        ],
-        "en": [
-          "marketplace"
-        ],
-        "de": [
-          "marktplatz"
-        ],
-        "ar": [
-          "السوق"
-        ],
-        "ja": [
-          "マーケットプレイス"
-        ],
-        "ru": [
-          "рынок"
-        ]
-      },
-      "images": [
-        "https://example.com/kapali_carsisi.jpg"
-      ]
-    },
-    {
-      "slug": "rumeli-hisari",
-      "name": {
-        "tr": "Rumeli Hisarı",
-        "en": "Rumeli Fortress",
-        "de": "Rumeli Festung"
-      },
-      "latitude": 41.085,
-      "longitude": 29.05669,
-      "description": {
-        "tr": "Rumeli Hisarı, İstanbul Boğazı'nın Avrupa yakasında yer alan tarihi bir kaledir. 1452 yılında Osmanlı Padişahı II. Mehmet tarafından inşa edilmiştir. Hisar, Boğaz’ın kontrolünü sağlamak amacıyla yapılmış olup, günümüzde bir müze olarak ziyaretçilere açıktır. Kaleye çıkıp İstanbul Boğazı'nın muazzam manzarasını izlemek mümkündür.\n",
-        "en": "Rumeli Hisarı is a historic castle on the European side of the Bosphorus. It was built in 1452 by the Ottoman Sultan Mehmet II. The fortress was built to ensure control of the Bosphorus and is now open to visitors as a museum. It is possible to go up to the castle and enjoy the magnificent view of the Bosphorus.\n",
-        "de": "Rumeli Hisarı ist eine historische Burg auf der europäischen Seite des Bosporus. Sie wurde 1452 vom osmanischen Sultan Mehmet II. erbaut. Die Festung sollte die Kontrolle über den Bosporus gewährleisten und ist heute als Museum für Besucher geöffnet. Es besteht die Möglichkeit, die Burg zu besteigen und den herrlichen Blick über den Bosporus zu genießen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Hisara tırmanarak Boğaz manzarasını izlemek"
-        ],
-        "en": [
-          "Climbing the fortress and enjoying the Bosphorus view"
-        ],
-        "de": [
-          "Besteigen der Festung und Genießen des Bosporusblicks"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/rumeli_hisari.jpg"
-      ]
-    },
-    {
-      "slug": "anadolu-hisari",
-      "name": {
-        "tr": "Anadolu Hisarı",
-        "en": "Anadolu Fortress",
-        "de": "Anadolu Festung"
-      },
-      "latitude": 41.08233,
-      "longitude": 29.067,
-      "description": {
-        "tr": "Anadolu Hisarı, İstanbul’un Anadolu yakasında yer alan ve II. Mehmet tarafından 1393 yılında inşa edilen tarihi bir kaledir. Hisar, İstanbul Boğazı'na hakim bir konumda yer alır ve tarihi kalıntılarıyla dikkat çeker. Aynı zamanda çevresinde yürüyüş yolları ve kafe alanları da bulunmaktadır.\n",
-        "en": "Anadolu Hisarı is a historical castle located on the Anatolian side of Istanbul and was built by Mehmet II in 1393. Hisar is located in a position overlooking the Bosphorus and attracts attention with its historical ruins. There are also walking paths and cafes around it.\n",
-        "de": "Anadolu Hisarı ist eine historische Burg auf der anatolischen Seite Istanbuls, die 1393 von Mehmet II. erbaut wurde. Hisar liegt hoch über dem Bosporus und zieht mit seinen historischen Ruinen die Aufmerksamkeit auf sich. Rund um die Burg gibt es Wanderwege und Cafés.\n"
-      },
-      "activities": {
-        "tr": [
-          "Hisarın surlarına tırmanmak"
-        ],
-        "en": [
-          "Climbing the fortress walls"
-        ],
-        "de": [
-          "Klettern auf den Festungsmauern"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/anadolu_hisari.jpg"
-      ]
-    },
+   
     {
       "slug": "emirgan-korusu",
       "name": {
@@ -2234,6 +2237,138 @@
         "https://example.com/ankara_kalesi_2.jpg"
       ]
     },
+{
+      "slug": "anitkabir",
+      "name": {
+        "tr": "Anıtkabir",
+        "en": "Anıtkabir",
+        "de": "Anıtkabir"
+      },
+      "latitude": 39.92506,
+      "longitude": 32.83709,
+      "description": {
+        "tr": "Anıtkabir, Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'ün anıt mezarının bulunduğu yerdir. Hem tarihi hem de mimari açıdan büyük bir öneme sahip olan Anıtkabir, ziyaretçilere Atatürk'ün hayatına dair önemli bilgiler sunar.",
+        "en": "Anıtkabir is the mausoleum of Mustafa Kemal Atatürk, the founder of the Republic of Turkey. Of great historical and architectural importance, Anıtkabir provides visitors with important information about Atatürk's life.",
+        "de": "Anıtkabir ist der Ort, an dem sich das Mausoleum von Mustafa Kemal Atatürk, dem Gründer der türkischen Republik, befindet. Anıtkabir, das sowohl historisch als auch architektonisch von großer Bedeutung ist, bietet Besuchern wichtige Informationen über das Leben Atatürks."
+      },
+      "activities": {
+        "tr": [
+          "Atatürk’ün mozolesini ziyaret etmek",
+          "Müze bölümünde Atatürk’ün eşyalarını görmek"
+        ],
+        "en": [
+          "Visiting Atatürk’s mausoleum",
+          "Exploring Atatürk’s belongings in the museum"
+        ],
+        "de": [
+          "Atatürks Mausoleum besuchen",
+          "Atatürks Gegenstände im Museum erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "anıtkabir"
+        ],
+        "en": [
+          "anıtkabir"
+        ],
+        "de": [
+          "anıtkabir"
+        ]
+      },
+      "images": [
+        "https://example.com/anitkabir.jpg",
+        "https://example.com/anitkabir_2.jpg"
+      ]
+    },
+    {
+      "slug": "atakule",
+      "name": {
+        "tr": "Atakule",
+        "en": "Atakule",
+        "de": "Atakule"
+      },
+      "latitude": 39.88611,
+      "longitude": 32.85575,
+      "description": {
+        "tr": "Atakule, Ankara’nın simgelerinden biri olan yüksek bir televizyon kulesidir. Kule, şehri yüksekten görmek için mükemmel bir noktadır ve döner katı sayesinde 360 derece manzara sunar.",
+        "en": "Atakule is a tall television tower, one of the symbols of Ankara. The tower is the perfect vantage point to see the city from high above and offers a 360-degree view thanks to its revolving floor.",
+        "de": "Der Atakule ist ein hoher Fernsehturm, eines der Wahrzeichen von Ankara. Der Turm ist ein perfekter Ort, um die Stadt von oben zu sehen und bietet dank seines drehbaren Bodens einen 360-Grad-Blick."
+      },
+      "activities": {
+        "tr": [
+          "Atakule’nin döner katında şehir manzarasını izlemek",
+          "Kafesinde bir şeyler içmek"
+        ],
+        "en": [
+          "Watching the city view from Atakule’s rotating floor",
+          "Enjoying a drink in the café"
+        ],
+        "de": [
+          "Die Stadtansicht vom drehenden Stockwerk des Atakule beobachten",
+          "Im Café etwas trinken"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şehir simgesi"
+        ],
+        "en": [
+          "city landmark"
+        ],
+        "de": [
+          "Wahrzeichen der Stadt"
+        ]
+      },
+      "images": [
+        "https://example.com/atakule.jpg",
+        "https://example.com/atakule_2.jpg"
+      ]
+    },
+    {
+      "slug": "kocatepe-camii",
+      "name": {
+        "tr": "Kocatepe Camii",
+        "en": "Kocatepe Mosque",
+        "de": "Kocatepe Moschee"
+      },
+      "latitude": 39.91678591981186,
+      "longitude": 32.86031777698561,
+      "description": {
+        "tr": "Kocatepe Camii, Ankara'nın en büyük camilerinden biri olup modern ve geleneksel Osmanlı mimarisinin birleşimini yansıtır. Ziyaretçilerine hem dini bir deneyim hem de görsel bir şölen sunar.",
+        "en": "Kocatepe Mosque is one of the largest mosques in Ankara and reflects a combination of modern and traditional Ottoman architecture. It offers its visitors both a religious experience and a visual feast",
+        "de": "Die Kocatepe-Moschee ist eine der größten Moscheen in Ankara und spiegelt die Kombination aus moderner und traditioneller osmanischer Architektur wider. Sie bietet ihren Besuchern sowohl eine religiöse Erfahrung als auch ein visuelles Vergnügen."
+      },
+      "activities": {
+        "tr": [
+          "Camiyi ziyaret etmek ve mimarisini incelemek",
+          "Çevresindeki parkta dinlenmek"
+        ],
+        "en": [
+          "Visiting the mosque and exploring its architecture",
+          "Relaxing in the nearby park"
+        ],
+        "de": [
+          "Die Moschee besuchen und ihre Architektur erkunden",
+          "Im nahegelegenen Park entspannen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "cami"
+        ],
+        "en": [
+          "mosque"
+        ],
+        "de": [
+          "Moschee"
+        ]
+      },
+      "images": [
+        "https://example.com/kocatepe_camii.jpg",
+        "https://example.com/kocatepe_camii_2.jpg"
+      ]
+    },
     {
       "slug": "dijital-hayvanat-bahcesi",
       "name": {
@@ -2947,138 +3082,7 @@
         "https://example.com/roma_hamami_ankara.jpg"
       ]
     },
-    {
-      "slug": "anitkabir",
-      "name": {
-        "tr": "Anıtkabir",
-        "en": "Anıtkabir",
-        "de": "Anıtkabir"
-      },
-      "latitude": 39.92506,
-      "longitude": 32.83709,
-      "description": {
-        "tr": "Anıtkabir, Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'ün anıt mezarının bulunduğu yerdir. Hem tarihi hem de mimari açıdan büyük bir öneme sahip olan Anıtkabir, ziyaretçilere Atatürk'ün hayatına dair önemli bilgiler sunar.",
-        "en": "Anıtkabir is the mausoleum of Mustafa Kemal Atatürk, the founder of the Republic of Turkey. Of great historical and architectural importance, Anıtkabir provides visitors with important information about Atatürk's life.",
-        "de": "Anıtkabir ist der Ort, an dem sich das Mausoleum von Mustafa Kemal Atatürk, dem Gründer der türkischen Republik, befindet. Anıtkabir, das sowohl historisch als auch architektonisch von großer Bedeutung ist, bietet Besuchern wichtige Informationen über das Leben Atatürks."
-      },
-      "activities": {
-        "tr": [
-          "Atatürk’ün mozolesini ziyaret etmek",
-          "Müze bölümünde Atatürk’ün eşyalarını görmek"
-        ],
-        "en": [
-          "Visiting Atatürk’s mausoleum",
-          "Exploring Atatürk’s belongings in the museum"
-        ],
-        "de": [
-          "Atatürks Mausoleum besuchen",
-          "Atatürks Gegenstände im Museum erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "anıtkabir"
-        ],
-        "en": [
-          "anıtkabir"
-        ],
-        "de": [
-          "anıtkabir"
-        ]
-      },
-      "images": [
-        "https://example.com/anitkabir.jpg",
-        "https://example.com/anitkabir_2.jpg"
-      ]
-    },
-    {
-      "slug": "atakule",
-      "name": {
-        "tr": "Atakule",
-        "en": "Atakule",
-        "de": "Atakule"
-      },
-      "latitude": 39.88611,
-      "longitude": 32.85575,
-      "description": {
-        "tr": "Atakule, Ankara’nın simgelerinden biri olan yüksek bir televizyon kulesidir. Kule, şehri yüksekten görmek için mükemmel bir noktadır ve döner katı sayesinde 360 derece manzara sunar.",
-        "en": "Atakule is a tall television tower, one of the symbols of Ankara. The tower is the perfect vantage point to see the city from high above and offers a 360-degree view thanks to its revolving floor.",
-        "de": "Der Atakule ist ein hoher Fernsehturm, eines der Wahrzeichen von Ankara. Der Turm ist ein perfekter Ort, um die Stadt von oben zu sehen und bietet dank seines drehbaren Bodens einen 360-Grad-Blick."
-      },
-      "activities": {
-        "tr": [
-          "Atakule’nin döner katında şehir manzarasını izlemek",
-          "Kafesinde bir şeyler içmek"
-        ],
-        "en": [
-          "Watching the city view from Atakule’s rotating floor",
-          "Enjoying a drink in the café"
-        ],
-        "de": [
-          "Die Stadtansicht vom drehenden Stockwerk des Atakule beobachten",
-          "Im Café etwas trinken"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şehir simgesi"
-        ],
-        "en": [
-          "city landmark"
-        ],
-        "de": [
-          "Wahrzeichen der Stadt"
-        ]
-      },
-      "images": [
-        "https://example.com/atakule.jpg",
-        "https://example.com/atakule_2.jpg"
-      ]
-    },
-    {
-      "slug": "kocatepe-camii",
-      "name": {
-        "tr": "Kocatepe Camii",
-        "en": "Kocatepe Mosque",
-        "de": "Kocatepe Moschee"
-      },
-      "latitude": 39.91678591981186,
-      "longitude": 32.86031777698561,
-      "description": {
-        "tr": "Kocatepe Camii, Ankara'nın en büyük camilerinden biri olup modern ve geleneksel Osmanlı mimarisinin birleşimini yansıtır. Ziyaretçilerine hem dini bir deneyim hem de görsel bir şölen sunar.",
-        "en": "Kocatepe Mosque is one of the largest mosques in Ankara and reflects a combination of modern and traditional Ottoman architecture. It offers its visitors both a religious experience and a visual feast",
-        "de": "Die Kocatepe-Moschee ist eine der größten Moscheen in Ankara und spiegelt die Kombination aus moderner und traditioneller osmanischer Architektur wider. Sie bietet ihren Besuchern sowohl eine religiöse Erfahrung als auch ein visuelles Vergnügen."
-      },
-      "activities": {
-        "tr": [
-          "Camiyi ziyaret etmek ve mimarisini incelemek",
-          "Çevresindeki parkta dinlenmek"
-        ],
-        "en": [
-          "Visiting the mosque and exploring its architecture",
-          "Relaxing in the nearby park"
-        ],
-        "de": [
-          "Die Moschee besuchen und ihre Architektur erkunden",
-          "Im nahegelegenen Park entspannen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "cami"
-        ],
-        "en": [
-          "mosque"
-        ],
-        "de": [
-          "Moschee"
-        ]
-      },
-      "images": [
-        "https://example.com/kocatepe_camii.jpg",
-        "https://example.com/kocatepe_camii_2.jpg"
-      ]
-    },
+    
     {
       "slug": "tcdd-acik-hava-tren-muzesi",
       "name": {
@@ -3480,50 +3484,7 @@
         "https://example.com/ihlara_vadisi_2.jpg"
       ]
     },
-    {
-      "slug": "agzi-kara-han",
-      "name": {
-        "tr": "Agzi Kara Han",
-        "en": "Agzi Kara Caravanserai",
-        "de": "Agzi Kara Karawanserei"
-      },
-      "latitude": 38.44564,
-      "longitude": 34.14025,
-      "description": {
-        "tr": "Agzi Kara Han, Aksaray il sınırlarında yer alan tarihi bir kervansaraydır. Selçuklu döneminin izlerini taşıyan bu yapıda, kervanların dinlenmesi ve ticaretin yapılması amaçlanmıştır.",
-        "en": "Agzi Kara Han is a historical caravanserai located in Aksaray province. In this building, which bears the traces of the Seljuk period, it was intended for caravans to rest and trade.",
-        "de": "Agzi Kara Han ist eine historische Karawanserei an der Grenze zur Provinz Aksaray. In diesem Gebäude, das die Spuren der Seldschukenzeit trägt, sollten Karawanen rasten und Handel treiben."
-      },
-      "activities": {
-        "tr": [
-          "Hanın avlusunda gezmek",
-          "Tarihi yapıyı keşfetmek"
-        ],
-        "en": [
-          "Walking in the courtyard of the caravanserai",
-          "Exploring the historical building"
-        ],
-        "de": [
-          "Im Innenhof des Kervansarays spazieren",
-          "Das historische Gebäude erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/agzi_kara_han.jpg",
-        "https://example.com/agzi_kara_han_2.jpg"
-      ]
-    },
+    
 {
  "slug": "selime-katedrali",
   "name": {
@@ -3782,6 +3743,50 @@
       "images": [
         "https://example.com/aksaray_muzesi.jpg",
         "https://example.com/aksaray_muzesi_2.jpg"
+      ]
+    },
+{
+      "slug": "agzi-kara-han",
+      "name": {
+        "tr": "Agzi Kara Han",
+        "en": "Agzi Kara Caravanserai",
+        "de": "Agzi Kara Karawanserei"
+      },
+      "latitude": 38.44564,
+      "longitude": 34.14025,
+      "description": {
+        "tr": "Agzi Kara Han, Aksaray il sınırlarında yer alan tarihi bir kervansaraydır. Selçuklu döneminin izlerini taşıyan bu yapıda, kervanların dinlenmesi ve ticaretin yapılması amaçlanmıştır.",
+        "en": "Agzi Kara Han is a historical caravanserai located in Aksaray province. In this building, which bears the traces of the Seljuk period, it was intended for caravans to rest and trade.",
+        "de": "Agzi Kara Han ist eine historische Karawanserei an der Grenze zur Provinz Aksaray. In diesem Gebäude, das die Spuren der Seldschukenzeit trägt, sollten Karawanen rasten und Handel treiben."
+      },
+      "activities": {
+        "tr": [
+          "Hanın avlusunda gezmek",
+          "Tarihi yapıyı keşfetmek"
+        ],
+        "en": [
+          "Walking in the courtyard of the caravanserai",
+          "Exploring the historical building"
+        ],
+        "de": [
+          "Im Innenhof des Kervansarays spazieren",
+          "Das historische Gebäude erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/agzi_kara_han.jpg",
+        "https://example.com/agzi_kara_han_2.jpg"
       ]
     },
     {
@@ -26908,10 +26913,10 @@
       "latitude": 36.78166,
       "longitude": 34.60126,
       "description": {
-        "tr": "Mersin Arkeoloji Müzesi, bölgedeki antik kalıntıları ve tarihi eserleri sergileyen önemli bir müzedir.\n",
-        "en": "Mersin Archaeology Museum is an important museum showcasing the ancient ruins and historical artifacts of the region.\n",
-        "de": "Das Mersin Archäologische Museum ist ein wichtiges Museum, das die antiken Ruinen und historischen Artefakte der Region zeigt.\n"
-      },
+    "tr": "Mersin Arkeoloji Müzesi, Mersin şehir merkezinde yer alan ve bölgedeki antik kalıntılar ile tarihi eserleri sergileyen önemli bir kültürel merkezdir. Müze, Neolitik dönemden Roma ve Bizans dönemine kadar uzanan geniş bir koleksiyona sahiptir. Ziyaretçiler burada antik seramikler, heykeller, takılar, mezar taşları ve günlük yaşam eşyalarını yakından inceleyebilir.\n\nMüze, özellikle Mersin ve çevresindeki kazılardan çıkarılan eserleri barındırması açısından büyük öneme sahiptir. Eğitim amaçlı sergiler, rehberli turlar ve çocuklar için interaktif bölümler ile hem tarih meraklıları hem de öğrenciler için ideal bir ziyaret noktasıdır. Mersin Arkeoloji Müzesi, bölgenin tarihini ve kültürel mirasını anlamak isteyen herkes için mutlaka görülmesi gereken yerlerden biridir.",
+    "en": "Mersin Archaeology Museum, located in the city center of Mersin, is an important cultural center showcasing ancient ruins and historical artifacts from the region. The museum has a wide collection ranging from the Neolithic period to the Roman and Byzantine eras. Visitors can closely examine ancient ceramics, sculptures, jewelry, tombstones, and everyday objects.\n\nThe museum is especially significant for housing artifacts excavated from Mersin and its surroundings. With educational exhibitions, guided tours, and interactive sections for children, it is an ideal destination for both history enthusiasts and students. Mersin Archaeology Museum is a must-visit for anyone wishing to understand the history and cultural heritage of the region.",
+    "de": "Das Mersin Archäologische Museum befindet sich im Stadtzentrum von Mersin und ist ein bedeutendes Kulturzentrum, das antike Ruinen und historische Artefakte der Region präsentiert. Das Museum verfügt über eine umfangreiche Sammlung von der Jungsteinzeit bis zu den römischen und byzantinischen Epochen. Besucher können antike Keramiken, Skulpturen, Schmuck, Grabsteine und Alltagsgegenstände aus nächster Nähe betrachten.\n\nDas Museum ist besonders bedeutsam, da es Artefakte aus Ausgrabungen in Mersin und Umgebung beherbergt. Mit Bildungsausstellungen, Führungen und interaktiven Bereichen für Kinder ist es ein idealer Ort für Geschichtsinteressierte und Schüler. Das Mersin Archäologische Museum ist ein Muss für jeden, der die Geschichte und das kulturelle Erbe der Region kennenlernen möchte."
+  },
       "activities": {
         "tr": [
           "Müzeyi gezmek",
