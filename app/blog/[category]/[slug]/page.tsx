@@ -13,12 +13,7 @@ import { magaralarRehberPost } from "@/app/data/blog/magaralar/posts";
 import { turkeyPost } from "@/app/data/blog/turkey/posts";
 import { kanyonlarRehberPosts } from "@/app/data/blog/kanyonlar/posts";
 import { mersinRehberPosts } from "@/app/data/blog/mersin/posts";
-
-
-
-
-
-
+import { turkiyeEnCokZiyaretEdilen10YerPost } from "@/app/data/blog/ziyaretedilenonyer/posts";
 
 
 const posts = [
@@ -34,8 +29,9 @@ const posts = [
   ...turkeyPost,
   ...kanyonlarRehberPosts,
   ...mersinRehberPosts,
-
+  ...turkiyeEnCokZiyaretEdilen10YerPost,
 ];
+
 
 export default async function Page({
   params,

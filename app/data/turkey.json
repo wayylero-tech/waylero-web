@@ -754,7 +754,47 @@
         "https://example.com/beylerbeyi_sarayi.jpg"
       ]
     },
-    {
+ {
+      "slug": "suleymaniye-camii",
+      "name": {
+        "tr": "Süleymaniye Camii",
+        "en": "Süleymaniye Mosque",
+        "de": "Süleymaniye-Moschee"
+      },
+      "latitude": 41.0161,
+      "longitude": 28.96395,
+      "description": {
+        "tr": "Süleymaniye Camii, Mimar Sinan'ın en ünlü eserlerinden biridir ve İstanbul'un en büyük camilerindendir. 16. yüzyılda Kanuni Sultan Süleyman tarafından yaptırılmıştır. Camii, ihtişamlı iç mekanı, büyük kubbesi ve çevresindeki külliyesiyle dikkat çeker. Ayrıca, Süleymaniye Camii’nin bahçesinden İstanbul'un manzarası da çok etkileyicidir.\n",
+        "en": "The Süleymaniye Mosque is one of the most famous works of Mimar Sinan and one of the largest mosques in Istanbul. It was built in the 16th century by Suleyman the Magnificent. The mosque attracts attention with its magnificent interior, large dome and surrounding complex. The view of Istanbul from the garden of the Süleymaniye Mosque is also very impressive.\n",
+        "de": "Die Süleymaniye-Moschee ist eines der berühmtesten Werke von Mimar Sinan und eine der größten Moscheen Istanbuls. Sie wurde im 16. Jahrhundert von Suleiman dem Prächtigen erbaut. Jahrhundert von Suleiman dem Prächtigen erbaut. Die Moschee besticht durch ihr prachtvolles Inneres, die große Kuppel und die umgebende Anlage. Auch der Blick vom Garten der Süleymaniye-Moschee auf Istanbul ist beeindruckend.\n"
+      },
+      "activities": {
+        "tr": [
+          "Camiye gidip iç mekânını gezmek"
+        ],
+        "en": [
+          "Visiting the mosque and exploring its interior"
+        ],
+        "de": [
+          "Besuch der Moschee und Erkundung des Innenraums"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "cami"
+        ],
+        "en": [
+          "mosque"
+        ],
+        "de": [
+          "Moschee"
+        ]
+      },
+      "images": [
+        "https://example.com/suleymaniye_camii.jpg"
+      ]
+    },
+       {
       "slug": "beylikduzu-yasam-vadisi",
       "name": {
         "tr": "Beylikdüzü Yaşam Vadisi",
@@ -1262,46 +1302,6 @@
       },
       "images": [
         "https://example.com/pierre_loti.jpg"
-      ]
-    },
-    {
-      "slug": "suleymaniye-camii",
-      "name": {
-        "tr": "Süleymaniye Camii",
-        "en": "Süleymaniye Mosque",
-        "de": "Süleymaniye-Moschee"
-      },
-      "latitude": 41.0161,
-      "longitude": 28.96395,
-      "description": {
-        "tr": "Süleymaniye Camii, Mimar Sinan'ın en ünlü eserlerinden biridir ve İstanbul'un en büyük camilerindendir. 16. yüzyılda Kanuni Sultan Süleyman tarafından yaptırılmıştır. Camii, ihtişamlı iç mekanı, büyük kubbesi ve çevresindeki külliyesiyle dikkat çeker. Ayrıca, Süleymaniye Camii’nin bahçesinden İstanbul'un manzarası da çok etkileyicidir.\n",
-        "en": "The Süleymaniye Mosque is one of the most famous works of Mimar Sinan and one of the largest mosques in Istanbul. It was built in the 16th century by Suleyman the Magnificent. The mosque attracts attention with its magnificent interior, large dome and surrounding complex. The view of Istanbul from the garden of the Süleymaniye Mosque is also very impressive.\n",
-        "de": "Die Süleymaniye-Moschee ist eines der berühmtesten Werke von Mimar Sinan und eine der größten Moscheen Istanbuls. Sie wurde im 16. Jahrhundert von Suleiman dem Prächtigen erbaut. Jahrhundert von Suleiman dem Prächtigen erbaut. Die Moschee besticht durch ihr prachtvolles Inneres, die große Kuppel und die umgebende Anlage. Auch der Blick vom Garten der Süleymaniye-Moschee auf Istanbul ist beeindruckend.\n"
-      },
-      "activities": {
-        "tr": [
-          "Camiye gidip iç mekânını gezmek"
-        ],
-        "en": [
-          "Visiting the mosque and exploring its interior"
-        ],
-        "de": [
-          "Besuch der Moschee und Erkundung des Innenraums"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "cami"
-        ],
-        "en": [
-          "mosque"
-        ],
-        "de": [
-          "Moschee"
-        ]
-      },
-      "images": [
-        "https://example.com/suleymaniye_camii.jpg"
       ]
     },
    
@@ -3929,6 +3929,52 @@
     }
   ],
   "antalya": [
+{
+      "slug": "hadrian-kapisi",
+      "name": {
+        "tr": "Hadrian Kapısı",
+        "en": "Hadrian’s Gate",
+        "de": "Hadrianstor"
+      },
+      "latitude": 36.88525,
+      "longitude": 30.70858,
+      "description": {
+        "tr": "Hadrian Kapısı, Antalya'nın Kaleiçi bölgesinde yer alan tarihi bir yapıdır. Roma İmparatoru Hadrianus’un 130 yılında Antalya’yı ziyareti anısına inşa edilmiştir. Üç kemerli yapısı ve mermer detaylarıyla dikkat çeker.\n",
+        "en": "Hadrian’s Gate is a historic structure located in the Kaleiçi district of Antalya. It was built in honor of the Roman Emperor Hadrian's visit to Antalya in 130 AD. It stands out with its three-arched design and marble details.\n",
+        "de": "Das Hadrianstor ist ein historisches Bauwerk im Stadtteil Kaleiçi in Antalya. Es wurde zu Ehren des römischen Kaisers Hadrian anlässlich seines Besuchs im Jahr 130 n. Chr. errichtet. Besonders auffällig ist seine dreibogige Struktur mit Marmordetails.\n"
+      },
+      "activities": {
+        "tr": [
+          "Tarihi yapıyı incelemek",
+          "Fotoğraf çekmek",
+          "Kaleiçi’nde gezmek"
+        ],
+        "en": [
+          "Exploring the monument",
+          "Taking photos",
+          "Walking in Kaleiçi"
+        ],
+        "de": [
+          "Das Bauwerk erkunden",
+          "Fotos machen",
+          "In Kaleiçi spazieren gehen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/hadrians_gate.jpg"
+      ]
+    },
  {
       "slug": "koprulu-kanyon-milli-parki",
       "name": {
@@ -4117,98 +4163,7 @@
         "https://example.com/manavgat_selalesi.jpg"
       ]
     },
-    {
-      "slug": "goynuk-kanyonu",
-      "name": {
-        "tr": "Göynük Kanyonu",
-        "en": "Göynük Canyon",
-        "de": "Göynük Canyon"
-      },
-      "latitude": 36.68281,
-      "longitude": 30.53403,
-      "description": {
-        "tr": "Göynük Kanyonu, Kemer ilçesinde yer alan ve doğa severler için popüler bir destinasyon olan etkileyici bir kanyondur. Kanyon, sıcaktan bunalanlar için serin bir kaçış noktası sunar. Göynük Kanyonu, yürüyüş, dağcılık ve kano gibi açık hava aktiviteleri için mükemmel bir alandır. Aynı zamanda kanyonun içinde yürüyüş parkurları ve doğa ile iç içe olabileceğiniz birçok rota bulunmaktadır.\n\nKemer şehir merkezine yaklaşık 20 km mesafedeki kanyona, özel araçlarla kolayca ulaşılabilir. Bu bölge, doğa yürüyüşleri ve macera severler için mükemmel bir seçenektir.",
-        "en": "Göynük Canyon is an impressive canyon located in Kemer district and is a popular destination for nature lovers. The canyon offers a cool escape for those who are overwhelmed by the heat. Göynük Canyon is a perfect area for outdoor activities such as hiking, mountaineering and canoeing. There are also hiking trails in the canyon and many routes where you can get in touch with nature.\n\nThe canyon, which is about 20 km from Kemer city center, is easily accessible by private vehicles. This region is an excellent option for nature lovers and adventure lovers.",
-        "de": "Der Göynük Canyon ist eine beeindruckende Schlucht im Landkreis Kemer und ein beliebtes Ausflugsziel für Naturliebhaber. Die Schlucht ist ein kühler Zufluchtsort für diejenigen, denen die Hitze zu viel wird. Die Göynük-Schlucht eignet sich hervorragend für Outdoor-Aktivitäten wie Wandern, Bergsteigen und Kanufahren. Es gibt Wanderwege in der Schlucht und viele Routen, die den Kontakt mit der Natur ermöglichen.\n\nDie Schlucht liegt etwa 20 km vom Stadtzentrum von Kemer entfernt und ist mit dem Auto leicht zu erreichen. Dieses Gebiet ist eine ausgezeichnete Wahl für Naturliebhaber und Abenteuerlustige."
-      },
-      "activities": {
-        "tr": [
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Kanyon keşfi yapmak",
-          "Kamp yapmak"
-        ],
-        "en": [
-          "Hike in nature",
-          "Explore the canyon",
-          "Camp in the area"
-        ],
-        "de": [
-          "Wandern in der Natur",
-          "Die Schlucht erkunden",
-          "Im Bereich campen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kanyon"
-        ],
-        "en": [
-          "canyon"
-        ],
-        "de": [
-          "Schlucht"
-        ]
-      },
-      "images": [
-        "https://example.com/goynuk_kanyonu.jpg"
-      ]
-    },
-    {
-      "slug": "alanya-dim-cayi",
-      "name": {
-        "tr": "Alanya Dim Çayı",
-        "en": "Alanya Dim Stream",
-        "de": "Alanya Dim Bach"
-      },
-      "latitude": 36.55261,
-      "longitude": 32.18673,
-      "description": {
-        "tr": "Dim Çayı, Alanya'nın Dim Mağarası yakınlarında yer alan ve etrafı ormanlarla çevrili bir akarsudur. Çayın etrafındaki doğa, doğa yürüyüşleri ve piknik yapmak için ideal bir ortam sunar. Ayrıca, Dim Çayı boyunca birçok restoran bulunur ve ziyaretçiler burada serin su kenarında oturup dinlenebilirler.\n\nDim Çayı, özellikle sıcak yaz aylarında serinlemek için mükemmel bir yerdir. Alanya şehir merkezine yaklaşık 12 km mesafede yer alır ve özel araçla kolayca ulaşılabilir.",
-        "en": "Dim Stream is a stream located near Dim Cave in Alanya and is surrounded by forests. The nature around the stream provides an ideal setting for nature walks and picnics. There are also many restaurants along the Dim Stream where visitors can sit and relax by the cool water.\n\nDim Stream is the perfect place to cool off, especially during the hot summer months. It is located about 12 km from Alanya city center and is easily accessible by private car.",
-        "de": "Der Dim-Bach ist ein Bach in der Nähe der Dim-Höhle in Alanya, der von Wäldern umgeben ist. Die Natur rund um den Bach bietet eine ideale Umgebung für Spaziergänge und Picknicks. Es gibt auch viele Restaurants entlang des Dim Baches, wo die Besucher am kühlen Wasser sitzen und entspannen können.\n\nBesonders in den heißen Sommermonaten ist der Dim Stream ein idealer Ort, um sich abzukühlen. Er liegt etwa 12 km vom Stadtzentrum Alanyas entfernt und ist mit dem Auto leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Çay etrafında yürüyüş yapmak",
-          "Su sporları yapmak",
-          "Dinlenmek"
-        ],
-        "en": [
-          "Walk around the stream",
-          "Do water sports",
-          "Relax in nature"
-        ],
-        "de": [
-          "Um den Bach spazieren gehen",
-          "Wassersport treiben",
-          "In der Natur entspannen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/dim_cayi.jpg"
-      ]
-    },
+    
     {
       "slug": "kizilkule-alanya",
       "name": {
@@ -4252,138 +4207,8 @@
         "https://example.com/kizilkule_alanya.jpg"
       ]
     },
-    {
-      "slug": "termessos-milli-parki",
-      "name": {
-        "tr": "Termessos Milli Parkı",
-        "en": "Termessos National Park",
-        "de": "Termessos Nationalpark"
-      },
-      "latitude": 37.03073,
-      "longitude": 30.51164,
-      "description": {
-        "tr": "Termessos Milli Parkı, Antalya il sınırları içinde, Toros Dağları'nın eteklerinde yer alan bir milli parktır. Bu bölge, hem doğal güzellikleri hem de tarihi kalıntıları ile büyük bir ilgi görmektedir. Termessos, antik Pisidya kentlerinden biri olup, yüksek dağlar ve zorlu coğrafi koşullar sayesinde tarihte oldukça iyi korunmuş bir yerleşimdir. Antik kentin yüksekliği nedeniyle, bölgeye ulaşım zordur, ancak bu da burayı koruyan bir etken olmuştur.",
-        "en": "Termessos National Park is a national park located at the foot of the Taurus Mountains within the borders of Antalya province. This region attracts great attention with its natural beauties and historical ruins. Termessos is one of the ancient Pisidian cities and is a well-preserved settlement in history thanks to the high mountains and difficult geographical conditions. Due to the height of the ancient city, transportation to the area is difficult, but this has also been a factor in protecting it.",
-        "de": "Der Nationalpark Termessos liegt am Fuße des Taurusgebirges in der Provinz Antalya. Dieses Gebiet ist sowohl wegen seiner Naturschönheiten als auch wegen seiner historischen Ruinen sehr interessant. Termessos ist eine der antiken pisidischen Städte und dank der hohen Berge und der schwierigen geographischen Bedingungen eine gut erhaltene historische Siedlung. Die Höhenlage der antiken Stadt erschwert den Zugang zu der Region, ist aber auch ein Faktor, der sie schützt."
-      },
-      "activities": {
-        "tr": [
-          "Antik kalıntıları gezmek",
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Visit ancient ruins",
-          "Hike the nature trail",
-          "Take photos"
-        ],
-        "de": [
-          "Antike Ruinen besichtigen",
-          "Wanderung auf dem Naturpfad",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/termessos_milli_parki.jpg"
-      ]
-    },
-    {
-      "slug": "kursunlu-selalesi",
-      "name": {
-        "tr": "Kurşunlu Şelalesi",
-        "en": "Kurşunlu Waterfall",
-        "de": "Kurşunlu Wasserfall"
-      },
-      "latitude": 37.0031,
-      "longitude": 30.82182,
-      "description": {
-        "tr": "Kurşunlu Şelalesi, Antalya il sınırlarında, şelale etrafındaki ormanlarla çevrili doğal bir alan olarak öne çıkmaktadır. Şelale, adını suyun içindeki yansıyan ışıkla kurşun renginde bir görüntü oluşturmasından alır. Şelale, yaklaşık 18 metre yükseklikten düşen sularıyla oldukça etkileyicidir. Bu şelale, doğa yürüyüşleri yapmak, piknik yapmak ve fotoğrafçılıkla ilgilenenler için mükemmel bir yerdir.",
-        "en": "Kurşunlu Waterfall stands out as a natural area surrounded by forests around the waterfall in Antalya province. The waterfall takes its name from the reflected light in the water, creating a lead-colored image. The waterfall is quite impressive with its water falling from a height of about 18 meters. This waterfall is a perfect place for nature walks, picnics and those interested in photography.",
-        "de": "Der Kurşunlu-Wasserfall ist ein von Wäldern umgebenes Naturschutzgebiet rund um den Wasserfall in der Provinz Antalya. Der Wasserfall verdankt seinen Namen dem Licht, das vom Wasser reflektiert wird und ein bleifarbenes Bild erzeugt. Der Wasserfall ist sehr beeindruckend, da das Wasser aus einer Höhe von ca. 18 Metern in die Tiefe stürzt. Der Wasserfall ist ein idealer Ort für Spaziergänge in der Natur, für Picknicks und für alle, die sich für Fotografie interessieren."
-      },
-      "activities": {
-        "tr": [
-          "Şelale etrafında gezinti yapmak",
-          "Doğa Gezisi yürüyüşleri yapmak"
-        ],
-        "en": [
-          "Walk around the waterfall",
-          "Hike the nature trail"
-        ],
-        "de": [
-          "Um den Wasserfall spazieren gehen",
-          "Wanderung auf dem Naturpfad machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şelale"
-        ],
-        "en": [
-          "waterfall"
-        ],
-        "de": [
-          "Wasserfall"
-        ]
-      },
-      "images": [
-        "https://example.com/kursunlu_selalesi.jpg"
-      ]
-    },
-    {
-      "slug": "perge-antik-kent",
-      "name": {
-        "tr": "Perge Antik Kent",
-        "en": "Perge Ancient City",
-        "de": "Perge Antike Stadt"
-      },
-      "latitude": 36.95755,
-      "longitude": 30.85217,
-      "description": {
-        "tr": "Perge Antik Kenti, MÖ 1000’lerde kurulmuş olup, özellikle Roma dönemine ait kalıntıları ile ünlüdür. Perge, Roma'nın önemli ticaret yollarından birinde yer alıyordu ve bu nedenle oldukça gelişmiş bir şehirdi. Antik kentteki en dikkat çekici yapılar, Roma dönemi kalıntılarıdır. Tiyatro, agora, stadyum ve şehir surları gibi yapılar oldukça iyi korunmuştur. Ayrıca, Antik Perge'deki mozaikler de çok önemli bir arkeolojik buluş olarak kabul edilir. Şehir, Antalya şehir merkezine yaklaşık 18 km mesafededir ve ulaşım oldukça kolaydır.",
-        "en": "The ancient city of Perge was founded around 1000 BC and is most famous for its Roman ruins. Perge was located on one of the important trade routes of Rome and was therefore a highly developed city. The most remarkable structures in the ancient city are the ruins from the Roman period. Structures such as the theater, agora, stadium and city walls are very well preserved. Also, the mosaics in ancient Perge are considered a very important archaeological find. The city is about 18 km from Antalya city center and transportation is quite easy.",
-        "de": "Die antike Stadt Perge wurde um 1000 v. Chr. gegründet und ist vor allem für ihre Ruinen aus der Römerzeit bekannt. Perge lag an einer der wichtigsten Handelsstraßen Roms und war daher eine hoch entwickelte Stadt. Die Ruinen aus der Römerzeit sind die bemerkenswertesten Bauwerke der antiken Stadt. Gebäude wie das Theater, die Agora, das Stadion und die Stadtmauer sind sehr gut erhalten. Darüber hinaus gelten die Mosaiken des antiken Perge als eine sehr wichtige archäologische Entdeckung. Die Stadt liegt ca. 18 km vom Stadtzentrum Antalya entfernt und ist leicht zu erreichen."
-      },
-      "activities": {
-        "tr": [
-          "Tarihi ve Turistik kalıntıları gezmek",
-          "Arkeolojik alanları keşfetmek"
-        ],
-        "en": [
-          "Explore the historic and tourist ruins",
-          "Discover the archaeological sites"
-        ],
-        "de": [
-          "Die historischen und touristischen Ruinen besichtigen",
-          "Die archäologischen Stätten entdecken"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/perge.jpg"
-      ]
-    },
+    
+   
     {
       "slug": "aspendos-antik-kenti",
       "name": {
@@ -4425,49 +4250,6 @@
       },
       "images": [
         "https://example.com/aspendos.jpg"
-      ]
-    },
-    {
-      "slug": "termessos-antik-kenti",
-      "name": {
-        "tr": "Termessos Antik Kenti",
-        "en": "Termessos Ancient City",
-        "de": "Termessos Antike Stadt"
-      },
-      "latitude": 36.98278,
-      "longitude": 30.46502,
-      "description": {
-        "tr": "Termessos Antik Kenti, Antalya'nın yaklaşık 30 kilometre kuzeybatısında, Toros Dağları'nın zirvelerinden biri olan Güllük Dağı'nın (eski adıyla Solymos Dağı) eteklerinde, deniz seviyesinden yaklaşık 1.000 metre yükseklikte konumlanmış, iyi korunmuş antik bir şehirdir. Pisidya bölgesinin önemli şehirlerinden biri olan Termessos, Homeros'un İlyada destanında bahsedilen Solym halkı tarafından kurulmuştur. Şehir, doğal savunma avantajları ve stratejik konumu sayesinde Büyük İskender'in fetih girişimlerine karşı koyabilmiştir. Termessos, etkileyici kalıntılarıyla ziyaretçilerini büyülemektedir. Antik tiyatro, yaklaşık 4.200 kişilik kapasitesi ve muhteşem dağ manzarasıyla dikkat çeker. Ayrıca, agora, odeon, gymnasium, sarnıçlar ve kaya mezarları gibi yapılar da görülebilir. Şehir, doğal bitki örtüsüyle iç içe geçmiş yapısıyla da benzersiz bir atmosfere sahiptir.\nTermessos Antik Kenti, Güllük Dağı-Termessos Milli Parkı sınırları içinde yer almakta olup, zengin biyolojik çeşitliliği ve doğal güzellikleriyle doğa severler için de cazip bir destinasyondur. Ziyaretçiler, antik kenti keşfederken aynı zamanda milli parkın sunduğu yürüyüş parkurlarında doğanın tadını çıkarabilirler. Termessos Antik Kenti'ne ulaşım için Antalya şehir merkezinden özel araçla yaklaşık 30 kilometrelik bir yolculuk yapmak gerekmektedir. Toplu taşıma imkanı sınırlı olduğundan, özel araç veya tur hizmetleri tercih edilmelidir.\n",
-        "en": "The ancient city of Termessos is a well-preserved ancient city located about 30 kilometres northwest of Antalya, about 1,000 metres above sea level at the foot of Mount Güllük (formerly Mount Solymos), one of the peaks of the Taurus Mountains. Termessos, one of the most important cities in the Pisidian region, was founded by the Solymans, who are mentioned in Homer's Iliad. Thanks to its natural defensive advantages and strategic location, the city was able to resist Alexander the Great's attempts to conquer it. Termessos fascinates visitors with its impressive ruins. The ancient theatre has a capacity of around 4,200 people and a magnificent view of the mountains. There are also structures such as the agora, odeon, gymnasium, cisterns and rock tombs. The city also has a unique atmosphere with its structure intertwined with the natural vegetation.\nTermessos Ancient City is located within the boundaries of Güllük Mountain-Termessos National Park and is an attractive destination for nature lovers with its rich biodiversity and natural beauty. While exploring the ancient city, visitors can also enjoy nature on the hiking trails offered by the national park. To reach Termessos Ancient City, it is necessary to drive about 30 kilometres from Antalya city centre by private car. As public transport is limited, private cars or tour services should be preferred.\n",
-        "de": "Die antike Stadt Termessos ist eine gut erhaltene antike Stadt, die ca. 30 km nordwestlich von Antalya, ca. 1.000 m über dem Meeresspiegel am Fuße des Berges Güllük (früher Solymos), einem der Gipfel des Taurusgebirges, liegt. Termessos, eine der wichtigsten Städte der pisidischen Region, wurde vom Volk der Solymos gegründet, das in Homers Epos Ilias erwähnt wird. Dank ihrer natürlichen Verteidigungsvorteile und ihrer strategischen Lage konnte die Stadt den Eroberungsversuchen Alexanders des Großen widerstehen. Termessos fasziniert seine Besucher mit beeindruckenden Ruinen. Das antike Theater mit einem Fassungsvermögen von ca. 4.200 Personen und einem herrlichen Blick auf die Berge zieht die Aufmerksamkeit auf sich. Weitere Sehenswürdigkeiten sind die Agora, das Odeon, das Gymnasion, Zisternen und Felsengräber. Die Stadt hat eine einzigartige Atmosphäre mit ihrer Struktur, die mit der natürlichen Vegetation verwoben ist.\nDie antike Stadt Termessos liegt innerhalb der Grenzen des Nationalparks Güllük-Berg-Termessos und ist mit ihrer reichen Artenvielfalt und Naturschönheit ein attraktives Ziel für Naturliebhaber. Neben der Erkundung der antiken Stadt können Besucher auf den Wanderwegen des Nationalparks auch die Natur genießen. Um die antike Stadt Termessos zu erreichen, muss man von Antalya aus etwa 30 Kilometer mit dem Auto fahren. Da öffentliche Verkehrsmittel nur begrenzt zur Verfügung stehen, empfiehlt es sich, einen Privatwagen oder einen Reiseveranstalter zu nutzen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Doğa Gezisi yürüyüşü yapmak",
-          "Antik kalıntıları gezmek"
-        ],
-        "en": [
-          "Hike the nature trail",
-          "Visit ancient ruins"
-        ],
-        "de": [
-          "Wanderung auf dem Naturpfad machen",
-          "Antike Ruinen besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/termessos.jpg"
       ]
     },
     {
@@ -4602,6 +4384,227 @@
         "https://example.com/myra.jpg"
       ]
     },
+{
+      "slug": "side-antik-kenti",
+      "name": {
+        "tr": "Side Antik Kenti",
+        "en": "Side Ancient City",
+        "de": "Side Antike Stadt"
+      },
+      "latitude": 36.76821,
+      "longitude": 31.39078,
+      "description": {
+        "tr": "Side, Akdeniz'in en güzel antik şehirlerinden biridir. Side, Roma İmparatorluğu döneminde büyük bir liman kenti olarak önem kazanmıştır. Side'deki en önemli yapılar arasında büyük bir antik tiyatro, Apollon Tapınağı ve Agora bulunmaktadır. Side'nin tarihi, MÖ 7. yüzyıla kadar gitmektedir. Ayrıca, Side'nin etrafında uzun kumsallar ve plajlar da bulunmaktadır. Bu nedenle, hem tarih severler hem de deniz tatili yapmak isteyenler için ideal bir destinasyondur.  ",
+        "de": "Side ist eine der schönsten antiken Städte des Mittelmeerraums. Während des Römischen Reiches erlangte Side als wichtige Hafenstadt Bedeutung. Zu den wichtigsten Gebäuden in Side zählen ein großes antikes Theater, der Apollontempel und die Agora. Die Geschichte von Side reicht bis ins 7. Jahrhundert v. Chr. zurück. Auch rund um Side gibt es lange Sandstrände und Strände. Daher ist es ein ideales Reiseziel sowohl für Geschichtsliebhaber als auch für diejenigen, die einen Urlaub am Meer verbringen möchten.  ",
+        "en": "Side is one of the most beautiful ancient cities in the Mediterranean. Side gained importance as a major port city during the Roman Empire. The most important structures in Side include a large ancient theater, the Temple of Apollo and the Agora. The history of Side dates back to the 7th century BC. There are also long sandy beaches around Side. For this reason, it is an ideal destination for both history lovers and those who want to have a seaside holiday. "
+      },
+      "activities": {
+        "tr": [
+          "Antik tiyatroyu gezmek",
+          "Plajda dinlenmek"
+        ],
+        "en": [
+          "Visiting the ancient theatre",
+          "Relaxing at the beach"
+        ],
+        "de": [
+          "Das antike Theater besichtigen",
+          "Am Strand entspannen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/side.jpg"
+      ]
+    },
+{
+      "slug": "antiphellos-antik-kenti",
+      "name": {
+        "tr": "Antiphellos Antik Kenti",
+        "en": "Antiphellos Ancient City",
+        "de": "Antiphellos Antike Stadt"
+      },
+      "latitude": 36.20026,
+      "longitude": 29.63488,
+      "description": {
+        "tr": "Antiphellos, Kaş ilçesinde yer alan bir antik Likya kentidir. Antiphellos, deniz kenarındaki konumu ve güzel manzarasıyla bilinir. Kentteki en önemli yapılar arasında bir antik tiyatro ve kaya mezarları yer alır. Antiphellos, Kaş ilçe merkezine oldukça yakın bir mesafede yer alır ve bu nedenle bölgeye kolayca ulaşılabilir. Antiphellos, tarih severler ve doğa severler için mükemmel bir yerdir.  ",
+        "en": "Antiphellos is an ancient Lycian city located in the Kas district. Antiphellos is known for its seaside location and beautiful views. The most important structures in the city include an ancient theater and rock tombs. Antiphellos is located very close to the Kas district center and is therefore easily accessible. Antiphellos is a perfect place for history lovers and nature lovers.  ",
+        "de": "Antiphellos ist eine antike lykische Stadt im Bezirk Kaş. Antiphellos ist für seine Lage am Meer und die schöne Aussicht bekannt. Zu den wichtigsten Bauwerken der Stadt zählen ein antikes Theater und Felsengräber. Antiphellos liegt ganz in der Nähe des Stadtzentrums von Kaş und ist daher leicht zu erreichen. Antiphellos ist ein perfekter Ort für Geschichtsliebhaber und Naturliebhaber.  "
+      },
+      "activities": {
+        "tr": [
+          "Kaya mezarlarını görmek",
+          "Tarihi ve Turistik tiyatroyu gezmek"
+        ],
+        "en": [
+          "Visiting the rock tombs",
+          "Exploring the historical and tourist theatre"
+        ],
+        "de": [
+          "Die Felsengräber besichtigen",
+          "Das historische und touristische Theater besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/antiphellos.jpg"
+      ]
+    },
+{
+      "slug": "cirali-plaji",
+      "name": {
+        "tr": "Çıralı Plajı",
+        "en": "Çıralı Beach",
+        "de": "Çıralı Strand"
+      },
+      "latitude": 36.41473,
+      "longitude": 30.48205,
+      "description": {
+        "tr": "Çıralı Plajı, Antalya'nın Kemer ilçesinin Olympos beldesinde yer alan ve hem doğal güzellikleri hem de tarihi zenginlikleriyle ünlü bir plajdır. Çıralı, Olympos Milli Parkı içinde yer alır ve tarihi Olympos Antik Kenti ile yakın konumda bulunur. Çıralı Plajı, sakin ve huzurlu atmosferiyle doğa severler ve tatilciler için ideal bir yerdir.\nPlaj, ince kumlu yapısıyla dikkat çeker ve sığ denizi sayesinde çocuklu aileler için oldukça uygundur. Çıralı'nın denizi genellikle sakindir ve suyu berraktır, bu da yüzme ve şnorkelle dalış gibi su aktiviteleri için mükemmel bir ortam sunar. Çıralı Plajı, aynı zamanda Caretta caretta deniz kaplumbağalarının üreme alanlarından biri olduğu için çevre koruma bilinciyle korunmaktadır. Ziyaretçilerin bu özel bölgeyi korumaları adına bazı sınırlamalar bulunmaktadır.\nÇıralı Plajı, aynı zamanda Olympos Antik Kenti'ne çok yakın bir mesafede olup, antik kalıntıları keşfetmek isteyenler için harika bir fırsat sunar. Çıralı'nın çevresinde doğal kamp alanları, bungalovlar ve butik oteller bulunur. Burada konaklama, doğayla iç içe, sakin ve rahatlatıcı bir deneyim sunar.\nZiyaretçilere plajda birkaç kafe ve restoran da hizmet verir, böylece deniz kenarında dinlenirken lezzetli yerel yemeklerin tadına bakabilirsiniz. Çıralı Plajı'na, Kemer'den özel araçlarla veya toplu taşıma ile ulaşılabilir ve bölge, doğa ve tarih meraklıları için benzersiz bir tatil rotası sunar.",
+        "de": "Çİralı ist ein Strand in der Stadt Olympos im Bezirk Kemer in Antalya, der sowohl für seine natürliche Schönheit als auch für seinen historischen Reichtum bekannt ist. Çıralı liegt im Olympos Nationalpark und in der Nähe der historischen antiken Stadt Olympos. Der Cirali-Strand mit seiner ruhigen und friedlichen Atmosphäre ist ein idealer Ort für Naturliebhaber und Urlauber.\nDer Strand zeichnet sich durch seine feine Sandstruktur aus und ist durch sein flaches Wasser besonders für Familien mit Kindern geeignet. Das Meer von Çıralı ist in der Regel ruhig und das Wasser klar, was eine hervorragende Umgebung für Wasseraktivitäten wie Schwimmen und Schnorcheln bietet. Der Strand von Çıralı ist auch eines der Brutgebiete der Meeresschildkröte Caretta caretta und steht daher unter besonderer Beobachtung des Umweltschutzes. Um dieses besondere Gebiet zu schützen, gibt es einige Einschränkungen für Besucher.\nDer Cirali-Strand liegt auch in der Nähe der antiken Stadt Olympos und bietet eine gute Gelegenheit, die antiken Ruinen zu erkunden. Rund um Çıralı gibt es Naturcampingplätze, Bungalows und Boutique-Hotels. Die Unterkünfte bieten eine ruhige und entspannende Erfahrung in Kontakt mit der Natur.\nAußerdem gibt es mehrere Cafés und Restaurants am Strand, in denen man sich am Meer entspannen und leckere lokale Gerichte genießen kann. Der Cirali-Strand ist von Kemer aus mit dem eigenen Auto oder mit öffentlichen Verkehrsmitteln erreichbar und bietet ein einzigartiges Urlaubsziel für Natur- und Geschichtsliebhaber.",
+        "en": "Cirali Beach is a beach located in Olympos town of Kemer district of Antalya, famous for both its natural beauty and historical richness. Cirali is located within the Olympos National Park and is close to the ancient city of Olympos. Çıralı Beach is an ideal place for nature lovers and vacationers with its calm and peaceful atmosphere.\nThe beach attracts attention with its fine sandy structure and is very suitable for families with children due to its shallow sea. Cirali's sea is usually calm and the water is clear, making it perfect for water activities such as swimming and snorkeling. Cirali beach is also one of the breeding grounds for the Caretta caretta sea turtle and is therefore protected by environmental protection. There are some restrictions for visitors to protect this special area.\nÇıralı Beach is also very close to the ancient city of Olympos and offers a great opportunity for those who want to explore the ancient ruins. There are natural campsites, bungalows and boutique hotels around Çıralı. Accommodation here offers a quiet and relaxing experience in touch with nature.\nVisitors are also served by several cafes and restaurants on the beach, so you can sample delicious local cuisine while relaxing by the sea. Cirali Beach can be reached from Kemer by private car or public transportation, and the area offers a unique vacation destination for nature and history lovers."
+      },
+      "activities": {
+        "tr": [
+          "Denize girmek",
+          "Yanartaş’ı görmek",
+          "Kamp yapmak"
+        ],
+        "en": [
+          "Swimming",
+          "Seeing the Yanartaş",
+          "Camping"
+        ],
+        "de": [
+          "Schwimmen",
+          "Yanartaş sehen",
+          "Campen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "plaj"
+        ],
+        "en": [
+          "beach"
+        ],
+        "de": [
+          "Strand"
+        ]
+      },
+      "images": [
+        "https://example.com/cirali_plaji.jpg"
+      ]
+    },
+{
+      "slug": "alanya-kleopatra-plaji",
+      "name": {
+        "tr": "Alanya Kleopatra Plajı",
+        "en": "Alanya Cleopatra Beach",
+        "de": "Alanya Kleopatra Strand"
+      },
+      "latitude": 36.55524,
+      "longitude": 31.97286,
+      "description": {
+        "tr": "Alanya'nın merkezine oldukça yakın konumda bulunan Kleopatra Plajı, ince altın sarısı kumu ve berrak deniziyle ünlüdür. Bu plaj, hem tarih hem de doğal güzellikleri birleştirerek ziyaretçilerine eşsiz bir deneyim sunar. Efsaneye göre, Mısır Kraliçesi Kleopatra'nın burada yüzdüğü söylenir. Kleopatra Plajı, özellikle temiz denizi ve sakin atmosferi ile dikkat çeker.\n\nPlaj boyunca birçok otel, restoran ve kafe bulunur. Bu, ziyaretçilerin hem güneşin tadını çıkarabileceği hem de deniz kenarında dinlenebileceği birçok imkan sunar. Plaj, aynı zamanda su sporları ve deniz aktiviteleri için de uygundur.\n\nAlanya şehir merkezine yaklaşık 2 kilometre mesafede bulunan Kleopatra Plajı, ulaşım açısından oldukça kolaydır. Plaja yürüyerek de ulaşılabileceği gibi, toplu taşıma araçları ile de rahatça gidilebilir.",
+        "en": "Cleopatra Beach, which is very close to the centre of Alanya, is famous for its fine golden sand and crystal clear sea. This beach offers a unique experience to its visitors by combining both history and natural beauty. Legend has it that Cleopatra, Queen of Egypt, used to swim here. Cleopatra Beach is known for its clean sea and tranquil atmosphere.\n\nThere are many hotels, restaurants and cafes along the beach. This gives visitors plenty of opportunities to enjoy the sun and relax by the sea. The beach is also suitable for water sports and nautical activities.\n\nCleopatra Beach, which is about 2 kilometres from the centre of Alanya, is very easy to get to. The beach can be reached on foot or by public transport. ",
+        "de": "Der Kleopatra-Strand in der Nähe des Stadtzentrums von Alanya ist berühmt für seinen feinen goldenen Sand und das kristallklare Meer. Dieser Strand bietet seinen Besuchern ein einzigartiges Erlebnis, da er Geschichte und Naturschönheiten vereint. Der Legende nach soll die ägyptische Königin Kleopatra hier gebadet haben. Der Kleopatra-Strand zeichnet sich vor allem durch sein sauberes Meer und seine ruhige Atmosphäre aus.\n\nEntlang des Strandes befinden sich zahlreiche Hotels, Restaurants und Cafés. Es gibt viele Möglichkeiten, die Sonne zu genießen und sich am Meer zu entspannen. Der Strand eignet sich auch für Wassersport und andere Aktivitäten am Meer.\n\nDer Kleopatra-Strand liegt etwa 2 km vom Stadtzentrum Alanyas entfernt und ist leicht zu erreichen. Der Strand kann zu Fuß oder mit öffentlichen Verkehrsmitteln erreicht werden. "
+      },
+      "activities": {
+        "tr": [
+          "Denize girmek",
+          "Güneşlenmek",
+          "Su sporları yapmak"
+        ],
+        "en": [
+          "Swimming",
+          "Sunbathing",
+          "Water sports"
+        ],
+        "de": [
+          "Schwimmen",
+          "Sonnenbaden",
+          "Wassersport betreiben"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "plaj"
+        ],
+        "en": [
+          "beach"
+        ],
+        "de": [
+          "Strand"
+        ]
+      },
+      "images": [
+        "https://example.com/kleopatra_plaji.jpg"
+      ]
+    },
+ {
+      "slug": "perge-antik-kent",
+      "name": {
+        "tr": "Perge Antik Kent",
+        "en": "Perge Ancient City",
+        "de": "Perge Antike Stadt"
+      },
+      "latitude": 36.95755,
+      "longitude": 30.85217,
+      "description": {
+        "tr": "Perge Antik Kenti, MÖ 1000’lerde kurulmuş olup, özellikle Roma dönemine ait kalıntıları ile ünlüdür. Perge, Roma'nın önemli ticaret yollarından birinde yer alıyordu ve bu nedenle oldukça gelişmiş bir şehirdi. Antik kentteki en dikkat çekici yapılar, Roma dönemi kalıntılarıdır. Tiyatro, agora, stadyum ve şehir surları gibi yapılar oldukça iyi korunmuştur. Ayrıca, Antik Perge'deki mozaikler de çok önemli bir arkeolojik buluş olarak kabul edilir. Şehir, Antalya şehir merkezine yaklaşık 18 km mesafededir ve ulaşım oldukça kolaydır.",
+        "en": "The ancient city of Perge was founded around 1000 BC and is most famous for its Roman ruins. Perge was located on one of the important trade routes of Rome and was therefore a highly developed city. The most remarkable structures in the ancient city are the ruins from the Roman period. Structures such as the theater, agora, stadium and city walls are very well preserved. Also, the mosaics in ancient Perge are considered a very important archaeological find. The city is about 18 km from Antalya city center and transportation is quite easy.",
+        "de": "Die antike Stadt Perge wurde um 1000 v. Chr. gegründet und ist vor allem für ihre Ruinen aus der Römerzeit bekannt. Perge lag an einer der wichtigsten Handelsstraßen Roms und war daher eine hoch entwickelte Stadt. Die Ruinen aus der Römerzeit sind die bemerkenswertesten Bauwerke der antiken Stadt. Gebäude wie das Theater, die Agora, das Stadion und die Stadtmauer sind sehr gut erhalten. Darüber hinaus gelten die Mosaiken des antiken Perge als eine sehr wichtige archäologische Entdeckung. Die Stadt liegt ca. 18 km vom Stadtzentrum Antalya entfernt und ist leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Tarihi ve Turistik kalıntıları gezmek",
+          "Arkeolojik alanları keşfetmek"
+        ],
+        "en": [
+          "Explore the historic and tourist ruins",
+          "Discover the archaeological sites"
+        ],
+        "de": [
+          "Die historischen und touristischen Ruinen besichtigen",
+          "Die archäologischen Stätten entdecken"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "antik kent"
+        ],
+        "en": [
+          "ancient site"
+        ],
+        "de": [
+          "Antike Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/perge.jpg"
+      ]
+    },
     {
       "slug": "patara-antik-kent",
       "name": {
@@ -4688,49 +4691,7 @@
         "https://example.com/xanthos.jpg"
       ]
     },
-    {
-      "slug": "side-antik-kenti",
-      "name": {
-        "tr": "Side Antik Kenti",
-        "en": "Side Ancient City",
-        "de": "Side Antike Stadt"
-      },
-      "latitude": 36.76821,
-      "longitude": 31.39078,
-      "description": {
-        "tr": "Side, Akdeniz'in en güzel antik şehirlerinden biridir. Side, Roma İmparatorluğu döneminde büyük bir liman kenti olarak önem kazanmıştır. Side'deki en önemli yapılar arasında büyük bir antik tiyatro, Apollon Tapınağı ve Agora bulunmaktadır. Side'nin tarihi, MÖ 7. yüzyıla kadar gitmektedir. Ayrıca, Side'nin etrafında uzun kumsallar ve plajlar da bulunmaktadır. Bu nedenle, hem tarih severler hem de deniz tatili yapmak isteyenler için ideal bir destinasyondur.  ",
-        "de": "Side ist eine der schönsten antiken Städte des Mittelmeerraums. Während des Römischen Reiches erlangte Side als wichtige Hafenstadt Bedeutung. Zu den wichtigsten Gebäuden in Side zählen ein großes antikes Theater, der Apollontempel und die Agora. Die Geschichte von Side reicht bis ins 7. Jahrhundert v. Chr. zurück. Auch rund um Side gibt es lange Sandstrände und Strände. Daher ist es ein ideales Reiseziel sowohl für Geschichtsliebhaber als auch für diejenigen, die einen Urlaub am Meer verbringen möchten.  ",
-        "en": "Side is one of the most beautiful ancient cities in the Mediterranean. Side gained importance as a major port city during the Roman Empire. The most important structures in Side include a large ancient theater, the Temple of Apollo and the Agora. The history of Side dates back to the 7th century BC. There are also long sandy beaches around Side. For this reason, it is an ideal destination for both history lovers and those who want to have a seaside holiday. "
-      },
-      "activities": {
-        "tr": [
-          "Antik tiyatroyu gezmek",
-          "Plajda dinlenmek"
-        ],
-        "en": [
-          "Visiting the ancient theatre",
-          "Relaxing at the beach"
-        ],
-        "de": [
-          "Das antike Theater besichtigen",
-          "Am Strand entspannen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/side.jpg"
-      ]
-    },
+    
     {
       "slug": "selge-antik-kenti",
       "name": {
@@ -4774,32 +4735,33 @@
         "https://example.com/selge.jpg"
       ]
     },
-    {
-      "slug": "antiphellos-antik-kenti",
+    
+ {
+      "slug": "termessos-antik-kenti",
       "name": {
-        "tr": "Antiphellos Antik Kenti",
-        "en": "Antiphellos Ancient City",
-        "de": "Antiphellos Antike Stadt"
+        "tr": "Termessos Antik Kenti",
+        "en": "Termessos Ancient City",
+        "de": "Termessos Antike Stadt"
       },
-      "latitude": 36.20026,
-      "longitude": 29.63488,
+      "latitude": 36.98278,
+      "longitude": 30.46502,
       "description": {
-        "tr": "Antiphellos, Kaş ilçesinde yer alan bir antik Likya kentidir. Antiphellos, deniz kenarındaki konumu ve güzel manzarasıyla bilinir. Kentteki en önemli yapılar arasında bir antik tiyatro ve kaya mezarları yer alır. Antiphellos, Kaş ilçe merkezine oldukça yakın bir mesafede yer alır ve bu nedenle bölgeye kolayca ulaşılabilir. Antiphellos, tarih severler ve doğa severler için mükemmel bir yerdir.  ",
-        "en": "Antiphellos is an ancient Lycian city located in the Kas district. Antiphellos is known for its seaside location and beautiful views. The most important structures in the city include an ancient theater and rock tombs. Antiphellos is located very close to the Kas district center and is therefore easily accessible. Antiphellos is a perfect place for history lovers and nature lovers.  ",
-        "de": "Antiphellos ist eine antike lykische Stadt im Bezirk Kaş. Antiphellos ist für seine Lage am Meer und die schöne Aussicht bekannt. Zu den wichtigsten Bauwerken der Stadt zählen ein antikes Theater und Felsengräber. Antiphellos liegt ganz in der Nähe des Stadtzentrums von Kaş und ist daher leicht zu erreichen. Antiphellos ist ein perfekter Ort für Geschichtsliebhaber und Naturliebhaber.  "
+        "tr": "Termessos Antik Kenti, Antalya'nın yaklaşık 30 kilometre kuzeybatısında, Toros Dağları'nın zirvelerinden biri olan Güllük Dağı'nın (eski adıyla Solymos Dağı) eteklerinde, deniz seviyesinden yaklaşık 1.000 metre yükseklikte konumlanmış, iyi korunmuş antik bir şehirdir. Pisidya bölgesinin önemli şehirlerinden biri olan Termessos, Homeros'un İlyada destanında bahsedilen Solym halkı tarafından kurulmuştur. Şehir, doğal savunma avantajları ve stratejik konumu sayesinde Büyük İskender'in fetih girişimlerine karşı koyabilmiştir. Termessos, etkileyici kalıntılarıyla ziyaretçilerini büyülemektedir. Antik tiyatro, yaklaşık 4.200 kişilik kapasitesi ve muhteşem dağ manzarasıyla dikkat çeker. Ayrıca, agora, odeon, gymnasium, sarnıçlar ve kaya mezarları gibi yapılar da görülebilir. Şehir, doğal bitki örtüsüyle iç içe geçmiş yapısıyla da benzersiz bir atmosfere sahiptir.\nTermessos Antik Kenti, Güllük Dağı-Termessos Milli Parkı sınırları içinde yer almakta olup, zengin biyolojik çeşitliliği ve doğal güzellikleriyle doğa severler için de cazip bir destinasyondur. Ziyaretçiler, antik kenti keşfederken aynı zamanda milli parkın sunduğu yürüyüş parkurlarında doğanın tadını çıkarabilirler. Termessos Antik Kenti'ne ulaşım için Antalya şehir merkezinden özel araçla yaklaşık 30 kilometrelik bir yolculuk yapmak gerekmektedir. Toplu taşıma imkanı sınırlı olduğundan, özel araç veya tur hizmetleri tercih edilmelidir.\n",
+        "en": "The ancient city of Termessos is a well-preserved ancient city located about 30 kilometres northwest of Antalya, about 1,000 metres above sea level at the foot of Mount Güllük (formerly Mount Solymos), one of the peaks of the Taurus Mountains. Termessos, one of the most important cities in the Pisidian region, was founded by the Solymans, who are mentioned in Homer's Iliad. Thanks to its natural defensive advantages and strategic location, the city was able to resist Alexander the Great's attempts to conquer it. Termessos fascinates visitors with its impressive ruins. The ancient theatre has a capacity of around 4,200 people and a magnificent view of the mountains. There are also structures such as the agora, odeon, gymnasium, cisterns and rock tombs. The city also has a unique atmosphere with its structure intertwined with the natural vegetation.\nTermessos Ancient City is located within the boundaries of Güllük Mountain-Termessos National Park and is an attractive destination for nature lovers with its rich biodiversity and natural beauty. While exploring the ancient city, visitors can also enjoy nature on the hiking trails offered by the national park. To reach Termessos Ancient City, it is necessary to drive about 30 kilometres from Antalya city centre by private car. As public transport is limited, private cars or tour services should be preferred.\n",
+        "de": "Die antike Stadt Termessos ist eine gut erhaltene antike Stadt, die ca. 30 km nordwestlich von Antalya, ca. 1.000 m über dem Meeresspiegel am Fuße des Berges Güllük (früher Solymos), einem der Gipfel des Taurusgebirges, liegt. Termessos, eine der wichtigsten Städte der pisidischen Region, wurde vom Volk der Solymos gegründet, das in Homers Epos Ilias erwähnt wird. Dank ihrer natürlichen Verteidigungsvorteile und ihrer strategischen Lage konnte die Stadt den Eroberungsversuchen Alexanders des Großen widerstehen. Termessos fasziniert seine Besucher mit beeindruckenden Ruinen. Das antike Theater mit einem Fassungsvermögen von ca. 4.200 Personen und einem herrlichen Blick auf die Berge zieht die Aufmerksamkeit auf sich. Weitere Sehenswürdigkeiten sind die Agora, das Odeon, das Gymnasion, Zisternen und Felsengräber. Die Stadt hat eine einzigartige Atmosphäre mit ihrer Struktur, die mit der natürlichen Vegetation verwoben ist.\nDie antike Stadt Termessos liegt innerhalb der Grenzen des Nationalparks Güllük-Berg-Termessos und ist mit ihrer reichen Artenvielfalt und Naturschönheit ein attraktives Ziel für Naturliebhaber. Neben der Erkundung der antiken Stadt können Besucher auf den Wanderwegen des Nationalparks auch die Natur genießen. Um die antike Stadt Termessos zu erreichen, muss man von Antalya aus etwa 30 Kilometer mit dem Auto fahren. Da öffentliche Verkehrsmittel nur begrenzt zur Verfügung stehen, empfiehlt es sich, einen Privatwagen oder einen Reiseveranstalter zu nutzen.\n"
       },
       "activities": {
         "tr": [
-          "Kaya mezarlarını görmek",
-          "Tarihi ve Turistik tiyatroyu gezmek"
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Antik kalıntıları gezmek"
         ],
         "en": [
-          "Visiting the rock tombs",
-          "Exploring the historical and tourist theatre"
+          "Hike the nature trail",
+          "Visit ancient ruins"
         ],
         "de": [
-          "Die Felsengräber besichtigen",
-          "Das historische und touristische Theater besichtigen"
+          "Wanderung auf dem Naturpfad machen",
+          "Antike Ruinen besichtigen"
         ]
       },
       "categories": {
@@ -4814,7 +4776,190 @@
         ]
       },
       "images": [
-        "https://example.com/antiphellos.jpg"
+        "https://example.com/termessos.jpg"
+      ]
+    },
+{
+      "slug": "termessos-milli-parki",
+      "name": {
+        "tr": "Termessos Milli Parkı",
+        "en": "Termessos National Park",
+        "de": "Termessos Nationalpark"
+      },
+      "latitude": 37.03073,
+      "longitude": 30.51164,
+      "description": {
+        "tr": "Termessos Milli Parkı, Antalya il sınırları içinde, Toros Dağları'nın eteklerinde yer alan bir milli parktır. Bu bölge, hem doğal güzellikleri hem de tarihi kalıntıları ile büyük bir ilgi görmektedir. Termessos, antik Pisidya kentlerinden biri olup, yüksek dağlar ve zorlu coğrafi koşullar sayesinde tarihte oldukça iyi korunmuş bir yerleşimdir. Antik kentin yüksekliği nedeniyle, bölgeye ulaşım zordur, ancak bu da burayı koruyan bir etken olmuştur.",
+        "en": "Termessos National Park is a national park located at the foot of the Taurus Mountains within the borders of Antalya province. This region attracts great attention with its natural beauties and historical ruins. Termessos is one of the ancient Pisidian cities and is a well-preserved settlement in history thanks to the high mountains and difficult geographical conditions. Due to the height of the ancient city, transportation to the area is difficult, but this has also been a factor in protecting it.",
+        "de": "Der Nationalpark Termessos liegt am Fuße des Taurusgebirges in der Provinz Antalya. Dieses Gebiet ist sowohl wegen seiner Naturschönheiten als auch wegen seiner historischen Ruinen sehr interessant. Termessos ist eine der antiken pisidischen Städte und dank der hohen Berge und der schwierigen geographischen Bedingungen eine gut erhaltene historische Siedlung. Die Höhenlage der antiken Stadt erschwert den Zugang zu der Region, ist aber auch ein Faktor, der sie schützt."
+      },
+      "activities": {
+        "tr": [
+          "Antik kalıntıları gezmek",
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Visit ancient ruins",
+          "Hike the nature trail",
+          "Take photos"
+        ],
+        "de": [
+          "Antike Ruinen besichtigen",
+          "Wanderung auf dem Naturpfad",
+          "Fotos machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/termessos_milli_parki.jpg"
+      ]
+    },
+{
+      "slug": "goynuk-kanyonu",
+      "name": {
+        "tr": "Göynük Kanyonu",
+        "en": "Göynük Canyon",
+        "de": "Göynük Canyon"
+      },
+      "latitude": 36.68281,
+      "longitude": 30.53403,
+      "description": {
+        "tr": "Göynük Kanyonu, Kemer ilçesinde yer alan ve doğa severler için popüler bir destinasyon olan etkileyici bir kanyondur. Kanyon, sıcaktan bunalanlar için serin bir kaçış noktası sunar. Göynük Kanyonu, yürüyüş, dağcılık ve kano gibi açık hava aktiviteleri için mükemmel bir alandır. Aynı zamanda kanyonun içinde yürüyüş parkurları ve doğa ile iç içe olabileceğiniz birçok rota bulunmaktadır.\n\nKemer şehir merkezine yaklaşık 20 km mesafedeki kanyona, özel araçlarla kolayca ulaşılabilir. Bu bölge, doğa yürüyüşleri ve macera severler için mükemmel bir seçenektir.",
+        "en": "Göynük Canyon is an impressive canyon located in Kemer district and is a popular destination for nature lovers. The canyon offers a cool escape for those who are overwhelmed by the heat. Göynük Canyon is a perfect area for outdoor activities such as hiking, mountaineering and canoeing. There are also hiking trails in the canyon and many routes where you can get in touch with nature.\n\nThe canyon, which is about 20 km from Kemer city center, is easily accessible by private vehicles. This region is an excellent option for nature lovers and adventure lovers.",
+        "de": "Der Göynük Canyon ist eine beeindruckende Schlucht im Landkreis Kemer und ein beliebtes Ausflugsziel für Naturliebhaber. Die Schlucht ist ein kühler Zufluchtsort für diejenigen, denen die Hitze zu viel wird. Die Göynük-Schlucht eignet sich hervorragend für Outdoor-Aktivitäten wie Wandern, Bergsteigen und Kanufahren. Es gibt Wanderwege in der Schlucht und viele Routen, die den Kontakt mit der Natur ermöglichen.\n\nDie Schlucht liegt etwa 20 km vom Stadtzentrum von Kemer entfernt und ist mit dem Auto leicht zu erreichen. Dieses Gebiet ist eine ausgezeichnete Wahl für Naturliebhaber und Abenteuerlustige."
+      },
+      "activities": {
+        "tr": [
+          "Doğa Gezisi yürüyüşü yapmak",
+          "Kanyon keşfi yapmak",
+          "Kamp yapmak"
+        ],
+        "en": [
+          "Hike in nature",
+          "Explore the canyon",
+          "Camp in the area"
+        ],
+        "de": [
+          "Wandern in der Natur",
+          "Die Schlucht erkunden",
+          "Im Bereich campen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kanyon"
+        ],
+        "en": [
+          "canyon"
+        ],
+        "de": [
+          "Schlucht"
+        ]
+      },
+      "images": [
+        "https://example.com/goynuk_kanyonu.jpg"
+      ]
+    },
+    {
+      "slug": "alanya-dim-cayi",
+      "name": {
+        "tr": "Alanya Dim Çayı",
+        "en": "Alanya Dim Stream",
+        "de": "Alanya Dim Bach"
+      },
+      "latitude": 36.55261,
+      "longitude": 32.18673,
+      "description": {
+        "tr": "Dim Çayı, Alanya'nın Dim Mağarası yakınlarında yer alan ve etrafı ormanlarla çevrili bir akarsudur. Çayın etrafındaki doğa, doğa yürüyüşleri ve piknik yapmak için ideal bir ortam sunar. Ayrıca, Dim Çayı boyunca birçok restoran bulunur ve ziyaretçiler burada serin su kenarında oturup dinlenebilirler.\n\nDim Çayı, özellikle sıcak yaz aylarında serinlemek için mükemmel bir yerdir. Alanya şehir merkezine yaklaşık 12 km mesafede yer alır ve özel araçla kolayca ulaşılabilir.",
+        "en": "Dim Stream is a stream located near Dim Cave in Alanya and is surrounded by forests. The nature around the stream provides an ideal setting for nature walks and picnics. There are also many restaurants along the Dim Stream where visitors can sit and relax by the cool water.\n\nDim Stream is the perfect place to cool off, especially during the hot summer months. It is located about 12 km from Alanya city center and is easily accessible by private car.",
+        "de": "Der Dim-Bach ist ein Bach in der Nähe der Dim-Höhle in Alanya, der von Wäldern umgeben ist. Die Natur rund um den Bach bietet eine ideale Umgebung für Spaziergänge und Picknicks. Es gibt auch viele Restaurants entlang des Dim Baches, wo die Besucher am kühlen Wasser sitzen und entspannen können.\n\nBesonders in den heißen Sommermonaten ist der Dim Stream ein idealer Ort, um sich abzukühlen. Er liegt etwa 12 km vom Stadtzentrum Alanyas entfernt und ist mit dem Auto leicht zu erreichen."
+      },
+      "activities": {
+        "tr": [
+          "Çay etrafında yürüyüş yapmak",
+          "Su sporları yapmak",
+          "Dinlenmek"
+        ],
+        "en": [
+          "Walk around the stream",
+          "Do water sports",
+          "Relax in nature"
+        ],
+        "de": [
+          "Um den Bach spazieren gehen",
+          "Wassersport treiben",
+          "In der Natur entspannen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/dim_cayi.jpg"
+      ]
+    },
+   
+
+    {
+      "slug": "kursunlu-selalesi",
+      "name": {
+        "tr": "Kurşunlu Şelalesi",
+        "en": "Kurşunlu Waterfall",
+        "de": "Kurşunlu Wasserfall"
+      },
+      "latitude": 37.0031,
+      "longitude": 30.82182,
+      "description": {
+        "tr": "Kurşunlu Şelalesi, Antalya il sınırlarında, şelale etrafındaki ormanlarla çevrili doğal bir alan olarak öne çıkmaktadır. Şelale, adını suyun içindeki yansıyan ışıkla kurşun renginde bir görüntü oluşturmasından alır. Şelale, yaklaşık 18 metre yükseklikten düşen sularıyla oldukça etkileyicidir. Bu şelale, doğa yürüyüşleri yapmak, piknik yapmak ve fotoğrafçılıkla ilgilenenler için mükemmel bir yerdir.",
+        "en": "Kurşunlu Waterfall stands out as a natural area surrounded by forests around the waterfall in Antalya province. The waterfall takes its name from the reflected light in the water, creating a lead-colored image. The waterfall is quite impressive with its water falling from a height of about 18 meters. This waterfall is a perfect place for nature walks, picnics and those interested in photography.",
+        "de": "Der Kurşunlu-Wasserfall ist ein von Wäldern umgebenes Naturschutzgebiet rund um den Wasserfall in der Provinz Antalya. Der Wasserfall verdankt seinen Namen dem Licht, das vom Wasser reflektiert wird und ein bleifarbenes Bild erzeugt. Der Wasserfall ist sehr beeindruckend, da das Wasser aus einer Höhe von ca. 18 Metern in die Tiefe stürzt. Der Wasserfall ist ein idealer Ort für Spaziergänge in der Natur, für Picknicks und für alle, die sich für Fotografie interessieren."
+      },
+      "activities": {
+        "tr": [
+          "Şelale etrafında gezinti yapmak",
+          "Doğa Gezisi yürüyüşleri yapmak"
+        ],
+        "en": [
+          "Walk around the waterfall",
+          "Hike the nature trail"
+        ],
+        "de": [
+          "Um den Wasserfall spazieren gehen",
+          "Wanderung auf dem Naturpfad machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şelale"
+        ],
+        "en": [
+          "waterfall"
+        ],
+        "de": [
+          "Wasserfall"
+        ]
+      },
+      "images": [
+        "https://example.com/kursunlu_selalesi.jpg"
       ]
     },
     {
@@ -4857,52 +5002,7 @@
         "https://example.com/lyrbe.jpg"
       ]
     },
-    {
-      "slug": "hadrian-kapisi",
-      "name": {
-        "tr": "Hadrian Kapısı",
-        "en": "Hadrian’s Gate",
-        "de": "Hadrianstor"
-      },
-      "latitude": 36.88525,
-      "longitude": 30.70858,
-      "description": {
-        "tr": "Hadrian Kapısı, Antalya'nın Kaleiçi bölgesinde yer alan tarihi bir yapıdır. Roma İmparatoru Hadrianus’un 130 yılında Antalya’yı ziyareti anısına inşa edilmiştir. Üç kemerli yapısı ve mermer detaylarıyla dikkat çeker.\n",
-        "en": "Hadrian’s Gate is a historic structure located in the Kaleiçi district of Antalya. It was built in honor of the Roman Emperor Hadrian's visit to Antalya in 130 AD. It stands out with its three-arched design and marble details.\n",
-        "de": "Das Hadrianstor ist ein historisches Bauwerk im Stadtteil Kaleiçi in Antalya. Es wurde zu Ehren des römischen Kaisers Hadrian anlässlich seines Besuchs im Jahr 130 n. Chr. errichtet. Besonders auffällig ist seine dreibogige Struktur mit Marmordetails.\n"
-      },
-      "activities": {
-        "tr": [
-          "Tarihi yapıyı incelemek",
-          "Fotoğraf çekmek",
-          "Kaleiçi’nde gezmek"
-        ],
-        "en": [
-          "Exploring the monument",
-          "Taking photos",
-          "Walking in Kaleiçi"
-        ],
-        "de": [
-          "Das Bauwerk erkunden",
-          "Fotos machen",
-          "In Kaleiçi spazieren gehen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/hadrians_gate.jpg"
-      ]
-    },
+    
     {
       "slug": "aydap-antik-harabeleri",
       "name": {
@@ -5431,52 +5531,7 @@
         "https://example.com/kemer_plaji.jpg"
       ]
     },
-    {
-      "slug": "cirali-plaji",
-      "name": {
-        "tr": "Çıralı Plajı",
-        "en": "Çıralı Beach",
-        "de": "Çıralı Strand"
-      },
-      "latitude": 36.41473,
-      "longitude": 30.48205,
-      "description": {
-        "tr": "Çıralı Plajı, Antalya'nın Kemer ilçesinin Olympos beldesinde yer alan ve hem doğal güzellikleri hem de tarihi zenginlikleriyle ünlü bir plajdır. Çıralı, Olympos Milli Parkı içinde yer alır ve tarihi Olympos Antik Kenti ile yakın konumda bulunur. Çıralı Plajı, sakin ve huzurlu atmosferiyle doğa severler ve tatilciler için ideal bir yerdir.\nPlaj, ince kumlu yapısıyla dikkat çeker ve sığ denizi sayesinde çocuklu aileler için oldukça uygundur. Çıralı'nın denizi genellikle sakindir ve suyu berraktır, bu da yüzme ve şnorkelle dalış gibi su aktiviteleri için mükemmel bir ortam sunar. Çıralı Plajı, aynı zamanda Caretta caretta deniz kaplumbağalarının üreme alanlarından biri olduğu için çevre koruma bilinciyle korunmaktadır. Ziyaretçilerin bu özel bölgeyi korumaları adına bazı sınırlamalar bulunmaktadır.\nÇıralı Plajı, aynı zamanda Olympos Antik Kenti'ne çok yakın bir mesafede olup, antik kalıntıları keşfetmek isteyenler için harika bir fırsat sunar. Çıralı'nın çevresinde doğal kamp alanları, bungalovlar ve butik oteller bulunur. Burada konaklama, doğayla iç içe, sakin ve rahatlatıcı bir deneyim sunar.\nZiyaretçilere plajda birkaç kafe ve restoran da hizmet verir, böylece deniz kenarında dinlenirken lezzetli yerel yemeklerin tadına bakabilirsiniz. Çıralı Plajı'na, Kemer'den özel araçlarla veya toplu taşıma ile ulaşılabilir ve bölge, doğa ve tarih meraklıları için benzersiz bir tatil rotası sunar.",
-        "de": "Çİralı ist ein Strand in der Stadt Olympos im Bezirk Kemer in Antalya, der sowohl für seine natürliche Schönheit als auch für seinen historischen Reichtum bekannt ist. Çıralı liegt im Olympos Nationalpark und in der Nähe der historischen antiken Stadt Olympos. Der Cirali-Strand mit seiner ruhigen und friedlichen Atmosphäre ist ein idealer Ort für Naturliebhaber und Urlauber.\nDer Strand zeichnet sich durch seine feine Sandstruktur aus und ist durch sein flaches Wasser besonders für Familien mit Kindern geeignet. Das Meer von Çıralı ist in der Regel ruhig und das Wasser klar, was eine hervorragende Umgebung für Wasseraktivitäten wie Schwimmen und Schnorcheln bietet. Der Strand von Çıralı ist auch eines der Brutgebiete der Meeresschildkröte Caretta caretta und steht daher unter besonderer Beobachtung des Umweltschutzes. Um dieses besondere Gebiet zu schützen, gibt es einige Einschränkungen für Besucher.\nDer Cirali-Strand liegt auch in der Nähe der antiken Stadt Olympos und bietet eine gute Gelegenheit, die antiken Ruinen zu erkunden. Rund um Çıralı gibt es Naturcampingplätze, Bungalows und Boutique-Hotels. Die Unterkünfte bieten eine ruhige und entspannende Erfahrung in Kontakt mit der Natur.\nAußerdem gibt es mehrere Cafés und Restaurants am Strand, in denen man sich am Meer entspannen und leckere lokale Gerichte genießen kann. Der Cirali-Strand ist von Kemer aus mit dem eigenen Auto oder mit öffentlichen Verkehrsmitteln erreichbar und bietet ein einzigartiges Urlaubsziel für Natur- und Geschichtsliebhaber.",
-        "en": "Cirali Beach is a beach located in Olympos town of Kemer district of Antalya, famous for both its natural beauty and historical richness. Cirali is located within the Olympos National Park and is close to the ancient city of Olympos. Çıralı Beach is an ideal place for nature lovers and vacationers with its calm and peaceful atmosphere.\nThe beach attracts attention with its fine sandy structure and is very suitable for families with children due to its shallow sea. Cirali's sea is usually calm and the water is clear, making it perfect for water activities such as swimming and snorkeling. Cirali beach is also one of the breeding grounds for the Caretta caretta sea turtle and is therefore protected by environmental protection. There are some restrictions for visitors to protect this special area.\nÇıralı Beach is also very close to the ancient city of Olympos and offers a great opportunity for those who want to explore the ancient ruins. There are natural campsites, bungalows and boutique hotels around Çıralı. Accommodation here offers a quiet and relaxing experience in touch with nature.\nVisitors are also served by several cafes and restaurants on the beach, so you can sample delicious local cuisine while relaxing by the sea. Cirali Beach can be reached from Kemer by private car or public transportation, and the area offers a unique vacation destination for nature and history lovers."
-      },
-      "activities": {
-        "tr": [
-          "Denize girmek",
-          "Yanartaş’ı görmek",
-          "Kamp yapmak"
-        ],
-        "en": [
-          "Swimming",
-          "Seeing the Yanartaş",
-          "Camping"
-        ],
-        "de": [
-          "Schwimmen",
-          "Yanartaş sehen",
-          "Campen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "plaj"
-        ],
-        "en": [
-          "beach"
-        ],
-        "de": [
-          "Strand"
-        ]
-      },
-      "images": [
-        "https://example.com/cirali_plaji.jpg"
-      ]
-    },
+    
     {
       "slug": "adrasan-plaji",
       "name": {
@@ -5707,52 +5762,7 @@
         "https://example.com/sorgun_plaji.jpg"
       ]
     },
-    {
-      "slug": "alanya-kleopatra-plaji",
-      "name": {
-        "tr": "Alanya Kleopatra Plajı",
-        "en": "Alanya Cleopatra Beach",
-        "de": "Alanya Kleopatra Strand"
-      },
-      "latitude": 36.55524,
-      "longitude": 31.97286,
-      "description": {
-        "tr": "Alanya'nın merkezine oldukça yakın konumda bulunan Kleopatra Plajı, ince altın sarısı kumu ve berrak deniziyle ünlüdür. Bu plaj, hem tarih hem de doğal güzellikleri birleştirerek ziyaretçilerine eşsiz bir deneyim sunar. Efsaneye göre, Mısır Kraliçesi Kleopatra'nın burada yüzdüğü söylenir. Kleopatra Plajı, özellikle temiz denizi ve sakin atmosferi ile dikkat çeker.\n\nPlaj boyunca birçok otel, restoran ve kafe bulunur. Bu, ziyaretçilerin hem güneşin tadını çıkarabileceği hem de deniz kenarında dinlenebileceği birçok imkan sunar. Plaj, aynı zamanda su sporları ve deniz aktiviteleri için de uygundur.\n\nAlanya şehir merkezine yaklaşık 2 kilometre mesafede bulunan Kleopatra Plajı, ulaşım açısından oldukça kolaydır. Plaja yürüyerek de ulaşılabileceği gibi, toplu taşıma araçları ile de rahatça gidilebilir.",
-        "en": "Cleopatra Beach, which is very close to the centre of Alanya, is famous for its fine golden sand and crystal clear sea. This beach offers a unique experience to its visitors by combining both history and natural beauty. Legend has it that Cleopatra, Queen of Egypt, used to swim here. Cleopatra Beach is known for its clean sea and tranquil atmosphere.\n\nThere are many hotels, restaurants and cafes along the beach. This gives visitors plenty of opportunities to enjoy the sun and relax by the sea. The beach is also suitable for water sports and nautical activities.\n\nCleopatra Beach, which is about 2 kilometres from the centre of Alanya, is very easy to get to. The beach can be reached on foot or by public transport. ",
-        "de": "Der Kleopatra-Strand in der Nähe des Stadtzentrums von Alanya ist berühmt für seinen feinen goldenen Sand und das kristallklare Meer. Dieser Strand bietet seinen Besuchern ein einzigartiges Erlebnis, da er Geschichte und Naturschönheiten vereint. Der Legende nach soll die ägyptische Königin Kleopatra hier gebadet haben. Der Kleopatra-Strand zeichnet sich vor allem durch sein sauberes Meer und seine ruhige Atmosphäre aus.\n\nEntlang des Strandes befinden sich zahlreiche Hotels, Restaurants und Cafés. Es gibt viele Möglichkeiten, die Sonne zu genießen und sich am Meer zu entspannen. Der Strand eignet sich auch für Wassersport und andere Aktivitäten am Meer.\n\nDer Kleopatra-Strand liegt etwa 2 km vom Stadtzentrum Alanyas entfernt und ist leicht zu erreichen. Der Strand kann zu Fuß oder mit öffentlichen Verkehrsmitteln erreicht werden. "
-      },
-      "activities": {
-        "tr": [
-          "Denize girmek",
-          "Güneşlenmek",
-          "Su sporları yapmak"
-        ],
-        "en": [
-          "Swimming",
-          "Sunbathing",
-          "Water sports"
-        ],
-        "de": [
-          "Schwimmen",
-          "Sonnenbaden",
-          "Wassersport betreiben"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "plaj"
-        ],
-        "en": [
-          "beach"
-        ],
-        "de": [
-          "Strand"
-        ]
-      },
-      "images": [
-        "https://example.com/kleopatra_plaji.jpg"
-      ]
-    },
+    
     {
       "slug": "inciralti-plaji",
       "name": {
@@ -6994,112 +7004,7 @@
         "https://example.com/kestel_baraji_2.jpg"
       ]
     },
-    {
-      "slug": "golcuk-piknik-ve-gol-alani",
-      "name": {
-        "tr": "Gölcük Piknik ve Göl Alanı",
-        "en": "Gölcük Picnic and Lake Area",
-        "de": "Gölcük Picknick- und Seegebiet"
-      },
-      "latitude": 38.13855,
-      "longitude": 31.67427,
-      "description": {
-        "tr": "    Gölcük Piknik ve Göl Alanı, Konya'nın Doğanhisar ilçesinde yer alan ve doğal güzellikleriyle ünlü bir alandır. Bu bölge, özellikle yaz aylarında piknik yapmak, doğa yürüyüşleri yapmak ve göl çevresinde huzurlu vakit geçirmek isteyenler için harika bir mekandır. Doğal çevresi ve eşsiz manzarasıyla, bölge doğa severler ve fotoğrafçılar için mükemmel bir noktadır.\n\n    Gölcük Gölü çevresinde çeşitli aktiviteler yapılabilir. Göl manzarasında yürüyüş yapmak, piknik yapmak, fotoğraf çekmek ve doğa ile iç içe zaman geçirmek için ideal bir alandır.",
-        "de": "   Das Picknick- und Seegebiet Gölcük befindet sich im Bezirk Doğanhisar in Konya und ist für seine Naturschönheiten bekannt. Dieses Gebiet ist ein großartiger Ort für diejenigen, die ein Picknick machen, Spaziergänge in der Natur unternehmen und eine ruhige Zeit am See verbringen möchten, besonders im Sommer. Mit ihrer natürlichen Umgebung und der einzigartigen Aussicht ist die Region ein perfekter Ort für    Naturliebhaber und Fotografen.    Rund um den Gölcük-See können verschiedene Aktivitäten unternommen werden. Es ist ein ideales Gebiet zum Wandern, Picknicken, Fotografieren und Verbringen von Zeit in Kontakt mit der Natur. ",
-        "en": "    Gölcük Picnic and Lake Area is an area located in Doğanhisar district of Konya and is famous for its natural beauties. This area is a great place for those who want to have a picnic, take nature walks and spend peaceful time around the lake, especially in summer. With its natural surroundings and unique view, the region is a perfect spot for    nature lovers and photographers.    Various activities can be done around Gölcük Lake. It is an ideal area for hiking, picnicking, taking photos and spending time in touch with nature. "
-      },
-      "activities": {
-        "tr": [
-          "Piknik yapmak",
-          "Doğa yürüyüşleri yapmak",
-          "Fotoğraf çekmek",
-          "Göl çevresinde yürüyüş yapmak",
-          "Kuş gözlemi yapmak"
-        ],
-        "en": [
-          "Picnicking",
-          "Nature walks",
-          "Photography",
-          "Walking around the lake",
-          "Birdwatching"
-        ],
-        "de": [
-          "Picknicken",
-          "Spaziergänge in der Natur",
-          "Fotografie",
-          "Spazieren rund um den See",
-          "Vogelbeobachtung"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "piknik"
-        ],
-        "en": [
-          "picnic"
-        ],
-        "de": [
-          "Picknick"
-        ]
-      },
-      "images": [
-        "https://example.com/golcuk_piknik_gol_alan_1.jpg",
-        "https://example.com/golcuk_piknik_gol_alan_2.jpg"
-      ]
-    },
-    {
-      "slug": "beysehir-muslu-yaylasi",
-      "name": {
-        "tr": "Beyşehir Muslu Yaylası",
-        "en": "Beyşehir Muslu Plateau",
-        "de": "Beyşehir Muslu Hochland"
-      },
-      "latitude": 37.63569,
-      "longitude": 31.35921,
-      "description": {
-        "tr": "    Beyşehir Muslu Yaylası, Konya ilinin Beyşehir ilçesinde yer alan, doğal güzellikleriyle ünlü bir yayladır. Yeşil alanları, serin havası ve doğa ile iç içe ortamı ile özellikle yaz aylarında yerli ve yabancı turistlerin ilgisini çeker. Yayla, yürüyüş yapmak, kamp kurmak, piknik yapmak ve fotoğraf çekmek gibi açık hava aktiviteleri için mükemmel bir destinasyondur.\n\n    Muslu Yaylası, aynı zamanda Beyşehir Gölü'ne yakın konumu ile bilinir. Göl manzarası eşliğinde doğanın tadını çıkarabileceğiniz bu yayla, bölgedeki huzurlu atmosferi ile şehir yaşamından uzaklaşmak isteyenler için ideal bir yerdir.",
-        "en": "    Beyşehir Muslu Plateau is a plateau located in Beyşehir district of Konya province, famous for its natural beauties. It attracts the attention of local and foreign tourists especially in the summer months with its green areas, cool air and environment intertwined with nature. The plateau is a perfect destination for outdoor activities such as hiking, camping, picnicking and photography.    Muslu Plateau is also known for its location close to Beyşehir Lake. This plateau, where you can enjoy nature with a view of the lake, is an ideal place for those who want to get away from city life with its peaceful atmosphere in the region.  ",
-        "de": "   Das Beyşehir Muslu Plateau ist eine Hochebene im Bezirk Beyşehir in der Provinz Konya, die für ihre Naturschönheiten bekannt ist. Es zieht vor allem in den Sommermonaten mit seinen Grünflächen, der kühlen Luft und der naturnahen Umgebung die Aufmerksamkeit einheimischer und ausländischer Touristen auf sich. Die Hochebene ist ein hervorragendes Ziel für Outdoor-Aktivitäten wie Wandern, Camping, Picknick und Fotografieren.    Die Muslu-Hochebene ist auch für ihre Lage in der Nähe des Beyşehir-Sees bekannt. Diese Hochebene, auf der man die Natur mit Blick auf den See genießen kann, ist ein idealer Ort für diejenigen, die dem Stadtleben entfliehen und die friedliche Atmosphäre der Region genießen möchten."
-      },
-      "activities": {
-        "tr": [
-          "Doğa yürüyüşleri yapmak",
-          "Kamp kurmak",
-          "Piknik yapmak",
-          "Fotoğraf çekmek",
-          "Beyşehir Gölü manzarası izlemek"
-        ],
-        "en": [
-          "Nature walks",
-          "Camping",
-          "Picnicking",
-          "Photography",
-          "Watching Beyşehir Lake view"
-        ],
-        "de": [
-          "Spaziergänge in der Natur",
-          "Camping",
-          "Picknicken",
-          "Fotografie",
-          "Beyşehir-See-Aussicht genießen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "yayla"
-        ],
-        "en": [
-          "plateau"
-        ],
-        "de": [
-          "hochland"
-        ]
-      },
-      "images": [
-        "https://example.com/muslu_yaylasi_1.jpg",
-        "https://example.com/muslu_yaylasi_2.jpg"
-      ]
-    },
+    
     {
       "slug": "80-binde-devr-i-alem-parki",
       "name": {
@@ -7782,52 +7687,7 @@
         "https://example.com/aygir_dibi_selalesi_2.jpg"
       ]
     },
-    {
-      "slug": "mavi-bogaz-kanyonu",
-      "name": {
-        "tr": "Mavi Boğaz Kanyonu",
-        "en": "Mavi Boğaz Canyon",
-        "de": "Mavi Boğaz Schlucht"
-      },
-      "latitude": 37.266090115629375,
-      "longitude": 32.32085059852168,
-      "description": {
-        "tr": "Mavi Boğaz Kanyonu, Konya'nın Bozkır ilçesinin Çakırlı Mahallesi yakınlarında yer alan ve doğanın en güzel örneklerinden birini sunan bir doğa harikasıdır. Kanyon, adını içerisinden geçen nehrin mavi tonlarındaki suyundan alır. Etrafı sarp kayalıklarla çevrili olan bu kanyon, doğa yürüyüşü, kamp yapma ve dağcılık gibi açık hava aktiviteleri için ideal bir alandır.\n\nMavi Boğaz Kanyonu'nun derinliği, çevresindeki kayalık yapılar ve bölgedeki kuş çeşitliliği, kanyonu fotoğrafçılar için cazip kılmaktadır. Kanyon bölgesinde yürüyüş yaparken doğanın sunduğu huzur içinde zaman geçirebilir, eşsiz manzaralar eşliğinde keyifli bir keşif yapabilirsiniz.\n\n**Nasıl Gidilir?**\nMavi Boğaz Kanyonu, Konya'nın Bozkır ilçesinin yaklaşık 10 km güneydoğusunda yer almaktadır. Konya şehir merkezinden özel araçla yaklaşık 1,5 saatlik bir yolculukla ulaşılabilir. Bölgeye ulaşımda aracınızla yolculuk yapmak en rahat seçenektir. Ayrıca, doğa ile iç içe bir yürüyüş yapmak isteyenler için parkurlar mevcuttur.",
-        "en": "Mavi Boğaz Canyon is a natural wonder located near Çakırlı Village in the Bozkır district of Konya. The canyon gets its name from the blue-toned water flowing through it. Surrounded by steep cliffs, this canyon is an ideal spot for nature walks, camping, and mountaineering.\n\nThe depth of the canyon, the surrounding rocky formations, and the rich variety of bird species make Mavi Boğaz Canyon a popular destination for photographers. While hiking in the canyon, visitors can experience the tranquility of nature and enjoy breathtaking views.\n\n**How to Get There?**\nMavi Boğaz Canyon is located about 10 km southeast of Bozkır district in Konya. It is approximately a 1.5-hour drive from Konya city center. Traveling by private vehicle is the most convenient way to reach the canyon. For those who enjoy walking in nature, hiking trails are available."
-      },
-      "activities": {
-        "tr": [
-          "Doğa yürüyüşü yapmak",
-          "Kamp kurmak",
-          "Fotoğrafçılık yapmak"
-        ],
-        "en": [
-          "Hiking",
-          "Camping",
-          "Photography"
-        ],
-        "de": [
-          "Wandern",
-          "Camping",
-          "Fotografie"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kanyon"
-        ],
-        "en": [
-          "canyon"
-        ],
-        "de": [
-          "Schlucht"
-        ]
-      },
-      "images": [
-        "https://example.com/mavi_bogaz_kanyonu.jpg",
-        "https://example.com/mavi_bogaz_kanyonu_2.jpg"
-      ]
-    },
+    
     {
       "slug": "isaura-antik-kenti-zengibar-kalesi",
       "name": {
@@ -8144,145 +8004,8 @@
         "https://example.com/esrefoglu_camii.jpg"
       ]
     },
-    {
-      "slug": "kubadabad-sarayi",
-      "name": {
-        "tr": "Kubadabad Sarayı",
-        "en": "Kubadabad Palace",
-        "de": "Kubadabad Palast"
-      },
-      "latitude": 37.74392,
-      "longitude": 31.43949,
-      "description": {
-        "tr": "    Kubadabad Sarayı, Selçuklu döneminin ihtişamlı saraylarından biridir. Beyşehir Gölü kıyısında yer alan bu saray, özellikle taş işçiliği ve mimarisi ile dikkat çeker.",
-        "en": "    Kubadabad Palace is one of the magnificent palaces of the Seljuk period. Located on the shores of Beyşehir Lake, this palace attracts attention especially with its stone workmanship and architecture.",
-        "de": "   Der Kubadabad-Palast ist einer der prächtigsten Paläste aus der Seldschukenzeit. Der am Ufer des Beyşehir-Sees gelegene Palast zieht die Aufmerksamkeit vor allem durch seine Steinbearbeitung und Architektur auf sich. "
-      },
-      "activities": {
-        "tr": [
-          "Sarayı gezmek",
-          "Tarihi ve Turistik kalıntıları keşfetmek",
-          "Selçuklu mimarisine hayran kalmak"
-        ],
-        "en": [
-          "Tour the palace",
-          "Explore historical and tourist ruins",
-          "Admire Seljuk architecture"
-        ],
-        "de": [
-          "Den Palast besichtigen",
-          "Historische und touristische Ruinen entdecken",
-          "Die seldschukische Architektur bewundern"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/kubadabad_sarayi.jpg"
-      ]
-    },
-    {
-      "slug": "aksehir-golleri",
-      "name": {
-        "tr": "Akşehir Gölleri",
-        "en": "Akşehir Lakes",
-        "de": "Akşehir Seen"
-      },
-      "latitude": 38.49136,
-      "longitude": 31.34954,
-      "description": {
-        "tr": "    Akşehir Gölleri, Akşehir ilçesinin doğusunda yer alan bir dizi küçük gölden oluşur. Bu göller, özellikle kuş gözlemcileri ve Doğa Gezisi severler için popüler bir yerdir.",
-        "de": "    Die Akşehir-Seen bestehen aus einer Reihe von kleinen Seen im Osten des Bezirks Akşehir. Diese Seen sind ein beliebtes Ziel, insbesondere für Vogelbeobachter und Naturliebhaber.",
-        "en": "    Akşehir Lakes consist of a series of small lakes located in the east of Akşehir district. These lakes are a popular destination, especially for birdwatchers and nature lovers. "
-      },
-      "activities": {
-        "tr": [
-          "Kuş gözlemi yapmak",
-          "Doğa Gezisi",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Bird watching",
-          "Nature walks",
-          "Photography"
-        ],
-        "de": [
-          "Vogelbeobachtung",
-          "Naturwanderungen",
-          "Fotografie"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/aksehir_golleri.jpg"
-      ]
-    },
-    {
-      "slug": "karatay-camii",
-      "name": {
-        "tr": "Karatay Camii",
-        "en": "Karatay Mosque",
-        "de": "Karatay Moschee"
-      },
-      "latitude": 37.86667,
-      "longitude": 32.5,
-      "description": {
-        "tr": "    Karatay Camii, Konya il sınırlarında yer alan ve 1251 yılında Selçuklu Sultanı I. İzzeddin Keykavus tarafından inşa edilen tarihi bir camidir.\n    Selçuklu döneminin en önemli örneklerinden biri olan camii, zarif taş işçiliği ve etkileyici iç mekan süslemeleriyle dikkat çeker.\n    Bugün müze olarak kullanılan camii, Konya'nın en önemli kültürel miraslarından biridir. ",
-        "en": "    Karatay Mosque is a historical mosque located in Konya province and was built in 1251 by the Seljuk Sultan Izzeddin Keykavus I.    One of the most important examples of the Seljuk period, the mosque attracts attention with    its elegant stone work and impressive interior decorations.    Today used as a museum, the mosque is one of the most important cultural heritages of Konya. ",
-        "de": "    Die Karatay-Moschee ist eine historische Moschee in der Provinz Konya und wurde 1251 von dem seldschukischen Sultan Izzeddin Keykavus I. erbaut.    Die Moschee ist eines der bedeutendsten Zeugnisse der seldschukischen Epoche und besticht durch    ihre elegante Steinbearbeitung und beeindruckende Innenausstattung.    Die Moschee, die heute als Museum genutzt wird, ist eines der wichtigsten Kulturdenkmäler von Konya.  "
-      },
-      "activities": {
-        "tr": [
-          "Tarihi ve kültürel geziler yapmak",
-          "Mimari detayları incelemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Take historical and cultural tours",
-          "Examine architectural details",
-          "Photography"
-        ],
-        "de": [
-          "Historische und kulturelle Touren machen",
-          "Architektonische Details untersuchen",
-          "Fotografie"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "cami"
-        ],
-        "en": [
-          "mosque"
-        ],
-        "de": [
-          "Moschee"
-        ]
-      },
-      "images": [
-        "https://example.com/karatay_camii.jpg"
-      ]
-    },
-    {
+    
+        {
       "slug": "haciveyiszade-camii",
       "name": {
         "tr": "Hacıveyiszade Camii",
@@ -8659,9 +8382,299 @@
         "https://example.com/aya_eleni_kilisesi_1.jpg",
         "https://example.com/aya_eleni_kilisesi_2.jpg"
       ]
+    },
+{
+      "slug": "golcuk-piknik-ve-gol-alani",
+      "name": {
+        "tr": "Gölcük Piknik ve Göl Alanı",
+        "en": "Gölcük Picnic and Lake Area",
+        "de": "Gölcük Picknick- und Seegebiet"
+      },
+      "latitude": 38.13855,
+      "longitude": 31.67427,
+      "description": {
+        "tr": "    Gölcük Piknik ve Göl Alanı, Konya'nın Doğanhisar ilçesinde yer alan ve doğal güzellikleriyle ünlü bir alandır. Bu bölge, özellikle yaz aylarında piknik yapmak, doğa yürüyüşleri yapmak ve göl çevresinde huzurlu vakit geçirmek isteyenler için harika bir mekandır. Doğal çevresi ve eşsiz manzarasıyla, bölge doğa severler ve fotoğrafçılar için mükemmel bir noktadır.\n\n    Gölcük Gölü çevresinde çeşitli aktiviteler yapılabilir. Göl manzarasında yürüyüş yapmak, piknik yapmak, fotoğraf çekmek ve doğa ile iç içe zaman geçirmek için ideal bir alandır.",
+        "de": "   Das Picknick- und Seegebiet Gölcük befindet sich im Bezirk Doğanhisar in Konya und ist für seine Naturschönheiten bekannt. Dieses Gebiet ist ein großartiger Ort für diejenigen, die ein Picknick machen, Spaziergänge in der Natur unternehmen und eine ruhige Zeit am See verbringen möchten, besonders im Sommer. Mit ihrer natürlichen Umgebung und der einzigartigen Aussicht ist die Region ein perfekter Ort für    Naturliebhaber und Fotografen.    Rund um den Gölcük-See können verschiedene Aktivitäten unternommen werden. Es ist ein ideales Gebiet zum Wandern, Picknicken, Fotografieren und Verbringen von Zeit in Kontakt mit der Natur. ",
+        "en": "    Gölcük Picnic and Lake Area is an area located in Doğanhisar district of Konya and is famous for its natural beauties. This area is a great place for those who want to have a picnic, take nature walks and spend peaceful time around the lake, especially in summer. With its natural surroundings and unique view, the region is a perfect spot for    nature lovers and photographers.    Various activities can be done around Gölcük Lake. It is an ideal area for hiking, picnicking, taking photos and spending time in touch with nature. "
+      },
+      "activities": {
+        "tr": [
+          "Piknik yapmak",
+          "Doğa yürüyüşleri yapmak",
+          "Fotoğraf çekmek",
+          "Göl çevresinde yürüyüş yapmak",
+          "Kuş gözlemi yapmak"
+        ],
+        "en": [
+          "Picnicking",
+          "Nature walks",
+          "Photography",
+          "Walking around the lake",
+          "Birdwatching"
+        ],
+        "de": [
+          "Picknicken",
+          "Spaziergänge in der Natur",
+          "Fotografie",
+          "Spazieren rund um den See",
+          "Vogelbeobachtung"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "piknik"
+        ],
+        "en": [
+          "picnic"
+        ],
+        "de": [
+          "Picknick"
+        ]
+      },
+      "images": [
+        "https://example.com/golcuk_piknik_gol_alan_1.jpg",
+        "https://example.com/golcuk_piknik_gol_alan_2.jpg"
+      ]
+    },
+    {
+      "slug": "beysehir-muslu-yaylasi",
+      "name": {
+        "tr": "Beyşehir Muslu Yaylası",
+        "en": "Beyşehir Muslu Plateau",
+        "de": "Beyşehir Muslu Hochland"
+      },
+      "latitude": 37.63569,
+      "longitude": 31.35921,
+      "description": {
+        "tr": "    Beyşehir Muslu Yaylası, Konya ilinin Beyşehir ilçesinde yer alan, doğal güzellikleriyle ünlü bir yayladır. Yeşil alanları, serin havası ve doğa ile iç içe ortamı ile özellikle yaz aylarında yerli ve yabancı turistlerin ilgisini çeker. Yayla, yürüyüş yapmak, kamp kurmak, piknik yapmak ve fotoğraf çekmek gibi açık hava aktiviteleri için mükemmel bir destinasyondur.\n\n    Muslu Yaylası, aynı zamanda Beyşehir Gölü'ne yakın konumu ile bilinir. Göl manzarası eşliğinde doğanın tadını çıkarabileceğiniz bu yayla, bölgedeki huzurlu atmosferi ile şehir yaşamından uzaklaşmak isteyenler için ideal bir yerdir.",
+        "en": "    Beyşehir Muslu Plateau is a plateau located in Beyşehir district of Konya province, famous for its natural beauties. It attracts the attention of local and foreign tourists especially in the summer months with its green areas, cool air and environment intertwined with nature. The plateau is a perfect destination for outdoor activities such as hiking, camping, picnicking and photography.    Muslu Plateau is also known for its location close to Beyşehir Lake. This plateau, where you can enjoy nature with a view of the lake, is an ideal place for those who want to get away from city life with its peaceful atmosphere in the region.  ",
+        "de": "   Das Beyşehir Muslu Plateau ist eine Hochebene im Bezirk Beyşehir in der Provinz Konya, die für ihre Naturschönheiten bekannt ist. Es zieht vor allem in den Sommermonaten mit seinen Grünflächen, der kühlen Luft und der naturnahen Umgebung die Aufmerksamkeit einheimischer und ausländischer Touristen auf sich. Die Hochebene ist ein hervorragendes Ziel für Outdoor-Aktivitäten wie Wandern, Camping, Picknick und Fotografieren.    Die Muslu-Hochebene ist auch für ihre Lage in der Nähe des Beyşehir-Sees bekannt. Diese Hochebene, auf der man die Natur mit Blick auf den See genießen kann, ist ein idealer Ort für diejenigen, die dem Stadtleben entfliehen und die friedliche Atmosphäre der Region genießen möchten."
+      },
+      "activities": {
+        "tr": [
+          "Doğa yürüyüşleri yapmak",
+          "Kamp kurmak",
+          "Piknik yapmak",
+          "Fotoğraf çekmek",
+          "Beyşehir Gölü manzarası izlemek"
+        ],
+        "en": [
+          "Nature walks",
+          "Camping",
+          "Picnicking",
+          "Photography",
+          "Watching Beyşehir Lake view"
+        ],
+        "de": [
+          "Spaziergänge in der Natur",
+          "Camping",
+          "Picknicken",
+          "Fotografie",
+          "Beyşehir-See-Aussicht genießen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "yayla"
+        ],
+        "en": [
+          "plateau"
+        ],
+        "de": [
+          "hochland"
+        ]
+      },
+      "images": [
+        "https://example.com/muslu_yaylasi_1.jpg",
+        "https://example.com/muslu_yaylasi_2.jpg"
+      ]
+    },
+{
+      "slug": "mavi-bogaz-kanyonu",
+      "name": {
+        "tr": "Mavi Boğaz Kanyonu",
+        "en": "Mavi Boğaz Canyon",
+        "de": "Mavi Boğaz Schlucht"
+      },
+      "latitude": 37.266090115629375,
+      "longitude": 32.32085059852168,
+      "description": {
+        "tr": "Mavi Boğaz Kanyonu, Konya'nın Bozkır ilçesinin Çakırlı Mahallesi yakınlarında yer alan ve doğanın en güzel örneklerinden birini sunan bir doğa harikasıdır. Kanyon, adını içerisinden geçen nehrin mavi tonlarındaki suyundan alır. Etrafı sarp kayalıklarla çevrili olan bu kanyon, doğa yürüyüşü, kamp yapma ve dağcılık gibi açık hava aktiviteleri için ideal bir alandır.\n\nMavi Boğaz Kanyonu'nun derinliği, çevresindeki kayalık yapılar ve bölgedeki kuş çeşitliliği, kanyonu fotoğrafçılar için cazip kılmaktadır. Kanyon bölgesinde yürüyüş yaparken doğanın sunduğu huzur içinde zaman geçirebilir, eşsiz manzaralar eşliğinde keyifli bir keşif yapabilirsiniz.\n\n**Nasıl Gidilir?**\nMavi Boğaz Kanyonu, Konya'nın Bozkır ilçesinin yaklaşık 10 km güneydoğusunda yer almaktadır. Konya şehir merkezinden özel araçla yaklaşık 1,5 saatlik bir yolculukla ulaşılabilir. Bölgeye ulaşımda aracınızla yolculuk yapmak en rahat seçenektir. Ayrıca, doğa ile iç içe bir yürüyüş yapmak isteyenler için parkurlar mevcuttur.",
+        "en": "Mavi Boğaz Canyon is a natural wonder located near Çakırlı Village in the Bozkır district of Konya. The canyon gets its name from the blue-toned water flowing through it. Surrounded by steep cliffs, this canyon is an ideal spot for nature walks, camping, and mountaineering.\n\nThe depth of the canyon, the surrounding rocky formations, and the rich variety of bird species make Mavi Boğaz Canyon a popular destination for photographers. While hiking in the canyon, visitors can experience the tranquility of nature and enjoy breathtaking views.\n\n**How to Get There?**\nMavi Boğaz Canyon is located about 10 km southeast of Bozkır district in Konya. It is approximately a 1.5-hour drive from Konya city center. Traveling by private vehicle is the most convenient way to reach the canyon. For those who enjoy walking in nature, hiking trails are available."
+      },
+      "activities": {
+        "tr": [
+          "Doğa yürüyüşü yapmak",
+          "Kamp kurmak",
+          "Fotoğrafçılık yapmak"
+        ],
+        "en": [
+          "Hiking",
+          "Camping",
+          "Photography"
+        ],
+        "de": [
+          "Wandern",
+          "Camping",
+          "Fotografie"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kanyon"
+        ],
+        "en": [
+          "canyon"
+        ],
+        "de": [
+          "Schlucht"
+        ]
+      },
+      "images": [
+        "https://example.com/mavi_bogaz_kanyonu.jpg",
+        "https://example.com/mavi_bogaz_kanyonu_2.jpg"
+      ]
+    },
+{
+      "slug": "kubadabad-sarayi",
+      "name": {
+        "tr": "Kubadabad Sarayı",
+        "en": "Kubadabad Palace",
+        "de": "Kubadabad Palast"
+      },
+      "latitude": 37.74392,
+      "longitude": 31.43949,
+      "description": {
+        "tr": "    Kubadabad Sarayı, Selçuklu döneminin ihtişamlı saraylarından biridir. Beyşehir Gölü kıyısında yer alan bu saray, özellikle taş işçiliği ve mimarisi ile dikkat çeker.",
+        "en": "    Kubadabad Palace is one of the magnificent palaces of the Seljuk period. Located on the shores of Beyşehir Lake, this palace attracts attention especially with its stone workmanship and architecture.",
+        "de": "   Der Kubadabad-Palast ist einer der prächtigsten Paläste aus der Seldschukenzeit. Der am Ufer des Beyşehir-Sees gelegene Palast zieht die Aufmerksamkeit vor allem durch seine Steinbearbeitung und Architektur auf sich. "
+      },
+      "activities": {
+        "tr": [
+          "Sarayı gezmek",
+          "Tarihi ve Turistik kalıntıları keşfetmek",
+          "Selçuklu mimarisine hayran kalmak"
+        ],
+        "en": [
+          "Tour the palace",
+          "Explore historical and tourist ruins",
+          "Admire Seljuk architecture"
+        ],
+        "de": [
+          "Den Palast besichtigen",
+          "Historische und touristische Ruinen entdecken",
+          "Die seldschukische Architektur bewundern"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/kubadabad_sarayi.jpg"
+      ]
+    },
+    {
+      "slug": "aksehir-golleri",
+      "name": {
+        "tr": "Akşehir Gölleri",
+        "en": "Akşehir Lakes",
+        "de": "Akşehir Seen"
+      },
+      "latitude": 38.49136,
+      "longitude": 31.34954,
+      "description": {
+        "tr": "    Akşehir Gölleri, Akşehir ilçesinin doğusunda yer alan bir dizi küçük gölden oluşur. Bu göller, özellikle kuş gözlemcileri ve Doğa Gezisi severler için popüler bir yerdir.",
+        "de": "    Die Akşehir-Seen bestehen aus einer Reihe von kleinen Seen im Osten des Bezirks Akşehir. Diese Seen sind ein beliebtes Ziel, insbesondere für Vogelbeobachter und Naturliebhaber.",
+        "en": "    Akşehir Lakes consist of a series of small lakes located in the east of Akşehir district. These lakes are a popular destination, especially for birdwatchers and nature lovers. "
+      },
+      "activities": {
+        "tr": [
+          "Kuş gözlemi yapmak",
+          "Doğa Gezisi",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Bird watching",
+          "Nature walks",
+          "Photography"
+        ],
+        "de": [
+          "Vogelbeobachtung",
+          "Naturwanderungen",
+          "Fotografie"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/aksehir_golleri.jpg"
+      ]
     }
   ],
   "sivas": [
+{
+      "slug": "gokmedrese",
+      "name": {
+        "tr": "Gökmedrese",
+        "en": "Gökmedrese",
+        "de": "Gökmedrese"
+      },
+      "latitude": 39.74445,
+      "longitude": 37.01666,
+      "description": {
+        "tr": "    Gökmedrese, Selçuklu dönemine ait önemli bir medresedir. İslam mimarisinin güzel örneklerinden biri olan bu yapıyı gezebilirsiniz.\n    13. yüzyılda inşa edilen Gökmedrese, zarif taş işçiliği ve muazzam mimarisi ile dikkat çeker.\n    Yapının içindeki süslemeler ve dış cephesindeki detaylar, Selçuklu sanatının ve mühendisliğinin bir yansımasıdır.\n    Gökmedrese, sadece bir eğitim merkezi değil, aynı zamanda dönemin kültürel ve dini hayatını anlamak için de önemli bir yapıdır.\n    Bu tarihi yapıyı ziyaret ederek, Selçuklu döneminin etkileyici mimarisini yakından görebilirsiniz.\n  ",
+        "en": "    Gökmedrese is an important madrasa dating back to the Seljuk period. It is one of the beautiful examples of Islamic architecture, which you can visit.\n    Built in the 13th century, Gökmedrese attracts attention with its elegant stone craftsmanship and magnificent architecture.\n    The decorations inside the structure and the details on the outer facade are a reflection of Seljuk art and engineering.\n    Gökmedrese is not only an educational center but also an important structure for understanding the cultural and religious life of the period.\n    By visiting this historical site, you can closely observe the impressive architecture of the Seljuk period.\n  ",
+        "de": "    Die Gökmedrese ist eine bedeutende Madrasa aus der Zeit der Seldschuken. Sie ist eines der schönen Beispiele islamischer Architektur, das Sie besichtigen können.\n    Die im 13. Jahrhundert erbaute Gökmedrese zieht mit ihrer eleganten Steinmetzarbeit und ihrer prächtigen Architektur Aufmerksamkeit auf sich.\n    Die Dekorationen im Inneren der Struktur und die Details an der Außenseite sind ein Spiegelbild der seldschukischen Kunst und Ingenieurskunst.\n    Die Gökmedrese ist nicht nur ein Bildungszentrum, sondern auch eine wichtige Struktur, um das kulturelle und religiöse Leben der damaligen Zeit zu verstehen.\n    Durch den Besuch dieses historischen Ortes können Sie die beeindruckende Architektur der Seldschukenzeit aus nächster Nähe erleben.\n  "
+      },
+      "activities": {
+        "tr": [
+          "Medreseyi gezmek",
+          "Tarihi yapıları incelemek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Tour the madrasa",
+          "Examine historical structures",
+          "Photography"
+        ],
+        "de": [
+          "Die Medrese besichtigen",
+          "Historische Gebäude untersuchen",
+          "Fotografie"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/gokmedrese.jpg"
+      ]
+    },
     {
       "slug": "cifte-minareli-medrese",
       "name": {
@@ -8993,52 +9006,7 @@
         "https://example.com/sivas_muzesi.jpg"
       ]
     },
-    {
-      "slug": "gokmedrese",
-      "name": {
-        "tr": "Gökmedrese",
-        "en": "Gökmedrese",
-        "de": "Gökmedrese"
-      },
-      "latitude": 39.74445,
-      "longitude": 37.01666,
-      "description": {
-        "tr": "    Gökmedrese, Selçuklu dönemine ait önemli bir medresedir. İslam mimarisinin güzel örneklerinden biri olan bu yapıyı gezebilirsiniz.\n    13. yüzyılda inşa edilen Gökmedrese, zarif taş işçiliği ve muazzam mimarisi ile dikkat çeker.\n    Yapının içindeki süslemeler ve dış cephesindeki detaylar, Selçuklu sanatının ve mühendisliğinin bir yansımasıdır.\n    Gökmedrese, sadece bir eğitim merkezi değil, aynı zamanda dönemin kültürel ve dini hayatını anlamak için de önemli bir yapıdır.\n    Bu tarihi yapıyı ziyaret ederek, Selçuklu döneminin etkileyici mimarisini yakından görebilirsiniz.\n  ",
-        "en": "    Gökmedrese is an important madrasa dating back to the Seljuk period. It is one of the beautiful examples of Islamic architecture, which you can visit.\n    Built in the 13th century, Gökmedrese attracts attention with its elegant stone craftsmanship and magnificent architecture.\n    The decorations inside the structure and the details on the outer facade are a reflection of Seljuk art and engineering.\n    Gökmedrese is not only an educational center but also an important structure for understanding the cultural and religious life of the period.\n    By visiting this historical site, you can closely observe the impressive architecture of the Seljuk period.\n  ",
-        "de": "    Die Gökmedrese ist eine bedeutende Madrasa aus der Zeit der Seldschuken. Sie ist eines der schönen Beispiele islamischer Architektur, das Sie besichtigen können.\n    Die im 13. Jahrhundert erbaute Gökmedrese zieht mit ihrer eleganten Steinmetzarbeit und ihrer prächtigen Architektur Aufmerksamkeit auf sich.\n    Die Dekorationen im Inneren der Struktur und die Details an der Außenseite sind ein Spiegelbild der seldschukischen Kunst und Ingenieurskunst.\n    Die Gökmedrese ist nicht nur ein Bildungszentrum, sondern auch eine wichtige Struktur, um das kulturelle und religiöse Leben der damaligen Zeit zu verstehen.\n    Durch den Besuch dieses historischen Ortes können Sie die beeindruckende Architektur der Seldschukenzeit aus nächster Nähe erleben.\n  "
-      },
-      "activities": {
-        "tr": [
-          "Medreseyi gezmek",
-          "Tarihi yapıları incelemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Tour the madrasa",
-          "Examine historical structures",
-          "Photography"
-        ],
-        "de": [
-          "Die Medrese besichtigen",
-          "Historische Gebäude untersuchen",
-          "Fotografie"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/gokmedrese.jpg"
-      ]
-    },
+    
     {
       "slug": "sivas-ataturk-ve-kongre-muzesi",
       "name": {
@@ -9403,49 +9371,7 @@
         "https://example.com/kaymakli_yeraltı_sehri.jpg"
       ]
     },
-    {
-      "slug": "derinkuyu-yeralti-sehri",
-      "name": {
-        "tr": "Derinkuyu Yeraltı Şehri",
-        "en": "Derinkuyu Underground City",
-        "de": "Derinkuyu Untergrundstadt"
-      },
-      "latitude": 38.37364,
-      "longitude": 34.73518,
-      "description": {
-        "tr": "Derinkuyu Yeraltı Şehri, Nevşehir-Niğde karayolu üzerinde, Nevşehir’e yaklaşık 30 km uzaklıkta yer almaktadır. Kapadokya bölgesinin en büyük ve en derin yeraltı şehirlerinden biri olan Derinkuyu, yaklaşık 85 metre derinliğe ulaşmaktadır. 1963 yılında tesadüfen keşfedilen ve 1967 yılında ziyarete açılan bu eşsiz yapı, 2. yüzyılda Roma zulmünden kaçan ilk Hristiyanların sığınağı olarak kullanılmıştır.\n\nYeraltı şehri, ahır, kiler, yemekhane, kilise, şırahane gibi birçok yapıyı barındırmaktadır. 2. katta yer alan misyonerler okulu, geniş beşik tonozlu tavanı ve çalışma odalarıyla dikkat çeker. Şehrin 3. ve 4. katlarından sonra merdivenlerle derinlere inilerek haç planlı bir kiliseye ulaşılmaktadır. Ayrıca, 55 metre derinliğe kadar uzanan bir havalandırma bacası, aynı zamanda su kuyusu olarak da kullanılmıştır.\n\nBazı kuyuların yeryüzüyle bağlantısının olmaması, istilalar sırasında zehirlenmeyi önlemek için geliştirilmiş bir savunma mekanizmasıdır. Toplamda 4 kilometrekarelik bir alanı kapsayan Derinkuyu Yeraltı Şehri’nin sadece 2,5 kilometrekarelik kısmı ve 8 katı temizlenerek ziyarete açılmıştır. Tamamen temizlendiğinde, toplam kat sayısının 12-13’e ulaşacağı ve derinliğin 85 metreyi bulacağı tahmin edilmektedir.\n\nDerinkuyu Yeraltı Şehri, hem mimarisi hem de tarihi ile Kapadokya’nın en dikkat çekici yapılarından biridir ve yaklaşık 50 bin kişinin dış dünyayla bağlantı kurmadan uzun süre yaşayabileceği bir düzenek sunmaktadır.\n  ",
-        "en": "'\nDerinkuyu Underground City is one of the deepest and largest underground cities in the Cappadocia region, located in Derinkuyu district of Nevşehir province. Dating back to the 8th century BC, this underground complex was used by the Medes, Hittites and later Christian communities to protect themselves from wars and attacks.\n\nThe city is an impressive feat of engineering with 8 levels extending to a depth of 60 meters. The areas open to visitors include kitchens, wine cellars, churches, warehouses, stables, living quarters and even a school. The city has extensive ventilation systems and water wells designed to sustain hundreds of people for long periods of time. It is also notable for the giant stone gates used to seal the entrances and the defense mechanisms developed against attacks.\n\nDerinkuyu Underground City is associated with a system of tunnels linked to the other underground cities of Cappadocia. This feature shows how strategically planned the area was.\n\nToday, Derinkuyu Underground City is one of the most important tourist spots in Cappadocia for history and archaeology enthusiasts. It offers a unique experience for those who want to explore the underground world of Cappadocia.  ",
-        "de": "Die unterirdische Stadt Derinkuyu liegt an der Fernstraße Nevşehir-Niğde, etwa 30 km von Nevşehir entfernt. Derinkuyu, eine der größten und tiefsten unterirdischen Städte der Region Kappadokien, erreicht eine Tiefe von etwa 85 Metern. Dieses einzigartige Bauwerk, das 1963 zufällig entdeckt und 1967 für Besucher geöffnet wurde, diente den ersten Christen, die im 2. Jahrhundert vor der römischen Verfolgung flohen, als Zufluchtsort.\n\nIn der unterirdischen Stadt befinden sich zahlreiche Gebäude wie Ställe, Keller, Speisesäle, Kirchen und Weinkellereien. Im 2. Stockwerk zieht die Missionsschule mit ihrem großen Tonnengewölbe und den Studienräumen die Aufmerksamkeit auf sich. Nach dem 3. und 4. Stockwerk der Stadt führt eine Treppe hinunter zu einer Kirche mit kreuzförmigem Grundriss. Ein Lüftungsschacht, der bis in eine Tiefe von 55 Metern reicht, wurde auch als Wasserbrunnen genutzt.\n\nDie Tatsache, dass einige der Brunnen nicht mit der Erde verbunden sind, ist ein Verteidigungsmechanismus, der entwickelt wurde, um Vergiftungen bei Invasionen zu verhindern. Nur 2,5 Quadratkilometer und 8 Stockwerke der unterirdischen Stadt Derinkuyu, die eine Gesamtfläche von 4 Quadratkilometern umfasst, wurden gereinigt und für Besucher geöffnet. Wenn sie vollständig gereinigt ist, wird die Gesamtzahl der Stockwerke auf 12-13 und die Tiefe auf 85 Meter geschätzt.\n\nDie unterirdische Stadt Derinkuyu ist eines der architektonisch und historisch bemerkenswertesten Bauwerke Kappadokiens und bietet eine Anlage, in der ca. 50.000 Menschen für lange Zeit ohne Kontakt zur Außenwelt leben können.\n  "
-      },
-      "activities": {
-        "tr": [
-          "Derinkuyu Yeraltı Şehrini gezmek",
-          "Tarihi kalıntıları incelemek"
-        ],
-        "en": [
-          "Explore Derinkuyu Underground City",
-          "Examine the historical ruins"
-        ],
-        "de": [
-          "Die Derinkuyu Untergrundstadt erkunden",
-          "Die historischen Ruinen untersuchen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "arkeolojik alan"
-        ],
-        "en": [
-          "archaeological site"
-        ],
-        "de": [
-          "archäologische Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/derinkuyu_yeraltı_sehri.jpg"
-      ]
-    },
+    
     {
       "slug": "uchisar-kalesi",
       "name": {
@@ -9618,32 +9544,35 @@
         "https://example.com/avanos.jpg"
       ]
     },
-    {
-      "slug": "devrent-vadisi-hayal-vadisi",
+ {
+      "slug": "ask-vadisi",
       "name": {
-        "tr": "Devrent Vadisi (Hayal Vadisi)",
-        "en": "Devrent Valley (Imagination Valley)",
-        "de": "Devrent Tal (Tal der Fantasie)"
+        "tr": "Aşk Vadisi",
+        "en": "Love Valley",
+        "de": "Liebtal"
       },
-      "latitude": 38.67288,
-      "longitude": 34.8858,
+      "latitude": 38.66085,
+      "longitude": 34.81971,
       "description": {
-        "tr": "Devrent Vadisi, aynı zamanda Hayal Vadisi olarak da bilinir, Nevşehir ilinin Avanos ilçesine yakın bir konumda yer alır ve Kapadokya'nın en ilginç ve etkileyici vadilerinden biridir. Bu vadi, adını, vadideki kaya oluşumlarının hayal gücünü zorlayan şekillerinden alır. Kaya yapıları, çeşitli hayvan figürleri, insan figürleri ve diğer yaratıcı şekillerle doludur, bu yüzden Devrent Vadisi genellikle \"Hayal Vadisi\" olarak adlandırılır.\n\nVadideki kayalar, doğal erozyon ve rüzgarın etkisiyle benzersiz şekiller almış ve bu şekiller zamanla insanların hayal gücünü harekete geçirmiştir. En bilinen kaya oluşumlarından biri, deveye benzeyen büyük bir kaya şeklidir. Bunun dışında birçok farklı figür ve şekil, ziyaretçilerin dikkatini çeker ve bölgeyi fotoğrafçılar için popüler bir mekan haline getirir.\n\nDevrent Vadisi, diğer Kapadokya vadilerinden farklı olarak, yerleşim alanları veya kiliseler gibi yapılarla değil, sadece doğal kaya oluşumları ile ünlüdür. Bu nedenle vadi, doğa yürüyüşleri yapmak ve bölgenin eşsiz jeolojik yapısını keşfetmek isteyen turistler için ideal bir yerdir.\n\nZiyaretçilerine hayal gücünü zorlayan bir manzara sunan Devrent Vadisi, Kapadokya’nın doğa harikalarından biri olarak, bölgeyi keşfetmek isteyenlerin mutlaka görmesi gereken bir yer olarak öne çıkar.\n  ",
-        "en": "'\nDevrent Valley, also known as the Valley of Dreams, is located close to Avanos district of Nevsehir province and is one of the most interesting and impressive valleys in Cappadocia. This valley takes its name from the imaginative shapes of the rock formations in the valley. The rock structures are full of various animal figures, human figures and other creative shapes, which is why Devrent Valley is often referred to as the \"Valley of Imagination\".\n\nThe rocks in the valley have taken on unique shapes due to natural erosion and the wind, and these shapes have captured the imagination of people over time. One of the most well-known rock formations is a large rock shape resembling a camel. Many other figures and shapes attract the attention of visitors and make the area a popular spot for photographers.\n\nDevrent Valley, unlike other Cappadocia valleys, is famous only for its natural rock formations, not structures such as settlements or churches. For this reason, the valley is an ideal place for tourists who want to take nature walks and explore the unique geological structure of the region.\n\nDevrent Valley, which offers its visitors a view that challenges the imagination, stands out as one of the natural wonders of Cappadocia, a must-see place for those who want to explore the region.  ",
-        "de": "Das Devrent-Tal, auch als Tal der Träume bekannt, liegt in der Nähe des Bezirks Avanos in der Provinz Nevsehir und ist eines der interessantesten und beeindruckendsten Täler Kappadokiens. Dieses Tal hat seinen Namen von den fantasievollen Formen der Felsformationen im Tal. Die Felsstrukturen sind voll von verschiedenen Tierfiguren, menschlichen Figuren und anderen kreativen Formen, weshalb das Devrent-Tal oft als \"Tal der Fantasie\" bezeichnet wird.\n\nDie Felsen im Tal haben durch die natürliche Erosion und den Wind einzigartige Formen angenommen, die im Laufe der Zeit die Fantasie der Menschen angeregt haben. Eine der bekanntesten Felsformationen ist eine große Felsform, die an ein Kamel erinnert. Darüber hinaus ziehen viele verschiedene Figuren und Formen die Aufmerksamkeit der Besucher auf sich und machen die Region zu einem beliebten Ort für Fotografen.\n\nDas Devrent-Tal ist im Gegensatz zu anderen Tälern Kappadokiens nur für seine natürlichen Felsformationen und nicht für Bauwerke wie Siedlungen oder Kirchen bekannt. Aus diesem Grund ist das Tal ein idealer Ort für Touristen, die Wanderungen in der Natur unternehmen und die einzigartige geologische Struktur der Region erkunden möchten.\n\nDas Devrent-Tal, das seinen Besuchern einen Ausblick bietet, der die Vorstellungskraft herausfordert, ist eines der Naturwunder Kappadokiens und ein Muss für alle, die die Region erkunden möchten.\n  "
+        "tr": "Aşk Vadisi, Kapadokya bölgesinin en popüler ve romantik vadilerinden biridir. Nevşehir il sınırları içinde yer alan bu vadi, ismini bölgedeki kayaların şekillerinden alır ve adeta aşkla ilişkilendirilen silüetleriyle ünlüdür. Aşk Vadisi, doğa severler, yürüyüşçüler ve fotoğrafçılar için mükemmel bir destinasyondur.\n\nVadinin içinde, peri bacası oluşumlarının en güzel örneklerini görmek mümkündür. Bu ilginç kaya yapıları, zamanla rüzgar ve su etkisiyle şekil almış ve vadiyi ziyaret edenlere adeta masalsı bir atmosfer sunar. Aşk Vadisi’nin en dikkat çekici özelliklerinden biri de kayaların arasındaki doğal geçitler, patikalar ve muazzam manzaralardır.\n\nBölgeye gelen ziyaretçiler, Aşk Vadisi’nde yürüyüş yaparak, Kapadokya'nın en güzel doğa manzaralarını keşfedebilirler. Özellikle gün batımında, vadinin içindeki taşların ve kayaların renkleri değişerek büyüleyici bir görsel şölen sunar. Bu nedenle Aşk Vadisi, fotoğrafçılar için oldukça popüler bir mekandır.\n\nAşk Vadisi, romantik bir atmosfere sahip olmasının yanı sıra, Kapadokya'nın eşsiz kaya oluşumlarını keşfetmek isteyenler için ideal bir alan sunar. Hem tarihî hem de doğal güzellikleriyle, bölgeyi keşfedenlere unutulmaz bir deneyim yaşatır.  ",
+        "en": "'\nLove Valley is one of the most popular and romantic valleys in the Cappadocia region. Located within the provincial borders of Nevşehir, this valley takes its name from the shapes of the rocks in the region and is famous for its silhouettes that are almost associated with love. Love Valley is a perfect destination for nature lovers, hikers and photographers.\n\nInside the valley, it is possible to see the most beautiful examples of fairy chimney formations. These interesting rock structures have been shaped by the effects of wind and water over time and offer a fairy-tale atmosphere to those who visit the valley. One of the most remarkable features of the Love Valley is the natural passages, paths and magnificent views between the rocks.\n\nVisitors to the region can discover the most beautiful natural landscapes of Cappadocia by hiking in the Love Valley. Especially at sunset, the colors of the stones and rocks in the valley change and offer a fascinating visual feast. For this reason, Love Valley is a very popular place for photographers.\n\nIn addition to having a romantic atmosphere, Love Valley offers an ideal area for those who want to explore the unique rock formations of Cappadocia. With both its historical and natural beauties, it offers an unforgettable experience to those who explore the region.  ",
+        "de": "Das Tal der Liebe ist eines der beliebtesten und romantischsten Täler in der Region Kappadokien. Es liegt innerhalb der Grenzen der Provinz Nevşehir und hat seinen Namen von den Formen der Felsen in der Region und ist berühmt für seine mit Liebe assoziierten Silhouetten. Das Love Valley ist ein ideales Ziel für Naturliebhaber, Wanderer und Fotografen.\n\nIm Tal kann man die schönsten Beispiele von Feenkaminen besichtigen. Diese interessanten Felsstrukturen wurden im Laufe der Zeit durch die Wirkung von Wind und Wasser geformt und bieten den Besuchern des Tals eine märchenhafte Atmosphäre. Eines der bemerkenswertesten Merkmale des Liebestals sind die natürlichen Passagen, Wege und herrlichen Aussichten zwischen den Felsen.\n\nBesucher der Region können bei einer Wanderung im Tal der Liebe die schönsten Naturlandschaften Kappadokiens entdecken. Besonders bei Sonnenuntergang verändern sich die Farben der Steine und Felsen im Tal und bieten ein faszinierendes visuelles Erlebnis. Aus diesem Grund ist das Liebestal ein sehr beliebter Ort für Fotografen.\n\nDas Love Valley bietet nicht nur eine romantische Atmosphäre, sondern ist auch ein ideales Gebiet für diejenigen, die die einzigartigen Felsformationen Kappadokiens erkunden möchten. Mit seinen historischen und natürlichen Schönheiten bietet es denjenigen, die die Region erkunden, ein unvergessliches Erlebnis.\n  "
       },
       "activities": {
         "tr": [
-          "Kayaların şekillerini keşfetmek",
-          "Fotoğraf çekmek"
+          "Vadide yürüyüş yapmak",
+          "Romantik fotoğraflar çekmek",
+          "Manzara izlemek"
         ],
         "en": [
-          "Explore the shapes of the rocks",
-          "Photography"
+          "Hike in the valley",
+          "Take romantic photos",
+          "Enjoy the view"
         ],
         "de": [
-          "Die Felsenformen erkunden",
-          "Fotografie"
+          "Wandern im Tal",
+          "Romantische Fotos machen",
+          "Die Aussicht genießen"
         ]
       },
       "categories": {
@@ -9658,9 +9587,10 @@
         ]
       },
       "images": [
-        "https://example.com/devrent_vadisi.jpg"
+        "https://example.com/ask_vadisi.jpg"
       ]
     },
+   
     {
       "slug": "cavusin-koyu",
       "name": {
@@ -9745,6 +9675,92 @@
       },
       "images": [
         "https://example.com/ortahisar_kalesi.jpg"
+      ]
+    },
+ {
+      "slug": "devrent-vadisi-hayal-vadisi",
+      "name": {
+        "tr": "Devrent Vadisi (Hayal Vadisi)",
+        "en": "Devrent Valley (Imagination Valley)",
+        "de": "Devrent Tal (Tal der Fantasie)"
+      },
+      "latitude": 38.67288,
+      "longitude": 34.8858,
+      "description": {
+        "tr": "Devrent Vadisi, aynı zamanda Hayal Vadisi olarak da bilinir, Nevşehir ilinin Avanos ilçesine yakın bir konumda yer alır ve Kapadokya'nın en ilginç ve etkileyici vadilerinden biridir. Bu vadi, adını, vadideki kaya oluşumlarının hayal gücünü zorlayan şekillerinden alır. Kaya yapıları, çeşitli hayvan figürleri, insan figürleri ve diğer yaratıcı şekillerle doludur, bu yüzden Devrent Vadisi genellikle \"Hayal Vadisi\" olarak adlandırılır.\n\nVadideki kayalar, doğal erozyon ve rüzgarın etkisiyle benzersiz şekiller almış ve bu şekiller zamanla insanların hayal gücünü harekete geçirmiştir. En bilinen kaya oluşumlarından biri, deveye benzeyen büyük bir kaya şeklidir. Bunun dışında birçok farklı figür ve şekil, ziyaretçilerin dikkatini çeker ve bölgeyi fotoğrafçılar için popüler bir mekan haline getirir.\n\nDevrent Vadisi, diğer Kapadokya vadilerinden farklı olarak, yerleşim alanları veya kiliseler gibi yapılarla değil, sadece doğal kaya oluşumları ile ünlüdür. Bu nedenle vadi, doğa yürüyüşleri yapmak ve bölgenin eşsiz jeolojik yapısını keşfetmek isteyen turistler için ideal bir yerdir.\n\nZiyaretçilerine hayal gücünü zorlayan bir manzara sunan Devrent Vadisi, Kapadokya’nın doğa harikalarından biri olarak, bölgeyi keşfetmek isteyenlerin mutlaka görmesi gereken bir yer olarak öne çıkar.\n  ",
+        "en": "'\nDevrent Valley, also known as the Valley of Dreams, is located close to Avanos district of Nevsehir province and is one of the most interesting and impressive valleys in Cappadocia. This valley takes its name from the imaginative shapes of the rock formations in the valley. The rock structures are full of various animal figures, human figures and other creative shapes, which is why Devrent Valley is often referred to as the \"Valley of Imagination\".\n\nThe rocks in the valley have taken on unique shapes due to natural erosion and the wind, and these shapes have captured the imagination of people over time. One of the most well-known rock formations is a large rock shape resembling a camel. Many other figures and shapes attract the attention of visitors and make the area a popular spot for photographers.\n\nDevrent Valley, unlike other Cappadocia valleys, is famous only for its natural rock formations, not structures such as settlements or churches. For this reason, the valley is an ideal place for tourists who want to take nature walks and explore the unique geological structure of the region.\n\nDevrent Valley, which offers its visitors a view that challenges the imagination, stands out as one of the natural wonders of Cappadocia, a must-see place for those who want to explore the region.  ",
+        "de": "Das Devrent-Tal, auch als Tal der Träume bekannt, liegt in der Nähe des Bezirks Avanos in der Provinz Nevsehir und ist eines der interessantesten und beeindruckendsten Täler Kappadokiens. Dieses Tal hat seinen Namen von den fantasievollen Formen der Felsformationen im Tal. Die Felsstrukturen sind voll von verschiedenen Tierfiguren, menschlichen Figuren und anderen kreativen Formen, weshalb das Devrent-Tal oft als \"Tal der Fantasie\" bezeichnet wird.\n\nDie Felsen im Tal haben durch die natürliche Erosion und den Wind einzigartige Formen angenommen, die im Laufe der Zeit die Fantasie der Menschen angeregt haben. Eine der bekanntesten Felsformationen ist eine große Felsform, die an ein Kamel erinnert. Darüber hinaus ziehen viele verschiedene Figuren und Formen die Aufmerksamkeit der Besucher auf sich und machen die Region zu einem beliebten Ort für Fotografen.\n\nDas Devrent-Tal ist im Gegensatz zu anderen Tälern Kappadokiens nur für seine natürlichen Felsformationen und nicht für Bauwerke wie Siedlungen oder Kirchen bekannt. Aus diesem Grund ist das Tal ein idealer Ort für Touristen, die Wanderungen in der Natur unternehmen und die einzigartige geologische Struktur der Region erkunden möchten.\n\nDas Devrent-Tal, das seinen Besuchern einen Ausblick bietet, der die Vorstellungskraft herausfordert, ist eines der Naturwunder Kappadokiens und ein Muss für alle, die die Region erkunden möchten.\n  "
+      },
+      "activities": {
+        "tr": [
+          "Kayaların şekillerini keşfetmek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Explore the shapes of the rocks",
+          "Photography"
+        ],
+        "de": [
+          "Die Felsenformen erkunden",
+          "Fotografie"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/devrent_vadisi.jpg"
+      ]
+    },
+{
+      "slug": "derinkuyu-yeralti-sehri",
+      "name": {
+        "tr": "Derinkuyu Yeraltı Şehri",
+        "en": "Derinkuyu Underground City",
+        "de": "Derinkuyu Untergrundstadt"
+      },
+      "latitude": 38.37364,
+      "longitude": 34.73518,
+      "description": {
+        "tr": "Derinkuyu Yeraltı Şehri, Nevşehir-Niğde karayolu üzerinde, Nevşehir’e yaklaşık 30 km uzaklıkta yer almaktadır. Kapadokya bölgesinin en büyük ve en derin yeraltı şehirlerinden biri olan Derinkuyu, yaklaşık 85 metre derinliğe ulaşmaktadır. 1963 yılında tesadüfen keşfedilen ve 1967 yılında ziyarete açılan bu eşsiz yapı, 2. yüzyılda Roma zulmünden kaçan ilk Hristiyanların sığınağı olarak kullanılmıştır.\n\nYeraltı şehri, ahır, kiler, yemekhane, kilise, şırahane gibi birçok yapıyı barındırmaktadır. 2. katta yer alan misyonerler okulu, geniş beşik tonozlu tavanı ve çalışma odalarıyla dikkat çeker. Şehrin 3. ve 4. katlarından sonra merdivenlerle derinlere inilerek haç planlı bir kiliseye ulaşılmaktadır. Ayrıca, 55 metre derinliğe kadar uzanan bir havalandırma bacası, aynı zamanda su kuyusu olarak da kullanılmıştır.\n\nBazı kuyuların yeryüzüyle bağlantısının olmaması, istilalar sırasında zehirlenmeyi önlemek için geliştirilmiş bir savunma mekanizmasıdır. Toplamda 4 kilometrekarelik bir alanı kapsayan Derinkuyu Yeraltı Şehri’nin sadece 2,5 kilometrekarelik kısmı ve 8 katı temizlenerek ziyarete açılmıştır. Tamamen temizlendiğinde, toplam kat sayısının 12-13’e ulaşacağı ve derinliğin 85 metreyi bulacağı tahmin edilmektedir.\n\nDerinkuyu Yeraltı Şehri, hem mimarisi hem de tarihi ile Kapadokya’nın en dikkat çekici yapılarından biridir ve yaklaşık 50 bin kişinin dış dünyayla bağlantı kurmadan uzun süre yaşayabileceği bir düzenek sunmaktadır.\n  ",
+        "en": "'\nDerinkuyu Underground City is one of the deepest and largest underground cities in the Cappadocia region, located in Derinkuyu district of Nevşehir province. Dating back to the 8th century BC, this underground complex was used by the Medes, Hittites and later Christian communities to protect themselves from wars and attacks.\n\nThe city is an impressive feat of engineering with 8 levels extending to a depth of 60 meters. The areas open to visitors include kitchens, wine cellars, churches, warehouses, stables, living quarters and even a school. The city has extensive ventilation systems and water wells designed to sustain hundreds of people for long periods of time. It is also notable for the giant stone gates used to seal the entrances and the defense mechanisms developed against attacks.\n\nDerinkuyu Underground City is associated with a system of tunnels linked to the other underground cities of Cappadocia. This feature shows how strategically planned the area was.\n\nToday, Derinkuyu Underground City is one of the most important tourist spots in Cappadocia for history and archaeology enthusiasts. It offers a unique experience for those who want to explore the underground world of Cappadocia.  ",
+        "de": "Die unterirdische Stadt Derinkuyu liegt an der Fernstraße Nevşehir-Niğde, etwa 30 km von Nevşehir entfernt. Derinkuyu, eine der größten und tiefsten unterirdischen Städte der Region Kappadokien, erreicht eine Tiefe von etwa 85 Metern. Dieses einzigartige Bauwerk, das 1963 zufällig entdeckt und 1967 für Besucher geöffnet wurde, diente den ersten Christen, die im 2. Jahrhundert vor der römischen Verfolgung flohen, als Zufluchtsort.\n\nIn der unterirdischen Stadt befinden sich zahlreiche Gebäude wie Ställe, Keller, Speisesäle, Kirchen und Weinkellereien. Im 2. Stockwerk zieht die Missionsschule mit ihrem großen Tonnengewölbe und den Studienräumen die Aufmerksamkeit auf sich. Nach dem 3. und 4. Stockwerk der Stadt führt eine Treppe hinunter zu einer Kirche mit kreuzförmigem Grundriss. Ein Lüftungsschacht, der bis in eine Tiefe von 55 Metern reicht, wurde auch als Wasserbrunnen genutzt.\n\nDie Tatsache, dass einige der Brunnen nicht mit der Erde verbunden sind, ist ein Verteidigungsmechanismus, der entwickelt wurde, um Vergiftungen bei Invasionen zu verhindern. Nur 2,5 Quadratkilometer und 8 Stockwerke der unterirdischen Stadt Derinkuyu, die eine Gesamtfläche von 4 Quadratkilometern umfasst, wurden gereinigt und für Besucher geöffnet. Wenn sie vollständig gereinigt ist, wird die Gesamtzahl der Stockwerke auf 12-13 und die Tiefe auf 85 Meter geschätzt.\n\nDie unterirdische Stadt Derinkuyu ist eines der architektonisch und historisch bemerkenswertesten Bauwerke Kappadokiens und bietet eine Anlage, in der ca. 50.000 Menschen für lange Zeit ohne Kontakt zur Außenwelt leben können.\n  "
+      },
+      "activities": {
+        "tr": [
+          "Derinkuyu Yeraltı Şehrini gezmek",
+          "Tarihi kalıntıları incelemek"
+        ],
+        "en": [
+          "Explore Derinkuyu Underground City",
+          "Examine the historical ruins"
+        ],
+        "de": [
+          "Die Derinkuyu Untergrundstadt erkunden",
+          "Die historischen Ruinen untersuchen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "arkeolojik alan"
+        ],
+        "en": [
+          "archaeological site"
+        ],
+        "de": [
+          "archäologische Stätte"
+        ]
+      },
+      "images": [
+        "https://example.com/derinkuyu_yeraltı_sehri.jpg"
       ]
     },
     {
@@ -10005,52 +10021,7 @@
         "https://example.com/gizli_vadisi.jpg"
       ]
     },
-    {
-      "slug": "ask-vadisi",
-      "name": {
-        "tr": "Aşk Vadisi",
-        "en": "Love Valley",
-        "de": "Liebtal"
-      },
-      "latitude": 38.66085,
-      "longitude": 34.81971,
-      "description": {
-        "tr": "Aşk Vadisi, Kapadokya bölgesinin en popüler ve romantik vadilerinden biridir. Nevşehir il sınırları içinde yer alan bu vadi, ismini bölgedeki kayaların şekillerinden alır ve adeta aşkla ilişkilendirilen silüetleriyle ünlüdür. Aşk Vadisi, doğa severler, yürüyüşçüler ve fotoğrafçılar için mükemmel bir destinasyondur.\n\nVadinin içinde, peri bacası oluşumlarının en güzel örneklerini görmek mümkündür. Bu ilginç kaya yapıları, zamanla rüzgar ve su etkisiyle şekil almış ve vadiyi ziyaret edenlere adeta masalsı bir atmosfer sunar. Aşk Vadisi’nin en dikkat çekici özelliklerinden biri de kayaların arasındaki doğal geçitler, patikalar ve muazzam manzaralardır.\n\nBölgeye gelen ziyaretçiler, Aşk Vadisi’nde yürüyüş yaparak, Kapadokya'nın en güzel doğa manzaralarını keşfedebilirler. Özellikle gün batımında, vadinin içindeki taşların ve kayaların renkleri değişerek büyüleyici bir görsel şölen sunar. Bu nedenle Aşk Vadisi, fotoğrafçılar için oldukça popüler bir mekandır.\n\nAşk Vadisi, romantik bir atmosfere sahip olmasının yanı sıra, Kapadokya'nın eşsiz kaya oluşumlarını keşfetmek isteyenler için ideal bir alan sunar. Hem tarihî hem de doğal güzellikleriyle, bölgeyi keşfedenlere unutulmaz bir deneyim yaşatır.  ",
-        "en": "'\nLove Valley is one of the most popular and romantic valleys in the Cappadocia region. Located within the provincial borders of Nevşehir, this valley takes its name from the shapes of the rocks in the region and is famous for its silhouettes that are almost associated with love. Love Valley is a perfect destination for nature lovers, hikers and photographers.\n\nInside the valley, it is possible to see the most beautiful examples of fairy chimney formations. These interesting rock structures have been shaped by the effects of wind and water over time and offer a fairy-tale atmosphere to those who visit the valley. One of the most remarkable features of the Love Valley is the natural passages, paths and magnificent views between the rocks.\n\nVisitors to the region can discover the most beautiful natural landscapes of Cappadocia by hiking in the Love Valley. Especially at sunset, the colors of the stones and rocks in the valley change and offer a fascinating visual feast. For this reason, Love Valley is a very popular place for photographers.\n\nIn addition to having a romantic atmosphere, Love Valley offers an ideal area for those who want to explore the unique rock formations of Cappadocia. With both its historical and natural beauties, it offers an unforgettable experience to those who explore the region.  ",
-        "de": "Das Tal der Liebe ist eines der beliebtesten und romantischsten Täler in der Region Kappadokien. Es liegt innerhalb der Grenzen der Provinz Nevşehir und hat seinen Namen von den Formen der Felsen in der Region und ist berühmt für seine mit Liebe assoziierten Silhouetten. Das Love Valley ist ein ideales Ziel für Naturliebhaber, Wanderer und Fotografen.\n\nIm Tal kann man die schönsten Beispiele von Feenkaminen besichtigen. Diese interessanten Felsstrukturen wurden im Laufe der Zeit durch die Wirkung von Wind und Wasser geformt und bieten den Besuchern des Tals eine märchenhafte Atmosphäre. Eines der bemerkenswertesten Merkmale des Liebestals sind die natürlichen Passagen, Wege und herrlichen Aussichten zwischen den Felsen.\n\nBesucher der Region können bei einer Wanderung im Tal der Liebe die schönsten Naturlandschaften Kappadokiens entdecken. Besonders bei Sonnenuntergang verändern sich die Farben der Steine und Felsen im Tal und bieten ein faszinierendes visuelles Erlebnis. Aus diesem Grund ist das Liebestal ein sehr beliebter Ort für Fotografen.\n\nDas Love Valley bietet nicht nur eine romantische Atmosphäre, sondern ist auch ein ideales Gebiet für diejenigen, die die einzigartigen Felsformationen Kappadokiens erkunden möchten. Mit seinen historischen und natürlichen Schönheiten bietet es denjenigen, die die Region erkunden, ein unvergessliches Erlebnis.\n  "
-      },
-      "activities": {
-        "tr": [
-          "Vadide yürüyüş yapmak",
-          "Romantik fotoğraflar çekmek",
-          "Manzara izlemek"
-        ],
-        "en": [
-          "Hike in the valley",
-          "Take romantic photos",
-          "Enjoy the view"
-        ],
-        "de": [
-          "Wandern im Tal",
-          "Romantische Fotos machen",
-          "Die Aussicht genießen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/ask_vadisi.jpg"
-      ]
-    },
+   
     {
       "slug": "asmali-konak",
       "name": {
@@ -10975,56 +10946,7 @@
         "https://example.com/konak_meydanı.jpg"
       ]
     },
-    {
-      "slug": "cakiraga-konagi",
-      "name": {
-        "tr": "Çakırağa Konağı",
-        "en": "Çakırağa Mansion",
-        "de": "Çakırağa Herrenhaus"
-      },
-      "latitude": 38.2276,
-      "longitude": 28.0053,
-      "description": {
-        "tr": "      Çakırağa Konağı, İzmir’in Birgi beldesinde yer alan ve 18. yüzyılda inşa edilmiş Osmanlı dönemi eserlerinden biridir.\n      Konağın en dikkat çekici özellikleri arasında ahşap süslemeler, renkli tavan motifleri ve dönemin zengin yaşam tarzını yansıtan odaları bulunur.\n      Konağın sahibi olan tüccar Şerif Aliağa tarafından iki eşine ithafen yapılmış olduğu söylenir. Konağın odalarındaki duvar resimlerinde İzmir ve İstanbul manzaraları yer alır.\n    ",
-        "en": "      Çakırağa Mansion is an 18th-century Ottoman period building located in Birgi, İzmir.\n      The mansion’s most remarkable features include wooden decorations, colorful ceiling motifs, and rooms reflecting the opulent lifestyle of the era.\n      It is said to have been built by the merchant Şerif Aliağa in tribute to his two wives. The room murals depict views of İzmir and Istanbul.\n    ",
-        "de": "      Das Çakırağa Herrenhaus ist ein osmanisches Gebäude aus dem 18. Jahrhundert, das in Birgi, Izmir, liegt.\n      Zu den bemerkenswertesten Merkmalen des Herrenhauses gehören Holzverzierungen, bunte Deckenmotive und Zimmer, die den luxuriösen Lebensstil der Ära widerspiegeln.\n      Es wird gesagt, dass es von dem Kaufmann Şerif Aliağa zu Ehren seiner beiden Frauen gebaut wurde. Die Wandgemälde im Haus zeigen Ansichten von Izmir und Istanbul.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Tarihi odaları gezmek",
-          "Ahşap süslemeleri incelemek",
-          "Rehber eşliğinde konağın hikâyesini öğrenmek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Tour the historic rooms",
-          "Examine the wooden decorations",
-          "Learn about the mansion’s history with a guide",
-          "Take photos"
-        ],
-        "de": [
-          "Die historischen Zimmer besichtigen",
-          "Die Holzverzierungen untersuchen",
-          "Mit einem Führer die Geschichte des Herrenhauses lernen",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/cakiraga_konagi.jpg",
-        "https://example.com/cakiraga_konagi_interior.jpg"
-      ]
-    },
+    
     {
       "slug": "kadifekale",
       "name": {
@@ -11123,49 +11045,7 @@
         "https://example.com/kemeraltı_çarsısı.jpg"
       ]
     },
-    {
-      "slug": "izmir-arkeoloji-muzesi",
-      "name": {
-        "tr": "İzmir Arkeoloji Müzesi",
-        "en": "Izmir Archaeology Museum",
-        "de": "Izmir Archäologisches Museum"
-      },
-      "latitude": 38.41387,
-      "longitude": 27.1285,
-      "description": {
-        "tr": "      İzmir Arkeoloji Müzesi, bölgedeki antik medeniyetlerden kalma önemli eserleri sergiler.\n      Birçok tarihi parça burada sergilenmektedir.\n    ",
-        "en": "      Izmir Archaeology Museum exhibits important artifacts from ancient civilizations of the region.\n      Many historical pieces are displayed here.\n    ",
-        "de": "      Das Izmir Archäologische Museum zeigt wichtige Artefakte aus den antiken Zivilisationen der Region.\n      Viele historische Stücke werden hier ausgestellt.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Arkeolojik eserleri incelemek",
-          "Müzeyi gezmek"
-        ],
-        "en": [
-          "Examine archaeological artifacts",
-          "Tour the museum"
-        ],
-        "de": [
-          "Archäologische Artefakte untersuchen",
-          "Das Museum besichtigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "müze"
-        ],
-        "en": [
-          "museum"
-        ],
-        "de": [
-          "Museum"
-        ]
-      },
-      "images": [
-        "https://example.com/izmir_arkeoloji_muzesi.jpg"
-      ]
-    },
+    
     {
       "slug": "cesme",
       "name": {
@@ -11393,99 +11273,7 @@
         "https://example.com/bergama.jpg"
       ]
     },
-    {
-      "slug": "sigacik-koyu-seferihisar",
-      "name": {
-        "tr": "Sığacık Köyü (Seferihisar)",
-        "en": "Sigacik Village (Seferihisar)",
-        "de": "Sığacık Dorf (Seferihisar)"
-      },
-      "latitude": 38.18776,
-      "longitude": 26.77742,
-      "description": {
-        "tr": "      Sığacık, Seferihisar ilçesinin şirin köylerinden biridir. Huzurlu atmosferi, organik pazarı ve Ege'nin sakin köy yaşamı ile ünlüdür.\n    ",
-        "en": "      Sigacik is one of the charming villages in Seferihisar district. It is famous for its peaceful atmosphere, organic market, and tranquil Aegean village life.\n    ",
-        "de": "      Sığacık ist eines der charmanten Dörfer im Landkreis Seferihisar. Es ist bekannt für seine ruhige Atmosphäre, den Bio-Markt und das friedliche Leben im ägäischen Dorf.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Köyde yürüyüş yapmak",
-          "Organik pazarı gezmek",
-          "Ege mutfağını keşfetmek"
-        ],
-        "en": [
-          "Walk through the village",
-          "Visit the organic market",
-          "Explore Aegean cuisine"
-        ],
-        "de": [
-          "Durch das Dorf spazieren",
-          "Den Bio-Markt besuchen",
-          "Die ägäische Küche erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şehir turu"
-        ],
-        "en": [
-          "city tour"
-        ],
-        "de": [
-          "stadtrundfahrt"
-        ]
-      },
-      "images": [
-        "https://example.com/sigacik.jpg"
-      ]
-    },
-    {
-      "slug": "yamanlar-dagi",
-      "name": {
-        "tr": "Yamanlar Dağı",
-        "en": "Yamanlar Mountain",
-        "de": "Yamanlar Berg"
-      },
-      "latitude": 38.53434,
-      "longitude": 27.23299,
-      "description": {
-        "tr": "      Yamanlar Dağı, İzmir'in en yüksek dağlarından biridir. Doğa yürüyüşleri ve dağcılık için popüler olan bu dağ, zirveden İzmir manzarası sunar.\n    ",
-        "en": "      Yamanlar Mountain is one of the highest mountains in Izmir. This mountain is popular for hiking and mountaineering, offering a panoramic view of Izmir from the summit.\n    ",
-        "de": "      Der Yamanlar Berg ist einer der höchsten Berge in Izmir. Der Berg ist bei Wanderern und Bergsteigern beliebt und bietet einen Panoramablick auf Izmir vom Gipfel.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Dağcılık ve yürüyüş yapmak",
-          "Doğa fotoğrafçılığı",
-          "Zirveye tırmanmak"
-        ],
-        "en": [
-          "Hiking and mountaineering",
-          "Nature photography",
-          "Climb to the summit"
-        ],
-        "de": [
-          "Bergsteigen und Wandern",
-          "Naturfotografie",
-          "Auf den Gipfel steigen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/yamanlar_dagi.jpg"
-      ]
-    },
-    {
+ {
       "slug": "izmir-kordon-boyu",
       "name": {
         "tr": "İzmir Kordon Boyu",
@@ -11531,52 +11319,7 @@
         "https://example.com/kordon_boyu.jpg"
       ]
     },
-    {
-      "slug": "agacli-yol-buca",
-      "name": {
-        "tr": "Ağaclı Yol (Buca)",
-        "en": "Agacli Road (Buca)",
-        "de": "Agacli Straße (Buca)"
-      },
-      "latitude": 38.39967,
-      "longitude": 27.07917,
-      "description": {
-        "tr": "      Ağaclı Yol, İzmir'in Buca ilçesinde yer alan, ormanlık bir alanda yürüyüş yapabileceğiniz doğal bir güzelliktir.\n    ",
-        "en": "      Agacli Road is a natural beauty located in the Buca district of Izmir, where you can go for a walk in a forested area.\n    ",
-        "de": "      Die Agacli Straße ist eine natürliche Schönheit im Bezirk Buca von Izmir, wo man in einem bewaldeten Gebiet spazieren gehen kann.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Doğa yürüyüşü yapmak",
-          "Manzara fotoğrafları çekmek",
-          "Piknik yapmak"
-        ],
-        "en": [
-          "Go for a nature walk",
-          "Take landscape photos",
-          "Have a picnic"
-        ],
-        "de": [
-          "Spaziergang in der Natur",
-          "Landschaftsfotos machen",
-          "Picknick machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/agacli_yol.jpg"
-      ]
-    },
+    
     {
       "slug": "agora-antik-kenti",
       "name": {
@@ -11669,9 +11412,424 @@
       "images": [
         "https://example.com/teos_antik_kenti.jpg"
       ]
+    },
+{
+      "slug": "izmir-arkeoloji-muzesi",
+      "name": {
+        "tr": "İzmir Arkeoloji Müzesi",
+        "en": "Izmir Archaeology Museum",
+        "de": "Izmir Archäologisches Museum"
+      },
+      "latitude": 38.41387,
+      "longitude": 27.1285,
+      "description": {
+        "tr": "      İzmir Arkeoloji Müzesi, bölgedeki antik medeniyetlerden kalma önemli eserleri sergiler.\n      Birçok tarihi parça burada sergilenmektedir.\n    ",
+        "en": "      Izmir Archaeology Museum exhibits important artifacts from ancient civilizations of the region.\n      Many historical pieces are displayed here.\n    ",
+        "de": "      Das Izmir Archäologische Museum zeigt wichtige Artefakte aus den antiken Zivilisationen der Region.\n      Viele historische Stücke werden hier ausgestellt.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Arkeolojik eserleri incelemek",
+          "Müzeyi gezmek"
+        ],
+        "en": [
+          "Examine archaeological artifacts",
+          "Tour the museum"
+        ],
+        "de": [
+          "Archäologische Artefakte untersuchen",
+          "Das Museum besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "müze"
+        ],
+        "en": [
+          "museum"
+        ],
+        "de": [
+          "Museum"
+        ]
+      },
+      "images": [
+        "https://example.com/izmir_arkeoloji_muzesi.jpg"
+      ]
+    },
+{
+      "slug": "cakiraga-konagi",
+      "name": {
+        "tr": "Çakırağa Konağı",
+        "en": "Çakırağa Mansion",
+        "de": "Çakırağa Herrenhaus"
+      },
+      "latitude": 38.2276,
+      "longitude": 28.0053,
+      "description": {
+        "tr": "      Çakırağa Konağı, İzmir’in Birgi beldesinde yer alan ve 18. yüzyılda inşa edilmiş Osmanlı dönemi eserlerinden biridir.\n      Konağın en dikkat çekici özellikleri arasında ahşap süslemeler, renkli tavan motifleri ve dönemin zengin yaşam tarzını yansıtan odaları bulunur.\n      Konağın sahibi olan tüccar Şerif Aliağa tarafından iki eşine ithafen yapılmış olduğu söylenir. Konağın odalarındaki duvar resimlerinde İzmir ve İstanbul manzaraları yer alır.\n    ",
+        "en": "      Çakırağa Mansion is an 18th-century Ottoman period building located in Birgi, İzmir.\n      The mansion’s most remarkable features include wooden decorations, colorful ceiling motifs, and rooms reflecting the opulent lifestyle of the era.\n      It is said to have been built by the merchant Şerif Aliağa in tribute to his two wives. The room murals depict views of İzmir and Istanbul.\n    ",
+        "de": "      Das Çakırağa Herrenhaus ist ein osmanisches Gebäude aus dem 18. Jahrhundert, das in Birgi, Izmir, liegt.\n      Zu den bemerkenswertesten Merkmalen des Herrenhauses gehören Holzverzierungen, bunte Deckenmotive und Zimmer, die den luxuriösen Lebensstil der Ära widerspiegeln.\n      Es wird gesagt, dass es von dem Kaufmann Şerif Aliağa zu Ehren seiner beiden Frauen gebaut wurde. Die Wandgemälde im Haus zeigen Ansichten von Izmir und Istanbul.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Tarihi odaları gezmek",
+          "Ahşap süslemeleri incelemek",
+          "Rehber eşliğinde konağın hikâyesini öğrenmek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Tour the historic rooms",
+          "Examine the wooden decorations",
+          "Learn about the mansion’s history with a guide",
+          "Take photos"
+        ],
+        "de": [
+          "Die historischen Zimmer besichtigen",
+          "Die Holzverzierungen untersuchen",
+          "Mit einem Führer die Geschichte des Herrenhauses lernen",
+          "Fotos machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/cakiraga_konagi.jpg",
+        "https://example.com/cakiraga_konagi_interior.jpg"
+      ]
+    },
+{
+      "slug": "agacli-yol-buca",
+      "name": {
+        "tr": "Ağaclı Yol (Buca)",
+        "en": "Agacli Road (Buca)",
+        "de": "Agacli Straße (Buca)"
+      },
+      "latitude": 38.39967,
+      "longitude": 27.07917,
+      "description": {
+        "tr": "      Ağaclı Yol, İzmir'in Buca ilçesinde yer alan, ormanlık bir alanda yürüyüş yapabileceğiniz doğal bir güzelliktir.\n    ",
+        "en": "      Agacli Road is a natural beauty located in the Buca district of Izmir, where you can go for a walk in a forested area.\n    ",
+        "de": "      Die Agacli Straße ist eine natürliche Schönheit im Bezirk Buca von Izmir, wo man in einem bewaldeten Gebiet spazieren gehen kann.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Doğa yürüyüşü yapmak",
+          "Manzara fotoğrafları çekmek",
+          "Piknik yapmak"
+        ],
+        "en": [
+          "Go for a nature walk",
+          "Take landscape photos",
+          "Have a picnic"
+        ],
+        "de": [
+          "Spaziergang in der Natur",
+          "Landschaftsfotos machen",
+          "Picknick machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/agacli_yol.jpg"
+      ]
+    },
+    {
+      "slug": "sigacik-koyu-seferihisar",
+      "name": {
+        "tr": "Sığacık Köyü (Seferihisar)",
+        "en": "Sigacik Village (Seferihisar)",
+        "de": "Sığacık Dorf (Seferihisar)"
+      },
+      "latitude": 38.18776,
+      "longitude": 26.77742,
+      "description": {
+        "tr": "      Sığacık, Seferihisar ilçesinin şirin köylerinden biridir. Huzurlu atmosferi, organik pazarı ve Ege'nin sakin köy yaşamı ile ünlüdür.\n    ",
+        "en": "      Sigacik is one of the charming villages in Seferihisar district. It is famous for its peaceful atmosphere, organic market, and tranquil Aegean village life.\n    ",
+        "de": "      Sığacık ist eines der charmanten Dörfer im Landkreis Seferihisar. Es ist bekannt für seine ruhige Atmosphäre, den Bio-Markt und das friedliche Leben im ägäischen Dorf.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Köyde yürüyüş yapmak",
+          "Organik pazarı gezmek",
+          "Ege mutfağını keşfetmek"
+        ],
+        "en": [
+          "Walk through the village",
+          "Visit the organic market",
+          "Explore Aegean cuisine"
+        ],
+        "de": [
+          "Durch das Dorf spazieren",
+          "Den Bio-Markt besuchen",
+          "Die ägäische Küche erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şehir turu"
+        ],
+        "en": [
+          "city tour"
+        ],
+        "de": [
+          "stadtrundfahrt"
+        ]
+      },
+      "images": [
+        "https://example.com/sigacik.jpg"
+      ]
+    },
+    {
+      "slug": "yamanlar-dagi",
+      "name": {
+        "tr": "Yamanlar Dağı",
+        "en": "Yamanlar Mountain",
+        "de": "Yamanlar Berg"
+      },
+      "latitude": 38.53434,
+      "longitude": 27.23299,
+      "description": {
+        "tr": "      Yamanlar Dağı, İzmir'in en yüksek dağlarından biridir. Doğa yürüyüşleri ve dağcılık için popüler olan bu dağ, zirveden İzmir manzarası sunar.\n    ",
+        "en": "      Yamanlar Mountain is one of the highest mountains in Izmir. This mountain is popular for hiking and mountaineering, offering a panoramic view of Izmir from the summit.\n    ",
+        "de": "      Der Yamanlar Berg ist einer der höchsten Berge in Izmir. Der Berg ist bei Wanderern und Bergsteigern beliebt und bietet einen Panoramablick auf Izmir vom Gipfel.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Dağcılık ve yürüyüş yapmak",
+          "Doğa fotoğrafçılığı",
+          "Zirveye tırmanmak"
+        ],
+        "en": [
+          "Hiking and mountaineering",
+          "Nature photography",
+          "Climb to the summit"
+        ],
+        "de": [
+          "Bergsteigen und Wandern",
+          "Naturfotografie",
+          "Auf den Gipfel steigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/yamanlar_dagi.jpg"
+      ]
     }
   ],
   "adana": [
+ {
+      "slug": "sabanci-merkez-camii",
+      "name": {
+        "tr": "Sabancı Merkez Camii",
+        "en": "Sabancı Central Mosque",
+        "de": "Sabancı Zentralmoschee"
+      },
+      "latitude": 36.99172,
+      "longitude": 35.3346,
+      "description": {
+        "tr": "      Sabancı Merkez Camii, Türkiye'nin ve Orta Doğu'nun en büyük camilerinden biridir.\n      Şehrin simgesi haline gelmiş bu cami, Seyhan Nehri kenarında yer alır.\n    ",
+        "en": "      Sabancı Central Mosque is one of the largest mosques in Turkey and the Middle East.\n      Located along the Seyhan River, it has become an iconic landmark of the city.\n    ",
+        "de": "      Die Sabancı Zentralmoschee ist eine der größten Moscheen in der Türkei und im Nahen Osten.\n      Sie liegt am Seyhan-Fluss und ist ein Wahrzeichen der Stadt.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Cami içerisinde ibadet etmek",
+          "Cami mimarisini incelemek",
+          "Çevrede fotoğraf çekmek"
+        ],
+        "en": [
+          "Worship inside the mosque",
+          "Examine the mosque architecture",
+          "Take photos around"
+        ],
+        "de": [
+          "Im Inneren der Moschee beten",
+          "Die Architektur der Moschee bewundern",
+          "Fotos machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "cami"
+        ],
+        "en": [
+          "mosque"
+        ],
+        "de": [
+          "Moschee"
+        ]
+      },
+      "images": [
+        "https://example.com/sabanci_merkez_camii.jpg"
+      ]
+    },
+    {
+      "slug": "varda-koprusu",
+      "name": {
+        "tr": "Varda Köprüsü",
+        "en": "Varda Bridge",
+        "de": "Varda Brücke"
+      },
+      "latitude": 37.24311,
+      "longitude": 34.97716,
+      "description": {
+        "tr": "      Varda Köprüsü, Alman köprüsü olarak da bilinir ve tarihi bir demiryolu köprüsüdür.\n      Bu köprü, muhteşem doğa manzarası ve yüksekliği ile ünlüdür.\n    ",
+        "en": "      Varda Bridge, also known as the German Bridge, is a historic railway bridge.\n      It is famous for its stunning natural views and impressive height.\n    ",
+        "de": "      Die Varda Brücke, auch als Deutsche Brücke bekannt, ist eine historische Eisenbahnbrücke.\n      Sie ist berühmt für ihre atemberaubenden Naturansichten und beeindruckende Höhe.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Köprüde yürüyüş yapmak",
+          "Doğa fotoğrafçılığı yapmak",
+          "Çevredeki doğal alanları gezmek"
+        ],
+        "en": [
+          "Walk on the bridge",
+          "Do nature photography",
+          "Explore surrounding nature areas"
+        ],
+        "de": [
+          "Über die Brücke gehen",
+          "Naturfotografie machen",
+          "Die umliegenden Naturgebiete erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/varda_koprusu.jpg"
+      ]
+    },
+ {
+      "slug": "buyuk-saat-kulesi",
+      "name": {
+        "tr": "Büyük Saat Kulesi",
+        "en": "Great Clock Tower",
+        "de": "Großer Uhrturm"
+      },
+      "latitude": 36.9847,
+      "longitude": 35.33024,
+      "description": {
+        "tr": "      Adana'nın simgelerinden olan Büyük Saat Kulesi, Osmanlı döneminde inşa edilmiştir.\n      Türkiye'nin en yüksek saat kulesidir.\n    ",
+        "en": "      The Great Clock Tower, one of Adana's landmarks, was built during the Ottoman period.\n      It is the tallest clock tower in Turkey.\n    ",
+        "de": "      Der Große Uhrturm, eines der Wahrzeichen von Adana, wurde während der Osmanischen Zeit erbaut.\n      Es ist der höchste Uhrturm in der Türkei.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Saat Kulesini görmek",
+          "Tarihi sokaklarda gezmek",
+          "Çevredeki dükkanları ziyaret etmek"
+        ],
+        "en": [
+          "See the Clock Tower",
+          "Walk through the historic streets",
+          "Visit nearby shops"
+        ],
+        "de": [
+          "Den Uhrturm besichtigen",
+          "Durch die historischen Straßen spazieren",
+          "Die Geschäfte in der Nähe besuchen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şehir simgesi"
+        ],
+        "en": [
+          "city landmark"
+        ],
+        "de": [
+          "Wahrzeichen der Stadt"
+        ]
+      },
+      "images": [
+        "https://example.com/buyuk_saat_kulesi.jpg"
+      ]
+    },
+    {
+      "slug": "seyhan-baraji",
+      "name": {
+        "tr": "Seyhan Barajı",
+        "en": "Seyhan Dam",
+        "de": "Seyhan Talsperre"
+      },
+      "latitude": 37.07955,
+      "longitude": 35.33161,
+      "description": {
+        "tr": "      Seyhan Barajı, Adana'da Seyhan Nehri üzerinde bulunan bir barajdır.\n      Baraj gölü çevresinde dinlenme ve piknik alanları bulunur.\n    ",
+        "en": "      Seyhan Dam is a dam located on the Seyhan River in Adana.\n      The area around the dam features rest and picnic areas.\n    ",
+        "de": "      Der Seyhan-Staudamm ist ein Staudamm am Seyhan-Fluss in Adana.\n      Rund um den Damm gibt es Erholungs- und Picknickbereiche.\n    "
+      },
+      "activities": {
+        "tr": [
+          "Baraj çevresinde yürüyüş yapmak",
+          "Piknik yapmak",
+          "Manzarayı seyretmek"
+        ],
+        "en": [
+          "Walk around the dam",
+          "Have a picnic",
+          "Enjoy the view"
+        ],
+        "de": [
+          "Um den Staudamm spazieren gehen",
+          "Picknick machen",
+          "Die Aussicht genießen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "park"
+        ],
+        "en": [
+          "park"
+        ],
+        "de": [
+          "park"
+        ]
+      },
+      "images": [
+        "https://example.com/seyhan_baraji.jpg"
+      ]
+    },
     {
       "slug": "anavarza-antik-kenti",
       "name": {
@@ -11814,144 +11972,7 @@
         "https://example.com/seyhan_merkez_park_2.jpg"
       ]
     },
-    {
-      "slug": "sabanci-merkez-camii",
-      "name": {
-        "tr": "Sabancı Merkez Camii",
-        "en": "Sabancı Central Mosque",
-        "de": "Sabancı Zentralmoschee"
-      },
-      "latitude": 36.99172,
-      "longitude": 35.3346,
-      "description": {
-        "tr": "      Sabancı Merkez Camii, Türkiye'nin ve Orta Doğu'nun en büyük camilerinden biridir.\n      Şehrin simgesi haline gelmiş bu cami, Seyhan Nehri kenarında yer alır.\n    ",
-        "en": "      Sabancı Central Mosque is one of the largest mosques in Turkey and the Middle East.\n      Located along the Seyhan River, it has become an iconic landmark of the city.\n    ",
-        "de": "      Die Sabancı Zentralmoschee ist eine der größten Moscheen in der Türkei und im Nahen Osten.\n      Sie liegt am Seyhan-Fluss und ist ein Wahrzeichen der Stadt.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Cami içerisinde ibadet etmek",
-          "Cami mimarisini incelemek",
-          "Çevrede fotoğraf çekmek"
-        ],
-        "en": [
-          "Worship inside the mosque",
-          "Examine the mosque architecture",
-          "Take photos around"
-        ],
-        "de": [
-          "Im Inneren der Moschee beten",
-          "Die Architektur der Moschee bewundern",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "cami"
-        ],
-        "en": [
-          "mosque"
-        ],
-        "de": [
-          "Moschee"
-        ]
-      },
-      "images": [
-        "https://example.com/sabanci_merkez_camii.jpg"
-      ]
-    },
-    {
-      "slug": "varda-koprusu",
-      "name": {
-        "tr": "Varda Köprüsü",
-        "en": "Varda Bridge",
-        "de": "Varda Brücke"
-      },
-      "latitude": 37.24311,
-      "longitude": 34.97716,
-      "description": {
-        "tr": "      Varda Köprüsü, Alman köprüsü olarak da bilinir ve tarihi bir demiryolu köprüsüdür.\n      Bu köprü, muhteşem doğa manzarası ve yüksekliği ile ünlüdür.\n    ",
-        "en": "      Varda Bridge, also known as the German Bridge, is a historic railway bridge.\n      It is famous for its stunning natural views and impressive height.\n    ",
-        "de": "      Die Varda Brücke, auch als Deutsche Brücke bekannt, ist eine historische Eisenbahnbrücke.\n      Sie ist berühmt für ihre atemberaubenden Naturansichten und beeindruckende Höhe.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Köprüde yürüyüş yapmak",
-          "Doğa fotoğrafçılığı yapmak",
-          "Çevredeki doğal alanları gezmek"
-        ],
-        "en": [
-          "Walk on the bridge",
-          "Do nature photography",
-          "Explore surrounding nature areas"
-        ],
-        "de": [
-          "Über die Brücke gehen",
-          "Naturfotografie machen",
-          "Die umliegenden Naturgebiete erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/varda_koprusu.jpg"
-      ]
-    },
-    {
-      "slug": "seyhan-baraji",
-      "name": {
-        "tr": "Seyhan Barajı",
-        "en": "Seyhan Dam",
-        "de": "Seyhan Talsperre"
-      },
-      "latitude": 37.07955,
-      "longitude": 35.33161,
-      "description": {
-        "tr": "      Seyhan Barajı, Adana'da Seyhan Nehri üzerinde bulunan bir barajdır.\n      Baraj gölü çevresinde dinlenme ve piknik alanları bulunur.\n    ",
-        "en": "      Seyhan Dam is a dam located on the Seyhan River in Adana.\n      The area around the dam features rest and picnic areas.\n    ",
-        "de": "      Der Seyhan-Staudamm ist ein Staudamm am Seyhan-Fluss in Adana.\n      Rund um den Damm gibt es Erholungs- und Picknickbereiche.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Baraj çevresinde yürüyüş yapmak",
-          "Piknik yapmak",
-          "Manzarayı seyretmek"
-        ],
-        "en": [
-          "Walk around the dam",
-          "Have a picnic",
-          "Enjoy the view"
-        ],
-        "de": [
-          "Um den Staudamm spazieren gehen",
-          "Picknick machen",
-          "Die Aussicht genießen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "park"
-        ],
-        "en": [
-          "park"
-        ],
-        "de": [
-          "park"
-        ]
-      },
-      "images": [
-        "https://example.com/seyhan_baraji.jpg"
-      ]
-    },
+   
     {
       "slug": "ataturk-parki",
       "name": {
@@ -12090,52 +12111,7 @@
         "https://example.com/yumurtalik_plaji.jpg"
       ]
     },
-    {
-      "slug": "buyuk-saat-kulesi",
-      "name": {
-        "tr": "Büyük Saat Kulesi",
-        "en": "Great Clock Tower",
-        "de": "Großer Uhrturm"
-      },
-      "latitude": 36.9847,
-      "longitude": 35.33024,
-      "description": {
-        "tr": "      Adana'nın simgelerinden olan Büyük Saat Kulesi, Osmanlı döneminde inşa edilmiştir.\n      Türkiye'nin en yüksek saat kulesidir.\n    ",
-        "en": "      The Great Clock Tower, one of Adana's landmarks, was built during the Ottoman period.\n      It is the tallest clock tower in Turkey.\n    ",
-        "de": "      Der Große Uhrturm, eines der Wahrzeichen von Adana, wurde während der Osmanischen Zeit erbaut.\n      Es ist der höchste Uhrturm in der Türkei.\n    "
-      },
-      "activities": {
-        "tr": [
-          "Saat Kulesini görmek",
-          "Tarihi sokaklarda gezmek",
-          "Çevredeki dükkanları ziyaret etmek"
-        ],
-        "en": [
-          "See the Clock Tower",
-          "Walk through the historic streets",
-          "Visit nearby shops"
-        ],
-        "de": [
-          "Den Uhrturm besichtigen",
-          "Durch die historischen Straßen spazieren",
-          "Die Geschäfte in der Nähe besuchen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şehir simgesi"
-        ],
-        "en": [
-          "city landmark"
-        ],
-        "de": [
-          "Wahrzeichen der Stadt"
-        ]
-      },
-      "images": [
-        "https://example.com/buyuk_saat_kulesi.jpg"
-      ]
-    },
+   
     {
       "slug": "adana-sinema-muzesi",
       "name": {
@@ -15206,52 +15182,7 @@
         "https://example.com/aydintepe_yeraltı_sehri.jpg"
       ]
     },
-    {
-      "slug": "suleymaniye-camii",
-      "name": {
-        "tr": "Süleymaniye Camii",
-        "en": "Süleymaniye Mosque",
-        "de": "Süleymaniye Moschee"
-      },
-      "latitude": 40.26704,
-      "longitude": 40.23079,
-      "description": {
-        "tr": "      Süleymaniye Camii, Bayburt'un önemli dini yapılarından biridir. İhtişamlı yapısı ve tarihi atmosferi ile ziyaretçilere huzurlu bir ortam sunar.\n      ",
-        "en": "      Süleymaniye Mosque is one of the most significant religious structures in Bayburt. With its grand architecture and historical atmosphere, it offers visitors a peaceful environment.\n      ",
-        "de": "      Die Süleymaniye-Moschee ist eines der bedeutendsten religiösen Bauwerke in Bayburt. Mit ihrer prächtigen Architektur und historischen Atmosphäre bietet sie den Besuchern eine friedliche Umgebung.\n      "
-      },
-      "activities": {
-        "tr": [
-          "Caminin içini gezmek",
-          "İç süslemeleri incelemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Tour the mosque interior",
-          "Examine the interior decorations",
-          "Take photos"
-        ],
-        "de": [
-          "Das Innere der Moschee besichtigen",
-          "Die Innendekorationen untersuchen",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "cami"
-        ],
-        "en": [
-          "mosque"
-        ],
-        "de": [
-          "Moschee"
-        ]
-      },
-      "images": [
-        "https://example.com/suleymaniye_camii.jpg"
-      ]
-    },
+    
     {
       "slug": "baksi-muzesi",
       "name": {
@@ -16643,49 +16574,7 @@
         "https://example.com/salda_golu.jpg"
       ]
     },
-    {
-      "slug": "burdur-arkeoloji-muzesi",
-      "name": {
-        "tr": "Burdur Arkeoloji Müzesi",
-        "en": "Burdur Archaeology Museum",
-        "de": "Burdur Archäologisches Museum"
-      },
-      "latitude": 37.71988,
-      "longitude": 30.28626,
-      "description": {
-        "tr": "      Burdur Arkeoloji Müzesi, bölgedeki tarihî eserlerin sergilendiği önemli bir müzedir. Neolitik döneme ait eserler ve birçok arkeolojik buluntu burada bulunmaktadır.\n      ",
-        "en": "      The Burdur Archaeology Museum is an important museum showcasing historical artifacts from the region. It houses Neolithic-era artifacts and many archaeological finds.\n      ",
-        "de": "      Das Burdur Archäologische Museum ist ein wichtiges Museum, das historische Artefakte aus der Region ausstellt. Es beherbergt Artefakte aus der Jungsteinzeit und viele archäologische Funde.\n      "
-      },
-      "activities": {
-        "tr": [
-          "Müze gezisi",
-          "Arkeolojik eserleri inceleme"
-        ],
-        "en": [
-          "Museum visit",
-          "Examining archaeological artifacts"
-        ],
-        "de": [
-          "Museumsbesuch",
-          "Untersuchung archäologischer Artefakte"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "müze"
-        ],
-        "en": [
-          "museum"
-        ],
-        "de": [
-          "Museum"
-        ]
-      },
-      "images": [
-        "https://example.com/burdur_arkeoloji_muzesi.jpg"
-      ]
-    },
+    
     {
       "slug": "sagalassos-antik-kenti",
       "name": {
@@ -16816,6 +16705,49 @@
       },
       "images": [
         "https://kulturportali.gov.tr/turkiye/burdur/gezilecekyer/nsuyu-magarasi"
+      ]
+    },
+{
+      "slug": "burdur-arkeoloji-muzesi",
+      "name": {
+        "tr": "Burdur Arkeoloji Müzesi",
+        "en": "Burdur Archaeology Museum",
+        "de": "Burdur Archäologisches Museum"
+      },
+      "latitude": 37.71988,
+      "longitude": 30.28626,
+      "description": {
+        "tr": "      Burdur Arkeoloji Müzesi, bölgedeki tarihî eserlerin sergilendiği önemli bir müzedir. Neolitik döneme ait eserler ve birçok arkeolojik buluntu burada bulunmaktadır.\n      ",
+        "en": "      The Burdur Archaeology Museum is an important museum showcasing historical artifacts from the region. It houses Neolithic-era artifacts and many archaeological finds.\n      ",
+        "de": "      Das Burdur Archäologische Museum ist ein wichtiges Museum, das historische Artefakte aus der Region ausstellt. Es beherbergt Artefakte aus der Jungsteinzeit und viele archäologische Funde.\n      "
+      },
+      "activities": {
+        "tr": [
+          "Müze gezisi",
+          "Arkeolojik eserleri inceleme"
+        ],
+        "en": [
+          "Museum visit",
+          "Examining archaeological artifacts"
+        ],
+        "de": [
+          "Museumsbesuch",
+          "Untersuchung archäologischer Artefakte"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "müze"
+        ],
+        "en": [
+          "museum"
+        ],
+        "de": [
+          "Museum"
+        ]
+      },
+      "images": [
+        "https://example.com/burdur_arkeoloji_muzesi.jpg"
       ]
     }
   ],

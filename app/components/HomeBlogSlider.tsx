@@ -13,6 +13,7 @@ import { magaralarRehberPost } from "../data/blog/magaralar/posts";
 import { turkeyPost } from "../data/blog/turkey/posts";
 import { kanyonlarRehberPosts } from "../data/blog/kanyonlar/posts";
 import { mersinRehberPosts } from "../data/blog/mersin/posts";
+import { turkiyeEnCokZiyaretEdilen10YerPost } from "../data/blog/ziyaretedilenonyer/posts";
 
 
 const posts = [
@@ -28,6 +29,7 @@ const posts = [
   ...turkeyPost,
   ...kanyonlarRehberPosts,
   ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost,
 ];
 
 export default function HomeBlogSlider() {
