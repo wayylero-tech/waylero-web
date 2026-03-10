@@ -1,8 +1,13 @@
 {
  "ankara": {
-  "ankara-ankara-kalesi": [
+   "ankara-ankara-kalesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fankara%2Fankara-kalesi%2F1772922323572_0.jpg?alt=media&token=056d9143-3573-420c-b80a-2b4e7ebc42ba",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fankara%2Fankara-kalesi%2F1772922326344_1.jpg?alt=media&token=0e515639-b6bd-44b8-9616-cfd614fb1b5f"
+  ],
+  "ankara-ankara-roma-hamami": [
+    "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ankara_Roma_Hamam%C4%B1_Hypocaust.jpg?_=20080803061046",
+    "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ankara_Roma_Hamam%C4%B1_Water_Depot.jpg?_=20080803060539",
+    "https://upload.wikimedia.org/wikipedia/commons/9/94/Ankara_Roma_Hamam%C4%B1_Tunnel_of_service.jpg?_=20080803060725"
   ],
   "ankara-anitkabir": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fankara%2Fan%C4%B1tkabir%2F1772922356098_0.jpg?alt=media&token=b4d2704f-e608-4e3d-a9b3-d000d65d38f7",
@@ -15,15 +20,38 @@
   "ankara-kocatepe-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fankara%2Fkocatepe-camii%2F1772922388199_0.jpg?alt=media&token=44af3efd-7089-4b6c-8756-563686361028",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fankara%2Fkocatepe-camii%2F1772922391549_1.jpg?alt=media&token=8cbb0871-419c-4497-87c0-df516a059c60"
+  ],
+  "ankara-kugulu-park": [
+    "https://upload.wikimedia.org/wikipedia/commons/5/59/Ku%C4%9Fulu_park_g%C3%B6r%C3%BCn%C3%BCm%C3%BC_%282%29.jpg?_=20110206101012",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/20241003_Ku%C4%9Fulu_Parkta_%C3%A7e%C5%9Fme.jpg/960px-20241003_Ku%C4%9Fulu_Parkta_%C3%A7e%C5%9Fme.jpg?_=20241005051843",
+    "https://upload.wikimedia.org/wikipedia/commons/c/c6/Ku%C4%9Fulu_park_g%C3%B6r%C3%BCn%C3%BCm%C3%BC.jpg?_=20110206100907"
+  ],
+  "ankara-nallihan-gokkusagi-tepeleri": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/April_18%2C_2016_at_05-02PM.jpg/960px-April_18%2C_2016_at_05-02PM.jpg?_=20230207185424"
+  ],
+  "ankara-tcdd-acik-hava-tren-muzesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ankara_a%C3%A7%C4%B1k_hava_buharl%C4%B1_lokomotif_m%C3%BCzesi.jpg/960px-Ankara_a%C3%A7%C4%B1k_hava_buharl%C4%B1_lokomotif_m%C3%BCzesi.jpg?_=20090510105201"
   ]
 },
 
   "istanbul": {
-   "istanbul-anadolu-hisari": [
+    "istanbul-anadolu-hisari": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fanadolu-hisar%C4%B1%2F1772922287945_0.jpg?alt=media&token=787de403-a197-4284-8a00-9fecfc5c0c0e"
+  ],
+  "istanbul-ataturk-arboretumu": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-5.jpg/960px-Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-5.jpg?_=20240826111023",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-26.jpg/960px-Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-26.jpg?_=20240826111057",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-7.jpg/960px-Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-7.jpg?_=20240826111024",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-18.jpg/960px-Atat%C3%BCrk_Arboretumu%2C_2014_Sonbahar-18.jpg?_=20240826111045"
   ],
   "istanbul-ayasofya": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fayasofya%2F1766739236065_0.jpg?alt=media&token=f1041fbf-a308-4ceb-aa12-0da8f09983a2"
+  ],
+  "istanbul-aydos-ormani": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Aydos_Kalesi18.jpg/500px-Aydos_Kalesi18.jpg?_=20250511143045",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Aydos_Kalesi.jpg/500px-Aydos_Kalesi.jpg?_=20250511143031",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Aydos_Kalesi0.jpg/500px-Aydos_Kalesi0.jpg?_=20250511143034",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Aydos_Kalesi8.jpg/500px-Aydos_Kalesi8.jpg?_=20250511143038"
   ],
   "istanbul-beylerbeyi-sarayi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fbeylerbeyi-saray%C4%B1%2F1772922183529_0.jpg?alt=media&token=d258d28b-7993-4611-b579-332527c55b53"
@@ -32,14 +60,18 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fbozdo%C4%9Fan-kemeri-(valens-su-kemeri)%2F1772922064730_0.jpg?alt=media&token=5e8c1772-5d1d-479b-811a-40cf24585985",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fbozdo%C4%9Fan-kemeri-(valens-su-kemeri)%2F1772922067961_1.jpg?alt=media&token=110285b9-0342-4945-984d-d27614b63145"
   ],
+  "istanbul-burgazada-prens-adalari": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/P_ost_pirgos_a.jpg/960px-P_ost_pirgos_a.jpg?_=20070521010645"
+  ],
   "istanbul-buyuk-camlica-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fb%C3%BCy%C3%BCk-%C3%A7aml%C4%B1ca-camii%2F1767605475450_3.jpg?alt=media&token=4d540644-3cdb-4a5c-9303-c70cbd33ea83",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fb%C3%BCy%C3%BCk-%C3%A7aml%C4%B1ca-camii%2F1767605470537_2.jpg?alt=media&token=c5572dde-2930-435c-a853-d0e298a20bed",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fb%C3%BCy%C3%BCk-%C3%A7aml%C4%B1ca-camii%2F1767605461169_0.jpg?alt=media&token=8e0e93de-5051-4651-a98e-77e60c627f58",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fb%C3%BCy%C3%BCk-%C3%A7aml%C4%B1ca-camii%2F1767605465911_1.jpg?alt=media&token=5f673d05-db31-4152-b0fc-130eceac6835"
   ],
- "istanbul-suleymaniye-camii": [
-    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fs%C3%BCleymaniye-camii%2F1773056888270_0.jpg?alt=media&token=eb342ee6-2cbb-402a-92fc-a1a63ca1d5cb"
+  "istanbul-buyukada-prens-adalari": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/0f/At_Arabas%C4%B1%2C_B%C3%BCy%C3%BCkada_2015.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sokak_ve_insanlar%2C_B%C3%BCy%C3%BCkada_2015.jpg/500px-Sokak_ve_insanlar%2C_B%C3%BCy%C3%BCkada_2015.jpg?_=20240906183212"
   ],
   "istanbul-dolmabahce-sarayi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fdolmabah%C3%A7e-saray%C4%B1%2F1765953935635_0.jpg?alt=media&token=1562cd27-3579-45b3-9add-d10922075ed4",
@@ -50,10 +82,23 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fdolmabah%C3%A7e-saray%C4%B1%2F1765953956766_4.jpg?alt=media&token=403ee3e1-4c3b-4096-83c3-ca66c0c5d1a6",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fdolmabah%C3%A7e-saray%C4%B1%2F1765953961321_5.jpg?alt=media&token=ee981c19-b71e-47db-824f-c2bb09097827"
   ],
+  "istanbul-fener-ve-balat-semtleri": [
+    "https://upload.wikimedia.org/wikipedia/commons/a/ab/Rue_du_quartier_de_Balat_%C3%A0_Istanbul.jpg"
+  ],
+  "istanbul-fethiye-camii": [
+    "https://upload.wikimedia.org/wikipedia/commons/7/76/Fethiye_Camii%2C_exterior%2C_Istanbul%2C_Turkey_-_South_fa%C3%A7ade%2C_east_half_-_MSBZ004_BF_S_1979_0411_-_Dumbarton_Oaks.jpg"
+  ],
   "istanbul-galata-kulesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fgalata-kulesi%2F1766347933401_1.jpg?alt=media&token=14180f63-7a55-4aac-ba8f-f3c5073f4f5a",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fgalata-kulesi%2F1766347937369_2.jpg?alt=media&token=9844f686-3b77-4c41-9a0c-c287b99aff45",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fgalata-kulesi%2F1766347929608_0.jpg?alt=media&token=335c5b01-5002-45f6-99d6-a091721be49b"
+  ],
+  "istanbul-gulhane-parki": [
+    "https://upload.wikimedia.org/wikipedia/commons/9/9e/Gulhane_park_Istanbul_2007_002.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/b/b2/Alay_K%C3%B6%C5%9Fk%C3%BC.jpg"
+  ],
+  "istanbul-heybeliada-prens-adalari": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Heybeliada_Island%2C_Naval_Cadet_School.jpg/960px-Heybeliada_Island%2C_Naval_Cadet_School.jpg?_=20070521010705"
   ],
   "istanbul-kapali-carsi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fkapal%C4%B1-%C3%A7ar%C5%9F%C4%B1%2F1767605428622_0.jpg?alt=media&token=2f4475c4-0d76-4af0-a7a8-46dfb83b4d40"
@@ -68,9 +113,27 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fk%C4%B1z-kulesi%2F1766739199080_1.jpg?alt=media&token=5dfe329c-6102-4ce5-b796-feadff51fb2d",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fk%C4%B1z-kulesi%2F1766739194036_0.jpg?alt=media&token=591c28a9-69fe-4f50-9fb0-eb6903ce02af"
   ],
+  "istanbul-laleli-camii": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/LALAEL%C4%B0_CAM%C4%B0%C4%B02026-01-01_at_16.52.38_%284%29.jpg/960px-LALAEL%C4%B0_CAM%C4%B0%C4%B02026-01-01_at_16.52.38_%284%29.jpg?_=20260102182639",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/LALAEL%C4%B0_CAM%C4%B0%C4%B02026-01-01_at_16.51.27.jpg/500px-LALAEL%C4%B0_CAM%C4%B0%C4%B02026-01-01_at_16.51.27.jpg?_=20260102182627"
+  ],
+  "istanbul-macka-parki": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ma%C3%A7ka_Park_07_%28October_2009%29.jpg/960px-Ma%C3%A7ka_Park_07_%28October_2009%29.jpg?_=20190622151053",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ma%C3%A7ka_Park_02_%28October_2009%29.jpg/960px-Ma%C3%A7ka_Park_02_%28October_2009%29.jpg?_=20190622151045",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ma%C3%A7ka_Park_10_%28October_2009%29.jpg/960px-Ma%C3%A7ka_Park_10_%28October_2009%29.jpg?_=20190622151057",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ma%C3%A7ka_Park_03_%28October_2009%29.jpg/960px-Ma%C3%A7ka_Park_03_%28October_2009%29.jpg?_=20190622151045"
+  ],
   "istanbul-misir-carsisi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fm%C4%B1s%C4%B1r-%C3%A7ar%C5%9F%C4%B1s%C4%B1%2F1767129501102_0.jpg?alt=media&token=566c9a86-ea87-4927-9678-ea50cc5ad54c"
   ],
+  "istanbul-panorama-1453-tarih-muzesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Panorama1453TarihM%C3%BCzesi2024.jpg/960px-Panorama1453TarihM%C3%BCzesi2024.jpg?_=20260116055849",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_1453_History_Museum.JPG/960px-Panorama_1453_History_Museum.JPG?_=20130808081539"
+  ],
+  "istanbul-pierre-loti-tepesi": [
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pierre_Lotiden_Hali%C3%A7_Manzaras%C4%B1.jpg/960px-Pierre_Lotiden_Hali%C3%A7_Manzaras%C4%B1.jpg?_=20240824121606"
+],
+
   "istanbul-rumeli-hisari": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Frumeli-hisar%C4%B1%2F1772922249981_0.jpg?alt=media&token=c2b87675-5d12-4c9c-9449-a2f152589aba",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Frumeli-hisar%C4%B1%2F1772922254635_1.jpg?alt=media&token=c3dd9e99-aab9-485e-8c9c-5af97750bdca"
@@ -78,8 +141,16 @@
   "istanbul-sultanahmet-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fsultanahmet-camii%2F1772922042680_0.jpg?alt=media&token=a68fbb95-b0f8-452e-b0f7-7e875c222f63"
   ],
+  "istanbul-suleymaniye-camii": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fs%C3%BCleymaniye-camii%2F1773056888270_0.jpg?alt=media&token=eb342ee6-2cbb-402a-92fc-a1a63ca1d5cb"
+  ],
   "istanbul-topkapi-sarayi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Ftopkap%C4%B1-saray%C4%B1%2F1767605392805_0.jpg?alt=media&token=5947e0e4-33a9-4d72-99c1-8f05e820b66d"
+  ],
+  "istanbul-turk-ve-islam-eserleri-muzesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Turkish_and_Islamic_Arts_Museum_01.jpg/960px-Turkish_and_Islamic_Arts_Museum_01.jpg?_=20080302010114",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Turkish_and_Islamic_Arts_Museum_02.jpg/960px-Turkish_and_Islamic_Arts_Museum_02.jpg?_=20080302012551",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Turkish_and_Islamic_Arts_Museum_05.jpg/960px-Turkish_and_Islamic_Arts_Museum_05.jpg?_=20080304143607"
   ],
   "istanbul-yeni-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2Fyeni-camii%2F1768080537400_0.jpg?alt=media&token=b143093d-1f8f-473e-bde9-de1769d73786",
@@ -94,7 +165,7 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2F%C3%A7%C4%B1ra%C4%9Fan-saray%C4%B1%2F1772922130732_1.jpg?alt=media&token=a9e7ecf6-93bc-4ac2-8824-495f55e488be",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fistanbul%2F%C3%A7%C4%B1ra%C4%9Fan-saray%C4%B1%2F1772922127706_0.jpg?alt=media&token=51ba829e-94ff-4cde-ba89-138c7235237b"
   ]
-  },
+},
   "bursa": {
     "bursa-cumalikizik-koyu": [
       "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbursa%2Fcumal%C4%B1k%C4%B1z%C4%B1k-k%C3%B6y%C3%BC%2F1766414122429_1.jpg?alt=media&token=754e061e-4051-4b1b-9df9-aa98e041e6f1",
@@ -400,7 +471,10 @@
 },
 "antalya": 
 {
- "antalya-alanya-kleopatra-plaji": [
+"antalya-alanya-dim-cayi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Dim_%C3%87ay%C4%B1_%C3%A7ay_bah%C3%A7esi.JPG/1280px-Dim_%C3%87ay%C4%B1_%C3%A7ay_bah%C3%A7esi.JPG?_=20150521234200"
+  ],
+  "antalya-alanya-kleopatra-plaji": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Falanya-kleopatra-plaj%C4%B1%2F1773052261055_0.jpg?alt=media&token=ba89bb5d-a2ec-433b-be9d-8e6464ef39dc"
   ],
   "antalya-antiphellos-antik-kenti": [
@@ -420,6 +494,14 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fhadrian-kap%C4%B1s%C4%B1%2F1773052046953_0.jpg?alt=media&token=74034216-7955-4ab6-a57b-4a013c5c4a06",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fhadrian-kap%C4%B1s%C4%B1%2F1773052053421_2.jpg?alt=media&token=63a51268-0fff-495e-a702-2adb61f5be77",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fhadrian-kap%C4%B1s%C4%B1%2F1773052050607_1.jpg?alt=media&token=f2e46c40-7629-45aa-a612-d1c31f3fb25f"
+  ],
+  "antalya-kemer-plaji": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fkemer-plaj%C4%B1%2F1773168791085_0.jpg?alt=media&token=0e94c36d-e020-416b-a4e8-9d3059c8923b"
+  ],
+  "antalya-konyaalti-plaji": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Konyaalt%C4%B1_Plaj%C4%B1_2025.jpg/1280px-Konyaalt%C4%B1_Plaj%C4%B1_2025.jpg?_=20250822151717",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Pla%C5%BEa_Konyaalt%C4%B1_ljeta_2025.jpg/1280px-Pla%C5%BEa_Konyaalt%C4%B1_ljeta_2025.jpg?_=20250822152401",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Pla%C5%BEa_Konyaalt%C4%B1_ljeti.jpg/1280px-Pla%C5%BEa_Konyaalt%C4%B1_ljeti.jpg?_=20250822152240"
   ],
   "antalya-koprulu-kanyon-milli-parki": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fk%C3%B6pr%C3%BCl%C3%BC-kanyon-milli-park%C4%B1%2F1767772196480_0.jpg?alt=media&token=02bc693e-56aa-4c9f-8a0f-330b76801677"
@@ -443,7 +525,13 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Folympos-antik-kenti%2F1771525803418_0.jpg?alt=media&token=ee73e1f3-aa5c-4ee8-bb36-f2fbcd07a422"
   ],
   "antalya-phaselis-antik-kenti": [
-    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fphaselis-antik-kenti%2F1771425867516_0.jpg?alt=media&token=b46b40c4-681e-4b40-bbe6-761b63e2a614"
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fphaselis-antik-kenti%2F1771425867516_0.jpg?alt=media&token=b46b40c4-681e-4b40-bbe6-761b63e2a614",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Phaselis_theatre_stairways_02.jpg/1280px-Phaselis_theatre_stairways_02.jpg?_=20100907093824",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Phaselis_main_street_hadrians_gate.jpg/1280px-Phaselis_main_street_hadrians_gate.jpg?_=20100907094712"
+  ],
+  "antalya-phaselis-plaji": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Phaselis_bay_03.jpg/1280px-Phaselis_bay_03.jpg?_=20100907094348",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Phazelis_bay.jpg/1280px-Phazelis_bay.jpg?_=20100907091603"
   ],
   "antalya-side-antik-kenti": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fside-antik-kenti%2F1765526673670_5.jpg?alt=media&token=44a13005-1cee-411c-a176-984f89ab7da5",
@@ -455,6 +543,10 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fside-antik-kenti%2F1765526682714_7.jpg?alt=media&token=efad9eb3-cede-486e-b7c0-0a55014fdd9e",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fside-antik-kenti%2F1765526664193_3.jpg?alt=media&token=39585184-f40b-4a35-acde-5b2405ae5af3",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Fside-antik-kenti%2F1765526686940_8.jpg?alt=media&token=25ad9ef0-7fd1-4dc2-8498-cc0961f45889"
+  ],
+  "antalya-syedra-antik-kenti": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Turkey%2C_Syedra%2C_Colonnaded_Street%2C_December_2023.jpg/1280px-Turkey%2C_Syedra%2C_Colonnaded_Street%2C_December_2023.jpg?_=20250831073048",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Turkey%2C_Syedra%2C_Acropolis%2C_December_2023.jpg/1280px-Turkey%2C_Syedra%2C_Acropolis%2C_December_2023.jpg?_=20250831073835"
   ],
   "antalya-tazi-kanyonu": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fantalya%2Ftaz%C4%B1-kanyonu%2F1773078050731_0.jpg?alt=media&token=1f3474d7-e6c3-4e46-a131-4877a6aca593"
@@ -481,6 +573,14 @@
 },
 "aydın": 
 {
+  "aydin-altinkum-plaji": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Alt%C4%B1nkum%2C_Didim%2C_Turkey%2C_evening.jpg/1280px-Alt%C4%B1nkum%2C_Didim%2C_Turkey%2C_evening.jpg?_=20210315020908"
+  ],
+  "aydin-aphrodisias-antik-kenti": [
+    "https://upload.wikimedia.org/wikipedia/commons/7/76/Aphrodisias_templeofaphrodite.jpg?_=20070308115248",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/APHRODISIAS_Ancient_City_-_The_monumental_gateway_or_tetrapylon.jpg/1280px-APHRODISIAS_Ancient_City_-_The_monumental_gateway_or_tetrapylon.jpg?_=20200623093604",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Tetrapylon_in_Aphrodisias%2C_oct._2021.jpg/960px-Tetrapylon_in_Aphrodisias%2C_oct._2021.jpg?_=20211030181158"
+  ],
   "aydin-apollon-tapinagi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fayd%C4%B1n%2Fapollon-tap%C4%B1na%C4%9F%C4%B1%2F1771425267862_8.jpg?alt=media&token=e4ffcd33-27ba-419c-a6fa-f8119de9c2ec",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fayd%C4%B1n%2Fapollon-tap%C4%B1na%C4%9F%C4%B1%2F1771425253605_5.jpg?alt=media&token=82d974fd-b7f4-4ca4-bf1c-37bbd348fc3d",
@@ -493,6 +593,14 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fayd%C4%B1n%2Fapollon-tap%C4%B1na%C4%9F%C4%B1%2F1771425262617_7.jpg?alt=media&token=00ff9e5a-d289-460e-9842-e564304e6d83",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fayd%C4%B1n%2Fapollon-tap%C4%B1na%C4%9F%C4%B1%2F1771425235175_1.jpg?alt=media&token=31cb09bf-ea9d-4b59-9635-084ff60f2643",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fayd%C4%B1n%2Fapollon-tap%C4%B1na%C4%9F%C4%B1%2F1771425244215_3.jpg?alt=media&token=852dff28-a95c-4e35-892f-c0f3c7b74f96"
+  ],
+  "aydin-didyma-antik-kenti": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Didyma%2C_Turkey%2C_Temple_of_Apollon%2C_view_on_pillars.jpg/960px-Didyma%2C_Turkey%2C_Temple_of_Apollon%2C_view_on_pillars.jpg?_=20210313160814",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Didyma%2C_Turkey%2C_Temple_of_Apollon%2C_ruined_columns.jpg/1280px-Didyma%2C_Turkey%2C_Temple_of_Apollon%2C_ruined_columns.jpg?_=20210313160826",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Didyma%2C_Turkey%2C_Temple_of_Apollon%2C_more_stairs.jpg/1280px-Didyma%2C_Turkey%2C_Temple_of_Apollon%2C_more_stairs.jpg?_=20210313160809"
+  ],
+  "aydin-kusadasi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Atat%C3%BCrk_Hill_Viewed_from_the_North%2C_Ku%C5%9Fadas%C4%B1%2C_T%C3%BCrkiye.jpg/1280px-Atat%C3%BCrk_Hill_Viewed_from_the_North%2C_Ku%C5%9Fadas%C4%B1%2C_T%C3%BCrkiye.jpg?_=20251022200924"
   ],
   "aydin-milet-antik-kenti": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fayd%C4%B1n%2Fmilet-antik-kenti%2F1771425096605_1.jpg?alt=media&token=e6283ba0-7da8-4744-99d0-884a1ea931ea",
@@ -740,6 +848,66 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fg%C3%B6kmedrese%2F1773052682295_0.jpg?alt=media&token=1310b659-5747-441e-aab9-b6e0acc17aeb",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fg%C3%B6kmedrese%2F1773052685699_1.jpg?alt=media&token=3cc9f446-b71a-4faf-9d2a-f92d6f019f03",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fg%C3%B6kmedrese%2F1773052709161_0.jpg?alt=media&token=15bf4d9d-315f-4d73-b511-e8fcc66cec9b"
+  ]
+},
+"çanakkale": {
+  "canakkale-adatepe-koyu": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Adatepe5.jpg/960px-Adatepe5.jpg?_=20080705212811",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Adatepe2.jpg/960px-Adatepe2.jpg?_=20080705212217",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adatepe3.JPG/640px-Adatepe3.JPG"
+  ],
+  "canakkale-anzak-koyu": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/ANZAC_Cove%2C_Gallipoli.jpg/960px-ANZAC_Cove%2C_Gallipoli.jpg?_=20070705152330"
+  ],
+  "canakkale-biga": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/20240831_Biga_h%C3%BCk%C3%BBmet_kona%C4%9F%C4%B1_01.jpg/960px-20240831_Biga_h%C3%BCk%C3%BBmet_kona%C4%9F%C4%B1_01.jpg?_=20240831130921",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/20240831_Biga_08.jpg/960px-20240831_Biga_08.jpg?_=20240831131426",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/20240831_Biga_06.jpg/960px-20240831_Biga_06.jpg?_=20240831131423"
+  ],
+  "canakkale-gokceada": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Gokceada_departure.JPG/960px-Gokceada_departure.JPG?_=20141222051407"
+  ],
+  "canakkale-kilitbahir-kalesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kilitbahir.JPG/960px-Kilitbahir.JPG?_=20130713110627",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Stop_Passenger%21_Monument%2C_Kilid%C3%BClbahir%2C_T%C3%BCrkiye.jpg/960px-Stop_Passenger%21_Monument%2C_Kilid%C3%BClbahir%2C_T%C3%BCrkiye.jpg?_=20251014022730"
+  ],
+  "canakkale-lone-pine-aniti": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lone_Pine_cemetery_May_2002.jpg/960px-Lone_Pine_cemetery_May_2002.jpg?_=20090924080843"
+  ],
+  "canakkale-canakkale-truva-ati": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C3%A7anakkale%2F%C3%A7anakkale-truva-at%C4%B1%2F1773088071630_0.jpg?alt=media&token=a61316b6-869b-4d30-bd2b-3ff3c64268fd"
+  ],
+  "canakkale-canakkale-sehitler-abidesi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C3%A7anakkale%2F%C3%A7anakkale-%C5%9Fehitler-abidesi%2F1773088404778_0.jpg?alt=media&token=cf8867b1-7600-4b3b-8112-f154941bae3f",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2F%C3%A7anakkale%2F%C3%A7anakkale-%C5%9Fehitler-abidesi%2F1773088409638_1.jpg?alt=media&token=3ee132d7-f3e9-4edc-8c8a-b8a43e31a06e",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Canakkalesehitleriabidesi.jpg/960px-Canakkalesehitleriabidesi.jpg?_=20080101101145",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%C3%87anakkale_%C5%9Eehitleri_An%C4%B1t%C4%B1.JPG/960px-%C3%87anakkale_%C5%9Eehitleri_An%C4%B1t%C4%B1.JPG?_=20071231164507"
+  ]
+},
+"denizli": {
+  "denizli-hierapolis-antik-kenti": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Hierapolis_colonnade.jpg/960px-Hierapolis_colonnade.jpg?_=20110801061506",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Hierapolis_Theatre.jpg/960px-Hierapolis_Theatre.jpg?_=20080309012022",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hierapolis%2C_Denizli_3.jpg/960px-Hierapolis%2C_Denizli_3.jpg?_=20160820181335",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hierapolis%2C_Denizli_4.jpg/960px-Hierapolis%2C_Denizli_4.jpg?_=20160820181331",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Theatre_of_Hierapolis_1.jpg/960px-Theatre_of_Hierapolis_1.jpg?_=20240630065146"
+  ],
+  "denizli-kaklik-magarasi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Kakl%C4%B1k_Cave.jpg/960px-Kakl%C4%B1k_Cave.jpg?_=20240728155135",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kakl%C4%B1k_Ma%C4%9Faras%C4%B1_%C4%B0%C3%A7eriden_D%C4%B1%C5%9Far%C4%B1s%C4%B1.jpg/960px-Kakl%C4%B1k_Ma%C4%9Faras%C4%B1_%C4%B0%C3%A7eriden_D%C4%B1%C5%9Far%C4%B1s%C4%B1.jpg?_=20240728160607",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kakl%C4%B1k_Ma%C4%9Faras%C4%B1_K%C3%B6pr%C3%BC.jpg/960px-Kakl%C4%B1k_Ma%C4%9Faras%C4%B1_K%C3%B6pr%C3%BC.jpg?_=20240728161501"
+  ],
+  "denizli-laodikeia-antik-kenti": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Laodicea_on_the_Lycus%2C_2021.jpg/500px-Laodicea_on_the_Lycus%2C_2021.jpg?_=20211030051855",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Laodicea%2C_Western_Theatre%2C_2021.jpg/960px-Laodicea%2C_Western_Theatre%2C_2021.jpg?_=20211030051312"
+  ],
+  "denizli-pamukkale-travertenleri": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fdenizli%2Fpamukkale-travertenleri%2F1773127288432_0.jpg?alt=media&token=3d50f404-9946-4715-a8a7-e1fa8f0a9e55",
+    "https://upload.wikimedia.org/wikipedia/commons/0/01/Pamukkale_travertenleri_%282%29.jpg?_=20150521172416",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pamukkale_Travertenlerinde_Yama%C3%A7_Para%C5%9F%C3%BCt%C3%BC.jpg/500px-Pamukkale_Travertenlerinde_Yama%C3%A7_Para%C5%9F%C3%BCt%C3%BC.jpg?_=20240517114250",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Frozen_snow_touching_a_blue_cloudy_sky_%28Unsplash%29.jpg/960px-Frozen_snow_touching_a_blue_cloudy_sky_%28Unsplash%29.jpg?_=20170906061314",
+    "https://upload.wikimedia.org/wikipedia/commons/6/6b/Pamukkale_g%C3%B6leti_%282%29.jpg?_=20150521172414",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Denizli_Pamukkale.jpg/960px-Denizli_Pamukkale.jpg?_=20240328203342"
   ]
 }
 
