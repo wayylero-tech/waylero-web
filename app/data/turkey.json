@@ -12082,7 +12082,193 @@
     }
   ],
   "afyonkarahisar": [
+    
     {
+      "slug": "frig-vadisi",
+      "name": {
+        "tr": "Frig Vadisi",
+        "en": "Phrygian Valley",
+        "de": "Phrygisches Tal"
+      },
+      "latitude": 39.08968038139447,
+      "longitude": 30.41993679366556,
+      "description": {
+        "tr": "        Frig Vadisi, Frigya Krallığı'na ait kaya mezarları ve tapınaklarla ünlüdür. Doğal güzellikleri ve tarihî yapıları ile önemli bir turistik bölgedir.\n      ",
+        "en": "        Phrygian Valley is famous for its rock tombs and temples from the Phrygian Kingdom. It is an important tourist area with natural beauties and historical structures.\n      ",
+        "de": "        Das Phrygische Tal ist berühmt für seine Felsengräber und Tempel des Phrygischen Königreichs. Es ist ein bedeutendes Touristengebiet mit natürlichen Schönheiten und historischen Strukturen.\n      "
+      },
+      "activities": {
+        "tr": [
+          "Vadide yürüyüş yapmak",
+          "Kaya mezarlarını incelemek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Walk through the valley",
+          "Examine the rock tombs",
+          "Take photos"
+        ],
+        "de": [
+          "Durch das Tal gehen",
+          "Die Felsenbegräbnisse untersuchen",
+          "Fotos machen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/frig_vadisi.jpg"
+      ]
+    },
+  {
+      "slug": "avdalaz-kalesi",
+      "name": {
+        "tr": "Avdalaz Kalesi",
+        "en": "Avdalaz Castle",
+        "de": "Avdalaz-Burg"
+      },
+      "latitude": 39.02874127114564,
+      "longitude": 30.567236965949903,
+      "description": {
+        "tr": "Afyonkarahisar'ın İhsaniye ilçesine bağlı Ayazini köyü yakınlarında, Frig Vadisi'nde yer alan Avdalaz Kalesi, M.Ö. 8. yüzyıla tarihlenen çok katlı bir kaya yerleşimidir. Yaklaşık 30 metre yüksekliğindeki tüf kayaya oyulmuş bu yapı, 5 katlı ve çok odalı yapısıyla tarihin ilk apartmanlarından biri olarak kabul edilir. Frigler tarafından savunma ve barınma amacıyla inşa edilen kale, Roma ve Bizans dönemlerinde de kullanılmıştır. İçinde büyük bir sarnıç ve 30 derecelik açıyla inşa edilmiş gizemli bir tünel bulunmaktadır.",
+        "en": "Located near Ayazini village in the İhsaniye district of Afyonkarahisar, within the Phrygian Valley, Avdalaz Castle is a multi-story rock settlement dating back to the 8th century BC. Carved into tuff rock, this approximately 30-meter-high structure is considered one of the earliest examples of apartment-like architecture. Built by the Phrygians for defense and habitation, the castle was also used during the Roman and Byzantine periods. It features a large cistern and a mysterious tunnel constructed at a 30-degree angle.",
+        "de": "Die Avdalaz-Burg befindet sich in der Nähe des Dorfes Ayazini im Bezirk İhsaniye von Afyonkarahisar, innerhalb des Phrygischen Tals. Diese mehrstöckige Felsensiedlung stammt aus dem 8. Jahrhundert v. Chr. und ist in Tuffstein gehauen. Mit einer Höhe von etwa 30 Metern gilt sie als eines der frühesten Beispiele für apartmentähnliche Architektur. Die Burg wurde von den Phrygern zu Verteidigungs- und Wohnzwecken erbaut und auch während der römischen und byzantinischen Zeit genutzt. Sie verfügt über eine große Zisterne und einen geheimnisvollen Tunnel, der in einem Winkel von 30 Grad gebaut wurde."
+      },
+      "activities": {
+        "tr": [
+          "Tarihi keşif",
+          "Fotoğrafçılık",
+          "Doğa yürüyüşü"
+        ],
+        "en": [
+          "Historical exploration",
+          "Photography",
+          "Hiking"
+        ],
+        "de": [
+          "Historische Erkundung",
+          "Fotografie",
+          "Wandern"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Avdalaz2.jpg"
+      ]
+    },
+ {
+      "slug": "memec-kaya-kilisesi",
+      "name": {
+        "tr": "Memeç Kaya Kilisesi",
+        "en": "Memec Rock Church",
+        "de": "Memec-Felsenkirche"
+      },
+      "latitude": 39.1160750475134,
+      "longitude": 30.42894805583928,
+      "description": {
+        "tr": "Afyonkarahisar'ın İhsaniye ilçesi yakınlarında, Emre Gölü yolu üzerinde yer alan Bizans dönemine ait kayalara oyulmuş tarihi bir kilisedir. Çevresindeki kaya odaları, buranın bir manastır kompleksi olduğunu gösterir.",
+        "en": "A historical rock-cut church from the Byzantine era located near Emre Lake in Afyonkarahisar’s İhsaniye district. The surrounding rock chambers indicate it was part of a monastery complex.",
+        "de": "Eine historische Felsenkirche aus der byzantinischen Zeit, gelegen in der Nähe des Emre-Sees im Bezirk İhsaniye von Afyonkarahisar. Die umliegenden Felsräume deuten darauf hin, dass es sich um einen Klosterkomplex handelte."
+      },
+      "activities": {
+        "tr": [
+          "Tarihi keşif",
+          "Fotoğrafçılık",
+          "Doğa yürüyüşü"
+        ],
+        "en": [
+          "Historical exploration",
+          "Photography",
+          "Hiking"
+        ],
+        "de": [
+          "Historische Erkundung",
+          "Fotografie",
+          "Wandern"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kilise"
+        ],
+        "en": [
+          "church"
+        ],
+        "de": [
+          "Kirche"
+        ]
+      },
+      "images": [
+        "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Memec2.jpg"
+      ]
+    },
+    {
+      "slug": "asar-kalesi",
+      "name": {
+        "tr": "Asar Kalesi",
+        "en": "Asar Castle",
+        "de": "Asar-Burg"
+      },
+      "latitude": 39.149878966175805,
+      "longitude": 30.428562169737454,
+      "description": {
+        "tr": "Afyonkarahisar'ın Bayat ilçesinin 4 km batısında, Köroğlu Dağı eteklerinde yer alan Asar Kalesi, doğal bir kaya kütlesi üzerine inşa edilmiştir. Bizans döneminde \"Kedrea\" olarak bilinen bu yerleşim, doğu-batı yönündeki önemli bir ticaret yolunu koruyan stratejik bir noktadaydı. Kale içinde tonozlu sarnıçlar, dini ve idari yapı temelleri, kayalara oyulmuş yerleşim alanları, kilise kalıntıları ve savunma amaçlı mazgallar bulunmaktadır. :contentReference[oaicite:1]{index:1}",
+        "en": "Located 4 km west of Bayat district in Afyonkarahisar, Asar Castle is built upon a natural rock formation at the foothills of Mount Köroğlu. Known as \"Kedrea\" during the Byzantine era, this settlement served as a strategic point guarding an important east-west trade route. Within the castle, there are vaulted cisterns, foundations of religious and administrative structures, rock-carved dwellings, church remnants, and defensive loopholes. :contentReference[oaicite:2]{index:2}",
+        "de": "Die Asar-Burg befindet sich 4 km westlich des Bezirks Bayat in Afyonkarahisar und wurde auf einer natürlichen Felsformation am Fuße des Köroğlu-Berges errichtet. Während der byzantinischen Ära als \"Kedrea\" bekannt, diente diese Siedlung als strategischer Punkt zur Bewachung einer wichtigen Ost-West-Handelsroute. Innerhalb der Burg gibt es gewölbte Zisternen, Fundamente religiöser und administrativer Gebäude, in den Fels gehauene Wohnräume, Kirchenreste und Verteidigungsscharten. :contentReference[oaicite:3]{index:3}"
+      },
+      "activities": {
+        "tr": [
+          "Tarihi keşif",
+          "Fotoğrafçılık",
+          "Doğa yürüyüşü"
+        ],
+        "en": [
+          "Historical exploration",
+          "Photography",
+          "Hiking"
+        ],
+        "de": [
+          "Historische Erkundung",
+          "Fotografie",
+          "Wandern"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://www.afyondayiz.gov.tr/uploads/images/asar-kale-1.jpg"
+      ]
+    },
+  
+{
       "slug": "goynus-vadisi",
       "name": {
         "tr": "Göynüş Vadisi",
@@ -12178,144 +12364,6 @@
       ]
     },
     {
-      "slug": "frig-vadisi",
-      "name": {
-        "tr": "Frig Vadisi",
-        "en": "Phrygian Valley",
-        "de": "Phrygisches Tal"
-      },
-      "latitude": 39.08968038139447,
-      "longitude": 30.41993679366556,
-      "description": {
-        "tr": "        Frig Vadisi, Frigya Krallığı'na ait kaya mezarları ve tapınaklarla ünlüdür. Doğal güzellikleri ve tarihî yapıları ile önemli bir turistik bölgedir.\n      ",
-        "en": "        Phrygian Valley is famous for its rock tombs and temples from the Phrygian Kingdom. It is an important tourist area with natural beauties and historical structures.\n      ",
-        "de": "        Das Phrygische Tal ist berühmt für seine Felsengräber und Tempel des Phrygischen Königreichs. Es ist ein bedeutendes Touristengebiet mit natürlichen Schönheiten und historischen Strukturen.\n      "
-      },
-      "activities": {
-        "tr": [
-          "Vadide yürüyüş yapmak",
-          "Kaya mezarlarını incelemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Walk through the valley",
-          "Examine the rock tombs",
-          "Take photos"
-        ],
-        "de": [
-          "Durch das Tal gehen",
-          "Die Felsenbegräbnisse untersuchen",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/frig_vadisi.jpg"
-      ]
-    },
-    {
-      "slug": "asar-kalesi",
-      "name": {
-        "tr": "Asar Kalesi",
-        "en": "Asar Castle",
-        "de": "Asar-Burg"
-      },
-      "latitude": 39.149878966175805,
-      "longitude": 30.428562169737454,
-      "description": {
-        "tr": "Afyonkarahisar'ın Bayat ilçesinin 4 km batısında, Köroğlu Dağı eteklerinde yer alan Asar Kalesi, doğal bir kaya kütlesi üzerine inşa edilmiştir. Bizans döneminde \"Kedrea\" olarak bilinen bu yerleşim, doğu-batı yönündeki önemli bir ticaret yolunu koruyan stratejik bir noktadaydı. Kale içinde tonozlu sarnıçlar, dini ve idari yapı temelleri, kayalara oyulmuş yerleşim alanları, kilise kalıntıları ve savunma amaçlı mazgallar bulunmaktadır. :contentReference[oaicite:1]{index:1}",
-        "en": "Located 4 km west of Bayat district in Afyonkarahisar, Asar Castle is built upon a natural rock formation at the foothills of Mount Köroğlu. Known as \"Kedrea\" during the Byzantine era, this settlement served as a strategic point guarding an important east-west trade route. Within the castle, there are vaulted cisterns, foundations of religious and administrative structures, rock-carved dwellings, church remnants, and defensive loopholes. :contentReference[oaicite:2]{index:2}",
-        "de": "Die Asar-Burg befindet sich 4 km westlich des Bezirks Bayat in Afyonkarahisar und wurde auf einer natürlichen Felsformation am Fuße des Köroğlu-Berges errichtet. Während der byzantinischen Ära als \"Kedrea\" bekannt, diente diese Siedlung als strategischer Punkt zur Bewachung einer wichtigen Ost-West-Handelsroute. Innerhalb der Burg gibt es gewölbte Zisternen, Fundamente religiöser und administrativer Gebäude, in den Fels gehauene Wohnräume, Kirchenreste und Verteidigungsscharten. :contentReference[oaicite:3]{index:3}"
-      },
-      "activities": {
-        "tr": [
-          "Tarihi keşif",
-          "Fotoğrafçılık",
-          "Doğa yürüyüşü"
-        ],
-        "en": [
-          "Historical exploration",
-          "Photography",
-          "Hiking"
-        ],
-        "de": [
-          "Historische Erkundung",
-          "Fotografie",
-          "Wandern"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://www.afyondayiz.gov.tr/uploads/images/asar-kale-1.jpg"
-      ]
-    },
-    {
-      "slug": "avdalaz-kalesi",
-      "name": {
-        "tr": "Avdalaz Kalesi",
-        "en": "Avdalaz Castle",
-        "de": "Avdalaz-Burg"
-      },
-      "latitude": 39.02874127114564,
-      "longitude": 30.567236965949903,
-      "description": {
-        "tr": "Afyonkarahisar'ın İhsaniye ilçesine bağlı Ayazini köyü yakınlarında, Frig Vadisi'nde yer alan Avdalaz Kalesi, M.Ö. 8. yüzyıla tarihlenen çok katlı bir kaya yerleşimidir. Yaklaşık 30 metre yüksekliğindeki tüf kayaya oyulmuş bu yapı, 5 katlı ve çok odalı yapısıyla tarihin ilk apartmanlarından biri olarak kabul edilir. Frigler tarafından savunma ve barınma amacıyla inşa edilen kale, Roma ve Bizans dönemlerinde de kullanılmıştır. İçinde büyük bir sarnıç ve 30 derecelik açıyla inşa edilmiş gizemli bir tünel bulunmaktadır.",
-        "en": "Located near Ayazini village in the İhsaniye district of Afyonkarahisar, within the Phrygian Valley, Avdalaz Castle is a multi-story rock settlement dating back to the 8th century BC. Carved into tuff rock, this approximately 30-meter-high structure is considered one of the earliest examples of apartment-like architecture. Built by the Phrygians for defense and habitation, the castle was also used during the Roman and Byzantine periods. It features a large cistern and a mysterious tunnel constructed at a 30-degree angle.",
-        "de": "Die Avdalaz-Burg befindet sich in der Nähe des Dorfes Ayazini im Bezirk İhsaniye von Afyonkarahisar, innerhalb des Phrygischen Tals. Diese mehrstöckige Felsensiedlung stammt aus dem 8. Jahrhundert v. Chr. und ist in Tuffstein gehauen. Mit einer Höhe von etwa 30 Metern gilt sie als eines der frühesten Beispiele für apartmentähnliche Architektur. Die Burg wurde von den Phrygern zu Verteidigungs- und Wohnzwecken erbaut und auch während der römischen und byzantinischen Zeit genutzt. Sie verfügt über eine große Zisterne und einen geheimnisvollen Tunnel, der in einem Winkel von 30 Grad gebaut wurde."
-      },
-      "activities": {
-        "tr": [
-          "Tarihi keşif",
-          "Fotoğrafçılık",
-          "Doğa yürüyüşü"
-        ],
-        "en": [
-          "Historical exploration",
-          "Photography",
-          "Hiking"
-        ],
-        "de": [
-          "Historische Erkundung",
-          "Fotografie",
-          "Wandern"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Avdalaz2.jpg"
-      ]
-    },
-    {
       "slug": "maltas-oren-yeri",
       "name": {
         "tr": "Maltaş Ören Yeri",
@@ -12361,52 +12409,7 @@
         "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Maltas2.jpg"
       ]
     },
-    {
-      "slug": "memec-kaya-kilisesi",
-      "name": {
-        "tr": "Memeç Kaya Kilisesi",
-        "en": "Memec Rock Church",
-        "de": "Memec-Felsenkirche"
-      },
-      "latitude": 39.1160750475134,
-      "longitude": 30.42894805583928,
-      "description": {
-        "tr": "Afyonkarahisar'ın İhsaniye ilçesi yakınlarında, Emre Gölü yolu üzerinde yer alan Bizans dönemine ait kayalara oyulmuş tarihi bir kilisedir. Çevresindeki kaya odaları, buranın bir manastır kompleksi olduğunu gösterir.",
-        "en": "A historical rock-cut church from the Byzantine era located near Emre Lake in Afyonkarahisar’s İhsaniye district. The surrounding rock chambers indicate it was part of a monastery complex.",
-        "de": "Eine historische Felsenkirche aus der byzantinischen Zeit, gelegen in der Nähe des Emre-Sees im Bezirk İhsaniye von Afyonkarahisar. Die umliegenden Felsräume deuten darauf hin, dass es sich um einen Klosterkomplex handelte."
-      },
-      "activities": {
-        "tr": [
-          "Tarihi keşif",
-          "Fotoğrafçılık",
-          "Doğa yürüyüşü"
-        ],
-        "en": [
-          "Historical exploration",
-          "Photography",
-          "Hiking"
-        ],
-        "de": [
-          "Historische Erkundung",
-          "Fotografie",
-          "Wandern"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kilise"
-        ],
-        "en": [
-          "church"
-        ],
-        "de": [
-          "Kirche"
-        ]
-      },
-      "images": [
-        "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Memec2.jpg"
-      ]
-    },
+   
     {
       "slug": "afyonkarahisar-arkeoloji-muzesi",
       "name": {
@@ -13057,6 +13060,53 @@
         "https://example.com/agri_dagi.jpg"
       ]
     },
+ {
+      "slug": "ahmed-i-hani-turbesi",
+      "name": {
+        "tr": "Ahmed-i Hani Türbesi",
+        "en": "Tomb of Ahmed-i Hani",
+        "de": "Grab von Ahmed-i Hani"
+      },
+      "latitude": 39.52029,
+      "longitude": 44.1349,
+      "description": {
+        "tr": "Ahmed-i Hani Türbesi, ünlü Kürt mutasavvıf, şair ve filozof Ahmed-i Hani’nin mezarının bulunduğu kutsal bir mekandır. Ağrı’nın Doğubayazıt ilçesinde, İshak Paşa Sarayı’nın hemen yanında yer almaktadır.\n\nAhmed-i Hani, 17. yüzyılda yaşamış ve Kürt edebiyatının en önemli eserlerinden biri olan \"Mem û Zîn\" adlı eseri kaleme almıştır. Türbe, hem edebiyat hem de tasavvuf açısından büyük bir öneme sahiptir ve ziyaretçiler tarafından manevi bir atmosfer sunan bir yer olarak görülmektedir.\n\n**Nasıl Gidilir?**\n\nTürbe, Doğubayazıt’ta bulunan İshak Paşa Sarayı’nın hemen yanında yer almaktadır. Şehir merkezinden özel araç veya taksi ile kolayca ulaşım sağlanabilir.\n",
+        "en": "The Tomb of Ahmed-i Hani is the sacred resting place of the famous Kurdish mystic, poet, and philosopher Ahmed-i Hani. It is located in Doğubayazıt, Ağrı, right next to the Ishak Pasha Palace.\n\nAhmed-i Hani lived in the 17th century and is best known for his literary masterpiece, \"Mem û Zîn,\" one of the most important works of Kurdish literature. The tomb holds great significance both in literature and Sufism and offers visitors a deeply spiritual atmosphere.\n\n**How to Get There?**\n\nThe tomb is located next to Ishak Pasha Palace in Doğubayazıt. It can be easily reached by private vehicle or taxi from the city center.\n",
+        "de": "Das Grab von Ahmed-i Hani ist die heilige Ruhestätte des berühmten kurdischen Mystikers, Dichters und Philosophen Ahmed-i Hani. Es befindet sich in Doğubayazıt, Ağrı, direkt neben dem Ishak-Pascha-Palast.\n\nAhmed-i Hani lebte im 17. Jahrhundert und ist vor allem für sein literarisches Meisterwerk „Mem û Zîn“ bekannt, eines der wichtigsten Werke der kurdischen Literatur. Das Grab hat sowohl literarische als auch sufistische Bedeutung und bietet Besuchern eine tief spirituelle Atmosphäre.\n\n**Anfahrt**\n\nDas Grab befindet sich neben dem Ishak-Pascha-Palast in Doğubayazıt. Es ist mit einem privaten Fahrzeug oder Taxi leicht vom Stadtzentrum aus erreichbar.\n"
+      },
+      "activities": {
+        "tr": [
+          "Ziyaret ve dua etmek",
+          "Tarihî atmosferi deneyimlemek",
+          "Fotoğraf çekmek"
+        ],
+        "en": [
+          "Visiting and praying",
+          "Experiencing the historical atmosphere",
+          "Taking photographs"
+        ],
+        "de": [
+          "Besuchen und beten",
+          "Die historische Atmosphäre erleben",
+          "Fotografieren"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/ahmedi_hani_turbesi.jpg",
+        "https://example.com/ahmedi_hani_turbesi_2.jpg"
+      ]
+    },
     {
       "slug": "dogubayazit-kalesi",
       "name": {
@@ -13198,53 +13248,7 @@
         "https://example.com/buz_magarasi.jpg"
       ]
     },
-    {
-      "slug": "ahmed-i-hani-turbesi",
-      "name": {
-        "tr": "Ahmed-i Hani Türbesi",
-        "en": "Tomb of Ahmed-i Hani",
-        "de": "Grab von Ahmed-i Hani"
-      },
-      "latitude": 39.52029,
-      "longitude": 44.1349,
-      "description": {
-        "tr": "Ahmed-i Hani Türbesi, ünlü Kürt mutasavvıf, şair ve filozof Ahmed-i Hani’nin mezarının bulunduğu kutsal bir mekandır. Ağrı’nın Doğubayazıt ilçesinde, İshak Paşa Sarayı’nın hemen yanında yer almaktadır.\n\nAhmed-i Hani, 17. yüzyılda yaşamış ve Kürt edebiyatının en önemli eserlerinden biri olan \"Mem û Zîn\" adlı eseri kaleme almıştır. Türbe, hem edebiyat hem de tasavvuf açısından büyük bir öneme sahiptir ve ziyaretçiler tarafından manevi bir atmosfer sunan bir yer olarak görülmektedir.\n\n**Nasıl Gidilir?**\n\nTürbe, Doğubayazıt’ta bulunan İshak Paşa Sarayı’nın hemen yanında yer almaktadır. Şehir merkezinden özel araç veya taksi ile kolayca ulaşım sağlanabilir.\n",
-        "en": "The Tomb of Ahmed-i Hani is the sacred resting place of the famous Kurdish mystic, poet, and philosopher Ahmed-i Hani. It is located in Doğubayazıt, Ağrı, right next to the Ishak Pasha Palace.\n\nAhmed-i Hani lived in the 17th century and is best known for his literary masterpiece, \"Mem û Zîn,\" one of the most important works of Kurdish literature. The tomb holds great significance both in literature and Sufism and offers visitors a deeply spiritual atmosphere.\n\n**How to Get There?**\n\nThe tomb is located next to Ishak Pasha Palace in Doğubayazıt. It can be easily reached by private vehicle or taxi from the city center.\n",
-        "de": "Das Grab von Ahmed-i Hani ist die heilige Ruhestätte des berühmten kurdischen Mystikers, Dichters und Philosophen Ahmed-i Hani. Es befindet sich in Doğubayazıt, Ağrı, direkt neben dem Ishak-Pascha-Palast.\n\nAhmed-i Hani lebte im 17. Jahrhundert und ist vor allem für sein literarisches Meisterwerk „Mem û Zîn“ bekannt, eines der wichtigsten Werke der kurdischen Literatur. Das Grab hat sowohl literarische als auch sufistische Bedeutung und bietet Besuchern eine tief spirituelle Atmosphäre.\n\n**Anfahrt**\n\nDas Grab befindet sich neben dem Ishak-Pascha-Palast in Doğubayazıt. Es ist mit einem privaten Fahrzeug oder Taxi leicht vom Stadtzentrum aus erreichbar.\n"
-      },
-      "activities": {
-        "tr": [
-          "Ziyaret ve dua etmek",
-          "Tarihî atmosferi deneyimlemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Visiting and praying",
-          "Experiencing the historical atmosphere",
-          "Taking photographs"
-        ],
-        "de": [
-          "Besuchen und beten",
-          "Die historische Atmosphäre erleben",
-          "Fotografieren"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/ahmedi_hani_turbesi.jpg",
-        "https://example.com/ahmedi_hani_turbesi_2.jpg"
-      ]
-    },
+   
     {
       "slug": "agri-kultur-ve-kongre-merkezi",
       "name": {
@@ -13721,49 +13725,7 @@
     "https://example.com/sahindere_kanyonu.jpg"
   ]
 },
-    {
-      "slug": "balikesir-kizilkecili",
-      "name": {
-        "tr": "Balıkesir Kızılkeçili",
-        "en": "Balıkesir Kızılkeçili",
-        "de": "Balıkesir Kızılkeçili"
-      },
-      "latitude": 39.61693,
-      "longitude": 26.92429,
-      "description": {
-        "tr": "      Kızılkeçili Höyüğü, Balıkesir'in Altıeylül ilçesinde yer alan önemli bir höyüktür. MÖ 3. binyıla ait kalıntılar burada bulunmuş olup, erken Tunç Çağı'na ait çeşitli eserler sergilenmektedir.\n      ",
-        "en": "      Kızılkeçili Mound, located in the Altıeylül district of Balıkesir, is an important archaeological site. Remains dating back to the 3rd millennium BC have been found here, and various artifacts from the Early Bronze Age are exhibited.\n      ",
-        "de": "      Der Kızılkeçili-Hügel, der im Bezirk Altıeylül in Balıkesir liegt, ist eine wichtige archäologische Stätte. Überreste aus dem 3. Jahrtausend v. Chr. wurden hier gefunden, und verschiedene Artefakte aus der Frühbronzezeit werden ausgestellt.\n      "
-      },
-      "activities": {
-        "tr": [
-          "Arkeolojik kazı alanlarını ziyaret etme",
-          "Höyük üzerinde yürüyüş yapma"
-        ],
-        "en": [
-          "Visit the archaeological excavation sites",
-          "Walk on the mound"
-        ],
-        "de": [
-          "Besuch der archäologischen Ausgrabungsstätten",
-          "Auf dem Hügel spazieren gehen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/kizilkechili_hoyugu.jpg"
-      ]
-    },
+    
     {
       "slug": "ayvalik-cunda-adasi",
       "name": {
@@ -13808,6 +13770,52 @@
       },
       "images": [
         "https://example.com/cunda_adasi.jpg"
+      ]
+    },
+{
+      "slug": "edremit-altinoluk",
+      "name": {
+        "tr": "Edremit Altınoluk",
+        "en": "Edremit Altınoluk",
+        "de": "Edremit Altınoluk"
+      },
+      "latitude": 39.57117,
+      "longitude": 27.74616,
+      "description": {
+        "tr": "      Altınoluk, Edremit ilçesinde yer alan bir tatil beldesidir. Ege'nin berrak suları ve doğal güzellikleriyle bilinir. Aynı zamanda tarihi yapılarıyla dikkat çeker.\n      ",
+        "en": "      Altınoluk, located in the Edremit district, is a holiday resort known for its clear Aegean waters and natural beauty. It is also notable for its historical structures.\n      ",
+        "de": "      Altınoluk, das im Bezirk Edremit liegt, ist ein Urlaubsort, der für sein klares Ägäisches Wasser und seine natürliche Schönheit bekannt ist. Es ist auch für seine historischen Gebäude bemerkenswert.\n      "
+      },
+      "activities": {
+        "tr": [
+          "Deniz kenarında yüzme",
+          "Tarihi yapıları gezme",
+          "Gün batımını izleme"
+        ],
+        "en": [
+          "Swimming by the sea",
+          "Tour the historical buildings",
+          "Watch the sunset"
+        ],
+        "de": [
+          "Schwimmen am Meer",
+          "Die historischen Gebäude besichtigen",
+          "Den Sonnenuntergang beobachten"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şehir turu"
+        ],
+        "en": [
+          "city tour"
+        ],
+        "de": [
+          "stadtrundfahrt"
+        ]
+      },
+      "images": [
+        "https://example.com/altinoluk.jpg"
       ]
     },
     {
@@ -13856,6 +13864,49 @@
         "https://example.com/kazdagi_milli_parki.jpg"
       ]
     },
+{
+      "slug": "balikesir-kizilkecili",
+      "name": {
+        "tr": "Balıkesir Kızılkeçili",
+        "en": "Balıkesir Kızılkeçili",
+        "de": "Balıkesir Kızılkeçili"
+      },
+      "latitude": 39.61693,
+      "longitude": 26.92429,
+      "description": {
+        "tr": "      Kızılkeçili Höyüğü, Balıkesir'in Altıeylül ilçesinde yer alan önemli bir höyüktür. MÖ 3. binyıla ait kalıntılar burada bulunmuş olup, erken Tunç Çağı'na ait çeşitli eserler sergilenmektedir.\n      ",
+        "en": "      Kızılkeçili Mound, located in the Altıeylül district of Balıkesir, is an important archaeological site. Remains dating back to the 3rd millennium BC have been found here, and various artifacts from the Early Bronze Age are exhibited.\n      ",
+        "de": "      Der Kızılkeçili-Hügel, der im Bezirk Altıeylül in Balıkesir liegt, ist eine wichtige archäologische Stätte. Überreste aus dem 3. Jahrtausend v. Chr. wurden hier gefunden, und verschiedene Artefakte aus der Frühbronzezeit werden ausgestellt.\n      "
+      },
+      "activities": {
+        "tr": [
+          "Arkeolojik kazı alanlarını ziyaret etme",
+          "Höyük üzerinde yürüyüş yapma"
+        ],
+        "en": [
+          "Visit the archaeological excavation sites",
+          "Walk on the mound"
+        ],
+        "de": [
+          "Besuch der archäologischen Ausgrabungsstätten",
+          "Auf dem Hügel spazieren gehen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/kizilkechili_hoyugu.jpg"
+      ]
+    },
     {
       "slug": "balikesir-saat-kulesi",
       "name": {
@@ -13899,52 +13950,7 @@
         "https://example.com/saat_kulesi.jpg"
       ]
     },
-    {
-      "slug": "edremit-altinoluk",
-      "name": {
-        "tr": "Edremit Altınoluk",
-        "en": "Edremit Altınoluk",
-        "de": "Edremit Altınoluk"
-      },
-      "latitude": 39.57117,
-      "longitude": 27.74616,
-      "description": {
-        "tr": "      Altınoluk, Edremit ilçesinde yer alan bir tatil beldesidir. Ege'nin berrak suları ve doğal güzellikleriyle bilinir. Aynı zamanda tarihi yapılarıyla dikkat çeker.\n      ",
-        "en": "      Altınoluk, located in the Edremit district, is a holiday resort known for its clear Aegean waters and natural beauty. It is also notable for its historical structures.\n      ",
-        "de": "      Altınoluk, das im Bezirk Edremit liegt, ist ein Urlaubsort, der für sein klares Ägäisches Wasser und seine natürliche Schönheit bekannt ist. Es ist auch für seine historischen Gebäude bemerkenswert.\n      "
-      },
-      "activities": {
-        "tr": [
-          "Deniz kenarında yüzme",
-          "Tarihi yapıları gezme",
-          "Gün batımını izleme"
-        ],
-        "en": [
-          "Swimming by the sea",
-          "Tour the historical buildings",
-          "Watch the sunset"
-        ],
-        "de": [
-          "Schwimmen am Meer",
-          "Die historischen Gebäude besichtigen",
-          "Den Sonnenuntergang beobachten"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şehir turu"
-        ],
-        "en": [
-          "city tour"
-        ],
-        "de": [
-          "stadtrundfahrt"
-        ]
-      },
-      "images": [
-        "https://example.com/altinoluk.jpg"
-      ]
-    },
+    
     {
       "slug": "sindirgi-kaplicalari",
       "name": {
@@ -14174,49 +14180,7 @@
         "https://example.com/bartin_arkeoloji_muzesi.jpg"
       ]
     },
-    {
-      "slug": "filyos-kalesi",
-      "name": {
-        "tr": "Filyos Kalesi",
-        "en": "Filyos Castle",
-        "de": "Filyos Burg"
-      },
-      "latitude": 41.57355,
-      "longitude": 32.03263,
-      "description": {
-        "tr": "      Filyos Kalesi, antik Roma dönemine ait kalıntıları ve tarihi yapılarıyla dikkat çeker. Ziyaretçilere tarihsel bir yolculuk sunar.\n      ",
-        "en": "      Filyos Castle features ruins and historical structures from the ancient Roman period, offering visitors a journey through history.\n      ",
-        "de": "      Die Filyos-Burg zeichnet sich durch Ruinen und historische Strukturen aus der antiken römischen Zeit aus und bietet den Besuchern eine Reise durch die Geschichte.\n      "
-      },
-      "activities": {
-        "tr": [
-          "Tarihi yapıları incelemek",
-          "Fotoğraf çekmek"
-        ],
-        "en": [
-          "Examine the historical structures",
-          "Take photographs"
-        ],
-        "de": [
-          "Die historischen Strukturen untersuchen",
-          "Fotos machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/filyos_antik_kenti.jpg"
-      ]
-    },
+   
     {
       "slug": "kemere-koprusu",
       "name": {
@@ -25143,50 +25107,7 @@
         "https://example.com/mardin_kalesi.jpg"
       ]
     },
-    {
-      "slug": "zinciriye-medresesi",
-      "name": {
-        "tr": "Zinciriye Medresesi",
-        "en": "Zinciriye Medrese",
-        "de": "Zinciriye Medrese"
-      },
-      "latitude": 37.31443,
-      "longitude": 40.73998,
-      "description": {
-        "tr": "Zinciriye Medresesi, Mardin’in en önemli tarihi yapılarından biridir. 14. yüzyıldan kalma bu medrese, zarif taş işçiliğiyle ünlüdür.\n",
-        "en": "Zinciriye Medrese is one of the most important historical structures in Mardin. Built in the 14th century, this medrese is famous for its elegant stone craftsmanship.\n",
-        "de": "Die Zinciriye Medrese ist eines der wichtigsten historischen Gebäude in Mardin. Sie wurde im 14. Jahrhundert erbaut und ist berühmt für ihre elegante Steinmetzarbeit.\n"
-      },
-      "activities": {
-        "tr": [
-          "Tarihi yapıyı gezmek",
-          "Mimari detayları incelemek"
-        ],
-        "en": [
-          "Explore the historic structure",
-          "Examine architectural details"
-        ],
-        "de": [
-          "Das historische Gebäude besichtigen",
-          "Architektonische Details untersuchen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/zinciriye_medresesi.jpg"
-      ]
-    },
-    {
+        {
       "slug": "mardin-evleri",
       "name": {
         "tr": "Mardin Evleri",

@@ -37919,11 +37919,11 @@
   ],
   "mostar": [
     {
-      "slug": "mostar-koprusu-stari-most",
+      "slug": "mostar-koprusu",
       "name": {
-        "tr": "Mostar Köprüsü (Stari Most)",
-        "en": "Mostar Bridge (Stari Most)",
-        "de": "Mostar Brücke (Stari Most)"
+        "tr": "Mostar Köprüsü",
+        "en": "Mostar Bridge",
+        "de": "Mostar Brücke"
       },
       "latitude": 43.3373,
       "longitude": 17.81501,
