@@ -83,11 +83,7 @@
 
   "names": {
     "tr": "Dubai",
-    "en": "Dubai",
-    "de": "Dubai",
-    "ja": "ドバイ",
-    "ar": "دبي",
-    "ru": "Дубай"
+    "en": "Dubai"
   },
 
   "travel_info": {
@@ -126,11 +122,7 @@
 
   "names": {
     "tr": "New York",
-    "en": "New York",
-    "de": "New York",
-    "ja": "ニューヨーク",
-    "ar": "نيويورك",
-    "ru": "Нью-Йорк"
+    "en": "New York"
   },
 
   "travel_info": {
@@ -169,11 +161,7 @@
 
   "names": {
     "tr": "Pekin",
-    "en": "Beijing",
-    "de": "Peking",
-    "ja": "北京",
-    "ar": "بكين",
-    "ru": "Пекин"
+    "en": "Beijing"
   },
 
   "travel_info": {
@@ -212,11 +200,7 @@
 
   "names": {
     "tr": "Paris",
-    "en": "Paris",
-    "de": "Paris",
-    "ja": "パリ",
-    "ar": "باريس",
-    "ru": "Париж"
+    "en": "Paris"
   },
 
   "travel_info": {
@@ -255,11 +239,7 @@
 
   "names": {
     "tr": "Londra",
-    "en": "London",
-    "de": "London",
-    "ja": "ロンドン",
-    "ar": "لندن",
-    "ru": "Лондон"
+    "en": "London"
   },
 
   "travel_info": {
@@ -298,11 +278,7 @@
 
   "names": {
     "tr": "Antalya",
-    "en": "Antalya",
-    "de": "Antalya",
-    "ja": "アンタルヤ",
-    "ar": "أنطاليا",
-    "ru": "Анталия"
+    "en": "Antalya"
   },
 
   "travel_info": {
@@ -341,11 +317,7 @@
 
   "names": {
     "tr": "Tokyo",
-    "en": "Tokyo",
-    "de": "Tokio",
-    "ja": "東京",
-    "ar": "طوكيو",
-    "ru": "Токио"
+    "en": "Tokyo"
   },
 
   "travel_info": {
@@ -384,11 +356,7 @@
 
   "names": {
     "tr": "Hong Kong",
-    "en": "Hong Kong",
-    "de": "Hongkong",
-    "ja": "香港",
-    "ar": "هونغ كونغ",
-    "ru": "Гонконг"
+    "en": "Hong Kong"
   },
 
   "travel_info": {
@@ -427,11 +395,7 @@
 
   "names": {
     "tr": "Bangkok",
-    "en": "Bangkok",
-    "de": "Bangkok",
-    "ja": "バンコク",
-    "ar": "بانكوك",
-    "ru": "Бангкок"
+    "en": "Bangkok"
   },
 
   "travel_info": {
@@ -469,11 +433,7 @@
   "image": "/assets/cities/singapur.png",
   "names": {
     "tr": "Singapur",
-    "en": "Singapore",
-    "de": "Singapur",
-    "ja": "シンガポール",
-    "ar": "سنغافورة",
-    "ru": "Сингапур"
+    "en": "Singapore
   },
 
   "travel_info": {
@@ -508,11 +468,7 @@
   "image": "/assets/cities/barcelona.png",
   "names": {
     "tr": "Barselona",
-    "en": "Barcelona",
-    "de": "Barcelona",
-    "ja": "バルセロナ",
-    "ar": "برشلونة",
-    "ru": "Барселона"
+    "en": "Barcelona"
  },
   "travel_info": {
     "tr": {
@@ -546,11 +502,7 @@
   "image": "/assets/cities/roma.png",
   "names": {
     "tr": "Roma",
-    "en": "Rome",
-    "de": "Rom",
-    "ja": "ローマ",
-    "ar": "روما",
-    "ru": "Рим"
+    "en": "Rome"
   },
   "travel_info": {
     "tr": {
