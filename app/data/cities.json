@@ -1,48 +1,86 @@
 [
    {
-    "slug": "istanbul",
-    "region": "turkiye",
-    "country": "Türkiye",
-    "image": "/assets/cities/istanbul.png",
-    "names": {
-      "tr": "İstanbul",
-      "en": "Istanbul",
-      "de": "Istanbul",
-      "ja": "イスタンブール",
-      "ar": "إسطنبول",
-      "ru": "Стамбул"
-    },
-    "descriptions": {
-      "tr": "İstanbul, Türkiye'nin en büyük ve en kalabalık şehridir.\nKültür, sanat, tarih ve turizm merkezi olarak dünyaca ünlüdür.\n\nŞehir, Avrupa ve Asya kıtalarını birleştiren stratejik konumuyla tarih boyunca ticaretin ve medeniyetlerin merkezi olmuştur.\nRoma, Bizans ve Osmanlı İmparatorluklarına başkentlik yapmış olan İstanbul, bu köklü geçmişin izlerini günümüzde de taşır.\n\nAyasofya, Topkapı Sarayı, Sultanahmet Camii, Kapalıçarşı ve Yerebatan Sarnıcı gibi dünyaca ünlü tarihi yapıları ziyaretçilerine zaman içinde bir yolculuk sunar.\n\nBoğaziçi'nin benzersiz manzarası, modern şehir hayatı ve kültürel çeşitliliğiyle İstanbul, hem yerli hem de yabancı turistler için cazibe merkezi olmayı sürdürmektedir.\n\nAyrıca, mutfak kültürü, sanat etkinlikleri, festivaller ve canlı gece hayatıyla ziyaretçilere eşsiz bir deneyim sunar.\n\nŞehrin hızlı büyümesine rağmen, eski mahalleleri ve tarihi dokusu hâlâ korunmaktadır.\nBu da İstanbul'u geçmiş ve geleceğin buluşma noktası haline getirir.",
-      "en": "Istanbul is the largest and most populous city in Turkey.\nIt is world-renowned as a center for culture, art, history, and tourism.\n\nThe city has been a hub for trade and civilization throughout history, thanks to its strategic location bridging the continents of Europe and Asia.\nIstanbul, which has served as the capital of the Roman, Byzantine, and Ottoman Empires, still bears the traces of this rich history.\n\nFamous historical sites such as Hagia Sophia, Topkapi Palace, the Blue Mosque, the Grand Bazaar, and the Basilica Cistern offer visitors a journey through time.\n\nWith its unique Bosphorus views, modern urban life, and cultural diversity, Istanbul continues to be an attractive destination for both local and foreign tourists.\n\nMoreover, its culinary culture, artistic events, festivals, and vibrant nightlife offer visitors a unique experience.\n\nDespite the rapid urban growth, the old neighborhoods and historic texture of the city are still preserved, making Istanbul a meeting point between the past and the future."
-    },
-    "gallery": [
-      "/assets/sehir/istanbul1.png",
-      "/assets/sehir/istanbul2.png"
-    ]
+  "slug": "istanbul",
+  "region": "turkiye",
+  "country": "turkiye",
+  "image": "/assets/cities/istanbul.png",
+  "names": {
+    "tr": "İstanbul",
+    "en": "Istanbul"
   },
+ "travel_info": {
+    "tr": {
+      "best_time": "Nisan - Haziran, Eylül - Kasım",
+      "timezone": "TRT (Türkiye Saati)",
+      "currency": "Türk Lirası (TRY)",
+      "language": "Türkçe",
+      "population": "15,9 milyon"
+    },
+    "en": {
+      "best_time": "April - June, September - November",
+      "timezone": "TRT (Turkey Time)",
+      "currency": "Turkish Lira (TRY)",
+      "language": "Turkish",
+      "population": "15.9 million"
+    }
+  },
+  "descriptions": {
+  "tr": "İstanbul, Türkiye'nin en büyük ve en önemli şehirlerinden biridir ve dünyanın en büyüleyici metropollerinden biri olarak kabul edilir. Tarih boyunca farklı medeniyetlere ev sahipliği yapan şehir, kültürel mirası, mimarisi ve eşsiz coğrafi konumuyla dünyanın en popüler turizm destinasyonlarından biri haline gelmiştir.\n\nİstanbul'u özel kılan en önemli özelliklerden biri, Avrupa ve Asya kıtalarını birleştiren nadir şehirlerden biri olmasıdır. İstanbul Boğazı sayesinde iki kıtayı birbirine bağlayan şehir, yüzyıllar boyunca ticaret yollarının kesiştiği stratejik bir merkez olmuştur. Bu eşsiz konum İstanbul'u yalnızca Türkiye'nin değil, aynı zamanda dünyanın en önemli kültür ve ticaret merkezlerinden biri haline getirmiştir.\n\nİstanbul aynı zamanda üç büyük imparatorluğa başkentlik yapmış nadir şehirlerden biridir. Roma, Bizans ve Osmanlı İmparatorluklarının yönetim merkezi olan şehir, bu dönemlerden kalan sayısız tarihi eserle adeta açık hava müzesini andırır. Şehrin dört bir yanında bulunan tarihi yapılar, ziyaretçilere binlerce yıllık bir tarih yolculuğu sunar.\n\nİstanbul'da gezilecek yerler listesi oldukça geniştir. Ayasofya, Topkapı Sarayı, Sultanahmet Camii, Kapalıçarşı, Yerebatan Sarnıcı ve Galata Kulesi gibi dünyaca ünlü yapılar, şehrin en önemli simgeleri arasında yer alır. Bunun yanı sıra Dolmabahçe Sarayı, Süleymaniye Camii, Rumeli Hisarı ve Kız Kulesi gibi tarihi noktalar da İstanbul'un zengin geçmişini gözler önüne serer.\n\nŞehrin doğal güzelliklerinin başında İstanbul Boğazı gelir. Boğaz boyunca uzanan tarihi yalılar, sahil semtleri ve manzara noktaları İstanbul'un en etkileyici görüntülerini oluşturur. Boğaz turu yapmak, sahil yürüyüşleri gerçekleştirmek veya manzaralı restoranlarda vakit geçirmek, İstanbul'da yapılabilecek en keyifli aktivitelerden biridir.\n\nİstanbul aynı zamanda modern şehir yaşamının da en canlı merkezlerinden biridir. Beyoğlu, Kadıköy, Karaköy ve Balat gibi semtler sanat galerileri, kafeler, tarihi sokaklar ve kültürel etkinliklerle doludur. Bu semtlerde gezerken hem tarihi dokuyu hissedebilir hem de modern İstanbul'un enerjisini deneyimleyebilirsiniz.\n\nŞehir, gastronomi açısından da oldukça zengin bir kültüre sahiptir. Sokak lezzetlerinden geleneksel Osmanlı mutfağına kadar uzanan geniş bir yemek kültürü bulunur. Simit, balık ekmek, kebap çeşitleri, Türk kahvesi ve tatlılar İstanbul'un en bilinen lezzetleri arasında yer alır.\n\nAyrıca İstanbul yıl boyunca birçok kültür ve sanat etkinliğine ev sahipliği yapar. Uluslararası film festivalleri, sanat bienalleri, konserler ve sergiler şehrin kültürel yaşamını oldukça hareketli hale getirir.\n\nTarihi mirası, mimarisi, doğal güzellikleri ve kültürel çeşitliliği ile İstanbul, hem Türkiye'nin hem de dünyanın en etkileyici şehirlerinden biri olmaya devam etmektedir. Bu nedenle İstanbul'u ziyaret etmek, farklı kültürlerin ve yüzyılların izlerini aynı anda keşfetmek anlamına gelir.",
+
+  "en": "Istanbul is the largest and most important city in Turkey and one of the most fascinating cities in the world. Known for its rich history, cultural diversity, and unique geographical location, Istanbul has become one of the most popular travel destinations globally, attracting millions of visitors every year.\n\nOne of the most remarkable aspects of Istanbul is that it spans two continents: Europe and Asia. Divided by the Bosphorus Strait, the city connects these two continents and has historically served as a strategic center of trade, culture, and civilization. Because of this unique position, Istanbul has been one of the most influential cities in world history.\n\nIstanbul is also one of the rare cities that served as the capital of three great empires: the Roman, Byzantine, and Ottoman Empires. The architectural heritage left behind by these civilizations can still be seen throughout the city, making Istanbul feel like a vast open-air museum filled with historical landmarks.\n\nThere are countless attractions and things to do in Istanbul. Some of the city's most iconic landmarks include Hagia Sophia, Topkapi Palace, the Blue Mosque, the Grand Bazaar, the Basilica Cistern, and the Galata Tower. These historic sites attract millions of visitors each year and showcase the city's rich cultural heritage.\n\nIn addition to these famous landmarks, other historical places such as Dolmabahce Palace, Suleymaniye Mosque, the Maiden's Tower, and Rumeli Fortress also offer incredible insights into the city's past.\n\nThe Bosphorus Strait is one of Istanbul's most breathtaking natural features. Lined with historic mansions, waterfront neighborhoods, and scenic viewpoints, the Bosphorus offers some of the most beautiful landscapes in the city. Taking a Bosphorus cruise, walking along the seaside districts, or enjoying the view from a café are some of the most memorable experiences in Istanbul.\n\nIstanbul is also a vibrant modern metropolis. Districts like Beyoglu, Kadikoy, Karakoy, and Balat are known for their lively streets, art galleries, historic buildings, cafés, and cultural events. These neighborhoods perfectly reflect the dynamic character of the city where tradition meets modern life.\n\nThe city is equally famous for its culinary culture. From traditional Turkish cuisine to street food and contemporary restaurants, Istanbul offers a diverse food scene that appeals to visitors from all around the world. Popular local foods include simit, kebabs, fresh seafood, Turkish coffee, and a wide variety of traditional desserts.\n\nThroughout the year, Istanbul hosts numerous cultural and artistic events including international film festivals, music concerts, art exhibitions, and biennials. These events make the city an important cultural hub not only in Turkey but also in the wider region.\n\nWith its extraordinary history, architecture, vibrant culture, and breathtaking scenery, Istanbul continues to be one of the most captivating travel destinations in the world. Visiting Istanbul means exploring centuries of history while experiencing the energy of a modern global city."
+}
+,
+  "gallery": [
+    "/assets/sehir/istanbul1.png",
+    "/assets/sehir/istanbul2.png"
+  ]
+}
+,
   {
-    "slug": "viyana",
-    "region": "avrupa",
-    "country": "Avusturya",
-    "image": "/assets/cities/viyana.png",
-    "names": {
-      "tr": "Viyana",
-      "en": "Vienna"
-    },
-    "descriptions": {
-      "tr": "Viyana, Avusturya’nın başkenti ve en büyük şehridir.\nSanat, kültür, tarih ve mimari açısından Avrupa’nın en önemli merkezlerinden biridir.\n\nViyana, yüzyıllar boyunca Habsburg Hanedanı’nın yönetim merkezi olmuş ve Avrupa’nın politik, sanatsal ve bilimsel gelişimine büyük katkılar sağlamıştır.\nŞehir, Barok mimarisi, zarif kafeleri, klasik müziği ve zengin kültürel mirasıyla tanınır.\n\nSchönbrunn Sarayı, Hofburg Sarayı, Belvedere Sarayı ve Aziz Stefan Katedrali gibi tarihi yapıları, şehrin görkemli geçmişini yansıtır.\nAyrıca, Viyana Devlet Operası ve dünyaca ünlü Filarmoni Orkestrası, klasik müzik tutkunları için eşsiz bir deneyim sunar.\n\nKlasik müziğin başkenti olarak anılan Viyana, Mozart, Beethoven ve Strauss gibi ünlü bestecilere ev sahipliği yapmıştır.\nŞehir aynı zamanda müzeleri, sanat galerileri ve tiyatrolarıyla sanata olan ilgisini günümüze kadar sürdürmüştür.\n\nViyana, geleneksel kahve kültürüyle de ünlüdür. Tarihi kafeleri, sadece kahve içmek için değil, aynı zamanda kitap okumak, sosyalleşmek ve sanattan keyif almak için de birer buluşma noktasıdır.\nApfelstrudel, Sachertorte ve Wiener Schnitzel gibi dünyaca ünlü lezzetleriyle mutfak kültürü de oldukça zengindir.\n\nDüzenli yapısı, yeşil alanları, temiz havası ve yüksek yaşam kalitesiyle Viyana, hem ziyaretçiler hem de yerleşik halk için Avrupa’nın en yaşanabilir şehirlerinden biri olarak kabul edilmektedir.",
-      "en": "Vienna is the capital and largest city of Austria.\nIt is one of the most important centers in Europe in terms of art, culture, history, and architecture.\n\nFor centuries, Vienna has been the political center of the Habsburg Dynasty and has made significant contributions to the political, artistic, and scientific development of Europe.\nThe city is known for its Baroque architecture, elegant cafes, classical music, and rich cultural heritage.\n\nHistorical landmarks such as Schönbrunn Palace, Hofburg Palace, Belvedere Palace, and St. Stephen's Cathedral reflect the city's glorious past.\nAdditionally, the Vienna State Opera and the world-famous Vienna Philharmonic Orchestra offer an unmatched experience for classical music enthusiasts.\n\nReferred to as the capital of classical music, Vienna has been home to famous composers like Mozart, Beethoven, and Strauss.\nThe city has also maintained its passion for art through its museums, art galleries, and theaters.\n\nVienna is famous for its traditional coffee culture. The historic cafes are meeting spots not only for enjoying coffee but also for reading books, socializing, and enjoying art.\nWith world-famous dishes like Apfelstrudel, Sachertorte, and Wiener Schnitzel, the culinary culture is also very rich.\n\nWith its orderly structure, green spaces, clean air, and high quality of life, Vienna is considered one of the most livable cities in Europe, both for visitors and residents."
-    },
-    "gallery": [
-      "/assets/sehir/viyana.png"
-    ]
+  "slug": "viyana",
+  "region": "avrupa",
+  "country": "avusturya",
+  "image": "/assets/cities/viyana.png",
+
+  "names": {
+    "tr": "Viyana",
+    "en": "Vienna"
   },
+
+  "travel_info": {
+  "tr": {
+    "best_time": "Nisan - Ekim",
+    "timezone": "CET (Orta Avrupa Saati)",
+    "currency": "Euro (EUR)",
+    "language": "Almanca",
+    "population": "1,9 milyon"
+  },
+  "en": {
+    "best_time": "April - October",
+    "timezone": "CET (Central European Time)",
+    "currency": "Euro (EUR)",
+    "language": "German",
+    "population": "1.9 million"
+  }
+},
+
+
+  "descriptions": {
+    "tr": "Viyana, Avusturya’nın başkenti ve en büyük şehridir. Avrupa’nın en etkileyici kültür, sanat ve tarih merkezlerinden biri olarak kabul edilen şehir, zengin mimarisi, klasik müzik mirası ve zarif atmosferiyle her yıl milyonlarca ziyaretçiyi kendine çekmektedir.\n\nTuna Nehri kıyısında kurulan Viyana, yüzyıllar boyunca Avrupa’nın en güçlü hanedanlarından biri olan Habsburg Hanedanı’nın yönetim merkezi olmuştur. Bu nedenle şehir, imparatorluk döneminden kalan sarayları, anıtları ve görkemli yapılarıyla adeta bir açık hava müzesi görünümündedir.\n\nViyana’da gezilecek yerler arasında Schönbrunn Sarayı, Hofburg Sarayı, Belvedere Sarayı ve Aziz Stefan Katedrali gibi Avrupa’nın en ünlü tarihi yapıları yer alır. Bu yapılar yalnızca mimari açıdan değil, aynı zamanda Avusturya’nın imparatorluk geçmişini anlamak açısından da büyük önem taşır.\n\nViyana aynı zamanda dünyanın klasik müzik başkentlerinden biri olarak kabul edilir. Mozart, Beethoven ve Johann Strauss gibi ünlü besteciler hayatlarının önemli bir bölümünü bu şehirde geçirmiştir. Günümüzde Viyana Devlet Operası ve Musikverein konser salonu klasik müzik tutkunları için eşsiz deneyimler sunar.\n\nŞehir, tarihi kafeleri ve kahve kültürüyle de ünlüdür. Café Central ve Café Sacher gibi tarihi kafeler, yalnızca kahve içmek için değil aynı zamanda Viyana'nın kültürel atmosferini hissetmek için de popüler buluşma noktalarıdır.\n\nDüzenli şehir planlaması, geniş parkları, temiz sokakları ve yüksek yaşam kalitesi sayesinde Viyana uzun yıllardır dünyanın en yaşanabilir şehirlerinden biri olarak gösterilmektedir.",
+
+    "en": "Vienna is the capital and largest city of Austria and one of the most culturally rich cities in Europe. Known for its imperial architecture, classical music heritage, and elegant atmosphere, Vienna attracts millions of visitors every year.\n\nLocated along the Danube River, Vienna served for centuries as the political center of the Habsburg Empire. Because of this imperial past, the city is filled with magnificent palaces, historic monuments, and grand boulevards that reflect its royal heritage.\n\nSome of the most famous attractions in Vienna include Schönbrunn Palace, Hofburg Palace, Belvedere Palace, and St. Stephen’s Cathedral. These historic landmarks showcase the city's imperial history and architectural beauty.\n\nVienna is widely known as one of the world’s capitals of classical music. Legendary composers such as Mozart, Beethoven, and Johann Strauss lived and worked in the city. Today, the Vienna State Opera and Musikverein concert hall continue to keep this musical tradition alive.\n\nThe city is also famous for its historic coffeehouse culture. Traditional Viennese cafés such as Café Central and Café Sacher are cultural meeting points where visitors can relax and experience the intellectual atmosphere of the city.\n\nWith its elegant architecture, green parks, excellent public transportation, and high quality of life, Vienna consistently ranks among the most livable cities in the world."
+  },
+
+  "gallery": [
+    "/assets/sehir/viyana.png"
+  ]
+},
 {
   "slug": "dubai",
   "region": "asya",
-  "country": "Birleşik Arap Emirlikleri",
+  "country": "bae",
   "image": "/assets/cities/dubai.png",
+
   "names": {
     "tr": "Dubai",
     "en": "Dubai",
@@ -51,10 +89,30 @@
     "ar": "دبي",
     "ru": "Дубай"
   },
-  "descriptions": {
-    "tr": "Dubai, Birleşik Arap Emirlikleri'nin en büyük ve en modern şehirlerinden biri olup; lüks alışveriş merkezleri, mimari harikaları ve benzersiz deneyimleriyle dünya çapında tanınır.\n\nPetrol gelirleriyle başlayan ekonomik yükselişi sayesinde kısa sürede küresel bir finans, ticaret ve turizm merkezi haline gelmiştir.\n\nDünyanın en yüksek binası olan Burj Khalifa, Dubai'nin çağdaş mühendislik ve mimarisinin en güçlü simgesidir.\n\nPalm Jumeirah, Dubai Marina ve Dubai Mall gibi yapay adalar, modern yerleşimler ve devasa alışveriş alanları her yıl milyonlarca turisti kendine çeker.\n\nDubai; altın rengi çölleri, uzun sahil şeritleri ve lüks plajlarıyla da öne çıkar. Çöl safarileri, su sporları ve yat turları ziyaretçilere unutulmaz anlar yaşatır.\n\nŞehirde lüks markalarla dolu alışveriş merkezlerinin yanı sıra geleneksel Arap çarşıları (souk) da bulunur.\n\nÇok kültürlü yapısı, gelişmiş altyapısı, dünya mutfaklarından restoranları ve canlı gece hayatıyla Dubai, modern yaşamın en çarpıcı örneklerinden biridir.\n\nGeleneksel Arap kültürüyle modern yaşamın iç içe geçtiği Dubai, geçmiş ile geleceğin buluştuğu eşsiz bir metropol olarak dikkat çeker.",
-    "en": "Dubai is one of the largest and most modern cities in the United Arab Emirates, globally recognized for its luxury shopping, architectural landmarks, and unique experiences.\n\nFueled by oil-driven economic growth, the city has rapidly transformed into a global hub for finance, trade, and tourism.\n\nThe Burj Khalifa, the tallest building in the world, stands as a powerful symbol of Dubai’s modern engineering and architectural ambition.\n\nMan-made islands such as Palm Jumeirah, developments like Dubai Marina, and massive shopping destinations like Dubai Mall attract millions of visitors each year.\n\nDubai is also famous for its golden deserts, long coastlines, and luxury beaches. Desert safaris, water sports, and yacht tours offer unforgettable experiences.\n\nThe city blends luxury shopping malls with traditional Arab souks, creating a unique shopping culture.\n\nWith its multicultural population, advanced infrastructure, world-class dining, and vibrant nightlife, Dubai represents one of the most striking examples of modern urban life.\n\nCombining traditional Arab heritage with futuristic development, Dubai stands out as a unique metropolis where the past meets the future."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Kasım - Mart",
+      "timezone": "GST (Gulf Standard Time)",
+      "currency": "BAE Dirhemi (AED)",
+      "language": "Arapça",
+      "population": "3,6 milyon"
+    },
+    "en": {
+      "best_time": "November - March",
+      "timezone": "GST (Gulf Standard Time)",
+      "currency": "UAE Dirham (AED)",
+      "language": "Arabic",
+      "population": "3.6 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Dubai, Birleşik Arap Emirlikleri'nin en büyük ve en gelişmiş şehirlerinden biri olup Orta Doğu’nun en önemli turizm, ticaret ve finans merkezlerinden biridir. Basra Körfezi kıyısında yer alan şehir, modern mimarisi, lüks yaşam tarzı ve devasa projeleriyle dünyanın en dikkat çekici metropollerinden biri haline gelmiştir.\n\n1960'lı yıllarda petrol keşfiyle başlayan ekonomik büyüme sayesinde Dubai kısa sürede küresel bir iş ve turizm merkezi haline gelmiştir. Günümüzde şehir; gökdelenleri, yapay adaları, alışveriş merkezleri ve ultra lüks otelleriyle dünya turizm haritasında önemli bir konuma sahiptir.\n\nDubai'nin en ünlü simgelerinden biri olan Burj Khalifa, 828 metre yüksekliğiyle dünyanın en yüksek binasıdır ve şehrin modern mimarisinin en güçlü sembollerinden biri olarak kabul edilir. Dubai Mall ise dünyanın en büyük alışveriş merkezlerinden biridir ve içerisinde yüzlerce mağaza, restoran, eğlence alanı ve devasa akvaryum bulunur.\n\nPalm Jumeirah, insan yapımı en ünlü ada projelerinden biridir ve lüks resort oteller, plaj kulüpleri ve restoranlarla doludur. Dubai Marina ise gökdelenlerle çevrili modern bir sahil bölgesi olup yürüyüş yolları, kafeleri ve yat limanıyla oldukça popülerdir.\n\nŞehir yalnızca modern yapılarıyla değil aynı zamanda geleneksel Arap kültürüyle de dikkat çeker. Deira ve Bur Dubai bölgelerinde bulunan Gold Souk ve Spice Souk gibi geleneksel çarşılar ziyaretçilere otantik bir alışveriş deneyimi sunar.\n\nDubai aynı zamanda macera ve aktivite açısından da oldukça zengindir. Çöl safarileri, kum sörfü, deve turları ve lüks kamp deneyimleri turistlerin en çok tercih ettiği aktiviteler arasındadır. Bunun yanı sıra şehirde su parkları, plaj aktiviteleri, skydiving, helikopter turları ve yat gezileri gibi pek çok farklı deneyim bulunur.\n\nDubai’nin yıl boyunca düzenlenen festivalleri, uluslararası etkinlikleri ve spor organizasyonları da şehrin turizm cazibesini artırmaktadır. Dubai Shopping Festival, Dubai Expo alanı ve dünya çapında düzenlenen fuarlar milyonlarca ziyaretçiyi şehre çeker.\n\nModern altyapısı, güvenli yapısı, dünya mutfaklarından restoranları, lüks alışveriş imkanları ve etkileyici mimarisi sayesinde Dubai, Orta Doğu'nun en popüler turistik destinasyonlarından biri olarak her yıl milyonlarca ziyaretçiyi ağırlamaktadır.",
+
+    "en": "Dubai is one of the largest and most advanced cities in the United Arab Emirates and one of the most important tourism, business, and financial hubs in the Middle East. Located on the coast of the Persian Gulf, the city is globally known for its futuristic skyline, luxury lifestyle, and ambitious mega-projects.\n\nSince the discovery of oil in the 1960s, Dubai has experienced rapid economic growth and transformed into a global center for trade, tourism, and innovation. Today the city is famous for its skyscrapers, artificial islands, luxury resorts, and some of the world's largest shopping malls.\n\nThe Burj Khalifa, the tallest building in the world at 828 meters, is one of Dubai’s most iconic landmarks and symbolizes the city’s architectural ambition. Nearby, Dubai Mall is one of the largest shopping centers on Earth, offering hundreds of stores, fine dining restaurants, entertainment attractions, and the famous Dubai Aquarium.\n\nPalm Jumeirah is one of the world’s most famous man-made islands and features luxury hotels, beach resorts, and upscale restaurants. Dubai Marina is another modern district known for its impressive skyline, waterfront promenade, cafes, and yacht-filled marina.\n\nWhile Dubai is known for its modern lifestyle, the city also preserves its traditional Arabian culture. Historic areas such as Deira and Bur Dubai feature traditional markets like the Gold Souk and Spice Souk, where visitors can explore authentic Middle Eastern shopping experiences.\n\nDubai is also a destination for adventure and unique activities. Desert safaris, dune bashing, camel riding, sandboarding, and luxury desert camps are among the most popular tourist experiences. Visitors can also enjoy water sports, skydiving over Palm Jumeirah, helicopter tours, yacht cruises, and world-class beach resorts.\n\nThe city hosts numerous international festivals, events, and exhibitions throughout the year. Major events such as the Dubai Shopping Festival and global trade expos attract millions of visitors annually.\n\nWith its world-class infrastructure, multicultural atmosphere, luxury hotels, global cuisine, vibrant nightlife, and extraordinary architecture, Dubai stands out as one of the most spectacular travel destinations in the world."
+  },
+
   "gallery": [
     "/assets/sehir/dubai1.png",
     "/assets/sehir/dubai2.png"
@@ -63,8 +121,9 @@
 {
   "slug": "newyork",
   "region": "amerika",
-  "country": "Amerika Birleşik Devletleri",
+  "country": "amerika",
   "image": "/assets/cities/new.png",
+
   "names": {
     "tr": "New York",
     "en": "New York",
@@ -73,10 +132,30 @@
     "ar": "نيويورك",
     "ru": "Нью-Йорк"
   },
-  "descriptions": {
-    "tr": "New York, Amerika Birleşik Devletleri'nin en büyük ve en ünlü şehirlerinden biridir. Dünyanın finans, kültür, sanat ve moda merkezlerinden biri olarak kabul edilir.\n\nBeş ilçeden oluşan şehir; Manhattan, Brooklyn, Queens, Bronx ve Staten Island bölgelerini kapsar. Manhattan, Wall Street ve New York Borsası gibi küresel finansın kalbinin attığı merkezdir.\n\nBrooklyn sanatsal ve kültürel yaşamıyla öne çıkarken, Queens dünyanın en etnik çeşitliliğe sahip bölgelerinden biri olarak bilinir.\n\nTimes Square, Özgürlük Heykeli, Central Park, Empire State Binası ve Brooklyn Köprüsü gibi simge yapılar New York'u dünyanın en tanınan şehirlerinden biri haline getirir.\n\nŞehir, Metropolitan Sanat Müzesi (Met), Modern Sanat Müzesi (MoMA) ve Amerikan Doğa Tarihi Müzesi gibi dünyaca ünlü müzelere ev sahipliği yapar.\n\nNew York, 24 saat yaşayan yapısıyla alışveriş, gece hayatı, restoranlar ve kültürel etkinlikler açısından son derece zengindir. Broadway, dünyanın en ünlü tiyatro bölgesi olarak milyonlarca ziyaretçiyi ağırlar.\n\nÇok kültürlü yapısı, dinamizmi ve küresel etkisiyle New York, modern dünyanın en etkileyici metropollerinden biridir.",
-    "en": "New York is one of the largest and most famous cities in the United States and is considered a global center for finance, culture, art, and fashion.\n\nThe city consists of five boroughs: Manhattan, Brooklyn, Queens, Bronx, and Staten Island. Manhattan serves as the financial heart of the city, home to Wall Street and the New York Stock Exchange.\n\nBrooklyn is known for its vibrant arts and cultural scene, while Queens stands out as one of the most ethnically diverse areas in the world.\n\nIconic landmarks such as Times Square, the Statue of Liberty, Central Park, the Empire State Building, and the Brooklyn Bridge make New York one of the most recognizable cities globally.\n\nThe city is home to world-renowned museums including the Metropolitan Museum of Art (Met), the Museum of Modern Art (MoMA), and the American Museum of Natural History.\n\nKnown as the city that never sleeps, New York offers endless shopping, nightlife, dining, and cultural experiences. Broadway, the world-famous theater district, attracts millions of visitors each year.\n\nWith its multicultural population, dynamic lifestyle, and global influence, New York stands as one of the most powerful and inspiring metropolises in the modern world."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Nisan - Haziran, Eylül - Kasım",
+      "timezone": "EST (Eastern Standard Time)",
+      "currency": "ABD Doları (USD)",
+      "language": "İngilizce",
+      "population": "8,5 milyon"
+    },
+    "en": {
+      "best_time": "April - June, September - November",
+      "timezone": "EST (Eastern Standard Time)",
+      "currency": "US Dollar (USD)",
+      "language": "English",
+      "population": "8.5 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "New York, Amerika Birleşik Devletleri'nin en büyük ve en ikonik şehirlerinden biri olup dünyanın finans, kültür, sanat ve medya merkezlerinden biri olarak kabul edilir. Atlas Okyanusu kıyısında yer alan şehir, gökdelenlerle dolu silüeti, tarihi simgeleri ve kozmopolit yaşam tarzıyla dünya çapında milyonlarca ziyaretçiyi kendine çeker.\n\nNew York beş ana ilçeden oluşur: Manhattan, Brooklyn, Queens, Bronx ve Staten Island. Manhattan, şehrin ekonomik ve turistik merkezidir. Wall Street, New York Borsası (NYSE) ve birçok uluslararası finans kuruluşu burada bulunur. Bu nedenle şehir küresel finansın kalbi olarak kabul edilir.\n\nŞehrin en ünlü turistik simgeleri arasında Özgürlük Heykeli, Times Square, Central Park, Empire State Binası ve Brooklyn Köprüsü yer alır. Özgürlük Heykeli Amerika'nın özgürlük ve demokrasi sembollerinden biri olarak her yıl milyonlarca turist tarafından ziyaret edilir. Times Square ise dev ekranları, ışıkları ve canlı atmosferiyle dünyanın en yoğun meydanlarından biridir.\n\nCentral Park, Manhattan'ın ortasında bulunan dev bir şehir parkıdır ve yürüyüş yolları, gölleri, bisiklet rotaları ve yeşil alanlarıyla hem turistler hem de yerel halk için önemli bir dinlenme alanıdır. Brooklyn Köprüsü ise Manhattan ile Brooklyn'i birbirine bağlayan tarihi bir mühendislik harikasıdır.\n\nNew York aynı zamanda sanat ve kültür açısından da dünyanın en önemli şehirlerinden biridir. Metropolitan Museum of Art (MET), Museum of Modern Art (MoMA) ve American Museum of Natural History gibi müzeler dünya çapında ünlüdür.\n\nŞehir ayrıca Broadway tiyatrolarıyla tanınır. Broadway bölgesi dünyanın en ünlü tiyatro merkezlerinden biridir ve her yıl milyonlarca kişi müzikaller ve tiyatro gösterileri izlemek için burayı ziyaret eder.\n\nNew York'un mutfak kültürü de son derece zengindir. Şehirde dünyanın dört bir yanından restoranlar, sokak yemekleri ve farklı mutfaklar bulunur. Chinatown, Little Italy ve Koreatown gibi bölgeler kültürel çeşitliliğin en iyi örneklerini sunar.\n\nGökdelenleri, kültürel çeşitliliği, 24 saat yaşayan enerjik atmosferi ve küresel etkisiyle New York, dünyanın en etkileyici ve en çok ziyaret edilen şehirlerinden biri olarak öne çıkmaktadır.",
+
+    "en": "New York is one of the largest and most iconic cities in the United States and is widely recognized as a global center for finance, culture, art, and media. Located on the Atlantic coast, the city attracts millions of visitors each year with its impressive skyline, historic landmarks, and vibrant urban lifestyle.\n\nThe city is made up of five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Manhattan is the economic and tourist heart of the city. It is home to Wall Street, the New York Stock Exchange (NYSE), and many global financial institutions, making New York one of the most influential financial capitals in the world.\n\nSome of the most famous landmarks in New York include the Statue of Liberty, Times Square, Central Park, the Empire State Building, and the Brooklyn Bridge. The Statue of Liberty is one of the most recognized symbols of freedom and democracy in the world, attracting millions of visitors annually. Times Square is famous for its massive digital screens, bright lights, and energetic atmosphere.\n\nCentral Park is a massive urban park located in the heart of Manhattan and offers walking paths, lakes, cycling routes, and green spaces where both locals and tourists can relax. The Brooklyn Bridge, connecting Manhattan and Brooklyn, is one of the oldest suspension bridges in the United States and an iconic architectural landmark.\n\nNew York is also one of the world's leading cities for art and culture. Major institutions such as the Metropolitan Museum of Art (MET), the Museum of Modern Art (MoMA), and the American Museum of Natural History house some of the most important collections in the world.\n\nBroadway, the world-famous theater district, is another major attraction. Visitors from all over the world come to New York to watch Broadway musicals and theater performances.\n\nThe city's food scene is equally diverse, offering cuisine from nearly every culture in the world. Neighborhoods such as Chinatown, Little Italy, and Koreatown showcase the multicultural identity of the city.\n\nWith its iconic skyline, cultural diversity, nonstop energy, and global influence, New York stands as one of the most exciting and influential travel destinations in the world."
+  },
+
   "gallery": [
     "/assets/sehir/newyork1.png",
     "/assets/sehir/newyork2.png"
@@ -85,8 +164,9 @@
 {
   "slug": "pekin",
   "region": "asya",
-  "country": "Çin",
+  "country": "cin",
   "image": "/assets/cities/pekin.png",
+
   "names": {
     "tr": "Pekin",
     "en": "Beijing",
@@ -95,10 +175,30 @@
     "ar": "بكين",
     "ru": "Пекин"
   },
-  "descriptions": {
-    "tr": "Pekin, Çin Halk Cumhuriyeti'nin başkenti ve en büyük şehirlerinden biri olup; tarihi, kültürel mirası ve modern yapılarıyla dikkat çeker. Şehir, Çin'in siyaset, kültür ve eğitim merkezi olarak kabul edilir.\n\nYasak Şehir, Ming ve Qing Hanedanlıkları boyunca Çin imparatorlarına ev sahipliği yapmış görkemli bir saray kompleksidir ve Pekin'in en önemli simgelerinden biridir.\n\nTiananmen Meydanı, dünyanın en büyük meydanlarından biri olarak bilinir ve Çin tarihindeki birçok önemli olaya tanıklık etmiştir.\n\nPekin, Çin Seddi'nin bazı bölümlerine oldukça yakın bir konumda yer alır ve bu tarihi yapı, şehri ziyaret edenler için mutlaka görülmesi gereken yerlerden biridir.\n\nModern Pekin; gökdelenleri, ileri teknolojiyle planlanmış şehir yapısı ve geleneksel mimarinin bir arada bulunduğu benzersiz bir atmosfere sahiptir.\n\n2008 Yaz Olimpiyatları için inşa edilen Kuş Yuvası Stadyumu ve Su Küpü, şehrin modern yüzünü temsil ederken; 798 Sanat Bölgesi çağdaş sanatın merkezi olarak öne çıkar.\n\nPekin mutfağı, Çin kültürünün önemli bir parçasıdır. Özellikle Pekin Ördeği dünya çapında ün kazanmış bir lezzettir. Wangfujing Caddesi ise sokak yemekleri ve alışverişiyle ünlüdür.\n\nZengin tarihi, etkileyici mimarisi ve kültürel çeşitliliğiyle Pekin, geçmiş ile modern yaşamın iç içe geçtiği eşsiz bir metropoldür.",
-    "en": "Beijing, the capital of the People's Republic of China and one of its largest cities, stands out with its rich historical heritage, cultural depth, and modern urban development. It is considered the political, cultural, and educational center of China.\n\nOne of the city's most iconic landmarks is the Forbidden City, a magnificent palace complex that served as the residence of Chinese emperors during the Ming and Qing Dynasties.\n\nTiananmen Square, one of the largest public squares in the world, has been the site of many significant historical events in China.\n\nBeijing is also located near several sections of the Great Wall of China, making it a must-visit destination for travelers interested in history and architecture.\n\nModern Beijing seamlessly blends tradition with innovation through its skyscrapers, advanced city planning, and preserved historical sites.\n\nThe Bird's Nest Stadium and the Water Cube, built for the 2008 Summer Olympics, symbolize the city’s modern identity, while the 798 Art District highlights its vibrant contemporary art scene.\n\nBeijing’s cuisine is a vital part of Chinese culture, with Peking Duck being one of its most famous dishes. Wangfujing Street is well known for its street food and shopping experience.\n\nWith its deep historical roots, impressive architecture, and unique culinary culture, Beijing offers a remarkable fusion of history and modern life."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Nisan - Mayıs, Eylül - Ekim",
+      "timezone": "CST (China Standard Time)",
+      "currency": "Çin Yuanı (CNY)",
+      "language": "Çince (Mandarin)",
+      "population": "21 milyon"
+    },
+    "en": {
+      "best_time": "April - May, September - October",
+      "timezone": "CST (China Standard Time)",
+      "currency": "Chinese Yuan (CNY)",
+      "language": "Chinese (Mandarin)",
+      "population": "21 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Pekin (Beijing), Çin Halk Cumhuriyeti'nin başkenti ve ülkenin en önemli siyasi, kültürel ve tarihi merkezlerinden biridir. Yaklaşık üç bin yıllık geçmişe sahip olan şehir, Çin uygarlığının en köklü şehirlerinden biri olarak kabul edilir. Hem geleneksel mimarisi hem de modern şehir yapısıyla Pekin, geçmiş ile geleceğin birleştiği etkileyici bir metropoldür.\n\nPekin'in en önemli simgelerinden biri olan Yasak Şehir (Forbidden City), Ming ve Qing hanedanlıkları boyunca Çin imparatorlarının yaşadığı devasa bir saray kompleksidir. UNESCO Dünya Mirası listesinde yer alan bu yapı, Çin mimarisinin en önemli örneklerinden biri olarak kabul edilir ve her yıl milyonlarca ziyaretçiyi ağırlar.\n\nŞehrin merkezinde yer alan Tiananmen Meydanı, dünyanın en büyük kamu meydanlarından biridir ve Çin tarihinin en önemli siyasi ve kültürel olaylarına tanıklık etmiştir. Meydanın çevresinde Mao Zedong Mozolesi, Ulusal Müze ve Büyük Halk Salonu gibi önemli yapılar bulunur.\n\nPekin aynı zamanda dünyanın en büyük tarihi yapılarından biri olan Çin Seddi'ne yakın konumda yer alır. Badaling ve Mutianyu gibi bölgelerde bulunan surlar, şehri ziyaret eden turistlerin en çok görmek istediği yerler arasındadır.\n\nModern Pekin ise gökdelenleri, geniş bulvarları ve ileri teknolojiyle planlanmış altyapısıyla dikkat çeker. 2008 Yaz Olimpiyatları için inşa edilen Kuş Yuvası Stadyumu (Bird’s Nest) ve Su Küpü (Water Cube) modern mimarinin en etkileyici örnekleri arasında yer alır.\n\nŞehir aynı zamanda sanat ve kültür açısından da oldukça zengindir. 798 Art District, çağdaş sanat galerileri, tasarım stüdyoları ve kültürel etkinlikleriyle Pekin'in modern sanat merkezlerinden biridir.\n\nPekin mutfağı da şehrin kültürel kimliğinin önemli bir parçasıdır. Özellikle Pekin Ördeği (Peking Duck) dünya çapında ünlü bir yemek olarak bilinir. Wangfujing Caddesi ise hem alışveriş hem de sokak yemekleri açısından turistlerin en çok ziyaret ettiği bölgelerden biridir.\n\nTarihi sarayları, tapınakları, modern mimarisi ve zengin mutfağıyla Pekin, Asya'nın en etkileyici ve en çok ziyaret edilen şehirlerinden biri olarak öne çıkmaktadır.",
+
+    "en": "Beijing, the capital of the People's Republic of China, is one of the most historically significant and culturally rich cities in the world. With a history that spans more than 3,000 years, Beijing has served as the political and cultural center of China for centuries. Today the city blends ancient imperial heritage with modern urban development, creating one of the most fascinating metropolitan destinations in Asia.\n\nOne of Beijing’s most famous landmarks is the Forbidden City, an enormous imperial palace complex that served as the home of Chinese emperors during the Ming and Qing dynasties. As a UNESCO World Heritage Site, it represents one of the finest examples of traditional Chinese architecture and attracts millions of visitors every year.\n\nLocated at the heart of the city, Tiananmen Square is one of the largest public squares in the world and has been the site of many important historical events in China. The square is surrounded by several major landmarks including the Mausoleum of Mao Zedong, the National Museum of China, and the Great Hall of the People.\n\nBeijing is also the gateway to the Great Wall of China, one of the most famous historical structures in the world. Popular sections such as Badaling and Mutianyu are easily accessible from the city and are among the top attractions for travelers visiting China.\n\nModern Beijing showcases impressive architecture, wide boulevards, and advanced urban planning. Iconic structures like the Bird’s Nest Stadium and the Water Cube, built for the 2008 Summer Olympics, symbolize the city's modern transformation.\n\nThe city is also a thriving cultural hub. The 798 Art District has become one of the most important contemporary art centers in China, featuring galleries, studios, exhibitions, and creative spaces.\n\nBeijing's culinary culture is equally famous. Peking Duck is one of the city's most iconic dishes and a must-try experience for visitors. Wangfujing Street is another popular destination known for its vibrant shopping scene and traditional street food.\n\nWith its imperial palaces, ancient temples, world-famous landmarks, and dynamic modern development, Beijing stands as one of the most fascinating travel destinations in Asia."
+  },
+
   "gallery": [
     "/assets/sehir/pekin1.png",
     "/assets/sehir/pekin2.png"
@@ -107,8 +207,9 @@
 {
   "slug": "paris",
   "region": "avrupa",
-  "country": "Fransa",
+  "country": "fransa",
   "image": "/assets/cities/paris.png",
+
   "names": {
     "tr": "Paris",
     "en": "Paris",
@@ -117,10 +218,30 @@
     "ar": "باريس",
     "ru": "Париж"
   },
-  "descriptions": {
-    "tr": "Paris, Fransa'nın başkenti ve en büyük şehri olup; sanat, kültür, moda ve tarih açısından dünya çapında bir merkezdir. Eyfel Kulesi, Notre-Dame Katedrali, Louvre Müzesi ve Champs-Élysées gibi ikonik simgeleriyle tanınır ve her yıl milyonlarca turisti ağırlar.\n\nParis, sanatı ve tarihiyle öne çıkan bir şehirdir. Louvre Müzesi, dünyanın en büyük ve en önemli sanat müzelerinden biri olup Mona Lisa ve Venüs de Milo gibi eşsiz eserlere ev sahipliği yapar. Notre-Dame Katedrali ise Gotik mimarinin en önemli örneklerinden biri olarak dikkat çeker.\n\nEyfel Kulesi, Paris'in simgesi haline gelmiş bir yapıdır ve şehrin hemen her noktasından görülebilir. Ziyaretçilerine eşsiz bir şehir manzarası sunar.\n\nParis sokaklarında yürürken tarih ve modern yaşamın iç içe geçtiği hissedilir. Champs-Élysées, lüks mağazalar, kafeler ve sinemalarla dolu dünyanın en ünlü alışveriş caddelerinden biridir.\n\nMontmartre, bohem yaşam tarzı ve sanatçı ruhuyla öne çıkan tarihi bir bölgedir. Sacré-Cœur Bazilikası burada yer alır ve Paris manzarasının en güzel noktalarından biridir.\n\nParis mutfağı dünya çapında ünlüdür. Baget, kruvasan, escargot ve Fransız peynirleri ziyaretçilere unutulmaz bir gastronomi deneyimi sunar. Şehir aynı zamanda dünyanın en iyi şaraplarıyla da tanınır.\n\nSeine Nehri boyunca yürüyüş yapmak, tarihi köprülerde gezmek ve ünlü Paris kafelerinde vakit geçirmek şehrin romantik atmosferini hissetmenin en güzel yollarındandır.\n\nSanatı, kültürü, romantizmi ve köklü tarihiyle Paris, dünyanın en özel ve etkileyici şehirlerinden biri olarak öne çıkar.",
-    "en": "Paris is the capital and largest city of France, renowned worldwide as a center of art, culture, fashion, and history. Iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, the Louvre Museum, and the Champs-Élysées attract millions of visitors every year.\n\nParis is deeply associated with art and history. The Louvre Museum is one of the largest and most important art museums in the world, housing masterpieces such as the Mona Lisa and the Venus de Milo. Notre-Dame Cathedral stands as one of the finest examples of Gothic architecture.\n\nThe Eiffel Tower has become the symbol of Paris and offers breathtaking panoramic views of the city.\n\nWalking through the streets of Paris, visitors experience a seamless blend of history and modern life. The Champs-Élysées is one of the world’s most famous shopping avenues, lined with luxury boutiques, cafés, and cinemas.\n\nMontmartre represents the city’s artistic and bohemian spirit and is home to the Sacré-Cœur Basilica, offering stunning views over Paris.\n\nParisian cuisine is world-famous. Culinary classics such as baguettes, croissants, escargot, fine cheeses, and exceptional wines provide an unforgettable gastronomic experience.\n\nStrolling along the Seine River, crossing historic bridges, and dining at iconic Parisian cafés are among the best ways to enjoy the city’s romantic atmosphere.\n\nWith its art, culture, romance, and rich history, Paris remains one of the most unique and captivating cities in the world."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Nisan - Haziran, Eylül - Ekim",
+      "timezone": "CET (Orta Avrupa Saati)",
+      "currency": "Euro (EUR)",
+      "language": "Fransızca",
+      "population": "2,1 milyon"
+    },
+    "en": {
+      "best_time": "April - June, September - October",
+      "timezone": "CET (Central European Time)",
+      "currency": "Euro (EUR)",
+      "language": "French",
+      "population": "2.1 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Paris, Fransa'nın başkenti ve Avrupa'nın en önemli kültür, sanat ve turizm merkezlerinden biridir. Seine Nehri kıyısında kurulan şehir, tarihi mimarisi, dünyaca ünlü müzeleri, romantik atmosferi ve gastronomi kültürüyle her yıl milyonlarca ziyaretçiyi kendine çeker.\n\nŞehrin en ikonik simgesi olan Eyfel Kulesi, 1889 yılında inşa edilmiş ve zamanla Paris'in sembolü haline gelmiştir. Kule, ziyaretçilere şehrin panoramik manzarasını sunarak Paris'in en popüler turistik noktalarından biri olmuştur.\n\nParis aynı zamanda sanatın başkentlerinden biri olarak kabul edilir. Louvre Müzesi dünyanın en büyük sanat müzelerinden biridir ve Mona Lisa, Venüs de Milo ve Kanatlı Zafer Heykeli gibi eşsiz eserlere ev sahipliği yapar. Musée d'Orsay ve Centre Pompidou gibi müzeler de sanat severler için önemli duraklardır.\n\nNotre-Dame Katedrali, Gotik mimarinin en etkileyici örneklerinden biri olarak Paris'in tarihi mirasının önemli parçalarından biridir. Şehrin tarihi merkezinde yer alan bu katedral yüzyıllardır Paris'in kültürel simgelerinden biri olmuştur.\n\nParis'in en ünlü caddelerinden biri olan Champs-Élysées, lüks mağazalar, restoranlar ve kafelerle doludur. Bu cadde Arc de Triomphe'ye kadar uzanır ve dünyanın en ünlü bulvarlarından biri olarak kabul edilir.\n\nMontmartre bölgesi ise Paris'in sanatçı ruhunu temsil eder. Picasso ve Van Gogh gibi sanatçılar burada yaşamış ve eserler üretmiştir. Sacré-Cœur Bazilikası ise Paris'in en yüksek noktalarından birinde yer alarak şehrin etkileyici manzarasını sunar.\n\nParis mutfağı da dünya çapında ünlüdür. Baget ekmeği, kruvasan, makaron, Fransız peynirleri ve kaliteli şaraplar şehrin gastronomi kültürünün önemli parçalarıdır. Paris aynı zamanda Michelin yıldızlı restoranlarıyla da tanınır.\n\nSeine Nehri boyunca yapılan tekne turları, tarihi köprüler, sanat galerileri ve romantik kafeler Paris'in büyüleyici atmosferini keşfetmenin en güzel yollarından biridir.\n\nSanat, tarih, moda, gastronomi ve romantizmin birleştiği Paris, dünyanın en popüler ve en çok ziyaret edilen turistik şehirlerinden biri olmaya devam etmektedir.",
+
+    "en": "Paris is the capital of France and one of the most important cultural, artistic, and tourist destinations in Europe. Located along the Seine River, the city is famous for its historic architecture, world-class museums, romantic atmosphere, and exceptional cuisine, attracting millions of visitors each year.\n\nThe Eiffel Tower, built in 1889, is the most iconic landmark of Paris and one of the most recognizable monuments in the world. Visitors can enjoy breathtaking panoramic views of the city from its observation decks.\n\nParis is also known as one of the world's great capitals of art. The Louvre Museum is the largest art museum in the world and houses masterpieces such as the Mona Lisa, the Venus de Milo, and the Winged Victory of Samothrace. Other renowned museums like Musée d'Orsay and the Centre Pompidou further strengthen Paris's reputation as a global art center.\n\nNotre-Dame Cathedral is one of the finest examples of Gothic architecture and an important symbol of the city's historical heritage. Located in the heart of Paris, the cathedral has played a central role in French history for centuries.\n\nThe famous avenue Champs-Élysées is lined with luxury boutiques, restaurants, and cafés and leads to the iconic Arc de Triomphe. It is widely considered one of the most beautiful avenues in the world.\n\nMontmartre represents the artistic soul of Paris. Many famous artists such as Picasso and Van Gogh lived and worked in this neighborhood. The Sacré-Cœur Basilica, located on the highest hill in the city, offers stunning panoramic views of Paris.\n\nParisian cuisine is globally celebrated. Classic foods such as baguettes, croissants, macarons, French cheeses, and fine wines create an unforgettable culinary experience. The city is also home to many Michelin-starred restaurants.\n\nBoat cruises along the Seine River, historic bridges, art galleries, charming cafés, and vibrant neighborhoods allow visitors to experience the romantic atmosphere that makes Paris one of the most beloved cities in the world.\n\nWith its art, history, fashion, gastronomy, and romantic charm, Paris remains one of the most visited and admired travel destinations in the world."
+  },
+
   "gallery": [
     "/assets/sehir/paris1.png",
     "/assets/sehir/paris2.png"
@@ -129,8 +250,9 @@
 {
   "slug": "londra",
   "region": "avrupa",
-  "country": "İngiltere",
+  "country": "ingiltere",
   "image": "/assets/cities/londra.png",
+
   "names": {
     "tr": "Londra",
     "en": "London",
@@ -139,10 +261,30 @@
     "ar": "لندن",
     "ru": "Лондон"
   },
-  "descriptions": {
-    "tr": "Londra, Birleşik Krallık'ın başkenti ve en büyük şehri olup tarih, kültür ve modernliğin eşsiz bir karışımını sunar. Thames Nehri'nin iki yakasına yayılan şehir, tarihi anıtları, görkemli sarayları ve kültürel zenginlikleriyle tanınır.\n\nBig Ben ve Westminster Sarayı, Londra'nın en bilinen simgeleri arasında yer alır. London Eye, şehri kuşbakışı izleme imkânı sunarken Buckingham Sarayı, kraliyet yaşamının merkezi olarak büyük ilgi görür.\n\nLondra, sanat ve kültür açısından dünyanın en önemli şehirlerinden biridir. British Museum, Tate Modern ve Victoria and Albert Museum gibi müzeler zengin koleksiyonlara sahiptir. West End ise tiyatro ve müzikallerin kalbidir.\n\nOxford Street, Regent Street ve Covent Garden gibi alışveriş bölgeleri, Londra'yı alışveriş tutkunları için cazip hale getirir.\n\nŞehrin mutfağı kültürel çeşitliliğini yansıtır. Dünyanın dört bir yanından lezzetler bulunurken, Full English Breakfast ve Borough Market öne çıkan deneyimler arasındadır.\n\nPub kültürü, gece hayatının temelini oluşturur. Thames boyunca yürüyüş yapmak veya bir tiyatro gösterisi izlemek Londra'nın ruhunu hissetmenin en güzel yollarındandır.\n\nTarihi mirası, kültürel çeşitliliği ve canlı atmosferiyle Londra, keşfedilecek sonsuz deneyim sunan küresel bir metropoldür.",
-    "en": "London, the capital and largest city of the United Kingdom, offers a unique blend of history, culture, and modern life. Spread along both sides of the River Thames, the city is known for its historic landmarks and cultural richness.\n\nBig Ben and Westminster Palace are iconic symbols of London. The London Eye offers panoramic views of the city, while Buckingham Palace represents the heart of the British monarchy.\n\nLondon is a global center for art and culture. Museums such as the British Museum, Tate Modern, and the Victoria and Albert Museum house world-class collections. The West End is famous for its theaters and musicals.\n\nShopping streets like Oxford Street, Regent Street, and Covent Garden make London a top destination for shopping enthusiasts.\n\nThe city’s cuisine reflects its multicultural nature, offering flavors from around the world. Traditional experiences like the Full English Breakfast and Borough Market are especially popular.\n\nPub culture plays a major role in nightlife. Walking along the Thames or attending a theater performance are classic London experiences.\n\nWith its historical heritage, cultural diversity, and vibrant atmosphere, London remains one of the world’s most fascinating cities."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Mayıs - Eylül",
+      "timezone": "GMT (Greenwich Mean Time)",
+      "currency": "İngiliz Sterlini (GBP)",
+      "language": "İngilizce",
+      "population": "9 milyon"
+    },
+    "en": {
+      "best_time": "May - September",
+      "timezone": "GMT (Greenwich Mean Time)",
+      "currency": "British Pound (GBP)",
+      "language": "English",
+      "population": "9 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Londra, Birleşik Krallık'ın başkenti ve Avrupa'nın en önemli finans, kültür ve turizm merkezlerinden biridir. Thames Nehri boyunca uzanan şehir, yaklaşık iki bin yıllık tarihi, ikonik mimarisi ve çok kültürlü yapısıyla dünyanın en etkileyici metropollerinden biri olarak kabul edilir.\n\nLondra'nın en ünlü simgelerinden biri olan Big Ben ve Westminster Sarayı, şehrin tarihi ve siyasi merkezini temsil eder. Thames Nehri üzerinde yer alan Tower Bridge ise Londra'nın en tanınan köprülerinden biridir ve şehrin mimari simgeleri arasında yer alır.\n\nBuckingham Sarayı, Birleşik Krallık kraliyet ailesinin resmi ikametgahı olarak büyük ilgi görür. Saray önünde gerçekleştirilen nöbet değişimi töreni turistler tarafından en çok izlenen etkinliklerden biridir.\n\nLondra aynı zamanda dünyanın en önemli kültür ve sanat merkezlerinden biridir. British Museum, Tate Modern, National Gallery ve Victoria and Albert Museum gibi müzeler dünya tarihinin en değerli eserlerinden bazılarını sergiler.\n\nŞehir tiyatro ve eğlence açısından da oldukça zengindir. West End bölgesi, Broadway ile birlikte dünyanın en önemli tiyatro merkezlerinden biri olarak kabul edilir ve her yıl milyonlarca ziyaretçi ünlü müzikalleri izlemek için Londra'ya gelir.\n\nOxford Street, Regent Street ve Covent Garden gibi alışveriş bölgeleri şehrin en hareketli noktalarındandır. Ayrıca Camden Market ve Borough Market gibi pazarlar, Londra'nın yerel kültürünü ve mutfak çeşitliliğini keşfetmek isteyen ziyaretçiler için popüler duraklardır.\n\nLondra mutfağı da çok kültürlü yapısını yansıtır. Geleneksel İngiliz yemekleri arasında fish and chips, Sunday roast ve full English breakfast bulunur. Bunun yanında şehir dünyanın dört bir yanından restoranlara ve Michelin yıldızlı mekanlara ev sahipliği yapar.\n\nHyde Park, Regent's Park ve St. James's Park gibi büyük yeşil alanlar şehirde doğayla iç içe vakit geçirmek isteyenler için ideal yerlerdir. Thames Nehri boyunca yapılan yürüyüşler ve tekne turları ise Londra'nın atmosferini keşfetmenin en keyifli yollarından biridir.\n\nTarihi yapıları, dünya çapında müzeleri, canlı gece hayatı ve kültürel çeşitliliğiyle Londra, her yıl milyonlarca turistin ziyaret ettiği dünyanın en popüler şehirlerinden biri olmaya devam etmektedir.",
+
+    "en": "London is the capital of the United Kingdom and one of the most influential global cities in the world. Located along the River Thames, the city combines over two thousand years of history with modern architecture, multicultural communities, and a vibrant cultural scene.\n\nOne of London's most iconic landmarks is Big Ben and the Palace of Westminster, which serve as the political center of the United Kingdom. Another famous landmark is Tower Bridge, a historic bascule bridge that has become one of the most recognizable symbols of the city.\n\nBuckingham Palace, the official residence of the British monarch, attracts millions of visitors every year. The Changing of the Guard ceremony is one of London's most famous attractions.\n\nLondon is also a global center for art, culture, and history. Museums such as the British Museum, Tate Modern, the National Gallery, and the Victoria and Albert Museum house world-renowned collections of art and historical artifacts.\n\nThe city is equally famous for its theater and entertainment scene. The West End theater district is considered one of the most important theater hubs in the world, comparable to Broadway in New York.\n\nShopping in London is another major attraction. Oxford Street, Regent Street, and Covent Garden are among the most popular shopping destinations, while markets like Camden Market and Borough Market offer unique local experiences.\n\nLondon’s culinary scene reflects its multicultural population. Traditional dishes such as fish and chips, Sunday roast, and the full English breakfast remain popular, while international cuisine and Michelin-starred restaurants provide a diverse dining experience.\n\nGreen spaces such as Hyde Park, Regent’s Park, and St. James’s Park offer relaxing escapes within the city. Walking along the Thames River or taking a river cruise is one of the best ways to explore London's famous landmarks.\n\nWith its iconic landmarks, rich history, cultural diversity, and vibrant atmosphere, London remains one of the most visited and fascinating travel destinations in the world."
+  },
+
   "gallery": [
     "/assets/sehir/londra1.png",
     "/assets/sehir/londra2.png"
@@ -151,8 +293,9 @@
 {
   "slug": "antalya",
   "region": "turkiye",
-  "country": "Türkiye",
+  "country": "turkiye",
   "image": "/assets/cities/antalya.png",
+
   "names": {
     "tr": "Antalya",
     "en": "Antalya",
@@ -161,10 +304,30 @@
     "ar": "أنطاليا",
     "ru": "Анталия"
   },
-  "descriptions": {
-    "tr": "Antalya, Türkiye'nin güney sahilinde yer alan ve Akdeniz'in incisi olarak anılan önemli bir turizm merkezidir. Tarihi zenginlikleri, doğal güzellikleri ve modern tatil olanaklarıyla her yıl milyonlarca ziyaretçiyi ağırlar.\n\nKaleiçi, dar sokakları, Osmanlı evleri ve limanıyla şehrin tarihi merkezidir. Hadrianus Kapısı ve Yivli Minare, Antalya'nın simge yapıları arasındadır.\n\nPerge, Aspendos ve Termessos gibi antik kentler, bölgenin köklü tarihini gözler önüne serer. Aspendos Tiyatrosu, dünyanın en iyi korunmuş antik tiyatrolarından biridir.\n\nAntalya, Lara ve Konyaaltı gibi uzun plajlarıyla Akdeniz'in berrak sularında yüzme imkânı sunar. Düden Şelalesi gibi doğal güzellikler de şehri eşsiz kılar.\n\nAntalya mutfağı; zeytinyağlılar, taze deniz ürünleri, kebaplar ve geleneksel Türk tatlılarıyla zengindir.\n\nGece hayatı özellikle Kaleiçi bölgesinde oldukça hareketlidir. Barlar, kafeler ve restoranlar keyifli bir atmosfer sunar.\n\nDoğal güzellikleri, tarihi dokusu, lüks tatil köyleri ve misafirperverliğiyle Antalya, Türkiye'nin en önemli tatil destinasyonlarından biridir.",
-    "en": "Antalya is a major city on the southern coast of Turkey, often referred to as the pearl of the Mediterranean. It is famous for its historical heritage, natural beauty, and world-class tourism facilities.\n\nKaleiçi is the historic heart of the city, featuring narrow streets, Ottoman-era houses, and a charming harbor. Landmarks such as Hadrian’s Gate and the Yivli Minaret reflect the city’s rich past.\n\nAncient cities like Perge, Aspendos, and Termessos showcase Antalya’s deep historical roots. The Aspendos Theatre is one of the best-preserved ancient theaters in the world.\n\nAntalya is renowned for its beautiful beaches, including Lara and Konyaaltı, offering crystal-clear Mediterranean waters. Natural attractions such as Düden Waterfall add to the city’s appeal.\n\nThe local cuisine is diverse, featuring olive oil dishes, fresh seafood, kebabs, and traditional Turkish desserts.\n\nNightlife is lively, especially in the Kaleiçi area, where bars, cafés, and restaurants create a vibrant atmosphere.\n\nWith its natural beauty, historical richness, luxury resorts, and warm hospitality, Antalya is one of Turkey’s top travel destinations."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Nisan - Ekim",
+      "timezone": "TRT (Türkiye Saati)",
+      "currency": "Türk Lirası (TRY)",
+      "language": "Türkçe",
+      "population": "1,2 milyon"
+    },
+    "en": {
+      "best_time": "April - October",
+      "timezone": "TRT (Turkey Time)",
+      "currency": "Turkish Lira (TRY)",
+      "language": "Turkish",
+      "population": "1.2 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Antalya, Türkiye'nin güney sahilinde yer alan ve Akdeniz'in en gözde turizm merkezlerinden biridir. Tarihi ve doğal zenginlikleri, lüks tatil köyleri ve modern olanaklarıyla her yıl milyonlarca turisti kendine çeker.\n\nŞehrin tarihi merkezi Kaleiçi, dar sokakları, Osmanlı dönemi evleri ve limanıyla ziyaretçilere benzersiz bir atmosfer sunar. Hadrianus Kapısı ve Yivli Minare, Antalya'nın simgesi haline gelmiş tarihi yapılardır.\n\nPerge, Aspendos ve Termessos gibi antik kentler, Antalya’nın tarihini gözler önüne serer. Özellikle Aspendos Tiyatrosu, dünyanın en iyi korunmuş antik tiyatrolarından biridir ve etkileyici akustiğiyle ünlüdür.\n\nAntalya, Lara ve Konyaaltı gibi uzun ve temiz plajlarıyla Akdeniz'in kristal berraklığındaki sularında yüzme imkânı sunar. Düden Şelalesi ve Kurşunlu Şelalesi gibi doğal güzellikler, şehre ekstra cazibe katar.\n\nŞehrin mutfağı oldukça zengindir; zeytinyağlılar, taze deniz ürünleri, kebaplar ve geleneksel Türk tatlıları ziyaretçilere eşsiz bir gastronomi deneyimi sunar.\n\nGece hayatı özellikle Kaleiçi'nde oldukça canlıdır. Barlar, kafeler ve restoranlar hem yerli hem yabancı turistler için keyifli bir deneyim sağlar.\n\nAntalya, tarih, doğa, deniz, kültür ve eğlenceyi bir arada sunan Türkiye'nin en popüler turizm destinasyonlarından biri olarak öne çıkar.",
+
+    "en": "Antalya is a top travel destination on Turkey's southern coast, often called the pearl of the Mediterranean. With its rich historical heritage, pristine beaches, luxury resorts, and modern amenities, it attracts millions of visitors every year.\n\nThe historic center of Kaleiçi offers narrow streets, Ottoman-era houses, and a charming harbor, creating a unique atmosphere for tourists. Landmarks such as Hadrian's Gate and the Yivli Minaret are among the city's most iconic structures.\n\nAncient cities like Perge, Aspendos, and Termessos reflect Antalya's deep historical roots. The Aspendos Theatre is one of the best-preserved ancient theaters in the world, famous for its remarkable acoustics.\n\nAntalya's beaches, including Lara and Konyaaltı, provide crystal-clear Mediterranean waters ideal for swimming and relaxation. Natural attractions such as Düden Waterfall and Kurşunlu Waterfall enhance the city's appeal.\n\nThe local cuisine is rich and varied, featuring olive oil dishes, fresh seafood, kebabs, and traditional Turkish desserts, offering an unforgettable gastronomic experience.\n\nNightlife is vibrant, especially in the Kaleiçi area, with bars, cafés, and restaurants providing lively evening entertainment for both locals and tourists.\n\nWith its combination of history, nature, beaches, culture, and entertainment, Antalya stands out as one of Turkey's most popular and attractive tourist destinations."
+  },
+
   "gallery": [
     "/assets/sehir/antalya1.png",
     "/assets/sehir/antalya2.png"
@@ -173,8 +336,9 @@
 {
   "slug": "tokyo",
   "region": "asya",
-  "country": "Japonya",
+  "country": "japonya",
   "image": "/assets/cities/tokyo.png",
+
   "names": {
     "tr": "Tokyo",
     "en": "Tokyo",
@@ -183,10 +347,30 @@
     "ar": "طوكيو",
     "ru": "Токио"
   },
-  "descriptions": {
-    "tr": "Tokyo, Japonya'nın başkenti ve dünyanın en büyük metropollerinden biridir. Geleneksel Japon kültürü ile ileri teknolojinin iç içe geçtiği şehir, modern yaşamın sembollerinden biri olarak kabul edilir.\n\nŞehir; gökdelenleri, tapınakları, alışveriş bölgeleri ve hareketli sokaklarıyla ünlüdür. Shibuya’daki dünyaca ünlü yaya geçidi ve Shinjuku’daki devasa iş ve alışveriş merkezleri Tokyo’nun modern yüzünü yansıtır.\n\nAsakusa bölgesinde yer alan Senso-ji Tapınağı, Tokyo’nun en eski ve en önemli dini yapılarından biridir. Meiji Jingu Tapınağı ise şehir merkezinde doğayla iç içe huzurlu bir alan sunar.\n\nTokyo, alışveriş konusunda da dünyanın önde gelen şehirlerinden biridir. Ginza, lüks markalarıyla öne çıkarken Akihabara, elektronik ve anime kültürünün merkezi olarak bilinir.\n\nŞehir aynı zamanda Japon mutfağının kalbidir. Sushi, ramen, tempura gibi geleneksel lezzetlerin yanı sıra Michelin yıldızlı restoranlar da Tokyo’da yaygındır. Tsukiji Balık Pazarı, taze deniz ürünleriyle ünlüdür.\n\nGece hayatı oldukça renklidir; barlar, gece kulüpleri, karaoke salonları ve geleneksel izakayalar özellikle Shinjuku ve Roppongi bölgelerinde yoğunlaşır.\n\nKültürel zenginliği, yüksek teknolojisi ve dinamik yaşam tarzıyla Tokyo, her yıl milyonlarca ziyaretçiyi kendine çeken küresel bir cazibe merkezidir.",
-    "en": "Tokyo is the capital of Japan and one of the largest metropolitan areas in the world. The city is a unique blend of traditional Japanese culture and cutting-edge technology, making it a symbol of modern urban life.\n\nTokyo is known for its skyscrapers, temples, shopping districts, and lively streets. The world-famous pedestrian crossing in Shibuya and the massive business and shopping areas of Shinjuku highlight the city’s modern character.\n\nThe Senso-ji Temple in the Asakusa district is Tokyo’s oldest and most significant religious site. Meiji Jingu Shrine offers a peaceful, nature-filled escape in the heart of the city.\n\nTokyo is also a global shopping destination. Ginza is famous for luxury brands, while Akihabara is considered the center of electronics and anime culture.\n\nThe city is regarded as the heart of Japanese cuisine. Alongside traditional dishes like sushi, ramen, and tempura, Tokyo is home to numerous Michelin-starred restaurants. Tsukiji Fish Market is well known for fresh seafood.\n\nTokyo’s nightlife is vibrant, featuring bars, nightclubs, karaoke lounges, and traditional izakayas, especially in areas such as Shinjuku and Roppongi.\n\nWith its cultural depth, advanced technology, and dynamic lifestyle, Tokyo attracts millions of visitors every year and remains one of the world’s most fascinating cities."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Mart - Mayıs, Eylül - Kasım",
+      "timezone": "JST (Japan Standard Time)",
+      "currency": "Japon Yeni (JPY)",
+      "language": "Japonca",
+      "population": "14 milyon (şehir merkezi)"
+    },
+    "en": {
+      "best_time": "March - May, September - November",
+      "timezone": "JST (Japan Standard Time)",
+      "currency": "Japanese Yen (JPY)",
+      "language": "Japanese",
+      "population": "14 million (city center)"
+    }
   },
+
+  "descriptions": {
+    "tr": "Tokyo, Japonya'nın başkenti ve dünyanın en büyük metropollerinden biridir. Geleneksel Japon kültürü ile ileri teknolojinin eşsiz birleşimini sunan şehir, modern yaşamın en önemli sembollerinden biri olarak kabul edilir.\n\nŞehir; gökdelenleri, tapınakları, parkları, alışveriş bölgeleri ve hareketli sokaklarıyla ünlüdür. Shibuya’daki ikonik yaya geçidi, Shinjuku’daki devasa iş ve alışveriş merkezleri Tokyo’nun modern yüzünü gözler önüne serer.\n\nAsakusa bölgesindeki Senso-ji Tapınağı, Tokyo’nun en eski ve en önemli dini yapılarından biridir. Meiji Jingu Tapınağı ise şehir merkezinde doğayla iç içe huzurlu bir alan sunar ve Japon geleneklerini deneyimlemek için ideal bir noktadır.\n\nTokyo, alışveriş konusunda da dünya çapında bir merkezdir. Ginza lüks markalarıyla öne çıkarken, Akihabara elektronik ve anime kültürünün merkezi olarak bilinir. Harajuku ise genç ve modern Japon modasının kalbidir.\n\nŞehir aynı zamanda Japon mutfağının merkezi olarak kabul edilir. Sushi, ramen, tempura ve yakitori gibi geleneksel lezzetlerin yanı sıra, Michelin yıldızlı restoranlar da Tokyo’da yaygındır. Tsukiji Balık Pazarı, taze deniz ürünleri ile ünlüdür ve gastronomi meraklıları için mutlaka ziyaret edilmelidir.\n\nGece hayatı oldukça canlıdır; Shinjuku ve Roppongi bölgelerinde barlar, gece kulüpleri, karaoke salonları ve geleneksel izakayalar yoğun bir şekilde bulunur.\n\nKültürel zenginliği, teknolojik altyapısı, sanatı ve dinamik yaşam tarzıyla Tokyo, hem tarih hem modernliği bir arada sunan, dünyanın en çekici ve ziyaret edilmeye değer şehirlerinden biridir.",
+
+    "en": "Tokyo, the capital of Japan, is one of the largest metropolitan areas in the world, blending traditional Japanese culture with cutting-edge technology to create a dynamic and modern cityscape.\n\nThe city is renowned for its skyscrapers, temples, parks, shopping districts, and bustling streets. The iconic Shibuya pedestrian crossing and Shinjuku’s massive commercial areas showcase Tokyo’s contemporary character.\n\nSenso-ji Temple in the Asakusa district is Tokyo’s oldest and most significant religious site, while Meiji Jingu Shrine offers a tranquil nature-filled retreat in the heart of the city.\n\nTokyo is a global shopping destination. Ginza is famous for luxury brands, Akihabara is the hub of electronics and anime culture, and Harajuku represents the center of youth fashion.\n\nThe city is also considered the heart of Japanese cuisine. Traditional dishes such as sushi, ramen, tempura, and yakitori are widely available, alongside numerous Michelin-starred restaurants. Tsukiji Fish Market is renowned for its fresh seafood and is a must-visit for food enthusiasts.\n\nTokyo’s nightlife is vibrant, particularly in Shinjuku and Roppongi, with bars, nightclubs, karaoke lounges, and traditional izakayas providing lively evening entertainment.\n\nWith its cultural depth, advanced technology, art, and dynamic lifestyle, Tokyo offers a unique combination of tradition and modernity, making it one of the world’s most fascinating cities to explore."
+  },
+
   "gallery": [
     "/assets/sehir/tokyo1.png",
     "/assets/sehir/tokyo2.png"
@@ -195,8 +379,9 @@
 {
   "slug": "hongkong",
   "region": "asya",
-  "country": "Çin",
+  "country": "cin",
   "image": "/assets/cities/hongkong.png",
+
   "names": {
     "tr": "Hong Kong",
     "en": "Hong Kong",
@@ -205,10 +390,30 @@
     "ar": "هونغ كونغ",
     "ru": "Гонконг"
   },
-  "descriptions": {
-    "tr": "Hong Kong, Çin'e bağlı özel bir idari bölge olup Asya'nın en dinamik ve kozmopolit şehirlerinden biridir. Tarihi mirası modern gökdelenlerle harmanlayan şehir; finans, alışveriş, kültür ve gastronomi alanlarında küresel bir merkez konumundadır.\n\nŞehrin simgelerinden biri olan Victoria Peak, Hong Kong siluetini yukarıdan izlemek için en popüler noktadır. Tsim Sha Tsui sahil yürüyüş yolu ise Victoria Harbour manzarası ve ünlü \"A Symphony of Lights\" gösterisiyle ziyaretçilerin ilgisini çeker.\n\nHong Kong, alışveriş olanaklarıyla dünyaca ünlüdür. Mong Kok’taki gece pazarları geleneksel Çin ürünleriyle öne çıkarken, Causeway Bay ve Central bölgeleri lüks markaların merkezi olarak bilinir.\n\nKültürel açıdan zengin şehirde Tian Tan Buddha (Büyük Buda) ve Wong Tai Sin Tapınağı gibi önemli dini yapılar bulunur. Hong Kong Sanat Müzesi ve Doğa Tarihi Müzesi, şehrin kültürel mirasını yansıtan önemli duraklardır.\n\nHong Kong mutfağı, Çin’in farklı bölgelerinden gelen lezzetleri bir araya getirir. Dim sum, wok yemekleri ve sokak lezzetleri oldukça popülerdir. Deniz ürünleri restoranları da tazelikleriyle öne çıkar.\n\nGece hayatı oldukça hareketlidir. Lan Kwai Fong bölgesi barları, gece kulüpleri ve restoranlarıyla şehrin eğlence merkezidir.\n\nDoğal güzellikleriyle de dikkat çeken Hong Kong’da Victoria Parkı, doğa yürüyüşleri ve plajlar şehir hayatından kısa bir kaçış sunar.\n\nKültürel çeşitliliği, modern yaşamı ve doğal güzellikleriyle Hong Kong, her yıl milyonlarca turistin ziyaret ettiği dünyanın önde gelen destinasyonlarından biridir.",
-    "en": "Hong Kong is a Special Administrative Region of China and one of Asia’s most dynamic and cosmopolitan cities. Blending historical heritage with modern skyscrapers, it is a global center for finance, shopping, culture, and gastronomy.\n\nVictoria Peak is one of the city’s most iconic spots, offering breathtaking panoramic views of Hong Kong’s skyline. The Tsim Sha Tsui waterfront promenade is famous for its stunning Victoria Harbour views and the nightly \"A Symphony of Lights\" show.\n\nHong Kong is a world-renowned shopping destination. Mong Kok’s night markets are known for traditional Chinese goods, while Causeway Bay and Central host luxury brands and upscale shopping centers.\n\nCultural highlights include major religious sites such as the Tian Tan Buddha (Big Buddha) and Wong Tai Sin Temple. Museums like the Hong Kong Museum of Art and the Museum of Natural History showcase the city’s cultural heritage.\n\nHong Kong cuisine brings together flavors from various regions of China. Dim sum, wok-based dishes, and street food are especially popular, along with renowned seafood restaurants.\n\nThe nightlife is vibrant, particularly in the Lan Kwai Fong area, which is packed with bars, clubs, and restaurants.\n\nThe city also offers impressive natural attractions. Victoria Park, hiking trails, and beaches provide peaceful escapes from urban life.\n\nWith its cultural diversity, modern lifestyle, and natural beauty, Hong Kong attracts millions of visitors each year and remains one of the world’s most important travel destinations."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Ekim - Aralık",
+      "timezone": "HKT (Hong Kong Time)",
+      "currency": "Hong Kong Doları (HKD)",
+      "language": "Çince, İngilizce",
+      "population": "7,5 milyon"
+    },
+    "en": {
+      "best_time": "October - December",
+      "timezone": "HKT (Hong Kong Time)",
+      "currency": "Hong Kong Dollar (HKD)",
+      "language": "Chinese, English",
+      "population": "7.5 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Hong Kong, Çin'e bağlı özel bir idari bölge olup Asya'nın en dinamik ve kozmopolit şehirlerinden biridir. Tarihi mirası modern gökdelenlerle harmanlayan şehir, finans, alışveriş, kültür ve gastronomi alanlarında küresel bir merkez konumundadır.\n\nŞehrin simgelerinden Victoria Peak, panoramik manzaralar sunarak Hong Kong siluetini yukarıdan gözlemlemek için en popüler noktadır. Tsim Sha Tsui sahil yürüyüş yolu, Victoria Harbour manzarası ve ünlü \"A Symphony of Lights\" ışık gösterisiyle ziyaretçilerin ilgisini çeker.\n\nHong Kong, alışveriş konusunda dünya çapında bir cazibe merkezidir. Mong Kok gece pazarları geleneksel Çin ürünleriyle öne çıkarken, Causeway Bay ve Central bölgeleri lüks markaların ve büyük alışveriş merkezlerinin merkezidir. Harajuku benzeri genç moda kültürü, şehirde modern alışverişi deneyimlemek için idealdir.\n\nKültürel açıdan zengin şehirde Tian Tan Buddha (Büyük Buda) ve Wong Tai Sin Tapınağı gibi dini yapılar, Hong Kong’un geleneklerini ve inançlarını yansıtır. Hong Kong Sanat Müzesi ve Doğa Tarihi Müzesi, şehrin kültürel mirasına ışık tutan önemli duraklardır.\n\nHong Kong mutfağı, Çin’in farklı bölgelerinden gelen lezzetleri bir araya getirir. Dim sum, wok yemekleri ve sokak lezzetleri oldukça popülerdir. Deniz ürünleri restoranları tazelikleriyle öne çıkar.\n\nGece hayatı oldukça canlıdır; Lan Kwai Fong bölgesi barlar, gece kulüpleri ve restoranlarıyla şehrin eğlence merkezidir.\n\nDoğal güzellikleri de şehre ayrı bir cazibe katar. Victoria Park, doğa yürüyüşleri ve plajlar şehir hayatından kısa bir kaçış sağlar.\n\nKültürel çeşitliliği, modern yaşamı ve doğal güzellikleriyle Hong Kong, her yıl milyonlarca turistin ziyaret ettiği, Asya’nın en önemli ve etkileyici şehirlerinden biridir.",
+
+    "en": "Hong Kong is a Special Administrative Region of China and one of Asia’s most dynamic and cosmopolitan cities. Combining historical heritage with modern skyscrapers, it serves as a global center for finance, shopping, culture, and gastronomy.\n\nVictoria Peak is one of the city’s most iconic spots, offering breathtaking panoramic views of Hong Kong’s skyline. The Tsim Sha Tsui waterfront promenade is famous for its stunning Victoria Harbour views and the nightly \"A Symphony of Lights\" show.\n\nHong Kong is world-renowned for its shopping. Mong Kok’s night markets feature traditional Chinese goods, while Causeway Bay and Central host luxury brands and major shopping centers. The city also offers vibrant youth fashion and modern shopping experiences.\n\nCultural highlights include significant religious sites such as Tian Tan Buddha (Big Buddha) and Wong Tai Sin Temple. Museums like the Hong Kong Museum of Art and the Museum of Natural History showcase the city’s rich cultural heritage.\n\nHong Kong cuisine blends flavors from different regions of China. Dim sum, wok-based dishes, and street food are extremely popular, with seafood restaurants recognized for their freshness.\n\nThe nightlife is lively, particularly in the Lan Kwai Fong area, filled with bars, nightclubs, and restaurants.\n\nNatural attractions add to the city’s charm. Victoria Park, hiking trails, and beaches provide peaceful escapes from urban life.\n\nWith its cultural diversity, modern lifestyle, and natural beauty, Hong Kong attracts millions of visitors every year and stands as one of Asia’s most important and impressive cities."
+  },
+
   "gallery": [
     "/assets/sehir/hongkong1.png",
     "/assets/sehir/hongkong2.png"
@@ -217,8 +422,9 @@
 {
   "slug": "bangkok",
   "region": "asya",
-  "country": "Tayland",
+  "country": "tayland",
   "image": "/assets/cities/bangkok.png",
+
   "names": {
     "tr": "Bangkok",
     "en": "Bangkok",
@@ -227,10 +433,30 @@
     "ar": "بانكوك",
     "ru": "Бангкок"
   },
-  "descriptions": {
-    "tr": "Bangkok, Tayland'ın başkenti ve en büyük şehri olup Güneydoğu Asya'nın en önemli kültürel, finansal ve turistik merkezlerinden biridir. Hareketli sokakları, görkemli tapınakları, modern alışveriş merkezleri ve geleneksel pazarlarıyla dikkat çeker.\n\nŞehrin en ikonik yapılarından biri olan Wat Arun, Chao Phraya Nehri kıyısında yükselir ve Bangkok’un simgeleri arasında yer alır. Wat Phra Kaew ve Büyük Saray, Tayland kraliyet tarihini yansıtan en önemli yapılardandır. Chao Phraya Nehri üzerinde yapılan tekne turları, şehri farklı bir açıdan keşfetme imkânı sunar.\n\nBangkok, alışveriş açısından oldukça zengindir. Chatuchak Pazarı, dünyanın en büyük açık hava pazarlarından biri olarak bilinir. Siam Square ve MBK Center gibi alışveriş merkezleri ise modern alışveriş deneyimi sunar.\n\nŞehir, sokak lezzetleriyle dünya çapında ünlüdür. Pad thai, som tam ve satay gibi Tay mutfağının öne çıkan tatları, özellikle sokak satıcılarında bulunur.\n\nGece hayatı son derece canlıdır. Rooftop barlar, gece kulüpleri ve eğlence mekânları şehrin enerjisini gece boyunca sürdürür. Khao San Road, backpacker’ların ve gece hayatı arayanların en popüler noktalarındandır. Asiatique ve Soi Cowboy gibi bölgeler de eğlence merkezleri arasında yer alır.\n\nBangkok’ta yeşil alanlar da mevcuttur. Lumphini Parkı, şehir merkezinde doğayla iç içe vakit geçirmek isteyenler için huzurlu bir kaçış sunar.\n\nTayland kültürünü, mutfağını ve enerjik yaşam tarzını keşfetmek isteyenler için Bangkok, her yıl milyonlarca ziyaretçiyi ağırlayan eşsiz bir destinasyondur.",
-    "en": "Bangkok is the capital and largest city of Thailand and one of Southeast Asia’s most important cultural, financial, and tourist hubs. The city is known for its vibrant streets, magnificent temples, modern shopping malls, and traditional markets.\n\nOne of the city’s most iconic landmarks is Wat Arun, located along the Chao Phraya River. Wat Phra Kaew and the Grand Palace reflect the rich history of the Thai royal family. Boat tours on the Chao Phraya River offer a unique way to explore the city.\n\nBangkok is a major shopping destination. Chatuchak Market is one of the largest open-air markets in the world, while Siam Square and MBK Center provide a modern shopping experience.\n\nThe city is world-famous for its street food. Popular Thai dishes such as pad thai, som tam, and satay are commonly found at street stalls throughout the city.\n\nBangkok’s nightlife is vibrant and diverse. Rooftop bars, nightclubs, and entertainment venues keep the city alive after dark. Khao San Road is a popular gathering place for backpackers and nightlife lovers, while areas like Asiatique and Soi Cowboy are also well known for entertainment.\n\nGreen spaces are also part of the city. Lumphini Park, located near the city center, offers a peaceful retreat and a chance to enjoy nature.\n\nWith its rich culture, famous cuisine, and energetic lifestyle, Bangkok attracts millions of visitors every year and offers a truly unique urban experience."
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Kasım - Şubat",
+      "timezone": "ICT (Indochina Time)",
+      "currency": "Tayland Bahtı (THB)",
+      "language": "Tayca",
+      "population": "8,3 milyon"
+    },
+    "en": {
+      "best_time": "November - February",
+      "timezone": "ICT (Indochina Time)",
+      "currency": "Thai Baht (THB)",
+      "language": "Thai",
+      "population": "8.3 million"
+    }
   },
+
+  "descriptions": {
+    "tr": "Bangkok, Tayland'ın başkenti ve en büyük şehri olup Güneydoğu Asya'nın en önemli kültürel, finansal ve turistik merkezlerinden biridir. Hareketli sokakları, görkemli tapınakları, modern alışveriş merkezleri ve geleneksel pazarlarıyla dikkat çeker.\n\nŞehrin simgelerinden Wat Arun, Chao Phraya Nehri kıyısında yükselir ve Bangkok’un en bilinen yapılarından biridir. Wat Phra Kaew ve Büyük Saray, Tayland kraliyet tarihini yansıtan önemli yapılardır. Chao Phraya Nehri üzerinde yapılan tekne turları, şehri farklı bir açıdan keşfetmek için harika bir fırsat sunar.\n\nBangkok, alışveriş açısından oldukça zengindir. Chatuchak Pazarı, dünyanın en büyük açık hava pazarlarından biri olarak bilinir. Siam Square ve MBK Center gibi alışveriş merkezleri modern alışveriş deneyimi sunar ve şehirdeki mağazalar her zevke hitap eder.\n\nŞehir, sokak lezzetleriyle dünya çapında ünlüdür. Pad thai, som tam ve satay gibi Tay mutfağı klasikleri, sokak satıcılarında ve küçük restoranlarda kolayca bulunur. Tayland mutfağının bu renkli ve aromatik tatları, ziyaretçilere eşsiz bir gastronomik deneyim sunar.\n\nBangkok’un gece hayatı son derece canlıdır. Rooftop barlar, gece kulüpleri ve eğlence mekânları şehrin enerjisini gece boyunca sürdürür. Khao San Road, backpacker’ların ve gece hayatı arayanların popüler noktasıdır. Asiatique ve Soi Cowboy gibi bölgeler de şehrin eğlence merkezleri arasında yer alır.\n\nDoğal güzellikler ve yeşil alanlar da şehre ayrı bir değer katar. Lumphini Parkı, şehir merkezinde doğayla iç içe huzurlu bir kaçış sunar ve yürüyüş, koşu veya piknik yapmak için idealdir.\n\nKültürel çeşitliliği, mutfağı, tarihi ve enerjik yaşam tarzıyla Bangkok, her yıl milyonlarca turistin ziyaret ettiği, Güneydoğu Asya’nın en etkileyici ve unutulmaz şehirlerinden biridir.",
+
+    "en": "Bangkok is the capital and largest city of Thailand and one of Southeast Asia’s most important cultural, financial, and tourist hubs. The city is famous for its vibrant streets, magnificent temples, modern shopping malls, and traditional markets.\n\nOne of Bangkok’s most iconic landmarks is Wat Arun, located along the Chao Phraya River. Wat Phra Kaew and the Grand Palace reflect the rich history of the Thai royal family. Boat tours on the Chao Phraya River offer a unique perspective to explore the city.\n\nBangkok is a major shopping destination. Chatuchak Market is one of the largest open-air markets in the world, while Siam Square and MBK Center provide modern shopping experiences for all tastes.\n\nThe city is world-famous for its street food. Pad Thai, Som Tam, and Satay are staple Thai dishes, available at street vendors and small restaurants, offering a unique gastronomic experience.\n\nBangkok’s nightlife is lively and diverse. Rooftop bars, nightclubs, and entertainment venues keep the city vibrant after dark. Khao San Road is popular among backpackers and nightlife seekers, while areas like Asiatique and Soi Cowboy are also well known for entertainment.\n\nNatural attractions and green spaces add to the city’s charm. Lumphini Park, located in the city center, provides a peaceful retreat for walking, jogging, or picnicking.\n\nWith its cultural diversity, cuisine, history, and energetic lifestyle, Bangkok attracts millions of visitors every year and stands as one of Southeast Asia’s most impressive and unforgettable cities."
+  },
+
   "gallery": [
     "/assets/sehir/bangkok1.png",
     "/assets/sehir/bangkok2.png"
@@ -239,7 +465,7 @@
 {
   "slug": "singapur",
   "region": "asya",
-  "country": "Singapur",
+  "country": "singapur",
   "image": "/assets/cities/singapur.png",
   "names": {
     "tr": "Singapur",
@@ -248,6 +474,23 @@
     "ja": "シンガポール",
     "ar": "سنغافورة",
     "ru": "Сингапур"
+  },
+
+  "travel_info": {
+    "tr": {
+      "best_time": "Şubat - Nisan",
+      "timezone": "SGT (Singapore Time)",
+      "currency": "Singapur Doları (SGD)",
+      "language": "Malayca, İngilizce, Çince, Tamilce",
+      "population": "5,9 milyon"
+    },
+    "en": {
+      "best_time": "February - April",
+      "timezone": "SGT (Singapore Time)",
+      "currency": "Singapore Dollar (SGD)",
+      "language": "Malay, English, Chinese, Tamil",
+      "population": "5.9 million"
+    }
   },
   "descriptions": {
     "tr": "Singapur, Güneydoğu Asya'nın en modern ve gelişmiş şehirlerinden biri olup dünya çapında önemli bir finans ve ticaret merkezidir. Yüksek gökdelenleri, yeşil alanları ve güçlü altyapısıyla dikkat çeken şehir, aynı zamanda kültürel çeşitliliği ve yenilikçi mimarisiyle öne çıkar.\n\nŞehrin en ikonik yapılarından biri olan Marina Bay Sands, üç kuleyi birleştiren eşsiz mimarisi ve çatıdaki sonsuzluk havuzuyla ünlüdür. Gardens by the Bay ise futuristik süper ağaçları ve dev seralarıyla Singapur’un modern ve doğayla iç içe yüzünü yansıtır.\n\nSingapur Botanik Bahçesi, UNESCO Dünya Mirası Listesi’nde yer almakta olup şehrin doğal zenginliğini gözler önüne serer. Sentosa Adası ise plajları, eğlence parkları ve lüks tatil köyleriyle turistlerin en çok ziyaret ettiği bölgelerden biridir. Merlion Park, şehri simgeleyen Merlion heykeliyle fotoğraf çekmek isteyenlerin uğrak noktasıdır.\n\nAlışveriş açısından Singapur tam bir cazibe merkezidir. Orchard Road, dünya çapında ünlü markaların bulunduğu en popüler alışveriş caddesidir. Chinatown, Little India ve Kampong Glam gibi etnik bölgelerde ise geleneksel pazarlar ve kültürel ürünler bulunur.\n\nSingapur mutfağı oldukça zengindir. Laksa, chili crab, satay ve kaya toast gibi yerel lezzetler hem sokak tezgâhlarında hem de restoranlarda sunulur. Hawker merkezleri, farklı mutfakları uygun fiyatlarla deneyimlemek için ideal yerlerdir.\n\nGece hayatı da oldukça renklidir. Clarke Quay, nehir kenarındaki barları ve gece kulüpleriyle öne çıkar. Marina Bay Sands SkyPark Bar ise gece manzarası eşliğinde şehri yukarıdan izleme imkânı sunar.\n\nÇevre dostu projeleri, yeşil alanları ve sürdürülebilir şehir planlamasıyla Singapur, modern şehircilik anlayışının dünya çapındaki en başarılı örneklerinden biridir.",
@@ -261,7 +504,7 @@
 {
   "slug": "barselona",
   "region": "avrupa",
-  "country": "İspanya",
+  "country": "ispanya",
   "image": "/assets/cities/barcelona.png",
   "names": {
     "tr": "Barselona",
@@ -270,6 +513,22 @@
     "ja": "バルセロナ",
     "ar": "برشلونة",
     "ru": "Барселона"
+ },
+  "travel_info": {
+    "tr": {
+      "best_time": "Mayıs - Haziran / Eylül - Ekim",
+      "timezone": "CET (Orta Avrupa Saati)",
+      "currency": "Euro (EUR)",
+      "language": "İspanyolca, Katalanca",
+      "population": "1,6 milyon"
+    },
+    "en": {
+      "best_time": "May - June / September - October",
+      "timezone": "CET (Central European Time)",
+      "currency": "Euro (EUR)",
+      "language": "Spanish, Catalan",
+      "population": "1.6 million"
+    }
   },
   "descriptions": {
     "tr": "Barselona, İspanya'nın en büyük ikinci şehri ve Akdeniz kıyısındaki Katalonya bölgesinin başkentidir. Tarihi zenginlikleri, modern mimarisi ve canlı sosyal hayatıyla Avrupa’nın en popüler turistik destinasyonlarından biridir.\n\nŞehrin en ikonik yapılarından biri olan La Sagrada Família, ünlü mimar Antoni Gaudí’nin başyapıtıdır. Benzersiz mimarisi ve halen devam eden inşasıyla Barselona’nın simgesi haline gelmiştir. Park Güell, Casa Batlló ve Casa Milà (La Pedrera) gibi Gaudí eserleri de şehrin modernist mimarisini yansıtan önemli yapılardır.\n\nBarselona’nın tarihi bölgeleri oldukça etkileyicidir. Barri Gòtic (Gotik Mahalle) ve El Raval gibi semtlerde Orta Çağ’dan kalma dar sokaklar, meydanlar ve tarihi yapılar bulunur. La Rambla Caddesi ise şehrin en hareketli noktalarından biri olup alışveriş, sokak sanatçıları ve restoranlarıyla ünlüdür.\n\nŞehir, plajlarıyla da dikkat çeker. Barceloneta Plajı, şehir merkezine yakın konumuyla hem turistlerin hem de yerel halkın en çok tercih ettiği sahil alanlarından biridir. Ayrıca çevredeki sahil kasabaları ve doğal parklar doğa severler için cazip alternatifler sunar.\n\nAlışveriş açısından Barselona oldukça zengindir. Passeig de Gràcia, dünyaca ünlü markaların yer aldığı lüks mağazalarıyla tanınır. El Born ve El Raval bölgelerinde ise butik mağazalar ve yerel tasarımlar bulunur.\n\nBarselona mutfağı, İspanyol ve Katalan lezzetleriyle öne çıkar. Tapas, paella, deniz ürünleri ve crema catalana gibi tatlar şehir genelinde yaygındır. La Boqueria Pazarı, taze ürünleri ve yerel lezzetleriyle mutlaka ziyaret edilmesi gereken yerlerdendir.\n\nGece hayatı oldukça canlıdır. Barlar, gece kulüpleri ve plaj partileri özellikle genç ziyaretçilerin ilgisini çeker. El Born ve El Raval bölgeleri akşam saatlerinde şehrin eğlence merkezlerine dönüşür.\n\nAynı zamanda bir spor şehri olan Barselona’da futbol büyük bir tutkudur. FC Barcelona’nın evi olan Camp Nou, futbolseverler için mutlaka görülmesi gereken önemli bir noktadır.",
@@ -281,44 +540,49 @@
   ]
 },
 {
-"slug": "roma",
+  "slug": "roma",
   "region": "avrupa",
-  "country": "İtalya",
+  "country": "italya",
   "image": "/assets/cities/roma.png",
   "names": {
-    "tr": "Barselona",
-    "en": "Barcelona",
-    "de": "Barcelona",
-    "ja": "バルセロナ",
-    "ar": "برشلونة",
-    "ru": "Барселона"
+    "tr": "Roma",
+    "en": "Rome",
+    "de": "Rom",
+    "ja": "ローマ",
+    "ar": "روما",
+    "ru": "Рим"
+  },
+  "travel_info": {
+    "tr": {
+      "best_time": "Nisan - Haziran / Eylül - Ekim",
+      "timezone": "CET (Orta Avrupa Saati)",
+      "currency": "Euro (EUR)",
+      "language": "İtalyanca",
+      "population": "2,8 milyon"
+    },
+    "en": {
+      "best_time": "April - June / September - October",
+      "timezone": "CET (Central European Time)",
+      "currency": "Euro (EUR)",
+      "language": "Italian",
+      "population": "2.8 million"
+    },
+    "de": {
+      "best_time": "April - Juni / September - Oktober",
+      "timezone": "MEZ (Mitteleuropäische Zeit)",
+      "currency": "Euro (EUR)",
+      "language": "Italienisch",
+      "population": "2,8 Millionen"
+    }
   },
   "descriptions": {
-    "tr": "Roma, İtalya'nın başkenti ve dünyanın en eski şehirlerinden biridir. Antik Roma İmparatorluğu'nun merkezi olan bu şehir, tarihi ve kültürel mirasıyla dünyanın dört bir yanından gelen turistleri cezbetmektedir. Roma, tarihi yapıları, sanat galerileri, muazzam meydanları ve etkileyici kiliseleri ile ünlüdür. Şehir, hem eski Roma'nın ihtişamını hem de modern yaşamın dinamiklerini bir arada sunar.\n\nRoma'nın simgelerinden biri olan Kolezyum, antik Roma döneminin en büyük amfitiyatrosu olup, gladyatör dövüşlerinin yapıldığı bu alan, Roma'nın en bilinen yapılarından biridir. Ayrıca, Roma Forumu, antik Roma'nın kalbinin attığı yerlerden biri olup, eski tapınaklar ve hükümet binalarının kalıntıları ile ziyaretçilerine tarih kokan bir atmosfer sunar.\n\nVatikan, Roma içinde bağımsız bir şehir devleti olup, Hristiyan dünyasının merkezidir. Vatikan'daki Aziz Petrus Bazilikası ve Sistine Şapeli, dünyaca ünlü sanat eserlerine ve mimari şaheserler ile doludur. Michelangelo'nun Sistine Şapeli'nin tavanındaki freskler, sanat tarihinde eşsiz bir yere sahiptir.",
-    "de": "Rom, die Hauptstadt Italiens und eine der ältesten Städte der Welt. Diese Stadt, das Zentrum des antiken Römischen Reiches, zieht Touristen aus der ganzen Welt mit ihrem historischen und kulturellen Erbe an. Rom ist berühmt für seine historischen Gebäude, Kunstgalerien, beeindruckenden Plätze und Kirchen. Die Stadt vereint sowohl den Glanz des alten Roms als auch die Dynamik des modernen Lebens.\n\nEin Wahrzeichen Roms ist das Kolosseum, das größte Amphitheater der antiken römischen Zeit, das für die Gladiatorenkämpfe bekannt ist und eines der bekanntesten Bauwerke Roms darstellt. Das Forum Romanum, das Herzstück des antiken Roms, bietet mit den Ruinen alter Tempel und Regierungsgebäude eine Atmosphäre, die die Geschichte atmet.\n\nDer Vatikan, ein unabhängiger Stadtstaat in Rom, ist das Zentrum der christlichen Welt. Die Peterskirche und die Sixtinische Kapelle im Vatikan sind voller weltberühmter Kunstwerke und architektonischer Meisterwerke. Michelangelos Deckenfresken in der Sixtinischen Kapelle haben einen einzigartigen Platz in der Kunstgeschichte.",
-    "en": "Rome, the capital of Italy and one of the oldest cities in the world. This city, once the center of the Roman Empire, attracts tourists from all over the world with its historical and cultural heritage. Rome is famous for its historical buildings, art galleries, monumental squares, and impressive churches. The city offers a blend of ancient Roman grandeur and modern-day dynamics.\n\nOne of Rome's landmarks is the Colosseum, the largest amphitheater of the ancient Roman era, famous for gladiator fights and one of Rome's most iconic structures. Additionally, the Roman Forum, the heart of ancient Rome, offers visitors a history-filled atmosphere with the ruins of ancient temples and government buildings.\n\nThe Vatican, an independent city-state within Rome, is the center of the Christian world. The Vatican's St. Peter's Basilica and the Sistine Chapel are filled with world-renowned art and architectural masterpieces. Michelangelo's ceiling frescoes in the Sistine Chapel hold a unique place in art history."
-  }
+  "tr": "Roma, İtalya'nın başkenti ve tarih boyunca dünyanın en önemli şehirlerinden biri olmuştur. Antik Roma İmparatorluğu'nun merkezi olan bu şehir, tarihi yapıları, muhteşem sanat galerileri, etkileyici meydanları, ihtişamlı kiliseleri ve dünyaca ünlü anıtları ile her yıl milyonlarca turistin ilgisini çekmektedir. Şehir, geçmiş ile modern yaşamın kusursuz bir birleşimini sunar ve her köşesinde tarih, sanat ve kültür deneyimi sunar.\n\nRoma'nın simgesi olan Kolezyum, antik Roma döneminin en büyük amfitiyatrosu olarak hem tarih meraklıları hem de gezginler için mutlaka görülmesi gereken bir yapıdır. Gladyatör dövüşleri, tarihi tiyatro performansları ve Roma'nın en eski yapılarından biri olarak Kolezyum, şehrin turistik cazibe merkezlerinin başında gelir. Roma Forumu ise antik Roma'nın kalbi olarak kabul edilir; tapınaklar, antik hükümet binaları ve sütunlu meydanlarıyla ziyaretçilere tarihin derinliklerine yolculuk yapma fırsatı sunar.\n\nVatikan, Roma içinde bağımsız bir şehir devleti olup Hristiyan dünyasının merkezidir ve sanat ile mimarinin doruk noktalarını içerir. Aziz Petrus Bazilikası, Michelangelo'nun ünlü Pietà heykeli ve devasa kubbesi ile dikkat çeker. Sistine Şapeli ise Michelangelo'nun tavan freskleri ve eşsiz sanat eserleriyle dünya çapında ün kazanmıştır. Vatikan Müzeleri, Raphael'in odaları ve paha biçilmez sanat koleksiyonları ile kültür meraklıları için bir cennettir.\n\nRoma sokaklarında yürürken, her köşe başında tarihi bir hikaye bulabilirsiniz. Pantheon, Piazza Navona, Trevi Çeşmesi ve İspanyol Merdivenleri, şehrin en ikonik ve turistlerin en çok ziyaret ettiği noktalarıdır. Şehir ayrıca romantik atmosferi ve güzel kafeleri ile öne çıkar; İtalyan kahvesi ve gelato deneyimlemek için mükemmel bir yerdir.\n\nRoma mutfağı, dünya çapında ünlüdür. Pizza, makarna, risotto, taze deniz ürünleri ve geleneksel İtalyan tatlılarıyla ziyaretçilere unutulmaz lezzet deneyimleri sunar. Trattoria ve Osteria’larda geleneksel İtalyan yemeklerini tatmak mümkündür.\n\nRoma gece hayatı da oldukça hareketlidir. Barlar, kafeler ve restoranlar şehir merkezinde ve Trastevere bölgesinde yoğunlaşır. Şehir aynı zamanda alışveriş tutkunları için de ideal bir destinasyondur; Via del Corso, Via Condotti ve Campo de' Fiori gibi bölgelerde hem lüks markalar hem de butik tasarım dükkanları bulunur.\n\nTarih, sanat, kültür, gastronomi ve romantizm arayanlar için Roma, Avrupa’nın en çekici ve büyüleyici şehirlerinden biridir. Roma gezilecek yerler açısından sınırsız seçenekler sunar ve her ziyaretçi için unutulmaz bir seyahat deneyimi garanti eder.",
+  "en": "Rome, the capital of Italy, is one of the world's most historically significant cities and a top tourist destination in Europe. Once the center of the Roman Empire, this city is famous for its ancient landmarks, magnificent art galleries, stunning squares, grand churches, and world-renowned monuments. Rome perfectly blends history with modern life, offering cultural and artistic experiences around every corner.\n\nThe Colosseum, Rome's most iconic landmark, is the largest amphitheater of ancient Rome and a must-see attraction for history enthusiasts and travelers alike. Known for gladiator fights and ancient performances, the Colosseum remains at the top of Rome’s tourist highlights. The Roman Forum, the heart of ancient Rome, features temples, government building ruins, and columned plazas, providing visitors with an immersive historical journey.\n\nVatican City, an independent city-state within Rome, is the epicenter of Christian heritage and world-class art and architecture. St. Peter's Basilica, with Michelangelo’s famous Pietà sculpture and massive dome, is a highlight for visitors. The Sistine Chapel, with Michelangelo’s ceiling frescoes, is globally renowned, while the Vatican Museums, including Raphael's Rooms, house priceless art collections.\n\nWalking through the streets of Rome, tourists encounter history at every turn. Iconic sites such as the Pantheon, Piazza Navona, Trevi Fountain, and the Spanish Steps are essential stops. The city also offers a romantic atmosphere with charming cafés, perfect for savoring Italian coffee and gelato.\n\nRome is a culinary paradise. Pizza, pasta, risotto, fresh seafood, and traditional Italian desserts offer unforgettable dining experiences. Trattorias and Osterias provide authentic local flavors, ensuring a gastronomic adventure for every visitor.\n\nRome’s nightlife is lively, with bars, cafés, and restaurants concentrated in the city center and Trastevere district. Shopping enthusiasts will enjoy Via del Corso, Via Condotti, and Campo de' Fiori, home to luxury brands and boutique shops.\n\nFor history, art, culture, cuisine, and romance, Rome is one of Europe’s most captivating and enchanting cities. With countless sightseeing opportunities, it guarantees every visitor an unforgettable travel experience."
 },
-{
-"slug": "kualalumpur",
-  "region": "asya",
-  "country": "İtalya",
-  "image": "/assets/cities/kualalumpur.png",  
-"names": {
-    "tr": "Kuala Lumpur",
-    "en": "Kuala Lumpur",
-    "de": "Kuala Lumpur",
-    "ar": "كوالا لمبور",
-    "ja": "クアラルンプール",
-    "ru": "Куала-Лумпур"
-  },
-  "country": "Kuala Lumpur",
-  "imageUrl": "assets/sehir/kuala.png",
-  "descriptions": {
-    "tr": "Kuala Lumpur, Malezya'nın başkenti ve en büyük şehri olup, güneydoğu Asya'nın en dinamik ve hızlı gelişen şehirlerinden biridir. Modern gökdelenleri, renkli pazarı, tarihi yapıları ve kozmopolit yaşam tarzıyla dikkat çeker. Şehir, Malezya'nın kültürel, ticari ve finansal merkezi olarak büyük bir öneme sahiptir. Kuala Lumpur'un en tanınan yapılarından biri olan Petronas Kuleleri, dünyanın en yüksek çift kuleli yapısı olarak şehri simgeleyen bir yapı haline gelmiştir. Bu ikonik yapılar, Kuala Lumpur'un modern yüzünü temsil eder.\n\nKuala Lumpur'da gezilecek birçok önemli nokta bulunmaktadır. Batu Mağaraları, Hindu inançlarının önemli bir merkezi olup, devasa altın heykeli ve 272 basamaktan oluşan merdivenleriyle dikkat çeker. Şehirdeki diğer önemli yapılar arasında Sultan Abdul Samad Binası, Merdeka Meydanı ve Eski Demir Yolu İstasyonu yer alır. Kuala Lumpur, geçmişten günümüze farklı kültürlerin izlerini taşır ve bu tarihsel yapıların bulunduğu bölgeler, şehri keşfetmek için harika noktalardır.\n\nKuala Lumpur'un pazarı, alışveriş olanakları ve yerel yemekleri de oldukça ünlüdür. Şehir, büyük alışveriş merkezlerine ev sahipken, aynı zamanda geleneksel pazarlarıyla da dikkat çeker. Petaling Street, Çin Mahallesi olarak bilinir ve burada birçok yerel dükkan, sokak yemeği ve hediyelik eşya bulabilirsiniz. Ayrıca, Bukit Bintang bölgesi, şehrin alışveriş ve gece hayatı merkezi olarak popülerdir.\n\nYemek kültürü açısından Kuala Lumpur, güneydoğu Asya'nın en zengin ve çeşitli mutfaklarından birine sahiptir. Burada Çin, Hint, Malay ve diğer güneydoğu Asya mutfaklarından yemekler bulmak mümkündür. Satay, Nasi Lemak, Laksa ve Roti Canai gibi yerel lezzetler, Kuala Lumpur sokaklarında sıkça karşılaşılan ve denemeye değer yemeklerdir.\n\nŞehirdeki gece hayatı da oldukça canlıdır. Kuala Lumpur'da barlar, gece kulüpleri, restoranlar ve gece pazarları büyük ilgi görür. Changkat Bukit Bintang, gece hayatının en yoğun olduğu bölgelerden biridir.\n\nKuala Lumpur, doğal güzellikleri ile de bilinir. Şehir, yeşil alanlarla çevrilidir ve botanik parklar, orman rezervleri ve doğa yürüyüş parkurları barındırır. KLCC Parkı, Petronas Kuleleri'nin yakınında yer alır. Ayrıca, Taman Negara Ulusal Parkı, dünyanın en eski yağmur ormanlarından biridir.\n\nKuala Lumpur, dinamik kültürel yapısı, modern altyapısı ve geleneksel dokusuyla ziyaretçilere eşsiz bir deneyim sunar.",
-    "de": "Kuala Lumpur ist die Hauptstadt und größte Stadt Malaysias und eine der dynamischsten und am schnellsten wachsenden Städte in Südostasien. Die Stadt ist bekannt für ihre modernen Wolkenkratzer, bunten Märkte, historischen Gebäude und ihren kosmopolitischen Lebensstil. Sie ist das kulturelle, kommerzielle und finanzielle Zentrum Malaysias. Die Petronas-Türme, die höchsten Zwillingstürme der Welt, symbolisieren die moderne Seite der Stadt.\n\nZu den wichtigsten Sehenswürdigkeiten gehören die Batu-Höhlen, ein bedeutendes hinduistisches Heiligtum mit einer riesigen goldenen Statue und 272 Stufen. Weitere bedeutende Orte sind das Sultan-Abdul-Samad-Gebäude, der Merdeka-Platz und der alte Bahnhof.\n\nDie Stadt bietet zahlreiche Einkaufsmöglichkeiten und traditionelle Märkte wie die Petaling Street (Chinatown). Bukit Bintang ist das Zentrum für Shopping und Nachtleben mit luxuriösen Geschäften, Restaurants und Cafés.\n\nDie Küche Kuala Lumpurs ist äußerst vielfältig und vereint chinesische, indische, malaysische und südostasiatische Einflüsse. Spezialitäten wie Satay, Nasi Lemak, Laksa und Roti Canai sind sehr beliebt.\n\nDas Nachtleben ist lebendig, besonders in Changkat Bukit Bintang mit seinen Bars und Clubs.\n\nKuala Lumpur ist auch für seine Grünflächen bekannt, darunter der KLCC Park und der nahegelegene Taman-Negara-Nationalpark, einer der älesten Regenwälder der Welt.\n\nDie Stadt bietet Besuchern eine einzigartige Mischung aus moderner Infrastruktur und traditioneller Kultur.",
-    "en": "Kuala Lumpur, the capital and largest city of Malaysia, is one of the most dynamic and rapidly developing cities in Southeast Asia. It is known for its modern skyscrapers, colorful markets, historic buildings, and cosmopolitan lifestyle. The city serves as Malaysia's cultural, commercial, and financial hub. One of its most iconic landmarks, the Petronas Towers, are the world's tallest twin towers and represent the modern face of the city.\n\nKuala Lumpur offers many important landmarks, including the Batu Caves, a major Hindu site famous for its giant golden statue and 272 steps. Other notable places include the Sultan Abdul Samad Building, Merdeka Square, and the Old Railway Station.\n\nThe city is also known for shopping and food. Traditional markets like Petaling Street (Chinatown) offer street food and souvenirs, while Bukit Bintang is a popular district for shopping and nightlife.\n\nKuala Lumpur has one of the richest and most diverse food cultures in Southeast Asia, featuring Chinese, Indian, Malay, and regional cuisines. Popular local dishes include Satay, Nasi Lemak, Laksa, and Roti Canai.\n\nThe nightlife is vibrant, especially in areas like Changkat Bukit Bintang.\n\nThe city is surrounded by greenery and natural attractions such as KLCC Park and Taman Negara National Park, one of the oldest rainforests in the world.\n\nWith its multicultural structure, modern infrastructure, and traditional atmosphere, Kuala Lumpur offers visitors a truly unique experience."
-  }
+  "gallery": [
+    "/assets/sehir/roma1.png",
+    "/assets/sehir/roma2.png"
+  ]
 },
 {
   "slug": "mekke",
@@ -329,26 +593,27 @@
     "en": "Mecca"
 
   },
-  "country": "Suudi Arabistan",
+  "country": "suudi arabistan",
+"travel_info": {
+  "tr": {
+    "best_time": "Ekim - Mart",
+    "timezone": "AST (Arabia Standard Time)",
+    "currency": "Suudi Arabistan Riyali (SAR)",
+    "language": "Arapça",
+    "population": "2 milyon civarı"
+  },
+  "en": {
+    "best_time": "October - March",
+    "timezone": "AST (Arabia Standard Time)",
+    "currency": "Saudi Riyal (SAR)",
+    "language": "Arabic",
+    "population": "Around 2 million"
+  }
+},
   "descriptions": {
     "tr": "Mekke, Suudi Arabistan'ın batısında yer alan ve İslam dünyasının en kutsal şehri olarak kabul edilen bir şehirdir. Her yıl milyonlarca Müslüman, Hac ibadetini yerine getirmek için Mekke'ye gelir. Şehir, İslam'ın doğuşunun merkezi olan bu kutsal topraklarda yer alır ve Hz. Muhammed'in doğduğu şehir olarak kabul edilir.\n\nMekke'nin en önemli yapılarından biri olan Kâbe, Mescid-i Haram'ın içinde yer alır. Kâbe, Müslümanların yöneldiği kıble noktasıdır ve İslam'ın en önemli simgelerinden biridir. Hac ve umre için gelen müminler, Kâbe'yi tavaf ederler. Mescid-i Haram ise dünyanın en büyük camilerinden biri olup, her yıl milyonlarca insanı ağırlar.\n\nMekke, dini öneminin yanı sıra tarihi ve kültürel açıdan da büyük bir değere sahiptir. Hira Mağarası, Hz. Muhammed'in ilk vahyi aldığı yer olarak bilinir ve çok sayıda ziyaretçi tarafından ziyaret edilir. Uhud Dağı da İslam tarihindeki önemli olaylara ev sahipliği yapmış kutsal alanlardan biridir.\n\nŞehirde alışveriş imkanları oldukça gelişmiştir. Alışveriş merkezleri, geleneksel çarşılar ve modern mağazalar hem ziyaretçilere hem de yerel halka hizmet verir. Restoranlarda ise geleneksel İslam mutfağının yanı sıra uluslararası mutfaklardan lezzetler bulunur.\n\nMekke'nin manevi atmosferi, şehri ziyaret edenler üzerinde derin bir etki bırakır. Özellikle namaz vakitlerinde Mescid-i Haram çevresinde hissedilen huzur ve sessizlik, ruhsal bir rahatlama sağlar.\n\nÇöl manzarası ve dağlarla çevrili yapısıyla Mekke, doğal açıdan da kendine özgü bir görünüme sahiptir.\n\nMekke, İslam dünyası için sadece bir ibadet merkezi değil; aynı zamanda tarih, kültür ve maneviyatın birleştiği eşsiz bir şehirdir.",
     "de": "Mekka liegt im Westen Saudi-Arabiens und gilt als die heiligste Stadt des Islams. Jedes Jahr pilgern Millionen von Muslimen nach Mekka, um den Hadsch zu vollziehen. Die Stadt gilt als Geburtsort des Propheten Muhammad und als Zentrum der Entstehung des Islams.\n\nDas wichtigste Bauwerk der Stadt ist die Kaaba, die sich in der Al-Masjid al-Haram Moschee befindet. Sie ist die Gebetsrichtung aller Muslime weltweit und ein zentrales Symbol des Islams. Pilger umkreisen die Kaaba während des Hadsch und der Umra. Die Al-Masjid al-Haram gehört zu den größten Moscheen der Welt.\n\nMekka besitzt auch eine große historische und kulturelle Bedeutung. Die Höhle von Hira, in der der Prophet Muhammad die erste Offenbarung empfing, wird von vielen Gläubigen besucht. Auch der Uhud-Berg ist ein wichtiger historischer Ort im Islam.\n\nDie Stadt bietet zahlreiche Einkaufsmöglichkeiten mit modernen Einkaufszentren, traditionellen Märkten und internationalen Geschäften. Restaurants servieren sowohl traditionelle islamische Küche als auch internationale Gerichte.\n\nDie spirituelle Atmosphäre Mekkas vermittelt Ruhe und Besinnung, besonders zu den Gebetszeiten rund um die Al-Masjid al-Haram.\n\nUmgeben von Wüste und Bergen bietet Mekka zudem eine einzigartige natürliche Kulisse.\n\nMekka ist nicht nur ein spirituelles Zentrum, sondern auch ein Ort von großer historischer, kultureller und natürlicher Bedeutung für die islamische Welt.",
     "en": "Mecca is located in western Saudi Arabia and is regarded as the holiest city in Islam. Every year, millions of Muslims travel to Mecca to perform the Hajj pilgrimage. The city is considered the birthplace of the Prophet Muhammad and the center of the origin of Islam.\n\nThe most important landmark in Mecca is the Kaaba, located inside the Masjid al-Haram mosque. It is the direction of prayer for Muslims worldwide and one of the most sacred symbols of Islam. Pilgrims perform Tawaf around the Kaaba during Hajj and Umrah. Masjid al-Haram is one of the largest mosques in the world.\n\nMecca also holds great historical and cultural significance. The Cave of Hira, where Prophet Muhammad received the first revelation, is visited by many pilgrims. Mount Uhud is another important site in early Islamic history.\n\nThe city offers a wide range of shopping options, including modern malls, traditional markets, and luxury shops. Restaurants serve both traditional Islamic cuisine and international dishes.\n\nMecca’s spiritual atmosphere deeply affects visitors, especially during prayer times around Masjid al-Haram, creating a sense of peace and reflection.\n\nSurrounded by desert landscapes and mountains, Mecca also has a distinctive natural environment.\n\nMecca is not only a place of worship but also a city where history, culture, and spirituality come together, offering a profound experience for millions of Muslims every year."
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
