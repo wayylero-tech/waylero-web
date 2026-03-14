@@ -62,7 +62,7 @@ const cityToCountryMap: Record<string, string> = {
 // Slovakya
 "bratislava": "slovakya", "kosice": "slovakya", "nitra": "slovakya", "presov": "slovakya", "zilina": "slovakya",
 // İskoçya
-"edinburgh": "iskocya", "glasgow": "iskocya", "aberdeen": "iskocya", "dundee": "iskocya", "inverness": "iskocya", "stirling": "iskocya", "st andrews": "iskocya", "oban": "iskocya", "perth": "iskocya", "pitlochry": "iskocya",
+"edinburgh": "iskocya", "glasgow": "iskocya", "aberdeen": "iskocya", "dundee": "iskocya", "inverness": "iskocya", "stirling": "iskocya", "st andrews": "iskocya", "oban": "iskocya",  "pitlochry": "iskocya",
 // KKTC
 "lefkosa": "kktc", "girne": "kktc", "gazimagusa": "kktc", "guzelyurt": "kktc",
 
