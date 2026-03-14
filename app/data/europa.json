@@ -1,5 +1,5 @@
 {
-  " madrid": [
+  "madrid": [
     {
       "slug": "prado-muzesi",
       "name": {
@@ -1521,7 +1521,7 @@
       ]
     }
   ],
-  "palma de mallorca": [
+  "palmademallorca": [
     {
       "slug": "palma-katedrali",
       "name": {
@@ -2389,7 +2389,7 @@
       ]
     }
   ],
-  "göteborg": [
+  "goteborg": [
     {
       "slug": "liseberg",
       "name": {
@@ -2606,7 +2606,7 @@
       ]
     }
   ],
-  "malmö": [
+  "malmo": [
     {
       "slug": "turning-torso",
       "name": {
@@ -3691,7 +3691,7 @@
       ]
     }
   ],
-  "zürich": [
+  "zurich": [
     {
       "slug": "lake-zurich",
       "name": {
@@ -4305,7 +4305,7 @@
       ]
     }
   ],
-  "magusa": [
+  "gazimagusa": [
     {
       "slug": "lala-mustafa-pasa-camii",
       "name": {
@@ -4444,7 +4444,7 @@
       ]
     }
   ],
-  "güzelyurt": [
+  "guzelyurt": [
     {
       "slug": "guzelyurt-manastiri",
       "name": {
@@ -11162,7 +11162,7 @@
       ]
     }
   ],
-  "bükres": [
+  "bukres": [
     {
       "slug": "parlamento-sarayi",
       "name": {
@@ -11250,7 +11250,7 @@
       ]
     }
   ],
-  "cluj napoca": [
+  "cluj-napoca": [
     {
       "slug": "st-michael-kilisesi",
       "name": {
@@ -12042,7 +12042,7 @@
       ]
     }
   ],
-  "weil am rhein ": [
+  "weil-am-rhein": [
     {
       "slug": "uculke-koprusu",
       "name": {
@@ -12707,7 +12707,7 @@
       ]
     }
   ],
-  "münih": [
+  "munih": [
     {
       "slug": "marienplatz",
       "name": {
@@ -13670,7 +13670,7 @@
       ]
     }
   ],
-  "düsseldorf": [
+  "dusseldorf": [
     {
       "slug": "konigsallee",
       "name": {
@@ -13758,7 +13758,7 @@
       ]
     }
   ],
-  "köln": [
+  "koln": [
     {
       "slug": "koln-katedrali",
       "name": {
@@ -16503,7 +16503,7 @@
       ]
     }
   ],
-  "oberösterreich": [
+  "oberosterreich": [
     {
       "slug": "hallstatt-koyu",
       "name": {
@@ -16949,7 +16949,7 @@
       ]
     }
   ],
-  "niederösterreich": [
+  "niederosterreich": [
     {
       "slug": "wachau-vadisi",
       "name": {
@@ -17519,7 +17519,7 @@
       ]
     }
   ],
-  "las vegas": [
+  "las-vegas": [
     {
       "slug": "las-vegas-strip",
       "name": {
@@ -17653,7 +17653,7 @@
       ]
     }
   ],
-  "los angeles": [
+  "los-angeles": [
     {
       "slug": "santa-monica-pier",
       "name": {
@@ -20121,7 +20121,7 @@
       ]
     }
   ],
-  "st_peterburg": [
+  "stpeterburg": [
     {
       "slug": "hermitaj-muzesi",
       "name": {
@@ -24977,161 +24977,7 @@
       ]
     }
   ],
-  "sri lanka": [
-    {
-      "slug": "sigiriya-kayasi",
-      "name": {
-        "tr": "Sigiriya Kayası",
-        "en": "Sigiriya Rock",
-        "de": "Sigiriya Felsen"
-      },
-      "latitude": 7.9566,
-      "longitude": 80.7602,
-      "description": {
-        "tr": "Sigiriya Kayası, Sri Lanka'da yer alan tarihi ve doğal bir yapıdır. MÖ 5. yüzyılda Kral Kasyapa tarafından bir kraliyet sarayı ve kale olarak inşa edilmiştir. 200 metre yüksekliğindeki kaya, hem tarihi hem de doğal güzellikleriyle büyüleyici bir manzara sunar. Sigiriya, UNESCO Dünya Mirası Listesi'nde yer alır ve üzerinde saray kalıntıları, duvarlarda ise ünlü Sigiriya Freskleri bulunur. Ziyaretçiler kayaya tırmanarak bu tarihi yapıları keşfeder ve eşsiz manzaraların keyfini çıkarabilirler.\n",
-        "en": "Sigiriya Rock is a historic and natural site located in Sri Lanka. Built in the 5th century BC by King Kasyapa, it served as a royal palace and fortress. The 200-meter-high rock offers stunning historical and natural beauty. Sigiriya is a UNESCO World Heritage site, and on its surface, visitors can find palace ruins and the famous Sigiriya Frescoes. Visitors can climb the rock to explore these historical structures and enjoy breathtaking views.\n",
-        "de": "Der Sigiriya-Felsen ist eine historische und natürliche Stätte in Sri Lanka. Er wurde im 5. Jahrhundert v. Chr. von König Kasyapa als königlicher Palast und Festung erbaut. Der 200 Meter hohe Felsen bietet eine atemberaubende historische und natürliche Schönheit. Sigiriya ist ein UNESCO-Weltkulturerbe, und auf seinem Gipfel können Besucher Palastruinen und die berühmten Sigiriya-Fresken sehen. Besucher können den Felsen erklimmen, um diese historischen Stätten zu erkunden und die atemberaubende Aussicht zu genießen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Sigiriya Kayası’na tırmanmak",
-          "Freskleri incelemek",
-          "Tarihi saray kalıntılarını keşfetmek",
-          "Manzaranın tadını çıkarmak"
-        ],
-        "en": [
-          "Climb Sigiriya Rock",
-          "Examine the frescoes",
-          "Explore the palace ruins",
-          "Enjoy the view"
-        ],
-        "de": [
-          "Den Sigiriya-Felsen erklimmen",
-          "Die Fresken untersuchen",
-          "Die Palastruinen erkunden",
-          "Die Aussicht genießen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/sigiriya_rock_1.jpg",
-        "https://example.com/sigiriya_rock_2.jpg"
-      ]
-    },
-    {
-      "slug": "polonnaruwa-antik-kenti",
-      "name": {
-        "tr": "Polonnaruwa Antik Kenti",
-        "en": "Polonnaruwa Ancient City",
-        "de": "Antike Stadt Polonnaruwa"
-      },
-      "latitude": 7.94596,
-      "longitude": 81.00033,
-      "description": {
-        "tr": "Polonnaruwa Antik Kenti, Sri Lanka'nın eski başkentlerinden biridir ve UNESCO Dünya Mirası Listesi'nde yer alır. 11. ve 12. yüzyıllarda, Anuradhapura'dan sonra Sri Lanka'nın başkenti olmuştur. Antik kent, tarihi tapınaklar, büyük heykeller ve saray kalıntılarıyla ünlüdür. Parakramabahu I.'in döneminde yapılan muazzam yapılar, bölgedeki en önemli turistik cazibe merkezlerindendir. Polonnaruwa, ziyaretçilere tarihi ve kültürel zenginlikleri keşfetme fırsatı sunar.\n",
-        "en": "Polonnaruwa Ancient City is one of the ancient capitals of Sri Lanka and is listed as a UNESCO World Heritage site. It served as the capital of Sri Lanka during the 11th and 12th centuries, following Anuradhapura. The ancient city is famous for its historical temples, large statues, and palace ruins. The massive structures built during the reign of King Parakramabahu I are among the key attractions in the area. Polonnaruwa offers visitors the chance to explore rich historical and cultural heritage.\n",
-        "de": "Die Antike Stadt Polonnaruwa ist eine der alten Hauptstädte von Sri Lanka und ist als UNESCO-Weltkulturerbe gelistet. Sie war im 11. und 12. Jahrhundert nach Anuradhapura die Hauptstadt von Sri Lanka. Die antike Stadt ist bekannt für ihre historischen Tempel, große Statuen und Palastruinen. Die massiven Bauwerke aus der Regierungszeit von König Parakramabahu I. gehören zu den wichtigsten Sehenswürdigkeiten der Region. Polonnaruwa bietet den Besuchern die Möglichkeit, das reiche historische und kulturelle Erbe zu entdecken.\n"
-      },
-      "activities": {
-        "tr": [
-          "Polonnaruwa Antik Kenti’ni keşfetmek",
-          "Büyük Buddha Heykeli’ni görmek",
-          "Parakramabahu Sarayı’nı gezmek",
-          "Tarihi tapınakları ziyaret etmek",
-          "Şehirde fotoğraf çekmek"
-        ],
-        "en": [
-          "Explore Polonnaruwa Ancient City",
-          "See the Great Buddha Statue",
-          "Visit the Palace of Parakramabahu",
-          "Tour the ancient temples",
-          "Take photos around the city"
-        ],
-        "de": [
-          "Die Antike Stadt Polonnaruwa erkunden",
-          "Die Große Buddha-Statue sehen",
-          "Den Palast von Parakramabahu besuchen",
-          "Die antiken Tempel besichtigen",
-          "Fotos in der Stadt machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "antik kent"
-        ],
-        "en": [
-          "ancient site"
-        ],
-        "de": [
-          "Antike Stätte"
-        ]
-      },
-      "images": [
-        "https://example.com/polonnaruwa_ancient_city_1.jpg",
-        "https://example.com/polonnaruwa_ancient_city_2.jpg"
-      ]
-    },
-    {
-      "slug": "kandy-golu",
-      "name": {
-        "tr": "Kandy Gölü",
-        "en": "Kandy Lake",
-        "de": "Kandy See"
-      },
-      "latitude": 7.29152,
-      "longitude": 80.64118,
-      "description": {
-        "tr": "Kandy Gölü, Sri Lanka'nın Kandy şehrinde yer alan yapay bir göldür. 19. yüzyılda, Kandy Krallığı döneminde, Kral Sri Wickrama Rajasinghe tarafından inşa edilmiştir. Kandy Gölü, Kandy şehrinin merkezine oldukça yakın olup, şehri çevreleyen dağların muazzam manzarasını sunar. Bu göl, Sri Lanka'nın önemli turistik bölgelerinden biridir ve etrafındaki yürüyüş yolları, manzaralı parklar ve dini yapılarla ziyaretçilerini cezbetmektedir.\n",
-        "en": "Kandy Lake is an artificial lake located in the city of Kandy, Sri Lanka. It was constructed during the 19th century, under the reign of King Sri Wickrama Rajasinghe. The lake is situated close to the center of Kandy and offers stunning views of the surrounding hills. Kandy Lake is one of Sri Lanka's significant tourist destinations, attracting visitors with its scenic walking paths, parks, and nearby religious sites.\n",
-        "de": "Der Kandy-See ist ein künstlicher See in der Stadt Kandy, Sri Lanka. Er wurde im 19. Jahrhundert unter der Herrschaft von König Sri Wickrama Rajasinghe erbaut. Der See befindet sich in der Nähe des Zentrums von Kandy und bietet einen atemberaubenden Blick auf die umliegenden Hügel. Der Kandy-See ist eines der bedeutendsten Touristenziele in Sri Lanka und zieht Besucher mit seinen malerischen Spazierwegen, Parks und nahegelegenen religiösen Stätten an.\n"
-      },
-      "activities": {
-        "tr": [
-          "Kandy Gölü etrafında yürüyüş yapmak",
-          "Göl manzarasında fotoğraf çekmek",
-          "Göl çevresindeki parkları gezmek",
-          "Dini yapıları ziyaret etmek"
-        ],
-        "en": [
-          "Walk around Kandy Lake",
-          "Take photos of the lake view",
-          "Explore the parks around the lake",
-          "Visit the nearby religious sites"
-        ],
-        "de": [
-          "Um den Kandy-See spazieren gehen",
-          "Fotos vom See machen",
-          "Die Parks rund um den See erkunden",
-          "Die nahegelegenen religiösen Stätten besuchen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/kandy_lake_1.jpg",
-        "https://example.com/kandy_lake_2.jpg"
-      ]
-    }
-  ],
+  
   "chartes": [
     {
       "slug": "chartres-katedrali",
@@ -26292,7 +26138,7 @@
       ]
     }
   ],
-  "rodos adası": [
+  "rodos-adasi": [
     {
       "slug": "rhodes-antik-kenti",
       "name": {
@@ -26340,7 +26186,7 @@
       ]
     }
   ],
-  "delos adası": [
+  "delos-adasi": [
     {
       "slug": "antik-delos-kenti",
       "name": {
@@ -26388,7 +26234,7 @@
       ]
     }
   ],
-  "peloponez yarımadası": [
+  "peloponez-yarimadasi": [
     {
       "slug": "mycenae-antik-kenti",
       "name": {
@@ -27456,7 +27302,7 @@
       ]
     }
   ],
-  "kafelonya adası": [
+  "kafelonya-adasi": [
     {
       "slug": "melissani-magarasi",
       "name": {
@@ -27554,7 +27400,7 @@
       ]
     }
   ],
-  "girit adası": [
+  "girit-adasi": [
     {
       "slug": "elafonissi-plaji",
       "name": {
@@ -29136,7 +28982,7 @@
       ]
     }
   ],
-  "david_gareja": [
+  "david-gareja": [
     {
       "slug": "david-gareja-manastir-kompleksi",
       "name": {
@@ -30863,7 +30709,7 @@
       ]
     }
   ],
-  " idarvin": [
+  "idarwin": [
     {
       "slug": "litchfield-national-park",
       "name": {
@@ -31327,7 +31173,7 @@
       ]
     }
   ],
-  "whitsunday adaları": [
+  "whitsunday-adalari": [
     {
       "slug": "whitehaven-beach",
       "name": {
@@ -31467,7 +31313,7 @@
       ]
     }
   ],
-  "gold coast": [
+  "gold-coast": [
     {
       "slug": "surfers-paradise",
       "name": {
@@ -33271,7 +33117,7 @@
       ]
     }
   ],
-  "ıloilo": [
+  "iloilo": [
     {
       "slug": "miagao-church",
       "name": {
@@ -33716,7 +33562,7 @@
       ]
     }
   ],
-  "kopenhagen": [
+  "kopenhag": [
     {
       "slug": "tivoli-bahceleri",
       "name": {
@@ -37133,7 +36979,7 @@
       ]
     }
   ],
-  "wahiba sands": [
+  "wahiba-sands": [
     {
       "slug": "wahiba-colleri",
       "name": {
@@ -37372,7 +37218,7 @@
       ]
     }
   ],
-  "jabel shams": [
+  "jabel-shams": [
     {
       "slug": "jebel-shams",
       "name": {
@@ -37567,7 +37413,7 @@
       ]
     }
   ],
-  "ras al jinz": [
+  "ras-al-jinz": [
     {
       "slug": "ras-al-jinz",
       "name": {
@@ -37616,7 +37462,7 @@
       ]
     }
   ],
-  "masirah adası": [
+  "masirah-adasi": [
     {
       "slug": "masirah-adasi",
       "name": {
@@ -38496,7 +38342,7 @@
       ]
     }
   ],
-  "banja luka": [
+  "banja-luka": [
     {
       "slug": "kastel-kalesi",
       "name": {
@@ -38686,7 +38532,7 @@
       ]
     }
   ],
-  "počitelj ": [
+  "pocitel": [
     {
       "slug": "po-itelj-kalesi",
       "name": {
@@ -38782,7 +38628,7 @@
       ]
     }
   ],
-  "ljubuški": [
+  "ljubuski": [
     {
       "slug": "kravice-selaleleri",
       "name": {
