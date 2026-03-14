@@ -1,5 +1,4 @@
 import { MetadataRoute } from "next";
-import { cityToCountryMap } from "@/app/middleware"; // middleware’den import
 
 export const dynamic = "force-static";
 export const revalidate = false;
@@ -37,31 +36,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // 🌍 Mekan URL
-  const placeUrls = places.map((place: any) => {
-    const country = cityToCountryMap[place.city.toLowerCase()] || "turkiye"; // default turkiye
-    return {
-      url: `${baseUrl}/kesfet/${country}/${place.city}/${place.slug}`,
-      lastModified: now,
-    };
-  });
+  const placeUrls = places.map((place: any) => ({
+    url: `${baseUrl}/kesfet/${place.country}/${place.city}/${place.slug}`,
+    lastModified: now,
+  }));
 
   // ⭐ Şehir URL
-  const cityUrls = cities.map((city: any) => {
-    const country = cityToCountryMap[city.slug.toLowerCase()] || "turkiye";
-    return {
-      url: `${baseUrl}/${country}/${city.slug}`,
-      lastModified: now,
-    };
-  });
+  const cityUrls = cities.map((city: any) => ({
+    url: `${baseUrl}/${city.country}/${city.slug}`,
+    lastModified: now,
+  }));
 
   // 📝 Blog URL
-  const blogUrls = allPosts.map((post: any) => {
-    const country = cityToCountryMap[post.city.toLowerCase()] || "turkiye";
-    return {
-      url: `${baseUrl}/blog/${post.city}/${post.slug}`,
-      lastModified: new Date(post.updatedAt ?? post.createdAt ?? now),
-    };
-  });
+  const blogUrls = allPosts.map((post: any) => ({
+    url: `${baseUrl}/blog/${post.city}/${post.slug}`,
+    lastModified: new Date(post.updatedAt ?? post.createdAt ?? now),
+  }));
 
   return [
     { url: baseUrl, lastModified: now },
