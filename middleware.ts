@@ -128,7 +128,6 @@ const cityToCountryMap: Record<string, string> = {
 // Çin
 "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hong-kong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
   // Diğerleri
-"pekin": "cin", "sangay": "cin", "hongkong": "cin", "dubai": "bae", "bangkok": "tayland", "singapore": "singapur", "seul": "guney-kore", "moskova": "rusya", "stpetersburg": "rusya", "atina": "yunanistan", "santorini": "yunanistan", "prag": "cek-cumhuriyeti", "budapeste": "macaristan", "tokyo": "japonya", "lizbon": "portekiz", "porto": "portekiz", "helsinki": "finlandiya", "bruksel": "belcika", "bratislava": "slovakya"
 };
 
 export function middleware(request: NextRequest) {
