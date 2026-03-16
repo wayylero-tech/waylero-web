@@ -16,6 +16,8 @@ import { mersinRehberPosts } from "@/app/data/blog/mersin/posts";
 import { turkiyeEnCokZiyaretEdilen10YerPost } from "@/app/data/blog/ziyaretedilenonyer/posts";
 import { antalyaRehberPost } from "@/app/data/blog/antalya/posts";
 import { trekkingPosts } from "@/app/data/blog/likya/posts";
+import { istanbulRehberPosts } from "@/app//data/blog/istanbul/post";
+
 
 
 
@@ -34,7 +36,8 @@ const posts = [
   ...mersinRehberPosts,
   ...turkiyeEnCokZiyaretEdilen10YerPost,
   ...antalyaRehberPost,
-  ...trekkingPosts
+  ...trekkingPosts,
+  ...istanbulRehberPosts,
 ];
 
 

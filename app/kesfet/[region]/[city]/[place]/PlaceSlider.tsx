@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Keyboard, Autoplay } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,102 +15,145 @@ export default function PlaceSlider({
   images: string[];
   title: string;
 }) {
-  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const [index, setIndex] = useState<number | null>(null);
 
-  // ESC ve ok tuşları
   useEffect(() => {
-    if (lightboxIndex === null) return;
+    if (index === null) return;
 
     const handleKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setLightboxIndex(null);
+      if (e.key === "Escape") setIndex(null);
 
-      if (e.key === "ArrowRight" && lightboxIndex < images.length - 1) {
-        setLightboxIndex((prev) => (prev !== null ? prev + 1 : prev));
+      if (e.key === "ArrowRight" && index < images.length - 1) {
+        setIndex((i) => (i !== null ? i + 1 : i));
       }
 
-      if (e.key === "ArrowLeft" && lightboxIndex > 0) {
-        setLightboxIndex((prev) => (prev !== null ? prev - 1 : prev));
+      if (e.key === "ArrowLeft" && index > 0) {
+        setIndex((i) => (i !== null ? i - 1 : i));
       }
     };
 
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
-  }, [lightboxIndex, images.length]);
+  }, [index, images.length]);
+
+  if (!images?.length) return null;
+
+  const extraImages = images.length - 5;
 
   return (
     <>
-      {/* 🔹 SLIDER */}
-      <div className="mb-16">
-        <Swiper
-          modules={[Navigation, Pagination, Keyboard, Autoplay]}
-          slidesPerView={images.length > 1 ? 2 : 1}
-          spaceBetween={20}
-          navigation={images.length > 1}
-          pagination={{ clickable: true }}
-          keyboard={{ enabled: true }}
-          loop={images.length > 1}
-          autoplay={
-            images.length > 1
-              ? { delay: 3000, disableOnInteraction: false }
-              : false
-          }
-          className="py-10"
+      {/* DESKTOP */}
+
+      {images.length === 1 ? (
+        <div
+          className="hidden md:block mb-12 cursor-zoom-in"
+          onClick={() => setIndex(0)}
         >
-          {images.map((img, index) => (
-            <SwiperSlide key={index}>
+          <div className="h-[420px] overflow-hidden rounded-3xl">
+            <img
+              src={images[0]}
+              alt={title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      ) : (
+        <div className="hidden md:grid grid-cols-4 grid-rows-2 gap-3 mb-12">
+
+          {/* HERO */}
+          <div
+            className="col-span-2 row-span-2 overflow-hidden rounded-3xl cursor-zoom-in h-[420px]"
+            onClick={() => setIndex(0)}
+          >
+            <img
+              src={images[0]}
+              alt={title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {images.slice(1, 5).map((img, i) => (
+            <div
+              key={i}
+              className="relative overflow-hidden rounded-3xl cursor-zoom-in h-[200px]"
+              onClick={() => setIndex(i + 1)}
+            >
               <img
                 src={img}
-                alt={`${title} ${index + 1}`}
-                draggable={false}
-                onClick={() => setLightboxIndex(index)}
-                className="cursor-zoom-in max-h-[600px] w-full object-contain select-none rounded-[2rem]"
+                alt={`${title} ${i + 2}`}
+                className="w-full h-full object-cover"
+              />
+
+              {i === 3 && extraImages > 0 && (
+                <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-xl font-bold">
+                  +{extraImages} fotoğraf
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* MOBILE SLIDER */}
+
+      <div className="md:hidden mb-10">
+        <Swiper
+          modules={[Navigation, Pagination]}
+          slidesPerView={1}
+          spaceBetween={10}
+          navigation
+          pagination={{ clickable: true }}
+        >
+          {images.map((img, i) => (
+            <SwiperSlide key={i}>
+              <img
+                src={img}
+                alt={`${title} ${i + 1}`}
+                onClick={() => setIndex(i)}
+                className="rounded-3xl object-cover w-full aspect-[4/3]"
               />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
-      {/* 🔹 FULLSCREEN LIGHTBOX */}
-      {lightboxIndex !== null && (
+      {/* LIGHTBOX */}
+
+      {index !== null && (
         <div className="fixed inset-0 z-[9999] bg-black/95 flex items-center justify-center">
-          
-          {/* Kapat */}
+
           <button
-            onClick={() => setLightboxIndex(null)}
+            onClick={() => setIndex(null)}
             className="absolute top-6 right-6 text-white text-4xl font-black"
           >
             ×
           </button>
 
-          {/* Sol ok */}
-          {lightboxIndex > 0 && (
+          {index > 0 && (
             <button
-              onClick={() => setLightboxIndex(lightboxIndex - 1)}
-              className="absolute left-6 text-white text-6xl select-none"
+              onClick={() => setIndex(index - 1)}
+              className="absolute left-6 text-white text-6xl"
             >
               ‹
             </button>
           )}
 
-          {/* Resim */}
           <img
-            src={images[lightboxIndex]}
+            src={images[index]}
             className="max-w-[92vw] max-h-[92vh] object-contain"
           />
 
-          {/* Sağ ok */}
-          {lightboxIndex < images.length - 1 && (
+          {index < images.length - 1 && (
             <button
-              onClick={() => setLightboxIndex(lightboxIndex + 1)}
-              className="absolute right-6 text-white text-6xl select-none"
+              onClick={() => setIndex(index + 1)}
+              className="absolute right-6 text-white text-6xl"
             >
               ›
             </button>
           )}
 
-          {/* Sayaç */}
           <div className="absolute bottom-6 text-white text-sm opacity-70">
-            {lightboxIndex + 1} / {images.length}
+            {index + 1} / {images.length}
           </div>
         </div>
       )}
