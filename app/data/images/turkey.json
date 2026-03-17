@@ -167,11 +167,16 @@
   ]
 },
   "bursa": {
-    "bursa-cumalikizik-koyu": [
-      "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbursa%2Fcumal%C4%B1k%C4%B1z%C4%B1k-k%C3%B6y%C3%BC%2F1766414122429_1.jpg?alt=media&token=754e061e-4051-4b1b-9df9-aa98e041e6f1",
-      "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbursa%2Fcumal%C4%B1k%C4%B1z%C4%B1k-k%C3%B6y%C3%BC%2F1766414115608_0.jpg?alt=media&token=551c5f3b-fd05-44a9-9ba3-f9ccac9cb023"
-    ]
-  },
+      "bursa-cumalikizik-koyu": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbursa%2Fcumal%C4%B1k%C4%B1z%C4%B1k-k%C3%B6y%C3%BC%2F1766414122429_1.jpg?alt=media&token=754e061e-4051-4b1b-9df9-aa98e041e6f1",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbursa%2Fcumal%C4%B1k%C4%B1z%C4%B1k-k%C3%B6y%C3%BC%2F1766414115608_0.jpg?alt=media&token=551c5f3b-fd05-44a9-9ba3-f9ccac9cb023"
+  ],
+  "bursa-uludag-milli-parki": [
+    "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kirazl%C4%B1yayla_MilliPark_Levhas%C4%B11.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/b/b0/View_of_Uluda%C4%9F_from_Sar%C4%B1alan.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a2/Uluda%C4%9F_Milli_Park_Giri%C5%9F2.JPG"
+  ]
+},
  "konya": {
  
   "konya-80-binde-devr-i-alem-parki": [
@@ -570,6 +575,9 @@
 },
 "kayseri": 
 {
+"kayseri-erciyes-dagi": [
+    "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mount_Erciyes_20241029.jpg"
+  ],
   "kayseri-kapuzbasi-selaleleri": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkayseri%2Fkapuzba%C5%9F%C4%B1-%C5%9Felaleleri%2F1771493780215_0.jpg?alt=media&token=7366c2eb-ce4e-4a06-ad90-81508e13251b",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkayseri%2Fkapuzba%C5%9F%C4%B1-%C5%9Felaleleri%2F1771493788376_2.jpg?alt=media&token=1a664579-bfc4-402f-b3a7-0ebc0c04e671",
@@ -701,6 +709,13 @@
 },
 "aksaray": {
 
+ "aksaray-agzi-kara-han": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fagzi-kara-han%2F1772028316405_0.jpg?alt=media&token=4b653ba2-8304-449d-b066-0ba083487eb8",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fagzi-kara-han%2F1772028320729_1.jpg?alt=media&token=8eb0c1e3-35cf-4aa5-870d-a3a28185127f",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fagzi-kara-han%2F1773315799692_1.jpg?alt=media&token=22638324-173b-4f49-b4ee-1d9757876927",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fagzi-kara-han%2F1773315803767_2.jpg?alt=media&token=c2b88a3d-db0e-4a1c-9a7e-258e2cfcafee",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fagzi-kara-han%2F1773315790344_0.jpg?alt=media&token=a6223153-3074-4cdd-99ca-08e0d4a1070d"
+  ],
   "aksaray-agacalti-kilisesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fa%C4%9Fa%C3%A7alt%C4%B1-kilisesi%2F1765521580725_0.jpg?alt=media&token=39b9315c-d785-4591-9a83-09c1dbf73047",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Faksaray%2Fa%C4%9Fa%C3%A7alt%C4%B1-kilisesi%2F1765521586900_1.jpg?alt=media&token=1251fc25-7b58-4924-9406-99d54a9ae92d",
@@ -798,6 +813,14 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fa%C5%9Fk-vadisi%2F1773051989301_1.jpg?alt=media&token=34f0d550-3ac1-4768-936e-94d786631b26",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fa%C5%9Fk-vadisi%2F1773051993638_2.jpg?alt=media&token=d999e138-925e-46a9-9f52-ffb5063f7dfd"
   ],
+  "nevsehir-devrent-vadisi-hayal-vadisi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fdevrent-vadisi-(hayal-vadisi)%2F1773250169239_0.jpg?alt=media&token=d06a347a-bea6-46df-a58e-cbd8e0f7f4a1",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fdevrent-vadisi-(hayal-vadisi)%2F1773736274131_0.jpg?alt=media&token=74274bf3-45c1-42aa-bc44-0f18f0e5d548"
+  ],
+  "nevsehir-gizli-vadisi-guvercinlik-vadisi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fgizli-vadisi-(g%C3%BCvercinlik-vadisi)%2F1773736211422_1.jpg?alt=media&token=83b38383-22fe-441c-9a84-5ffc5679d17a",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fgizli-vadisi-(g%C3%BCvercinlik-vadisi)%2F1773736208186_0.jpg?alt=media&token=43e8edde-2aa5-4302-b34c-3d6aea2f615a"
+  ],
   "nevsehir-goreme-acik-hava-muzesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fg%C3%B6reme-a%C3%A7%C4%B1k-hava-m%C3%BCzesi%2F1773051763875_1.jpg?alt=media&token=254da75c-f0c2-4072-af34-b16a746dfedf",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fnev%C5%9Fehir%2Fg%C3%B6reme-a%C3%A7%C4%B1k-hava-m%C3%BCzesi%2F1773051759931_0.jpg?alt=media&token=4efe512e-55ac-434e-be12-f1d6ade8c7d6"
@@ -849,6 +872,10 @@
   ]
 },
 "sivas": {
+ "sivas-divrigi-ulu-camii": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fdivri%C4%9Fi-ulu-camii%2F1773250187437_0.jpg?alt=media&token=880465b7-bb15-4cc3-96ed-d890b139bede",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fdivri%C4%9Fi-ulu-camii%2F1773250190998_1.jpg?alt=media&token=b487bd9d-fc76-42f5-80ec-18398b5fe1a4"
+  ],
   "sivas-gokmedrese": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fg%C3%B6kmedrese%2F1773052682295_0.jpg?alt=media&token=1310b659-5747-441e-aab9-b6e0acc17aeb",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fsivas%2Fg%C3%B6kmedrese%2F1773052685699_1.jpg?alt=media&token=3cc9f446-b71a-4faf-9d2a-f92d6f019f03",
@@ -916,6 +943,15 @@
   ]
 },
 "afyonkarahisar": {
+
+  "afyonkarahisar-afyonkarahisar-arkeoloji-muzesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/6/68/Afyonkarahisar_Museum_first_floor_-_2.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/8/85/Afyonkarahisar_Museum_Second_Floor.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/e/e6/Afyonkarahisar_Museum_Entrance.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/f/fc/Byzantine_capital_with_birds_drinking_%28Afyon_Museum%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Wooden_sepulchre_from_Tatarl%C4%B1_Tumulus_in_Afyonkarahisar_Museum.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/64/Afyonkarahisar_Museum_from_the_outside.jpg"
+  ],
 "afyonkarahisar-avdalaz-kalesi": [
     "https://upload.wikimedia.org/wikipedia/commons/c/c0/Avdalaz_Castle_from_afar_in_Ayazini%2C_Afyon.jpg"
   ],
@@ -985,6 +1021,10 @@
   ]
 },
 "gaziantep": {
+"gaziantep-gaziantep-kalesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/A_view_of_the_restoration_at_Gaziantep_Castle_after_the_devastating_earthquakes_in_2023.jpg/640px-A_view_of_the_restoration_at_Gaziantep_Castle_after_the_devastating_earthquakes_in_2023.jpg"
+  ],
+
 "gaziantep-zeugma-mozaik-muzesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fgaziantep%2Fzeugma-mozaik-m%C3%BCzesi%2F1765562819468_3.jpg?alt=media&token=56595c6d-d81d-44cc-b41b-ae2286796c9b",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fgaziantep%2Fzeugma-mozaik-m%C3%BCzesi%2F1765562811279_1.jpg?alt=media&token=ddde14f6-ac45-42f7-ac3f-868f7f2166d7",
@@ -997,7 +1037,10 @@
   ]
 },
 "diyarbakır": {
-"diyarbakir-ulu-camii": [
+ "diyarbakir-diyarbakir-sur-ici": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/05/Diyarbak%C4%B1r_Suri%C3%A7i.jpg"
+  ],
+  "diyarbakir-ulu-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fdiyarbak%C4%B1r%2Fulu-camii%2F1765562733121_2.jpg?alt=media&token=0bfdd073-4b29-4e03-8c09-c21eaf9b7792",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fdiyarbak%C4%B1r%2Fulu-camii%2F1765562748812_5.jpg?alt=media&token=0531f16e-3fcb-4c3a-8ac3-787ba18c1165",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fdiyarbak%C4%B1r%2Fulu-camii%2F1765562743795_4.jpg?alt=media&token=6e3cb09c-66f4-40a3-8544-a2672d34a8de",
@@ -1037,6 +1080,46 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fmardin%2Fzinciriye-medresesi%2F1766416667314_3.jpg?alt=media&token=4edcb4be-6d90-4a79-832c-f3ba44db42b9",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fmardin%2Fzinciriye-medresesi%2F1766416671958_4.jpg?alt=media&token=174dc421-d8e5-4381-84e4-2bd2b11355bd"
   ]
+},
+"bitlis": {
+  "bitlis-bitlis-kalesi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbitlis%2Fbitlis-kalesi%2F1773736305007_0.jpg?alt=media&token=ecb8d78b-74a8-401d-818b-bd735c77030c"
+  ]
+},
+"bolu": {
+  "bolu-golcuk-tabiat-parki": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbolu%2Fg%C3%B6lc%C3%BCk-tabiat-park%C4%B1%2F1773736174377_1.jpg?alt=media&token=2a3bff87-5ae0-4e89-b016-a946ab8d93f2",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbolu%2Fg%C3%B6lc%C3%BCk-tabiat-park%C4%B1%2F1773736177717_2.jpg?alt=media&token=eb4ea9a3-0dc9-4849-9297-c78d56bbf147",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbolu%2Fg%C3%B6lc%C3%BCk-tabiat-park%C4%B1%2F1773736171097_0.jpg?alt=media&token=b348018a-fa37-4014-8986-57406e5f0245"
+  ],
+  "bolu-yedigoller-milli-parki": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbolu%2Fyedig%C3%B6ller-milli-park%C4%B1%2F1773736155222_0.jpg?alt=media&token=d8344f2e-f7d7-420b-bc60-fbed21325dc4"
+  ]
+},
+"edirne": {
+"edirne-selimiye-camii": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fedirne%2Fselimiye-camii%2F1773737081901_0.jpg?alt=media&token=10bc15db-eafe-4818-9ba3-4780f0b0e3d8",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fedirne%2Fselimiye-camii%2F1773737087135_1.jpg?alt=media&token=6d884cb6-794e-4d36-b687-e536f43f9fc6"
+  ]
+},
+"eskişehir": {
+ "eskisehir-porsuk-cayi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Feski%C5%9Fehir%2Fporsuk-%C3%A7ay%C4%B1%2F1773737299575_0.jpg?alt=media&token=f45f64b7-b54c-400a-8837-0aeb7986d310"
+  ]
+},
+"karabük": {
+"karabuk-safranbolu-evleri": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkarab%C3%BCk%2Fsafranbolu-evleri%2F1773738050014_2.jpg?alt=media&token=18396bc5-8d77-4bd4-a78b-98a1ced1fa01",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkarab%C3%BCk%2Fsafranbolu-evleri%2F1773738046711_1.jpg?alt=media&token=788eeadc-87ae-4844-8548-ed1a53a895f9",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkarab%C3%BCk%2Fsafranbolu-evleri%2F1773738042297_0.jpg?alt=media&token=97cb0880-9dff-4667-9861-0e99036aa426"
+  ],
+  "karabuk-safranbolu-carsisi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fkarab%C3%BCk%2Fsafranbolu-%C3%A7ar%C5%9F%C4%B1s%C4%B1%2F1773738064749_0.jpg?alt=media&token=1471e8ac-6956-429a-82e8-dcd12a4b4972"
+  ]
+},
+"mersin": {
+ "mersin-mamure-kalesi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fmersin%2Fmamure-kalesi%2F1773253957926_0.jpg?alt=media&token=357e7bdd-8705-437e-b40a-7915f1a585d5"
+  ]
 }
-
 }
