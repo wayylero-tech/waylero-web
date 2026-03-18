@@ -1,10 +1,74 @@
+"use client";
+
+import Link from "next/link";
+import { generalPosts } from "@/app/data/blog/muzekart/posts";
+import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
+import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
+import { konyaPosts } from "../data/blog/konya/posts";
+import { istanbulPosts } from "../data/blog/istanbul/posts";
+import { konyaPosts2 } from "../data/blog/konya/posts2";
+import { konyaRehberPost } from "../data/blog/konya/posts3";
+import { selalelerRehberPost } from "../data/blog/selale/posts";
+import { magaralarRehberPost } from "../data/blog/magaralar/posts";
+import { turkeyPost } from "../data/blog/turkey/posts";
+import { kanyonlarRehberPosts } from "../data/blog/kanyonlar/posts";
+import { mersinRehberPosts } from "../data/blog/mersin/posts";
+import { turkiyeEnCokZiyaretEdilen10YerPost } from "../data/blog/ziyaretedilenonyer/posts";
+import { antalyaRehberPost } from "../data/blog/antalya/posts";
+import { trekkingPosts } from "../data/blog/likya/posts";
+import { istanbulRehberPosts } from "../data/blog/istanbul/post";
+
+const posts = [
+  ...generalPosts,
+  ...uygulamaPosts,
+  ...antikkentPosts,
+  ...konyaPosts,
+  ...istanbulPosts,
+  ...konyaPosts2,
+  ...konyaRehberPost,
+  ...selalelerRehberPost,
+  ...magaralarRehberPost,
+  ...turkeyPost,
+  ...kanyonlarRehberPosts,
+  ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost,
+  ...antalyaRehberPost,
+  ...trekkingPosts,
+  ...istanbulRehberPosts,
+];
+
 export default function BlogPage() {
   return (
-    <div className="max-w-5xl mx-auto py-20 text-center">
-      <h1 className="text-3xl font-bold">Blog</h1>
-      <p className="mt-4 text-gray-600">
-        Tüm yazılar ana sayfadaki rehber bölümünde listelenmektedir.
-      </p>
-    </div>
+    <main className="max-w-6xl mx-auto py-10 px-4">
+      <h1 className="text-3xl font-bold mb-8">Seyahat Rehberi ✍️</h1>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {posts.map((post, i) => {
+          const href = `/blog/${post.city}/${post.slug}`;
+
+          return (
+            <Link
+              key={`${post.slug}-${i}`}
+              href={href}
+              className="w-full h-72 rounded-2xl overflow-hidden bg-white shadow hover:shadow-md transition"
+            >
+              <div
+                className="h-48 bg-cover bg-center"
+                style={{ backgroundImage: `url(${post.image})` }}
+              />
+
+              <div className="p-3">
+                <h3 className="font-semibold text-sm line-clamp-2">
+                  {post.title}
+                </h3>
+                <p className="text-xs text-gray-600 mt-1 line-clamp-3">
+                  {post.excerpt}
+                </p>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </main>
   );
 }

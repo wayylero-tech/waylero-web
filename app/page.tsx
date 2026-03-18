@@ -10,11 +10,11 @@ const quickMenu = [
   { title: "Aktiviteler", image: "/assets/menu/aktiviteler.png", route: "/aktiviteler" },
   { title: "Keşfet", image: "/assets/menu/kesfet.png", route: "/kesfet" },
   { title: "Harita", image: "/assets/menu/harita.png", url: "https://www.google.com/maps" },
-  {
-    title: "Haftanın Önerisi",
-    image: "/assets/blog/konya/tinaztepe/cover.png",
-    route: "/oneriler/tinaztepe",
-  },
+ {
+  title: "Seyehat Rehberi ✍️",
+  image: "/assets/blog/konya/tinaztepe/cover.png",
+  route: "/blog",
+},
 ];
 
 /* 🔹 ÖNE ÇIKAN ŞEHİRLER */

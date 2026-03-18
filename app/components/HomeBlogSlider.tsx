@@ -43,34 +43,57 @@ const posts = [
 export default function HomeBlogSlider() {
   return (
     <section className="mb-16">
-      <h2 className="text-xl font-bold mb-4">Seyehat Rehberi ✍️</h2>
 
+      {/* 🔥 BAŞLIK ALANI */}
+      <div className="mb-6 flex items-end justify-between">
+        <div>
+          <h2 className="text-xl font-bold">
+            Seyahat Rehberi ✍️
+          </h2>
+          <p className="text-sm text-gray-500 mt-1">
+            Son blog yazıları
+          </p>
+        </div>
+
+        <Link href="/blog" className="text-blue-600 text-sm font-medium">
+          Tümünü Gör →
+        </Link>
+      </div>
+
+      {/* 🔥 POST GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {posts.map((post, i) => {
-          const href = `/blog/${post.city}/${post.slug}`;
+        {posts
+          .sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)))
+          .slice(0, 4)
+          .map((post, i) => {
+            const href = `/blog/${post.city}/${post.slug}`;
 
-          return (
-            <Link
-              key={`${post.slug}-${i}`}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full h-72 rounded-2xl overflow-hidden bg-white shadow cursor-pointer hover:shadow-md transition"
-            >
-              {/* GÖRSEL */}
-              <div
-                className="h-48 bg-cover bg-center"
-                style={{ backgroundImage: `url(${post.image})` }}
-              />
+            return (
+              <Link
+                key={`${post.slug}-${i}`}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full h-72 rounded-2xl overflow-hidden bg-white shadow cursor-pointer hover:shadow-md transition"
+              >
+                {/* GÖRSEL */}
+                <div
+                  className="h-48 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${post.image})` }}
+                />
 
-              {/* METİN */}
-              <div className="p-3">
-                <h3 className="font-semibold text-sm line-clamp-2">{post.title}</h3>
-                <p className="text-xs text-gray-600 mt-1 line-clamp-3">{post.excerpt}</p>
-              </div>
-            </Link>
-          );
-        })}
+                {/* METİN */}
+                <div className="p-3">
+                  <h3 className="font-semibold text-sm line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-xs text-gray-600 mt-1 line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                </div>
+              </Link>
+            );
+          })}
       </div>
     </section>
   );
