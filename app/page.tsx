@@ -141,7 +141,7 @@ export default function HomePage() {
 
           {/* FEATURED CITIES */}
 <section className="mt-10">
-  <h2 className="text-xl font-bold mb-4">Öne Çıkan Şehirler</h2>
+  <h2 className="text-xl font-bold mb-4">Dünyanın En Çok Ziyaret Edilen Şehirleri</h2>
   <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
     {featuredCities.map((c) => {
       const countrySlug = c.country.toLowerCase().replace(/ /g, "-"); // ülke slug
