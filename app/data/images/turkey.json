@@ -852,12 +852,27 @@
   ]
 },
 "adana": {
-"adana-buyuk-saat-kulesi": [
+ "adana-adana-ulu-camii": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/24/Adana_Ulu_Cami.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/07/Adana_Ulu_Cami_%28214879963%29.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a9/Adana_Ulu_Cami_Kap%C4%B1s%C4%B1_%28214879967%29.jpeg"
+  ],
+  "adana-arkeoloji-muzesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e9/Adana_Archaeology_Museum_Tomb.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/d4/Adana_Archaeology_Museum_3.jpeg"
+  ],
+  "adana-buyuk-saat-kulesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fadana%2Fb%C3%BCy%C3%BCk-saat-kulesi%2F1773052471782_0.jpg?alt=media&token=f87b1b6f-020a-4cac-9a95-d42e45cfd575"
   ],
   "adana-sabanci-merkez-camii": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fadana%2Fsabanc%C4%B1-merkez-camii%2F1773051606786_0.jpg?alt=media&token=553503a7-7166-4c5c-bcc4-d178b385be58",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fadana%2Fsabanc%C4%B1-merkez-camii%2F1773051609973_1.jpg?alt=media&token=5d6b6ea0-5d84-4240-84be-d19590dbfb4d"
+  ],
+  "adana-seyhan-baraji": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/25/Seyhan_%28214230401%29.jpeg"
+  ],
+  "adana-seyhan-merkez-park": [
+    "https://upload.wikimedia.org/wikipedia/commons/1/13/Merkez_Park_ve_cami-ADANA.jpg?_=20220412232154"
   ],
   "adana-varda-koprusu": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fadana%2Fvarda-k%C3%B6pr%C3%BCs%C3%BC%2F1773051627092_0.jpg?alt=media&token=e60f97df-c48f-443d-bfa6-2aef1e949cee",
@@ -1120,6 +1135,18 @@
 "mersin": {
  "mersin-mamure-kalesi": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fmersin%2Fmamure-kalesi%2F1773253957926_0.jpg?alt=media&token=357e7bdd-8705-437e-b40a-7915f1a585d5"
+  ]
+},
+"amasya": {
+  "amasya-kral-kaya-mezarlari": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Famasya%2Fkral-kaya-mezarlar%C4%B1%2F1773814078094_0.jpg?alt=media&token=b1afd4d1-e4a9-4d54-9feb-81f227af5799",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Famasya%2Fkral-kaya-mezarlar%C4%B1%2F1773814084464_1.jpg?alt=media&token=3cd93b99-5a33-4bd2-ae83-af668c03cda2"
+  ]
+},
+"artvin": {
+  "artvin-ciftekemer-koprusu": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fartvin%2Fcehennem-deresi-kanyonu%2F1773814737413_0.jpg?alt=media&token=1596788d-8d1e-4560-8dae-f091b0b2c441",
+    "https://upload.wikimedia.org/wikipedia/commons/a/af/Artvin-2611076.jpg"
   ]
 }
 }
