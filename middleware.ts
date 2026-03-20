@@ -154,7 +154,7 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // --- DURUM 2: /avrupa/viyana (Sade Şehir Sayfaları) ---
+ // --- DURUM 2: /avrupa/viyana (3 Parçalı Şehir Sayfaları) ---
   if (parts.length === 3 && !pathname.startsWith('/kesfet/')) {
     const regionOrCountry = parts[1];
     const cityInUrl = sanitize(parts[2]);
@@ -162,6 +162,17 @@ export function middleware(request: NextRequest) {
 
     if (targetCountry && targetCountry !== regionOrCountry) {
       return NextResponse.redirect(new URL(`/${targetCountry}/${parts[2]}`, request.url), { status: 301 });
+    }
+  }
+
+  // --- DURUM 3: /viyana (Kısa Şehir Linkleri - 2 Parçalı) ---
+  // Fonksiyonun içine aldım, artık hata vermez.
+  if (parts.length === 2 && !pathname.startsWith('/kesfet/') && pathname !== '/' && !pathname.includes('.')) {
+    const cityInUrl = sanitize(parts[1]);
+    const targetCountry = cityToCountryMap[cityInUrl];
+
+    if (targetCountry) {
+      return NextResponse.redirect(new URL(`/${targetCountry}/${parts[1]}`, request.url), { status: 301 });
     }
   }
 

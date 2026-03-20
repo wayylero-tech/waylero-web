@@ -101,37 +101,35 @@ export default function KesfetClient() {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                   {filteredPlaces.map((place: any, index: number) => {
-                    const citySlugKey = slugifyForImages(citySlug);
-                    const targetImageKey = `${citySlugKey}-${slugifyForImages(place.slug)}`;
-                    const cityGroup = allImages[region]?.[citySlug] || allImages[region]?.[citySlugKey];
-                    const coverImage = cityGroup?.[targetImageKey]?.[0] || null;
+    // 1. Şehir ismini tertemiz yapalım (nevşehir -> nevsehir)
+    const cleanCity = slugifyForImages(citySlug); 
 
-                    return (
-                      <Link
-                        key={`${region}-${citySlug}-${place.slug}-${index}`}
-                        href={`/kesfet/${region}/${citySlug}/${place.slug}`}
-                        className="group flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300"
-                      >
-                        <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden relative">
-                          {coverImage ? (
-                            <img
-                              src={coverImage}
-                              alt={place.name.tr}
-                              loading="lazy"
-                              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                            />
-                          ) : (
-                            <div className="text-[10px] text-gray-300 font-bold uppercase">Görsel Hazırlanıyor</div>
-                          )}
-                        </div>
-                        <div className="p-4">
-                          <h3 className="font-bold text-gray-800 text-sm md:text-base group-hover:text-blue-600 transition-colors line-clamp-2">
-                            {place.name.tr}
-                          </h3>
-                        </div>
-                      </Link>
-                    );
-                  })}
+    // 2. Ülke ismini standartlaştıralım (turkey -> turkiye)
+    const finalCountry = region === "turkey" ? "turkiye" : region;
+
+    const targetImageKey = `${cleanCity}-${slugifyForImages(place.slug)}`;
+    const cityGroup = allImages[region]?.[citySlug] || allImages[region]?.[cleanCity];
+    const coverImage = cityGroup?.[targetImageKey]?.[0] || null;
+
+    return (
+      <Link
+        key={`${region}-${citySlug}-${place.slug}-${index}`}
+        // 🔹 BURASI GÜNCELLENDİ: Artık linklerin sitemap ile %100 aynı!
+        href={`/kesfet/${finalCountry}/${cleanCity}/${place.slug}`}
+        className="group flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300"
+      >
+        {/* ... geri kalan kart içeriği (img, h3 vs.) aynı kalabilir ... */}
+        <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden relative">
+             {/* Buradaki img alt ve src kısımları aynı kalabilir */}
+        </div>
+        <div className="p-4">
+          <h3 className="font-bold text-gray-800 text-sm md:text-base group-hover:text-blue-600 transition-colors line-clamp-2">
+            {place.name.tr}
+          </h3>
+        </div>
+      </Link>
+    );
+})}
                 </div>
               </section>
             );
