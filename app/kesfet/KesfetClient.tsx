@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Search, X } from "lucide-react"; // İkonlar eklendi
+import { Search, X } from "lucide-react";
 import { cleanSearchQuery, fuzzyMatch, normalizeText } from "@/lib/search";
 
 // Veri İmportları
@@ -54,7 +54,6 @@ export default function KesfetClient() {
     <main className="max-w-6xl mx-auto px-4 py-6 font-sans">
       <h1 className="text-3xl font-black mb-8 text-gray-900">Keşfet</h1>
 
-      {/* 🔹 GRADYANLI ARAMA KUTUSU (HomeSearch ile aynı tasarım) */}
       <div className="mb-10">
         <div className="p-[2px] rounded-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400 shadow-md">
           <div className="flex items-center bg-white rounded-[14px] px-4 py-1">
@@ -68,10 +67,7 @@ export default function KesfetClient() {
               className="w-full py-3 bg-transparent focus:outline-none text-gray-700 placeholder-gray-400"
             />
             {search && (
-              <button 
-                onClick={clearSearch}
-                className="p-1 hover:bg-gray-100 rounded-full transition-colors"
-              >
+              <button onClick={clearSearch} className="p-1 hover:bg-gray-100 rounded-full transition-colors">
                 <X className="w-4 h-4 text-gray-400" />
               </button>
             )}
@@ -82,7 +78,6 @@ export default function KesfetClient() {
       <div className="space-y-12">
         {Object.entries(allData).map(([region, cities]: [string, any]) => 
           Object.entries(cities).map(([citySlug, places]: [string, any]) => {
-            
             const filteredPlaces = (places as any[]).filter((place: any) => {
               if (!submittedSearch) return true;
               const cityTarget = normalizeText(citySlug.replace("-", " "));
@@ -101,35 +96,41 @@ export default function KesfetClient() {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                   {filteredPlaces.map((place: any, index: number) => {
-    // 1. Şehir ismini tertemiz yapalım (nevşehir -> nevsehir)
-    const cleanCity = slugifyForImages(citySlug); 
+                    const cleanCity = slugifyForImages(citySlug); 
+                    const finalCountry = region === "turkey" ? "turkiye" : region;
 
-    // 2. Ülke ismini standartlaştıralım (turkey -> turkiye)
-    const finalCountry = region === "turkey" ? "turkiye" : region;
+                    // 🖼️ RESİM BULMA MANTIĞI
+                    const targetImageKey = `${cleanCity}-${slugifyForImages(place.slug)}`;
+                    const cityGroup = allImages[region]?.[citySlug] || allImages[region]?.[cleanCity];
+                    // Hem tam key ile hem de sadece slug ile dene (Çünkü JSON yapın hangisine uyuyor emin olalım)
+                    const coverImage = cityGroup?.[targetImageKey]?.[0] || cityGroup?.[place.slug]?.[0] || null;
 
-    const targetImageKey = `${cleanCity}-${slugifyForImages(place.slug)}`;
-    const cityGroup = allImages[region]?.[citySlug] || allImages[region]?.[cleanCity];
-    const coverImage = cityGroup?.[targetImageKey]?.[0] || null;
-
-    return (
-      <Link
-        key={`${region}-${citySlug}-${place.slug}-${index}`}
-        // 🔹 BURASI GÜNCELLENDİ: Artık linklerin sitemap ile %100 aynı!
-        href={`/kesfet/${finalCountry}/${cleanCity}/${place.slug}`}
-        className="group flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300"
-      >
-        {/* ... geri kalan kart içeriği (img, h3 vs.) aynı kalabilir ... */}
-        <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden relative">
-             {/* Buradaki img alt ve src kısımları aynı kalabilir */}
-        </div>
-        <div className="p-4">
-          <h3 className="font-bold text-gray-800 text-sm md:text-base group-hover:text-blue-600 transition-colors line-clamp-2">
-            {place.name.tr}
-          </h3>
-        </div>
-      </Link>
-    );
-})}
+                    return (
+                      <Link
+                        key={`${region}-${citySlug}-${place.slug}-${index}`}
+                        href={`/kesfet/${finalCountry}/${cleanCity}/${place.slug}`}
+                        className="group flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300"
+                      >
+                        <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden relative">
+                          {coverImage ? (
+                            <img
+                              src={coverImage}
+                              alt={place.name.tr}
+                              loading="lazy"
+                              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            />
+                          ) : (
+                            <div className="text-[10px] text-gray-300 font-bold uppercase text-center px-2">Görsel Hazırlanıyor</div>
+                          )}
+                        </div>
+                        <div className="p-4">
+                          <h3 className="font-bold text-gray-800 text-sm md:text-base group-hover:text-blue-600 transition-colors line-clamp-2">
+                            {place.name.tr}
+                          </h3>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </section>
             );
