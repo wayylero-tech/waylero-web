@@ -8,54 +8,16 @@ export default function HomeSearch() {
   const [search, setSearch] = useState("");
   const router = useRouter();
 
-  // Gereksiz kelimeleri ve Türkçe ekleri temizleyen fonksiyon
-  const cleanSearchQuery = (query: string) => {
-    const stopWords = [
-      "gezilecek",
-      "yerler",
-      "mekanlar",
-      "nelerdir",
-      "nereler",
-      "listesi",
-      "rehberi",
-      "en iyi",
-      "nerede",
-      "neler",
-      "gezilir",
-    ];
-
-    const suffixes = ["da", "de", "'da", "'de"]; // Türkçe ekler
-
-    // Unicode normalize et (NFD), küçük harfe çevir ve noktalama kaldır
-    let cleaned = query
-      .normalize("NFD") // birleşik karakterleri ayırır
-      .replace(/[\u0300-\u036f]/g, "") // aksanları temizle
-      .toLowerCase()
-      .replace(/[.,!?]/g, "");
-
-    // Kelimelere ayır ve ekleri temizle
-    let words = cleaned.split(/\s+/).map((word) => {
-      suffixes.forEach((suf) => {
-        if (word.endsWith(suf)) {
-          word = word.slice(0, -suf.length);
-        }
-      });
-      return word;
-    });
-
-    // Stopword’leri çıkar
-    words = words.filter((word) => !stopWords.includes(word));
-
-    // Tekrar birleştir
-    cleaned = words.join(" ").trim();
-
-    return cleaned || query;
-  };
-
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    // Sadece Enter'a basıldığında ve input boş değilse çalışır
     if (e.key === "Enter" && search.trim()) {
-      const optimizedQuery = cleanSearchQuery(search.trim());
-      router.push(`/kesfet?q=${encodeURIComponent(optimizedQuery)}`);
+      /**
+       * 💡 ÖNEMLİ: 
+       * Temizleme işlemini (cleanSearchQuery) burada değil, 
+       * hedef sayfada (KesfetClient) yapıyoruz. 
+       * Böylece URL'de kullanıcının yazdığı orijinal metin görünür.
+       */
+      router.push(`/kesfet?q=${encodeURIComponent(search.trim())}`);
     }
   };
 
@@ -66,7 +28,7 @@ export default function HomeSearch() {
           <Search className="w-5 h-5 text-gray-400 mr-3" />
           <input
             type="text"
-            placeholder="Şehir, mekan veya deneyim ara..."
+            placeholder="Şehir, mekan veya deneyim ara... (Örn: Ankara'da)"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             onKeyDown={handleSearch}
@@ -74,6 +36,11 @@ export default function HomeSearch() {
           />
         </div>
       </div>
+      
+      {/* İsteğe bağlı: Küçük bir yardımcı metin eklenebilir */}
+      <p className="mt-2 text-xs text-gray-400 px-2 italic">
+        İpucu: "Paris'te gezilecek yerler" gibi doğal cümlelerle arayabilirsin.
+      </p>
     </div>
   );
 }
