@@ -16,7 +16,8 @@ import { mersinRehberPosts } from "@/app/data/blog/mersin/posts";
 import { turkiyeEnCokZiyaretEdilen10YerPost } from "@/app/data/blog/ziyaretedilenonyer/posts";
 import { antalyaRehberPost } from "@/app/data/blog/antalya/posts";
 import { trekkingPosts } from "@/app/data/blog/likya/posts";
-import { istanbulRehberPosts } from "@/app//data/blog/istanbul/post";
+import { istanbulRehberPosts } from "@/app/data/blog/istanbul/post";
+import { antalyaPosts2 } from "@/app/data/blog/antalya/posts2";
 
 
 
@@ -38,7 +39,9 @@ const posts = [
   ...antalyaRehberPost,
   ...trekkingPosts,
   ...istanbulRehberPosts,
+  ...antalyaPosts2,
 ];
+
 
 
 export default async function Page({

@@ -17,6 +17,10 @@ import { turkiyeEnCokZiyaretEdilen10YerPost } from "../data/blog/ziyaretedilenon
 import { antalyaRehberPost } from "../data/blog/antalya/posts";
 import { trekkingPosts } from "../data/blog/likya/posts";
 import { istanbulRehberPosts } from "../data/blog/istanbul/post";
+import { antalyaPosts2 } from "../data/blog/antalya/posts2";
+
+
+
 
 const posts = [
   ...generalPosts,
@@ -35,7 +39,9 @@ const posts = [
   ...antalyaRehberPost,
   ...trekkingPosts,
   ...istanbulRehberPosts,
+  ...antalyaPosts2,
 ];
+
 
 export default function BlogPage() {
   return (
