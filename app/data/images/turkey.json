@@ -1138,6 +1138,10 @@
   ]
 },
 "amasya": {
+
+   "amasya-amasya-harsena-kalesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/c/cc/Amasya_Kalesi_kal%C4%B1nt%C4%B1lar%C4%B1_5.jpg"
+  ],
   "amasya-kral-kaya-mezarlari": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Famasya%2Fkral-kaya-mezarlar%C4%B1%2F1773814078094_0.jpg?alt=media&token=b1afd4d1-e4a9-4d54-9feb-81f227af5799",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Famasya%2Fkral-kaya-mezarlar%C4%B1%2F1773814084464_1.jpg?alt=media&token=3cd93b99-5a33-4bd2-ae83-af668c03cda2"
@@ -1147,6 +1151,42 @@
   "artvin-ciftekemer-koprusu": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fartvin%2Fcehennem-deresi-kanyonu%2F1773814737413_0.jpg?alt=media&token=1596788d-8d1e-4560-8dae-f091b0b2c441",
     "https://upload.wikimedia.org/wikipedia/commons/a/af/Artvin-2611076.jpg"
+  ]
+},
+"uşak": {
+ "usak-blaundus-antik-kenti": [
+    "https://upload.wikimedia.org/wikipedia/commons/1/10/Blaundos_Antik_Kenti_-_U%C5%9Fak_2.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/59/Blaundos_Antik_Kenti_-_U%C5%9Fak.jpg"
+  ],
+  "usak-clandras-koprusu": [
+    "https://upload.wikimedia.org/wikipedia/commons/6/69/Ulubey_Kanyonu_Clandras_K%C3%B6pr%C3%BCs%C3%BC.jpg"
+  ],
+  "usak-tasyaran-vadisi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051027246_5.jpg?alt=media&token=a5aed28d-68cd-4de4-8fd7-4507e12e029b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050953153_0.jpg?alt=media&token=c423a113-d56a-437b-9881-b74ae16a6abd",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051004255_0.jpg?alt=media&token=ef5a2ce6-700b-4100-b003-df2cf4dd4743",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051022501_4.jpg?alt=media&token=4e4e106a-ebc3-4f30-afaf-2a29315ef78a",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050963762_2.jpg?alt=media&token=e1ba1252-06e4-4773-91ce-36a91a094e4c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050958758_1.jpg?alt=media&token=9e1d6c29-9938-47b7-8937-fdd7735b97f6",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051013090_2.jpg?alt=media&token=eaec3687-2db3-4892-9454-edd4e556077e",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051032368_6.jpg?alt=media&token=5e586f3a-3e7a-4a5b-a24a-2293c68c3b5c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050978000_5.jpg?alt=media&token=fe401034-4304-45e6-9c6a-4c2bb88566cb",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051007969_1.jpg?alt=media&token=b3c7bd54-83c3-4783-a3ef-a6595579f86b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050968130_3.jpg?alt=media&token=cc49f17a-6a63-461c-949a-14c00256f6d8",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051016873_3.jpg?alt=media&token=04bf028a-39ea-4835-92ba-32eb592a16a9",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050973252_4.jpg?alt=media&token=fe2ec7a2-1746-4dad-84d4-cdbee172901b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050982464_6.jpg?alt=media&token=f9a1a4dd-4055-439b-ae43-f7e1ee933133",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774050987288_7.jpg?alt=media&token=a4018d9c-af02-4c69-9479-309db5b42dee",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051041462_8.jpg?alt=media&token=6a6c81c3-2f62-46bb-9eb9-f7adb5d03c3a",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fta%C5%9Fyaran-vadisi%2F1774051037292_7.jpg?alt=media&token=babc85bd-fe00-4e4f-94ba-2d8dd40c5b52"
+  ],
+  "usak-ulubey-kanyonu": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fulubey-kanyonu%2F1774051956817_3.jpg?alt=media&token=330a041c-9b44-484a-a4a9-e537461e9032",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fulubey-kanyonu%2F1774051965827_5.jpg?alt=media&token=7bc66384-fcf6-4859-83c6-5c8496b321fd",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fulubey-kanyonu%2F1774051946988_1.jpg?alt=media&token=d019f2c1-63f3-4bb3-bbd4-2df850666896",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fulubey-kanyonu%2F1774051941235_0.jpg?alt=media&token=ca2d0db5-cc48-45e1-a435-07da1b6250e1",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fulubey-kanyonu%2F1774051961362_4.jpg?alt=media&token=77131b4d-cf09-4e71-bac6-50ebbddb6379",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fu%C5%9Fak%2Fulubey-kanyonu%2F1774051951714_2.jpg?alt=media&token=840c9702-1650-4925-9d24-3ababd74b970"
   ]
 }
 }

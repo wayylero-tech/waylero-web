@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import PlaceSlider from "./PlaceSlider";
+import CommentSection from "./CommentSection";
 
 // Data importları
 import turkey from "../../../../data/turkey.json";

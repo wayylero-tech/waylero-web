@@ -12134,6 +12134,67 @@
       ]
     },
     {
+"slug": "boraboy-golu",
+"name": {
+"tr": "Boraboy Gölü",
+"en": "Lake Boraboy",
+"de": "Boraboy See"
+},
+"latitude": 40.80486663663128, 
+"longitude": 36.15893498602123,
+"description": {
+"tr": "Boraboy Gölü, Amasya ilinin Taşova ilçesi sınırlarında yer alan ve heyelan set gölü olarak oluşmuş doğal bir güzelliktir. Türkiye’nin en etkileyici göllerinden biri olarak kabul edilen Boraboy Gölü, çevresini saran yoğun çam ormanları, temiz havası ve sakin atmosferi ile doğa severler için vazgeçilmez bir destinasyondur.\n\nYaklaşık 900 metre rakımda bulunan göl, dört mevsim farklı güzellikler sunar. İlkbahar ve yaz aylarında yemyeşil doğasıyla dikkat çekerken, sonbaharda sarı ve kızıl tonlara bürünen ağaçlar göle eşsiz bir manzara kazandırır. Kış aylarında ise karla kaplanan çevresi kartpostallık görüntüler oluşturur.\n\n📍 Boraboy Gölü Nerede?\nBoraboy Gölü, Amasya şehir merkezine yaklaşık 60 kilometre, Taşova ilçe merkezine ise yaklaşık 15 kilometre uzaklıkta yer almaktadır.\n\n🚗 Boraboy Gölü’ne Nasıl Gidilir?\nAmasya şehir merkezinden Taşova yönüne ilerledikten sonra Boraboy tabelaları takip edilerek göle ulaşılabilir. Yolun büyük bölümü asfalt olup son kısmı virajlıdır. Özel araç ile ulaşım en rahat seçenektir.\n\n💰 Giriş Ücreti Var mı?\nBoraboy Gölü Tabiat Parkı girişinde genellikle araç ve kişi başı cüzi bir ücret alınmaktadır. Ücretler dönemsel olarak değişebileceği için güncel bilgilerin kontrol edilmesi önerilir.\n\n🌿 Neler Yapılır?\nBoraboy Gölü çevresinde yürüyüş yapabilir, göl manzarasında fotoğraf çekebilir, piknik yapabilir ve kamp kurabilirsiniz. Ayrıca göl çevresinde bulunan yürüyüş parkurları doğa ile iç içe keyifli bir deneyim sunar. Bölgede bungalov tarzı konaklama imkanları da bulunmaktadır.\n\n⭐ Neden Ziyaret Etmelisiniz?\nBoraboy Gölü, doğa ile baş başa kalmak, temiz hava almak ve şehir hayatından uzaklaşmak isteyenler için ideal bir kaçış noktasıdır. Amasya’da gezilecek en güzel doğal alanlardan biri olan bu göl, huzurlu atmosferi ve etkileyici manzarası ile unutulmaz bir deneyim sunar.",
+
+"en": "Lake Boraboy is a natural landslide-dammed lake located in the Taşova district of Amasya. Surrounded by dense pine forests, it is considered one of the most beautiful lakes in Turkey and offers a शांत and refreshing atmosphere for nature lovers.\n\nSituated at حوالي 900 meters above sea level, the lake presents different scenic views in every season. It is lush green in spring and summer, while autumn brings stunning shades of yellow and red. In winter, the snow-covered landscape creates postcard-like views.\n\n📍 Location\nThe lake is حوالي 60 km from Amasya city center and about 15 km from Taşova.\n\n🚗 How to Get There\nYou can reach the lake by following the road toward Taşova and then Boraboy signs. Private car is recommended.\n\n💰 Entrance Fee\nThere is usually a small entrance fee for the nature park.\n\n🌿 Activities\nHiking, camping, picnicking, and photography are popular activities around the lake.\n\n⭐ Why Visit?\nIt is a perfect getaway for those seeking peace, nature, and fresh air.",
+
+"de": "Der Boraboy-See ist ein natürlicher See im Bezirk Taşova in Amasya und entstand durch einen Erdrutsch. Er ist von dichten Kiefernwäldern umgeben und gehört zu den schönsten Seen der Türkei.\n\nDer See liegt auf etwa 900 Metern Höhe und bietet zu jeder Jahreszeit eine andere Landschaft. Besonders im Herbst und Winter ist die Umgebung sehr beeindruckend.\n\n📍 Lage\nEtwa 60 km vom Stadtzentrum entfernt.\n\n🚗 Anreise\nAm besten mit dem Auto erreichbar.\n\n💰 Eintritt\nKleiner Eintrittspreis möglich.\n\n🌿 Aktivitäten\nWandern, Camping und Fotografie.\n\n⭐ Warum besuchen?\nPerfekt für Ruhe und Natur."
+
+
+},
+"activities": {
+"tr": [
+"Doğa yürüyüşü",
+"Fotoğraf çekmek",
+"Piknik yapmak",
+"Kamp yapmak",
+"Göl çevresinde gezmek"
+],
+"en": [
+"Hiking",
+"Photography",
+"Picnicking",
+"Camping",
+"Walking around the lake"
+],
+"de": [
+"Wandern",
+"Fotografie",
+"Picknick",
+"Camping",
+"Spaziergang um den See"
+]
+},
+"categories": {
+"tr": [
+"göl",
+"tabiat parkı"
+],
+"en": [
+"lake",
+"nature park"
+],
+"de": [
+"See",
+"Naturpark"
+]
+},
+"images": [
+"https://example.com/boraboy_golu.jpg",
+"https://example.com/boraboy_golu_2.jpg"
+]
+},
+
+    {
       "slug": "hazeranlar-konagi",
       "name": {
         "tr": "Hazeranlar Konağı",
@@ -33109,9 +33170,8 @@
       "latitude": 38.62672,
       "longitude": 28.95106,
       "description": {
-        "tr": "Taşyaran Vadisi, Uşak ilinin Sivaslı ilçesi yakınlarında yer alan ve doğal kaya oluşumlarıyla ünlü bir vadidir.\nGediz Nehri’nin milyonlarca yıl boyunca kayaları aşındırmasıyla oluşmuş bu vadi, göz alıcı renk geçişleri ve etkileyici jeolojik yapısıyla dikkat çeker.\nDoğal güzelliği ve yürüyüş yollarıyla bölge, ziyaretçilerine unutulmaz bir deneyim sunar.\n",
-        "en": "Taşyaran Valley is a valley near the Sivaslı district of Uşak, famous for its natural rock formations.\nThis valley, shaped by the Gediz River eroding the rocks over millions of years, is notable for its striking color transitions and impressive geological structure.\nThe area offers visitors an unforgettable experience with its natural beauty and hiking trails.\n",
-        "de": "Das Taşyaran Tal befindet sich in der Nähe des Bezirks Sivaslı in Uşak und ist berühmt für seine natürlichen Felsenformationen.\nDas Tal, das durch die Erosion der Felsen durch den Gediz-Fluss über Millionen von Jahren entstanden ist, fällt durch seine auffälligen Farbverläufe und beeindruckende geologische Struktur auf.\nDas Gebiet bietet Besuchern mit seiner natürlichen Schönheit und Wanderwegen ein unvergessliches Erlebnis.\n"
+      "tr": "Taşyaran Vadisi, Uşak ilinin Sivaslı ilçesi yakınlarında yer alan ve Türkiye’nin en etkileyici doğal oluşumlarından biri olarak kabul edilen eşsiz bir doğa harikasıdır. Gediz Nehri’nin milyonlarca yıl boyunca kayaları aşındırmasıyla oluşan bu vadi, dalgalı kaya yapıları, doğal oyuklar ve göz alıcı renk geçişleriyle ziyaretçilerine adeta görsel bir şölen sunar.\n\n📍 Taşyaran Vadisi Nerede?\nTaşyaran Vadisi, Uşak şehir merkezine yaklaşık 45 kilometre uzaklıkta, Sivaslı ilçesi sınırları içerisinde yer almaktadır. Doğa ile iç içe konumu sayesinde şehir kalabalığından uzak, huzurlu bir atmosfer sunar.\n\n🚗 Taşyaran Vadisi’ne Nasıl Gidilir?\nVadeye ulaşım oldukça kolaydır. Uşak şehir merkezinden özel araç ile yaklaşık 40-50 dakika içerisinde ulaşabilirsiniz. Sivaslı yönüne doğru ilerledikten sonra tabelaları takip ederek vadiye varabilirsiniz. Toplu taşıma ile ulaşım sınırlı olduğu için özel araç tercih edilmesi önerilir.\n\n💰 Giriş Ücreti Var mı?\nTaşyaran Vadisi genellikle ücretsiz olarak ziyaret edilebilmektedir. Ancak dönemsel olarak düzenlemeler veya belediye uygulamalarına bağlı olarak küçük bir giriş ücreti talep edilebilir. Güncel bilgiler için ziyaret öncesinde kontrol edilmesi tavsiye edilir.\n\n⭐ Neden Ziyaret Etmelisiniz?\nUşak’ta gezilecek yerler arasında öne çıkan Taşyaran Vadisi, hem doğal güzelliği hem de kolay ulaşımıyla dikkat çeker. Şehir hayatından uzaklaşmak, temiz hava almak ve doğayla baş başa vakit geçirmek isteyenler için mükemmel bir kaçış noktasıdır.",
+       "en": "Taşyaran Valley, located near the Sivaslı district of Uşak, is one of Turkey’s most impressive natural wonders. Formed by the Gediz River over millions of years, the valley features wave-shaped rock formations, unique geological structures, and stunning color transitions that captivate visitors.\n\n📍 Location\nThe valley is حوالي 45 km from Uşak city center, offering a peaceful natural setting بعيدًا عن ضوضاء المدينة.\n\n🚗 How to Get There\nYou can reach Taşyaran Valley by car in حوالي 40–50 minutes from Uşak. Follow the signs toward Sivaslı. Public transportation options are limited, so private transport is recommended.\n\n💰 Entrance Fee\nThe valley is generally free to visit, although small fees may apply depending on local regulations.\n\n🌿 Activities\nVisitors can enjoy hiking, photography, and sightseeing. Viewing terraces and walking paths enhance the experience.\n\n⭐ Why Visit?\nIt is one of the must-see places in Uşak, perfect for nature lovers seeking a peaceful escape.", "de": "Das Taşyaran-Tal liegt in der Nähe des Bezirks Sivaslı in Uşak und gehört zu den beeindruckendsten Naturwundern der Türkei. Es entstand durch die Erosion des Gediz-Flusses über Millionen von Jahren.\n\n📍 Lage\nEtwa 45 km vom Stadtzentrum entfernt.\n\n🚗 Anreise\nMit dem Auto in ca. 40–50 Minuten erreichbar.\n\n💰 Eintritt\nIn der Regel kostenlos.\n\n🌿 Aktivitäten\nWandern, Fotografieren und Natur genießen.\n\n⭐ Warum besuchen?\nEin perfekter Ort für Naturliebhaber."
       },
       "activities": {
         "tr": [
@@ -33202,6 +33262,114 @@
     "https://example.com/ulubey_kanyonu_2.jpg"
   ]
 },
+{
+"slug": "blaundus-antik-kenti",
+"name": {
+"tr": "Blaundus Antik Kenti",
+"en": "Blaundus Ancient City",
+"de": "Antike Stadt Blaundus"
+},
+"latitude": 38.35760290685689, 
+"longitude": 29.209661124625203,
+"description": {
+"tr": "Blaundus Antik Kenti, Uşak ilinin Ulubey ilçesi sınırları içerisinde yer alan ve tarihi Makedon dönemine kadar uzanan önemli bir antik yerleşim alanıdır. Büyük İskender’in Anadolu seferleri sonrasında Makedon askerleri tarafından kurulduğu düşünülen bu antik kent, özellikle sarp kayalıklar ve derin vadilerle çevrili stratejik konumuyla dikkat çekmektedir.\n\nAntik kent, üç tarafı uçurumlarla çevrili doğal bir plato üzerinde kurulmuştur. Bu eşsiz konumu sayesinde hem savunma açısından avantaj sağlamış hem de günümüzde ziyaretçilere etkileyici manzaralar sunan önemli bir turistik destinasyon haline gelmiştir. Blaundus, tarihi yapıları, kaya mezarları, sur kalıntıları ve tapınak izleri ile bölgenin en dikkat çekici arkeolojik alanlarından biridir.\n\nBlaundus Antik Kenti içerisinde günümüze ulaşan en önemli yapılar arasında şehir surları, kaya mezarları, tapınak kalıntıları ve su sarnıçları bulunmaktadır. Özellikle kayalara oyulmuş mezarlar ve vadi manzarasına bakan konumu, fotoğraf tutkunları ve tarih meraklıları için eşsiz bir deneyim sunar.\n\n📍 Blaundus Antik Kenti Nerede?\nBlaundus Antik Kenti, Uşak şehir merkezine yaklaşık 40 kilometre uzaklıkta, Ulubey ilçesine ise yaklaşık 10 kilometre mesafede yer almaktadır.\n\n🚗 Blaundus Antik Kenti’ne Nasıl Gidilir?\nUlaşım genellikle özel araç ile sağlanmaktadır. Uşak şehir merkezinden Ulubey yönüne ilerleyip tabelalar takip edilerek antik kente ulaşılabilir. Yolun son kısmı stabilize olabilir, bu nedenle dikkatli sürüş önerilir.\n\n💰 Giriş Ücreti Var mı?\nBlaundus Antik Kenti genellikle ücretsiz olarak ziyaret edilebilmektedir. Ancak dönemsel olarak düzenlemelere bağlı küçük ücretler uygulanabilir.\n\n🌿 Neler Yapılır?\nZiyaretçiler antik kentte yürüyüş yapabilir, tarihi kalıntıları keşfedebilir ve vadinin eşsiz manzarasında fotoğraf çekebilir. Bölge aynı zamanda doğa ve tarih turizmini bir arada sunmasıyla öne çıkar.\n\n⭐ Neden Ziyaret Etmelisiniz?\nBlaundus Antik Kenti, hem tarihi derinliği hem de etkileyici coğrafi konumuyla Uşak’ta mutlaka görülmesi gereken yerler arasında yer alır. Doğa ile tarihin iç içe geçtiği bu benzersiz alan, keşif ve fotoğraf tutkunları için eşsiz bir deneyim sunar.",
+
+"en": "Blaundus Ancient City is an important archaeological site located within the borders of Ulubey district in Uşak province, dating back to the Macedonian period. It is believed to have been founded by Macedonian soldiers after the campaigns of Alexander the Great. The city stands out with its strategic location surrounded by steep cliffs and deep valleys.\n\nThe ancient city was built on a natural plateau surrounded by cliffs on three sides, providing both defensive advantages and breathtaking panoramic views. Today, it attracts visitors with its unique landscape and historical remains.\n\nKey structures that have survived to the present day include city walls, rock-cut tombs, temple ruins, and cisterns. The rock tombs carved into the cliffs and the dramatic valley views make it a perfect destination for photography and exploration.\n\n📍 Location\nBlaundus Ancient City is حوالي 40 km from Uşak city center and حوالي 10 km from Ulubey.\n\n🚗 How to Get There\nThe site is best accessed by car. Follow the road toward Ulubey and continue by following the directional signs. The last part of the road may be unpaved.\n\n💰 Entrance Fee\nThe site is generally free to visit, though small fees may apply depending on local regulations.\n\n🌿 Activities\nVisitors can explore ancient ruins, hike around the area, and enjoy scenic views.\n\n⭐ Why Visit?\nIt is one of the most unique historical sites in Uşak, combining history, nature, and impressive landscapes.",
+
+"de": "Die antike Stadt Blaundus liegt im Bezirk Ulubey in der Provinz Uşak und stammt aus der makedonischen Zeit. Sie wurde vermutlich nach den Feldzügen Alexanders des Großen von makedonischen Soldaten gegründet und zeichnet sich durch ihre strategische Lage aus.\n\nDie Stadt wurde auf einem Plateau errichtet, das auf drei Seiten von steilen Klippen umgeben ist. Diese besondere Lage bot Schutz und bietet heute spektakuläre Ausblicke.\n\nZu den wichtigsten Überresten gehören Stadtmauern, in Felsen gehauene Gräber, Tempelruinen und Zisternen. Besonders die Felsengräber und die Aussicht machen den Ort einzigartig.\n\n📍 Lage\nEtwa 40 km vom Stadtzentrum Uşak entfernt.\n\n🚗 Anreise\nAm besten mit dem Auto erreichbar.\n\n💰 Eintritt\nIn der Regel kostenlos.\n\n🌿 Aktivitäten\nErkunden, Wandern und Fotografieren.\n\n⭐ Warum besuchen?\nEin einzigartiger Ort, an dem Geschichte und Natur zusammenkommen."
+
+},
+"activities": {
+"tr": [
+"Antik kent keşfi",
+"Fotoğraf çekmek",
+"Doğa yürüyüşü",
+"Manzara izlemek"
+],
+"en": [
+"Exploring ancient ruins",
+"Photography",
+"Hiking",
+"Sightseeing"
+],
+"de": [
+"Erkundung der antiken Stadt",
+"Fotografie",
+"Wandern",
+"Aussicht genießen"
+]
+},
+"categories": {
+"tr": [
+"antik kent"
+],
+"en": [
+"ancient city"
+],
+"de": [
+"antike Stadt"
+]
+},
+"images": [
+"https://example.com/blaundus_antik_kenti.jpg",
+"https://example.com/blaundus_antik_kenti_2.jpg"
+]
+},
+{
+"slug": "clandras-koprusu",
+"name": {
+"tr": "Clandras Köprüsü",
+"en": "Clandras Bridge",
+"de": "Clandras Brücke"
+},
+"latitude": 38.40788828505942, 
+"longitude": 29.484814223326502,
+"description": {
+"tr": "Clandras Köprüsü, Uşak ilinin Karahallı ilçesi yakınlarında bulunan ve Frigyalılar dönemine kadar uzandığı düşünülen tarihi bir taş köprüdür. Banaz Çayı üzerinde yer alan bu etkileyici yapı, doğal güzellikler ile tarihi dokunun birleştiği önemli turistik noktalardan biridir.\n\nAntik dönemde su kanalı olarak da kullanıldığı bilinen köprü, tek kemerli taş mimarisi ile dikkat çeker. Yüzyıllar boyunca ayakta kalmayı başaran Clandras Köprüsü, hem mühendislik başarısı hem de estetik görünümü ile ziyaretçileri etkiler. Köprünün altından akan berrak su ve çevresindeki yeşil doğa, bölgeye eşsiz bir atmosfer kazandırır.\n\n📍 Clandras Köprüsü Nerede?\nClandras Köprüsü, Uşak şehir merkezine yaklaşık 45 kilometre uzaklıkta, Karahallı ilçesine ise yaklaşık 20 kilometre mesafede yer almaktadır.\n\n🚗 Clandras Köprüsü’ne Nasıl Gidilir?\nUşak şehir merkezinden Karahallı yönüne doğru ilerleyerek tabelalar yardımıyla köprüye ulaşabilirsiniz. Özel araç ile ulaşım en kolay seçenektir. Yolun son kısmı dar ve virajlı olabilir, bu nedenle dikkatli sürüş önerilir.\n\n💰 Giriş Ücreti Var mı?\nClandras Köprüsü genellikle ücretsiz olarak ziyaret edilebilmektedir. Çevresindeki mesire alanı veya tesislerde dönemsel olarak küçük ücretler talep edilebilir.\n\n🌿 Neler Yapılır?\nZiyaretçiler köprü üzerinde yürüyebilir, çevresinde doğa yürüyüşü yapabilir ve dere kenarında vakit geçirebilir. Bölge özellikle fotoğraf çekmek, piknik yapmak ve doğayla iç içe zaman geçirmek isteyenler için oldukça uygundur.\n\n⭐ Neden Ziyaret Etmelisiniz?\nClandras Köprüsü, tarihi yapısı ve doğal güzellikleri bir arada sunmasıyla Uşak’ta mutlaka görülmesi gereken yerlerden biridir. Özellikle sakin atmosferi, serin suyu ve etkileyici manzarası ile şehir stresinden uzaklaşmak isteyenler için ideal bir kaçış noktasıdır.",
+
+"en": "Clandras Bridge is a historic stone bridge located near the Karahallı district of Uşak, believed to date back to the Phrygian period. Built over the Banaz Stream, it is one of the most scenic spots where history and nature meet.\n\nThe bridge features a single-arch stone design and was also used as a water channel in ancient times. It has survived for centuries and stands as an impressive example of ancient engineering. The clear flowing water beneath the bridge and the surrounding greenery create a peaceful and picturesque environment.\n\n📍 Location\nClandras Bridge is حوالي 45 km from Uşak city center and about 20 km from Karahallı.\n\n🚗 How to Get There\nYou can reach the bridge by following the road toward Karahallı. Private car is recommended as the easiest option.\n\n💰 Entrance Fee\nThe bridge is generally free to visit, although nearby recreational areas may charge small fees.\n\n🌿 Activities\nVisitors can walk across the bridge, enjoy nature walks, take photos, and relax by the stream.\n\n⭐ Why Visit?\nIt is a perfect destination for those who want to experience both history and nature in a peaceful setting.",
+
+"de": "Die Clandras-Brücke ist eine historische Steinbrücke in der Nähe des Bezirks Karahallı in Uşak und stammt vermutlich aus der phrygischen Zeit. Sie befindet sich über dem Banaz-Fluss.\n\nDie Brücke ist einbogig gebaut und wurde in der Antike auch als Wasserkanal genutzt. Sie ist ein beeindruckendes Beispiel antiker Baukunst.\n\n📍 Lage\nEtwa 45 km vom Stadtzentrum entfernt.\n\n🚗 Anreise\nAm besten mit dem Auto erreichbar.\n\n💰 Eintritt\nIn der Regel kostenlos.\n\n🌿 Aktivitäten\nSpazieren, Fotografieren und Natur genießen.\n\n⭐ Warum besuchen?\nPerfekt für Natur- und Geschichtsliebhaber."
+
+
+},
+"activities": {
+"tr": [
+"Fotoğraf çekmek",
+"Doğa yürüyüşü",
+"Piknik yapmak",
+"Köprü üzerinde yürümek"
+],
+"en": [
+"Photography",
+"Hiking",
+"Picnicking",
+"Walking on the bridge"
+],
+"de": [
+"Fotografie",
+"Wandern",
+"Picknick",
+"Spaziergang über die Brücke"
+]
+},
+"categories": {
+"tr": [
+"tarihi köprü"
+],
+"en": [
+"historic bridge"
+],
+"de": [
+"historische Brücke"
+]
+},
+"images": [
+"https://example.com/clandras_koprusu.jpg",
+"https://example.com/clandras_koprusu_2.jpg"
+]
+},
+
     {
       "slug": "usak-muzesi",
       "name": {
