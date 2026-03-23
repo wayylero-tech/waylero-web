@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
+import { trackSearch } from "@/lib/analytics";
 
 export default function HomeSearch() {
   const [search, setSearch] = useState("");
@@ -11,14 +12,9 @@ export default function HomeSearch() {
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     // Sadece Enter'a basıldığında ve input boş değilse çalışır
     if (e.key === "Enter" && search.trim()) {
-      /**
-       * 💡 ÖNEMLİ: 
-       * Temizleme işlemini (cleanSearchQuery) burada değil, 
-       * hedef sayfada (KesfetClient) yapıyoruz. 
-       * Böylece URL'de kullanıcının yazdığı orijinal metin görünür.
-       */
-      router.push(`/kesfet?q=${encodeURIComponent(search.trim())}`);
-    }
+  trackSearch(search.trim()); // 🔥 EKLENDİ
+  router.push(`/kesfet?q=${encodeURIComponent(search.trim())}`);
+}
   };
 
   return (
