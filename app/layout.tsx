@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
-import Script from "next/script"; // ✅ Script bileşenini ekledik
+import Script from "next/script";
 import "./globals.css";
 
+// Google Fonts
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -14,6 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Site metadata
 export const metadata: Metadata = {
   title: "Waylero",
   description: "Waylero | Şehirleri keşfet, gezini planla",
@@ -23,22 +25,18 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr">
       <head>
-        {/* ✅ GOOGLE ADSENSE */}
+        {/* GOOGLE ADSENSE */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4779947503854024"
           crossOrigin="anonymous"
         />
 
-        {/* ✅ GOOGLE ANALYTICS (G-7KN4TB8167) */}
+        {/* GOOGLE ANALYTICS */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-7KN4TB8167"
@@ -57,58 +55,57 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        {/* 🔹 SAYFA İÇERİĞİ */}
-        <main className="flex-1">
-          {children}
-        </main>
+        {/* Ana içerik */}
+        <main className="flex-1">{children}</main>
 
-        {/* 🔻 FOOTER */}
+        {/* Footer */}
         <footer className="border-t bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 py-6 grid md:grid-cols-3 gap-6 text-sm text-gray-600">
-
+            
+            {/* Logo ve kısa açıklama */}
             <div>
-              <img src="/assets/logo.png" className="h-10 mb-2" alt="Waylero Logo" />
+              <img src="/assets/logo.png" alt="Waylero Logo" className="h-10 mb-2" />
               <p>Waylero © {new Date().getFullYear()}</p>
               <p>Keşfet, planla, paylaş.</p>
             </div>
 
+            {/* Linkler */}
             <div className="flex flex-col gap-1">
               <Link href="/hakkimizda">Hakkımızda</Link>
               <Link href="/privacy">Gizlilik Politikası</Link>
               <Link href="/terms">Kullanıcı Sözleşmesi</Link>
             </div>
 
+            {/* Sosyal medya ve uygulama linkleri */}
             <div className="flex justify-between md:justify-end gap-6">
-
+              
+              {/* Sosyal medya */}
               <div>
                 <span className="font-semibold text-gray-900">Bizi Takip Et</span>
                 <div className="flex gap-2 mt-2">
                   <a href="https://www.instagram.com/waylero_ile_kesfet/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/social/instagram.png" className="h-6 w-6" alt="Instagram" />
+                    <img src="/assets/social/instagram.png" alt="Instagram" className="h-6 w-6" />
                   </a>
                   <a href="https://www.facebook.com/share/1cc67aspSp/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/social/facebook.png" className="h-6 w-6" alt="Facebook" />
+                    <img src="/assets/social/facebook.png" alt="Facebook" className="h-6 w-6" />
                   </a>
                   <a href="https://www.youtube.com/@way_lero" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/social/youtube.png" className="h-6 w-6" alt="YouTube" />
+                    <img src="/assets/social/youtube.png" alt="YouTube" className="h-6 w-6" />
                   </a>
                   <a href="https://x.com/wayylero" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/social/x.png" className="h-6 w-6" alt="X" />
+                    <img src="/assets/social/x.png" alt="X" className="h-6 w-6" />
                   </a>
                 </div>
               </div>
 
+              {/* Uygulama indirme linkleri */}
               <div className="text-right">
                 <span className="font-semibold text-gray-900">Uygulamayı İndir</span>
                 <div className="flex gap-2 mt-2">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=app.waylero.mobile"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src="/assets/store/google-play.png" className="h-6" alt="Google Play" />
+                  <a href="https://play.google.com/store/apps/details?id=app.waylero.mobile" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/store/google-play.png" alt="Google Play" className="h-6" />
                   </a>
-                  <img src="/assets/store/app-store.png" className="h-6 opacity-50" alt="App Store" />
+                  <img src="/assets/store/app-store.png" alt="App Store" className="h-6 opacity-50" />
                 </div>
               </div>
 
