@@ -18,7 +18,7 @@ import { antalyaRehberPost } from "../data/blog/antalya/posts";
 import { trekkingPosts } from "../data/blog/likya/posts";
 import { istanbulRehberPosts } from "../data/blog/istanbul/post";
 import { antalyaPosts2 } from "../data/blog/antalya/posts2";
-
+import { ispanyaRehberPosts } from "../data/blog/ispanya/posts";
 
 
 
@@ -40,6 +40,7 @@ const posts = [
   ...trekkingPosts,
   ...istanbulRehberPosts,
   ...antalyaPosts2,
+  ...ispanyaRehberPosts
 ];
 
 export default function HomeBlogSlider() {
