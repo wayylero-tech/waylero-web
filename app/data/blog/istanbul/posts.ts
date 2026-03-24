@@ -103,6 +103,8 @@ Gün batımıyla birlikte İstanbul gezisini keyifli bir şekilde tamamlayabilir
 
 İstanbul’da 3 gün, şehri tanımak için harika bir başlangıç.
 Daha fazlası için Waylero’daki diğer gezi rehberlerine göz atmayı unutma.
+
+Kendi Gezi Planını Yapmak için Google Play Storden Uygulamayı İndir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 `
   }
 ];

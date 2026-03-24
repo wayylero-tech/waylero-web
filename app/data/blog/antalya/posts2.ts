@@ -148,6 +148,7 @@ Daha fazla rota için Waylero’daki diğer gezi planlarına göz atmayı unutma
 
 Detaylar için tıkla 🔗 **[Antalya'da Gezilecek 5 Yer](https://www.waylero.com/blog/antalya/antalya-gezilecek-yerler-rehberi)**
 
+Kendi Gezi Planını Yapmak için Google Play Storden Uygulamayı İndir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 `
   }
 ];
