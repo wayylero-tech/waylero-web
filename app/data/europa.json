@@ -15733,49 +15733,7 @@
     }
   ],
   "viyana": [
-    {
-      "slug": "albertina-muzesi",
-      "name": {
-        "tr": "Albertina Müzesi",
-        "en": "Albertina Museum",
-        "de": "Albertina Museum"
-      },
-      "latitude": 48.2036,
-      "longitude": 16.3684,
-      "description": {
-        "tr": "Viyana'da önemli bir kültürel merkez olan bu müze, dünya çapında sanat koleksiyonlarına sahiptir.",
-        "en": "A significant cultural center in Vienna, this museum boasts world-class art collections.",
-        "de": "Ein bedeutendes Kulturzentrum in Wien, dieses Museum verfügt über weltbekannte Kunstsammlungen."
-      },
-      "activities": {
-        "tr": [
-          "Sanat koleksiyonlarını inceleme",
-          "Müze turu"
-        ],
-        "en": [
-          "Examine art collections",
-          "Museum tour"
-        ],
-        "de": [
-          "Kunstsammlungen betrachten",
-          "Museumsführung"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "müze"
-        ],
-        "en": [
-          "museum"
-        ],
-        "de": [
-          "museum"
-        ]
-      },
-      "images": [
-        "https://example.com/albertina_museum.jpg"
-      ]
-    },
+   
     {
       "slug": "donauturm",
       "name": {
@@ -16095,7 +16053,51 @@
         "https://example.com/belvedere_palace.jpg"
       ]
     },
+   
     {
+      "slug": "hofburg-sarayi",
+      "name": {
+        "tr": "Hofburg Sarayı",
+        "en": "Hofburg Palace",
+        "de": "Hofburg Palast"
+      },
+      "latitude": 48.2064,
+      "longitude": 16.3695,
+      "description": {
+        "tr": "Hofburg Sarayı, Avusturya İmparatorluğu'nun eski kışlık sarayıdır ve bugünkü Avusturya Cumhurbaşkanlığı'nın merkezi olarak kullanılmaktadır. Sarayın içinde birçok müze ve tarihi alan vardır.",
+        "en": "Hofburg Palace was the former winter residence of the Austrian Empire and now serves as the center of the Austrian Presidency. The palace houses several museums and historical areas.",
+        "de": "Der Hofburg Palast war die ehemalige Winterresidenz des Österreichischen Kaiserreichs und dient jetzt als Zentrum der österreichischen Präsidentschaft. Der Palast beherbergt mehrere Museen und historische Bereiche."
+      },
+      "activities": {
+        "tr": [
+          "Müze ziyaretleri yapma",
+          "İmparatorluk dairesini gezme"
+        ],
+        "en": [
+          "Visit museums",
+          "Tour the imperial apartments"
+        ],
+        "de": [
+          "Museen besuchen",
+          "Die kaiserlichen Wohnungen besichtigen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/hofburg_palace.jpg"
+      ]
+    },
+ {
       "slug": "prater-parki-ve-ferris-wheel",
       "name": {
         "tr": "Prater Parkı ve Ferris Wheel",
@@ -16138,47 +16140,47 @@
         "https://example.com/prater_park.jpg"
       ]
     },
-    {
-      "slug": "hofburg-sarayi",
+ {
+      "slug": "albertina-muzesi",
       "name": {
-        "tr": "Hofburg Sarayı",
-        "en": "Hofburg Palace",
-        "de": "Hofburg Palast"
+        "tr": "Albertina Müzesi",
+        "en": "Albertina Museum",
+        "de": "Albertina Museum"
       },
-      "latitude": 48.2064,
-      "longitude": 16.3695,
+      "latitude": 48.2036,
+      "longitude": 16.3684,
       "description": {
-        "tr": "Hofburg Sarayı, Avusturya İmparatorluğu'nun eski kışlık sarayıdır ve bugünkü Avusturya Cumhurbaşkanlığı'nın merkezi olarak kullanılmaktadır. Sarayın içinde birçok müze ve tarihi alan vardır.",
-        "en": "Hofburg Palace was the former winter residence of the Austrian Empire and now serves as the center of the Austrian Presidency. The palace houses several museums and historical areas.",
-        "de": "Der Hofburg Palast war die ehemalige Winterresidenz des Österreichischen Kaiserreichs und dient jetzt als Zentrum der österreichischen Präsidentschaft. Der Palast beherbergt mehrere Museen und historische Bereiche."
+        "tr": "Viyana'da önemli bir kültürel merkez olan bu müze, dünya çapında sanat koleksiyonlarına sahiptir.",
+        "en": "A significant cultural center in Vienna, this museum boasts world-class art collections.",
+        "de": "Ein bedeutendes Kulturzentrum in Wien, dieses Museum verfügt über weltbekannte Kunstsammlungen."
       },
       "activities": {
         "tr": [
-          "Müze ziyaretleri yapma",
-          "İmparatorluk dairesini gezme"
+          "Sanat koleksiyonlarını inceleme",
+          "Müze turu"
         ],
         "en": [
-          "Visit museums",
-          "Tour the imperial apartments"
+          "Examine art collections",
+          "Museum tour"
         ],
         "de": [
-          "Museen besuchen",
-          "Die kaiserlichen Wohnungen besichtigen"
+          "Kunstsammlungen betrachten",
+          "Museumsführung"
         ]
       },
       "categories": {
         "tr": [
-          "tarih"
+          "müze"
         ],
         "en": [
-          "historic"
+          "museum"
         ],
         "de": [
-          "Historisch"
+          "museum"
         ]
       },
       "images": [
-        "https://example.com/hofburg_palace.jpg"
+        "https://example.com/albertina_museum.jpg"
       ]
     }
   ],
