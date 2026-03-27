@@ -182,6 +182,7 @@ export default function KesfetClient() {
                       <Link
                         key={`${region}-${citySlug}-${place.slug}-${index}`}
                         href={`/kesfet/${finalCountry}/${cleanCity}/${place.slug}`}
+                        onClick={() => trackPlaceClick(place.name.tr, citySlug)} // 🔥 BURASI
                         className="group flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300"
                       >
                         <div className="aspect-square bg-gray-50 flex items-center justify-center overflow-hidden relative">

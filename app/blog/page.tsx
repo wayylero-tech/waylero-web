@@ -21,6 +21,7 @@ import { antalyaPosts2 } from "../data/blog/antalya/posts2";
 import { ispanyaRehberPosts } from "../data/blog/ispanya/posts";
 import { spainPosts } from "../data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "../data/blog/nevsehir/posts";
+import { cappadociaPosts } from "../data/blog/nevsehir/cappadociaPosts";
 
 
 
@@ -44,7 +45,8 @@ const posts = [
   ...antalyaPosts2,
   ...ispanyaRehberPosts,
   ...spainPosts,
-  ...nevsehirRehberPosts
+  ...nevsehirRehberPosts,
+  ...cappadociaPosts
 ];
 
 
