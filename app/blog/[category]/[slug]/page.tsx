@@ -20,6 +20,7 @@ import { istanbulRehberPosts } from "@/app/data/blog/istanbul/post";
 import { antalyaPosts2 } from "@/app/data/blog/antalya/posts2";
 import { ispanyaRehberPosts } from "@/app/data/blog/ispanya/posts";
 import { spainPosts } from "@/app/data/blog/ispanya/posts2";
+import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 
 
 
@@ -42,9 +43,9 @@ const posts = [
   ...istanbulRehberPosts,
   ...antalyaPosts2,
   ...ispanyaRehberPosts,
-  ...spainPosts
+  ...spainPosts,
+  ...nevsehirRehberPosts
 ];
-
 
 
 export default async function Page({
