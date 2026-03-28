@@ -25,6 +25,7 @@ import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
 
 
+
 const posts = [
   ...generalPosts,
   ...uygulamaPosts,
@@ -47,8 +48,8 @@ const posts = [
   ...spainPosts,
   ...nevsehirRehberPosts,
   ...cappadociaPosts
-];
 
+];
 
 
 export default async function Page({

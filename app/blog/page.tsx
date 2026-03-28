@@ -25,6 +25,7 @@ import { cappadociaPosts } from "../data/blog/nevsehir/cappadociaPosts";
 
 
 
+
 const posts = [
   ...generalPosts,
   ...uygulamaPosts,
@@ -47,6 +48,7 @@ const posts = [
   ...spainPosts,
   ...nevsehirRehberPosts,
   ...cappadociaPosts
+
 ];
 
 
