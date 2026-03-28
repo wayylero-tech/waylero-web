@@ -41,7 +41,39 @@
   "tokyo-ueno-parki": [
 "https://upload.wikimedia.org/wikipedia/commons/8/86/April_2009%2C_hanami_in_Ueno_Park_-32382.jpeg"
 ]
-  
-
+  },
+"agra": {
+ "agra-tac-mahal": [
+    "https://upload.wikimedia.org/wikipedia/commons/1/11/Taj_Mahal_%28south_view%2C_2006%29.jpg",
+     "https://upload.wikimedia.org/wikipedia/commons/b/b5/Taj_Mahal_gate-5.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/3/36/Taj_Mahal_Mosque_%2823217673985%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/58/Taj_Mahal_Mosque_%2823193997076%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/21/Taj_Mahal_2018.jpg",
+     "https://upload.wikimedia.org/wikipedia/commons/a/a3/Taj_Mahal-11.jpg"
+  ],
+"agra-agra-kalesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/a/a9/Jahangiri_Mahal_%28Agra_Fort%29-6.jpg",
+     "https://upload.wikimedia.org/wikipedia/commons/b/bc/Watch_tower_%28Agra_Fort%29-1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/d6/Jahangiri_Mahal_%28Agra_Fort%29-5.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/10/Symmetrical_palace_%28AGRA_FORT_%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/61/Musamman_Burj_%28Agra_Fort%29-1.jpg"
+  ],
+"agra-fatehpur-sikri": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/42/Jami_Masjid_%28Fatehpur_Sikri%29-6.jpg",
+     "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jami_Masjid_%28Fatehpur_Sikri%29-1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/9/95/Jami_Masjid_%28Fatehpur_Sikri%29-3.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/51/Fatehpur_Sikri_near_Agra_in_Uttar_Pradesh.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a7/Fatehpur_Sikri_near_Agra%2C_Uttar_Pradesh.jpg"
+  ],
+"agra-mehtab-bagh": [
+     "https://upload.wikimedia.org/wikipedia/commons/a/a3/Taj_Mahal-11.jpg"
+  ],
+"agra-itimad-ud-daulah-turbesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/b/bf/Baby_Taj-16.jpg",
+     "https://upload.wikimedia.org/wikipedia/commons/5/58/Itimad-ud-Daula-Mausoleum%2C_Agra.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/42/Baby_Taj-15.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/9/9d/Baby_Taj-14.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/a/aa/Itmad.jpg"
+  ]
 }
 }
