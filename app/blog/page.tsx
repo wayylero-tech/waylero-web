@@ -36,21 +36,21 @@ const posts = [
 ];
 
 export default function BlogPage() {
-  const { lang } = useLang(); // 🔥 Mevcut dili alıyoruz
+  // 🔥 Tip güvenliği için 'as "tr" | "en"' ekledik
+  const { lang } = useLang() as { lang: "tr" | "en" }; 
 
-  // 🔥 URL YÖNETİCİSİ: Linkleri dile göre manipüle eder
+  // 🔥 URL YÖNETİCİSİ
   const getLocalizedLink = (path: string) => {
     if (lang === "tr") return path;
     const cleanPath = path.startsWith("/") ? path : `/${path}`;
     return `/${lang}${cleanPath}`;
   };
 
-  // 🔹 Sayfa başlığı sözlüğü
+  // 🔹 Sayfa başlığı sözlüğü (DE silindi)
   const t = {
     tr: "Seyahat Rehberi ✍️",
-    en: "Travel Guide ✍️",
-    de: "Reiseführer ✍️"
-  }[lang as "tr" | "en" | "de"] || "Travel Guide ✍️";
+    en: "Travel Guide ✍️"
+  }[lang] || "Travel Guide ✍️";
 
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
@@ -58,23 +58,22 @@ export default function BlogPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {posts.map((post, i) => {
-          // 🔥 Linki dile duyarlı hale getiriyoruz
           const rawHref = `/blog/${post.city}/${post.slug}`;
           const localizedHref = getLocalizedLink(rawHref);
 
-          // 🔥 Çeviri kontrolü
+          // 🔥 Çeviri kontrolü - TypeScript hatası as keyof ile çözüldü
           const displayTitle = typeof post.title === 'object' 
-            ? (post.title[lang] || post.title['tr']) 
+            ? (post.title[lang as keyof typeof post.title] || post.title['tr']) 
             : post.title;
             
           const displayExcerpt = typeof post.excerpt === 'object' 
-            ? (post.excerpt[lang] || post.excerpt['tr']) 
+            ? (post.excerpt[lang as keyof typeof post.excerpt] || post.excerpt['tr']) 
             : post.excerpt;
 
           return (
             <Link
               key={`${post.slug}-${i}`}
-              href={localizedHref} // 🔥 Güncellendi
+              href={localizedHref}
               className="group w-full h-80 rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
               <div
