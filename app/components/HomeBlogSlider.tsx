@@ -36,25 +36,24 @@ const posts = [
 ];
 
 export default function HomeBlogSlider() {
-  const { lang } = useLang(); 
+  // 🔥 Tip güvenliği için sadece TR ve EN olduğunu belirttik
+  const { lang } = useLang() as { lang: "tr" | "en" }; 
 
-  // 🔥 URL YÖNETİCİSİ: Gidilecek linki mevcut dile göre hazırlar
+  // 🔥 URL YÖNETİCİSİ
   const getLocalizedLink = (path: string) => {
     if (lang === "tr") return path;
     const cleanPath = path.startsWith("/") ? path : `/${path}`;
     return `/${lang}${cleanPath}`;
   };
 
-  // 🔹 Sözlük yapısı (Tip güvenliği için opsiyonel fallback eklendi)
+  // 🔹 Sözlük yapısı (DE tamamen kaldırıldı)
   const t = {
     tr: { title: "Seyahat Rehberi ✍️", subtitle: "Son blog yazıları", viewAll: "Tümünü Gör →" },
-    en: { title: "Travel Guide ✍️", subtitle: "Latest blog posts", viewAll: "View All →" },
-    de: { title: "Reiseführer ✍️", subtitle: "Neueste Blogbeiträge", viewAll: "Alle ansehen →" }
-  }[lang as "tr" | "en" | "de"] || { title: "Travel Guide ✍️", subtitle: "Latest blog posts", viewAll: "View All →" };
+    en: { title: "Travel Guide ✍️", subtitle: "Latest blog posts", viewAll: "View All →" }
+  }[lang] || { title: "Travel Guide ✍️", subtitle: "Latest blog posts", viewAll: "View All →" };
 
   return (
     <section className="mb-16">
-      {/* 🔥 BAŞLIK ALANI */}
       <div className="mb-6 flex items-end justify-between px-2">
         <div>
           <h2 className="text-2xl font-black text-gray-900">
@@ -65,24 +64,27 @@ export default function HomeBlogSlider() {
           </p>
         </div>
 
-        {/* 🔥 DÜZELTME: Tümünü gör linki artık dile duyarlı */}
         <Link href={getLocalizedLink("/blog")} className="text-blue-600 text-sm font-bold hover:underline transition-all">
           {t.viewAll}
         </Link>
       </div>
 
-      {/* 🔥 POST GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {posts
           .sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)))
           .slice(0, 4)
           .map((post, i) => {
-            // 🔥 DÜZELTME: Kart linki artık dile duyarlı
             const rawHref = `/blog/${post.city}/${post.slug}`;
             const localizedHref = getLocalizedLink(rawHref);
 
-            const displayTitle = typeof post.title === 'object' ? (post.title[lang] || post.title['tr']) : post.title;
-            const displayExcerpt = typeof post.excerpt === 'object' ? (post.excerpt[lang] || post.excerpt['tr']) : post.excerpt;
+            // 🔥 DÜZELTME: TypeScript "keyof" hatasını burada çözdük
+            const displayTitle = typeof post.title === 'object' 
+              ? (post.title[lang as keyof typeof post.title] || post.title['tr']) 
+              : post.title;
+              
+            const displayExcerpt = typeof post.excerpt === 'object' 
+              ? (post.excerpt[lang as keyof typeof post.excerpt] || post.excerpt['tr']) 
+              : post.excerpt;
 
             return (
               <Link
@@ -90,13 +92,11 @@ export default function HomeBlogSlider() {
                 href={localizedHref}
                 className="group w-full h-80 rounded-[2rem] overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 flex flex-col"
               >
-                {/* GÖRSEL */}
                 <div
                   className="h-48 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                   style={{ backgroundImage: `url(${post.image})` }}
                 />
 
-                {/* METİN */}
                 <div className="p-4 flex-1 flex flex-col justify-center">
                   <h3 className="font-bold text-gray-900 text-sm line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors">
                     {displayTitle}
