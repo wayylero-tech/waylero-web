@@ -1,7 +1,7 @@
 import cities from "../../data/cities.json";
 import { notFound } from "next/navigation";
+import { cookies } from "next/headers";
 
-// 🔹 Tip tanımı
 type City = {
   slug: string;
   country: string;
@@ -29,7 +29,6 @@ type Props = {
   }>;
 };
 
-// 🔹 Static export için tüm parametreleri üret
 export async function generateStaticParams() {
   return cities.map((city) => ({
     country: city.country.toLowerCase().replace(/ /g, "-"),
@@ -37,9 +36,53 @@ export async function generateStaticParams() {
   }));
 }
 
-// 🔹 Server Component
 export default async function CityPage({ params }: Props) {
-  const { country, city: citySlug } = await params; // <-- await ile açıyoruz
+  const { country, city: citySlug } = await params;
+
+  // 🔹 Çerezden dili yakala (Server Side)
+  const cookieStore = await cookies();
+  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en" | "de";
+
+  // 🔹 Sabit metinler için sözlük
+  const t = {
+    tr: {
+      travelTitle: "✈️ Seyahat Bilgileri",
+      bestTime: "🌤 En iyi zaman",
+      timezone: "🕒 Saat Dilimi",
+      currency: "💶 Para Birimi",
+      language: "🗣 Dil",
+      population: "👥 Nüfus",
+      exploreBtn: "da Gezilecek Yerler",
+      countryName: "Ülke"
+    },
+    en: {
+      travelTitle: "✈️ Travel Information",
+      bestTime: "🌤 Best time to visit",
+      timezone: "🕒 Timezone",
+      currency: "💶 Currency",
+      language: "🗣 Language",
+      population: "👥 Population",
+      exploreBtn: "Places to Visit in",
+      countryName: "Country"
+    },
+    de: {
+      travelTitle: "✈️ Reiseinformationen",
+      bestTime: "🌤 Beste Reisezeit",
+      timezone: "🕒 Zeitzone",
+      currency: "💶 Währung",
+      language: "🗣 Sprache",
+      population: "👥 Bevölkerung",
+      exploreBtn: "Sehenswürdigkeiten in",
+      countryName: "Land"
+    }
+  }[lang];
+
+  // 🔥 URL YÖNETİCİSİ (Server Side Link Oluşturucu)
+  const getLocalizedLink = (path: string) => {
+    if (lang === "tr") return path;
+    const cleanPath = path.startsWith("/") ? path : `/${path}`;
+    return `/${lang}${cleanPath}`;
+  };
 
   const city = (cities as City[]).find(
     (c) => c.slug === citySlug && c.country.toLowerCase().replace(/ /g, "-") === country
@@ -47,79 +90,90 @@ export default async function CityPage({ params }: Props) {
 
   if (!city) return notFound();
 
-  const lang = "tr";
+  const currentCityName = city.names[lang] || city.names["tr"];
+  const currentCityDesc = city.descriptions[lang] || city.descriptions["tr"];
   const travelInfo = city.travel_info?.[lang] || city.travel_info?.["tr"];
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-8">
-      <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden bg-black">
+      {/* HEADER IMAGE SECTION */}
+      <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden bg-black shadow-2xl">
         <img
           src={city.image}
-          alt={city.names[lang]}
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          alt={currentCityName}
+          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-        <h1 className="absolute bottom-6 left-6 text-white text-4xl md:text-5xl font-bold drop-shadow-lg">
-          {city.names[lang] || city.names["tr"]}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+        <h1 className="absolute bottom-6 left-6 text-white text-4xl md:text-5xl font-black drop-shadow-2xl">
+          {currentCityName}
         </h1>
       </div>
 
-      <p className="mt-4 text-gray-500 text-lg font-medium">{city.country}</p>
-      <p className="mt-6 text-gray-700 leading-relaxed text-justify">
-        {city.descriptions[lang] || city.descriptions["tr"]}
+      <p className="mt-6 text-blue-600 text-lg font-bold tracking-wide uppercase">
+         {city.country}
       </p>
+      
+      <div className="mt-6 text-gray-700 leading-relaxed text-lg whitespace-pre-line text-justify border-l-4 border-blue-500 pl-6">
+        {currentCityDesc}
+      </div>
 
+      {/* TRAVEL INFO CARDS */}
       {travelInfo && (
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold mb-6">✈️ Seyahat Bilgileri</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <div className="p-4 rounded-xl bg-gray-100">
-              <p className="text-sm text-gray-500">🌤 En iyi zaman</p>
-              <p className="font-semibold">{travelInfo.best_time}</p>
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-8 flex items-center gap-2">
+            {t.travelTitle}
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.bestTime}</p>
+              <p className="font-semibold text-gray-800">{travelInfo.best_time}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-100">
-              <p className="text-sm text-gray-500">🕒 Saat Dilimi</p>
-              <p className="font-semibold">{travelInfo.timezone}</p>
+            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.timezone}</p>
+              <p className="font-semibold text-gray-800">{travelInfo.timezone}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-100">
-              <p className="text-sm text-gray-500">💶 Para Birimi</p>
-              <p className="font-semibold">{travelInfo.currency}</p>
+            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.currency}</p>
+              <p className="font-semibold text-gray-800">{travelInfo.currency}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-100">
-              <p className="text-sm text-gray-500">🗣 Dil</p>
-              <p className="font-semibold">{travelInfo.language}</p>
+            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.language}</p>
+              <p className="font-semibold text-gray-800">{travelInfo.language}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-100">
-              <p className="text-sm text-gray-500">👥 Nüfus</p>
-              <p className="font-semibold">{travelInfo.population}</p>
+            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.population}</p>
+              <p className="font-semibold text-gray-800">{travelInfo.population}</p>
             </div>
           </div>
         </div>
       )}
 
+      {/* GALLERY SECTION */}
       {city.additionalImages?.length ? (
-        <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-6">
           {city.additionalImages.map((img, idx) => (
             <div
               key={idx}
-              className="w-full aspect-[4/3] rounded-2xl overflow-hidden bg-black"
+              className="w-full aspect-[4/3] rounded-3xl overflow-hidden bg-gray-100 shadow-lg"
             >
               <img
                 src={img}
-                alt={`${city.names[lang]} ${idx + 1}`}
-                className="w-full h-full object-cover object-center"
+                alt={`${currentCityName} gallery ${idx + 1}`}
+                className="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500"
               />
             </div>
           ))}
         </div>
       ) : null}
 
-      <div className="mt-14 flex justify-center">
+      {/* EXPLORE BUTTON */}
+      <div className="mt-16 flex justify-center">
         <a
-          href={`/kesfet?q=${encodeURIComponent(citySlug)}`}
-          className="px-10 py-4 rounded-full bg-black text-white text-lg font-semibold hover:bg-gray-800 transition"
+          // 🔥 Link artık dile duyarlı: /en/kesfet veya /de/kesfet olacak
+          href={getLocalizedLink(`/kesfet?q=${encodeURIComponent(citySlug)}`)}
+          className="px-12 py-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-lg font-bold shadow-xl hover:scale-105 transition-all active:scale-95"
         >
-          📍 {city.names[lang]}’da Gezilecek Yerler
+          📍 {lang === "tr" ? `${currentCityName}${t.exploreBtn}` : `${t.exploreBtn} ${currentCityName}`}
         </a>
       </div>
     </main>

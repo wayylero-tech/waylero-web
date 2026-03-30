@@ -1,23 +1,40 @@
 export const antalyaRehberPost = [
   {
     slug: "antalya-gezilecek-yerler-rehberi",
-    title: "Antalya’da Gezilecek 5 Yer (2026 Güncel Gezi Rehberi)",
-    excerpt:
-      "Antalya gezilecek yerler rehberi: Kaleiçi, Konyaaltı Plajı, Aspendos Antik Kenti, Karain Mağarası ve Düden Şelalesi hakkında detaylı bilgiler.",
+
+    title: {
+      tr: "Antalya’da Gezilecek 5 Yer (2026 Güncel Gezi Rehberi)",
+      en: "Top 5 Places to Visit in Antalya (2026 Travel Guide)"
+    },
+
+    excerpt: {
+      tr: "Antalya gezilecek yerler rehberi: Kaleiçi, Konyaaltı Plajı, Aspendos Antik Kenti, Karain Mağarası ve Düden Şelalesi hakkında detaylı bilgiler.",
+      en: "Antalya travel guide: Discover Kaleici, Konyaalti Beach, Aspendos Ancient City, Karain Cave, and Duden Waterfalls."
+    },
+
     image: "/assets/blog/antalya/cover.png",
+
     gallery: [
       "/assets/blog/antalya/konyaalti.png",
       "/assets/blog/antalya/aspendos.png",
       "/assets/blog/antalya/duden.png"
     ],
+
     date: "2026-03-10",
     city: "antalya",
+
     seo: {
-      title: "Antalya Gezilecek Yerler 2026 | En Popüler 5 Yer - Waylero",
-      description:
-        "Antalya'da gezilecek yerler rehberi: Kaleiçi, Konyaaltı Plajı, Aspendos Antik Kenti, Karain Mağarası ve Düden Şelalesi hakkında detaylı bilgiler."
+      tr: {
+        title: "Antalya Gezilecek Yerler 2026 | En Popüler 5 Yer - Waylero",
+        description: "Antalya'da gezilecek yerler rehberi: Kaleiçi, Konyaaltı Plajı, Aspendos Antik Kenti, Karain Mağarası ve Düden Şelalesi hakkında detaylı bilgiler."
+      },
+      en: {
+        title: "Antalya Travel Guide 2026 | Top 5 Places - Waylero",
+        description: "Explore the best places in Antalya: Kaleici, Konyaalti Beach, Aspendos Ancient City, Karain Cave, and Duden Waterfalls."
+      }
     },
-    content: `
+   content: {
+  tr: ` 
 
 # Antalya Gezilecek Yerler 2026 – En Popüler 5 Yer
 
@@ -221,6 +238,106 @@ Antalya için daha fazla yer önerisi için tıkla
 Detaylar için tıkla 🔗 **[Antalya'da Gezilecek Yerler](https://www.waylero.com/kesfet?q=antalya)**
 
 Waylero ile keşfet, planla, paylaş.
+`,
+
+      en: `
+# Antalya Travel Guide 2026 – Top 5 Places
+
+Antalya is one of the most popular tourist destinations in Turkey, attracting millions of visitors every year.
+
+Located on the Mediterranean coast, the city is famous for its turquoise sea, long beaches, ancient cities, waterfalls, and natural beauty.
+
+---
+
+## 🏛 Aspendos Ancient City
+
+Aspendos is one of the most important historical sites in Antalya.
+
+The Aspendos Theatre, built during the Roman period, is one of the best-preserved ancient theatres in the world.
+
+📍 How to Get There
+Approximately 45 km from Antalya city center.
+
+💰 Entrance Fee
+Around 340 TL
+
+🕒 Opening Hours
+Summer: 08:30 – 19:00  
+Winter: 08:30 – 17:30
+
+📷 Things to Do
+Explore the theatre and ruins, take photos
+
+---
+
+## 🏝 Konyaalti Beach
+
+One of the most popular beaches in Antalya.
+
+📍 Location
+Close to the city center, accessible by tram.
+
+📷 Things to Do
+Swimming, walking along the beach, watching sunset
+
+---
+
+## 🕳 Karain Cave
+
+One of the largest natural caves in Turkey and among the oldest human settlements.
+
+📍 Location
+30 km from the city center.
+
+📷 Things to Do
+Explore the cave and archaeological remains
+
+---
+
+## 🏘 Kaleici (Old Town)
+
+The historic center of Antalya with narrow streets and Ottoman houses.
+
+📷 Things to Do
+Walk around, explore historical sites, take photos
+
+---
+
+## 🌊 Duden Waterfalls
+
+One of the most famous natural attractions in Antalya.
+
+The waterfall flows directly into the Mediterranean Sea from high cliffs.
+
+📍 Location
+About 10 km from the city center.
+
+📷 Things to Do
+Watch the waterfall, take photos, enjoy nature
+
+---
+
+## 🍽 What to Eat in Antalya
+
+- Antalya piyaz
+- Fresh Mediterranean seafood
+- Tahini pumpkin dessert
+- Hibes
+
+---
+
+## 🗓 How Many Days in Antalya?
+
+- City center → 1 day  
+- Beaches & nature → 2 days  
+- With ancient sites → 3–4 days  
+
+---
+
+Antalya is not just a holiday destination, but a unique place where history, nature, and culture meet.
+
+Discover more with Waylero.
 `
+    }
   }
 ];

@@ -143,7 +143,7 @@ const cityToCountryMap: Record<string, string> = {
 // Japonya
 "tokyo": "japonya", "kyoto": "japonya", "osaka": "japonya", "nara": "japonya", "hakone": "japonya", "fujikawaguchiko": "japonya", "hiroshima": "japonya", "kamakura": "japonya", "nikko": "japonya", "takayama": "japonya", "kanazawa": "japonya", "hokkaido": "japonya", "hakusan": "japonya", "nagano": "japonya", "yamaguchi": "japonya","hirosima": "japonya",
 // Çin
-"beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hong-kong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
+"beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
   // Diğerleri
 };
 
@@ -151,67 +151,64 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.waylero.com";
   const now = new Date();
 
-  // Şehir ismini temizleme fonksiyonu (URL dostu yapma)
   const sanitize = (str: string) => str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/ /g, '')
     .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c');
 
- // 1. 🌍 Gezi Yerleri (Mekanlar)
-  const regions: any = { turkey, europa, asia };
-  const placeUrls: any[] = [];
+  const sitemapEntries: MetadataRoute.Sitemap = [];
 
+  // --- 0. Statik Sayfalar (Anasayfa & Keşfet) ---
+  const staticPages = [
+    { url: "", priority: 1.0 },
+    { url: "/kesfet", priority: 0.7 },
+  ];
+
+  staticPages.forEach(page => {
+    // TR
+    sitemapEntries.push({ url: `${baseUrl}${page.url}`, lastModified: now, priority: page.priority });
+    // EN
+    sitemapEntries.push({ url: `${baseUrl}/en${page.url}`, lastModified: now, priority: page.priority });
+  });
+
+  // --- 1. 🌍 Gezi Yerleri (Mekanlar) ---
+  const regions: any = { turkey, europa, asia };
+  
   Object.entries(regions).forEach(([regionKey, regionData]: [string, any]) => {
     Object.entries(regionData).forEach(([cityName, places]: [string, any]) => {
-      
       const cleanCity = sanitize(cityName);
-
-      // --- GÜNCELLEDİĞİMİZ KRİTİK KISIM BURASI ---
-      let finalCountry;
-      
-      if (regionKey === "turkey") {
-        // turkey.json'dan geliyorsa haritaya bakmadan direkt "turkiye" yapıyoruz
-        finalCountry = "turkiye";
-      } else {
-        // Avrupa veya Asya ise haritadan bak, yoksa dosya adını (europa/asia) kullan
-        finalCountry = cityToCountryMap[cleanCity] || regionKey;
-      }
-      // ------------------------------------------
+      let finalCountry = regionKey === "turkey" ? "turkiye" : (cityToCountryMap[cleanCity] || regionKey);
 
       places.forEach((place: any) => {
-        placeUrls.push({
-          url: `${baseUrl}/kesfet/${finalCountry}/${cleanCity}/${place.slug}`,
-          lastModified: now,
-          priority: 0.8,
-        });
+        const path = `/kesfet/${finalCountry}/${cleanCity}/${place.slug}`;
+        // TR
+        sitemapEntries.push({ url: `${baseUrl}${path}`, lastModified: now, priority: 0.8 });
+        // EN
+        sitemapEntries.push({ url: `${baseUrl}/en${path}`, lastModified: now, priority: 0.7 });
       });
     });
   });
 
-  // 2. ⭐ Şehirler (waylero.com/istanbul)
-  const cityUrls = cities.map((city: any) => ({
-    url: `${baseUrl}/${sanitize(city.slug)}`, 
-    lastModified: now,
-    priority: 0.9,
-  }));
+  // --- 2. ⭐ Şehirler (waylero.com/istanbul) ---
+  cities.forEach((city: any) => {
+    const cityPath = `/${sanitize(city.slug)}`;
+    // TR
+    sitemapEntries.push({ url: `${baseUrl}${cityPath}`, lastModified: now, priority: 0.9 });
+    // EN
+    sitemapEntries.push({ url: `${baseUrl}/en${cityPath}`, lastModified: now, priority: 0.8 });
+  });
 
-  // 3. 📝 Blog Yazıları
-  const allPosts = [
-    ...generalPosts, ...uygulamaPosts, ...antikkentPosts,
-    ...konyaPosts, ...konyaPosts2, ...istanbulPosts,
-  ];
+  // --- 3. 📝 Blog Yazıları ---
+  const allPosts = [...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts, ...konyaPosts2, ...istanbulPosts];
 
-  const blogUrls = allPosts.map((post: any) => ({
-    url: `${baseUrl}/blog/${sanitize(post.city)}/${post.slug}`,
-    lastModified: new Date(post.updatedAt ?? post.createdAt ?? now),
-    priority: 0.6,
-  }));
+  allPosts.forEach((post: any) => {
+    const blogPath = `/blog/${sanitize(post.city)}/${post.slug}`;
+    const postDate = new Date(post.updatedAt ?? post.createdAt ?? now);
+    // TR
+    sitemapEntries.push({ url: `${baseUrl}${blogPath}`, lastModified: postDate, priority: 0.6 });
+    // EN
+    sitemapEntries.push({ url: `${baseUrl}/en${blogPath}`, lastModified: postDate, priority: 0.5 });
+  });
 
-  return [
-    { url: baseUrl, lastModified: now, priority: 1.0 },
-    { url: `${baseUrl}/kesfet`, lastModified: now, priority: 0.7 },
-    ...cityUrls,
-    ...placeUrls,
-    ...blogUrls,
-  ];
+  return sitemapEntries;
 }

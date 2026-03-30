@@ -36,7 +36,7 @@ Antalya şehir merkezini keşfetmek için araca ihtiyacınız yok. Bu rota tamam
 Güne Antalya’nın sembolüyle başlıyoruz. 
 - **Nasıl Gidilir:** Şehrin her yerinden geçen "Antray" tramvay hattı ile **İsmetpaşa** durağında inin. 2 dakika yürüme mesafesindedir.
 - **Süre:** **20 Dakika.**
-- **SEO Detayı:** MS 130 yılında İmparator Hadrianus onuruna yapılmıştır. Kapının sol tarafındaki kule Selçuklu, sağ tarafındaki ise Roma dönemine aittir. 
+- ** MS 130 yılında İmparator Hadrianus onuruna yapılmıştır. Kapının sol tarafındaki kule Selçuklu, sağ tarafındaki ise Roma dönemine aittir.** 
 - **İpucu:** Kapının altındaki cam zeminden Roma dönemi orijinal taş yolunu incelemeyi unutmayın. Giriş **ücretsizdir**.
 
 ### 10:00 - Kaleiçi’nin Labirent Sokakları & Tarihi Evler
