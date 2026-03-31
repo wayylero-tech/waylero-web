@@ -22,14 +22,24 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  // 🔥 URL'DEN DİLİ YAKALAMA OPERASYONU
   const headerList = await headers();
+  
+  // 🔥 1. ÖNCE BİZİM ÖZEL HEADER'A BAK (Middleware'den gelen)
+  // 🔥 2. YOKSA REFERER'A BAK
+  // 🔥 3. O DA YOKSA PATHNAME'E BAK
+  const middlewareLang = headerList.get("x-url-lang");
+  const referer = headerList.get("referer") || "";
   const pathname = headerList.get("x-invoke-path") || "";
-  const isEn = pathname.startsWith("/en") || headerList.get("referer")?.includes("/en/");
+
+  const isEn = 
+    middlewareLang === "en" || 
+    pathname.startsWith("/en") || 
+    referer.includes("/en/");
+
   const displayLang = isEn ? "en" : "tr";
 
   return (
-    <html lang={displayLang}> {/* 🔥 ARTIK DİNAMİK! */}
+    <html lang={displayLang}> 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <LanguageProvider>
           <ClientLayout>
