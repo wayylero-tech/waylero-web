@@ -1,3 +1,4 @@
+
 export const cappadociaPosts = [
   {
     slug: "kapadokya-2-gunluk-gezi-plani",

@@ -1,3 +1,4 @@
+
 export const antalyaPosts2 = [
   {
     slug: "antalya-3-gunluk-gezi-plani",

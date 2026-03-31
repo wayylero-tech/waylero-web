@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useLang } from "../context/LanguageContext";
@@ -11,22 +12,24 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   const { lang } = useLang();
 
   const t = {
-    tr: {
-      slogan: "Keşfet, planla, paylaş.",
-      hakkimizda: "Hakkımızda",
-      gizlilik: "Gizlilik Politikası",
-      sozlesme: "Kullanıcı Sözleşmesi",
-      takip: "Bizi Takip Et",
-      indir: "Uygulamayı İndir"
-    },
-    en: {
-      slogan: "Explore, plan, share.",
-      hakkimizda: "About Us",
-      gizlilik: "Privacy Policy",
-      sozlesme: "Terms of Service",
-      takip: "Follow Us",
-      indir: "Download App"
-    }
+   tr: {
+  slogan: "Keşfet, planla, paylaş.",
+  hakkimizda: "Hakkımızda",
+  gizlilik: "Gizlilik Politikası",
+  sozlesme: "Kullanıcı Sözleşmesi",
+  iletisim: "İletişim", // 👈 EKLE
+  takip: "Bizi Takip Et",
+  indir: "Uygulamayı İndir"
+},
+en: {
+  slogan: "Explore, plan, share.",
+  hakkimizda: "About Us",
+  gizlilik: "Privacy Policy",
+  sozlesme: "Terms of Service",
+  iletisim: "Contact", // 👈 EKLE
+  takip: "Follow Us",
+  indir: "Download App"
+}
   }[lang as "tr" | "en"] || { slogan: "", hakkimizda: "", gizlilik: "", sozlesme: "", takip: "", indir: "" };
 
   return (
@@ -44,10 +47,11 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
           </div>
 
           <div className="flex flex-col gap-1">
-            <Link href="/hakkimizda">{t.hakkimizda}</Link>
-            <Link href="/privacy">{t.gizlilik}</Link>
-            <Link href="/terms">{t.sozlesme}</Link>
-          </div>
+  <Link href="/hakkimizda">{t.hakkimizda}</Link>
+  <Link href="/privacy">{t.gizlilik}</Link>
+  <Link href="/terms">{t.sozlesme}</Link>
+  <Link href="/contact">{t.iletisim}</Link> {/* 👈 EKLE */}
+</div>
 
           <div className="flex justify-between md:justify-end gap-6">
             <div>
