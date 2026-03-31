@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
+import { headers } from "next/headers"; // 🔥 Bunu ekledik
 import "./globals.css";
 import { LanguageProvider } from "./context/LanguageContext";
-import ClientLayout from "./components/ClientLayout"; // Yeni dosyamız
+import ClientLayout from "./components/ClientLayout";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Waylero",
   description: "Waylero | Şehirleri keşfet, gezini planla",
   icons: { icon: "/waylero-icon.png", apple: "/waylero-icon.png" },
-  // 🔥 Eklenen Kısım:
   alternates: {
     canonical: "https://www.waylero.com",
     languages: {
@@ -22,12 +21,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  // 🔥 URL'DEN DİLİ YAKALAMA OPERASYONU
+  const headerList = await headers();
+  const pathname = headerList.get("x-invoke-path") || "";
+  const isEn = pathname.startsWith("/en") || headerList.get("referer")?.includes("/en/");
+  const displayLang = isEn ? "en" : "tr";
+
   return (
-    <html lang="tr">
-      <head>
-        {/* Google Scriptlerin Buraya Gelecek */}
-      </head>
+    <html lang={displayLang}> {/* 🔥 ARTIK DİNAMİK! */}
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <LanguageProvider>
           <ClientLayout>
