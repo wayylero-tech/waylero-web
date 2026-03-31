@@ -218,17 +218,13 @@ Araçla 15–20 dakika sürer.
 Yaklaşık 50 TL civarındadır.
 
 
-
 🕒 Ziyaret Saatleri
-
 
 
 08:00 – 19:00
 
 
-
 📷 Orada Ne Yapılır
-
 
 
 Şelale manzarasını izlemek  
@@ -236,7 +232,6 @@ Yaklaşık 50 TL civarındadır.
 Doğa yürüyüşü yapmak  
 
 Fotoğraf çekmek
-
 
 
 Detaylar için tıkla 🔗 **[Düden Şelalesi](https://www.waylero.com/kesfet/turkey/antalya/duden-selalesi)**
@@ -349,8 +344,11 @@ Details 🔗 **[Aspendos Ancient City](https://www.waylero.com/en/kesfet/turkey/
 Konyaalti Beach is a 7-kilometer stretch of coastline on the west side of Antalya. Swimming here is a unique experience, with the majestic Taurus Mountains rising right behind the shore.
 
 📍 **How to Get There:** You can take the nostalgic tram from the city center to the start of the beach or use bus lines like KL08.
+
 💰 **Entrance Fee:** Access to the public beach is free. Sunbed and umbrella rentals range between 150-250 TL.
+
 🕒 **Visiting Hours:** Open 24/7.
+
 📷 **Things to Do:** Cycle along the coastline, enjoy Mediterranean cuisine at the restaurants in Beach Park, and capture photos of the cliffs at sunset.
 
 Details 🔗 **[Konyaalti Beach](https://www.waylero.com/en/kesfet/turkey/antalya/konyaalti-plaji)**
@@ -364,9 +362,13 @@ Karain Cave is one of Turkey’s largest natural caves and is considered one of 
 Archaeological excavations have revealed that the cave was inhabited by humans approximately 500,000 years ago.
 
 📍 **How to Get There:** Located 30 km from the city center near Yağca Village in the Döşemealtı district. Car or tour bus is the most practical way.
+
 💰 **Entrance Fee:** Approximately 120 TL.
+
 🎫 **Museum Pass:** Valid.
+
 🕒 **Visiting Hours:** Summer: 08:30 – 19:00 / Winter: 08:30 – 17:30
+
 📷 **Things to Do:** Explore the massive stalactites and stalagmites. Take photos of the endless Antalya plains from the viewing terrace at the cave entrance.
 
 Details 🔗 **[Karain Cave](https://www.waylero.com/en/kesfet/turkey/antalya/karain-magarasi)**
@@ -379,9 +381,13 @@ Kaleiçi is the historic city center of Antalya. With its narrow stone-paved str
 
 The Hadrian Gate, dating back to the Roman period, the Yivli Minaret, and the historic harbor are among Kaleiçi’s most significant landmarks.
 
+
 📍 **How to Get There:** Right in the city center. Reachable on foot or by taking the tram to the Cumhuriyet Square stop.
+
 💰 **Entrance Fee:** Free.
+
 🕒 **Visiting Hours:** Always open; famous for its vibrant nightlife and boutique cafes.
+
 📷 **Things to Do:** Take a photo at Hadrian’s Gate, visit the Fluted Minaret (Yivli Minare), and descend to the Old Harbor for a tea against the sea view.
 
 ---
@@ -394,8 +400,11 @@ Düden Waterfall actually consists of two sections: Upper Düden Waterfall and L
 The area around the waterfall features walking trails, viewing terraces, and photo spots. The view of the waterfall from the cliffs at sunset is considered one of the must-see natural beauties in Antalya. 
 
 📍 **How to Get There:** About 10 km from the city center in the Lara district. Easily accessible by public transport (bus line KL08).
+
 💰 **Entrance Fee:** The park area on the cliffs is free, but the entrance to the Upper Duden Park is about 50-60 TL.
+
 🕒 **Visiting Hours:** Best visited between 08:00 – 19:00.
+
 📷 **Things to Do:** Watch the waterfall from the viewing terraces. If you get the chance, join a boat tour to see the waterfall from the sea.
 
 Details 🔗 **[Duden Waterfalls](https://www.waylero.com/en/kesfet/turkey/antalya/duden-selalesi)**
@@ -403,17 +412,25 @@ Details 🔗 **[Duden Waterfalls](https://www.waylero.com/en/kesfet/turkey/antal
 ---
 
 ## 🍽 What to Eat in Antalya?
+
 - 🥗 **Antalya Piyaz:** Unlike others, it's served with a special tahini sauce. A must-try!
+
 - 🐟 **Fresh Seafood:** Enjoy Mediterranean fish at the harbor-side restaurants.
+
 - 🎃 **Tahini Pumpkin Dessert:** A local classic topped with plenty of walnuts.
+
 - 🥘 **Hibes:** A delicious appetizer made with tahini, lemon, and garlic.
 
 ---
 
 ## 🗓 How Many Days to Spend in Antalya?
+
 - **City Center & Beaches:** 1-2 Days.
+
 - **Nature & Waterfalls:** +1 Day.
+
 - **Ancient Cities:** +1 Day.
+
 - **Summary:** 3-4 days is ideal for a full experience.
 
 Antalya is more than just a vacation city; it's a destination where history and nature meet.
