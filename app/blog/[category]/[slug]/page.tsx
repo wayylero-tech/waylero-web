@@ -52,12 +52,20 @@ const posts = [
 ];
 
 
-export default function Page({ params }: { params: { category: string; slug: string } }) {
-  const { category, slug } = params;
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ category: string; slug: string }>;
+}) {
+  const { category, slug } = await params;
 
-  const post = posts.find((p) => p.city === category && p.slug === slug);
+  const post = posts.find(
+    (p) => p.city === category && p.slug === slug
+  );
 
-  if (!post) return notFound();
+  if (!post) {
+    return notFound();
+  }
 
   return <BlogDetail post={post} />;
 }
