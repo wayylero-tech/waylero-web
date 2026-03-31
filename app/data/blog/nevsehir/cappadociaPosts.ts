@@ -174,7 +174,7 @@ Kapadokya’nın en büyük kaya manastırlarından biri olan Selime Manastırı
 🚗 16:00 – 17:15 | Selime → Ortahisar Yolculuk
 ⏱️ Sürüş Süresi: ~1 saat 10 dk
 📍 Günün en uzun sürüşü
-⚠️ Not: Hafif yorgunluk olabilir, mola verebilirsin
+⚠️ Not: Hafif yorgunluk olabilir, mola verebilirsiniz
 🌇 17:30 - Ortahisar & Gün Batımı
 
 Günün finalini daha sakin ve otantik bir atmosfer sunan Ortahisar’da yapıyoruz.
@@ -204,8 +204,7 @@ Kapadokya’da en popüler aktivite olan sıcak hava balonları tamamen hava ko�
 
 📅 Öneri: Balon turunu mutlaka ilk güne planlayın
 🔁 İptal olursa sonraki güne kaydırma şansınız olur
-📸 Balona binmeseniz bile gün doğumunda izlemek ücretsiz ve eşsiz bir deneyimdir
-
+📸 Balona binmeseniz bile gün doğumunda izlemek ücretsiz ve eşsiz bir deneyim
 
 🚗 2. Araç Kiralama: Zaman Kazandırır
 
@@ -215,7 +214,6 @@ Eğer kendi aracınız ile gitmiyorsanız Kapadokya bölgesi geniş bir alana ya
 ⏱️ 2 günde daha fazla yer görmek için büyük avantaj sağlar
 🗺️ Özellikle Ihlara Vadisi ve Derinkuyu gibi uzak noktalar için şart
 
-
 👟 3. Doğru Ayakkabı Seçimi
 
 Kapadokya’da vadiler, taş yollar ve toprak parkurlar oldukça yaygındır.
@@ -224,7 +222,6 @@ Kapadokya’da vadiler, taş yollar ve toprak parkurlar oldukça yaygındır.
 ❌ Sandalet veya düz taban ayakkabılar önerilmez
 🏞️ Özellikle Ihlara ve Kızılçukur gibi vadilerde yürüyüş yoğun olur
 
-
 ⏰ 4. Erken Başla, Daha Fazla Gez
 
 Kapadokya deneyiminin en önemli kısmı gün doğumu saatleridir.
@@ -232,7 +229,6 @@ Kapadokya deneyiminin en önemli kısmı gün doğumu saatleridir.
 🌅 Gün doğumu = balonlar + en iyi manzara
 🧭 Sabah erken başlamak gün içinde daha fazla yer gezmenizi sağlar
 📸 Işık koşulları sabah saatlerinde fotoğraf için en iyisidir
-
 
 Kapadokya 2 Günde Gezilir mi?
 
@@ -255,7 +251,6 @@ Kapadokya gezi planınızı genişletmek, farklı rotalar ve gizli kalmış yerl
 Detaylar için tıkla 🔗 **[Kapadokya Gezilecek Yerler Rehberi](https://www.waylero.com/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
-
 `,
       en: `
 ## Cappadocia Travel Guide: Places to Visit in 2 Days and a Detailed Itinerary
@@ -278,15 +273,12 @@ Undoubtedly, the most iconic experience in Cappadocia is watching the hot air ba
 💡 Tip: Even if you don’t take a balloon ride, this view is completely free and one of Cappadocia’s most unforgettable moments
 🎈 Alternative: Hot air balloon tour (average 150–250€ per person, varies by season)
 
-
 ☕ 7:30 AM - Breakfast (Göreme)
 
 Enjoying a scenic breakfast in the center of Göreme after sunrise is an essential part of the Cappadocia experience.
 
 🥐 Recommendation: Choose spots with terraces and valley views
 📸 Tip: Choose spots where you can still see the hot air balloons during breakfast
-
-
 
 🏛️ 09:00 - Göreme Open-Air Museum
 
@@ -297,124 +289,122 @@ One of Cappadocia’s most significant historical sites, the Göreme Open-Air Mu
 🎟️ Admission: MüzeKart accepted
 💡 Tip: Visit early in the morning; it gets very crowded in the afternoon
 
-
 🏜️ 11:30 AM - Paşabağ (Valley of the Monks)
 
 One of Cappadocia’s most photogenic spots, Paşabağ Valley is famous for its unique fairy chimneys.
 
 ⏱️ Duration: 1 hour
 🏞️ Details: The area with the highest concentration of multi-headed (hatted) fairy chimneys
-📸 Photos: You can capture Cappadocia’s most iconic shots here
-
+📸 Photo Tip: Capture some of Cappadocia’s most iconic shots here
 
 🍽️ 1:00 PM - Lunch (Avanos)
 
-Avanos, the pottery center of Cappadocia, is the ideal stop for a meal break.
+Avanos, the pottery center of Cappadocia, is ideal for a lunch break.
 
-🍲 Recommendation: The famous clay pot kebab is a must-try
-🌊 Extra: You can take a short break by walking along the Kızılırmak River
-
+🍲 Recommendation: Try the famous testi kebab
+🌊 Extra: Take a short walk along the Kızılırmak River
 
 🐫 2:30 PM - Devrent Valley (Imagination Valley)
 
-Devrent Valley, where natural formations resemble animal figures, is one of Cappadocia’s most unique spots.
+Devrent Valley, where rock formations resemble animals, is one of the most unique spots in Cappadocia.
 
 ⏱️ Duration: 45 minutes
-🪨 Details: Rocks resembling camels, seals, and various other animals
-💰 Cost: Free
-
+🪨 Details: Rocks resembling camels, seals, and various animals
+💰 Fee: Free
 
 🏰 4:00 PM - Uçhisar Castle
 
-Uçhisar Castle, the highest point in Cappadocia, is famous for its unique panoramic views.
+The highest point in Cappadocia, Uçhisar Castle, is famous for its panoramic views.
 
 ⏱️ Duration: 1 hour
-🌄 Details: The best spot to view all of Cappadocia in a 360-degree panorama
-📸 Photo: Perfect for valley views in daylight
-
+🌄 Details: The best spot for a 360-degree view of all Cappadocia
+📸 Photo Tip: Ideal for valley views in daylight
 
 🌄 6:30 PM - Kızılçukur Valley Sunset
 
-We’ll wrap up the day at Kızılçukur Valley, one of Cappadocia’s most breathtaking sunset spots.
+End the day at Kızılçukur Valley, one of Cappadocia’s most impressive sunset spots.
 
 ⏱️ Duration: 1 – 1.5 hours
-🌅 Details: The valleys, bathed in red hues at sunset, offer a unique view
-🚶‍♂️ Tip: Involves a light hike; wear comfortable shoes
-💧 Note: Be sure to bring water
+🌅 Details: Valleys bathed in red tones at sunset offer a unique view
+🚶‍♂️ Tip: Light hiking required; wear comfortable shoes
+💧 Note: Bring water
 
 ---
 
-## Day 2: Underground Cities and Nature (Derinkuyu & Ihlara)
+## Day 2: Underground Cities & Nature (Derinkuyu & Ihlara)
 🏙️ 9:00 AM - Derinkuyu Underground City
 
-One of Cappadocia’s largest and most impressive underground cities, Derinkuyu Underground City offers a glimpse into how thousands of people once lived underground.
+Derinkuyu Underground City, one of Cappadocia’s largest and most impressive underground cities, shows how thousands of people lived underground.
 
-⏱️ Tour Duration: 1.5 hours
-🏛️ Details: 8-story structure, living quarters, churches, ventilation systems
+⏱️ Duration: 1.5 hours
+🏛️ Details: 8 floors, living areas, churches, ventilation systems
 🎟️ Admission: MüzeKart accepted
-⚠️ Tip: Tunnels may be narrow and low; those with claustrophobia should take caution
+⚠️ Tip: Tunnels may be narrow and low; caution for claustrophobic visitors
 
 🕐 Departure: 10:30
 
-🚗 10:30 – 11:15 | Derinkuyu → Ihlara Valley Trip
-⏱️ Drive Time: 40–45 minutes
+🚗 10:30 – 11:15 | Derinkuyu → Ihlara Valley
+⏱️ Travel Time: 40-45 minutes
 📍 Distance: ~35 km
-💡 Traffic is generally light in the morning
-🌿 11:15 – Ihlara Valley Hike
+💡 Tip: Morning traffic is usually light
 
-Where nature and history intertwine, Ihlara Valley is one of Cappadocia’s most unique hiking trails.
+🌿 11:15 - Ihlara Valley Hike
+
+Ihlara Valley, where nature and history intertwine, is one of Cappadocia’s most special hiking routes.
 
 ⏱️ Duration: 2 – 2.5 hours (optimized route)
-🚶‍♂️ Route: Descend the stairs → Walk along the Melendiz River
-🏞️ Highlights: Rock-carved churches, frescoes, and valley views
-📸 Photos: Countless stunning shots along the valley
+🚶‍♂️ Route: Descent from the stairs → walk along the Melendiz River
+🏞️ Details: Rock-cut churches, frescoes, and valley views
+📸 Photo Tip: Numerous great shots along the valley
 
-💡 Tip: You don’t have to walk the entire route; you can exit at the halfway point to manage your time
-🕐 End: 1:30 PM – 1:45 PM
+💡 Tip: You don’t have to walk the entire trail; exit from the mid-point to manage time
+
+🕐 Finish: 1:30 – 1:45 PM
 
 🍽️ 1:45 PM - Lunch (Belisırma Village)
 
-Located in the heart of Ihlara, Belisırma Village offers a dining experience surrounded by nature.
+Belisırma Village in the heart of Ihlara offers a nature-immersed dining experience.
 
-🌊 Experience: Dining at tables set up over the river
+🌊 Experience: Dining at tables set over the river
 🍴 Recommendation: Gözleme + trout + ayran
-😌 Atmosphere: Cool, peaceful, and completely natural
+😌 Atmosphere: Cool, peaceful, and natural
 
 🕐 Departure: 2:45 PM
 
-🚗 2:45 PM – 3:00 PM | Belisırma → Selime Monastery
-⏱️ Drive Time: 15 minutes
-📍 A short and comfortable drive
-🏛️ 3:00 PM – Selime Monastery
+🚗 2:45 – 3:00 | Belisırma → Selime Monastery
+⏱️ Travel Time: 15 minutes
+📍 Short and easy transfer
 
-One of Cappadocia’s largest rock-cut monasteries, Selime Monastery captivates with its massive structure.
+🏛️ 3:00 PM - Selime Monastery
+
+Selime Monastery, one of Cappadocia’s largest rock monasteries, impresses with its massive structure.
 
 ⏱️ Duration: 1 hour
-🏛️ Details: A cathedral carved into the rock, prayer areas, and living quarters
-🌄 View: A unique panorama overlooking Ihlara Valley
+🏛️ Details: Cathedral carved into rock, prayer and living areas
+🌄 View: Panoramic view of Ihlara Valley
 📸 Photo: Dramatic rock formations in daylight
 
 🕐 Departure: 4:00 PM
 
-🚗 4:00 PM – 5:15 PM | Selime → Ortahisar Drive
-⏱️ Drive Time: ~1 hour 10 min
-📍 The longest drive of the day
-⚠️ Note: You may feel slightly tired; feel free to take a break
-🌇 5:30 PM – Ortahisar & Sunset
+🚗 4:00 – 5:15 | Selime → Ortahisar
+⏱️ Travel Time: ~1 hour 10 min
+📍 Longest drive of the day
+⚠️ Note: Light fatigue possible; take a break if needed
 
+🌇 5:30 PM - Ortahisar & Sunset
 
-We’ll wrap up the day in Ortahisar, which offers a more peaceful and authentic atmosphere.
+End the day in Ortahisar, offering a calmer and more authentic atmosphere.
 
-⏱️ Duration: 1–1.5 hours
-🏰 Details: The area around Ortahisar Castle is more local and away from the crowds
-🌅 Finale: One of Cappadocia’s most peaceful sunsets
+⏱️ Duration: 1 – 1.5 hours
+🏰 Details: Less crowded area around Ortahisar Castle
+🌅 Sunset: One of Cappadocia’s most peaceful sunsets
 📸 Tip: Perfect for golden hour photos
-🔥 Day Summary (Realistic Plan)
-🚗 Total driving time: ~2 hours 30 min
-🚶‍♂️ Total walking time: ~6–7 hours
-⏱️ Total day: ~9 hours
 
-👉 Difficulty: Moderate – Exhausting (but fully packed and worth it)
+🔥 Day Summary (Realistic Plan)
+🚗 Total driving: ~2 hours 30 min
+🚶‍♂️ Total walking: ~6-7 hours
+⏱️ Total day: ~9 hours
+Difficulty: Medium – Challenging (full but worthwhile)
 
 ---
 
@@ -478,16 +468,11 @@ To expand your Cappadocia travel plan and discover different routes and hidden g
 👉 With detailed content, ready-made itineraries, and tools for creating personalized plans, you can plan your trip like a pro.
 
 ---
-Click here for details 🔗 **[Cappadocia Travel Guide](https://www.waylero.com/en/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
+Click here for details 🔗 **[Cappadocia Travel Guide](https://www.waylero.com/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
-
-
-
-
-
-
+`
     }
   }
 ];
