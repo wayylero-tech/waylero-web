@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers"; // 🔥 headers eklendi
 import PlaceSlider from "./PlaceSlider";
 
-// Data importları
+// Data importları (Aynen korundu)
 import turkey from "../../../../data/turkey.json";
 import europa from "../../../../data/europa.json";
 import asia from "../../../../data/asia.json";
@@ -23,11 +23,8 @@ const countryToRegionMap: Record<string, string> = {
   isvec: "europa", norvec: "europa", isvicre: "europa", slovakya: "europa", 
   finlandiya: "europa", irlanda: "europa", "bosna-hersek": "europa", 
   gurcistan: "europa", balerus: "europa", iskocya: "europa", galler: "europa", 
-  cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "europa", 
-  bae: "europa", rusya: "europa", malezya: "europa", endonezya: "europa", 
-  japonya: "asia", "sri-lanka": "asia", misir: "europa", "suudi-arabistan": "europa", 
-  umman: "europa", amerika: "europa", peru: "europa", avustralya: "europa", 
-  filipinler: "europa", kktc: "europa", singapur: "europa",
+  cin: "asia", hindistan: "asia", tayland: "asia", "guney-kore": "asia", 
+  japonya: "asia", "sri-lanka": "asia", kktc: "turkey", singapur: "asia",
 };
 
 const slugify = (text: string) => {
@@ -36,12 +33,23 @@ const slugify = (text: string) => {
   return text.toString().toLowerCase().replace(/[çğışüö]/g, (m) => trMap[m]).trim().replace(/\s+/g, "-").replace(/[^\w-]/g, "").replace(/--+/g, "-");
 };
 
+// 🔥 YENİ: URL'den Dili Çözen Fonksiyon
+async function getLanguage() {
+  const headerList = await headers();
+  const pathname = headerList.get("x-invoke-path") || ""; 
+  // Eğer URL /en/ ile başlıyorsa direkt 'en' döndür
+  if (pathname.startsWith("/en") || (headerList.get("referer")?.includes("/en/"))) {
+    return "en";
+  }
+  const cookieStore = await cookies();
+  return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+}
+
 type Props = { params: Promise<{ region: string; city: string; place: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, city, place } = await params;
-  const cookieStore = await cookies();
-  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en" | "de";
+  const lang = await getLanguage(); // 🔥 Çerez yerine akıllı dil kontrolü
 
   const mainRegion = countryToRegionMap[region] || region;
   const regionData = allData[mainRegion];
@@ -53,19 +61,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const foundPlace = regionData[cityKey].find((p: any) => slugify(p.slug) === slugify(decodeURIComponent(place)));
   if (!foundPlace) return {};
 
-  // 🔥 SEO İÇİN KRİTİK: Dinamik Linkleri Oluşturuyoruz
   const baseUrl = "https://www.waylero.com";
-  // region, city ve place zaten url'den geliyor, onları kullanarak yolları oluşturuyoruz
   const trPath = `/kesfet/${region}/${city}/${place}`;
   const enPath = `/en/kesfet/${region}/${city}/${place}`;
 
   return {
     title: `${foundPlace.name?.[lang] || foundPlace.name?.tr} | Waylero`,
     description: (foundPlace.description?.[lang] || foundPlace.description?.tr)?.slice(0, 155),
-    
-    // 🔥 Google'a "İkiz Sayfaları" Bildiriyoruz
     alternates: {
-      canonical: `${baseUrl}${trPath}`,
+      // 🔥 DÜZELTME: Hangi dildeysek asıl link o olmalı
+      canonical: `${baseUrl}${lang === "en" ? enPath : trPath}`,
       languages: {
         "tr-TR": `${baseUrl}${trPath}`,
         "en-US": `${baseUrl}${enPath}`,
@@ -76,16 +81,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { region, city, place } = await params;
-  
-  const cookieStore = await cookies();
-  // 🔥 de desteğini de ekledik
-  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en" | "de";
+  const lang = await getLanguage(); // 🔥 URL'yi dinleyen dil kontrolü
 
   const t = {
     tr: { about: "Mekan Hakkında", todo: "Neler Yapılır?", location: "Konum", noPhoto: "Bu mekan için henüz fotoğraf eklenmemiş." },
-    en: { about: "About the Place", todo: "Things to Do", location: "Location", noPhoto: "No photos added for this place yet." },
-    de: { about: "Über den Ort", todo: "Was man tun kann", location: "Standort", noPhoto: "Für diesen Ort wurden noch keine Fotos hinzugefügt." }
-  }[lang];
+    en: { about: "About the Place", todo: "Things to Do", location: "Location", noPhoto: "No photos added for this place yet." }
+  }[lang] || { about: "Mekan Hakkında", todo: "Neler Yapılır?", location: "Konum", noPhoto: "Bu mekan için henüz fotoğraf eklenmemiş." };
 
   const mainRegion = countryToRegionMap[region] || region;
   const regionData = allData[mainRegion];
@@ -97,7 +98,6 @@ export default async function Page({ params }: Props) {
   const foundPlace = regionData[cityKey].find((p: any) => slugify(p.slug) === slugify(decodeURIComponent(place)));
   if (!foundPlace) return notFound();
 
-  // 🔥 JSON Yapına Tam Uyumlu Çekim (Nested Object Access)
   const displayName = foundPlace.name?.[lang] || foundPlace.name?.tr;
   const displayDesc = foundPlace.description?.[lang] || foundPlace.description?.tr;
   const displayActivities = foundPlace.activities?.[lang] || foundPlace.activities?.tr || [];
