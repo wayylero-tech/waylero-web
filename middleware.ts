@@ -57,31 +57,48 @@ const sanitize = (str: string) => str.toLowerCase()
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const response = NextResponse.next(); // Varsayılan cevap
 
-  // 🔥 1. ADIM: DİL ÖN EKİ KONTROLÜ (Sadece EN kalıyor)
-  if (pathname.startsWith('/en/') || pathname === '/en') {
-    return NextResponse.next();
+ // 🔥 1. ADIM: DİL YÖNETİMİ
+  const isEn = pathname.startsWith('/en/') || pathname === '/en';
+  
+  // Mevcut request header'larını kopyala
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
+
+  // Yeni header'larla devam et
+  const response = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
+
+  if (isEn) {
+    response.cookies.set('lang', 'en', { path: '/' });
   }
 
   const parts = pathname.split('/');
 
-  // 🔥 2. ADIM: MEKAN SAYFALARI YÖNLENDİRMESİ
+  // Mekan sayfaları yönlendirmesi
   if (pathname.startsWith('/kesfet/') && parts.length >= 4) {
     const regionOrCountry = parts[2];
     const cityInUrl = sanitize(parts[3]);
+    // @ts-ignore (cityToCountryMap sende yukarıda tanımlı)
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry && targetCountry !== regionOrCountry) {
       const slug = parts.slice(4).join('/');
       let newPath = `/kesfet/${targetCountry}/${parts[3]}`;
       if (slug) newPath += `/${slug}`;
+      // Redirect yaparken dili korumak için 301 atıyoruz
       return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
     }
   }
 
-  // 🔥 3. ADIM: ŞEHİR SAYFALARI YÖNLENDİRMESİ (/istanbul -> /turkiye/istanbul)
+  // Şehir sayfaları yönlendirmesi
   if (parts.length === 2 && !pathname.startsWith('/kesfet/') && pathname !== '/' && !pathname.includes('.')) {
     const cityInUrl = sanitize(parts[1]);
+    // @ts-ignore
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry) {
@@ -89,7 +106,7 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  return NextResponse.next();
+  return response;
 }
 
 export const config = {
