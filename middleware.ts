@@ -57,24 +57,33 @@ const sanitize = (str: string) => str.toLowerCase()
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const response = NextResponse.next(); // Varsayılan cevap
 
- // 🔥 1. ADIM: DİL YÖNETİMİ
+  // 🔥 1. ADIM: DİL YÖNETİMİ VE HEADER HAZIRLIĞI
   const isEn = pathname.startsWith('/en/') || pathname === '/en';
   
-  // Mevcut request header'larını kopyala
+  // Request header'larını kopyalayıp yenisini ekliyoruz
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
 
-  // Yeni header'larla devam et
+  // Tek bir response tanımlıyoruz ve içine request header'larını gömüyoruz
   const response = NextResponse.next({
     request: {
       headers: requestHeaders,
     },
   });
 
+  // Eğer İngilizce ise çerezi de güncelle
   if (isEn) {
     response.cookies.set('lang', 'en', { path: '/' });
+  } else {
+    // Normal yollarda da x-url-lang 'tr' kalsın (isteğe bağlı)
+    response.headers.set('x-url-lang', 'tr');
+  }
+
+  // 🔥 2. ADIM: MEVCUT YÖNLENDİRME MANTIĞIN
+  // Eğer EN ise direkt bu response ile devam et
+  if (isEn) {
+     return response; 
   }
 
   const parts = pathname.split('/');
@@ -83,14 +92,14 @@ export function middleware(request: NextRequest) {
   if (pathname.startsWith('/kesfet/') && parts.length >= 4) {
     const regionOrCountry = parts[2];
     const cityInUrl = sanitize(parts[3]);
-    // @ts-ignore (cityToCountryMap sende yukarıda tanımlı)
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry && targetCountry !== regionOrCountry) {
       const slug = parts.slice(4).join('/');
       let newPath = `/kesfet/${targetCountry}/${parts[3]}`;
       if (slug) newPath += `/${slug}`;
-      // Redirect yaparken dili korumak için 301 atıyoruz
+      
+      // Redirect yaparken dilden bağımsız 301 atıyoruz
       return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
     }
   }
@@ -98,7 +107,6 @@ export function middleware(request: NextRequest) {
   // Şehir sayfaları yönlendirmesi
   if (parts.length === 2 && !pathname.startsWith('/kesfet/') && pathname !== '/' && !pathname.includes('.')) {
     const cityInUrl = sanitize(parts[1]);
-    // @ts-ignore
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry) {
@@ -106,9 +114,6 @@ export function middleware(request: NextRequest) {
     }
   }
 
+  // Hiçbirine girmezse hazırladığımız dilli response'u dön
   return response;
 }
-
-export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|images|data|.*\\.).*)'],
-};
