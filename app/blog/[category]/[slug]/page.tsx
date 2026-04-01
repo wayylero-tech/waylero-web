@@ -23,6 +23,7 @@ import { spainPosts } from "@/app/data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
+// 🔹 Tüm postları birleştirdik
 const posts = [
   ...generalPosts,
   ...uygulamaPosts,
@@ -47,51 +48,45 @@ const posts = [
   ...cappadociaPosts,
 ];
 
+// 🔹 Param tipi
+interface Params {
+  category: string;
+  slug: string;
+}
 
-// ✅ SEO METADATA (EN KRİTİK KISIM)
-export async function generateMetadata({ params }) {
-  const { category, slug } = await params;
+// ✅ SEO METADATA
+export function generateMetadata({ params }: { params: Params }) {
+  const { category, slug } = params;
 
-  const post = posts.find(
-    (p) => p.city === category && p.slug === slug
-  );
-
+  const post = posts.find((p) => p.city === category && p.slug === slug);
   if (!post) return {};
 
   const seo = post.seo?.tr;
+  const title = typeof post.title === "object" ? post.title.tr : post.title;
 
   return {
-    title: seo?.title || post.title,
+    title: seo?.title || title,
     description: seo?.description,
     alternates: {
       canonical: `https://www.waylero.com/blog/${category}/${slug}`,
     },
     openGraph: {
-      title: seo?.title || post.title,
+      title: seo?.title || title,
       description: seo?.description,
-      images: [post.image],
+      images: post.image ? [post.image] : [],
       url: `https://www.waylero.com/blog/${category}/${slug}`,
       type: "article",
     },
   };
 }
 
-
 // ✅ PAGE
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ category: string; slug: string }>;
-}) {
-  const { category, slug } = await params;
+export default function Page({ params }: { params: Params }) {
+  const { category, slug } = params;
 
-  const post = posts.find(
-    (p) => p.city === category && p.slug === slug
-  );
+  const post = posts.find((p) => p.city === category && p.slug === slug);
 
-  if (!post) {
-    return notFound();
-  }
+  if (!post) return notFound();
 
   return <BlogDetail post={post} />;
 }
