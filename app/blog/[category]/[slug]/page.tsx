@@ -68,8 +68,11 @@ export async function generateMetadata({
 
   if (!post) return { title: "Sayfa Bulunamadı - Waylero" };
 
-  const titleText = typeof post.title === "object" ? post.title["tr"] : post.title;
-  const descriptionText = typeof post.description === "object" ? post.description["tr"] : post.description;
+  const postAny = post as any;
+  const titleText = typeof postAny.title === "object" ? postAny.title["tr"] : postAny.title;
+  const descriptionText = postAny.seo?.description || 
+    (typeof postAny.excerpt === "object" ? postAny.excerpt["tr"] : postAny.excerpt) ||
+    (typeof postAny.description === "object" ? postAny.description["tr"] : postAny.description);
 
   const fullUrl = `https://www.waylero.com/blog/${category}/${slug}`;
 
