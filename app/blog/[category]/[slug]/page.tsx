@@ -1,7 +1,6 @@
 import BlogDetail from "./BlogDetail";
 import { notFound } from "next/navigation";
 
-// Tüm post importları
 import { generalPosts } from "@/app/data/blog/muzekart/posts";
 import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
 import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
@@ -24,47 +23,43 @@ import { spainPosts } from "@/app/data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
-// Tüm postları tek yerde topluyoruz
-const allPosts = [
-  generalPosts,
-  uygulamaPosts,
-  antikkentPosts,
-  konyaPosts,
-  istanbulPosts,
-  konyaPosts2,
-  konyaRehberPost,
-  selalelerRehberPost,
-  magaralarRehberPost,
-  turkeyPost,
-  kanyonlarRehberPosts,
-  mersinRehberPosts,
-  turkiyeEnCokZiyaretEdilen10YerPost,
-  antalyaRehberPost,
-  trekkingPosts,
-  istanbulRehberPosts,
-  antalyaPosts2,
-  ispanyaRehberPosts,
-  spainPosts,
-  nevsehirRehberPosts,
-  cappadociaPosts,
-].flat();
+const posts = [
+  ...generalPosts,
+  ...uygulamaPosts,
+  ...antikkentPosts,
+  ...konyaPosts,
+  ...istanbulPosts,
+  ...konyaPosts2,
+  ...konyaRehberPost,
+  ...selalelerRehberPost,
+  ...magaralarRehberPost,
+  ...turkeyPost,
+  ...kanyonlarRehberPosts,
+  ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost,
+  ...antalyaRehberPost,
+  ...trekkingPosts,
+  ...istanbulRehberPosts,
+  ...antalyaPosts2,
+  ...ispanyaRehberPosts,
+  ...spainPosts,
+  ...nevsehirRehberPosts,
+  ...cappadociaPosts,
+];
 
-type PageProps = {
-  params: {
-    category: string;
-    slug: string;
-  };
-};
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ category: string; slug: string }>;
+}) {
+  const { category, slug } = await params;
 
-export default function Page({ params }: PageProps) {
-  const { category, slug } = params;
-
-  const post = allPosts.find(
+  const post = posts.find(
     (p) => p.city === category && p.slug === slug
   );
 
   if (!post) {
-    notFound();
+    return notFound();
   }
 
   return <BlogDetail post={post} />;
