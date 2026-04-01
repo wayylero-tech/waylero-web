@@ -23,7 +23,6 @@ import { spainPosts } from "@/app/data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
-// 🔹 Tüm postları birleştirdik
 const posts = [
   ...generalPosts,
   ...uygulamaPosts,
@@ -48,7 +47,7 @@ const posts = [
   ...cappadociaPosts,
 ];
 
-// 🔹 Param tipi
+// Param tipi
 interface Params {
   category: string;
   slug: string;
@@ -57,22 +56,33 @@ interface Params {
 // ✅ SEO METADATA
 export function generateMetadata({ params }: { params: Params }) {
   const { category, slug } = params;
-
   const post = posts.find((p) => p.city === category && p.slug === slug);
   if (!post) return {};
 
-  const seo = post.seo?.tr;
+  // 🔹 SEO objesi tip güvenli şekilde seçiliyor
+  let seoTitle = "";
+  let seoDescription = "";
+  if (post.seo) {
+    if ("tr" in post.seo) {
+      seoTitle = post.seo.tr.title;
+      seoDescription = post.seo.tr.description;
+    } else {
+      seoTitle = post.seo.title;
+      seoDescription = post.seo.description;
+    }
+  }
+
   const title = typeof post.title === "object" ? post.title.tr : post.title;
 
   return {
-    title: seo?.title || title,
-    description: seo?.description,
+    title: seoTitle || title,
+    description: seoDescription,
     alternates: {
       canonical: `https://www.waylero.com/blog/${category}/${slug}`,
     },
     openGraph: {
-      title: seo?.title || title,
-      description: seo?.description,
+      title: seoTitle || title,
+      description: seoDescription,
       images: post.image ? [post.image] : [],
       url: `https://www.waylero.com/blog/${category}/${slug}`,
       type: "article",
@@ -83,10 +93,7 @@ export function generateMetadata({ params }: { params: Params }) {
 // ✅ PAGE
 export default function Page({ params }: { params: Params }) {
   const { category, slug } = params;
-
   const post = posts.find((p) => p.city === category && p.slug === slug);
-
   if (!post) return notFound();
-
   return <BlogDetail post={post} />;
 }
