@@ -64,34 +64,62 @@ export async function generateMetadata({
   params: Promise<{ category: string; slug: string }>;
 }): Promise<Metadata> {
   const { category, slug } = await params;
+  
+  // Postu bulalım
   const post = posts.find((p) => p.city === category && p.slug === slug);
 
-  if (!post) return { title: "Sayfa Bulunamadı - Waylero" };
+  // Eğer post yoksa standart hata başlığı
+  if (!post) {
+    return { 
+      title: "Sayfa Bulunamadı | Waylero Blog",
+      robots: { index: false } // Olmayan sayfayı indexletmeyelim
+    };
+  }
 
   const postAny = post as any;
-  const titleText = typeof postAny.title === "object" ? postAny.title["tr"] : postAny.title;
-  const descriptionText = postAny.seo?.description || 
+
+  // Başlığı Çekme: Önce 'tr' objesine bak, yoksa direkt title'a bak, o da yoksa slug'dan üret
+  const titleText = (typeof postAny.title === "object" ? postAny.title["tr"] : postAny.title) 
+                    || "Gezi Rehberi";
+
+  // Açıklamayı Çekme: SEO description -> Excerpt -> Description sırasıyla kontrol
+  let descriptionText = postAny.seo?.description || 
     (typeof postAny.excerpt === "object" ? postAny.excerpt["tr"] : postAny.excerpt) ||
     (typeof postAny.description === "object" ? postAny.description["tr"] : postAny.description);
 
+  // Eğer description hala boşsa kısa bir default metin oluştur
+  if (!descriptionText) {
+    descriptionText = `${titleText} hakkında bilmeniz gereken her şey, gezilecek yerler ve ipuçları Waylero Blog'da.`;
+  }
+
   const fullUrl = `https://www.waylero.com/blog/${category}/${slug}`;
+  const metaTitle = `${titleText} | Waylero Blog`;
 
   return {
-    title: `${titleText} | Waylero Blog`,
-    description: descriptionText || `${titleText} hakkında detaylı gezi rehberi ve tavsiyeler.`,
+    title: metaTitle,
+    description: descriptionText,
     alternates: {
       canonical: fullUrl,
     },
     openGraph: {
-      title: titleText,
+      title: metaTitle,
       description: descriptionText,
       url: fullUrl,
+      siteName: 'Waylero',
+      locale: 'tr_TR',
       type: "article",
-      images: post.image ? [{ url: post.image }] : [],
+      images: post.image ? [
+        {
+          url: post.image,
+          width: 1200,
+          height: 630,
+          alt: titleText,
+        }
+      ] : [],
     },
     twitter: {
       card: "summary_large_image",
-      title: titleText,
+      title: metaTitle,
       description: descriptionText,
       images: post.image ? [post.image] : [],
     },
