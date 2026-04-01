@@ -1,163 +1,122 @@
 "use client";
 
-import { useState } from "react";
-import ReactMarkdown from "react-markdown";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Keyboard, Autoplay } from "swiper/modules";
+import Link from "next/link";
 import { useLang } from "@/app/context/LanguageContext";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// 🔹 Tüm veri importları
+import { generalPosts } from "@/app/data/blog/muzekart/posts";
+import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
+import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
+import { konyaPosts } from "../data/blog/konya/posts";
+import { istanbulPosts } from "../data/blog/istanbul/posts";
+import { konyaPosts2 } from "../data/blog/konya/posts2";
+import { konyaRehberPost } from "../data/blog/konya/posts3";
+import { selalelerRehberPost } from "../data/blog/selale/posts";
+import { magaralarRehberPost } from "../data/blog/magaralar/posts";
+import { turkeyPost } from "../data/blog/turkey/posts";
+import { kanyonlarRehberPosts } from "../data/blog/kanyonlar/posts";
+import { mersinRehberPosts } from "../data/blog/mersin/posts";
+import { turkiyeEnCokZiyaretEdilen10YerPost } from "../data/blog/ziyaretedilenonyer/posts";
+import { antalyaRehberPost } from "../data/blog/antalya/posts";
+import { trekkingPosts } from "../data/blog/likya/posts";
+import { istanbulRehberPosts } from "../data/blog/istanbul/post";
+import { antalyaPosts2 } from "../data/blog/antalya/posts2";
+import { ispanyaRehberPosts } from "../data/blog/ispanya/posts";
+import { spainPosts } from "../data/blog/ispanya/posts2";
+import { nevsehirRehberPosts } from "../data/blog/nevsehir/posts";
+import { cappadociaPosts } from "../data/blog/nevsehir/cappadociaPosts";
 
-// 🔹 Tip
+// 🔹 Tüm postları tek yerde topla
+const allPosts = [
+  generalPosts,
+  uygulamaPosts,
+  antikkentPosts,
+  konyaPosts,
+  istanbulPosts,
+  konyaPosts2,
+  konyaRehberPost,
+  selalelerRehberPost,
+  magaralarRehberPost,
+  turkeyPost,
+  kanyonlarRehberPosts,
+  mersinRehberPosts,
+  turkiyeEnCokZiyaretEdilen10YerPost,
+  antalyaRehberPost,
+  trekkingPosts,
+  istanbulRehberPosts,
+  antalyaPosts2,
+  ispanyaRehberPosts,
+  spainPosts,
+  nevsehirRehberPosts,
+  cappadociaPosts,
+].flat();
+
+// 🔹 Tipler
+type Lang = "tr" | "en";
 type LocalizedField = string | Record<string, string>;
 
-type Post = {
-  title: LocalizedField;
-  content?: LocalizedField;
-  image?: string;
-  gallery?: string[];
-};
-
-// 🔹 Dilli veri çözümleyici
-function resolveLang(field: LocalizedField | undefined, lang: string) {
-  if (!field) return "";
+function resolveLang(field: LocalizedField, lang: Lang) {
   if (typeof field === "string") return field;
-  return field[lang] || field["tr"] || "";
+  return field[lang] || field["tr"];
 }
 
-export default function BlogDetail({ post }: { post: Post }) {
-  const { lang } = useLang();
-  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+function buildLink(path: string, lang: Lang) {
+  if (lang === "tr") return path;
+  return `/${lang}${path.startsWith("/") ? path : `/${path}`}`;
+}
 
-  const title = resolveLang(post.title, lang);
-  const content = resolveLang(post.content, lang);
+export default function BlogPage() {
+  const { lang } = useLang() as { lang: Lang };
 
-  const images =
-    post.gallery?.length
-      ? post.gallery
-      : post.image
-      ? [post.image]
-      : [];
+  const title =
+    {
+      tr: "Seyahat Rehberi ✍️",
+      en: "Travel Guide ✍️",
+    }[lang] || "Travel Guide ✍️";
 
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4">
+    <main className="max-w-6xl mx-auto py-10 px-4">
       
-      {/* 🔹 Başlık */}
-      <h1 className="text-3xl md:text-5xl font-black mb-12 text-center text-gray-900 leading-tight">
-        {title}
-      </h1>
+      {/* 🔹 Sayfa Başlığı */}
+      <h1 className="text-3xl font-bold mb-8">{title}</h1>
 
-      {/* 🔹 Slider */}
-      {images.length > 0 && (
-        <div className="mb-16">
-          <Swiper
-            modules={[Navigation, Pagination, Keyboard, Autoplay]}
-            slidesPerView={1}
-            spaceBetween={20}
-            navigation={images.length > 1}
-            pagination={{ clickable: true }}
-            keyboard={{ enabled: true }}
-            loop={images.length > 1}
-            autoplay={
-              images.length > 1
-                ? { delay: 4000, disableOnInteraction: false }
-                : false
-            }
-            breakpoints={{
-              640: { slidesPerView: images.length > 1 ? 2 : 1 },
-            }}
-            className="rounded-[2.5rem] overflow-hidden"
-          >
-            {images.map((img, i) => (
-              <SwiperSlide key={i}>
-                <div
-                  className="relative w-full aspect-video bg-gray-100 cursor-zoom-in"
-                  onClick={() => setLightboxImage(img)}
-                >
-                  <img
-                    src={img}
-                    alt={title}
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      )}
+      {/* 🔹 Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {allPosts.map((post, i) => {
+          const href = buildLink(`/blog/${post.city}/${post.slug}`, lang);
 
-      {/* 🔹 Lightbox */}
-      {lightboxImage && (
-        <div
-          onClick={() => setLightboxImage(null)}
-          className="fixed inset-0 bg-black/95 flex items-center justify-center z-[999] p-4"
-        >
-          <img
-            src={lightboxImage}
-            alt="preview"
-            className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg"
-          />
-          <button className="absolute top-6 right-6 text-white text-3xl">
-            ×
-          </button>
-        </div>
-      )}
+          const postTitle = resolveLang(post.title, lang);
+          const postExcerpt = post.excerpt
+            ? resolveLang(post.excerpt, lang)
+            : "";
 
-      {/* 🔹 Content */}
-      {content && (
-        <div className="max-w-3xl mx-auto">
-          <ReactMarkdown
-            components={{
-              h1: ({ children }) => (
-                <h1 className="text-3xl font-bold mt-12 mb-6">{children}</h1>
-              ),
-              h2: ({ children }) => (
-                <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3">
-                  {children}
-                </h2>
-              ),
-              h3: ({ children }) => (
-                <h3 className="text-xl font-bold mt-8 mb-4">{children}</h3>
-              ),
-              p: ({ children }) => (
-                <p className="text-lg leading-9 mb-6 text-gray-700 text-justify">
-                  {children}
+          return (
+            <Link
+              key={`${post.slug}-${i}`}
+              href={href}
+              className="group w-full h-80 rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100"
+            >
+              
+              {/* 🔹 Image */}
+              <div
+                className="h-44 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                style={{ backgroundImage: `url(${post.image})` }}
+              />
+
+              {/* 🔹 Content */}
+              <div className="p-4">
+                <h3 className="font-bold text-gray-900 text-sm line-clamp-2 group-hover:text-blue-600 transition-colors">
+                  {postTitle}
+                </h3>
+
+                <p className="text-xs text-gray-500 mt-2 line-clamp-2 leading-relaxed">
+                  {postExcerpt}
                 </p>
-              ),
-              ul: ({ children }) => (
-                <ul className="list-disc pl-6 mb-8 space-y-3 text-lg">
-                  {children}
-                </ul>
-              ),
-              ol: ({ children }) => (
-                <ol className="list-decimal pl-6 mb-8 space-y-3 text-lg">
-                  {children}
-                </ol>
-              ),
-              li: ({ children }) => (
-                <li className="leading-relaxed">{children}</li>
-              ),
-              blockquote: ({ children }) => (
-                <blockquote className="border-l-4 border-blue-500 pl-6 py-2 my-8 italic bg-blue-50">
-                  {children}
-                </blockquote>
-              ),
-              hr: () => <hr className="my-12 border-gray-200" />,
-              img: ({ src, alt }) => (
-                <img
-                  src={src || ""}
-                  alt={alt || ""}
-                  className="rounded-3xl my-10 shadow-lg w-full"
-                />
-              ),
-            }}
-          >
-            {content}
-          </ReactMarkdown>
-        </div>
-      )}
-    </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </main>
   );
 }
