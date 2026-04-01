@@ -57,7 +57,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// 2. DİNAMİK SEO METADATA YÖNETİMİ
 export async function generateMetadata({
   params,
 }: {
@@ -65,31 +64,39 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { category, slug } = await params;
   
-  // Postu bulalım
-  const post = posts.find((p) => p.city === category && p.slug === slug);
+  // 🟢 DEBUG LOG 1: Gelen parametreleri kontrol edelim
+  console.log(`🔎 [Metadata Sorgusu] Kategori: ${category} | Slug: ${slug}`);
 
-  // Eğer post yoksa standart hata başlığı
+  // Postu bulalım (Case-insensitive: Büyük/küçük harf duyarlılığını ortadan kaldırdık)
+  const post = posts.find((p) => 
+    p.city.toLowerCase() === category.toLowerCase() && 
+    p.slug === slug
+  );
+
+  // 🔴 DEBUG LOG 2: Eşleşme durumunu kontrol edelim
   if (!post) {
+    console.error(`❌ [Metadata Hatası] Post bulunamadı! Aranan -> City: ${category}, Slug: ${slug}`);
     return { 
       title: "Sayfa Bulunamadı | Waylero Blog",
-      robots: { index: false } // Olmayan sayfayı indexletmeyelim
+      description: "Aradığınız gezi rehberi bulunamadı.",
+      robots: { index: false }
     };
   }
 
+  // 🔵 DEBUG LOG 3: Post bulunduysa başlığı görelim
   const postAny = post as any;
-
-  // Başlığı Çekme: Önce 'tr' objesine bak, yoksa direkt title'a bak, o da yoksa slug'dan üret
   const titleText = (typeof postAny.title === "object" ? postAny.title["tr"] : postAny.title) 
                     || "Gezi Rehberi";
+  
+  console.log(`✅ [Metadata Başarı] Bulunan Başlık: ${titleText}`);
 
-  // Açıklamayı Çekme: SEO description -> Excerpt -> Description sırasıyla kontrol
+  // Açıklama (SEO -> Excerpt -> Description)
   let descriptionText = postAny.seo?.description || 
     (typeof postAny.excerpt === "object" ? postAny.excerpt["tr"] : postAny.excerpt) ||
     (typeof postAny.description === "object" ? postAny.description["tr"] : postAny.description);
 
-  // Eğer description hala boşsa kısa bir default metin oluştur
   if (!descriptionText) {
-    descriptionText = `${titleText} hakkında bilmeniz gereken her şey, gezilecek yerler ve ipuçları Waylero Blog'da.`;
+    descriptionText = `${titleText} hakkında detaylı gezi rehberi ve tavsiyeler Waylero Blog'da.`;
   }
 
   const fullUrl = `https://www.waylero.com/blog/${category}/${slug}`;
