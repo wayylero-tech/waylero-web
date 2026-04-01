@@ -1,11 +1,27 @@
-<<<<<<< HEAD
-import { headers } from "next/headers";
+"use client";
 
-export default async function AboutPage() {
-  // 🔥 Dil kontrolü
-  const headerList = await headers();
-  const lang = headerList.get("x-url-lang") || "tr";
+import { useEffect } from "react";
+import { useLang } from "@/app/context/LanguageContext";
+import { useRouter, usePathname } from "next/navigation";
+
+export default function AboutPage() {
+  const { lang } = useLang();
+  const router = useRouter();
+  const pathname = usePathname();
+
   const isEn = lang === "en";
+
+  // URL SENKRONİZASYONU
+  useEffect(() => {
+    const isUrlEn = pathname.startsWith("/en/");
+
+    if (isEn && !isUrlEn) {
+      router.push(`/en${pathname}`, { scroll: false });
+    } else if (!isEn && isUrlEn) {
+      const newPath = pathname.replace("/en", "");
+      router.push(newPath || "/", { scroll: false });
+    }
+  }, [lang, pathname, router, isEn]);
 
   const content = {
     title: isEn ? "About Us" : "Hakkımızda",
@@ -48,82 +64,6 @@ export default async function AboutPage() {
     futureP2: isEn
       ? "We thank everyone who is with us on this journey. Keep exploring."
       : "Bu yolculukta bizimle olan herkese teşekkür ederiz. Keşfetmeye devam.",
-=======
-"use client";
-
-import { useEffect } from "react";
-import { useLang } from "@/app/context/LanguageContext";
-import { useRouter, usePathname } from "next/navigation";
-
-export default function AboutPage() {
-  const { lang } = useLang();
-  const router = useRouter();
-  const pathname = usePathname();
-
-  const isEn = lang === "en";
-
-  // 🔥 URL SENKRONİZASYONU (TermsPage ile aynı)
-  useEffect(() => {
-    const isUrlEn = pathname.startsWith("/en/");
-
-    if (isEn && !isUrlEn) {
-      router.push(`/en${pathname}`, { scroll: false });
-    } else if (!isEn && isUrlEn) {
-      const newPath = pathname.replace("/en", "");
-      router.push(newPath || "/", { scroll: false });
-    }
-  }, [lang, pathname, router, isEn]);
-
-  const content = {
-    title: isEn ? "About Us" : "Hakkımızda",
-    introP1: isEn 
-      ? "Waylero is a discovery platform born to bring together the paths, stories, and experiences of people who love to explore..."
-      : "Waylero, keşfetmeyi seven insanların yollarını, hikâyelerini ve deneyimlerini bir araya getirmek için doğmuş bir keşif platformudur.",
-    
-    introP2: isEn
-      ? "The foundation of Waylero is built on the idea of 'Explore, Plan, Share.'"
-      : "Waylero’nun temeli, “Gez, keşfet, paylaş” fikri üzerine kuruludur.",
-
-    storyTitle: isEn ? "The Story of Waylero" : "Waylero’nun Hikâyesi",
-    storyP1: isEn
-      ? "Waylero is a project fueled by the passion for discovery..."
-      : "Waylero, bireysel bir vizyonla yola çıkmış bir projedir.",
-    storyP2: isEn
-      ? "Everywhere holds a story in Waylero."
-      : "Her yer Waylero’da bir hikâye barındırır.",
-
-    offerTitle: isEn ? "What Do We Offer?" : "Ne Sunuyoruz?",
-    offerList: isEn
-      ? ["Discovery content", "Travel planning", "User sharing", "Messaging", "Inspiration"]
-      : ["Keşif içerikleri", "Gezi planlama", "Paylaşım", "Mesajlaşma", "İlham"],
-
-    visionTitle: isEn ? "Our Vision" : "Vizyonumuz",
-    visionP: isEn
-      ? "To be a reliable and inspiring platform."
-      : "Güvenilir ve ilham verici bir platform olmak.",
-
-    missionTitle: isEn ? "Our Mission" : "Misyonumuz",
-    missionP: isEn
-      ? "To create meaningful journeys."
-      : "Anlamlı yolculuklar oluşturmak.",
-
-    communityTitle: isEn ? "Waylero Community" : "Waylero Topluluğu",
-    communityP1: isEn
-      ? "Waylero is more than an app."
-      : "Waylero bir uygulamadan fazlasıdır.",
-    communityP2: isEn
-      ? "We grow together."
-      : "Birlikte büyürüz.",
-
-    futureTitle: isEn ? "Looking to the Future" : "Geleceğe Bakış",
-    futureP1: isEn
-      ? "We keep improving."
-      : "Sürekli gelişiyoruz.",
-    futureP2: isEn
-      ? "Keep exploring."
-      : "Keşfetmeye devam.",
-
->>>>>>> 48a16b0 (cms ignore)
     slogan: isEn ? "Explore. Plan. Share." : "Keşfet. Planla. Paylaş."
   };
 
@@ -144,13 +84,8 @@ export default function AboutPage() {
         <div>
           <h2 className="text-xl font-semibold mb-2">{content.offerTitle}</h2>
           <ul className="list-disc pl-5 space-y-1">
-<<<<<<< HEAD
             {content.offerList.map((item, index) => (
               <li key={index}>{item}</li>
-=======
-            {content.offerList.map((item, i) => (
-              <li key={i}>{item}</li>
->>>>>>> 48a16b0 (cms ignore)
             ))}
           </ul>
         </div>
