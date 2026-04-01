@@ -23,9 +23,6 @@ import { spainPosts } from "@/app/data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
-
-
-
 const posts = [
   ...generalPosts,
   ...uygulamaPosts,
@@ -47,11 +44,40 @@ const posts = [
   ...ispanyaRehberPosts,
   ...spainPosts,
   ...nevsehirRehberPosts,
-  ...cappadociaPosts
-
+  ...cappadociaPosts,
 ];
 
 
+// ✅ SEO METADATA (EN KRİTİK KISIM)
+export async function generateMetadata({ params }) {
+  const { category, slug } = await params;
+
+  const post = posts.find(
+    (p) => p.city === category && p.slug === slug
+  );
+
+  if (!post) return {};
+
+  const seo = post.seo?.tr;
+
+  return {
+    title: seo?.title || post.title,
+    description: seo?.description,
+    alternates: {
+      canonical: `https://www.waylero.com/blog/${category}/${slug}`,
+    },
+    openGraph: {
+      title: seo?.title || post.title,
+      description: seo?.description,
+      images: [post.image],
+      url: `https://www.waylero.com/blog/${category}/${slug}`,
+      type: "article",
+    },
+  };
+}
+
+
+// ✅ PAGE
 export default async function Page({
   params,
 }: {
