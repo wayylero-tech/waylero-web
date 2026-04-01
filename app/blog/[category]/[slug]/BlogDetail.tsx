@@ -1,60 +1,68 @@
 "use client";
 
-import { useState } from "react";
 import ReactMarkdown from "react-markdown";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Keyboard, Autoplay } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Keyboard,
+  Autoplay,
+} from "swiper/modules";
+
+// Dil desteği
 import { useLang } from "@/app/context/LanguageContext";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// 🔹 Tip
-type LocalizedField = string | Record<string, string>;
-
+// Tip tanımı
 type Post = {
-  title: LocalizedField;
-  content?: LocalizedField;
+  title: any;
   image?: string;
   gallery?: string[];
+  content?: any;
 };
 
-// 🔹 Dilli veri çözümleyici
-function resolveLang(field: LocalizedField | undefined, lang: string) {
-  if (!field) return "";
-  if (typeof field === "string") return field;
-  return field[lang] || field["tr"] || "";
-}
-
 export default function BlogDetail({ post }: { post: Post }) {
-  const { lang } = useLang();
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+  const { lang } = useLang();
 
-  const title = resolveLang(post.title, lang);
-  const content = resolveLang(post.content, lang);
+  // Dilli verileri çek
+  const displayTitle =
+    typeof post.title === "object"
+      ? post.title[lang] || post.title["tr"]
+      : post.title;
 
-  const images =
-    post.gallery?.length
-      ? post.gallery
-      : post.image
-      ? [post.image]
-      : [];
+  const displayContent =
+    typeof post.content === "object"
+      ? post.content[lang] || post.content["tr"]
+      : post.content;
+
+  const images = post.gallery?.length
+    ? post.gallery
+    : post.image
+    ? [post.image]
+    : [];
 
   return (
     <div className="max-w-6xl mx-auto py-12 px-4">
-      
-      {/* 🔹 Başlık */}
       <h1 className="text-3xl md:text-5xl font-black mb-12 text-center text-gray-900 leading-tight">
-        {title}
+        {displayTitle}
       </h1>
 
-      {/* 🔹 Slider */}
+      {/* Slider */}
       {images.length > 0 && (
-        <div className="mb-16">
+        <div className="mb-16 group">
           <Swiper
             modules={[Navigation, Pagination, Keyboard, Autoplay]}
             slidesPerView={1}
+            breakpoints={{
+              640: {
+                slidesPerView: images.length > 1 ? 2 : 1,
+              },
+            }}
             spaceBetween={20}
             navigation={images.length > 1}
             pagination={{ clickable: true }}
@@ -65,20 +73,20 @@ export default function BlogDetail({ post }: { post: Post }) {
                 ? { delay: 4000, disableOnInteraction: false }
                 : false
             }
-            breakpoints={{
-              640: { slidesPerView: images.length > 1 ? 2 : 1 },
-            }}
             className="rounded-[2.5rem] overflow-hidden"
           >
-            {images.map((img, i) => (
-              <SwiperSlide key={i}>
+            {images.map((img, index) => (
+              <SwiperSlide key={index}>
                 <div
                   className="relative w-full aspect-video bg-gray-100 cursor-zoom-in"
-                  onClick={() => setLightboxImage(img)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setLightboxImage(img);
+                  }}
                 >
                   <img
                     src={img}
-                    alt={title}
+                    alt={displayTitle}
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
@@ -88,38 +96,42 @@ export default function BlogDetail({ post }: { post: Post }) {
         </div>
       )}
 
-      {/* 🔹 Lightbox */}
+      {/* Lightbox */}
       {lightboxImage && (
         <div
           onClick={() => setLightboxImage(null)}
-          className="fixed inset-0 bg-black/95 flex items-center justify-center z-[999] p-4"
+          className="fixed inset-0 bg-black/95 flex justify-center items-center z-[999] p-4 animate-in fade-in duration-300"
         >
           <img
             src={lightboxImage}
-            alt="preview"
-            className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg"
+            alt="Lightbox"
+            className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg shadow-2xl"
           />
-          <button className="absolute top-6 right-6 text-white text-3xl">
+          <button className="absolute top-6 right-6 text-white text-3xl font-light">
             ×
           </button>
         </div>
       )}
 
-      {/* 🔹 Content */}
-      {content && (
+      {/* Content */}
+      {displayContent && (
         <div className="max-w-3xl mx-auto">
           <ReactMarkdown
             components={{
               h1: ({ children }) => (
-                <h1 className="text-3xl font-bold mt-12 mb-6">{children}</h1>
+                <h1 className="text-3xl font-bold mt-12 mb-6 text-gray-900">
+                  {children}
+                </h1>
               ),
               h2: ({ children }) => (
-                <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3">
+                <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3 text-gray-800">
                   {children}
                 </h2>
               ),
               h3: ({ children }) => (
-                <h3 className="text-xl font-bold mt-8 mb-4">{children}</h3>
+                <h3 className="text-xl font-bold mt-8 mb-4 text-gray-800">
+                  {children}
+                </h3>
               ),
               p: ({ children }) => (
                 <p className="text-lg leading-9 mb-6 text-gray-700 text-justify">
@@ -127,34 +139,34 @@ export default function BlogDetail({ post }: { post: Post }) {
                 </p>
               ),
               ul: ({ children }) => (
-                <ul className="list-disc pl-6 mb-8 space-y-3 text-lg">
+                <ul className="list-disc pl-6 mb-8 space-y-3 text-lg text-gray-700">
                   {children}
                 </ul>
               ),
               ol: ({ children }) => (
-                <ol className="list-decimal pl-6 mb-8 space-y-3 text-lg">
+                <ol className="list-decimal pl-6 mb-8 space-y-3 text-lg text-gray-700">
                   {children}
                 </ol>
               ),
               li: ({ children }) => (
-                <li className="leading-relaxed">{children}</li>
+                <li className="leading-relaxed pl-2">{children}</li>
               ),
               blockquote: ({ children }) => (
-                <blockquote className="border-l-4 border-blue-500 pl-6 py-2 my-8 italic bg-blue-50">
+                <blockquote className="border-l-4 border-blue-500 pl-6 py-2 my-8 italic text-gray-600 bg-blue-50 rounded-r-lg text-xl">
                   {children}
                 </blockquote>
               ),
               hr: () => <hr className="my-12 border-gray-200" />,
               img: ({ src, alt }) => (
                 <img
-                  src={src || ""}
-                  alt={alt || ""}
+                  src={src as string}
+                  alt={alt as string}
                   className="rounded-3xl my-10 shadow-lg w-full"
                 />
               ),
             }}
           >
-            {content}
+            {displayContent}
           </ReactMarkdown>
         </div>
       )}
