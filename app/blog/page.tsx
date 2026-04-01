@@ -1,10 +1,9 @@
-
 "use client";
 
 import Link from "next/link";
 import { useLang } from "@/app/context/LanguageContext";
 
-// Veri importların (Aynen korundu)
+// Veri importları
 import { generalPosts } from "@/app/data/blog/muzekart/posts";
 import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
 import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
@@ -28,30 +27,45 @@ import { nevsehirRehberPosts } from "../data/blog/nevsehir/posts";
 import { cappadociaPosts } from "../data/blog/nevsehir/cappadociaPosts";
 
 const posts = [
-  ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
-  ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
-  ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts, ...mersinRehberPosts,
-  ...turkiyeEnCokZiyaretEdilen10YerPost, ...antalyaRehberPost, ...trekkingPosts,
-  ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
-  ...nevsehirRehberPosts, ...cappadociaPosts
+  ...generalPosts,
+  ...uygulamaPosts,
+  ...antikkentPosts,
+  ...konyaPosts,
+  ...istanbulPosts,
+  ...konyaPosts2,
+  ...konyaRehberPost,
+  ...selalelerRehberPost,
+  ...magaralarRehberPost,
+  ...turkeyPost,
+  ...kanyonlarRehberPosts,
+  ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost,
+  ...antalyaRehberPost,
+  ...trekkingPosts,
+  ...istanbulRehberPosts,
+  ...antalyaPosts2,
+  ...ispanyaRehberPosts,
+  ...spainPosts,
+  ...nevsehirRehberPosts,
+  ...cappadociaPosts
 ];
 
 export default function BlogPage() {
-  // 🔥 Tip güvenliği için 'as "tr" | "en"' ekledik
-  const { lang } = useLang() as { lang: "tr" | "en" }; 
+  const { lang } = useLang() as { lang: "tr" | "en" };
 
-  // 🔥 URL YÖNETİCİSİ
+  // URL yöneticisi
   const getLocalizedLink = (path: string) => {
     if (lang === "tr") return path;
     const cleanPath = path.startsWith("/") ? path : `/${path}`;
     return `/${lang}${cleanPath}`;
   };
 
-  // 🔹 Sayfa başlığı sözlüğü (DE silindi)
-  const t = {
-    tr: "Seyahat Rehberi ✍️",
-    en: "Travel Guide ✍️"
-  }[lang] || "Travel Guide ✍️";
+  // Başlık sözlüğü
+  const t =
+    {
+      tr: "Seyahat Rehberi ✍️",
+      en: "Travel Guide ✍️"
+    }[lang] || "Travel Guide ✍️";
 
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
@@ -62,14 +76,15 @@ export default function BlogPage() {
           const rawHref = `/blog/${post.city}/${post.slug}`;
           const localizedHref = getLocalizedLink(rawHref);
 
-          // 🔥 Çeviri kontrolü - TypeScript hatası as keyof ile çözüldü
-          const displayTitle = typeof post.title === 'object' 
-            ? (post.title[lang as keyof typeof post.title] || post.title['tr']) 
-            : post.title;
-            
-          const displayExcerpt = typeof post.excerpt === 'object' 
-            ? (post.excerpt[lang as keyof typeof post.excerpt] || post.excerpt['tr']) 
-            : post.excerpt;
+          const displayTitle =
+            typeof post.title === "object"
+              ? post.title[lang as keyof typeof post.title] || post.title["tr"]
+              : post.title;
+
+          const displayExcerpt =
+            typeof post.excerpt === "object"
+              ? post.excerpt[lang as keyof typeof post.excerpt] || post.excerpt["tr"]
+              : post.excerpt;
 
           return (
             <Link
@@ -86,6 +101,7 @@ export default function BlogPage() {
                 <h3 className="font-bold text-gray-900 text-sm line-clamp-2 group-hover:text-blue-600 transition-colors">
                   {displayTitle}
                 </h3>
+
                 <p className="text-xs text-gray-500 mt-2 line-clamp-2 leading-relaxed">
                   {displayExcerpt}
                 </p>

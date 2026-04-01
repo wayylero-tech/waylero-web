@@ -26,17 +26,30 @@ import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
 const posts = [
-  ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
-  ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
-  ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts,
-  ...mersinRehberPosts, ...turkiyeEnCokZiyaretEdilen10YerPost,
-  ...antalyaRehberPost, ...trekkingPosts, ...istanbulRehberPosts,
-  ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
-  ...nevsehirRehberPosts, ...cappadociaPosts
+  ...generalPosts,
+  ...uygulamaPosts,
+  ...antikkentPosts,
+  ...konyaPosts,
+  ...istanbulPosts,
+  ...konyaPosts2,
+  ...konyaRehberPost,
+  ...selalelerRehberPost,
+  ...magaralarRehberPost,
+  ...turkeyPost,
+  ...kanyonlarRehberPosts,
+  ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost,
+  ...antalyaRehberPost,
+  ...trekkingPosts,
+  ...istanbulRehberPosts,
+  ...antalyaPosts2,
+  ...ispanyaRehberPosts,
+  ...spainPosts,
+  ...nevsehirRehberPosts,
+  ...cappadociaPosts,
 ];
 
 // 1. SSG İÇİN PARAMETRELERİ ÖNCEDEN OLUŞTURMA
-// Bu fonksiyon, build sırasında tüm sayfaların statik HTML olarak üretilmesini sağlar.
 export async function generateStaticParams() {
   return posts.map((post) => ({
     category: post.city,
@@ -45,7 +58,6 @@ export async function generateStaticParams() {
 }
 
 // 2. DİNAMİK SEO METADATA YÖNETİMİ
-// Hatalı canonical sorununu ve eksik meta açıklamalarını burada çözüyoruz.
 export async function generateMetadata({
   params,
 }: {
@@ -56,7 +68,6 @@ export async function generateMetadata({
 
   if (!post) return { title: "Sayfa Bulunamadı - Waylero" };
 
-  // Obje kontrolü yaparak TR başlığını (veya varsayılanı) alıyoruz
   const titleText = typeof post.title === "object" ? post.title["tr"] : post.title;
   const descriptionText = typeof post.description === "object" ? post.description["tr"] : post.description;
 
@@ -73,14 +84,13 @@ export async function generateMetadata({
       description: descriptionText,
       url: fullUrl,
       type: "article",
-      images: post.image ? [{ url: post.image }] : [], // Facebook/WhatsApp resmi
+      images: post.image ? [{ url: post.image }] : [],
     },
-    // 🔥 EKSİK OLAN TWITTER KISMI BURASI:
     twitter: {
-      card: "summary_large_image", // Resmin tweet'te kocaman görünmesini sağlar
+      card: "summary_large_image",
       title: titleText,
       description: descriptionText,
-      images: post.image ? [post.image] : [], // Twitter resmi
+      images: post.image ? [post.image] : [],
     },
   };
 }
@@ -101,6 +111,5 @@ export default async function Page({
     return notFound();
   }
 
-  // Veriyi doğrudan Server Component üzerinden BlogDetail'e basıyoruz.
   return <BlogDetail post={post} />;
 }
