@@ -48,34 +48,58 @@ async function getLanguage() {
 
 type Props = { params: Promise<{ region: string; city: string; place: string }> };
 
+// 1. DİNAMİK SEO METADATA (En Güncel Hali)
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, city, place } = await params;
-  const lang = await getLanguage(); // 🔥 Çerez yerine akıllı dil kontrolü
+  const lang = await getLanguage();
 
   const mainRegion = countryToRegionMap[region] || region;
   const regionData = allData[mainRegion];
-  if (!regionData) return {};
+  if (!regionData) return { title: "Mekan Bulunamadı | Waylero" };
 
   const cityKey = Object.keys(regionData).find(key => slugify(key) === slugify(decodeURIComponent(city)));
-  if (!cityKey) return {};
+  if (!cityKey) return { title: "Şehir Bulunamadı | Waylero" };
 
   const foundPlace = regionData[cityKey].find((p: any) => slugify(p.slug) === slugify(decodeURIComponent(place)));
-  if (!foundPlace) return {};
+  if (!foundPlace) return { title: "Mekan Bulunamadı | Waylero" };
+
+  const displayName = foundPlace.name?.[lang] || foundPlace.name?.tr;
+  const displayDesc = (foundPlace.description?.[lang] || foundPlace.description?.tr)?.slice(0, 160);
+
+  // Resim linkini çekelim (Sosyal medyada görünmesi için)
+  const targetImageKey = `${slugify(cityKey)}-${slugify(foundPlace.slug)}`;
+  const regionImages = allImages[mainRegion] || {};
+  const cityGroup = regionImages[cityKey] || regionImages[slugify(cityKey)];
+  const placeImages = cityGroup?.[targetImageKey] || cityGroup?.[foundPlace.slug] || [];
+  const mainImage = placeImages[0] || "https://www.waylero.com/waylero-icon.png"; // Resim yoksa logo
 
   const baseUrl = "https://www.waylero.com";
   const trPath = `/kesfet/${region}/${city}/${place}`;
   const enPath = `/en/kesfet/${region}/${city}/${place}`;
 
   return {
-    title: `${foundPlace.name?.[lang] || foundPlace.name?.tr} | Waylero`,
-    description: (foundPlace.description?.[lang] || foundPlace.description?.tr)?.slice(0, 155),
+    title: `${displayName} | Waylero`,
+    description: `${displayDesc}... ${displayName} nerede, nasıl gidilir ve neler yapılır?`,
     alternates: {
-      // 🔥 DÜZELTME: Hangi dildeysek asıl link o olmalı
       canonical: `${baseUrl}${lang === "en" ? enPath : trPath}`,
       languages: {
         "tr-TR": `${baseUrl}${trPath}`,
         "en-US": `${baseUrl}${enPath}`,
       },
+    },
+    // 🔥 SOSYAL MEDYA İÇİN EKLEMELER:
+    openGraph: {
+      title: `${displayName} | Waylero Keşfet`,
+      description: displayDesc,
+      url: `${baseUrl}${lang === "en" ? enPath : trPath}`,
+      type: "website",
+      images: [{ url: mainImage }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${displayName} | Waylero`,
+      description: displayDesc,
+      images: [mainImage],
     },
   };
 }

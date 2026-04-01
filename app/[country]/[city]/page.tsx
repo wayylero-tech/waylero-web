@@ -1,6 +1,7 @@
 import cities from "../../data/cities.json";
 import { notFound } from "next/navigation";
 import { cookies } from "next/headers";
+import { Metadata } from "next";
 
 type City = {
   slug: string;
@@ -29,6 +30,36 @@ type Props = {
   }>;
 };
 
+// 1. DİNAMİK SEO METADATA (Google Arama Sonuçları İçin)
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { country, city: citySlug } = await params;
+  const city = (cities as City[]).find(
+    (c) => c.slug === citySlug && c.country.toLowerCase().replace(/ /g, "-") === country
+  );
+
+  if (!city) return { title: "City Not Found | Waylero" };
+
+  // Google botu genelde çerezsiz geldiği için varsayılan olarak TR verisini gösteriyoruz
+  const name = city.names["tr"];
+  const desc = city.descriptions["tr"].substring(0, 160);
+  const fullUrl = `https://www.waylero.com/${country}/${citySlug}`;
+
+  return {
+    title: `${name} Gezi Rehberi: Gezilecek Yerler ve Bilgiler | Waylero`,
+    description: `${desc}... ${name} seyahatiniz için en güncel bilgiler, hava durumu ve ulaşım rehberi.`,
+    alternates: {
+      canonical: fullUrl,
+    },
+    openGraph: {
+      title: `${name} Gezi Rehberi | Waylero`,
+      description: desc,
+      url: fullUrl,
+      type: "website",
+      images: [{ url: city.image }],
+    },
+  };
+}
+
 export async function generateStaticParams() {
   return cities.map((city) => ({
     country: city.country.toLowerCase().replace(/ /g, "-"),
@@ -39,11 +70,10 @@ export async function generateStaticParams() {
 export default async function CityPage({ params }: Props) {
   const { country, city: citySlug } = await params;
 
-  // 🔹 Çerezden dili yakala (Server Side)
+  // 🔹 Dil Yönetimi (Sadece TR ve EN)
   const cookieStore = await cookies();
-  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en" | "de";
+  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 
-  // 🔹 Sabit metinler için sözlük
   const t = {
     tr: {
       travelTitle: "✈️ Seyahat Bilgileri",
@@ -53,7 +83,6 @@ export default async function CityPage({ params }: Props) {
       language: "🗣 Dil",
       population: "👥 Nüfus",
       exploreBtn: "da Gezilecek Yerler",
-      countryName: "Ülke"
     },
     en: {
       travelTitle: "✈️ Travel Information",
@@ -63,25 +92,20 @@ export default async function CityPage({ params }: Props) {
       language: "🗣 Language",
       population: "👥 Population",
       exploreBtn: "Places to Visit in",
-      countryName: "Country"
-    },
-    de: {
-      travelTitle: "✈️ Reiseinformationen",
-      bestTime: "🌤 Beste Reisezeit",
-      timezone: "🕒 Zeitzone",
-      currency: "💶 Währung",
-      language: "🗣 Sprache",
-      population: "👥 Bevölkerung",
-      exploreBtn: "Sehenswürdigkeiten in",
-      countryName: "Land"
     }
-  }[lang];
+  }[lang] || { // Fallback to TR
+      travelTitle: "✈️ Seyahat Bilgileri",
+      bestTime: "🌤 En iyi zaman",
+      timezone: "🕒 Saat Dilimi",
+      currency: "💶 Para Birimi",
+      language: "🗣 Dil",
+      population: "👥 Nüfus",
+      exploreBtn: "da Gezilecek Yerler",
+  };
 
-  // 🔥 URL YÖNETİCİSİ (Server Side Link Oluşturucu)
   const getLocalizedLink = (path: string) => {
     if (lang === "tr") return path;
-    const cleanPath = path.startsWith("/") ? path : `/${path}`;
-    return `/${lang}${cleanPath}`;
+    return `/en${path.startsWith("/") ? path : `/${path}`}`;
   };
 
   const city = (cities as City[]).find(
@@ -94,8 +118,24 @@ export default async function CityPage({ params }: Props) {
   const currentCityDesc = city.descriptions[lang] || city.descriptions["tr"];
   const travelInfo = city.travel_info?.[lang] || city.travel_info?.["tr"];
 
+  // 2. JSON-LD (Google'ın Veriyi Anlaması İçin Teknik SEO)
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Guide",
+    "name": `${currentCityName} Gezi Rehberi`,
+    "description": currentCityDesc.substring(0, 200),
+    "image": city.image,
+    "abstract": currentCityDesc,
+  };
+
   return (
     <main className="max-w-5xl mx-auto px-4 py-8">
+      {/* Schema.org verisini sayfaya gizli basıyoruz */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* HEADER IMAGE SECTION */}
       <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden bg-black shadow-2xl">
         <img
@@ -124,26 +164,18 @@ export default async function CityPage({ params }: Props) {
             {t.travelTitle}
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.bestTime}</p>
-              <p className="font-semibold text-gray-800">{travelInfo.best_time}</p>
-            </div>
-            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.timezone}</p>
-              <p className="font-semibold text-gray-800">{travelInfo.timezone}</p>
-            </div>
-            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.currency}</p>
-              <p className="font-semibold text-gray-800">{travelInfo.currency}</p>
-            </div>
-            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.language}</p>
-              <p className="font-semibold text-gray-800">{travelInfo.language}</p>
-            </div>
-            <div className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-              <p className="text-xs text-gray-400 font-bold uppercase mb-1">{t.population}</p>
-              <p className="font-semibold text-gray-800">{travelInfo.population}</p>
-            </div>
+            {[
+              { label: t.bestTime, value: travelInfo.best_time },
+              { label: t.timezone, value: travelInfo.timezone },
+              { label: t.currency, value: travelInfo.currency },
+              { label: t.language, value: travelInfo.language },
+              { label: t.population, value: travelInfo.population },
+            ].map((item, i) => (
+              <div key={i} className="p-5 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                <p className="text-xs text-gray-400 font-bold uppercase mb-1">{item.label}</p>
+                <p className="font-semibold text-gray-800">{item.value}</p>
+              </div>
+            ))}
           </div>
         </div>
       )}
@@ -152,14 +184,12 @@ export default async function CityPage({ params }: Props) {
       {city.additionalImages?.length ? (
         <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-6">
           {city.additionalImages.map((img, idx) => (
-            <div
-              key={idx}
-              className="w-full aspect-[4/3] rounded-3xl overflow-hidden bg-gray-100 shadow-lg"
-            >
+            <div key={idx} className="w-full aspect-[4/3] rounded-3xl overflow-hidden bg-gray-100 shadow-lg">
               <img
                 src={img}
-                alt={`${currentCityName} gallery ${idx + 1}`}
+                alt={`${currentCityName} - ${idx + 1}`}
                 className="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500"
+                loading="lazy"
               />
             </div>
           ))}
@@ -169,9 +199,8 @@ export default async function CityPage({ params }: Props) {
       {/* EXPLORE BUTTON */}
       <div className="mt-16 flex justify-center">
         <a
-          // 🔥 Link artık dile duyarlı: /en/kesfet veya /de/kesfet olacak
           href={getLocalizedLink(`/kesfet?q=${encodeURIComponent(citySlug)}`)}
-          className="px-12 py-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-lg font-bold shadow-xl hover:scale-105 transition-all active:scale-95"
+          className="px-12 py-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-lg font-bold shadow-xl hover:scale-105 transition-all"
         >
           📍 {lang === "tr" ? `${currentCityName}${t.exploreBtn}` : `${t.exploreBtn} ${currentCityName}`}
         </a>

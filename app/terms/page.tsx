@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { headers } from "next/headers";
 
 export default async function TermsPage() {
@@ -6,6 +7,34 @@ export default async function TermsPage() {
   const lang = headerList.get("x-url-lang") || "tr";
   const isEn = lang === "en";
 
+=======
+"use client";
+
+import { useEffect } from "react";
+import { useLang } from "@/app/context/LanguageContext";
+import { useRouter, usePathname } from "next/navigation";
+
+export default function TermsPage() {
+  const { lang } = useLang(); 
+  const router = useRouter();
+  const pathname = usePathname();
+  const isEn = lang === "en";
+
+  // 🔥 URL YÖNETİMİ: Dil değiştiğinde URL'i de günceller
+  useEffect(() => {
+    const isUrlEn = pathname.startsWith("/en/");
+    
+    if (isEn && !isUrlEn) {
+      // Dil EN ama URL değilse -> URL'e /en ekle
+      router.push(`/en${pathname}`, { scroll: false });
+    } else if (!isEn && isUrlEn) {
+      // Dil TR ama URL EN ise -> /en kısmını at
+      const newPath = pathname.replace("/en", "");
+      router.push(newPath || "/", { scroll: false });
+    }
+  }, [lang, pathname, router, isEn]);
+
+>>>>>>> 48a16b0 (cms ignore)
   const content = {
     title: isEn ? "Terms of Use and Community Guidelines" : "Waylero Kullanım Koşulları ve Topluluk Kuralları",
     effectiveDate: isEn 

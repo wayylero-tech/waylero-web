@@ -116,4 +116,8 @@ export function middleware(request: NextRequest) {
 
   // Hiçbirine girmezse hazırladığımız dilli response'u dön
   return response;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 48a16b0 (cms ignore)

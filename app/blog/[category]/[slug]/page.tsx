@@ -1,6 +1,8 @@
-import BlogDetail from "./BlogDetail";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import BlogDetail from "./BlogDetail";
 
+// Veri importlarını buraya olduğu gibi bırakıyoruz
 import { generalPosts } from "@/app/data/blog/muzekart/posts";
 import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
 import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
@@ -23,35 +25,67 @@ import { spainPosts } from "@/app/data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
 
-
-
-
 const posts = [
-  ...generalPosts,
-  ...uygulamaPosts,
-  ...antikkentPosts,
-  ...konyaPosts,
-  ...istanbulPosts,
-  ...konyaPosts2,
-  ...konyaRehberPost,
-  ...selalelerRehberPost,
-  ...magaralarRehberPost,
-  ...turkeyPost,
-  ...kanyonlarRehberPosts,
-  ...mersinRehberPosts,
-  ...turkiyeEnCokZiyaretEdilen10YerPost,
-  ...antalyaRehberPost,
-  ...trekkingPosts,
-  ...istanbulRehberPosts,
-  ...antalyaPosts2,
-  ...ispanyaRehberPosts,
-  ...spainPosts,
-  ...nevsehirRehberPosts,
-  ...cappadociaPosts
-
+  ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
+  ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
+  ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts,
+  ...mersinRehberPosts, ...turkiyeEnCokZiyaretEdilen10YerPost,
+  ...antalyaRehberPost, ...trekkingPosts, ...istanbulRehberPosts,
+  ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
+  ...nevsehirRehberPosts, ...cappadociaPosts
 ];
 
+// 1. SSG İÇİN PARAMETRELERİ ÖNCEDEN OLUŞTURMA
+// Bu fonksiyon, build sırasında tüm sayfaların statik HTML olarak üretilmesini sağlar.
+export async function generateStaticParams() {
+  return posts.map((post) => ({
+    category: post.city,
+    slug: post.slug,
+  }));
+}
 
+// 2. DİNAMİK SEO METADATA YÖNETİMİ
+// Hatalı canonical sorununu ve eksik meta açıklamalarını burada çözüyoruz.
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ category: string; slug: string }>;
+}): Promise<Metadata> {
+  const { category, slug } = await params;
+  const post = posts.find((p) => p.city === category && p.slug === slug);
+
+  if (!post) return { title: "Sayfa Bulunamadı - Waylero" };
+
+  // Obje kontrolü yaparak TR başlığını (veya varsayılanı) alıyoruz
+  const titleText = typeof post.title === "object" ? post.title["tr"] : post.title;
+  const descriptionText = typeof post.description === "object" ? post.description["tr"] : post.description;
+
+  const fullUrl = `https://www.waylero.com/blog/${category}/${slug}`;
+
+  return {
+    title: `${titleText} | Waylero Blog`,
+    description: descriptionText || `${titleText} hakkında detaylı gezi rehberi ve tavsiyeler.`,
+    alternates: {
+      canonical: fullUrl,
+    },
+    openGraph: {
+      title: titleText,
+      description: descriptionText,
+      url: fullUrl,
+      type: "article",
+      images: post.image ? [{ url: post.image }] : [], // Facebook/WhatsApp resmi
+    },
+    // 🔥 EKSİK OLAN TWITTER KISMI BURASI:
+    twitter: {
+      card: "summary_large_image", // Resmin tweet'te kocaman görünmesini sağlar
+      title: titleText,
+      description: descriptionText,
+      images: post.image ? [post.image] : [], // Twitter resmi
+    },
+  };
+}
+
+// 3. SAYFA BİLEŞENİ (SERVER COMPONENT)
 export default async function Page({
   params,
 }: {
@@ -67,5 +101,6 @@ export default async function Page({
     return notFound();
   }
 
+  // Veriyi doğrudan Server Component üzerinden BlogDetail'e basıyoruz.
   return <BlogDetail post={post} />;
 }
