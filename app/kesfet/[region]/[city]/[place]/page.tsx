@@ -21,11 +21,11 @@ const countryToRegionMap: Record<string, string> = {
   ispanya: "europa", ingiltere: "europa", hollanda: "europa", belcika: "europa", 
   avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", 
   macaristan: "europa", portekiz: "europa", romanya: "europa", danimarka: "europa", 
-  isvec: "europa", norvec: "europa", isvicre: "europa", slovakya: "europa", 
-  finlandiya: "europa", irlanda: "europa", "bosna-hersek": "europa", 
-  gurcistan: "europa", balerus: "europa", iskocya: "europa", galler: "europa", 
-  cin: "asia", hindistan: "asia", tayland: "asia", "guney-kore": "asia", 
-  japonya: "asia", "sri-lanka": "asia", kktc: "turkey", singapur: "asia",
+  isvec: "europa", norvec: "europa", isvicre: "europa", slovakya: "europa", endonezya: "europa", 
+  finlandiya: "europa", irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
+  gurcistan: "europa", balerus: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
+  cin: "asia", hindistan: "asia", tayland: "asia", "guney-kore": "europa", filipinler: "europa", 
+  japonya: "asia", "sri-lanka": "asia", kktc: "turkey", singapur: "asia", umman: "europa", 
 };
 
 const slugify = (text: string) => {
