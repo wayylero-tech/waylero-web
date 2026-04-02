@@ -1,241 +1,295 @@
 export const istanbulRehberPosts = [
   {
     slug: "istanbul-gezilecek-yerler-rehberi",
-    title: "İstanbul’da Gezilecek Yerler (2026 Güncel ve Detaylı Rehber)",
-    excerpt: "İstanbul gezilecek yerler 2026 rehberi: Ayasofya, Topkapı Sarayı, Kapalıçarşı, Galata Kulesi, Boğaz manzaraları ve tarihi semtler dahil en kapsamlı rota.",
+
+    title: {
+      tr: "İstanbul’da Gezilecek Yerler (2026 Güncel ve Detaylı Rehber)",
+      en: "Places to Visit in Istanbul (2026 Updated & Ultimate Travel Guide)"
+    },
+
+    excerpt: {
+      tr: "İstanbul gezilecek yerler 2026 rehberi: Ayasofya, Topkapı Sarayı, Galata Kulesi, Kapalıçarşı, Boğaz turu, tarihi semtler ve yeme içme önerileriyle eksiksiz rota.",
+      en: "Istanbul travel guide 2026: Discover Hagia Sophia, Topkapi Palace, Galata Tower, Grand Bazaar, Bosphorus tours, neighborhoods and food spots."
+    },
+
     image: "/assets/blog/istanbul/genel/ayasofya.png",
+
     gallery: [
       "/assets/blog/istanbul/genel/ayasofya.png",
       "/assets/blog/istanbul/genel/galata-kulesi.png",
       "/assets/blog/istanbul/genel/topkapi-sarayi.png"
     ],
+
     date: "2026-03-16",
     city: "istanbul",
+
     seo: {
-      title: "İstanbul Gezilecek Yerler 2026 | En Detaylı Gezi Rehberi - Waylero",
-      description: "İstanbul’da gezilecek yerler rehberi 2026: Ayasofya, Topkapı Sarayı, Galata Kulesi, Kapalıçarşı, Boğaz turu, tarihi camiler ve İstanbul mutfağı hakkında detaylı bilgiler."
+      title: {
+        tr: "İstanbul Gezilecek Yerler 2026 | En Detaylı Gezi Rehberi - Waylero",
+        en: "Istanbul Travel Guide 2026 | Best Places, Food & Itinerary - Waylero"
+      },
+      description: {
+        tr: "İstanbul gezi rehberi 2026: Ayasofya, Topkapı Sarayı, Kapalıçarşı, Galata Kulesi, Boğaz turu, semtler ve yeme içme önerileri.",
+        en: "Ultimate Istanbul guide 2026: Hagia Sophia, Topkapi Palace, Grand Bazaar, Galata Tower, Bosphorus cruise, neighborhoods and food."
+      }
     },
-    content: `
-# İstanbul Gezilecek Yerler 2026 – En Kapsamlı Gezi Rehberi
 
-İstanbul, iki kıtayı birleştiren konumu, binlerce yıllık tarihi ve kültürel zenginliği ile dünyanın en özel şehirlerinden biridir. Osmanlı ve Bizans döneminden kalma yapılar, modern şehir hayatı ve Boğaz manzarası ile İstanbul her yıl milyonlarca turist tarafından ziyaret edilir.
+    content: {
+      tr: `
+# İstanbul Gezilecek Yerler 2026 – En Kapsamlı Rehber
 
-Bu rehberde İstanbul’da gezilecek yerler, tarihi yapılar, müzeler, doğal güzellikler ve yeme içme önerilerini bulabilirsiniz.
+İstanbul, Avrupa ve Asya kıtalarını birleştiren eşsiz konumu, 2500 yılı aşan tarihi ve kültürel çeşitliliği ile dünyanın en büyüleyici şehirlerinden biridir. Bizans ve Osmanlı imparatorluklarının başkenti olan şehir, bugün modern yaşam ile tarihi dokunun mükemmel birleşimini sunar.
+
+Bu rehberde İstanbul’da gezilecek yerler, semtler, ulaşım, yeme-içme ve gezi planı detaylı şekilde yer almaktadır.
 
 ---
 
 ## 🕌 Ayasofya
 
-Ayasofya, İstanbul’un ve hatta dünyanın en önemli tarihi yapılarından biridir. İlk olarak Bizans döneminde kilise olarak inşa edilmiş, daha sonra camiye dönüştürülmüş ve günümüzde tekrar cami olarak kullanılmaktadır.
+İstanbul’un simgesi olan Ayasofya, 537 yılında inşa edilmiş ve yüzyıllar boyunca farklı medeniyetlere ev sahipliği yapmıştır.
 
-📍 Nasıl Gidilir
+📍 Konum: Sultanahmet  
+💰 Ücretsiz  
+⏱ Süre: 1 – 1.5 saat  
 
-- İstanbul Fatih ilçesinde Sultanahmet Meydanı’nda yer alır  
-- Tramvay ile **Sultanahmet durağında** inerek ulaşabilirsiniz  
-
-💰 Giriş Ücreti
-
-- Ziyaret ücretsizdir  
-
-🎫 Müze Kart
-
-- Geçerli değildir  
-
-🕒 Ziyaret Saatleri
-
-- Sabah namazından sonra açılır  
-- Yatsı namazına kadar ziyaret edilebilir  
-
-📷 Orada Ne Yapılır
-
-- Bizans mimarisini incelemek  
-- Tarihi mozaikleri görmek  
-- Sultanahmet Meydanı’nda gezmek  
-
-Detaylar için tıkla 🔗 **[Ayasofya Rehberi](https://www.waylero.com/kesfet/turkey/istanbul/ayasofya)**
+📷 Yapılacaklar:
+- Dev kubbeyi incele  
+- Altın mozaikleri keşfet  
+- Sultanahmet Meydanı’nda gez  
 
 ---
 
 ## 🏰 Topkapı Sarayı
 
-Osmanlı İmparatorluğu’nun yaklaşık 400 yıl boyunca yönetildiği Topkapı Sarayı, İstanbul’un en önemli tarihi saraylarından biridir.
+Osmanlı padişahlarının yaşadığı ve devleti yönettiği saraydır.
 
-📍 Nasıl Gidilir
+📍 Konum: Fatih  
+💰 Ücretli (MüzeKart geçerli)  
+⏱ Süre: 2 – 3 saat  
 
-- Sultanahmet bölgesinde yer alır  
-- Tramvay ile **Gülhane durağından** yürüyerek ulaşılabilir  
-
-💰 Giriş Ücreti
-
-- Yaklaşık 500 TL (2026 tahmini)  
-
-🎫 Müze Kart
-
-- Geçerlidir  
-
-🕒 Ziyaret Saatleri
-
-- 09:00 – 18:00  
-
-📷 Orada Ne Yapılır
-
-- Saray avlularını gezmek  
-- Harem bölümünü görmek  
-- Boğaz manzarasını izlemek  
-
-Detaylar için tıkla 🔗 **[Topkapı Sarayı](https://www.waylero.com/kesfet/turkey/istanbul/topkapi-sarayi)**
+📷 Yapılacaklar:
+- Harem bölümünü gez  
+- Kutsal emanetleri gör  
+- Boğaz manzarasını izle  
 
 ---
 
 ## 🗼 Galata Kulesi
 
-İstanbul’un en ikonik yapılarından biri olan Galata Kulesi, şehrin en güzel manzaralarından birini sunar.
+İstanbul’un en iyi manzaralarından birini sunar.
 
-📍 Nasıl Gidilir
+📍 Konum: Beyoğlu  
+💰 Ücretli  
+⏱ Süre: 45 dk  
 
-- Beyoğlu Galata semtinde yer alır  
-- Karaköy’den yürüyerek ulaşılabilir  
-
-💰 Giriş Ücreti
-
-- Yaklaşık 650 TL  
-
-🎫 Müze Kart
-
-- Geçerli değildir  
-
-🕒 Ziyaret Saatleri
-
-- 08:30 – 22:00  
-
-📷 Orada Ne Yapılır
-
-- İstanbul manzarasını izlemek  
-- Fotoğraf çekmek  
-- Galata sokaklarını keşfetmek  
-
-Detaylar için tıkla 🔗 **[Galata Kulesi](https://www.waylero.com/kesfet/turkey/istanbul/galata-kulesi)**
+📷 Yapılacaklar:
+- Panoramik fotoğraf çek  
+- Gün batımını yakala  
 
 ---
 
 ## 🛍 Kapalıçarşı
 
-Dünyanın en eski ve en büyük kapalı çarşılarından biri olan Kapalıçarşı, İstanbul’un en popüler alışveriş noktalarından biridir.
+Dünyanın en eski alışveriş merkezlerinden biri.
 
-📍 Nasıl Gidilir
+📍 Konum: Beyazıt  
 
-- Beyazıt bölgesinde yer alır  
-- Tramvay ile **Beyazıt durağında** inebilirsiniz  
-
-💰 Giriş Ücreti
-
-- Ücretsiz  
-
-🎫 Müze Kart
-
-- Geçerli değildir  
-
-🕒 Ziyaret Saatleri
-
-- 09:00 – 19:00  
-
-📷 Orada Ne Yapılır
-
-- Geleneksel hediyelik eşyalar almak  
-- Altın ve takı mağazalarını gezmek  
-- Tarihi çarşı atmosferini deneyimlemek  
-
-Detaylar için tıkla 🔗 **[Kapalıçarşı](https://www.waylero.com/kesfet/turkey/istanbul/kapalicarsi)**
+📷 Yapılacaklar:
+- Hediyelik eşya al  
+- Altın ve halı dükkanlarını gez  
+- Pazarlık yap 😄  
 
 ---
 
 ## 🌉 İstanbul Boğazı
 
-İstanbul Boğazı, şehri Avrupa ve Asya olarak ikiye ayıran eşsiz bir su yoludur. Boğaz boyunca tarihi yalılar, köprüler ve saraylar bulunur.
+Şehrin en büyüleyici noktası.
 
-📍 Nasıl Gidilir
-
-- Eminönü, Beşiktaş veya Üsküdar’dan tekne turları yapılır  
-
-💰 Giriş Ücreti
-
-- Tekne turu ortalama 150 – 400 TL  
-
-🎫 Müze Kart
-
-- Geçerli değildir  
-
-🕒 Ziyaret Saatleri
-
-- Gün boyu  
-
-📷 Orada Ne Yapılır
-
-- Boğaz turu yapmak  
-- Gün batımı manzarası izlemek  
-- Sahil yürüyüşleri yapmak  
-
-Detaylar için tıkla 🔗 **[İstanbul Boğazı](https://www.waylero.com/kesfet/turkey/istanbul/bogaz)**
+📷 Yapılacaklar:
+- Tekne turu  
+- Gün batımı  
+- Sahil yürüyüşü  
 
 ---
 
-## 🌿 Doğal ve Popüler Yerler
+## 🏙 Gezilecek Semtler
 
-### 🌳 Gülhane Parkı
+### Karaköy
+Kafeler, sanat galerileri
 
-Topkapı Sarayı’nın yanında yer alan Gülhane Parkı, İstanbul’un en eski ve en güzel parklarından biridir.
+### Balat
+Renkli evler, fotoğraf noktaları
 
-📍 Nasıl Gidilir
+### Kadıköy
+Gençlik, sokak lezzetleri
 
-- Tramvay ile **Gülhane durağı**  
-
-💰 Giriş Ücreti
-
-- Ücretsiz  
-
-📷 Orada Ne Yapılır
-
-- Yürüyüş yapmak  
-- Fotoğraf çekmek  
-- Dinlenmek  
-
-Detaylar için tıkla 🔗 **[Gülhane Parkı](https://www.waylero.com/kesfet/turkey/istanbul/gulhane-parki)**
+### Ortaköy
+Boğaz + kumpir
 
 ---
 
-### 🍽 İstanbul’da Ne Yenir?
+## 🍽 İstanbul’da Ne Yenir?
 
-- 🥙 **Döner**  
-- 🥪 **Balık Ekmek**  
-- 🍮 **Sütlaç**  
-- 🍰 **Baklava**  
-
----
-
-### 🗓 Kaç Günde Gezilir?
-
-- İstanbul tarihi yarımada → 1 gün  
-- Beyoğlu + Galata → 1 gün  
-- Boğaz turu + Anadolu yakası → 1 gün  
-
-Toplam: **3 gün ideal**
+- Döner  
+- Balık ekmek  
+- Kokoreç  
+- Baklava  
+- Türk kahvesi  
 
 ---
 
-### 🎯 2026 Tavsiyeleri
+## 🚇 Ulaşım
 
-✔ Sabah erken saatlerde Ayasofya’yı ziyaret edin  
-✔ Gün batımında Galata Kulesi’ne çıkın  
-✔ Boğaz turunu akşam saatlerinde yapın  
-✔ Kapalıçarşı’da pazarlık yapmayı unutmayın  
+- İstanbulkart kullan  
+- Tramvay (T1) en önemli hat  
+- Metro + Marmaray hızlı  
 
 ---
 
-İstanbul, tarih, kültür ve modern yaşamın birleştiği eşsiz bir şehir. Her köşesinde farklı bir hikaye ve keşfedilecek yeni bir yer bulunur.
+## 🗓 3 Günlük Plan
 
-İstanbul için daha fazla öneri görmek için tıkla 🔗 **[İstanbul’da Gezilecek Yerler](https://www.waylero.com/kesfet?q=istanbul)**
+1. Gün → Tarihi yarımada  
+2. Gün → Galata + Karaköy  
+3. Gün → Boğaz + Kadıköy  
 
-Waylero ile keşfet, planla, paylaş.
+---
+
+## 🎯 Tavsiyeler
+
+✔ Sabah erken çık  
+✔ Kalabalık saatlerden kaçın  
+✔ Turistik bölgelerde dikkatli ol  
+
+---
+
+İstanbul, her ziyaretinde farklı bir yüzünü gösteren bir şehir.
+
+Waylero ile keşfet 🚀
 `
+
+      en: `
+# Places to Visit in Istanbul 2026 – Ultimate Guide
+
+Istanbul is one of the most fascinating cities in the world, connecting Europe and Asia with over 2500 years of history. Once the capital of both the Byzantine and Ottoman Empires, today it offers a perfect blend of tradition and modern life.
+
+---
+
+## 🕌 Hagia Sophia
+
+One of the most iconic landmarks in the world.
+
+📍 Location: Sultanahmet  
+💰 Free  
+⏱ Duration: 1 – 1.5 hours  
+
+📷 Things to do:
+- Explore the massive dome  
+- See golden mosaics  
+- Walk around Sultanahmet Square  
+
+---
+
+## 🏰 Topkapi Palace
+
+The residence of Ottoman sultans.
+
+📍 Location: Fatih  
+💰 Paid (Museum Pass valid)  
+⏱ Duration: 2 – 3 hours  
+
+📷 Things to do:
+- Visit the harem  
+- See imperial treasures  
+- Enjoy Bosphorus views  
+
+---
+
+## 🗼 Galata Tower
+
+One of the best viewpoints in Istanbul.
+
+📍 Location: Beyoglu  
+
+📷 Things to do:
+- Take panoramic photos  
+- Watch the sunset  
+
+---
+
+## 🛍 Grand Bazaar
+
+One of the oldest markets in the world.
+
+📷 Things to do:
+- Shop souvenirs  
+- Experience local culture  
+
+---
+
+## 🌉 Bosphorus
+
+The heart of Istanbul.
+
+📷 Things to do:
+- Take a cruise  
+- Watch sunset  
+- Walk along the coast  
+
+---
+
+## 🏙 Neighborhoods
+
+### Karakoy
+Trendy cafes & art
+
+### Balat
+Colorful streets
+
+### Kadikoy
+Local life & food
+
+### Ortakoy
+Famous for kumpir
+
+---
+
+## 🍽 What to Eat?
+
+- Doner  
+- Fish sandwich  
+- Baklava  
+- Turkish coffee  
+
+---
+
+## 🚇 Transportation
+
+- Use Istanbulkart  
+- Tram T1 is key  
+- Metro & Marmaray are fast  
+
+---
+
+## 🗓 3-Day Plan
+
+Day 1 → Old City  
+Day 2 → Galata & Karakoy  
+Day 3 → Bosphorus & Kadikoy  
+
+---
+
+## 🎯 Tips
+
+✔ Start early  
+✔ Avoid crowds  
+✔ Be careful in tourist areas  
+
+---
+
+Istanbul is a city that reveals something new every time.
+
+Explore with Waylero 🚀
+`
+    }
   }
 ];

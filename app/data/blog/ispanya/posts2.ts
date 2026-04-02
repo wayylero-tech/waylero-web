@@ -1,10 +1,19 @@
 export const spainPosts = [
   {
     slug: "ispanya-4-gunluk-gezi-plani-barselona-madrid",
-    title: "İspanya’da 4 Günlük Gezi Planı (Barselona + Madrid)",
-    excerpt:
-      "İspanya’yı 4 günde keşfetmek isteyenler için Barselona ve Madrid odaklı, ulaşım dahil optimize edilmiş eksiksiz gezi planı.",
+
+    title: {
+      tr: "İspanya’da 4 Günlük Gezi Planı (Barselona + Madrid)",
+      en: "4-Day Spain Itinerary: The Best of Barcelona and Madrid"
+    },
+
+    excerpt: {
+      tr: "İspanya’yı 4 günde keşfetmek isteyenler için Barselona ve Madrid odaklı, ulaşım dahil optimize edilmiş eksiksiz gezi planı.",
+      en: "The ultimate 4-day guide to exploring Barcelona and Madrid, optimized for time and transportation."
+    },
+
     image: "/assets/blog/ispanya/genel/madrid.png",
+
     gallery: [
       "/assets/blog/ispanya/genel/barcelona.png",
       "/assets/blog/ispanya/genel/madrid.png",
@@ -13,13 +22,20 @@ export const spainPosts = [
 
     date: "2026-03-24",
     city: "spain",
-    seo: {
-      title: "İspanya 4 Günlük Gezi Planı | Barselona ve Madrid Rehberi",
-      description:
-  "Barselona ve Madrid’de 4 günde gezilecek yerler, ulaşım detayları, günlük rota planı ve yeme-içme önerileriyle eksiksiz İspanya gezi rehberi. Kısa sürede maksimum verim almak isteyenler için optimize edilmiş plan.",
-},
-content: `
 
+    seo: {
+      tr: {
+        title: "İspanya 4 Günlük Gezi Planı | Barselona ve Madrid Rehberi",
+        description: "Barselona ve Madrid’de 4 günde gezilecek yerler, ulaşım detayları ve günlük rota planıyla eksiksiz İspanya gezi rehberi."
+      },
+      en: {
+        title: "4 Days in Spain Itinerary | Barcelona & Madrid Travel Guide",
+        description: "Complete 4-day guide to Barcelona and Madrid. Includes daily routes, transport tips, and must-see attractions."
+      }
+    },
+
+    content: {
+      tr: `
 ## İspanya Gezi Rehberi: 4 Günde Barselona + Madrid
 
 İspanya’yı kısa sürede ama **maksimum verimle gezmek** istiyorsan, doğru yerdesin. Bu rehber; plansız dolaşmak yerine **zamanı akıllıca kullanarak**, ülkenin en önemli iki şehrini derinlemesine keşfetmen için hazırlandı.
@@ -27,156 +43,207 @@ content: `
 👉 Barselona (2 gün) – Modern mimari, sahil ve enerjik şehir hayatı  
 👉 Madrid (2 gün) – Kraliyet atmosferi, sanat ve gerçek İspanyol kültürü  
 
-Bu rota, klasik turist planlarının aksine:
-- ❌ Gereksiz şehir geçişlerini kaldırır  
-- ❌ Zaman kaybettiren rotaları ezer geçer  
-- ✅ En ikonik yerleri doğru sırayla gösterir  
-- ✅ Sabah-akşam optimizasyonuyla günü maksimum kullanır  
-
-Sadece “nereler gezilir” değil, aynı zamanda:
-- Hangi gün nereye gidilmeli  
-- Saat kaçta çıkılmalı  
-- Ulaşım nasıl yapılmalı  
-- Nerede yemek yenmeli  
-
-hepsi bu planın içinde.
-
-Eğer ilk kez İspanya’ya gidiyorsan ve “her şeyi göreyim ama yorulmayayım” diyorsan, bu rota tam olarak o dengeyi kurar.
-
-Hazırsan, 4 günde İspanya’yı **gerçekten yaşamaya** başlıyoruz.
-
---- 
+---
 
 ## 🚄 Şehirler Arası Ulaşım (KRİTİK)
 
 ### Barselona → Madrid
 - **Ulaşım:** AVE Hızlı Tren  
 - **Süre:** ⏱️ 2 saat 30 dakika  
-- **Fiyat:** 40€ – 90€  
-- **Kalkış:** Barcelona Sants  
-- **Varış:** Madrid Atocha  
+- **Kalkış:** Barcelona Sants / **Varış:** Madrid Atocha  
 
-👉 **Neden tren?**
-- Havaalanı derdi yok  
-- Şehir merkezinden şehir merkezine  
-- Toplamda uçaktan daha hızlı  
-
-📌 Sabah erken saat trenini seç → gün kazan
+📌 Sabah erken saat trenini seç → gün kazan.
 
 ---
 
 ## 1. Gün: Barselona – İkonik Yapılar
-
-### 09:00 - La Sagrada Familia
-- **Süre:** 1.5 saat  
-- **Not:** Biletleri önceden al (çok önemli)
-
-### 11:30 - Passeig de Gracia
-- Casa Batllo ve Casa Mila dışarıdan keşif
-
-### 13:30 - Öğle Yemeği
-- Tapas + sangria (klasik başlangıç)
-
-### 15:00 - La Rambla & Boqueria
-- Şehrin en canlı noktası
-
-### 18:00 - Barceloneta Sahili
-- Gün batımı + yürüyüş
-
----
+- **09:00 - La Sagrada Familia:** Biletleri önceden al (çok önemli).
+- **11:30 - Passeig de Gracia:** Casa Batllo ve Casa Mila dışarıdan keşif.
+- **15:00 - La Rambla & Boqueria:** Şehrin en canlı noktası.
+- **18:00 - Barceloneta Sahili:** Gün batımı + yürüyüş.
 
 ## 2. Gün: Barselona – Manzara & Lokal Deneyim
-
-### 09:30 - Park Güell
-- **Süre:** 1.5 saat  
-- Şehir manzarası efsane
-
-### 12:00 - El Born Bölgesi
-- Dar sokaklar + kafeler
-
-### 14:00 - Öğle Yemeği
-- Deniz ürünleri önerilir
-
-### 16:30 - Montjuic Tepesi
-- Teleferik + panoramik manzara
-
-### 20:00 - Akşam
-- İsteğe bağlı flamenco gösterisi
-
----
+- **09:30 - Park Güell:** Şehir manzarası efsane.
+- **12:00 - El Born Bölgesi:** Dar sokaklar + butik kafeler.
+- **16:30 - Montjuic Tepesi:** Teleferik + panoramik manzara.
 
 ## 3. Gün: Madrid – Kraliyet ve Şehir Merkezi
-
-### 06:30 - Uyanış  
-### 07:30 - Tren (Barselona → Madrid)  
-### 10:00 - Madrid’e Varış  
-
-👉 Otele bavul bırak → direkt keşfe başla
-
----
-
-### 10:30 - Kraliyet Sarayı
-- **Süre:** 1.5 saat  
-
-### 12:30 - Plaza Mayor & Puerta del Sol
-- Şehrin kalbi
-
-### 14:00 - Öğle Yemeği
-- Paella veya bocadillo
-
-### 16:00 - Prado Müzesi
-- **Süre:** 2 saat  
-
-### 20:00 - Gran Via
-- Gece yürüyüşü + alışveriş
-
----
+- **07:30 - Tren:** Barselona’dan Madrid’e geçiş.
+- **10:30 - Kraliyet Sarayı:** Görkemli iç mekan keşfi.
+- **12:30 - Plaza Mayor & Puerta del Sol:** Şehrin tam kalbi.
+- **16:00 - Prado Müzesi:** Sanat dolu 2 saat.
 
 ## 4. Gün: Madrid – Parklar & Lokal Hayat
-
-### 09:30 - Retiro Parkı
-- Göl kenarında yürüyüş
-
-### 11:30 - Mercado de San Miguel
-- Tapas turu
-
-### 13:30 - Öğle Yemeği
-- Serbest keşif
-
-### 15:00 - Malasaña Bölgesi
-- Gençlik, sanat ve kafeler
-
-### 17:00 - Dönüş Hazırlığı
-
----
-
-## 🔥 NEDEN BU PLAN MÜKEMMEL?
-
-- Gereksiz şehir yok  
-- Yol yormuyor  
-- Her gün maksimum verim  
-- En ikonik noktalar kapsandı  
+- **09:30 - Retiro Parkı:** Göl kenarında yürüyüş.
+- **11:30 - Mercado de San Miguel:** Tapas turu.
+- **15:00 - Malasaña Bölgesi:** Gençlik, sanat ve tasarım kafeleri.
 
 ---
 
 ## 💡 İspanya Gezi İpuçları
+1. **Biletleri erken al → %50 ucuza gelir.**  
+2. **Akşam yemekleri geç başlar (20:00+).**  
+3. **Yankesicilere dikkat (özellikle Barselona).**  
 
-1. **Biletleri erken al → %50 ucuza gelir**  
-2. **Akşam yemekleri geç saatlerde başlar (20:00+)**  
-3. **Yankesicilere dikkat (özellikle Barselona)**  
-4. **Google Maps + offline harita indir**
+Detaylar için tıkla 🔗 **[İspanya Gezi Rehberi](https://www.waylero.com/blog/ispanya/ispanya-gezilecek-yerler-rehberi)**  
+Kendi Gezi Planını Yapmak için Uygulamayı İndir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile)**
+`,
+      en: `
+## Spain Travel Guide: Barcelona + Madrid in 4 Days
+
+If you want to explore Spain in a short time but with **maximum efficiency**, you’ve come to the right place. This guide is designed to help you explore the country’s two most important cities in depth by **using your time wisely** rather than wandering aimlessly.
+
+👉 Barcelona (2 days) – Modern architecture, the coast, and vibrant city life  
+👉 Madrid (2 days) – Royal ambiance, art, and authentic Spanish culture  
+
+Unlike typical tourist itineraries, this route:
+- ❌ Eliminates unnecessary city transfers  
+- ❌ Cuts through time-wasting routes  
+- ✅ Highlights the most iconic spots in the right order  
+- ✅ Maximizes your day with morning-to-evening optimization  
+
+It’s not just about “where to visit,” but also:
+- Which day to visit each place  
+- What time to leave  
+- How to get there  
+- Where to eat  
+
+It’s all included in this itinerary.
+
+If you’re visiting Spain for the first time and want to “see everything without getting too tired,” this itinerary strikes the perfect balance.
+
+If you’re ready, let’s start **truly experiencing** Spain in 4 days.
+
+--- 
+
+## 🚄 Intercity Transportation (CRITICAL)
+
+### Barcelona → Madrid
+- **Transportation:** AVE High-Speed Train  
+- **Duration:** ⏱️ 2 hours 30 minutes  
+- **Price:** 40€ – 90€  
+- **Departure:** Barcelona Sants  
+- **Arrival:** Madrid Atocha  
+
+👉 **Why take the train?**
+- No hassle with the airport  
+- City center to city center  
+- Faster overall than flying  
+
+📌 Choose an early morning train → save a day
 
 ---
 
-İspanya’yı 4 günde gezmek istiyorsan, bu plan **en optimum rota**.
+## Day 1: Barcelona – Iconic Landmarks
 
-Daha fazla rota için Waylero’daki diğer gezi planlarına göz atmayı unutma.
+### 09:00 - La Sagrada Familia
+- **Duration:** 1.5 hours  
+- **Note:** Buy tickets in advance (very important)
 
-Detaylar için tıkla 🔗 **[İspanya Gezi Rehberi](https://www.waylero.com/blog/ispanya/ispanya-gezilecek-yerler-rehberi)**
+### 11:30 - Passeig de Gracia
+- Explore Casa Batlló and Casa Milà from the outside
 
-Kendi Gezi Planını Yapmak için Google Play Storden Uygulamayı İndir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
+### 1:30 PM - Lunch
+- Tapas + sangria (classic starter)
 
+### 3:00 PM - La Rambla & Boqueria
+- The city’s liveliest spot
+
+### 6:00 PM - Barceloneta Beach
+- Sunset + stroll
+
+---
+
+## Day 2: Barcelona – Scenery & Local Experience
+
+### 9:30 AM - Park Güell
+- **Duration:** 1.5 hours  
+- Legendary city views
+
+### 12:00 PM - El Born District
+- Narrow streets + cafes
+
+### 2:00 PM - Lunch
+- Seafood is recommended
+
+### 4:30 PM - Montjuïc Hill
+- Cable car + panoramic views
+
+### 8:00 PM - Evening
+- Optional flamenco show
+
+---
+
+## Day 3: Madrid – Royal and City Center
+
+### 06:30 - Wake up  
+### 07:30 - Train (Barcelona → Madrid)  
+### 10:00 - Arrival in Madrid  
+
+👉 Drop off luggage at the hotel → start exploring right away
+
+
+### 10:30 - Royal Palace
+- **Duration:** 1.5 hours  
+
+### 12:30 - Plaza Mayor & Puerta del Sol
+- The heart of the city
+
+### 14:00 - Lunch
+- Paella or bocadillo
+
+### 4:00 PM - Prado Museum
+- **Duration:** 2 hours  
+
+### 8:00 PM - Gran Via
+- Evening stroll + shopping
+
+---
+
+## Day 4: Madrid – Parks & Local Life
+
+### 9:30 AM - Retiro Park
+- Walk along the lake
+
+### 11:30 AM - San Miguel Market
+- Tapas tour
+
+### 1:30 PM - Lunch
+- Free time to explore
+
+### 3:00 PM - Malasaña District
+- Youth, art, and cafes
+
+### 5:00 PM - Preparing to leave
+
+---
+## 🔥 WHY IS THIS ITINERARY PERFECT?
+
+- No unnecessary stops  
+- No exhausting travel  
+- Maximum efficiency every day  
+- All the most iconic spots are covered  
+
+---
+
+## 💡 Spain Travel Tips
+
+1. **Buy tickets early → Save up to 50%**  
+2. **Dinner starts late (8:00 PM+)**  
+3. **Watch out for pickpockets (especially in Barcelona)**  
+4. **Use Google Maps + download offline maps**
+
+---
+
+If you want to explore Spain in 4 days, this itinerary is the **optimal route**.
+
+Don’t forget to check out other travel itineraries on Waylero for more routes.
+
+Click here for details 🔗 **[Spain Travel Guide](https://www.waylero.com/en/blog/ispanya/ispanya-gezilecek-yerler-rehberi)**
+
+Download the app from the Google Play Store to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
 `
+    }
   }
 ];

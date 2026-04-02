@@ -362,6 +362,8 @@ Kapadokya, doğa ve tarihin birleştiği büyüleyici bir coğrafyadır.
 
 Daha fazla keşif için tıkla 🔗 **[Kapadokya Gezilecek Yerler](https://www.waylero.com/kesfet?q=nevsehir)**
 
+Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
+
 Waylero ile keşfet, planla, paylaş.  
 `
  ,
