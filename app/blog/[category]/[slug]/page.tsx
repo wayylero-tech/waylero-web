@@ -24,29 +24,23 @@ import { ispanyaRehberPosts } from "@/app/data/blog/ispanya/posts";
 import { spainPosts } from "@/app/data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
 import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
+import { turkeyPostsAkdeniz } from "@/app/data/blog/turkey/postsakdeniz";
+import { turkeyPostEge } from "@/app/data/blog/turkey/postsege";
+import { turkeyPostMarmara } from "@/app/data/blog/turkey/postsmarmara";
+import { turkeyPostIcAnadolu } from "@/app/data/blog/turkey/postsicanadolu";
+import { turkeyPostKaradeniz } from "@/app/data/blog/turkey/postkaradeniz";
+import { turkeyPostDoguAnadolu } from "@/app/data/blog/turkey/psostsdoguanadolu";
+import { turkeyPostGunaydogu } from "@/app/data/blog/turkey/postsguneydoguanadolu";
 
 const posts = [
-  ...generalPosts,
-  ...uygulamaPosts,
-  ...antikkentPosts,
-  ...konyaPosts,
-  ...istanbulPosts,
-  ...konyaPosts2,
-  ...konyaRehberPost,
-  ...selalelerRehberPost,
-  ...magaralarRehberPost,
-  ...turkeyPost,
-  ...kanyonlarRehberPosts,
-  ...mersinRehberPosts,
-  ...turkiyeEnCokZiyaretEdilen10YerPost,
-  ...antalyaRehberPost,
-  ...trekkingPosts,
-  ...istanbulRehberPosts,
-  ...antalyaPosts2,
-  ...ispanyaRehberPosts,
-  ...spainPosts,
-  ...nevsehirRehberPosts,
-  ...cappadociaPosts,
+  ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
+  ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
+  ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts, ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost, ...antalyaRehberPost, ...trekkingPosts,
+  ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
+  ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
+  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, 
+  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, 
 ];
 
 // 1. SSG İÇİN PARAMETRELERİ ÖNCEDEN OLUŞTURMA

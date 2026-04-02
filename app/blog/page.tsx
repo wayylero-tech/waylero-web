@@ -25,29 +25,23 @@ import { ispanyaRehberPosts } from "../data/blog/ispanya/posts";
 import { spainPosts } from "../data/blog/ispanya/posts2";
 import { nevsehirRehberPosts } from "../data/blog/nevsehir/posts";
 import { cappadociaPosts } from "../data/blog/nevsehir/cappadociaPosts";
+import { turkeyPostsAkdeniz } from "../data/blog/turkey/postsakdeniz";
+import { turkeyPostEge } from "../data/blog/turkey/postsege";
+import { turkeyPostMarmara } from "../data/blog/turkey/postsmarmara";
+import { turkeyPostIcAnadolu } from "../data/blog/turkey/postsicanadolu";
+import { turkeyPostKaradeniz } from "../data/blog/turkey/postkaradeniz";
+import { turkeyPostDoguAnadolu } from "../data/blog/turkey/psostsdoguanadolu";
+import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
 
 const posts = [
-  ...generalPosts,
-  ...uygulamaPosts,
-  ...antikkentPosts,
-  ...konyaPosts,
-  ...istanbulPosts,
-  ...konyaPosts2,
-  ...konyaRehberPost,
-  ...selalelerRehberPost,
-  ...magaralarRehberPost,
-  ...turkeyPost,
-  ...kanyonlarRehberPosts,
-  ...mersinRehberPosts,
-  ...turkiyeEnCokZiyaretEdilen10YerPost,
-  ...antalyaRehberPost,
-  ...trekkingPosts,
-  ...istanbulRehberPosts,
-  ...antalyaPosts2,
-  ...ispanyaRehberPosts,
-  ...spainPosts,
-  ...nevsehirRehberPosts,
-  ...cappadociaPosts
+  ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
+  ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
+  ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts, ...mersinRehberPosts,
+  ...turkiyeEnCokZiyaretEdilen10YerPost, ...antalyaRehberPost, ...trekkingPosts,
+  ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
+  ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
+  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, 
+  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, 
 ];
 
 export default function BlogPage() {
