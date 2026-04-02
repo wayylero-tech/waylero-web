@@ -166,7 +166,7 @@ Boğaz + kumpir
 
 Waylero ile keşfet 🚀
 `
-
+,
       en: `
 # Places to Visit in Istanbul 2026 – Ultimate Guide
 
