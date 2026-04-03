@@ -1,4 +1,47 @@
 {
+
+"newyork": {
+"newyork-central-park": [
+"https://upload.wikimedia.org/wikipedia/commons/f/f8/Angel_of_the_Waters%2C_Central_Park%2C_2025.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/e/ea/The_Ramble_and_the_Lake_in_November_of_2025%2C_Central_Park%2C_Manhattan.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/0/0f/Central_Park%2C_Desa_Parkcity_%28221113%29_1.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/6/67/Central_Park%2C_Desa_Parkcity_%28221113%29_6.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/4/45/Benches_in_Central_Park%2C_New_York%2C_2025.jpg"
+],
+"newyork-ozgurluk-heykeli": [
+"https://upload.wikimedia.org/wikipedia/commons/5/58/Liberty-statue-from-front.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/e/e4/Liberty-statue-with-manhattan.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/5/5c/Liberty-statue-from-behind.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/3/37/Liberty-statue-from-below.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/c/cb/Statue_of_Liberty_National_Monument_STLI_02-05.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/d/d0/Statue_of_Liberty_National_Monument_STLI4459.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/0/0b/Statue_mytilene.jpg"
+],
+"newyork-times-square": [
+"https://upload.wikimedia.org/wikipedia/commons/6/61/Manhattanhenge_on_Times_Square.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/c/ca/W_43rd_Street_and_Times_Square%2C_New_York%2C_2007.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/5/53/Sunset_at_Times_Square%2C_New_York_City_%282017%29.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/0/02/Times_Square_NYPD.JPG",
+"https://upload.wikimedia.org/wikipedia/commons/e/e7/NASA_Mars_Perseverance_Live_at_One_Times_Square_%28NHQ202102180106%29.jpg"
+],
+"newyork-empire-state-binasi": [
+"https://upload.wikimedia.org/wikipedia/commons/b/b0/Empire_State_Building_during_sunset.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/0/0f/Empire_State_%28Unsplash%29.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/1/1c/Empire_State_Building_8-1-2012.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/7/72/Empire_State_Building_topdown.jpg"
+],
+"newyork-brooklyn-koprusu": [
+"https://upload.wikimedia.org/wikipedia/commons/0/02/Brooklyn_Bridge_%28256846737%29.jpeg",
+"https://upload.wikimedia.org/wikipedia/commons/1/1f/Brooklyn-Bridge-15.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/6/65/The_Brooklyn_Bridge_From_Manhattan_to_Brooklyn.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4a/Brooklyn_exposure_%28Unsplash%29.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/6/6e/Brooklyn_Bridge_Cables_2.jpg"
+],
+"newyork-rockefeller center": [
+"https://upload.wikimedia.org/wikipedia/commons/e/ef/Ice-skating_in_Rockefeller_Center_%28Unsplash%29.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/0/04/Lights_of_Rockefeller_Center_during_sunset.jpg"
+]
+},
 "barselona": {
  "barselona-barceloneta-plaji": [
     "https://upload.wikimedia.org/wikipedia/commons/6/6f/Promenade_and_beach%2C_Platja_de_la_Barceloneta%2C_Barcelona%2C_2015.jpg"

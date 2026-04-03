@@ -25,7 +25,7 @@ const countryToRegionMap: Record<string, string> = {
   finlandiya: "europa", irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
   gurcistan: "europa", balerus: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
   cin: "asia", hindistan: "asia", tayland: "asia", "guney-kore": "europa", filipinler: "europa", 
-  japonya: "asia", "sri-lanka": "asia", kktc: "turkey", singapur: "asia", umman: "europa", 
+  japonya: "asia", "sri-lanka": "asia", kktc: "turkey", singapur: "asia", amerika: "europa", umman: "europa", 
 };
 
 const slugify = (text: string) => {
