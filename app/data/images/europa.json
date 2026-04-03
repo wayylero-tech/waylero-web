@@ -1,5 +1,69 @@
 {
+"miami": {
+"miami-vizcaya-muzesi-ve-bahceleri": [
+"https://upload.wikimedia.org/wikipedia/commons/4/47/Vizcaya_Museum_and_Gardens_060524_DSC6689.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/8/88/Vizcaya_Museum_and_Gardens_060524_DSC6674.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/4/4a/Vizcaya_Museum_and_Gardens_060524_DSC6664.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/5/59/Vizcaya_Museum_and_Gardens_%2C_Miami_060524_DSC6655.jpg"
 
+],
+"miami-little-havana": [
+"https://upload.wikimedia.org/wikipedia/commons/0/0f/April_7%2C_2015_-_Little_Havana%2C_Miami%2C_Florida_-_Welcome.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/9/94/Old_Apartment_Building_Little_Havana%2C_Miami.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/0/03/Havana_Collection_Little_Havana%2C_Miami_July_2024.jpg"
+
+]
+},
+
+"los-angeles": {
+
+  "los-angeles-santa-monica-pier": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fsanta-monica-pier%2F1775240573251_4.jpg?alt=media&token=61b96c7b-58cf-40e0-8256-05094e4bfa6b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fsanta-monica-pier%2F1775240569362_3.jpg?alt=media&token=3728806e-4646-49f7-8a70-2266536fabbd",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fsanta-monica-pier%2F1775240563486_1.jpg?alt=media&token=e68ff28a-0782-42c8-ab30-4ed311132f02",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fsanta-monica-pier%2F1775240566572_2.jpg?alt=media&token=d42e4b2a-535a-448e-874d-f91d1d3a9d58",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fsanta-monica-pier%2F1775240559522_0.jpg?alt=media&token=8073e411-5058-495e-9f09-68f24632a07f"
+  ],
+  "los-angeles-the-getty-center": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fthe-getty-center%2F1775241022839_0.jpg?alt=media&token=0b3e3ff5-02c1-4c7b-bd94-586b6865b830",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fthe-getty-center%2F1775241031175_2.jpg?alt=media&token=becf2a02-c10f-40b6-8004-9301183fa761",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fthe-getty-center%2F1775241035096_3.jpg?alt=media&token=ff6e1ac7-5da7-4c0e-84d3-5e017640ea43",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Flos-angeles%2Fthe-getty-center%2F1775241028200_1.jpg?alt=media&token=3ccb548e-5397-4b11-9025-946112b7e97d"
+  ]
+},
+"chicago": {
+ "chicago-chicago-botanik-bahcesi": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fchicago-botanik-bah%C3%A7esi%2F1775241811813_0.jpg?alt=media&token=a98c23d3-162f-4928-b42f-dd37f80b3ed2",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fchicago-botanik-bah%C3%A7esi%2F1775241815701_1.jpg?alt=media&token=dcfceef5-2493-4e6c-b473-41e019ae58a5",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fchicago-botanik-bah%C3%A7esi%2F1775241818869_2.jpg?alt=media&token=c2cb2542-f76b-4cb0-9542-7e427ab48a60",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fchicago-botanik-bah%C3%A7esi%2F1775241825020_4.jpg?alt=media&token=eb7f9a3f-8eec-49ab-9279-2fa8c2465211",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fchicago-botanik-bah%C3%A7esi%2F1775241821746_3.jpg?alt=media&token=1c146b47-5d61-45cc-a03d-5b2729e7e8e0"
+  ],
+  "chicago-lincoln-park-zoo": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Flincoln-park-zoo%2F1775241875235_0.jpg?alt=media&token=1264fe56-c2ff-40f1-a1bb-f498645cbd0c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Flincoln-park-zoo%2F1775241880895_1.jpg?alt=media&token=86ae92f2-b28c-4d9a-aefc-016b8099e6d0"
+  ],
+  "chicago-museum-of-science-and-industry": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fmuseum-of-science-and-industry%2F1775241980178_0.jpg?alt=media&token=c3961410-9fdc-49f9-ae32-7c2293cd4ac6"
+  ],
+  "chicago-navy-pier": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fnavy-pier%2F1775242097212_1.jpg?alt=media&token=7223b4db-f604-4e54-bdbc-25e70a08fa37",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fnavy-pier%2F1775242101695_2.jpg?alt=media&token=1ef838ac-8f91-4767-b745-e5d369d7bd93",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fnavy-pier%2F1775242092736_0.jpg?alt=media&token=dacfc9e8-7334-4e7c-b05c-f5368c681fc1"
+  ],
+  "chicago-shedd-aquarium": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fshedd-aquarium%2F1775241712542_1.jpg?alt=media&token=47cee0e3-d36e-4922-8387-5b7b17bda517",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fshedd-aquarium%2F1775241708540_0.jpg?alt=media&token=8af9e8fd-aa7f-4770-aeab-2ea496da14a5",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fshedd-aquarium%2F1775241716879_2.jpg?alt=media&token=2c62cfc9-c036-4aaa-867c-0998396722a8",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fshedd-aquarium%2F1775241721271_3.jpg?alt=media&token=4b08d38b-22a3-43dc-a856-dc75177237b9"
+  ],
+  "chicago-skydeck-chicago": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fskydeck-chicago%2F1775241258134_0.jpg?alt=media&token=ed3e187c-c385-4e63-865c-1b3d87f9488b"
+  ],
+  "chicago-willis-tower-skydeck": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fchicago%2Fwillis-tower-(skydeck)%2F1775241275574_0.jpg?alt=media&token=41fdbd7f-d285-4ccc-bc04-c6045aba000c"
+  ]
+},
 "newyork": {
 "newyork-central-park": [
 "https://upload.wikimedia.org/wikipedia/commons/f/f8/Angel_of_the_Waters%2C_Central_Park%2C_2025.jpg",
