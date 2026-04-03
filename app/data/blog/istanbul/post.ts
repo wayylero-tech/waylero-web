@@ -16,8 +16,8 @@ export const istanbulRehberPosts = [
 
     gallery: [
       "/assets/blog/istanbul/genel/ayasofya.png",
-      "/assets/blog/istanbul/genel/galata-kulesi.png",
-      "/assets/blog/istanbul/genel/topkapi-sarayi.png"
+      "/assets/blog/istanbul/genel/galata.png",
+      "/assets/blog/istanbul/genel/sultanahmet.png"
     ],
 
     date: "2026-03-16",
