@@ -1,23 +1,42 @@
 export const kanyonlarRehberPosts = [
-{
-slug: "turkiye-en-guzel-kanyonlar-rehberi-2026",
-title: "Türkiye’nin En Güzel ve En Etkileyici Kanyonları (2026 Güncel Doğa Rehberi)",
-excerpt: "Türkiye’de mutlaka görülmesi gereken en etkileyici kanyonlar. Saklıkent, Valla, Köprülü, Ulubey, Tazı ve daha birçok kanyon hakkında detaylı bilgiler ve gezi önerileri.",
-image: "/assets/blog/kanyonlar/cover.png",
-gallery: [
-"/assets/blog/kanyonlar/saklikent.png",
-"/assets/blog/kanyonlar/valla.png",
-"/assets/blog/kanyonlar/koprulu.png",
-"/assets/blog/kanyonlar/sahinkaya.png",
-],
-date: "2026-03-06",
-city: "turkiye",
-seo: {
-title: "Türkiye’nin En Güzel Kanyonları 2026 | En Etkileyici Doğa Rotaları - Waylero",
-description: "Türkiye’de görülmesi gereken en güzel kanyonlar rehberi. Saklıkent, Valla, Köprülü, Ulubey, Tazı, Şahinkaya ve Arapapıştı kanyonları hakkında detaylı bilgiler."
-},
-content: `
+  {
+    slug: "turkiye-en-guzel-kanyonlar-rehberi-2026",
 
+    title: {
+      tr: "Türkiye’nin En Güzel ve En Etkileyici Kanyonları (2026 Güncel Doğa Rehberi)",
+      en: "The Most Beautiful Canyons in Turkey (2026 Ultimate Nature Guide)"
+    },
+
+    excerpt: {
+      tr: "Türkiye’de mutlaka görülmesi gereken en etkileyici kanyonlar. Saklıkent, Valla, Köprülü, Ulubey ve daha fazlası hakkında detaylı bilgiler.",
+      en: "Discover the most stunning canyons in Turkey including Saklıkent, Valla, Köprülü, and more with detailed travel insights."
+    },
+
+    image: "/assets/blog/kanyonlar/cover.png",
+
+    gallery: [
+      "/assets/blog/kanyonlar/saklikent.png",
+      "/assets/blog/kanyonlar/valla.png",
+      "/assets/blog/kanyonlar/koprulu.png",
+      "/assets/blog/kanyonlar/sahinkaya.png",
+    ],
+
+    date: "2026-03-06",
+    city: "turkiye",
+
+    seo: {
+      tr: {
+        title: "Türkiye’nin En Güzel Kanyonları 2026 | Doğa Rehberi",
+        description: "Saklıkent, Valla, Köprülü, Ulubey ve Türkiye’nin en etkileyici kanyonları hakkında detaylı gezi rehberi."
+      },
+      en: {
+        title: "Best Canyons in Turkey 2026 | Nature Travel Guide",
+        description: "Explore Turkey’s most breathtaking canyons including Saklıkent, Valla, Köprülü and more."
+      }
+    },
+
+    content: {
+      tr: `
 # Türkiye’nin En Güzel ve En Etkileyici Kanyonları (2026 Güncel Doğa Rehberi)
 
 Türkiye, dağlık coğrafyası ve güçlü akarsu sistemleri sayesinde dünyanın en etkileyici kanyon oluşumlarından bazılarına ev sahipliği yapar. Toros Dağları’ndan Karadeniz’in derin vadilerine, Ege Bölgesi’nden Doğu Anadolu’ya kadar birçok bölgede keşfedilmeyi bekleyen doğal kanyonlar bulunmaktadır.
@@ -176,8 +195,179 @@ Detaylar için tıkla 🔗 **[Ulubey Kanyonu](https://www.waylero.com/kesfet/tur
 
 Türkiye’nin kanyonları, doğa severler için keşfedilmeyi bekleyen eşsiz rotalar sunar. Yüksek kayalık duvarlar, serin akarsular ve büyüleyici manzaralar sayesinde bu doğal oluşumlar hem macera hem de huzur arayan gezginler için ideal destinasyonlardır.
 
-Waylero ile keşfet, planla, paylaş.
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
 
-`
-}
+Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
+
+Waylero ile keşfet, planla, paylaş.`,
+
+      en: `
+# Turkey’s Most Beautiful and Impressive Canyons (2026 Updated Nature Guide)
+
+Thanks to its mountainous geography and strong river systems, Turkey is home to some of the world’s most impressive canyon formations. From the Taurus Mountains to the deep valleys of the Black Sea, and from the Aegean Region to Eastern Anatolia, there are many natural canyons waiting to be discovered.
+
+Canyons are deep and narrow valleys formed over millions of years by rivers eroding rocks. These natural formations not only offer stunning views but also serve as popular routes for trekking, rafting, hiking, camping, and photography.
+
+In this guide, you can find Turkey’s most beautiful and impressive canyons, along with their features and transportation information.
+
+
+
+---
+
+## 🏔 Mediterranean Region Canyons
+
+### 🏔 Saklıkent Canyon (Muğla – Antalya)
+
+Saklıkent Canyon is one of the most famous and most visited canyons in Turkey. It is located between the Seydikemer district of Muğla and the borders of Antalya. Approximately 18 kilometers long, the canyon creates a striking natural structure with rock walls reaching over 300 meters in places.
+
+There are sections inside the canyon suitable for walking. During the summer months, the icy water flowing along the canyon floor offers visitors a refreshing nature experience.
+
+📍 How to Get There?  
+It is approximately 45 km from Fethiye city center. It takes about 1 hour by private car.
+
+📏 Length: ~18 km  
+📐 Height: Up to 300 meters in places  
+Flow Rate: Strong in spring  
+Visitor Density: Very high
+
+Click for details 🔗 **[Saklıkent Canyon](https://www.waylero.com/en/kesfet/turkey/mugla/saklikent-kanyonu)**
+
+---
+
+### 🏔 Köprülü Canyon (Antalya)
+
+Located in the Manavgat district of Antalya, Köprülü Canyon is one of Turkey’s most popular rafting centers. Formed by the Köprüçay River, the canyon is approximately 14 kilometers long.
+
+Situated within Köprülü Canyon National Park, the area also stands out with its rich vegetation and historic Roman bridges. It is a highly popular destination for rafting, hiking, and camping activities.
+
+📍 How to Get There?  
+It is approximately 85 km from Antalya city center.
+
+📏 Length: ~14 km  
+📐 Depth: Sections exceeding 100 meters  
+Flow Rate: High (ideal for rafting)  
+Visitor Density: Very high
+
+Click for details 🔗 **[Köprülü Canyon](https://www.waylero.com/en/kesfet/turkey/antalya/koprulu-kanyon-milli-parki)**
+
+---
+
+### 🏔 Tazı Canyon (Antalya)
+
+Tazı Canyon is a natural spot located within Köprülü Canyon National Park in Antalya and has rapidly gained popularity in recent years. With its high rocky cliffs and wide panoramic views, it offers an impressive viewpoint especially for photographers.
+
+The area is particularly famous for its sunrise and sunset views.
+
+📍 How to Get There?  
+It is approximately 90 km from Antalya city center. Access is provided via Köprülü Canyon National Park.
+
+📏 Elevation: ~1200 meters  
+📐 Cliff Height: Close to 200 meters  
+Visitor Density: Rapidly increasing in recent years
+
+Click for details 🔗 **[Tazı Canyon](https://www.waylero.com/en/kesfet/turkey/antalya/tazi-kanyonu)**
+
+---
+
+## 🏔 Black Sea Region Canyons
+
+### 🏔 Valla Canyon (Kastamonu)
+
+Valla Canyon is located in the Pınarbaşı district of Kastamonu and is considered one of the deepest canyons in the world. With rock walls exceeding 1000 meters in places, it is one of Turkey’s most impressive natural formations.
+
+The canyon has a very challenging terrain and entering it without professional equipment is not recommended. However, its scenery can be safely observed from the viewing terraces around it.
+
+📍 How to Get There?  
+It is approximately 120 km from Kastamonu city center. Access is via the Pınarbaşı district.
+
+📏 Depth: 800 – 1200 meters  
+📐 Length: ~12 km  
+Visitor Density: Moderate
+
+Click for details 🔗 **[Valla Canyon](https://www.waylero.com/en/kesfet/turkey/kastamonu/valla-kanyonu)**
+
+---
+
+### 🏔 Şahinkaya Canyon (Samsun)
+
+Şahinkaya Canyon is located in the Vezirköprü district of Samsun and is an impressive natural formation situated on the Altınkaya Dam Lake. It offers one of the most striking canyon views in Turkey.
+
+The canyon is generally explored by boat tours and provides visitors with a fascinating nature experience with its high rocky walls.
+
+📍 How to Get There?  
+It is approximately 120 km from Samsun city center. Accessible via the Vezirköprü district.
+
+📏 Length: ~3 km  
+📐 Rock Height: Sections exceeding 300 meters  
+Visitor Density: Moderate
+
+Click for details 🔗 **[Şahinkaya Canyon](https://www.waylero.com/en/kesfet/turkey/samsun/sahinkaya-kanyonu)**
+
+---
+
+## 🏔 Aegean Region Canyons
+
+### 🏔 Arapapıştı Canyon (Aydın – Muğla)
+
+Arapapıştı Canyon is one of the most impressive natural formations in the Aegean Region. It is located between Aydın and Muğla and consists of deep valleys formed by the Akçay River.
+
+The canyon stands out with its narrow passages explored especially by boat tours and its high rocky structures.
+
+📍 How to Get There?  
+Access is via the Bozdoğan district of Aydın.
+
+📏 Length: ~6 km  
+📐 Height: Rocky cliffs exceeding 300 meters  
+Visitor Density: Moderate
+
+Click for details 🔗 **[Arapapıştı Canyon](https://www.waylero.com/kesfet/turkey/aydin/arapapisti-kanyonu)**
+
+---
+
+## 🏔 Central Anatolia and Western Anatolia
+
+### 🏔 Ulubey Canyon (Uşak)
+
+Ulubey Canyon is a wide valley located in the Uşak province and is considered the second largest canyon system in the world. Formed by Banaz Stream and its tributaries, this canyon covers an area of approximately 45 kilometers.
+
+The glass observation terrace in the area offers visitors the opportunity to view the canyon from above.
+
+📍 How to Get There?  
+It is approximately 30 km from Uşak city center.
+
+📏 Length: ~45 km  
+📐 Depth: 150 – 170 meters  
+Visitor Density: Moderate
+
+Click for details 🔗 **[Ulubey Canyon](https://www.waylero.com/en/kesfet/turkey/usak/ulubey-kanyonu)**
+
+---
+
+## 🗓 Best Time to Visit Canyons in Turkey
+
+• Spring → Nature is at its most vibrant  
+• Summer → Suitable for canyon walks and rafting  
+• Autumn → Best colors for photography  
+
+---
+
+## 🎯 Things to Consider When Visiting Canyons
+
+✔ Be cautious of slippery surfaces  
+✔ Prefer trekking shoes  
+✔ Watch out for sudden water level rises  
+✔ Protect nature and leave the environment clean  
+
+---
+
+Turkey’s canyons offer unique routes waiting to be discovered for nature lovers. With high rocky walls, cool streams, and breathtaking views, these natural formations are ideal destinations for travelers seeking both adventure and tranquility.
+
+If you enjoy hiking, the Lycian Way should definitely be on your must-do list.
+Click for more exploration 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**
+
+Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)** 
+
+Discover, plan, and share with Waylero.`
+    }
+  }
 ];

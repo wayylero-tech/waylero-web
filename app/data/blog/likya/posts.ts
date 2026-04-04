@@ -1,9 +1,16 @@
 export const trekkingPosts = [
   {
     slug: "likya-yolu-dunyanin-en-iyi-trekking-rotalarindan-biri",
-    title: "Likya Yolu: Dünyanın En İyi Trekking Rotalarından Biri",
-    excerpt:
-      "Türkiye'nin güney kıyılarında uzanan Likya Yolu, antik kentler, turkuaz koylar ve dağ manzaralarıyla dünyanın en iyi trekking rotalarından biri olarak kabul ediliyor. İşte Likya Yolu hakkında bilmeniz gerekenler.",
+
+    title: {
+      tr: "Likya Yolu: Dünyanın En İyi Trekking Rotalarından Biri",
+      en: "Lycian Way: One of the Best Trekking Routes in the World"
+    },
+
+    excerpt: {
+      tr: "Türkiye'nin güney kıyılarında uzanan Likya Yolu, antik kentler, turkuaz koylar ve dağ manzaralarıyla dünyanın en iyi trekking rotalarından biridir.",
+      en: "Stretching along Turkey’s southern coast, the Lycian Way is one of the world’s best trekking routes with ancient cities, turquoise bays, and mountain views."
+    },
 
     image: "/assets/blog/likya/cover.png",
 
@@ -18,13 +25,20 @@ export const trekkingPosts = [
     city: "antalya",
 
     seo: {
-      title:
-        "Likya Yolu Rehberi: Dünyanın En İyi Trekking Rotası | Waylero",
-      description:
-        "Likya Yolu nerede, kaç km, nereden başlanır? Türkiye'nin en ünlü trekking rotası Likya Yolu hakkında rota, tarih ve gezi rehberi.",
+      title: {
+        tr: "Likya Yolu Rehberi: Dünyanın En İyi Trekking Rotası | Waylero",
+        en: "Lycian Way Guide: Best Trekking Route in Turkey | Waylero"
+      },
+      description: {
+        tr: "Likya Yolu nerede, kaç km, nereden başlanır? Türkiye'nin en ünlü trekking rotası hakkında detaylı rehber.",
+        en: "Where is the Lycian Way, how long is it, where to start? Complete guide to Turkey’s most famous trekking route."
+      }
     },
 
-    content: `
+    content: {
+      tr: `
+# Likya Yolu Rehberi
+
 Türkiye, yalnızca tarihi şehirleri ve plajlarıyla değil aynı zamanda dünyanın en güzel trekking rotalarından bazılarıyla da ünlüdür.  
 Bu rotaların en ünlüsü ise hiç şüphesiz Likya Yolu (Lycian Way)’dur.
 
@@ -245,6 +259,244 @@ Likya Yolu, yalnızca Türkiye'nin değil dünyanın en etkileyici yürüyüş r
 Antik kentler, turkuaz koylar ve dağ manzaralarıyla dolu bu rota, doğa ve keşif tutkunları için unutulmaz bir deneyim sunar.
 
 Eğer doğa yürüyüşünü seviyorsanız, Likya Yolu mutlaka yapılması gereken rotalar listesinde yer almalıdır.
-`
+
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+
+Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
+
+Waylero ile keşfet, planla, paylaş. 
+`,
+
+      en: `
+# Lycian Way Guide
+
+Turkey is famous not only for its historic cities and beaches, but also for some of the most beautiful trekking routes in the world.  
+Undoubtedly, the most famous of these routes is the Lycian Way.
+
+Stretching along the Mediterranean coast, the Lycian Way is considered one of the best long-distance trekking routes in the world for hiking enthusiasts.  
+Filled with turquoise coves, ancient cities, mountain views, and small Mediterranean villages, this route offers one of the most impressive nature experiences in Turkey.
+
+Here’s what you need to know about the Lycian Way 👇
+
+## 🥾 Where is the Lycian Way?
+
+The Lycian Way is a hiking route of approximately 540 kilometers, starting from the Fethiye district of Antalya and extending to the city center of Antalya.
+
+The route takes its name from the Lycian Civilization, which lived in this region in ancient times.  
+Along the way, there are many ancient cities, historical ruins, and natural beauties.
+
+While walking on the Lycian Way, you can see an ancient theater and swim in a turquoise cove on the same day.
+
+---
+
+## 🌍 One of the Best Trekking Routes in the World
+
+The Lycian Way was marked by British traveler Kate Clow in 1999 and turned into a modern trekking route.
+
+Today, it is considered one of the best trekking routes in the world by many international travel magazines.
+
+The biggest reason for this is the unique diversity the route offers:
+
+📌 Walking paths with Mediterranean views  
+📌 Ancient Lycian cities  
+📌 Forest and mountain trails  
+📌 Hidden coves and beaches  
+📌 Traditional Mediterranean villages  
+
+Thanks to these features, the Lycian Way offers a unique experience for both nature and history enthusiasts.
+
+---
+## 🏛️ Ancient Cities on the Lycian Way
+
+The Lycian Way is not only a nature route, but also a journey of historical discovery.  
+Along this route, which carries the traces of the ancient Lycian civilization, there are many important archaeological sites.
+
+Ancient theaters, rock tombs, and temple ruins that suddenly appear while hiking make the Lycian Way one of the most unique trekking routes in the world.
+
+Some of the prominent ancient cities on the Lycian Way and their visitor information are as follows:
+
+### 🏺 Patara Ancient City
+
+Patara Ancient City, the capital of the Lycian League, is one of the most important historical sites in the region.  
+It stands out with its ancient parliament building, theater, and extensive city ruins.
+
+Patara is also famous for Patara Beach, one of the longest beaches in Türkiye.
+
+📍 Location: Antalya – Kaş / Gelemiş  
+🎟️ Entrance Fee: Approximately 300 TL (as of 2026)  
+🎫 Museum Card: Valid  
+
+Important structures that can be seen during the visit:
+
+• Patara Ancient Theater  
+• Lycian League Parliament Building  
+• Triumphal Arch (Arch of Mettius Modestus)  
+• Ancient Harbor Street  
+
+Patara is one of the most visited historical stops for hikers on the Lycian Way.
+
+👉 Click the link for more  
+ -[Patara Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/patara-antik-kent)
+
+### 🏛️ Xanthos Ancient City
+
+Xanthos, one of the most important cities of the Lycian civilization, is included in the UNESCO World Heritage List.  
+It was considered the political and cultural center of Lycia in ancient times.
+
+The city is especially famous for its Lycian-type rock tombs and monumental tombs.
+
+📍 Location: Antalya – Kaş / Kınık  
+🎟️ Entrance Fee: Approximately 180 TL  
+🎫 MuseumPass: Valid  
+
+Highlighted structures:
+
+• Xanthos Ancient Theater  
+• Harpy Monument  
+• Lycian Tombs  
+• Agora ruins from the Roman period  
+
+For hikers of the Lycian Way, Xanthos is one of the most impressive stops in terms of history and archaeology.
+
+👉 Click the link for more:  
+ [Xanthos Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/xanthos-antik-kenti)
+
+### 🏝️ Olympos Ancient City
+
+Olympos Ancient City, one of the important port cities of the Lycian League, is famous for being intertwined with nature.  
+The ancient ruins are located in a valley stretching toward Çıralı beach.
+
+During your walk, you can both see historical structures and reach the sea.
+
+📍 Location: Antalya – Kumluca / Çıralı  
+🎟️ Entrance Fee: Approximately 300 TL  
+🎫 MuseumPass: Valid  
+
+Main structures to see in Olympos:
+
+• Ancient theater  
+• Roman bath  
+• Necropolis area  
+• Ancient harbor ruins  
+
+Olympos is also one of the most popular camping and accommodation spots on the Lycian Way.
+
+👉 Click the link for more  
+ -[Olympos Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/olympos-antik-kenti)
+
+### ⛰️ Myra Ancient City
+
+Myra Ancient City, one of the most important cities of the Lycian region, is especially known for its rock-cut tombs.
+
+Its ancient theater and rock tombs are considered among the most impressive examples of Lycian architecture.
+
+📍 Location: Antalya – Demre  
+🎟️ Entrance Fee: Approximately 320 TL  
+🎫 MuseumPass: Valid  
+
+Must-see places in Myra:
+
+• Lycian rock tombs  
+• Myra Ancient Theater  
+• Roman period ruins  
+
+Myra is also known as the city where Saint Nicholas, known as Santa Claus, once lived.
+
+👉 Click the link for more:  
+ [Myra Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/myra-antik-kenti)
+
+## 🔎 Visitor Information
+
+Since many ancient cities along the Lycian Way are museums and archaeological sites affiliated with the Republic of Turkey’s Ministry of Culture and Tourism, the MuseumPass is valid.
+
+Visitors who have a MuseumPass can enter these ancient cities free of charge throughout the year.
+
+However, some smaller ruins or open areas can be visited for free and may appear as a natural part of the trekking route.
+
+Encountering ancient city ruins frequently while walking the Lycian Way turns this route into not only a nature hike but also a journey of historical discovery.
+
+
+## 🌅 Must-See Places on the Lycian Way
+
+The Lycian Way is not only a long hiking route but also offers the opportunity to discover some of the most impressive landscapes of the Mediterranean.  
+Along the route, you’ll find turquoise bays, steep cliffs, small villages, and historical sites.
+
+Some of the most visited spots by Lycian Way hikers include:
+
+### 🏝️ Kabak Bay
+
+Located near Fethiye, Kabak Bay is one of the most popular nature stops on the Lycian Way.  
+Surrounded by high cliffs, this bay is famous for its turquoise sea and natural atmosphere.
+
+📍 Location: Fethiye – Faralya area  
+🥾 Situated on the Lycian Way route  
+🏕️ Camping and bungalow accommodation options available  
+
+### 🏞️ Faralya Village
+
+Located just above Kabak Bay, Faralya Village is one of the most beautiful viewpoints on the Lycian Way.  
+The village is built on high cliffs overlooking the Mediterranean.
+
+📍 Location: Fethiye – Ölüdeniz road  
+🌅 Stunning sunset views  
+🍽️ Scenic restaurants and cafés  
+
+### 🦋 Butterfly Valley
+
+One of Türkiye’s most famous natural areas, Butterfly Valley is a unique natural wonder surrounded by steep cliffs.
+
+📍 Location: Fethiye – Ölüdeniz  
+🚤 Accessible by boat or trekking route  
+🏝️ Turquoise sea and natural beach  
+
+### 🌅 Gelidonya Lighthouse
+
+Gelidonya Lighthouse is one of the most iconic points on the Lycian Way.
+
+📍 Location: Antalya – near Kumluca / Adrasan  
+📸 Ideal photo spot for sunrise and sunset  
+
+### 🏖️ Çıralı and Olympos
+
+One of the most popular accommodation areas on the Lycian Way.
+
+📍 Location: Antalya – Kumluca  
+🏛️ Olympos Ancient City  
+🔥 Yanartaş (Chimera) eternal flames  
+🏖️ Long and natural beach  
+
+## 🧭 How Many Days Does It Take to Walk the Lycian Way?
+
+The entire Lycian Way is approximately **540 kilometers** long.
+
+Average duration for those who want to complete the whole route:
+
+📌 **25 – 35 days**
+
+However, most travelers prefer to hike only certain sections of the route.
+
+## ☀️ Best Time to Hike the Lycian Way
+
+🍃 April – June  
+🍂 September – November  
+
+The weather can be quite hot during the summer months.
+
+## 🔎 Quick Summary
+
+📌 Length: 540 km  
+📌 Start: Fethiye  
+📌 Finish: Antalya  
+📌 Type: Long-distance trekking route  
+📌 Best season: Spring and autumn  
+
+The Lycian Way is considered one of the most impressive hiking routes not only in Türkiye but in the world.  
+Filled with ancient cities, turquoise bays, and mountain views, this route offers an unforgettable experience for nature and exploration enthusiasts.
+
+If you enjoy hiking, the Lycian Way should definitely be on your must-do list.
+Click for more exploration 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**
+
+Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)** `
+    }
   }
 ];

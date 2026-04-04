@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 export default function ActivitiesPage() {
   const [city, setCity] = useState("istanbul");
   const [loading, setLoading] = useState(true);
+  const [visible, setVisible] = useState(false);
 
-  // 📍 Konum alma (basit)
   useEffect(() => {
     if (!navigator.geolocation) {
       setLoading(false);
@@ -20,6 +20,9 @@ export default function ActivitiesPage() {
       },
       () => setLoading(false)
     );
+
+    // 🔥 Fade-in trigger
+    setTimeout(() => setVisible(true), 100);
   }, []);
 
   if (loading) {
@@ -32,21 +35,55 @@ export default function ActivitiesPage() {
 
   return (
     <main className="h-screen bg-gray-100 relative">
-      {/* 🔥 Etkinlik.io iframe */}
       <div className="absolute inset-0 z-50 bg-black">
+
+        {/* iframe */}
         <iframe
           src={`https://etkinlik.io/${city}`}
           className="w-full h-full border-none"
           allow="geolocation; fullscreen"
         />
 
-        {/* ❌ Ana Sayfaya Dön (www.waylero.com) */}
-        <button
-          onClick={() => (window.location.href = "https://www.waylero.com/")}
-          className="absolute top-4 left-4 bg-white rounded-full p-3 shadow z-50"
-        >
-          ✕ Ana Sayfaya Dön
-        </button>
+        {/* 💎 PREMIUM BADGE */}
+        <a
+  href={`https://etkinlik.io/${city}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`
+    absolute top-4 right-4 z-50
+    flex items-center gap-2
+    
+    px-3 py-2 sm:px-4 sm:py-2.5
+    
+    text-[10px] sm:text-xs font-medium
+    
+    rounded-full
+    
+    backdrop-blur-lg
+    
+    bg-white/90   /* 🔥 ARKA PLAN AÇIK */
+    text-black    /* 🔥 YAZI SİYAH */
+    
+    border border-gray-200
+    
+    shadow-lg
+    
+    transition-all duration-500
+    
+    hover:scale-105 hover:bg-white
+    
+    ${visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"}
+  `}
+>
+  <span className="text-sm sm:text-base transition-transform group-hover:rotate-12">
+    🌐
+  </span>
+
+  <span className="whitespace-nowrap">
+    Etkinlikler Etkinlik.io tarafından sağlanmaktadır →
+  </span>
+</a>
+
       </div>
     </main>
   );

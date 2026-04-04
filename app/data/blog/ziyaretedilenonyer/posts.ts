@@ -1,8 +1,17 @@
 export const turkiyeEnCokZiyaretEdilen10YerPost = [
 {
   slug: "turkiye-en-cok-ziyaret-edilen-10-yer-2026",
-  title: "Türkiye’nin En Çok Ziyaret Edilen 10 Yeri (2026 Güncel Gezi Rehberi)",
-  excerpt: "Türkiye’de turistlerin en çok ziyaret ettiği 10 yer. Ayasofya, Kapadokya, Pamukkale, Efes Antik Kenti ve daha fazlası hakkında detaylı bilgiler.",
+
+  title: {
+    tr: "Türkiye’nin En Çok Ziyaret Edilen 10 Yeri (2026 Güncel Gezi Rehberi)",
+    en: "Top 10 Most Visited Places in Turkey (2026 Travel Guide)"
+  },
+
+  excerpt: {
+    tr: "Türkiye’de turistlerin en çok ziyaret ettiği 10 yer. Ayasofya, Kapadokya, Pamukkale, Efes Antik Kenti ve daha fazlası hakkında detaylı bilgiler.",
+    en: "Discover the top 10 most visited places in Turkey including Hagia Sophia, Cappadocia, Pamukkale, Ephesus and more."
+  },
+
   image: "/assets/blog/populer-yerler/ayasofya.png",
 
   gallery: [
@@ -22,11 +31,18 @@ export const turkiyeEnCokZiyaretEdilen10YerPost = [
   city: "turkiye",
 
   seo: {
-    title: "Türkiye’nin En Çok Ziyaret Edilen 10 Yeri | En Popüler Turistik Noktalar - Waylero",
-    description: "Türkiye’de gezilecek en popüler 10 yer nereler? Ayasofya, Kapadokya, Pamukkale Travertenleri, Efes Antik Kenti, Ölüdeniz, Sümela Manastırı, Göbeklitepe, Nemrut Dağı, Uzungöl ve Topkapı Sarayı hakkında detaylı bilgiler içeren kapsamlı Türkiye gezi rehberi."
+    title: {
+      tr: "Türkiye’nin En Çok Ziyaret Edilen 10 Yeri | En Popüler Turistik Noktalar - Waylero",
+      en: "Top 10 Most Visited Places in Turkey | Travel Guide - Waylero"
+    },
+    description: {
+      tr: "Türkiye’de gezilecek en popüler 10 yer nereler? Ayasofya, Kapadokya, Pamukkale, Efes, Ölüdeniz ve daha fazlası.",
+      en: "What are the most visited places in Turkey? Discover Hagia Sophia, Cappadocia, Pamukkale, Ephesus, Oludeniz and more."
+    }
   },
 
-  content: `
+  content: {
+    tr: `
 
 # Türkiye’nin En Çok Ziyaret Edilen 10 Yeri (2026)
 
@@ -481,8 +497,477 @@ Detaylar için tıkla 🔗 **[Topkapı Sarayı](https://www.waylero.com/kesfet/t
 
 Türkiye’nin turistik zenginliği yalnızca bu listeyle sınırlı değildir. Ülkenin her bölgesinde keşfedilmeyi bekleyen yüzlerce doğal ve tarihi güzellik bulunmaktadır.
 
-Waylero ile keşfet, planla, paylaş.
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+
+Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
+
+Waylero ile keşfet, planla, paylaş. 
+
+`,
+
+    en: `
+
+# Top 10 Most Visited Places in Turkey (2026)
+
+Turkey is one of the most popular tourism countries in the world thanks to its historical heritage, natural beauty, and cultural diversity. From the historic structures of Istanbul to the unique fairy chimneys of Cappadocia, from the white travertines of Pamukkale to the magnificent ruins of the Ancient City of Ephesus, it offers an unparalleled variety of tourism experiences.
+
+Every year, millions of local and foreign tourists travel to explore different regions of Turkey. Places such as Hagia Sophia, Cappadocia, Pamukkale Travertines, the Ancient City of Ephesus, Ölüdeniz, Sümela Monastery, Göbeklitepe, Mount Nemrut, Uzungöl, and Topkapı Palace are among the most visited tourist destinations in Turkey.
+
+In this guide, you can find the most popular tourist attractions in Turkey, why they attract so much attention, and important details you should know when visiting.
+
+---
+
+## 🕌 Hagia Sophia (Istanbul)
+
+Hagia Sophia is one of the most iconic historical structures in Istanbul and the world. Built in 537 by the Byzantine Emperor Justinian I, this magnificent structure has hosted different civilizations throughout its approximately 1,500-year history. Initially used as a cathedral during the Byzantine period, Hagia Sophia was converted into a mosque after the conquest of Istanbul in 1453, served as a museum in 1935, and is currently used as a mosque again.
+
+Its massive dome, Byzantine mosaics, and Ottoman calligraphy together make Hagia Sophia one of the most important architectural structures in the world. Listed as a UNESCO World Heritage Site, this historic building is visited by millions of local and international tourists every year.
+
+Inside Hagia Sophia, you can see golden mosaics from the Byzantine period, marble columns, and large calligraphic panels from the Ottoman era. The architectural grandeur and historical atmosphere of the structure give visitors the feeling of traveling through time.
+
+### 📍 Visitor Information
+
+**Entrance Fee:**  
+Entry to the prayer area is free. However, some upper galleries and certain sections may require a museum ticket depending on the period.
+
+**Visiting Hours:**  
+Generally open throughout the day, but tourist visits may be briefly restricted during prayer times.
+
+**Best Time to Visit:**  
+Early morning or late afternoon, when crowds are smaller.
+
+### 🚋 How to Get There?
+
+Hagia Sophia is located in Sultanahmet Square on Istanbul’s historic peninsula.
+
+Transportation options:
+
+• **Tram:** T1 line to Sultanahmet stop  
+• **Bus:** Walk from Eminönü or Beyazıt  
+• **Metro:** Marmaray to Sirkeci, then a short walk  
+
+### 🎯 Visiting Tips
+
+✔ Visit early in the morning to avoid crowds  
+✔ Use a wide-angle lens for interior photography  
+✔ Stay quiet to respect the historical structure  
+✔ Expect long queues during peak seasons  
+
+Hagia Sophia is one of the most important symbols of Istanbul’s historical and cultural identity. For most visitors coming to Turkey, it is at the top of the must-see list.
+
+Click for details 🔗 **[Hagia Sophia](https://www.waylero.com/en/kesfet/turkey/istanbul/ayasofya)**
+
+---
+
+## 🎈 Cappadocia (Nevşehir)
+
+Cappadocia is one of the most unique natural tourism regions in Turkey and the world. Spanning provinces such as Nevşehir, Kayseri, Aksaray, and Niğde, this region is famous for its **fairy chimneys**, formed millions of years ago by volcanic eruptions followed by wind and water erosion.
+
+The region stands out not only for its natural formations but also for its thousands of years of history. Many civilizations have lived in Cappadocia, from the Hittites to the Roman Empire, and from the Byzantine period to the Seljuks. Especially during early Christianity, people carved churches, monasteries, and underground cities into the rocks.
+
+Today, Cappadocia has become one of the world’s most popular tourist destinations with its **hot air balloons**, **fairy chimneys**, **underground cities**, and **historic rock churches**. The **Göreme National Park and the Rock Sites of Cappadocia**, listed as a UNESCO World Heritage Site, are among the most important attractions in the region.
+
+### 📍 Must-See Places in Cappadocia
+
+There are many historical and natural sites to visit in Cappadocia.
+
+Highlights:
+
+• Göreme Open-Air Museum  
+• Derinkuyu Underground City  
+• Kaymaklı Underground City  
+• Uçhisar Castle  
+• Paşabağ (Monks Valley)  
+• Love Valley  
+• Pigeon Valley  
+
+### 🎈 Cappadocia Balloon Tours
+
+One of the first experiences that comes to mind when Cappadocia is mentioned is the **hot air balloon tour**. Dozens of balloons rising at sunrise offer an unforgettable view over the unique valleys of Cappadocia.
+
+Balloon tours are usually held at sunrise and last approximately **45–60 minutes**. This experience is one of the most preferred activities by tourists visiting Cappadocia.
+
+### 📍 Visitor Information
+
+**Entrance Fees:**  
+Some areas in Cappadocia can be visited for free, while museum sites like the Göreme Open-Air Museum and underground cities require an entrance fee.
+
+**Visiting Hours:**  
+Tourist areas are generally open from morning until sunset.
+
+**Best Time to Visit:**  
+Spring and autumn are the ideal seasons to visit Cappadocia.
+
+### 🚗 How to Get to Cappadocia?
+
+Transportation to Cappadocia is quite easy.
+
+Options:
+
+• **Plane:** Nevşehir Cappadocia Airport or Kayseri Airport  
+• **Bus:** Direct buses from many cities in Turkey to Nevşehir  
+• **Car:** Accessible via Kayseri and Nevşehir by road  
+
+### 🎯 Visiting Tips
+
+✔ Wake up early to watch the balloon views at sunrise  
+✔ Wear comfortable shoes for valley walks  
+✔ Love Valley or Red Valley is recommended for sunset  
+✔ Morning and evening offer the best lighting for photography  
+
+Cappadocia is one of the must-see tourist destinations in Turkey thanks to its natural beauty and historical atmosphere. Valleys full of fairy chimneys, underground cities, and balloon views offer visitors an unforgettable experience.
+
+Click for details 🔗 **[Cappadocia](https://www.waylero.com/en/kesfet/turkey/nevsehir/peri-bacalari)**
+
+---
+
+## 🏞 Pamukkale Travertines (Denizli)
+
+Pamukkale is located in Denizli and is one of Turkey’s most famous natural tourist attractions. It is world-renowned for its white travertine terraces and thermal waters. The name “Pamukkale” means “cotton castle” in Turkish, referring to the white mineral formations that resemble a castle. Listed as a UNESCO World Heritage Site, Pamukkale fascinates visitors with both its natural and historical significance.
+
+The travertines are formed when thermal water emerging from underground deposits carbonate minerals. As the water flows across the terraces, it creates step-like formations that give Pamukkale its unique appearance. Pamukkale has also been a thermal center visited since ancient times for healing. Located right next to it, the **Ancient City of Hierapolis** offers a combination of history and nature with its Roman-era theaters, necropolis, and sacred pools.
+
+### 📍 Visitor Information
+
+**Entrance Fee:**  
+A combined ticket applies for Pamukkale travertines and Hierapolis. Current fees are generally around 150–200 TL for adults. Some special areas may require additional fees.
+
+**Visiting Hours:**  
+08:00 AM – 07:00 PM (may vary by season)  
+Travertines can be very crowded in summer, so early morning is recommended.
+
+**Best Time to Visit:**  
+Spring and autumn are ideal in terms of weather and crowd levels.
+
+### 🚗 How to Get to Pamukkale?
+
+Pamukkale is approximately 20 km from Denizli city center.
+
+Options:
+
+• **Bus:** Regular minibuses from Denizli bus station  
+• **Car:** About 25 minutes from Denizli center  
+• **Tours:** Daily tours organized by many agencies  
+
+### 🎯 Visiting Tips
+
+✔ Walking barefoot on the travertines is mandatory  
+✔ Morning offers the best light for photography  
+✔ Try the thermal pools for a relaxing experience  
+✔ Visit on weekdays to avoid crowds  
+
+Pamukkale Travertines are among the most visited tourist attractions in Turkey with their natural beauty and historical heritage.
+
+Click for details 🔗 **[Pamukkale Travertines](https://www.waylero.com/en/kesfet/turkey/denizli/pamukkale-travertenleri)**
+
+---
+
+## 🏛 Ancient City of Ephesus (Izmir)
+
+The Ancient City of Ephesus, located in the Selçuk district of İzmir, is one of Turkey’s most significant historical and tourist destinations. With a history dating back to the 10th century B.C., Ephesus developed into a major port city during the Roman era and became one of the largest cities of its time. Listed on the UNESCO World Heritage List, Ephesus is a must-visit destination for both history enthusiasts and tourists.
+
+Among the most striking structures in Ephesus are the **Celsus Library**, the **Great Theater**, the **Temple of Hadrian**, the **Odeon**, the **Agora**, and the **Terrace Houses**. Strolling through the city’s narrow streets offers a glimpse into Roman-era stonework and ancient life. Ephesus is one of Turkey’s richest ancient cities, both architecturally and archaeologically.
+
+### 📍 Visitor Information
+
+**Admission Fee:**  
+The current admission fee for adults is approximately 200–250 TL. Discounted tickets are available for students and teachers. Museum card holders receive benefits at the entrance.
+
+**Visiting Hours:**  
+8:00 AM – 7:00 PM (during summer months); hours may vary during winter months.  
+
+**Best Time to Visit:**  
+Spring and fall are ideal, both in terms of weather conditions and crowd levels. Midday hours can be quite hot during the summer, so an early morning visit is recommended.
+### 🚗 How to Get to Ephesus?
+
+Ephesus is located approximately 80 km from the center of Izmir, within the boundaries of the Selçuk district.  
+
+Transportation options:
+
+• **Bus / Minibus:** Regular services from Izmir and Kusadasi  
+• **Car:** Approximately a 1-hour drive from Izmir via Selcuk  
+• **Tours:** Day trips departing from Izmir or Kusadasi  
+
+### 🎯 Visitor Tips
+
+✔ Wear comfortable shoes; the ancient stone paths can be slippery  
+✔ Bring a hat and water to protect yourself from the sun  
+✔ Morning hours offer the best lighting for photography  
+✔ Using a museum pass allows you to enjoy benefits at both Ephesus and nearby museums  
+
+The Ancient City of Ephesus, one of Turkey’s most visited tourist destinations, offers both a historical and cultural experience. Roman-era architecture and ancient ruins give visitors the feeling of traveling back in time.
+
+Click for details 🔗 **[Ancient City of Ephesus](https://www.waylero.com/en/kesfet/turkey/izmir/efes-antik-kenti)**
+
+---
+
+## 🏝 Ölüdeniz (Muğla)
+
+Ölüdeniz, located in the Fethiye district of Muğla, is one of Turkey’s most famous beaches. With its turquoise waters, tranquil lagoon, and surrounding forested areas, it offers a unique natural beauty. It is a world-renowned destination, particularly popular among photography enthusiasts and nature lovers.  
+
+Thanks to its warm climate and crystal-clear waters, the area is heavily visited by both local and international tourists during the summer months. Ölüdeniz is also famous for **paragliding** activities; adventurers taking off from Babadağ get the chance to explore Ölüdeniz’s breathtaking scenery from the sky.  
+
+### 📍 Must-See Places in Ölüdeniz
+
+• Ölüdeniz Beach and Lagoon  
+• Babadağ – Paragliding Center  
+• Belcekız Beach  
+• Gemiler Island (boat tours)  
+• Kayaköy – Historic Stone Village  
+
+### 📍 Visitor Information
+
+**Entrance Fee:**  
+Entry to Ölüdeniz Beach is free. However, fees apply for activities such as paragliding at Babadağ and boat tours.
+
+**Visiting Hours:**  
+The beach and lagoon are open from sunrise to sunset. Paragliding activities typically begin early in the morning.
+
+**Best Time to Visit:**  
+May through October is the ideal period. It can get quite crowded, especially during the summer months of July and August.
+### 🚗 How to Get to Ölüdeniz?
+
+Ölüdeniz is approximately 14 km from the center of Fethiye.
+
+Transportation options:
+
+• **Car:** A 20-minute drive from Fethiye by private car  
+• **Shuttle / Minibus:** Regular services from the center of Fethiye  
+• **Tours:** Local hotels and travel agencies offer day-trip options  
+
+### 🎯 Visitor Tips
+
+✔ Go to the beach early in the morning to avoid the crowds  
+✔ Book a paragliding reservation at Babadağ  
+✔ Plan ahead for water sports and boat tours  
+✔ Don’t forget to use sunscreen and wear a hat  
+
+Ölüdeniz is one of Turkey’s most visited tourist destinations, known for both its tranquil lagoon and action-packed activities. The turquoise sea and surrounding natural beauty offer visitors an unforgettable experience.
+
+
+Click for details 🔗 **[Ölüdeniz](https://www.waylero.com/en/kesfet/turkey/mugla/oludeniz)**
+
+---
+
+## ⛪ Sumela Monastery (Trabzon)
+
+Sumela Monastery, located in the Maçka district of Trabzon, is one of Turkey’s most impressive historical structures. Built in the 4th century, the monastery is carved into the rocky cliffs of Mount Karadağ and is unique in terms of both its architecture and natural beauty.  
+
+The monastery was founded by Christian monks during the Byzantine era and served as a religious center for many years. Its interior features frescoes, icons, and stone carvings that are well worth seeing. Sümela is not only a place of worship but also one of Trabzon’s iconic landmarks, attracting thousands of local and international tourists every year.  
+
+### 📍 Visitor Information
+
+**Admission Fee:**  
+The admission fee for adults is approximately 150–200 TL. Discounted tickets are available for students and teachers.  
+
+**Visiting Hours:**  
+8:00 AM – 7:00 PM (summer season); hours may vary during the winter months.  
+
+**Best Time to Visit:**  
+Spring and summer are ideal, both for the weather conditions and the lush, vibrant appearance of the natural surroundings.  
+### 🚗 How to Get to Sumela Monastery?
+
+Sumela Monastery is located approximately 50 km from the city center of Trabzon.  
+
+Transportation options:
+
+• **By Car:** Approximately 1 hour by private car from Trabzon via the Maçka district  
+• **Tours:** Day trips are available from the center of Trabzon  
+• **Public Transportation:** Access to the monastery by minibus or taxi from the Maçka bus terminal  
+
+### 🎯 Visitor Tips
+
+✔ Wear comfortable walking shoes; the path and stairs can be slippery  
+✔ Morning hours are ideal for photography due to the lighting  
+✔ Arrive early to avoid crowds in the monastery’s narrow corridors  
+✔ Bring water and light snacks; facilities are limited on the monastery grounds  
+
+Sümela Monastery is one of the most visited tourist attractions in Trabzon and the Black Sea Region. With its historical charm and breathtaking views, it offers visitors both a cultural and natural experience.
+ 
+
+Click for details 🔗 **[Sümela Monastery](https://www.waylero.com/en/kesfet/turkey/trabzon/sumela-manastiri)**
+
+---
+
+## 🏺 Göbeklitepe (Şanlıurfa)
+
+Göbeklitepe is an archaeological site located near the village of Örencik in Şanlıurfa and is recognized as the world’s oldest known temple complex. Dated to around 9600 B.C., this structure is regarded as a discovery that has fundamentally transformed our understanding of human history. Listed on the UNESCO World Heritage List, Göbeklitepe is one of the most important tourist destinations in Turkey and the world.  
+
+The site is constructed with T-shaped monoliths and stone pillars. The reliefs on the pillars—featuring animal figures, abstract symbols, and religious icons—highlight Göbeklitepe’s historical and cultural significance. Archaeologists have determined that this was a temple built by hunter-gatherer societies and used for worship.
+
+### 📍 Visitor Information
+
+**Admission Fee:**  
+The admission fee for the Göbeklitepe Open-Air Museum is approximately 150–200 TL. Museum Card holders receive a discount.  
+
+**Visiting Hours:**  
+8:00 AM – 6:00 PM (summer season); hours may vary during the winter months.  
+
+**Best Time to Visit:**  
+Spring and fall are ideal seasons, both in terms of weather conditions and crowd levels.  
+### 🚗 How to Get to Göbeklitepe?
+
+Göbeklitepe is located approximately 20 km from the city center of Şanlıurfa.  
+
+Transportation options:
+
+• **By Car:** About a 25-minute drive from the Şanlıurfa city center  
+• **Tours:** Day-trip archaeology tours based in Şanlıurfa  
+• **Public Transportation:** Minibuses and taxis from the city to the village of Örencik  
+
+### 🎯 Visitor Tips
+
+✔ Wear comfortable shoes and a hat; the site is open and sunny  
+✔ Choose morning or early afternoon hours for photography  
+✔ Enhance your visit by reading the informational signs at the museum site  
+✔ Visiting on weekdays is recommended to avoid crowds  
+
+Göbeklitepe is one of the oldest and most impressive structures in human history and ranks among Turkey’s most visited tourist destinations. Its archaeological significance and mysterious atmosphere offer visitors both a cultural and educational experience.
+
+
+Click for details 🔗 **[Göbeklitepe](https://www.waylero.com/en/kesfet/turkey/sanliurfa/gobeklitepe)**
+
+---
+
+## ⛰ Mount Nemrut (Adıyaman)
+
+Mount Nemrut, located in the Kahta district of Adıyaman, is one of Turkey’s most impressive historical and natural sites. The massive statues and tumulus tombs constructed by the Kingdom of Commagene in the 1st century B.C. are the key elements that earned Mount Nemrut a place on the UNESCO World Heritage List. The sunrise and sunset views make Mount Nemrut a unique destination for both history and nature enthusiasts.  
+
+The **giant statues** located at the summit of the mountain—stone figures depicting gods and kings, massive stone blocks, and tumulus tombs—captivate visitors. Watching the sunrise at Mount Nemrut is the most popular activity among visitors.
+
+### 📍 Visitor Information
+
+**Entrance Fee:**  
+The entrance fee for Mount Nemrut National Park and the ancient site is approximately 150–200 TL for adults. The Museum Card is accepted.  
+
+**Visiting Hours:**  
+5:00 AM – 7:00 PM (may vary by season). Special planning may be required for sunrise and sunset times.  
+
+**Best Time to Visit:**  
+May–October is the most ideal period in terms of weather conditions and scenery. Access to the summit may be difficult during the winter months.  
+### 🚗 How to Get to Mount Nemrut?
+
+Mount Nemrut is located approximately 90 km from the city center of Adıyaman and 45 km from the district of Kahta.  
+
+Transportation options:
+
+• **By Car:** About 1 hour from Kahta by private car or tour  
+• **Tours:** Day trips departing from Adıyaman and Kahta  
+• **Public Transportation:** Minibus or private transfer from Kahta to Nemrut  
+
+### 🎯 Visitor Tips
+
+✔ Wear comfortable walking shoes and season-appropriate clothing  
+✔ Head to the summit early for sunrise and sunset  
+✔ Bring water and light snacks; facilities at the summit are limited  
+✔ You can use a tripod or wide-angle lens for photography  
+
+Mount Nemrut is one of Turkey’s most visited tourist destinations, renowned for its historical significance and natural scenery. The massive statues, tumulus tombs, and breathtaking views offer visitors an unforgettable experience.
+
+
+Click for details 🔗 **[Mount Nemrut](https://www.waylero.com/en/kesfet/turkey/adiyaman/nemrut-dagi)**
+
+---
+
+## 🌿 Uzungöl (Trabzon)
+
+Uzungöl, located in the Çaykara district of Trabzon, is one of the Black Sea region’s most breathtaking natural wonders. It derives its name from the lake’s long and narrow shape. Surrounded by lush green mountains, Uzungöl is one of Turkey’s most visited destinations for nature tourism.  
+
+The area offers an ideal setting for activities such as nature walks, photography, skiing, and birdwatching. The wooden walking paths, small cafes, and lodging facilities around Uzungöl provide visitors with both a comfortable trip and a unique scenic experience.  
+
+### 📍 Must-See Places in Uzungöl
+
+• Uzungöl Lake and its surroundings  
+• Dilek Dede Hill – Viewpoint  
+• Mountain pastures and forest hiking trails  
+• Wooden bridges and riverside walking paths  
+• Local boutique cafes and restaurants  
+
+### 📍 Visitor Information
+
+**Entrance Fee:**  
+Entry to Uzungöl is free. Parking areas and some designated hiking trails may require a fee.  
+
+**Visiting Hours:**  
+Open from sunrise to sunset. Visitable year-round.  
+
+**Best Time to Visit:**  
+Spring and summer are the best times to see the lush greenery. Fall is ideal for the vibrant colors of the surrounding nature.  
+### 🚗 How to Get to Uzungöl?
+
+Uzungöl is located approximately 100 km from the city center of Trabzon.  
+
+Transportation options:
+
+• **By Car:** Approximately 2 hours by private vehicle from Trabzon via Çaykara  
+• **Public Transportation:** Minibus from Trabzon to Çaykara, followed by Uzungöl minibuses  
+• **Tours:** Day-trip nature tours based in Trabzon  
+
+### 🎯 Visitor Tips
+
+✔ Wear comfortable walking shoes; paths around the lake can be slippery  
+✔ Take photos during the morning and early afternoon hours  
+✔ Bring water and light snacks; services are limited in some areas  
+✔ Plan your clothing according to weather conditions; sudden rain showers are common in the Black Sea region  
+
+Uzungöl is one of Turkey’s most visited natural tourism destinations, renowned for its natural beauty, the lake, and the surrounding mountain views. It is an ideal destination for those seeking both relaxation and nature photography.
+
+
+Click for details 🔗 **[Uzungöl](https://www.waylero.com/en/kesfet/turkey/trabzon/uzungol)**
+
+---
+
+## 🏰 Topkapı Palace (Istanbul)
+
+Topkapı Palace, located in the Fatih district of Istanbul, is one of the most important palaces of the Ottoman Empire. Built in the 15th century, the palace served as the official residence and administrative centre of the Ottoman sultans for approximately 400 years. Now open to visitors as a museum, Topkapı Palace is one of the most visited tourist attractions in Istanbul and Turkey.  
+
+The palace boasts a rich collection, including the Harem, the Archaeology Museum, the Sacred Relics, and priceless works of art. It offers an unforgettable experience for history and culture enthusiasts. Furthermore, the palace’s stunning views of the Bosphorus and Istanbul are a major attraction for photographers.
+
+### 📍 Visitor Information
+
+**Admission Fee:**  
+- Adults: Approximately 500 TL (including the museum and Harem)  
+- Discounted tickets are available for students and teachers.  
+- The Museum Card is valid.  
+
+**Opening Hours:**  
+- Summer season: 09:00 – 18:45  
+- Winter season: 09:00 – 16:45  
+- The Harem area is open to visitors at specific times.  
+
+**Best Time to Visit:**  
+Spring and autumn are ideal seasons in terms of both weather conditions and visitor numbers. Summer months can be quite crowded.
+### 🚗 How to Get to Topkapı Palace?
+
+Topkapı Palace is very close to downtown Istanbul and Sultanahmet Square.  
+
+Transportation options:
+
+• **Subway / Tram:** A 5-minute walk from the Sultanahmet station  
+• **Car:** Access by private vehicle is possible; paid parking lots are available in the area  
+• **Public transportation:** Regular bus and tram services from the Sultanahmet and Eminönü areas  
+
+### 🎯 Visitor Tips
+
+✔ Go early in the morning to avoid the crowds  
+✔ Set aside enough time to explore the Harem and palace sections (2–3 hours recommended)  
+✔ Choose the morning or early afternoon for photography  
+✔ Wear comfortable shoes and bring water; the palace covers a very large area  
+
+Topkapı Palace is an ideal destination for visitors seeking to trace the footsteps of Ottoman history, experience a cultural journey, and explore Istanbul’s most popular tourist attractions.
+
+Click here for details 🔗 **[Topkapı Palace](https://www.waylero.com/en/kesfet/turkey/istanbul/topkapi-sarayi)**
+
+Turkey’s wealth of tourist attractions is not limited to this list alone. There are hundreds of natural and historical wonders waiting to be discovered in every region of the country.
+
+Discover, plan, and share with Waylero.
+
+If you enjoy hiking, the Lycian Way should definitely be on your must-do list.
+Click for more exploration 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**
+
+Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)** 
 
 `
+  }
 }
 ];

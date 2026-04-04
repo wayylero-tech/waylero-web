@@ -99,7 +99,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
               <img
                 src="/assets/logo-sag.png"
                 className={`transition-all duration-500 object-contain ${
-                  isHome ? "h-20" : "h-14"
+                  isHome ? "h-25" : "h-20"
                 }`}
                 alt="Waylero"
               />
