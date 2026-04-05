@@ -1,8 +1,14 @@
 export const konyaRehberPost = [
   {
     slug: "konya-gezilecek-yerler-rehberi",
-    title: "Konya’da Gezilecek Yerler (2026 Güncel ve Detaylı Rehber)",
-    excerpt: "Konya gezilecek yerler 2026 rehberi: Mevlana Müzesi, Sille Köyü, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası ve Konya mutfağı dahil en kapsamlı gezi rotası.",
+    title: {
+      tr: "Konya’da Gezilecek Yerler (2026 Güncel ve Detaylı Rehber)",
+      en: "Things to Do in Konya 2026 – Complete Travel Guide"
+    },
+    excerpt: {
+      tr: "Konya gezilecek yerler 2026 rehberi: Mevlana Müzesi, Sille Köyü, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası ve Konya mutfağı dahil en kapsamlı gezi rotası.",
+      en: "Konya travel guide 2026: Explore Mevlana Museum, Sille Village, Çatalhöyük, Lake Beyşehir, Tınaztepe Cave and the rich Konya cuisine in this comprehensive itinerary."
+    },
     image: "/assets/blog/konya/genel/tinaztepe.png",
     gallery: [
       "/assets/blog/konya/genel/beysehir.png",
@@ -10,16 +16,21 @@ export const konyaRehberPost = [
       "/assets/blog/konya/genel/tinaztepe.png",
       "/assets/blog/konya/genel/esrefoglu.png",
       "/assets/blog/konya/genel/yerköprü.png",
-
-
     ],
     date: "2026-02-17",
     city: "konya",
     seo: {
-      title: "Konya Gezilecek Yerler 2026 | En Detaylı Gezi Rehberi - Waylero",
-      description: "Konya'da gezilecek yerler rehberi 2026: Mevlana Müzesi, Sille, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası, tarihi medreseler ve Konya yemekleri hakkında detaylı bilgiler."
+      title: {
+        tr: "Konya Gezilecek Yerler 2026 | En Detaylı Gezi Rehberi - Waylero",
+        en: "Konya Travel 2026 | Most Detailed Travel Guide - Waylero"
+      },
+      description: {
+        tr: "Konya'da gezilecek yerler rehberi 2026: Mevlana Müzesi, Sille, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası, tarihi medreseler ve Konya yemekleri hakkında detaylı bilgiler.",
+        en: "Konya travel guide 2026: Detailed information about Mevlana Museum, Sille, Çatalhöyük, Lake Beyşehir, Tınaztepe Cave, historic madrasahs, and local cuisine."
+      }
     },
-    content: `
+    content: {
+      tr: `
 # Konya Gezilecek Yerler 2026 – En Kapsamlı Gezi Rehberi
 
 Konya, Anadolu’nun kalbinde yer alan ve binlerce yıllık medeniyet birikimini günümüze taşıyan eşsiz bir şehirdir. Selçuklu Devleti’ne başkentlik yapmış olması, tasavvuf kültürünün merkezi olması ve doğal güzellikleriyle birleşmesi sayesinde 2026 yılında da Türkiye’de gezilecek yerler listesinde üst sıralarda yer almaktadır.
@@ -68,7 +79,7 @@ Mevlevi derviş hücrelerini gezmek
 
 Avluda fotoğraf çekmek
 
-Detaylar için tıkla 🔗 **[Mevlana Müzesi’ni Keşfet](https://www.waylero.com/kesfet/turkey/konya/mevlana-muzesi)**
+Detaylar için tıkla 🔗 **[Mevlana Müzesi’ni Keşfet](https://www.waylero.com/kesfet/turkiye/konya/mevlana-muzesi)**
 
 ---
 
@@ -106,7 +117,7 @@ Medrese mimarisini görmek
 
 Fotoğraf çekmek
 
-Detaylar için tıkla 🔗 **[Karatay Medresesi Detaylı Rehber](https://www.waylero.com/kesfet/turkey/karatay-medresesi)**
+Detaylar için tıkla 🔗 **[Karatay Medresesi Detaylı Rehber](https://www.waylero.com/kesfet/turkiye/konya/karatay-medresesi)**
 
 ---
 
@@ -151,7 +162,7 @@ Selçuklu taş işçiliğini inceleyebilir
 Taç kapısının detaylı kabartmalarını görebilir
 
 Medresedeki taş eserleri ve koleksiyonları inceleyebilir
-Detaylar için tıkla 🔗 **[İnce Minareli Medrese’yi İncele](https://www.waylero.com/kesfet/turkey/konya/ince-minareli-medrese)**
+Detaylar için tıkla 🔗 **[İnce Minareli Medrese’yi İncele](https://www.waylero.com/kesfet/turkiye/konya/ince-minareli-medrese)**
 
 ---
 
@@ -181,7 +192,7 @@ Gerekmez.
 
 Selçuklu türbelerini görmek
 
-Detaylar için tıkla 🔗 **[Alaaddin Camii ve Tepesi Rehberi](https://www.waylero.com/kesfet/turkey/konya/alaaddin-tepesi-ve-alaaddin-camii)**
+Detaylar için tıkla 🔗 **[Alaaddin Camii ve Tepesi Rehberi](https://www.waylero.com/kesfet/turkiye/konya/alaaddin-tepesi-ve-alaaddin-camii)**
 
 ---
 
@@ -216,7 +227,7 @@ Beyşehir Gölü ile birlikte gezmek
 
 Tarihi cami atmosferini görmek
 
-Detaylar için tıkla 🔗 **[Eşrefoğlu Camii Rehberi](https://www.waylero.com/kesfet/turkey/konya/esrefoglu-camii)**
+Detaylar için tıkla 🔗 **[Eşrefoğlu Camii Rehberi](https://www.waylero.com/kesfet/turkiye/konya/esrefoglu-camii)**
 
 ---
 
@@ -269,7 +280,7 @@ Koruma çatısı altındaki ev kalıntılarını incelemek
 
 Ziyaretçi merkezindeki sergileri gezmek
 
-Detaylar için tıkla 🔗 **[Çatalhöyük Antik Kenti](https://www.waylero.com/kesfet/turkey/konya/catalhoyuk)**
+Detaylar için tıkla 🔗 **[Çatalhöyük Antik Kenti](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk)**
 
 ---
 
@@ -314,7 +325,7 @@ Doğal kaya oluşumları arasında yürüyüş yapmak
 
 Tarihi ve doğal manzaraların fotoğraflarını çekmek
 
-Detaylar için tıkla 🔗 **[Kilistra Antik Kenti Rehberi](https://www.waylero.com/kesfet/turkey/konya/kilistra)**
+Detaylar için tıkla 🔗 **[Kilistra Antik Kenti Rehberi](https://www.waylero.com/kesfet/turkiye/konya/kilistra)**
 
 ---
 
@@ -354,7 +365,7 @@ Tarihi yapının fotoğraflarını çekmek
 
 Beyşehir gezisi sırasında kültürel bir mola vermek
 
-Detaylar için tıkla 🔗 **[Eflatunpınar Hitit Anıtı](https://www.waylero.com/kesfet/turkey/konya/eflatun-pinari-hitit-su-aniti)**
+Detaylar için tıkla 🔗 **[Eflatunpınar Hitit Anıtı](https://www.waylero.com/kesfet/turkiye/konya/eflatun-pinari-hitit-su-aniti)**
 
 ---
 
@@ -400,7 +411,7 @@ Doğa ve manzara fotoğrafları çekmek
 
 Beyşehir merkezdeki tarihi Eşrefoğlu Camii’ni ziyaret etmek
 
-Detaylar için tıkla 🔗 **[Beyşehir Gölü Detaylı Rehber](https://www.waylero.com/kesfet/turkey/konya/beysehir-golu)**
+Detaylar için tıkla 🔗 **[Beyşehir Gölü Detaylı Rehber](https://www.waylero.com/kesfet/turkiye/konya/beysehir-golu)**
 
 ---
 
@@ -429,7 +440,7 @@ Sarkıt ve dikitleri görmek
 
 Mağara yürüyüşü yapmak
 
-Detaylar için tıkla 🔗 **[Tınaztepe Mağarası](https://www.waylero.com/kesfet/turkey/konya/tinaztepe-magarasi)**
+Detaylar için tıkla 🔗 **[Tınaztepe Mağarası](https://www.waylero.com/kesfet/turkiye/konya/tinaztepe-magarasi)**
 
 ---
 
@@ -469,7 +480,7 @@ Tarihi Meram Köprüsü çevresinde fotoğraf çekmek
 
 Kafe ve restoranlarda Konya mutfağını denemek
 
-Detaylar için tıkla 🔗 **[Meram Bağları](https://www.waylero.com/kesfet/turkey/konya/meram-baglari)**
+Detaylar için tıkla 🔗 **[Meram Bağları](https://www.waylero.com/kesfet/turkiye/konya/meram-baglari)**
 
 ---
 
@@ -512,11 +523,10 @@ Seyir teraslarından fotoğraf çekmek
 
 Göksu Vadisi manzarasını izlemek
 
-Detaylar için tıkla 🔗 **[Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkey/konya/goksu-yerkopru-selalesi)**
+Detaylar için tıkla 🔗 **[Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkiye/konya/goksu-yerkopru-selalesi)**
 
 ---
 
----
 
 ## 🏘 Sille Köyü
 
@@ -539,7 +549,7 @@ Aya Eleni Kilisesi’ni görmek
 Taş sokaklarda yürümek
 
 Kafelerde oturmak
-Detaylar için tıkla 🔗 **[Sille Köyü Rehberi](https://www.waylero.com/kesfet/turkey/konya/sille-koyu)**
+Detaylar için tıkla 🔗 **[Sille Köyü Rehberi](https://www.waylero.com/kesfet/turkiye/konya/sille-koyu)**
 
 ---
 
@@ -574,6 +584,556 @@ Konya sadece bir şehir değil; bir medeniyetin merkezidir.
 Konya için daha fazla yer önerisi için tıkla 
 Detaylar için tıkla 🔗 **[Konya'da Gezilecek Yerler](https://www.waylero.com/kesfet?q=konya)**
 
-Waylero ile keşfet, planla, paylaş.    `
+Waylero ile keşfet, planla, paylaş. 
+      `,
+      en: `
+# Places to Visit in Konya 2026 – The Most Comprehensive Travel Guide
+
+Konya is a unique city located in the heart of Anatolia that carries a legacy of civilization spanning thousands of years into the present day. Thanks to its history as the capital of the Seljuk Empire, its status as a center of Sufi culture, and its natural beauty, it remains at the top of the list of places to visit in Turkey in 2026.
+
+In this guide, you’ll find detailed information on places to visit in Konya, historical structures, natural beauty, ancient cities, and dining recommendations.
+
+---
+
+## 📍 Mevlana and the Seljuk Heritage
+
+### 🕌 Mevlana Museum and Dergah
+
+One of Konya’s most important landmarks, the Mevlana Museum is the dervish lodge housing the tomb of Mevlana Jalaluddin Rumi. This structure, which served as the center of the Mevlevi Order during the Seljuk and Ottoman periods, is today one of Turkey’s most visited museums. Its green dome has become a symbol of Konya.
+
+📍 How to Get There
+
+It is located in Mevlana Square in the city center of Konya.
+
+You can take the tram to the Alaaddin stop and walk for about 10 minutes.
+
+Most city buses pass through Mevlana Square.
+
+It takes about 20 minutes by car from Konya Airport.
+
+💰 Admission Fee
+
+Admission is free.
+
+🕒 Visiting Hours
+
+Summer: 9:00 AM – 7:00 PM
+
+Winter: 9:00 AM – 5:00 PM
+🎫 Museum Card
+
+Since admission is free, a Museum Card is not required.
+
+📷 What to Do There
+
+Visit the Mevlana Tomb
+
+See the Sema Hall
+
+Tour the Mevlevi dervish cells
+
+Take photos in the courtyard
+
+Click here for details 🔗 **[Explore the Mevlana Museum](https://www.waylero.com/en/kesfet/turkiye/konya/mevlana-muzesi)**
+
+---
+
+### 🏛 Karatay Madrasa
+
+Built in 1251 by Seljuk vizier Emir Celaleddin Karatay, the Karatay Madrasa is a museum showcasing some of the finest examples of Seljuk ceramic art.
+
+📍 How to Get There
+
+It is located next to Alaaddin Hill in the center of Konya.
+
+You can take the tram and get off at the Alaaddin stop.
+
+It is approximately a 10-minute walk from the Mevlana Museum.
+
+💰 Admission Fee
+
+Approximately 60 TL.
+
+🎫 Museum Card
+
+The Museum Card is accepted.
+
+🕒 Visiting Hours
+
+Summer: 9:00 AM – 7:00 PM
+
+Winter: 9:00 AM – 5:00 PM
+
+📷 What to Do There
+Explore Seljuk tiles
+
+See medrese architecture
+
+Take photos
+
+Click for details 🔗 **[Karatay Medrese Detailed Guide](https://www.waylero.com/en/kesfet/turkiye/konya/karatay-medresesi)**
+
+---
+
+### 🏛 The Slender Minaret Madrasa
+
+One of Konya’s most significant structures from the Seljuk period, the Slender Minaret Madrasa was built in the 13th century and is considered the pinnacle of Seljuk stonework. The medrese’s main entrance gate stands out for its intricately carved stone decorations and detailed reliefs, resembling lacework.
+
+Today, the medrese serves as the Museum of Stone and Wooden Artifacts and is a significant cultural heritage site showcasing Seljuk-era stonework. Visitors can observe the medrese’s architectural details, stonework, and artifacts from the Seljuk period.
+
+⚠️ Note: The madrasa is currently closed to visitors due to ongoing restoration work. It will reopen for visits once the restoration is complete.
+
+📍 How to Get There
+
+The Ince Minareli Madrasa is located in the city center of Konya, near Alaaddin Hill.
+
+Approximately 10 minutes by car from the Konya city center
+
+Easy access via city tram and bus lines
+
+💰 Admission Fee
+
+It is temporarily closed due to restoration work, so there is no admission fee.
+
+🎫 Is the Museum Card Valid?
+
+Under normal circumstances, the Museum Card is valid as it is classified as the Museum of Stone and Wooden Artifacts; however, visits are currently not possible due to restoration work.
+
+
+🕒 Visiting Hours
+
+Opening hours once restoration is complete:
+
+Summer: 9:00 AM – 7:00 PM
+
+Winter: 9:00 AM – 5:00 PM
+
+📷 What to Do There
+
+Once restoration is complete, visitors can:
+
+Examine Seljuk stonework
+
+View the intricate reliefs on the main gate
+
+Explore the stone artifacts and collections in the madrasa
+Click here for details 🔗 **[Ince Minareli Madrasa](https://www.waylero.com/en/kesfet/turkiye/konya/ince-minareli-medrese)**
+
+---
+
+### 🕌 Alaaddin Mosque and Hill
+
+It is one of Konya’s oldest mosques, and the tombs of the Seljuk sultans are located here. It is one of the best spots for city views.
+
+📍 How to Get There
+
+It is located on Alaaddin Hill in the center of Konya.
+
+By tram to the Alaaddin stop
+
+💰 Admission Fee
+
+Free
+
+🕒 Visiting Hours
+
+Open for visits outside of prayer times.
+
+🎫 Museum Card
+
+Not required.
+
+📷 What to Do There
+
+Visit the Seljuk mausoleums
+
+Click here for details 🔗 **[Alaaddin Mosque and Hill Guide](https://www.waylero.com/en/kesfet/turkiye/konya/alaaddin-tepesi-ve-alaaddin-camii)**
+
+---
+
+
+### 🕌 Eşrefoğlu Mosque (Beyşehir)
+
+It was built in 1299 by Eşrefoğlu Süleyman Bey. It is known as one of the largest wooden-columned mosques in Anatolia and is listed on the UNESCO World Heritage List.
+
+📍 How to Get There
+
+It is located in the Beyşehir district, approximately 90 km from Konya.
+
+About 1.5 hours by car from Konya
+
+💰 Admission Fee
+
+Free
+
+🕒 Visiting Hours
+
+Open all day.
+
+🎫 Museum Card
+
+Not required.
+
+📷 What to Do There
+
+Explore the wooden architecture
+
+Take a tour with Lake Beyşehir
+
+Experience the atmosphere of the historic mosque
+
+Click here for details 🔗 **[Eşrefoğlu Mosque Guide](https://www.waylero.com/en/kesfet/turkiye/konya/esrefoglu-camii)**
+
+---
+## 🏛 Ancient Cities
+
+### 🏜 Çatalhöyük (UNESCO)
+
+Located near the Çumra district of Konya, Çatalhöyük is considered one of the world’s oldest and most significant Neolithic settlements. Believed to have been founded approximately 9,000 years ago, around 7400 BCE, this settlement holds great significance for understanding humanity’s transition to settled life.
+
+Archaeological excavations at Çatalhöyük have uncovered houses built adjacent to one another, wall paintings, figurines, and numerous important artifacts depicting daily life. There are no streets in this settlement; people entered and exited their homes through the roofs. This architectural layout places Çatalhöyük in a uniquely distinctive position within the field of world archaeology.
+
+Thanks to archaeological studies that began in the 1960s, Çatalhöyük has provided important insights into the social structure, belief system, and way of life of the Neolithic era. This unique archaeological site was inscribed on the UNESCO World Heritage List in 2012 due to its historical significance.
+
+Today, visitors can explore the excavation sites under protective roofing, walking platforms, and the visitor center to discover one of humanity’s oldest settlements up close.
+
+📍 How to Get There
+
+Çatalhöyük is located approximately 52 km from the city center of Konya, near the district of Çumra.
+
+The drive from Konya city center takes about 1 hour.
+
+Access is available via the Konya–Çumra road.
+
+
+After passing through the town of Çumra, continue for about 10 km to reach the ancient city.
+
+💰 Admission Fee
+
+Admission to the Çatalhöyük Archaeological Site is free.
+
+🎫 Is the Museum Card Valid?
+
+Since admission is free, a Museum Card is not required.
+
+🕒 Visiting Hours
+
+Generally:
+
+Summer: 8:30 AM – 7:00 PM
+
+Winter: 8:30 AM – 5:30 PM
+
+Hours may vary by season.
+
+📷 What to Do There
+
+Explore Neolithic-era excavation sites
+
+Examine the remains of houses under the protective roof
+
+Tour the exhibitions at the visitor center
+
+Click here for details 🔗 **[Çatalhöyük Ancient City](https://www.waylero.com/en/kesfet/turkiye/konya/catalhoyuk)**
+
+---
+### 🏜 Kilistra Ancient City
+
+Located near the Meram district of Konya, the ancient city of Kilistra is a historic settlement reminiscent of Cappadocia, featuring rock-cut structures, churches, and monasteries. The ancient city’s history dates back to the Roman and Byzantine periods. It is believed to have been an important settlement center, particularly during the early Christian era.
+
+Kilistra features churches, living quarters, cisterns, and defensive structures carved directly into the rock. The natural rock formations in the region are intertwined with the historical structures. Thanks to this unique feature, Kilistra possesses a highly captivating atmosphere from both archaeological and natural perspectives.
+
+The rock-cut churches and carved living spaces within the ancient city indicate that early Christian communities lived in the region for an extended period. Today, visitors can explore these historical structures and discover the area’s natural scenery.
+
+📍 How to Get There
+
+The Kilistra Ancient City is located approximately 45 km from the center of Konya, near the Gökyurt neighborhood in the Meram district.
+
+The drive from the center of Konya takes about 40–50 minutes.
+
+Access is available via the Konya–Hatunsaray road.
+
+Once you arrive at the ancient city, you can explore the rock structures with short walks.
+💰 Admission Fee
+
+Visiting the Ancient City of Kilistra is free.
+
+🎫 Is the Museum Card Valid?
+
+No.
+Since the site is an open archaeological area, the Museum Card is not accepted.
+
+🕒 Visiting Hours
+
+As it is an open-air site, it can be visited throughout the day.
+
+📷 What to Do There
+
+Explore rock-cut churches and monasteries
+
+Tour the ancient settlement areas
+
+Take a walk among natural rock formations
+
+Take photos of historical and natural landscapes
+
+Click here for details 🔗 **[Kilistra Ancient City Guide](https://www.waylero.com/en/kesfet/turkiye/konya/kilistra)**
+
+---
+
+### 🏛 Eflatunpınar Hittite Monument
+
+Located near the Beyşehir district of Konya, the Eflatunpınar Hittite Water Monument is one of the most impressive Hittite structures in Anatolia. Dating back to approximately the 13th century BCE, this monument is a significant structure reflecting the Hittites’ water cult and belief system.
+
+Built in front of a natural water source, the monument is adorned with reliefs carved from large stone blocks. The reliefs feature Hittite gods, goddesses, and mythological figures. The sun disk and figures at the center of the monument symbolize the Hittites’ sacred connection to nature and water.The Eflatunpınar Monument holds great significance for world archaeology due to its architecture and iconography. Today, it is listed on the UNESCO World Heritage Tentative List and is considered one of the best-preserved Hittite water monuments in Turkey.
+
+📍 How to Get There
+
+The Eflatunpınar Hittite Monument is located approximately 22 km from the Beyşehir district of Konya.
+
+It is approximately 100 km from the city center of Konya.
+
+The drive via the Konya–Beyşehir road takes about 1 hour and 30 minutes.
+
+After passing through Beyşehir, follow the Sadıkhacı – Eflatunpınar road to reach the site.
+
+💰 Admission Fee
+
+Visiting the Eflatunpınar Hittite Monument is free of charge.
+
+🕒 Visiting Hours
+
+As it is an open-air archaeological site, it can be visited throughout the day.
+
+📷 What to Do There
+
+Examine the Hittite reliefs up close
+
+See the natural spring in front of the monument
+
+Take photos of the historic structure
+
+Take a cultural break during your Beyşehir tour
+
+Click here for details 🔗 **[Eflatunpınar Hittite Monument](https://www.waylero.com/en/kesfet/turkiye/konya/eflatun-pinari-hitit-su-aniti)**
+
+---
+
+## 🌿 Natural Beauty
+
+### 🌊 Lake Beyşehir
+
+Located at the foot of the Taurus Mountains, Lake Beyşehir is Turkey’s largest freshwater lake. Situated within the borders of the Beyşehir district of Konya, this lake is one of the region’s most important tourist attractions, renowned for its natural beauty, islands, and sunset views.
+Covering an area of approximately 650 km², Lake Beyşehir is also located within Beyşehir Lake National Park. Thanks to the natural areas surrounding the lake, its diverse bird species, and serene atmosphere, it offers a truly special setting for nature lovers. The lake is dotted with numerous islands of various sizes, which make the scenery even more breathtaking.
+
+You can go for walks around Lake Beyşehir, spend time along the lakeshore, or explore the lake from different angles via boat tours. The scenery that forms over the lake, especially at sunset, offers truly captivating views for photography enthusiasts.
+
+📍 How to Get There
+
+Lake Beyşehir is approximately 90 km from the city center of Konya.
+
+It takes about 1.5 hours by car from the center of Konya.
+
+It is easily accessible via the Konya–Beyşehir road.
+
+There are regular bus and minibus services from the Konya Bus Terminal to the Beyşehir district.
+
+💰 Admission Fee
+
+Visiting Lake Beyşehir is free.
+However, some national park areas, beaches, or boat tours around the lake may require a fee.
+
+🕒 Visiting Hours
+
+Lake Beyşehir can be visited throughout the day.
+Since it is a natural area, there are no specific visiting hours.
+
+📷 Things to Do There
+
+Take a walk along the lake shore
+
+Watch the sunset
+
+Take a boat tour
+
+Take photos of nature and the scenery
+
+Visit the historic Eşrefoğlu Mosque in the center of Beyşehir
+
+Click here for details 🔗 **[Beyşehir Lake Detailed Guide](https://www.waylero.com/en/kesfet/turkiye/konya/beysehir-golu)**
+
+---
+
+### 🏞 Tınaztepe Cave
+
+Tınaztepe Cave
+
+Located in the Seydişehir district of Konya, Tınaztepe Cave is one of the longest caves in Turkey.
+
+📍 How to Get There
+
+It takes approximately 2 hours from central Konya to Seydişehir.
+
+💰 Admission Fee
+
+Adult 150 TL
+Child 75 TL
+
+🎫 Museum Card
+
+Not accepted.
+
+📷 What to Do There
+
+View stalactites and stalagmites
+
+Take a cave walk
+
+Click here for details 🔗 **[Tınaztepe Cave](https://www.waylero.com/en/kesfet/turkiye/konya/tinaztepe-magarasi)**
+
+---
+
+### 🌳 Meram Vineyards
+
+One of Konya’s most well-known recreational and leisure areas, Meram Vineyards has been one of the city’s most important green spaces throughout history. Since the Ottoman period, this area has been a favorite spot for the people of Konya to relax, have picnics, and spend time in nature; with its tree-lined paths, water channels, and cool atmosphere, it attracts a large number of visitors, especially during the summer months.
+
+Mentioned in historical sources, Meram Vineyards was once known as a vast area covered with vineyards and gardens. Today, with its well-maintained walking paths, park areas, cafes, and recreational spaces, it serves as a popular destination for both locals and visitors to Konya. In particular, the walking paths along the Meram Stream and the natural scenery offer a beautiful setting for taking photos and enjoying leisurely moments.
+📍 How to Get There
+
+Meram Vineyards is located approximately 8 km from the center of Konya.
+
+It takes about 10–15 minutes by car from downtown Konya.
+
+You can also reach the area via city buses and minibuses.
+
+Visitors coming from Konya typically choose the Mevlana Museum – Meram route.
+
+💰 Admission Fee
+
+Admission to Meram Bağları is free.
+However, some parking areas, cafes, or private businesses may charge a fee for their services.
+
+🕒 Visiting Hours
+
+Meram Vineyards can be visited throughout the day.
+The park and walking areas are generally open 24 hours a day.
+
+📷 What to Do There
+
+Take a walk along the Meram Stream
+
+Spend time in the picnic and relaxation areas
+
+Take photos around the historic Meram Bridge
+
+Try Konya cuisine at cafes and restaurants
+
+Click here for details 🔗 **[Meram Vineyards](https://www.waylero.com/en/kesfet/turkiye/konya/meram-baglari)**
+
+---
+
+### 🌊 Yerköprü Waterfall (Must-See)
+Located on the Göksu River within the borders of Konya’s Hadim district, Yerköprü Waterfall is one of the region’s most striking natural wonders, thanks to its turquoise waters and natural formations. Nestled at the foothills of the Taurus Mountains, this area offers visitors a veritable hidden paradise with its rich vegetation, cool air, and travertine-like natural formations.
+
+The waterfall, which cascades from a height of approximately 20 meters, is formed by the convergence of underground spring waters with the Göksu River. The natural pool formed at the base of the waterfall and the surrounding green vegetation create a particularly striking landscape, especially during the summer months. This unique natural area has been designated a natural monument and placed under protection due to its ecosystem.
+
+Thanks to wooden walking platforms and viewing terraces, visitors can admire the scenery from different vantage points and enjoy a walk immersed in nature. It is also a popular spot for photography enthusiasts, especially during spring and summer when the water’s color and flow are particularly striking.
+
+📍 How to Get There
+
+Yerköprü Waterfall is located near the town of Hadim, approximately 110 km from the city center of Konya.
+
+It takes about 2 hours by car from the center of Konya.
+
+You can reach it via the Seydişehir–Hadim road.
+
+Once you arrive at the waterfall, you can reach the viewing terraces via the hiking trail from the parking lot.
+
+
+💰 Admission Fee
+
+Yerköprü Waterfall is a nature area protected by the General Directorate of Nature Conservation and National Parks, and admission is subject to a fee.
+
+Although the official new rate for 2026 has not yet been announced, admission is generally charged at reasonable rates per person or per vehicle.
+
+🎫 Is the Museum Card Valid?
+
+No.
+Since Yerköprü Waterfall is a nature park/natural area, the Museum Card is not valid.
+
+📷 What to Do There
+
+See the waterfall’s turquoise-colored natural pool
+
+Take a nature walk on the wooden trails
+
+Taking photos from the viewing terraces
+
+Enjoying the view of the Göksu Valley
+
+Click here for details 🔗 **[Yerköprü Waterfall](https://www.waylero.com/en/kesfet/turkiye/konya/goksu-yerkopru-selalesi)**
+
+---
+
+---
+
+## 🏘 Sille Village
+
+Sille Village
+
+With a history dating back 5,000 years, Sille is one of Konya’s most authentic places, featuring historic Greek houses and stone-paved streets.
+
+📍 How to Get There
+
+It is approximately 15 minutes away from the center of Konya.
+
+💰 Admission Fee
+Free.
+
+📷 Things to Do There
+
+Visit the Church of Saint Helen
+
+Stroll through the cobblestone streets
+
+Sit in the cafes
+Click here for details 🔗 **[Sille Village Guide](https://www.waylero.com/en/kesfet/turkiye/konya/sille-koyu)**
+
+---
+
+## 🍽 What to Eat in Konya?
+
+- 🥩 **Etliekmek**
+- 🍖 **Oven-Baked Kebab**
+- 🍲 **Okra Soup**
+- 🥟 **Sac Arası Dessert**
+
+---
+
+## 🗓 How Many Days to Explore?
+
+- City Center → 1–2 days  
+- Sille + Kilistra → 2 days  
+- Entire Route → 3–4 days  
+
+---
+
+## 🎯 2026 Recommendations
+
+✔ Spring and fall are the best times to visit  
+✔ Visit Mevlana early in the morning  
+✔ Don’t miss the sunset in Beyşehir  
+✔ Choose early hours for oven-baked kebab  
+
+---
+
+Konya is not just a city; it is the heart of a civilization.
+
+Click here for more place recommendations in Konya 
+Click here for details 🔗 **[Places to Visit in Konya](https://www.waylero.com/kesfet?q=konya)**
+
+Discover, plan, and share with Waylero. 
+      `
+    }
   }
 ];
