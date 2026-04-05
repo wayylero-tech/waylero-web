@@ -1,26 +1,39 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // 🔥 EKLEMEN GEREKEN KISIM:
   images: {
     remotePatterns: [
+      // Wikimedia
       {
-        protocol: 'https',
-        hostname: 'upload.wikimedia.org',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+        pathname: "/**",
+      },
+
+      // 🔥 Firebase Storage (senin hata buradan geliyordu)
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+        pathname: "/**",
+      },
+
+      // 🔥 BONUS (tüm googleapis future-proof)
+      {
+        protocol: "https",
+        hostname: "**.googleapis.com",
+        pathname: "/**",
       },
     ],
   },
-  
+
   async rewrites() {
     return [
       {
-        source: '/en/:path*',
-        destination: '/:path*?lang=en',
+        source: "/en/:path*",
+        destination: "/:path*?lang=en",
       },
     ];
   },
-  // ... diğer kodlar
 };
 
 export default nextConfig;

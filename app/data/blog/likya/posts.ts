@@ -102,7 +102,7 @@ Ziyaret sırasında görülebilecek önemli yapılar:
 Patara, Likya Yolu yürüyüşçülerinin en çok ziyaret ettiği tarihi duraklardan biridir.
 
 👉 Daha fazlası için linke tıklayın
- -[Patara Antik Kenti](https://www.waylero.com/kesfet/turkey/antalya/patara-antik-kent)
+ -[Patara Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/patara-antik-kent)
 
 ### 🏛️ Xanthos Antik Kenti
 
@@ -125,7 +125,7 @@ Antik çağda Likya'nın siyasi ve kültürel merkezi olarak kabul edilmiştir.
 Likya Yolu yürüyüşçüleri için Xanthos, tarih ve arkeoloji açısından en etkileyici duraklardan biridir.
 
 👉 Daha fazlası için linke tıklayın: 
- [Xanthos Antik Kenti](https://www.waylero.com/kesfet/turkey/antalya/xanthos-antik-kenti)
+ [Xanthos Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/xanthos-antik-kenti)
 
 ### 🏝️ Olympos Antik Kenti
 
@@ -148,7 +148,7 @@ Olympos'ta görülebilecek başlıca yapılar:
 Olympos ayrıca Likya Yolu üzerindeki en popüler kamp ve konaklama noktalarından biridir.
 
 👉 Daha fazlası için linke tıklayın
- -[Olympos Antik Kenti](https://www.waylero.com/kesfet/turkey/antalya/olympos-antik-kenti)
+ -[Olympos Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/olympos-antik-kenti)
 
 ### ⛰️ Myra Antik Kenti
 
@@ -169,7 +169,7 @@ Myra'da mutlaka görülmesi gereken yerler:
 Myra aynı zamanda Noel Baba olarak bilinen Aziz Nikolaos'un yaşadığı şehir olarak da bilinir.
 
 👉 Daha fazlası için linke tıklayın: 
- [Myra Antik Kenti](https://www.waylero.com/kesfet/turkey/antalya/myra-antik-kenti)
+ [Myra Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/myra-antik-kenti)
 
 ## 🔎 Ziyaret Bilgileri
 
@@ -336,7 +336,7 @@ Important structures that can be seen during the visit:
 Patara is one of the most visited historical stops for hikers on the Lycian Way.
 
 👉 Click the link for more  
- -[Patara Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/patara-antik-kent)
+ -[Patara Ancient City](https://www.waylero.com/en/kesfet/turkiye/antalya/patara-antik-kent)
 
 ### 🏛️ Xanthos Ancient City
 
@@ -359,7 +359,7 @@ Highlighted structures:
 For hikers of the Lycian Way, Xanthos is one of the most impressive stops in terms of history and archaeology.
 
 👉 Click the link for more:  
- [Xanthos Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/xanthos-antik-kenti)
+ [Xanthos Ancient City](https://www.waylero.com/en/kesfet/turkiye/antalya/xanthos-antik-kenti)
 
 ### 🏝️ Olympos Ancient City
 
@@ -382,7 +382,7 @@ Main structures to see in Olympos:
 Olympos is also one of the most popular camping and accommodation spots on the Lycian Way.
 
 👉 Click the link for more  
- -[Olympos Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/olympos-antik-kenti)
+ -[Olympos Ancient City](https://www.waylero.com/en/kesfet/turkiye/antalya/olympos-antik-kenti)
 
 ### ⛰️ Myra Ancient City
 
@@ -403,7 +403,7 @@ Must-see places in Myra:
 Myra is also known as the city where Saint Nicholas, known as Santa Claus, once lived.
 
 👉 Click the link for more:  
- [Myra Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/myra-antik-kenti)
+ [Myra Ancient City](https://www.waylero.com/en/kesfet/turkiye/antalya/myra-antik-kenti)
 
 ## 🔎 Visitor Information
 
