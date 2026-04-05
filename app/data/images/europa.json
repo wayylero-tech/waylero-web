@@ -339,9 +339,29 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fmostar%2Fmostar-k%C3%B6pr%C3%BCs%C3%BC-(stari-most)%2F1766268937974_0.jpg?alt=media&token=9be17e93-660b-44ad-8de6-d365476a8745"
   ]
 },
+
+"niederosterreich": {
+  "niederosterreich-krems-an-der-donau": [
+  "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dreifaltigkeitsplatz_Krems_an_der_Donau_2023.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/d/d2/Krems_danube001_2004.jpg"
+],
+"niederosterreich-tulln-an-der-donau": [
+  "https://upload.wikimedia.org/wikipedia/commons/5/57/Tuln_895.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tuln_891.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/5/51/Tulln-Bf-05.jpg"
+]
+},
+
 "viyana": {
   "viyana-belvedere-sarayi": [
     "https://upload.wikimedia.org/wikipedia/commons/d/dc/Wien_SchloBBelvedere03.jpg"
+  ],
+  "viyana-prater-parki-ve-ferris-wheel": [
+    "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ferris_wheel_in_Prater.jpg"
+  ],
+"viyana-albertina-muzesi": [
+    "https://upload.wikimedia.org/wikipedia/commons/7/74/Albertina_Wien001.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Albertina_Museum_%28inscription%29%2C_Vienna.jpg"
   ],
   "viyana-donauturm": [
     "https://upload.wikimedia.org/wikipedia/commons/1/11/Donaustadt_view_from_Donauturm.JPG",
