@@ -44,14 +44,15 @@ function AdSlot({ slot }: { slot: string }) {
 export default function HomePage() {
   const { lang } = useLang();
   const [mounted, setMounted] = useState(false);
-   const [players, setPlayers] = useState<Record<number, any>>({});
+  const [players, setPlayers] = useState<Record<number, any>>({});
+  
   useEffect(() => { setMounted(true); }, []);
 
   const getLocalizedLink = (path: string) => (lang === "tr" ? path : `/${lang}${path === "/" ? "" : path}`);
 
   const translations = {
-    tr: { cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri", menu: ["Etkinlikler/Konserler", "Keşfet", "Harita", "Seyahat Rehberi ✍️"] },
-    en: { cityTitle: "World's Most Visited Cities", menu: ["Activities", "Explore", "Map", "Travel Guide ✍️"] }
+    tr: { cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri", menu: ["Etkinlikler", "Keşfet", "Harita", "Rehber ✍️"] },
+    en: { cityTitle: "World's Most Visited Cities", menu: ["Activities", "Explore", "Map", "Guide ✍️"] }
   };
   const t = translations[lang as "tr" | "en"] || translations.tr;
 
@@ -70,77 +71,83 @@ export default function HomePage() {
 
   if (!mounted) return null;
 
-  // Tek video oynatma için
- const handlePlay = (id: number) => {
-  Object.keys(players).forEach(key => {
-    const keyNum = parseInt(key);  // key artık number
-    if (keyNum !== id) {
-      players[keyNum]?.pauseVideo?.();
-    }
-  });
-};
+  const handlePlay = (id: number) => {
+    Object.keys(players).forEach(key => {
+      const keyNum = parseInt(key);
+      if (keyNum !== id) {
+        players[keyNum]?.pauseVideo?.();
+      }
+    });
+  };
 
-  const opts: YouTubeProps['opts'] = { width: "267", height: "476", playerVars: { autoplay: 0 } };
+  // Video ayarlarını responsive yapıyoruz
+  const videoOpts: YouTubeProps['opts'] = {
+    width: "100%",
+    height: "100%",
+    playerVars: { autoplay: 0, rel: 0, modestbranding: 1 },
+  };
 
   return (
     <main className="bg-gray-50/50 flex justify-center max-w-[1600px] mx-auto gap-4 w-full">
 
-      <aside className="hidden xl:block sticky top-10 h-fit"><AdSlot slot="6195494093" /></aside>
+      {/* SOL REKLAM (Desktop) */}
+      <aside className="hidden xl:block sticky top-10 h-fit shrink-0"><AdSlot slot="6195494093" /></aside>
 
-      <div className="flex-1 max-w-6xl bg-white shadow-sm px-4 py-6">
+      <div className="flex-1 max-w-6xl bg-white shadow-sm px-3 md:px-6 py-6">
 
-        {/* QUICK MENU */}
-        <section className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-10">
+        {/* QUICK MENU - Mobil 2 sütun / Desktop 4 sütun */}
+        <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-6 mb-10">
           {quickMenu.map((item) => (
             <div key={item.title} className="flex flex-col items-center">
               {item.url ? (
-                <a href={item.url} target="_blank" rel="noopener noreferrer" className="h-60 w-full rounded-2xl overflow-hidden block">
+                <a href={item.url} target="_blank" rel="noopener noreferrer" className="h-40 md:h-60 w-full rounded-2xl overflow-hidden block">
                   <div className="h-full bg-cover bg-center hover:scale-105 transition-transform duration-500" style={{ backgroundImage: `url(${item.image})` }}/>
                 </a>
               ) : (
-                <Link href={getLocalizedLink(item.route!)} className="h-60 w-full rounded-2xl overflow-hidden block">
+                <Link href={getLocalizedLink(item.route!)} className="h-40 md:h-60 w-full rounded-2xl overflow-hidden block">
                   <div className="h-full bg-cover bg-center hover:scale-105 transition-transform duration-500" style={{ backgroundImage: `url(${item.image})` }}/>
                 </Link>
               )}
-              <span className="mt-2 font-medium">{item.title}</span>
+              <span className="mt-2 text-sm md:text-base font-medium">{item.title}</span>
             </div>
           ))}
         </section>
 
         <HomeBlogSlider />
 
-        {/* 🎥 WAYLERO LIVE - ÖNE ÇIKANLAR */}
-        <section className="mt-12 mb-8 px-2">
+        {/* 🎥 VIDEOS - Yatay Kaydırma İyileştirmesi */}
+        <section className="mt-12 mb-8 px-1">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2">
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600"></span>
               </span>
-              <h2 className="text-xl font-black uppercase tracking-tighter italic text-gray-900">
+              <h2 className="text-lg md:text-xl font-black uppercase tracking-tighter italic text-gray-900">
                 {lang === "tr" ? "VİDEOLAR" : "VIDEOS"}
               </h2>
             </div>
             
-            <Link href={getLocalizedLink("/videolar")} className="group flex items-center gap-1 text-xs font-bold text-gray-400 hover:text-black transition-all uppercase tracking-widest">
+            <Link href={getLocalizedLink("/videolar")} className="group flex items-center gap-1 text-[10px] md:text-xs font-bold text-gray-400 hover:text-black transition-all uppercase tracking-widest">
               {lang === "tr" ? "Tümünü Gör" : "See All"} 
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </div>
 
-          <div className="flex gap-4 overflow-x-auto no-scrollbar pb-4">
+          <div className="flex gap-4 overflow-x-auto no-scrollbar pb-6 -mx-3 px-3">
             {wayleroLiveVideos.slice(0, 4).map(video => (
-              <div key={video.id} className="flex-shrink-0 flex flex-col gap-3 group">
-                <div className="shadow-lg rounded-[20px] overflow-hidden bg-black border border-gray-100 group-hover:shadow-2xl transition-all duration-300">
+              <div key={video.id} className="w-[250px] md:w-[280px] flex-shrink-0 flex flex-col gap-3 group">
+                <div className="aspect-[9/16] shadow-lg rounded-[20px] overflow-hidden bg-black border border-gray-100 group-hover:shadow-2xl transition-all duration-300">
                   <YouTube
                     videoId={video.youtubeId}
-                    opts={opts}
+                    opts={videoOpts}
+                    className="w-full h-full"
                     onReady={(event) => setPlayers(prev => ({ ...prev, [video.id]: event.target }))}
                     onPlay={() => handlePlay(video.id)}
                   />
                 </div>
                 <div className="px-2">
-                  <p className="text-xs font-black uppercase tracking-tighter text-gray-800 group-hover:text-red-600 transition-colors">
+                  <p className="text-xs md:text-sm font-black uppercase tracking-tighter text-gray-800 line-clamp-1 group-hover:text-red-600 transition-colors">
                     {video.title}
                   </p>
                   <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">{video.location}</span>
@@ -152,16 +159,16 @@ export default function HomePage() {
 
         {/* FEATURED CITIES */}
         <section className="mt-10">
-          <h2 className="text-xl font-bold mb-4">{t.cityTitle}</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <h2 className="text-lg md:text-xl font-bold mb-4">{t.cityTitle}</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
             {featuredCities.map((c) => {
               const countrySlug = c.country.toLowerCase().replace(/ /g, "-");
               const localizedCityName = lang === "en" ? c.name.en : c.name.tr;
               return (
-                <Link key={c.slug} href={getLocalizedLink(`/${countrySlug}/${c.slug}`)} className="relative h-60 rounded-2xl overflow-hidden block group">
+                <Link key={c.slug} href={getLocalizedLink(`/${countrySlug}/${c.slug}`)} className="relative h-44 md:h-60 rounded-2xl overflow-hidden block group">
                   <div className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500" style={{ backgroundImage: `url(${c.image})` }}/>
                   <div className="absolute inset-0 bg-black/30" />
-                  <span className="absolute bottom-4 left-4 text-white font-semibold text-lg">{localizedCityName}</span>
+                  <span className="absolute bottom-3 left-3 md:bottom-4 md:left-4 text-white font-semibold text-sm md:text-lg">{localizedCityName}</span>
                 </Link>
               );
             })}
@@ -170,7 +177,8 @@ export default function HomePage() {
 
       </div>
 
-      <aside className="hidden xl:block sticky top-10 h-fit"><AdSlot slot="5241070307" /></aside>
+      {/* SAĞ REKLAM (Desktop) */}
+      <aside className="hidden xl:block sticky top-10 h-fit shrink-0"><AdSlot slot="5241070307" /></aside>
 
     </main>
   );
