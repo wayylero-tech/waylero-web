@@ -44,8 +44,7 @@ function AdSlot({ slot }: { slot: string }) {
 export default function HomePage() {
   const { lang } = useLang();
   const [mounted, setMounted] = useState(false);
-  const [players, setPlayers] = useState<{ [id: number]: any }>({}); // Tek video oynatma için player referansları
-
+   const [players, setPlayers] = useState<Record<number, any>>({});
   useEffect(() => { setMounted(true); }, []);
 
   const getLocalizedLink = (path: string) => (lang === "tr" ? path : `/${lang}${path === "/" ? "" : path}`);
@@ -72,11 +71,14 @@ export default function HomePage() {
   if (!mounted) return null;
 
   // Tek video oynatma için
-  const handlePlay = (id: number) => {
-    Object.keys(players).forEach(key => {
-      if (parseInt(key) !== id) players[key]?.pauseVideo?.();
-    });
-  };
+ const handlePlay = (id: number) => {
+  Object.keys(players).forEach(key => {
+    const keyNum = parseInt(key);  // key artık number
+    if (keyNum !== id) {
+      players[keyNum]?.pauseVideo?.();
+    }
+  });
+};
 
   const opts: YouTubeProps['opts'] = { width: "267", height: "476", playerVars: { autoplay: 0 } };
 

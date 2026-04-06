@@ -33,13 +33,13 @@ export default function VideolarPage() {
   }, [t.pageTitle]);
 
   const handlePlay = (id: number) => {
-    // Tüm diğer videoları durdur
-    Object.keys(players).forEach(key => {
-      if (parseInt(key) !== id) {
-        players[key]?.pauseVideo?.();
-      }
-    });
-  };
+  Object.keys(players).forEach(key => {
+    const keyNum = parseInt(key);  // key artık number
+    if (keyNum !== id) {
+      players[keyNum]?.pauseVideo?.();
+    }
+  });
+};
 
   const opts: YouTubeProps['opts'] = {
     width: "100%",
