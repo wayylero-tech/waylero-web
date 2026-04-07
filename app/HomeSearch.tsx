@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { trackSearch } from "@/lib/analytics";
@@ -8,34 +8,64 @@ import { useLang } from "@/app/context/LanguageContext";
 
 export default function HomeSearch() {
   const [search, setSearch] = useState("");
+  const [highlight, setHighlight] = useState(false);
+
   const router = useRouter();
   const { lang } = useLang();
 
   const t = {
     tr: {
-      placeholder: "Şehir, mekan veya etkinlik/konser ara... (Örn: İstanbul'da gezilecek yerler)",
-      helper: 'İpucu: "Paris\'te gezilecek yerler" gibi doğal cümlelerle arayabilirsin.',
+      placeholder:
+        "Şehir, mekan veya etkinlik/konser ara... (Örn: İstanbul'da gezilecek yerler)",
+      helper:
+        'İpucu: "Paris\'te gezilecek yerler" gibi doğal cümlelerle arayabilirsin.',
     },
     en: {
       placeholder: "Search city, place or experience... (e.g. In London)",
-      helper: 'Tip: You can search with natural phrases like "Places to visit in Paris".',
+      helper:
+        'Tip: You can search with natural phrases like "Places to visit in Paris".',
     },
     de: {
-      placeholder: "Suche nach Stadt, Ort oder Erlebnis... (z. B. In Berlin)",
-      helper: 'Tipp: Du kannst mit natürlichen Sätzen suchen, wie „Sehenswürdigkeiten in Paris“.',
-    }
+      placeholder:
+        "Suche nach Stadt, Ort oder Erlebnis... (z. B. In Berlin)",
+      helper:
+        'Tipp: Du kannst mit natürlichen Sätzen suchen, wie „Sehenswürdigkeiten in Paris“.',
+    },
   }[lang];
+
+  // 🔥 DIŞARIDAN TETİKLENEN FOCUS + FLASH
+  useEffect(() => {
+    const handler = () => {
+      setHighlight(true);
+
+      const input = document.getElementById("home-search-input");
+      input?.focus();
+
+      setTimeout(() => setHighlight(false), 2000);
+    };
+
+    window.addEventListener("triggerSearchFocus", handler);
+    return () =>
+      window.removeEventListener("triggerSearchFocus", handler);
+  }, []);
 
   // 🔥 Etkinlik mi?
   const detectIntent = (query: string) => {
     const q = query.toLocaleLowerCase("tr-TR");
 
     const eventKeywords = [
-      "etkinlik", "konser", "festival", "tiyatro", "standup",
-      "party", "event", "concert", "show"
+      "etkinlik",
+      "konser",
+      "festival",
+      "tiyatro",
+      "standup",
+      "party",
+      "event",
+      "concert",
+      "show",
     ];
 
-    return eventKeywords.some(k => q.includes(k));
+    return eventKeywords.some((k) => q.includes(k));
   };
 
   // 🔥 TÜM ŞEHİRLER
@@ -55,13 +85,13 @@ export default function HomeSearch() {
     "UŞAK","VAN","YALOVA","YOZGAT","ZONGULDAK"
   ];
 
-  // 🔥 GERÇEK şehir yakalama
+  // 🔥 şehir yakalama
   const extractCity = (query: string) => {
     const upper = query.toLocaleUpperCase("tr-TR");
-    return cityList.find(city => upper.includes(city)) || "";
+    return cityList.find((city) => upper.includes(city)) || "";
   };
 
-  // 🔥 Ortak arama fonksiyonu (Enter veya tıklama)
+  // 🔥 ARAMA
   const performSearch = () => {
     if (!search.trim()) return;
 
@@ -86,15 +116,27 @@ export default function HomeSearch() {
 
   return (
     <div className="mb-6">
-      <div className="p-[2px] rounded-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400 shadow-md transition-all focus-within:shadow-lg focus-within:scale-[1.01] duration-300">
+      {/* 🔥 FLASH BORDER */}
+      <div
+        className={`p-[2px] rounded-2xl transition-all duration-300 ${
+          highlight
+            ? "bg-yellow-400 scale-[1.02] shadow-[0_0_20px_rgba(255,200,0,0.8)]"
+            : "bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400"
+        }`}
+      >
         <div className="flex items-center bg-white rounded-[14px] px-4 py-3">
           <Search
             className="w-5 h-5 text-gray-400 mr-3 cursor-pointer"
             onClick={performSearch}
           />
           <input
+            id="home-search-input"
             type="text"
-            placeholder={t.placeholder}
+            placeholder={
+              highlight
+                ? "Hangi şehirde konser, tiyatro veya etkinlik aramıştınız?"
+                : t.placeholder
+            }
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             onKeyDown={handleKeyDown}

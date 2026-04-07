@@ -6766,6 +6766,234 @@
         "https://example.com/catalhoyuk_2.jpg"
       ]
     },
+{
+  "slug": "cemel-ali-dede-turbesi",
+  "name": {
+    "tr": "Cemel Ali Dede Türbesi",
+    "en": "Tomb of Cemel Ali Dede",
+    "de": "Grab von Cemel Ali Dede"
+  },
+  "latitude": 37.85528596180184, 
+  "longitude": 32.4238930250639,
+  "description": {
+    "tr": "Cemel Ali Dede Türbesi, Konya şehir merkezine yakın konumda bulunan, halk arasında manevi değeri yüksek ziyaret noktalarından biridir. Türbe, Anadolu’nun tasavvuf geleneği içerisinde önemli bir yere sahip olan Cemel Ali Dede’ye atfedilmektedir.\n\nCemel Ali Dede hakkında kesin tarihi kayıtlar sınırlı olmakla birlikte, onun bir derviş ya da ermiş kişi olduğuna inanılmaktadır. Halk arasında anlatılan rivayetlere göre, yaşamı boyunca insanlara yardım eden, sade ve hikmet dolu bir hayat süren bir zat olarak bilinir. Bu nedenle türbe, özellikle dua etmek, dilek dilemek ve manevi huzur bulmak isteyen ziyaretçiler tarafından sıkça ziyaret edilmektedir.\n\nTürbenin bulunduğu alan genellikle sakin ve huzurlu bir atmosfere sahiptir. Ziyaretçiler burada hem kısa bir manevi mola verebilir hem de Konya’nın kültürel dokusunu daha yakından hissedebilir. Özellikle yerel halk için önemli bir ziyaret noktası olan bu türbe, dini turizm açısından da değer taşımaktadır.\n\nGünümüzde Cemel Ali Dede Türbesi, Konya’daki diğer tasavvufi yapılarla birlikte şehrin manevi mirasının bir parçası olarak görülmektedir. Ziyaret sırasında saygılı olunması, sessizliğe dikkat edilmesi ve türbe adabına uygun davranılması önerilir.\n\n**Nasıl Gidilir?**\n\nCemel Ali Dede Türbesi, Konya şehir merkezine oldukça yakın bir konumda yer alır. Özel araçla kolayca ulaşılabilir. Ayrıca şehir içi toplu taşıma araçları ve taksi ile de rahatlıkla gidilebilir. Konumu itibarıyla şehir içi keşif rotalarına kolayca dahil edilebilir.",
+    "en": "The Tomb of Cemel Ali Dede is a spiritually significant site located near the city center of Konya. It is dedicated to Cemel Ali Dede, a figure believed to have an important place in Anatolian Sufi tradition.\n\nAlthough there are limited historical records about Cemel Ali Dede, he is widely regarded as a dervish or a spiritual figure. According to local legends, he lived a humble life devoted to helping people and spreading wisdom. For this reason, the tomb is frequently visited by those seeking peace, prayer, and spiritual reflection.\n\nThe area surrounding the tomb offers a calm and peaceful atmosphere. Visitors can take a short spiritual break and experience the cultural and mystical ambiance of Konya. It holds particular importance for locals and contributes to the city’s religious tourism.\n\nToday, the tomb is considered part of Konya’s rich spiritual heritage alongside other Sufi landmarks. Visitors are advised to behave respectfully and maintain silence during their visit.\n\n**How to Get There?**\n\nThe tomb is located close to Konya city center and can be easily reached by private car, public transportation, or taxi. It can be conveniently included in a city exploration route.",
+    "de": "Das Grab von Cemel Ali Dede befindet sich in der Nähe des Stadtzentrums von Konya und ist ein bedeutender spiritueller Ort. Es ist Cemel Ali Dede gewidmet, einer Persönlichkeit, die in der anatolischen Sufi-Tradition eine wichtige Rolle spielt.\n\nObwohl es nur begrenzte historische Aufzeichnungen über ihn gibt, wird er als Derwisch oder spiritueller Mensch angesehen. Lokalen Überlieferungen zufolge führte er ein bescheidenes Leben und half den Menschen mit Weisheit und Güte. Daher wird das Grab häufig von Besuchern aufgesucht, die Ruhe, Gebet und spirituelle Einkehr suchen.\n\nDie Umgebung des Grabes bietet eine ruhige und friedliche Atmosphäre. Besucher können hier eine spirituelle Pause einlegen und die kulturelle Tiefe Konyas erleben. Besonders für Einheimische ist dieser Ort von großer Bedeutung.\n\nHeute gilt das Grab als Teil des spirituellen Erbes von Konya. Besucher sollten respektvoll sein und sich ruhig verhalten.\n\n**Anfahrt**\n\nDas Grab liegt nahe dem Stadtzentrum von Konya und ist leicht mit dem Auto, öffentlichen Verkehrsmitteln oder Taxi erreichbar. Es kann problemlos in eine Stadterkundung integriert werden."
+  },
+  "activities": {
+    "tr": [
+      "Türbeyi ziyaret etmek",
+      "Dua etmek",
+      "Manevi atmosferi deneyimlemek"
+    ],
+    "en": [
+      "Visiting the tomb",
+      "Praying",
+      "Experiencing the spiritual atmosphere"
+    ],
+    "de": [
+      "Das Grab besuchen",
+      "Beten",
+      "Die spirituelle Atmosphäre erleben"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "türbe",
+      "dini yer"
+    ],
+    "en": [
+      "tomb",
+      "religious site"
+    ],
+    "de": [
+      "Grab",
+      "religiöser Ort"
+    ]
+  },
+  "images": [
+    "https://example.com/cemel-ali-dede-1.jpg",
+    "https://example.com/cemel-ali-dede-2.jpg"
+  ]
+},
+{
+  "slug": "seytan-koprusu",
+  "name": {
+    "tr": "Şeytan Köprüsü (Sille)",
+    "en": "Devil’s Bridge (Sille)",
+    "de": "Teufelsbrücke (Sille)"
+  },
+  "latitude": 37.92930235469825, 
+  "longitude": 32.41212004405549,
+  "description": {
+    "tr": "Şeytan Köprüsü, Konya’nın Sille Mahallesi’nde yer alan ve bölgenin tarihi dokusunu yansıtan dikkat çekici yapılardan biridir. Sille, geçmişi binlerce yıl öncesine uzanan, farklı medeniyetlere ev sahipliği yapmış önemli bir yerleşimdir ve bu köprü de bu zengin geçmişin bir parçasıdır.\n\nKöprünün ne zaman yapıldığına dair kesin bilgiler bulunmamakla birlikte, Roma ya da Bizans dönemine ait olduğu düşünülmektedir. Taş mimarisiyle dikkat çeken yapı, yıllar boyunca Sille Deresi üzerinde ulaşımı sağlamak amacıyla kullanılmıştır. Günümüzde ise daha çok tarihi ve turistik bir değer taşımaktadır.\n\n\"Şeytan Köprüsü\" ismi, Anadolu’da sıkça karşılaşılan bir halk anlatısına dayanmaktadır. Rivayetlere göre, köprünün yapımı sırasında yaşanan zorluklar ve tehlikeler nedeniyle bu isim verilmiştir. Bu tür isimlendirmeler, genellikle halkın doğa olaylarını ya da zor yapıları mistik bir şekilde yorumlamasından kaynaklanır.\n\nKöprü, Sille’nin doğal güzellikleri ve tarihi yapılarıyla birlikte ziyaretçilere etkileyici bir atmosfer sunar. Çevresinde yürüyüş yapabilir, fotoğraf çekebilir ve Sille’nin otantik dokusunu keşfedebilirsin. Özellikle gün batımında bölge oldukça etkileyici bir manzaraya sahiptir.\n\n**Nasıl Gidilir?**\n\nŞeytan Köprüsü, Konya şehir merkezine yaklaşık 8 km uzaklıkta bulunan Sille Mahallesi’nde yer alır. Özel araçla kısa sürede ulaşılabilir. Ayrıca şehir merkezinden Sille’ye giden minibüsler ile de bölgeye ulaşım sağlanabilir. Köprü, Sille gezisi sırasında kolayca ziyaret edilebilecek bir konumdadır.",
+    "en": "The Devil’s Bridge is a historic structure located in the Sille district of Konya, reflecting the rich cultural heritage of the area. Sille is an ancient settlement that has hosted various civilizations over thousands of years, and this bridge is part of that legacy.\n\nAlthough the exact construction date is unknown, it is believed to date back to the Roman or Byzantine period. Built with stone architecture, the bridge once served as a crossing over the Sille stream and is now primarily a historical and touristic landmark.\n\nThe name \"Devil’s Bridge\" comes from local folklore. According to legends, the name was given due to the difficulties and dangers faced during its construction. Such names are common in Anatolia and often reflect mystical interpretations of challenging structures.\n\nToday, the bridge offers visitors a unique atmosphere combined with Sille’s natural beauty and historical charm. It is a great spot for walking, photography, and exploring the authentic character of the area, especially during sunset.\n\n**How to Get There?**\n\nThe bridge is located about 8 km from Konya city center in Sille. It can be reached بسهولة by car or by minibuses heading to Sille from the city center. It is easily included in a Sille travel route.",
+    "de": "Die Teufelsbrücke befindet sich im Stadtteil Sille in Konya und ist ein bemerkenswertes Bauwerk, das die historische Struktur der Region widerspiegelt. Sille ist eine alte Siedlung mit einer Geschichte von Tausenden von Jahren und war Heimat vieler Zivilisationen.\n\nDas genaue Baujahr der Brücke ist nicht bekannt, jedoch wird vermutet, dass sie aus der römischen oder byzantinischen Zeit stammt. Die aus Stein erbaute Brücke diente früher als Übergang über den Sille-Bach und ist heute ein historisches und touristisches Wahrzeichen.\n\nDer Name \"Teufelsbrücke\" basiert auf lokalen Legenden. Es wird erzählt, dass der Bau der Brücke mit großen Schwierigkeiten verbunden war, weshalb ihr dieser mystische Name gegeben wurde.\n\nHeute bietet die Brücke eine beeindruckende Atmosphäre in Kombination mit der natürlichen Schönheit und dem historischen Charme von Sille. Besucher können hier spazieren gehen, fotografieren und die authentische Umgebung genießen.\n\n**Anfahrt**\n\nDie Brücke liegt etwa 8 km vom Stadtzentrum von Konya entfernt in Sille. Sie ist leicht mit dem Auto oder mit Minibussen vom Stadtzentrum aus erreichbar und kann problemlos in eine Sille-Besichtigung integriert werden."
+  },
+  "activities": {
+    "tr": [
+      "Köprüyü gezmek",
+      "Fotoğraf çekmek",
+      "Sille’de yürüyüş yapmak"
+    ],
+    "en": [
+      "Exploring the bridge",
+      "Taking photos",
+      "Walking around Sille"
+    ],
+    "de": [
+      "Die Brücke erkunden",
+      "Fotos machen",
+      "In Sille spazieren gehen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi köprü"
+    ],
+    "en": [
+      "historic bridge"
+    ],
+    "de": [
+      "historische Brücke"
+    ]
+  },
+  "images": [
+    "https://example.com/seytan-koprusu-1.jpg",
+    "https://example.com/seytan-koprusu-2.jpg"
+  ]
+},
+{
+  "slug": "sircali-medrese",
+  "name": {
+    "tr": "Sırçalı Medrese",
+    "en": "Sircali Madrasa",
+    "de": "Sırçalı Medrese"
+  },
+  "latitude": 37.86944,
+  "longitude": 32.49222,
+  "description": {
+    "tr": "Sırçalı Medrese, Konya'nın merkezinde yer alan ve Anadolu Selçuklu çini sanatının en nadide örneklerini barındıran tarihi bir eğitim yapısıdır. 1242 yılında II. Gıyaseddin Keyhüsrev döneminde Bedreddin Muslih tarafından fıkıh ilmi okutulması amacıyla yaptırılmıştır.\n\n**Mimari Özellikler**\n\nMedrese, açık avlulu ve iki eyvanlı plan tipine sahiptir. Yapının en dikkat çekici özelliği, ismini aldığı ve 'sırça' olarak adlandırılan çini mozaikleridir. Özellikle ana eyvanda bulunan firuze ve patlıcan moru renkli çiniler, Selçuklu estetiğinin zirvesini temsil eder. Mimarı, kitabesinde belirtildiği üzere Tuslu Mehmet'tir.\n\n**Tarihçe ve Restorasyon**\n\nZamanla harap olan yapı, Cumhuriyet döneminde kapsamlı restorasyonlardan geçmiştir. Bir dönem 'Mezar Anıtları Müzesi' olarak hizmet vermiş olup, içerisinde Selçuklu ve Osmanlı dönemlerine ait sanat değeri yüksek mezar taşları ve sandukalar sergilenmektedir.\n\n**Ulaşım**\n\nSırçalı Medrese, Konya'nın merkez ilçesi olan Meram'da, Sahibi Ata Caddesi üzerinde yer almaktadır. Şehir merkezindeki Alaaddin Tepesi'ne yürüme mesafesindedir. Toplu taşıma ve özel araçla ulaşımı oldukça kolaydır.\n\n**Ziyaret Saatleri ve İletişim**\n\nMedrese genellikle müze statüsünde ziyarete açıktır. Çini süslemelerinin detaylarını ve avlu atmosferini en iyi şekilde görmek için gün ışığında ziyaret edilmesi önerilir. Güncel ziyaret saatleri için Kültür ve Turizm Bakanlığı resmi sayfaları kontrol edilebilir.",
+    "en": "Sircali Madrasa is a historic educational building located in the center of Konya, housing some of the finest examples of Anatolian Seljuk tile art. It was built in 1242 by Bedreddin Muslih during the reign of Kaykhusraw II for the study of Islamic law (fiqh).\n\n**Architectural Features**\n\nThe madrasa has an open courtyard and a two-iwan plan. Its most remarkable feature is the tile mosaics, known as 'sirca,' from which it takes its name. The turquoise and eggplant-purple tiles, especially in the main iwan, represent the pinnacle of Seljuk aesthetics. The architect is Mehmet of Tus, as mentioned in the inscription.\n\n**History and Restoration**\n\nThe structure, which fell into ruin over time, underwent extensive restoration during the Republican era. It served as the 'Museum of Grave Monuments' for a period, displaying artistically significant tombstones and sarcophagi from the Seljuk and Ottoman periods.\n\n**Transportation**\n\nSircali Madrasa is located on Sahibi Ata Street in the Meram district of Konya. It is within walking distance of Alaaddin Hill in the city center. It is easily accessible by both public transport and private vehicles.\n\n**Visiting Hours and Contact**\n\nThe madrasa is generally open to visitors as a museum. It is recommended to visit during daylight hours to best appreciate the tile decorations and the courtyard atmosphere. Current visiting hours can be checked on the official pages of the Ministry of Culture and Tourism.",
+    "de": "Die Sırçalı Medrese ist ein historisches Bildungsgebäude im Zentrum von Konya, das einige der schönsten Beispiele anatolisch-seldschukischer Fliesenykunst beherbergt. Sie wurde 1242 von Bedreddin Muslih während der Herrschaft von Kai Chosrau II. für das Studium des islamischen Rechts (Fiqh) erbaut.\n\n**Architektonische Merkmale**\n\nDie Medrese hat einen offenen Innenhof und einen Grundriss mit zwei Iwanen. Ihr bemerkenswertestes Merkmal sind die Fliesenmosaike, bekannt als 'Sırça', von denen sie ihren Namen hat. Die türkisfarbenen und auberginenfarbenen Fliesen, besonders im Haupt-Iwan, repräsentieren den Höhepunkt seldschukischer Ästhetik. Der Architekt ist Mehmet von Tus, wie in der Inschrift erwähnt.\n\n**Geschichte und Restaurierung**\n\nDas im Laufe der Zeit verfallene Bauwerk wurde während der Republik-Ära umfassend restauriert. Es diente zeitweise als 'Museum für Grabdenkmäler', in dem künstlerisch bedeutende Grabsteine und Sarkophage aus der Seldschuken- und Osmanenzeit ausgestellt sind.\n\n**Transport**\n\nDie Sırçalı Medrese befindet sich in der Sahibi Ata Straße im Bezirk Meram in Konya. Sie ist vom Alaaddin-Hügel im Stadtzentrum aus zu Fuß erreichbar. Sie ist sowohl mit öffentlichen Verkehrsmitteln als auch mit dem privaten Auto leicht zu erreichen.\n\n**Öffnungszeiten und Kontakt**\n\nDie Medrese ist im Allgemeinen als Museum für Besucher geöffnet. Es wird empfohlen, sie bei Tageslicht zu besuchen, um die Fliesendekorationen und die Atmosphäre des Innenhofs am besten zu genießen. Aktuelle Öffnungszeiten können auf den offiziellen Seiten des Ministeriums für Kultur und Tourismus überprüft werden."
+  },
+  "activities": {
+    "tr": [
+      "Selçuklu çini sanatını incelemek",
+      "Tarihi mezar taşlarını gözlemlemek",
+      "Mimari fotoğrafçılık yapmak"
+    ],
+    "en": [
+      "Examining Seljuk tile art",
+      "Observing historic tombstones",
+      "Architectural photography"
+    ],
+    "de": [
+      "Seldschukische Fliesenykunst untersuchen",
+      "Historische Grabsteine besichtigen",
+      "Architekturfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "medrese",
+      "müze"
+    ],
+    "en": [
+      "madrasa",
+      "museum"
+    ],
+    "de": [
+      "Medrese",
+      "Museum"
+    ]
+  },
+  "images": [
+    "https://example.com/sircali_medrese_1.jpg",
+    "https://example.com/sircali_medrese_2.jpg"
+  ]
+},
+{
+  "slug": "konya-nasuh-bey-camii",
+  "name": {
+    "tr": "Nasuh Bey Camii",
+    "en": "Nasuh Bey Mosque",
+    "de": "Nasuh Bey Moschee"
+  },
+  "latitude": 37.8742,
+  "longitude": 32.4931,
+  "description": {
+    "tr": "Nasuh Bey Camii, Konya'nın tarihi merkezinde yer alan ve Osmanlı dönemine ait önemli bir camidir. Caminin inşa tarihi kesin olarak bilinmemekle birlikte, 17. yüzyıl civarında yapıldığı tahmin edilmektedir. Yapının mimarisi, klasik Osmanlı cami üslubunu yansıtır; sade ve zarif bir avlu, tek minare ve kubbeli bir ana salon ile dikkat çeker.\n\nCami, yerel halkın ibadet ihtiyaçlarını karşılamasının yanı sıra, Konya’nın tarihi dokusuna da katkıda bulunur. Özellikle detaylı taş işçiliği ve ahşap minberleri, sanat ve zanaat açısından değer taşır.\n\nCamiye gelen ziyaretçiler, hem dini atmosferi hissedebilir hem de Osmanlı mimarisinin estetik örneklerini inceleyebilir. Cami, şehrin kalbinde yer aldığı için çevresinde yürüyüş yapmak ve Konya’nın tarihî yapılarıyla bütünleşmek de mümkündür.\n\n**Nasıl Gidilir?**\n\nNasuh Bey Camii, Konya şehir merkezinde yer almaktadır. Şehir merkezinden yürüyerek ulaşmak mümkündür. Ayrıca toplu taşıma veya özel araç ile de camiye kolayca ulaşabilirsiniz.",
+    "en": "Nasuh Bey Mosque is an important mosque located in the historical center of Konya, dating back to the Ottoman period. While the exact construction date is unknown, it is estimated to have been built around the 17th century. The architecture reflects the classic Ottoman mosque style, featuring a simple and elegant courtyard, a single minaret, and a domed main hall.\n\nThe mosque serves both as a place of worship for locals and as a contributor to Konya’s historical heritage. Its detailed stonework and wooden minbar are particularly noteworthy from an artistic perspective.\n\nVisitors to the mosque can experience the religious atmosphere while appreciating examples of Ottoman architectural aesthetics. Its central location also allows for walking tours and exploring the surrounding historical buildings of Konya.\n\n**How to Get There?**\n\nNasuh Bey Mosque is located in the center of Konya. It is within walking distance from the city center and can also be easily reached by public transport or private vehicle.",
+    "de": "Die Nasuh Bey Moschee befindet sich im historischen Zentrum von Konya und ist ein bedeutendes Bauwerk aus der osmanischen Zeit. Das genaue Baujahr ist unbekannt, wird aber auf das 17. Jahrhundert geschätzt. Die Architektur spiegelt den klassischen osmanischen Moscheestil wider, mit einem schlichten und eleganten Innenhof, einem Minarett und einer Kuppelhalle.\n\nDie Moschee dient sowohl als Gebetsstätte für die Einheimischen als auch als Beitrag zum historischen Erbe von Konya. Besonders die detaillierte Steinmetzarbeit und das hölzerne Minbar sind aus künstlerischer Sicht wertvoll.\n\nBesucher können die religiöse Atmosphäre erleben und die architektonische Ästhetik der Osmanen bewundern. Dank der zentralen Lage können auch Spaziergänge und die Erkundung der umliegenden historischen Gebäude in Konya unternommen werden.\n\n**Anfahrt**\n\nDie Nasuh Bey Moschee befindet sich im Zentrum von Konya. Sie ist zu Fuß vom Stadtzentrum aus erreichbar und kann auch leicht mit öffentlichen Verkehrsmitteln oder mit dem Auto erreicht werden."
+  },
+  "activities": {
+    "tr": [
+      "Cami içinde ibadet etmek",
+      "Mimari detayları incelemek",
+      "Tarihi Konya dokusunu keşfetmek"
+    ],
+    "en": [
+      "Worship inside the mosque",
+      "Exploring architectural details",
+      "Discovering historical Konya"
+    ],
+    "de": [
+      "Gebet in der Moschee",
+      "Architektonische Details erkunden",
+      "Historisches Konya entdecken"
+    ]
+  },
+  "categories": {
+    "tr": ["tarihi cami"],
+    "en": ["historic mosque"],
+    "de": ["historische Moschee"]
+  },
+  "images": [
+    "https://example.com/nasuh_bey_cami_1.jpg",
+    "https://example.com/nasuh_bey_cami_2.jpg"
+  ]
+},{
+  "slug": "konya-sircali-mescid",
+  "name": {
+    "tr": "Sırçalı Mescid",
+    "en": "Sircali Mosque",
+    "de": "Sırçalı Moschee"
+  },
+  "latitude": 37.8695,
+  "longitude": 32.4958,
+  "description": {
+    "tr": "Sırçalı Mescid, Konya'nın merkezinde yer alan tarihi bir mescittir ve Selçuklu dönemine ait önemli bir yapıdır. İsmini iç mekanındaki çini süslemelerden alır; özellikle mavi ve turkuaz renkler öne çıkar. Mescid, hem ibadet hem de Konya’nın mimari mirasını yansıtması açısından önemlidir.\n\nMescidin mimarisi, sade bir plan ve zarif taş işçiliği ile dikkat çeker. Özellikle çini panolar ve ahşap kapılar, ziyaretçilere Selçuklu sanatının inceliklerini gösterir. Tarihi yapısı ve estetik detayları, Konya’yı ziyaret eden tarih ve kültür meraklıları için değerli bir durak oluşturur.\n\n**Nasıl Gidilir?**\n\nSırçalı Mescid, Konya şehir merkezindedir ve şehir merkezinden yürüyerek ulaşmak mümkündür. Ayrıca toplu taşıma ve özel araç ile de kolayca erişilebilir.",
+    "en": "Sırçalı Mosque is a historic mosque located in the center of Konya, dating back to the Seljuk period. Its name derives from the colorful tile decorations inside, with prominent blue and turquoise hues. The mosque is significant both as a place of worship and as a reflection of Konya’s architectural heritage.\n\nThe mosque features a simple layout with elegant stonework. Notable details include the tile panels and wooden doors, which showcase the intricacies of Seljuk art. Its historical and aesthetic qualities make it a valuable stop for history and culture enthusiasts visiting Konya.\n\n**How to Get There?**\n\nSırçalı Mosque is located in the center of Konya and can be reached on foot from the city center. It is also accessible by public transport or private vehicle.",
+    "de": "Die Sırçalı Moschee ist eine historische Moschee im Zentrum von Konya aus der Zeit der Seldschuken. Sie verdankt ihren Namen den farbenfrohen Kachelverzierungen im Inneren, insbesondere in Blau- und Türkistönen. Die Moschee ist sowohl als Gebetsstätte als auch als Spiegelung des architektonischen Erbes von Konya von Bedeutung.\n\nDie Architektur der Moschee besticht durch einen einfachen Grundriss und elegante Steinmetzarbeiten. Besonders bemerkenswert sind die Kacheltafeln und Holztüren, die die Feinheiten der seldschukischen Kunst zeigen. Ihre historische und ästhetische Qualität macht sie zu einem wertvollen Halt für Geschichts- und Kulturliebhaber.\n\n**Anfahrt**\n\nDie Sırçalı Moschee befindet sich im Zentrum von Konya und ist zu Fuß vom Stadtzentrum aus erreichbar. Sie ist auch mit öffentlichen Verkehrsmitteln oder dem Auto zugänglich."
+  },
+  "activities": {
+    "tr": [
+      "Mescit içinde ibadet etmek",
+      "Çini ve taş işçiliğini incelemek",
+      "Selçuklu sanatını keşfetmek"
+    ],
+    "en": [
+      "Worship inside the mosque",
+      "Exploring tile and stonework",
+      "Discovering Seljuk art"
+    ],
+    "de": [
+      "Gebet in der Moschee",
+      "Kacheln und Steinmetzarbeiten erkunden",
+      "Seldschukische Kunst entdecken"
+    ]
+  },
+  "categories": {
+    "tr": ["tarihi mescit"],
+    "en": ["historic mosque"],
+    "de": ["historische Moschee"]
+  },
+  "images": [
+    "https://example.com/sircali_mescid_1.jpg",
+    "https://example.com/sircali_mescid_2.jpg"
+  ]
+},
     {
       "slug": "kizlar-kayasi",
       "name": {

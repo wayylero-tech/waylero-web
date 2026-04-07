@@ -17,15 +17,16 @@ const allData: any = { turkey, europa, asia };
 const allImages: any = { turkey: turkeyImages, europa: europaImages, asia: asiaImages };
 
 const countryToRegionMap: Record<string, string> = {
-  turkiye: "turkey", fransa: "europa", almanya: "europa", italya: "europa", 
+  turkiye: "turkey", fransa: "europa", almanya: "europa", italya: "europa", kktc: "europa",
   ispanya: "europa", ingiltere: "europa", hollanda: "europa", belcika: "europa", 
-  avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", 
-  macaristan: "europa", portekiz: "europa", romanya: "europa", danimarka: "europa", 
+  avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa",
+  macaristan: "europa", portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia",
   isvec: "europa", norvec: "europa", isvicre: "europa", slovakya: "europa", endonezya: "europa", 
   finlandiya: "europa", irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
   gurcistan: "europa", balerus: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
   cin: "asia", hindistan: "asia", tayland: "asia", "guney-kore": "europa", filipinler: "europa", 
-  japonya: "asia", "sri-lanka": "asia", kktc: "turkey", singapur: "asia", amerika: "europa", umman: "europa", 
+  japonya: "asia", "sri-lanka": "asia",  singapur: "europa", amerika: "europa", umman: "europa", 
+  "suudi-arabistan": "europa", "misir": "europa","belarus": "europa"
 };
 
 const slugify = (text: string) => {

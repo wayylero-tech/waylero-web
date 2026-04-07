@@ -28,6 +28,7 @@ const cityToCountryMap: Record<string, string> = {
   "bukres": "romanya", "cluj-napoca": "romanya", "timisoara": "romanya", "iasi": "romanya", "constanta": "romanya", "brasov": "romanya", "galati": "romanya", "craiova": "romanya", "ploiesti": "romanya", "oradea": "romanya",
   "delhi": "hindistan", "agra": "hindistan", "jaipur": "hindistan", "varanasi": "hindistan", "mumbai": "hindistan", "goa": "hindistan", "kerala": "hindistan", "rishikesh-haridwar": "hindistan", "haridwar": "hindistan", "udaipur": "hindistan", "amritsar": "hindistan",
   "bangkok": "tayland",
+"wadi-musa": "urdun",
   "cardiff": "galler",
   "singapur": "singapur",
   "seul": "guney-kore",
@@ -42,6 +43,7 @@ const cityToCountryMap: Record<string, string> = {
   "bali": "endonezya", "ubud": "endonezya", "seminyak": "endonezya", "canggu": "endonezya", "kuta": "endonezya", "uluwatu": "endonezya",
   "mekke": "suudi-arabistan", "medine": "suudi-arabistan", "riyad": "suudi-arabistan",
   "kualalumpur": "malezya",
+"kahıre": "mısır","luksor": "mısır","ıskenderıye": "mısır","giza": "mısır","sarm-el-seyh": "mısır",
   "dublin": "irlanda", "galway": "irlanda", "cork": "irlanda", "limerick": "irlanda", "kilkenny": "irlanda", "waterford": "irlanda", "belfast": "irlanda",
   "muskat": "umman", "masirah-adasi": "umman", "ras-al-jinz": "umman", "sur": "umman", "jabel-shams": "umman", "salalah": "umman", "wahiba-sands": "umman", "nizwa": "umman",
   "saraybosna": "bosna-hersek", "mostar": "bosna-hersek", "travnik": "bosna-hersek", "jajce": "bosna-hersek", "banja-luka": "bosna-hersek", "pocitel": "bosna-hersek", "ljubuski": "bosna-hersek", "neum": "bosna-hersek", "tuzla": "bosna-hersek",
@@ -49,71 +51,82 @@ const cityToCountryMap: Record<string, string> = {
   "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
 };
 
-// 🛡️ 2. SANITIZE FONKSİYONU (Dışarıda tanımlanmalı)
-const sanitize = (str: string) => str.toLowerCase()
-  .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-  .replace(/ /g, '')
-  .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c');
+// 🔧 SANITIZE
+const sanitize = (str: string) =>
+  str.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/ /g, '')
+    .replace(/ı/g, 'i').replace(/ğ/g, 'g')
+    .replace(/ü/g, 'u').replace(/ş/g, 's')
+    .replace(/ö/g, 'o').replace(/ç/g, 'c');
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // 🔥 1. ADIM: DİL YÖNETİMİ VE HEADER HAZIRLIĞI
-  const isEn = pathname.startsWith('/en/') || pathname === '/en';
-  
-  // Request header'larını kopyalayıp yenisini ekliyoruz
+  // 🌐 DİL TESPİT
+  const isEn = pathname.startsWith('/en/');
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
 
-  // Tek bir response tanımlıyoruz ve içine request header'larını gömüyoruz
   const response = NextResponse.next({
-    request: {
-      headers: requestHeaders,
-    },
+    request: { headers: requestHeaders },
   });
 
-  // Eğer İngilizce ise çerezi de güncelle
   if (isEn) {
     response.cookies.set('lang', 'en', { path: '/' });
-  } else {
-    // Normal yollarda da x-url-lang 'tr' kalsın (isteğe bağlı)
-    response.headers.set('x-url-lang', 'tr');
-  }
-
-  // 🔥 2. ADIM: MEVCUT YÖNLENDİRME MANTIĞIN
-  // Eğer EN ise direkt bu response ile devam et
-  if (isEn) {
-     return response; 
   }
 
   const parts = pathname.split('/');
 
-  // Mekan sayfaları yönlendirmesi
-  if (pathname.startsWith('/kesfet/') && parts.length >= 4) {
-    const regionOrCountry = parts[2];
-    const cityInUrl = sanitize(parts[3]);
+  // 🔥 OFFSET (EN varsa index kayıyor)
+  const offset = isEn ? 1 : 0;
+
+  // =========================
+  // ✅ 1. MEKAN SAYFASI FIX
+  // =========================
+  if (
+    pathname.includes('/kesfet/') &&
+    parts.length >= (4 + offset)
+  ) {
+    const regionOrCountry = parts[2 + offset];
+    const cityInUrl = sanitize(parts[3 + offset]);
+
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry && targetCountry !== regionOrCountry) {
-      const slug = parts.slice(4).join('/');
-      let newPath = `/kesfet/${targetCountry}/${parts[3]}`;
+      const slug = parts.slice(4 + offset).join('/');
+
+      let newPath = isEn
+        ? `/en/kesfet/${targetCountry}/${parts[3 + offset]}`
+        : `/kesfet/${targetCountry}/${parts[3 + offset]}`;
+
       if (slug) newPath += `/${slug}`;
-      
-      // Redirect yaparken dilden bağımsız 301 atıyoruz
+
       return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
     }
   }
 
-  // Şehir sayfaları yönlendirmesi
-  if (parts.length === 2 && !pathname.startsWith('/kesfet/') && pathname !== '/' && !pathname.includes('.')) {
-    const cityInUrl = sanitize(parts[1]);
+  // =========================
+  // ✅ 2. ŞEHİR SAYFASI FIX
+  // =========================
+  if (
+    parts.length === (2 + offset) &&
+    !pathname.includes('/kesfet/') &&
+    pathname !== '/' &&
+    !pathname.includes('.')
+  ) {
+    const cityInUrl = sanitize(parts[1 + offset]);
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry) {
-      return NextResponse.redirect(new URL(`/${targetCountry}/${parts[1]}`, request.url), { status: 301 });
-    }
-  }
+      const newPath = isEn
+        ? `/en/${targetCountry}/${parts[1 + offset]}`
+        : `/${targetCountry}/${parts[1 + offset]}`;
 
-   // Hiçbirine girmezse hazırladığımız dilli response'u dön
+      return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
+    }
+  
+
   return response;
+}
 }

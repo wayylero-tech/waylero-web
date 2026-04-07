@@ -1,7 +1,6 @@
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { headers } from "next/headers"; // 🔥 Bunu ekledik
+import { headers } from "next/headers"; 
 import "./globals.css";
 import { LanguageProvider } from "./context/LanguageContext";
 import ClientLayout from "./components/ClientLayout";
@@ -24,10 +23,8 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const headerList = await headers();
-  
-  // 🔥 1. ÖNCE BİZİM ÖZEL HEADER'A BAK (Middleware'den gelen)
-  // 🔥 2. YOKSA REFERER'A BAK
-  // 🔥 3. O DA YOKSA PATHNAME'E BAK
+
+  // 🔥 Dil belirleme
   const middlewareLang = headerList.get("x-url-lang");
   const referer = headerList.get("referer") || "";
   const pathname = headerList.get("x-invoke-path") || "";
@@ -40,8 +37,23 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const displayLang = isEn ? "en" : "tr";
 
   return (
-    <html lang={displayLang}> 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
+    <html lang={displayLang}>
+      {/* 
+        🔥 Tailwind sınıfları ile:
+        bg-white → light mode arka plan
+        dark:bg-gray-900 → dark mode arka plan
+        text-gray-900 → light mode yazı rengi
+        dark:text-white → dark mode yazı rengi
+        min-h-screen → tüm sayfa yüksekliği
+        antialiased → font yumuşatma
+      */}
+      <body className={`
+        ${geistSans.variable} 
+        ${geistMono.variable} 
+        antialiased min-h-screen flex flex-col
+        bg-white dark:bg-gray-900
+        text-gray-900 dark:text-white
+      `}>
         <LanguageProvider>
           <ClientLayout>
             {children}
