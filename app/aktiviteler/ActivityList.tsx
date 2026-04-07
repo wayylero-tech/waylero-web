@@ -11,7 +11,7 @@ interface ActivityListProps {
 export default function ActivityList({ initialEvents, initialCityName }: ActivityListProps) {
   const [events, setEvents] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
-  const [selectedCityName, setSelectedCityName] = useState(initialCityName);
+  const [selectedCityName, setSelectedCityName] = useState(initialCityName || "TÜRKİYE GENELİ");
 
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -54,20 +54,27 @@ export default function ActivityList({ initialEvents, initialCityName }: Activit
   const fetchEventsClient = async (citySlug: string = "") => {
     try {
       setLoading(true);
+      
+      // Eğer slug boşsa Türkiye Geneli çekilir
+      if (!citySlug) {
+        const res = await fetch(`/api/events`, { cache: 'no-store' });
+        const data = await res.json();
+        const rawItems = data.items || (Array.isArray(data) ? data : []);
+        setEvents(formatEvents(rawItems));
+        setSelectedCityName("TÜRKİYE GENELİ");
+        return;
+      }
+
       const decodedSlug = decodeURIComponent(citySlug).trim();
       const seoSlug = decodedSlug.toLocaleLowerCase("tr-TR").replace(/\s+/g, "-");
       const cityName = decodedSlug.replace(/-/g, " ").toLocaleUpperCase("tr-TR").trim();
 
-      if (citySlug && citySlug !== seoSlug) {
-        router.replace(`/aktiviteler?city=${seoSlug}`, { scroll: false });
-      }
-
       const cityId = cityMap[cityName];
-      setSelectedCityName(citySlug ? cityName : "TÜRKİYE GENELİ");
+      setSelectedCityName(cityName);
 
       const params = new URLSearchParams();
       if (cityId) params.append("city_ids", cityId.toString());
-      else if (citySlug) params.append("q", decodedSlug);
+      else params.append("q", decodedSlug);
 
       const res = await fetch(`/api/events?${params.toString()}`, { cache: 'no-store' });
       const data = await res.json();
@@ -92,12 +99,18 @@ export default function ActivityList({ initialEvents, initialCityName }: Activit
   };
 
   useEffect(() => {
-    // İlk yüklemede sunucudan gelen veriyi kullan, sonraki query değişimlerinde fetch yap
     const cityParam = searchParams.get("city");
-    if (!cityParam && initialCityName === "TÜRKİYE GENELİ") {
+    
+    if (!cityParam) {
+      // URL'de şehir yoksa Türkiye geneli gösterilir
+      if (initialEvents && initialEvents.length > 0) {
         setEvents(formatEvents(initialEvents));
+        setSelectedCityName("TÜRKİYE GENELİ");
+      } else {
+        fetchEventsClient(""); // Veri yoksa API'den çek
+      }
     } else {
-        fetchEventsClient(cityParam || "");
+      fetchEventsClient(cityParam);
     }
   }, [searchParams.get("city")]);
 
@@ -108,26 +121,33 @@ export default function ActivityList({ initialEvents, initialCityName }: Activit
           <div className="inline-block px-3 py-0.5 border border-white/10 rounded-full mb-4 bg-white/5">
             <span className="text-[9px] font-bold tracking-[0.2em] text-yellow-500 uppercase">Live Experiences</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-black text-center mb-3">{selectedCityName}</h1>
+          <h1 className="text-4xl md:text-6xl font-black text-center mb-3 uppercase">{selectedCityName}</h1>
           <p className="text-yellow-500 text-[10px] md:text-xs font-light tracking-[0.15em] uppercase text-center opacity-75">
-            Waylero ile {selectedCityName.toLocaleUpperCase("tr-TR")}{getCitySuffix(selectedCityName)} konserleri keşfet
+            Waylero ile {selectedCityName}{getCitySuffix(selectedCityName)} konserleri keşfet
           </p>
 
           <div className="flex gap-3 mt-6 flex-wrap justify-center">
-            {["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"].map((c) => (
-              <button
-                key={c}
-                onClick={() => router.push(`/aktiviteler?city=${c.toLocaleLowerCase("tr-TR")}`)}
-                className={`px-5 py-2 rounded-xl text-[11px] font-bold tracking-widest transition-all border ${
-                  selectedCityName === c ? "bg-white text-black border-white" : "bg-transparent text-gray-400 border-white/10 hover:border-white/40"
-                }`}
-              >
-                {c}
-              </button>
-            ))}
+            {["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"].map((c) => {
+              const isActive = selectedCityName.toLocaleUpperCase("tr-TR") === c;
+              return (
+                <button
+                  key={c}
+                  onClick={() => router.push(`/aktiviteler?city=${c.toLocaleLowerCase("tr-TR")}`)}
+                  className={`px-5 py-2 rounded-xl text-[11px] font-bold tracking-widest transition-all border ${
+                    isActive ? "bg-white text-black border-white" : "bg-transparent text-gray-400 border-white/10 hover:border-white/40"
+                  }`}
+                >
+                  {c}
+                </button>
+              );
+            })}
             <button
               onClick={() => { window.dispatchEvent(new Event("triggerSearchFocus")); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              className="px-5 py-2 rounded-xl text-[11px] font-bold tracking-widest border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition-all"
+              className={`px-5 py-2 rounded-xl text-[11px] font-bold tracking-widest border transition-all ${
+                selectedCityName !== "TÜRKİYE GENELİ" && !["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"].includes(selectedCityName)
+                ? "bg-yellow-500 text-black border-yellow-500"
+                : "border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black"
+              }`}
             >
               + DİĞER ŞEHİRLER
             </button>
@@ -144,6 +164,7 @@ export default function ActivityList({ initialEvents, initialCityName }: Activit
             {events.length > 0 ? (
               events.map((event) => (
                 <div key={event.id} className="group relative bg-[#121212] rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-white/20 transition-all duration-500 hover:-translate-y-2 shadow-2xl flex flex-col">
+                  {/* Kart içeriği aynı kalıyor... */}
                   <div className="relative h-72 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent z-10 opacity-60"></div>
                     <img src={event.image} alt={event.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
