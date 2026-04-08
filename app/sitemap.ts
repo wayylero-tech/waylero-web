@@ -8,6 +8,7 @@ import turkey from "@/app/data/turkey.json";
 import europa from "@/app/data/europa.json";
 import asia from "@/app/data/asia.json";
 import cities from "@/app/data/cities.json";
+import { wayleroLiveVideos, addSlugs } from "@/videos"; // 🎥 Videolar eklendi
 
 // Bloglar
 import { konyaPosts } from "@/app/data/blog/konya/posts";
@@ -88,13 +89,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "", priority: 1.0 },
     { url: "/kesfet", priority: 0.8 },
     { url: "/aktiviteler", priority: 0.9 },
+    { url: "/videolar", priority: 0.9 }, // 🎥 Videolar Ana Sayfası
   ];
 
   staticPages.forEach(page => {
     sitemapEntries.push({ url: `${baseUrl}${page.url}`, lastModified: now, priority: page.priority });
   });
 
-  // --- 1. 🎤 Aktiviteler (Şehir Bazlı) ---
+  // --- 1. 🎥 Videolar (Waylero Live) ---
+  const videosWithSlugs = addSlugs(wayleroLiveVideos);
+  videosWithSlugs.forEach(video => {
+    sitemapEntries.push({
+      url: `${baseUrl}/videolar/${video.slug}`,
+      lastModified: now,
+      priority: 0.8,
+      // Not: Next.js standart sitemap tipinde henüz video desteği kısıtlıdır 
+      // ama URL olarak eklemek Google'ın indexlemesi için yeterlidir.
+    });
+  });
+
+  // --- 2. 🎤 Aktiviteler (Şehir Bazlı) ---
   activityCities.forEach(city => {
     sitemapEntries.push({ 
       url: `${baseUrl}/aktiviteler?city=${city}`, 
@@ -103,7 +117,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // --- 2. 🌍 Gezi Yerleri (Mekanlar) ---
+  // --- 3. 🌍 Gezi Yerleri (Mekanlar) ---
   const regions: any = { turkey, europa, asia };
   
   Object.entries(regions).forEach(([regionKey, regionData]: [string, any]) => {
@@ -118,13 +132,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // --- 3. ⭐ Şehirler (waylero.com/istanbul) ---
+  // --- 4. ⭐ Şehirler ---
   cities.forEach((city: any) => {
     const cityPath = `/${sanitize(city.slug)}`;
     sitemapEntries.push({ url: `${baseUrl}${cityPath}`, lastModified: now, priority: 0.9 });
   });
 
-  // --- 4. 📝 Blog Yazıları ---
+  // --- 5. 📝 Blog Yazıları ---
   const allPosts = [...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts, ...konyaPosts2, ...istanbulPosts];
 
   allPosts.forEach((post: any) => {

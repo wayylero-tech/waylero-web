@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import HomeBlogSlider from "./components/HomeBlogSlider";
 import { useLang } from "./context/LanguageContext";
-import { wayleroLiveVideos } from "@/videos"; // Videoların buradan geldiğini varsayıyorum
-import YouTube, { YouTubeProps } from "react-youtube";
+import { wayleroLiveVideos, addSlugs } from "@/videos";
 
 /* 🔹 ÖNE ÇIKAN ŞEHİRLER */
 const featuredCities = [
@@ -26,6 +26,7 @@ const featuredCities = [
   { name: { tr: "Mekke", en: "Mecca" }, slug: "mekke", country: "suudi-arabistan", image: "/assets/cities/mekke.png" },
 ];
 
+/* 🔹 REKLAM ALANI BİLEŞENİ */
 function AdSlot({ slot }: { slot: string }) {
   return (
     <div className="relative w-[160px] h-[600px] overflow-hidden rounded-xl">
@@ -43,10 +44,13 @@ function AdSlot({ slot }: { slot: string }) {
 
 export default function HomePage() {
   const { lang } = useLang();
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
-  const [players, setPlayers] = useState<Record<number, any>>({});
 
-  useEffect(() => { setMounted(true); }, []);
+  // Hydration hatasını engellemek için mount kontrolü
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const getLocalizedLink = (path: string) => {
     if (lang === "tr") return path;
@@ -54,8 +58,8 @@ export default function HomePage() {
   };
 
   const translations = {
-    tr: { cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri", menu: ["Etkinlikler", "Keşfet", "Harita", "Rehber ✍️"] },
-    en: { cityTitle: "World's Most Visited Cities", menu: ["Activities", "Explore", "Map", "Guide ✍️"] }
+    tr: { cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri", menu: ["Etkinlikler", "Keşfet", "Harita", "Seyahat Rehber ✍️"] },
+    en: { cityTitle: "World's Most Visited Cities", menu: ["Activities", "Explore", "Map", "Travel Guide ✍️"] }
   };
   const t = translations[lang as "tr" | "en"] || translations.tr;
 
@@ -66,33 +70,32 @@ export default function HomePage() {
     { title: t.menu[3], image: "/assets/blog/konya/tinaztepe/cover.png", route: "/blog" },
   ];
 
+  // Google Adsense tetikleyici
   useEffect(() => {
     if (!mounted) return;
     const ads = document.querySelectorAll(".adsbygoogle");
     ads.forEach((ad) => {
       if (!ad.getAttribute("data-adsbygoogle-status")) {
-        try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch {}
+        try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
       }
     });
   }, [mounted]);
 
-  const handlePlay = (id: number) => {
-    Object.keys(players).forEach(key => {
-      const keyNum = parseInt(key);
-      if (keyNum !== id) { players[keyNum]?.pauseVideo?.(); }
-    });
-  };
-
+  // Sayfa yüklenene kadar boş dön (Next.js Hydration Güvenliği)
   if (!mounted) return null;
+
+  // Videoları slug eklenmiş şekilde hazırla
+  const videosWithSlugs = addSlugs(wayleroLiveVideos);
 
   return (
     <main className="bg-gray-50/50 flex justify-center max-w-[1600px] mx-auto gap-4 w-full">
       
+      {/* SOL REKLAM */}
       <aside className="hidden xl:block sticky top-10 h-fit shrink-0"><AdSlot slot="6195494093" /></aside>
 
       <div className="flex-1 max-w-6xl bg-white shadow-sm px-3 md:px-6 py-6 overflow-hidden">
         
-        {/* QUICK MENU */}
+        {/* HIZLI MENÜ */}
         <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-6 mb-10">
           {quickMenu.map((item) => (
             <div key={item.title} className="flex flex-col items-center">
@@ -112,46 +115,59 @@ export default function HomePage() {
 
         <HomeBlogSlider />
 
-        {/* 🎥 VIDEOS - MOBİL DÜZELTMELİ */}
-        <section className="mt-12 mb-8">
-          <div className="flex items-center justify-between mb-6 px-1">
-            <div className="flex items-center gap-2">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600"></span>
-              </span>
-              <h2 className="text-lg md:text-xl font-black italic text-gray-900 uppercase tracking-tighter">
-                {lang === "tr" ? "VİDEOLAR" : "VIDEOS"}
-              </h2>
+       {/* 🎥 VİDEOLAR - YENİ MODAL SİSTEMİ */}
+<section className="mt-12 mb-8">
+  <div className="flex items-center justify-between mb-6 px-1">
+    <div className="flex items-center gap-2">
+      <span className="relative flex h-3 w-3">
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+        <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600"></span>
+      </span>
+      <h2 className="text-lg md:text-xl font-black italic text-gray-900 uppercase tracking-tighter">
+        {lang === "tr" ? "VİDEOLAR" : "VIDEOS"}
+      </h2>
+    </div>
+    <Link 
+    href={getLocalizedLink("/videolar")} 
+    className="text-[15px] font-medium text-blue-600 hover:text-blue-800 transition-colors"
+  >
+    {lang === "tr" ? "Tümünü Gör" : "See All"} →
+  </Link>
+  </div>
+
+  <div className="flex gap-4 overflow-x-auto no-scrollbar pb-6 -mx-3 px-3 md:mx-0 md:px-0">
+    {videosWithSlugs?.slice(0, 4).map(video => (
+      <div 
+        key={video.id} 
+        onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
+        className="w-[200px] md:w-[calc(25%-12px)] flex-shrink-0 flex flex-col gap-3 group cursor-pointer"
+      >
+        <div className="relative aspect-[9/16] shadow-lg rounded-[20px] overflow-hidden bg-black border border-gray-100 group-hover:scale-[1.02] transition-transform duration-300">
+          <img 
+            src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
+            alt={video.title}
+            className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm border border-white/50 flex items-center justify-center group-hover:bg-red-600 group-hover:border-red-600 transition-all">
+               <svg className="w-6 h-6 text-white translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+                 <path d="M7 6v12l10-6z" />
+               </svg>
             </div>
-            <Link href={getLocalizedLink("/videolar")} className="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-black">
-              {lang === "tr" ? "Tümünü Gör" : "See All"} →
-            </Link>
           </div>
+        </div>
+        <div className="px-1">
+          <p className="text-xs md:text-sm font-black uppercase tracking-tighter text-gray-800 line-clamp-1 group-hover:text-red-600 transition-colors">
+            {video.title}
+          </p>
+          <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest italic">📍 {video.location}</span>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
 
-          {/* Kaydırma Alanı */}
-          <div className="flex gap-4 overflow-x-auto no-scrollbar pb-6 -mx-3 px-3">
-            {wayleroLiveVideos?.slice(0, 4).map(video => (
-              <div key={video.id} className="w-[250px] md:w-[280px] flex-shrink-0 flex flex-col gap-3 group">
-                <div className="aspect-[9/16] shadow-lg rounded-[20px] overflow-hidden bg-black border border-gray-100">
-                  <YouTube
-                    videoId={video.youtubeId}
-                    opts={{ width: "100%", height: "100%", playerVars: { autoplay: 0, rel: 0 } }}
-                    className="w-full h-full"
-                    onReady={(event) => setPlayers(prev => ({ ...prev, [video.id]: event.target }))}
-                    onPlay={() => handlePlay(video.id)}
-                  />
-                </div>
-                <div className="px-1">
-                  <p className="text-xs md:text-sm font-black uppercase tracking-tighter text-gray-800 line-clamp-1">{video.title}</p>
-                  <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">{video.location}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* FEATURED CITIES */}
+        {/* ÖNE ÇIKAN ŞEHİRLER */}
         <section className="mt-10">
           <h2 className="text-lg md:text-xl font-bold mb-4">{t.cityTitle}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
@@ -171,6 +187,7 @@ export default function HomePage() {
 
       </div>
 
+      {/* SAĞ REKLAM */}
       <aside className="hidden xl:block sticky top-10 h-fit shrink-0"><AdSlot slot="5241070307" /></aside>
 
     </main>

@@ -156,42 +156,50 @@ export default async function Page({ params }: Props) {
       </section>
 
       <div className="grid md:grid-cols-3 gap-8">
-        <div className="md:col-span-2 bg-white rounded-[2rem] border p-8 shadow-sm">
-          <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
-            <span>📖</span> {t.about}
-          </h2>
-          <div className="text-gray-600 text-lg leading-relaxed whitespace-pre-line">
-            {displayDesc}
-          </div>
-        </div>
+  <div className="md:col-span-2 bg-white rounded-[2rem] border p-8 shadow-sm">
+    {/* 🔥 BAŞLIĞI BURADA DEĞİŞTİRDİK */}
+    <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
+      <span>📖</span> {displayName} {lang === "tr" ? "Hakkında" : "About"}
+    </h2>
+    <div className="text-gray-600 text-lg leading-relaxed whitespace-pre-line">
+      {displayDesc}
+    </div>
+  </div>
 
-        <div className="bg-blue-50 rounded-[2rem] p-8 border border-blue-100 h-fit sticky top-10">
-          <h2 className="text-xl font-bold mb-6 text-blue-900 flex items-center gap-2">
-            <span>🎯</span> {t.todo}
-          </h2>
-          <ul className="space-y-4">
-            {displayActivities.map((act: string, i: number) => (
-              <li key={i} className="bg-white p-4 rounded-2xl text-blue-800 text-sm font-bold shadow-sm border border-blue-50 hover:scale-105 transition-transform cursor-default">
-                • {act}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+  {/* Neler Yapılır kısmı (Todo) */}
+  <div className="bg-blue-50 rounded-[2rem] p-8 border border-blue-100 h-fit sticky top-10">
+    {/* 🔥 BURAYI DA DEĞİŞTİREBİLİRİZ: "Kız Kulesi'nde Neler Yapılır?" */}
+    <h2 className="text-xl font-bold mb-6 text-blue-900 flex items-center gap-2">
+      <span>🎯</span> {displayName} {lang === "tr" ? "Neler Yapılır?" : "Things to Do"}
+    </h2>
+    <ul className="space-y-4">
+      {displayActivities.map((act: string, i: number) => (
+        <li key={i} className="bg-white p-4 rounded-2xl text-blue-800 text-sm font-bold shadow-sm border border-blue-50 hover:scale-105 transition-transform cursor-default">
+          • {act}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
 
-      {foundPlace.latitude && foundPlace.longitude && (
-        <section className="space-y-6">
-          <h2 className="text-2xl font-bold px-2 text-gray-800 flex items-center gap-2">
-            <span>📍</span> {t.location}
-          </h2>
-          <div className="rounded-[3rem] overflow-hidden border-8 border-white shadow-2xl h-[500px]">
-            <iframe
-              src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
-              width="100%" height="100%" style={{ border: 0 }} loading="lazy"
-            />
-          </div>
-        </section>
-      )}
+     {foundPlace.latitude && foundPlace.longitude && (
+  <section className="space-y-6">
+    {/* 🔥 Harita başlığı artık dinamik: "Kız Kulesi Konumu" */}
+    <h2 className="text-2xl font-bold px-2 text-gray-800 flex items-center gap-2">
+      <span>📍</span> {displayName} {lang === "tr" ? "Konumu ve Haritası" : "Location & Map"}
+    </h2>
+    <div className="rounded-[3rem] overflow-hidden border-8 border-white shadow-2xl h-[500px]">
+      <iframe
+        title={`${displayName} Google Maps`} // Erişilebilirlik için title eklemek iyi olur
+        src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
+        width="100%" 
+        height="100%" 
+        style={{ border: 0 }} 
+        loading="lazy"
+      />
+    </div>
+  </section>
+)}
     </main>
   );
 }
