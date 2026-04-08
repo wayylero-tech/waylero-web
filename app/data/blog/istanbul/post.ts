@@ -12,12 +12,12 @@ export const istanbulRehberPosts = [
       en: "Istanbul travel guide 2026: Discover Hagia Sophia, Topkapi Palace, Galata Tower, Grand Bazaar, Bosphorus tours, neighborhoods and food spots."
     },
 
-    image: "/assets/blog/istanbul/genel/ayasofya.png",
+    image: "/assets/genel/ayasofya.webp",
 
     gallery: [
-      "/assets/blog/istanbul/genel/ayasofya.png",
-      "/assets/blog/istanbul/genel/galata.png",
-      "/assets/blog/istanbul/genel/sultanahmet.png"
+      "/assets/genel/ayasofya.webp",
+      "/assets/genel/galata.webp",
+      "/assets/genel/sultanahmet.webp"
     ],
 
     date: "2026-03-16",

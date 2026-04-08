@@ -12,11 +12,11 @@ export const mersinRehberPosts = [
       en: "Discover top attractions in Mersin including Kizkalesi, Tarsus Waterfall, Heaven & Hell Sinkholes, Soli Pompeiopolis and beaches."
     },
 
-    image: "/assets/blog/mersin/genel/kizkalesi.png",
+    image: "/assets/genel/kizkalesi.webp",
 
     gallery: [
-      "/assets/blog/mersin/genel/kizkalesi.png",
-      "/assets/blog/mersin/genel/soli-pompeiopolis.png"
+      "/assets/genel/kizkalesi.webp",
+      "/assets/genel/soli-pompeiopolis.webp"
     ],
 
     date: "2026-03-07",

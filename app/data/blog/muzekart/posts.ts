@@ -10,10 +10,10 @@ export const generalPosts = [
       tr: "Türkiye genelindeki müze ve ören yerlerini uygun fiyatla gezmek isteyenler için Müzekart büyük avantaj sağlıyor. Peki Müzekart nedir, kimler alabilir ve ücretleri ne kadar?",
       en: "Museum Pass Turkey offers great advantages for visiting museums and historical sites across Turkey at an affordable price. What is it, who can get it, and how much does it cost?"
     },
-    image: "/assets/blog/muzekart/cover.png",
+    image: "/assets/genel/muzekart.webp",
 
     gallery: [
-      "/assets/blog/muzekart/cover.png",
+      "/assets/genel/muzekart.webp",
     ],
 
     date: "2026-02-10",

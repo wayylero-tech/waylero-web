@@ -12,12 +12,12 @@ export const ispanyaRehberPosts = [
       en: "Spain travel guide 2026: Discover Barcelona, Madrid, Seville, Granada, Sagrada Familia and Spanish cuisine in this complete itinerary."
     },
 
-    image: "/assets/blog/ispanya/genel/barcelona.png",
+    image: "/assets/genel/barcelona1.webp",
 
     gallery: [
-      "/assets/blog/ispanya/genel/barcelona.png",
-      "/assets/blog/ispanya/genel/madrid.png",
-      "/assets/blog/ispanya/genel/sevilla.png",
+      "/assets/genel/barcelona1.webp",
+      "/assets/genel/madrid.webp",
+      "/assets/genel/sevilla.webp",
     ],
 
     date: "2026-03-24",

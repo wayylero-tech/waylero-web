@@ -12,11 +12,11 @@ export const uygulamaPosts = [
       en: "The best travel apps of 2026 to simplify your trip: Enjoy your journey with recommendations for planning, navigation, cheap accommodation, and currency converters."
     },
 
-    image: "/assets/blog/genel/cover.png",
+    image: "/assets/genel/uygulama.webp",
 
     gallery: [
-      "/assets/blog/genel/cover.png",
-      "/assets/blog/genel/1.png",
+      "/assets/genel/uygulama.webp",
+      "/assets/genel/uygulama1.webp",
     ],
 
     date: "2026-04-02", // Güncel tarih

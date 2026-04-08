@@ -10,12 +10,12 @@ export const cappadociaPosts = [
       tr: "Kapadokya’yı 2 günde keşfetmek isteyenler için balonlar, vadiler ve yer altı şehirleriyle dolu eksiksiz gezi planı.",
       en: "A complete 2-day Cappadocia itinerary full of hot air balloons, valleys, and underground cities."
     },
-    image: "/assets/blog/nevsehir/genel/goreme.png",
+    image: "/assets/genel/goreme.webp",
     gallery: [
-      "/assets/blog/nevsehir/genel/kapadokya.png",
-      "/assets/blog/nevsehir/genel/goreme.png",
-      "/assets/blog/nevsehir/genel/uchisar.png",
-      "/assets/blog/nevsehir/genel/ihlara.png"
+      "/assets/genel/kapadokya.webp",
+      "/assets/genel/goreme.webp",
+      "/assets/genel/uchisar.webp",
+      "/assets/genel/ihlara.webp"
     ],
     date: "2026-03-27",
     city: "nevsehir",

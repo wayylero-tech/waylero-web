@@ -12,13 +12,14 @@ export const konyaPosts = [
       en: "Located near Seydişehir in Konya, Tinaztepe Cave is one of Turkey's longest and most impressive caves, offering visitors a unique nature experience."
     },
 
-    image: "/assets/blog/konya/tinaztepe/cover.png",
+    image: "/assets/genel/tinaztepe.webp",
 
     gallery: [
-      "/assets/blog/konya/tinaztepe/1.png",
-      "/assets/blog/konya/tinaztepe/2.png",
-      "/assets/blog/konya/tinaztepe/3.png",
-      "/assets/blog/konya/tinaztepe/4.png",
+      "/assets/genel/tinaztepe1.webp",
+"/assets/genel/tinaztepe2.webp",
+"/assets/genel/tinaztepe3.webp",
+"/assets/genel/tinaztepe4.webp",
+"/assets/genel/tinaztepe5.webp",
     ],
 
     date: "2026-02-17",

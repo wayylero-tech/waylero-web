@@ -12,11 +12,11 @@ export const turkeyPostKaradeniz = [
       en: "From the misty highlands of Rize to the historic spirit of Trabzon... Discover the most epic places to visit in the Black Sea region in 2026."
     },
 
-    image: "/assets/blog/turkiye/10.png",
+    image: "/assets/genel/sumele.webp",
 
     gallery: [
-      "/assets/blog/turkiye/11.png",
-      "/assets/blog/turkiye/10.png",
+      "/assets/genel/sumele.webp",
+      "/assets/genel/sumele1.webp",
       
     ],
 

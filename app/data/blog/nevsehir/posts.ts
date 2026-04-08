@@ -9,11 +9,12 @@ export const nevsehirRehberPosts = [
       tr: "Kapadokya gezilecek yerler 2026 rehberi: Göreme Açık Hava Müzesi, Peri Bacaları, Uçhisar Kalesi, yeraltı şehirleri ve balon turları.",
       en: "Ultimate 2026 Cappadocia guide: Goreme Open Air Museum, Fairy Chimneys, Uchisar Castle, underground cities, and balloon tours."
     },
-    image: "/assets/blog/nevsehir/genel/kapadokya.png",
+    image: "/assets/genel/kapadokya.webp",
     gallery: [
-      "/assets/blog/nevsehir/genel/kapadokya.png",
-      "/assets/blog/nevsehir/genel/goreme.png",
-      "/assets/blog/nevsehir/genel/uchisar.png"
+      "/assets/genel/kapadokya.webp",
+      "/assets/genel/goreme.webp",
+      "/assets/genel/uchisar.webp",
+      "/assets/genel/ihlara.webp"
     ],
     date: "2026-03-27",
     city: "nevsehir",

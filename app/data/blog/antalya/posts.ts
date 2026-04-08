@@ -12,14 +12,12 @@ export const antalyaRehberPost = [
       en: "The ultimate Antalya travel guide: From the historic streets of Kaleici to the majestic Aspendos Theatre, and the cascading Duden Waterfalls to the crystal blue waters of Konyaalti. Includes 2026 entrance fees, transport routes, and top photography spots."
     },
 
-    image: "/assets/blog/antalya/cover.png",
+    image: "/assets/genel/aspendos.webp",
 
     gallery: [
-      "/assets/blog/antalya/konyaalti.png",
-      "/assets/blog/antalya/aspendos.png",
-      "/assets/blog/antalya/duden.png",
-      "/assets/blog/antalya/kaleici.png",
-      "/assets/blog/antalya/karain.png"
+      "/assets/genel/konyaalti.webp",
+      "/assets/genel/aspendos.webp",
+      "/assets/genel/duden.webp",
     ],
 
     date: "2026-03-10",

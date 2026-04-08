@@ -11,11 +11,11 @@ export const konyaPosts2 = [
       en: "Located in Beşyol, Konya, the Kalender Baba and Kesikbaş Tombs are two remarkable Seljuk-era structures. Their history, location, and architecture attract visitors from near and far."
     },
 
-    image: "/assets/blog/konya/kalenderkesikbas/kalender.png",
+    image: "/assets/genel/kalender.webp",
 
     gallery: [
-      "/assets/blog/konya/kalenderkesikbas/kalender.png", // Kalender Baba
-      "/assets/blog/konya/kalenderkesikbas/kesikbas.png", // Kesikbaş
+      "/assets/genel/kalender.webp", // Kalender Baba
+      "/assets/genel/kesikbas.webp", // Kesikbaş
     ],
 
     date: "2026-02-04",

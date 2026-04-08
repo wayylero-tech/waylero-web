@@ -10,12 +10,12 @@ export const antalyaPosts2 = [
       tr: "Antalya’yı 3 günde keşfetmek isteyenler için deniz, tarih ve doğa dolu eksiksiz bir gezi planı.",
       en: "A complete 3-day Antalya itinerary full of sea, history, and nature for those who want to explore the city."
     },
-    image: "/assets/blog/antalya/antalya/cover.png",
+     image: "/assets/genel/aspendos.webp",
+
     gallery: [
-      "/assets/blog/antalya/antalya/cover.png",
-      "/assets/blog/antalya/antalya/1.png",
-      "/assets/blog/antalya/antalya/2.png",
-      "/assets/blog/antalya/antalya/3.png",
+      "/assets/genel/konyaalti.webp",
+      "/assets/genel/aspendos.webp",
+      "/assets/genel/duden.webp",
     ],
     date: "2026-03-20",
     city: "antalya",
