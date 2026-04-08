@@ -41,7 +41,44 @@ export const wayleroLiveVideos = [
     title: "Başarakavak Hanı", 
     youtubeId: "mY6d5R8RaVg",
     location: "Konya, Türkiye"
-  }
+  },
+{ 
+    id: 8, 
+    title: "Dokuzun Hanı", 
+    youtubeId: "VtGvqaTwMJU",
+    location: "Konya, Türkiye"
+  },
+  { 
+    id: 9, 
+    title: "Tınaztepe mağarası", 
+    youtubeId: "BcyKpLN5E-8",
+    location: "Konya, Türkiye"
+  },
+  { 
+    id: 11, 
+    title: "Tahir Paşa Cami", 
+    youtubeId: "yGBldDGKGzQ",
+    location: "Konya, Türkiye"
+  },
+  { 
+    id: 12, 
+    title: "Nasuhbey Camii", 
+    youtubeId: "6Hlj_Y88fJA",
+    location: "Konya, Türkiye"
+  },
+  { 
+    id: 13, 
+    title: "Bellapais manastırı", 
+    youtubeId: "pucwV5b6aMc",
+    location: "Beylerbey Köyü, KKTC"
+  },
+{ 
+  id: 14, 
+  title: "Eflatun Pınarı Hitit Su Anıtı 7", 
+  youtubeId: "qVp6lhmrSWs",
+  location: "Konya, Türkiye"
+}
+
 ];
 
 /**
