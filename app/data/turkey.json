@@ -22001,7 +22001,157 @@
       "images": [
         "https://example.com/cennet_cehennem_vadisi.jpg"
       ]
-    }
+    },
+{
+  "slug": "zap-vadisi",
+  "name": {
+    "tr": "Zap Vadisi",
+    "en": "Zap Valley",
+    "de": "Zap-Tal"
+  },
+  "latitude": 37.5745,
+  "longitude": 43.7362,
+  "description": {
+    "tr": "Hakkâri’nin en etkileyici doğal alanlarından biri olan Zap Vadisi, sarp kayalıkları, derin kanyonları ve içinden geçen coşkulu Zap Suyu ile dikkat çeker. Vadi, bölgenin en önemli akarsularından biri olan Zap Nehri etrafında şekillenmiş olup doğa severler için eşsiz manzaralar sunar. Yüksek dağlar arasında uzanan bu vadi, hem görsel açıdan hem de macera arayanlar için oldukça zengin bir deneyim sunar.\n\nVadide doğa yürüyüşü yapmak isteyenler için farklı zorluk seviyelerine sahip parkurlar bulunur. Nehir boyunca ilerleyen patikalar, ziyaretçilere hem suyun sesi eşliğinde huzurlu bir yürüyüş hem de etkileyici manzaralar sunar. Özellikle ilkbahar ve yaz aylarında vadi, yeşilin her tonuna bürünür ve doğa fotoğrafçıları için ideal bir ortam oluşturur.\n\nZap Vadisi aynı zamanda rafting ve su sporları için de uygun alanlar sunar. Akıntının güçlü olduğu bazı bölgelerde macera severler için heyecan verici aktiviteler yapılabilir. Vadinin farklı noktalarında kamp kurmak mümkündür ve gece gökyüzü gözlemi için oldukça elverişli bir ortam sunar.\n\nBölge, zengin bitki örtüsü ve yaban hayatı ile de dikkat çeker. Dağ keçileri, kuş türleri ve çeşitli canlılar vadinin ekosistemine canlılık katar. Vadi çevresindeki köyler ise ziyaretçilere yerel yaşamı deneyimleme fırsatı sunar.\n\nZap Vadisi’ne ulaşım genellikle Hakkâri şehir merkezinden sağlanır. Özel araç veya rehberli turlar tercih edilebilir. Yol boyunca dağ manzaraları, küçük yerleşimler ve doğal güzellikler ziyaretçilere eşlik eder. Güvenli bir gezi için uygun ekipman ve hazırlık yapılması önerilir.\n\nEn uygun ziyaret zamanı ilkbahar ve yaz aylarıdır. Bu dönemlerde hava daha ılıman olur ve doğa en canlı halini alır. Sonbahar da manzara açısından oldukça etkileyicidir. Kış aylarında ise hava şartları zorlaşabilir.\n\nSonuç olarak Zap Vadisi, doğa yürüyüşü, fotoğrafçılık ve macera arayanlar için Hakkâri’nin keşfedilmesi gereken en önemli doğal alanlarından biridir.",
+    "en": "Zap Valley, one of the most impressive natural areas in Hakkari, is known for its steep cliffs, deep canyons, and the powerful Zap River flowing through it. The valley has been shaped around the Zap River, one of the region’s most significant water sources, offering breathtaking views for nature lovers and adventure seekers alike.\n\nThe valley features hiking trails of varying difficulty levels, making it suitable for both beginners and experienced trekkers. Paths along the river provide peaceful walks accompanied by the soothing sound of flowing water and stunning scenery. During spring and summer, the valley turns lush green, making it an ideal destination for nature photography.\n\nZap Valley is also suitable for rafting and water sports. In areas with stronger currents, it offers exciting opportunities for adventure enthusiasts. Camping is possible in various parts of the valley, and the clear night sky makes it perfect for stargazing.\n\nThe region is rich in flora and fauna, including mountain goats, various bird species, and other wildlife that bring life to the ecosystem. Nearby villages offer visitors a chance to experience local culture and traditions.\n\nAccess to Zap Valley is typically from Hakkari city center, either by private vehicle or guided tours. Along the way, visitors can enjoy scenic mountain roads, small settlements, and natural landscapes. Proper equipment and preparation are recommended for a safe visit.\n\nThe best time to visit is during spring and summer when the weather is mild and the landscape is at its most vibrant. Autumn also offers beautiful scenery, while winter conditions can be challenging.\n\nOverall, Zap Valley is one of Hakkari’s must-visit natural destinations for hiking, photography, and adventure.",
+    "de": "Das Zap-Tal, eines der beeindruckendsten Naturgebiete in Hakkâri, ist bekannt für seine steilen Felsen, tiefen Schluchten und den kraftvollen Zap-Fluss, der durch das Tal fließt. Das Tal wurde rund um den Zap-Fluss geformt, eine der wichtigsten Wasserquellen der Region, und bietet atemberaubende Ausblicke für Naturliebhaber und Abenteurer.\n\nIm Tal gibt es Wanderwege mit unterschiedlichen Schwierigkeitsgraden, die sowohl für Anfänger als auch für erfahrene Wanderer geeignet sind. Die Wege entlang des Flusses ermöglichen ruhige Spaziergänge begleitet vom Klang des Wassers und beeindruckenden Landschaften. Im Frühling und Sommer wird das Tal von üppigem Grün bedeckt und ist ideal für Naturfotografie.\n\nDas Zap-Tal eignet sich auch für Rafting und Wassersport. In Bereichen mit starker Strömung bietet es spannende Möglichkeiten für Abenteuerlustige. Camping ist an verschiedenen Stellen möglich, und der klare Nachthimmel eignet sich hervorragend zur Sternenbeobachtung.\n\nDie Region zeichnet sich durch eine reiche Flora und Fauna aus, darunter Bergziegen, verschiedene Vogelarten und andere Wildtiere. Die umliegenden Dörfer bieten Besuchern Einblicke in die lokale Kultur und Traditionen.\n\nDer Zugang erfolgt in der Regel vom Stadtzentrum Hakkâri aus, entweder mit dem eigenen Fahrzeug oder im Rahmen geführter Touren. Unterwegs können Besucher malerische Bergstraßen, kleine Siedlungen und natürliche Landschaften genießen. Eine gute Vorbereitung und geeignete Ausrüstung werden empfohlen.\n\nDie beste Reisezeit ist im Frühling und Sommer, wenn das Wetter mild ist und die Landschaft in voller Blüte steht. Auch der Herbst bietet schöne Ausblicke, während der Winter anspruchsvoll sein kann.\n\nInsgesamt ist das Zap-Tal eines der wichtigsten Naturziele in Hakkâri für Wandern, Fotografie und Abenteuer."
+  },
+  "activities": {
+    "tr": [
+      "Doğa yürüyüşü",
+      "Rafting",
+      "Fotoğrafçılık",
+      "Kamp"
+    ],
+    "en": [
+      "Hiking",
+      "Rafting",
+      "Photography",
+      "Camping"
+    ],
+    "de": [
+      "Wandern",
+      "Rafting",
+      "Fotografie",
+      "Camping"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğa"
+    ],
+    "en": [
+      "nature"
+    ],
+    "de": [
+      "Natur"
+    ]
+  },
+  "images": [
+    "https://example.com/zap_vadisi.jpg"
+  ]
+},
+{
+  "slug": "sat-buzul-golleri",
+  "name": {
+    "tr": "Sat Buzul Gölleri",
+    "en": "Sat Glacier Lakes",
+    "de": "Sat-Gletscherseen"
+  },
+  "latitude": 37.356863, 
+  "longitude": 44.186979,
+  "description": {
+    "tr": "Hakkâri’nin en büyüleyici doğal alanlarından biri olan Sat Buzul Gölleri, yüksek rakımlı dağların arasında yer alan berrak ve turkuaz renkli gölleriyle dikkat çeker. Bu göller, binlerce yıl önce oluşan buzulların erimesiyle meydana gelmiş olup bölgenin en etkileyici manzaralarından birini sunar. Doğal yapısı bozulmamış olan bu alan, doğa severler ve macera tutkunları için eşsiz bir keşif noktasıdır.\n\nGöllerin bulunduğu bölge, özellikle yaz aylarında yemyeşil çayırlarla kaplanır ve ziyaretçilere huzurlu bir atmosfer sunar. Yüksek rakım nedeniyle hava genellikle serindir ve temiz dağ havası eşliğinde yürüyüş yapmak oldukça keyiflidir. Göllerin çevresinde yürüyüş parkurları bulunur ve bu parkurlar farklı zorluk seviyelerine sahiptir.\n\nSat Buzul Gölleri, kamp yapmak isteyenler için de oldukça uygun bir alandır. Göl kenarında çadır kurarak doğayla iç içe vakit geçirmek mümkündür. Gece saatlerinde gökyüzünün berrak olması sayesinde yıldız gözlemi yapmak da oldukça etkileyici bir deneyim sunar.\n\nBölge, zengin flora ve fauna çeşitliliğine sahiptir. Dağ çiçekleri, endemik bitkiler ve çeşitli yaban hayvanları bu doğal alanın ekosistemini oluşturur. Fotoğrafçılar için özellikle gün doğumu ve gün batımı saatleri eşsiz manzaralar sunar.\n\nSat Buzul Gölleri’ne ulaşım genellikle Hakkâri şehir merkezinden sağlanır. Yolun son kısmı genellikle stabilize olup arazi araçları veya rehberli turlar tercih edilir. Güvenli bir gezi için uygun ekipman ve hazırlık yapılması önerilir.\n\nEn uygun ziyaret zamanı yaz aylarıdır. Bu dönemde yollar daha erişilebilir olur ve doğa en canlı halini alır. İlkbahar ve sonbahar da ziyaret edilebilir ancak hava koşulları değişken olabilir. Kış aylarında ise bölge yoğun kar nedeniyle ulaşımı zor hale gelir.\n\nSonuç olarak Sat Buzul Gölleri, Hakkâri’nin saklı kalmış doğa harikalarından biri olup trekking, kamp ve fotoğrafçılık için mükemmel bir destinasyondur.",
+    "en": "Sat Glacier Lakes, one of the most fascinating natural areas in Hakkari, is known for its clear, turquoise-colored lakes located among high-altitude mountains. These lakes were formed by the melting of glaciers thousands of years ago and offer one of the most stunning landscapes in the region. With its untouched natural beauty, the area is a perfect destination for nature lovers and adventure seekers.\n\nDuring the summer months, the surroundings of the lakes are covered with lush green meadows, creating a peaceful and relaxing atmosphere. Due to the high altitude, the weather remains cool, making hiking in the fresh mountain air an enjoyable experience. There are various hiking trails around the lakes with different levels of difficulty.\n\nSat Glacier Lakes is also an excellent spot for camping. Visitors can set up tents near the lakes and enjoy a close connection with nature. At night, the clear sky provides an incredible opportunity for stargazing.\n\nThe area is rich in flora and fauna, including alpine flowers, endemic plants, and various wildlife species. For photographers, sunrise and sunset offer breathtaking views and unique photo opportunities.\n\nAccess to Sat Glacier Lakes is usually from Hakkari city center. The last part of the الطريق is typically rough, so off-road vehicles or guided tours are recommended. Proper equipment and preparation are advised for a safe visit.\n\nThe best time to visit is during summer when the roads are more accessible and nature is at its most vibrant. Spring and autumn are also possible, though weather conditions may vary. In winter, heavy snowfall can make access difficult.\n\nOverall, Sat Glacier Lakes is one of Hakkari’s hidden natural treasures and an ideal destination for trekking, camping, and photography.",
+    "de": "Die Sat-Gletscherseen gehören zu den faszinierendsten Naturgebieten in Hakkâri und sind bekannt für ihre klaren, türkisfarbenen Seen, die zwischen hoch gelegenen Bergen liegen. Diese Seen entstanden durch das Schmelzen von Gletschern vor Tausenden von Jahren und bieten eine der beeindruckendsten Landschaften der Region. Mit ihrer unberührten Natur ist die Gegend ein ideales Ziel für Naturliebhaber und Abenteurer.\n\nIm Sommer sind die Umgebung der Seen von üppigen grünen Wiesen bedeckt und schaffen eine ruhige und entspannte Atmosphäre. Aufgrund der Höhenlage ist das Wetter kühl, und Wanderungen in der frischen Bergluft sind besonders angenehm. Rund um die Seen gibt es Wanderwege mit unterschiedlichen Schwierigkeitsgraden.\n\nDie Sat-Gletscherseen eignen sich auch hervorragend zum Campen. Besucher können ihre Zelte in Seenähe aufstellen und die Natur hautnah erleben. Nachts bietet der klare Himmel ideale Bedingungen zur Sternenbeobachtung.\n\nDie Region verfügt über eine reiche Flora und Fauna, darunter alpine Blumen, endemische Pflanzen und verschiedene Wildtiere. Für Fotografen bieten Sonnenaufgang und Sonnenuntergang spektakuläre Motive.\n\nDer Zugang erfolgt in der Regel vom Stadtzentrum Hakkâri aus. Der letzte Teil der Strecke ist meist unbefestigt, daher werden Geländefahrzeuge oder geführte Touren empfohlen. Eine gute Vorbereitung und geeignete Ausrüstung sind ratsam.\n\nDie beste Reisezeit ist der Sommer, wenn die Wege zugänglich sind und die Natur in voller Blüte steht. Frühling und Herbst sind ebenfalls möglich, jedoch mit wechselhaften Wetterbedingungen. Im Winter kann starker Schneefall den Zugang erschweren.\n\nInsgesamt sind die Sat-Gletscherseen eines der verborgenen Naturjuwelen Hakkâris und ein perfektes Ziel für Wandern, Camping und Fotografie."
+  },
+  "activities": {
+    "tr": [
+      "Doğa yürüyüşü",
+      "Kamp",
+      "Fotoğrafçılık",
+      "Keşif"
+    ],
+    "en": [
+      "Hiking",
+      "Camping",
+      "Photography",
+      "Exploration"
+    ],
+    "de": [
+      "Wandern",
+      "Camping",
+      "Fotografie",
+      "Erkundung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğa"
+    ],
+    "en": [
+      "nature"
+    ],
+    "de": [
+      "Natur"
+    ]
+  },
+  "images": [
+    "https://example.com/sat_buzul_golleri.jpg"
+  ]
+},
+{
+  "slug": "mergabutan-kayak-merkezi",
+  "name": {
+    "tr": "Mergabütan Kayak Merkezi",
+    "en": "Mergabutan Ski Center",
+    "de": "Skizentrum Mergabütan"
+  },
+  "latitude": 37,5704161, 
+  "longitude": 43,6805892,
+  "description": {
+    "tr": "Hakkâri şehir merkezine yaklaşık 12 kilometre uzaklıkta bulunan Mergabütan Kayak Merkezi, Türkiye’nin en kaliteli kar yapısına sahip bölgelerinden biri olarak bilinir. Yüksek rakımı ve uzun süre yerde kalan kar örtüsü sayesinde kayak sezonu oldukça uzundur. Doğal pistleri ve geniş alanları ile hem amatör hem de profesyonel kayakçılar için uygun bir ortam sunar.\n\nKayak merkezinde farklı zorluk seviyelerine sahip pistler bulunur. Bu sayede yeni başlayanlar güvenli bir şekilde kayak öğrenebilirken, deneyimli sporcular da daha zorlu parkurlarda kendilerini geliştirebilir. Snowboard yapmak isteyenler için de uygun alanlar mevcuttur.\n\nKış aylarında yoğun ilgi gören merkez, kar manzaraları ve temiz dağ havası ile ziyaretçilere keyifli bir deneyim sunar. Ayrıca telesiyej gibi temel tesisler sayesinde kayak aktiviteleri daha konforlu hale gelir. Bölge, doğa ile iç içe olması nedeniyle sadece spor değil aynı zamanda dinlenme amacıyla da tercih edilir.\n\nYaz aylarında ise Mergabütan, yemyeşil yaylalara dönüşür ve doğa yürüyüşleri, piknik ve fotoğrafçılık için ideal bir ortam sunar. Bu yönüyle kayak merkezi dört mevsim ziyaret edilebilen bir destinasyondur.\n\nUlaşım, Hakkâri şehir merkezinden özel araçlarla kolayca sağlanabilir. Kış aylarında yol koşulları değişken olabileceği için dikkatli olunması önerilir. Ziyaretçilerin uygun ekipman ve kıyafetlerle gelmesi önemlidir.\n\nEn uygun ziyaret zamanı kayak yapmak için Aralık ile Mart ayları arasıdır. Yaz aylarında ise doğa aktiviteleri için tercih edilebilir.\n\nSonuç olarak Mergabütan Kayak Merkezi, hem kış sporları hem de doğa turizmi açısından Hakkâri’nin en önemli noktalarından biridir.",
+    "en": "Located about 12 kilometers from Hakkari city center, Mergabutan Ski Center is known as one of the regions with the highest quality snow in Turkey. Thanks to its high altitude and long-lasting snow cover, the ski season is quite extended. Its natural slopes and wide areas make it suitable for both beginners and professional skiers.\n\nThe ski center offers slopes with varying difficulty levels. Beginners can learn safely, while experienced skiers can challenge themselves on more advanced tracks. There are also suitable areas for snowboarding.\n\nPopular during the winter season, the center offers a pleasant experience with its snowy landscapes and fresh mountain air. Facilities such as chairlifts make skiing more comfortable. The natural setting also makes it ideal not only for sports but for relaxation.\n\nIn summer, Mergabutan transforms into lush green highlands, ideal for hiking, picnicking, and photography. This makes it a year-round destination.\n\nAccess is easy by private vehicle from Hakkari city center. In winter, road conditions may vary, so caution is advised. Visitors should come prepared with proper equipment and clothing.\n\nThe best time to visit for skiing is between December and March, while summer is ideal for nature activities.\n\nOverall, Mergabutan Ski Center is one of Hakkari’s key destinations for both winter sports and nature tourism.",
+    "de": "Das Skizentrum Mergabütan, etwa 12 Kilometer vom Stadtzentrum von Hakkâri entfernt, gehört zu den Regionen mit der besten Schneequalität in der Türkei. Dank seiner hohen Lage und der lang anhaltenden Schneedecke ist die Skisaison besonders lang. Die natürlichen Pisten und weiten Flächen bieten ideale Bedingungen für Anfänger und Profis.\n\nDas Skigebiet verfügt über Pisten mit unterschiedlichen Schwierigkeitsgraden. Anfänger können sicher üben, während erfahrene Skifahrer anspruchsvollere Strecken nutzen können. Auch für Snowboarder gibt es geeignete Bereiche.\n\nIm Winter ist das Zentrum sehr beliebt und bietet mit seinen verschneiten Landschaften und der frischen Bergluft ein besonderes Erlebnis. Einrichtungen wie Sessellifte sorgen für zusätzlichen Komfort. Die naturnahe Umgebung macht das Gebiet auch ideal zum Entspannen.\n\nIm Sommer verwandelt sich Mergabütan in grüne Hochlandwiesen, die sich perfekt für Wanderungen, Picknicks und Fotografie eignen. Dadurch ist es ein ganzjähriges Reiseziel.\n\nDie Anreise erfolgt bequem mit dem Auto vom Stadtzentrum Hakkâri aus. Im Winter können sich die Straßenverhältnisse ändern, daher ist Vorsicht geboten. Besucher sollten gut ausgerüstet sein.\n\nDie beste Reisezeit für Skifahren ist von Dezember bis März, während der Sommer ideal für Naturaktivitäten ist.\n\nInsgesamt ist das Skizentrum Mergabütan eines der wichtigsten Ziele in Hakkâri für Wintersport und Naturtourismus."
+  },
+  "activities": {
+    "tr": [
+      "Kayak",
+      "Snowboard",
+      "Doğa yürüyüşü",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Skiing",
+      "Snowboarding",
+      "Hiking",
+      "Photography"
+    ],
+    "de": [
+      "Skifahren",
+      "Snowboarden",
+      "Wandern",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kış turizmi",
+      "doğa"
+    ],
+    "en": [
+      "winter tourism",
+      "nature"
+    ],
+    "de": [
+      "Wintertourismus",
+      "Natur"
+    ]
+  },
+  "images": [
+    "https://example.com/mergabutan_kayak_merkezi.jpg"
+  ]
+}
   ],
   "hatay": [
     {
@@ -31613,11 +31763,11 @@
       },
       "latitude": 41.95165,
       "longitude": 34.58504,
-      "description": {
-        "tr": "Sinop’un Ayancık ilçesinde bulunan bu sahil, doğal güzellikleriyle dikkat çeker. Özellikle deniz sezonunda yoğun ilgi görür.\n",
-        "en": "This beach, located in the Ayancık district of Sinop, attracts attention with its natural beauty. It is especially popular during the beach season.\n",
-        "de": "Dieser Strand, der sich im Bezirk Ayancık in Sinop befindet, fällt durch seine natürliche Schönheit auf. Besonders während der Badesaison ist er sehr beliebt.\n"
-      },
+       "description": {
+    "tr": "Ayancık Sahili, Sinop’un Ayancık ilçesinde, Karadeniz’in temiz ve sakin kıyılarından biridir. Doğal güzellikleri, geniş plajları ve berrak denizi ile yaz aylarında hem yerli hem de yabancı turistlerin ilgisini çeker.\n\nSahil boyunca yürüyüş yapmak, denize girmek veya güneşlenmek mümkündür. Özellikle yaz aylarında sahil canlı bir atmosfere kavuşur, çeşitli kafeler ve restoranlar ziyaretçilere hizmet verir.\n\nAyancık Sahili, aynı zamanda balık tutmak ve deniz sporları yapmak isteyenler için de uygundur. Bölge, doğal manzaraları ve Karadeniz’in serin sularıyla dinlenmek için ideal bir noktadır.\n\nUlaşım, Ayancık ilçe merkezinden kolayca sağlanabilir. Yakın mesafedeki köylerden ve şehir merkezlerinden sahile rahatlıkla ulaşılabilir.\n\nEn uygun ziyaret zamanı yaz aylarıdır. Bu dönemde deniz turizmi için ideal koşullar oluşur. İlkbahar ve sonbahar aylarında ise daha sakin ve huzurlu bir ziyaret mümkündür.\n\nSonuç olarak Ayancık Sahili, temiz denizi, doğal güzellikleri ve sahil aktiviteleri ile Sinop’un öne çıkan turistik destinasyonlarından biridir.",
+    "en": "Ayancik Beach, located in the Ayancik district of Sinop, is one of the clean and peaceful shores of the Black Sea. With its natural beauty, wide beaches, and clear waters, it attracts both local and international tourists during the summer.\n\nVisitors can walk along the beach, swim, or sunbathe. In the summer, the beach becomes lively with various cafes and restaurants serving guests.\n\nAyancik Beach is also suitable for fishing and water sports. The area is ideal for relaxation with its natural scenery and the cool waters of the Black Sea.\n\nAccess is easy from the Ayancik town center, and nearby villages and the city center provide convenient routes to the beach.\n\nThe best time to visit is during summer for ideal sea tourism conditions. Spring and autumn offer a quieter and more peaceful experience.\n\nOverall, Ayancik Beach is one of Sinop’s prominent tourist destinations, offering clean waters, natural beauty, and beach activities.",
+    "de": "Der Ayancık Strand befindet sich im Bezirk Ayancık von Sinop und ist eine der sauberen und ruhigen Küsten des Schwarzen Meeres. Mit seiner natürlichen Schönheit, den breiten Stränden und dem klaren Wasser zieht er im Sommer sowohl einheimische als auch internationale Touristen an.\n\nBesucher können am Strand spazieren, schwimmen oder sich sonnen. Im Sommer wird der Strand durch verschiedene Cafés und Restaurants belebt.\n\nDer Ayancık Strand eignet sich auch zum Angeln und für Wassersport. Die Gegend ist ideal zur Entspannung dank der natürlichen Landschaft und des kühlen Wassers des Schwarzen Meeres.\n\nDer Zugang ist vom Stadtzentrum Ayancık leicht möglich, und auch nahegelegene Dörfer bieten bequeme Wege zum Strand.\n\nDie beste Besuchszeit ist der Sommer für optimale Bedingungen für den Seetourismus. Frühling und Herbst bieten eine ruhigere und friedlichere Erfahrung.\n\nInsgesamt ist der Ayancık Strand eines der herausragenden Touristenziele von Sinop mit sauberem Wasser, natürlicher Schönheit und Strandaktivitäten."
+  },
       "activities": {
         "tr": [
           "Plajda dinlenmek",
@@ -31657,10 +31807,10 @@
       "latitude": 42.02979,
       "longitude": 35.14403,
       "description": {
-        "tr": "Sinop Cezaevi, Osmanlı döneminden kalma bir yapıdır. Ziyaretçilere, Sinop’un geçmişine dair önemli bilgiler sunar.\n",
-        "en": "Sinop Prison is a structure dating back to the Ottoman period. It offers visitors important information about the history of Sinop.\n",
-        "de": "Das Sinop-Gefängnis ist ein Gebäude aus der Osmanischen Zeit. Es bietet den Besuchern wichtige Informationen über die Geschichte von Sinop.\n"
-      },
+    "tr": "Sinop Cezaevi, Türkiye’nin en eski ve en ünlü tarihi cezaevlerinden biridir. 1887 yılında inşa edilen yapı, Osmanlı döneminde ve Cumhuriyetin ilk yıllarında faaliyette bulunmuş, ağır suçluların tutulduğu bir hapishane olarak ün kazanmıştır. 1997 yılında kapatılan cezaevi, günümüzde müze olarak ziyaretçilere açıktır.\n\nCezaevi, hapishane mimarisinin klasik örneklerinden biridir. Yüksek duvarlar, küçük hücreler ve merkezi avlu, ziyaretçilere geçmişteki ağır yaşam koşullarını hissettirir. Tarihi cezaevinde işlenen suçlar, mahkûmların yaşamı ve hapishane düzeni hakkında bilgilendirici sergiler bulunmaktadır.\n\nSinop Cezaevi, sadece tarih meraklıları için değil, aynı zamanda kültürel bir gezi yapmak isteyen ziyaretçiler için de cazip bir noktadır. Fotoğrafçılar için ise cezaevinin tarihi dokusu ve avluları etkileyici kareler sunar.\n\nMüze olarak ziyarete açılmasıyla birlikte rehberli turlar düzenlenmekte ve cezaevinin tarihi hakkında detaylı bilgiler verilmektedir.\n\nCezaevi, Sinop şehir merkezine oldukça yakın konumda olup, yürüyerek veya kısa bir araç yolculuğuyla ulaşılabilir.\n\nEn uygun ziyaret zamanı ilkbahar ve yaz aylarıdır. Bu dönemlerde hava daha ılımandır ve geziler daha keyifli hale gelir.\n\nSonuç olarak Sinop Cezaevi, hem tarih hem de kültürel keşif açısından Sinop’un en önemli ziyaret noktalarından biridir.",
+    "en": "Sinop Prison is one of Turkey’s oldest and most famous historical prisons. Built in 1887, it operated during the Ottoman era and the early years of the Republic, gaining a reputation as a high-security prison for serious offenders. Closed in 1997, the prison is now open to visitors as a museum.\n\nThe prison is a classic example of prison architecture, featuring high walls, small cells, and a central courtyard, giving visitors a sense of the harsh living conditions of the past. Exhibits provide informative details about the crimes committed, the lives of inmates, and the organization of the prison.\n\nSinop Prison is attractive not only to history enthusiasts but also to visitors seeking a cultural experience. For photographers, the historical architecture and courtyards provide striking visuals.\n\nGuided tours offer detailed insights into the history and operation of the prison.\n\nThe prison is conveniently located close to the city center of Sinop, accessible on foot or by a short drive.\n\nThe best time to visit is during spring and summer, when the weather is mild and visits are more enjoyable.\n\nOverall, Sinop Prison is one of the most significant visitor attractions in Sinop for both historical and cultural exploration.",
+    "de": "Das Gefängnis Sinop ist eines der ältesten und bekanntesten historischen Gefängnisse der Türkei. Es wurde 1887 erbaut und war sowohl in der osmanischen Zeit als auch in den frühen Jahren der Republik in Betrieb, bekannt als Hochsicherheitsgefängnis für Schwerverbrecher. 1997 wurde es geschlossen und ist heute als Museum für Besucher zugänglich.\n\nDas Gefängnis ist ein klassisches Beispiel für Gefängnisarchitektur mit hohen Mauern, kleinen Zellen und einem zentralen Innenhof, der den Besuchern die harten Lebensbedingungen früherer Zeiten vermittelt. Ausstellungen informieren über begangene Verbrechen, das Leben der Gefangenen und die Organisation des Gefängnisses.\n\nDas Gefängnis Sinop ist nicht nur für Geschichtsinteressierte interessant, sondern auch für Besucher, die kulturelle Erkundungen unternehmen möchten. Für Fotografen bieten die historischen Gebäude und Innenhöfe beeindruckende Motive.\n\nGeführte Touren geben detaillierte Einblicke in die Geschichte und den Betrieb des Gefängnisses.\n\nDas Gefängnis liegt in der Nähe des Stadtzentrums von Sinop und ist zu Fuß oder mit einer kurzen Fahrt erreichbar.\n\nDie beste Besuchszeit ist Frühling und Sommer, wenn das Wetter angenehm ist.\n\nInsgesamt ist das Gefängnis Sinop eine der bedeutendsten Sehenswürdigkeiten in Sinop für historische und kulturelle Entdeckungen."
+  },
       "activities": {
         "tr": [
           "Cezaevini gezmek",
@@ -32052,11 +32202,11 @@
       },
       "latitude": 40.98037,
       "longitude": 27.95578,
-      "description": {
-        "tr": "Marmara Ereğlisi, Tekirdağ'ın kıyı kasabalarından biridir. Sahil boyunca yürüyüş yapabilir veya denizin tadını çıkarabilirsiniz.\n",
-        "en": "Marmara Ereğlisi is one of the coastal towns of Tekirdağ. You can walk along the beach or enjoy the sea.\n",
-        "de": "Marmara Ereğlisi ist eine der Küstengemeinden von Tekirdağ. Sie können am Strand entlang spazieren oder das Meer genießen.\n"
-      },
+     "description": {
+    "tr": "Tekirdağ iline bağlı Marmara Ereğlisi, Marmara Denizi kıyısında yer alan sakin ve huzurlu bir sahil ilçesidir. İstanbul’a yakın konumu sayesinde özellikle yaz aylarında yoğun ilgi gören bölge, denizi, plajları ve doğal güzellikleriyle dikkat çeker.\n\nMarmara Ereğlisi, temiz plajları ve berrak denizi ile yüzme ve güneşlenme için ideal bir destinasyondur. Sahil boyunca uzanan yürüyüş yolları ve dinlenme alanları, ziyaretçilere keyifli vakit geçirme imkânı sunar. Yaz aylarında bölge, tatilcilerle canlanırken kış aylarında daha sakin bir atmosfere bürünür.\n\nBölge aynı zamanda tarihi açıdan da önemlidir. Antik dönemde Perinthos adıyla bilinen Marmara Ereğlisi, Roma ve Bizans dönemlerinde önemli bir yerleşim yeri olmuştur. Günümüzde bu dönemlere ait kalıntılar ve tarihi izler hâlâ görülebilmektedir.\n\nDeniz ürünleri açısından zengin olan Marmara Ereğlisi’nde, sahil boyunca birçok restoran ziyaretçilere taze balık ve yöresel lezzetler sunar. Bu yönüyle hem doğa hem de gastronomi turizmi açısından cazip bir noktadır.\n\nUlaşım oldukça kolaydır. İstanbul’a yaklaşık 1-1,5 saatlik mesafede yer alır ve karayolu ile rahatlıkla ulaşılabilir.\n\nEn uygun ziyaret zamanı yaz aylarıdır. Bu dönemde deniz turizmi için en elverişli koşullar oluşur. İlkbahar ve sonbahar ise daha sakin bir tatil isteyenler için idealdir.\n\nSonuç olarak Marmara Ereğlisi, deniz, tarih ve huzuru bir arada sunan, kısa kaçamaklar için ideal bir sahil destinasyonudur.",
+    "en": "Marmara Ereglisi, a coastal district of Tekirdag, is a शांत and peaceful seaside destination located on the coast of the Sea of Marmara. Due to its proximity to Istanbul, it becomes especially popular during the summer months, attracting visitors with its beaches and natural beauty.\n\nThe area is ideal for swimming and sunbathing thanks to its clean beaches and clear waters. Walking paths and recreational areas along the الساحل provide pleasant experiences for visitors. While it is lively in summer, it becomes much quieter during the winter.\n\nMarmara Ereglisi also has historical significance. Known as Perinthos in ancient times, it was an important settlement during the Roman and Byzantine periods. Remains from these eras can still be seen today.\n\nThe region is also known for its seafood. Many seaside restaurants offer fresh fish and local dishes, making it attractive for both nature and gastronomy tourism.\n\nIt is easily accessible by road and is about 1 to 1.5 hours away from Istanbul.\n\nThe best time to visit is summer for sea tourism, while spring and autumn are ideal for a quieter experience.\n\nOverall, Marmara Ereglisi is a great destination combining sea, history, and relaxation.",
+    "de": "Marmara Ereğlisi ist ein ruhiger Küstenbezirk in der Provinz Tekirdağ am Marmarameer. Aufgrund seiner Nähe zu Istanbul ist die Region besonders im Sommer ein beliebtes Reiseziel und überzeugt durch ihre Strände und natürliche Schönheit.\n\nDie sauberen Strände und das klare Wasser machen den Ort ideal zum Schwimmen und Sonnenbaden. Entlang der Küste gibt es Spazierwege und Erholungsbereiche. Im Sommer ist es lebhaft, während es im Winter ruhiger wird.\n\nHistorisch ist Marmara Ereğlisi ebenfalls bedeutend. In der Antike als Perinthos bekannt, war es ein wichtiges Zentrum in der römischen und byzantinischen Zeit. Überreste aus diesen Epochen sind noch heute sichtbar.\n\nDie Region ist auch für ihre Meeresfrüchte bekannt. Viele Restaurants bieten frischen Fisch und lokale Spezialitäten an.\n\nDie Anreise ist einfach und erfolgt bequem über die Straße, etwa 1 bis 1,5 Stunden von Istanbul entfernt.\n\nDie beste Reisezeit ist der Sommer, während Frühling und Herbst ruhigere Alternativen bieten.\n\nInsgesamt ist Marmara Ereğlisi ein ideales Ziel für einen entspannten Urlaub am Meer."
+  },
       "activities": {
         "tr": [
           "Plajda yürüyüş",
@@ -32098,10 +32248,10 @@
       "latitude": 40.31802,
       "longitude": 36.54853,
       "description": {
-        "tr": "Tokat Kalesi, şehri yüksekten görebileceğiniz tarihi bir yapıdır. Bizans ve Osmanlı dönemlerine ait kalıntılarla tarihi bir atmosfer sunar.\n",
-        "en": "Tokat Castle is a historic structure from which you can view the city from above. It offers a historical atmosphere with remnants from the Byzantine and Ottoman periods.\n",
-        "de": "Die Tokat-Burg ist eine historische Struktur, von der aus Sie die Stadt von oben sehen können. Es bietet eine historische Atmosphäre mit Überresten aus der byzantinischen und osmanischen Zeit.\n"
-      },
+    "tr": "Tokat şehir merkezinde, kayalık bir tepe üzerine inşa edilmiş olan Tokat Kalesi, şehrin en önemli tarihi yapılarından biridir. Stratejik konumu sayesinde tarih boyunca savunma amacıyla kullanılmış olan kale, Roma, Bizans, Selçuklu ve Osmanlı dönemlerinde aktif olarak kullanılmıştır.\n\nKale, sarp kayalıklar üzerine kurulu olması nedeniyle oldukça etkileyici bir görünüme sahiptir. Yüksek konumu sayesinde ziyaretçilere Tokat şehrinin panoramik manzarasını sunar. Özellikle gün batımı saatlerinde kale çevresi fotoğrafçılar için eşsiz kareler oluşturur.\n\nTokat Kalesi’nin en dikkat çekici özelliklerinden biri, içinde yer alan zindanlardır. Rivayetlere göre ünlü karakter Vlad Tepeş’in (Kazıklı Voyvoda) bir dönem burada esir tutulduğu söylenmektedir. Bu durum kaleye ayrı bir tarihî gizem katmaktadır.\n\nKale zamanla çeşitli onarımlar görmüş olsa da günümüze ulaşan kalıntılar hâlâ ihtişamını korumaktadır. Ziyaretçiler, kale surları arasında yürüyüş yaparak tarihî atmosferi yakından hissedebilir.\n\nUlaşım şehir merkezinden oldukça kolaydır. Ancak kaleye çıkış yolu yer yer dik ve zorlu olabileceği için rahat ayakkabılar tercih edilmelidir.\n\nEn uygun ziyaret zamanı ilkbahar ve sonbahar aylarıdır. Bu dönemlerde hava daha elverişli olur ve manzara daha keyifli hale gelir.\n\nSonuç olarak Tokat Kalesi, hem tarih meraklıları hem de manzara severler için Tokat’ta mutlaka görülmesi gereken önemli bir yapıdır.",
+    "en": "Tokat Castle, built on a rocky hill in the city center, is one of the most important historical structures in Tokat. Due to its strategic location, it has been used for defensive purposes throughout history and remained active during the Roman, Byzantine, Seljuk, and Ottoman periods.\n\nThe castle has an impressive appearance thanks to its construction on steep cliffs. Its elevated position offers visitors panoramic views of the city. Especially during sunset, the surroundings of the castle provide stunning opportunities for photography.\n\nOne of the most notable features of Tokat Castle is its dungeons. According to legend, Vlad the Impaler (Vlad Tepes) was once held captive here, adding a mysterious historical aspect to the site.\n\nAlthough the castle has undergone various restorations, its remaining structures still preserve their grandeur. Visitors can walk along the walls and experience the historical atmosphere.\n\nAccess from the city center is easy, but the الطريق to the castle can be steep in some areas, so comfortable shoes are recommended.\n\nThe best time to visit is during spring and autumn when the weather is more pleasant and the views are more enjoyable.\n\nOverall, Tokat Castle is a must-see landmark for history enthusiasts and those seeking scenic views in Tokat.",
+    "de": "Die Burg Tokat wurde auf einem felsigen Hügel im Stadtzentrum erbaut und ist eines der wichtigsten historischen Bauwerke der Stadt. Aufgrund ihrer strategischen Lage wurde sie im Laufe der Geschichte zu Verteidigungszwecken genutzt und war während der römischen, byzantinischen, seldschukischen und osmanischen Zeit aktiv.\n\nDie Burg beeindruckt durch ihre Lage auf steilen Felsen und bietet einen weiten Panoramablick über die Stadt Tokat. Besonders bei Sonnenuntergang ergeben sich spektakuläre Fotomotive.\n\nEin besonderes Merkmal der Burg sind ihre Verliese. Der Legende nach soll Vlad Tepes, auch bekannt als der Pfähler, hier einst gefangen gehalten worden sein, was der Burg eine geheimnisvolle Note verleiht.\n\nTrotz mehrerer Restaurierungen hat die Burg ihre historische Bedeutung und ihren Charme bewahrt. Besucher können entlang der Mauern spazieren und die Atmosphäre genießen.\n\nDie Burg ist vom Stadtzentrum aus leicht erreichbar, jedoch kann der Aufstieg stellenweise steil sein, weshalb festes Schuhwerk empfohlen wird.\n\nDie beste Reisezeit ist im Frühling und Herbst, wenn das Wetter angenehm ist.\n\nInsgesamt ist die Burg Tokat ein unverzichtbares Ziel für Geschichts- und Naturliebhaber."
+  },
       "activities": {
         "tr": [
           "Kale gezisi",
@@ -32138,38 +32288,47 @@
         "en": "Tokat Museum",
         "de": "Tokat Museum"
       },
-      "latitude": 40.31623,
-      "longitude": 36.54672,
+      "latitude": 40.316063283429344, 3
+      "longitude": 6.5467469386874,
       "description": {
-        "tr": "Tokat Müzesi, bölgenin tarihi ve kültürünü yansıtan önemli eserleri sergileyen bir müzedir. Tokat'ın geçmişi hakkında bilgi edinilebilir.\n",
-        "en": "Tokat Museum is a museum that displays important works reflecting the history and culture of the region. You can learn about the past of Tokat here.\n",
-        "de": "Das Tokat Museum ist ein Museum, das wichtige Werke zur Geschichte und Kultur der Region ausstellt. Hier können Sie mehr über die Geschichte von Tokat erfahren.\n"
-      },
-      "activities": {
-        "tr": [
-          "Müze gezisi",
-          "Tarihi eserleri keşfetme"
-        ],
-        "en": [
-          "Museum tour",
-          "Explore historical artifacts"
-        ],
-        "de": [
-          "Museumsbesuch",
-          "Historische Artefakte entdecken"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "müze"
-        ],
-        "en": [
-          "museum"
-        ],
-        "de": [
-          "Museum"
-        ]
-      },
+    "tr": "Tokat şehir merkezinde yer alan Tokat Müzesi, bölgenin zengin tarihini ve kültürel mirasını yansıtan önemli bir müzedir. Müze, Osmanlı dönemine ait tarihi bir yapı olan Gökmedrese içerisinde hizmet vermektedir. Selçuklu mimarisinin güzel örneklerinden biri olan bu yapı, müzenin atmosferine ayrı bir değer katmaktadır.\n\nMüzede, Prehistorik dönemlerden başlayarak Roma, Bizans, Selçuklu ve Osmanlı dönemlerine kadar uzanan geniş bir koleksiyon sergilenmektedir. Arkeolojik eserler, etnografik objeler, el yazmaları, takılar ve günlük yaşam eşyaları ziyaretçilere bölgenin geçmişi hakkında detaylı bilgiler sunar.\n\nÖzellikle Tokat ve çevresinde yapılan kazılardan elde edilen eserler, bölgenin tarih boyunca önemli bir yerleşim alanı olduğunu göstermektedir. Sergilenen objeler arasında taş eserler, seramikler, sikkeler ve çeşitli sanat eserleri yer alır.\n\nMüze, sadece tarih meraklıları için değil, aynı zamanda kültürel bir gezi yapmak isteyen ziyaretçiler için de ideal bir noktadır. Yapının mimarisi, avlusu ve taş işçiliği de görülmeye değerdir.\n\nTokat Müzesi’ne ulaşım oldukça kolaydır ve şehir merkezinde bulunduğu için yürüyerek dahi ziyaret edilebilir. Müze, yıl boyunca ziyaretçilere açıktır.\n\nEn uygun ziyaret zamanı yılın her dönemi olmakla birlikte, bahar ve yaz aylarında şehir gezisi ile birlikte planlanabilir.\n\nSonuç olarak Tokat Müzesi, Tokat’ın tarihini yakından tanımak ve kültürel bir yolculuğa çıkmak isteyenler için önemli bir duraktır.",
+    "en": "Tokat Museum, located in the city center of Tokat, is an important museum that reflects the rich history and cultural heritage of the region. The museum is housed in the historic Gökmedrese, an Ottoman-era structure and a fine example of Seljuk architecture, which adds a unique atmosphere to the visit.\n\nThe museum exhibits a wide collection ranging from prehistoric times to the Roman, Byzantine, Seljuk, and Ottoman periods. Archaeological artifacts, ethnographic objects, manuscripts, jewelry, and daily life items provide detailed insights into the region’s past.\n\nArtifacts discovered from excavations in and around Tokat highlight the area's significance as a historical settlement. The collection includes stone works, ceramics, coins, and various artworks.\n\nThe museum is ideal not only for history enthusiasts but also for visitors interested in cultural exploration. The architecture of the building, its courtyard, and stone craftsmanship are also worth seeing.\n\nTokat Museum is easily accessible as it is located in the city center and can even be reached on foot. It is open to visitors throughout the year.\n\nThe best time to visit is any time of the year, though it can be conveniently combined with a city tour during spring and summer.\n\nOverall, Tokat Museum is a key stop for those who want to explore the history of Tokat and enjoy a cultural journey.",
+    "de": "Das Museum Tokat befindet sich im Stadtzentrum von Tokat und ist ein bedeutendes Museum, das die reiche Geschichte und das kulturelle Erbe der Region widerspiegelt. Es ist in der historischen Gökmedrese untergebracht, einem Bauwerk aus der osmanischen Zeit und einem schönen Beispiel seldschukischer Architektur.\n\nDas Museum zeigt eine umfangreiche Sammlung von der Vorgeschichte bis zur römischen, byzantinischen, seldschukischen und osmanischen Zeit. Archäologische Funde, ethnografische Objekte, Handschriften, Schmuck und Alltagsgegenstände geben Einblicke in die Vergangenheit der Region.\n\nFunde aus Ausgrabungen in und um Tokat zeigen die historische Bedeutung der Region als Siedlungsgebiet. Zu sehen sind Steinobjekte, Keramik, Münzen und verschiedene Kunstwerke.\n\nDas Museum ist nicht nur für Geschichtsinteressierte geeignet, sondern auch für Besucher, die kulturelle Entdeckungen machen möchten. Auch die Architektur, der Innenhof und die Steinmetzarbeiten sind sehenswert.\n\nDas Museum ist leicht erreichbar, da es sich im Stadtzentrum befindet und auch zu Fuß besucht werden kann. Es ist das ganze Jahr über geöffnet.\n\nDie beste Besuchszeit ist ganzjährig, besonders in Kombination mit einer Stadterkundung im Frühling und Sommer.\n\nInsgesamt ist das Museum Tokat ein wichtiger Ort für alle, die die Geschichte der Stadt kennenlernen und eine kulturelle Reise unternehmen möchten."
+  },
+  "activities": {
+    "tr": [
+      "Kültürel gezi",
+      "Tarih keşfi",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Cultural tour",
+      "Historical exploration",
+      "Photography"
+    ],
+    "de": [
+      "Kulturelle Besichtigung",
+      "Historische Erkundung",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "müze",
+      "tarih",
+      "kültür"
+    ],
+    "en": [
+      "museum",
+      "history",
+      "culture"
+    ],
+    "de": [
+      "Museum",
+      "Geschichte",
+      "Kultur"
+    ]
+  },
       "images": [
         "https://example.com/tokat_muzesi.jpg"
       ]
@@ -32224,38 +32383,50 @@
         "en": "Almus Dam",
         "de": "Almus Staudamm"
       },
-      "latitude": 40.3767,
-      "longitude": 36.91241,
-      "description": {
-        "tr": "Almus Barajı, doğa ile iç içe vakit geçirmek isteyenler için mükemmel bir alandır. Baraj çevresinde yürüyüş yapabilir veya piknik yapabilirsiniz.\n",
-        "en": "Almus Dam is a perfect spot for those who want to spend time in nature. You can take a walk around the dam or enjoy a picnic.\n",
-        "de": "Der Almus Staudamm ist ein perfekter Ort für diejenigen, die Zeit in der Natur verbringen möchten. Sie können am Staudamm spazieren gehen oder ein Picknick machen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Yürüyüş yapma",
-          "Piknik yapma"
-        ],
-        "en": [
-          "Walking",
-          "Picnicking"
-        ],
-        "de": [
-          "Spazieren gehen",
-          "Picknick machen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
+      "latitude": 40.374858389942524, 
+      "longitude": 36.912983129016375,
+     "description": {
+    "tr": "Tokat ilinde yer alan Almus Barajı, Yeşilırmak Nehri üzerinde kurulmuş olup bölgenin en önemli su kaynaklarından biridir. 1960’lı yıllarda inşa edilen baraj, hem sulama hem de enerji üretimi amacıyla kullanılmaktadır. Geniş göl alanı ve çevresindeki doğal güzellikler sayesinde aynı zamanda önemli bir rekreasyon alanı haline gelmiştir.\n\nBaraj gölü çevresi, doğa ile iç içe vakit geçirmek isteyen ziyaretçiler için ideal bir ortam sunar. Özellikle yaz aylarında serin havası ve manzarasıyla piknik, yürüyüş ve kamp aktiviteleri için tercih edilir. Göl çevresinde bulunan yeşil alanlar, aileler ve doğa severler için huzurlu bir atmosfer sağlar.\n\nAlmus Barajı aynı zamanda balıkçılık açısından da oldukça zengindir. Sazan, yayın ve diğer tatlı su balıkları bölgede yaygın olarak bulunur. Bu nedenle amatör balıkçılar için cazip bir noktadır.\n\nFotoğrafçılar için gün doğumu ve gün batımı saatlerinde göl üzerinde oluşan yansımalar etkileyici görüntüler sunar. Doğal manzaralar ve suyun sakinliği, ziyaretçilere dinlendirici bir deneyim yaşatır.\n\nUlaşım Tokat şehir merkezinden Almus ilçesi üzerinden sağlanır ve yol oldukça rahattır. Ziyaretçiler özel araçlarıyla kolayca ulaşabilir.\n\nEn uygun ziyaret zamanı ilkbahar ve yaz aylarıdır. Bu dönemlerde hava daha ılıman olur ve doğa en canlı halini alır. Sonbahar da renkli manzaralarıyla dikkat çeker.\n\nSonuç olarak Almus Barajı, doğa ile baş başa kalmak, dinlenmek ve çeşitli açık hava aktiviteleri yapmak isteyenler için Tokat’ın önemli turistik noktalarından biridir.",
+    "en": "Almus Dam, located in Tokat province, is built on the Yeşilırmak River and is one of the region’s most important water resources. Constructed in the 1960s, the dam is used for both irrigation and energy production. With its large reservoir and surrounding natural beauty, it has also become a popular recreational area.\n\nThe area around the dam lake offers an ideal setting for visitors who want to spend time in nature. Especially during summer, it is preferred for picnicking, walking, and camping due to its cool atmosphere and scenic views. The green surroundings provide a peaceful environment for families and nature lovers.\n\nAlmus Dam is also rich in fish diversity. Carp, catfish, and other freshwater species are commonly found, making it attractive for amateur fishing.\n\nFor photographers, the reflections on the lake during sunrise and sunset create stunning visuals. The calm water and natural scenery offer a relaxing experience.\n\nAccess is easy via Almus district from Tokat city center, and visitors can comfortably reach the area by private vehicle.\n\nThe best time to visit is spring and summer when the weather is mild and nature is vibrant. Autumn is also appealing with its colorful landscapes.\n\nOverall, Almus Dam is one of Tokat’s key tourist spots for relaxation and outdoor activities.",
+    "de": "Der Almus-Staudamm in der Provinz Tokat wurde am Fluss Yeşilırmak errichtet und ist eine der wichtigsten Wasserressourcen der Region. Der in den 1960er Jahren gebaute Damm dient sowohl der Bewässerung als auch der Energieerzeugung. Mit seinem großen Stausee und der umliegenden Natur ist er auch ein beliebtes Erholungsgebiet.\n\nDie Umgebung des Stausees bietet ideale Bedingungen für Besucher, die Zeit in der Natur verbringen möchten. Besonders im Sommer wird das Gebiet aufgrund seiner kühlen Luft und schönen Aussicht für Picknicks, Spaziergänge und Camping genutzt. Die grünen Flächen schaffen eine ruhige Atmosphäre.\n\nDer Almus-Staudamm ist auch reich an Fischarten wie Karpfen und Welsen, was ihn für Hobbyangler attraktiv macht.\n\nFür Fotografen bieten Sonnenauf- und -untergänge mit Spiegelungen auf dem Wasser beeindruckende Motive. Die ruhige Umgebung sorgt für Entspannung.\n\nDie Anreise erfolgt bequem über den Bezirk Almus vom Stadtzentrum Tokat aus.\n\nDie beste Reisezeit ist im Frühling und Sommer, wenn das Wetter angenehm ist. Auch der Herbst bietet schöne Landschaften.\n\nInsgesamt ist der Almus-Staudamm ein wichtiges Reiseziel in Tokat für Erholung und Outdoor-Aktivitäten."
+  },
+  "activities": {
+    "tr": [
+      "Piknik",
+      "Balıkçılık",
+      "Doğa yürüyüşü",
+      "Kamp",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Picnicking",
+      "Fishing",
+      "Hiking",
+      "Camping",
+      "Photography"
+    ],
+    "de": [
+      "Picknick",
+      "Angeln",
+      "Wandern",
+      "Camping",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğa",
+      "baraj"
+    ],
+    "en": [
+      "nature",
+      "dam"
+    ],
+    "de": [
+      "Natur",
+      "Staudamm"
+    ]
+  },
       "images": [
         "https://example.com/almus_baraji.jpg"
       ]
