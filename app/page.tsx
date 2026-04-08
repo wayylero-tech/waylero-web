@@ -66,7 +66,7 @@ export default function HomePage() {
     { title: "Etkinlikler", image: "/assets/genel/aktiviteler.webp", route: "/aktiviteler" },
     { title: "Keşfet", image: "/assets/genel/kesfet.webp", route: "/kesfet" },
     { title: "Harita", image: "/assets/genel/harita.webp", url: "https://www.google.com/maps" },
-    { title: "Blog", image: "/assets/genel/tinaztepe.png", route: "/blog" },
+    { title: "Blog", image: "/assets/genel/tinaztepe.webp", route: "/blog" },
   ];
 
   const videos = addSlugs(wayleroLiveVideos);
