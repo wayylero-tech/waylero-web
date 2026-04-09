@@ -108,26 +108,32 @@ export default function HomePage() {
         {/* VİDEOLAR */}
 <section className="mt-12 mb-8">
   
-  {/* HEADER */}
+  {/* HEADER - Tümünü Gör Buraya Eklendi */}
   <div className="flex items-center justify-between mb-6">
     <h2 className="text-lg md:text-xl font-bold">
       {lang === "tr" ? "Videolar" : "Videos"}
     </h2>
+    <Link 
+      href={getLocalizedLink("/videolar")} 
+      className="text-sm font-semibold text-blue-600 hover:text-red-700 transition flex items-center gap-1"
+    >
+      {lang === "tr" ? "Tümünü Gör  →" : "See All  →"}
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="9 5l7 7-7 7" />
+      </svg>
+    </Link>
   </div>
 
-  {/* GRID SİSTEMİ (FIX) */}
+  {/* GRID SİSTEMİ */}
   <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
     {videos.slice(0, 4).map((video) => (
-      
       <div
         key={video.id}
         onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
         className="cursor-pointer group"
       >
-
         {/* VIDEO CARD */}
         <div className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-md">
-
           <Image
             src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
             alt={video.title}
@@ -141,7 +147,6 @@ export default function HomePage() {
           {/* 🔥 PLAY BUTTON */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:bg-red-600 group-hover:border-red-600 transition">
-              
               <svg
                 className="w-6 h-6 text-white translate-x-[2px]"
                 fill="currentColor"
@@ -149,17 +154,14 @@ export default function HomePage() {
               >
                 <path d="M7 6v12l10-6z" />
               </svg>
-
             </div>
           </div>
-
         </div>
 
         {/* TEXT */}
         <p className="text-sm mt-2 font-semibold line-clamp-2 group-hover:text-red-600 transition">
           {video.title}
         </p>
-
       </div>
     ))}
   </div>
