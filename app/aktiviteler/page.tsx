@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { cookies } from "next/headers";
 import ActivityList from './ActivityList';
 
 const cityMap: { [key: string]: number } = {
@@ -18,14 +19,34 @@ const cityMap: { [key: string]: number } = {
 
 export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
   const params = await searchParams;
-  const cityParam = params.city;
-  const cityName = cityParam ? decodeURIComponent(cityParam).replace(/-/g, " ").toLocaleUpperCase("tr-TR") : "TÜRKİYE GENELİ";
+  const cookieStore = await cookies();
+  const lang = cookieStore.get("lang")?.value || "tr";
   
+  const cityParam = params.city;
+  const cityName = cityParam ? decodeURIComponent(cityParam).replace(/-/g, " ").toLocaleUpperCase("tr-TR") : (lang === "tr" ? "TÜRKİYE GENELİ" : "ALL TURKEY");
+
+  const metaData = {
+    tr: {
+      title: cityName === "TÜRKİYE GENELİ" ? "Türkiye’de Tüm Konserler | Waylero" : `${cityName}’daki Etkinlikler ve Konserler | Waylero`,
+      description: `${cityName} şehrindeki en güncel konserler, festivaller ve etkinlikler Waylero'da. Güvenli biletinizi hemen alın.`
+    },
+    en: {
+      title: cityName === "ALL TURKEY" ? "All Concerts in Turkey | Waylero" : `Events and Concerts in ${cityName} | Waylero`,
+      description: `The most up-to-date concerts, festivals, and events in ${cityName} on Waylero. Buy your secure ticket now.`
+    }
+  }[lang as "tr" | "en"] || { title: "Waylero Events", description: "Explore events." };
+
   return {
-    title: cityName === "TÜRKİYE GENELİ" ? "Türkiye’de Tüm Konserler | Waylero" : `${cityName}’daki Etkinlikler ve Konserler | Waylero`,
-    description: `${cityName} şehrindeki en güncel konserler, festivaller ve etkinlikler Waylero'da. Güvenli biletinizi hemen alın.`,
+    title: metaData.title,
+    description: metaData.description,
     alternates: {
-      canonical: `https://www.waylero.com/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
+      canonical: lang === "en" 
+        ? `https://www.waylero.com/en/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`
+        : `https://www.waylero.com/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
+      languages: {
+        "tr-TR": `https://www.waylero.com/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
+        "en-US": `https://www.waylero.com/en/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
+      }
     }
   };
 }
@@ -43,7 +64,9 @@ export default async function ActivitiesPage({ searchParams }: any) {
     if (cityId) apiParams.append("city_ids", cityId.toString());
     else if (citySlug) apiParams.append("q", decodedSlug);
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/api/events?${apiParams.toString()}`, { cache: 'no-store' });
+    // Sunucu tarafında istek atarken baseUrl kullanmak daha güvenlidir
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+    const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, { cache: 'no-store' });
     const data = await res.json();
     initialEvents = data.items || (Array.isArray(data) ? data : []);
   } catch (error) {
