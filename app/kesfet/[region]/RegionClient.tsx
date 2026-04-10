@@ -78,10 +78,23 @@ const slugify = (text: string) => {
   return text.toString().replace(/[çğışüöÇĞİŞÜÖ]/g, (m) => trMap[m]).toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "").replace(/--+/g, "-");
 };
 
-export default function RegionClient({ region }: { region: string }) {
-  const { lang } = useLang();
+
+// 1. Props interface'ini buraya ekle (TypeScript için)
+interface RegionClientProps {
+  region: string;
+  lang: string; // 👈 Server'dan gelecek olan dil
+}
+
+// 2. Fonksiyonu bu props'u alacak şekilde güncelle
+export default function RegionClient({ region, lang: propLang }: RegionClientProps) {
+  // Mevcut useLang context'ini de yedek olarak tutabilirsin
+  const { lang: contextLang } = useLang();
+  
+  // Hangisi doluysa onu kullan (Server prop'u öncelikli)
+  const lang = propLang || contextLang || "tr";
   
   const isCountry = !!countryToRegionMap[region];
+  // ... (Geri kalan kodun aynı devam ediyor)
   const targetRegion = isCountry ? countryToRegionMap[region] : region;
   
   const allData: any = { turkey, europa, asia };
