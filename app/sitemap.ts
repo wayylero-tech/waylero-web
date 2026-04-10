@@ -11,12 +11,45 @@ import cities from "@/app/data/cities.json";
 import { wayleroLiveVideos, addSlugs } from "@/videos"; // 🎥 Videolar eklendi
 
 // Bloglar
-import { konyaPosts } from "@/app/data/blog/konya/posts";
-import { konyaPosts2 } from "@/app/data/blog/konya/posts2";
-import { istanbulPosts } from "@/app/data/blog/istanbul/posts";
 import { generalPosts } from "@/app/data/blog/muzekart/posts";
 import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
 import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
+import { konyaPosts } from "../data/blog/konya/posts";
+import { istanbulPosts } from "../data/blog/istanbul/posts";
+import { konyaPosts2 } from "../data/blog/konya/posts2";
+import { konyaRehberPost } from "../data/blog/konya/posts3";
+import { selalelerRehberPost } from "../data/blog/selale/posts";
+import { magaralarRehberPost } from "../data/blog/magaralar/posts";
+import { turkeyPost } from "../data/blog/turkey/posts";
+import { kanyonlarRehberPosts } from "../data/blog/kanyonlar/posts";
+import { mersinRehberPosts } from "../data/blog/mersin/posts";
+import { turkiyeEnCokZiyaretEdilen10YerPost } from "../data/blog/ziyaretedilenonyer/posts";
+import { antalyaRehberPost } from "../data/blog/antalya/posts";
+import { trekkingPosts } from "../data/blog/likya/posts";
+import { istanbulRehberPosts } from "../data/blog/istanbul/post";
+import { antalyaPosts2 } from "../data/blog/antalya/posts2";
+import { ispanyaRehberPosts } from "../data/blog/ispanya/posts";
+import { spainPosts } from "../data/blog/ispanya/posts2";
+import { nevsehirRehberPosts } from "../data/blog/nevsehir/posts";
+import { cappadociaPosts } from "../data/blog/nevsehir/cappadociaPosts";
+import { turkeyPostsAkdeniz } from "../data/blog/turkey/postsakdeniz";
+import { turkeyPostEge } from "../data/blog/turkey/postsege";
+import { turkeyPostMarmara } from "../data/blog/turkey/postsmarmara";
+import { turkeyPostIcAnadolu } from "../data/blog/turkey/postsicanadolu";
+import { turkeyPostKaradeniz } from "../data/blog/turkey/postkaradeniz";
+import { turkeyPostDoguAnadolu } from "../data/blog/turkey/psostsdoguanadolu";
+import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
+
+// 🌍 Dil ayarları
+const locales = ["tr", "en"];
+const defaultLocale = "tr";
+
+// 🌍 URL builder
+const buildUrl = (baseUrl: string, path: string, locale: string) => {
+  if (locale === defaultLocale) return `${baseUrl}${path}`;
+  return `${baseUrl}/${locale}${path}`;
+};
+
 
 // --- Şehir-Ülke Eşleşme Haritası ---
 const cityToCountryMap: Record<string, string> = {
@@ -93,71 +126,139 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.waylero.com";
   const now = new Date();
 
-  const sanitize = (str: string) => str.toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/ /g, '')
-    .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c');
+  const sanitize = (str: string) =>
+    str
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/ /g, "")
+      .replace(/ı/g, "i")
+      .replace(/ğ/g, "g")
+      .replace(/ü/g, "u")
+      .replace(/ş/g, "s")
+      .replace(/ö/g, "o")
+      .replace(/ç/g, "c");
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
-  // --- 1. Statik Sayfalar ---
+  // --- 1. Statik ---
   const staticPages = [
     { url: "", priority: 1.0 },
-    { url: "/kesfet", priority: 0.95 }, // Ana Keşfet Kapısı
+    { url: "/kesfet", priority: 0.95 },
     { url: "/aktiviteler", priority: 0.9 },
     { url: "/videolar", priority: 0.9 },
   ];
 
-  staticPages.forEach(page => {
-    sitemapEntries.push({ url: `${baseUrl}${page.url}`, lastModified: now, priority: page.priority });
-  });
-
-  // --- 2. Ülke Keşfet Sayfaları (Yeni) ---
-  countries.forEach(country => {
-    sitemapEntries.push({
-      url: `${baseUrl}/kesfet/${country}`,
-      lastModified: now,
-      priority: 0.85
-    });
-  });
-
-  // --- 3. Videolar (Waylero Live) ---
-  const videosWithSlugs = addSlugs(wayleroLiveVideos);
-  videosWithSlugs.forEach(video => {
-    sitemapEntries.push({ url: `${baseUrl}/videolar/${video.slug}`, lastModified: now, priority: 0.8 });
-  });
-
-  // --- 4. Aktiviteler (Şehir Bazlı) ---
-  activityCities.forEach(city => {
-    sitemapEntries.push({ url: `${baseUrl}/aktiviteler?city=${city}`, lastModified: now, priority: 0.7 });
-  });
-
-  // --- 5. Gezi Yerleri (Mekan Detay) ---
-  const regions: any = { turkey, europa, asia };
-  Object.entries(regions).forEach(([regionKey, regionData]: [string, any]) => {
-    Object.entries(regionData).forEach(([cityName, places]: [string, any]) => {
-      const cleanCity = sanitize(cityName);
-      let finalCountry = regionKey === "turkey" ? "turkiye" : (cityToCountryMap[cleanCity] || regionKey);
-
-      places.forEach((place: any) => {
-        const path = `/kesfet/${finalCountry}/${cleanCity}/${place.slug}`;
-        sitemapEntries.push({ url: `${baseUrl}${path}`, lastModified: now, priority: 0.7 });
+  staticPages.forEach((page) => {
+    locales.forEach((locale) => {
+      sitemapEntries.push({
+        url: buildUrl(baseUrl, page.url, locale),
+        lastModified: now,
+        priority: page.priority,
       });
     });
   });
 
-  // --- 6. Şehir Özet Sayfaları ---
-  cities.forEach((city: any) => {
-    const cityPath = `/${sanitize(city.slug)}`;
-    sitemapEntries.push({ url: `${baseUrl}${cityPath}`, lastModified: now, priority: 0.8 });
+  // --- 2. Ülkeler ---
+  countries.forEach((country) => {
+    locales.forEach((locale) => {
+      sitemapEntries.push({
+        url: buildUrl(baseUrl, `/kesfet/${country}`, locale),
+        lastModified: now,
+        priority: 0.85,
+      });
+    });
   });
 
-  // --- 7. Blog Yazıları ---
-  const allPosts = [...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts, ...konyaPosts2, ...istanbulPosts];
+  // --- 3. Videolar ---
+  const videosWithSlugs = addSlugs(wayleroLiveVideos);
+
+  videosWithSlugs.forEach((video) => {
+    locales.forEach((locale) => {
+      sitemapEntries.push({
+        url: buildUrl(baseUrl, `/videolar/${video.slug}`, locale),
+        lastModified: now,
+        priority: 0.8,
+      });
+    });
+  });
+
+  // --- 4. Aktiviteler ---
+  activityCities.forEach((city) => {
+    locales.forEach((locale) => {
+      sitemapEntries.push({
+        url: buildUrl(baseUrl, `/aktiviteler?city=${city}`, locale),
+        lastModified: now,
+        priority: 0.7,
+      });
+    });
+  });
+
+  // --- 5. Mekanlar ---
+  const regions: any = { turkey, europa, asia };
+
+  Object.entries(regions).forEach(([regionKey, regionData]: any) => {
+    Object.entries(regionData).forEach(([cityName, places]: any) => {
+      const cleanCity = sanitize(cityName);
+
+      const finalCountry =
+        regionKey === "turkey"
+          ? "turkiye"
+          : cityToCountryMap[cleanCity] || regionKey;
+
+      places.forEach((place: any) => {
+        locales.forEach((locale) => {
+          const path = `/kesfet/${finalCountry}/${cleanCity}/${place.slug}`;
+
+          sitemapEntries.push({
+            url: buildUrl(baseUrl, path, locale),
+            lastModified: now,
+            priority: 0.7,
+          });
+        });
+      });
+    });
+  });
+
+  // --- 6. Şehir sayfaları ---
+  cities.forEach((city: any) => {
+  locales.forEach((locale) => {
+
+    const countrySlug = city.country.toLowerCase().replace(/ /g, "-");
+    const citySlug = sanitize(city.slug);
+
+    const path = `/${countrySlug}/${citySlug}`;
+
+    sitemapEntries.push({
+      url: buildUrl(baseUrl, path, locale),
+      lastModified: now,
+      priority: 0.8,
+    });
+
+  });
+});
+
+  // --- 7. Blog ---
+  const allPosts = [
+    ...generalPosts,
+    ...uygulamaPosts,
+    ...antikkentPosts,
+    ...konyaPosts,
+    ...konyaPosts2,
+    ...istanbulPosts,
+  ];
+
   allPosts.forEach((post: any) => {
-    const blogPath = `/blog/${sanitize(post.city)}/${post.slug}`;
-    const postDate = new Date(post.updatedAt ?? post.createdAt ?? now);
-    sitemapEntries.push({ url: `${baseUrl}${blogPath}`, lastModified: postDate, priority: 0.6 });
+    locales.forEach((locale) => {
+      const blogPath = `/blog/${sanitize(post.city)}/${post.slug}`;
+      const postDate = new Date(post.updatedAt ?? post.createdAt ?? now);
+
+      sitemapEntries.push({
+        url: buildUrl(baseUrl, blogPath, locale),
+        lastModified: postDate,
+        priority: 0.6,
+      });
+    });
   });
 
   return sitemapEntries;
