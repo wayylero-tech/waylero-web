@@ -24,29 +24,23 @@ export const metadata: Metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const headerList = await headers();
 
-  // 🔥 Dil belirleme
+  // 1. Middleware'den gelen header (En güvenlisi)
   const middlewareLang = headerList.get("x-url-lang");
-  const referer = headerList.get("referer") || "";
-  const pathname = headerList.get("x-invoke-path") || "";
+  
+  // 2. Eğer o yoksa pathname'i yakalamaya çalış (Header üzerinden)
+  // Next.js bazen x-url veya x-pathname gibi headerlar gönderir
+  const currentPath = headerList.get("x-url") || ""; 
 
-  const isEn = 
-    middlewareLang === "en" || 
-    pathname.startsWith("/en") || 
-    referer.includes("/en/");
-
-  const displayLang = isEn ? "en" : "tr";
+  // Dil tespiti
+  let displayLang = "tr"; // Default
+  if (middlewareLang === "en") {
+    displayLang = "en";
+  } else if (currentPath.includes("/en/")) {
+    displayLang = "en";
+  }
 
   return (
-    <html lang={displayLang}>
-      {/* 
-        🔥 Tailwind sınıfları ile:
-        bg-white → light mode arka plan
-        dark:bg-gray-900 → dark mode arka plan
-        text-gray-900 → light mode yazı rengi
-        dark:text-white → dark mode yazı rengi
-        min-h-screen → tüm sayfa yüksekliği
-        antialiased → font yumuşatma
-      */}
+    <html lang={displayLang}> {/* Artık burası dinamik ve daha sağlam */}
       <body className={`
         ${geistSans.variable} 
         ${geistMono.variable} 

@@ -61,23 +61,27 @@ export function middleware(request: NextRequest) {
   // 🌐 DİL TESPİT
   const isEn = pathname.startsWith('/en/');
   const requestHeaders = new Headers(request.headers);
+  
+  // Layout.tsx'te kullandığımız header'ları burada set ediyoruz
   requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
+  requestHeaders.set('x-url', request.url);
 
   const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
 
+  // Cookie yönetimi
   if (isEn) {
     response.cookies.set('lang', 'en', { path: '/' });
+  } else {
+    response.cookies.set('lang', 'tr', { path: '/' });
   }
 
   const parts = pathname.split('/');
-
-  // 🔥 OFFSET (EN varsa index kayıyor)
   const offset = isEn ? 1 : 0;
 
   // =========================
-  // ✅ 1. MEKAN SAYFASI FIX
+  // ✅ 1. MEKAN SAYFASI FIX (/kesfet/bölge/şehir/mekan)
   // =========================
   if (
     pathname.includes('/kesfet/') &&
@@ -85,29 +89,27 @@ export function middleware(request: NextRequest) {
   ) {
     const regionOrCountry = parts[2 + offset];
     const cityInUrl = sanitize(parts[3 + offset]);
-
     const targetCountry = cityToCountryMap[cityInUrl];
 
     if (targetCountry && targetCountry !== regionOrCountry) {
       const slug = parts.slice(4 + offset).join('/');
-
       let newPath = isEn
         ? `/en/kesfet/${targetCountry}/${parts[3 + offset]}`
         : `/kesfet/${targetCountry}/${parts[3 + offset]}`;
 
       if (slug) newPath += `/${slug}`;
-
       return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
     }
   }
 
   // =========================
-  // ✅ 2. ŞEHİR SAYFASI FIX
+  // ✅ 2. ŞEHİR SAYFASI FIX (Direkt /şehir yazılırsa /ülke/şehir'e atar)
   // =========================
   if (
     parts.length === (2 + offset) &&
     !pathname.includes('/kesfet/') &&
     pathname !== '/' &&
+    pathname !== '/en' &&
     !pathname.includes('.')
   ) {
     const cityInUrl = sanitize(parts[1 + offset]);
@@ -120,8 +122,22 @@ export function middleware(request: NextRequest) {
 
       return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
     }
-  
+  }
 
   return response;
 }
-}
+
+// Statik dosyaları middleware dışında tutmak için config eklemelisin
+export const config = {
+  matcher: [
+    /*
+     * Aşağıdaki haricindeki tüm path'lerde middleware çalışsın:
+     * - api (API route'ları)
+     * - _next/static (statik dosyalar)
+     * - _next/image (resim optimizasyon dosyaları)
+     * - favicon.ico (ikon dosyası)
+     * - resim/video gibi uzantılar
+     */
+    '/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)',
+  ],
+};

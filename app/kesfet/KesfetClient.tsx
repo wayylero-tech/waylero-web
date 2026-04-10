@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useLang } from "../context/LanguageContext";
 import { cleanSearchQuery, fuzzyMatch, normalizeText } from "@/lib/search";
 
+
 // Veri importları
 import turkey from "../data/turkey.json";
 import europa from "../data/europa.json";
@@ -108,9 +109,23 @@ const PlaceCard = memo(({ place, cityKey, region, lang, allImages, getLocalizedL
 
 PlaceCard.displayName = "PlaceCard";
 
-export default function KesfetClient({ initialQuery }: { initialQuery: string }) {
-  const { lang } = useLang();
+// 1. Props interface'ini ekliyoruz ki TypeScript kızmasın
+interface KesfetClientProps {
+  initialQuery: string;
+  lang: string; // 👈 Burası kritik
+}
+
+// 2. Fonksiyonu bu props'u alacak şekilde güncelliyoruz
+export default function KesfetClient({ initialQuery, lang: propLang }: KesfetClientProps) {
+  // Senin mevcut useLang() hook'un context'ten alıyor, 
+  // ama server'dan gelen lang değerini kullanmak SEO için daha tutarlı olur.
+  const { lang: contextLang } = useLang(); 
+  
+  // Eğer propLang varsa onu kullan, yoksa context'tekine bak
+  const lang = propLang || contextLang || "tr";
+
   const [submittedSearch, setSubmittedSearch] = useState(initialQuery);
+  // ... (Geri kalan tüm kodun aynı kalabilir)
 
   const allData = useMemo(() => ({ turkey, europa, asia }), []);
   const allImages = useMemo(() => ({ turkey: turkeyImages, europa: europaImages, asia: asiaImages }), []);

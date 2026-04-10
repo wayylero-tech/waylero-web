@@ -17,11 +17,21 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
 };
 
 // 🌍 country check (region vs country ayrımı için)
-const countryToRegionMap: Record<string, string> = { turkiye: "turkey", fransa: "europa", almanya: "europa", italya: "europa", kktc: "europa", ispanya: "europa", ingiltere: "europa", hollanda: "europa", avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa", portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia", isvec: "europa", norvec: "europa", isvicre: "europa", endonezya: "europa", irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa", cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "asia", filipinler: "europa", japonya: "asia", "sri-lanka": "asia", singapur: "europa", amerika: "europa", umman: "europa", "suudi-arabistan": "europa", misir: "europa", belarus: "europa" };
+const countryToRegionMap: Record<string, string> = {
+  turkiye: "turkey", fransa: "europa", almanya: "europa", italya: "europa", kktc: "europa",
+  ispanya: "europa", ingiltere: "europa", hollanda: "europa", 
+  avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa",
+  portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia",
+  isvec: "europa", norvec: "europa", isvicre: "europa", endonezya: "europa", 
+  irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
+  gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
+  cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "europa", filipinler: "europa", 
+  japonya: "asia", "sri-lanka": "asia", singapur: "europa", amerika: "europa", umman: "europa", 
+  "suudi-arabistan": "europa", misir: "europa", belarus: "europa"
+};
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region } = await params;
-
   const cookieStore = await cookies();
   const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 
@@ -53,23 +63,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   }[lang];
 
-  // 🌍 URL path
   const path = `/kesfet/${region}`;
-
-  // 🔥 CANONICAL (COOKIE BAĞIMLI DEĞİL - SEO SAFE)
-  const canonical =
-    lang === "tr"
-      ? `${baseUrl}${path}`
-      : `${baseUrl}/en${path}`;
-
-  // 🖼 OG IMAGE SAFE
+  const canonical = lang === "tr" ? `${baseUrl}${path}` : `${baseUrl}/en${path}`;
   const ogImage = `${baseUrl}/assets/seo/${region}.jpg`;
-  const fallbackImage = `${baseUrl}/assets/seo/default.jpg`;
 
   return {
     title: `${texts.title} | Waylero`,
     description: texts.desc,
-
     alternates: {
       canonical,
       languages: {
@@ -78,14 +78,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "x-default": `${baseUrl}${path}`,
       },
     },
-
     openGraph: {
       title: texts.title,
       description: texts.desc,
       url: canonical,
-      images: [ogImage], // fallback backend’e bırakıldı
+      images: [ogImage],
     },
-
     twitter: {
       card: "summary_large_image",
       title: texts.title,
@@ -95,8 +93,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// ✅ ANA SAYFA FONKSİYONU
 export default async function Page({ params }: Props) {
   const resolvedParams = await params;
+  
+  // Dil bilgisini cookie'den çekip Client Component'e paslıyoruz
+  const cookieStore = await cookies();
+  const lang = cookieStore.get("lang")?.value || "tr";
 
-  return <RegionClient region={resolvedParams.region} />;
+  return <RegionClient region={resolvedParams.region} lang={lang} />;
 }
