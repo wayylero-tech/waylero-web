@@ -1,7 +1,5 @@
-"use client";
-
-import Link from "next/link";
-import { useLang } from "@/app/context/LanguageContext";
+import { cookies } from "next/headers";
+import BlogClient from "./BlogClient"; // BlogClient dosyanın ismiyle aynı olmalı
 
 // Veri importları
 import { generalPosts } from "@/app/data/blog/muzekart/posts";
@@ -33,7 +31,7 @@ import { turkeyPostKaradeniz } from "../data/blog/turkey/postkaradeniz";
 import { turkeyPostDoguAnadolu } from "../data/blog/turkey/psostsdoguanadolu";
 import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
 
-const posts = [
+const allPosts = [
   ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
   ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
   ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts, ...mersinRehberPosts,
@@ -44,66 +42,36 @@ const posts = [
   ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, 
 ];
 
-export default function BlogPage() {
-  const { lang } = useLang() as { lang: "tr" | "en" };
+export async function generateMetadata() {
+  const cookieStore = await cookies();
+  const lang = cookieStore.get("lang")?.value || "tr";
 
-  // URL yöneticisi
-  const getLocalizedLink = (path: string) => {
-    if (lang === "tr") return path;
-    const cleanPath = path.startsWith("/") ? path : `/${path}`;
-    return `/${lang}${cleanPath}`;
+  const metaMap = {
+    tr: {
+      title: "Seyahat Rehberi | Gezi Notları ve İpuçları - Waylero",
+      description: "Türkiye ve dünyadan en güncel seyahat rehberleri, antik kentler ve gezi ipuçları Waylero Blog'da."
+    },
+    en: {
+      title: "Travel Guide | Travel Notes and Tips - Waylero",
+      description: "The most up-to-date travel guides, ancient cities, and travel tips from Turkey and the world on Waylero Blog."
+    }
   };
 
-  // Başlık sözlüğü
-  const t =
-    {
-      tr: "Seyahat Rehberi ✍️",
-      en: "Travel Guide ✍️"
-    }[lang] || "Travel Guide ✍️";
+  const currentMeta = metaMap[lang as "tr" | "en"] || metaMap.tr;
 
-  return (
-    <main className="max-w-6xl mx-auto py-10 px-4">
-      <h1 className="text-3xl font-bold mb-8">{t}</h1>
+  return {
+    title: currentMeta.title,
+    description: currentMeta.description,
+    alternates: {
+      canonical: lang === "en" ? "https://www.waylero.com/en/blog" : "https://www.waylero.com/blog",
+      languages: {
+        "tr-TR": "https://www.waylero.com/blog",
+        "en-US": "https://www.waylero.com/en/blog",
+      },
+    },
+  };
+}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {posts.map((post, i) => {
-          const rawHref = `/blog/${post.city}/${post.slug}`;
-          const localizedHref = getLocalizedLink(rawHref);
-
-          const displayTitle =
-            typeof post.title === "object"
-              ? post.title[lang as keyof typeof post.title] || post.title["tr"]
-              : post.title;
-
-          const displayExcerpt =
-            typeof post.excerpt === "object"
-              ? post.excerpt[lang as keyof typeof post.excerpt] || post.excerpt["tr"]
-              : post.excerpt;
-
-          return (
-            <Link
-              key={`${post.slug}-${i}`}
-              href={localizedHref}
-              className="group w-full h-80 rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100"
-            >
-              <div
-                className="h-44 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                style={{ backgroundImage: `url(${post.image})` }}
-              />
-
-              <div className="p-4">
-                <h3 className="font-bold text-gray-900 text-sm line-clamp-2 group-hover:text-blue-600 transition-colors">
-                  {displayTitle}
-                </h3>
-
-                <p className="text-xs text-gray-500 mt-2 line-clamp-2 leading-relaxed">
-                  {displayExcerpt}
-                </p>
-              </div>
-            </Link>
-          );
-        })}
-      </div>
-    </main>
-  );
+export default function Page() {
+  return <BlogClient posts={allPosts} />;
 }
