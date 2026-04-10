@@ -20,10 +20,12 @@ const cityMap: { [key: string]: number } = {
 export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
   const params = await searchParams;
   const cookieStore = await cookies();
-  const lang = cookieStore.get("lang")?.value || "tr";
+  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
   
   const cityParam = params.city;
-  const cityName = cityParam ? decodeURIComponent(cityParam).replace(/-/g, " ").toLocaleUpperCase("tr-TR") : (lang === "tr" ? "TÜRKİYE GENELİ" : "ALL TURKEY");
+  const cityName = cityParam 
+    ? decodeURIComponent(cityParam).replace(/-/g, " ").toLocaleUpperCase("tr-TR") 
+    : (lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY");
 
   const metaData = {
     tr: {
@@ -31,10 +33,10 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
       description: `${cityName} şehrindeki en güncel konserler, festivaller ve etkinlikler Waylero'da. Güvenli biletinizi hemen alın.`
     },
     en: {
-      title: cityName === "ALL TURKEY" ? "All Concerts in Turkey | Waylero" : `Events and Concerts in ${cityName} | Waylero`,
+      title: cityName === "ALL OVER TURKEY" ? "All Concerts in Turkey | Waylero" : `Events and Concerts in ${cityName} | Waylero`,
       description: `The most up-to-date concerts, festivals, and events in ${cityName} on Waylero. Buy your secure ticket now.`
     }
-  }[lang as "tr" | "en"] || { title: "Waylero Events", description: "Explore events." };
+  }[lang] || { title: "Waylero Events", description: "Explore events." };
 
   return {
     title: metaData.title,
@@ -53,10 +55,16 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
 
 export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
+  const cookieStore = await cookies();
+  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+
   const citySlug = params.city || "";
   const decodedSlug = decodeURIComponent(citySlug).trim();
   const cityName = decodedSlug.replace(/-/g, " ").toLocaleUpperCase("tr-TR").trim();
   const cityId = cityMap[cityName];
+
+  // Dile göre varsayılan başlık
+  const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
 
   let initialEvents = [];
   try {
@@ -64,7 +72,6 @@ export default async function ActivitiesPage({ searchParams }: any) {
     if (cityId) apiParams.append("city_ids", cityId.toString());
     else if (citySlug) apiParams.append("q", decodedSlug);
 
-    // Sunucu tarafında istek atarken baseUrl kullanmak daha güvenlidir
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, { cache: 'no-store' });
     const data = await res.json();
@@ -76,7 +83,8 @@ export default async function ActivitiesPage({ searchParams }: any) {
   return (
     <ActivityList 
       initialEvents={initialEvents} 
-      initialCityName={cityName || "TÜRKİYE GENELİ"} 
+      initialCityName={cityName || defaultCityName} 
+      lang={lang}
     />
   );
 }
