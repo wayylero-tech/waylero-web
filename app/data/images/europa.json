@@ -26,7 +26,39 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fbarselona%2Fsagrada-familia%2F1775835374371.jpg?alt=media&token=f82e9333-c07d-49db-9592-5bb3d62f1cfa"
   ]
 },
-
+"berlin": {
+  "berlin-berlin-katedrali": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fberlin-katedrali%2F1775858116591.jpg?alt=media&token=5fef63a6-4334-4b69-91d1-7cf494092d1c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fberlin-katedrali%2F1775858120255.jpg?alt=media&token=6cd50df4-25d0-4b89-914b-c9eaa5302959",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fberlin-katedrali%2F1775858153127.jpg?alt=media&token=393e1c57-caf4-487f-9fa9-c0b8c7e567ed"
+  ],
+  "berlin-brandenburger-tor": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fbrandenburger-tor%2F1775858042182.jpg?alt=media&token=f03183d6-bab9-4182-b7f0-3b2bcd213b40",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fbrandenburger-tor%2F1775858045703.jpg?alt=media&token=e9c94137-c75a-43c5-8288-471eaaf3ae0b",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fbrandenburger-tor%2F1775858048539.jpg?alt=media&token=af2c221a-4964-478e-9ffa-cf5326d0464f",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fbrandenburger-tor%2F1775858060539.jpg?alt=media&token=28a621b2-dd8f-4c13-a119-5609a52329b2"
+  ],
+  "berlin-checkpoint-charlie": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fcheckpoint-charlie%2F1775858088983.jpg?alt=media&token=15e5e48b-e03e-404c-92a9-0a928ae9e72c",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fcheckpoint-charlie%2F1775858093778.jpg?alt=media&token=2d221aa5-39d1-4986-9c55-c6734d1b26d1"
+  ],
+  "berlin-ddr-museum": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fddr-museum%2F1775858101890.jpg?alt=media&token=651f0955-beb1-4113-8825-08e67c69dee7",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fddr-museum%2F1775858105507.jpg?alt=media&token=f7fdb641-8299-490d-9196-e315c1e638e2",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fddr-museum%2F1775858109325.jpg?alt=media&token=6ae9dcc7-075f-49bb-af7d-87bf24eb29bf",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fddr-museum%2F1775858113074.jpg?alt=media&token=f2bac1c2-a9ab-4962-90eb-8299dfd08c2b"
+  ],
+  "berlin-holocaust-aniti": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Fholocaust-an%C4%B1t%C4%B1%2F1775858096940.jpg?alt=media&token=462c8f58-a112-422c-8a89-a3627dad0cd8"
+  ],
+  "berlin-reichstag": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Freichstag%2F1775858065190.jpg?alt=media&token=00ffa16c-3b55-4915-bf05-7c663d0228e7",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Freichstag%2F1775858069015.jpg?alt=media&token=cb49ff97-3de4-468a-a8da-d74c94f4e892",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Freichstag%2F1775858072390.jpg?alt=media&token=d5cf88b9-af9f-4f01-9727-7040cb3fa510",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Freichstag%2F1775858077301.jpg?alt=media&token=e3236106-a75f-4f55-af81-2a0c24f52ee6",
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fberlin%2Freichstag%2F1775858083536.jpg?alt=media&token=6c63d9ce-d6e3-4126-b493-d9e3baf2bbc5"
+  ]
+},
 "valencia": {
  "valencia-ciudad-de-las-artes-y-las-ciencias": [
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fvalencia%2Fciudad-de-las-artes-y-las-ciencias%2F1774510921194_0.jpg?alt=media&token=b5594824-8654-4224-bda0-eb465ad8b4ee",
@@ -43,6 +75,16 @@
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fvalencia%2Fvalencia-katedrali%2F1775835398005.jpg?alt=media&token=5e5c6968-ec71-49c6-9f52-a5f2fbf6688c",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fvalencia%2Fvalencia-katedrali%2F1775835400785.jpg?alt=media&token=0ff42d67-8b35-4679-ae42-6486b306126b",
     "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fvalencia%2Fvalencia-katedrali%2F1775835404329.jpg?alt=media&token=d28d7b93-6614-4ec9-87c0-c02381d845fd"
+  ]
+},
+"rotterdam": {
+  "rotterdam-markthal-rotterdam": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Froterdam%2Fmarkthal-rotterdam%2F1775858386806.jpg?alt=media&token=cc0b7acf-a962-4c56-a381-f78ada80a7c9"
+  ]
+},
+"greece": {
+  "greece-meteora-manastirlari": [
+    "https://firebasestorage.googleapis.com/v0/b/waylero-85347.firebasestorage.app/o/place_photos%2Fgreece%2Fmeteora-manast%C4%B1rlar%C4%B1%2F1775858602359.jpg?alt=media&token=83d9d32a-32ce-474b-8717-ca398a35ee94"
   ]
 },
 "sevilla": {
