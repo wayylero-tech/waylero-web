@@ -41,13 +41,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <html lang={displayLang}> {/* Artık burası dinamik ve daha sağlam */}
-      <body className={`
-        ${geistSans.variable} 
-        ${geistMono.variable} 
-        antialiased min-h-screen flex flex-col
-        bg-white dark:bg-gray-900
-        text-gray-900 dark:text-white
-      `}>
+      <body
+  className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}
+>
         <LanguageProvider>
           <ClientLayout>
             {children}

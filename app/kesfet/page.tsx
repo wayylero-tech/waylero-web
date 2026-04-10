@@ -4,9 +4,48 @@ import KesfetClient from "./KesfetClient";
 
 // Ülke listesi (Sluglar sabit)
 const countries = [
-  "turkiye", "fransa", "almanya", "italya", "ispanya", "ingiltere", "hollanda", 
-  "avusturya", "yunanistan", "cek-cumhuriyeti", "rusya", "portekiz", "romanya", 
-  "danimarka", "isvec", "norvec", "isvicre", "amerika", "japonya", "guney-kore"
+  "turkiye",
+  "fransa",
+  "almanya",
+  "italya",
+  "ispanya",
+  "ingiltere",
+  "hollanda",
+  "avusturya",
+  "yunanistan",
+  "cek-cumhuriyeti",
+  "rusya",
+  "portekiz",
+  "romanya",
+  "danimarka",
+  "isvec",
+  "norvec",
+  "isvicre",
+  "amerika",
+  "japonya",
+  "guney-kore",
+
+  // ➕ eksik olanlar (map’te var ama listede yoktu)
+  "kktc",
+  "urdun",
+  "endonezya",
+  "irlanda",
+  "bosna-hersek",
+  "avustralya",
+  "gurcistan",
+  "iskocya",
+  "galler",
+  "malezya",
+  "cin",
+  "hindistan",
+  "tayland",
+  "sri-lanka",
+  "singapur",
+  "umman",
+  "suudi-arabistan",
+  "misir",
+  "belarus",
+  "tayland",
 ];
 
 // Dinamik SEO ayarları

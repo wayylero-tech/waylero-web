@@ -14,8 +14,8 @@ import asiaImages from "../../data/images/asia.json";
 
 // ✅ MAP'LER
 const countryToRegionMap: Record<string, string> = {
-  turkiye: "turkey", fransa: "europa", almanya: "europa", italya: "europa", kktc: "europa",
-  ispanya: "europa", ingiltere: "europa", hollanda: "europa", 
+  turkiye: "turkey", fransa: "europa", italya: "europa", kktc: "europa",
+  ispanya: "europa", ingiltere: "europa", hollanda: "europa",  almanya: "europa",
   avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa",
   portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia",
   isvec: "europa", norvec: "europa", isvicre: "europa", endonezya: "europa", 
@@ -68,7 +68,7 @@ const cityToCountryMap: Record<string, string> = {
   "muskat": "umman", "masirah-adasi": "umman", "ras-al-jinz": "umman", "sur": "umman", "jabel-shams": "umman", "salalah": "umman", "wahiba-sands": "umman", "nizwa": "umman",
   "saraybosna": "bosna-hersek", "mostar": "bosna-hersek", "travnik": "bosna-hersek", "jajce": "bosna-hersek", "banja-luka": "bosna-hersek", "pocitel": "bosna-hersek", "ljubuski": "bosna-hersek", "neum": "bosna-hersek", "tuzla": "bosna-hersek",
   "tokyo": "japonya", "kyoto": "japonya", "osaka": "japonya", "nara": "japonya", "hakone": "japonya", "fujikawaguchiko": "japonya", "hiroshima": "japonya", "kamakura": "japonya", "nikko": "japonya", "takayama": "japonya", "kanazawa": "japonya", "hokkaido": "japonya", "hakusan": "japonya", "nagano": "japonya", "yamaguchi": "japonya","hirosima": "japonya",
-  "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
+  "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "pekin": "cin","chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
 };
 
 
@@ -122,6 +122,7 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
   }[lang as "tr" | "en"];
 
   const countryCities = useMemo(() => {
+    console.log("DATA SOURCE:", dataSource);
     return Object.entries(dataSource)
       .filter(([cityKey]) => {
         const citySlug = slugify(cityKey);
