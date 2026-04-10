@@ -22,7 +22,7 @@ const countryToRegionMap: Record<string, string> = {
   isvec: "europa", norvec: "europa", isvicre: "europa", endonezya: "europa", 
   irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
   gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
-  cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "asia", filipinler: "europa", 
+  cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "europa", filipinler: "europa", 
   japonya: "asia", "sri-lanka": "asia", singapur: "europa", amerika: "europa", umman: "europa", 
   "suudi-arabistan": "europa", misir: "europa", belarus: "europa"
 };
