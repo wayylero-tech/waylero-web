@@ -99,7 +99,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
             <Link href={getLocalizedLink("/")}>
               <img
                 src="/assets/genel/logo-sag.webp"
-                className={`transition-all duration-500 object-contain ${isHome ? "h-20" : "h-16"}`}
+                className={`transition-all duration-500 object-contain ${isHome ? "h-25" : "h-16"}`}
                 alt="Waylero"
               />
             </Link>

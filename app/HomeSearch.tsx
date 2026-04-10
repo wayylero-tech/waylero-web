@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { trackSearch } from "@/lib/analytics";
 import { useLang } from "@/app/context/LanguageContext";
+import { cityToCountryMap } from "@/lib/cityToCountryMap";
 
 export default function HomeSearch() {
   const [search, setSearch] = useState("");
@@ -13,117 +14,137 @@ export default function HomeSearch() {
   const router = useRouter();
   const { lang } = useLang();
 
+  // 🌍 DİL SÖZLÜĞÜ
   const t = {
     tr: {
-      placeholder:
-        "Şehir, mekan veya etkinlik/konser ara... (Örn: İstanbul'da gezilecek yerler)",
-      helper:
-        'İpucu: "Paris\'te gezilecek yerler" gibi doğal cümlelerle arayabilirsin.',
+      placeholder: "Şehir, mekan veya etkinlik ara...",
+      highlightPlaceholder: "Hangi şehirde ne arıyorsunuz?",
+      helper: 'İpucu: "Konya\'da gezilecek yerler" yazabilirsin.',
     },
     en: {
-      placeholder: "Search city, place or experience... (e.g. In London)",
-      helper:
-        'Tip: You can search with natural phrases like "Places to visit in Paris".',
-    },
-    de: {
-      placeholder:
-        "Suche nach Stadt, Ort oder Erlebnis... (z. B. In Berlin)",
-      helper:
-        'Tipp: Du kannst mit natürlichen Sätzen suchen, wie „Sehenswürdigkeiten in Paris“.',
-    },
-  }[lang];
+      placeholder: "Search city, place or event...",
+      highlightPlaceholder: "What are you looking for and where?",
+      helper: 'Tip: Type "Places to visit in London".',
+    }
+  }[lang as "tr" | "en"] || { placeholder: "Search...", helper: "" };
 
-  // 🔥 DIŞARIDAN TETİKLENEN FOCUS + FLASH
+  // 🔥 TÜM ŞEHİRLER (OTOMATİK)
+  const citySlugMap = useMemo(() => {
+    const map: Record<string, { region: string; slug: string }> = {};
+
+    Object.entries(cityToCountryMap).forEach(([city, country]) => {
+      const upper = city.toLocaleUpperCase("tr-TR");
+
+      map[upper] = {
+        region: country,
+        slug: city,
+      };
+
+      // new-york → NEW YORK
+      if (city.includes("-")) {
+        const spaced = city.replace(/-/g, " ").toLocaleUpperCase("tr-TR");
+        map[spaced] = {
+          region: country,
+          slug: city,
+        };
+      }
+    });
+
+    return map;
+  }, []);
+
+  // 🧠 QUERY NORMALIZE (KRİTİK)
+  const normalizeQuery = (q: string) => {
+    return q
+      .toLocaleLowerCase("tr-TR")
+
+      // konya'da
+      .replace(/['’](da|de|ta|te)/g, "")
+
+      // konyada
+      .replace(/(da|de|ta|te)\b/g, "")
+
+      // antalya'ya
+      .replace(/['’](ya|ye|yu|yü)/g, "")
+
+      // antalyaya
+      .replace(/(ya|ye|yu|yü)\b/g, "")
+
+      // boşluk düzelt
+      .replace(/\s+/g, " ")
+      .trim();
+  };
+
+  // 🔍 şehir bul
+  const findCityMatch = (query: string) => {
+    const normalized = normalizeQuery(query);
+
+    const upper = normalized.toLocaleUpperCase(
+      lang === "tr" ? "tr-TR" : "en-US"
+    );
+
+    const foundKey = Object.keys(citySlugMap).find(city =>
+      upper.includes(city)
+    );
+
+    return foundKey ? citySlugMap[foundKey] : null;
+  };
+
+  // 🎯 etkinlik intent
+  const isEventIntent = (query: string) => {
+    const q = query.toLowerCase();
+    const keywords = [
+      "etkinlik", "konser", "festival", "tiyatro",
+      "event", "concert", "show", "party"
+    ];
+    return keywords.some(k => q.includes(k));
+  };
+
+  const performSearch = () => {
+    const query = search.trim();
+    if (!query) return;
+
+    trackSearch(query);
+
+    const cityMatch = findCityMatch(query);
+    const isEvent = isEventIntent(query);
+
+    const prefix = lang === "en" ? "/en" : "";
+
+    // 🎯 1. etkinlik
+    if (isEvent) {
+      const cityParam = cityMatch ? cityMatch.slug : query;
+      router.push(`${prefix}/aktiviteler?city=${encodeURIComponent(cityParam)}`);
+    }
+    // 🏙️ 2. şehir
+    else if (cityMatch) {
+      router.push(`${prefix}/kesfet/${cityMatch.region}/${cityMatch.slug}`);
+    }
+    // 🔍 3. genel
+    else {
+      router.push(`${prefix}/kesfet?q=${encodeURIComponent(query)}`);
+    }
+
+    setSearch("");
+  };
+
   useEffect(() => {
     const handler = () => {
       setHighlight(true);
-
-      const input = document.getElementById("home-search-input");
-      input?.focus();
-
+      document.getElementById("home-search-input")?.focus();
       setTimeout(() => setHighlight(false), 2000);
     };
-
     window.addEventListener("triggerSearchFocus", handler);
-    return () =>
-      window.removeEventListener("triggerSearchFocus", handler);
+    return () => window.removeEventListener("triggerSearchFocus", handler);
   }, []);
-
-  // 🔥 Etkinlik mi?
-  const detectIntent = (query: string) => {
-    const q = query.toLocaleLowerCase("tr-TR");
-
-    const eventKeywords = [
-      "etkinlik",
-      "konser",
-      "festival",
-      "tiyatro",
-      "standup",
-      "party",
-      "event",
-      "concert",
-      "show",
-    ];
-
-    return eventKeywords.some((k) => q.includes(k));
-  };
-
-  // 🔥 TÜM ŞEHİRLER
-  const cityList = [
-    "ADANA","ADIYAMAN","AFYON","AFYONKARAHİSAR","AĞRI","AKSARAY","AMASYA",
-    "ANKARA","ANTALYA","ARDAHAN","ARTVİN","AYDIN","BALIKESİR","BARTIN",
-    "BATMAN","BAYBURT","BİLECİK","BİNGÖL","BİTLİS","BOLU","BURDUR",
-    "BURSA","ÇANAKKALE","ÇANKIRI","ÇORUM","DENİZLİ","DİYARBAKIR","DÜZCE",
-    "EDİRNE","ELAZIĞ","ERZİNCAN","ERZURUM","ESKİŞEHİR","GAZİANTEP",
-    "GİRESUN","GÜMÜŞHANE","HAKKARİ","HATAY","IĞDIR","ISPARTA",
-    "İSTANBUL","İZMİR","KAHRAMANMARAŞ","KARABÜK","KARAMAN","KARS",
-    "KASTAMONU","KAYSERİ","KİLİS","KIRIKKALE","KIRKLARELİ","KIRŞEHİR",
-    "KOCAELİ","KONYA","KÜTAHYA","MALATYA","MANİSA","MARDİN",
-    "MERSİN","MUĞLA","MUŞ","NEVŞEHİR","NİĞDE","ORDU","OSMANİYE",
-    "RİZE","SAKARYA","SAMSUN","SİİRT","SİNOP","SİVAS",
-    "ŞANLIURFA","ŞIRNAK","TEKİRDAĞ","TOKAT","TRABZON","TUNCELİ",
-    "UŞAK","VAN","YALOVA","YOZGAT","ZONGULDAK"
-  ];
-
-  // 🔥 şehir yakalama
-  const extractCity = (query: string) => {
-    const upper = query.toLocaleUpperCase("tr-TR");
-    return cityList.find((city) => upper.includes(city)) || "";
-  };
-
-  // 🔥 ARAMA
-  const performSearch = () => {
-    if (!search.trim()) return;
-
-    const query = search.trim();
-    trackSearch(query);
-
-    const isEvent = detectIntent(query);
-    const city = extractCity(query);
-
-    if (isEvent) {
-      router.push(`/aktiviteler?city=${encodeURIComponent(city || query)}`);
-    } else {
-      router.push(`/kesfet?q=${encodeURIComponent(query)}`);
-    }
-  };
-
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      performSearch();
-    }
-  };
 
   return (
     <div className="mb-6">
-      {/* 🔥 FLASH BORDER */}
-      <div
-        className={`p-[2px] rounded-2xl transition-all duration-300 ${
-          highlight
-            ? "bg-yellow-400 scale-[1.02] shadow-[0_0_20px_rgba(255,200,0,0.8)]"
-            : "bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400"
-        }`}
-      >
+      <div className={`p-[2px] rounded-2xl transition-all duration-300 ${
+        highlight
+          ? "bg-yellow-400 scale-[1.02] shadow-[0_0_20px_rgba(255,200,0,0.8)]"
+          : "bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400"
+      }`}>
         <div className="flex items-center bg-white rounded-[14px] px-4 py-3">
           <Search
             className="w-5 h-5 text-gray-400 mr-3 cursor-pointer"
@@ -132,14 +153,10 @@ export default function HomeSearch() {
           <input
             id="home-search-input"
             type="text"
-            placeholder={
-              highlight
-                ? "Hangi şehirde konser, tiyatro veya etkinlik aramıştınız?"
-                : t.placeholder
-            }
+            placeholder={highlight ? t.highlightPlaceholder : t.placeholder}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            onKeyDown={handleKeyDown}
+            onKeyDown={(e) => e.key === "Enter" && performSearch()}
             className="w-full bg-transparent focus:outline-none text-gray-700 placeholder-gray-400 font-medium"
           />
         </div>

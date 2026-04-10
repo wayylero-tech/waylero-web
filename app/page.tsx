@@ -55,18 +55,38 @@ export default function HomePage() {
     return `/${lang}${path === "/" ? "" : path}`;
   };
 
+  // 🌍 DİL SÖZLÜĞÜ
   const t = {
-    tr: { cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri" },
-    en: { cityTitle: "World's Most Visited Cities" }
-  }[lang as "tr" | "en"] || {
-    cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri"
-  };
+    tr: { 
+      cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri",
+      videoTitle: "Videolar",
+      seeAll: "Tümünü Gör",
+      menu: {
+        events: "Etkinlikler",
+        explore: "Keşfet",
+        map: "Harita",
+        blog: "Blog"
+      }
+    },
+    en: { 
+      cityTitle: "World's Most Visited Cities",
+      videoTitle: "Videos",
+      seeAll: "See All",
+      menu: {
+        events: "Events",
+        explore: "Explore",
+        map: "Map",
+        blog: "Blog"
+      }
+    }
+  }[lang as "tr" | "en"];
 
+  // 🚀 HIZLI MENÜ (Artık Dile Duyarlı)
   const quickMenu = [
-    { title: "Etkinlikler", image: "/assets/genel/aktiviteler.webp", route: "/aktiviteler" },
-    { title: "Keşfet", image: "/assets/genel/kesfet.webp", route: "/kesfet" },
-    { title: "Harita", image: "/assets/genel/harita.webp", url: "https://www.google.com/maps" },
-    { title: "Blog", image: "/assets/genel/tinaztepe.webp", route: "/blog" },
+    { title: t.menu.events, image: "/assets/genel/aktiviteler.webp", route: "/aktiviteler" },
+    { title: t.menu.explore, image: "/assets/genel/kesfet.webp", route: "/kesfet" },
+    { title: t.menu.map, image: "/assets/genel/harita.webp", url: "https://www.google.com/maps" },
+    { title: t.menu.blog, image: "/assets/genel/tinaztepe.webp", route: "/blog" },
   ];
 
   const videos = addSlugs(wayleroLiveVideos);
@@ -83,18 +103,32 @@ export default function HomePage() {
 
         {/* HIZLI MENÜ */}
         <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
-          {quickMenu.map((item) => (
+          {quickMenu.map((item, index) => (
             <div key={item.title}>
               {item.url ? (
                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                   <div className="relative h-40 md:h-60 rounded-2xl overflow-hidden">
-                    <Image src={item.image} alt={item.title} fill className="object-cover hover:scale-105 transition" />
+                    <Image 
+                      src={item.image} 
+                      alt={item.title} 
+                      fill 
+                      sizes="(max-width: 768px) 50vw, 280px"
+                      priority={index < 4}
+                      className="object-cover hover:scale-105 transition" 
+                    />
                   </div>
                 </a>
               ) : (
                 <Link href={getLocalizedLink(item.route!)}>
                   <div className="relative h-40 md:h-60 rounded-2xl overflow-hidden">
-                    <Image src={item.image} alt={item.title} fill className="object-cover hover:scale-105 transition" />
+                    <Image 
+                      src={item.image} 
+                      alt={item.title} 
+                      fill 
+                      sizes="(max-width: 768px) 50vw, 280px"
+                      priority={index < 4}
+                      className="object-cover hover:scale-105 transition" 
+                    />
                   </div>
                 </Link>
               )}
@@ -106,66 +140,50 @@ export default function HomePage() {
         <HomeBlogSlider />
 
         {/* VİDEOLAR */}
-<section className="mt-12 mb-8">
-  
-  {/* HEADER - Tümünü Gör Buraya Eklendi */}
-  <div className="flex items-center justify-between mb-6">
-    <h2 className="text-lg md:text-xl font-bold">
-      {lang === "tr" ? "Videolar" : "Videos"}
-    </h2>
-    <Link 
-      href={getLocalizedLink("/videolar")} 
-      className="text-sm font-semibold text-blue-600 hover:text-red-700 transition flex items-center gap-1"
-    >
-      {lang === "tr" ? "Tümünü Gör  →" : "See All  →"}
-      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="9 5l7 7-7 7" />
-      </svg>
-    </Link>
-  </div>
-
-  {/* GRID SİSTEMİ */}
-  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
-    {videos.slice(0, 4).map((video) => (
-      <div
-        key={video.id}
-        onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
-        className="cursor-pointer group"
-      >
-        {/* VIDEO CARD */}
-        <div className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-md">
-          <Image
-            src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
-            alt={video.title}
-            fill
-            className="object-cover group-hover:scale-105 transition duration-300"
-          />
-
-          {/* DARK OVERLAY */}
-          <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition" />
-
-          {/* 🔥 PLAY BUTTON */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:bg-red-600 group-hover:border-red-600 transition">
-              <svg
-                className="w-6 h-6 text-white translate-x-[2px]"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7 6v12l10-6z" />
-              </svg>
-            </div>
+        <section className="mt-12 mb-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-lg md:text-xl font-bold">
+              {t.videoTitle}
+            </h2>
+            <Link 
+              href={getLocalizedLink("/videolar")} 
+              className="text-sm font-semibold text-blue-600 hover:text-red-700 transition flex items-center gap-1"
+            >
+              {t.seeAll}  →
+            </Link>
           </div>
-        </div>
 
-        {/* TEXT */}
-        <p className="text-sm mt-2 font-semibold line-clamp-2 group-hover:text-red-600 transition">
-          {video.title}
-        </p>
-      </div>
-    ))}
-  </div>
-</section>
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            {videos.slice(0, 4).map((video) => (
+              <div
+                key={video.id}
+                onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
+                className="cursor-pointer group"
+              >
+                <div className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-md">
+                  <Image
+                    src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
+                    alt={video.title}
+                    fill
+                    sizes="(max-width: 768px) 50vw, 280px"
+                    className="object-cover group-hover:scale-105 transition duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:bg-red-600 group-hover:border-red-600 transition">
+                      <svg className="w-6 h-6 text-white translate-x-[2px]" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M7 6v12l10-6z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-sm mt-2 font-semibold line-clamp-2 group-hover:text-red-600 transition">
+                  {video.title}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         {/* ŞEHİRLER */}
         <section className="mt-10">
@@ -180,6 +198,7 @@ export default function HomePage() {
                       src={c.image}
                       alt={localized}
                       fill
+                      sizes="(max-width: 768px) 50vw, 380px"
                       className="object-cover group-hover:scale-110 transition"
                     />
                     <div className="absolute inset-0 bg-black/30" />

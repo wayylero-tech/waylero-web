@@ -1,8 +1,6 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+// --- Şehir-Ülke Eşleşme Haritası ---
+export const cityToCountryMap: Record<string, string> = {
 
-// 🛡️ 1. ŞEHİR-ÜLKE HARİTASI (Hepsi burada)
-const cityToCountryMap: Record<string, string> = {
   "adana": "turkiye", "adiyaman": "turkiye", "afyonkarahisar": "turkiye", "agri": "turkiye", "aksaray": "turkiye", "amasya": "turkiye", "ankara": "turkiye", "istanbul": "turkiye", "antalya": "turkiye", "ardahan": "turkiye", "artvin": "turkiye", "aydin": "turkiye", "balikesir": "turkiye", "bartin": "turkiye", "batman": "turkiye", "bayburt": "turkiye", "bilecik": "turkiye", "bingol": "turkiye", "bitlis": "turkiye", "bolu": "turkiye", "bursa": "turkiye", "burdur": "turkiye", "canakkale": "turkiye", "cankiri": "turkiye", "corum": "turkiye", "denizli": "turkiye", "diyarbakir": "turkiye", "duzce": "turkiye", "edirne": "turkiye", "elazig": "turkiye", "erzincan": "turkiye", "erzurum": "turkiye", "eskisehir": "turkiye", "gaziantep": "turkiye", "giresun": "turkiye", "gumushane": "turkiye", "hakkari": "turkiye", "hatay": "turkiye", "igdir": "turkiye", "isparta": "turkiye", "izmir": "turkiye", "kahramanmaras": "turkiye", "karabuk": "turkiye", "karaman": "turkiye", "kars": "turkiye", "kastamonu": "turkiye", "kayseri": "turkiye", "kirikkale": "turkiye", "kirsehir": "turkiye", "kocaeli": "turkiye", "konya": "turkiye", "kutahya": "turkiye", "malatya": "turkiye", "manisa": "turkiye", "mardin": "turkiye", "mersin": "turkiye", "mugla": "turkiye", "mus": "turkiye", "nevsehir": "turkiye", "nigde": "turkiye", "ordu": "turkiye", "osmaniye": "turkiye", "rize": "turkiye", "sakarya": "turkiye", "samsun": "turkiye", "siirt": "turkiye", "sinop": "turkiye", "sivas": "turkiye", "sanliurfa": "turkiye", "tekirdag": "turkiye", "tokat": "turkiye", "trabzon": "turkiye", "tunceli": "turkiye", "usak": "turkiye", "van": "turkiye", "yalova": "turkiye", "yozgat": "turkiye", "zonguldak": "turkiye", "sirnak": "turkiye", "kirklareli": "turkiye", "kilis": "turkiye",
   "newyork": "amerika", "los-angeles": "amerika", "chicago": "amerika", "arizona": "amerika", "las-vegas": "amerika", "birmingham": "amerika", "montgomery": "amerika", "anchorage": "amerika", "fairbanks": "amerika", "juneau": "amerika", "sitka": "amerika", "mesa": "amerika", "scottsdale": "amerika", "phoenix": "amerika", "tucson": "amerika", "glendale": "amerika", "sandiego": "amerika", "sacramento": "amerika", "sanjose": "amerika", "miami": "amerika", "orlando": "amerika", "tampa": "amerika",
   "berlin": "almanya", "bremen": "almanya", "hamburg": "almanya", "stuttgart": "almanya", "munih": "almanya", "frankfurt": "almanya", "dusseldorf": "almanya",  "leipzig": "almanya", "dresden": "almanya", "weil-am-rhein": "almanya","koln": "almanya",
@@ -46,82 +44,3 @@ const cityToCountryMap: Record<string, string> = {
   "tokyo": "japonya", "kyoto": "japonya", "osaka": "japonya", "nara": "japonya", "hakone": "japonya", "fujikawaguchiko": "japonya", "hiroshima": "japonya", "kamakura": "japonya", "nikko": "japonya", "takayama": "japonya", "kanazawa": "japonya", "hokkaido": "japonya", "hakusan": "japonya", "nagano": "japonya", "yamaguchi": "japonya","hirosima": "japonya",
   "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
 };
-// 🔧 SANITIZE
-const sanitize = (str: string) =>
-  str.toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/ /g, '')
-    .replace(/ı/g, 'i').replace(/ğ/g, 'g')
-    .replace(/ü/g, 'u').replace(/ş/g, 's')
-    .replace(/ö/g, 'o').replace(/ç/g, 'c');
-
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
-  // 🌐 DİL TESPİT
-  const isEn = pathname.startsWith('/en/');
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
-
-  const response = NextResponse.next({
-    request: { headers: requestHeaders },
-  });
-
-  if (isEn) {
-    response.cookies.set('lang', 'en', { path: '/' });
-  }
-
-  const parts = pathname.split('/');
-
-  // 🔥 OFFSET (EN varsa index kayıyor)
-  const offset = isEn ? 1 : 0;
-
-  // =========================
-  // ✅ 1. MEKAN SAYFASI FIX
-  // =========================
-  if (
-    pathname.includes('/kesfet/') &&
-    parts.length >= (4 + offset)
-  ) {
-    const regionOrCountry = parts[2 + offset];
-    const cityInUrl = sanitize(parts[3 + offset]);
-
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (targetCountry && targetCountry !== regionOrCountry) {
-      const slug = parts.slice(4 + offset).join('/');
-
-      let newPath = isEn
-        ? `/en/kesfet/${targetCountry}/${parts[3 + offset]}`
-        : `/kesfet/${targetCountry}/${parts[3 + offset]}`;
-
-      if (slug) newPath += `/${slug}`;
-
-      return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
-    }
-  }
-
-  // =========================
-  // ✅ 2. ŞEHİR SAYFASI FIX
-  // =========================
-  if (
-    parts.length === (2 + offset) &&
-    !pathname.includes('/kesfet/') &&
-    pathname !== '/' &&
-    !pathname.includes('.')
-  ) {
-    const cityInUrl = sanitize(parts[1 + offset]);
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (targetCountry) {
-      const newPath = isEn
-        ? `/en/${targetCountry}/${parts[1 + offset]}`
-        : `/${targetCountry}/${parts[1 + offset]}`;
-
-      return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
-    }
-  
-
-  return response;
-}
-}
