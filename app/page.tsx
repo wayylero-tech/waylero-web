@@ -27,7 +27,6 @@ const featuredCities = [
   { name: { tr: "Mekke", en: "Mecca" }, slug: "mekke", country: "suudi-arabistan", image: "/assets/genel/mekke.webp" },
 ];
 
-/* 🔹 REKLAM */
 function AdSlot({ slot }: { slot: string }) {
   useEffect(() => {
     try {
@@ -55,156 +54,136 @@ export default function HomePage() {
     return `/${lang}${path === "/" ? "" : path}`;
   };
 
-  // 🌍 DİL SÖZLÜĞÜ
   const t = {
     tr: { 
       cityTitle: "Dünyanın En Çok Ziyaret Edilen Şehirleri",
       videoTitle: "Videolar",
       seeAll: "Tümünü Gör",
-      menu: {
-        events: "Etkinlikler",
-        explore: "Keşfet",
-        map: "Harita",
-        blog: "Blog"
-      }
+      menu: { events: "Etkinlikler", explore: "Keşfet", map: "Harita", blog: "Blog" }
     },
     en: { 
       cityTitle: "World's Most Visited Cities",
       videoTitle: "Videos",
       seeAll: "See All",
-      menu: {
-        events: "Events",
-        explore: "Explore",
-        map: "Map",
-        blog: "Blog"
-      }
+      menu: { events: "Events", explore: "Explore", map: "Map", blog: "Blog" }
     }
   }[lang as "tr" | "en"];
 
-  // 🚀 HIZLI MENÜ (Artık Dile Duyarlı)
   const quickMenu = [
     { title: t.menu.events, image: "/assets/genel/aktiviteler.webp", route: "/aktiviteler" },
     { title: t.menu.explore, image: "/assets/genel/kesfet.webp", route: "/kesfet" },
-    { title: t.menu.map, image: "/assets/genel/harita.webp", url: "https://www.google.com/maps" },
+    { title: t.menu.map, image: "/assets/genel/harita.webp", url: "https://google.com/maps" },
     { title: t.menu.blog, image: "/assets/genel/tinaztepe.webp", route: "/blog" },
   ];
 
   const videos = addSlugs(wayleroLiveVideos);
 
   return (
-    <main className="bg-gray-50/50 flex justify-center max-w-[1600px] mx-auto gap-4 w-full">
+    <main className="bg-gray-50/50 flex justify-center max-w-[1600px] mx-auto gap-4 w-full font-sans selection:bg-blue-100 selection:text-blue-900">
 
-      {/* SOL REKLAM */}
-      <aside className="hidden xl:block sticky top-10">
+      <aside className="hidden xl:block sticky top-10 h-fit">
         <AdSlot slot="6195494093" />
       </aside>
 
-      <div className="flex-1 max-w-6xl bg-white shadow-sm px-3 md:px-6 py-6">
+      <div className="flex-1 max-w-6xl bg-white shadow-sm px-4 md:px-8 py-8">
 
-        {/* HIZLI MENÜ */}
-        <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+        {/* 🚀 HIZLI MENÜ - YENİ TASARIM */}
+        <section className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-12">
           {quickMenu.map((item, index) => (
-            <div key={item.title}>
-              {item.url ? (
-                <a href={item.url} target="_blank" rel="noopener noreferrer">
-                  <div className="relative h-40 md:h-60 rounded-2xl overflow-hidden">
-                    <Image 
-                      src={item.image} 
-                      alt={item.title} 
-                      fill 
-                      sizes="(max-width: 768px) 50vw, 280px"
-                      priority={index < 4}
-                      className="object-cover hover:scale-105 transition" 
-                    />
-                  </div>
-                </a>
-              ) : (
-                <Link href={getLocalizedLink(item.route!)}>
-                  <div className="relative h-40 md:h-60 rounded-2xl overflow-hidden">
-                    <Image 
-                      src={item.image} 
-                      alt={item.title} 
-                      fill 
-                      sizes="(max-width: 768px) 50vw, 280px"
-                      priority={index < 4}
-                      className="object-cover hover:scale-105 transition" 
-                    />
-                  </div>
-                </Link>
-              )}
-              <p className="mt-2 text-center text-sm font-medium">{item.title}</p>
+            <div key={item.title} className="group block cursor-pointer">
+              <Link href={item.url || getLocalizedLink(item.route!)} target={item.url ? "_blank" : "_self"}>
+                <div className="aspect-square sm:aspect-[4/5] rounded-[2rem] overflow-hidden bg-gray-100 mb-3 shadow-sm group-hover:shadow-xl transition-all duration-500 relative">
+                  <Image 
+                    src={item.image} 
+                    alt={item.title} 
+                    fill 
+                    className="object-cover group-hover:scale-110 transition-transform duration-700" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                </div>
+              </Link>
+              <h3 className="font-bold text-center text-gray-900 group-hover:text-blue-600 transition-colors text-sm md:text-base tracking-tight uppercase">
+                {item.title}
+              </h3>
             </div>
           ))}
         </section>
 
         <HomeBlogSlider />
 
-        {/* VİDEOLAR */}
-        <section className="mt-12 mb-8">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg md:text-xl font-bold">
+        {/* 🎬 VİDEOLAR - YENİ TASARIM */}
+        <section className="mt-16 mb-12">
+          <div className="flex items-center justify-between mb-8 border-b border-gray-100 pb-4">
+            <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">
               {t.videoTitle}
             </h2>
             <Link 
               href={getLocalizedLink("/videolar")} 
-              className="text-sm font-semibold text-blue-600 hover:text-red-700 transition flex items-center gap-1"
+              className="text-sm font-bold text-blue-600 hover:text-red-600 transition-all flex items-center gap-2 bg-blue-50 px-4 py-2 rounded-full"
             >
-              {t.seeAll}  →
+              {t.seeAll} <span>→</span>
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {videos.slice(0, 4).map((video) => (
               <div
                 key={video.id}
                 onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
                 className="cursor-pointer group"
               >
-                <div className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-md">
+                <div className="relative aspect-[9/16] rounded-[2rem] overflow-hidden shadow-sm group-hover:shadow-2xl transition-all duration-500">
                   <Image
                     src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
                     alt={video.title}
                     fill
-                    sizes="(max-width: 768px) 50vw, 280px"
-                    className="object-cover group-hover:scale-105 transition duration-300"
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition" />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500" />
+                  
+                  {/* Play Button Overlay */}
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:bg-red-600 group-hover:border-red-600 transition">
+                    <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:scale-110 group-hover:bg-red-600 group-hover:border-red-600 transition-all duration-300">
                       <svg className="w-6 h-6 text-white translate-x-[2px]" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M7 6v12l10-6z" />
                       </svg>
                     </div>
                   </div>
                 </div>
-                <p className="text-sm mt-2 font-semibold line-clamp-2 group-hover:text-red-600 transition">
+                <h3 className="text-sm mt-4 font-bold text-gray-900 line-clamp-2 group-hover:text-red-600 transition-colors px-1">
                   {video.title}
-                </p>
+                </h3>
               </div>
             ))}
           </div>
         </section>
 
-        {/* ŞEHİRLER */}
-        <section className="mt-10">
-          <h2 className="text-xl font-bold mb-4">{t.cityTitle}</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        {/* 🏙️ ŞEHİRLER - YENİ TASARIM */}
+        <section className="mt-16">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mb-8 border-b border-gray-100 pb-4">
+            {t.cityTitle}
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {featuredCities.map((c) => {
-              const localized = lang === "en" ? c.name.en : c.name.tr;
+              const localizedName = lang === "en" ? c.name.en : c.name.tr;
               return (
-                <Link key={c.slug} href={getLocalizedLink(`/${c.country}/${c.slug}`)}>
-                  <div className="relative h-44 md:h-60 rounded-2xl overflow-hidden group">
+                <Link key={c.slug} href={getLocalizedLink(`/${c.country}/${c.slug}`)} className="group block">
+                  <div className="relative h-56 md:h-72 rounded-[2.5rem] overflow-hidden shadow-sm group-hover:shadow-2xl transition-all duration-500 bg-gray-100">
                     <Image
                       src={c.image}
-                      alt={localized}
+                      alt={localizedName}
                       fill
-                      sizes="(max-width: 768px) 50vw, 380px"
-                      className="object-cover group-hover:scale-110 transition"
+                      className="object-cover group-hover:scale-110 transition-transform duration-700"
                     />
-                    <div className="absolute inset-0 bg-black/30" />
-                    <span className="absolute bottom-3 left-3 text-white font-semibold">
-                      {localized}
-                    </span>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="absolute bottom-0 left-0 p-6 w-full transform group-hover:-translate-y-1 transition-transform duration-300">
+                      <h3 className="text-white text-xl md:text-2xl font-black tracking-tight">
+                        {localizedName}
+                      </h3>
+                      <p className="text-blue-300 font-extrabold text-[10px] uppercase tracking-widest mt-1">
+                        {c.country.replace(/-/g, " ")}
+                      </p>
+                    </div>
                   </div>
                 </Link>
               );
@@ -214,8 +193,7 @@ export default function HomePage() {
 
       </div>
 
-      {/* SAĞ REKLAM */}
-      <aside className="hidden xl:block sticky top-10">
+      <aside className="hidden xl:block sticky top-10 h-fit">
         <AdSlot slot="5241070307" />
       </aside>
 

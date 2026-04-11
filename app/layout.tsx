@@ -24,26 +24,17 @@ export const metadata: Metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const headerList = await headers();
 
-  // 1. Middleware'den gelen header (En güvenlisi)
   const middlewareLang = headerList.get("x-url-lang");
-  
-  // 2. Eğer o yoksa pathname'i yakalamaya çalış (Header üzerinden)
-  // Next.js bazen x-url veya x-pathname gibi headerlar gönderir
   const currentPath = headerList.get("x-url") || ""; 
 
-  // Dil tespiti
-  let displayLang = "tr"; // Default
-  if (middlewareLang === "en") {
-    displayLang = "en";
-  } else if (currentPath.includes("/en/")) {
+  let displayLang = "tr";
+  if (middlewareLang === "en" || currentPath.includes("/en/")) {
     displayLang = "en";
   }
 
   return (
-    <html lang={displayLang}> {/* Artık burası dinamik ve daha sağlam */}
-      <body
-  className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}
->
+    <html lang={displayLang} suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
         <LanguageProvider>
           <ClientLayout>
             {children}
