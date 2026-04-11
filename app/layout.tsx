@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import "./globals.css";
 import { LanguageProvider } from "./context/LanguageContext";
 import ClientLayout from "./components/ClientLayout";
+import ClientProviders from "./ClientProviders";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -35,11 +36,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang={displayLang} suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
-        <LanguageProvider>
-          <ClientLayout>
-            {children}
-          </ClientLayout>
-        </LanguageProvider>
+        <ClientProviders>
+  <ClientLayout>
+    {children}
+  </ClientLayout>
+</ClientProviders>
       </body>
     </html>
   );

@@ -10607,7 +10607,7 @@
     {
       "slug": "bel-m-kulesi",
       "name": {
-        "tr": "Belém Kulesi",
+        "tr": "Belem Kulesi",
         "en": "Belém Tower",
         "de": "Belém Turm"
       },
@@ -11396,49 +11396,7 @@
     }
   ],
   "bukres": [
-    {
-      "slug": "parlamento-sarayi",
-      "name": {
-        "tr": "Parlamento Sarayı",
-        "en": "Palace of Parliament",
-        "de": "Palast des Parlaments"
-      },
-      "latitude": 44.4268,
-      "longitude": 26.1025,
-      "description": {
-        "tr": "Parlamento Sarayı, dünyadaki ikinci en büyük idari binadır ve Bükreş'in simgelerinden biridir. Bina, Ceaușescu'nun yönetimi altında inşa edilmiştir.",
-        "en": "The Palace of Parliament is the second largest administrative building in the world and one of Bucharest's landmarks. It was built during Ceaușescu's regime.",
-        "de": "Der Palast des Parlaments ist das zweitgrößte Verwaltungsgebäude der Welt und eines der Wahrzeichen von Bukarest. Es wurde während der Ceaușescu-Regierung erbaut."
-      },
-      "activities": {
-        "tr": [
-          "Sarayı ziyaret etme",
-          "Mimari detayları keşfetme"
-        ],
-        "en": [
-          "Visit the palace",
-          "Explore the architectural details"
-        ],
-        "de": [
-          "Den Palast besichtigen",
-          "Die architektonischen Details erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/parliament_palace.jpg"
-      ]
-    },
+  
     {
       "slug": "calea-victoriei",
       "name": {
@@ -11480,6 +11438,49 @@
       },
       "images": [
         "https://example.com/calea_victoriei.jpg"
+      ]
+    },
+  {
+      "slug": "parlamento-sarayi",
+      "name": {
+        "tr": "Parlamento Sarayı",
+        "en": "Palace of Parliament",
+        "de": "Palast des Parlaments"
+      },
+      "latitude": 44.4268,
+      "longitude": 26.1025,
+      "description": {
+        "tr": "Parlamento Sarayı, dünyadaki ikinci en büyük idari binadır ve Bükreş'in simgelerinden biridir. Bina, Ceaușescu'nun yönetimi altında inşa edilmiştir.",
+        "en": "The Palace of Parliament is the second largest administrative building in the world and one of Bucharest's landmarks. It was built during Ceaușescu's regime.",
+        "de": "Der Palast des Parlaments ist das zweitgrößte Verwaltungsgebäude der Welt und eines der Wahrzeichen von Bukarest. Es wurde während der Ceaușescu-Regierung erbaut."
+      },
+      "activities": {
+        "tr": [
+          "Sarayı ziyaret etme",
+          "Mimari detayları keşfetme"
+        ],
+        "en": [
+          "Visit the palace",
+          "Explore the architectural details"
+        ],
+        "de": [
+          "Den Palast besichtigen",
+          "Die architektonischen Details erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/parliament_palace.jpg"
       ]
     }
   ],
@@ -34010,6 +34011,49 @@
     }
   ],
   "kopenhag": [
+ {
+      "slug": "christiansborg-sarayi",
+      "name": {
+        "tr": "Christiansborg Sarayı",
+        "en": "Christiansborg Palace",
+        "de": "Christiansborg Palast"
+      },
+      "latitude": 55.6756,
+      "longitude": 12.5833,
+      "description": {
+        "tr": "Danimarka hükümetinin çalıştığı bu saray, aynı zamanda Kraliyet Ailesi tarafından kullanılan bir yer olarak da bilinir. Tarihi ve kültürel önemi büyüktür.",
+        "en": "This palace, where the Danish government works, is also used by the Royal Family. It holds great historical and cultural importance.",
+        "de": "Dieser Palast, in dem die dänische Regierung arbeitet, wird auch von der königlichen Familie genutzt. Er hat große historische und kulturelle Bedeutung."
+      },
+      "activities": {
+        "tr": [
+          "Sarayı gezmek",
+          "Tarihi alanları ziyaret etmek"
+        ],
+        "en": [
+          "Touring the palace",
+          "Visiting historical areas"
+        ],
+        "de": [
+          "Den Palast besichtigen",
+          "Historische Orte besuchen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "tarih"
+        ],
+        "en": [
+          "historic"
+        ],
+        "de": [
+          "Historisch"
+        ]
+      },
+      "images": [
+        "https://example.com/christiansborg_palace.jpg"
+      ]
+    },
     {
       "slug": "tivoli-bahceleri",
       "name": {
@@ -34139,49 +34183,7 @@
         "https://example.com/little_mermaid.jpg"
       ]
     },
-    {
-      "slug": "christiansborg-sarayi",
-      "name": {
-        "tr": "Christiansborg Sarayı",
-        "en": "Christiansborg Palace",
-        "de": "Christiansborg Palast"
-      },
-      "latitude": 55.6756,
-      "longitude": 12.5833,
-      "description": {
-        "tr": "Danimarka hükümetinin çalıştığı bu saray, aynı zamanda Kraliyet Ailesi tarafından kullanılan bir yer olarak da bilinir. Tarihi ve kültürel önemi büyüktür.",
-        "en": "This palace, where the Danish government works, is also used by the Royal Family. It holds great historical and cultural importance.",
-        "de": "Dieser Palast, in dem die dänische Regierung arbeitet, wird auch von der königlichen Familie genutzt. Er hat große historische und kulturelle Bedeutung."
-      },
-      "activities": {
-        "tr": [
-          "Sarayı gezmek",
-          "Tarihi alanları ziyaret etmek"
-        ],
-        "en": [
-          "Touring the palace",
-          "Visiting historical areas"
-        ],
-        "de": [
-          "Den Palast besichtigen",
-          "Historische Orte besuchen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "tarih"
-        ],
-        "en": [
-          "historic"
-        ],
-        "de": [
-          "Historisch"
-        ]
-      },
-      "images": [
-        "https://example.com/christiansborg_palace.jpg"
-      ]
-    },
+   
     {
       "slug": "amalienborg-sarayi",
       "name": {
