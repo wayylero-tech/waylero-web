@@ -42,35 +42,52 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
 
 export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
+
   const cookieStore = await cookies();
   const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 
   const citySlug = params.city || "";
   const decodedSlug = decodeURIComponent(citySlug).trim();
-  const cityName = decodedSlug.replace(/-/g, " ").toLocaleUpperCase("tr-TR").trim();
+
+  const cityName = decodedSlug
+    .replace(/-/g, " ")
+    .toLocaleUpperCase("tr-TR")
+    .trim();
+
   const cityId = cityMap[cityName];
 
-  // Dile göre varsayılan başlık
-  const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
+  const defaultCityName =
+    lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
 
   let initialEvents = [];
+
   try {
     const apiParams = new URLSearchParams();
-    if (cityId) apiParams.append("city_ids", cityId.toString());
-    else if (citySlug) apiParams.append("q", decodedSlug);
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
-    const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, { cache: 'no-store' });
+    if (cityId) apiParams.append("city_ids", cityId.toString());
+    else if (decodedSlug) apiParams.append("q", decodedSlug);
+
+    const baseUrl =
+      process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
+    const res = await fetch(
+      `${baseUrl}/api/events?${apiParams.toString()}`,
+      {
+        // 🔥 TEK CACHE NOKTASI BURASI
+        next: { revalidate: 1800 },
+      }
+    );
+
     const data = await res.json();
-    initialEvents = data.items || (Array.isArray(data) ? data : []);
-  } catch (error) {
-    console.error("SSR Fetch Error:", error);
+    initialEvents = data.items || [];
+  } catch (err) {
+    console.error("SSR Fetch Error:", err);
   }
 
   return (
-    <ActivityList 
-      initialEvents={initialEvents} 
-      initialCityName={cityName || defaultCityName} 
+    <ActivityList
+      initialEvents={initialEvents}
+      initialCityName={cityName || defaultCityName}
       lang={lang}
     />
   );
