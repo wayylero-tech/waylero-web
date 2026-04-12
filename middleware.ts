@@ -46,7 +46,23 @@ const cityToCountryMap: Record<string, string> = {
   "tokyo": "japonya", "kyoto": "japonya", "osaka": "japonya", "nara": "japonya", "hakone": "japonya", "fujikawaguchiko": "japonya", "hiroshima": "japonya", "kamakura": "japonya", "nikko": "japonya", "takayama": "japonya", "kanazawa": "japonya", "hokkaido": "japonya", "hakusan": "japonya", "nagano": "japonya", "yamaguchi": "japonya","hirosima": "japonya",
   "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
 };
-// 🔧 SANITIZE
+
+// 🌍 2. ÜLKE -> BÖLGE EŞLEŞTİRMESİ (Senin verdiğin liste)
+const countryToRegionMap: Record<string, string> = {
+  turkiye: "turkiye", // Türkiye her zaman turkiye kalsın demiştin
+  fransa: "europa", almanya: "almanya", italya: "europa", kktc: "europa",
+  ispanya: "europa", ingiltere: "europa", hollanda: "europa", 
+  avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa",
+  portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia",
+  isvec: "europa", norvec: "europa", isvicre: "europa", "suudi-arabistan": "europa", 
+  misir: "europa", "bosna-hersek": "europa", cin: "asia", hindistan: "asia", 
+  tayland: "europa", japonya: "asia", amerika: "europa", "sri-lanka": "asia", 
+  singapur: "europa", umman: "europa", belarus: "europa", endonezya: "europa", 
+  irlanda: "europa", avustralya: "europa", "guney-kore": "europa", filipinler: "europa", 
+  gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
+};
+
+// 🔧 3. TEMİZLİK FONKSİYONU
 const sanitize = (str: string) =>
   str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -57,87 +73,48 @@ const sanitize = (str: string) =>
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-
-  // 🌐 DİL TESPİT
-  const isEn = pathname.startsWith('/en/');
   const requestHeaders = new Headers(request.headers);
-  
-  // Layout.tsx'te kullandığımız header'ları burada set ediyoruz
+
+  const isEn = pathname.startsWith('/en');
   requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
-  requestHeaders.set('x-url', request.url);
+
+  let parts = pathname.split('/');
+  const offset = isEn ? 1 : 0;
+
+  // 🛠️ KRİTİK DÜZELTME: Yanlış Bölge veya "turkey" yazımı kontrolü
+  if (pathname.includes('/kesfet/') && parts.length >= (4 + offset)) {
+    const regionInUrl = parts[2 + offset]; // Örn: "europa" veya "turkey"
+    const cityInUrl = sanitize(parts[3 + offset]);
+    const targetCountry = cityToCountryMap[cityInUrl];
+
+    // Eğer "turkey" yazılmışsa veya "europa/barselona" gibi yanlış bir bölge varsa
+    if (targetCountry && (regionInUrl === 'turkey' || regionInUrl !== targetCountry)) {
+      // Doğru linki inşa et
+      const correctPathParts = [...parts];
+      correctPathParts[2 + offset] = targetCountry; // Bölge yerine gerçek ülkeyi koy
+      
+      const newPath = correctPathParts.join('/');
+      return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
+    }
+  }
+
+  // 🚀 REWRITE (404 SAVAR)
+  if (isEn) {
+    const newPathname = pathname.replace(/^\/en/, '') || '/';
+    const response = NextResponse.rewrite(new URL(newPathname, request.url), {
+      request: { headers: requestHeaders }
+    });
+    response.cookies.set('lang', 'en', { path: '/' });
+    return response;
+  }
 
   const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
-
-  // Cookie yönetimi
-  if (isEn) {
-    response.cookies.set('lang', 'en', { path: '/' });
-  } else {
-    response.cookies.set('lang', 'tr', { path: '/' });
-  }
-
-  const parts = pathname.split('/');
-  const offset = isEn ? 1 : 0;
-
-  // =========================
-  // ✅ 1. MEKAN SAYFASI FIX (/kesfet/bölge/şehir/mekan)
-  // =========================
-  if (
-    pathname.includes('/kesfet/') &&
-    parts.length >= (4 + offset)
-  ) {
-    const regionOrCountry = parts[2 + offset];
-    const cityInUrl = sanitize(parts[3 + offset]);
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (targetCountry && targetCountry !== regionOrCountry) {
-      const slug = parts.slice(4 + offset).join('/');
-      let newPath = isEn
-        ? `/en/kesfet/${targetCountry}/${parts[3 + offset]}`
-        : `/kesfet/${targetCountry}/${parts[3 + offset]}`;
-
-      if (slug) newPath += `/${slug}`;
-      return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
-    }
-  }
-
-  // =========================
-  // ✅ 2. ŞEHİR SAYFASI FIX (Direkt /şehir yazılırsa /ülke/şehir'e atar)
-  // =========================
-  if (
-    parts.length === (2 + offset) &&
-    !pathname.includes('/kesfet/') &&
-    pathname !== '/' &&
-    pathname !== '/en' &&
-    !pathname.includes('.')
-  ) {
-    const cityInUrl = sanitize(parts[1 + offset]);
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (targetCountry) {
-      const newPath = isEn
-        ? `/en/${targetCountry}/${parts[1 + offset]}`
-        : `/${targetCountry}/${parts[1 + offset]}`;
-
-      return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
-    }
-  }
-
+  response.cookies.set('lang', 'tr', { path: '/' });
   return response;
 }
 
-// Statik dosyaları middleware dışında tutmak için config eklemelisin
 export const config = {
-  matcher: [
-    /*
-     * Aşağıdaki haricindeki tüm path'lerde middleware çalışsın:
-     * - api (API route'ları)
-     * - _next/static (statik dosyalar)
-     * - _next/image (resim optimizasyon dosyaları)
-     * - favicon.ico (ikon dosyası)
-     * - resim/video gibi uzantılar
-     */
-    '/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)',
-  ],
+  matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)'],
 };
