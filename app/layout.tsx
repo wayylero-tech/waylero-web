@@ -33,15 +33,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     displayLang = "en";
   }
 
-  return (
-    <html lang={displayLang} suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
-        <ClientProviders>
-  <ClientLayout>
-    {children}
-  </ClientLayout>
-</ClientProviders>
-      </body>
-    </html>
-  );
+ // Şurayı silip şu temiz halini yapıştır:
+return (
+  <html lang={displayLang} suppressHydrationWarning>
+    <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
+      <ClientProviders>
+        <ClientLayout>
+          {children}
+        </ClientLayout>
+      </ClientProviders>
+    </body>
+  </html>
+);
 }

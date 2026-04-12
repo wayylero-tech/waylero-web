@@ -6,35 +6,32 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "upload.wikimedia.org",
-        pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "firebasestorage.googleapis.com",
-        pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "**.googleapis.com",
-        pathname: "/**",
+        hostname: "*.googleapis.com",
       },
-
-      // ✅ YOUTUBE FIX
       {
         protocol: "https",
         hostname: "img.youtube.com",
-        pathname: "/**",
+      },
+
+      // ✅ DOĞRU DIGITAL OCEAN HOST
+      {
+        protocol: "https",
+        hostname: "ifyazilim.nyc3.digitaloceanspaces.com",
+      },
+
+      // 🔥 BUNU DA EKLE (cdn varyantı kullanıyorsan şart)
+      {
+        protocol: "https",
+        hostname: "ifyazilim.nyc3.cdn.digitaloceanspaces.com",
       },
     ],
-  },
-
-  async rewrites() {
-    return [
-      {
-        source: "/en/:path*",
-        destination: "/:path*?lang=en",
-      },
-    ];
   },
 };
 

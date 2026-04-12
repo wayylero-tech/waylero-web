@@ -93,12 +93,14 @@ export default function HomePage() {
             <div key={item.title} className="group block cursor-pointer">
               <Link href={item.url || getLocalizedLink(item.route!)} target={item.url ? "_blank" : "_self"}>
                 <div className="aspect-square sm:aspect-[4/5] rounded-[2rem] overflow-hidden bg-gray-100 mb-3 shadow-sm group-hover:shadow-xl transition-all duration-500 relative">
-                  <Image 
-                    src={item.image} 
-                    alt={item.title} 
-                    fill 
-                    className="object-cover group-hover:scale-110 transition-transform duration-700" 
-                  />
+                <Image 
+  src={item.image} 
+  alt={item.title} 
+  fill 
+  priority={index === 0}
+  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 25vw"
+  className="object-cover group-hover:scale-110 transition-transform duration-700" 
+/>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
               </Link>
@@ -134,11 +136,12 @@ export default function HomePage() {
               >
                 <div className="relative aspect-[9/16] rounded-[2rem] overflow-hidden shadow-sm group-hover:shadow-2xl transition-all duration-500">
                   <Image
-                    src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
-                    alt={video.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
+  src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
+  alt={video.title}
+  fill
+  sizes="(max-width: 768px) 50vw, 25vw"
+  className="object-cover group-hover:scale-110 transition-transform duration-700"
+/>
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500" />
                   
                   {/* Play Button Overlay */}
@@ -169,12 +172,13 @@ export default function HomePage() {
               return (
                 <Link key={c.slug} href={getLocalizedLink(`/${c.country}/${c.slug}`)} className="group block">
                   <div className="relative h-56 md:h-72 rounded-[2.5rem] overflow-hidden shadow-sm group-hover:shadow-2xl transition-all duration-500 bg-gray-100">
-                    <Image
-                      src={c.image}
-                      alt={localizedName}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-700"
-                    />
+                   <Image
+  src={c.image}
+  alt={localizedName}
+  fill
+  sizes="(max-width: 768px) 50vw, 33vw"
+  className="object-cover group-hover:scale-110 transition-transform duration-700"
+/>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-6 w-full transform group-hover:-translate-y-1 transition-transform duration-300">
                       <h3 className="text-white text-xl md:text-2xl font-black tracking-tight">

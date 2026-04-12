@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo, memo } from "react";
 import Link from "next/link";
 import { useLang } from "../context/LanguageContext";
 import { cleanSearchQuery, fuzzyMatch, normalizeText } from "@/lib/search";
+import Image from "next/image";
 
 
 // Veri importları
@@ -20,12 +21,12 @@ const countryToRegionMap: Record<string, string> = {
   ispanya: "europa", ingiltere: "europa", hollanda: "europa", 
   avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa",
   portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia",
-  isvec: "europa", norvec: "europa", isvicre: "europa", endonezya: "europa", 
-  irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
-  gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
-  cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "europa", filipinler: "europa", 
-  japonya: "asia", "sri-lanka": "asia", singapur: "europa", amerika: "europa", umman: "europa", 
-  "suudi-arabistan": "europa", misir: "europa", belarus: "europa"
+  isvec: "europa", norvec: "europa", isvicre: "europa", "suudi-arabistan": "europa", misir: "europa", "bosna-hersek": "europa",  
+  cin: "asia", hindistan: "asia", tayland: "europa", 
+  japonya: "asia", amerika: "europa","sri-lanka": "asia", singapur: "europa",  umman: "europa",  belarus: "europa", endonezya: "europa", 
+  irlanda: "europa", avustralya: "europa", "guney-kore": "europa", filipinler: "europa", 
+  gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
+  
 };
 
 const cityToCountryMap: Record<string, string> = {
@@ -73,12 +74,30 @@ const cityToCountryMap: Record<string, string> = {
   "beijing": "cin", "shanghai": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
 };
 
+const slugCache = new Map<string, string>();
+
 const slugify = (text: string) => {
   if (!text) return "";
-  const trMap: any = { ç: "c", ğ: "g", ı: "i", i: "i", ö: "o", ş: "s", ü: "u", Ç: "C", Ğ: "G", İ: "I", I: "i", Ö: "O", Ş: "S", Ü: "U" };
-  return text.toString().replace(/[çğışüöÇĞİŞÜÖ]/g, (m) => trMap[m]).toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "").replace(/--+/g, "-");
-};
 
+  if (slugCache.has(text)) return slugCache.get(text)!;
+
+  const trMap: any = {
+    ç: "c", ğ: "g", ı: "i", i: "i", ö: "o", ş: "s", ü: "u",
+    Ç: "C", Ğ: "G", İ: "I", I: "i", Ö: "O", Ş: "S", Ü: "U"
+  };
+
+  const result = text
+    .toString()
+    .replace(/[çğışüöÇĞİŞÜÖ]/g, (m) => trMap[m])
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/[^\w-]+/g, "")
+    .replace(/--+/g, "-");
+
+  slugCache.set(text, result);
+  return result;
+};
 // Yer Kartı Bileşeni (Arama Sonuçları İçin)
 const PlaceCard = memo(({ place, cityKey, region, lang, allImages, getLocalizedLink }: any) => {
   const cleanCitySlug = slugify(cityKey);
@@ -92,14 +111,23 @@ const PlaceCard = memo(({ place, cityKey, region, lang, allImages, getLocalizedL
 
   return (
     <Link href={getLocalizedLink(`/kesfet/${countryPath}/${cleanCitySlug}/${cleanPlaceSlug}`)} className="group block">
-      <div className="aspect-[3/4] rounded-[2rem] overflow-hidden bg-gray-100 mb-3 shadow-sm group-hover:shadow-xl transition-all duration-500 relative">
+      <div className="aspect-[3/4] rounded-[2rem] overflow-hidden bg-gray-100 mb-3 relative">
+        
         {coverImage ? (
-          <img src={coverImage} alt={place.name.tr} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+          <Image
+            src={coverImage}
+            alt={place.name.tr}
+            fill
+            loading="lazy" // 🔥 KRİTİK
+            sizes="(max-width: 768px) 50vw, 25vw"
+            className="object-cover group-hover:scale-110 transition-transform duration-700"
+          />
         ) : (
           <div className="flex items-center justify-center h-full text-gray-300 text-2xl bg-gray-50">📍</div>
         )}
-         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
       </div>
+
       <h3 className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 px-1 text-sm md:text-base">
         {place.name[lang] || place.name.tr}
       </h3>
@@ -128,6 +156,13 @@ export default function KesfetClient({ initialQuery, lang: propLang }: KesfetCli
   // ... (Geri kalan tüm kodun aynı kalabilir)
 
   const allData = useMemo(() => ({ turkey, europa, asia }), []);
+  const allRegions = useMemo(() => {
+  return {
+    turkey,
+    europa,
+    asia
+  };
+}, []);
   const allImages = useMemo(() => ({ turkey: turkeyImages, europa: europaImages, asia: asiaImages }), []);
   
   const getLocalizedLink = (path: string) => (lang === "tr" ? path : `/${lang}${path.startsWith("/") ? path : `/${path}`}`);
@@ -171,7 +206,7 @@ export default function KesfetClient({ initialQuery, lang: propLang }: KesfetCli
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {Object.entries(countryToRegionMap).map(([countrySlug, regionKey]) => {
+            {Object.entries(countryToRegionMap).map(([countrySlug, regionKey], index) => {
               const dataSource = regionKey === "turkey" ? turkey : regionKey === "europa" ? europa : asia;
               const citiesOfCountry = Object.entries(dataSource).filter(([cityKey]) => {
                 const citySlug = slugify(cityKey);
@@ -193,9 +228,16 @@ export default function KesfetClient({ initialQuery, lang: propLang }: KesfetCli
 
               return (
                 <Link key={countrySlug} href={getLocalizedLink(`/kesfet/${countrySlug}`)} className="group relative h-80 w-full overflow-hidden rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-500 bg-gray-100 block">
-                  {countryCoverImage ? (
-                    <img src={countryCoverImage} alt={countrySlug} className="absolute inset-0 h-full w-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                  ) : (
+                 {countryCoverImage ? (
+  <Image
+  src={countryCoverImage}
+  alt={countrySlug}
+  fill
+  priority={index < 1} // SADECE İLKİ
+  sizes="(max-width: 768px) 100vw, 33vw"
+  className="object-cover group-hover:scale-110 transition-transform duration-700"
+/>
+) : (
                     <div className="absolute inset-0 flex items-center justify-center bg-gray-50 text-6xl">🌍</div>
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
@@ -218,12 +260,19 @@ export default function KesfetClient({ initialQuery, lang: propLang }: KesfetCli
       {/* Arama Sonuçları Alanı */}
       {submittedSearch && (
         <div className="space-y-28">
-          {Object.entries(allData).map(([region, cities]: [string, any]) =>
+          {Object.entries(allRegions).map(([region, cities]: [string, any]) =>
             Object.entries(cities).map(([cityKey, places]: [string, any]) => {
-              const filtered = (places as any[]).filter(p => 
-                fuzzyMatch(normalizeText(cityKey), submittedSearch) || 
-                fuzzyMatch(normalizeText(p.name?.tr || ""), submittedSearch)
-              );
+              const searchQuery = submittedSearch;
+const searchCity = normalizeText(cityKey);
+
+const filtered = (places as any[]).filter(p => {
+  const placeName = p.name?.tr || "";
+
+  return (
+    fuzzyMatch(searchCity, searchQuery) ||
+    fuzzyMatch(normalizeText(placeName), searchQuery)
+  );
+});
 
               if (filtered.length === 0) return null;
 
@@ -240,7 +289,7 @@ export default function KesfetClient({ initialQuery, lang: propLang }: KesfetCli
                   </div>
 
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10">
-                    {filtered.map((place: any, index: number) => (
+                    {filtered.slice(0, 12).map((place: any, index: number) => (
                       <PlaceCard 
                         key={`${cityKey}-${place.slug}-${index}`}
                         place={place}

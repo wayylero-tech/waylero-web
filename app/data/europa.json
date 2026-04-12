@@ -3742,7 +3742,51 @@
     }
   ],
   "zurich": [
+ 
     {
+      "slug": "bahnhofstrasse",
+      "name": {
+        "tr": "Bahnhofstrasse",
+        "en": "Bahnhofstrasse",
+        "de": "Bahnhofstrasse"
+      },
+      "latitude": 47.3785,
+      "longitude": 8.5376,
+      "description": {
+        "tr": "Bahnhofstrasse, Zürih'in ünlü alışveriş caddesidir ve dünyaca ünlü mağazalarla doludur.",
+        "en": "Bahnhofstrasse is Zurich's famous shopping street, lined with world-renowned stores.",
+        "de": "Die Bahnhofstrasse ist die berühmte Einkaufsstraße von Zürich, gesäumt von weltbekannten Geschäften."
+      },
+      "activities": {
+        "tr": [
+          "Alışveriş yapma",
+          "Yürüyüş yapma"
+        ],
+        "en": [
+          "Shopping",
+          "Walking"
+        ],
+        "de": [
+          "Einkaufen",
+          "Spazieren gehen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "şehir turu"
+        ],
+        "en": [
+          "city tour"
+        ],
+        "de": [
+          "stadtrundfahrt"
+        ]
+      },
+      "images": [
+        "https://example.com/bahnhofstrasse.jpg"
+      ]
+    },
+   {
       "slug": "lake-zurich",
       "name": {
         "tr": "Lake Zurich",
@@ -3826,49 +3870,6 @@
       },
       "images": [
         "https://example.com/altstadt_zurich.jpg"
-      ]
-    },
-    {
-      "slug": "bahnhofstrasse",
-      "name": {
-        "tr": "Bahnhofstrasse",
-        "en": "Bahnhofstrasse",
-        "de": "Bahnhofstrasse"
-      },
-      "latitude": 47.3785,
-      "longitude": 8.5376,
-      "description": {
-        "tr": "Bahnhofstrasse, Zürih'in ünlü alışveriş caddesidir ve dünyaca ünlü mağazalarla doludur.",
-        "en": "Bahnhofstrasse is Zurich's famous shopping street, lined with world-renowned stores.",
-        "de": "Die Bahnhofstrasse ist die berühmte Einkaufsstraße von Zürich, gesäumt von weltbekannten Geschäften."
-      },
-      "activities": {
-        "tr": [
-          "Alışveriş yapma",
-          "Yürüyüş yapma"
-        ],
-        "en": [
-          "Shopping",
-          "Walking"
-        ],
-        "de": [
-          "Einkaufen",
-          "Spazieren gehen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "şehir turu"
-        ],
-        "en": [
-          "city tour"
-        ],
-        "de": [
-          "stadtrundfahrt"
-        ]
-      },
-      "images": [
-        "https://example.com/bahnhofstrasse.jpg"
       ]
     },
     {
