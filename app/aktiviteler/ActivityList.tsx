@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
 
@@ -45,17 +46,21 @@ export default function ActivityList({
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
+  const [isCityPanelOpen, setIsCityPanelOpen] = useState(false);
+
   const cityParam = searchParams.get("city");
 
   const selectedCityName = cityParam
-  ? decodeURIComponent(cityParam).normalize("NFC").toLocaleUpperCase("tr-TR")
-  : initialCityName || t.title;
+    ? decodeURIComponent(cityParam)
+        .normalize("NFC")
+        .toLocaleUpperCase("tr-TR")
+    : initialCityName || t.title;
 
   const activeCity = selectedCityName.toLocaleUpperCase("tr-TR");
 
   const cities = ["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"];
 
-  // ✅ FORMAT EVENTS
+  // FORMAT EVENTS (ORİJİNAL KORUNDU)
   const events = (initialEvents || []).map((item: any) => {
     const rawDate = item.start || item.start_date || item.baslangic;
     let eventDate: Date | null = null;
@@ -113,8 +118,10 @@ export default function ActivityList({
               <button
                 key={c}
                 onClick={() =>
-  router.push(`${pathname}?city=${encodeURIComponent(c.toLowerCase()).normalize("NFC")}`)
-}
+                  router.push(
+                    `${pathname}?city=${encodeURIComponent(c.toLowerCase()).normalize("NFC")}`
+                  )
+                }
                 className={`px-4 py-2 text-xs border rounded-xl transition-all ${
                   activeCity === c
                     ? "bg-white text-black border-white"
@@ -127,10 +134,7 @@ export default function ActivityList({
 
             {/* OTHER CITIES */}
             <button
-              onClick={() => {
-                window.dispatchEvent(new Event("triggerSearchFocus"));
-                window.scrollTo({ top: 0, behavior: "smooth" });
-              }}
+              onClick={() => setIsCityPanelOpen(true)}
               className="px-4 py-2 text-xs border border-yellow-500 text-yellow-400 rounded-xl hover:bg-yellow-500 hover:text-black transition-all"
             >
               {t.otherCities}
@@ -147,7 +151,6 @@ export default function ActivityList({
                 key={event.id}
                 className="bg-[#121212] rounded-2xl overflow-hidden border border-white/10 flex flex-col transition-all duration-300 hover:scale-[1.03] hover:-translate-y-2 hover:border-white/30 hover:shadow-2xl"
               >
-                {/* IMAGE */}
                 <div className="relative h-72">
                   <Image
                     src={event.image}
@@ -158,7 +161,6 @@ export default function ActivityList({
                   />
                 </div>
 
-                {/* CONTENT */}
                 <div className="p-5 flex flex-col flex-grow">
                   <h2 className="text-lg font-bold mb-1">
                     {event.name}
@@ -168,7 +170,7 @@ export default function ActivityList({
                     {event.venue}
                   </p>
 
-                  {/* DATE + TIME */}
+                  {/* DATE + TIME (KORUNDU) */}
                   <div className="text-xs text-yellow-400 mb-4">
                     {event.date ? (
                       <>
@@ -183,7 +185,6 @@ export default function ActivityList({
                     )}
                   </div>
 
-                  {/* BUY */}
                   <a
                     href={event.url}
                     target="_blank"
@@ -202,7 +203,7 @@ export default function ActivityList({
           )}
         </div>
 
-        {/* FOOTER (EN ÖNEMLİ KISIM) */}
+        {/* FOOTER (KORUNDU - ÖNEMLİ) */}
         <footer className="mt-16 text-center text-white text-xs md:text-sm opacity-80 pb-10">
           <p>
             Etkinlik verileri{" "}
@@ -219,6 +220,45 @@ export default function ActivityList({
         </footer>
 
       </div>
+
+      {/* RIGHT DRAWER */}
+      {isCityPanelOpen && (
+        <div className="fixed inset-0 z-50 flex">
+          <div
+            className="absolute inset-0 bg-black/60"
+            onClick={() => setIsCityPanelOpen(false)}
+          />
+
+          <div className="ml-auto w-full sm:w-[380px] h-full bg-[#0f0f0f] border-l border-white/10 p-6 relative z-10 animate-slideIn">
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-lg font-bold">Şehir Seç</h2>
+              <button
+                onClick={() => setIsCityPanelOpen(false)}
+                className="text-white/60 hover:text-white"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="flex flex-col gap-3">
+              {cities.map((c) => (
+                <button
+                  key={c}
+                  onClick={() => {
+                    router.push(
+                      `${pathname}?city=${encodeURIComponent(c.toLowerCase()).normalize("NFC")}`
+                    );
+                    setIsCityPanelOpen(false);
+                  }}
+                  className="px-4 py-3 rounded-xl border border-white/10 hover:border-white/40 text-left"
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
