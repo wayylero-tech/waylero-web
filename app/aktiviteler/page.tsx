@@ -65,19 +65,18 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const citySlug = params.city || "";
   const decodedSlug = decodeURIComponent(citySlug).trim();
 
-  // 🔥 KRİTİK FIX: şehir adı çıkarma
+  // 🔥 TÜRKÇE / UNICODE FIX
   function cleanCity(str: string) {
-  return decodeURIComponent(str)
-    .normalize("NFKD") // 🔥 combining karakterleri temizler
-    .replace(/[\u0300-\u036f]/g, "") // 🔥 diacritics temizle
-    .replace(/-/g, " ")
-    .trim()
-    .toLocaleUpperCase("tr-TR");
-}
+    return decodeURIComponent(str)
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/-/g, " ")
+      .trim()
+      .toLocaleUpperCase("tr-TR");
+  }
 
-const cityName = cleanCity(decodedSlug).split(" ")[0];
-
-  const cityName = citySlugClean;
+  // 🔥 ŞEHİR ADI (SADECE İLK KELİME)
+  const cityName = cleanCity(decodedSlug).split(" ")[0];
 
   const defaultCityName =
     lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
@@ -87,7 +86,7 @@ const cityName = cleanCity(decodedSlug).split(" ")[0];
   try {
     const apiParams = new URLSearchParams();
 
-    // cityMap normalize
+    // 🔥 cityMap normalize
     const normalizedCityMap = Object.fromEntries(
       Object.entries(cityMap).map(([key, value]) => [
         key.normalize("NFC").toLocaleUpperCase("tr-TR"),
@@ -99,9 +98,12 @@ const cityName = cleanCity(decodedSlug).split(" ")[0];
 
     if (cityId) {
       apiParams.append("city_ids", cityId.toString());
-    } else if (decodedSlug) {
-      apiParams.append("q", decodedSlug.normalize("NFC"));
     }
+
+    // ⚠️ fallback KAPALI (bug sebebiydi)
+    // else {
+    //   apiParams.append("q", decodedSlug.normalize("NFC"));
+    // }
 
     const domain = "www.waylero.com";
     const baseUrl =
