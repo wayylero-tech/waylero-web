@@ -66,12 +66,16 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const decodedSlug = decodeURIComponent(citySlug).trim();
 
   // 🔥 KRİTİK FIX: şehir adı çıkarma
-  const citySlugClean = decodedSlug
-    .split("-")[0]
-    .replace(/i/g, "İ")
-    .replace(/I/g, "İ")
+  function cleanCity(str: string) {
+  return decodeURIComponent(str)
+    .normalize("NFKD") // 🔥 combining karakterleri temizler
+    .replace(/[\u0300-\u036f]/g, "") // 🔥 diacritics temizle
+    .replace(/-/g, " ")
     .trim()
-    .toUpperCase();
+    .toLocaleUpperCase("tr-TR");
+}
+
+const cityName = cleanCity(decodedSlug).split(" ")[0];
 
   const cityName = citySlugClean;
 
