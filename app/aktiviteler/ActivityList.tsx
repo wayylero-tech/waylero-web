@@ -48,8 +48,8 @@ export default function ActivityList({
   const cityParam = searchParams.get("city");
 
   const selectedCityName = cityParam
-    ? cityParam.toLocaleUpperCase("tr-TR")
-    : initialCityName || t.title;
+  ? decodeURIComponent(cityParam).normalize("NFC").toLocaleUpperCase("tr-TR")
+  : initialCityName || t.title;
 
   const activeCity = selectedCityName.toLocaleUpperCase("tr-TR");
 
@@ -113,8 +113,8 @@ export default function ActivityList({
               <button
                 key={c}
                 onClick={() =>
-                  router.push(`${pathname}?city=${c.toLowerCase()}`)
-                }
+  router.push(`${pathname}?city=${encodeURIComponent(c.toLowerCase()).normalize("NFC")}`)
+}
                 className={`px-4 py-2 text-xs border rounded-xl transition-all ${
                   activeCity === c
                     ? "bg-white text-black border-white"
