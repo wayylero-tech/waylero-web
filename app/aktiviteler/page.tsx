@@ -47,30 +47,55 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const citySlug = params.city || "";
   const decodedSlug = decodeURIComponent(citySlug).trim();
 
-  const cityName = decodedSlug
-    .replace(/-/g, " ")
-    .toLocaleUpperCase("tr-TR")
-    .trim();
+  // ✅ EKLENDİ: normalize fonksiyonu
+  function normalizeCityKey(str: string) {
+    return decodeURIComponent(str)
+      .normalize("NFC")
+      .replace(/-/g, " ")
+      .trim()
+      .toLocaleUpperCase("tr-TR");
+  }
 
-  const cityId = cityMap[cityName];
-  const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
+  // ❌ ESKİ cityName SİLİNDİ
+  // const cityName = decodedSlug
+  //   .replace(/-/g, " ")
+  //   .toLocaleUpperCase("tr-TR")
+  //   .trim();
+
+  // ✅ YENİ cityName
+  const cityName = decodedSlug ? normalizeCityKey(decodedSlug) : "";
+
+  const defaultCityName =
+    lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
 
   let initialEvents = [];
 
   try {
     const apiParams = new URLSearchParams();
+
+    // ❗ cityMap’i güvenli hale getir
+    const normalizedCityMap = Object.fromEntries(
+      Object.entries(cityMap).map(([key, value]) => [
+        key.normalize("NFC").toLocaleUpperCase("tr-TR"),
+        value,
+      ])
+    );
+
+    const cityId = normalizedCityMap[cityName];
+
     if (cityId) {
       apiParams.append("city_ids", cityId.toString());
     } else if (decodedSlug) {
-      // İstanbul gibi kelimelerdeki karakter sorununu normalize ile çözüyoruz
+      // İstanbul gibi kelimelerde fallback query
       apiParams.append("q", decodedSlug.normalize("NFC"));
     }
 
-    // BASE URL AYARI: Kendi domainini buraya ekle ki hata payı kalmasın
-    const domain = "www.waylero.com"; // Kendi asıl domainini yaz
-    const baseUrl = process.env.NODE_ENV === "development" 
-      ? "http://localhost:3000" 
-      : `https://${domain}`;
+    // BASE URL AYARI
+    const domain = "www.waylero.com";
+    const baseUrl =
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:3000"
+        : `https://${domain}`;
 
     const res = await fetch(
       `${baseUrl}/api/events?${apiParams.toString()}`,
@@ -79,15 +104,14 @@ export default async function ActivitiesPage({ searchParams }: any) {
       }
     );
 
-    // Gelen cevap JSON değilse (HTML ise) patlamasın diye kontrol
     const contentType = res.headers.get("content-type");
+
     if (res.ok && contentType && contentType.includes("application/json")) {
       const data = await res.json();
       initialEvents = data.items || [];
     } else {
       console.error("API JSON döndürmedi. Status:", res.status);
     }
-
   } catch (err) {
     console.error("SSR Fetch Error:", err);
   }
