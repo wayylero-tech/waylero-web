@@ -1,41 +1,59 @@
-import { Metadata } from 'next';
+import { Metadata } from "next";
 import { cookies } from "next/headers";
-import ActivityList from './ActivityList';
+import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
 export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
   const params = await searchParams;
   const cookieStore = await cookies();
   const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
-  
+
   const cityParam = params.city;
-  const cityName = cityParam 
-    ? decodeURIComponent(cityParam).replace(/-/g, " ").toLocaleUpperCase("tr-TR") 
-    : (lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY");
+
+  const cityNameMeta = cityParam
+    ? decodeURIComponent(cityParam).replace(/-/g, " ").toLocaleUpperCase("tr-TR")
+    : lang === "tr"
+    ? "TÜRKİYE GENELİ"
+    : "ALL OVER TURKEY";
 
   const metaData = {
     tr: {
-      title: cityName === "TÜRKİYE GENELİ" ? "Türkiye’de Tüm Konserler | Waylero" : `${cityName}’daki Etkinlikler ve Konserler | Waylero`,
-      description: `${cityName} şehrindeki en güncel konserler, festivaller ve etkinlikler Waylero'da. Güvenli biletinizi hemen alın.`
+      title:
+        cityNameMeta === "TÜRKİYE GENELİ"
+          ? "Türkiye’de Tüm Konserler | Waylero"
+          : `${cityNameMeta}’daki Etkinlikler ve Konserler | Waylero`,
+      description: `${cityNameMeta} şehrindeki en güncel konserler, festivaller ve etkinlikler Waylero'da. Güvenli biletinizi hemen alın.`,
     },
     en: {
-      title: cityName === "ALL OVER TURKEY" ? "All Concerts in Turkey | Waylero" : `Events and Concerts in ${cityName} | Waylero`,
-      description: `The most up-to-date concerts, festivals, and events in ${cityName} on Waylero. Buy your secure ticket now.`
-    }
+      title:
+        cityNameMeta === "ALL OVER TURKEY"
+          ? "All Concerts in Turkey | Waylero"
+          : `Events and Concerts in ${cityNameMeta} | Waylero`,
+      description: `The most up-to-date concerts, festivals, and events in ${cityNameMeta} on Waylero. Buy your secure ticket now.`,
+    },
   }[lang] || { title: "Waylero Events", description: "Explore events." };
 
   return {
     title: metaData.title,
     description: metaData.description,
     alternates: {
-      canonical: lang === "en" 
-        ? `https://www.waylero.com/en/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`
-        : `https://www.waylero.com/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
+      canonical:
+        lang === "en"
+          ? `https://www.waylero.com/en/aktiviteler${
+              cityParam ? `?city=${cityParam}` : ""
+            }`
+          : `https://www.waylero.com/aktiviteler${
+              cityParam ? `?city=${cityParam}` : ""
+            }`,
       languages: {
-        "tr-TR": `https://www.waylero.com/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
-        "en-US": `https://www.waylero.com/en/aktiviteler${cityParam ? `?city=${cityParam}` : ''}`,
-      }
-    }
+        "tr-TR": `https://www.waylero.com/aktiviteler${
+          cityParam ? `?city=${cityParam}` : ""
+        }`,
+        "en-US": `https://www.waylero.com/en/aktiviteler${
+          cityParam ? `?city=${cityParam}` : ""
+        }`,
+      },
+    },
   };
 }
 
@@ -47,33 +65,25 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const citySlug = params.city || "";
   const decodedSlug = decodeURIComponent(citySlug).trim();
 
-  // ✅ EKLENDİ: normalize fonksiyonu
-  function normalizeCityKey(str: string) {
-    return decodeURIComponent(str)
-      .normalize("NFC")
-      .replace(/-/g, " ")
-      .trim()
-      .toLocaleUpperCase("tr-TR");
-  }
+  // 🔥 KRİTİK FIX: şehir adı çıkarma
+  const citySlugClean = decodedSlug
+    .split("-")[0]
+    .replace(/i/g, "İ")
+    .replace(/I/g, "İ")
+    .trim()
+    .toUpperCase();
 
-  // ❌ ESKİ cityName SİLİNDİ
-  // const cityName = decodedSlug
-  //   .replace(/-/g, " ")
-  //   .toLocaleUpperCase("tr-TR")
-  //   .trim();
-
-  // ✅ YENİ cityName
-  const cityName = decodedSlug ? normalizeCityKey(decodedSlug) : "";
+  const cityName = citySlugClean;
 
   const defaultCityName =
     lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
 
-  let initialEvents = [];
+  let initialEvents: any[] = [];
 
   try {
     const apiParams = new URLSearchParams();
 
-    // ❗ cityMap’i güvenli hale getir
+    // cityMap normalize
     const normalizedCityMap = Object.fromEntries(
       Object.entries(cityMap).map(([key, value]) => [
         key.normalize("NFC").toLocaleUpperCase("tr-TR"),
@@ -86,11 +96,9 @@ export default async function ActivitiesPage({ searchParams }: any) {
     if (cityId) {
       apiParams.append("city_ids", cityId.toString());
     } else if (decodedSlug) {
-      // İstanbul gibi kelimelerde fallback query
       apiParams.append("q", decodedSlug.normalize("NFC"));
     }
 
-    // BASE URL AYARI
     const domain = "www.waylero.com";
     const baseUrl =
       process.env.NODE_ENV === "development"
@@ -106,7 +114,7 @@ export default async function ActivitiesPage({ searchParams }: any) {
 
     const contentType = res.headers.get("content-type");
 
-    if (res.ok && contentType && contentType.includes("application/json")) {
+    if (res.ok && contentType?.includes("application/json")) {
       const data = await res.json();
       initialEvents = data.items || [];
     } else {
