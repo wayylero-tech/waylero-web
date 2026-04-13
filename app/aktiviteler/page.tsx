@@ -67,13 +67,10 @@ export default async function ActivitiesPage({ searchParams }: any) {
     if (cityId) apiParams.append("city_ids", cityId.toString());
     else if (decodedSlug) apiParams.append("q", decodedSlug);
 
-    const baseUrl =
-      process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-
+    // 🔥 SADELEŞTİRDİK (ASIL FIX BURASI)
     const res = await fetch(
-      `${baseUrl}/api/events?${apiParams.toString()}`,
+      `/api/events?${apiParams.toString()}`,
       {
-        // 🔥 TEK CACHE NOKTASI BURASI
         next: { revalidate: 1800 },
       }
     );
