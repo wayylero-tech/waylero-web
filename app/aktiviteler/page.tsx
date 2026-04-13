@@ -68,12 +68,16 @@ export default async function ActivitiesPage({ searchParams }: any) {
     else if (decodedSlug) apiParams.append("q", decodedSlug);
 
     // 🔥 SADELEŞTİRDİK (ASIL FIX BURASI)
-    const res = await fetch(
-      `/api/events?${apiParams.toString()}`,
-      {
-        next: { revalidate: 1800 },
-      }
-    );
+    const baseUrl = process.env.VERCEL_URL 
+  ? `https://${process.env.VERCEL_URL}` 
+  : "http://localhost:3000";
+
+const res = await fetch(
+  `${baseUrl}/api/events?${apiParams.toString()}`,
+  {
+    next: { revalidate: 1800 },
+  }
+);
 
     const data = await res.json();
     initialEvents = data.items || [];
