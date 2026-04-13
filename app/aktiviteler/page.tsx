@@ -3,7 +3,6 @@ import { cookies } from "next/headers";
 import ActivityList from './ActivityList';
 import { cityMap } from "@/lib/cityMap";
 
-
 export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
   const params = await searchParams;
   const cookieStore = await cookies();
@@ -42,7 +41,6 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
 
 export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
-
   const cookieStore = await cookies();
   const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 
@@ -55,32 +53,41 @@ export default async function ActivitiesPage({ searchParams }: any) {
     .trim();
 
   const cityId = cityMap[cityName];
-
-  const defaultCityName =
-    lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
+  const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
 
   let initialEvents = [];
 
   try {
     const apiParams = new URLSearchParams();
+    if (cityId) {
+      apiParams.append("city_ids", cityId.toString());
+    } else if (decodedSlug) {
+      // İstanbul gibi kelimelerdeki karakter sorununu normalize ile çözüyoruz
+      apiParams.append("q", decodedSlug.normalize("NFC"));
+    }
 
-    if (cityId) apiParams.append("city_ids", cityId.toString());
-    else if (decodedSlug) apiParams.append("q", decodedSlug);
+    // BASE URL AYARI: Kendi domainini buraya ekle ki hata payı kalmasın
+    const domain = "www.waylero.com"; // Kendi asıl domainini yaz
+    const baseUrl = process.env.NODE_ENV === "development" 
+      ? "http://localhost:3000" 
+      : `https://${domain}`;
 
-    // 🔥 SADELEŞTİRDİK (ASIL FIX BURASI)
-    const baseUrl = process.env.VERCEL_URL 
-  ? `https://${process.env.VERCEL_URL}` 
-  : "http://localhost:3000";
+    const res = await fetch(
+      `${baseUrl}/api/events?${apiParams.toString()}`,
+      {
+        next: { revalidate: 1800 },
+      }
+    );
 
-const res = await fetch(
-  `${baseUrl}/api/events?${apiParams.toString()}`,
-  {
-    next: { revalidate: 1800 },
-  }
-);
+    // Gelen cevap JSON değilse (HTML ise) patlamasın diye kontrol
+    const contentType = res.headers.get("content-type");
+    if (res.ok && contentType && contentType.includes("application/json")) {
+      const data = await res.json();
+      initialEvents = data.items || [];
+    } else {
+      console.error("API JSON döndürmedi. Status:", res.status);
+    }
 
-    const data = await res.json();
-    initialEvents = data.items || [];
   } catch (err) {
     console.error("SSR Fetch Error:", err);
   }
