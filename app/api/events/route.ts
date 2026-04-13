@@ -34,8 +34,8 @@ export async function GET(request: Request) {
     // Query params
     const { searchParams } = new URL(request.url);
     const cityId = searchParams.get("city_ids");
-    const query = searchParams.get("q");
-
+const rawQuery = searchParams.get("q") || "";
+const query = decodeURIComponent(rawQuery).normalize("NFC").trim();
     // Token kontrol
     const token = process.env.ETKINLIK_API_TOKEN;
     if (!token) {
