@@ -90,7 +90,7 @@ Tarihi freskleri incelemek
 Fotoğraf ve video çekimi yapmak
 Rehberli tur ile bölgenin tarihini öğrenmek
 
-Detaylar için tıkla 🔗 **[Göreme Açık Hava Müzesi](https://www.waylero.com/kesfet/turkey/nevsehir/goreme-acik-hava-muzesi)**
+Detaylar için tıkla 🔗 **[Göreme Açık Hava Müzesi](https://www.waylero.com/kesfet/turkiye/nevsehir/goreme-acik-hava-muzesi)**
 
 ---
 
@@ -171,7 +171,7 @@ Rehberli tur ile kale hakkında detaylı bilgi almak
 
 Uçhisar Kalesi, Kapadokya gezinizin en unutulmaz noktalarından biri olacak ve bölgenin hem doğal hem de kültürel zenginliğini bir arada deneyimlemenizi sağlayacaktır. Özellikle fotoğraf ve video çekimi yapmak isteyen ziyaretçiler için kale, eşsiz bir görsel şölen sunar.
 
-Detaylar için tıkla 🔗 **[Uçhisar Kalesi](https://www.waylero.com/kesfet/turkey/nevsehir/uchisar-kalesi)**
+Detaylar için tıkla 🔗 **[Uçhisar Kalesi](https://www.waylero.com/kesfet/turkiye/nevsehir/uchisar-kalesi)**
 
 ---
 
@@ -214,7 +214,7 @@ Bölgedeki gizli geçit ve merdiven sistemlerini incelemek
 
 Derinkuyu Yeraltı Şehri, Kapadokya seyahatinizde mutlaka görmeniz gereken yerlerden biridir. Hem tarih meraklıları hem de macera arayan ziyaretçiler için eşsiz bir deneyim sunar. Burayı gezmek, sadece Kapadokya’nın doğal güzelliklerini değil, aynı zamanda insanların tarih boyunca geliştirdiği yaratıcı çözümleri de keşfetmenizi sağlar.
 
-Detaylar için tıkla 🔗 **[Derinkuyu Yeraltı Şehri](https://www.waylero.com/kesfet/turkey/nevsehir/derinkuyu-yeralti-sehri)**
+Detaylar için tıkla 🔗 **[Derinkuyu Yeraltı Şehri](https://www.waylero.com/kesfet/turkiye/nevsehir/derinkuyu-yeralti-sehri)**
 
 ---
 
@@ -253,7 +253,7 @@ Rehberli tur ile bölgenin tarihçesini ve coğrafi oluşumlarını öğrenmek
 
 Paşabağ, Kapadokya seyahatinizde mutlaka uğramanız gereken noktaların başında gelir. Hem doğal güzelliği hem de tarihi dokusuyla, ziyaretçilerine unutulmaz bir deneyim sunar. Vadide geçireceğiniz birkaç saat, Kapadokya’nın neden dünyanın en etkileyici turistik bölgelerinden biri olduğunu açıkça gösterir.
 
-Detaylar için tıkla 🔗 **[Paşabağ (Rahipler Vadisi)](https://www.waylero.com/kesfet/turkey/nevsehir/pasabagi-rahipler-vadisi)**
+Detaylar için tıkla 🔗 **[Paşabağ (Rahipler Vadisi)](https://www.waylero.com/kesfet/turkiye/nevsehir/pasabagi-rahipler-vadisi)**
 
 ---
 
@@ -361,7 +361,7 @@ Kapadokya’ya 2026 yılında yapılacak bir geziyi bu tavsiyelerle planlamak, h
 
 Kapadokya, doğa ve tarihin birleştiği büyüleyici bir coğrafyadır.
 
-Daha fazla keşif için tıkla 🔗 **[Kapadokya Gezilecek Yerler](https://www.waylero.com/kesfet?q=nevsehir)**
+Daha fazla keşif için tıkla 🔗 **[Kapadokya Gezilecek Yerler](https://www.waylero.com/kesfet/turkiye/nevsehir)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
@@ -584,7 +584,7 @@ To expand your Cappadocia travel plan and discover different routes and hidden g
 👉 With detailed content, ready-made itineraries, and tools for creating personalized plans, you can plan your trip like a pro.
 
 ---
-Click here for details 🔗 **[Cappadocia Travel Guide](https://www.waylero.com/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
+Click here for details 🔗 **[Cappadocia Travel Guide](https://www.waylero.com/en/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 `

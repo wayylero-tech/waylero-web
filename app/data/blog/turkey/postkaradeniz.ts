@@ -64,7 +64,7 @@ Yayla turizmi açısından Hıdırnebi Yaylası, serin havası ve doğal güzell
 Karadeniz’in eşsiz doğasıyla Trabzon, 2026 yılında da yayla ve doğa turizmi arayanların en çok tercih ettiği şehirlerden biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Trabzon'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=trabzon)
+ [Trabzon'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/trabzon)
 
 
 ---
@@ -77,7 +77,7 @@ Bunun yanında Fırtına Vadisi, doğa yürüyüşleri, rafting ve fotoğraf tur
 Karadeniz’in yeşil doğası ve yaylalarıyla Rize, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Rize'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=rize)
+ [Rize'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/rize)
 
 
 ### 📍 Artvin’de Gezilecek Yerler 2026
@@ -89,7 +89,7 @@ Bunun yanında Artvin Kalesi, şehir merkezinde panoramik manzaralar sunan tarih
 Karadeniz’in serin iklimi ve yemyeşil yaylalarıyla Artvin, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Artvin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=artvin)
+ [Artvin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/artvin)
 
 
 ---
@@ -102,7 +102,7 @@ Bunun yanında Amazon Köyü, Samsun’un kültürel ve doğal mirasını keşfe
 Karadeniz’in tarihi ve doğal güzellikleriyle Samsun, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Samsun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=samsun)
+ [Samsun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/samsun)
 
 ---
 ### 📍 Bolu’da Gezilecek Yerler 2026
@@ -114,7 +114,7 @@ Bunun yanında Yedigöller Milli Parkı, doğa ve kamp turizmi için eşsiz rota
 Karadeniz’in serin iklimi ve yemyeşil ormanlarıyla Bolu, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bolu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=bolu)
+ [Bolu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bolu)
 
 ---
 ###  📍 Gümüşhane’de Gezilecek Yerler 2026
@@ -126,7 +126,7 @@ Bunun yanında Karaca Mağarası, sarkıt ve dikitleriyle doğa turizmi için id
 Karadeniz’in yüksek yaylaları ve tarihi zenginlikleriyle Gümüşhane, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Gümüşhane'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=gumushane)
+ [Gümüşhane'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/gumushane)
 
 ---
 ###  📍 Bartın’da Gezilecek Yerler 2026
@@ -138,7 +138,7 @@ Bunun yanında Amasra, tarihi taş evleri ve limanıyla hem kültür hem deniz t
 Karadeniz’in serin iklimi ve yeşil doğasıyla Bartın, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bartın'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=bartin)
+ [Bartın'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bartin)
 
 ---
 ### 📍 Amasya’da Gezilecek Yerler 2026
@@ -150,7 +150,7 @@ Pontus Krallığı’ndan kalan Amasya Kral Kaya Mezarları, şehir merkezinden 
 Karadeniz’in kültürel zenginliğini yansıtan şehirde Amasya’da gezilecek yerler 2026 seçenekleri, 2026 yılında da sakin ve otantik destinasyon arayanların ilgisini çekmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Amasya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=amasya)
+ [Amasya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/amasya)
 
 
 ---
@@ -163,7 +163,7 @@ Bunun yanında Giresun Adası, Karadeniz’in doğal güzelliklerini keşfetmek 
 Karadeniz’in yemyeşil yaylaları ve tarihi dokusuyla Giresun, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Giresun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=giresun)
+ [Giresun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/giresun)
 
 
 
@@ -177,7 +177,7 @@ Bunun yanında Aydıntepe Yeraltı Şehri, bölgenin benzersiz tarihini deneyiml
 Karadeniz’in yeşil doğası ve tarihi dokusuyla Bayburt, gezilecek yerler 2026 rotaları arasında 2026 yılında da keşif meraklıları için önemli bir durak olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bayburt'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=bayburt)
+ [Bayburt'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bayburt)
 
 ---
 ### 📍 Çorum’da Gezilecek Yerler 2026
@@ -189,7 +189,7 @@ Bunun yanında Alacahöyük, arkeoloji meraklıları için eşsiz bir duraktır.
 Karadeniz ve İç Anadolu’nun kesişiminde konumlanan Çorum, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve tarih turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Çorum'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=corum)
+ [Çorum'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/corum)
 
 ---
 ###  📍 Düzce’de Gezilecek Yerler 2026
@@ -201,7 +201,7 @@ Bunun yanında Samandere Şelalesi Tabiat Parkı, trekking ve doğa keşfi yapma
 Karadeniz’in yemyeşil doğası ve serin iklimiyle Düzce, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Düzce'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=duzce)
+ [Düzce'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/duzce)
 
 
 
@@ -215,7 +215,7 @@ Bunun yanında Bulak Mağarası, doğa yürüyüşleri ve fotoğrafçılık içi
 Karadeniz’in tarihi ve doğal dokusuyla Karabük, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Karabük'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=karabuk)
+ [Karabük'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/karabuk)
 
 ---
 ### 📍 Kastamonu’da Gezilecek Yerler 2026
@@ -227,7 +227,7 @@ Bunun yanında Ilgaz Dağı Milli Parkı, doğa yürüyüşleri ve kış sporlar
 Karadeniz’in yeşil yaylaları ve tarihî dokusuyla Kastamonu, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kastamonu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=kastamonu)
+ [Kastamonu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kastamonu)
 
 ---
 ###  📍 Ordu’da Gezilecek Yerler 2026
@@ -239,7 +239,7 @@ Bunun yanında Perşembe Yaylası, Karadeniz’in yeşil doğasını deneyimleme
 Karadeniz’in doğal ve kültürel güzellikleriyle Ordu, gezilecek yerler 2026 rotaları arasında 2026 yılında da yayla ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Ordu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=ordu)
+ [Ordu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/ordu)
 
 ---
 ###  📍 Sinop’ta Gezilecek Yerler 2026
@@ -251,7 +251,7 @@ Bunun yanında Hamsilos Koyu, deniz ve doğa turizmi için ideal bir rotadır. A
 Karadeniz’in yeşil doğası ve sahil güzellikleriyle Sinop, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Sinop'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=sinop)
+ [Sinop'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/sinop)
 
 
 ---
@@ -266,7 +266,7 @@ Doğa yürüyüşü ve kamp için Harmankaya Şelaleleri, huzurlu atmosferiyle d
 Zonguldak’ta gezilecek yerler 2026 rehberi; doğa, deniz ve keşif dolu rotalar arayanlar için kapsamlı seçenekler sunar. Karadeniz’in serin havası ve doğal dokusuyla Zonguldak, 2026 yılında da doğa turizmi meraklılarının gözde şehirlerinden biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Zonguldak'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=zonguldak)
+ [Zonguldak'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/zonguldak)
 
 ---
 ###  📍 Tokat’ta Gezilecek Yerler 2026
@@ -282,7 +282,7 @@ Tarihî konakları ve dar sokaklarıyla Tokat şehir merkezi de kültür turizmi
 Karadeniz’in doğal dokusu ile Anadolu’nun tarihî mirasını buluşturan Tokat, 2026 yılında da keşfedilmeyi bekleyen şehirler arasında yer almaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Tokat'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=tokat)
+ [Tokat'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/tokat)
 
 
 
@@ -359,7 +359,7 @@ In terms of highland tourism, Hıdırnebi Plateau attracts significant interest 
 With the Black Sea’s unique natural beauty, Trabzon continues to be one of the most preferred cities for those seeking mountain and nature tourism in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Trabzon](https://www.waylero.com/en/kesfet?q=trabzon)
+ [Click Here for Places to Visit in Trabzon](https://www.waylero.com/en/kesfet/turkiye/trabzon)
 
 ---
 ### 📍 Places to Visit in Rize in 2026
@@ -371,7 +371,7 @@ Additionally, the Fırtına Valley offers an ideal route for nature hikes, rafti
 With the Black Sea’s lush nature and highlands, Rize remains one of the top destinations for those seeking nature and cultural tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Rize](https://www.waylero.com/en/kesfet?q=rize)
+ [Click Here for Places to Visit in Rize](https://www.waylero.com/en/kesfet/turkiye/rize)
 
 
 ---
@@ -384,7 +384,7 @@ Additionally, Artvin Castle is a historic site in the city center offering panor
 With the Black Sea’s cool climate and lush highlands, Artvin remains one of the top destinations for those seeking nature and cultural tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Artvin](https://www.waylero.com/en/kesfet?q=artvin)
+ [Click Here for Places to Visit in Artvin](https://www.waylero.com/en/kesfet/turkiye/artvin)
 
 ---
 ### 📍 Places to Visit in Bolu 2026
@@ -396,7 +396,7 @@ In addition, Yedigöller National Park offers unique routes for nature and campi
 With the Black Sea’s cool climate and lush forests, Bolu remains one of the top destinations for nature and cultural tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Bolu](https://www.waylero.com/en/kesfet?q=bolu)
+ [Click Here for Places to Visit in Bolu](https://www.waylero.com/en/kesfet/turkiye/bolu)
 
 ---
 ### 📍 Places to Visit in Samsun in 2026
@@ -408,7 +408,7 @@ In addition, Amazon Village is an ideal route for those wishing to explore Samsu
 With the historical and natural beauty of the Black Sea, Samsun remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Samsun](https://www.waylero.com/en/kesfet?q=samsun)
+ [Click Here for Places to Visit in Samsun](https://www.waylero.com/en/kesfet/turkiye/samsun)
 
 ---
 ### 📍 Places to Visit in Gümüşhane 2026
@@ -420,7 +420,7 @@ Additionally, Karaca Cave, with its stalactites and stalagmites, is an ideal des
 With the Black Sea’s high plateaus and historical riches, Gümüşhane continues to be one of the top destinations for nature and cultural tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Gümüşhane](https://www.waylero.com/en/kesfet?q=gumushane)
+ [Click Here for Places to Visit in Gümüşhane](https://www.waylero.com/en/kesfet/turkiye/gumushane)
 
 ---
 ### 📍 Places to Visit in Giresun in 2026
@@ -432,7 +432,7 @@ In addition, Giresun Island is an ideal destination for those wishing to explore
 With its lush Black Sea highlands and historical charm, Giresun remains one of the top destinations for nature and cultural tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Giresun](https://www.waylero.com/en/kesfet?q=giresun)
+ [Click Here for Places to Visit in Giresun](https://www.waylero.com/en/kesfet/turkiye/giresun)
 
 
 ---
@@ -445,7 +445,7 @@ Additionally, Ilgaz Mountain National Park is an ideal destination for nature hi
 With the Black Sea’s green highlands and its historical charm, Kastamonu remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Kastamonu](https://www.waylero.com/en/kesfet?q=kastamonu)
+ [Click Here for Places to Visit in Kastamonu](https://www.waylero.com/en/kesfet/turkiye/kastamonu)
 
 ---
 ### 📍 Places to Visit in Ordu in 2026
@@ -457,7 +457,7 @@ In addition, Perşembe Plateau is an ideal route for those wishing to experience
 With the Black Sea’s natural and cultural beauty, Ordu remains one of the top destinations for those seeking highland and nature tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Ordu](https://www.waylero.com/en/kesfet?q=ordu)
+ [Click Here for Places to Visit in Ordu](https://www.waylero.com/en/kesfet/turkiye/ordu)
 
 ---
 ### 📍 Places to Visit in Amasya 2026
@@ -469,7 +469,7 @@ The Amasya Royal Rock Tombs, remnants of the Pontus Kingdom, are easily visible 
 Reflecting the cultural richness of the Black Sea region, the 2026 guide to places to visit in Amasya continues to attract those seeking a peaceful and authentic destination in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Amasya](https://www.waylero.com/en/kesfet?q=amasya)
+ [Click Here for Places to Visit in Amasya](https://www.waylero.com/en/kesfet/turkiye/amasya)
 
 ---
 ### 📍 Places to Visit in Karabük in 2026
@@ -481,7 +481,7 @@ In addition, Bulak Cave is an ideal route for nature walks and photography. Furt
 With the historical and natural charm of the Black Sea, Karabük continues to be one of the top destinations for those seeking cultural and nature tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Karabük](https://www.waylero.com/en/kesfet?q=karabuk)
+ [Click Here for Places to Visit in Karabük](https://www.waylero.com/en/kesfet/turkiye/karabuk)
 
 ---
 ### 📍 Places to Visit in Düzce 2026
@@ -493,7 +493,7 @@ In addition, Samandere Waterfall Nature Park is an ideal route for those seeking
 With the Black Sea’s lush green nature and cool climate, Düzce remains one of the top destinations for nature tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Düzce](https://www.waylero.com/en/kesfet?q=duzce)
+ [Click Here for Places to Visit in Düzce](https://www.waylero.com/en/kesfet/turkiye/duzce)
 
 ---
 ### 📍 Places to Visit in Sinop in 2026
@@ -505,7 +505,7 @@ In addition, Hamsilos Bay is an ideal destination for marine and nature tourism.
 With the Black Sea’s lush nature and coastal beauty, Sinop remains one of the top destinations for nature and cultural tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Sinop](https://www.waylero.com/en/kesfet?q=sinop)
+ [Click Here for Places to Visit in Sinop](https://www.waylero.com/en/kesfet/turkiye/sinop)
 
 ---
 ### 📍 Places to Visit in Bayburt 2026
@@ -517,7 +517,7 @@ Additionally, the Aydıntepe Underground City is an intriguing stop for those wi
 With the Black Sea’s lush nature and historical charm, Bayburt remains a key destination for exploration enthusiasts among the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Bayburt](https://www.waylero.com/en/kesfet?q=bayburt)
+ [Click Here for Places to Visit in Bayburt](https://www.waylero.com/en/kesfet/turkiye/bayburt)
 
 
 ---
@@ -532,7 +532,7 @@ Harmankaya Waterfalls, with its serene atmosphere, is a standout destination for
 The 2026 guide to places to visit in Zonguldak offers comprehensive options for those seeking routes filled with nature, the sea, and exploration. With the Black Sea’s cool air and natural charm, Zonguldak continues to be one of the top destinations for nature tourism enthusiasts in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Zonguldak](https://www.waylero.com/en/kesfet?q=zonguldak)
+ [Click Here for Places to Visit in Zonguldak](https://www.waylero.com/en/kesfet/turkiye/zonguldak)
 
 ---
 ### 📍 Places to Visit in Tokat in 2026
@@ -548,7 +548,7 @@ With its historic mansions and narrow streets, the city center of Tokat is also 
 Where the natural landscape of the Black Sea meets the historical heritage of Anatolia, Tokat continues to be among the cities waiting to be discovered in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Tokat](https://www.waylero.com/en/kesfet?q=tokat)
+ [Click Here for Places to Visit in Tokat](https://www.waylero.com/en/kesfet/turkiye/tokat)
 
 ---
 ### 📍 Places to Visit in Bartın in 2026
@@ -560,7 +560,7 @@ Additionally, Amasra, with its historic stone houses and harbor, is an ideal des
 With the Black Sea’s cool climate and lush greenery, Bartın remains one of the top destinations for nature and cultural tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Bartın](https://www.waylero.com/en/kesfet?q=bartin)
+ [Click Here for Places to Visit in Bartın](https://www.waylero.com/en/kesfet/turkiye/bartin)
 
 ---
 

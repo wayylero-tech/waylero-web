@@ -63,7 +63,7 @@ Fethiye şehir merkezine yaklaşık 45 km mesafededir. Özel araçla yaklaşık 
 Debi: İlkbaharda güçlü  
 Ziyaretçi Yoğunluğu: Çok yüksek
 
-Detaylar için tıkla 🔗 **[Saklıkent Kanyonu](https://www.waylero.com/kesfet/turkey/mugla/saklikent-kanyonu)**
+Detaylar için tıkla 🔗 **[Saklıkent Kanyonu](https://www.waylero.com/kesfet/turkiye/mugla/saklikent-kanyonu)**
 
 ---
 
@@ -81,7 +81,7 @@ Antalya şehir merkezine yaklaşık 85 km mesafededir.
 Debi: Yüksek (rafting için ideal)  
 Ziyaretçi Yoğunluğu: Çok yüksek
 
-Detaylar için tıkla 🔗 **[Köprülü Kanyon](https://www.waylero.com/kesfet/turkey/antalya/koprulu-kanyon-milli-parki)**
+Detaylar için tıkla 🔗 **[Köprülü Kanyon](https://www.waylero.com/kesfet/turkiye/antalya/koprulu-kanyon-milli-parki)**
 
 ---
 
@@ -98,7 +98,7 @@ Antalya şehir merkezinden yaklaşık 90 km uzaklıktadır. Köprülü Kanyon Mi
 📐 Uçurum yüksekliği: 200 metreye yakın  
 Ziyaretçi Yoğunluğu: Son yıllarda hızla artmaktadır
 
-Detaylar için tıkla 🔗 **[Tazı Kanyonu](https://www.waylero.com/kesfet/turkey/antalya/tazi-kanyonu)**
+Detaylar için tıkla 🔗 **[Tazı Kanyonu](https://www.waylero.com/kesfet/turkiye/antalya/tazi-kanyonu)**
 
 ---
 
@@ -117,7 +117,7 @@ Kastamonu şehir merkezine yaklaşık 120 km uzaklıktadır. Pınarbaşı ilçes
 📐 Uzunluk: ~12 km  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Valla Kanyonu](https://www.waylero.com/kesfet/turkey/kastamonu/valla-kanyonu)**
+Detaylar için tıkla 🔗 **[Valla Kanyonu](https://www.waylero.com/kesfet/turkiye/kastamonu/valla-kanyonu)**
 
 ---
 
@@ -134,7 +134,7 @@ Samsun şehir merkezine yaklaşık 120 km mesafededir. Vezirköprü ilçesi üze
 📐 Kayalık yüksekliği: 300 metreyi aşan bölümler  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Şahinkaya Kanyonu](https://www.waylero.com/kesfet/turkey/samsun/sahinkaya-kanyonu)**
+Detaylar için tıkla 🔗 **[Şahinkaya Kanyonu](https://www.waylero.com/kesfet/turkiye/samsun/sahinkaya-kanyonu)**
 
 ---
 
@@ -153,7 +153,7 @@ Aydın’ın Bozdoğan ilçesi üzerinden ulaşım sağlanır.
 📐 Yükseklik: 300 metreyi aşan kayalıklar  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Arapapıştı Kanyonu](https://www.waylero.com/kesfet/turkey/aydin/arapapisti-kanyonu)**
+Detaylar için tıkla 🔗 **[Arapapıştı Kanyonu](https://www.waylero.com/kesfet/turkiye/aydin/arapapisti-kanyonu)**
 
 ---
 
@@ -172,7 +172,7 @@ Uşak şehir merkezine yaklaşık 30 km mesafededir.
 📐 Derinlik: 150 – 170 metre  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Ulubey Kanyonu](https://www.waylero.com/kesfet/turkey/usak/ulubey-kanyonu)**
+Detaylar için tıkla 🔗 **[Ulubey Kanyonu](https://www.waylero.com/kesfet/turkiye/usak/ulubey-kanyonu)**
 
 ---
 
@@ -230,7 +230,7 @@ It is approximately 45 km from Fethiye city center. It takes about 1 hour by pri
 Flow Rate: Strong in spring  
 Visitor Density: Very high
 
-Click for details 🔗 **[Saklıkent Canyon](https://www.waylero.com/en/kesfet/turkey/mugla/saklikent-kanyonu)**
+Click for details 🔗 **[Saklıkent Canyon](https://www.waylero.com/en/kesfet/turkiye/mugla/saklikent-kanyonu)**
 
 ---
 
@@ -248,7 +248,7 @@ It is approximately 85 km from Antalya city center.
 Flow Rate: High (ideal for rafting)  
 Visitor Density: Very high
 
-Click for details 🔗 **[Köprülü Canyon](https://www.waylero.com/en/kesfet/turkey/antalya/koprulu-kanyon-milli-parki)**
+Click for details 🔗 **[Köprülü Canyon](https://www.waylero.com/en/kesfet/turkiye/antalya/koprulu-kanyon-milli-parki)**
 
 ---
 
@@ -265,7 +265,7 @@ It is approximately 90 km from Antalya city center. Access is provided via Köpr
 📐 Cliff Height: Close to 200 meters  
 Visitor Density: Rapidly increasing in recent years
 
-Click for details 🔗 **[Tazı Canyon](https://www.waylero.com/en/kesfet/turkey/antalya/tazi-kanyonu)**
+Click for details 🔗 **[Tazı Canyon](https://www.waylero.com/en/kesfet/turkiye/antalya/tazi-kanyonu)**
 
 ---
 
@@ -284,7 +284,7 @@ It is approximately 120 km from Kastamonu city center. Access is via the Pınarb
 📐 Length: ~12 km  
 Visitor Density: Moderate
 
-Click for details 🔗 **[Valla Canyon](https://www.waylero.com/en/kesfet/turkey/kastamonu/valla-kanyonu)**
+Click for details 🔗 **[Valla Canyon](https://www.waylero.com/en/kesfet/turkiye/kastamonu/valla-kanyonu)**
 
 ---
 
@@ -301,7 +301,7 @@ It is approximately 120 km from Samsun city center. Accessible via the Vezirköp
 📐 Rock Height: Sections exceeding 300 meters  
 Visitor Density: Moderate
 
-Click for details 🔗 **[Şahinkaya Canyon](https://www.waylero.com/en/kesfet/turkey/samsun/sahinkaya-kanyonu)**
+Click for details 🔗 **[Şahinkaya Canyon](https://www.waylero.com/en/kesfet/turkiye/samsun/sahinkaya-kanyonu)**
 
 ---
 
@@ -320,7 +320,7 @@ Access is via the Bozdoğan district of Aydın.
 📐 Height: Rocky cliffs exceeding 300 meters  
 Visitor Density: Moderate
 
-Click for details 🔗 **[Arapapıştı Canyon](https://www.waylero.com/kesfet/turkey/aydin/arapapisti-kanyonu)**
+Click for details 🔗 **[Arapapıştı Canyon](https://www.waylero.com/en/kesfet/turkiye/aydin/arapapisti-kanyonu)**
 
 ---
 
@@ -339,7 +339,7 @@ It is approximately 30 km from Uşak city center.
 📐 Depth: 150 – 170 meters  
 Visitor Density: Moderate
 
-Click for details 🔗 **[Ulubey Canyon](https://www.waylero.com/en/kesfet/turkey/usak/ulubey-kanyonu)**
+Click for details 🔗 **[Ulubey Canyon](https://www.waylero.com/en/kesfet/turkiye/usak/ulubey-kanyonu)**
 
 ---
 

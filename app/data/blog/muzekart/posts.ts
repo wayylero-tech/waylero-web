@@ -84,6 +84,8 @@ Kültür ve Turizm Bakanlığı’na bağlı **yüzlerce noktada** geçerlidir.
 📌 Fiyat Aralığı: Ücretsiz – 750 TL  
 📌 Avantaj: Uygun fiyatlı, hızlı giriş, geniş kapsama alanı
 
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)*
+
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
   `,
@@ -138,6 +140,9 @@ The pass is valid in **hundreds of locations** including museums, ancient cities
 📌 Coverage: Government museums & archaeological sites  
 📌 Price Range: Free – 750 TL  
 📌 Advantage: Affordable, fast entry, wide coverage
+
+Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**
+
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
   `

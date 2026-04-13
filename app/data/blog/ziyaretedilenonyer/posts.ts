@@ -92,7 +92,7 @@ Ulaşım seçenekleri:
 
 Ayasofya, İstanbul’un tarihi ve kültürel kimliğinin en önemli sembollerinden biridir. Türkiye’ye gelen ziyaretçilerin büyük çoğunluğu için bu yapı mutlaka görülmesi gereken turistik noktaların başında gelir.
 
-Detaylar için tıkla 🔗 **[Ayasofya](https://www.waylero.com/kesfet/turkey/istanbul/ayasofya)**
+Detaylar için tıkla 🔗 **[Ayasofya](https://www.waylero.com/kesfet/turkiye/istanbul/ayasofya)**
 ---
 
 ## 🎈 Kapadokya (Nevşehir)
@@ -153,7 +153,7 @@ Ulaşım seçenekleri:
 
 Kapadokya, doğal güzellikleri ve tarihi atmosferi sayesinde Türkiye’de mutlaka görülmesi gereken turistik destinasyonlardan biridir. Peri bacalarıyla dolu vadiler, yeraltı şehirleri ve balon manzaraları ziyaretçilere unutulmaz bir deneyim sunar.
 
-Detaylar için tıkla 🔗 **[Kapadokya](https://www.waylero.com/kesfet/turkey/nevsehir/peri-bacalari)**
+Detaylar için tıkla 🔗 **[Kapadokya](https://www.waylero.com/kesfet/turkiye/nevsehir/peri-bacalari)**
 
 ---
 
@@ -194,7 +194,7 @@ Ulaşım seçenekleri:
 
 Pamukkale Travertenleri, hem doğal güzelliği hem de tarihî mirasıyla Türkiye’nin en çok ziyaret edilen turistik noktalarından biridir. Travertenler ve Hierapolis Antik Kenti, ziyaretçilere unutulmaz bir doğa ve tarih deneyimi sunar.
 
-Detaylar için tıkla 🔗 **[Pamukkale Travertenleri](https://www.waylero.com/kesfet/turkey/denizli/pamukkale-travertenleri)**
+Detaylar için tıkla 🔗 **[Pamukkale Travertenleri](https://www.waylero.com/kesfet/turkiye/denizli/pamukkale-travertenleri)**
 ---
 
 ## 🏛 Efes Antik Kenti (İzmir)
@@ -233,7 +233,7 @@ Ulaşım seçenekleri:
 
 Efes Antik Kenti, Türkiye’nin en çok ziyaret edilen turistik yerlerinden biri olarak hem tarih hem de kültürel deneyim sunar. Roma dönemi mimarisi ve antik kalıntılar, ziyaretçilere adeta zamanda yolculuk hissi verir.
 
-Detaylar için tıkla 🔗 **[Efes Antik Kenti](https://www.waylero.com/kesfet/turkey/izmir/efes-antik-kenti)**
+Detaylar için tıkla 🔗 **[Efes Antik Kenti](https://www.waylero.com/kesfet/turkiye/izmir/efes-antik-kenti)**
 
 ---
 
@@ -281,7 +281,7 @@ Ulaşım seçenekleri:
 
 Ölüdeniz, hem sakin lagünü hem de aksiyon dolu aktiviteleri ile Türkiye’nin en çok ziyaret edilen turistik bölgelerinden biridir. Turkuaz denizi ve çevresindeki doğal güzellikler, ziyaretçilere unutulmaz bir deneyim sunar.
 
-Detaylar için tıkla 🔗 **[Ölüdeniz](https://www.waylero.com/kesfet/turkey/mugla/oludeniz)**
+Detaylar için tıkla 🔗 **[Ölüdeniz](https://www.waylero.com/kesfet/turkiye/mugla/oludeniz)**
 
 ---
 
@@ -321,7 +321,7 @@ Ulaşım seçenekleri:
 
 Sümela Manastırı, Trabzon’un ve Karadeniz Bölgesi’nin en çok ziyaret edilen turistik noktalarından biridir. Tarihi dokusu ve nefes kesen manzarasıyla ziyaretçilerine hem kültürel hem de doğa deneyimi sunar.
 
-Detaylar için tıkla 🔗 **[Sümela Manastırı](https://www.waylero.com/kesfet/turkey/trabzon/sumela-manastiri)**
+Detaylar için tıkla 🔗 **[Sümela Manastırı](https://www.waylero.com/kesfet/turkiye/trabzon/sumela-manastiri)**
 
 ---
 
@@ -361,7 +361,7 @@ Ulaşım seçenekleri:
 
 Göbeklitepe, insanlık tarihinin en eski ve etkileyici yapılarından biri olarak Türkiye’nin en çok ziyaret edilen turistik noktalarından biridir. Arkeolojik önemi ve gizemli atmosferi, ziyaretçilere hem kültürel hem de eğitici bir deneyim sunar.
 
-Detaylar için tıkla 🔗 **[Göbeklitepe](https://www.waylero.com/kesfet/turkey/sanliurfa/gobeklitepe)**
+Detaylar için tıkla 🔗 **[Göbeklitepe](https://www.waylero.com/kesfet/turkiye/sanliurfa/gobeklitepe)**
 
 ---
 
@@ -401,7 +401,7 @@ Ulaşım seçenekleri:
 
 Nemrut Dağı, tarihi dokusu ve doğal manzarasıyla Türkiye’nin en çok ziyaret edilen turistik noktalarından biridir. Dev heykeller, tümülüs mezarlar ve eşsiz manzarası ziyaretçilere unutulmaz bir deneyim sunar.
 
-Detaylar için tıkla 🔗 **[Nemrut Dağı](https://www.waylero.com/kesfet/turkey/adiyaman/nemrut-dagi)**
+Detaylar için tıkla 🔗 **[Nemrut Dağı](https://www.waylero.com/kesfet/turkiye/adiyaman/nemrut-dagi)**
 ---
 
 ## 🌿 Uzungöl (Trabzon)
@@ -448,7 +448,7 @@ Ulaşım seçenekleri:
 
 Uzungöl, doğası, gölü ve çevresindeki dağ manzaralarıyla Türkiye’nin en çok ziyaret edilen doğal turizm alanlarından biridir. Hem dinlenmek hem de doğa fotoğrafçılığı yapmak isteyenler için ideal bir destinasyondur.
 
-Detaylar için tıkla 🔗 **[Uzungöl](https://www.waylero.com/kesfet/turkey/trabzon/uzungol)**
+Detaylar için tıkla 🔗 **[Uzungöl](https://www.waylero.com/kesfet/turkiye/trabzon/uzungol)**
 ---
 
 ## 🏰 Topkapı Sarayı (İstanbul)
@@ -491,7 +491,7 @@ Ulaşım seçenekleri:
 
 Topkapı Sarayı, Osmanlı tarihinin izlerini sürmek, kültürel bir deneyim yaşamak ve İstanbul’un en popüler turistik noktalarını keşfetmek isteyen ziyaretçiler için ideal bir duraktır.
 
-Detaylar için tıkla 🔗 **[Topkapı Sarayı](https://www.waylero.com/kesfet/turkey/istanbul/topkapi-sarayi)**
+Detaylar için tıkla 🔗 **[Topkapı Sarayı](https://www.waylero.com/kesfet/turkiye/istanbul/topkapi-sarayi)**
 
 ---
 
@@ -555,7 +555,7 @@ Transportation options:
 
 Hagia Sophia is one of the most important symbols of Istanbul’s historical and cultural identity. For most visitors coming to Turkey, it is at the top of the must-see list.
 
-Click for details 🔗 **[Hagia Sophia](https://www.waylero.com/en/kesfet/turkey/istanbul/ayasofya)**
+Click for details 🔗 **[Hagia Sophia](https://www.waylero.com/en/kesfet/turkiye/istanbul/ayasofya)**
 
 ---
 
@@ -617,7 +617,7 @@ Options:
 
 Cappadocia is one of the must-see tourist destinations in Turkey thanks to its natural beauty and historical atmosphere. Valleys full of fairy chimneys, underground cities, and balloon views offer visitors an unforgettable experience.
 
-Click for details 🔗 **[Cappadocia](https://www.waylero.com/en/kesfet/turkey/nevsehir/peri-bacalari)**
+Click for details 🔗 **[Cappadocia](https://www.waylero.com/en/kesfet/turkiye/nevsehir/peri-bacalari)**
 
 ---
 
@@ -658,7 +658,7 @@ Options:
 
 Pamukkale Travertines are among the most visited tourist attractions in Turkey with their natural beauty and historical heritage.
 
-Click for details 🔗 **[Pamukkale Travertines](https://www.waylero.com/en/kesfet/turkey/denizli/pamukkale-travertenleri)**
+Click for details 🔗 **[Pamukkale Travertines](https://www.waylero.com/en/kesfet/turkiye/denizli/pamukkale-travertenleri)**
 
 ---
 
@@ -697,7 +697,7 @@ Transportation options:
 
 The Ancient City of Ephesus, one of Turkey’s most visited tourist destinations, offers both a historical and cultural experience. Roman-era architecture and ancient ruins give visitors the feeling of traveling back in time.
 
-Click for details 🔗 **[Ancient City of Ephesus](https://www.waylero.com/en/kesfet/turkey/izmir/efes-antik-kenti)**
+Click for details 🔗 **[Ancient City of Ephesus](https://www.waylero.com/en/kesfet/turkiye/izmir/efes-antik-kenti)**
 
 ---
 
@@ -745,7 +745,7 @@ Transportation options:
 Ölüdeniz is one of Turkey’s most visited tourist destinations, known for both its tranquil lagoon and action-packed activities. The turquoise sea and surrounding natural beauty offer visitors an unforgettable experience.
 
 
-Click for details 🔗 **[Ölüdeniz](https://www.waylero.com/en/kesfet/turkey/mugla/oludeniz)**
+Click for details 🔗 **[Ölüdeniz](https://www.waylero.com/en/kesfet/turkiye/mugla/oludeniz)**
 
 ---
 
@@ -785,7 +785,7 @@ Transportation options:
 Sümela Monastery is one of the most visited tourist attractions in Trabzon and the Black Sea Region. With its historical charm and breathtaking views, it offers visitors both a cultural and natural experience.
  
 
-Click for details 🔗 **[Sümela Monastery](https://www.waylero.com/en/kesfet/turkey/trabzon/sumela-manastiri)**
+Click for details 🔗 **[Sümela Monastery](https://www.waylero.com/en/kesfet/turkiye/trabzon/sumela-manastiri)**
 
 ---
 
@@ -825,7 +825,7 @@ Transportation options:
 Göbeklitepe is one of the oldest and most impressive structures in human history and ranks among Turkey’s most visited tourist destinations. Its archaeological significance and mysterious atmosphere offer visitors both a cultural and educational experience.
 
 
-Click for details 🔗 **[Göbeklitepe](https://www.waylero.com/en/kesfet/turkey/sanliurfa/gobeklitepe)**
+Click for details 🔗 **[Göbeklitepe](https://www.waylero.com/en/kesfet/turkiye/sanliurfa/gobeklitepe)**
 
 ---
 
@@ -865,7 +865,7 @@ Transportation options:
 Mount Nemrut is one of Turkey’s most visited tourist destinations, renowned for its historical significance and natural scenery. The massive statues, tumulus tombs, and breathtaking views offer visitors an unforgettable experience.
 
 
-Click for details 🔗 **[Mount Nemrut](https://www.waylero.com/en/kesfet/turkey/adiyaman/nemrut-dagi)**
+Click for details 🔗 **[Mount Nemrut](https://www.waylero.com/en/kesfet/turkiye/adiyaman/nemrut-dagi)**
 
 ---
 
@@ -913,7 +913,7 @@ Transportation options:
 Uzungöl is one of Turkey’s most visited natural tourism destinations, renowned for its natural beauty, the lake, and the surrounding mountain views. It is an ideal destination for those seeking both relaxation and nature photography.
 
 
-Click for details 🔗 **[Uzungöl](https://www.waylero.com/en/kesfet/turkey/trabzon/uzungol)**
+Click for details 🔗 **[Uzungöl](https://www.waylero.com/en/kesfet/turkiye/trabzon/uzungol)**
 
 ---
 
@@ -956,7 +956,7 @@ Transportation options:
 
 Topkapı Palace is an ideal destination for visitors seeking to trace the footsteps of Ottoman history, experience a cultural journey, and explore Istanbul’s most popular tourist attractions.
 
-Click here for details 🔗 **[Topkapı Palace](https://www.waylero.com/en/kesfet/turkey/istanbul/topkapi-sarayi)**
+Click here for details 🔗 **[Topkapı Palace](https://www.waylero.com/en/kesfet/turkiye/istanbul/topkapi-sarayi)**
 
 Turkey’s wealth of tourist attractions is not limited to this list alone. There are hundreds of natural and historical wonders waiting to be discovered in every region of the country.
 

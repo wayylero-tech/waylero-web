@@ -1,5 +1,5 @@
 export const cityMap: Record<string, number> = {
-  "ADANA": 1, "ADIYAMAN": 2, "AFYON": 3, "AFYONKARAHİSAR": 85, "AĞRI": 4,
+  "ADANA": 1, "ADIYAMAN": 2,  "AFYONKARAHİSAR": 85, "AĞRI": 4,
   "AKSARAY": 5, "AMASYA": 6, "ANKARA": 7, "ANTALYA": 8, "ARDAHAN": 9,
   "ARTVİN": 10, "AYDIN": 11, "BALIKESİR": 12, "BARTIN": 13, "BATMAN": 14,
   "BAYBURT": 15, "BİLECİK": 16, "BİNGÖL": 17, "BİTLİS": 18, "BOLU": 19,

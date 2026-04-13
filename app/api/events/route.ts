@@ -34,8 +34,14 @@ export async function GET(request: Request) {
     // Query params
     const { searchParams } = new URL(request.url);
     const cityId = searchParams.get("city_ids");
-const rawQuery = searchParams.get("q") || "";
-const query = decodeURIComponent(rawQuery).normalize("NFC").trim();
+
+    // 🔥 KRİTİK FIX (fallback yok)
+    if (!cityId) {
+      return NextResponse.json({
+        items: [],
+      });
+    }
+
     // Token kontrol
     const token = process.env.ETKINLIK_API_TOKEN;
     if (!token) {
@@ -48,14 +54,7 @@ const query = decodeURIComponent(rawQuery).normalize("NFC").trim();
     // External API
     const url = new URL("https://etkinlik.io/api/v2/events");
     url.searchParams.set("limit", "120");
-
-    if (cityId) {
-      url.searchParams.set("city_ids", cityId);
-    }
-
-    if (!cityId && query) {
-      url.searchParams.set("q", query);
-    }
+    url.searchParams.set("city_ids", cityId);
 
     const res = await fetch(url.toString(), {
       headers: {

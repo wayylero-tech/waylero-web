@@ -633,7 +633,7 @@ Yakındaki Tophane ve Galata Kulesi ile birlikte İstanbul’un kültürel rotas
 
 💡 İpucu: Sabah veya akşam saatlerinde semtin kafelerinde oturup Haliç manzarasını izlemek, Karaköy’ün atmosferini en iyi şekilde yaşamanızı sağlar.
 
-Detaylar için tıkla 🔗 **[Karaköy](https://www.waylero.com/turkiye/turkey/istanbul/karakoy)**
+Detaylar için tıkla 🔗 **[Karaköy](https://www.waylero.com/turkiye/turkiye/istanbul/karakoy)**
 
 ---
 

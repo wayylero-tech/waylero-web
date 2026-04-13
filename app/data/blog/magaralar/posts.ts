@@ -68,7 +68,7 @@ Mağara yaklaşık 15 metre yüksekliğinde silindirik bir boşluktan aşağıya
 
 Bugün Damlataş Mağarası, hem doğa meraklıları hem de sağlık turizmiyle ilgilenen ziyaretçiler için Antalya’nın en önemli duraklarından biri olmaya devam etmektedir. 
 
-🔗 https://www.waylero.com/kesfet/turkey/antalya/damlatas-magarasi
+🔗 https://www.waylero.com/kesfet/turkiye/antalya/damlatas-magarasi
 
 ---
 
@@ -95,7 +95,7 @@ Altınbeşik Mağarası’nı ziyaret etmek için en ideal dönem ilkbahar aylar
 
 Altınbeşik Mağarası, hem jeolojik yapısı hem de sunduğu eşsiz yeraltı gölü deneyimiyle Türkiye’de mutlaka görülmesi gereken doğal harikalardan biridir.
 
-Detaylar için tıkla 🔗 **[Altınbeşik Şelalesi](https://www.waylero.com/kesfet/turkey/antalya/altinbesik-magarasi)**
+Detaylar için tıkla 🔗 **[Altınbeşik Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/altinbesik-magarasi)**
 
 ---
 
@@ -126,7 +126,7 @@ Karaca Mağarası’nı ziyaret etmek için ilkbahar ve yaz ayları en uygun dö
 
 Karaca Mağarası, sahip olduğu doğal oluşum çeşitliliği ve görsel zenginliği sayesinde Türkiye’de mağara turizminin en önemli duraklarından biri olarak kabul edilir.
 
-Detaylar için tıkla 🔗 **[Karaca Şelalesi](https://www.waylero.com/kesfet/turkey/g%C3%BCm%C3%BC%C5%9Fhane/karaca-magarasi )**
+Detaylar için tıkla 🔗 **[Karaca Şelalesi](https://www.waylero.com/kesfet/turkiye/gumushane/karaca-magarasi )**
 ---
 
 ### 🕳 Ballıca Mağarası (Tokat)
@@ -154,7 +154,7 @@ Ballıca Mağarası’nı ziyaret etmek için ilkbahar ve sonbahar ayları en id
 
 Ballıca Mağarası, büyüklüğü, jeolojik çeşitliliği ve görsel ihtişamıyla Türkiye’de mutlaka görülmesi gereken en önemli doğal oluşumlardan biridir.
 
-Detaylar için tıkla 🔗 **[Ballıca Şelalesi](https://www.waylero.com/kesfet/turkey/tokat/ballica-magarasi)**
+Detaylar için tıkla 🔗 **[Ballıca Şelalesi](https://www.waylero.com/kesfet/turkiye/tokat/ballica-magarasi)**
 
 ---
 
@@ -214,7 +214,7 @@ Mağara içinde sarkıtlar, dikitler, sütunlar ve perde damlataş oluşumları 
 
 İnsuyu Mağarası, kolay ulaşımı, doğal güzelliği ve tarihi önemiyle Türkiye’de mağara turizminin gelişiminde önemli rol oynamış ve günümüzde de keşfedilmeye değer doğal alanlardan biri olarak öne çıkmaktadır.
 
-Detaylar için tıkla 🔗 **[İnsuyu Şelalesi](https://www.waylero.com/kesfet/turkey/burdur/insuyu-magarasi )**
+Detaylar için tıkla 🔗 **[İnsuyu Şelalesi](https://www.waylero.com/kesfet/turkiye/burdur/insuyu-magarasi )**
 
 
 ---
@@ -244,7 +244,7 @@ Tınaztepe Mağarası’nı ziyaret ederken mutlaka kalın bir üst almanız ön
 
 Tınaztepe Mağarası, büyüklüğü, doğal oluşum çeşitliliği ve etkileyici atmosferiyle Türkiye’de mağara turizminin en önemli duraklarından biri olarak öne çıkar.
 
-Detaylar için tıkla 🔗 **[Tınaztepe Şelalesi](https://www.waylero.com/kesfet/turkey/konya/tinaztepe-magarasi )**
+Detaylar için tıkla 🔗 **[Tınaztepe Şelalesi](https://www.waylero.com/kesfet/turkiye/konya/tinaztepe-magarasi )**
 
 ---
 
@@ -410,7 +410,7 @@ Today, Damlataş Cave remains one of Antalya’s most important destinations for
 
 Visitor Volume: Very high (especially during the summer months)
 
-Click here for details 🔗 **[Damlataş Waterfall](https://www.waylero.com/en/kesfet/turkey/antalya/damlatas-magarasi)**
+Click here for details 🔗 **[Damlataş Waterfall](https://www.waylero.com/en/kesfet/turkiye/antalya/damlatas-magarasi)**
 
 
 ---
@@ -438,7 +438,7 @@ The ideal time to visit Altınbeşik Cave is during the spring months. During th
 
 Altınbeşik Cave is one of Turkey’s must-see natural wonders, both for its geological structure and the unique underground lake experience it offers.
 
-Click here for details 🔗 **[Altınbeşik Waterfall](https://www.waylero.com/en/kesfet/turkey/antalya/altinbesik-magarasi)**
+Click here for details 🔗 **[Altınbeşik Waterfall](https://www.waylero.com/en/kesfet/turkiye/antalya/altinbesik-magarasi)**
 
 
 ---
@@ -468,7 +468,7 @@ For visitors, the cave features walking platforms, stairs, and lighting systems.
 Spring and summer are the best times to visit Karaca Cave. The area is more accessible during these months, and the natural scenery is quite impressive. Since the cave interior remains cool, it’s a good idea to bring a light jacket even in summer.
 Karaca Cave is considered one of the most important destinations for cave tourism in Turkey thanks to its diverse natural formations and visual richness.
 
-Click here for details 🔗 **[Karaca Waterfall](https://www.waylero.com/en/kesfet/turkey/g%C3%BCm%C3%BC%C5%9Fhane/karaca-magarasi )**
+Click here for details 🔗 **[Karaca Waterfall](https://www.waylero.com/en/kesfet/turkiye/gumushane/karaca-magarasi )**
 
 
 
@@ -498,7 +498,7 @@ Spring and fall are the ideal times to visit Ballıca Cave. It can also be visit
 
 Ballıca Cave is one of Turkey’s most important natural formations, a must-see destination renowned for its size, geological diversity, and visual splendor.
 
-Click here for details 🔗 **[Ballıca Waterfall](https://www.waylero.com/en/kesfet/turkey/tokat/ballica-magarasi)**
+Click here for details 🔗 **[Ballıca Waterfall](https://www.waylero.com/en/kesfet/turkiye/tokat/ballica-magarasi)**
 
 ---
 
@@ -557,7 +557,7 @@ Summer is the ideal time to visit İnsuyu Cave, as it offers a cool respite from
 
 With its easy access, natural beauty, and historical significance, İnsuyu Cave has played a key role in the development of cave tourism in Turkey and remains one of the most worthwhile natural sites to explore today.
 
-Click here for details 🔗 **[İnsuyu Waterfall](https://www.waylero.com/en/kesfet/turkey/burdur/insuyu-magarasi )**
+Click here for details 🔗 **[İnsuyu Waterfall](https://www.waylero.com/en/kesfet/turkiye/burdur/insuyu-magarasi )**
 
 ---
 
@@ -587,7 +587,7 @@ When visiting Tınaztepe Cave, it is strongly recommended that you bring a warm 
 
 Tınaztepe Cave stands out as one of the most important destinations for cave tourism in Turkey due to its size, variety of natural formations, and impressive atmosphere.
 
-Click here for details 🔗 **[Tınaztepe Waterfall](https://www.waylero.com/en/kesfet/turkey/konya/tinaztepe-magarasi )**
+Click here for details 🔗 **[Tınaztepe Waterfall](https://www.waylero.com/en/kesfet/turkiye/konya/tinaztepe-magarasi )**
 
 
 ---

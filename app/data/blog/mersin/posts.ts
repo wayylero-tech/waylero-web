@@ -72,7 +72,7 @@ Mersin’in simgesi haline gelmiş Kızkalesi, denizin ortasında yer alan tarih
 - Tekne turu ile kaleyi görmek  
 - Gün batımında manzaranın tadını çıkarmak  
 
-Detaylar için tıkla 🔗 **[Kızkalesi Rehberi](https://www.waylero.com/kesfet/turkey/mersin/kizkalesi)**
+Detaylar için tıkla 🔗 **[Kızkalesi Rehberi](https://www.waylero.com/kesfet/turkiye/mersin/kizkalesi)**
 
 ---
 
@@ -103,7 +103,7 @@ Tarsus ilçe merkezine yakın, yeşil bir alan içerisinde bulunan şelale, hem 
 - Doğa yürüyüşü yapmak  
 - Piknik ve dinlenme  
 
-Detaylar için tıkla 🔗 **[Tarsus Şelalesi](https://www.waylero.com/kesfet/turkey/mersin/tarsus-selalesi)**
+Detaylar için tıkla 🔗 **[Tarsus Şelalesi](https://www.waylero.com/kesfet/turkiye/mersin/tarsus-selalesi)**
 
 ---
 
@@ -134,7 +134,7 @@ Mersin’in Silifke ilçesinde bulunan Cennet ve Cehennem Obrukları, jeolojik o
 - Fotoğraf çekmek  
 - Yakın yürüyüş yollarını keşfetmek  
 
-Detaylar için tıkla 🔗 **[Cennet-Cehennem Obrukları](https://www.waylero.com/kesfet/turkey/mersin/cennet-ve-cehennem-obruklari)**
+Detaylar için tıkla 🔗 **[Cennet-Cehennem Obrukları](https://www.waylero.com/kesfet/turkiye/mersin/cennet-ve-cehennem-obruklari)**
 
 ---
 
@@ -165,7 +165,7 @@ Tarih boyunca önemli bir liman kenti olan Soli Pompeiopolis, Mersin’in Mezitl
 - Fotoğraf çekmek  
 - Tarihi yapıları incelemek  
 
-Detaylar için tıkla 🔗 **[Soli Pompeiopolis](https://www.waylero.com/kesfet/turkey/mersin/soloi-pompeiopolis-antik-kenti)**
+Detaylar için tıkla 🔗 **[Soli Pompeiopolis](https://www.waylero.com/kesfet/turkiye/mersin/soloi-pompeiopolis-antik-kenti)**
 
 ---
 
@@ -201,7 +201,7 @@ Mersin’in Erdemli ilçesinde yer alan Limonlu Sahili, sakin atmosferi ve temiz
 - Gün batımı manzarasını izlemek  
 - Sahil kafelerinde yerel tatları denemek  
 
-Detaylar için tıkla 🔗 **[Limonlu Sahili Rehberi](https://www.waylero.com/kesfet/turkey/mersin/limonlu-sahili)**
+Detaylar için tıkla 🔗 **[Limonlu Sahili Rehberi](https://www.waylero.com/kesfet/turkiye/mersin/limonlu-sahili)**
 
 ### 🌊 Ayvagediği Plajı
 
@@ -230,7 +230,7 @@ Mersin’in popüler sahil beldelerinden biridir. Temiz denizi ve geniş kumsal�
 - Güneşlenmek  
 - Su sporları yapmak  
 
-Detaylar için tıkla 🔗 **[Ayvagediği Plajı](https://www.waylero.com/kesfet/turkey/mersin/ayvagedigi-plaji)**
+Detaylar için tıkla 🔗 **[Ayvagediği Plajı](https://www.waylero.com/kesfet/turkiye/mersin/ayvagedigi-plaji)**
 
 ---
 
@@ -308,7 +308,7 @@ Kızkalesi, which has become a symbol of Mersin, is a historic castle situated i
 - See the castle on a boat tour  
 - Enjoy the view at sunset  
 
-Click here for details 🔗 **[Kızkalesi Guide](https://www.waylero.com/kesfet/turkey/mersin/kizkalesi)**
+Click here for details 🔗 **[Kızkalesi Guide](https://www.waylero.com/kesfet/turkiye/mersin/kizkalesi)**
 
 ---
 
@@ -339,7 +339,7 @@ Located in a green area near the center of Tarsus, this waterfall is an ideal sp
 - Go for a nature walk  
 - Have a picnic and relax  
 
-Click here for details 🔗 **[Tarsus Waterfall](https://www.waylero.com/kesfet/turkey/mersin/tarsus-selalesi)**
+Click here for details 🔗 **[Tarsus Waterfall](https://www.waylero.com/kesfet/turkiye/mersin/tarsus-selalesi)**
 
 
 ---
@@ -371,7 +371,7 @@ Located in the Silifke district of Mersin, the Paradise and Hell Sinkholes are n
 - Take photos  
 - Explore nearby hiking trails  
 
-Click here for details 🔗 **[Cennet-Cehennem Sinkholes](https://www.waylero.com/kesfet/turkey/mersin/cennet-ve-cehennem-obruklari)**
+Click here for details 🔗 **[Cennet-Cehennem Sinkholes](https://www.waylero.com/kesfet/turkiye/mersin/cennet-ve-cehennem-obruklari)**
 
 
 ---
@@ -403,7 +403,7 @@ Soli Pompeiopolis, a major port city throughout history, is located in the Mezit
 - Take photos  
 - Examine the historical structures  
 
-Click here for details 🔗 **[Soli Pompeiopolis](https://www.waylero.com/kesfet/turkey/mersin/soloi-pompeiopolis-antik-kenti)**
+Click here for details 🔗 **[Soli Pompeiopolis](https://www.waylero.com/kesfet/turkiye/mersin/soloi-pompeiopolis-antik-kenti)**
 
 
 ---
@@ -439,7 +439,7 @@ Located in the Erdemli district of Mersin, Limonlu Beach is a popular destinatio
 - Take a walk along the beach  
 - Watching the sunset  
 - Trying local flavors at the beach cafes  
-Click here for details 🔗 **[Limonlu Beach Guide](https://www.waylero.com/kesfet/turkey/mersin/limonlu-sahili)**
+Click here for details 🔗 **[Limonlu Beach Guide](https://www.waylero.com/kesfet/turkiye/mersin/limonlu-sahili)**
 
 ---
 
@@ -470,7 +470,7 @@ It is one of Mersin’s popular coastal towns. With its clean sea and wide sandy
 - Sunbathe  
 - Enjoy water sports  
 
-Click here for details 🔗 **[Ayvagediği Beach](https://www.waylero.com/kesfet/turkey/mersin/ayvagedigi-plaji)**
+Click here for details 🔗 **[Ayvagediği Beach](https://www.waylero.com/kesfet/turkiye/mersin/ayvagedigi-plaji)**
 
 ---
 

@@ -9065,49 +9065,7 @@
     }
   ],
   "lahey": [
-    {
-      "slug": "mauritshuis-museum",
-      "name": {
-        "tr": "Mauritshuis Museum",
-        "en": "Mauritshuis Museum",
-        "de": "Mauritshuis Museum"
-      },
-      "latitude": 52.0796,
-      "longitude": 4.3163,
-      "description": {
-        "tr": "Mauritshuis, Hollanda Altın Çağı'nın en önemli sanat koleksiyonlarına ev sahipliği yapar. Vermeer'in *İnci Küpeli Kız* eseri burada sergilenmektedir.",
-        "en": "Mauritshuis is home to some of the most important art collections of the Dutch Golden Age. Vermeer's *Girl with a Pearl Earring* is displayed here.",
-        "de": "Das Mauritshuis beherbergt einige der wichtigsten Kunstsammlungen des Goldenen Zeitalters der Niederlande. Vermeers *Mädchen mit dem Perlenohrring* ist hier ausgestellt."
-      },
-      "activities": {
-        "tr": [
-          "Sanat eserlerini inceleme",
-          "Geçici sergilere katılma"
-        ],
-        "en": [
-          "Explore art collections",
-          "Attend temporary exhibitions"
-        ],
-        "de": [
-          "Kunstwerke inspizieren",
-          "An temporären Ausstellungen teilnehmen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "müze"
-        ],
-        "en": [
-          "museum"
-        ],
-        "de": [
-          "museum"
-        ]
-      },
-      "images": [
-        "https://example.com/mauritshuis.jpg"
-      ]
-    },
+    
     {
       "slug": "scheveningen-beach",
       "name": {
@@ -9149,6 +9107,49 @@
       },
       "images": [
         "https://example.com/scheveningen.jpg"
+      ]
+    },
+{
+      "slug": "mauritshuis-museum",
+      "name": {
+        "tr": "Mauritshuis Museum",
+        "en": "Mauritshuis Museum",
+        "de": "Mauritshuis Museum"
+      },
+      "latitude": 52.0796,
+      "longitude": 4.3163,
+      "description": {
+        "tr": "Mauritshuis, Hollanda Altın Çağı'nın en önemli sanat koleksiyonlarına ev sahipliği yapar. Vermeer'in *İnci Küpeli Kız* eseri burada sergilenmektedir.",
+        "en": "Mauritshuis is home to some of the most important art collections of the Dutch Golden Age. Vermeer's *Girl with a Pearl Earring* is displayed here.",
+        "de": "Das Mauritshuis beherbergt einige der wichtigsten Kunstsammlungen des Goldenen Zeitalters der Niederlande. Vermeers *Mädchen mit dem Perlenohrring* ist hier ausgestellt."
+      },
+      "activities": {
+        "tr": [
+          "Sanat eserlerini inceleme",
+          "Geçici sergilere katılma"
+        ],
+        "en": [
+          "Explore art collections",
+          "Attend temporary exhibitions"
+        ],
+        "de": [
+          "Kunstwerke inspizieren",
+          "An temporären Ausstellungen teilnehmen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "müze"
+        ],
+        "en": [
+          "museum"
+        ],
+        "de": [
+          "museum"
+        ]
+      },
+      "images": [
+        "https://example.com/mauritshuis.jpg"
       ]
     }
   ],
@@ -25668,6 +25669,51 @@
       ]
     }
   ],
+"bourges": [
+    {
+      "slug": "bourges-katedrali",
+      "name": {
+        "tr": "Bourges Katedrali",
+        "en": "Bourges Cathedral",
+        "de": "Kathedrale von Bourges"
+      },
+      "latitude": 47.08234,
+      "longitude": 2.39916,
+      "description": {
+        "tr": "Bourges Katedrali, gotik mimarisiyle dikkat çeken bir katedral olup, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+        "en": "Bourges Cathedral, with its Gothic architecture, is listed as a UNESCO World Heritage site.",
+        "de": "Die Kathedrale von Bourges, mit ihrer gotischen Architektur, steht auf der UNESCO-Weltkulturerbeliste."
+      },
+      "activities": {
+        "tr": [
+          "Katedrali gezmek",
+          "Gotik mimarisi hakkında bilgi almak"
+        ],
+        "en": [
+          "Tour the cathedral",
+          "Learn about its Gothic architecture"
+        ],
+        "de": [
+          "Die Kathedrale besichtigen",
+          "Mehr über die gotische Architektur erfahren"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kilise"
+        ],
+        "en": [
+          "church"
+        ],
+        "de": [
+          "kirche"
+        ]
+      },
+      "images": [
+        "https://example.com/bourges_cathedral.jpg"
+      ]
+    }
+  ],
   "amiens": [
     {
       "slug": "amiens-katedrali",
@@ -25934,51 +25980,7 @@
       ]
     }
   ],
-  "bourges": [
-    {
-      "slug": "bourges-katedrali",
-      "name": {
-        "tr": "Bourges Katedrali",
-        "en": "Bourges Cathedral",
-        "de": "Kathedrale von Bourges"
-      },
-      "latitude": 47.08234,
-      "longitude": 2.39916,
-      "description": {
-        "tr": "Bourges Katedrali, gotik mimarisiyle dikkat çeken bir katedral olup, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
-        "en": "Bourges Cathedral, with its Gothic architecture, is listed as a UNESCO World Heritage site.",
-        "de": "Die Kathedrale von Bourges, mit ihrer gotischen Architektur, steht auf der UNESCO-Weltkulturerbeliste."
-      },
-      "activities": {
-        "tr": [
-          "Katedrali gezmek",
-          "Gotik mimarisi hakkında bilgi almak"
-        ],
-        "en": [
-          "Tour the cathedral",
-          "Learn about its Gothic architecture"
-        ],
-        "de": [
-          "Die Kathedrale besichtigen",
-          "Mehr über die gotische Architektur erfahren"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kilise"
-        ],
-        "en": [
-          "church"
-        ],
-        "de": [
-          "kirche"
-        ]
-      },
-      "images": [
-        "https://example.com/bourges_cathedral.jpg"
-      ]
-    }
-  ],
+  
   "avignon": [
     {
       "slug": "avignon-un-tarihi-merkezi-papalik-sarayi-piskoposluk-toplulugu-ve-avignon-koprusu",
@@ -34939,6 +34941,52 @@
     }
   ],
   "ubud": [
+{
+      "slug": "campuhan-ridge-walk",
+      "name": {
+        "tr": "Campuhan Ridge Walk",
+        "en": "Campuhan Ridge Walk",
+        "de": "Campuhan Ridge Walk"
+      },
+      "latitude": -8.5067,
+      "longitude": 115.2671,
+      "description": {
+        "tr": "Campuhan Ridge Walk, Ubud’un doğasında yapılan harika bir yürüyüş rotasıdır. Doğal güzellikleriyle ünlü olan bu yürüyüş yolu, yeşillikler içinde bir dağ sırtında yer alır. Burada yürürken, Ubud’un muazzam manzaralarını ve tropikal ormanları keşfetmek mümkündür. Bu yürüyüş, doğa severler ve huzur arayanlar için mükemmel bir seçenektir.\n",
+        "en": "Campuhan Ridge Walk is a beautiful hiking trail set in Ubud’s nature. Known for its natural beauty, this trail runs along a ridge surrounded by lush greenery. While walking, visitors can discover stunning views of Ubud and the tropical forests. This hike is perfect for nature lovers and those seeking peace and tranquility.\n",
+        "de": "Der Campuhan Ridge Walk ist ein schöner Wanderweg in der Natur von Ubud. Dieser Weg, der für seine natürliche Schönheit bekannt ist, verläuft entlang eines Bergrückens, der von üppigem Grün umgeben ist. Beim Wandern können Besucher die atemberaubende Aussicht auf Ubud und die tropischen Wälder genießen. Diese Wanderung ist perfekt für Naturliebhaber und diejenigen, die Ruhe und Frieden suchen.\n"
+      },
+      "activities": {
+        "tr": [
+          "Doğada yürüyüş yapmak",
+          "Ubud manzaralarını görmek",
+          "Tropikal ormanları keşfetmek"
+        ],
+        "en": [
+          "Hike through nature",
+          "See Ubud views",
+          "Explore tropical forests"
+        ],
+        "de": [
+          "Wandern in der Natur",
+          "Die Aussicht auf Ubud genießen",
+          "Tropische Wälder erkunden"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "kamp"
+        ],
+        "en": [
+          "camping"
+        ],
+        "de": [
+          "Camping"
+        ]
+      },
+      "images": [
+        "https://example.com/campuhan_ridge_walk.jpg"
+      ]
+    },
     {
       "slug": "sacred-monkey-forest-sanctuary",
       "name": {
@@ -35077,52 +35125,7 @@
         "https://example.com/ubud_royal_palace.jpg"
       ]
     },
-    {
-      "slug": "campuhan-ridge-walk",
-      "name": {
-        "tr": "Campuhan Ridge Walk",
-        "en": "Campuhan Ridge Walk",
-        "de": "Campuhan Ridge Walk"
-      },
-      "latitude": -8.5067,
-      "longitude": 115.2671,
-      "description": {
-        "tr": "Campuhan Ridge Walk, Ubud’un doğasında yapılan harika bir yürüyüş rotasıdır. Doğal güzellikleriyle ünlü olan bu yürüyüş yolu, yeşillikler içinde bir dağ sırtında yer alır. Burada yürürken, Ubud’un muazzam manzaralarını ve tropikal ormanları keşfetmek mümkündür. Bu yürüyüş, doğa severler ve huzur arayanlar için mükemmel bir seçenektir.\n",
-        "en": "Campuhan Ridge Walk is a beautiful hiking trail set in Ubud’s nature. Known for its natural beauty, this trail runs along a ridge surrounded by lush greenery. While walking, visitors can discover stunning views of Ubud and the tropical forests. This hike is perfect for nature lovers and those seeking peace and tranquility.\n",
-        "de": "Der Campuhan Ridge Walk ist ein schöner Wanderweg in der Natur von Ubud. Dieser Weg, der für seine natürliche Schönheit bekannt ist, verläuft entlang eines Bergrückens, der von üppigem Grün umgeben ist. Beim Wandern können Besucher die atemberaubende Aussicht auf Ubud und die tropischen Wälder genießen. Diese Wanderung ist perfekt für Naturliebhaber und diejenigen, die Ruhe und Frieden suchen.\n"
-      },
-      "activities": {
-        "tr": [
-          "Doğada yürüyüş yapmak",
-          "Ubud manzaralarını görmek",
-          "Tropikal ormanları keşfetmek"
-        ],
-        "en": [
-          "Hike through nature",
-          "See Ubud views",
-          "Explore tropical forests"
-        ],
-        "de": [
-          "Wandern in der Natur",
-          "Die Aussicht auf Ubud genießen",
-          "Tropische Wälder erkunden"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "kamp"
-        ],
-        "en": [
-          "camping"
-        ],
-        "de": [
-          "Camping"
-        ]
-      },
-      "images": [
-        "https://example.com/campuhan_ridge_walk.jpg"
-      ]
-    },
+    
     {
       "slug": "goa-gajah-fil-magarasi",
       "name": {
@@ -37032,6 +37035,58 @@
       ]
     }
   ],
+ "jabel-shams": [
+    {
+      "slug": "jebel-shams",
+      "name": {
+        "tr": "Jebel Shams",
+        "en": "Jebel Shams",
+        "de": "Jebel Shams"
+      },
+      "latitude": 23.2074,
+      "longitude": 57.2876,
+      "description": {
+        "tr": "Jebel Shams, Umman’ın en yüksek dağıdır ve “Güneş Dağı” olarak da bilinir. Yüksekliği 3.009 metreyi bulur ve büyüleyici manzaralarıyla ünlüdür. Dağın zirvesi, vadilere ve etkileyici dağ sıralarına bakmaktadır. Ziyaretçiler burada yürüyüş yapabilir, kaya tırmanışı gibi macera aktivitelerine katılabilir veya dağın eteklerinde kamp yapabilirler.",
+        "en": "Jebel Shams is the highest mountain in Oman, also known as the \"Mountain of the Sun.\" It rises to 3,009 meters and is famous for its breathtaking views. The summit offers views over valleys and dramatic mountain ranges. Visitors can hike, engage in rock climbing, or camp at the base of the mountain.",
+        "de": "Jebel Shams ist der höchste Berg in Oman, auch bekannt als der \"Berg der Sonne\". Er steigt auf 3.009 Meter und ist berühmt für seine atemberaubenden Aussichten. Vom Gipfel aus hat man einen Blick auf Täler und dramatische Bergketten. Besucher können wandern, Felsklettern betreiben oder am Fuß des Berges campen."
+      },
+      "activities": {
+        "tr": [
+          "Yürüyüş yapmak",
+          "Kaya tırmanışı yapmak",
+          "Kamp yapmak",
+          "Manzara seyretmek"
+        ],
+        "en": [
+          "Hiking",
+          "Rock climbing",
+          "Camping",
+          "Enjoying the views"
+        ],
+        "de": [
+          "Wandern",
+          "Klettern",
+          "Campen",
+          "Die Aussicht genießen"
+        ]
+      },
+      "categories": {
+        "tr": [
+          "doğa"
+        ],
+        "en": [
+          "nature"
+        ],
+        "de": [
+          "Natur"
+        ]
+      },
+      "images": [
+        "https://example.com/jebel_shams_1.jpg",
+        "https://example.com/jebel_shams_2.jpg"
+      ]
+    }
+  ],
   "muskat": [
     {
       "slug": "sultan-qaboos-camii",
@@ -37669,58 +37724,7 @@
       ]
     }
   ],
-  "jabel-shams": [
-    {
-      "slug": "jebel-shams",
-      "name": {
-        "tr": "Jebel Shams",
-        "en": "Jebel Shams",
-        "de": "Jebel Shams"
-      },
-      "latitude": 23.2074,
-      "longitude": 57.2876,
-      "description": {
-        "tr": "Jebel Shams, Umman’ın en yüksek dağıdır ve “Güneş Dağı” olarak da bilinir. Yüksekliği 3.009 metreyi bulur ve büyüleyici manzaralarıyla ünlüdür. Dağın zirvesi, vadilere ve etkileyici dağ sıralarına bakmaktadır. Ziyaretçiler burada yürüyüş yapabilir, kaya tırmanışı gibi macera aktivitelerine katılabilir veya dağın eteklerinde kamp yapabilirler.",
-        "en": "Jebel Shams is the highest mountain in Oman, also known as the \"Mountain of the Sun.\" It rises to 3,009 meters and is famous for its breathtaking views. The summit offers views over valleys and dramatic mountain ranges. Visitors can hike, engage in rock climbing, or camp at the base of the mountain.",
-        "de": "Jebel Shams ist der höchste Berg in Oman, auch bekannt als der \"Berg der Sonne\". Er steigt auf 3.009 Meter und ist berühmt für seine atemberaubenden Aussichten. Vom Gipfel aus hat man einen Blick auf Täler und dramatische Bergketten. Besucher können wandern, Felsklettern betreiben oder am Fuß des Berges campen."
-      },
-      "activities": {
-        "tr": [
-          "Yürüyüş yapmak",
-          "Kaya tırmanışı yapmak",
-          "Kamp yapmak",
-          "Manzara seyretmek"
-        ],
-        "en": [
-          "Hiking",
-          "Rock climbing",
-          "Camping",
-          "Enjoying the views"
-        ],
-        "de": [
-          "Wandern",
-          "Klettern",
-          "Campen",
-          "Die Aussicht genießen"
-        ]
-      },
-      "categories": {
-        "tr": [
-          "doğa"
-        ],
-        "en": [
-          "nature"
-        ],
-        "de": [
-          "Natur"
-        ]
-      },
-      "images": [
-        "https://example.com/jebel_shams_1.jpg",
-        "https://example.com/jebel_shams_2.jpg"
-      ]
-    }
-  ],
+ 
   "sur": [
     {
       "slug": "sur-deniz-feneri",

@@ -81,7 +81,7 @@ Antik kent kalıntılarını keşfetmek
 
 Fotoğraf çekmek
 
-Detaylar için tıkla 🔗 **[Aspendos Antik Kenti](https://www.waylero.com/kesfet/turkey/antalya/aspendos-antik-kenti)**
+Detaylar için tıkla 🔗 **[Aspendos Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/aspendos-antik-kenti)**
 
 
 ---
@@ -120,7 +120,7 @@ Sahil yürüyüşü yapmak
 Gün batımını izlemek
 
 
-Detaylar için tıkla 🔗 **[Konyaaltı Plajı](https://www.waylero.com/kesfet/turkey/antalya/konyaalti-plaji)**
+Detaylar için tıkla 🔗 **[Konyaaltı Plajı](https://www.waylero.com/kesfet/turkiye/antalya/konyaalti-plaji)**
 
 ---
 
@@ -160,7 +160,7 @@ Arkeolojik kalıntıları görmek
 
 Manzara fotoğrafları çekmek
 
-Detaylar için tıkla 🔗 **[ Karain Mağarası](https://www.waylero.com/kesfet/turkey/antalya/karain-magarasi)**
+Detaylar için tıkla 🔗 **[ Karain Mağarası](https://www.waylero.com/kesfet/turkiye/antalya/karain-magarasi)**
 
 ---
 
@@ -232,7 +232,7 @@ Doğa yürüyüşü yapmak
 Fotoğraf çekmek
 
 
-Detaylar için tıkla 🔗 **[Düden Şelalesi](https://www.waylero.com/kesfet/turkey/antalya/duden-selalesi)**
+Detaylar için tıkla 🔗 **[Düden Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/duden-selalesi)**
 
 ---
 
@@ -333,7 +333,7 @@ Explore the ancient city ruins
 Take photos
 
 
-Details 🔗 **[Aspendos Ancient City](https://www.waylero.com/en/kesfet/turkey/antalya/aspendos-antik-kenti)**
+Details 🔗 **[Aspendos Ancient City](https://www.waylero.com/en/kesfet/turkiye/antalya/aspendos-antik-kenti)**
 
 ---
 
@@ -349,7 +349,7 @@ Konyaalti Beach is a 7-kilometer stretch of coastline on the west side of Antaly
 
 📷 **Things to Do:** Cycle along the coastline, enjoy Mediterranean cuisine at the restaurants in Beach Park, and capture photos of the cliffs at sunset.
 
-Details 🔗 **[Konyaalti Beach](https://www.waylero.com/en/kesfet/turkey/antalya/konyaalti-plaji)**
+Details 🔗 **[Konyaalti Beach](https://www.waylero.com/en/kesfet/turkiye/antalya/konyaalti-plaji)**
 
 ---
 
@@ -369,7 +369,7 @@ Archaeological excavations have revealed that the cave was inhabited by humans a
 
 📷 **Things to Do:** Explore the massive stalactites and stalagmites. Take photos of the endless Antalya plains from the viewing terrace at the cave entrance.
 
-Details 🔗 **[Karain Cave](https://www.waylero.com/en/kesfet/turkey/antalya/karain-magarasi)**
+Details 🔗 **[Karain Cave](https://www.waylero.com/en/kesfet/turkiye/antalya/karain-magarasi)**
 
 ---
 
@@ -405,7 +405,7 @@ The area around the waterfall features walking trails, viewing terraces, and pho
 
 📷 **Things to Do:** Watch the waterfall from the viewing terraces. If you get the chance, join a boat tour to see the waterfall from the sea.
 
-Details 🔗 **[Duden Waterfalls](https://www.waylero.com/en/kesfet/turkey/antalya/duden-selalesi)**
+Details 🔗 **[Duden Waterfalls](https://www.waylero.com/en/kesfet/turkiye/antalya/duden-selalesi)**
 
 ---
 

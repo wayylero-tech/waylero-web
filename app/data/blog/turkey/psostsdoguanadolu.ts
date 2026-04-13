@@ -65,7 +65,7 @@ Ayrıca dünyanın en büyük krater göllerinden biri olan Nemrut Krater Gölü
 Van’da gezilecek yerler 2026 rehberi; doğa, tarih ve kültürü bir arada yaşamak isteyenler için zengin seçenekler sunar. Doğu Anadolu’nun mistik atmosferiyle Van, 2026 yılında da keşif ve kültür turizmi arayanların en çok tercih ettiği şehirlerden biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
-[Van'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=van)
+[Van'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/van)
 
 
 
@@ -80,7 +80,7 @@ Bunun yanında Erzurum Kalesi, Osmanlı ve Selçuklu döneminden kalma tarihi do
 Doğu Anadolu’nun yüksek rakımı ve kış sporlarıyla Erzurum, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve kış turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Erzurum'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=erzurum)
+ [Erzurum'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/erzurum)
 
 ---
 ### 📍 Kars’ta Gezilecek Yerler 2026
@@ -92,7 +92,7 @@ Bunun yanında Ani Harabeleri, UNESCO Dünya Mirası Listesi’nde yer alan ve O
 Doğu Anadolu’nun tarih ve doğal güzellikleriyle Kars, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kars'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=kars)
+ [Kars'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kars)
 
 ---
 ###  📍 Malatya’da Gezilecek Yerler 2026
@@ -104,7 +104,7 @@ Bunun yanında Nemrut Dağı Milli Parkı yakınındaki doğal alanlar, yürüy�
 Doğu Anadolu’nun tarih ve doğal güzellikleriyle Malatya, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Malatya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=malatya)
+ [Malatya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/malatya)
 
 
 
@@ -118,7 +118,7 @@ Bunun yanında Erzincan Kalesi, tarihi dokusu ve panoramik manzarasıyla tarih m
 Doğu Anadolu’nun yaylaları ve vadileriyle Erzincan, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Erzincan'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=erzincan)
+ [Erzincan'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/erzincan)
 
 
 ---
@@ -131,7 +131,7 @@ Osmanlı mimarisinin en görkemli eserlerinden biri olan İshak Paşa Sarayı is
 Tarih, manzara ve keşif ruhunu bir arada sunan şehirde Ağrı’da gezilecek yerler 2026 rotaları, özellikle sakin ve etkileyici destinasyonlar arayanlar için güçlü alternatifler sunmaktadır.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın:
- [Ağrı'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=agri)
+ [Ağrı'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/agri)
 
 ---
 ###  📍 Elazığ’da Gezilecek Yerler 2026
@@ -143,7 +143,7 @@ Bunun yanında Hazar Gölü, su sporları ve piknik alanlarıyla doğa tutkunlar
 Doğu Anadolu’nun eşsiz doğası ve tarihi zenginliğiyle Elazığ, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Elazığ'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=elazig)
+ [Elazığ'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/elazig)
 
 ---
 ### 📍 Bitlis’te Gezilecek Yerler 2026
@@ -155,7 +155,7 @@ Bunun yanında Nemrut Gölü çevresi, doğa tutkunları için trekking ve kamp 
 Doğu Anadolu’nun eşsiz manzaraları ve tarihi dokusuyla Bitlis, gezilecek yerler 2026 rotaları arasında 2026 yılında da ziyaretçilerin gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bitlis'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=bitlis)
+ [Bitlis'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bitlis)
 
 
 ---
@@ -170,7 +170,7 @@ Macera ve manzara arayanlar için Mercan Vadisi, trekking ve doğa sporları aç
 Tunceli’de gezilecek yerler 2026 rehberi; doğa, huzur ve kültürel mirası bir arada yaşamak isteyenler için kapsamlı rotalar sunar. El değmemiş doğasıyla Tunceli, 2026 yılında da keşif ve kamp turizmi arayanların gözde şehirlerinden biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Tunceli'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=tunceli)
+ [Tunceli'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/tunceli)
 
 ---
 ###  📍 Hakkari’de Gezilecek Yerler 2026
@@ -182,7 +182,7 @@ Bunun yanında Şemdinli yaylaları, yaz aylarında doğa severler için eşsiz 
 Doğu Anadolu’nun yüksek dağları ve yaylalarıyla Hakkari, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Hakkari'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=hakkari)
+ [Hakkari'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/hakkari)
 
 
 ---
@@ -195,7 +195,7 @@ Bunun yanında Çıldır Gölü, kış aylarında buz tutan yüzeyi ve doğal ç
 Doğayla baş başa kalmak ve tarihi dokuyu keşfetmek isteyenler için Ardahan’da gezilecek yerler 2026 rotaları, 2026 yılında Doğu Anadolu turu planlayanlar için güçlü bir seçenek oluşturmaktadır.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Ardahan'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=ardahan)
+ [Ardahan'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/ardahan)
 
 ---
 ### 📍 Iğdır’da Gezilecek Yerler 2026
@@ -207,7 +207,7 @@ Bunun yanında Iğdır Kültür Parkı, doğa yürüyüşleri ve dinlenme için 
 Doğu Anadolu’nun yüksek rakımları ve eşsiz manzaralarıyla Iğdır, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Iğdır'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=igdir)
+ [Iğdır'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/igdir)
 
 
 ---
@@ -220,7 +220,7 @@ Bunun yanında Karlıova ve Genç ilçelerindeki doğal alanlar, hem yürüyüş
 Doğu Anadolu’nun serin iklimi ve yemyeşil doğasıyla Bingöl, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bingöl'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=bingol)
+ [Bingöl'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bingol)
 
 ---
 ### 📍 Muş’ta Gezilecek Yerler 2026
@@ -232,7 +232,7 @@ Bunun yanında Haçlı Köprüsü, bölgenin kültürel ve tarihî mirasını ke
 Doğu Anadolu’nun kültür ve doğal güzellikleriyle Muş, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Muş'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=mus)
+ [Muş'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/mus)
 
 
 
@@ -287,7 +287,7 @@ Additionally, Lake Nemrut, one of the world’s largest crater lakes, is an impo
 The 2026 guide to places to visit in Van offers a wealth of options for those seeking to experience nature, history, and culture all in one. With the mystical atmosphere of Eastern Anatolia, Van continues to be one of the most preferred cities for those seeking exploration and cultural tourism in 2026.
 
 👉 Click the link below for more: 
-[Click Here for Places to Visit in Van](https://www.waylero.com/en/kesfet?q=van)
+[Click Here for Places to Visit in Van](https://www.waylero.com/en/kesfet/turkiye/van)
 
 
 ---
@@ -300,7 +300,7 @@ In addition, Erzurum Castle offers an ideal route for history enthusiasts with i
 With its high elevation and winter sports in Eastern Anatolia, Erzurum remains one of the top destinations for those seeking cultural and winter tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Erzurum](https://www.waylero.com/en/kesfet?q=erzurum)
+ [Click Here for Places to Visit in Erzurum](https://www.waylero.com/en/kesfet/turkiye/erzurum)
 
 
 
@@ -314,7 +314,7 @@ Ishak Pasha Palace, one of the most magnificent examples of Ottoman architecture
 Offering a blend of history, scenery, and a spirit of exploration, the 2026 travel routes in Ağrı provide strong alternatives, particularly for those seeking peaceful and captivating destinations.
 
 👉 Click the link below for more:
- [Click Here for Places to Visit in Ağrı](https://www.waylero.com/en/kesfet?q=agri)
+ [Click Here for Places to Visit in Ağrı](https://www.waylero.com/en/kesfet/turkiye/agri)
 
 ---
 ### 📍 Places to Visit in Elazığ 2026
@@ -326,7 +326,7 @@ In addition, Lake Hazar is an ideal destination for nature lovers, offering wate
 With the unique nature and rich history of Eastern Anatolia, Elazığ continues to be one of the top destinations for those seeking cultural and nature tourism in the 2026 travel guides.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Elazığ](https://www.waylero.com/en/kesfet?q=elazig)
+ [Click Here for Places to Visit in Elazığ](https://www.waylero.com/en/kesfet/turkiye/elazig)
 
 ---
 ### 📍 Places to Visit in Kars 2026
@@ -338,7 +338,7 @@ Additionally, the Ani Ruins, listed on the UNESCO World Heritage List, are an id
 With its history and natural beauty, Kars remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Kars](https://www.waylero.com/en/kesfet?q=kars)
+ [Click Here for Places to Visit in Kars](https://www.waylero.com/en/kesfet/turkiye/kars)
 
 ---
 ### 📍 Places to Visit in Erzincan in 2026
@@ -350,7 +350,7 @@ Additionally, Erzincan Castle is an ideal stop for history buffs, offering a ric
 With its highlands and valleys in Eastern Anatolia, Erzincan remains one of the top destinations for those seeking nature and cultural tourism in the 2026 itinerary.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Erzincan](https://www.waylero.com/en/kesfet?q=erzincan)
+ [Click Here for Places to Visit in Erzincan](https://www.waylero.com/en/kesfet/turkiye/erzincan)
 
 
 ---
@@ -363,7 +363,7 @@ In addition, Lake Çıldır, with its surface that freezes over in winter and it
 For those seeking to connect with nature and explore historical sites, the 2026 travel routes in Ardahan present a strong option for those planning an Eastern Anatolia tour in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Ardahan](https://www.waylero.com/en/kesfet?q=ardahan)
+ [Click Here for Places to Visit in Ardahan](https://www.waylero.com/en/kesfet/turkiye/ardahan)
 
 ---
 ### 📍 Places to Visit in Hakkari 2026
@@ -375,7 +375,7 @@ In addition, the Şemdinli highlands offer a unique route for nature lovers duri
 With its high mountains and plateaus in Eastern Anatolia, Hakkari remains one of the top destinations for those seeking nature and cultural tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Hakkari](https://www.waylero.com/en/kesfet?q=hakkari)
+ [Click Here for Places to Visit in Hakkari](https://www.waylero.com/en/kesfet/turkiye/hakkari)
 
 
 ---
@@ -388,7 +388,7 @@ Additionally, the natural areas near Mount Nemrut National Park offer ideal rout
 With its historical and natural beauty, Malatya remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Malatya](https://www.waylero.com/en/kesfet?q=malatya)
+ [Click Here for Places to Visit in Malatya](https://www.waylero.com/en/kesfet/turkiye/malatya)
 
 ---
 ### 📍 Places to Visit in Iğdır in 2026
@@ -400,7 +400,7 @@ In addition, Iğdır Culture Park is an ideal route for nature walks and relaxat
 With its high elevations and unique landscapes in Eastern Anatolia, Iğdır remains one of the top destinations for nature and cultural tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Iğdır](https://www.waylero.com/en/kesfet?q=igdir)
+ [Click Here for Places to Visit in Iğdır](https://www.waylero.com/en/kesfet/turkiye/igdir)
 
 ---
 ### 📍 Places to Visit in Tunceli in 2026
@@ -414,7 +414,7 @@ For those seeking adventure and scenery, Mercan Valley is popular for trekking a
 The 2026 Guide to Places to Visit in Tunceli offers comprehensive itineraries for those wishing to experience nature, tranquility, and cultural heritage all in one. With its untouched natural beauty, Tunceli remains one of the top destinations for exploration and camping tourism in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Tunceli](https://www.waylero.com/en/kesfet?q=tunceli)
+ [Click Here for Places to Visit in Tunceli](https://www.waylero.com/en/kesfet/turkiye/tunceli)
 
 ---
 ### 📍 Places to Visit in Bingöl in 2026
@@ -426,7 +426,7 @@ In addition, the natural areas in the districts of Karlıova and Genç are uniqu
 With the cool climate and lush greenery of Eastern Anatolia, Bingöl remains one of the top destinations for nature and cultural tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Bingöl](https://www.waylero.com/en/kesfet?q=bingol)
+ [Click Here for Places to Visit in Bingöl](https://www.waylero.com/en/kesfet/turkiye/bingol)
 
 ---
 ### 📍 Places to Visit in Muş in 2026
@@ -438,7 +438,7 @@ Additionally, the Haçlı Bridge offers an ideal route for those wishing to expl
 With its cultural and natural beauty, Muş remains one of the top destinations for those seeking cultural and nature tourism in the 2026 itinerary of places to visit in Eastern Anatolia.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Muş](https://www.waylero.com/en/kesfet?q=mus)
+ [Click Here for Places to Visit in Muş](https://www.waylero.com/en/kesfet/turkiye/mus)
 
 ## ❄️ The Best Time for a Trip to Eastern Anatolia
 

@@ -85,7 +85,7 @@ export const istanbulPosts = [
 3.  **İDO/Şehir Hatları:** "Deniz varsa trafik yoktur." Gitmek istediğin yere vapur varsa, başka araç arama.
 4.  **Taksi Uyarısı:** Özellikle turistik bölgelerde (Sultanahmet-Eminönü) taksi bulmak zordur. **BiTaksi** veya **Uber** kullanmaya çalış, yoldan çevirme.
 
-Daha fazla keşif için tıkla 🔗 **[İstanbulda Gezilecek Yerler](https://www.waylero.com/kesfet?q=istanbul)**
+Daha fazla keşif için tıkla 🔗 **[İstanbulda Gezilecek Yerler](https://www.waylero.com/kesfet/turkiye/istanbul)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
@@ -134,7 +134,7 @@ Navigating Istanbul is an art; getting stuck in traffic is its greatest enemy. A
 
 > **Transport:** You can use the Marmaray (undersea metro), but the **Waylero advice** is: Always take the ferry. Watching the city from the water is a core Istanbul experience.
 
-Click here for details 🔗 **[Istanbul Travel Guide](https://www.waylero.com/kesfet?q=istanbul)**
+Click here for details 🔗 **[Istanbul Travel Guide](https://www.waylero.com/kesfet/turkiye/istanbul)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**`
     }

@@ -156,11 +156,7 @@ export default async function CityPage({ params }: Props) {
                   <div className="flex items-center justify-center h-full text-4xl">🏛️</div>
                 )}
                 
-                <div className="absolute top-6 left-6">
-                   <div className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center text-sm font-black shadow-xl border-2 border-white/20 backdrop-blur-md">
-                     {index + 1}
-                   </div>
-                </div>
+                
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
                 

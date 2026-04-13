@@ -169,7 +169,7 @@ In the western part of the Marmara Region, **Çanakkale and Gelibolu** offer a u
 
 The Marmara Region is incredibly diverse, appealing to lovers of cities, nature, and history alike. Start with Istanbul’s historic centers, follow the Ottoman traces in Bursa, explore Çanakkale’s ancient and wartime history, and immerse yourself in nature in the Kaz Mountains. This combination makes the Marmara Region an indispensable part of your list of places to visit in Turkey.  
 
-👉 [Discover with the Marmara Travel Guide](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)
+👉 [Discover with the Marmara Travel Guide](https://www.waylero.com/en/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)
 
 
 
@@ -182,7 +182,7 @@ For nature lovers, the turquoise bays, hiking trails, and hidden beaches along t
 
 The Aegean is not just about the sea; it also enchants with its mountain and valley landscapes. Hiking, photography, and nature exploration are possible in natural areas such as **Mount Kaz National Park** and **Mount Spil**. Thanks to the combination of coastal and inland areas, visitors can experience both ancient history and natural beauty on a single itinerary.
 
-👉 [Discover Now with the Aegean Travel Guide](www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)
+👉 [Discover Now with the Aegean Travel Guide](www.waylero.com/en/blog/ege/turkiyede-gezilecek-yerler-2026-ege)
 
 
 
@@ -194,7 +194,7 @@ For nature lovers, the Mediterranean’s mountains, lakes, and coastlines offer 
 
 The Mediterranean coastline is not just about the sea; it’s also ideal for water sports and exploration tours. For example, the sunken cities and hidden coves around Kekova and Kaş offer unique experiences where history and the sea converge.
 
-👉 [Start Your Exploration with the Mediterranean Travel Guide](www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)
+👉 [Start Your Exploration with the Mediterranean Travel Guide](www.waylero.com/en/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)
 
 ## 🌿 The Black Sea Region: Lands Where Greenery and History Intertwine
 
@@ -204,7 +204,7 @@ For history enthusiasts, the Black Sea region bears the traces of many civilizat
 
 Hiking and nature trails in the Black Sea region are quite diverse. **Kaçkar Mountains National Park** offers unique opportunities for botanical and wildlife observation. Additionally, the small villages along the coastline provide visitors with the chance to experience local life.  
 
-👉 [Discover Nature with the Black Sea Travel Guide](www.waylero.com/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)
+👉 [Discover Nature with the Black Sea Travel Guide](www.waylero.com/en/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)
 
 
 ## 🕌 Central Anatolia Region: History and the Magic of the Steppe
@@ -215,7 +215,7 @@ Seljuk-era monuments, the **Konya Mevlana Museum**, mosques, and caravanserais h
 
 Central Anatolia is a unique region for both historical and natural exploration. Starting from the city centers, it is possible to explore the fairy chimneys of Cappadocia, the unique scenery of Tuz Lake, and the Seljuk heritage all in one trip.  
 
-👉 [A Journey with Masala: Central Anatolia Travel Guide](www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)
+👉 [A Journey with Masala: Central Anatolia Travel Guide](www.waylero.com/en/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)
 
 ## 🏔️ Eastern Anatolia Region: Peaks and Epic Landscapes
 
@@ -225,7 +225,7 @@ For history enthusiasts, Eastern Anatolia boasts a rich cultural heritage, inclu
 
 The blend of nature and history makes Eastern Anatolia a unique destination for trekking, mountaineering, and cultural tourism. The areas around Mount Ararat and Mount Nemrut are a must-visit for those seeking to experience the region’s dramatic landscapes.  
 
-👉 [Explore with the Eastern Anatolia Travel Guide](www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)
+👉 [Explore with the Eastern Anatolia Travel Guide](www.waylero.com/en/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)
 
 ## 🌄 Southeastern Anatolia Region: Mesopotamia’s History and Nature Trail
 
@@ -233,7 +233,7 @@ Southeastern Anatolia, home to Mardin, Gaziantep, Şanlıurfa, and Diyarbakır, 
 
 In terms of nature, the region offers diverse landscapes featuring lakes, rivers, and steppe scenery. **Halfeti** and the banks of the Euphrates are ideal for photography and nature hikes. The blend of history and nature makes Southeastern Anatolia an indispensable destination for those seeking to explore ancient ruins and natural beauty together.  
 
-👉 [Start Your Adventure with the Southeastern Anatolia Travel Guide](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+👉 [Start Your Adventure with the Southeastern Anatolia Travel Guide](https://www.waylero.com/en/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 

@@ -469,7 +469,7 @@ To expand your Cappadocia travel plan and discover different routes and hidden g
 👉 With detailed content, ready-made itineraries, and tools for creating personalized plans, you can plan your trip like a pro.
 
 ---
-Click here for details 🔗 **[Cappadocia Travel Guide](https://www.waylero.com/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
+Click here for details 🔗 **[Cappadocia Travel Guide](https://www.waylero.com/en/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

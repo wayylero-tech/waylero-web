@@ -15,7 +15,7 @@ export const konyaPosts = [
     image: "/assets/genel/tinaztepe.webp",
 
     gallery: [
-      "/assets/genel/tinaztepe1.webp",
+      "/assets/genel/tinaztepe.webp",
 "/assets/genel/tinaztepe2.webp",
 "/assets/genel/tinaztepe3.webp",
 "/assets/genel/tinaztepe4.webp",
