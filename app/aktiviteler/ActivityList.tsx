@@ -29,6 +29,26 @@ const translations = {
   },
 };
 
+export const cityMap: Record<string, number> = {
+  ADANA: 1, ADIYAMAN: 2, AFYON: 3, AFYONKARAHİSAR: 85, AĞRI: 4,
+  AKSARAY: 5, AMASYA: 6, ANKARA: 7, ANTALYA: 8, ARDAHAN: 9,
+  ARTVİN: 10, AYDIN: 11, BALIKESİR: 12, BARTIN: 13, BATMAN: 14,
+  BAYBURT: 15, BİLECİK: 16, BİNGÖL: 17, BİTLİS: 18, BOLU: 19,
+  BURDUR: 20, BURSA: 21, ÇANAKKALE: 22, ÇANKIRI: 23, ÇORUM: 24,
+  DENİZLİ: 25, DİYARBAKIR: 26, DÜZCE: 27, EDİRNE: 28, ELAZIĞ: 29,
+  ERZİNCAN: 30, ERZURUM: 31, ESKİŞEHİR: 32, GAZİANTEP: 33, GİRESUN: 34,
+  GÜMÜŞHANE: 35, HAKKARİ: 36, HATAY: 37, IĞDIR: 38, ISPARTA: 39,
+  İSTANBUL: 40, İZMİR: 41, KAHRAMANMARAŞ: 42, KARABÜK: 43, KARAMAN: 44,
+  KARS: 45, KASTAMONU: 46, KAYSERİ: 47, KİLİS: 51, KIRIKKALE: 48,
+  KIRKLARELİ: 49, KIRŞEHİR: 50, KKTC: 84, KOCAELİ: 52, KONYA: 53,
+  KÜTAHYA: 54, LEFKOŞA: 83, MALATYA: 55, MANİSA: 56, MARDİN: 57,
+  MERSİN: 58, MUĞLA: 59, MUŞ: 60, NEVŞEHİR: 61, NİĞDE: 62,
+  ORDU: 63, OSMANİYE: 64, RİZE: 65, SAKARYA: 66, SAMSUN: 67,
+  ŞANLIURFA: 71, SİİRT: 68, SİNOP: 69, ŞIRNAK: 72, SİVAS: 70,
+  TEKİRDAĞ: 73, TOKAT: 74, TRABZON: 75, TUNCELİ: 76, UŞAK: 77,
+  VAN: 78, YALOVA: 79, YOZGAT: 80, ZONGULDAK: 81
+};
+
 interface ActivityListProps {
   initialEvents: any[];
   initialCityName: string;
@@ -48,6 +68,12 @@ export default function ActivityList({
 
   const [isCityPanelOpen, setIsCityPanelOpen] = useState(false);
 
+  const mainCities = ["İSTANBUL", "ANKARA", "İZMİR"];
+
+  const otherCities = Object.keys(cityMap).filter(
+    (c) => !mainCities.includes(c)
+  );
+
   const cityParam = searchParams.get("city");
 
   const selectedCityName = cityParam
@@ -58,9 +84,7 @@ export default function ActivityList({
 
   const activeCity = selectedCityName.toLocaleUpperCase("tr-TR");
 
-  const cities = ["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"];
-
-  // FORMAT EVENTS (ORİJİNAL KORUNDU)
+  // EVENTS FORMAT (DEĞİŞMEDİ)
   const events = (initialEvents || []).map((item: any) => {
     const rawDate = item.start || item.start_date || item.baslangic;
     let eventDate: Date | null = null;
@@ -90,10 +114,7 @@ export default function ActivityList({
     };
   });
 
-  const getCitySuffix = (cityName: string) => {
-    if (lang === "en" || !cityName || cityName === t.title) return "";
-    return "";
-  };
+  const getCitySuffix = () => "";
 
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white p-4 md:p-12">
@@ -108,13 +129,12 @@ export default function ActivityList({
           <p className="text-yellow-500 text-xs mt-2 opacity-80 text-center">
             {t.subtitle
               .replace("{city}", selectedCityName)
-              .replace("{suffix}", getCitySuffix(selectedCityName))}
+              .replace("{suffix}", getCitySuffix())}
           </p>
 
-          {/* CITY BUTTONS */}
+          {/* MAIN CITIES */}
           <div className="flex gap-2 mt-6 flex-wrap justify-center">
-
-            {cities.map((c) => (
+            {mainCities.map((c) => (
               <button
                 key={c}
                 onClick={() =>
@@ -139,38 +159,33 @@ export default function ActivityList({
             >
               {t.otherCities}
             </button>
-
           </div>
         </header>
 
-        {/* EVENTS GRID */}
+        {/* EVENTS */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {events.length > 0 ? (
             events.map((event) => (
               <div
                 key={event.id}
-                className="bg-[#121212] rounded-2xl overflow-hidden border border-white/10 flex flex-col transition-all duration-300 hover:scale-[1.03] hover:-translate-y-2 hover:border-white/30 hover:shadow-2xl"
+                className="bg-[#121212] rounded-2xl overflow-hidden border border-white/10 flex flex-col hover:scale-[1.03] transition"
               >
                 <div className="relative h-72">
                   <Image
                     src={event.image}
                     alt={event.name}
                     fill
-                    sizes="(max-width:768px) 100vw, 25vw"
                     className="object-cover"
                   />
                 </div>
 
                 <div className="p-5 flex flex-col flex-grow">
-                  <h2 className="text-lg font-bold mb-1">
-                    {event.name}
-                  </h2>
+                  <h2 className="text-lg font-bold">{event.name}</h2>
 
                   <p className="text-xs text-gray-400 mb-3">
                     {event.venue}
                   </p>
 
-                  {/* DATE + TIME (KORUNDU) */}
                   <div className="text-xs text-yellow-400 mb-4">
                     {event.date ? (
                       <>
@@ -187,8 +202,6 @@ export default function ActivityList({
 
                   <a
                     href={event.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="mt-auto bg-white text-black py-3 rounded-xl text-center font-bold"
                   >
                     {t.buyTicket}
@@ -203,14 +216,13 @@ export default function ActivityList({
           )}
         </div>
 
-        {/* FOOTER (KORUNDU - ÖNEMLİ) */}
-        <footer className="mt-16 text-center text-white text-xs md:text-sm opacity-80 pb-10">
+        {/* FOOTER (KORUNDU) */}
+        <footer className="mt-16 text-center text-white text-xs opacity-80 pb-10">
           <p>
             Etkinlik verileri{" "}
             <a
               href="https://etkinlik.io"
               target="_blank"
-              rel="noopener noreferrer"
               className="text-yellow-500 underline font-bold"
             >
               etkinlik.io
@@ -218,10 +230,9 @@ export default function ActivityList({
             tarafından sağlanmaktadır.
           </p>
         </footer>
-
       </div>
 
-      {/* RIGHT DRAWER */}
+      {/* DRAWER */}
       {isCityPanelOpen && (
         <div className="fixed inset-0 z-50 flex">
           <div
@@ -229,19 +240,14 @@ export default function ActivityList({
             onClick={() => setIsCityPanelOpen(false)}
           />
 
-          <div className="ml-auto w-full sm:w-[380px] h-full bg-[#0f0f0f] border-l border-white/10 p-6 relative z-10 animate-slideIn">
-            <div className="flex justify-between items-center mb-6">
+          <div className="ml-auto w-full sm:w-[380px] h-full bg-[#0f0f0f] border-l border-white/10 p-6">
+            <div className="flex justify-between mb-6">
               <h2 className="text-lg font-bold">Şehir Seç</h2>
-              <button
-                onClick={() => setIsCityPanelOpen(false)}
-                className="text-white/60 hover:text-white"
-              >
-                ✕
-              </button>
+              <button onClick={() => setIsCityPanelOpen(false)}>✕</button>
             </div>
 
             <div className="flex flex-col gap-3">
-              {cities.map((c) => (
+              {otherCities.map((c) => (
                 <button
                   key={c}
                   onClick={() => {
