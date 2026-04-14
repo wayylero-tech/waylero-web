@@ -5,6 +5,8 @@ import "./globals.css";
 import { LanguageProvider } from "./context/LanguageContext";
 import ClientLayout from "./components/ClientLayout";
 import ClientProviders from "./ClientProviders";
+import Script from "next/script";
+
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -36,6 +38,22 @@ export default async function RootLayout({ children }: { children: React.ReactNo
  // Şurayı silip şu temiz halini yapıştır:
 return (
   <html lang={displayLang} suppressHydrationWarning>
+    <head>
+      {/* Google Analytics */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-XC5RZVYFEF"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XC5RZVYFEF');
+        `}
+      </Script>
+    </head>
+
     <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
       <ClientProviders>
         <ClientLayout>
@@ -44,5 +62,6 @@ return (
       </ClientProviders>
     </body>
   </html>
+
 );
 }
