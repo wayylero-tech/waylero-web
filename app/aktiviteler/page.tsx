@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
-export const dynamic = "force-dynamic"; // Dosyanın en üstüne ekle
+export const dynamic = "force-dynamic";
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -47,7 +47,6 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 
   const citySlug = params.city || "";
-  // 🔥 Yeni: URL'den gelen tarihleri yakalıyoruz
   const startDate = params.start || "";
   const endDate = params.end || "";
   
@@ -72,26 +71,28 @@ export default async function ActivitiesPage({ searchParams }: any) {
       apiParams.append("city_ids", allCityIds);
     }
 
-    // 🔥 KRİTİK GÜNCELLEME: Tarih parametrelerini API'ye ekle
+    // Tarih parametreleri
     if (startDate) apiParams.append("start", startDate);
     if (endDate) apiParams.append("end", endDate);
     
-    // İstanbul gibi yoğun illerde 50 sınırı olduğu için limiti yüksek tutmayı deniyoruz 
-    // (Route dosyasında bu değeri kullanacağız)
-    apiParams.append("limit", "100"); 
+    // 🔥 DÜZELTME: Artık 50-50 gidiyoruz ve doğru parametre ismini (take) kullanıyoruz
+    apiParams.append("take", "50"); 
+    apiParams.append("skip", "0"); 
 
     const domain = "www.waylero.com";
     const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
 
-    // Kendi API route'umuza istek atıyoruz
+    // Kendi API route'umuza (route.ts) istek atıyoruz
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
       next: { revalidate: 1800 },
     });
 
     if (res.ok) {
       const data = await res.json();
+      // Route.ts artık 'items' içinde dönüyor
       initialEvents = data.items || [];
       
+      // Yedek kontrol
       if (initialEvents.length === 0 && data.data) {
         initialEvents = data.data; 
       }

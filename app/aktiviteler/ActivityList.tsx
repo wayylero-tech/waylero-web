@@ -2,7 +2,7 @@
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { cityMap } from "@/lib/cityMap";
 
 // 🔥 Linkleri Türkçe karakterden arındıran fonksiyon
@@ -32,7 +32,13 @@ const translations = {
     noEvents: "Bu tarih aralığında etkinlik bulunamadı...",
     noVenue: "Mekan Belirtilmemiş",
     event: "Etkinlik",
-    filterTitle: "ZAMAN DİLİMİ SEÇ",
+    loadMore: "DAHA FAZLA ETKİNLİK GÖR",
+    loading: "YÜKLENİYOR...",
+    // Yeni Eklenenler
+    thisWeek: "BU HAFTA",
+    nextWeek: "GELECEK HAFTA",
+    nextMonth: "GELECEK AY",
+    resetDate: "TARİHİ SIFIRLA"
   },
   en: {
     title: "ALL OVER TURKEY",
@@ -44,7 +50,13 @@ const translations = {
     noEvents: "No events found in this date range...",
     noVenue: "Venue Not Specified",
     event: "Event",
-    filterTitle: "SELECT TIME RANGE",
+    loadMore: "LOAD MORE EVENTS",
+    loading: "LOADING...",
+    // Yeni Eklenenler
+    thisWeek: "THIS WEEK",
+    nextWeek: "NEXT WEEK",
+    nextMonth: "NEXT MONTH",
+    resetDate: "RESET DATE"
   },
 };
 
@@ -62,7 +74,12 @@ export default function ActivityList({
   const t = translations[lang];
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams(); // 🔥 URL parametrelerini okumak için eklendi
+  const searchParams = useSearchParams();
+
+  const [events, setEvents] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [skip, setSkip] = useState(0);
+  const [hasMore, setHasMore] = useState(true);
   const [showCityList, setShowCityList] = useState(false);
 
   const activeCity = initialCityName.toLocaleUpperCase("tr-TR");
@@ -71,40 +88,13 @@ export default function ActivityList({
     .filter((c) => !cities.includes(c))
     .sort((a, b) => a.localeCompare(b, "tr"));
 
-  // ✅ Dinamik Tarih Aralığı Belirleme Fonksiyonu
-  const handleDateRange = (startOffset: number, endOffset: number) => {
-    const start = new Date();
-    start.setDate(start.getDate() + startOffset);
-    const end = new Date();
-    end.setDate(end.getDate() + endOffset);
-
-    const startStr = start.toISOString().split('T')[0];
-    const endStr = end.toISOString().split('T')[0];
-
-    const params = new URLSearchParams(searchParams.toString());
-    params.set("start", startStr);
-    params.set("end", endStr);
-    
-    router.push(`${pathname}?${params.toString()}`);
-  };
-
-  const handleCityChange = (cityName: string) => {
-    const cleanSlug = slugify(cityName);
-    const params = new URLSearchParams(searchParams.toString());
-    params.set("city", cleanSlug);
-    // Şehir değişince genelde tarihi sıfırlamak iyidir ama istersen tutabilirsin
-    router.push(`${pathname}?${params.toString()}`);
-    setShowCityList(false);
-  };
-
-  const events = (initialEvents || []).map((item: any) => {
+  const mapEvent = (item: any) => {
     const rawDate = item.start || item.start_date || item.baslangic;
     let eventDate: Date | null = null;
     if (rawDate) {
       const d = new Date(rawDate);
       if (!isNaN(d.getTime())) eventDate = d;
     }
-
     return {
       id: item.id || Math.random(),
       name: item.name || item.adi,
@@ -115,40 +105,122 @@ export default function ActivityList({
       category: item.category?.name || t.event,
       url: item.ticket_url || item.url || "#",
     };
-  });
+  };
+
+  useEffect(() => {
+    const mapped = (initialEvents || []).map(mapEvent);
+    setEvents(mapped);
+    setSkip(0);
+    setHasMore(mapped.length === 50);
+  }, [initialEvents]);
+
+  const loadMore = async () => {
+    if (loading || !hasMore) return;
+    setLoading(true);
+    const nextSkip = skip + 50;
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("skip", nextSkip.toString());
+    params.set("take", "50");
+
+    try {
+      const res = await fetch(`/api/events?${params.toString()}`);
+      const data = await res.json();
+      if (data.items && data.items.length > 0) {
+        const newEvents = data.items.map(mapEvent);
+        setEvents((prev) => [...prev, ...newEvents]);
+        setSkip(nextSkip);
+        if (newEvents.length < 50) setHasMore(false);
+      } else {
+        setHasMore(false);
+      }
+    } catch (error) {
+      console.error("Yükleme hatası:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleDateRange = (startOffset: number, endOffset: number) => {
+    const start = new Date();
+    start.setDate(start.getDate() + startOffset);
+    const end = new Date();
+    end.setDate(end.getDate() + endOffset);
+    const startStr = start.toISOString().split('T')[0];
+    const endStr = end.toISOString().split('T')[0];
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("start", startStr);
+    params.set("end", endStr);
+    router.push(`${pathname}?${params.toString()}`);
+  };
+
+  const handleCityChange = (cityName: string) => {
+    const cleanSlug = slugify(cityName);
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("city", cleanSlug);
+    router.push(`${pathname}?${params.toString()}`);
+    setShowCityList(false);
+  };
 
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white p-4 md:p-12">
       <div className="max-w-[1400px] mx-auto">
-
-        {/* HEADER */}
         <header className="flex flex-col items-center mb-10">
           <h1 className="text-4xl md:text-6xl font-black uppercase text-center">
             {initialCityName}
           </h1>
-
           <p className="text-yellow-500 text-xs mt-2 opacity-80 text-center">
             {t.subtitle.replace("{city}", initialCityName).replace("{suffix}", "")}
           </p>
 
-          {/* TARİH FİLTRELERİ (YENİ) */}
           <div className="flex gap-2 mt-8 flex-wrap justify-center border-t border-white/5 pt-6 w-full max-w-2xl">
-            <button onClick={() => handleDateRange(0, 7)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all">BU HAFTA</button>
-            <button onClick={() => handleDateRange(7, 14)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all">GELECEK HAFTA</button>
-            <button onClick={() => handleDateRange(14, 45)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all">GELECEK AY</button>
-            <input 
-              type="date" 
-              onChange={(e) => {
-                const params = new URLSearchParams(searchParams.toString());
-                params.set("start", e.target.value);
-                params.set("end", e.target.value);
-                router.push(`${pathname}?${params.toString()}`);
-              }}
-              className="bg-transparent border border-white/10 rounded-full px-3 py-1 text-[10px] outline-none focus:border-yellow-500"
-            />
+            <button onClick={() => handleDateRange(0, 7)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all uppercase">
+              {t.thisWeek}
+            </button>
+            <button onClick={() => handleDateRange(7, 14)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all uppercase">
+              {t.nextWeek}
+            </button>
+            <button onClick={() => handleDateRange(14, 45)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all uppercase">
+              {t.nextMonth}
+            </button>
+            
+            <div className="relative group min-w-[140px]">
+              <input 
+                type="date" 
+                value={searchParams.get("start") || ""}
+                onChange={(e) => {
+                  const params = new URLSearchParams(searchParams.toString());
+                  params.set("start", e.target.value);
+                  params.set("end", e.target.value);
+                  router.push(`${pathname}?${params.toString()}`);
+                }}
+                className="appearance-none bg-[#1A1A1A] border border-white/10 rounded-full px-4 py-2 text-[10px] font-bold outline-none focus:border-yellow-500 transition-all cursor-pointer text-white hover:bg-[#222] pr-10 w-full"
+                style={{ colorScheme: "dark" }}
+              />
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" className="text-yellow-500">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" strokeWidth="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6" strokeWidth="2"></line>
+                  <line x1="8" y1="2" x2="8" y2="6" strokeWidth="2"></line>
+                  <line x1="3" y1="10" x2="21" y2="10" strokeWidth="2"></line>
+                </svg>
+              </div>
+            </div>
+
+            {(searchParams.get("start") || searchParams.get("end")) && (
+              <button 
+                onClick={() => {
+                  const params = new URLSearchParams(searchParams.toString());
+                  params.delete("start");
+                  params.delete("end");
+                  router.push(`${pathname}?${params.toString()}`);
+                }}
+                className="px-4 py-2 text-[10px] font-bold text-red-500 border border-red-500/20 rounded-full hover:bg-red-500 hover:text-white transition-all uppercase flex items-center gap-1"
+              >
+                <span>✕</span> {t.resetDate}
+              </button>
+            )}
           </div>
 
-          {/* ŞEHİR BUTONLARI */}
           <div className="flex gap-2 mt-6 flex-wrap justify-center">
             {cities.map((c) => (
               <button
@@ -175,7 +247,6 @@ export default function ActivityList({
           </div>
         )}
 
-        {/* EVENTS GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10">
           {events.length > 0 ? (
             events.map((event) => (
@@ -191,7 +262,7 @@ export default function ActivityList({
                       <>{event.date.toLocaleDateString(lang === "tr" ? "tr-TR" : "en-US", { day: "2-digit", month: "short" })} • {event.time}</>
                     ) : t.soon}
                   </div>
-                  <a href={event.url} target="_blank" rel="noopener noreferrer" className="mt-auto bg-white text-black py-3 rounded-xl text-center font-bold">{t.buyTicket}</a>
+                  <a href={event.url} target="_blank" rel="noopener noreferrer" className="mt-auto bg-white text-black py-3 rounded-xl text-center font-bold hover:bg-yellow-500 transition-all">{t.buyTicket}</a>
                 </div>
               </div>
             ))
@@ -200,11 +271,22 @@ export default function ActivityList({
           )}
         </div>
 
-        {/* FOOTER - ATIF BÖLÜMÜ */}
+        {/* 🔥 DAHA FAZLA YÜKLE BUTONU - GÜVENLİK GÜNCELLEMESİ */}
+{hasMore && events.length >= 50 && (searchParams.get("city") || searchParams.get("start")) && (
+  <div className="flex justify-center mt-12 pb-10">
+    <button 
+      onClick={loadMore}
+      disabled={loading}
+      className="px-10 py-4 border-2 border-yellow-500 text-yellow-500 rounded-2xl font-black hover:bg-yellow-500 hover:text-black transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-widest text-sm"
+    >
+      {loading ? t.loading : t.loadMore}
+    </button>
+  </div>
+)}
+
         <footer className="mt-16 text-center text-white text-xs md:text-sm opacity-80 pb-10">
           <p>Etkinlik verileri <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="text-yellow-500 underline font-bold">etkinlik.io</a> tarafından sağlanmaktadır.</p>
         </footer>
-
       </div>
     </main>
   );

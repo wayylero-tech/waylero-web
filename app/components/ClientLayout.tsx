@@ -136,114 +136,95 @@ export default function ClientLayout({
 
       <main className="flex-1">{children}</main>
 
-      {/* 🔹 FOOTER */}
-      <footer className="border-t bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 py-6 grid md:grid-cols-3 gap-6 text-sm text-gray-600">
-          {/* SOL */}
-          <div>
-            <img
-              src="/assets/genel/logo.webp"
-              alt="Waylero Logo"
-              className="h-10 mb-2"
-            />
-            <p>Waylero © {new Date().getFullYear()}</p>
-            <p>{t.slogan}</p>
-          </div>
+{/* 🔹 FOOTER */}
+<footer className="border-t bg-gray-50">
+  <div className="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-4 gap-8 text-sm text-gray-600">
+    
+    {/* 1. SÜTUN: LOGO & SLOGAN */}
+    <div>
+      <img
+        src="/assets/genel/logo.webp"
+        alt="Waylero Logo"
+        className="h-10 mb-2"
+      />
+      <p className="font-medium text-gray-900">Waylero © {new Date().getFullYear()}</p>
+      <p className="text-xs mt-1">{t.slogan}</p>
+    </div>
 
-          {/* ORTA */}
-          <div className="flex flex-col gap-1">
-            <Link href={getLocalizedLink("/hakkimizda")}>
-              {t.hakkimizda}
-            </Link>
-            <Link href={getLocalizedLink("/privacy")}>
-              {t.gizlilik}
-            </Link>
-            <Link href={getLocalizedLink("/terms")}>
-              {t.sozlesme}
-            </Link>
-            <Link href={getLocalizedLink("/contact")}>
-              {t.iletisim}
-            </Link>
-          </div>
+    {/* 2. SÜTUN: KURUMSAL (HAKKIMIZDA/İLETİŞİM) */}
+    <div className="flex flex-col gap-2">
+      <span className="font-bold text-gray-900 mb-1">
+        {lang === "tr" ? "KURUMSAL" : "CORPORATE"}
+      </span>
+      <Link href={getLocalizedLink("/hakkimizda")} className="hover:text-blue-600 transition-colors">
+        {t.hakkimizda}
+      </Link>
+      <Link href={getLocalizedLink("/privacy")} className="hover:text-blue-600 transition-colors">
+        {t.gizlilik}
+      </Link>
+      <Link href={getLocalizedLink("/terms")} className="hover:text-blue-600 transition-colors">
+        {t.sozlesme}
+      </Link>
+      <Link href={getLocalizedLink("/contact")} className="hover:text-blue-600 transition-colors">
+        {t.iletisim}
+      </Link>
+    </div>
 
-          {/* SAĞ */}
-          <div className="flex justify-between md:justify-end gap-6">
-            {/* SOSYAL */}
-            <div>
-              <span className="font-semibold text-gray-900">
-                {t.takip}
-              </span>
-              <div className="flex gap-2 mt-2">
-                <a
-                  href="https://www.instagram.com/waylero_ile_kesfet/"
-                  target="_blank"
-                >
-                  <img
-                    src="/assets/genel/instagram.webp"
-                    className="h-6 w-6"
-                    alt="Instagram"
-                  />
-                </a>
+    {/* 🔥 3. SÜTUN: İŞ BİRLİKLERİMİZ (TAM ORTAYA GELDİ) */}
+   <div className="flex flex-col gap-3">
+  <span className="font-bold text-gray-900 mb-1">
+    {lang === "tr" ? "İŞ BİRLİKLERİMİZ" : "PARTNERS"}
+  </span>
+  
+  {/* 🔥 YEREL LOGO KULLANIMI */}
+  <div className="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+    <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="inline-block">
+      <img 
+        src="/assets/genel/etkinlikio.webp" // Senin kaydettiğin dosya yolu
+        alt="Etkinlik.io" 
+        className="h-8 object-contain" // Yüksekliği biraz artırdım, object-contain ile sığdırdım
+      />
+    </a>
+  </div>
+  
+  <p className="text-[10px] leading-tight text-gray-400">
+    {lang === "tr" 
+      ? "Etkinlik verileri etkinlikio tarafından sağlanmaktadır." 
+      : "Event data  is provided by etkinlikio."}
+  </p>
+</div>
 
-                <a
-                  href="https://www.facebook.com/share/1cc67aspSp/"
-                  target="_blank"
-                >
-                  <img
-                    src="/assets/genel/facebook.webp"
-                    className="h-6 w-6"
-                    alt="Facebook"
-                  />
-                </a>
-
-                <a
-                  href="https://www.youtube.com/@way_lero"
-                  target="_blank"
-                >
-                  <img
-                    src="/assets/genel/youtube.webp"
-                    className="h-6 w-6"
-                    alt="YouTube"
-                  />
-                </a>
-
-                <a href="https://x.com/wayylero" target="_blank">
-                  <img
-                    src="/assets/genel/x.webp"
-                    className="h-6 w-6"
-                    alt="X"
-                  />
-                </a>
-              </div>
-            </div>
-
-            {/* STORE */}
-            <div className="text-right">
-              <span className="font-semibold text-gray-900">
-                {t.indir}
-              </span>
-              <div className="flex gap-2 mt-2">
-                <a
-                  href="https://play.google.com/store/apps/details?id=app.waylero.mobile"
-                  target="_blank"
-                >
-                  <img
-                    src="/assets/genel/google-play.webp"
-                    className="h-6"
-                    alt="Google Play"
-                  />
-                </a>
-
-                <img
-                  src="/assets/genel/app-store.webp"
-                  className="h-6 opacity-50"
-                  alt="App Store"
-                />
-              </div>
-            </div>
-          </div>
+    {/* 4. SÜTUN: SOSYAL & İNDİR (SAĞ TARAF) */}
+    <div className="flex flex-col gap-6">
+      {/* SOSYAL */}
+      <div>
+        <span className="font-bold text-gray-900">
+          {t.takip}
+        </span>
+        <div className="flex gap-3 mt-3">
+          <a href="https://www.instagram.com/waylero_ile_kesfet/" target="_blank"><img src="/assets/genel/instagram.webp" className="h-5 w-5" alt="Instagram" /></a>
+          <a href="https://www.facebook.com/share/1cc67aspSp/" target="_blank"><img src="/assets/genel/facebook.webp" className="h-5 w-5" alt="Facebook" /></a>
+          <a href="https://www.youtube.com/@way_lero" target="_blank"><img src="/assets/genel/youtube.webp" className="h-5 w-5" alt="YouTube" /></a>
+          <a href="https://x.com/wayylero" target="_blank"><img src="/assets/genel/x.webp" className="h-5 w-5" alt="X" /></a>
         </div>
-      </footer>
+      </div>
+
+      {/* STORE */}
+      <div>
+        <span className="font-bold text-gray-900">
+          {t.indir}
+        </span>
+        <div className="flex gap-2 mt-2">
+          <a href="https://play.google.com/store/apps/details?id=app.waylero.mobile" target="_blank">
+            <img src="/assets/genel/google-play.webp" className="h-6" alt="Google Play" />
+          </a>
+          <img src="/assets/genel/app-store.webp" className="h-6 opacity-50" alt="App Store" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
     </div>
   );
 }
