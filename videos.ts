@@ -77,6 +77,65 @@ export const wayleroLiveVideos = [
   title: "Eflatun Pınarı Hitit Su Anıtı 7", 
   youtubeId: "qVp6lhmrSWs",
   location: "Konya, Türkiye"
+},{ 
+  id: 15, 
+  title: "Çatalhöyük", 
+  youtubeId: "ir21dkVWNDQ",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 16, 
+  title: "Göbeklİ Tepe", 
+  youtubeId: "WfNlggXs3QE",
+  location: "Şanlıurfa, Türkiye"
+},
+{ 
+  id: 17, 
+  title: "Konya Ecdat Parkı", 
+  youtubeId: "0hoJSt90OeY",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 18, 
+  title: "Konya Nasuhbey Camii", 
+  youtubeId: "6Hlj_Y88fJA",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 19, 
+  title: "Konya Kadı Mürsel Camii", 
+  youtubeId: "2MqnJhxWcTY",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 20, 
+  title: "Konya Sırçalı Medrese", 
+  youtubeId: "kQVr6bfwLZg",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 21, 
+  title: "Obruk Han ve Oburuğu", 
+  youtubeId: "azdYBIkBiHg",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 22, 
+  title: "Konya Erdemşah Mecsidi", 
+  youtubeId: "yApZSgo-2_4",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 23, 
+  title: "Alaaddin Camii", 
+  youtubeId: "z4Jixsnyy1o",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 24, 
+  title: "Savatra Antik Kenti", 
+  youtubeId: "NgOwd9vJqsc",
+  location: "Konya, Türkiye"
 }
 
 ];

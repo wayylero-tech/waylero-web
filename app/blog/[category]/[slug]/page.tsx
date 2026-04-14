@@ -31,6 +31,8 @@ import { turkeyPostIcAnadolu } from "@/app/data/blog/turkey/postsicanadolu";
 import { turkeyPostKaradeniz } from "@/app/data/blog/turkey/postkaradeniz";
 import { turkeyPostDoguAnadolu } from "@/app/data/blog/turkey/psostsdoguanadolu";
 import { turkeyPostGunaydogu } from "@/app/data/blog/turkey/postsguneydoguanadolu";
+import { catalhoyukPosts } from "@/app/data/blog/konya/posts4";
+
 
 const posts = [
   ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
@@ -40,7 +42,7 @@ const posts = [
   ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
   ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
   ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, 
-  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, 
+  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts
 ];
 
 // 1. SSG İÇİN PARAMETRELERİ ÖNCEDEN OLUŞTURMA

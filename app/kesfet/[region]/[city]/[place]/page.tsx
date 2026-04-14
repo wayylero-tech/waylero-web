@@ -3,187 +3,186 @@ import type { Metadata } from "next";
 import { cookies, headers } from "next/headers";
 import PlaceSlider from "./PlaceSlider";
 
-// Data importları
 import turkey from "../../../../data/turkey.json";
 import europa from "../../../../data/europa.json";
 import asia from "../../../../data/asia.json";
+
 import turkeyImages from "../../../../data/images/turkey.json";
 import europaImages from "../../../../data/images/europa.json";
 import asiaImages from "../../../../data/images/asia.json";
 
-const allData: any = { turkey, europa, asia };
-const allImages: any = { turkey: turkeyImages, europa: europaImages, asia: asiaImages };
+import { countryToRegionMap } from "@/lib/countryToRegionMap";
+import { slugify } from "@/lib/utils/slugify";
+import Image from "next/image";
 
-const countryToRegionMap: Record<string, string> = {
-  turkiye: "turkey", fransa: "europa", almanya: "europa", italya: "europa", kktc: "europa",
-  ispanya: "europa", ingiltere: "europa", hollanda: "europa", belcika: "europa", 
-  avusturya: "europa", yunanistan: "europa", "cek-cumhuriyeti": "europa", rusya: "europa",
-  macaristan: "europa", portekiz: "europa", romanya: "europa", danimarka: "europa", urdun: "asia",
-  isvec: "europa", norvec: "europa", isvicre: "europa", slovakya: "europa", endonezya: "europa", 
-  finlandiya: "europa", irlanda: "europa", "bosna-hersek": "europa", avustralya: "europa", 
-  gurcistan: "europa", balerus: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
-  cin: "asia", hindistan: "asia", tayland: "europa", "guney-kore": "europa", filipinler: "europa", 
-  japonya: "asia", "sri-lanka": "asia",  singapur: "europa", amerika: "europa", umman: "europa", 
-  "suudi-arabistan": "europa", "misir": "europa","belarus": "europa"
+const DATA: any = {
+  turkey,
+  europa,
+  asia,
 };
 
-const slugify = (text: string) => {
-  if (!text) return "";
-  const trMap: any = { ç: "c", ğ: "g", ı: "i", i: "i", ö: "o", ş: "s", ü: "u", Ç: "C", Ğ: "G", İ: "I", I: "i", Ö: "O", Ş: "S", Ü: "U" };
-  return text.toString().replace(/[çğışüöÇĞİŞÜÖ]/g, (m) => trMap[m]).toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "").replace(/--+/g, "-");
+const IMAGES: any = {
+  turkey: turkeyImages,
+  europa: europaImages,
+  asia: asiaImages,
 };
 
-async function getLanguage() {
-  const headerList = await headers();
-  const pathname = headerList.get("x-invoke-path") || ""; 
-  if (pathname.startsWith("/en") || (headerList.get("referer")?.includes("/en/"))) {
-    return "en";
-  }
-  const cookieStore = await cookies();
-  return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
-}
+const BASE_URL = "https://www.waylero.com";
 
-type Props = { params: Promise<{ region: string; city: string; place: string }> };
+type Params = { region: string; city: string; place: string };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { region, city, place } = await params;
   const lang = await getLanguage();
+
   const mainRegion = countryToRegionMap[region] || region;
-  const regionData = allData[mainRegion];
+  const regionData = DATA[mainRegion];
+
   if (!regionData) return { title: "Waylero" };
 
-  const cityKey = Object.keys(regionData).find(key => slugify(key) === slugify(decodeURIComponent(city)));
+  const cityKey = Object.keys(regionData).find(
+    (k) => slugify(k) === slugify(decodeURIComponent(city))
+  );
+
   if (!cityKey) return { title: "Waylero" };
 
-  const foundPlace = regionData[cityKey].find((p: any) => slugify(p.slug) === slugify(decodeURIComponent(place)));
-  if (!foundPlace) return { title: "Waylero" };
+  const found = regionData[cityKey]?.find(
+    (p: any) => slugify(p.slug) === slugify(decodeURIComponent(place))
+  );
 
-  const displayName = foundPlace.name?.[lang] || foundPlace.name?.tr;
-  const displayDesc = (foundPlace.description?.[lang] || foundPlace.description?.tr)?.slice(0, 160);
-  const targetImageKey = `${slugify(cityKey)}-${slugify(foundPlace.slug)}`;
-  const regionImages = allImages[mainRegion] || {};
-  const cityGroup = regionImages[cityKey] || regionImages[slugify(cityKey)];
-  const mainImage = cityGroup?.[targetImageKey]?.[0] || "https://www.waylero.com/waylero-icon.png";
+  if (!found) return { title: "Waylero" };
 
-  const baseUrl = "https://www.waylero.com";
-  const trPath = `/kesfet/${region}/${city}/${place}`;
-  const enPath = `/en/kesfet/${region}/${city}/${place}`;
+  const name = found.name?.[lang] || found.name?.tr;
+  const desc = (found.description?.[lang] || found.description?.tr || "").slice(0, 160);
+
+  const imageGroup = IMAGES[mainRegion]?.[cityKey] || {};
+  const imageKey = `${slugify(cityKey)}-${slugify(found.slug)}`;
+  const image = imageGroup?.[imageKey]?.[0];
+
+  const path = `/kesfet/${region}/${city}/${place}`;
+  const enPath = `/en${path}`;
 
   return {
-    title: `${displayName} | Waylero`,
-    description: `${displayDesc}...`,
+    title: `${name} | Waylero`,
+    description: desc,
     alternates: {
-      canonical: `${baseUrl}${lang === "en" ? enPath : trPath}`,
-      languages: { "tr-TR": `${baseUrl}${trPath}`, "en-US": `${baseUrl}${enPath}` },
+      canonical: `${BASE_URL}${lang === "en" ? enPath : path}`,
     },
     openGraph: {
-      title: `${displayName} | Waylero`,
-      description: displayDesc,
-      url: `${baseUrl}${lang === "en" ? enPath : trPath}`,
-      images: [{ url: mainImage }],
+      title: name,
+      description: desc,
+      images: image ? [{ url: image }] : undefined,
     },
   };
 }
 
-export default async function Page({ params }: Props) {
+async function getLanguage() {
+  const h = await headers();
+  const cookieStore = await cookies();
+
+  const path = h.get("x-invoke-path") || "";
+  if (path.startsWith("/en")) return "en";
+
+  return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+}
+
+export default async function Page({ params }: { params: Promise<Params> }) {
   const { region, city, place } = await params;
   const lang = await getLanguage();
 
   const mainRegion = countryToRegionMap[region] || region;
-  const regionData = allData[mainRegion];
+  const regionData = DATA[mainRegion];
+
   if (!regionData) return notFound();
 
-  const cityKey = Object.keys(regionData).find(key => slugify(key) === slugify(decodeURIComponent(city)));
+  const cityKey = Object.keys(regionData).find(
+    (k) => slugify(k) === slugify(decodeURIComponent(city))
+  );
+
   if (!cityKey) return notFound();
 
-  const foundPlace = regionData[cityKey].find((p: any) => slugify(p.slug) === slugify(decodeURIComponent(place)));
+  const foundPlace = regionData[cityKey]?.find(
+    (p: any) => slugify(p.slug) === slugify(decodeURIComponent(place))
+  );
+
   if (!foundPlace) return notFound();
 
-  // 🌍 DİL SÖZLÜĞÜ (Tüm metinler burada)
+  const name = foundPlace.name?.[lang] || foundPlace.name?.tr;
+  const desc = foundPlace.description?.[lang] || foundPlace.description?.tr;
+  const activities = foundPlace.activities?.[lang] || foundPlace.activities?.tr || [];
+
+  const imageGroup = IMAGES[mainRegion]?.[cityKey] || {};
+  const imageKey = `${slugify(cityKey)}-${slugify(foundPlace.slug)}`;
+  const images =
+    imageGroup?.[imageKey] || imageGroup?.[foundPlace.slug] || [];
+
   const t = {
     tr: {
       about: "Hakkında",
       todo: "Neler Yapılır?",
-      location: "Konumu ve Haritası",
-      noPhoto: "Bu mekan için henüz fotoğraf eklenmemiş.",
-      breadcrumb: region.replace(/-/g, " ")
+      location: "Konum",
+      noPhoto: "Fotoğraf yok",
     },
     en: {
       about: "About",
-      todo: "Things to Do",
-      location: "Location & Map",
-      noPhoto: "No photos added for this place yet.",
-      breadcrumb: region.replace(/-/g, " ")
-    }
-  }[lang as "tr" | "en"];
-
-  const displayName = foundPlace.name?.[lang] || foundPlace.name?.tr;
-  const displayDesc = foundPlace.description?.[lang] || foundPlace.description?.tr;
-  const displayActivities = foundPlace.activities?.[lang] || foundPlace.activities?.tr || [];
-
-  const targetImageKey = `${slugify(cityKey)}-${slugify(foundPlace.slug)}`;
-  const regionImages = allImages[mainRegion] || {};
-  const cityGroup = regionImages[cityKey] || regionImages[slugify(cityKey)];
-  const placeImages = cityGroup?.[targetImageKey] || cityGroup?.[foundPlace.slug] || [];
+      todo: "Things to do",
+      location: "Location",
+      noPhoto: "No photos",
+    },
+  }[lang];
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8 space-y-10">
-      <header className="border-b pb-8">
-        <nav className="text-sm text-gray-400 uppercase mb-2">
-          {t.breadcrumb} / <span className="text-blue-500 font-bold">{cityKey}</span>
-        </nav>
-        <h1 className="text-4xl md:text-6xl font-black text-gray-900 leading-tight">
-          {displayName}
+
+      {/* HEADER */}
+      <header className="border-b pb-6">
+        <h1 className="text-4xl md:text-6xl font-black">
+          {name}
         </h1>
       </header>
 
+      {/* IMAGE */}
       <section>
-        {placeImages.length > 0 ? (
-          <PlaceSlider images={placeImages} title={displayName} />
+        {images.length > 0 ? (
+          <PlaceSlider images={images} title={name} />
         ) : (
-          <div className="h-[400px] w-full rounded-[2.5rem] bg-gray-50 border-2 border-dashed flex flex-col items-center justify-center text-gray-400">
-            <span className="text-5xl mb-4">📸</span>
-            <p className="font-medium">{t.noPhoto}</p>
+          <div className="h-[400px] flex items-center justify-center border rounded-3xl text-gray-400">
+            {t.noPhoto}
           </div>
         )}
       </section>
 
+      {/* CONTENT */}
       <div className="grid md:grid-cols-3 gap-8">
-        <div className="md:col-span-2 bg-white rounded-[2rem] border p-8 shadow-sm">
-          <h2 className="text-xl font-bold mb-6 flex items-center gap-2 text-gray-800">
-            <span>📖</span> {displayName} {t.about}
-          </h2>
-          <div className="text-gray-600 text-lg leading-relaxed whitespace-pre-line">
-            {displayDesc}
-          </div>
+
+        <div className="md:col-span-2 bg-white rounded-3xl p-6 border">
+          <h2 className="font-bold text-xl mb-4">{t.about}</h2>
+          <p className="text-gray-600 whitespace-pre-line">{desc}</p>
         </div>
 
-        <div className="bg-blue-50 rounded-[2rem] p-8 border border-blue-100 h-fit sticky top-10">
-          <h2 className="text-xl font-bold mb-6 text-blue-900 flex items-center gap-2">
-            <span>🎯</span> {displayName} {t.todo}
-          </h2>
-          <ul className="space-y-4">
-            {displayActivities.map((act: string, i: number) => (
-              <li key={i} className="bg-white p-4 rounded-2xl text-blue-800 text-sm font-bold shadow-sm border border-blue-50 hover:scale-105 transition-transform">
-                • {act}
+        <div className="bg-blue-50 rounded-3xl p-6 border">
+          <h2 className="font-bold text-xl mb-4">{t.todo}</h2>
+
+          <ul className="space-y-3">
+            {activities.map((a: string, i: number) => (
+              <li key={i} className="bg-white p-3 rounded-xl text-sm font-semibold">
+                {a}
               </li>
             ))}
           </ul>
         </div>
       </div>
 
+      {/* MAP */}
       {foundPlace.latitude && foundPlace.longitude && (
-        <section className="space-y-6">
-          <h2 className="text-2xl font-bold px-2 text-gray-800 flex items-center gap-2">
-            <span>📍</span> {displayName} {t.location}
-          </h2>
-          <div className="rounded-[3rem] overflow-hidden border-8 border-white shadow-2xl h-[500px]">
+        <section>
+          <h2 className="font-bold text-xl mb-4">{t.location}</h2>
+
+          <div className="h-[450px] rounded-3xl overflow-hidden border">
             <iframe
-              title={`${displayName} Google Maps`}
               src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
+              width="100%"
+              height="100%"
               loading="lazy"
             />
           </div>

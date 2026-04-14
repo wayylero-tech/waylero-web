@@ -30,6 +30,7 @@ import { turkeyPostIcAnadolu } from "../data/blog/turkey/postsicanadolu";
 import { turkeyPostKaradeniz } from "../data/blog/turkey/postkaradeniz";
 import { turkeyPostDoguAnadolu } from "../data/blog/turkey/psostsdoguanadolu";
 import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
+import { catalhoyukPosts } from "../data/blog/konya/posts4";
 
 const allPosts = [
   ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
@@ -39,7 +40,7 @@ const allPosts = [
   ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
   ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
   ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, 
-  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, 
+  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts,
 ];
 
 export async function generateMetadata() {

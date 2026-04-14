@@ -33,6 +33,8 @@ import { turkeyPostIcAnadolu } from "../data/blog/turkey/postsicanadolu";
 import { turkeyPostKaradeniz } from "../data/blog/turkey/postkaradeniz";
 import { turkeyPostDoguAnadolu } from "../data/blog/turkey/psostsdoguanadolu";
 import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
+import { catalhoyukPosts } from "@/app/data/blog/konya/posts4";
+
 
 const posts = [
   ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
@@ -42,7 +44,7 @@ const posts = [
   ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
   ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
   ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, 
-  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, 
+  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts
 ];
 
 export default function HomeBlogSlider() {
