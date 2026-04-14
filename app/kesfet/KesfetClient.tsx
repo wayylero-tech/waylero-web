@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo, memo } from "react";
 import Link from "next/link";
 import { useLang } from "../context/LanguageContext";
 import { cleanSearchQuery, fuzzyMatch, normalizeText } from "@/lib/search";
-import Image from "next/image";
 
 
 // Veri importları
@@ -60,14 +59,12 @@ const PlaceCard = memo(({ place, cityKey, region, lang, allImages, getLocalizedL
       <div className="aspect-[3/4] rounded-[2rem] overflow-hidden bg-gray-100 mb-3 relative">
         
         {coverImage ? (
-          <Image
-            src={coverImage}
-            alt={place.name.tr}
-            fill
-            loading="lazy" // 🔥 KRİTİK
-            sizes="(max-width: 768px) 50vw, 25vw"
-            className="object-cover group-hover:scale-110 transition-transform duration-700"
-          />
+          <img
+  src={coverImage}
+  alt={place.name.tr}
+  loading="lazy"
+  className="object-cover group-hover:scale-110 transition-transform duration-700"
+/>
         ) : (
           <div className="flex items-center justify-center h-full text-gray-300 text-2xl bg-gray-50">📍</div>
         )}
@@ -175,12 +172,10 @@ export default function KesfetClient({ initialQuery, lang: propLang }: KesfetCli
               return (
                 <Link key={countrySlug} href={getLocalizedLink(`/kesfet/${countrySlug}`)} className="group relative h-80 w-full overflow-hidden rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-500 bg-gray-100 block">
                  {countryCoverImage ? (
-  <Image
+ <img
   src={countryCoverImage}
   alt={countrySlug}
-  fill
-  priority={index < 1} // SADECE İLKİ
-  sizes="(max-width: 768px) 100vw, 33vw"
+  loading={index < 1 ? "eager" : "lazy"}
   className="object-cover group-hover:scale-110 transition-transform duration-700"
 />
 ) : (
