@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -19,14 +20,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "img.youtube.com",
       },
-
-      // ✅ DOĞRU DIGITAL OCEAN HOST
       {
         protocol: "https",
         hostname: "ifyazilim.nyc3.digitaloceanspaces.com",
       },
-
-      // 🔥 BUNU DA EKLE (cdn varyantı kullanıyorsan şart)
       {
         protocol: "https",
         hostname: "ifyazilim.nyc3.cdn.digitaloceanspaces.com",
