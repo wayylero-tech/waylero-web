@@ -126,13 +126,11 @@ export default function PlaceSlider({
           )}
 
           <div className="relative w-[92vw] h-[92vh]">
-            <Image
-              src={images[index]}
-              alt={title}
-              fill
-              className="object-contain"
-              unoptimized={false} // Wikipedia büyük resimlerini burada da optimize etsin
-            />
+            <img
+  src={images[index]}
+  alt={title}
+  className="max-w-[92vw] max-h-[92vh] object-contain"
+/>
           </div>
 
           {index < images.length - 1 && (
