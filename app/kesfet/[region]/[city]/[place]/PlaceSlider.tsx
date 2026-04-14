@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import Image from "next/image"; // 🔥 Next.js Image eklendi
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -39,14 +38,14 @@ export default function PlaceSlider({
       {images.length === 1 ? (
         <div className="hidden md:block mb-12 cursor-zoom-in" onClick={() => setIndex(0)}>
           <div className="relative h-[420px] overflow-hidden rounded-3xl">
-            <Image
-              src={images[0]}
-              alt={title}
-              fill
-              priority // İlk resim olduğu için hızlı yüklensin
-              className="object-cover"
-              sizes="(max-width: 1200px) 100vw, 1200px"
-            />
+            <img
+  src={images[0]}
+  alt={title}
+  loading="eager"
+  fetchPriority="high"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
           </div>
         </div>
       ) : (
@@ -56,14 +55,14 @@ export default function PlaceSlider({
             className="relative col-span-2 row-span-2 overflow-hidden rounded-3xl cursor-zoom-in h-[420px]"
             onClick={() => setIndex(0)}
           >
-            <Image
-              src={images[0]}
-              alt={title}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 600px"
-            />
+            <img
+  src={images[0]}
+  alt={title}
+  loading="eager"
+  fetchPriority="high"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
           </div>
 
           {/* DİĞER KÜÇÜK GÖRSELLER */}
@@ -73,13 +72,14 @@ export default function PlaceSlider({
               className="relative overflow-hidden rounded-3xl cursor-zoom-in h-[200px]"
               onClick={() => setIndex(i + 1)}
             >
-              <Image
-                src={img}
-                alt={`${title} ${i + 2}`}
-                fill
-                className="object-cover"
-                sizes="300px"
-              />
+              <img
+  src={img}
+  alt={`${title} ${i + 2}`}
+  loading="lazy"
+  fetchPriority="low"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
               {i === 3 && extraImages > 0 && (
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-xl font-bold">
                   +{extraImages} fotoğraf
@@ -99,17 +99,18 @@ export default function PlaceSlider({
           navigation
           pagination={{ clickable: true }}
         >
-          {images.map((img, i) => (
+          {images.slice(0, 8).map((img, i) => (
             <SwiperSlide key={i}>
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl">
-                <Image
-                  src={img}
-                  alt={`${title} ${i + 1}`}
-                  fill
-                  onClick={() => setIndex(i)}
-                  className="object-cover"
-                  sizes="100vw"
-                />
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl bg-gray-100">
+                <img
+  src={img}
+  alt={`${title} ${i + 1}`}
+  loading={i === 0 ? "eager" : "lazy"}
+  fetchPriority={i === 0 ? "high" : "low"}
+  decoding="async"
+  onClick={() => setIndex(i)}
+  className="absolute inset-0 w-full h-full object-cover"
+/>
               </div>
             </SwiperSlide>
           ))}
@@ -126,9 +127,11 @@ export default function PlaceSlider({
           )}
 
           <div className="relative w-[92vw] h-[92vh]">
-            <img
+           <img
   src={images[index]}
   alt={title}
+  loading="eager"
+  decoding="async"
   className="max-w-[92vw] max-h-[92vh] object-contain"
 />
           </div>

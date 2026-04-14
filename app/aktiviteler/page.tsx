@@ -3,6 +3,8 @@ import { cookies } from "next/headers";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
+export const dynamic = "force-dynamic"; // Dosyanın en üstüne ekle
+
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
     'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u',
@@ -45,6 +47,9 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 
   const citySlug = params.city || "";
+  // 🔥 Yeni: URL'den gelen tarihleri yakalıyoruz
+  const startDate = params.start || "";
+  const endDate = params.end || "";
   
   const slugifiedCityMap = Object.fromEntries(
     Object.entries(cityMap).map(([key, value]) => [slugify(key), { id: value, originalName: key }])
@@ -59,30 +64,34 @@ export default async function ActivitiesPage({ searchParams }: any) {
   try {
     const apiParams = new URLSearchParams();
     
+    // Şehir Parametresi
     if (cityData) {
-      // ✅ 1. Spesifik bir şehir seçilmişse (Örn: elazig)
       apiParams.append("city_ids", cityData.id.toString());
     } else {
-      // ✅ 2. Türkiye Geneli (İlk Giriş): Tüm şehirlerin ID'lerini virgülle ayırıp gönderiyoruz.
-      // Bu sayede API "boş parametre" hatası vermez ve tüm illeri getirir.
       const allCityIds = Object.values(cityMap).join(",");
       apiParams.append("city_ids", allCityIds);
-      apiParams.append("limit", "50"); // İlk girişte 50 tane gelsin
     }
+
+    // 🔥 KRİTİK GÜNCELLEME: Tarih parametrelerini API'ye ekle
+    if (startDate) apiParams.append("start", startDate);
+    if (endDate) apiParams.append("end", endDate);
+    
+    // İstanbul gibi yoğun illerde 50 sınırı olduğu için limiti yüksek tutmayı deniyoruz 
+    // (Route dosyasında bu değeri kullanacağız)
+    apiParams.append("limit", "100"); 
 
     const domain = "www.waylero.com";
     const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
 
+    // Kendi API route'umuza istek atıyoruz
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
       next: { revalidate: 1800 },
     });
 
-    // API sonucunu kontrol et
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || [];
       
-      // Eğer hala boş geliyorsa (data formatı farklıysa diye)
       if (initialEvents.length === 0 && data.data) {
         initialEvents = data.data; 
       }

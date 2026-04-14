@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cookies, headers } from "next/headers";
-import Image from "next/image";
 
 // Data
 import turkey from "../../../data/turkey.json";
@@ -172,19 +171,19 @@ export default async function CityPage({ params }: Props) {
               <div className="aspect-[4/5] relative bg-gray-100 overflow-hidden">
 
                 {coverImage ? (
-                  <Image
-                    src={coverImage}
-                    alt={`${actualCityKey} ${placeName}`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    priority={index < 3}
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                ) : (
-                  <div className="flex items-center justify-center h-full text-4xl">
-                    🏛️
-                  </div>
-                )}
+  <img
+    src={coverImage}
+    alt={`${actualCityKey} ${placeName}`}
+    loading={index < 3 ? "eager" : "lazy"}
+    fetchPriority={index < 3 ? "high" : "low"}
+    decoding="async"
+    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+  />
+) : (
+  <div className="flex items-center justify-center h-full text-4xl">
+    🏛️
+  </div>
+)}
 
                 {/* overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition" />

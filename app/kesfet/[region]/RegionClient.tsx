@@ -2,7 +2,6 @@
 
 import { useMemo } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { useLang } from "../../context/LanguageContext";
 
 // DATA
@@ -133,17 +132,17 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
             className="group relative h-96 w-full overflow-hidden rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-500 bg-gray-200 block"
           >
             {city.coverImage ? (
-              <Image
-                src={city.coverImage}
-                alt={`${city.name} ${t.fallbackCity}`}
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                priority={index < 3}
-                className="object-cover group-hover:scale-110 transition-transform duration-700"
-              />
-            ) : (
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 animate-pulse" />
-            )}
+  <img
+    src={city.coverImage}
+    alt={`${city.name} ${t.fallbackCity}`}
+    loading={index < 3 ? "eager" : "lazy"}
+    fetchPriority={index < 3 ? "high" : "low"}
+    decoding="async"
+    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+  />
+) : (
+  <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 animate-pulse" />
+)}
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500" />
 

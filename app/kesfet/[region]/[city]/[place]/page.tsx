@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import type { Metadata } from "next";
 import { cookies, headers } from "next/headers";
 import PlaceSlider from "./PlaceSlider";
 
@@ -13,7 +12,6 @@ import asiaImages from "../../../../data/images/asia.json";
 
 import { countryToRegionMap } from "@/lib/countryToRegionMap";
 import { slugify } from "@/lib/utils/slugify";
-import Image from "next/image";
 
 const DATA: any = {
   turkey,
@@ -59,14 +57,21 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const imageKey = `${slugify(cityKey)}-${slugify(found.slug)}`;
   const image = imageGroup?.[imageKey]?.[0];
 
+  // URL Yollarını oluşturuyoruz
   const path = `/kesfet/${region}/${city}/${place}`;
-  const enPath = `/en${path}`;
+  const trUrl = `${BASE_URL}${path}`;
+  const enUrl = `${BASE_URL}/en${path}`;
 
   return {
     title: `${name} | Waylero`,
     description: desc,
     alternates: {
-      canonical: `${BASE_URL}${lang === "en" ? enPath : path}`,
+      canonical: lang === "en" ? enUrl : trUrl,
+      languages: {
+        "tr-TR": trUrl,
+        "en-US": enUrl,
+        "x-default": trUrl, // Varsayılan olarak hangi dili sunmak istiyorsan
+      },
     },
     openGraph: {
       title: name,
