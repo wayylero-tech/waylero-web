@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { cookies } from "next/headers";
+import { headers } from "next/headers"; // 🔥 Cookies yerine headers
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
@@ -20,10 +20,19 @@ function slugify(text: string) {
     .trim();
 }
 
+// 🌍 Güvenli Dil Yakalama
+async function getLanguage() {
+  const h = await headers();
+  const currentPath = h.get("x-url") || "";
+  const middlewareLang = h.get("x-url-lang");
+  
+  if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
+  return "tr";
+}
+
 export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
   const params = await searchParams;
-  const cookieStore = await cookies();
-  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+  const lang = await getLanguage();
   const cityParam = params.city || "";
   
   const normalizedCityMap = Object.fromEntries(
@@ -31,24 +40,49 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
   );
 
   const originalCityName = normalizedCityMap[cityParam];
+  
+  // 🌍 SEO Metinleri (TR/EN)
+  const t = {
+    tr: {
+      defaultCity: "TÜRKİYE GENELİ",
+      suffix: "Konserleri ve Etkinlikleri",
+      desc: "şehrindeki en güncel konserler ve etkinlikler Waylero'da."
+    },
+    en: {
+      defaultCity: "ALL OVER TURKEY",
+      suffix: "Concerts and Events",
+      desc: "Discover the latest concerts and events in"
+    }
+  }[lang];
+
   const cityNameMeta = originalCityName 
-    ? originalCityName.toLocaleUpperCase("tr-TR") 
-    : (lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY");
+    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") 
+    : t.defaultCity;
+
+  const title = `${cityNameMeta} ${t.suffix} | Waylero`;
+  const description = lang === "tr" 
+    ? `${cityNameMeta} ${t.desc}`
+    : `${t.desc} ${cityNameMeta} on Waylero.`;
 
   return {
-    title: `${cityNameMeta} Konserleri ve Etkinlikleri | Waylero`,
-    description: `${cityNameMeta} şehrindeki en güncel konserler Waylero'da.`,
+    title,
+    description,
+    // Parametreli sayfalarda canonical çok kritiktir (Duplicate Content engellemek için)
+    alternates: {
+      canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+    }
   };
 }
 
 export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
-  const cookieStore = await cookies();
-  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+  const lang = await getLanguage();
 
   const citySlug = params.city || "";
-  const startDate = params.start || "";
-  const endDate = params.end || "";
+  
+  // 🔥 GÜNCELLEME: Burası parametreleri yeni isimlerle yakalamalı
+  const startDate = params.start_gte || params.start || ""; 
+  const endDate = params.end_lte || params.end || "";
   
   const slugifiedCityMap = Object.fromEntries(
     Object.entries(cityMap).map(([key, value]) => [slugify(key), { id: value, originalName: key }])
@@ -56,14 +90,13 @@ export default async function ActivitiesPage({ searchParams }: any) {
 
   const cityData = slugifiedCityMap[citySlug];
   const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
-  let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase("tr-TR") : defaultCityName;
+  let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
   
   let initialEvents: any[] = [];
 
   try {
     const apiParams = new URLSearchParams();
     
-    // Şehir Parametresi
     if (cityData) {
       apiParams.append("city_ids", cityData.id.toString());
     } else {
@@ -71,33 +104,24 @@ export default async function ActivitiesPage({ searchParams }: any) {
       apiParams.append("city_ids", allCityIds);
     }
 
-    // Tarih parametreleri
-    if (startDate) apiParams.append("start", startDate);
-    if (endDate) apiParams.append("end", endDate);
+    // 🔥 GÜNCELLEME: API Route'una (kendi iç API'ne) yeni isimlerle gönderiyoruz
+    if (startDate) apiParams.append("start_gte", startDate);
+    if (endDate) apiParams.append("end_lte", endDate);
     
-    // 🔥 DÜZELTME: Artık 50-50 gidiyoruz ve doğru parametre ismini (take) kullanıyoruz
     apiParams.append("take", "50"); 
     apiParams.append("skip", "0"); 
 
     const domain = "www.waylero.com";
     const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
 
-    // Kendi API route'umuza (route.ts) istek atıyoruz
+    // Kendi API Route'umuza istek atıyoruz
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
       next: { revalidate: 1800 },
     });
 
     if (res.ok) {
       const data = await res.json();
-      // Route.ts artık 'items' içinde dönüyor
-      initialEvents = data.items || [];
-      
-      // Yedek kontrol
-      if (initialEvents.length === 0 && data.data) {
-        initialEvents = data.data; 
-      }
-    } else {
-      console.error("API Hatası:", res.status);
+      initialEvents = data.items || data.data || [];
     }
   } catch (err) {
     console.error("Fetch hatası:", err);

@@ -2,51 +2,50 @@ import { Suspense } from "react";
 import { headers } from "next/headers";
 import KesfetClient from "./KesfetClient";
 
-// Ülke listesi (Sluglar sabit)
-const countries = [
-  "turkiye",
-  "fransa",
-  "almanya",
-  "italya",
-  "ispanya",
-  "ingiltere",
-  "hollanda",
-  "avusturya",
-  "yunanistan",
-  "cek-cumhuriyeti",
-  "rusya",
-  "portekiz",
-  "romanya",
-  "danimarka",
-  "isvec",
-  "norvec",
-  "isvicre",
-  "amerika",
-  "japonya",
-  "guney-kore",
+// Ülke isimleri sözlüğü - SEO için İngilizce sayfada İngilizce isimler şart kanka
+const countryNames: Record<string, { tr: string; en: string }> = {
+  "turkiye": { tr: "Türkiye", en: "Turkey" },
+  "fransa": { tr: "Fransa", en: "France" },
+  "almanya": { tr: "Almanya", en: "Germany" },
+  "italya": { tr: "İtalya", en: "Italy" },
+  "ispanya": { tr: "İspanya", en: "Spain" },
+  "ingiltere": { tr: "İngiltere", en: "United Kingdom" },
+  "hollanda": { tr: "Hollanda", en: "Netherlands" },
+  "avusturya": { tr: "Avusturya", en: "Austria" },
+  "yunanistan": { tr: "Yunanistan", en: "Greece" },
+  "cek-cumhuriyeti": { tr: "Çek Cumhuriyeti", en: "Czech Republic" },
+  "rusya": { tr: "Rusya", en: "Russia" },
+  "portekiz": { tr: "Portekiz", en: "Portugal" },
+  "romanya": { tr: "Romanya", en: "Romania" },
+  "danimarka": { tr: "Danimarka", en: "Denmark" },
+  "isvec": { tr: "İsveç", en: "Sweden" },
+  "norvec": { tr: "Norveç", en: "Norway" },
+  "isvicre": { tr: "İsviçre", en: "Switzerland" },
+  "amerika": { tr: "Amerika", en: "United States" },
+  "japonya": { tr: "Japonya", en: "Japan" },
+  "guney-kore": { tr: "Güney Kore", en: "South Korea" },
+  "kktc": { tr: "KKTC", en: "TRNC" },
+  "urdun": { tr: "Ürdün", en: "Jordan" },
+  "endonezya": { tr: "Endonezya", en: "Indonesia" },
+  "irlanda": { tr: "İrlanda", en: "Ireland" },
+  "bosna-hersek": { tr: "Bosna Hersek", en: "Bosnia and Herzegovina" },
+  "avustralya": { tr: "Avustralya", en: "Australia" },
+  "gurcistan": { tr: "Gürcistan", en: "Georgia" },
+  "iskocya": { tr: "İskoçya", en: "Scotland" },
+  "galler": { tr: "Galler", en: "Wales" },
+  "malezya": { tr: "Malezya", en: "Malaysia" },
+  "cin": { tr: "Çin", en: "China" },
+  "hindistan": { tr: "Hindistan", en: "India" },
+  "tayland": { tr: "Tayland", en: "Thailand" },
+  "sri-lanka": { tr: "Sri Lanka", en: "Sri Lanka" },
+  "singapur": { tr: "Singapur", en: "Singapore" },
+  "umman": { tr: "Umman", en: "Oman" },
+  "suudi-arabistan": { tr: "Suudi Arabistan", en: "Saudi Arabia" },
+  "misir": { tr: "Mısır", en: "Egypt" },
+  "belarus": { tr: "Belarus", en: "Belarus" },
+};
 
-  // ➕ eksik olanlar (map’te var ama listede yoktu)
-  "kktc",
-  "urdun",
-  "endonezya",
-  "irlanda",
-  "bosna-hersek",
-  "avustralya",
-  "gurcistan",
-  "iskocya",
-  "galler",
-  "malezya",
-  "cin",
-  "hindistan",
-  "tayland",
-  "sri-lanka",
-  "singapur",
-  "umman",
-  "suudi-arabistan",
-  "misir",
-  "belarus",
-  "tayland",
-];
+const countries = Object.keys(countryNames);
 
 // Dinamik SEO ayarları
 export async function generateMetadata() {
@@ -75,7 +74,6 @@ export default async function KesfetPage({ searchParams }: { searchParams: Promi
   const resolvedSearchParams = await searchParams;
   const query = resolvedSearchParams.q || "";
   
-  // Middleware'in set ettiği dili okuyoruz
   const headerList = await headers();
   const lang = headerList.get('x-url-lang') || 'tr';
   const isEn = lang === 'en';
@@ -83,16 +81,19 @@ export default async function KesfetPage({ searchParams }: { searchParams: Promi
 
   return (
     <div className="min-h-screen">
-      {/* 🚀 SEO KATMANI: Dile göre içerik değişiyor ama sluglar aynı kalıyor */}
+      {/* 🚀 SEO KATMANI: Artık hem başlıklar hem ülke isimleri dile duyarlı */}
       <div className="sr-only" aria-hidden="true">
         <h1>{isEn ? "Waylero Explore - Country & City Guides" : "Waylero Keşfet - Ülke ve Şehir Rehberleri"}</h1>
         <p>{isEn ? "Explore travel guides for the following countries:" : "Aşağıdaki ülkelerin gezi rehberlerini keşfedin:"}</p>
         <nav>
-          {countries.map(country => (
-            <a key={country} href={`${langPath}/kesfet/${country}`}>
-              {country.replace("-", " ")} {isEn ? "Travel Guide & Places to Visit" : "Gezilecek Yerler ve Gezi Rehberi"}
-            </a>
-          ))}
+          {countries.map(country => {
+            const name = countryNames[country][isEn ? 'en' : 'tr'];
+            return (
+              <a key={country} href={`${langPath}/kesfet/${country}`}>
+                {name} {isEn ? "Travel Guide & Places to Visit" : "Gezilecek Yerler ve Gezi Rehberi"}
+              </a>
+            );
+          })}
         </nav>
       </div>
 

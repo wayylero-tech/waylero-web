@@ -7,14 +7,18 @@ import { trackSearch } from "@/lib/analytics";
 import { useLang } from "@/app/context/LanguageContext";
 import { cityToCountryMap } from "@/lib/cityToCountryMap";
 
-export default function HomeSearch() {
+// forcedLang ekledik ki Google botu için sunucudan dil gönderilebilsin
+export default function HomeSearch({ forcedLang }: { forcedLang?: string }) {
   const [search, setSearch] = useState("");
   const [highlight, setHighlight] = useState(false);
 
   const router = useRouter();
-  const { lang } = useLang();
+  const { lang: contextLang } = useLang();
 
-  // 🌍 DİL SÖZLÜĞÜ
+  // Öncelik sunucudan gelen dilde, yoksa context'i kullan
+  const activeLang = forcedLang || contextLang || "tr";
+
+  // 🌍 DİL SÖZLÜĞÜ (activeLang'e bağlandı)
   const t = {
     tr: {
       placeholder: "Şehir, mekan veya etkinlik ara...",
@@ -26,7 +30,7 @@ export default function HomeSearch() {
       highlightPlaceholder: "What are you looking for and where?",
       helper: 'Tip: Type "Places to visit in London".',
     }
-  }[lang as "tr" | "en"] || { placeholder: "Search...", helper: "" };
+  }[activeLang as "tr" | "en"] || { placeholder: "Search...", helper: "" };
 
   // 🔥 TÜM ŞEHİRLER (OTOMATİK)
   const citySlugMap = useMemo(() => {
@@ -40,7 +44,6 @@ export default function HomeSearch() {
         slug: city,
       };
 
-      // new-york → NEW YORK
       if (city.includes("-")) {
         const spaced = city.replace(/-/g, " ").toLocaleUpperCase("tr-TR");
         map[spaced] = {
@@ -53,34 +56,22 @@ export default function HomeSearch() {
     return map;
   }, []);
 
-  // 🧠 QUERY NORMALIZE (KRİTİK)
+  // 🧠 QUERY NORMALIZE
   const normalizeQuery = (q: string) => {
     return q
       .toLocaleLowerCase("tr-TR")
-
-      // konya'da
       .replace(/['’](da|de|ta|te)/g, "")
-
-      // konyada
       .replace(/(da|de|ta|te)\b/g, "")
-
-      // antalya'ya
       .replace(/['’](ya|ye|yu|yü)/g, "")
-
-      // antalyaya
       .replace(/(ya|ye|yu|yü)\b/g, "")
-
-      // boşluk düzelt
       .replace(/\s+/g, " ")
       .trim();
   };
 
-  // 🔍 şehir bul
   const findCityMatch = (query: string) => {
     const normalized = normalizeQuery(query);
-
     const upper = normalized.toLocaleUpperCase(
-      lang === "tr" ? "tr-TR" : "en-US"
+      activeLang === "tr" ? "tr-TR" : "en-US"
     );
 
     const foundKey = Object.keys(citySlugMap).find(city =>
@@ -90,7 +81,6 @@ export default function HomeSearch() {
     return foundKey ? citySlugMap[foundKey] : null;
   };
 
-  // 🎯 etkinlik intent
   const isEventIntent = (query: string) => {
     const q = query.toLowerCase();
     const keywords = [
@@ -109,19 +99,14 @@ export default function HomeSearch() {
     const cityMatch = findCityMatch(query);
     const isEvent = isEventIntent(query);
 
-    const prefix = lang === "en" ? "/en" : "";
+    const prefix = activeLang === "en" ? "/en" : "";
 
-    // 🎯 1. etkinlik
     if (isEvent) {
       const cityParam = cityMatch ? cityMatch.slug : query;
       router.push(`${prefix}/aktiviteler?city=${encodeURIComponent(cityParam)}`);
-    }
-    // 🏙️ 2. şehir
-    else if (cityMatch) {
+    } else if (cityMatch) {
       router.push(`${prefix}/kesfet/${cityMatch.region}/${cityMatch.slug}`);
-    }
-    // 🔍 3. genel
-    else {
+    } else {
       router.push(`${prefix}/kesfet?q=${encodeURIComponent(query)}`);
     }
 

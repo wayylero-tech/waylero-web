@@ -41,9 +41,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <GoogleAnalytics />
 
         <ClientProviders>
-          <ClientLayout>
-            {children}
-          </ClientLayout>
+          <ClientLayout lang={displayLang}> 
+  {children}
+</ClientLayout>
         </ClientProviders>
       </body>
     </html>

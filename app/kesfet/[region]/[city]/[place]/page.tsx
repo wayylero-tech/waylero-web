@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { cookies, headers } from "next/headers";
 import PlaceSlider from "./PlaceSlider";
@@ -13,23 +14,25 @@ import asiaImages from "../../../../data/images/asia.json";
 import { countryToRegionMap } from "@/lib/countryToRegionMap";
 import { slugify } from "@/lib/utils/slugify";
 
-const DATA: any = {
-  turkey,
-  europa,
-  asia,
-};
-
-const IMAGES: any = {
-  turkey: turkeyImages,
-  europa: europaImages,
-  asia: asiaImages,
-};
-
+const DATA: any = { turkey, europa, asia };
+const IMAGES: any = { turkey: turkeyImages, europa: europaImages, asia: asiaImages };
 const BASE_URL = "https://www.waylero.com";
 
 type Params = { region: string; city: string; place: string };
 
-export async function generateMetadata({ params }: { params: Promise<Params> }) {
+// 🌍 GÜVENLİ DİL YAKALAMA
+async function getLanguage() {
+  const h = await headers();
+  const currentPath = h.get("x-url") || ""; // Middleware'den gelen header
+  const middlewareLang = h.get("x-url-lang");
+
+  if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
+
+  const cookieStore = await cookies();
+  return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+}
+
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { region, city, place } = await params;
   const lang = await getLanguage();
 
@@ -57,7 +60,6 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const imageKey = `${slugify(cityKey)}-${slugify(found.slug)}`;
   const image = imageGroup?.[imageKey]?.[0];
 
-  // URL Yollarını oluşturuyoruz
   const path = `/kesfet/${region}/${city}/${place}`;
   const trUrl = `${BASE_URL}${path}`;
   const enUrl = `${BASE_URL}/en${path}`;
@@ -70,25 +72,22 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
       languages: {
         "tr-TR": trUrl,
         "en-US": enUrl,
-        "x-default": trUrl, // Varsayılan olarak hangi dili sunmak istiyorsan
+        "x-default": trUrl,
       },
     },
     openGraph: {
       title: name,
       description: desc,
-      images: image ? [{ url: image }] : undefined,
+      url: lang === "en" ? enUrl : trUrl,
+      images: image ? [{ url: image, width: 1200, height: 630 }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: name,
+      description: desc,
+      images: image ? [image] : undefined,
     },
   };
-}
-
-async function getLanguage() {
-  const h = await headers();
-  const cookieStore = await cookies();
-
-  const path = h.get("x-invoke-path") || "";
-  if (path.startsWith("/en")) return "en";
-
-  return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 }
 
 export default async function Page({ params }: { params: Promise<Params> }) {
@@ -118,35 +117,19 @@ export default async function Page({ params }: { params: Promise<Params> }) {
 
   const imageGroup = IMAGES[mainRegion]?.[cityKey] || {};
   const imageKey = `${slugify(cityKey)}-${slugify(foundPlace.slug)}`;
-  const images =
-    imageGroup?.[imageKey] || imageGroup?.[foundPlace.slug] || [];
+  const images = imageGroup?.[imageKey] || imageGroup?.[foundPlace.slug] || [];
 
   const t = {
-    tr: {
-      about: "Hakkında",
-      todo: "Neler Yapılır?",
-      location: "Konum",
-      noPhoto: "Fotoğraf yok",
-    },
-    en: {
-      about: "About",
-      todo: "Things to do",
-      location: "Location",
-      noPhoto: "No photos",
-    },
+    tr: { about: "Hakkında", todo: "Neler Yapılır?", location: "Konum", noPhoto: "Fotoğraf yok" },
+    en: { about: "About", todo: "Things to do", location: "Location", noPhoto: "No photos" },
   }[lang];
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8 space-y-10">
-
-      {/* HEADER */}
       <header className="border-b pb-6">
-        <h1 className="text-4xl md:text-6xl font-black">
-          {name}
-        </h1>
+        <h1 className="text-4xl md:text-6xl font-black">{name}</h1>
       </header>
 
-      {/* IMAGE */}
       <section>
         {images.length > 0 ? (
           <PlaceSlider images={images} title={name} />
@@ -157,20 +140,17 @@ export default async function Page({ params }: { params: Promise<Params> }) {
         )}
       </section>
 
-      {/* CONTENT */}
       <div className="grid md:grid-cols-3 gap-8">
-
-        <div className="md:col-span-2 bg-white rounded-3xl p-6 border">
+        <div className="md:col-span-2 bg-white rounded-3xl p-6 border shadow-sm">
           <h2 className="font-bold text-xl mb-4">{t.about}</h2>
-          <p className="text-gray-600 whitespace-pre-line">{desc}</p>
+          <p className="text-gray-600 whitespace-pre-line leading-relaxed">{desc}</p>
         </div>
 
-        <div className="bg-blue-50 rounded-3xl p-6 border">
-          <h2 className="font-bold text-xl mb-4">{t.todo}</h2>
-
+        <div className="bg-blue-50 rounded-3xl p-6 border shadow-sm">
+          <h2 className="font-bold text-xl mb-4 text-blue-900">{t.todo}</h2>
           <ul className="space-y-3">
             {activities.map((a: string, i: number) => (
-              <li key={i} className="bg-white p-3 rounded-xl text-sm font-semibold">
+              <li key={i} className="bg-white p-4 rounded-xl text-sm font-bold text-gray-700 shadow-sm border border-blue-100">
                 {a}
               </li>
             ))}
@@ -178,16 +158,16 @@ export default async function Page({ params }: { params: Promise<Params> }) {
         </div>
       </div>
 
-      {/* MAP */}
       {foundPlace.latitude && foundPlace.longitude && (
         <section>
           <h2 className="font-bold text-xl mb-4">{t.location}</h2>
-
-          <div className="h-[450px] rounded-3xl overflow-hidden border">
+          <div className="h-[450px] rounded-[2.5rem] overflow-hidden border shadow-inner">
             <iframe
               src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
               width="100%"
               height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
               loading="lazy"
             />
           </div>

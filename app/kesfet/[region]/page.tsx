@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { cookies } from "next/headers";
+import { headers } from "next/headers";
 import RegionClient from "./RegionClient";
 import { countryToRegionMap } from "@/lib/countryToRegionMap";
 
@@ -51,15 +51,24 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
   kktc: { tr: "KKTC", en: "Northern Cyprus" },
 };
 
+// 🧠 DİL YAKALAMA YARDIMCISI (URL tabanlı)
+async function getActiveLang() {
+  const headerList = await headers();
+  const currentPath = headerList.get("x-url") || "";
+  // Middleware'den gelen header'ı kontrol et, yoksa URL'den bak
+  const middlewareLang = headerList.get("x-url-lang");
+  
+  if (middlewareLang === "en" || currentPath.includes("/en/")) {
+    return "en";
+  }
+  return "tr";
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region } = await params;
-  const cookieStore = await cookies();
-  const lang = (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
-
+  const lang = await getActiveLang();
   const baseUrl = "https://www.waylero.com";
 
-  // 🌍 EN / TR doğru title sistemi
   const displayTitle =
     regionNameMap[region]?.[lang] ??
     region
@@ -69,7 +78,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const isCountry = !!countryToRegionMap[region];
 
-  // 🌍 SEO TEXTS
   const texts = {
     tr: {
       title: `${displayTitle} Gezilecek Yerler`,
@@ -95,8 +103,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical,
       languages: {
-        tr: `${baseUrl}${path}`,
-        en: `${baseUrl}/en${path}`,
+        "tr-TR": `${baseUrl}${path}`,
+        "en-US": `${baseUrl}/en${path}`,
         "x-default": `${baseUrl}${path}`,
       },
     },
@@ -104,7 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: texts.title,
       description: texts.desc,
       url: canonical,
-      images: [ogImage],
+      images: [{ url: ogImage, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
@@ -115,13 +123,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// ✅ ANA SAYFA FONKSİYONU
 export default async function Page({ params }: Props) {
   const resolvedParams = await params;
-  
-  // Dil bilgisini cookie'den çekip Client Component'e paslıyoruz
-  const cookieStore = await cookies();
-  const lang = cookieStore.get("lang")?.value || "tr";
+  const lang = await getActiveLang();
 
   return <RegionClient region={resolvedParams.region} lang={lang} />;
 }

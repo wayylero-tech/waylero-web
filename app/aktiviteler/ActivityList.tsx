@@ -24,7 +24,7 @@ function slugify(text: string) {
 const translations = {
   tr: {
     title: "TÜRKİYE GENELİ",
-    subtitle: "Waylero ile {city}{suffix} konserleri keşfet",
+    subtitle: "Waylero ile {city} konserleri keşfet",
     buyTicket: "BİLETİ AL →",
     otherCities: "+ DİĞER ŞEHİRLER",
     liveExp: "CANLI DENEYİMLER",
@@ -34,11 +34,11 @@ const translations = {
     event: "Etkinlik",
     loadMore: "DAHA FAZLA ETKİNLİK GÖR",
     loading: "YÜKLENİYOR...",
-    // Yeni Eklenenler
     thisWeek: "BU HAFTA",
     nextWeek: "GELECEK HAFTA",
     nextMonth: "GELECEK AY",
-    resetDate: "TARİHİ SIFIRLA"
+    resetDate: "TARİHİ SIFIRLA",
+    footerText: "Etkinlik verileri {link} tarafından sağlanmaktadır."
   },
   en: {
     title: "ALL OVER TURKEY",
@@ -52,11 +52,11 @@ const translations = {
     event: "Event",
     loadMore: "LOAD MORE EVENTS",
     loading: "LOADING...",
-    // Yeni Eklenenler
     thisWeek: "THIS WEEK",
     nextWeek: "NEXT WEEK",
     nextMonth: "NEXT MONTH",
-    resetDate: "RESET DATE"
+    resetDate: "RESET DATE",
+    footerText: "Event data is provided by {link}."
   },
 };
 
@@ -82,11 +82,15 @@ export default function ActivityList({
   const [hasMore, setHasMore] = useState(true);
   const [showCityList, setShowCityList] = useState(false);
 
-  const activeCity = initialCityName.toLocaleUpperCase("tr-TR");
+  const displayCityName = (initialCityName.toUpperCase() === "TÜRKİYE GENELİ" || initialCityName.toUpperCase() === "ALL OVER TURKEY") 
+    ? t.title 
+    : initialCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US");
+
+  const activeCity = displayCityName;
   const cities = ["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"];
   const otherCities = Object.keys(cityMap)
     .filter((c) => !cities.includes(c))
-    .sort((a, b) => a.localeCompare(b, "tr"));
+    .sort((a, b) => a.localeCompare(b, lang === "tr" ? "tr" : "en"));
 
   const mapEvent = (item: any) => {
     const rawDate = item.start || item.start_date || item.baslangic;
@@ -140,16 +144,23 @@ export default function ActivityList({
     }
   };
 
+  // 🔥 GÜNCELLEME: Parametre isimleri start_gte ve end_lte oldu
   const handleDateRange = (startOffset: number, endOffset: number) => {
     const start = new Date();
     start.setDate(start.getDate() + startOffset);
     const end = new Date();
     end.setDate(end.getDate() + endOffset);
+    
     const startStr = start.toISOString().split('T')[0];
     const endStr = end.toISOString().split('T')[0];
+    
     const params = new URLSearchParams(searchParams.toString());
-    params.set("start", startStr);
-    params.set("end", endStr);
+    params.set("start_gte", startStr);
+    params.set("end_lte", endStr);
+    // Eskileri temizle
+    params.delete("start");
+    params.delete("end");
+    
     router.push(`${pathname}?${params.toString()}`);
   };
 
@@ -166,10 +177,10 @@ export default function ActivityList({
       <div className="max-w-[1400px] mx-auto">
         <header className="flex flex-col items-center mb-10">
           <h1 className="text-4xl md:text-6xl font-black uppercase text-center">
-            {initialCityName}
+            {displayCityName}
           </h1>
           <p className="text-yellow-500 text-xs mt-2 opacity-80 text-center">
-            {t.subtitle.replace("{city}", initialCityName).replace("{suffix}", "")}
+            {t.subtitle.replace("{city}", displayCityName)}
           </p>
 
           <div className="flex gap-2 mt-8 flex-wrap justify-center border-t border-white/5 pt-6 w-full max-w-2xl">
@@ -186,11 +197,12 @@ export default function ActivityList({
             <div className="relative group min-w-[140px]">
               <input 
                 type="date" 
-                value={searchParams.get("start") || ""}
+                // 🔥 GÜNCELLEME: Değeri yeni parametreden oku
+                value={searchParams.get("start_gte") || ""}
                 onChange={(e) => {
                   const params = new URLSearchParams(searchParams.toString());
-                  params.set("start", e.target.value);
-                  params.set("end", e.target.value);
+                  params.set("start_gte", e.target.value);
+                  params.set("end_lte", e.target.value);
                   router.push(`${pathname}?${params.toString()}`);
                 }}
                 className="appearance-none bg-[#1A1A1A] border border-white/10 rounded-full px-4 py-2 text-[10px] font-bold outline-none focus:border-yellow-500 transition-all cursor-pointer text-white hover:bg-[#222] pr-10 w-full"
@@ -206,11 +218,14 @@ export default function ActivityList({
               </div>
             </div>
 
-            {(searchParams.get("start") || searchParams.get("end")) && (
+            {/* 🔥 GÜNCELLEME: Reset kontrolü yeni parametrelere göre */}
+            {(searchParams.get("start_gte") || searchParams.get("end_lte")) && (
               <button 
                 onClick={() => {
                   const params = new URLSearchParams(searchParams.toString());
-                  params.delete("start");
+                  params.delete("start_gte");
+                  params.delete("end_lte");
+                  params.delete("start"); // Tedbir amaçlı eskileri de sil
                   params.delete("end");
                   router.push(`${pathname}?${params.toString()}`);
                 }}
@@ -220,7 +235,7 @@ export default function ActivityList({
               </button>
             )}
           </div>
-
+          {/* ... Şehir listesi ve diğer kısımlar aynı kalıyor ... */}
           <div className="flex gap-2 mt-6 flex-wrap justify-center">
             {cities.map((c) => (
               <button
@@ -271,21 +286,25 @@ export default function ActivityList({
           )}
         </div>
 
-        {/* 🔥 DAHA FAZLA YÜKLE BUTONU - GÜVENLİK GÜNCELLEMESİ */}
-{hasMore && events.length >= 50 && (searchParams.get("city") || searchParams.get("start")) && (
-  <div className="flex justify-center mt-12 pb-10">
-    <button 
-      onClick={loadMore}
-      disabled={loading}
-      className="px-10 py-4 border-2 border-yellow-500 text-yellow-500 rounded-2xl font-black hover:bg-yellow-500 hover:text-black transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-widest text-sm"
-    >
-      {loading ? t.loading : t.loadMore}
-    </button>
-  </div>
-)}
+        {/* 🔥 GÜNCELLEME: hasMore kontrolü yeni parametrelere göre */}
+        {hasMore && events.length >= 50 && (searchParams.get("city") || searchParams.get("start_gte")) && (
+          <div className="flex justify-center mt-12 pb-10">
+            <button 
+              onClick={loadMore}
+              disabled={loading}
+              className="px-10 py-4 border-2 border-yellow-500 text-yellow-500 rounded-2xl font-black hover:bg-yellow-500 hover:text-black transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-widest text-sm"
+            >
+              {loading ? t.loading : t.loadMore}
+            </button>
+          </div>
+        )}
 
         <footer className="mt-16 text-center text-white text-xs md:text-sm opacity-80 pb-10">
-          <p>Etkinlik verileri <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="text-yellow-500 underline font-bold">etkinlik.io</a> tarafından sağlanmaktadır.</p>
+          <p>
+            {t.footerText.split("{link}")[0]}
+            <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="text-yellow-500 underline font-bold">etkinlik.io</a>
+            {t.footerText.split("{link}")[1]}
+          </p>
         </footer>
       </div>
     </main>

@@ -1,22 +1,52 @@
 import { Metadata } from "next";
+import { headers } from "next/headers";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
 import VideolarClientPage from "./VideolarClientPage";
 
-// 1. METADATA (Sunucu Tarafında Çalışır)
+// 🌍 Dil Yakalama: Daha esnek hale getirdik
+async function getLanguage() {
+  const h = await headers();
+  // Middleware'den gelen header'ları kontrol et
+  const currentPath = h.get("x-url") || h.get("referer") || ""; 
+  const xLang = h.get("x-url-lang"); // Eğer middleware setliyorsa en garanti yol budur
+  
+  if (xLang === "en" || currentPath.includes("/en/")) return "en";
+  return "tr";
+}
+
 export async function generateMetadata(): Promise<Metadata> {
+  const lang = await getLanguage();
   const videos = addSlugs(wayleroLiveVideos);
   const titles = videos.map(v => v.title).slice(0, 5).join(", ");
   const baseUrl = "https://www.waylero.com";
 
+  const t = {
+    tr: {
+      title: "Waylero Video | Şehir Rehberi ve Özel Çekimler",
+      description: `${titles} ve şehrin en ikonik noktalarını keşfedin. Waylero ile şehri yüksek kalitede izleyin.`
+    },
+    en: {
+      title: "Waylero Videos | City Guides & Exclusive Footage",
+      description: `Watch ${titles} and the city's most iconic spots in high quality. Explore the city with Waylero.`
+    }
+  }[lang];
+
   return {
-    title: "Waylero Video | Şehir Rehberi ve Özel Çekimler",
-    description: `${titles} ve şehrin en ikonik noktalarını yüksek kalitede izleyin. Waylero ile şehri keşfedin.`,
+    title: t.title,
+    description: t.description,
     alternates: {
-      canonical: `${baseUrl}/videolar`,
+      canonical: `${baseUrl}${lang === "en" ? "/en" : ""}/videolar`,
+      // 🌍 Google'a diğer dil versiyonunu da haber veriyoruz (Hreflang mantığı)
+      languages: {
+        'tr-TR': `${baseUrl}/videolar`,
+        'en-US': `${baseUrl}/en/videolar`,
+      },
     },
     openGraph: {
-      title: "Waylero Video Galeri",
-      description: "Şehrin güzelliklerini video turlarıyla keşfedin.",
+      title: t.title,
+      description: t.description,
+      url: `${baseUrl}${lang === "en" ? "/en" : ""}/videolar`,
+      siteName: "Waylero",
       images: [
         {
           url: `https://img.youtube.com/vi/${videos[0]?.youtubeId}/maxresdefault.jpg`,
@@ -24,15 +54,16 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
         },
       ],
+      locale: lang === "en" ? "en_US" : "tr_TR",
+      type: "website",
     },
   };
 }
 
-// 2. ANA SAYFA BİLEŞENİ (MUTLAKA DEFAULT EXPORT OLMALI)
-export default function Page() {
+export default async function Page() {
+  const lang = await getLanguage();
   const videos = addSlugs(wayleroLiveVideos);
 
-  // Google için Yapısal Veri (JSON-LD)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -42,10 +73,15 @@ export default function Page() {
       "item": {
         "@type": "VideoObject",
         "name": video.title,
-        "description": `${video.location} bölgesinden çekimler.`,
-        "thumbnailUrl": `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`,
-        "uploadDate": "2026-01-01T08:00:00+08:00",
+        "description": `${video.title} - ${video.location || 'Türkiye'} bölgesinden harika şehir manzaraları ve Waylero özel çekimleri.`,
+        "thumbnailUrl": [
+          `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`,
+          `https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`
+        ],
+        "uploadDate": "2024-01-01T08:00:00+03:00", 
         "embedUrl": `https://www.youtube.com/embed/${video.youtubeId}`,
+        "contentUrl": `https://www.youtube.com/watch?v=${video.youtubeId}`,
+        "interactionCount": "1250",
       }
     }))
   };
@@ -56,8 +92,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* İstemci tarafı bileşenini çağırıyoruz */}
-      <VideolarClientPage />
+      <VideolarClientPage lang={lang} />
     </>
   );
 }
