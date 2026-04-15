@@ -92,7 +92,7 @@ export default async function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <VideolarClientPage lang={lang} />
+<VideolarClientPage />
     </>
   );
 }
