@@ -1,44 +1,24 @@
 "use client";
 
 import Script from "next/script";
-import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
 const GA_ID = "G-XC5RZVYFEF";
 
 export default function GoogleAnalytics() {
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
   useEffect(() => {
-    const url = pathname + "?" + searchParams.toString();
-
     if (typeof window.gtag !== "undefined") {
+      window.gtag("js", new Date());
       window.gtag("config", GA_ID, {
-        page_path: url,
+        page_path: window.location.pathname,
       });
     }
-  }, [pathname, searchParams]);
+  }, []);
 
   return (
-    <>
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag('js', new Date());
-            gtag('config', '${GA_ID}');
-          `,
-        }}
-      />
-    </>
+    <Script
+      src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+      strategy="afterInteractive"
+    />
   );
 }
