@@ -7,7 +7,6 @@ const GA_ID = "G-XC5RZVYFEF";
 
 export default function GoogleAnalytics() {
   useEffect(() => {
-    // SAYFA AÇILINCA ZORLA EVENT GÖNDER
     const sendPageView = () => {
       if (window.gtag) {
         window.gtag("event", "page_view", {
@@ -18,7 +17,6 @@ export default function GoogleAnalytics() {
       }
     };
 
-    // biraz gecikmeli çalıştır (script load için)
     setTimeout(sendPageView, 1000);
   }, []);
 
@@ -35,6 +33,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
+          gtag('config', '${GA_ID}'); // <--- BU SATIR HAYATİ ÖNEMDE!
         `}
       </Script>
     </>
