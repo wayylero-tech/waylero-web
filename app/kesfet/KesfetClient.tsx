@@ -52,66 +52,55 @@ export default function KesfetClient({ initialQuery, lang: propLang }: any) {
         <p className="text-xl text-gray-500 font-medium">{t.subTitle}</p>
       </header>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        {filteredCountries.map(([slug, data]: any, index) => (
-          <Link
-  key={slug}
-  href={getLocalizedLink(`/kesfet/${slug}`)}
-  aria-label={`${slug.replace(/-/g, " ")} keşfet`}
-  onClick={() =>
-    trackClick(
-      "country",
-      slug,
-      `/kesfet/${slug}`
-    )
-  }
->
-            {data.coverPath ? (
-              <img
-                // Varsayılan resim (Masaüstü için makul boy)
-                src={getCloudinaryUrl(data.coverPath, 600)}
-                // MOBİL/MASAÜSTÜ AYRIMI BURADA:
-                // Tarayıcı ekrana göre en küçük dosyayı Cloudinary'den çeker.
-                srcSet={`
-                  ${getCloudinaryUrl(data.coverPath, 400)} 400w,
-                  ${getCloudinaryUrl(data.coverPath, 600)} 600w,
-                  ${getCloudinaryUrl(data.coverPath, 800)} 800w
-                `}
-                // Ekranda kapladığı genişlik tahmini
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                alt={`${slug} kapak`}
-                // CLS'yi önlemek için oran veriyoruz (Zorunlu)
-                width={400}
-                height={533}
-                loading={index < 2 ? "eager" : "lazy"}
-                // @ts-ignore
-                fetchPriority={index < 2 ? "high" : "auto"}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-              />
-            ) : (
-              <div className="absolute inset-0 flex items-center justify-center bg-gray-300 text-gray-500 uppercase font-bold tracking-widest">
-                Resim Hazırlanıyor
-              </div>
-            )}
+     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  {filteredCountries.map(([slug, data]: any, index) => (
+    <Link
+      key={slug}
+      href={getLocalizedLink(`/kesfet/${slug}`)}
+      // aspect-[3/4] sayesinde kartlar dikey ve şık durur
+      className="relative group block overflow-hidden rounded-2xl aspect-[3/4] shadow-lg bg-gray-200"
+      onClick={() => trackClick("country", slug, `/kesfet/${slug}`)}
+    >
+      {data.coverPath ? (
+        <img
+          src={getCloudinaryUrl(data.coverPath, 500)}
+          srcSet={`
+            ${getCloudinaryUrl(data.coverPath, 300)} 300w,
+            ${getCloudinaryUrl(data.coverPath, 500)} 500w,
+            ${getCloudinaryUrl(data.coverPath, 700)} 700w
+          `}
+          // 4 sütunlu yapıda her resim ekranın yaklaşık %25'ini kaplar
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          alt={`${slug} kapak`}
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          loading={index < 4 ? "eager" : "lazy"}
+        />
+      ) : (
+        <div className="absolute inset-0 flex items-center justify-center bg-gray-300 text-gray-500 text-xs font-bold uppercase">
+          Resim Yok
+        </div>
+      )}
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/40 to-transparent opacity-95 transition-opacity" />
+      {/* Karartma katmanı */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-90" />
 
-            <div className="absolute bottom-10 left-10 right-10 z-10">
-              <h2 className="text-white text-4xl font-black capitalize mb-3 drop-shadow-2xl tracking-tight">
-                {slug.replace(/-/g, " ")}
-              </h2>
-              <div className="flex items-center gap-2">
-                <span className="px-4 py-1.5 bg-white/20 backdrop-blur-xl rounded-full text-white text-[11px] font-black uppercase tracking-[0.1em] border border-white/30">
-                  {data.cityCount} {t.city}
-                </span>
-                <span className="px-4 py-1.5 bg-blue-600 rounded-full text-white text-[11px] font-black uppercase tracking-[0.1em]">
-                  {data.placeCount} {t.point}
-                </span>
-              </div>
-            </div>
-          </Link>
-        ))}
+      {/* Kart İçeriği */}
+      <div className="absolute bottom-5 left-5 right-5 z-10">
+        <h2 className="text-white text-xl md:text-2xl font-black capitalize mb-2 drop-shadow-md tracking-tight">
+          {slug.replace(/-/g, " ")}
+        </h2>
+        <div className="flex flex-wrap gap-1.5">
+          <span className="px-2.5 py-1 bg-white/20 backdrop-blur-lg rounded-md text-white text-[9px] font-bold uppercase border border-white/10">
+            {data.cityCount} {t.city}
+          </span>
+          <span className="px-2.5 py-1 bg-blue-600 rounded-md text-white text-[9px] font-bold uppercase">
+            {data.placeCount} {t.point}
+          </span>
+        </div>
       </div>
+    </Link>
+  ))}
+</div>
     </main>
   );
 }

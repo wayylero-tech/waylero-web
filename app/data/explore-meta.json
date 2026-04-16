@@ -128,11 +128,7 @@
     "cityCount": 3,
     "placeCount": 14,
     "coverPath": "places/europa/moskova/moskova-kremlin/vacldsg6sqhisqe6e188"
-  },
-  "europa": {
-    "cityCount": 2,
-    "placeCount": 5,
-    "coverPath": ""
+ 
   },
   "yunanistan": {
     "cityCount": 13,
@@ -142,7 +138,7 @@
   "peru": {
     "cityCount": 1,
     "placeCount": 1,
-    "coverPath": ""
+    "coverPath": "places/europa/cusco/cusco-sacsayhuaman/izhfirsblvavcjqogf3d"
   },
   "gurcistan": {
     "cityCount": 9,

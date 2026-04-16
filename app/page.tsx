@@ -45,6 +45,14 @@ function AdSlot({ slot }: { slot: string }) {
   );
 }
 
+const trackClick = (type: string, label: string, destination?: string) => {
+  window.gtag?.("event", "click", {
+    click_type: type,
+    label: label,
+    destination: destination || "",
+  });
+};
+
 export default function HomePage() {
   const { lang } = useLang();
   const router = useRouter();
@@ -91,7 +99,17 @@ export default function HomePage() {
         <section className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-12">
           {quickMenu.map((item, index) => (
             <div key={item.title} className="group block cursor-pointer">
-              <Link href={item.url || getLocalizedLink(item.route!)} target={item.url ? "_blank" : "_self"}>
+              <Link
+  href={item.url || getLocalizedLink(item.route!)}
+  target={item.url ? "_blank" : "_self"}
+  onClick={() =>
+    trackClick(
+      "quick_menu",
+      item.title,
+      item.url || item.route
+    )
+  }
+>
                 <div className="aspect-square sm:aspect-[4/5] rounded-[2rem] overflow-hidden bg-gray-100 mb-3 shadow-sm group-hover:shadow-xl transition-all duration-500 relative">
                 <Image 
   src={item.image} 
@@ -131,7 +149,14 @@ export default function HomePage() {
             {videos.slice(0, 4).map((video) => (
               <div
                 key={video.id}
-                onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
+                onClick={() => {
+  trackClick(
+    "video",
+    video.title,
+    video.slug
+  );
+  router.push(getLocalizedLink(`/videolar/${video.slug}`));
+}}
                 className="cursor-pointer group"
               >
                 <div className="relative aspect-[9/16] rounded-[2rem] overflow-hidden shadow-sm group-hover:shadow-2xl transition-all duration-500">
@@ -170,7 +195,16 @@ export default function HomePage() {
             {featuredCities.map((c) => {
               const localizedName = lang === "en" ? c.name.en : c.name.tr;
               return (
-                <Link key={c.slug} href={getLocalizedLink(`/${c.country}/${c.slug}`)} className="group block">
+                <Link
+  href={getLocalizedLink(`/${c.country}/${c.slug}`)}
+  onClick={() =>
+    trackClick(
+      "city",
+      localizedName,
+      `${c.country}/${c.slug}`
+    )
+  }
+>
                   <div className="relative h-56 md:h-72 rounded-[2.5rem] overflow-hidden shadow-sm group-hover:shadow-2xl transition-all duration-500 bg-gray-100">
                    <Image
   src={c.image}

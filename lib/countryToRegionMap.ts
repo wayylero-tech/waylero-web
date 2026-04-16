@@ -26,6 +26,7 @@ export const countryToRegionMap: Record<string, string> = {
   tayland: "europa",
   japonya: "asia",
   amerika: "europa",
+  peru: "europa",
   "sri-lanka": "asia",
   singapur: "europa",
   umman: "europa",

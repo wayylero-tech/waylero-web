@@ -49,6 +49,7 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
   misir: { tr: "Mısır", en: "Egypt" },
   belarus: { tr: "Belarus", en: "Belarus" },
   kktc: { tr: "KKTC", en: "Northern Cyprus" },
+  peru: { tr: "Peru", en: "Peru" },
 };
 
 // 🧠 DİL YAKALAMA YARDIMCISI (URL tabanlı)
