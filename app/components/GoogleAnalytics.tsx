@@ -3,7 +3,7 @@
 import Script from "next/script";
 import { useEffect } from "react";
 
-const GA_ID = "G-7KN4TB8167";
+const GA_ID = "G-XC5RZVYFEF";
 
 export default function GoogleAnalytics() {
   useEffect(() => {
