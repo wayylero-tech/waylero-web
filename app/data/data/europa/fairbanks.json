@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "mendenhall-buzulu",
+    "name": {
+      "tr": "Mendenhall Buzulu",
+      "en": "Mendenhall Glacier",
+      "de": "Mendenhall Gletscher"
+    },
+    "latitude": 58.4436,
+    "longitude": -134.6971,
+    "description": {
+      "tr": "Mendenhall Buzulu, Fairbanks'ın en bilinen doğal güzelliklerinden biridir. Ziyaretçiler buzulu keşfetmek için çeşitli yürüyüş yollarını kullanabilir.",
+      "en": "Mendenhall Glacier is one of the most famous natural attractions in Fairbanks. Visitors can use various hiking trails to explore the glacier.",
+      "de": "Der Mendenhall-Gletscher ist eine der bekanntesten natürlichen Sehenswürdigkeiten in Fairbanks. Besucher können verschiedene Wanderwege nutzen, um den Gletscher zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Buzulu keşfetmek",
+        "Doğal yürüyüş yollarında yürümek"
+      ],
+      "en": [
+        "Explore the glacier",
+        "Hike on natural trails"
+      ],
+      "de": [
+        "Den Gletscher erkunden",
+        "Auf natürlichen Wanderwegen wandern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mendenhall_glacier.jpg"
+    ]
+  },
+  {
+    "slug": "chena-hot-springs-resort",
+    "name": {
+      "tr": "Chena Hot Springs Resort",
+      "en": "Chena Hot Springs Resort",
+      "de": "Chena Hot Springs Resort"
+    },
+    "latitude": 64.9083,
+    "longitude": -146.9781,
+    "description": {
+      "tr": "Chena Kaplıcaları, sıcak su kaynakları ile ünlüdür. Ziyaretçiler doğal kaplıcaların keyfini çıkarabilir ve Aurora Borealis'i izleyebilir.",
+      "en": "Chena Hot Springs is famous for its hot springs. Visitors can enjoy the natural hot springs and watch the Aurora Borealis.",
+      "de": "Die Chena Hot Springs sind berühmt für ihre heißen Quellen. Besucher können die natürlichen heißen Quellen genießen und das Nordlicht sehen."
+    },
+    "activities": {
+      "tr": [
+        "Kaplıcalarda rahatlamak",
+        "Aurora Borealis'i izlemek"
+      ],
+      "en": [
+        "Relax in hot springs",
+        "Watch Aurora Borealis"
+      ],
+      "de": [
+        "In heißen Quellen entspannen",
+        "Nordlichter beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/chena_hot_springs.jpg"
+    ]
+  },
+  {
+    "slug": "university-of-alaska-museum-of-the-north",
+    "name": {
+      "tr": "University of Alaska Museum of the North",
+      "en": "University of Alaska Museum of the North",
+      "de": "University of Alaska Museum of the North"
+    },
+    "latitude": 64.8574,
+    "longitude": -147.7852,
+    "description": {
+      "tr": "Bu müze, Alaska'nın tarihini, sanatını ve kültürünü keşfetmek için harika bir yerdir. Zengin bir koleksiyona sahiptir.",
+      "en": "This museum is a great place to explore the history, art, and culture of Alaska. It has a rich collection.",
+      "de": "Dieses Museum ist ein großartiger Ort, um die Geschichte, Kunst und Kultur Alaskas zu entdecken. Es hat eine reiche Sammlung."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Alaska'nın tarihini öğrenmek"
+      ],
+      "en": [
+        "Explore art galleries",
+        "Learn about Alaska's history"
+      ],
+      "de": [
+        "Kunstgalerien erkunden",
+        "Mehr über die Geschichte Alaskas lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/alaska_museum.jpg"
+    ]
+  },
+  {
+    "slug": "pioneer-park",
+    "name": {
+      "tr": "Pioneer Park",
+      "en": "Pioneer Park",
+      "de": "Pioneer Park"
+    },
+    "latitude": 64.8567,
+    "longitude": -147.7257,
+    "description": {
+      "tr": "Pioneer Park, tarihi yapıları, müzeleri ve etkinlik alanlarıyla ünlüdür. Alaska'nın erken dönemlerine dair birçok iz bulabilirsiniz.",
+      "en": "Pioneer Park is famous for its historic buildings, museums, and event spaces. You can find many traces of Alaska's early days.",
+      "de": "Der Pioneer Park ist bekannt für seine historischen Gebäude, Museen und Veranstaltungsräume. Hier finden Sie viele Spuren der frühen Tage Alaskas."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıları gezmek",
+        "Müzeleri ziyaret etmek"
+      ],
+      "en": [
+        "Explore historic buildings",
+        "Visit museums"
+      ],
+      "de": [
+        "Historische Gebäude besichtigen",
+        "Museen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/pioneer_park.jpg"
+    ]
+  },
+  {
+    "slug": "trans-alaska-pipeline",
+    "name": {
+      "tr": "Trans-Alaska Pipeline",
+      "en": "Trans-Alaska Pipeline",
+      "de": "Trans-Alaska Pipeline"
+    },
+    "latitude": 64.7513,
+    "longitude": -147.5322,
+    "description": {
+      "tr": "Trans-Alaska Pipeline, Alaska'nın en önemli mühendislik projelerinden biridir. Bu tarihi yapıyı ziyaret edebilir ve petrole dair bilgileri öğrenebilirsiniz.",
+      "en": "The Trans-Alaska Pipeline is one of Alaska's most important engineering projects. You can visit this historical structure and learn about oil transportation.",
+      "de": "Die Trans-Alaska-Pipeline ist eines der wichtigsten Ingenieurprojekte Alaskas. Sie können diese historische Struktur besichtigen und mehr über den Öltransport erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Mühendislik harikası yapıyı görmek",
+        "Petrol taşıma sürecini öğrenmek"
+      ],
+      "en": [
+        "See the engineering marvel",
+        "Learn about oil transportation"
+      ],
+      "de": [
+        "Das Ingenieurwunder sehen",
+        "Mehr über den Öltransport lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/trans_alaska_pipeline.jpg"
+    ]
+  }
+]

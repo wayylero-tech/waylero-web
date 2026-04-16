@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "belcika-ve-fransa-nin-can-kulesi",
+    "name": {
+      "tr": "Belçika ve Fransa'nın Çan Kulesi",
+      "en": "Belfries of Belgium and France",
+      "de": "Belfriede von Belgien und Frankreich"
+    },
+    "latitude": 50.85,
+    "longitude": 4.35,
+    "description": {
+      "tr": "Belçika ve Fransa'daki çan kuleleri, Orta Çağ'ın sembolik yapılarından olup, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "The belfries of Belgium and France, symbolic structures from the Middle Ages, are listed as a UNESCO World Heritage site.",
+      "de": "Die Belfriede von Belgien und Frankreich, symbolische Bauwerke aus dem Mittelalter, stehen auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Çan kulelerini ziyaret etmek",
+        "Orta Çağ tarihini öğrenmek"
+      ],
+      "en": [
+        "Visit the belfries",
+        "Learn about medieval history"
+      ],
+      "de": [
+        "Die Belfriede besichtigen",
+        "Mehr über die mittelalterliche Geschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/belfries_belgium_france.jpg"
+    ]
+  }
+]

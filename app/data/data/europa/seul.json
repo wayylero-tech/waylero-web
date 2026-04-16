@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "gyeongbokgung-sarayi",
+    "name": {
+      "tr": "Gyeongbokgung Sarayı",
+      "en": "Gyeongbokgung Palace",
+      "de": "Gyeongbokgung Palast"
+    },
+    "latitude": 37.5796,
+    "longitude": 126.977,
+    "description": {
+      "tr": "Gyeongbokgung Sarayı, Seul'deki en büyük ve en önemli tarihi saraylardan biridir. Joseon Krallığı'ndan kalma bu saray, Kore'nin tarihine tanıklık eder.",
+      "en": "Gyeongbokgung Palace is one of the largest and most important historical palaces in Seoul. It dates back to the Joseon Dynasty and bears witness to Korea's history.",
+      "de": "Der Gyeongbokgung-Palast ist einer der größten und wichtigsten historischen Paläste in Seoul. Er stammt aus der Joseon-Dynastie und ist ein Zeugnis der Geschichte Koreas."
+    },
+    "activities": {
+      "tr": [
+        "Saray turu yapma",
+        "Kore tarihi hakkında bilgi edinme"
+      ],
+      "en": [
+        "Take a palace tour",
+        "Learn about Korean history"
+      ],
+      "de": [
+        "Eine Palastführung machen",
+        "Mehr über die koreanische Geschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/gyeongbokgung_palace.jpg"
+    ]
+  },
+  {
+    "slug": "namsan-seoul-tower",
+    "name": {
+      "tr": "Namsan Seoul Tower",
+      "en": "Namsan Seoul Tower",
+      "de": "Namsan Seoul Turm"
+    },
+    "latitude": 37.5512,
+    "longitude": 126.9882,
+    "description": {
+      "tr": "Namsan Seoul Tower, Seul'un en yüksek yapılarından biridir. Şehir manzarası eşliğinde bir yürüyüş yapabilir ya da telesiyeje binebilirsiniz.",
+      "en": "Namsan Seoul Tower is one of the tallest structures in Seoul. You can take a walk with a city view or ride the cable car.",
+      "de": "Der Namsan Seoul-Turm ist eines der höchsten Gebäude in Seoul. Man kann mit Blick auf die Stadt spazieren gehen oder mit der Seilbahn fahren."
+    },
+    "activities": {
+      "tr": [
+        "Gözlem kulesine çıkma",
+        "Namsan Park’ta yürüyüş yapma"
+      ],
+      "en": [
+        "Visit the observation tower",
+        "Walk in Namsan Park"
+      ],
+      "de": [
+        "Die Aussichtsplattform besuchen",
+        "Im Namsan-Park spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/namsan_seoul_tower.jpg"
+    ]
+  },
+  {
+    "slug": "bukchon-hanok-village",
+    "name": {
+      "tr": "Bukchon Hanok Village",
+      "en": "Bukchon Hanok Village",
+      "de": "Bukchon Hanok Dorf"
+    },
+    "latitude": 37.5825,
+    "longitude": 126.9831,
+    "description": {
+      "tr": "Bukchon Hanok Village, Seul'deki geleneksel Kore evlerinin (hanok) bulunduğu bir köydür. Burada eski Kore kültürünü yakından keşfetmek mümkündür.",
+      "en": "Bukchon Hanok Village is a village in Seoul where traditional Korean houses (hanok) are located. It offers a chance to explore the old Korean culture.",
+      "de": "Das Bukchon Hanok Village ist ein Dorf in Seoul, in dem traditionelle koreanische Häuser (Hanok) zu finden sind. Es bietet die Möglichkeit, die alte koreanische Kultur zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Kore evlerini gezme",
+        "Geleneksel yaşam hakkında bilgi edinme"
+      ],
+      "en": [
+        "Visit traditional Korean houses",
+        "Learn about traditional life"
+      ],
+      "de": [
+        "Traditionelle koreanische Häuser besichtigen",
+        "Mehr über das traditionelle Leben erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/bukchon_hanok_village.jpg"
+    ]
+  },
+  {
+    "slug": "changdeokgung-sarayi",
+    "name": {
+      "tr": "Changdeokgung Sarayı",
+      "en": "Changdeokgung Palace",
+      "de": "Changdeokgung Palast"
+    },
+    "latitude": 37.5744,
+    "longitude": 126.9917,
+    "description": {
+      "tr": "Changdeokgung Sarayı, Joseon döneminden kalma bir başka önemli saraydır ve özellikle bahçeleriyle ünlüdür.",
+      "en": "Changdeokgung Palace is another important palace from the Joseon period, famous for its beautiful gardens.",
+      "de": "Der Changdeokgung-Palast ist ein weiterer wichtiger Palast aus der Joseon-Dynastie, berühmt für seine schönen Gärten."
+    },
+    "activities": {
+      "tr": [
+        "Sarayı gezme",
+        "Bahçelerde dolaşma"
+      ],
+      "en": [
+        "Visit the palace",
+        "Stroll through the gardens"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Durch die Gärten spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/changdeokgung_palace.jpg"
+    ]
+  },
+  {
+    "slug": "insadong",
+    "name": {
+      "tr": "Insadong",
+      "en": "Insadong",
+      "de": "Insadong"
+    },
+    "latitude": 37.5745,
+    "longitude": 126.9896,
+    "description": {
+      "tr": "Insadong, geleneksel Kore sanat ve hediyeliklerinin satıldığı bir alışveriş caddesidir. Hem modern hem de geleneksel bir atmosferi vardır.",
+      "en": "Insadong is a shopping street in Seoul that sells traditional Korean art and souvenirs. It has both a modern and traditional atmosphere.",
+      "de": "Insadong ist eine Einkaufsstraße in Seoul, die traditionelle koreanische Kunst und Souvenirs verkauft. Es hat sowohl eine moderne als auch eine traditionelle Atmosphäre."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Sanat galerilerini gezme"
+      ],
+      "en": [
+        "Go shopping",
+        "Visit art galleries"
+      ],
+      "de": [
+        "Einkaufen gehen",
+        "Kunstgalerien besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/insadong.jpg"
+    ]
+  }
+]

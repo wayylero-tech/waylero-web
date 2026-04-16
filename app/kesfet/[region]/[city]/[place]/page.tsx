@@ -1,11 +1,8 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { cookies, headers } from "next/headers";
+import { cache } from "react";
 import PlaceSlider from "./PlaceSlider";
-
-import turkey from "../../../../data/turkey.json";
-import europa from "../../../../data/europa.json";
-import asia from "../../../../data/asia.json";
 
 import turkeyImages from "../../../../data/images/turkey.json";
 import europaImages from "../../../../data/images/europa.json";
@@ -14,16 +11,21 @@ import asiaImages from "../../../../data/images/asia.json";
 import { countryToRegionMap } from "@/lib/countryToRegionMap";
 import { slugify } from "@/lib/utils/slugify";
 
-const DATA: any = { turkey, europa, asia };
-const IMAGES: any = { turkey: turkeyImages, europa: europaImages, asia: asiaImages };
+const IMAGES: any = {
+  turkey: turkeyImages,
+  europa: europaImages,
+  asia: asiaImages,
+};
+
 const BASE_URL = "https://www.waylero.com";
 
 type Params = { region: string; city: string; place: string };
 
-// 🌍 GÜVENLİ DİL YAKALAMA
+
+// 🌍 LANGUAGE
 async function getLanguage() {
   const h = await headers();
-  const currentPath = h.get("x-url") || ""; // Middleware'den gelen header
+  const currentPath = h.get("x-url") || "";
   const middlewareLang = h.get("x-url-lang");
 
   if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
@@ -32,33 +34,51 @@ async function getLanguage() {
   return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 }
 
-export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+
+// 🔥 CACHE'LENMİŞ CITY DATA LOADER
+const loadCityData = cache(async (regionKey: string, citySlug: string) => {
+  try {
+    const module = await import(
+      `../../../../data/data/${regionKey}/${citySlug}.json`
+    );
+    return module.default;
+  } catch {
+    return null;
+  }
+});
+
+
+// 🔥 METADATA
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<Params>;
+}): Promise<Metadata> {
   const { region, city, place } = await params;
   const lang = await getLanguage();
 
   const mainRegion = countryToRegionMap[region] || region;
-  const regionData = DATA[mainRegion];
 
-  if (!regionData) return { title: "Waylero" };
+  const cityData = await loadCityData(mainRegion, city);
+  if (!cityData) return { title: "Waylero" };
 
-  const cityKey = Object.keys(regionData).find(
-    (k) => slugify(k) === slugify(decodeURIComponent(city))
-  );
-
-  if (!cityKey) return { title: "Waylero" };
-
-  const found = regionData[cityKey]?.find(
+  const found = cityData.find(
     (p: any) => slugify(p.slug) === slugify(decodeURIComponent(place))
   );
 
   if (!found) return { title: "Waylero" };
 
   const name = found.name?.[lang] || found.name?.tr;
-  const desc = (found.description?.[lang] || found.description?.tr || "").slice(0, 160);
+  const desc =
+    (found.description?.[lang] ||
+      found.description?.tr ||
+      "").slice(0, 160);
 
-  const imageGroup = IMAGES[mainRegion]?.[cityKey] || {};
-  const imageKey = `${slugify(cityKey)}-${slugify(found.slug)}`;
-  const image = imageGroup?.[imageKey]?.[0];
+  const imageGroup = IMAGES[mainRegion]?.[slugify(city)] || {};
+  const imageKey = `${slugify(city)}-${slugify(found.slug)}`;
+  const image =
+    imageGroup?.[imageKey]?.[0] ||
+    imageGroup?.[found.slug]?.[0];
 
   const path = `/kesfet/${region}/${city}/${place}`;
   const trUrl = `${BASE_URL}${path}`;
@@ -79,7 +99,9 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       title: name,
       description: desc,
       url: lang === "en" ? enUrl : trUrl,
-      images: image ? [{ url: image, width: 1200, height: 630 }] : undefined,
+      images: image
+        ? [{ url: image, width: 1200, height: 630 }]
+        : undefined,
     },
     twitter: {
       card: "summary_large_image",
@@ -90,38 +112,57 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   };
 }
 
-export default async function Page({ params }: { params: Promise<Params> }) {
+
+// 🔥 PAGE
+export default async function Page({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
   const { region, city, place } = await params;
   const lang = await getLanguage();
 
   const mainRegion = countryToRegionMap[region] || region;
-  const regionData = DATA[mainRegion];
 
-  if (!regionData) return notFound();
+  const cityData = await loadCityData(mainRegion, city);
+  if (!cityData) return notFound();
 
-  const cityKey = Object.keys(regionData).find(
-    (k) => slugify(k) === slugify(decodeURIComponent(city))
-  );
-
-  if (!cityKey) return notFound();
-
-  const foundPlace = regionData[cityKey]?.find(
+  const foundPlace = cityData.find(
     (p: any) => slugify(p.slug) === slugify(decodeURIComponent(place))
   );
 
   if (!foundPlace) return notFound();
 
   const name = foundPlace.name?.[lang] || foundPlace.name?.tr;
-  const desc = foundPlace.description?.[lang] || foundPlace.description?.tr;
-  const activities = foundPlace.activities?.[lang] || foundPlace.activities?.tr || [];
+  const desc =
+    foundPlace.description?.[lang] ||
+    foundPlace.description?.tr;
 
-  const imageGroup = IMAGES[mainRegion]?.[cityKey] || {};
-  const imageKey = `${slugify(cityKey)}-${slugify(foundPlace.slug)}`;
-  const images = imageGroup?.[imageKey] || imageGroup?.[foundPlace.slug] || [];
+  const activities =
+    foundPlace.activities?.[lang] ||
+    foundPlace.activities?.tr ||
+    [];
+
+  const imageGroup = IMAGES[mainRegion]?.[slugify(city)] || {};
+  const imageKey = `${slugify(city)}-${slugify(foundPlace.slug)}`;
+  const images =
+    imageGroup?.[imageKey] ||
+    imageGroup?.[foundPlace.slug] ||
+    [];
 
   const t = {
-    tr: { about: "Hakkında", todo: "Neler Yapılır?", location: "Konum", noPhoto: "Fotoğraf yok" },
-    en: { about: "About", todo: "Things to do", location: "Location", noPhoto: "No photos" },
+    tr: {
+      about: "Hakkında",
+      todo: "Neler Yapılır?",
+      location: "Konum",
+      noPhoto: "Fotoğraf yok",
+    },
+    en: {
+      about: "About",
+      todo: "Things to do",
+      location: "Location",
+      noPhoto: "No photos",
+    },
   }[lang];
 
   return (
@@ -143,14 +184,21 @@ export default async function Page({ params }: { params: Promise<Params> }) {
       <div className="grid md:grid-cols-3 gap-8">
         <div className="md:col-span-2 bg-white rounded-3xl p-6 border shadow-sm">
           <h2 className="font-bold text-xl mb-4">{t.about}</h2>
-          <p className="text-gray-600 whitespace-pre-line leading-relaxed">{desc}</p>
+          <p className="text-gray-600 whitespace-pre-line leading-relaxed">
+            {desc}
+          </p>
         </div>
 
         <div className="bg-blue-50 rounded-3xl p-6 border shadow-sm">
-          <h2 className="font-bold text-xl mb-4 text-blue-900">{t.todo}</h2>
+          <h2 className="font-bold text-xl mb-4 text-blue-900">
+            {t.todo}
+          </h2>
           <ul className="space-y-3">
             {activities.map((a: string, i: number) => (
-              <li key={i} className="bg-white p-4 rounded-xl text-sm font-bold text-gray-700 shadow-sm border border-blue-100">
+              <li
+                key={i}
+                className="bg-white p-4 rounded-xl text-sm font-bold text-gray-700 shadow-sm border border-blue-100"
+              >
                 {a}
               </li>
             ))}

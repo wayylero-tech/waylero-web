@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "gamlebyen",
+    "name": {
+      "tr": "Gamlebyen",
+      "en": "Gamlebyen",
+      "de": "Gamlebyen"
+    },
+    "latitude": 59.2172,
+    "longitude": 10.9297,
+    "description": {
+      "tr": "Gamlebyen, Norveç'in en iyi korunmuş eski şehirlerinden biridir. Burada, eski taş binalar ve taş yollar arasında gezebilirsiniz.",
+      "en": "Gamlebyen is one of Norway's best-preserved old towns. You can walk between ancient stone buildings and cobblestone streets.",
+      "de": "Gamlebyen ist eine der am besten erhaltenen Altstädte Norwegens. Sie können zwischen alten Steingebäuden und Kopfsteinpflasterstraßen spazieren."
+    },
+    "activities": {
+      "tr": [
+        "Eski şehirde gezme",
+        "Tarihi yapıları keşfetme"
+      ],
+      "en": [
+        "Walk through the old town",
+        "Explore the historic buildings"
+      ],
+      "de": [
+        "Durch die Altstadt spazieren",
+        "Die historischen Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/gamlebyen.jpg"
+    ]
+  },
+  {
+    "slug": "fredrikstad-kalesi",
+    "name": {
+      "tr": "Fredrikstad Kalesi",
+      "en": "Fredrikstad Fortress",
+      "de": "Fredrikstad Festung"
+    },
+    "latitude": 59.2178,
+    "longitude": 10.9315,
+    "description": {
+      "tr": "Fredrikstad Kalesi, 16. yüzyıldan kalma bir askeri yapıdır. Kalenin içinde gezebilir ve tarihi atmosferi keşfedebilirsiniz.",
+      "en": "Fredrikstad Fortress is a military structure from the 16th century. You can tour the fortress and explore its historic atmosphere.",
+      "de": "Die Fredrikstad Festung ist eine militärische Struktur aus dem 16. Jahrhundert. Sie können die Festung besichtigen und die historische Atmosphäre erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapma",
+        "Tarihi surları inceleme"
+      ],
+      "en": [
+        "Take a fortress tour",
+        "Examine the historic walls"
+      ],
+      "de": [
+        "Eine Festungstour machen",
+        "Die historischen Mauern untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/fredrikstad_fortress.jpg"
+    ]
+  }
+]

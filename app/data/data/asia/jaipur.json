@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "amber-kalesi",
+    "name": {
+      "tr": "Amber Kalesi",
+      "en": "Amber Fort",
+      "de": "Amber-Fort"
+    },
+    "latitude": 26.9855,
+    "longitude": 75.8507,
+    "description": {
+      "tr": "Amber Kalesi, Jaipur’un dışında yer alan muhteşem bir tarihi kaledir. Fil sırtında çıkılan bu kale, Rajput mimarisinin en güzel örneklerinden biridir.",
+      "en": "Amber Fort is a magnificent historic fort located just outside Jaipur. Visitors often ascend on elephant back, and it is one of the finest examples of Rajput architecture.",
+      "de": "Das Amber-Fort ist eine prächtige historische Festung außerhalb von Jaipur. Besucher reiten oft auf Elefanten hinauf; es ist eines der besten Beispiele für Rajput-Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kale ziyareti",
+        "Fil turu",
+        "Mimari keşif"
+      ],
+      "en": [
+        "Visit historic fort",
+        "Elephant ride",
+        "Architectural exploration"
+      ],
+      "de": [
+        "Besuch der historischen Festung",
+        "Elefantenritt",
+        "Architekturerkundung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/amber_fort.jpg"
+    ]
+  },
+  {
+    "slug": "hawa-mahal",
+    "name": {
+      "tr": "Hawa Mahal",
+      "en": "Hawa Mahal",
+      "de": "Hawa Mahal"
+    },
+    "latitude": 26.9239,
+    "longitude": 75.8267,
+    "description": {
+      "tr": "Hawa Mahal veya \"Rüzgarlar Sarayı\", pembe taşlardan yapılmış ikonik bir Jaipur yapısıdır.",
+      "en": "Hawa Mahal, or \"Palace of Winds\", is an iconic structure in Jaipur made of pink sandstone.",
+      "de": "Hawa Mahal, auch „Palast der Winde“ genannt, ist eine ikonische Struktur in Jaipur aus rosafarbenem Sandstein."
+    },
+    "activities": {
+      "tr": [
+        "Fotoğraf çekimi",
+        "Tarihi yapı gezisi"
+      ],
+      "en": [
+        "Photography",
+        "Explore historical building"
+      ],
+      "de": [
+        "Fotografieren",
+        "Besichtigung des historischen Gebäudes"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/hawa_mahal.jpg"
+    ]
+  },
+  {
+    "slug": "sehir-sarayi",
+    "name": {
+      "tr": "Şehir Sarayı",
+      "en": "City Palace",
+      "de": "Stadtpalast"
+    },
+    "latitude": 26.926,
+    "longitude": 75.8235,
+    "description": {
+      "tr": "Jaipur’un kalbinde yer alan Şehir Sarayı, hâlâ kraliyet ailesi tarafından kullanılmaktadır.",
+      "en": "Located in the heart of Jaipur, the City Palace is still partly used by the royal family.",
+      "de": "Im Herzen von Jaipur gelegen, wird der Stadtpalast noch teilweise von der königlichen Familie genutzt."
+    },
+    "activities": {
+      "tr": [
+        "Saray gezisi",
+        "Kraliyet koleksiyonlarını görme"
+      ],
+      "en": [
+        "Palace tour",
+        "View royal collections"
+      ],
+      "de": [
+        "Palastbesichtigung",
+        "Königliche Sammlungen ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/city_palace.jpg"
+    ]
+  },
+  {
+    "slug": "jantar-mantar",
+    "name": {
+      "tr": "Jantar Mantar",
+      "en": "Jantar Mantar",
+      "de": "Jantar Mantar"
+    },
+    "latitude": 26.9256,
+    "longitude": 75.8236,
+    "description": {
+      "tr": "UNESCO Dünya Mirası olan Jantar Mantar, eski astronomik gözlemevlerinden biridir.",
+      "en": "A UNESCO World Heritage site, Jantar Mantar is an ancient astronomical observatory.",
+      "de": "Jantar Mantar ist ein UNESCO-Weltkulturerbe und eines der ältesten astronomischen Observatorien."
+    },
+    "activities": {
+      "tr": [
+        "Astronomi gözlemi",
+        "Bilimsel yapıları keşfetmek"
+      ],
+      "en": [
+        "Astronomical observation",
+        "Explore scientific instruments"
+      ],
+      "de": [
+        "Astronomische Beobachtung",
+        "Wissenschaftliche Instrumente erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/jantar_mantar.jpg"
+    ]
+  },
+  {
+    "slug": "jal-mahal",
+    "name": {
+      "tr": "Jal Mahal",
+      "en": "Jal Mahal",
+      "de": "Jal Mahal"
+    },
+    "latitude": 26.9535,
+    "longitude": 75.8463,
+    "description": {
+      "tr": "Jal Mahal, göl ortasında yer alan zarif bir saraydır ve özellikle akşam saatlerinde manzarası etkileyicidir.",
+      "en": "Jal Mahal is a graceful palace located in the middle of a lake, especially stunning during sunset.",
+      "de": "Jal Mahal ist ein eleganter Palast mitten in einem See, besonders schön bei Sonnenuntergang."
+    },
+    "activities": {
+      "tr": [
+        "Göl manzarası izlemek",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Enjoy lake view",
+        "Photography"
+      ],
+      "de": [
+        "Seeblick genießen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/jal_mahal.jpg"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "vardzia-manastir-kompleksi",
+    "name": {
+      "tr": "Vardzia Manastır Kompleksi",
+      "en": "Vardzia Monastery Complex",
+      "de": "Vardzia-Klosterkomplex"
+    },
+    "latitude": 41.5483,
+    "longitude": 43.4176,
+    "description": {
+      "tr": "Vardzia Manastır Kompleksi, kayalara oyulmuş tarihi bir yapıdır ve Gürcistan’ın en önemli dini yapılarından biridir. 12. yüzyılda inşa edilen bu manastır, hem tarihi hem de dini açıdan büyük bir öneme sahiptir.",
+      "en": "The Vardzia Monastery Complex is a historic structure carved into the rocks and one of the most significant religious buildings in Georgia. Built in the 12th century, this monastery holds great historical and religious importance.",
+      "de": "Der Vardzia-Klosterkomplex ist ein historisches Gebäude, das in die Felsen gehauen wurde und eines der bedeutendsten religiösen Gebäude Georgiens ist. Es wurde im 12. Jahrhundert erbaut und hat sowohl historische als auch religiöse Bedeutung."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezmek",
+        "Kayalara oyulmuş yapıları görmek"
+      ],
+      "en": [
+        "Visiting the monastery",
+        "Seeing the rock-carved structures"
+      ],
+      "de": [
+        "Das Kloster besichtigen",
+        "Die in den Felsen gehauenen Strukturen sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/vardzia_monastery.jpg"
+    ]
+  }
+]

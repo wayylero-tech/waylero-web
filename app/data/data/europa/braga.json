@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "bom-jesus-do-monte",
+    "name": {
+      "tr": "Bom Jesus do Monte",
+      "en": "Bom Jesus do Monte",
+      "de": "Bom Jesus do Monte"
+    },
+    "latitude": 41.5441,
+    "longitude": -8.3625,
+    "description": {
+      "tr": "Bom Jesus do Monte, Braga yakınlarında bulunan bir dini komplekstir ve büyüleyici merdivenleri ve manzarasıyla ünlüdür.",
+      "en": "Bom Jesus do Monte is a religious complex near Braga, famous for its captivating staircases and panoramic views.",
+      "de": "Bom Jesus do Monte ist ein religiöser Komplex in der Nähe von Braga, bekannt für seine faszinierenden Treppen und Panoramablicke."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin etrafında gezme",
+        "Merdivenlerden yürüyüş yapma"
+      ],
+      "en": [
+        "Walk around the church",
+        "Walk up the stairs"
+      ],
+      "de": [
+        "Rund um die Kirche spazieren",
+        "Die Treppen hinaufgehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/bom_jesus_monte.jpg"
+    ]
+  },
+  {
+    "slug": "braga-katedrali",
+    "name": {
+      "tr": "Braga Katedrali",
+      "en": "Braga Cathedral",
+      "de": "Braga Kathedrale"
+    },
+    "latitude": 41.5456,
+    "longitude": -8.4266,
+    "description": {
+      "tr": "Braga Katedrali, şehrin en eski ve en önemli dini yapılarından biridir. 12. yüzyıldan kalma bu katedral, Romanesk tarzda inşa edilmiştir.",
+      "en": "Braga Cathedral is one of the oldest and most important religious structures in the city. This 12th-century cathedral was built in the Romanesque style.",
+      "de": "Die Braga-Kathedrale ist eines der ältesten und wichtigsten religiösen Gebäude der Stadt. Diese im romanischen Stil erbaute Kathedrale stammt aus dem 12. Jahrhundert."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezme",
+        "Mimari detayları keşfetme"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Explore the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/braga_cathedral.jpg"
+    ]
+  }
+]

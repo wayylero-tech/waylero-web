@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "lake-lugano",
+    "name": {
+      "tr": "Lake Lugano",
+      "en": "Lake Lugano",
+      "de": "Lake Lugano"
+    },
+    "latitude": 46.0037,
+    "longitude": 8.951,
+    "description": {
+      "tr": "Lake Lugano, dağlarla çevrili, pırıl pırıl suları olan muazzam bir göldür ve çevresinde çeşitli yürüyüş parkurları vardır.",
+      "en": "Lake Lugano is a magnificent lake surrounded by mountains with crystal-clear waters and various hiking trails around it.",
+      "de": "Der Lake Lugano ist ein prächtiger See, der von Bergen umgeben ist, mit kristallklarem Wasser und verschiedenen Wanderwegen."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turuna çıkmak",
+        "Göl etrafında yürüyüş yapmak"
+      ],
+      "en": [
+        "Take a boat tour",
+        "Walk around the lake"
+      ],
+      "de": [
+        "Eine Bootstour machen",
+        "Um den See spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_lugano.jpg"
+    ]
+  },
+  {
+    "slug": "parco-ciani",
+    "name": {
+      "tr": "Parco Ciani",
+      "en": "Parco Ciani",
+      "de": "Parco Ciani"
+    },
+    "latitude": 46.0023,
+    "longitude": 8.9498,
+    "description": {
+      "tr": "Parco Ciani, göl kenarında yer alan güzel bir parktır ve Lübnan sediri gibi egzotik ağaçlarla çevrilidir.",
+      "en": "Parco Ciani is a beautiful park located by the lake, surrounded by exotic trees like Lebanese cedar.",
+      "de": "Der Parco Ciani ist ein schöner Park am See, umgeben von exotischen Bäumen wie der Libanonzeder."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Doğayla iç içe olmak"
+      ],
+      "en": [
+        "Take a walk in the park",
+        "Immerse in nature"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "In der Natur sein"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/parco_ciani.jpg"
+    ]
+  },
+  {
+    "slug": "monte-br",
+    "name": {
+      "tr": "Monte Brè",
+      "en": "Monte Brè",
+      "de": "Monte Brè"
+    },
+    "latitude": 46.0085,
+    "longitude": 8.9519,
+    "description": {
+      "tr": "Monte Brè, Lugano’yu kuşbakışı görmek için mükemmel bir dağdır. Buraya teleferik ile ulaşılabilir.",
+      "en": "Monte Brè is a perfect mountain for a bird’s-eye view of Lugano. It can be reached by cable car.",
+      "de": "Monte Brè ist ein perfekter Berg, um Lugano aus der Vogelperspektive zu sehen. Er ist mit der Seilbahn erreichbar."
+    },
+    "activities": {
+      "tr": [
+        "Teleferikle dağa çıkmak",
+        "Zirveye tırmanmak"
+      ],
+      "en": [
+        "Take the cable car to the mountain",
+        "Climb to the summit"
+      ],
+      "de": [
+        "Mit der Seilbahn auf den Berg fahren",
+        "Zum Gipfel steigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/monte_bre.jpg"
+    ]
+  },
+  {
+    "slug": "lugano-art-and-culture-center",
+    "name": {
+      "tr": "Lugano Art and Culture Center",
+      "en": "Lugano Art and Culture Center",
+      "de": "Lugano Kunst- und Kulturzentrum"
+    },
+    "latitude": 46.0006,
+    "longitude": 8.9494,
+    "description": {
+      "tr": "Lugano Art and Culture Center, modern sanat galerisi ve konser salonu gibi işlevler sunan bir kültürel merkezdir.",
+      "en": "The Lugano Art and Culture Center is a cultural center offering functions such as modern art galleries and concert halls.",
+      "de": "Das Lugano Kunst- und Kulturzentrum ist ein Kulturzentrum, das Funktionen wie moderne Kunstgalerien und Konzerthallen bietet."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Konser dinlemek"
+      ],
+      "en": [
+        "Visit the art galleries",
+        "Listen to a concert"
+      ],
+      "de": [
+        "Die Kunstgalerien besuchen",
+        "Ein Konzert hören"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/lugano_art_center.jpg"
+    ]
+  },
+  {
+    "slug": "parco-san-grato",
+    "name": {
+      "tr": "Parco San Grato",
+      "en": "Parco San Grato",
+      "de": "Parco San Grato"
+    },
+    "latitude": 46.0175,
+    "longitude": 8.9282,
+    "description": {
+      "tr": "Parco San Grato, Lugano yakınlarında bulunan ve zeytin ağaçlarıyla çevrili geniş bir parktır.",
+      "en": "Parco San Grato is a large park near Lugano, surrounded by olive trees.",
+      "de": "Der Parco San Grato ist ein großer Park in der Nähe von Lugano, umgeben von Olivenbäumen."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Zeytin ağaçlarını görmek"
+      ],
+      "en": [
+        "Take a walk in the park",
+        "See the olive trees"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Olivenbäume sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/parco_san_grato.jpg"
+    ]
+  }
+]

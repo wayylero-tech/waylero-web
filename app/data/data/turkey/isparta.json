@@ -1,0 +1,675 @@
+[
+  {
+    "slug": "bedre-plaji",
+    "name": {
+      "tr": "Bedre Plajı",
+      "en": "Bedre Beach",
+      "de": "Bedre Strand"
+    },
+    "latitude": 37.925694059703446,
+    "longitude": 30.78546031657635,
+    "description": {
+      "tr": "Bedre Plajı, Isparta'nın Eğirdir ilçesine 10 km uzaklıkta, Beydere mevkiinde yer alan, 2016 yılında hizmete açılmış geniş kapsamlı bir plajdır. 160.000 m² alana ve 1.500 metrelik kum sahile sahip olan plaj, aynı anda 5.000 kişiye hizmet verebilmektedir. Tesis bünyesinde ücretsiz otopark, kafe, büfe, mescit, duş, tuvalet, giyinme kabinleri, cankurtaran kuleleri, mangal alanları, çadır ve karavan alanları, 3 kaydıraklı aquapark, şişme su kaydırağı ve deniz traktörleri gibi olanaklar bulunmaktadır. Sığ ve temiz suyu, geniş yeşil alanları ve çocuklar için uygun yapısıyla aileler için ideal bir tatil noktasıdır.",
+      "en": "Bedre Beach, located 10 km from Eğirdir in Isparta's Beydere area, is a comprehensive beach facility opened in 2016. Covering 160,000 m² with a 1,500-meter sandy shoreline, it can accommodate up to 5,000 visitors simultaneously. The facility includes free parking, a cafe, buffet, mosque, showers, toilets, dressing cabins, lifeguard towers, barbecue areas, tent and caravan zones, a 3-slide aquapark, inflatable water slide, and sea tractors. With its shallow and clean water, extensive green spaces, and family-friendly amenities, it's an ideal vacation spot for families.",
+      "de": "Der Bedre Strand, 10 km von Eğirdir in der Region Beydere (Isparta) entfernt, ist eine umfassende Strandanlage, die 2016 eröffnet wurde. Mit einer Fläche von 160.000 m² und einem 1.500 Meter langen Sandstrand kann sie gleichzeitig bis zu 5.000 Besucher aufnehmen. Die Anlage bietet kostenlosen Parkplatz, Café, Imbiss, Moschee, Duschen, Toiletten, Umkleidekabinen, Rettungsschwimmertürme, Grillbereiche, Zelt- und Wohnwagenplätze, einen Aquapark mit drei Rutschen, eine aufblasbare Wasserrutsche und Meerestraktoren. Mit ihrem flachen und sauberen Wasser, weitläufigen Grünflächen und familienfreundlichen Einrichtungen ist sie ein ideales Urlaubsziel für Familien."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Kamp yapma",
+        "Piknik",
+        "Su kaydırağı eğlencesi",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Swimming",
+        "Camping",
+        "Picnicking",
+        "Water slide fun",
+        "Photography"
+      ],
+      "de": [
+        "Schwimmen",
+        "Camping",
+        "Picknick",
+        "Wasserrutschen-Spaß",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://www.bicamps.com/Uploads/Images/egirdir-bedre-plaji-1.jpg",
+      "https://www.bicamps.com/Uploads/Images/egirdir-bedre-plaji-2.jpg"
+    ]
+  },
+  {
+    "slug": "egirdir-kalesi",
+    "name": {
+      "tr": "Eğirdir Kalesi",
+      "en": "Eğirdir Castle",
+      "de": "Burg Eğirdir"
+    },
+    "latitude": 37.87654772925915,
+    "longitude": 30.85313289354673,
+    "description": {
+      "tr": "Eğirdir Kalesi, Isparta'nın Eğirdir ilçesinde, Eğirdir Gölü'ne uzanan bir yarımada üzerinde yer alır. İç ve dış kaleden oluşan yapının inşa tarihi kesin olarak bilinmemekle birlikte, mevcut kalıntılar Bizans dönemine aittir. Kale, Roma ve Bizans dönemlerinde onarımlar görmüş, Hamidoğulları Beyliği döneminde 1307 yılında Dündar Bey tarafından restore edilmiştir. 1402 yılında Timur'un seferi sırasında kısmen yıkılmıştır. Osmanlı döneminde küçük bir askeri karakol olarak kullanılmıştır. Günümüzde kalenin bazı burçları ayakta olup, sur duvarları üzerinde konutlar bulunmaktadır.",
+      "en": "Eğirdir Castle is located in the Eğirdir district of Isparta, situated on a peninsula extending into Lake Eğirdir. Comprising inner and outer sections, the exact construction date is unknown, but existing remnants date back to the Byzantine era. The castle underwent repairs during Roman and Byzantine times and was restored in 1307 by Dündar Bey of the Hamidid Beylik. It was partially destroyed during Timur's campaign in 1402 and later served as a small military post during the Ottoman period. Today, some towers remain standing, and residential buildings are present along the castle walls.",
+      "de": "Die Burg Eğirdir befindet sich im Bezirk Eğirdir in der Provinz Isparta und liegt auf einer Halbinsel, die in den Eğirdir-See hineinragt. Die Burg besteht aus einer inneren und äußeren Festung. Das genaue Baujahr ist unbekannt, aber die vorhandenen Überreste stammen aus der byzantinischen Zeit. Die Burg wurde während der römischen und byzantinischen Ära repariert und 1307 von Dündar Bey des Hamididen-Beyliks restauriert. Während des Feldzugs von Timur im Jahr 1402 wurde sie teilweise zerstört und diente später in der osmanischen Zeit als kleiner Militärposten. Heute stehen einige Türme noch, und entlang der Burgmauern befinden sich Wohnhäuser."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşif",
+        "Fotoğrafçılık",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Historical exploration",
+        "Photography",
+        "Sightseeing"
+      ],
+      "de": [
+        "Historische Erkundung",
+        "Fotografie",
+        "Besichtigung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://www.kulturportali.gov.tr/repoKulturPortali/large/13042018/9f0f8b3a-1b2c-4e5a-9a1b-5f7d9f3e4c2a.jpg",
+      "https://www.neredekal.com/media/egirdir-kalesi-gezilecek-yer-detay.jpg"
+    ]
+  },
+  {
+    "slug": "hizir-bey-camii-egirdir-ulu-camii",
+    "name": {
+      "tr": "Hızır Bey Camii (Eğirdir Ulu Camii)",
+      "en": "Hızır Bey Mosque (Eğirdir Grand Mosque)",
+      "de": "Hızır Bey Moschee (Große Moschee von Eğirdir)"
+    },
+    "latitude": 37.87474790416198,
+    "longitude": 30.850790273984757,
+    "description": {
+      "tr": "Isparta'nın Eğirdir ilçesinde bulunan Hızır Bey Camii, halk arasında Ulu Cami olarak da bilinir. 14. yüzyılın başlarında Hamidoğulları Beyliği döneminde Hızır Bey tarafından inşa ettirildiği düşünülmektedir. 1814 yılında çıkan yangında zarar gören cami, Yılanlıoğlu Şen Ali Ağa tarafından halkın yardımlarıyla yeniden inşa edilmiştir. 1883 yılında Hacı Murat Ağa öncülüğünde çatısı kiremitle örtülmüştür. Dikdörtgen planlı, ahşap direkli ve tavanlı yapısıyla Selçuklu mimarisinin özelliklerini taşır. Minaresi, Dündar Bey Medresesi ile ortak duvarı oluşturan kale surunun kapısı üzerine inşa edilmiştir.",
+      "en": "Located in Eğirdir district of Isparta, Hızır Bey Mosque, also known as the Grand Mosque, is believed to have been built in the early 14th century during the Hamidoğulları Beylik period by Hızır Bey. After being damaged in a fire in 1814, it was reconstructed with public support led by Yılanlıoğlu Şen Ali Ağa. In 1883, the roof was covered with tiles under the leadership of Hacı Murat Ağa. The mosque features a rectangular plan with wooden columns and ceiling, reflecting Seljuk architectural characteristics. Its minaret is built over the gate of the fortress wall shared with Dündar Bey Madrasa.",
+      "de": "Die Hızır Bey Moschee, auch als Große Moschee bekannt, befindet sich im Bezirk Eğirdir in Isparta. Es wird angenommen, dass sie Anfang des 14. Jahrhunderts während der Hamidoğulları-Beylik-Periode von Hızır Bey erbaut wurde. Nach einem Brand im Jahr 1814 wurde die Moschee mit Unterstützung der Bevölkerung unter der Leitung von Yılanlıoğlu Şen Ali Ağa wieder aufgebaut. Im Jahr 1883 wurde das Dach unter der Führung von Hacı Murat Ağa mit Ziegeln gedeckt. Die Moschee weist einen rechteckigen Grundriss mit Holzsäulen und -decke auf, was typische Merkmale der seldschukischen Architektur widerspiegelt. Das Minarett ist über dem Tor der Festungsmauer errichtet, die mit der Dündar Bey Medrese geteilt wird."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşif",
+        "Fotoğrafçılık",
+        "İnanç turizmi"
+      ],
+      "en": [
+        "Historical exploration",
+        "Photography",
+        "Faith tourism"
+      ],
+      "de": [
+        "Historische Erkundung",
+        "Fotografie",
+        "Glaubenstourismus"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://www.kulturportali.gov.tr/repoKulturPortali/large/13042018/9f0f8b3a-1b2c-4e5a-9a1b-5f7d9f3e4c2a.jpg"
+    ]
+  },
+  {
+    "slug": "dundarbey-medresesi",
+    "name": {
+      "tr": "Dündarbey Medresesi",
+      "en": "Dündar Bey Madrasa",
+      "de": "Dündar Bey Medrese"
+    },
+    "latitude": 37.87541359802101,
+    "longitude": 30.850649716811034,
+    "description": {
+      "tr": "Isparta'nın Eğirdir ilçesinde yer alan Dündarbey Medresesi, 1237 yılında han olarak inşa edilmiş, 1301 yılında Hamidoğulları Beyliği’nden Dündar Bey tarafından medreseye dönüştürülmüştür. Selçuklu mimarisinin özgün örneklerinden biridir. Günümüzde çarşı olarak kullanılan yapı, taş işçiliğiyle dikkat çeker.",
+      "en": "Located in Eğirdir, Isparta, Dündar Bey Madrasa was originally built in 1237 as a caravanserai and was later converted into a madrasa in 1301 by Dündar Bey of the Hamidoğulları Beylik. It is a unique example of Seljuk architecture and is now used as a marketplace.",
+      "de": "Die Dündar Bey Medrese im türkischen Eğirdir (Isparta) wurde 1237 als Karawanserei erbaut und 1301 von Dündar Bey in eine Medrese umgewandelt. Heute dient sie als Markt und ist ein schönes Beispiel seldschukischer Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşif",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Historical exploration",
+        "Photography"
+      ],
+      "de": [
+        "Historische Erkundung",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "history"
+      ],
+      "de": [
+        "Geschichte"
+      ]
+    },
+    "images": [
+      "https://kulturportali.gov.tr/repoKulturPortali/large/13042018/9f0f8b3a-1b2c-4e5a-9a1b-5f7d9f3e4c2a.jpg"
+    ]
+  },
+  {
+    "slug": "altinkum-plaji-egirdir",
+    "name": {
+      "tr": "Altınkum Plajı (Eğirdir)",
+      "en": "Altınkum Beach (Eğirdir)",
+      "de": "Altınkum Strand (Eğirdir)"
+    },
+    "latitude": 37.88061582529664,
+    "longitude": 30.822912171509753,
+    "description": {
+      "tr": "Isparta'nın Eğirdir ilçesinde yer alan Altınkum Plajı, Eğirdir Gölü'nün en popüler yüzme alanlarından biridir. Sığ ve ılık göl suyu, ince kumlu plajı ve çevresindeki doğal güzelliklerle hem yerli hem de yabancı ziyaretçilerin ilgisini çeker. Piknik alanları, duşlar, şezlonglar ve kamp alanları gibi olanaklara sahiptir. Ayrıca bungalov konaklama imkanları da sunar.",
+      "en": "Located in Eğirdir, Isparta, Altınkum Beach is one of the most popular swimming areas of Lake Eğirdir. Its shallow and warm lake water, fine sandy beach, and scenic surroundings attract both local and foreign visitors. Facilities include picnic areas, showers, sunbeds, and camping zones. Bungalow accommodations are also available.",
+      "de": "Der Altınkum Strand in Eğirdir, Isparta, ist eines der beliebtesten Badegebiete des Eğirdir-Sees. Mit flachem, warmem Wasser, einem feinen Sandstrand und schöner Natur zieht er viele Besucher an. Es gibt Picknickbereiche, Duschen, Liegestühle und Campingmöglichkeiten. Auch Bungalows stehen zur Übernachtung zur Verfügung."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Göl kenarında dinlenme",
+        "Kamp yapma",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Swimming",
+        "Relaxing by the lake",
+        "Camping",
+        "Photography"
+      ],
+      "de": [
+        "Schwimmen",
+        "Am See entspannen",
+        "Camping",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://www.kulturportali.gov.tr/repoKulturPortali/large/13042018/b446de3c-73db-4fa0-9cf0-8c3d29e9f0d5.jpg",
+      "https://www.hepsibungalov.com/wp-content/uploads/2023/06/egirdir-altinkum-plaji.jpg"
+    ]
+  },
+  {
+    "slug": "zindan-magarasi",
+    "name": {
+      "tr": "Zindan Mağarası",
+      "en": "Zindan Cave",
+      "de": "Zindan Höhle"
+    },
+    "latitude": 37.81179,
+    "longitude": 31.08504,
+    "description": {
+      "tr": "Zindan Mağarası, Isparta ilinin Aksu ilçesinde yer alan doğal bir oluşumdur. Mağara, tarihi ve doğal yapısıyla dikkat çeker ve\ndaha çok doğa severlerin ilgisini çeker. Zindan Mağarası, görsel olarak etkileyici sarkıtlar, dikitler ve geniş odalarla ünlüdür.\nÇevresindeki doğa ile birleşerek ziyaretçilerine keşif dolu bir deneyim sunar.\n",
+      "en": "Zindan Cave is a natural formation located in the Aksu district of Isparta province. The cave is notable for its historical and natural features and attracts nature lovers. Zindan Cave is famous for its visually striking stalactites, stalagmites, and large chambers. It offers visitors an exploratory experience as it blends with the surrounding nature.\n",
+      "de": "Die Zindan-Höhle ist eine natürliche Formation im Landkreis Aksu in der Provinz Isparta. Die Höhle zeichnet sich durch ihre historischen und natürlichen Merkmale aus und zieht vor allem Naturliebhaber an. Die Zindan-Höhle ist berühmt für ihre beeindruckenden Stalaktiten, Stalagmiten und großen Kammern. Sie bietet den Besuchern ein Entdeckungserlebnis, das sich mit der umliegenden Natur verbindet.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağara içinde keşif yapmak",
+        "Doğa yürüyüşleri yapmak",
+        "Fotografçılık ve doğa fotoğrafları çekmek"
+      ],
+      "en": [
+        "Explore the cave",
+        "Hiking",
+        "Photography and nature photography"
+      ],
+      "de": [
+        "Die Höhle erkunden",
+        "Wandern",
+        "Fotografie und Naturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/zindan_magarasi.jpg",
+      "https://example.com/zindan_magarasi_2.jpg"
+    ]
+  },
+  {
+    "slug": "melikler-yaylasi",
+    "name": {
+      "tr": "Melikler Yaylası",
+      "en": "Melikler Plateau",
+      "de": "Melikler Hochland"
+    },
+    "latitude": 37.70732,
+    "longitude": 31.29129,
+    "description": {
+      "tr": "Melikler Yaylası, Isparta ilinin Yenişarbademli ilçesinde yer alan, doğa severler için ideal bir yayladır. Toros Dağları'nın eteklerinde bulunan bu yayla, serin havası, yeşil doğası ve huzurlu atmosferi ile ünlüdür. Ziyaretçiler, burada doğa yürüyüşleri yapabilir, kamp kurabilir ve bölgenin eşsiz güzelliklerinin tadını çıkarabilirler.\n\nMelikler Yaylası, aynı zamanda bölgenin geleneksel yaşam tarzını keşfetmek isteyenler için harika bir yerdir. Yaylada piknik yapmak, gölet etrafında vakit geçirmek veya sadece doğanın sunduğu güzelliklere hayran kalmak mümkündür.\n",
+      "en": "Melikler Plateau is an ideal plateau for nature lovers, located in the Yenişarbademli district of Isparta province. Located at the foot of the Taurus Mountains, this plateau is famous for its cool air, green nature, and peaceful atmosphere. Visitors can go hiking, camp, and enjoy the unique beauty of the region.\n\nMelikler Plateau is also a great place for those who want to explore the traditional lifestyle of the region. It is possible to have a picnic, spend time around the pond, or simply admire the beauty of nature.\n",
+      "de": "Das Melikler-Plateau ist ein ideales Hochland für Naturliebhaber, das im Bezirk Yenişarbademli in der Provinz Isparta liegt. Am Fuße des Taurusgebirges gelegen, ist dieses Hochland berühmt für seine kühle Luft, die grüne Natur und die friedliche Atmosphäre. Besucher können wandern, campen und die einzigartige Schönheit der Region genießen.\n\nDas Melikler-Plateau ist auch ein großartiger Ort für diejenigen, die den traditionellen Lebensstil der Region entdecken möchten. Hier kann man ein Picknick machen, Zeit rund um den Teich verbringen oder einfach die Schönheit der Natur bewundern.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Kamp kurmak",
+        "Piknik yapmak",
+        "Fotoğraf çekmek",
+        "Bölgeyi keşfetmek"
+      ],
+      "en": [
+        "Hiking",
+        "Camping",
+        "Picnicking",
+        "Photography",
+        "Exploring the area"
+      ],
+      "de": [
+        "Wandern",
+        "Zelten",
+        "Picknick",
+        "Fotografie",
+        "Die Gegend erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "yayla"
+      ],
+      "en": [
+        "plateau"
+      ],
+      "de": [
+        "hochland"
+      ]
+    },
+    "images": [
+      "https://example.com/melikler_yaylasi_1.jpg",
+      "https://example.com/melikler_yaylasi_2.jpg"
+    ]
+  },
+  {
+    "slug": "pinargozu-magarasi",
+    "name": {
+      "tr": "Pınargözü Mağarası",
+      "en": "Pinargözü Cave",
+      "de": "Pinargözü Höhle"
+    },
+    "latitude": 37.6952,
+    "longitude": 31.30922,
+    "description": {
+      "tr": "Pınargözü Mağarası, Isparta'nın Yenişarbademli ilçesinde, Toros Dağları'nın eteklerinde yer alan etkileyici bir yer altı yapısıdır.\nMağara, büyük galeriler, sarkıtlar ve dikitler ile dikkat çeker. Ziyaretçilere, doğa yürüyüşleri ve mağara keşifleri yapmak için mükemmel bir fırsat sunar.\n",
+      "en": "Pinargözü Cave is an impressive underground structure located in the Yenişarbademli district of Isparta, at the foothills of the Taurus Mountains. The cave features large galleries, stalactites, and stalagmites. It offers visitors an excellent opportunity to go hiking and explore the cave.\n",
+      "de": "Die Pinargözü-Höhle ist eine beeindruckende unterirdische Struktur im Bezirk Yenişarbademli in Isparta, am Fuß des Taurusgebirges. Die Höhle zeichnet sich durch große Galerien, Stalaktiten und Stalagmiten aus. Sie bietet den Besuchern eine ausgezeichnete Gelegenheit, zu wandern und die Höhle zu erkunden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağara gezisi yapmak",
+        "Doğa yürüyüşü yapmak",
+        "Fotoğraf çekmek",
+        "Biyolojik çeşitliliği gözlemlemek"
+      ],
+      "en": [
+        "Cave tour",
+        "Hiking",
+        "Photography",
+        "Observing biodiversity"
+      ],
+      "de": [
+        "Höhlenbesichtigung",
+        "Wandern",
+        "Fotografie",
+        "Biodiversität beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/pinargozu_magarasi.jpg"
+    ]
+  },
+  {
+    "slug": "kizildag-milli-parki",
+    "name": {
+      "tr": "Kızıldağ Milli Parkı",
+      "en": "Kızıldağ National Park",
+      "de": "Kızıldağ Nationalpark"
+    },
+    "latitude": 37.73892,
+    "longitude": 31.35936,
+    "description": {
+      "tr": "Kızıldağ Milli Parkı, doğal zenginlikleriyle bilinen bir yerdir. Yüksek dağları, ormanları ve çeşitli vahşi yaşamı ile doğa severler için ideal bir bölgedir.\n",
+      "en": "Kızıldağ National Park is a place known for its natural wealth. With its high mountains, forests, and diverse wildlife, it is an ideal area for nature lovers.\n",
+      "de": "Der Kızıldağ Nationalpark ist ein Ort, der für seinen natürlichen Reichtum bekannt ist. Mit seinen hohen Bergen, Wäldern und einer vielfältigen Tierwelt ist es ein ideales Gebiet für Naturliebhaber.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Kamp yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Hiking",
+        "Camping",
+        "Photography"
+      ],
+      "de": [
+        "Wandern",
+        "Campen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kizildag_milli_parki.jpg"
+    ]
+  },
+  {
+    "slug": "isparta-muzesi",
+    "name": {
+      "tr": "Isparta Müzesi",
+      "en": "Isparta Museum",
+      "de": "Isparta Museum"
+    },
+    "latitude": 37.77127,
+    "longitude": 30.5584,
+    "description": {
+      "tr": "Isparta Müzesi, bölgenin tarihine ışık tutan önemli bir müzedir. Arkeolojik ve etnografik eserlerle doludur.\n",
+      "en": "Isparta Museum is an important museum that sheds light on the history of the region. It is filled with archaeological and ethnographic artifacts.\n",
+      "de": "Das Isparta-Museum ist ein wichtiges Museum, das einen Einblick in die Geschichte der Region gibt. Es ist mit archäologischen und ethnografischen Artefakten gefüllt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi yapmak",
+        "Tarihi eserleri incelemek",
+        "Kültürel geziler yapmak"
+      ],
+      "en": [
+        "Museum tour",
+        "Examining historical artifacts",
+        "Cultural tours"
+      ],
+      "de": [
+        "Museumsführung",
+        "Untersuchung historischer Artefakte",
+        "Kulturelle Touren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/isparta_muzesi.jpg"
+    ]
+  },
+  {
+    "slug": "lavanta-bahceleri",
+    "name": {
+      "tr": "Lavanta Bahçeleri",
+      "en": "Lavender Gardens",
+      "de": "Lavendelgärten"
+    },
+    "latitude": 37.90875,
+    "longitude": 30.28529,
+    "description": {
+      "tr": "Isparta, lavanta üretimiyle ünlüdür. Özellikle yaz aylarında lavanta bahçelerinde muazzam bir manzara eşliğinde gezilebilir.\n",
+      "en": "Isparta is famous for its lavender production. Especially during the summer months, you can walk through the lavender gardens with an amazing view.\n",
+      "de": "Isparta ist berühmt für seine Lavendelproduktion. Besonders in den Sommermonaten kann man durch die Lavendelfelder mit einer erstaunlichen Aussicht spazieren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Lavanta tarlalarını gezmek",
+        "Lavanta fotoğrafları çekmek",
+        "Lavanta ürünlerini almak"
+      ],
+      "en": [
+        "Walk through lavender fields",
+        "Take lavender photos",
+        "Buy lavender products"
+      ],
+      "de": [
+        "Durch Lavendelfelder spazieren",
+        "Lavendelfotos machen",
+        "Lavendelprodukte kaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lavanta_bahceleri.jpg"
+    ]
+  },
+  {
+    "slug": "egirdir-golu",
+    "name": {
+      "tr": "Eğirdir Gölü",
+      "en": "Lake Eğirdir",
+      "de": "Eğirdir See"
+    },
+    "latitude": 37.87679,
+    "longitude": 30.85291,
+    "description": {
+      "tr": "Eğirdir Gölü, Isparta'nın en büyük göllerinden biridir ve çevresinde yürüyüş yapabileceğiniz sakin alanlar bulunur. Ayrıca gölde tekne turları da yapılabilir.\n",
+      "en": "Lake Eğirdir is one of the largest lakes in Isparta, and there are peaceful areas around it where you can walk. Additionally, boat tours can also be taken on the lake.\n",
+      "de": "Der Eğirdir-See ist einer der größten Seen in Isparta, und es gibt ruhige Bereiche rund um den See, in denen man spazieren gehen kann. Außerdem können auf dem See Bootstouren unternommen werden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu yapmak",
+        "Göl etrafında yürüyüş yapmak",
+        "Piknik yapmak"
+      ],
+      "en": [
+        "Take a boat tour",
+        "Walk around the lake",
+        "Have a picnic"
+      ],
+      "de": [
+        "Bootstour machen",
+        "Am See spazieren gehen",
+        "Picknick machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/egirdir_golu.jpg"
+    ]
+  },
+  {
+    "slug": "yalvac-antik-tiyatrosu",
+    "name": {
+      "tr": "Yalvaç Antik Tiyatrosu",
+      "en": "Yalvaç Ancient Theatre",
+      "de": "Yalvaç Antikes Theater"
+    },
+    "latitude": 38.30541,
+    "longitude": 31.19039,
+    "description": {
+      "tr": "Yalvaç ilçesinde bulunan bu antik tiyatro, Roma dönemine ait önemli bir yapıdır. Burası tarih meraklıları için harika bir ziyarettir.\n",
+      "en": "This ancient theatre in Yalvaç district is an important structure from the Roman period. It is a great visit for history enthusiasts.\n",
+      "de": "Dieses antike Theater im Bezirk Yalvaç ist ein wichtiges Bauwerk aus der Römerzeit. Es ist ein großartiger Ort für Geschichtsinteressierte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Antik tiyatroyu keşfetmek",
+        "Tarihi kalıntıları incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Explore the ancient theatre",
+        "Examine historical ruins",
+        "Take photos"
+      ],
+      "de": [
+        "Das antike Theater erkunden",
+        "Historische Ruinen untersuchen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/yalvac_antik_tiyatrosu.jpg"
+    ]
+  },
+  {
+    "slug": "isparta-tarihi-carsisi",
+    "name": {
+      "tr": "Isparta Tarihi Çarşısı",
+      "en": "Isparta Historical Bazaar",
+      "de": "Isparta Historischer Basar"
+    },
+    "latitude": 37.76398,
+    "longitude": 30.55517,
+    "description": {
+      "tr": "Isparta'nın merkezinde yer alan bu tarihi çarşı, geleneksel el sanatları ve yöresel ürünler ile ünlüdür.\n",
+      "en": "Located in the center of Isparta, this historical bazaar is famous for its traditional handicrafts and local products.\n",
+      "de": "Dieser historische Basar im Zentrum von Isparta ist berühmt für seine traditionellen Handwerkskunst und lokalen Produkte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yerli ürünler almak",
+        "Alışveriş yapmak",
+        "Eski çarşı atmosferini yaşamak"
+      ],
+      "en": [
+        "Buy local products",
+        "Shop",
+        "Experience the old bazaar atmosphere"
+      ],
+      "de": [
+        "Einheimische Produkte kaufen",
+        "Einkaufen",
+        "Die Atmosphäre des alten Basars erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/isparta_tarihi_carsisi.jpg"
+    ]
+  }
+]

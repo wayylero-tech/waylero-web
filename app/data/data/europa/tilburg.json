@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "textile-museum",
+    "name": {
+      "tr": "Textile Museum",
+      "en": "Textile Museum",
+      "de": "Textilmuseum"
+    },
+    "latitude": 51.559,
+    "longitude": 5.0844,
+    "description": {
+      "tr": "Textile Museum, Tilburg'un tekstil endüstrisindeki mirasını sergileyen bir müzedir. Üretim süreçlerine dair etkileşimli sergiler bulunur.",
+      "en": "The Textile Museum showcases Tilburg's textile industry heritage with interactive exhibits about the production process.",
+      "de": "Das Textilmuseum zeigt das Erbe der Textilindustrie von Tilburg mit interaktiven Ausstellungen zum Produktionsprozess."
+    },
+    "activities": {
+      "tr": [
+        "Tekstil üretimi hakkında bilgi edinme",
+        "Etkileşimli sergilere katılma"
+      ],
+      "en": [
+        "Learn about textile production",
+        "Engage in interactive exhibits"
+      ],
+      "de": [
+        "Mehr über die Textilproduktion erfahren",
+        "An interaktiven Ausstellungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/textile_museum.jpg"
+    ]
+  },
+  {
+    "slug": "spoorpark",
+    "name": {
+      "tr": "Spoorpark",
+      "en": "Spoorpark",
+      "de": "Spoorpark"
+    },
+    "latitude": 51.5611,
+    "longitude": 5.0906,
+    "description": {
+      "tr": "Spoorpark, Tilburg'da büyük bir park alanıdır. Bisiklet yolları ve yeşil alanları ile açık hava etkinlikleri için mükemmel bir yerdir.",
+      "en": "Spoorpark is a large park in Tilburg, perfect for outdoor activities with bike paths and green spaces.",
+      "de": "Spoorpark ist ein großer Park in Tilburg, perfekt für Outdoor-Aktivitäten mit Radwegen und Grünflächen."
+    },
+    "activities": {
+      "tr": [
+        "Bisiklet turu yapma",
+        "Parkta dinlenme"
+      ],
+      "en": [
+        "Take a bike tour",
+        "Relax in the park"
+      ],
+      "de": [
+        "Eine Radtour machen",
+        "Im Park entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/spoorpark.jpg"
+    ]
+  }
+]

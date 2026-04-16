@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "mendenhall-buzulu",
+    "name": {
+      "tr": "Mendenhall Buzulu",
+      "en": "Mendenhall Glacier",
+      "de": "Mendenhall Gletscher"
+    },
+    "latitude": 58.4436,
+    "longitude": -134.6971,
+    "description": {
+      "tr": "Juneau'da yer alan Mendenhall Buzulu, etkileyici manzaralar ve doğa yürüyüşleri ile ünlüdür. Ziyaretçiler burada buzulu keşfetmek için çeşitli yolları takip edebilir.",
+      "en": "The Mendenhall Glacier in Juneau is known for its breathtaking views and hiking opportunities. Visitors can explore the glacier via various trails.",
+      "de": "Der Mendenhall-Gletscher in Juneau ist bekannt für seine atemberaubenden Ausblicke und Wandermöglichkeiten. Besucher können den Gletscher über verschiedene Wege erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Buzulu keşfetmek",
+        "Doğal yürüyüş yollarında yürümek"
+      ],
+      "en": [
+        "Explore the glacier",
+        "Hike on natural trails"
+      ],
+      "de": [
+        "Den Gletscher erkunden",
+        "Wandern auf natürlichen Wegen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mendenhall_glacier_juneau.jpg"
+    ]
+  },
+  {
+    "slug": "mount-roberts-tramway",
+    "name": {
+      "tr": "Mount Roberts Tramway",
+      "en": "Mount Roberts Tramway",
+      "de": "Mount Roberts Tramway"
+    },
+    "latitude": 58.3019,
+    "longitude": -134.4197,
+    "description": {
+      "tr": "Mount Roberts Tramway, Juneau'nun harika manzaralarını keşfetmek için bir teleferik yolculuğu sunar. Zirveye çıkarak Alaska'nın muazzam doğal güzelliklerini görebilirsiniz.",
+      "en": "The Mount Roberts Tramway offers a cable car ride to explore the stunning views of Juneau. From the summit, visitors can see breathtaking natural landscapes of Alaska.",
+      "de": "Die Mount Roberts Tramway bietet eine Seilbahnfahrt, um die atemberaubenden Ausblicke auf Juneau zu entdecken. Vom Gipfel aus können Besucher die atemberaubenden Naturlandschaften Alaskas sehen."
+    },
+    "activities": {
+      "tr": [
+        "Teleferikle zirveye çıkmak",
+        "Manzarayı izlemek"
+      ],
+      "en": [
+        "Take the tram to the summit",
+        "Enjoy the views"
+      ],
+      "de": [
+        "Mit der Seilbahn zum Gipfel fahren",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_roberts_tramway.jpg"
+    ]
+  },
+  {
+    "slug": "glacier-gardens-rainforest-adventure",
+    "name": {
+      "tr": "Glacier Gardens Rainforest Adventure",
+      "en": "Glacier Gardens Rainforest Adventure",
+      "de": "Glacier Gardens Rainforest Adventure"
+    },
+    "latitude": 58.3924,
+    "longitude": -134.4605,
+    "description": {
+      "tr": "Bu benzersiz park, tropikal yağmur ormanını andıran bir atmosfere sahiptir ve ziyaretçilere doğayla iç içe bir keşif deneyimi sunar.",
+      "en": "Glacier Gardens offers a rainforest-like atmosphere and provides visitors with a unique experience to explore nature up close.",
+      "de": "Die Glacier Gardens bieten eine regenwaldähnliche Atmosphäre und bieten den Besuchern ein einzigartiges Erlebnis, um die Natur hautnah zu erleben."
+    },
+    "activities": {
+      "tr": [
+        "Yağmur ormanını keşfetmek",
+        "Doğal bitki örtüsünü görmek"
+      ],
+      "en": [
+        "Explore the rainforest",
+        "See the natural flora"
+      ],
+      "de": [
+        "Den Regenwald erkunden",
+        "Die natürliche Flora sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/glacier_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "alaska-state-museum",
+    "name": {
+      "tr": "Alaska State Museum",
+      "en": "Alaska State Museum",
+      "de": "Alaska State Museum"
+    },
+    "latitude": 58.2995,
+    "longitude": -134.4207,
+    "description": {
+      "tr": "Alaska Eyalet Müzesi, Alaska'nın tarihini, kültürünü ve sanatını keşfetmek için harika bir yerdir. Ziyaretçiler, eyaletin geçmişi ve bugünü hakkında bilgiler edinir.",
+      "en": "The Alaska State Museum is a great place to explore the history, culture, and art of Alaska. Visitors learn about the state's past and present.",
+      "de": "Das Alaska State Museum ist ein großartiger Ort, um die Geschichte, Kultur und Kunst Alaskas zu entdecken. Besucher erfahren mehr über die Vergangenheit und Gegenwart des Staates."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Tarihi sergileri görmek"
+      ],
+      "en": [
+        "Explore art galleries",
+        "View historical exhibits"
+      ],
+      "de": [
+        "Kunstgalerien erkunden",
+        "Historische Ausstellungen besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/alaska_state_museum.jpg"
+    ]
+  },
+  {
+    "slug": "eaglecrest-ski-area",
+    "name": {
+      "tr": "Eaglecrest Ski Area",
+      "en": "Eaglecrest Ski Area",
+      "de": "Eaglecrest Ski Area"
+    },
+    "latitude": 58.3574,
+    "longitude": -134.5284,
+    "description": {
+      "tr": "Eaglecrest Kayak Merkezi, kayakçılar ve dağcılar için mükemmel bir yerdir. Kış aylarında bölge, kayak yapmayı sevenler için ideal bir ortam sunar.",
+      "en": "Eaglecrest Ski Area is perfect for skiers and mountain enthusiasts. During winter months, it provides a great setting for skiing.",
+      "de": "Das Eaglecrest Ski Area ist perfekt für Skifahrer und Bergbegeisterte. In den Wintermonaten bietet es eine großartige Kulisse für das Skifahren."
+    },
+    "activities": {
+      "tr": [
+        "Kayak yapmak",
+        "Dağ yürüyüşleri yapmak"
+      ],
+      "en": [
+        "Ski",
+        "Go mountain hiking"
+      ],
+      "de": [
+        "Skifahren",
+        "Bergwandern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/eaglecrest_ski.jpg"
+    ]
+  }
+]

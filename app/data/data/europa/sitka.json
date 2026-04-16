@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "sitka-national-historical-park",
+    "name": {
+      "tr": "Sitka National Historical Park",
+      "en": "Sitka National Historical Park",
+      "de": "Sitka National Historical Park"
+    },
+    "latitude": 57.05,
+    "longitude": -135.33,
+    "description": {
+      "tr": "Sitka Ulusal Tarihi Parkı, Alaska'nın tarihini ve kültürünü yansıtan bir alan olup, bölgedeki Tlingit yerli halkının mirasını keşfetmek için harika bir yerdir.",
+      "en": "Sitka National Historical Park reflects the history and culture of Alaska, and it's a great place to explore the heritage of the Tlingit Native people.",
+      "de": "Der Sitka National Historical Park spiegelt die Geschichte und Kultur Alaskas wider und ist ein großartiger Ort, um das Erbe der Tlingit-Indianer zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi parkı gezmek",
+        "Tlingit kültürünü öğrenmek"
+      ],
+      "en": [
+        "Explore the historical park",
+        "Learn about Tlingit culture"
+      ],
+      "de": [
+        "Den historischen Park erkunden",
+        "Mehr über die Kultur der Tlingit erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sitka_national_park.jpg"
+    ]
+  },
+  {
+    "slug": "russian-bishop-s-house",
+    "name": {
+      "tr": "Russian Bishop's House",
+      "en": "Russian Bishop's House",
+      "de": "Russian Bishop's House"
+    },
+    "latitude": 57.0524,
+    "longitude": -135.3344,
+    "description": {
+      "tr": "Russian Bishop's House, Sitka'daki tarihi bir yapıdır ve bölgedeki Rus Ortodoks Kilisesi'nin mirasını keşfetmek için ziyaret edilebilir.",
+      "en": "The Russian Bishop's House is a historic building in Sitka, offering a chance to explore the heritage of the Russian Orthodox Church in the region.",
+      "de": "Das Russian Bishop's House ist ein historisches Gebäude in Sitka und bietet die Möglichkeit, das Erbe der russisch-orthodoxen Kirche in der Region zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıyı gezmek",
+        "Rus Ortodoks mirasını incelemek"
+      ],
+      "en": [
+        "Explore the historic building",
+        "Study Russian Orthodox heritage"
+      ],
+      "de": [
+        "Das historische Gebäude erkunden",
+        "Das russisch-orthodoxe Erbe studieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/russian_bishops_house.jpg"
+    ]
+  },
+  {
+    "slug": "baranof-castle",
+    "name": {
+      "tr": "Baranof Castle",
+      "en": "Baranof Castle",
+      "de": "Baranof Castle"
+    },
+    "latitude": 57.0556,
+    "longitude": -135.3308,
+    "description": {
+      "tr": "Baranof Kalesi, Sitka'nın tarihi bir kalesidir ve Alaska'nın erken dönemlerine dair önemli kalıntılar sunar.",
+      "en": "Baranof Castle is a historical castle in Sitka, offering important remnants from Alaska's early history.",
+      "de": "Das Baranof Castle ist eine historische Burg in Sitka und bietet wichtige Überreste aus der frühen Geschichte Alaskas."
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi yapmak",
+        "Alaska tarihini öğrenmek"
+      ],
+      "en": [
+        "Tour the castle",
+        "Learn about Alaska's history"
+      ],
+      "de": [
+        "Die Burg besichtigen",
+        "Mehr über die Geschichte Alaskas lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/baranof_castle.jpg"
+    ]
+  },
+  {
+    "slug": "sitka-sound-science-center",
+    "name": {
+      "tr": "Sitka Sound Science Center",
+      "en": "Sitka Sound Science Center",
+      "de": "Sitka Sound Science Center"
+    },
+    "latitude": 57.0569,
+    "longitude": -135.3386,
+    "description": {
+      "tr": "Sitka Sound Science Center, Alaska'nın deniz yaşamını ve doğal çevresini keşfetmek için harika bir yerdir. Ziyaretçiler, okyanus yaşamını öğrenebilir.",
+      "en": "The Sitka Sound Science Center is a great place to explore Alaska's marine life and natural environment. Visitors can learn about ocean life.",
+      "de": "Das Sitka Sound Science Center ist ein großartiger Ort, um das Meeresleben und die natürliche Umwelt Alaskas zu erkunden. Besucher können mehr über das Leben im Ozean erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Deniz yaşamını keşfetmek",
+        "Okyanus hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Explore marine life",
+        "Learn about the ocean"
+      ],
+      "de": [
+        "Meeresleben erkunden",
+        "Mehr über den Ozean erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sitka_science_center.jpg"
+    ]
+  },
+  {
+    "slug": "totem-park",
+    "name": {
+      "tr": "Totem Park",
+      "en": "Totem Park",
+      "de": "Totem Park"
+    },
+    "latitude": 57.0506,
+    "longitude": -135.3293,
+    "description": {
+      "tr": "Totem Park, Sitka'daki Tlingit halkının kültürünü ve tarihini keşfetmek için harika bir yerdir. Burada çok sayıda totem direği bulunmaktadır.",
+      "en": "Totem Park in Sitka is a great place to learn about the culture and history of the Tlingit people. The park contains numerous totem poles.",
+      "de": "Der Totem Park in Sitka ist ein großartiger Ort, um mehr über die Kultur und Geschichte der Tlingit zu erfahren. Der Park enthält zahlreiche Totempfähle."
+    },
+    "activities": {
+      "tr": [
+        "Totem direklerini görmek",
+        "Tlingit kültürünü öğrenmek"
+      ],
+      "en": [
+        "See totem poles",
+        "Learn about Tlingit culture"
+      ],
+      "de": [
+        "Totempfähle sehen",
+        "Mehr über die Kultur der Tlingit erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/totem_park.jpg"
+    ]
+  }
+]

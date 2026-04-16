@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "federation-square",
+    "name": {
+      "tr": "Federation Square",
+      "en": "Federation Square",
+      "de": "Federation Square"
+    },
+    "latitude": -37.8179,
+    "longitude": 144.9691,
+    "description": {
+      "tr": "Federation Square, Melbourne’un kalbinde yer alan, kafeler, restoranlar, galeriler ve kültürel etkinliklerle dolu büyük bir meydandır. Modern mimarisi ve açık hava etkinlikleriyle ünlüdür.",
+      "en": "Federation Square is a large public square in the heart of Melbourne, filled with cafes, restaurants, galleries, and cultural events. It is known for its modern architecture and outdoor events.",
+      "de": "Der Federation Square ist ein großer öffentlicher Platz im Herzen von Melbourne, der mit Cafés, Restaurants, Galerien und kulturellen Veranstaltungen gefüllt ist. Er ist bekannt für seine moderne Architektur und seine Freiluftveranstaltungen."
+    },
+    "activities": {
+      "tr": [
+        "Galerileri gezmek",
+        "Kafelerde oturmak",
+        "Kültürel etkinliklere katılmak"
+      ],
+      "en": [
+        "Exploring the galleries",
+        "Sitting in the cafes",
+        "Attending cultural events"
+      ],
+      "de": [
+        "Die Galerien erkunden",
+        "In den Cafés sitzen",
+        "An kulturellen Veranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/federation_square.jpg"
+    ]
+  },
+  {
+    "slug": "melbourne-zoo",
+    "name": {
+      "tr": "Melbourne Zoo",
+      "en": "Melbourne Zoo",
+      "de": "Melbourne Zoo"
+    },
+    "latitude": -37.7986,
+    "longitude": 144.9607,
+    "description": {
+      "tr": "Melbourne Zoo, Avustralya’nın çeşitli vahşi hayvanlarını görebileceğiniz bir hayvanat bahçesidir. Dünyanın dört bir yanından gelen hayvanlarla tanışma fırsatı sunar.",
+      "en": "Melbourne Zoo is a zoo where you can see various wild animals from Australia. It offers an opportunity to meet animals from all around the world.",
+      "de": "Der Melbourne Zoo ist ein Zoo, in dem Sie verschiedene Wildtiere aus Australien sehen können. Es bietet die Möglichkeit, Tiere aus der ganzen Welt zu treffen."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları görmek",
+        "Hayvanat bahçesinde gezmek"
+      ],
+      "en": [
+        "Seeing the animals",
+        "Exploring the zoo"
+      ],
+      "de": [
+        "Die Tiere sehen",
+        "Den Zoo erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "hayvanat bahçesi"
+      ],
+      "en": [
+        "zoo"
+      ],
+      "de": [
+        "zoo"
+      ]
+    },
+    "images": [
+      "https://example.com/melbourne_zoo.jpg"
+    ]
+  },
+  {
+    "slug": "national-gallery-of-victoria",
+    "name": {
+      "tr": "National Gallery of Victoria",
+      "en": "National Gallery of Victoria",
+      "de": "National Gallery of Victoria"
+    },
+    "latitude": -37.8297,
+    "longitude": 144.9696,
+    "description": {
+      "tr": "National Gallery of Victoria, Avustralya’nın en büyük sanat galerilerinden biridir. Hem Avustralya hem de dünya sanatından önemli eserler barındırır.",
+      "en": "The National Gallery of Victoria is one of the largest art galleries in Australia, housing significant works from both Australian and international artists.",
+      "de": "Die National Gallery of Victoria ist eines der größten Kunstmuseen Australiens und beherbergt bedeutende Werke sowohl australischer als auch internationaler Künstler."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini incelemek",
+        "Galeriyi gezmek"
+      ],
+      "en": [
+        "Exploring the art collections",
+        "Visiting the gallery"
+      ],
+      "de": [
+        "Die Kunstsammlungen erkunden",
+        "Die Galerie besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/national_gallery_victoria.jpg"
+    ]
+  },
+  {
+    "slug": "eureka-skydeck",
+    "name": {
+      "tr": "Eureka Skydeck",
+      "en": "Eureka Skydeck",
+      "de": "Eureka Skydeck"
+    },
+    "latitude": -37.82,
+    "longitude": 144.965,
+    "description": {
+      "tr": "Eureka Skydeck, Melbourne’un 360 derece manzarasını sunan dev bir gözlem kulesidir. Şehri yüksekten izleyebileceğiniz bu kule, eşsiz bir deneyim sunar.",
+      "en": "The Eureka Skydeck is a giant observation tower offering 360-degree views of Melbourne. It provides a unique experience to view the city from above.",
+      "de": "Das Eureka Skydeck ist ein riesiger Aussichtsturm, der einen 360-Grad-Blick auf Melbourne bietet. Es bietet ein einzigartiges Erlebnis, die Stadt von oben zu betrachten."
+    },
+    "activities": {
+      "tr": [
+        "Gözlem kulesinden manzarayı izlemek",
+        "Şehri yüksekten görmek"
+      ],
+      "en": [
+        "Watching the view from the observation deck",
+        "Seeing the city from above"
+      ],
+      "de": [
+        "Den Blick vom Aussichtsturm genießen",
+        "Die Stadt von oben sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/eureka_skydeck.jpg"
+    ]
+  },
+  {
+    "slug": "phillip-island",
+    "name": {
+      "tr": "Phillip Island",
+      "en": "Phillip Island",
+      "de": "Phillip Island"
+    },
+    "latitude": -38.4902,
+    "longitude": 145.0314,
+    "description": {
+      "tr": "Phillip Island, özellikle gece yapılan penguen yürüyüşleri ile ünlüdür. Küçük penguenlerin doğal ortamlarında görülebileceği bu ada, doğa severler için harika bir yerdir.",
+      "en": "Phillip Island is famous for its nightly penguin walks. The island offers a great opportunity to see little penguins in their natural habitat, making it a perfect spot for nature lovers.",
+      "de": "Phillip Island ist bekannt für seine nächtlichen Pinguinwanderungen. Die Insel bietet eine großartige Gelegenheit, kleine Pinguine in ihrem natürlichen Lebensraum zu sehen, was sie zu einem perfekten Ort für Naturliebhaber macht."
+    },
+    "activities": {
+      "tr": [
+        "Penguenleri izlemek",
+        "Adada doğa yürüyüşleri yapmak"
+      ],
+      "en": [
+        "Watching penguins",
+        "Hiking on the island"
+      ],
+      "de": [
+        "Pinguine beobachten",
+        "Wandern auf der Insel"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/phillip_island.jpg"
+    ]
+  }
+]

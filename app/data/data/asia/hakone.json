@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "hakone-onsenleri",
+    "name": {
+      "tr": "Hakone Onsenleri",
+      "en": "Hakone Hot Springs",
+      "de": "Hakone-Onsen"
+    },
+    "latitude": 35.2333,
+    "longitude": 139.1033,
+    "description": {
+      "tr": "Hakone, Japonya'nın en ünlü kaplıca bölgelerinden biridir. Dağlarla çevrili bu doğal cennet, çok sayıda geleneksel onsen (kaplıca) tesisine ev sahipliği yapar. Hem günübirlik ziyaretçiler hem de konaklamak isteyenler için ideal bir dinlenme yeridir.\n",
+      "en": "Hakone is one of Japan's most famous hot spring areas. Surrounded by mountains, it offers numerous traditional onsen facilities. It's an ideal spot for both day trips and overnight stays.\n",
+      "de": "Hakone ist eines der bekanntesten Thermalgebiete Japans. Umgeben von Bergen bietet es zahlreiche traditionelle Onsen-Einrichtungen. Ideal für Tagesausflüge oder Übernachtungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kaplıca keyfi",
+        "Doğal terapi",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Hot spring bathing",
+        "Natural therapy",
+        "Scenic views"
+      ],
+      "de": [
+        "Thermalbad",
+        "Natürliche Entspannung",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/hakone_onsen.jpg"
+    ]
+  },
+  {
+    "slug": "ashinoko-golu",
+    "name": {
+      "tr": "Ashinoko Gölü",
+      "en": "Lake Ashi (Ashinoko)",
+      "de": "Ashi-See (Ashinoko)"
+    },
+    "latitude": 35.2058,
+    "longitude": 139.0204,
+    "description": {
+      "tr": "Ashinoko Gölü, Hakone bölgesinde Fuji Dağı manzaralı bir krater gölüdür. Göldeki korsan temalı teknelerle yapılan turlar, bölgenin en popüler aktivitelerindendir.\n",
+      "en": "Lake Ashi in Hakone is a crater lake with scenic views of Mt. Fuji. Pirate ship cruises on the lake are one of the most popular activities in the area.\n",
+      "de": "Der Ashi-See in Hakone ist ein Kratersee mit Blick auf den Fuji. Eine der beliebtesten Aktivitäten ist eine Fahrt mit dem Piratenschiff über den See.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu",
+        "Fuji Dağı manzarası",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Boat cruise",
+        "Mount Fuji views",
+        "Photography"
+      ],
+      "de": [
+        "Bootsfahrt",
+        "Blick auf den Fuji",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ashinoko.jpg"
+    ]
+  },
+  {
+    "slug": "hakone-teleferigi-owakudani-vadisi",
+    "name": {
+      "tr": "Hakone Teleferiği & Owakudani Vadisi",
+      "en": "Hakone Ropeway & Owakudani Valley",
+      "de": "Hakone-Seilbahn & Owakudani-Tal"
+    },
+    "latitude": 35.2406,
+    "longitude": 139.0212,
+    "description": {
+      "tr": "Hakone Teleferiği, Ashinoko Gölü'nden Owakudani'ye kadar uzanır ve yol boyunca volkanik manzaralar sunar. Owakudani, hâlen aktif bir volkanik alandır ve ünlü kara yumurtalarıyla (onsen tamago) bilinir.\n",
+      "en": "The Hakone Ropeway runs from Lake Ashi to Owakudani, offering views of volcanic landscapes. Owakudani is an active volcanic valley famous for its black eggs (onsen tamago).\n",
+      "de": "Die Hakone-Seilbahn führt vom Ashi-See nach Owakudani und bietet spektakuläre Ausblicke auf die Vulkanlandschaft. Das aktive Tal Owakudani ist bekannt für seine schwarzen Eier (Onsen-Tamago).\n"
+    },
+    "activities": {
+      "tr": [
+        "Teleferik yolculuğu",
+        "Volkanik alan keşfi",
+        "Yumurta denemek"
+      ],
+      "en": [
+        "Ropeway ride",
+        "Exploring volcanic area",
+        "Tasting eggs"
+      ],
+      "de": [
+        "Seilbahnfahrt",
+        "Vulkanlandschaft erkunden",
+        "Eier probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/owakudani.jpg"
+    ]
+  },
+  {
+    "slug": "hakone-acik-hava-muzesi",
+    "name": {
+      "tr": "Hakone Açık Hava Müzesi",
+      "en": "Hakone Open Air Museum",
+      "de": "Hakone Freilichtmuseum"
+    },
+    "latitude": 35.2485,
+    "longitude": 139.0457,
+    "description": {
+      "tr": "Japonya’nın ilk açık hava sanat müzesi olan bu yer, heykel koleksiyonları ve doğayla iç içe sanat eserleriyle öne çıkar. Picasso Galerisi de dâhildir. Sanat ve doğa tutkunları için eşsiz bir deneyim sunar.\n",
+      "en": "This is Japan’s first open-air museum, known for its impressive sculpture collections and nature-integrated art. It also features the Picasso Pavilion. A must-visit for art and nature lovers.\n",
+      "de": "Das erste Freilichtmuseum Japans präsentiert beeindruckende Skulpturen und Kunstwerke inmitten der Natur. Es umfasst auch die Picasso-Galerie – ein Muss für Kunst- und Naturliebhaber.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi ziyareti",
+        "Heykel inceleme",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Art gallery visit",
+        "Viewing sculptures",
+        "Nature walk"
+      ],
+      "de": [
+        "Galeriebesuch",
+        "Skulpturen betrachten",
+        "Spaziergänge in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/hakone_museum.jpg"
+    ]
+  }
+]

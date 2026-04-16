@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "surfers-paradise",
+    "name": {
+      "tr": "Surfers Paradise",
+      "en": "Surfers Paradise",
+      "de": "Surfers Paradise"
+    },
+    "latitude": -28.0167,
+    "longitude": 153.4,
+    "description": {
+      "tr": "Surfers Paradise, plajları, sörf okulları ve alışveriş merkezleri ile ünlüdür. Aynı zamanda gece hayatı, restoranlar ve kafelerle dolu hareketli bir bölgede yer almaktadır.",
+      "en": "Surfers Paradise is famous for its beaches, surf schools, and shopping malls. It is also a vibrant area filled with nightlife, restaurants, and cafes.",
+      "de": "Surfers Paradise ist bekannt für seine Strände, Surfschulen und Einkaufszentren. Es ist auch ein lebendiges Gebiet voller Nachtleben, Restaurants und Cafés."
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Alışveriş yapmak",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Surfing",
+        "Shopping",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Surfen",
+        "Einkaufen",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/surfers_paradise.jpg"
+    ]
+  },
+  {
+    "slug": "warner-bros-movie-world",
+    "name": {
+      "tr": "Warner Bros. Movie World",
+      "en": "Warner Bros. Movie World",
+      "de": "Warner Bros. Movie World"
+    },
+    "latitude": -27.9385,
+    "longitude": 153.3489,
+    "description": {
+      "tr": "Warner Bros. Movie World, sinema dünyasından ilham almış tema parkları ve eğlenceli aktiviteleri ile ünlüdür. Burada, film temalı sürüşler, gösteriler ve karakterlerle tanışma fırsatları vardır.",
+      "en": "Warner Bros. Movie World is a theme park inspired by the movie world, famous for its thrilling rides, shows, and character meet-and-greets.",
+      "de": "Warner Bros. Movie World ist ein Themenpark, der von der Filmwelt inspiriert ist und für aufregende Fahrgeschäfte, Shows und Treffen mit Charakteren bekannt ist."
+    },
+    "activities": {
+      "tr": [
+        "Tema parklarında gezmek",
+        "Film temalı sürüşlerde eğlenmek",
+        "Gösterileri izlemek"
+      ],
+      "en": [
+        "Exploring theme parks",
+        "Enjoying movie-themed rides",
+        "Watching shows"
+      ],
+      "de": [
+        "Themenparks erkunden",
+        "Fahrgeschäfte mit Filmmotiven genießen",
+        "Shows ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/warner_bros_movie_world.jpg"
+    ]
+  },
+  {
+    "slug": "currumbin-wildlife-sanctuary",
+    "name": {
+      "tr": "Currumbin Wildlife Sanctuary",
+      "en": "Currumbin Wildlife Sanctuary",
+      "de": "Currumbin Wildlife Sanctuary"
+    },
+    "latitude": -28.1458,
+    "longitude": 153.4261,
+    "description": {
+      "tr": "Currumbin Wildlife Sanctuary, koalalar, kangurular ve diğer Avustralya hayvanları ile tanışabileceğiniz büyük bir yaban hayatı parkıdır. Burada, doğa yürüyüşleri ve etkileşimli hayvan gösterileri de düzenlenmektedir.",
+      "en": "Currumbin Wildlife Sanctuary is a large wildlife park where you can meet koalas, kangaroos, and other Australian animals. It also offers nature walks and interactive animal shows.",
+      "de": "Das Currumbin Wildlife Sanctuary ist ein großer Wildpark, in dem Sie Koalas, Kängurus und andere australische Tiere treffen können. Es bietet auch Naturwanderungen und interaktive Tiershows."
+    },
+    "activities": {
+      "tr": [
+        "Koalalarla tanışmak",
+        "Kangurularla vakit geçirmek",
+        "Hayvan gösterilerini izlemek"
+      ],
+      "en": [
+        "Meeting koalas",
+        "Spending time with kangaroos",
+        "Watching animal shows"
+      ],
+      "de": [
+        "Koalas treffen",
+        "Zeit mit Kängurus verbringen",
+        "Tiershows ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/currumbin_wildlife_sanctuary.jpg"
+    ]
+  }
+]

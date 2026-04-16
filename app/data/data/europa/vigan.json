@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "calle-crisologo",
+    "name": {
+      "tr": "Calle Crisologo",
+      "en": "Calle Crisologo",
+      "de": "Calle Crisologo"
+    },
+    "latitude": 17.5708,
+    "longitude": 120.3847,
+    "description": {
+      "tr": "Calle Crisologo, kolonyal döneme ait taş döşemeli sokakları, tarihi evleri ve dükkanları ile ünlüdür. Vigan’ın en ikonik caddelerinden biridir.",
+      "en": "Calle Crisologo is a cobbled street famous for its colonial-era houses, shops, and architecture. It is one of the most iconic streets of Vigan.",
+      "de": "Calle Crisologo ist eine Kopfsteinpflasterstraße, die für ihre Häuser aus der Kolonialzeit, Geschäfte und Architektur bekannt ist. Es ist eine der ikonischsten Straßen von Vigan."
+    },
+    "activities": {
+      "tr": [
+        "Sokakta yürümek",
+        "Tarihi yapıları keşfetmek",
+        "Alışveriş yapmak"
+      ],
+      "en": [
+        "Walking down the street",
+        "Exploring historical buildings",
+        "Shopping"
+      ],
+      "de": [
+        "Die Straße entlang gehen",
+        "Historische Gebäude erkunden",
+        "Einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/calle_crisologo.jpg"
+    ]
+  },
+  {
+    "slug": "st-paul-metropolitan-cathedral",
+    "name": {
+      "tr": "St. Paul Metropolitan Cathedral",
+      "en": "St. Paul Metropolitan Cathedral",
+      "de": "St. Paul Metropolitan Cathedral"
+    },
+    "latitude": 17.5704,
+    "longitude": 120.3842,
+    "description": {
+      "tr": "St. Paul Metropolitan Cathedral, 16. yüzyıldan kalma bir Katolik kilisesidir ve Vigan’daki en önemli dini yapıdır.",
+      "en": "St. Paul Metropolitan Cathedral is a Catholic church built in the 16th century and is the most important religious structure in Vigan.",
+      "de": "Die St. Paul Metropolitan Cathedral ist eine katholische Kirche aus dem 16. Jahrhundert und das wichtigste religiöse Bauwerk in Vigan."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini gezmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the church interior",
+        "Taking photos"
+      ],
+      "de": [
+        "Das Kircheninnere erkunden",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/st_paul_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "vigan-heritage-village",
+    "name": {
+      "tr": "Vigan Heritage Village",
+      "en": "Vigan Heritage Village",
+      "de": "Vigan Heritage Village"
+    },
+    "latitude": 17.5715,
+    "longitude": 120.3841,
+    "description": {
+      "tr": "Vigan Heritage Village, Filipinler’in tarihi ve kültürel mirasını keşfedeceğiniz bir alandır. Kolonyal dönemden kalma yapılarıyla ünlüdür.",
+      "en": "Vigan Heritage Village is an area where you can explore the historical and cultural heritage of the Philippines. It is famous for its colonial-era buildings.",
+      "de": "Das Vigan Heritage Village ist ein Bereich, in dem man das historische und kulturelle Erbe der Philippinen erkunden kann. Es ist bekannt für seine Kolonialbauten."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi binaları gezmek",
+        "Yerel kültürü keşfetmek"
+      ],
+      "en": [
+        "Exploring historical buildings",
+        "Discovering local culture"
+      ],
+      "de": [
+        "Historische Gebäude besichtigen",
+        "Die lokale Kultur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/vigan_heritage_village.jpg"
+    ]
+  }
+]

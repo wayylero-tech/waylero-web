@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "tskaltubo-kaplicalari",
+    "name": {
+      "tr": "Tskaltubo Kaplıcaları",
+      "en": "Tskaltubo Hot Springs",
+      "de": "Tskaltubo-Heilquellen"
+    },
+    "latitude": 42.5972,
+    "longitude": 42.6842,
+    "description": {
+      "tr": "Tskaltubo Kaplıcaları, Gürcistan’ın ünlü bir termal su kaynağı olan tatil beldesidir. Burada bulunan şifalı su kaynakları, sağlık ve dinlenme amacıyla kullanılmaktadır.",
+      "en": "Tskaltubo Hot Springs is a famous thermal spring resort in Georgia. The healing waters here are used for health and relaxation purposes.",
+      "de": "Die Tskaltubo-Heilquellen sind ein berühmtes Thermalquellen-Resort in Georgien. Die Heilquellen werden hier für Gesundheits- und Entspannungszwecke genutzt."
+    },
+    "activities": {
+      "tr": [
+        "Kaplıcalarda dinlenmek",
+        "Termal suyu deneyimlemek"
+      ],
+      "en": [
+        "Relaxing in the hot springs",
+        "Experiencing the thermal water"
+      ],
+      "de": [
+        "Im Thermalbad entspannen",
+        "Das Thermalwasser erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/tskaltubo_hot_springs.jpg"
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "slug": "magellan-s-cross",
+    "name": {
+      "tr": "Magellan’s Cross",
+      "en": "Magellan’s Cross",
+      "de": "Magellan’s Cross"
+    },
+    "latitude": 10.2944,
+    "longitude": 123.8963,
+    "description": {
+      "tr": "Magellan’s Cross, Portekizli kaşif Ferdinand Magellan’ın 1521'de adaya geldiği dönemde dikilen haçtır. Bu tarihi yer, Cebu şehrinin simgelerindendir.",
+      "en": "Magellan’s Cross is a cross erected by Portuguese explorer Ferdinand Magellan during his arrival to the island in 1521. It is one of the symbols of Cebu city.",
+      "de": "Das Magellan's Cross ist ein Kreuz, das vom portugiesischen Entdecker Ferdinand Magellan bei seiner Ankunft auf der Insel im Jahr 1521 errichtet wurde. Es ist eines der Wahrzeichen der Stadt Cebu."
+    },
+    "activities": {
+      "tr": [
+        "Haçın tarihini öğrenmek",
+        "Fotoğraf çekmek",
+        "Tarihi alanı gezmek"
+      ],
+      "en": [
+        "Learning about the history of the cross",
+        "Taking photos",
+        "Exploring the historical site"
+      ],
+      "de": [
+        "Über die Geschichte des Kreuzes lernen",
+        "Fotos machen",
+        "Die historische Stätte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/magellans_cross.jpg"
+    ]
+  },
+  {
+    "slug": "basilica-minore-del-santo-ni-o",
+    "name": {
+      "tr": "Basilica Minore del Santo Niño",
+      "en": "Basilica Minore del Santo Niño",
+      "de": "Basilica Minore del Santo Niño"
+    },
+    "latitude": 10.2921,
+    "longitude": 123.9008,
+    "description": {
+      "tr": "Basilica Minore del Santo Niño, Filipinler’in en eski Katolik kiliselerinden biridir. Santo Niño (Küçük İsa) heykelinin burada muhafaza edilmesiyle ünlüdür.",
+      "en": "Basilica Minore del Santo Niño is one of the oldest Catholic churches in the Philippines. It is famous for housing the Santo Niño (Child Jesus) statue.",
+      "de": "Die Basilica Minore del Santo Niño ist eine der ältesten katholischen Kirchen auf den Philippinen. Sie ist berühmt dafür, die Statue des Santo Niño (Kind Jesus) zu beherbergen."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini gezmek",
+        "Santo Niño heykelini görmek",
+        "Tarihi yapıyı keşfetmek"
+      ],
+      "en": [
+        "Exploring the church interior",
+        "Seeing the Santo Niño statue",
+        "Discovering the historical building"
+      ],
+      "de": [
+        "Das Kircheninnere erkunden",
+        "Die Santo Niño Statue sehen",
+        "Das historische Gebäude entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "Kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/basilica_minore_del_santo_nino.jpg"
+    ]
+  },
+  {
+    "slug": "kawasan-selaleleri",
+    "name": {
+      "tr": "Kawasan Şelaleleri",
+      "en": "Kawasan Falls",
+      "de": "Kawasan Falls"
+    },
+    "latitude": 9.9742,
+    "longitude": 123.5333,
+    "description": {
+      "tr": "Kawasan Şelaleleri, Sulu bölgesinde yer alan bu ünlü şelalelerde yüzme ve kano yapma imkanı sunulmaktadır. Doğal güzellikleri ile ünlüdür.",
+      "en": "Kawasan Falls, located in the Sulu region, offers swimming and kayaking opportunities. It is renowned for its natural beauty.",
+      "de": "Die Kawasan Falls, die sich in der Sulu-Region befinden, bieten Möglichkeiten zum Schwimmen und Kajakfahren. Sie ist für ihre natürliche Schönheit bekannt."
+    },
+    "activities": {
+      "tr": [
+        "Şelalede yüzme",
+        "Kano yapmak",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Swimming in the falls",
+        "Kayaking",
+        "Enjoying nature"
+      ],
+      "de": [
+        "Im Wasserfall schwimmen",
+        "Kajak fahren",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/kawasan_falls.jpg"
+    ]
+  },
+  {
+    "slug": "oslob",
+    "name": {
+      "tr": "Oslob",
+      "en": "Oslob",
+      "de": "Oslob"
+    },
+    "latitude": 9.6119,
+    "longitude": 123.404,
+    "description": {
+      "tr": "Oslob, balina köpekbalıklarıyla yüzme fırsatı sunan bir bölgedir. Burada ziyaretçiler, devasa balina köpekbalıkları ile yakınlaşabilir.",
+      "en": "Oslob is a place that offers the opportunity to swim with whale sharks. Visitors can get close to these massive creatures.",
+      "de": "Oslob ist ein Ort, der die Möglichkeit bietet, mit Walhaien zu schwimmen. Besucher können sich diesen riesigen Kreaturen nähern."
+    },
+    "activities": {
+      "tr": [
+        "Balina köpekbalıklarıyla yüzme",
+        "Fotoğraf çekmek",
+        "Bölgede tur yapmak"
+      ],
+      "en": [
+        "Swimming with whale sharks",
+        "Taking photos",
+        "Exploring the area"
+      ],
+      "de": [
+        "Mit Walhaien schwimmen",
+        "Fotos machen",
+        "Die Gegend erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/oslob.jpg"
+    ]
+  },
+  {
+    "slug": "taoist-temple",
+    "name": {
+      "tr": "Taoist Temple",
+      "en": "Taoist Temple",
+      "de": "Taoist Temple"
+    },
+    "latitude": 10.3077,
+    "longitude": 123.8917,
+    "description": {
+      "tr": "Taoist Temple, Cebu'da yer alan Çin kültürüne ait bir tapınaktır. Şehre hakim olan bu tapınak, güzel manzaralar sunar.",
+      "en": "The Taoist Temple in Cebu is a temple associated with Chinese culture. It offers beautiful views over the city.",
+      "de": "Der Taoistische Tempel in Cebu ist ein Tempel, der mit der chinesischen Kultur verbunden ist. Er bietet einen schönen Blick auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Tapınağı gezmek",
+        "Şehri izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the temple",
+        "Looking over the city",
+        "Taking photos"
+      ],
+      "de": [
+        "Den Tempel erkunden",
+        "Die Stadt überblicken",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/taoist_temple.jpg"
+    ]
+  },
+  {
+    "slug": "sirao-flower-garden",
+    "name": {
+      "tr": "Sirao Flower Garden",
+      "en": "Sirao Flower Garden",
+      "de": "Sirao Flower Garden"
+    },
+    "latitude": 10.3124,
+    "longitude": 123.9357,
+    "description": {
+      "tr": "Sirao Flower Garden, Cebu şehir merkezinden birkaç kilometre uzaklıkta bulunan renkli çiçek bahçesidir. Bahçe, rengarenk çiçekleriyle ünlüdür.",
+      "en": "Sirao Flower Garden is a colorful flower garden located a few kilometers from Cebu city center. It is famous for its vibrant flowers.",
+      "de": "Der Sirao Flower Garden ist ein bunter Blumengarten, der nur wenige Kilometer vom Stadtzentrum von Cebu entfernt liegt. Er ist bekannt für seine lebhaften Blumen."
+    },
+    "activities": {
+      "tr": [
+        "Çiçekleri görmek",
+        "Bahçede yürüyüş yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Seeing the flowers",
+        "Walking through the garden",
+        "Taking photos"
+      ],
+      "de": [
+        "Die Blumen sehen",
+        "Durch den Garten spazieren",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/sirao_flower_garden.jpg"
+    ]
+  }
+]

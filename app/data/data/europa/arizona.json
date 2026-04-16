@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "the-wave",
+    "name": {
+      "tr": "The Wave",
+      "en": "The Wave",
+      "de": "Die Welle"
+    },
+    "latitude": 36.9953,
+    "longitude": -112.0069,
+    "description": {
+      "tr": "The Wave, Amerika Birleşik Devletleri'nin Arizona ve Utah sınırında bulunan Paria Canyon-Vermilion Cliffs Wilderness bölgesinde yer alan benzersiz bir doğal oluşumdur.\nRüzgar ve su erozyonuyla oluşmuş dalgalı kumtaşı yapıları, turuncu ve kırmızı tonlarındaki eşsiz renklerle büyüleyici bir manzara sunar.\nSınırlı ziyaretçi kotasıyla, bölge doğa severler ve fotoğrafçılar için çok özel bir destinasyondur.\n",
+      "en": "The Wave is a unique natural formation located in the Paria Canyon-Vermilion Cliffs Wilderness on the Arizona and Utah border.\nFormed by wind and water erosion, the sandstone formations boast vibrant orange and red tones, creating a breathtaking landscape.\nDue to limited visitor permits, it’s a special destination for nature lovers and photographers.\n",
+      "de": "The Wave ist eine einzigartige natürliche Formation in der Paria Canyon-Vermilion Cliffs Wilderness an der Grenze zwischen Arizona und Utah.\nDie Sandsteinformationen, die durch Wind- und Wassererosion entstanden sind, bieten atemberaubende orange und rote Farbtöne.\nAufgrund der begrenzten Besucherzahl ist es ein besonderes Ziel für Naturliebhaber und Fotografen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Fotoğraf çekmek",
+        "Kaya formasyonlarını incelemek",
+        "Sessiz doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Hiking",
+        "Photography",
+        "Explore rock formations",
+        "Enjoy the quiet nature"
+      ],
+      "de": [
+        "Wandern",
+        "Fotografieren",
+        "Felsformationen erkunden",
+        "Die stille Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/the_wave.jpg",
+      "https://example.com/the_wave_landscape.jpg"
+    ]
+  }
+]

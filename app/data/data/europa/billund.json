@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "legoland-billund",
+    "name": {
+      "tr": "LEGOLAND Billund",
+      "en": "LEGOLAND Billund",
+      "de": "LEGOLAND Billund"
+    },
+    "latitude": 55.7294,
+    "longitude": 9.1135,
+    "description": {
+      "tr": "LEGOLAND Billund, LEGO severler için mükemmel bir tema parkıdır. Parkta, LEGO yapıları, çeşitli eğlenceli aktiviteler ve interaktif gösteriler yer almaktadır.",
+      "en": "LEGOLAND Billund is a perfect theme park for LEGO enthusiasts. The park features LEGO structures, various fun activities, and interactive shows.",
+      "de": "LEGOLAND Billund ist ein perfekter Themenpark für LEGO-Liebhaber. Der Park bietet LEGO-Strukturen, verschiedene unterhaltsame Aktivitäten und interaktive Shows."
+    },
+    "activities": {
+      "tr": [
+        "LEGO yapıları görmek",
+        "Eğlenceli aktivitelerde yer almak",
+        "Interaktif gösterileri izlemek"
+      ],
+      "en": [
+        "See LEGO structures",
+        "Participate in fun activities",
+        "Watch interactive shows"
+      ],
+      "de": [
+        "LEGO-Strukturen sehen",
+        "An unterhaltsamen Aktivitäten teilnehmen",
+        "Interaktive Shows ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/legoland_billund.jpg"
+    ]
+  },
+  {
+    "slug": "givskud-zoo",
+    "name": {
+      "tr": "Givskud Zoo",
+      "en": "Givskud Zoo",
+      "de": "Givskud Zoo"
+    },
+    "latitude": 55.5764,
+    "longitude": 9.4007,
+    "description": {
+      "tr": "Givskud Zoo, safari parkı ve hayvanat bahçesi olarak bilinir. Ziyaretçiler, araçlarıyla safari yaparak hayvanları doğal ortamlarında gözlemleyebilirler.",
+      "en": "Givskud Zoo is known as a safari park and zoo. Visitors can observe animals in their natural habitat by taking a safari tour in their vehicles.",
+      "de": "Der Givskud Zoo ist als Safari-Park und Zoo bekannt. Besucher können Tiere in ihrem natürlichen Lebensraum beobachten, indem sie eine Safari-Tour mit ihren Fahrzeugen unternehmen."
+    },
+    "activities": {
+      "tr": [
+        "Safari yapmak",
+        "Hayvanları doğal ortamlarında gözlemlemek"
+      ],
+      "en": [
+        "Going on a safari",
+        "Observing animals in their natural habitat"
+      ],
+      "de": [
+        "Auf Safari gehen",
+        "Tiere in ihrem natürlichen Lebensraum beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "hayvanat bahçesi"
+      ],
+      "en": [
+        "zoo"
+      ],
+      "de": [
+        "zoo"
+      ]
+    },
+    "images": [
+      "https://example.com/givskud_zoo.jpg"
+    ]
+  }
+]

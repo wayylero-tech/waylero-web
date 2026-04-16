@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "kravice-selaleleri",
+    "name": {
+      "tr": "Kravice Şelaleleri",
+      "en": "Kravice Waterfalls",
+      "de": "Kravice Wasserfälle"
+    },
+    "latitude": 43.15621,
+    "longitude": 17.60819,
+    "description": {
+      "tr": "Kravice Şelaleleri, Bosna-Hersek’in güneyinde, Herzegovina bölgesinde yer alan büyüleyici bir doğa harikasıdır. Buna \"Bosna'nın Niagara Şelalesi\" de denir. Neretva Nehri üzerinde bulunan bu şelale, yaklaşık 25 metrelik yüksekliği ile etkileyici bir manzara sunar. Kravice Şelaleleri, çevresindeki yeşil alanlar, göletler ve doğal güzellikleri ile popüler bir tatil yeri ve doğa severler için ideal bir destinasyondur. Yaz aylarında şelale çevresinde yüzme ve piknik yapma imkanları vardır. Ayrıca şelale, fotoğrafçılar için harika bir çekim alanıdır.\n",
+      "en": "Kravice Waterfalls is a stunning natural wonder located in southern Bosnia and Herzegovina, in the Herzegovina region. Known as the \"Niagara of Bosnia,\" this waterfall is around 25 meters high and creates a breathtaking landscape. The Kravice Waterfalls, with its surrounding green areas, lakes, and natural beauty, is a popular holiday spot and an ideal destination for nature enthusiasts. During the summer months, visitors can swim in the pools and enjoy picnicking around the falls. The site is also a fantastic location for photographers.\n",
+      "de": "Die Kravice Wasserfälle sind ein atemberaubendes Naturwunder im Süden von Bosnien und Herzegowina, in der Region Herzegowina. Sie werden auch als „Niagara von Bosnien“ bezeichnet und haben eine Höhe von etwa 25 Metern, was eine beeindruckende Landschaft schafft. Die Kravice Wasserfälle mit ihren umgebenden grünen Flächen, Seen und natürlichen Schönheiten sind ein beliebtes Urlaubsziel und ein idealer Ort für Naturliebhaber. In den Sommermonaten können Besucher in den Becken schwimmen und rund um die Wasserfälle picknicken. Der Ort ist auch ein fantastischer Ort für Fotografen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Piknik yapmak",
+        "Doğa yürüyüşü yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Swimming",
+        "Picnicking",
+        "Hiking",
+        "Photography"
+      ],
+      "de": [
+        "Schwimmen",
+        "Picknicken",
+        "Wandern",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/kravice_waterfall1.jpg",
+      "https://example.com/kravice_waterfall2.jpg"
+    ]
+  },
+  {
+    "slug": "ko-u-a-selalesi",
+    "name": {
+      "tr": "Koćuša Şelalesi",
+      "en": "Koćuša Waterfall",
+      "de": "Koćuša Wasserfall"
+    },
+    "latitude": 43.24946,
+    "longitude": 17.45223,
+    "description": {
+      "tr": "Koćuša Şelalesi, Bosna-Hersek’in batısında, Herzegovina bölgesinde bulunan bir diğer doğal güzelliktir. Bu şelale, 20 metreden fazla bir yüksekliğe sahip olup, muazzam bir manzara sunar. Koćuša Şelalesi, doğal ortamı, etrafındaki yeşillikler ve huzurlu atmosferi ile popüler bir gezi noktasıdır. Şelalenin çevresinde yürüyüş yapmak, doğayı keşfetmek ve fotoğraf çekmek için mükemmel fırsatlar sunulmaktadır. Ayrıca yaz aylarında şelale çevresinde serinlemek için ideal bir yerdir.\n",
+      "en": "Koćuša Waterfall is another stunning natural attraction located in western Bosnia and Herzegovina, in the Herzegovina region. The waterfall stands at over 20 meters high, offering a magnificent view. The Koćuša Waterfall is a popular spot for visitors due to its peaceful surroundings, lush greenery, and tranquil atmosphere. The area around the waterfall provides excellent opportunities for hiking, nature exploration, and photography. During the summer months, it is a perfect place to cool off in the refreshing water.\n",
+      "de": "Der Koćuša Wasserfall ist eine weitere atemberaubende natürliche Sehenswürdigkeit im Westen von Bosnien und Herzegowina, in der Region Herzegowina. Der Wasserfall hat eine Höhe von über 20 Metern und bietet einen herrlichen Ausblick. Der Koćuša Wasserfall ist aufgrund seiner friedlichen Umgebung, des üppigen Grüns und der ruhigen Atmosphäre ein beliebter Ort für Besucher. Die Umgebung des Wasserfalls bietet ausgezeichnete Möglichkeiten zum Wandern, zur Erkundung der Natur und zur Fotografie. In den Sommermonaten ist es ein idealer Ort, um sich im erfrischenden Wasser abzukühlen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Doğa yürüyüşü yapmak",
+        "Fotoğraf çekmek",
+        "Piknik yapmak"
+      ],
+      "en": [
+        "Swimming",
+        "Hiking",
+        "Photography",
+        "Picnicking"
+      ],
+      "de": [
+        "Schwimmen",
+        "Wandern",
+        "Fotografie",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/kocusa_waterfall1.jpg",
+      "https://example.com/kocusa_waterfall2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "slug": "skydeck-chicago",
+    "name": {
+      "tr": "Skydeck Chicago",
+      "en": "Skydeck Chicago",
+      "de": "Skydeck Chicago"
+    },
+    "latitude": 41.8789,
+    "longitude": -87.6359,
+    "description": {
+      "tr": "Skydeck Chicago, Willis Tower’ın (eski adıyla Sears Tower) 103. katında yer alan bir gözlem platformudur. 412 metre yükseklikten Chicago’nun nefes kesen manzaralarını sunar. Skydeck’in en dikkat çekici özelliği, camdan yapılmış olan “The Ledge” adlı kutulardır. Bu cam balkonlar, ziyaretçilere şehrin üzerinde yürüyormuş hissi verir. Skydeck, Chicago’nun ünlü silüetini izlemek ve unutulmaz bir deneyim yaşamak isteyenler için mutlaka ziyaret edilmesi gereken bir yerdir.",
+      "en": "Skydeck Chicago is an observation platform located on the 103rd floor of the Willis Tower (formerly Sears Tower). It offers breathtaking views of Chicago from 412 meters above ground. The highlight of Skydeck is \"The Ledge,\" a set of glass boxes that extend out from the building, giving visitors the thrilling sensation of walking above the city. Skydeck is a must-visit for those who want to enjoy stunning views of Chicago’s iconic skyline and have an unforgettable experience.",
+      "de": "Das Skydeck Chicago ist eine Aussichtsplattform im 103. Stockwerk des Willis Tower (ehemals Sears Tower). Es bietet atemberaubende Ausblicke auf Chicago aus 412 Metern Höhe. Das Highlight des Skydeck ist „The Ledge“, eine Reihe von Glasboxen, die aus dem Gebäude herausragen und den Besuchern das aufregende Gefühl geben, über der Stadt zu schweben. Das Skydeck ist ein Muss für alle, die die berühmte Skyline Chicagos genießen und ein unvergessliches Erlebnis haben möchten."
+    },
+    "activities": {
+      "tr": [
+        "The Ledge cam balkonlarına çıkmak",
+        "Chicago’nun panoramik manzarasını izlemek",
+        "Binanın tarihi hakkında bilgi edinmek",
+        "Akşamları şehir ışıklarını görmek"
+      ],
+      "en": [
+        "Step onto The Ledge glass balconies",
+        "Enjoy panoramic views of Chicago",
+        "Learn about the building’s history",
+        "Witness the city lights in the evening"
+      ],
+      "de": [
+        "Auf die Glasbalkone von „The Ledge“ treten",
+        "Die Panoramaaussicht auf Chicago genießen",
+        "Etwas über die Geschichte des Gebäudes erfahren",
+        "Die Stadtlichter am Abend bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/skydeck_chicago.jpg",
+      "https://example.com/the_ledge.jpg"
+    ]
+  },
+  {
+    "slug": "millennium-park",
+    "name": {
+      "tr": "Millennium Park",
+      "en": "Millennium Park",
+      "de": "Millennium Park"
+    },
+    "latitude": 41.8827,
+    "longitude": -87.6233,
+    "description": {
+      "tr": "Millennium Park, Chicago'nun merkezinde bulunan bir kültürel ve mimari cazibe merkezidir. Ünlü \"Cloud Gate\" (Bean) heykeli bu parkta yer alır.\n",
+      "en": "Millennium Park is a cultural and architectural attraction located in the heart of Chicago. The famous \"Cloud Gate\" (Bean) sculpture is situated in this park.\n",
+      "de": "Der Millennium Park ist eine kulturelle und architektonische Attraktion im Herzen von Chicago. Die berühmte \"Cloud Gate\" (Bean) Skulptur befindet sich in diesem Park.\n"
+    },
+    "activities": {
+      "tr": [
+        "Cloud Gate heykelini görmek",
+        "Yürüyüş yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "See the Cloud Gate sculpture",
+        "Take a walk",
+        "Take photos"
+      ],
+      "de": [
+        "Die Cloud Gate Skulptur sehen",
+        "Spazieren gehen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/millennium_park.jpg"
+    ]
+  },
+  {
+    "slug": "willis-tower-skydeck",
+    "name": {
+      "tr": "Willis Tower (Skydeck)",
+      "en": "Willis Tower (Skydeck)",
+      "de": "Willis Tower (Skydeck)"
+    },
+    "latitude": 41.8789,
+    "longitude": -87.6359,
+    "description": {
+      "tr": "Willis Tower, Chicago'nun en ikonik gökdelenlerinden biridir. Skydeck'ten şehir manzarasının tadını çıkarabilirsiniz.\n",
+      "en": "Willis Tower is one of Chicago's most iconic skyscrapers. You can enjoy the city views from the Skydeck.\n",
+      "de": "Der Willis Tower ist eines der bekanntesten Wolkenkratzer Chicagos. Vom Skydeck aus können Sie die Stadtansichten genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Skydeck’e çıkmak",
+        "Şehir manzarasını izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Go up to the Skydeck",
+        "Enjoy the city views",
+        "Take photos"
+      ],
+      "de": [
+        "Zum Skydeck hochfahren",
+        "Die Stadtansichten genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/willis_tower.jpg"
+    ]
+  },
+  {
+    "slug": "navy-pier",
+    "name": {
+      "tr": "Navy Pier",
+      "en": "Navy Pier",
+      "de": "Navy Pier"
+    },
+    "latitude": 41.8917,
+    "longitude": -87.6096,
+    "description": {
+      "tr": "Navy Pier, Chicago Gölü kıyısında yer alan bir eğlence ve alışveriş merkezidir. Çeşitli etkinlikler ve dönme dolabı ile ünlüdür.\n",
+      "en": "Navy Pier is an entertainment and shopping center located on the shore of Lake Michigan in Chicago. It is famous for its various events and Ferris wheel.\n",
+      "de": "Der Navy Pier ist ein Unterhaltungs- und Einkaufszentrum am Ufer des Michigansees in Chicago. Er ist bekannt für verschiedene Veranstaltungen und das Riesenrad.\n"
+    },
+    "activities": {
+      "tr": [
+        "Dönme dolaba binmek",
+        "Alışveriş yapmak",
+        "Etkinliklere katılmak"
+      ],
+      "en": [
+        "Ride the Ferris wheel",
+        "Go shopping",
+        "Attend events"
+      ],
+      "de": [
+        "Mit dem Riesenrad fahren",
+        "Einkaufen gehen",
+        "An Veranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "alışveriş"
+      ],
+      "en": [
+        "shopping"
+      ],
+      "de": [
+        "Einkaufen"
+      ]
+    },
+    "images": [
+      "https://example.com/navy_pier.jpg"
+    ]
+  },
+  {
+    "slug": "art-institute-of-chicago",
+    "name": {
+      "tr": "Art Institute of Chicago",
+      "en": "Art Institute of Chicago",
+      "de": "Art Institute of Chicago"
+    },
+    "latitude": 41.8796,
+    "longitude": -87.6237,
+    "description": {
+      "tr": "Art Institute of Chicago, dünyaca ünlü sanat koleksiyonlarına ev sahipliği yapar. Özellikle İtalyan Rönesansı ve Amerikan Sanatı bölümleri dikkat çeker.\n",
+      "en": "The Art Institute of Chicago hosts world-famous art collections. The Italian Renaissance and American Art sections are particularly noteworthy.\n",
+      "de": "Das Art Institute of Chicago beherbergt weltberühmte Kunstsammlungen. Besonders die italienische Renaissance und die amerikanische Kunst sind bemerkenswert.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini incelemek",
+        "Sergileri gezmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Explore art collections",
+        "Visit exhibitions",
+        "Take photos"
+      ],
+      "de": [
+        "Kunstsammlungen erkunden",
+        "Ausstellungen besuchen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/art_institute.jpg"
+    ]
+  },
+  {
+    "slug": "chicago-riverwalk",
+    "name": {
+      "tr": "Chicago Riverwalk",
+      "en": "Chicago Riverwalk",
+      "de": "Chicago Riverwalk"
+    },
+    "latitude": 41.8881,
+    "longitude": -87.6252,
+    "description": {
+      "tr": "Chicago Riverwalk, Chicago Nehri boyunca uzanan bir yürüyüş yoludur. Restoranlar, kafeler ve eşsiz manzaralar sunar.\n",
+      "en": "The Chicago Riverwalk is a walking path along the Chicago River. It offers restaurants, cafes, and stunning views.\n",
+      "de": "Der Chicago Riverwalk ist ein Spazierweg entlang des Chicago Rivers. Er bietet Restaurants, Cafés und atemberaubende Ausblicke.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Kafelerde dinlenmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Take a walk",
+        "Relax at cafes",
+        "Take photos"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "In Cafés entspannen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/riverwalk.jpg"
+    ]
+  },
+  {
+    "slug": "museum-of-science-and-industry",
+    "name": {
+      "tr": "Museum of Science and Industry",
+      "en": "Museum of Science and Industry",
+      "de": "Museum of Science and Industry"
+    },
+    "latitude": 41.7906,
+    "longitude": -87.583,
+    "description": {
+      "tr": "Museum of Science and Industry, dünyanın en büyük bilim müzelerinden biridir. Etkileşimli sergileri ve deneyimleri ile bilinir.\n",
+      "en": "The Museum of Science and Industry is one of the largest science museums in the world. It is known for its interactive exhibits and experiences.\n",
+      "de": "Das Museum of Science and Industry ist eines der größten Wissenschaftsmuseen der Welt. Es ist bekannt für seine interaktiven Ausstellungen und Erfahrungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sergileri keşfetmek",
+        "Bilim deneyimleri yapmak",
+        "Eğitici turlara katılmak"
+      ],
+      "en": [
+        "Explore the exhibits",
+        "Participate in science experiments",
+        "Join educational tours"
+      ],
+      "de": [
+        "Die Ausstellungen erkunden",
+        "An wissenschaftlichen Experimenten teilnehmen",
+        "An Bildungstouren teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/science_museum.jpg"
+    ]
+  },
+  {
+    "slug": "lincoln-park-zoo",
+    "name": {
+      "tr": "Lincoln Park Zoo",
+      "en": "Lincoln Park Zoo",
+      "de": "Lincoln Park Zoo"
+    },
+    "latitude": 41.9211,
+    "longitude": -87.6338,
+    "description": {
+      "tr": "Lincoln Park Zoo, ücretsiz bir hayvanat bahçesidir ve Chicago’nun doğal güzellikleri ile iç içe bir deneyim sunar.\n",
+      "en": "Lincoln Park Zoo is a free zoo that offers an immersive experience in the natural beauty of Chicago.\n",
+      "de": "Der Lincoln Park Zoo ist ein kostenloser Zoo, der ein eindrucksvolles Erlebnis in der natürlichen Schönheit Chicagos bietet.\n"
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları görmek",
+        "Doğayı keşfetmek",
+        "Aile etkinliklerine katılmak"
+      ],
+      "en": [
+        "See the animals",
+        "Explore nature",
+        "Join family activities"
+      ],
+      "de": [
+        "Die Tiere sehen",
+        "Die Natur erkunden",
+        "An Familienaktivitäten teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "hayvanat bahçesi"
+      ],
+      "en": [
+        "zoo"
+      ],
+      "de": [
+        "zoo"
+      ]
+    },
+    "images": [
+      "https://example.com/lincoln_park_zoo.jpg"
+    ]
+  },
+  {
+    "slug": "field-museum",
+    "name": {
+      "tr": "Field Museum",
+      "en": "Field Museum",
+      "de": "Field Museum"
+    },
+    "latitude": 41.8663,
+    "longitude": -87.6177,
+    "description": {
+      "tr": "Field Museum, tarih öncesi fosiller, eski medeniyetler ve doğa tarihi sergileri ile ünlüdür. \"Sue\" adlı T. rex fosili müzede sergilenmektedir.\n",
+      "en": "The Field Museum is known for its prehistoric fossils, ancient civilizations, and natural history exhibits. The \"Sue\" T. rex fossil is displayed here.\n",
+      "de": "Das Field Museum ist bekannt für seine prähistorischen Fossilien, alten Zivilisationen und Naturgeschichtsausstellungen. Das \"Sue\" T. rex Fossil ist hier ausgestellt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarih öncesi fosilleri görmek",
+        "Doğa tarihi sergilerini gezmek",
+        "Bilgi edinmek"
+      ],
+      "en": [
+        "See prehistoric fossils",
+        "Explore natural history exhibits",
+        "Learn new information"
+      ],
+      "de": [
+        "Prähistorische Fossilien sehen",
+        "Naturgeschichtsausstellungen erkunden",
+        "Neue Informationen lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/field_museum.jpg"
+    ]
+  },
+  {
+    "slug": "shedd-aquarium",
+    "name": {
+      "tr": "Shedd Aquarium",
+      "en": "Shedd Aquarium",
+      "de": "Shedd Aquarium"
+    },
+    "latitude": 41.8676,
+    "longitude": -87.614,
+    "description": {
+      "tr": "Shedd Aquarium, binlerce deniz canlısına ev sahipliği yapar. Akvaryumun sualtı tünelleri ve etkileşimli alanları çok popülerdir.\n",
+      "en": "Shedd Aquarium is home to thousands of marine life species. The aquarium's underwater tunnels and interactive areas are very popular.\n",
+      "de": "Das Shedd Aquarium beherbergt Tausende von Meerestieren. Die Unterwassertunnel und interaktiven Bereiche des Aquariums sind sehr beliebt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Deniz canlılarını görmek",
+        "Etkileşimli etkinliklere katılmak",
+        "Akvaryumu keşfetmek"
+      ],
+      "en": [
+        "See marine life",
+        "Participate in interactive activities",
+        "Explore the aquarium"
+      ],
+      "de": [
+        "Meereslebewesen sehen",
+        "An interaktiven Aktivitäten teilnehmen",
+        "Das Aquarium erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/shedd_aquarium.jpg"
+    ]
+  },
+  {
+    "slug": "chicago-botanik-bahcesi",
+    "name": {
+      "tr": "Chicago Botanik Bahçesi",
+      "en": "Chicago Botanic Garden",
+      "de": "Chicago Botanikgarten"
+    },
+    "latitude": 42.1534,
+    "longitude": -87.7878,
+    "description": {
+      "tr": "Chicago Botanik Bahçesi, doğaseverler için mükemmel bir kaçış noktasıdır. Çeşitli bitki türleri ve peyzaj düzenlemeleri sunar.\n",
+      "en": "The Chicago Botanic Garden is a perfect escape for nature lovers. It offers a variety of plant species and landscape arrangements.\n",
+      "de": "Der Chicago Botanikgarten ist ein perfekter Rückzugsort für Naturliebhaber. Er bietet eine Vielzahl von Pflanzenarten und Landschaftsgestaltungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Bitki türlerini incelemek",
+        "Doğada vakit geçirmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Study plant species",
+        "Spend time in nature",
+        "Take photos"
+      ],
+      "de": [
+        "Pflanzenarten studieren",
+        "Zeit in der Natur verbringen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/botanic_garden.jpg"
+    ]
+  }
+]

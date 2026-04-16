@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "duomo-di-milano",
+    "name": {
+      "tr": "Duomo di Milano",
+      "en": "Duomo di Milano",
+      "de": "Duomo di Milano"
+    },
+    "latitude": 45.4642,
+    "longitude": 9.19,
+    "description": {
+      "tr": "Duomo di Milano, İtalya'nın en büyük Gotik katedrali olup, Milano'nun en ünlü simgesidir.",
+      "en": "Duomo di Milano is Italy's largest Gothic cathedral and is Milan's most famous landmark.",
+      "de": "Der Duomo di Milano ist die größte gotische Kathedrale Italiens und das bekannteste Wahrzeichen Mailands."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezme",
+        "Kuleye çıkarak şehir manzarasını izleme"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Climb the tower for a city view"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Den Turm besteigen und die Stadtansicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/duomo_milano.jpg"
+    ]
+  },
+  {
+    "slug": "galleria-vittorio-emanuele-ii",
+    "name": {
+      "tr": "Galleria Vittorio Emanuele II",
+      "en": "Galleria Vittorio Emanuele II",
+      "de": "Galleria Vittorio Emanuele II"
+    },
+    "latitude": 45.4686,
+    "longitude": 9.19,
+    "description": {
+      "tr": "Galleria Vittorio Emanuele II, lüks mağazalar ve restoranlarla dolu tarihi bir alışveriş galerisi olup, Milano'nun en ikonik yapılarından biridir.",
+      "en": "Galleria Vittorio Emanuele II is a historic shopping gallery filled with luxury stores and restaurants, one of Milan's most iconic buildings.",
+      "de": "Die Galleria Vittorio Emanuele II ist eine historische Einkaufsstraße mit Luxusgeschäften und Restaurants und eines der bekanntesten Gebäude Mailands."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Kafelerde oturma"
+      ],
+      "en": [
+        "Shop",
+        "Relax in cafes"
+      ],
+      "de": [
+        "Einkaufen",
+        "In Cafés entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/galleria_vittorio.jpg"
+    ]
+  }
+]

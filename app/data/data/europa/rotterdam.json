@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "markthal-rotterdam",
+    "name": {
+      "tr": "Markthal Rotterdam",
+      "en": "Markthal Rotterdam",
+      "de": "Markthal Rotterdam"
+    },
+    "latitude": 51.9208,
+    "longitude": 4.4817,
+    "description": {
+      "tr": "Markthal, Rotterdam'ın simgesel kapalı pazarıdır. İçeride çok sayıda restoran, pazar tezgahı ve etkileyici bir tavan resmi yer alır.",
+      "en": "Markthal is Rotterdam's iconic indoor market. It features numerous restaurants, market stalls, and an impressive ceiling mural.",
+      "de": "Markthal ist der ikonische Indoor-Markt von Rotterdam. Es gibt zahlreiche Restaurants, Marktstände und ein beeindruckendes Deckenmural."
+    },
+    "activities": {
+      "tr": [
+        "Yemek tezgahlarını keşfetme",
+        "Yerel yemekleri tatma"
+      ],
+      "en": [
+        "Explore food stalls",
+        "Taste local dishes"
+      ],
+      "de": [
+        "Essenstände erkunden",
+        "Lokale Gerichte probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/markthal.jpg"
+    ]
+  },
+  {
+    "slug": "euromast",
+    "name": {
+      "tr": "Euromast",
+      "en": "Euromast",
+      "de": "Euromast"
+    },
+    "latitude": 51.9077,
+    "longitude": 4.4893,
+    "description": {
+      "tr": "Euromast, Rotterdam'ın en yüksek gözlem kulesidir. Şehir manzarasına hayran kalabileceğiniz bir deneyim sunar.",
+      "en": "Euromast is Rotterdam's tallest observation tower, offering a breathtaking view of the city.",
+      "de": "Der Euromast ist der höchste Aussichtsturm von Rotterdam und bietet einen atemberaubenden Blick auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kuleye çıkarak şehri yüksekten izleme",
+        "Restoranda yemek yeme"
+      ],
+      "en": [
+        "Take the elevator to view the city from above",
+        "Dine at the restaurant"
+      ],
+      "de": [
+        "Mit dem Aufzug fahren, um die Stadt von oben zu sehen",
+        "Im Restaurant speisen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/euromast.jpg"
+    ]
+  }
+]

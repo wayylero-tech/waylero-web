@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "cinarcik-sahili",
+    "name": {
+      "tr": "Çınarcık Sahili",
+      "en": "Çınarcık Beach",
+      "de": "Çınarcık Strand"
+    },
+    "latitude": 40.6476,
+    "longitude": 29.11439,
+    "description": {
+      "tr": "Çınarcık, Yalova'nın en bilinen tatil beldelerinden biridir. Güzel plajları ve denizi ile yaz aylarında popülerdir.\n",
+      "en": "Çınarcık is one of the most famous holiday resorts in Yalova. It is popular during the summer months with its beautiful beaches and sea.\n",
+      "de": "Çınarcık ist einer der bekanntesten Ferienorte in Yalova. Es ist in den Sommermonaten aufgrund seiner schönen Strände und des Meeres sehr beliebt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Plajda güneşlenmek",
+        "Denize girmek"
+      ],
+      "en": [
+        "Sunbathe on the beach",
+        "Swim in the sea"
+      ],
+      "de": [
+        "Sich am Strand sonnen",
+        "Im Meer schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/cinarcik_sahili.jpg"
+    ]
+  },
+  {
+    "slug": "yalova-ataturk-kosku",
+    "name": {
+      "tr": "Yalova Atatürk Köşkü",
+      "en": "Yalova Atatürk Mansion",
+      "de": "Yalova Atatürk Villa"
+    },
+    "latitude": 40.6027,
+    "longitude": 29.17385,
+    "description": {
+      "tr": "Atatürk Köşkü, Mustafa Kemal Atatürk’ün Yalova’da kaldığı dönemlerdeki izleri taşıyan tarihi bir yapıdır. Ziyaretçilere önemli bir tarihi deneyim sunar.\n",
+      "en": "Atatürk Mansion is a historical building that carries traces of Mustafa Kemal Atatürk’s time in Yalova. It offers visitors an important historical experience.\n",
+      "de": "Das Atatürk Villa ist ein historisches Gebäude, das Spuren von Mustafa Kemal Atatürks Aufenthalt in Yalova trägt. Es bietet den Besuchern ein wichtiges historisches Erlebnis.\n"
+    },
+    "activities": {
+      "tr": [
+        "Köşkü gezmek",
+        "Tarihi bilgileri öğrenmek"
+      ],
+      "en": [
+        "Tour the mansion",
+        "Learn historical information"
+      ],
+      "de": [
+        "Die Villa besichtigen",
+        "Historische Informationen lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/ataturk_kosku.jpg"
+    ]
+  },
+  {
+    "slug": "yalova-kent-ormani",
+    "name": {
+      "tr": "Yalova Kent Ormanı",
+      "en": "Yalova City Forest",
+      "de": "Yalova Stadtwald"
+    },
+    "latitude": 40.5887,
+    "longitude": 29.02636,
+    "description": {
+      "tr": "Kent Ormanı, Yalova'nın en büyük orman alanlarından biridir. Doğal güzellikler ve yürüyüş parkurları ile popüler bir doğa parkıdır.\n",
+      "en": "City Forest is one of the largest forest areas in Yalova. It is a popular nature park with natural beauty and hiking trails.\n",
+      "de": "Der Stadtwald ist eines der größten Waldgebiete in Yalova. Es ist ein beliebter Naturpark mit natürlicher Schönheit und Wanderwegen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Doğal yaşamı keşfetmek"
+      ],
+      "en": [
+        "Go for a hike",
+        "Explore the natural life"
+      ],
+      "de": [
+        "Wandern gehen",
+        "Das natürliche Leben erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/yalova_kent_ormani.jpg"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "antik-delos-kenti",
+    "name": {
+      "tr": "Antik Delos Kenti",
+      "en": "Ancient Delos City",
+      "de": "Antike Stadt Delos"
+    },
+    "latitude": 37.3961,
+    "longitude": 25.2769,
+    "description": {
+      "tr": "Antik Delos Kenti, Yunanistan'ın **Cyclades Adaları**'ndan birinde, Delos Adası'nda yer alır ve antik Yunan dünyasında çok önemli bir kültürel ve dini merkezdir. MÖ 3. binyıldan itibaren yerleşim görmeye başlamış ve özellikle **Apollon** ile **Artemis**’in doğum yerinin kabul edilmesi nedeniyle dini bir merkez haline gelmiştir. Delos, aynı zamanda **Yunan mitolojisi**nde çok önemli bir yer tutar.\n\nAdada yapılan kazılar, Delos'un dini, ticari ve kültürel açıdan büyük bir etkiye sahip olduğunu ortaya koymuştur. Burada, **Apollon Tapınağı** ve **Artemis Tapınağı** gibi önemli dini yapılar yer alır. Delos, aynı zamanda bir **ticaret merkezi** olarak da faaliyet göstermiştir ve antik çağda çok sayıda farklı kültür ve medeniyetin etkileşime girdiği bir yer olmuştur.\n\nAdadaki en dikkat çekici yapılar arasında **Mosaicler** ve **Beyaz Taşlardan İnşa Edilen Evler** yer alır. **Delos Tiyatrosu** da oldukça iyi korunmuş olup, eski Yunan tiyatrosunun tipik özelliklerini taşır. Ayrıca, **Delos Agora**'sı ve **Liman Yapıları** gibi antik ticaret alanları da keşfedilebilir.\n\nDelos, 1990 yılında **UNESCO Dünya Mirası Listesi**'ne dahil edilmiştir ve bugün ziyaretçilere, antik Yunan'ın zengin kültürel mirasını keşfetme fırsatı sunmaktadır. Ziyaretçiler burada, eski tapınakları, heykelleri ve diğer tarihi yapıları gezip, Yunan medeniyetinin büyüklüğüne tanıklık edebilirler.\n",
+      "en": "The Ancient Delos City is located on **Delos Island**, one of the **Cyclades Islands** in Greece, and it was an important cultural and religious center in the ancient Greek world. Settled since the 3rd millennium BC, it became particularly significant due to the belief that it was the birthplace of the gods **Apollo** and **Artemis**. Delos holds a major place in **Greek mythology**.\n\nExcavations on the island have revealed that Delos played a major role in religious, commercial, and cultural life. The island is home to important religious structures such as the **Temple of Apollo** and the **Temple of Artemis**. It was also a thriving **trade center** where different cultures and civilizations interacted.\n\nNotable structures on the island include the **Mosaics** and the **White Stone Houses**, along with the well-preserved **Delos Theatre**, which displays typical features of ancient Greek theaters. The island also features the **Delos Agora** and **Harbor Structures**, which were significant commercial areas in the ancient world.\n\nIn 1990, Delos was designated a **UNESCO World Heritage Site**, and today it offers visitors the opportunity to explore the rich cultural heritage of ancient Greece. Visitors can walk through the ancient temples, admire the sculptures, and learn about the grandeur of the Greek civilization.\n",
+      "de": "Die Antike Stadt Delos befindet sich auf der Insel **Delos** in den **Kykladen**, Griechenland, und war ein bedeutendes kulturelles und religiöses Zentrum in der antiken griechischen Welt. Die Besiedlung begann im 3. Jahrtausend v. Chr., und die Insel wurde besonders bedeutend, weil sie als Geburtsort der Götter **Apollo** und **Artemis** gilt. Delos nimmt eine zentrale Rolle in der **griechischen Mythologie** ein.\n\nAusgrabungen auf der Insel haben gezeigt, dass Delos eine Schlüsselrolle im religiösen, kommerziellen und kulturellen Leben spielte. Die Insel beherbergt wichtige religiöse Bauten wie den **Apollon-Tempel** und den **Artemis-Tempel**. Sie war auch ein florierendes **Handelszentrum**, in dem verschiedene Kulturen und Zivilisationen miteinander in Kontakt standen.\n\nZu den bemerkenswerten Bauwerken auf der Insel gehören die **Mosaike** und die **Weißen Steinhäuser**, sowie das gut erhaltene **Delos-Theater**, das typische Merkmale der antiken griechischen Theater aufweist. Außerdem gibt es die **Delos-Akropolis** und die **Hafenanlagen**, die bedeutende Handelszentren in der Antike waren.\n\nIm Jahr 1990 wurde Delos in die **UNESCO-Weltkulturerbeliste** aufgenommen. Heute haben Besucher die Möglichkeit, das reiche kulturelle Erbe des antiken Griechenlands zu erkunden. Sie können die alten Tempel besichtigen, die Skulpturen bewundern und mehr über die Größe der griechischen Zivilisation erfahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Apollon Tapınağı’nı gezmek",
+        "Delos Tiyatrosu’nu keşfetmek",
+        "Mosaikleri incelemek"
+      ],
+      "en": [
+        "Exploring the Temple of Apollo",
+        "Discovering the Delos Theatre",
+        "Examining the mosaics"
+      ],
+      "de": [
+        "Den Apollon-Tempel besichtigen",
+        "Das Delos-Theater entdecken",
+        "Die Mosaike betrachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/delos_ancient_city.jpg"
+    ]
+  }
+]

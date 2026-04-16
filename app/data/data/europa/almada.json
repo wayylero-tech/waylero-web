@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "cristo-rei-heykeli",
+    "name": {
+      "tr": "Cristo Rei Heykeli",
+      "en": "Cristo Rei Statue",
+      "de": "Cristo Rei Statue"
+    },
+    "latitude": 38.6917,
+    "longitude": -9.2,
+    "description": {
+      "tr": "Cristo Rei Heykeli, Lizbon'u izlemek için mükemmel bir manzara sunan, Portekiz'in en ünlü anıtlarından biridir.",
+      "en": "The Cristo Rei Statue is one of Portugal's most famous monuments, offering a perfect view of Lisbon.",
+      "de": "Das Cristo Rei Denkmal ist eines der berühmtesten Monumente Portugals und bietet einen perfekten Blick auf Lissabon."
+    },
+    "activities": {
+      "tr": [
+        "Heykeli ziyaret etme",
+        "Lizbon manzarasını izleme"
+      ],
+      "en": [
+        "Visit the statue",
+        "Enjoy the view of Lisbon"
+      ],
+      "de": [
+        "Das Denkmal besichtigen",
+        "Den Blick auf Lissabon genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/cristo_rei.jpg"
+    ]
+  },
+  {
+    "slug": "almada-sahili",
+    "name": {
+      "tr": "Almada Sahili",
+      "en": "Almada Beach",
+      "de": "Almada Strand"
+    },
+    "latitude": 38.6847,
+    "longitude": -9.2047,
+    "description": {
+      "tr": "Almada, güzel plajları ve deniz manzaralarıyla ünlüdür. Burada sahil boyunca yürüyüş yapabilirsiniz.",
+      "en": "Almada is famous for its beautiful beaches and sea views. You can take a walk along the beach here.",
+      "de": "Almada ist bekannt für seine schönen Strände und Meerblicke. Hier kann man entlang des Strandes spazieren gehen."
+    },
+    "activities": {
+      "tr": [
+        "Sahilde yürüyüş yapma",
+        "Plajda dinlenme"
+      ],
+      "en": [
+        "Take a walk on the beach",
+        "Relax on the beach"
+      ],
+      "de": [
+        "Am Strand spazieren gehen",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/almada_beach.jpg"
+    ]
+  }
+]

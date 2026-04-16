@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "hermitaj-muzesi",
+    "name": {
+      "tr": "Hermitaj Müzesi",
+      "en": "Hermitage Museum",
+      "de": "Eremitage-Museum"
+    },
+    "latitude": 59.9343,
+    "longitude": 30.3351,
+    "description": {
+      "tr": "Hermitaj Müzesi, dünyanın en büyük ve en eski sanat galerilerinden biridir. Çok geniş bir koleksiyona sahiptir ve çok sayıda sanat eserini barındırır.\n",
+      "en": "The Hermitage Museum is one of the largest and oldest art galleries in the world. It houses an extensive collection of artworks.\n",
+      "de": "Das Eremitage-Museum ist eine der größten und ältesten Kunstgalerien der Welt. Es beherbergt eine umfangreiche Sammlung von Kunstwerken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini inceleme",
+        "Müze içinde gezinti yapma"
+      ],
+      "en": [
+        "Explore art exhibits",
+        "Wander through the museum"
+      ],
+      "de": [
+        "Kunstwerke erkunden",
+        "Im Museum spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/hermitage_museum.jpg"
+    ]
+  },
+  {
+    "slug": "peter-ve-paul-kalesi",
+    "name": {
+      "tr": "Peter ve Paul Kalesi",
+      "en": "Peter and Paul Fortress",
+      "de": "Peter-und-Paul-Festung"
+    },
+    "latitude": 59.95,
+    "longitude": 30.3025,
+    "description": {
+      "tr": "Peter ve Paul Kalesi, St. Petersburg’un en eski yapılarından biridir. Rus Çarlığı döneminde kullanılmış olan bu kale, günümüzde bir müze olarak işlev görmektedir.\n",
+      "en": "The Peter and Paul Fortress is one of the oldest structures in St. Petersburg. It was used during the Russian Tsarist era and now serves as a museum.\n",
+      "de": "Die Peter-und-Paul-Festung ist eines der ältesten Bauwerke in St. Petersburg. Sie wurde während der Zarenzeit genutzt und dient heute als Museum.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kaleyi keşfetme",
+        "Tarihi kalıntıları inceleme"
+      ],
+      "en": [
+        "Explore the fortress",
+        "Inspect historical artifacts"
+      ],
+      "de": [
+        "Die Festung erkunden",
+        "Historische Überreste besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/peter_paul_fortress.jpg"
+    ]
+  },
+  {
+    "slug": "nevsky-prospekt",
+    "name": {
+      "tr": "Nevsky Prospekt",
+      "en": "Nevsky Prospekt",
+      "de": "Newski-Prospekt"
+    },
+    "latitude": 59.9343,
+    "longitude": 30.3374,
+    "description": {
+      "tr": "Nevsky Prospekt, St. Petersburg'un en ünlü ve en uzun caddelerinden biridir. Alışveriş yapabileceğiniz çok sayıda mağaza, restoran ve kafe vardır.\n",
+      "en": "Nevsky Prospekt is one of St. Petersburg's most famous and longest streets. It features numerous shops, restaurants, and cafes.\n",
+      "de": "Der Newski-Prospekt ist eine der bekanntesten und längsten Straßen in St. Petersburg. Er bietet zahlreiche Geschäfte, Restaurants und Cafés.\n"
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Caddede yürüyüş yapma"
+      ],
+      "en": [
+        "Go shopping",
+        "Stroll along the avenue"
+      ],
+      "de": [
+        "Einkaufen gehen",
+        "Die Straße entlang spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/nevsky_prospekt.jpg"
+    ]
+  },
+  {
+    "slug": "ermitaj-tiyatrosu",
+    "name": {
+      "tr": "Ermitaj Tiyatrosu",
+      "en": "Hermitage Theatre",
+      "de": "Eremitage-Theater"
+    },
+    "latitude": 59.9342,
+    "longitude": 30.3268,
+    "description": {
+      "tr": "Ermitaj Tiyatrosu, tarihi yapılarıyla ünlü olan ve konserler, bale ve tiyatro gösterilerine ev sahipliği yapan bir mekan olup, kültürel bir hazine sunar.\n",
+      "en": "The Hermitage Theatre is a cultural gem, known for its historic architecture and hosting concerts, ballets, and theatre performances.\n",
+      "de": "Das Eremitage-Theater ist ein kulturelles Juwel, bekannt für seine historische Architektur und die Aufführungen von Konzerten, Balletten und Theaterstücken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Bir performans izleme",
+        "Sanat etkinliklerine katılma"
+      ],
+      "en": [
+        "Watch a performance",
+        "Attend artistic events"
+      ],
+      "de": [
+        "Eine Aufführung ansehen",
+        "An Kunstveranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/hermitage_theatre.jpg"
+    ]
+  },
+  {
+    "slug": "puskin-muzesi",
+    "name": {
+      "tr": "Puşkin Müzesi",
+      "en": "Pushkin Museum",
+      "de": "Puschkin-Museum"
+    },
+    "latitude": 59.9343,
+    "longitude": 30.3374,
+    "description": {
+      "tr": "Puşkin Müzesi, Rus edebiyatının en büyük yazarlarından biri olan Aleksandr Puşkin'e adanmış bir müzedir. Yazarın hayatına dair pek çok sergi sunulmaktadır.\n",
+      "en": "The Pushkin Museum is dedicated to one of Russia’s greatest literary figures, Alexander Pushkin. It offers many exhibits about his life.\n",
+      "de": "Das Puschkin-Museum ist dem großen russischen Schriftsteller Alexander Puschkin gewidmet. Es bietet viele Ausstellungen zu seinem Leben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Puşkin’in hayatı hakkında bilgi edinme",
+        "Edebiyatla ilgili sergileri gezme"
+      ],
+      "en": [
+        "Learn about Pushkin’s life",
+        "Explore literary exhibits"
+      ],
+      "de": [
+        "Mehr über Puschkins Leben erfahren",
+        "Literarische Ausstellungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/pushkin_museum.jpg"
+    ]
+  }
+]

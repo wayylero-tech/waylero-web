@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "david-gareja-manastir-kompleksi",
+    "name": {
+      "tr": "David Gareja Manastır Kompleksi",
+      "en": "David Gareja Monastery Complex",
+      "de": "David Gareja-Klosterkomplex"
+    },
+    "latitude": 41.5748,
+    "longitude": 45.1729,
+    "description": {
+      "tr": "David Gareja Manastır Kompleksi, Gürcistan’ın çöllük bölgesinde yer alan kayalara oyulmuş bir manastırdır. Bu bölge, mistik atmosferi ve etkileyici doğal güzellikleri ile dikkat çeker.",
+      "en": "The David Gareja Monastery Complex is a rock-carved monastery located in Georgia’s desert region. This area is known for its mystical atmosphere and stunning natural beauty.",
+      "de": "Der David Gareja-Klosterkomplex ist ein in den Felsen gehauenes Kloster, das sich in Georgiens Wüstenregion befindet. Diese Gegend ist bekannt für ihre mystische Atmosphäre und atemberaubende natürliche Schönheit."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezmek",
+        "Bölgedeki kayalara oyulmuş yapıları görmek"
+      ],
+      "en": [
+        "Visiting the monastery",
+        "Seeing the rock-carved structures"
+      ],
+      "de": [
+        "Das Kloster besichtigen",
+        "Die in den Felsen gehauenen Strukturen sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/david_gareja_monastery.jpg"
+    ]
+  }
+]

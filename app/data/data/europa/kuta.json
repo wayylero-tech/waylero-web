@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "kuta-beach",
+    "name": {
+      "tr": "Kuta Beach",
+      "en": "Kuta Beach",
+      "de": "Kuta Beach"
+    },
+    "latitude": -8.7219,
+    "longitude": 115.1728,
+    "description": {
+      "tr": "Kuta Beach, Bali'nin en ünlü ve kalabalık plajlarından biridir. Sörf öğrenmek isteyenler için mükemmel dalgalar sunan plaj, aynı zamanda gün batımını izlemek için harika bir noktadır. Kuta Beach, plaj aktiviteleri, su sporları ve rahatlatıcı atmosferiyle her yaş grubundan ziyaretçi için uygundur. Burada birçok restoran, bar ve kafe bulunur, bu yüzden gün boyunca eğlenceli bir zaman geçirebilirsiniz.\n",
+      "en": "Kuta Beach is one of Bali’s most famous and crowded beaches. It offers perfect waves for those who want to learn surfing, and it’s also a great spot to watch the sunset. Kuta Beach is suitable for visitors of all ages, with beach activities, water sports, and a relaxing atmosphere. Many restaurants, bars, and cafes are located around the area, so you can enjoy a fun time throughout the day.\n",
+      "de": "Der Kuta Beach ist einer der bekanntesten und belebtesten Strände in Bali. Er bietet perfekte Wellen für diejenigen, die Surfen lernen möchten, und ist auch ein großartiger Ort, um den Sonnenuntergang zu beobachten. Der Kuta Beach eignet sich für Besucher jeden Alters und bietet Strandaktivitäten, Wassersport und eine entspannte Atmosphäre. Rund um den Strand gibt es viele Restaurants, Bars und Cafés, sodass Sie den ganzen Tag über eine unterhaltsame Zeit verbringen können.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Gün batımını izlemek",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Surfing",
+        "Watching the sunset",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Surfen",
+        "Den Sonnenuntergang beobachten",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/kuta_beach.jpg"
+    ]
+  },
+  {
+    "slug": "waterbom-bali",
+    "name": {
+      "tr": "Waterbom Bali",
+      "en": "Waterbom Bali",
+      "de": "Waterbom Bali"
+    },
+    "latitude": -8.7178,
+    "longitude": 115.1702,
+    "description": {
+      "tr": "Waterbom Bali, Bali'nin en ünlü su parklarından biridir. Aileler ve arkadaşlar için eğlenceli bir yerdir, birçok kaydırak ve su aktivitesine ev sahipliği yapar. Burada geçireceğiniz zaman boyunca eğlenceli anlar yaşarken serinleyebilirsiniz. Waterbom Bali, aynı zamanda çocuklar için güvenli alanlar ve yetişkinler için dinlenme bölgeleri sunar.\n",
+      "en": "Waterbom Bali is one of Bali’s most famous water parks. It is a fun place for families and friends, with many slides and water activities. You can cool off while having fun throughout the day. Waterbom Bali also offers safe areas for children and relaxation zones for adults.\n",
+      "de": "Waterbom Bali ist einer der bekanntesten Wasserparks in Bali. Es ist ein unterhaltsamer Ort für Familien und Freunde mit vielen Rutschen und Wasseraktivitäten. Sie können sich den ganzen Tag über abkühlen und dabei Spaß haben. Waterbom Bali bietet auch sichere Bereiche für Kinder und Entspannungszonen für Erwachsene.\n"
+    },
+    "activities": {
+      "tr": [
+        "Su kaydıraklarında eğlenmek",
+        "Aile ile vakit geçirmek",
+        "Su aktivitelerine katılmak"
+      ],
+      "en": [
+        "Enjoying water slides",
+        "Spending time with family",
+        "Participating in water activities"
+      ],
+      "de": [
+        "Wasserrutschen genießen",
+        "Zeit mit der Familie verbringen",
+        "An Wasseraktivitäten teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/waterbom_bali.jpg"
+    ]
+  },
+  {
+    "slug": "beachwalk-shopping-center",
+    "name": {
+      "tr": "Beachwalk Shopping Center",
+      "en": "Beachwalk Shopping Center",
+      "de": "Beachwalk Shopping Center"
+    },
+    "latitude": -8.7197,
+    "longitude": 115.1684,
+    "description": {
+      "tr": "Beachwalk Shopping Center, Bali'nin en lüks alışveriş merkezlerinden biridir. Burada dünya çapında markaların mağazaları, restoranlar ve kafeler bulunmaktadır. Hem alışveriş yapabilir hem de kaliteli yemekler yiyebilirsiniz. Ayrıca, alışveriş merkezinin sunduğu rahatlatıcı atmosferde dinlenmek ve günün tadını çıkarmak mümkündür.\n",
+      "en": "Beachwalk Shopping Center is one of Bali’s most luxurious shopping malls. It features stores of world-renowned brands, restaurants, and cafes. You can shop and enjoy high-quality meals at the same time. Additionally, the mall provides a relaxing atmosphere to rest and enjoy the day.\n",
+      "de": "Das Beachwalk Shopping Center ist eines der luxuriösesten Einkaufszentren in Bali. Es bietet Geschäfte von weltbekannten Marken, Restaurants und Cafés. Sie können einkaufen und gleichzeitig hochwertige Mahlzeiten genießen. Darüber hinaus bietet das Einkaufszentrum eine entspannende Atmosphäre, um sich zu erholen und den Tag zu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Restoranlarda yemek yemek",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Shopping",
+        "Dining in restaurants",
+        "Relaxing"
+      ],
+      "de": [
+        "Einkaufen",
+        "In Restaurants essen",
+        "Entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/beachwalk_shopping_center.jpg"
+    ]
+  }
+]

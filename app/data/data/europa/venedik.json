@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "san-marco-meydani",
+    "name": {
+      "tr": "San Marco Meydanı",
+      "en": "St. Mark's Square",
+      "de": "Piazza San Marco"
+    },
+    "latitude": 45.434,
+    "longitude": 12.338,
+    "description": {
+      "tr": "San Marco Meydanı, Venedik'in en ünlü meydanı olup, bazilikası ve çevresindeki tarihi yapılarıyla ünlüdür.",
+      "en": "St. Mark's Square is the most famous square in Venice, renowned for its basilica and surrounding historic buildings.",
+      "de": "Der Markusplatz ist der bekannteste Platz in Venedig, berühmt für seine Basilika und die umgebenden historischen Gebäude."
+    },
+    "activities": {
+      "tr": [
+        "Meydanı gezme",
+        "San Marco Bazilikasını ziyaret etme"
+      ],
+      "en": [
+        "Explore the square",
+        "Visit St. Mark's Basilica"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "Die Markusbasilika besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/san_marco_square.jpg"
+    ]
+  },
+  {
+    "slug": "venedik-kanallari",
+    "name": {
+      "tr": "Venedik Kanalları",
+      "en": "Venetian Canals",
+      "de": "Venedig Kanäle"
+    },
+    "latitude": 45.4408,
+    "longitude": 12.3155,
+    "description": {
+      "tr": "Venedik'in ünlü su yolları, şehri keşfetmek için harika bir yoldur. Gondolla gezinti yapabilirsiniz.",
+      "en": "The famous waterways of Venice are a great way to explore the city. You can take a gondola ride.",
+      "de": "Die berühmten Wasserstraßen von Venedig sind eine großartige Möglichkeit, die Stadt zu erkunden. Sie können eine Gondelfahrt machen."
+    },
+    "activities": {
+      "tr": [
+        "Gondolla tur yapma",
+        "Kanallar boyunca yürüyüş yapma"
+      ],
+      "en": [
+        "Take a gondola ride",
+        "Walk along the canals"
+      ],
+      "de": [
+        "Eine Gondelfahrt machen",
+        "Entlang der Kanäle spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/venetian_canals.jpg"
+    ]
+  }
+]

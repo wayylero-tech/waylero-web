@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "aros-aarhus-sanat-muzesi",
+    "name": {
+      "tr": "ARoS Aarhus Sanat Müzesi",
+      "en": "ARoS Aarhus Art Museum",
+      "de": "ARoS Aarhus Kunstmuseum"
+    },
+    "latitude": 56.1552,
+    "longitude": 10.2083,
+    "description": {
+      "tr": "Modern sanat galerisi olan ARoS, \"Your Rainbow Panorama\" sergisiyle ünlüdür. Müzede çağdaş sanat eserleri ve geçici sergiler de sergilenmektedir.",
+      "en": "ARoS is a modern art museum famous for its \"Your Rainbow Panorama\" exhibit. The museum also showcases contemporary art and temporary exhibitions.",
+      "de": "ARoS ist ein modernes Kunstmuseum, das für seine Ausstellung \"Your Rainbow Panorama\" bekannt ist. Im Museum werden auch zeitgenössische Kunstwerke und temporäre Ausstellungen gezeigt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Your Rainbow Panorama'yı görmek"
+      ],
+      "en": [
+        "Exploring the art galleries",
+        "Seeing the \"Your Rainbow Panorama\""
+      ],
+      "de": [
+        "Die Kunstgalerien besichtigen",
+        "Das \"Your Rainbow Panorama\" sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/aros_aarhus.jpg"
+    ]
+  },
+  {
+    "slug": "den-gamle-by",
+    "name": {
+      "tr": "Den Gamle By",
+      "en": "Den Gamle By",
+      "de": "Den Gamle By"
+    },
+    "latitude": 56.1571,
+    "longitude": 10.2093,
+    "description": {
+      "tr": "Den Gamle By, 19. yüzyıldan kalma tarihi binalarıyla açık hava müzesi olarak hizmet vermektedir. Ziyaretçiler, dönemin yaşam tarzını ve tarihini keşfedebilir.",
+      "en": "Den Gamle By is an open-air museum with historical buildings from the 19th century. Visitors can explore the lifestyle and history of that era.",
+      "de": "Den Gamle By ist ein Freilichtmuseum mit historischen Gebäuden aus dem 19. Jahrhundert. Besucher können den Lebensstil und die Geschichte dieser Zeit entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi binaları gezmek",
+        "19. yüzyıl yaşamını keşfetmek"
+      ],
+      "en": [
+        "Exploring historical buildings",
+        "Discovering 19th-century life"
+      ],
+      "de": [
+        "Historische Gebäude besichtigen",
+        "Das Leben im 19. Jahrhundert entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/den_gamle_by.jpg"
+    ]
+  },
+  {
+    "slug": "aarhus-katedrali",
+    "name": {
+      "tr": "Aarhus Katedrali",
+      "en": "Aarhus Cathedral",
+      "de": "Aarhus Domkirche"
+    },
+    "latitude": 56.159,
+    "longitude": 10.207,
+    "description": {
+      "tr": "Aarhus Katedrali, Danimarka’nın en büyük katedrallerinden biridir. Gotik tarzda inşa edilen bu yapı, etkileyici mimarisi ve tarihi ile dikkat çeker.",
+      "en": "Aarhus Cathedral is one of Denmark’s largest cathedrals. Built in the Gothic style, it stands out with its impressive architecture and history.",
+      "de": "Der Aarhus Dom ist eine der größten Kathedralen Dänemarks. Im gotischen Stil erbaut, zeichnet er sich durch seine beeindruckende Architektur und Geschichte aus."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etmek",
+        "Gotik mimarisiyle büyülenmek"
+      ],
+      "en": [
+        "Visiting the cathedral",
+        "Admiring its Gothic architecture"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die gotische Architektur bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/aarhus_cathedral.jpg"
+    ]
+  }
+]

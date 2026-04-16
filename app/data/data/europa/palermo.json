@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "palermo-katedrali",
+    "name": {
+      "tr": "Palermo Katedrali",
+      "en": "Palermo Cathedral",
+      "de": "Palermo Kathedrale"
+    },
+    "latitude": 38.1157,
+    "longitude": 13.3615,
+    "description": {
+      "tr": "Palermo Katedrali, Arap, Norman ve Gotik mimari tarzlarının birleşimiyle inşa edilmiş tarihi bir yapıdır.",
+      "en": "The Palermo Cathedral is a historic building built in a combination of Arab, Norman, and Gothic architectural styles.",
+      "de": "Die Kathedrale von Palermo ist ein historisches Gebäude, das in einer Kombination aus arabischer, normannischer und gotischer Architektur gebaut wurde."
+    },
+    "activities": {
+      "tr": [
+        "Katedralin içini gezme",
+        "Tarihi yapıyı inceleme"
+      ],
+      "en": [
+        "Tour the interior of the cathedral",
+        "Examine the historic structure"
+      ],
+      "de": [
+        "Das Innere der Kathedrale besichtigen",
+        "Das historische Gebäude untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/palermo_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "teatro-massimo",
+    "name": {
+      "tr": "Teatro Massimo",
+      "en": "Teatro Massimo",
+      "de": "Teatro Massimo"
+    },
+    "latitude": 38.1154,
+    "longitude": 13.3621,
+    "description": {
+      "tr": "Teatro Massimo, Avrupa'nın en büyük opera binalarından biridir ve Palermo'nun kültürel simgelerindendir.",
+      "en": "Teatro Massimo is one of Europe's largest opera houses and is a cultural landmark in Palermo.",
+      "de": "Das Teatro Massimo ist eines der größten Opernhäuser Europas und ein kulturelles Wahrzeichen von Palermo."
+    },
+    "activities": {
+      "tr": [
+        "Opera izleme",
+        "Tiyatronun içini keşfetme"
+      ],
+      "en": [
+        "Watch an opera performance",
+        "Explore the interior of the theater"
+      ],
+      "de": [
+        "Eine Oper aufführen sehen",
+        "Das Innere des Theaters erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/teatro_massimo.jpg"
+    ]
+  }
+]

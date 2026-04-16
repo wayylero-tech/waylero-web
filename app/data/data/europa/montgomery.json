@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "montgomery-medeniyetler-muzesi",
+    "name": {
+      "tr": "Montgomery Medeniyetler Müzesi",
+      "en": "Montgomery Museum of Civil Rights",
+      "de": "Montgomery Museum für Bürgerrechte"
+    },
+    "latitude": 32.3792,
+    "longitude": -86.3077,
+    "description": {
+      "tr": "Montgomery Medeniyetler Müzesi, sivil haklar hareketinin merkezlerinden biri olan Montgomery'nin tarihi ve kültürel geçmişini keşfetmek için mükemmel bir yerdir. Ziyaretçiler, şehrin sivil haklar mücadelesindeki önemli rolünü öğrenebilirler.\n",
+      "en": "The Montgomery Museum of Civil Rights is a great place to explore the historical and cultural past of Montgomery, one of the centers of the civil rights movement. Visitors can learn about the city's important role in the civil rights struggle.\n",
+      "de": "Das Montgomery Museum für Bürgerrechte ist ein großartiger Ort, um die historische und kulturelle Vergangenheit von Montgomery, einem der Zentren der Bürgerrechtsbewegung, zu erkunden. Besucher können mehr über die wichtige Rolle der Stadt im Kampf um Bürgerrechte erfahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sivil haklar hareketi hakkında bilgi edinmek",
+        "Müzeyi gezmek"
+      ],
+      "en": [
+        "Learn about the civil rights movement",
+        "Visit the museum"
+      ],
+      "de": [
+        "Mehr über die Bürgerrechtsbewegung erfahren",
+        "Das Museum besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/montgomery_museum_of_civil_rights.jpg"
+    ]
+  },
+  {
+    "slug": "alabama-eyalet-meclisi",
+    "name": {
+      "tr": "Alabama Eyalet Meclisi",
+      "en": "Alabama State Capitol",
+      "de": "Alabama Staatskapitol"
+    },
+    "latitude": 32.3787,
+    "longitude": -86.3005,
+    "description": {
+      "tr": "Alabama Eyalet Meclisi, Montgomery'nin en ikonik yapılarından biridir. 1851 yılında inşa edilen bu yapı, Alabama'nın siyasal tarihini yansıtır. Ziyaretçiler, binanın tarihini öğrenebilir ve devletin yasama sürecine dair bilgiler edinebilir.\n",
+      "en": "The Alabama State Capitol is one of Montgomery's most iconic structures. Built in 1851, this building reflects Alabama's political history. Visitors can learn about the building's history and gain insight into the state's legislative process.\n",
+      "de": "Das Alabama Staatskapitol ist eines der ikonischsten Gebäude in Montgomery. Es wurde 1851 erbaut und spiegelt die politische Geschichte von Alabama wider. Besucher können mehr über die Geschichte des Gebäudes erfahren und Einblicke in den Gesetzgebungsprozess des Staates erhalten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Eyalet meclisini gezmek",
+        "Alabama’nın siyasal geçmişini keşfetmek"
+      ],
+      "en": [
+        "Tour the state capitol",
+        "Explore Alabama’s political history"
+      ],
+      "de": [
+        "Das Staatskapitol besichtigen",
+        "Die politische Geschichte Alabamas erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/alabama_state_capitol.jpg"
+    ]
+  },
+  {
+    "slug": "rosa-parks-aniti",
+    "name": {
+      "tr": "Rosa Parks Anıtı",
+      "en": "Rosa Parks Monument",
+      "de": "Rosa Parks Denkmal"
+    },
+    "latitude": 32.3801,
+    "longitude": -86.2998,
+    "description": {
+      "tr": "Rosa Parks Anıtı, sivil haklar hareketinin sembolü haline gelen Rosa Parks'ın hatırasına yapılmış bir anıttır. 1955 yılında, Rosa Parks’ın otobüslerdeki ırk ayrımcılığına karşı başlattığı protesto, sivil haklar mücadelesinin simgesi olmuştur.\n",
+      "en": "The Rosa Parks Monument is a tribute to Rosa Parks, a symbol of the civil rights movement. In 1955, Rosa Parks' protest against bus segregation became a pivotal moment in the civil rights struggle.\n",
+      "de": "Das Rosa Parks Denkmal ist eine Ehrung von Rosa Parks, einem Symbol der Bürgerrechtsbewegung. 1955 begann Rosa Parks mit ihrem Protest gegen die Bussegregation einen Wendepunkt im Kampf um Bürgerrechte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Rosa Parks’ın mücadelesini öğrenmek",
+        "Anıtı ziyaret etmek"
+      ],
+      "en": [
+        "Learn about Rosa Parks’ struggle",
+        "Visit the monument"
+      ],
+      "de": [
+        "Mehr über den Kampf von Rosa Parks erfahren",
+        "Das Denkmal besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/rosa_parks_monument.jpg"
+    ]
+  },
+  {
+    "slug": "dexter-avenue-baptist-kilisesi",
+    "name": {
+      "tr": "Dexter Avenue Baptist Kilisesi",
+      "en": "Dexter Avenue Baptist Church",
+      "de": "Dexter Avenue Baptistenkirche"
+    },
+    "latitude": 32.3793,
+    "longitude": -86.2995,
+    "description": {
+      "tr": "Dexter Avenue Baptist Kilisesi, Martin Luther King Jr.'ın vaaz verdiği ve sivil haklar hareketinin önemli bir merkezi olan tarihi bir kilisedir. Burada, sivil haklar mücadelesi hakkında daha fazla bilgi edinilebilir.\n",
+      "en": "Dexter Avenue Baptist Church is a historic church where Martin Luther King Jr. preached and was a pivotal site for the civil rights movement. Visitors can learn more about the civil rights struggle at this location.\n",
+      "de": "Die Dexter Avenue Baptistenkirche ist eine historische Kirche, in der Martin Luther King Jr. predigte und die ein wichtiger Ort für die Bürgerrechtsbewegung war. Besucher können hier mehr über den Kampf um Bürgerrechte erfahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin tarihi hakkında bilgi edinmek",
+        "Martin Luther King Jr.’ın vaazlarını dinlemek"
+      ],
+      "en": [
+        "Learn about the church’s history",
+        "Listen to Martin Luther King Jr.’s sermons"
+      ],
+      "de": [
+        "Mehr über die Geschichte der Kirche erfahren",
+        "Die Predigten von Martin Luther King Jr. hören"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/dexter_avenue_baptist_church.jpg"
+    ]
+  }
+]

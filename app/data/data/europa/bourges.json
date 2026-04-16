@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "bourges-katedrali",
+    "name": {
+      "tr": "Bourges Katedrali",
+      "en": "Bourges Cathedral",
+      "de": "Kathedrale von Bourges"
+    },
+    "latitude": 47.08234,
+    "longitude": 2.39916,
+    "description": {
+      "tr": "Bourges Katedrali, gotik mimarisiyle dikkat çeken bir katedral olup, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Bourges Cathedral, with its Gothic architecture, is listed as a UNESCO World Heritage site.",
+      "de": "Die Kathedrale von Bourges, mit ihrer gotischen Architektur, steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezmek",
+        "Gotik mimarisi hakkında bilgi almak"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Learn about its Gothic architecture"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Mehr über die gotische Architektur erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/bourges_cathedral.jpg"
+    ]
+  }
+]

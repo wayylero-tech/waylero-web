@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "las-vegas-strip",
+    "name": {
+      "tr": "Las Vegas Strip",
+      "en": "Las Vegas Strip",
+      "de": "Las Vegas Strip"
+    },
+    "latitude": 36.1147,
+    "longitude": -115.1728,
+    "description": {
+      "tr": "Las Vegas Strip, dünyanın en ünlü eğlence caddelerinden biridir. Yüksek oteller, kumarhaneler, restoranlar ve eğlence merkezleri ile ünlüdür.",
+      "en": "The Las Vegas Strip is one of the world's most famous entertainment streets, known for its high-rise hotels, casinos, restaurants, and entertainment venues.",
+      "de": "Der Las Vegas Strip ist eine der bekanntesten Unterhaltungsstraßen der Welt, bekannt für seine Wolkenkratzerhotels, Kasinos, Restaurants und Unterhaltungseinrichtungen."
+    },
+    "activities": {
+      "tr": [
+        "Kumarhaneleri gezme",
+        "Canlı gösterilere katılma",
+        "Lüks alışveriş yapma"
+      ],
+      "en": [
+        "Explore casinos",
+        "Attend live shows",
+        "Shop for luxury goods"
+      ],
+      "de": [
+        "Kasinos besichtigen",
+        "An Live-Shows teilnehmen",
+        "Luxusgüter einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/las_vegas_strip.jpg"
+    ]
+  },
+  {
+    "slug": "the-venetian-resort",
+    "name": {
+      "tr": "The Venetian Resort",
+      "en": "The Venetian Resort",
+      "de": "The Venetian Resort"
+    },
+    "latitude": 36.1215,
+    "longitude": -115.1711,
+    "description": {
+      "tr": "The Venetian Resort, Las Vegas’ta İtalya'nın Venedik şehrini andıran bir tatil köyüdür. Gondol turları, lüks alışveriş mağazaları ve restoranlar ile ünlüdür.",
+      "en": "The Venetian Resort is a resort in Las Vegas that resembles the city of Venice, Italy. It is famous for gondola tours, luxury shopping stores, and restaurants.",
+      "de": "Das Venetian Resort ist ein Resort in Las Vegas, das der Stadt Venedig, Italien, nachempfunden ist. Es ist bekannt für Gondelfahrten, Luxusgeschäfte und Restaurants."
+    },
+    "activities": {
+      "tr": [
+        "Venedik Gondol Turu yapma",
+        "Alışveriş ve yeme içme"
+      ],
+      "en": [
+        "Take a Venetian gondola tour",
+        "Shop and dine"
+      ],
+      "de": [
+        "Eine Gondelfahrt in Venedig machen",
+        "Einkaufen und essen gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/the_venetian_resort.jpg"
+    ]
+  },
+  {
+    "slug": "fremont-street-experience",
+    "name": {
+      "tr": "Fremont Street Experience",
+      "en": "Fremont Street Experience",
+      "de": "Fremont Street Erlebnis"
+    },
+    "latitude": 36.1699,
+    "longitude": -115.1413,
+    "description": {
+      "tr": "Fremont Street Experience, Las Vegas’ın tarihi bölgesinde bulunan bir açık hava alışveriş merkezi ve eğlence alanıdır. Dev LED ekranı ve ışık gösterileri ile ünlüdür.",
+      "en": "The Fremont Street Experience is an outdoor shopping center and entertainment area located in the historic district of Las Vegas. It is famous for its large LED screen and light shows.",
+      "de": "Die Fremont Street Experience ist ein Freiluft-Einkaufszentrum und Unterhaltungsbereich im historischen Stadtteil von Las Vegas. Es ist bekannt für seine große LED-Leinwand und Lichtshows."
+    },
+    "activities": {
+      "tr": [
+        "Işık gösterilerini izleme",
+        "Fremont Street’te yürüyüş yapma"
+      ],
+      "en": [
+        "Watch the light shows",
+        "Take a walk along Fremont Street"
+      ],
+      "de": [
+        "Die Lichtshows ansehen",
+        "Spaziergang entlang der Fremont Street"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/fremont_street.jpg"
+    ]
+  }
+]

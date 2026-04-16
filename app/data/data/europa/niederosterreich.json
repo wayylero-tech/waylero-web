@@ -1,0 +1,437 @@
+[
+  {
+    "slug": "wachau-vadisi",
+    "name": {
+      "tr": "Wachau Vadisi",
+      "en": "Wachau Valley",
+      "de": "Wachau"
+    },
+    "latitude": 48.415,
+    "longitude": 15.433,
+    "description": {
+      "tr": "Wachau Vadisi, Donau Nehri boyunca uzanan ve UNESCO Dünya Mirası Listesi'nde yer alan tarihi bir bölgedir. Vadide, şarap bağları, tarihi kasabalar ve kaleler bulunmaktadır. Ziyaretçiler, yürüyüş yapabilir, tekne turlarına katılabilir ve bölgenin ünlü şaraplarını tadabilirler.",
+      "en": "The Wachau Valley is a historic region along the Danube River, listed as a UNESCO World Heritage Site. The valley is home to vineyards, historic towns, and castles. Visitors can hike, take boat tours, and sample the famous wines of the region.",
+      "de": "Das Wachau-Tal ist eine historische Region entlang der Donau, die als UNESCO-Weltkulturerbe gelistet ist. Das Tal beherbergt Weinberge, historische Städte und Burgen. Besucher können wandern, Bootstouren machen und die berühmten Weine der Region probieren."
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapma",
+        "Tekne turu yapma",
+        "Şarap tadımı yapma"
+      ],
+      "en": [
+        "Hiking",
+        "Boat tours",
+        "Wine tasting"
+      ],
+      "de": [
+        "Wandern",
+        "Bootstouren",
+        "Weinverkostung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "tarih",
+        "şarap turizmi"
+      ],
+      "en": [
+        "nature",
+        "history",
+        "wine tourism"
+      ],
+      "de": [
+        "natur",
+        "geschichte",
+        "wein tourismus"
+      ]
+    },
+    "images": [
+      "https://example.com/wachau_valley.jpg"
+    ]
+  },
+  {
+    "slug": "melk-manastiri",
+    "name": {
+      "tr": "Melk Manastırı",
+      "en": "Melk Abbey",
+      "de": "Stift Melk"
+    },
+    "latitude": 48.213,
+    "longitude": 15.3305,
+    "description": {
+      "tr": "Melk Manastırı, Aşağı Avusturya'nın Melk kasabasında yer alan tarihi bir manastırdır. Barok tarzda inşa edilmiş olan manastır, Avusturya'nın en önemli dini ve kültürel yapılarından biridir. İçerisinde etkileyici bir kütüphane, bir kilise ve çeşitli sanat eserleri bulunmaktadır.",
+      "en": "Melk Abbey is a historic Benedictine monastery located in the town of Melk, Lower Austria. Built in the Baroque style, the abbey is one of Austria's most important religious and cultural landmarks. It features an impressive library, a church, and various art pieces.",
+      "de": "Das Stift Melk ist ein historisches Benediktinerkloster in der Stadt Melk in Niederösterreich. Es wurde im Barockstil erbaut und ist eines der wichtigsten religiösen und kulturellen Wahrzeichen Österreichs. Es beherbergt eine beeindruckende Bibliothek, eine Kirche und verschiedene Kunstwerke."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezme",
+        "Barok mimarisini keşfetme",
+        "Kütüphane ve sanat galerilerini gezme"
+      ],
+      "en": [
+        "Tour the abbey",
+        "Explore the Baroque architecture",
+        "Visit the library and art galleries"
+      ],
+      "de": [
+        "Die Abtei besichtigen",
+        "Die Barockarchitektur erkunden",
+        "Die Bibliothek und Kunstgalerien besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari",
+        "kültür"
+      ],
+      "en": [
+        "historic",
+        "architecture",
+        "culture"
+      ],
+      "de": [
+        "historisch",
+        "architektur",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://example.com/melk_abbey.jpg"
+    ]
+  },
+  {
+    "slug": "krems-an-der-donau",
+    "name": {
+      "tr": "Krems an der Donau",
+      "en": "Krems an der Donau",
+      "de": "Krems an der Donau"
+    },
+    "latitude": 48.41,
+    "longitude": 15.62,
+    "description": {
+      "tr": "Krems an der Donau, Wachau Vadisi'nde yer alan tarihi bir kasabadır. Şarapçılığıyla ünlü olan bu kasaba, tarihi binalar ve sanat galerileriyle dikkat çeker. Ziyaretçiler, kasabanın dar sokaklarında yürüyebilir ve geleneksel şarapları tadabilirler.",
+      "en": "Krems an der Donau is a historic town located in the Wachau Valley. Known for its wine production, the town features historic buildings and art galleries. Visitors can stroll through its narrow streets and taste the local wines.",
+      "de": "Krems an der Donau ist eine historische Stadt im Wachau-Tal. Die Stadt ist bekannt für ihre Weinproduktion und zeichnet sich durch historische Gebäude und Kunstgalerien aus. Besucher können durch die engen Straßen schlendern und die lokalen Weine probieren."
+    },
+    "activities": {
+      "tr": [
+        "Köyde dolaşma",
+        "Şarap tadımı yapma",
+        "Sanat galerilerini gezme"
+      ],
+      "en": [
+        "Stroll through the village",
+        "Wine tasting",
+        "Visit art galleries"
+      ],
+      "de": [
+        "Durch das Dorf spazieren",
+        "Weinverkostung",
+        "Kunstgalerien besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari",
+        "kültür"
+      ],
+      "en": [
+        "historic",
+        "architecture",
+        "culture"
+      ],
+      "de": [
+        "historisch",
+        "architektur",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://example.com/krems.jpg"
+    ]
+  },
+  {
+    "slug": "tulln-an-der-donau",
+    "name": {
+      "tr": "Tulln an der Donau",
+      "en": "Tulln an der Donau",
+      "de": "Tulln an der Donau"
+    },
+    "latitude": 48.366,
+    "longitude": 15.587,
+    "description": {
+      "tr": "Tulln an der Donau, Viyana'nın batısında yer alan tarihi bir kasabadır. Egon Schiele Sanat Merkezi ve botanik bahçesi ile ünlüdür. Ziyaretçiler, kasabanın doğal güzelliklerini keşfedebilir ve modern sanat galerilerini gezebilirler.",
+      "en": "Tulln an der Donau is a historic town located west of Vienna. It is known for the Egon Schiele Art Center and its botanical gardens. Visitors can explore the town's natural beauty and visit modern art galleries.",
+      "de": "Tulln an der Donau ist eine historische Stadt westlich von Wien. Sie ist bekannt für das Egon Schiele Art Center und die botanischen Gärten. Besucher können die natürliche Schönheit der Stadt entdecken und moderne Kunstgalerien besuchen."
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapma",
+        "Sanat galerilerini gezme"
+      ],
+      "en": [
+        "Hiking",
+        "Visit art galleries"
+      ],
+      "de": [
+        "Wandern",
+        "Kunstgalerien besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari",
+        "kültür"
+      ],
+      "en": [
+        "historic",
+        "architecture",
+        "culture"
+      ],
+      "de": [
+        "historisch",
+        "architektur",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://example.com/tulln.jpg"
+    ]
+  },
+  {
+    "slug": "sankt-polten",
+    "name": {
+      "tr": "Sankt Pölten",
+      "en": "Sankt Pölten",
+      "de": "Sankt Pölten"
+    },
+    "latitude": 48.204,
+    "longitude": 15.626,
+    "description": {
+      "tr": "Sankt Pölten, Aşağı Avusturya'nın başkentidir. Şehir, modern ve barok mimarinin birleşiminden oluşur. Şehirdeki önemli yapılar arasında **Sankt Pölten Katedrali** ve **Landhaus** yer alır.",
+      "en": "Sankt Pölten is the capital of Lower Austria. The city is a blend of modern and Baroque architecture. Important landmarks include the **Sankt Pölten Cathedral** and the **Landhaus**.",
+      "de": "Sankt Pölten ist die Hauptstadt von Niederösterreich. Die Stadt ist eine Mischung aus moderner und barocker Architektur. Wichtige Sehenswürdigkeiten sind der **Sankt Pölten Dom** und das **Landhaus**."
+    },
+    "activities": {
+      "tr": [
+        "Şehir turu",
+        "Barok yapıları gezme"
+      ],
+      "en": [
+        "City tour",
+        "Explore Baroque buildings"
+      ],
+      "de": [
+        "Stadtrundfahrt",
+        "Barockgebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/sanktpoelten.jpg"
+    ]
+  },
+  {
+    "slug": "gumpoldskirchen",
+    "name": {
+      "tr": "Gumpoldskirchen",
+      "en": "Gumpoldskirchen",
+      "de": "Gumpoldskirchen"
+    },
+    "latitude": 48.014,
+    "longitude": 16.37,
+    "description": {
+      "tr": "Gumpoldskirchen, şaraplarıyla ünlü bir köydür. Viyana'ya oldukça yakın olan bu kasaba, **şarap bağları** ve **geleneksel evler** ile dikkat çeker. Ziyaretçiler, bağlarda yürüyüş yapabilir ve yerel şarapları tadabilirler.",
+      "en": "Gumpoldskirchen is a village famous for its wines. Located near Vienna, the town is known for its **vineyards** and **traditional houses**. Visitors can walk through the vineyards and taste local wines.",
+      "de": "Gumpoldskirchen ist ein Dorf, das für seine Weine bekannt ist. Es liegt in der Nähe von Wien und ist bekannt für seine **Weinberge** und **traditionellen Häuser**. Besucher können durch die Weinberge spazieren und lokale Weine probieren."
+    },
+    "activities": {
+      "tr": [
+        "Şarap tadımı yapma",
+        "Bağlarda yürüyüş yapma"
+      ],
+      "en": [
+        "Wine tasting",
+        "Walk through the vineyards"
+      ],
+      "de": [
+        "Weinverkostung",
+        "Durch die Weinberge spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari"
+      ],
+      "en": [
+        "history",
+        "architecture"
+      ],
+      "de": [
+        "geschichte",
+        "architektur"
+      ]
+    },
+    "images": [
+      "https://example.com/gumpoldskirchen.jpg"
+    ]
+  },
+  {
+    "slug": "lilienfeld-manastiri",
+    "name": {
+      "tr": "Lilienfeld Manastırı",
+      "en": "Lilienfeld Abbey",
+      "de": "Stift Lilienfeld"
+    },
+    "latitude": 48.026,
+    "longitude": 15.613,
+    "description": {
+      "tr": "Lilienfeld Manastırı, Aşağı Avusturya'nın en eski manastırlarından biridir ve gotik mimarisiyle dikkat çeker. Ziyaretçiler, manastırın tarihi alanlarını gezebilir ve dinlenmek için manastır bahçesinde vakit geçirebilirler.",
+      "en": "Lilienfeld Abbey is one of the oldest monasteries in Lower Austria and is notable for its Gothic architecture. Visitors can tour the historic areas of the abbey and relax in its garden.",
+      "de": "Das Stift Lilienfeld ist eines der ältesten Klöster in Niederösterreich und bekannt für seine gotische Architektur. Besucher können die historischen Bereiche des Klosters besichtigen und im Garten entspannen."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezme",
+        "Bahçede dinlenme"
+      ],
+      "en": [
+        "Tour the abbey",
+        "Relax in the garden"
+      ],
+      "de": [
+        "Das Kloster besichtigen",
+        "Im Garten entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari"
+      ],
+      "en": [
+        "history",
+        "architecture"
+      ],
+      "de": [
+        "geschichte",
+        "architektur"
+      ]
+    },
+    "images": [
+      "https://example.com/lilienfeld.jpg"
+    ]
+  },
+  {
+    "slug": "burg-kreuzenstein",
+    "name": {
+      "tr": "Burg Kreuzenstein",
+      "en": "Kreuzenstein Castle",
+      "de": "Burg Kreuzenstein"
+    },
+    "latitude": 48.287,
+    "longitude": 16.292,
+    "description": {
+      "tr": "Burg Kreuzenstein, Aşağı Avusturya'da yer alan ortaçağdan kalma bir kaledir. Ziyaretçiler, kaleyi gezebilir, tarihi koleksiyonları inceleyebilir ve kalenin muazzam manzarasının keyfini çıkarabilirler.",
+      "en": "Burg Kreuzenstein is a medieval castle located in Lower Austria. Visitors can tour the castle, explore its historical collections, and enjoy stunning views from the castle.",
+      "de": "Die Burg Kreuzenstein ist eine mittelalterliche Burg in Niederösterreich. Besucher können die Burg besichtigen, ihre historischen Sammlungen erkunden und die atemberaubende Aussicht genießen."
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi yapma",
+        "Tarihi koleksiyonları keşfetme"
+      ],
+      "en": [
+        "Castle tour",
+        "Explore historical collections"
+      ],
+      "de": [
+        "Burgbesichtigung",
+        "Historische Sammlungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari"
+      ],
+      "en": [
+        "history",
+        "architecture"
+      ],
+      "de": [
+        "geschichte",
+        "architektur"
+      ]
+    },
+    "images": [
+      "https://example.com/burg_kreuzenstein.jpg"
+    ]
+  },
+  {
+    "slug": "semmering-gecidi-ve-kayak-merkezi",
+    "name": {
+      "tr": "Semmering Geçidi ve Kayak Merkezi",
+      "en": "Semmering Pass and Ski Resort",
+      "de": "Semmeringpass und Ski Resort"
+    },
+    "latitude": 47.65,
+    "longitude": 15.947,
+    "description": {
+      "tr": "Semmering Geçidi, Avusturya Alpleri'nde yer alan tarihi bir dağ geçididir. Kışın kayak yapma imkanı sunan bölge, yazın ise doğa yürüyüşleri için tercih edilmektedir.",
+      "en": "Semmering Pass is a historic mountain pass in the Austrian Alps. The area offers skiing in winter and hiking in summer.",
+      "de": "Der Semmeringpass ist ein historischer Gebirgspass in den österreichischen Alpen. Das Gebiet bietet im Winter Skifahren und im Sommer Wandern."
+    },
+    "activities": {
+      "tr": [
+        "Kayak yapma",
+        "Doğada yürüyüş yapma"
+      ],
+      "en": [
+        "Skiing",
+        "Hiking"
+      ],
+      "de": [
+        "Skifahren",
+        "Wandern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "kayak",
+        "tarih"
+      ],
+      "en": [
+        "nature",
+        "skiing",
+        "history"
+      ],
+      "de": [
+        "natur",
+        "skifahren",
+        "geschichte"
+      ]
+    },
+    "images": [
+      "https://example.com/semmering_pass.jpg"
+    ]
+  }
+]

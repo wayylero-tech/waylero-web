@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "great-barrier-reef",
+    "name": {
+      "tr": "Great Barrier Reef",
+      "en": "Great Barrier Reef",
+      "de": "Great Barrier Reef"
+    },
+    "latitude": -16.488,
+    "longitude": 145.9297,
+    "description": {
+      "tr": "Great Barrier Reef, dünyanın en büyük mercan resifidir ve şnorkelle yüzme, tüple dalış gibi aktiviteler için ideal bir yerdir. Mercanlar, deniz canlıları ve muazzam su altı manzarası ile ünlüdür.",
+      "en": "The Great Barrier Reef is the world’s largest coral reef, perfect for snorkeling and scuba diving. It is renowned for its vibrant coral, marine life, and stunning underwater landscapes.",
+      "de": "Das Great Barrier Reef ist das größte Korallenriff der Welt und eignet sich hervorragend zum Schnorcheln und Tauchen. Es ist berühmt für seine lebendigen Korallen, Meereslebewesen und atemberaubende Unterwasserlandschaften."
+    },
+    "activities": {
+      "tr": [
+        "Şnorkelle yüzme",
+        "Tüple dalış",
+        "Deniz canlılarını keşfetmek"
+      ],
+      "en": [
+        "Snorkeling",
+        "Scuba diving",
+        "Exploring marine life"
+      ],
+      "de": [
+        "Schnorcheln",
+        "Tauchen",
+        "Meereslebewesen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/great_barrier_reef.jpg"
+    ]
+  },
+  {
+    "slug": "daintree-rainforest",
+    "name": {
+      "tr": "Daintree Rainforest",
+      "en": "Daintree Rainforest",
+      "de": "Daintree Regenwald"
+    },
+    "latitude": -16.2333,
+    "longitude": 145.3833,
+    "description": {
+      "tr": "Daintree Rainforest, dünyanın en eski yağmur ormanlarından biridir ve keşif turları ile ünlüdür. Burası biyolojik çeşitliliği ile dikkat çeker.",
+      "en": "The Daintree Rainforest is one of the world’s oldest rainforests and is famous for its exploration tours. It is known for its rich biodiversity.",
+      "de": "Der Daintree Regenwald ist einer der ältesten Regenwälder der Welt und berühmt für seine Entdeckungstouren. Er ist bekannt für seine reiche Biodiversität."
+    },
+    "activities": {
+      "tr": [
+        "Yağmur ormanında yürüyüş yapmak",
+        "Doğal yaşamı gözlemlemek",
+        "Keşif turlarına katılmak"
+      ],
+      "en": [
+        "Hiking in the rainforest",
+        "Wildlife observation",
+        "Participating in exploration tours"
+      ],
+      "de": [
+        "Wandern im Regenwald",
+        "Beobachtung der Tierwelt",
+        "An Entdeckungstouren teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/daintree_rainforest.jpg"
+    ]
+  },
+  {
+    "slug": "kuranda",
+    "name": {
+      "tr": "Kuranda",
+      "en": "Kuranda",
+      "de": "Kuranda"
+    },
+    "latitude": -16.8224,
+    "longitude": 145.6969,
+    "description": {
+      "tr": "Kuranda, yağmur ormanı içinde yer alan geleneksel pazarlara ve otantik kültüre sahip bir kasabadır. Burada sanat galerileri, el sanatları dükkanları ve eski pazarlar bulunmaktadır.",
+      "en": "Kuranda is a village set within the rainforest, known for its traditional markets and authentic culture. The village features art galleries, handicraft shops, and historic markets.",
+      "de": "Kuranda ist ein Dorf im Regenwald, bekannt für seine traditionellen Märkte und authentische Kultur. Das Dorf beherbergt Kunstgalerien, Handwerksläden und historische Märkte."
+    },
+    "activities": {
+      "tr": [
+        "Pazarlarda alışveriş yapmak",
+        "Sanat galerilerini gezmek",
+        "Doğal güzellikleri keşfetmek"
+      ],
+      "en": [
+        "Shopping at markets",
+        "Visiting art galleries",
+        "Exploring natural beauty"
+      ],
+      "de": [
+        "Auf Märkten einkaufen",
+        "Kunstgalerien besuchen",
+        "Natürliche Schönheit erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/kuranda.jpg"
+    ]
+  },
+  {
+    "slug": "cairns-esplanade-lagoon",
+    "name": {
+      "tr": "Cairns Esplanade Lagoon",
+      "en": "Cairns Esplanade Lagoon",
+      "de": "Cairns Esplanade Lagoon"
+    },
+    "latitude": -16.9236,
+    "longitude": 145.7732,
+    "description": {
+      "tr": "Cairns Esplanade Lagoon, şehir merkezinde bulunan geniş bir lagündür. Yüzme ve dinlenme için mükemmel bir yerdir. Ayrıca, çevresindeki yürüyüş parkurları ile dinlenmek için ideal bir alandır.",
+      "en": "The Cairns Esplanade Lagoon is a large lagoon located in the city center. It is perfect for swimming and relaxing, with surrounding walking paths that make it an ideal place to unwind.",
+      "de": "Die Cairns Esplanade Lagoon ist eine große Lagune im Stadtzentrum. Sie ist perfekt zum Schwimmen und Entspannen, mit umgebenden Wanderwegen, die sie zu einem idealen Ort zum Ausruhen machen."
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Dinlenmek",
+        "Yürüyüş yapmak"
+      ],
+      "en": [
+        "Swimming",
+        "Relaxing",
+        "Walking"
+      ],
+      "de": [
+        "Schwimmen",
+        "Entspannen",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/cairns_esplanade_lagoon.jpg"
+    ]
+  },
+  {
+    "slug": "atherton-tablelands",
+    "name": {
+      "tr": "Atherton Tablelands",
+      "en": "Atherton Tablelands",
+      "de": "Atherton Tablelands"
+    },
+    "latitude": -17.5,
+    "longitude": 145.4,
+    "description": {
+      "tr": "Atherton Tablelands, şelaleler, doğal parklar ve kanyonlarla ünlü bir bölgedir. Doğa severler için mükemmel bir yerdir ve yürüyüş yaparken harika manzaralar sunar.",
+      "en": "The Atherton Tablelands is an area famous for its waterfalls, natural parks, and canyons. It is a great place for nature lovers and offers stunning views while hiking.",
+      "de": "Die Atherton Tablelands ist eine Region, die für ihre Wasserfälle, Naturparks und Schluchten bekannt ist. Es ist ein großartiger Ort für Naturliebhaber und bietet beim Wandern atemberaubende Ausblicke."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Şelaleleri keşfetmek",
+        "Doğal parklarda gezmek"
+      ],
+      "en": [
+        "Hiking",
+        "Exploring waterfalls",
+        "Wandering in natural parks"
+      ],
+      "de": [
+        "Wandern",
+        "Wasserfälle erkunden",
+        "In Naturparks spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/atherton_tablelands.jpg"
+    ]
+  }
+]

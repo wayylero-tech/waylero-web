@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "walt-disney-world-resort",
+    "name": {
+      "tr": "Walt Disney World Resort",
+      "en": "Walt Disney World Resort",
+      "de": "Walt Disney World Resort"
+    },
+    "latitude": 28.3852,
+    "longitude": -81.5639,
+    "description": {
+      "tr": "Walt Disney World Resort, Orlando'nun en ünlü eğlence parkıdır. Dünya çapında tanınan Disney karakterleri ve tema parkları ile hem çocuklar hem de yetişkinler için eşsiz bir deneyim sunar.\n",
+      "en": "Walt Disney World Resort is the most famous theme park in Orlando. With world-renowned Disney characters and themed parks, it offers a unique experience for both children and adults.\n",
+      "de": "Das Walt Disney World Resort ist der bekannteste Freizeitpark in Orlando. Mit weltberühmten Disney-Charakteren und Themenparks bietet es sowohl für Kinder als auch für Erwachsene ein einzigartiges Erlebnis.\n"
+    },
+    "activities": {
+      "tr": [
+        "Disney karakterleri ile tanışmak",
+        "Tema parklarında eğlenmek",
+        "Su parklarında serinlemek"
+      ],
+      "en": [
+        "Meet Disney characters",
+        "Have fun in the theme parks",
+        "Cool off in the water parks"
+      ],
+      "de": [
+        "Disney-Charaktere treffen",
+        "In den Themenparks Spaß haben",
+        "In den Wasserparks abkühlen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/disney_world_image.jpg"
+    ]
+  },
+  {
+    "slug": "universal-studios-florida",
+    "name": {
+      "tr": "Universal Studios Florida",
+      "en": "Universal Studios Florida",
+      "de": "Universal Studios Florida"
+    },
+    "latitude": 28.4737,
+    "longitude": -81.4677,
+    "description": {
+      "tr": "Universal Studios Florida, film temalı bir eğlence parkıdır. Ziyaretçiler, ünlü filmlerin ve dizilerin setlerini gezebilir ve adrenalin dolu sürüşlerde keyif alabilirler.\n",
+      "en": "Universal Studios Florida is a movie-themed amusement park. Visitors can tour famous film and TV show sets and enjoy adrenaline-pumping rides.\n",
+      "de": "Universal Studios Florida ist ein Freizeitpark mit Filmmotiven. Besucher können berühmte Film- und TV-Sete besichtigen und adrenalingeladene Fahrgeschäfte genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Film setlerini gezmek",
+        "Adrenalin dolu sürüşlere binmek",
+        "Eğlenceli gösterileri izlemek"
+      ],
+      "en": [
+        "Tour movie sets",
+        "Ride adrenaline-pumping attractions",
+        "Watch entertaining shows"
+      ],
+      "de": [
+        "Filmsets besichtigen",
+        "Adrenalingeladene Fahrgeschäfte fahren",
+        "Unterhaltsame Shows ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/universal_studios_image.jpg"
+    ]
+  },
+  {
+    "slug": "epcot-center",
+    "name": {
+      "tr": "Epcot Center",
+      "en": "Epcot Center",
+      "de": "Epcot Center"
+    },
+    "latitude": 28.3747,
+    "longitude": -81.5494,
+    "description": {
+      "tr": "Epcot Center, Disney'nin eğlence parklarından biridir ve dünyadaki farklı kültürleri tanıtmayı amaçlayan bir alandır. Ziyaretçiler, dünyanın farklı bölgelerinin kültürlerine dair bilgi edinebilir ve eğlenceli gösteriler izleyebilirler.\n",
+      "en": "Epcot Center is one of Disney's theme parks and is dedicated to showcasing different cultures from around the world. Visitors can learn about global cultures and watch entertaining shows.\n",
+      "de": "Das Epcot Center ist einer der Disney-Freizeitparks und widmet sich der Vorstellung verschiedener Kulturen aus der ganzen Welt. Besucher können mehr über weltweite Kulturen erfahren und unterhaltsame Shows ansehen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kültürel gösterileri izlemek",
+        "Yerli yemekleri tatmak",
+        "Farklı bölgelerden gelen sanatları keşfetmek"
+      ],
+      "en": [
+        "Watch cultural shows",
+        "Taste local foods",
+        "Explore arts from different regions"
+      ],
+      "de": [
+        "Kulturelle Shows ansehen",
+        "Lokale Gerichte probieren",
+        "Künste aus verschiedenen Regionen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/epcot_center_image.jpg"
+    ]
+  }
+]

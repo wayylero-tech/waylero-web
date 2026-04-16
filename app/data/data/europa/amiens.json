@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "amiens-katedrali",
+    "name": {
+      "tr": "Amiens Katedrali",
+      "en": "Amiens Cathedral",
+      "de": "Kathedrale von Amiens"
+    },
+    "latitude": 49.895,
+    "longitude": 2.302,
+    "description": {
+      "tr": "Amiens Katedrali, Fransa'nın Amiens şehrinde bulunan Gotik tarzda bir katedraldir. UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Amiens Cathedral is a Gothic cathedral located in the city of Amiens, France. It is listed as a UNESCO World Heritage site.",
+      "de": "Die Kathedrale von Amiens ist eine gotische Kathedrale in der Stadt Amiens, Frankreich. Sie steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezmek",
+        "Gothik mimarisi incelemek"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Study Gothic architecture"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Gotische Architektur studieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/amiens_cathedral.jpg"
+    ]
+  }
+]

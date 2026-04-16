@@ -1,0 +1,922 @@
+[
+  {
+    "slug": "zakynthos-sehir",
+    "name": {
+      "tr": "Zakynthos (Şehir)",
+      "en": "Zakynthos (Town)",
+      "de": "Zakynthos (Stadt)"
+    },
+    "latitude": 37.781,
+    "longitude": 20.8955,
+    "description": {
+      "tr": "Zakynthos, adanın başkenti olup batı sahilinde yer alır. Şehir merkezi, eski ve yeni yapıların bir arada bulunduğu zengin bir kültürel mirasa sahiptir. Limanı, alışveriş caddeleri ve Saint Dionysios Kilisesi gibi önemli yapılarıyla dikkat çeker.\n",
+      "en": "Zakynthos is the capital of the island, located on the western coast. The town center has a rich cultural heritage, blending historic and modern architecture. It is known for its port, shopping streets, and important landmarks like the Saint Dionysios Church.\n",
+      "de": "Zakynthos ist die Hauptstadt der Insel und liegt an der Westküste. Das Stadtzentrum besitzt ein reiches kulturelles Erbe mit einer Mischung aus alten und neuen Bauwerken. Bekannt ist die Stadt für ihren Hafen, Einkaufsstraßen und bedeutende Sehenswürdigkeiten wie die Dionysios-Kirche.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şehir turu yapmak",
+        "Alışveriş yapmak",
+        "Tarihi yapıları gezmek"
+      ],
+      "en": [
+        "City tour",
+        "Shopping",
+        "Visiting historical landmarks"
+      ],
+      "de": [
+        "Stadttour",
+        "Einkaufen",
+        "Historische Bauwerke besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/zakynthos_town.jpg"
+    ]
+  },
+  {
+    "slug": "aziz-dionysios-zakynthos-ortodoks-kilisesi",
+    "name": {
+      "tr": "Aziz Dionysios Zakynthos Ortodoks Kilisesi",
+      "en": "Saint Dionysios Zakynthos Holy Orthodox Church",
+      "de": "Heilige Orthodoxe Kirche des Heiligen Dionysios von Zakynthos"
+    },
+    "latitude": 37.7819,
+    "longitude": 20.8962,
+    "description": {
+      "tr": "Zakynthos şehir merkezinde yer alan bu kilise, adanın en önemli dini yapılarındandır. Saint Dionysios’a adanmıştır ve onun kemikleri burada muhafaza edilmektedir. Dionysios, adanın koruyucu azizi olarak kabul edilir.\n",
+      "en": "Located in the center of Zakynthos town, this church is one of the island’s most important religious landmarks. It is dedicated to Saint Dionysios, whose remains are kept here. He is considered the patron saint of the island.\n",
+      "de": "Diese Kirche befindet sich im Zentrum von Zakynthos-Stadt und ist eines der wichtigsten religiösen Bauwerke der Insel. Sie ist dem Heiligen Dionysios gewidmet, dessen Gebeine hier aufbewahrt werden. Dionysios gilt als Schutzheiliger der Insel.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kutsal yapıyı ziyaret etmek",
+        "İbadet etmek",
+        "Tarihi keşfetmek"
+      ],
+      "en": [
+        "Visiting the holy site",
+        "Worship",
+        "Exploring history"
+      ],
+      "de": [
+        "Besuch der heiligen Stätte",
+        "Andacht",
+        "Geschichte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/saint_dionysios_church.jpg"
+    ]
+  },
+  {
+    "slug": "argassi-koprusu",
+    "name": {
+      "tr": "Argassi Köprüsü",
+      "en": "Argassi Bridge",
+      "de": "Argassi Brücke"
+    },
+    "latitude": 37.7583,
+    "longitude": 20.9104,
+    "description": {
+      "tr": "Argassi köyü yakınlarındaki bu tarihi köprü, Zakynthos’un en eski yerleşim yerlerinden birinde bulunur. Bölgedeki tarihi yapıları keşfetmek isteyenler için sembolik bir yapıdır.\n",
+      "en": "This historic bridge near the village of Argassi is located in one of Zakynthos’s oldest settlements. It’s a symbolic structure for those interested in exploring the area's historical landmarks.\n",
+      "de": "Diese historische Brücke in der Nähe des Dorfes Argassi befindet sich in einer der ältesten Siedlungen von Zakynthos. Sie ist ein symbolisches Bauwerk für alle, die historische Stätten entdecken möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıyı görmek",
+        "Fotoğraf çekmek",
+        "Köyü keşfetmek"
+      ],
+      "en": [
+        "Sightseeing",
+        "Photography",
+        "Exploring the village"
+      ],
+      "de": [
+        "Besichtigung",
+        "Fotografie",
+        "Das Dorf erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/argassi_bridge.jpg"
+    ]
+  },
+  {
+    "slug": "st-nicholas-plaji",
+    "name": {
+      "tr": "St. Nicholas Plajı",
+      "en": "St. Nicholas Beach",
+      "de": "St. Nicholas Strand"
+    },
+    "latitude": 37.762,
+    "longitude": 20.916,
+    "description": {
+      "tr": "Adanın kuzeydoğusunda, yerleşimden uzak bir noktada yer alan bu plaj, sakinliği ve doğallığıyla bilinir. Tekne turları ve su sporları gibi etkinlikler yapılabilir.\n",
+      "en": "Located in a remote area in the northeast of the island, this beach is known for its tranquility and natural beauty. You can enjoy boat tours and water sports here.\n",
+      "de": "Dieser Strand liegt in einem abgelegenen Teil im Nordosten der Insel und ist bekannt für seine Ruhe und natürliche Schönheit. Bootstouren und Wassersportarten sind hier möglich.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tekne turuna katılmak",
+        "Su sporları yapmak",
+        "Yüzmek"
+      ],
+      "en": [
+        "Joining a boat tour",
+        "Doing water sports",
+        "Swimming"
+      ],
+      "de": [
+        "Bootstour unternehmen",
+        "Wassersport treiben",
+        "Schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/st_nicholas_beach.jpg"
+    ]
+  },
+  {
+    "slug": "the-little-farm",
+    "name": {
+      "tr": "The Little Farm",
+      "en": "The Little Farm",
+      "de": "Der Kleine Bauernhof"
+    },
+    "latitude": 37.794,
+    "longitude": 20.829,
+    "description": {
+      "tr": "Zakynthos’un iç kesimlerinde yer alan bu küçük çiftlik, özellikle çocuklu aileler için harika bir ziyaret alanıdır. Hayvanları yakından görebilir ve doğayla iç içe vakit geçirebilirsiniz.\n",
+      "en": "Located in the interior of Zakynthos, this small farm is a great place for families with children. Visitors can see farm animals up close and enjoy time in nature.\n",
+      "de": "Dieser kleine Bauernhof im Inneren von Zakynthos ist besonders für Familien mit Kindern ein tolles Ausflugsziel. Man kann hier Tiere hautnah erleben und Zeit in der Natur verbringen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları gözlemlemek",
+        "Doğada vakit geçirmek",
+        "Çocuklarla eğlenmek"
+      ],
+      "en": [
+        "Observing animals",
+        "Spending time in nature",
+        "Family fun with kids"
+      ],
+      "de": [
+        "Tiere beobachten",
+        "Zeit in der Natur verbringen",
+        "Spaß mit Kindern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "hayvanat bahçesi"
+      ],
+      "en": [
+        "zoo"
+      ],
+      "de": [
+        "zoo"
+      ]
+    },
+    "images": [
+      "https://example.com/the_little_farm.jpg"
+    ]
+  },
+  {
+    "slug": "alykes-kamp-alani",
+    "name": {
+      "tr": "Alykes Kamp Alanı",
+      "en": "Alykes Camping",
+      "de": "Alykes Campingplatz"
+    },
+    "latitude": 37.821,
+    "longitude": 20.783,
+    "description": {
+      "tr": "Alykes Plajı yakınlarında bulunan bu kamp alanı, doğa severler için mükemmel bir yerdir. Plaja yürüme mesafesinde olup, kamp yapmayı sevenler için huzurlu ve rahat bir ortam sunar.\n",
+      "en": "Located near Alykes Beach, this campsite is perfect for nature lovers. It's within walking distance to the beach and offers a peaceful and comfortable environment for campers.\n",
+      "de": "Dieser Campingplatz liegt in der Nähe des Alykes Strandes und ist ideal für Naturliebhaber. Er ist fußläufig zum Strand erreichbar und bietet eine ruhige und angenehme Atmosphäre für Camper.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kamp yapmak",
+        "Doğada vakit geçirmek",
+        "Denize yürümek"
+      ],
+      "en": [
+        "Camping",
+        "Spending time in nature",
+        "Walking to the beach"
+      ],
+      "de": [
+        "Camping",
+        "Zeit in der Natur verbringen",
+        "Zum Strand laufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kamp"
+      ],
+      "en": [
+        "camping"
+      ],
+      "de": [
+        "Camping"
+      ]
+    },
+    "images": [
+      "https://example.com/alykes_camping.jpg"
+    ]
+  },
+  {
+    "slug": "alykes-plaji",
+    "name": {
+      "tr": "Alykes Plajı",
+      "en": "Alykes Beach",
+      "de": "Alykes Strand"
+    },
+    "latitude": 37.825,
+    "longitude": 20.785,
+    "description": {
+      "tr": "Adanın kuzeydoğusunda yer alan Alykes Plajı, ince kumu ve turkuaz denizi ile ünlüdür. Ayrıca çeşitli su sporları yapma imkanı sunar.\n",
+      "en": "Located in the northeast of the island, Alykes Beach is known for its fine sand and turquoise sea. It also offers various water sports activities.\n",
+      "de": "Der Alykes Strand liegt im Nordosten der Insel und ist für seinen feinen Sand und das türkisfarbene Meer bekannt. Zudem werden hier verschiedene Wassersportarten angeboten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Güneşlenmek",
+        "Su sporları"
+      ],
+      "en": [
+        "Swimming",
+        "Sunbathing",
+        "Water sports"
+      ],
+      "de": [
+        "Schwimmen",
+        "Sonnenbaden",
+        "Wassersport"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/alykes_beach.jpg"
+    ]
+  },
+  {
+    "slug": "alykanas-plaji",
+    "name": {
+      "tr": "Alykanas Plajı",
+      "en": "Alykanas Beach",
+      "de": "Alykanas Strand"
+    },
+    "latitude": 37.827,
+    "longitude": 20.794,
+    "description": {
+      "tr": "Alykes'e çok yakın konumdaki Alykanas Plajı, daha az kalabalık olmasına rağmen aynı güzellikteki bir plajdır. Sahil boyunca restoran ve kafeler mevcuttur.\n",
+      "en": "Located very close to Alykes, Alykanas Beach is just as beautiful but less crowded. There are several restaurants and cafes along the coast.\n",
+      "de": "Der Alykanas Strand liegt ganz in der Nähe von Alykes und ist genauso schön, aber weniger überfüllt. Entlang der Küste gibt es zahlreiche Restaurants und Cafés.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Yemek yemek",
+        "Sakinlik"
+      ],
+      "en": [
+        "Swimming",
+        "Dining",
+        "Peaceful relaxation"
+      ],
+      "de": [
+        "Schwimmen",
+        "Essen gehen",
+        "Ruhe genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/alykanas_beach.jpg"
+    ]
+  },
+  {
+    "slug": "paralia-ammoudi",
+    "name": {
+      "tr": "Paralia Ammoudi",
+      "en": "Paralia Ammoudi",
+      "de": "Paralia Ammoudi"
+    },
+    "latitude": 37.83,
+    "longitude": 20.805,
+    "description": {
+      "tr": "Alykes bölgesine yakın, kuzeydoğuda yer alan Paralia Ammoudi; şeffaf suları ve huzurlu atmosferiyle bilinir. Yakındaki kayalık alanlar, dalış yapmak isteyenler için idealdir.\n",
+      "en": "Located near Alykes in the northeast, Paralia Ammoudi is known for its clear waters and peaceful ambiance. The nearby rocky areas are ideal for diving enthusiasts.\n",
+      "de": "Paralia Ammoudi liegt im Nordosten nahe Alykes und ist bekannt für sein klares Wasser und die ruhige Atmosphäre. Die nahegelegenen Felsen sind ideal zum Tauchen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Dalış yapmak",
+        "Yüzmek",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Diving",
+        "Swimming",
+        "Relaxing"
+      ],
+      "de": [
+        "Tauchen",
+        "Schwimmen",
+        "Entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/paralia_ammoudi.jpg"
+    ]
+  },
+  {
+    "slug": "paralia-tsilivi",
+    "name": {
+      "tr": "Paralia Tsilivi",
+      "en": "Paralia Tsilivi",
+      "de": "Paralia Tsilivi"
+    },
+    "latitude": 37.819,
+    "longitude": 20.885,
+    "description": {
+      "tr": "Adanın kuzeydoğusunda yer alan Paralia Tsilivi, canlı atmosferiyle öne çıkar. Su sporları, oteller ve restoranlar gibi turistik imkanlar sunar. Aileler için iyi bir tercihtir.\n",
+      "en": "Located in the northeast of the island, Paralia Tsilivi stands out with its lively atmosphere. It offers tourist amenities such as water sports, hotels, and restaurants. It's a great choice for families.\n",
+      "de": "Paralia Tsilivi liegt im Nordosten der Insel und zeichnet sich durch seine lebhafte Atmosphäre aus. Hier gibt es touristische Angebote wie Wassersport, Hotels und Restaurants. Eine gute Wahl für Familien.\n"
+    },
+    "activities": {
+      "tr": [
+        "Su sporları",
+        "Ailece vakit geçirmek",
+        "Yeme içme"
+      ],
+      "en": [
+        "Water sports",
+        "Family time",
+        "Dining"
+      ],
+      "de": [
+        "Wassersport",
+        "Zeit mit der Familie",
+        "Essen gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/paralia_tsilivi.jpg"
+    ]
+  },
+  {
+    "slug": "kremidi-plaji",
+    "name": {
+      "tr": "Kremidi Plajı",
+      "en": "Kremidi Beach",
+      "de": "Kremidi Strand"
+    },
+    "latitude": 37.653,
+    "longitude": 20.923,
+    "description": {
+      "tr": "Adanın güneydoğusunda yer alan Kremidi Plajı, huzurlu ve sakin atmosferiyle bilinir. Burada rahatça dinlenebilir ve güzel deniz manzarasının tadını çıkarabilirsiniz.\n",
+      "en": "Located in the southeast of the island, Kremidi Beach is known for its peaceful and calm atmosphere. You can relax here and enjoy the beautiful sea view.\n",
+      "de": "Der Kremidi Strand liegt im Südosten der Insel und ist für seine ruhige und friedliche Atmosphäre bekannt. Hier können Sie sich entspannen und den schönen Meerblick genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Dinlenmek",
+        "Manzara izlemek",
+        "Yüzmek"
+      ],
+      "en": [
+        "Relaxing",
+        "Enjoying the view",
+        "Swimming"
+      ],
+      "de": [
+        "Entspannen",
+        "Aussicht genießen",
+        "Schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/kremidi_beach.jpg"
+    ]
+  },
+  {
+    "slug": "vathi-lagadi-plaji",
+    "name": {
+      "tr": "Vathi Lagadi Plajı",
+      "en": "Vathi Lagadi Beach",
+      "de": "Vathi Lagadi Strand"
+    },
+    "latitude": 37.66,
+    "longitude": 20.95,
+    "description": {
+      "tr": "Adanın güneydoğusunda yer alan Vathi Lagadi Plajı, sığ ve berrak sularıyla bilinir. Denize girmeyi sevenler için ideal bir plajdır.\n",
+      "en": "Located in the southeast of the island, Vathi Lagadi Beach is known for its shallow and clear waters. It is ideal for those who love to swim.\n",
+      "de": "Der Vathi Lagadi Strand liegt im Südosten der Insel und ist für sein flaches und klares Wasser bekannt. Er ist ideal für alle, die gerne schwimmen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Dinlenmek",
+        "Deniz keyfi"
+      ],
+      "en": [
+        "Swimming",
+        "Relaxing",
+        "Enjoying the sea"
+      ],
+      "de": [
+        "Schwimmen",
+        "Entspannen",
+        "Das Meer genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/vathi_lagadi_beach.jpg"
+    ]
+  },
+  {
+    "slug": "makris-gialos-plaji",
+    "name": {
+      "tr": "Makris Gialos Plajı",
+      "en": "Makris Gialos Beach",
+      "de": "Makris Gialos Strand"
+    },
+    "latitude": 37.822,
+    "longitude": 20.801,
+    "description": {
+      "tr": "Adanın doğusunda yer alan Makris Gialos Plajı, temiz ve sakin bir ortam sunar. Doğayla iç içe olmak isteyenler için mükemmel bir tercihtir. Plajda birkaç restoran ve kafe de bulunmaktadır.\n",
+      "en": "Located on the eastern side of the island, Makris Gialos Beach offers a clean and quiet environment. It's perfect for those who want to be close to nature. There are also a few restaurants and cafes on the beach.\n",
+      "de": "Der Makris Gialos Strand liegt im Osten der Insel und bietet eine saubere und ruhige Umgebung. Er ist ideal für Naturliebhaber. Am Strand gibt es auch einige Restaurants und Cafés.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Doğayla iç içe olmak",
+        "Kafede oturmak"
+      ],
+      "en": [
+        "Swimming",
+        "Being in nature",
+        "Relaxing at a café"
+      ],
+      "de": [
+        "Schwimmen",
+        "Die Natur genießen",
+        "Im Café entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/makris_gialos_beach.jpg"
+    ]
+  },
+  {
+    "slug": "xigia-kukurt-plaji",
+    "name": {
+      "tr": "Xigia Kükürt Plajı",
+      "en": "Xigia Sulfur Beach",
+      "de": "Xigia Schwefelstrand"
+    },
+    "latitude": 37.8535,
+    "longitude": 20.76,
+    "description": {
+      "tr": "Adanın kuzeydoğusunda yer alan Xigia Kükürt Plajı, şifalı mineralli sularıyla özellikle cilt bakımı için tercih edilir. Sıcak mineralli suyun denizle birleştiği bu plaj, adanın en ilginç noktalarından biridir.\n",
+      "en": "Located in the northeast of the island, Xigia Sulfur Beach is especially popular for skin care due to its healing mineral waters. The combination of warm mineral water with the sea makes it one of the most unique beaches on the island.\n",
+      "de": "Der Xigia Schwefelstrand liegt im Nordosten der Insel und ist wegen seines heilenden Mineralwassers besonders bei Hautpflege-Suchenden beliebt. Die Mischung aus warmem Mineralwasser und Meer macht ihn zu einem der interessantesten Strände der Insel.\n"
+    },
+    "activities": {
+      "tr": [
+        "Cilt bakımı",
+        "Yüzmek",
+        "Doğal şifa"
+      ],
+      "en": [
+        "Skin care",
+        "Swimming",
+        "Natural healing"
+      ],
+      "de": [
+        "Hautpflege",
+        "Schwimmen",
+        "Natürliche Heilung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/xigia_sulfur_beach.jpg"
+    ]
+  },
+  {
+    "slug": "xigia-plaji-seyir-noktasi",
+    "name": {
+      "tr": "Xigia Plajı Seyir Noktası",
+      "en": "Xigia Beach View",
+      "de": "Aussichtspunkt Xigia Strand"
+    },
+    "latitude": 37.8545,
+    "longitude": 20.762,
+    "description": {
+      "tr": "Xigia Plajı’na yakın bir noktada yer alan bu seyir alanı, plajın doğasını ve mineralli sularla bütünleşmiş manzarasını geniş bir perspektiften gözlemlemek için harika bir yerdir.\n",
+      "en": "Located near Xigia Beach, this viewpoint offers a great perspective to observe the beach's nature and the unique view of mineral-infused waters.\n",
+      "de": "Dieser Aussichtspunkt liegt in der Nähe des Xigia Strandes und bietet eine hervorragende Aussicht auf die Natur des Strandes und das mit Mineralien angereicherte Wasser.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manzara izlemek",
+        "Fotoğraf çekmek",
+        "Doğayı gözlemlemek"
+      ],
+      "en": [
+        "Sightseeing",
+        "Photography",
+        "Observing nature"
+      ],
+      "de": [
+        "Aussicht genießen",
+        "Fotografieren",
+        "Natur beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/xigia_viewpoint.jpg"
+    ]
+  },
+  {
+    "slug": "agios-andreas-plaji",
+    "name": {
+      "tr": "Agios Andreas Plajı",
+      "en": "Agios Andreas Beach",
+      "de": "Agios Andreas Strand"
+    },
+    "latitude": 37.853,
+    "longitude": 20.768,
+    "description": {
+      "tr": "Zakynthos'un kuzeydoğusunda yer alan Παραλία Άγιος Ανδρέας, derin mavi sularıyla ünlüdür. Sakin ve temiz bir plajdır. Genellikle yerel halk tarafından tercih edilir ve büyük kalabalıklardan uzak bir atmosfer sunar. Ayrıca, plajda birkaç kafe ve restoran da bulunmaktadır.\n",
+      "en": "Located in the northeast of Zakynthos, Agios Andreas Beach is known for its deep blue waters. It is a quiet and clean beach, mostly preferred by locals, offering a peaceful atmosphere away from large crowds. There are also a few cafes and restaurants on the beach.\n",
+      "de": "Der Agios Andreas Strand liegt im Nordosten von Zakynthos und ist für sein tiefblaues Wasser bekannt. Es ist ein ruhiger und sauberer Strand, der meist von Einheimischen besucht wird und eine entspannte Atmosphäre abseits großer Menschenmengen bietet. Es gibt auch einige Cafés und Restaurants am Strand.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek",
+        "Kafede vakit geçirmek",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Swimming",
+        "Relaxing at a cafe",
+        "Unwinding"
+      ],
+      "de": [
+        "Schwimmen",
+        "In einem Café entspannen",
+        "Ausruhen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/agios_andreas_beach.jpg"
+    ]
+  },
+  {
+    "slug": "gerakas-plaji",
+    "name": {
+      "tr": "Gerakas Plajı",
+      "en": "Gerakas Beach",
+      "de": "Gerakas Strand"
+    },
+    "latitude": 37.6333,
+    "longitude": 20.9833,
+    "description": {
+      "tr": "Gerakas, Zakynthos’un güneydoğusunda yer alır. Koruma altındaki bu plaj, Caretta Caretta kaplumbağalarının yumurtlama alanlarından biridir. Doğal güzellikleriyle ünlüdür ve plajın bazı bölgeleri koruma amacıyla sınırlıdır. Etrafındaki kayalıklar doğa severler için harika manzaralar sunar.\n",
+      "en": "Gerakas is located in the southeast of Zakynthos. It is a protected nesting area for the Caretta Caretta turtles. Famous for its natural beauty, some parts of the beach are restricted to protect wildlife. The surrounding cliffs offer great views for nature lovers.\n",
+      "de": "Gerakas liegt im Südosten von Zakynthos. Der Strand ist ein geschützter Nistplatz für Caretta-Caretta-Schildkröten. Er ist für seine natürliche Schönheit bekannt, und einige Bereiche sind zum Schutz der Tierwelt gesperrt. Die umliegenden Felsen bieten großartige Ausblicke für Naturliebhaber.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Kaplumbağaları gözlemlemek",
+        "Yüzmek"
+      ],
+      "en": [
+        "Hiking",
+        "Turtle watching",
+        "Swimming"
+      ],
+      "de": [
+        "Wandern",
+        "Schildkröten beobachten",
+        "Schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/gerakas_beach.jpg"
+    ]
+  },
+  {
+    "slug": "navagio-plaji-gemi-enkazi-plaji",
+    "name": {
+      "tr": "Navagio Plajı (Gemi Enkazı Plajı)",
+      "en": "Navagio Beach (Shipwreck Beach)",
+      "de": "Navagio Strand (Schiffswrack-Strand)"
+    },
+    "latitude": 37.859,
+    "longitude": 20.624,
+    "description": {
+      "tr": "Zakynthos’un kuzeybatısında yer alan Navagio Plajı, Yunanistan’ın en ikonik plajlarından biridir. Beyaz kumları, turkuaz denizi ve terkedilmiş gemi enkazı ile ünlüdür. Plaja sadece deniz yoluyla ulaşılabilir ve özellikle fotoğrafçılar için mükemmel bir yerdir.\n",
+      "en": "Located in the northwest of Zakynthos, Navagio Beach is one of Greece’s most iconic beaches. It is known for its white sands, turquoise waters, and the famous shipwreck. It is only accessible by sea and is a perfect spot for photographers.\n",
+      "de": "Der Navagio Strand liegt im Nordwesten von Zakynthos und ist einer der bekanntesten Strände Griechenlands. Er ist berühmt für seinen weißen Sand, das türkisfarbene Wasser und das berühmte Schiffswrack. Der Zugang ist nur per Boot möglich, was ihn zu einem perfekten Ort für Fotografen macht.\n"
+    },
+    "activities": {
+      "tr": [
+        "Fotoğraf çekmek",
+        "Tekneyle ulaşım",
+        "Güneşlenmek"
+      ],
+      "en": [
+        "Photography",
+        "Boat trip",
+        "Sunbathing"
+      ],
+      "de": [
+        "Fotografieren",
+        "Bootstour",
+        "Sonnenbaden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/navagio_beach.jpg"
+    ]
+  },
+  {
+    "slug": "navagio-plaji-seyir-noktasi",
+    "name": {
+      "tr": "Navagio Plajı Seyir Noktası",
+      "en": "Navagio Beach Viewpoint",
+      "de": "Aussichtspunkt Navagio Strand"
+    },
+    "latitude": 37.8598,
+    "longitude": 20.627,
+    "description": {
+      "tr": "Navagio Plajı’na bakan yüksek bir tepede yer alan bu seyir noktası, plajın panoramik manzarasını sunar. Özellikle gün batımında harika fotoğraflar çekilebilir.\n",
+      "en": "Located on a high hill overlooking Navagio Beach, this viewpoint offers a stunning panoramic view of the beach. It is especially ideal for photography at sunset.\n",
+      "de": "Dieser Aussichtspunkt liegt auf einem hohen Hügel mit Blick auf den Navagio Strand und bietet eine atemberaubende Panoramaaussicht. Besonders bei Sonnenuntergang lassen sich hier großartige Fotos machen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manzara izlemek",
+        "Fotoğraf çekmek",
+        "Gün batımı seyri"
+      ],
+      "en": [
+        "Sightseeing",
+        "Photography",
+        "Watching the sunset"
+      ],
+      "de": [
+        "Aussicht genießen",
+        "Fotografieren",
+        "Sonnenuntergang beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/navagio_viewpoint.jpg"
+    ]
+  },
+  {
+    "slug": "filippoi-plaji",
+    "name": {
+      "tr": "Filippoi Plajı",
+      "en": "Filippoi Beach",
+      "de": "Filippoi Strand"
+    },
+    "latitude": 37.9,
+    "longitude": 20.7333,
+    "description": {
+      "tr": "Adanın kuzey kısmında yer alan Filippoi Plajı, sakin atmosferiyle bilinir. Çoğunlukla yerel halk tarafından tercih edilir ve kalabalıklardan uzak olmak isteyenler için idealdir.\n",
+      "en": "Located in the northern part of the island, Filippoi Beach is known for its peaceful atmosphere. It is mostly visited by locals and ideal for those who want to avoid crowds.\n",
+      "de": "Der Filippoi Strand befindet sich im Norden der Insel und ist für seine ruhige Atmosphäre bekannt. Er wird hauptsächlich von Einheimischen besucht und ist ideal für alle, die dem Trubel entkommen möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Rahatlamak",
+        "Yüzmek",
+        "Sessizlik içinde zaman geçirmek"
+      ],
+      "en": [
+        "Relaxing",
+        "Swimming",
+        "Spending quiet time"
+      ],
+      "de": [
+        "Entspannen",
+        "Schwimmen",
+        "Zeit in Ruhe verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/filippoi_beach.jpg"
+    ]
+  }
+]

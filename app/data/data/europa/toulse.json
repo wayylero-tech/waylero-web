@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "kanal-du-midi",
+    "name": {
+      "tr": "Kanal du Midi",
+      "en": "Canal du Midi",
+      "de": "Canal du Midi"
+    },
+    "latitude": 43.27014,
+    "longitude": 2.39532,
+    "description": {
+      "tr": "Kanal du Midi, Fransa'nın güneyinde yer alan tarihi bir su yolu olup, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "The Canal du Midi, located in southern France, is a historic waterway and is listed as a UNESCO World Heritage site.",
+      "de": "Der Canal du Midi, im Süden Frankreichs gelegen, ist eine historische Wasserstraße und steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Kanaldan tekneyle geçmek",
+        "Doğal manzarayı keşfetmek"
+      ],
+      "en": [
+        "Take a boat ride on the canal",
+        "Explore the natural scenery"
+      ],
+      "de": [
+        "Eine Bootsfahrt auf dem Kanal machen",
+        "Die natürliche Landschaft erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/canal_du_midi.jpg"
+    ]
+  }
+]

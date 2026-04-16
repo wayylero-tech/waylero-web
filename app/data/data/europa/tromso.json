@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "arctic-cathedral",
+    "name": {
+      "tr": "Arctic Cathedral",
+      "en": "Arctic Cathedral",
+      "de": "Arktische Kathedrale"
+    },
+    "latitude": 69.6496,
+    "longitude": 18.956,
+    "description": {
+      "tr": "Arctic Cathedral, Tromsø'nun en ikonik yapılarından biridir. Buzlu deniz manzarasıyla dikkat çeker.",
+      "en": "The Arctic Cathedral is one of Tromsø's most iconic buildings, known for its stunning view of the icy sea.",
+      "de": "Die Arktische Kathedrale ist eines der ikonischsten Gebäude von Tromsø und bekannt für ihren atemberaubenden Blick auf das eisige Meer."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin mimarisini inceleme",
+        "Konserde dinlenme"
+      ],
+      "en": [
+        "Examine the architecture of the church",
+        "Relax at a concert"
+      ],
+      "de": [
+        "Die Architektur der Kirche besichtigen",
+        "Bei einem Konzert entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/arctic_cathedral.jpg"
+    ]
+  }
+]

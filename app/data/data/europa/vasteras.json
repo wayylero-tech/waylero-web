@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "v-ster-s-katedrali",
+    "name": {
+      "tr": "Västerås Katedrali",
+      "en": "Västerås Cathedral",
+      "de": "Västerås Kathedrale"
+    },
+    "latitude": 59.6099,
+    "longitude": 16.5442,
+    "description": {
+      "tr": "Västerås Katedrali, 13. yüzyıldan kalma Gotik tarzda bir katedraldir ve şehri simgeleyen yapıdır.",
+      "en": "Västerås Cathedral is a Gothic cathedral from the 13th century and is an iconic symbol of the city.",
+      "de": "Die Västerås Kathedrale ist eine gotische Kathedrale aus dem 13. Jahrhundert und ein Wahrzeichen der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezmek",
+        "Mimari detayları incelemek"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/vasteras_katedrali.jpg"
+    ]
+  },
+  {
+    "slug": "dj-kneberget-parki",
+    "name": {
+      "tr": "Djäkneberget Parkı",
+      "en": "Djäkneberget Park",
+      "de": "Djäkneberget Park"
+    },
+    "latitude": 59.6074,
+    "longitude": 16.5459,
+    "description": {
+      "tr": "Djäkneberget Parkı, doğayla iç içe bir yürüyüş alanıdır ve şehri yukarıdan izlemek için güzel bir noktadır.",
+      "en": "Djäkneberget Park is a nature-filled walking area, offering a beautiful viewpoint over the city.",
+      "de": "Der Djäkneberget Park ist ein naturnaher Wanderbereich und bietet einen schönen Ausblick auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Walk in the park",
+        "Enjoy nature"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/djakneberget.jpg"
+    ]
+  },
+  {
+    "slug": "v-ster-s-kultur-muzesi",
+    "name": {
+      "tr": "Västerås Kültür Müzesi",
+      "en": "Västerås Cultural Museum",
+      "de": "Västerås Kulturmuseum"
+    },
+    "latitude": 59.607,
+    "longitude": 16.544,
+    "description": {
+      "tr": "Västerås Kültür Müzesi, bölgenin kültürel mirasını ve tarihini sergileyen bir müzedir.",
+      "en": "Västerås Cultural Museum showcases the region’s cultural heritage and history.",
+      "de": "Das Västerås Kulturmuseum zeigt das kulturelle Erbe und die Geschichte der Region."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi yapmak",
+        "Yerel kültürü keşfetmek"
+      ],
+      "en": [
+        "Take a museum tour",
+        "Discover the local culture"
+      ],
+      "de": [
+        "Eine Museumsführung machen",
+        "Die lokale Kultur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/vasteras_muze.jpg"
+    ]
+  },
+  {
+    "slug": "v-ster-s-art-museum",
+    "name": {
+      "tr": "Västerås Art Museum",
+      "en": "Västerås Art Museum",
+      "de": "Västerås Kunstmuseum"
+    },
+    "latitude": 59.608,
+    "longitude": 16.548,
+    "description": {
+      "tr": "Västerås Art Museum, İsveç sanatının modern ve klasik örneklerini sergileyen önemli bir sanat merkezidir.",
+      "en": "Västerås Art Museum is an important cultural center showcasing both modern and classical Swedish art.",
+      "de": "Das Västerås Kunstmuseum ist ein wichtiges Kulturzentrum, das sowohl moderne als auch klassische schwedische Kunst zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini görmek",
+        "Modern sanatı keşfetmek"
+      ],
+      "en": [
+        "See the artworks",
+        "Explore modern art"
+      ],
+      "de": [
+        "Die Kunstwerke sehen",
+        "Moderne Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/vasteras_sanat_muze.jpg"
+    ]
+  },
+  {
+    "slug": "v-ster-s-botanik-bahcesi",
+    "name": {
+      "tr": "Västerås Botanik Bahçesi",
+      "en": "Västerås Botanical Garden",
+      "de": "Västerås Botanischer Garten"
+    },
+    "latitude": 59.6095,
+    "longitude": 16.5488,
+    "description": {
+      "tr": "Västerås Botanik Bahçesi, çeşitli bitki ve çiçek türleriyle dolu huzurlu bir parktır.",
+      "en": "Västerås Botanical Garden is a peaceful park filled with various plant and flower species.",
+      "de": "Der Västerås Botanische Garten ist ein friedlicher Park, der mit verschiedenen Pflanzen- und Blumenarten gefüllt ist."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeyi gezmek",
+        "Çiçekleri incelemek"
+      ],
+      "en": [
+        "Walk around the garden",
+        "Examine the flowers"
+      ],
+      "de": [
+        "Im Garten spazieren gehen",
+        "Die Blumen untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/vasteras_bahce.jpg"
+    ]
+  }
+]

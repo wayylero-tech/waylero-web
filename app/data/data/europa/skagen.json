@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "skagen-muzesi",
+    "name": {
+      "tr": "Skagen Müzesi",
+      "en": "Skagen Museum",
+      "de": "Skagen Museum"
+    },
+    "latitude": 57.7155,
+    "longitude": 10.589,
+    "description": {
+      "tr": "Skagen Müzesi, Skagen’in ünlü sanatçılarını ve onların eserlerini sergileyen bir müzedir. Özellikle 19. yüzyıl sanatçılarıyla tanınır.",
+      "en": "Skagen Museum showcases the works of famous artists from Skagen. It is particularly known for 19th-century artists.",
+      "de": "Das Skagen Museum stellt die Werke berühmter Künstler aus Skagen aus. Es ist besonders bekannt für Künstler des 19. Jahrhunderts."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini incelemek",
+        "Skagen’in sanat tarihini keşfetmek"
+      ],
+      "en": [
+        "Examine art pieces",
+        "Explore Skagen's art history"
+      ],
+      "de": [
+        "Kunstwerke besichtigen",
+        "Die Kunstgeschichte von Skagen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/skagen_museum.jpg"
+    ]
+  },
+  {
+    "slug": "grenen",
+    "name": {
+      "tr": "Grenen",
+      "en": "Grenen",
+      "de": "Grenen"
+    },
+    "latitude": 57.7463,
+    "longitude": 10.5932,
+    "description": {
+      "tr": "Grenen, Danimarka’nın en kuzey noktasıdır. Baltık Denizi ve Kuzey Denizi’nin birleştiği noktada eşsiz manzaralar sunar.",
+      "en": "Grenen is the northernmost point of Denmark. It offers unique views where the Baltic Sea and the North Sea meet.",
+      "de": "Grenen ist der nördlichste Punkt Dänemarks. Es bietet einzigartige Ausblicke, wo die Ostsee und die Nordsee aufeinandertreffen."
+    },
+    "activities": {
+      "tr": [
+        "Denizlerin birleşim noktasını görmek",
+        "Manzaranın tadını çıkarmak"
+      ],
+      "en": [
+        "See the meeting point of the seas",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Den Treffpunkt der Meere sehen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/grenen.jpg"
+    ]
+  }
+]

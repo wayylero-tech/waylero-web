@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "st-michael-kilisesi",
+    "name": {
+      "tr": "St. Michael Kilisesi",
+      "en": "St. Michael Church",
+      "de": "St. Michael Kirche"
+    },
+    "latitude": 46.77,
+    "longitude": 23.59,
+    "description": {
+      "tr": "St. Michael Kilisesi, Gotik tarzda inşa edilmiş ve şehrin simgelerinden biri olan bir katedraldir. İçindeki tarihi eserler dikkat çekicidir.",
+      "en": "St. Michael Church is a Gothic-style cathedral and one of the city's landmarks, known for its historical artifacts inside.",
+      "de": "Die St. Michael Kirche ist eine gotische Kathedrale und eines der Wahrzeichen der Stadt, bekannt für ihre historischen Artefakte im Inneren."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini keşfetme",
+        "Tarihi yapıyı gezme"
+      ],
+      "en": [
+        "Explore the interior of the church",
+        "Tour the historical building"
+      ],
+      "de": [
+        "Das Innere der Kirche erkunden",
+        "Das historische Gebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/st_michael_church.jpg"
+    ]
+  },
+  {
+    "slug": "botanik-bahcesi",
+    "name": {
+      "tr": "Botanik Bahçesi",
+      "en": "Botanical Garden",
+      "de": "Botanischer Garten"
+    },
+    "latitude": 46.7711,
+    "longitude": 23.5923,
+    "description": {
+      "tr": "Cluj-Napoca Botanik Bahçesi, Romanya'nın en büyük ve en güzel botanik bahçelerinden biridir. Yürüyüş yapmak ve doğanın tadını çıkarmak için harika bir yerdir.",
+      "en": "Cluj-Napoca Botanical Garden is one of Romania's largest and most beautiful botanical gardens. It is a great place to take a walk and enjoy nature.",
+      "de": "Der Botanische Garten Cluj-Napoca ist einer der größten und schönsten botanischen Gärten Rumäniens. Es ist ein großartiger Ort, um spazieren zu gehen und die Natur zu genießen."
+    },
+    "activities": {
+      "tr": [
+        "Bahçede yürüyüş yapma",
+        "Endemik bitkileri keşfetme"
+      ],
+      "en": [
+        "Take a walk in the garden",
+        "Explore endemic plants"
+      ],
+      "de": [
+        "Im Garten spazieren gehen",
+        "Endemische Pflanzen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/cluj_botanical_garden.jpg"
+    ]
+  }
+]

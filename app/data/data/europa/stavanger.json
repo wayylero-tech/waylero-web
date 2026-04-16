@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "preikestolen",
+    "name": {
+      "tr": "Preikestolen",
+      "en": "Preikestolen",
+      "de": "Preikestolen"
+    },
+    "latitude": 58.9833,
+    "longitude": 6.19,
+    "description": {
+      "tr": "Preikestolen, Norveç’in en ünlü kaya platformlarından biridir. Üzerinden muazzam bir manzara izlenebilir.",
+      "en": "Preikestolen is one of Norway’s most famous rock platforms, offering a breathtaking view from above.",
+      "de": "Preikestolen ist eine der bekanntesten Felsplattformen Norwegens und bietet von oben einen atemberaubenden Ausblick."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapma",
+        "Manzara fotoğrafları çekme"
+      ],
+      "en": [
+        "Go hiking",
+        "Take photos of the view"
+      ],
+      "de": [
+        "Wandern gehen",
+        "Fotos von der Aussicht machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/preikestolen.jpg"
+    ]
+  },
+  {
+    "slug": "stavanger-eski-sehir",
+    "name": {
+      "tr": "Stavanger Eski Şehir",
+      "en": "Stavanger Old Town",
+      "de": "Stavanger Altstadt"
+    },
+    "latitude": 58.97,
+    "longitude": 5.7333,
+    "description": {
+      "tr": "Stavanger Eski Şehir, renkli ve tarihi ahşap evleriyle ünlüdür. Bu bölge, Norveç'in en iyi korunmuş eski şehirlerinden biridir.",
+      "en": "Stavanger Old Town is known for its colorful, historic wooden houses. This area is one of the best-preserved old towns in Norway.",
+      "de": "Die Altstadt von Stavanger ist bekannt für ihre bunten, historischen Holzhäuser. Dieses Gebiet ist eine der am besten erhaltenen Altstädte Norwegens."
+    },
+    "activities": {
+      "tr": [
+        "Eski şehirde gezinti yapma",
+        "Tarihi evleri inceleme"
+      ],
+      "en": [
+        "Stroll through the old town",
+        "Examine the historic houses"
+      ],
+      "de": [
+        "Durch die Altstadt schlendern",
+        "Die historischen Häuser besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/old_town_stavanger.jpg"
+    ]
+  }
+]

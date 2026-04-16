@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "campuhan-ridge-walk",
+    "name": {
+      "tr": "Campuhan Ridge Walk",
+      "en": "Campuhan Ridge Walk",
+      "de": "Campuhan Ridge Walk"
+    },
+    "latitude": -8.5067,
+    "longitude": 115.2671,
+    "description": {
+      "tr": "Campuhan Ridge Walk, Ubud’un doğasında yapılan harika bir yürüyüş rotasıdır. Doğal güzellikleriyle ünlü olan bu yürüyüş yolu, yeşillikler içinde bir dağ sırtında yer alır. Burada yürürken, Ubud’un muazzam manzaralarını ve tropikal ormanları keşfetmek mümkündür. Bu yürüyüş, doğa severler ve huzur arayanlar için mükemmel bir seçenektir.\n",
+      "en": "Campuhan Ridge Walk is a beautiful hiking trail set in Ubud’s nature. Known for its natural beauty, this trail runs along a ridge surrounded by lush greenery. While walking, visitors can discover stunning views of Ubud and the tropical forests. This hike is perfect for nature lovers and those seeking peace and tranquility.\n",
+      "de": "Der Campuhan Ridge Walk ist ein schöner Wanderweg in der Natur von Ubud. Dieser Weg, der für seine natürliche Schönheit bekannt ist, verläuft entlang eines Bergrückens, der von üppigem Grün umgeben ist. Beim Wandern können Besucher die atemberaubende Aussicht auf Ubud und die tropischen Wälder genießen. Diese Wanderung ist perfekt für Naturliebhaber und diejenigen, die Ruhe und Frieden suchen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapmak",
+        "Ubud manzaralarını görmek",
+        "Tropikal ormanları keşfetmek"
+      ],
+      "en": [
+        "Hike through nature",
+        "See Ubud views",
+        "Explore tropical forests"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Die Aussicht auf Ubud genießen",
+        "Tropische Wälder erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kamp"
+      ],
+      "en": [
+        "camping"
+      ],
+      "de": [
+        "Camping"
+      ]
+    },
+    "images": [
+      "https://example.com/campuhan_ridge_walk.jpg"
+    ]
+  },
+  {
+    "slug": "sacred-monkey-forest-sanctuary",
+    "name": {
+      "tr": "Sacred Monkey Forest Sanctuary",
+      "en": "Sacred Monkey Forest Sanctuary",
+      "de": "Sacred Monkey Forest Sanctuary"
+    },
+    "latitude": -8.519,
+    "longitude": 115.2626,
+    "description": {
+      "tr": "Sacred Monkey Forest Sanctuary, Bali'nin Ubud bölgesinde yer alan ve tapınaklarıyla ünlü bir doğal koruma alanıdır. Burada, özgürce dolaşan maymunlarla karşılaşabilir ve Bali'nin eski inançlarını yansıtan tarihi tapınakları keşfedebilirsiniz. Tapınaklar, kutsal kabul edilen bir alan olup, mistik bir atmosfer sunar. Yürüyüş yaparken yeşillikler içinde doğanın tadını çıkarabilir ve tapınakların tarihî dokusuna hayran kalabilirsiniz.\n",
+      "en": "Sacred Monkey Forest Sanctuary is a natural reserve located in Ubud, Bali, famous for its temples and freely roaming monkeys. Here, you can encounter monkeys and explore ancient temples that reflect Bali's spiritual beliefs. The temples are considered sacred, providing a mystical atmosphere. While walking through the lush greenery, you can enjoy the serenity of nature and admire the historic architecture of the temples.\n",
+      "de": "Das Sacred Monkey Forest Sanctuary ist ein Naturreservat in Ubud, Bali, das für seine Tempel und frei herumlaufenden Affen bekannt ist. Hier können Sie Affen begegnen und alte Tempel entdecken, die die spirituellen Überzeugungen von Bali widerspiegeln. Die Tempel werden als heilig angesehen und bieten eine mystische Atmosphäre. Beim Spaziergang durch das üppige Grün können Sie die Ruhe der Natur genießen und die historische Architektur der Tempel bewundern.\n"
+    },
+    "activities": {
+      "tr": [
+        "Maymunları görmek",
+        "Tapınakları gezmek",
+        "Doğada yürüyüş yapmak"
+      ],
+      "en": [
+        "See the monkeys",
+        "Explore the temples",
+        "Walk in nature"
+      ],
+      "de": [
+        "Die Affen sehen",
+        "Die Tempel erkunden",
+        "In der Natur spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sacred_monkey_forest_sanctuary.jpg"
+    ]
+  },
+  {
+    "slug": "tegallalang-pirinc-teraslari",
+    "name": {
+      "tr": "Tegallalang Pirinç Terasları",
+      "en": "Tegallalang Rice Terraces",
+      "de": "Tegallalang Reisterrassen"
+    },
+    "latitude": -8.3741,
+    "longitude": 115.2765,
+    "description": {
+      "tr": "Tegallalang Pirinç Terasları, Bali'nin en ikonik doğal güzelliklerinden biridir. Muhteşem manzaralar eşliğinde pirinç tarlalarının teras şeklinde dizildiği bu bölge, Bali'nin geleneksel tarım yöntemlerini gözler önüne serer. Teraslar, bölgenin doğal yaşamını ve yeşilin her tonunu gözler önüne sererken, burada yürüyüş yaparken eşsiz bir huzur bulabilirsiniz. Bali'nin doğal güzelliklerini keşfetmek isteyenler için mutlaka görülmesi gereken bir yerdir.\n",
+      "en": "Tegallalang Rice Terraces is one of Bali's most iconic natural wonders. This area, where rice fields are arranged in terraces, showcases the traditional agricultural methods of Bali. The terraces present the natural beauty of the region, offering stunning views of various shades of green. Walking through the terraces, visitors can experience a peaceful atmosphere and immerse themselves in Bali's natural beauty, making it a must-visit spot for nature lovers.\n",
+      "de": "Die Tegallalang-Reisterrassen gehören zu den bekanntesten natürlichen Sehenswürdigkeiten Balis. In dieser Gegend sind die Reisfelder in Terrassenform angeordnet, was die traditionellen landwirtschaftlichen Methoden Balis veranschaulicht. Die Terrassen bieten atemberaubende Ausblicke auf die verschiedenen Grüntöne der Region. Bei einem Spaziergang durch die Terrassen können die Besucher eine friedliche Atmosphäre genießen und in die natürliche Schönheit Balis eintauchen, was sie zu einem Muss für Naturliebhaber macht.\n"
+    },
+    "activities": {
+      "tr": [
+        "Pirinç tarlalarında yürümek",
+        "Bali’nin geleneksel tarımını görmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Walk through the rice terraces",
+        "See Bali's traditional farming",
+        "Enjoy nature"
+      ],
+      "de": [
+        "Durch die Reisfelder spazieren",
+        "Die traditionelle Landwirtschaft Balis sehen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/tegallalang_rice_terraces.jpg"
+    ]
+  },
+  {
+    "slug": "ubud-kraliyet-sarayi",
+    "name": {
+      "tr": "Ubud Kraliyet Sarayı",
+      "en": "Ubud Royal Palace",
+      "de": "Ubud Königspalast"
+    },
+    "latitude": -8.5065,
+    "longitude": 115.2636,
+    "description": {
+      "tr": "Ubud Kraliyet Sarayı, Bali'nin geleneksel mimarisini yansıtan önemli bir yapıdır. Ubud'un merkezinde yer alan bu saray, Bali'nin kraliyet ailesinin yaşam alanıydı. Bugün, saray hem turistler hem de yerel halk için bir kültürel merkez olarak kullanılmaktadır. Sarayın içinde geleneksel Bali sanatını ve mimarisini görmek mümkündür. Aynı zamanda burada düzenlenen geleneksel dans gösterileri de ziyaretçilere Bali kültürünü yakından tanıma fırsatı sunar.\n",
+      "en": "Ubud Royal Palace is a significant building that reflects Bali’s traditional architecture. Located in the center of Ubud, this palace was once the residence of the Balinese royal family. Today, it serves as a cultural center for both tourists and locals. Inside the palace, visitors can admire traditional Balinese art and architecture. The palace also hosts traditional dance performances, providing a closer look at Balinese culture.\n",
+      "de": "Der Ubud-Königspalast ist ein bedeutendes Gebäude, das die traditionelle balinesische Architektur widerspiegelt. Im Zentrum von Ubud gelegen, war dieser Palast einst der Wohnsitz der balinesischen königlichen Familie. Heute dient er sowohl Touristen als auch Einheimischen als Kulturzentrum. Im Inneren des Palastes können Besucher die traditionelle balinesische Kunst und Architektur bewundern. Der Palast bietet auch traditionelle Tanzaufführungen, die den Besuchern die balinesische Kultur näherbringen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sarayda gezmek",
+        "Bali sanatını görmek",
+        "Geleneksel dans gösterilerini izlemek"
+      ],
+      "en": [
+        "Tour the palace",
+        "See Balinese art",
+        "Watch traditional dance performances"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Balinesische Kunst sehen",
+        "Traditionelle Tanzaufführungen ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/ubud_royal_palace.jpg"
+    ]
+  },
+  {
+    "slug": "goa-gajah-fil-magarasi",
+    "name": {
+      "tr": "Goa Gajah (Fil Mağarası)",
+      "en": "Goa Gajah (Elephant Cave)",
+      "de": "Goa Gajah (Elefantenhöhle)"
+    },
+    "latitude": -8.5736,
+    "longitude": 115.3036,
+    "description": {
+      "tr": "Goa Gajah, Bali'nin en eski ve en önemli tapınak komplekslerinden biridir. Aynı zamanda \"Fil Mağarası\" olarak bilinir, çünkü mağaranın girişi, fil şekliyle oyulmuştur. Bu tapınak, tarihi ve mistik bir atmosfer sunar. Tapınak alanı, eski Bali kültürünü keşfetmek isteyenler için büyüleyici bir yer olup, doğa ile iç içe geçmiş bir atmosfer sunar.\n",
+      "en": "Goa Gajah is one of Bali's oldest and most important temple complexes. Also known as the \"Elephant Cave,\" it gets its name from the cave entrance carved in the shape of an elephant. This temple offers a historical and mystical atmosphere. The temple area provides a fascinating site for those wishing to explore ancient Balinese culture and is surrounded by nature, offering a peaceful environment.\n",
+      "de": "Goa Gajah ist einer der ältesten und wichtigsten Tempelkomplexe Balis. Auch bekannt als die \"Elefantenhöhle\", verdankt sie ihren Namen dem Eingang der Höhle, der in Form eines Elefanten geschnitzt ist. Dieser Tempel bietet eine historische und mystische Atmosphäre. Der Tempelbereich ist ein faszinierender Ort für diejenigen, die die alte balinesische Kultur entdecken möchten, und bietet eine friedliche Umgebung, die von Natur umgeben ist.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağarayı gezmek",
+        "Tarihi tapınakları görmek",
+        "Doğada yürümek"
+      ],
+      "en": [
+        "Explore the cave",
+        "See historical temples",
+        "Walk in nature"
+      ],
+      "de": [
+        "Die Höhle erkunden",
+        "Historische Tempel sehen",
+        "In der Natur spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/goa_gajah.jpg"
+    ]
+  }
+]

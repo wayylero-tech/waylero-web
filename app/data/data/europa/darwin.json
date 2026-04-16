@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "litchfield-national-park",
+    "name": {
+      "tr": "Litchfield National Park",
+      "en": "Litchfield National Park",
+      "de": "Litchfield Nationalpark"
+    },
+    "latitude": -12.467,
+    "longitude": 130.5402,
+    "description": {
+      "tr": "Litchfield National Park, şelaleler, doğal yüzme havuzları ve yürüyüş parkurlarına sahip olan doğal bir parktır. Ziyaretçileri doğal güzellikler ve sakin bir atmosfer bekler.",
+      "en": "Litchfield National Park is a natural park featuring waterfalls, natural swimming holes, and hiking trails. Visitors can enjoy the park’s beauty and peaceful atmosphere.",
+      "de": "Der Litchfield Nationalpark ist ein Naturpark mit Wasserfällen, natürlichen Schwimmbecken und Wanderwegen. Besucher können die Schönheit des Parks und die friedliche Atmosphäre genießen."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Şelaleleri görmek",
+        "Yüzme havuzlarında yüzmek"
+      ],
+      "en": [
+        "Hiking",
+        "Seeing waterfalls",
+        "Swimming in natural pools"
+      ],
+      "de": [
+        "Wandern",
+        "Wasserfälle sehen",
+        "In natürlichen Pools schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/litchfield_national_park.jpg"
+    ]
+  },
+  {
+    "slug": "kakadu-national-park",
+    "name": {
+      "tr": "Kakadu National Park",
+      "en": "Kakadu National Park",
+      "de": "Kakadu Nationalpark"
+    },
+    "latitude": -12.4393,
+    "longitude": 132.4593,
+    "description": {
+      "tr": "Kakadu National Park, Avustralya’nın en büyük milli parklarından biridir ve zengin flora ve fauna ile ünlüdür. Bu park, tarihî ve kültürel öneme sahip birçok alana da sahiptir.",
+      "en": "Kakadu National Park is one of Australia’s largest national parks, known for its rich flora and fauna. It also contains several areas of historical and cultural significance.",
+      "de": "Der Kakadu Nationalpark ist einer der größten Nationalparks Australiens und bekannt für seine reiche Flora und Fauna. Er enthält auch mehrere historisch und kulturell bedeutende Gebiete."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Yaban hayatını görmek",
+        "Tarihi yerleri keşfetmek"
+      ],
+      "en": [
+        "Hiking",
+        "Seeing wildlife",
+        "Exploring historical sites"
+      ],
+      "de": [
+        "Wandern",
+        "Wildtiere sehen",
+        "Historische Stätten erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kakadu_national_park.jpg"
+    ]
+  },
+  {
+    "slug": "darwin-waterfront",
+    "name": {
+      "tr": "Darwin Waterfront",
+      "en": "Darwin Waterfront",
+      "de": "Darwin Waterfront"
+    },
+    "latitude": -12.4628,
+    "longitude": 130.8435,
+    "description": {
+      "tr": "Darwin Waterfront, yüzme havuzları, restoranlar ve alışveriş alanlarının bulunduğu bir alandır. Burada vakit geçirirken deniz manzarasının tadını çıkarabilirsiniz.",
+      "en": "Darwin Waterfront is an area with swimming pools, restaurants, and shopping spaces. Visitors can enjoy the sea view while spending time here.",
+      "de": "Die Darwin Waterfront ist ein Bereich mit Schwimmbädern, Restaurants und Einkaufsmöglichkeiten. Besucher können den Meerblick genießen, während sie hier Zeit verbringen."
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Restoranlarda yemek yemek",
+        "Alışveriş yapmak"
+      ],
+      "en": [
+        "Swimming",
+        "Dining at restaurants",
+        "Shopping"
+      ],
+      "de": [
+        "Schwimmen",
+        "In Restaurants essen",
+        "Einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/darwin_waterfront.jpg"
+    ]
+  },
+  {
+    "slug": "mindil-beach",
+    "name": {
+      "tr": "Mindil Beach",
+      "en": "Mindil Beach",
+      "de": "Mindil Beach"
+    },
+    "latitude": -12.3649,
+    "longitude": 130.8772,
+    "description": {
+      "tr": "Mindil Beach, Darwin’in ünlü plajlarından biridir ve her yıl düzenlenen Mindil Beach Sunset Market’ı ile dikkat çeker. Plajda güneş batışı muazzam bir manzaraya sahiptir.",
+      "en": "Mindil Beach is one of Darwin’s famous beaches, known for the annual Mindil Beach Sunset Market. The beach offers an amazing sunset view.",
+      "de": "Der Mindil Beach ist einer der berühmtesten Strände Darwins und bekannt für den jährlichen Mindil Beach Sunset Market. Der Strand bietet einen atemberaubenden Sonnenuntergang."
+    },
+    "activities": {
+      "tr": [
+        "Güneş batışını izlemek",
+        "Pazar alışverişi yapmak",
+        "Yüzme"
+      ],
+      "en": [
+        "Watching the sunset",
+        "Shopping at the market",
+        "Swimming"
+      ],
+      "de": [
+        "Den Sonnenuntergang beobachten",
+        "Auf dem Markt einkaufen",
+        "Schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/mindil_beach.jpg"
+    ]
+  },
+  {
+    "slug": "museum-and-art-gallery-of-the-northern-territory",
+    "name": {
+      "tr": "Museum and Art Gallery of the Northern Territory",
+      "en": "Museum and Art Gallery of the Northern Territory",
+      "de": "Museum and Art Gallery of the Northern Territory"
+    },
+    "latitude": -12.4632,
+    "longitude": 130.8327,
+    "description": {
+      "tr": "Museum and Art Gallery of the Northern Territory, Kuzey Toprakları’nın tarihi ve kültürel mirasını keşfedebileceğiniz bir müzedir. Burada, bölgeye ait sanat eserleri ve yerel tarih sergilenir.",
+      "en": "The Museum and Art Gallery of the Northern Territory is a museum where you can explore the historical and cultural heritage of the Northern Territory. It features local artworks and history.",
+      "de": "Das Museum und die Kunstgalerie des Northern Territory ist ein Museum, in dem Sie das historische und kulturelle Erbe des Northern Territory entdecken können. Es zeigt lokale Kunstwerke und Geschichte."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini görmek",
+        "Bölgenin tarihini keşfetmek",
+        "Müze turu yapmak"
+      ],
+      "en": [
+        "Viewing artworks",
+        "Exploring the region’s history",
+        "Taking a museum tour"
+      ],
+      "de": [
+        "Kunstwerke ansehen",
+        "Die Geschichte der Region erkunden",
+        "Eine Museumstour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/museum_art_gallery_northern_territory.jpg"
+    ]
+  }
+]

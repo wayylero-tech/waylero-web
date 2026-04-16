@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "teylers-museum",
+    "name": {
+      "tr": "Teylers Museum",
+      "en": "Teylers Museum",
+      "de": "Teylers Museum"
+    },
+    "latitude": 52.3847,
+    "longitude": 4.6369,
+    "description": {
+      "tr": "Teylers Museum, Hollanda'nın en eski müzesidir ve doğa tarihi, bilim ve sanat koleksiyonlarına ev sahipliği yapmaktadır.",
+      "en": "Teylers Museum is the oldest museum in the Netherlands, hosting collections of natural history, science, and art.",
+      "de": "Das Teylers Museum ist das älteste Museum der Niederlande und beherbergt Sammlungen zur Naturgeschichte, Wissenschaft und Kunst."
+    },
+    "activities": {
+      "tr": [
+        "Doğa tarihi sergilerini gezme",
+        "Sanat koleksiyonlarını keşfetme"
+      ],
+      "en": [
+        "Explore natural history exhibits",
+        "Discover art collections"
+      ],
+      "de": [
+        "Naturhistorische Ausstellungen besichtigen",
+        "Kunstausstellungen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/teylers_museum.jpg"
+    ]
+  },
+  {
+    "slug": "haarlem-city-center",
+    "name": {
+      "tr": "Haarlem City Center",
+      "en": "Haarlem City Center",
+      "de": "Haarlem Stadtzentrum"
+    },
+    "latitude": 52.3843,
+    "longitude": 4.6352,
+    "description": {
+      "tr": "Haarlem'in şehir merkezi, tarihi binalar, alışveriş caddeleri ve kafe kültürü ile popüler bir yerdir.",
+      "en": "Haarlem City Center is a popular spot with historic buildings, shopping streets, and café culture.",
+      "de": "Das Stadtzentrum von Haarlem ist ein beliebter Ort mit historischen Gebäuden, Einkaufsstraßen und einer Café-Kultur."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Kafelerde oturma"
+      ],
+      "en": [
+        "Shop for goods",
+        "Sit in cafés"
+      ],
+      "de": [
+        "Einkaufen gehen",
+        "In Cafés sitzen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/haarlem_center.jpg"
+    ]
+  }
+]

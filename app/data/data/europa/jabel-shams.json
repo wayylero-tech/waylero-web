@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "jebel-shams",
+    "name": {
+      "tr": "Jebel Shams",
+      "en": "Jebel Shams",
+      "de": "Jebel Shams"
+    },
+    "latitude": 23.2074,
+    "longitude": 57.2876,
+    "description": {
+      "tr": "Jebel Shams, Umman’ın en yüksek dağıdır ve “Güneş Dağı” olarak da bilinir. Yüksekliği 3.009 metreyi bulur ve büyüleyici manzaralarıyla ünlüdür. Dağın zirvesi, vadilere ve etkileyici dağ sıralarına bakmaktadır. Ziyaretçiler burada yürüyüş yapabilir, kaya tırmanışı gibi macera aktivitelerine katılabilir veya dağın eteklerinde kamp yapabilirler.",
+      "en": "Jebel Shams is the highest mountain in Oman, also known as the \"Mountain of the Sun.\" It rises to 3,009 meters and is famous for its breathtaking views. The summit offers views over valleys and dramatic mountain ranges. Visitors can hike, engage in rock climbing, or camp at the base of the mountain.",
+      "de": "Jebel Shams ist der höchste Berg in Oman, auch bekannt als der \"Berg der Sonne\". Er steigt auf 3.009 Meter und ist berühmt für seine atemberaubenden Aussichten. Vom Gipfel aus hat man einen Blick auf Täler und dramatische Bergketten. Besucher können wandern, Felsklettern betreiben oder am Fuß des Berges campen."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Kaya tırmanışı yapmak",
+        "Kamp yapmak",
+        "Manzara seyretmek"
+      ],
+      "en": [
+        "Hiking",
+        "Rock climbing",
+        "Camping",
+        "Enjoying the views"
+      ],
+      "de": [
+        "Wandern",
+        "Klettern",
+        "Campen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/jebel_shams_1.jpg",
+      "https://example.com/jebel_shams_2.jpg"
+    ]
+  }
+]

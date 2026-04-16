@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "bodensee-golu",
+    "name": {
+      "tr": "Bodensee Gölü",
+      "en": "Lake Constance",
+      "de": "Bodensee"
+    },
+    "latitude": 47.5,
+    "longitude": 9.75,
+    "description": {
+      "tr": "Tekne turlarıyla ünlüdür.",
+      "en": "Famous for boat tours.",
+      "de": "Berühmt für Bootstouren."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu yapma",
+        "Göl etrafında dolaşma"
+      ],
+      "en": [
+        "Take a boat tour",
+        "Walk around the lake"
+      ],
+      "de": [
+        "Eine Bootstour machen",
+        "Um den See spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_constance.jpg"
+    ]
+  },
+  {
+    "slug": "bregenz-festivali",
+    "name": {
+      "tr": "Bregenz Festivali",
+      "en": "Bregenz Festival",
+      "de": "Bregenzer Festspiele"
+    },
+    "latitude": 47.5034,
+    "longitude": 9.749,
+    "description": {
+      "tr": "Yaz aylarında düzenlenen açık hava opera etkinlikleriyle ünlüdür.",
+      "en": "Famous for outdoor opera performances during the summer.",
+      "de": "Berühmt für Open-Air-Opernaufführungen im Sommer."
+    },
+    "activities": {
+      "tr": [
+        "Opera izleme",
+        "Açık hava etkinliklerine katılma"
+      ],
+      "en": [
+        "Watch opera",
+        "Attend outdoor performances"
+      ],
+      "de": [
+        "Oper sehen",
+        "An Open-Air-Veranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/bregenz_festival.jpg"
+    ]
+  }
+]

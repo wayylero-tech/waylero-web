@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "esbjerg-sanat-muzesi",
+    "name": {
+      "tr": "Esbjerg Sanat Müzesi",
+      "en": "Esbjerg Art Museum",
+      "de": "Esbjerg Kunstmuseum"
+    },
+    "latitude": 55.4717,
+    "longitude": 8.4557,
+    "description": {
+      "tr": "Esbjerg Sanat Müzesi, modern sanat eserlerinin sergilendiği bir müzedir. Danimarka ve uluslararası sanatçıların eserlerine ev sahipliği yapmaktadır.",
+      "en": "Esbjerg Art Museum is a museum showcasing modern art pieces. It hosts works from both Danish and international artists.",
+      "de": "Das Esbjerg Kunstmuseum ist ein Museum, das moderne Kunstwerke ausstellt. Es beherbergt Werke sowohl dänischer als auch internationaler Künstler."
+    },
+    "activities": {
+      "tr": [
+        "Modern sanat eserlerini görmek",
+        "Sanat sergilerini gezmek"
+      ],
+      "en": [
+        "See modern art pieces",
+        "Visit art exhibitions"
+      ],
+      "de": [
+        "Moderne Kunstwerke sehen",
+        "Kunstausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/esbjerg_art_museum.jpg"
+    ]
+  },
+  {
+    "slug": "men-at-sea",
+    "name": {
+      "tr": "Men at Sea",
+      "en": "Men at Sea",
+      "de": "Men at Sea"
+    },
+    "latitude": 55.4751,
+    "longitude": 8.4503,
+    "description": {
+      "tr": "Esbjerg kıyısında yer alan Men at Sea, büyük boyutlu bir heykel grubudur. İnsan figürleri denizle bütünleşerek etkileyici bir görüntü oluşturur.",
+      "en": "Men at Sea, located on the Esbjerg coast, is a group of large-scale sculptures. The human figures blend with the sea, creating an impressive sight.",
+      "de": "Men at Sea, an der Küste von Esbjerg gelegen, ist eine Gruppe von großflächigen Skulpturen. Die menschlichen Figuren verschmelzen mit dem Meer und schaffen einen beeindruckenden Anblick."
+    },
+    "activities": {
+      "tr": [
+        "Heykelleri incelemek",
+        "Deniz kenarında yürüyüş yapmak"
+      ],
+      "en": [
+        "Examine the sculptures",
+        "Take a walk by the sea"
+      ],
+      "de": [
+        "Die Skulpturen untersuchen",
+        "Am Meer spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/men_at_sea.jpg"
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "travnik-kalesi",
+    "name": {
+      "tr": "Travnik Kalesi",
+      "en": "Travnik Fortress",
+      "de": "Festung Travnik"
+    },
+    "latitude": 44.23011,
+    "longitude": 17.67062,
+    "description": {
+      "tr": "Travnik Kalesi, Bosna-Hersek'in Travnik şehrinde yer alan tarihi bir kaledir. Orta Çağ'da inşa edilen kale, Osmanlı İmparatorluğu döneminde de önemli bir askeri üs olarak kullanılmıştır. Günümüzde kalenin iç kısmı restore edilerek ziyaretçilere açılmış ve bölgedeki en önemli turistik yerlerden biri haline gelmiştir. Kaleden, Travnik şehrinin ve çevresindeki doğal güzelliklerin harika manzarası izlenebilir. Ziyaretçiler, kale surlarında yürüyerek şehrin tarihini ve doğal güzelliklerini keşfedebilirler.\n",
+      "en": "The Travnik Fortress is a historical fortress located in the city of Travnik, Bosnia and Herzegovina. Built in the medieval period, the fortress was also used as an important military base during the Ottoman Empire. Today, the interior of the fortress has been restored and opened to visitors, making it one of the region's most important tourist destinations. From the fortress, visitors can enjoy a spectacular view of the city of Travnik and the surrounding natural beauty. Visitors can walk along the fortress walls to explore the city's history and its natural surroundings.\n",
+      "de": "Die Travnik-Festung ist eine historische Festung in der Stadt Travnik, Bosnien und Herzegowina. Die Festung wurde im Mittelalter erbaut und war auch während des Osmanischen Reiches eine wichtige militärische Basis. Heute wurde das Innere der Festung restauriert und für Besucher geöffnet, was sie zu einem der wichtigsten Touristenziele der Region macht. Von der Festung aus können Besucher einen spektakulären Blick auf die Stadt Travnik und die umliegende natürliche Schönheit genießen. Besucher können entlang der Festungsmauern spazieren, um die Geschichte der Stadt und ihre natürliche Umgebung zu entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale surlarında yürüyüş yapmak",
+        "Şehir manzarasını izlemek",
+        "Tarihi keşfetmek"
+      ],
+      "en": [
+        "Walking along the fortress walls",
+        "Enjoying the city view",
+        "Exploring the history"
+      ],
+      "de": [
+        "Spaziergang entlang der Festungsmauern",
+        "Genießen des Stadtblicks",
+        "Die Geschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/travnik_fortress1.jpg",
+      "https://example.com/travnik_fortress2.jpg"
+    ]
+  },
+  {
+    "slug": "alaca-camii",
+    "name": {
+      "tr": "Alaca Camii",
+      "en": "Alaca Mosque",
+      "de": "Alaca Moschee"
+    },
+    "latitude": 44.22655,
+    "longitude": 17.66998,
+    "description": {
+      "tr": "Alaca Camii, Travnik'te bulunan ve Osmanlı dönemine ait önemli bir yapıdır. 1558 yılında inşa edilen cami, özellikle mimarisiyle dikkat çeker. Cami, kare planlı olup, iç mekanındaki etkileyici Osmanlı hat sanatı ve kaligrafi ile ünlüdür. Ayrıca caminin dış cephesi, çeşitli geometrik desenlerle bezenmiş ve geleneksel Osmanlı mimarisinin örneklerinden biridir. Alaca Camii, yalnızca dini bir yer değil, aynı zamanda bölgedeki kültürel mirası yansıtan önemli bir yapıdır.\n",
+      "en": "The Alaca Mosque is an important Ottoman-era structure located in Travnik. Built in 1558, the mosque is especially known for its distinctive architecture. The mosque has a square plan, and its interior is famous for impressive Ottoman calligraphy and script. The exterior of the mosque is adorned with various geometric patterns and serves as an example of traditional Ottoman architecture. The Alaca Mosque is not only a place of worship but also an important monument reflecting the cultural heritage of the region.\n",
+      "de": "Die Alaca-Moschee ist ein wichtiges Osmanisches Bauwerk in Travnik. Sie wurde 1558 erbaut und ist besonders für ihre markante Architektur bekannt. Die Moschee hat einen quadratischen Grundriss und ihr Inneres ist berühmt für beeindruckende osmanische Kalligrafie und Schriftzüge. Die Außenfassade der Moschee ist mit verschiedenen geometrischen Mustern verziert und stellt ein Beispiel für traditionelle osmanische Architektur dar. Die Alaca-Moschee ist nicht nur ein Ort des Gottesdienstes, sondern auch ein wichtiges Denkmal, das das kulturelle Erbe der Region widerspiegelt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Cami içindeki hat sanatını incelemek",
+        "Mimariyi keşfetmek",
+        "Dini atmosferi hissetmek"
+      ],
+      "en": [
+        "Examining the calligraphy inside the mosque",
+        "Exploring the architecture",
+        "Experiencing the religious atmosphere"
+      ],
+      "de": [
+        "Die Kalligrafie in der Moschee betrachten",
+        "Die Architektur erkunden",
+        "Die religiöse Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/alaca_mosque1.jpg",
+      "https://example.com/alaca_mosque2.jpg"
+    ]
+  },
+  {
+    "slug": "plava-voda-mavi-su-kaynagi",
+    "name": {
+      "tr": "Plava Voda (Mavi Su Kaynağı)",
+      "en": "Plava Voda (Blue Water Spring)",
+      "de": "Plava Voda (Blaues Wasser Quelle)"
+    },
+    "latitude": 44.23012,
+    "longitude": 17.67231,
+    "description": {
+      "tr": "Plava Voda, Travnik'te bulunan, olağanüstü berrak ve mavi suyu ile ünlü bir doğa harikasıdır. Bu doğal su kaynağı, bölgenin en önemli turistik yerlerinden biridir. Kaynak, çevresindeki yeşil doğa ile birleşerek etkileyici bir manzara sunar. Ziyaretçiler burada yürüyüş yapabilir, doğanın tadını çıkarabilir ve doğa fotoğrafçılığı yapabilir. Ayrıca, Plava Voda çevresindeki kafelerde dinlenebilir veya yöresel lezzetleri deneyimleyebilirsiniz.\n",
+      "en": "Plava Voda, located in Travnik, is a natural wonder famous for its crystal-clear blue water. This spring is one of the most significant tourist attractions in the region. The spring, surrounded by lush greenery, offers an impressive natural view. Visitors can walk around the area, enjoy nature, and engage in nature photography. Additionally, there are local cafes around Plava Voda where visitors can relax and sample regional delicacies.\n",
+      "de": "Plava Voda, die sich in Travnik befindet, ist ein Naturwunder, das für sein kristallklares, blaues Wasser bekannt ist. Diese Quelle ist eine der wichtigsten Touristenattraktionen der Region. Die Quelle, die von üppigem Grün umgeben ist, bietet einen beeindruckenden natürlichen Ausblick. Besucher können in der Umgebung spazieren gehen, die Natur genießen und Naturfotografie betreiben. Außerdem gibt es in der Nähe von Plava Voda lokale Cafés, in denen Besucher entspannen und regionale Köstlichkeiten probieren können.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapmak",
+        "Fotoğraf çekmek",
+        "Yerel lezzetleri tatmak"
+      ],
+      "en": [
+        "Hiking in nature",
+        "Taking photos",
+        "Tasting local delicacies"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Fotos machen",
+        "Regionale Köstlichkeiten probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/plava_voda1.jpg",
+      "https://example.com/plava_voda2.jpg"
+    ]
+  },
+  {
+    "slug": "ivo-andri-in-dogdugu-ev",
+    "name": {
+      "tr": "İvo Andrić’in Doğduğu Ev",
+      "en": "Ivo Andrić’s Birth House",
+      "de": "Ivo Andrićs Geburtshaus"
+    },
+    "latitude": 44.22717,
+    "longitude": 17.66883,
+    "description": {
+      "tr": "İvo Andrić’in Doğduğu Ev, Nobel Edebiyat Ödülü sahibi Bosnalı yazar İvo Andrić’in doğduğuna ev sahipliği yapan tarihi bir mekandır. Bu ev, Travnik’in en önemli kültürel noktalarından biridir. Andrić, burada doğmuş ve erken çocukluk dönemini burada geçirmiştir. Günümüzde ev, yazarın hayatına ve eserlerine adanmış bir müze olarak ziyaretçilere açılmıştır. Ziyaretçiler, Andrić’in kişisel eşyalarını ve yazarlık hayatını anlatan eserleri görebilirler. Bu ev, edebiyat severler için eşsiz bir ziyarettir.\n",
+      "en": "Ivo Andrić’s Birth House is a historical site where the Nobel Prize-winning Bosnian author Ivo Andrić was born. This house is one of the most important cultural landmarks in Travnik. Andrić was born here and spent his early childhood years in this house. Today, the house has been transformed into a museum dedicated to the life and works of the author. Visitors can view Andrić's personal belongings and works that depict his literary career. This site is a must-visit for literature enthusiasts.\n",
+      "de": "Das Geburtshaus von Ivo Andrić ist ein historischer Ort, an dem der mit dem Nobelpreis ausgezeichnete bosnische Autor Ivo Andrić geboren wurde. Dieses Haus ist eines der wichtigsten kulturellen Wahrzeichen von Travnik. Andrić wurde hier geboren und verbrachte seine frühe Kindheit in diesem Haus. Heute wurde das Haus in ein Museum umgewandelt, das dem Leben und Werk des Autors gewidmet ist. Besucher können Andrićs persönliche Gegenstände und Werke sehen, die seine literarische Karriere darstellen. Dieser Ort ist ein Muss für Literaturbegeisterte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yazarın eserlerini incelemek",
+        "Kişisel eşyalarını görmek",
+        "Edebiyat tarihi hakkında bilgi almak"
+      ],
+      "en": [
+        "Exploring the author’s works",
+        "Viewing personal belongings",
+        "Learning about literary history"
+      ],
+      "de": [
+        "Die Werke des Autors erkunden",
+        "Persönliche Gegenstände sehen",
+        "Mehr über Literaturgeschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/ivo_andric_house1.jpg",
+      "https://example.com/ivo_andric_house2.jpg"
+    ]
+  }
+]

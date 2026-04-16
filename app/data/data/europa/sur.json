@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "sur-deniz-feneri",
+    "name": {
+      "tr": "Sur Deniz Feneri",
+      "en": "Sur Lighthouse",
+      "de": "Sur Leuchtturm"
+    },
+    "latitude": 22.585,
+    "longitude": 59.5292,
+    "description": {
+      "tr": "Sur Deniz Feneri, Umman’ın doğu kıyısında, Sur kasabasında bulunan tarihi bir deniz feneridir. 19. yüzyılda inşa edilen bu fener, gemilere güvenli bir geçiş sağlamak için kullanılmıştır. Ziyaretçiler, fenerin tepesine çıkarak denizin ve çevredeki bölgenin muazzam manzarasını izleyebilirler.",
+      "en": "Sur Lighthouse is a historic lighthouse located in the town of Sur on the eastern coast of Oman. Built in the 19th century, it has been used to guide ships safely. Visitors can climb to the top of the lighthouse to enjoy stunning views of the sea and the surrounding area.",
+      "de": "Der Sur Leuchtturm ist ein historischer Leuchtturm in der Stadt Sur an der Ostküste Omans. Er wurde im 19. Jahrhundert erbaut und diente dazu, Schiffe sicher zu leiten. Besucher können zum Gipfel des Leuchtturms steigen und den atemberaubenden Blick auf das Meer und die umliegende Gegend genießen."
+    },
+    "activities": {
+      "tr": [
+        "Fenerin tepesine çıkmak",
+        "Deniz manzarasını izlemek",
+        "Tarihi yapıyı keşfetmek"
+      ],
+      "en": [
+        "Climbing to the top of the lighthouse",
+        "Enjoying the sea views",
+        "Exploring the historic structure"
+      ],
+      "de": [
+        "Auf den Leuchtturm steigen",
+        "Den Meerblick genießen",
+        "Die historische Struktur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/sur_lighthouse_1.jpg",
+      "https://example.com/sur_lighthouse_2.jpg"
+    ]
+  },
+  {
+    "slug": "bint-al-khor-turu",
+    "name": {
+      "tr": "Bint Al Khor Turu",
+      "en": "Bint Al Khor Tour",
+      "de": "Bint Al Khor Tour"
+    },
+    "latitude": 17.0289,
+    "longitude": 54.0755,
+    "description": {
+      "tr": "Bint Al Khor Turu, Umman’ın güneydoğusunda, doğal güzellikleri keşfetmek isteyenler için popüler bir turdur. Ziyaretçiler, bu turda bölgenin benzersiz doğal havuzlarını, deniz hayatını ve muazzam vadilerini keşfedebilirler. Bint Al Khor, aynı zamanda geleneksel köyler ve yerel yaşamın izlerini de sunar.",
+      "en": "The Bint Al Khor Tour is a popular tour in southeastern Oman, ideal for those who wish to explore natural beauty. Visitors can discover unique natural pools, marine life, and magnificent valleys on this tour. Bint Al Khor also offers glimpses into traditional villages and local life.",
+      "de": "Die Bint Al Khor Tour ist eine beliebte Tour im Südosten Omans, ideal für diejenigen, die die natürliche Schönheit entdecken möchten. Besucher können auf dieser Tour einzigartige natürliche Pools, Meeresleben und beeindruckende Täler entdecken. Bint Al Khor bietet auch Einblicke in traditionelle Dörfer und das lokale Leben."
+    },
+    "activities": {
+      "tr": [
+        "Doğal havuzları keşfetmek",
+        "Vadilerde yürüyüş yapmak",
+        "Yerel köyleri gezmek"
+      ],
+      "en": [
+        "Exploring natural pools",
+        "Hiking in the valleys",
+        "Visiting local villages"
+      ],
+      "de": [
+        "Natürliche Pools entdecken",
+        "Wandern in den Tälern",
+        "Besuch von lokalen Dörfern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/bint_al_khor_tour_1.jpg",
+      "https://example.com/bint_al_khor_tour_2.jpg"
+    ]
+  },
+  {
+    "slug": "raysut-plaji",
+    "name": {
+      "tr": "Raysut Plajı",
+      "en": "Raysut Beach",
+      "de": "Raysut Strand"
+    },
+    "latitude": 17.0208,
+    "longitude": 54.0303,
+    "description": {
+      "tr": "Raysut Plajı, Umman’ın güneydoğusunda yer alan sakin ve güzel bir plajdır. Berrak suyu ve yumuşak kumsalıyla ünlüdür. Ziyaretçiler burada dinlenebilir, yüzebilir veya deniz kenarında yürüyüş yapabilirler. Ayrıca, bölgede dalış yapmayı sevenler için iyi olanaklar da mevcuttur.",
+      "en": "Raysut Beach is a tranquil and beautiful beach located in southeastern Oman. Known for its clear waters and soft sands, visitors can relax, swim, or take a walk along the shore. The area also offers excellent opportunities for diving for those who enjoy exploring marine life.",
+      "de": "Der Raysut Strand ist ein ruhiger und schöner Strand im Südosten Omans. Bekannt für sein klares Wasser und den weichen Sand, können Besucher hier entspannen, schwimmen oder entlang des Ufers spazieren. Die Gegend bietet auch ausgezeichnete Möglichkeiten zum Tauchen für diejenigen, die das Meeresleben erkunden möchten."
+    },
+    "activities": {
+      "tr": [
+        "Yüzmek",
+        "Plajda yürüyüş yapmak",
+        "Dalış yapmak"
+      ],
+      "en": [
+        "Swimming",
+        "Walking along the beach",
+        "Diving"
+      ],
+      "de": [
+        "Schwimmen",
+        "Spazieren am Strand",
+        "Tauchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/raysut_beach_1.jpg",
+      "https://example.com/raysut_beach_2.jpg"
+    ]
+  }
+]

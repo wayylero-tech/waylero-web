@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "schlossberg-tepesi",
+    "name": {
+      "tr": "Schlossberg Tepesi",
+      "en": "Schlossberg Hill",
+      "de": "Schlossberg"
+    },
+    "latitude": 47.0892,
+    "longitude": 15.4432,
+    "description": {
+      "tr": "Şehrin panoramik manzarasını görmek için ideal bir nokta.",
+      "en": "An ideal spot to view the panoramic city views.",
+      "de": "Ein idealer Ort, um den Panoramablick auf die Stadt zu genießen."
+    },
+    "activities": {
+      "tr": [
+        "Manzara izleme",
+        "Yürüyüş yapma"
+      ],
+      "en": [
+        "Enjoy the view",
+        "Take a walk"
+      ],
+      "de": [
+        "Die Aussicht genießen",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/schlossberg_hill.jpg"
+    ]
+  },
+  {
+    "slug": "murinsel",
+    "name": {
+      "tr": "Murinsel",
+      "en": "Murinsel",
+      "de": "Murinsel"
+    },
+    "latitude": 47.07,
+    "longitude": 15.4421,
+    "description": {
+      "tr": "Mur Nehri üzerinde yüzen modern bir yapıdır.",
+      "en": "A modern structure floating on the Mur River.",
+      "de": "Ein modernes Gebäude, das auf dem Murfluss schwimmt."
+    },
+    "activities": {
+      "tr": [
+        "Yapıyı gezme",
+        "Nehrin etrafında dolaşma"
+      ],
+      "en": [
+        "Explore the structure",
+        "Walk around the river"
+      ],
+      "de": [
+        "Das Gebäude erkunden",
+        "Am Fluss entlang spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/murinsel.jpg"
+    ]
+  },
+  {
+    "slug": "eski-sehir-altstadt",
+    "name": {
+      "tr": "Eski Şehir (Altstadt)",
+      "en": "Old Town (Altstadt)",
+      "de": "Altstadt"
+    },
+    "latitude": 47.0706,
+    "longitude": 15.4395,
+    "description": {
+      "tr": "UNESCO Dünya Mirası Listesi'nde yer alıyor.",
+      "en": "It is listed on the UNESCO World Heritage List.",
+      "de": "Es ist in der Liste des UNESCO-Weltkulturerbes eingetragen."
+    },
+    "activities": {
+      "tr": [
+        "Eski şehri keşfetme",
+        "Tarihi yapıları ziyaret etme"
+      ],
+      "en": [
+        "Explore the old town",
+        "Visit historical buildings"
+      ],
+      "de": [
+        "Die Altstadt erkunden",
+        "Historische Gebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/old_town.jpg"
+    ]
+  }
+]

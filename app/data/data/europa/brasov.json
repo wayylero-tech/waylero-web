@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "kara-kaya-kilisesi",
+    "name": {
+      "tr": "Kara Kaya Kilisesi",
+      "en": "Black Church",
+      "de": "Schwarze Kirche"
+    },
+    "latitude": 45.6333,
+    "longitude": 25.5861,
+    "description": {
+      "tr": "Kara Kaya Kilisesi, Brașov'un en eski ve en önemli dini yapılarından biridir. Gotik mimarisi ile dikkat çeker.",
+      "en": "The Black Church is one of Brașov's oldest and most important religious buildings, famous for its Gothic architecture.",
+      "de": "Die Schwarze Kirche ist eines der ältesten und wichtigsten religiösen Gebäude in Brașov, bekannt für ihre gotische Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini gezme",
+        "Mimari detayları inceleme"
+      ],
+      "en": [
+        "Tour the church interior",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Das Innere der Kirche besichtigen",
+        "Die architektonischen Details untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/black_church.jpg"
+    ]
+  },
+  {
+    "slug": "pia-a-sfatului",
+    "name": {
+      "tr": "Piața Sfatului",
+      "en": "Piața Sfatului",
+      "de": "Piața Sfatului"
+    },
+    "latitude": 45.6415,
+    "longitude": 25.5869,
+    "description": {
+      "tr": "Piața Sfatului, Brașov'un tarihi meydanıdır ve şehrin merkezinde yer alan güzel binaları ile ünlüdür.",
+      "en": "Piața Sfatului is the historic square of Brașov, famous for its beautiful buildings located in the city center.",
+      "de": "Der Piața Sfatului ist der historische Platz in Brașov, bekannt für seine schönen Gebäude im Stadtzentrum."
+    },
+    "activities": {
+      "tr": [
+        "Meydanı keşfetme",
+        "Çevredeki kafelerde oturma"
+      ],
+      "en": [
+        "Explore the square",
+        "Sit at the cafes around it"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "In den umliegenden Cafés sitzen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/piata_sfatului.jpg"
+    ]
+  }
+]

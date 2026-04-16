@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "kamari-plaji",
+    "name": {
+      "tr": "Kamari Plajı",
+      "en": "Kamari Beach",
+      "de": "Kamari Strand"
+    },
+    "latitude": 36.3628,
+    "longitude": 25.481,
+    "description": {
+      "tr": "**Kamari Plajı**, **Santorini Adası**'nın güneydoğusunda yer alan, **siyah volkanik kumları** ile ünlü bir plajdır. Bu plaj, özellikle rahat atmosferi ve muazzam deniz manzarası ile dikkat çeker. Kamari Plajı, hem sakin bir tatil yapmak isteyenler hem de su sporlarına meraklı olanlar için idealdir.\n\nPlajın etrafında restoranlar, kafe ve dükkanlar bulunur. Ayrıca, Kamari'nin eşsiz doğal güzellikleri ile plajda yürüyüş yaparak keyifli bir gün geçirebilirsiniz.\n",
+      "en": "**Kamari Beach** is located on the southeastern side of **Santorini Island** and is famous for its **black volcanic sand**. This beach stands out with its relaxed atmosphere and breathtaking sea views. Kamari Beach is ideal for those seeking a peaceful vacation as well as those interested in water sports.\n\nAround the beach, there are restaurants, cafes, and shops. You can also enjoy a walk around Kamari and take in its unique natural beauty.\n",
+      "de": "**Kamari Strand** liegt an der Südostküste der Insel **Santorini** und ist berühmt für seinen **schwarzen vulkanischen Sand**. Dieser Strand zeichnet sich durch seine entspannte Atmosphäre und die atemberaubende Aussicht auf das Meer aus. Kamari Strand ist ideal für diejenigen, die einen ruhigen Urlaub verbringen möchten, sowie für Wassersportler.\n\nRund um den Strand gibt es Restaurants, Cafés und Geschäfte. Sie können auch einen Spaziergang entlang des Strandes machen und die einzigartige natürliche Schönheit von Kamari genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek",
+        "Plajda yürüyüş yapmak",
+        "Su sporları yapmak"
+      ],
+      "en": [
+        "Swimming in the sea",
+        "Taking a walk on the beach",
+        "Engaging in water sports"
+      ],
+      "de": [
+        "Im Meer schwimmen",
+        "Am Strand spazieren gehen",
+        "Wassersportarten ausüben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/kamari_beach_santorini_1.jpg",
+      "https://example.com/kamari_beach_santorini_2.jpg"
+    ]
+  },
+  {
+    "slug": "oia-kasabasi",
+    "name": {
+      "tr": "Oia Kasabası",
+      "en": "Oia Village",
+      "de": "Oia Dorf"
+    },
+    "latitude": 36.4613,
+    "longitude": 25.3753,
+    "description": {
+      "tr": "Oia, Santorini’nin kuzeyinde yer alan büyüleyici bir kasabadır. Beyaz badanalı evleri, mavi kubbeli kiliseleri ve dar sokakları ile fotoğrafçıların gözdesi olan bu bölge, özellikle gün batımı manzaralarıyla ünlüdür. Kaldera manzarasına karşı yürüyüş yapmak ve yerel mağazaları keşfetmek ziyaretçilerin favori aktivitelerindendir.",
+      "en": "Oia is a charming village located in the north of Santorini. Known for its whitewashed houses, blue-domed churches, and narrow streets, it is a favorite spot for photographers. The village is particularly famous for its stunning sunsets. Walking along the caldera views and exploring local shops are popular activities for visitors.",
+      "de": "Oia ist ein charmantes Dorf im Norden von Santorini. Bekannt für seine weiß getünchten Häuser, blaukuppelten Kirchen und engen Gassen, ist es ein beliebter Ort für Fotografen. Das Dorf ist besonders berühmt für seine atemberaubenden Sonnenuntergänge. Spaziergänge mit Blick auf die Caldera und das Erkunden lokaler Geschäfte gehören zu den beliebten Aktivitäten der Besucher."
+    },
+    "activities": {
+      "tr": [
+        "Gün batımını izlemek",
+        "Yerel mağazalardan alışveriş yapmak",
+        "Kaldera boyunca yürüyüş yapmak"
+      ],
+      "en": [
+        "Watching the sunset",
+        "Shopping at local stores",
+        "Walking along the caldera"
+      ],
+      "de": [
+        "Den Sonnenuntergang beobachten",
+        "In lokalen Geschäften einkaufen",
+        "Entlang der Caldera spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/oia_sunset.jpg"
+    ]
+  },
+  {
+    "slug": "fira",
+    "name": {
+      "tr": "Fira",
+      "en": "Fira",
+      "de": "Fira"
+    },
+    "latitude": 36.4167,
+    "longitude": 25.4333,
+    "description": {
+      "tr": "Santorini’nin başkenti olan Fira, canlı atmosferi ve eşsiz manzaraları ile dikkat çeker. Yunan adalarının tipik mimarisini yansıtan beyaz evler, renkli çiçeklerle süslenmiştir. Fira’da alışveriş yapabilir, otantik tavernalarda Yunan mutfağını deneyimleyebilir ve kalderaya bakan kafelerde dinlenebilirsiniz.",
+      "en": "Fira, the capital of Santorini, is known for its lively atmosphere and breathtaking views. The white houses, characteristic of the Greek islands, are adorned with colorful flowers. In Fira, you can shop, enjoy authentic Greek cuisine at traditional tavernas, and relax in cafes overlooking the caldera.",
+      "de": "Fira, die Hauptstadt von Santorini, ist bekannt für ihre lebhafte Atmosphäre und atemberaubende Ausblicke. Die weißen Häuser, typisch für die griechischen Inseln, sind mit bunten Blumen geschmückt. In Fira können Sie einkaufen, die griechische Küche in traditionellen Tavernen genießen und in Cafés mit Blick auf die Caldera entspannen."
+    },
+    "activities": {
+      "tr": [
+        "Yunan mutfağını tatmak",
+        "Kaldera manzarasını izlemek",
+        "Mağazaları keşfetmek"
+      ],
+      "en": [
+        "Tasting Greek cuisine",
+        "Admiring the caldera view",
+        "Exploring shops"
+      ],
+      "de": [
+        "Griechische Küche probieren",
+        "Den Blick auf die Caldera genießen",
+        "Geschäfte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/fira_view.jpg"
+    ]
+  }
+]

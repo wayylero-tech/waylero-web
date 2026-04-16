@@ -1,0 +1,241 @@
+[
+  {
+    "slug": "yoshino-kumano-ulusal-parki",
+    "name": {
+      "tr": "Yoshino Kumano Ulusal Parkı",
+      "en": "Yoshino Kumano National Park",
+      "de": "Yoshino Kumano Nationalpark"
+    },
+    "latitude": 34.4036,
+    "longitude": 135.7289,
+    "description": {
+      "tr": "Yoshino Kumano Ulusal Parkı, Japonya'nın Wakayama ve Nara illerinde yer alan ve UNESCO Dünya Mirası Listesi'nde bulunan bir doğa parkıdır.\nPark, Yoshino Dağı'nın ünlü kiraz ağaçları ile bilinir ve aynı zamanda Kumano Kutsal Yolu'nu içerir.\nYoshino Kumano Ulusal Parkı, hem doğa severler hem de kültürel keşifler yapmak isteyenler için bir cennet sunar.\nParkta yürüyüş parkurları, şelaleler ve geleneksel tapınaklar bulunmaktadır.\n",
+      "en": "Yoshino Kumano National Park is a UNESCO World Heritage-listed national park located in the Wakayama and Nara Prefectures of Japan.\nThe park is famous for its cherry blossoms on Yoshino Mountain and also includes the Kumano Sacred Trails.\nYoshino Kumano National Park offers a paradise for nature lovers and those seeking cultural exploration.\nThe park features hiking trails, waterfalls, and traditional temples.\n",
+      "de": "Der Yoshino Kumano Nationalpark ist ein UNESCO-Weltkulturerbe-Nationalpark, der in den Präfekturen Wakayama und Nara in Japan liegt.\nDer Park ist berühmt für die Kirschblüten auf dem Yoshino-Berg und umfasst auch die Kumano-Heiligenwege.\nDer Yoshino Kumano Nationalpark bietet ein Paradies für Naturliebhaber und Kulturinteressierte.\nDer Park bietet Wanderwege, Wasserfälle und traditionelle Tempel.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yoshino Dağı’nda kiraz çiçeklerini görmek",
+        "Kumano Kutsal Yolu’nu yürümek",
+        "Doğal alanlarda yürüyüş yapmak"
+      ],
+      "en": [
+        "See the cherry blossoms on Yoshino Mountain",
+        "Hike the Kumano Sacred Trails",
+        "Enjoy walking in natural areas"
+      ],
+      "de": [
+        "Die Kirschblüten auf dem Yoshino-Berg sehen",
+        "Die Kumano-Heiligenwege wandern",
+        "Wanderungen in natürlichen Gebieten genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/yoshino_kumano_image.jpg"
+    ]
+  },
+  {
+    "slug": "t-dai-ji-tapinagi",
+    "name": {
+      "tr": "Tōdai-ji Tapınağı",
+      "en": "Tōdai-ji Temple",
+      "de": "Tōdai-ji-Tempel"
+    },
+    "latitude": 34.6889,
+    "longitude": 135.8399,
+    "description": {
+      "tr": "Tōdai-ji, Japonya’nın en ikonik Budist tapınaklarından biridir ve dünyanın en büyük bronz Buda heykeline ev sahipliği yapar. 8. yüzyılda inşa edilen bu tapınak, UNESCO Dünya Mirası Listesi'nde yer alır ve tarihi ile büyüleyicidir.\n",
+      "en": "Tōdai-ji is one of Japan’s most iconic Buddhist temples and houses the world’s largest bronze statue of Buddha. Built in the 8th century, it is listed as a UNESCO World Heritage Site and holds great historical significance.\n",
+      "de": "Der Tōdai-ji ist einer der bekanntesten buddhistischen Tempel Japans und beherbergt die größte bronzene Buddha-Statue der Welt. Er wurde im 8. Jahrhundert erbaut und gehört zum UNESCO-Weltkulturerbe.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Tarihi keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Temple visit",
+        "Exploring history",
+        "Photography"
+      ],
+      "de": [
+        "Tempelbesuch",
+        "Geschichte erkunden",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/todaiji.jpg"
+    ]
+  },
+  {
+    "slug": "nara-parki",
+    "name": {
+      "tr": "Nara Parkı",
+      "en": "Nara Park",
+      "de": "Nara-Park"
+    },
+    "latitude": 34.6851,
+    "longitude": 135.8431,
+    "description": {
+      "tr": "Nara Parkı, serbestçe dolaşan yüzlerce geyik ile ünlüdür. Park içinde Tōdai-ji ve Kasuga Taisha gibi tarihi yapılar da yer alır. Geyikler kutsal kabul edilir ve turistlerle etkileşim kurmalarıyla bilinir.\n",
+      "en": "Nara Park is famous for its hundreds of freely roaming deer. The park also includes historical landmarks like Tōdai-ji and Kasuga Taisha. The deer are considered sacred and are known for interacting with visitors.\n",
+      "de": "Der Nara-Park ist bekannt für seine hunderten frei herumlaufenden Hirsche. Im Park befinden sich auch Sehenswürdigkeiten wie der Tōdai-ji und Kasuga Taisha. Die Hirsche gelten als heilig und sind für ihre Interaktion mit Besuchern bekannt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Geyiklerle vakit geçirmek",
+        "Doğa yürüyüşü",
+        "Tapınak gezisi"
+      ],
+      "en": [
+        "Spending time with deer",
+        "Nature walking",
+        "Temple visits"
+      ],
+      "de": [
+        "Zeit mit Hirschen verbringen",
+        "Spaziergänge",
+        "Tempelbesichtigungen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/nara_park.jpg"
+    ]
+  },
+  {
+    "slug": "kasuga-taisha-tapinagi",
+    "name": {
+      "tr": "Kasuga Taisha Tapınağı",
+      "en": "Kasuga Taisha Shrine",
+      "de": "Kasuga-Taisha-Schrein"
+    },
+    "latitude": 34.6812,
+    "longitude": 135.8506,
+    "description": {
+      "tr": "Kasuga Taisha, Nara’da bulunan antik bir Şinto tapınağıdır ve rengarenk taş ve bronz fenerleriyle ünlüdür. 768 yılında kurulmuş olan tapınak, Nara döneminin zarafetini günümüze taşır.\n",
+      "en": "Kasuga Taisha is an ancient Shinto shrine in Nara, famous for its hundreds of stone and bronze lanterns. Established in 768, the shrine reflects the elegance of the Nara period.\n",
+      "de": "Der Kasuga-Taisha-Schrein ist ein antiker Shinto-Schrein in Nara, der für seine vielen Stein- und Bronzelaternen bekannt ist. Er wurde 768 gegründet und zeigt die Eleganz der Nara-Zeit.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Fotoğraf çekmek",
+        "Tarihi keşif"
+      ],
+      "en": [
+        "Shrine visit",
+        "Photography",
+        "Historical exploration"
+      ],
+      "de": [
+        "Schreinbesuch",
+        "Fotografieren",
+        "Geschichte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/kasuga_taisha.jpg"
+    ]
+  },
+  {
+    "slug": "k-fuku-ji-tapinagi",
+    "name": {
+      "tr": "Kōfuku-ji Tapınağı",
+      "en": "Kōfuku-ji Temple",
+      "de": "Kōfuku-ji-Tempel"
+    },
+    "latitude": 34.6839,
+    "longitude": 135.8329,
+    "description": {
+      "tr": "Kōfuku-ji, Nara’da bulunan tarihi bir Budist tapınağıdır ve 5 katlı pagodası ile dikkat çeker. Nara döneminde Fujiwara ailesinin himayesindeydi. Tapınak, önemli Budist eserleri barındırır.\n",
+      "en": "Kōfuku-ji is a historic Buddhist temple in Nara, known for its five-story pagoda. It was patronized by the powerful Fujiwara clan during the Nara period and houses significant Buddhist artifacts.\n",
+      "de": "Der Kōfuku-ji ist ein historischer buddhistischer Tempel in Nara, bekannt für seine fünfstöckige Pagode. Während der Nara-Zeit wurde er von der einflussreichen Fujiwara-Familie unterstützt und beherbergt bedeutende buddhistische Artefakte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Pagoda görmek",
+        "Tarihi keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Seeing the pagoda",
+        "Exploring history",
+        "Photography"
+      ],
+      "de": [
+        "Pagode besichtigen",
+        "Geschichte erkunden",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/kofukuji.jpg"
+    ]
+  }
+]

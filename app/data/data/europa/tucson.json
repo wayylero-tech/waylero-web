@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "saguaro-national-park",
+    "name": {
+      "tr": "Saguaro National Park",
+      "en": "Saguaro National Park",
+      "de": "Saguaro Nationalpark"
+    },
+    "latitude": 32.2967,
+    "longitude": -111.543,
+    "description": {
+      "tr": "Saguaro National Park, dev Saguaro kaktüsleriyle ünlüdür ve bölgenin eşsiz çöl manzaralarını sunar. Ziyaretçiler, parkta yürüyüş yaparak bu ikonik bitkileri görebilirler.",
+      "en": "Saguaro National Park is famous for its giant Saguaro cacti and offers stunning desert landscapes. Visitors can hike through the park to see these iconic plants.",
+      "de": "Der Saguaro Nationalpark ist berühmt für seine riesigen Saguaro-Kakteen und bietet atemberaubende Wüstenlandschaften. Besucher können durch den Park wandern, um diese ikonischen Pflanzen zu sehen."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Kaktüsleri keşfetmek"
+      ],
+      "en": [
+        "Hike",
+        "Explore cacti"
+      ],
+      "de": [
+        "Wandern",
+        "Kakteen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/saguaro_national_park.jpg"
+    ]
+  },
+  {
+    "slug": "arizona-sonora-desert-museum",
+    "name": {
+      "tr": "Arizona-Sonora Desert Museum",
+      "en": "Arizona-Sonora Desert Museum",
+      "de": "Arizona-Sonora Desert Museum"
+    },
+    "latitude": 32.2225,
+    "longitude": -111.0668,
+    "description": {
+      "tr": "Arizona-Sonora Çöl Müzesi, bölgedeki çöl ekosistemini keşfetmek için harika bir yerdir. Ziyaretçiler, çöl bitkileri ve hayvanları hakkında bilgi edinebilir.",
+      "en": "The Arizona-Sonora Desert Museum is a great place to explore the desert ecosystem of the region. Visitors can learn about desert plants and animals.",
+      "de": "Das Arizona-Sonora Desert Museum ist ein großartiger Ort, um das Wüstensystem der Region zu erkunden. Besucher können mehr über Wüstenpflanzen und -tiere erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi yapmak",
+        "Çöl ekosistemini öğrenmek"
+      ],
+      "en": [
+        "Tour the museum",
+        "Learn about the desert ecosystem"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Mehr über das Wüstensystem lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/arizona_sonora_desert_museum.jpg"
+    ]
+  },
+  {
+    "slug": "tucson-mountain-park",
+    "name": {
+      "tr": "Tucson Mountain Park",
+      "en": "Tucson Mountain Park",
+      "de": "Tucson Mountain Park"
+    },
+    "latitude": 32.192,
+    "longitude": -111.161,
+    "description": {
+      "tr": "Tucson Dağı Parkı, Tucson'un doğusunda yer alır ve doğal alanları keşfetmek için çeşitli yürüyüş yolları sunar.",
+      "en": "Tucson Mountain Park is located to the east of Tucson and offers several hiking trails to explore the natural landscapes.",
+      "de": "Der Tucson Mountain Park liegt östlich von Tucson und bietet verschiedene Wanderwege, um die natürlichen Landschaften zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Doğayı keşfetmek"
+      ],
+      "en": [
+        "Hike",
+        "Explore nature"
+      ],
+      "de": [
+        "Wandern",
+        "Die Natur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/tucson_mountain_park.jpg"
+    ]
+  },
+  {
+    "slug": "pima-air-space-museum",
+    "name": {
+      "tr": "Pima Air & Space Museum",
+      "en": "Pima Air & Space Museum",
+      "de": "Pima Air & Space Museum"
+    },
+    "latitude": 32.1316,
+    "longitude": -110.8463,
+    "description": {
+      "tr": "Pima Hava ve Uzay Müzesi, hava ve uzay araçlarını sergileyen devasa bir koleksiyona sahip olup, uçuş tarihine ilgi duyanlar için harika bir yerdir.",
+      "en": "The Pima Air & Space Museum has a massive collection of aircraft and spacecraft, making it a great place for aviation and space enthusiasts.",
+      "de": "Das Pima Air & Space Museum hat eine riesige Sammlung von Flugzeugen und Raumfahrzeugen, was es zu einem großartigen Ort für Luftfahrt- und Weltraumbegeisterte macht."
+    },
+    "activities": {
+      "tr": [
+        "Uçakları görmek",
+        "Uzay araçlarını keşfetmek"
+      ],
+      "en": [
+        "See airplanes",
+        "Explore spacecraft"
+      ],
+      "de": [
+        "Flugzeuge sehen",
+        "Raumfahrzeuge erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/pima_air_space_museum.jpg"
+    ]
+  },
+  {
+    "slug": "mission-san-xavier-del-bac",
+    "name": {
+      "tr": "Mission San Xavier del Bac",
+      "en": "Mission San Xavier del Bac",
+      "de": "Mission San Xavier del Bac"
+    },
+    "latitude": 32.1408,
+    "longitude": -111.0449,
+    "description": {
+      "tr": "Mission San Xavier del Bac, Tucson'un güneydoğusunda yer alan tarihi bir İspanyol misyonudur. Ziyaretçiler, bu tarihi yapıyı keşfederek bölgenin geçmişine dair bilgi edinebilir.",
+      "en": "Mission San Xavier del Bac is a historic Spanish mission located southeast of Tucson. Visitors can explore this historic site and learn about the area's history.",
+      "de": "Die Mission San Xavier del Bac ist eine historische spanische Mission südöstlich von Tucson. Besucher können dieses historische Wahrzeichen erkunden und mehr über die Geschichte der Region erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi misyonu gezmek",
+        "Bölgenin tarihini öğrenmek"
+      ],
+      "en": [
+        "Tour the historic mission",
+        "Learn about the area's history"
+      ],
+      "de": [
+        "Die historische Mission besichtigen",
+        "Mehr über die Geschichte der Region erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/san_xavier_mission.jpg"
+    ]
+  }
+]

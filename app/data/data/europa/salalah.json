@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "al-mughsail-plaji",
+    "name": {
+      "tr": "Al Mughsail Plajı",
+      "en": "Al Mughsail Beach",
+      "de": "Al Mughsail Strand"
+    },
+    "latitude": 17.0087,
+    "longitude": 54.037,
+    "description": {
+      "tr": "Al Mughsail Plajı, Umman’ın en güzel plajlarından biri olup, beyaz kumları ve berrak deniziyle ünlüdür. Ayrıca bu plaj, dik kayalıkların ve deniz fırtınalarının oluşturduğu muazzam doğal güzellikleriyle de dikkat çeker. Ziyaretçiler burada rahatlayabilir, denize girebilir veya kayalıkları keşfe çıkabilirler.",
+      "en": "Al Mughsail Beach is one of Oman’s most beautiful beaches, known for its white sands and clear waters. The beach is also famous for its dramatic cliffs and the natural beauty created by sea storms. Visitors can relax here, swim, or explore the cliffs.",
+      "de": "Der Al Mughsail Strand ist einer der schönsten Strände Omans, bekannt für seinen weißen Sand und das klare Wasser. Der Strand ist auch berühmt für seine dramatischen Klippen und die natürliche Schönheit, die durch Seestürme geschaffen wird. Besucher können hier entspannen, schwimmen oder die Klippen erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek",
+        "Kayalıkları keşfetmek",
+        "Doğal güzellikleri görmek"
+      ],
+      "en": [
+        "Swimming in the sea",
+        "Exploring the cliffs",
+        "Enjoying the natural beauty"
+      ],
+      "de": [
+        "Im Meer schwimmen",
+        "Die Klippen erkunden",
+        "Die natürliche Schönheit genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/al_mughsail_beach_1.jpg",
+      "https://example.com/al_mughsail_beach_2.jpg"
+    ]
+  },
+  {
+    "slug": "frankincense-ormani",
+    "name": {
+      "tr": "Frankincense Ormanı",
+      "en": "Frankincense Forest",
+      "de": "Weihrauchwald"
+    },
+    "latitude": 17.0135,
+    "longitude": 54.2903,
+    "description": {
+      "tr": "Frankincense Ormanı, Umman’ın güneyinde bulunan tarihi bir alandır ve dünyanın en kaliteli frankincense (buğday) ağaçlarının yetiştiği yerlerden biridir. Bu bölge, antik çağlardan beri buharlaşan reçinesi ile ünlüdür. Ziyaretçiler, ormanın derinliklerinde yürüyüş yaparak bu değerli ağaçları ve çevreyi keşfedebilirler.",
+      "en": "The Frankincense Forest is a historic area in southern Oman, home to some of the world’s finest frankincense trees. This region has been famous for its aromatic resin for centuries. Visitors can take walks through the forest and discover these valuable trees and the surrounding nature.",
+      "de": "Der Weihrauchwald ist ein historisches Gebiet im Süden Omans, das einige der besten Weihrauchbäume der Welt beheimatet. Diese Region ist seit Jahrhunderten für ihren aromatischen Harz bekannt. Besucher können durch den Wald spazieren und diese wertvollen Bäume sowie die umliegende Natur entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Frankincense ağaçlarını keşfetmek",
+        "Doğayı gözlemlemek"
+      ],
+      "en": [
+        "Hiking in the forest",
+        "Exploring frankincense trees",
+        "Observing the nature"
+      ],
+      "de": [
+        "Wandern im Wald",
+        "Weihrauchbäume erkunden",
+        "Die Natur beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/frankincense_forest_1.jpg",
+      "https://example.com/frankincense_forest_2.jpg"
+    ]
+  },
+  {
+    "slug": "wadi-darbat",
+    "name": {
+      "tr": "Wadi Darbat",
+      "en": "Wadi Darbat",
+      "de": "Wadi Darbat"
+    },
+    "latitude": 17.0617,
+    "longitude": 54.0321,
+    "description": {
+      "tr": "Wadi Darbat, Umman’ın güneyinde yer alan yemyeşil bir vadidir. Bu bölge, şelaleleri, nehirleri ve tropikal bitki örtüsüyle ünlüdür. Ziyaretçiler burada doğa yürüyüşleri yapabilir, şelaleleri görebilir ve çeşitli kuş türlerini gözlemleyebilirler.",
+      "en": "Wadi Darbat is a lush valley located in southern Oman, known for its waterfalls, rivers, and tropical vegetation. Visitors can enjoy hiking, see waterfalls, and observe a variety of bird species.",
+      "de": "Das Wadi Darbat ist ein üppiges Tal im Süden Omans, bekannt für seine Wasserfälle, Flüsse und tropische Vegetation. Besucher können Wanderungen unternehmen, Wasserfälle besichtigen und verschiedene Vogelarten beobachten."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Şelaleleri görmek",
+        "Kuș gözlemi yapmak"
+      ],
+      "en": [
+        "Hiking in nature",
+        "Seeing the waterfalls",
+        "Birdwatching"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Die Wasserfälle sehen",
+        "Vogelbeobachtung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/wadi_darbat_1.jpg",
+      "https://example.com/wadi_darbat_2.jpg"
+    ]
+  },
+  {
+    "slug": "sumhuram-antik-kenti",
+    "name": {
+      "tr": "Sumhuram Antik Kenti",
+      "en": "Sumhuram Ancient City",
+      "de": "Sumhuram Antike Stadt"
+    },
+    "latitude": 17.0086,
+    "longitude": 54.0676,
+    "description": {
+      "tr": "Sumhuram Antik Kenti, Umman’ın en eski ve en önemli arkeolojik alanlarından biridir. Bu antik kent, 3. yüzyılda kurulmuş ve Eski Arap Krallığı’na ait önemli bir liman kenti olmuştur. Ziyaretçiler burada tarihi kalıntıları keşfederken, bölgenin zengin geçmişine dair birçok iz bulabilirler.",
+      "en": "Sumhuram Ancient City is one of Oman’s oldest and most significant archaeological sites. Established in the 3rd century, it was an important port city of the ancient Arabian Kingdom. Visitors can explore the historical ruins and find many traces of the region’s rich past.",
+      "de": "Die antike Stadt Sumhuram ist eines der ältesten und bedeutendsten archäologischen Gebiete Omans. Sie wurde im 3. Jahrhundert gegründet und war eine wichtige Hafenstadt des antiken arabischen Königreichs. Besucher können die historischen Ruinen erkunden und viele Spuren der reichen Vergangenheit der Region finden."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kalıntıları keşfetmek",
+        "Arkeolojik alanı gezmek",
+        "Bölgenin geçmişine dair bilgi edinmek"
+      ],
+      "en": [
+        "Exploring historical ruins",
+        "Touring the archaeological site",
+        "Learning about the region’s past"
+      ],
+      "de": [
+        "Historische Ruinen erkunden",
+        "Die archäologische Stätte besichtigen",
+        "Mehr über die Vergangenheit der Region erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/sumhuram_ancient_city_1.jpg",
+      "https://example.com/sumhuram_ancient_city_2.jpg"
+    ]
+  }
+]

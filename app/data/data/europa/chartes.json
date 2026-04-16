@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "chartres-katedrali",
+    "name": {
+      "tr": "Chartres Katedrali",
+      "en": "Chartres Cathedral",
+      "de": "Kathedrale von Chartres"
+    },
+    "latitude": 48.44799,
+    "longitude": 1.48784,
+    "description": {
+      "tr": "Chartres Katedrali, Fransa'nın Chartres şehrinde yer alan Gotik mimarinin en önemli örneklerinden biridir. UNESCO Dünya Mirası Listesi'nde yer alır.",
+      "en": "Chartres Cathedral, located in Chartres, France, is one of the most important examples of Gothic architecture, listed as a UNESCO World Heritage site.",
+      "de": "Die Kathedrale von Chartres, die sich in Chartres, Frankreich, befindet, ist eines der bedeutendsten Beispiele gotischer Architektur und steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Katedralin vitraylarını görmek",
+        "Gotik mimarinin inceliklerini keşfetmek"
+      ],
+      "en": [
+        "See the cathedral's stained glass",
+        "Explore Gothic architecture"
+      ],
+      "de": [
+        "Die Buntglasfenster der Kathedrale sehen",
+        "Gotische Architektur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/chartres_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "mont-saint-michel-ve-korfezi",
+    "name": {
+      "tr": "Mont-Saint-Michel ve Körfezi",
+      "en": "Mont-Saint-Michel and its Bay",
+      "de": "Mont-Saint-Michel und die Bucht"
+    },
+    "latitude": 48.636,
+    "longitude": -1.513,
+    "description": {
+      "tr": "Mont-Saint-Michel, Fransa'nın kuzeyinde, denizle çevrili bir adada yer alan tarihi bir manastırdır. UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Mont-Saint-Michel is a historic abbey located on a tidal island in northern France. It is a UNESCO World Heritage site.",
+      "de": "Mont-Saint-Michel ist eine historische Abtei, die auf einer Gezeiteninsel im Norden Frankreichs liegt. Es steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı ziyaret etmek",
+        "Gelgit olaylarını izlemek",
+        "Körfez çevresinde yürüyüş yapmak"
+      ],
+      "en": [
+        "Visit the abbey",
+        "Watch the tidal events",
+        "Take a walk around the bay"
+      ],
+      "de": [
+        "Die Abtei besuchen",
+        "Die Gezeitenereignisse beobachten",
+        "Spaziergang um die Bucht machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/mont_saint_michel.jpg"
+    ]
+  }
+]

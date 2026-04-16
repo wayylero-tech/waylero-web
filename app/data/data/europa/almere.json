@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "almere-jungle",
+    "name": {
+      "tr": "Almere Jungle",
+      "en": "Almere Jungle",
+      "de": "Almere Jungle"
+    },
+    "latitude": 52.3922,
+    "longitude": 5.2457,
+    "description": {
+      "tr": "Almere Jungle, egzotik hayvanların ve bitkilerin bulunduğu büyük bir hayvanat bahçesidir.",
+      "en": "Almere Jungle is a large zoo featuring exotic animals and plants.",
+      "de": "Der Almere Jungle ist ein großer Zoo mit exotischen Tieren und Pflanzen."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları gözlemleme",
+        "Botanik bahçelerini gezme"
+      ],
+      "en": [
+        "Observe animals",
+        "Explore botanical gardens"
+      ],
+      "de": [
+        "Tiere beobachten",
+        "Botanische Gärten besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/almere_jungle.jpg"
+    ]
+  },
+  {
+    "slug": "oosterwold",
+    "name": {
+      "tr": "Oosterwold",
+      "en": "Oosterwold",
+      "de": "Oosterwold"
+    },
+    "latitude": 52.4104,
+    "longitude": 5.2245,
+    "description": {
+      "tr": "Oosterwold, Almere'nin doğal alanlarından biridir ve doğal yürüyüş yolları ve bisiklet parkurları sunar.",
+      "en": "Oosterwold is one of Almere's natural areas, offering hiking trails and bike paths.",
+      "de": "Oosterwold ist eines der natürlichen Gebiete von Almere und bietet Wanderwege und Radwege."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapma",
+        "Bisiklet turu yapma"
+      ],
+      "en": [
+        "Go hiking in nature",
+        "Take a bike tour"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Eine Radtour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/oosterwold.jpg"
+    ]
+  }
+]

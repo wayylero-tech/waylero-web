@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "ras-al-jinz",
+    "name": {
+      "tr": "Ras al Jinz",
+      "en": "Ras al Jinz",
+      "de": "Ras al Jinz"
+    },
+    "latitude": 22.5737,
+    "longitude": 59.1742,
+    "description": {
+      "tr": "Ras al Jinz, Umman’ın doğu kıyısında yer alan ünlü bir deniz kaplumbağası koruma alanıdır. Bu bölge, özellikle yaz aylarında deniz kaplumbağalarının yuva yapma mevsimiyle ünlüdür. Ziyaretçiler, gece turlarıyla kaplumbağaların yuvalama süreçlerini izleyebilir, doğa yürüyüşleri yapabilir ve bölgenin doğal güzelliklerini keşfedebilirler.",
+      "en": "Ras al Jinz is a famous sea turtle conservation area located on the eastern coast of Oman. The region is particularly known for the nesting season of sea turtles, especially during the summer months. Visitors can join night tours to witness the nesting process, go on nature walks, and explore the area’s natural beauty.",
+      "de": "Ras al Jinz ist ein berühmtes Meeresschildkröten-Schutzgebiet an der Ostküste Omans. Die Region ist besonders für die Brutzeit der Meeresschildkröten bekannt, insbesondere während der Sommermonate. Besucher können an Nachttouren teilnehmen, um den Brutprozess zu beobachten, Naturwanderungen unternehmen und die natürliche Schönheit der Gegend erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Deniz kaplumbağalarını izlemek",
+        "Doğa yürüyüşleri yapmak",
+        "Gece turlarına katılmak"
+      ],
+      "en": [
+        "Watching sea turtles",
+        "Hiking in nature",
+        "Joining night tours"
+      ],
+      "de": [
+        "Meeresschildkröten beobachten",
+        "Wandern in der Natur",
+        "An Nachttouren teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ras_al_jinz_1.jpg",
+      "https://example.com/ras_al_jinz_2.jpg"
+    ]
+  }
+]

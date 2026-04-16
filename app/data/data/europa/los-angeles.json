@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "santa-monica-pier",
+    "name": {
+      "tr": "Santa Monica Pier",
+      "en": "Santa Monica Pier",
+      "de": "Santa Monica Pier"
+    },
+    "latitude": 34.0086,
+    "longitude": -118.4986,
+    "description": {
+      "tr": "Santa Monica Pier, Los Angeles'ın en ünlü sahil bölgelerinden biridir. Lunapark, akvaryum ve restoranlar gibi birçok aktivite sunar.",
+      "en": "Santa Monica Pier is one of Los Angeles' most famous beach areas. It offers various activities such as an amusement park, aquarium, and restaurants.",
+      "de": "Der Santa Monica Pier ist eines der bekanntesten Strandgebiete von Los Angeles. Es bietet viele Aktivitäten wie einen Vergnügungspark, ein Aquarium und Restaurants."
+    },
+    "activities": {
+      "tr": [
+        "Lunaparkta eğlenme",
+        "Deniz kenarında yürüyüş yapma"
+      ],
+      "en": [
+        "Enjoy the amusement park",
+        "Take a walk by the beach"
+      ],
+      "de": [
+        "Genießen Sie den Vergnügungspark",
+        "Spazieren Sie am Strand"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/santa_monica_pier.jpg"
+    ]
+  },
+  {
+    "slug": "the-getty-center",
+    "name": {
+      "tr": "The Getty Center",
+      "en": "The Getty Center",
+      "de": "Das Getty Center"
+    },
+    "latitude": 34.078,
+    "longitude": -118.4741,
+    "description": {
+      "tr": "The Getty Center, Los Angeles'ta bulunan ünlü bir sanat müzesidir. Resim, heykel ve modern sanat eserlerini sergileyen bu merkez, şehre gelen sanatseverler için vazgeçilmez bir yerdir.",
+      "en": "The Getty Center is a famous art museum located in Los Angeles. It showcases paintings, sculptures, and modern art, making it a must-visit for art enthusiasts.",
+      "de": "Das Getty Center ist ein berühmtes Kunstmuseum in Los Angeles. Es stellt Gemälde, Skulpturen und moderne Kunst aus und ist ein Muss für Kunstliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezme",
+        "Bahçelerde dolaşma"
+      ],
+      "en": [
+        "Visit the art galleries",
+        "Stroll through the gardens"
+      ],
+      "de": [
+        "Die Kunstgalerien besuchen",
+        "Durch die Gärten spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/getty_center.jpg"
+    ]
+  }
+]

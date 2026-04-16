@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "drammen-nehri",
+    "name": {
+      "tr": "Drammen Nehri",
+      "en": "Drammen River",
+      "de": "Drammen Fluss"
+    },
+    "latitude": 59.74,
+    "longitude": 10.2047,
+    "description": {
+      "tr": "Drammen Nehri, şehri ikiye bölen güzel bir nehirdir. Nehir boyunca yürüyüş yapabilir ve feribotla gezebilirsiniz.",
+      "en": "The Drammen River is a beautiful river that divides the city. You can walk along the river or take a ferry ride.",
+      "de": "Der Drammen Fluss ist ein schöner Fluss, der die Stadt teilt. Man kann entlang des Flusses spazieren oder eine Fährfahrt machen."
+    },
+    "activities": {
+      "tr": [
+        "Nehir kenarında yürüyüş yapma",
+        "Feribot turu yapma"
+      ],
+      "en": [
+        "Walk along the river",
+        "Take a ferry tour"
+      ],
+      "de": [
+        "Am Fluss entlang spazieren",
+        "Eine Fährfahrt machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/drammen_river.jpg"
+    ]
+  },
+  {
+    "slug": "spiralen",
+    "name": {
+      "tr": "Spiralen",
+      "en": "Spiralen",
+      "de": "Spiralen"
+    },
+    "latitude": 59.7387,
+    "longitude": 10.2024,
+    "description": {
+      "tr": "Spiralen, Drammen'de bir tepeye çıkan bir yoldur ve şehri yüksekten izleyebileceğiniz harika bir manzara sunar.",
+      "en": "Spiralen is a road that winds up a hill in Drammen, offering a fantastic view of the city from above.",
+      "de": "Spiralen ist eine Straße, die einen Hügel in Drammen hinaufführt und einen fantastischen Blick auf die Stadt von oben bietet."
+    },
+    "activities": {
+      "tr": [
+        "Spiral yolda yürüyüş yapma",
+        "Şehri yüksekten izleme"
+      ],
+      "en": [
+        "Walk along the winding road",
+        "View the city from above"
+      ],
+      "de": [
+        "Die gewundene Straße entlang spazieren",
+        "Die Stadt von oben ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/spiralen.jpg"
+    ]
+  }
+]

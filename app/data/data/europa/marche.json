@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "frasassi-magaralari",
+    "name": {
+      "tr": "Frasassi Mağaraları",
+      "en": "Frasassi Caves",
+      "de": "Frasassi Höhlen"
+    },
+    "latitude": 43.4089,
+    "longitude": 12.9795,
+    "description": {
+      "tr": "Frasassi Mağaraları, Marche bölgesinde bulunan büyüleyici bir yeraltı mağara kompleksidir. Bu mağaralar, doğal olarak oluşmuş devasa kaya oluşumları ve kristallerle doludur.",
+      "en": "The Frasassi Caves are a fascinating underground cave complex located in the Marche region, filled with naturally formed massive rock formations and crystals.",
+      "de": "Die Frasassi-Höhlen sind ein faszinierendes unterirdisches Höhlensystem in der Region Marken, das mit natürlich gebildeten riesigen Felsformationen und Kristallen gefüllt ist."
+    },
+    "activities": {
+      "tr": [
+        "Mağara turları yapma",
+        "Doğal güzellikleri keşfetme",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Take cave tours",
+        "Explore natural beauty",
+        "Photography"
+      ],
+      "de": [
+        "Höhlentouren machen",
+        "Natürliche Schönheit erkunden",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "assets/frasassi1.jpg",
+      "assets/frasassi2.jpg",
+      "assets/frasassi3.jpg"
+    ]
+  },
+  {
+    "slug": "urbino-tarih-sehri",
+    "name": {
+      "tr": "Urbino Tarihî Şehri",
+      "en": "Historic City of Urbino",
+      "de": "Historische Stadt Urbino"
+    },
+    "latitude": 43.7244,
+    "longitude": 12.6394,
+    "description": {
+      "tr": "Urbino, Marche bölgesinde yer alan bir UNESCO Dünya Mirası şehiridir. Rönesans dönemi mimarisi ve Raphael'in doğum yeri olarak bilinir.",
+      "en": "Urbino is a UNESCO World Heritage city in the Marche region, known for its Renaissance architecture and as the birthplace of Raphael.",
+      "de": "Urbino ist eine UNESCO-Weltkulturerbe-Stadt in der Region Marken, bekannt für ihre Renaissance-Architektur und als Geburtsort von Raphael."
+    },
+    "activities": {
+      "tr": [
+        "Tarihî sokaklarda yürüyüş",
+        "Müzeleri ziyaret etme",
+        "Yerel mutfak lezzetlerini deneme"
+      ],
+      "en": [
+        "Walk through historic streets",
+        "Visit museums",
+        "Try local cuisine"
+      ],
+      "de": [
+        "Durch historische Straßen spazieren",
+        "Museen besuchen",
+        "Lokale Küche probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "assets/urbino1.jpg",
+      "assets/urbino2.jpg",
+      "assets/urbino3.jpg"
+    ]
+  }
+]

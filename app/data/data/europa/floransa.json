@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "floransa-katedrali",
+    "name": {
+      "tr": "Floransa Katedrali",
+      "en": "Florence Cathedral",
+      "de": "Florentiner Dom"
+    },
+    "latitude": 43.7731,
+    "longitude": 11.2556,
+    "description": {
+      "tr": "Floransa Katedrali, Gotik ve Rönesans tarzlarının birleşimiyle yapılmış devasa bir yapıdır ve şehri simgeleyen en önemli yapıdır.",
+      "en": "The Florence Cathedral is a massive structure combining Gothic and Renaissance styles, and it is the most important landmark in the city.",
+      "de": "Der Florentiner Dom ist ein riesiges Gebäude, das gotische und Renaissance-Stile kombiniert und das wichtigste Wahrzeichen der Stadt ist."
+    },
+    "activities": {
+      "tr": [
+        "Katedralin içine girme",
+        "Kubbesine tırmanarak şehir manzarasını izleme"
+      ],
+      "en": [
+        "Enter the cathedral",
+        "Climb to the dome for a city view"
+      ],
+      "de": [
+        "Den Dom betreten",
+        "Zur Kuppel hinaufsteigen und den Blick auf die Stadt genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/florence_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "uffizi-galerisi",
+    "name": {
+      "tr": "Uffizi Galerisi",
+      "en": "Uffizi Gallery",
+      "de": "Uffizien Galerie"
+    },
+    "latitude": 43.7679,
+    "longitude": 11.255,
+    "description": {
+      "tr": "Uffizi Galerisi, Rönesans sanatının başyapıtlarını barındıran bir müzedir. Burada Botticelli, Leonardo da Vinci gibi ünlü sanatçıların eserlerini görebilirsiniz.",
+      "en": "The Uffizi Gallery is a museum that houses masterpieces of Renaissance art. Here, you can see works by famous artists such as Botticelli and Leonardo da Vinci.",
+      "de": "Die Uffizien Galerie ist ein Museum, das Meisterwerke der Renaissancekunst beherbergt. Hier können Sie Werke berühmter Künstler wie Botticelli und Leonardo da Vinci sehen."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini inceleme",
+        "Müze gezisi yapma"
+      ],
+      "en": [
+        "Examine the artwork",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Die Kunstwerke betrachten",
+        "Eine Museumsführung machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/uffizi_gallery.jpg"
+    ]
+  }
+]

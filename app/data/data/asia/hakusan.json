@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "shiramine-onsen-soyu",
+    "name": {
+      "tr": "Shiramine Onsen Soyu",
+      "en": "Shiramine Onsen Soyu",
+      "de": "Shiramine Onsen Soyu"
+    },
+    "latitude": 36.2192,
+    "longitude": 136.5353,
+    "description": {
+      "tr": "Shiramine Onsen Soyu, Japonya'nın Ishikawa bölgesinde, Hakusan şehrine yakın bir kaplıca alanıdır. Bu doğal kaplıca, sodyum bikarbonat içeren suyu ile ünlüdür ve \"ipek cilt banyosu\" olarak bilinir. Tesiste iç ve dış banyo seçeneklerinin yanı sıra sauna ve su banyoları da bulunmaktadır. Ziyaretçiler, bu rahatlatıcı sıcak suyun tadını çıkarabilir ve sakin bir atmosferde dinlenebilirler.\n",
+      "en": "Shiramine Onsen Soyu is a hot spring located near Hakusan City, Ishikawa Prefecture, Japan. This natural onsen is famous for its sodium bicarbonate-rich water, known for its \"silky skin bath\" effect. The facility offers both indoor and outdoor bath options, as well as saunas and water baths. Visitors can enjoy the relaxing hot water and unwind in a peaceful environment.\n",
+      "de": "Shiramine Onsen Soyu ist eine heiße Quelle in der Nähe der Stadt Hakusan, Präfektur Ishikawa, Japan. Dieses natürliche Onsen ist bekannt für sein natronhaltiges Wasser, das für seine \"seidenweiche Hautbäder\" berühmt ist. Die Einrichtung bietet sowohl Innen- als auch Außenbäder sowie Saunen und Wasserbäder. Besucher können das entspannende heiße Wasser genießen und sich in einer ruhigen Umgebung entspannen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kaplıca suyunda rahatlamak",
+        "Sauna deneyimi",
+        "Doğal sıcak suyun tadını çıkarmak"
+      ],
+      "en": [
+        "Relax in the hot spring water",
+        "Experience the sauna",
+        "Enjoy the natural hot spring water"
+      ],
+      "de": [
+        "Im heißen Quellwasser entspannen",
+        "Sauna-Erlebnis",
+        "Das natürliche heiße Quellwasser genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/shiramine_onsen_soyu.jpg"
+    ]
+  }
+]

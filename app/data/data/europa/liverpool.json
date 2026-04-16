@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "the-beatles-story",
+    "name": {
+      "tr": "The Beatles Story",
+      "en": "The Beatles Story",
+      "de": "Die Beatles Geschichte"
+    },
+    "latitude": 53.4041,
+    "longitude": -2.9923,
+    "description": {
+      "tr": "The Beatles Story, dünyanın en ünlü müzik grubu The Beatles'a adanmış bir müzedir ve Liverpool'un en önemli turistik yerlerinden biridir.",
+      "en": "The Beatles Story is a museum dedicated to the world's most famous music group, The Beatles, and is one of Liverpool's top tourist attractions.",
+      "de": "Die Beatles Geschichte ist ein Museum, das der weltberühmten Musikgruppe The Beatles gewidmet ist und eine der wichtigsten Touristenattraktionen in Liverpool darstellt."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi",
+        "Müzik tarihi keşfi"
+      ],
+      "en": [
+        "Museum tour",
+        "Music history discovery"
+      ],
+      "de": [
+        "Museumsbesuch",
+        "Musikgeschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/beatles_story.jpg"
+    ]
+  },
+  {
+    "slug": "royal-albert-dock",
+    "name": {
+      "tr": "Royal Albert Dock",
+      "en": "Royal Albert Dock",
+      "de": "Royal Albert Dock"
+    },
+    "latitude": 53.3982,
+    "longitude": -2.9962,
+    "description": {
+      "tr": "Royal Albert Dock, tarihi bir liman alanıdır ve birçok restoran, mağaza ve müzeye ev sahipliği yapmaktadır.",
+      "en": "Royal Albert Dock is a historic dock area that hosts many restaurants, shops, and museums.",
+      "de": "Der Royal Albert Dock ist ein historisches Hafenviertel, das viele Restaurants, Geschäfte und Museen beherbergt."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Shopping",
+        "Photography"
+      ],
+      "de": [
+        "Einkaufen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/royal_albert_dock.jpg"
+    ]
+  },
+  {
+    "slug": "liverpool-katedrali",
+    "name": {
+      "tr": "Liverpool Katedrali",
+      "en": "Liverpool Cathedral",
+      "de": "Liverpool Kathedrale"
+    },
+    "latitude": 53.4084,
+    "longitude": -2.9783,
+    "description": {
+      "tr": "Liverpool Cathedral, dünyanın en büyük katedrallerinden biridir ve şehri ziyaret edenler için mutlaka görülmesi gereken bir yapıdır.",
+      "en": "Liverpool Cathedral is one of the largest cathedrals in the world and a must-see for visitors to the city.",
+      "de": "Die Liverpool Kathedrale ist eine der größten Kathedralen der Welt und ein Muss für Besucher der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Katedral gezisi",
+        "Tarihi keşif"
+      ],
+      "en": [
+        "Cathedral tour",
+        "Historical discovery"
+      ],
+      "de": [
+        "Kathedralbesichtigung",
+        "Historische Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/liverpool_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "mersey-feribotu",
+    "name": {
+      "tr": "Mersey Feribotu",
+      "en": "Mersey Ferry",
+      "de": "Mersey Fähre"
+    },
+    "latitude": 53.3963,
+    "longitude": -3.0031,
+    "description": {
+      "tr": "Mersey Ferry, Liverpool'un ünlü nehir turunu yapabileceğiniz bir feribottur ve şehri su üzerinden görmek için harika bir fırsattır.",
+      "en": "Mersey Ferry is a ferry that offers the famous river tour of Liverpool, providing a great opportunity to see the city from the water.",
+      "de": "Die Mersey Fähre ist eine Fähre, die die berühmte Flusstour durch Liverpool anbietet und eine großartige Möglichkeit bietet, die Stadt vom Wasser aus zu sehen."
+    },
+    "activities": {
+      "tr": [
+        "Feribot turu",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Ferry tour",
+        "Scenery viewing"
+      ],
+      "de": [
+        "Fähren-Tour",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/mersey_ferry.jpg"
+    ]
+  },
+  {
+    "slug": "tate-liverpool",
+    "name": {
+      "tr": "Tate Liverpool",
+      "en": "Tate Liverpool",
+      "de": "Tate Liverpool"
+    },
+    "latitude": 53.3987,
+    "longitude": -2.9946,
+    "description": {
+      "tr": "Tate Liverpool, modern ve çağdaş sanat galerisi olarak ünlüdür ve sanat severler için kaçırılmaması gereken bir mekandır.",
+      "en": "Tate Liverpool is renowned as a modern and contemporary art gallery and is a must-visit for art lovers.",
+      "de": "Das Tate Liverpool ist als modernes und zeitgenössisches Kunstmuseum bekannt und ein Muss für Kunstliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi gezisi",
+        "Modern sanat keşfi"
+      ],
+      "en": [
+        "Art gallery tour",
+        "Modern art discovery"
+      ],
+      "de": [
+        "Kunstgalerie-Tour",
+        "Moderne Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/tate_liverpool.jpg"
+    ]
+  }
+]

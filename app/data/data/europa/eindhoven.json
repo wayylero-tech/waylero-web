@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "van-abbemuseum",
+    "name": {
+      "tr": "Van Abbemuseum",
+      "en": "Van Abbemuseum",
+      "de": "Van Abbemuseum"
+    },
+    "latitude": 51.4416,
+    "longitude": 5.4822,
+    "description": {
+      "tr": "Van Abbemuseum, çağdaş sanat koleksiyonları ile ünlüdür ve bir dizi uluslararası sanatçıya ait eserleri sergiler.",
+      "en": "Van Abbemuseum is famous for its contemporary art collections and displays works by several international artists.",
+      "de": "Das Van Abbemuseum ist bekannt für seine Sammlung zeitgenössischer Kunst und zeigt Werke von mehreren internationalen Künstlern."
+    },
+    "activities": {
+      "tr": [
+        "Modern sanat galerilerini keşfetme",
+        "Sergilere katılma"
+      ],
+      "en": [
+        "Explore modern art galleries",
+        "Attend exhibitions"
+      ],
+      "de": [
+        "Moderne Kunstgalerien erkunden",
+        "Ausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/vanabbemuseum.jpg"
+    ]
+  },
+  {
+    "slug": "strijp-s",
+    "name": {
+      "tr": "Strijp-S",
+      "en": "Strijp-S",
+      "de": "Strijp-S"
+    },
+    "latitude": 51.4384,
+    "longitude": 5.4749,
+    "description": {
+      "tr": "Strijp-S, Eindhoven'ın yenilikçi bir bölgesidir. Tasarım atölyeleri, kafe ve alışveriş alanlarıyla doludur.",
+      "en": "Strijp-S is an innovative district in Eindhoven, filled with design workshops, cafes, and shopping areas.",
+      "de": "Strijp-S ist ein innovatives Viertel in Eindhoven, das mit Designwerkstätten, Cafés und Einkaufsbereichen gefüllt ist."
+    },
+    "activities": {
+      "tr": [
+        "Tasarım atölyelerini keşfetme",
+        "Alışveriş yapma"
+      ],
+      "en": [
+        "Explore design workshops",
+        "Shop for unique products"
+      ],
+      "de": [
+        "Designwerkstätten erkunden",
+        "Einzigartige Produkte einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/strijp_s.jpg"
+    ]
+  }
+]

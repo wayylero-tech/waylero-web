@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "koln-katedrali",
+    "name": {
+      "tr": "Köln Katedrali",
+      "en": "Cologne Cathedral",
+      "de": "Kölner Dom"
+    },
+    "latitude": 50.9413,
+    "longitude": 6.9583,
+    "description": {
+      "tr": "Köln Katedrali, Almanya'nın en büyük gotik yapısıdır ve UNESCO Dünya Mirası Listesi'nde yer almaktadır. İçindeki muazzam vitray pencereler ve 157 metre yüksekliğindeki kuleleri ile oldukça etkileyici bir yapıdır.\n",
+      "en": "Cologne Cathedral is the largest Gothic structure in Germany and is a UNESCO World Heritage Site. It is an incredibly impressive building with its massive stained-glass windows and towers reaching 157 meters high.\n",
+      "de": "Der Kölner Dom ist das größte gotische Bauwerk Deutschlands und steht auf der UNESCO-Weltkulturerbeliste. Es ist ein beeindruckendes Gebäude mit seinen riesigen Buntglasfenstern und den 157 Meter hohen Türmen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Katedral gezisi",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Cathedral tour",
+        "Viewpoint"
+      ],
+      "de": [
+        "Domführung",
+        "Aussichtspunkt"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cologne_Cathedral_from_North.jpg"
+    ]
+  },
+  {
+    "slug": "koln-eski-sehri",
+    "name": {
+      "tr": "Köln Eski Şehri",
+      "en": "Old Town Cologne",
+      "de": "Altstadt Köln"
+    },
+    "latitude": 50.9375,
+    "longitude": 6.9603,
+    "description": {
+      "tr": "Köln'ün Eski Şehri, dar sokakları, tarihi binaları ve geleneksel kafeleriyle ünlüdür. Burada, birçok butik dükkan ve yerel restoranı keşfederek şehri daha yakından tanıyabilirsiniz.\n",
+      "en": "The Old Town of Cologne is famous for its narrow streets, historic buildings, and traditional cafes. You can explore numerous boutique shops and local restaurants to experience the city up close.\n",
+      "de": "Die Altstadt Kölns ist bekannt für ihre engen Gassen, historischen Gebäude und traditionellen Cafés. Hier können Sie zahlreiche Boutiquen und lokale Restaurants entdecken, um die Stadt aus nächster Nähe zu erleben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşif",
+        "Alışveriş",
+        "Yerel restoranlarda yemek"
+      ],
+      "en": [
+        "Historical exploration",
+        "Shopping",
+        "Dining in local restaurants"
+      ],
+      "de": [
+        "Historische Entdeckung",
+        "Shopping",
+        "Essen in lokalen Restaurants"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/75/K%C3%B6ln_-_Altstadt_%28I%29.jpg"
+    ]
+  },
+  {
+    "slug": "hohenzollern-koprusu",
+    "name": {
+      "tr": "Hohenzollern Köprüsü",
+      "en": "Hohenzollern Bridge",
+      "de": "Hohenzollernbrücke"
+    },
+    "latitude": 50.9472,
+    "longitude": 6.9708,
+    "description": {
+      "tr": "Hohenzollern Köprüsü, Ren Nehri'ni geçerken şehri ve katedrali görmenin harika bir yoludur. Aynı zamanda, köprü üzerinde binlerce \"kilit\" bırakmış olan çiftler tarafından da çok ziyaret edilmektedir.\n",
+      "en": "Hohenzollern Bridge is a great way to cross the Rhine River while enjoying views of the city and the cathedral. It is also a popular spot for couples who leave thousands of \"locks\" on the bridge.\n",
+      "de": "Die Hohenzollernbrücke ist eine großartige Möglichkeit, den Rhein zu überqueren und dabei die Aussicht auf die Stadt und den Dom zu genießen. Es ist auch ein beliebter Ort für Paare, die tausende von \"Liebesschlössern\" an der Brücke hinterlassen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Nehrin manzarasını izlemek",
+        "Köprüde yürüyüş"
+      ],
+      "en": [
+        "Enjoy river views",
+        "Walk on the bridge"
+      ],
+      "de": [
+        "Aussicht auf den Fluss genießen",
+        "Über die Brücke gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hohenzollernbr%C3%BCcke_mit_Locks_und_K%C3%B6lner_Dom_%28Z%C3%BCge%29.jpg"
+    ]
+  },
+  {
+    "slug": "koln-muzesi",
+    "name": {
+      "tr": "Köln Müzesi",
+      "en": "Cologne Museum",
+      "de": "Kölner Museum"
+    },
+    "latitude": 50.9433,
+    "longitude": 6.9607,
+    "description": {
+      "tr": "Köln Müzesi, şehrin tarihini ve sanatını keşfetmek için harika bir yerdir. Antik çağlardan modern zamanlara kadar geniş bir koleksiyona sahip olan bu müzede farklı dönemlere ait eserler sergilenmektedir.\n",
+      "en": "Cologne Museum is a great place to explore the city's history and art. The museum features a wide collection of works spanning from ancient times to modern periods.\n",
+      "de": "Das Kölner Museum ist ein großartiger Ort, um die Geschichte und Kunst der Stadt zu entdecken. Das Museum zeigt eine umfangreiche Sammlung von Werken aus antiken bis modernen Zeiten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi ziyareti",
+        "Tarih keşfi"
+      ],
+      "en": [
+        "Art gallery visit",
+        "History exploration"
+      ],
+      "de": [
+        "Kunstgalerie besuchen",
+        "Geschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/K%C3%B6ln_Museum.jpg"
+    ]
+  },
+  {
+    "slug": "ludwig-muzesi",
+    "name": {
+      "tr": "Ludwig Müzesi",
+      "en": "Museum Ludwig",
+      "de": "Museum Ludwig"
+    },
+    "latitude": 50.9395,
+    "longitude": 6.9572,
+    "description": {
+      "tr": "Museum Ludwig, modern sanatın başyapıtlarını içeren bir koleksiyona sahip önemli bir müzedir. Andy Warhol ve Pablo Picasso gibi sanatçıların eserlerini burada görebilirsiniz.\n",
+      "en": "Museum Ludwig is an important museum with a collection of masterpieces of modern art. You can see works by artists like Andy Warhol and Pablo Picasso here.\n",
+      "de": "Das Museum Ludwig ist ein wichtiges Museum mit einer Sammlung von Meisterwerken der modernen Kunst. Werke von Künstlern wie Andy Warhol und Pablo Picasso können hier gesehen werden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Modern sanat keşfi",
+        "Sanat galerisi ziyareti"
+      ],
+      "en": [
+        "Modern art exploration",
+        "Art gallery visit"
+      ],
+      "de": [
+        "Moderne Kunst entdecken",
+        "Kunstgalerie besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7e/Museum_Ludwig_Cologne_2013.jpg"
+    ]
+  },
+  {
+    "slug": "rheinpark",
+    "name": {
+      "tr": "Rheinpark",
+      "en": "Rheinpark",
+      "de": "Rheinpark"
+    },
+    "latitude": 50.938,
+    "longitude": 6.9764,
+    "description": {
+      "tr": "Rheinpark, Köln'ün en büyük parklarından birisidir. Parkta yürüyüş yapabilir, gölette tekne gezintisi yapabilir veya geniş çimenlik alanlarda piknik yapabilirsiniz.\n",
+      "en": "Rheinpark is one of the largest parks in Cologne. You can take a walk, enjoy a boat ride on the pond, or have a picnic in the vast grassy areas.\n",
+      "de": "Der Rheinpark ist einer der größten Parks in Köln. Sie können spazieren gehen, eine Bootsfahrt auf dem Teich machen oder ein Picknick auf den weitläufigen Rasenflächen genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş",
+        "Tekne gezisi",
+        "Piknik"
+      ],
+      "en": [
+        "Walking",
+        "Boat ride",
+        "Picnicking"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Bootsfahrt",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Rheinpark_Cologne.jpg"
+    ]
+  }
+]

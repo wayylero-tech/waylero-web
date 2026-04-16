@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "aveiro-kanallari",
+    "name": {
+      "tr": "Aveiro Kanalları",
+      "en": "Aveiro Canals",
+      "de": "Aveiro Kanäle"
+    },
+    "latitude": 40.6403,
+    "longitude": -8.6538,
+    "description": {
+      "tr": "Aveiro, \"Portekiz'in Venedik'i\" olarak bilinir ve kanalları boyunca gezintiye çıkarak şehri keşfetmek harika bir deneyimdir.",
+      "en": "Aveiro, known as \"The Venice of Portugal,\" is a great place to explore by taking a boat ride along its canals.",
+      "de": "Aveiro, bekannt als „Venedig Portugals“, ist ein großartiger Ort, um die Stadt bei einer Bootsfahrt entlang ihrer Kanäle zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Kanallarda tekne turu yapma",
+        "Şehirde gezinti yapma"
+      ],
+      "en": [
+        "Take a boat tour in the canals",
+        "Explore the city"
+      ],
+      "de": [
+        "Eine Bootsfahrt auf den Kanälen machen",
+        "Die Stadt erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/aveiro_canals.jpg"
+    ]
+  },
+  {
+    "slug": "aveiro-muzesi",
+    "name": {
+      "tr": "Aveiro Müzesi",
+      "en": "Aveiro Museum",
+      "de": "Aveiro Museum"
+    },
+    "latitude": 40.6407,
+    "longitude": -8.655,
+    "description": {
+      "tr": "Aveiro Müzesi, şehrin tarihini ve kültürünü anlatan sergilerle ziyaretçilerini ağırlayan bir kültürel mekandır.",
+      "en": "The Aveiro Museum is a cultural venue showcasing exhibits related to the city's history and culture.",
+      "de": "Das Aveiro Museum ist ein kultureller Ort, der Ausstellungen zur Geschichte und Kultur der Stadt präsentiert."
+    },
+    "activities": {
+      "tr": [
+        "Müzede gezme",
+        "Sergileri keşfetme"
+      ],
+      "en": [
+        "Tour the museum",
+        "Explore the exhibits"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Die Ausstellungen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/aveiro_museum.jpg"
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "wahiba-colleri",
+    "name": {
+      "tr": "Wahiba Çölleri",
+      "en": "Wahiba Sands",
+      "de": "Wahiba Sands"
+    },
+    "latitude": 21.6322,
+    "longitude": 58.6044,
+    "description": {
+      "tr": "Wahiba Çölleri, Umman’ın en ünlü çöl alanlarından biridir. Altın rengi kum tepeleriyle ünlü olan bu bölge, geleneksel bedevi yaşam tarzını ve çölün büyüleyici doğasını keşfetmek isteyen ziyaretçiler için harika bir yerdir. Ziyaretçiler, deve gezileri yapabilir, kum tepeciklerinde yürüyüşler yapabilir ve çölün sessizliğinde huzur bulabilirler.",
+      "en": "Wahiba Sands is one of Oman’s most famous desert areas. Known for its golden sand dunes, this region is a fantastic place for visitors who want to explore the traditional Bedouin lifestyle and the captivating nature of the desert. Visitors can take camel rides, walk on the sand dunes, and find peace in the silence of the desert.",
+      "de": "Die Wahiba Sands ist eines der bekanntesten Wüstengebiete Omans. Bekannt für ihre goldenen Sanddünen, ist diese Region ein fantastischer Ort für Besucher, die den traditionellen Beduinen-Lifestyle und die faszinierende Natur der Wüste erkunden möchten. Besucher können Kamelritte unternehmen, über die Sanddünen wandern und im Schweigen der Wüste Frieden finden."
+    },
+    "activities": {
+      "tr": [
+        "Deve gezisi yapmak",
+        "Kum tepelerinde yürüyüş yapmak",
+        "Çöl manzarasını keşfetmek"
+      ],
+      "en": [
+        "Taking a camel ride",
+        "Walking on the sand dunes",
+        "Exploring the desert landscapes"
+      ],
+      "de": [
+        "Eine Kamelreise unternehmen",
+        "Über die Sanddünen wandern",
+        "Die Wüstenlandschaften erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/wahiba_sands_1.jpg",
+      "https://example.com/wahiba_sands_2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "gateway-of-india",
+    "name": {
+      "tr": "Gateway of India",
+      "en": "Gateway of India",
+      "de": "Tor von Indien"
+    },
+    "latitude": 18.922,
+    "longitude": 72.8347,
+    "description": {
+      "tr": "Gateway of India, Mumbai’nin simgelerinden biridir. 1911 yılında İngiltere Kralı IV. George’un Hindistan’ı ziyaretini anmak için inşa edilmiştir. Deniz kenarında, tarihi bir anıttır.",
+      "en": "The Gateway of India is one of Mumbai’s landmarks. It was built in 1911 to commemorate the visit of King George IV of England to India. It is a historic monument located by the sea.",
+      "de": "Das Gateway of India ist eines der Wahrzeichen von Mumbai. Es wurde 1911 erbaut, um den Besuch von König George IV. von Großbritannien in Indien zu gedenken. Es ist ein historisches Denkmal am Meer."
+    },
+    "activities": {
+      "tr": [
+        "Fotoğraf çekimi",
+        "Tarihî keşif",
+        "Sahil yürüyüşü"
+      ],
+      "en": [
+        "Photography",
+        "Historical exploration",
+        "Seafront walk"
+      ],
+      "de": [
+        "Fotografie",
+        "Historische Erkundung",
+        "Spaziergang am Meer"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/gateway_of_india.jpg"
+    ]
+  },
+  {
+    "slug": "elephanta-adasi",
+    "name": {
+      "tr": "Elephanta Adası",
+      "en": "Elephanta Island",
+      "de": "Elephanta Insel"
+    },
+    "latitude": 18.9575,
+    "longitude": 72.9267,
+    "description": {
+      "tr": "Elephanta Adası, Mumbai’nin 11 km doğusunda yer alır ve kaya içine oyulmuş tapınaklarıyla ünlüdür. UNESCO Dünya Mirası Listesi’nde yer alır.",
+      "en": "Elephanta Island is located 11 km east of Mumbai and is famous for its rock-cut temples. It is a UNESCO World Heritage Site.",
+      "de": "Die Elephanta-Insel liegt 11 km östlich von Mumbai und ist berühmt für ihre in Felsen gemeißelten Tempel. Sie ist ein UNESCO-Weltkulturerbe."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu",
+        "Tapınak ziyareti",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Boat ride",
+        "Temple visit",
+        "Nature walk"
+      ],
+      "de": [
+        "Bootsfahrt",
+        "Tempelbesuch",
+        "Wanderung in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/elephanta_island.jpg"
+    ]
+  },
+  {
+    "slug": "marine-drive",
+    "name": {
+      "tr": "Marine Drive",
+      "en": "Marine Drive",
+      "de": "Marine Drive"
+    },
+    "latitude": 18.9387,
+    "longitude": 72.8232,
+    "description": {
+      "tr": "Marine Drive, Mumbai’nin en ünlü sahil yoludur ve şehri denizle buluşturur. “Mumbai’nin Kraliçesi” olarak bilinir.",
+      "en": "Marine Drive is Mumbai’s most famous seafront road, connecting the city with the sea. It is known as the \"Queen’s Necklace\" due to its shape.",
+      "de": "Die Marine Drive ist die berühmteste Küstenstraße von Mumbai, die die Stadt mit dem Meer verbindet. Aufgrund ihrer Form ist sie als „Queen’s Necklace“ bekannt."
+    },
+    "activities": {
+      "tr": [
+        "Sahil yürüyüşü",
+        "Manzara keyfi",
+        "Gece yürüyüşü"
+      ],
+      "en": [
+        "Seafront walk",
+        "Scenic views",
+        "Night walk"
+      ],
+      "de": [
+        "Spaziergang am Meer",
+        "Szenerische Aussichten",
+        "Nachtspaziergang"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/marine_drive.jpg"
+    ]
+  },
+  {
+    "slug": "chhatrapati-shivaji-maharaj-terminus",
+    "name": {
+      "tr": "Chhatrapati Shivaji Maharaj Terminus",
+      "en": "Chhatrapati Shivaji Maharaj Terminus",
+      "de": "Chhatrapati Shivaji Maharaj Bahnhof"
+    },
+    "latitude": 18.94,
+    "longitude": 72.835,
+    "description": {
+      "tr": "Chhatrapati Shivaji Maharaj Terminus, Mumbai’nin en önemli demiryolu istasyonlarından biridir ve Victoria tarzı mimarisi ile ünlüdür. UNESCO Dünya Mirası Listesi’ndedir.",
+      "en": "Chhatrapati Shivaji Maharaj Terminus is one of Mumbai’s most important railway stations and is famous for its Victorian-style architecture. It is a UNESCO World Heritage Site.",
+      "de": "Der Chhatrapati Shivaji Maharaj Bahnhof ist einer der wichtigsten Bahnhöfe in Mumbai und bekannt für seine viktorianische Architektur. Es ist ein UNESCO-Weltkulturerbe."
+    },
+    "activities": {
+      "tr": [
+        "Mimari keşif",
+        "Fotoğraf çekimi",
+        "Demiryolu istasyonu ziyareti"
+      ],
+      "en": [
+        "Architectural exploration",
+        "Photography",
+        "Visit the railway station"
+      ],
+      "de": [
+        "Architektonische Entdeckungen",
+        "Fotografie",
+        "Besuch des Bahnhofs"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/chhatrapati_shivaji_terminus.jpg"
+    ]
+  },
+  {
+    "slug": "haji-ali-dargah",
+    "name": {
+      "tr": "Haji Ali Dargah",
+      "en": "Haji Ali Dargah",
+      "de": "Haji Ali Dargah"
+    },
+    "latitude": 18.938,
+    "longitude": 72.8219,
+    "description": {
+      "tr": "Haji Ali Dargah, Mumbai’nin en önemli dini yapılarından biridir ve deniz ortasında bir ada üzerinde yer alır. İslam’ın mistik bir figürü olan Haji Ali’ye adanmıştır.",
+      "en": "Haji Ali Dargah is one of Mumbai’s most important religious sites, located on an island in the sea. It is dedicated to Haji Ali, a mystical figure of Islam.",
+      "de": "Die Haji Ali Dargah ist einer der wichtigsten religiösen Orte in Mumbai und befindet sich auf einer Insel im Meer. Sie ist Haji Ali gewidmet, einer mystischen Figur im Islam."
+    },
+    "activities": {
+      "tr": [
+        "Ziyaret",
+        "Dua etme",
+        "Mistik deneyim"
+      ],
+      "en": [
+        "Visit",
+        "Praying",
+        "Mystical experience"
+      ],
+      "de": [
+        "Besuch",
+        "Beten",
+        "Mystische Erfahrung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/haji_ali_dargah.jpg"
+    ]
+  }
+]

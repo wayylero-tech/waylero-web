@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "blarney-kalesi-blarney-tasi",
+    "name": {
+      "tr": "Blarney Kalesi & Blarney Taşı",
+      "en": "Blarney Castle & Blarney Stone",
+      "de": "Blarney Schloss & Blarney Stein"
+    },
+    "latitude": 51.936,
+    "longitude": -8.565,
+    "description": {
+      "tr": "Blarney Kalesi, 15. yüzyıldan kalma tarihi bir yapıdır ve Blarney Taşı burada yer almaktadır. Efsaneye göre, Blarney Taşı'nı öpmenin, kişiye \"hitabet gücü\" kazandıracağına inanılmaktadır. Kalede, zengin tarihî yapıları, bahçeleri ve etrafındaki doğal güzellikleri keşfetmek mümkündür. Ayrıca, kale etrafındaki yeşil alanlar, ziyaretçilere harika yürüyüş alanları sunmaktadır.",
+      "en": "Blarney Castle, a historic structure from the 15th century, is home to the Blarney Stone. According to legend, kissing the Blarney Stone grants the \"gift of the gab\" or eloquence. The castle features rich historical structures, beautiful gardens, and scenic surroundings. Visitors can also enjoy the great walking areas around the castle.",
+      "de": "Das Blarney Schloss, eine historische Struktur aus dem 15. Jahrhundert, beherbergt den Blarney Stein. Der Legende nach verleiht das Küssen des Blarney Steins das \"Geschenk der Redegewandtheit\". Das Schloss bietet historische Gebäude, wunderschöne Gärten und malerische Umgebungen. Besucher können auch die großartigen Wandergebiete rund um das Schloss genießen."
+    },
+    "activities": {
+      "tr": [
+        "Blarney Taşı'nı öpmek",
+        "Kale ve bahçeleri gezmek",
+        "Doğal güzelliklerin tadını çıkarmak"
+      ],
+      "en": [
+        "Kissing the Blarney Stone",
+        "Exploring the castle and gardens",
+        "Enjoying the natural beauty"
+      ],
+      "de": [
+        "Den Blarney Stein küssen",
+        "Das Schloss und die Gärten erkunden",
+        "Die natürliche Schönheit genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/blarney_castle_1.jpg",
+      "https://example.com/blarney_castle_2.jpg"
+    ]
+  },
+  {
+    "slug": "english-market",
+    "name": {
+      "tr": "English Market",
+      "en": "English Market",
+      "de": "English Market"
+    },
+    "latitude": 51.8977,
+    "longitude": -8.4744,
+    "description": {
+      "tr": "Cork şehrinin merkezinde bulunan English Market, 1788 yılında açılmıştır ve İrlanda'nın en eski kapalı pazarlarından biridir. Ziyaretçiler burada taze gıda ürünlerinden, yerel et ve deniz ürünlerine kadar geniş bir yelpazede alışveriş yapabilirler. Pazar, taze ürünlerin ve geleneksel İrlanda tatlarının tadını çıkarmak isteyenler için harika bir yerdir.",
+      "en": "Located in the heart of Cork city, the English Market opened in 1788 and is one of the oldest covered markets in Ireland. Visitors can shop for a wide range of fresh food products, from local meats to seafood. The market is a great place for those who want to taste fresh produce and traditional Irish delicacies.",
+      "de": "Der English Market, im Herzen von Cork gelegen, wurde 1788 eröffnet und ist einer der ältesten überdachten Märkte Irlands. Besucher können eine breite Palette frischer Lebensmittelprodukte einkaufen, von lokalen Fleischwaren bis hin zu Meeresfrüchten. Der Markt ist ein großartiger Ort für diejenigen, die frische Produkte und traditionelle irische Köstlichkeiten genießen möchten."
+    },
+    "activities": {
+      "tr": [
+        "Pazar alanını gezmek",
+        "Taze ürünleri almak",
+        "Yerel İrlanda lezzetlerini tatmak"
+      ],
+      "en": [
+        "Exploring the market",
+        "Buying fresh produce",
+        "Tasting traditional Irish delicacies"
+      ],
+      "de": [
+        "Den Markt erkunden",
+        "Frische Produkte kaufen",
+        "Traditionelle irische Köstlichkeiten probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/english_market_1.jpg",
+      "https://example.com/english_market_2.jpg"
+    ]
+  },
+  {
+    "slug": "fitzgerald-parki",
+    "name": {
+      "tr": "Fitzgerald Parkı",
+      "en": "Fitzgerald Park",
+      "de": "Fitzgerald Park"
+    },
+    "latitude": 51.8969,
+    "longitude": -8.4903,
+    "description": {
+      "tr": "Fitzgerald Parkı, Cork şehrinin merkezine yakın, 19. yüzyıldan kalma geniş bir parktır. Park, geniş yürüyüş yolları, göletler, bahçeler ve çocuklar için oyun alanları sunmaktadır. Parkta ayrıca Cork Kent Müzesi bulunmaktadır, burada bölgenin tarihi ve kültürü hakkında bilgi edinebilirsiniz. Ziyaretçiler için dinlenmek ve doğa ile iç içe olmak için mükemmel bir alandır.",
+      "en": "Fitzgerald Park, a large park from the 19th century, is located near the center of Cork city. The park features wide walking paths, ponds, gardens, and playgrounds for children. The Cork City Museum is also located within the park, offering insights into the region’s history and culture. It is an ideal place for visitors to relax and immerse themselves in nature.",
+      "de": "Der Fitzgerald Park, ein großer Park aus dem 19. Jahrhundert, liegt in der Nähe des Zentrums von Cork. Der Park bietet breite Gehwege, Teiche, Gärten und Spielplätze für Kinder. Im Park befindet sich auch das Cork City Museum, das Einblicke in die Geschichte und Kultur der Region bietet. Es ist ein idealer Ort für Besucher, um sich zu entspannen und in die Natur einzutauchen."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Cork Kent Müzesi’ni gezmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Walking in the park",
+        "Visiting the Cork City Museum",
+        "Enjoying the nature"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Das Cork City Museum besuchen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/fitzgerald_park_1.jpg",
+      "https://example.com/fitzgerald_park_2.jpg"
+    ]
+  },
+  {
+    "slug": "cork-city-gaol",
+    "name": {
+      "tr": "Cork City Gaol",
+      "en": "Cork City Gaol",
+      "de": "Cork City Gefängnis"
+    },
+    "latitude": 51.8885,
+    "longitude": -8.4969,
+    "description": {
+      "tr": "Cork City Gaol, 19. yüzyılda inşa edilmiş tarihi bir hapishanedir. 1923 yılına kadar cezaevi olarak kullanılan bu yapı, günümüzde müze olarak hizmet vermektedir. Ziyaretçiler, hapishanenin tarihi, mahkumların yaşam koşulları ve dönemin cezai sistemi hakkında bilgi edinebilirler. Cezaevi, etkileyici mimarisi ve esaretin izlerini barındıran atmosferiyle dikkat çekicidir.",
+      "en": "Cork City Gaol, a historic prison built in the 19th century, was used as a prison until 1923 and now serves as a museum. Visitors can learn about the history of the prison, the living conditions of the prisoners, and the penal system of the time. The prison is notable for its impressive architecture and its atmosphere that holds the traces of captivity.",
+      "de": "Das Cork City Gaol, ein historisches Gefängnis aus dem 19. Jahrhundert, wurde bis 1923 als Gefängnis genutzt und dient heute als Museum. Besucher können mehr über die Geschichte des Gefängnisses, die Lebensbedingungen der Gefangenen und das damalige Strafsystem erfahren. Das Gefängnis zeichnet sich durch seine beeindruckende Architektur und die Atmosphäre aus, die die Spuren der Gefangenschaft trägt."
+    },
+    "activities": {
+      "tr": [
+        "Cezaevini gezmek",
+        "Tarihi sergileri görmek",
+        "Eski hapishane atmosferini hissetmek"
+      ],
+      "en": [
+        "Exploring the prison",
+        "Visiting historical exhibits",
+        "Feeling the old prison atmosphere"
+      ],
+      "de": [
+        "Das Gefängnis erkunden",
+        "Historische Ausstellungen besuchen",
+        "Die alte Gefängnisatmosphäre spüren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/cork_city_gaol_1.jpg",
+      "https://example.com/cork_city_gaol_2.jpg"
+    ]
+  }
+]

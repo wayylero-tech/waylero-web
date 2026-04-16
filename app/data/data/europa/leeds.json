@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "leeds-castle",
+    "name": {
+      "tr": "Leeds Castle",
+      "en": "Leeds Castle",
+      "de": "Leeds Schloss"
+    },
+    "latitude": 53.002,
+    "longitude": -1.1193,
+    "description": {
+      "tr": "Leeds Castle, Orta Çağ'dan kalma bir kaledir ve muazzam bahçeleri ve tarihi yapılarıyla ünlüdür.",
+      "en": "Leeds Castle is a medieval castle famous for its magnificent gardens and historical structures.",
+      "de": "Leeds Castle ist eine mittelalterliche Burg, die für ihre prächtigen Gärten und historischen Gebäude bekannt ist."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapmak",
+        "Bahçeleri gezmek"
+      ],
+      "en": [
+        "Take a castle tour",
+        "Explore the gardens"
+      ],
+      "de": [
+        "Burgbesichtigung machen",
+        "Die Gärten erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/leeds_castle.jpg"
+    ]
+  },
+  {
+    "slug": "royal-armouries-museum",
+    "name": {
+      "tr": "Royal Armouries Museum",
+      "en": "Royal Armouries Museum",
+      "de": "Royal Armouries Museum"
+    },
+    "latitude": 53.7974,
+    "longitude": -1.536,
+    "description": {
+      "tr": "Royal Armouries Museum, silahlar, zırhlar ve savaş tarihi üzerine geniş bir koleksiyona sahip bir müzedir.",
+      "en": "Royal Armouries Museum is a museum with an extensive collection of weapons, armor, and military history.",
+      "de": "Das Royal Armouries Museum ist ein Museum mit einer umfangreichen Sammlung von Waffen, Rüstungen und Militärgeschichte."
+    },
+    "activities": {
+      "tr": [
+        "Silah koleksiyonlarını incelemek",
+        "Tarihi sergileri gezmek"
+      ],
+      "en": [
+        "Explore the weapon collections",
+        "Visit the historical exhibitions"
+      ],
+      "de": [
+        "Die Waffensammlung besichtigen",
+        "Die historischen Ausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/royal_armouries_museum.jpg"
+    ]
+  },
+  {
+    "slug": "roundhay-park",
+    "name": {
+      "tr": "Roundhay Park",
+      "en": "Roundhay Park",
+      "de": "Roundhay Park"
+    },
+    "latitude": 53.8457,
+    "longitude": -1.4892,
+    "description": {
+      "tr": "Roundhay Park, Leeds'in en büyük parkıdır ve göletleri, yürüyüş parkurları ve açık alanlarıyla doğa severler için harika bir yerdir.",
+      "en": "Roundhay Park is the largest park in Leeds and is a great place for nature lovers with its lakes, walking trails, and open spaces.",
+      "de": "Der Roundhay Park ist der größte Park in Leeds und ein großartiger Ort für Naturliebhaber mit seinen Seen, Wanderwegen und offenen Flächen."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Doğada bisiklete binmek"
+      ],
+      "en": [
+        "Walk in the park",
+        "Bike through nature"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Durch die Natur radfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/roundhay_park.jpg"
+    ]
+  },
+  {
+    "slug": "kirkstall-abbey",
+    "name": {
+      "tr": "Kirkstall Abbey",
+      "en": "Kirkstall Abbey",
+      "de": "Kirkstall Abbey"
+    },
+    "latitude": 53.8123,
+    "longitude": -1.6176,
+    "description": {
+      "tr": "Kirkstall Abbey, 12. yüzyıldan kalma bir manastır kalıntısıdır ve tarihi atmosferiyle dikkat çeker.",
+      "en": "Kirkstall Abbey is a 12th-century abbey ruin, notable for its historic atmosphere.",
+      "de": "Die Kirkstall Abbey ist eine Ruine einer Abtei aus dem 12. Jahrhundert, die für ihre historische Atmosphäre bekannt ist."
+    },
+    "activities": {
+      "tr": [
+        "Manastır kalıntılarını keşfetmek",
+        "Tarihi atmosferi yaşamak"
+      ],
+      "en": [
+        "Explore the abbey ruins",
+        "Experience the historic atmosphere"
+      ],
+      "de": [
+        "Die Abteiruinen erkunden",
+        "Die historische Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kirkstall_abbey.jpg"
+    ]
+  },
+  {
+    "slug": "leeds-art-gallery",
+    "name": {
+      "tr": "Leeds Art Gallery",
+      "en": "Leeds Art Gallery",
+      "de": "Leeds Kunstgalerie"
+    },
+    "latitude": 53.8004,
+    "longitude": -1.5481,
+    "description": {
+      "tr": "Leeds Art Gallery, İngiltere'nin en önemli sanat galerilerinden biridir ve zengin bir koleksiyona sahiptir.",
+      "en": "Leeds Art Gallery is one of the most important art galleries in England and has a rich collection.",
+      "de": "Die Leeds Art Gallery ist eine der wichtigsten Kunstgalerien Englands und verfügt über eine reiche Sammlung."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi turu yapmak",
+        "Sanat eserlerini incelemek"
+      ],
+      "en": [
+        "Take a gallery tour",
+        "Examine the artworks"
+      ],
+      "de": [
+        "Eine Galerieführung machen",
+        "Die Kunstwerke besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/leeds_art_gallery.jpg"
+    ]
+  }
+]

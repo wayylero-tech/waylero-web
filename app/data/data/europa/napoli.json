@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "pompei-antik-kenti",
+    "name": {
+      "tr": "Pompei Antik Kenti",
+      "en": "Pompeii Ancient City",
+      "de": "Pompeji Antike Stadt"
+    },
+    "latitude": 40.7487,
+    "longitude": 14.4868,
+    "description": {
+      "tr": "Pompei, MS 79'da Vezüv Yanardağı'nın patlamasıyla yok olmuş eski bir Roma şehri olup, günümüzde arkeolojik bir alan olarak gezilebilmektedir.",
+      "en": "Pompeii is an ancient Roman city destroyed by the eruption of Mount Vesuvius in AD 79, and it is now an archaeological site that can be visited.",
+      "de": "Pompeji ist eine antike römische Stadt, die durch den Ausbruch des Vulkans Vesuv im Jahr 79 n. Chr. zerstört wurde und heute eine archäologische Stätte ist."
+    },
+    "activities": {
+      "tr": [
+        "Pompei kalıntılarını keşfetme",
+        "Antik tiyatroyu gezme"
+      ],
+      "en": [
+        "Explore the ruins of Pompeii",
+        "Tour the ancient theater"
+      ],
+      "de": [
+        "Die Ruinen von Pompeji erkunden",
+        "Das antike Theater besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/pompei_ancient_city.jpg"
+    ]
+  },
+  {
+    "slug": "napoli-kalesi",
+    "name": {
+      "tr": "Napoli Kalesi",
+      "en": "Naples Castle",
+      "de": "Neapel Schloss"
+    },
+    "latitude": 40.85,
+    "longitude": 14.2619,
+    "description": {
+      "tr": "Napoli Kalesi, şehrin tarihi merkezinde yer alır ve şehri savunmak için inşa edilmiş önemli bir yapıdır.",
+      "en": "Naples Castle is located in the historic center of the city and is an important structure built for the defense of the city.",
+      "de": "Das Neapolitanische Schloss befindet sich im historischen Zentrum der Stadt und ist eine wichtige Struktur, die zum Schutz der Stadt erbaut wurde."
+    },
+    "activities": {
+      "tr": [
+        "Kale içinde gezme",
+        "Kale surlarından manzara izleme"
+      ],
+      "en": [
+        "Explore the castle",
+        "Enjoy the view from the castle walls"
+      ],
+      "de": [
+        "Das Schloss erkunden",
+        "Die Aussicht von den Schlossmauern genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/napoli_castle.jpg"
+    ]
+  }
+]

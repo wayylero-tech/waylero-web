@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "whitehaven-beach",
+    "name": {
+      "tr": "Whitehaven Beach",
+      "en": "Whitehaven Beach",
+      "de": "Whitehaven Beach"
+    },
+    "latitude": -20.2833,
+    "longitude": 149.0844,
+    "description": {
+      "tr": "Whitehaven Beach, Avustralya’nın en güzel plajlarından biridir. Beyaz kumları ve turkuaz deniziyle ünlüdür. Burada, güneşlenmek ve denizle iç içe vakit geçirmek harika bir deneyimdir.",
+      "en": "Whitehaven Beach is one of Australia’s most beautiful beaches, famous for its white sands and turquoise waters. It is a perfect spot for sunbathing and enjoying the sea.",
+      "de": "Der Whitehaven Beach ist einer der schönsten Strände Australiens, bekannt für seinen weißen Sand und das türkisfarbene Wasser. Es ist der perfekte Ort zum Sonnenbaden und um das Meer zu genießen."
+    },
+    "activities": {
+      "tr": [
+        "Güneşlenmek",
+        "Yüzmek",
+        "Denizle vakit geçirmek"
+      ],
+      "en": [
+        "Sunbathing",
+        "Swimming",
+        "Enjoying the sea"
+      ],
+      "de": [
+        "Sonnenbaden",
+        "Schwimmen",
+        "Das Meer genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/whitehaven_beach.jpg"
+    ]
+  },
+  {
+    "slug": "hill-inlet-lookout",
+    "name": {
+      "tr": "Hill Inlet Lookout",
+      "en": "Hill Inlet Lookout",
+      "de": "Hill Inlet Lookout"
+    },
+    "latitude": -20.2706,
+    "longitude": 149.05,
+    "description": {
+      "tr": "Hill Inlet Lookout, Whitehaven Beach’in harika manzarasını görebileceğiniz bir noktadır. Buradan, plajın beyaz kumları ile turkuaz denizin birleşimini görmek mümkündür.",
+      "en": "Hill Inlet Lookout offers a stunning view of Whitehaven Beach. From here, you can see the beautiful combination of white sands and turquoise waters of the beach.",
+      "de": "Der Hill Inlet Lookout bietet einen atemberaubenden Blick auf den Whitehaven Beach. Von hier aus können Sie die wunderschöne Kombination aus weißen Sandstränden und türkisfarbenem Wasser des Strandes sehen."
+    },
+    "activities": {
+      "tr": [
+        "Manzarayı izlemek",
+        "Fotoğraf çekmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Watching the view",
+        "Taking photos",
+        "Enjoying nature"
+      ],
+      "de": [
+        "Die Aussicht genießen",
+        "Fotos machen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/hill_inlet_lookout.jpg"
+    ]
+  },
+  {
+    "slug": "hamilton-island",
+    "name": {
+      "tr": "Hamilton Island",
+      "en": "Hamilton Island",
+      "de": "Hamilton Island"
+    },
+    "latitude": -20.35,
+    "longitude": 148.95,
+    "description": {
+      "tr": "Hamilton Island, lüks tatil köyleri, golf sahaları ve su sporlarıyla ünlüdür. Burada, dinlenmek ve eğlenceli aktiviteler yapmak için ideal bir yerdir.",
+      "en": "Hamilton Island is famous for its luxury resorts, golf courses, and water sports. It is an ideal destination for relaxation and fun activities.",
+      "de": "Die Hamilton Island ist berühmt für ihre Luxushotels, Golfplätze und Wassersportarten. Es ist ein ideales Ziel für Entspannung und Spaßaktivitäten."
+    },
+    "activities": {
+      "tr": [
+        "Golf oynamak",
+        "Su sporları yapmak",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Playing golf",
+        "Water sports",
+        "Relaxing"
+      ],
+      "de": [
+        "Golf spielen",
+        "Wassersportarten",
+        "Entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/hamilton_island.jpg"
+    ]
+  }
+]

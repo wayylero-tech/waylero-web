@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "osaka-kalesi",
+    "name": {
+      "tr": "Osaka Kalesi",
+      "en": "Osaka Castle",
+      "de": "Schloss Osaka"
+    },
+    "latitude": 34.6873,
+    "longitude": 135.5262,
+    "description": {
+      "tr": "Osaka Kalesi, Japonya'nın en ünlü kalelerinden biridir ve 16. yüzyılda Toyotomi Hideyoshi tarafından inşa edilmiştir. Tarihi önemi büyük olan bu yapı, çevresindeki park alanı, göletler ve kiraz çiçekleriyle ziyaretçilere huzurlu bir ortam sunar. Kalenin içinde bir müze bulunmaktadır.\n",
+      "en": "Osaka Castle is one of Japan’s most famous landmarks, originally built in the 16th century by Toyotomi Hideyoshi. With its historical importance, the surrounding park, ponds, and cherry blossoms provide a peaceful atmosphere. The castle also houses a museum inside.\n",
+      "de": "Das Schloss Osaka ist eines der bekanntesten Wahrzeichen Japans und wurde im 16. Jahrhundert von Toyotomi Hideyoshi erbaut. Mit seiner historischen Bedeutung bietet es zusammen mit dem umliegenden Park, Teichen und Kirschblüten eine friedliche Atmosphäre. Im Inneren befindet sich ein Museum.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşfetmek",
+        "Müzeyi gezmek",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Exploring history",
+        "Visiting the museum",
+        "Nature walking"
+      ],
+      "de": [
+        "Geschichte erkunden",
+        "Museum besuchen",
+        "Spaziergang in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/osaka_castle.jpg"
+    ]
+  },
+  {
+    "slug": "dotonbori",
+    "name": {
+      "tr": "Dotonbori",
+      "en": "Dotonbori",
+      "de": "Dotonbori"
+    },
+    "latitude": 34.6687,
+    "longitude": 135.5012,
+    "description": {
+      "tr": "Dotonbori, Osaka'nın en canlı bölgelerinden biridir. Renkli tabelaları, nehir kenarındaki yürüyüş yolları, restoranları ve alışveriş olanakları ile bilinir. Glico adam tabelası, buradaki en tanınmış simgelerden biridir.\n",
+      "en": "Dotonbori is one of Osaka’s most vibrant areas, known for its neon signs, riverside walks, restaurants, and shopping options. The Glico Running Man sign is one of the most iconic symbols here.\n",
+      "de": "Dotonbori ist eines der lebhaftesten Viertel Osakas, bekannt für seine Neonlichter, Spazierwege am Fluss, Restaurants und Einkaufsmöglichkeiten. Das Glico-Läufer-Schild ist eines der bekanntesten Wahrzeichen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yemek yemek",
+        "Gece hayatını keşfetmek",
+        "Alışveriş yapmak"
+      ],
+      "en": [
+        "Dining",
+        "Exploring nightlife",
+        "Shopping"
+      ],
+      "de": [
+        "Essen gehen",
+        "Nachtleben erkunden",
+        "Einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/dotonbori.jpg"
+    ]
+  },
+  {
+    "slug": "universal-studios-japan",
+    "name": {
+      "tr": "Universal Studios Japan",
+      "en": "Universal Studios Japan",
+      "de": "Universal Studios Japan"
+    },
+    "latitude": 34.6654,
+    "longitude": 135.4323,
+    "description": {
+      "tr": "Universal Studios Japan, popüler film temalı eğlence parkıdır. Harry Potter, Jurassic Park, Minions ve daha birçok tematik alanla her yaşa hitap eden bir deneyim sunar.\n",
+      "en": "Universal Studios Japan is a popular movie-themed amusement park. With attractions from Harry Potter, Jurassic Park, Minions, and more, it offers fun experiences for all ages.\n",
+      "de": "Universal Studios Japan ist ein beliebter Freizeitpark mit Filmthemen. Mit Attraktionen wie Harry Potter, Jurassic Park, Minions und vielem mehr bietet er Unterhaltung für jedes Alter.\n"
+    },
+    "activities": {
+      "tr": [
+        "Eğlence parkı gezisi",
+        "Film temalı aktiviteler",
+        "Aile ile vakit geçirmek"
+      ],
+      "en": [
+        "Amusement park visit",
+        "Movie-themed experiences",
+        "Spending time with family"
+      ],
+      "de": [
+        "Freizeitparkbesuch",
+        "Filmerlebnisse",
+        "Zeit mit der Familie verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/universal_studios.jpg"
+    ]
+  },
+  {
+    "slug": "umeda-sky-building",
+    "name": {
+      "tr": "Umeda Sky Building",
+      "en": "Umeda Sky Building",
+      "de": "Umeda Sky Building"
+    },
+    "latitude": 34.7055,
+    "longitude": 135.4891,
+    "description": {
+      "tr": "Umeda Sky Building, iki kuleden oluşan modern bir yapıdır. Üst katındaki gözlem güvertesi, Osaka’nın panoramik manzarasını sunar. Özellikle gün batımında manzara büyüleyicidir.\n",
+      "en": "Umeda Sky Building is a modern skyscraper with two connected towers. Its observation deck offers panoramic views of Osaka, especially stunning during sunset.\n",
+      "de": "Das Umeda Sky Building ist ein modernes Hochhaus mit zwei verbundenen Türmen. Die Aussichtsplattform bietet einen Panoramablick auf Osaka, besonders beeindruckend bei Sonnenuntergang.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manzara izlemek",
+        "Fotoğraf çekmek",
+        "Şehir turu"
+      ],
+      "en": [
+        "Sightseeing",
+        "Taking photos",
+        "City tour"
+      ],
+      "de": [
+        "Aussicht genießen",
+        "Fotografieren",
+        "Stadtrundgang"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/umeda_sky_building.jpg"
+    ]
+  },
+  {
+    "slug": "shinsekai-ve-tsutenkaku-kulesi",
+    "name": {
+      "tr": "Shinsekai ve Tsutenkaku Kulesi",
+      "en": "Shinsekai and Tsutenkaku Tower",
+      "de": "Shinsekai und Tsutenkaku-Turm"
+    },
+    "latitude": 34.6525,
+    "longitude": 135.5063,
+    "description": {
+      "tr": "Shinsekai, retro havası ile bilinen tarihi bir bölgedir. Bölgenin simgesi olan Tsutenkaku Kulesi, 1912 yılında inşa edilmiştir ve gözlem güvertesi sayesinde şehri izleme imkanı sunar.\n",
+      "en": "Shinsekai is a historical district known for its retro atmosphere. The iconic Tsutenkaku Tower, built in 1912, features an observation deck offering views of the city.\n",
+      "de": "Shinsekai ist ein historisches Viertel mit Retro-Atmosphäre. Der ikonische Tsutenkaku-Turm, erbaut im Jahr 1912, bietet mit seiner Aussichtsplattform einen tollen Blick auf die Stadt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi bölgeyi gezmek",
+        "Kuleye çıkmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the historical area",
+        "Climbing the tower",
+        "Taking photos"
+      ],
+      "de": [
+        "Historisches Viertel erkunden",
+        "Turm besteigen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/tsutenkaku.jpg"
+    ]
+  }
+]

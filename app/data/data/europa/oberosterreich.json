@@ -1,0 +1,315 @@
+[
+  {
+    "slug": "hallstatt-koyu",
+    "name": {
+      "tr": "Hallstatt Köyü",
+      "en": "Hallstatt Village",
+      "de": "Hallstatt"
+    },
+    "latitude": 47.5615,
+    "longitude": 13.6367,
+    "description": {
+      "tr": "Alp Dağları’nın eteklerinde bulunan, kartpostallardan fırlamış gibi görünen bir köy.",
+      "en": "A village at the foot of the Alps, looking like it's straight out of a postcard.",
+      "de": "Ein Dorf am Fuße der Alpen, das aussieht, als käme es direkt aus einer Postkarte."
+    },
+    "activities": {
+      "tr": [
+        "Köyde dolaşma",
+        "Doğa ile iç içe olma"
+      ],
+      "en": [
+        "Wander around the village",
+        "Be immersed in nature"
+      ],
+      "de": [
+        "Durch das Dorf spazieren",
+        "In der Natur sein"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/hallstatt_village.jpg"
+    ]
+  },
+  {
+    "slug": "tuz-madeni",
+    "name": {
+      "tr": "Tuz Madeni",
+      "en": "Salt Mine",
+      "de": "Salzwelten Hallstatt"
+    },
+    "latitude": 47.5728,
+    "longitude": 13.643,
+    "description": {
+      "tr": "Bölgenin tarihî önemi hakkında bilgi edinmek için ziyaret edebilirsiniz.",
+      "en": "You can visit to learn about the historical importance of the region.",
+      "de": "Sie können besuchen, um mehr über die historische Bedeutung der Region zu erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Tuz madenini gezme",
+        "Tarihi keşfetme"
+      ],
+      "en": [
+        "Tour the salt mine",
+        "Discover the history"
+      ],
+      "de": [
+        "Die Salzmine besichtigen",
+        "Die Geschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/salt_mine.jpg"
+    ]
+  },
+  {
+    "slug": "skywalk",
+    "name": {
+      "tr": "Skywalk",
+      "en": "Skywalk",
+      "de": "Skywalk"
+    },
+    "latitude": 47.57,
+    "longitude": 13.635,
+    "description": {
+      "tr": "Muhteşem manzaralara ev sahipliği yapan bir gözlem platformudur.",
+      "en": "A viewing platform offering breathtaking views.",
+      "de": "Eine Aussichtsplattform mit atemberaubenden Ausblicken."
+    },
+    "activities": {
+      "tr": [
+        "Manzara izleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Enjoy the view",
+        "Take photos"
+      ],
+      "de": [
+        "Die Aussicht genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/skywalk.jpg"
+    ]
+  },
+  {
+    "slug": "linz",
+    "name": {
+      "tr": "Linz",
+      "en": "Linz",
+      "de": "Linz"
+    },
+    "latitude": 48.3064,
+    "longitude": 14.2861,
+    "description": {
+      "tr": "Linz, Üst Avusturya'nın başkenti ve Avusturya'nın üçüncü büyük şehridir. Sanat, kültür ve teknoloji ile ünlüdür. Linz, modern mimarisi, tarihi yerleri ve sanatsal etkinlikleriyle dikkat çeker.",
+      "en": "Linz is the capital of Upper Austria and the third largest city in Austria. It is famous for art, culture, and technology. Linz stands out with its modern architecture, historic sites, and artistic events.",
+      "de": "Linz ist die Hauptstadt von Oberösterreich und die drittgrößte Stadt Österreichs. Sie ist bekannt für Kunst, Kultur und Technologie. Linz zeichnet sich durch moderne Architektur, historische Stätten und künstlerische Veranstaltungen aus."
+    },
+    "activities": {
+      "tr": [
+        "Şehir turu yapma",
+        "Sanat galerilerini gezme",
+        "Müze gezisi yapma"
+      ],
+      "en": [
+        "City tour",
+        "Visit art galleries",
+        "Museum visit"
+      ],
+      "de": [
+        "Stadtrundfahrt",
+        "Kunstgalerien besuchen",
+        "Museumsbesuch"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu",
+        "sanat",
+        "kültür"
+      ],
+      "en": [
+        "city tour",
+        "art",
+        "culture"
+      ],
+      "de": [
+        "stadtrundfahrt",
+        "kunst",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://example.com/linz.jpg"
+    ]
+  },
+  {
+    "slug": "wolfgangsee",
+    "name": {
+      "tr": "Wolfgangsee",
+      "en": "Wolfgang Lake",
+      "de": "Wolfgangsee"
+    },
+    "latitude": 47.7125,
+    "longitude": 13.42,
+    "description": {
+      "tr": "Wolfgangsee, Avusturya'nın en güzel göllerinden biridir ve çevresindeki dağlarla ünlüdür. Yaz aylarında gölde yüzme, tekne turu yapma ve çevreyi keşfetme fırsatları sunulmaktadır.",
+      "en": "Wolfgang Lake is one of the most beautiful lakes in Austria, surrounded by mountains. In the summer, visitors can swim in the lake, take boat tours, and explore the surrounding area.",
+      "de": "Der Wolfgangsee ist einer der schönsten Seen in Österreich, umgeben von Bergen. Im Sommer können Besucher im See schwimmen, Bootstouren unternehmen und die Umgebung erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Tekne turu yapma",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Swimming",
+        "Boat tours",
+        "Nature hikes"
+      ],
+      "de": [
+        "Schwimmen",
+        "Bootstouren",
+        "Wandern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "natur"
+      ]
+    },
+    "images": [
+      "https://example.com/wolfgangsee.jpg"
+    ]
+  },
+  {
+    "slug": "bad-ischl",
+    "name": {
+      "tr": "Bad Ischl",
+      "en": "Bad Ischl",
+      "de": "Bad Ischl"
+    },
+    "latitude": 47.7031,
+    "longitude": 13.6194,
+    "description": {
+      "tr": "Bad Ischl, termal kaplıcaları ve tarihi hamamları ile ünlüdür. 19. yüzyılda Avusturya İmparatoru Franz Joseph’in yazlık sarayı burada bulunuyordu. Günümüzde, bu tarihi kasaba, şifalı sularıyla sağlık turizmi için popüler bir yerdir.",
+      "en": "Bad Ischl is known for its thermal spas and historic baths. In the 19th century, it was the summer residence of Emperor Franz Joseph of Austria. Today, this historic town is a popular destination for wellness tourism.",
+      "de": "Bad Ischl ist bekannt für seine Thermalbäder und historischen Kuranstalten. Im 19. Jahrhundert war es der Sommeraufenthalt von Kaiser Franz Joseph von Österreich. Heute ist diese historische Stadt ein beliebtes Ziel für Gesundheitstourismus."
+    },
+    "activities": {
+      "tr": [
+        "Kaplıcalarda dinlenme",
+        "Tarihî yapıları gezme"
+      ],
+      "en": [
+        "Relax in the spas",
+        "Visit historical buildings"
+      ],
+      "de": [
+        "In den Thermen entspannen",
+        "Historische Gebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "history"
+      ],
+      "de": [
+        "geschichte"
+      ]
+    },
+    "images": [
+      "https://example.com/bad_ischl.jpg"
+    ]
+  },
+  {
+    "slug": "mauthausen-aniti",
+    "name": {
+      "tr": "Mauthausen Anıtı",
+      "en": "Mauthausen Memorial",
+      "de": "Gedenkstätte Mauthausen"
+    },
+    "latitude": 48.2417,
+    "longitude": 14.4986,
+    "description": {
+      "tr": "Mauthausen Anıtı, II. Dünya Savaşı sırasında bir Nazi toplama kampı olarak kullanılan Mauthausen kasabasında yer alır. Bugün, bu anıt, holokostu ve insanlık tarihinin en karanlık dönemlerinden birini anmak amacıyla ziyaret edilmektedir.",
+      "en": "The Mauthausen Memorial is located in the town of Mauthausen, which was a Nazi concentration camp during World War II. Today, the memorial serves as a place to remember the Holocaust and one of the darkest periods in human history.",
+      "de": "Die Gedenkstätte Mauthausen befindet sich in der Stadt Mauthausen, die während des Zweiten Weltkriegs ein nationalsozialistisches Konzentrationslager war. Heute dient das Denkmal dazu, den Holocaust und eine der dunkelsten Perioden der Menschheitsgeschichte zu erinnern."
+    },
+    "activities": {
+      "tr": [
+        "Tarihî alanları gezme",
+        "Anıta saygı gösterme"
+      ],
+      "en": [
+        "Tour the historical site",
+        "Pay respects at the memorial"
+      ],
+      "de": [
+        "Historische Stätten besichtigen",
+        "Respekt vor dem Denkmal zeigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "history"
+      ],
+      "de": [
+        "geschichte"
+      ]
+    },
+    "images": [
+      "https://example.com/mauthausen_memorial.jpg"
+    ]
+  }
+]

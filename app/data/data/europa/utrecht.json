@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "dom-tower",
+    "name": {
+      "tr": "Dom Tower",
+      "en": "Dom Tower",
+      "de": "Dom Tower"
+    },
+    "latitude": 52.0907,
+    "longitude": 5.1214,
+    "description": {
+      "tr": "Dom Tower, Utrecht'in en yüksek yapısıdır ve şehre hakim muazzam bir manzara sunar.",
+      "en": "Dom Tower is the tallest structure in Utrecht, offering a magnificent view of the city.",
+      "de": "Der Domturm ist das höchste Gebäude in Utrecht und bietet einen herrlichen Blick auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kuleye tırmanma",
+        "Şehir manzarasını izleme"
+      ],
+      "en": [
+        "Climb the tower",
+        "Enjoy the city view"
+      ],
+      "de": [
+        "Turm besteigen",
+        "Die Stadtansicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/dom_tower.jpg"
+    ]
+  },
+  {
+    "slug": "canal-tours",
+    "name": {
+      "tr": "Canal Tours",
+      "en": "Canal Tours",
+      "de": "Kanutouren"
+    },
+    "latitude": 52.0907,
+    "longitude": 5.1214,
+    "description": {
+      "tr": "Utrecht'in tarihi kanallarında tekne turu yaparak, şehri su üzerinden keşfedin.",
+      "en": "Take a boat tour through the historic canals of Utrecht and discover the city from the water.",
+      "de": "Machen Sie eine Bootstour durch die historischen Kanäle von Utrecht und entdecken Sie die Stadt vom Wasser aus."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu yapma",
+        "Kanallar boyunca yürüyüş yapma"
+      ],
+      "en": [
+        "Take a boat tour",
+        "Walk along the canals"
+      ],
+      "de": [
+        "Bootstour machen",
+        "Entlang der Kanäle spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/canal_tours.jpg"
+    ]
+  }
+]

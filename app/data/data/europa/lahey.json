@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "scheveningen-beach",
+    "name": {
+      "tr": "Scheveningen Beach",
+      "en": "Scheveningen Beach",
+      "de": "Scheveningen Strand"
+    },
+    "latitude": 52.1074,
+    "longitude": 4.276,
+    "description": {
+      "tr": "Scheveningen, Lahey'in en ünlü plajıdır. Hem dinlenmek hem de su sporları yapmak için popüler bir mekandır.",
+      "en": "Scheveningen is the most famous beach in The Hague. It is a popular place for both relaxing and water sports.",
+      "de": "Scheveningen ist der berühmteste Strand in Den Haag. Es ist ein beliebter Ort sowohl zum Entspannen als auch für Wassersportarten."
+    },
+    "activities": {
+      "tr": [
+        "Plajda güneşlenme",
+        "Sörf yapma"
+      ],
+      "en": [
+        "Sunbathe on the beach",
+        "Go surfing"
+      ],
+      "de": [
+        "Am Strand sonnenbaden",
+        "Surfen gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/scheveningen.jpg"
+    ]
+  },
+  {
+    "slug": "mauritshuis-museum",
+    "name": {
+      "tr": "Mauritshuis Museum",
+      "en": "Mauritshuis Museum",
+      "de": "Mauritshuis Museum"
+    },
+    "latitude": 52.0796,
+    "longitude": 4.3163,
+    "description": {
+      "tr": "Mauritshuis, Hollanda Altın Çağı'nın en önemli sanat koleksiyonlarına ev sahipliği yapar. Vermeer'in *İnci Küpeli Kız* eseri burada sergilenmektedir.",
+      "en": "Mauritshuis is home to some of the most important art collections of the Dutch Golden Age. Vermeer's *Girl with a Pearl Earring* is displayed here.",
+      "de": "Das Mauritshuis beherbergt einige der wichtigsten Kunstsammlungen des Goldenen Zeitalters der Niederlande. Vermeers *Mädchen mit dem Perlenohrring* ist hier ausgestellt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini inceleme",
+        "Geçici sergilere katılma"
+      ],
+      "en": [
+        "Explore art collections",
+        "Attend temporary exhibitions"
+      ],
+      "de": [
+        "Kunstwerke inspizieren",
+        "An temporären Ausstellungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/mauritshuis.jpg"
+    ]
+  }
+]

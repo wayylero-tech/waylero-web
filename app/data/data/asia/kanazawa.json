@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "kenrokuen-bahcesi",
+    "name": {
+      "tr": "Kenrokuen Bahçesi",
+      "en": "Kenrokuen Garden",
+      "de": "Kenrokuen-Garten"
+    },
+    "latitude": 36.5661,
+    "longitude": 136.6562,
+    "description": {
+      "tr": "Kenrokuen Bahçesi, Japonya'nın üç büyük bahçesinden biridir ve Kanazawa'da yer alır. 17. yüzyıldan kalma bu bahçe, mevsimlere göre değişen doğal güzellikleriyle ünlüdür. Bahçe, yürüyüş yolları, göletler ve geleneksel Japon çay evleriyle doludur.\n",
+      "en": "Kenrokuen Garden is one of Japan’s three great gardens and is located in Kanazawa. Dating back to the 17th century, this garden is famous for its natural beauty that changes with the seasons. The garden is filled with walking paths, ponds, and traditional Japanese teahouses.\n",
+      "de": "Der Kenrokuen-Garten ist einer der drei großen Gärten Japans und befindet sich in Kanazawa. Der Garten aus dem 17. Jahrhundert ist bekannt für seine natürliche Schönheit, die sich mit den Jahreszeiten verändert. Der Garten ist mit Wanderwegen, Teichen und traditionellen japanischen Teehäusern gefüllt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Bahçede yürüyüş",
+        "Çay evi ziyareti",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Walking in the garden",
+        "Visiting the teahouse",
+        "Photography"
+      ],
+      "de": [
+        "Spaziergang im Garten",
+        "Besuch des Teezimmers",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kenrokuen-garden.jpg"
+    ]
+  }
+]

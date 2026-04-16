@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "romer",
+    "name": {
+      "tr": "Römer",
+      "en": "Römer",
+      "de": "Römer"
+    },
+    "latitude": 50.1109,
+    "longitude": 8.6821,
+    "description": {
+      "tr": "Römer, Frankfurt'un tarihi belediye binasıdır ve şehir merkezinin en önemli yapılarından biridir.",
+      "en": "Römer is Frankfurt's historic town hall and one of the most important buildings in the city center.",
+      "de": "Der Römer ist das historische Rathaus von Frankfurt und eines der wichtigsten Gebäude im Stadtzentrum."
+    },
+    "activities": {
+      "tr": [
+        "Belediye binasını gezme",
+        "Tarihi meydanı keşfetme"
+      ],
+      "en": [
+        "Tour the town hall",
+        "Explore the historic square"
+      ],
+      "de": [
+        "Das Rathaus besichtigen",
+        "Den historischen Platz erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/roemer.jpg"
+    ]
+  },
+  {
+    "slug": "main-tower",
+    "name": {
+      "tr": "Main Tower",
+      "en": "Main Tower",
+      "de": "Main Tower"
+    },
+    "latitude": 50.1102,
+    "longitude": 8.674,
+    "description": {
+      "tr": "Main Tower, Frankfurt'un panoramik manzarasını sunan bir gökdelen olup, şehir manzarasını yüksekten görebileceğiniz bir gözlem kulesidir.",
+      "en": "Main Tower is a skyscraper offering panoramic views of Frankfurt and a observation deck where you can see the city from above.",
+      "de": "Der Main Tower ist ein Wolkenkratzer, der einen Panoramablick auf Frankfurt bietet, mit einer Aussichtsplattform, auf der man die Stadt von oben sehen kann."
+    },
+    "activities": {
+      "tr": [
+        "Gözlem terasında şehir manzarasını izleme",
+        "Yüksekten fotoğraf çekme"
+      ],
+      "en": [
+        "Enjoy the city view from the observation deck",
+        "Take photos from above"
+      ],
+      "de": [
+        "Genießen Sie den Blick auf die Stadt von der Aussichtsplattform",
+        "Machen Sie Fotos von oben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/main_tower.jpg"
+    ]
+  }
+]

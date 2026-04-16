@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "miagao-church",
+    "name": {
+      "tr": "Miagao Church",
+      "en": "Miagao Church",
+      "de": "Miagao Church"
+    },
+    "latitude": 10.6084,
+    "longitude": 122.3306,
+    "description": {
+      "tr": "Miagao Church, UNESCO Dünya Mirası Listesi'nde yer alan ve İspanyol döneminden kalma tarihi bir kilisedir. Muhteşem taş işçiliğiyle dikkat çeker.",
+      "en": "Miagao Church is a historical church listed as a UNESCO World Heritage site, built during the Spanish era. It is known for its magnificent stone craftsmanship.",
+      "de": "Die Miagao Church ist eine historische Kirche, die in der spanischen Ära erbaut wurde und auf der UNESCO-Weltkulturerbeliste steht. Sie ist bekannt für ihre beeindruckende Steinmetzkunst."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini gezmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the church interior",
+        "Taking photos"
+      ],
+      "de": [
+        "Das Kircheninnere erkunden",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/miagao_church.jpg"
+    ]
+  },
+  {
+    "slug": "molo-church",
+    "name": {
+      "tr": "Molo Church",
+      "en": "Molo Church",
+      "de": "Molo Church"
+    },
+    "latitude": 10.6966,
+    "longitude": 122.5651,
+    "description": {
+      "tr": "Molo Church, Filipinler’in en eski kiliselerinden biridir ve Gotik tarzda inşa edilmiştir. Tarihi yapısı ve muazzam mimarisi ile ünlüdür.",
+      "en": "Molo Church is one of the oldest churches in the Philippines, built in Gothic style. It is famous for its historical structure and impressive architecture.",
+      "de": "Die Molo Church ist eine der ältesten Kirchen der Philippinen und im gotischen Stil erbaut. Sie ist berühmt für ihre historische Struktur und beeindruckende Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin mimarisini incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Examining the church architecture",
+        "Taking photos"
+      ],
+      "de": [
+        "Die Kirchenarchitektur betrachten",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/molo_church.jpg"
+    ]
+  },
+  {
+    "slug": "garin-farm",
+    "name": {
+      "tr": "Garin Farm",
+      "en": "Garin Farm",
+      "de": "Garin Farm"
+    },
+    "latitude": 10.6598,
+    "longitude": 122.5573,
+    "description": {
+      "tr": "Garin Farm, doğal güzelliklerle çevrili bir çiftlik ve şapel kompleksidir. Sakin bir atmosferde doğa yürüyüşleri yapabilirsiniz.",
+      "en": "Garin Farm is a farm and chapel complex surrounded by natural beauty. It is a peaceful place to go for nature walks.",
+      "de": "Garin Farm ist ein Bauernhof und ein Kapellenkomplex, der von natürlicher Schönheit umgeben ist. Es ist ein ruhiger Ort für Naturwanderungen."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Şapeli ziyaret etmek"
+      ],
+      "en": [
+        "Going for nature walks",
+        "Visiting the chapel"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Die Kapelle besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/garin_farm.jpg"
+    ]
+  },
+  {
+    "slug": "isla-de-gigantes",
+    "name": {
+      "tr": "Isla de Gigantes",
+      "en": "Isla de Gigantes",
+      "de": "Isla de Gigantes"
+    },
+    "latitude": 11.0423,
+    "longitude": 122.0975,
+    "description": {
+      "tr": "Isla de Gigantes, beyaz kumlu plajları ve gizli mağaraları ile ünlü bir adadır. Macera severler için harika bir yerdir.",
+      "en": "Isla de Gigantes is an island famous for its white sandy beaches and hidden caves. It is a great place for adventure seekers.",
+      "de": "Isla de Gigantes ist eine Insel, die für ihre weißen Sandstrände und versteckten Höhlen bekannt ist. Es ist ein großartiger Ort für Abenteuerlustige."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Mağaraları keşfetmek",
+        "Şnorkelle yüzme"
+      ],
+      "en": [
+        "Relaxing on the beach",
+        "Exploring caves",
+        "Snorkeling"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Höhlen erkunden",
+        "Schnorcheln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/isla_de_gigantes.jpg"
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "jungfrau",
+    "name": {
+      "tr": "Jungfrau",
+      "en": "Jungfrau",
+      "de": "Jungfrau"
+    },
+    "latitude": 46.5957,
+    "longitude": 7.9654,
+    "description": {
+      "tr": "Jungfrau, Avrupa'nın en yüksek demir yolu istasyonuna sahip dağdır ve Alpler’in muazzam manzarasını sunar.",
+      "en": "Jungfrau is a mountain with the highest railway station in Europe, offering stunning views of the Alps.",
+      "de": "Jungfrau ist ein Berg mit der höchsten Eisenbahnstation Europas und bietet einen atemberaubenden Blick auf die Alpen."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Teleferik ile zirveye çıkmak"
+      ],
+      "en": [
+        "Climb the mountain",
+        "Take the cable car to the summit"
+      ],
+      "de": [
+        "Den Berg besteigen",
+        "Mit der Seilbahn zum Gipfel fahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/jungfrau.jpg"
+    ]
+  },
+  {
+    "slug": "lake-thun",
+    "name": {
+      "tr": "Lake Thun",
+      "en": "Lake Thun",
+      "de": "Lake Thun"
+    },
+    "latitude": 46.6933,
+    "longitude": 7.6421,
+    "description": {
+      "tr": "Lake Thun, Interlaken’ın güneyinde yer alan büyüleyici bir göldür ve çevresindeki kasaba ve kalelerle ünlüdür.",
+      "en": "Lake Thun is a captivating lake located south of Interlaken, famous for its surrounding towns and castles.",
+      "de": "Der Lake Thun ist ein faszinierender See südlich von Interlaken und bekannt für die umliegenden Städte und Burgen."
+    },
+    "activities": {
+      "tr": [
+        "Göl etrafında yürüyüş yapmak",
+        "Göl kenarında tekne gezisi yapmak"
+      ],
+      "en": [
+        "Walk around the lake",
+        "Take a boat tour on the lake"
+      ],
+      "de": [
+        "Um den See spazieren gehen",
+        "Eine Bootsfahrt auf dem See machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_thun.jpg"
+    ]
+  },
+  {
+    "slug": "harder-kulm",
+    "name": {
+      "tr": "Harder Kulm",
+      "en": "Harder Kulm",
+      "de": "Harder Kulm"
+    },
+    "latitude": 46.6893,
+    "longitude": 7.8635,
+    "description": {
+      "tr": "Harder Kulm, Interlaken’a hakim bir tepe olup, şehri ve çevresindeki dağları görebileceğiniz bir seyir terası sunar.",
+      "en": "Harder Kulm is a peak overlooking Interlaken, offering a viewpoint where you can see the city and surrounding mountains.",
+      "de": "Harder Kulm ist ein Gipfel, der Interlaken überblickt und einen Aussichtspunkt bietet, von dem aus man die Stadt und die umliegenden Berge sehen kann."
+    },
+    "activities": {
+      "tr": [
+        "Manzara seyretmek",
+        "Harder Kulm’a tırmanmak"
+      ],
+      "en": [
+        "Enjoy the view",
+        "Climb Harder Kulm"
+      ],
+      "de": [
+        "Die Aussicht genießen",
+        "Den Harder Kulm besteigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/harder_kulm.jpg"
+    ]
+  },
+  {
+    "slug": "trummelbach-falls",
+    "name": {
+      "tr": "Trummelbach Falls",
+      "en": "Trummelbach Falls",
+      "de": "Trummelbach Falls"
+    },
+    "latitude": 46.5919,
+    "longitude": 7.925,
+    "description": {
+      "tr": "Trummelbach Falls, alpin bölgesindeki 10 buzulların erimesiyle meydana gelen yeraltı şelaleleridir.",
+      "en": "Trummelbach Falls is a series of underground waterfalls formed by the melting of 10 glaciers in the Alpine region.",
+      "de": "Die Trummelbach Falls sind eine Reihe unterirdischer Wasserfälle, die durch das Schmelzen von 10 Gletschern in der Alpenregion entstanden sind."
+    },
+    "activities": {
+      "tr": [
+        "Şelaleleri keşfetmek",
+        "Yürüyüş yapmak"
+      ],
+      "en": [
+        "Explore the waterfalls",
+        "Go for a hike"
+      ],
+      "de": [
+        "Die Wasserfälle erkunden",
+        "Wandern gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/trummelbach_falls.jpg"
+    ]
+  },
+  {
+    "slug": "interlaken-west",
+    "name": {
+      "tr": "Interlaken West",
+      "en": "Interlaken West",
+      "de": "Interlaken West"
+    },
+    "latitude": 46.6885,
+    "longitude": 7.8627,
+    "description": {
+      "tr": "Interlaken West, şehrin merkezi ulaşım noktalarından biridir ve alışveriş caddeleriyle ünlüdür.",
+      "en": "Interlaken West is one of the main transportation hubs of the city, famous for its shopping streets.",
+      "de": "Interlaken West ist einer der Hauptverkehrsknotenpunkte der Stadt und bekannt für seine Einkaufsstraßen."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Şehir turu yapmak"
+      ],
+      "en": [
+        "Go shopping",
+        "Take a city tour"
+      ],
+      "de": [
+        "Einkaufen gehen",
+        "Eine Stadttour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/interlaken_west.jpg"
+    ]
+  }
+]

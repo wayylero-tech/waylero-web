@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "kawaguchiko-golu",
+    "name": {
+      "tr": "Kawaguchiko Gölü",
+      "en": "Lake Kawaguchiko",
+      "de": "Kawaguchiko-See"
+    },
+    "latitude": 35.5178,
+    "longitude": 138.7638,
+    "description": {
+      "tr": "Kawaguchiko, Fuji Dağı çevresindeki beş gölden biridir ve en erişilebilir olanıdır. Fuji manzarası eşliğinde yürüyüş, tekne turları ve doğal güzellikleri izleme gibi birçok aktivite sunar. Bahar aylarında kiraz çiçekleriyle, sonbaharda ise renkli yapraklarıyla ünlüdür.\n",
+      "en": "Lake Kawaguchiko is one of the Fuji Five Lakes and the most accessible. It offers beautiful views of Mt. Fuji, boat cruises, walking trails, and seasonal beauty such as cherry blossoms in spring and colorful foliage in autumn.\n",
+      "de": "Der Kawaguchiko-See ist einer der fünf Fuji-Seen und am leichtesten zugänglich. Er bietet herrliche Ausblicke auf den Fuji, Bootstouren, Spazierwege und saisonale Schönheit mit Kirschblüten im Frühling und buntem Laub im Herbst.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu",
+        "Fotoğrafçılık",
+        "Yürüyüş"
+      ],
+      "en": [
+        "Boat cruise",
+        "Photography",
+        "Walking"
+      ],
+      "de": [
+        "Bootsfahrt",
+        "Fotografieren",
+        "Spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kawaguchiko.jpg"
+    ]
+  },
+  {
+    "slug": "chureito-pagodasi",
+    "name": {
+      "tr": "Chureito Pagodası",
+      "en": "Chureito Pagoda",
+      "de": "Chureito-Pagode"
+    },
+    "latitude": 35.4993,
+    "longitude": 138.8002,
+    "description": {
+      "tr": "Chureito Pagodası, Fuji Dağı ile birlikte Japonya'nın en ikonik manzaralarından birine sahiptir. Özellikle bahar aylarında kiraz çiçekleri eşliğinde ziyaretçileri büyüler. 400'den fazla basamakla ulaşılan bu nokta, fotoğrafçılar için ideal bir yerdir.\n",
+      "en": "Chureito Pagoda offers one of Japan’s most iconic views with Mt. Fuji in the background. Especially stunning during cherry blossom season, it's reached by climbing over 400 steps and is a favorite among photographers.\n",
+      "de": "Die Chureito-Pagode bietet einen der ikonischsten Ausblicke Japans mit dem Fuji im Hintergrund. Besonders beeindruckend während der Kirschblüte. Über 400 Stufen erreichbar – ein Paradies für Fotografen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manzara izleme",
+        "Fotoğrafçılık",
+        "Tırmanış"
+      ],
+      "en": [
+        "Scenic viewing",
+        "Photography",
+        "Climbing"
+      ],
+      "de": [
+        "Aussicht genießen",
+        "Fotografieren",
+        "Treppe steigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/chureito.jpg"
+    ]
+  },
+  {
+    "slug": "fuji-q-highland",
+    "name": {
+      "tr": "Fuji-Q Highland",
+      "en": "Fuji-Q Highland",
+      "de": "Fuji-Q Highland"
+    },
+    "latitude": 35.4886,
+    "longitude": 138.787,
+    "description": {
+      "tr": "Fuji-Q Highland, Japonya’nın en ünlü tema parklarından biridir ve yüksek hızlı lunapark trenleriyle bilinir. Fuji Dağı manzarası eşliğinde adrenalin dolu bir deneyim sunar. Ayrıca Evangelion ve Naruto gibi temalı alanlara da sahiptir.\n",
+      "en": "Fuji-Q Highland is one of Japan's top amusement parks, famous for its high-speed roller coasters. It offers a thrilling experience with Mt. Fuji views and themed attractions like Evangelion and Naruto.\n",
+      "de": "Fuji-Q Highland ist einer der bekanntesten Freizeitparks Japans und berühmt für seine rasanten Achterbahnen. Mit Blick auf den Fuji bietet er spannende Attraktionen mit Themen wie Evangelion und Naruto.\n"
+    },
+    "activities": {
+      "tr": [
+        "Lunapark",
+        "Roller coaster",
+        "Tema alanları"
+      ],
+      "en": [
+        "Amusement park",
+        "Roller coasters",
+        "Themed zones"
+      ],
+      "de": [
+        "Freizeitpark",
+        "Achterbahnen",
+        "Themenbereiche"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/fujiq.jpg"
+    ]
+  }
+]

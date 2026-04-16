@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "titanic-belfast",
+    "name": {
+      "tr": "Titanic Belfast",
+      "en": "Titanic Belfast",
+      "de": "Titanic Belfast"
+    },
+    "latitude": 54.6074,
+    "longitude": -5.9052,
+    "description": {
+      "tr": "Titanic Belfast, Belfast’ta bulunan ve ünlü Titanic gemisinin inşa edildiği yerin hemen yakınında bulunan bir müzedir. Müze, Titanic’in yapımından, batışına kadar olan süreci detaylı bir şekilde anlatır. Ziyaretçiler, interaktif sergiler ve multimedya sunumlarıyla, bu tarihi trajediyi keşfederken Titanic’in tarihine ve denizcilik mirasına dair derinlemesine bilgi edinebilirler.",
+      "en": "Titanic Belfast is a museum located in Belfast, close to where the famous Titanic ship was built. The museum tells the detailed story of the Titanic, from its construction to its tragic sinking. Visitors can explore interactive exhibits and multimedia presentations to delve into the history of Titanic and the maritime heritage of the city.",
+      "de": "Titanic Belfast ist ein Museum in Belfast, in der Nähe des Ortes, an dem das berühmte Schiff Titanic gebaut wurde. Das Museum erzählt die detaillierte Geschichte der Titanic, von ihrem Bau bis zum tragischen Untergang. Besucher können interaktive Ausstellungen und Multimedia-Präsentationen erkunden, um in die Geschichte der Titanic und das maritime Erbe der Stadt einzutauchen."
+    },
+    "activities": {
+      "tr": [
+        "Titanic’in tarihini keşfetmek",
+        "Etkileşimli sergilerde gezinmek",
+        "Titanic’in yapım sürecini öğrenmek"
+      ],
+      "en": [
+        "Exploring the history of Titanic",
+        "Navigating interactive exhibits",
+        "Learning about the ship’s construction process"
+      ],
+      "de": [
+        "Die Geschichte der Titanic entdecken",
+        "Interaktive Ausstellungen erkunden",
+        "Etwas über den Bau des Schiffs lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/titanic_belfast_1.jpg",
+      "https://example.com/titanic_belfast_2.jpg"
+    ]
+  },
+  {
+    "slug": "giant-s-causeway",
+    "name": {
+      "tr": "Giant's Causeway",
+      "en": "Giant’s Causeway",
+      "de": "Giant's Causeway"
+    },
+    "latitude": 55.2405,
+    "longitude": -6.5112,
+    "description": {
+      "tr": "Giant's Causeway, Kuzey İrlanda'nın en ünlü doğal alanlarından biridir ve UNESCO Dünya Mirası Listesi'nde yer alır. Burası, lavların soğuyup, taşlaşarak oluşturduğu eşsiz altıgen bazalt sütunlarıyla ünlüdür. Ziyaretçiler, bu etkileyici yapıları keşfederken aynı zamanda deniz manzaralarının keyfini çıkarabilir ve bu doğal oluşumların jeolojik geçmişini öğrenebilirler.",
+      "en": "Giant’s Causeway is one of Northern Ireland’s most famous natural sites and a UNESCO World Heritage Site. It is renowned for its unique hexagonal basalt columns, formed by cooling lava. Visitors can explore these impressive formations while enjoying stunning coastal views and learning about the geological history of the site.",
+      "de": "Der Giant's Causeway ist eines der bekanntesten Naturgebiete Nordirlands und ein UNESCO-Weltkulturerbe. Er ist berühmt für seine einzigartigen hexagonalen Basaltsäulen, die durch das Abkühlen von Lava entstanden sind. Besucher können diese beeindruckenden Formationen erkunden, während sie die atemberaubende Küstenaussicht genießen und mehr über die geologische Geschichte des Gebiets erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Bazalt sütunlarını keşfetmek",
+        "Kıyı manzarasının tadını çıkarmak",
+        "Jeolojik geçmiş hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Exploring the basalt columns",
+        "Enjoying coastal views",
+        "Learning about the geological history"
+      ],
+      "de": [
+        "Die Basaltsäulen erkunden",
+        "Die Küstenaussicht genießen",
+        "Etwas über die geologische Geschichte lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/giants_causeway_1.jpg",
+      "https://example.com/giants_causeway_2.jpg"
+    ]
+  },
+  {
+    "slug": "belfast-kalesi",
+    "name": {
+      "tr": "Belfast Kalesi",
+      "en": "Belfast Castle",
+      "de": "Belfast Schloss"
+    },
+    "latitude": 54.6113,
+    "longitude": -5.9263,
+    "description": {
+      "tr": "Belfast Kalesi, şehri yüksek bir noktadan görebileceğiniz tarihi bir yapıdır. 19. yüzyılda inşa edilmiş olan bu kale, görkemli mimarisi ve çevresindeki parklarla ünlüdür. Ziyaretçiler, kalenin içinde tarihi sergileri gezebilir, geniş bahçelerinde yürüyüş yapabilir ve şehrin muazzam manzarasını izleyebilirler. Ayrıca, kalede çeşitli etkinlikler ve konserler de düzenlenmektedir.",
+      "en": "Belfast Castle is a historic structure perched on a hill with panoramic views of the city. Built in the 19th century, the castle is renowned for its grand architecture and surrounding parklands. Visitors can explore historical exhibits inside the castle, take walks in the expansive gardens, and enjoy spectacular views of Belfast. The castle also hosts various events and concerts throughout the year.",
+      "de": "Das Belfast Castle ist eine historische Struktur, die auf einem Hügel mit Panoramablick auf die Stadt thront. Das im 19. Jahrhundert erbaute Schloss ist bekannt für seine prächtige Architektur und die umliegenden Parkanlagen. Besucher können historische Ausstellungen im Schloss besichtigen, in den weitläufigen Gärten spazieren gehen und spektakuläre Ausblicke auf Belfast genießen. Das Schloss veranstaltet auch verschiedene Events und Konzerte im Laufe des Jahres."
+    },
+    "activities": {
+      "tr": [
+        "Kale içindeki tarihi sergileri gezmek",
+        "Bahçelerde yürüyüş yapmak",
+        "Belfast manzarasında fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring historical exhibits inside the castle",
+        "Walking through the gardens",
+        "Taking photos of the Belfast cityscape"
+      ],
+      "de": [
+        "Historische Ausstellungen im Schloss erkunden",
+        "Durch die Gärten spazieren",
+        "Fotos von der Stadt Belfast machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/belfast_castle_1.jpg",
+      "https://example.com/belfast_castle_2.jpg"
+    ]
+  }
+]

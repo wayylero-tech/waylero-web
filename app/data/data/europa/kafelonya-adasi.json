@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "melissani-magarasi",
+    "name": {
+      "tr": "Melissani Mağarası",
+      "en": "Melissani Cave",
+      "de": "Melissani Höhle"
+    },
+    "latitude": 38.3083,
+    "longitude": 20.5994,
+    "description": {
+      "tr": "**Melissani Mağarası**, **Yunanistan’ın Kefalonya Adası**'nda bulunan etkileyici bir mağaradır. Bu mağara, **sıcak su göleti** ile ünlüdür ve ziyaretçilere büyüleyici bir deneyim sunar. İçerideki suyun rengi, güneş ışınlarının mağaraya girmesiyle turkuaz renge bürünür, bu da mağarayı oldukça mistik ve büyüleyici kılar.\n\nMelissani Mağarası, özellikle tekne turları ile ziyaret edilir. Ziyaretçiler, mağaranın içinde kürek çekilen teknelerle gezerek mağaranın içindeki doğal güzellikleri keşfeder. Ayrıca, mağaranın üst kısmında bir açık alan bulunur ve burada da keşif yapılabilir.\n",
+      "en": "**Melissani Cave** is an impressive cave located on **Kefalonia Island, Greece**. The cave is famous for its **warm water lake**, offering visitors a mesmerizing experience. The water inside the cave turns turquoise when sunlight penetrates the cave, creating a magical and captivating scene.\n\nMelissani Cave is typically explored by boat, where visitors take rowing boat tours inside the cave to explore its natural beauty. There is also an open area at the top of the cave where further exploration can be done.\n",
+      "de": "**Melissani Höhle** ist eine beeindruckende Höhle auf der **Insel Kefalonia, Griechenland**. Die Höhle ist berühmt für ihren **warmen Wassersee**, der den Besuchern ein faszinierendes Erlebnis bietet. Das Wasser in der Höhle wird türkisfarben, wenn Sonnenlicht in die Höhle eindringt, was die Höhle zu einem magischen und bezaubernden Ort macht.\n\nDie Melissani Höhle wird normalerweise mit dem Boot erkundet. Besucher nehmen an Ruderboot-Touren teil, um die natürliche Schönheit der Höhle zu entdecken. Es gibt auch einen offenen Bereich an der Oberseite der Höhle, der weiter erforscht werden kann.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tekneyle mağara gezisi yapmak",
+        "Mağara içindeki doğal güzellikleri keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Take a boat tour inside the cave",
+        "Explore the natural beauty of the cave",
+        "Take photographs"
+      ],
+      "de": [
+        "Bootstour in der Höhle machen",
+        "Die natürliche Schönheit der Höhle erkunden",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/melissani_cave_1.jpg",
+      "https://example.com/melissani_cave_2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "udaipur",
+    "name": {
+      "tr": "Udaipur",
+      "en": "Udaipur",
+      "de": "Udaipur"
+    },
+    "latitude": 24.5854,
+    "longitude": 73.7125,
+    "description": {
+      "tr": "Udaipur, Hindistan’ın en romantik şehirlerinden biri olarak bilinir. Göl Sarayı ve City Palace gibi tarihi yapılarıyla ünlüdür.",
+      "en": "Udaipur is known as one of the most romantic cities in India. It is famous for its historical structures like the Lake Palace and City Palace.",
+      "de": "Udaipur ist als eine der romantischsten Städte Indiens bekannt. Es ist berühmt für historische Bauwerke wie den Lake Palace und den City Palace."
+    },
+    "activities": {
+      "tr": [
+        "Lake Palace'i ziyaret etmek ",
+        "  City Palace'i gezmek",
+        "Göl etrafında tekne turu"
+      ],
+      "en": [
+        "Visit the Lake Palace",
+        "Explore the City Palace",
+        "Boat ride around the lake"
+      ],
+      "de": [
+        "Besuch des Lake Palace",
+        "Erkundung des City Palace",
+        "Bootsfahrt rund um den See"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/udaipur.jpg"
+    ]
+  },
+  {
+    "slug": "city-palace",
+    "name": {
+      "tr": "City Palace",
+      "en": "City Palace",
+      "de": "City Palace"
+    },
+    "latitude": 24.5857,
+    "longitude": 73.712,
+    "description": {
+      "tr": "City Palace, Udaipur’un en büyük ve en etkileyici yapılarından biridir. Sarayın görkemli odaları ve gölet manzarası büyüleyicidir.",
+      "en": "City Palace is one of the largest and most impressive structures in Udaipur. The grand rooms and the lake view are mesmerizing.",
+      "de": "Der City Palace ist eines der größten und beeindruckendsten Gebäude in Udaipur. Die prächtigen Räume und der Blick auf den See sind faszinierend."
+    },
+    "activities": {
+      "tr": [
+        "Saray turu",
+        "Göl manzarasında yürüyüş"
+      ],
+      "en": [
+        "Palace tour",
+        "Walk along the lake view"
+      ],
+      "de": [
+        "Palasttour",
+        "Spaziergang mit Seeblick"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/city_palace.jpg"
+    ]
+  },
+  {
+    "slug": "lake-palace",
+    "name": {
+      "tr": "Lake Palace",
+      "en": "Lake Palace",
+      "de": "Lake Palace"
+    },
+    "latitude": 24.5852,
+    "longitude": 73.7117,
+    "description": {
+      "tr": "Lake Palace, Pichola Gölü üzerinde yer alan bir saraydır. Bu tarihi yapı, Udaipur’un simgelerinden biridir.",
+      "en": "Lake Palace is a palace situated on Lake Pichola. This historic building is one of the landmarks of Udaipur.",
+      "de": "Der Lake Palace ist ein Palast, der auf dem Pichola-See liegt. Dieses historische Gebäude ist eines der Wahrzeichen von Udaipur."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu ile sarayı görmek",
+        "Göl etrafında yürüyüş"
+      ],
+      "en": [
+        "Take a boat tour to see the palace",
+        "Walk around the lake"
+      ],
+      "de": [
+        "Bootstour zum Palast",
+        "Spaziergang rund um den See"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_palace.jpg"
+    ]
+  },
+  {
+    "slug": "jagdish-temple",
+    "name": {
+      "tr": "Jagdish Temple",
+      "en": "Jagdish Temple",
+      "de": "Jagdish Tempel"
+    },
+    "latitude": 24.5859,
+    "longitude": 73.7128,
+    "description": {
+      "tr": "Jagdish Tapınağı, Udaipur’daki en önemli Hindu tapınaklarından biridir. Tapınak, etkileyici taş işçiliği ve dini heykelleri ile ünlüdür.",
+      "en": "Jagdish Temple is one of the most important Hindu temples in Udaipur. The temple is famous for its impressive stone carvings and religious statues.",
+      "de": "Der Jagdish-Tempel ist einer der wichtigsten Hindu-Tempel in Udaipur. Der Tempel ist berühmt für seine beeindruckenden Steinmetzarbeiten und religiösen Statuen."
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyaretleri",
+        "Taş işçiliğini incelemek"
+      ],
+      "en": [
+        "Temple visits",
+        "Admire the stone carvings"
+      ],
+      "de": [
+        "Tempelbesuche",
+        "Bestaunen Sie die Steinmetzarbeiten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/jagdish_temple.jpg"
+    ]
+  },
+  {
+    "slug": "saheliyon-ki-bari",
+    "name": {
+      "tr": "Saheliyon-ki-Bari",
+      "en": "Saheliyon-ki-Bari",
+      "de": "Saheliyon-ki-Bari"
+    },
+    "latitude": 24.585,
+    "longitude": 73.7141,
+    "description": {
+      "tr": "Saheliyon-ki-Bari, Udaipur’daki tarihi bir bahçedir. Bu bahçe, Mughal tarzı tasarımı ve su fıskiyeleriyle ünlüdür.",
+      "en": "Saheliyon-ki-Bari is a historic garden in Udaipur. The garden is famous for its Mughal-style design and water fountains.",
+      "de": "Saheliyon-ki-Bari ist ein historischer Garten in Udaipur. Der Garten ist bekannt für sein Mughal-Stil-Design und die Wasserbrunnen."
+    },
+    "activities": {
+      "tr": [
+        "Bahçede yürüyüş yapmak",
+        "Su fıskiyelerini izlemek"
+      ],
+      "en": [
+        "Take a walk in the garden",
+        "Admire the water fountains"
+      ],
+      "de": [
+        "Spaziergang im Garten",
+        "Die Wasserbrunnen bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/saheliyon_ki_bari.jpg"
+    ]
+  }
+]

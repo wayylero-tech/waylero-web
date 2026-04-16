@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "spanish-arch",
+    "name": {
+      "tr": "Spanish Arch",
+      "en": "Spanish Arch",
+      "de": "Spanish Arch"
+    },
+    "latitude": 53.27,
+    "longitude": -9.0515,
+    "description": {
+      "tr": "Galway'ın tarihi bölgesinde yer alan Spanish Arch, 16. yüzyıldan kalma bir yapıdır. İspanyol tüccarlarının gemilerinin yüklerini burada boşaltmaları nedeniyle bu ismi almıştır. Arch, Galway'ın eski şehir duvarlarının bir parçasıydı ve bugün, Galway'ın liman bölgesinde yürüyüş yaparak tarihi atmosferi hissetmek mümkündür. Bu bölge, turistler için popüler bir gezi noktasıdır.",
+      "en": "Located in the historic area of Galway, Spanish Arch is a structure dating back to the 16th century. It got its name because Spanish merchants unloaded their goods here. The arch was part of the old city walls of Galway, and today visitors can stroll through the harbor area and feel the historical atmosphere. This area is a popular spot for tourists.",
+      "de": "Der Spanish Arch, im historischen Teil von Galway gelegen, ist eine Struktur aus dem 16. Jahrhundert. Er erhielt seinen Namen, weil spanische Händler hier ihre Waren entluden. Der Bogen war ein Teil der alten Stadtmauern von Galway, und heute können Besucher im Hafenbereich spazieren gehen und die historische Atmosphäre spüren. Diese Gegend ist ein beliebter Ort für Touristen."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıyı görmek",
+        "Galway limanını gezmek",
+        "Galway’ın tarihini keşfetmek"
+      ],
+      "en": [
+        "Seeing the historical structure",
+        "Strolling around Galway harbor",
+        "Exploring the history of Galway"
+      ],
+      "de": [
+        "Die historische Struktur sehen",
+        "Im Hafen von Galway spazieren gehen",
+        "Die Geschichte von Galway erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/spanish_arch_1.jpg",
+      "https://example.com/spanish_arch_2.jpg"
+    ]
+  },
+  {
+    "slug": "eyre-meydani",
+    "name": {
+      "tr": "Eyre Meydanı",
+      "en": "Eyre Square",
+      "de": "Eyre Platz"
+    },
+    "latitude": 53.2705,
+    "longitude": -9.05,
+    "description": {
+      "tr": "Eyre Meydanı, Galway şehir merkezinde bulunan büyük bir meydandır. Şehirdeki en önemli meydanlardan biri olan bu alan, alışveriş caddelerine, kafelere ve restoranlara yakın konumuyla oldukça popülerdir. Meydanda, Galway'ın tarihini simgeleyen anıtlar ve heykeller bulunmaktadır. Ayrıca, Eyre Meydanı, şehirdeki sosyal hayatın merkezi olarak bilinir.",
+      "en": "Eyre Square is a large square located in the heart of Galway city. One of the most important squares in the city, it is popular for its proximity to shopping streets, cafes, and restaurants. The square features monuments and statues symbolizing the history of Galway. It is also known as the social hub of the city.",
+      "de": "Der Eyre Platz ist ein großer Platz im Herzen der Stadt Galway. Einer der wichtigsten Plätze der Stadt, der aufgrund seiner Nähe zu Einkaufsstraßen, Cafés und Restaurants sehr beliebt ist. Der Platz verfügt über Denkmäler und Statuen, die die Geschichte von Galway symbolisieren. Er ist auch als das soziale Zentrum der Stadt bekannt."
+    },
+    "activities": {
+      "tr": [
+        "Meydanı gezmek",
+        "Alışveriş yapmak",
+        "Kafelerde oturmak"
+      ],
+      "en": [
+        "Exploring the square",
+        "Shopping",
+        "Sitting at cafes"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "Einkaufen",
+        "In Cafés sitzen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/eyre_square_1.jpg",
+      "https://example.com/eyre_square_2.jpg"
+    ]
+  },
+  {
+    "slug": "connemara-ulusal-parki",
+    "name": {
+      "tr": "Connemara Ulusal Parkı",
+      "en": "Connemara National Park",
+      "de": "Connemara Nationalpark"
+    },
+    "latitude": 53.498,
+    "longitude": -9.943,
+    "description": {
+      "tr": "Connemara Ulusal Parkı, İrlanda'nın batısında, Galway yakınlarında yer alır. Yüksek dağlar, geniş yeşil alanlar, bataklıklar ve göllerle dolu bu park, doğa severler için mükemmel bir yerdir. Parkta, yürüyüş parkurları, vahşi yaşam gözlemleri ve fotoğraf çekme imkanları sunulmaktadır. Ziyaretçiler, bölgenin doğal güzelliklerinin tadını çıkarabilir ve bölgedeki tarihî alanları keşfedebilirler.",
+      "en": "Connemara National Park, located in the west of Ireland near Galway, is filled with high mountains, vast green fields, bogs, and lakes. It is a perfect spot for nature lovers. The park offers hiking trails, wildlife observation opportunities, and great photo opportunities. Visitors can enjoy the region’s natural beauty and explore historical sites in the area.",
+      "de": "Der Connemara Nationalpark, im Westen Irlands nahe Galway gelegen, ist mit hohen Bergen, weiten grünen Feldern, Mooren und Seen bedeckt. Es ist ein perfekter Ort für Naturliebhaber. Der Park bietet Wanderwege, Möglichkeiten zur Beobachtung von Wildtieren und großartige Fotomöglichkeiten. Besucher können die natürliche Schönheit der Region genießen und historische Stätten in der Umgebung erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapmak",
+        "Vahşi yaşamı gözlemlemek",
+        "Bölgenin doğal güzelliklerini keşfetmek"
+      ],
+      "en": [
+        "Hiking in nature",
+        "Observing wildlife",
+        "Exploring the natural beauty of the area"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Wildtiere beobachten",
+        "Die natürliche Schönheit der Region erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/connemara_national_park_1.jpg",
+      "https://example.com/connemara_national_park_2.jpg"
+    ]
+  },
+  {
+    "slug": "kylemore-manastiri",
+    "name": {
+      "tr": "Kylemore Manastırı",
+      "en": "Kylemore Abbey",
+      "de": "Kylemore Abtei"
+    },
+    "latitude": 53.4811,
+    "longitude": -9.778,
+    "description": {
+      "tr": "Kylemore Manastırı, Connemara Ulusal Parkı'nın yakınlarında, muazzam bir gölün kenarında yer alan tarihi bir yapıdır. 1868 yılında inşa edilen manastır, Gotik Revival tarzında inşa edilmiştir ve çevresindeki doğal güzellikleri ile dikkat çekmektedir. Manastırda, tarihi bahçeler ve kısmi olarak restore edilmiş iç mekanlar bulunmaktadır. Ziyaretçiler, Kylemore Manastırı’nın zengin tarihini keşfedebilir ve etrafındaki muazzam doğa manzaralarını izleyebilirler.",
+      "en": "Kylemore Abbey, located near Connemara National Park by a magnificent lake, is a historic building constructed in 1868. Built in the Gothic Revival style, the abbey is noted for its stunning natural surroundings. The abbey includes historical gardens and partially restored interiors. Visitors can explore the rich history of Kylemore Abbey and enjoy the breathtaking natural scenery around it.",
+      "de": "Die Kylemore Abtei, in der Nähe des Connemara Nationalparks an einem prächtigen See gelegen, ist ein historisches Gebäude, das 1868 erbaut wurde. Im gotischen Revival-Stil erbaut, ist die Abtei bekannt für ihre atemberaubende natürliche Umgebung. Die Abtei umfasst historische Gärten und teilweise restaurierte Innenräume. Besucher können die reiche Geschichte der Kylemore Abtei erkunden und die atemberaubende Natur rundherum genießen."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezmek",
+        "Bahçeleri keşfetmek",
+        "Doğa manzaralarını izlemek"
+      ],
+      "en": [
+        "Exploring the abbey",
+        "Discovering the gardens",
+        "Enjoying the scenic views"
+      ],
+      "de": [
+        "Die Abtei erkunden",
+        "Die Gärten entdecken",
+        "Die landschaftlichen Ausblicke genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kylemore_abbey_1.jpg",
+      "https://example.com/kylemore_abbey_2.jpg"
+    ]
+  }
+]

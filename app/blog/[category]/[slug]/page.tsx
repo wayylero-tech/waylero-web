@@ -60,9 +60,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { category, slug } = await params;
   
-  // 🟢 DEBUG LOG 1: Gelen parametreleri kontrol edelim
-  console.log(`🔎 [Metadata Sorgusu] Kategori: ${category} | Slug: ${slug}`);
-
   // Postu bulalım (Case-insensitive: Büyük/küçük harf duyarlılığını ortadan kaldırdık)
   const post = posts.find((p) => 
     p.city.toLowerCase() === category.toLowerCase() && 
@@ -84,8 +81,6 @@ export async function generateMetadata({
   const titleText = (typeof postAny.title === "object" ? postAny.title["tr"] : postAny.title) 
                     || "Gezi Rehberi";
   
-  console.log(`✅ [Metadata Başarı] Bulunan Başlık: ${titleText}`);
-
   // Açıklama (SEO -> Excerpt -> Description)
   let descriptionText = postAny.seo?.description || 
     (typeof postAny.excerpt === "object" ? postAny.excerpt["tr"] : postAny.excerpt) ||

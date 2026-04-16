@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "australian-war-memorial",
+    "name": {
+      "tr": "Australian War Memorial",
+      "en": "Australian War Memorial",
+      "de": "Australian War Memorial"
+    },
+    "latitude": -35.3075,
+    "longitude": 149.1244,
+    "description": {
+      "tr": "Australian War Memorial, Avustralya’nın savaş tarihi hakkında önemli bilgiler sunan bir müze ve anıt kompleksidir. Ziyaretçiler burada Avustralya’nın askeri geçmişini öğrenebilir ve savaş kahramanlarını anabilirler.",
+      "en": "The Australian War Memorial is a significant museum and monument complex dedicated to Australia’s war history. Visitors can learn about the country’s military past and honor its war heroes.",
+      "de": "Das Australian War Memorial ist ein bedeutendes Museum und Denkmal, das der Kriegsgeschichte Australiens gewidmet ist. Besucher können mehr über die militärische Vergangenheit des Landes erfahren und seine Kriegsgeschichten ehren."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşfetmek",
+        "Anıtları gezmek",
+        "Savaş müzesini ziyaret etmek"
+      ],
+      "en": [
+        "Exploring history",
+        "Visiting memorials",
+        "Visiting the war museum"
+      ],
+      "de": [
+        "Die Geschichte entdecken",
+        "Den Denkmälern besuchen",
+        "Das Kriegsmuseum besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/australian_war_memorial.jpg"
+    ]
+  },
+  {
+    "slug": "parliament-house",
+    "name": {
+      "tr": "Parliament House",
+      "en": "Parliament House",
+      "de": "Parliament House"
+    },
+    "latitude": -35.3067,
+    "longitude": 149.1245,
+    "description": {
+      "tr": "Parliament House, Avustralya hükümetinin çalıştığı modern bir yapıdır. Şehirdeki en önemli simgelerden biridir ve burada hükümetin faaliyetlerine dair bilgi alabilirsiniz.",
+      "en": "Parliament House is a modern building where the Australian government conducts its operations. It is one of the most iconic landmarks in the city and offers insights into the workings of the government.",
+      "de": "Das Parliament House ist ein modernes Gebäude, in dem die australische Regierung ihre Aktivitäten durchführt. Es ist eines der bekanntesten Wahrzeichen der Stadt und bietet Einblicke in die Arbeit der Regierung."
+    },
+    "activities": {
+      "tr": [
+        "Hükümet binasını gezmek",
+        "Tarihi bilgileri öğrenmek",
+        "Avustralya siyaseti hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Visiting the government building",
+        "Learning historical facts",
+        "Gaining insight into Australian politics"
+      ],
+      "de": [
+        "Das Regierungsgebäude besuchen",
+        "Historische Fakten lernen",
+        "Einblicke in die australische Politik gewinnen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/parliament_house.jpg"
+    ]
+  },
+  {
+    "slug": "national-gallery-of-australia",
+    "name": {
+      "tr": "National Gallery of Australia",
+      "en": "National Gallery of Australia",
+      "de": "National Gallery of Australia"
+    },
+    "latitude": -35.305,
+    "longitude": 149.124,
+    "description": {
+      "tr": "National Gallery of Australia, Avustralya’nın en büyük sanat galerilerinden biridir. Zengin koleksiyonu, dünya çapında önemli sanat eserlerini ve Avustralya sanatını içerir.",
+      "en": "The National Gallery of Australia is one of the country’s largest art galleries. Its extensive collection includes significant artworks from around the world and Australian art.",
+      "de": "Die National Gallery of Australia ist eine der größten Kunstgalerien des Landes. Ihre umfangreiche Sammlung umfasst bedeutende Kunstwerke aus der ganzen Welt sowie australische Kunst."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini görmek",
+        "Müzeyi gezmek",
+        "Avustralya sanatını keşfetmek"
+      ],
+      "en": [
+        "Viewing artworks",
+        "Visiting the museum",
+        "Exploring Australian art"
+      ],
+      "de": [
+        "Kunstwerke ansehen",
+        "Das Museum besuchen",
+        "Australische Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/national_gallery_of_australia.jpg"
+    ]
+  },
+  {
+    "slug": "lake-burley-griffin",
+    "name": {
+      "tr": "Lake Burley Griffin",
+      "en": "Lake Burley Griffin",
+      "de": "Lake Burley Griffin"
+    },
+    "latitude": -35.3075,
+    "longitude": 149.1261,
+    "description": {
+      "tr": "Lake Burley Griffin, Canberra şehir merkezinde yer alan büyük yapay bir gölettir. Etrafında yürüyüş yapabileceğiniz güzel alanlar bulunur ve bu gölet şehre sakin bir atmosfer sunar.",
+      "en": "Lake Burley Griffin is a large artificial lake located in the heart of Canberra. It offers beautiful walking areas around it and provides a peaceful atmosphere to the city.",
+      "de": "Der Lake Burley Griffin ist ein großer künstlicher See im Herzen von Canberra. Es bietet schöne Spazierwege und vermittelt der Stadt eine ruhige Atmosphäre."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Gölet etrafında bisiklete binmek",
+        "Manzaranın tadını çıkarmak"
+      ],
+      "en": [
+        "Walking",
+        "Cycling around the lake",
+        "Enjoying the view"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Radfahren um den See",
+        "Den Ausblick genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_burley_griffin.jpg"
+    ]
+  },
+  {
+    "slug": "mount-ainslie",
+    "name": {
+      "tr": "Mount Ainslie",
+      "en": "Mount Ainslie",
+      "de": "Mount Ainslie"
+    },
+    "latitude": -35.281,
+    "longitude": 149.1417,
+    "description": {
+      "tr": "Mount Ainslie, Canberra’yı yüksekten görebileceğiniz harika bir dağdır. Zirveye tırmanarak, şehri panoramik bir şekilde izleyebilirsiniz.",
+      "en": "Mount Ainslie offers stunning views of Canberra from above. By hiking to the summit, visitors can enjoy panoramic views of the city.",
+      "de": "Der Mount Ainslie bietet einen atemberaubenden Blick auf Canberra von oben. Wenn Sie den Gipfel erklimmen, können Sie die Stadt in Panoramaansicht genießen."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Dağ manzaralarını izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Hiking",
+        "Enjoying mountain views",
+        "Taking photos"
+      ],
+      "de": [
+        "Wandern",
+        "Bergblick genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_ainslie.jpg"
+    ]
+  }
+]

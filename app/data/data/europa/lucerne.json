@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "kapellbrucke-chapel-bridge",
+    "name": {
+      "tr": "Kapellbrücke (Chapel Bridge)",
+      "en": "Kapellbrücke (Chapel Bridge)",
+      "de": "Kapellbrücke (Kapellenbrücke)"
+    },
+    "latitude": 47.0502,
+    "longitude": 8.3093,
+    "description": {
+      "tr": "Kapellbrücke, Lucerne’nin simgesi haline gelmiş, 14. yüzyıldan kalma tarihi bir köprüdür.",
+      "en": "Kapellbrücke is a historic bridge from the 14th century, one of Lucerne’s iconic landmarks.",
+      "de": "Die Kapellbrücke ist eine historische Brücke aus dem 14. Jahrhundert und eines der Wahrzeichen von Luzern."
+    },
+    "activities": {
+      "tr": [
+        "Köprüyü gezmek",
+        "Tarihi resimleri incelemek"
+      ],
+      "en": [
+        "Explore the bridge",
+        "Examine the historical paintings"
+      ],
+      "de": [
+        "Die Brücke erkunden",
+        "Die historischen Gemälde betrachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kapellbrucke.jpg"
+    ]
+  },
+  {
+    "slug": "lion-monument",
+    "name": {
+      "tr": "Lion Monument",
+      "en": "Lion Monument",
+      "de": "Löwendenkmal"
+    },
+    "latitude": 47.0571,
+    "longitude": 8.3099,
+    "description": {
+      "tr": "Lion Monument, İsviçre'nin tarihine önemli bir anıt olup, 1792'deki Fransız Devrimi sırasında ölen İsviçreli muhafızlara adanmıştır.",
+      "en": "The Lion Monument is an important Swiss historical monument, dedicated to the Swiss Guards who died during the French Revolution of 1792.",
+      "de": "Das Löwendenkmal ist ein bedeutendes Schweizer Denkmal, das den Schweizer Gardisten gewidmet ist, die während der Französischen Revolution von 1792 starben."
+    },
+    "activities": {
+      "tr": [
+        "Anıtı görmek",
+        "Tarihi arka planı öğrenmek"
+      ],
+      "en": [
+        "See the monument",
+        "Learn about the historical background"
+      ],
+      "de": [
+        "Das Denkmal besichtigen",
+        "Den historischen Hintergrund lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/lion_monument.jpg"
+    ]
+  },
+  {
+    "slug": "lake-lucerne",
+    "name": {
+      "tr": "Lake Lucerne",
+      "en": "Lake Lucerne",
+      "de": "Vierwaldstättersee"
+    },
+    "latitude": 47.0505,
+    "longitude": 8.3097,
+    "description": {
+      "tr": "Lucerne Gölü, dağlarla çevrili muazzam bir doğa harikasıdır ve turistler için teknelerle geziler düzenlenmektedir.",
+      "en": "Lake Lucerne is a stunning natural lake surrounded by mountains, offering boat tours for visitors.",
+      "de": "Der Vierwaldstättersee ist ein atemberaubender Natursee, der von Bergen umgeben ist und Bootstouren für Besucher anbietet."
+    },
+    "activities": {
+      "tr": [
+        "Göl etrafında yürüyüş yapmak",
+        "Tekne turuna katılmak"
+      ],
+      "en": [
+        "Walk around the lake",
+        "Take a boat tour"
+      ],
+      "de": [
+        "Um den See spazieren gehen",
+        "Eine Bootstour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_lucerne.jpg"
+    ]
+  },
+  {
+    "slug": "musegg-wall",
+    "name": {
+      "tr": "Musegg Wall",
+      "en": "Musegg Wall",
+      "de": "Museggmauer"
+    },
+    "latitude": 47.0515,
+    "longitude": 8.3075,
+    "description": {
+      "tr": "Musegg Wall, Ortaçağ'dan kalma 9 kuleli bir şehir surudur. Şehirdeki en eski yapılar arasında yer alır.",
+      "en": "Musegg Wall is a medieval city wall with 9 towers, one of the oldest structures in the city.",
+      "de": "Die Museggmauer ist eine mittelalterliche Stadtmauer mit 9 Türmen, eine der ältesten Bauwerke der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Sur boyunca yürümek",
+        "Kuleleri görmek"
+      ],
+      "en": [
+        "Walk along the wall",
+        "See the towers"
+      ],
+      "de": [
+        "Entlang der Mauer gehen",
+        "Die Türme besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/musegg_wall.jpg"
+    ]
+  },
+  {
+    "slug": "richard-wagner-museum",
+    "name": {
+      "tr": "Richard Wagner Museum",
+      "en": "Richard Wagner Museum",
+      "de": "Richard Wagner Museum"
+    },
+    "latitude": 47.0387,
+    "longitude": 8.3098,
+    "description": {
+      "tr": "Richard Wagner Museum, ünlü Alman besteci Richard Wagner’ın hayatı ve eserlerine adanmış bir müzedir.",
+      "en": "The Richard Wagner Museum is dedicated to the life and works of the famous German composer Richard Wagner.",
+      "de": "Das Richard Wagner Museum ist dem Leben und den Werken des berühmten deutschen Komponisten Richard Wagner gewidmet."
+    },
+    "activities": {
+      "tr": [
+        "Wagner’ın eserlerini keşfetmek",
+        "Müze turu yapmak"
+      ],
+      "en": [
+        "Explore Wagner’s works",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Wagners Werke entdecken",
+        "Eine Museumstour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/wagner_museum.jpg"
+    ]
+  }
+]

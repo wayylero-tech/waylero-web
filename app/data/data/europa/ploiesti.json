@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "ploie-ti-tarihi-merkez",
+    "name": {
+      "tr": "Ploiești Tarihi Merkez",
+      "en": "Ploiești Old Town",
+      "de": "Ploiești Altstadt"
+    },
+    "latitude": 44.9384,
+    "longitude": 26.0303,
+    "description": {
+      "tr": "Ploiești, tarihi binaları ve eski sokakları ile ünlü bir şehirdir. Şehir merkezinde gezinerek bu tarihi atmosferi keşfedin.",
+      "en": "Ploiești is a city famous for its historic buildings and old streets. Explore the city center to experience its historical atmosphere.",
+      "de": "Ploiești ist eine Stadt, die für ihre historischen Gebäude und alten Straßen bekannt ist. Erkunden Sie das Stadtzentrum, um die historische Atmosphäre zu erleben."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi şehirde gezme",
+        "Eski binaları keşfetme"
+      ],
+      "en": [
+        "Explore the historic city",
+        "Discover the old buildings"
+      ],
+      "de": [
+        "Die historische Stadt erkunden",
+        "Die alten Gebäude entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/ploiesti_old_town.jpg"
+    ]
+  },
+  {
+    "slug": "muzeul-ceasului",
+    "name": {
+      "tr": "Muzeul Ceasului",
+      "en": "The Clock Museum",
+      "de": "Das Uhrmuseum"
+    },
+    "latitude": 44.9465,
+    "longitude": 26.0305,
+    "description": {
+      "tr": "Muzeul Ceasului, saat koleksiyonlarıyla ünlü bir müzedir ve Ploiești'nin tarihi hakkında bilgi edinmek için mükemmel bir yerdir.",
+      "en": "The Clock Museum is famous for its clock collections and is a great place to learn about the history of Ploiești.",
+      "de": "Das Uhrmuseum ist berühmt für seine Uhrensammlungen und ein großartiger Ort, um mehr über die Geschichte von Ploiești zu erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Saat koleksiyonlarını inceleme",
+        "Müzeyi gezme"
+      ],
+      "en": [
+        "Examine the clock collections",
+        "Tour the museum"
+      ],
+      "de": [
+        "Die Uhrensammlungen untersuchen",
+        "Das Museum besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/muzeul_ceasului.jpg"
+    ]
+  }
+]

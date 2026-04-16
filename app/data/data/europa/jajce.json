@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "jajce-selalesi",
+    "name": {
+      "tr": "Jajce Şelalesi",
+      "en": "Jajce Waterfall",
+      "de": "Jajce Wasserfall"
+    },
+    "latitude": 44.3373,
+    "longitude": 17.27107,
+    "description": {
+      "tr": "Jajce Şelalesi, Bosna-Hersek'in Jajce şehrinde bulunan doğal bir harikadır. Şelale, Pliva Nehri'nin kaynağından çıkarak, 20 metre yükseklikten dökülür ve etkileyici bir manzara sunar. Bu şelale, şehrin en önemli turistik cazibe merkezlerinden biridir ve çevresindeki doğa, ziyaretçilere huzurlu bir atmosfer sunar. Ziyaretçiler, şelale etrafında yürüyüş yapabilir, doğanın keyfini çıkarabilir veya fotoğraf çekebilirler. Jajce Şelalesi'nin etrafındaki alan, piknik yapmak ve doğa yürüyüşleri yapmak için oldukça popülerdir.\n",
+      "en": "The Jajce Waterfall is a natural wonder located in the city of Jajce, Bosnia and Herzegovina. The waterfall drops 20 meters from the source of the Pliva River, creating a stunning view. It is one of the most important tourist attractions in the city, and the surrounding nature offers a peaceful atmosphere for visitors. Visitors can walk around the waterfall, enjoy the natural surroundings, or take photographs. The area around the waterfall is also popular for picnics and nature walks.\n",
+      "de": "Der Jajce-Wasserfall ist ein Naturwunder in der Stadt Jajce, Bosnien und Herzegowina. Der Wasserfall stürzt 20 Meter vom Ursprung des Pliva-Flusses und bietet einen atemberaubenden Anblick. Er ist eine der wichtigsten Touristenattraktionen der Stadt, und die umliegende Natur bietet den Besuchern eine ruhige Atmosphäre. Besucher können rund um den Wasserfall spazieren gehen, die Natur genießen oder Fotos machen. Das Gebiet rund um den Wasserfall ist auch bei Spaziergängern und für Picknicks sehr beliebt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şelale etrafında yürüyüş yapmak",
+        "Fotoğraf çekmek",
+        "Piknik yapmak"
+      ],
+      "en": [
+        "Walking around the waterfall",
+        "Taking photos",
+        "Having a picnic"
+      ],
+      "de": [
+        "Spazieren rund um den Wasserfall",
+        "Fotos machen",
+        "Picknick machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/jajce_waterfall1.jpg",
+      "https://example.com/jajce_waterfall2.jpg"
+    ]
+  },
+  {
+    "slug": "pliva-selalesi",
+    "name": {
+      "tr": "Pliva Şelalesi",
+      "en": "Pliva Waterfall",
+      "de": "Pliva Wasserfall"
+    },
+    "latitude": 44.3379,
+    "longitude": 17.27044,
+    "description": {
+      "tr": "Pliva Şelalesi, Bosna-Hersek'in Jajce şehrine yakın bir konumda bulunan etkileyici bir doğa harikasıdır. Pliva Nehri'nin oluşturduğu bu şelale, yaklaşık 20 metrelik bir yükseklikten düşen suyun oluşturduğu görsel şölen ile ziyaretçilerini büyüler. Çevresindeki doğa, şelalenin güzelliğini pekiştirir ve burada doğa yürüyüşleri, fotoğrafçılık ve dinlenme gibi birçok aktivite yapılabilir. Pliva Şelalesi, bölgenin en tanınmış turistik yerlerinden biridir ve doğa severler için mükemmel bir kaçış noktasıdır.\n",
+      "en": "Pliva Waterfall is an impressive natural wonder located near the city of Jajce in Bosnia and Herzegovina. The waterfall is formed by the Pliva River and drops from a height of approximately 20 meters, creating a stunning visual spectacle. The surrounding nature enhances the beauty of the waterfall, making it an ideal spot for nature walks, photography, and relaxation. Pliva Waterfall is one of the most famous tourist attractions in the region and a perfect escape for nature enthusiasts.\n",
+      "de": "Der Pliva Wasserfall ist ein beeindruckendes Naturwunder in der Nähe der Stadt Jajce in Bosnien und Herzegowina. Der Wasserfall wird vom Fluss Pliva gespeist und fällt aus einer Höhe von etwa 20 Metern, was ein spektakuläres visuelles Erlebnis bietet. Die umliegende Natur verstärkt die Schönheit des Wasserfalls und macht ihn zu einem idealen Ort für Wanderungen, Fotografie und Entspannung. Der Pliva Wasserfall ist eine der bekanntesten Touristenattraktionen in der Region und ein perfekter Rückzugsort für Naturliebhaber.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Fotoğraf çekmek",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Hiking",
+        "Photography",
+        "Relaxing"
+      ],
+      "de": [
+        "Wandern",
+        "Fotografie",
+        "Entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/pliva_waterfall1.jpg",
+      "https://example.com/pliva_waterfall2.jpg"
+    ]
+  },
+  {
+    "slug": "pliva-golleri-ve-ahsap-degirmenler",
+    "name": {
+      "tr": "Pliva Gölleri ve Ahşap Değirmenler",
+      "en": "Pliva Lakes and Wooden Mills",
+      "de": "Pliva Seen und Holz Mühlen"
+    },
+    "latitude": 44.2324,
+    "longitude": 17.2711,
+    "description": {
+      "tr": "Pliva Gölleri, Jajce şehri yakınlarında bulunan iki büyük göldür. Göllerin etrafında güzel yürüyüş parkurları ve doğal alanlar bulunmaktadır. Pliva Gölleri'nin en ilgi çekici özelliklerinden biri, göllerin kenarında bulunan geleneksel ahşap değirmenlerdir. Bu değirmenler, yüzyıllar boyunca bölgenin su gücüyle çalışmış ve hala korunmaktadır. Ziyaretçiler gölleri gezebilir, bu tarihi değirmenlerin içine girebilir ve bölgenin eşsiz doğasında vakit geçirebilir. Pliva Gölleri çevresindeki doğal manzaralar, doğa fotoğrafçılığı için harika fırsatlar sunmaktadır.\n",
+      "en": "The Pliva Lakes are two large lakes located near the city of Jajce. The lakes are surrounded by beautiful hiking trails and natural areas. One of the most intriguing features of the Pliva Lakes is the traditional wooden mills located along the lakesides. These mills have been powered by the water of the lakes for centuries and are still preserved today. Visitors can explore the lakes, enter the historical mills, and spend time in the unique natural surroundings. The natural landscapes around the Pliva Lakes provide excellent opportunities for nature photography.\n",
+      "de": "Die Pliva-Seen sind zwei große Seen in der Nähe der Stadt Jajce. Die Seen sind von schönen Wanderwegen und natürlichen Gebieten umgeben. Eine der interessantesten Eigenschaften der Pliva-Seen sind die traditionellen Holzmühlen, die an den Ufern der Seen stehen. Diese Mühlen wurden über Jahrhunderte hinweg von der Wasserenergie der Seen betrieben und sind noch heute erhalten. Besucher können die Seen erkunden, die historischen Mühlen betreten und die einzigartige Natur genießen. Die natürlichen Landschaften rund um die Pliva-Seen bieten ausgezeichnete Möglichkeiten für Naturfotografie.\n"
+    },
+    "activities": {
+      "tr": [
+        "Göllerde yürüyüş yapmak",
+        "Ahşap değirmenleri gezmek",
+        "Doğa fotoğrafçılığı yapmak"
+      ],
+      "en": [
+        "Walking around the lakes",
+        "Exploring the wooden mills",
+        "Nature photography"
+      ],
+      "de": [
+        "Spazieren rund um die Seen",
+        "Die Holz Mühlen erkunden",
+        "Naturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/pliva_lakes1.jpg",
+      "https://example.com/pliva_lakes2.jpg"
+    ]
+  },
+  {
+    "slug": "jajce-kalesi",
+    "name": {
+      "tr": "Jajce Kalesi",
+      "en": "Jajce Fortress",
+      "de": "Festung Jajce"
+    },
+    "latitude": 44.34092,
+    "longitude": 17.2693,
+    "description": {
+      "tr": "Jajce Kalesi, şehrin en yüksek noktasında bulunan ve Orta Çağ'dan kalma bir yapıdır. Kale, Jajce'nin tarihi simgelerinden biri olarak, ziyaretçilere muazzam bir manzara sunar. Kaleden, şehrin ve çevresindeki dağların panoramik görünümünü izlemek mümkündür. Kale, 1463 yılında Osmanlılar tarafından fethedildikten sonra, Osmanlı döneminde çeşitli onarımlar geçirmiştir. Günümüzde kalenin bazı bölümleri restore edilmiştir ve gezilebilir. Ziyaretçiler, kale surlarında yürüyebilir ve Jajce'nin tarihi hakkında bilgi alabilirler.\n",
+      "en": "The Jajce Fortress is a medieval structure located at the highest point of the city. The fortress is one of Jajce's historical landmarks, offering visitors a stunning view. From the fortress, visitors can enjoy panoramic views of the city and the surrounding mountains. The fortress was captured by the Ottomans in 1463 and underwent several repairs during the Ottoman period. Today, parts of the fortress have been restored and are open for visitors. Visitors can walk along the fortress walls and learn about the history of Jajce.\n",
+      "de": "Die Festung Jajce ist eine mittelalterliche Struktur, die sich an der höchsten Stelle der Stadt befindet. Die Festung ist eines der historischen Wahrzeichen von Jajce und bietet den Besuchern einen atemberaubenden Ausblick. Von der Festung aus können Besucher den Panoramablick auf die Stadt und die umliegenden Berge genießen. Die Festung wurde 1463 von den Osmanen erobert und erlebte während der osmanischen Zeit mehrere Reparaturen. Heute wurden Teile der Festung restauriert und sind für Besucher zugänglich. Besucher können entlang der Festungsmauern spazieren und mehr über die Geschichte von Jajce erfahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale surlarında yürüyüş yapmak",
+        "Şehir manzarasını izlemek",
+        "Tarihi keşfetmek"
+      ],
+      "en": [
+        "Walking along the fortress walls",
+        "Enjoying the city view",
+        "Exploring the history"
+      ],
+      "de": [
+        "Spazieren entlang der Festungsmauern",
+        "Genießen des Stadtblicks",
+        "Die Geschichte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/jajce_fortress1.jpg",
+      "https://example.com/jajce_fortress2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "avignon-un-tarihi-merkezi-papalik-sarayi-piskoposluk-toplulugu-ve-avignon-koprusu",
+    "name": {
+      "tr": "Avignon'un Tarihi Merkezi: Papalık Sarayı, Piskoposluk Topluluğu ve Avignon Köprüsü",
+      "en": "Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge",
+      "de": "Historisches Zentrum von Avignon: Papstpalast, Bischöfliche Ensemble und Avignon Brücke"
+    },
+    "latitude": 43.95168,
+    "longitude": 4.80743,
+    "description": {
+      "tr": "Avignon'un tarihi merkezi, Papalık Sarayı ve Avignon Köprüsü gibi önemli yapılarıyla UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "The historic center of Avignon, with important sites such as the Papal Palace and Avignon Bridge, is listed as a UNESCO World Heritage site.",
+      "de": "Das historische Zentrum von Avignon, mit wichtigen Sehenswürdigkeiten wie dem Papstpalast und der Avignonbrücke, steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Papalık Sarayı'nı gezmek",
+        "Avignon Köprüsü'nü görmek"
+      ],
+      "en": [
+        "Visit the Papal Palace",
+        "See the Avignon Bridge"
+      ],
+      "de": [
+        "Den Papstpalast besichtigen",
+        "Die Avignonbrücke sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/avignon_palace_bridge.jpg"
+    ]
+  }
+]

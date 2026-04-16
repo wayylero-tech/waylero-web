@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "winchester-mystery-house",
+    "name": {
+      "tr": "Winchester Mystery House",
+      "en": "Winchester Mystery House",
+      "de": "Winchester Mystery House"
+    },
+    "latitude": 37.2958,
+    "longitude": -121.9762,
+    "description": {
+      "tr": "Winchester Mystery House, garip mimarisi ve efsanevi hikayeleriyle ünlüdür. Ziyaretçiler, binanın labirent gibi odalarını keşfederken, evin tarihine dair ilginç bilgiler edinebilirler.\n",
+      "en": "The Winchester Mystery House is famous for its strange architecture and legendary stories. Visitors can explore the maze-like rooms of the house and learn fascinating facts about its history.\n",
+      "de": "Das Winchester Mystery House ist berühmt für seine seltsame Architektur und legendären Geschichten. Besucher können die labyrinthartigen Räume des Hauses erkunden und interessante Fakten über seine Geschichte erfahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Evin gizemli odalarını keşfetmek",
+        "Tarihi hakkında bilgi edinmek",
+        "Winchester efsanesini öğrenmek"
+      ],
+      "en": [
+        "Explore the mysterious rooms",
+        "Learn about its history",
+        "Discover the Winchester legend"
+      ],
+      "de": [
+        "Die geheimen Räume erkunden",
+        "Mehr über die Geschichte erfahren",
+        "Die Winchester-Legende entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/winchester_mystery_house_image.jpg"
+    ]
+  },
+  {
+    "slug": "rosicrucian-egyptian-museum",
+    "name": {
+      "tr": "Rosicrucian Egyptian Museum",
+      "en": "Rosicrucian Egyptian Museum",
+      "de": "Rosicrucian Egyptian Museum"
+    },
+    "latitude": 37.308,
+    "longitude": -121.9345,
+    "description": {
+      "tr": "Rosicrucian Egyptian Museum, Eski Mısır medeniyetine ait birçok eseri barındıran bir müzedir. Ziyaretçiler, mumyaları, heykelleri ve diğer antik eserleri görebilirler.\n",
+      "en": "The Rosicrucian Egyptian Museum houses many artifacts from ancient Egyptian civilization. Visitors can see mummies, statues, and other ancient items.\n",
+      "de": "Das Rosicrucian Egyptian Museum beherbergt viele Artefakte aus der alten ägyptischen Zivilisation. Besucher können Mumien, Statuen und andere antike Gegenstände sehen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mumyaları görmek",
+        "Eski Mısır eserlerini keşfetmek",
+        "Müze turuna katılmak"
+      ],
+      "en": [
+        "See the mummies",
+        "Explore ancient Egyptian artifacts",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Mumien sehen",
+        "Antike ägyptische Artefakte entdecken",
+        "An einer Museumsführung teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/rosicrucian_egyptian_museum_image.jpg"
+    ]
+  }
+]

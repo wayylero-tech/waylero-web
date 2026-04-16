@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "breda-kalesi",
+    "name": {
+      "tr": "Breda Kalesi",
+      "en": "Breda Castle",
+      "de": "Breda Schloss"
+    },
+    "latitude": 51.5854,
+    "longitude": 4.7756,
+    "description": {
+      "tr": "Breda Kalesi, şehrin tarihi bir simgesidir. İçerisinde bir müze barındırır ve tarihe ilgi duyanlar için harika bir yerdir.",
+      "en": "Breda Castle is a historic landmark in the city, housing a museum and is a great place for history enthusiasts.",
+      "de": "Das Breda Schloss ist ein historisches Wahrzeichen der Stadt und beherbergt ein Museum, das für Geschichtsinteressierte ein toller Ort ist."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapma",
+        "Müzeyi gezme"
+      ],
+      "en": [
+        "Take a castle tour",
+        "Explore the museum"
+      ],
+      "de": [
+        "Schlossführung machen",
+        "Das Museum besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/breda_castle.jpg"
+    ]
+  },
+  {
+    "slug": "grote-kerk",
+    "name": {
+      "tr": "Grote Kerk",
+      "en": "Grote Kerk",
+      "de": "Grote Kerk"
+    },
+    "latitude": 51.5911,
+    "longitude": 4.7684,
+    "description": {
+      "tr": "Grote Kerk, Breda'nın en ünlü kilisesidir ve Gotik mimarisi ile dikkat çeker.",
+      "en": "Grote Kerk is Breda's most famous church, noted for its Gothic architecture.",
+      "de": "Die Grote Kerk ist die berühmteste Kirche von Breda und bekannt für ihre gotische Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin mimarisini inceleme",
+        "İç mekanda gezme"
+      ],
+      "en": [
+        "Examine the church's architecture",
+        "Explore the interior"
+      ],
+      "de": [
+        "Die Architektur der Kirche besichtigen",
+        "Das Innere erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "Kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/grote_kerk.jpg"
+    ]
+  }
+]

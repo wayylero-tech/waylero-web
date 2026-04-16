@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "tara-m-n-stirii",
+    "name": {
+      "tr": "Tara Mănăstirii",
+      "en": "Tara Mănăstirii",
+      "de": "Tara Mănăstirii"
+    },
+    "latitude": 47.1585,
+    "longitude": 27.6014,
+    "description": {
+      "tr": "Tara Mănăstirii, Iași'nin tarihi dini yapılarından biridir ve önemli bir manastırdır. Manastırın içi oldukça etkileyici ve sakin bir atmosfer sunar.",
+      "en": "Tara Mănăstirii is one of Iași's historical religious buildings and an important monastery. The interior of the monastery offers a serene and impressive atmosphere.",
+      "de": "Tara Mănăstirii ist eines der historischen religiösen Gebäude in Iași und ein wichtiges Kloster. Das Innere des Klosters bietet eine ruhige und beeindruckende Atmosphäre."
+    },
+    "activities": {
+      "tr": [
+        "Manastır turu yapma",
+        "Dini yapıları keşfetme"
+      ],
+      "en": [
+        "Take a tour of the monastery",
+        "Explore the religious buildings"
+      ],
+      "de": [
+        "Eine Tour durch das Kloster machen",
+        "Die religiösen Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/tara_mănăstirii.jpg"
+    ]
+  },
+  {
+    "slug": "palatul-culturii",
+    "name": {
+      "tr": "Palatul Culturii",
+      "en": "Palatul Culturii",
+      "de": "Palatul Culturii"
+    },
+    "latitude": 47.158,
+    "longitude": 27.601,
+    "description": {
+      "tr": "Palatul Culturii (Kültür Sarayı), Iași'nin en önemli kültürel yapılarından biridir ve bir dizi müze ve sanat galerisini barındırmaktadır.",
+      "en": "Palatul Culturii (The Palace of Culture) is one of Iași's most important cultural buildings, housing a series of museums and art galleries.",
+      "de": "Palatul Culturii (Der Kulturpalast) ist eines der wichtigsten Kulturgebäude in Iași und beherbergt eine Reihe von Museen und Kunstgalerien."
+    },
+    "activities": {
+      "tr": [
+        "Müzeleri ziyaret etme",
+        "Sanat galerilerini keşfetme"
+      ],
+      "en": [
+        "Visit the museums",
+        "Explore the art galleries"
+      ],
+      "de": [
+        "Die Museen besuchen",
+        "Die Kunstgalerien erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/palatul_culturii.jpg"
+    ]
+  }
+]

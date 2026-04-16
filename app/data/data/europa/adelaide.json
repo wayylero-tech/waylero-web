@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "adelaide-botanic-garden",
+    "name": {
+      "tr": "Adelaide Botanic Garden",
+      "en": "Adelaide Botanic Garden",
+      "de": "Adelaide Botanic Garden"
+    },
+    "latitude": -34.9178,
+    "longitude": 138.6066,
+    "description": {
+      "tr": "Adelaide Botanik Bahçesi, şehre yakın olan geniş bir alanda yerel bitki örtüsünü keşfetmek için mükemmel bir yerdir. Tropikal seralar, şelaleler ve çeşitli bitki türleri ile doludur.",
+      "en": "The Adelaide Botanic Garden is a wonderful place to explore local flora in a large area near the city. It features tropical conservatories, waterfalls, and a wide variety of plant species.",
+      "de": "Der Adelaide Botanic Garden ist ein wunderbarer Ort, um die lokale Flora in einem großen Gebiet in der Nähe der Stadt zu entdecken. Es gibt tropische Gewächshäuser, Wasserfälle und eine Vielzahl von Pflanzenarten."
+    },
+    "activities": {
+      "tr": [
+        "Bitki örtüsünü keşfetmek",
+        "Seralarda gezmek",
+        "Doğayla iç içe yürüyüş yapmak"
+      ],
+      "en": [
+        "Exploring the flora",
+        "Walking through the conservatories",
+        "Enjoying nature walks"
+      ],
+      "de": [
+        "Die Flora entdecken",
+        "Durch die Gewächshäuser gehen",
+        "Spaziergänge in der Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/adelaide_botanic_garden.jpg"
+    ]
+  },
+  {
+    "slug": "north-terrace",
+    "name": {
+      "tr": "North Terrace",
+      "en": "North Terrace",
+      "de": "North Terrace"
+    },
+    "latitude": -34.9279,
+    "longitude": 138.6011,
+    "description": {
+      "tr": "North Terrace, müzeler, kütüphaneler ve tarihi yapılarla dolu ünlü bir caddedir. Adelaide’nin kültürel ve tarihsel merkezlerinden biridir.",
+      "en": "North Terrace is a famous street filled with museums, libraries, and historic buildings. It is one of Adelaide’s cultural and historical hubs.",
+      "de": "Die North Terrace ist eine berühmte Straße, die mit Museen, Bibliotheken und historischen Gebäuden gesäumt ist. Sie ist eines der kulturellen und historischen Zentren von Adelaide."
+    },
+    "activities": {
+      "tr": [
+        "Müzeleri ziyaret etmek",
+        "Tarihi yapıları görmek",
+        "Kütüphaneleri gezmek"
+      ],
+      "en": [
+        "Visiting museums",
+        "Exploring historic buildings",
+        "Touring the libraries"
+      ],
+      "de": [
+        "Museen besuchen",
+        "Historische Gebäude erkunden",
+        "Die Bibliotheken besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/north_terrace.jpg"
+    ]
+  },
+  {
+    "slug": "kangaroo-island",
+    "name": {
+      "tr": "Kangaroo Island",
+      "en": "Kangaroo Island",
+      "de": "Kangaroo Island"
+    },
+    "latitude": -35.7073,
+    "longitude": 137.2264,
+    "description": {
+      "tr": "Kanguru Adası, doğal yaşamı ve muazzam doğal güzellikleriyle ünlüdür. Burada kangurular, koalalar ve diğer yerel hayvanları görebilir, doğayla iç içe vakit geçirebilirsiniz.",
+      "en": "Kangaroo Island is famous for its wildlife and stunning natural beauty. You can see kangaroos, koalas, and other native animals while spending time in nature.",
+      "de": "Kangaroo Island ist berühmt für seine Tierwelt und atemberaubende natürliche Schönheit. Hier können Sie Kängurus, Koalas und andere einheimische Tiere sehen und Zeit in der Natur verbringen."
+    },
+    "activities": {
+      "tr": [
+        "Koalalarla tanışmak",
+        "Kanguruları görmek",
+        "Doğayla iç içe vakit geçirmek"
+      ],
+      "en": [
+        "Meeting koalas",
+        "Seeing kangaroos",
+        "Spending time in nature"
+      ],
+      "de": [
+        "Koalas treffen",
+        "Kängurus sehen",
+        "Zeit in der Natur verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/kangaroo_island.jpg"
+    ]
+  },
+  {
+    "slug": "barossa-valley",
+    "name": {
+      "tr": "Barossa Valley",
+      "en": "Barossa Valley",
+      "de": "Barossa Valley"
+    },
+    "latitude": -34.5333,
+    "longitude": 138.9833,
+    "description": {
+      "tr": "Barossa Valley, şarap üretim bölgeleriyle ünlüdür ve bölgedeki şarap tadım turları ile bilinir. Ayrıca büyüleyici bağlar ve şarap imalathanelerine sahiptir.",
+      "en": "Barossa Valley is known for its wine production regions and famous wine tasting tours. It is home to charming vineyards and wineries.",
+      "de": "Das Barossa Valley ist bekannt für seine Weinbaugebiete und berühmte Weintouren. Es beherbergt charmante Weinberge und Weinkellereien."
+    },
+    "activities": {
+      "tr": [
+        "Şarap tadımı yapmak",
+        "Bağları gezmek",
+        "Şarap imalathanelerini görmek"
+      ],
+      "en": [
+        "Tasting wines",
+        "Touring the vineyards",
+        "Visiting the wineries"
+      ],
+      "de": [
+        "Wein probieren",
+        "Die Weinberge besichtigen",
+        "Die Weinkellereien besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/barossa_valley.jpg"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "nikko-tapinaklari",
+    "name": {
+      "tr": "Nikko Tapınakları",
+      "en": "Nikko Temples",
+      "de": "Nikko-Tempel"
+    },
+    "latitude": 36.5667,
+    "longitude": 139.7172,
+    "description": {
+      "tr": "Nikko, Japonya'nın tarihi ve dini anlamda en önemli bölgelerinden biridir. Nikko Tapınakları, UNESCO Dünya Mirası Listesi'nde yer alır ve zengin tarihi ile dikkat çeker. Nikko Toshogu Tapınağı, bu bölgedeki en ünlü tapınaktır ve Tokugawa Shogunluğu'nun kurucusu Ieyasu Tokugawa'nın anısına inşa edilmiştir.\n",
+      "en": "Nikko is one of Japan’s most historically and religiously significant areas. The Nikko temples are a UNESCO World Heritage site, known for their rich history. The Nikko Toshogu Shrine is the most famous, dedicated to Ieyasu Tokugawa, the founder of the Tokugawa Shogunate.\n",
+      "de": "Nikko ist eine der historisch und religiös bedeutendsten Regionen Japans. Die Nikko-Tempel gehören zum UNESCO-Weltkulturerbe und sind bekannt für ihre reiche Geschichte. Der Nikko-Toshogu-Schrein ist der bekannteste und wurde zu Ehren von Ieyasu Tokugawa, dem Gründer des Tokugawa-Shogunats, erbaut.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Tarih keşfi",
+        "Doğayla iç içe olma"
+      ],
+      "en": [
+        "Temple visit",
+        "History exploration",
+        "Nature immersion"
+      ],
+      "de": [
+        "Tempelbesuch",
+        "Erkundung der Geschichte",
+        "Eintauchen in die Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/nikko-temples.jpg"
+    ]
+  }
+]

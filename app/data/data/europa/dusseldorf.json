@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "konigsallee",
+    "name": {
+      "tr": "Königsallee",
+      "en": "Königsallee",
+      "de": "Königsallee"
+    },
+    "latitude": 51.2217,
+    "longitude": 6.7762,
+    "description": {
+      "tr": "Königsallee, Düsseldorf'un en ünlü alışveriş caddesidir. Şehirdeki en lüks markaların bulunduğu bir alışveriş caddesidir.",
+      "en": "Königsallee is Düsseldorf's most famous shopping street. It features the city's most luxurious brands.",
+      "de": "Die Königsallee ist die bekannteste Einkaufsstraße in Düsseldorf. Hier befinden sich die luxuriösesten Marken der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Lüks mağazaları gezme"
+      ],
+      "en": [
+        "Shopping",
+        "Explore luxury stores"
+      ],
+      "de": [
+        "Einkaufen",
+        "Luxusgeschäfte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/koenigsallee.jpg"
+    ]
+  },
+  {
+    "slug": "altstadt-eski-sehir",
+    "name": {
+      "tr": "Altstadt (Eski Şehir)",
+      "en": "Altstadt (Old Town)",
+      "de": "Altstadt (Alte Stadt)"
+    },
+    "latitude": 51.2211,
+    "longitude": 6.7769,
+    "description": {
+      "tr": "Altstadt, Düsseldorf'un tarihi merkezidir. Burası \"Dünyanın en uzun bara sahip caddesi\" olarak da bilinir.",
+      "en": "Altstadt is the historic center of Düsseldorf. It is also known as the \"longest bar street in the world.\"",
+      "de": "Die Altstadt ist das historische Zentrum von Düsseldorf. Sie ist auch bekannt als die \"längste Theke der Welt\"."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi sokaklarda gezme",
+        "Eski şehirde keşif yapma"
+      ],
+      "en": [
+        "Explore historic streets",
+        "Discover the old town"
+      ],
+      "de": [
+        "Historische Straßen erkunden",
+        "Die Altstadt entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/altstadt.jpg"
+    ]
+  }
+]

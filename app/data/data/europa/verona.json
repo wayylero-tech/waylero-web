@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "arena-di-verona",
+    "name": {
+      "tr": "Arena di Verona",
+      "en": "Arena di Verona",
+      "de": "Arena di Verona"
+    },
+    "latitude": 45.4383,
+    "longitude": 10.9918,
+    "description": {
+      "tr": "Arena di Verona, Roma İmparatorluğu'ndan kalma eski bir arenadır ve bugün hala konser ve tiyatro gösterileri düzenlenmektedir.",
+      "en": "The Arena di Verona is an ancient Roman amphitheater that still hosts concerts and theater performances today.",
+      "de": "Die Arena di Verona ist ein antikes römisches Amphitheater, das heute noch Konzerte und Theateraufführungen beherbergt."
+    },
+    "activities": {
+      "tr": [
+        "Arena içinde tur yapma",
+        "Konser veya tiyatro izleme"
+      ],
+      "en": [
+        "Tour the arena",
+        "Watch a concert or theater performance"
+      ],
+      "de": [
+        "Die Arena besichtigen",
+        "Ein Konzert oder Theaterstück ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/arena_di_verona.jpg"
+    ]
+  },
+  {
+    "slug": "julietin-evi",
+    "name": {
+      "tr": "Julietin Evi",
+      "en": "Juliet's House",
+      "de": "Juliets Haus"
+    },
+    "latitude": 45.438,
+    "longitude": 10.9927,
+    "description": {
+      "tr": "Juliet'in Evi, Shakespeare'in ünlü \"Romeo ve Juliet\" oyununda geçen Juliet'in evine ilham kaynağı olmuştur. Burada Juliet'in büstü ve balkonunu görebilirsiniz.",
+      "en": "Juliet's House is the inspiration for the house of Juliet in Shakespeare's famous play \"Romeo and Juliet\". You can see Juliet's statue and the balcony here.",
+      "de": "Juliets Haus ist die Inspiration für das Haus von Julia in Shakespeares berühmtem Stück \"Romeo und Julia\". Hier kann man Julias Statue und den Balkon sehen."
+    },
+    "activities": {
+      "tr": [
+        "Balkondan manzara izleme",
+        "Julietin büstüne dilek yazma"
+      ],
+      "en": [
+        "Admire the view from the balcony",
+        "Write a wish on Juliet's statue"
+      ],
+      "de": [
+        "Den Blick vom Balkon genießen",
+        "Einen Wunsch auf Julias Statue schreiben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/juliets_house.jpg"
+    ]
+  }
+]

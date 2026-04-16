@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "vizcaya-muzesi-ve-bahceleri",
+    "name": {
+      "tr": "Vizcaya Müzesi ve Bahçeleri",
+      "en": "Vizcaya Museum and Gardens",
+      "de": "Vizcaya Museum und Gärten"
+    },
+    "latitude": 25.7493,
+    "longitude": -80.2056,
+    "description": {
+      "tr": "Vizcaya Müzesi ve Bahçeleri, Miami'de yer alan tarihi bir malikâne ve geniş bir bahçeye sahiptir. 1916'da inşa edilen bu malikâne, İtalyan Rönesans tarzı mimarisiyle dikkat çeker ve sanat koleksiyonlarıyla ünlüdür.\n",
+      "en": "Vizcaya Museum and Gardens is a historic mansion and expansive garden located in Miami. Built in 1916, the mansion features Italian Renaissance-style architecture and is famous for its art collections.\n",
+      "de": "Das Vizcaya Museum und die Gärten ist ein historisches Herrenhaus und ein weitläufiger Garten in Miami. Das 1916 erbaute Herrenhaus besticht durch seine Architektur im italienischen Renaissance-Stil und ist berühmt für seine Kunstsammlungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müzeyi gezmek",
+        "Bahçelerde yürüyüş yapmak",
+        "Sanat koleksiyonlarını incelemek"
+      ],
+      "en": [
+        "Tour the museum",
+        "Walk through the gardens",
+        "Explore the art collections"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Durch die Gärten spazieren",
+        "Die Kunstsammlungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/vizcaya_museum_image.jpg"
+    ]
+  },
+  {
+    "slug": "miami-sahili",
+    "name": {
+      "tr": "Miami Sahili",
+      "en": "Miami Beach",
+      "de": "Miami Strand"
+    },
+    "latitude": 25.7617,
+    "longitude": -80.1918,
+    "description": {
+      "tr": "Miami Sahili, dünyaca ünlü bir tatil beldesidir. Yüksek binaları, lüks otelleri ve güzel plajları ile Miami'nin en tanınmış bölgesidir. Ziyaretçiler burada denizin tadını çıkarabilir, güneşlenebilir ve su sporları yapabilirler.\n",
+      "en": "Miami Beach is a world-famous vacation destination. Known for its high-rise buildings, luxury hotels, and beautiful beaches, it is the most famous area in Miami. Visitors can enjoy the ocean, sunbathe, and partake in water sports.\n",
+      "de": "Miami Beach ist ein weltbekanntes Urlaubsziel. Bekannt für seine Hochhäuser, Luxus-Hotels und schönen Strände ist es das bekannteste Gebiet in Miami. Besucher können den Ozean genießen, sich sonnen und Wassersport betreiben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Su sporları yapmak",
+        "Deniz kenarında yürüyüş yapmak"
+      ],
+      "en": [
+        "Relax on the beach",
+        "Engage in water sports",
+        "Take a walk along the shore"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Wassersport betreiben",
+        "Am Ufer spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/miami_beach_image.jpg"
+    ]
+  },
+  {
+    "slug": "little-havana",
+    "name": {
+      "tr": "Little Havana",
+      "en": "Little Havana",
+      "de": "Little Havana"
+    },
+    "latitude": 25.7616,
+    "longitude": -80.192,
+    "description": {
+      "tr": "Little Havana, Miami'nin Küba kültürünü yaşatan ünlü bir semttir. Küba mutfağını, müziğini ve dansını deneyimleyebileceğiniz bu bölgede yürüyüş yaparken otantik pazarları ve renkli binaları görebilirsiniz.\n",
+      "en": "Little Havana is a famous neighborhood in Miami that celebrates Cuban culture. Here, visitors can experience Cuban cuisine, music, and dance, while walking through vibrant markets and colorful buildings.\n",
+      "de": "Little Havana ist ein berühmtes Viertel in Miami, das die kubanische Kultur feiert. Hier können Besucher kubanische Küche, Musik und Tanz erleben, während sie durch lebendige Märkte und bunte Gebäude spazieren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Küba mutfağını tatmak",
+        "Canlı müzik dinlemek",
+        "Renkli pazarları gezmek"
+      ],
+      "en": [
+        "Taste Cuban cuisine",
+        "Listen to live music",
+        "Explore vibrant markets"
+      ],
+      "de": [
+        "Kubanische Küche probieren",
+        "Live-Musik hören",
+        "Lebendige Märkte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/little_havana_image.jpg"
+    ]
+  },
+  {
+    "slug": "miami-seaquarium",
+    "name": {
+      "tr": "Miami Seaquarium",
+      "en": "Miami Seaquarium",
+      "de": "Miami Seaquarium"
+    },
+    "latitude": 25.7514,
+    "longitude": -80.1203,
+    "description": {
+      "tr": "Miami Seaquarium, okyanus yaşamı hakkında bilgi edinmek isteyenler için harika bir yerdir. Dalgıç gösterileri ve deniz aslanları gibi eğlenceli etkinlikler sunan bu akvaryum, çocuklar için harika bir destinasyondur.\n",
+      "en": "Miami Seaquarium is a great place to learn about ocean life. Offering fun activities such as dolphin shows and sea lion performances, this aquarium is a fantastic destination for children.\n",
+      "de": "Das Miami Seaquarium ist ein großartiger Ort, um mehr über das Leben im Ozean zu erfahren. Mit unterhaltsamen Aktivitäten wie Delfin-Shows und Seelöwen-Vorführungen ist dieses Aquarium ein fantastisches Ziel für Kinder.\n"
+    },
+    "activities": {
+      "tr": [
+        "Dalgıç gösterilerini izlemek",
+        "Deniz aslanları ile eğlenmek",
+        "Su altı yaşamını keşfetmek"
+      ],
+      "en": [
+        "Watch dolphin shows",
+        "Have fun with sea lions",
+        "Explore underwater life"
+      ],
+      "de": [
+        "Delfin-Shows ansehen",
+        "Mit Seelöwen Spaß haben",
+        "Unterwasserwelt entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/seaquarium_image.jpg"
+    ]
+  },
+  {
+    "slug": "bayside-marketplace",
+    "name": {
+      "tr": "Bayside Marketplace",
+      "en": "Bayside Marketplace",
+      "de": "Bayside Marketplace"
+    },
+    "latitude": 25.7791,
+    "longitude": -80.1877,
+    "description": {
+      "tr": "Bayside Marketplace, Miami'nin en popüler alışveriş ve eğlence merkezlerinden biridir. Alışveriş yapabilir, restoranlarda yemek yiyebilir veya liman manzaralı yürüyüşler yapabilirsiniz.\n",
+      "en": "Bayside Marketplace is one of Miami's most popular shopping and entertainment centers. You can shop, dine in restaurants, or take walks with views of the harbor.\n",
+      "de": "Das Bayside Marketplace ist eines der beliebtesten Einkaufs- und Unterhaltungszentren in Miami. Sie können einkaufen, in Restaurants essen oder Spaziergänge mit Blick auf den Hafen machen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Restoranlarda yemek yemek",
+        "Liman manzaralı yürüyüş yapmak"
+      ],
+      "en": [
+        "Shop",
+        "Dine in restaurants",
+        "Take walks with harbor views"
+      ],
+      "de": [
+        "Einkaufen",
+        "In Restaurants essen",
+        "Spaziergänge mit Hafenblick machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/bayside_marketplace_image.jpg"
+    ]
+  }
+]

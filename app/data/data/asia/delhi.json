@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "kizil-kale",
+    "name": {
+      "tr": "Kızıl Kale",
+      "en": "Red Fort",
+      "de": "Rotes Fort"
+    },
+    "latitude": 28.6562,
+    "longitude": 77.241,
+    "description": {
+      "tr": "Kızıl Kale, Delhi'de yer alan ve Mughal mimarisinin en etkileyici örneklerinden biri olan tarihi bir kaledir.",
+      "en": "The Red Fort is a historic fort in Delhi and a stunning example of Mughal architecture.",
+      "de": "Das Rote Fort ist eine historische Festung in Delhi und ein beeindruckendes Beispiel für die Mogul-Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kale turu",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Historic fort tour",
+        "Photography"
+      ],
+      "de": [
+        "Historische Festungstour",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/red_fort.jpg"
+    ]
+  },
+  {
+    "slug": "kutub-minar",
+    "name": {
+      "tr": "Kutub Minar",
+      "en": "Qutub Minar",
+      "de": "Qutub Minar"
+    },
+    "latitude": 28.5244,
+    "longitude": 77.1855,
+    "description": {
+      "tr": "Kutub Minar, Delhi'de yer alan ve UNESCO Dünya Mirası Listesi'nde bulunan tarihi bir minaredir.",
+      "en": "Qutub Minar is a UNESCO World Heritage site located in Delhi.",
+      "de": "Qutub Minar ist eine UNESCO-Welterbestätte in Delhi."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapı incelemesi",
+        "Bahçede yürüyüş"
+      ],
+      "en": [
+        "Historical site visit",
+        "Garden stroll"
+      ],
+      "de": [
+        "Besichtigung historischer Stätten",
+        "Spaziergang im Garten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/qutub_minar.jpg"
+    ]
+  },
+  {
+    "slug": "humayun-turbesi",
+    "name": {
+      "tr": "Humayun Türbesi",
+      "en": "Humayun’s Tomb",
+      "de": "Humayuns Grabmal"
+    },
+    "latitude": 28.5933,
+    "longitude": 77.2507,
+    "description": {
+      "tr": "Humayun Türbesi, Tac Mahal’in mimarisine ilham kaynağı olan bir Mughal türbesidir.",
+      "en": "Humayun’s Tomb is a Mughal mausoleum that inspired the architecture of the Taj Mahal.",
+      "de": "Humayuns Grabmal ist ein Mogul-Mausoleum, das die Architektur des Taj Mahal inspirierte."
+    },
+    "activities": {
+      "tr": [
+        "Tarih keşfi",
+        "Bahçelerde gezinti"
+      ],
+      "en": [
+        "History exploration",
+        "Garden walk"
+      ],
+      "de": [
+        "Geschichtserkundung",
+        "Spaziergang in den Gärten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/humayun_tomb.jpg"
+    ]
+  },
+  {
+    "slug": "lotus-tapinagi",
+    "name": {
+      "tr": "Lotus Tapınağı",
+      "en": "Lotus Temple",
+      "de": "Lotus Tempel"
+    },
+    "latitude": 28.5535,
+    "longitude": 77.2588,
+    "description": {
+      "tr": "Lotus Tapınağı, Bahai inancına ait modern mimarisiyle dikkat çeken bir ibadet yeridir.",
+      "en": "Lotus Temple is a Baháʼí House of Worship known for its stunning modern architecture.",
+      "de": "Der Lotus Tempel ist ein Baháʼí-Gotteshaus mit beeindruckender moderner Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Mimari keşif",
+        "Sessiz meditasyon"
+      ],
+      "en": [
+        "Architecture tour",
+        "Silent meditation"
+      ],
+      "de": [
+        "Architekturbesichtigung",
+        "Stille Meditation"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/lotus_temple.jpg"
+    ]
+  },
+  {
+    "slug": "hindistan-kapisi",
+    "name": {
+      "tr": "Hindistan Kapısı",
+      "en": "India Gate",
+      "de": "India Gate"
+    },
+    "latitude": 28.6129,
+    "longitude": 77.2295,
+    "description": {
+      "tr": "India Gate, Delhi’de bulunan ve Birinci Dünya Savaşı’nda hayatını kaybeden askerler için yapılmış anıtsal bir savaş anıtıdır.",
+      "en": "India Gate is a war memorial in Delhi built in honor of soldiers who died during World War I.",
+      "de": "Das India Gate ist ein Kriegsdenkmal in Delhi zum Gedenken an im Ersten Weltkrieg gefallene Soldaten."
+    },
+    "activities": {
+      "tr": [
+        "Anıt ziyareti",
+        "Akşam yürüyüşü"
+      ],
+      "en": [
+        "Memorial visit",
+        "Evening walk"
+      ],
+      "de": [
+        "Denkmalbesuch",
+        "Abendspaziergang"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/india_gate.jpg"
+    ]
+  }
+]

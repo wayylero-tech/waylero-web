@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "kings-park",
+    "name": {
+      "tr": "Kings Park",
+      "en": "Kings Park",
+      "de": "Kings Park"
+    },
+    "latitude": -31.9505,
+    "longitude": 115.8584,
+    "description": {
+      "tr": "Kings Park, Perth şehir merkezine yakın, yüksek bir noktada yer alan ve şehri harika bir şekilde izleyebileceğiniz büyük bir parktır. Parkta çeşitli yürüyüş yolları, botanik bahçeleri ve piknik alanları bulunur.",
+      "en": "Kings Park is a large park located near Perth city center, offering stunning views of the city. It features various walking trails, botanical gardens, and picnic areas.",
+      "de": "Der Kings Park ist ein großer Park in der Nähe des Stadtzentrums von Perth, von dem aus Sie einen atemberaubenden Blick auf die Stadt haben. Der Park bietet verschiedene Wanderwege, botanische Gärten und Picknickbereiche."
+    },
+    "activities": {
+      "tr": [
+        "Şehri yüksekten izlemek",
+        "Yürüyüş yapmak",
+        "Piknik yapmak"
+      ],
+      "en": [
+        "Watching the city from above",
+        "Walking along the trails",
+        "Picnicking"
+      ],
+      "de": [
+        "Die Stadt von oben sehen",
+        "Wandern auf den Wegen",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/kings_park.jpg"
+    ]
+  },
+  {
+    "slug": "fremantle",
+    "name": {
+      "tr": "Fremantle",
+      "en": "Fremantle",
+      "de": "Fremantle"
+    },
+    "latitude": -32.0485,
+    "longitude": 115.7492,
+    "description": {
+      "tr": "Fremantle, Perth’in şehir merkezinin dışında yer alan tarihi bir bölgedir. Şirin kafeler, dükkanlar, restoranlar ve pazarlarla dolu bu bölge, ziyaretçilere nostaljik bir atmosfer sunar.",
+      "en": "Fremantle is a historic district located outside of Perth’s city center. It is filled with quaint cafes, shops, restaurants, and markets, offering a nostalgic atmosphere for visitors.",
+      "de": "Fremantle ist ein historisches Viertel außerhalb des Stadtzentrums von Perth. Es ist voller malerischer Cafés, Geschäfte, Restaurants und Märkte und bietet den Besuchern eine nostalgische Atmosphäre."
+    },
+    "activities": {
+      "tr": [
+        "Kafelerde zaman geçirmek",
+        "Tarihi binaları gezmek",
+        "Pazarları keşfetmek"
+      ],
+      "en": [
+        "Spending time in cafes",
+        "Exploring historic buildings",
+        "Discovering the markets"
+      ],
+      "de": [
+        "Zeit in Cafés verbringen",
+        "Historische Gebäude erkunden",
+        "Die Märkte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/fremantle.jpg"
+    ]
+  },
+  {
+    "slug": "cottesloe-beach",
+    "name": {
+      "tr": "Cottesloe Beach",
+      "en": "Cottesloe Beach",
+      "de": "Cottesloe Beach"
+    },
+    "latitude": -31.9904,
+    "longitude": 115.7467,
+    "description": {
+      "tr": "Cottesloe Beach Avustralyanın en güzel plajlarından biri olarak bilinir. Yüzme, güneşlenme ve sahil yürüyüşleri için mükemmel bir yerdir. Plaj ayrıca etkileyici gün batımlarıyla ünlüdür.",
+      "en": "Cottesloe Beach is considered one of the most beautiful beaches in Australia. It is perfect for swimming, sunbathing, and beach walks. The beach is also famous for its stunning sunsets.",
+      "de": "Der Cottesloe Beach gilt als einer der schönsten Strände Australiens. Er ist ideal zum Schwimmen, Sonnenbaden und für Strandspaziergänge. Der Strand ist auch für seine atemberaubenden Sonnenuntergänge bekannt."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Güneşlenme",
+        "Sahil yürüyüşü yapmak"
+      ],
+      "en": [
+        "Swimming",
+        "Sunbathing",
+        "Taking beach walks"
+      ],
+      "de": [
+        "Schwimmen",
+        "Sonnenbaden",
+        "Strandspaziergänge machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/cottesloe_beach.jpg"
+    ]
+  },
+  {
+    "slug": "the-perth-mint",
+    "name": {
+      "tr": "The Perth Mint",
+      "en": "The Perth Mint",
+      "de": "The Perth Mint"
+    },
+    "latitude": -31.9502,
+    "longitude": 115.8605,
+    "description": {
+      "tr": "The Perth Mint, Avustralya’nın en eski ve en ünlü altın madenlerinden biridir. Burada altın işleme süreçlerini görebilir, altın takılar ve madeni paralar satın alabilirsiniz.",
+      "en": "The Perth Mint is one of Australia’s oldest and most famous gold mints. You can explore the gold processing processes here and buy gold jewelry and coins.",
+      "de": "The Perth Mint ist eine der ältesten und bekanntesten Goldmünzanstalten Australiens. Hier können Sie den Goldverarbeitungsprozess erleben und Goldschmuck und Münzen kaufen."
+    },
+    "activities": {
+      "tr": [
+        "Altın madeni turu yapmak",
+        "Altın takı ve madeni para satın almak"
+      ],
+      "en": [
+        "Taking a gold mint tour",
+        "Buying gold jewelry and coins"
+      ],
+      "de": [
+        "Eine Goldmünzanstalt besichtigen",
+        "Goldschmuck und Münzen kaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/perth_mint.jpg"
+    ]
+  },
+  {
+    "slug": "rottnest-island",
+    "name": {
+      "tr": "Rottnest Island",
+      "en": "Rottnest Island",
+      "de": "Rottnest Island"
+    },
+    "latitude": -32.0001,
+    "longitude": 115.4733,
+    "description": {
+      "tr": "Rottnest Island, dünyaca ünlü sevimli hayvan quokka’lar ile tanınır. Ayrıca plajları, bisiklet parkurları ve doğal güzellikleri ile ünlüdür.",
+      "en": "Rottnest Island is known for its famous cute animals, the quokkas. The island also boasts beautiful beaches, bike trails, and natural beauty.",
+      "de": "Die Rottnest Island ist bekannt für ihre berühmten, niedlichen Tiere, die Quokkas. Die Insel bietet auch wunderschöne Strände, Radwege und natürliche Schönheit."
+    },
+    "activities": {
+      "tr": [
+        "Quokka’ları görmek",
+        "Plajda vakit geçirmek",
+        "Bisiklet turu yapmak"
+      ],
+      "en": [
+        "Seeing quokkas",
+        "Spending time on the beach",
+        "Going on a bike tour"
+      ],
+      "de": [
+        "Quokkas sehen",
+        "Zeit am Strand verbringen",
+        "Eine Radtour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/rottnest_island.jpg"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "masirah-adasi",
+    "name": {
+      "tr": "Masirah Adası",
+      "en": "Masirah Island",
+      "de": "Masirah Insel"
+    },
+    "latitude": 20.615,
+    "longitude": 58.875,
+    "description": {
+      "tr": "Masirah Adası, Umman’ın güneydoğusunda yer alan büyüleyici bir adadır. Adada benzersiz doğal güzellikler, sakin plajlar, ve zengin deniz yaşamı bulunmaktadır. Masirah, aynı zamanda deniz kaplumbağalarının üreme alanlarından biridir. Ziyaretçiler, adada yürüyüş yapabilir, denizle ilgilenebilir ve adanın otantik köylerini keşfedebilirler.",
+      "en": "Masirah Island is a captivating island located on the southeastern coast of Oman. The island is home to unique natural beauty, tranquil beaches, and rich marine life. Masirah is also one of the breeding grounds for sea turtles. Visitors can hike, enjoy water activities, and explore the island’s traditional villages.",
+      "de": "Die Masirah Insel ist eine faszinierende Insel an der Südostküste Omans. Die Insel beherbergt einzigartige natürliche Schönheit, ruhige Strände und ein reiches Meeresleben. Masirah ist auch einer der Brutplätze für Meeresschildkröten. Besucher können wandern, Wasseraktivitäten genießen und die traditionellen Dörfer der Insel erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Deniz kaplumbağalarını izlemek",
+        "Köyleri keşfetmek",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Hiking",
+        "Watching sea turtles",
+        "Exploring villages",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Wandern",
+        "Meeresschildkröten beobachten",
+        "Dörfer erkunden",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/masirah_island_1.jpg",
+      "https://example.com/masirah_island_2.jpg"
+    ]
+  }
+]

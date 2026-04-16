@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "kronborg-kalesi",
+    "name": {
+      "tr": "Kronborg Kalesi",
+      "en": "Kronborg Castle",
+      "de": "Kronborg Schloss"
+    },
+    "latitude": 56.0331,
+    "longitude": 12.6121,
+    "description": {
+      "tr": "Kronborg Kalesi, Shakespeare’in \"Hamlet\" oyununa ilham veren tarihi bir kaledir. UNESCO Dünya Mirası Listesi’nde yer alır ve ziyaretçilere tarihi atmosferi sunar.",
+      "en": "Kronborg Castle is a historic castle that inspired Shakespeare's \"Hamlet\". It is listed as a UNESCO World Heritage site and offers visitors a historical atmosphere.",
+      "de": "Das Kronborg Schloss ist ein historisches Schloss, das Shakespeare's \"Hamlet\" inspiriert hat. Es ist ein UNESCO-Weltkulturerbe und bietet den Besuchern eine historische Atmosphäre."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapmak",
+        "Hamlet hakkında bilgi almak"
+      ],
+      "en": [
+        "Take a castle tour",
+        "Learn about Hamlet"
+      ],
+      "de": [
+        "Eine Schlossführung machen",
+        "Über Hamlet lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kronborg_castle.jpg"
+    ]
+  },
+  {
+    "slug": "marienlyst-sarayi",
+    "name": {
+      "tr": "Marienlyst Sarayı",
+      "en": "Marienlyst Palace",
+      "de": "Marienlyst Schloss"
+    },
+    "latitude": 56.0342,
+    "longitude": 12.6136,
+    "description": {
+      "tr": "Marienlyst Sarayı, 16. yüzyıldan kalma tarihi bir saray olup, günümüzde otel ve müze olarak kullanılmaktadır.",
+      "en": "Marienlyst Palace is a historic 16th-century palace that is now used as a hotel and museum.",
+      "de": "Das Marienlyst Schloss ist ein historisches Schloss aus dem 16. Jahrhundert, das heute als Hotel und Museum genutzt wird."
+    },
+    "activities": {
+      "tr": [
+        "Sarayı gezmek",
+        "Müzeyi ziyaret etmek"
+      ],
+      "en": [
+        "Tour the palace",
+        "Visit the museum"
+      ],
+      "de": [
+        "Das Schloss besichtigen",
+        "Das Museum besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/marienlyst_palace.jpg"
+    ]
+  }
+]

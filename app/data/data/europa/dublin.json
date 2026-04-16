@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "trinity-college-kutuphanesi",
+    "name": {
+      "tr": "Trinity College & Kütüphanesi",
+      "en": "Trinity College & Library",
+      "de": "Trinity College & Bibliothek"
+    },
+    "latitude": 53.344,
+    "longitude": -6.259,
+    "description": {
+      "tr": "\"Book of Kells\" adlı tarihi el yazması burada sergileniyor. Trinity College, 1592 yılında kurulmuş olup, İrlanda'nın en eski üniversitesidir. Kütüphane, tarihsel eserlerle dolu büyük bir koleksiyona sahiptir ve iç mekanın mimarisi oldukça etkileyicidir. Özellikle, \"Long Room\" adı verilen büyük salon, kitaplarla dolu raflar ve yüksek tavanıyla ziyaretçileri büyülemektedir.",
+      "en": "The historic \"Book of Kells\" manuscript is displayed here. Trinity College, founded in 1592, is Ireland's oldest university. The library holds a vast collection of historical works, and its architecture is breathtaking. Particularly, the \"Long Room\" is an impressive hall filled with bookshelves and a high ceiling, captivating all who visit.",
+      "de": "Das historische Manuskript \"Book of Kells\" wird hier ausgestellt. Trinity College, 1592 gegründet, ist die älteste Universität Irlands. Die Bibliothek beherbergt eine riesige Sammlung historischer Werke, und die Architektur ist atemberaubend. Besonders der \"Long Room\" ist ein beeindruckender Saal mit Bücherregalen und einer hohen Decke, der alle Besucher fasziniert."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi el yazmalarını görmek",
+        "Kütüphane atmosferini yaşamak",
+        "Trinity College kampüsünü gezmek",
+        "İrlanda tarihi hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Seeing historical manuscripts",
+        "Experiencing the library atmosphere",
+        "Exploring the Trinity College campus",
+        "Learning about Irish history"
+      ],
+      "de": [
+        "Historische Manuskripte sehen",
+        "Die Bibliotheksatmosphäre erleben",
+        "Den Trinity College Campus erkunden",
+        "Mehr über die irische Geschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/trinity_college_1.jpg",
+      "https://example.com/trinity_college_2.jpg"
+    ]
+  },
+  {
+    "slug": "guinness-storehouse",
+    "name": {
+      "tr": "Guinness Storehouse",
+      "en": "Guinness Storehouse",
+      "de": "Guinness Storehouse"
+    },
+    "latitude": 53.3419,
+    "longitude": -6.2868,
+    "description": {
+      "tr": "İrlanda'nın ünlü birası Guinness’in üretim sürecini görebileceğiniz bir müze. Guinness Storehouse, 18. yüzyılda kurulan ve dünyaca ünlü olan bu bira fabrikasında, ziyaretçilere bira yapım süreci hakkında interaktif bir deneyim sunulmaktadır. Müzede, Guinness markasının tarihini keşfedebilir, bira yapımının her aşamasını görebilir ve hatta bir bardak Guinness birası içme fırsatı bulabilirsiniz. Ayrıca, son katın terasında, Dublin şehrinin muazzam bir manzarasını izleyebilirsiniz.",
+      "en": "A museum where you can see the brewing process of Ireland's famous Guinness beer. The Guinness Storehouse, founded in the 18th century, is home to the iconic brewery, offering visitors an interactive experience about the beer-making process. You can explore the history of the Guinness brand, see every step of beer production, and even enjoy a pint of Guinness beer. The top floor offers an incredible panoramic view of Dublin.",
+      "de": "Ein Museum, in dem Sie den Brauprozess des berühmten Guinness-Bieres sehen können. Das Guinness Storehouse, im 18. Jahrhundert gegründet, beherbergt die ikonische Brauerei und bietet den Besuchern eine interaktive Erfahrung des Bierbrauens. Sie können die Geschichte der Guinness-Marke entdecken, jeden Schritt des Brauprozesses sehen und sogar ein Glas Guinness-Bier genießen. Auf dem obersten Stockwerk haben Sie einen unglaublichen Panoramablick auf Dublin."
+    },
+    "activities": {
+      "tr": [
+        "Bira yapım sürecini görmek",
+        "Tarihi Guinness markasını keşfetmek",
+        "Dublin manzarasının tadını çıkarmak"
+      ],
+      "en": [
+        "Seeing the beer brewing process",
+        "Exploring the history of Guinness",
+        "Enjoying the view of Dublin"
+      ],
+      "de": [
+        "Den Brauprozess sehen",
+        "Die Geschichte von Guinness erkunden",
+        "Die Aussicht auf Dublin genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/guinness_storehouse_1.jpg",
+      "https://example.com/guinness_storehouse_2.jpg"
+    ]
+  },
+  {
+    "slug": "temple-bar",
+    "name": {
+      "tr": "Temple Bar",
+      "en": "Temple Bar",
+      "de": "Temple Bar"
+    },
+    "latitude": 53.345,
+    "longitude": -6.2636,
+    "description": {
+      "tr": "Canlı müzik, barlar ve sanat galerileriyle ünlü bir bölge. Temple Bar, Dublin'in kültürel kalbidir. Bu bölge, canlı müzik performanslarıyla, çeşitli barlar ve restoranlarla, ayrıca özgün sanat galerileriyle ünlüdür. İrlanda kültürünü deneyimlemek isteyen ziyaretçiler için mükemmel bir yerdir. Ayrıca, buradaki sokaklar, geleneksel İrlanda kültürüne dair birçok iz taşımaktadır ve gece hayatı oldukça canlıdır.",
+      "en": "A district famous for live music, pubs, and art galleries. Temple Bar is the cultural heart of Dublin. This area is famous for live music performances, various pubs and restaurants, and unique art galleries. It is a perfect spot for visitors who want to experience Irish culture. The streets here are rich with traces of traditional Irish culture, and the nightlife is vibrant.",
+      "de": "Ein Viertel, das für Live-Musik, Bars und Kunstgalerien bekannt ist. Temple Bar ist das kulturelle Herz von Dublin. Dieses Viertel ist bekannt für Live-Musik-Auftritte, verschiedene Bars und Restaurants sowie einzigartige Kunstgalerien. Es ist der perfekte Ort für Besucher, die die irische Kultur erleben möchten. Die Straßen hier sind reich an Spuren traditioneller irischer Kultur, und das Nachtleben ist lebendig."
+    },
+    "activities": {
+      "tr": [
+        "Canlı müzik dinlemek",
+        "Sanat galerilerini gezmek",
+        "İrlanda kültürünü deneyimlemek"
+      ],
+      "en": [
+        "Listening to live music",
+        "Visiting art galleries",
+        "Experiencing Irish culture"
+      ],
+      "de": [
+        "Live-Musik hören",
+        "Kunstgalerien besuchen",
+        "Die irische Kultur erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/temple_bar_1.jpg",
+      "https://example.com/temple_bar_2.jpg"
+    ]
+  },
+  {
+    "slug": "st-patrick-s-katedrali",
+    "name": {
+      "tr": "St. Patrick's Katedrali",
+      "en": "St. Patrick's Cathedral",
+      "de": "St. Patrick's Kathedrale"
+    },
+    "latitude": 53.334,
+    "longitude": -6.2603,
+    "description": {
+      "tr": "İrlanda'nın en büyük katedrali olan St. Patrick's Katedrali, 1191 yılında inşa edilmiştir. Katedral, St. Patrick'in İrlanda'ya Hristiyanlığı getirdiği yer olarak kabul edilen bir alanda yer almaktadır. Gotik tarzda inşa edilmiş bu muazzam yapı, etkileyici vitray pencereleri, büyük bir organı ve zengin tarihî koleksiyonları ile ziyaretçilerini büyülemektedir. Ayrıca, katedralin içinde St. Patrick’in yaşamını anlatan bir sergi bulunmaktadır.",
+      "en": "St. Patrick's Cathedral, Ireland's largest cathedral, was built in 1191. It is located on the site where St. Patrick is said to have brought Christianity to Ireland. This immense Gothic structure features stunning stained-glass windows, a grand organ, and rich historical collections that mesmerize visitors. Inside the cathedral, there is an exhibit dedicated to the life of St. Patrick.",
+      "de": "Die St. Patrick's Kathedrale, die größte Kathedrale Irlands, wurde 1191 erbaut. Sie befindet sich an dem Ort, an dem St. Patrick das Christentum nach Irland brachte. Diese imposante gotische Struktur verfügt über atemberaubende Buntglasfenster, eine prächtige Orgel und reiche historische Sammlungen, die die Besucher faszinieren. Im Inneren der Kathedrale gibt es eine Ausstellung über das Leben von St. Patrick."
+    },
+    "activities": {
+      "tr": [
+        "Katedralin içini gezmek",
+        "St. Patrick’in yaşamını keşfetmek",
+        "Gotik mimarinin detaylarını incelemek"
+      ],
+      "en": [
+        "Exploring the cathedral",
+        "Learning about the life of St. Patrick",
+        "Examining the details of Gothic architecture"
+      ],
+      "de": [
+        "Die Kathedrale erkunden",
+        "Das Leben von St. Patrick kennenlernen",
+        "Die Details der gotischen Architektur untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/st_patricks_cathedral_1.jpg",
+      "https://example.com/st_patricks_cathedral_2.jpg"
+    ]
+  },
+  {
+    "slug": "dublin-kalesi",
+    "name": {
+      "tr": "Dublin Kalesi",
+      "en": "Dublin Castle",
+      "de": "Dublin Schloss"
+    },
+    "latitude": 53.3422,
+    "longitude": -6.2675,
+    "description": {
+      "tr": "Dublin Kalesi, 13. yüzyılda inşa edilen, İrlanda'nın tarihî simgelerinden biridir. Orta Çağ'da bir Norman kalesi olarak inşa edilmiştir ve günümüzde hükümet etkinlikleri için kullanılan bir yer olarak işlev görmektedir. Kalede, şehrin tarihini ve eski İrlanda yönetimini anlatan bir dizi sergi bulunmaktadır. Ayrıca, kale kompleksinde etkileyici bahçeler, avlular ve eski yapılar bulunmaktadır.",
+      "en": "Dublin Castle, built in the 13th century, is one of Ireland's historic landmarks. Originally constructed as a Norman fortress during the Medieval period, it now serves as a venue for government events. The castle offers a series of exhibits detailing the city's history and Ireland’s ancient governance. The castle complex also features impressive gardens, courtyards, and ancient structures.",
+      "de": "Das Dublin Schloss, im 13. Jahrhundert erbaut, ist eines der historischen Wahrzeichen Irlands. Ursprünglich als normannische Festung im Mittelalter erbaut, dient es heute als Veranstaltungsort für Regierungsereignisse. Im Schloss gibt es eine Reihe von Ausstellungen, die die Geschichte der Stadt und die alte irische Verwaltung erzählen. Der Schlosskomplex bietet auch beeindruckende Gärten, Innenhöfe und antike Strukturen."
+    },
+    "activities": {
+      "tr": [
+        "Kaleyi gezmek",
+        "Tarihi sergileri görmek",
+        "Bahçelerde yürüyüş yapmak"
+      ],
+      "en": [
+        "Exploring the castle",
+        "Visiting historical exhibits",
+        "Walking in the gardens"
+      ],
+      "de": [
+        "Das Schloss erkunden",
+        "Historische Ausstellungen besuchen",
+        "Im Garten spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/dublin_castle_1.jpg",
+      "https://example.com/dublin_castle_2.jpg"
+    ]
+  }
+]

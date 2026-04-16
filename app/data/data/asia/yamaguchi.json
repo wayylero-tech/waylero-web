@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "motonosumi-inari-shrine",
+    "name": {
+      "tr": "Motonosumi Inari Shrine",
+      "en": "Motonosumi Inari Shrine",
+      "de": "Motonosumi Inari Shrine"
+    },
+    "latitude": 33.6538,
+    "longitude": 131.2492,
+    "description": {
+      "tr": "Motonosumi Inari Shrine, Japonya'nın Yamaguchi Prefektörlüğü'nde yer alan etkileyici bir Şinto tapınağıdır.\nBurada, denize doğru uzanan 123 kırmızı torii kapısı bulunmaktadır. Tapınak 1955 yılında inşa edilmiştir ve\nyerel efsanelere dayanmaktadır. Ziyaretçiler, deniz manzaralı bu tapınakta huzurlu bir atmosferde dini ve kültürel\nbir deneyim yaşama fırsatı bulurlar.\n",
+      "en": "Motonosumi Inari Shrine is an impressive Shinto shrine located in Yamaguchi Prefecture, Japan.\nIt features 123 red torii gates stretching toward the sea. Established in 1955, the shrine is based on local legends.\nVisitors can experience a peaceful atmosphere while enjoying the cultural and spiritual significance of this beautiful shrine.\n",
+      "de": "Motonosumi Inari Shrine ist ein beeindruckender Shinto-Schrein in der Präfektur Yamaguchi, Japan.\nEr verfügt über 123 rote Torii-Tore, die in Richtung Meer führen. Der Schrein wurde 1955 erbaut und basiert auf lokalen Legenden.\nBesucher können eine friedliche Atmosphäre genießen und gleichzeitig die kulturelle und spirituelle Bedeutung dieses schönen Schreins erleben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Torii kapılarını gezmek",
+        "Deniz manzarasının tadını çıkarmak",
+        "Şinto tapınağını ziyaret etmek"
+      ],
+      "en": [
+        "Walk through the torii gates",
+        "Enjoy the sea view",
+        "Visit the Shinto shrine"
+      ],
+      "de": [
+        "Durch die Torii-Tore gehen",
+        "Die Aussicht auf das Meer genießen",
+        "Den Shinto-Schrein besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/motonosumi_inari_shrine_image.jpg"
+    ]
+  }
+]

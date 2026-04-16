@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "viseu-katedrali",
+    "name": {
+      "tr": "Viseu Katedrali",
+      "en": "Viseu Cathedral",
+      "de": "Viseu Kathedrale"
+    },
+    "latitude": 40.661,
+    "longitude": -7.9134,
+    "description": {
+      "tr": "Viseu Katedrali, şehrin en eski yapılarından biridir ve Romanesk mimarisi ile dikkat çeker.",
+      "en": "The Viseu Cathedral is one of the city's oldest structures, notable for its Romanesque architecture.",
+      "de": "Die Viseu-Kathedrale ist eines der ältesten Gebäude der Stadt und zeichnet sich durch ihre romanische Architektur aus."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezme",
+        "Mimari detayları inceleme"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/viseu_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "gr-o-vasco-muzesi",
+    "name": {
+      "tr": "Grão Vasco Müzesi",
+      "en": "Grão Vasco Museum",
+      "de": "Grão Vasco Museum"
+    },
+    "latitude": 40.6614,
+    "longitude": -7.9141,
+    "description": {
+      "tr": "Grão Vasco Müzesi, Viseu'nun kültürel mirasını sergileyen bir sanat galerisi ve müzedir.",
+      "en": "The Grão Vasco Museum is an art gallery and museum showcasing Viseu's cultural heritage.",
+      "de": "Das Grão Vasco Museum ist eine Kunstgalerie und ein Museum, das das kulturelle Erbe von Viseu zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat sergilerini gezme",
+        "Portekizli sanatçıların eserlerini keşfetme"
+      ],
+      "en": [
+        "Tour the art exhibitions",
+        "Explore works by Portuguese artists"
+      ],
+      "de": [
+        "Die Kunstausstellungen besichtigen",
+        "Werke portugiesischer Künstler entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/grao_vasco_museum.jpg"
+    ]
+  }
+]

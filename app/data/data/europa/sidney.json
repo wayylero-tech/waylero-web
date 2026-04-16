@@ -1,0 +1,303 @@
+[
+  {
+    "slug": "sidney-opera-binasi",
+    "name": {
+      "tr": "Sidney Opera Binası",
+      "en": "Sydney Opera House",
+      "de": "Sydney Opernhaus"
+    },
+    "latitude": -33.857,
+    "longitude": 151.2153,
+    "description": {
+      "tr": "Sidney Opera Binası, dünyanın en ünlü ve ikonik yapılarından biridir. Eşsiz mimarisi ve dünya çapında kültürel etkinliklere ev sahipliği yapmasıyla dikkat çeker. Hem dış tasarımı hem de iç mekanları ile büyüleyici bir deneyim sunar.",
+      "en": "Sydney Opera House is one of the world’s most famous and iconic structures. It attracts attention for its unique architecture and the cultural events it hosts. The building offers a captivating experience both inside and out.",
+      "de": "Das Sydney Opera House ist eines der bekanntesten und ikonischsten Gebäude der Welt. Es fällt durch seine einzigartige Architektur und die kulturellen Veranstaltungen, die dort stattfinden, auf. Das Gebäude bietet sowohl innen als auch außen ein fesselndes Erlebnis."
+    },
+    "activities": {
+      "tr": [
+        "Opera gösterilerini izlemek",
+        "Bina turu yapmak"
+      ],
+      "en": [
+        "Watching opera performances",
+        "Taking a tour of the building"
+      ],
+      "de": [
+        "Opernaufführungen sehen",
+        "Eine Führung im Gebäude machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/sydney_opera_house.jpg"
+    ]
+  },
+  {
+    "slug": "sidney-limani-koprusu",
+    "name": {
+      "tr": "Sidney Limanı Köprüsü",
+      "en": "Sydney Harbour Bridge",
+      "de": "Sydney Harbour Bridge"
+    },
+    "latitude": -33.8486,
+    "longitude": 151.2108,
+    "description": {
+      "tr": "Sidney Limanı Köprüsü, dünyanın en büyük çelik köprülerinden biridir. Yürüyüş yaparak ya da köprü tırmanışı ile harika Sidney manzaralarını keşfetmek mümkündür. Köprüye tırmanış, adrenalini yüksek bir deneyim sunar.",
+      "en": "Sydney Harbour Bridge is one of the world’s largest steel bridges. You can explore stunning views of Sydney by walking or climbing the bridge. The bridge climb offers an adrenaline-filled experience.",
+      "de": "Die Sydney Harbour Bridge ist eine der größten Stahlbrücken der Welt. Sie können atemberaubende Ausblicke auf Sydney genießen, indem Sie über die Brücke gehen oder sie erklimmen. Der Brückenklettern bietet ein adrenalinförderndes Erlebnis."
+    },
+    "activities": {
+      "tr": [
+        "Köprü tırmanışı yapmak",
+        "Yürüyüş yaparak manzarayı görmek"
+      ],
+      "en": [
+        "Climbing the bridge",
+        "Walking for the view"
+      ],
+      "de": [
+        "Die Brücke erklimmen",
+        "Zu Fuß für die Aussicht gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/sydney_harbour_bridge.jpg"
+    ]
+  },
+  {
+    "slug": "bondi-plaji",
+    "name": {
+      "tr": "Bondi Plajı",
+      "en": "Bondi Beach",
+      "de": "Bondi Beach"
+    },
+    "latitude": -33.8915,
+    "longitude": 151.2767,
+    "description": {
+      "tr": "Bondi Plajı, Sidney’in en ünlü plajlarından biridir ve Surfers Paradise gibi plajları ile bilinir. Burada sörf yapmayı sevenler için ideal bir noktadır. Ayrıca plajın çevresindeki kafelerde dinlenebilir ve harika manzarayı izleyebilirsiniz.",
+      "en": "Bondi Beach is one of Sydney’s most famous beaches, known for its beautiful surfing spots like Surfers Paradise. It is an ideal place for surfers and offers a relaxing atmosphere with cafes around the beach to enjoy the great views.",
+      "de": "Bondi Beach ist einer der bekanntesten Strände von Sydney, bekannt für seine schönen Surfspots wie Surfers Paradise. Es ist ein idealer Ort für Surfer und bietet eine entspannende Atmosphäre mit Cafés rund um den Strand, um die großartige Aussicht zu genießen."
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Surfing",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Surfen",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/bondi_beach.jpg"
+    ]
+  },
+  {
+    "slug": "royal-botanic-gardens",
+    "name": {
+      "tr": "Royal Botanic Gardens",
+      "en": "Royal Botanic Gardens",
+      "de": "Royal Botanic Gardens"
+    },
+    "latitude": -33.8642,
+    "longitude": 151.2167,
+    "description": {
+      "tr": "Royal Botanik Bahçeleri, Sidney Opera Binası ve Limanı manzaralı geniş bir alan sunar. Bu muazzam bahçede, tropikal bitkilerden nadir çiçeklere kadar pek çok bitki türü bulunmaktadır. Hem doğa severler hem de fotoğrafçılar için mükemmel bir yerdir.",
+      "en": "The Royal Botanic Gardens offer vast space with stunning views of the Sydney Opera House and Harbour. The gardens are home to a variety of plants, ranging from tropical species to rare flowers. It is an excellent spot for nature lovers and photographers.",
+      "de": "Die Royal Botanic Gardens bieten viel Platz mit atemberaubendem Blick auf das Sydney Opera House und den Hafen. Die Gärten beherbergen eine Vielzahl von Pflanzen, von tropischen Arten bis hin zu seltenen Blumen. Es ist ein ausgezeichneter Ort für Naturliebhaber und Fotografen."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeyi keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the garden",
+        "Taking photos"
+      ],
+      "de": [
+        "Den Garten erkunden",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/royal_botanic_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "taronga-zoo",
+    "name": {
+      "tr": "Taronga Zoo",
+      "en": "Taronga Zoo",
+      "de": "Taronga Zoo"
+    },
+    "latitude": -33.8433,
+    "longitude": 151.2437,
+    "description": {
+      "tr": "Taronga Hayvanat Bahçesi, Sidney’in ünlü hayvanat bahçesidir ve burada Avustralya’ya özgü yerel hayvanları görmek mümkündür. Ayrıca deniz aslanları, kangurular ve koalalar gibi popüler Avustralya hayvanlarını da burada görebilirsiniz.",
+      "en": "Taronga Zoo is one of Sydney’s famous zoos, where you can see native Australian animals. You can also spot popular Australian animals such as sea lions, kangaroos, and koalas.",
+      "de": "Der Taronga Zoo ist einer der berühmten Zoos von Sydney, in dem man einheimische australische Tiere sehen kann. Man kann auch populäre australische Tiere wie Seelöwen, Kängurus und Koalas sehen."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları görmek",
+        "Hayvanat bahçesinde gezmek"
+      ],
+      "en": [
+        "Seeing the animals",
+        "Exploring the zoo"
+      ],
+      "de": [
+        "Die Tiere sehen",
+        "Den Zoo erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "hayvanat bahçesi"
+      ],
+      "en": [
+        "zoo"
+      ],
+      "de": [
+        "zoo"
+      ]
+    },
+    "images": [
+      "https://example.com/taronga_zoo.jpg"
+    ]
+  },
+  {
+    "slug": "the-rocks",
+    "name": {
+      "tr": "The Rocks",
+      "en": "The Rocks",
+      "de": "The Rocks"
+    },
+    "latitude": -33.8607,
+    "longitude": 151.2086,
+    "description": {
+      "tr": "The Rocks, Sidney’in tarihi bölgesidir. Eski taş yapıları, müzeleri ve restoranlarıyla ünlüdür. Bu bölge, Sidney’in ilk kurulduğu yerdir ve burada tarihi yapılar arasında dolaşarak geçmişe yolculuk yapabilirsiniz.",
+      "en": "The Rocks is the historical district of Sydney. Known for its old stone buildings, museums, and restaurants, it is the site where Sydney was first established. You can travel back in time as you walk through its historic buildings.",
+      "de": "The Rocks ist das historische Viertel von Sydney. Es ist bekannt für seine alten Steinbauten, Museen und Restaurants und ist der Ort, an dem Sydney erstmals gegründet wurde. Sie können in der Zeit zurückreisen, während Sie durch seine historischen Gebäude gehen."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıları gezmek",
+        "Müzelere gitmek"
+      ],
+      "en": [
+        "Exploring the historic buildings",
+        "Visiting museums"
+      ],
+      "de": [
+        "Die historischen Gebäude erkunden",
+        "Museen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/the_rocks.jpg"
+    ]
+  },
+  {
+    "slug": "manly-beach",
+    "name": {
+      "tr": "Manly Beach",
+      "en": "Manly Beach",
+      "de": "Manly Beach"
+    },
+    "latitude": -33.8007,
+    "longitude": 151.2867,
+    "description": {
+      "tr": "Manly Plajı, Sidney’in popüler plajlarından biridir ve feribotla ulaşılabilir. Geniş plajı ve mükemmel sörf koşulları ile ünlüdür. Ayrıca plajda dinlenebilir ve çevresindeki kafelerde keyifli vakit geçirebilirsiniz.",
+      "en": "Manly Beach is one of Sydney’s popular beaches and can be reached by ferry. It is famous for its wide beach and excellent surfing conditions. You can also relax on the beach and enjoy the cafes around it.",
+      "de": "Manly Beach ist einer der beliebten Strände von Sydney und kann mit der Fähre erreicht werden. Es ist berühmt für seinen breiten Strand und ausgezeichnete Surfbedingungen. Sie können auch am Strand entspannen und die Cafés in der Umgebung genießen."
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Surfing",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Surfen",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/manly_beach.jpg"
+    ]
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "slug": "filyos-kalesi",
+    "name": {
+      "tr": "Filyos Kalesi",
+      "en": "Filyos Castle",
+      "de": "Filyos Schloss"
+    },
+    "latitude": 41.57681,
+    "longitude": 31.03253,
+    "description": {
+      "tr": "Filyos Kalesi, Zonguldak il sınırlarında yer alan tarihi bir kaledir. Filyos Çayı'nın denize döküldüğü noktada konumlanan kale, Bizans ve Osmanlı dönemlerinden izler taşır. Tarihi önemi ve stratejik konumu ile dikkat çeker. Ziyaretçilere hem tarihi bir yolculuk hem de muazzam bir manzara sunar.\n",
+      "en": "Filyos Castle is a historic castle located within the borders of Zonguldak. Situated at the point where the Filyos River flows into the sea, the castle bears traces of both the Byzantine and Ottoman periods. Its historical significance and strategic location make it stand out. Visitors can enjoy both a historical journey and a magnificent view.\n",
+      "de": "Das Filyos-Schloss ist eine historische Burg, die sich innerhalb der Grenzen von Zonguldak befindet. Es liegt an dem Punkt, an dem der Filyos-Fluss in das Meer mündet und trägt Spuren sowohl aus der byzantinischen als auch aus der osmanischen Zeit. Seine historische Bedeutung und strategische Lage machen es bemerkenswert. Besucher können sowohl eine historische Reise als auch einen atemberaubenden Ausblick genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kaleyi gezmek",
+        "Manzara fotoğrafı çekmek"
+      ],
+      "en": [
+        "Tour the historical castle",
+        "Take a panoramic photo"
+      ],
+      "de": [
+        "Die historische Burg besichtigen",
+        "Panoramafotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/filyos_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "filyos-plaji",
+    "name": {
+      "tr": "Filyos Plajı",
+      "en": "Filyos Beach",
+      "de": "Filyos Strand"
+    },
+    "latitude": 41.5659,
+    "longitude": 31.02051,
+    "description": {
+      "tr": "Filyos Plajı, Zonguldak’ın en güzel plajlarından biridir. Temiz denizi ve doğal güzellikleri ile ünlüdür.\n",
+      "en": "Filyos Beach is one of the most beautiful beaches in Zonguldak. It is famous for its clean sea and natural beauty.\n",
+      "de": "Der Filyos-Strand ist einer der schönsten Strände in Zonguldak. Er ist berühmt für sein sauberes Meer und seine natürliche Schönheit.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Swim in the sea",
+        "Relax on the beach"
+      ],
+      "de": [
+        "Im Meer schwimmen",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/filyos_plaji.jpg"
+    ]
+  },
+  {
+    "slug": "devrek-tahta-baston-muzesi",
+    "name": {
+      "tr": "Devrek Tahta Baston Müzesi",
+      "en": "Devrek Wooden Cane Museum",
+      "de": "Devrek Holzstock-Museum"
+    },
+    "latitude": 41.24639,
+    "longitude": 31.99428,
+    "description": {
+      "tr": "Devrek Tahta Baston Müzesi, Zonguldak’ın meşhur tahta bastonlarının sergilendiği önemli bir kültürel mekandır.\n",
+      "en": "Devrek Wooden Cane Museum is an important cultural place where the famous wooden canes of Zonguldak are displayed.\n",
+      "de": "Das Devrek Holzstock-Museum ist ein wichtiger kultureller Ort, an dem die berühmten Holzstöcke von Zonguldak ausgestellt sind.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müzeyi gezmek",
+        "Tahta bastonları incelemek"
+      ],
+      "en": [
+        "Visit the museum",
+        "Examine the wooden canes"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Die Holzstöcke untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/devrek_muze.jpg"
+    ]
+  },
+  {
+    "slug": "zonguldak-kozlu-sahili",
+    "name": {
+      "tr": "Zonguldak Kozlu Sahili",
+      "en": "Zonguldak Kozlu Beach",
+      "de": "Zonguldak Kozlu Strand"
+    },
+    "latitude": 41.44914,
+    "longitude": 31.75798,
+    "description": {
+      "tr": "Zonguldak Kozlu Sahili, deniz kenarında vakit geçirebileceğiniz ve denize girebileceğiniz güzel bir yerdir.\n",
+      "en": "Zonguldak Kozlu Beach is a beautiful spot where you can spend time by the sea and swim.\n",
+      "de": "Der Zonguldak Kozlu Strand ist ein schöner Ort, an dem man Zeit am Meer verbringen und schwimmen kann.\n"
+    },
+    "activities": {
+      "tr": [
+        "Plajda yürüyüş yapmak",
+        "Denize girmek"
+      ],
+      "en": [
+        "Take a walk on the beach",
+        "Swim in the sea"
+      ],
+      "de": [
+        "Am Strand spazieren gehen",
+        "Im Meer schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/kozel_sahili.jpg"
+    ]
+  },
+  {
+    "slug": "kozlu-feneri",
+    "name": {
+      "tr": "Kozlu Feneri",
+      "en": "Kozlu Lighthouse",
+      "de": "Kozlu Leuchtturm"
+    },
+    "latitude": 41.46484,
+    "longitude": 31.78761,
+    "description": {
+      "tr": "Kozlu Feneri, Zonguldak kıyılarının en bilinen simgelerinden biridir ve denizcilerin yönünü bulmalarına yardımcı olur.\n",
+      "en": "Kozlu Lighthouse is one of the most famous landmarks on the Zonguldak coast and helps sailors find their way.\n",
+      "de": "Der Kozlu Leuchtturm ist eines der bekanntesten Wahrzeichen an der Küste von Zonguldak und hilft Seeleuten, ihren Weg zu finden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Feneri görmek",
+        "Kıyıda yürüyüş yapmak"
+      ],
+      "en": [
+        "See the lighthouse",
+        "Take a walk on the coast"
+      ],
+      "de": [
+        "Den Leuchtturm sehen",
+        "Am Küstenwanderweg spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/kozlu_feneri.jpg"
+    ]
+  },
+  {
+    "slug": "eregli-muzesi",
+    "name": {
+      "tr": "Ereğli Müzesi",
+      "en": "Ereğli Museum",
+      "de": "Ereğli Museum"
+    },
+    "latitude": 41.28251,
+    "longitude": 31.41631,
+    "description": {
+      "tr": "Ereğli Müzesi, Zonguldak’a bağlı Ereğli ilçesinde yer alır ve bölgenin tarihini ve kültürünü sergileyen önemli bir mekandır.\n",
+      "en": "Ereğli Museum is located in the Ereğli district of Zonguldak and is an important place showcasing the history and culture of the region.\n",
+      "de": "Das Ereğli-Museum befindet sich im Bezirk Ereğli in Zonguldak und ist ein wichtiger Ort, der die Geschichte und Kultur der Region zeigt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müzeyi gezmek",
+        "Tarihi eserleri incelemek"
+      ],
+      "en": [
+        "Visit the museum",
+        "Examine historical artifacts"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Historische Artefakte untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/eregli_muze.jpg"
+    ]
+  },
+  {
+    "slug": "kilimli-plaji",
+    "name": {
+      "tr": "Kilimli Plajı",
+      "en": "Kilimli Beach",
+      "de": "Kilimli Strand"
+    },
+    "latitude": 41.49615,
+    "longitude": 31.84277,
+    "description": {
+      "tr": "Kilimli Plajı, Zonguldak’ın huzurlu plajlarından biridir. Temiz denizi ve sakin ortamı ile dinlendirici bir atmosfer sunar.\n",
+      "en": "Kilimli Beach is one of the peaceful beaches of Zonguldak. It offers a relaxing atmosphere with its clean sea and calm environment.\n",
+      "de": "Der Kilimli-Strand ist einer der ruhigen Strände in Zonguldak. Er bietet eine entspannende Atmosphäre mit seinem sauberen Meer und der ruhigen Umgebung.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek",
+        "Plajda güneşlenmek"
+      ],
+      "en": [
+        "Swim in the sea",
+        "Sunbathe on the beach"
+      ],
+      "de": [
+        "Im Meer schwimmen",
+        "Am Strand sonnenbaden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/kilimli_plaji.jpg"
+    ]
+  },
+  {
+    "slug": "gokgol-magarasi",
+    "name": {
+      "tr": "Gökgöl Mağarası",
+      "en": "Gökgöl Cave",
+      "de": "Gökgöl Höhle"
+    },
+    "latitude": 41.44445,
+    "longitude": 31.83291,
+    "description": {
+      "tr": "Gökgöl Mağarası, Zonguldak il merkezine yakın konumda bulunan ve Batı Karadeniz’in en bilinen mağaralarından biridir. Mağara, sarkıt ve dikitlerle süslü büyük salonlara sahiptir. Ziyaretçilere mağara turu ile doğal taş oluşumları ve mineraller hakkında bilgi verilir.\n",
+      "en": "Gökgöl Cave is one of the most well-known caves in the Western Black Sea, located near the city center of Zonguldak. The cave features large chambers decorated with stalactites and stalagmites. Visitors are given a tour of the cave, where they can learn about natural stone formations and minerals.\n",
+      "de": "Die Gökgöl-Höhle ist eine der bekanntesten Höhlen im westlichen Schwarzen Meer, die sich in der Nähe des Stadtzentrums von Zonguldak befindet. Die Höhle verfügt über große Hallen, die mit Stalaktiten und Stalagmiten verziert sind. Besucher können eine Führung durch die Höhle machen und mehr über natürliche Steinformationen und Mineralien erfahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağara turu yapmak",
+        "Doğal oluşumları keşfetmek"
+      ],
+      "en": [
+        "Take a cave tour",
+        "Explore the natural formations"
+      ],
+      "de": [
+        "Eine Höhlenführung machen",
+        "Natürliche Formationen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/gokgol_magarsasi.jpg"
+    ]
+  }
+]

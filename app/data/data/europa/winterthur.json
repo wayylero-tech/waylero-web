@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "fotomuseum-winterthur",
+    "name": {
+      "tr": "Fotomuseum Winterthur",
+      "en": "Fotomuseum Winterthur",
+      "de": "Fotomuseum Winterthur"
+    },
+    "latitude": 47.498,
+    "longitude": 8.726,
+    "description": {
+      "tr": "Fotomuseum Winterthur, modern ve çağdaş fotoğraf sanatını sergileyen bir müzedir.",
+      "en": "Fotomuseum Winterthur is a museum showcasing modern and contemporary photography.",
+      "de": "Das Fotomuseum Winterthur ist ein Museum, das moderne und zeitgenössische Fotografie ausstellt."
+    },
+    "activities": {
+      "tr": [
+        "Fotoğraf sergilerini gezmek",
+        "Sanat galerisi turu yapmak"
+      ],
+      "en": [
+        "Visit photography exhibitions",
+        "Take a tour of the art gallery"
+      ],
+      "de": [
+        "Fotografie-Ausstellungen besuchen",
+        "Eine Kunstgalerie-Tour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/fotomuseum_winterthur.jpg"
+    ]
+  },
+  {
+    "slug": "technorama",
+    "name": {
+      "tr": "Technorama",
+      "en": "Technorama",
+      "de": "Technorama"
+    },
+    "latitude": 47.496,
+    "longitude": 8.7275,
+    "description": {
+      "tr": "Technorama, etkileşimli bilim ve teknoloji müzesidir, hem çocuklar hem de yetişkinler için eğlenceli etkinlikler sunar.",
+      "en": "Technorama is an interactive science and technology museum offering fun activities for both children and adults.",
+      "de": "Technorama ist ein interaktives Wissenschafts- und Technologiemuseum, das unterhaltsame Aktivitäten für Kinder und Erwachsene bietet."
+    },
+    "activities": {
+      "tr": [
+        "Eğlenceli deneyler yapmak",
+        "Teknoloji ve bilimle ilgili sergileri keşfetmek"
+      ],
+      "en": [
+        "Do fun experiments",
+        "Explore science and technology exhibitions"
+      ],
+      "de": [
+        "Unterhaltsame Experimente machen",
+        "Wissenschafts- und Technologiemuseen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/technorama.jpg"
+    ]
+  },
+  {
+    "slug": "winterthur-sanat-muzesi",
+    "name": {
+      "tr": "Winterthur Sanat Müzesi",
+      "en": "Winterthur Art Museum",
+      "de": "Winterthur Kunstmuseum"
+    },
+    "latitude": 47.4978,
+    "longitude": 8.7245,
+    "description": {
+      "tr": "Winterthur Sanat Müzesi, İsviçre'nin en büyük sanat koleksiyonlarından birine sahiptir ve Orta Çağ'dan günümüze kadar uzanan eserler sunar.",
+      "en": "Winterthur Art Museum holds one of Switzerland’s largest art collections and features works from the Middle Ages to the present.",
+      "de": "Das Winterthur Kunstmuseum beherbergt eine der größten Kunstsammlungen der Schweiz und zeigt Werke vom Mittelalter bis zur Gegenwart."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini görmek",
+        "Modern ve klasik sanatı keşfetmek"
+      ],
+      "en": [
+        "See the artworks",
+        "Explore modern and classical art"
+      ],
+      "de": [
+        "Die Kunstwerke ansehen",
+        "Moderne und klassische Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/winterthur_art_museum.jpg"
+    ]
+  },
+  {
+    "slug": "rosengarten",
+    "name": {
+      "tr": "Rosengarten",
+      "en": "Rosengarten",
+      "de": "Rosengarten"
+    },
+    "latitude": 47.499,
+    "longitude": 8.7289,
+    "description": {
+      "tr": "Rosengarten, Winterthur’un en güzel parklarından biridir ve çeşitli güllerle doludur.",
+      "en": "Rosengarten is one of Winterthur’s most beautiful parks, filled with various roses.",
+      "de": "Der Rosengarten ist einer der schönsten Parks in Winterthur und ist mit verschiedenen Rosen bedeckt."
+    },
+    "activities": {
+      "tr": [
+        "Gülleri incelemek",
+        "Doğada yürüyüş yapmak"
+      ],
+      "en": [
+        "Examine the roses",
+        "Take a walk in nature"
+      ],
+      "de": [
+        "Die Rosen betrachten",
+        "Spaziergang in der Natur machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/rosengarten.jpg"
+    ]
+  },
+  {
+    "slug": "eulachpark",
+    "name": {
+      "tr": "Eulachpark",
+      "en": "Eulachpark",
+      "de": "Eulachpark"
+    },
+    "latitude": 47.4944,
+    "longitude": 8.7253,
+    "description": {
+      "tr": "Eulachpark, şehirdeki sakin bir parktır ve nehir kenarında yürüyüş yapabileceğiniz alanlar sunar.",
+      "en": "Eulachpark is a tranquil park in the city, offering areas for walking along the river.",
+      "de": "Der Eulachpark ist ein ruhiger Park in der Stadt, der Bereiche zum Spazieren am Flussufer bietet."
+    },
+    "activities": {
+      "tr": [
+        "Parkta gezmek",
+        "Nehir kenarında yürüyüş yapmak"
+      ],
+      "en": [
+        "Walk in the park",
+        "Take a walk along the river"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Am Flussufer spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/eulachpark.jpg"
+    ]
+  }
+]

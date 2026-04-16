@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "hans-christian-andersen-muzesi",
+    "name": {
+      "tr": "Hans Christian Andersen Müzesi",
+      "en": "Hans Christian Andersen Museum",
+      "de": "Hans Christian Andersen Museum"
+    },
+    "latitude": 55.4038,
+    "longitude": 10.4024,
+    "description": {
+      "tr": "Hans Christian Andersen Müzesi, ünlü yazarın doğduğu şehirde yer alır. Müzede Andersen’in hayatı, eserleri ve kişisel eşyaları sergilenmektedir.",
+      "en": "The Hans Christian Andersen Museum is located in the author’s birthplace city. The museum exhibits Andersen’s life, works, and personal items.",
+      "de": "Das Hans Christian Andersen Museum befindet sich in der Geburtsstadt des berühmten Autors. Im Museum werden Andersens Leben, Werke und persönliche Gegenstände ausgestellt."
+    },
+    "activities": {
+      "tr": [
+        "Andersen’in hayatını keşfetmek",
+        "Yazarın eserlerini okumak",
+        "Müzeyi gezmek"
+      ],
+      "en": [
+        "Exploring Andersen’s life",
+        "Reading the author’s works",
+        "Visiting the museum"
+      ],
+      "de": [
+        "Das Leben von Andersen erkunden",
+        "Die Werke des Autors lesen",
+        "Das Museum besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/hans_christian_andersen_museum.jpg"
+    ]
+  },
+  {
+    "slug": "odense-zoo",
+    "name": {
+      "tr": "Odense Zoo",
+      "en": "Odense Zoo",
+      "de": "Odense Zoo"
+    },
+    "latitude": 55.3985,
+    "longitude": 10.4211,
+    "description": {
+      "tr": "Odense Zoo, özellikle çocuklar için eğlenceli bir yerdir. Hayvanat bahçesinde çok sayıda farklı türde hayvan bulunmaktadır.",
+      "en": "Odense Zoo is a fun place, especially for children. The zoo houses a wide variety of animals from different species.",
+      "de": "Der Odense Zoo ist ein unterhaltsamer Ort, besonders für Kinder. Der Zoo beherbergt eine Vielzahl von Tieren aus verschiedenen Arten."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları görmek",
+        "Eğlenceli aktivitelerde yer almak"
+      ],
+      "en": [
+        "Seeing the animals",
+        "Participating in fun activities"
+      ],
+      "de": [
+        "Die Tiere sehen",
+        "An unterhaltsamen Aktivitäten teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "hayvanat bahçesi"
+      ],
+      "en": [
+        "zoo"
+      ],
+      "de": [
+        "zoo"
+      ]
+    },
+    "images": [
+      "https://example.com/odense_zoo.jpg"
+    ]
+  },
+  {
+    "slug": "odense-katedrali",
+    "name": {
+      "tr": "Odense Katedrali",
+      "en": "Odense Cathedral",
+      "de": "Odense Dom"
+    },
+    "latitude": 55.4024,
+    "longitude": 10.3933,
+    "description": {
+      "tr": "Odense Katedrali, 11. yüzyıldan kalma gotik tarzda bir yapıdır. Katedral, şehrin en önemli dini yapılarından biridir.",
+      "en": "Odense Cathedral is a Gothic-style building dating back to the 11th century. It is one of the most important religious structures in the city.",
+      "de": "Der Odense Dom ist ein gotisches Gebäude aus dem 11. Jahrhundert. Es ist eines der wichtigsten religiösen Bauwerke der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etmek",
+        "Gotik mimarisiyle büyülenmek"
+      ],
+      "en": [
+        "Visiting the cathedral",
+        "Admiring its Gothic architecture"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die gotische Architektur bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "Kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/odense_cathedral.jpg"
+    ]
+  }
+]

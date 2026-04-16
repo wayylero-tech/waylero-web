@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "leipzig-universitesi",
+    "name": {
+      "tr": "Leipzig Üniversitesi",
+      "en": "Leipzig University",
+      "de": "Universität Leipzig"
+    },
+    "latitude": 51.3397,
+    "longitude": 12.3731,
+    "description": {
+      "tr": "Leipzig Üniversitesi, Almanya'nın en eski üniversitelerinden biridir ve şehrin kültürel mirasının önemli bir parçasıdır.",
+      "en": "Leipzig University is one of Germany's oldest universities and an important part of the city's cultural heritage.",
+      "de": "Die Universität Leipzig ist eine der ältesten Universitäten Deutschlands und ein wichtiger Teil des kulturellen Erbes der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Üniversiteyi keşfetme",
+        "Tarihi kampüsü gezme"
+      ],
+      "en": [
+        "Explore the university",
+        "Tour the historic campus"
+      ],
+      "de": [
+        "Die Universität erkunden",
+        "Den historischen Campus besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/leipzig_university.jpg"
+    ]
+  },
+  {
+    "slug": "st-thomas-kilisesi",
+    "name": {
+      "tr": "St. Thomas Kilisesi",
+      "en": "St. Thomas Church",
+      "de": "Thomaskirche"
+    },
+    "latitude": 51.3407,
+    "longitude": 12.3805,
+    "description": {
+      "tr": "St. Thomas Kilisesi, Johann Sebastian Bach'ın yaşamının önemli bir bölümünü geçirdiği yerdir ve tarihi bir müzik merkezidir.",
+      "en": "St. Thomas Church is the place where Johann Sebastian Bach spent an important part of his life and is a historic music center.",
+      "de": "Die Thomaskirche ist der Ort, an dem Johann Sebastian Bach einen wichtigen Teil seines Lebens verbrachte und ein historisches Musikzentrum ist."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini gezme",
+        "Müzik tarihi hakkında bilgi edinme"
+      ],
+      "en": [
+        "Tour the church",
+        "Learn about music history"
+      ],
+      "de": [
+        "Die Kirche besichtigen",
+        "Mehr über die Musikgeschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/st_thomas_church.jpg"
+    ]
+  }
+]

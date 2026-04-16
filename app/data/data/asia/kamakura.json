@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "buyuk-buda-daibutsu",
+    "name": {
+      "tr": "Büyük Buda (Daibutsu)",
+      "en": "Great Buddha (Daibutsu)",
+      "de": "Großer Buddha (Daibutsu)"
+    },
+    "latitude": 35.3167,
+    "longitude": 139.535,
+    "description": {
+      "tr": "Kamakura'nın simgesi olan Büyük Buda, açık havada oturan dev bronz bir heykeldir. 13. yüzyılda yapılmış olan bu heykel, yaklaşık 11 metre yüksekliğindedir ve Japonya’daki en büyük ikinci Buda heykelidir. Sessiz atmosferi ve tarihi değeriyle dikkat çeker.\n",
+      "en": "The Great Buddha of Kamakura is an iconic outdoor bronze statue of Amida Buddha, dating back to the 13th century. Standing about 11 meters tall, it is the second-largest Buddha statue in Japan. It offers a serene and historical atmosphere.\n",
+      "de": "Der Große Buddha von Kamakura ist eine ikonische bronzene Buddha-Statue aus dem 13. Jahrhundert. Mit einer Höhe von etwa 11 Metern ist sie die zweitgrößte Buddhastatue Japans und vermittelt eine ruhige, geschichtsträchtige Atmosphäre.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi ziyaret",
+        "Fotoğrafçılık",
+        "Tapınak atmosferi"
+      ],
+      "en": [
+        "Historical visit",
+        "Photography",
+        "Temple ambiance"
+      ],
+      "de": [
+        "Historischer Besuch",
+        "Fotografie",
+        "Tempelatmosphäre"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/kamakura-daibutsu.jpg"
+    ]
+  },
+  {
+    "slug": "hasedera-tapinagi",
+    "name": {
+      "tr": "Hasedera Tapınağı",
+      "en": "Hasedera Temple",
+      "de": "Hasedera-Tempel"
+    },
+    "latitude": 35.3122,
+    "longitude": 139.5316,
+    "description": {
+      "tr": "Hasedera Tapınağı, özellikle büyük Kannon (merhamet tanrıçası) heykeliyle bilinir. Tapınak alanı, mevsimlik çiçekler, deniz manzaraları ve huzurlu atmosferiyle öne çıkar. Ayrıca küçük mağaralar ve taş figürler de görülmeye değerdir.\n",
+      "en": "Hasedera Temple is famous for its large statue of Kannon, the goddess of mercy. The temple grounds feature seasonal flowers, ocean views, and a tranquil ambiance. Small caves and stone statues add to its charm.\n",
+      "de": "Der Hasedera-Tempel ist für seine große Statue der Kannon, der Göttin der Barmherzigkeit, bekannt. Die Tempelanlage bietet saisonale Blumen, Meeresblicke und eine friedliche Atmosphäre. Kleine Höhlen und Steinfiguren sind ebenfalls sehenswert.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Manzara keyfi",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Temple visit",
+        "Scenic views",
+        "Photography"
+      ],
+      "de": [
+        "Tempelbesuch",
+        "Aussicht genießen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/hasedera.jpg"
+    ]
+  },
+  {
+    "slug": "tsurugaoka-hachimangu-tapinagi",
+    "name": {
+      "tr": "Tsurugaoka Hachimangu Tapınağı",
+      "en": "Tsurugaoka Hachimangu Shrine",
+      "de": "Tsurugaoka Hachimangu-Schrein"
+    },
+    "latitude": 35.3261,
+    "longitude": 139.5563,
+    "description": {
+      "tr": "Kamakura'nın en önemli Şinto tapınağıdır. 11. yüzyılda inşa edilen Tsurugaoka Hachimangu, samuray kültürüyle bağlantılıdır. Tapınak alanı, merdivenlerle ulaşılan ana bina, göletler ve kiraz ağaçları ile ünlüdür.\n",
+      "en": "Tsurugaoka Hachimangu is Kamakura’s most significant Shinto shrine, built in the 11th century and closely tied to samurai culture. The grounds include a main hall atop a grand staircase, ponds, and cherry trees.\n",
+      "de": "Der Tsurugaoka Hachimangu ist der bedeutendste Shinto-Schrein in Kamakura, erbaut im 11. Jahrhundert und eng mit der Samurai-Kultur verbunden. Die Anlage bietet eine große Treppe, Teiche und Kirschbäume.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Tarih ve kültür",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Shrine visit",
+        "History and culture",
+        "Scenic viewing"
+      ],
+      "de": [
+        "Schreinbesuch",
+        "Geschichte und Kultur",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/tsurugaoka.jpg"
+    ]
+  },
+  {
+    "slug": "kamakura-plajlari",
+    "name": {
+      "tr": "Kamakura Plajları",
+      "en": "Kamakura Beaches",
+      "de": "Strände von Kamakura"
+    },
+    "latitude": 35.3,
+    "longitude": 139.5333,
+    "description": {
+      "tr": "Kamakura’nın kıyı şeridinde yer alan plajlar, yaz aylarında yerel halkın ve turistlerin ilgisini çeker. Yüzme, sörf ve gün batımını izleme gibi aktiviteler sunar. Yuigahama ve Zaimokuza en bilinen plajlarıdır.\n",
+      "en": "The beaches along Kamakura’s coast attract locals and tourists in the summer. Popular for swimming, surfing, and watching sunsets. Yuigahama and Zaimokuza are the most well-known beaches.\n",
+      "de": "Die Strände entlang der Küste von Kamakura sind im Sommer bei Einheimischen und Touristen beliebt. Schwimmen, Surfen und Sonnenuntergänge genießen gehören zu den Hauptaktivitäten. Yuigahama und Zaimokuza sind besonders bekannt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Sörf",
+        "Gün batımı izleme"
+      ],
+      "en": [
+        "Swimming",
+        "Surfing",
+        "Sunset watching"
+      ],
+      "de": [
+        "Schwimmen",
+        "Surfen",
+        "Sonnenuntergang beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/kamakura-beach.jpg"
+    ]
+  }
+]

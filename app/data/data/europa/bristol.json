@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "clifton-suspension-bridge",
+    "name": {
+      "tr": "Clifton Suspension Bridge",
+      "en": "Clifton Suspension Bridge",
+      "de": "Clifton Hängebrücke"
+    },
+    "latitude": 51.4541,
+    "longitude": -2.6172,
+    "description": {
+      "tr": "Clifton Suspension Bridge, Bristol'un simgesi haline gelmiş bir asma köprüdür ve şehri etkileyici şekilde manzaralı bir şekilde geçer.",
+      "en": "Clifton Suspension Bridge is an iconic suspension bridge in Bristol, offering stunning views of the city.",
+      "de": "Die Clifton Hängebrücke ist eine ikonische Hängebrücke in Bristol, die beeindruckende Ausblicke auf die Stadt bietet."
+    },
+    "activities": {
+      "tr": [
+        "Köprüde yürüyüş yapmak",
+        "Köprü manzarasını fotoğraflamak"
+      ],
+      "en": [
+        "Walk on the bridge",
+        "Photograph the bridge view"
+      ],
+      "de": [
+        "Über die Brücke gehen",
+        "Die Brücke fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/clifton_suspension_bridge.jpg"
+    ]
+  },
+  {
+    "slug": "bristol-museum-art-gallery",
+    "name": {
+      "tr": "Bristol Museum & Art Gallery",
+      "en": "Bristol Museum & Art Gallery",
+      "de": "Bristol Museum & Kunstgalerie"
+    },
+    "latitude": 51.4566,
+    "longitude": -2.6003,
+    "description": {
+      "tr": "Bristol Museum & Art Gallery, geniş bir koleksiyon sunan bir müze olup, sanat eserleri, arkeolojik buluntular ve doğa tarihi sergiler.",
+      "en": "Bristol Museum & Art Gallery is a museum offering a wide collection of artworks, archaeological finds, and natural history exhibitions.",
+      "de": "Das Bristol Museum & Kunstgalerie ist ein Museum mit einer breiten Sammlung von Kunstwerken, archäologischen Funden und naturhistorischen Ausstellungen."
+    },
+    "activities": {
+      "tr": [
+        "Sanat sergilerini gezmek",
+        "Müze turu yapmak"
+      ],
+      "en": [
+        "Tour the art exhibitions",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Die Kunstausstellungen besichtigen",
+        "Eine Museumsführung machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/bristol_museum_art_gallery.jpg"
+    ]
+  },
+  {
+    "slug": "ss-great-britain",
+    "name": {
+      "tr": "SS Great Britain",
+      "en": "SS Great Britain",
+      "de": "SS Großbritannien"
+    },
+    "latitude": 51.4543,
+    "longitude": -2.611,
+    "description": {
+      "tr": "SS Great Britain, tarihi bir yolcu gemisi olup, ilk demirden yapılan bu gemi Bristol Limanı’nda sergilenmektedir.",
+      "en": "SS Great Britain is a historic passenger ship, the first iron-hulled ship, now displayed at Bristol Harbour.",
+      "de": "Die SS Great Britain ist ein historisches Passagierschiff, das erste Schiff mit einem Eisenrumpf, das jetzt im Hafen von Bristol ausgestellt ist."
+    },
+    "activities": {
+      "tr": [
+        "Gemiyi gezmek",
+        "Geminin tarihini öğrenmek"
+      ],
+      "en": [
+        "Tour the ship",
+        "Learn about the history of the ship"
+      ],
+      "de": [
+        "Das Schiff besichtigen",
+        "Mehr über die Geschichte des Schiffes erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/ss_great_britain.jpg"
+    ]
+  },
+  {
+    "slug": "cabot-tower",
+    "name": {
+      "tr": "Cabot Tower",
+      "en": "Cabot Tower",
+      "de": "Cabot Turm"
+    },
+    "latitude": 51.4569,
+    "longitude": -2.5969,
+    "description": {
+      "tr": "Cabot Tower, şehri yüksek bir noktadan görmek için mükemmel bir gözlem kulesidir.",
+      "en": "Cabot Tower is a great observation tower offering views of the city from a high vantage point.",
+      "de": "Der Cabot Turm ist ein hervorragender Aussichtsturm, der einen Blick auf die Stadt von einem hohen Aussichtspunkt bietet."
+    },
+    "activities": {
+      "tr": [
+        "Manzara izlemek",
+        "Kuleye tırmanmak"
+      ],
+      "en": [
+        "Enjoy the view",
+        "Climb the tower"
+      ],
+      "de": [
+        "Die Aussicht genießen",
+        "Den Turm erklimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/cabot_tower.jpg"
+    ]
+  },
+  {
+    "slug": "bristol-zoo-gardens",
+    "name": {
+      "tr": "Bristol Zoo Gardens",
+      "en": "Bristol Zoo Gardens",
+      "de": "Bristol Zoo Garten"
+    },
+    "latitude": 51.454,
+    "longitude": -2.601,
+    "description": {
+      "tr": "Bristol Zoo Gardens, geniş bir vahşi yaşam koleksiyonuna sahip olup, çocuklar ve aileler için harika bir yerdir.",
+      "en": "Bristol Zoo Gardens is a zoo with a wide collection of wildlife, making it a great spot for children and families.",
+      "de": "Der Bristol Zoo Garten ist ein Zoo mit einer breiten Sammlung von Wildtieren, was ihn zu einem großartigen Ort für Kinder und Familien macht."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanat bahçesini gezmek",
+        "Vahşi yaşamı keşfetmek"
+      ],
+      "en": [
+        "Explore the zoo",
+        "Discover wildlife"
+      ],
+      "de": [
+        "Den Zoo erkunden",
+        "Wildtiere entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/bristol_zoo.jpg"
+    ]
+  }
+]

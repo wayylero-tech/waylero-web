@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "lake-st-moritz",
+    "name": {
+      "tr": "Lake St. Moritz",
+      "en": "Lake St. Moritz",
+      "de": "Lake St. Moritz"
+    },
+    "latitude": 46.4982,
+    "longitude": 9.838,
+    "description": {
+      "tr": "Lake St. Moritz, Alpler'in büyüleyici manzarası eşliğinde, yaz aylarında yürüyüş ve kış aylarında kayak aktiviteleri sunan bir göldür.",
+      "en": "Lake St. Moritz is a lake offering hiking in the summer and skiing in the winter, with stunning views of the Alps.",
+      "de": "Der Lake St. Moritz ist ein See, der im Sommer Wanderungen und im Winter Skifahren mit atemberaubendem Blick auf die Alpen bietet."
+    },
+    "activities": {
+      "tr": [
+        "Göl etrafında yürüyüş yapmak",
+        "Kış sporlarını denemek"
+      ],
+      "en": [
+        "Walk around the lake",
+        "Try winter sports"
+      ],
+      "de": [
+        "Um den See spazieren gehen",
+        "Wintersportarten ausprobieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_st_moritz.jpg"
+    ]
+  },
+  {
+    "slug": "corviglia-ski-resort",
+    "name": {
+      "tr": "Corviglia Ski Resort",
+      "en": "Corviglia Ski Resort",
+      "de": "Corviglia Ski Resort"
+    },
+    "latitude": 46.4934,
+    "longitude": 9.8385,
+    "description": {
+      "tr": "Corviglia Ski Resort, St. Moritz'in ünlü kayak merkezlerinden biridir ve kış sporları tutkunları için mükemmel bir destinasyondur.",
+      "en": "Corviglia Ski Resort is one of St. Moritz’s famous ski resorts, offering a perfect destination for winter sports enthusiasts.",
+      "de": "Das Corviglia Ski Resort ist eines der berühmten Skigebiete von St. Moritz und ein perfektes Ziel für Wintersportbegeisterte."
+    },
+    "activities": {
+      "tr": [
+        "Kayak yapmak",
+        "Dağcılık yapmak"
+      ],
+      "en": [
+        "Skiing",
+        "Mountaineering"
+      ],
+      "de": [
+        "Skifahren",
+        "Bergsteigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/corviglia_ski_resort.jpg"
+    ]
+  },
+  {
+    "slug": "segantini-museum",
+    "name": {
+      "tr": "Segantini Museum",
+      "en": "Segantini Museum",
+      "de": "Segantini Museum"
+    },
+    "latitude": 46.4977,
+    "longitude": 9.8355,
+    "description": {
+      "tr": "Segantini Museum, ünlü İsviçreli ressam Giovanni Segantini’nin eserlerini barındıran bir sanat müzesidir.",
+      "en": "The Segantini Museum is an art museum housing the works of the famous Swiss painter Giovanni Segantini.",
+      "de": "Das Segantini Museum ist ein Kunstmuseum, das die Werke des berühmten Schweizer Malers Giovanni Segantini beherbergt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini keşfetmek",
+        "Müze gezisi yapmak"
+      ],
+      "en": [
+        "Explore artworks",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Kunstwerke entdecken",
+        "Eine Museumstour machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/segantini_museum.jpg"
+    ]
+  },
+  {
+    "slug": "piz-nair",
+    "name": {
+      "tr": "Piz Nair",
+      "en": "Piz Nair",
+      "de": "Piz Nair"
+    },
+    "latitude": 46.4911,
+    "longitude": 9.8399,
+    "description": {
+      "tr": "Piz Nair, St. Moritz’e yakın yüksek bir dağdır ve zirveye teleferik ile ulaşılabilir.",
+      "en": "Piz Nair is a high mountain near St. Moritz, accessible by cable car to the summit.",
+      "de": "Piz Nair ist ein hoher Berg in der Nähe von St. Moritz, der mit der Seilbahn zum Gipfel erreicht werden kann."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Zirveden manzara izlemek"
+      ],
+      "en": [
+        "Climb the mountain",
+        "Enjoy the view from the summit"
+      ],
+      "de": [
+        "Den Berg besteigen",
+        "Die Aussicht vom Gipfel genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/piz_nair.jpg"
+    ]
+  },
+  {
+    "slug": "st-moritz-design-gallery",
+    "name": {
+      "tr": "St. Moritz Design Gallery",
+      "en": "St. Moritz Design Gallery",
+      "de": "St. Moritz Design Gallery"
+    },
+    "latitude": 46.4971,
+    "longitude": 9.8372,
+    "description": {
+      "tr": "St. Moritz Design Gallery, modern ve çağdaş tasarımları sergileyen bir galeri olarak tasarım tutkunları için ilgi çekici bir yerdir.",
+      "en": "The St. Moritz Design Gallery is a gallery showcasing modern and contemporary designs, making it an interesting spot for design enthusiasts.",
+      "de": "Die St. Moritz Design Gallery ist eine Galerie, die moderne und zeitgenössische Designs ausstellt und ein interessantes Ziel für Designliebhaber darstellt."
+    },
+    "activities": {
+      "tr": [
+        "Tasarım galerisi gezisi",
+        "Sanat ve tasarımı incelemek"
+      ],
+      "en": [
+        "Visit the design gallery",
+        "Explore art and design"
+      ],
+      "de": [
+        "Die Design-Galerie besichtigen",
+        "Kunst und Design erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/st_moritz_design_gallery.jpg"
+    ]
+  }
+]

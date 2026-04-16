@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "etna-yanardagi",
+    "name": {
+      "tr": "Etna Yanardağı",
+      "en": "Mount Etna",
+      "de": "Ätna"
+    },
+    "latitude": 37.751,
+    "longitude": 15.0049,
+    "description": {
+      "tr": "Etna Yanardağı, Avrupa'nın en aktif yanardağıdır ve Catania şehrine yakın konumda yer almaktadır.",
+      "en": "Mount Etna is Europe's most active volcano and is located near the city of Catania.",
+      "de": "Der Ätna ist der aktivste Vulkan Europas und liegt in der Nähe der Stadt Catania."
+    },
+    "activities": {
+      "tr": [
+        "Yanardağa tırmanma",
+        "Yanardağın etrafında yürüyüş yapma"
+      ],
+      "en": [
+        "Climb the volcano",
+        "Hike around the volcano"
+      ],
+      "de": [
+        "Den Vulkan erklimmen",
+        "Um den Vulkan wandern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/etna_volcano.jpg"
+    ]
+  },
+  {
+    "slug": "catania-katedrali",
+    "name": {
+      "tr": "Catania Katedrali",
+      "en": "Catania Cathedral",
+      "de": "Kathedrale von Catania"
+    },
+    "latitude": 37.5096,
+    "longitude": 15.0878,
+    "description": {
+      "tr": "Catania Katedrali, şehirdeki en önemli dini yapıdır ve Barok tarzında inşa edilmiştir.",
+      "en": "Catania Cathedral is the most important religious structure in the city and was built in Baroque style.",
+      "de": "Die Kathedrale von Catania ist das wichtigste religiöse Gebäude der Stadt und wurde im Barockstil erbaut."
+    },
+    "activities": {
+      "tr": [
+        "Katedralin içini gezme",
+        "Tarihi yapıyı keşfetme"
+      ],
+      "en": [
+        "Tour the interior of the cathedral",
+        "Explore the historic structure"
+      ],
+      "de": [
+        "Das Innere der Kathedrale besichtigen",
+        "Das historische Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/catania_cathedral.jpg"
+    ]
+  }
+]

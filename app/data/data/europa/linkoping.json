@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "linkoping-katedrali",
+    "name": {
+      "tr": "Linköping Katedrali",
+      "en": "Linköping Cathedral",
+      "de": "Linköping Kathedrale"
+    },
+    "latitude": 58.41,
+    "longitude": 15.6212,
+    "description": {
+      "tr": "Linköping Katedrali, Gotik mimarisiyle dikkat çeken tarihi bir kilisedir.",
+      "en": "Linköping Cathedral is a historic church known for its Gothic architecture.",
+      "de": "Die Linköping Kathedrale ist eine historische Kirche, die für ihre gotische Architektur bekannt ist."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezmek",
+        "Mimari detayları incelemek"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/linkoping_katedrali.jpg"
+    ]
+  },
+  {
+    "slug": "linkoping-muzesi",
+    "name": {
+      "tr": "Linköping Müzesi",
+      "en": "Linköping Museum",
+      "de": "Linköping Museum"
+    },
+    "latitude": 58.412,
+    "longitude": 15.625,
+    "description": {
+      "tr": "Linköping Müzesi, şehir tarihi ve kültürel mirasını sergileyen bir müzedir.",
+      "en": "Linköping Museum is a museum showcasing the city’s history and cultural heritage.",
+      "de": "Das Linköping Museum ist ein Museum, das die Geschichte und das kulturelle Erbe der Stadt zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi yapmak",
+        "Yerel kültürü keşfetmek"
+      ],
+      "en": [
+        "Visit the museum",
+        "Explore the local culture"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Die lokale Kultur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/linkoping_muze.jpg"
+    ]
+  },
+  {
+    "slug": "st-ng-parki",
+    "name": {
+      "tr": "Stångå Parkı",
+      "en": "Stångå Park",
+      "de": "Stångå Park"
+    },
+    "latitude": 58.4085,
+    "longitude": 15.6227,
+    "description": {
+      "tr": "Stångå Parkı, şehri doğayla buluşturan geniş bir parktır ve yürüyüş yapmak için idealdir.",
+      "en": "Stångå Park is a large park that connects the city with nature, ideal for walks.",
+      "de": "Der Stångå Park ist ein großer Park, der die Stadt mit der Natur verbindet und ideal für Spaziergänge ist."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Doğayı keşfetmek"
+      ],
+      "en": [
+        "Take a walk in the park",
+        "Explore nature"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Die Natur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/stanga_parki.jpg"
+    ]
+  },
+  {
+    "slug": "swedish-air-force-museum",
+    "name": {
+      "tr": "Swedish Air Force Museum",
+      "en": "Swedish Air Force Museum",
+      "de": "Schweden Luftwaffenmuseum"
+    },
+    "latitude": 58.4092,
+    "longitude": 15.5942,
+    "description": {
+      "tr": "Swedish Air Force Museum, İsveç hava kuvvetlerine ait uçakları ve tarihi sergileyen büyük bir müzedir.",
+      "en": "The Swedish Air Force Museum is a large museum showcasing aircraft and history from the Swedish Air Force.",
+      "de": "Das Swedish Air Force Museum ist ein großes Museum, das Flugzeuge und die Geschichte der schwedischen Luftwaffe zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Uçakları görmek",
+        "Hava kuvvetleri tarihini keşfetmek"
+      ],
+      "en": [
+        "See the aircraft",
+        "Explore the history of the Air Force"
+      ],
+      "de": [
+        "Die Flugzeuge ansehen",
+        "Die Geschichte der Luftwaffe erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/air_force_muze.jpg"
+    ]
+  },
+  {
+    "slug": "linkoping-universitesi-botanik-bahcesi",
+    "name": {
+      "tr": "Linköping Üniversitesi Botanik Bahçesi",
+      "en": "Linköping University Botanical Garden",
+      "de": "Botanischer Garten der Universität Linköping"
+    },
+    "latitude": 58.413,
+    "longitude": 15.6219,
+    "description": {
+      "tr": "Linköping Üniversitesi Botanik Bahçesi, çeşitli bitki koleksiyonlarıyla dolu huzurlu bir alandır.",
+      "en": "Linköping University Botanical Garden is a peaceful area filled with a variety of plant collections.",
+      "de": "Der Botanische Garten der Universität Linköping ist ein friedlicher Bereich, der mit einer Vielzahl von Pflanzensammlungen gefüllt ist."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeyi gezmek",
+        "Botanik örneklerini keşfetmek"
+      ],
+      "en": [
+        "Explore the garden",
+        "Discover the botanical specimens"
+      ],
+      "de": [
+        "Den Garten erkunden",
+        "Die botanischen Exemplare entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/linkoping_bahce.jpg"
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "arendal-eski-sehri",
+    "name": {
+      "tr": "Arendal Eski Şehri",
+      "en": "Arendal Old Town",
+      "de": "Arendal Altstadt"
+    },
+    "latitude": 58.4673,
+    "longitude": 8.7742,
+    "description": {
+      "tr": "Arendal Eski Şehri, Norveç'in en güzel eski şehirlerinden biridir. Renkli evler ve tarihi sokaklar arasında gezilebilir.",
+      "en": "Arendal Old Town is one of Norway's most beautiful old towns. You can walk between colorful houses and historic streets.",
+      "de": "Die Altstadt von Arendal ist eine der schönsten Altstädte Norwegens. Man kann zwischen bunten Häusern und historischen Straßen spazieren."
+    },
+    "activities": {
+      "tr": [
+        "Eski şehirde gezme",
+        "Tarihi yapıları inceleme"
+      ],
+      "en": [
+        "Walk through the old town",
+        "Explore the historic buildings"
+      ],
+      "de": [
+        "Durch die Altstadt spazieren",
+        "Die historischen Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/arendal_old_town.jpg"
+    ]
+  },
+  {
+    "slug": "hove-leir",
+    "name": {
+      "tr": "Hove Leir",
+      "en": "Hove Leir",
+      "de": "Hove Leir"
+    },
+    "latitude": 58.4639,
+    "longitude": 8.7149,
+    "description": {
+      "tr": "Hove Leir, Arendal'a yakın bir doğa alanıdır. Yürüyüşler yapabilir ve doğal güzellikleri keşfedebilirsiniz.",
+      "en": "Hove Leir is a nature area near Arendal. You can go hiking and explore the natural beauty.",
+      "de": "Hove Leir ist ein Naturgebiet in der Nähe von Arendal. Man kann wandern und die natürliche Schönheit erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapma",
+        "Kamp yapma"
+      ],
+      "en": [
+        "Go hiking",
+        "Camp in nature"
+      ],
+      "de": [
+        "Wandern gehen",
+        "In der Natur campen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/hove_leir.jpg"
+    ]
+  }
+]

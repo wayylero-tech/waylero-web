@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "mount-apo",
+    "name": {
+      "tr": "Mount Apo",
+      "en": "Mount Apo",
+      "de": "Mount Apo"
+    },
+    "latitude": 7.0911,
+    "longitude": 125.2645,
+    "description": {
+      "tr": "Mount Apo, Filipinler’in en yüksek dağıdır ve dağcılar için popüler bir tırmanış rotasıdır. Doğa severler için muazzam bir doğa harikasıdır.",
+      "en": "Mount Apo is the highest peak in the Philippines and a popular trekking route for mountaineers. It is a natural wonder for nature lovers.",
+      "de": "Der Mount Apo ist der höchste Gipfel der Philippinen und eine beliebte Wanderroute für Bergsteiger. Es ist ein Naturwunder für Naturliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Doğa yürüyüşü yapmak",
+        "Manzaranın tadını çıkarmak"
+      ],
+      "en": [
+        "Climbing the mountain",
+        "Hiking",
+        "Enjoying the view"
+      ],
+      "de": [
+        "Den Berg erklimmen",
+        "Wandern",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_apo.jpg"
+    ]
+  },
+  {
+    "slug": "philippine-eagle-center",
+    "name": {
+      "tr": "Philippine Eagle Center",
+      "en": "Philippine Eagle Center",
+      "de": "Philippine Eagle Center"
+    },
+    "latitude": 7.0828,
+    "longitude": 125.6609,
+    "description": {
+      "tr": "Philippine Eagle Center, Filipinler’in ulusal kuşu olan Filipin Kartalı’nı görebileceğiniz koruma alanıdır. Bu alanda çeşitli kuş türleri de bulunmaktadır.",
+      "en": "The Philippine Eagle Center is a conservation area where you can see the Philippine Eagle, the national bird of the Philippines. It also houses various bird species.",
+      "de": "Das Philippine Eagle Center ist ein Schutzgebiet, in dem man den philippinischen Adler, den Nationalvogel der Philippinen, sehen kann. Es beherbergt auch verschiedene Vogelarten."
+    },
+    "activities": {
+      "tr": [
+        "Filipin Kartalı’nı görmek",
+        "Doğal yaşamı keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Seeing the Philippine Eagle",
+        "Exploring wildlife",
+        "Taking photos"
+      ],
+      "de": [
+        "Den philippinischen Adler sehen",
+        "Die Tierwelt erkunden",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/philippine_eagle_center.jpg"
+    ]
+  },
+  {
+    "slug": "davao-crocodile-park",
+    "name": {
+      "tr": "Davao Crocodile Park",
+      "en": "Davao Crocodile Park",
+      "de": "Davao Crocodile Park"
+    },
+    "latitude": 7.085,
+    "longitude": 125.6478,
+    "description": {
+      "tr": "Davao Crocodile Park, krokodil ve diğer yaban hayvanlarını görebileceğiniz bir parktır. Ayrıca çeşitli eğlenceli etkinlikler de düzenlenmektedir.",
+      "en": "Davao Crocodile Park is a park where you can see crocodiles and other wildlife. It also offers various fun activities.",
+      "de": "Der Davao Crocodile Park ist ein Park, in dem man Krokodile und andere Wildtiere sehen kann. Es werden auch verschiedene unterhaltsame Aktivitäten angeboten."
+    },
+    "activities": {
+      "tr": [
+        "Krokodil görmek",
+        "Yaban hayatını keşfetmek",
+        "Eğlenceli etkinliklere katılmak"
+      ],
+      "en": [
+        "Seeing crocodiles",
+        "Exploring wildlife",
+        "Participating in fun activities"
+      ],
+      "de": [
+        "Krokodile sehen",
+        "Die Tierwelt erkunden",
+        "An unterhaltsamen Aktivitäten teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/davao_crocodile_park.jpg"
+    ]
+  },
+  {
+    "slug": "people-s-park",
+    "name": {
+      "tr": "People’s Park",
+      "en": "People’s Park",
+      "de": "People’s Park"
+    },
+    "latitude": 7.0702,
+    "longitude": 125.6097,
+    "description": {
+      "tr": "People’s Park, Davao şehir merkezine yakın bir büyük parktır. Şelaleler, heykeller ve tropikal bitkilerle doludur.",
+      "en": "People’s Park is a large park located close to Davao city center. It is filled with waterfalls, sculptures, and tropical plants.",
+      "de": "Der People's Park ist ein großer Park in der Nähe des Stadtzentrums von Davao. Er ist mit Wasserfällen, Skulpturen und tropischen Pflanzen gefüllt."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Şelalelerin tadını çıkarmak",
+        "Heykelleri görmek"
+      ],
+      "en": [
+        "Walking in the park",
+        "Enjoying the waterfalls",
+        "Seeing the sculptures"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Die Wasserfälle genießen",
+        "Die Skulpturen sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/peoples_park.jpg"
+    ]
+  },
+  {
+    "slug": "eden-nature-park",
+    "name": {
+      "tr": "Eden Nature Park",
+      "en": "Eden Nature Park",
+      "de": "Eden Nature Park"
+    },
+    "latitude": 7.0874,
+    "longitude": 125.7511,
+    "description": {
+      "tr": "Eden Nature Park, doğal güzelliklerle dolu ve çeşitli yürüyüş parkurlarına sahip bir park alanıdır. Doğa severler için ideal bir yerdir.",
+      "en": "Eden Nature Park is a park filled with natural beauty and offers various hiking trails. It is an ideal spot for nature lovers.",
+      "de": "Der Eden Nature Park ist ein Park voller natürlicher Schönheit und bietet verschiedene Wanderwege. Es ist ein idealer Ort für Naturliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapmak",
+        "Piknik yapmak",
+        "Doğal güzelliklerin tadını çıkarmak"
+      ],
+      "en": [
+        "Hiking in nature",
+        "Picnicking",
+        "Enjoying natural beauty"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Picknicken",
+        "Die natürliche Schönheit genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/eden_nature_park.jpg"
+    ]
+  }
+]

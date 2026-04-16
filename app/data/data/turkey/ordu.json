@@ -1,0 +1,260 @@
+[
+  {
+    "slug": "boztepe",
+    "name": {
+      "tr": "Boztepe",
+      "en": "Boztepe",
+      "de": "Boztepe"
+    },
+    "latitude": 41.00559,
+    "longitude": 37.83896,
+    "description": {
+      "tr": "Boztepe, Ordu'yu yüksekten izleyebileceğiniz harika bir seyir terasıdır. Teleferik ile ulaşabilirsiniz ve Ordu'nun muazzam manzarasının tadını çıkarabilirsiniz.\n",
+      "en": "Boztepe is a great viewing terrace where you can see Ordu from above. You can reach it by cable car and enjoy the magnificent view of Ordu.\n",
+      "de": "Boztepe ist eine großartige Aussichtsplattform, von der aus man Ordu von oben sehen kann. Man kann mit der Seilbahn dorthin gelangen und die beeindruckende Aussicht auf Ordu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Teleferik yolculuğu",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Cable car ride",
+        "Scenic view"
+      ],
+      "de": [
+        "Seilbahnfahrt",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/boztepe.jpg"
+    ]
+  },
+  {
+    "slug": "yason-burnu",
+    "name": {
+      "tr": "Yason Burnu",
+      "en": "Yason Cape",
+      "de": "Yason Kap"
+    },
+    "latitude": 41.13396,
+    "longitude": 37.68238,
+    "description": {
+      "tr": "Yason Burnu, Ordu'nun en güzel doğal alanlarından biridir. Tarihi bir kilisenin bulunduğu bu yarımada, denizle iç içe bir doğa sunar.\n",
+      "en": "Yason Cape is one of Ordu's most beautiful natural areas. This peninsula, with a historic church, offers a nature intertwined with the sea.\n",
+      "de": "Das Yason Kap ist eines der schönsten Naturgebiete von Ordu. Diese Halbinsel mit einer historischen Kirche bietet eine Natur, die mit dem Meer verwoben ist.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğada gezinti",
+        "Deniz kenarında yürüyüş"
+      ],
+      "en": [
+        "Nature walk",
+        "Seaside walk"
+      ],
+      "de": [
+        "Spaziergang in der Natur",
+        "Spaziergang am Meer"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/yason_burnu.jpg"
+    ]
+  },
+  {
+    "slug": "karaoluk-ciseli-selalesi",
+    "name": {
+      "tr": "Karaoluk Çiseli Şelalesi",
+      "en": "Karaoluk Çiseli Waterfall",
+      "de": "Karaoluk Çiseli Wasserfall"
+    },
+    "latitude": 40.99572,
+    "longitude": 37.69447,
+    "description": {
+      "tr": "Çiseli Şelalesi, Ordu'nun en güzel doğal zenginliklerinden biridir. Doğa ile iç içe bir gün geçirmek için harika bir mekandır.\n",
+      "en": "Çiseli Waterfall is one of Ordu's most beautiful natural treasures. It is a great place to spend a day in nature.\n",
+      "de": "Der Çiseli-Wasserfall ist eines der schönsten natürlichen Schätze von Ordu. Es ist ein großartiger Ort, um einen Tag in der Natur zu verbringen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şelale gezisi",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Waterfall tour",
+        "Photography"
+      ],
+      "de": [
+        "Wasserfallbesichtigung",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/ciseli_selalesi.jpg"
+    ]
+  },
+  {
+    "slug": "aybasti-ciseli-selalesi",
+    "name": {
+      "tr": "Aybastı Çiseli Şelalesi",
+      "en": "Aybastı Çiseli Waterfall",
+      "de": "Aybastı Çiseli Wasserfall"
+    },
+    "latitude": 40.69063,
+    "longitude": 37.21711,
+    "description": {
+      "tr": "Çiseli Şelalesi, Ordu'nun en güzel doğal zenginliklerinden biridir. Doğa ile iç içe bir gün geçirmek için harika bir mekandır.\n",
+      "en": "Aybastı Çiseli Waterfall is one of Ordu's most beautiful natural treasures. It is a great place to spend a day in nature.\n",
+      "de": "Der Aybastı-Çiseli-Wasserfall ist einer der schönsten natürlichen Schätze von Ordu. Es ist ein großartiger Ort, um einen Tag in der Natur zu verbringen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şelale gezisi",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Waterfall tour",
+        "Photography"
+      ],
+      "de": [
+        "Wasserfallbesichtigung",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/ciseli_selalesi.jpg"
+    ]
+  },
+  {
+    "slug": "beyalan-ciseli-selalesi",
+    "name": {
+      "tr": "Beyalan Çiseli Şelalesi",
+      "en": "Beyalan Çiseli Waterfall",
+      "de": "Beyalan Çiseli Wasserfall"
+    },
+    "latitude": 40.76235,
+    "longitude": 37.95373,
+    "description": {
+      "tr": "Çiseli Şelalesi, Ordu'nun en güzel doğal zenginliklerinden biridir. Doğa ile iç içe bir gün geçirmek için harika bir mekandır.\n",
+      "en": "Beyalan Çiseli Waterfall is one of Ordu's most beautiful natural treasures. It is a great place to spend a day in nature.\n",
+      "de": "Der Beyalan-Çiseli-Wasserfall ist einer der schönsten natürlichen Schätze von Ordu. Es ist ein großartiger Ort, um einen Tag in der Natur zu verbringen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şelale gezisi",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Waterfall tour",
+        "Photography"
+      ],
+      "de": [
+        "Wasserfallbesichtigung",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/ciseli_selalesi.jpg"
+    ]
+  },
+  {
+    "slug": "persembe-yaylasi",
+    "name": {
+      "tr": "Perşembe Yaylası",
+      "en": "Perşembe Plateau",
+      "de": "Perşembe Plateau"
+    },
+    "latitude": 40.62814,
+    "longitude": 37.2967,
+    "description": {
+      "tr": "Perşembe Yaylası, Ordu'nun eşsiz doğasında doğa yürüyüşleri yapabileceğiniz, yayla havası alabileceğiniz bir yerdir.\n",
+      "en": "Perşembe Plateau is a place where you can take nature walks and enjoy the cool plateau air in Ordu's unique nature.\n",
+      "de": "Das Perşembe-Plateau ist ein Ort, an dem man in der einzigartigen Natur von Ordu Wanderungen unternehmen und die frische Plateau-Luft genießen kann.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Piknik yapma"
+      ],
+      "en": [
+        "Nature walk",
+        "Picnicking"
+      ],
+      "de": [
+        "Wanderung in der Natur",
+        "Picknick"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "yayla"
+      ],
+      "en": [
+        "plateau"
+      ],
+      "de": [
+        "hochland"
+      ]
+    },
+    "images": [
+      "https://example.com/persembe_yaylasi.jpg"
+    ]
+  }
+]

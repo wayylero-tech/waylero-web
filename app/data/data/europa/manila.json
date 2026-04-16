@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "intramuros",
+    "name": {
+      "tr": "Intramuros",
+      "en": "Intramuros",
+      "de": "Intramuros"
+    },
+    "latitude": 14.5917,
+    "longitude": 120.9762,
+    "description": {
+      "tr": "Intramuros, Manila'nın tarihi bölgesidir ve 16. yüzyıldan kalma surlar, eski kiliseler ve şehri çevreleyen surlarla ünlüdür. Kolonyal dönemin izlerini taşıyan bu bölge, Manila'nın kültürel mirasının en önemli parçalarından biridir.",
+      "en": "Intramuros is the historic district of Manila, famous for its 16th-century walls, old churches, and the fortifications surrounding the city. This area holds significant cultural heritage from the colonial era.",
+      "de": "Intramuros ist das historische Viertel von Manila, das für seine Mauern aus dem 16. Jahrhundert, alte Kirchen und die Befestigungsanlagen rund um die Stadt bekannt ist. Dieses Gebiet ist ein bedeutender Teil des kulturellen Erbes der Kolonialzeit."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıları gezmek",
+        "Eski kiliseleri ziyaret etmek",
+        "Surlardan manzarayı izlemek"
+      ],
+      "en": [
+        "Exploring historical buildings",
+        "Visiting old churches",
+        "Viewing the city from the walls"
+      ],
+      "de": [
+        "Historische Gebäude erkunden",
+        "Alte Kirchen besichtigen",
+        "Die Stadt von den Mauern aus sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/intramuros.jpg"
+    ]
+  },
+  {
+    "slug": "rizal-park-luneta-park",
+    "name": {
+      "tr": "Rizal Park (Luneta Park)",
+      "en": "Rizal Park (Luneta Park)",
+      "de": "Rizal Park (Luneta Park)"
+    },
+    "latitude": 14.5807,
+    "longitude": 120.9797,
+    "description": {
+      "tr": "Rizal Park, Filipinler'in ulusal kahramanı José Rizal'ın anısına yapılmış büyük bir park ve anıttır. Manila'nın merkezine yakın olan bu park, hem tarihi hem de doğa ile iç içe bir gezi noktasıdır.",
+      "en": "Rizal Park is a large park and monument dedicated to the national hero of the Philippines, José Rizal. Located close to the center of Manila, it is a place where history and nature blend.",
+      "de": "Der Rizal Park ist ein großer Park und Denkmal, das dem Nationalhelden der Philippinen, José Rizal, gewidmet ist. Der Park, der sich in der Nähe des Zentrums von Manila befindet, ist ein Ort, an dem Geschichte und Natur miteinander verschmelzen."
+    },
+    "activities": {
+      "tr": [
+        "José Rizal'ın anıtını görmek",
+        "Parkta yürüyüş yapmak",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Seeing the José Rizal monument",
+        "Walking in the park",
+        "Enjoying nature"
+      ],
+      "de": [
+        "Das José Rizal-Denkmal sehen",
+        "Im Park spazieren gehen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/rizal_park.jpg"
+    ]
+  },
+  {
+    "slug": "manila-ocean-park",
+    "name": {
+      "tr": "Manila Ocean Park",
+      "en": "Manila Ocean Park",
+      "de": "Manila Ocean Park"
+    },
+    "latitude": 14.5833,
+    "longitude": 120.9814,
+    "description": {
+      "tr": "Manila Ocean Park, deniz canlılarıyla dolu büyük bir akvaryum ve su altı tüneline sahip bir tema parkıdır. Ziyaretçiler, su altı dünyasını keşfederken, farklı deniz hayvanlarını yakından görebilirler.",
+      "en": "Manila Ocean Park is a theme park with a large aquarium and underwater tunnel filled with marine life. Visitors can explore the underwater world and see various sea creatures up close.",
+      "de": "Der Manila Ocean Park ist ein Themenpark mit einem großen Aquarium und einem Unterwassertunnel, der mit Meereslebewesen gefüllt ist. Besucher können die Unterwasserwelt erkunden und verschiedene Meerestiere aus nächster Nähe sehen."
+    },
+    "activities": {
+      "tr": [
+        "Akvaryumda dolaşmak",
+        "Deniz canlılarını görmek",
+        "Su altı tünelinde yürümek"
+      ],
+      "en": [
+        "Walking through the aquarium",
+        "Seeing marine creatures",
+        "Walking in the underwater tunnel"
+      ],
+      "de": [
+        "Durch das Aquarium gehen",
+        "Meereslebewesen sehen",
+        "Im Unterwassertunnel gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/manila_ocean_park.jpg"
+    ]
+  },
+  {
+    "slug": "san-agustin-church",
+    "name": {
+      "tr": "San Agustin Church",
+      "en": "San Agustin Church",
+      "de": "San Agustin Church"
+    },
+    "latitude": 14.5941,
+    "longitude": 120.979,
+    "description": {
+      "tr": "San Agustin Church, UNESCO Dünya Mirası Listesi'nde yer alan tarihi bir Barok tarzı kilisedir. Manila'nın en eski taş yapısı olup, görkemli iç mekanıyla dikkat çeker.",
+      "en": "San Agustin Church is a historic Baroque-style church listed as a UNESCO World Heritage site. It is the oldest stone structure in Manila and is renowned for its magnificent interior.",
+      "de": "Die San Agustin-Kirche ist eine historische Kirche im Barockstil, die als UNESCO-Weltkulturerbe aufgeführt ist. Sie ist die älteste Steinstruktur in Manila und bekannt für ihr prächtiges Inneres."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini gezmek",
+        "Tarihi yapıyı keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the church interior",
+        "Discovering the historic building",
+        "Taking photos"
+      ],
+      "de": [
+        "Das Kircheninnere erkunden",
+        "Das historische Gebäude entdecken",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/san_agustin_church.jpg"
+    ]
+  },
+  {
+    "slug": "national-museum-complex",
+    "name": {
+      "tr": "National Museum Complex",
+      "en": "National Museum Complex",
+      "de": "National Museum Complex"
+    },
+    "latitude": 14.5775,
+    "longitude": 120.9792,
+    "description": {
+      "tr": "National Museum Complex, Filipinler'in kültürüne ve tarihine dair eserlerin sergilendiği bir müze kompleksidir. Arkeoloji, etnografi ve sanat galerileri ile zengin bir koleksiyona sahiptir.",
+      "en": "The National Museum Complex is a museum complex that showcases exhibits on the culture and history of the Philippines. It has a rich collection of archaeology, ethnography, and art galleries.",
+      "de": "Das National Museum Complex ist ein Museumskomplex, der Ausstellungen zur Kultur und Geschichte der Philippinen zeigt. Es verfügt über eine reiche Sammlung von Archäologie-, Ethnografie- und Kunstgalerien."
+    },
+    "activities": {
+      "tr": [
+        "Müzeleri gezmek",
+        "Sanat eserlerini görmek",
+        "Filipinler tarihini keşfetmek"
+      ],
+      "en": [
+        "Visiting museums",
+        "Seeing artworks",
+        "Exploring Philippine history"
+      ],
+      "de": [
+        "Museen besuchen",
+        "Kunstwerke sehen",
+        "Die Geschichte der Philippinen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "müze"
+      ],
+      "en": [
+        "historic",
+        "museum"
+      ],
+      "de": [
+        "Historisch",
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/national_museum_complex.jpg"
+    ]
+  },
+  {
+    "slug": "fort-santiago",
+    "name": {
+      "tr": "Fort Santiago",
+      "en": "Fort Santiago",
+      "de": "Fort Santiago"
+    },
+    "latitude": 14.5911,
+    "longitude": 120.976,
+    "description": {
+      "tr": "Fort Santiago, Kolonyal döneme ait bir kaledir ve Intramuros'un içinde yer alır. Fort Santiago, tarihsel olarak büyük bir öneme sahip olup, José Rizal'ın hapis tutulduğu yer olarak da bilinir.",
+      "en": "Fort Santiago is a colonial-era fort located within Intramuros. It holds great historical significance and is known for being the place where José Rizal was imprisoned.",
+      "de": "Fort Santiago ist ein Fort aus der Kolonialzeit, das sich innerhalb von Intramuros befindet. Es hat große historische Bedeutung und ist bekannt als der Ort, an dem José Rizal inhaftiert war."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapmak",
+        "Tarihi alanı keşfetmek",
+        "Rizal'ın hapis tutulduğu yeri görmek"
+      ],
+      "en": [
+        "Taking a tour of the fort",
+        "Exploring the historical site",
+        "Visiting the place where Rizal was imprisoned"
+      ],
+      "de": [
+        "Eine Fort-Tour machen",
+        "Die historische Stätte erkunden",
+        "Den Ort besuchen, an dem Rizal inhaftiert war"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/fort_santiago.jpg"
+    ]
+  }
+]

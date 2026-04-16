@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "desert-botanical-garden",
+    "name": {
+      "tr": "Desert Botanical Garden",
+      "en": "Desert Botanical Garden",
+      "de": "Desert Botanical Garden"
+    },
+    "latitude": 33.4668,
+    "longitude": -111.9441,
+    "description": {
+      "tr": "Phoenix'teki Desert Botanical Garden, çöl bitkileri ve manzaralarıyla ünlüdür. Ziyaretçiler, bölgenin özgün bitki örtüsünü keşfederken doğal güzellikleri de görebilir.",
+      "en": "The Desert Botanical Garden in Phoenix is famous for its desert plants and landscapes. Visitors can explore the region's unique flora and enjoy the natural beauty.",
+      "de": "Der Desert Botanical Garden in Phoenix ist berühmt für seine Wüstenpflanzen und -landschaften. Besucher können die einzigartige Flora der Region entdecken und die natürliche Schönheit genießen."
+    },
+    "activities": {
+      "tr": [
+        "Çöl bitkilerini keşfetmek",
+        "Doğal güzellikleri görmek"
+      ],
+      "en": [
+        "Explore desert plants",
+        "Enjoy the natural beauty"
+      ],
+      "de": [
+        "Wüstenpflanzen erkunden",
+        "Die natürliche Schönheit genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/desert_botanical_garden.jpg"
+    ]
+  },
+  {
+    "slug": "camelback-mountain",
+    "name": {
+      "tr": "Camelback Mountain",
+      "en": "Camelback Mountain",
+      "de": "Camelback Mountain"
+    },
+    "latitude": 33.5236,
+    "longitude": -112.0242,
+    "description": {
+      "tr": "Camelback Dağı, Phoenix'in simgelerinden biridir ve yürüyüşçüler için popüler bir yerdir. Zirveye ulaştığınızda şehri yüksekten görebilirsiniz.",
+      "en": "Camelback Mountain is one of Phoenix's landmarks and a popular destination for hikers. Once at the summit, you can enjoy panoramic views of the city.",
+      "de": "Der Camelback Mountain ist ein Wahrzeichen von Phoenix und ein beliebtes Ziel für Wanderer. Vom Gipfel aus können Besucher einen Panoramablick auf die Stadt genießen."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Zirveye çıkmak"
+      ],
+      "en": [
+        "Hike the mountain",
+        "Reach the summit"
+      ],
+      "de": [
+        "Den Berg erklimmen",
+        "Den Gipfel erreichen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/camelback_mountain.jpg"
+    ]
+  },
+  {
+    "slug": "heard-museum",
+    "name": {
+      "tr": "Heard Museum",
+      "en": "Heard Museum",
+      "de": "Heard Museum"
+    },
+    "latitude": 33.4914,
+    "longitude": -112.071,
+    "description": {
+      "tr": "Heard Müzesi, Amerikan Yerlisi kültürüne adanmış bir müzedir. Phoenix'te bulunan bu müze, yerli Amerikan halklarının sanatlarını ve tarihini sergiler.",
+      "en": "The Heard Museum is dedicated to Native American culture and is located in Phoenix. It showcases Native American art and history.",
+      "de": "Das Heard Museum ist der Kultur der amerikanischen Ureinwohner gewidmet und befindet sich in Phoenix. Es zeigt Kunst und Geschichte der Ureinwohner."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Yerli Amerikan kültürünü keşfetmek"
+      ],
+      "en": [
+        "Explore the art galleries",
+        "Learn about Native American culture"
+      ],
+      "de": [
+        "Die Kunstgalerien erkunden",
+        "Mehr über die Kultur der amerikanischen Ureinwohner erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/heard_museum.jpg"
+    ]
+  },
+  {
+    "slug": "south-mountain-park",
+    "name": {
+      "tr": "South Mountain Park",
+      "en": "South Mountain Park",
+      "de": "South Mountain Park"
+    },
+    "latitude": 33.3253,
+    "longitude": -112.126,
+    "description": {
+      "tr": "South Mountain Park, Phoenix'teki büyük bir şehir parkıdır. Ziyaretçilere yürüyüş, bisiklet sürme ve piknik yapma gibi açık hava etkinlikleri sunar.",
+      "en": "South Mountain Park is a large city park in Phoenix, offering outdoor activities such as hiking, biking, and picnicking.",
+      "de": "Der South Mountain Park ist ein großer Stadtpark in Phoenix und bietet Aktivitäten im Freien wie Wandern, Radfahren und Picknicken."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Bisiklet sürmek",
+        "Piknik yapmak"
+      ],
+      "en": [
+        "Hike",
+        "Bike",
+        "Picnic"
+      ],
+      "de": [
+        "Wandern",
+        "Radfahren",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/south_mountain_park.jpg"
+    ]
+  },
+  {
+    "slug": "musical-instrument-museum",
+    "name": {
+      "tr": "Musical Instrument Museum",
+      "en": "Musical Instrument Museum",
+      "de": "Musical Instrument Museum"
+    },
+    "latitude": 33.6436,
+    "longitude": -112.074,
+    "description": {
+      "tr": "Musical Instrument Museum, dünyanın dört bir yanından gelen müzik aletlerini sergileyen eşsiz bir müzedir. Ziyaretçiler, müzik tarihine dair bilgiler edinebilir.",
+      "en": "The Musical Instrument Museum is a unique museum showcasing musical instruments from around the world. Visitors can learn about the history of music.",
+      "de": "Das Musical Instrument Museum ist ein einzigartiges Museum, das Musikinstrumente aus der ganzen Welt zeigt. Besucher können mehr über die Geschichte der Musik erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Müzik aletlerini keşfetmek",
+        "Müzik tarihini öğrenmek"
+      ],
+      "en": [
+        "Explore musical instruments",
+        "Learn about the history of music"
+      ],
+      "de": [
+        "Musikinstrumente erkunden",
+        "Mehr über die Geschichte der Musik erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/musical_instrument_museum.jpg"
+    ]
+  }
+]

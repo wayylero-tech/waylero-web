@@ -1,0 +1,481 @@
+[
+  {
+    "slug": "miniatur-wunderland",
+    "name": {
+      "tr": "Miniatur Wunderland",
+      "en": "Miniatur Wunderland",
+      "de": "Miniatur Wunderland"
+    },
+    "latitude": 53.5522,
+    "longitude": 9.9876,
+    "description": {
+      "tr": "Dünyanın en büyük model demiryolu sergisi olan Miniatur Wunderland, Hamburg'da bulunan ve gerçekçi şekilde tasarlanmış mini tren yolları, şehirler ve manzaralarla büyüleyici bir deneyim sunuyor.\n",
+      "en": "Miniatur Wunderland, the world's largest model railway exhibition, located in Hamburg, offers a mesmerizing experience with its realistic mini train tracks, cities, and landscapes.\n",
+      "de": "Miniatur Wunderland, die größte Modelleisenbahnausstellung der Welt, bietet in Hamburg ein faszinierendes Erlebnis mit realistisch gestalteten Miniatur-Eisenbahnstrecken, Städten und Landschaften.\n"
+    },
+    "activities": {
+      "tr": [
+        "Model tren sergisi",
+        "Fotoğraf çekimi"
+      ],
+      "en": [
+        "Model train exhibition",
+        "Photography"
+      ],
+      "de": [
+        "Modellbahn-Ausstellung",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/Miniatur_Wunderland_Hamburg.jpg"
+    ]
+  },
+  {
+    "slug": "elbphilharmonie",
+    "name": {
+      "tr": "Elbphilharmonie",
+      "en": "Elbphilharmonie",
+      "de": "Elbphilharmonie"
+    },
+    "latitude": 53.5415,
+    "longitude": 9.9835,
+    "description": {
+      "tr": "Elbphilharmonie, Hamburg'un simgelerinden biridir ve muazzam mimarisiyle ünlüdür. Konser salonu ve panoramik terasıyla sanatseverler ve turistler için harika bir mekan.\n",
+      "en": "Elbphilharmonie is one of Hamburg's landmarks, renowned for its stunning architecture. With its concert hall and panoramic terrace, it is a fantastic spot for art lovers and tourists.\n",
+      "de": "Die Elbphilharmonie ist eines der Wahrzeichen Hamburgs und bekannt für ihre atemberaubende Architektur. Mit ihrer Konzerthalle und der Panoramaterrasse ist sie ein fantastischer Ort für Kunstliebhaber und Touristen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Konser dinlemek",
+        "Panoramik manzara"
+      ],
+      "en": [
+        "Attend a concert",
+        "Panoramic view"
+      ],
+      "de": [
+        "Konzert besuchen",
+        "Panoramablick"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/Elbphilharmonie_Hamburg_2018.jpg"
+    ]
+  },
+  {
+    "slug": "st-michael-s-kilisesi",
+    "name": {
+      "tr": "St. Michael’s Kilisesi",
+      "en": "St. Michael’s Church",
+      "de": "St. Michaelis Kirche"
+    },
+    "latitude": 53.5511,
+    "longitude": 9.9817,
+    "description": {
+      "tr": "Hamburg'un en ünlü kiliselerinden biri olan St. Michael’s, Barok tarzı mimarisiyle dikkat çeker. Kilisenin kulesine çıkarak şehrin muazzam manzarasına tanıklık edebilirsiniz.\n",
+      "en": "One of Hamburg's most famous churches, St. Michael's features Baroque-style architecture. You can climb the tower and enjoy breathtaking views of the city.\n",
+      "de": "Die St. Michaeliskirche, eine der bekanntesten Kirchen Hamburgs, besticht durch ihre barocke Architektur. Vom Turm aus können Sie atemberaubende Ausblicke auf die Stadt genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kilise ziyareti",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Church visit",
+        "Viewpoint"
+      ],
+      "de": [
+        "Kirchenbesuch",
+        "Aussichtspunkt"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/St._Michaelis_Church_Hamburg.jpg"
+    ]
+  },
+  {
+    "slug": "planten-un-blomen-parki",
+    "name": {
+      "tr": "Planten un Blomen Parkı",
+      "en": "Planten un Blomen Park",
+      "de": "Planten un Blomen Park"
+    },
+    "latitude": 53.5523,
+    "longitude": 9.9867,
+    "description": {
+      "tr": "Hamburg'un merkezine yakın olan bu büyük park, doğal güzellikleriyle ünlüdür. Parkta yürüyüş yolları, göletler, çocuklar için oyun alanları ve özellikle akşam saatlerinde izlenebilecek ışık gösterileri bulunmaktadır.\n",
+      "en": "Located near the center of Hamburg, this large park is famous for its natural beauty. The park features walking paths, ponds, playgrounds for children, and light shows that can be seen in the evening.\n",
+      "de": "Dieser große Park, der sich in der Nähe des Hamburger Zentrums befindet, ist bekannt für seine natürliche Schönheit. Der Park bietet Spazierwege, Teiche, Spielplätze für Kinder und abendliche Lichtshows.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş",
+        "Işık gösterileri",
+        "Piknik"
+      ],
+      "en": [
+        "Walking",
+        "Light shows",
+        "Picnicking"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Lichtshows",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Planten_un_Blomen_in_Hamburg_2013.jpg"
+    ]
+  },
+  {
+    "slug": "hamburg-hayvanat-bahcesi-tierpark-hagenbeck",
+    "name": {
+      "tr": "Hamburg Hayvanat Bahçesi (Tierpark Hagenbeck)",
+      "en": "Hagenbeck Zoo",
+      "de": "Tierpark Hagenbeck"
+    },
+    "latitude": 53.5924,
+    "longitude": 9.9487,
+    "description": {
+      "tr": "Hamburg'un en eski ve en ünlü hayvanat bahçelerinden biri olan Hagenbeck, egzotik hayvanlar ve açık hava kafesleriyle tanınır. Ayrıca, su dünyası ve akvaryum gibi ilginç alanları da ziyaret edebilirsiniz.\n",
+      "en": "One of Hamburg's oldest and most famous zoos, Hagenbeck is known for its exotic animals and open-air enclosures. You can also visit the aquatic world and the aquarium for additional fun.\n",
+      "de": "Der Tierpark Hagenbeck, einer der ältesten und bekanntesten Zoos in Hamburg, ist bekannt für seine exotischen Tiere und Freiluftgehege. Außerdem können Sie die Wasserwelt und das Aquarium besuchen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları görmek",
+        "Akvaryum ziyareti"
+      ],
+      "en": [
+        "See animals",
+        "Visit the aquarium"
+      ],
+      "de": [
+        "Tiere sehen",
+        "Aquarium besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Tierpark_Hagenbeck_2012.jpg"
+    ]
+  },
+  {
+    "slug": "hamburg-muzesi",
+    "name": {
+      "tr": "Hamburg Müzesi",
+      "en": "Hamburg Museum",
+      "de": "Hamburg Museum"
+    },
+    "latitude": 53.5581,
+    "longitude": 9.9747,
+    "description": {
+      "tr": "Hamburg'un tarihini ve kültürünü keşfetmek isteyenler için mükemmel bir yer. Müzede, şehrin gelişimi, denizcilik tarihi ve şehir hayatı üzerine kapsamlı sergiler bulunur.\n",
+      "en": "The perfect place for those wanting to explore the history and culture of Hamburg. The museum features comprehensive exhibits on the city's development, maritime history, and urban life.\n",
+      "de": "Der perfekte Ort für alle, die die Geschichte und Kultur Hamburgs erkunden möchten. Das Museum bietet umfassende Ausstellungen zur Stadtentwicklung, maritimen Geschichte und dem städtischen Leben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarih keşfi",
+        "Kültürel etkinlik"
+      ],
+      "en": [
+        "History exploration",
+        "Cultural event"
+      ],
+      "de": [
+        "Geschichte erkunden",
+        "Kulturelles Ereignis"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Hamburg_Museum_2018.jpg"
+    ]
+  },
+  {
+    "slug": "alster-golu",
+    "name": {
+      "tr": "Alster Gölü",
+      "en": "Lake Alster",
+      "de": "Alstersee"
+    },
+    "latitude": 53.5522,
+    "longitude": 9.9926,
+    "description": {
+      "tr": "Hamburg'un kalbinde yer alan Alster Gölü, şehre huzur veren bir alan sunar. Göl etrafında yürüyüş yapmak, tekne kiralamak ya da kafelerde dinlenmek için harika bir yerdir.\n",
+      "en": "Located in the heart of Hamburg, Lake Alster provides a peaceful space. It's a great spot for walking around the lake, renting a boat, or relaxing in the cafes along the shore.\n",
+      "de": "Der Alstersee, im Herzen von Hamburg gelegen, bietet einen friedlichen Raum. Es ist ein großartiger Ort zum Spazierengehen um den See, ein Boot zu mieten oder in den Cafés am Ufer zu entspannen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tekne kiralama",
+        "Yürüyüş"
+      ],
+      "en": [
+        "Boat rental",
+        "Walking"
+      ],
+      "de": [
+        "Boot mieten",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/38/Lake_Alster_Hamburg.jpg"
+    ]
+  },
+  {
+    "slug": "planten-un-blomen-parki",
+    "name": {
+      "tr": "Planten un Blomen Parkı",
+      "en": "Planten un Blomen Park",
+      "de": "Planten un Blomen Park"
+    },
+    "latitude": 53.5523,
+    "longitude": 9.9867,
+    "description": {
+      "tr": "Hamburg'un merkezine yakın olan bu büyük park, doğal güzellikleriyle ünlüdür. Parkta yürüyüş yolları, göletler, çocuklar için oyun alanları ve özellikle akşam saatlerinde izlenebilecek ışık gösterileri bulunmaktadır.\n",
+      "en": "Located near the center of Hamburg, this large park is famous for its natural beauty. The park features walking paths, ponds, playgrounds for children, and light shows that can be seen in the evening.\n",
+      "de": "Dieser große Park, der sich in der Nähe des Hamburger Zentrums befindet, ist bekannt für seine natürliche Schönheit. Der Park bietet Spazierwege, Teiche, Spielplätze für Kinder und abendliche Lichtshows.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş",
+        "Işık gösterileri",
+        "Piknik"
+      ],
+      "en": [
+        "Walking",
+        "Light shows",
+        "Picnicking"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Lichtshows",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Planten_un_Blomen_in_Hamburg_2013.jpg"
+    ]
+  },
+  {
+    "slug": "hamburg-hayvanat-bahcesi-tierpark-hagenbeck",
+    "name": {
+      "tr": "Hamburg Hayvanat Bahçesi (Tierpark Hagenbeck)",
+      "en": "Hagenbeck Zoo",
+      "de": "Tierpark Hagenbeck"
+    },
+    "latitude": 53.5924,
+    "longitude": 9.9487,
+    "description": {
+      "tr": "Hamburg'un en eski ve en ünlü hayvanat bahçelerinden biri olan Hagenbeck, egzotik hayvanlar ve açık hava kafesleriyle tanınır. Ayrıca, su dünyası ve akvaryum gibi ilginç alanları da ziyaret edebilirsiniz.\n",
+      "en": "One of Hamburg's oldest and most famous zoos, Hagenbeck is known for its exotic animals and open-air enclosures. You can also visit the aquatic world and the aquarium for additional fun.\n",
+      "de": "Der Tierpark Hagenbeck, einer der ältesten und bekanntesten Zoos in Hamburg, ist bekannt für seine exotischen Tiere und Freiluftgehege. Außerdem können Sie die Wasserwelt und das Aquarium besuchen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Hayvanları görmek",
+        "Akvaryum ziyareti"
+      ],
+      "en": [
+        "See animals",
+        "Visit the aquarium"
+      ],
+      "de": [
+        "Tiere sehen",
+        "Aquarium besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Tierpark_Hagenbeck_2012.jpg"
+    ]
+  },
+  {
+    "slug": "kunsthalle-hamburg",
+    "name": {
+      "tr": "Kunsthalle Hamburg",
+      "en": "Kunsthalle Hamburg",
+      "de": "Kunsthalle Hamburg"
+    },
+    "latitude": 53.5573,
+    "longitude": 9.9741,
+    "description": {
+      "tr": "Hamburg'un en önemli sanat galerilerinden biri olan Kunsthalle, Avrupa sanatının en önemli örneklerini barındırmaktadır. Monet, Picasso ve Rembrandt gibi sanatçılara ait eserler sergilenmektedir.\n",
+      "en": "One of Hamburg's most important art galleries, Kunsthalle houses some of the finest examples of European art. Works by artists such as Monet, Picasso, and Rembrandt are featured.\n",
+      "de": "Die Kunsthalle Hamburg ist eines der wichtigsten Kunstgalerien Hamburgs und beherbergt einige der besten Beispiele europäischer Kunst. Werke von Künstlern wie Monet, Picasso und Rembrandt werden ausgestellt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi ziyareti",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Art gallery visit",
+        "Art discovery"
+      ],
+      "de": [
+        "Kunstgalerie besuchen",
+        "Kunstentdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Kunsthalle_Hamburg.jpg"
+    ]
+  },
+  {
+    "slug": "altona-balkon",
+    "name": {
+      "tr": "Altona Balkon",
+      "en": "Altona Balcony",
+      "de": "Altona Balkon"
+    },
+    "latitude": 53.5584,
+    "longitude": 9.9307,
+    "description": {
+      "tr": "Altona Balkon, Hamburg’un en güzel manzaralarından birini sunan bir noktadır. Elbe Nehri’nin ve şehrin panoramik görüntüsünü görmek için mükemmel bir yerdir.\n",
+      "en": "The Altona Balcony offers one of the most beautiful views of Hamburg. It’s a perfect spot to see a panoramic view of the Elbe River and the city.\n",
+      "de": "Der Altona Balkon bietet einen der schönsten Ausblicke auf Hamburg. Es ist ein perfekter Ort, um einen Panoramablick auf den Fluss Elbe und die Stadt zu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manzara izleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Viewpoint",
+        "Photography"
+      ],
+      "de": [
+        "Aussichtspunkt",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Altona_Balkon_Hamburg.jpg"
+    ]
+  }
+]

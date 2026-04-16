@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "rhodes-antik-kenti",
+    "name": {
+      "tr": "Rhodes Antik Kenti",
+      "en": "Ancient Rhodes City",
+      "de": "Antike Stadt Rhodos"
+    },
+    "latitude": 36.4349,
+    "longitude": 28.2176,
+    "description": {
+      "tr": "Rhodes Antik Kenti, Yunanistan’ın **Rodos Adası**’nda yer alan, antik çağın en önemli şehirlerinden biridir. Antik Rodos, özellikle **Rhodos Colossus** olarak bilinen devasa heykeliyle ünlüdür. Bu heykel, antik dünyanın yedi harikasından biri olarak kabul edilir ve limanı koruyan dev bir figür olarak inşa edilmiştir. Bugün bu heykelin kalıntıları bulunmamaktadır, ancak Rodos'un tarihi ve kültürel zenginliği hâlâ büyük bir ilgi odağıdır.\n\nRodos Antik Kenti, **Hellenistik Dönem**'in en önemli şehirlerinden biri olmasının yanı sıra, Roma ve Orta Çağ'dan da izler taşır. Şehirdeki en dikkat çekici yapılar arasında **Rhodos Akropolis**'i, **Zeus Tapınağı**, **Rodos Agorası** ve **Rodos Tiyatrosu** yer alır. Ayrıca, **Rodos Kalesi** ve **Orta Çağ'dan kalma surlar** da kentin tarihine dair önemli yapılar arasında bulunur.\n\nRodos'un antik kalıntıları, özellikle **Şehir Surları** içinde, tarihi merkezde yer alan **Süleyman Camii**’nin yanı sıra, **Rodos Şövalyeleri**’nin izlerini taşıyan yapılar da dikkat çeker. Bu bölge, Orta Çağ’dan günümüze kadar iyi korunmuş surlar, kaleler ve yapılarla zenginleşmiştir.\n\nRodos Antik Kenti, aynı zamanda **UNESCO Dünya Mirası** Listesi'nde yer almakta olup, antik yapıları, müzeleri ve doğal güzellikleriyle yıl boyunca çok sayıda turist tarafından ziyaret edilmektedir.\n",
+      "en": "The Ancient City of Rhodes is located on **Rhodes Island** in Greece and was one of the most important cities of the ancient world. The city is famous for the **Colossus of Rhodes**, a colossal statue that was one of the Seven Wonders of the Ancient World. This statue, which stood as a guardian at the entrance of the harbor, no longer exists, but the rich history and cultural significance of Rhodes continue to attract visitors.\n\nThe city of Rhodes was a significant center during the **Hellenistic Period** and also bears traces from the Roman and Medieval periods. Notable landmarks include the **Acropolis of Rhodes**, the **Temple of Zeus**, the **Rhodes Agora**, and the **Rhodes Theatre**. The **Rhodes Castle** and the **Medieval Walls** are key historical structures that showcase the city’s diverse history.\n\nWithin the old town, visitors can explore the **City Walls** and the **Suleiman Mosque**, while also discovering medieval structures that were built by the **Knights of Rhodes**. This area, with its well-preserved fortifications and buildings, is a testament to the city's rich past.\n\nThe Ancient City of Rhodes is a **UNESCO World Heritage Site**, attracting thousands of tourists annually to its archaeological sites, museums, and picturesque landscapes.\n",
+      "de": "Die Antike Stadt Rhodos befindet sich auf der **Insel Rhodos** in Griechenland und war eine der wichtigsten Städte der antiken Welt. Die Stadt ist berühmt für den **Koloss von Rhodos**, eine riesige Statue, die zu den sieben Weltwundern der Antike gehörte. Diese Statue, die als Wächter am Eingang des Hafens stand, existiert nicht mehr, aber die reiche Geschichte und kulturelle Bedeutung von Rhodos zieht weiterhin Besucher an.\n\nRhodos war ein bedeutendes Zentrum während der **hellenistischen Periode** und trägt auch Spuren aus der römischen und mittelalterlichen Zeit. Zu den bemerkenswerten Sehenswürdigkeiten gehören die **Akropolis von Rhodos**, der **Tempel des Zeus**, die **Agora von Rhodos** und das **Theater von Rhodos**. Das **Rhodos-Schloss** und die **mittelalterlichen Mauern** sind wichtige historische Bauwerke, die die vielfältige Geschichte der Stadt widerspiegeln.\n\nIm Altstadtbereich können Besucher die **Stadtmauern** und die **Süleyman-Moschee** erkunden und mittelalterliche Bauwerke entdecken, die von den **Rittern von Rhodos** errichtet wurden. Dieser Bereich mit seinen gut erhaltenen Festungen und Gebäuden ist ein Zeugnis der reichen Vergangenheit der Stadt.\n\nDie Antike Stadt Rhodos ist ein **UNESCO-Weltkulturerbe** und zieht jedes Jahr tausende von Touristen an, die die archäologischen Stätten, Museen und malerischen Landschaften besuchen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Koloss Heykeli’nin kalıntılarını görmek",
+        "Rodos Akropolisi’ni gezmek",
+        "Orta Çağ yapıları arasında gezinti yapmak"
+      ],
+      "en": [
+        "See the ruins of the Colossus of Rhodes",
+        "Explore the Acropolis of Rhodes",
+        "Tour the medieval structures"
+      ],
+      "de": [
+        "Die Ruinen des Koloss von Rhodos sehen",
+        "Die Akropolis von Rhodos besichtigen",
+        "Mittelalterliche Bauwerke besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/rhodes_ancient_city.jpg"
+    ]
+  }
+]

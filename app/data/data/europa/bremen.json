@@ -1,0 +1,524 @@
+[
+  {
+    "slug": "bremer-roland-heykeli",
+    "name": {
+      "tr": "Bremer Roland Heykeli",
+      "en": "Bremer Roland Statue",
+      "de": "Bremer Roland Statue"
+    },
+    "latitude": 53.0789,
+    "longitude": 8.8017,
+    "description": {
+      "tr": "Bremer Roland Heykeli, Bremen'in tarihi merkezinde yer alan ve şehrin özgürlüğünü simgeleyen önemli bir anıttır.",
+      "en": "The Bremer Roland Statue is an important monument located in the historic center of Bremen, symbolizing the city's freedom.",
+      "de": "Das Bremer Roland Denkmal ist ein wichtiges Monument im historischen Zentrum von Bremen, das die Freiheit der Stadt symbolisiert."
+    },
+    "activities": {
+      "tr": [
+        "Heykeli ziyaret etme",
+        "Tarihi meydanı keşfetme"
+      ],
+      "en": [
+        "Visit the statue",
+        "Explore the historic square"
+      ],
+      "de": [
+        "Das Denkmal besichtigen",
+        "Den historischen Platz erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/roland_statue.jpg"
+    ]
+  },
+  {
+    "slug": "schnoor-sokagi",
+    "name": {
+      "tr": "Schnoor Sokağı",
+      "en": "Schnoor Street",
+      "de": "Schnoor Straße"
+    },
+    "latitude": 53.0783,
+    "longitude": 8.8012,
+    "description": {
+      "tr": "Schnoor, Bremen'in en eski sokaklarından biridir ve Orta Çağ'dan kalma eski evleriyle ünlüdür.",
+      "en": "Schnoor is one of Bremen's oldest streets and is famous for its medieval houses.",
+      "de": "Schnoor ist eine der ältesten Straßen Bremens und bekannt für ihre mittelalterlichen Häuser."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi sokakta gezme",
+        "Eski evleri inceleme"
+      ],
+      "en": [
+        "Walk through the historic street",
+        "Examine the medieval houses"
+      ],
+      "de": [
+        "Durch die historische Straße gehen",
+        "Die mittelalterlichen Häuser betrachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/schnoor_street.jpg"
+    ]
+  },
+  {
+    "slug": "marktplatz-pazar-meydani",
+    "name": {
+      "tr": "Marktplatz (Pazar Meydanı)",
+      "en": "Marktplatz (Market Square)",
+      "de": "Marktplatz"
+    },
+    "latitude": 53.0758,
+    "longitude": 8.8078,
+    "description": {
+      "tr": "Bremen'in kalbi niteliğindeki bu meydan, şehrin en eski yapılarıyla çevrilidir. Meydanda bulunan Roland Heykeli ve Bremen Belediye Binası, şehrin tarihi dokusunu yansıtan önemli eserlerdir.\n",
+      "en": "This square, the heart of Bremen, is surrounded by the city's oldest buildings. The Roland Statue and Bremen City Hall located in the square are significant landmarks reflecting the city's historical architecture.\n",
+      "de": "Dieser Platz, das Herz von Bremen, ist von den ältesten Gebäuden der Stadt umgeben. Die Roland-Statue und das Bremer Rathaus auf dem Platz sind bedeutende Wahrzeichen, die die historische Architektur der Stadt widerspiegeln.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapı ziyareti",
+        "Fotoğraf çekimi"
+      ],
+      "en": [
+        "Historical site visit",
+        "Photography"
+      ],
+      "de": [
+        "Besuch historischer Stätten",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/marktplatz_bremen.jpg"
+    ]
+  },
+  {
+    "slug": "roland-heykeli",
+    "name": {
+      "tr": "Roland Heykeli",
+      "en": "Roland Statue",
+      "de": "Roland-Statue"
+    },
+    "latitude": 53.0756,
+    "longitude": 8.8076,
+    "description": {
+      "tr": "1404 yılında dikilen bu heykel, Bremen'in özgürlüğünü ve ticaret hukukunu simgeler. UNESCO Dünya Mirası Listesi'nde yer alır.\n",
+      "en": "Erected in 1404, this statue symbolizes Bremen's freedom and commercial law. It is listed as a UNESCO World Heritage site.\n",
+      "de": "Im Jahr 1404 errichtet, symbolisiert diese Statue die Freiheit und das Handelsrecht Bremens. Sie ist als UNESCO-Weltkulturerbe gelistet.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi anıt ziyareti",
+        "Fotoğraf çekimi"
+      ],
+      "en": [
+        "Historical monument visit",
+        "Photography"
+      ],
+      "de": [
+        "Besuch des historischen Denkmals",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/roland_statue_bremen.jpg"
+    ]
+  },
+  {
+    "slug": "bremen-belediye-binasi",
+    "name": {
+      "tr": "Bremen Belediye Binası",
+      "en": "Bremen City Hall",
+      "de": "Bremer Rathaus"
+    },
+    "latitude": 53.0757,
+    "longitude": 8.8077,
+    "description": {
+      "tr": "15. yüzyılda gotik tarzda inşa edilen bu bina, 17. yüzyılda Rönesans stilinde yenilenmiştir. UNESCO Dünya Mirası Listesi'nde yer alır.\n",
+      "en": "Built in the 15th century in Gothic style and renovated in the 17th century in Renaissance style, this building is listed as a UNESCO World Heritage site.\n",
+      "de": "Im 15. Jahrhundert im gotischen Stil erbaut und im 17. Jahrhundert im Renaissance-Stil renoviert, steht dieses Gebäude auf der UNESCO-Weltkulturerbeliste.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mimari keşif",
+        "Tarihî tur"
+      ],
+      "en": [
+        "Architectural tour",
+        "Historical tour"
+      ],
+      "de": [
+        "Architektonische Tour",
+        "Historische Tour"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/bremen_city_hall.jpg"
+    ]
+  },
+  {
+    "slug": "st-peter-s-katedrali",
+    "name": {
+      "tr": "St. Peter’s Katedrali",
+      "en": "St. Peter’s Cathedral",
+      "de": "St. Petri Dom"
+    },
+    "latitude": 53.0759,
+    "longitude": 8.808,
+    "description": {
+      "tr": "1200 yıllık geçmişiyle Bremen'in en eski kilisesidir. Katedralin 256 basamaktan oluşan kulesine çıkarak şehrin panoramik manzarasını seyredebilirsiniz.\n",
+      "en": "With a history of 1200 years, it is Bremen's oldest church. You can climb its 256-step tower to enjoy a panoramic view of the city.\n",
+      "de": "Mit einer 1200-jährigen Geschichte ist es Bremens älteste Kirche. Sie können den 256 Stufen hohen Turm erklimmen, um einen Panoramablick auf die Stadt zu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kubbe manzarası",
+        "Tarihi yapı ziyareti"
+      ],
+      "en": [
+        "Dome view",
+        "Historical site visit"
+      ],
+      "de": [
+        "Kuppelblick",
+        "Besuch historischer Stätten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/st_peter_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "schnoor-mahallesi",
+    "name": {
+      "tr": "Schnoor Mahallesi",
+      "en": "Schnoor Quarter",
+      "de": "Schnoorviertel"
+    },
+    "latitude": 53.0755,
+    "longitude": 8.8075,
+    "description": {
+      "tr": "Bremen'in en eski ve en dar sokaklarına sahip bu bölge, renkli evleri ve sanat galerileriyle ünlüdür. Gezinti yaparken şehrin tarihini hissedebilirsiniz.\n",
+      "en": "This area, with the oldest and narrowest streets of Bremen, is famous for its colorful houses and art galleries. You can feel the city's history while strolling here.\n",
+      "de": "Dieses Viertel, mit den ältesten und schmalsten Straßen Bremens, ist berühmt für seine bunten Häuser und Kunstgalerien. Beim Schlendern können Sie die Geschichte der Stadt spüren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi ziyareti",
+        "Alışveriş",
+        "Kafe molası"
+      ],
+      "en": [
+        "Art gallery visit",
+        "Shopping",
+        "Cafe break"
+      ],
+      "de": [
+        "Besuch von Kunstgalerien",
+        "Einkaufen",
+        "Kaffeepause"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/schnoor_quarter.jpg"
+    ]
+  },
+  {
+    "slug": "bottcherstra-e",
+    "name": {
+      "tr": "Böttcherstraße",
+      "en": "Böttcher Street",
+      "de": "Böttcherstraße"
+    },
+    "latitude": 53.0752,
+    "longitude": 8.8054,
+    "description": {
+      "tr": "1920'lerde ve 1930'larda inşa edilen bu cadde, sıra dışı mimarisi ve sanat galerileriyle dikkat çeker. Paula Modersohn-Becker ve Ludwig Roselius müzelerine ev sahipliği yapar.\n",
+      "en": "Built in the 1920s and 1930s, this street is known for its unique architecture and art galleries. It hosts the Paula Modersohn-Becker Museum and the Ludwig Roselius Museum.\n",
+      "de": "In den 1920er und 1930er Jahren erbaut, ist diese Straße für ihre außergewöhnliche Architektur und Kunstgalerien bekannt. Hier befinden sich das Paula-Modersohn-Becker-Museum und das Ludwig-Roselius-Museum.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat turu",
+        "Tarihi keşif"
+      ],
+      "en": [
+        "Art tour",
+        "Historical discovery"
+      ],
+      "de": [
+        "Kunsttour",
+        "Historische Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Boettcherstrasse_Bremen.jpg"
+    ]
+  },
+  {
+    "slug": "kunsthalle-bremen",
+    "name": {
+      "tr": "Kunsthalle Bremen",
+      "en": "Kunsthalle Bremen",
+      "de": "Kunsthalle Bremen"
+    },
+    "latitude": 53.0735,
+    "longitude": 8.8165,
+    "description": {
+      "tr": "14. yüzyıldan günümüze kadar uzanan Avrupa sanatının en önemli örneklerini içeren bu müzede, Monet, Manet ve Van Gogh gibi sanatçıların eserleri sergilenmektedir.\n",
+      "en": "This museum features masterpieces of European art from the 14th century to the present, including works by Monet, Manet, and Van Gogh.\n",
+      "de": "Dieses Museum zeigt Meisterwerke der europäischen Kunst vom 14. Jahrhundert bis heute, darunter Werke von Monet, Manet und Van Gogh.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi ziyareti",
+        "Kültürel etkinlik"
+      ],
+      "en": [
+        "Art exhibition visit",
+        "Cultural activity"
+      ],
+      "de": [
+        "Kunstbesuch",
+        "Kulturelle Aktivität"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kunsthalle_Bremen_2013.jpg"
+    ]
+  },
+  {
+    "slug": "weserburg-modern-sanat-muzesi",
+    "name": {
+      "tr": "Weserburg Modern Sanat Müzesi",
+      "en": "Weserburg Museum of Modern Art",
+      "de": "Weserburg Museum für moderne Kunst"
+    },
+    "latitude": 53.0732,
+    "longitude": 8.8009,
+    "description": {
+      "tr": "Almanya'nın en büyük modern sanat müzelerinden biri olan Weserburg, çağdaş sanat koleksiyonları ve sergileri ile sanatseverlerin uğrak noktasıdır.\n",
+      "en": "Weserburg is one of Germany’s largest modern art museums, known for its contemporary collections and exhibitions that attract art lovers.\n",
+      "de": "Die Weserburg ist eines der größten Museen für moderne Kunst in Deutschland und bekannt für ihre zeitgenössischen Sammlungen und Ausstellungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Modern sanat keşfi",
+        "Müze gezisi"
+      ],
+      "en": [
+        "Explore modern art",
+        "Museum visit"
+      ],
+      "de": [
+        "Moderne Kunst entdecken",
+        "Museumsbesuch"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Weserburg_Modern_Art_Bremen.jpg"
+    ]
+  },
+  {
+    "slug": "universum-bremen-bilim-merkezi",
+    "name": {
+      "tr": "Universum Bremen Bilim Merkezi",
+      "en": "Universum Science Center",
+      "de": "Universum Bremen"
+    },
+    "latitude": 53.1064,
+    "longitude": 8.8516,
+    "description": {
+      "tr": "Midye kabuğunu andıran modern mimarisiyle dikkat çeken bilim merkezi, evren, doğa ve insan temalı interaktif sergilerle bilim meraklıları için harika bir deneyim sunar.\n",
+      "en": "With its shell-like modern architecture, this science center offers an engaging experience with interactive exhibitions on the universe, nature, and the human body.\n",
+      "de": "Mit seiner muschelförmigen, modernen Architektur bietet dieses Wissenschaftszentrum interaktive Ausstellungen zu Universum, Natur und Mensch – ein tolles Erlebnis für Wissenschaftsinteressierte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Bilim sergisi",
+        "Eğitici gezi"
+      ],
+      "en": [
+        "Science exhibit",
+        "Educational trip"
+      ],
+      "de": [
+        "Wissenschaftsausstellung",
+        "Bildungsreise"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Universum_Bremen_2013.jpg"
+    ]
+  },
+  {
+    "slug": "burgerpark-ve-sehir-ormani",
+    "name": {
+      "tr": "Bürgerpark ve Şehir Ormanı",
+      "en": "Bürgerpark and City Forest",
+      "de": "Bürgerpark und Stadtwald"
+    },
+    "latitude": 53.0872,
+    "longitude": 8.8268,
+    "description": {
+      "tr": "202 hektarlık bu geniş yeşil alan, göletler, yürüyüş yolları ve dinlenme alanları ile doğayla iç içe vakit geçirmek isteyenler için idealdir.\n",
+      "en": "Covering 202 hectares, this expansive green area features ponds, walking paths, and relaxing spaces — ideal for enjoying nature in the city.\n",
+      "de": "Mit einer Fläche von 202 Hektar bietet dieser weitläufige grüne Bereich Teiche, Spazierwege und Erholungsräume – ideal, um in der Stadt die Natur zu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş",
+        "Piknik",
+        "Doğa gezisi"
+      ],
+      "en": [
+        "Walking",
+        "Picnic",
+        "Nature tour"
+      ],
+      "de": [
+        "Spaziergang",
+        "Picknick",
+        "Naturausflug"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/Buergerpark_Bremen_2008.jpg"
+    ]
+  }
+]

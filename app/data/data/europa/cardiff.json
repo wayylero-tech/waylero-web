@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "cardiff-castle",
+    "name": {
+      "tr": "Cardiff Castle",
+      "en": "Cardiff Castle",
+      "de": "Cardiff Schloss"
+    },
+    "latitude": 51.481,
+    "longitude": -3.18,
+    "description": {
+      "tr": "Cardiff Castle, şehri izleyen yüksek bir tepede bulunan tarihi bir kaledir ve Roma döneminden Orta Çağ’a kadar geniş bir tarihe sahiptir.",
+      "en": "Cardiff Castle is a historic castle on a hill overlooking the city, with a history spanning from Roman times to the Middle Ages.",
+      "de": "Das Cardiff Castle ist eine historische Burg auf einem Hügel, der die Stadt überblickt, mit einer Geschichte von der Römerzeit bis zum Mittelalter."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapmak",
+        "Hikaye ve tarih öğrenmek"
+      ],
+      "en": [
+        "Take a castle tour",
+        "Learn about the history and stories"
+      ],
+      "de": [
+        "Eine Burgtour machen",
+        "Geschichte und Geschichten erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/cardiff_castle.jpg"
+    ]
+  },
+  {
+    "slug": "bute-park",
+    "name": {
+      "tr": "Bute Park",
+      "en": "Bute Park",
+      "de": "Bute Park"
+    },
+    "latitude": 51.4859,
+    "longitude": -3.1801,
+    "description": {
+      "tr": "Bute Park, Cardiff Kalesi'nin hemen yanında yer alır ve yürüyüş yolları, bahçeler ve geniş yeşil alanlarla doludur.",
+      "en": "Bute Park is located right next to Cardiff Castle and is filled with walking paths, gardens, and large green spaces.",
+      "de": "Der Bute Park liegt direkt neben dem Cardiff Castle und ist mit Wanderwegen, Gärten und großen Grünflächen gefüllt."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Doğayla iç içe olmak"
+      ],
+      "en": [
+        "Walk in the park",
+        "Enjoy nature"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/bute_park.jpg"
+    ]
+  },
+  {
+    "slug": "cardiff-bay",
+    "name": {
+      "tr": "Cardiff Bay",
+      "en": "Cardiff Bay",
+      "de": "Cardiff Bucht"
+    },
+    "latitude": 51.481,
+    "longitude": -3.171,
+    "description": {
+      "tr": "Cardiff Bay, modern bir su kenarı alanı olup, kafeler, restoranlar ve kültürel etkinlikler sunar.",
+      "en": "Cardiff Bay is a modern waterfront area offering cafes, restaurants, and cultural events.",
+      "de": "Die Cardiff Bucht ist ein modernes Ufergebiet mit Cafés, Restaurants und kulturellen Veranstaltungen."
+    },
+    "activities": {
+      "tr": [
+        "Göl kenarında yürüyüş yapmak",
+        "Kafelerde zaman geçirmek"
+      ],
+      "en": [
+        "Walk along the bay",
+        "Spend time in the cafes"
+      ],
+      "de": [
+        "An der Bucht spazieren gehen",
+        "Zeit in den Cafés verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/cardiff_bay.jpg"
+    ]
+  },
+  {
+    "slug": "st-david-s-hall",
+    "name": {
+      "tr": "St. David’s Hall",
+      "en": "St. David’s Hall",
+      "de": "St. David’s Halle"
+    },
+    "latitude": 51.4792,
+    "longitude": -3.1796,
+    "description": {
+      "tr": "St. David’s Hall, Cardiff’deki en önemli konser salonlarından biridir ve çok sayıda kültürel etkinliğe ev sahipliği yapar.",
+      "en": "St. David’s Hall is one of the most important concert halls in Cardiff, hosting numerous cultural events.",
+      "de": "Die St. David’s Halle ist eine der wichtigsten Konzertsäle in Cardiff und beherbergt zahlreiche kulturelle Veranstaltungen."
+    },
+    "activities": {
+      "tr": [
+        "Konser dinlemek",
+        "Kültürel etkinliklere katılmak"
+      ],
+      "en": [
+        "Attend a concert",
+        "Participate in cultural events"
+      ],
+      "de": [
+        "Ein Konzert besuchen",
+        "An kulturellen Veranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/st_davids_hall.jpg"
+    ]
+  },
+  {
+    "slug": "national-museum-cardiff",
+    "name": {
+      "tr": "National Museum Cardiff",
+      "en": "National Museum Cardiff",
+      "de": "Nationalmuseum Cardiff"
+    },
+    "latitude": 51.4842,
+    "longitude": -3.1703,
+    "description": {
+      "tr": "National Museum Cardiff, sanat, tarih ve doğa bilimleri üzerine geniş bir koleksiyon sunan büyük bir müzedir.",
+      "en": "National Museum Cardiff is a large museum offering a wide collection on art, history, and natural sciences.",
+      "de": "Das Nationalmuseum Cardiff ist ein großes Museum mit einer breiten Sammlung von Kunst, Geschichte und Naturwissenschaften."
+    },
+    "activities": {
+      "tr": [
+        "Sanat ve tarih sergilerini gezmek",
+        "Müze turu yapmak"
+      ],
+      "en": [
+        "Visit art and history exhibitions",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Kunst- und Geschichtsausstellungen besuchen",
+        "Eine Museumsführung machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/national_museum_cardiff.jpg"
+    ]
+  }
+]

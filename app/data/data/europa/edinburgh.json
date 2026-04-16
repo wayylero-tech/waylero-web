@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "edinburgh-kalesi",
+    "name": {
+      "tr": "Edinburgh Kalesi",
+      "en": "Edinburgh Castle",
+      "de": "Edinburgh Schloss"
+    },
+    "latitude": 55.9486,
+    "longitude": -3.1999,
+    "description": {
+      "tr": "Edinburgh Castle, İskoçya'nın simgesi haline gelmiş tarihi bir kaledir ve şehri ziyaret ederken mutlaka görülmesi gereken bir yerdir.",
+      "en": "Edinburgh Castle is a historic fortress that has become a symbol of Scotland and is a must-see when visiting the city.",
+      "de": "Das Edinburgh Castle ist eine historische Festung, die zum Symbol Schottlands geworden ist und ein Muss bei einem Besuch der Stadt ist."
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi",
+        "Tarihi keşif"
+      ],
+      "en": [
+        "Castle tour",
+        "Historical discovery"
+      ],
+      "de": [
+        "Schloss-Tour",
+        "Historische Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/edinburgh_castle.jpg"
+    ]
+  },
+  {
+    "slug": "holyrood-sarayi",
+    "name": {
+      "tr": "Holyrood Sarayı",
+      "en": "Holyrood Palace",
+      "de": "Holyrood Palast"
+    },
+    "latitude": 55.9504,
+    "longitude": -3.1713,
+    "description": {
+      "tr": "Holyrood Palace, Kraliyet ailesinin İskoçya'daki resmi ikametgahıdır ve oldukça tarihi bir öneme sahiptir.",
+      "en": "Holyrood Palace is the official residence of the Royal Family in Scotland and holds significant historical importance.",
+      "de": "Der Holyrood Palast ist die offizielle Residenz der königlichen Familie in Schottland und hat eine bedeutende historische Bedeutung."
+    },
+    "activities": {
+      "tr": [
+        "Saray gezisi",
+        "Kraliyet tarihini keşfetme"
+      ],
+      "en": [
+        "Palace tour",
+        "Explore royal history"
+      ],
+      "de": [
+        "Palast-Tour",
+        "Königliche Geschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/holyrood_palace.jpg"
+    ]
+  },
+  {
+    "slug": "arthur-s-seat",
+    "name": {
+      "tr": "Arthur’s Seat",
+      "en": "Arthur’s Seat",
+      "de": "Arthur’s Seat"
+    },
+    "latitude": 55.9448,
+    "longitude": -3.161,
+    "description": {
+      "tr": "Arthur’s Seat, Edinburgh'un en yüksek tepesidir ve şehri yüksekten görmek için harika bir yürüyüş rotasıdır.",
+      "en": "Arthur’s Seat is the highest point in Edinburgh and offers a great hiking route to see the city from above.",
+      "de": "Arthur’s Seat ist der höchste Punkt in Edinburgh und bietet eine großartige Wanderroute, um die Stadt von oben zu sehen."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanma",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Climb the hill",
+        "View the scenery"
+      ],
+      "de": [
+        "Bergbesteigung",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/arthurs_seat.jpg"
+    ]
+  },
+  {
+    "slug": "royal-mile",
+    "name": {
+      "tr": "Royal Mile",
+      "en": "Royal Mile",
+      "de": "Royal Mile"
+    },
+    "latitude": 55.9501,
+    "longitude": -3.1889,
+    "description": {
+      "tr": "Royal Mile, Edinburgh'un en ünlü caddesidir ve çok sayıda tarihi bina, mağaza ve restoran ile doludur.",
+      "en": "Royal Mile is the most famous street in Edinburgh, filled with numerous historic buildings, shops, and restaurants.",
+      "de": "Die Royal Mile ist die bekannteste Straße in Edinburgh, die mit zahlreichen historischen Gebäuden, Geschäften und Restaurants gefüllt ist."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Gezinti"
+      ],
+      "en": [
+        "Shopping",
+        "Stroll around"
+      ],
+      "de": [
+        "Einkaufen",
+        "Bummeln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/royal_mile.jpg"
+    ]
+  },
+  {
+    "slug": "iskocya-ulusal-muzesi",
+    "name": {
+      "tr": "İskoçya Ulusal Müzesi",
+      "en": "National Museum of Scotland",
+      "de": "Nationalmuseum von Schottland"
+    },
+    "latitude": 55.9474,
+    "longitude": -3.1916,
+    "description": {
+      "tr": "National Museum of Scotland, İskoçya'nın tarihi ve kültürüne dair geniş bir koleksiyon sunmaktadır.",
+      "en": "The National Museum of Scotland offers a vast collection showcasing the history and culture of Scotland.",
+      "de": "Das Nationalmuseum von Schottland bietet eine umfangreiche Sammlung, die die Geschichte und Kultur Schottlands zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Museum tour",
+        "Art discovery"
+      ],
+      "de": [
+        "Museums-Tour",
+        "Kunstentdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/national_museum.jpg"
+    ]
+  }
+]

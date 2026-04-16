@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "korhan-meteor-cukuru",
+    "name": {
+      "tr": "Korhan Meteor Çukuru",
+      "en": "Korhan Meteor Crater",
+      "de": "Korhan Meteor Krater"
+    },
+    "latitude": 39.79107,
+    "longitude": 44.19889,
+    "description": {
+      "tr": "Korhan Meteor Çukuru, dünyanın en büyük ikinci meteor çukurlarından biridir.\nDoğal bir jeolojik alan olarak turistlerin ilgisini çeker.\n",
+      "en": "Korhan Meteor Crater is the second largest meteor crater in the world.\nIt attracts tourists as a natural geological site.\n",
+      "de": "Der Korhan Meteoritenkrater ist der zweitgrößte Meteoritenkrater der Welt.\nEs zieht Touristen als natürliche geologische Stätte an.\n"
+    },
+    "activities": {
+      "tr": [
+        "Çukurun etrafında yürüyüş yapmak",
+        "Jeolojik özellikleri incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Walk around the crater",
+        "Examine the geological features",
+        "Take photos"
+      ],
+      "de": [
+        "Um den Krater gehen",
+        "Geologische Merkmale untersuchen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/meteor_cukuru.jpg"
+    ]
+  },
+  {
+    "slug": "tuzluca-magarasi",
+    "name": {
+      "tr": "Tuzluca Mağarası",
+      "en": "Tuzluca Cave",
+      "de": "Tuzluca Höhle"
+    },
+    "latitude": 40.05129,
+    "longitude": 43.66612,
+    "description": {
+      "tr": "Tuzluca Mağarası, Iğdır ilinin Tuzluca ilçesinde yer alan ve doğal tuz oluşumlarıyla ünlü bir mağaradır.\nTuz madeninden oluşan bu mağara, hem doğal güzelliği hem de sağlığa faydalı özellikleriyle dikkat çeker.\nSolunum yolu rahatsızlıklarına iyi geldiği düşünülen tuz terapisi için ziyaretçilerin ilgisini çeker.\n",
+      "en": "Tuzluca Cave, located in the Tuzluca district of Iğdır province, is a cave famous for its natural salt formations.\nThis cave, formed from salt mines, attracts visitors due to its natural beauty and health benefits.\nIt is particularly popular for salt therapy, believed to be beneficial for respiratory issues.\n",
+      "de": "Die Tuzluca-Höhle, die sich im Bezirk Tuzluca in der Provinz Iğdır befindet, ist eine Höhle, die für ihre natürlichen Salzformationen bekannt ist.\nDiese Höhle, die aus Salzminen besteht, zieht Besucher aufgrund ihrer natürlichen Schönheit und gesundheitlichen Vorteile an.\nEs ist besonders beliebt für die Salztherapie, die bei Atemwegserkrankungen von Vorteil sein soll.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağarayı keşfetmek",
+        "Tuz terapisi deneyimi yaşamak",
+        "Fotoğraf çekmek",
+        "Doğal tuz oluşumlarını incelemek",
+        "Huzurlu bir atmosferde vakit geçirmek"
+      ],
+      "en": [
+        "Explore the cave",
+        "Experience salt therapy",
+        "Take photos",
+        "Examine natural salt formations",
+        "Spend time in a peaceful atmosphere"
+      ],
+      "de": [
+        "Die Höhle erkunden",
+        "Salztherapie erleben",
+        "Fotos machen",
+        "Natürliche Salzformationen untersuchen",
+        "In einer friedlichen Atmosphäre Zeit verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/tuzluca_magarasi.jpg",
+      "https://example.com/tuzluca_magarasi_inside.jpg"
+    ]
+  }
+]

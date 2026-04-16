@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "south-bank-parklands",
+    "name": {
+      "tr": "South Bank Parklands",
+      "en": "South Bank Parklands",
+      "de": "South Bank Parklands"
+    },
+    "latitude": -27.4748,
+    "longitude": 153.0227,
+    "description": {
+      "tr": "South Bank Parklands, göller, yüzme havuzları ve güzel manzaralarla dolu büyük bir park alanıdır. Brisbane şehir merkezinin hemen dışında yer alır ve aileler için mükemmel bir dinlenme alanı sunar.",
+      "en": "South Bank Parklands is a large park area filled with lakes, swimming pools, and beautiful views. It is located just outside of Brisbane’s city center and offers a perfect relaxation spot for families.",
+      "de": "Der South Bank Parklands ist ein großes Parkgebiet, das mit Seen, Schwimmbecken und schönen Ausblicken gefüllt ist. Es liegt direkt außerhalb des Stadtzentrums von Brisbane und bietet einen perfekten Entspannungsort für Familien."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme havuzlarında yüzmek",
+        "Doğayla iç içe zaman geçirmek",
+        "Manzara eşliğinde yürüyüş yapmak"
+      ],
+      "en": [
+        "Swimming in the pools",
+        "Spending time in nature",
+        "Walking with a view"
+      ],
+      "de": [
+        "Im Pool schwimmen",
+        "Zeit in der Natur verbringen",
+        "Mit Aussicht spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/south_bank_parklands.jpg"
+    ]
+  },
+  {
+    "slug": "lone-pine-koala-sanctuary",
+    "name": {
+      "tr": "Lone Pine Koala Sanctuary",
+      "en": "Lone Pine Koala Sanctuary",
+      "de": "Lone Pine Koala Sanctuary"
+    },
+    "latitude": -27.4606,
+    "longitude": 153.0253,
+    "description": {
+      "tr": "Lone Pine Koala Sanctuary, koalalarla tanışabileceğiniz ve onları kucaklayabileceğiniz ünlü bir doğal yaşam parkıdır. Ayrıca kanguru ve diğer Avustralya hayvanlarını da görebilirsiniz.",
+      "en": "Lone Pine Koala Sanctuary is a famous wildlife park where you can meet and cuddle koalas. It also houses kangaroos and other Australian animals.",
+      "de": "Das Lone Pine Koala Sanctuary ist ein berühmter Naturpark, in dem Sie Koalas treffen und kuscheln können. Es beherbergt auch Kängurus und andere australische Tiere."
+    },
+    "activities": {
+      "tr": [
+        "Koalalarla tanışmak",
+        "Kangurularla vakit geçirmek",
+        "Hayvanları görmek"
+      ],
+      "en": [
+        "Meeting koalas",
+        "Spending time with kangaroos",
+        "Seeing the animals"
+      ],
+      "de": [
+        "Koalas treffen",
+        "Zeit mit Kängurus verbringen",
+        "Die Tiere sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/lone_pine_koala_sanctuary.jpg"
+    ]
+  },
+  {
+    "slug": "brisbane-botanic-gardens-mount-coot-tha",
+    "name": {
+      "tr": "Brisbane Botanic Gardens Mount Coot-tha",
+      "en": "Brisbane Botanic Gardens Mount Coot-tha",
+      "de": "Brisbane Botanic Gardens Mount Coot-tha"
+    },
+    "latitude": -27.4673,
+    "longitude": 152.987,
+    "description": {
+      "tr": "Brisbane Botanik Bahçeleri Mount Coot-tha, şehir manzarasıyla dikkat çeken büyük bir botanik bahçesidir. Farklı bitki örtüsüne sahip alanlar ve yürüyüş parkurlarıyla doğa severler için mükemmel bir yerdir.",
+      "en": "Brisbane Botanic Gardens Mount Coot-tha is a large botanical garden that offers stunning city views. It features various plant species and walking trails, making it a perfect spot for nature lovers.",
+      "de": "Die Brisbane Botanic Gardens Mount Coot-tha ist ein großer botanischer Garten mit atemberaubendem Blick auf die Stadt. Es bietet verschiedene Pflanzenarten und Wanderwege, was es zu einem perfekten Ort für Naturliebhaber macht."
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapmak",
+        "Bitki örtüsünü keşfetmek",
+        "Şehir manzarasının tadını çıkarmak"
+      ],
+      "en": [
+        "Walking in nature",
+        "Exploring plant species",
+        "Enjoying the city view"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Pflanzenarten erkunden",
+        "Den Blick auf die Stadt genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/brisbane_botanic_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "story-bridge",
+    "name": {
+      "tr": "Story Bridge",
+      "en": "Story Bridge",
+      "de": "Story Bridge"
+    },
+    "latitude": -27.4553,
+    "longitude": 153.0346,
+    "description": {
+      "tr": "Story Bridge, yürüyüş parkurları ile ünlü bir köprü olup, Brisbane şehir merkezine harika bir manzara sunar. Köprüyü tırmanarak şehri yüksekten izleyebilirsiniz.",
+      "en": "Story Bridge is a famous bridge known for its walking trails, offering a fantastic view of Brisbane’s city center. You can climb the bridge to enjoy the panoramic view of the city.",
+      "de": "Die Story Bridge ist eine berühmte Brücke, die für ihre Wanderwege bekannt ist und einen fantastischen Blick auf das Stadtzentrum von Brisbane bietet. Sie können die Brücke erklimmen, um den Panoramablick auf die Stadt zu genießen."
+    },
+    "activities": {
+      "tr": [
+        "Köprüden yürüyüş yapmak",
+        "Köprü tırmanışı yapmak"
+      ],
+      "en": [
+        "Walking on the bridge",
+        "Climbing the bridge"
+      ],
+      "de": [
+        "Auf der Brücke gehen",
+        "Die Brücke erklimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/story_bridge.jpg"
+    ]
+  },
+  {
+    "slug": "queensland-art-gallery-gallery-of-modern-art-qagoma",
+    "name": {
+      "tr": "Queensland Art Gallery & Gallery of Modern Art (QAGOMA)",
+      "en": "Queensland Art Gallery & Gallery of Modern Art (QAGOMA)",
+      "de": "Queensland Art Gallery & Gallery of Modern Art (QAGOMA)"
+    },
+    "latitude": -27.4735,
+    "longitude": 153.0217,
+    "description": {
+      "tr": "Queensland Art Gallery & Gallery of Modern Art (QAGOMA), Avustralya’nın en büyük sanat galerilerinden biridir. Galerilerde Avustralya ve dünya sanatının önemli eserlerini görebilirsiniz.",
+      "en": "The Queensland Art Gallery & Gallery of Modern Art (QAGOMA) is one of the largest art galleries in Australia. You can explore important works of Australian and international art in its galleries.",
+      "de": "Die Queensland Art Gallery & Gallery of Modern Art (QAGOMA) ist eines der größten Kunstmuseen Australiens. In den Galerien können Sie bedeutende Werke der australischen und internationalen Kunst entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini görmek",
+        "Modern sanat galerilerini gezmek"
+      ],
+      "en": [
+        "Seeing the art collections",
+        "Visiting the modern art galleries"
+      ],
+      "de": [
+        "Die Kunstsammlungen sehen",
+        "Die modernen Kunstgalerien besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/qagoma.jpg"
+    ]
+  }
+]

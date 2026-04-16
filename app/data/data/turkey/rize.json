@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "agaran-selalesi",
+    "name": {
+      "tr": "Ağaran Şelalesi",
+      "en": "Ağaran Waterfall",
+      "de": "Ağaran Wasserfall"
+    },
+    "latitude": 41.04568,
+    "longitude": 40.80875,
+    "description": {
+      "tr": "Ağaran Şelalesi, Rize'nin Çayeli ilçesinde, Fırtına Vadisi'nde yer alan etkileyici bir şelaledir.\nKayalıklardan düşen su, çevresindeki yemyeşil doğa ile birlikte muazzam bir manzara oluşturur.\nBölge doğa yürüyüşü yapmak ve fotoğrafçılık için ideal bir yerdir.\n",
+      "en": "Ağaran Waterfall, located in the Çayeli district of Rize, is an impressive waterfall in the Fırtına Valley.\nThe water cascading from the cliffs creates a magnificent view, surrounded by lush green nature.\nThis area is perfect for nature walks and photography.\n",
+      "de": "Der Ağaran Wasserfall, im Landkreis Çayeli in Rize gelegen, ist ein beeindruckender Wasserfall im Fırtına-Tal.\nDas Wasser, das von den Felsen fällt, schafft zusammen mit der üppig grünen Natur eine beeindruckende Aussicht.\nDiese Gegend ist ideal für Wanderungen und Fotografie.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Fotoğraf çekmek",
+        "Bölgedeki doğal güzellikleri keşfetmek"
+      ],
+      "en": [
+        "Nature walks",
+        "Photography",
+        "Exploring the natural beauty of the area"
+      ],
+      "de": [
+        "Wanderungen",
+        "Fotografie",
+        "Erkundung der natürlichen Schönheit des Gebiets"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/agaran_selalesi.jpg"
+    ]
+  },
+  {
+    "slug": "ayder-yaylasi",
+    "name": {
+      "tr": "Ayder Yaylası",
+      "en": "Ayder Plateau",
+      "de": "Ayder Plateau"
+    },
+    "latitude": 40.95184,
+    "longitude": 41.10267,
+    "description": {
+      "tr": "Ayder Yaylası, Rize'nin en popüler yaylalarından biridir. Çam ağaçları arasında yürüyüş yapabilir, termal su kaynaklarında dinlenebilirsiniz.\n",
+      "en": "Ayder Plateau is one of Rize's most popular plateaus. You can take walks among the pine trees and relax in the thermal water sources.\n",
+      "de": "Das Ayder-Plateau ist eines der beliebtesten Plateaus in Rize. Sie können zwischen den Kiefern spazieren gehen und sich an den Thermalquellen erholen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yayla gezisi",
+        "Termal su kaynaklarından faydalanma",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Plateau tour",
+        "Using thermal water sources",
+        "Nature walks"
+      ],
+      "de": [
+        "Plateau-Tour",
+        "Nutzung von Thermalquellen",
+        "Wanderungen in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "yayla"
+      ],
+      "en": [
+        "plateau"
+      ],
+      "de": [
+        "hochland"
+      ]
+    },
+    "images": [
+      "https://example.com/ayder_yaylasi.jpg"
+    ]
+  },
+  {
+    "slug": "rize-kalesi",
+    "name": {
+      "tr": "Rize Kalesi",
+      "en": "Rize Castle",
+      "de": "Rize Schloss"
+    },
+    "latitude": 41.03089,
+    "longitude": 40.51281,
+    "description": {
+      "tr": "Rize Kalesi, şehri yüksekten görebileceğiniz tarihi bir yapıdır. Kalede Osmanlı dönemi izlerini görmek mümkündür.\n",
+      "en": "Rize Castle is a historical structure where you can see the city from above. The castle bears traces from the Ottoman period.\n",
+      "de": "Die Rize Festung ist eine historische Struktur, von der aus man die Stadt von oben sehen kann. Die Festung trägt Spuren aus der Osmanischen Zeit.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Castle tour",
+        "Scenic view"
+      ],
+      "de": [
+        "Besichtigung der Festung",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/rize_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "zilkale",
+    "name": {
+      "tr": "Zilkale",
+      "en": "Zilkale",
+      "de": "Zilkale"
+    },
+    "latitude": 40.95945,
+    "longitude": 40.96319,
+    "description": {
+      "tr": "Zilkale, Rize'nin en etkileyici kalelerinden biridir. Karadeniz’in muazzam manzarasına karşı duran bu kale, bölgenin tarihini anlatan önemli bir yapıdır.\n",
+      "en": "Zilkale is one of Rize's most impressive castles. This castle, standing against the magnificent view of the Black Sea, is an important structure that tells the history of the region.\n",
+      "de": "Die Zilkale ist eine der beeindruckendsten Burgen in Rize. Diese Burg, die mit einer atemberaubenden Aussicht auf das Schwarze Meer steht, ist ein wichtiges Bauwerk, das die Geschichte der Region erzählt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi",
+        "Tarihi ve doğal manzara keşfi"
+      ],
+      "en": [
+        "Castle tour",
+        "Exploring historical and natural scenery"
+      ],
+      "de": [
+        "Besichtigung der Burg",
+        "Erkundung der historischen und natürlichen Landschaft"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/zilkale.jpg"
+    ]
+  },
+  {
+    "slug": "simsir-ormani",
+    "name": {
+      "tr": "Şimşir Ormanı",
+      "en": "Şimşir Forest",
+      "de": "Şimşir Wald"
+    },
+    "latitude": 41.90903,
+    "longitude": 40.94865,
+    "description": {
+      "tr": "Şimşir Ormanı, Karadeniz Bölgesi'nin eşsiz doğal güzelliklerinden biridir. Bu orman, zengin biyolojik çeşitliliği ve yürüyüş yollarıyla doğaseverler için harika bir yerdir. Şimşir ağaçlarıyla çevrili bu orman, aynı zamanda bölgenin florası hakkında bilgi edinmek isteyenler için de eşsiz bir deneyim sunar.\n",
+      "en": "Şimşir Forest is one of the unique natural beauties of the Black Sea Region. This forest, with its rich biodiversity and hiking trails, is a great place for nature lovers. Surrounded by boxwood trees, this forest also offers an unparalleled experience for those who want to learn about the region's flora.\n",
+      "de": "Der Şimşir-Wald ist eine der einzigartigen natürlichen Schönheiten der Schwarzmeerregion. Dieser Wald, mit seiner reichen Biodiversität und Wanderwegen, ist ein großartiger Ort für Naturliebhaber. Umgeben von Buchsbaum-Bäumen bietet dieser Wald auch ein unvergleichliches Erlebnis für diejenigen, die mehr über die Flora der Region erfahren möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Fotoğraf çekme",
+        "Piknik"
+      ],
+      "en": [
+        "Nature walk",
+        "Photography",
+        "Picnicking"
+      ],
+      "de": [
+        "Wanderung",
+        "Fotografie",
+        "Picknick"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "orman"
+      ],
+      "en": [
+        "forest"
+      ],
+      "de": [
+        "wald"
+      ]
+    },
+    "images": [
+      "https://example.com/simsir_ormani.jpg"
+    ]
+  },
+  {
+    "slug": "firtina-vadisi",
+    "name": {
+      "tr": "Fırtına Vadisi",
+      "en": "Fırtına Valley",
+      "de": "Fırtına Tal"
+    },
+    "latitude": 40.96652,
+    "longitude": 40.96566,
+    "description": {
+      "tr": "Fırtına Vadisi, Rize’nin doğal güzelliklerinden biridir. Yürüyüşler, doğa fotoğrafları çekme ve rafting gibi aktiviteler için ideal bir yerdir.\n",
+      "en": "Fırtına Valley is one of Rize’s natural beauties. It is an ideal place for walks, nature photography, and activities like rafting.\n",
+      "de": "Das Fırtına-Tal ist eine der natürlichen Schönheiten von Rize. Es ist ein idealer Ort für Wanderungen, Naturfotografie und Aktivitäten wie Rafting.\n"
+    },
+    "activities": {
+      "tr": [
+        "Rafting",
+        "Doğa yürüyüşü",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Rafting",
+        "Nature walks",
+        "Photography"
+      ],
+      "de": [
+        "Rafting",
+        "Wanderungen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/firtina_vadisi.jpg"
+    ]
+  },
+  {
+    "slug": "senyuva-koprusu",
+    "name": {
+      "tr": "Şenyuva Köprüsü",
+      "en": "Şenyuva Bridge",
+      "de": "Şenyuva Brücke"
+    },
+    "latitude": 40.99765,
+    "longitude": 40.97523,
+    "description": {
+      "tr": "Şenyuva Köprüsü, Rize il sınırlarında yer alan ve tarihi bir yapıdır. Çamlıhemşin ilçesindeki bu köprü, 19. yüzyılda inşa edilmiştir ve taş işçiliğiyle dikkat çeker. Doğayla iç içe olan köprü, çevresindeki muazzam manzarasıyla ziyaretçilerini büyüler. Aynı zamanda yerel halk için önemli bir geçiş noktası olmuştur.\n",
+      "en": "Şenyuva Bridge is a historic structure located within the borders of Rize. This bridge, located in the Çamlıhemşin district, was built in the 19th century and is notable for its stone craftsmanship. Surrounded by nature, the bridge captivates visitors with its magnificent views. It has also served as an important crossing point for the local people.\n",
+      "de": "Die Şenyuva Brücke ist ein historisches Bauwerk, das sich innerhalb der Grenzen von Rize befindet. Diese Brücke, die im 19. Jahrhundert im Landkreis Çamlıhemşin erbaut wurde, zeichnet sich durch ihre Steinmetzarbeit aus. Die Brücke, die von Natur umgeben ist, verzaubert die Besucher mit ihrer großartigen Aussicht. Sie hat auch als wichtiger Übergangspunkt für die lokale Bevölkerung gedient.\n"
+    },
+    "activities": {
+      "tr": [
+        "Köprü gezisi",
+        "Fotoğraf çekme",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Bridge tour",
+        "Photography",
+        "Nature walk"
+      ],
+      "de": [
+        "Brückenbesichtigung",
+        "Fotografie",
+        "Wanderung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/senyuva_koprusu.jpg"
+    ]
+  },
+  {
+    "slug": "osmanli-koprusu",
+    "name": {
+      "tr": "Osmanlı Köprüsü",
+      "en": "Ottoman Bridge",
+      "de": "Osmanische Brücke"
+    },
+    "latitude": 41.00727,
+    "longitude": 40.98986,
+    "description": {
+      "tr": "Osmanlı Köprüsü, Rize il sınırlarında bulunan tarihi bir yapıdır. Osmanlı dönemine ait olan bu köprü, taş işçiliği ve sağlam yapısıyla dikkat çeker. Yüzyıllar boyunca bölgedeki ulaşımı kolaylaştıran bu köprü, hem tarihi hem de kültürel açıdan büyük bir öneme sahiptir. Doğayla iç içe bir konumda bulunan köprü, bölgenin mimari mirasını gözler önüne serer.\n",
+      "en": "The Ottoman Bridge is a historic structure located within the borders of Rize. This bridge, from the Ottoman period, stands out with its stone craftsmanship and sturdy construction. Having facilitated transportation in the region for centuries, it holds significant historical and cultural importance. The bridge, situated in a nature-filled location, showcases the region's architectural heritage.\n",
+      "de": "Die Osmanische Brücke ist ein historisches Bauwerk, das sich innerhalb der Grenzen von Rize befindet. Diese Brücke aus der Osmanischen Zeit zeichnet sich durch ihre Steinmetzarbeit und robuste Bauweise aus. Über Jahrhunderte hinweg erleichterte diese Brücke den Verkehr in der Region und hat sowohl historische als auch kulturelle Bedeutung. Die Brücke, die in einer von Natur umgebenen Lage liegt, zeigt das architektonische Erbe der Region.\n"
+    },
+    "activities": {
+      "tr": [
+        "Köprü gezisi",
+        "Fotoğraf çekme",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Bridge tour",
+        "Photography",
+        "Nature walk"
+      ],
+      "de": [
+        "Brückenbesichtigung",
+        "Fotografie",
+        "Wanderung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/osmanli_koprusu.jpg"
+    ]
+  },
+  {
+    "slug": "mikron-koprusu",
+    "name": {
+      "tr": "Mikron Köprüsü",
+      "en": "Mikron Bridge",
+      "de": "Mikron Brücke"
+    },
+    "latitude": 41.04697,
+    "longitude": 41.02492,
+    "description": {
+      "tr": "Mikron Köprüsü, Rize il sınırlarında yer alan ve tarihi bir yapıdır. Bu köprü, 19. yüzyılda inşa edilmiş olup, köprüdeki taş işçiliği ve özgün yapısı dikkat çekicidir. Çamlıhemşin ilçesinde bulunan köprü, tarihi dokusu ve etrafındaki doğal güzelliklerle ziyaretçilerini cezbetmektedir. Mikron Köprüsü, bölgenin kültürel miraslarından biri olarak önemli bir yer tutmaktadır.\n",
+      "en": "Mikron Bridge is a historic structure located within the borders of Rize. Built in the 19th century, the bridge is remarkable for its stone craftsmanship and unique structure. Located in the Çamlıhemşin district, it attracts visitors with its historical texture and surrounding natural beauty. Mikron Bridge holds an important place as one of the region's cultural heritage sites.\n",
+      "de": "Die Mikron Brücke ist ein historisches Bauwerk, das sich innerhalb der Grenzen von Rize befindet. Die Brücke, die im 19. Jahrhundert erbaut wurde, fällt durch ihre Steinmetzarbeit und einzigartige Struktur auf. Die Brücke im Landkreis Çamlıhemşin zieht Besucher mit ihrer historischen Struktur und der umliegenden natürlichen Schönheit an. Mikron Brücke nimmt als eines der kulturellen Erbes der Region einen wichtigen Platz ein.\n"
+    },
+    "activities": {
+      "tr": [
+        "Köprü gezisi",
+        "Fotoğraf çekme",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Bridge tour",
+        "Photography",
+        "Nature walk"
+      ],
+      "de": [
+        "Brückenbesichtigung",
+        "Fotografie",
+        "Wanderung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/mikron_koprusu.jpg"
+    ]
+  }
+]

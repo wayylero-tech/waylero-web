@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "vora-katedrali",
+    "name": {
+      "tr": "Évora Katedrali",
+      "en": "Évora Cathedral",
+      "de": "Évora Kathedrale"
+    },
+    "latitude": 38.5744,
+    "longitude": -7.9128,
+    "description": {
+      "tr": "Évora Katedrali, 12. yüzyıldan kalma Romanesk ve Gotik tarzda inşa edilmiş büyük bir dini yapıdır.",
+      "en": "Évora Cathedral is a large religious building built in Romanesque and Gothic styles dating back to the 12th century.",
+      "de": "Die Évora Kathedrale ist ein großes religiöses Gebäude, das im romanischen und gotischen Stil aus dem 12. Jahrhundert erbaut wurde."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezme",
+        "Mimari detayları keşfetme"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Explore the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/evora_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "tarihi-sehir-merkezi",
+    "name": {
+      "tr": "Tarihi Şehir Merkezi",
+      "en": "Historical City Center",
+      "de": "Historisches Stadtzentrum"
+    },
+    "latitude": 38.5742,
+    "longitude": -7.9121,
+    "description": {
+      "tr": "Évora'nın tarihi şehir merkezi, dar sokakları, beyaz evleri ve Roma kalıntıları ile ünlüdür ve UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "The historical city center of Évora is famous for its narrow streets, white houses, and Roman ruins, and is a UNESCO World Heritage site.",
+      "de": "Das historische Stadtzentrum von Évora ist bekannt für seine engen Straßen, weißen Häuser und römischen Ruinen und ist ein UNESCO-Weltkulturerbe."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi şehirde gezme",
+        "Roma tapınağını ziyaret etme"
+      ],
+      "en": [
+        "Tour the historical city",
+        "Visit the Roman temple"
+      ],
+      "de": [
+        "Durch die historische Stadt spazieren",
+        "Den römischen Tempel besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/evora_historical_center.jpg"
+    ]
+  }
+]

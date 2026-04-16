@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "bryggen",
+    "name": {
+      "tr": "Bryggen",
+      "en": "Bryggen",
+      "de": "Bryggen"
+    },
+    "latitude": 60.3934,
+    "longitude": 5.3246,
+    "description": {
+      "tr": "Bryggen, Bergen'in tarihi ve renkli ahşap binalarıyla ünlü bir bölgesidir. UNESCO Dünya Mirası Listesi'nde yer alır ve şehri simgelerinden biridir.",
+      "en": "Bryggen is a district in Bergen famous for its historic and colorful wooden buildings. It is listed as a UNESCO World Heritage Site and is one of the city's landmarks.",
+      "de": "Bryggen ist ein Stadtteil in Bergen, der für seine historischen und bunten Holzhäuser bekannt ist. Es steht auf der UNESCO-Weltkulturerbeliste und ist eines der Wahrzeichen der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi binaları gezme",
+        "Bölgedeki dükkanları ziyaret etme"
+      ],
+      "en": [
+        "Explore the historic buildings",
+        "Visit the shops in the area"
+      ],
+      "de": [
+        "Die historischen Gebäude besichtigen",
+        "Die Geschäfte in der Gegend besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/bryggen.jpg"
+    ]
+  },
+  {
+    "slug": "fl-ibanen-funicular",
+    "name": {
+      "tr": "Fløibanen Funicular",
+      "en": "Fløibanen Funicular",
+      "de": "Fløibanen Funicular"
+    },
+    "latitude": 60.3955,
+    "longitude": 5.3219,
+    "description": {
+      "tr": "Fløibanen Funicular, Bergen'in tepelerine çıkan teleferiktir ve şehri yüksekten görmek için mükemmel bir fırsat sunar.",
+      "en": "The Fløibanen Funicular is a cable car that takes you up the hills of Bergen, offering a great opportunity to view the city from above.",
+      "de": "Die Fløibanen Funicular ist eine Seilbahn, die dich die Hügel von Bergen hinauffährt und eine großartige Möglichkeit bietet, die Stadt von oben zu sehen."
+    },
+    "activities": {
+      "tr": [
+        "Teleferikle tepeye çıkma",
+        "Bergen manzarasını izleme"
+      ],
+      "en": [
+        "Ride the cable car to the top",
+        "Enjoy the view of Bergen"
+      ],
+      "de": [
+        "Mit der Seilbahn zum Gipfel fahren",
+        "Die Aussicht auf Bergen genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/floibanen.jpg"
+    ]
+  }
+]

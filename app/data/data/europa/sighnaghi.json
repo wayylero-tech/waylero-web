@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "mestia",
+    "name": {
+      "tr": "Mestia",
+      "en": "Mestia",
+      "de": "Mestia"
+    },
+    "latitude": 42.8547,
+    "longitude": 42.9542,
+    "description": {
+      "tr": "Mestia, Svaneti bölgesinin başkenti olup, dağlar arasında yer alan geleneksel taş yapıları ve kuleleriyle ünlüdür. Bu dağ kasabası, bölgenin kültürel mirasını yansıtan tarihi yapılar ve benzersiz dağ manzaraları sunar.",
+      "en": "Mestia is the capital of the Svaneti region, known for its traditional stone buildings and towers located between the mountains. This mountain town offers historical structures reflecting the region’s cultural heritage and unique mountain views.",
+      "de": "Mestia ist die Hauptstadt der Region Swanetien und bekannt für ihre traditionellen Steinbauten und Türme, die zwischen den Bergen liegen. Diese Bergstadt bietet historische Gebäude, die das kulturelle Erbe der Region widerspiegeln, und einzigartige Bergblicke."
+    },
+    "activities": {
+      "tr": [
+        "Kasaba sokaklarında gezmek",
+        "Taş kuleleri görmek"
+      ],
+      "en": [
+        "Walking through the town streets",
+        "Seeing the stone towers"
+      ],
+      "de": [
+        "Durch die Straßen der Stadt gehen",
+        "Die Steintürme sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/mestia_svaneti.jpg"
+    ]
+  },
+  {
+    "slug": "ushguli",
+    "name": {
+      "tr": "Ushguli",
+      "en": "Ushguli",
+      "de": "Ushguli"
+    },
+    "latitude": 42.7114,
+    "longitude": 43.0466,
+    "description": {
+      "tr": "Ushguli, dünyanın en yüksek yerleşim alanlarından biri olan bu köy, Svaneti bölgesinde yer alır ve taş kuleleriyle ünlüdür. Bu köy, dağcılıkla ilgilenenler ve doğa severler için keşfedilmesi gereken bir yerdir.",
+      "en": "Ushguli is a village located in the Svaneti region, known for being one of the highest inhabited settlements in the world. It is famous for its stone towers and is a must-visit for mountaineers and nature lovers.",
+      "de": "Ushguli ist ein Dorf in der Region Swanetien und bekannt als eine der höchsten bewohnten Siedlungen der Welt. Es ist berühmt für seine Steintürme und ein Muss für Bergsteiger und Naturliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Köyde yürüyüş yapmak",
+        "Taş kuleleri keşfetmek"
+      ],
+      "en": [
+        "Walking through the village",
+        "Exploring the stone towers"
+      ],
+      "de": [
+        "Durch das Dorf wandern",
+        "Die Steintürme erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ushguli_svaneti.jpg"
+    ]
+  },
+  {
+    "slug": "shkhara-dagi",
+    "name": {
+      "tr": "Shkhara Dağı",
+      "en": "Mount Shkhara",
+      "de": "Berg Shkhara"
+    },
+    "latitude": 42.6282,
+    "longitude": 43.0506,
+    "description": {
+      "tr": "Shkhara Dağı, Svaneti bölgesinin en yüksek dağıdır ve dağcılar için mükemmel bir rotadır. Bu dağ, aynı zamanda doğal güzellikleri ile ünlüdür ve doğa severler için keşfedilecek çok şey sunar.",
+      "en": "Mount Shkhara is the highest mountain in the Svaneti region and an excellent route for climbers. It is also famous for its natural beauty and offers plenty to explore for nature enthusiasts.",
+      "de": "Der Berg Shkhara ist der höchste Berg in der Region Swanetien und eine ausgezeichnete Route für Bergsteiger. Er ist auch für seine natürliche Schönheit bekannt und bietet viele Möglichkeiten für Naturfreunde."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Doğa yürüyüşü yapmak"
+      ],
+      "en": [
+        "Climbing the mountain",
+        "Hiking in nature"
+      ],
+      "de": [
+        "Den Berg besteigen",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_shkhara.jpg"
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "munzur-daglari",
+    "name": {
+      "tr": "Munzur Dağları",
+      "en": "Munzur Mountains",
+      "de": "Munzur Berge"
+    },
+    "latitude": 39.12405,
+    "longitude": 39.54454,
+    "description": {
+      "tr": "Munzur Dağları, Tunceli'nin en yüksek dağlarıdır ve bölgenin en güzel doğa alanlarına sahiptir. Burada doğa yürüyüşleri yapabilir, kamp kurabilirsiniz.\n",
+      "en": "Munzur Mountains are the highest mountains in Tunceli and offer some of the most beautiful natural areas in the region. You can go hiking and camping here.\n",
+      "de": "Die Munzur-Berge sind die höchsten Berge von Tunceli und bieten einige der schönsten Naturlandschaften der Region. Hier können Sie Wandern und Zelten gehen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Dağcılık",
+        "Doğa yürüyüşü",
+        "Kamp yapma"
+      ],
+      "en": [
+        "Mountaineering",
+        "Hiking",
+        "Camping"
+      ],
+      "de": [
+        "Bergsteigen",
+        "Wandern",
+        "Zelten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/munzur_daglari.jpg"
+    ]
+  },
+  {
+    "slug": "munzur-vadisi-milli-parki",
+    "name": {
+      "tr": "Munzur Vadisi Milli Parkı",
+      "en": "Munzur Valley National Park",
+      "de": "Munzur Tal Nationalpark"
+    },
+    "latitude": 39.14869,
+    "longitude": 39.50006,
+    "description": {
+      "tr": "Munzur Vadisi Milli Parkı, Tunceli'nin en önemli doğal alanlarından biridir. Burada yürüyüş yapabilir, piknik yapabilirsiniz.\n",
+      "en": "Munzur Valley National Park is one of the most important natural areas in Tunceli. You can go hiking and have a picnic here.\n",
+      "de": "Der Munzur-Tal-Nationalpark ist eines der wichtigsten Naturschutzgebiete in Tunceli. Hier können Sie wandern und ein Picknick machen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Piknik yapma"
+      ],
+      "en": [
+        "Hiking",
+        "Picnicking"
+      ],
+      "de": [
+        "Wandern",
+        "Picknick"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/munzur_vadisi.jpg"
+    ]
+  },
+  {
+    "slug": "pertek-kalesi",
+    "name": {
+      "tr": "Pertek Kalesi",
+      "en": "Pertek Castle",
+      "de": "Pertek Schloss"
+    },
+    "latitude": 39.84456,
+    "longitude": 38.27159,
+    "description": {
+      "tr": "Pertek Kalesi, Tunceli'nin tarihi bir yapısıdır. Kaleden Munzur Vadisi'nin muazzam manzarasını izleyebilirsiniz.\n",
+      "en": "Pertek Castle is a historic structure in Tunceli. From the castle, you can enjoy a magnificent view of Munzur Valley.\n",
+      "de": "Die Pertek-Burg ist eine historische Struktur in Tunceli. Vom Schloss aus können Sie einen großartigen Blick auf das Munzur-Tal genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Castle tour",
+        "Viewing the landscape"
+      ],
+      "de": [
+        "Schlossbesichtigung",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/pertek_kalesi.jpg"
+    ]
+  }
+]

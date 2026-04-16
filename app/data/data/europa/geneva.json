@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "cenevre-golu",
+    "name": {
+      "tr": "Cenevre Gölü",
+      "en": "Lake Geneva",
+      "de": "Genfersee"
+    },
+    "latitude": 46.2044,
+    "longitude": 6.1432,
+    "description": {
+      "tr": "Cenevre Gölü, şehir ile çevresindeki Alpler arasında yer alır. Burada tekne turu yapabilir veya gölet etrafında yürüyüş yapabilirsiniz.",
+      "en": "Lake Geneva lies between the city and the surrounding Alps. You can take a boat tour or walk around the lake.",
+      "de": "Der Genfersee liegt zwischen der Stadt und den umliegenden Alpen. Sie können eine Bootstour machen oder am See entlang spazieren."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu",
+        "Yürüyüş yapma"
+      ],
+      "en": [
+        "Boat tour",
+        "Walking"
+      ],
+      "de": [
+        "Bootstour",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/cenevre_golu.jpg"
+    ]
+  },
+  {
+    "slug": "jet-d-eau",
+    "name": {
+      "tr": "Jet d'Eau",
+      "en": "Jet d'Eau",
+      "de": "Jet d'Eau"
+    },
+    "latitude": 46.2044,
+    "longitude": 6.1432,
+    "description": {
+      "tr": "Jet d'Eau, Cenevre Gölü'ne çıkan ünlü su fıskiyesidir ve şehrin simgelerinden biridir.",
+      "en": "Jet d'Eau is the famous fountain on Lake Geneva and one of the city's landmarks.",
+      "de": "Jet d'Eau ist der berühmte Springbrunnen am Genfersee und eines der Wahrzeichen der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Fıskiyeyi izleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Watch the fountain",
+        "Take photos"
+      ],
+      "de": [
+        "Den Springbrunnen ansehen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/jet_deau.jpg"
+    ]
+  },
+  {
+    "slug": "cenevre-uluslararasi-konferans-binasi",
+    "name": {
+      "tr": "Cenevre Uluslararası Konferans Binası",
+      "en": "Geneva International Conference Center",
+      "de": "Internationales Konferenzzentrum Genf"
+    },
+    "latitude": 46.2265,
+    "longitude": 6.1419,
+    "description": {
+      "tr": "Cenevre Uluslararası Konferans Binası, Birleşmiş Milletler'in ofislerinden biridir ve ziyaretçilere tur imkanı sunar.",
+      "en": "The Geneva International Conference Center is one of the United Nations offices and offers tours for visitors.",
+      "de": "Das Internationale Konferenzzentrum Genf ist eines der Büros der Vereinten Nationen und bietet Führungen für Besucher an."
+    },
+    "activities": {
+      "tr": [
+        "Bina turu",
+        "Uluslararası ilişkiler hakkında bilgi edinme"
+      ],
+      "en": [
+        "Building tour",
+        "Learn about international relations"
+      ],
+      "de": [
+        "Führung durch das Gebäude",
+        "Über internationale Beziehungen lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/cenevre_birlesmis_milletler.jpg"
+    ]
+  },
+  {
+    "slug": "patek-philippe-muzesi",
+    "name": {
+      "tr": "Patek Philippe Müzesi",
+      "en": "Patek Philippe Museum",
+      "de": "Patek Philippe Museum"
+    },
+    "latitude": 46.2017,
+    "longitude": 6.1487,
+    "description": {
+      "tr": "Patek Philippe Müzesi, dünyanın en ünlü saat koleksiyonlarından birine ev sahipliği yapmaktadır.",
+      "en": "The Patek Philippe Museum hosts one of the world's most famous watch collections.",
+      "de": "Das Patek Philippe Museum beherbergt eine der berühmtesten Uhrensammlungen der Welt."
+    },
+    "activities": {
+      "tr": [
+        "Saat koleksiyonu gezisi",
+        "Sanat ve tarih keşfi"
+      ],
+      "en": [
+        "Tour the watch collection",
+        "Discover art and history"
+      ],
+      "de": [
+        "Uhrensammlung besichtigen",
+        "Kunst und Geschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/patek_philippe_muzesi.jpg"
+    ]
+  },
+  {
+    "slug": "reformation-wall",
+    "name": {
+      "tr": "Reformation Wall",
+      "en": "Reformation Wall",
+      "de": "Reformationsdenkmal"
+    },
+    "latitude": 46.2001,
+    "longitude": 6.1463,
+    "description": {
+      "tr": "Reformation Wall, Protestan Reformu'nun önemli figürlerini onurlandıran bir duvar heykelidir ve Cenevre'nin tarihine ışık tutar.",
+      "en": "The Reformation Wall is a wall monument honoring important figures of the Protestant Reformation and sheds light on Geneva's history.",
+      "de": "Die Reformation Wall ist ein Wanddenkmal, das wichtige Figuren der protestantischen Reformation ehrt und einen Blick auf die Geschichte von Genf bietet."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşif",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Historical exploration",
+        "Take photos"
+      ],
+      "de": [
+        "Historische Entdeckung",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/reformation_wall.jpg"
+    ]
+  }
+]

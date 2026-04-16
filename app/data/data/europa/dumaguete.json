@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "silliman-university",
+    "name": {
+      "tr": "Silliman University",
+      "en": "Silliman University",
+      "de": "Silliman University"
+    },
+    "latitude": 9.3067,
+    "longitude": 123.3033,
+    "description": {
+      "tr": "Silliman University, Filipinler'in en eski üniversitelerinden biridir ve harika kampüsleri ile ünlüdür. Tarihi binaları gezilebilir.",
+      "en": "Silliman University is one of the oldest universities in the Philippines, known for its beautiful campus and historical buildings.",
+      "de": "Die Silliman University ist eine der ältesten Universitäten der Philippinen und bekannt für ihren schönen Campus und historische Gebäude."
+    },
+    "activities": {
+      "tr": [
+        "Kampüsü gezmek",
+        "Tarihi binaları görmek"
+      ],
+      "en": [
+        "Exploring the campus",
+        "Seeing historical buildings"
+      ],
+      "de": [
+        "Den Campus erkunden",
+        "Historische Gebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/silliman_university.jpg"
+    ]
+  },
+  {
+    "slug": "dumaguete-rizal-boulevard",
+    "name": {
+      "tr": "Dumaguete Rizal Boulevard",
+      "en": "Dumaguete Rizal Boulevard",
+      "de": "Dumaguete Rizal Boulevard"
+    },
+    "latitude": 9.3075,
+    "longitude": 123.304,
+    "description": {
+      "tr": "Dumaguete Rizal Boulevard, deniz kenarında yer alan yürüyüş yolu, özellikle akşamları keyifli bir gezi alanıdır.",
+      "en": "Dumaguete Rizal Boulevard is a seafront walking path, especially pleasant for a stroll during the evening.",
+      "de": "Der Dumaguete Rizal Boulevard ist ein Spazierweg am Meer, besonders angenehm für einen abendlichen Spaziergang."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Denizin tadını çıkarmak"
+      ],
+      "en": [
+        "Walking",
+        "Enjoying the sea view"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Den Meerblick genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/dumaguete_rizal_boulevard.jpg"
+    ]
+  },
+  {
+    "slug": "apo-island",
+    "name": {
+      "tr": "Apo Island",
+      "en": "Apo Island",
+      "de": "Apo Island"
+    },
+    "latitude": 9.0325,
+    "longitude": 123.4744,
+    "description": {
+      "tr": "Apo Island, deniz kaplumbağaları ve renkli mercan resifleriyle ünlüdür. Dalış yapmayı sevenler için popüler bir yerdir.",
+      "en": "Apo Island is famous for its sea turtles and vibrant coral reefs. It is a popular spot for divers.",
+      "de": "Apo Island ist bekannt für seine Meeresschildkröten und lebhaften Korallenriffe. Es ist ein beliebter Ort für Taucher."
+    },
+    "activities": {
+      "tr": [
+        "Dalış yapmak",
+        "Deniz kaplumbağalarını görmek",
+        "Şnorkelle yüzme"
+      ],
+      "en": [
+        "Diving",
+        "Seeing sea turtles",
+        "Snorkeling"
+      ],
+      "de": [
+        "Tauchen",
+        "Meeresschildkröten sehen",
+        "Schnorcheln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/apo_island.jpg"
+    ]
+  }
+]

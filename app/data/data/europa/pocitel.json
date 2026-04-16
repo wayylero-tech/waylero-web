@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "po-itelj-kalesi",
+    "name": {
+      "tr": "Počitelj Kalesi",
+      "en": "Počitelj Fortress",
+      "de": "Počitelj Festung"
+    },
+    "latitude": 43.13481,
+    "longitude": 17.73381,
+    "description": {
+      "tr": "Počitelj Kalesi, Bosna-Hersek’in güneyinde, Neretva Nehri'nin kıyısında yer alan tarihi bir kaledir. 16. yüzyılda Osmanlı İmparatorluğu döneminde inşa edilmiştir. Şehir, Osmanlı ve Orta Çağ mimarisinin izlerini taşıyan dar sokakları, taş yapıları ve kalıntılarıyla ünlüdür. Počitelj Kalesi, tepeye yerleşmiş bir kale olarak bölgenin kontrolünü sağlamış ve yerleşim yeri olarak da kullanılmıştır. Kale, kalın surları, kuleleri ve manzarasıyla ziyaretçilere etkileyici bir deneyim sunar. Počitelj Kalesi, aynı zamanda UNESCO Dünya Mirası Geçici Listesi'nde yer almaktadır.\n",
+      "en": "Počitelj Fortress is a historical site located in southern Bosnia and Herzegovina, on the banks of the Neretva River. It was built during the Ottoman Empire in the 16th century. The town is famous for its narrow streets, stone buildings, and ruins, which reflect both Ottoman and medieval architecture. Počitelj Fortress, situated at the top of a hill, served to control the surrounding region and was also used as a settlement. The fortress, with its thick walls, towers, and views, offers visitors a stunning experience. Počitelj Fortress is also listed as a UNESCO World Heritage Site on the Tentative List.\n",
+      "de": "Die Počitelj-Festung ist eine historische Stätte im Süden von Bosnien und Herzegowina, am Ufer des Neretva-Flusses. Sie wurde im 16. Jahrhundert während des Osmanischen Reiches erbaut. Die Stadt ist berühmt für ihre engen Straßen, Steinbauten und Ruinen, die sowohl osmanische als auch mittelalterliche Architektur widerspiegeln. Die Počitelj-Festung, die sich auf einem Hügel befindet, diente zur Kontrolle der umliegenden Region und wurde auch als Siedlung genutzt. Die Festung mit ihren dicken Mauern, Türmen und Ausblicken bietet den Besuchern ein beeindruckendes Erlebnis. Die Počitelj-Festung ist auch auf der vorläufigen Liste des UNESCO-Weltkulturerbes.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında yürüyüş yapmak",
+        "Osmanlı ve Orta Çağ mimarisini keşfetmek",
+        "Bölgenin manzarasını izlemek"
+      ],
+      "en": [
+        "Walking around the fortress",
+        "Exploring Ottoman and medieval architecture",
+        "Enjoying the view of the region"
+      ],
+      "de": [
+        "Spazieren rund um die Festung",
+        "Erkundung der osmanischen und mittelalterlichen Architektur",
+        "Genießen des Ausblicks auf die Region"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/pocitelj_fortress1.jpg",
+      "https://example.com/pocitelj_fortress2.jpg"
+    ]
+  },
+  {
+    "slug": "sisman-ibrahim-pasa-camii",
+    "name": {
+      "tr": "Şişman İbrahim Paşa Camii",
+      "en": "Şişman İbrahim Pasha Mosque",
+      "de": "Şişman İbrahim Paşa Moschee"
+    },
+    "latitude": 43.13454,
+    "longitude": 17.73224,
+    "description": {
+      "tr": "Şişman İbrahim Paşa Camii, Bosna-Hersek’in Počitelj kasabasında yer alan tarihi bir camidir. 16. yüzyılda Osmanlı İmparatorluğu döneminde inşa edilmiştir ve Osmanlı mimarisinin güzel örneklerinden biridir. Camii, adını zamanında burada görev yapmış olan Şişman İbrahim Paşa’dan alır. Şişman İbrahim Paşa Camii, Počitelj'in simgelerinden biri haline gelmiş ve bölgedeki dini yapılar arasında önemli bir yere sahiptir. Caminin içi oldukça sade fakat etkileyici bir yapıya sahiptir ve minaresiyle birlikte şehri uzaktan görebilirsiniz. Caminin çevresindeki avlu, huzurlu bir atmosfer sunar.\n",
+      "en": "The Şişman İbrahim Pasha Mosque is a historical mosque located in the town of Počitelj, Bosnia and Herzegovina. Built in the 16th century during the Ottoman Empire, it is a beautiful example of Ottoman architecture. The mosque is named after Şişman İbrahim Pasha, who served in the area during the Ottoman period. The Şişman İbrahim Pasha Mosque has become one of the symbols of Počitelj and holds an important place among the religious structures in the region. The interior of the mosque is simple yet impressive, and with its minaret, it offers a panoramic view of the town. The courtyard surrounding the mosque provides a peaceful atmosphere.\n",
+      "de": "Die Şişman İbrahim Paşa Moschee ist eine historische Moschee in der Stadt Počitelj, Bosnien und Herzegowina. Sie wurde im 16. Jahrhundert während des Osmanischen Reiches erbaut und ist ein schönes Beispiel für die osmanische Architektur. Die Moschee ist nach Şişman İbrahim Paşa benannt, der während der osmanischen Zeit in der Region tätig war. Die Şişman İbrahim Paşa Moschee ist zu einem der Symbole von Počitelj geworden und hat einen wichtigen Platz unter den religiösen Gebäuden der Region. Das Innere der Moschee ist einfach, aber beeindruckend, und mit ihrem Minarett bietet sie einen Panoramablick auf die Stadt. Der Innenhof der Moschee bietet eine friedliche Atmosphäre.\n"
+    },
+    "activities": {
+      "tr": [
+        "Camiye ziyaret",
+        "Osmanlı mimarisini keşfetmek",
+        "Şehir manzarasını izlemek"
+      ],
+      "en": [
+        "Visiting the mosque",
+        "Exploring Ottoman architecture",
+        "Enjoying the city view"
+      ],
+      "de": [
+        "Die Moschee besuchen",
+        "Osmanische Architektur erkunden",
+        "Den Blick auf die Stadt genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/sisman_ibrahim_pasha_mosque1.jpg",
+      "https://example.com/sisman_ibrahim_pasha_mosque2.jpg"
+    ]
+  }
+]

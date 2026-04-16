@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "gandsfjorden",
+    "name": {
+      "tr": "Gandsfjorden",
+      "en": "Gandsfjorden",
+      "de": "Gandsfjorden"
+    },
+    "latitude": 58.8539,
+    "longitude": 5.7307,
+    "description": {
+      "tr": "Gandsfjorden, Sandnes yakınlarında bulunan bir fiyordur. Burada tekne turu yapabilir ve güzel manzaraların tadını çıkarabilirsiniz.",
+      "en": "Gandsfjorden is a fjord near Sandnes. You can take a boat tour and enjoy the beautiful views.",
+      "de": "Gandsfjorden ist ein Fjord in der Nähe von Sandnes. Man kann eine Bootstour machen und die schönen Aussichten genießen."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu yapma",
+        "Fiyord manzarasını izleme"
+      ],
+      "en": [
+        "Take a boat tour",
+        "Enjoy the fjord views"
+      ],
+      "de": [
+        "Eine Bootstour machen",
+        "Die Fjord-Aussichten genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/gandsfjorden.jpg"
+    ]
+  },
+  {
+    "slug": "vitenfabrikken",
+    "name": {
+      "tr": "Vitenfabrikken",
+      "en": "Vitenfabrikken",
+      "de": "Vitenfabrikken"
+    },
+    "latitude": 58.8585,
+    "longitude": 5.7327,
+    "description": {
+      "tr": "Vitenfabrikken, bilim ve teknolojiye dair eğitici sergilere sahip bir interaktif bilim merkezidir.",
+      "en": "Vitenfabrikken is an interactive science center with educational exhibits on science and technology.",
+      "de": "Vitenfabrikken ist ein interaktives Wissenschaftszentrum mit lehrreichen Ausstellungen zu Wissenschaft und Technologie."
+    },
+    "activities": {
+      "tr": [
+        "Eğitici sergilere katılma",
+        "Bilim deneylerini keşfetme"
+      ],
+      "en": [
+        "Join educational exhibits",
+        "Explore science experiments"
+      ],
+      "de": [
+        "An lehrreichen Ausstellungen teilnehmen",
+        "Wissenschaftsexperimente erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/vitenfabrikken.jpg"
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "manchester-museum",
+    "name": {
+      "tr": "Manchester Museum",
+      "en": "Manchester Museum",
+      "de": "Manchester Museum"
+    },
+    "latitude": 53.4655,
+    "longitude": -2.2293,
+    "description": {
+      "tr": "Manchester Museum, geniş bir doğa tarihi koleksiyonuna sahip olan, şehri keşfetmek için harika bir müzedir.",
+      "en": "Manchester Museum is a great museum to explore the city, with a wide collection of natural history.",
+      "de": "Das Manchester Museum ist ein großartiges Museum, um die Stadt zu erkunden, mit einer umfangreichen Sammlung zur Naturgeschichte."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi",
+        "Sanat eserlerini keşfetme"
+      ],
+      "en": [
+        "Museum tour",
+        "Explore art collections"
+      ],
+      "de": [
+        "Museumsbesuch",
+        "Kunstwerke entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/manchester_museum.jpg"
+    ]
+  },
+  {
+    "slug": "old-trafford",
+    "name": {
+      "tr": "Old Trafford",
+      "en": "Old Trafford",
+      "de": "Old Trafford"
+    },
+    "latitude": 53.4631,
+    "longitude": -2.2913,
+    "description": {
+      "tr": "Old Trafford, Manchester United'ın ev stadyumudur ve dünyanın en ünlü futbol stadyumlarından biridir.",
+      "en": "Old Trafford is the home stadium of Manchester United and one of the most famous football stadiums in the world.",
+      "de": "Old Trafford ist das Heimstadion von Manchester United und eines der bekanntesten Fußballstadien der Welt."
+    },
+    "activities": {
+      "tr": [
+        "Futbol maçı izleme",
+        "Stadyum turu"
+      ],
+      "en": [
+        "Watch a football match",
+        "Stadium tour"
+      ],
+      "de": [
+        "Ein Fußballspiel sehen",
+        "Stadionführung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/old_trafford.jpg"
+    ]
+  },
+  {
+    "slug": "manchester-art-gallery",
+    "name": {
+      "tr": "Manchester Art Gallery",
+      "en": "Manchester Art Gallery",
+      "de": "Manchester Art Gallery"
+    },
+    "latitude": 53.4796,
+    "longitude": -2.2452,
+    "description": {
+      "tr": "Manchester Art Gallery, İngiltere'nin en önemli sanat galerilerinden biridir ve birçok ünlü sanatçının eserlerine ev sahipliği yapmaktadır.",
+      "en": "Manchester Art Gallery is one of the most important art galleries in England, hosting works from many famous artists.",
+      "de": "Die Manchester Art Gallery ist eine der wichtigsten Kunstgalerien in England und beherbergt Werke vieler berühmter Künstler."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi gezisi",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Art gallery tour",
+        "Art exploration"
+      ],
+      "de": [
+        "Kunstgaleriebesuch",
+        "Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/manchester_art_gallery.jpg"
+    ]
+  },
+  {
+    "slug": "john-rylands-library",
+    "name": {
+      "tr": "John Rylands Library",
+      "en": "John Rylands Library",
+      "de": "John Rylands Library"
+    },
+    "latitude": 53.481,
+    "longitude": -2.2469,
+    "description": {
+      "tr": "John Rylands Library, gotik tarzda inşa edilmiş muazzam bir kütüphanedir ve tarihi kitapları keşfetmek için harika bir yerdir.",
+      "en": "John Rylands Library is a magnificent Gothic-style library and a great place to discover historical books.",
+      "de": "Die John Rylands Library ist eine beeindruckende Bibliothek im gotischen Stil und ein großartiger Ort, um historische Bücher zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Kütüphane gezisi",
+        "Kitap keşfi"
+      ],
+      "en": [
+        "Library tour",
+        "Discover books"
+      ],
+      "de": [
+        "Bibliotheksführung",
+        "Bücher entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/john_rylands_library.jpg"
+    ]
+  },
+  {
+    "slug": "etihad-stadium",
+    "name": {
+      "tr": "Etihad Stadium",
+      "en": "Etihad Stadium",
+      "de": "Etihad Stadium"
+    },
+    "latitude": 53.483,
+    "longitude": -2.2005,
+    "description": {
+      "tr": "Etihad Stadium, Manchester City'nin ev stadyumudur ve futbol severler için bir gezi noktasıdır.",
+      "en": "Etihad Stadium is the home stadium of Manchester City and a must-visit spot for football fans.",
+      "de": "Das Etihad Stadium ist das Heimstadion von Manchester City und ein Muss für Fußballfans."
+    },
+    "activities": {
+      "tr": [
+        "Futbol maçı izleme",
+        "Stadyum turu"
+      ],
+      "en": [
+        "Watch a football match",
+        "Stadium tour"
+      ],
+      "de": [
+        "Ein Fußballspiel sehen",
+        "Stadionführung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/etihad_stadium.jpg"
+    ]
+  }
+]

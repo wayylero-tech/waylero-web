@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "nancy-deki-place-stanislas-place-de-la-carri-re-ve-place-d-alliance",
+    "name": {
+      "tr": "Nancy'deki Place Stanislas, Place de la Carrière ve Place d'Alliance",
+      "en": "Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy",
+      "de": "Place Stanislas, Place de la Carrière und Place d'Alliance in Nancy"
+    },
+    "latitude": 48.692,
+    "longitude": 6.184,
+    "description": {
+      "tr": "Nancy'deki bu üç meydan, Fransız Barok mimarisinin önemli örneklerindendir ve UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "These three squares in Nancy are important examples of French Baroque architecture and are listed as UNESCO World Heritage sites.",
+      "de": "Diese drei Plätze in Nancy sind wichtige Beispiele französischer Barockarchitektur und stehen auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Meydanları gezmek",
+        "Barok mimarisini keşfetmek"
+      ],
+      "en": [
+        "Visit the squares",
+        "Explore Baroque architecture"
+      ],
+      "de": [
+        "Die Plätze besichtigen",
+        "Barockarchitektur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/nancy_squares.jpg"
+    ]
+  }
+]

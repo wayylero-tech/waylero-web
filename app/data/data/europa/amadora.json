@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "amadora-park",
+    "name": {
+      "tr": "Amadora Park",
+      "en": "Amadora Park",
+      "de": "Amadora Park"
+    },
+    "latitude": 38.763,
+    "longitude": -9.2312,
+    "description": {
+      "tr": "Amadora Park, şehirdeki en büyük yeşil alanlardan biridir ve yürüyüş yapabileceğiniz, piknik yapabileceğiniz güzel bir parktır.",
+      "en": "Amadora Park is one of the largest green areas in the city, a beautiful park where you can walk and have picnics.",
+      "de": "Der Amadora Park ist eines der größten Grünflächen in der Stadt, ein schöner Park, in dem man spazieren gehen und picknicken kann."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapma",
+        "Piknik yapma"
+      ],
+      "en": [
+        "Walk in the park",
+        "Have a picnic"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/amadora_park.jpg"
+    ]
+  },
+  {
+    "slug": "museu-de-arte-de-amadora",
+    "name": {
+      "tr": "Museu de Arte de Amadora",
+      "en": "Amadora Art Museum",
+      "de": "Amadora Kunstmuseum"
+    },
+    "latitude": 38.7622,
+    "longitude": -9.2318,
+    "description": {
+      "tr": "Amadora Sanat Müzesi, modern ve çağdaş sanatı sergileyen önemli bir müzedir ve çeşitli geçici sergilere ev sahipliği yapmaktadır.",
+      "en": "The Amadora Art Museum is an important museum displaying modern and contemporary art, hosting various temporary exhibitions.",
+      "de": "Das Amadora Kunstmuseum ist ein bedeutendes Museum für moderne und zeitgenössische Kunst und beherbergt verschiedene temporäre Ausstellungen."
+    },
+    "activities": {
+      "tr": [
+        "Sanat sergilerini gezme",
+        "Çeşitli sanat eserlerini keşfetme"
+      ],
+      "en": [
+        "Visit art exhibitions",
+        "Explore various artworks"
+      ],
+      "de": [
+        "Kunstausstellungen besuchen",
+        "Verschiedene Kunstwerke erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/amadora_museum.jpg"
+    ]
+  }
+]

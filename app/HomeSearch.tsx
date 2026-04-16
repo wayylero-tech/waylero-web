@@ -6,110 +6,132 @@ import { Search } from "lucide-react";
 import { trackSearch } from "@/lib/analytics";
 import { useLang } from "@/app/context/LanguageContext";
 import { cityToCountryMap } from "@/lib/cityToCountryMap";
+import { normalizeText, cleanSearchQuery, fuzzyMatch } from "@/lib/search";
+import globalPlaces from "@/app/data/globalPlaces.json";
 
-// forcedLang ekledik ki Google botu için sunucudan dil gönderilebilsin
 export default function HomeSearch({ forcedLang }: { forcedLang?: string }) {
   const [search, setSearch] = useState("");
   const [highlight, setHighlight] = useState(false);
+  const [mapPlace, setMapPlace] = useState<any | null>(null);
 
   const router = useRouter();
   const { lang: contextLang } = useLang();
 
-  // Öncelik sunucudan gelen dilde, yoksa context'i kullan
   const activeLang = forcedLang || contextLang || "tr";
 
-  // 🌍 DİL SÖZLÜĞÜ (activeLang'e bağlandı)
   const t = {
     tr: {
       placeholder: "Şehir, mekan veya etkinlik ara...",
       highlightPlaceholder: "Hangi şehirde ne arıyorsunuz?",
-      helper: 'İpucu: "Konya\'da gezilecek yerler" yazabilirsin.',
+      helper: 'İpucu: "Mevlana nasıl gidilir?" veya "Antalya konser"',
     },
     en: {
       placeholder: "Search city, place or event...",
       highlightPlaceholder: "What are you looking for and where?",
-      helper: 'Tip: Type "Places to visit in London".',
-    }
-  }[activeLang as "tr" | "en"] || { placeholder: "Search...", helper: "" };
+      helper: 'Tip: Try "How to go to Maiden Tower?" or "London events"',
+    },
+  }[activeLang as "tr" | "en"];
 
-  // 🔥 TÜM ŞEHİRLER (OTOMATİK)
-  const citySlugMap = useMemo(() => {
-    const map: Record<string, { region: string; slug: string }> = {};
+  const countryMap: Record<string, string[]> = {
+    turkiye: ["turkey", "turkiye"],
+    almanya: ["germany", "almanya"],
+    avusturya: ["austria", "avusturya"],
+    fransa: ["france", "fransa"],
+    italya: ["italy", "italya"],
+    ispanya: ["spain", "ispanya"],
+    ingiltere: ["uk", "england", "united kingdom", "ingiltere"],
+    yunanistan: ["greece", "yunanistan"],
+    amerika: ["usa", "united states", "america", "amerika"],
+    japonya: ["japan", "japonya"],
+  };
+
+  const locationData = useMemo(() => {
+    const cityMap: Record<string, { region: string; slug: string }> = {};
+    const countries = new Set<string>();
 
     Object.entries(cityToCountryMap).forEach(([city, country]) => {
-      const upper = city.toLocaleUpperCase("tr-TR");
-
-      map[upper] = {
-        region: country,
+      const normalizedCity = normalizeText(city);
+      cityMap[normalizedCity] = {
+        region: country.toLowerCase(),
         slug: city,
       };
-
-      if (city.includes("-")) {
-        const spaced = city.replace(/-/g, " ").toLocaleUpperCase("tr-TR");
-        map[spaced] = {
-          region: country,
-          slug: city,
-        };
-      }
+      countries.add(normalizeText(country));
     });
 
-    return map;
+    return { cityMap, countries: Array.from(countries) };
   }, []);
-
-  // 🧠 QUERY NORMALIZE
-  const normalizeQuery = (q: string) => {
-    return q
-      .toLocaleLowerCase("tr-TR")
-      .replace(/['’](da|de|ta|te)/g, "")
-      .replace(/(da|de|ta|te)\b/g, "")
-      .replace(/['’](ya|ye|yu|yü)/g, "")
-      .replace(/(ya|ye|yu|yü)\b/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-  };
-
-  const findCityMatch = (query: string) => {
-    const normalized = normalizeQuery(query);
-    const upper = normalized.toLocaleUpperCase(
-      activeLang === "tr" ? "tr-TR" : "en-US"
-    );
-
-    const foundKey = Object.keys(citySlugMap).find(city =>
-      upper.includes(city)
-    );
-
-    return foundKey ? citySlugMap[foundKey] : null;
-  };
 
   const isEventIntent = (query: string) => {
     const q = query.toLowerCase();
-    const keywords = [
-      "etkinlik", "konser", "festival", "tiyatro",
-      "event", "concert", "show", "party"
-    ];
-    return keywords.some(k => q.includes(k));
+    return ["etkinlik", "konser", "festival", "tiyatro", "event"].some((k) => q.includes(k));
+  };
+
+  const isNavigationIntent = (query: string) => {
+    const q = normalizeText(query);
+    return ["nasil gidilir", "yol tarifi", "nerede", "how to go"].some((k) => q.includes(k));
   };
 
   const performSearch = () => {
-    const query = search.trim();
-    if (!query) return;
+    const rawQuery = search.trim();
+    if (!rawQuery) return;
 
-    trackSearch(query);
-
-    const cityMatch = findCityMatch(query);
-    const isEvent = isEventIntent(query);
-
+    trackSearch(rawQuery);
     const prefix = activeLang === "en" ? "/en" : "";
+    const cleaned = cleanSearchQuery(rawQuery);
+    const normalized = normalizeText(rawQuery);
+    const fullQuery = `${normalized} ${cleaned}`;
 
-    if (isEvent) {
-      const cityParam = cityMatch ? cityMatch.slug : query;
-      router.push(`${prefix}/aktiviteler?city=${encodeURIComponent(cityParam)}`);
-    } else if (cityMatch) {
-      router.push(`${prefix}/kesfet/${cityMatch.region}/${cityMatch.slug}`);
-    } else {
-      router.push(`${prefix}/kesfet?q=${encodeURIComponent(query)}`);
+    setMapPlace(null);
+
+    if (isEventIntent(rawQuery)) {
+      const cityKey = Object.keys(locationData.cityMap).find((c) => fullQuery.includes(c));
+      const citySlug = cityKey ? locationData.cityMap[cityKey].slug : cleaned;
+      router.push(`${prefix}/aktiviteler?city=${encodeURIComponent(citySlug)}`);
+      setSearch("");
+      return;
     }
 
+    const cityKeys = Object.keys(locationData.cityMap);
+    let cityMatch = cityKeys.find((c) => c === cleaned || c === normalized);
+    if (!cityMatch) cityMatch = cityKeys.find((c) => fullQuery.includes(c));
+
+    if (cityMatch) {
+      const city = locationData.cityMap[cityMatch];
+      router.push(`${prefix}/kesfet/${city.region}/${city.slug}`);
+      setSearch("");
+      return;
+    }
+
+    const countryMatch = locationData.countries.find((c) => {
+      const normC = normalizeText(c);
+      return (
+        fullQuery.includes(normC) ||
+        normC.includes(cleaned) ||
+        countryMap[normC]?.some((alias) => fullQuery.includes(alias))
+      );
+    });
+
+    if (countryMatch) {
+      router.push(`${prefix}/kesfet/${countryMatch.toLowerCase()}`);
+      setSearch("");
+      return;
+    }
+
+    const placeMatch = globalPlaces.find(
+      (p) => fuzzyMatch(p.name_tr, rawQuery) || fuzzyMatch(p.name_en, rawQuery)
+    );
+
+    if (placeMatch) {
+      if (isNavigationIntent(rawQuery)) {
+        setMapPlace(placeMatch);
+      } else {
+        router.push(`${prefix}/kesfet/${placeMatch.country}/${placeMatch.city}/${placeMatch.slug}`);
+      }
+      setSearch("");
+      return;
+    }
+
+    router.push(`${prefix}/kesfet?q=${encodeURIComponent(rawQuery)}`);
     setSearch("");
   };
 
@@ -124,12 +146,23 @@ export default function HomeSearch({ forcedLang }: { forcedLang?: string }) {
   }, []);
 
   return (
-    <div className="mb-6">
-      <div className={`p-[2px] rounded-2xl transition-all duration-300 ${
-        highlight
-          ? "bg-yellow-400 scale-[1.02] shadow-[0_0_20px_rgba(255,200,0,0.8)]"
-          : "bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400"
-      }`}>
+    <div className="mb-6 relative">
+      {/* 1. ARKA PLAN BLUR KATMANI (Yeşil çizdiğin yerler için) */}
+      {mapPlace && (
+        <div 
+          className="fixed inset-0 z-[40] bg-white/30 backdrop-blur-md transition-all duration-500"
+          onClick={() => setMapPlace(null)} 
+        />
+      )}
+
+      {/* 2. SEARCH BAR (z-60 ile her şeyin üstünde ve net) */}
+      <div
+        className={`relative z-[60] p-[2px] rounded-2xl transition-all duration-300 ${
+          highlight
+            ? "bg-yellow-400 scale-[1.02] shadow-[0_0_20px_rgba(255,200,0,0.8)]"
+            : "bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400"
+        }`}
+      >
         <div className="flex items-center bg-white rounded-[14px] px-4 py-3">
           <Search
             className="w-5 h-5 text-gray-400 mr-3 cursor-pointer"
@@ -147,9 +180,54 @@ export default function HomeSearch({ forcedLang }: { forcedLang?: string }) {
         </div>
       </div>
 
-      <p className="mt-2 text-[11px] text-gray-400 px-2 italic opacity-80">
+      <p className={`mt-2 text-[11px] text-gray-400 px-2 italic opacity-80 relative z-[60] ${mapPlace ? "hidden" : "block"}`}>
         {t.helper}
       </p>
+
+      {/* 3. HARİTA PANELİ (z-50 - Blur'un üstünde, Input'un altında) */}
+      {mapPlace && (
+        <div className="absolute left-0 right-0 top-full mt-4 z-[50] animate-in fade-in slide-in-from-top-4 duration-300">
+          <div className="bg-white rounded-3xl overflow-hidden shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] border border-gray-100">
+            
+            {/* Header */}
+            <div className="flex justify-between items-center px-6 py-4 border-b bg-gray-50/80 backdrop-blur-sm">
+              <div>
+                <h3 className="font-bold text-gray-900">Yol Tarifi</h3>
+                <p className="text-xs text-gray-500 font-medium">{mapPlace.name_tr || mapPlace.name_en}</p>
+              </div>
+              <button 
+                onClick={() => setMapPlace(null)}
+                className="w-10 h-10 flex items-center justify-center hover:bg-gray-200 rounded-full transition-all"
+              >
+                <span className="text-xl text-gray-500">×</span>
+              </button>
+            </div>
+
+            {/* Harita */}
+            <div className="w-full h-[380px] bg-slate-50">
+              <iframe
+                className="w-full h-full border-0"
+                src={`https://maps.google.com/maps?q=${mapPlace.lat},${mapPlace.lng}&z=15&output=embed`}
+                allowFullScreen
+              />
+            </div>
+
+            {/* Footer */}
+            <div className="flex justify-between items-center px-6 py-5 bg-white">
+              <div className="flex flex-col">
+                <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Lokasyon</span>
+                <span className="text-xs font-mono text-gray-600">{mapPlace.lat}, {mapPlace.lng}</span>
+              </div>
+              <button 
+                onClick={() => window.open(`https://www.google.com/maps?q=${mapPlace.lat},${mapPlace.lng}`, "_blank")}
+                className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl text-sm font-bold shadow-lg shadow-blue-200 transition-transform active:scale-95"
+              >
+                Haritada Aç
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

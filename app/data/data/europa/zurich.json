@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "bahnhofstrasse",
+    "name": {
+      "tr": "Bahnhofstrasse",
+      "en": "Bahnhofstrasse",
+      "de": "Bahnhofstrasse"
+    },
+    "latitude": 47.3785,
+    "longitude": 8.5376,
+    "description": {
+      "tr": "Bahnhofstrasse, Zürih'in ünlü alışveriş caddesidir ve dünyaca ünlü mağazalarla doludur.",
+      "en": "Bahnhofstrasse is Zurich's famous shopping street, lined with world-renowned stores.",
+      "de": "Die Bahnhofstrasse ist die berühmte Einkaufsstraße von Zürich, gesäumt von weltbekannten Geschäften."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Yürüyüş yapma"
+      ],
+      "en": [
+        "Shopping",
+        "Walking"
+      ],
+      "de": [
+        "Einkaufen",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/bahnhofstrasse.jpg"
+    ]
+  },
+  {
+    "slug": "lake-zurich",
+    "name": {
+      "tr": "Lake Zurich",
+      "en": "Lake Zurich",
+      "de": "Zürichsee"
+    },
+    "latitude": 47.3769,
+    "longitude": 8.5417,
+    "description": {
+      "tr": "Lake Zurich, Zürih'in merkezine yakın büyük bir göldür. Yürüyüş yapabilir, tekne turuna çıkabilir veya gölet etrafında dinlenebilirsiniz.",
+      "en": "Lake Zurich is a large lake near the center of Zurich. You can walk, take a boat tour, or relax around the lake.",
+      "de": "Der Zürichsee ist ein großer See in der Nähe des Zentrums von Zürich. Sie können spazieren gehen, eine Bootstour machen oder sich am See entspannen."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu",
+        "Yürüyüş yapma"
+      ],
+      "en": [
+        "Boat tour",
+        "Walking"
+      ],
+      "de": [
+        "Bootstour",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_zurich.jpg"
+    ]
+  },
+  {
+    "slug": "zurich-eski-sehir-altstadt",
+    "name": {
+      "tr": "Zürich Eski Şehir (Altstadt)",
+      "en": "Zurich Old Town (Altstadt)",
+      "de": "Zürcher Altstadt"
+    },
+    "latitude": 47.3769,
+    "longitude": 8.5417,
+    "description": {
+      "tr": "Zürich'in tarihi merkezi, dar sokakları, tarihi binaları ve pitoresk meydanlarıyla oldukça büyüleyicidir.",
+      "en": "The historic center of Zurich is quite charming with its narrow streets, historic buildings, and picturesque squares.",
+      "de": "Das historische Zentrum von Zürich ist mit seinen engen Straßen, historischen Gebäuden und malerischen Plätzen sehr charmant."
+    },
+    "activities": {
+      "tr": [
+        "Eski şehir gezisi",
+        "Alışveriş yapma"
+      ],
+      "en": [
+        "Old town tour",
+        "Shopping"
+      ],
+      "de": [
+        "Altstadt-Tour",
+        "Einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/altstadt_zurich.jpg"
+    ]
+  },
+  {
+    "slug": "zurih-sanat-muzesi",
+    "name": {
+      "tr": "Zürih Sanat Müzesi",
+      "en": "Zurich Art Museum",
+      "de": "Kunsthaus Zürich"
+    },
+    "latitude": 47.3796,
+    "longitude": 8.5406,
+    "description": {
+      "tr": "Zürih Sanat Müzesi, modern ve çağdaş sanat koleksiyonlarıyla ünlüdür.",
+      "en": "Zurich Art Museum is known for its collections of modern and contemporary art.",
+      "de": "Das Kunsthaus Zürich ist bekannt für seine Sammlungen moderner und zeitgenössischer Kunst."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi gezisi",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Gallery tour",
+        "Art discovery"
+      ],
+      "de": [
+        "Galeriebesuch",
+        "Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/zurich_sanat_muzesi.jpg"
+    ]
+  },
+  {
+    "slug": "uetliberg-dagi",
+    "name": {
+      "tr": "Uetliberg Dağı",
+      "en": "Uetliberg Mountain",
+      "de": "Uetliberg"
+    },
+    "latitude": 47.38,
+    "longitude": 8.4762,
+    "description": {
+      "tr": "Uetliberg Dağı, Zürih'in yükseklerinden şehri ve çevresini panoramik olarak görebileceğiniz harika bir yerdir.",
+      "en": "Uetliberg Mountain is a great place to get a panoramic view of Zurich and its surroundings from the heights.",
+      "de": "Der Uetliberg ist ein großartiger Ort, um einen Panoramablick auf Zürich und die Umgebung von den Höhen zu genießen."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanma",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Climbing the mountain",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Den Berg erklimmen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/uetliberg.jpg"
+    ]
+  }
+]

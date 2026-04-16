@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "minsk-baskent",
+    "name": {
+      "tr": "Minsk (Başkent)",
+      "en": "Minsk (Capital)",
+      "de": "Minsk (Hauptstadt)"
+    },
+    "latitude": 53.9,
+    "longitude": 27.5667,
+    "description": {
+      "tr": "Minsk, Belarus'un başkenti ve kültürel merkezidir. Sovyet dönemine ait birçok tarihi yapı burada bulunmaktadır.",
+      "en": "Minsk is the capital and cultural center of Belarus, home to many historical buildings from the Soviet era.",
+      "de": "Minsk ist die Hauptstadt und das kulturelle Zentrum von Weißrussland, mit vielen historischen Gebäuden aus der Sowjetzeit."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi meydanları gezme",
+        "Müze ziyaretleri yapma"
+      ],
+      "en": [
+        "Explore historic squares",
+        "Visit museums"
+      ],
+      "de": [
+        "Historische Plätze erkunden",
+        "Museen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/minsk.jpg"
+    ]
+  },
+  {
+    "slug": "brest-kalesi",
+    "name": {
+      "tr": "Brest Kalesi",
+      "en": "Brest Fortress",
+      "de": "Brest Festung"
+    },
+    "latitude": 52.0943,
+    "longitude": 23.6932,
+    "description": {
+      "tr": "Brest Kalesi, II. Dünya Savaşı sırasında büyük direnişe tanıklık etmiş ve günümüzde tarihi bir anıt olarak korunmaktadır.",
+      "en": "Brest Fortress witnessed a major resistance during World War II and is now preserved as a historic monument.",
+      "de": "Die Brest-Festung erlebte während des Zweiten Weltkriegs großen Widerstand und wird heute als historisches Denkmal bewahrt."
+    },
+    "activities": {
+      "tr": [
+        "Kale içindeki müzeyi gezme",
+        "Savaş anıtlarını ziyaret etme"
+      ],
+      "en": [
+        "Tour the museum inside the fortress",
+        "Visit the war memorials"
+      ],
+      "de": [
+        "Das Museum in der Festung besichtigen",
+        "Die Kriegsdenkmäler besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/brest_fortress.jpg"
+    ]
+  }
+]

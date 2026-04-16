@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "coimbra-universitesi",
+    "name": {
+      "tr": "Coimbra Üniversitesi",
+      "en": "University of Coimbra",
+      "de": "Universität Coimbra"
+    },
+    "latitude": 40.208,
+    "longitude": -8.42,
+    "description": {
+      "tr": "Coimbra Üniversitesi, Avrupa'nın en eski üniversitelerinden biridir ve tarihi binalarıyla UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "The University of Coimbra is one of Europe's oldest universities and is listed as a UNESCO World Heritage Site due to its historic buildings.",
+      "de": "Die Universität Coimbra ist eine der ältesten Universitäten Europas und steht aufgrund ihrer historischen Gebäude auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Üniversite kampüsünü gezme",
+        "Eski kütüphaneyi ziyaret etme"
+      ],
+      "en": [
+        "Tour the university campus",
+        "Visit the old library"
+      ],
+      "de": [
+        "Den Universitätscampus besichtigen",
+        "Die alte Bibliothek besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/coimbra_university.jpg"
+    ]
+  },
+  {
+    "slug": "joanina-kutuphanesi",
+    "name": {
+      "tr": "Joanina Kütüphanesi",
+      "en": "Joanina Library",
+      "de": "Joanina Bibliothek"
+    },
+    "latitude": 40.2085,
+    "longitude": -8.4207,
+    "description": {
+      "tr": "Joanina Kütüphanesi, Coimbra Üniversitesi'ne ait tarihi bir kütüphanedir ve 18. yüzyıldan kalma muazzam bir yapıdır.",
+      "en": "The Joanina Library is a historic library belonging to the University of Coimbra, a magnificent 18th-century structure.",
+      "de": "Die Joanina-Bibliothek ist eine historische Bibliothek der Universität Coimbra, ein prächtiges Gebäude aus dem 18. Jahrhundert."
+    },
+    "activities": {
+      "tr": [
+        "Kütüphaneyi gezme",
+        "Eski kitapları inceleme"
+      ],
+      "en": [
+        "Tour the library",
+        "Examine the old books"
+      ],
+      "de": [
+        "Die Bibliothek besichtigen",
+        "Die alten Bücher untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/joanina_library.jpg"
+    ]
+  }
+]

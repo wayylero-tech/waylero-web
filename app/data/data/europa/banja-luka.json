@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "kastel-kalesi",
+    "name": {
+      "tr": "Kastel Kalesi",
+      "en": "Kastel Fortress",
+      "de": "Kastel Festung"
+    },
+    "latitude": 44.76674,
+    "longitude": 17.19068,
+    "description": {
+      "tr": "Kastel Kalesi, Bosna-Hersek’in Banja Luka şehrinde bulunan tarihi bir yapıdır. 16. yüzyılda Osmanlı İmparatorluğu döneminde inşa edilmiştir ve şehri savunmak için kullanılmıştır. Kale, oldukça iyi korunmuş durumda olup, hem turistler hem de tarih meraklıları için önemli bir ziyaret noktasıdır. Kastel Kalesi, şehrin panoramik manzaralarını sunar ve çevresindeki surlar, kuleler ve hendeklerle tarihi atmosferi hissettirir. Kalede ayrıca bir müze bulunmaktadır ve burada Banja Luka’nın tarihi hakkında bilgi edinebilirsiniz.\n",
+      "en": "The Kastel Fortress is a historical site located in the city of Banja Luka, Bosnia and Herzegovina. Built during the Ottoman Empire in the 16th century, it was used to defend the city. The fortress is well-preserved and serves as an important landmark for both tourists and history enthusiasts. The Kastel Fortress offers panoramic views of the city and provides a historical atmosphere with its surrounding walls, towers, and moat. There is also a museum inside the fortress where visitors can learn about the history of Banja Luka.\n",
+      "de": "Die Kastel-Festung ist eine historische Stätte in der Stadt Banja Luka, Bosnien und Herzegowina. Sie wurde im 16. Jahrhundert während des Osmanischen Reiches erbaut und diente zur Verteidigung der Stadt. Die Festung ist gut erhalten und ein wichtiger Wahrzeichen für Touristen und Geschichtsinteressierte. Die Kastel-Festung bietet einen Panoramablick auf die Stadt und vermittelt eine historische Atmosphäre mit ihren umliegenden Mauern, Türmen und Gräben. Im Inneren der Festung befindet sich auch ein Museum, in dem Besucher mehr über die Geschichte von Banja Luka erfahren können.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında yürüyüş yapmak",
+        "Banja Luka manzarasını izlemek",
+        "Müzeyi gezmek"
+      ],
+      "en": [
+        "Walking around the fortress",
+        "Enjoying the view of Banja Luka",
+        "Exploring the museum"
+      ],
+      "de": [
+        "Spazieren rund um die Festung",
+        "Genießen des Blicks auf Banja Luka",
+        "Das Museum erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kastel_fortress1.jpg",
+      "https://example.com/kastel_fortress2.jpg"
+    ]
+  },
+  {
+    "slug": "ferhadiye-camii",
+    "name": {
+      "tr": "Ferhadiye Camii",
+      "en": "Ferhadiye Mosque",
+      "de": "Ferhadiye Moschee"
+    },
+    "latitude": 43.85904,
+    "longitude": 18.42711,
+    "description": {
+      "tr": "Ferhadiye Camii, Bosna-Hersek'in Banja Luka şehrinde bulunan tarihi bir camidir. Osmanlı dönemine ait olan bu cami, 16. yüzyılda inşa edilmiştir. Ferhadiye Camii, zarif mimarisi ve içindeki ayrıntılarla dikkat çeker. Camii, şehre gelen ziyaretçilere dini ve kültürel bir deneyim sunar. Camii çevresinde, Osmanlı dönemine ait diğer yapıları da görebilirsiniz. Ziyaretçilere, şehrin Osmanlı mirasını keşfetme fırsatı sunan bu cami, Banja Luka'nın en önemli dini yapılarından biridir.\n",
+      "en": "The Ferhadiye Mosque is a historical mosque located in the city of Banja Luka, Bosnia and Herzegovina. Built during the Ottoman era in the 16th century, the mosque is known for its elegant architecture and detailed interior. It offers visitors a religious and cultural experience. Around the mosque, you can also find other Ottoman-era buildings. This mosque is one of the most significant religious structures in Banja Luka, offering visitors a chance to explore the Ottoman heritage of the city.\n",
+      "de": "Die Ferhadiye-Moschee ist eine historische Moschee in der Stadt Banja Luka, Bosnien und Herzegowina. Sie wurde im 16. Jahrhundert während der Osmanischen Ära erbaut und ist bekannt für ihre elegante Architektur und detaillierte Innenausstattung. Die Moschee bietet den Besuchern ein religiöses und kulturelles Erlebnis. Rund um die Moschee befinden sich auch andere Gebäude aus der Osmanischen Zeit. Diese Moschee ist eines der wichtigsten religiösen Gebäude in Banja Luka und bietet den Besuchern die Möglichkeit, das osmanische Erbe der Stadt zu erkunden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Camiyi ziyaret etmek",
+        "Osmanlı mirasını keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Visiting the mosque",
+        "Exploring the Ottoman heritage",
+        "Taking photos"
+      ],
+      "de": [
+        "Die Moschee besuchen",
+        "Das osmanische Erbe erkunden",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/ferhadiye_mosque1.jpg",
+      "https://example.com/ferhadiye_mosque2.jpg"
+    ]
+  },
+  {
+    "slug": "gospodska-caddesi",
+    "name": {
+      "tr": "Gospodska Caddesi",
+      "en": "Gospodska Street",
+      "de": "Gospodska Straße"
+    },
+    "latitude": 44.77143,
+    "longitude": 17.19132,
+    "description": {
+      "tr": "Gospodska Caddesi, Banja Luka'nın en önemli ve tarihi caddelerinden biridir. Caddede birçok mağaza, kafe, restoran ve otel bulunmaktadır. Gospodska Caddesi, Banja Luka'nın kültürel ve ticari merkezi olarak kabul edilir. Osmanlı ve Avusturya-Macaristan İmparatorluğu dönemlerinden kalma binaların bulunduğu bu cadde, şehri keşfetmek isteyen ziyaretçiler için oldukça popüler bir yerdir. Caddede yürürken tarihi yapıları gözlemleyebilir ve şehrin yerel yaşamını deneyimleyebilirsiniz.\n",
+      "en": "Gospodska Street is one of the most important and historic streets in Banja Luka. The street is lined with many shops, cafes, restaurants, and hotels. Gospodska Street is considered the cultural and commercial center of Banja Luka. The street is home to buildings from both the Ottoman and Austro-Hungarian Empire periods, making it a popular spot for visitors looking to explore the city. While walking down the street, you can observe historical buildings and experience the local life of the city.\n",
+      "de": "Die Gospodska-Straße ist eine der wichtigsten und historischsten Straßen in Banja Luka. Die Straße ist gesäumt von vielen Geschäften, Cafés, Restaurants und Hotels. Gospodska-Straße wird als das kulturelle und kommerzielle Zentrum von Banja Luka betrachtet. Entlang der Straße befinden sich Gebäude aus der Zeit des Osmanischen Reiches und des Österreichisch-Ungarischen Reiches, was sie zu einem beliebten Ort für Besucher macht, die die Stadt erkunden möchten. Beim Spaziergang über die Straße können Sie historische Gebäude beobachten und das lokale Leben der Stadt erleben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Kafelerde oturmak",
+        "Tarihi yapıları gezmek"
+      ],
+      "en": [
+        "Shopping",
+        "Sitting at cafes",
+        "Exploring historical buildings"
+      ],
+      "de": [
+        "Einkaufen",
+        "In Cafés sitzen",
+        "Historische Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/gospodska_street1.jpg",
+      "https://example.com/gospodska_street2.jpg"
+    ]
+  },
+  {
+    "slug": "vrbas-nehri-kanyonu",
+    "name": {
+      "tr": "Vrbas Nehri Kanyonu",
+      "en": "Vrbas River Canyon",
+      "de": "Vrbas Flusskanjon"
+    },
+    "latitude": 44.49207,
+    "longitude": 17.15627,
+    "description": {
+      "tr": "Vrbas Nehri Kanyonu, Bosna-Hersek'in en etkileyici doğal alanlarından biridir. Banja Luka yakınlarında bulunan bu kanyon, Vrbas Nehri tarafından şekillendirilmiştir. Kanyon, zorlu kayalık yapıları ve derin vadisi ile doğa severler için harika bir destinasyondur. Bölgede yürüyüş yapabilir, kaya tırmanışı gibi macera aktivitelerine katılabilirsiniz. Vrbas Nehri Kanyonu, doğa fotoğrafçılığı yapmak için mükemmel bir yerdir, çünkü bölgenin vahşi doğası ve dramatik manzaraları görsel açıdan oldukça etkileyicidir.\n",
+      "en": "The Vrbas River Canyon is one of the most impressive natural areas in Bosnia and Herzegovina. Located near Banja Luka, the canyon was shaped by the Vrbas River. The canyon, with its rugged rocky formations and deep valley, is a great destination for nature lovers. Visitors can hike, participate in rock climbing, and enjoy various adventure activities. The Vrbas River Canyon is also an excellent spot for nature photography due to its dramatic landscapes and untamed nature.\n",
+      "de": "Der Vrbas-Flusskanjon ist eines der beeindruckendsten Naturgebiete in Bosnien und Herzegowina. In der Nähe von Banja Luka gelegen, wurde der Kanyon vom Vrbas-Fluss geformt. Der Kanyon mit seinen felsigen Formationen und tiefen Tälern ist ein großartiges Ziel für Naturliebhaber. Besucher können wandern, Felsklettern und an verschiedenen Abenteueraktivitäten teilnehmen. Der Vrbas-Flusskanjon ist auch ein ausgezeichneter Ort für Naturfotografie aufgrund seiner dramatischen Landschaften und unberührten Natur.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Kaya tırmanışı yapmak",
+        "Doğa fotoğrafçılığı yapmak"
+      ],
+      "en": [
+        "Hiking",
+        "Rock climbing",
+        "Nature photography"
+      ],
+      "de": [
+        "Wandern",
+        "Felsklettern",
+        "Naturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kanyon"
+      ],
+      "en": [
+        "canyon"
+      ],
+      "de": [
+        "Schlucht"
+      ]
+    },
+    "images": [
+      "https://example.com/vrbas_river_canyon1.jpg",
+      "https://example.com/vrbas_river_canyon2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "balboa-park",
+    "name": {
+      "tr": "Balboa Park",
+      "en": "Balboa Park",
+      "de": "Balboa Park"
+    },
+    "latitude": 32.7343,
+    "longitude": -117.1442,
+    "description": {
+      "tr": "Balboa Park, San Diego'nun en büyük kültürel alanıdır. Parkta birçok müze, tiyatro ve bahçe yer alır. Ayrıca ünlü San Diego Hayvanat Bahçesi de burada bulunmaktadır. Ziyaretçiler için çeşitli etkinlikler ve sergiler sunulmaktadır.\n",
+      "en": "Balboa Park is the largest cultural park in San Diego. The park hosts numerous museums, theaters, and gardens. The famous San Diego Zoo is also located here, along with various events and exhibitions for visitors.\n",
+      "de": "Der Balboa Park ist der größte Kulturpark in San Diego. Der Park beherbergt zahlreiche Museen, Theater und Gärten. Der berühmte San Diego Zoo befindet sich ebenfalls hier und bietet den Besuchern verschiedene Veranstaltungen und Ausstellungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müzeleri gezmek",
+        "San Diego Hayvanat Bahçesi’ni ziyaret etmek",
+        "Bahçelerde yürüyüş yapmak"
+      ],
+      "en": [
+        "Tour the museums",
+        "Visit the San Diego Zoo",
+        "Take a walk through the gardens"
+      ],
+      "de": [
+        "Die Museen besichtigen",
+        "Den San Diego Zoo besuchen",
+        "Durch die Gärten spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/balboa_park_image.jpg"
+    ]
+  },
+  {
+    "slug": "uss-midway-muzesi",
+    "name": {
+      "tr": "USS Midway Müzesi",
+      "en": "USS Midway Museum",
+      "de": "USS Midway Museum"
+    },
+    "latitude": 32.7137,
+    "longitude": -117.1753,
+    "description": {
+      "tr": "USS Midway Müzesi, eski bir Amerikan uçak gemisinin üzerine kurulmuştur. Ziyaretçiler, bu devasa geminin içini gezebilir, tarihi uçakları görebilir ve denizcilik tarihine dair birçok sergiyi keşfedebilirler.\n",
+      "en": "The USS Midway Museum is set on a retired American aircraft carrier. Visitors can tour the massive ship, see historic aircraft, and explore exhibits related to naval history.\n",
+      "de": "Das USS Midway Museum befindet sich auf einem ausgemusterten amerikanischen Flugzeugträger. Besucher können das riesige Schiff besichtigen, historische Flugzeuge sehen und Ausstellungen zur Marinegeschichte entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Uçak gemisini keşfetmek",
+        "Denizcilik tarihini öğrenmek",
+        "Tarihi uçakları görmek"
+      ],
+      "en": [
+        "Explore the aircraft carrier",
+        "Learn about naval history",
+        "See historic aircraft"
+      ],
+      "de": [
+        "Den Flugzeugträger erkunden",
+        "Mehr über die Marinegeschichte lernen",
+        "Historische Flugzeuge sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/uss_midway_museum_image.jpg"
+    ]
+  },
+  {
+    "slug": "la-jolla-cove",
+    "name": {
+      "tr": "La Jolla Cove",
+      "en": "La Jolla Cove",
+      "de": "La Jolla Cove"
+    },
+    "latitude": 32.8322,
+    "longitude": -117.2713,
+    "description": {
+      "tr": "La Jolla Cove, San Diego'nun en güzel plajlarından biridir. Ziyaretçiler burada şnorkelle dalış yapabilir, deniz aslanlarını görebilir ve berrak suların tadını çıkarabilirler. Aynı zamanda çok sayıda restoran ve dükkan da bu bölgededir.\n",
+      "en": "La Jolla Cove is one of San Diego’s most beautiful beaches. Visitors can snorkel, see sea lions, and enjoy the crystal-clear waters. The area also has many restaurants and shops.\n",
+      "de": "La Jolla Cove ist einer der schönsten Strände in San Diego. Besucher können schnorcheln, Seelöwen sehen und das kristallklare Wasser genießen. Die Gegend bietet auch viele Restaurants und Geschäfte.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şnorkelle dalış yapmak",
+        "Deniz aslanlarını izlemek",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Go snorkeling",
+        "Watch the sea lions",
+        "Relax on the beach"
+      ],
+      "de": [
+        "Schnorcheln",
+        "Seelöwen beobachten",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/la_jolla_cove_image.jpg"
+    ]
+  }
+]

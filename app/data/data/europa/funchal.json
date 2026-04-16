@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "monte-palace",
+    "name": {
+      "tr": "Monte Palace",
+      "en": "Monte Palace",
+      "de": "Monte Palace"
+    },
+    "latitude": 32.6665,
+    "longitude": -16.9267,
+    "description": {
+      "tr": "Monte Palace, Funchal'da yer alan tarihi bir malikanedir ve güzel bahçeleri ve sanatsal koleksiyonlarıyla ünlüdür.",
+      "en": "Monte Palace is a historic mansion in Funchal, famous for its beautiful gardens and artistic collections.",
+      "de": "Monte Palace ist ein historisches Herrenhaus in Funchal, bekannt für seine schönen Gärten und künstlerischen Sammlungen."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeleri gezme",
+        "Sanat koleksiyonlarını keşfetme"
+      ],
+      "en": [
+        "Tour the gardens",
+        "Explore the art collections"
+      ],
+      "de": [
+        "Die Gärten besichtigen",
+        "Die Kunstsammlungen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/monte_palace.jpg"
+    ]
+  },
+  {
+    "slug": "botanik-bahcesi",
+    "name": {
+      "tr": "Botanik Bahçesi",
+      "en": "Botanical Garden",
+      "de": "Botanischer Garten"
+    },
+    "latitude": 32.6637,
+    "longitude": -16.9259,
+    "description": {
+      "tr": "Funchal Botanik Bahçesi, adadaki endemik bitki türlerini sergileyen zengin bir koleksiyona sahiptir.",
+      "en": "The Funchal Botanical Garden has a rich collection of endemic plant species found on the island.",
+      "de": "Der Botanische Garten von Funchal verfügt über eine reiche Sammlung endemischer Pflanzenarten der Insel."
+    },
+    "activities": {
+      "tr": [
+        "Botanik bahçesini gezme",
+        "Nadir bitkileri keşfetme"
+      ],
+      "en": [
+        "Tour the botanical garden",
+        "Discover rare plants"
+      ],
+      "de": [
+        "Den Botanischen Garten besichtigen",
+        "Seltene Pflanzen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/botanical_garden_funchal.jpg"
+    ]
+  }
+]

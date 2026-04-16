@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "mamaia-plaji",
+    "name": {
+      "tr": "Mamaia Plajı",
+      "en": "Mamaia Beach",
+      "de": "Mamaia Strand"
+    },
+    "latitude": 44.2641,
+    "longitude": 28.6301,
+    "description": {
+      "tr": "Mamaia Plajı, Karadeniz'in en popüler tatil bölgelerinden biridir ve güzel plajlarıyla ünlüdür.",
+      "en": "Mamaia Beach is one of the most popular holiday destinations on the Black Sea, famous for its beautiful beaches.",
+      "de": "Der Mamaia Strand ist eines der beliebtesten Urlaubsziele am Schwarzen Meer, bekannt für seine schönen Strände."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenme",
+        "Yüzme"
+      ],
+      "en": [
+        "Relax on the beach",
+        "Swimming"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/mamaia_beach.jpg"
+    ]
+  },
+  {
+    "slug": "constan-a-tarihi-merkez",
+    "name": {
+      "tr": "Constanța Tarihi Merkez",
+      "en": "Constanța Old Town",
+      "de": "Constanța Altstadt"
+    },
+    "latitude": 44.1598,
+    "longitude": 28.6348,
+    "description": {
+      "tr": "Constanța'nın tarihi merkezi, eski Yunan ve Roma dönemlerine ait kalıntılarla doludur. Şehirdeki en önemli tarihi yapıları keşfedin.",
+      "en": "The Old Town of Constanța is filled with ruins from the ancient Greek and Roman periods. Discover the city's most important historical landmarks.",
+      "de": "Die Altstadt von Constanța ist voller Ruinen aus der antiken griechischen und römischen Zeit. Entdecken Sie die wichtigsten historischen Wahrzeichen der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi şehirde gezme",
+        "Roma kalıntılarını keşfetme"
+      ],
+      "en": [
+        "Explore the historic town",
+        "Discover Roman ruins"
+      ],
+      "de": [
+        "Die historische Stadt erkunden",
+        "Römische Ruinen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/constanta_old_town.jpg"
+    ]
+  }
+]

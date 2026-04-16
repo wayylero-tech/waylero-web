@@ -17,7 +17,15 @@ import { cityToCountryMap } from "@/lib/cityToCountryMap";
 import { countryToRegionMap } from "@/lib/countryToRegionMap";
 import { slugify } from "@/lib/utils/slugify";
 
-// ✅ TYPE ekledik (TS susacak)
+// ✅ Cloudinary Yapılandırması
+const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dewd42ppf/image/upload";
+
+const getCloudinaryUrl = (path: string, width: number) => {
+  if (!path) return "";
+  // Path temizleme ve optimizasyon parametreleri: f_auto (format), q_auto (kalite), w (genişlik)
+  return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(/^\/+/, "")}`;
+};
+
 type RegionKey = "turkey" | "europa" | "asia";
 
 interface RegionClientProps {
@@ -49,9 +57,7 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
       ? "turkey"
       : targetRegion;
 
-  // ✅ TS fix
   const safeDataKey = dataKey as RegionKey;
-
   const dataSource = allData[safeDataKey] || {};
 
   const t = {
@@ -78,7 +84,7 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
         return isCountry ? cityToCountryMap[citySlug] === region : true;
       })
       .map(([cityKey, places]: [string, any]) => {
-        if (!places?.length) return null; // ✅ crash fix
+        if (!places?.length) return null;
 
         const citySlug = slugify(cityKey);
         const regionImages = allImages[safeDataKey]?.[cityKey] || {};
@@ -97,7 +103,7 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
           coverImage
         };
       })
-      .filter(Boolean); // ✅ null temizle
+      .filter(Boolean);
   }, [region, isCountry, dataSource, safeDataKey, allImages]);
 
   const getLocalizedLink = (path: string) =>
@@ -132,17 +138,19 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
             className="group relative h-96 w-full overflow-hidden rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-500 bg-gray-200 block"
           >
             {city.coverImage ? (
-  <img
-    src={city.coverImage}
-    alt={`${city.name} ${t.fallbackCity}`}
-    loading={index < 3 ? "eager" : "lazy"}
-    fetchPriority={index < 3 ? "high" : "low"}
-    decoding="async"
-    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-  />
-) : (
-  <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 animate-pulse" />
-)}
+              <img
+                // ✅ Cloudinary URL'si burada oluşturuluyor (600px yeterli grid için)
+                src={getCloudinaryUrl(city.coverImage, 600)}
+                alt={`${city.name} ${t.fallbackCity}`}
+                loading={index < 3 ? "eager" : "lazy"}
+                // ✅ İlk 3 resim için yüksek öncelik
+                fetchPriority={index < 3 ? "high" : "low"}
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+            ) : (
+              <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-300 animate-pulse" />
+            )}
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500" />
 

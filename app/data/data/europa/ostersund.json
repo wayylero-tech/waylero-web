@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "froso-kyrka",
+    "name": {
+      "tr": "Frösö Kyrka",
+      "en": "Frösö Church",
+      "de": "Frösö Kirche"
+    },
+    "latitude": 63.2572,
+    "longitude": 14.5889,
+    "description": {
+      "tr": "Frösö Kyrka, 14. yüzyıldan kalma tarihi bir kilisedir ve şehrin önemli dini yapılarından biridir.",
+      "en": "Frösö Church is a historic 14th-century church and one of the city’s most important religious buildings.",
+      "de": "Die Frösö Kirche ist eine historische Kirche aus dem 14. Jahrhundert und eines der wichtigsten religiösen Gebäude der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin tarihini keşfetmek",
+        "Mimari yapıları incelemek"
+      ],
+      "en": [
+        "Explore the history of the church",
+        "Examine the architectural features"
+      ],
+      "de": [
+        "Die Geschichte der Kirche erkunden",
+        "Die architektonischen Merkmale untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/froso_kyrka.jpg"
+    ]
+  },
+  {
+    "slug": "ostersund-muzesi",
+    "name": {
+      "tr": "Östersund Müzesi",
+      "en": "Östersund Museum",
+      "de": "Östersund Museum"
+    },
+    "latitude": 63.1813,
+    "longitude": 14.6352,
+    "description": {
+      "tr": "Östersund Müzesi, bölgenin tarihini ve kültürünü sergileyen bir müzedir.",
+      "en": "Östersund Museum is a museum showcasing the region’s history and culture.",
+      "de": "Das Östersund Museum ist ein Museum, das die Geschichte und Kultur der Region zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Müzeyi gezmek",
+        "Yerel kültürü keşfetmek"
+      ],
+      "en": [
+        "Tour the museum",
+        "Explore the local culture"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Die lokale Kultur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/ostersund_muze.jpg"
+    ]
+  },
+  {
+    "slug": "storsjobadet",
+    "name": {
+      "tr": "Storsjöbadet",
+      "en": "Storsjöbadet",
+      "de": "Storsjöbadet"
+    },
+    "latitude": 63.1815,
+    "longitude": 14.6434,
+    "description": {
+      "tr": "Storsjöbadet, doğayla iç içe bir yüzme alanıdır ve göletin etrafında yürüyüş yapabilirsiniz.",
+      "en": "Storsjöbadet is a natural swimming area, and you can take walks around the lake.",
+      "de": "Storsjöbadet ist ein Naturbadebereich, und man kann rund um den See spazieren gehen."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme yapmak",
+        "Doğada yürüyüş yapmak"
+      ],
+      "en": [
+        "Swim in the lake",
+        "Take a walk in nature"
+      ],
+      "de": [
+        "Im See schwimmen",
+        "In der Natur spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/storsjobadet.jpg"
+    ]
+  },
+  {
+    "slug": "ostersund-botanik-bahcesi",
+    "name": {
+      "tr": "Östersund Botanik Bahçesi",
+      "en": "Östersund Botanical Garden",
+      "de": "Östersund Botanischer Garten"
+    },
+    "latitude": 63.1809,
+    "longitude": 14.6373,
+    "description": {
+      "tr": "Östersund Botanik Bahçesi, farklı bitki türlerini barındıran huzurlu bir alandır.",
+      "en": "Östersund Botanical Garden is a peaceful area home to a variety of plant species.",
+      "de": "Der Östersund Botanische Garten ist ein friedlicher Bereich, der eine Vielzahl von Pflanzenarten beherbergt."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeyi gezmek",
+        "Bitkileri keşfetmek"
+      ],
+      "en": [
+        "Explore the garden",
+        "Discover the plants"
+      ],
+      "de": [
+        "Den Garten erkunden",
+        "Die Pflanzen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ostersund_bahce.jpg"
+    ]
+  },
+  {
+    "slug": "jamtli-muzesi",
+    "name": {
+      "tr": "Jamtli Müzesi",
+      "en": "Jamtli Museum",
+      "de": "Jamtli Museum"
+    },
+    "latitude": 63.1821,
+    "longitude": 14.6423,
+    "description": {
+      "tr": "Jamtli Müzesi, açık hava müzesi olarak eski İsveç yaşam tarzını sergileyen eşsiz bir alandır.",
+      "en": "Jamtli Museum is an open-air museum showcasing the traditional Swedish way of life.",
+      "de": "Das Jamtli Museum ist ein Freilichtmuseum, das den traditionellen schwedischen Lebensstil zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Açık hava müzesini gezmek",
+        "Tarihi yapıları keşfetmek"
+      ],
+      "en": [
+        "Tour the open-air museum",
+        "Explore the historic buildings"
+      ],
+      "de": [
+        "Das Freilichtmuseum besichtigen",
+        "Die historischen Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/jamtli_muze.jpg"
+    ]
+  }
+]

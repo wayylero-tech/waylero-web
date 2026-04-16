@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "sacsayhuam-n",
+    "name": {
+      "tr": "Sacsayhuamán",
+      "en": "Sacsayhuamán",
+      "de": "Sacsayhuamán"
+    },
+    "latitude": -13.50961,
+    "longitude": -71.98171,
+    "description": {
+      "tr": "        Sacsayhuamán, Peru'nun Cusco şehri yakınlarında bulunan antik bir kale kompleksidir.\n        İnka İmparatorluğu'nun mühendislik harikalarından biri olarak, devasa taşlardan inşa edilen duvarlarıyla ünlüdür.\n        Bu taşlar, İnka taş işçiliğinin mükemmel bir örneğidir. Sacsayhuamán, tarihte dini ve kültürel bir merkez olmuştur.\n        Bugün, hem arkeoloji hem de tarih severler için önemli bir turistik alandır.\n      ",
+      "en": "        Sacsayhuamán is an ancient fortress complex located near Cusco, Peru.\n        It is famous for its massive stone walls, built with perfectly fitted stones, showcasing the engineering brilliance of the Inca Empire.\n        Sacsayhuamán served as both a religious and cultural center in Inca times.\n        Today, it is an important tourist site for history and archaeology enthusiasts.\n      ",
+      "de": "        Sacsayhuamán ist ein antikes Festungsareal in der Nähe von Cusco, Peru.\n        Es ist berühmt für seine massiven Steinmauern, die mit perfekt passenden Steinen erbaut wurden und die Ingenieurkunst des Inkareichs zeigen.\n        Sacsayhuamán diente in der Inkazeit sowohl als religiöses als auch als kulturelles Zentrum.\n        Heute ist es ein wichtiger touristischer Ort für Geschichts- und Archäologieliebhaber.\n      "
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kalıntıları gezmek",
+        "Inka taş işçiliğini görmek",
+        "Dini törenleri izlemek"
+      ],
+      "en": [
+        "Explore the historical ruins",
+        "See the Inca stonework",
+        "Watch religious ceremonies"
+      ],
+      "de": [
+        "Die historischen Ruinen erkunden",
+        "Die Inka-Steinarbeiten sehen",
+        "Religiöse Zeremonien beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "arkeolojik alan"
+      ],
+      "en": [
+        "archaeological site"
+      ],
+      "de": [
+        "archäologische Stätte"
+      ]
+    },
+    "images": [
+      "assets/images/sacsayhuaman.png"
+    ]
+  }
+]

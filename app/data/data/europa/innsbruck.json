@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "altin-cati",
+    "name": {
+      "tr": "Altın Çatı",
+      "en": "Golden Roof",
+      "de": "Goldenes Dachl"
+    },
+    "latitude": 47.2692,
+    "longitude": 11.3923,
+    "description": {
+      "tr": "Innsbruck'un sembolü olan bu yapı, Altın Çatı ile ünlüdür.",
+      "en": "This structure, known for its Golden Roof, is a symbol of Innsbruck.",
+      "de": "Dieses Gebäude, bekannt für sein Goldenes Dach, ist ein Wahrzeichen von Innsbruck."
+    },
+    "activities": {
+      "tr": [
+        "Altın Çatı'ya bakma",
+        "Şehir merkezi keşfi"
+      ],
+      "en": [
+        "Admire the Golden Roof",
+        "Explore the city center"
+      ],
+      "de": [
+        "Das Goldene Dach bewundern",
+        "Das Stadtzentrum erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/golden_roof.jpg"
+    ]
+  },
+  {
+    "slug": "hofkirche",
+    "name": {
+      "tr": "Hofkirche",
+      "en": "Hofkirche",
+      "de": "Hofkirche"
+    },
+    "latitude": 47.267,
+    "longitude": 11.395,
+    "description": {
+      "tr": "Avusturya tarihinin önemli figürlerinden Kral I. Maximilian'ın mezarı burada bulunmaktadır.",
+      "en": "The tomb of King Maximilian I, a significant figure in Austrian history, is located here.",
+      "de": "Das Grab von König Maximilian I., einer wichtigen Figur der österreichischen Geschichte, befindet sich hier."
+    },
+    "activities": {
+      "tr": [
+        "Kral I. Maximilian'ın mezarını ziyaret etme",
+        "Tarihi yapıyı keşfetme"
+      ],
+      "en": [
+        "Visit King Maximilian I's tomb",
+        "Explore the historical site"
+      ],
+      "de": [
+        "Das Grab von König Maximilian I. besuchen",
+        "Die historische Stätte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/hoftemple.jpg"
+    ]
+  }
+]

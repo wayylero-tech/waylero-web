@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "meteora-manastirlari",
+    "name": {
+      "tr": "Meteora Manastırları",
+      "en": "Meteora Monasteries",
+      "de": "Meteora Klöster"
+    },
+    "latitude": 39.72505,
+    "longitude": 21.62983,
+    "description": {
+      "tr": "        Meteora Manastırları, Yunanistan’ın Teselya bölgesinde, yüksek kayalıklar üzerinde bulunan ve UNESCO Dünya Mirası Listesi'nde yer alan bir manastır kompleksidir.\n        14. yüzyıla kadar uzanan tarihiyle Meteora, Orta Çağ'da dini bir merkez haline gelmiştir.\n        Bugün, ziyaretçiler manastırların tarihi dokusunu keşfedebilir ve kayalık zirvelerinden muazzam manzaralar izleyebilir.\n      ",
+      "en": "        The Meteora Monasteries are a complex of monasteries located on towering rock formations in the Thessaly region of Greece.\n        Dating back to the 14th century, Meteora became a religious center in the Middle Ages.\n        Today, visitors can explore the historical architecture of the monasteries and enjoy breathtaking views from the rock peaks.\n      ",
+      "de": "        Die Meteora Klöster sind eine Klostergruppe, die auf hohen Felsen in der Region Thessalien in Griechenland liegt.\n        Meteora, das auf das 14. Jahrhundert zurückgeht, wurde im Mittelalter zu einem religiösen Zentrum.\n        Heute können Besucher die historische Architektur der Klöster erkunden und atemberaubende Ausblicke von den Felsgipfeln genießen.\n      "
+    },
+    "activities": {
+      "tr": [
+        "Manastırlarda tarihi keşfetmek",
+        "Kayalık zirvelerinden manzara izlemek",
+        "Doğa yürüyüşü yapmak"
+      ],
+      "en": [
+        "Explore the history in the monasteries",
+        "Enjoy the views from the rock peaks",
+        "Hiking in nature"
+      ],
+      "de": [
+        "Die Geschichte in den Klöstern erkunden",
+        "Die Aussicht von den Felsgipfeln genießen",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "assets/images/meteora.png"
+    ]
+  }
+]

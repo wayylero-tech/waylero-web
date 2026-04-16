@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "ribeira-bolgesi",
+    "name": {
+      "tr": "Ribeira Bölgesi",
+      "en": "Ribeira District",
+      "de": "Ribeira Viertel"
+    },
+    "latitude": 41.14,
+    "longitude": -8.611,
+    "description": {
+      "tr": "Ribeira, Porto'nun tarihi merkezidir ve renkli binaları, dar sokakları ve Douro Nehri kenarındaki restoranları ile ünlüdür.",
+      "en": "Ribeira is the historic center of Porto, famous for its colorful buildings, narrow streets, and restaurants along the Douro River.",
+      "de": "Ribeira ist das historische Zentrum von Porto, bekannt für seine bunten Gebäude, engen Straßen und Restaurants entlang des Douro-Flusses."
+    },
+    "activities": {
+      "tr": [
+        "Ribeira bölgesinde gezinti yapma",
+        "Nehrin kenarında yürüyüş yapma"
+      ],
+      "en": [
+        "Stroll through the Ribeira district",
+        "Walk along the river"
+      ],
+      "de": [
+        "Durch das Ribeira-Viertel spazieren",
+        "Am Fluss entlang spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/ribeira_porto.jpg"
+    ]
+  },
+  {
+    "slug": "porto-sarap-mahzenleri",
+    "name": {
+      "tr": "Porto Şarap Mahzenleri",
+      "en": "Porto Wine Cellars",
+      "de": "Porto Weinkeller"
+    },
+    "latitude": 41.142,
+    "longitude": -8.6107,
+    "description": {
+      "tr": "Porto, dünyaca ünlü Porto şaraplarının üretildiği yerlerdir. Bu mahzenleri ziyaret ederek, şarap üretim süreci hakkında bilgi alabilirsiniz.",
+      "en": "Porto is famous for its Porto wine cellars where the world-renowned Porto wines are produced. You can visit these cellars and learn about the wine-making process.",
+      "de": "Porto ist berühmt für seine Portwein-Keller, in denen der weltbekannte Portwein produziert wird. Sie können diese Keller besuchen und mehr über den Weinherstellungsprozess erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Şarap tadımı yapma",
+        "Mahzen turu yapma"
+      ],
+      "en": [
+        "Wine tasting",
+        "Take a cellar tour"
+      ],
+      "de": [
+        "Weinverkostung",
+        "Eine Kellerführung machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/porto_wine_cellars.jpg"
+    ]
+  },
+  {
+    "slug": "porto-korfezi-piana-korfezi-girolata-korfezi-scandola-koruma-alani",
+    "name": {
+      "tr": "Porto Körfezi: Piana Körfezi, Girolata Körfezi, Scandola Koruma Alanı",
+      "en": "Porto Gulf: Piana Gulf, Girolata Gulf, Scandola Nature Reserve",
+      "de": "Golf von Porto: Golf von Piana, Golf von Girolata, Naturreservat Scandola"
+    },
+    "latitude": 42.182,
+    "longitude": 8.773,
+    "description": {
+      "tr": "Porto Körfezi, Korsika adasında yer alan muazzam doğal güzelliklere sahip bir bölgedir. UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Porto Gulf, located on the island of Corsica, is an area known for its stunning natural beauty. It is listed as a UNESCO World Heritage site.",
+      "de": "Der Golf von Porto, auf der Insel Korsika gelegen, ist ein Gebiet, das für seine atemberaubende natürliche Schönheit bekannt ist. Es steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Körfezde tekne turu yapmak",
+        "Doğal koruma alanında yürüyüş yapmak"
+      ],
+      "en": [
+        "Take a boat tour of the gulf",
+        "Hike in the nature reserve"
+      ],
+      "de": [
+        "Eine Bootstour durch den Golf machen",
+        "Wandern im Naturreservat"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/porto_gulf.jpg"
+    ]
+  }
+]

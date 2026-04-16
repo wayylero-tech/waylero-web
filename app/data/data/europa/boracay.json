@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "white-beach",
+    "name": {
+      "tr": "White Beach",
+      "en": "White Beach",
+      "de": "White Beach"
+    },
+    "latitude": 11.967,
+    "longitude": 121.9289,
+    "description": {
+      "tr": "White Beach, dünyanın en güzel plajlarından biri olarak kabul edilen bu plaj, bembeyaz kumları ve turkuaz deniziyle ünlüdür.",
+      "en": "White Beach is considered one of the world's most beautiful beaches, famous for its powdery white sand and turquoise sea.",
+      "de": "Der White Beach gilt als einer der schönsten Strände der Welt, bekannt für seinen puderweißen Sand und das türkisfarbene Meer."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Sörf yapmak",
+        "Denize girmek"
+      ],
+      "en": [
+        "Relaxing on the beach",
+        "Surfing",
+        "Swimming in the sea"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Surfen",
+        "Im Meer schwimmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/white_beach.jpg"
+    ]
+  },
+  {
+    "slug": "d-mall",
+    "name": {
+      "tr": "D'Mall",
+      "en": "D'Mall",
+      "de": "D'Mall"
+    },
+    "latitude": 11.9675,
+    "longitude": 121.9295,
+    "description": {
+      "tr": "D'Mall, Boracay’ın popüler alışveriş merkezi olup, restoranlar, kafeler ve mağazalarla doludur.",
+      "en": "D'Mall is Boracay's popular shopping mall, filled with restaurants, cafes, and shops.",
+      "de": "D'Mall ist das beliebte Einkaufszentrum von Boracay, das mit Restaurants, Cafés und Geschäften gefüllt ist."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Yemek yemek",
+        "Kafelerde oturmak"
+      ],
+      "en": [
+        "Shopping",
+        "Eating",
+        "Sitting at cafes"
+      ],
+      "de": [
+        "Einkaufen",
+        "Essen",
+        "In Cafés sitzen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/dmall.jpg"
+    ]
+  },
+  {
+    "slug": "puka-shell-beach",
+    "name": {
+      "tr": "Puka Shell Beach",
+      "en": "Puka Shell Beach",
+      "de": "Puka Shell Beach"
+    },
+    "latitude": 11.973,
+    "longitude": 121.9218,
+    "description": {
+      "tr": "Puka Shell Beach, White Beach’in sakin ve doğal bir versiyonudur. Deniz kabuklarıyla dolu bu plaj, huzurlu bir atmosfer sunar.",
+      "en": "Puka Shell Beach is a quieter, more natural version of White Beach. This beach, filled with sea shells, offers a peaceful atmosphere.",
+      "de": "Der Puka Shell Beach ist eine ruhigere, natürlichere Version des White Beach. Dieser Strand, der mit Muscheln bedeckt ist, bietet eine friedliche Atmosphäre."
+    },
+    "activities": {
+      "tr": [
+        "Plajda yürüyüş yapmak",
+        "Denize girmek",
+        "Huzur içinde dinlenmek"
+      ],
+      "en": [
+        "Walking on the beach",
+        "Swimming in the sea",
+        "Relaxing peacefully"
+      ],
+      "de": [
+        "Am Strand spazieren gehen",
+        "Im Meer schwimmen",
+        "Friedlich entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/puka_shell_beach.jpg"
+    ]
+  },
+  {
+    "slug": "willy-s-rock",
+    "name": {
+      "tr": "Willy’s Rock",
+      "en": "Willy’s Rock",
+      "de": "Willy’s Rock"
+    },
+    "latitude": 11.97,
+    "longitude": 121.923,
+    "description": {
+      "tr": "Willy’s Rock, kaya oluşumları üzerinde bulunan harika bir fotoğraf çekim alanıdır. Burada güzel fotoğraflar çekebilirsiniz.",
+      "en": "Willy’s Rock is a great photo spot located on rock formations. It offers an amazing view and is perfect for photo opportunities.",
+      "de": "Willy's Rock ist ein großartiger Fotospot, der auf Felsformationen liegt. Es bietet eine erstaunliche Aussicht und ist perfekt für Fotomöglichkeiten."
+    },
+    "activities": {
+      "tr": [
+        "Fotoğraf çekmek",
+        "Kaya oluşumlarını keşfetmek"
+      ],
+      "en": [
+        "Taking photos",
+        "Exploring the rock formations"
+      ],
+      "de": [
+        "Fotos machen",
+        "Die Felsformationen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/willys_rock.jpg"
+    ]
+  },
+  {
+    "slug": "mount-luho",
+    "name": {
+      "tr": "Mount Luho",
+      "en": "Mount Luho",
+      "de": "Mount Luho"
+    },
+    "latitude": 11.9685,
+    "longitude": 121.938,
+    "description": {
+      "tr": "Mount Luho, Boracay'ın en yüksek noktasıdır ve adanın panoramik manzarasını görebileceğiniz harika bir seyir noktasıdır.",
+      "en": "Mount Luho is the highest point of Boracay, offering a fantastic panoramic view of the island.",
+      "de": "Der Mount Luho ist der höchste Punkt von Boracay und bietet einen fantastischen Panoramablick auf die Insel."
+    },
+    "activities": {
+      "tr": [
+        "Manzarayı izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Enjoying the view",
+        "Taking photos"
+      ],
+      "de": [
+        "Die Aussicht genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_luho.jpg"
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+{
+  "turkiye": {
+    "cityCount": 78,
+    "placeCount": 781,
+    "coverPath": "places/turkey/istanbul/istanbul-kiz-kulesi/tmwybksedptjqypamuff"
+  },
+  "ispanya": {
+    "cityCount": 10,
+    "placeCount": 49,
+    "coverPath": "places/europa/madrid/madrid-prado-muzesi/zxa04qgj0wgogc5c839m"
+  },
+  "isvec": {
+    "cityCount": 7,
+    "placeCount": 35,
+    "coverPath": "places/europa/stockholm/stockholm-gamla-stan/epkesntuckryns48qllc"
+  },
+  "isvicre": {
+    "cityCount": 10,
+    "placeCount": 51,
+    "coverPath": "places/europa/zurich/zurich-bahnhofstrasse/ruuvhkz4z0lvjjz9u1gp"
+  },
+  "kktc": {
+    "cityCount": 4,
+    "placeCount": 9,
+    "coverPath": "places/europa/girne/girne-girne-kalesi/pkp02cekfnzsixvqt0w5"
+  },
+  "ingiltere": {
+    "cityCount": 6,
+    "placeCount": 33,
+    "coverPath": "places/europa/londra/londra-british-museum/ejjaw2xl5veyqe8fbbg4"
+  },
+  "fransa": {
+    "cityCount": 11,
+    "placeCount": 18,
+    "coverPath": "places/europa/paris/paris-fontainebleau-sarayi-ve-parki/tmfwxyod0sjdb0km5z4u"
+  },
+  "iskocya": {
+    "cityCount": 2,
+    "placeCount": 10,
+    "coverPath": "places/europa/glasgow/glasgow-kelvingrove-sanat-galerisi-ve-muzesi/jemu2vvi1tnfexfutqa3"
+  },
+  "galler": {
+    "cityCount": 1,
+    "placeCount": 5,
+    "coverPath": "places/europa/cardiff/cardiff-cardiff-castle/chi2x6vnn6q2bnr3glbb"
+  },
+  "hollanda": {
+    "cityCount": 10,
+    "placeCount": 21,
+    "coverPath": "places/europa/rotterdam/rotterdam-markthal-rotterdam/jiwjqxmmbsijn4tfcldi"
+  },
+  "norvec": {
+    "cityCount": 10,
+    "placeCount": 19,
+    "coverPath": "places/europa/oslo/oslo-vigeland-park/pnbzpgqnipy4ms7acyoh"
+  },
+  "portekiz": {
+    "cityCount": 10,
+    "placeCount": 21,
+    "coverPath": "places/europa/lizbon/lizbon-bel-m-kulesi/ugjkk1akzcnufdv1p1hm"
+  },
+  "romanya": {
+    "cityCount": 10,
+    "placeCount": 20,
+    "coverPath": "places/europa/bukres/bukres-calea-victoriei/g6mvfy8usfpeipo1pwsj"
+  },
+  "almanya": {
+    "cityCount": 11,
+    "placeCount": 61,
+    "coverPath": "places/europa/berlin/berlin-brandenburger-tor/fiytmjsjdmqboxjjxdlh"
+  },
+  "italya": {
+    "cityCount": 11,
+    "placeCount": 28,
+    "coverPath": "places/europa/roma/roma-vatikan/a6uayhh5ve7qama873gn"
+  },
+  "belarus": {
+    "cityCount": 1,
+    "placeCount": 2,
+    "coverPath": "places/europa/belarus/belarus-minsk-baskent/nwkdv43ffckdibddmgfu"
+  },
+  "avusturya": {
+    "cityCount": 8,
+    "placeCount": 40,
+    "coverPath": "places/europa/viyana/viyana-donauturm/awwg8qyykwbxpyphoswk"
+  },
+  "amerika": {
+    "cityCount": 20,
+    "placeCount": 98,
+    "coverPath": "places/europa/los-angeles/los-angeles-santa-monica-pier/qmooef2zftbmraew7kil"
+  },
+  "bae": {
+    "cityCount": 1,
+    "placeCount": 3,
+    "coverPath": "places/europa/dubai/dubai-burj-khalifa/s4naoknyvtxcybo3ivtz"
+  },
+  "tayland": {
+    "cityCount": 1,
+    "placeCount": 3,
+    "coverPath": "places/europa/bangkok/bangkok-grand-palace/z7wok0umaat0toc4x61d"
+  },
+  "malezya": {
+    "cityCount": 1,
+    "placeCount": 5,
+    "coverPath": "places/europa/kualalumpur/kualalumpur-petronas-twin-towers/fxevqgtxrd32iiw4tleh"
+  },
+  "guney-kore": {
+    "cityCount": 1,
+    "placeCount": 5,
+    "coverPath": "places/europa/seul/seul-gyeongbokgung-sarayi/rjevtupsv14yblpcx2hj"
+  },
+  "singapur": {
+    "cityCount": 1,
+    "placeCount": 4,
+    "coverPath": "places/europa/singapur/singapur-marina-bay-sands/zukytntn06izyiebqpfa"
+  },
+  "misir": {
+    "cityCount": 4,
+    "placeCount": 15,
+    "coverPath": "places/europa/kahire/kahire-giza-piramitleri/af9kxdsxz3biai4a82zz"
+  },
+  "suudi-arabistan": {
+    "cityCount": 3,
+    "placeCount": 12,
+    "coverPath": "places/europa/mekke/mekke-masjid-al-haram/fjmvj64pznp5ljceoket"
+  },
+  "rusya": {
+    "cityCount": 3,
+    "placeCount": 14,
+    "coverPath": "places/europa/moskova/moskova-kremlin/vacldsg6sqhisqe6e188"
+  },
+  "europa": {
+    "cityCount": 2,
+    "placeCount": 5,
+    "coverPath": ""
+  },
+  "yunanistan": {
+    "cityCount": 13,
+    "placeCount": 44,
+    "coverPath": "places/europa/greece/greece-meteora-manastirlari/pjjr1xtbikydopmgcl4y"
+  },
+  "peru": {
+    "cityCount": 1,
+    "placeCount": 1,
+    "coverPath": ""
+  },
+  "gurcistan": {
+    "cityCount": 9,
+    "placeCount": 27,
+    "coverPath": "places/europa/tiflis/tiflis-narikala-kalesi/jknb0nuboa03bfigwik7"
+  },
+  "avustralya": {
+    "cityCount": 11,
+    "placeCount": 52,
+    "coverPath": "places/europa/sidney/sidney-sidney-opera-binasi/fldrcmokzo8ahon0ghjf"
+  },
+  "filipinler": {
+    "cityCount": 10,
+    "placeCount": 46,
+    "coverPath": "places/europa/manila/manila-intramuros/pwt3n2wtslvq11sc8toj"
+  },
+  "danimarka": {
+    "cityCount": 8,
+    "placeCount": 21,
+    "coverPath": "places/europa/kopenhag/kopenhag-christiansborg-sarayi/jl1aqnbawbwjgahpl7bj"
+  },
+  "endonezya": {
+    "cityCount": 5,
+    "placeCount": 19,
+    "coverPath": "places/europa/ubud/ubud-campuhan-ridge-walk/qodoiddqp131ml2efpkv"
+  },
+  "irlanda": {
+    "cityCount": 7,
+    "placeCount": 25,
+    "coverPath": "places/europa/dublin/dublin-trinity-college-kutuphanesi/chapgriru71xamsx6hiu"
+  },
+  "umman": {
+    "cityCount": 8,
+    "placeCount": 19,
+    "coverPath": "places/europa/jabel-shams/jabel-shams-jebel-shams/ne5lbzrytkbasvmesofd"
+  },
+  "bosna-hersek": {
+    "cityCount": 9,
+    "placeCount": 31,
+    "coverPath": "places/europa/mostar/mostar-mostar-koprusu/hgp8mpfvcfcka50ilqlx"
+  },
+  "cin": {
+    "cityCount": 8,
+    "placeCount": 18,
+    "coverPath": "places/asia/hongkong/hongkong-victoria-peak/zlrsvzi0spiugw1igpol"
+  },
+  "urdun": {
+    "cityCount": 1,
+    "placeCount": 1,
+    "coverPath": "places/asia/wadi-musa/wadi-musa-petra-antik-kenti/hw4mrq7mtz3conzpcsaw"
+  },
+  "hindistan": {
+    "cityCount": 9,
+    "placeCount": 42,
+    "coverPath": "places/asia/agra/agra-tac-mahal/bckwsonpundfqigq36by"
+  },
+  "japonya": {
+    "cityCount": 15,
+    "placeCount": 57,
+    "coverPath": "places/asia/tokyo/tokyo-tokyo-kulesi/fl3rwdk0gm98213zuvfc"
+  },
+  "sri-lanka": {
+    "cityCount": 1,
+    "placeCount": 3,
+    "coverPath": "places/asia/sri-lanka/sri-lanka-sigiriya-kayasi/blm6trdesk72gaocgjmi"
+  }
+}

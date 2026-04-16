@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "krallar-vadisi",
+    "name": {
+      "tr": "Krallar Vadisi",
+      "en": "Valley of the Kings",
+      "de": "Tal der Könige"
+    },
+    "latitude": 25.74,
+    "longitude": 32.6019,
+    "description": {
+      "tr": "Krallar Vadisi, Mısır'ın en önemli antik mezarlık alanlarından biridir. Burada birçok eski Mısır hükümdarının mezarları bulunmaktadır.\n",
+      "en": "The Valley of the Kings is one of Egypt's most important ancient burial sites. Many tombs of ancient Egyptian rulers are located here.\n",
+      "de": "Das Tal der Könige ist einer der wichtigsten antiken Friedhöfe Ägyptens. Hier befinden sich viele Gräber antiker ägyptischer Herrscher.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mezarları gezme",
+        "Krallar Vadisini keşfetme"
+      ],
+      "en": [
+        "Tour the tombs",
+        "Explore the Valley of the Kings"
+      ],
+      "de": [
+        "Gräber besichtigen",
+        "Das Tal der Könige erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/valley_of_the_kings.jpg"
+    ]
+  },
+  {
+    "slug": "karnak-tapinagi",
+    "name": {
+      "tr": "Karnak Tapınağı",
+      "en": "Karnak Temple",
+      "de": "Karnak Tempel"
+    },
+    "latitude": 25.7189,
+    "longitude": 32.8801,
+    "description": {
+      "tr": "Karnak Tapınağı, Mısır'ın en büyük tapınak komplekslerinden biridir. Tapınaklar, obeliskler ve diğer yapıları ile tarihi bir öneme sahiptir.\n",
+      "en": "The Karnak Temple is one of the largest temple complexes in Egypt. It holds historical significance with its temples, obelisks, and other structures.\n",
+      "de": "Der Karnak-Tempel ist eine der größten Tempelanlagen in Ägypten. Er hat historische Bedeutung mit seinen Tempeln, Obelisken und anderen Gebäuden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınakları keşfetme",
+        "Obeliskler ve diğer yapıları görmek"
+      ],
+      "en": [
+        "Explore the temples",
+        "See the obelisks and other structures"
+      ],
+      "de": [
+        "Die Tempel erkunden",
+        "Die Obelisken und andere Strukturen besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/karnak_temple.jpg"
+    ]
+  },
+  {
+    "slug": "luxor-tapinagi",
+    "name": {
+      "tr": "Luxor Tapınağı",
+      "en": "Luxor Temple",
+      "de": "Luxor Tempel"
+    },
+    "latitude": 25.6996,
+    "longitude": 32.6396,
+    "description": {
+      "tr": "Luxor Tapınağı, antik Mısır’daki en önemli dini yapılarından biridir. Mısır Tanrısı Amun’a adanmış bu tapınak, gece ışıklandırmalarıyla oldukça etkileyicidir.\n",
+      "en": "The Luxor Temple is one of the most important religious structures in ancient Egypt. Dedicated to the Egyptian god Amun, this temple is stunning, especially with its night illuminations.\n",
+      "de": "Der Luxor-Tempel ist eines der wichtigsten religiösen Bauwerke im alten Ägypten. Er ist dem ägyptischen Gott Amun geweiht und ist besonders bei Nacht mit seiner Beleuchtung beeindruckend.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınağa ziyarette bulunma",
+        "Gece ışık gösterilerini izleme"
+      ],
+      "en": [
+        "Visit the temple",
+        "Watch the night light show"
+      ],
+      "de": [
+        "Den Tempel besuchen",
+        "Die Lichtshow bei Nacht ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/luxor_temple.jpg"
+    ]
+  },
+  {
+    "slug": "hatsepsut-tapinagi",
+    "name": {
+      "tr": "Hatşepsut Tapınağı",
+      "en": "Hatshepsut Temple",
+      "de": "Hatschepsut-Tempel"
+    },
+    "latitude": 25.7375,
+    "longitude": 32.5977,
+    "description": {
+      "tr": "Hatşepsut Tapınağı, Mısır'da kadın hükümdar olan Hatşepsut’a adanmış bir tapınaktır. Duruşu ve mimarisi ile dikkat çeker.\n",
+      "en": "The Hatshepsut Temple is dedicated to Queen Hatshepsut, one of Egypt's female pharaohs. Its structure and architecture are striking.\n",
+      "de": "Der Hatschepsut-Tempel ist der Königin Hatschepsut gewidmet, einer der weiblichen Pharaonen Ägyptens. Seine Struktur und Architektur sind beeindruckend.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınağı keşfetme",
+        "Mimarisine hayran kalma"
+      ],
+      "en": [
+        "Explore the temple",
+        "Admire the architecture"
+      ],
+      "de": [
+        "Den Tempel erkunden",
+        "Die Architektur bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/hatshepsut_temple.jpg"
+    ]
+  },
+  {
+    "slug": "colossi-of-memnon",
+    "name": {
+      "tr": "Colossi of Memnon",
+      "en": "Colossi of Memnon",
+      "de": "Kolosse von Memnon"
+    },
+    "latitude": 25.7419,
+    "longitude": 32.5954,
+    "description": {
+      "tr": "Colossi of Memnon, iki büyük heykelden oluşan bir anıttır. Bu heykeller, Mısır’daki antik kalıntılar arasında en dikkat çekici olanlardan biridir.\n",
+      "en": "The Colossi of Memnon are two giant statues that form a monument. These statues are among the most impressive ancient ruins in Egypt.\n",
+      "de": "Die Kolosse von Memnon sind zwei riesige Statuen, die ein Denkmal bilden. Diese Statuen gehören zu den beeindruckendsten antiken Ruinen in Ägypten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Heykelleri görmek",
+        "Tarihi alanı keşfetme"
+      ],
+      "en": [
+        "See the statues",
+        "Explore the historical site"
+      ],
+      "de": [
+        "Die Statuen besichtigen",
+        "Die historische Stätte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/colossi_of_memnon.jpg"
+    ]
+  }
+]

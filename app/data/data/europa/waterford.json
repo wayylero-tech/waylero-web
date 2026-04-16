@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "waterford-crystal-fabrikasi",
+    "name": {
+      "tr": "Waterford Crystal Fabrikası",
+      "en": "Waterford Crystal Factory",
+      "de": "Waterford Crystal Fabrik"
+    },
+    "latitude": 52.2594,
+    "longitude": -7.1184,
+    "description": {
+      "tr": "Waterford Crystal Fabrikası, ünlü Waterford kristali üretimiyle tanınır. Ziyaretçiler, bu ünlü camların nasıl yapıldığını öğrenebilir ve el işçiliği ile kristal üretimi sürecini gözlemleyebilirler. Fabrika turunda, geleneksel yöntemler ve modern üretim teknikleri hakkında bilgi edinirken, aynı zamanda eşsiz Waterford kristalleri satın alabilirsiniz.",
+      "en": "Waterford Crystal Factory is known for producing the famous Waterford crystal. Visitors can learn how these renowned glassworks are made and observe the process of crystal production with skilled craftsmanship. On the factory tour, guests will gain insight into both traditional methods and modern production techniques, and they can also purchase unique Waterford crystal pieces.",
+      "de": "Die Waterford Crystal Fabrik ist bekannt für die Herstellung des berühmten Waterford-Kristalls. Besucher können lernen, wie diese berühmten Glaskunstwerke hergestellt werden, und den Prozess der Kristallproduktion mit geschicktem Handwerk beobachten. Während der Fabriktour erhalten Gäste Einblicke in sowohl traditionelle Methoden als auch moderne Produktionstechniken und können einzigartige Waterford-Kristallstücke kaufen."
+    },
+    "activities": {
+      "tr": [
+        "Kristal üretimi sürecini öğrenmek",
+        "El yapımı Waterford kristalleri almak",
+        "Fabrika turuna katılmak"
+      ],
+      "en": [
+        "Learning about the crystal production process",
+        "Purchasing handmade Waterford crystal",
+        "Participating in a factory tour"
+      ],
+      "de": [
+        "Den Kristallherstellungsprozess lernen",
+        "Handgefertigte Waterford-Kristalle kaufen",
+        "An einer Fabriktour teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "alışveriş"
+      ],
+      "en": [
+        "shopping"
+      ],
+      "de": [
+        "Einkaufen"
+      ]
+    },
+    "images": [
+      "https://example.com/waterford_crystal_factory_1.jpg",
+      "https://example.com/waterford_crystal_factory_2.jpg"
+    ]
+  },
+  {
+    "slug": "reginald-s-kulesi",
+    "name": {
+      "tr": "Reginald's Kulesi",
+      "en": "Reginald's Tower",
+      "de": "Reginald's Turm"
+    },
+    "latitude": 52.2566,
+    "longitude": -7.1187,
+    "description": {
+      "tr": "Reginald's Kulesi, Waterford şehrinin en eski yapılarından biridir ve Viking dönemine dayanmaktadır. Bu kule, şehir surlarının bir parçası olarak inşa edilmiştir ve tarihi boyunca çeşitli askeri ve savunma amaçları için kullanılmıştır. Ziyaretçiler, kuleye çıkarak Waterford şehir manzarasını yüksekten izleyebilir ve kuledeki tarihi sergileri keşfedebilirler.",
+      "en": "Reginald’s Tower is one of Waterford’s oldest structures, dating back to the Viking era. This tower was part of the city’s fortifications and has been used for various military and defensive purposes throughout its history. Visitors can climb the tower for panoramic views of Waterford city and explore the historical exhibits within the tower.",
+      "de": "Der Reginald's Turm ist eines der ältesten Gebäude in Waterford und stammt aus der Wikingerzeit. Dieser Turm war Teil der Stadtbefestigungen und wurde im Laufe der Geschichte für verschiedene militärische und defensive Zwecke genutzt. Besucher können den Turm besteigen, um einen Panoramablick auf die Stadt Waterford zu genießen, und die historischen Ausstellungen im Turm erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Kuleye tırmanmak",
+        "Waterford manzarasında fotoğraf çekmek",
+        "Tarihi sergileri gezmek"
+      ],
+      "en": [
+        "Climbing the tower",
+        "Taking photos with views of Waterford",
+        "Exploring the historical exhibits"
+      ],
+      "de": [
+        "Den Turm besteigen",
+        "Fotos mit Blick auf Waterford machen",
+        "Die historischen Ausstellungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/reginalds_tower_1.jpg",
+      "https://example.com/reginalds_tower_2.jpg"
+    ]
+  },
+  {
+    "slug": "copper-coast-jeoparki",
+    "name": {
+      "tr": "Copper Coast Jeoparkı",
+      "en": "Copper Coast Geopark",
+      "de": "Copper Coast Geopark"
+    },
+    "latitude": 52.1112,
+    "longitude": -7.4076,
+    "description": {
+      "tr": "Copper Coast Jeoparkı, Waterford bölgesindeki olağanüstü doğal manzaralarla ünlüdür ve UNESCO tarafından jeolojik miras olarak kabul edilmektedir. Jeopark, kayaç formasyonları, deniz kıyıları ve tarihi madencilik bölgeleriyle ünlüdür. Ziyaretçiler, bu bölgedeki yürüyüş parkurlarını keşfederken, zengin doğal ve tarihi mirası gözlemleyebilirler.",
+      "en": "Copper Coast Geopark, famous for its stunning natural landscapes, is a UNESCO-designated geological heritage site located in County Waterford. The geopark is renowned for its rock formations, coastal scenery, and historic mining areas. Visitors can explore the walking trails and observe the rich natural and historical heritage of the region.",
+      "de": "Der Copper Coast Geopark, bekannt für seine atemberaubenden natürlichen Landschaften, ist ein UNESCO-anerkannter geologischer Erbesstandort in der Grafschaft Waterford. Der Geopark ist berühmt für seine Gesteinsformationen, Küstenschönheit und historischen Bergbaugebiete. Besucher können die Wanderwege erkunden und das reiche natürliche und historische Erbe der Region beobachten."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş parkurlarını keşfetmek",
+        "Doğal manzaralarda fotoğraf çekmek",
+        "Jeolojik oluşumları incelemek"
+      ],
+      "en": [
+        "Exploring the walking trails",
+        "Taking photos of natural landscapes",
+        "Examining geological formations"
+      ],
+      "de": [
+        "Die Wanderwege erkunden",
+        "Fotos von natürlichen Landschaften machen",
+        "Geologische Formationen untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/copper_coast_geopark_1.jpg",
+      "https://example.com/copper_coast_geopark_2.jpg"
+    ]
+  }
+]

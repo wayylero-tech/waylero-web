@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "chocolate-hills",
+    "name": {
+      "tr": "Chocolate Hills",
+      "en": "Chocolate Hills",
+      "de": "Chocolate Hills"
+    },
+    "latitude": 9.8216,
+    "longitude": 124.2457,
+    "description": {
+      "tr": "Chocolate Hills, binlerce yuvarlak tepe ile kaplı olan, dünyaca ünlü bir doğal oluşumdur. Özellikle kuru mevsimde kahverengi renge bürünerek çikolata gibi görünür.",
+      "en": "Chocolate Hills is a natural formation of thousands of round mounds, famous worldwide. During the dry season, they turn brown and resemble chocolate.",
+      "de": "Chocolate Hills ist eine natürliche Formation von Tausenden von runden Hügeln und weltweit berühmt. In der Trockenzeit werden sie braun und sehen aus wie Schokolade."
+    },
+    "activities": {
+      "tr": [
+        "Hills’e tırmanmak",
+        "Manzarayı izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Climbing the hills",
+        "Enjoying the view",
+        "Taking photos"
+      ],
+      "de": [
+        "Die Hügel erklimmen",
+        "Die Aussicht genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/chocolate_hills.jpg"
+    ]
+  },
+  {
+    "slug": "tarsier-sanctuary",
+    "name": {
+      "tr": "Tarsier Sanctuary",
+      "en": "Tarsier Sanctuary",
+      "de": "Tarsier Sanctuary"
+    },
+    "latitude": 9.5545,
+    "longitude": 124.1863,
+    "description": {
+      "tr": "Tarsier Sanctuary, dünyanın en küçük primatlarından biri olan tarsierleri görebileceğiniz koruma alanıdır. Doğal ortamlarında bu minik hayvanları gözlemleyebilirsiniz.",
+      "en": "The Tarsier Sanctuary is a conservation area where you can see tarsiers, one of the smallest primates in the world. You can observe these tiny animals in their natural habitat.",
+      "de": "Das Tarsier Sanctuary ist ein Schutzgebiet, in dem man Tarsier sehen kann, einen der kleinsten Primaten der Welt. Man kann diese winzigen Tiere in ihrem natürlichen Lebensraum beobachten."
+    },
+    "activities": {
+      "tr": [
+        "Tarsierleri görmek",
+        "Doğal yaşamı keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Seeing tarsiers",
+        "Exploring wildlife",
+        "Taking photos"
+      ],
+      "de": [
+        "Tarsier sehen",
+        "Die Tierwelt erkunden",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/tarsier_sanctuary.jpg"
+    ]
+  },
+  {
+    "slug": "loboc-river-cruise",
+    "name": {
+      "tr": "Loboc River Cruise",
+      "en": "Loboc River Cruise",
+      "de": "Loboc River Cruise"
+    },
+    "latitude": 9.6436,
+    "longitude": 124.0715,
+    "description": {
+      "tr": "Loboc River Cruise, tropikal ormanlar arasında yapılan tekne turları ile harika bir deneyim sunar. Yavaşça akan nehri keşfederken, yerel kültürü de gözlemleyebilirsiniz.",
+      "en": "Loboc River Cruise offers a wonderful experience with boat tours through tropical forests. You can explore the slowly flowing river while observing the local culture.",
+      "de": "Die Loboc River Cruise bietet ein wunderbares Erlebnis mit Bootstouren durch tropische Wälder. Man kann den langsam fließenden Fluss erkunden und dabei die lokale Kultur beobachten."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turuna çıkmak",
+        "Doğayı keşfetmek",
+        "Yerel kültürü gözlemlemek"
+      ],
+      "en": [
+        "Taking a boat tour",
+        "Exploring nature",
+        "Observing local culture"
+      ],
+      "de": [
+        "Eine Bootstour machen",
+        "Die Natur erkunden",
+        "Die lokale Kultur beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/loboc_river_cruise.jpg"
+    ]
+  },
+  {
+    "slug": "panglao-island",
+    "name": {
+      "tr": "Panglao Island",
+      "en": "Panglao Island",
+      "de": "Panglao Island"
+    },
+    "latitude": 9.5535,
+    "longitude": 123.7469,
+    "description": {
+      "tr": "Panglao Island, beyaz kumlu plajları ve berrak suyu ile ünlüdür. Su sporları yapmak, dalış yapmak ve denizin tadını çıkarmak için harika bir yerdir.",
+      "en": "Panglao Island is famous for its white sandy beaches and crystal-clear waters. It is an excellent place for water sports, diving, and enjoying the sea.",
+      "de": "Die Panglao Island ist berühmt für ihre weißen Sandstrände und kristallklares Wasser. Es ist ein hervorragender Ort für Wassersport, Tauchen und das Genießen des Meeres."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Su sporları yapmak",
+        "Dalış yapmak"
+      ],
+      "en": [
+        "Relaxing on the beach",
+        "Doing water sports",
+        "Diving"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Wassersport betreiben",
+        "Tauchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/panglao_island.jpg"
+    ]
+  },
+  {
+    "slug": "bohol-bee-farm",
+    "name": {
+      "tr": "Bohol Bee Farm",
+      "en": "Bohol Bee Farm",
+      "de": "Bohol Bee Farm"
+    },
+    "latitude": 9.5363,
+    "longitude": 124.2023,
+    "description": {
+      "tr": "Bohol Bee Farm, organik ürünler ve yerel bal çeşitlerini tadabileceğiniz bir çiftliktir. Burada ayrıca doğal güzellikleri keşfetmek de mümkündür.",
+      "en": "Bohol Bee Farm is a farm where you can taste organic products and local honey varieties. It is also a great place to explore natural beauty.",
+      "de": "Die Bohol Bee Farm ist ein Bauernhof, auf dem man Bio-Produkte und lokale Honigsorten probieren kann. Es ist auch ein großartiger Ort, um die natürliche Schönheit zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Organik ürünleri tatmak",
+        "Doğal güzellikleri keşfetmek",
+        "Bal üretimi hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Tasting organic products",
+        "Exploring natural beauty",
+        "Learning about honey production"
+      ],
+      "de": [
+        "Bio-Produkte probieren",
+        "Die natürliche Schönheit erkunden",
+        "Mehr über die Honigproduktion erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/bohol_bee_farm.jpg"
+    ]
+  }
+]

@@ -1,0 +1,612 @@
+[
+  {
+    "slug": "gokmedrese",
+    "name": {
+      "tr": "Gökmedrese",
+      "en": "Gökmedrese",
+      "de": "Gökmedrese"
+    },
+    "latitude": 39.74445,
+    "longitude": 37.01666,
+    "description": {
+      "tr": "    Gökmedrese, Selçuklu dönemine ait önemli bir medresedir. İslam mimarisinin güzel örneklerinden biri olan bu yapıyı gezebilirsiniz.\n    13. yüzyılda inşa edilen Gökmedrese, zarif taş işçiliği ve muazzam mimarisi ile dikkat çeker.\n    Yapının içindeki süslemeler ve dış cephesindeki detaylar, Selçuklu sanatının ve mühendisliğinin bir yansımasıdır.\n    Gökmedrese, sadece bir eğitim merkezi değil, aynı zamanda dönemin kültürel ve dini hayatını anlamak için de önemli bir yapıdır.\n    Bu tarihi yapıyı ziyaret ederek, Selçuklu döneminin etkileyici mimarisini yakından görebilirsiniz.\n  ",
+      "en": "    Gökmedrese is an important madrasa dating back to the Seljuk period. It is one of the beautiful examples of Islamic architecture, which you can visit.\n    Built in the 13th century, Gökmedrese attracts attention with its elegant stone craftsmanship and magnificent architecture.\n    The decorations inside the structure and the details on the outer facade are a reflection of Seljuk art and engineering.\n    Gökmedrese is not only an educational center but also an important structure for understanding the cultural and religious life of the period.\n    By visiting this historical site, you can closely observe the impressive architecture of the Seljuk period.\n  ",
+      "de": "    Die Gökmedrese ist eine bedeutende Madrasa aus der Zeit der Seldschuken. Sie ist eines der schönen Beispiele islamischer Architektur, das Sie besichtigen können.\n    Die im 13. Jahrhundert erbaute Gökmedrese zieht mit ihrer eleganten Steinmetzarbeit und ihrer prächtigen Architektur Aufmerksamkeit auf sich.\n    Die Dekorationen im Inneren der Struktur und die Details an der Außenseite sind ein Spiegelbild der seldschukischen Kunst und Ingenieurskunst.\n    Die Gökmedrese ist nicht nur ein Bildungszentrum, sondern auch eine wichtige Struktur, um das kulturelle und religiöse Leben der damaligen Zeit zu verstehen.\n    Durch den Besuch dieses historischen Ortes können Sie die beeindruckende Architektur der Seldschukenzeit aus nächster Nähe erleben.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Medreseyi gezmek",
+        "Tarihi yapıları incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Tour the madrasa",
+        "Examine historical structures",
+        "Photography"
+      ],
+      "de": [
+        "Die Medrese besichtigen",
+        "Historische Gebäude untersuchen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/gokmedrese.jpg"
+    ]
+  },
+  {
+    "slug": "cifte-minareli-medrese",
+    "name": {
+      "tr": "Çifte Minareli Medrese",
+      "en": "Double Minaret Madrasah",
+      "de": "Doppelminarett-Madrasa"
+    },
+    "latitude": 39.74846,
+    "longitude": 37.01431,
+    "description": {
+      "tr": "Çifte Minareli Medrese, Sivas’ın en tanınmış yapılarından biridir. 13. yüzyıldan kalma bu tarihi yapı, Selçuklu mimarisinin en güzel örneklerinden biridir. İki minaresi ile oldukça dikkat çekici olan medrese, anıtsal taç kapısı ve taş süslemeleriyle görenleri etkileyen bir eserdir.\n",
+      "en": "The Double Minaret Madrasah is one of the most famous landmarks of Sivas. Dating back to the 13th century, this historical structure is a remarkable example of Seljuk architecture. With its twin minarets, monumental entrance, and intricate stone decorations, it is a striking sight.\n",
+      "de": "Die Doppelminarett-Madrasa ist eines der bekanntesten Wahrzeichen von Sivas. Sie stammt aus dem 13. Jahrhundert und ist ein herausragendes Beispiel der seldschukischen Architektur. Mit ihren zwei Minaretten, dem monumentalen Eingang und den kunstvollen Steinverzierungen ist sie ein beeindruckendes Bauwerk.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıyı gezmek",
+        "Mimari detayları incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the historical site",
+        "Examining the architectural details",
+        "Taking photographs"
+      ],
+      "de": [
+        "Die historische Stätte erkunden",
+        "Architektonische Details betrachten",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/cifte_minareli_medrese.jpg"
+    ]
+  },
+  {
+    "slug": "buriciye-medresesi",
+    "name": {
+      "tr": "Büriciye Medresesi",
+      "en": "Buruciye Madrasah",
+      "de": "Buruciye-Madrasa"
+    },
+    "latitude": 39.74904,
+    "longitude": 37.0155,
+    "description": {
+      "tr": "Büriciye Medresesi, 13. yüzyıldan kalma bir medrese olup, Osmanlı dönemi mimarisinin güzel örneklerinden biridir. Taş işçiliği ve süslemeleri ile dikkat çeker.\n",
+      "en": "The Buruciye Madrasah, dating back to the 13th century, is a fine example of Ottoman-era architecture. It is notable for its stone craftsmanship and decorative elements.\n",
+      "de": "Die Buruciye-Madrasa stammt aus dem 13. Jahrhundert und ist ein schönes Beispiel osmanischer Architektur. Sie zeichnet sich durch ihre Steinmetzarbeiten und Verzierungen aus.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi dokuyu incelemek",
+        "Mimari detaylara hayran kalmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Observing historical details",
+        "Admiring architectural elements",
+        "Taking photos"
+      ],
+      "de": [
+        "Historische Details betrachten",
+        "Architektonische Elemente bewundern",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/buruciye_medresesi.jpg"
+    ]
+  },
+  {
+    "slug": "zanaatkarlar-carsisi",
+    "name": {
+      "tr": "Zanaatkarlar Çarşısı",
+      "en": "Artisans’ Bazaar",
+      "de": "Handwerkerbasar"
+    },
+    "latitude": 39.75583,
+    "longitude": 37.01181,
+    "description": {
+      "tr": "El sanatları, halı, kilim gibi geleneksel ürünlerin satıldığı bu tarihi çarşı, Sivas’ın kültürünü yansıtan önemli bir alışveriş noktasıdır.\n",
+      "en": "This historic bazaar is an important shopping spot in Sivas, where traditional handicrafts, carpets, and rugs are sold, reflecting the city's cultural heritage.\n",
+      "de": "Dieser historische Basar ist ein wichtiger Einkaufsort in Sivas, an dem traditionelle Handwerkskunst, Teppiche und Kelims verkauft werden, die das kulturelle Erbe der Stadt widerspiegeln.\n"
+    },
+    "activities": {
+      "tr": [
+        "El sanatları alışverişi",
+        "Kültürel mirası keşfetmek",
+        "Hediyelik eşya almak"
+      ],
+      "en": [
+        "Shopping for handicrafts",
+        "Exploring cultural heritage",
+        "Buying souvenirs"
+      ],
+      "de": [
+        "Einkaufen von Handwerkskunst",
+        "Kulturelles Erbe erkunden",
+        "Souvenirs kaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/zanaatkarlar_carsisi.jpg"
+    ]
+  },
+  {
+    "slug": "kursunlu-hamami",
+    "name": {
+      "tr": "Kurşunlu Hamamı",
+      "en": "Kurşunlu Bathhouse",
+      "de": "Kurşunlu-Bad"
+    },
+    "latitude": 39.74687,
+    "longitude": 37.02096,
+    "description": {
+      "tr": "16. yüzyıldan kalma bu Osmanlı hamamı, geleneksel Türk hamamı kültürünü yaşamak isteyenler için mükemmel bir yerdir.\n",
+      "en": "This 16th-century Ottoman bathhouse is a perfect place for those who want to experience traditional Turkish bath culture.\n",
+      "de": "Dieses osmanische Badehaus aus dem 16. Jahrhundert ist ein perfekter Ort für diejenigen, die die traditionelle türkische Badekultur erleben möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Hamam keyfi yapmak",
+        "Osmanlı mimarisini incelemek",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Enjoying a bath",
+        "Observing Ottoman architecture",
+        "Relaxing"
+      ],
+      "de": [
+        "Ein Bad genießen",
+        "Osmanische Architektur betrachten",
+        "Entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kursunlu_hamami.jpg"
+    ]
+  },
+  {
+    "slug": "sivas-kalesi",
+    "name": {
+      "tr": "Sivas Kalesi",
+      "en": "Sivas Castle",
+      "de": "Sivas Burg"
+    },
+    "latitude": 39.74515,
+    "longitude": 37.01466,
+    "description": {
+      "tr": "    Sivas Kalesi, şehri kuşbakışı görebileceğiniz eski bir kaledir.\n    Sivas'ın tarihi dokusunu keşfetmek için ideal bir yerdir.\n    Kale, Selçuklular dönemine kadar uzanan köklü bir geçmişe sahiptir ve\n    stratejik konumu nedeniyle hem savunma hem de şehir gözetimi için kullanılmıştır.\n    Günümüzde, kaleyi ziyaret edenler, surlardan şehrin panoramik manzarasının tadını çıkarabilir ve\n    çevresindeki tarihi yapılarla zenginleşen kültürel bir yolculuğa çıkabilirler.\n  ",
+      "en": "    Sivas Castle is an ancient fortress where you can enjoy a bird's-eye view of the city.\n    It is an ideal place to explore the historical texture of Sivas.\n    The castle has a deep-rooted history dating back to the Seljuk era and was used for both defense\n    and city surveillance due to its strategic location.\n    Today, visitors to the castle can enjoy panoramic views of the city from its walls and embark\n    on a cultural journey enriched by the historical structures surrounding it.\n  ",
+      "de": "    Die Burg von Sivas ist eine alte Festung, von der aus Sie einen Blick aus der Vogelperspektive\n    auf die Stadt genießen können. Sie ist ein idealer Ort, um die historische Struktur von Sivas zu erkunden.\n    Die Burg hat eine lange Geschichte, die bis in die Zeit der Seldschuken zurückreicht, und wurde aufgrund\n    ihrer strategischen Lage sowohl für die Verteidigung als auch für die Überwachung der Stadt genutzt.\n    Heute können Besucher der Burg den Panoramablick auf die Stadt von ihren Mauern aus genießen und eine\n    kulturelle Reise unternehmen, die durch die umliegenden historischen Gebäude bereichert wird.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi yapmak",
+        "Şehir manzarasını izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Tour the castle",
+        "View the city panorama",
+        "Photography"
+      ],
+      "de": [
+        "Die Burg besichtigen",
+        "Die Stadtansicht genießen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/sivas_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "divrigi-ulu-camii",
+    "name": {
+      "tr": "Divriği Ulu Camii",
+      "en": "Divriği Great Mosque",
+      "de": "Divriği Große Moschee"
+    },
+    "latitude": 39.37128,
+    "longitude": 38.12172,
+    "description": {
+      "tr": "    Divriği Ulu Camii, UNESCO Dünya Mirası Listesi'nde yer alan, Selçuklu dönemine ait muazzam bir camidir.\n    Mimarisi ve taş işçiliği ile ünlüdür. Camii, 13. yüzyılda inşa edilmiştir ve olağanüstü detaylı taş işçiliğiyle dikkat çeker.\n    Yapının mimarisi, dönemin sanatını ve mühendislik anlayışını yansıtarak, günümüzde hala büyüleyici bir güzelliğe sahiptir.\n    Bu tarihi yapı, sadece dini bir mekan olmanın ötesinde, aynı zamanda Selçuklu kültürünün bir simgesidir.\n    Divriği Ulu Camii, ziyaretçilerine sadece dini bir atmosfer sunmakla kalmaz, aynı zamanda tarihî bir yolculuğa çıkma imkânı tanır.\n  ",
+      "en": "    Divriği Great Mosque is a magnificent mosque dating back to the Seljuk period, listed as a UNESCO World Heritage Site.\n    It is famous for its architecture and stone craftsmanship. The mosque was built in the 13th century and attracts attention with its extraordinary detailed stone work.\n    The architecture of the structure reflects the art and engineering understanding of the era, maintaining its breathtaking beauty even today.\n    This historical site is not only a religious space but also a symbol of Seljuk culture.\n    Divriği Great Mosque offers visitors not only a religious atmosphere but also an opportunity to embark on a historical journey.\n  ",
+      "de": "    Die Divriği Große Moschee ist eine prächtige Moschee aus der Zeit der Seldschuken, die in der Liste des UNESCO-Weltkulturerbes aufgenommen wurde.\n    Sie ist berühmt für ihre Architektur und Steinmetzarbeiten. Die Moschee wurde im 13. Jahrhundert erbaut und zieht mit ihren außergewöhnlich detaillierten Steinmetzarbeiten Aufmerksamkeit auf sich.\n    Die Architektur des Bauwerks spiegelt die Kunst- und Ingenieursverständnis der damaligen Zeit wider und behält auch heute noch ihre atemberaubende Schönheit.\n    Diese historische Stätte ist nicht nur ein religiöser Raum, sondern auch ein Symbol der seldschukischen Kultur.\n    Die Divriği Große Moschee bietet den Besuchern nicht nur eine religiöse Atmosphäre, sondern auch die Möglichkeit, eine historische Reise zu unternehmen.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Camiye girmek",
+        "Mimari detayları incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Enter the mosque",
+        "Examine architectural details",
+        "Photography"
+      ],
+      "de": [
+        "Die Moschee betreten",
+        "Architektonische Details untersuchen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/divrigi_ulu_camii.jpg"
+    ]
+  },
+  {
+    "slug": "sivas-muzesi",
+    "name": {
+      "tr": "Sivas Müzesi",
+      "en": "Sivas Museum",
+      "de": "Sivas Museum"
+    },
+    "latitude": 39.75167,
+    "longitude": 37.01497,
+    "description": {
+      "tr": "    Sivas Müzesi, bölgenin tarihine dair önemli eserleri barındırır. Arkeolojik buluntular ve etnografik koleksiyonlarla doludur.\n    Müze, Sivas'ın tarihsel gelişimini anlamak ve bölgenin kültürel zenginliğini keşfetmek isteyenler için önemli bir kaynaktır.\n    Burada sergilenen eserler, taş devrinden Osmanlı dönemine kadar geniş bir zaman diliminde şekillenen Sivas'ın kültürel mirasını gözler önüne serer.\n    Ayrıca, etnografik koleksiyonlar yerel yaşamın, geleneklerin ve göçebe kültürlerin izlerini taşır.\n    Sivas Müzesi, geçmişi bugüne taşıyan ve bölgenin tarihini derinlemesine incelemeyi sağlayan bir yerdir.\n  ",
+      "en": "    Sivas Museum houses important artifacts related to the region's history. It is filled with archaeological finds and ethnographic collections.\n    The museum is a significant resource for those wanting to understand the historical development of Sivas and explore its cultural wealth.\n    The displayed artifacts span a wide time period, from the Stone Age to the Ottoman era, shedding light on the cultural heritage of Sivas.\n    Additionally, the ethnographic collections reflect local life, traditions, and traces of nomadic cultures.\n    Sivas Museum is a place that carries the past into the present, offering a deep insight into the region's history.\n  ",
+      "de": "    Das Sivas-Museum beherbergt bedeutende Artefakte zur Geschichte der Region. Es ist gefüllt mit archäologischen Funden und ethnografischen Sammlungen.\n    Das Museum ist eine wichtige Quelle für diejenigen, die die historische Entwicklung von Sivas verstehen und seinen kulturellen Reichtum entdecken möchten.\n    Die ausgestellten Artefakte decken einen langen Zeitraum ab, von der Steinzeit bis zur Osmanischen Ära, und werfen Licht auf das kulturelle Erbe von Sivas.\n    Darüber hinaus spiegeln die ethnografischen Sammlungen das lokale Leben, Traditionen und Spuren nomadischer Kulturen wider.\n    Das Sivas-Museum ist ein Ort, der die Vergangenheit in die Gegenwart trägt und einen tiefen Einblick in die Geschichte der Region bietet.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi yapmak",
+        "Tarihi eserleri incelemek",
+        "Kültürel deneyim yaşamak"
+      ],
+      "en": [
+        "Take a museum tour",
+        "Examine historical artifacts",
+        "Experience culture"
+      ],
+      "de": [
+        "Museumsbesuch machen",
+        "Historische Artefakte untersuchen",
+        "Kulturelle Erfahrung sammeln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/sivas_muzesi.jpg"
+    ]
+  },
+  {
+    "slug": "sivas-ataturk-ve-kongre-muzesi",
+    "name": {
+      "tr": "Sivas Atatürk ve Kongre Müzesi",
+      "en": "Sivas Atatürk and Congress Museum",
+      "de": "Sivas Atatürk und Kongressmuseum"
+    },
+    "latitude": 39.74978,
+    "longitude": 37.01383,
+    "description": {
+      "tr": "    Sivas Atatürk ve Kongre Müzesi, Sivas şehir merkezinde yer alan tarihi bir müzedir. Burada, Türk Kurtuluş Savaşı'nın önemli bir dönüm noktası olan Sivas Kongresi'ne ev sahipliği yapan binada sergiler yer almaktadır.\n    Müze, Atatürk'ün Sivas'a gelişinin ardından gerçekleştirdiği kongrenin tarihini, dönemin şartlarını ve önemli anılarını günümüze taşımaktadır.\n    Sivas Kongresi, Türk milletinin bağımsızlık mücadelesinin simgesi haline gelmiş, Atatürk'ün liderliğindeki bu önemli toplantı, Türkiye Cumhuriyeti'nin temellerinin atılmasında büyük bir rol oynamıştır.\n    Müze, bu tarihi olayları ziyaretçilerine sunarak, Türk milletinin bağımsızlık mücadelesi ve Atatürk'ün Sivas'a gelişindeki tarihi önemi hakkında önemli bilgiler vermektedir.\n  ",
+      "en": "    Sivas Atatürk and Congress Museum is a historic museum located in the center of Sivas. Inside, there are exhibits placed in the building that hosted the Sivas Congress, a significant turning point in the Turkish War of Independence.\n    The museum carries the history of the congress that took place after Atatürk's arrival in Sivas, the conditions of the period, and important memories to the present day.\n    The Sivas Congress became a symbol of the Turkish nation's struggle for independence, and this important meeting under Atatürk's leadership played a great role in laying the foundations of the Republic of Turkey.\n    The museum offers visitors insight into these historical events and provides crucial information about the Turkish struggle for independence and the historical importance of Atatürk's arrival in Sivas.\n  ",
+      "de": "    Das Sivas Atatürk- und Kongressmuseum ist ein historisches Museum im Stadtzentrum von Sivas. Im Inneren gibt es Ausstellungen im Gebäude, das den Sivas-Kongress beherbergte, einen wichtigen Wendepunkt im Türkischen Unabhängigkeitskrieg.\n    Das Museum trägt die Geschichte des Kongresses, der nach Atatürks Ankunft in Sivas stattfand, die Bedingungen der damaligen Zeit und wichtige Erinnerungen in die Gegenwart.\n    Der Sivas-Kongress wurde zu einem Symbol für den Unabhängigkeitskampf der türkischen Nation, und dieses bedeutende Treffen unter der Führung Atatürks spielte eine große Rolle bei der Gründung der Republik Türkei.\n    Das Museum bietet den Besuchern einen Einblick in diese historischen Ereignisse und liefert wichtige Informationen über den türkischen Unabhängigkeitskampf und die historische Bedeutung von Atatürks Ankunft in Sivas.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Kongre salonunu gezmek",
+        "Sergileri incelemek",
+        "Atatürk ve Kurtuluş Savaşı hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Tour the congress hall",
+        "Examine exhibits",
+        "Learn about Atatürk and the War of Independence"
+      ],
+      "de": [
+        "Den Kongressaal besichtigen",
+        "Exponate untersuchen",
+        "Über Atatürk und den Unabhängigkeitskrieg lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/sivas_ataturk_evi_muzesi.jpg"
+    ]
+  },
+  {
+    "slug": "kangal-balikli-kaplica",
+    "name": {
+      "tr": "Kangal Balıklı Kaplıca",
+      "en": "Kangal Fish Thermal Springs",
+      "de": "Kangal Fisch Thermalquellen"
+    },
+    "latitude": 39.31401,
+    "longitude": 37.46903,
+    "description": {
+      "tr": "    Kangal Balıklı Kaplıca, Sivas’a bağlı Kangal ilçesinde bulunan ünlü bir kaplıcadır. Burada, balıklara tedavi ettiren sular bulunur.\n    Bu kaplıca, özel bir balık türü olan \"Dr. Fish\" (Garra rufa) ile ünlüdür. Bu balıklar, insanların cilt rahatsızlıklarını tedavi etmek için kullanılır.\n    Sıcak mineralli sularda yaşayan bu balıklar, ciltteki ölü hücreleri yiyerek, birçok deri hastalığına iyi gelmektedir.\n    Kangal Balıklı Kaplıca, sadece şifalı suları ile değil, aynı zamanda doğa ile iç içe bir tatil deneyimi sunmasıyla da bilinir.\n    Burası, sağlık turizmi açısından önemli bir noktadır ve yerli ve yabancı turistlerin ilgisini çeker.\n  ",
+      "en": "    Kangal Fish Spa is a famous thermal spring located in the Kangal district of Sivas. It is known for its waters that help treat with fish.\n    The spa is famous for a special fish species, \"Dr. Fish\" (Garra rufa), which are used for treating skin conditions.\n    These fish, living in warm mineral waters, feed on dead skin cells, providing relief for various skin diseases.\n    Kangal Fish Spa is not only known for its healing waters but also for offering a vacation experience that is intertwined with nature.\n    It is an important location for health tourism and attracts the attention of both local and foreign tourists.\n  ",
+      "de": "    Der Kangal Fischspa ist eine berühmte Thermalquelle im Landkreis Kangal in Sivas. Es ist bekannt für seine Gewässer, die mit Fischen zur Behandlung helfen.\n    Der Spa ist berühmt für eine spezielle Fischart, \"Dr. Fish\" (Garra rufa), die zur Behandlung von Hautkrankheiten verwendet wird.\n    Diese Fische, die in warmem Mineralwasser leben, ernähren sich von toten Hautzellen und helfen bei der Heilung verschiedener Hautkrankheiten.\n    Der Kangal Fischspa ist nicht nur für sein heilendes Wasser bekannt, sondern auch für das Angebot eines Urlaubserlebnisses, das mit der Natur verbunden ist.\n    Es ist ein wichtiger Ort für den Gesundheitstourismus und zieht sowohl inländische als auch ausländische Touristen an.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Balıklarla tedavi olmak",
+        "Kaplıca sularında rahatlamak",
+        "Şifa aramak"
+      ],
+      "en": [
+        "Therapy with fish",
+        "Relax in the thermal waters",
+        "Seek healing"
+      ],
+      "de": [
+        "Therapie mit Fischen",
+        "In den Thermalquellen entspannen",
+        "Heilung suchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kangal_balikli_kaplica.jpg"
+    ]
+  },
+  {
+    "slug": "sizir-selalesi",
+    "name": {
+      "tr": "Sızır Şelalesi",
+      "en": "Sızır Waterfall",
+      "de": "Sızır Wasserfall"
+    },
+    "latitude": 39.30522,
+    "longitude": 37.94662,
+    "description": {
+      "tr": "    Sızır Şelalesi, doğal güzellikleri ile ünlü bir yerdir. Şelalenin etrafında piknik yapabilir ve doğa yürüyüşleri gerçekleştirebilirsiniz.\n    Doğal ortamı ve büyüleyici manzarası ile Sızır Şelalesi, doğa severler için mükemmel bir yerdir. Şelalenin etrafındaki yeşil alan, sakin bir atmosfer sunar ve ziyaretçilere huzurlu bir kaçış imkânı tanır.\n    Ayrıca, şelalenin etrafındaki yürüyüş parkurları, doğayla iç içe bir deneyim yaşamak isteyenler için harika fırsatlar sunar.\n    Sızır Şelalesi, aynı zamanda fotoğrafçılar için muazzam bir manzara sunarak, güzel doğa kareleri çekmek isteyenlere ilham verir.\n  ",
+      "en": "    Sızır Waterfall is a place famous for its natural beauty. You can have a picnic around the waterfall and go on nature walks.\n    With its natural setting and breathtaking views, Sızır Waterfall is a perfect spot for nature lovers. The green areas surrounding the waterfall offer a peaceful atmosphere, providing visitors with a tranquil escape.\n    Additionally, the walking trails around the waterfall offer great opportunities for those who want to experience nature up close.\n    Sızır Waterfall also provides an incredible view for photographers, inspiring those who wish to capture beautiful nature shots.\n  ",
+      "de": "    Der Sızır Wasserfall ist ein Ort, der für seine natürliche Schönheit bekannt ist. Sie können rund um den Wasserfall ein Picknick machen und Naturwanderungen unternehmen.\n    Mit seiner natürlichen Umgebung und atemberaubenden Aussichten ist der Sızır Wasserfall ein perfekter Ort für Naturliebhaber. Die grünen Flächen rund um den Wasserfall bieten eine friedliche Atmosphäre und ermöglichen den Besuchern eine ruhige Auszeit.\n    Darüber hinaus bieten die Wanderwege rund um den Wasserfall großartige Möglichkeiten für diejenigen, die die Natur hautnah erleben möchten.\n    Der Sızır Wasserfall bietet auch eine unglaubliche Aussicht für Fotografen und inspiriert diejenigen, die wunderschöne Naturaufnahmen machen möchten.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Doğada yürüyüş yapmak",
+        "Piknik yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Take a walk in nature",
+        "Have a picnic",
+        "Photography"
+      ],
+      "de": [
+        "Spaziergang in der Natur machen",
+        "Picknick machen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/sizir_selalesi.jpg"
+    ]
+  },
+  {
+    "slug": "kale-camii",
+    "name": {
+      "tr": "Kale Camii",
+      "en": "Kale Mosque",
+      "de": "Kale Moschee"
+    },
+    "latitude": 39.74919,
+    "longitude": 37.01433,
+    "description": {
+      "tr": "    Kale Camii, Sivas'ın tarihi camilerinden biridir. Mimarisi ve dini atmosferi ile ziyaretçilere huzurlu bir ortam sunar.\n    Selçuklu dönemine ait olan bu camii, zarif taş işçiliği ve detaylı süslemeleri ile dikkat çeker.\n    Caminin avlusunda dinlenebilir ve camiiye özgü mimari özellikleri gözlemleyebilirsiniz.\n    Kale Camii, sadece bir ibadet yeri değil, aynı zamanda şehri keşfederken tarihî bir atmosferde huzur arayanlar için önemli bir mekândır.\n  ",
+      "en": "    Kale Mosque is one of the historic mosques of Sivas. With its architecture and religious atmosphere, it provides visitors with a peaceful environment.\n    Built during the Seljuk period, this mosque stands out with its elegant stone craftsmanship and intricate decorations.\n    You can relax in the mosque's courtyard and observe the architectural features unique to the mosque.\n    Kale Mosque is not only a place of worship but also an important spot for those seeking tranquility in a historic setting while exploring the city.\n  ",
+      "de": "    Die Kale-Moschee ist eine der historischen Moscheen von Sivas. Mit ihrer Architektur und religiösen Atmosphäre bietet sie den Besuchern eine friedliche Umgebung.\n    Diese Moschee, die aus der seldschukischen Zeit stammt, zeichnet sich durch ihre elegante Steinmetzarbeit und filigranen Verzierungen aus.\n    Im Innenhof der Moschee kann man sich ausruhen und die architektonischen Besonderheiten der Moschee beobachten.\n    Die Kale-Moschee ist nicht nur ein Ort der Anbetung, sondern auch ein wichtiger Ort für diejenigen, die während der Erkundung der Stadt Ruhe in einer historischen Atmosphäre suchen.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Camiye girmek",
+        "Mimari detayları incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Enter the mosque",
+        "Examine architectural details",
+        "Photography"
+      ],
+      "de": [
+        "Die Moschee betreten",
+        "Architektonische Details untersuchen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami",
+        "tarih"
+      ],
+      "en": [
+        "mosque",
+        "historic"
+      ],
+      "de": [
+        "Moschee",
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/beylerbeyi_camii.jpg"
+    ]
+  },
+  {
+    "slug": "hafik-golu",
+    "name": {
+      "tr": "Hafik Gölü",
+      "en": "Hafik Lake",
+      "de": "Hafik See"
+    },
+    "latitude": 39.86963,
+    "longitude": 37.3837,
+    "description": {
+      "tr": "    Hafik Gölü, doğa severler için huzurlu bir yerdir. Göl etrafında yürüyüş yapabilir veya balık tutabilirsiniz.\n    Bu göl, sakin atmosferi ve doğal güzellikleriyle ünlüdür. Çevresindeki yeşil alanlarda doğa yürüyüşleri yapabilir, kuşları gözlemleyebilirsiniz.\n    Ayrıca, gölde balık tutmak için ideal bir yerdir, özellikle olta balıkçılığı yapmak isteyenler için popülerdir.\n    Hafik Gölü, aynı zamanda kamp yapmayı sevenler için de mükemmel bir yerdir, doğayla iç içe bir tatil için harika bir fırsat sunar.\n  ",
+      "en": "    Hafik Lake is a peaceful place for nature lovers. You can take a walk around the lake or go fishing.\n    The lake is famous for its calm atmosphere and natural beauty. You can enjoy nature walks in the surrounding green areas and observe the birds.\n    It is also an ideal spot for fishing, especially popular for those who enjoy angling.\n    Hafik Lake is also a perfect place for camping, offering a great opportunity for those who want to spend a vacation close to nature.\n  ",
+      "de": "    Der Hafik-See ist ein friedlicher Ort für Naturliebhaber. Sie können rund um den See spazieren gehen oder angeln.\n    Der See ist bekannt für seine ruhige Atmosphäre und natürliche Schönheit. Sie können die umliegenden grünen Flächen für Naturwanderungen genießen und Vögel beobachten.\n    Es ist auch ein idealer Ort zum Angeln, besonders beliebt bei denen, die das Angelhobby ausüben.\n    Der Hafik-See ist auch ein perfekter Ort für Camping und bietet eine großartige Gelegenheit für diejenigen, die ihren Urlaub in der Natur verbringen möchten.\n  "
+    },
+    "activities": {
+      "tr": [
+        "Balık tutmak",
+        "Yürüyüş yapmak",
+        "Göl etrafında dinlenmek"
+      ],
+      "en": [
+        "Fishing",
+        "Walking",
+        "Relax by the lake"
+      ],
+      "de": [
+        "Angeln",
+        "Spazieren gehen",
+        "Am See entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/hafik_golu.jpg"
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "kazan-kremlini",
+    "name": {
+      "tr": "Kazan Kremlini",
+      "en": "Kazan Kremlin",
+      "de": "Kasaner Kreml"
+    },
+    "latitude": 55.796,
+    "longitude": 49.107,
+    "description": {
+      "tr": "Kazan Kremlini, Kazan şehrinin kalbinde yer alan tarihi bir yapıdır. UNESCO Dünya Mirası Listesi'nde yer alan bu kale, Tataristan’ın simgesidir.\n",
+      "en": "The Kazan Kremlin is a historic structure located in the heart of Kazan. It is a UNESCO World Heritage Site and a symbol of Tatarstan.\n",
+      "de": "Der Kasaner Kreml ist ein historisches Bauwerk im Herzen von Kasan. Es gehört zum UNESCO-Weltkulturerbe und ist ein Symbol Tatarstans.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kremlin’i gezme",
+        "Tatar kültürü hakkında bilgi edinme"
+      ],
+      "en": [
+        "Tour the Kremlin",
+        "Learn about Tatar culture"
+      ],
+      "de": [
+        "Den Kreml besichtigen",
+        "Mehr über die tatarische Kultur erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kazan_kremlin.jpg"
+    ]
+  },
+  {
+    "slug": "qols-rif-camii",
+    "name": {
+      "tr": "Qolşärif Camii",
+      "en": "Qolşärif Mosque",
+      "de": "Kul-Scharif-Moschee"
+    },
+    "latitude": 55.792,
+    "longitude": 49.106,
+    "description": {
+      "tr": "Qolşärif Camii, Kazan Kremlininde yer alan ve Rusya'nın en büyük camilerinden biri olan tarihi bir yapıdır. Hem dini hem de mimari bir hazinedir.\n",
+      "en": "The Qolşärif Mosque, located in the Kazan Kremlin, is one of the largest mosques in Russia. It is both a religious and architectural treasure.\n",
+      "de": "Die Kul-Scharif-Moschee, die sich im Kasaner Kreml befindet, ist eine der größten Moscheen Russlands. Sie ist sowohl ein religiöser als auch architektonischer Schatz.\n"
+    },
+    "activities": {
+      "tr": [
+        "Camiyi ziyaret etme",
+        "Mimarisine hayran kalma"
+      ],
+      "en": [
+        "Visit the mosque",
+        "Admire its architecture"
+      ],
+      "de": [
+        "Die Moschee besuchen",
+        "Die Architektur bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/qolsharif_mosque.jpg"
+    ]
+  },
+  {
+    "slug": "kazan-katedrali",
+    "name": {
+      "tr": "Kazan Katedrali",
+      "en": "Kazan Cathedral",
+      "de": "Kasaner Kathedrale"
+    },
+    "latitude": 55.796,
+    "longitude": 49.106,
+    "description": {
+      "tr": "Kazan Katedrali, Rus Ortodoks kilisesinin önemli yapılarından biridir. İç mekanındaki süslemeleri ve tarihi atmosferi ile dikkat çeker.\n",
+      "en": "The Kazan Cathedral is an important structure of the Russian Orthodox Church. It is known for its interior decorations and historic ambiance.\n",
+      "de": "Die Kasaner Kathedrale ist ein wichtiges Bauwerk der russisch-orthodoxen Kirche. Sie ist für ihre Innenverzierungen und historische Atmosphäre bekannt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Katedralde gezinti yapma",
+        "Dini atmosferi hissetme"
+      ],
+      "en": [
+        "Wander inside the cathedral",
+        "Experience the religious ambiance"
+      ],
+      "de": [
+        "In der Kathedrale spazieren gehen",
+        "Die religiöse Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/kazan_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "bauman-caddesi",
+    "name": {
+      "tr": "Bauman Caddesi",
+      "en": "Bauman Street",
+      "de": "Bauman-Straße"
+    },
+    "latitude": 55.795,
+    "longitude": 49.105,
+    "description": {
+      "tr": "Bauman Caddesi, Kazan’ın en ünlü alışveriş caddelerinden biridir. Burada geleneksel pazarlar ve modern alışveriş merkezleri bulunur.\n",
+      "en": "Bauman Street is one of Kazan's most famous shopping streets. It features traditional markets and modern shopping centers.\n",
+      "de": "Die Bauman-Straße ist eine der bekanntesten Einkaufsstraßen Kasans. Sie bietet traditionelle Märkte und moderne Einkaufszentren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Caddede yürüyüş yapma"
+      ],
+      "en": [
+        "Go shopping",
+        "Stroll along the street"
+      ],
+      "de": [
+        "Einkaufen gehen",
+        "Die Straße entlang schlendern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/bauman_street.jpg"
+    ]
+  },
+  {
+    "slug": "tataristan-ulusal-muzesi",
+    "name": {
+      "tr": "Tataristan Ulusal Müzesi",
+      "en": "Tatarstan National Museum",
+      "de": "Nationalmuseum Tatarstans"
+    },
+    "latitude": 55.7965,
+    "longitude": 49.1075,
+    "description": {
+      "tr": "Tataristan Ulusal Müzesi, bölgenin tarihi, kültürü ve sanatı hakkında kapsamlı bir koleksiyona sahiptir. Burada Tatar kültürüne dair pek çok eser bulunmaktadır.\n",
+      "en": "The Tatarstan National Museum offers a comprehensive collection about the region's history, culture, and art. It features many exhibits on Tatar culture.\n",
+      "de": "Das Nationalmuseum Tatarstans bietet eine umfassende Sammlung zur Geschichte, Kultur und Kunst der Region. Es zeigt viele Exponate zur tatarischen Kultur.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tatar kültürünü öğrenme",
+        "Sanat galerilerini gezme"
+      ],
+      "en": [
+        "Learn about Tatar culture",
+        "Explore art galleries"
+      ],
+      "de": [
+        "Mehr über die tatarische Kultur erfahren",
+        "Kunstgalerien erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/tatarstan_museum.jpg"
+    ]
+  }
+]

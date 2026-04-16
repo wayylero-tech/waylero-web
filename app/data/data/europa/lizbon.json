@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "bel-m-kulesi",
+    "name": {
+      "tr": "Belem Kulesi",
+      "en": "Belém Tower",
+      "de": "Belém Turm"
+    },
+    "latitude": 38.6919,
+    "longitude": -9.2163,
+    "description": {
+      "tr": "Belém Kulesi, Lizbon'un en ünlü yapılarından biridir ve 16. yüzyıldan kalma tarihi bir deniz feneridir. UNESCO Dünya Mirası Listesi'nde yer alır.",
+      "en": "Belém Tower is one of Lisbon's most famous landmarks and a 16th-century historical lighthouse. It is a UNESCO World Heritage Site.",
+      "de": "Der Belém Turm ist eines der bekanntesten Wahrzeichen von Lissabon und ein historischer Leuchtturm aus dem 16. Jahrhundert. Es ist ein UNESCO-Weltkulturerbe."
+    },
+    "activities": {
+      "tr": [
+        "Kuleyi ziyaret etme",
+        "Tarihi surları keşfetme"
+      ],
+      "en": [
+        "Visit the tower",
+        "Explore the historic walls"
+      ],
+      "de": [
+        "Den Turm besuchen",
+        "Die historischen Mauern erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/belem_tower.jpg"
+    ]
+  },
+  {
+    "slug": "jer-nimos-manastiri",
+    "name": {
+      "tr": "Jerónimos Manastırı",
+      "en": "Jerónimos Monastery",
+      "de": "Jerónimos Kloster"
+    },
+    "latitude": 38.6972,
+    "longitude": -9.2064,
+    "description": {
+      "tr": "Jerónimos Manastırı, Lizbon'un en önemli tarihi yapılarından biridir ve Manueline tarzının en güzel örneklerinden biridir. UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Jerónimos Monastery is one of Lisbon's most important historic buildings and one of the finest examples of Manueline architecture. It is a UNESCO World Heritage Site.",
+      "de": "Das Jerónimos-Kloster ist eines der wichtigsten historischen Gebäude Lissabons und eines der besten Beispiele für manuelinische Architektur. Es ist ein UNESCO-Weltkulturerbe."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezme",
+        "Mimari detayları inceleme"
+      ],
+      "en": [
+        "Tour the monastery",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Das Kloster besichtigen",
+        "Die architektonischen Details untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/jeronimos_monastery.jpg"
+    ]
+  }
+]

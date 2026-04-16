@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "frauenkirche",
+    "name": {
+      "tr": "Frauenkirche",
+      "en": "Frauenkirche",
+      "de": "Frauenkirche"
+    },
+    "latitude": 51.05,
+    "longitude": 13.737,
+    "description": {
+      "tr": "Frauenkirche, Dresden'in simgelerinden biridir ve II. Dünya Savaşı'ndan sonra yeniden inşa edilmiştir.",
+      "en": "Frauenkirche is one of the landmarks of Dresden and was rebuilt after World War II.",
+      "de": "Die Frauenkirche ist eines der Wahrzeichen von Dresden und wurde nach dem Zweiten Weltkrieg wieder aufgebaut."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin içini keşfetme",
+        "Mimari detayları inceleme"
+      ],
+      "en": [
+        "Explore the church",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Die Kirche erkunden",
+        "Architektonische Details betrachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/frauenkirche.jpg"
+    ]
+  },
+  {
+    "slug": "zwinger-sarayi",
+    "name": {
+      "tr": "Zwinger Sarayı",
+      "en": "Zwinger Palace",
+      "de": "Zwinger Palast"
+    },
+    "latitude": 51.0505,
+    "longitude": 13.7381,
+    "description": {
+      "tr": "Zwinger Sarayı, barok mimarisiyle dikkat çeker ve Dresden'in en önemli kültürel yapılarından biridir.",
+      "en": "Zwinger Palace stands out with its Baroque architecture and is one of Dresden's most important cultural buildings.",
+      "de": "Der Zwinger Palast besticht durch seine Barockarchitektur und ist eines der wichtigsten kulturellen Gebäude von Dresden."
+    },
+    "activities": {
+      "tr": [
+        "Sarayın içini gezme",
+        "Sanat galerilerini ziyaret etme"
+      ],
+      "en": [
+        "Tour the palace",
+        "Visit the art galleries"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Die Kunstgalerien besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/zwinger_palace.jpg"
+    ]
+  }
+]

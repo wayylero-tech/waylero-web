@@ -1,0 +1,270 @@
+[
+  {
+    "slug": "follik-selalesi",
+    "name": {
+      "tr": "Follik Şelalesi",
+      "en": "Follik Waterfall",
+      "de": "Follik Wasserfall"
+    },
+    "latitude": 40.54209,
+    "longitude": 30.69932,
+    "description": {
+      "tr": "Follik Şelalesi, Sakarya'nın Akyazı ilçesinde, Boztepe Köyü'ne yakın bir konumda yer alan ve doğa severlerin ilgisini çeken muazzam bir şelaledir.\nZiyaretçilere sakin bir ortamda doğayla iç içe olma fırsatı sunar. Şelale, çevresindeki yeşil alanlar ve huzurlu atmosferiyle, hem fotoğrafçılar hem de doğa yürüyüşçüleri için popüler bir destinasyondur.\n",
+      "en": "Follik Waterfall is an incredible waterfall located near Boztepe Village in Akyazı district of Sakarya. It offers visitors the chance to be surrounded by nature in a peaceful environment. The waterfall, with its green surroundings and serene atmosphere, is a popular destination for both photographers and nature hikers.\n",
+      "de": "Der Follik Wasserfall ist ein beeindruckender Wasserfall, der in der Nähe des Dorfes Boztepe im Bezirk Akyazı in Sakarya liegt. Er bietet den Besuchern die Möglichkeit, in einer ruhigen Umgebung inmitten der Natur zu sein. Der Wasserfall, umgeben von grünen Flächen und einer friedlichen Atmosphäre, ist ein beliebtes Ziel für Fotografen und Wanderer.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şelale etrafında yürüyüş yapmak",
+        "Doğa fotoğrafları çekmek",
+        "Piknik yapmak ve dinlenmek",
+        "Şelale sesi eşliğinde meditasyon yapmak"
+      ],
+      "en": [
+        "Take a walk around the waterfall",
+        "Take nature photos",
+        "Have a picnic and relax",
+        "Meditate to the sound of the waterfall"
+      ],
+      "de": [
+        "Spaziergang rund um den Wasserfall",
+        "Naturfotos machen",
+        "Picknicken und Entspannen",
+        "Meditieren bei den Geräuschen des Wasserfalls"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/follik_selalesi.jpg",
+      "https://example.com/follik_selalesi_2.jpg"
+    ]
+  },
+  {
+    "slug": "sapanca-golu",
+    "name": {
+      "tr": "Sapanca Gölü",
+      "en": "Lake Sapanca",
+      "de": "Sapanca See"
+    },
+    "latitude": 40.72211,
+    "longitude": 30.26207,
+    "description": {
+      "tr": "Sapanca Gölü, İstanbul'a yakınlığıyla ünlüdür ve doğa severlerin gözdesidir. Burada yürüyüş yapabilir, bisiklete binebilir veya gölde kano yapabilirsiniz.\n",
+      "en": "Lake Sapanca is famous for its proximity to Istanbul and is a favorite spot for nature lovers. You can walk, ride a bike, or canoe on the lake.\n",
+      "de": "Der Sapanca See ist bekannt für seine Nähe zu Istanbul und ein beliebter Ort für Naturliebhaber. Sie können spazieren gehen, Fahrrad fahren oder auf dem See Kanu fahren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Göl çevresinde yürüyüş",
+        "Kano yapma",
+        "Piknik yapma"
+      ],
+      "en": [
+        "Walk around the lake",
+        "Go canoeing",
+        "Have a picnic"
+      ],
+      "de": [
+        "Spaziergang um den See",
+        "Kanu fahren",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sapanca_golu.jpg"
+    ]
+  },
+  {
+    "slug": "karasu-sahili",
+    "name": {
+      "tr": "Karasu Sahili",
+      "en": "Karasu Beach",
+      "de": "Karasu Strand"
+    },
+    "latitude": 41.11336,
+    "longitude": 30.69337,
+    "description": {
+      "tr": "Karasu Sahili, Sakarya'nın en güzel plajlarından biridir. Temiz denizi ve geniş plajları ile tatilcilerin ilgisini çeker.\n",
+      "en": "Karasu Beach is one of Sakarya's most beautiful beaches, attracting holidaymakers with its clean sea and wide beaches.\n",
+      "de": "Der Karasu Strand ist einer der schönsten Strände in Sakarya und zieht Urlauber mit seinem sauberen Meer und den weiten Stränden an.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girme",
+        "Plajda dinlenme"
+      ],
+      "en": [
+        "Swimming",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Schwimmen",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/karasu_sahili.jpg"
+    ]
+  },
+  {
+    "slug": "serdivan-golleri",
+    "name": {
+      "tr": "Serdivan Gölleri",
+      "en": "Serdivan Lakes",
+      "de": "Serdivan Seen"
+    },
+    "latitude": 40.76076,
+    "longitude": 30.31116,
+    "description": {
+      "tr": "Serdivan Gölleri, Sakarya’nın sakin ve huzurlu doğal alanlarından biridir. Burada yürüyüş yapabilir ve gölette tekne turu yapabilirsiniz.\n",
+      "en": "Serdivan Lakes is one of Sakarya's peaceful and tranquil natural areas. You can take a walk and go on a boat tour on the lake.\n",
+      "de": "Der Serdivan Seen ist eines der ruhigen und friedlichen Naturgebiete in Sakarya. Sie können spazieren gehen und eine Bootstour auf dem See unternehmen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Göl gezisi",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Lake tour",
+        "Nature walk"
+      ],
+      "de": [
+        "Seenrundfahrt",
+        "Wanderung in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/serdivan_golleri.jpg"
+    ]
+  },
+  {
+    "slug": "sakarya-muzesi",
+    "name": {
+      "tr": "Sakarya Müzesi",
+      "en": "Sakarya Museum",
+      "de": "Sakarya Museum"
+    },
+    "latitude": 40.77404,
+    "longitude": 30.40026,
+    "description": {
+      "tr": "Sakarya Müzesi, şehir tarihine ve kültürüne dair birçok önemli eserin sergilendiği bir müzedir.\n",
+      "en": "Sakarya Museum is a museum that exhibits many important artifacts related to the city's history and culture.\n",
+      "de": "Das Sakarya-Museum ist ein Museum, in dem viele wichtige Artefakte zur Geschichte und Kultur der Stadt ausgestellt sind.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi",
+        "Tarihi eserleri inceleme"
+      ],
+      "en": [
+        "Museum tour",
+        "Examining historical artifacts"
+      ],
+      "de": [
+        "Museumsbesuch",
+        "Untersuchung historischer Artefakte"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/sakarya_muzesi.jpg"
+    ]
+  },
+  {
+    "slug": "acarlar-longozu",
+    "name": {
+      "tr": "Acarlar Longozu",
+      "en": "Acarlar Floodplain",
+      "de": "Acarlar Überschwemmungsebene"
+    },
+    "latitude": 41.11822,
+    "longitude": 30.55413,
+    "description": {
+      "tr": "Acarlar Longozu, Sakarya'nın en önemli doğal alanlarından biridir. Bu sulak alan, doğa yürüyüşleri yapmak için mükemmel bir yerdir.\n",
+      "en": "Acarlar Floodplain is one of the most important natural areas in Sakarya. This wetland is an excellent place for nature walks.\n",
+      "de": "Das Acarlar Überschwemmungsgebiet ist eines der wichtigsten Naturgebiete in Sakarya. Dieses Feuchtgebiet ist ein ausgezeichneter Ort für Naturwanderungen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Doğa gözlemi"
+      ],
+      "en": [
+        "Nature walk",
+        "Nature observation"
+      ],
+      "de": [
+        "Naturwanderung",
+        "Naturbeobachtung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/acarlar_longozu.jpg"
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "unirii-meydani",
+    "name": {
+      "tr": "Unirii Meydanı",
+      "en": "Unirii Square",
+      "de": "Unirii Platz"
+    },
+    "latitude": 45.7517,
+    "longitude": 21.2276,
+    "description": {
+      "tr": "Unirii Meydanı, Timișoara'nın en önemli meydanıdır. Meydan, barok tarzda inşa edilmiş binalarla çevrilidir ve şehrin kültürel merkezi olarak kabul edilir.",
+      "en": "Unirii Square is the most important square in Timișoara. The square is surrounded by baroque-style buildings and is considered the cultural center of the city.",
+      "de": "Der Unirii Platz ist der wichtigste Platz in Timișoara. Der Platz ist von barocken Gebäuden umgeben und wird als kulturelles Zentrum der Stadt angesehen."
+    },
+    "activities": {
+      "tr": [
+        "Meydanı keşfetme",
+        "Çevredeki tarihi binaları gezme"
+      ],
+      "en": [
+        "Explore the square",
+        "Tour the historical buildings around it"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "Die historischen Gebäude in der Umgebung besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/unirii_square.jpg"
+    ]
+  },
+  {
+    "slug": "huniade-kalesi",
+    "name": {
+      "tr": "Huniade Kalesi",
+      "en": "Huniade Castle",
+      "de": "Huniade Schloss"
+    },
+    "latitude": 45.7577,
+    "longitude": 21.2254,
+    "description": {
+      "tr": "Huniade Kalesi, Timișoara'nın en eski ve en önemli tarihi yapılarından biridir. Kale, Orta Çağ'dan kalma bir askeri yapıdır.",
+      "en": "Huniade Castle is one of Timișoara's oldest and most important historical buildings. It is a medieval military structure.",
+      "de": "Das Huniade Schloss ist eines der ältesten und wichtigsten historischen Gebäude in Timișoara. Es handelt sich um eine mittelalterliche militärische Struktur."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapma",
+        "Tarihi kaleyi keşfetme"
+      ],
+      "en": [
+        "Take a tour of the castle",
+        "Explore the historical fortress"
+      ],
+      "de": [
+        "Eine Tour durch das Schloss machen",
+        "Die historische Festung erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/huniade_castle.jpg"
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "burj-khalifa",
+    "name": {
+      "tr": "Burj Khalifa",
+      "en": "Burj Khalifa",
+      "de": "Burj Khalifa"
+    },
+    "latitude": 25.1975,
+    "longitude": 55.2744,
+    "description": {
+      "tr": "Burj Khalifa, Birleşik Arap Emirlikleri'nin Dubai şehrinde yer alan ve 828 metre yüksekliği ile dünyanın en yüksek binası olarak bilinen ikonik bir yapıdır. 2010 yılında açılan bu gökdelen, modern mühendislik ve mimarinin en çarpıcı örneklerinden biri olarak öne çıkar. Dubai şehir merkezinde bulunan Burj Khalifa, sadece mimarisi ile değil, aynı zamanda turistik çekiciliğiyle de büyük ilgi görmektedir.\n\nBinanın gözlem katı, ziyaretçilere şehir ve çevresinin panoramik manzarasını sunar. \"At The Top\" adı verilen gözlem katından, Dubai Marina, Palm Jumeirah, Çöl manzaraları ve Pers Körfezi’ni yüksekten izlemek mümkündür. Özellikle gün batımı ve gece ışıklandırmaları, fotoğrafçılar ve şehir manzarası meraklıları için unutulmaz anlar yaratır.\n\nBurj Khalifa, sadece gözlem katı ile değil, lüks rezidanslar, ofisler ve otel alanlarıyla da dikkat çeker. İçinde yer alan Armani Hotel, dünyaca ünlü tasarımcı Giorgio Armani tarafından dekore edilmiştir ve misafirlere eşsiz bir konaklama deneyimi sunar. Ayrıca, gökdelenin çevresindeki Dubai Fountain gösterileri, müzik eşliğinde suyun dansını izlemek için popüler bir aktivitedir.\n\nBinanın mimarisi, İslami sanat ve geometrik motiflerden ilham almıştır ve modern cam ve çelik kullanımıyla birleşerek eşsiz bir estetik sunar. Ziyaretçiler, yüksek hızda çalışan asansörler ile gözlem katına çıkarak bu dev yapının mühendislik harikasını yakından görebilirler.\n\nBurj Khalifa, Dubai'nin simgesi olarak şehrin skyline’ını domine eder ve şehir turizminin en önemli parçalarından biridir. Ziyaretçiler, binayı gündüz veya gece ziyaret ederek hem modern mimarinin hem de şehrin dinamizminin keyfini çıkarabilirler. Dünya çapında popüler bir turistik nokta olan Burj Khalifa, Dubai’ye gelen her gezginin mutlaka görmesi gereken duraklardan biridir.\n",
+      "en": "Burj Khalifa, located in Dubai, United Arab Emirates, is the tallest building in the world, standing at 828 meters. Opened in 2010, this iconic skyscraper is one of the most striking examples of modern engineering and architecture. Situated in the heart of Dubai, Burj Khalifa attracts visitors not only with its design but also as a major tourist attraction.\n\nThe observation deck offers panoramic views of the city and surrounding areas. From the \"At The Top\" observation deck, visitors can see Dubai Marina, Palm Jumeirah, desert landscapes, and the Persian Gulf. The sunset and nighttime illumination provide unforgettable photo opportunities and breathtaking experiences for cityscape enthusiasts.\n\nBurj Khalifa is notable not only for its observation deck but also for luxury residences, office spaces, and hotel facilities. The Armani Hotel, designed by world-renowned designer Giorgio Armani, offers a unique hospitality experience. Additionally, the Dubai Fountain shows surrounding the tower, choreographed to music, are a popular attraction.\n\nThe building's architecture is inspired by Islamic art and geometric patterns, combined with modern glass and steel for a unique aesthetic. Visitors can experience the engineering marvel up close by taking high-speed elevators to the observation deck.\n\nAs a symbol of Dubai, Burj Khalifa dominates the city skyline and is a key component of Dubai tourism. Visitors can enjoy both the modern architecture and the dynamic city atmosphere, whether visiting during the day or at night. Burj Khalifa is a must-see destination for every traveler coming to Dubai.\n",
+      "de": "Der Burj Khalifa, im Herzen von Dubai, Vereinigte Arabische Emirate, ist mit 828 Metern das höchste Gebäude der Welt. Eröffnet im Jahr 2010, ist dieser ikonische Wolkenkratzer eines der beeindruckendsten Beispiele moderner Ingenieurskunst und Architektur. Der Burj Khalifa zieht Besucher nicht nur durch seine Architektur, sondern auch als bedeutende Touristenattraktion an.\n\nDie Aussichtsplattform bietet einen atemberaubenden Panoramablick auf die Stadt und die Umgebung. Von der Plattform \"At The Top\" können Besucher die Dubai Marina, Palm Jumeirah, die Wüstenlandschaften und den Persischen Golf sehen. Besonders Sonnenuntergang und nächtliche Beleuchtung bieten unvergessliche Fotomöglichkeiten.\n\nDer Burj Khalifa beeindruckt nicht nur durch seine Aussichtsplattform, sondern auch durch Luxuswohnungen, Büroflächen und Hotelfacilities. Das Armani Hotel, entworfen vom weltbekannten Designer Giorgio Armani, bietet ein einzigartiges Aufenthaltserlebnis. Außerdem sind die Dubai Fountain Shows rund um den Turm, die mit Musik choreografiert sind, eine beliebte Attraktion.\n\nDie Architektur des Gebäudes ist von islamischer Kunst und geometrischen Mustern inspiriert, kombiniert mit modernem Glas und Stahl, was eine einzigartige Ästhetik schafft. Besucher können das Ingenieurswunder aus nächster Nähe erleben, indem sie mit Hochgeschwindigkeitsaufzügen zur Aussichtsplattform fahren.\n\nAls Symbol Dubais dominiert der Burj Khalifa die Skyline der Stadt und ist ein zentraler Bestandteil des Tourismus in Dubai. Besucher können sowohl die moderne Architektur als auch die dynamische Stadtatmosphäre tagsüber oder nachts genießen. Der Burj Khalifa ist ein Muss für jeden Reisenden, der Dubai besucht.\n"
+    },
+    "activities": {
+      "tr": [
+        "Burj Khalifa’ya çıkma",
+        "Dubai şehir manzarasını izleme"
+      ],
+      "en": [
+        "Go up Burj Khalifa",
+        "View the Dubai cityscape"
+      ],
+      "de": [
+        "Burj Khalifa hinaufgehen",
+        "Blick auf die Stadt Dubai genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/burj_khalifa.jpg"
+    ]
+  },
+  {
+    "slug": "the-dubai-mall",
+    "name": {
+      "tr": "The Dubai Mall",
+      "en": "The Dubai Mall",
+      "de": "The Dubai Mall"
+    },
+    "latitude": 25.1984,
+    "longitude": 55.2797,
+    "description": {
+      "tr": "The Dubai Mall, Birleşik Arap Emirlikleri'nin Dubai şehrinde yer alan ve dünyanın en büyük alışveriş merkezlerinden biri olarak bilinen devasa bir komplekstir. 2008 yılında açılan alışveriş merkezi, 1.200'den fazla mağazasıyla lüks markalar, uluslararası moda zincirleri ve teknoloji ürünleri sunmaktadır. Dubai Mall, sadece alışveriş değil aynı zamanda eğlence ve gastronomi açısından da önemli bir destinasyondur.\n\nAlışveriş merkezi, Dubai Aquarium & Underwater Zoo gibi turistik ve eğlence alanlarına ev sahipliği yapar. Dev akvaryumda binlerce deniz canlısını gözlemleyebilir, cam tünellerde yürüyerek su altı dünyasını keşfedebilirsiniz. Ayrıca, Dubai Ice Rink gibi buz pateni alanları, sinemalar ve VR oyun merkezleri ziyaretçilere unutulmaz deneyimler sunar.\n\nThe Dubai Mall, yemek kültürü açısından da geniş bir seçenek yelpazesine sahiptir. Dünya mutfaklarından restoranlar, kafeler ve fast-food zincirleri, ziyaretçilere her damak zevkine uygun lezzetler sunar. Açık hava ve kapalı alan yemek seçenekleriyle alışverişin yanı sıra rahat bir mola da verilebilir.\n\nAlışveriş merkezi, Burj Khalifa ve Dubai Fountain ile yakın konumda bulunması sayesinde, şehir turizminin de önemli bir parçasıdır. Ziyaretçiler, alışverişi tamamladıktan sonra Burj Khalifa'nın gözlem katına çıkarak panoramik manzaraları izleyebilir veya Dubai Fountain gösterilerini izleyebilirler.\n\nDubai Mall, aileler, turistler ve alışveriş tutkunları için bir çekim merkezi olarak öne çıkar. Geniş alanı, modern mimarisi ve sunduğu kapsamlı aktiviteler ile ziyaretçilere gün boyu keyifli bir deneyim yaşatır. Dünyanın dört bir yanından gelen turistler, Dubai Mall'u Dubai'nin simgelerinden biri olarak mutlaka ziyaret ederler.\n",
+      "en": "The Dubai Mall, located in Dubai, United Arab Emirates, is one of the largest shopping malls in the world. Opened in 2008, it houses over 1,200 stores offering luxury brands, international fashion chains, and electronics. The mall is not only a shopping destination but also a hub for entertainment and gastronomy.\n\nThe Dubai Mall features attractions such as the Dubai Aquarium & Underwater Zoo, where visitors can observe thousands of marine animals and walk through glass tunnels for an immersive underwater experience. It also offers Dubai Ice Rink, cinemas, and VR gaming centers for unforgettable entertainment.\n\nIn terms of dining, The Dubai Mall offers a wide variety of options, including international restaurants, cafés, and fast-food outlets, catering to every taste. Both indoor and outdoor dining areas provide visitors with a comfortable break alongside their shopping experience.\n\nSituated near Burj Khalifa and the Dubai Fountain, The Dubai Mall is a key part of the city's tourism. Visitors can enjoy panoramic views from Burj Khalifa's observation deck or watch the captivating Dubai Fountain shows after shopping.\n\nThe Dubai Mall stands out as a major attraction for families, tourists, and shopping enthusiasts alike. Its vast space, modern architecture, and extensive activities ensure a full-day enjoyable experience. Tourists from around the world consider visiting The Dubai Mall a must when exploring Dubai.\n",
+      "de": "Die Dubai Mall, gelegen in Dubai, Vereinigte Arabische Emirate, ist eines der größten Einkaufszentren der Welt. Eröffnet im Jahr 2008, beherbergt sie über 1.200 Geschäfte mit Luxusmarken, internationalen Modeketten und Elektronikprodukten. Das Einkaufszentrum ist nicht nur ein Ziel für Shopping, sondern auch ein Zentrum für Unterhaltung und Gastronomie.\n\nDie Dubai Mall bietet Attraktionen wie das Dubai Aquarium & Underwater Zoo, in dem Besucher tausende Meerestiere beobachten und durch Glastunnel gehen können, um ein immersives Unterwassererlebnis zu genießen. Außerdem gibt es die Dubai Ice Rink, Kinos und VR-Spielzentren für unvergessliche Unterhaltung.\n\nIn kulinarischer Hinsicht bietet die Dubai Mall eine breite Auswahl, darunter internationale Restaurants, Cafés und Fast-Food-Ketten, die für jeden Geschmack passende Optionen bieten. Sowohl Innen- als auch Außenbereiche ermöglichen eine komfortable Pause während des Einkaufs.\n\nIn unmittelbarer Nähe zu Burj Khalifa und Dubai Fountain gelegen, ist die Dubai Mall ein wichtiger Bestandteil des Stadt-Tourismus. Besucher können nach dem Einkaufen die Panoramaaussicht vom Burj Khalifa genießen oder die beeindruckenden Dubai Fountain Shows beobachten.\n\nDie Dubai Mall ist ein zentraler Anziehungspunkt für Familien, Touristen und Shopping-Begeisterte. Mit ihrer großen Fläche, modernen Architektur und den vielfältigen Aktivitäten bietet sie ein rundum unterhaltsames Erlebnis. Touristen aus aller Welt betrachten den Besuch der Dubai Mall als Pflichtprogramm bei einem Aufenthalt in Dubai.\n"
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapma",
+        "Akvaryumu gezme"
+      ],
+      "en": [
+        "Shopping",
+        "Visit the aquarium"
+      ],
+      "de": [
+        "Einkaufen",
+        "Das Aquarium besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/dubai_mall.jpg"
+    ]
+  },
+  {
+    "slug": "dubai-fountain",
+    "name": {
+      "tr": "Dubai Fountain",
+      "en": "Dubai Fountain",
+      "de": "Dubai Fountain"
+    },
+    "latitude": 25.1972,
+    "longitude": 55.2785,
+    "description": {
+      "tr": "Dubai Fountain, Dubai'nin en ikonik turistik noktalarından biridir ve Burj Khalifa'nın etrafında yer alır. Dünyanın en büyük dans eden su gösterilerinden biri olarak bilinen bu yapı, her gün binlerce ziyaretçiyi kendine çeker. Fıskiyeler, özel aydınlatmalar ve müzik eşliğinde senkronize olarak hareket eder, izleyicilere unutulmaz bir görsel şölen sunar.\n\nGösteriler, sabah ve akşam saatlerinde farklı temalarla gerçekleşir. Akşam gösterilerinde özellikle LED ışıklar ve renkli aydınlatmalar suyun dansını daha etkileyici hale getirir. Ziyaretçiler, Burj Khalifa'nın gölgesinde yer alan seyir alanlarından veya Dubai Mall çevresindeki yürüyüş yollarından gösteriyi izleyebilirler.\n\nDubai Fountain, yalnızca görsel bir deneyim sunmakla kalmaz, aynı zamanda müzikle suyun uyumlu dansını izleyerek ziyaretçilere duygusal bir deneyim de yaşatır. Fıskiyelerin yüksekliği 150 metreyi bulabilir ve bu, Dubai'nin modern mimarisi ile birleşerek eşsiz bir manzara yaratır. Ziyaretçiler, fotoğraf ve video çekerek bu anı ölümsüzleştirebilirler.\n\nGösteri alanına giriş ücretsizdir ve her yaştan ziyaretçi için uygundur. Özellikle akşam saatlerinde kalabalık olsa da, gösteriyi izlemek için farklı noktalardan manzara keyfi alınabilir. Dubai Fountains, Dubai'nin simgelerinden biri olarak şehrin turizm açısından önemli bir merkezidir.\n",
+      "en": "The Dubai Fountain is one of Dubai's most iconic tourist attractions, located around Burj Khalifa. Known as one of the world's largest choreographed water shows, it attracts thousands of visitors every day. The fountains move in sync with music and are enhanced with special lighting, creating an unforgettable visual spectacle.\n\nShows take place in the morning and evening with different themes. Evening performances are particularly striking with LED lights and colorful illuminations that accentuate the dance of the water. Visitors can watch the show from viewing areas in the shadow of Burj Khalifa or along the walking paths around The Dubai Mall.\n\nThe Dubai Fountain offers not only a visual experience but also an emotional one as visitors enjoy the harmonious dance of water and music. The fountains can reach heights of up to 150 meters, combining with Dubai's modern architecture to create a unique panorama. Visitors often capture the moment with photos and videos.\n\nEntrance to the show area is free and suitable for all ages. Even though evenings can be crowded, there are multiple vantage points to enjoy the show. The Dubai Fountains are a symbol of Dubai and an important hub for tourism in the city.\n",
+      "de": "Der Dubai Fountain ist eine der bekanntesten Touristenattraktionen Dubais und befindet sich rund um den Burj Khalifa. Bekannt als eine der größten choreografierten Wasser-Shows der Welt, zieht sie täglich Tausende von Besuchern an. Die Fontänen bewegen sich synchron zur Musik und werden durch spezielle Beleuchtungseffekte ergänzt, wodurch ein unvergessliches visuelles Spektakel entsteht.\n\nDie Shows finden morgens und abends mit verschiedenen Themen statt. Besonders beeindruckend sind die Abendvorstellungen mit LED-Lichtern und farbenfroher Beleuchtung, die den Tanz des Wassers noch eindrucksvoller machen. Besucher können die Show von den Aussichtspunkten im Schatten des Burj Khalifa oder entlang der Spazierwege rund um die Dubai Mall genießen.\n\nDer Dubai Fountain bietet nicht nur ein visuelles Erlebnis, sondern auch ein emotionales, da die Besucher die harmonische Tanzbewegung von Wasser und Musik genießen können. Die Fontänen können Höhen von bis zu 150 Metern erreichen, was in Kombination mit der modernen Architektur Dubais eine einzigartige Panoramaansicht schafft. Besucher halten diesen Moment oft mit Fotos und Videos fest.\n\nDer Eintritt zum Show-Bereich ist kostenlos und für alle Altersgruppen geeignet. Auch wenn es abends voll sein kann, gibt es mehrere Aussichtspunkte, von denen aus man die Show genießen kann. Die Dubai Fountains sind ein Symbol Dubais und ein wichtiger Anziehungspunkt für den Tourismus in der Stadt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Fountain gösterisini izleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Watch the fountain show",
+        "Take photos"
+      ],
+      "de": [
+        "Die Fontänen-Show ansehen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/dubai_fountain.jpg"
+    ]
+  }
+]

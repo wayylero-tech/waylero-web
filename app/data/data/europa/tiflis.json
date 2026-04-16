@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "narikala-kalesi",
+    "name": {
+      "tr": "Narikala Kalesi",
+      "en": "Narikala Fortress",
+      "de": "Narikala-Festung"
+    },
+    "latitude": 41.6868,
+    "longitude": 44.8032,
+    "description": {
+      "tr": "Tiflis’in en eski ve en önemli tarihi yapılarından biri olan Narikala Kalesi, şehri yüksekten görebileceğiniz bir konumda yer alır. İlk olarak 4. yüzyılda Sasaniler tarafından inşa edilmiştir ve zamanla Bizans ve Osmanlı etkileriyle şekillenmiştir. Kale, Tiflis’e gelen ziyaretçilere büyüleyici manzaralar sunar ve Tiflis Nehri’ni, şehrin tarihi bölgelerini görebilmenizi sağlar.",
+      "en": "One of the oldest and most significant historical structures in Tbilisi, Narikala Fortress is located at a high point offering views of the city. Initially built in the 4th century by the Sassanids, the fortress was shaped over time with Byzantine and Ottoman influences. It provides stunning views of Tbilisi and the Tbilisi River and is a must-visit for anyone traveling to the city.",
+      "de": "Die Narikala-Festung, eines der ältesten und bedeutendsten historischen Bauwerke in Tiflis, befindet sich an einem hohen Punkt, von dem aus man die Stadt überblicken kann. Sie wurde ursprünglich im 4. Jahrhundert von den Sassaniden erbaut und später von byzantinischen und osmanischen Einflüssen geprägt. Sie bietet atemberaubende Ausblicke auf Tiflis und den Fluss und ist ein Muss für alle, die die Stadt besuchen."
+    },
+    "activities": {
+      "tr": [
+        "Kale çevresinde yürüyüş yapmak",
+        "Şehir manzarasını izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Walking around the fortress",
+        "Watching the city view",
+        "Taking photos"
+      ],
+      "de": [
+        "Spaziergang um die Festung",
+        "Die Aussicht auf die Stadt genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/narikala_fortress_tbilisi.jpg"
+    ]
+  },
+  {
+    "slug": "metekhi-kilisesi",
+    "name": {
+      "tr": "Metekhi Kilisesi",
+      "en": "Metekhi Church",
+      "de": "Metekhi Kirche"
+    },
+    "latitude": 41.6861,
+    "longitude": 44.7995,
+    "description": {
+      "tr": "Metekhi Kilisesi, Tiflis’in merkezi noktasında yer alan ve şehre hakim olan tarihi bir yapıdır. 13. yüzyılda inşa edilen bu kilise, şehrin en eski dini yapılarından biridir. Özellikle, kilisenin balkonundan şehri ve Narikala Kalesi’ni izlemek mümkündür. Aynı zamanda, Metekhi Kilisesi’nin etrafındaki alanda önemli tarihi figürlerin heykelleri de bulunmaktadır.",
+      "en": "The Metekhi Church is a historic building located at a central point in Tbilisi, offering a commanding view of the city. Built in the 13th century, this church is one of the oldest religious buildings in the city. From the balcony of the church, visitors can enjoy breathtaking views of the city and Narikala Fortress. The area surrounding the church is also home to statues of important historical figures.",
+      "de": "Die Metekhi-Kirche ist ein historisches Gebäude, das an einem zentralen Punkt in Tiflis liegt und einen herrlichen Blick auf die Stadt bietet. Sie wurde im 13. Jahrhundert erbaut und ist eines der ältesten religiösen Gebäude der Stadt. Vom Balkon der Kirche aus können Besucher einen atemberaubenden Blick auf die Stadt und die Narikala-Festung genießen. In der Umgebung der Kirche befinden sich auch Statuen wichtiger historischer Persönlichkeiten."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin etrafında gezmek",
+        "Tarihi heykelleri görmek",
+        "Manzara izlemek"
+      ],
+      "en": [
+        "Walking around the church",
+        "Seeing historical statues",
+        "Enjoying the view"
+      ],
+      "de": [
+        "Um die Kirche spazieren",
+        "Historische Statuen sehen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/metekhi_church_tbilisi.jpg"
+    ]
+  },
+  {
+    "slug": "rustaveli-caddesi",
+    "name": {
+      "tr": "Rustaveli Caddesi",
+      "en": "Rustaveli Avenue",
+      "de": "Rustaveli Straße"
+    },
+    "latitude": 41.6933,
+    "longitude": 44.8019,
+    "description": {
+      "tr": "Rustaveli Caddesi, Tiflis’in en önemli ve hareketli caddelerinden biridir. Şehir merkezinin kalbinde yer alan bu cadde, alışveriş yapabileceğiniz, restoranlarda vakit geçirebileceğiniz ve tarihi binaları keşfedebileceğiniz bir yerdir. Ayrıca, Gürcistan’ın en prestijli tiyatro salonlarından biri olan Tiflis Opera Binası da burada bulunmaktadır.",
+      "en": "Rustaveli Avenue is one of the most important and vibrant streets in Tbilisi. Located at the heart of the city center, this avenue is the perfect place to shop, dine, and explore historical buildings. The Tbilisi Opera House, one of Georgia’s most prestigious theaters, is also located here.",
+      "de": "Die Rustaveli-Straße ist eine der wichtigsten und lebendigsten Straßen in Tiflis. Sie liegt im Herzen des Stadtzentrums und ist der perfekte Ort zum Einkaufen, Essen und Entdecken historischer Gebäude. Das Tiflis Opernhaus, eines der renommiertesten Theater Georgiens, befindet sich ebenfalls hier."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Restoranlarda vakit geçirmek",
+        "Tarihi binaları keşfetmek"
+      ],
+      "en": [
+        "Shopping",
+        "Spending time in restaurants",
+        "Exploring historical buildings"
+      ],
+      "de": [
+        "Einkaufen",
+        "Zeit in Restaurants verbringen",
+        "Historische Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/rustaveli_avenue_tbilisi.jpg"
+    ]
+  },
+  {
+    "slug": "abanotubani",
+    "name": {
+      "tr": "Abanotubani",
+      "en": "Abanotubani",
+      "de": "Abanotubani"
+    },
+    "latitude": 41.6926,
+    "longitude": 44.7833,
+    "description": {
+      "tr": "Abanotubani, Tiflis’in ünlü sıcak su hamamlarının bulunduğu bölgedir. Yüzyıllar boyunca, bu bölge hem şehri ziyaret edenler hem de yerel halk için rahatlama ve tedavi amaçlı kullanılmıştır. Abanotubani, doğal sıcak su kaynaklarıyla ünlüdür ve burada bir dizi hamam, çay evi ve geleneksel Gürcü banyoları bulunmaktadır.",
+      "en": "Abanotubani is the district of Tbilisi famous for its hot spring baths. For centuries, this area has been used by both locals and visitors to relax and receive therapeutic treatments. Known for its natural hot springs, Abanotubani is home to several baths, tea houses, and traditional Georgian bathhouses.",
+      "de": "Abanotubani ist das Viertel von Tiflis, das für seine heißen Quellen bekannt ist. Seit Jahrhunderten wird dieses Gebiet sowohl von Einheimischen als auch von Besuchern zur Entspannung und für therapeutische Behandlungen genutzt. Abanotubani ist berühmt für seine natürlichen heißen Quellen und beherbergt mehrere Bäder, Teehäuser und traditionelle georgische Badehäuser."
+    },
+    "activities": {
+      "tr": [
+        "Hamamda rahatlamak",
+        "Geleneksel Gürcü banyolarını deneyimlemek"
+      ],
+      "en": [
+        "Relaxing in the bath",
+        "Experiencing traditional Georgian baths"
+      ],
+      "de": [
+        "Im Bad entspannen",
+        "Traditionelle georgische Bäder erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/abanotubani_tbilisi.jpg"
+    ]
+  },
+  {
+    "slug": "sioni-katedrali",
+    "name": {
+      "tr": "Sioni Katedrali",
+      "en": "Sioni Cathedral",
+      "de": "Sioni Kathedrale"
+    },
+    "latitude": 41.6921,
+    "longitude": 44.7929,
+    "description": {
+      "tr": "Sioni Katedrali, Tiflis’in en eski dini yapılarından biridir ve Gürcistan Ortodoks Kilisesi’nin merkezi olarak önemli bir yer tutar. 6. yüzyılda inşa edilmiştir ve zamanla birçok kez restore edilmiştir. Katedralin içinde ve dışında birçok dini sembol ve fresk bulunmaktadır. Ziyaretçiler, bu tarihi yapıyı gezerek Gürcistan’ın dini mirasını yakından keşfetme fırsatı bulabilirler.",
+      "en": "Sioni Cathedral is one of the oldest religious structures in Tbilisi and serves as the central church of the Georgian Orthodox Church. Built in the 6th century, it has been restored several times throughout history. The cathedral is adorned with numerous religious symbols and frescoes both inside and out. Visitors can explore this historical site to closely experience Georgia’s religious heritage.",
+      "de": "Die Sioni-Kathedrale ist eines der ältesten religiösen Gebäude in Tiflis und dient als zentrale Kirche der Georgischen Orthodoxen Kirche. Sie wurde im 6. Jahrhundert erbaut und im Laufe der Geschichte mehrmals restauriert. Die Kathedrale ist sowohl innen als auch außen mit zahlreichen religiösen Symbolen und Fresken verziert. Besucher können diese historische Stätte erkunden, um Georgiens religiöses Erbe aus erster Hand zu erleben."
+    },
+    "activities": {
+      "tr": [
+        "Katedralin içinde gezmek",
+        "Dini freskleri görmek"
+      ],
+      "en": [
+        "Exploring the cathedral",
+        "Seeing the religious frescoes"
+      ],
+      "de": [
+        "Die Kathedrale erkunden",
+        "Die religiösen Fresken sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/sioni_cathedral_tbilisi.jpg"
+    ]
+  },
+  {
+    "slug": "tiflis-opera-binasi",
+    "name": {
+      "tr": "Tiflis Opera Binası",
+      "en": "Tbilisi Opera House",
+      "de": "Tiflis Opernhaus"
+    },
+    "latitude": 41.6865,
+    "longitude": 44.8067,
+    "description": {
+      "tr": "Tiflis Opera Binası, şehrin kültürel hayatının simgelerinden biridir. 1851 yılında açılmış olan bu bina, klasik müzik konserleri, bale ve opera gösterileri gibi pek çok sanatsal etkinliğe ev sahipliği yapmaktadır. Mimari açıdan etkileyici olan yapı, hem yerli halkın hem de turistlerin ilgisini çeker.",
+      "en": "The Tbilisi Opera House is one of the symbols of the city’s cultural life. Opened in 1851, this building hosts a variety of artistic events including classical music concerts, ballet, and opera performances. Architecturally impressive, it attracts both locals and tourists alike.",
+      "de": "Das Tiflis Opernhaus ist eines der Wahrzeichen des kulturellen Lebens der Stadt. Es wurde 1851 eröffnet und beherbergt eine Vielzahl künstlerischer Veranstaltungen, darunter klassische Musik-Konzerte, Ballett und Opernaufführungen. Architektonisch beeindruckend zieht es sowohl Einheimische als auch Touristen an."
+    },
+    "activities": {
+      "tr": [
+        "Opera veya bale izlemek",
+        "Mimariyi incelemek"
+      ],
+      "en": [
+        "Watching opera or ballet",
+        "Exploring the architecture"
+      ],
+      "de": [
+        "Oper oder Ballett sehen",
+        "Die Architektur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/tbilisi_opera_house.jpg"
+    ]
+  }
+]

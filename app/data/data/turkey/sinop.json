@@ -1,0 +1,449 @@
+[
+  {
+    "slug": "inatli-magarasi",
+    "name": {
+      "tr": "İnatlı Mağarası",
+      "en": "Inatlı Cave",
+      "de": "Inatlı Höhle"
+    },
+    "latitude": 41.73166,
+    "longitude": 34.56856,
+    "description": {
+      "tr": "İnatlı Mağarası, Sinop il sınırlarında yer alan ve yer altı zenginlikleriyle ünlü doğal bir oluşumdur.\nMağara, ilginç jeolojik yapıları ve sarkıtları ile dikkat çeker. Ayrıca çevresindeki doğal ortamı ile de\nziyaretçilerine benzersiz bir deneyim sunmaktadır.\n",
+      "en": "Inatlı Cave, located within the borders of Sinop, is a natural formation famous for its underground riches.\nThe cave attracts attention with its interesting geological structures and stalactites. In addition, the surrounding natural environment provides visitors with a unique experience.\n",
+      "de": "Die Inatlı Höhle, die sich in den Grenzen von Sinop befindet, ist eine natürliche Formation, die für ihre unterirdischen Reichtümer bekannt ist.\nDie Höhle fällt durch ihre interessanten geologischen Strukturen und Stalaktiten auf. Darüber hinaus bietet die umliegende natürliche Umgebung den Besuchern ein einzigartiges Erlebnis.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağara içinde keşif yapmak",
+        "Doğa yürüyüşleri yapmak",
+        "Fotografçılık ve doğa fotoğrafları çekmek"
+      ],
+      "en": [
+        "Explore the cave",
+        "Go on nature walks",
+        "Take photographs and nature photos"
+      ],
+      "de": [
+        "Die Höhle erkunden",
+        "Wandern gehen",
+        "Fotografieren und Naturfotografie machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/inatli_magarasi.jpg",
+      "https://example.com/inatli_magarasi_2.jpg"
+    ]
+  },
+  {
+    "slug": "sarikum-plaji",
+    "name": {
+      "tr": "Sarıkum Plajı",
+      "en": "Sarıkum Beach",
+      "de": "Sarıkum Strand"
+    },
+    "latitude": 42.02143,
+    "longitude": 34.90248,
+    "description": {
+      "tr": "Sarıkum Plajı, Sinop il sınırlarında yer alan ve Karadeniz'in en güzel plajlarından biri olarak bilinir.\nBerrak denizi, ince kumu ve doğal güzellikleri ile ünlüdür. Aynı zamanda Sarıkum, çevresindeki eşsiz\ndoğal yaşam alanı ile kuş gözlemcileri için de önemli bir yerdir.\n",
+      "en": "Sarıkum Beach, located within the borders of Sinop, is known as one of the most beautiful beaches of the Black Sea.\nIt is famous for its clear sea, fine sand, and natural beauty. Additionally, Sarıkum is an important place for bird watchers, thanks to its unique natural habitat.\n",
+      "de": "Der Sarıkum Strand, der sich in den Grenzen von Sinop befindet, ist als einer der schönsten Strände des Schwarzen Meeres bekannt.\nEr ist berühmt für sein klares Meer, feinen Sand und natürliche Schönheit. Außerdem ist Sarıkum aufgrund seines einzigartigen natürlichen Lebensraums auch ein wichtiger Ort für Vogelbeobachter.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek ve güneşlenmek",
+        "Plajda yürüyüş yapmak",
+        "Kuş gözlemi yapmak",
+        "Doğa fotoğrafları çekmek"
+      ],
+      "en": [
+        "Swim and sunbathe",
+        "Take a walk on the beach",
+        "Birdwatching",
+        "Take nature photos"
+      ],
+      "de": [
+        "Schwimmen und Sonnenbaden",
+        "Am Strand spazieren gehen",
+        "Vögel beobachten",
+        "Naturfotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/sarikum_plaji_sinop.jpg",
+      "https://example.com/sarikum_plaji_sinop_2.jpg"
+    ]
+  },
+  {
+    "slug": "akgol",
+    "name": {
+      "tr": "Akgöl",
+      "en": "Akgöl Lake",
+      "de": "Akgöl See"
+    },
+    "latitude": 41.70005,
+    "longitude": 34.5961,
+    "description": {
+      "tr": "Akgöl, Sinop'un Ayancık ilçesinde yer alan doğal bir göldür. Etrafındaki ormanlarla çevrili, sakin ve huzurlu bir atmosfere sahiptir.\nDoğa yürüyüşleri, balıkçılık ve kuş gözlemi gibi aktiviteler için ideal bir mekândır.\nGöl çevresi, doğa severler ve fotoğrafçılar için harika bir keşif alanı sunar.\n",
+      "en": "Akgöl is a natural lake located in Ayancık district of Sinop. It has a peaceful and tranquil atmosphere, surrounded by forests.\nIt is an ideal place for activities such as nature walks, fishing, and bird watching. The area around the lake offers a great exploration space for nature lovers and photographers.\n",
+      "de": "Akgöl ist ein natürlicher See, der im Bezirk Ayancık in Sinop liegt. Er hat eine friedliche und ruhige Atmosphäre, umgeben von Wäldern.\nEs ist ein idealer Ort für Aktivitäten wie Wandern, Angeln und Vogelbeobachtung. Das Gebiet rund um den See bietet einen großartigen Entdeckungsraum für Naturliebhaber und Fotografen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Balık tutmak",
+        "Fotoğraf çekmek",
+        "Kuş gözlemi yapmak"
+      ],
+      "en": [
+        "Go on nature walks",
+        "Fish",
+        "Take photographs",
+        "Birdwatching"
+      ],
+      "de": [
+        "Wandern gehen",
+        "Angeln",
+        "Fotografieren",
+        "Vögel beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/akgol.jpg"
+    ]
+  },
+  {
+    "slug": "sinop-kalesi",
+    "name": {
+      "tr": "Sinop Kalesi",
+      "en": "Sinop Castle",
+      "de": "Sinop Schloss"
+    },
+    "latitude": 42.02403,
+    "longitude": 35.15083,
+    "description": {
+      "tr": "Sinop Kalesi, Sinop'un en bilinen simgelerindendir. Kale, şehri yüksekten görebileceğiniz bir tepeye inşa edilmiştir. Kale duvarları ve yapıları, bölgenin tarihine ışık tutar.\n",
+      "en": "Sinop Castle is one of the most famous landmarks of Sinop. The castle is built on a hill, offering a panoramic view of the city. The walls and structures of the castle shed light on the history of the region.\n",
+      "de": "Das Sinop Schloss ist eines der bekanntesten Wahrzeichen von Sinop. Das Schloss wurde auf einem Hügel gebaut und bietet einen Panoramablick auf die Stadt. Die Mauern und Strukturen des Schlosses werfen ein Licht auf die Geschichte der Region.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında yürüyüş yapmak",
+        "Manzarayı izlemek"
+      ],
+      "en": [
+        "Walk around the castle",
+        "Watch the view"
+      ],
+      "de": [
+        "Um das Schloss spazieren gehen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/sinop_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "sinop-ayancik-sahili",
+    "name": {
+      "tr": "Sinop Ayancık Sahili",
+      "en": "Sinop Ayancık Beach",
+      "de": "Sinop Ayancık Strand"
+    },
+    "latitude": 41.95165,
+    "longitude": 34.58504,
+    "description": {
+      "tr": "Ayancık Sahili, Sinop’un Ayancık ilçesinde, Karadeniz’in temiz ve sakin kıyılarından biridir. Doğal güzellikleri, geniş plajları ve berrak denizi ile yaz aylarında hem yerli hem de yabancı turistlerin ilgisini çeker.\n\nSahil boyunca yürüyüş yapmak, denize girmek veya güneşlenmek mümkündür. Özellikle yaz aylarında sahil canlı bir atmosfere kavuşur, çeşitli kafeler ve restoranlar ziyaretçilere hizmet verir.\n\nAyancık Sahili, aynı zamanda balık tutmak ve deniz sporları yapmak isteyenler için de uygundur. Bölge, doğal manzaraları ve Karadeniz’in serin sularıyla dinlenmek için ideal bir noktadır.\n\nUlaşım, Ayancık ilçe merkezinden kolayca sağlanabilir. Yakın mesafedeki köylerden ve şehir merkezlerinden sahile rahatlıkla ulaşılabilir.\n\nEn uygun ziyaret zamanı yaz aylarıdır. Bu dönemde deniz turizmi için ideal koşullar oluşur. İlkbahar ve sonbahar aylarında ise daha sakin ve huzurlu bir ziyaret mümkündür.\n\nSonuç olarak Ayancık Sahili, temiz denizi, doğal güzellikleri ve sahil aktiviteleri ile Sinop’un öne çıkan turistik destinasyonlarından biridir.",
+      "en": "Ayancik Beach, located in the Ayancik district of Sinop, is one of the clean and peaceful shores of the Black Sea. With its natural beauty, wide beaches, and clear waters, it attracts both local and international tourists during the summer.\n\nVisitors can walk along the beach, swim, or sunbathe. In the summer, the beach becomes lively with various cafes and restaurants serving guests.\n\nAyancik Beach is also suitable for fishing and water sports. The area is ideal for relaxation with its natural scenery and the cool waters of the Black Sea.\n\nAccess is easy from the Ayancik town center, and nearby villages and the city center provide convenient routes to the beach.\n\nThe best time to visit is during summer for ideal sea tourism conditions. Spring and autumn offer a quieter and more peaceful experience.\n\nOverall, Ayancik Beach is one of Sinop’s prominent tourist destinations, offering clean waters, natural beauty, and beach activities.",
+      "de": "Der Ayancık Strand befindet sich im Bezirk Ayancık von Sinop und ist eine der sauberen und ruhigen Küsten des Schwarzen Meeres. Mit seiner natürlichen Schönheit, den breiten Stränden und dem klaren Wasser zieht er im Sommer sowohl einheimische als auch internationale Touristen an.\n\nBesucher können am Strand spazieren, schwimmen oder sich sonnen. Im Sommer wird der Strand durch verschiedene Cafés und Restaurants belebt.\n\nDer Ayancık Strand eignet sich auch zum Angeln und für Wassersport. Die Gegend ist ideal zur Entspannung dank der natürlichen Landschaft und des kühlen Wassers des Schwarzen Meeres.\n\nDer Zugang ist vom Stadtzentrum Ayancık leicht möglich, und auch nahegelegene Dörfer bieten bequeme Wege zum Strand.\n\nDie beste Besuchszeit ist der Sommer für optimale Bedingungen für den Seetourismus. Frühling und Herbst bieten eine ruhigere und friedlichere Erfahrung.\n\nInsgesamt ist der Ayancık Strand eines der herausragenden Touristenziele von Sinop mit sauberem Wasser, natürlicher Schönheit und Strandaktivitäten."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Deniz aktivitelerine katılmak"
+      ],
+      "en": [
+        "Relax on the beach",
+        "Participate in sea activities"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "An Meeraktivitäten teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/ayancik_sahili.jpg"
+    ]
+  },
+  {
+    "slug": "sinop-cezaevi",
+    "name": {
+      "tr": "Sinop Cezaevi",
+      "en": "Sinop Prison",
+      "de": "Sinop Gefängnis"
+    },
+    "latitude": 42.02979,
+    "longitude": 35.14403,
+    "description": {
+      "tr": "Sinop Cezaevi, Türkiye’nin en eski ve en ünlü tarihi cezaevlerinden biridir. 1887 yılında inşa edilen yapı, Osmanlı döneminde ve Cumhuriyetin ilk yıllarında faaliyette bulunmuş, ağır suçluların tutulduğu bir hapishane olarak ün kazanmıştır. 1997 yılında kapatılan cezaevi, günümüzde müze olarak ziyaretçilere açıktır.\n\nCezaevi, hapishane mimarisinin klasik örneklerinden biridir. Yüksek duvarlar, küçük hücreler ve merkezi avlu, ziyaretçilere geçmişteki ağır yaşam koşullarını hissettirir. Tarihi cezaevinde işlenen suçlar, mahkûmların yaşamı ve hapishane düzeni hakkında bilgilendirici sergiler bulunmaktadır.\n\nSinop Cezaevi, sadece tarih meraklıları için değil, aynı zamanda kültürel bir gezi yapmak isteyen ziyaretçiler için de cazip bir noktadır. Fotoğrafçılar için ise cezaevinin tarihi dokusu ve avluları etkileyici kareler sunar.\n\nMüze olarak ziyarete açılmasıyla birlikte rehberli turlar düzenlenmekte ve cezaevinin tarihi hakkında detaylı bilgiler verilmektedir.\n\nCezaevi, Sinop şehir merkezine oldukça yakın konumda olup, yürüyerek veya kısa bir araç yolculuğuyla ulaşılabilir.\n\nEn uygun ziyaret zamanı ilkbahar ve yaz aylarıdır. Bu dönemlerde hava daha ılımandır ve geziler daha keyifli hale gelir.\n\nSonuç olarak Sinop Cezaevi, hem tarih hem de kültürel keşif açısından Sinop’un en önemli ziyaret noktalarından biridir.",
+      "en": "Sinop Prison is one of Turkey’s oldest and most famous historical prisons. Built in 1887, it operated during the Ottoman era and the early years of the Republic, gaining a reputation as a high-security prison for serious offenders. Closed in 1997, the prison is now open to visitors as a museum.\n\nThe prison is a classic example of prison architecture, featuring high walls, small cells, and a central courtyard, giving visitors a sense of the harsh living conditions of the past. Exhibits provide informative details about the crimes committed, the lives of inmates, and the organization of the prison.\n\nSinop Prison is attractive not only to history enthusiasts but also to visitors seeking a cultural experience. For photographers, the historical architecture and courtyards provide striking visuals.\n\nGuided tours offer detailed insights into the history and operation of the prison.\n\nThe prison is conveniently located close to the city center of Sinop, accessible on foot or by a short drive.\n\nThe best time to visit is during spring and summer, when the weather is mild and visits are more enjoyable.\n\nOverall, Sinop Prison is one of the most significant visitor attractions in Sinop for both historical and cultural exploration.",
+      "de": "Das Gefängnis Sinop ist eines der ältesten und bekanntesten historischen Gefängnisse der Türkei. Es wurde 1887 erbaut und war sowohl in der osmanischen Zeit als auch in den frühen Jahren der Republik in Betrieb, bekannt als Hochsicherheitsgefängnis für Schwerverbrecher. 1997 wurde es geschlossen und ist heute als Museum für Besucher zugänglich.\n\nDas Gefängnis ist ein klassisches Beispiel für Gefängnisarchitektur mit hohen Mauern, kleinen Zellen und einem zentralen Innenhof, der den Besuchern die harten Lebensbedingungen früherer Zeiten vermittelt. Ausstellungen informieren über begangene Verbrechen, das Leben der Gefangenen und die Organisation des Gefängnisses.\n\nDas Gefängnis Sinop ist nicht nur für Geschichtsinteressierte interessant, sondern auch für Besucher, die kulturelle Erkundungen unternehmen möchten. Für Fotografen bieten die historischen Gebäude und Innenhöfe beeindruckende Motive.\n\nGeführte Touren geben detaillierte Einblicke in die Geschichte und den Betrieb des Gefängnisses.\n\nDas Gefängnis liegt in der Nähe des Stadtzentrums von Sinop und ist zu Fuß oder mit einer kurzen Fahrt erreichbar.\n\nDie beste Besuchszeit ist Frühling und Sommer, wenn das Wetter angenehm ist.\n\nInsgesamt ist das Gefängnis Sinop eine der bedeutendsten Sehenswürdigkeiten in Sinop für historische und kulturelle Entdeckungen."
+    },
+    "activities": {
+      "tr": [
+        "Cezaevini gezmek",
+        "Tarihi detayları incelemek"
+      ],
+      "en": [
+        "Tour the prison",
+        "Explore the historical details"
+      ],
+      "de": [
+        "Das Gefängnis besichtigen",
+        "Die historischen Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/sinop_cezaevi.jpg"
+    ]
+  },
+  {
+    "slug": "erfelek-selaleleri",
+    "name": {
+      "tr": "Erfelek Şelaleleri",
+      "en": "Erfelek Waterfalls",
+      "de": "Erfelek Wasserfälle"
+    },
+    "latitude": 41.84058,
+    "longitude": 34.77976,
+    "description": {
+      "tr": "Erfelek Tatlıca Şelaleleri (Sinop)\n\nErfelek Tatlıca Şelaleleri, Sinop’un Erfelek ilçesine bağlı Tatlıca Köyü yakınlarında yer alan ve Karadeniz Bölgesi’nin en etkileyici doğal güzelliklerinden biri olarak kabul edilen bir şelale sistemidir. Tatlıca Deresi üzerinde bulunan bu doğa harikası, irili ufaklı toplam 28 basamaklı şelaleden oluşur ve bu özelliğiyle Türkiye’nin en özel şelale rotalarından biridir.\n\nŞelaleler, ormanlık alan içerisinde birbirini takip eden doğal kaya terasları üzerinden akarak görsel açıdan büyüleyici bir manzara oluşturur. Özellikle ilkbahar ve yaz başında su debisinin artmasıyla birlikte şelalelerin coşkusu daha da etkileyici hale gelir. Bölge, serin havası ve temiz doğasıyla ziyaretçilere huzurlu bir atmosfer sunar.\n\nAhşap yürüyüş platformları ve merdivenler sayesinde şelalelerin büyük bir kısmı güvenli şekilde gezilebilir. Doğa yürüyüşü, fotoğrafçılık ve keşif sevenler için oldukça ideal bir parkurdur.\n\n📍 Neden Önemli?\n• 28 basamaklı doğal şelale sistemine sahiptir\n• Karadeniz’in en etkileyici yürüyüş rotalarından biridir\n• Zengin flora ve fauna çeşitliliği barındırır\n• Fotoğraf ve doğa tutkunları için benzersiz manzaralar sunar\n\n🗓 Ne Zaman Gidilir?\n• Nisan – Haziran: Su debisinin en güçlü olduğu dönem\n• Yaz ayları: Serin doğa yürüyüşleri için ideal\n• Sonbahar: Orman renkleriyle farklı bir atmosfer sunar\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Rahat yürüyüş ayakkabısı tercih edin\n• Parkurun tamamını gezmek için yeterli zaman ayırın\n• Doğayı korumaya özen gösterin\n\nErfelek Tatlıca Şelaleleri, çok basamaklı yapısı, yemyeşil orman dokusu ve doğal yürüyüş parkurlarıyla Karadeniz’de mutlaka görülmesi gereken doğa rotalarından biridir.",
+      "en": "Erfelek Waterfalls is a unique place for nature lovers. You can walk around the waterfall and observe the flora and fauna of the area.\n",
+      "de": "Die Erfelek Wasserfälle sind ein einzigartiger Ort für Naturliebhaber. Sie können um die Wasserfälle spazieren und die Flora und Fauna der Region beobachten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Şelale etrafında yürüyüş yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Walk around the waterfall",
+        "Take photographs"
+      ],
+      "de": [
+        "Um die Wasserfälle spazieren gehen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/erfelek_selaleleri.jpg"
+    ]
+  },
+  {
+    "slug": "boyabat-kalesi",
+    "name": {
+      "tr": "Boyabat Kalesi",
+      "en": "Boyabat Castle",
+      "de": "Boyabat Schloss"
+    },
+    "latitude": 41.46648,
+    "longitude": 34.76155,
+    "description": {
+      "tr": "Boyabat Kalesi, Sinop il sınırlarında yer alan tarihi bir kaledir. Boyabat’ın güzel manzarasını ve tarihi dokusunu keşfetmek mümkündür.\n",
+      "en": "Boyabat Castle is a historical castle located within the borders of Sinop. It is possible to explore the beautiful views and historical texture of Boyabat.\n",
+      "de": "Das Boyabat Schloss ist eine historische Burg in den Grenzen von Sinop. Es ist möglich, die schönen Ausblicke und die historische Textur von Boyabat zu erkunden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında gezinti yapmak",
+        "Manzarayı izlemek"
+      ],
+      "en": [
+        "Take a walk around the castle",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Um das Schloss spazieren gehen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/boyabat_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "hamsilos-koyu",
+    "name": {
+      "tr": "Hamsilos Koyu",
+      "en": "Hamsilos Bay",
+      "de": "Hamsilos Bucht"
+    },
+    "latitude": 42.06055,
+    "longitude": 35.04532,
+    "description": {
+      "tr": "Hamsilos Koyu, doğa harikası bir bölgedir. Yalnızca Sinop’un değil, Karadeniz’in en güzel koylarından biridir.\n",
+      "en": "Hamsilos Bay is a natural wonder. It is one of the most beautiful bays not only in Sinop but also in the Black Sea.\n",
+      "de": "Die Hamsilos Bucht ist ein Naturwunder. Es ist eine der schönsten Buchten nicht nur in Sinop, sondern auch im Schwarzen Meer.\n"
+    },
+    "activities": {
+      "tr": [
+        "Koyda denize girmek",
+        "Doğal güzellikleri keşfetmek"
+      ],
+      "en": [
+        "Swim in the bay",
+        "Explore the natural beauty"
+      ],
+      "de": [
+        "In der Bucht schwimmen",
+        "Die natürliche Schönheit erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/hamsilos_koyu.jpg"
+    ]
+  },
+  {
+    "slug": "akliman-plaji",
+    "name": {
+      "tr": "Akliman Plajı",
+      "en": "Akliman Beach",
+      "de": "Akliman Strand"
+    },
+    "latitude": 42.05101,
+    "longitude": 35.04338,
+    "description": {
+      "tr": "Akliman Plajı, Sinop’taki en güzel plajlardan biridir. Temiz denizi ve sakin atmosferi ile özellikle yaz aylarında yoğun ilgi görmektedir.\n",
+      "en": "Akliman Beach is one of the most beautiful beaches in Sinop. With its clean sea and peaceful atmosphere, it is especially popular during the summer months.\n",
+      "de": "Der Akliman Strand ist einer der schönsten Strände in Sinop. Mit seinem sauberen Meer und der ruhigen Atmosphäre ist er besonders in den Sommermonaten sehr beliebt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Plajda vakit geçirmek",
+        "Deniz keyfi yapmak"
+      ],
+      "en": [
+        "Spend time on the beach",
+        "Enjoy the sea"
+      ],
+      "de": [
+        "Zeit am Strand verbringen",
+        "Das Meer genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/akliman_plaji.jpg"
+    ]
+  }
+]

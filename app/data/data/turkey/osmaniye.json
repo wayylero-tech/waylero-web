@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "kastabala-antik-kenti",
+    "name": {
+      "tr": "Kastabala Antik Kenti",
+      "en": "Kastabala Ancient City",
+      "de": "Kastabala Antike Stadt"
+    },
+    "latitude": 37.029,
+    "longitude": 36.3985,
+    "description": {
+      "tr": "Kastabala Antik Kenti, Osmaniye il merkezinin yaklaşık 12 kilometre kuzeyinde, Cevdetiye beldesi yakınlarında yer alan tarihi bir yerleşimdir. İlk kez 1875 yılında İngiliz diplomat E.J. Davis tarafından ziyaret edilen bu antik kent, Roma İmparatorluğu döneminde önemli bir yerleşim merkezi olmuştur.\n\nKastabala, Pers İmparatorluğu dönemine kadar uzanan bir geçmişe sahiptir. Seleukoslar döneminde \"Hierapolis\" olarak adlandırılmıştır. Roma İmparatorluğu döneminde ise kent, imparator Septimius Severus'un desteğiyle yeniden inşa edilmiştir.\n\n- **Antik Kent Kalıntıları:** Kastabala'da, Roma dönemine ait tiyatro, hamam ve diğer yapıları gezebilir, antik şehir hakkında fikir sahibi olabilirsiniz.\n- **Roma Tiyatrosu:** Roma dönemine ait olan tiyatro kalıntılarını ziyaret edebilir, dönemin mimarisini inceleyebilirsiniz.\n- **Hamam Kalıntıları:** Antik kentin hamam kalıntılarını gezerek, Roma dönemi su yapıları hakkında bilgi edinebilirsiniz.\n\nKastabala Antik Kenti, Osmaniye şehir merkezinden yaklaşık 12 kilometre uzaklıkta, Cevdetiye beldesine yakın bir konumda bulunmaktadır. Özel araçla kolayca ulaşılabilir.\n",
+      "en": "Kastabala Ancient City is a historic settlement located approximately 12 kilometers north of Osmaniye city center, near the Cevdetiye village. This ancient city, first visited by British diplomat E.J. Davis in 1875, became an important settlement during the Roman Empire period.\n\nKastabala has a history dating back to the Persian Empire. During the Seleucid period, it was called \"Hierapolis.\" In the Roman Empire period, the city was rebuilt with the support of Emperor Septimius Severus.\n\n- **Ancient City Ruins:** You can explore the ruins of the Roman period, including the theater, bathhouses, and other structures, and learn about the history of the ancient city.\n- **Roman Theater:** Visit the ruins of the Roman theater and examine the architectural features of the era.\n- **Bathhouse Ruins:** Explore the remains of the bathhouse and gain insight into the Roman water systems.\n\nKastabala Ancient City is located about 12 kilometers from Osmaniye city center, near the Cevdetiye village. It is easily accessible by private car.\n\n",
+      "de": "Die Kastabala Antike Stadt befindet sich etwa 12 Kilometer nordwestlich des Stadtzentrums von Osmaniye, nahe dem Dorf Cevdetiye. Diese antike Stadt, die erstmals 1875 vom britischen Diplomaten E.J. Davis besucht wurde, war während der römischen Kaiserzeit ein bedeutendes Siedlungszentrum.\nchichte und Bedeutung**\n\nKastabala hat eine Geschichte, die bis ins Persische Reich zurückreicht. Während der Seleukidenzeit wurde es \"Hierapolis\" genannt. In der römischen Kaiserzeit wurde die Stadt mit Unterstützung von Kaiser Septimius Severus wieder aufgebaut.\n\n- **Antike Stadt Ruinen:** Besuchen Sie die Ruinen der römischen Zeit, darunter Theater, Bäder und andere Gebäude, und erfahren Sie mehr über die Geschichte der antiken Stadt.\n- **Römisches Theater:** Besichtigen Sie die Ruinen des römischen Theaters und entdecken Sie die architektonischen Merkmale der Epoche.\n- **Bäder Ruinen:** Erkunden Sie die Überreste der römischen Bäder und erfahren Sie mehr über die Wassersysteme der Römer.\n\nDie Kastabala Antike Stadt liegt etwa 12 Kilometer vom Stadtzentrum von Osmaniye entfernt, nahe dem Dorf Cevdetiye. Sie ist leicht mit dem Auto zu erreichen.\n\n"
+    },
+    "activities": {
+      "tr": [
+        "Antik kenti gezmek",
+        "Roma tiyatrosunu görmek",
+        "Hamam kalıntılarını gezmek"
+      ],
+      "en": [
+        "Exploring the ancient city",
+        "Visiting the Roman theater",
+        "Exploring the bathhouse ruins"
+      ],
+      "de": [
+        "Die antike Stadt erkunden",
+        "Das römische Theater besichtigen",
+        "Die Bäderruinen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/kastabala_antik_kenti.jpg",
+      "https://example.com/kastabala_tiyatrosu.jpg"
+    ]
+  },
+  {
+    "slug": "karatepe-aslantas-acik-hava-muzesi",
+    "name": {
+      "tr": "Karatepe Aslantaş Açık Hava Müzesi",
+      "en": "Karatepe Aslantaş Open-Air Museum",
+      "de": "Karatepe Aslantaş Freilichtmuseum"
+    },
+    "latitude": 37.29635,
+    "longitude": 36.25229,
+    "description": {
+      "tr": "Karatepe Aslantaş Açık Hava Müzesi, Hititler dönemine ait kaya yazıtları ve heykellerin sergilendiği önemli bir arkeolojik alandır.\n",
+      "en": "Karatepe Aslantaş Open-Air Museum is an important archaeological site showcasing Hittite-era rock inscriptions and sculptures.\n",
+      "de": "Das Karatepe Aslantaş Freilichtmuseum ist eine wichtige archäologische Stätte, die Felseninschriften und Skulpturen aus der Hethiterzeit zeigt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Açık hava müzesi gezisi",
+        "Tarihi eserleri keşfetme"
+      ],
+      "en": [
+        "Open-air museum tour",
+        "Exploring historical artifacts"
+      ],
+      "de": [
+        "Besuch des Freilichtmuseums",
+        "Entdeckung historischer Artefakte"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/karatepe_aslantas.jpg"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "furano-lavanta-tarlalari",
+    "name": {
+      "tr": "Furano Lavanta Tarlaları",
+      "en": "Furano Lavender Fields",
+      "de": "Furano Lavendelfelder"
+    },
+    "latitude": 43.3797,
+    "longitude": 142.3785,
+    "description": {
+      "tr": "Furano, Hokkaido'da yer alan lavanta tarlalarıyla ünlüdür. Yaz aylarında, mor lavantalarla dolu bu alan, hem turistler hem de fotoğrafçılar için harika bir yerdir. Ayrıca Furano, dağ manzaraları ve sıcak kaplıcalarıyla da bilinir.\n",
+      "en": "Furano, located in Hokkaido, is famous for its lavender fields. During the summer months, the fields filled with purple lavenders offer a beautiful sight for tourists and photographers. Furano is also known for its mountain views and hot springs.\n",
+      "de": "Furano, das in Hokkaido liegt, ist bekannt für seine Lavendelfelder. In den Sommermonaten bieten die Felder, die mit lila Lavendelblüten bedeckt sind, einen schönen Anblick für Touristen und Fotografen. Furano ist auch für seine Bergblicke und heißen Quellen bekannt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Lavanta tarlalarında gezinti",
+        "Fotoğrafçılık",
+        "Kaplıca ziyareti"
+      ],
+      "en": [
+        "Walking in the lavender fields",
+        "Photography",
+        "Hot spring visit"
+      ],
+      "de": [
+        "Spaziergang in den Lavendelfeldern",
+        "Fotografie",
+        "Besuch der heißen Quellen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/furano-lavender-fields.jpg"
+    ]
+  }
+]

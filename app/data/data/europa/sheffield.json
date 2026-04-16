@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "sheffield-botanical-gardens",
+    "name": {
+      "tr": "Sheffield Botanical Gardens",
+      "en": "Sheffield Botanical Gardens",
+      "de": "Sheffield Botanischer Garten"
+    },
+    "latitude": 53.3656,
+    "longitude": -1.4952,
+    "description": {
+      "tr": "Sheffield Botanical Gardens, zengin bitki örtüsü ve tarihi seralarla ünlü bir parktır.",
+      "en": "Sheffield Botanical Gardens is a park famous for its rich plant life and historic greenhouses.",
+      "de": "Der Sheffield Botanische Garten ist ein Park, der für seine reiche Pflanzenwelt und historischen Gewächshäuser bekannt ist."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeleri gezmek",
+        "Doğada zaman geçirmek"
+      ],
+      "en": [
+        "Explore the gardens",
+        "Spend time in nature"
+      ],
+      "de": [
+        "Die Gärten erkunden",
+        "Zeit in der Natur verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/sheffield_botanical_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "sheffield-winter-garden",
+    "name": {
+      "tr": "Sheffield Winter Garden",
+      "en": "Sheffield Winter Garden",
+      "de": "Sheffield Wintergarten"
+    },
+    "latitude": 53.381,
+    "longitude": -1.466,
+    "description": {
+      "tr": "Sheffield Winter Garden, dünyanın en büyük cam seralarından biridir ve tropikal bitkilerle doludur.",
+      "en": "Sheffield Winter Garden is one of the largest glasshouses in the world, filled with tropical plants.",
+      "de": "Der Sheffield Wintergarten ist eines der größten Gewächshäuser der Welt und ist mit tropischen Pflanzen gefüllt."
+    },
+    "activities": {
+      "tr": [
+        "Serada yürüyüş yapmak",
+        "Tropikal bitkileri görmek"
+      ],
+      "en": [
+        "Walk in the greenhouse",
+        "See the tropical plants"
+      ],
+      "de": [
+        "Im Gewächshaus spazieren gehen",
+        "Die tropischen Pflanzen sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/sheffield_winter_garden.jpg"
+    ]
+  },
+  {
+    "slug": "kelham-island-museum",
+    "name": {
+      "tr": "Kelham Island Museum",
+      "en": "Kelham Island Museum",
+      "de": "Kelham Island Museum"
+    },
+    "latitude": 53.3875,
+    "longitude": -1.4704,
+    "description": {
+      "tr": "Kelham Island Museum, Sheffield’ın sanayi mirasını sergileyen bir müzedir ve endüstriyel tarih hakkında bilgi sunar.",
+      "en": "Kelham Island Museum is a museum showcasing Sheffield's industrial heritage, offering insights into industrial history.",
+      "de": "Das Kelham Island Museum ist ein Museum, das das industrielle Erbe von Sheffield zeigt und Einblicke in die Industriegeschichte bietet."
+    },
+    "activities": {
+      "tr": [
+        "Sanayi tarihi sergilerini gezmek",
+        "Endüstriyel koleksiyonları keşfetmek"
+      ],
+      "en": [
+        "Explore industrial history exhibitions",
+        "Discover industrial collections"
+      ],
+      "de": [
+        "Industrielle Geschichtsausstellungen erkunden",
+        "Industrielle Sammlungen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/kelham_island_museum.jpg"
+    ]
+  },
+  {
+    "slug": "peak-district-national-park",
+    "name": {
+      "tr": "Peak District National Park",
+      "en": "Peak District National Park",
+      "de": "Peak District Nationalpark"
+    },
+    "latitude": 53.3599,
+    "longitude": -1.7417,
+    "description": {
+      "tr": "Peak District National Park, Sheffield’in yakınında yer alan ve doğa yürüyüşleri, dağcılık ve kamp için mükemmel bir yerdir.",
+      "en": "Peak District National Park, located near Sheffield, is a perfect spot for hiking, climbing, and camping.",
+      "de": "Der Peak District Nationalpark, der in der Nähe von Sheffield liegt, ist ein perfekter Ort für Wandern, Klettern und Camping."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Dağcılık ve kamp yapmak"
+      ],
+      "en": [
+        "Hike in the park",
+        "Climb and camp"
+      ],
+      "de": [
+        "Im Park wandern",
+        "Klettern und campen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/peak_district.jpg"
+    ]
+  },
+  {
+    "slug": "the-crucible-theatre",
+    "name": {
+      "tr": "The Crucible Theatre",
+      "en": "The Crucible Theatre",
+      "de": "Das Crucible Theater"
+    },
+    "latitude": 53.3816,
+    "longitude": -1.4695,
+    "description": {
+      "tr": "The Crucible Theatre, İngiltere'nin en ünlü tiyatro salonlarından biridir ve çok sayıda tiyatro gösterisine ev sahipliği yapmaktadır.",
+      "en": "The Crucible Theatre is one of the most famous theatres in England, hosting numerous theatre productions.",
+      "de": "Das Crucible Theater ist eines der bekanntesten Theater in England und beherbergt zahlreiche Theateraufführungen."
+    },
+    "activities": {
+      "tr": [
+        "Tiyatro gösterilerini izlemek",
+        "Sanat ve kültür etkinliklerine katılmak"
+      ],
+      "en": [
+        "Watch theatre shows",
+        "Participate in arts and cultural events"
+      ],
+      "de": [
+        "Theateraufführungen ansehen",
+        "An Kunst- und Kulturveranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/crucible_theatre.jpg"
+    ]
+  }
+]

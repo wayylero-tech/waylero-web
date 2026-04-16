@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "christiansborg-sarayi",
+    "name": {
+      "tr": "Christiansborg Sarayı",
+      "en": "Christiansborg Palace",
+      "de": "Christiansborg Palast"
+    },
+    "latitude": 55.6756,
+    "longitude": 12.5833,
+    "description": {
+      "tr": "Danimarka hükümetinin çalıştığı bu saray, aynı zamanda Kraliyet Ailesi tarafından kullanılan bir yer olarak da bilinir. Tarihi ve kültürel önemi büyüktür.",
+      "en": "This palace, where the Danish government works, is also used by the Royal Family. It holds great historical and cultural importance.",
+      "de": "Dieser Palast, in dem die dänische Regierung arbeitet, wird auch von der königlichen Familie genutzt. Er hat große historische und kulturelle Bedeutung."
+    },
+    "activities": {
+      "tr": [
+        "Sarayı gezmek",
+        "Tarihi alanları ziyaret etmek"
+      ],
+      "en": [
+        "Touring the palace",
+        "Visiting historical areas"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Historische Orte besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/christiansborg_palace.jpg"
+    ]
+  },
+  {
+    "slug": "tivoli-bahceleri",
+    "name": {
+      "tr": "Tivoli Bahçeleri",
+      "en": "Tivoli Gardens",
+      "de": "Tivoli Gärten"
+    },
+    "latitude": 55.67,
+    "longitude": 12.5711,
+    "description": {
+      "tr": "Dünyanın en eski eğlence parklarından biri olan Tivoli Bahçeleri, klasik eğlence makineleri, müzikli gösteriler ve güzel peyzajıyla ünlüdür.",
+      "en": "Tivoli Gardens, one of the oldest amusement parks in the world, is famous for its classic rides, musical performances, and beautiful landscaping.",
+      "de": "Tivoli Gardens, einer der ältesten Vergnügungsparks der Welt, ist bekannt für seine klassischen Fahrgeschäfte, Musikdarbietungen und wunderschöne Gartenanlagen."
+    },
+    "activities": {
+      "tr": [
+        "Eğlence parkını gezmek",
+        "Müzikal gösterileri izlemek"
+      ],
+      "en": [
+        "Exploring the amusement park",
+        "Watching musical performances"
+      ],
+      "de": [
+        "Den Vergnügungspark erkunden",
+        "Musikdarbietungen ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/tivoli_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "nyhavn",
+    "name": {
+      "tr": "Nyhavn",
+      "en": "Nyhavn",
+      "de": "Nyhavn"
+    },
+    "latitude": 55.6761,
+    "longitude": 12.5795,
+    "description": {
+      "tr": "Renkli evleri ve kafeleriyle ünlü olan Nyhavn, Kopenhag’ın simgelerinden biridir. Liman kenarında yürüyüş yapabilir, restoranlarda deniz ürünlerinin tadına bakabilirsiniz.",
+      "en": "Famous for its colorful houses and cafes, Nyhavn is one of Copenhagen’s iconic landmarks. You can take a walk along the harbor and taste seafood at the restaurants.",
+      "de": "Nyhavn, bekannt für seine bunten Häuser und Cafés, ist eines der Wahrzeichen von Kopenhagen. Man kann entlang des Hafens spazieren gehen und in den Restaurants Meeresfrüchte probieren."
+    },
+    "activities": {
+      "tr": [
+        "Liman boyunca yürüyüş yapmak",
+        "Restoranlarda deniz ürünleri yemek"
+      ],
+      "en": [
+        "Walking along the harbor",
+        "Eating seafood at the restaurants"
+      ],
+      "de": [
+        "Am Hafen spazieren gehen",
+        "Meeresfrüchte in den Restaurants essen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/nyhavn.jpg"
+    ]
+  },
+  {
+    "slug": "kucuk-deniz-kizi-heykeli",
+    "name": {
+      "tr": "Küçük Deniz Kızı Heykeli",
+      "en": "The Little Mermaid",
+      "de": "Die kleine Meerjungfrau"
+    },
+    "latitude": 55.6921,
+    "longitude": 12.6021,
+    "description": {
+      "tr": "Hans Christian Andersen'in ünlü masalından esinlenerek yapılan bu heykel, Kopenhag’ın en ünlü simgelerinden biridir.",
+      "en": "Inspired by Hans Christian Andersen’s famous fairy tale, this statue is one of Copenhagen’s most famous landmarks.",
+      "de": "Diese Statue, inspiriert von Hans Christian Andersens berühmtem Märchen, ist eines der bekanntesten Wahrzeichen von Kopenhagen."
+    },
+    "activities": {
+      "tr": [
+        "Heykeli ziyaret etmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Visiting the statue",
+        "Taking pictures"
+      ],
+      "de": [
+        "Die Statue besichtigen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/little_mermaid.jpg"
+    ]
+  },
+  {
+    "slug": "amalienborg-sarayi",
+    "name": {
+      "tr": "Amalienborg Sarayı",
+      "en": "Amalienborg Palace",
+      "de": "Amalienborg Palast"
+    },
+    "latitude": 55.6748,
+    "longitude": 12.5916,
+    "description": {
+      "tr": "Danimarka Kraliyet Ailesi’nin resmi ikametgâhı olan bu saray, zarif mimarisi ve tarihi değeriyle dikkat çeker.",
+      "en": "The official residence of the Danish Royal Family, this palace stands out with its elegant architecture and historical significance.",
+      "de": "Der offizielle Wohnsitz der dänischen Königsfamilie, dieser Palast zeichnet sich durch seine elegante Architektur und historische Bedeutung aus."
+    },
+    "activities": {
+      "tr": [
+        "Sarayı gezmek",
+        "Kraliyet muhafızlarının nöbet değişimini izlemek"
+      ],
+      "en": [
+        "Touring the palace",
+        "Watching the changing of the Royal Guards"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Die Wachablösung der königlichen Garde beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/amalienborg_palace.jpg"
+    ]
+  }
+]

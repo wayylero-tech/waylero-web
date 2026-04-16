@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "nidaros-katedrali",
+    "name": {
+      "tr": "Nidaros Katedrali",
+      "en": "Nidaros Cathedral",
+      "de": "Nidaros Kathedrale"
+    },
+    "latitude": 63.4305,
+    "longitude": 10.3951,
+    "description": {
+      "tr": "Nidaros Katedrali, Norveç'in en önemli dini yapılarından biridir. Gotik tarzda inşa edilmiştir ve UNESCO Dünya Mirası Listesi'nde yer alır.",
+      "en": "Nidaros Cathedral is one of Norway's most important religious buildings. It is built in Gothic style and is listed as a UNESCO World Heritage Site.",
+      "de": "Die Nidaros Kathedrale ist eines der wichtigsten religiösen Gebäude Norwegens. Sie wurde im gotischen Stil erbaut und ist ein UNESCO-Weltkulturerbe."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etme",
+        "Mimari detayları keşfetme"
+      ],
+      "en": [
+        "Visit the cathedral",
+        "Explore the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/nidaros_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "bakklandet",
+    "name": {
+      "tr": "Bakklandet",
+      "en": "Bakklandet",
+      "de": "Bakklandet"
+    },
+    "latitude": 63.4307,
+    "longitude": 10.3947,
+    "description": {
+      "tr": "Bakklandet, Trondheim'in eski ve renkli taş binalarla dolu tarihi bir mahallesidir. Burada şirin kafeler ve dükkanlar yer almaktadır.",
+      "en": "Bakklandet is a historic district in Trondheim filled with old, colorful stone buildings. It is home to charming cafes and shops.",
+      "de": "Bakklandet ist ein historisches Viertel in Trondheim, das mit alten, bunten Steingebäuden gefüllt ist. Hier gibt es charmante Cafés und Geschäfte."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi mahalleyi keşfetme",
+        "Kafelerde dinlenme"
+      ],
+      "en": [
+        "Explore the historic district",
+        "Relax at the cafes"
+      ],
+      "de": [
+        "Das historische Viertel erkunden",
+        "In den Cafés entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/bakklandet.jpg"
+    ]
+  }
+]

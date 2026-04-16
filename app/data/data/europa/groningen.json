@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "groningen-muzesi",
+    "name": {
+      "tr": "Groningen Müzesi",
+      "en": "Groningen Museum",
+      "de": "Groningen Museum"
+    },
+    "latitude": 53.2194,
+    "longitude": 6.5665,
+    "description": {
+      "tr": "Groningen Müzesi, çağdaş sanat eserlerine ev sahipliği yapar ve Hollanda'nın en yenilikçi müzelerinden biridir.",
+      "en": "The Groningen Museum hosts contemporary art pieces and is one of the most innovative museums in the Netherlands.",
+      "de": "Das Groningen Museum beherbergt zeitgenössische Kunstwerke und ist eines der innovativsten Museen in den Niederlanden."
+    },
+    "activities": {
+      "tr": [
+        "Sanat koleksiyonlarını keşfetme",
+        "Modern sanat sergilerini gezme"
+      ],
+      "en": [
+        "Explore art collections",
+        "Visit contemporary art exhibitions"
+      ],
+      "de": [
+        "Kunstsammlungen erkunden",
+        "Moderne Kunstausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/groningen_museum.jpg"
+    ]
+  },
+  {
+    "slug": "noorderplantsoen",
+    "name": {
+      "tr": "Noorderplantsoen",
+      "en": "Noorderplantsoen",
+      "de": "Noorderplantsoen"
+    },
+    "latitude": 53.2103,
+    "longitude": 6.5618,
+    "description": {
+      "tr": "Noorderplantsoen, Groningen şehrinde bir parktır ve yeşil alanlarda yürüyüş yapma ve doğa ile iç içe olma fırsatı sunar.",
+      "en": "Noorderplantsoen is a park in Groningen, offering opportunities for walking in green areas and being in nature.",
+      "de": "Noorderplantsoen ist ein Park in Groningen und bietet Möglichkeiten für Spaziergänge in grünen Bereichen und den Aufenthalt in der Natur."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapma",
+        "Piknik yapma"
+      ],
+      "en": [
+        "Walk in the park",
+        "Have a picnic"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Picknick machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/noorderplantsoen.jpg"
+    ]
+  }
+]

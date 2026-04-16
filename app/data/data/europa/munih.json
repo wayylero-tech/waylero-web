@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "marienplatz",
+    "name": {
+      "tr": "Marienplatz",
+      "en": "Marienplatz",
+      "de": "Marienplatz"
+    },
+    "latitude": 48.1371,
+    "longitude": 11.5754,
+    "description": {
+      "tr": "Münih'in kalbi olarak bilinen Marienplatz, tarihi binalarla çevrilidir ve şehrin en önemli meydanıdır. Burada, Glockenspiel'in çaldığı saat başı gösterileri izlenebilir.\n",
+      "en": "Known as the heart of Munich, Marienplatz is surrounded by historical buildings and is one of the city's most important squares. Here, you can watch the hourly performances of the Glockenspiel.\n",
+      "de": "Marienplatz, als das Herz von München bekannt, ist von historischen Gebäuden umgeben und einer der wichtigsten Plätze der Stadt. Hier kann man die stündlichen Aufführungen des Glockenspiels sehen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi binaları gezmek",
+        "Glockenspiel izlemek"
+      ],
+      "en": [
+        "Explore historical buildings",
+        "Watch the Glockenspiel"
+      ],
+      "de": [
+        "Historische Gebäude besichtigen",
+        "Das Glockenspiel anschauen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Marienplatz_2012_1.jpg"
+    ]
+  },
+  {
+    "slug": "nymphenburg-sarayi",
+    "name": {
+      "tr": "Nymphenburg Sarayı",
+      "en": "Nymphenburg Palace",
+      "de": "Schloss Nymphenburg"
+    },
+    "latitude": 48.1592,
+    "longitude": 11.497,
+    "description": {
+      "tr": "Bavyera Dükalığı döneminin zarif yapılarından biri olan Nymphenburg Sarayı, geniş bahçeleri ve muazzam iç mekanlarıyla ünlüdür. Saray, özellikle tarihi ve mimarisiyle dikkat çekmektedir.\n",
+      "en": "One of the elegant buildings from the time of the Bavarian Dukes, Nymphenburg Palace is famous for its vast gardens and magnificent interiors. The palace is especially noteworthy for its history and architecture.\n",
+      "de": "Schloss Nymphenburg, eines der eleganten Gebäude aus der Zeit der bayerischen Herzöge, ist berühmt für seine weitläufigen Gärten und prächtigen Innenräume. Das Schloss ist besonders wegen seiner Geschichte und Architektur bemerkenswert.\n"
+    },
+    "activities": {
+      "tr": [
+        "Saray turu",
+        "Bahçelerde gezinti"
+      ],
+      "en": [
+        "Palace tour",
+        "Stroll in the gardens"
+      ],
+      "de": [
+        "Schlossführung",
+        "Spaziergang im Garten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Schloss_Nymphenburg.jpg"
+    ]
+  },
+  {
+    "slug": "englischer-garten",
+    "name": {
+      "tr": "Englischer Garten",
+      "en": "English Garden",
+      "de": "Englischer Garten"
+    },
+    "latitude": 48.1604,
+    "longitude": 11.5803,
+    "description": {
+      "tr": "Dünyanın en büyük şehir parklarından biri olan Englischer Garten, Münih’in merkezine oldukça yakın bir alanda yer alır. Parkta yürüyüş, bisiklet sürme veya gölette kayık gezisi yapabilirsiniz.\n",
+      "en": "One of the largest urban parks in the world, the English Garden is located very close to the center of Munich. You can walk, bike, or take a boat ride on the lake within the park.\n",
+      "de": "Einer der größten Stadtparks der Welt, der Englische Garten, liegt ganz in der Nähe des Münchener Zentrums. Sie können im Park spazieren gehen, Rad fahren oder eine Bootsfahrt auf dem See machen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Bisiklet sürme",
+        "Kayık gezisi",
+        "Piknik"
+      ],
+      "en": [
+        "Cycling",
+        "Boat ride",
+        "Picnicking"
+      ],
+      "de": [
+        "Radfahren",
+        "Bootsfahrt",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/09/Englischer_Garten_M%C3%BCnchen.jpg"
+    ]
+  },
+  {
+    "slug": "deutsches-muzesi",
+    "name": {
+      "tr": "Deutsches Müzesi",
+      "en": "Deutsches Museum",
+      "de": "Deutsches Museum"
+    },
+    "latitude": 48.1305,
+    "longitude": 11.5835,
+    "description": {
+      "tr": "Deutsches Müzesi, Almanya’nın en büyük bilim ve teknoloji müzesidir. Burada, fizik, uzay, gemicilik, iletişim gibi farklı alanlarda birçok interaktif sergi yer almaktadır.\n",
+      "en": "Deutsches Museum is Germany's largest museum of science and technology. It features numerous interactive exhibits in fields such as physics, space, maritime, and communications.\n",
+      "de": "Das Deutsche Museum ist das größte Wissenschafts- und Technikmuseum Deutschlands. Es beherbergt zahlreiche interaktive Ausstellungen in Bereichen wie Physik, Raumfahrt, Schifffahrt und Kommunikation.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi",
+        "Interaktif sergi gezme"
+      ],
+      "en": [
+        "Museum visit",
+        "Explore interactive exhibits"
+      ],
+      "de": [
+        "Museum besichtigen",
+        "Interaktive Ausstellungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Deutsches_Museum_2011.jpg"
+    ]
+  },
+  {
+    "slug": "bmw-muzesi",
+    "name": {
+      "tr": "BMW Müzesi",
+      "en": "BMW Museum",
+      "de": "BMW Museum"
+    },
+    "latitude": 48.179,
+    "longitude": 11.5581,
+    "description": {
+      "tr": "BMW Müzesi, otomobil tutkunları için bir cennettir. Burada, BMW'nin tarihinden bugüne kadar ürettiği araçların sergilendiği geniş bir koleksiyon bulunmaktadır.\n",
+      "en": "The BMW Museum is a paradise for car enthusiasts. It features a large collection of cars produced by BMW, from the company’s history to its latest models.\n",
+      "de": "Das BMW Museum ist ein Paradies für Autoenthusiasten. Es zeigt eine große Sammlung von Fahrzeugen, die von BMW produziert wurden, von der Geschichte des Unternehmens bis zu den neuesten Modellen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Otomobil koleksiyonlarını görmek",
+        "BMW tarihini keşfetmek"
+      ],
+      "en": [
+        "See car collections",
+        "Explore BMW history"
+      ],
+      "de": [
+        "Autokollektionen sehen",
+        "BMW-Geschichte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/BMW_Museum_Munich_2014.jpg"
+    ]
+  },
+  {
+    "slug": "alte-pinakothek",
+    "name": {
+      "tr": "Alte Pinakothek",
+      "en": "Alte Pinakothek",
+      "de": "Alte Pinakothek"
+    },
+    "latitude": 48.151,
+    "longitude": 11.5777,
+    "description": {
+      "tr": "Alte Pinakothek, Avrupa sanatının en önemli koleksiyonlarını barındıran bir sanat müzesidir. Rembrandt, Dürer ve Leonardo da Vinci gibi sanatçıların eserlerine ev sahipliği yapmaktadır.\n",
+      "en": "Alte Pinakothek is an art museum housing some of the most important collections of European art. It features works by artists such as Rembrandt, Dürer, and Leonardo da Vinci.\n",
+      "de": "Die Alte Pinakothek ist ein Kunstmuseum, das einige der bedeutendsten Sammlungen europäischer Kunst beherbergt. Werke von Künstlern wie Rembrandt, Dürer und Leonardo da Vinci sind hier ausgestellt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi ziyareti",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Art gallery visit",
+        "Art exploration"
+      ],
+      "de": [
+        "Kunstgalerie besuchen",
+        "Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6f/Alte_Pinakothek_Munich.jpg"
+    ]
+  },
+  {
+    "slug": "westpark",
+    "name": {
+      "tr": "Westpark",
+      "en": "Westpark",
+      "de": "Westpark"
+    },
+    "latitude": 48.1261,
+    "longitude": 11.5305,
+    "description": {
+      "tr": "Westpark, Münih'in batısında büyük bir park alanıdır. Yürüyüş yolları, göletler ve çeşitli kültürel etkinlikler sunan açık hava sahneleri ile ünlüdür.\n",
+      "en": "Westpark is a large park located in the western part of Munich. It is famous for its walking paths, ponds, and outdoor stages hosting various cultural events.\n",
+      "de": "Der Westpark ist ein großer Park im westlichen Teil von München. Er ist bekannt für seine Spazierwege, Teiche und Freiluftbühnen, die verschiedene kulturelle Veranstaltungen bieten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş",
+        "Kültürel etkinlikler"
+      ],
+      "en": [
+        "Walking",
+        "Cultural events"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Westpark_Munich_2009.jpg"
+    ]
+  }
+]

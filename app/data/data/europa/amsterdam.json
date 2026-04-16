@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "anne-frank-in-evi",
+    "name": {
+      "tr": "Anne Frank’ın Evi",
+      "en": "Anne Frank House",
+      "de": "Anne-Frank-Haus"
+    },
+    "latitude": 52.3752,
+    "longitude": 4.8836,
+    "description": {
+      "tr": "Anne Frank’ın Evi, II. Dünya Savaşı sırasında ailesiyle birlikte saklandığı ve ünlü günlüğünü yazdığı yerdir. Amsterdam’da bulunan bu tarihi bina, şimdi bir müze olarak hizmet vermektedir. Ziyaretçiler, saklanma yerini keşfedebilir ve Anne Frank’ın yaşamına dair detaylı bilgi edinebilir. Müze, dönemin zor koşullarını ve Yahudi soykırımını anlamak için güçlü bir deneyim sunar. Anne Frank’ın orijinal günlüğü de müzede sergilenmektedir.",
+      "en": "The Anne Frank House is the location where Anne Frank and her family hid during World War II and where she wrote her famous diary. Located in Amsterdam, this historic building now serves as a museum. Visitors can explore the secret annex and gain detailed insights into Anne Frank’s life. The museum provides a profound experience of the hardships of the time and the Holocaust. Anne Frank’s original diary is also on display.",
+      "de": "Das Anne-Frank-Haus ist der Ort, an dem Anne Frank und ihre Familie während des Zweiten Weltkriegs versteckt waren und wo sie ihr berühmtes Tagebuch schrieb. Dieses historische Gebäude in Amsterdam dient heute als Museum. Besucher können das Versteck erkunden und detaillierte Einblicke in das Leben von Anne Frank gewinnen. Das Museum bietet eine eindringliche Erfahrung über die Schwierigkeiten der damaligen Zeit und den Holocaust. Anne Franks originales Tagebuch wird ebenfalls ausgestellt."
+    },
+    "activities": {
+      "tr": [
+        "Saklanma yerini keşfetmek",
+        "Anne Frank’ın günlüğünü görmek",
+        "Müzenin interaktif sergilerini incelemek",
+        "Tarihi bağlamı anlamak için rehberli tur almak"
+      ],
+      "en": [
+        "Explore the secret annex",
+        "View Anne Frank’s diary",
+        "Engage with interactive museum exhibits",
+        "Take a guided tour to understand the historical context"
+      ],
+      "de": [
+        "Das Versteck erkunden",
+        "Anne Franks Tagebuch ansehen",
+        "Interaktive Ausstellungen des Museums erkunden",
+        "Eine geführte Tour zur historischen Einordnung machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/anne_frank_house.jpg",
+      "https://example.com/secret_annex.jpg"
+    ]
+  },
+  {
+    "slug": "rijksmuseum",
+    "name": {
+      "tr": "Rijksmuseum",
+      "en": "Rijksmuseum",
+      "de": "Rijksmuseum"
+    },
+    "latitude": 52.3594,
+    "longitude": 4.8852,
+    "description": {
+      "tr": "Rijksmuseum, Hollanda'nın en büyük sanat müzesidir. Rembrandt, Vermeer ve Van Gogh gibi ünlü sanatçıların eserleri burada sergilenmektedir.",
+      "en": "Rijksmuseum is the largest art museum in the Netherlands. Famous works by artists like Rembrandt, Vermeer, and Van Gogh are exhibited here.",
+      "de": "Das Rijksmuseum ist das größte Kunstmuseum der Niederlande. Berühmte Werke von Künstlern wie Rembrandt, Vermeer und Van Gogh werden hier ausgestellt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat koleksiyonlarını keşfetme",
+        "Geçici sergilere katılma"
+      ],
+      "en": [
+        "Explore art collections",
+        "Attend temporary exhibitions"
+      ],
+      "de": [
+        "Kunstsammlungen erkunden",
+        "An temporären Ausstellungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/rijksmuseum.jpg"
+    ]
+  },
+  {
+    "slug": "vondelpark",
+    "name": {
+      "tr": "Vondelpark",
+      "en": "Vondelpark",
+      "de": "Vondelpark"
+    },
+    "latitude": 52.3644,
+    "longitude": 4.8687,
+    "description": {
+      "tr": "Vondelpark, Amsterdam'ın en büyük ve en ünlü parkıdır. Dinlenme alanları, yürüyüş yolları ve göletleri ile doğa severler için mükemmel bir yerdir.",
+      "en": "Vondelpark is the largest and most famous park in Amsterdam. With its rest areas, walking paths, and ponds, it is a perfect place for nature lovers.",
+      "de": "Der Vondelpark ist der größte und bekannteste Park in Amsterdam. Mit seinen Erholungsbereichen, Wanderwegen und Teichen ist er ein perfekter Ort für Naturliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapma",
+        "Bisiklet kiralayarak gezme"
+      ],
+      "en": [
+        "Walk in the park",
+        "Rent a bike and explore"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Ein Fahrrad mieten und erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/vondelpark.jpg"
+    ]
+  }
+]

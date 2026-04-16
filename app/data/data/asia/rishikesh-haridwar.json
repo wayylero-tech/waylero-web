@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "rishikesh",
+    "name": {
+      "tr": "Rishikesh",
+      "en": "Rishikesh",
+      "de": "Rishikesh"
+    },
+    "latitude": 30.0869,
+    "longitude": 78.2676,
+    "description": {
+      "tr": "Rishikesh, Hinduizm’in kutsal şehirlerinden biri olup yoga ve meditasyon merkezleriyle ünlüdür. Nehir kenarında yapılan dini ayinler de popülerdir.",
+      "en": "Rishikesh is one of the holiest cities in Hinduism, famous for its yoga and meditation centers. Religious ceremonies on the riverbank are also popular.",
+      "de": "Rishikesh ist eine der heiligsten Städte im Hinduismus, bekannt für seine Yoga- und Meditationszentren. Religiöse Zeremonien am Flussufer sind ebenfalls beliebt."
+    },
+    "activities": {
+      "tr": [
+        "Yoga ve meditasyon",
+        "Rafting",
+        "Dini ayinler"
+      ],
+      "en": [
+        "Yoga and meditation",
+        "Rafting",
+        "Religious ceremonies"
+      ],
+      "de": [
+        "Yoga und Meditation",
+        "Rafting",
+        "Religiöse Zeremonien"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/rishikesh.jpg"
+    ]
+  },
+  {
+    "slug": "haridwar",
+    "name": {
+      "tr": "Haridwar",
+      "en": "Haridwar",
+      "de": "Haridwar"
+    },
+    "latitude": 29.9457,
+    "longitude": 78.1642,
+    "description": {
+      "tr": "Haridwar, Hindistan’ın kutsal şehirlerinden biridir. Ganj Nehri’nde yapılan Aarti seremonileriyle ünlüdür.",
+      "en": "Haridwar is one of the holiest cities in India. It is famous for the Aarti ceremonies on the Ganges River.",
+      "de": "Haridwar ist eine der heiligsten Städte Indiens. Es ist bekannt für die Aarti-Zeremonien am Ganges-Fluss."
+    },
+    "activities": {
+      "tr": [
+        "Aarti törenleri",
+        "Kutsal nehirde tekne turu",
+        "Hindu tapınaklarını gezmek"
+      ],
+      "en": [
+        "Aarti ceremonies",
+        "Boat ride on the holy river",
+        "Visit Hindu temples"
+      ],
+      "de": [
+        "Aarti-Zeremonien",
+        "Bootsfahrt auf dem heiligen Fluss",
+        "Besuch von Hindu-Tempeln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/haridwar.jpg"
+    ]
+  }
+]

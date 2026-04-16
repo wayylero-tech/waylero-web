@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "nizwa-kalesi",
+    "name": {
+      "tr": "Nizwa Kalesi",
+      "en": "Nizwa Fort",
+      "de": "Nizwa Festung"
+    },
+    "latitude": 22.9333,
+    "longitude": 57.5283,
+    "description": {
+      "tr": "Nizwa Kalesi, Umman’ın en tarihi yapılarından biridir ve Nizwa şehrinin merkezinde yer alır. 17. yüzyılda inşa edilen bu kale, Umman’ın savunma tarihine tanıklık eden önemli bir yapıdır. Ziyaretçiler, kalenin yüksek kulelerinden şehri izleyebilir, savunma surlarını keşfedebilir ve bölgenin zengin tarihini öğrenebilirler.",
+      "en": "Nizwa Fort is one of Oman’s most historic structures, located in the heart of Nizwa city. Built in the 17th century, the fort is a significant landmark that bears witness to Oman’s defense history. Visitors can climb the fort’s tall towers, explore the defensive walls, and learn about the region’s rich history.",
+      "de": "Die Nizwa Festung ist eines der historischsten Gebäude in Oman und befindet sich im Herzen der Stadt Nizwa. Die Festung wurde im 17. Jahrhundert erbaut und ist ein bedeutendes Wahrzeichen, das die Verteidigungsgeschichte Omans widerspiegelt. Besucher können die hohen Türme der Festung erklimmen, die Verteidigungsmauern erkunden und mehr über die reiche Geschichte der Region erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Kale kulelerine tırmanmak",
+        "Savunma surlarını keşfetmek",
+        "Tarihi sergileri gezmek"
+      ],
+      "en": [
+        "Climbing the fort towers",
+        "Exploring the defensive walls",
+        "Visiting historical exhibits"
+      ],
+      "de": [
+        "Die Türme der Festung erklimmen",
+        "Die Verteidigungsmauern erkunden",
+        "Historische Ausstellungen besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/nizwa_fort_1.jpg",
+      "https://example.com/nizwa_fort_2.jpg"
+    ]
+  },
+  {
+    "slug": "nizwa-souq",
+    "name": {
+      "tr": "Nizwa Souq",
+      "en": "Nizwa Souq",
+      "de": "Nizwa Souq"
+    },
+    "latitude": 22.9339,
+    "longitude": 57.5278,
+    "description": {
+      "tr": "Nizwa Souq, geleneksel Umman pazarlarının tipik bir örneğidir ve bölgenin kültürünü keşfetmek için harika bir yerdir. Burada halılar, el yapımı takılar, baharatlar ve geleneksel el sanatları gibi pek çok yerel ürün satılmaktadır. Ziyaretçiler, bu pazarda alışveriş yaparken, aynı zamanda Oman’ın geleneksel ticaretini ve kültürünü deneyimleyebilirler.",
+      "en": "Nizwa Souq is a typical example of traditional Omani markets, offering a fantastic opportunity to explore the region’s culture. Here, visitors can find handmade jewelry, carpets, spices, and various local crafts. Shopping at the souq provides a great experience of Oman’s traditional commerce and culture.",
+      "de": "Der Nizwa Souq ist ein typisches Beispiel für traditionelle omanische Märkte und bietet eine großartige Gelegenheit, die Kultur der Region zu entdecken. Hier können Besucher handgefertigten Schmuck, Teppiche, Gewürze und verschiedene lokale Handwerksprodukte finden. Der Einkauf im Souq bietet eine hervorragende Gelegenheit, den traditionellen Handel und die Kultur Omans zu erleben."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Oman kültürünü keşfetmek",
+        "El sanatları incelemek"
+      ],
+      "en": [
+        "Shopping for local crafts",
+        "Exploring Omani culture",
+        "Discovering handmade goods"
+      ],
+      "de": [
+        "Einkaufen von Handwerksprodukten",
+        "Die omanische Kultur entdecken",
+        "Handgefertigte Waren entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/nizwa_souq_1.jpg",
+      "https://example.com/nizwa_souq_2.jpg"
+    ]
+  },
+  {
+    "slug": "jebel-akhdar",
+    "name": {
+      "tr": "Jebel Akhdar",
+      "en": "Jebel Akhdar",
+      "de": "Jebel Akhdar"
+    },
+    "latitude": 23.1886,
+    "longitude": 57.3536,
+    "description": {
+      "tr": "Jebel Akhdar, Umman’ın en yüksek dağlarından biri olup, \"Yeşil Dağ\" olarak da bilinir. Bu bölge, etrafındaki çarpıcı doğa manzaraları ve elma, şeftali gibi meyve bahçeleriyle ünlüdür. Ziyaretçiler, doğa yürüyüşleri yaparak, dağın zirvelerine tırmanabilir ve yeşil vadileri keşfedebilirler.",
+      "en": "Jebel Akhdar is one of Oman’s highest mountains, also known as the \"Green Mountain.\" The area is famous for its stunning natural landscapes and fruit orchards, including apples and peaches. Visitors can hike through the valleys, climb the peaks, and explore the breathtaking views.",
+      "de": "Jebel Akhdar ist einer der höchsten Berge Omans und auch als „Grüner Berg“ bekannt. Die Gegend ist berühmt für ihre atemberaubenden Naturlandschaften und Obstgärten, darunter Äpfel und Pfirsiche. Besucher können durch die Täler wandern, die Gipfel erklimmen und die atemberaubende Aussicht genießen."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Dağa tırmanmak",
+        "Yeşil vadileri keşfetmek"
+      ],
+      "en": [
+        "Hiking in nature",
+        "Climbing the mountain peaks",
+        "Exploring the green valleys"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Die Gipfel des Berges erklimmen",
+        "Die grünen Täler erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/jebel_akhdar_1.jpg",
+      "https://example.com/jebel_akhdar_2.jpg"
+    ]
+  },
+  {
+    "slug": "bahla-kalesi",
+    "name": {
+      "tr": "Bahla Kalesi",
+      "en": "Bahla Fort",
+      "de": "Bahla Festung"
+    },
+    "latitude": 22.9574,
+    "longitude": 57.3174,
+    "description": {
+      "tr": "Bahla Kalesi, Umman’ın en eski ve en büyük kalelerinden biridir. 13. yüzyılda inşa edilen bu kale, UNESCO Dünya Mirası Listesi’nde yer alır. Ziyaretçiler, kalenin büyük duvarlarını, kulelerini keşfederken, Bahla kasabasının tarihi hakkında da bilgi edinebilirler. Kalede ayrıca geleneksel el sanatları ve sergiler de düzenlenmektedir.",
+      "en": "Bahla Fort is one of Oman’s oldest and largest forts, built in the 13th century. It is listed as a UNESCO World Heritage Site. Visitors can explore the massive walls and towers of the fort while learning about the history of Bahla town. The fort also hosts exhibitions and displays of traditional crafts.",
+      "de": "Die Bahla Festung ist eine der ältesten und größten Festungen Omans, die im 13. Jahrhundert erbaut wurde. Sie ist ein UNESCO-Weltkulturerbe. Besucher können die massiven Mauern und Türme der Festung erkunden und dabei mehr über die Geschichte der Stadt Bahla erfahren. Die Festung beherbergt auch Ausstellungen und Handwerksvorführungen."
+    },
+    "activities": {
+      "tr": [
+        "Kale duvarlarını keşfetmek",
+        "Bahla kasabasının tarihini öğrenmek",
+        "El sanatlarını incelemek"
+      ],
+      "en": [
+        "Exploring the fort walls",
+        "Learning about the history of Bahla town",
+        "Viewing traditional crafts"
+      ],
+      "de": [
+        "Die Festungsmauern erkunden",
+        "Mehr über die Geschichte der Stadt Bahla erfahren",
+        "Traditionelle Handwerkskunst betrachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/bahla_fort_1.jpg",
+      "https://example.com/bahla_fort_2.jpg"
+    ]
+  }
+]

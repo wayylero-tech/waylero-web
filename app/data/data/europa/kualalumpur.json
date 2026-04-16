@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "petronas-twin-towers",
+    "name": {
+      "tr": "Petronas Twin Towers",
+      "en": "Petronas Twin Towers",
+      "de": "Petronas Zwillingstürme"
+    },
+    "latitude": 3.1578,
+    "longitude": 101.7115,
+    "description": {
+      "tr": "Petronas Kuleleri, Kuala Lumpur'un en yüksek binalarından biridir ve dünyanın en yüksek ikiz kuleleridir. Gözlem katlarından şehir manzarası izlenebilir.",
+      "en": "The Petronas Towers are one of the tallest buildings in Kuala Lumpur and the tallest twin towers in the world. The observation decks offer a city view.",
+      "de": "Die Petronas-Türme gehören zu den höchsten Gebäuden in Kuala Lumpur und sind die höchsten Zwillingswolkenkratzer der Welt. Die Aussichtsplattformen bieten einen Blick auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Petronas Kulelerine çıkma",
+        "Alışveriş merkezlerinde gezme"
+      ],
+      "en": [
+        "Visit the Petronas Towers",
+        "Shopping at the malls"
+      ],
+      "de": [
+        "Die Petronas-Türme besuchen",
+        "Einkaufen in den Einkaufszentren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/petronas_twin_towers.jpg"
+    ]
+  },
+  {
+    "slug": "batu-caves",
+    "name": {
+      "tr": "Batu Caves",
+      "en": "Batu Caves",
+      "de": "Batu-Höhlen"
+    },
+    "latitude": 3.2377,
+    "longitude": 101.6833,
+    "description": {
+      "tr": "Batu Caves, Kuala Lumpur'un dışında yer alan büyük bir Hindu tapınak kompleksidir. Mağaraların içine yerleştirilmiş heykeller ve dev Buda heykeliyle ünlüdür.",
+      "en": "Batu Caves is a large Hindu temple complex located outside Kuala Lumpur. It is famous for its statues and the giant Buddha statue inside the caves.",
+      "de": "Die Batu-Höhlen sind ein großer hinduistischer Tempelkomplex außerhalb von Kuala Lumpur. Er ist berühmt für seine Statuen und die riesige Buddha-Statue in den Höhlen."
+    },
+    "activities": {
+      "tr": [
+        "Batu Caves içinde yürüyüş yapma",
+        "Tapınakları gezme"
+      ],
+      "en": [
+        "Walk through the Batu Caves",
+        "Explore the temples"
+      ],
+      "de": [
+        "Durch die Batu-Höhlen gehen",
+        "Die Tempel besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/batu_caves.jpg"
+    ]
+  },
+  {
+    "slug": "merdeka-square",
+    "name": {
+      "tr": "Merdeka Square",
+      "en": "Merdeka Square",
+      "de": "Merdeka-Platz"
+    },
+    "latitude": 3.1448,
+    "longitude": 101.6953,
+    "description": {
+      "tr": "Merdeka Square, Malezya'nın bağımsızlık günü ilan edildiği yer olarak tarihi bir öneme sahiptir. Çevresindeki tarihi binalarla ünlüdür.",
+      "en": "Merdeka Square is a historically significant site where Malaysia declared its independence. It is famous for the historical buildings surrounding it.",
+      "de": "Der Merdeka-Platz ist ein historisch bedeutender Ort, an dem Malaysia seine Unabhängigkeit erklärte. Er ist berühmt für die historischen Gebäude, die ihn umgeben."
+    },
+    "activities": {
+      "tr": [
+        "Merdeka Square’de yürüyüş yapma",
+        "Tarihi binaları keşfetme"
+      ],
+      "en": [
+        "Walk around Merdeka Square",
+        "Explore the historic buildings"
+      ],
+      "de": [
+        "Rund um den Merdeka-Platz spazieren",
+        "Die historischen Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/merdeka_square.jpg"
+    ]
+  },
+  {
+    "slug": "kuala-lumpur-tower-menara-kl",
+    "name": {
+      "tr": "Kuala Lumpur Tower (Menara KL)",
+      "en": "Kuala Lumpur Tower (Menara KL)",
+      "de": "Kuala Lumpur Turm (Menara KL)"
+    },
+    "latitude": 3.1477,
+    "longitude": 101.6932,
+    "description": {
+      "tr": "Kuala Lumpur Tower, şehri yüksekten görebileceğiniz bir gözlem kulesidir. Ayrıca, dönen restoranda yemek yemek de mümkündür.",
+      "en": "The Kuala Lumpur Tower is an observation tower offering a high view of the city. It also has a revolving restaurant.",
+      "de": "Der Kuala Lumpur Turm ist ein Aussichtsturm, der einen hohen Blick auf die Stadt bietet. Es gibt auch ein drehendes Restaurant."
+    },
+    "activities": {
+      "tr": [
+        "Gözlem katına çıkma",
+        "Restoranda yemek yeme"
+      ],
+      "en": [
+        "Visit the observation deck",
+        "Dine at the revolving restaurant"
+      ],
+      "de": [
+        "Die Aussichtsplattform besuchen",
+        "Im drehenden Restaurant essen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/kuala_lumpur_tower.jpg"
+    ]
+  },
+  {
+    "slug": "kl-bird-park",
+    "name": {
+      "tr": "KL Bird Park",
+      "en": "KL Bird Park",
+      "de": "KL Vogelpark"
+    },
+    "latitude": 3.1395,
+    "longitude": 101.6847,
+    "description": {
+      "tr": "KL Bird Park, dünyanın en büyük kapalı kuş parkıdır. Burada farklı kuş türlerini doğal ortamlarında görebilirsiniz.",
+      "en": "KL Bird Park is the world's largest covered bird park. Here you can see various bird species in their natural habitats.",
+      "de": "Der KL Vogelpark ist der größte überdachte Vogelpark der Welt. Hier können Sie verschiedene Vogelarten in ihrem natürlichen Lebensraum sehen."
+    },
+    "activities": {
+      "tr": [
+        "Kuşları gözlemleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Observe the birds",
+        "Take photos"
+      ],
+      "de": [
+        "Die Vögel beobachten",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/kl_bird_park.jpg"
+    ]
+  }
+]

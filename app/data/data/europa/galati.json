@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "dun-rea-park",
+    "name": {
+      "tr": "Dunărea Park",
+      "en": "Dunărea Park",
+      "de": "Dunărea Park"
+    },
+    "latitude": 45.4409,
+    "longitude": 28.0155,
+    "description": {
+      "tr": "Dunărea Park, Galați'deki en büyük park olup, doğa yürüyüşleri yapmak ve gölet etrafında dinlenmek için harika bir mekandır.",
+      "en": "Dunărea Park is the largest park in Galați, a great place for nature walks and relaxing around the lake.",
+      "de": "Der Dunărea Park ist der größte Park in Galați und ein großartiger Ort für Spaziergänge in der Natur und zum Entspannen am See."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapma",
+        "Göl kenarında dinlenme"
+      ],
+      "en": [
+        "Take a walk in the park",
+        "Relax by the lake"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Am See entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/dunarea_park.jpg"
+    ]
+  },
+  {
+    "slug": "muzeul-de-istorie-gala-i",
+    "name": {
+      "tr": "Muzeul de Istorie Galați",
+      "en": "Galați History Museum",
+      "de": "Galați Geschichte Museum"
+    },
+    "latitude": 45.44,
+    "longitude": 28.015,
+    "description": {
+      "tr": "Galați Tarih Müzesi, şehrin tarihini ve kültürünü sergileyen önemli bir müzedir.",
+      "en": "The Galați History Museum is an important museum showcasing the history and culture of the city.",
+      "de": "Das Galați Geschichte Museum ist ein wichtiges Museum, das die Geschichte und Kultur der Stadt zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Müzeyi gezme",
+        "Tarihi eserleri inceleme"
+      ],
+      "en": [
+        "Tour the museum",
+        "Examine historical artifacts"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Historische Artefakte untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/galati_museum.jpg"
+    ]
+  }
+]

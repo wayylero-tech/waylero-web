@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "nicolae-romanescu-park",
+    "name": {
+      "tr": "Nicolae Romanescu Park",
+      "en": "Nicolae Romanescu Park",
+      "de": "Nicolae Romanescu Park"
+    },
+    "latitude": 44.3193,
+    "longitude": 23.791,
+    "description": {
+      "tr": "Nicolae Romanescu Park, Craiova'nın en büyük parkıdır ve yürüyüş yapmak, piknik yapmak için harika bir alandır.",
+      "en": "Nicolae Romanescu Park is the largest park in Craiova, perfect for walks and picnics.",
+      "de": "Der Nicolae Romanescu Park ist der größte Park in Craiova, ideal für Spaziergänge und Picknicks."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapma",
+        "Piknik yapma"
+      ],
+      "en": [
+        "Take a walk in the park",
+        "Have a picnic"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Picknick machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/romanescu_park.jpg"
+    ]
+  },
+  {
+    "slug": "craiova-sanat-galerisi",
+    "name": {
+      "tr": "Craiova Sanat Galerisi",
+      "en": "Craiova Art Gallery",
+      "de": "Craiova Kunstgalerie"
+    },
+    "latitude": 44.3142,
+    "longitude": 23.7942,
+    "description": {
+      "tr": "Craiova Sanat Galerisi, yerel sanatçıların eserlerinin sergilendiği modern bir sanat galerisi olarak önemli bir kültürel mekandır.",
+      "en": "Craiova Art Gallery is an important cultural venue showcasing the works of local artists.",
+      "de": "Die Craiova Kunstgalerie ist ein wichtiges kulturelles Zentrum, das die Werke lokaler Künstler zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerini gezme",
+        "Sanat eserlerini keşfetme"
+      ],
+      "en": [
+        "Tour the art gallery",
+        "Discover art pieces"
+      ],
+      "de": [
+        "Die Kunstgalerie besichtigen",
+        "Kunstwerke entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/craiova_art_gallery.jpg"
+    ]
+  }
+]

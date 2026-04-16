@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "sandankyo",
+    "name": {
+      "tr": "Sandankyo",
+      "en": "Sandankyo",
+      "de": "Sandankyo"
+    },
+    "latitude": 35.5436,
+    "longitude": 132.8126,
+    "description": {
+      "tr": "Sandankyo, Japonya'nın Hiroshima Prefektörlüğü'nde yer alan doğal bir güzellik alanıdır.\nBurası, kayalık vadileri, şelaleleri ve yeşil ormanları ile ünlüdür. Doğa severler için mükemmel bir yürüyüş rotası sunan Sandankyo,\nözellikle sonbahar mevsiminde renkli yaprakları ile dikkat çeker. Ziyaretçiler burada doğa ile iç içe bir deneyim yaşayabilirler.\n",
+      "en": "Sandankyo is a natural scenic area located in Hiroshima Prefecture, Japan.\nIt is famous for its rocky valleys, waterfalls, and lush forests. Sandankyo offers an excellent hiking route for nature lovers,\nand it is especially known for its colorful autumn foliage. Visitors can experience a peaceful retreat surrounded by nature.\n",
+      "de": "Sandankyo ist ein natürlicher malerischer Ort in der Präfektur Hiroshima, Japan.\nEr ist bekannt für seine felsigen Täler, Wasserfälle und üppigen Wälder. Sandankyo bietet eine hervorragende Wanderroute für Naturliebhaber,\nund ist besonders für sein buntes Herbstlaub bekannt. Besucher können ein friedliches Erlebnis inmitten der Natur genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğal yürüyüş yollarını keşfetmek",
+        "Şelaleleri ve vadileri gezmek",
+        "Sonbahar renklerini izlemek"
+      ],
+      "en": [
+        "Explore the natural hiking trails",
+        "Visit waterfalls and valleys",
+        "Admire the autumn foliage"
+      ],
+      "de": [
+        "Die natürlichen Wanderwege erkunden",
+        "Wasserfälle und Täler besuchen",
+        "Das Herbstlaub bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sandankyo_image.jpg"
+    ]
+  },
+  {
+    "slug": "hirosima-baris-aniti-parki-ve-muzesi",
+    "name": {
+      "tr": "Hiroşima Barış Anıtı Parkı ve Müzesi",
+      "en": "Hiroshima Peace Memorial Park and Museum",
+      "de": "Friedenspark und Museum von Hiroshima"
+    },
+    "latitude": 34.3914,
+    "longitude": 132.4519,
+    "description": {
+      "tr": "Barış Parkı, 1945 yılında atom bombası saldırısında yok edilen alan üzerine kurulmuştur. Müze, bombanın etkilerini anlatan sergiler ve mağdurların hikâyeleriyle barış mesajı verir. Sessiz atmosferiyle ziyaretçilere derin bir düşünce ortamı sunar.\n",
+      "en": "The Peace Memorial Park is built on the area destroyed by the atomic bomb in 1945. The museum presents exhibitions on the bomb’s impact and the stories of the victims, promoting a strong message of peace.\n",
+      "de": "Der Friedenspark wurde auf dem Gebiet errichtet, das 1945 von der Atombombe zerstört wurde. Das Museum zeigt Ausstellungen über die Auswirkungen der Bombe und erzählt die Geschichten der Opfer – eine kraftvolle Botschaft für den Frieden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Müze ziyareti",
+        "Tarihi keşif",
+        "Barış anıtı"
+      ],
+      "en": [
+        "Museum visit",
+        "Historical exploration",
+        "Peace monument"
+      ],
+      "de": [
+        "Museumsbesuch",
+        "Historische Erkundung",
+        "Friedensdenkmal"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/hiroshima-peace.jpg"
+    ]
+  },
+  {
+    "slug": "a-bomb-dome",
+    "name": {
+      "tr": "A-Bomb Dome",
+      "en": "A-Bomb Dome",
+      "de": "Atombombenkuppel"
+    },
+    "latitude": 34.3955,
+    "longitude": 132.4536,
+    "description": {
+      "tr": "Atom bombasının patladığı noktaya çok yakın bir mesafede bulunan bu yapı, patlamadan ayakta kalan az sayıdaki binalardan biridir. UNESCO Dünya Mirası Listesi'ndedir ve savaşın yıkıcı etkilerini simgeler.\n",
+      "en": "Located near the hypocenter of the atomic bomb explosion, this structure is one of the few that survived. It stands as a UNESCO World Heritage Site and a symbol of the destruction caused by war.\n",
+      "de": "Dieses Gebäude, nahe dem Epizentrum der Atombombenexplosion, ist eines der wenigen, das überlebt hat. Es ist UNESCO-Weltkulturerbe und symbolisiert die verheerenden Auswirkungen des Krieges.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapı",
+        "Fotoğrafçılık",
+        "UNESCO alanı"
+      ],
+      "en": [
+        "Historical site",
+        "Photography",
+        "UNESCO site"
+      ],
+      "de": [
+        "Historische Stätte",
+        "Fotografie",
+        "UNESCO-Stätte"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/abomb-dome.jpg"
+    ]
+  },
+  {
+    "slug": "miyajima-adasi",
+    "name": {
+      "tr": "Miyajima Adası",
+      "en": "Miyajima Island",
+      "de": "Miyajima-Insel"
+    },
+    "latitude": 34.2966,
+    "longitude": 132.3199,
+    "description": {
+      "tr": "Miyajima, \"kutsal ada\" anlamına gelir ve Itsukushima Tapınağı ile ünlüdür. Deniz üzerindeki kırmızı torii kapısıyla tanınır. Ada ayrıca doğa yürüyüşleri, geyikler ve geleneksel atmosferiyle ünlüdür.\n",
+      "en": "Miyajima, meaning \"sacred island\", is known for the iconic Itsukushima Shrine with its floating red torii gate. The island is also home to wild deer, forested trails, and traditional charm.\n",
+      "de": "Miyajima bedeutet „heilige Insel“ und ist bekannt für den berühmten Itsukushima-Schrein mit seinem roten Torii-Tor im Wasser. Die Insel bietet Wildhirsche, Wanderwege und traditionelles Flair.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Doğa yürüyüşü",
+        "Ada keşfi"
+      ],
+      "en": [
+        "Shrine visit",
+        "Nature walk",
+        "Island exploration"
+      ],
+      "de": [
+        "Schreinbesuch",
+        "Wanderung",
+        "Inselerkundung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/miyajima.jpg"
+    ]
+  }
+]

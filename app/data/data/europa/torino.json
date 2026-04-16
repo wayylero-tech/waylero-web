@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "mole-antonelliana",
+    "name": {
+      "tr": "Mole Antonelliana",
+      "en": "Mole Antonelliana",
+      "de": "Mole Antonelliana"
+    },
+    "latitude": 45.0703,
+    "longitude": 7.6869,
+    "description": {
+      "tr": "Mole Antonelliana, Torino'nun en yüksek yapısıdır ve şehri panoramik bir açıdan görmenizi sağlar. Ayrıca, içinde sinema müzesi bulunmaktadır.",
+      "en": "Mole Antonelliana is the tallest building in Turin and offers a panoramic view of the city. It also houses the Cinema Museum.",
+      "de": "Die Mole Antonelliana ist das höchste Gebäude in Turin und bietet einen Panoramablick auf die Stadt. Außerdem beherbergt es das Filmmuseum."
+    },
+    "activities": {
+      "tr": [
+        "Gözlem terasından şehri izleme",
+        "Sinema müzesini gezme"
+      ],
+      "en": [
+        "Enjoy the city view from the observation deck",
+        "Visit the cinema museum"
+      ],
+      "de": [
+        "Genießen Sie den Blick auf die Stadt von der Aussichtsplattform",
+        "Das Filmmuseum besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/mole_antonelliana.jpg"
+    ]
+  },
+  {
+    "slug": "torino-kraliyet-sarayi",
+    "name": {
+      "tr": "Torino Kraliyet Sarayı",
+      "en": "Royal Palace of Turin",
+      "de": "Königspalast von Turin"
+    },
+    "latitude": 45.0702,
+    "longitude": 7.6841,
+    "description": {
+      "tr": "Torino Kraliyet Sarayı, İtalya'nın en önemli tarihî yapılarından biri olup, barok tarzında inşa edilmiştir ve UNESCO Dünya Mirası listesindedir.",
+      "en": "The Royal Palace of Turin is one of Italy's most important historical buildings, built in Baroque style and listed as a UNESCO World Heritage site.",
+      "de": "Der Königspalast von Turin ist eines der wichtigsten historischen Gebäude Italiens, im Barockstil erbaut und als UNESCO-Weltkulturerbe gelistet."
+    },
+    "activities": {
+      "tr": [
+        "Saray içinde gezme",
+        "Bahçelerde dolaşma"
+      ],
+      "en": [
+        "Tour the palace",
+        "Stroll through the gardens"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Durch die Gärten spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/royal_palace_torino.jpg"
+    ]
+  }
+]

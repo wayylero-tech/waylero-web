@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "roskilde-katedrali",
+    "name": {
+      "tr": "Roskilde Katedrali",
+      "en": "Roskilde Cathedral",
+      "de": "Roskilde Kathedrale"
+    },
+    "latitude": 55.6414,
+    "longitude": 12.0802,
+    "description": {
+      "tr": "Roskilde Katedrali, UNESCO Dünya Mirası Listesi’nde yer alan ve Danimarka’nın en büyük katedrallerinden biridir. Gotik tarzda inşa edilmiştir.",
+      "en": "Roskilde Cathedral is one of Denmark’s largest cathedrals, listed as a UNESCO World Heritage site. It is built in the Gothic style.",
+      "de": "Die Roskilde Kathedrale ist eine der größten Kathedralen Dänemarks und steht auf der UNESCO-Weltkulturerbeliste. Sie wurde im gotischen Stil erbaut."
+    },
+    "activities": {
+      "tr": [
+        "Katedral turu yapmak",
+        "Tarihi mimariyi keşfetmek"
+      ],
+      "en": [
+        "Take a cathedral tour",
+        "Explore the historic architecture"
+      ],
+      "de": [
+        "Eine Kathedrale besichtigen",
+        "Die historische Architektur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/roskilde_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "viking-gemi-muzesi",
+    "name": {
+      "tr": "Viking Gemi Müzesi",
+      "en": "Viking Ship Museum",
+      "de": "Wikingerschiffmuseum"
+    },
+    "latitude": 55.641,
+    "longitude": 12.0815,
+    "description": {
+      "tr": "Viking Gemi Müzesi, Viking dönemi gemilerini sergileyen ve ziyaretçilerine tarih hakkında bilgi veren bir müzedir.",
+      "en": "The Viking Ship Museum exhibits Viking-era ships and provides visitors with information about the history of the Vikings.",
+      "de": "Das Wikingerschiffmuseum stellt Schiffe aus der Wikingerzeit aus und informiert die Besucher über die Geschichte der Wikinger."
+    },
+    "activities": {
+      "tr": [
+        "Viking gemilerini incelemek",
+        "Viking tarihi hakkında bilgi almak"
+      ],
+      "en": [
+        "Examine Viking ships",
+        "Learn about Viking history"
+      ],
+      "de": [
+        "Wikingerschiffe besichtigen",
+        "Mehr über die Wikingergeschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/viking_ship_museum.jpg"
+    ]
+  }
+]

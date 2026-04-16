@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "alleppey",
+    "name": {
+      "tr": "Alleppey",
+      "en": "Alleppey",
+      "de": "Alleppey"
+    },
+    "latitude": 9.5,
+    "longitude": 76.35,
+    "description": {
+      "tr": "Alleppey, Kerala’daki en ünlü backwater destinasyonlarından biridir. Ev tekneleriyle yapılan gezilerle ünlüdür ve manzarası büyüleyicidir.",
+      "en": "Alleppey is one of the most famous backwater destinations in Kerala. It is famous for houseboat cruises and has stunning views.",
+      "de": "Alleppey ist eines der bekanntesten Backwater-Reiseziele in Kerala. Es ist berühmt für Hausbootfahrten und hat atemberaubende Ausblicke."
+    },
+    "activities": {
+      "tr": [
+        "Ev teknesi gezisi",
+        "Fotoğraf çekimi",
+        "Doğa gözlemi"
+      ],
+      "en": [
+        "Houseboat cruise",
+        "Photography",
+        "Nature observation"
+      ],
+      "de": [
+        "Hausbootfahrt",
+        "Fotografie",
+        "Naturbeobachtung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/alleppey.jpg"
+    ]
+  },
+  {
+    "slug": "munnar",
+    "name": {
+      "tr": "Munnar",
+      "en": "Munnar",
+      "de": "Munnar"
+    },
+    "latitude": 10.0884,
+    "longitude": 77.0625,
+    "description": {
+      "tr": "Munnar, Kerala’nın yüksek dağlarında yer alan bir kasaba olup çay bahçeleriyle ünlüdür. Burada dağ yürüyüşleri ve çay plantasyonu turları popülerdir.",
+      "en": "Munnar is a hill station located in the high mountains of Kerala, famous for its tea plantations. It is popular for trekking and tea plantation tours.",
+      "de": "Munnar ist eine Bergstation in den hohen Bergen von Kerala, die für ihre Teeanbauplantagen bekannt ist. Es ist beliebt für Trekking und Teeanbauplantagen-Touren."
+    },
+    "activities": {
+      "tr": [
+        "Dağ yürüyüşü",
+        "Çay bahçesi turu",
+        "Doğa gözlemi"
+      ],
+      "en": [
+        "Mountain trekking",
+        "Tea plantation tour",
+        "Nature observation"
+      ],
+      "de": [
+        "Bergwandern",
+        "Teeplantagen-Tour",
+        "Naturbeobachtung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/munnar.jpg"
+    ]
+  },
+  {
+    "slug": "kumarakom",
+    "name": {
+      "tr": "Kumarakom",
+      "en": "Kumarakom",
+      "de": "Kumarakom"
+    },
+    "latitude": 9.6,
+    "longitude": 76.5333,
+    "description": {
+      "tr": "Kumarakom, Kerala’daki bir diğer popüler backwater destinasyonudur. Burada sakin bir tatil için ev teknesi gezileri ve kuş gözlemi yapılabilir.",
+      "en": "Kumarakom is another popular backwater destination in Kerala. It offers houseboat cruises and bird watching for a peaceful retreat.",
+      "de": "Kumarakom ist ein weiteres beliebtes Backwater-Reiseziel in Kerala. Es bietet Hausbootfahrten und Vogelbeobachtung für einen ruhigen Rückzugsort."
+    },
+    "activities": {
+      "tr": [
+        "Ev teknesi gezisi",
+        "Kuş gözlemi",
+        "Balık tutma"
+      ],
+      "en": [
+        "Houseboat cruise",
+        "Bird watching",
+        "Fishing"
+      ],
+      "de": [
+        "Hausbootfahrt",
+        "Vogelbeobachtung",
+        "Angeln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/kumarakom.jpg"
+    ]
+  },
+  {
+    "slug": "varkala-plaji",
+    "name": {
+      "tr": "Varkala Plajı",
+      "en": "Varkala Beach",
+      "de": "Varkala Strand"
+    },
+    "latitude": 8.7377,
+    "longitude": 76.7077,
+    "description": {
+      "tr": "Varkala, Kerala’nın en güzel plajlarından biridir. Varkala Plajı, kayalık sahil kenarları ve büyük deniz manzarasıyla ünlüdür.",
+      "en": "Varkala is one of the most beautiful beaches in Kerala. Varkala Beach is famous for its cliffside shores and stunning sea views.",
+      "de": "Varkala ist einer der schönsten Strände in Kerala. Der Varkala Strand ist bekannt für seine Klippenstrände und atemberaubenden Meerblicke."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Sahilde yürüyüş",
+        "Güneşlenme"
+      ],
+      "en": [
+        "Swimming",
+        "Beach walk",
+        "Sunbathing"
+      ],
+      "de": [
+        "Schwimmen",
+        "Strandspaziergang",
+        "Sonnenbaden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/varkala_beach.jpg"
+    ]
+  },
+  {
+    "slug": "athirappilly-selalesi",
+    "name": {
+      "tr": "Athirappilly Şelalesi",
+      "en": "Athirappilly Waterfalls",
+      "de": "Athirappilly Wasserfälle"
+    },
+    "latitude": 10.2821,
+    "longitude": 76.533,
+    "description": {
+      "tr": "Athirappilly Şelalesi, Kerala’nın en büyük ve en etkileyici şelalelerinden biridir. \"Kerala’nın Niagara Şelalesi\" olarak da bilinir.",
+      "en": "Athirappilly Waterfalls is one of the largest and most impressive waterfalls in Kerala. It is also known as the \"Niagara of Kerala\".",
+      "de": "Die Athirappilly Wasserfälle sind einer der größten und beeindruckendsten Wasserfälle in Kerala. Sie sind auch als \"Niagara von Kerala\" bekannt."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Fotoğraf çekimi",
+        "Şelale gezisi"
+      ],
+      "en": [
+        "Nature walk",
+        "Photography",
+        "Waterfall tour"
+      ],
+      "de": [
+        "Naturwanderung",
+        "Fotografie",
+        "Wasserfall-Tour"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/athirappilly_waterfall.jpg"
+    ]
+  }
+]

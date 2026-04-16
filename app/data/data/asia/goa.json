@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "palolem-plaji",
+    "name": {
+      "tr": "Palolem Plajı",
+      "en": "Palolem Beach",
+      "de": "Palolem Strand"
+    },
+    "latitude": 15,
+    "longitude": 74.1,
+    "description": {
+      "tr": "Palolem Plajı, Goa’nın en popüler ve huzurlu plajlarından biridir. Berrak suyu ve doğal güzellikleri ile ünlüdür.",
+      "en": "Palolem Beach is one of Goa’s most popular and peaceful beaches. It is famous for its clear waters and natural beauty.",
+      "de": "Der Palolem Strand ist einer der bekanntesten und ruhigsten Strände Goas. Er ist berühmt für sein klares Wasser und seine natürliche Schönheit."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Güneşlenme",
+        "Tekne turu"
+      ],
+      "en": [
+        "Swimming",
+        "Sunbathing",
+        "Boat ride"
+      ],
+      "de": [
+        "Schwimmen",
+        "Sonnenbaden",
+        "Bootsfahrt"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/palolem_beach.jpg"
+    ]
+  },
+  {
+    "slug": "baga-plaji",
+    "name": {
+      "tr": "Baga Plajı",
+      "en": "Baga Beach",
+      "de": "Baga Strand"
+    },
+    "latitude": 15.5522,
+    "longitude": 73.7497,
+    "description": {
+      "tr": "Baga Plajı, Goa’daki en canlı ve hareketli plajlardan biridir. Gece hayatı, restoranlar ve su sporları ile ünlüdür.",
+      "en": "Baga Beach is one of the most vibrant and lively beaches in Goa. It is famous for its nightlife, restaurants, and water sports.",
+      "de": "Der Baga Strand ist einer der lebendigsten und aufregendsten Strände in Goa. Er ist berühmt für sein Nachtleben, Restaurants und Wassersportarten."
+    },
+    "activities": {
+      "tr": [
+        "Su sporları",
+        "Gece hayatı",
+        "Alışveriş"
+      ],
+      "en": [
+        "Water sports",
+        "Nightlife",
+        "Shopping"
+      ],
+      "de": [
+        "Wassersportarten",
+        "Nachtleben",
+        "Einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/baga_beach.jpg"
+    ]
+  },
+  {
+    "slug": "anjuna-plaji",
+    "name": {
+      "tr": "Anjuna Plajı",
+      "en": "Anjuna Beach",
+      "de": "Anjuna Strand"
+    },
+    "latitude": 15.5521,
+    "longitude": 73.8137,
+    "description": {
+      "tr": "Anjuna Plajı, Goa’nın en eski ve en ünlü plajlarından biridir. Genellikle sırt çantalı gezginler ve hipiler için popüler bir yerdir.",
+      "en": "Anjuna Beach is one of the oldest and most famous beaches in Goa. It is a popular spot for backpackers and hippies.",
+      "de": "Der Anjuna Strand ist einer der ältesten und bekanntesten Strände in Goa. Er ist ein beliebter Ort für Rucksacktouristen und Hippies."
+    },
+    "activities": {
+      "tr": [
+        "Plajda yürüyüş",
+        "Gece hayatı",
+        "Pazar alışverişi"
+      ],
+      "en": [
+        "Beach walk",
+        "Nightlife",
+        "Market shopping"
+      ],
+      "de": [
+        "Strandspaziergang",
+        "Nachtleben",
+        "Markteinkauf"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/anjuna_beach.jpg"
+    ]
+  },
+  {
+    "slug": "basilica-of-bom-jesus",
+    "name": {
+      "tr": "Basilica of Bom Jesus",
+      "en": "Basilica of Bom Jesus",
+      "de": "Basilica of Bom Jesus"
+    },
+    "latitude": 15.5344,
+    "longitude": 73.9026,
+    "description": {
+      "tr": "Bom Jesus Bazilikası, Goa’nın en önemli dini yapılarından biridir ve UNESCO Dünya Mirası Listesi’nde yer alır. Aziz Francis Xavier’in cesedi burada korunmaktadır.",
+      "en": "The Basilica of Bom Jesus is one of the most important religious structures in Goa and is a UNESCO World Heritage Site. The body of Saint Francis Xavier is preserved here.",
+      "de": "Die Basilica of Bom Jesus ist eine der wichtigsten religiösen Stätten in Goa und ist ein UNESCO-Weltkulturerbe. Der Leichnam von St. Franziskus Xavier wird hier aufbewahrt."
+    },
+    "activities": {
+      "tr": [
+        "Tarihî keşif",
+        "Mimari gözlem",
+        "Dini ziyaret"
+      ],
+      "en": [
+        "Historical exploration",
+        "Architectural observation",
+        "Religious visit"
+      ],
+      "de": [
+        "Historische Entdeckung",
+        "Architektonische Beobachtung",
+        "Religiöser Besuch"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/basilica_of_bom_jesus.jpg"
+    ]
+  },
+  {
+    "slug": "dudhsagar-selalesi",
+    "name": {
+      "tr": "Dudhsagar Şelalesi",
+      "en": "Dudhsagar Waterfall",
+      "de": "Dudhsagar Wasserfall"
+    },
+    "latitude": 15.2834,
+    "longitude": 74.1862,
+    "description": {
+      "tr": "Dudhsagar Şelalesi, Goa’daki en yüksek ve en etkileyici şelalelerden biridir. Şelale, yemyeşil ormanlar içinde yer alır ve trekking yapanlar için popüler bir yerdir.",
+      "en": "Dudhsagar Waterfall is one of the highest and most impressive waterfalls in Goa. The waterfall is situated amidst lush forests and is a popular spot for trekking.",
+      "de": "Der Dudhsagar Wasserfall ist einer der höchsten und beeindruckendsten Wasserfälle in Goa. Der Wasserfall befindet sich inmitten üppiger Wälder und ist ein beliebter Ort zum Wandern."
+    },
+    "activities": {
+      "tr": [
+        "Trekking",
+        "Doğa yürüyüşü",
+        "Fotoğraf çekimi"
+      ],
+      "en": [
+        "Trekking",
+        "Nature walk",
+        "Photography"
+      ],
+      "de": [
+        "Wandern",
+        "Naturwanderung",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/dudhsagar_waterfall.jpg"
+    ]
+  }
+]

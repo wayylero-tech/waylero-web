@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "svetitskhoveli-katedrali",
+    "name": {
+      "tr": "Svetitskhoveli Katedrali",
+      "en": "Svetitskhoveli Cathedral",
+      "de": "Svetitskhoveli Kathedrale"
+    },
+    "latitude": 41.8525,
+    "longitude": 44.7419,
+    "description": {
+      "tr": "Svetitskhoveli Katedrali, Gürcistan’ın dini merkezi olarak kabul edilir ve UNESCO Dünya Mirası Listesi’nde yer alır. 11. yüzyılda inşa edilen bu katedral, Gürcistan’ın Ortodoks Hristiyanlık tarihindeki önemli bir yer tutar. Ayrıca, katedraldeki kutsal emanetler ve tarihi freskler büyük bir dini öneme sahiptir.",
+      "en": "Svetitskhoveli Cathedral is considered the religious center of Georgia and is listed on the UNESCO World Heritage List. Built in the 11th century, this cathedral holds an important place in the history of Georgian Orthodox Christianity. The sacred relics and historical frescoes in the cathedral also have great religious significance.",
+      "de": "Die Svetitskhoveli-Kathedrale gilt als religiöses Zentrum Georgiens und steht auf der UNESCO-Weltkulturerbeliste. Sie wurde im 11. Jahrhundert erbaut und spielt eine wichtige Rolle in der Geschichte des georgischen orthodoxen Christentums. Die heiligen Reliquien und historischen Fresken in der Kathedrale haben ebenfalls große religiöse Bedeutung."
+    },
+    "activities": {
+      "tr": [
+        "Katedralde gezmek",
+        "Freskleri görmek"
+      ],
+      "en": [
+        "Visiting the cathedral",
+        "Seeing the frescoes"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die Fresken sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/svetitskhoveli_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "jvari-manastiri",
+    "name": {
+      "tr": "Jvari Manastırı",
+      "en": "Jvari Monastery",
+      "de": "Jvari-Kloster"
+    },
+    "latitude": 41.8633,
+    "longitude": 44.7236,
+    "description": {
+      "tr": "Jvari Manastırı, Mtskheta şehrinin hemen dışında yer alan ve şehri yüksekten görebileceğiniz tarihi bir manastırdır. 6. yüzyılda inşa edilen bu manastır, Gürcistan’ın ilk Ortodoks kiliselerinden biridir ve ülkenin dini tarihinde önemli bir yere sahiptir.",
+      "en": "Jvari Monastery, located just outside the city of Mtskheta, offers a high vantage point over the city. Built in the 6th century, it is one of Georgia’s first Orthodox churches and holds an important place in the country’s religious history.",
+      "de": "Das Jvari-Kloster liegt direkt außerhalb der Stadt Mtskheta und bietet einen hohen Aussichtspunkt auf die Stadt. Es wurde im 6. Jahrhundert erbaut und ist eine der ersten orthodoxen Kirchen Georgiens und spielt eine wichtige Rolle in der religiösen Geschichte des Landes."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezmek",
+        "Manzarayı görmek"
+      ],
+      "en": [
+        "Visiting the monastery",
+        "Seeing the view"
+      ],
+      "de": [
+        "Das Kloster besuchen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/jvari_monastery.jpg"
+    ]
+  },
+  {
+    "slug": "samtavro-manastiri",
+    "name": {
+      "tr": "Samtavro Manastırı",
+      "en": "Samtavro Monastery",
+      "de": "Samtavro-Kloster"
+    },
+    "latitude": 41.8531,
+    "longitude": 44.7412,
+    "description": {
+      "tr": "Samtavro Manastırı, Mtskheta şehrinin en eski dini yapılarından biridir. 4. yüzyılda inşa edilen bu manastır, Gürcistan’ın Hristiyanlık tarihinin erken dönemlerine aittir ve ülkenin dini mirasında önemli bir yer tutar.",
+      "en": "Samtavro Monastery is one of the oldest religious structures in the city of Mtskheta. Built in the 4th century, this monastery belongs to the early periods of Georgia’s Christianity and holds an important place in the country’s religious heritage.",
+      "de": "Das Samtavro-Kloster ist eines der ältesten religiösen Gebäude in der Stadt Mtskheta. Es wurde im 4. Jahrhundert erbaut und gehört zu den frühen Perioden des christlichen Georgiens und spielt eine wichtige Rolle im religiösen Erbe des Landes."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezmek",
+        "Tarihi atmosferi yaşamak"
+      ],
+      "en": [
+        "Visiting the monastery",
+        "Experiencing the historical atmosphere"
+      ],
+      "de": [
+        "Das Kloster besichtigen",
+        "Die historische Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/samtavro_monastery.jpg"
+    ]
+  }
+]

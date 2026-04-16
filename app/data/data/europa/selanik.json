@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "thessaloniki-antik-kenti",
+    "name": {
+      "tr": "Thessaloniki Antik Kenti",
+      "en": "Ancient Thessaloniki",
+      "de": "Antike Stadt Thessaloniki"
+    },
+    "latitude": 40.6401,
+    "longitude": 22.9444,
+    "description": {
+      "tr": "Thessaloniki, Yunanistan'ın **Makedonya** bölgesinde, Ege Denizi kıyısında yer alan önemli bir antik şehirdir. MÖ 315 yılında **Kral Kassandros** tarafından kurulan şehir, ismini o dönemdeki karısı **Thessalonike**’den alır. Thessaloniki, Roma İmparatorluğu, Bizans İmparatorluğu ve Osmanlı İmparatorluğu gibi pek çok farklı uygarlığın etkisi altında kalmış ve bu nedenle zengin bir kültürel mirasa sahiptir.\n\nThessaloniki'nin en dikkat çekici yapılarından biri **Galerius İmparatorluk Kapısı (Arch of Galerius)**’dır. Roma İmparatoru Galerius tarafından zafer anıtı olarak yaptırılan bu kapı, antik kentin önemli girişlerinden biri olmuştur. Ayrıca, **Antik Agora**, şehrin ticaret ve sosyal yaşam merkezi olarak işlev görmüştür. Bu alanda pek çok antik kalıntı ve yapılar günümüze ulaşmıştır. **Roma Hamamları** da Roma dönemine ait etkileyici yapılar arasında yer almaktadır.\n\nBunun yanı sıra, **Beyaz Kule** ve **Rotunda** gibi yapılar da Roma ve Bizans dönemlerinin izlerini taşıyan önemli kalıntılardır. Thessaloniki, antik kalıntıları ve zengin tarihi ile Yunanistan’ın kültürel açıdan en önemli şehirlerinden biridir.\n",
+      "en": "Thessaloniki is an important ancient city located in the **Macedonia** region of Greece, along the shores of the Aegean Sea. Founded in **315 BC** by **King Cassander**, the city was named after his wife, **Thessalonike**. Thessaloniki has been influenced by many civilizations, including the Roman Empire, the Byzantine Empire, and the Ottoman Empire, and as such, it boasts a rich cultural heritage.\n\nAmong Thessaloniki's most notable structures is the **Arch of Galerius**, an ancient triumphal arch built by Roman Emperor Galerius to commemorate his victories. This gate marked one of the city's important entrances. The **Ancient Agora** was the heart of trade and social life in Thessaloniki, and many ancient ruins can be found in this area. Additionally, the **Roman Baths** offer a glimpse into the Roman era's architectural and social life.\n\nFurthermore, landmarks like the **White Tower** and the **Rotunda** are significant remnants of both the Roman and Byzantine periods. Thessaloniki is one of Greece's most culturally rich cities, with a deep history and a treasure trove of ancient ruins.\n",
+      "de": "Thessaloniki ist eine bedeutende antike Stadt in der Region **Mazedonien** in Griechenland, an den Ufern des Ägäischen Meeres. Die Stadt wurde im **Jahr 315 v. Chr.** von **König Kassander** gegründet und nach seiner Frau **Thessalonike** benannt. Thessaloniki wurde von vielen verschiedenen Zivilisationen beeinflusst, darunter das Römische Reich, das Byzantinische Reich und das Osmanische Reich, und besitzt daher ein reiches kulturelles Erbe.\n\nZu den bekanntesten Bauwerken von Thessaloniki gehört der **Triumphbogen von Galerius**, ein antiker Ehrenbogen, der von Kaiser Galerius zur Feier seiner Siege errichtet wurde. Dieser Bogen markiert einen der wichtigen Eingänge der Stadt. Die **Antike Agora** war das Zentrum des Handels und des sozialen Lebens in Thessaloniki, und viele antike Ruinen können in diesem Bereich gefunden werden. Außerdem bieten die **Römischen Bäder** einen Einblick in die Architektur und das soziale Leben der Römer.\n\nDarüber hinaus sind Wahrzeichen wie der **Weiße Turm** und die **Rotunde** bedeutende Überreste der römischen und byzantinischen Zeit. Thessaloniki ist eine der kulturell reichsten Städte Griechenlands mit einer tiefen Geschichte und einer Fülle antiker Ruinen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Galerius İmparatorluk Kapısını gezmek",
+        "Antik Agora’yı keşfetmek",
+        "Roma Hamamlarını incelemek"
+      ],
+      "en": [
+        "Explore the Arch of Galerius",
+        "Discover the Ancient Agora",
+        "Visit the Roman Baths"
+      ],
+      "de": [
+        "Den Triumphbogen von Galerius besichtigen",
+        "Die Antike Agora entdecken",
+        "Die Römischen Bäder besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/thessaloniki_ancient_city_1.jpg",
+      "https://example.com/thessaloniki_ancient_city_2.jpg"
+    ]
+  }
+]

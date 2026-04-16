@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "neum-plajlari",
+    "name": {
+      "tr": "Neum Plajları",
+      "en": "Neum Beaches",
+      "de": "Neum Strände"
+    },
+    "latitude": 42.9197,
+    "longitude": 17.6157,
+    "description": {
+      "tr": "Neum Plajları, Bosna-Hersek’in Adriyatik Denizi'ne kıyısı olan tek kasabası olan Neum'da yer alır. Bu plajlar, bölgedeki en popüler tatil beldelerindendir ve sıcak yaz aylarında yerli ve yabancı turistler tarafından sıklıkla ziyaret edilmektedir. Neum'un plajları genellikle temiz, kristal berraklığında deniz suyu ve güzel kumsallarıyla ünlüdür. Neum’un plajları, rahatlatıcı bir tatil geçirmek isteyenler için mükemmel bir yerdir. Ayrıca, plajda çeşitli su sporları aktiviteleri de yapılabilmektedir.\n",
+      "en": "Neum Beaches are located in Neum, the only town in Bosnia and Herzegovina with a coastline along the Adriatic Sea. These beaches are among the most popular holiday destinations in the region and attract both local and international tourists, especially during the warm summer months. Neum’s beaches are known for their clean, crystal-clear waters and beautiful sandy shores. The beaches of Neum are an ideal place for those looking to relax and enjoy a peaceful vacation. Additionally, various water sports activities can be enjoyed on the beaches.\n",
+      "de": "Die Neum-Strände befinden sich in Neum, der einzigen Stadt in Bosnien und Herzegowina mit einer Küste an der Adria. Diese Strände gehören zu den beliebtesten Urlaubszielen der Region und ziehen sowohl lokale als auch internationale Touristen an, besonders in den warmen Sommermonaten. Die Strände von Neum sind bekannt für ihr sauberes, kristallklares Wasser und ihre schönen Sandstrände. Die Strände von Neum sind ein idealer Ort für diejenigen, die einen entspannenden Urlaub verbringen möchten. Darüber hinaus können auf den Stränden verschiedene Wassersportarten ausgeübt werden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Su sporları yapmak",
+        "Güneşlenmek",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Swimming",
+        "Engaging in water sports",
+        "Sunbathing",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Schwimmen",
+        "Wassersport betreiben",
+        "Sonnenbaden",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/neum_beaches1.jpg",
+      "https://example.com/neum_beaches2.jpg"
+    ]
+  },
+  {
+    "slug": "neum-korfezi",
+    "name": {
+      "tr": "Neum Körfezi",
+      "en": "Neum Bay",
+      "de": "Neum Bucht"
+    },
+    "latitude": 42.9197,
+    "longitude": 17.6157,
+    "description": {
+      "tr": "Neum Körfezi, Bosna-Hersek'in Adriyatik kıyısındaki en önemli doğal alanlardan biridir. Bu körfez, Neum kasabasının hemen dışında yer alır ve çevresi muazzam bir doğal güzellik sunar. Neum Körfezi, berrak denizi ve sakin atmosferi ile ünlüdür. Ayrıca, körfez boyunca yürüyüş yapabilir ve denizin huzur veren manzarasına tanık olabilirsiniz. Neum Körfezi, doğa severler ve sakin bir tatil geçirmek isteyenler için ideal bir yerdir.\n",
+      "en": "Neum Bay is one of the most significant natural areas along Bosnia and Herzegovina’s Adriatic coastline. The bay is located just outside of the town of Neum and offers breathtaking natural beauty. Neum Bay is known for its clear waters and peaceful atmosphere. Visitors can take relaxing walks along the bay and enjoy the tranquil views of the sea. Neum Bay is the perfect destination for nature lovers and those looking for a quiet getaway.\n",
+      "de": "Die Neum-Bucht ist eines der bedeutendsten Naturschutzgebiete an der Adriaküste von Bosnien und Herzegowina. Die Bucht liegt direkt außerhalb der Stadt Neum und bietet atemberaubende natürliche Schönheit. Die Neum-Bucht ist bekannt für ihr klares Wasser und ihre ruhige Atmosphäre. Besucher können entlang der Bucht spazieren gehen und die friedlichen Ausblicke auf das Meer genießen. Die Neum-Bucht ist das perfekte Ziel für Naturliebhaber und für diejenigen, die einen ruhigen Urlaub suchen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Deniz manzarasını izlemek",
+        "Huzurlu bir atmosferde dinlenmek"
+      ],
+      "en": [
+        "Taking a nature walk",
+        "Enjoying the sea view",
+        "Relaxing in a peaceful atmosphere"
+      ],
+      "de": [
+        "Spaziergänge in der Natur machen",
+        "Den Meerblick genießen",
+        "In einer friedlichen Atmosphäre entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/neum_bay1.jpg",
+      "https://example.com/neum_bay2.jpg"
+    ]
+  }
+]

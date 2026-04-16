@@ -1,0 +1,235 @@
+[
+  {
+    "slug": "ganj-nehri",
+    "name": {
+      "tr": "Ganj Nehri",
+      "en": "Ganges River",
+      "de": "Ganges Fluss"
+    },
+    "latitude": 25.2952,
+    "longitude": 82.0078,
+    "description": {
+      "tr": "Ganj Nehri, Hindistan’ın en kutsal nehridir ve Varanasi’nin kalbinde yer alır. Sabaha karşı yapılan tekne turları, bu kutsal nehri görmek için en güzel fırsattır.",
+      "en": "The Ganges River is one of the holiest rivers in India, and it flows through the heart of Varanasi. Early morning boat rides are a popular way to experience this sacred river.",
+      "de": "Der Gangesfluss ist einer der heiligsten Flüsse Indiens und verläuft durch das Herz von Varanasi. Frühmorgendliche Bootstouren sind eine beliebte Möglichkeit, diesen heiligen Fluss zu erleben."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turu",
+        "Hindu dini seremonileri izleme",
+        "Meditasyon"
+      ],
+      "en": [
+        "Boat ride",
+        "Watch Hindu religious ceremonies",
+        "Meditation"
+      ],
+      "de": [
+        "Bootsfahrt",
+        "Beobachten von hinduistischen religiösen Zeremonien",
+        "Meditation"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/ganges_river.jpg"
+    ]
+  },
+  {
+    "slug": "kashi-vishwanath-tapinagi",
+    "name": {
+      "tr": "Kashi Vishwanath Tapınağı",
+      "en": "Kashi Vishwanath Temple",
+      "de": "Kashi Vishwanath Tempel"
+    },
+    "latitude": 25.309,
+    "longitude": 82.0735,
+    "description": {
+      "tr": "Kashi Vishwanath Tapınağı, Hinduizm’in en kutsal Shiva tapınaklarından biridir. Bu tapınak, Ganj Nehri’nin yakınında yer alır ve her yıl milyonlarca ziyaretçi çeker.",
+      "en": "Kashi Vishwanath Temple is one of the holiest Shiva temples in Hinduism. It is located near the Ganges River and attracts millions of visitors each year.",
+      "de": "Der Kashi Vishwanath Tempel ist einer der heiligsten Shiva-Tempel im Hinduismus. Er liegt in der Nähe des Gangesflusses und zieht jedes Jahr Millionen von Besuchern an."
+    },
+    "activities": {
+      "tr": [
+        "Dini ibadet",
+        "Tarihi ziyaret",
+        "Hindu kültürünü keşfetme"
+      ],
+      "en": [
+        "Religious worship",
+        "Historical visit",
+        "Explore Hindu culture"
+      ],
+      "de": [
+        "Religiöse Verehrung",
+        "Historische Besichtigung",
+        "Hindu-Kultur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/kashi_vishwanath.jpg"
+    ]
+  },
+  {
+    "slug": "manikarnika-ghat",
+    "name": {
+      "tr": "Manikarnika Ghat",
+      "en": "Manikarnika Ghat",
+      "de": "Manikarnika Ghat"
+    },
+    "latitude": 25.3096,
+    "longitude": 82.0739,
+    "description": {
+      "tr": "Manikarnika Ghat, Varanasi’deki en önemli ve en kutsal cenaze merdivenlerinden biridir. Burada cenaze törenleri yapılır ve Hindu inancına göre, burada ölen kişilerin ruhları kurtuluşa ulaşır.",
+      "en": "Manikarnika Ghat is one of the most important and sacred funeral ghats in Varanasi. Funeral rituals take place here, and in Hindu belief, those who die here attain liberation.",
+      "de": "Manikarnika Ghat ist einer der wichtigsten und heiligsten Leichenschauhäuser in Varanasi. Hier finden Begräbnisriten statt, und im Hinduismus glaubt man, dass die Seelen der Verstorbenen hier Befreiung erlangen."
+    },
+    "activities": {
+      "tr": [
+        "Cenaze töreni gözlemi",
+        "Hindu ritüelleri hakkında bilgi edinme"
+      ],
+      "en": [
+        "Observe funeral rites",
+        "Learn about Hindu rituals"
+      ],
+      "de": [
+        "Beobachten von Bestattungsriten",
+        "Lernen über hinduistische Rituale"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/manikarnika_ghat.jpg"
+    ]
+  },
+  {
+    "slug": "durgakund-tapinagi",
+    "name": {
+      "tr": "Durgakund Tapınağı",
+      "en": "Durga Kund Temple",
+      "de": "Durga Kund Tempel"
+    },
+    "latitude": 25.2892,
+    "longitude": 82.0587,
+    "description": {
+      "tr": "Durgakund Tapınağı, Varanasi’nin en eski ve en saygın tapınaklarından biridir. Durga Tanrıçası’na adanmıştır ve ziyaretçiler burada huzur ve manevi bir deneyim arar.",
+      "en": "Durga Kund Temple is one of the oldest and most revered temples in Varanasi, dedicated to the Goddess Durga. Visitors seek peace and a spiritual experience here.",
+      "de": "Der Durga Kund Tempel ist einer der ältesten und verehrtesten Tempel in Varanasi, der der Göttin Durga gewidmet ist. Besucher suchen hier Frieden und spirituelle Erfahrung."
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Dini ibadet",
+        "Meditasyon"
+      ],
+      "en": [
+        "Temple visit",
+        "Religious worship",
+        "Meditation"
+      ],
+      "de": [
+        "Tempelbesuch",
+        "Religiöse Verehrung",
+        "Meditation"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/durga_kund_temple.jpg"
+    ]
+  },
+  {
+    "slug": "sarnath",
+    "name": {
+      "tr": "Sarnath",
+      "en": "Sarnath",
+      "de": "Sarnath"
+    },
+    "latitude": 25.3809,
+    "longitude": 82.7753,
+    "description": {
+      "tr": "Sarnath, Budizm’in doğuş yeri olarak kabul edilir. Buddha’nın aydınlanmayı burada bulduğuna inanılır. Sarnath’ta, antik tapınaklar ve kazılar görülebilir.",
+      "en": "Sarnath is considered the birthplace of Buddhism, where Buddha is believed to have attained enlightenment. Ancient temples and excavations can be explored here.",
+      "de": "Sarnath gilt als der Geburtsort des Buddhismus, wo Buddha angeblich Erleuchtung erlangte. Hier können antike Tempel und Ausgrabungen besichtigt werden."
+    },
+    "activities": {
+      "tr": [
+        "Tapınak ziyareti",
+        "Antik kazılar",
+        "Tarihi keşif"
+      ],
+      "en": [
+        "Temple visit",
+        "Ancient excavations",
+        "Historical exploration"
+      ],
+      "de": [
+        "Tempelbesuch",
+        "Antike Ausgrabungen",
+        "Historische Entdeckungen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "genel"
+      ],
+      "en": [
+        "general"
+      ],
+      "de": [
+        "Allgemein"
+      ]
+    },
+    "images": [
+      "https://example.com/sarnath.jpg"
+    ]
+  }
+]

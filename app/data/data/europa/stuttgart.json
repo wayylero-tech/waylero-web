@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "mercedes-benz-muzesi",
+    "name": {
+      "tr": "Mercedes-Benz Müzesi",
+      "en": "Mercedes-Benz Museum",
+      "de": "Mercedes-Benz Museum"
+    },
+    "latitude": 48.8078,
+    "longitude": 9.2813,
+    "description": {
+      "tr": "Mercedes-Benz Müzesi, otomobil dünyasına ilgi duyanlar için mükemmel bir yerdir. Müzede, Mercedes-Benz'in tarihini keşfetmek mümkündür.",
+      "en": "The Mercedes-Benz Museum is a great place for automobile enthusiasts. It offers a chance to explore the history of Mercedes-Benz.",
+      "de": "Das Mercedes-Benz Museum ist ein großartiger Ort für Auto-Enthusiasten. Es bietet die Möglichkeit, die Geschichte von Mercedes-Benz zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Müzeyi gezme",
+        "Otomobil tarihini keşfetme"
+      ],
+      "en": [
+        "Tour the museum",
+        "Explore the history of automobiles"
+      ],
+      "de": [
+        "Das Museum besichtigen",
+        "Die Geschichte der Automobile entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/mercedes_benz_museum.jpg"
+    ]
+  },
+  {
+    "slug": "wilhelma-hayvanat-bahcesi",
+    "name": {
+      "tr": "Wilhelma Hayvanat Bahçesi",
+      "en": "Wilhelma Zoo",
+      "de": "Wilhelma Zoo"
+    },
+    "latitude": 48.7925,
+    "longitude": 9.2105,
+    "description": {
+      "tr": "Wilhelma Hayvanat Bahçesi, Stuttgart'taki en büyük hayvanat bahçelerinden biridir ve farklı hayvan türlerine ev sahipliği yapmaktadır.",
+      "en": "Wilhelma Zoo is one of the largest zoos in Stuttgart and houses a variety of animal species.",
+      "de": "Der Wilhelma Zoo ist einer der größten Zoos in Stuttgart und beherbergt eine Vielzahl von Tierarten."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanat bahçesini gezme",
+        "Farklı hayvanları gözlemleme"
+      ],
+      "en": [
+        "Tour the zoo",
+        "Observe different animals"
+      ],
+      "de": [
+        "Den Zoo besichtigen",
+        "Verschiedene Tiere beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/wilhelma_zoo.jpg"
+    ]
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "puerto-princesa-underground-river",
+    "name": {
+      "tr": "Puerto Princesa Underground River",
+      "en": "Puerto Princesa Underground River",
+      "de": "Puerto Princesa Underground River"
+    },
+    "latitude": 9.9797,
+    "longitude": 118.7687,
+    "description": {
+      "tr": "Puerto Princesa Underground River, dünyanın en uzun yer altı nehirlerinden biridir ve UNESCO Dünya Mirası Listesi'nde yer alır. Burada botla turlar yapabilirsiniz.",
+      "en": "Puerto Princesa Underground River is one of the longest underground rivers in the world and is a UNESCO World Heritage Site. Boat tours are available.",
+      "de": "Der Puerto Princesa Underground River ist einer der längsten unterirdischen Flüsse der Welt und gehört zum UNESCO-Weltkulturerbe. Es gibt Bootstouren."
+    },
+    "activities": {
+      "tr": [
+        "Bot turuna çıkmak",
+        "Yer altı nehrini keşfetmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Taking a boat tour",
+        "Exploring the underground river",
+        "Enjoying nature"
+      ],
+      "de": [
+        "Eine Bootstour machen",
+        "Den unterirdischen Fluss erkunden",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/puerto_princesa_underground_river.jpg"
+    ]
+  },
+  {
+    "slug": "el-nido",
+    "name": {
+      "tr": "El Nido",
+      "en": "El Nido",
+      "de": "El Nido"
+    },
+    "latitude": 11.2021,
+    "longitude": 119.3922,
+    "description": {
+      "tr": "El Nido, beyaz kumlu plajları, lagünleri ve kristal berraklığındaki denizi ile ünlüdür. Doğal güzellikleri keşfetmek için mükemmel bir yerdir.",
+      "en": "El Nido is famous for its white sandy beaches, lagoons, and crystal-clear waters. It is a perfect place to explore natural beauty.",
+      "de": "El Nido ist berühmt für seine weißen Sandstrände, Lagunen und kristallklares Wasser. Es ist ein perfekter Ort, um die natürliche Schönheit zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Şnorkelle dalış yapmak",
+        "Lagünleri keşfetmek"
+      ],
+      "en": [
+        "Relaxing on the beach",
+        "Snorkeling",
+        "Exploring lagoons"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Schnorcheln",
+        "Lagunen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/el_nido.jpg"
+    ]
+  },
+  {
+    "slug": "honda-bay",
+    "name": {
+      "tr": "Honda Bay",
+      "en": "Honda Bay",
+      "de": "Honda Bay"
+    },
+    "latitude": 9.719,
+    "longitude": 118.7824,
+    "description": {
+      "tr": "Honda Bay, çevre adalarını gezebileceğiniz ve şnorkelle denizin tadını çıkarabileceğiniz bir bölgedir.",
+      "en": "Honda Bay is a region where you can explore surrounding islands and enjoy snorkeling in the sea.",
+      "de": "Die Honda Bay ist eine Region, in der Sie benachbarte Inseln erkunden und im Meer schnorcheln können."
+    },
+    "activities": {
+      "tr": [
+        "Ada turuna çıkmak",
+        "Şnorkelle dalış yapmak",
+        "Denizin tadını çıkarmak"
+      ],
+      "en": [
+        "Taking an island tour",
+        "Snorkeling",
+        "Enjoying the sea"
+      ],
+      "de": [
+        "Eine Inseltour machen",
+        "Schnorcheln",
+        "Das Meer genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/honda_bay.jpg"
+    ]
+  },
+  {
+    "slug": "tubbataha-reefs-natural-park",
+    "name": {
+      "tr": "Tubbataha Reefs Natural Park",
+      "en": "Tubbataha Reefs Natural Park",
+      "de": "Tubbataha Reefs Natural Park"
+    },
+    "latitude": 9.0393,
+    "longitude": 119.9297,
+    "description": {
+      "tr": "Tubbataha Reefs Natural Park, su altı resifleri ile ünlüdür ve dalış yapmayı sevenler için dünyanın en iyi dalış alanlarından biridir.",
+      "en": "Tubbataha Reefs Natural Park is famous for its underwater reefs and is one of the best diving spots in the world.",
+      "de": "Der Tubbataha Reefs Natural Park ist berühmt für seine Unterwasser-Riffe und gehört zu den besten Tauchplätzen der Welt."
+    },
+    "activities": {
+      "tr": [
+        "Dalış yapmak",
+        "Resifleri keşfetmek",
+        "Deniz yaşamını gözlemlemek"
+      ],
+      "en": [
+        "Diving",
+        "Exploring the reefs",
+        "Observing marine life"
+      ],
+      "de": [
+        "Tauchen",
+        "Die Riffe erkunden",
+        "Das Meeresleben beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/tubbataha_reefs.jpg"
+    ]
+  },
+  {
+    "slug": "coron",
+    "name": {
+      "tr": "Coron",
+      "en": "Coron",
+      "de": "Coron"
+    },
+    "latitude": 12,
+    "longitude": 120.2,
+    "description": {
+      "tr": "Coron, batık gemiler ve berrak suyu ile ünlü bir dalış cennetidir. Burada dalış yaparak harika keşifler yapabilirsiniz.",
+      "en": "Coron is famous for its sunken ships and clear waters, making it a diving paradise. You can explore by diving here.",
+      "de": "Coron ist berühmt für seine versunkenen Schiffe und das klare Wasser, was es zu einem Tauchparadies macht. Hier können Sie beim Tauchen fantastische Entdeckungen machen."
+    },
+    "activities": {
+      "tr": [
+        "Dalış yapmak",
+        "Batık gemileri keşfetmek",
+        "Su altı fotoğrafçılığı yapmak"
+      ],
+      "en": [
+        "Diving",
+        "Exploring sunken ships",
+        "Underwater photography"
+      ],
+      "de": [
+        "Tauchen",
+        "Versunkene Schiffe erkunden",
+        "Unterwasserfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/coron.jpg"
+    ]
+  }
+]

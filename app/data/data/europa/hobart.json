@@ -1,0 +1,241 @@
+[
+  {
+    "slug": "mona-museum-of-old-and-new-art",
+    "name": {
+      "tr": "MONA (Museum of Old and New Art)",
+      "en": "MONA (Museum of Old and New Art)",
+      "de": "MONA (Museum of Old and New Art)"
+    },
+    "latitude": -42.8805,
+    "longitude": 147.3231,
+    "description": {
+      "tr": "MONA, Hobart’ta yer alan, modern ve eski sanatın birleşimini sunan ilginç bir müzedir. Ziyaretçilerine farklı sanat anlayışlarını deneyimleme fırsatı sunar.",
+      "en": "MONA is an intriguing museum in Hobart that combines modern and ancient art. It offers visitors a chance to experience various artistic expressions.",
+      "de": "MONA ist ein faszinierendes Museum in Hobart, das moderne und antike Kunst kombiniert. Es bietet den Besuchern die Möglichkeit, verschiedene künstlerische Ausdrucksformen zu erleben."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini keşfetmek",
+        "Müzeyi gezmek",
+        "Ziyaretçi sergilerini görmek"
+      ],
+      "en": [
+        "Exploring artworks",
+        "Visiting the museum",
+        "Seeing visitor exhibitions"
+      ],
+      "de": [
+        "Kunstwerke erkunden",
+        "Das Museum besichtigen",
+        "Besucherausstellungen sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/mona_hobart.jpg"
+    ]
+  },
+  {
+    "slug": "mount-wellington",
+    "name": {
+      "tr": "Mount Wellington",
+      "en": "Mount Wellington",
+      "de": "Mount Wellington"
+    },
+    "latitude": -42.8797,
+    "longitude": 147.3216,
+    "description": {
+      "tr": "Mount Wellington, Hobart’ın en yüksek dağıdır ve şehir manzaralarını yüksekten görebileceğiniz muazzam bir yerdir. Dağa yürüyüş yapmak ya da araçla çıkmak mümkündür.",
+      "en": "Mount Wellington is the highest mountain near Hobart, offering stunning views of the city. Visitors can hike to the summit or drive up.",
+      "de": "Mount Wellington ist der höchste Berg in der Nähe von Hobart und bietet einen atemberaubenden Blick auf die Stadt. Besucher können zum Gipfel wandern oder mit dem Auto hinauffahren."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Dağ manzaralarını izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Hiking",
+        "Enjoying the mountain views",
+        "Taking photos"
+      ],
+      "de": [
+        "Wandern",
+        "Die Bergblicke genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_wellington.jpg"
+    ]
+  },
+  {
+    "slug": "salamanca-market",
+    "name": {
+      "tr": "Salamanca Market",
+      "en": "Salamanca Market",
+      "de": "Salamanca Markt"
+    },
+    "latitude": -42.8834,
+    "longitude": 147.3294,
+    "description": {
+      "tr": "Salamanca Market, Hobart’ta haftalık olarak düzenlenen renkli bir pazardır. El sanatları, gıda ve hediyelik eşyalarla dolu olan pazar, şehre gelen ziyaretçilerin ilgisini çeker.",
+      "en": "Salamanca Market is a colorful weekly market in Hobart, filled with crafts, food, and souvenirs. It attracts many visitors to the city.",
+      "de": "Der Salamanca Market ist ein bunter Wochenmarkt in Hobart, der mit Kunsthandwerk, Lebensmitteln und Souvenirs gefüllt ist. Er zieht viele Besucher in die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Yerli ürünleri tatmak",
+        "Sanat eserlerini görmek"
+      ],
+      "en": [
+        "Shopping",
+        "Tasting local products",
+        "Viewing artworks"
+      ],
+      "de": [
+        "Einkaufen",
+        "Lokale Produkte probieren",
+        "Kunstwerke ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/salamanca_market.jpg"
+    ]
+  },
+  {
+    "slug": "bruny-island",
+    "name": {
+      "tr": "Bruny Island",
+      "en": "Bruny Island",
+      "de": "Bruny Island"
+    },
+    "latitude": -43.3999,
+    "longitude": 147.1952,
+    "description": {
+      "tr": "Bruny Island, doğal güzellikleri ve yerel lezzetleri ile ünlü bir adadır. Burada doğa yürüyüşleri yapabilir, bölgenin ünlü peynirlerini ve deniz ürünlerini tadabilirsiniz.",
+      "en": "Bruny Island is famous for its natural beauty and local delicacies. Visitors can enjoy nature walks and taste famous cheeses and seafood.",
+      "de": "Bruny Island ist bekannt für seine natürliche Schönheit und lokalen Delikatessen. Besucher können Wanderungen in der Natur unternehmen und berühmte Käsesorten und Meeresfrüchte probieren."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşleri yapmak",
+        "Yerel lezzetleri tatmak",
+        "Peynir ve deniz ürünü yemek"
+      ],
+      "en": [
+        "Hiking in nature",
+        "Tasting local delicacies",
+        "Eating cheese and seafood"
+      ],
+      "de": [
+        "Wandern in der Natur",
+        "Lokale Delikatessen probieren",
+        "Käse und Meeresfrüchte essen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/bruny_island.jpg"
+    ]
+  },
+  {
+    "slug": "port-arthur-historic-site",
+    "name": {
+      "tr": "Port Arthur Historic Site",
+      "en": "Port Arthur Historic Site",
+      "de": "Port Arthur Historic Site"
+    },
+    "latitude": -43.1644,
+    "longitude": 147.5256,
+    "description": {
+      "tr": "Port Arthur, eski bir cezaevi kompleksidir. Burada, Avustralya’nın ceza tarihi hakkında bilgi alabilir ve cezaların nasıl verildiğini öğrenebilirsiniz.",
+      "en": "Port Arthur is a historic prison complex where you can learn about Australia’s penal history and how punishment was administered.",
+      "de": "Port Arthur ist ein historisches Gefängniskomplex, in dem Sie mehr über die Strafgeschichte Australiens erfahren und wie Strafen verhängt wurden."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi keşfetmek",
+        "Cezaevi turu yapmak",
+        "Avustralya’nın ceza tarihini öğrenmek"
+      ],
+      "en": [
+        "Exploring history",
+        "Taking a prison tour",
+        "Learning about Australia’s penal history"
+      ],
+      "de": [
+        "Die Geschichte entdecken",
+        "Eine Gefängnistour machen",
+        "Über die Strafgeschichte Australiens lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/port_arthur.jpg"
+    ]
+  }
+]

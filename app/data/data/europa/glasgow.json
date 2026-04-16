@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "kelvingrove-sanat-galerisi-ve-muzesi",
+    "name": {
+      "tr": "Kelvingrove Sanat Galerisi ve Müzesi",
+      "en": "Kelvingrove Art Gallery and Museum",
+      "de": "Kelvingrove Kunstgalerie und Museum"
+    },
+    "latitude": 55.871,
+    "longitude": -4.2887,
+    "description": {
+      "tr": "Kelvingrove Art Gallery and Museum, Glasgow'un en ünlü sanat galerilerinden biridir ve zengin bir koleksiyona sahiptir.",
+      "en": "Kelvingrove Art Gallery and Museum is one of Glasgow's most famous art galleries and houses a rich collection.",
+      "de": "Das Kelvingrove Art Gallery and Museum ist eines der bekanntesten Kunstmuseen von Glasgow und beherbergt eine reiche Sammlung."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi gezisi",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Art gallery tour",
+        "Art discovery"
+      ],
+      "de": [
+        "Kunstgalerie-Tour",
+        "Kunstentdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/kelvingrove_art_gallery.jpg"
+    ]
+  },
+  {
+    "slug": "glasgow-bilim-merkezi",
+    "name": {
+      "tr": "Glasgow Bilim Merkezi",
+      "en": "Glasgow Science Centre",
+      "de": "Glasgow Wissenschaftszentrum"
+    },
+    "latitude": 55.8673,
+    "longitude": -4.2905,
+    "description": {
+      "tr": "Glasgow Science Centre, bilim ve teknolojiye dair interaktif sergiler sunan büyük bir müzedir.",
+      "en": "The Glasgow Science Centre is a large museum offering interactive exhibits related to science and technology.",
+      "de": "Das Glasgow Science Centre ist ein großes Museum mit interaktiven Ausstellungen zu Wissenschaft und Technologie."
+    },
+    "activities": {
+      "tr": [
+        "Bilim gezisi",
+        "Eğitimli keşif"
+      ],
+      "en": [
+        "Science tour",
+        "Educational discovery"
+      ],
+      "de": [
+        "Wissenschafts-Tour",
+        "Bildende Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/glasgow_science_centre.jpg"
+    ]
+  },
+  {
+    "slug": "the-lighthouse",
+    "name": {
+      "tr": "The Lighthouse",
+      "en": "The Lighthouse",
+      "de": "Leuchtturm"
+    },
+    "latitude": 55.8624,
+    "longitude": -4.2583,
+    "description": {
+      "tr": "The Lighthouse, Glasgow'un en önemli mimarlık ve tasarım merkezlerinden biridir.",
+      "en": "The Lighthouse is one of Glasgow's most important architecture and design centers.",
+      "de": "The Lighthouse ist eines der wichtigsten Architektur- und Designzentren in Glasgow."
+    },
+    "activities": {
+      "tr": [
+        "Tasarım galerisi gezisi",
+        "Yaratıcı keşif"
+      ],
+      "en": [
+        "Design gallery tour",
+        "Creative discovery"
+      ],
+      "de": [
+        "Design-Galerie-Tour",
+        "Kreative Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat galerisi"
+      ],
+      "en": [
+        "art gallery"
+      ],
+      "de": [
+        "Kunstgalerie"
+      ]
+    },
+    "images": [
+      "https://example.com/the_lighthouse.jpg"
+    ]
+  },
+  {
+    "slug": "glasgow-katedrali",
+    "name": {
+      "tr": "Glasgow Katedrali",
+      "en": "Glasgow Cathedral",
+      "de": "Glasgow Kathedrale"
+    },
+    "latitude": 55.8608,
+    "longitude": -4.2437,
+    "description": {
+      "tr": "Glasgow Cathedral, 12. yüzyıldan kalma tarihi bir katedraldir ve Glasgow'un en eski yapılarından biridir.",
+      "en": "Glasgow Cathedral is a historic 12th-century cathedral and one of the oldest buildings in Glasgow.",
+      "de": "Die Glasgow Kathedrale ist eine historische Kathedrale aus dem 12. Jahrhundert und eines der ältesten Gebäude in Glasgow."
+    },
+    "activities": {
+      "tr": [
+        "Katedral gezisi",
+        "Tarihi keşif"
+      ],
+      "en": [
+        "Cathedral tour",
+        "Historical discovery"
+      ],
+      "de": [
+        "Katedral-Tour",
+        "Historische Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/glasgow_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "botanik-bahceleri",
+    "name": {
+      "tr": "Botanik Bahçeleri",
+      "en": "Botanic Gardens",
+      "de": "Botanische Gärten"
+    },
+    "latitude": 55.8769,
+    "longitude": -4.291,
+    "description": {
+      "tr": "Botanic Gardens, doğa severler için mükemmel bir mekan olup, çok sayıda bitki türünü görmek için harika bir yerdir.",
+      "en": "The Botanic Gardens is an excellent place for nature lovers, offering a great spot to view a variety of plant species.",
+      "de": "Die Botanischen Gärten sind ein hervorragender Ort für Naturliebhaber und bieten einen großartigen Platz, um eine Vielzahl von Pflanzenarten zu sehen."
+    },
+    "activities": {
+      "tr": [
+        "Bahçe gezisi",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Garden tour",
+        "Nature walk"
+      ],
+      "de": [
+        "Garten-Tour",
+        "Naturspaziergang"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/glasgow_botanic_gardens.jpg"
+    ]
+  }
+]

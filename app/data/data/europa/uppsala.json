@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "uppsala-katedrali",
+    "name": {
+      "tr": "Uppsala Katedrali",
+      "en": "Uppsala Cathedral",
+      "de": "Uppsala Kathedrale"
+    },
+    "latitude": 59.8586,
+    "longitude": 17.6389,
+    "description": {
+      "tr": "Uppsala Katedrali, İsveç’in en büyük katedralidir ve Gotik mimarisiyle dikkat çeker.",
+      "en": "Uppsala Cathedral is the largest cathedral in Sweden and is known for its Gothic architecture.",
+      "de": "Die Uppsala Kathedrale ist die größte Kathedrale Schwedens und bekannt für ihre gotische Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezmek",
+        "Mimari detayları incelemek"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die architektonischen Details untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/uppsala_katedrali.jpg"
+    ]
+  },
+  {
+    "slug": "botanik-bahcesi",
+    "name": {
+      "tr": "Botanik Bahçesi",
+      "en": "Botanical Garden",
+      "de": "Botanischer Garten"
+    },
+    "latitude": 59.8583,
+    "longitude": 17.6339,
+    "description": {
+      "tr": "Uppsala Botanik Bahçesi, çeşitli bitki türlerini barındıran ve doğaseverler için huzurlu bir yerdir.",
+      "en": "Uppsala Botanical Garden is home to a variety of plant species and is a peaceful place for nature lovers.",
+      "de": "Der Botanische Garten Uppsala beherbergt eine Vielzahl von Pflanzenarten und ist ein friedlicher Ort für Naturliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeyi gezmek",
+        "Bitki türlerini incelemek"
+      ],
+      "en": [
+        "Tour the garden",
+        "Examine plant species"
+      ],
+      "de": [
+        "Den Garten besichtigen",
+        "Pflanzenarten untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/botanik_bahce.jpg"
+    ]
+  },
+  {
+    "slug": "gustavianum",
+    "name": {
+      "tr": "Gustavianum",
+      "en": "Gustavianum",
+      "de": "Gustavianum"
+    },
+    "latitude": 59.8589,
+    "longitude": 17.6309,
+    "description": {
+      "tr": "Gustavianum, Uppsala Üniversitesi’ne ait tarihi bir müzedir ve arkeolojik buluntulara ev sahipliği yapmaktadır.",
+      "en": "Gustavianum is a historical museum owned by Uppsala University and houses archaeological findings.",
+      "de": "Das Gustavianum ist ein historisches Museum der Universität Uppsala und beherbergt archäologische Funde."
+    },
+    "activities": {
+      "tr": [
+        "Arkeolojik eserleri gezmek",
+        "Tarihi objeleri incelemek"
+      ],
+      "en": [
+        "Explore the archaeological exhibits",
+        "Examine historical objects"
+      ],
+      "de": [
+        "Die archäologischen Ausstellungen besichtigen",
+        "Historische Objekte untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/gustavianum_muze.jpg"
+    ]
+  },
+  {
+    "slug": "carolina-rediviva",
+    "name": {
+      "tr": "Carolina Rediviva",
+      "en": "Carolina Rediviva",
+      "de": "Carolina Rediviva"
+    },
+    "latitude": 59.8584,
+    "longitude": 17.6255,
+    "description": {
+      "tr": "Carolina Rediviva, Uppsala Üniversitesi’nin kütüphanesidir ve 16. yüzyıldan kalma kitaplarıyla ünlüdür.",
+      "en": "Carolina Rediviva is the library of Uppsala University, famous for its 16th-century books.",
+      "de": "Die Carolina Rediviva ist die Bibliothek der Universität Uppsala, berühmt für ihre Bücher aus dem 16. Jahrhundert."
+    },
+    "activities": {
+      "tr": [
+        "Kütüphaneyi gezmek",
+        "Eski kitapları incelemek"
+      ],
+      "en": [
+        "Tour the library",
+        "Examine the ancient books"
+      ],
+      "de": [
+        "Die Bibliothek besichtigen",
+        "Die alten Bücher untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/carolina_rediviva.jpg"
+    ]
+  },
+  {
+    "slug": "uppsala-universitesi-botanik-bahcesi",
+    "name": {
+      "tr": "Uppsala Üniversitesi Botanik Bahçesi",
+      "en": "Uppsala University Botanical Garden",
+      "de": "Botanischer Garten der Universität Uppsala"
+    },
+    "latitude": 59.8589,
+    "longitude": 17.6333,
+    "description": {
+      "tr": "Uppsala Üniversitesi Botanik Bahçesi, geniş bir bitki koleksiyonuna sahiptir ve botanik tutkunları için mükemmel bir yerdir.",
+      "en": "Uppsala University Botanical Garden has an extensive plant collection and is a perfect place for botany enthusiasts.",
+      "de": "Der Botanische Garten der Universität Uppsala hat eine umfangreiche Pflanzensammlung und ist ein perfekter Ort für Botaniker."
+    },
+    "activities": {
+      "tr": [
+        "Bahçeyi gezmek",
+        "Botanik örneklerini incelemek"
+      ],
+      "en": [
+        "Tour the garden",
+        "Examine botanical samples"
+      ],
+      "de": [
+        "Den Garten besichtigen",
+        "Botanische Proben untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/uppsala_bahce.jpg"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "tsumago-juku",
+    "name": {
+      "tr": "Tsumago-juku",
+      "en": "Tsumago-juku",
+      "de": "Tsumago-juku"
+    },
+    "latitude": 35.4016,
+    "longitude": 137.4297,
+    "description": {
+      "tr": "Tsumago-juku, Nagano Prefektörlüğü'nde, Kiso Vadisi'nde yer alan ve Japonya'nın en iyi korunmuş posta kasabalarından biridir. Eski Nakasendo yolunun 69 posta istasyonundan 42.'si olan bu kasaba, Edo dönemine ait atmosferini koruyarak ziyaretçilere tarihi bir deneyim sunmaktadır. Kasaba, araç trafiğine kapalı ana caddesi ve görünmeyen elektrik hatlarıyla, ziyaretçilere geçmişe yolculuk hissi verir.\n\nTsumago-juku’da, Edo döneminden kalma konaklar, tapınaklar ve diğer yapılar ziyaret edilebilir. Özellikle eski hanlar (honjin ve waki-honjin), kasabanın tarihî önemini yansıtmaktadır. Nakasendo Yolu üzerinde, Tsumago ile Magome arasındaki 8 kilometre uzunluğundaki patika, ormanlar ve şelaleler eşliğinde keyifli bir yürüyüş rotası sunar.\n\nUlaşım: Tsumago-juku'ya, Nagiso kasabasındaki tren istasyonundan otobüs veya taksiyle ulaşılabilir.\n\nKonaklama: Kasabada geleneksel Japon konaklama deneyimi sunan ryokanlar bulunmaktadır. Tarihi atmosferiyle bilinen konaklarda kalmak, ziyaretçilere eşsiz bir deneyim sunar.\n\nZiyaret Saatleri: Çoğu tarihi yapı ve müze, sabah 9:00'dan akşam 17:00'ye kadar açıktır. Ziyaret etmeyi planladığınız yerlerin özel saatlerini kontrol etmeniz önerilir.\n",
+      "en": "Tsumago-juku is a historical post town located in the Kiso Valley of Nagano Prefecture, Japan. It is one of the best-preserved post towns along the old Nakasendo route, offering visitors a chance to experience the atmosphere of the Edo period. The town's main street is closed to vehicle traffic, and the absence of visible electric lines gives visitors a sense of traveling back in time.\n\nIn Tsumago-juku, you can visit Edo-period buildings, including old inns (honjin and waki-honjin), temples, and other historical structures. The Nakasendo trail, which stretches for 8 kilometers between Tsumago and Magome, offers a pleasant walking route through forests and past waterfalls.\n\nTransportation: Tsumago-juku can be reached by bus or taxi from the Nagiso town train station.\n\nAccommodation: The town offers traditional Japanese ryokan inns, where visitors can stay in an environment that reflects the historical atmosphere of the area.\n\nVisiting Hours: Most historical buildings and museums are open from 9:00 AM to 5:00 PM. It is recommended to check the specific hours of the places you plan to visit.\n",
+      "de": "Tsumago-juku ist eine historische Poststadt im Kiso-Tal in der Präfektur Nagano, Japan. Es ist eine der am besten erhaltenen Poststationen entlang des alten Nakasendo-Wegs und bietet den Besuchern die Möglichkeit, die Atmosphäre der Edo-Zeit zu erleben. Die Hauptstraße der Stadt ist für den Fahrzeugverkehr gesperrt, und das Fehlen sichtbarer Stromleitungen vermittelt den Besuchern das Gefühl, in die Vergangenheit zu reisen.\n\nIn Tsumago-juku können Besucher Edo-Zeit-Gebäude besichtigen, darunter alte Gasthäuser (honjin und waki-honjin), Tempel und andere historische Gebäude. Der Nakasendo-Weg, der sich über 8 Kilometer zwischen Tsumago und Magome erstreckt, bietet eine angenehme Wanderroute durch Wälder und vorbei an Wasserfällen.\n\nTransport: Tsumago-juku ist vom Bahnhof der Stadt Nagiso aus mit dem Bus oder Taxi zu erreichen.\n\nUnterkunft: In der Stadt gibt es traditionelle japanische Ryokan-Gasthäuser, in denen Besucher in einer Umgebung übernachten können, die die historische Atmosphäre des Gebiets widerspiegelt.\n\nÖffnungszeiten: Die meisten historischen Gebäude und Museen sind von 9:00 bis 17:00 Uhr geöffnet. Es wird empfohlen, die speziellen Öffnungszeiten der Orte zu überprüfen, die Sie besuchen möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Nakasendo patikasında yürüyüş yapmak",
+        "Edo dönemi yapıları gezmek",
+        "Doğal güzellikleri keşfetmek"
+      ],
+      "en": [
+        "Walk along the Nakasendo trail",
+        "Explore Edo-period buildings",
+        "Discover the natural beauty"
+      ],
+      "de": [
+        "Wandern auf dem Nakasendo-Weg",
+        "Edo-Zeit-Gebäude besichtigen",
+        "Die natürliche Schönheit entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/tsumago-juku.jpg"
+    ]
+  },
+  {
+    "slug": "narai-juku",
+    "name": {
+      "tr": "Narai-juku",
+      "en": "Narai-juku",
+      "de": "Narai-juku"
+    },
+    "latitude": 35.3961,
+    "longitude": 137.7111,
+    "description": {
+      "tr": "Narai-juku, Japonya'nın Nagano Prefektörlüğü'nde, Kiso Vadisi'nde yer alan tarihi bir posta kasabasıdır. Eski Nakasendo Yolu üzerinde bulunan bu kasaba, Edo dönemine ait geleneksel mimarisiyle dikkat çeker. Narai-juku, tarihi atmosferini büyük ölçüde korumuş olup, geleneksel Japon evleri ve konaklarıyla ziyaretçilere geçmişe yolculuk yapma fırsatı sunar. Kasaba, doğayla iç içe huzurlu bir ortam sağlar ve çevresindeki dağ manzaralarıyla ünlüdür.\n",
+      "en": "Narai-juku is a historical post town located in the Kiso Valley in Nagano Prefecture, Japan. Situated along the old Nakasendo Trail, this town is renowned for its traditional Edo-period architecture. Narai-juku preserves much of its historic atmosphere, offering visitors a chance to step back in time with its traditional Japanese houses and inns. The town also provides a peaceful setting surrounded by natural beauty, with mountain views that add to its charm.\n",
+      "de": "Narai-juku ist eine historische Poststadt im Kiso-Tal in der Präfektur Nagano, Japan. Die Stadt liegt entlang des alten Nakasendo-Pfades und ist bekannt für ihre traditionelle Architektur aus der Edo-Zeit. Narai-juku bewahrt einen Großteil seiner historischen Atmosphäre und bietet den Besuchern die Möglichkeit, in der Zeit zurückzureisen und die traditionellen japanischen Häuser und Gasthöhlen zu erleben. Die Stadt bietet auch eine friedliche Umgebung, die von natürlicher Schönheit umgeben ist, mit Bergblicken, die ihren Charme verstärken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kasaba sokaklarını gezmek",
+        "Geleneksel Japon evlerini ziyaret etmek",
+        "Dağ manzarası eşliğinde yürüyüş yapmak"
+      ],
+      "en": [
+        "Explore the historic town streets",
+        "Visit traditional Japanese houses",
+        "Take a walk with mountain views"
+      ],
+      "de": [
+        "Die historischen Stadtstraßen erkunden",
+        "Traditionelle japanische Häuser besichtigen",
+        "Wanderung mit Bergblick unternehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/narai_juku_image.jpg"
+    ]
+  }
+]

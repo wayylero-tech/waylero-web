@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "pannonian-tuz-golleri",
+    "name": {
+      "tr": "Pannonian Tuz Gölleri",
+      "en": "Pannonian Salt Lakes",
+      "de": "Pannonische Salzwasserseen"
+    },
+    "latitude": 44.53958,
+    "longitude": 18.68083,
+    "description": {
+      "tr": "Pannonian Tuz Gölleri, Bosna-Hersek'in Tuzla şehri yakınlarında yer alan tuzlu göllerdir. Bu göller, bölgenin tarihi tuz üretim geçmişine tanıklık eden önemli doğal alanlardan biridir. Göllerin suyu, tuzlu yapısı ve doğa harikası manzaraları ile ünlüdür. Pannonian Tuz Gölleri çevresinde yürüyüş yolları, dinlenme alanları ve çeşitli açık hava etkinlikleri yapılabilir. Ayrıca, göllerin çevresinde plajlar da bulunmaktadır. Bu göller, doğal güzellikleri ve sakin atmosferi ile turistlerin ilgisini çekmektedir.\n",
+      "en": "The Pannonian Salt Lakes are saltwater lakes located near the city of Tuzla in Bosnia and Herzegovina. These lakes are significant natural sites that bear witness to the region's historical salt production. The lakes are famous for their saline water and stunning natural landscapes. Visitors can enjoy walking trails, relaxation areas, and various outdoor activities around the lakes. The lakes also have beaches where tourists can relax. The Pannonian Salt Lakes attract visitors with their natural beauty and peaceful atmosphere.\n",
+      "de": "Die Pannonischen Salzwasserseen sind Salzwasserseen in der Nähe der Stadt Tuzla in Bosnien und Herzegowina. Diese Seen sind bedeutende natürliche Gebiete, die die historische Salzproduktion der Region widerspiegeln. Die Seen sind bekannt für ihr salziges Wasser und ihre atemberaubenden Naturlandschaften. Besucher können Wanderwege, Erholungsgebiete und verschiedene Outdoor-Aktivitäten in der Umgebung genießen. Um die Seen gibt es auch Strände, an denen sich Touristen entspannen können. Die Pannonischen Salzwasserseen ziehen Besucher mit ihrer natürlichen Schönheit und friedlichen Atmosphäre an.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Plajda dinlenmek",
+        "Doğayı keşfetmek"
+      ],
+      "en": [
+        "Walking",
+        "Relaxing on the beach",
+        "Exploring nature"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Am Strand entspannen",
+        "Die Natur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/pannonian_salt_lakes1.jpg",
+      "https://example.com/pannonian_salt_lakes2.jpg"
+    ]
+  },
+  {
+    "slug": "tuzla-sehir-meydani",
+    "name": {
+      "tr": "Tuzla Şehir Meydanı",
+      "en": "Tuzla City Square",
+      "de": "Tuzla Stadtplatz"
+    },
+    "latitude": 44.5399,
+    "longitude": 18.67752,
+    "description": {
+      "tr": "Tuzla Şehir Meydanı, Bosna-Hersek'in Tuzla şehrinde yer alan önemli bir alandır. Şehir meydanı, hem turistler hem de yerel halk için sosyal ve kültürel bir merkez olarak kullanılmaktadır. Meydan, çevresindeki tarihi binalar, kafeler ve dükkanlarla oldukça canlıdır. Burada genellikle etkinlikler, konserler ve çeşitli kutlamalar düzenlenmektedir. Tuzla Şehir Meydanı, şehri gezmeye gelenler için mükemmel bir başlangıç noktasıdır.\n",
+      "en": "Tuzla City Square is an important area located in the city of Tuzla, Bosnia and Herzegovina. The city square serves as a social and cultural hub for both tourists and locals. The square is lively, surrounded by historic buildings, cafes, and shops. It is a popular location for events, concerts, and various celebrations. Tuzla City Square is an ideal starting point for those exploring the city.\n",
+      "de": "Der Tuzla Stadtplatz ist ein wichtiger Bereich in der Stadt Tuzla in Bosnien und Herzegowina. Der Stadtplatz dient sowohl Touristen als auch Einheimischen als soziales und kulturelles Zentrum. Der Platz ist lebendig und von historischen Gebäuden, Cafés und Geschäften umgeben. Hier finden regelmäßig Veranstaltungen, Konzerte und verschiedene Feiern statt. Der Tuzla Stadtplatz ist ein idealer Ausgangspunkt für alle, die die Stadt erkunden möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kafelerde dinlenmek",
+        "Etkinliklere katılmak",
+        "Tarihi binaları gezmek"
+      ],
+      "en": [
+        "Relaxing in cafes",
+        "Attending events",
+        "Exploring historical buildings"
+      ],
+      "de": [
+        "In Cafés entspannen",
+        "An Veranstaltungen teilnehmen",
+        "Historische Gebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/tuzla_city_square1.jpg",
+      "https://example.com/tuzla_city_square2.jpg"
+    ]
+  },
+  {
+    "slug": "kapija-aniti",
+    "name": {
+      "tr": "Kapija Anıtı",
+      "en": "Kapija Monument",
+      "de": "Kapija Denkmal"
+    },
+    "latitude": 44.54082,
+    "longitude": 18.67305,
+    "description": {
+      "tr": "Kapija Anıtı, Tuzla'da yer alan ve Bosna-Hersek’in yakın tarihinde önemli bir yeri olan bir anıttır. Bu anıt, 1995 yılında Tuzla'da gerçekleşen Kapija Patlaması’nda hayatını kaybeden 71 kişinin anısına yapılmıştır. Kapija Anıtı, şehre duyulan saygıyı ve hatırlamayı simgeler ve Tuzla halkı için büyük bir öneme sahiptir. Anıt, Tuzla'nın en bilinen ve saygı duyulan anıtlarından biridir ve her yıl birçok kişi tarafından ziyaret edilmektedir.\n",
+      "en": "The Kapija Monument is located in Tuzla and holds significant historical importance in Bosnia and Herzegovina. The monument was erected in memory of the 71 people who lost their lives in the 1995 Kapija Explosion in Tuzla. The Kapija Monument symbolizes respect and remembrance for the victims and holds great significance for the people of Tuzla. It is one of the most recognized and respected monuments in Tuzla and is visited by many people each year.\n",
+      "de": "Das Kapija-Denkmal befindet sich in Tuzla und hat eine bedeutende historische Bedeutung in Bosnien und Herzegowina. Das Denkmal wurde zum Gedenken an die 71 Menschen errichtet, die beim Kapija-Explosion von 1995 in Tuzla ihr Leben verloren. Das Kapija-Denkmal symbolisiert Respekt und Erinnerung an die Opfer und hat große Bedeutung für die Menschen von Tuzla. Es ist eines der bekanntesten und respektiertesten Denkmäler in Tuzla und wird jedes Jahr von vielen Menschen besucht.\n"
+    },
+    "activities": {
+      "tr": [
+        "Anıtı ziyaret etmek",
+        "Tarihi anlamak",
+        "Saygı duruşunda bulunmak"
+      ],
+      "en": [
+        "Visiting the monument",
+        "Learning about history",
+        "Paying respects"
+      ],
+      "de": [
+        "Das Denkmal besuchen",
+        "Die Geschichte kennenlernen",
+        "Ehrerbietung zeigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/kapija_monument1.jpg",
+      "https://example.com/kapija_monument2.jpg"
+    ]
+  },
+  {
+    "slug": "slana-banja-parki",
+    "name": {
+      "tr": "Slana Banja Parkı",
+      "en": "Slana Banja Park",
+      "de": "Slana Banja Park"
+    },
+    "latitude": 44.53838,
+    "longitude": 18.68775,
+    "description": {
+      "tr": "Slana Banja Parkı, Tuzla'nın doğasında yer alan huzurlu ve dinlendirici bir parktır. Bu park, Tuzla'nın meşhur tuzlu kaplıcaları ve doğal kaynakları ile ünlüdür. Slana Banja Parkı, ziyaretçilere doğa ile iç içe vakit geçirme imkânı sunar ve bölgede birçok yürüyüş yolu ile dinlenme alanları bulunmaktadır. Parkta aynı zamanda tuzlu su kaynakları da bulunur. Şehirden kaçmak ve doğayla iç içe olmak isteyenler için ideal bir yerdir.\n",
+      "en": "Slana Banja Park is a peaceful and relaxing park located in the natural surroundings of Tuzla. This park is famous for Tuzla's well-known salt springs and natural resources. Slana Banja Park offers visitors the opportunity to spend time immersed in nature, with many walking paths and relaxation areas throughout the park. The park also features saltwater springs. It is an ideal place for those looking to escape the city and connect with nature.\n",
+      "de": "Der Slana Banja Park ist ein friedlicher und entspannender Park in der natürlichen Umgebung von Tuzla. Dieser Park ist berühmt für Tuzlas bekannte Salzquellen und natürliche Ressourcen. Der Slana Banja Park bietet den Besuchern die Möglichkeit, Zeit in der Natur zu verbringen, mit vielen Wanderwegen und Erholungsbereichen im Park. Der Park beherbergt auch salzhaltige Wasserquellen. Es ist ein idealer Ort für diejenigen, die der Stadt entkommen und sich mit der Natur verbinden möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Tuzlu su kaynaklarını görmek",
+        "Parkta dinlenmek"
+      ],
+      "en": [
+        "Taking a nature walk",
+        "Visiting the saltwater springs",
+        "Relaxing in the park"
+      ],
+      "de": [
+        "Spaziergänge in der Natur machen",
+        "Die Salzquellen besichtigen",
+        "Im Park entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/slana_banja_park1.jpg",
+      "https://example.com/slana_banja_park2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "slug": "krimml-selaleleri",
+    "name": {
+      "tr": "Krimml Şelaleleri",
+      "en": "Krimml Waterfalls",
+      "de": "Krimmler Wasserfälle"
+    },
+    "latitude": 47.2,
+    "longitude": 12.2,
+    "description": {
+      "tr": "Avrupa’nın en yüksek şelalelerinden biridir.",
+      "en": "One of the highest waterfalls in Europe.",
+      "de": "Einer der höchsten Wasserfälle Europas."
+    },
+    "activities": {
+      "tr": [
+        "Şelaleleri izleme",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Admire the waterfalls",
+        "Take a nature walk"
+      ],
+      "de": [
+        "Die Wasserfälle bewundern",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/krimml_waterfalls.jpg"
+    ]
+  },
+  {
+    "slug": "zeller-golu",
+    "name": {
+      "tr": "Zeller Gölü",
+      "en": "Lake Zell",
+      "de": "Zeller See"
+    },
+    "latitude": 47.3324,
+    "longitude": 12.7884,
+    "description": {
+      "tr": "Yüzme, yürüyüş ve su sporları için popüler bir yerdir.",
+      "en": "A popular spot for swimming, hiking, and water sports.",
+      "de": "Ein beliebter Ort zum Schwimmen, Wandern und Wassersport."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Su sporları yapma",
+        "Gölde yürüyüş"
+      ],
+      "en": [
+        "Swimming",
+        "Water sports",
+        "Walking by the lake"
+      ],
+      "de": [
+        "Schwimmen",
+        "Wassersport",
+        "Am See spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/lake_zell.jpg"
+    ]
+  },
+  {
+    "slug": "kaprun-buzulu",
+    "name": {
+      "tr": "Kaprun Buzulu",
+      "en": "Kaprun Glacier",
+      "de": "Kapruner Gletscher"
+    },
+    "latitude": 47.263,
+    "longitude": 12.773,
+    "description": {
+      "tr": "Kayak yapmak için harika bir seçenektir.",
+      "en": "A great option for skiing.",
+      "de": "Eine großartige Möglichkeit zum Skifahren."
+    },
+    "activities": {
+      "tr": [
+        "Kayak yapma",
+        "Buzul turu"
+      ],
+      "en": [
+        "Skiing",
+        "Glacier tour"
+      ],
+      "de": [
+        "Skifahren",
+        "Gletscher-Tour"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kaprun_glacier.jpg"
+    ]
+  },
+  {
+    "slug": "hohensalzburg-kalesi",
+    "name": {
+      "tr": "Hohensalzburg Kalesi",
+      "en": "Hohensalzburg Fortress",
+      "de": "Festung Hohensalzburg"
+    },
+    "latitude": 47.796,
+    "longitude": 13.0478,
+    "description": {
+      "tr": "Hohensalzburg Kalesi, Salzburg’un en önemli simgelerindendir ve Avrupa'nın en büyük ortaçağ kalelerindendir.",
+      "en": "Hohensalzburg Fortress is one of Salzburg's most iconic landmarks and one of Europe's largest medieval castles.",
+      "de": "Die Festung Hohensalzburg ist eines der bekanntesten Wahrzeichen Salzburgs und eine der größten mittelalterlichen Burgen Europas."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapma",
+        "Panoramik şehir manzarası izleme"
+      ],
+      "en": [
+        "Take a castle tour",
+        "Enjoy panoramic city views"
+      ],
+      "de": [
+        "Eine Burgführung machen",
+        "Panoramablick auf die Stadt genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/hohensalzburg_fortress.jpg"
+    ]
+  },
+  {
+    "slug": "mirabell-sarayi-ve-bahceleri",
+    "name": {
+      "tr": "Mirabell Sarayı ve Bahçeleri",
+      "en": "Mirabell Palace and Gardens",
+      "de": "Schloss Mirabell und Gärten"
+    },
+    "latitude": 47.8054,
+    "longitude": 13.0417,
+    "description": {
+      "tr": "Mirabell Sarayı ve Bahçeleri, Barok tarzı mimarisiyle dikkat çeker ve ünlü \"The Sound of Music\" filminde sahne almıştır.",
+      "en": "Mirabell Palace and Gardens are known for their Baroque architecture and were featured in the famous film \"The Sound of Music\".",
+      "de": "Schloss Mirabell und seine Gärten sind bekannt für ihre barocke Architektur und wurden im berühmten Film \"The Sound of Music\" gezeigt."
+    },
+    "activities": {
+      "tr": [
+        "Bahçelerde dolaşma",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Stroll through the gardens",
+        "Take photos"
+      ],
+      "de": [
+        "Durch die Gärten spazieren",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/mirabell_palace.jpg"
+    ]
+  },
+  {
+    "slug": "mozart-in-dogdugu-ev",
+    "name": {
+      "tr": "Mozart'ın Doğduğu Ev",
+      "en": "Mozart's Birthplace",
+      "de": "Mozarts Geburtshaus"
+    },
+    "latitude": 47.7979,
+    "longitude": 13.0432,
+    "description": {
+      "tr": "Wolfgang Amadeus Mozart'ın hayatını ve eserlerini öğrenmek için ideal bir yerdir.",
+      "en": "This is the ideal place to learn about the life and works of Wolfgang Amadeus Mozart.",
+      "de": "Hier ist der ideale Ort, um mehr über das Leben und Werk von Wolfgang Amadeus Mozart zu erfahren."
+    },
+    "activities": {
+      "tr": [
+        "Mozart'ın hayatını öğrenme",
+        "Müzeyi gezme"
+      ],
+      "en": [
+        "Learn about Mozart's life",
+        "Visit the museum"
+      ],
+      "de": [
+        "Mehr über Mozarts Leben erfahren",
+        "Das Museum besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/mozart_birthplace.jpg"
+    ]
+  }
+]

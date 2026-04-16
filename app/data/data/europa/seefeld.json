@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "kayak-ve-yuruyus-yollari",
+    "name": {
+      "tr": "Kayak ve Yürüyüş Yolları",
+      "en": "Ski and Hiking Trails",
+      "de": "Ski- und Wanderwege"
+    },
+    "latitude": 47.327,
+    "longitude": 11.191,
+    "description": {
+      "tr": "Kış sporları ve doğa yürüyüşleri için harika bir bölge.",
+      "en": "A great area for winter sports and nature walks.",
+      "de": "Ein großartiges Gebiet für Wintersport und Wanderungen in der Natur."
+    },
+    "activities": {
+      "tr": [
+        "Kayak yapma",
+        "Yürüyüş yapma"
+      ],
+      "en": [
+        "Skiing",
+        "Hiking"
+      ],
+      "de": [
+        "Skifahren",
+        "Wandern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ski_hiking_trails.jpg"
+    ]
+  }
+]

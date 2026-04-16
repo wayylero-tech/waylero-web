@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "uluwatu-tapinagi",
+    "name": {
+      "tr": "Uluwatu Tapınağı",
+      "en": "Uluwatu Temple",
+      "de": "Uluwatu Tempel"
+    },
+    "latitude": -8.8293,
+    "longitude": 115.0842,
+    "description": {
+      "tr": "Uluwatu Tapınağı, Bali'nin güney ucunda yer alan ve okyanus manzarasıyla ünlü kutsal bir Hindu tapınağıdır. Tapınak, deniz kenarındaki yüksek kayalıklara yerleşmiştir ve muazzam bir manzaraya sahiptir. Ziyaretçilerine hem dini bir deneyim sunar hem de muazzam bir doğal güzellik sergiler. Ayrıca, burada Uluwatu Tapınağı'nın Kecak Ateş Dansı gösterisini izlemek mümkündür.\n",
+      "en": "Uluwatu Temple is a sacred Hindu temple located at the southern tip of Bali, famous for its ocean view. The temple is perched on high cliffs overlooking the sea and offers a breathtaking view. It provides both a spiritual experience and stunning natural beauty. You can also watch the famous Kecak Fire Dance show at the temple during sunset.\n",
+      "de": "Der Uluwatu-Tempel ist ein heiliger Hindu-Tempel, der am südlichen Ende von Bali liegt und für seine Aussicht auf den Ozean bekannt ist. Der Tempel befindet sich auf hohen Klippen mit Blick auf das Meer und bietet einen atemberaubenden Blick. Er bietet sowohl ein spirituelles Erlebnis als auch beeindruckende natürliche Schönheit. Außerdem kann man die berühmte Kecak-Feuertanzvorführung am Tempel während des Sonnenuntergangs sehen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınağı gezmek",
+        "Gün batımını izlemek",
+        "Kecak Ateş Dansı izlemek"
+      ],
+      "en": [
+        "Visiting the temple",
+        "Watching the sunset",
+        "Watching the Kecak Fire Dance"
+      ],
+      "de": [
+        "Den Tempel besichtigen",
+        "Den Sonnenuntergang beobachten",
+        "Den Kecak-Feuertanz ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/uluwatu_temple.jpg"
+    ]
+  },
+  {
+    "slug": "padang-padang-beach",
+    "name": {
+      "tr": "Padang Padang Beach",
+      "en": "Padang Padang Beach",
+      "de": "Padang Padang Strand"
+    },
+    "latitude": -8.7081,
+    "longitude": 115.1487,
+    "description": {
+      "tr": "Padang Padang Beach, Bali’nin güney sahilinde yer alan, muazzam manzaralara sahip küçük ve sakin bir plajdır. Burada, doğanın içinde rahatlatıcı bir atmosferin keyfini çıkarabilirsiniz. Plaj, aynı zamanda sörf tutkunları için uygun dalgalar da sunmaktadır. Eğer huzurlu bir kaçamak yapmak istiyorsanız, Padang Padang Beach harika bir seçenektir.\n",
+      "en": "Padang Padang Beach is a small and serene beach located on the southern coast of Bali, offering stunning views. It is a perfect place to relax and enjoy the peaceful atmosphere in nature. The beach also offers suitable waves for surfers. If you’re looking for a peaceful getaway, Padang Padang Beach is a great option.\n",
+      "de": "Der Padang Padang Strand ist ein kleiner und ruhiger Strand an der Südküste von Bali, der atemberaubende Ausblicke bietet. Hier können Sie die entspannende Atmosphäre der Natur genießen. Der Strand bietet auch geeignete Wellen für Surfer. Wenn Sie einen friedlichen Rückzugsort suchen, ist der Padang Padang Strand eine ausgezeichnete Wahl.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Dinlenmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Surfing",
+        "Relaxing",
+        "Enjoying nature"
+      ],
+      "de": [
+        "Surfen",
+        "Entspannen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/padang_padang_beach.jpg"
+    ]
+  },
+  {
+    "slug": "bingin-beach",
+    "name": {
+      "tr": "Bingin Beach",
+      "en": "Bingin Beach",
+      "de": "Bingin Strand"
+    },
+    "latitude": -8.7825,
+    "longitude": 115.116,
+    "description": {
+      "tr": "Bingin Beach, Bali'nin güneyinde yer alan sessiz ve huzurlu bir sörf plajıdır. Yalnızca yerel halk ve sörfçüler tarafından bilinen bu plaj, sakin atmosferi ile dikkat çeker. Sadece sörfçüler için değil, doğa severler ve dinlenmek isteyenler için de mükemmel bir yerdir. Bingin Beach’te, doğanın huzurunu hissedebilirsiniz.\n",
+      "en": "Bingin Beach is a quiet and peaceful surf beach located in southern Bali. Known only by locals and surfers, this beach stands out for its calm atmosphere. It’s a perfect place not only for surfers but also for nature lovers and those who want to relax. At Bingin Beach, you can feel the serenity of nature.\n",
+      "de": "Der Bingin Strand ist ein ruhiger und friedlicher Surfstrand im Süden von Bali. Er ist nur den Einheimischen und Surfern bekannt und zeichnet sich durch seine ruhige Atmosphäre aus. Es ist ein perfekter Ort nicht nur für Surfer, sondern auch für Naturliebhaber und Menschen, die sich entspannen möchten. Am Bingin Strand können Sie die Ruhe der Natur spüren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Dinlenmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Surfing",
+        "Relaxing",
+        "Enjoying nature"
+      ],
+      "de": [
+        "Surfen",
+        "Entspannen",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/bingin_beach.jpg"
+    ]
+  }
+]

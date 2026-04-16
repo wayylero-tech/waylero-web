@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "oradea-kalesi",
+    "name": {
+      "tr": "Oradea Kalesi",
+      "en": "Oradea Castle",
+      "de": "Oradea Schloss"
+    },
+    "latitude": 47.072,
+    "longitude": 21.933,
+    "description": {
+      "tr": "Oradea Kalesi, şehrin en önemli tarihi yapılarından biridir ve Orta Çağ'dan kalma bir kale olarak dikkat çeker.",
+      "en": "Oradea Castle is one of the most important historical landmarks in the city, notable for its medieval architecture.",
+      "de": "Das Oradea Schloss ist eines der wichtigsten historischen Wahrzeichen der Stadt und bekannt für seine mittelalterliche Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Kale turu yapma",
+        "Tarihi yapıyı keşfetme"
+      ],
+      "en": [
+        "Take a castle tour",
+        "Explore the historical building"
+      ],
+      "de": [
+        "Eine Schlossführung machen",
+        "Das historische Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/oradea_castle.jpg"
+    ]
+  },
+  {
+    "slug": "oradea-merkezi",
+    "name": {
+      "tr": "Oradea Merkezi",
+      "en": "Oradea Center",
+      "de": "Oradea Zentrum"
+    },
+    "latitude": 47.073,
+    "longitude": 21.9337,
+    "description": {
+      "tr": "Oradea'nın merkezi, Art Nouveau tarzındaki binaları ve tarihi meydanlarıyla ünlüdür. Şehirdeki atmosferi keşfetmek için ideal bir yerdir.",
+      "en": "The center of Oradea is famous for its Art Nouveau buildings and historic squares. It's an ideal place to explore the city's atmosphere.",
+      "de": "Das Zentrum von Oradea ist bekannt für seine Art Nouveau-Gebäude und historischen Plätze. Es ist der ideale Ort, um die Atmosphäre der Stadt zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi şehirde gezme",
+        "Meydanları keşfetme"
+      ],
+      "en": [
+        "Explore the historic city",
+        "Discover the squares"
+      ],
+      "de": [
+        "Die historische Stadt erkunden",
+        "Die Plätze entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/oradea_center.jpg"
+    ]
+  }
+]

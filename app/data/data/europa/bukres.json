@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "calea-victoriei",
+    "name": {
+      "tr": "Calea Victoriei",
+      "en": "Calea Victoriei",
+      "de": "Calea Victoriei"
+    },
+    "latitude": 44.4333,
+    "longitude": 26.1,
+    "description": {
+      "tr": "Calea Victoriei, Bükreş'in en eski ve en prestijli caddelerinden biridir. Tarihi binaları, restoranları ve alışveriş dükkanları ile ünlüdür.",
+      "en": "Calea Victoriei is one of Bucharest's oldest and most prestigious streets, famous for its historic buildings, restaurants, and shops.",
+      "de": "Calea Victoriei ist eine der ältesten und prestigeträchtigsten Straßen Bukarests, bekannt für ihre historischen Gebäude, Restaurants und Geschäfte."
+    },
+    "activities": {
+      "tr": [
+        "Caddede yürüyüş yapma",
+        "Alışveriş yapma"
+      ],
+      "en": [
+        "Take a walk on the street",
+        "Shop around"
+      ],
+      "de": [
+        "Auf der Straße spazieren gehen",
+        "Einkaufen gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/calea_victoriei.jpg"
+    ]
+  },
+  {
+    "slug": "parlamento-sarayi",
+    "name": {
+      "tr": "Parlamento Sarayı",
+      "en": "Palace of Parliament",
+      "de": "Palast des Parlaments"
+    },
+    "latitude": 44.4268,
+    "longitude": 26.1025,
+    "description": {
+      "tr": "Parlamento Sarayı, dünyadaki ikinci en büyük idari binadır ve Bükreş'in simgelerinden biridir. Bina, Ceaușescu'nun yönetimi altında inşa edilmiştir.",
+      "en": "The Palace of Parliament is the second largest administrative building in the world and one of Bucharest's landmarks. It was built during Ceaușescu's regime.",
+      "de": "Der Palast des Parlaments ist das zweitgrößte Verwaltungsgebäude der Welt und eines der Wahrzeichen von Bukarest. Es wurde während der Ceaușescu-Regierung erbaut."
+    },
+    "activities": {
+      "tr": [
+        "Sarayı ziyaret etme",
+        "Mimari detayları keşfetme"
+      ],
+      "en": [
+        "Visit the palace",
+        "Explore the architectural details"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Die architektonischen Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/parliament_palace.jpg"
+    ]
+  }
+]

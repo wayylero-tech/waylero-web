@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "anchorage-museum-at-rasmuson-center",
+    "name": {
+      "tr": "Anchorage Museum at Rasmuson Center",
+      "en": "Anchorage Museum at Rasmuson Center",
+      "de": "Anchorage Museum at Rasmuson Center"
+    },
+    "latitude": 61.2162,
+    "longitude": -149.8967,
+    "description": {
+      "tr": "Anchorage Museum, sanatı, bilimi ve tarihi keşfetmek için mükemmel bir yerdir. Ziyaretçilere Alaska'nın kültürel mirası hakkında derin bilgiler sunar.",
+      "en": "Anchorage Museum is a great place to explore art, science, and history. It provides visitors with deep insights into Alaska's cultural heritage.",
+      "de": "Das Anchorage Museum ist ein großartiger Ort, um Kunst, Wissenschaft und Geschichte zu entdecken. Es bietet den Besuchern tiefgehende Einblicke in das kulturelle Erbe Alaskas."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Tarihi sergileri görmek",
+        "Bilimsel sergilere katılmak"
+      ],
+      "en": [
+        "Explore art galleries",
+        "View historical exhibits",
+        "Engage with scientific displays"
+      ],
+      "de": [
+        "Kunstgalerien erkunden",
+        "Historische Ausstellungen besichtigen",
+        "Wissenschaftliche Ausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/anchorage_museum.jpg"
+    ]
+  },
+  {
+    "slug": "kincaid-park",
+    "name": {
+      "tr": "Kincaid Park",
+      "en": "Kincaid Park",
+      "de": "Kincaid Park"
+    },
+    "latitude": 61.2175,
+    "longitude": -149.8786,
+    "description": {
+      "tr": "Kincaid Park, doğa severler için yürüyüş, koşu ve bisiklet parkurlarıyla ünlüdür. Ayrıca deniz manzarası da sunar.",
+      "en": "Kincaid Park is famous for its hiking, running, and biking trails. It also offers scenic views of the sea.",
+      "de": "Der Kincaid Park ist bekannt für seine Wander-, Lauf- und Radwege. Er bietet auch malerische Ausblicke auf das Meer."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Bisiklet sürmek",
+        "Doğanın tadını çıkarmak"
+      ],
+      "en": [
+        "Hike",
+        "Bike",
+        "Enjoy nature"
+      ],
+      "de": [
+        "Wandern",
+        "Radfahren",
+        "Die Natur genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kincaid_park.jpg"
+    ]
+  },
+  {
+    "slug": "alaska-wildlife-conservation-center",
+    "name": {
+      "tr": "Alaska Wildlife Conservation Center",
+      "en": "Alaska Wildlife Conservation Center",
+      "de": "Alaska Wildlife Conservation Center"
+    },
+    "latitude": 61.0667,
+    "longitude": -149.4725,
+    "description": {
+      "tr": "Alaska'nın vahşi doğasını keşfetmek için harika bir yerdir. Burada boz ayılar, kar leoparları ve ren geyiği gibi birçok yerli hayvanı görebilirsiniz.",
+      "en": "It's a great place to explore Alaska's wildlife. You can see native animals like brown bears, caribou, and moose.",
+      "de": "Es ist ein großartiger Ort, um Alaskas Wildtiere zu entdecken. Hier können Sie einheimische Tiere wie Braunbären, Karibus und Elche sehen."
+    },
+    "activities": {
+      "tr": [
+        "Vahşi doğayı gözlemlemek",
+        "Hayvanları görmek"
+      ],
+      "en": [
+        "Observe wildlife",
+        "See animals"
+      ],
+      "de": [
+        "Wildtiere beobachten",
+        "Tiere sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/alaska_wildlife.jpg"
+    ]
+  },
+  {
+    "slug": "flattop-mountain",
+    "name": {
+      "tr": "Flattop Mountain",
+      "en": "Flattop Mountain",
+      "de": "Flattop Mountain"
+    },
+    "latitude": 61.1689,
+    "longitude": -149.749,
+    "description": {
+      "tr": "Flattop Dağı, Anchorage'ın ikonik dağlarından biridir. Yürüyüşçüler, zirveye ulaşarak muazzam manzaraların keyfini çıkarabilir.",
+      "en": "Flattop Mountain is one of Anchorage's iconic mountains. Hikers can enjoy stunning views by reaching the summit.",
+      "de": "Der Flattop Mountain ist einer der ikonischen Berge von Anchorage. Wanderer können die atemberaubende Aussicht genießen, indem sie den Gipfel erreichen."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Manzarayı izlemek"
+      ],
+      "en": [
+        "Hike the mountain",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Den Berg erklimmen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/flattop_mountain.jpg"
+    ]
+  },
+  {
+    "slug": "tony-knowles-coastal-trail",
+    "name": {
+      "tr": "Tony Knowles Coastal Trail",
+      "en": "Tony Knowles Coastal Trail",
+      "de": "Tony Knowles Coastal Trail"
+    },
+    "latitude": 61.2257,
+    "longitude": -149.8593,
+    "description": {
+      "tr": "Bu sahil yolu, Anchorage'ın batı sahilini keşfetmek için popüler bir yürüyüş ve bisiklet parkurudur.",
+      "en": "This coastal trail is a popular hiking and biking route to explore the western shore of Anchorage.",
+      "de": "Dieser Küstenweg ist eine beliebte Wander- und Radroute, um die westliche Küste von Anchorage zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Bisiklet sürmek",
+        "Manzara izlemek"
+      ],
+      "en": [
+        "Hike",
+        "Bike",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Wandern",
+        "Radfahren",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/tony_knowles_trail.jpg"
+    ]
+  }
+]

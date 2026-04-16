@@ -1,0 +1,183 @@
+[
+  {
+    "slug": "taal-volcano",
+    "name": {
+      "tr": "Taal Volcano",
+      "en": "Taal Volcano",
+      "de": "Taal Volcano"
+    },
+    "latitude": 13.3584,
+    "longitude": 120.5856,
+    "description": {
+      "tr": "Taal, dünyanın en küçük aktif volkanlarından biridir. Göl içinde yer alır ve harika manzaralar sunar.",
+      "en": "Taal is one of the smallest active volcanoes in the world. It is located within a lake and offers stunning views.",
+      "de": "Der Taal ist einer der kleinsten aktiven Vulkane der Welt. Er befindet sich in einem See und bietet atemberaubende Ausblicke."
+    },
+    "activities": {
+      "tr": [
+        "Volkanda yürüyüş yapmak",
+        "Manzaranın tadını çıkarmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Hiking the volcano",
+        "Enjoying the view",
+        "Taking photos"
+      ],
+      "de": [
+        "Den Vulkan erklimmen",
+        "Die Aussicht genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/taal_volcano.jpg"
+    ]
+  },
+  {
+    "slug": "sky-ranch",
+    "name": {
+      "tr": "Sky Ranch",
+      "en": "Sky Ranch",
+      "de": "Sky Ranch"
+    },
+    "latitude": 13.1066,
+    "longitude": 120.9372,
+    "description": {
+      "tr": "Sky Ranch, Tagaytay’nin yüksek tepelerinden muazzam manzaralar sunan bir eğlence parkıdır. Çeşitli eğlenceli aktiviteler mevcuttur.",
+      "en": "Sky Ranch is an amusement park in Tagaytay that offers stunning views from its high hilltops. Various fun activities are available.",
+      "de": "Sky Ranch ist ein Freizeitpark in Tagaytay, der von seinen hohen Hügeln aus atemberaubende Ausblicke bietet. Es gibt verschiedene unterhaltsame Aktivitäten."
+    },
+    "activities": {
+      "tr": [
+        "Eğlence parkını keşfetmek",
+        "Manzara izlemek",
+        "Açık hava etkinliklerine katılmak"
+      ],
+      "en": [
+        "Exploring the amusement park",
+        "Watching the view",
+        "Participating in outdoor activities"
+      ],
+      "de": [
+        "Den Freizeitpark erkunden",
+        "Die Aussicht genießen",
+        "An Outdoor-Aktivitäten teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sky_ranch.jpg"
+    ]
+  },
+  {
+    "slug": "people-s-park-in-the-sky",
+    "name": {
+      "tr": "People’s Park in the Sky",
+      "en": "People’s Park in the Sky",
+      "de": "People’s Park in the Sky"
+    },
+    "latitude": 13.1106,
+    "longitude": 120.9749,
+    "description": {
+      "tr": "People’s Park in the Sky, Tagaytay’nin yüksek tepelerinde, harika bir manzaraya sahip bir parktır. Taal Gölü’nün muazzam görüntüsünü burada izleyebilirsiniz.",
+      "en": "People’s Park in the Sky is a park located at the high peaks of Tagaytay, offering a fantastic view of Taal Lake.",
+      "de": "Der People's Park in the Sky ist ein Park auf den hohen Gipfeln von Tagaytay und bietet einen fantastischen Blick auf den Taal-See."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapmak",
+        "Manzaranın tadını çıkarmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Walking in the park",
+        "Enjoying the view",
+        "Taking photos"
+      ],
+      "de": [
+        "Im Park spazieren gehen",
+        "Die Aussicht genießen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/peoples_park_sky.jpg"
+    ]
+  },
+  {
+    "slug": "puzzle-mansion",
+    "name": {
+      "tr": "Puzzle Mansion",
+      "en": "Puzzle Mansion",
+      "de": "Puzzle Mansion"
+    },
+    "latitude": 13.1141,
+    "longitude": 120.9375,
+    "description": {
+      "tr": "Puzzle Mansion, dünyanın en büyük puzzle koleksiyonuna sahip olan ilginç bir müzedir.",
+      "en": "Puzzle Mansion is an interesting museum that holds the world's largest puzzle collection.",
+      "de": "Das Puzzle Mansion ist ein interessantes Museum, das die größte Puzzlesammlung der Welt beherbergt."
+    },
+    "activities": {
+      "tr": [
+        "Puzzle koleksiyonlarını keşfetmek",
+        "Müze gezisi yapmak"
+      ],
+      "en": [
+        "Exploring puzzle collections",
+        "Museum tour"
+      ],
+      "de": [
+        "Puzzlesammlungen erkunden",
+        "Museumsführung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/puzzle_mansion.jpg"
+    ]
+  }
+]

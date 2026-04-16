@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "westgate-entertainment-district",
+    "name": {
+      "tr": "Westgate Entertainment District",
+      "en": "Westgate Entertainment District",
+      "de": "Westgate Entertainment District"
+    },
+    "latitude": 33.5328,
+    "longitude": -112.2614,
+    "description": {
+      "tr": "Westgate Entertainment District, alışveriş, yemek ve eğlenceyi bir araya getiren büyük bir alışveriş ve eğlence merkezidir. Sinemalar, mağazalar ve restoranlar gibi pek çok eğlenceli aktivite bulunmaktadır.",
+      "en": "Westgate Entertainment District is a large shopping and entertainment center that combines shopping, dining, and entertainment. It features theaters, stores, and restaurants.",
+      "de": "Das Westgate Entertainment District ist ein großes Einkaufs- und Unterhaltungszentrum, das Einkaufen, Essen und Unterhaltung vereint. Es gibt Kinos, Geschäfte und Restaurants."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Sinema izlemek",
+        "Restoranlarda yemek yemek"
+      ],
+      "en": [
+        "Shop",
+        "Watch movies",
+        "Eat at restaurants"
+      ],
+      "de": [
+        "Einkaufen",
+        "Filme schauen",
+        "In Restaurants essen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "alışveriş"
+      ],
+      "en": [
+        "shopping"
+      ],
+      "de": [
+        "Einkaufen"
+      ]
+    },
+    "images": [
+      "https://example.com/westgate_entertainment_district.jpg"
+    ]
+  },
+  {
+    "slug": "glendale-desert-garden",
+    "name": {
+      "tr": "Glendale Desert Garden",
+      "en": "Glendale Desert Garden",
+      "de": "Glendale Desert Garden"
+    },
+    "latitude": 33.5375,
+    "longitude": -112.1868,
+    "description": {
+      "tr": "Glendale Desert Garden, yerel çöl bitkileri ve peyzaj tasarımıyla ünlüdür. Bu bahçe, ziyaretçilere çöl bitkilerini keşfetme ve dinlenme fırsatı sunar.",
+      "en": "Glendale Desert Garden is known for its collection of local desert plants and landscape design. It offers visitors a chance to explore desert flora and relax.",
+      "de": "Der Glendale Desert Garden ist bekannt für seine Sammlung lokaler Wüstenpflanzen und Landschaftsgestaltung. Es bietet den Besuchern die Möglichkeit, die Flora der Wüste zu erkunden und sich zu entspannen."
+    },
+    "activities": {
+      "tr": [
+        "Çöl bitkilerini keşfetmek",
+        "Dinlenmek"
+      ],
+      "en": [
+        "Explore desert plants",
+        "Relax"
+      ],
+      "de": [
+        "Wüstenpflanzen erkunden",
+        "Entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/glendale_desert_garden.jpg"
+    ]
+  },
+  {
+    "slug": "sahuaro-ranch-park",
+    "name": {
+      "tr": "Sahuaro Ranch Park",
+      "en": "Sahuaro Ranch Park",
+      "de": "Sahuaro Ranch Park"
+    },
+    "latitude": 33.5633,
+    "longitude": -112.191,
+    "description": {
+      "tr": "Sahuaro Ranch Park, tarihi bir çiftlik alanıdır. Burada eski çiftlik yapıları, kuş gözlem alanları ve geniş açık alanlar bulunur.",
+      "en": "Sahuaro Ranch Park is a historic farm site. It features old farm buildings, bird watching areas, and spacious open areas.",
+      "de": "Der Sahuaro Ranch Park ist eine historische Farm. Es gibt alte Farmgebäude, Vogelbeobachtungsgebiete und weitläufige offene Flächen."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi yapıları görmek",
+        "Kuş gözlemlemek",
+        "Doğayla iç içe gezmek"
+      ],
+      "en": [
+        "See historic buildings",
+        "Bird watching",
+        "Walk through nature"
+      ],
+      "de": [
+        "Historische Gebäude besichtigen",
+        "Vögel beobachten",
+        "Durch die Natur spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/sahuaro_ranch_park.jpg"
+    ]
+  },
+  {
+    "slug": "arizona-doll-and-toy-museum",
+    "name": {
+      "tr": "Arizona Doll and Toy Museum",
+      "en": "Arizona Doll and Toy Museum",
+      "de": "Arizona Doll and Toy Museum"
+    },
+    "latitude": 33.54,
+    "longitude": -112.1864,
+    "description": {
+      "tr": "Arizona Bebek ve Oyuncak Müzesi, tarihi bebekler ve oyuncak koleksiyonlarını sergileyen ilginç bir müzedir. Ziyaretçiler, nostaljik bir yolculuğa çıkabilirler.",
+      "en": "The Arizona Doll and Toy Museum is a fascinating museum showcasing historical dolls and toy collections. Visitors can take a nostalgic journey through time.",
+      "de": "Das Arizona Doll and Toy Museum ist ein faszinierendes Museum, das historische Puppen- und Spielzeugsammlungen zeigt. Besucher können eine nostalgische Reise durch die Zeit unternehmen."
+    },
+    "activities": {
+      "tr": [
+        "Bebek koleksiyonlarını görmek",
+        "Oyuncak koleksiyonlarını incelemek"
+      ],
+      "en": [
+        "See doll collections",
+        "Explore toy collections"
+      ],
+      "de": [
+        "Puppensammlungen sehen",
+        "Spielzeugsammlungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/arizona_doll_and_toy_museum.jpg"
+    ]
+  },
+  {
+    "slug": "glendale-community-college",
+    "name": {
+      "tr": "Glendale Community College",
+      "en": "Glendale Community College",
+      "de": "Glendale Community College"
+    },
+    "latitude": 33.542,
+    "longitude": -112.1866,
+    "description": {
+      "tr": "Glendale Community College, eğitim ve kültür etkinliklerine ev sahipliği yapan bir okuldur. Konserler, tiyatro gösterileri ve sanat galerileri gibi çeşitli etkinlikler düzenlenir.",
+      "en": "Glendale Community College is a school that hosts educational and cultural events. It organizes various activities, including concerts, theater performances, and art galleries.",
+      "de": "Das Glendale Community College ist eine Schule, die Bildungs- und Kulturveranstaltungen ausrichtet. Es organisiert verschiedene Aktivitäten wie Konzerte, Theateraufführungen und Kunstausstellungen."
+    },
+    "activities": {
+      "tr": [
+        "Konsere gitmek",
+        "Tiyatro izlemek",
+        "Sanat galerilerini gezmek"
+      ],
+      "en": [
+        "Attend concerts",
+        "Watch theater performances",
+        "Visit art galleries"
+      ],
+      "de": [
+        "Konzerte besuchen",
+        "Theateraufführungen ansehen",
+        "Kunstausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/glendale_community_college.jpg"
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "tillo-kalesi",
+    "name": {
+      "tr": "Tillo Kalesi",
+      "en": "Tillo Castle",
+      "de": "Tillo Schloss"
+    },
+    "latitude": 37.95097,
+    "longitude": 42.05177,
+    "description": {
+      "tr": "Tillo Kalesi, şehrin en eski yapılarından biridir. Kale, bölgedeki en yüksek noktalardan birinde yer alır ve Siirt'in tarihi simgelerindendir.\n",
+      "en": "Tillo Castle is one of the oldest structures in the city. It is located on one of the highest points in the region and is one of the historical symbols of Siirt.\n",
+      "de": "Die Tillo Burg ist eines der ältesten Gebäude der Stadt. Sie befindet sich an einem der höchsten Punkte der Region und ist ein historisches Symbol von Siirt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında yürüyüş yapmak",
+        "Manzarayı izlemek"
+      ],
+      "en": [
+        "Walk around the castle",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Rund um die Burg spazieren",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/siirt_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "veysel-karani-turbesi",
+    "name": {
+      "tr": "Veysel Karani Türbesi",
+      "en": "Veysel Karani Tomb",
+      "de": "Veysel Karani Grab"
+    },
+    "latitude": 38.1316,
+    "longitude": 41.71663,
+    "description": {
+      "tr": "Veysel Karani Türbesi, İslam dünyasında büyük bir saygı gören Veysel Karani'nin mezarının bulunduğu yerdir. Siirt'teki en önemli dini ve kültürel yerlerden biridir.\n",
+      "en": "The Veysel Karani Tomb is the burial site of Veysel Karani, a revered figure in the Islamic world. It is one of the most important religious and cultural sites in Siirt.\n",
+      "de": "Das Veysel Karani Grab ist die Grabstätte von Veysel Karani, einer verehrten Figur in der islamischen Welt. Es ist einer der wichtigsten religiösen und kulturellen Orte in Siirt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Türbeyi ziyaret etmek",
+        "İnanç atmosferini hissetmek"
+      ],
+      "en": [
+        "Visit the tomb",
+        "Feel the spiritual atmosphere"
+      ],
+      "de": [
+        "Das Grab besuchen",
+        "Die spirituelle Atmosphäre spüren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/veysel_karani.jpg"
+    ]
+  },
+  {
+    "slug": "siirt-ulu-camii",
+    "name": {
+      "tr": "Siirt Ulu Camii",
+      "en": "Siirt Grand Mosque",
+      "de": "Siirt Große Moschee"
+    },
+    "latitude": 37.92563,
+    "longitude": 41.94541,
+    "description": {
+      "tr": "Siirt Ulu Camii, şehre hakim bir noktada bulunan ve Osmanlı döneminden kalma tarihi bir camidir. Caminin zarif mimarisi ve iç süslemeleri ile dikkat çeker.\n",
+      "en": "Siirt Grand Mosque is a historic mosque from the Ottoman period, located at a prominent point in the city. Its elegant architecture and interior decorations are remarkable.\n",
+      "de": "Die Siirt Große Moschee ist eine historische Moschee aus der osmanischen Zeit, die an einem prominenten Punkt in der Stadt liegt. Ihre elegante Architektur und Innendekorationen sind bemerkenswert.\n"
+    },
+    "activities": {
+      "tr": [
+        "Camiye ziyaret etmek",
+        "Mimari detayları incelemek"
+      ],
+      "en": [
+        "Visit the mosque",
+        "Examine the architectural details"
+      ],
+      "de": [
+        "Die Moschee besuchen",
+        "Die architektonischen Details untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/siirt_ulu_cami.jpg"
+    ]
+  },
+  {
+    "slug": "pervari-yaylasi",
+    "name": {
+      "tr": "Pervari Yaylası",
+      "en": "Pervari Plateau",
+      "de": "Pervari Plateau"
+    },
+    "latitude": 37.80004,
+    "longitude": 42.69999,
+    "description": {
+      "tr": "Pervari Yaylası, Siirt'in en güzel doğa alanlarından biridir. Yüksek dağlar ve yemyeşil çimenlik alanlar arasında doğa yürüyüşleri yapabilirsiniz.\n",
+      "en": "Pervari Plateau is one of the most beautiful natural areas in Siirt. You can take nature walks among the high mountains and lush grassy areas.\n",
+      "de": "Das Pervari Plateau ist eines der schönsten Naturgebiete in Siirt. Sie können zwischen den hohen Bergen und den üppigen grünen Wiesen wandern.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yaylada yürüyüş yapmak",
+        "Doğal güzellikleri keşfetmek"
+      ],
+      "en": [
+        "Take a walk in the plateau",
+        "Explore the natural beauty"
+      ],
+      "de": [
+        "Wandern im Plateau",
+        "Die natürliche Schönheit erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "yayla"
+      ],
+      "en": [
+        "plateau"
+      ],
+      "de": [
+        "hochland"
+      ]
+    },
+    "images": [
+      "https://example.com/pervari_yaylasi.jpg"
+    ]
+  },
+  {
+    "slug": "rasil-hacar-tepesi",
+    "name": {
+      "tr": "Rasıl Hacar Tepesi",
+      "en": "Rasıl Hacar Hill",
+      "de": "Rasıl Hacar Hügel"
+    },
+    "latitude": 37.89965,
+    "longitude": 41.95045,
+    "description": {
+      "tr": "Siirt merkeze oldukça yakın konumu ile bir doğa harikası olan Rasıl Hacar Tepesi, yerli ve yabancı birçok turiste ev sahipliği yapmaktadır. Dik kireç taşlarının milattan önceki dönemlerde oyulmasıyla oluşan bu tepe, iç içe bulunan mağaralarıyla oldukça ilgi çekicidir. M.Ö. yaşamış insanların barınma ihtiyaçlarını nasıl karşıladıklarını görmek isteyenler için bu mağaralar mutlaka görülmelidir. Ayrıca, doğal yapısının korunarak mesire alanı haline getirilen Rasıl Hacar, fotoğrafçılar için mükemmel manzaralar sunmakta ve macera tutkunları için yamaç paraşütü ile rafting gibi aktivitelere imkan tanımaktadır. Doğa sporları sevenler için de harika bir gezi rotasıdır.\n",
+      "en": "Rasıl Hacar Hill, located very close to the center of Siirt, is a natural wonder that hosts many local and foreign tourists. The hill, formed by the carving of steep limestone rocks in ancient times, features interconnected caves that attract much interest. These caves should be visited for those who want to see how people from the BC era met their shelter needs. Additionally, Rasıl Hacar, which has been turned into a recreational area while preserving its natural structure, offers excellent views for photographers and provides opportunities for adventure enthusiasts, such as paragliding and rafting. It is also a fantastic destination for nature sports lovers.\n",
+      "de": "Der Rasıl Hacar Hügel, der sich sehr nahe am Stadtzentrum von Siirt befindet, ist ein Naturwunder, das viele einheimische und ausländische Touristen beherbergt. Der Hügel, der durch das Schnitzen von steilen Kalksteinen in der Antike entstanden ist, verfügt über miteinander verbundene Höhlen, die großes Interesse wecken. Diese Höhlen sollten von denen besucht werden, die sehen möchten, wie Menschen aus der vorrömischen Zeit ihren Unterschlupfbedarf deckten. Darüber hinaus bietet Rasıl Hacar, das in ein Erholungsgebiet umgewandelt wurde und seine natürliche Struktur bewahrt hat, hervorragende Ausblicke für Fotografen und bietet Abenteuerliebhabern die Möglichkeit zu Paragliding und Rafting. Es ist auch ein fantastisches Ziel für Natursportler.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağaraları gezmek",
+        "Fotoğraf çekmek",
+        "Yamaç paraşütü yapmak",
+        "Rafting yapmak",
+        "Doğa sporları yapmak"
+      ],
+      "en": [
+        "Explore the caves",
+        "Take photographs",
+        "Go paragliding",
+        "Go rafting",
+        "Engage in nature sports"
+      ],
+      "de": [
+        "Die Höhlen erkunden",
+        "Fotografieren",
+        "Paragliding machen",
+        "Rafting machen",
+        "Natur-Sportarten betreiben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/rasil_hacar.jpg"
+    ]
+  },
+  {
+    "slug": "cudi-dagi",
+    "name": {
+      "tr": "Cudi Dağı",
+      "en": "Cudi Mountain",
+      "de": "Cudi Berg"
+    },
+    "latitude": 37.37092,
+    "longitude": 42.49827,
+    "description": {
+      "tr": "Cudi Dağı, Siirt il sınırlarında yer alır ve özellikle dağcılık ve doğa yürüyüşleri için popüler bir alandır. Aynı zamanda, dini açıdan da büyük bir öneme sahiptir.\n",
+      "en": "Cudi Mountain is located on the border of Siirt Province and is particularly popular for mountaineering and nature walks. It also holds significant religious importance.\n",
+      "de": "Der Cudi Berg liegt an der Grenze der Provinz Siirt und ist besonders beliebt für Bergsteigen und Wanderungen in der Natur. Er hat auch eine große religiöse Bedeutung.\n"
+    },
+    "activities": {
+      "tr": [
+        "Dağcılık yapmak",
+        "Doğa yürüyüşleri yapmak"
+      ],
+      "en": [
+        "Go mountaineering",
+        "Go on nature walks"
+      ],
+      "de": [
+        "Bergsteigen gehen",
+        "Wandern gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/cudi_dagi.jpg"
+    ]
+  },
+  {
+    "slug": "siirt-cayi",
+    "name": {
+      "tr": "Siirt Çayı",
+      "en": "Siirt River",
+      "de": "Siirt Fluss"
+    },
+    "latitude": 37.86171,
+    "longitude": 41.88604,
+    "description": {
+      "tr": "Siirt Çayı, şehrin ortasından geçen doğal bir akarsudur. Çevresindeki yürüyüş yolları ve park alanları ile ziyaretçilerine dinlendirici bir atmosfer sunar.\n",
+      "en": "Siirt River is a natural stream that flows through the center of the city. Its surrounding walking paths and park areas offer a relaxing atmosphere for visitors.\n",
+      "de": "Der Siirt Fluss ist ein natürlicher Bach, der durch das Stadtzentrum fließt. Die umliegenden Wanderwege und Parkanlagen bieten den Besuchern eine entspannende Atmosphäre.\n"
+    },
+    "activities": {
+      "tr": [
+        "Çay kenarında yürüyüş yapmak",
+        "Piknik yapmak"
+      ],
+      "en": [
+        "Take a walk along the river",
+        "Have a picnic"
+      ],
+      "de": [
+        "Am Fluss spazieren gehen",
+        "Picknicken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/siirt_cayi.jpg"
+    ]
+  }
+]

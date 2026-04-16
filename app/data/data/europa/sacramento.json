@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "california-state-capitol",
+    "name": {
+      "tr": "California State Capitol",
+      "en": "California State Capitol",
+      "de": "California State Capitol"
+    },
+    "latitude": 38.5791,
+    "longitude": -121.4937,
+    "description": {
+      "tr": "California State Capitol, Kaliforniya eyaletinin hükümet merkezi olarak hizmet vermektedir. Ziyaretçiler, tarihi yapıyı gezebilir ve eyalet hükümetinin işleyişini öğrenebilirler. Binada aynı zamanda bir müze bulunmaktadır.\n",
+      "en": "The California State Capitol serves as the government center of California. Visitors can tour the historic building and learn about the state's government workings. The building also houses a museum.\n",
+      "de": "Das California State Capitol dient als Regierungssitz von Kalifornien. Besucher können das historische Gebäude besichtigen und mehr über die Arbeitsweise der Landesregierung erfahren. Das Gebäude beherbergt auch ein Museum.\n"
+    },
+    "activities": {
+      "tr": [
+        "Capitol Binası’nı gezmek",
+        "Müzeyi ziyaret etmek",
+        "Hükümet işlemlerini öğrenmek"
+      ],
+      "en": [
+        "Tour the Capitol Building",
+        "Visit the museum",
+        "Learn about government operations"
+      ],
+      "de": [
+        "Das Capitol-Gebäude besichtigen",
+        "Das Museum besuchen",
+        "Mehr über Regierungsarbeit erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/california_state_capitol_image.jpg"
+    ]
+  },
+  {
+    "slug": "old-sacramento",
+    "name": {
+      "tr": "Old Sacramento",
+      "en": "Old Sacramento",
+      "de": "Old Sacramento"
+    },
+    "latitude": 38.5833,
+    "longitude": -121.4953,
+    "description": {
+      "tr": "Old Sacramento, tarihi yapıları ve nostaljik atmosferiyle ünlüdür. 19. yüzyıldan kalma binalar, müzeler ve mağazalar ile ziyaretçilere geçmişe yolculuk yapma fırsatı sunar.\n",
+      "en": "Old Sacramento is famous for its historic buildings and nostalgic atmosphere. The 19th-century structures, museums, and shops offer visitors a chance to step back in time.\n",
+      "de": "Old Sacramento ist berühmt für seine historischen Gebäude und nostalgische Atmosphäre. Die Gebäude aus dem 19. Jahrhundert, Museen und Geschäfte bieten den Besuchern die Möglichkeit, in die Vergangenheit zurückzukehren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi sokaklarda yürüyüş yapmak",
+        "Müzeleri ziyaret etmek",
+        "Nostaljik dükkanlardan alışveriş yapmak"
+      ],
+      "en": [
+        "Walk through historic streets",
+        "Visit museums",
+        "Shop at nostalgic stores"
+      ],
+      "de": [
+        "Durch historische Straßen spazieren",
+        "Museen besuchen",
+        "In nostalgischen Geschäften einkaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/old_sacramento_image.jpg"
+    ]
+  }
+]

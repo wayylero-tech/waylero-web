@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "kilkenny-kalesi",
+    "name": {
+      "tr": "Kilkenny Kalesi",
+      "en": "Kilkenny Castle",
+      "de": "Kilkenny Schloss"
+    },
+    "latitude": 52.6542,
+    "longitude": -7.2546,
+    "description": {
+      "tr": "Kilkenny Kalesi, 12. yüzyıldan kalma tarihi bir yapıdır ve İrlanda'nın en iyi korunmuş kalelerinden biridir. Kale, tarihi mimarisi, görkemli iç mekanları ve güzel bahçeleri ile ünlüdür. Ziyaretçiler, kaleyi gezebilir, içindeki galerileri keşfedebilir ve kale bahçelerinde yürüyüş yapabilirler. Ayrıca, Kilkenny şehrinin harika manzaralarını izleyebilirsiniz.",
+      "en": "Kilkenny Castle, a historic structure dating back to the 12th century, is one of Ireland’s best-preserved castles. The castle is famous for its historic architecture, grand interiors, and beautiful gardens. Visitors can explore the castle, discover its galleries, and take a walk through the castle gardens. The views of Kilkenny city from the castle are also spectacular.",
+      "de": "Kilkenny Castle, eine historische Struktur aus dem 12. Jahrhundert, ist eines der am besten erhaltenen Schlösser Irlands. Das Schloss ist berühmt für seine historische Architektur, prächtige Innenräume und schönen Gärten. Besucher können das Schloss erkunden, seine Galerien entdecken und durch die Schlossgärten spazieren. Die Aussicht auf die Stadt Kilkenny vom Schloss aus ist ebenfalls spektakulär."
+    },
+    "activities": {
+      "tr": [
+        "Kale içini gezmek",
+        "Bahçelerde yürüyüş yapmak",
+        "Kilkenny manzarasını izlemek"
+      ],
+      "en": [
+        "Exploring the castle interior",
+        "Walking through the gardens",
+        "Viewing the Kilkenny cityscape"
+      ],
+      "de": [
+        "Das Schlossinnere erkunden",
+        "Durch die Gärten spazieren",
+        "Den Blick auf die Stadt Kilkenny genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kilkenny_castle_1.jpg",
+      "https://example.com/kilkenny_castle_2.jpg"
+    ]
+  },
+  {
+    "slug": "st-canice-s-katedrali-kulesi",
+    "name": {
+      "tr": "St. Canice's Katedrali & Kulesi",
+      "en": "St. Canice’s Cathedral & Tower",
+      "de": "St. Canice's Kathedrale & Turm"
+    },
+    "latitude": 52.6515,
+    "longitude": -7.2558,
+    "description": {
+      "tr": "St. Canice's Katedrali, 13. yüzyıldan kalma Gotik bir yapıdır ve Kilkenny'nin en eski dini yapılarından biridir. Katedralin etkileyici iç mekanlarının yanı sıra, katedralin yanındaki kuleye çıkarak şehri yüksekten görebilirsiniz. Ziyaretçiler, Gotik mimarinin örneklerini inceleyebilir ve Kilkenny'nin tarihi manzaralarını izleyebilirler.",
+      "en": "St. Canice’s Cathedral, a Gothic structure dating back to the 13th century, is one of Kilkenny’s oldest religious buildings. In addition to its impressive interior, visitors can climb the nearby tower to enjoy panoramic views of the city. The cathedral offers an excellent example of Gothic architecture and is a great spot to view Kilkenny’s historic landscapes.",
+      "de": "Die St. Canice's Kathedrale, eine gotische Struktur aus dem 13. Jahrhundert, ist eines der ältesten religiösen Gebäude von Kilkenny. Neben ihrem beeindruckenden Inneren können Besucher den nahegelegenen Turm erklimmen und einen Panoramablick auf die Stadt genießen. Die Kathedrale bietet ein ausgezeichnetes Beispiel gotischer Architektur und ist ein großartiger Ort, um die historischen Landschaften von Kilkenny zu betrachten."
+    },
+    "activities": {
+      "tr": [
+        "Katedral içini gezmek",
+        "Kuleye çıkıp manzara izlemek",
+        "Gotik mimarini incelemek"
+      ],
+      "en": [
+        "Exploring the cathedral interior",
+        "Climbing the tower for panoramic views",
+        "Examining Gothic architecture"
+      ],
+      "de": [
+        "Das Innere der Kathedrale erkunden",
+        "Den Turm besteigen und den Panoramablick genießen",
+        "Gotische Architektur untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/st_canices_cathedral_1.jpg",
+      "https://example.com/st_canices_cathedral_2.jpg"
+    ]
+  },
+  {
+    "slug": "smithwick-s-deneyimi",
+    "name": {
+      "tr": "Smithwick's Deneyimi",
+      "en": "Smithwick’s Experience",
+      "de": "Smithwick’s Erlebnis"
+    },
+    "latitude": 52.6524,
+    "longitude": -7.2529,
+    "description": {
+      "tr": "Smithwick's Deneyimi, Kilkenny'de bulunan tarihi bir bira fabrikası turudur. Burada, İrlanda'nın en eski biralarından biri olan Smithwick's bira markasının tarihini öğrenebilirsiniz. Ziyaretçiler, bira yapım sürecini keşfederken, geleneksel biraların nasıl üretildiğine dair bilgiler alacak ve bira tadım etkinliklerine katılabilecektir. Smithwick's, Kilkenny'nin kültürel mirasını yansıtan önemli bir noktadır.",
+      "en": "Smithwick’s Experience is a historic brewery tour located in Kilkenny. Visitors can learn about the history of Smithwick’s, one of Ireland’s oldest beers. During the tour, visitors explore the brewing process, gaining insights into how traditional beers are made, and they can also participate in beer-tasting events. Smithwick’s is an important part of Kilkenny’s cultural heritage.",
+      "de": "Das Smithwick's Erlebnis ist eine historische Brauerei-Tour in Kilkenny. Besucher können mehr über die Geschichte von Smithwick's, einem der ältesten Biere Irlands, erfahren. Während der Tour erkunden die Besucher den Brauprozess, erhalten Einblicke, wie traditionelle Biere hergestellt werden, und können an Bierverkostungen teilnehmen. Smithwick's ist ein wichtiger Teil des kulturellen Erbes von Kilkenny."
+    },
+    "activities": {
+      "tr": [
+        "Bira yapım sürecini öğrenmek",
+        "Bira tadımı yapmak",
+        "Smithwick's tarihini keşfetmek"
+      ],
+      "en": [
+        "Learning about the brewing process",
+        "Participating in beer tastings",
+        "Exploring the history of Smithwick’s"
+      ],
+      "de": [
+        "Den Brauprozess lernen",
+        "An Bierverkostungen teilnehmen",
+        "Die Geschichte von Smithwick's erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/smithwicks_experience_1.jpg",
+      "https://example.com/smithwicks_experience_2.jpg"
+    ]
+  }
+]

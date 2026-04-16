@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "gelati-manastiri",
+    "name": {
+      "tr": "Gelati Manastırı",
+      "en": "Gelati Monastery",
+      "de": "Gelati Kloster"
+    },
+    "latitude": 42.6193,
+    "longitude": 42.7539,
+    "description": {
+      "tr": "Gelati Manastırı, Gürcistan’ın Kutaisi şehri yakınlarında yer alan ve UNESCO Dünya Mirası Listesi’nde bulunan tarihi bir manastırdır. 12. yüzyılda inşa edilen bu manastır, Gürcü Ortodoks mimarisinin en önemli örneklerinden biridir. Zengin iç mekanları, freskleri ve dini önemiyle, hem tarih hem de din açısından önemli bir gezi noktasıdır.",
+      "en": "Gelati Monastery, located near the city of Kutaisi in Georgia, is a historic monastery that is listed on the UNESCO World Heritage List. Built in the 12th century, it is one of the most important examples of Georgian Orthodox architecture. With its rich interiors, frescoes, and religious significance, it is an important destination for both history and religion.",
+      "de": "Das Gelati-Kloster, das sich in der Nähe der Stadt Kutaisi in Georgien befindet, ist ein historisches Kloster, das auf der UNESCO-Weltkulturerbeliste steht. Es wurde im 12. Jahrhundert erbaut und ist eines der wichtigsten Beispiele für georgische orthodoxe Architektur. Mit seinen reichen Innenräumen, Fresken und religiöser Bedeutung ist es ein bedeutendes Ziel für Geschichte und Religion."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı gezmek",
+        "Freskleri görmek",
+        "Dini atmosferi yaşamak"
+      ],
+      "en": [
+        "Visiting the monastery",
+        "Seeing the frescoes",
+        "Experiencing the religious atmosphere"
+      ],
+      "de": [
+        "Das Kloster besuchen",
+        "Die Fresken sehen",
+        "Die religiöse Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/gelati_monastery.jpg"
+    ]
+  },
+  {
+    "slug": "prometheus-magarasi",
+    "name": {
+      "tr": "Prometheus Mağarası",
+      "en": "Prometheus Cave",
+      "de": "Prometheus-Höhle"
+    },
+    "latitude": 42.462,
+    "longitude": 42.6667,
+    "description": {
+      "tr": "Prometheus Mağarası, Gürcistan’ın Kutaisi şehri yakınlarında bulunan dev bir mağaradır. İçerisinde büyüleyici sarkıtlar ve dikitlerle dolu olan mağara, aynı zamanda yer altı gölleri ve doğal taş oluşumları ile ünlüdür. Ziyaretçiler, mağaranın içindeki yürüyüş yolları boyunca bu doğal harikaları keşfedebilirler.",
+      "en": "Prometheus Cave is a massive cave located near the city of Kutaisi in Georgia. It is filled with mesmerizing stalactites and stalagmites, and is famous for its underground lakes and natural stone formations. Visitors can explore these natural wonders along the cave’s walking paths.",
+      "de": "Die Prometheus-Höhle ist eine riesige Höhle in der Nähe der Stadt Kutaisi in Georgien. Sie ist mit faszinierenden Stalaktiten und Stalagmiten gefüllt und berühmt für ihre unterirdischen Seen und natürlichen Steinformationen. Besucher können diese Naturwunder auf den Wanderwegen der Höhle erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Mağarayı keşfetmek",
+        "Yer altı göllerini görmek"
+      ],
+      "en": [
+        "Exploring the cave",
+        "Seeing the underground lakes"
+      ],
+      "de": [
+        "Die Höhle erkunden",
+        "Die unterirdischen Seen sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/prometheus_cave.jpg"
+    ]
+  },
+  {
+    "slug": "bagrati-katedrali",
+    "name": {
+      "tr": "Bagrati Katedrali",
+      "en": "Bagrati Cathedral",
+      "de": "Bagrati Kathedrale"
+    },
+    "latitude": 42.262,
+    "longitude": 42.7095,
+    "description": {
+      "tr": "Bagrati Katedrali, Kutaisi şehrinin simgelerinden biri olan tarihi bir yapıdır. 11. yüzyılda inşa edilen bu katedral, Gürcistan’ın dini ve kültürel mirasının önemli bir parçasıdır. Şehri yüksekten görebileceğiniz bu katedral, UNESCO Dünya Mirası Listesi’nde yer alır ve tarihi dokusu ile dikkat çeker.",
+      "en": "Bagrati Cathedral is a historic building that is one of the symbols of Kutaisi. Built in the 11th century, this cathedral is an important part of Georgia’s religious and cultural heritage. Offering a high vantage point over the city, it is listed on the UNESCO World Heritage List and is notable for its historical architecture.",
+      "de": "Die Bagrati-Kathedrale ist ein historisches Gebäude und eines der Wahrzeichen von Kutaisi. Sie wurde im 11. Jahrhundert erbaut und ist ein wichtiger Teil des religiösen und kulturellen Erbes Georgiens. Mit einem hohen Aussichtspunkt über die Stadt ist sie auf der UNESCO-Weltkulturerbeliste und zeichnet sich durch ihre historische Architektur aus."
+    },
+    "activities": {
+      "tr": [
+        "Katedralde gezmek",
+        "Manzarayı görmek"
+      ],
+      "en": [
+        "Visiting the cathedral",
+        "Seeing the view"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/bagrati_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "sataplia-dogal-rezervi",
+    "name": {
+      "tr": "Sataplia Doğal Rezervi",
+      "en": "Sataplia Nature Reserve",
+      "de": "Sataplia Naturreservat"
+    },
+    "latitude": 42.4664,
+    "longitude": 42.6358,
+    "description": {
+      "tr": "Sataplia Doğal Rezervi, Kutaisi yakınlarında yer alan ve içinde dinozor ayak izleri bulunan bir doğa parkıdır. Ayrıca, mağaralar, nadir bitki örtüsü ve yaban hayatı ile de ünlüdür. Ziyaretçiler, dinozor ayak izlerinin olduğu alanda yürüyüş yapabilir ve bu doğal mirası keşfedebilirler.",
+      "en": "Sataplia Nature Reserve is a nature park located near Kutaisi, famous for its dinosaur footprints. It is also known for its caves, rare plant life, and wildlife. Visitors can walk in the area with dinosaur footprints and explore this natural heritage.",
+      "de": "Das Sataplia-Naturreservat ist ein Naturpark in der Nähe von Kutaisi, der für seine Dinosaurier-Fußabdrücke bekannt ist. Es ist auch für seine Höhlen, seltene Pflanzenarten und Wildtiere bekannt. Besucher können im Bereich der Dinosaurier-Fußabdrücke spazieren und dieses Naturerbe erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Dinozor ayak izlerini görmek",
+        "Doğa yürüyüşleri yapmak"
+      ],
+      "en": [
+        "Seeing dinosaur footprints",
+        "Hiking in nature"
+      ],
+      "de": [
+        "Dinosaurier-Fußabdrücke sehen",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/sataplia_nature_reserve.jpg"
+    ]
+  }
+]

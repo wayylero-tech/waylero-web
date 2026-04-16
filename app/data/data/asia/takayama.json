@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "hida-great-limestone-cave",
+    "name": {
+      "tr": "Hida Great Limestone Cave",
+      "en": "Hida Great Limestone Cave",
+      "de": "Hida Große Kalksteinhöhle"
+    },
+    "latitude": 36.1833,
+    "longitude": 137.4,
+    "description": {
+      "tr": "Hida Great Limestone Cave, Japonya'nın en yüksek turist mağarasıdır ve Gifu Prefektörlüğü'nde yer alır. Mağara, yaklaşık 800 metre uzunluğunda olup 250 milyon yıl süren bir oluşum sürecinin sonucudur. 900 metre yükseklikteki bu mağara, serin havası ve büyüleyici yapısıyla ziyaretçilerini kendine çekmektedir. Mağara, heliktitler gibi nadir oluşumlarıyla ünlüdür ve farklı ışıklandırmalarla aydınlatılmış tünelleri ile ziyaretçilere doğanın yaratıcı gücünü gözlemleme fırsatı sunar.\n",
+      "en": "The Hida Great Limestone Cave is the highest tourist cave in Japan, located in the Gifu Prefecture. The cave is approximately 800 meters long and was formed over a period of 250 million years. At an elevation of 900 meters, it offers a cool escape with its unique formations, including rare helictites. The cave is illuminated by colorful lights, providing visitors with an opportunity to witness the natural creative power of the earth.\n",
+      "de": "Die Hida Große Kalksteinhöhle ist die höchste Touristenhöhle in Japan und befindet sich in der Präfektur Gifu. Die Höhle ist etwa 800 Meter lang und wurde über einen Zeitraum von 250 Millionen Jahren gebildet. Auf einer Höhe von 900 Metern bietet sie eine kühle Flucht mit einzigartigen Formationen, darunter seltene Heliktiten. Die Höhle wird von bunten Lichtern beleuchtet und bietet den Besuchern die Möglichkeit, die kreative Kraft der Natur zu erleben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağara keşfi",
+        "Heliktitleri gözlemleme",
+        "Işıklandırmalarla yürüyüş",
+        "Sanat galerisi ziyaret"
+      ],
+      "en": [
+        "Cave exploration",
+        "Observing helictites",
+        "Walking through illuminated tunnels",
+        "Visiting the art gallery"
+      ],
+      "de": [
+        "Höhlenforschung",
+        "Heliktiten beobachten",
+        "Durch beleuchtete Tunnel gehen",
+        "Besuch der Kunstgalerie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/hida_cave_1.jpg",
+      "https://example.com/hida_cave_2.jpg"
+    ]
+  },
+  {
+    "slug": "takayama-eski-sehir",
+    "name": {
+      "tr": "Takayama Eski Şehir",
+      "en": "Takayama Old Town",
+      "de": "Takayama Altstadt"
+    },
+    "latitude": 36.14,
+    "longitude": 137.25,
+    "description": {
+      "tr": "Takayama, geleneksel Japonya'nın izlerini taşıyan bir kasabadır. Takayama Eski Şehri, geleneksel ahşap evler ve dar sokaklarla ünlüdür. Burada, Japonya'nın eski yaşam tarzını hissedebilir ve Hida bölgesinin mutfağını deneyimleyebilirsiniz.\n",
+      "en": "Takayama is a town that carries the traces of traditional Japan. The Takayama Old Town is famous for its traditional wooden houses and narrow streets. You can experience Japan's old lifestyle here and try the cuisine of the Hida region.\n",
+      "de": "Takayama ist eine Stadt, die die Spuren des traditionellen Japans trägt. Die Altstadt von Takayama ist bekannt für ihre traditionellen Holzhäuser und engen Gassen. Hier können Sie den alten Lebensstil Japans erleben und die Küche der Hida-Region probieren.\n"
+    },
+    "activities": {
+      "tr": [
+        "Eski şehirde gezinti",
+        "Hida mutfağını denemek",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Strolling in the old town",
+        "Trying Hida cuisine",
+        "Photography"
+      ],
+      "de": [
+        "Spaziergang in der Altstadt",
+        "Hida-Küche probieren",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi semtler"
+      ],
+      "en": [
+        "historic districts"
+      ],
+      "de": [
+        "historische Viertel"
+      ]
+    },
+    "images": [
+      "https://example.com/takayama-old-town.jpg"
+    ]
+  }
+]

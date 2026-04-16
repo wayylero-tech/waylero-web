@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "yozgat-camligi-milli-parki",
+    "name": {
+      "tr": "Yozgat Çamlığı Milli Parkı",
+      "en": "Yozgat Pine Forest National Park",
+      "de": "Yozgat Kiefernwald Nationalpark"
+    },
+    "latitude": 39.8037,
+    "longitude": 34.80407,
+    "description": {
+      "tr": "Yozgat Çamlığı, zengin flora ve fauna çeşitliliği ile doğa severlerin ilgi gösterdiği bir alandır. Piknik yapmak ve doğa yürüyüşleri yapmak mümkündür.\n",
+      "en": "Yozgat Pine Forest is an area of great interest to nature lovers with its rich diversity of flora and fauna. It is ideal for picnicking and nature walks.\n",
+      "de": "Der Yozgat Kiefernwald ist ein Gebiet von großem Interesse für Naturliebhaber mit seiner reichen Vielfalt an Flora und Fauna. Es ist ideal für Picknicks und Wanderungen in der Natur.\n"
+    },
+    "activities": {
+      "tr": [
+        "Piknik yapmak",
+        "Doğa yürüyüşü yapmak"
+      ],
+      "en": [
+        "Have a picnic",
+        "Go for a nature walk"
+      ],
+      "de": [
+        "Picknicken",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/yozgat_camligi.jpg"
+    ]
+  },
+  {
+    "slug": "bozok-yaylasi",
+    "name": {
+      "tr": "Bozok Yaylası",
+      "en": "Bozok Plateau",
+      "de": "Bozok Plateau"
+    },
+    "latitude": 39.0928,
+    "longitude": 35.10164,
+    "description": {
+      "tr": "Bozok Yaylası, Yozgat’ın en güzel doğal alanlarından biridir. Yaylada yürüyüş yapmak ve fotoğraf çekmek oldukça popülerdir.\n",
+      "en": "Bozok Plateau is one of the most beautiful natural areas of Yozgat. Hiking and taking photographs on the plateau are quite popular.\n",
+      "de": "Das Bozok-Plateau ist eines der schönsten Naturgebiete in Yozgat. Wandern und Fotografieren auf dem Plateau sind sehr beliebt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yaylada yürüyüş yapmak",
+        "Doğal güzellikleri keşfetmek"
+      ],
+      "en": [
+        "Hike on the plateau",
+        "Explore natural beauty"
+      ],
+      "de": [
+        "Wandern auf dem Plateau",
+        "Natürliche Schönheit erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "yayla"
+      ],
+      "en": [
+        "plateau"
+      ],
+      "de": [
+        "hochland"
+      ]
+    },
+    "images": [
+      "https://example.com/bozok_yaylasi.jpg"
+    ]
+  },
+  {
+    "slug": "behramsah-kalesi",
+    "name": {
+      "tr": "Behramşah Kalesi",
+      "en": "Behramşah Castle",
+      "de": "Behramşah Schloss"
+    },
+    "latitude": 39.83145,
+    "longitude": 34.85388,
+    "description": {
+      "tr": "Behramşah Kalesi, Yozgat il sınırlarında yer alan tarihi bir kaledir. Selçuklu dönemine ait olan kale, bölgedeki en önemli tarihi yapılar arasında yer alır. Kalenin yüksek konumu, stratejik önemi ve etkileyici yapısı ziyaretçilerine tarihi bir yolculuk sunar. Ayrıca, kaleden bölgenin muazzam manzarasını görmek mümkündür.\n",
+      "en": "Behramşah Castle is a historical castle located within the borders of Yozgat. It dates back to the Seljuk period and is one of the most significant historical structures in the region. The castle’s high position, strategic importance, and impressive architecture offer visitors a journey through history. The panoramic view from the castle is also stunning.\n",
+      "de": "Die Behramşah-Burg ist eine historische Burg, die sich innerhalb der Grenzen von Yozgat befindet. Sie stammt aus der seldschukischen Zeit und ist eines der wichtigsten historischen Bauwerke der Region. Die hohe Lage der Burg, ihre strategische Bedeutung und beeindruckende Architektur bieten den Besuchern eine Reise durch die Geschichte. Vom Schloss aus hat man zudem einen atemberaubenden Blick auf die Region.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kaleyi gezmek",
+        "Manzara fotoğrafı çekmek",
+        "Doğa yürüyüşü yapmak"
+      ],
+      "en": [
+        "Tour the historical castle",
+        "Take a panoramic photo",
+        "Go for a nature walk"
+      ],
+      "de": [
+        "Die historische Burg besichtigen",
+        "Panoramafotos machen",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/behramsah_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "sarikaya-kaplicalari",
+    "name": {
+      "tr": "Sarıkaya Kaplıcaları",
+      "en": "Sarıkaya Thermal Springs",
+      "de": "Sarıkaya Thermale Quellen"
+    },
+    "latitude": 39.49539,
+    "longitude": 34.37724,
+    "description": {
+      "tr": "Sarıkaya Kaplıcaları, şifalı termal suları ile ünlüdür. Yozgat’ın en bilinen kaplıca merkezlerinden biridir.\n",
+      "en": "Sarıkaya Thermal Springs are famous for their healing thermal waters. It is one of Yozgat's most well-known thermal spa centers.\n",
+      "de": "Die Sarıkaya-thermalquellen sind berühmt für ihr heilendes Thermalwasser. Es ist eines der bekanntesten Thermen-Zentren in Yozgat.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kaplıcalarda dinlenmek",
+        "Sağlık amaçlı tedavi olmak"
+      ],
+      "en": [
+        "Relax in the thermal springs",
+        "Get health treatments"
+      ],
+      "de": [
+        "In den Thermalquellen entspannen",
+        "Gesundheitsbehandlungen erhalten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sarikaya_kaplicasi.jpg"
+    ]
+  },
+  {
+    "slug": "saraykent-millet-bahcesi",
+    "name": {
+      "tr": "Saraykent Millet Bahçesi",
+      "en": "Saraykent National Garden",
+      "de": "Saraykent Nationalgarten"
+    },
+    "latitude": 39.67689,
+    "longitude": 35.52472,
+    "description": {
+      "tr": "Saraykent Millet Bahçesi, Yozgat ilinin Saraykent ilçesinde yer alan büyük bir yeşil alan ve doğa parkıdır. Yürüyüş yolları, piknik alanları, göletler ve çocuk oyun alanları gibi çeşitli aktiviteler sunan bu park, doğal güzellikleriyle huzurlu bir atmosfer sağlar. Ziyaretçilere dinlenme, spor yapma ve doğayla iç içe vakit geçirme imkanı sunar.\n",
+      "en": "Saraykent National Garden is a large green space and nature park located in Saraykent district of Yozgat. Offering various activities such as walking paths, picnic areas, ponds, and children's playgrounds, this park provides a peaceful atmosphere with its natural beauty. It offers visitors opportunities for relaxation, exercise, and spending time in nature.\n",
+      "de": "Der Saraykent Nationalgarten ist ein großer Grünbereich und Naturpark im Saraykent-Bezirk von Yozgat. Der Park bietet verschiedene Aktivitäten wie Wanderwege, Picknickbereiche, Teiche und Spielplätze für Kinder und schafft mit seiner natürlichen Schönheit eine friedliche Atmosphäre. Besuchern wird die Möglichkeit geboten, sich zu entspannen, Sport zu treiben und Zeit in der Natur zu verbringen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Piknik yapmak",
+        "Doğada dinlenmek",
+        "Çocuk oyun alanlarında vakit geçirmek"
+      ],
+      "en": [
+        "Go for a walk",
+        "Have a picnic",
+        "Relax in nature",
+        "Spend time in children's playgrounds"
+      ],
+      "de": [
+        "Wandern gehen",
+        "Picknicken",
+        "In der Natur entspannen",
+        "Zeit auf den Spielplätzen verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/saraykent_millet_bahcesi.jpg"
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "king-john-s-kalesi",
+    "name": {
+      "tr": "King John's Kalesi",
+      "en": "King John's Castle",
+      "de": "King John's Schloss"
+    },
+    "latitude": 52.6648,
+    "longitude": -8.6263,
+    "description": {
+      "tr": "King John's Kalesi, Limerick şehrinde bulunan tarihi bir kaledir ve 13. yüzyıldan kalmadır. Norman tarzında inşa edilen kale, Limerick'in en önemli tarihi yapılarından biridir. Ziyaretçiler, kaleyi keşfederek Orta Çağ'a ait savunma sistemlerini, tarihi sergileri ve kale içindeki güzel manzaraları görebilirler. Ayrıca, kale etrafındaki alanlardan şehir manzarası eşliğinde fotoğraf çekilebilir.",
+      "en": "King John's Castle, located in Limerick city, is a historic castle dating back to the 13th century. Built in the Norman style, it is one of Limerick’s most important historical landmarks. Visitors can explore the castle to see medieval defense systems, historical exhibits, and enjoy stunning views from within the castle. The surrounding areas also offer great photo opportunities with views of the city.",
+      "de": "King John's Castle, das im 13. Jahrhundert erbaute historische Schloss in Limerick, ist ein bedeutendes Wahrzeichen der Stadt. Im normannischen Stil erbaut, ist es eines der wichtigsten historischen Gebäude von Limerick. Besucher können das Schloss erkunden und mittelalterliche Verteidigungssysteme, historische Ausstellungen und beeindruckende Aussichten vom Schloss aus genießen. Auch die umliegenden Gebiete bieten tolle Fotomöglichkeiten mit Blick auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kale içindeki tarihi sergileri görmek",
+        "Şehir manzarasında fotoğraf çekmek",
+        "Savunma sistemlerini keşfetmek"
+      ],
+      "en": [
+        "Exploring the historical exhibits in the castle",
+        "Taking photos with city views",
+        "Exploring the medieval defense systems"
+      ],
+      "de": [
+        "Die historischen Ausstellungen im Schloss erkunden",
+        "Fotos mit Stadtblick machen",
+        "Die mittelalterlichen Verteidigungssysteme erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/king_johns_castle_1.jpg",
+      "https://example.com/king_johns_castle_2.jpg"
+    ]
+  },
+  {
+    "slug": "hunt-muzesi",
+    "name": {
+      "tr": "Hunt Müzesi",
+      "en": "Hunt Museum",
+      "de": "Hunt Museum"
+    },
+    "latitude": 52.6639,
+    "longitude": -8.6265,
+    "description": {
+      "tr": "Hunt Müzesi, Limerick'te bulunan ve geniş bir sanat koleksiyonuna sahip bir müzedir. Müze, İrlanda’nın tarihi ve kültürünü yansıtan eserler sunmaktadır ve aynı zamanda Avrupa sanatı, çağdaş sanat ve antika eserler gibi farklı koleksiyonlara ev sahipliği yapmaktadır. Ziyaretçiler, müzede sergilenen önemli sanat eserleri ve tarihi objelerle İrlanda’nın sanat tarihine dair derinlemesine bilgi edinebilirler.",
+      "en": "The Hunt Museum, located in Limerick, is a museum with a vast collection of art. The museum showcases works that reflect Ireland’s history and culture, with collections ranging from European art to contemporary works and antiques. Visitors can explore the significant art pieces and historical objects on display to gain deep insights into Ireland’s artistic history.",
+      "de": "Das Hunt Museum, das in Limerick liegt, ist ein Museum mit einer umfangreichen Kunstsammlung. Das Museum zeigt Werke, die Irlands Geschichte und Kultur widerspiegeln, und beherbergt Sammlungen von europäischer Kunst bis hin zu zeitgenössischen Arbeiten und Antiquitäten. Besucher können die bedeutenden Kunstwerke und historischen Objekte sehen und tiefere Einblicke in die Kunstgeschichte Irlands gewinnen."
+    },
+    "activities": {
+      "tr": [
+        "Sanat eserlerini görmek",
+        "İrlanda’nın kültürünü keşfetmek",
+        "Antika eserleri incelemek"
+      ],
+      "en": [
+        "Viewing art pieces",
+        "Exploring Ireland’s culture",
+        "Examining antique objects"
+      ],
+      "de": [
+        "Kunstwerke ansehen",
+        "Irlands Kultur erkunden",
+        "Antiquitäten untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/hunt_museum_1.jpg",
+      "https://example.com/hunt_museum_2.jpg"
+    ]
+  },
+  {
+    "slug": "milk-market",
+    "name": {
+      "tr": "Milk Market",
+      "en": "Milk Market",
+      "de": "Milk Market"
+    },
+    "latitude": 52.6644,
+    "longitude": -8.6285,
+    "description": {
+      "tr": "Milk Market, Limerick şehrinde bulunan tarihi bir pazardır. Bu pazar, taze ürünler, el sanatları, yerel gıda ürünleri ve zanaatların satıldığı bir alışveriş alanıdır. Ziyaretçiler, pazarın tarihi atmosferini hissedebilir ve yerel üreticilerden taze meyve ve sebzeler alabilirler. Ayrıca, pazar çevresindeki kafelerde oturup yerel tatları deneyimlemek de mümkündür.",
+      "en": "Milk Market, a historic market located in Limerick, is a shopping space where fresh produce, crafts, local food items, and handmade goods are sold. Visitors can immerse themselves in the market’s historical atmosphere and purchase fresh fruits and vegetables from local vendors. There are also cafes around the market where visitors can sit and taste local delicacies.",
+      "de": "Der Milk Market, ein historischer Markt in Limerick, ist ein Einkaufsbereich, in dem frische Produkte, Kunsthandwerk, lokale Lebensmittel und handgefertigte Waren verkauft werden. Besucher können die historische Atmosphäre des Marktes erleben und frisches Obst und Gemüse von lokalen Verkäufern kaufen. Es gibt auch Cafés rund um den Markt, in denen Besucher sitzen und lokale Köstlichkeiten probieren können."
+    },
+    "activities": {
+      "tr": [
+        "Taze ürünler almak",
+        "Yerel lezzetleri tatmak",
+        "Kafelerde oturmak"
+      ],
+      "en": [
+        "Buying fresh produce",
+        "Tasting local delicacies",
+        "Sitting at cafes"
+      ],
+      "de": [
+        "Frische Produkte kaufen",
+        "Lokale Köstlichkeiten probieren",
+        "In Cafés sitzen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/milk_market_1.jpg",
+      "https://example.com/milk_market_2.jpg"
+    ]
+  }
+]

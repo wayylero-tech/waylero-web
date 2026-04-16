@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "batu-bolong-beach",
+    "name": {
+      "tr": "Batu Bolong Beach",
+      "en": "Batu Bolong Beach",
+      "de": "Batu Bolong Beach"
+    },
+    "latitude": -8.454,
+    "longitude": 115.1565,
+    "description": {
+      "tr": "Batu Bolong Beach, Bali'nin en popüler sörf plajlarından biridir. Harika dalgaları ve sörfçüler için ideal koşulları ile ünlüdür. Plajda, sörf yapmayı öğrenmek isteyenler için birçok okullardan dersler alınabilir. Ayrıca, deniz kenarında vakit geçirebilir ve etrafındaki kafelerde rahatlayabilirsiniz. Batu Bolong Beach, sadece sörfçüler için değil, sakin bir plaj deneyimi arayanlar için de mükemmel bir noktadır.\n",
+      "en": "Batu Bolong Beach is one of Bali’s most popular surfing beaches. It is famous for its great waves and ideal conditions for surfers. The beach offers surfing lessons for those who want to learn. You can also relax in the nearby cafes and enjoy the beach atmosphere. Batu Bolong Beach is perfect not only for surfers but also for those seeking a peaceful beach experience.\n",
+      "de": "Der Batu Bolong Beach ist einer der beliebtesten Surfstrände in Bali. Er ist bekannt für seine großartigen Wellen und idealen Bedingungen für Surfer. Der Strand bietet Surfstunden für diejenigen, die es lernen möchten. Außerdem können Sie in den nahegelegenen Cafés entspannen und die Atmosphäre des Strandes genießen. Der Batu Bolong Beach ist nicht nur für Surfer, sondern auch für diejenigen, die eine ruhige Stranderfahrung suchen, perfekt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Plajda dinlenmek",
+        "Kafelerde vakit geçirmek"
+      ],
+      "en": [
+        "Surfing",
+        "Relaxing on the beach",
+        "Spending time in cafes"
+      ],
+      "de": [
+        "Surfen",
+        "Am Strand entspannen",
+        "Zeit in Cafés verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/batu_bolong_beach.jpg"
+    ]
+  },
+  {
+    "slug": "tanah-lot-tapinagi",
+    "name": {
+      "tr": "Tanah Lot Tapınağı",
+      "en": "Tanah Lot Temple",
+      "de": "Tanah Lot Tempel"
+    },
+    "latitude": -8.6228,
+    "longitude": 115.0893,
+    "description": {
+      "tr": "Tanah Lot Tapınağı, Bali'nin en ikonik tapınaklarından biridir. Deniz kenarında, kayaların üzerine inşa edilmiş olan bu tapınak, özellikle gün batımında muazzam bir manzaraya sahiptir. Tanah Lot Tapınağı, Bali'nin dini kültürünü yansıtan önemli bir yapıdır ve ziyaretçilere hem manevi bir deneyim hem de etkileyici fotoğraflar çekme fırsatı sunar. Tapınak çevresindeki sahil, aynı zamanda balıkçılarla doludur ve denizle birleşen manzarası eşsizdir.\n",
+      "en": "Tanah Lot Temple is one of Bali’s most iconic temples. Located by the sea, perched on rocks, this temple offers stunning views, especially during sunset. Tanah Lot Temple is an important structure reflecting Bali’s religious culture and provides visitors with both a spiritual experience and the opportunity to take impressive photos. The surrounding coast is also full of fishermen, and the view where the sea meets the temple is unique.\n",
+      "de": "Der Tanah Lot Tempel ist einer der bekanntesten Tempel in Bali. Er liegt am Meer, auf Felsen gebaut, und bietet besonders bei Sonnenuntergang eine atemberaubende Aussicht. Der Tanah Lot Tempel ist eine wichtige Struktur, die die religiöse Kultur Balis widerspiegelt, und bietet den Besuchern sowohl ein spirituelles Erlebnis als auch die Möglichkeit, beeindruckende Fotos zu machen. Die umliegende Küste ist auch von Fischern bevölkert, und die Aussicht, bei der das Meer auf den Tempel trifft, ist einzigartig.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınağı gezmek",
+        "Gün batımını izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Visiting the temple",
+        "Watching the sunset",
+        "Taking photos"
+      ],
+      "de": [
+        "Den Tempel besichtigen",
+        "Den Sonnenuntergang beobachten",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/tanah_lot_temple.jpg"
+    ]
+  },
+  {
+    "slug": "echo-beach",
+    "name": {
+      "tr": "Echo Beach",
+      "en": "Echo Beach",
+      "de": "Echo Beach"
+    },
+    "latitude": -8.6349,
+    "longitude": 115.1441,
+    "description": {
+      "tr": "Echo Beach, Bali’nin ünlü plajlarından biridir. Harika kumsalları, sakin atmosferi ve muazzam gün batımı manzaraları ile bilinir. Bu plaj, aynı zamanda sörfçüler ve plajda dinlenmek isteyenler için popüler bir noktadır. Çevresinde birçok kafe ve restoran bulunur, bu da ziyaretçilere güzel bir gün geçirmek için ideal bir yer sunar. Echo Beach, doğayla iç içe bir gün geçirmek isteyenler için mükemmel bir yerdir.\n",
+      "en": "Echo Beach is one of Bali’s famous beaches. It is known for its wonderful sands, tranquil atmosphere, and breathtaking sunset views. The beach is a popular spot for surfers and those who want to relax on the beach. There are many cafes and restaurants around the area, offering the perfect spot for a great day out. Echo Beach is ideal for those who want to spend a day in harmony with nature.\n",
+      "de": "Der Echo Beach ist einer der bekanntesten Strände in Bali. Er ist bekannt für seinen wunderbaren Sand, seine ruhige Atmosphäre und die atemberaubende Aussicht auf den Sonnenuntergang. Der Strand ist ein beliebter Ort für Surfer und diejenigen, die sich am Strand entspannen möchten. In der Umgebung gibt es viele Cafés und Restaurants, die einen perfekten Ort für einen großartigen Tag bieten. Der Echo Beach ist ideal für diejenigen, die einen Tag in Harmonie mit der Natur verbringen möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Gün batımını izlemek",
+        "Kafelerde dinlenmek"
+      ],
+      "en": [
+        "Surfing",
+        "Watching the sunset",
+        "Relaxing in cafes"
+      ],
+      "de": [
+        "Surfen",
+        "Den Sonnenuntergang beobachten",
+        "In Cafés entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/echo_beach.jpg"
+    ]
+  },
+  {
+    "slug": "finns-beach-club",
+    "name": {
+      "tr": "Finns Beach Club",
+      "en": "Finns Beach Club",
+      "de": "Finns Beach Club"
+    },
+    "latitude": -8.6976,
+    "longitude": 115.1514,
+    "description": {
+      "tr": "Finns Beach Club, Bali’deki lüks plaj kulüplerinden biridir. Özel havuzlar, kokteyller ve şık bir atmosfer sunar. Burada, plajın keyfini çıkarırken tropikal içeceklerin tadını çıkarabilir veya müzik eşliğinde dans edebilirsiniz. Finns Beach Club, rahatlamak ve lüks bir plaj deneyimi yaşamak isteyenler için ideal bir mekandır.\n",
+      "en": "Finns Beach Club is one of Bali’s luxury beach clubs. It offers private pools, cocktails, and a stylish atmosphere. While enjoying the beach, you can sip on tropical drinks or dance to music. Finns Beach Club is the perfect spot for those looking to relax and experience a luxurious beach experience.\n",
+      "de": "Der Finns Beach Club ist einer der Luxus-Strandclubs in Bali. Er bietet private Pools, Cocktails und eine stilvolle Atmosphäre. Während Sie den Strand genießen, können Sie tropische Getränke trinken oder zu Musik tanzen. Der Finns Beach Club ist der perfekte Ort für diejenigen, die sich entspannen und ein luxuriöses Stranderlebnis genießen möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Özel havuzda yüzmek",
+        "Tropikal içecekler içmek",
+        "Müzik eşliğinde dans etmek"
+      ],
+      "en": [
+        "Swimming in private pools",
+        "Drinking tropical cocktails",
+        "Dancing to music"
+      ],
+      "de": [
+        "In privaten Pools schwimmen",
+        "Tropische Cocktails trinken",
+        "Zu Musik tanzen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/finns_beach_club.jpg"
+    ]
+  }
+]

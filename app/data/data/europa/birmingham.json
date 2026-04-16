@@ -1,0 +1,432 @@
+[
+  {
+    "slug": "birmingham-museum-and-art-gallery",
+    "name": {
+      "tr": "Birmingham Museum and Art Gallery",
+      "en": "Birmingham Museum and Art Gallery",
+      "de": "Birmingham Museum und Kunstgalerie"
+    },
+    "latitude": 52.479,
+    "longitude": -1.901,
+    "description": {
+      "tr": "Birmingham Museum and Art Gallery, İngiltere'nin en önemli sanat galerilerinden biridir ve büyük bir sanat koleksiyonuna sahiptir.",
+      "en": "Birmingham Museum and Art Gallery is one of the most important art galleries in England, with a large art collection.",
+      "de": "Die Birmingham Museum und Kunstgalerie ist eine der wichtigsten Kunstgalerien Englands mit einer großen Kunstsammlung."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerisi gezisi",
+        "Sanat keşfi"
+      ],
+      "en": [
+        "Art gallery tour",
+        "Explore art collections"
+      ],
+      "de": [
+        "Kunstgaleriebesuch",
+        "Kunst entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/birmingham_museum.jpg"
+    ]
+  },
+  {
+    "slug": "cadbury-world",
+    "name": {
+      "tr": "Cadbury World",
+      "en": "Cadbury World",
+      "de": "Cadbury World"
+    },
+    "latitude": 52.4685,
+    "longitude": -1.92,
+    "description": {
+      "tr": "Cadbury World, şekerleme ve çikolata sevenler için harika bir yerdir. Çikolata üretiminin yapıldığı interaktif bir parktır.",
+      "en": "Cadbury World is a great place for chocolate and candy lovers. It is an interactive park where chocolate is made.",
+      "de": "Cadbury World ist ein großartiger Ort für Schokoladen- und Süßigkeitenliebhaber. Es ist ein interaktiver Park, in dem Schokolade hergestellt wird."
+    },
+    "activities": {
+      "tr": [
+        "Çikolata turu",
+        "Aile eğlencesi"
+      ],
+      "en": [
+        "Chocolate tour",
+        "Family fun"
+      ],
+      "de": [
+        "Schokoladentour",
+        "Familienunterhaltung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/cadbury_world.jpg"
+    ]
+  },
+  {
+    "slug": "birmingham-botanical-gardens",
+    "name": {
+      "tr": "Birmingham Botanical Gardens",
+      "en": "Birmingham Botanical Gardens",
+      "de": "Birmingham Botanischer Garten"
+    },
+    "latitude": 52.4633,
+    "longitude": -1.9189,
+    "description": {
+      "tr": "Birmingham Botanical Gardens, çok sayıda bitki türünü barındıran harika bir bahçedir. Doğa yürüyüşleri için mükemmeldir.",
+      "en": "Birmingham Botanical Gardens is a wonderful garden that houses many plant species. It is perfect for nature walks.",
+      "de": "Die Birmingham Botanischen Gärten sind ein wunderbarer Garten, der viele Pflanzenarten beherbergt. Es ist perfekt für Naturwanderungen."
+    },
+    "activities": {
+      "tr": [
+        "Bahçe gezisi",
+        "Doğa yürüyüşü"
+      ],
+      "en": [
+        "Garden tour",
+        "Nature walk"
+      ],
+      "de": [
+        "Gartenbesichtigung",
+        "Naturwanderung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/birmingham_botanical_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "library-of-birmingham",
+    "name": {
+      "tr": "Library of Birmingham",
+      "en": "Library of Birmingham",
+      "de": "Bibliothek von Birmingham"
+    },
+    "latitude": 52.4811,
+    "longitude": -1.9023,
+    "description": {
+      "tr": "Library of Birmingham, modern bir mimariye sahip büyük bir kütüphanedir ve şehri ziyaret ederken mutlaka görülmesi gereken yerlerden biridir.",
+      "en": "The Library of Birmingham is a large library with modern architecture, and it is a must-visit when in the city.",
+      "de": "Die Bibliothek von Birmingham ist eine große Bibliothek mit moderner Architektur und ein Muss bei einem Besuch in der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kütüphane gezisi",
+        "Kitap keşfi"
+      ],
+      "en": [
+        "Library tour",
+        "Discover books"
+      ],
+      "de": [
+        "Bibliotheksführung",
+        "Bücher entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/library_of_birmingham.jpg"
+    ]
+  },
+  {
+    "slug": "birmingham-museum-of-science-and-industry",
+    "name": {
+      "tr": "Birmingham Museum of Science and Industry",
+      "en": "Birmingham Museum of Science and Industry",
+      "de": "Birmingham Museum für Wissenschaft und Industrie"
+    },
+    "latitude": 52.4814,
+    "longitude": -1.8968,
+    "description": {
+      "tr": "Birmingham Museum of Science and Industry, bilim ve teknoloji alanında geniş bir koleksiyona sahip olan bir müzedir.",
+      "en": "Birmingham Museum of Science and Industry is a museum with a wide collection in science and technology.",
+      "de": "Das Birmingham Museum für Wissenschaft und Industrie ist ein Museum mit einer umfangreichen Sammlung in den Bereichen Wissenschaft und Technologie."
+    },
+    "activities": {
+      "tr": [
+        "Müze gezisi",
+        "Bilimsel keşif"
+      ],
+      "en": [
+        "Museum tour",
+        "Scientific discovery"
+      ],
+      "de": [
+        "Museumsbesuch",
+        "Wissenschaftliche Entdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/birmingham_museum_science.jpg"
+    ]
+  },
+  {
+    "slug": "birmingham-botanik-bahceleri",
+    "name": {
+      "tr": "Birmingham Botanik Bahçeleri",
+      "en": "Birmingham Botanical Gardens",
+      "de": "Birmingham Botanische Gärten"
+    },
+    "latitude": 33.4934,
+    "longitude": -86.7912,
+    "description": {
+      "tr": "Birmingham Botanik Bahçeleri, 67,5 dönümlük alanda 12.000'den fazla bitki türünü barındıran bir botanik bahçesidir. Ziyaretçiler, doğayla iç içe yürüyüş yaparak farklı bitki türlerini keşfetme fırsatına sahiptir.\n",
+      "en": "Birmingham Botanical Gardens is a botanical garden spread over 67.5 acres, home to more than 12,000 plant species. Visitors have the opportunity to take walks surrounded by nature and explore various plant species.\n",
+      "de": "Die Birmingham Botanischen Gärten erstrecken sich über 67,5 Acres und beherbergen mehr als 12.000 Pflanzenarten. Besucher haben die Möglichkeit, Spaziergänge inmitten der Natur zu unternehmen und verschiedene Pflanzenarten zu entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Farklı bitki türlerini keşfetmek"
+      ],
+      "en": [
+        "Take nature walks",
+        "Explore different plant species"
+      ],
+      "de": [
+        "Spaziergänge in der Natur machen",
+        "Verschiedene Pflanzenarten entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/birmingham_botanical_gardens.jpg"
+    ]
+  },
+  {
+    "slug": "vulcan-park-ve-muzesi",
+    "name": {
+      "tr": "Vulcan Park ve Müzesi",
+      "en": "Vulcan Park and Museum",
+      "de": "Vulcan Park und Museum"
+    },
+    "latitude": 33.5207,
+    "longitude": -86.8319,
+    "description": {
+      "tr": "Vulcan Park, Amerika'nın en büyük dökme demir heykeli olan Vulcan'ı barındırır. Park ve müze, Birmingham’ın tarihi ve kültürel geçmişine dair zengin bilgiler sunmaktadır.\n",
+      "en": "Vulcan Park houses the largest cast-iron statue in America, Vulcan. The park and museum provide rich information about Birmingham’s historical and cultural past.\n",
+      "de": "Der Vulcan Park beherbergt die größte Gusseisenstatue Amerikas, Vulcan. Der Park und das Museum bieten reichhaltige Informationen über die historische und kulturelle Vergangenheit von Birmingham.\n"
+    },
+    "activities": {
+      "tr": [
+        "Vulcan heykelini görmek",
+        "Birmingham tarihini öğrenmek"
+      ],
+      "en": [
+        "See the Vulcan statue",
+        "Learn about Birmingham’s history"
+      ],
+      "de": [
+        "Die Vulcan-Statue sehen",
+        "Mehr über die Geschichte von Birmingham erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/vulcan_park_and_museum.jpg"
+    ]
+  },
+  {
+    "slug": "birmingham-civil-rights-institute",
+    "name": {
+      "tr": "Birmingham Civil Rights Institute",
+      "en": "Birmingham Civil Rights Institute",
+      "de": "Birmingham Institut für Bürgerrechte"
+    },
+    "latitude": 33.5188,
+    "longitude": -86.8128,
+    "description": {
+      "tr": "Birmingham Civil Rights Institute, 1960'lar sivil haklar hareketi sırasında şehrin oynadığı önemli rolü sergileyen bir müzedir. Ziyaretçiler, bu kritik döneme dair derinlemesine bilgi edinebilirler.\n",
+      "en": "The Birmingham Civil Rights Institute is a museum that showcases the city’s important role during the civil rights movement of the 1960s. Visitors can gain in-depth knowledge of this critical period.\n",
+      "de": "Das Birmingham Institut für Bürgerrechte ist ein Museum, das die wichtige Rolle der Stadt während der Bürgerrechtsbewegung der 1960er Jahre zeigt. Besucher können umfassende Informationen über diese kritische Zeit erhalten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sivil haklar hareketi hakkında bilgi edinmek",
+        "Tarihi sergileri gezmek"
+      ],
+      "en": [
+        "Learn about the civil rights movement",
+        "Explore historical exhibits"
+      ],
+      "de": [
+        "Mehr über die Bürgerrechtsbewegung erfahren",
+        "Historische Ausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/civil_rights_institute.jpg"
+    ]
+  },
+  {
+    "slug": "sloss-furnaces-national-historic-landmark",
+    "name": {
+      "tr": "Sloss Furnaces National Historic Landmark",
+      "en": "Sloss Furnaces National Historic Landmark",
+      "de": "Sloss Furnaces National Historic Landmark"
+    },
+    "latitude": 33.5271,
+    "longitude": -86.8143,
+    "description": {
+      "tr": "Sloss Furnaces, 1882'de kurulan ve bir zamanlar demir dökümhaneleri olarak kullanılan tarihi bir alan olup, şu anda bir müze olarak hizmet vermektedir. Ziyaretçiler, endüstriyel devrimin ve şehrin sanayi geçmişini keşfedebilirler.\n",
+      "en": "Sloss Furnaces, established in 1882 and once used as an iron foundry, is now a museum. Visitors can explore the industrial revolution and the city’s industrial past.\n",
+      "de": "Sloss Furnaces, 1882 gegründet und früher als Eisenhütte genutzt, ist heute ein Museum. Besucher können die industrielle Revolution und die industrielle Vergangenheit der Stadt erkunden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Endüstriyel geçmişi keşfetmek",
+        "Tarihi demir dökümhaneleri gezmek"
+      ],
+      "en": [
+        "Explore the industrial past",
+        "Visit the historic iron furnaces"
+      ],
+      "de": [
+        "Die industrielle Vergangenheit erkunden",
+        "Die historischen Eisenhütten besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/sloss_furnaces.jpg"
+    ]
+  },
+  {
+    "slug": "mcwane-science-center",
+    "name": {
+      "tr": "McWane Science Center",
+      "en": "McWane Science Center",
+      "de": "McWane Wissenschaftszentrum"
+    },
+    "latitude": 33.5187,
+    "longitude": -86.8113,
+    "description": {
+      "tr": "McWane Science Center, interaktif sergiler ve bilimsel aktivitelerle dolu bir merkezi ziyaretçilere sunmaktadır. Özellikle çocuklar için eğlenceli ve öğretici bir deneyim sunar.\n",
+      "en": "McWane Science Center offers visitors interactive exhibits and scientific activities. It provides a fun and educational experience, especially for children.\n",
+      "de": "Das McWane Wissenschaftszentrum bietet interaktive Ausstellungen und wissenschaftliche Aktivitäten für Besucher. Es bietet eine unterhaltsame und lehrreiche Erfahrung, besonders für Kinder.\n"
+    },
+    "activities": {
+      "tr": [
+        "İnteraktif sergileri gezmek",
+        "Bilimsel aktiviteler yapmak"
+      ],
+      "en": [
+        "Explore interactive exhibits",
+        "Engage in scientific activities"
+      ],
+      "de": [
+        "Interaktive Ausstellungen besuchen",
+        "Wissenschaftliche Aktivitäten durchführen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/mcwane_science_center.jpg"
+    ]
+  }
+]

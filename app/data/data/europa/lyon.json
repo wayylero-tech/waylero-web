@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "lyon-un-tarihi-bolgesi",
+    "name": {
+      "tr": "Lyon'un Tarihi Bölgesi",
+      "en": "Historic Site of Lyons",
+      "de": "Historische Stadt von Lyon"
+    },
+    "latitude": 45.757,
+    "longitude": 4.832,
+    "description": {
+      "tr": "Lyon'un tarihi bölgesi, Rönesans dönemine ait yapıları ve zengin kültürel mirasıyla UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "The historic district of Lyon, with its Renaissance-era buildings and rich cultural heritage, is listed as a UNESCO World Heritage site.",
+      "de": "Das historische Viertel von Lyon, mit seinen Renaissance-Gebäuden und seinem reichen kulturellen Erbe, steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi binaları gezmek",
+        "Yürüyüşe çıkmak"
+      ],
+      "en": [
+        "Explore historic buildings",
+        "Take a walk"
+      ],
+      "de": [
+        "Historische Gebäude besichtigen",
+        "Spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/lyon_historic_district.jpg"
+    ]
+  }
+]

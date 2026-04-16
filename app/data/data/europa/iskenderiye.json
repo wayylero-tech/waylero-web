@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "iskenderiye-kutuphanesi",
+    "name": {
+      "tr": "İskenderiye Kütüphanesi",
+      "en": "Alexandria Library",
+      "de": "Bibliothek von Alexandria"
+    },
+    "latitude": 31.2156,
+    "longitude": 29.9553,
+    "description": {
+      "tr": "İskenderiye Kütüphanesi, Antik Mısır’ın en büyük ve en ünlü kütüphanelerinden biriydi. Günümüzde modern bir kütüphane olarak hizmet vermektedir.\n",
+      "en": "The Alexandria Library was one of ancient Egypt's largest and most famous libraries. Today, it serves as a modern library.\n",
+      "de": "Die Bibliothek von Alexandria war eine der größten und bekanntesten Bibliotheken im antiken Ägypten. Heute dient sie als moderne Bibliothek.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kütüphanede gezinti yapma",
+        "Tarihi yazmalar ve eserleri inceleme"
+      ],
+      "en": [
+        "Take a tour of the library",
+        "Examine ancient manuscripts and artifacts"
+      ],
+      "de": [
+        "Die Bibliothek besichtigen",
+        "Antike Manuskripte und Artefakte untersuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/alexandria_library.jpg"
+    ]
+  },
+  {
+    "slug": "iskenderiye-deniz-feneri",
+    "name": {
+      "tr": "İskenderiye Deniz Feneri",
+      "en": "Alexandria Lighthouse",
+      "de": "Leuchtturm von Alexandria"
+    },
+    "latitude": 31.2145,
+    "longitude": 29.8895,
+    "description": {
+      "tr": "İskenderiye Deniz Feneri, Antik Dünyanın Yedi Harikası’ndan biri olarak kabul edilen, antik Mısır’daki ünlü bir deniz feneridir.\n",
+      "en": "The Alexandria Lighthouse is one of the Seven Wonders of the Ancient World, located in ancient Egypt. It is a famous ancient lighthouse.\n",
+      "de": "Der Leuchtturm von Alexandria ist eines der sieben Weltwunder der Antike und befindet sich im alten Ägypten. Es ist ein berühmter antiker Leuchtturm.\n"
+    },
+    "activities": {
+      "tr": [
+        "Deniz feneri kalıntılarını keşfetme",
+        "Mısır’ın tarihi hakkında bilgi edinme"
+      ],
+      "en": [
+        "Explore the lighthouse ruins",
+        "Learn about Egypt’s history"
+      ],
+      "de": [
+        "Die Ruinen des Leuchtturms erkunden",
+        "Mehr über die Geschichte Ägyptens erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/alexandria_lighthouse.jpg"
+    ]
+  },
+  {
+    "slug": "kom-el-shoqafa",
+    "name": {
+      "tr": "Kom El Shoqafa",
+      "en": "Kom El Shoqafa",
+      "de": "Kom El Shoqafa"
+    },
+    "latitude": 31.215,
+    "longitude": 29.9224,
+    "description": {
+      "tr": "Kom El Shoqafa, antik Roma ve Mısır kültürlerinin birleştiği bir nekropol alanıdır. Roma mezarları ve kalıntıları burada bulunur.\n",
+      "en": "Kom El Shoqafa is a necropolis where the ancient Roman and Egyptian cultures converge. Roman tombs and ruins are found here.\n",
+      "de": "Kom El Shoqafa ist eine Nekropole, in der sich die antiken römischen und ägyptischen Kulturen vereinen. Römische Gräber und Ruinen sind hier zu finden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Roma mezarlarını ziyaret etme",
+        "Arkeolojik kalıntıları keşfetme"
+      ],
+      "en": [
+        "Visit the Roman tombs",
+        "Explore the archaeological ruins"
+      ],
+      "de": [
+        "Die römischen Gräber besichtigen",
+        "Die archäologischen Ruinen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kom_el_shoqafa.jpg"
+    ]
+  },
+  {
+    "slug": "qaitbay-kalesi",
+    "name": {
+      "tr": "Qaitbay Kalesi",
+      "en": "Qaitbay Castle",
+      "de": "Qaitbay Schloss"
+    },
+    "latitude": 31.2152,
+    "longitude": 29.8861,
+    "description": {
+      "tr": "Qaitbay Kalesi, İskenderiye'deki tarihi bir kale olup, deniz fenerinin kalıntılarının üzerine inşa edilmiştir.\n",
+      "en": "The Qaitbay Castle is a historic fortress in Alexandria, built on the ruins of the ancient lighthouse.\n",
+      "de": "Das Qaitbay-Schloss ist eine historische Festung in Alexandria, die auf den Ruinen des antiken Leuchtturms erbaut wurde.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kalenin etrafında gezinti yapma",
+        "Deniz manzarasını izleme"
+      ],
+      "en": [
+        "Stroll around the castle",
+        "Enjoy the sea view"
+      ],
+      "de": [
+        "Um das Schloss spazieren gehen",
+        "Den Meerblick genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "koy"
+      ],
+      "en": [
+        "historic",
+        "cove"
+      ],
+      "de": [
+        "Historisch",
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/qaitbay_castle.jpg"
+    ]
+  },
+  {
+    "slug": "iskenderiye-carsisi",
+    "name": {
+      "tr": "İskenderiye Çarşısı",
+      "en": "Alexandria Market",
+      "de": "Markt von Alexandria"
+    },
+    "latitude": 31.2138,
+    "longitude": 29.8806,
+    "description": {
+      "tr": "İskenderiye Çarşısı, şehrin kalbinde bulunan ve geleneksel Mısır el sanatlarının satıldığı büyük bir pazar yeridir.\n",
+      "en": "The Alexandria Market is a large marketplace in the heart of the city where traditional Egyptian handicrafts are sold.\n",
+      "de": "Der Markt von Alexandria ist ein großer Marktplatz im Herzen der Stadt, auf dem traditionelle ägyptische Handwerkskunst verkauft wird.\n"
+    },
+    "activities": {
+      "tr": [
+        "Pazarda alışveriş yapma",
+        "Mısır’a özgü hediyelikler alma"
+      ],
+      "en": [
+        "Shop at the market",
+        "Buy Egyptian souvenirs"
+      ],
+      "de": [
+        "Auf dem Markt einkaufen",
+        "Ägyptische Souvenirs kaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "çarşı"
+      ],
+      "en": [
+        "marketplace"
+      ],
+      "de": [
+        "marktplatz"
+      ],
+      "ar": [
+        "السوق"
+      ],
+      "ja": [
+        "マーケットプレイス"
+      ],
+      "ru": [
+        "рынок"
+      ]
+    },
+    "images": [
+      "https://example.com/alexandria_market.jpg"
+    ]
+  }
+]

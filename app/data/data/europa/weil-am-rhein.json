@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "uculke-koprusu",
+    "name": {
+      "tr": "Üçülke Köprüsü",
+      "en": "Three Countries Bridge",
+      "de": "Dreiländereck Brücke"
+    },
+    "latitude": 47.595,
+    "longitude": 7.5986,
+    "description": {
+      "tr": "        Üçülke Köprüsü, Almanya'nın Weil am Rhein şehri ile Fransa'nın Huningue komünü arasında, Ren Nehri üzerinde yer alan tarihi bir köprüdür.\n        Bu köprü, Almanya, Fransa ve İsviçre'nin kesişim noktasında bulunduğu için \"Üç Ülke Köprüsü\" olarak adlandırılmaktadır.\n        Yaya ve bisikletlilere özel olarak inşa edilen bu köprü, türündeki dünyanın en uzun açıklığına sahip köprüsüdür.\n      ",
+      "en": "        The Three Countries Bridge is a historic bridge located on the Rhine River between the city of Weil am Rhein in Germany and the commune of Huningue in France.\n        This bridge is known as the \"Three Countries Bridge\" because it lies at the intersection of Germany, France, and Switzerland.\n        The bridge, designed for pedestrians and cyclists, has the longest span of its kind in the world.\n      ",
+      "de": "        Die Dreiländereck Brücke ist eine historische Brücke, die sich auf dem Rhein zwischen der Stadt Weil am Rhein in Deutschland und der Gemeinde Huningue in Frankreich befindet.\n        Diese Brücke wird als \"Dreiländereck Brücke\" bezeichnet, da sie am Schnittpunkt von Deutschland, Frankreich und der Schweiz liegt.\n        Die Brücke, die für Fußgänger und Radfahrer gebaut wurde, hat die weltweit längste Spannweite ihrer Art.\n      "
+    },
+    "activities": {
+      "tr": [
+        "Yaya yürüyüşü yapmak",
+        "Bisiklet sürmek",
+        "Üç ülkenin kesişim noktasında gezinti yapmak"
+      ],
+      "en": [
+        "Walk as a pedestrian",
+        "Ride a bicycle",
+        "Explore the three-country junction"
+      ],
+      "de": [
+        "Zu Fuß gehen",
+        "Fahrrad fahren",
+        "Den Dreiländereck-Punkt erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "assets/images/uculke_koopru.jpg"
+    ]
+  }
+]

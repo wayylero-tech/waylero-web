@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "old-town-scottsdale",
+    "name": {
+      "tr": "Old Town Scottsdale",
+      "en": "Old Town Scottsdale",
+      "de": "Old Town Scottsdale"
+    },
+    "latitude": 33.4986,
+    "longitude": -111.9291,
+    "description": {
+      "tr": "Scottsdale'ın Eski Şehri, alışveriş, yemek ve sanatı bir arada sunar. Ziyaretçiler, eski binalarda ve galerilerde alışveriş yapabilir, yerel sanatçıların eserlerini görebilirler.",
+      "en": "Old Town Scottsdale offers shopping, dining, and art experiences. Visitors can shop in historic buildings and see local artists' works in galleries.",
+      "de": "Old Town Scottsdale bietet Einkaufsmöglichkeiten, Restaurants und Kunsterlebnisse. Besucher können in historischen Gebäuden einkaufen und Werke lokaler Künstler in Galerien sehen."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Sanat galerilerini gezmek",
+        "Yerel yemekleri tatmak"
+      ],
+      "en": [
+        "Shop",
+        "Visit art galleries",
+        "Taste local food"
+      ],
+      "de": [
+        "Einkaufen",
+        "Kunstgalerien besuchen",
+        "Lokale Gerichte probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/old_town_scottsdale.jpg"
+    ]
+  },
+  {
+    "slug": "scottsdale-museum-of-contemporary-art",
+    "name": {
+      "tr": "Scottsdale Museum of Contemporary Art",
+      "en": "Scottsdale Museum of Contemporary Art",
+      "de": "Scottsdale Museum of Contemporary Art"
+    },
+    "latitude": 33.494,
+    "longitude": -111.9263,
+    "description": {
+      "tr": "Scottsdale Çağdaş Sanat Müzesi, çağdaş sanat eserlerini sergileyen bir müzedir. Sanat tutkunları için bu müze mutlaka görülmesi gereken bir yerdir.",
+      "en": "The Scottsdale Museum of Contemporary Art showcases contemporary art. It is a must-visit for art enthusiasts.",
+      "de": "Das Scottsdale Museum of Contemporary Art zeigt zeitgenössische Kunst. Es ist ein Muss für Kunstliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Çağdaş sanat eserlerini görmek"
+      ],
+      "en": [
+        "Visit art galleries",
+        "See contemporary artworks"
+      ],
+      "de": [
+        "Kunstgalerien besuchen",
+        "Zeitgenössische Kunstwerke sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/scottsdale_museum_of_contemporary_art.jpg"
+    ]
+  },
+  {
+    "slug": "mcdowell-sonoran-preserve",
+    "name": {
+      "tr": "McDowell Sonoran Preserve",
+      "en": "McDowell Sonoran Preserve",
+      "de": "McDowell Sonoran Preserve"
+    },
+    "latitude": 33.5872,
+    "longitude": -111.8231,
+    "description": {
+      "tr": "McDowell Sonoran Preserve, Scottsdale'ın doğasında bulunan geniş bir koruma alanıdır. Ziyaretçiler, doğa yürüyüşleri yapabilir, vahşi yaşamı gözlemleyebilir ve manzaranın tadını çıkarabilirler.",
+      "en": "McDowell Sonoran Preserve is a vast preserve in the desert landscape of Scottsdale. Visitors can hike, observe wildlife, and enjoy scenic views.",
+      "de": "Das McDowell Sonoran Preserve ist ein großes Schutzgebiet in der Wüstenlandschaft von Scottsdale. Besucher können wandern, Wildtiere beobachten und die Aussicht genießen."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Vahşi yaşamı gözlemlemek"
+      ],
+      "en": [
+        "Hike",
+        "Observe wildlife"
+      ],
+      "de": [
+        "Wandern",
+        "Wildtiere beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mcdowell_sonoran_preserve.jpg"
+    ]
+  },
+  {
+    "slug": "taliesin-west",
+    "name": {
+      "tr": "Taliesin West",
+      "en": "Taliesin West",
+      "de": "Taliesin West"
+    },
+    "latitude": 33.6175,
+    "longitude": -111.7906,
+    "description": {
+      "tr": "Taliesin West, ünlü mimar Frank Lloyd Wright'ın evi ve çalışma alanıdır. Scottsdale'da bulunan bu yapı, modern mimarinin örneklerinden biridir.",
+      "en": "Taliesin West is the home and studio of famous architect Frank Lloyd Wright. Located in Scottsdale, it is a masterpiece of modern architecture.",
+      "de": "Taliesin West ist das Zuhause und Studio des berühmten Architekten Frank Lloyd Wright. Es befindet sich in Scottsdale und ist ein Meisterwerk der modernen Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Mimariyi keşfetmek",
+        "Tarihi yapıları gezmek"
+      ],
+      "en": [
+        "Explore architecture",
+        "Tour historic buildings"
+      ],
+      "de": [
+        "Architektur erkunden",
+        "Historische Gebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/taliesin_west.jpg"
+    ]
+  },
+  {
+    "slug": "scottsdale-waterfront",
+    "name": {
+      "tr": "Scottsdale Waterfront",
+      "en": "Scottsdale Waterfront",
+      "de": "Scottsdale Waterfront"
+    },
+    "latitude": 33.5086,
+    "longitude": -111.9016,
+    "description": {
+      "tr": "Scottsdale Waterfront, alışveriş ve yemek için harika bir bölgedir. Ziyaretçiler, yürüyüş yapabilir veya gölet etrafında dolaşarak manzaranın tadını çıkarabilir.",
+      "en": "Scottsdale Waterfront is a great area for shopping and dining. Visitors can walk along the waterfront or explore the area while enjoying the view.",
+      "de": "Der Scottsdale Waterfront ist ein großartiger Ort zum Einkaufen und Essen. Besucher können am Wasser entlang spazieren oder das Gebiet erkunden, während sie den Blick genießen."
+    },
+    "activities": {
+      "tr": [
+        "Alışveriş yapmak",
+        "Yürüyüş yapmak",
+        "Yemek yemek"
+      ],
+      "en": [
+        "Shop",
+        "Walk",
+        "Eat"
+      ],
+      "de": [
+        "Einkaufen",
+        "Spazieren gehen",
+        "Essen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/scottsdale_waterfront.jpg"
+    ]
+  }
+]

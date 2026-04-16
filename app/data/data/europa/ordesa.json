@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "pyr-n-es-perdu-dagi",
+    "name": {
+      "tr": "Pyrénées - Perdu Dağı",
+      "en": "Pyrénées - Mont Perdu",
+      "de": "Pyrénées - Mont Perdu"
+    },
+    "latitude": 42.67836,
+    "longitude": 0.03256,
+    "description": {
+      "tr": "Pyrénées Dağları'ndaki Mont Perdu, doğal güzellikleri ve dağcılık için uygun yapısıyla UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Mont Perdu in the Pyrenees Mountains, with its natural beauty and suitability for mountaineering, is listed as a UNESCO World Heritage site.",
+      "de": "Mont Perdu in den Pyrenäen, mit seiner natürlichen Schönheit und Eignung für Bergsteigen, steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Doğal manzarayı keşfetmek"
+      ],
+      "en": [
+        "Climb the mountain",
+        "Explore the natural scenery"
+      ],
+      "de": [
+        "Den Berg erklimmen",
+        "Die natürliche Landschaft erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mont_perdu.jpg"
+    ]
+  }
+]

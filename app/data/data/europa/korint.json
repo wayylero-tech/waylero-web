@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "perama-magarasi",
+    "name": {
+      "tr": "Perama Mağarası",
+      "en": "Perama Cave",
+      "de": "Perama Höhle"
+    },
+    "latitude": 39.5673,
+    "longitude": 20.5999,
+    "description": {
+      "tr": "**Perama Mağarası**, **Yunanistan’ın Yanya** bölgesinde, şehir merkezine çok yakın bir konumda yer alan etkileyici bir mağaradır. Bu mağara, özellikle **büyüleyici sarkıtlar** ve **dikitler** ile ünlüdür. İçerideki zengin damlataş yapıları, mağarayı doğa severler ve fotoğrafçılar için cazip bir yer haline getirir.\n\nPerama Mağarası, **turistik turlar** ile ziyaret edilebilir. Ziyaretçiler mağaranın derinliklerine inerek, içindeki doğal oluşumları keşfetme fırsatına sahip olurlar. Ayrıca, mağaranın içinde bulunan çeşitli odalar, mağaranın zengin tarihine ışık tutan pek çok özelliğe sahiptir.\n",
+      "en": "**Perama Cave** is an impressive cave located near the city of **Ioannina** in the **Epirus** region of Greece. This cave is especially famous for its stunning **stalactites** and **stalagmites**. The rich formations inside the cave make it a popular destination for nature lovers and photographers.\n\nPerama Cave is accessible through **guided tours** where visitors can explore its depths and discover the natural formations inside. The cave's various chambers showcase many features that shed light on the cave’s rich history.\n",
+      "de": "**Perama Höhle** ist eine beeindruckende Höhle in der Nähe der Stadt **Ioannina** in der Region **Epirus** in Griechenland. Diese Höhle ist besonders berühmt für ihre atemberaubenden **Stalaktiten** und **Stalagmiten**. Die reichhaltigen Formationen in der Höhle machen sie zu einem beliebten Ziel für Naturliebhaber und Fotografen.\n\nDie Perama Höhle ist durch **geführte Touren** zugänglich, bei denen Besucher die Tiefen der Höhle erkunden und die natürlichen Formationen entdecken können. Die verschiedenen Kammern der Höhle bieten viele Merkmale, die die reiche Geschichte der Höhle erhellen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Mağara turuna katılmak",
+        "Damlataşları keşfetmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Join a cave tour",
+        "Explore the stalactites and stalagmites",
+        "Take photographs"
+      ],
+      "de": [
+        "An einer Höhlentour teilnehmen",
+        "Die Stalaktiten und Stalagmiten erkunden",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mağara"
+      ],
+      "en": [
+        "cave"
+      ],
+      "de": [
+        "Höhle"
+      ]
+    },
+    "images": [
+      "https://example.com/perama_cave_1.jpg",
+      "https://example.com/perama_cave_2.jpg"
+    ]
+  }
+]

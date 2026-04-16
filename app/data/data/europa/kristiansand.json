@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "kristiansand-hayvanat-bahcesi",
+    "name": {
+      "tr": "Kristiansand Hayvanat Bahçesi",
+      "en": "Kristiansand Zoo",
+      "de": "Kristiansand Zoo"
+    },
+    "latitude": 58.141,
+    "longitude": 7.9893,
+    "description": {
+      "tr": "Kristiansand Hayvanat Bahçesi, Norveç'in en büyük hayvanat bahçelerinden biridir. Pek çok egzotik hayvan ve eğlenceli aktiviteler sunar.",
+      "en": "Kristiansand Zoo is one of Norway's largest zoos. It offers many exotic animals and fun activities.",
+      "de": "Der Kristiansand Zoo ist einer der größten Zoos Norwegens. Er bietet viele exotische Tiere und unterhaltsame Aktivitäten."
+    },
+    "activities": {
+      "tr": [
+        "Hayvanat bahçesini keşfetme",
+        "Eğlence parkında vakit geçirme"
+      ],
+      "en": [
+        "Explore the zoo",
+        "Spend time at the amusement park"
+      ],
+      "de": [
+        "Den Zoo erkunden",
+        "Zeit im Vergnügungspark verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/kristiansand_zoo.jpg"
+    ]
+  },
+  {
+    "slug": "posebyen",
+    "name": {
+      "tr": "Posebyen",
+      "en": "Posebyen",
+      "de": "Posebyen"
+    },
+    "latitude": 58.1435,
+    "longitude": 7.9957,
+    "description": {
+      "tr": "Posebyen, Kristiansand'ın eski ve renkli taş evlerle dolu bölgesidir. Bu alan şehri gezmenin keyifli bir yoludur.",
+      "en": "Posebyen is an area filled with old, colorful stone houses in Kristiansand. It's a fun way to explore the city.",
+      "de": "Posebyen ist ein Gebiet in Kristiansand, das mit alten, bunten Steinhäusern gefüllt ist. Es ist eine unterhaltsame Möglichkeit, die Stadt zu erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi mahalleyi gezme",
+        "Kafelerde dinlenme"
+      ],
+      "en": [
+        "Explore the historic district",
+        "Relax at the cafes"
+      ],
+      "de": [
+        "Das historische Viertel erkunden",
+        "In den Cafés entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/posebyen.jpg"
+    ]
+  }
+]

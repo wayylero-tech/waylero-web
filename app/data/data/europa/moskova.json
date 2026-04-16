@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "kremlin",
+    "name": {
+      "tr": "Kremlin",
+      "en": "Kremlin",
+      "de": "Kreml"
+    },
+    "latitude": 55.7558,
+    "longitude": 37.6176,
+    "description": {
+      "tr": "Moskova Kremlin, Rusya'nın başkenti Moskova'da bulunan tarihi bir kompleks olup, Rus Çarlığı'nın ve Sovyetler Birliği'nin yönetim merkezi olmuştur.\n",
+      "en": "The Moscow Kremlin is a historic complex located in the capital of Russia, Moscow. It served as the administrative center of the Russian Tsars and the Soviet Union.\n",
+      "de": "Der Moskauer Kreml ist ein historisches Gebäudeensemble in der russischen Hauptstadt Moskau. Es diente als Verwaltungszentrum der russischen Zaren und der Sowjetunion.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kremlin Sarayı’nı gezme",
+        "Katedrallerde dua etme"
+      ],
+      "en": [
+        "Tour the Kremlin Palace",
+        "Pray in the cathedrals"
+      ],
+      "de": [
+        "Besichtigen Sie den Kreml-Palast",
+        "Beten Sie in den Kathedralen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/kremlin.jpg"
+    ]
+  },
+  {
+    "slug": "kizil-meydan",
+    "name": {
+      "tr": "Kızıl Meydan",
+      "en": "Red Square",
+      "de": "Roter Platz"
+    },
+    "latitude": 55.7557,
+    "longitude": 37.6176,
+    "description": {
+      "tr": "Kızıl Meydan, Moskova'nın kalbinde yer alan tarihi bir meydandır. Burada Lenin'in Mozolesi, St. Basil's Katedrali ve Kremlin bulunur.\n",
+      "en": "Red Square is a historic square located in the heart of Moscow. It features Lenin's Mausoleum, Saint Basil's Cathedral, and the Kremlin.\n",
+      "de": "Der Rote Platz ist ein historischer Platz im Herzen Moskaus. Hier befinden sich Lenins Mausoleum, die Basilius-Kathedrale und der Kreml.\n"
+    },
+    "activities": {
+      "tr": [
+        "Meydanı gezme",
+        "Lenin’in Mozolesi’ni ziyaret etme"
+      ],
+      "en": [
+        "Explore the square",
+        "Visit Lenin’s Mausoleum"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "Lenins Mausoleum besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/red_square.jpg"
+    ]
+  },
+  {
+    "slug": "saint-basil-s-katedrali",
+    "name": {
+      "tr": "Saint Basil’s Katedrali",
+      "en": "Saint Basil’s Cathedral",
+      "de": "Basilius-Kathedrale"
+    },
+    "latitude": 55.752,
+    "longitude": 37.623,
+    "description": {
+      "tr": "Saint Basil’s Katedrali, Moskova’nın sembolü haline gelmiş, rengarenk kubbeleriyle ünlü bir yapıdır. 16. yüzyılda inşa edilmiştir.\n",
+      "en": "Saint Basil’s Cathedral is an iconic symbol of Moscow, famous for its colorful domes. It was built in the 16th century.\n",
+      "de": "Die Basilius-Kathedrale ist ein ikonisches Symbol Moskaus, bekannt für ihre farbenfrohen Kuppeln. Sie wurde im 16. Jahrhundert erbaut.\n"
+    },
+    "activities": {
+      "tr": [
+        "Katedrali gezme",
+        "Kültürel tarihi öğrenme"
+      ],
+      "en": [
+        "Tour the cathedral",
+        "Learn about cultural history"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Etwas über die Kulturgeschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/saint_basils_cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "bolshoi-tiyatrosu",
+    "name": {
+      "tr": "Bolshoi Tiyatrosu",
+      "en": "Bolshoi Theatre",
+      "de": "Bolschoi-Theater"
+    },
+    "latitude": 55.7602,
+    "longitude": 37.6173,
+    "description": {
+      "tr": "Bolshoi Tiyatrosu, dünyanın en ünlü opera ve bale sahnelerinden biridir. Tarihi ve mimarisi oldukça etkileyicidir.\n",
+      "en": "The Bolshoi Theatre is one of the most famous opera and ballet venues in the world. Its history and architecture are truly impressive.\n",
+      "de": "Das Bolschoi-Theater ist eine der bekanntesten Opern- und Ballettbühnen der Welt. Seine Geschichte und Architektur sind beeindruckend.\n"
+    },
+    "activities": {
+      "tr": [
+        "Bir bale veya opera izleme",
+        "Tiyatronun içini gezme"
+      ],
+      "en": [
+        "Watch a ballet or opera",
+        "Explore the theatre interior"
+      ],
+      "de": [
+        "Ballett oder Oper anschauen",
+        "Das Innere des Theaters erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/bolshoi_theatre.jpg"
+    ]
+  }
+]

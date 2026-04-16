@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "strazburg-grande-le-ve-neustadt",
+    "name": {
+      "tr": "Strazburg, Grande-Île ve Neustadt",
+      "en": "Strasbourg, Grande-Île and Neustadt",
+      "de": "Straßburg, Grande-Île und Neustadt"
+    },
+    "latitude": 48.583,
+    "longitude": 7.746,
+    "description": {
+      "tr": "Strazburg, Grande-Île adasında yer alan tarihi şehir merkezi ve Neustadt bölgesi, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
+      "en": "Strasbourg, with its historic city center on the Grande-Île and the Neustadt district, is listed as a UNESCO World Heritage site.",
+      "de": "Straßburg, mit seinem historischen Stadtzentrum auf der Grande-Île und dem Neustadt-Viertel, steht auf der UNESCO-Weltkulturerbeliste."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi şehir merkezini gezmek",
+        "Neustadt bölgesini keşfetmek"
+      ],
+      "en": [
+        "Tour the historic city center",
+        "Explore the Neustadt district"
+      ],
+      "de": [
+        "Das historische Stadtzentrum besichtigen",
+        "Das Neustadt-Viertel erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/strasbourg_grande_ile.jpg"
+    ]
+  }
+]

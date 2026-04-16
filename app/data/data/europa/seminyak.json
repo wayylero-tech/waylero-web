@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "seminyak-beach",
+    "name": {
+      "tr": "Seminyak Beach",
+      "en": "Seminyak Beach",
+      "de": "Seminyak Beach"
+    },
+    "latitude": -8.6905,
+    "longitude": 115.1587,
+    "description": {
+      "tr": "Seminyak Beach, Bali'nin en popüler plajlarından biridir. Sörf yapmayı sevenler için mükemmel dalgalar sunan bu plaj, aynı zamanda gün batımını izlemek için ideal bir yerdir. Plajda yürüyüş yaparken sıcak kumları hissedebilir ve okyanusun muazzam manzarasını keşfedebilirsiniz. Ayrıca, plajın çevresinde birçok restoran ve kafe bulunur, bu da ziyaretçilere hem doğayı hem de Bali'nin eşsiz mutfağını deneyimleme fırsatı sunar.\n",
+      "en": "Seminyak Beach is one of Bali’s most popular beaches. It offers perfect waves for surfing and is also an ideal spot to watch the sunset. While walking along the beach, you can feel the warm sand and explore the stunning views of the ocean. Additionally, there are many restaurants and cafes around the beach, providing visitors the opportunity to enjoy both nature and Bali’s unique cuisine.\n",
+      "de": "Der Seminyak Beach ist einer der beliebtesten Strände in Bali. Er bietet perfekte Wellen zum Surfen und ist auch ein idealer Ort, um den Sonnenuntergang zu beobachten. Beim Spaziergang entlang des Strandes können Sie den warmen Sand fühlen und die atemberaubende Aussicht auf den Ozean genießen. Zudem gibt es viele Restaurants und Cafés rund um den Strand, die den Besuchern die Möglichkeit bieten, sowohl die Natur als auch die einzigartige balinesische Küche zu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sörf yapmak",
+        "Gün batımını izlemek",
+        "Plajda yürüyüş yapmak"
+      ],
+      "en": [
+        "Surfing",
+        "Watching the sunset",
+        "Walking along the beach"
+      ],
+      "de": [
+        "Surfen",
+        "Den Sonnenuntergang beobachten",
+        "Am Strand spazieren gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/seminyak_beach.jpg"
+    ]
+  },
+  {
+    "slug": "potato-head-beach-club",
+    "name": {
+      "tr": "Potato Head Beach Club",
+      "en": "Potato Head Beach Club",
+      "de": "Potato Head Beach Club"
+    },
+    "latitude": -8.69,
+    "longitude": 115.158,
+    "description": {
+      "tr": "Potato Head Beach Club, Bali'nin ünlü sahil kulüplerinden biridir. Harika kokteyller, lezzetli yiyecekler ve canlı müzik eşliğinde keyifli bir gün geçirebilirsiniz. Plaja sıfır konumda olan bu kulüp, hem dinlenmek hem de Bali'nin eğlence hayatını deneyimlemek isteyenler için harika bir mekandır. Müzik ve atmosferi ile her yaştan ziyaretçiye hitap eder.\n",
+      "en": "Potato Head Beach Club is one of Bali’s famous beach clubs. You can enjoy great cocktails, delicious food, and live music while having a fantastic time. Located right on the beach, this club is a perfect spot for those who want to relax and experience Bali’s vibrant nightlife. With its music and atmosphere, it appeals to visitors of all ages.\n",
+      "de": "Der Potato Head Beach Club ist einer der berühmtesten Strandclubs in Bali. Sie können großartige Cocktails, leckeres Essen und Live-Musik genießen, während Sie eine fantastische Zeit verbringen. Direkt am Strand gelegen, ist dieser Club ein perfekter Ort für diejenigen, die sich entspannen und das lebendige Nachtleben von Bali erleben möchten. Mit seiner Musik und Atmosphäre spricht er Besucher jeden Alters an.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kokteyller içmek",
+        "Canlı müzik dinlemek",
+        "Plajda dinlenmek"
+      ],
+      "en": [
+        "Drinking cocktails",
+        "Listening to live music",
+        "Relaxing on the beach"
+      ],
+      "de": [
+        "Cocktails trinken",
+        "Live-Musik hören",
+        "Am Strand entspannen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/potato_head_beach_club.jpg"
+    ]
+  },
+  {
+    "slug": "ku-de-ta",
+    "name": {
+      "tr": "Ku De Ta",
+      "en": "Ku De Ta",
+      "de": "Ku De Ta"
+    },
+    "latitude": -8.6921,
+    "longitude": 115.1605,
+    "description": {
+      "tr": "Ku De Ta, Bali’nin en popüler sahil barlarından biridir. Göz alıcı manzarası, şık dekorasyonu ve harika atmosferiyle ünlüdür. Burada, gün batımını izlerken tropikal kokteyllerin tadını çıkarabilir ve Bali'nin en iyi DJ'lerinin çaldığı müziklere eşlik edebilirsiniz. Hem rahatlamak hem de eğlenceli bir gece geçirmek isteyenler için ideal bir yerdir.\n",
+      "en": "Ku De Ta is one of Bali’s most popular beach bars. It is famous for its stunning views, stylish decor, and fantastic atmosphere. Here, you can enjoy tropical cocktails while watching the sunset and listen to music played by some of Bali's best DJs. It is an ideal place for those who want to relax and have a fun night out.\n",
+      "de": "Ku De Ta ist eine der beliebtesten Strandbars in Bali. Es ist bekannt für seine atemberaubende Aussicht, stilvolle Dekoration und fantastische Atmosphäre. Hier können Sie tropische Cocktails genießen, während Sie den Sonnenuntergang beobachten, und Musik hören, die von einigen der besten DJs Balis gespielt wird. Es ist der ideale Ort für diejenigen, die sich entspannen und eine unterhaltsame Nacht verbringen möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Gün batımını izlemek",
+        "Tropikal kokteyller içmek",
+        "Canlı müzik dinlemek"
+      ],
+      "en": [
+        "Watching the sunset",
+        "Drinking tropical cocktails",
+        "Listening to live music"
+      ],
+      "de": [
+        "Den Sonnenuntergang beobachten",
+        "Tropische Cocktails trinken",
+        "Live-Musik hören"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ku_de_ta.jpg"
+    ]
+  },
+  {
+    "slug": "petitenget-temple",
+    "name": {
+      "tr": "Petitenget Temple",
+      "en": "Petitenget Temple",
+      "de": "Petitenget Tempel"
+    },
+    "latitude": -8.6834,
+    "longitude": 115.1525,
+    "description": {
+      "tr": "Petitenget Temple, Bali’nin tarihî tapınaklarından biridir. Küçük bir alanda bulunan bu tapınak, Bali'nin geleneksel mimarisini ve dini kültürünü yansıtır. Ziyaretçiler, tapınakta ibadet edebilir veya sadece çevresindeki doğal güzellikleri keşfe çıkabilir. Tapınak, Bali’nin kültürel mirası hakkında bilgi edinmek isteyenler için sakin bir ortam sunar.\n",
+      "en": "Petitenget Temple is one of Bali's historical temples. Located in a small area, this temple reflects Bali’s traditional architecture and religious culture. Visitors can either worship at the temple or simply explore the natural beauty surrounding it. The temple offers a peaceful setting for those who want to learn more about Bali's cultural heritage.\n",
+      "de": "Der Petitenget-Tempel ist einer der historischen Tempel Balis. Er befindet sich in einem kleinen Bereich und spiegelt die traditionelle balinesische Architektur und religiöse Kultur wider. Besucher können im Tempel beten oder einfach die natürliche Schönheit der Umgebung erkunden. Der Tempel bietet eine ruhige Umgebung für diejenigen, die mehr über das kulturelle Erbe Balis erfahren möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınağa ibadet etmek",
+        "Doğal güzellikleri keşfetmek",
+        "Bali kültürünü öğrenmek"
+      ],
+      "en": [
+        "Worship at the temple",
+        "Explore the natural beauty",
+        "Learn about Balinese culture"
+      ],
+      "de": [
+        "Im Tempel beten",
+        "Die natürliche Schönheit erkunden",
+        "Mehr über die balinesische Kultur lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/petitenget_temple.jpg"
+    ]
+  }
+]

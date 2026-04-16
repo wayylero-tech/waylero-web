@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "vigeland-park",
+    "name": {
+      "tr": "Vigeland Park",
+      "en": "Vigeland Park",
+      "de": "Vigeland Park"
+    },
+    "latitude": 59.9274,
+    "longitude": 10.703,
+    "description": {
+      "tr": "Vigeland Park, Oslo'nun en büyük parkıdır ve dünyaca ünlü heykeltıraş Gustav Vigeland'ın eserlerini sergileyen bir açık hava müzesidir.",
+      "en": "Vigeland Park is Oslo's largest park and an open-air museum showcasing the works of the world-renowned sculptor Gustav Vigeland.",
+      "de": "Der Vigeland Park ist der größte Park in Oslo und ein Freilichtmuseum, das die Werke des weltberühmten Bildhauers Gustav Vigeland zeigt."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş yapma",
+        "Heykelleri keşfetme"
+      ],
+      "en": [
+        "Walk through the park",
+        "Explore the sculptures"
+      ],
+      "de": [
+        "Durch den Park spazieren",
+        "Die Skulpturen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/vigeland_park.jpg"
+    ]
+  },
+  {
+    "slug": "munch-museum",
+    "name": {
+      "tr": "Munch Museum",
+      "en": "Munch Museum",
+      "de": "Munch Museum"
+    },
+    "latitude": 59.9115,
+    "longitude": 10.7362,
+    "description": {
+      "tr": "Munch Museum, Edvard Munch'un eserlerinin sergilendiği önemli bir sanatsal mekandır. *Çığlık* adlı ünlü tablonun da orijinaline ev sahipliği yapar.",
+      "en": "The Munch Museum is an important artistic venue showcasing the works of Edvard Munch, including the original of his famous painting *The Scream*.",
+      "de": "Das Munch Museum ist ein bedeutender Kunstort, der die Werke von Edvard Munch zeigt, einschließlich des Originals seines berühmten Gemäldes *Der Schrei*."
+    },
+    "activities": {
+      "tr": [
+        "Sanat koleksiyonlarını inceleme",
+        "Munch'un başyapıtlarını keşfetme"
+      ],
+      "en": [
+        "Examine the art collections",
+        "Discover Munch's masterpieces"
+      ],
+      "de": [
+        "Die Kunstsammlungen untersuchen",
+        "Munchs Meisterwerke entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/munch_museum.jpg"
+    ]
+  }
+]

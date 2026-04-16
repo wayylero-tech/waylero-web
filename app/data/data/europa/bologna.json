@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "bologna-kulesi",
+    "name": {
+      "tr": "Bologna Kulesi",
+      "en": "Bologna Tower",
+      "de": "Turm von Bologna"
+    },
+    "latitude": 44.4937,
+    "longitude": 11.3382,
+    "description": {
+      "tr": "Bologna Kulesi, şehirdeki en yüksek yapıdır ve şehri panoramik olarak izleyebileceğiniz bir gözlem kulesi sunmaktadır.",
+      "en": "The Bologna Tower is the tallest structure in the city and offers a panoramic view of the city from its observation deck.",
+      "de": "Der Bologna-Turm ist das höchste Gebäude der Stadt und bietet einen Panoramablick auf die Stadt von seiner Aussichtsplattform."
+    },
+    "activities": {
+      "tr": [
+        "Kulenin zirvesine tırmanma",
+        "Şehri yüksekten izleme"
+      ],
+      "en": [
+        "Climb to the top of the tower",
+        "View the city from above"
+      ],
+      "de": [
+        "Den Turm hinaufsteigen",
+        "Die Stadt von oben ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/bologna_tower.jpg"
+    ]
+  },
+  {
+    "slug": "piazza-maggiore",
+    "name": {
+      "tr": "Piazza Maggiore",
+      "en": "Piazza Maggiore",
+      "de": "Piazza Maggiore"
+    },
+    "latitude": 44.4937,
+    "longitude": 11.342,
+    "description": {
+      "tr": "Piazza Maggiore, Bologna'nın merkezi meydanıdır ve etrafında birçok tarihi bina yer alır.",
+      "en": "Piazza Maggiore is the central square of Bologna and is surrounded by many historic buildings.",
+      "de": "Der Piazza Maggiore ist der zentrale Platz in Bologna und wird von vielen historischen Gebäuden umgeben."
+    },
+    "activities": {
+      "tr": [
+        "Meydanı gezme",
+        "Çevredeki tarihi binaları keşfetme"
+      ],
+      "en": [
+        "Explore the square",
+        "Discover the surrounding historic buildings"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "Die umliegenden historischen Gebäude entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/piazza_maggiore.jpg"
+    ]
+  }
+]

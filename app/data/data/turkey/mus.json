@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "mus-kalesi",
+    "name": {
+      "tr": "Muş Kalesi",
+      "en": "Muş Castle",
+      "de": "Muş Schloss"
+    },
+    "latitude": 38.71606,
+    "longitude": 41.51367,
+    "description": {
+      "tr": "Muş Kalesi, şehri yüksekten görebileceğiniz tarihi bir yapıdır. Bizans dönemine ait kalıntıları ile önemli bir tarihi mirastır.\n",
+      "en": "Muş Castle is a historical structure where you can view the city from above. It is an important historical heritage with ruins from the Byzantine period.\n",
+      "de": "Das Muş-Schloss ist ein historisches Bauwerk, von dem aus man die Stadt aus der Höhe sehen kann. Es ist ein wichtiges historisches Erbe mit Überresten aus der byzantinischen Zeit.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi",
+        "Manzara izleme"
+      ],
+      "en": [
+        "Castle tour",
+        "Scenic view"
+      ],
+      "de": [
+        "Burgbesichtigung",
+        "Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/mus_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "hacli-golu",
+    "name": {
+      "tr": "Haçlı Gölü",
+      "en": "Crusader Lake",
+      "de": "Kreuzzugssee"
+    },
+    "latitude": 39.02795,
+    "longitude": 42.29719,
+    "description": {
+      "tr": "Haçlı Gölü, Muş il sınırlarında yer alan ve doğa severler için harika bir yerdir.\nGölde balık tutmak, yürüyüş yapmak ve manzaranın keyfini çıkarmak mümkündür. Ayrıca göl, çevresindeki yeşil alanlar ve huzurlu atmosferi ile ziyaretçilerine dinlendirici bir ortam sunar.\n",
+      "en": "Crusader Lake is located within the boundaries of Muş and is a great place for nature lovers.\nFishing, hiking, and enjoying the view are possible here. The lake also offers a relaxing atmosphere with its surrounding green areas.\n",
+      "de": "Der Kreuzrittersee befindet sich in den Grenzen von Muş und ist ein großartiger Ort für Naturliebhaber.\nEs ist möglich, hier zu angeln, zu wandern und die Aussicht zu genießen. Der See bietet auch eine entspannende Atmosphäre mit seinen umliegenden grünen Bereichen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Balık tutma",
+        "Doğada yürüyüş yapma",
+        "Manzara izleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Fishing",
+        "Hiking in nature",
+        "Enjoying the view",
+        "Photography"
+      ],
+      "de": [
+        "Angeln",
+        "Wandern in der Natur",
+        "Aussicht genießen",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/hacli_golu_1.jpg",
+      "https://example.com/hacli_golu_2.jpg"
+    ]
+  }
+]

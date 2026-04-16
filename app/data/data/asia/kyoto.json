@@ -1,0 +1,288 @@
+[
+  {
+    "slug": "fushimi-inari-tapinagi",
+    "name": {
+      "tr": "Fushimi Inari Tapınağı",
+      "en": "Fushimi Inari Shrine",
+      "de": "Fushimi Inari-Schrein"
+    },
+    "latitude": 34.9671,
+    "longitude": 135.7727,
+    "description": {
+      "tr": "Fushimi Inari Tapınağı, Kyoto'nun en ikonik Şinto tapınaklarından biridir. Özellikle binlerce kırmızı torii kapısıyla ünlüdür. Tapınak, Inari tanrısına adanmıştır ve tepeye kadar uzanan kutsal bir yürüyüş yolu sunar.\n",
+      "en": "Fushimi Inari Shrine is one of Kyoto’s most iconic Shinto shrines, known for its thousands of vermilion torii gates. Dedicated to the deity Inari, the shrine offers a sacred hiking trail that stretches up the mountain.\n",
+      "de": "Der Fushimi Inari-Schrein ist einer der bekanntesten Shinto-Schreine in Kyoto, berühmt für seine Tausenden von roten Torii-Toren. Er ist dem Gott Inari gewidmet und bietet einen heiligen Wanderweg, der den Berg hinaufführt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınakta yürüyüş",
+        "Fotoğraf çekmek",
+        "Torii kapıları keşfetmek"
+      ],
+      "en": [
+        "Hiking through the shrine",
+        "Photography",
+        "Exploring torii gates"
+      ],
+      "de": [
+        "Wandern durch den Schrein",
+        "Fotografieren",
+        "Torii-Tore erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/fushimi_inari.jpg"
+    ]
+  },
+  {
+    "slug": "altin-ve-gumus-tapinaklar",
+    "name": {
+      "tr": "Altın ve Gümüş Tapınaklar",
+      "en": "Golden and Silver Pavilions",
+      "de": "Goldener und Silberner Pavillon"
+    },
+    "latitude": 35.0394,
+    "longitude": 135.7292,
+    "description": {
+      "tr": "Kinkaku-ji (Altın Tapınak) ve Ginkaku-ji (Gümüş Tapınak), Kyoto'nun iki önemli Zen tapınağıdır. Kinkaku-ji'nin altın kaplı dış cephesi ve Ginkaku-ji'nin sade estetiği, Japon mimarisinin farklı yönlerini yansıtır.\n",
+      "en": "Kinkaku-ji (Golden Pavilion) and Ginkaku-ji (Silver Pavilion) are two significant Zen temples in Kyoto. The golden exterior of Kinkaku-ji and the simple elegance of Ginkaku-ji represent different aspects of Japanese architecture.\n",
+      "de": "Kinkaku-ji (Goldener Pavillon) und Ginkaku-ji (Silberner Pavillon) sind zwei bedeutende Zen-Tempel in Kyoto. Die goldene Außenfassade von Kinkaku-ji und die schlichte Eleganz von Ginkaku-ji zeigen verschiedene Aspekte der japanischen Architektur.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tapınakları gezmek",
+        "Bahçelerde yürümek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Exploring the temples",
+        "Walking in the gardens",
+        "Photography"
+      ],
+      "de": [
+        "Die Tempel erkunden",
+        "Spaziergang in den Gärten",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/kinkakuji.jpg",
+      "https://example.com/ginkakuji.jpg"
+    ]
+  },
+  {
+    "slug": "arashiyama-bambu-ormani",
+    "name": {
+      "tr": "Arashiyama Bambu Ormanı",
+      "en": "Arashiyama Bamboo Grove",
+      "de": "Arashiyama Bambuswald"
+    },
+    "latitude": 35.0094,
+    "longitude": 135.6672,
+    "description": {
+      "tr": "Arashiyama Bambu Ormanı, Kyoto'nun en büyüleyici doğal alanlarından biridir. Uzun bambuların arasında yürümek, huzur verici ve eşsiz bir deneyim sunar.\n",
+      "en": "Arashiyama Bamboo Grove is one of Kyoto’s most enchanting natural sites. Walking through the tall bamboo stalks offers a peaceful and unique experience.\n",
+      "de": "Der Arashiyama Bambuswald ist eine der bezauberndsten Naturstätten Kyotos. Ein Spaziergang durch die hohen Bambusstangen ist ein friedliches und einzigartiges Erlebnis.\n"
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Fotoğraf çekmek",
+        "Manzaranın tadını çıkarmak"
+      ],
+      "en": [
+        "Nature walk",
+        "Taking photos",
+        "Enjoying the scenery"
+      ],
+      "de": [
+        "Naturspaziergang",
+        "Fotografieren",
+        "Die Landschaft genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "orman"
+      ],
+      "en": [
+        "forest"
+      ],
+      "de": [
+        "wald"
+      ]
+    },
+    "images": [
+      "https://example.com/arashiyama.jpg"
+    ]
+  },
+  {
+    "slug": "kiyomizu-dera-tapinagi",
+    "name": {
+      "tr": "Kiyomizu-dera Tapınağı",
+      "en": "Kiyomizu-dera Temple",
+      "de": "Kiyomizu-dera Tempel"
+    },
+    "latitude": 34.9949,
+    "longitude": 135.785,
+    "description": {
+      "tr": "Kiyomizu-dera, UNESCO Dünya Mirası listesinde yer alan bir Budist tapınağıdır. Ahşap terasından Kyoto manzarasını izlemek mümkündür. Tapınak, özellikle bahar ve sonbaharda yoğun ziyaretçi çeker.\n",
+      "en": "Kiyomizu-dera is a UNESCO World Heritage Buddhist temple. From its wooden terrace, visitors can enjoy panoramic views of Kyoto. It is especially popular during spring and autumn.\n",
+      "de": "Der Kiyomizu-dera ist ein buddhistischer Tempel und UNESCO-Weltkulturerbe. Von seiner hölzernen Terrasse aus bietet er einen Panoramablick auf Kyoto. Besonders im Frühling und Herbst ist er sehr beliebt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manzara izleme",
+        "Tapınak ziyareti",
+        "Tarihi keşfetmek"
+      ],
+      "en": [
+        "Sightseeing",
+        "Temple visit",
+        "Exploring history"
+      ],
+      "de": [
+        "Aussicht genießen",
+        "Tempelbesuch",
+        "Geschichte erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tapınak",
+        "anıtsal yapı"
+      ],
+      "en": [
+        "temple",
+        "monumental structure"
+      ],
+      "de": [
+        "Tempel",
+        "monumentale Struktur"
+      ]
+    },
+    "images": [
+      "https://example.com/kiyomizudera.jpg"
+    ]
+  },
+  {
+    "slug": "gion-mahallesi",
+    "name": {
+      "tr": "Gion Mahallesi",
+      "en": "Gion District",
+      "de": "Gion Viertel"
+    },
+    "latitude": 35.0023,
+    "longitude": 135.7788,
+    "description": {
+      "tr": "Gion, Kyoto’nun en ünlü geleneksel mahallelerinden biridir. Geisha kültürüyle tanınır ve geleneksel Japon mimarisiyle doludur. Akşam saatlerinde tarihi sokaklarda yürümek oldukça keyiflidir.\n",
+      "en": "Gion is one of Kyoto’s most famous traditional neighborhoods, known for its geisha culture and preserved architecture. Walking through its streets in the evening is a charming experience.\n",
+      "de": "Gion ist eines der bekanntesten traditionellen Viertel Kyotos, bekannt für seine Geisha-Kultur und die erhaltene Architektur. Ein Spaziergang durch die Straßen am Abend ist besonders reizvoll.\n"
+    },
+    "activities": {
+      "tr": [
+        "Gece yürüyüşü",
+        "Geleneksel mimariyi keşfetmek",
+        "Geisha kültürünü gözlemlemek"
+      ],
+      "en": [
+        "Evening stroll",
+        "Exploring traditional architecture",
+        "Observing geisha culture"
+      ],
+      "de": [
+        "Abendlicher Spaziergang",
+        "Traditionelle Architektur entdecken",
+        "Geisha-Kultur beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi meydan"
+      ],
+      "en": [
+        "historic square"
+      ],
+      "de": [
+        "historischer Platz"
+      ]
+    },
+    "images": [
+      "https://example.com/gion.jpg"
+    ]
+  },
+  {
+    "slug": "filozof-yolu",
+    "name": {
+      "tr": "Filozof Yolu",
+      "en": "Philosopher’s Path",
+      "de": "Philosophenweg"
+    },
+    "latitude": 35.0276,
+    "longitude": 135.7984,
+    "description": {
+      "tr": "Filozof Yolu, sakura ağaçlarıyla çevrili huzurlu bir yürüyüş yoludur. Kyoto Üniversitesi profesörlerinden Nishida Kitaro’nun meditasyon yürüyüşleri yaptığı bu yol, doğa ve düşünceyle iç içe bir atmosfer sunar.\n",
+      "en": "The Philosopher’s Path is a peaceful walking trail lined with cherry trees. It was famously walked by Kyoto University philosopher Nishida Kitaro for meditation, blending nature and contemplation.\n",
+      "de": "Der Philosophenweg ist ein ruhiger Spazierweg, gesäumt von Kirschbäumen. Er wurde vom Philosophen Nishida Kitaro zur Meditation genutzt und bietet eine Atmosphäre voller Natur und Reflexion.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş",
+        "Sakura izlemek",
+        "Doğada meditasyon"
+      ],
+      "en": [
+        "Walking",
+        "Cherry blossom viewing",
+        "Meditation in nature"
+      ],
+      "de": [
+        "Spazieren",
+        "Kirschblüten beobachten",
+        "Meditation in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/philosophers_path.jpg"
+    ]
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "desert-ridge-park",
+    "name": {
+      "tr": "Desert Ridge Park",
+      "en": "Desert Ridge Park",
+      "de": "Desert Ridge Park"
+    },
+    "latitude": 33.5206,
+    "longitude": -111.7075,
+    "description": {
+      "tr": "Desert Ridge Park, Mesa şehrinde bulunan büyük bir rekreasyon alanıdır. Doğayla iç içe yürüyüş yapabilir, piknik yapabilir ve spor alanlarını kullanabilirsiniz.",
+      "en": "Desert Ridge Park is a large recreational area in Mesa. Visitors can hike, picnic, and use sports facilities while enjoying the surrounding nature.",
+      "de": "Der Desert Ridge Park ist ein großer Erholungsbereich in Mesa. Besucher können wandern, picknicken und Sporteinrichtungen nutzen, während sie die umliegende Natur genießen."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Piknik yapmak",
+        "Spor yapmak"
+      ],
+      "en": [
+        "Hike",
+        "Picnic",
+        "Exercise"
+      ],
+      "de": [
+        "Wandern",
+        "Picknicken",
+        "Sport treiben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/desert_ridge_park.jpg"
+    ]
+  },
+  {
+    "slug": "mesa-arts-center",
+    "name": {
+      "tr": "Mesa Arts Center",
+      "en": "Mesa Arts Center",
+      "de": "Mesa Arts Center"
+    },
+    "latitude": 33.4185,
+    "longitude": -111.8305,
+    "description": {
+      "tr": "Mesa Arts Center, sanat galerileri, tiyatro ve konser salonlarıyla dolu bir kültür merkezi olarak ziyaretçilere sanat deneyimi sunar.",
+      "en": "Mesa Arts Center is a cultural hub with art galleries, theater, and concert venues, offering visitors a rich artistic experience.",
+      "de": "Das Mesa Arts Center ist ein Kulturzentrum mit Kunstgalerien, Theatern und Konzertstätten, das den Besuchern ein reichhaltiges künstlerisches Erlebnis bietet."
+    },
+    "activities": {
+      "tr": [
+        "Sanat galerilerini gezmek",
+        "Tiyatroya gitmek",
+        "Konser dinlemek"
+      ],
+      "en": [
+        "Visit art galleries",
+        "Attend theater shows",
+        "Listen to concerts"
+      ],
+      "de": [
+        "Kunstgalerien besichtigen",
+        "Theateraufführungen besuchen",
+        "Konzerte hören"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kültürel etkinlikler"
+      ],
+      "en": [
+        "cultural events"
+      ],
+      "de": [
+        "Kulturelle Veranstaltungen"
+      ]
+    },
+    "images": [
+      "https://example.com/mesa_arts_center.jpg"
+    ]
+  },
+  {
+    "slug": "usery-mountain-regional-park",
+    "name": {
+      "tr": "Usery Mountain Regional Park",
+      "en": "Usery Mountain Regional Park",
+      "de": "Usery Mountain Regional Park"
+    },
+    "latitude": 33.4465,
+    "longitude": -111.6313,
+    "description": {
+      "tr": "Usery Mountain Regional Park, dağ manzaraları ve doğa yürüyüşleri sunan bir parktır. Ziyaretçiler, parkta yürüyüş yapabilir ve doğal yaşamı gözlemleyebilirler.",
+      "en": "Usery Mountain Regional Park offers mountain views and hiking trails. Visitors can explore the park while observing local wildlife.",
+      "de": "Der Usery Mountain Regional Park bietet Bergblicke und Wanderwege. Besucher können den Park erkunden und dabei einheimische Wildtiere beobachten."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Doğal yaşamı gözlemlemek"
+      ],
+      "en": [
+        "Hike",
+        "Observe wildlife"
+      ],
+      "de": [
+        "Wandern",
+        "Wildtiere beobachten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/usery_mountain_regional_park.jpg"
+    ]
+  },
+  {
+    "slug": "arizona-museum-of-natural-history",
+    "name": {
+      "tr": "Arizona Museum of Natural History",
+      "en": "Arizona Museum of Natural History",
+      "de": "Arizona Museum of Natural History"
+    },
+    "latitude": 33.4154,
+    "longitude": -111.8277,
+    "description": {
+      "tr": "Arizona Doğa Tarihi Müzesi, bölgenin tarihi ve doğal kaynakları hakkında zengin bir koleksiyon sunar. Müzede dinozorlar, taşlar ve yerel flora hakkında bilgiler bulabilirsiniz.",
+      "en": "The Arizona Museum of Natural History offers a rich collection about the region’s history and natural resources. Exhibits include dinosaurs, rocks, and local flora.",
+      "de": "Das Arizona Museum of Natural History bietet eine reiche Sammlung über die Geschichte und natürlichen Ressourcen der Region. Ausstellungen umfassen Dinosaurier, Steine und lokale Flora."
+    },
+    "activities": {
+      "tr": [
+        "Dinozorları görmek",
+        "Doğa tarihi hakkında bilgi edinmek"
+      ],
+      "en": [
+        "See dinosaurs",
+        "Learn about natural history"
+      ],
+      "de": [
+        "Dinosaurier sehen",
+        "Mehr über Naturgeschichte lernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "museum"
+      ]
+    },
+    "images": [
+      "https://example.com/arizona_museum_of_natural_history.jpg"
+    ]
+  },
+  {
+    "slug": "mesa-grande-cultural-park",
+    "name": {
+      "tr": "Mesa Grande Cultural Park",
+      "en": "Mesa Grande Cultural Park",
+      "de": "Mesa Grande Cultural Park"
+    },
+    "latitude": 33.4153,
+    "longitude": -111.816,
+    "description": {
+      "tr": "Mesa Grande Kültürel Parkı, bölgedeki antik yerleşim alanlarının kalıntılarını gösteren bir parktır. Ziyaretçiler, erken yerli Amerikan kültürlerini keşfedebilir.",
+      "en": "Mesa Grande Cultural Park showcases the remains of ancient settlements in the area. Visitors can explore early Native American cultures.",
+      "de": "Der Mesa Grande Cultural Park zeigt die Überreste antiker Siedlungen in der Region. Besucher können frühe Kulturen der amerikanischen Ureinwohner erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Antik kalıntıları görmek",
+        "Yerli Amerikan kültürünü keşfetmek"
+      ],
+      "en": [
+        "See ancient ruins",
+        "Explore Native American culture"
+      ],
+      "de": [
+        "Antike Ruinen sehen",
+        "Kultur der amerikanischen Ureinwohner erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/mesa_grande_cultural_park.jpg"
+    ]
+  }
+]

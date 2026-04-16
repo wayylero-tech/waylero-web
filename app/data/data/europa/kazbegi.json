@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "gergeti-trinity-kilisesi",
+    "name": {
+      "tr": "Gergeti Trinity Kilisesi",
+      "en": "Gergeti Trinity Church",
+      "de": "Gergeti-Dreifaltigkeitskirche"
+    },
+    "latitude": 42.6614,
+    "longitude": 44.6625,
+    "description": {
+      "tr": "Gergeti Trinity Kilisesi, Kazbek Dağı’nın eteğinde yer alan ve harika bir manzaraya sahip olan bu tarihi kilise, Gürcistan’ın en ünlü simgelerindendir. 14. yüzyılda inşa edilmiş olan kilise, mistik atmosferi ve Kazbek Dağı’nın muazzam görüntüsüyle büyüleyici bir seyir sunar.",
+      "en": "Gergeti Trinity Church, located at the foot of Mount Kazbek, is one of Georgia’s most iconic landmarks with a stunning view. Built in the 14th century, the church offers a mystical atmosphere and breathtaking views of Mount Kazbek.",
+      "de": "Die Gergeti-Dreifaltigkeitskirche, die am Fuße des Kazbek-Gebirges liegt, ist eines der bekanntesten Wahrzeichen Georgiens mit einer atemberaubenden Aussicht. Die im 14. Jahrhundert erbaute Kirche bietet eine mystische Atmosphäre und einen atemberaubenden Blick auf den Kazbek."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin etrafında yürümek",
+        "Kazbek Dağı manzarasını izlemek"
+      ],
+      "en": [
+        "Walking around the church",
+        "Watching the Mount Kazbek view"
+      ],
+      "de": [
+        "Um die Kirche spazieren",
+        "Den Blick auf den Kazbek genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise"
+      ],
+      "en": [
+        "church"
+      ],
+      "de": [
+        "kirche"
+      ]
+    },
+    "images": [
+      "https://example.com/gergeti_trinity_church.jpg"
+    ]
+  },
+  {
+    "slug": "gveleti-selalesi",
+    "name": {
+      "tr": "Gveleti Şelalesi",
+      "en": "Gveleti Waterfall",
+      "de": "Gveleti-Wasserfall"
+    },
+    "latitude": 42.6433,
+    "longitude": 44.5764,
+    "description": {
+      "tr": "Gveleti Şelalesi, Kazbegi bölgesinde bulunan etkileyici bir doğa harikasıdır. Sarp kayalıkların arasından düşen su, etrafındaki yemyeşil doğa ile birleşerek muazzam bir görsel şölen sunar. Bu şelale, doğa yürüyüşleri yapmak isteyenler için harika bir rotadır.",
+      "en": "Gveleti Waterfall is an impressive natural wonder located in the Kazbegi region. The water cascades down through steep rocky terrain, creating a spectacular visual display surrounded by lush greenery. It is a perfect spot for nature walks.",
+      "de": "Der Gveleti-Wasserfall ist ein beeindruckendes Naturwunder in der Kazbegi-Region. Das Wasser stürzt durch steile Felsen und schafft eine spektakuläre visuelle Darstellung, umgeben von üppigem Grün. Es ist ein perfekter Ort für Wanderungen in der Natur."
+    },
+    "activities": {
+      "tr": [
+        "Şelaleyi izlemek",
+        "Doğa yürüyüşü yapmak"
+      ],
+      "en": [
+        "Watching the waterfall",
+        "Hiking in nature"
+      ],
+      "de": [
+        "Den Wasserfall anschauen",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/gveleti_waterfall.jpg"
+    ]
+  },
+  {
+    "slug": "kazbek-dagi",
+    "name": {
+      "tr": "Kazbek Dağı",
+      "en": "Mount Kazbek",
+      "de": "Berg Kazbek"
+    },
+    "latitude": 42.6785,
+    "longitude": 44.5902,
+    "description": {
+      "tr": "Kazbek Dağı, Kazbegi bölgesinde yer alan ve Gürcistan’ın en yüksek dağlarından biridir. Dağcılık ve doğa yürüyüşleri için ideal bir bölge olan Kazbek, zorlu tırmanış rotaları ve etkileyici manzaralarıyla bilinir.",
+      "en": "Mount Kazbek is one of the highest mountains in Georgia, located in the Kazbegi region. It is an ideal area for mountaineering and hiking, known for its challenging climbing routes and stunning views.",
+      "de": "Der Berg Kazbek ist einer der höchsten Berge Georgiens und liegt in der Kazbegi-Region. Er ist ideal für Bergsteigen und Wandern und bekannt für seine herausfordernden Kletterrouten und atemberaubenden Ausblicke."
+    },
+    "activities": {
+      "tr": [
+        "Dağa tırmanmak",
+        "Doğa yürüyüşleri yapmak"
+      ],
+      "en": [
+        "Climbing the mountain",
+        "Hiking in nature"
+      ],
+      "de": [
+        "Den Berg besteigen",
+        "Wandern in der Natur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/mount_kazbek.jpg"
+    ]
+  }
+]

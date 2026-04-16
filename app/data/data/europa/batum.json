@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "batum-botanik-bahcesi",
+    "name": {
+      "tr": "Batum Botanik Bahçesi",
+      "en": "Batumi Botanical Garden",
+      "de": "Botanischer Garten Batumi"
+    },
+    "latitude": 41.992,
+    "longitude": 41.6164,
+    "description": {
+      "tr": "Batum Botanik Bahçesi, Karadeniz kıyısında yer alan ve 1.000’den fazla bitki türüne ev sahipliği yapan bir doğal alanıdır. 1912 yılında kurulan bu bahçe, tropikal ve subtropikal bitkilerin yanı sıra yerel bitki örtüsünü de barındırır. Doğal güzellikleri ve deniz manzarasıyla, doğa severler için ideal bir gezi noktasıdır.",
+      "en": "The Batumi Botanical Garden is a natural area located on the Black Sea coast, hosting over 1,000 plant species. Established in 1912, the garden houses tropical and subtropical plants as well as local flora. Its natural beauty and sea views make it an ideal spot for nature lovers.",
+      "de": "Der Botanische Garten von Batumi ist ein Naturgebiet an der Küste des Schwarzen Meeres und beherbergt über 1.000 Pflanzenarten. Der 1912 gegründete Garten beherbergt tropische und subtropische Pflanzen sowie lokale Flora. Mit seiner natürlichen Schönheit und Aussicht auf das Meer ist es ein idealer Ort für Naturliebhaber."
+    },
+    "activities": {
+      "tr": [
+        "Bitki çeşitlerini incelemek",
+        "Doğa yürüyüşleri yapmak",
+        "Deniz manzarasını izlemek"
+      ],
+      "en": [
+        "Exploring plant species",
+        "Hiking in nature",
+        "Watching the sea view"
+      ],
+      "de": [
+        "Pflanzenarten erkunden",
+        "Wandern in der Natur",
+        "Die Aussicht auf das Meer genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/batumi_botanical_garden.jpg"
+    ]
+  },
+  {
+    "slug": "batum-boulevard",
+    "name": {
+      "tr": "Batum Boulevard",
+      "en": "Batumi Boulevard",
+      "de": "Batumi Boulevard"
+    },
+    "latitude": 41.6407,
+    "longitude": 41.6281,
+    "description": {
+      "tr": "Batum Boulevard, Batum’un sahil boyunca uzanan uzun bir yürüyüş yoludur. Şehir merkeziyle deniz arasında güzel bir bağlantı sağlayan bu bulvar, yürüyüş yapmak, bisiklete binmek ve deniz manzarası eşliğinde dinlenmek için harika bir yerdir. Ayrıca burada birçok kafe, restoran ve alışveriş noktası da bulunmaktadır.",
+      "en": "Batumi Boulevard is a long promenade stretching along the coast of Batumi. It provides a beautiful connection between the city center and the sea, making it a great place for walking, cycling, and relaxing with a sea view. The boulevard also features many cafes, restaurants, and shopping spots.",
+      "de": "Die Batumi-Promenade ist eine lange Uferstraße, die entlang der Küste von Batumi verläuft. Sie bietet eine wunderschöne Verbindung zwischen dem Stadtzentrum und dem Meer und ist ein großartiger Ort zum Spazieren, Radfahren und Entspannen mit Meerblick. Die Promenade bietet auch viele Cafés, Restaurants und Einkaufsstellen."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Bisiklet sürmek",
+        "Kafelerde vakit geçirmek"
+      ],
+      "en": [
+        "Walking",
+        "Cycling",
+        "Spending time in cafes"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Radfahren",
+        "Zeit in Cafés verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/batumi_boulevard.jpg"
+    ]
+  },
+  {
+    "slug": "batum-akvaryumu",
+    "name": {
+      "tr": "Batum Akvaryumu",
+      "en": "Batumi Aquarium",
+      "de": "Batumi Aquarium"
+    },
+    "latitude": 41.6389,
+    "longitude": 41.6264,
+    "description": {
+      "tr": "Batum Akvaryumu, Karadeniz kıyısında yer alan ve zengin deniz yaşamını gözlemleme imkanı sunan bir akvaryumdur. Akvaryumda yerel deniz hayvanları yanı sıra egzotik balık türleri de bulunmaktadır. Ziyaretçiler, farklı deniz ekosistemlerini keşfederek su altı dünyasının güzelliklerini öğrenebilirler.",
+      "en": "Batumi Aquarium, located along the Black Sea coast, offers a chance to observe rich marine life. The aquarium features local sea creatures as well as exotic fish species. Visitors can explore different marine ecosystems and learn about the beauty of the underwater world.",
+      "de": "Das Batumi-Aquarium, das an der Küste des Schwarzen Meeres liegt, bietet die Möglichkeit, eine reiche Meeresfauna zu beobachten. Das Aquarium beherbergt sowohl lokale Meeresbewohner als auch exotische Fischarten. Besucher können verschiedene Meeresökosysteme erkunden und die Schönheit der Unterwasserwelt entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Deniz hayatını gözlemlemek",
+        "Akvaryumda gezmek"
+      ],
+      "en": [
+        "Observing marine life",
+        "Exploring the aquarium"
+      ],
+      "de": [
+        "Meeresleben beobachten",
+        "Das Aquarium erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/batumi_aquarium.jpg"
+    ]
+  },
+  {
+    "slug": "ali-ve-nino-heykeli",
+    "name": {
+      "tr": "Ali ve Nino Heykeli",
+      "en": "Ali and Nino Statue",
+      "de": "Ali und Nino Statue"
+    },
+    "latitude": 41.6436,
+    "longitude": 41.6248,
+    "description": {
+      "tr": "Ali ve Nino Heykeli, Batum’un en ilginç sanat eserlerinden biridir. Bu heykel, Ali ve Nino’nun birbirine yakınlaşan ve ayrılan figürlerinden oluşur. Heykel, aşkı ve iki farklı kültür arasındaki bağı simgeler. Hem Batum’un kültürel zenginliğini hem de Gürcistan ile Azerbaycan arasındaki ilişkiyi yansıtan bu heykel, ziyaretçiler tarafından ilgiyle izlenmektedir.",
+      "en": "The Ali and Nino Statue is one of Batumi’s most fascinating works of art. The sculpture consists of figures of Ali and Nino that come together and separate. It symbolizes love and the connection between two different cultures. Reflecting both Batumi’s cultural richness and the relationship between Georgia and Azerbaijan, this statue is admired by visitors.",
+      "de": "Das Ali-und-Nino-Denkmal ist eines der faszinierendsten Kunstwerke von Batumi. Die Skulptur besteht aus den Figuren von Ali und Nino, die sich annähern und wieder trennen. Sie symbolisiert die Liebe und die Verbindung zwischen zwei verschiedenen Kulturen. Das Denkmal spiegelt sowohl die kulturelle Vielfalt von Batumi als auch die Beziehung zwischen Georgien und Aserbaidschan wider und wird von den Besuchern bewundert."
+    },
+    "activities": {
+      "tr": [
+        "Heykeli izlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Watching the statue",
+        "Taking photos"
+      ],
+      "de": [
+        "Die Statue ansehen",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir simgesi"
+      ],
+      "en": [
+        "city landmark"
+      ],
+      "de": [
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://example.com/ali_nino_statue_batumi.jpg"
+    ]
+  },
+  {
+    "slug": "batumi-piazza",
+    "name": {
+      "tr": "Batumi Piazza",
+      "en": "Batumi Piazza",
+      "de": "Batumi Piazza"
+    },
+    "latitude": 41.6409,
+    "longitude": 41.6283,
+    "description": {
+      "tr": "Batumi Piazza, şehrin en önemli meydanlarından biridir ve İtalyan tarzı mimarisiyle dikkat çeker. Meydan, çeşitli kafeler, restoranlar ve hediyelik eşya dükkanları ile çevrilidir. Burada zaman geçirmek, hem Batum’un tarihi dokusunu keşfetmek hem de modern yaşamı gözlemlemek için mükemmel bir yerdir.",
+      "en": "Batumi Piazza is one of the city’s main squares and is notable for its Italian-style architecture. Surrounded by cafes, restaurants, and souvenir shops, it’s a perfect place to spend time while exploring Batumi’s historical charm and modern lifestyle.",
+      "de": "Der Batumi-Platz ist einer der wichtigsten Plätze der Stadt und fällt durch seine italienische Architektur auf. Der Platz ist von Cafés, Restaurants und Souvenirläden umgeben und eignet sich hervorragend, um Batumis historischem Charme und modernen Lebensstil zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Meydanı keşfetmek",
+        "Kafelerde oturmak",
+        "Hediyelik eşya almak"
+      ],
+      "en": [
+        "Exploring the square",
+        "Sitting in cafes",
+        "Buying souvenirs"
+      ],
+      "de": [
+        "Den Platz erkunden",
+        "In Cafés sitzen",
+        "Souvenirs kaufen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir turu"
+      ],
+      "en": [
+        "city tour"
+      ],
+      "de": [
+        "stadtrundfahrt"
+      ]
+    },
+    "images": [
+      "https://example.com/batumi_piazza.jpg"
+    ]
+  }
+]
