@@ -33,6 +33,18 @@ interface RegionClientProps {
   lang: string;
 }
 
+const trackClick = (type: string, label: string, destination?: string) => {
+  if (typeof window === "undefined") return;
+
+  window.gtag?.("event", "click", {
+    click_type: type,
+    label,
+    destination,
+    page: window.location.pathname,
+    transport_type: "beacon",
+  });
+};
+
 export default function RegionClient({ region, lang: propLang }: RegionClientProps) {
   const { lang: contextLang } = useLang();
   const lang = propLang || contextLang || "tr";
@@ -132,11 +144,18 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {countryCities.map((city: any, index: number) => (
           <Link
-            key={city.slug}
-            href={getLocalizedLink(`/kesfet/${targetRegion}/${city.slug}`)}
-            prefetch={false}
-            className="group relative h-96 w-full overflow-hidden rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-500 bg-gray-200 block"
-          >
+  key={city.slug}
+  href={getLocalizedLink(`/kesfet/${targetRegion}/${city.slug}`)}
+  prefetch={false}
+  onClick={() =>
+    trackClick(
+      "city",
+      city.name,
+      `/kesfet/${targetRegion}/${city.slug}`
+    )
+  }
+  className="group relative h-96 w-full overflow-hidden rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-500 bg-gray-200 block"
+>
             {city.coverImage ? (
               <img
                 // ✅ Cloudinary URL'si burada oluşturuluyor (600px yeterli grid için)

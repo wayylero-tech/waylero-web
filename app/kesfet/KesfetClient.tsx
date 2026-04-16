@@ -14,6 +14,17 @@ const getCloudinaryUrl = (path: string, width: number) => {
   return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(/^\/+/, "")}`;
 };
 
+const trackClick = (type: string, label: string, destination?: string) => {
+  if (typeof window === "undefined") return;
+
+  window.gtag?.("event", "click", {
+    click_type: type,
+    label,
+    destination,
+    transport_type: "beacon",
+  });
+};;
+
 export default function KesfetClient({ initialQuery, lang: propLang }: any) {
   const { lang: contextLang } = useLang();
   const lang = propLang || contextLang || "tr";
@@ -44,11 +55,17 @@ export default function KesfetClient({ initialQuery, lang: propLang }: any) {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {filteredCountries.map(([slug, data]: any, index) => (
           <Link
-            key={slug}
-            href={getLocalizedLink(`/kesfet/${slug}`)}
-            aria-label={`${slug.replace(/-/g, " ")} keşfet`}
-            className="group relative aspect-[3/4] w-full rounded-[3rem] overflow-hidden bg-gray-200 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2"
-          >
+  key={slug}
+  href={getLocalizedLink(`/kesfet/${slug}`)}
+  aria-label={`${slug.replace(/-/g, " ")} keşfet`}
+  onClick={() =>
+    trackClick(
+      "country",
+      slug,
+      `/kesfet/${slug}`
+    )
+  }
+>
             {data.coverPath ? (
               <img
                 // Varsayılan resim (Masaüstü için makul boy)

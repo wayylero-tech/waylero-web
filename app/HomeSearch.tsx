@@ -71,36 +71,79 @@ export default function HomeSearch({ forcedLang }: { forcedLang?: string }) {
     return ["nasil gidilir", "yol tarifi", "nerede", "how to go"].some((k) => q.includes(k));
   };
 
+  const getIntent = (query: string) => {
+  const q = query.toLowerCase();
+
+  if (["konser", "festival", "tiyatro", "etkinlik", "event"].some(k => q.includes(k))) {
+    return "event";
+  }
+
+  if (["nasil gidilir", "yol tarifi", "how to go", "nerede"].some(k => q.includes(k))) {
+    return "navigation";
+  }
+
+  if (["gezilecek", "visit", "place"].some(k => q.includes(k))) {
+    return "place";
+  }
+
+  return "search";
+};
+
   const performSearch = () => {
-    const rawQuery = search.trim();
-    if (!rawQuery) return;
+  const rawQuery = search.trim();
+  if (!rawQuery) return;
 
-    trackSearch(rawQuery);
-    const prefix = activeLang === "en" ? "/en" : "";
-    const cleaned = cleanSearchQuery(rawQuery);
-    const normalized = normalizeText(rawQuery);
-    const fullQuery = `${normalized} ${cleaned}`;
+  const intent = getIntent(rawQuery);
 
-    setMapPlace(null);
+  window.gtag?.("event", "search", {
+    search_term: rawQuery,
+    intent: intent,
+    language: activeLang,
+    page_location: window.location.href,
+  });
 
-    if (isEventIntent(rawQuery)) {
-      const cityKey = Object.keys(locationData.cityMap).find((c) => fullQuery.includes(c));
-      const citySlug = cityKey ? locationData.cityMap[cityKey].slug : cleaned;
-      router.push(`${prefix}/aktiviteler?city=${encodeURIComponent(citySlug)}`);
-      setSearch("");
-      return;
-    }
+  const prefix = activeLang === "en" ? "/en" : "";
+  const cleaned = cleanSearchQuery(rawQuery);
+  const normalized = normalizeText(rawQuery);
+  const fullQuery = `${normalized} ${cleaned}`;
 
-    const cityKeys = Object.keys(locationData.cityMap);
-    let cityMatch = cityKeys.find((c) => c === cleaned || c === normalized);
-    if (!cityMatch) cityMatch = cityKeys.find((c) => fullQuery.includes(c));
+  setMapPlace(null);
 
-    if (cityMatch) {
-      const city = locationData.cityMap[cityMatch];
-      router.push(`${prefix}/kesfet/${city.region}/${city.slug}`);
-      setSearch("");
-      return;
-    }
+  // 🔥 EVENT CHECK (eski isEventIntent SİLİNDİ)
+  if (intent === "event") {
+    const cityKey = Object.keys(locationData.cityMap).find((c) =>
+      fullQuery.includes(c)
+    );
+
+    const citySlug = cityKey
+      ? locationData.cityMap[cityKey].slug
+      : cleaned;
+
+    router.push(
+      `${prefix}/aktiviteler?city=${encodeURIComponent(citySlug)}`
+    );
+
+    setSearch("");
+    return;
+  }
+
+  const cityKeys = Object.keys(locationData.cityMap);
+
+  let cityMatch = cityKeys.find(
+    (c) => c === cleaned || c === normalized
+  );
+
+  if (!cityMatch) {
+    cityMatch = cityKeys.find((c) => fullQuery.includes(c));
+  }
+
+  if (cityMatch) {
+    const city = locationData.cityMap[cityMatch];
+    router.push(`${prefix}/kesfet/${city.region}/${city.slug}`);
+    setSearch("");
+    return;
+  }
+
 
     const countryMatch = locationData.countries.find((c) => {
       const normC = normalizeText(c);
