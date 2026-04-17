@@ -18,8 +18,7 @@ const IMAGES: any = {
 };
 
 function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
-  const R = 6371;
-
+  const R = 6371; // Dünya yarıçapı (km)
   const dLat = ((lat2 - lat1) * Math.PI) / 180;
   const dLon = ((lon2 - lon1) * Math.PI) / 180;
 
@@ -31,7 +30,11 @@ function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
       Math.sin(dLon / 2);
 
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
+  
+  // Kuş uçuşunu yaklaşık %25 artırarak karayolu tahminine yaklaşıyoruz
+  const estimatedDistance = R * c * 1.25;
+
+  return estimatedDistance;
 }
 
 const BASE_URL = "https://www.waylero.com";
@@ -206,7 +209,7 @@ export default async function Page({
       seeAll: `Tüm ${city} yerlerini gör →`,
       eventsInCity: `${city} etkinlikleri`,
       discoverEvents: `${city} konser ve etkinliklerini keşfet →`,
-      unit: "km"
+      unit: "km (tahmini)"
     },
     en: {
       about: "About",
@@ -218,7 +221,7 @@ export default async function Page({
       seeAll: `See all places in ${city} →`,
       eventsInCity: `Events in ${city}`,
       discoverEvents: `Discover concerts and events in ${city} →`,
-      unit: "km"
+      unit: "km (est.)"
     },
   }[lang];
 
