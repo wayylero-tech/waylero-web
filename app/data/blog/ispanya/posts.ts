@@ -110,7 +110,9 @@ Park Güell’de manzara izlemek
 Casa Batlló ve Casa Milà’yı keşfetmek  
 Barceloneta Plajı’nda vakit geçirmek  
 
-Detaylar için tıkla 🔗 **[Barselona Rehberi](https://www.waylero.com/kesfet/ispanya/barselona)**
+İspanya seyahatinizde mutlaka görmeniz gereken 
+**[Barselona gezi rehberi](https://www.waylero.com/kesfet/ispanya/barselona)** 
+şehrin tüm turistik noktalarını detaylı şekilde sunar.
 
 ---
 
@@ -139,7 +141,11 @@ Retiro Parkı’nda dinlenmek
 Kraliyet Sarayı’nı görmek  
 Plaza Mayor’da vakit geçirmek  
 
-Detaylar için tıkla 🔗 **[Madrid Rehberi](https://www.waylero.com/kesfet/ispanya/madrid)**---
+İspanya seyahatinizde mutlaka görmeniz gereken 
+**[Madrid gezi rehberi](https://www.waylero.com/kesfet/ispanya/madrid)** 
+şehrin tarihi ve turistik noktalarını detaylı şekilde sunar.
+
+---
 
 ## 🕌 Granada
 
@@ -159,7 +165,9 @@ Elhamra Sarayı’nı gezmek
 Generalife Bahçeleri’nde yürüyüş yapmak  
 Albaicín’de gezmek  
 
-Detaylar için tıkla 🔗 **[Granada Rehberi](https://www.waylero.com/kesfet/ispanya/granada)**
+Elhamra Sarayı ve tarihi Endülüs atmosferiyle bilinen 
+**[Granada](https://www.waylero.com/kesfet/ispanya/granada)** 
+İspanya’nın en etkileyici şehirlerinden biridir.
 
 ---
 
@@ -182,7 +190,9 @@ Giralda Kulesi’ne çıkmak
 Plaza de España’da fotoğraf çekmek  
 Flamenko izlemek  
 
-Detaylar için tıkla 🔗 **[Sevilla Rehberi](https://www.waylero.com/kesfet/ispanya/sevilla)**
+Endülüs’ün en canlı şehirlerinden biri olan 
+**[Sevilla gezi rehberi](https://www.waylero.com/kesfet/ispanya/sevilla)** 
+şehrin tarihi ve turistik noktalarını keşfetmenizi sağlar.
 
 ---
 
@@ -208,7 +218,9 @@ Cala Comte’de yüzmek
 Es Vedrà’da gün batımı izlemek  
 Dalt Vila’da gezmek  
 
-Detaylar için tıkla 🔗 **[İbiza Rehberi](https://www.waylero.com/kesfet/ispanya/ibiza)**
+Dünyaca ünlü plajları ve gece hayatıyla bilinen 
+**[İbiza](https://www.waylero.com/kesfet/ispanya/ibiza)** 
+İspanya’nın en popüler tatil destinasyonlarından biridir.
 
 ---
 
@@ -310,7 +322,9 @@ Waylero ile keşfet, planla, paylaş. 🚀
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)  
+Yeni destinasyonlar ve gezi rehberleri için 
+**[gezi blog yazıları ve rehberler](https://www.waylero.com/blog)** 
+sayfamızı ziyaret edebilirsiniz.
 
 `,
 

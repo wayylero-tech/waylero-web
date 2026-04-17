@@ -70,7 +70,9 @@ Tarih ve mimari meraklıları için türbeler, Selçuklu kültürünü ve Anadol
 
 Bu iki türbe, Konya’nın Selçuklu mirasını keşfetmek isteyen herkes için mutlaka görülmesi gereken noktalardan biridir.
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+Yeni destinasyonlar ve gezi rehberleri için 
+**[gezi blog yazıları ve rehberler](https://www.waylero.com/blog)** 
+sayfamızı ziyaret edebilirsiniz.
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
@@ -113,7 +115,7 @@ Despite this, they provide a unique experience for visitors, offering insight in
 
 For anyone exploring Konya’s Seljuk heritage, these two tombs are essential destinations that combine history, architecture, and culture.
 
-Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/blog)**
+Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

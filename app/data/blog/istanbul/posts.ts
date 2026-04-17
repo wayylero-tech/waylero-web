@@ -85,7 +85,10 @@ export const istanbulPosts = [
 3.  **İDO/Şehir Hatları:** "Deniz varsa trafik yoktur." Gitmek istediğin yere vapur varsa, başka araç arama.
 4.  **Taksi Uyarısı:** Özellikle turistik bölgelerde (Sultanahmet-Eminönü) taksi bulmak zordur. **BiTaksi** veya **Uber** kullanmaya çalış, yoldan çevirme.
 
-Daha fazla keşif için tıkla 🔗 **[İstanbulda Gezilecek Yerler](https://www.waylero.com/kesfet/turkiye/istanbul)**
+Tarihi yapıları, Boğaz manzarası ve kültürel noktalarıyla 
+**[İstanbul](https://www.waylero.com/kesfet/turkiye/istanbul)** 
+Türkiye’nin en çok ziyaret edilen şehridir.
+
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

@@ -81,8 +81,9 @@ Antik kent kalıntılarını keşfetmek
 
 Fotoğraf çekmek
 
-Detaylar için tıkla 🔗 **[Aspendos Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/aspendos-antik-kenti)**
-
+Antalya’nın en önemli Roma dönemi yapılarından biri olan 
+**[Aspendos Antik Kenti hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/antalya/aspendos-antik-kenti)** 
+dünyanın en iyi korunmuş tiyatrolarından birine ev sahipliği yapar.
 
 ---
 
@@ -120,7 +121,9 @@ Sahil yürüyüşü yapmak
 Gün batımını izlemek
 
 
-Detaylar için tıkla 🔗 **[Konyaaltı Plajı](https://www.waylero.com/kesfet/turkiye/antalya/konyaalti-plaji)**
+Toros Dağları manzarasıyla dikkat çeken 
+**[Konyaaltı Plajı](https://www.waylero.com/kesfet/turkiye/antalya/konyaalti-plaji)** 
+Antalya’nın en çok ziyaret edilen plajlarından biridir.
 
 ---
 
@@ -160,7 +163,9 @@ Arkeolojik kalıntıları görmek
 
 Manzara fotoğrafları çekmek
 
-Detaylar için tıkla 🔗 **[ Karain Mağarası](https://www.waylero.com/kesfet/turkiye/antalya/karain-magarasi)**
+Antalya’da bulunan ve tarih öncesi dönemlere ait izler barındıran 
+**[Karain Mağarası](https://www.waylero.com/kesfet/turkiye/antalya/karain-magarasi)** 
+Türkiye’nin en önemli arkeolojik alanlarından biridir.
 
 ---
 
@@ -232,7 +237,9 @@ Doğa yürüyüşü yapmak
 Fotoğraf çekmek
 
 
-Detaylar için tıkla 🔗 **[Düden Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/duden-selalesi)**
+Antalya’nın en ünlü doğal güzelliklerinden biri olan 
+**[Düden Şelalesi hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/antalya/duden-selalesi)** 
+şehrin en çok ziyaret edilen doğa noktalarındandır.
 
 ---
 
@@ -269,7 +276,10 @@ Antalya sadece bir tatil şehri değil; aynı zamanda tarih, doğa ve kültürü
 
 Antalya için daha fazla yer önerisi için tıkla  
 
-Detaylar için tıkla 🔗 **[Antalya'da Gezilecek Yerler](https://www.waylero.com/kesfet?q=antalya)**
+Antalya’nın plajlarını, antik kentlerini ve doğal güzelliklerini görmek için 
+**[Antalya gezilecek yerler](https://www.waylero.com/kesfet/turkiye/antalya)** 
+sayfasına göz atabilirsiniz.
+
 
 Waylero ile keşfet, planla, paylaş.
 `,
@@ -433,7 +443,7 @@ Details 🔗 **[Duden Waterfalls](https://www.waylero.com/en/kesfet/turkiye/anta
 
 Antalya is more than just a vacation city; it's a destination where history and nature meet.
 
-Explore more 🔗 **[Antalya Discovery Guide](https://www.waylero.com/kesfet?q=antalya)**
+Explore more 🔗 **[Antalya Discovery Guide](https://www.waylero.com/en/kesfet/turkiye/antalya)**
 
 Explore, plan, and share with Waylero.
 `

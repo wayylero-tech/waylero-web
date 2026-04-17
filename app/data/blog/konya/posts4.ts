@@ -118,12 +118,14 @@ Konya merkezden özel araçla yaklaşık 1 saat sürer. Toplu taşıma ile Çumr
 Müzekart geçerlidir. 18 yaş altı ücretsizdir. Güncel fiyatlar dönemsel olarak değişebilir.
 
 ### Çatalhöyük gezisi ne kadar sürer?
-Ortalama 2 saat sürmektedir.
 
-👉 Daha fazlası için linke tıklayın  
-🔗 **[Çatalhöyük Ören Yeri](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**  
+Ortalama 2 saat sürmektedir. 
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıları](https://www.waylero.com/blog)**  
+Neolitik dönemin en önemli yerleşimlerinden biri olan 
+**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**
+
+Türkiye’de gezilecek diğer önemli noktalar için 
+**[gezi blog yazılarımıza göz atabilirsiniz](https://www.waylero.com/blog)**.
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile)**
 
@@ -213,7 +215,7 @@ The Museum Card is accepted. Admission is free for those under 18. Current price
 It takes about 2 hours on average.
 
 👉 Click the link for more  
-🔗 **[Çatalhöyük Archaeological Site](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**  
+🔗 **[Çatalhöyük Archaeological Site](https://www.waylero.com/en/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**  
 
 Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**  
 

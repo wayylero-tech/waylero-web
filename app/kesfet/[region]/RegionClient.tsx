@@ -99,7 +99,10 @@ export default function RegionClient({ region, lang: propLang }: RegionClientPro
         if (!places?.length) return null;
 
         const citySlug = slugify(cityKey);
-        const regionImages = allImages[safeDataKey]?.[cityKey] || {};
+        const regionImages =
+  allImages[safeDataKey]?.[cityKey] ||
+  allImages[safeDataKey]?.[slugify(cityKey)] ||
+  {};
 
         const firstPlace = places[0];
         const imageKey = `${citySlug}-${slugify(firstPlace.slug)}`;

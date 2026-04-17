@@ -117,55 +117,66 @@ export default function BlogDetail({ post }: { post: Post }) {
       {displayContent && (
         <div className="max-w-3xl mx-auto">
           <ReactMarkdown
-            components={{
-              h1: ({ children }) => (
-                <h1 className="text-3xl font-bold mt-12 mb-6 text-gray-900">
-                  {children}
-                </h1>
-              ),
-              h2: ({ children }) => (
-                <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3 text-gray-800">
-                  {children}
-                </h2>
-              ),
-              h3: ({ children }) => (
-                <h3 className="text-xl font-bold mt-8 mb-4 text-gray-800">
-                  {children}
-                </h3>
-              ),
-              p: ({ children }) => (
-                <p className="text-lg leading-9 mb-6 text-gray-700 text-justify">
-                  {children}
-                </p>
-              ),
-              ul: ({ children }) => (
-                <ul className="list-disc pl-6 mb-8 space-y-3 text-lg text-gray-700">
-                  {children}
-                </ul>
-              ),
-              ol: ({ children }) => (
-                <ol className="list-decimal pl-6 mb-8 space-y-3 text-lg text-gray-700">
-                  {children}
-                </ol>
-              ),
-              li: ({ children }) => (
-                <li className="leading-relaxed pl-2">{children}</li>
-              ),
-              blockquote: ({ children }) => (
-                <blockquote className="border-l-4 border-blue-500 pl-6 py-2 my-8 italic text-gray-600 bg-blue-50 rounded-r-lg text-xl">
-                  {children}
-                </blockquote>
-              ),
-              hr: () => <hr className="my-12 border-gray-200" />,
-              img: ({ src, alt }) => (
-                <img
-                  src={src as string}
-                  alt={alt as string}
-                  className="rounded-3xl my-10 shadow-lg w-full"
-                />
-              ),
-            }}
-          >
+  components={{
+    h1: ({ children }) => (
+      <h1 className="text-3xl font-bold mt-12 mb-6 text-gray-900">
+        {children}
+      </h1>
+    ),
+    h2: ({ children }) => (
+      <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3 text-gray-800">
+        {children}
+      </h2>
+    ),
+    h3: ({ children }) => (
+      <h3 className="text-xl font-bold mt-8 mb-4 text-gray-800">
+        {children}
+      </h3>
+    ),
+    p: ({ children }) => (
+      <p className="text-lg leading-9 mb-6 text-gray-700 text-justify">
+        {children}
+      </p>
+    ),
+
+    // 🔥 BURAYA EKLİYORSUN
+    a: ({ href, children }) => (
+      <a
+        href={href}
+        className="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2"
+      >
+        {children}
+      </a>
+    ),
+
+    ul: ({ children }) => (
+      <ul className="list-disc pl-6 mb-8 space-y-3 text-lg text-gray-700">
+        {children}
+      </ul>
+    ),
+    ol: ({ children }) => (
+      <ol className="list-decimal pl-6 mb-8 space-y-3 text-lg text-gray-700">
+        {children}
+      </ol>
+    ),
+    li: ({ children }) => (
+      <li className="leading-relaxed pl-2">{children}</li>
+    ),
+    blockquote: ({ children }) => (
+      <blockquote className="border-l-4 border-blue-500 pl-6 py-2 my-8 italic text-gray-600 bg-blue-50 rounded-r-lg text-xl">
+        {children}
+      </blockquote>
+    ),
+    hr: () => <hr className="my-12 border-gray-200" />,
+    img: ({ src, alt }) => (
+      <img
+        src={src as string}
+        alt={alt as string}
+        className="rounded-3xl my-10 shadow-lg w-full"
+      />
+    ),
+  }}
+>
             {displayContent}
           </ReactMarkdown>
         </div>

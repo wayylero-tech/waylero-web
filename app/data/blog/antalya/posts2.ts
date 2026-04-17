@@ -154,9 +154,10 @@ Dönüş yolu yaklaşık 1 saat 15 dakika sürer.
 2. **Kıyafet:** Antik kentlerde zemin taşlı ve engebelidir; sandalet yerine spor ayakkabı şart.
 3. **MüzeKart:** Sadece Perge ve Aspendos girişi bile kart ücretinden fazladır. Girişteki gişeden 1 dakikada dijital kartınızı çıkartın.
 
-Click for details 🔗 **[5 Places to Visit in Antalya](https://www.waylero.com/blog/antalya/antalya-gezilecek-yerler-rehberi)**
+Antalya seyahatinizde mutlaka görmeniz gereken 5 önemli noktayı öğrenmek için 
+**[Antalya gezilecek yerler rehberi](https://www.waylero.com/blog/antalya/antalya-gezilecek-yerler-rehberi)** sayfasını inceleyebilirsiniz.
 
-Download the app from Google Play Store to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
+
 
 ---
 `,

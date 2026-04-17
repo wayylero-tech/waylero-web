@@ -85,7 +85,10 @@ export const spainPosts = [
 2. **Akşam yemekleri geç başlar (20:00+).**  
 3. **Yankesicilere dikkat (özellikle Barselona).**  
 
-Detaylar için tıkla 🔗 **[İspanya Gezi Rehberi](https://www.waylero.com/blog/ispanya/ispanya-gezilecek-yerler-rehberi)**  
+İspanya tatili planlayanlar için hazırlanan 
+**[İspanya gezilecek yerler rehberi](https://www.waylero.com/blog/ispanya/ispanya-gezilecek-yerler-rehberi)** 
+detaylı rota önerileri sunar.
+ 
 Kendi Gezi Planını Yapmak için Uygulamayı İndir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile)**
 `,
       en: `
