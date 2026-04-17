@@ -3,7 +3,6 @@ import { headers } from "next/headers"; // 🔥 Cookies yerine headers
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
-export const dynamic = "force-dynamic";
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -116,8 +115,8 @@ export default async function ActivitiesPage({ searchParams }: any) {
 
     // Kendi API Route'umuza istek atıyoruz
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
-      next: { revalidate: 1800 },
-    });
+  next: { revalidate: 900 }, // 🔥 15 dk
+});
 
     if (res.ok) {
       const data = await res.json();
