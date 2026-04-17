@@ -4,9 +4,9 @@ import { useLang } from "../context/LanguageContext";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react"; // 1. Hook'ları ekledik
 import HomeSearch from "../HomeSearch";
 
-// --- FONT AYARLARI ---
 const geistSans = Geist({
   variable: "--font-geist-sans-variable",
   subsets: ["latin"],
@@ -27,7 +27,24 @@ export default function ClientLayout({
   const { lang: contextLang, setLang } = useLang();
   const pathname = usePathname();
   const activeLang = serverLang || contextLang || "tr";
+  
+  // 2. SCROLL DURUMU TAKİBİ
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // 50 piksel aşağı inince küçültmeyi başlat
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const isHome = pathname === "/" || pathname === "/en";
+  
+  // 3. LOGO DURUMU (Ana sayfadaysa ve henüz kaydırılmadıysa BÜYÜK, değilse KÜÇÜK)
+  const shouldBeSmall = !isHome || isScrolled;
 
   const getLocalizedLink = (path: string) => {
     if (activeLang === "tr") return path;
@@ -63,7 +80,7 @@ export default function ClientLayout({
       {/* 🔹 HEADER */}
       <header
         className={`sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm px-4 transition-all duration-500 ${
-          isHome ? "py-4" : "py-2 border-b"
+          shouldBeSmall ? "py-2 border-b" : "py-4"
         }`}
       >
         <div className="max-w-[1440px] mx-auto flex items-center justify-between">
@@ -74,20 +91,19 @@ export default function ClientLayout({
               <Link href={getLocalizedLink("/")}>
                 <img
                   src="/assets/genel/logo.webp"
-                  // ÖNEMLİ: Lighthouse için fiziksel genişlik/yükseklik (CLS önleyici)
-                  width={isHome ? 224 : 192} 
-                  height={isHome ? 56 : 48}
+                  width={shouldBeSmall ? 192 : 224} 
+                  height={shouldBeSmall ? 48 : 56}
                   className={`object-contain transition-all duration-500 ${
-                    isHome ? "h-14" : "h-12"
+                    shouldBeSmall ? "h-12" : "h-14"
                   }`}
                   alt="Waylero logo"
-                  // İlk yüklenen ana logo olduğu için:
                   fetchPriority="high"
                 />
               </Link>
 
-              {isHome && (
-                <div className="mt-2 flex items-center gap-3">
+              {/* Slogan sadece en tepedeyken görünsün (opsiyonel, kalabalığı önler) */}
+              {!shouldBeSmall && (
+                <div className="mt-2 flex items-center gap-3 animate-in fade-in duration-500">
                   <p className="hidden md:block text-sm font-semibold bg-gradient-to-r from-blue-700 to-blue-500 bg-clip-text text-transparent">
                     {t.slogan}
                   </p>
@@ -102,9 +118,9 @@ export default function ClientLayout({
             </div>
           </div>
 
-          {/* 🔥 ORTA */}
+          {/* 🔥 ORTA SEARCH */}
           <div className="flex-[2] flex justify-center px-4">
-            <div className="w-full max-w-xl scale-95 md:scale-100">
+            <div className={`w-full max-w-xl transition-all duration-500 ${shouldBeSmall ? "scale-90" : "scale-100"}`}>
               <HomeSearch forcedLang={activeLang} />
             </div>
           </div>
@@ -114,11 +130,10 @@ export default function ClientLayout({
             <Link href={getLocalizedLink("/")}>
               <img
                 src="/assets/genel/logo-sag.webp"
-                // ÖNEMLİ: Boyutlar belirtilmeli
-                width={isHome ? 96 : 64}
-                height={isHome ? 96 : 64}
+                width={shouldBeSmall ? 64 : 96}
+                height={shouldBeSmall ? 64 : 96}
                 className={`object-contain transition-all duration-500 ${
-                  isHome ? "h-24" : "h-16"
+                  shouldBeSmall ? "h-16" : "h-24"
                 }`}
                 alt="Waylero"
               />
@@ -130,72 +145,118 @@ export default function ClientLayout({
       <main className="flex-1">{children}</main>
 
       {/* 🔹 FOOTER */}
-      <footer className="border-t bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-4 gap-8 text-sm text-gray-600">
+      <footer className="border-t bg-gray-50 w-full">
+        <div className="w-full px-6 md:px-12 py-8 flex flex-col md:flex-row justify-between items-start gap-15 text-sm text-gray-800">
           
-          <div>
+          {/* 1. SOL TARAF: LOGO VE SLOGAN (Mavi Daire Sol - En Sola) */}
+          <div className="flex flex-col items-start min-w-[200px]">
             <img
               src="/assets/genel/logo.webp"
               alt="Waylero Logo"
-              width={160} // Fiziksel boyut
-              height={40}
-              className="h-10 mb-2 object-contain"
-              loading="lazy" // Footer olduğu için lazy kalsın
+              width={180} 
+              height={45}
+              className="h-11 mb-3 object-contain"
+              loading="lazy"
             />
-            <p className="font-medium text-gray-900">Waylero © {new Date().getFullYear()}</p>
-            <p className="text-xs mt-1">{t.slogan}</p>
+            <p className="font-bold text-gray-900 text-base">Waylero © {new Date().getFullYear()}</p>
+            <p className="text-xs mt-1 font-medium text-gray-500 italic tracking-wide">{t.slogan}</p>
           </div>
 
-          <div className="flex flex-col gap-2">
-            <span className="font-bold text-gray-900 mb-1">
+          {/* 2. ORTA SOL: KURUMSAL */}
+          <div className="flex flex-col gap-2.5">
+            <span className="font-bold text-gray-900 mb-1 tracking-wider">
               {activeLang === "tr" ? "KURUMSAL" : "CORPORATE"}
             </span>
-            <Link href={getLocalizedLink("/hakkimizda")} className="hover:text-blue-600 transition-colors">{t.hakkimizda}</Link>
-            <Link href={getLocalizedLink("/privacy")} className="hover:text-blue-600 transition-colors">{t.gizlilik}</Link>
-            <Link href={getLocalizedLink("/terms")} className="hover:text-blue-600 transition-colors">{t.sozlesme}</Link>
-            <Link href={getLocalizedLink("/contact")} className="hover:text-blue-600 transition-colors">{t.iletisim}</Link>
+            <Link href={getLocalizedLink("/hakkimizda")} className="hover:text-blue-600 transition-colors font-medium">{t.hakkimizda}</Link>
+            <Link href={getLocalizedLink("/privacy")} className="hover:text-blue-600 transition-colors font-medium">{t.gizlilik}</Link>
+            <Link href={getLocalizedLink("/terms")} className="hover:text-blue-600 transition-colors font-medium">{t.sozlesme}</Link>
+            <Link href={getLocalizedLink("/contact")} className="hover:text-blue-600 transition-colors font-medium">{t.iletisim}</Link>
           </div>
 
-          <div className="flex flex-col gap-3">
-            <span className="font-bold text-gray-900 mb-1">
-              {activeLang === "tr" ? "İŞ BİRLİKLERİMİZ" : "PARTNERS"}
-            </span>
-            <div className="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
-              <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer">
-                <img 
-                  src="/assets/genel/etkinlikio.webp" 
-                  alt="Etkinlik.io" 
-                  width={120} // ÖNEMLİ: Boyut belirtilmeli
-                  height={32}
-                  className="h-8 object-contain" 
-                />
-              </a>
-            </div>
-            <p className="text-[10px] leading-tight text-gray-400">
-              {activeLang === "tr" ? "Etkinlik verileri etkinlikio tarafından sağlanmaktadır." : "Event data is provided by etkinlikio."}
-            </p>
+          {/* 3. ORTA SAĞ: İŞ BİRLİKLERİMİZ */}
+<div className="flex flex-col gap-3 min-w-[250px] max-w-[350px] overflow-hidden">
+  <span className="font-bold text-gray-900 mb-1 tracking-wider uppercase text-[12px]">
+    {activeLang === "tr" ? "İŞ BİRLİKLERİMİZ" : "PARTNERS"}
+  </span>
+  
+  <div className="relative flex overflow-hidden border-l border-gray-200 pl-4 group">
+    {/* Kayan Kısım: Hem logo hem yazı bunun içinde */}
+    <div className="flex animate-[partner-slider_20s_linear_infinite] hover:[animation-play-state:paused] whitespace-nowrap py-2 gap-12 items-center">
+      
+      {/* SET 1 */}
+      <div className="flex items-center gap-4 flex-shrink-0">
+        <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all">
+          <img src="/assets/genel/etkinlikio.webp" alt="Etkinlik.io" width={110} height={30} className="h-7 object-contain" />
+        </a>
+        <span className="text-[10px] text-gray-400 font-medium">
+          {activeLang === "tr" ? "• Etkinlik verileri etkinlikio tarafından sağlanmaktadır." : "• Event data provided by etkinlikio."}
+        </span>
+      </div>
+
+      {/* SET 2 (Döngü için şart - Aynısını kopyalıyoruz) */}
+      <div className="flex items-center gap-4 flex-shrink-0">
+        <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all">
+          <img src="/assets/genel/etkinlikio.webp" alt="Etkinlik.io" width={110} height={30} className="h-7 object-contain" />
+        </a>
+        <span className="text-[10px] text-gray-400 font-medium">
+          {activeLang === "tr" ? "• Etkinlik verileri etkinlikio tarafından sağlanmaktadır." : "• Event data provided by etkinlikio."}
+        </span>
+      </div>
+
+      {/* SET 3 (Boşluk kalmaması için bir tane daha) */}
+      <div className="flex items-center gap-4 flex-shrink-0">
+        <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all">
+          <img src="/assets/genel/etkinlikio.webp" alt="Etkinlik.io" width={110} height={30} className="h-7 object-contain" />
+        </a>
+        <span className="text-[10px] text-gray-400 font-medium">
+          {activeLang === "tr" ? "• Etkinlik verileri etkinlikio tarafından sağlanmaktadır." : "• Event data provided by etkinlikio."}
+        </span>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+          {/* 4. SAĞ TARAF: TAKİP VE İNDİR (En Sağa Yaslı ve Yan Yana) */}
+          <div className="flex flex-col md:flex-row gap-10 md:gap-16 items-start md:items-center flex-grow justify-end w-full md:w-auto">
+            
+           {/* 4. SAĞ TARAF: TAKİP VE İNDİR (Yan Yana ve Aynı Boyutta) */}
+<div className="flex flex-col md:flex-row gap-10 md:gap-16 items-start md:items-center flex-grow justify-end w-full md:w-auto">
+  
+  {/* Bizi Takip Et */}
+  <div className="flex flex-col items-start">
+    <span className="font-bold text-gray-900 tracking-wider mb-3 whitespace-nowrap">{t.takip}</span>
+    <div className="flex gap-4 items-center h-9"> {/* Yüksekliği mağaza butonlarıyla eşitledik */}
+      <a href="https://www.instagram.com/waylero_ile_kesfet/" target="_blank" className="hover:scale-110 transition-transform flex items-center">
+        <img src="/assets/genel/instagram.webp" width={24} height={24} className="h-6 w-6 object-contain" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/share/1cc67aspSp/" target="_blank" className="hover:scale-110 transition-transform flex items-center">
+        <img src="/assets/genel/facebook.webp" width={24} height={24} className="h-6 w-6 object-contain" alt="Facebook" />
+      </a>
+      <a href="https://www.youtube.com/@way_lero" target="_blank" className="hover:scale-110 transition-transform flex items-center">
+        <img src="/assets/genel/youtube.webp" width={24} height={24} className="h-6 w-6 object-contain" alt="YouTube" />
+      </a>
+      <a href="https://x.com/wayylero" target="_blank" className="hover:scale-110 transition-transform flex items-center">
+        <img src="/assets/genel/x.webp" width={24} height={24} className="h-6 w-6 object-contain" alt="X" />
+      </a>
+    </div>
+  </div>
+
+  {/* Uygulamayı İndir */}
+  <div className="flex flex-col items-start">
+    <span className="font-bold text-gray-900 tracking-wider mb-3 whitespace-nowrap">{t.indir}</span>
+    <div className="flex gap-4 items-center h-9">
+      <a href="https://play.google.com/store/apps/details?id=app.waylero.mobile" target="_blank" className="hover:opacity-80 transition-opacity flex items-center">
+        <img src="/assets/genel/google-play.webp" width={32} height={32} className="h-7 w-auto object-contain" alt="Google Play" />
+      </a>
+      <a href="#" className="cursor-default flex items-center">
+        <img src="/assets/genel/app-store.webp" width={32} height={32} className="h-7 w-auto object-contain opacity-40 grayscale" alt="App Store" />
+      </a>
+    </div>
+  </div>
+</div>
           </div>
 
-          <div className="flex flex-col gap-6">
-            <div>
-              <span className="font-bold text-gray-900">{t.takip}</span>
-              <div className="flex gap-3 mt-3">
-                <a href="https://www.instagram.com/waylero_ile_kesfet/" target="_blank"><img src="/assets/genel/instagram.webp" width={20} height={20} alt="Instagram" /></a>
-                <a href="https://www.facebook.com/share/1cc67aspSp/" target="_blank"><img src="/assets/genel/facebook.webp" width={20} height={20} alt="Facebook" /></a>
-                <a href="https://www.youtube.com/@way_lero" target="_blank"><img src="/assets/genel/youtube.webp" width={20} height={20} alt="YouTube" /></a>
-                <a href="https://x.com/wayylero" target="_blank"><img src="/assets/genel/x.webp" width={20} height={20} alt="X" /></a>
-              </div>
-            </div>
-            <div>
-              <span className="font-bold text-gray-900">{t.indir}</span>
-              <div className="flex gap-2 mt-2">
-                <a href="https://play.google.com/store/apps/details?id=app.waylero.mobile" target="_blank">
-                  <img src="/assets/genel/google-play.webp" width={110} height={32} alt="Google Play" />
-                </a>
-                <img src="/assets/genel/app-store.webp" width={110} height={32} className="h-6 opacity-50" alt="App Store" />
-              </div>
-            </div>
-          </div>
         </div>
       </footer>
     </div>

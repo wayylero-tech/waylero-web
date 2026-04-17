@@ -196,7 +196,8 @@ export default function HomePage() {
               const localizedName = lang === "en" ? c.name.en : c.name.tr;
               return (
                 <Link
-  href={getLocalizedLink(`/${c.country}/${c.slug}`)}
+          key={c.slug} // 🔥 BURAYI EKLEDİK: React artık her şehri tanıyacak.
+          href={getLocalizedLink(`/${c.country}/${c.slug}`)}
   onClick={() =>
     trackClick(
       "city",

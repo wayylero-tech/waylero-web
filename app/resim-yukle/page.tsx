@@ -1,15 +1,17 @@
 "use client";
 import { useState } from "react";
-import { db, storage } from "../../lib/firebase"; 
+import { db } from "../../lib/firebase"; 
 import { doc, setDoc, arrayUnion } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
-export default function BulkUploader() {
+export default function FinalCloudinaryUploader() {
   const [jsonData, setJsonData] = useState("");
   const [status, setStatus] = useState<string[]>([]);
+  const [uploadedPaths, setUploadedPaths] = useState<string[]>([]); // Linkleri burada biriktireceğiz
   const [loading, setLoading] = useState(false);
 
-  // --- 1. RESİM SIKIŞTIRMA FONKSİYONU ---
+  const CLOUD_NAME = "dewd42ppf";
+  const UPLOAD_PRESET = "waylero"; 
+
   const compressImage = async (blob: Blob): Promise<Blob> => {
     return new Promise((resolve) => {
       const img = new Image();
@@ -18,92 +20,95 @@ export default function BulkUploader() {
         const canvas = document.createElement("canvas");
         let width = img.width;
         let height = img.height;
-
         const MAX_WIDTH = 1280;
         if (width > MAX_WIDTH) {
           height = (MAX_WIDTH / width) * height;
           width = MAX_WIDTH;
         }
-
         canvas.width = width;
         canvas.height = height;
-
         const ctx = canvas.getContext("2d");
         ctx?.drawImage(img, 0, 0, width, height);
-
-        canvas.toBlob((result) => {
-          resolve(result || blob);
-        }, "image/jpeg", 0.8);
+        canvas.toBlob((result) => resolve(result || blob), "image/jpeg", 0.8);
       };
     });
   };
 
-  // 🔥 TAM ÖZGÜR FORMAT: Karakter yemez, ı harfini i yapmaz.
   const formatNameCustom = (text: string) => {
     return text
       .trim()
-      // Küçük harf yapmak istersen sadece Türkçe uyumlu küçültür:
-      .toLocaleLowerCase('tr-TR') 
-      // Sadece boşlukları tire yapar
-      .replace(/\s+/g, '-') 
-      // Sadece klasör yapısını bozacak kritik karakterleri temizler (slash, nokta vs.)
-      // Türkçe harfler (ğüşıöç) burada GÜVENDE.
-      .replace(/[^\wğüşıöçĞÜŞİÖÇ\-]/gu, ''); 
+      .toLocaleLowerCase('tr-TR')
+      .replace(/\s+/g, '-')
+      .replace(/[^\wğüşıöçĞÜŞİÖÇ\-]/gu, '');
   };
 
   const startBulkUpload = async () => {
-    if (!jsonData) return alert("JSON verisini yapıştır kanka!");
-    
+    if (!jsonData) return alert("JSON yapıştır kanka!");
     setLoading(true);
     setStatus(["🚀 İşlem başlatıldı..."]);
+    setUploadedPaths([]); // Yeni yükleme öncesi listeyi temizle
 
     try {
       const data = JSON.parse(jsonData);
+      const tempPaths: string[] = [];
       
-      for (const cityKey in data) {
-        const places = data[cityKey];
-        const citySlug = formatNameCustom(cityKey);
+      for (const regionKey in data) {
+        const regionSlug = formatNameCustom(regionKey);
 
-        for (const placeKey in places) {
-          const links = places[placeKey];
-          const placeSlug = formatNameCustom(placeKey); 
+        for (const cityKey in data[regionKey]) {
+          const citySlug = formatNameCustom(cityKey);
 
-          setStatus(prev => [...prev, `🔍 ${placeSlug} hazırlanıyor...`]);
+          for (const placeKey in data[regionKey][cityKey]) {
+            const links = data[regionKey][cityKey][placeKey];
+            const placeSlug = formatNameCustom(placeKey);
 
-          for (const link of links) {
-            try {
-              const res = await fetch(link);
-              if (!res.ok) throw new Error("Linke ulaşılamadı");
-              const originalBlob = await res.blob();
+            for (const link of links) {
+              try {
+                const res = await fetch(link);
+                const originalBlob = await res.blob();
+                const compressedBlob = await compressImage(originalBlob);
 
-              setStatus(prev => [...prev, `⚡ Sıkıştırılıyor: ${placeSlug}`]);
-              const compressedBlob = await compressImage(originalBlob);
+                const folderPath = `places/${regionSlug}/${citySlug}/${placeSlug}`;
+                const fileName = `${placeSlug}_${Date.now()}`;
 
-              // 3. STORAGE YÜKLE: Türkçe karakterli yol (Örn: .../nallıhan-gökkuşağı-tepeleri/...)
-              const storagePath = `place_photos/${citySlug}/${placeSlug}/${Date.now()}.jpg`;
-              const sRef = ref(storage, storagePath);
-              await uploadBytes(sRef, compressedBlob);
-              const firebaseUrl = await getDownloadURL(sRef);
+                const formData = new FormData();
+                formData.append("file", compressedBlob);
+                formData.append("upload_preset", UPLOAD_PRESET);
+                formData.append("folder", folderPath);
+                formData.append("public_id", fileName);
 
-              // 4. FIRESTORE YAZ: Doküman ID'si de Türkçe karakterli
-              const docRef = doc(db, "city", citySlug, "places", placeSlug);
-              await setDoc(docRef, {
-                imageUrls: arrayUnion(firebaseUrl),
-                updatedAt: new Date(),
-                name: placeKey // Orijinal ismi de içinde saklıyoruz
-              }, { merge: true });
+                const cloudRes = await fetch(
+                  `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`,
+                  { method: "POST", body: formData }
+                );
+                
+                const cloudData = await cloudRes.json();
+                if (cloudData.error) throw new Error(cloudData.error.message);
 
-              setStatus(prev => [...prev, `✅ Başarılı: ${placeSlug}`]);
-            } catch (err) {
-              console.error(err);
-              setStatus(prev => [...prev, `❌ HATA: ${placeSlug} (${link})`]);
+                const finalPath = cloudData.public_id;
+                tempPaths.push(finalPath); // Listeye ekle
+
+                const docRef = doc(db, "city", citySlug, "places", placeSlug);
+                await setDoc(docRef, {
+                  imageUrls: arrayUnion(finalPath), 
+                  region: regionSlug,
+                  updatedAt: new Date(),
+                  name: placeKey
+                }, { merge: true });
+
+                setStatus(prev => [...prev, `✅ Bitti: ${finalPath}`]);
+                setUploadedPaths([...tempPaths]); // State'i güncelle
+
+              } catch (err: any) {
+                setStatus(prev => [...prev, `❌ HATA: ${placeSlug} -> ${err.message}`]);
+              }
             }
           }
         }
       }
-      setStatus(prev => [...prev, "✨ TÜM İŞLEMLER TAMAMLANDI!"]);
+      setStatus(prev => [...prev, "✨ TÜMÜ TAMAMLANDI!"]);
     } catch (e) {
-      alert("JSON formatı hatalı kanka!");
+      alert("JSON hatası!");
     } finally {
       setLoading(false);
     }
@@ -111,50 +116,70 @@ export default function BulkUploader() {
 
   return (
     <div className="p-10 bg-slate-900 min-h-screen text-white font-sans">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <header className="flex justify-between items-center mb-8 border-b border-slate-700 pb-6">
-          <h1 className="text-3xl font-black text-emerald-400 tracking-tighter">
-            POWEROAD UPLOADER <span className="text-xs font-normal text-slate-500 italic">v2.2</span>
-          </h1>
-          <div className="bg-emerald-500/10 px-4 py-1 rounded-full border border-emerald-500/20 text-emerald-500 text-sm font-bold">
-            🇹🇷 %100 Türkçe Harf Desteği
-          </div>
+          <h1 className="text-3xl font-black text-blue-400 italic">POWEROAD UPLOADER v3.5</h1>
+          {uploadedPaths.length > 0 && (
+            <div className="bg-emerald-500 text-white px-4 py-1 rounded-full text-xs font-bold animate-pulse">
+              {uploadedPaths.length} DOSYA HAZIR
+            </div>
+          )}
         </header>
         
-        <div className="grid grid-cols-1 gap-6">
-          <div className="bg-slate-800 p-6 rounded-3xl border border-slate-700 shadow-xl">
-            <label className="block text-sm font-bold text-slate-400 mb-3 ml-2 uppercase tracking-widest">
-              JSON Verisini Buraya Bırak
-            </label>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* SOL TARAF: INPUT VE STATUS */}
+          <div className="space-y-6">
             <textarea 
               value={jsonData}
               onChange={(e) => setJsonData(e.target.value)}
-              placeholder='{"ankara": {"nallıhan-gökkuşağı-tepeleri": ["link"]}}'
-              className="w-full h-80 p-5 bg-slate-900 rounded-2xl border border-slate-700 outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 font-mono text-sm text-emerald-100 transition-all"
+              placeholder='JSON Yapısı: {"turkey": {"antalya": {"kas": ["url"]}}}'
+              className="w-full h-80 p-5 bg-slate-800 rounded-2xl border border-slate-700 font-mono text-sm text-blue-100 outline-none focus:border-blue-500"
             />
-          </div>
 
-          <button 
-            onClick={startBulkUpload}
-            disabled={loading}
-            className={`w-full p-6 rounded-2xl font-black text-xl transition-all active:scale-95 ${
-              loading ? 'bg-slate-700 cursor-not-allowed text-slate-500' : 'bg-emerald-600 hover:bg-emerald-500 shadow-xl shadow-emerald-900/20'
-            }`}
-          >
-            {loading ? "İŞLEM YAPILIYOR..." : "YÜKLEMEYİ BAŞLAT (TR KARAKTER KORUMALI) 🚀"}
-          </button>
+            <button 
+              onClick={startBulkUpload}
+              disabled={loading}
+              className={`w-full p-6 rounded-2xl font-black text-xl transition-all shadow-xl ${
+                loading ? 'bg-slate-700' : 'bg-blue-600 hover:bg-blue-500'
+              }`}
+            >
+              {loading ? "BULUTA UÇUYOR..." : "YÜKLEMEYİ BAŞLAT 🚀"}
+            </button>
 
-          <div className="bg-black/50 backdrop-blur-md p-6 rounded-3xl border border-slate-800 h-80 overflow-y-auto custom-scrollbar shadow-inner">
-            <div className="space-y-2">
+            <div className="bg-black/40 p-4 rounded-2xl h-48 overflow-y-auto border border-slate-800 text-[10px] font-mono">
               {status.map((s, i) => (
-                <div key={i} className={`text-xs font-mono p-2 rounded-lg border-l-2 ${
-                  s.includes('✅') ? 'bg-emerald-500/5 border-emerald-500 text-emerald-200' : 
-                  s.includes('❌') ? 'bg-red-500/5 border-red-500 text-red-200' : 'bg-slate-800/50 border-slate-600 text-slate-400'
-                }`}>
-                  {s}
-                </div>
+                <div key={i} className="mb-1">{s}</div>
               ))}
             </div>
+          </div>
+
+          {/* SAĞ TARAF: ÇIKTI LİSTESİ (KOPYALAMAK İÇİN) */}
+          <div className="bg-slate-800 p-6 rounded-3xl border border-slate-700 flex flex-col h-[600px]">
+            <h2 className="text-emerald-400 font-bold mb-4 flex justify-between items-center">
+              <span>ALINACAK PATH LİSTESİ</span>
+              <span className="text-[10px] text-slate-500 font-normal italic underline cursor-pointer" onClick={() => {
+                navigator.clipboard.writeText(uploadedPaths.join('\n'));
+                alert("Tüm yollar kopyalandı!");
+              }}>Hepsini Kopyala</span>
+            </h2>
+            
+            <div className="bg-slate-900 rounded-xl p-4 flex-grow overflow-y-auto font-mono text-[11px] border border-slate-950 shadow-inner text-emerald-100/70 select-all">
+              {uploadedPaths.length > 0 ? (
+                uploadedPaths.map((path, index) => (
+                  <div key={index} className="mb-2 pb-2 border-b border-white/5 hover:text-white transition-colors">
+                    "{path}"
+                  </div>
+                ))
+              ) : (
+                <div className="text-slate-600 italic flex items-center justify-center h-full">
+                  Yükleme tamamlandığında yollar burada listelenecek kanka...
+                </div>
+              )}
+            </div>
+            
+            <p className="mt-4 text-[10px] text-slate-500 leading-relaxed">
+              * Bu yolları direkt <strong>explore-meta.json</strong> dosyasındaki <strong>coverPath</strong> alanına yapıştırabilirsin.
+            </p>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* =========================
-   THEME
+   THEME (TAILWIND 4)
    ========================= */
 
 :root {
@@ -14,6 +14,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Animasyonları temaya kaydet */
+  --animate-partner: partner-slider 15s linear infinite;
+}
+
+/* Keyframe tanımlarını dışarıda bırakıyoruz */
+@keyframes partner-slider {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,47 +39,21 @@ body {
 }
 
 /* =========================
-   BLOG SLIDER (STABLE CLICK FIX)
+   PARTNER SLIDER UTILITIES
    ========================= */
 
-/* Sonsuz kayan slider */
-@keyframes slider {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+/* Hover yapınca durdurma kuralı */
+.pause-slider:hover {
+  animation-play-state: paused !important;
+}
+
+/* Blog slider keyframe çakışmaması için ayrı isim verelim */
+@keyframes blog-slider {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 .animate-slider {
-  animation: slider 30s linear infinite;
+  animation: blog-slider 30s linear infinite;
   will-change: transform;
-}
-
-/* Hover olunca animasyonu DURDUR → click bug fix */
-.pause-slider {
-  animation-play-state: paused;
-}
-
-/* =========================
-   ADSENSE (SAFE CONFIG)
-   ========================= */
-
-/* Reklamlar içerikten aşağıda kalsın */
-.adsbygoogle {
-  position: relative;
-  z-index: 1;
-}
-
-/* İçerik her zaman üstte */
-main {
-  position: relative;
-  z-index: 10;
-}
-
-/* Adsense iframe default davranış */
-.adsbygoogle iframe {
-  max-width: 100%;
-  height: auto;
 }
