@@ -24,7 +24,7 @@ function slugify(text: string) {
 const translations = {
   tr: {
     title: "TÜRKİYE GENELİ",
-    subtitle: "Waylero ile {city} konserleri keşfet",
+    subtitle: "Waylero ile {city} konserlerini keşfet",
     buyTicket: "BİLETİ AL →",
     otherCities: "+ DİĞER ŞEHİRLER",
     liveExp: "CANLI DENEYİMLER",
@@ -38,7 +38,8 @@ const translations = {
     nextWeek: "GELECEK HAFTA",
     nextMonth: "GELECEK AY",
     resetDate: "TARİHİ SIFIRLA",
-    footerText: "Etkinlik verileri {link} tarafından sağlanmaktadır."
+    footerText: "Etkinlik verileri {link} tarafından sağlanmaktadır.",
+    allCities: "Tüm Şehirler"
   },
   en: {
     title: "ALL OVER TURKEY",
@@ -46,8 +47,8 @@ const translations = {
     buyTicket: "BUY TICKET →",
     otherCities: "+ OTHER CITIES",
     liveExp: "LIVE EXPERIENCES",
-    soon: "Date Soon",
-    noEvents: "No events found in this date range...",
+    soon: "Date TBA", // To Be Announced
+    noEvents: "No events found for these dates...",
     noVenue: "Venue Not Specified",
     event: "Event",
     loadMore: "LOAD MORE EVENTS",
@@ -56,7 +57,8 @@ const translations = {
     nextWeek: "NEXT WEEK",
     nextMonth: "NEXT MONTH",
     resetDate: "RESET DATE",
-    footerText: "Event data is provided by {link}."
+    footerText: "Event data is provided by {link}.",
+    allCities: "All Cities"
   },
 };
 
