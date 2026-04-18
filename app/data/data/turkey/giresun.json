@@ -199,72 +199,15 @@
       "https://example.com/giresun_muzesi3.jpg"
     ]
   },
-  {
-    "slug": "giresun-muzesi",
-    "name": {
-      "tr": "Giresun Müzesi",
-      "en": "Giresun Museum",
-      "de": "Giresun Museum"
-    },
-    "latitude": 40.9175,
-    "longitude": 38.3876,
-    "description": {
-      "en": "Giresun Museum, located in the city center of Giresun on Turkey’s Black Sea coast, is one of the region’s most important cultural and historical institutions. Established to preserve and showcase the rich heritage of Giresun and the surrounding area, the museum houses artifacts from the Hellenistic, Roman, Byzantine, Seljuk, and Ottoman periods. Visitors can explore archaeological findings, ethnographic collections, traditional clothing, tools, coins, and religious items, providing a comprehensive view of the city’s long and diverse history. The museum also features interactive exhibits, educational programs, and temporary exhibitions, making it an engaging destination for families, students, and tourists. Surrounded by the city’s historic streets, Giresun Museum not only offers insight into the past but also serves as a center for cultural activities and local heritage preservation. It is considered a must-visit destination for anyone interested in history, archaeology, and the cultural richness of Turkey’s Black Sea region.",
-      "tr": "Giresun Müzesi, Türkiye’nin Karadeniz kıyısındaki Giresun şehir merkezinde yer alan ve bölgenin en önemli kültürel ve tarihi kurumlarından biridir. Giresun ve çevresinin zengin mirasını korumak ve sergilemek amacıyla kurulan müze, Helenistik, Roma, Bizans, Selçuklu ve Osmanlı dönemlerine ait eserleri bünyesinde barındırmaktadır. Ziyaretçiler arkeolojik buluntuları, etnografik koleksiyonları, geleneksel giysileri, araç-gereçleri, paraları ve dini objeleri inceleyerek şehrin uzun ve çeşitli tarihine dair kapsamlı bir bakış elde edebilir. Müze ayrıca interaktif sergiler, eğitim programları ve geçici sergiler sunarak aileler, öğrenciler ve turistler için etkileşimli bir deneyim sağlar. Şehrin tarihi sokaklarıyla çevrili olan Giresun Müzesi, geçmişi anlamanın ötesinde kültürel faaliyetler ve yerel mirasın korunması için de önemli bir merkezdir. Tarih, arkeoloji ve Karadeniz Bölgesi’nin kültürel zenginliğiyle ilgilenen herkes için mutlaka ziyaret edilmesi gereken bir mekandır.",
-      "de": "Das Giresun-Museum befindet sich im Stadtzentrum von Giresun an der türkischen Schwarzmeerküste und ist eine der bedeutendsten kulturellen und historischen Einrichtungen der Region. Das Museum wurde gegründet, um das reiche Erbe von Giresun und Umgebung zu bewahren und auszustellen und beherbergt Artefakte aus der hellenistischen, römischen, byzantinischen, seldschukischen und osmanischen Zeit. Besucher können archäologische Funde, ethnographische Sammlungen, traditionelle Kleidung, Werkzeuge, Münzen und religiöse Objekte erkunden und so einen umfassenden Einblick in die lange und vielfältige Geschichte der Stadt erhalten. Darüber hinaus bietet das Museum interaktive Ausstellungen, Bildungsprogramme und temporäre Sonderausstellungen, wodurch es für Familien, Schüler und Touristen gleichermaßen ein spannendes Ziel ist. Umgeben von den historischen Straßen der Stadt bietet das Giresun-Museum nicht nur Einblicke in die Vergangenheit, sondern dient auch als Zentrum für kulturelle Aktivitäten und den Schutz des lokalen Erbes. Es gilt als ein Muss für alle, die sich für Geschichte, Archäologie und den kulturellen Reichtum der Schwarzmeerregion der Türkei interessieren."
-    },
-    "activities": {
-      "tr": [
-        "Arkeolojik eserleri incelemek",
-        "Etnografik koleksiyonları görmek",
-        "Geçici sergileri ziyaret etmek",
-        "Eğitim programlarına katılmak"
-      ],
-      "en": [
-        "Explore archaeological artifacts",
-        "View ethnographic collections",
-        "Visit temporary exhibitions",
-        "Attend educational programs"
-      ],
-      "de": [
-        "Archäologische Artefakte erkunden",
-        "Ethnographische Sammlungen ansehen",
-        "Temporäre Ausstellungen besuchen",
-        "An Bildungsprogrammen teilnehmen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "müze",
-        "tarih",
-        "kültür"
-      ],
-      "en": [
-        "museum",
-        "history",
-        "culture"
-      ],
-      "de": [
-        "museum",
-        "geschichte",
-        "kultur"
-      ]
-    },
-    "images": [
-      "https://example.com/giresun_muzesi.jpg",
-      "https://example.com/giresun_muzesi2.jpg",
-      "https://example.com/giresun_muzesi3.jpg"
-    ]
-  },
-  {
+   {
     "slug": "kumbet-yaylasi",
     "name": {
       "tr": "Kümbet Yaylası",
       "en": "Kümbet Plateau",
       "de": "Kümbet Hochebene"
     },
-    "latitude": 40.4956,
-    "longitude": 38.8251,
+    "latitude": 40.56002524193339, 
+    "longitude": 38.43862442658896,
     "description": {
       "en": "Kümbet Plateau, located in Giresun’s Dereli district, is one of the most popular highland destinations in the Black Sea region of Turkey. Famous for its lush green meadows, dense forests, and traditional wooden yayla houses, Kümbet offers visitors a perfect opportunity to experience rural life, local culture, and natural beauty. The plateau is also known for its unique folk festivals, horseback riding, trekking trails, and panoramic views of surrounding mountains and valleys. Especially during summer months, locals migrate to the plateau to escape the heat, making it a lively and culturally rich destination for tourists. Hiking, photography, and nature walks are among the top activities on Kümbet Plateau, making it an ideal spot for eco-tourism and outdoor adventures.",
       "tr": "Kümbet Yaylası, Giresun’un Dereli ilçesinde yer alan ve Karadeniz Bölgesi’nin en popüler yayla destinasyonlarından biridir. Yeşil çayırlar, sık ormanlar ve geleneksel ahşap yayla evleriyle ünlü olan Kümbet, ziyaretçilere köy yaşamını, yerel kültürü ve doğa güzelliklerini deneyimleme fırsatı sunar. Yayla, ayrıca yöresel halk festivalleri, at binme, doğa yürüyüşü parkurları ve çevredeki dağ ve vadilere panoramik manzaralar sunmasıyla bilinir. Özellikle yaz aylarında yerel halk, sıcaklardan kaçmak için yaylaya göç eder, bu da Kümbet’i hem canlı hem de kültürel açıdan zengin bir destinasyon haline getirir. Trekking, fotoğrafçılık ve doğa yürüyüşleri yaylada öne çıkan aktiviteler arasında yer alır.",
@@ -319,8 +262,8 @@
       "en": "Kulakkaya Plateau",
       "de": "Kulakkaya Hochebene"
     },
-    "latitude": 40.4687,
-    "longitude": 38.8675,
+    "latitude": 40.69950446394124, 
+    "longitude": 38.340150799452616,
     "description": {
       "en": "Kulakkaya Plateau, located in Giresun Province, is a peaceful and scenic highland known for its dense forests, meadows, and panoramic mountain views. The plateau offers a traditional Black Sea yayla experience, where visitors can see wooden highland houses, enjoy local cuisine, and witness seasonal festivals. Nature walks, photography, and hiking are the most popular activities, allowing travelers to fully immerse themselves in the beauty of the surrounding landscape. Kulakkaya is a favorite destination for those seeking tranquility, eco-tourism, and an authentic Black Sea highland experience.",
       "tr": "Kulakkaya Yaylası, Giresun ilinde yer alan sakin ve manzaralı bir yayladır. Yoğun ormanları, çayırları ve panoramik dağ manzaralarıyla bilinir. Yayla, ziyaretçilere geleneksel Karadeniz yayla deneyimi sunar; ahşap yayla evlerini görebilir, yöresel lezzetlerin tadını çıkarabilir ve mevsimsel festivallere katılabilirsiniz. Doğa yürüyüşü, fotoğrafçılık ve trekking en popüler aktiviteler arasındadır ve ziyaretçilere çevrenin doğal güzelliklerini keşfetme imkanı sağlar. Kulakkaya, huzur, ekoturizm ve otantik Karadeniz yayla deneyimi arayanlar için favori bir destinasyondur.",

@@ -93,53 +93,7 @@
       "https://example.com/zeynel_bey_turbesi_2.jpg"
     ]
   },
-  {
-    "slug": "sason-vadisi",
-    "name": {
-      "tr": "Sason Vadisi",
-      "en": "Sason Valley",
-      "de": "Sason Tal"
-    },
-    "latitude": 38.4862,
-    "longitude": 41.4123,
-    "description": {
-      "tr": "Sason Vadisi, Batman iline bağlı Sason ilçesinde yer alan, doğal güzellikleri ve el değmemiş doğasıyla ünlü bir vadidir. Bölge, sarp dağları, zengin bitki örtüsü ve tertemiz havasıyla doğa tutkunları ve macera severler için harika bir destinasyondur.\n\nVadi, özellikle bahar ve yaz aylarında yeşilin farklı tonlarıyla süslenirken, kış aylarında ise karla kaplanan manzaralarıyla büyüleyici bir atmosfer sunar. Sason Vadisi, doğa yürüyüşleri, kampçılık ve fotoğrafçılık için ideal bir yerdir. Aynı zamanda bölgede birçok endemik bitki türü ve yaban hayatı bulunmaktadır.\n\n**Nasıl Gidilir?**\n\nSason Vadisi, Batman şehir merkezine yaklaşık 80 km mesafededir. Özel araçla ya da Batman’dan kalkan minibüslerle ulaşım sağlanabilir.\n",
-      "en": "Sason Valley is a stunning natural area located in the Sason district of Batman province. Known for its untouched landscapes, steep mountains, and lush vegetation, it is a perfect destination for nature lovers and adventure seekers.\n\nDuring spring and summer, the valley is covered in vibrant shades of green, while in winter, it transforms into a breathtaking snow-covered wonderland. Sason Valley is ideal for hiking, camping, and photography. The region is also home to many endemic plant species and diverse wildlife.\n\n**How to Get There?**\n\nSason Valley is approximately 80 km from Batman city center. It can be reached by private vehicle or by minibuses departing from Batman.\n",
-      "de": "Das Sason Tal ist ein atemberaubendes Naturgebiet im Bezirk Sason der Provinz Batman. Bekannt für seine unberührte Landschaft, steilen Berge und üppige Vegetation, ist es ein perfektes Ziel für Naturliebhaber und Abenteurer.\n\nIm Frühling und Sommer zeigt sich das Tal in leuchtenden Grüntönen, während es im Winter eine beeindruckende, schneebedeckte Landschaft bietet. Das Sason Tal ist ideal zum Wandern, Campen und Fotografieren. Die Region beherbergt auch viele endemische Pflanzenarten und eine vielfältige Tierwelt.\n\n**Anfahrt**\n\nDas Sason Tal liegt etwa 80 km vom Stadtzentrum Batmans entfernt. Es ist mit einem privaten Fahrzeug oder mit Minibussen, die von Batman abfahren, erreichbar.\n"
-    },
-    "activities": {
-      "tr": [
-        "Doğa yürüyüşü yapmak",
-        "Kamp kurmak",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Hiking",
-        "Camping",
-        "Taking photographs"
-      ],
-      "de": [
-        "Wandern",
-        "Campen",
-        "Fotografieren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/sason_vadisi.jpg",
-      "https://example.com/sason_vadisi_2.jpg"
-    ]
-  },
+ 
   {
     "slug": "batman-muzesi",
     "name": {
