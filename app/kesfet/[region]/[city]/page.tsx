@@ -84,11 +84,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // PAGE
 export default async function CityPage({ params }: Props) {
   const { region, city } = await params;
+  console.log("🔍 URL Parametreleri:", { region, city });
   const lang = await getLanguage();
 
   const targetDataKey = countryToRegionMap[region.toLowerCase()];
+  console.log("🔍 Target Key:", targetDataKey);
   if (!targetDataKey) notFound();
-
+console.log("❌ Bölge bulunamadı!");
   const cityData = await loadCityData(targetDataKey, city);
   if (!cityData) notFound();
 
