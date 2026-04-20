@@ -95,16 +95,28 @@ Senin gezi stilin hangisi?
 ## ⛪ Mutlaka Görülmesi Gereken Kiliseler
 
 ### 1. Ağaçaltı Kilisesi
-Vadiye girişte en etkileyici başlangıç noktasıdır. Freskleri en iyi korunmuş kiliselerden biridir.
+
+Vadiye girişte ziyaretçileri karşılayan en etkileyici başlangıç noktalarından biridir. Ağaçaltı Kilisesi, adını giriş kısmında yer alan büyük ağaçtan alır. 9. yüzyıla tarihlenen bu yapı, Kapadokya’daki diğer kiliselere göre daha sade bir mimariye sahip olsa da iç mekândaki freskler oldukça dikkat çekicidir. Özellikle İncil’den sahneleri betimleyen freskler, renklerini büyük ölçüde korumuş olmasıyla öne çıkar. Tavan kısmındaki geometrik süslemeler ve duvarlardaki figürler, dönemin sanat anlayışını net bir şekilde yansıtır. Vadiyi keşfetmeye başlayanlar için hem tarih hem de atmosfer açısından güçlü bir ilk izlenim sunar.
+
+
 
 ### 2. Yılanlı Kilise
-Daha mistik atmosferi ve sembolik freskleriyle öne çıkar.
+
+Yılanlı Kilise, adını içindeki dikkat çekici freskten alır. Bu freskte, günahkâr insanların yılanlar tarafından cezalandırıldığı sahne tasvir edilir ve bu da kiliseye mistik, hatta biraz ürkütücü bir hava katar. 9. yüzyıl civarında yapıldığı düşünülen kilise, diğerlerine göre daha küçük olsa da içerdiği sembolik anlatımlar açısından oldukça zengindir. Duvarlarda Hz. İsa ve azizlerin betimlendiği sahneler yer alır. Özellikle dini mesajların güçlü bir şekilde işlendiği bu freskler, ziyaretçilerin dikkatini çeker ve uzun süre akılda kalır. Atmosferi, vadideki en farklı deneyimlerden birini sunar.
 
 ### 3. Sümbüllü Kilise
-Mimari detaylarıyla vadinin en fotojenik noktalarından biridir.
+
+Sümbüllü Kilise, hem mimarisi hem de konumuyla vadinin en fotojenik yapılarından biridir. Geniş iç hacmi ve yüksek tavanı sayesinde diğer birçok kaya kilisesine göre daha ferah bir his verir. Adını çevresinde yetişen sümbül çiçeklerinden aldığı düşünülür. İç mekândaki freskler oldukça detaylıdır ve özellikle İncil sahneleri ile aziz figürleri dikkat çeker. Işık alışı sayesinde günün farklı saatlerinde farklı bir atmosfer sunar; bu da fotoğraf çekmek isteyenler için eşsiz bir avantaj sağlar. Vadide estetik açıdan en tatmin edici duraklardan biridir.
 
 ### 4. Kırkdamaltı Kilisesi
-Belisırma yakınlarında, Bizans ve Selçuklu etkilerini birlikte görebileceğin özel bir yapıdır.
+
+Kırkdamaltı Kilisesi, vadinin biraz daha ilerleyen kısmında, Belisırma Köyü yakınlarında yer alır ve diğer kiliselere göre daha özel bir konuma sahiptir. 13. yüzyıla tarihlenen bu yapı, Bizans Dönemi ile Selçuklu Dönemi etkilerinin bir arada görülebildiği nadir örneklerden biridir.
+
+Kilise, mimari olarak daha gelişmiş bir plana sahiptir ve özellikle iç mekândaki fresklerde dönemin ileri teknikleri kullanılmıştır. Duvarlarda yer alan bağışçı portreleri, yani kiliseye destek veren kişilerin tasvirleri, yapıyı diğerlerinden ayıran önemli detaylardan biridir. Bu portreler sayesinde dönemin sosyal yapısı hakkında da fikir edinmek mümkündür.
+
+En dikkat çekici özelliklerinden biri ise fresklerdeki detay seviyesidir. Figürlerin yüz ifadeleri, kıyafet detayları ve sahnelerin kompozisyonu oldukça gelişmiştir. Ayrıca kilisenin konumu nedeniyle Melendiz Çayı manzarasıyla birleşen doğal güzellik, burayı sadece tarihi değil aynı zamanda görsel açıdan da çok etkileyici bir durak haline getirir.
+
+Vadinin en sakin ve en derin atmosferlerinden birini sunan bu kilise, geziyi daha anlamlı ve bütünlüklü hale getiren son duraklardan biri olarak öne çıkar.
 
 ---
 
@@ -147,11 +159,20 @@ Gitmeden önce kontrol etmen ciddi avantaj sağlar.
 
 ## 🚍 En büyük problem: araç dönüşü
 
-Ihlara’da en sık yaşanan sorunlardan biri araçların başlangıçta kalmasıdır.
+Ihlara Vadisi boyunca yürüyüş yapanların en sık karşılaştığı sorun, park ettikleri araca geri dönememektir. Çünkü vadi lineer bir yapıya sahiptir; yani bir noktadan girip farklı bir noktadan çıkarsın. Bu da yürüyüş sonunda başlangıç noktasına dönmeyi zorlaştırır.
 
 👉 Çözüm:
-- Taksi ile geri dönüş
-- Ya da planlı çift araç sistemi
+
+- Taksi ile geri dönüş:
+En pratik yöntemdir. Özellikle Belisırma civarında taksi bulmak genelde mümkündür. Yürüyüşü bitirdikten sonra bulunduğun noktadan giriş kapısına kolayca dönebilirsin. Sezon yoğunluğuna göre fiyatlar değişebilir, bu yüzden pazarlık yapmak veya önceden sormak mantıklı olur.
+
+-Planlı çift araç sistemi:
+Eğer grup halinde gidiyorsan en mantıklı ve ekonomik yöntem budur. Bir aracı çıkış noktasına (örneğin Belisırma ya da Selime tarafı), diğerini giriş noktasına bırakırsın. Yürüyüş sonunda direkt araca binip dönersin. Bu yöntem hem zaman kazandırır hem de stres yaşamazsın.
+
+-Mini alternatif:
+Bazı ziyaretçiler kısa parkurları tercih eder. Örneğin sadece belirli bir kilise grubunu gezip aynı yerden geri dönmek de bir seçenek. Ama bu durumda vadinin tamamını deneyimleyemezsin.
+
+Kısacası, Ihlara’ya gitmeden önce “nasıl döneceğim?” sorusunu planlamak, gezinin keyfini ciddi şekilde artırır.
 
 ---
 
@@ -166,14 +187,20 @@ Ihlara’da en sık yaşanan sorunlardan biri araçların başlangıçta kalmas�
 
 ## 🏕️ Ihlara’da Kalmak İsteyenlere
 
-Ihlara Vadisi’nin içinde **konaklama ve kamp yapmak yasaktır**.  
-Bölge sit alanıdır ve korunmaktadır.
+Ihlara Vadisi içinde konaklama ve kamp yapmak yasaktır.
+Bölge 1. derece sit alanı olduğu için doğayı ve tarihi dokuyu korumak amacıyla bu kurallar oldukça sıkı uygulanır. Ateş yakmak, çadır kurmak veya gece kalmak cezaya tabi olabilir.
 
 ### 🏡 Nerede kalınır?
+- Belisırma → vadiye en yakın seçenek
+Vadinin tam ortasında yer aldığı için yürüyüş sonrası en pratik konaklama noktasıdır. Nehir kenarında restoranlar ve küçük pansiyonlar bulunur. Sabah erkenden vadiye girmek isteyenler için ideal.
 
-- Belisırma → vadiye en yakın
-- Selime → daha sakin
-- Güzelyurt → butik oteller
+- Selime → daha sakin ve otantik
+Kalabalıktan uzak, daha huzurlu bir atmosfer sunar. Selime Katedrali gibi önemli bir noktaya da çok yakındır. Doğayla iç içe, sessiz bir konaklama isteyenler için güzel bir alternatif.
+
+- Güzelyurt → butik otel deneyimi
+Tarihi taş evlerden dönüştürülmüş butik otelleriyle öne çıkar. Biraz daha konforlu ve estetik bir konaklama arıyorsan en iyi seçeneklerden biridir. Aynı zamanda bölgenin kültürel dokusunu da daha iyi hissedersin.
+
+👉 Kısacası: Vadinin içinde kalamazsın ama çevresinde hem doğaya yakın hem de keyifli konaklama seçenekleri bol. Planını buna göre yaparsan çok daha rahat bir deneyim yaşarsın.
 
 ---
 
@@ -281,16 +308,26 @@ What’s your travel style?
 ## ⛪ Must-See Churches
 
 ### 1. Ağaçaltı Church
-It’s the most impressive starting point at the entrance to the valley. It’s one of the churches with the best-preserved frescoes.
+
+One of the most impressive starting points for visitors entering the valley. The Ağaçaltı Church takes its name from the large tree at its entrance. Dating back to the 9th century, this structure has a simpler architecture compared to other churches in Cappadocia, but the frescoes inside are quite remarkable. The frescoes, especially those depicting scenes from the Bible, stand out for having largely preserved their colors. The geometric decorations on the ceiling and the figures on the walls clearly reflect the artistic sensibilities of the period. It offers a strong first impression, both historically and atmospherically, for those beginning to explore the valley.
 
 ### 2. Yılanlı Church
-It stands out for its more mystical atmosphere and symbolic frescoes.
+
+The Yılanlı Church takes its name from a striking fresco inside. This fresco depicts a scene where sinful people are punished by snakes, adding a mystical, even somewhat eerie, atmosphere to the church. Thought to have been built around the 9th century, the church, although smaller than the others, is quite rich in symbolic expression. On the walls are depictions of the Virgin Mary... The frescoes feature scenes depicting Jesus and the saints. These frescoes, which powerfully convey religious messages, capture the attention of visitors and leave a lasting impression. The atmosphere offers one of the most unique experiences in the valley.
 
 ### 3. Sümbüllü Church
-With its architectural details, it’s one of the most photogenic spots in the valley.
+
+The Sümbüllü Church is one of the most photogenic structures in the valley, both for its architecture and location. Its spacious interior and high ceiling give it a more airy feel compared to many other rock churches. It is thought to have taken its name from the hyacinth flowers that grow around it. The frescoes inside are quite detailed, and the biblical scenes and saint figures are particularly noteworthy. Thanks to the way it receives light, it offers a different atmosphere at different times of the day; this provides a unique advantage for those who want to take photographs. It is one of the most aesthetically pleasing stops in the valley.
 
 ### 4. Kırkdamaltı Church
-Located near Belisırma, it’s a unique structure where you can see both Byzantine and Seljuk influences.
+
+The Kırkdamaltı Church is located a little further into the valley, near Belisırma Village, and holds a more special position compared to the other churches. Dating back to the 13th century, this structure is one of the rare examples where Byzantine and Seljuk influences can be seen together.
+
+The church has a more advanced architectural plan, and the frescoes inside, in particular, utilize advanced techniques of the period. The portraits of donors on the walls, depicting those who supported the church, are one of the important details that distinguish the structure from others. These portraits also provide insight into the social structure of the period.
+
+One of its most striking features is the level of detail in the frescoes. The facial expressions of the figures, the details of the clothing, and the composition of the scenes are highly developed. Furthermore, the natural beauty combined with the view of the Melendiz River due to the church's location makes it a very impressive stop, not only historically but also visually.
+
+Offering one of the calmest and deepest atmospheres in the valley, this church stands out as one of the final stops that makes the trip more meaningful and complete.
 
 ---
 
@@ -332,14 +369,21 @@ Checking this before you go offers significant advantages.
 
 ---
 
-## 🚍 The biggest problem: getting back to the car
+## 🚍 The Biggest Problem: Returning to Your Vehicle
 
-One of the most common issues in Ihlara is that cars are left at the starting point.
+The most common problem encountered by hikers in the Ihlara Valley is the inability to return to their parked vehicles. This is because the valley has a linear structure; you enter at one point and exit at a different one. This makes returning to the starting point at the end of the hike difficult.
 
 👉 Solution:
-- Return by taxi
-- Or a planned two-car system
 
+-Returning by Taxi:
+This is the most practical method. Taxis are generally available, especially around Belisırma. After finishing your hike, you can easily return to the entrance gate from your location. Prices may vary depending on the season, so it's wise to negotiate or ask beforehand. Planned Two-Vehicle System:
+
+-If you are going in a group, this is the most logical and economical method. You leave one vehicle at the exit point (e.g., Belisırma or Selime side) and the other at the entrance point. At the end of the hike, you get directly into the vehicle and return. This method saves time and reduces stress.
+
+- Mini Alternative (Less Known):
+Some visitors prefer shorter routes. For example, visiting only a specific group of churches and returning from the same place is also an option. But in that case, you won't be able to experience the entire valley.
+
+In short, planning how you'll get back before going to Ihlara significantly enhances the enjoyment of your trip.
 ---
 
 ## 💡 Waylero Tips
