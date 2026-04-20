@@ -34,6 +34,7 @@ import { turkeyPostKaradeniz } from "../data/blog/turkey/postkaradeniz";
 import { turkeyPostDoguAnadolu } from "../data/blog/turkey/psostsdoguanadolu";
 import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
 import { catalhoyukPosts } from "@/app/data/blog/konya/posts4";
+import { ihlaraRehberPost } from "@/app/data/blog/aksaray/posts";
 
 
 const posts = [
@@ -43,7 +44,7 @@ const posts = [
   ...turkiyeEnCokZiyaretEdilen10YerPost, ...antalyaRehberPost, ...trekkingPosts,
   ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
   ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
-  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, 
+  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, ...ihlaraRehberPost,
   ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts
 ];
 

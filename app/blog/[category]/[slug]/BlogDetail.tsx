@@ -1,6 +1,7 @@
 "use client";
 
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
@@ -17,7 +18,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// Tip tanımı
+// Tip
 type Post = {
   title: any;
   image?: string;
@@ -29,7 +30,6 @@ export default function BlogDetail({ post }: { post: Post }) {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
   const { lang } = useLang();
 
-  // Dilli verileri çek
   const displayTitle =
     typeof post.title === "object"
       ? post.title[lang] || post.title["tr"]
@@ -100,83 +100,89 @@ export default function BlogDetail({ post }: { post: Post }) {
       {lightboxImage && (
         <div
           onClick={() => setLightboxImage(null)}
-          className="fixed inset-0 bg-black/95 flex justify-center items-center z-[999] p-4 animate-in fade-in duration-300"
+          className="fixed inset-0 bg-black/95 flex justify-center items-center z-[999] p-4"
         >
           <img
             src={lightboxImage}
             alt="Lightbox"
-            className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg shadow-2xl"
+            className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg"
           />
-          <button className="absolute top-6 right-6 text-white text-3xl font-light">
-            ×
-          </button>
         </div>
       )}
 
-      {/* Content */}
+      {/* CONTENT */}
       {displayContent && (
         <div className="max-w-3xl mx-auto">
           <ReactMarkdown
-  components={{
-    h1: ({ children }) => (
-      <h1 className="text-3xl font-bold mt-12 mb-6 text-gray-900">
-        {children}
-      </h1>
-    ),
-    h2: ({ children }) => (
-      <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3 text-gray-800">
-        {children}
-      </h2>
-    ),
-    h3: ({ children }) => (
-      <h3 className="text-xl font-bold mt-8 mb-4 text-gray-800">
-        {children}
-      </h3>
-    ),
-    p: ({ children }) => (
-      <p className="text-lg leading-9 mb-6 text-gray-700 text-justify">
-        {children}
-      </p>
-    ),
+            remarkPlugins={[remarkGfm]} // 🔥 TABLO AKTİF
+            components={{
+              h1: ({ children }) => (
+                <h1 className="text-3xl font-bold mt-12 mb-6">
+                  {children}
+                </h1>
+              ),
+              h2: ({ children }) => (
+                <h2 className="text-2xl font-bold mt-10 mb-5 border-b pb-3">
+                  {children}
+                </h2>
+              ),
+              h3: ({ children }) => (
+                <h3 className="text-xl font-bold mt-8 mb-4">
+                  {children}
+                </h3>
+              ),
+              p: ({ children }) => (
+                <p className="text-lg leading-9 mb-6 text-gray-700 text-justify">
+                  {children}
+                </p>
+              ),
 
-    // 🔥 BURAYA EKLİYORSUN
-    a: ({ href, children }) => (
-      <a
-        href={href}
-        className="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2"
-      >
-        {children}
-      </a>
-    ),
+              // 🔥 TABLE DESIGN
+              table: ({ children }) => (
+                <div className="overflow-x-auto my-10">
+                  <table className="min-w-full border border-gray-200 rounded-xl overflow-hidden">
+                    {children}
+                  </table>
+                </div>
+              ),
+              thead: ({ children }) => (
+                <thead className="bg-gray-100">{children}</thead>
+              ),
+              tr: ({ children }) => (
+                <tr className="border-b last:border-none">
+                  {children}
+                </tr>
+              ),
+              th: ({ children }) => (
+                <th className="text-left px-4 py-3 font-semibold text-gray-800">
+                  {children}
+                </th>
+              ),
+              td: ({ children }) => (
+                <td className="px-4 py-3 text-gray-700">
+                  {children}
+                </td>
+              ),
 
-    ul: ({ children }) => (
-      <ul className="list-disc pl-6 mb-8 space-y-3 text-lg text-gray-700">
-        {children}
-      </ul>
-    ),
-    ol: ({ children }) => (
-      <ol className="list-decimal pl-6 mb-8 space-y-3 text-lg text-gray-700">
-        {children}
-      </ol>
-    ),
-    li: ({ children }) => (
-      <li className="leading-relaxed pl-2">{children}</li>
-    ),
-    blockquote: ({ children }) => (
-      <blockquote className="border-l-4 border-blue-500 pl-6 py-2 my-8 italic text-gray-600 bg-blue-50 rounded-r-lg text-xl">
-        {children}
-      </blockquote>
-    ),
-    hr: () => <hr className="my-12 border-gray-200" />,
-    img: ({ src, alt }) => (
-      <img
-        src={src as string}
-        alt={alt as string}
-        className="rounded-3xl my-10 shadow-lg w-full"
-      />
-    ),
-  }}
->
+              a: ({ href, children }) => (
+                <a
+                  href={href}
+                  className="text-blue-600 underline"
+                >
+                  {children}
+                </a>
+              ),
+
+              ul: ({ children }) => (
+                <ul className="list-disc pl-6 mb-8 space-y-3 text-lg">
+                  {children}
+                </ul>
+              ),
+              li: ({ children }) => (
+                <li>{children}</li>
+              ),
+            }}
+          >
             {displayContent}
           </ReactMarkdown>
         </div>
