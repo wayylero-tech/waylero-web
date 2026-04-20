@@ -43,7 +43,8 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   "suudi-arabistan": { tr: "Suudi Arabistan", en: "Saudi Arabia" },
   "misir": { tr: "Mısır", en: "Egypt" },
   "belarus": { tr: "Belarus", en: "Belarus" },
-  "peru": { tr: "Peru", en: "Peru" },
+  " bae": { tr: "BAE", en: "UAE" },
+"peru": { tr: "Peru", en: "Peru" },
 };
 
 const countries = Object.keys(countryNames);

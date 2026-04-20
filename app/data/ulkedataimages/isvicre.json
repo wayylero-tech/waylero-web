@@ -1,0 +1,27 @@
+{
+  "geneva": {
+    "geneva-jet-d-eau": ["places/europa/geneva/jet-d-eau/jet-d-eau_1776411511065"],
+    "geneva-cenevre-golu": ["places/europa/geneva/cenevre-golu/cenevre-golu_1776411646451"],
+    "geneva-patek-philippe-muzesi": ["places/europa/geneva/cenevre-patek-philippe-muzesi/cenevre-patek-philippe-muzesi_1776412097315"]
+  },
+  "basel": {
+    "basel-basel-katedrali": ["places/europa/basel/basel-katedrali/basel-katedrali_1776412414623"]
+  },
+  "bern": {
+    "bern-zytglogge": ["places/europa/bern/zytglogge/zytglogge_1776412510636"]
+  },
+  "lozan": {
+    "lozan-lausanne-katedrali": ["places/europa/lozan/lausanne-katedrali/lausanne-katedrali_1776412639817"]
+  },
+  "lucerne": {
+    "lucerne-kapellbrucke-chapel-bridge": ["places/europa/lucerne/kapellbrucke-chapel-bridge/kapellbrucke-chapel-bridge_1776412787970"]
+  },
+  "stmoritz": {
+    "stmoritz-lake-st-moritz": ["places/europa/stmoritz/lake-st-moritz/lake-st-moritz_1776412863158"]
+  },
+"zurich": {
+    "zurich-bahnhofstrasse": [
+      "places/europa/zurich/zurich-bahnhofstrasse/ruuvhkz4z0lvjjz9u1gp"
+    ]
+  }
+}

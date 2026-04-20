@@ -1,46 +1,30 @@
-import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { cookies, headers } from "next/headers";
 import { cache } from "react";
 import PlaceSlider from "./PlaceSlider";
-
-import turkeyImages from "../../../../data/images/turkey.json";
-import europaImages from "../../../../data/images/europa.json";
-import asiaImages from "../../../../data/images/asia.json";
-
-import { countryToRegionMap } from "@/lib/countryToRegionMap";
+import fs from "fs";
+import path from "path";
 import { slugify } from "@/lib/utils/slugify";
 
-const IMAGES: any = {
-  turkey: turkeyImages,
-  europa: europaImages,
-  asia: asiaImages,
-};
-
-function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
-  const R = 6371; // Dünya yarıçapı (km)
-  const dLat = ((lat2 - lat1) * Math.PI) / 180;
-  const dLon = ((lon2 - lon1) * Math.PI) / 180;
-
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
-
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  
-  // Kuş uçuşunu yaklaşık %25 artırarak karayolu tahminine yaklaşıyoruz
-  const estimatedDistance = R * c * 1.25;
-
-  return estimatedDistance;
-}
+export const runtime = "nodejs";
 
 const BASE_URL = "https://www.waylero.com";
 
 type Params = { region: string; city: string; place: string };
 
+function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) ** 2;
+
+  return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)) * 1.25;
+}
 
 // 🌍 LANGUAGE
 async function getLanguage() {
@@ -54,31 +38,39 @@ async function getLanguage() {
   return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 }
 
+// 📦 CITY DATA
+const loadCityData = cache(async (region: string, city: string) => {
+  const filePath = path.join(
+    process.cwd(),
+    "app/data/ulkelerdata",
+    region,
+    `${city}.json`
+  );
 
-// 🔥 CACHE'LENMİŞ CITY DATA LOADER
-const loadCityData = cache(async (regionKey: string, citySlug: string) => {
-  try {
-    const module = await import(
-      `../../../../data/data/${regionKey}/${citySlug}.json`
-    );
-    return module.default;
-  } catch {
-    return null;
-  }
+  if (!fs.existsSync(filePath)) return null;
+
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 });
 
+// 🖼 IMAGES
+const loadImages = cache((region: string) => {
+  const filePath = path.join(
+    process.cwd(),
+    "app/data/ulkedataimages",
+    `${region}.json`
+  );
+
+  if (!fs.existsSync(filePath)) return {};
+
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+});
 
 // 🔥 METADATA
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<Params>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { region, city, place } = await params;
   const lang = await getLanguage();
-  const mainRegion = countryToRegionMap[region] || region;
 
-  const cityData = await loadCityData(mainRegion, city);
+  const cityData = await loadCityData(region, city);
   if (!cityData) return { title: "Waylero" };
 
   const found = cityData.find(
@@ -88,85 +80,51 @@ export async function generateMetadata({
   if (!found) return { title: "Waylero" };
 
   const name = found.name?.[lang] || found.name?.tr;
-  
-  // SEO Başlık ve Açıklama Şablonları
-  const seoSettings = {
+
+  const seo = {
     tr: {
-      title: `${name} | Gezi Rehberi, Neler Yapılır ve Konumu`,
-      descPrefix: `${name} hakkında bilgiler, yapılacak aktiviteler, konumu ve yakındaki gezilecek yerler. Waylero ile keşfet!`,
+      title: `${name} | Gezi Rehberi`,
+      desc: `${name} hakkında bilgiler ve gezilecek yerler.`,
     },
     en: {
-      title: `${name} | Travel Guide, Things to Do & Location`,
-      descPrefix: `Discover ${name}: attractions, things to do, map location, and nearby places. Explore with Waylero!`,
-    }
+      title: `${name} | Travel Guide`,
+      desc: `Discover ${name} and nearby places.`,
+    },
   }[lang];
 
-  // Description oluşturma (Verideki description + bizim SEO metnimiz)
-  const rawDesc = found.description?.[lang] || found.description?.tr || "";
-  const fullDesc = `${seoSettings.descPrefix} ${rawDesc}`.slice(0, 158);
+  const desc = (seo.desc + " " + (found.description?.[lang] || "")).slice(0, 158);
 
-  const imageGroup = IMAGES[mainRegion]?.[slugify(city)] || {};
+  const allImages = loadImages(region);
+  const imageGroup = allImages[city] || {};
+
   const imageKey = `${slugify(city)}-${slugify(found.slug)}`;
-  const image = imageGroup?.[imageKey]?.[0] || imageGroup?.[found.slug]?.[0];
+  const image = imageGroup?.[imageKey]?.[0];
 
-  const path = `/kesfet/${region}/${city}/${place}`;
-  const trUrl = `${BASE_URL}${path}`;
-  const enUrl = `${BASE_URL}/en${path}`;
+  const urlPath = `/kesfet/${region}/${city}/${place}`;
+  const trUrl = `${BASE_URL}${urlPath}`;
+  const enUrl = `${BASE_URL}/en${urlPath}`;
 
   return {
-    title: seoSettings.title,
-    description: fullDesc,
-    // 🔥 Önemli: Google'ın sayfayı indexlemesi için
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
+    title: seo.title,
+    description: desc,
+    robots: { index: true, follow: true },
     alternates: {
       canonical: lang === "en" ? enUrl : trUrl,
-      languages: {
-        "tr-TR": trUrl,
-        "en-US": enUrl,
-        "x-default": trUrl,
-      },
     },
     openGraph: {
-      title: seoSettings.title,
-      description: fullDesc,
-      url: lang === "en" ? enUrl : trUrl,
-      siteName: 'Waylero',
-      locale: lang === "en" ? "en_US" : "tr_TR",
-      type: 'article', // Mekan sayfaları için 'article' veya 'website' uygundur
-      images: image ? [{ url: image, width: 1200, height: 630, alt: name }] : undefined,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: seoSettings.title,
-      description: fullDesc,
-      images: image ? [image] : undefined,
+      title: seo.title,
+      description: desc,
+      images: image ? [{ url: image }] : undefined,
     },
   };
 }
 
-
 // 🔥 PAGE
-export default async function Page({
-  params,
-}: {
-  params: Promise<Params>;
-}) {
+export default async function Page({ params }: { params: Promise<Params> }) {
   const { region, city, place } = await params;
   const lang = await getLanguage();
 
-  const mainRegion = countryToRegionMap[region] || region;
-
-  const cityData = await loadCityData(mainRegion, city);
+  const cityData = await loadCityData(region, city);
   if (!cityData) return notFound();
 
   const foundPlace = cityData.find(
@@ -175,7 +133,12 @@ export default async function Page({
 
   if (!foundPlace) return notFound();
 
-  // YAKINDAKİ YERLER HESAPLAMA
+  const imagesData = loadImages(region);
+  const imageGroup = imagesData[city] || {};
+
+  const imageKey = `${slugify(city)}-${slugify(foundPlace.slug)}`;
+  const images = imageGroup[imageKey] || [];
+
   const nearbyPlaces = cityData
     .filter((p: any) => p.slug !== foundPlace.slug && p.latitude && p.longitude)
     .map((p: any) => ({
@@ -190,135 +153,105 @@ export default async function Page({
     .sort((a: any, b: any) => a.distance - b.distance)
     .slice(0, 3);
 
-  const name = foundPlace.name?.[lang] || foundPlace.name?.tr;
-  const desc = foundPlace.description?.[lang] || foundPlace.description?.tr;
-  const activities = foundPlace.activities?.[lang] || foundPlace.activities?.tr || [];
+  const t = {
+  tr: {
+    about: "Hakkında",
+    todo: "Neler Yapılır?",
+    nearby: "Yakındaki Yerler",
+    location: "Konum",
+    noPhoto: "Fotoğraf yok",
+    unit: "km",
+    distanceNote: "(tahmini)",
+    eventsTitle: "etkinlikleri",
+   eventsText: "İlindeki konserleri ve etkinlikleri keşfet →"
+  },
+  en: {
+    about: "About",
+    todo: "Things to Do",
+    nearby: "Nearby",
+    location: "Location",
+    noPhoto: "No photos",
+    unit: "km",
+    distanceNote: "(estimated)",
+     eventsTitle: "events",
+  eventsText: "Discover concerts and events in your city →"
+  },
+}[lang];
 
-  const imageGroup = IMAGES[mainRegion]?.[slugify(city)] || {};
-  const imageKey = `${slugify(city)}-${slugify(foundPlace.slug)}`;
-  const images = imageGroup[imageKey] || imageGroup[foundPlace.slug] || [];
-
- const t = {
-    tr: {
-      about: "Hakkında",
-      todo: "Neler Yapılır?",
-      location: "Konum",
-      noPhoto: "Fotoğraf yok",
-      nearby: "Yakındaki Yerler",
-      othersInCity: `${city} şehrindeki diğer yerler`,
-      seeAll: `Tüm ${city} yerlerini gör →`,
-      eventsInCity: `${city} etkinlikleri`,
-      discoverEvents: `${city} konser ve etkinliklerini keşfet →`,
-      unit: "km (tahmini)"
-    },
-    en: {
-      about: "About",
-      todo: "Things to Do",
-      location: "Location",
-      noPhoto: "No photos available",
-      nearby: "Nearby Places",
-      othersInCity: `Other places in ${city}`,
-      seeAll: `See all places in ${city} →`,
-      eventsInCity: `Events in ${city}`,
-      discoverEvents: `Discover concerts and events in ${city} →`,
-      unit: "km (est.)"
-    },
-  }[lang];
-
-  // URL yapısı için dil prefix'i (en/tr kontrolü)
   const langPrefix = lang === "en" ? "/en" : "";
 
+  const cityName =
+  city.charAt(0).toUpperCase() + city.slice(1);
+
  return (
-    <main className="max-w-6xl mx-auto px-4 py-8 space-y-10">
-      <header className="border-b pb-6">
-        <h1 className="text-4xl md:text-6xl font-black">{name}</h1>
-      </header>
+  <main className="max-w-6xl mx-auto px-4 py-8 space-y-10">
+    <h1 className="text-4xl font-black">{foundPlace.name?.[lang]}</h1>
 
-      <section>
-        {images.length > 0 ? (
-          <PlaceSlider images={images} title={name} />
-        ) : (
-          <div className="h-[400px] flex items-center justify-center border rounded-3xl text-gray-400 bg-gray-50">
-            {t.noPhoto}
-          </div>
-        )}
-      </section>
-
-      <div className="grid md:grid-cols-3 gap-8">
-        {/* ABOUT */}
-        <div className="md:col-span-2 bg-white rounded-3xl p-6 border shadow-sm">
-          <h2 className="font-bold text-xl mb-4">{t.about}</h2>
-          <p className="text-gray-600 whitespace-pre-line leading-relaxed">
-            {desc}
-          </p>
+    <section>
+      {images.length > 0 ? (
+        <PlaceSlider images={images} title={foundPlace.name?.[lang]} />
+      ) : (
+        <div className="h-[400px] flex items-center justify-center border rounded-3xl text-gray-400">
+          {t.noPhoto}
         </div>
+      )}
+    </section>
 
-        {/* RIGHT COLUMN */}
-        <div className="space-y-6">
-          <div className="bg-blue-50 rounded-3xl p-6 border shadow-sm">
-            <h2 className="font-bold text-xl mb-4 text-blue-900">{t.todo}</h2>
-            <ul className="space-y-3">
-              {activities.map((a: string, i: number) => (
-                <li key={i} className="bg-white p-4 rounded-xl text-sm font-bold text-gray-700 shadow-sm border border-blue-100">
-                  {a}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* 🟦 YAKINDAKİ YERLER */}
-          <div className="bg-white rounded-2xl p-4 border shadow-sm">
-            <h3 className="font-bold text-blue-900 mb-3">{t.nearby}</h3>
-            <div className="space-y-2">
-              {nearbyPlaces.map((p: any) => (
-                <a
-                  key={p.slug}
-                  href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-                  className="block p-3 rounded-xl border hover:bg-gray-50 transition-colors"
-                >
-                  <div className="font-bold text-sm">{p.name?.[lang] || p.name?.tr}</div>
-                  <div className="text-xs text-gray-500">{p.distance.toFixed(1)} {t.unit}</div>
-                </a>
-              ))}
-            </div>
-          </div>
-
-          {/* 🟨 ŞEHİR DİĞERLERİ */}
-          <div className="bg-white rounded-2xl p-4 border shadow-sm">
-            <h3 className="font-bold text-blue-900 mb-3">{t.othersInCity}</h3>
-            <a href={`${langPrefix}/kesfet/${region}/${city}`} className="text-blue-700 font-bold hover:underline text-sm">
-              {t.seeAll}
-            </a>
-          </div>
-
-          {/* 🟩 ETKİNLİKLER (Sadece Türkiye ise) */}
-          {(region === "turkiye" || region === "turkey") && (
-            <div className="bg-green-50 rounded-2xl p-4 border border-green-100 shadow-sm">
-              <h3 className="font-bold text-green-900 mb-2">{t.eventsInCity}</h3>
-              <a href={`${langPrefix}/aktiviteler?city=${city}`} className="text-green-700 font-bold hover:underline text-sm">
-                {t.discoverEvents}
-              </a>
-            </div>
-          )}
-        </div>
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="md:col-span-2 border rounded-3xl p-6">
+        <h2 className="font-bold mb-4">{t.about}</h2>
+        <p className="text-gray-600">
+          {foundPlace.description?.[lang]}
+        </p>
       </div>
 
-      {/* 📍 HARİTA (Hatalı iframe URL'i düzeltildi) */}
-      {foundPlace.latitude && foundPlace.longitude && (
-        <section>
-          <h2 className="font-bold text-xl mb-4">{t.location}</h2>
-          <div className="h-[450px] rounded-[2.5rem] overflow-hidden border shadow-inner">
-            <iframe
-              src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-            />
-          </div>
-        </section>
-      )}
-    </main>
+      <div className="space-y-4">
+        <div className="border rounded-2xl p-4">
+          <h3 className="font-bold mb-2">{t.todo}</h3>
+          <ul className="space-y-2">
+            {(foundPlace.activities?.[lang] || []).map((a: string, i: number) => (
+              <li key={i} className="text-sm">{a}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="border rounded-2xl p-4">
+          <h3 className="font-bold mb-2">{t.nearby}</h3>
+          {nearbyPlaces.map((p: any) => (
+            <a
+              key={p.slug}
+              href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+              className="block text-sm py-1"
+            >
+              {p.name?.[lang]} - {p.distance.toFixed(1)} km {t.distanceNote}
+            </a>
+          ))}
+        </div>
+
+        {/* 🟩 ETKİNLİKLER BURAYA EKLENDİ */}
+        {region === "turkiye" && (
+  <div className="bg-green-50 rounded-2xl p-4 border border-green-100 shadow-sm">
+    <h3 className="font-bold text-green-900 mb-2">
+      {cityName} {t.eventsTitle}
+    </h3>
+
+    <a
+      href={`${langPrefix}/aktiviteler?city=${city}`}
+      className="text-green-700 font-bold hover:underline text-sm"
+    >
+      {t.eventsText}
+    </a>
+  </div>
+)}
+      </div>
+    </div>
+
+    {foundPlace.latitude && foundPlace.longitude && (
+      <iframe
+        className="w-full h-[400px] rounded-3xl"
+        src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
+      />
+    )}
+  </main>
 );
 }

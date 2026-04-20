@@ -1,11 +1,13 @@
 import { Metadata } from "next";
 import { headers } from "next/headers";
+import fs from "fs";
+import path from "path";
 import RegionClient from "./RegionClient";
-import { countryToRegionMap } from "@/lib/countryToRegionMap";
 
 type Props = {
   params: Promise<{ region: string }>;
 };
+
 
 // 🌍 Ülke isim map (TR + EN düzgün SEO için)
 const regionNameMap: Record<string, { tr: string; en: string }> = {
@@ -49,14 +51,13 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
   misir: { tr: "Mısır", en: "Egypt" },
   belarus: { tr: "Belarus", en: "Belarus" },
   kktc: { tr: "KKTC", en: "Northern Cyprus" },
-  peru: { tr: "Peru", en: "Peru" },
+   bae: { tr: "BAE", en: "UAE" },
+   peru: { tr: "Peru", en: "Peru" },
 };
 
-// 🧠 DİL YAKALAMA YARDIMCISI (URL tabanlı)
 async function getActiveLang() {
   const headerList = await headers();
   const currentPath = headerList.get("x-url") || "";
-  // Middleware'den gelen header'ı kontrol et, yoksa URL'den bak
   const middlewareLang = headerList.get("x-url-lang");
   
   if (middlewareLang === "en" || currentPath.includes("/en/")) {
@@ -70,63 +71,72 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lang = await getActiveLang();
   const baseUrl = "https://www.waylero.com";
 
-  const displayTitle =
-    regionNameMap[region]?.[lang] ??
-    region
-      .split("-")
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
-
-  const isCountry = !!countryToRegionMap[region];
+  // Klasör adını düzgün başlığa çevir
+  const displayTitle = regionNameMap[region]?.[lang] ?? region.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
   const texts = {
-    tr: {
-      title: `${displayTitle} Gezilecek Yerler`,
-      desc: isCountry
-        ? `${displayTitle} ülkesindeki en popüler şehirleri ve gezilecek yerleri keşfedin.`
-        : `${displayTitle} bölgesindeki ülkeleri ve şehirleri keşfedin.`,
-    },
-    en: {
-      title: `Places to Visit in ${displayTitle}`,
-      desc: isCountry
-        ? `Discover the best cities and places to visit in ${displayTitle}.`
-        : `Explore countries and cities in the ${displayTitle} region.`,
-    }
+    tr: { title: `${displayTitle} Gezilecek Yerler`, desc: `${displayTitle} bölgesindeki en popüler şehirleri keşfedin.` },
+    en: { title: `Places to Visit in ${displayTitle}`, desc: `Discover the best cities in ${displayTitle}.` }
   }[lang];
 
-  const path = `/kesfet/${region}`;
-  const canonical = lang === "tr" ? `${baseUrl}${path}` : `${baseUrl}/en${path}`;
-  const ogImage = `${baseUrl}/assets/seo/${region}.jpg`;
+  const pathUrl = `/kesfet/${region}`;
+  const canonical = lang === "tr" ? `${baseUrl}${pathUrl}` : `${baseUrl}/en${pathUrl}`;
 
   return {
     title: `${texts.title} | Waylero`,
     description: texts.desc,
-    alternates: {
-      canonical,
-      languages: {
-        "tr-TR": `${baseUrl}${path}`,
-        "en-US": `${baseUrl}/en${path}`,
-        "x-default": `${baseUrl}${path}`,
-      },
-    },
-    openGraph: {
-      title: texts.title,
-      description: texts.desc,
-      url: canonical,
-      images: [{ url: ogImage, width: 1200, height: 630 }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: texts.title,
-      description: texts.desc,
-      images: [ogImage],
-    },
+    alternates: { canonical, languages: { "tr-TR": `${baseUrl}${pathUrl}`, "en-US": `${baseUrl}/en${pathUrl}` } }
   };
 }
 
 export default async function Page({ params }: Props) {
-  const resolvedParams = await params;
+  const { region } = await params;
   const lang = await getActiveLang();
 
-  return <RegionClient region={resolvedParams.region} lang={lang} />;
+  const dataFolderPath = path.join(
+    process.cwd(),
+    "app/data/ulkelerdata",
+    region
+  );
+
+  let cityData: any = {};
+
+  if (fs.existsSync(dataFolderPath)) {
+    const files = fs.readdirSync(dataFolderPath);
+
+    files.forEach((file) => {
+      if (file.endsWith(".json")) {
+        const cityName = file.replace(".json", "");
+        const filePath = path.join(dataFolderPath, file);
+        const fileContent = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        cityData[cityName] = fileContent;
+      }
+    });
+  }
+
+  const imagesPath = path.join(
+    process.cwd(),
+    "app/data/ulkedataimages",
+    `${region}.json`
+  );
+
+  let images: any = {};
+
+  if (fs.existsSync(imagesPath)) {
+    try {
+      const fileContent = fs.readFileSync(imagesPath, "utf-8");
+      images = JSON.parse(fileContent);
+    } catch (e) {
+      console.error("❌ Görsel dosyası okunamadı");
+    }
+  }
+
+  return (
+    <RegionClient
+      region={region}
+      lang={lang}
+      data={cityData}
+      images={images}
+    />
+  );
 }

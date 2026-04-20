@@ -3,14 +3,9 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { headers } from "next/headers";
 import Head from "next/head";
-import { cache } from "react";
+import fs from "fs";
+import path from "path";
 
-// Images
-import turkeyImages from "../../../data/images/turkey.json";
-import europaImages from "../../../data/images/europa.json";
-import asiaImages from "../../../data/images/asia.json";
-
-import { countryToRegionMap } from "@/lib/countryToRegionMap";
 import { slugify } from "@/lib/utils/slugify";
 
 const CLOUDINARY_BASE_URL =
@@ -40,180 +35,137 @@ async function getLanguage() {
   return "tr";
 }
 
-// 🚀 CITY DATA LOADER
-const loadCityData = cache(async (regionKey: string, citySlug: string) => {
-  try {
-    const module = await import(
-      `../../../data/data/${regionKey}/${citySlug}.json`
-    );
-    return module.default;
-  } catch {
-    return null;
-  }
-});
-
 // SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { region, city } = await params;
+  const { city } = await params;
   const lang = await getLanguage();
-  const baseUrl = "https://www.waylero.com";
 
-  const cityName = city
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (l) => l.toUpperCase());
+  const cityName = city.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
 
   const t = {
     tr: {
-      title: `${cityName} Gezilecek Yerler | En İyi ${cityName} Rotaları`,
-      desc: `${cityName} seyahatiniz için görülmesi gereken yerler ve şehir rehberi.`,
+      title: `${cityName} Gezilecek Yerler`,
+      desc: `${cityName} için en iyi gezi rehberi.`,
     },
     en: {
-      title: `Places to Visit in ${cityName} | Best ${cityName} Routes`,
-      desc: `Discover the best places to visit and city guide for your trip to ${cityName}.`,
+      title: `Places to Visit in ${cityName}`,
+      desc: `Best travel guide for ${cityName}.`,
     },
   }[lang];
 
-  const path = `/kesfet/${region}/${city}`;
-
   return {
-    title: `${t.title} - Waylero`,
+    title: `${t.title} | Waylero`,
     description: t.desc,
   };
 }
 
-// PAGE
 export default async function CityPage({ params }: Props) {
   const { region, city } = await params;
-  console.log("🔍 URL Parametreleri:", { region, city });
   const lang = await getLanguage();
 
-  const targetDataKey = countryToRegionMap[region.toLowerCase()];
-  console.log("🔍 Target Key:", targetDataKey);
-  if (!targetDataKey) notFound();
-console.log("❌ Bölge bulunamadı!");
-  const cityData = await loadCityData(targetDataKey, city);
-  if (!cityData) notFound();
+  // DATA PATH
+  const cityFilePath = path.join(
+    process.cwd(),
+    "app/data/ulkelerdata",
+    region,
+    `${city}.json`
+  );
 
-  const cityPlaces = cityData;
+  if (!fs.existsSync(cityFilePath)) notFound();
 
-  const allImages: Record<string, any> = {
-    turkey: turkeyImages,
-    europa: europaImages,
-    asia: asiaImages,
-  };
+  const cityPlaces = JSON.parse(fs.readFileSync(cityFilePath, "utf-8"));
+
+  // IMAGES
+  const imagesPath = path.join(
+    process.cwd(),
+    "app/data/ulkedataimages",
+    `${region}.json`
+  );
+
+  let images: any = {};
+  if (fs.existsSync(imagesPath)) {
+    images = JSON.parse(fs.readFileSync(imagesPath, "utf-8"));
+  }
 
   const actualCityKey =
-    cityPlaces?.[0]?.cityName ||
-    city.replace(/-/g, " ");
+    cityPlaces?.[0]?.cityName || city.replace(/-/g, " ");
 
   const cityImages =
-    allImages[targetDataKey]?.[slugify(city)] || {};
+    images[city] || images[slugify(city)] || {};
 
   const t = {
     tr: {
-      suffix: "şehrinde keşfedilmeyi bekleyen",
       suffix2: "harika durak var.",
-      details: "DETAYLARI GÖR",
       fallbackName: "Gezilecek Yer",
     },
     en: {
-      suffix: "There are",
-      suffix2: "amazing stops waiting to be discovered in",
-      details: "VIEW DETAILS",
-      fallbackName: "Place to Visit",
+      suffix2: "amazing places.",
+      fallbackName: "Place",
     },
   }[lang];
 
   const getLocalizedLink = (path: string) =>
     lang === "tr" ? path : `/en${path}`;
 
-  // 🔥 LCP IMAGE (first item)
-  const firstPlace = cityPlaces?.[0];
-  const firstImageKey =
-    firstPlace &&
-    `${slugify(actualCityKey)}-${slugify(firstPlace.slug)}`;
+  // 🔥 breadcrumb base
+  const exploreBase = lang === "tr" ? "/kesfet" : "/en/kesfet";
 
-  const firstImage =
-    firstImageKey &&
-    (cityImages[firstImageKey]?.[0] ||
-      cityImages[firstPlace.slug]?.[0]);
+  // 🔥 city names map
+  const cityNames: Record<string, { tr: string; en: string }> = {
+    adana: { tr: "Adana", en: "Adana" }, adiyaman: { tr: "Adıyaman", en: "Adiyaman" }, afyonkarahisar: { tr: "Afyonkarahisar", en: "Afyonkarahisar" }, agri: { tr: "Ağrı", en: "Agri" }, aksaray: { tr: "Aksaray", en: "Aksaray" }, amasya: { tr: "Amasya", en: "Amasya" }, ankara: { tr: "Ankara", en: "Ankara" }, antalya: { tr: "Antalya", en: "Antalya" }, ardahan: { tr: "Ardahan", en: "Ardahan" }, artvin: { tr: "Artvin", en: "Artvin" }, aydin: { tr: "Aydın", en: "Aydin" }, balikesir: { tr: "Balıkesir", en: "Balikesir" }, bartin: { tr: "Bartın", en: "Bartin" }, batman: { tr: "Batman", en: "Batman" }, bayburt: { tr: "Bayburt", en: "Bayburt" }, bilecik: { tr: "Bilecik", en: "Bilecik" }, bingol: { tr: "Bingöl", en: "Bingol" }, bitlis: { tr: "Bitlis", en: "Bitlis" }, bolu: { tr: "Bolu", en: "Bolu" }, burdur: { tr: "Burdur", en: "Burdur" }, bursa: { tr: "Bursa", en: "Bursa" }, canakkale: { tr: "Çanakkale", en: "Canakkale" }, cankiri: { tr: "Çankırı", en: "Cankiri" }, corum: { tr: "Çorum", en: "Corum" }, denizli: { tr: "Denizli", en: "Denizli" }, diyarbakir: { tr: "Diyarbakır", en: "Diyarbakir" }, edirne: { tr: "Edirne", en: "Edirne" }, elazig: { tr: "Elazığ", en: "Elazig" }, erzincan: { tr: "Erzincan", en: "Erzincan" }, erzurum: { tr: "Erzurum", en: "Erzurum" }, eskisehir: { tr: "Eskişehir", en: "Eskisehir" }, gaziantep: { tr: "Gaziantep", en: "Gaziantep" }, giresun: { tr: "Giresun", en: "Giresun" }, gumushane: { tr: "Gümüşhane", en: "Gumushane" }, hakkari: { tr: "Hakkari", en: "Hakkari" }, hatay: { tr: "Hatay", en: "Hatay" }, igdir: { tr: "Iğdır", en: "Igdir" }, isparta: { tr: "Isparta", en: "Isparta" }, istanbul: { tr: "İstanbul", en: "Istanbul" }, izmir: { tr: "İzmir", en: "Izmir" }, kahramanmaras: { tr: "Kahramanmaraş", en: "Kahramanmaras" }, karabuk: { tr: "Karabük", en: "Karabuk" }, karaman: { tr: "Karaman", en: "Karaman" }, kars: { tr: "Kars", en: "Kars" }, kastamonu: { tr: "Kastamonu", en: "Kastamonu" }, kayseri: { tr: "Kayseri", en: "Kayseri" }, kirikkale: { tr: "Kırıkkale", en: "Kirikkale" }, kirsehir: { tr: "Kırşehir", en: "Kirsehir" }, kocaeli: { tr: "Kocaeli", en: "Kocaeli" }, konya: { tr: "Konya", en: "Konya" }, kutahya: { tr: "Kütahya", en: "Kutahya" }, malatya: { tr: "Malatya", en: "Malatya" }, manisa: { tr: "Manisa", en: "Manisa" }, mardin: { tr: "Mardin", en: "Mardin" }, mersin: { tr: "Mersin", en: "Mersin" }, mugla: { tr: "Muğla", en: "Mugla" }, mus: { tr: "Muş", en: "Mus" }, nevsehir: { tr: "Nevşehir", en: "Nevsehir" }, nigde: { tr: "Niğde", en: "Nigde" }, ordu: { tr: "Ordu", en: "Ordu" }, osmaniye: { tr: "Osmaniye", en: "Osmaniye" }, rize: { tr: "Rize", en: "Rize" }, sakarya: { tr: "Sakarya", en: "Sakarya" }, samsun: { tr: "Samsun", en: "Samsun" }, siirt: { tr: "Siirt", en: "Siirt" }, sinop: { tr: "Sinop", en: "Sinop" }, sivas: { tr: "Sivas", en: "Sivas" }, sanliurfa: { tr: "Şanlıurfa", en: "Sanliurfa" }, tekirdag: { tr: "Tekirdağ", en: "Tekirdag" }, tokat: { tr: "Tokat", en: "Tokat" }, trabzon: { tr: "Trabzon", en: "Trabzon" }, tunceli: { tr: "Tunceli", en: "Tunceli" }, usak: { tr: "Uşak", en: "Usak" }, van: { tr: "Van", en: "Van" }, yalova: { tr: "Yalova", en: "Yalova" }, yozgat: { tr: "Yozgat", en: "Yozgat" }, zonguldak: { tr: "Zonguldak", en: "Zonguldak" } };
+
+  const cityLabel =
+    cityNames[slugify(city)]?.[lang] || actualCityKey;
+
+  const regionLabel =
+    cityNames[slugify(region)]?.[lang] || region.replace(/-/g, " ");
 
   return (
     <>
-      {/* 🚀 LCP BOOST */}
       <Head>
         <link rel="preconnect" href="https://res.cloudinary.com" />
         <link rel="dns-prefetch" href="https://res.cloudinary.com" />
-
-        {firstImage && (
-          <link
-            rel="preload"
-            as="image"
-            href={getCloudinaryUrl(firstImage, 800)}
-          />
-        )}
       </Head>
 
-      <main className="max-w-6xl mx-auto px-4 py-10 font-sans">
-        {/* Breadcrumb */}
-        <nav className="flex text-[10px] font-black text-gray-400 mb-8 uppercase tracking-[0.2em]">
-          <Link href={getLocalizedLink("/kesfet")} className="hover:text-blue-600">
-            EXPLORE
+      <main className="max-w-6xl mx-auto px-4 py-10">
+
+        {/* 🔥 BREADCRUMB */}
+        <div className="text-blue-600 font-bold text-sm uppercase mb-6 flex items-center gap-2">
+
+          <Link href={exploreBase} className="hover:underline">
+            {lang === "tr" ? "KEŞFET" : "EXPLORE"}
           </Link>
 
-          <span className="mx-3 opacity-30">/</span>
+          <span>/</span>
 
-          <Link
-            href={getLocalizedLink(`/kesfet/${region}`)}
-            className="hover:text-blue-600"
-          >
-            {region.replace("-", " ")}
+          <Link href={`${exploreBase}/${region}`} className="hover:underline">
+            {regionLabel}
           </Link>
 
-          <span className="mx-3 opacity-30">/</span>
+          <span>/</span>
 
-          <span className="text-blue-600">{actualCityKey}</span>
-        </nav>
+          <span className="text-blue-600">
+            {cityLabel}
+          </span>
 
-        {/* Title */}
-        <div className="mb-16">
-          <h1 className="text-6xl md:text-8xl font-black text-gray-900 capitalize mb-6 tracking-tighter">
-            {actualCityKey}
-          </h1>
-
-          <p className="text-xl text-gray-500 font-medium max-w-2xl">
-            {lang === "tr" ? (
-              <>
-                {actualCityKey} {t.suffix}{" "}
-                <strong>
-                  {cityPlaces.length} {t.suffix2}
-                </strong>
-              </>
-            ) : (
-              <>
-                {t.suffix}{" "}
-                <strong>
-                  {cityPlaces.length} {t.suffix2}
-                </strong>{" "}
-                {actualCityKey}.
-              </>
-            )}
-          </p>
         </div>
 
-        {/* Grid */}
+        {/* TITLE */}
+        <h1 className="text-6xl font-black mb-4">
+          {cityLabel}
+        </h1>
+
+        <p className="text-gray-500 mb-12">
+          {cityPlaces.length} {t.suffix2}
+        </p>
+
+        {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {cityPlaces.map((place: any, index: number) => {
-            if (!place) return null;
-
+          {cityPlaces.map((place: any) => {
             const placeName =
-              place.name?.[lang] ||
-              place.name?.tr ||
-              t.fallbackName;
+              place.name?.[lang] || place.name?.tr || t.fallbackName;
 
-            const imageKey = `${slugify(actualCityKey)}-${slugify(
-              place.slug
-            )}`;
+            const imageKey = `${slugify(actualCityKey)}-${slugify(place.slug)}`;
 
             const coverImage =
               cityImages[imageKey]?.[0] ||
@@ -221,49 +173,34 @@ console.log("❌ Bölge bulunamadı!");
 
             return (
               <Link
-                key={place.slug || index}
+                key={place.slug}
                 href={getLocalizedLink(
                   `/kesfet/${region}/${city}/${place.slug}`
                 )}
-                className="group relative bg-white rounded-[2.5rem] border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-500 block"
+                className="block"
               >
-                <div className="aspect-[4/5] relative bg-gray-100 overflow-hidden">
+                <div className="aspect-[4/5] overflow-hidden rounded-2xl mb-4 bg-gray-100">
                   {coverImage ? (
                     <img
                       src={getCloudinaryUrl(coverImage, 600)}
-                      srcSet={`
-                        ${getCloudinaryUrl(coverImage, 400)} 400w,
-                        ${getCloudinaryUrl(coverImage, 600)} 600w,
-                        ${getCloudinaryUrl(coverImage, 800)} 800w
-                      `}
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      alt={`${actualCityKey} ${placeName}`}
-                      loading={index < 3 ? "eager" : "lazy"}
-                      fetchPriority={index === 0 ? "high" : "auto"}
-                      decoding="async"
-                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      alt={placeName}
+                      className="w-full h-full object-cover"
                     />
                   ) : (
-                    <div className="flex items-center justify-center h-full text-4xl">
+                    <div className="w-full h-full flex items-center justify-center">
                       🏛️
                     </div>
                   )}
-
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition" />
-
-                  <div className="absolute bottom-8 left-8 right-8">
-                    <h3 className="text-2xl font-black text-white mb-2">
-                      {placeName}
-                    </h3>
-                    <div className="text-blue-400 text-[10px] font-black uppercase tracking-widest">
-                      {t.details} →
-                    </div>
-                  </div>
                 </div>
+
+                <h3 className="font-bold text-xl">
+                  {placeName}
+                </h3>
               </Link>
             );
           })}
         </div>
+
       </main>
     </>
   );

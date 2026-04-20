@@ -1,0 +1,51 @@
+{
+  "chartes": {
+    "chartes-chartres-katedrali": [
+      "places/europa/chartes/chartes-chartres-katedrali/wbgixkdovebqkm67rosh",
+      "places/europa/chartes/chartes-chartres-katedrali/jwhprfqiljwn6rcxxmzg"
+    ],
+    "chartes-mont-saint-michel-ve-korfezi": [
+      "places/europa/chartes/chartes-mont-saint-michel-ve-korfezi/dth15qyzk7vxzzkmpgix",
+      "places/europa/chartes/chartes-mont-saint-michel-ve-korfezi/wqyw4dwoua6aqzhqp3rq"
+    ]
+  },
+"bourges": {
+    "bourges-bourges-katedrali": [
+      "places/europa/bourges/bourges-bourges-katedrali/bnkkqshmntpxyrokip6x",
+      "places/europa/bourges/bourges-bourges-katedrali/hzcquwakqdglv3put7ve",
+      "places/europa/bourges/bourges-bourges-katedrali/rjxbyoqmmxmookldfkwu"
+    ]
+  },
+"paris": {
+    "paris-champs-lys-es-bulvari": [
+      "places/europa/paris/paris-champs-lys-es-bulvari/wknndj52qaxkgkgcg2cd"
+    ],
+    "paris-eiffel-kulesi": [
+      "places/europa/paris/paris-eiffel-kulesi/iig7tjcrb98elfasorv4",
+      "places/europa/paris/paris-eiffel-kulesi/bqogfzlekriymtogdzmn",
+      "places/europa/paris/paris-eiffel-kulesi/klx1psq60ydtwn1yje89",
+      "places/europa/paris/paris-eiffel-kulesi/o0daxmzxucvnrhhaejjp",
+      "places/europa/paris/paris-eiffel-kulesi/kky1qqntgharulml0zd6",
+      "places/europa/paris/paris-eiffel-kulesi/baybneabfkzqssibz6go"
+    ],
+    "paris-fontainebleau-sarayi-ve-parki": [
+      "places/europa/paris/paris-fontainebleau-sarayi-ve-parki/tmfwxyod0sjdb0km5z4u",
+      "places/europa/paris/paris-fontainebleau-sarayi-ve-parki/wusmaiqxawimpjojdqju"
+    ],
+    "paris-notre-dame-katedrali": [
+      "places/europa/paris/paris-notre-dame-katedrali/kzkehchadyd3vynngrwf",
+      "places/europa/paris/paris-notre-dame-katedrali/dpenf40vm7ihgdvsmeke"
+    ],
+    "paris-paris-seine-nehri-kiyilari": [
+      "places/europa/paris/paris-paris-seine-nehri-kiyilari/nwolqiq1qffkb6qsgytn",
+      "places/europa/paris/paris-paris-seine-nehri-kiyilari/uqdiw868940hgipsm01s",
+      "places/europa/paris/paris-paris-seine-nehri-kiyilari/zdxpniffecfveji4s4uq",
+      "places/europa/paris/paris-paris-seine-nehri-kiyilari/rwfjpq2lmjmndhggcc7u"
+    ],
+    "paris-sacr-c-ur-bazilikasi": [
+      "places/europa/paris/paris-sacr-c-ur-bazilikasi/cvtw8jztsjarb7zndjdl",
+      "places/europa/paris/paris-sacr-c-ur-bazilikasi/y9gyvrdxqzbgkgxrfx8o",
+      "places/europa/paris/paris-sacr-c-ur-bazilikasi/c8e7szlffkd8smiyzovr"
+    ]
+  }
+}

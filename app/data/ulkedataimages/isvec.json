@@ -1,0 +1,24 @@
+{
+  "goteborg": {
+    "goteborg-liseberg": ["places/europa/goteborg/liseberg/liseberg_1776409506567"],
+    "goteborg-universeum": ["places/europa/goteborg/universeum/universeum_1776409662870"],
+    "goteborg-slottsskogen-parki": ["places/europa/goteborg/slottsskogen-parki/slottsskogen-parki_1776409794132"],
+    "goteborg-feskekorka": ["places/europa/goteborg/feskekorka/feskekorka_1776409905315"],
+    "goteborg-goteborg-sanat-muzesi": ["places/europa/goteborg/goteborg-sanat-muzesi/goteborg-sanat-muzesi_1776410238891"]
+  },
+  "malmo": {
+    "malmo-turning-torso": ["places/europa/malmo/turning-torso/turning-torso_1776410369825"],
+    "malmo-malmohus-kalesi": ["places/europa/malmo/malmohus-kalesi/malmohus-kalesi_1776410481447"],
+    "malmo-kungsparken": ["places/europa/malmo/kungsparken/kungsparken_1776410603722"]
+  },
+  "uppsala": {
+    "uppsala-uppsala-katedrali": ["places/europa/upsala/upsala-katedrali/upsala-katedrali_1776410697440"],
+    "uppsala-gustavianum": ["places/europa/upsala/gustavianum/gustavianum_1776410834655"],
+    "uppsala-carolina-rediviva": ["places/europa/upsala/corolina-rediviva/corolina-rediviva_1776410920425"]
+  },
+"stockholm": {
+    "stockholm-gamla-stan": [
+      "places/europa/stockholm/stockholm-gamla-stan/epkesntuckryns48qllc"
+    ]
+  }
+}
