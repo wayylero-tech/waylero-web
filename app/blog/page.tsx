@@ -33,16 +33,15 @@ import { turkeyPostGunaydogu } from "../data/blog/turkey/postsguneydoguanadolu";
 import { catalhoyukPosts } from "../data/blog/konya/posts4";
 import { ihlaraRehberPost } from "../data/blog/aksaray/posts";
 
-
-const posts = [
+const allPosts = [
   ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
   ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
   ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts, ...mersinRehberPosts,
   ...turkiyeEnCokZiyaretEdilen10YerPost, ...antalyaRehberPost, ...trekkingPosts,
   ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
   ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
-  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, ...ihlaraRehberPost,
-  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts
+  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu,  ...ihlaraRehberPost,
+  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts,
 ];
 
 export async function generateMetadata() {
