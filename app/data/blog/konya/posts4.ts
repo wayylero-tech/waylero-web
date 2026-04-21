@@ -122,7 +122,7 @@ Müzekart geçerlidir. 18 yaş altı ücretsizdir. Güncel fiyatlar dönemsel ol
 Ortalama 2 saat sürmektedir. 
 
 Neolitik dönemin en önemli yerleşimlerinden biri olan 
-**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**
+**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk)**
 
 Türkiye’de gezilecek diğer önemli noktalar için 
 **[gezi blog yazılarımıza göz atabilirsiniz](https://www.waylero.com/blog)**.
@@ -215,7 +215,7 @@ The Museum Card is accepted. Admission is free for those under 18. Current price
 It takes about 2 hours on average.
 
 👉 Click the link for more  
-🔗 **[Çatalhöyük Archaeological Site](https://www.waylero.com/en/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**  
+🔗 **[Çatalhöyük Archaeological Site](https://www.waylero.com/en/kesfet/turkiye/konya/catalhoyuk)**  
 
 Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**  
 
