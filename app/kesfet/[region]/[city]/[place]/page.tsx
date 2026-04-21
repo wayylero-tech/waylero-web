@@ -105,19 +105,46 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const enUrl = `${BASE_URL}/en${urlPath}`;
 
   return {
+  title: seo.title,
+  description: desc,
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: lang === "en" ? enUrl : trUrl,
+    languages: {
+      "tr-TR": trUrl,
+      "en-US": enUrl,
+      "x-default": enUrl,
+    },
+  },
+
+  openGraph: {
     title: seo.title,
     description: desc,
-    robots: { index: true, follow: true },
-    alternates: {
-      canonical: lang === "en" ? enUrl : trUrl,
-    },
-    openGraph: {
-      title: seo.title,
-      description: desc,
-      images: image ? [{ url: image }] : undefined,
-    },
-  };
-}
+    url: lang === "en" ? enUrl : trUrl,
+    siteName: "Waylero",
+    type: "article",
+    images: image
+      ? [
+          {
+            url: image,
+            width: 1200,
+            height: 630,
+          },
+        ]
+      : [],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: seo.title,
+    description: desc,
+    images: image ? [image] : [],
+  },
+};
 
 // 🔥 PAGE
 export default async function Page({ params }: { params: Promise<Params> }) {
