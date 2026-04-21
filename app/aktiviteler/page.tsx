@@ -64,17 +64,18 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
     : `${t.desc} ${cityNameMeta} on Waylero.`;
 
 return {
-  title,
-  description,
-  alternates: {
-    canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-    languages: {
-      "tr-TR": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-      "en-US": `https://www.waylero.com/en/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-      "x-default": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+    title,
+    description,
+    alternates: {
+      canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      languages: {
+        "tr-TR": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "en-US": `https://www.waylero.com/en/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "x-default": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      },
     },
-  },
-};
+  };
+} // 👈 BU EKSİK!
 
 export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
