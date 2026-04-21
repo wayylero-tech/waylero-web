@@ -145,7 +145,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
     images: image ? [image] : [],
   },
 };
-
+} 
 // 🔥 PAGE
 export default async function Page({ params }: { params: Promise<Params> }) {
   const { region, city, place } = await params;
