@@ -62,19 +62,13 @@ const countryToRegionMap: Record<string, string> = {
   gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
 };
 
-// 🔧 sanitize
 const sanitize = (str: string) =>
-  str
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+  str.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/ /g, "")
-    .replace(/ı/g, "i")
-    .replace(/ğ/g, "g")
-    .replace(/ü/g, "u")
-    .replace(/ş/g, "s")
-    .replace(/ö/g, "o")
-    .replace(/ç/g, "c");
+    .replace(/ı/g, "i").replace(/ğ/g, "g")
+    .replace(/ü/g, "u").replace(/ş/g, "s")
+    .replace(/ö/g, "o").replace(/ç/g, "c");
 
 export function middleware(request: NextRequest) {
   const requestHeaders = new Headers(request.headers);
@@ -82,78 +76,56 @@ export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const isEn = pathname.startsWith("/en");
 
-  // 🧪 DEBUG LOG 1
-  console.log("👉 MIDDLEWARE HIT:");
-  console.log("URL:", request.url);
-  console.log("PATHNAME:", pathname);
-  console.log("SEARCH:", search);
-
+  // 🌍 headers (query kaybolmasın diye sadece string taşıyoruz)
   requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
   requestHeaders.set("x-url", pathname + search);
 
   const parts = pathname.split("/");
   const offset = isEn ? 1 : 0;
 
-  // 🧪 DEBUG LOG 2
-  console.log("PARTS:", parts);
-
   // 🔴 1. REDIRECT (city-country fix)
   if (pathname.includes("/kesfet/") && parts.length >= 4 + offset) {
     const regionInUrl = parts[2 + offset];
     const cityInUrl = sanitize(parts[3 + offset]);
 
-    const targetCountry = cityToCountryMap?.[cityInUrl];
+    const targetCountry = cityToCountryMap[cityInUrl];
 
-    console.log("CITY:", cityInUrl);
-    console.log("TARGET COUNTRY:", targetCountry);
-
-    if (
-      targetCountry &&
-      (regionInUrl === "turkey" || regionInUrl !== targetCountry)
-    ) {
+    if (targetCountry && (regionInUrl === "turkey" || regionInUrl !== targetCountry)) {
       const url = request.nextUrl.clone();
 
       const newParts = [...parts];
       newParts[2 + offset] = targetCountry;
 
       url.pathname = newParts.join("/");
-      url.search = search; // 🔥 QUERY KORUMA
 
-      console.log("🔁 REDIRECT TO:", url.toString());
+      // 🔥 redirect QUERY KORUR (rewrite değil)
+      url.search = search;
 
       return NextResponse.redirect(url, 301);
     }
   }
 
-  // 🔵 2. EN ROUTING
+  // 🔵 2. EN ROUTING (FIX: rewrite yerine nextUrl clone)
   if (isEn) {
     const url = request.nextUrl.clone();
 
     url.pathname = pathname.replace(/^\/en/, "") || "/";
-    url.search = search; // 🔥 QUERY KORUMA
-
-    console.log("🌍 REWRITE TO:", url.toString());
+    url.search = search; // 🔥 QUERY KORUNUR
 
     const response = NextResponse.rewrite(url, {
       request: { headers: requestHeaders },
     });
 
     response.cookies.set("lang", "en", { path: "/" });
-
     return response;
   }
 
   // 🟢 3. TR DEFAULT
   const response = NextResponse.next({
-    request: {
-      headers: requestHeaders,
-    },
+    request: { headers: requestHeaders },
   });
 
   response.cookies.set("lang", "tr", { path: "/" });
-
-  console.log("✅ NEXT PASSED:", request.url);
-
   return response;
 }
 

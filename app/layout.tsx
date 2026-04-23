@@ -23,6 +23,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.waylero.com'), // Bunu ekle ki o sarı hatalar gitsin
   title: "Waylero",
   description: "Waylero | Şehirleri keşfet, gezini planla",
   icons: {
@@ -43,28 +44,17 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // headers() kullanımı sayfayı dinamik yapar, parametreleri korumak için dikkatli yönetilmeli
   const headerList = await headers();
-  
-  // Middleware'den gelen dil bilgisini al
   const middlewareLang = headerList.get("x-url-lang");
   
-  // ÖNEMLİ: x-url'den sadece pathname geliyorsa query parametreleri kaybolur.
-  // Eğer ClientLayout içinde bu path'e göre bir yönlendirme varsa city=istanbul orada ölür.
-  const currentPath = headerList.get("x-url") || "";
-
-  // Dil belirleme mantığını sadeleştirdik
-  const displayLang = (middlewareLang === "en" || currentPath.includes("/en/")) ? "en" : "tr";
+  // Sadece dile odaklanalım, URL işini ClientLayout halletsin
+  const displayLang = middlewareLang === "en" ? "en" : "tr";
 
   return (
     <html lang={displayLang} suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}>
         <GoogleAnalytics />
-
         <ClientProviders>
-          {/* ClientLayout'a dili geçiyoruz ama içindeki useEffect/router mantığına dikkat! */}
           <ClientLayout lang={displayLang}>
             {children}
           </ClientLayout>

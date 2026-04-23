@@ -3,9 +3,8 @@
 import { useLang } from "../context/LanguageContext";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
-import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react"; // 1. Hook'ları ekledik
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans-variable",
@@ -33,11 +32,14 @@ export default function ClientLayout({
 const activeLang = contextLang || "tr";
 
 
-  const switchLanguage = (lang: "tr" | "en") => {
+  const searchParams = useSearchParams(); // Bunu fonksiyonun dışına, component'in içine koy
+
+const switchLanguage = (lang: "tr" | "en") => {
   setLang(lang);
 
-  // 1. Mevcut parametreleri (query string) al (?city=istanbul gibi)
-  const currentSearchParams = typeof window !== "undefined" ? window.location.search : "";
+  // Mevcut parametreleri (?city=istanbul gibi) güvenli bir şekilde al
+  const currentParams = searchParams.toString();
+  const queryString = currentParams ? `?${currentParams}` : "";
 
   const cleanPath = pathname.replace(/^\/en/, "");
 
@@ -48,30 +50,18 @@ const activeLang = contextLang || "tr";
       ? "/en"
       : `/en${cleanPath}`;
 
-  // 2. Yeni path'in sonuna mevcut parametreleri geri ekle
-  router.push(`${newPath}${currentSearchParams}`);
+  // Yeni path'e parametreleri yapıştırıp öyle yönlendir
+  router.push(`${newPath}${queryString}`);
 };
 
-// Sayfa ilk yüklendiğinde veya pathname değiştiğinde parametre kaybını önlemek için:
 useEffect(() => {
   if (pathname.startsWith("/en")) {
     setLang("en");
   } else {
     setLang("tr");
   }
-  // Burada router.push YAPMA. Sadece context'teki dili güncelle.
-  // Eğer burada router.push(pathname) dersen parametreleri yine silersin.
-}, [pathname]);
-
-  const isHome = pathname === "/" || pathname === "/en";
-
-  useEffect(() => {
-  if (pathname.startsWith("/en")) {
-    setLang("en");
-  } else {
-    setLang("tr");
-  }
-}, [pathname]);
+  // BURADA router.push SİLDİK. Sadece dili güncellemesi yeterli.
+}, [pathname, setLang]);
 
 
 
