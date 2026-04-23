@@ -72,8 +72,11 @@ const sanitize = (str: string) =>
     .replace(/ö/g, 'o').replace(/ç/g, 'c');
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+  const { pathname, search } = request.nextUrl; // 🔍 Search (parametreleri) yakaladık
   const requestHeaders = new Headers(request.headers);
+
+  // 🌍 X-URL'e hem path'i hem parametreleri ekliyoruz
+  requestHeaders.set('x-url', pathname + search);
 
   const isEn = pathname.startsWith('/en');
   requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
@@ -81,33 +84,34 @@ export function middleware(request: NextRequest) {
   let parts = pathname.split('/');
   const offset = isEn ? 1 : 0;
 
-  // 🛠️ KRİTİK DÜZELTME: Yanlış Bölge veya "turkey" yazımı kontrolü
+  // 🛠️ KRİTİK REDIRECT KONTROLÜ
   if (pathname.includes('/kesfet/') && parts.length >= (4 + offset)) {
-    const regionInUrl = parts[2 + offset]; // Örn: "europa" veya "turkey"
+    const regionInUrl = parts[2 + offset];
     const cityInUrl = sanitize(parts[3 + offset]);
     const targetCountry = cityToCountryMap[cityInUrl];
 
-    // Eğer "turkey" yazılmışsa veya "europa/barselona" gibi yanlış bir bölge varsa
     if (targetCountry && (regionInUrl === 'turkey' || regionInUrl !== targetCountry)) {
-      // Doğru linki inşa et
       const correctPathParts = [...parts];
-      correctPathParts[2 + offset] = targetCountry; // Bölge yerine gerçek ülkeyi koy
-      
-      const newPath = correctPathParts.join('/');
+      correctPathParts[2 + offset] = targetCountry;
+      const newPath = correctPathParts.join('/') + search; // Parametreleri redirect'e ekle
       return NextResponse.redirect(new URL(newPath, request.url), { status: 301 });
     }
   }
 
-  // 🚀 REWRITE (404 SAVAR)
+  // 🚀 REWRITE (EN DESTEĞİ) - PARAMETRE KORUMALI
   if (isEn) {
     const newPathname = pathname.replace(/^\/en/, '') || '/';
-    const response = NextResponse.rewrite(new URL(newPathname, request.url), {
+    // URL nesnesi oluştururken search'ü sona ekle
+    const rewriteUrl = new URL(newPathname + search, request.url);
+    
+    const response = NextResponse.rewrite(rewriteUrl, {
       request: { headers: requestHeaders }
     });
     response.cookies.set('lang', 'en', { path: '/' });
     return response;
   }
 
+  // 🇹🇷 TR DESTEĞİ
   const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
