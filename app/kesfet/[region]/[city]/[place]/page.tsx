@@ -207,20 +207,21 @@ export default async function Page({ params }: { params: Promise<Params> }) {
 
             {/* Events Card (Turkiye Only) */}
             {region === "turkiye" && (
-              <Link
-                href={`${langPrefix}/aktiviteler?city=${city}`}
-                className="block bg-gradient-to-br from-green-600 to-green-800 rounded-[2.5rem] p-8 text-white shadow-lg hover:scale-[1.02] transition-transform"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <Calendar size={24} />
-                  <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
-                </div>
-                <p className="text-green-100 text-sm mb-6 opacity-90">{t.eventsText}</p>
-                <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest">
-                  <span>KEŞFETMEYE BAŞLA</span>
-                  <ArrowRight size={14} />
-                </div>
-              </Link>
+  <Link
+    // slugify'ı sildik, direkt city'i gönderiyoruz
+    href={`${langPrefix}/aktiviteler?city=${city.toLowerCase()}`} 
+    className="block bg-gradient-to-br from-green-600 to-green-800 rounded-[2.5rem] p-8 text-white shadow-lg hover:scale-[1.02] transition-transform"
+  >
+    <div className="flex items-center gap-3 mb-4">
+      <Calendar size={24} />
+      <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
+    </div>
+    <p className="text-green-100 text-sm mb-6 opacity-90">{t.eventsText}</p>
+    <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest">
+      <span>KEŞFETMEYE BAŞLA</span>
+      <ArrowRight size={14} />
+    </div>
+  </Link>
             )}
 
             {/* Nearby Places Card */}

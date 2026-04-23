@@ -114,6 +114,22 @@ export default function ActivityList({
     };
   };
 
+
+  function pushWithParams(newParams: Record<string, string | null>) {
+  const params = new URLSearchParams(searchParams.toString());
+
+  Object.entries(newParams).forEach(([key, value]) => {
+    if (value === null) {
+      params.delete(key);
+    } else {
+      params.set(key, value);
+    }
+  });
+
+  router.push(`${pathname}?${params.toString()}`);
+}
+
+
   useEffect(() => {
     const mapped = (initialEvents || []).map(mapEvent);
     setEvents(mapped);
@@ -159,16 +175,22 @@ export default function ActivityList({
     params.set("end_lte", endStr);
     params.delete("start");
     params.delete("end");
-    router.push(`${pathname}?${params.toString()}`);
+    pushWithParams({
+  start_gte: startStr,
+  end_lte: endStr,
+});
   };
 
-  const handleCityChange = (cityName: string) => {
-    const cleanSlug = slugify(cityName);
-    const params = new URLSearchParams(searchParams.toString());
-    params.set("city", cleanSlug);
-    router.push(`${pathname}?${params.toString()}`);
-    setShowCityList(false);
-  };
+ const handleCityChange = (cityName: string) => {
+  const cleanSlug = slugify(cityName);
+  
+  // pushWithParams'ı kullanma, direkt eski usul yap:
+  const params = new URLSearchParams(window.location.search); // window.location kullanarak en güncel URL'yi al
+  params.set("city", cleanSlug);
+  
+  router.push(`${pathname}?${params.toString()}`);
+  setShowCityList(false);
+};
 
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -209,11 +231,11 @@ export default function ActivityList({
                   type="date" 
                   value={searchParams.get("start_gte") || ""}
                   onChange={(e) => {
-                    const params = new URLSearchParams(searchParams.toString());
-                    params.set("start_gte", e.target.value);
-                    params.set("end_lte", e.target.value);
-                    router.push(`${pathname}?${params.toString()}`);
-                  }}
+  pushWithParams({
+    start_gte: e.target.value,
+    end_lte: e.target.value,
+  });
+}}
                   className="appearance-none bg-gray-50 border border-gray-100 rounded-2xl px-6 py-3 text-[11px] font-black outline-none focus:border-orange-500 transition-all cursor-pointer text-gray-900 hover:bg-gray-100 w-full pr-10"
                 />
                 <Calendar className="absolute right-4 top-1/2 -translate-y-1/2 text-orange-500 pointer-events-none" size={16} />
@@ -222,11 +244,11 @@ export default function ActivityList({
               {(searchParams.get("start_gte") || searchParams.get("end_lte")) && (
                 <button 
                   onClick={() => {
-                    const params = new URLSearchParams(searchParams.toString());
-                    params.delete("start_gte"); params.delete("end_lte");
-                    params.delete("start"); params.delete("end");
-                    router.push(`${pathname}?${params.toString()}`);
-                  }}
+  pushWithParams({
+    start_gte: null,
+    end_lte: null,
+  });
+}}
                   className="px-6 py-3 text-[11px] font-black text-red-500 border border-red-100 rounded-2xl hover:bg-red-500 hover:text-white transition-all uppercase flex items-center gap-2"
                 >
                   <X size={14} /> {t.resetDate}
