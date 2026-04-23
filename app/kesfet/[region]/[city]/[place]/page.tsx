@@ -204,6 +204,26 @@ export default async function Page({ params }: { params: Promise<Params> }) {
                 ))}
               </ul>
             </div>
+            <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg hover:shadow-xl transition-all">
+  <div className="flex items-center gap-3 mb-4">
+    <Calendar size={20} />
+    <h3 className="font-serif font-bold text-xl">
+      {cityName} {t.eventsTitle}
+    </h3>
+  </div>
+
+  <p className="text-sm opacity-90 mb-6">
+    {t.eventsText}
+  </p>
+
+  <Link
+    href={`/aktiviteler?city=${slugify(city)}`}
+    className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+  >
+    {cityName} {t.eventsTitle}
+    <ArrowRight size={18} />
+  </Link>
+</div>
             {/* Nearby Places Card */}
             <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
               <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
