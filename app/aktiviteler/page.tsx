@@ -92,6 +92,10 @@ export default async function ActivitiesPage({ searchParams }: any) {
   );
 
   const cityData = slugifiedCityMap[citySlug];
+  if (!cityData) {
+   console.log("Bulunamayan şehir slug'ı:", citySlug);
+   console.log("Elimizdeki harita anahtarları:", Object.keys(slugifiedCityMap));
+}
   const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
   let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
   
@@ -119,7 +123,7 @@ export default async function ActivitiesPage({ searchParams }: any) {
 
     // Kendi API Route'umuza istek atıyoruz
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
-  next: { revalidate: 900 }, // 🔥 15 dk
+  cache: 'no-store',
 });
 
     if (res.ok) {

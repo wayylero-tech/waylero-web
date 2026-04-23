@@ -3,8 +3,9 @@
 import { useLang } from "../context/LanguageContext";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react"; // 1. Hook'ları ekledik
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans-variable",
@@ -32,14 +33,11 @@ export default function ClientLayout({
 const activeLang = contextLang || "tr";
 
 
-  const searchParams = useSearchParams(); // Bunu fonksiyonun dışına, component'in içine koy
-
-const switchLanguage = (lang: "tr" | "en") => {
+  const switchLanguage = (lang: "tr" | "en") => {
   setLang(lang);
 
-  // Mevcut parametreleri (?city=istanbul gibi) güvenli bir şekilde al
-  const currentParams = searchParams.toString();
-  const queryString = currentParams ? `?${currentParams}` : "";
+  // 1. Mevcut parametreleri (query string) al (?city=istanbul gibi)
+  const currentSearchParams = typeof window !== "undefined" ? window.location.search : "";
 
   const cleanPath = pathname.replace(/^\/en/, "");
 
@@ -50,18 +48,30 @@ const switchLanguage = (lang: "tr" | "en") => {
       ? "/en"
       : `/en${cleanPath}`;
 
-  // Yeni path'e parametreleri yapıştırıp öyle yönlendir
-  router.push(`${newPath}${queryString}`);
+  // 2. Yeni path'in sonuna mevcut parametreleri geri ekle
+  router.push(`${newPath}${currentSearchParams}`);
 };
 
+// Sayfa ilk yüklendiğinde veya pathname değiştiğinde parametre kaybını önlemek için:
 useEffect(() => {
   if (pathname.startsWith("/en")) {
     setLang("en");
   } else {
     setLang("tr");
   }
-  // BURADA router.push SİLDİK. Sadece dili güncellemesi yeterli.
-}, [pathname, setLang]);
+  // Burada router.push YAPMA. Sadece context'teki dili güncelle.
+  // Eğer burada router.push(pathname) dersen parametreleri yine silersin.
+}, [pathname]);
+
+  const isHome = pathname === "/" || pathname === "/en";
+
+  useEffect(() => {
+  if (pathname.startsWith("/en")) {
+    setLang("en");
+  } else {
+    setLang("tr");
+  }
+}, [pathname]);
 
 
 
