@@ -81,7 +81,7 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
   const lang = await getLanguage();
 
-  const citySlug = params.city || "";
+  const citySlug = (params.city || "").toLowerCase();
   
   // 🔥 GÜNCELLEME: Burası parametreleri yeni isimlerle yakalamalı
   const startDate = params.start_gte || params.start || ""; 
@@ -91,7 +91,7 @@ export default async function ActivitiesPage({ searchParams }: any) {
     Object.entries(cityMap).map(([key, value]) => [slugify(key), { id: value, originalName: key }])
   );
 
-  const cityData = slugifiedCityMap[citySlug];
+const cityData = slugifiedCityMap[citySlug.toLowerCase()];
   const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
   let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
   
