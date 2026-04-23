@@ -1,19 +1,20 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import Link from "next/link";
 import { useLang } from "../context/LanguageContext";
 import exploreMeta from "../data/explore-meta.json";
+import { Sparkles, Map, Globe2 } from "lucide-react";
 
 const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dewd42ppf/image/upload";
 
-// Cloudinary helper
+// Cloudinary helper (Aynen Korundu)
 const getCloudinaryUrl = (path: string, width: number) => {
   if (!path) return "";
   return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(/^\/+/, "")}`;
 };
 
-// Google Analytics click tracker
+// Google Analytics click tracker (Aynen Korundu)
 const trackClick = (type: string, label: string, destination?: string) => {
   if (typeof window === "undefined") return;
 
@@ -25,7 +26,7 @@ const trackClick = (type: string, label: string, destination?: string) => {
   });
 };
 
-// COUNTRY DICTIONARY
+// COUNTRY DICTIONARY (Aynen Korundu)
 const countryNames: Record<string, { tr: string; en: string }> = {
   turkiye: { tr: "Türkiye", en: "Turkey" },
   amerika: { tr: "Amerika", en: "USA" },
@@ -67,16 +68,13 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   misir: { tr: "Mısır", en: "Egypt" },
   belarus: { tr: "Belarus", en: "Belarus" },
   kktc: { tr: "KKTC", en: "Northern Cyprus" },
- bae: { tr: "BAE", en: "UAE" },
-peru: { tr: "Peru", en: "Peru" },
+  bae: { tr: "BAE", en: "UAE" },
+  peru: { tr: "Peru", en: "Peru" },
 };
 
-type CountrySlug = keyof typeof countryNames;
-
-export default function KesfetClient({ initialQuery, lang: propLang }: any) {
+export default function KesfetClient({ lang: propLang }: any) {
   const { lang: contextLang } = useLang();
   const lang = propLang || contextLang || "tr";
-  const [searchQuery, setSearchQuery] = useState(initialQuery || "");
 
   const t = {
     tr: {
@@ -84,102 +82,115 @@ export default function KesfetClient({ initialQuery, lang: propLang }: any) {
       subTitle: "Binlerce nokta, sınırsız macera.",
       city: "Şehir",
       point: "Nokta",
+      badge: "KEŞİF MODU",
     },
     en: {
       title: "Explore World",
       subTitle: "Thousands of spots, endless adventure.",
       city: "City",
       point: "Points",
+      badge: "EXPLORE MODE",
     },
   }[lang as "tr" | "en"];
 
   const getLocalizedLink = (path: string) =>
     lang === "tr" ? path : `/${lang}${path}`;
 
-  // FILTERED COUNTRIES
- const filteredCountries = useMemo(() => {
-  return Object.entries(exploreMeta).filter(([slug, data]: any) => {
-    const name =
-      countryNames[slug as keyof typeof countryNames]?.[
-        lang as "tr" | "en"
-      ] || slug.replace(/-/g, " ");
+  const allCountries = useMemo(() => {
+    return Object.entries(exploreMeta);
+  }, []);
 
-    return name.toLowerCase().includes(searchQuery.toLowerCase());
-  });
-}, [searchQuery, lang]);
-
-  // COUNTRY NAME HELPER
   const getCountryName = (slug: string) => {
+    return countryNames[slug as keyof typeof countryNames]?.[lang as "tr" | "en"] || slug.replace(/-/g, " ");
+  };
+
   return (
-    countryNames[slug as keyof typeof countryNames]?.[
-      lang as "tr" | "en"
-    ] || slug.replace(/-/g, " ")
-  );
-};
-  return (
-    <main className="max-w-7xl mx-auto px-4 py-12 min-h-screen">
-      <header className="mb-16">
-  <p className="text-blue-600 font-bold tracking-widest text-sm mb-2">
-    KEŞFET
-  </p>
+    <main className="min-h-screen bg-white">
+      {/* 1. HERO SECTION: Waylero Signature Diagonal Gradient */}
+      <section className="pt-24 pb-48 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
+        <div className="container mx-auto px-6 text-center">
+          <div className="inline-flex items-center gap-2 px-5 py-2 bg-white/60 backdrop-blur-md text-blue-700 text-[10px] font-black uppercase tracking-[0.2em] rounded-full mb-8 border border-blue-100 shadow-sm">
+            <Globe2 size={14} className="animate-spin-slow" />
+            <span>{t.badge}</span>
+          </div>
+          <h1 className="text-6xl md:text-8xl font-serif font-bold text-gray-900 mb-8 tracking-tight uppercase">
+            {t.title}
+          </h1>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium opacity-90">
+            {t.subTitle}
+          </p>
+        </div>
+      </section>
 
-  <h1 className="text-5xl md:text-7xl font-black text-gray-900 tracking-tighter mb-4 italic">
-    {t.title}
-  </h1>
-
-  <p className="text-xl text-gray-500 font-medium">{t.subTitle}</p>
-</header>
-
-      {/* GRID */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-        {filteredCountries.map(([slug, data]: any, index) => (
-          <Link
-            key={slug}
-            href={getLocalizedLink(`/kesfet/${slug}`)}
-            className="relative group block overflow-hidden rounded-2xl aspect-[3/4] shadow-lg bg-gray-200"
-            onClick={() => trackClick("country", slug, `/kesfet/${slug}`)}
-          >
-            {/* IMAGE */}
-            {data.coverPath ? (
-              <img
-                src={getCloudinaryUrl(data.coverPath, 500)}
-                srcSet={`
-                  ${getCloudinaryUrl(data.coverPath, 300)} 300w,
-                  ${getCloudinaryUrl(data.coverPath, 500)} 500w,
-                  ${getCloudinaryUrl(data.coverPath, 700)} 700w
-                `}
-                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                alt={`${slug} kapak`}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading={index < 4 ? "eager" : "lazy"}
-              />
-            ) : (
-              <div className="absolute inset-0 flex items-center justify-center bg-gray-300 text-gray-500 text-xs font-bold uppercase">
-                Resim Yok
+      {/* 2. COUNTRY GRID: Arama barı kalktı, grid doğrudan -mt-24 ile yukarı biniyor */}
+      <section className="container mx-auto px-6 -mt-24 pb-32 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
+          {allCountries.map(([slug, data]: any, index) => (
+            <Link
+              key={slug}
+              href={getLocalizedLink(`/kesfet/${slug}`)}
+              className="group relative flex flex-col bg-white rounded-[3rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl hover:shadow-black/5 transition-all duration-500 transform hover:-translate-y-3"
+              onClick={() => trackClick("country", slug, `/kesfet/${slug}`)}
+            >
+              {/* IMAGE AREA */}
+              <div className="relative aspect-[4/5] overflow-hidden">
+                {data.coverPath ? (
+                  <img
+                    src={getCloudinaryUrl(data.coverPath, 600)}
+                    alt={`${slug} kapak`}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+                    loading={index < 6 ? "eager" : "lazy"}
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
+                    <Map size={40} className="text-gray-300" />
+                  </div>
+                )}
+                
+                {/* MODERN GRADIENT OVERLAY */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
+                
+                {/* TOP BADGE: Şehir Sayısı */}
+                <div className="absolute top-6 left-6">
+                  <div className="bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl flex items-center gap-2 shadow-sm">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
+                    <span className="text-[10px] font-black text-gray-900 uppercase tracking-widest">
+                      {data.cityCount} {t.city}
+                    </span>
+                  </div>
+                </div>
               </div>
-            )}
 
-            {/* DARK OVERLAY */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-90" />
-
-            {/* CONTENT */}
-            <div className="absolute bottom-5 left-5 right-5 z-10">
-              <h2 className="text-white text-xl md:text-2xl font-black mb-2 drop-shadow-md tracking-tight">
-                {getCountryName(slug)}
-              </h2>
-
-              <div className="flex flex-wrap gap-1.5">
-                <span className="px-2.5 py-1 bg-white/20 backdrop-blur-lg rounded-md text-white text-[9px] font-bold uppercase border border-white/10">
-                  {data.cityCount} {t.city}
-                </span>
-                <span className="px-2.5 py-1 bg-blue-600 rounded-md text-white text-[9px] font-bold uppercase">
-                  {data.placeCount} {t.point}
-                </span>
+              {/* CONTENT AREA */}
+              <div className="absolute bottom-0 left-0 right-0 p-10 z-10">
+                <div className="flex items-end justify-between gap-4">
+                  <div>
+                    <p className="text-blue-400 text-[10px] font-black uppercase tracking-[0.3em] mb-2 drop-shadow-sm">
+                      EXPLORE
+                    </p>
+                    <h2 className="text-3xl md:text-4xl font-serif font-bold text-white tracking-tight leading-none group-hover:text-blue-200 transition-colors">
+                      {getCountryName(slug)}
+                    </h2>
+                  </div>
+                  <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex flex-col items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform">
+                    <span className="text-lg font-black leading-none">{data.placeCount}</span>
+                    <span className="text-[8px] font-bold uppercase tracking-tighter opacity-80">{t.point}</span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </Link>
-        ))}
-      </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* 3. FOOTER DECORATION */}
+      <footer className="container mx-auto px-6 pb-20 text-center">
+        <div className="h-px bg-gradient-to-r from-transparent via-gray-100 to-transparent mb-10" />
+        <div className="flex flex-col items-center gap-4">
+          <Sparkles size={24} className="text-orange-500 opacity-20" />
+          <p className="text-gray-400 text-[10px] font-bold uppercase tracking-[0.2em]">Waylero Travel Platform &copy; 2026</p>
+        </div>
+      </footer>
     </main>
   );
 }

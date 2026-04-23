@@ -1,0 +1,179 @@
+[
+  {
+    "id": "topkapi-sarayi-hizli-giris",
+    "city": "istanbul",
+    "title": {
+      "tr": "Topkapı Sarayı & Harem: Sıra Beklemeden Hızlı Erişim ve Sesli Rehber",
+      "en": "Topkapi Palace & Harem: Skip-the-Line Fast Access with Audio Guide"
+    },
+    "tag": {
+      "tr": "Sıra Beklemeden Giriş",
+      "en": "Skip the Line Entry"
+    },
+    "imageUrl": "assets/genel/topkapı.webp",
+    "rating": 4.2,
+    "reviewCount": 2845,
+    "duration": {
+      "tr": "3 saat",
+      "en": "3 hours"
+    },
+    "features": {
+      "tr": ["Ücretsiz İptal", "Sesli Rehber Dahil"],
+      "en": ["Free Cancellation", "Audio Guide Included"]
+    },
+    "price": {
+      "original": 4385,
+      "discounted": 3727,
+      "currency": "TRY"
+    },
+    "link": "https://www.getyourguide.com/istanbul-l56/istanbul-topkapi-palace-and-harem-ticket-with-audio-guide-t192789/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  },
+  {
+    "id": "istanbul-semazen-toreni",
+    "city": "istanbul",
+    "title": {
+      "tr": "İstanbul: Ayasofya'nın Yanında Semazen Töreni",
+      "en": "Istanbul: Whirling Dervish Ceremony Next to Hagia Sophia"
+    },
+    "tag": {
+      "tr": "En popüler seçim",
+      "en": "Most Popular Choice"
+    },
+    "imageUrl": "assets/images/semazen.webp",
+    "rating": 4.5,
+    "reviewCount": 990,
+    "duration": {
+      "tr": "55 dakika",
+      "en": "55 minutes"
+    },
+    "features": {
+      "tr": ["Sıra beklemeden giriş"],
+      "en": ["Skip-the-line entry"]
+    },
+    "price": {
+      "original": 1151,
+      "discounted": 863,
+      "currency": "TRY"
+    },
+    "link": "https://www.getyourguide.com/istanbul-l56/istanbul-whirling-dervish-ceremony-next-to-hagia-sophia-t703555/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  },
+  {
+    "id": "ayasofya-yerebatan-kombo-opsiyonel-topkapi",
+    "city": "istanbul",
+    "title": {
+      "tr": "Kombo: Ayasofya + Yerebatan Sarnıcı (İsteğe Bağlı Topkapı Sarayı)",
+      "en": "Combo: Hagia Sophia + Basilica Cistern (Optional Topkapi Palace)"
+    },
+    "tag": {
+      "tr": "Kombine Deneyim",
+      "en": "Combo Experience"
+    },
+    "imageUrl": "assets/genel/ayasofya.webp",
+    "rating": 4.3,
+    "reviewCount": 2092,
+    "duration": {
+      "tr": "3 gün",
+      "en": "3 days"
+    },
+    "features": {
+      "tr": [
+        "Ücretsiz İptal",
+        "Şimdi ayırt, sonra öde",
+        "Sıra beklemeden giriş",
+        "Sesli rehber dahil"
+      ],
+      "en": [
+        "Free Cancellation",
+        "Reserve now, pay later",
+        "Skip-the-line entry",
+        "Audio guide included"
+      ]
+    },
+    "price": {
+      "original": 3773,
+      "discounted": 3773,
+      "currency": "TRY"
+    },
+    "link": "https://www.getyourguide.com/istanbul-l56/combo-hagia-sophiabasilica-cistern-optional-topkapi-palace-t949446/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  },
+{
+  "id": "yerebatan-sarnici-hizli-giris-sesli-rehber",
+  "city": "istanbul",
+  "title": {
+    "tr": "İstanbul: Yerebatan Sarnıcı'na Hızlı Giriş ve Sesli Rehber",
+    "en": "Istanbul: Skip-the-Line Basilica Cistern Entry with Audio Guide"
+  },
+  "tag": {
+    "tr": "Hızlı Giriş",
+    "en": "Fast Track Entry"
+  },
+  "imageUrl": "assets/genel/istanbul.webp",
+  "rating": 4.5,
+  "reviewCount": 8173,
+  "duration": {
+    "tr": "1 gün",
+    "en": "1 day"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Sıra beklemeden giriş",
+      "Sesli rehber dahil"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Skip-the-line entry",
+      "Audio guide included"
+    ]
+  },
+  "price": {
+    "original": 2023,
+    "discounted": 2023,
+    "currency": "TRY"
+  },
+  "link": "https://www.getyourguide.com/istanbul-l56/istanbul-basilica-cistern-fast-track-entry-and-audio-guide-t523484/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "istanbul-bogaz-gunduz-gun-batimi-yat-turu-sesli-rehber",
+  "city": "istanbul",
+  "title": {
+    "tr": "İstanbul: Gündüz veya Gün Batımı Gezi Turu ve Sesli Rehber",
+    "en": "Istanbul: Day or Sunset Cruise Tour with Audio Guide"
+  },
+  "tag": {
+    "tr": "En Çok Oy Alan",
+    "en": "Top Rated"
+  },
+  "imageUrl": "assets/genel/istanbul2.webp",
+  "rating": 4.8,
+  "reviewCount": 15809,
+  "duration": {
+    "tr": "2 saat",
+    "en": "2 hours"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Sesli rehber dahil",
+      "Canlı rehber",
+      "İçecek ve atıştırmalık opsiyonları"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Audio guide included",
+      "Live guide",
+      "Optional drinks and snacks"
+    ]
+  },
+  "price": {
+    "original": 547,
+    "discounted": 383,
+    "currency": "TRY"
+  },
+  "link": "https://www.getyourguide.com/istanbul-l56/istanbul-daytime-or-sunset-sightseeing-cruise-audio-guide-t653610/?partner_id=WKUIAKS&utm_medium=online_publisher"
+}
+]

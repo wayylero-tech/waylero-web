@@ -57,3 +57,11 @@ body {
   animation: blog-slider 30s linear infinite;
   will-change: transform;
 }
+
+/* =========================
+   HERO CLIP SHAPE
+   ========================= */
+
+.clip-hero {
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}

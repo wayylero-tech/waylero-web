@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import { headers } from "next/headers";
 import "./globals.css";
 
@@ -7,6 +7,7 @@ import ClientLayout from "./components/ClientLayout";
 import ClientProviders from "./ClientProviders";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
+// Font değişkenlerini tanımlıyoruz
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -14,6 +15,12 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+// Playfair Display fontunu değişken olarak yüklüyoruz
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
 });
 
@@ -50,10 +57,13 @@ export default async function RootLayout({
 
   return (
     <html lang={displayLang} suppressHydrationWarning>
+      {/* Tüm font değişkenlerini burada body class'ına ekliyoruz. 
+        Tailwind config dosyanızdaki "var(--font-playfair)" ile 
+        buradaki variable ismi eşleştiği için fontunuz otomatik olarak çalışacaktır.
+      */}
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}
       >
-        {/* 🔥 GOOGLE ANALYTICS (MUTLAKA ROOT LEVEL) */}
         <GoogleAnalytics />
 
         <ClientProviders>

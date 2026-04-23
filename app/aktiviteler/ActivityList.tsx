@@ -4,8 +4,9 @@ import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { cityMap } from "@/lib/cityMap";
+import { MapPin, ChevronRight, Sparkles, X, Calendar } from 'lucide-react';
 
-// 🔥 Linkleri Türkçe karakterden arındıran fonksiyon
+// 🔥 Linkleri Türkçe karakterden arındıran fonksiyon (Aynen Korundu)
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
     'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u',
@@ -47,7 +48,7 @@ const translations = {
     buyTicket: "BUY TICKET →",
     otherCities: "+ OTHER CITIES",
     liveExp: "LIVE EXPERIENCES",
-    soon: "Date TBA", // To Be Announced
+    soon: "Date TBA",
     noEvents: "No events found for these dates...",
     noVenue: "Venue Not Specified",
     event: "Event",
@@ -146,23 +147,18 @@ export default function ActivityList({
     }
   };
 
-  // 🔥 GÜNCELLEME: Parametre isimleri start_gte ve end_lte oldu
   const handleDateRange = (startOffset: number, endOffset: number) => {
     const start = new Date();
     start.setDate(start.getDate() + startOffset);
     const end = new Date();
     end.setDate(end.getDate() + endOffset);
-    
     const startStr = start.toISOString().split('T')[0];
     const endStr = end.toISOString().split('T')[0];
-    
     const params = new URLSearchParams(searchParams.toString());
     params.set("start_gte", startStr);
     params.set("end_lte", endStr);
-    // Eskileri temizle
     params.delete("start");
     params.delete("end");
-    
     router.push(`${pathname}?${params.toString()}`);
   };
 
@@ -175,140 +171,193 @@ export default function ActivityList({
   };
 
   return (
-    <main className="min-h-screen bg-[#0A0A0A] text-white p-4 md:p-12">
-      <div className="max-w-[1400px] mx-auto">
-        <header className="flex flex-col items-center mb-10">
-          <h1 className="text-4xl md:text-6xl font-black uppercase text-center">
+    <main className="min-h-screen bg-white text-gray-900">
+      {/* 1. HERO SECTION: İmzalı iki renkli gradyan */}
+      <section className="pt-24 pb-40 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
+        <div className="container mx-auto px-6 text-center">
+          <div className="inline-flex items-center gap-2 px-5 py-2 bg-white/60 backdrop-blur-md text-orange-700 text-[10px] font-black uppercase tracking-[0.2em] rounded-full mb-8 border border-orange-100 shadow-sm">
+            <Sparkles size={14} className="animate-pulse" />
+            <span>{t.liveExp}</span>
+          </div>
+          <h1 className="text-5xl md:text-8xl font-serif font-bold text-gray-900 mb-8 tracking-tight">
             {displayCityName}
           </h1>
-          <p className="text-yellow-500 text-xs mt-2 opacity-80 text-center">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium opacity-90">
             {t.subtitle.replace("{city}", displayCityName)}
           </p>
+        </div>
+      </section>
 
-          <div className="flex gap-2 mt-8 flex-wrap justify-center border-t border-white/5 pt-6 w-full max-w-2xl">
-            <button onClick={() => handleDateRange(0, 7)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all uppercase">
-              {t.thisWeek}
-            </button>
-            <button onClick={() => handleDateRange(7, 14)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all uppercase">
-              {t.nextWeek}
-            </button>
-            <button onClick={() => handleDateRange(14, 45)} className="px-4 py-2 text-[10px] font-bold border border-white/10 rounded-full hover:bg-white hover:text-black transition-all uppercase">
-              {t.nextMonth}
-            </button>
-            
-            <div className="relative group min-w-[140px]">
-              <input 
-                type="date" 
-                // 🔥 GÜNCELLEME: Değeri yeni parametreden oku
-                value={searchParams.get("start_gte") || ""}
-                onChange={(e) => {
-                  const params = new URLSearchParams(searchParams.toString());
-                  params.set("start_gte", e.target.value);
-                  params.set("end_lte", e.target.value);
-                  router.push(`${pathname}?${params.toString()}`);
-                }}
-                className="appearance-none bg-[#1A1A1A] border border-white/10 rounded-full px-4 py-2 text-[10px] font-bold outline-none focus:border-yellow-500 transition-all cursor-pointer text-white hover:bg-[#222] pr-10 w-full"
-                style={{ colorScheme: "dark" }}
-              />
-              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
-                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" className="text-yellow-500">
-                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" strokeWidth="2"></rect>
-                  <line x1="16" y1="2" x2="16" y2="6" strokeWidth="2"></line>
-                  <line x1="8" y1="2" x2="8" y2="6" strokeWidth="2"></line>
-                  <line x1="3" y1="10" x2="21" y2="10" strokeWidth="2"></line>
-                </svg>
+      {/* 2. FILTER & CITY SELECTOR (Üstüne Binen Kısım) */}
+      <section className="container mx-auto px-6 -mt-24 mb-16 relative z-10">
+        <div className="bg-white p-6 md:p-8 rounded-[3rem] shadow-xl shadow-black/5 border border-gray-100">
+          <div className="flex flex-col gap-8">
+            {/* Tarih Butonları & Input */}
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <button onClick={() => handleDateRange(0, 7)} className="px-6 py-3 text-[11px] font-black border border-gray-100 rounded-2xl hover:bg-black hover:text-white transition-all uppercase tracking-wider">
+                {t.thisWeek}
+              </button>
+              <button onClick={() => handleDateRange(7, 14)} className="px-6 py-3 text-[11px] font-black border border-gray-100 rounded-2xl hover:bg-black hover:text-white transition-all uppercase tracking-wider">
+                {t.nextWeek}
+              </button>
+              <button onClick={() => handleDateRange(14, 45)} className="px-6 py-3 text-[11px] font-black border border-gray-100 rounded-2xl hover:bg-black hover:text-white transition-all uppercase tracking-wider">
+                {t.nextMonth}
+              </button>
+              
+              <div className="relative group min-w-[180px]">
+                <input 
+                  type="date" 
+                  value={searchParams.get("start_gte") || ""}
+                  onChange={(e) => {
+                    const params = new URLSearchParams(searchParams.toString());
+                    params.set("start_gte", e.target.value);
+                    params.set("end_lte", e.target.value);
+                    router.push(`${pathname}?${params.toString()}`);
+                  }}
+                  className="appearance-none bg-gray-50 border border-gray-100 rounded-2xl px-6 py-3 text-[11px] font-black outline-none focus:border-orange-500 transition-all cursor-pointer text-gray-900 hover:bg-gray-100 w-full pr-10"
+                />
+                <Calendar className="absolute right-4 top-1/2 -translate-y-1/2 text-orange-500 pointer-events-none" size={16} />
               </div>
+
+              {(searchParams.get("start_gte") || searchParams.get("end_lte")) && (
+                <button 
+                  onClick={() => {
+                    const params = new URLSearchParams(searchParams.toString());
+                    params.delete("start_gte"); params.delete("end_lte");
+                    params.delete("start"); params.delete("end");
+                    router.push(`${pathname}?${params.toString()}`);
+                  }}
+                  className="px-6 py-3 text-[11px] font-black text-red-500 border border-red-100 rounded-2xl hover:bg-red-500 hover:text-white transition-all uppercase flex items-center gap-2"
+                >
+                  <X size={14} /> {t.resetDate}
+                </button>
+              )}
             </div>
 
-            {/* 🔥 GÜNCELLEME: Reset kontrolü yeni parametrelere göre */}
-            {(searchParams.get("start_gte") || searchParams.get("end_lte")) && (
+            {/* Hızlı Şehirler */}
+            <div className="flex flex-wrap justify-center gap-2 pt-6 border-t border-gray-50">
+              {cities.map((c) => (
+                <button
+                  key={c}
+                  onClick={() => handleCityChange(c)}
+                  className={`px-5 py-2.5 text-xs font-bold border rounded-2xl transition-all ${activeCity === c ? "bg-black text-white border-black" : "bg-white text-gray-500 border-gray-100 hover:border-gray-300"}`}
+                >
+                  {c}
+                </button>
+              ))}
               <button 
-                onClick={() => {
-                  const params = new URLSearchParams(searchParams.toString());
-                  params.delete("start_gte");
-                  params.delete("end_lte");
-                  params.delete("start"); // Tedbir amaçlı eskileri de sil
-                  params.delete("end");
-                  router.push(`${pathname}?${params.toString()}`);
-                }}
-                className="px-4 py-2 text-[10px] font-bold text-red-500 border border-red-500/20 rounded-full hover:bg-red-500 hover:text-white transition-all uppercase flex items-center gap-1"
+                onClick={() => setShowCityList(!showCityList)} 
+                className={`px-5 py-2.5 text-xs font-bold border rounded-2xl transition-all ${showCityList ? "bg-orange-500 text-white border-orange-500" : "border-orange-200 text-orange-600 hover:bg-orange-50"}`}
               >
-                <span>✕</span> {t.resetDate}
+                {t.otherCities}
               </button>
-            )}
+            </div>
           </div>
-          {/* ... Şehir listesi ve diğer kısımlar aynı kalıyor ... */}
-          <div className="flex gap-2 mt-6 flex-wrap justify-center">
-            {cities.map((c) => (
-              <button
-                key={c}
-                onClick={() => handleCityChange(c)}
-                className={`px-4 py-2 text-xs border rounded-xl transition-all ${activeCity === c ? "bg-white text-black border-white" : "border-white/10 hover:border-white/40"}`}
-              >
-                {c}
-              </button>
-            ))}
-            <button onClick={() => setShowCityList(!showCityList)} className="px-4 py-2 text-xs border border-yellow-500 text-yellow-400 rounded-xl hover:bg-yellow-500 hover:text-black transition-all">
-              {t.otherCities}
-            </button>
-          </div>
-        </header>
+        </div>
 
+        {/* Diğer Şehirler Listesi (Açılır Panel) */}
         {showCityList && (
-          <div className="mt-6 w-full max-w-3xl mx-auto bg-[#111] border border-white/10 rounded-2xl p-4 max-h-[300px] overflow-y-auto shadow-2xl mb-10">
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+          <div className="mt-4 w-full bg-white border border-gray-100 rounded-[2.5rem] p-8 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-300">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
               {otherCities.map((city) => (
-                <button key={city} onClick={() => handleCityChange(city)} className="text-xs px-3 py-2 rounded-lg border border-white/10 hover:border-yellow-500 hover:text-yellow-400 transition-all">{city}</button>
+                <button 
+                  key={city} 
+                  onClick={() => handleCityChange(city)} 
+                  className="text-[11px] font-bold px-4 py-3 rounded-xl border border-gray-50 hover:border-orange-500 hover:text-orange-600 hover:bg-orange-50 transition-all text-left truncate uppercase tracking-tight"
+                >
+                  {city}
+                </button>
               ))}
             </div>
           </div>
         )}
+      </section>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10">
-          {events.length > 0 ? (
-            events.map((event) => (
-              <div key={event.id} className="bg-[#121212] rounded-2xl overflow-hidden border border-white/10 flex flex-col transition-all duration-300 hover:scale-[1.03] hover:-translate-y-2 hover:border-white/30 hover:shadow-2xl">
-                <div className="relative h-72">
-                  <Image src={event.image} alt={event.name} fill sizes="(max-width:768px) 100vw, 25vw" className="object-cover" />
-                </div>
-                <div className="p-5 flex flex-col flex-grow">
-                  <h2 className="text-lg font-bold mb-1 line-clamp-2">{event.name}</h2>
-                  <p className="text-xs text-gray-400 mb-3">{event.venue}</p>
-                  <div className="text-xs text-yellow-400 mb-4">
-                    {event.date ? (
-                      <>{event.date.toLocaleDateString(lang === "tr" ? "tr-TR" : "en-US", { day: "2-digit", month: "short" })} • {event.time}</>
-                    ) : t.soon}
+      {/* 3. EVENTS GRID */}
+      <section className="container mx-auto px-6 pb-24">
+        {events.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-10">
+            {events.map((event) => (
+              <div key={event.id} className="group bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 hover:shadow-2xl hover:shadow-black/5 transition-all duration-500 transform hover:-translate-y-2">
+                <div className="relative h-72 overflow-hidden">
+                  <Image 
+                    src={event.image} 
+                    alt={event.name} 
+                    fill 
+                    sizes="(max-width:768px) 100vw, 25vw" 
+                    className="object-cover group-hover:scale-110 transition-transform duration-1000 ease-out" 
+                  />
+                  {/* Tarih Badge */}
+                  <div className="absolute top-5 left-5">
+                    <div className="bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-sm text-center">
+                      <span className="block text-[10px] font-black text-orange-600 uppercase">
+                        {event.date ? event.date.toLocaleDateString(lang === "tr" ? "tr-TR" : "en-US", { month: "short" }) : "-"}
+                      </span>
+                      <span className="block text-lg font-black text-gray-900 leading-none">
+                        {event.date ? event.date.getDate() : "-"}
+                      </span>
+                    </div>
                   </div>
-                  <a href={event.url} target="_blank" rel="noopener noreferrer" className="mt-auto bg-white text-black py-3 rounded-xl text-center font-bold hover:bg-yellow-500 transition-all">{t.buyTicket}</a>
+                </div>
+                
+                <div className="p-8 flex flex-col flex-grow">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-[10px] font-black text-blue-500 uppercase tracking-widest">{event.category}</span>
+                  </div>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2 min-h-[56px] leading-snug group-hover:text-orange-600 transition-colors">
+                    {event.name}
+                  </h2>
+                  <div className="flex items-center gap-2 text-gray-400 mb-6">
+                    <MapPin size={14} className="text-gray-300" />
+                    <p className="text-xs font-medium truncate uppercase tracking-tighter">{event.venue}</p>
+                  </div>
+                  
+                  <a 
+                    href={event.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="mt-auto flex items-center justify-between bg-gray-50 group-hover:bg-black text-gray-900 group-hover:text-white p-5 rounded-2xl font-black text-xs uppercase tracking-widest transition-all"
+                  >
+                    {t.buyTicket}
+                    <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  </a>
                 </div>
               </div>
-            ))
-          ) : (
-            <div className="col-span-full text-center text-gray-500 py-20">{t.noEvents}</div>
-          )}
-        </div>
-
-        {/* 🔥 GÜNCELLEME: hasMore kontrolü yeni parametrelere göre */}
-        {hasMore && events.length >= 50 && (searchParams.get("city") || searchParams.get("start_gte")) && (
-          <div className="flex justify-center mt-12 pb-10">
-            <button 
-              onClick={loadMore}
-              disabled={loading}
-              className="px-10 py-4 border-2 border-yellow-500 text-yellow-500 rounded-2xl font-black hover:bg-yellow-500 hover:text-black transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-widest text-sm"
-            >
-              {loading ? t.loading : t.loadMore}
-            </button>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-40 bg-gray-50 rounded-[3rem] border-2 border-dashed border-gray-200">
+            <p className="text-gray-400 font-serif italic text-lg">{t.noEvents}</p>
           </div>
         )}
 
-        <footer className="mt-16 text-center text-white text-xs md:text-sm opacity-80 pb-10">
-          <p>
-            {t.footerText.split("{link}")[0]}
-            <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="text-yellow-500 underline font-bold">etkinlik.io</a>
-            {t.footerText.split("{link}")[1]}
-          </p>
-        </footer>
-      </div>
+        {/* 4. LOAD MORE */}
+        {hasMore && events.length >= 50 && (searchParams.get("city") || searchParams.get("start_gte")) && (
+          <div className="flex justify-center mt-20">
+            <button 
+              onClick={loadMore}
+              disabled={loading}
+              className="group flex items-center gap-4 px-12 py-5 bg-white border-2 border-gray-100 text-gray-900 rounded-[2rem] font-black hover:bg-black hover:text-white hover:border-black transition-all disabled:opacity-50 uppercase tracking-[0.2em] text-xs"
+            >
+              {loading ? t.loading : (
+                <>
+                  {t.loadMore}
+                  <ChevronRight size={20} className="group-hover:rotate-90 transition-transform" />
+                </>
+              )}
+            </button>
+          </div>
+        )}
+      </section>
+
+      {/* 5. FOOTER */}
+      <footer className="container mx-auto px-6 py-16 border-t border-gray-50 text-center">
+        <p className="text-gray-400 text-xs font-medium tracking-wide">
+          {t.footerText.split("{link}")[0]}
+          <a href="https://etkinlik.io" target="_blank" rel="noopener noreferrer" className="text-orange-500 font-bold hover:underline mx-1">etkinlik.io</a>
+          {t.footerText.split("{link}")[1]}
+        </p>
+      </footer>
     </main>
   );
 }

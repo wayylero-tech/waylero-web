@@ -6,6 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-geist-sans)", "sans-serif"],
+        mono: ["var(--font-geist-mono)", "monospace"],
+        serif: ["var(--font-playfair)", "serif"], 
+      },
       animation: {
         slider: "slider 35s linear infinite",
       },

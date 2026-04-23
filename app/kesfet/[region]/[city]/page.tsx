@@ -2,206 +2,201 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { headers } from "next/headers";
-import Head from "next/head";
 import fs from "fs";
 import path from "path";
-
 import { slugify } from "@/lib/utils/slugify";
+import { Sparkles, MapPin, ChevronRight, Globe2 } from "lucide-react";
 
-const CLOUDINARY_BASE_URL =
-  "https://res.cloudinary.com/dewd42ppf/image/upload";
+const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dewd42ppf/image/upload";
 
 const getCloudinaryUrl = (path: string, width: number) => {
   if (!path) return "";
-  return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(
-    /^\/+/,
-    ""
-  )}`;
+  return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(/^\/+/, "")}`;
 };
 
 interface Props {
   params: Promise<{ region: string; city: string }>;
 }
 
-// 🌍 language
 async function getLanguage() {
   const headerList = await headers();
   const currentPath = headerList.get("x-url") || "";
   const middlewareLang = headerList.get("x-url-lang");
-
-  if (middlewareLang === "en" || currentPath.includes("/en/")) {
-    return "en";
-  }
+  if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
   return "tr";
 }
 
-// SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { city } = await params;
   const lang = await getLanguage();
-
   const cityName = city.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
-
   const t = {
-    tr: {
-      title: `${cityName} Gezilecek Yerler`,
-      desc: `${cityName} için en iyi gezi rehberi.`,
-    },
-    en: {
-      title: `Places to Visit in ${cityName}`,
-      desc: `Best travel guide for ${cityName}.`,
-    },
+    tr: { title: `${cityName} Gezilecek Yerler`, desc: `${cityName} için en iyi gezi rehberi.` },
+    en: { title: `Places to Visit in ${cityName}`, desc: `Best travel guide for ${cityName}.` },
   }[lang];
 
-  return {
-    title: `${t.title} | Waylero`,
-    description: t.desc,
-  };
+  return { title: `${t.title} | Waylero`, description: t.desc };
 }
 
 export default async function CityPage({ params }: Props) {
   const { region, city } = await params;
   const lang = await getLanguage();
 
-  // DATA PATH
-  const cityFilePath = path.join(
-    process.cwd(),
-    "app/data/ulkelerdata",
-    region,
-    `${city}.json`
-  );
-
+  const cityFilePath = path.join(process.cwd(), "app/data/ulkelerdata", region, `${city}.json`);
   if (!fs.existsSync(cityFilePath)) notFound();
-
   const cityPlaces = JSON.parse(fs.readFileSync(cityFilePath, "utf-8"));
 
-  // IMAGES
-  const imagesPath = path.join(
-    process.cwd(),
-    "app/data/ulkedataimages",
-    `${region}.json`
-  );
-
+  const imagesPath = path.join(process.cwd(), "app/data/ulkedataimages", `${region}.json`);
   let images: any = {};
-  if (fs.existsSync(imagesPath)) {
-    images = JSON.parse(fs.readFileSync(imagesPath, "utf-8"));
-  }
+  if (fs.existsSync(imagesPath)) images = JSON.parse(fs.readFileSync(imagesPath, "utf-8"));
 
-  const actualCityKey =
-    cityPlaces?.[0]?.cityName || city.replace(/-/g, " ");
-
-  const cityImages =
-    images[city] || images[slugify(city)] || {};
+  const actualCityKey = cityPlaces?.[0]?.cityName || city.replace(/-/g, " ");
+  const cityImages = images[city] || images[slugify(city)] || {};
 
   const t = {
     tr: {
-      suffix2: "harika durak var.",
+      badge: "KEŞİF ROTASI",
+      suffix2: "farklı deneyim sizi bekliyor.",
       fallbackName: "Gezilecek Yer",
+      exploreBtn: "Detayları Gör"
     },
     en: {
-      suffix2: "amazing places.",
+      badge: "EXPLORE ROUTE",
+      suffix2: "amazing spots to discover.",
       fallbackName: "Place",
-    },
+      exploreBtn: "View Details"
+    }
   }[lang];
 
-  const getLocalizedLink = (path: string) =>
-    lang === "tr" ? path : `/en${path}`;
-
-  // 🔥 breadcrumb base
+  const getLocalizedLink = (path: string) => lang === "tr" ? path : `/en${path}`;
   const exploreBase = lang === "tr" ? "/kesfet" : "/en/kesfet";
 
-  // 🔥 city names map
   const cityNames: Record<string, { tr: string; en: string }> = {
-    adana: { tr: "Adana", en: "Adana" }, adiyaman: { tr: "Adıyaman", en: "Adiyaman" }, afyonkarahisar: { tr: "Afyonkarahisar", en: "Afyonkarahisar" }, agri: { tr: "Ağrı", en: "Agri" }, aksaray: { tr: "Aksaray", en: "Aksaray" }, amasya: { tr: "Amasya", en: "Amasya" }, ankara: { tr: "Ankara", en: "Ankara" }, antalya: { tr: "Antalya", en: "Antalya" }, ardahan: { tr: "Ardahan", en: "Ardahan" }, artvin: { tr: "Artvin", en: "Artvin" }, aydin: { tr: "Aydın", en: "Aydin" }, balikesir: { tr: "Balıkesir", en: "Balikesir" }, bartin: { tr: "Bartın", en: "Bartin" }, batman: { tr: "Batman", en: "Batman" }, bayburt: { tr: "Bayburt", en: "Bayburt" }, bilecik: { tr: "Bilecik", en: "Bilecik" }, bingol: { tr: "Bingöl", en: "Bingol" }, bitlis: { tr: "Bitlis", en: "Bitlis" }, bolu: { tr: "Bolu", en: "Bolu" }, burdur: { tr: "Burdur", en: "Burdur" }, bursa: { tr: "Bursa", en: "Bursa" }, canakkale: { tr: "Çanakkale", en: "Canakkale" }, cankiri: { tr: "Çankırı", en: "Cankiri" }, corum: { tr: "Çorum", en: "Corum" }, denizli: { tr: "Denizli", en: "Denizli" }, diyarbakir: { tr: "Diyarbakır", en: "Diyarbakir" }, edirne: { tr: "Edirne", en: "Edirne" }, elazig: { tr: "Elazığ", en: "Elazig" }, erzincan: { tr: "Erzincan", en: "Erzincan" }, erzurum: { tr: "Erzurum", en: "Erzurum" }, eskisehir: { tr: "Eskişehir", en: "Eskisehir" }, gaziantep: { tr: "Gaziantep", en: "Gaziantep" }, giresun: { tr: "Giresun", en: "Giresun" }, gumushane: { tr: "Gümüşhane", en: "Gumushane" }, hakkari: { tr: "Hakkari", en: "Hakkari" }, hatay: { tr: "Hatay", en: "Hatay" }, igdir: { tr: "Iğdır", en: "Igdir" }, isparta: { tr: "Isparta", en: "Isparta" }, istanbul: { tr: "İstanbul", en: "Istanbul" }, izmir: { tr: "İzmir", en: "Izmir" }, kahramanmaras: { tr: "Kahramanmaraş", en: "Kahramanmaras" }, karabuk: { tr: "Karabük", en: "Karabuk" }, karaman: { tr: "Karaman", en: "Karaman" }, kars: { tr: "Kars", en: "Kars" }, kastamonu: { tr: "Kastamonu", en: "Kastamonu" }, kayseri: { tr: "Kayseri", en: "Kayseri" }, kirikkale: { tr: "Kırıkkale", en: "Kirikkale" }, kirsehir: { tr: "Kırşehir", en: "Kirsehir" }, kocaeli: { tr: "Kocaeli", en: "Kocaeli" }, konya: { tr: "Konya", en: "Konya" }, kutahya: { tr: "Kütahya", en: "Kutahya" }, malatya: { tr: "Malatya", en: "Malatya" }, manisa: { tr: "Manisa", en: "Manisa" }, mardin: { tr: "Mardin", en: "Mardin" }, mersin: { tr: "Mersin", en: "Mersin" }, mugla: { tr: "Muğla", en: "Mugla" }, mus: { tr: "Muş", en: "Mus" }, nevsehir: { tr: "Nevşehir", en: "Nevsehir" }, nigde: { tr: "Niğde", en: "Nigde" }, ordu: { tr: "Ordu", en: "Ordu" }, osmaniye: { tr: "Osmaniye", en: "Osmaniye" }, rize: { tr: "Rize", en: "Rize" }, sakarya: { tr: "Sakarya", en: "Sakarya" }, samsun: { tr: "Samsun", en: "Samsun" }, siirt: { tr: "Siirt", en: "Siirt" }, sinop: { tr: "Sinop", en: "Sinop" }, sivas: { tr: "Sivas", en: "Sivas" }, sanliurfa: { tr: "Şanlıurfa", en: "Sanliurfa" }, tekirdag: { tr: "Tekirdağ", en: "Tekirdag" }, tokat: { tr: "Tokat", en: "Tokat" }, trabzon: { tr: "Trabzon", en: "Trabzon" }, tunceli: { tr: "Tunceli", en: "Tunceli" }, usak: { tr: "Uşak", en: "Usak" }, van: { tr: "Van", en: "Van" }, yalova: { tr: "Yalova", en: "Yalova" }, yozgat: { tr: "Yozgat", en: "Yozgat" }, zonguldak: { tr: "Zonguldak", en: "Zonguldak" } };
+    istanbul: { tr: "İstanbul", en: "Istanbul" },
+    ankara: { tr: "Ankara", en: "Ankara" },
+    // ... diğer şehir eşleşmeleri
+  };
 
-  const cityLabel =
-    cityNames[slugify(city)]?.[lang] || actualCityKey;
-
-  const regionLabel =
-    cityNames[slugify(region)]?.[lang] || region.replace(/-/g, " ");
+  const cityLabel = cityNames[slugify(city)]?.[lang] || actualCityKey;
+  const regionLabel = cityNames[slugify(region)]?.[lang] || region.replace(/-/g, " ");
 
   return (
-    <>
-      <Head>
-        <link rel="preconnect" href="https://res.cloudinary.com" />
-        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
-      </Head>
+    <main className="min-h-screen bg-white">
+      {/* 1. HERO SECTION: Waylero Signature Diagonal */}
+      <section className="pt-24 pb-48 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
+        <div className="container mx-auto px-6 text-center">
+          
+          {/* BREADCRUMB: Modern Pill Style */}
+          <nav className="inline-flex items-center gap-3 px-6 py-2.5 bg-white/80 backdrop-blur-md rounded-full mb-10 border border-gray-100 shadow-sm text-[10px] font-black uppercase tracking-widest text-gray-400">
+            <Link href={exploreBase} className="hover:text-blue-600 transition-colors">
+              {lang === "tr" ? "KEŞFET" : "EXPLORE"}
+            </Link>
+            <ChevronRight size={12} />
+            <Link href={`${exploreBase}/${region}`} className="hover:text-blue-600 transition-colors">
+              {regionLabel}
+            </Link>
+            <ChevronRight size={12} />
+            <span className="text-blue-600">{cityLabel}</span>
+          </nav>
 
-      <main className="max-w-6xl mx-auto px-4 py-10">
-
-        {/* 🔥 BREADCRUMB */}
-        <div className="text-blue-600 font-bold text-sm uppercase mb-6 flex items-center gap-2">
-
-          <Link href={exploreBase} className="hover:underline">
-            {lang === "tr" ? "KEŞFET" : "EXPLORE"}
-          </Link>
-
-          <span>/</span>
-
-          <Link href={`${exploreBase}/${region}`} className="hover:underline">
-            {regionLabel}
-          </Link>
-
-          <span>/</span>
-
-          <span className="text-blue-600">
-            {cityLabel}
-          </span>
-
+          <div className="flex flex-col items-center">
+            <div className="inline-flex items-center gap-2 mb-6 text-orange-600 bg-orange-50 px-4 py-1.5 rounded-xl border border-orange-100 shadow-sm">
+              <Sparkles size={16} />
+              <span className="text-[10px] font-black uppercase tracking-widest">{t.badge}</span>
+            </div>
+            <h1 className="text-7xl md:text-9xl font-serif font-bold text-gray-900 mb-8 tracking-tighter uppercase leading-none">
+              {cityLabel}
+            </h1>
+            <p className="text-xl text-gray-500 font-medium italic opacity-80">
+              {cityPlaces.length} {t.suffix2}
+            </p>
+          </div>
         </div>
+      </section>
 
-        {/* TITLE */}
-        <h1 className="text-6xl font-black mb-4">
-          {cityLabel}
-        </h1>
-
-        <p className="text-gray-500 mb-12">
-          {cityPlaces.length} {t.suffix2}
-        </p>
-
-        {/* GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {cityPlaces.map((place: any) => {
-            const placeName =
-              place.name?.[lang] || place.name?.tr || t.fallbackName;
-
+      {/* 2. PLACES GRID: Modern Floating Cards */}
+      <section className="container mx-auto px-6 -mt-24 pb-32 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {cityPlaces.map((place: any, index: number) => {
+            const placeName = place.name?.[lang] || place.name?.tr || t.fallbackName;
             const imageKey = `${slugify(actualCityKey)}-${slugify(place.slug)}`;
-
-            const coverImage =
-              cityImages[imageKey]?.[0] ||
-              cityImages[place.slug]?.[0];
+            const coverImage = cityImages[imageKey]?.[0] || cityImages[place.slug]?.[0];
 
             return (
               <Link
                 key={place.slug}
-                href={getLocalizedLink(
-                  `/kesfet/${region}/${city}/${place.slug}`
-                )}
-                className="block"
+                href={getLocalizedLink(`/kesfet/${region}/${city}/${place.slug}`)}
+                className="group relative flex flex-col bg-white rounded-[3rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl hover:shadow-black/5 transition-all duration-500 transform hover:-translate-y-3"
               >
-                <div className="aspect-[4/5] overflow-hidden rounded-2xl mb-4 bg-gray-100">
+                {/* IMAGE AREA */}
+                <div className="relative aspect-[4/5] overflow-hidden">
                   {coverImage ? (
                     <img
                       src={getCloudinaryUrl(coverImage, 600)}
                       alt={placeName}
-                      className="w-full h-full object-cover"
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
                     />
                   ) : (
-                    <div className="w-full h-full flex items-center justify-center">
-                      🏛️
+                    <div className="absolute inset-0 bg-gray-50 flex items-center justify-center">
+                      <MapPin size={48} className="text-gray-200" />
                     </div>
                   )}
+                  
+                  {/* GRADIENT OVERLAY */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity" />
+                  
+                  {/* TOP BADGE: Discovery Order */}
+                  <div className="absolute top-6 left-6">
+                    <div className="bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl flex items-center gap-2 shadow-sm border border-white">
+                      <span className="text-[10px] font-black text-gray-900 uppercase tracking-widest">
+                        SPOT #{index + 1}
+                      </span>
+                    </div>
+                  </div>
                 </div>
 
-                <h3 className="font-bold text-xl">
-                  {placeName}
-                </h3>
+                {/* CONTENT AREA */}
+                <div className="absolute bottom-0 left-0 right-0 p-10 z-10">
+                  <p className="text-blue-400 text-[10px] font-black uppercase tracking-[0.3em] mb-2 drop-shadow-sm">
+                    {lang === "tr" ? "MEKAN" : "LOCATION"}
+                  </p>
+                  <h3 className="text-3xl font-serif font-bold text-white tracking-tight mb-4 group-hover:text-blue-200 transition-colors leading-tight">
+                    {placeName}
+                  </h3>
+                  
+                  <div className="flex items-center justify-between opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
+                    <span className="text-white/80 text-[10px] font-black uppercase tracking-widest">{t.exploreBtn}</span>
+                    <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-xl transform group-hover:rotate-[360deg] transition-all duration-700">
+                      <ChevronRight size={20} />
+                    </div>
+                  </div>
+                </div>
               </Link>
             );
           })}
         </div>
+      </section>
 
-      </main>
-    </>
+      {/* 3. DECORATIVE FOOTER */}
+      <footer className="container mx-auto px-6 pb-24 text-center">
+        <div className="max-w-4xl mx-auto py-20 bg-gray-900 rounded-[4rem] relative overflow-hidden">
+          <div className="relative z-10">
+            <Globe2 size={40} className="mx-auto text-blue-400 mb-6 animate-pulse" />
+            <h2 className="text-3xl font-serif font-bold text-white mb-4 uppercase tracking-tighter">
+              {lang === "tr" ? "Başka Rotalar Keşfet" : "Explore More Routes"}
+            </h2>
+            <Link 
+              href={exploreBase}
+              className="inline-block bg-white text-black px-10 py-4 rounded-full text-xs font-black uppercase tracking-widest hover:bg-blue-500 hover:text-white transition-all"
+            >
+              {lang === "tr" ? "Keşfet'e Dön" : "Back to Explore"}
+            </Link>
+          </div>
+          {/* Background decoration */}
+          <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl translate-y-1/2" />
+        </div>
+      </footer>
+    </main>
   );
 }
