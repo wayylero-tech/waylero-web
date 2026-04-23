@@ -1,10 +1,8 @@
 import { Metadata } from "next";
-import { headers } from "next/headers";
+import { headers } from "next/headers"; // 🔥 Cookies yerine headers
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
-// 1. Her zaman dinamik çalışması için zorluyoruz (Prod hatası çözümü)
-export const dynamic = 'force-dynamic';
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -21,10 +19,12 @@ function slugify(text: string) {
     .trim();
 }
 
+// 🌍 Güvenli Dil Yakalama
 async function getLanguage() {
   const h = await headers();
   const currentPath = h.get("x-url") || "";
   const middlewareLang = h.get("x-url-lang");
+  
   if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
   return "tr";
 }
@@ -39,26 +39,51 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
   );
 
   const originalCityName = normalizedCityMap[cityParam];
+  
+  // 🌍 SEO Metinleri (TR/EN)
   const t = {
-    tr: { defaultCity: "TÜRKİYE GENELİ", suffix: "Konserleri ve Etkinlikleri", desc: "şehrindeki en güncel konserler ve etkinlikler Waylero'da." },
-    en: { defaultCity: "ALL OVER TURKEY", suffix: "Concerts and Events", desc: "Discover the latest concerts and events in" }
+    tr: {
+      defaultCity: "TÜRKİYE GENELİ",
+      suffix: "Konserleri ve Etkinlikleri",
+      desc: "şehrindeki en güncel konserler ve etkinlikler Waylero'da."
+    },
+    en: {
+      defaultCity: "ALL OVER TURKEY",
+      suffix: "Concerts and Events",
+      desc: "Discover the latest concerts and events in"
+    }
   }[lang];
 
   const cityNameMeta = originalCityName 
     ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") 
     : t.defaultCity;
 
-  return {
-    title: `${cityNameMeta} ${t.suffix} | Waylero`,
-    description: lang === "tr" ? `${cityNameMeta} ${t.desc}` : `${t.desc} ${cityNameMeta} on Waylero.`,
-  };
-}
+  const title = `${cityNameMeta} ${t.suffix} | Waylero`;
+  const description = lang === "tr" 
+    ? `${cityNameMeta} ${t.desc}`
+    : `${t.desc} ${cityNameMeta} on Waylero.`;
 
-export default async function ActivitiesPage({ searchParams }: { searchParams: Promise<any> }) {
-  const params = await searchParams; // Promise'i burada çözüyoruz
+return {
+    title,
+    description,
+    alternates: {
+      canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      languages: {
+        "tr-TR": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "en-US": `https://www.waylero.com/en/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "x-default": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      },
+    },
+  };
+} // 👈 BU EKSİK!
+
+export default async function ActivitiesPage({ searchParams }: any) {
+  const params = await searchParams;
   const lang = await getLanguage();
 
   const citySlug = params.city || "";
+  
+  // 🔥 GÜNCELLEME: Burası parametreleri yeni isimlerle yakalamalı
   const startDate = params.start_gte || params.start || ""; 
   const endDate = params.end_lte || params.end || "";
   
@@ -67,10 +92,6 @@ export default async function ActivitiesPage({ searchParams }: { searchParams: P
   );
 
   const cityData = slugifiedCityMap[citySlug];
-  
-  // Debug logu - Vercel logs kısmında bunu görebilirsin
-  console.log("Gelen Şehir Slug'ı:", citySlug);
-
   const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
   let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
   
@@ -86,6 +107,7 @@ export default async function ActivitiesPage({ searchParams }: { searchParams: P
       apiParams.append("city_ids", allCityIds);
     }
 
+    // 🔥 GÜNCELLEME: API Route'una (kendi iç API'ne) yeni isimlerle gönderiyoruz
     if (startDate) apiParams.append("start_gte", startDate);
     if (endDate) apiParams.append("end_lte", endDate);
     
@@ -95,9 +117,10 @@ export default async function ActivitiesPage({ searchParams }: { searchParams: P
     const domain = "www.waylero.com";
     const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
 
+    // Kendi API Route'umuza istek atıyoruz
     const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
-      cache: 'no-store', // Veriyi önbelleğe alma
-    });
+  next: { revalidate: 900 }, // 🔥 15 dk
+});
 
     if (res.ok) {
       const data = await res.json();
@@ -109,7 +132,6 @@ export default async function ActivitiesPage({ searchParams }: { searchParams: P
 
   return (
     <ActivityList
-      key={citySlug || 'all'} // 🔥 KRİTİK: Bu key, şehir değişince bileşeni sıfırlar
       initialEvents={initialEvents}
       initialCityName={cityNameForUI}
       lang={lang}
