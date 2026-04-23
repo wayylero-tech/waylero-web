@@ -81,55 +81,107 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
   const lang = await getLanguage();
 
-  const citySlug = (params.city || "").toLowerCase();
-  
-  // 🔥 GÜNCELLEME: Burası parametreleri yeni isimlerle yakalamalı
-  const startDate = params.start_gte || params.start || ""; 
-  const endDate = params.end_lte || params.end || "";
-  
-  const slugifiedCityMap = Object.fromEntries(
-    Object.entries(cityMap).map(([key, value]) => [slugify(key), { id: value, originalName: key }])
+  // =========================
+  // 1. CITY SLUG (SAFE)
+  // =========================
+  const citySlugRaw = params.city || "";
+
+  const citySlug = decodeURIComponent(
+    citySlugRaw.toString().trim().toLowerCase()
   );
 
-const cityData = slugifiedCityMap[citySlug.toLowerCase()];
-  const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
-  let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
-  
+  console.log("🔥 CITY SLUG RAW:", citySlugRaw);
+  console.log("🔥 CITY SLUG CLEAN:", citySlug);
+
+  const startDate = params.start_gte || params.start || "";
+  const endDate = params.end_lte || params.end || "";
+
+  // =========================
+  // 2. CITY MAP NORMALIZATION
+  // =========================
+  const slugifiedCityMap = Object.fromEntries(
+    Object.entries(cityMap).map(([key, value]) => [
+      slugify(key),
+      { id: value, originalName: key }
+    ])
+  );
+
+  console.log("🧭 AVAILABLE CITY KEYS:", Object.keys(slugifiedCityMap));
+
+  const cityData = slugifiedCityMap[citySlug];
+
+  console.log("📍 MATCHED CITY DATA:", cityData);
+
+  const defaultCityName =
+    lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
+
+  const cityNameForUI = cityData
+    ? cityData.originalName.toLocaleUpperCase(
+        lang === "tr" ? "tr-TR" : "en-US"
+      )
+    : defaultCityName;
+
+  console.log("🏷️ CITY NAME UI:", cityNameForUI);
+
+  // =========================
+  // 3. API PARAMS
+  // =========================
+  const apiParams = new URLSearchParams();
+
+  if (cityData?.id) {
+    apiParams.append("city_ids", String(cityData.id));
+    console.log("✅ CITY FILTER ID:", cityData.id);
+  } else {
+    const allCityIds = Object.values(cityMap).join(",");
+    apiParams.append("city_ids", allCityIds);
+    console.log("⚠️ FALLBACK: ALL CITIES USED");
+  }
+
+  if (startDate) apiParams.append("start_gte", startDate);
+  if (endDate) apiParams.append("end_lte", endDate);
+
+  apiParams.append("take", "50");
+  apiParams.append("skip", "0");
+
+  console.log("📡 API PARAMS:", apiParams.toString());
+
+  // =========================
+  // 4. FETCH EVENTS
+  // =========================
   let initialEvents: any[] = [];
 
   try {
-    const apiParams = new URLSearchParams();
-    
-    if (cityData) {
-      apiParams.append("city_ids", cityData.id.toString());
-    } else {
-      const allCityIds = Object.values(cityMap).join(",");
-      apiParams.append("city_ids", allCityIds);
-    }
-
-    // 🔥 GÜNCELLEME: API Route'una (kendi iç API'ne) yeni isimlerle gönderiyoruz
-    if (startDate) apiParams.append("start_gte", startDate);
-    if (endDate) apiParams.append("end_lte", endDate);
-    
-    apiParams.append("take", "50"); 
-    apiParams.append("skip", "0"); 
-
     const domain = "www.waylero.com";
-    const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
+    const baseUrl =
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:3000"
+        : `https://${domain}`;
 
-    // Kendi API Route'umuza istek atıyoruz
-    const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
-  next: { revalidate: 900 }, // 🔥 15 dk
-});
+    const url = `${baseUrl}/api/events?${apiParams.toString()}`;
+
+    console.log("🚀 FETCH URL:", url);
+
+    const res = await fetch(url, {
+      next: { revalidate: 900 },
+    });
+
+    console.log("📥 API STATUS:", res.status);
 
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || data.data || [];
+
+      console.log("🎯 EVENTS COUNT:", initialEvents.length);
+    } else {
+      console.log("❌ API FAILED");
     }
   } catch (err) {
-    console.error("Fetch hatası:", err);
+    console.error("💥 FETCH ERROR:", err);
   }
 
+  // =========================
+  // 5. RENDER
+  // =========================
   return (
     <ActivityList
       initialEvents={initialEvents}
