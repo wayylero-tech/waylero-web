@@ -145,14 +145,7 @@ export default async function CityPage({ params }: Props) {
                   {/* GRADIENT OVERLAY */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity" />
                   
-                  {/* TOP BADGE: Discovery Order */}
-                  <div className="absolute top-6 left-6">
-                    <div className="bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl flex items-center gap-2 shadow-sm border border-white">
-                      <span className="text-[10px] font-black text-gray-900 uppercase tracking-widest">
-                        SPOT #{index + 1}
-                      </span>
-                    </div>
-                  </div>
+                
                 </div>
 
                 {/* CONTENT AREA */}
