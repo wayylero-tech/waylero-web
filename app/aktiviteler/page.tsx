@@ -1,7 +1,8 @@
 import { Metadata } from "next";
-import { headers } from "next/headers";
+import { headers } from "next/headers"; // 🔥 Cookies yerine headers
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
+
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -18,40 +19,28 @@ function slugify(text: string) {
     .trim();
 }
 
-// 🔥 TEK DOĞRU URL OKUMA
-async function getQueryParams() {
-  const h = await headers();
-  const currentUrl = h.get("x-url") || "";
-
-  const url = new URL("http://dummy.com" + currentUrl);
-
-  return {
-    city: url.searchParams.get("city") || "",
-    start: url.searchParams.get("start") || "",
-    end: url.searchParams.get("end") || "",
-  };
-}
-
-// 🌍 Dil
+// 🌍 Güvenli Dil Yakalama
 async function getLanguage() {
   const h = await headers();
   const currentPath = h.get("x-url") || "";
   const middlewareLang = h.get("x-url-lang");
-
+  
   if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
   return "tr";
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
+  const params = await searchParams;
   const lang = await getLanguage();
-  const { city } = await getQueryParams();
-
+  const cityParam = params.city || "";
+  
   const normalizedCityMap = Object.fromEntries(
-    Object.entries(cityMap).map(([key]) => [slugify(key), key])
+    Object.entries(cityMap).map(([key, value]) => [slugify(key), key])
   );
 
-  const originalCityName = normalizedCityMap[city];
-
+  const originalCityName = normalizedCityMap[cityParam];
+  
+  // 🌍 SEO Metinleri (TR/EN)
   const t = {
     tr: {
       defaultCity: "TÜRKİYE GENELİ",
@@ -65,88 +54,80 @@ export async function generateMetadata(): Promise<Metadata> {
     }
   }[lang];
 
-  const cityNameMeta = originalCityName
-    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US")
+  const cityNameMeta = originalCityName 
+    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") 
     : t.defaultCity;
 
-  return {
-    title: `${cityNameMeta} ${t.suffix} | Waylero`,
-    description:
-      lang === "tr"
-        ? `${cityNameMeta} ${t.desc}`
-        : `${t.desc} ${cityNameMeta} on Waylero.`,
+  const title = `${cityNameMeta} ${t.suffix} | Waylero`;
+  const description = lang === "tr" 
+    ? `${cityNameMeta} ${t.desc}`
+    : `${t.desc} ${cityNameMeta} on Waylero.`;
+
+return {
+    title,
+    description,
+    alternates: {
+      canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      languages: {
+        "tr-TR": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "en-US": `https://www.waylero.com/en/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "x-default": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      },
+    },
   };
-}
+} // 👈 BU EKSİK!
 
-export default async function ActivitiesPage() {
+export default async function ActivitiesPage({ searchParams }: any) {
+  const params = await searchParams;
   const lang = await getLanguage();
-  const { city, start, end } = await getQueryParams();
 
-  // =========================
-  // 1. CITY
-  // =========================
-  const citySlug = decodeURIComponent(city.toLowerCase().trim());
-
-  console.log("🔥 CITY:", citySlug);
-
+  const citySlug = params.city || "";
+  
+  // 🔥 GÜNCELLEME: Burası parametreleri yeni isimlerle yakalamalı
+  const startDate = params.start_gte || params.start || ""; 
+  const endDate = params.end_lte || params.end || "";
+  
   const slugifiedCityMap = Object.fromEntries(
-    Object.entries(cityMap).map(([key, value]) => [
-      slugify(key),
-      { id: value, originalName: key }
-    ])
+    Object.entries(cityMap).map(([key, value]) => [slugify(key), { id: value, originalName: key }])
   );
 
   const cityData = slugifiedCityMap[citySlug];
-
-  const defaultCityName =
-    lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
-
-  const cityNameForUI = cityData
-    ? cityData.originalName.toLocaleUpperCase(
-        lang === "tr" ? "tr-TR" : "en-US"
-      )
-    : defaultCityName;
-
-  // =========================
-  // 2. API PARAMS
-  // =========================
-  const apiParams = new URLSearchParams();
-
-  if (cityData?.id) {
-    apiParams.append("city_ids", String(cityData.id));
-  } else {
-    apiParams.append("city_ids", Object.values(cityMap).join(","));
-  }
-
-  if (start) apiParams.append("start_gte", start);
-  if (end) apiParams.append("end_lte", end);
-
-  apiParams.append("take", "50");
-  apiParams.append("skip", "0");
-
-  // =========================
-  // 3. FETCH
-  // =========================
+  const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
+  let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
+  
   let initialEvents: any[] = [];
 
   try {
-    const baseUrl =
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:3000"
-        : "https://www.waylero.com";
+    const apiParams = new URLSearchParams();
+    
+    if (cityData) {
+      apiParams.append("city_ids", cityData.id.toString());
+    } else {
+      const allCityIds = Object.values(cityMap).join(",");
+      apiParams.append("city_ids", allCityIds);
+    }
 
-    const url = `${baseUrl}/api/events?${apiParams.toString()}`;
+    // 🔥 GÜNCELLEME: API Route'una (kendi iç API'ne) yeni isimlerle gönderiyoruz
+    if (startDate) apiParams.append("start_gte", startDate);
+    if (endDate) apiParams.append("end_lte", endDate);
+    
+    apiParams.append("take", "50"); 
+    apiParams.append("skip", "0"); 
 
-    const res = await fetch(url, {
-      next: { revalidate: 900 },
-    });
+    const domain = "www.waylero.com";
+    const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
+
+    // Kendi API Route'umuza istek atıyoruz
+    const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
+  next: { revalidate: 900 }, // 🔥 15 dk
+});
 
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || data.data || [];
     }
   } catch (err) {
-    console.error("FETCH ERROR:", err);
+    console.error("Fetch hatası:", err);
   }
 
   return (
