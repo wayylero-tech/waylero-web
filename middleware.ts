@@ -62,64 +62,73 @@ const countryToRegionMap: Record<string, string> = {
   gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
 };
 
-// 🔧 3. TEMİZLİK FONKSİYONU
 const sanitize = (str: string) =>
   str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/ /g, '')
-    .replace(/ı/g, 'i').replace(/ğ/g, 'g')
-    .replace(/ü/g, 'u').replace(/ş/g, 's')
-    .replace(/ö/g, 'o').replace(/ç/g, 'c');
+    .replace(/ /g, "")
+    .replace(/ı/g, "i").replace(/ğ/g, "g")
+    .replace(/ü/g, "u").replace(/ş/g, "s")
+    .replace(/ö/g, "o").replace(/ç/g, "c");
 
 export function middleware(request: NextRequest) {
-  // 1. URL'i klonla (Tüm query parametreleri içinde gelir)
-  const url = request.nextUrl.clone();
-  const { pathname, search } = url;
   const requestHeaders = new Headers(request.headers);
 
-  // 2. Dil tespiti
-  const isEn = pathname.startsWith('/en');
-  requestHeaders.set('x-url-lang', isEn ? 'en' : 'tr');
-  requestHeaders.set('x-url', pathname + search);
+  const { pathname, search } = request.nextUrl;
+  const isEn = pathname.startsWith("/en");
 
-  let parts = pathname.split('/');
+  // 🌍 headers (query kaybolmasın diye sadece string taşıyoruz)
+  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
+  requestHeaders.set("x-url", pathname + search);
+
+  const parts = pathname.split("/");
   const offset = isEn ? 1 : 0;
 
-  // 3. Şehir/Bölge Doğrulama ve Redirect (301)
-  if (pathname.includes('/kesfet/') && parts.length >= (4 + offset)) {
+  // 🔴 1. REDIRECT (city-country fix)
+  if (pathname.includes("/kesfet/") && parts.length >= 4 + offset) {
     const regionInUrl = parts[2 + offset];
     const cityInUrl = sanitize(parts[3 + offset]);
+
     const targetCountry = cityToCountryMap[cityInUrl];
 
-    if (targetCountry && (regionInUrl === 'turkey' || regionInUrl !== targetCountry)) {
-      const correctPathParts = [...parts];
-      correctPathParts[2 + offset] = targetCountry;
-      
-      // Yeni URL'yi oluştururken parametreleri kaybetme
-      url.pathname = correctPathParts.join('/');
-      return NextResponse.redirect(url, { status: 301 });
+    if (targetCountry && (regionInUrl === "turkey" || regionInUrl !== targetCountry)) {
+      const url = request.nextUrl.clone();
+
+      const newParts = [...parts];
+      newParts[2 + offset] = targetCountry;
+
+      url.pathname = newParts.join("/");
+
+      // 🔥 redirect QUERY KORUR (rewrite değil)
+      url.search = search;
+
+      return NextResponse.redirect(url, 301);
     }
   }
 
-  // 4. İngilizce (EN) Rewrite Mantığı
+  // 🔵 2. EN ROUTING (FIX: rewrite yerine nextUrl clone)
   if (isEn) {
-    url.pathname = pathname.replace(/^\/en/, '') || '/';
-    
+    const url = request.nextUrl.clone();
+
+    url.pathname = pathname.replace(/^\/en/, "") || "/";
+    url.search = search; // 🔥 QUERY KORUNUR
+
     const response = NextResponse.rewrite(url, {
-      request: { headers: requestHeaders }
+      request: { headers: requestHeaders },
     });
-    response.cookies.set('lang', 'en', { path: '/' });
+
+    response.cookies.set("lang", "en", { path: "/" });
     return response;
   }
 
-  // 5. Standart İstekler (TR)
+  // 🟢 3. TR DEFAULT
   const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
-  response.cookies.set('lang', 'tr', { path: '/' });
+
+  response.cookies.set("lang", "tr", { path: "/" });
   return response;
 }
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)'],
+  matcher: ["/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)"],
 };
