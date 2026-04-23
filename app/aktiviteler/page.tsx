@@ -1,8 +1,7 @@
 import { Metadata } from "next";
-import { headers } from "next/headers"; // 🔥 Cookies yerine headers
+import { headers } from "next/headers";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
-
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -19,28 +18,40 @@ function slugify(text: string) {
     .trim();
 }
 
-// 🌍 Güvenli Dil Yakalama
+// 🔥 TEK DOĞRU URL OKUMA
+async function getQueryParams() {
+  const h = await headers();
+  const currentUrl = h.get("x-url") || "";
+
+  const url = new URL("http://dummy.com" + currentUrl);
+
+  return {
+    city: url.searchParams.get("city") || "",
+    start: url.searchParams.get("start") || "",
+    end: url.searchParams.get("end") || "",
+  };
+}
+
+// 🌍 Dil
 async function getLanguage() {
   const h = await headers();
   const currentPath = h.get("x-url") || "";
   const middlewareLang = h.get("x-url-lang");
-  
+
   if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
   return "tr";
 }
 
-export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
-  const params = await searchParams;
+export async function generateMetadata(): Promise<Metadata> {
   const lang = await getLanguage();
-  const cityParam = params.city || "";
-  
+  const { city } = await getQueryParams();
+
   const normalizedCityMap = Object.fromEntries(
-    Object.entries(cityMap).map(([key, value]) => [slugify(key), key])
+    Object.entries(cityMap).map(([key]) => [slugify(key), key])
   );
 
-  const originalCityName = normalizedCityMap[cityParam];
-  
-  // 🌍 SEO Metinleri (TR/EN)
+  const originalCityName = normalizedCityMap[city];
+
   const t = {
     tr: {
       defaultCity: "TÜRKİYE GENELİ",
@@ -54,51 +65,30 @@ export async function generateMetadata({ searchParams }: any): Promise<Metadata>
     }
   }[lang];
 
-  const cityNameMeta = originalCityName 
-    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") 
+  const cityNameMeta = originalCityName
+    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US")
     : t.defaultCity;
 
-  const title = `${cityNameMeta} ${t.suffix} | Waylero`;
-  const description = lang === "tr" 
-    ? `${cityNameMeta} ${t.desc}`
-    : `${t.desc} ${cityNameMeta} on Waylero.`;
-
-return {
-    title,
-    description,
-    alternates: {
-      canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-      languages: {
-        "tr-TR": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-        "en-US": `https://www.waylero.com/en/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-        "x-default": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-      },
-    },
+  return {
+    title: `${cityNameMeta} ${t.suffix} | Waylero`,
+    description:
+      lang === "tr"
+        ? `${cityNameMeta} ${t.desc}`
+        : `${t.desc} ${cityNameMeta} on Waylero.`,
   };
-} // 👈 BU EKSİK!
+}
 
-export default async function ActivitiesPage({ searchParams }: any) {
-  const params = await searchParams;
+export default async function ActivitiesPage() {
   const lang = await getLanguage();
+  const { city, start, end } = await getQueryParams();
 
   // =========================
-  // 1. CITY SLUG (SAFE)
+  // 1. CITY
   // =========================
-  const citySlugRaw = params.city || "";
+  const citySlug = decodeURIComponent(city.toLowerCase().trim());
 
-  const citySlug = decodeURIComponent(
-    citySlugRaw.toString().trim().toLowerCase()
-  );
+  console.log("🔥 CITY:", citySlug);
 
-  console.log("🔥 CITY SLUG RAW:", citySlugRaw);
-  console.log("🔥 CITY SLUG CLEAN:", citySlug);
-
-  const startDate = params.start_gte || params.start || "";
-  const endDate = params.end_lte || params.end || "";
-
-  // =========================
-  // 2. CITY MAP NORMALIZATION
-  // =========================
   const slugifiedCityMap = Object.fromEntries(
     Object.entries(cityMap).map(([key, value]) => [
       slugify(key),
@@ -106,11 +96,7 @@ export default async function ActivitiesPage({ searchParams }: any) {
     ])
   );
 
-  console.log("🧭 AVAILABLE CITY KEYS:", Object.keys(slugifiedCityMap));
-
   const cityData = slugifiedCityMap[citySlug];
-
-  console.log("📍 MATCHED CITY DATA:", cityData);
 
   const defaultCityName =
     lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
@@ -121,67 +107,48 @@ export default async function ActivitiesPage({ searchParams }: any) {
       )
     : defaultCityName;
 
-  console.log("🏷️ CITY NAME UI:", cityNameForUI);
-
   // =========================
-  // 3. API PARAMS
+  // 2. API PARAMS
   // =========================
   const apiParams = new URLSearchParams();
 
   if (cityData?.id) {
     apiParams.append("city_ids", String(cityData.id));
-    console.log("✅ CITY FILTER ID:", cityData.id);
   } else {
-    const allCityIds = Object.values(cityMap).join(",");
-    apiParams.append("city_ids", allCityIds);
-    console.log("⚠️ FALLBACK: ALL CITIES USED");
+    apiParams.append("city_ids", Object.values(cityMap).join(","));
   }
 
-  if (startDate) apiParams.append("start_gte", startDate);
-  if (endDate) apiParams.append("end_lte", endDate);
+  if (start) apiParams.append("start_gte", start);
+  if (end) apiParams.append("end_lte", end);
 
   apiParams.append("take", "50");
   apiParams.append("skip", "0");
 
-  console.log("📡 API PARAMS:", apiParams.toString());
-
   // =========================
-  // 4. FETCH EVENTS
+  // 3. FETCH
   // =========================
   let initialEvents: any[] = [];
 
   try {
-    const domain = "www.waylero.com";
     const baseUrl =
       process.env.NODE_ENV === "development"
         ? "http://localhost:3000"
-        : `https://${domain}`;
+        : "https://www.waylero.com";
 
     const url = `${baseUrl}/api/events?${apiParams.toString()}`;
-
-    console.log("🚀 FETCH URL:", url);
 
     const res = await fetch(url, {
       next: { revalidate: 900 },
     });
 
-    console.log("📥 API STATUS:", res.status);
-
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || data.data || [];
-
-      console.log("🎯 EVENTS COUNT:", initialEvents.length);
-    } else {
-      console.log("❌ API FAILED");
     }
   } catch (err) {
-    console.error("💥 FETCH ERROR:", err);
+    console.error("FETCH ERROR:", err);
   }
 
-  // =========================
-  // 5. RENDER
-  // =========================
   return (
     <ActivityList
       initialEvents={initialEvents}
