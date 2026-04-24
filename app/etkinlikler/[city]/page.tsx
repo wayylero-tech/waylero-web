@@ -1,95 +1,73 @@
 import toursData from "@/data/tours.json";
 import CityPageClient from "./CityPageClient";
 
-type Params = {
-  city: string;
-};
+// Şehir ismini güzelleştiren yardımcı fonksiyon
+const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
-// ✅ SEO
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<Params> | Params;
-}) {
-  const resolvedParams =
-    typeof (params as any)?.then === "function"
-      ? await params
-      : params;
+type Params = { city: string; lang: string };
 
-  const city = (resolvedParams as any).city.toLowerCase();
+export async function generateMetadata({ params }: { params: Promise<Params> | Params }) {
+  const resolvedParams = await params;
+  const citySlug = (resolvedParams as any).city.toLowerCase();
+  const lang = (resolvedParams as any).lang === 'en' ? 'en' : 'tr';
+  const cityName = capitalize(citySlug);
 
-  const title = city
-    ? `${city} Turlar & Deneyimler | Waylero`
-    : "Turlar & Deneyimler | Waylero";
+  // Dil bazlı içerik tanımları
+  const data = {
+    tr: {
+      title: `${cityName} Turlar & Deneyimler | Waylero`,
+      description: `${cityName} şehrindeki en iyi turları, etkinlikleri ve gezilecek yerleri keşfedin.`,
+      canonical: `https://www.waylero.com/etkinlikler/${citySlug}`,
+    },
+    en: {
+      title: `${cityName} Tours & Experiences | Waylero`,
+      description: `Discover the best tours, events, and things to do in ${cityName}.`,
+      canonical: `https://www.waylero.com/en/etkinlikler/${citySlug}`,
+    }
+  };
 
-  const description = city
-    ? `${city} şehrindeki en iyi turlar, aktiviteler ve gezilecek yerleri keşfedin.`
-    : "En iyi turlar ve deneyimleri keşfedin.";
-
-  const url = city
-    ? `https://www.waylero.com/etkinlikler/${city}`
-    : `https://www.waylero.com/etkinlikler`;
+  const current = data[lang];
 
   return {
-    title,
-    description,
-
+    title: current.title,
+    description: current.description,
     alternates: {
-      canonical: url,
+      canonical: current.canonical,
+      languages: {
+        'tr-TR': `https://www.waylero.com/etkinlikler/${citySlug}`,
+        'en-US': `https://www.waylero.com/en/etkinlikler/${citySlug}`,
+      },
     },
-
-    robots: {
-      index: true,
-      follow: true,
-    },
-
     openGraph: {
-      title,
-      description,
-      url,
+      title: current.title,
+      description: current.description,
+      url: current.canonical,
       siteName: "Waylero",
       type: "website",
-      images: [
-        {
-          url: "https://www.waylero.com/og.jpg",
-          width: 1200,
-          height: 630,
-        },
-      ],
+      images: [{ url: "https://www.waylero.com/og.jpg" }],
+      locale: lang === 'en' ? 'en_US' : 'tr_TR',
     },
-
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title: current.title,
+      description: current.description,
       images: ["https://www.waylero.com/og.jpg"],
     },
   };
 }
 
-// ✅ PAGE
-export default async function Page({
-  params,
-}: {
-  params: Promise<Params> | Params;
-}) {
-  const resolvedParams =
-    typeof (params as any)?.then === "function"
-      ? await params
-      : params;
-
+export default async function Page({ params }: { params: Promise<Params> | Params }) {
+  const resolvedParams = await params;
   const city = (resolvedParams as any).city.toLowerCase();
 
-  // 🔥 KARTLARI BOZMAYAN FİLTRE
   const cityTours = (toursData as any[]).filter(
     (t) => t?.city?.toLowerCase?.() === city
   );
 
-  // ✅ JSON-LD (SEO BOOST)
   const schema = {
     "@context": "https://schema.org",
-    "@type": "TouristDestination",
-    name: city,
+    "@type": "CollectionPage",
+    name: capitalize(city),
     description: `${city} şehrindeki turlar ve deneyimler`,
     url: `https://www.waylero.com/etkinlikler/${city}`,
   };
@@ -100,17 +78,20 @@ export default async function Page({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-
       <CityPageClient city={city} cityTours={cityTours} />
     </>
   );
 }
 
-// ✅ (OPSİYONEL AMA ÖNERİLİR)
+// Hem dili hem şehri statik olarak tanımlıyoruz
 export function generateStaticParams() {
-  const cities = Array.from(
-    new Set((toursData as any[]).map((t) => t.city?.toLowerCase()))
+  const cities = Array.from(new Set((toursData as any[]).map((t) => t.city?.toLowerCase())));
+  const languages = ['tr', 'en'];
+  
+  return languages.flatMap((lang) =>
+    cities.map((city) => ({
+      lang,
+      city,
+    }))
   );
-
-  return cities.map((city) => ({ city }));
 }

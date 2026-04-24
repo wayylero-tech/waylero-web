@@ -1,42 +1,53 @@
 import EtkinliklerClient from "./EtkinliklerClient";
 
-export const metadata = {
-  title: "Etkinlikleri Keşfet | Türkiye Şehir Turları",
-  description:
-    "Türkiye şehirlerinde etkinlikleri ve turları keşfet. En iyi aktiviteleri bul.",
+export async function generateMetadata({ params }: { params: { lang?: string } }) {
+  const lang = params?.lang === "en" ? "en" : "tr";
 
-  keywords: [
-    "etkinlikler",
-    "türkiye turları",
-    "istanbul turları",
-    "şehir etkinlikleri",
-  ],
-
-  alternates: {
-    canonical: "https://www.waylero.com/etkinlikler",
-    languages: {
-      tr: "https://www.waylero.com/etkinlikler",
-      en: "https://www.waylero.com/en/etkinlikler",
+  const data = {
+    tr: {
+      title: "İstanbul, Antalya, Kapadokya ve İzmir Turları | Waylero",
+      description: "İstanbul, Antalya, Nevşehir (Kapadokya) ve İzmir'deki en iyi turları, etkinlikleri ve aktiviteleri keşfedin. Waylero ile unutulmaz bir deneyim yaşayın.",
+      keywords: ["istanbul turları", "antalya etkinlikleri", "kapadokya balon turu", "izmir gezilecek yerler", "türkiye turları"],
+      canonical: "https://www.waylero.com/etkinlikler",
     },
-  },
+    en: {
+      title: "Istanbul, Antalya, Cappadocia & Izmir Tours | Waylero",
+      description: "Discover the best tours, events, and activities in Istanbul, Antalya, Nevşehir (Cappadocia), and Izmir. Book your experience with Waylero.",
+      keywords: ["istanbul tours", "antalya events", "cappadocia tours", "izmir activities", "turkey tours"],
+      canonical: "https://www.waylero.com/en/etkinlikler",
+    }
+  };
 
-  openGraph: {
-    title: "Etkinlikleri Keşfet | Waylero",
-    description:
-      "Türkiye şehirlerinde en iyi turlar ve aktiviteleri keşfet.",
-    url: "https://www.waylero.com/etkinlikler",
-    siteName: "Waylero",
-    type: "website",
-    locale: "tr_TR",
-  },
+  const current = data[lang];
 
-  twitter: {
-    card: "summary_large_image",
-    title: "Etkinlikleri Keşfet",
-    description:
-      "Türkiye şehirlerinde en iyi turlar ve aktiviteleri keşfet.",
-  },
-};
+  return {
+    title: current.title,
+    description: current.description,
+    keywords: current.keywords,
+    alternates: {
+      canonical: current.canonical,
+      languages: {
+        'tr-TR': "https://www.waylero.com/etkinlikler",
+        'en-US': "https://www.waylero.com/en/etkinlikler",
+      },
+    },
+    openGraph: {
+      title: current.title,
+      description: current.description,
+      url: current.canonical,
+      siteName: "Waylero",
+      type: "website",
+      locale: lang === "en" ? "en_US" : "tr_TR",
+      images: ["https://www.waylero.com/og.jpg"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: current.title,
+      description: current.description,
+      images: ["https://www.waylero.com/og.jpg"],
+    },
+  };
+}
 
 export default function Page() {
   return <EtkinliklerClient />;

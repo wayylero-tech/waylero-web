@@ -16,6 +16,33 @@ const cities = [
       en: "Bosphorus tours, historical places and events",
     },
   },
+  {
+    id: "nevsehir",
+    name: { tr: "Nevşehir", en: "Nevsehir" },
+    image: "/assets/genel/goreme.webp",
+    desc: {
+      tr: "Kapadokya balon turları ve peri bacaları",
+      en: "Cappadocia hot air balloon tours and fairy chimneys",
+    },
+  },
+  {
+    id: "izmir",
+    name: { tr: "İzmir", en: "Izmir" },
+    image: "/assets/genel/efes.webp",
+    desc: {
+      tr: "Efes Antik Kenti ve Ege kıyıları",
+      en: "Ephesus Ancient City and Aegean coast",
+    },
+  },
+  {
+    id: "antalya",
+    name: { tr: "Antalya", en: "Antalya" },
+    image: "/assets/genel/antalya.webp",
+    desc: {
+      tr: "Plajlar, şelaleler ve antik kentler",
+      en: "Beaches, waterfalls and ancient cities",
+    },
+  },
 ];
 
 /* 🔹 AFFILIATE BASE */

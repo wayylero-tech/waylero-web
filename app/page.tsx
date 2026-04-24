@@ -43,7 +43,11 @@ const trackClick = (type: string, label: string, destination?: string) => {
 export default function HomePage() {
   const { lang } = useLang();
   const router = useRouter();
-  const featuredTours = toursData.slice(0, 4);
+  const targetCities = ["istanbul", "antalya", "izmir", "nevsehir"];
+
+const featuredTours = targetCities
+  .map(city => toursData.find(t => t.city?.toLowerCase() === city))
+  .filter(Boolean);
 
   const [events, setEvents] = useState<any[]>([]);
 const [loading, setLoading] = useState(true);
@@ -233,8 +237,9 @@ useEffect(() => {
   {/* Grid */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-7 lg:gap-10 items-stretch">
 
+    {/* DİKKAT: Fazla olan '{' işaretlerini kaldırdım */}
     {featuredTours?.length > 0 ? (
-      featuredTours.map((tour) => (
+      featuredTours.map((tour: any) => (
         <div key={tour.id} className="h-full">
           <TourCard {...tour} />
         </div>

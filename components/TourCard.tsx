@@ -5,26 +5,24 @@ import { useLang } from "../app/context/LanguageContext";
 
 export default function TourCard({
   title,
-  price,
   imageUrl,
   link,
   tag,
-  rating,
-  reviewCount,
   duration,
-  features
+  features,
+  city // <-- city'yi buraya ekledik
 }: any) {
 
   const { lang } = useLang();
 
   const t = {
     tr: {
-      perPerson: "Kişi başı",
-      reserve: "Rezervasyon Yap",
+      reserve: "Fiyat bilgisi ve turları incelemek için tıkla",
+      durationLabel: "Süre:",
     },
     en: {
-      perPerson: "Per person",
-      reserve: "Book Now",
+      reserve: "Click to view prices and tours",
+      durationLabel: "Duration:",
     },
   }[lang as "tr" | "en"];
 
@@ -37,7 +35,6 @@ export default function TourCard({
 
       {/* IMAGE */}
       <div className="relative w-full h-80 bg-gray-200 overflow-hidden">
-
         <img
           src={safeImageUrl}
           alt={title?.[lang] ?? title}
@@ -49,50 +46,26 @@ export default function TourCard({
             {tag?.[lang]}
           </div>
         )}
-
       </div>
 
       {/* CONTENT */}
       <div className="p-6 flex flex-col flex-grow">
-
-        {/* Rating */}
-        <div className="flex items-center gap-1 mb-3">
-          <span className="text-yellow-500 text-[11px]">★★★★★</span>
-          <span className="text-[11px] font-semibold text-gray-600">
-            {rating} ({reviewCount})
-          </span>
-        </div>
-
+        
         {/* TITLE */}
         <h3 className="text-[17px] font-black text-gray-900 line-clamp-2 leading-snug">
           {title?.[lang] ?? title}
         </h3>
 
+          {/* YENİ EKLEDİĞİMİZ ŞEHİR KISMI */}
+        <div className="text-[12px] font-bold text-blue-600 uppercase tracking-widest mt-2">
+          {city}
+        </div>  
+
+
         {/* DURATION + FEATURE */}
-        <div className="text-[13px] text-gray-500 mt-3 italic font-medium">
-          {duration?.[lang]}{" "}
+        <div className="text-[13px] text-gray-500 mt-3 italic font-medium mb-6">
+          <span className="font-bold text-gray-700">{t?.durationLabel}</span> {duration?.[lang]}{" "}
           {features?.[lang]?.length ? `• ${features[lang][0]}` : ""}
-        </div>
-
-        {/* PRICE */}
-        <div className="mt-auto mb-6">
-
-          <div className="text-[10px] text-gray-400 uppercase font-bold tracking-widest mb-1">
-            {t?.perPerson}
-          </div>
-
-          <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-blue-700">
-              {price?.discounted} {price?.currency}
-            </span>
-
-            {price?.original && (
-              <span className="text-xs text-gray-400 line-through">
-                {price.original}
-              </span>
-            )}
-          </div>
-
         </div>
 
         {/* CTA */}
@@ -100,16 +73,16 @@ export default function TourCard({
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold py-4 rounded-2xl transition-all shadow-lg shadow-orange-500/20 active:scale-95"
+          className="mt-auto flex items-center justify-center gap-2 w-full bg-orange-600 hover:bg-orange-700 text-white text-[13px] font-bold py-5 px-3 rounded-2xl transition-all shadow-xl shadow-orange-500/30 hover:scale-[1.02] active:scale-[0.98] text-center leading-tight"
         >
           <span>{t?.reserve}</span>
 
           <svg
-            className="w-4 h-4"
+            className="w-5 h-5 flex-shrink-0"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth={2.5}
+            strokeWidth={3}
           >
             <path
               strokeLinecap="round"

@@ -196,7 +196,7 @@ export default async function Page({ params }: { params: Promise<Params> }) {
                 <h3 className="font-serif font-bold text-xl">{t.todo}</h3>
               </div>
               <ul className="space-y-4">
-                {(foundPlace.activities?.[lang] || []).map((a: string, i: number) => (
+                {(foundPlace.aktiviteler?.[lang] || []).map((a: string, i: number) => (
                   <li key={i} className="flex items-start gap-3 text-gray-600 group">
                     <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 group-hover:scale-150 transition-transform" />
                     <span className="text-sm font-medium">{a}</span>

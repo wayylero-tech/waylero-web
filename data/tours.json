@@ -3,28 +3,21 @@
     "id": "topkapi-sarayi-hizli-giris",
     "city": "istanbul",
     "title": {
-      "tr": "Topkapı Sarayı & Harem: Sıra Beklemeden Hızlı Erişim ve Sesli Rehber",
-      "en": "Topkapi Palace & Harem: Skip-the-Line Fast Access with Audio Guide"
+      "tr": "Topkapı Sarayı & Harem: Sıra Beklemeden Hızlı Giriş + Sesli Rehber",
+      "en": "Topkapi Palace & Harem: Skip-the-Line Entry with Audio Guide"
     },
     "tag": {
-      "tr": "Sıra Beklemeden Giriş",
-      "en": "Skip the Line Entry"
+      "tr": "Hızlı Giriş",
+      "en": "Skip-the-Line"
     },
     "imageUrl": "assets/genel/topkapı.webp",
-    "rating": 4.2,
-    "reviewCount": 2845,
     "duration": {
       "tr": "3 saat",
       "en": "3 hours"
     },
     "features": {
-      "tr": ["Ücretsiz İptal", "Sesli Rehber Dahil"],
-      "en": ["Free Cancellation", "Audio Guide Included"]
-    },
-    "price": {
-      "original": 4385,
-      "discounted": 3727,
-      "currency": "TRY"
+      "tr": ["Ücretsiz iptal", "Sesli rehber dahil"],
+      "en": ["Free cancellation", "Audio guide included"]
     },
     "link": "https://www.getyourguide.com/istanbul-l56/istanbul-topkapi-palace-and-harem-ticket-with-audio-guide-t192789/?partner_id=WKUIAKS&utm_medium=online_publisher"
   },
@@ -32,16 +25,14 @@
     "id": "istanbul-semazen-toreni",
     "city": "istanbul",
     "title": {
-      "tr": "İstanbul: Ayasofya'nın Yanında Semazen Töreni",
-      "en": "Istanbul: Whirling Dervish Ceremony Next to Hagia Sophia"
+      "tr": "İstanbul: Ayasofya Yakınında Semazen Gösterisi",
+      "en": "Istanbul: Whirling Dervish Show Near Hagia Sophia"
     },
     "tag": {
-      "tr": "En popüler seçim",
-      "en": "Most Popular Choice"
+      "tr": "Popüler",
+      "en": "Popular"
     },
     "imageUrl": "assets/images/semazen.webp",
-    "rating": 4.5,
-    "reviewCount": 990,
     "duration": {
       "tr": "55 dakika",
       "en": "55 minutes"
@@ -50,130 +41,443 @@
       "tr": ["Sıra beklemeden giriş"],
       "en": ["Skip-the-line entry"]
     },
-    "price": {
-      "original": 1151,
-      "discounted": 863,
-      "currency": "TRY"
-    },
     "link": "https://www.getyourguide.com/istanbul-l56/istanbul-whirling-dervish-ceremony-next-to-hagia-sophia-t703555/?partner_id=WKUIAKS&utm_medium=online_publisher"
   },
   {
     "id": "ayasofya-yerebatan-kombo-opsiyonel-topkapi",
     "city": "istanbul",
     "title": {
-      "tr": "Kombo: Ayasofya + Yerebatan Sarnıcı (İsteğe Bağlı Topkapı Sarayı)",
-      "en": "Combo: Hagia Sophia + Basilica Cistern (Optional Topkapi Palace)"
+      "tr": "Kombo: Ayasofya + Yerebatan Sarnıcı (Opsiyonel Topkapı)",
+      "en": "Combo: Hagia Sophia + Basilica Cistern (Optional Topkapi)"
     },
     "tag": {
-      "tr": "Kombine Deneyim",
-      "en": "Combo Experience"
+      "tr": "Kombine Tur",
+      "en": "Combo Deal"
     },
     "imageUrl": "assets/genel/ayasofya.webp",
-    "rating": 4.3,
-    "reviewCount": 2092,
     "duration": {
       "tr": "3 gün",
       "en": "3 days"
     },
     "features": {
       "tr": [
-        "Ücretsiz İptal",
+        "Ücretsiz iptal",
         "Şimdi ayırt, sonra öde",
         "Sıra beklemeden giriş",
         "Sesli rehber dahil"
       ],
       "en": [
-        "Free Cancellation",
+        "Free cancellation",
         "Reserve now, pay later",
         "Skip-the-line entry",
         "Audio guide included"
       ]
     },
-    "price": {
-      "original": 3773,
-      "discounted": 3773,
-      "currency": "TRY"
-    },
     "link": "https://www.getyourguide.com/istanbul-l56/combo-hagia-sophiabasilica-cistern-optional-topkapi-palace-t949446/?partner_id=WKUIAKS&utm_medium=online_publisher"
   },
+  {
+    "id": "yerebatan-sarnici-hizli-giris-sesli-rehber",
+    "city": "istanbul",
+    "title": {
+      "tr": "Yerebatan Sarnıcı: Hızlı Giriş + Sesli Rehber",
+      "en": "Basilica Cistern: Fast Track Entry with Audio Guide"
+    },
+    "tag": {
+      "tr": "Hızlı Giriş",
+      "en": "Fast Track"
+    },
+    "imageUrl": "assets/genel/yerebatan.webp",
+    "duration": {
+      "tr": "1 gün",
+      "en": "1 day"
+    },
+    "features": {
+      "tr": [
+        "Ücretsiz iptal",
+        "Şimdi ayırt sonra öde",
+        "Sıra beklemeden giriş",
+        "Sesli rehber dahil"
+      ],
+      "en": [
+        "Free cancellation",
+        "Reserve now pay later",
+        "Skip-the-line entry",
+        "Audio guide included"
+      ]
+    },
+    "link": "https://www.getyourguide.com/istanbul-l56/istanbul-basilica-cistern-fast-track-entry-and-audio-guide-t523484/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  },
+  {
+    "id": "istanbul-bogaz-gunduz-gun-batimi-yat-turu-sesli-rehber",
+    "city": "istanbul",
+    "title": {
+      "tr": "İstanbul Boğazı: Gündüz veya Gün Batımı Yat Turu",
+      "en": "Istanbul Bosphorus: Daytime or Sunset Yacht Cruise"
+    },
+    "tag": {
+      "tr": "En Çok Beğenilen",
+      "en": "Top Rated"
+    },
+    "imageUrl": "assets/genel/istanbul2.webp",
+    "duration": {
+      "tr": "2 saat",
+      "en": "2 hours"
+    },
+    "features": {
+      "tr": [
+        "Ücretsiz iptal",
+        "Şimdi ayırt sonra öde",
+        "Sesli rehber",
+        "Canlı rehber",
+        "İçecek ve atıştırmalık seçenekleri"
+      ],
+      "en": [
+        "Free cancellation",
+        "Reserve now pay later",
+        "Audio guide",
+        "Live guide",
+        "Optional drinks and snacks"
+      ]
+    },
+    "link": "https://www.getyourguide.com/istanbul-l56/istanbul-daytime-or-sunset-sightseeing-cruise-audio-guide-t653610/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  },
 {
-  "id": "yerebatan-sarnici-hizli-giris-sesli-rehber",
-  "city": "istanbul",
+  "id": "kapadokya-kirmizi-yesil-kombine-tur",
+  "city": "nevsehir",
   "title": {
-    "tr": "İstanbul: Yerebatan Sarnıcı'na Hızlı Giriş ve Sesli Rehber",
-    "en": "Istanbul: Skip-the-Line Basilica Cistern Entry with Audio Guide"
+    "tr": "Kapadokya: Tam Gün Kırmızı ve Yeşil Kombine Tur",
+    "en": "Cappadocia: Full-Day Red and Green Combined Tour"
   },
   "tag": {
-    "tr": "Hızlı Giriş",
-    "en": "Fast Track Entry"
+    "tr": "En Çok Tercih Edilen",
+    "en": "Top Rated"
   },
-  "imageUrl": "assets/genel/istanbul.webp",
-  "rating": 4.5,
-  "reviewCount": 8173,
+  "imageUrl": "assets/images/cappadocia-tour.webp",
   "duration": {
-    "tr": "1 gün",
-    "en": "1 day"
+    "tr": "7 - 8 saat",
+    "en": "7 - 8 hours"
   },
   "features": {
     "tr": [
       "Ücretsiz iptal",
       "Şimdi ayırt sonra öde",
-      "Sıra beklemeden giriş",
-      "Sesli rehber dahil"
+      "Otelden alma ve bırakma",
+      "Canlı rehber"
     ],
     "en": [
       "Free cancellation",
       "Reserve now pay later",
-      "Skip-the-line entry",
-      "Audio guide included"
+      "Hotel pickup and drop-off",
+      "Live guide"
     ]
   },
-  "price": {
-    "original": 2023,
-    "discounted": 2023,
-    "currency": "TRY"
-  },
-  "link": "https://www.getyourguide.com/istanbul-l56/istanbul-basilica-cistern-fast-track-entry-and-audio-guide-t523484/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  "link": "https://www.getyourguide.com/cappadocia-l1400/full-day-cappadocia-red-and-green-combined-day-tour-t147747/?partner_id=WKUIAKS&utm_medium=online_publisher"
 },
 {
-  "id": "istanbul-bogaz-gunduz-gun-batimi-yat-turu-sesli-rehber",
-  "city": "istanbul",
+  "id": "kapadokya-goreme-gun-dogumu-balon-turu",
+  "city": "nevsehir",
   "title": {
-    "tr": "İstanbul: Gündüz veya Gün Batımı Gezi Turu ve Sesli Rehber",
-    "en": "Istanbul: Day or Sunset Cruise Tour with Audio Guide"
+    "tr": "Kapadokya: Göreme Gün Doğumu Sıcak Hava Balonu Uçuşu",
+    "en": "Cappadocia: Göreme Sunrise Hot Air Balloon Flight"
   },
   "tag": {
     "tr": "En Çok Oy Alan",
     "en": "Top Rated"
   },
-  "imageUrl": "assets/genel/istanbul2.webp",
-  "rating": 4.8,
-  "reviewCount": 15809,
+  "imageUrl": "assets/images/cappadocia-balloon.webp",
   "duration": {
-    "tr": "2 saat",
-    "en": "2 hours"
+    "tr": "3 saat",
+    "en": "3 hours"
   },
   "features": {
     "tr": [
       "Ücretsiz iptal",
       "Şimdi ayırt sonra öde",
-      "Sesli rehber dahil",
-      "Canlı rehber",
-      "İçecek ve atıştırmalık opsiyonları"
+      "Otelden alma ve bırakma",
+      "Sigorta dahil",
+      "Şampanya kutlaması"
     ],
     "en": [
       "Free cancellation",
       "Reserve now pay later",
-      "Audio guide included",
-      "Live guide",
-      "Optional drinks and snacks"
+      "Hotel pickup and drop-off",
+      "Insurance included",
+      "Champagne celebration"
     ]
   },
-  "price": {
-    "original": 547,
-    "discounted": 383,
-    "currency": "TRY"
+  "link": "https://www.getyourguide.com/goreme-l984/cappadocia-goreme-sunrise-hot-air-balloon-flight-t597102/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "kapadokya-goreme-gun-dogumu-balon-ucusu-premium",
+  "city": "nevsehir",
+  "title": {
+    "tr": "Kapadokya: Gün Doğarken Göreme Sıcak Hava Balonu Uçuşu",
+    "en": "Cappadocia: Göreme Hot Air Balloon Flight at Sunrise"
   },
-  "link": "https://www.getyourguide.com/istanbul-l56/istanbul-daytime-or-sunset-sightseeing-cruise-audio-guide-t653610/?partner_id=WKUIAKS&utm_medium=online_publisher"
+  "tag": {
+    "tr": "En Çok Oy Alan",
+    "en": "Top Rated"
+  },
+  "imageUrl": "assets/images/cappadocia-premium-balloon.webp",
+  "duration": {
+    "tr": "3 saat",
+    "en": "3 hours"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Otelden alma ve bırakma",
+      "Uçuş videosu dahil",
+      "Şampanya kutlaması"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Hotel pickup and drop-off",
+      "Flight video included",
+      "Champagne celebration"
+    ]
+  },
+  "link": "https://www.getyourguide.com/cappadocia-l1400/cappadocia-goreme-hot-air-balloon-flight-at-sunrise-t26992/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "nevsehir-genel-kapadokya-deneyimleri",
+  "city": "nevsehir",
+  "title": {
+    "tr": "Nevşehir Geneli: Kapadokya Balon, Vadiler ve Günlük Turlar",
+    "en": "Nevsehir General: Cappadocia Balloons, Valleys and Day Tours"
+  },
+  "tag": {
+    "tr": "Bölge Kartı",
+    "en": "Region Card"
+  },
+  "description": {
+    "tr": "Kapadokya’nın kalbi Nevşehir ve çevresinde yer alan Göreme, Ürgüp, Avanos ve Uçhisar gibi bölgelerdeki en popüler balon turları, vadi yürüyüşleri ve kültürel deneyimleri keşfet. Bu kart bölgedeki tüm Kapadokya deneyimlerine giriş noktasıdır.",
+    "en": "Explore the most popular Cappadocia experiences across Nevsehir and surrounding areas such as Goreme, Urgup, Avanos, and Uchisar including hot air balloons, valley walks, and cultural tours. This card is the entry point to all Cappadocia experiences."
+  },
+  "imageUrl": "assets/genel/kapadokya.webp",
+  "features": {
+    "tr": [
+      "Kapadokya geneli turlar",
+      "Balon uçuş deneyimleri",
+      "Göreme & Ürgüp gezileri",
+      "Vadi ve doğa aktiviteleri"
+    ],
+    "en": [
+      "All Cappadocia region tours",
+      "Hot air balloon experiences",
+      "Goreme & Urgup tours",
+      "Valley and nature activities"
+    ]
+  },
+  "link": "https://www.getyourguide.com/cappadocia-l1400/cappadocia-goreme-hot-air-balloon-flight-at-sunrise-t26992/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "efes-kusadasi-kucuk-grup-gemi-yolcu-turu",
+  "city": "izmir",
+  "title": {
+    "tr": "Efes: Gemi Yolcuları için Küçük Grup Turu",
+    "en": "Ephesus: Small Group Tour for Cruise Passengers"
+  },
+  "tag": {
+    "tr": "En Çok Oy Alan",
+    "en": "Top Rated"
+  },
+  "imageUrl": "assets/genel/efes2.webp",
+  "duration": {
+    "tr": "5 saat",
+    "en": "5 hours"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Kruvaziyer limanından alma",
+      "Sıra beklemeden giriş",
+      "Profesyonel rehber"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Cruise port pickup",
+      "Skip-the-line entry",
+      "Professional guide"
+    ]
+  },
+  "link": "https://www.getyourguide.com/kusadasi-l986/private-ephesus-tour-half-day-from-izmir-or-kusadasi-t38158/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "izmir-efes-tam-gun-ogle-yemekli-tur",
+  "city": "izmir",
+  "title": {
+    "tr": "İzmir'den: Öğle Yemekli Tam Günlük Efes Turu",
+    "en": "From Izmir: Full-Day Ephesus Tour with Lunch"
+  },
+  "tag": {
+    "tr": "En Çok Oy Alan",
+    "en": "Top Rated"
+  },
+  "imageUrl": "assets/genel/efes.webp",
+  "duration": {
+    "tr": "8 saat",
+    "en": "8 hours"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Otel/liman alma ve bırakma",
+      "Öğle yemeği dahil",
+      "Profesyonel rehber"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Hotel/port pickup and drop-off",
+      "Lunch included",
+      "Professional guide"
+    ]
+  },
+  "link": "https://www.getyourguide.com/selcuk-l801/from-izmir-full-day-ephesus-tour-all-inclusive-t403177/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "izmir-genel-efes-ve-kultur-deneyimleri",
+  "city": "izmir",
+  "title": {
+    "tr": "İzmir Geneli: Efes, Şirince ve Kültürel Günlük Turlar",
+    "en": "Izmir General: Ephesus, Sirince and Cultural Day Tours"
+  },
+  "tag": {
+    "tr": "Bölge Kartı",
+    "en": "Region Card"
+  },
+  "description": {
+    "tr": "İzmir ve çevresinde Efes Antik Kenti, Meryem Ana Evi, Şirince Köyü ve diğer kültürel noktaları kapsayan en popüler günlük turları keşfet. Bu kart İzmir bölgesindeki tüm deneyimlere giriş noktasıdır.",
+    "en": "Discover the most popular day tours around Izmir including Ephesus Ancient City, House of Virgin Mary, Sirince Village, and other cultural highlights. This card is the entry point to all experiences in the Izmir region."
+  },
+  "imageUrl": "assets/genel/efes3.webp",
+  "features": {
+    "tr": [
+      "İzmir geneli turlar",
+      "Efes & Meryem Ana Evi",
+      "Şirince köyü gezileri",
+      "Kültürel günlük deneyimler"
+    ],
+    "en": [
+      "All Izmir region tours",
+      "Ephesus & House of Virgin Mary",
+      "Sirince village tours",
+      "Cultural day experiences"
+    ]
+ 
+ },
+  "link": "https://www.getyourguide.com/selcuk-l801/from-izmir-full-day-ephesus-tour-all-inclusive-t403177/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+
+{
+  "id": "antalya-kemer-scuba-dalis-deneyimi",
+  "city": "antalya",
+  "title": {
+    "tr": "Antalya/Kemer: 2 Dalış ve Öğle Yemeği Dahil Scuba Dalış Deneyimi",
+    "en": "Antalya/Kemer: Scuba Diving Experience with 2 Dives and Lunch"
+  },
+  "tag": {
+    "tr": "En Çok Oy Alan",
+    "en": "Top Rated"
+  },
+  "imageUrl": "assets/images/antalya.webp",
+  "duration": {
+    "tr": "8 saat",
+    "en": "8 hours"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Otelden alma ve bırakma",
+      "2 dalış dahil",
+      "Öğle yemeği dahil",
+      "Profesyonel eğitmen"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Hotel pickup and drop-off",
+      "2 dives included",
+      "Lunch included",
+      "Professional instructor"
+    ]
+  },
+  "link": "https://www.getyourguide.com/kemer-l1729/antalyakemer-scuba-diving-experience-incl-2-dives-lunch-t60602/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "antalya-belek-lara-relax-tekne-turu-yuzme-ogle-yemegi",
+  "city": "antalya",
+  "title": {
+    "tr": "Antalya/Belek: Lara’da Rahatlatıcı Tekne Gezisi, Yüzme Molaları ve Öğle Yemeği",
+    "en": "Antalya/Belek: Lara Beach Relax Boat Cruise with Swim Stops and Lunch"
+  },
+  "tag": {
+    "tr": "En Çok Oy Alan",
+    "en": "Top Rated"
+  },
+  "imageUrl": "assets/images/antalya2.webp",
+  "duration": {
+    "tr": "5,5 saat",
+    "en": "5.5 hours"
+  },
+  "features": {
+    "tr": [
+      "Ücretsiz iptal",
+      "Şimdi ayırt sonra öde",
+      "Otelden alma ve bırakma",
+      "Açık büfe öğle yemeği",
+      "Yüzme molaları"
+    ],
+    "en": [
+      "Free cancellation",
+      "Reserve now pay later",
+      "Hotel pickup and drop-off",
+      "Buffet lunch",
+      "Swimming stops"
+    ]
+  },
+  "link": "https://www.getyourguide.com/antalya-l172/kemer-lara-beach-relax-boat-cruise-with-swim-stops-lunch-t1198095/?partner_id=WKUIAKS&utm_medium=online_publisher"
+},
+{
+  "id": "antalya-genel-tekne-ve-deniz-deneyimleri",
+  "city": "antalya",
+  "title": {
+    "tr": "Antalya Geneli: Tekne Turları, Yüzme Molaları ve Deniz Deneyimleri",
+    "en": "Antalya General: Boat Tours, Swimming Stops and Sea Experiences"
+  },
+  "tag": {
+    "tr": "Bölge Kartı",
+    "en": "Region Card"
+  },
+  "description": {
+    "tr": "Antalya genelinde Belek, Lara, Kemer ve çevresindeki en popüler tekne turları, yüzme molaları ve deniz aktivitelerini keşfet. Bu kart, bölgedeki tüm deniz deneyimlerine giriş noktasıdır.",
+    "en": "Explore the most popular boat tours, swimming stops, and sea activities across Antalya including Belek, Lara, Kemer, and surroundings. This card is the entry point to all sea experiences in the region."
+  },
+  "imageUrl": "assets/genel/antalya.webp",
+  "features": {
+    "tr": [
+      "Antalya geneli deniz turları",
+      "Kemer, Belek ve Lara kapsar",
+      "Tekne turları ve yüzme molaları",
+      "Günlük deniz aktiviteleri"
+    ],
+    "en": [
+      "All Antalya sea tours",
+      "Covers Kemer, Belek and Lara",
+      "Boat tours and swimming stops",
+      "Daily sea experiences"
+    ]
+  },
+ "link": "https://www.getyourguide.com/antalya-l172/kemer-lara-beach-relax-boat-cruise-with-swim-stops-lunch-t1198095/?partner_id=WKUIAKS&utm_medium=online_publisher"
+
+
 }
+
 ]
