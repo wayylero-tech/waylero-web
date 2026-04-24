@@ -288,52 +288,51 @@ useEffect(() => {
           />
         ))
       ) : (
-        events.map((event) => (
-          <div
-            key={event.id}
-            className="h-full bg-white border border-gray-100 rounded-2xl overflow-hidden 
-                       shadow-sm hover:shadow-xl transition-all duration-300"
+  events.map((event) => (
+    <div
+      key={event.id}
+      className="h-full bg-white border border-gray-100 rounded-2xl overflow-hidden 
+                 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col" // <--- BURAYA EKLENDİ: flex flex-col
+    >
+      {/* Image */}
+      <div className="relative w-full aspect-[4/3] overflow-hidden">
+        <img
+          src={event.poster_url || event.afis || "/assets/genel/no-image.webp"}
+          loading="lazy"
+          alt={event.name}
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="p-4 sm:p-5 flex flex-col flex-1"> {/* <--- BURADA DEĞİŞTİ: h-full yerine flex-1 */}
+
+        <h3 className="font-bold text-sm sm:text-base text-gray-900 line-clamp-2 leading-snug">
+          {event.name}
+        </h3>
+
+        <p className="text-xs text-gray-500 mt-2">
+          📍 {event.venue?.name || "Mekan"}
+        </p>
+
+        <p className="text-xs font-bold text-blue-600 mt-2">
+          {new Date(event.start).toLocaleDateString("tr-TR")}
+        </p>
+
+        <div className="mt-auto pt-4"> {/* Artık bu düzgün çalışacaktır */}
+          <a
+            href={event.ticket_url || event.url}
+            target="_blank"
+            className="block w-full text-center bg-orange-500 text-white text-xs font-bold py-3 rounded-xl 
+                       hover:bg-orange-600 transition-colors"
           >
+            {lang === "tr" ? "Bilet Al" : "Get Ticket"} →
+          </a>
+        </div>
 
-            {/* Image */}
-            <div className="relative w-full aspect-[4/3] overflow-hidden">
-              <img
-                src={event.poster_url || event.afis || "/assets/genel/no-image.webp"}
-                loading="lazy"
-                alt={event.name}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-
-            {/* Content */}
-            <div className="p-4 sm:p-5 flex flex-col h-full">
-
-              <h3 className="font-bold text-sm sm:text-base text-gray-900 line-clamp-2 leading-snug">
-                {event.name}
-              </h3>
-
-              <p className="text-xs text-gray-500 mt-2">
-                📍 {event.venue?.name || "Mekan"}
-              </p>
-
-              <p className="text-xs font-bold text-blue-600 mt-2">
-                {new Date(event.start).toLocaleDateString("tr-TR")}
-              </p>
-
-              <div className="mt-auto pt-4">
-                <a
-                  href={event.ticket_url || event.url}
-                  target="_blank"
-                  className="block w-full text-center bg-orange-500 text-white text-xs font-bold py-3 rounded-xl 
-                             hover:bg-orange-600 transition-colors"
-                >
-                  {lang === "tr" ? "Bilet Al" : "Get Ticket"} →
-                </a>
-              </div>
-
-            </div>
-          </div>
-        ))
+      </div>
+    </div>
+  ))
       )}
 
     </div>
