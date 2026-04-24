@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { cityMap } from "@/lib/cityMap";
 import { MapPin, ChevronRight, Sparkles, X, Calendar } from 'lucide-react';
@@ -302,13 +301,13 @@ export default function ActivityList({
             {events.map((event) => (
               <div key={event.id} className="group bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 hover:shadow-2xl hover:shadow-black/5 transition-all duration-500 transform hover:-translate-y-2">
                 <div className="relative h-72 overflow-hidden">
-                  <Image 
-                    src={event.image} 
-                    alt={event.name} 
-                    fill 
-                    sizes="(max-width:768px) 100vw, 25vw" 
-                    className="object-cover group-hover:scale-110 transition-transform duration-1000 ease-out" 
-                  />
+                    <img
+    src={event.image}
+    alt={event.name}
+    loading="lazy"
+    decoding="async"
+    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+  />
                   {/* Tarih Badge */}
                   <div className="absolute top-5 left-5">
                     <div className="bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-sm text-center">
