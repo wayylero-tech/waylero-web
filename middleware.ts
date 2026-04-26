@@ -47,6 +47,8 @@ const cityToCountryMap: Record<string, string> = {
   "beijing": "cin", "pekin": "cin","sangay": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin",
 };
 
+
+
 // 🌍 2. ÜLKE -> BÖLGE EŞLEŞTİRMESİ (Senin verdiğin liste)
 const countryToRegionMap: Record<string, string> = {
   turkiye: "turkiye", // Türkiye her zaman turkiye kalsın demiştin
@@ -62,6 +64,7 @@ const countryToRegionMap: Record<string, string> = {
   gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
 };
 
+// 🔧 SANITIZE
 const sanitize = (str: string) =>
   str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -70,15 +73,24 @@ const sanitize = (str: string) =>
     .replace(/ü/g, "u").replace(/ş/g, "s")
     .replace(/ö/g, "o").replace(/ç/g, "c");
 
+// 🔥 SLUG → CITY
+const slugToCityMap: Record<string, string> = {
+  "mavi-bogaz-kanyonu": "konya",
+};
+
 export function middleware(request: NextRequest) {
   const requestHeaders = new Headers(request.headers);
 
   const { pathname, search } = request.nextUrl;
   const isEn = pathname.startsWith("/en");
 
-  // 🔴 0. SLUG → FULL URL REDIRECT (EN ÜSTTE OLACAK)
-  if (!pathname.includes("/kesfet/") && pathname.split("/").filter(Boolean).length === 1) {
-    const slug = sanitize(pathname.split("/").filter(Boolean)[0] || "");
+  const segments = pathname.split("/").filter(Boolean);
+
+  // 🔴 0. SLUG → FULL URL REDIRECT (EN + TR SUPPORT)
+  const slugSegment = isEn ? segments[1] : segments[0];
+
+  if (!pathname.includes("/kesfet/") && slugSegment) {
+    const slug = sanitize(slugSegment);
     const city = slugToCityMap[slug];
 
     if (city) {
@@ -87,7 +99,7 @@ export function middleware(request: NextRequest) {
       if (country) {
         const url = request.nextUrl.clone();
 
-        url.pathname = `/kesfet/${country}/${city}/${slug}`;
+        url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
         url.search = search;
 
         return NextResponse.redirect(url, 301);
@@ -102,8 +114,7 @@ export function middleware(request: NextRequest) {
   const parts = pathname.split("/");
   const offset = isEn ? 1 : 0;
 
-
-  // 🔴 1. REDIRECT (city-country fix)
+  // 🔴 1. CITY → COUNTRY FIX
   if (pathname.includes("/kesfet/") && parts.length >= 4 + offset) {
     const regionInUrl = parts[2 + offset];
     const cityInUrl = sanitize(parts[3 + offset]);
@@ -117,20 +128,18 @@ export function middleware(request: NextRequest) {
       newParts[2 + offset] = targetCountry;
 
       url.pathname = newParts.join("/");
-
-      // 🔥 redirect QUERY KORUR (rewrite değil)
       url.search = search;
 
       return NextResponse.redirect(url, 301);
     }
   }
 
-  // 🔵 2. EN ROUTING (FIX: rewrite yerine nextUrl clone)
+  // 🔵 EN ROUTING
   if (isEn) {
     const url = request.nextUrl.clone();
 
     url.pathname = pathname.replace(/^\/en/, "") || "/";
-    url.search = search; // 🔥 QUERY KORUNUR
+    url.search = search;
 
     const response = NextResponse.rewrite(url, {
       request: { headers: requestHeaders },
@@ -140,7 +149,7 @@ export function middleware(request: NextRequest) {
     return response;
   }
 
-  // 🟢 3. TR DEFAULT
+  // 🟢 TR DEFAULT
   const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
