@@ -76,12 +76,32 @@ export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const isEn = pathname.startsWith("/en");
 
-  // 🌍 headers (query kaybolmasın diye sadece string taşıyoruz)
+  // 🔴 0. SLUG → FULL URL REDIRECT (EN ÜSTTE OLACAK)
+  if (!pathname.includes("/kesfet/") && pathname.split("/").filter(Boolean).length === 1) {
+    const slug = sanitize(pathname.split("/").filter(Boolean)[0] || "");
+    const city = slugToCityMap[slug];
+
+    if (city) {
+      const country = cityToCountryMap[city];
+
+      if (country) {
+        const url = request.nextUrl.clone();
+
+        url.pathname = `/kesfet/${country}/${city}/${slug}`;
+        url.search = search;
+
+        return NextResponse.redirect(url, 301);
+      }
+    }
+  }
+
+  // 🌍 headers
   requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
   requestHeaders.set("x-url", pathname + search);
 
   const parts = pathname.split("/");
   const offset = isEn ? 1 : 0;
+
 
   // 🔴 1. REDIRECT (city-country fix)
   if (pathname.includes("/kesfet/") && parts.length >= 4 + offset) {
