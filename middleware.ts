@@ -91,7 +91,7 @@ export function middleware(request: NextRequest) {
 
   if (!pathname.includes("/kesfet/") && slugSegment) {
     const slug = sanitize(slugSegment);
-    const city = slugToCityMap[slug as string];
+    const city = (slugToCityMap as any)[slug];
 
     if (city) {
       const country = cityToCountryMap[city];
