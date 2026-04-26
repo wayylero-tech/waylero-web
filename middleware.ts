@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+import slugToCityMap from "./slug-city-map.json";
+
 
 // 🛡️ 1. ŞEHİR-ÜLKE HARİTASI (Hepsi burada)
 const cityToCountryMap: Record<string, string> = {
@@ -74,9 +76,7 @@ const sanitize = (str: string) =>
     .replace(/ö/g, "o").replace(/ç/g, "c");
 
 // 🔥 SLUG → CITY
-const slugToCityMap: Record<string, string> = {
-  "mavi-bogaz-kanyonu": "konya",
-};
+
 
 export function middleware(request: NextRequest) {
   const requestHeaders = new Headers(request.headers);
