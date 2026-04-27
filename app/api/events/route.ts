@@ -88,7 +88,7 @@ export async function GET(request: Request) {
       },
 
       // 🔥 KRİTİK: Next cache kullan
-      next: { revalidate: 900 },
+      next: { revalidate: 3600 },
     });
 
     const data = await res.json();

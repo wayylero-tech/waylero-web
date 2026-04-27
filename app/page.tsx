@@ -77,7 +77,7 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const res = await fetch(
   `${baseUrl}/api/events?take=4&city_ids=40&lang=${lang}`,
   {
-    cache: "no-store",
+    next: { revalidate: 3600 },
   }
 );
 

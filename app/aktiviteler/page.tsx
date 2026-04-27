@@ -122,7 +122,7 @@ export default async function ActivitiesPage({ searchParams }: any) {
 const res = await fetch(
   `${baseUrl}/api/events?${apiParams.toString()}`,
   {
-    next: { revalidate: 900 },
+    next: { revalidate: 3600 },
   }
 );
     if (res.ok) {
