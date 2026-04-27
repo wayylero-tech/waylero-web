@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 import slugToCityMap from "./slug-city-map.json";
 
 
@@ -66,7 +66,6 @@ const countryToRegionMap: Record<string, string> = {
   gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
 };
 
-// 🔧 SANITIZE
 const sanitize = (str: string) =>
   str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -75,89 +74,67 @@ const sanitize = (str: string) =>
     .replace(/ü/g, "u").replace(/ş/g, "s")
     .replace(/ö/g, "o").replace(/ç/g, "c");
 
-// 🔥 SLUG → CITY
-
-
 export function middleware(request: NextRequest) {
-  const requestHeaders = new Headers(request.headers);
-
   const { pathname, search } = request.nextUrl;
+
+  // 1. GEREKSİZ İŞLEMLERİ ELE: Eğer /kesfet/ içermiyorsa veya ana sayfa değilse 
+  // çoğu zaman işlem yapmana gerek kalmaz.
+  const isKesfet = pathname.includes("/kesfet/");
   const isEn = pathname.startsWith("/en");
 
-  const segments = pathname.split("/").filter(Boolean);
+  // Eğer URL /kesfet/ veya slug formatında değilse, doğrudan devam et. 
+  // En büyük performans kazancı burada.
+  if (!isKesfet && !pathname.match(/^\/[a-zA-Z0-9-]+$/) && !isEn) {
+    return NextResponse.next();
+  }
 
-  // 🔴 0. SLUG → FULL URL REDIRECT (EN + TR SUPPORT)
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
+  requestHeaders.set("x-url", pathname + search);
+
+  const segments = pathname.split("/").filter(Boolean);
   const slugSegment = isEn ? segments[1] : segments[0];
 
-  if (!pathname.includes("/kesfet/") && slugSegment) {
+  // 2. REDIRECT MANTIĞI: Sadece slug gibi görünen kısımlar için çalıştır.
+  if (!isKesfet && slugSegment && slugSegment !== "en") {
     const slug = sanitize(slugSegment);
     const city = (slugToCityMap as any)[slug];
 
     if (city) {
       const country = cityToCountryMap[city];
-
       if (country) {
         const url = request.nextUrl.clone();
-
         url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
         url.search = search;
-
         return NextResponse.redirect(url, 301);
       }
     }
   }
 
-  // 🌍 headers
-  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
-  requestHeaders.set("x-url", pathname + search);
+  // 3. PATH DÜZELTME: Sadece /kesfet/ rotasındaysak çalıştır.
+  if (isKesfet) {
+    const offset = isEn ? 1 : 0;
+    // URL yapısı beklediğimizden kısaysa işleme girme
+    if (segments.length >= 4 + offset) {
+      const regionInUrl = segments[2 + offset];
+      const cityInUrl = sanitize(segments[3 + offset]);
+      const targetCountry = cityToCountryMap[cityInUrl];
 
-  const parts = pathname.split("/");
-  const offset = isEn ? 1 : 0;
-
-  // 🔴 1. CITY → COUNTRY FIX
-  if (pathname.includes("/kesfet/") && parts.length >= 4 + offset) {
-    const regionInUrl = parts[2 + offset];
-    const cityInUrl = sanitize(parts[3 + offset]);
-
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (targetCountry && (regionInUrl === "turkey" || regionInUrl !== targetCountry)) {
-      const url = request.nextUrl.clone();
-
-      const newParts = [...parts];
-      newParts[2 + offset] = targetCountry;
-
-      url.pathname = newParts.join("/");
-      url.search = search;
-
-      return NextResponse.redirect(url, 301);
+      if (targetCountry && regionInUrl !== targetCountry) {
+        const url = request.nextUrl.clone();
+        segments[2 + offset] = targetCountry;
+        url.pathname = "/" + segments.join("/");
+        url.search = search;
+        return NextResponse.redirect(url, 301);
+      }
     }
   }
 
-  // 🔵 EN ROUTING
-  if (isEn) {
-    const url = request.nextUrl.clone();
+  // 4. COOKIE İŞLEMLERİ: Sadece gerekli durumlarda set et
+  const response = isEn 
+    ? NextResponse.rewrite(request.nextUrl, { request: { headers: requestHeaders } })
+    : NextResponse.next({ request: { headers: requestHeaders } });
 
-    url.pathname = pathname.replace(/^\/en/, "") || "/";
-    url.search = search;
-
-    const response = NextResponse.rewrite(url, {
-      request: { headers: requestHeaders },
-    });
-
-    response.cookies.set("lang", "en", { path: "/" });
-    return response;
-  }
-
-  // 🟢 TR DEFAULT
-  const response = NextResponse.next({
-    request: { headers: requestHeaders },
-  });
-
-  response.cookies.set("lang", "tr", { path: "/" });
+  response.cookies.set("lang", isEn ? "en" : "tr", { path: "/", maxAge: 60 * 60 * 24 });
   return response;
 }
-
-export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)"],
-};
