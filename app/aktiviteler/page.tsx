@@ -115,11 +115,10 @@ export default async function ActivitiesPage({ searchParams }: any) {
     apiParams.append("skip", "0"); 
 
     const domain = "www.waylero.com";
-    const baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${domain}`;
 
     // Kendi API Route'umuza istek atıyoruz
-    const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
-  next: { revalidate: 900 }, // 🔥 15 dk
+   const res = await fetch(`/api/events?${apiParams.toString()}`, {
+  next: { revalidate: 900 },
 });
 
     if (res.ok) {

@@ -37,7 +37,6 @@ export default async function Page() {
   const isEn = lang === "en";
 
   // 🔴 LOG: Terminalde (VsCode altında) gör diye
-  console.log(`>>> PAGE LOG: Sayfa ${isEn ? "İNGİLİZCE" : "TÜRKÇE"} render ediliyor. URL: ${headerList.get("x-url")}`);
 
   const featuredCitiesRaw = [
     { name: { tr: "İstanbul", en: "Istanbul" }, slug: "istanbul", country: "turkiye", image: "/assets/genel/istanbul.webp" },
@@ -73,9 +72,9 @@ export default async function Page() {
   const videos = wayleroLiveVideos.slice(0, 6);
 
   // 🟢 3. API'YE DİLİ GEÇ (API'n destekliyorsa datayı da İngilizce çeker)
-  const res = await fetch(`http://localhost:3000/api/events?take=4&city_ids=40&lang=${lang}`, {
-    cache: "no-store",
-  });
+ const res = await fetch(`/api/events?take=4&city_ids=40&lang=${lang}`, {
+  cache: "no-store",
+});
 
   const data = await res.json();
   const events = data?.items || [];
