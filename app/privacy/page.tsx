@@ -1,38 +1,31 @@
-"use client";
+import { headers } from "next/headers";
 
-import { useEffect } from "react";
-import { useLang } from "@/app/context/LanguageContext";
-import { useRouter, usePathname } from "next/navigation";
+export async function generateMetadata() {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
 
-export default function PrivacyPage() {
-  const { lang } = useLang();
-  const router = useRouter();
-  const pathname = usePathname();
+  return {
+    title: lang === "en" ? "Privacy Policy | Waylero" : "Gizlilik Politikası | Waylero",
+    description: lang === "en" 
+      ? "Waylero's data protection and privacy statement." 
+      : "Waylero veri koruma ve gizlilik beyanı.",
+    robots: { index: true, follow: true },
+  };
+}
 
+export default async function PrivacyPage() {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
   const isEn = lang === "en";
-
-  // URL SENKRONİZASYONU
-  useEffect(() => {
-    const isUrlEn = pathname.startsWith("/en/");
-
-    if (isEn && !isUrlEn) {
-      router.push(`/en${pathname}`, { scroll: false });
-    } else if (!isEn && isUrlEn) {
-      const newPath = pathname.replace("/en", "");
-      router.push(newPath || "/", { scroll: false });
-    }
-  }, [lang, pathname, router, isEn]);
 
   const content = {
     title: isEn ? "Privacy Policy" : "Gizlilik Politikası",
     date: isEn
       ? "Effective Date: The date you first use the Waylero platform"
       : "Yürürlük Tarihi: Waylero platformunu ilk kez kullandığınız tarih",
-
     introTitle: isEn
       ? "Waylero – Data Protection and Privacy Statement"
       : "Waylero – Veri Koruma ve Gizlilik Beyanı",
-
     introText: isEn
       ? "At Waylero, we value the privacy of our users. This Privacy Policy explains how personal data obtained through the Waylero mobile application and website is processed in accordance with the Law No. 6698 on the Protection of Personal Data (KVKK) and the European Union General Data Protection Regulation (GDPR)."
       : "Waylero olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası; Waylero mobil uygulaması ve web sitesi üzerinden sunulan hizmetler kapsamında elde edilen kişisel verilerin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) uyarınca nasıl işlendiğini açıklamaktadır.",
@@ -127,37 +120,58 @@ export default function PrivacyPage() {
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold mb-6">{content.title}</h1>
-      <p className="text-sm text-gray-500 mb-8">{content.date}</p>
+    <main className="max-w-4xl mx-auto px-6 py-20">
+      <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-gray-900">{content.title}</h1>
+      <p className="text-sm text-gray-400 mb-12 font-medium uppercase tracking-tighter italic border-b pb-6">{content.date}</p>
 
-      <section className="space-y-6 text-gray-700 leading-relaxed">
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.introTitle}</h2>
-          <p>{content.introText}</p>
+      <section className="space-y-12 text-gray-700 leading-relaxed text-lg">
+        {/* Önemli Vurgu Kutusu */}
+        <div className="bg-orange-50 p-8 rounded-[2rem] border border-orange-100 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-orange-100/50 rounded-full -mr-16 -mt-16" />
+          <h2 className="text-2xl font-serif font-bold mb-4 text-orange-900 relative z-10">{content.introTitle}</h2>
+          <p className="text-orange-800 relative z-10 leading-relaxed font-medium">{content.introText}</p>
         </div>
 
-        {content.sections.map((section, i) => (
-          <div key={i}>
-            <h3 className="text-lg font-semibold mb-2">{section.title}</h3>
-            {section.body && <p>{section.body}</p>}
-            {section.list && (
-              <ul className="list-disc pl-5 space-y-1">
-                {section.list.map((item, idx) => (
-                  <li key={idx}>{item}</li>
-                ))}
-              </ul>
-            )}
-            {section.contact && (
-              <p className="mt-2">
-                📧{" "}
-                <a href={`mailto:${section.contact}`} className="text-blue-600 underline">
-                  {section.contact}
-                </a>
-              </p>
-            )}
-          </div>
-        ))}
+        <div className="grid gap-10">
+          {content.sections.map((section, i) => (
+            <div key={i} className="group border-l-2 border-gray-100 hover:border-orange-500 pl-8 transition-all duration-300">
+              <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900 group-hover:text-orange-600 transition-colors">
+                {section.title}
+              </h3>
+              
+              {section.body && <p className="mb-4 text-gray-600 font-medium">{section.body}</p>}
+              
+              {section.list && (
+                <ul className="grid gap-3">
+                  {section.list.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-gray-600">
+                      <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-400 shrink-0" />
+                      <span className="font-medium">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              
+              {section.contact && (
+                <div className="mt-6 flex items-center gap-3 bg-gray-50 w-fit px-5 py-3 rounded-2xl border border-gray-100">
+                  <span className="text-lg">📧</span>
+                  <a 
+                    href={`mailto:${section.contact}`} 
+                    className="text-gray-900 font-bold hover:text-orange-600 transition-colors underline decoration-orange-200 underline-offset-4"
+                  >
+                    {section.contact}
+                  </a>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Alt Bilgi */}
+        <div className="pt-12 border-t text-center flex flex-col items-center">
+          <p className="font-serif text-2xl font-bold text-gray-900 mb-1">Waylero</p>
+          <p className="text-xs text-orange-600 font-black tracking-[0.2em] uppercase">Trust & Privacy</p>
+        </div>
       </section>
     </main>
   );

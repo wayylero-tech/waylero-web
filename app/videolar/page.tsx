@@ -3,14 +3,13 @@ import { headers } from "next/headers";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
 import VideolarClientPage from "./VideolarClientPage";
 
-// 🌍 Dil Yakalama: Daha esnek hale getirdik
+// 🌍 Dil Yakalama Fonksiyonu
 async function getLanguage() {
   const h = await headers();
-  // Middleware'den gelen header'ları kontrol et
-  const currentPath = h.get("x-url") || h.get("referer") || ""; 
-  const xLang = h.get("x-url-lang"); // Eğer middleware setliyorsa en garanti yol budur
+  const xLang = h.get("x-url-lang"); 
+  const referer = h.get("referer") || "";
   
-  if (xLang === "en" || currentPath.includes("/en/")) return "en";
+  if (xLang === "en" || referer.includes("/en/")) return "en";
   return "tr";
 }
 
@@ -19,6 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const videos = addSlugs(wayleroLiveVideos);
   const titles = videos.map(v => v.title).slice(0, 5).join(", ");
   const baseUrl = "https://www.waylero.com";
+
 
   const t = {
     tr: {
@@ -36,7 +36,6 @@ export async function generateMetadata(): Promise<Metadata> {
     description: t.description,
     alternates: {
       canonical: `${baseUrl}${lang === "en" ? "/en" : ""}/videolar`,
-      // 🌍 Google'a diğer dil versiyonunu da haber veriyoruz (Hreflang mantığı)
       languages: {
         'tr-TR': `${baseUrl}/videolar`,
         'en-US': `${baseUrl}/en/videolar`,
@@ -64,6 +63,7 @@ export default async function Page() {
   const lang = await getLanguage();
   const videos = addSlugs(wayleroLiveVideos);
 
+  // 📹 Video SEO (JSON-LD)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -73,7 +73,9 @@ export default async function Page() {
       "item": {
         "@type": "VideoObject",
         "name": video.title,
-        "description": `${video.title} - ${video.location || 'Türkiye'} bölgesinden harika şehir manzaraları ve Waylero özel çekimleri.`,
+        "description": lang === "tr" 
+          ? `${video.title} - Waylero özel çekimleriyle şehir turu ve gezi rehberi.`
+          : `${video.title} - City tour and travel guide with Waylero exclusive footage.`,
         "thumbnailUrl": [
           `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`,
           `https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`
@@ -81,18 +83,22 @@ export default async function Page() {
         "uploadDate": "2024-01-01T08:00:00+03:00", 
         "embedUrl": `https://www.youtube.com/embed/${video.youtubeId}`,
         "contentUrl": `https://www.youtube.com/watch?v=${video.youtubeId}`,
-        "interactionCount": "1250",
       }
     }))
   };
 
   return (
     <>
+      {/* JSON-LD Sunucuda basılır, SEO için mükemmeldir */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-<VideolarClientPage />
+      
+      {/* DİKKAT: lang={lang} prop'unu ekledim! 
+          VideolarClientPage içerisinde bu prop'u alıp kullanmalısın.
+      */}
+      <VideolarClientPage lang={lang} initialVideos={videos} />
     </>
   );
 }

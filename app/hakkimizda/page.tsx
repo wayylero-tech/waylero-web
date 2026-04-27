@@ -1,27 +1,21 @@
-"use client";
+import { headers } from "next/headers";
 
-import { useEffect } from "react";
-import { useLang } from "@/app/context/LanguageContext";
-import { useRouter, usePathname } from "next/navigation";
+export async function generateMetadata() {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
 
-export default function AboutPage() {
-  const { lang } = useLang();
-  const router = useRouter();
-  const pathname = usePathname();
+  return {
+    title: lang === "en" ? "About Us | Waylero" : "Hakkımızda | Waylero",
+    description: lang === "en" 
+      ? "Discover the story, vision, and mission of Waylero." 
+      : "Waylero'nun hikayesini, vizyonunu ve misyonunu keşfedin.",
+  };
+}
 
+export default async function HakkimizdaPage() {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
   const isEn = lang === "en";
-
-  // URL SENKRONİZASYONU
-  useEffect(() => {
-    const isUrlEn = pathname.startsWith("/en/");
-
-    if (isEn && !isUrlEn) {
-      router.push(`/en${pathname}`, { scroll: false });
-    } else if (!isEn && isUrlEn) {
-      const newPath = pathname.replace("/en", "");
-      router.push(newPath || "/", { scroll: false });
-    }
-  }, [lang, pathname, router, isEn]);
 
   const content = {
     title: isEn ? "About Us" : "Hakkımızda",
@@ -68,55 +62,81 @@ export default function AboutPage() {
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold mb-6">{content.title}</h1>
-
-      <section className="space-y-6 text-gray-700 leading-relaxed">
-        <p>{content.introP1}</p>
-        <p>{content.introP2}</p>
-
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.storyTitle}</h2>
-          <p>{content.storyP1}</p>
-          <p className="mt-2">{content.storyP2}</p>
+    <main className="max-w-4xl mx-auto px-6 py-20">
+      {/* Başlık ve Intro */}
+      <div className="mb-16">
+        <h1 className="text-5xl md:text-6xl font-serif font-bold text-gray-900 mb-8 tracking-tight">
+          {content.title}
+        </h1>
+        <div className="space-y-6 text-xl text-gray-600 leading-relaxed font-medium">
+          <p>{content.introP1}</p>
+          <p className="text-gray-500">{content.introP2}</p>
         </div>
+      </div>
 
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.offerTitle}</h2>
-          <ul className="list-disc pl-5 space-y-1">
+      <div className="grid gap-16 border-t pt-16">
+        {/* Hikaye */}
+        <section>
+          <h2 className="text-3xl font-serif font-bold mb-6 text-gray-900 flex items-center gap-3">
+            <span className="w-8 h-1 bg-orange-500 rounded-full"></span>
+            {content.storyTitle}
+          </h2>
+          <div className="text-lg text-gray-600 space-y-4">
+            <p>{content.storyP1}</p>
+            <p>{content.storyP2}</p>
+          </div>
+        </section>
+
+        {/* Ne Sunuyoruz - List */}
+        <section className="bg-gray-50 p-8 md:p-12 rounded-[2.5rem] border border-gray-100">
+          <h2 className="text-3xl font-serif font-bold mb-8 text-gray-900">
+            {content.offerTitle}
+          </h2>
+          <ul className="grid md:grid-cols-2 gap-4">
             {content.offerList.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li key={index} className="flex items-start gap-3 text-gray-700">
+                <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 shrink-0" />
+                <span className="font-medium text-lg">{item}</span>
+              </li>
             ))}
           </ul>
+        </section>
+
+        {/* Vizyon & Misyon - Yanyana */}
+        <div className="grid md:grid-cols-2 gap-12">
+          <section>
+            <h2 className="text-2xl font-serif font-bold mb-4 text-gray-900">{content.visionTitle}</h2>
+            <p className="text-gray-600 leading-relaxed text-lg">{content.visionP}</p>
+          </section>
+          <section>
+            <h2 className="text-2xl font-serif font-bold mb-4 text-gray-900">{content.missionTitle}</h2>
+            <p className="text-gray-600 leading-relaxed text-lg">{content.missionP}</p>
+          </section>
         </div>
 
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.visionTitle}</h2>
-          <p>{content.visionP}</p>
+        {/* Topluluk & Gelecek */}
+        <div className="space-y-12">
+          <section>
+            <h2 className="text-3xl font-serif font-bold mb-6 text-gray-900">{content.communityTitle}</h2>
+            <p className="text-lg text-gray-600 leading-relaxed">{content.communityP1}</p>
+            <p className="text-lg text-gray-600 mt-4 italic">{content.communityP2}</p>
+          </section>
+
+          <section className="bg-orange-600 text-white p-10 md:p-16 rounded-[3rem] shadow-xl shadow-orange-100">
+            <h2 className="text-3xl font-serif font-bold mb-6">{content.futureTitle}</h2>
+            <p className="text-xl text-orange-50 mb-6">{content.futureP1}</p>
+            <p className="text-2xl font-serif italic">{content.futureP2}</p>
+          </section>
         </div>
 
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.missionTitle}</h2>
-          <p>{content.missionP}</p>
+        {/* Footer Slogan */}
+        <div className="pt-12 border-t flex flex-col items-center text-center">
+          <p className="text-3xl font-serif font-bold text-gray-900 mb-2">Waylero</p>
+          <p className="text-orange-600 font-black tracking-[0.3em] uppercase text-xs">
+            {content.slogan}
+          </p>
         </div>
-
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.communityTitle}</h2>
-          <p>{content.communityP1}</p>
-          <p className="mt-2">{content.communityP2}</p>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold mb-2">{content.futureTitle}</h2>
-          <p>{content.futureP1}</p>
-          <p className="mt-2">{content.futureP2}</p>
-        </div>
-
-        <div className="pt-6 border-t">
-          <p className="font-semibold text-gray-900">Waylero</p>
-          <p className="text-sm text-gray-500">{content.slogan}</p>
-        </div>
-      </section>
+      </div>
     </main>
   );
 }

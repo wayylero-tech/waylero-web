@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { useLang } from "../app/context/LanguageContext";
+import { usePathname } from "next/navigation"; // URL kontrolü için ekledik
 
 export default function TourCard({
   title,
@@ -10,10 +10,13 @@ export default function TourCard({
   tag,
   duration,
   features,
-  city // <-- city'yi buraya ekledik
+  city 
 }: any) {
-
-  const { lang } = useLang();
+  
+  const pathname = usePathname();
+  
+  // 🔥 GARANTİLİ DİL TESPİTİ: URL /en ile başlıyorsa "en", başlamıyorsa "tr"
+  const activeLang = pathname.startsWith("/en") ? "en" : "tr";
 
   const t = {
     tr: {
@@ -24,7 +27,13 @@ export default function TourCard({
       reserve: "Click to view prices and tours",
       durationLabel: "Duration:",
     },
-  }[lang as "tr" | "en"];
+  }[activeLang];
+
+  // Veriden dile göre metni çeken yardımcı fonksiyon
+  const getLabel = (field: any) => {
+    if (!field) return "";
+    return field[activeLang] || field["tr"] || field; 
+  };
 
   const safeImageUrl = imageUrl?.startsWith("/")
     ? imageUrl
@@ -37,13 +46,13 @@ export default function TourCard({
       <div className="relative w-full h-80 bg-gray-200 overflow-hidden">
         <img
           src={safeImageUrl}
-          alt={title?.[lang] ?? title}
+          alt={getLabel(title)}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
         />
 
         {tag && (
           <div className="absolute top-4 left-4 bg-red-600 text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg z-10">
-            {tag?.[lang]}
+            {getLabel(tag)}
           </div>
         )}
       </div>
@@ -53,19 +62,19 @@ export default function TourCard({
         
         {/* TITLE */}
         <h3 className="text-[17px] font-black text-gray-900 line-clamp-2 leading-snug">
-          {title?.[lang] ?? title}
+          {getLabel(title)}
         </h3>
 
-          {/* YENİ EKLEDİĞİMİZ ŞEHİR KISMI */}
+        {/* CITY */}
         <div className="text-[12px] font-bold text-blue-600 uppercase tracking-widest mt-2">
-          {city}
+          {getLabel(city)}
         </div>  
 
 
         {/* DURATION + FEATURE */}
         <div className="text-[13px] text-gray-500 mt-3 italic font-medium mb-6">
-          <span className="font-bold text-gray-700">{t?.durationLabel}</span> {duration?.[lang]}{" "}
-          {features?.[lang]?.length ? `• ${features[lang][0]}` : ""}
+          <span className="font-bold text-gray-700">{t.durationLabel}</span> {getLabel(duration)}{" "}
+          {features?.[activeLang]?.length ? `• ${features[activeLang][0]}` : ""}
         </div>
 
         {/* CTA */}
@@ -75,7 +84,7 @@ export default function TourCard({
           rel="noopener noreferrer"
           className="mt-auto flex items-center justify-center gap-2 w-full bg-orange-600 hover:bg-orange-700 text-white text-[13px] font-bold py-5 px-3 rounded-2xl transition-all shadow-xl shadow-orange-500/30 hover:scale-[1.02] active:scale-[0.98] text-center leading-tight"
         >
-          <span>{t?.reserve}</span>
+          <span>{t.reserve}</span>
 
           <svg
             className="w-5 h-5 flex-shrink-0"

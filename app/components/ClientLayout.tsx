@@ -25,61 +25,49 @@ export default function ClientLayout({
   children: React.ReactNode;
   lang?: string;
 }) {
-
   const { lang: contextLang, setLang } = useLang();
   const pathname = usePathname();
   const router = useRouter();
 
-const activeLang = contextLang || "tr";
+  const isEnInUrl = pathname.startsWith("/en");
+  const activeLang = isEnInUrl ? "en" : "tr";
 
-
-  const switchLanguage = (lang: "tr" | "en") => {
-  setLang(lang);
-
-  // 1. Mevcut parametreleri (query string) al (?city=istanbul gibi)
-  const currentSearchParams = typeof window !== "undefined" ? window.location.search : "";
-
-  const cleanPath = pathname.replace(/^\/en/, "");
-
-  const newPath =
-    lang === "tr"
-      ? cleanPath || "/"
-      : cleanPath === "/"
-      ? "/en"
-      : `/en${cleanPath}`;
-
-  // 2. Yeni path'in sonuna mevcut parametreleri geri ekle
-  router.push(`${newPath}${currentSearchParams}`);
-};
-
-// Sayfa ilk yüklendiğinde veya pathname değiştiğinde parametre kaybını önlemek için:
-useEffect(() => {
-  if (pathname.startsWith("/en")) {
-    setLang("en");
-  } else {
-    setLang("tr");
-  }
-  // Burada router.push YAPMA. Sadece context'teki dili güncelle.
-  // Eğer burada router.push(pathname) dersen parametreleri yine silersin.
-}, [pathname]);
-
-  const isHome = pathname === "/" || pathname === "/en";
+  // 🔴 LOG 1: Her render'da URL ve Dil Durumu
+  console.log("🌐 Layout Render | URL'den Gelen:", activeLang, "| Context'teki:", contextLang, "| Path:", pathname);
 
   useEffect(() => {
-  if (pathname.startsWith("/en")) {
-    setLang("en");
-  } else {
-    setLang("tr");
-  }
-}, [pathname]);
+    if (contextLang !== activeLang) {
+      console.log("🔄 useEffect: Context dili güncelleniyor ->", activeLang);
+      setLang(activeLang);
+    }
+  }, [activeLang, contextLang, setLang]);
 
+  const switchLanguage = (lang: "tr" | "en") => {
+    console.log("🖱️ Dil Değiştir Butonuna Basıldı:", lang);
+    
+    // 1. Önce Context'i güncelleyelim
+    setLang(lang);
+    
+    // 2. Path hesaplama (mevcut mantığın doğru)
+    const cleanPath = pathname.startsWith("/en") 
+      ? pathname.replace(/^\/en/, "") || "/" 
+      : pathname;
 
+    const newPath = lang === "tr" 
+      ? (cleanPath === "" ? "/" : cleanPath) 
+      : (cleanPath === "/" ? "/en" : `/en${cleanPath}`);
 
-  const shouldBeSmall = false;
+    console.log("🚀 Zorunlu Yönlendirme Yapılıyor:", newPath);
 
+    // 3. Next.js router yerine doğrudan window.location kullanıyoruz
+    // Bu sayede middleware tekrar tetiklenir ve sayfa temiz bir şekilde İngilizce açılır.
+    window.location.href = newPath;
+  };
+
+  
   const getLocalizedLink = (path: string) => {
     if (activeLang === "tr") return path;
-    return `/${activeLang}${path === "/" ? "" : path}`;
+    return `/en${path === "/" ? "" : path}`;
   };
 
   const translations = {
@@ -103,7 +91,24 @@ useEffect(() => {
     },
   };
 
-  const t = translations[activeLang as "tr" | "en"] || translations.tr;
+  const t = translations[activeLang];
+
+
+const [shouldBeSmall, setShouldBeSmall] = useState(false);
+
+useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setShouldBeSmall(true);
+    } else {
+      setShouldBeSmall(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
 
   return (
     <div className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
@@ -191,28 +196,29 @@ useEffect(() => {
       {/* Slogan kaldırıldı / istersen eklenebilir */}
     </div>
 
-    {/* 2. KURUMSAL */}
-    <div className="flex flex-col gap-2.5">
-      <span className="font-bold text-white mb-1 tracking-wider">
-        {activeLang === "tr" ? "KURUMSAL" : "CORPORATE"}
-      </span>
+   {/* 2. KURUMSAL BÖLÜMÜNDEKİ LINKLER */}
+<div className="flex flex-col gap-2.5">
+  <span className="font-bold text-white mb-1 tracking-wider">
+    {activeLang === "tr" ? "KURUMSAL" : "CORPORATE"}
+  </span>
 
-      <Link href={getLocalizedLink("/hakkimizda")} className="hover:text-blue-400 transition-colors font-medium">
-        {t.hakkimizda}
-      </Link>
+  {/* Linklerin href kısımlarına getLocalizedLink ekliyoruz */}
+  <Link href={getLocalizedLink("/hakkimizda")} className="hover:text-blue-400 transition-colors font-medium">
+    {t.hakkimizda}
+  </Link>
 
-      <Link href={getLocalizedLink("/privacy")} className="hover:text-blue-400 transition-colors font-medium">
-        {t.gizlilik}
-      </Link>
+  <Link href={getLocalizedLink("/privacy")} className="hover:text-blue-400 transition-colors font-medium">
+    {t.gizlilik}
+  </Link>
 
-      <Link href={getLocalizedLink("/terms")} className="hover:text-blue-400 transition-colors font-medium">
-        {t.sozlesme}
-      </Link>
+  <Link href={getLocalizedLink("/terms")} className="hover:text-blue-400 transition-colors font-medium">
+    {t.sozlesme}
+  </Link>
 
-      <Link href={getLocalizedLink("/contact")} className="hover:text-blue-400 transition-colors font-medium">
-        {t.iletisim}
-      </Link>
-    </div>
+  <Link href={getLocalizedLink("/contact")} className="hover:text-blue-400 transition-colors font-medium">
+    {t.iletisim}
+  </Link>
+</div>
 
     {/* 3. PARTNERS */}
 <div className="flex flex-col gap-3 min-w-[250px] max-w-[500px] overflow-hidden">

@@ -65,3 +65,26 @@ body {
 .clip-hero {
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+/* =========================
+   BUTTON SHIMMER EFFECT
+   ========================= */
+
+@theme inline {
+    /* Shimmer animasyonunu temaya ekle */
+    --animate-shimmer: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Opsiyonel: Butonun içindeki parlamayı daha yumuşak yapmak istersen */
+.shimmer-gradient {
+    background: linear-gradient( 90deg, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100% );
+}

@@ -1,156 +1,177 @@
-"use client";
+import { headers } from "next/headers";
 
-import { useEffect } from "react";
-import { useLang } from "@/app/context/LanguageContext";
-import { useRouter, usePathname } from "next/navigation";
+export async function generateMetadata() {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
 
-export default function TermsPage() {
-  const { lang } = useLang(); 
-  const router = useRouter();
-  const pathname = usePathname();
+  return {
+    title: lang === "en" ? "Privacy Policy | Waylero" : "Gizlilik Politikası | Waylero",
+    description: lang === "en" 
+      ? "Waylero's data protection and privacy statement." 
+      : "Waylero veri koruma ve gizlilik beyanı.",
+    robots: { index: true, follow: true },
+  };
+}
+
+export default async function PrivacyPage() {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
   const isEn = lang === "en";
 
-  // 🔥 URL YÖNETİMİ: Dil değiştiğinde URL'i de günceller
-  useEffect(() => {
-    const isUrlEn = pathname.startsWith("/en/");
-    
-    if (isEn && !isUrlEn) {
-      router.push(`/en${pathname}`, { scroll: false });
-    } else if (!isEn && isUrlEn) {
-      const newPath = pathname.replace("/en", "");
-      router.push(newPath || "/", { scroll: false });
-    }
-  }, [lang, pathname, router, isEn]);
-
   const content = {
-    title: isEn ? "Terms of Use and Community Guidelines" : "Waylero Kullanım Koşulları ve Topluluk Kuralları",
-    effectiveDate: isEn 
-      ? "Effective Date: The date the Waylero platform is first used by the user" 
-      : "Yürürlük Tarihi: Waylero platformunun kullanıcı tarafından ilk kez kullanıldığı tarih",
-    intro: isEn
-      ? "Thank you for using Waylero. These Terms of Use govern the conditions for the use of services offered through the Waylero mobile application and web platform, user rights and obligations, and community standards. By using Waylero, you are deemed to have accepted these terms."
-      : "Waylero’yu kullandığınız için teşekkür ederiz. İşbu Kullanım Koşulları, Waylero mobil uygulaması ve web platformu üzerinden sunulan hizmetlerin kullanımına ilişkin şartları, kullanıcı hak ve yükümlülüklerini ve topluluk standartlarını düzenler. Waylero’yu kullanarak bu koşulları kabul etmiş sayılırsınız.",
+    title: isEn ? "Privacy Policy" : "Gizlilik Politikası",
+    date: isEn
+      ? "Effective Date: The date you first use the Waylero platform"
+      : "Yürürlük Tarihi: Waylero platformunu ilk kez kullandığınız tarih",
+    introTitle: isEn
+      ? "Waylero – Data Protection and Privacy Statement"
+      : "Waylero – Veri Koruma ve Gizlilik Beyanı",
+    introText: isEn
+      ? "At Waylero, we value the privacy of our users. This Privacy Policy explains how personal data obtained through the Waylero mobile application and website is processed in accordance with the Law No. 6698 on the Protection of Personal Data (KVKK) and the European Union General Data Protection Regulation (GDPR)."
+      : "Waylero olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası; Waylero mobil uygulaması ve web sitesi üzerinden sunulan hizmetler kapsamında elde edilen kişisel verilerin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) uyarınca nasıl işlendiğini açıklamaktadır.",
+
     sections: [
       {
-        id: 1,
-        title: isEn ? "1. General Provisions" : "1. Genel Hükümler",
+        title: isEn ? "1. Data Controller" : "1. Veri Sorumlusu",
+        body: isEn
+          ? "Data controller under the scope of KVKK: Waylero"
+          : "KVKK kapsamında veri sorumlusu: Waylero",
+        contact: "wayylero@gmail.com"
+      },
+      {
+        title: isEn ? "2. Collected Personal Data" : "2. Toplanan Kişisel Veriler",
         list: isEn
           ? [
-              "These terms of use apply to all users using the Waylero platform.",
-              "Waylero is a platform that offers social features such as travel planning, content sharing, discovery, adding friends, and messaging between users.",
-              "Waylero is operated by an individual developer and is subject to the legislation of the Republic of Turkey."
+              "Name, surname and e-mail address",
+              "Photos and videos shared by the user",
+              "Device information (operating system, device model, IP address)",
+              "Messaging content between users",
+              "In-app usage and interaction data",
             ]
           : [
-              "Bu kullanım koşulları, Waylero platformunu kullanan tüm kullanıcılar için geçerlidir.",
-              "Waylero; gezi planlama, içerik paylaşımı, keşif, arkadaş ekleme ve kullanıcılar arası mesajlaşma gibi sosyal özellikler sunan bir platformdur.",
-              "Waylero, bireysel geliştirici tarafından işletilmekte olup Türkiye Cumhuriyeti mevzuatına tabidir."
-            ]
+              "Ad, soyad ve e-posta adresi",
+              "Kullanıcı tarafından paylaşılan fotoğraf ve videolar",
+              "Cihaz bilgileri (işletim sistemi, cihaz modeli, IP adresi)",
+              "Kullanıcılar arası mesajlaşma içerikleri",
+              "Uygulama içi kullanım ve etkileşim verileri",
+            ],
       },
       {
-        id: 2,
-        title: isEn ? "2. Community Rules and Conduct Standards" : "2. Topluluk Kuralları ve Davranış Standartları",
-        subSections: [
-          {
-            subTitle: isEn ? "2.1 Respect and Ethical Conduct" : "2.1 Saygı ve Etik Davranış",
-            subList: isEn
-              ? ["Users must use a respectful and constructive language towards other users.", "Discrimination, hate speech, threats, insults, and harassment are prohibited."]
-              : ["Kullanıcılar, diğer kullanıcılara karşı saygılı ve yapıcı bir dil kullanmalıdır.", "Ayrımcılık, nefret söylemi, tehdit, hakaret ve taciz yasaktır."]
-          },
-          {
-            subTitle: isEn ? "2.2 Content Sharing" : "2.2 İçerik Paylaşımı",
-            subList: isEn
-              ? [
-                  "Shared contents must comply with current legislation and community rules.",
-                  "Pornographic, violent, obscene, or illegal contents are prohibited.",
-                  "Contents whose copyright does not belong to the user cannot be shared without permission.",
-                  "Sharing spam and unauthorized advertising content is prohibited."
-                ]
-              : [
-                  "Paylaşılan içerikler yürürlükteki mevzuata ve topluluk kurallarına uygun olmalıdır.",
-                  "Pornografik, şiddet içeren, müstehcen veya yasa dışı içerikler yasaktır.",
-                  "Telif hakkı kullanıcıya ait olmayan içerikler izinsiz paylaşılamaz.",
-                  "Spam ve izinsiz reklam içerikleri paylaşmak yasaktır."
-                ]
-          }
-        ]
+        title: isEn ? "3. Messaging and Media Security" : "3. Mesajlaşma ve Medya Güvenliği",
+        body: isEn
+          ? "Contents and messages shared on Waylero are protected using secure infrastructures. Photos and videos are stored in Google Firebase Storage and are only accessible by authorized users."
+          : "Waylero üzerinde paylaşılan içerikler ve mesajlar güvenli altyapılar kullanılarak korunur. Fotoğraf ve videolar Google Firebase Storage altyapısında saklanır ve yalnızca yetkili kullanıcılar tarafından erişilebilir.",
       },
       {
-        id: 3,
-        title: isEn ? "3. Account Usage and Security" : "3. Hesap Kullanımı ve Güvenliği",
+        title: isEn ? "4. Purposes of Processing Data" : "4. Verilerin İşlenme Amaçları",
         list: isEn
-          ? ["Users must register with accurate and up-to-date information.", "Fake accounts or accounts belonging to others are prohibited.", "Account security is the responsibility of the user."]
-          : ["Kullanıcılar doğru ve güncel bilgilerle kayıt olmalıdır.", "Sahte veya başkasına ait hesaplar yasaktır.", "Hesap güvenliği kullanıcının sorumluluğundadır."]
+          ? [
+              "Providing platform services",
+              "Ensuring content sharing and discovery features",
+              "Improving user experience",
+              "Meeting technical support and user requests",
+              "Fulfilling legal obligations",
+            ]
+          : [
+              "Platform hizmetlerinin sunulması",
+              "İçerik paylaşımı ve keşif özelliklerinin sağlanması",
+              "Kullanıcı deneyiminin geliştirilmesi",
+              "Teknik destek ve kullanıcı taleplerinin karşılanması",
+              "Yasal yükümlülüklerin yerine getirilmesi",
+            ],
       },
       {
-        id: 4,
-        title: isEn ? "4. Privacy and Data Protection" : "4. Gizlilik ve Kişisel Verilerin Korunması",
+        title: isEn ? "5. Data Retention Period" : "5. Veri Saklama Süresi",
         body: isEn
-          ? "Personal data is processed in accordance with KVKK and GDPR provisions. You can review the Privacy Policy page for detailed information."
-          : "Kişisel veriler, 6698 sayılı KVKK ve GDPR hükümlerine uygun olarak işlenir. Detaylı bilgi için Gizlilik Politikası sayfasını inceleyebilirsiniz."
+          ? "Personal data is stored for as long as necessary for the purposes for which it is processed. When a user account is deleted, the data is irreversibly deleted or anonymized."
+          : "Kişisel veriler, işlenme amacının gerektirdiği süre boyunca saklanır. Kullanıcı hesabı silindiğinde veriler geri döndürülemez şekilde silinir veya anonim hale getirilir.",
       },
       {
-        id: 5,
-        title: isEn ? "5. Violations and Sanctions" : "5. İhlaller ve Yaptırımlar",
+        title: isEn ? "6. Data Storage Location" : "6. Verilerin Saklandığı Yer",
         body: isEn
-          ? "In case of violation of community rules, Waylero reserves the right to remove content and temporarily or permanently close the account."
-          : "Topluluk kurallarının ihlali halinde, Waylero içerikleri kaldırma, hesabı geçici veya kalıcı olarak kapatma hakkını saklı tutar."
+          ? "Data processed within Waylero is stored in data centers located in the European Union via Google Firebase infrastructure."
+          : "Waylero kapsamında işlenen veriler, Google Firebase altyapısı kullanılarak Avrupa Birliği sınırları içerisindeki veri merkezlerinde saklanmaktadır.",
       },
       {
-        id: 6,
-        title: isEn ? "6. Service Changes" : "6. Hizmet Değişiklikleri",
+        title: isEn ? "7. User Rights" : "7. Kullanıcı Hakları",
+        list: isEn
+          ? [
+              "Request access to personal data",
+              "Request correction of incomplete or inaccurate data",
+              "Request deletion of data",
+              "Object to data processing",
+              "File a complaint with the relevant authority",
+            ]
+          : [
+              "Kişisel verilere erişim talep etme",
+              "Eksik veya hatalı verilerin düzeltilmesini isteme",
+              "Verilerin silinmesini talep etme",
+              "Veri işlemeye itiraz etme",
+              "İlgili kuruma şikâyette bulunma",
+            ],
+      },
+      {
+        title: isEn ? "8. Policy Updates" : "8. Politika Güncellemeleri",
         body: isEn
-          ? "Waylero reserves the right to make changes to its services and terms of use at any time."
-          : "Waylero, hizmetlerinde ve kullanım koşullarında dilediği zaman değişiklik yapma hakkını saklı tutar."
+          ? "Waylero may update this Privacy Policy in line with legal requirements or service changes. The latest version will always be available on this page."
+          : "Waylero, bu Gizlilik Politikası’nı mevzuat veya hizmet değişikliklerine göre güncelleyebilir. Güncel versiyon her zaman bu sayfada yayınlanır.",
       },
-      {
-        id: 7,
-        title: isEn ? "7. Authorized Court" : "7. Yetkili Mahkeme",
-        body: isEn
-          ? "In disputes that may arise from this agreement, the laws of the Republic of Turkey shall apply, and Istanbul Courts are authorized."
-          : "İşbu sözleşmeden doğabilecek uyuşmazlıklarda Türkiye Cumhuriyeti hukuku uygulanır ve İstanbul Mahkemeleri yetkilidir."
-      },
-      {
-        id: 8,
-        title: isEn ? "8. Contact" : "8. İletişim",
-        body: isEn 
-          ? "You can contact us for any questions and requests:" 
-          : "Her türlü soru ve talepleriniz için bizimle iletişime geçebilirsiniz:"
-      }
-    ]
+    ],
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold mb-6">{content.title}</h1>
-      <p className="text-sm text-gray-500 mb-8">{content.effectiveDate}</p>
+    <main className="max-w-4xl mx-auto px-6 py-20">
+      <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-gray-900">{content.title}</h1>
+      <p className="text-sm text-gray-400 mb-12 font-medium uppercase tracking-tighter italic border-b pb-6">{content.date}</p>
 
-      <section className="space-y-6 text-gray-700 leading-relaxed">
-        <p>{content.intro}</p>
+      <section className="space-y-12 text-gray-700 leading-relaxed text-lg">
+        {/* Önemli Vurgu Kutusu */}
+        <div className="bg-orange-50 p-8 rounded-[2rem] border border-orange-100 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-orange-100/50 rounded-full -mr-16 -mt-16" />
+          <h2 className="text-2xl font-serif font-bold mb-4 text-orange-900 relative z-10">{content.introTitle}</h2>
+          <p className="text-orange-800 relative z-10 leading-relaxed font-medium">{content.introText}</p>
+        </div>
 
-        {content.sections.map((section) => (
-          <div key={section.id}>
-            <h2 className="text-xl font-semibold mb-2">{section.title}</h2>
-            {section.list && (
-              <ul className="list-disc pl-5 space-y-1">
-                {section.list.map((item, idx) => <li key={idx}>{item}</li>)}
-              </ul>
-            )}
-            {section.subSections && section.subSections.map((sub, sIdx) => (
-              <div key={sIdx} className="mt-4">
-                <h3 className="font-semibold mb-1">{sub.subTitle}</h3>
-                <ul className="list-disc pl-5 space-y-1">
-                  {sub.subList.map((item, iIdx) => <li key={iIdx}>{item}</li>)}
+        <div className="grid gap-10">
+          {content.sections.map((section, i) => (
+            <div key={i} className="group border-l-2 border-gray-100 hover:border-orange-500 pl-8 transition-all duration-300">
+              <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900 group-hover:text-orange-600 transition-colors">
+                {section.title}
+              </h3>
+              
+              {section.body && <p className="mb-4 text-gray-600 font-medium">{section.body}</p>}
+              
+              {section.list && (
+                <ul className="grid gap-3">
+                  {section.list.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-gray-600">
+                      <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-400 shrink-0" />
+                      <span className="font-medium">{item}</span>
+                    </li>
+                  ))}
                 </ul>
-              </div>
-            ))}
-            {section.body && <p>{section.body}</p>}
-            {section.id === 8 && (
-              <p className="mt-2">
-                📧 <a href="mailto:wayylero@gmail.com" className="text-blue-600 underline">wayylero@gmail.com</a>
-              </p>
-            )}
-          </div>
-        ))}
+              )}
+              
+              {section.contact && (
+                <div className="mt-6 flex items-center gap-3 bg-gray-50 w-fit px-5 py-3 rounded-2xl border border-gray-100">
+                  <span className="text-lg">📧</span>
+                  <a 
+                    href={`mailto:${section.contact}`} 
+                    className="text-gray-900 font-bold hover:text-orange-600 transition-colors underline decoration-orange-200 underline-offset-4"
+                  >
+                    {section.contact}
+                  </a>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Alt Bilgi */}
+        <div className="pt-12 border-t text-center flex flex-col items-center">
+          <p className="font-serif text-2xl font-bold text-gray-900 mb-1">Waylero</p>
+          <p className="text-xs text-orange-600 font-black tracking-[0.2em] uppercase">Trust & Privacy</p>
+        </div>
       </section>
     </main>
   );

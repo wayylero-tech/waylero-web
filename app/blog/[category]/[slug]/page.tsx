@@ -1,53 +1,11 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { headers } from "next/headers"; // Header'ı ekledik
 import BlogDetail from "./BlogDetail";
+import { allPosts } from "@/lib/blog/posts";
 
-// Veri importlarını buraya olduğu gibi bırakıyoruz
-import { generalPosts } from "@/app/data/blog/muzekart/posts";
-import { uygulamaPosts } from "@/app/data/blog/uygulama/posts";
-import { antikkentPosts } from "@/app/data/blog/antikkent/posts";
-import { konyaPosts } from "@/app/data/blog/konya/posts";
-import { istanbulPosts } from "@/app/data/blog/istanbul/posts";
-import { konyaPosts2 } from "@/app/data/blog/konya/posts2";
-import { konyaRehberPost } from "@/app/data/blog/konya/posts3";
-import { selalelerRehberPost } from "@/app/data/blog/selale/posts";
-import { magaralarRehberPost } from "@/app/data/blog/magaralar/posts";
-import { turkeyPost } from "@/app/data/blog/turkey/posts";
-import { kanyonlarRehberPosts } from "@/app/data/blog/kanyonlar/posts";
-import { mersinRehberPosts } from "@/app/data/blog/mersin/posts";
-import { turkiyeEnCokZiyaretEdilen10YerPost } from "@/app/data/blog/ziyaretedilenonyer/posts";
-import { antalyaRehberPost } from "@/app/data/blog/antalya/posts";
-import { trekkingPosts } from "@/app/data/blog/likya/posts";
-import { istanbulRehberPosts } from "@/app/data/blog/istanbul/post";
-import { antalyaPosts2 } from "@/app/data/blog/antalya/posts2";
-import { ispanyaRehberPosts } from "@/app/data/blog/ispanya/posts";
-import { spainPosts } from "@/app/data/blog/ispanya/posts2";
-import { nevsehirRehberPosts } from "@/app/data/blog/nevsehir/posts";
-import { cappadociaPosts } from "@/app/data/blog/nevsehir/cappadociaPosts";
-import { turkeyPostsAkdeniz } from "@/app/data/blog/turkey/postsakdeniz";
-import { turkeyPostEge } from "@/app/data/blog/turkey/postsege";
-import { turkeyPostMarmara } from "@/app/data/blog/turkey/postsmarmara";
-import { turkeyPostIcAnadolu } from "@/app/data/blog/turkey/postsicanadolu";
-import { turkeyPostKaradeniz } from "@/app/data/blog/turkey/postkaradeniz";
-import { turkeyPostDoguAnadolu } from "@/app/data/blog/turkey/psostsdoguanadolu";
-import { turkeyPostGunaydogu } from "@/app/data/blog/turkey/postsguneydoguanadolu";
-import { catalhoyukPosts } from "@/app/data/blog/konya/posts4";
-import { ihlaraRehberPost } from "@/app/data/blog/aksaray/posts";
- 
+const posts = allPosts;
 
-
-const posts = [
-  ...generalPosts, ...uygulamaPosts, ...antikkentPosts, ...konyaPosts,
-  ...istanbulPosts, ...konyaPosts2, ...konyaRehberPost, ...selalelerRehberPost,
-  ...magaralarRehberPost, ...turkeyPost, ...kanyonlarRehberPosts, ...mersinRehberPosts,
-  ...turkiyeEnCokZiyaretEdilen10YerPost, ...antalyaRehberPost, ...trekkingPosts,
-  ...istanbulRehberPosts, ...antalyaPosts2, ...ispanyaRehberPosts, ...spainPosts,
-  ...nevsehirRehberPosts, ...cappadociaPosts, ...turkeyPostKaradeniz, ...turkeyPostsAkdeniz,
-  ...turkeyPostEge, ...turkeyPostMarmara, ...turkeyPostDoguAnadolu, ...ihlaraRehberPost,
-  ...turkeyPostIcAnadolu, ...turkeyPostGunaydogu, ...catalhoyukPosts
-];
-
-// 1. SSG İÇİN PARAMETRELERİ ÖNCEDEN OLUŞTURMA
 export async function generateStaticParams() {
   return posts.map((post) => ({
     category: post.city,
@@ -62,77 +20,70 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { category, slug } = await params;
   
-  // Postu bulalım (Case-insensitive: Büyük/küçük harf duyarlılığını ortadan kaldırdık)
+  // Dil bilgisini header'dan çekiyoruz
+  const headerList = await headers();
+  const lang = (headerList.get("x-url-lang") === "en" ? "en" : "tr") as "en" | "tr";
+  
   const post = posts.find((p) => 
     p.city.toLowerCase() === category.toLowerCase() && 
     p.slug === slug
   );
 
-  // 🔴 DEBUG LOG 2: Eşleşme durumunu kontrol edelim
   if (!post) {
-    console.error(`❌ [Metadata Hatası] Post bulunamadı! Aranan -> City: ${category}, Slug: ${slug}`);
-    return { 
-      title: "Sayfa Bulunamadı | Waylero Blog",
-      description: "Aradığınız gezi rehberi bulunamadı.",
-      robots: { index: false }
-    };
+    return { title: "Not Found | Waylero" };
   }
 
-  // 🔵 DEBUG LOG 3: Post bulunduysa başlığı görelim
   const postAny = post as any;
-  const titleText = (typeof postAny.title === "object" ? postAny.title["tr"] : postAny.title) 
-                    || "Gezi Rehberi";
   
-  // Açıklama (SEO -> Excerpt -> Description)
-  let descriptionText = postAny.seo?.description || 
-    (typeof postAny.excerpt === "object" ? postAny.excerpt["tr"] : postAny.excerpt) ||
-    (typeof postAny.description === "object" ? postAny.description["tr"] : postAny.description);
+  // Dile göre Title seçimi
+  const titleText = (typeof postAny.title === "object" ? postAny.title[lang] : postAny.title) 
+                    || "Travel Guide";
+  
+  // Dile göre Description seçimi
+  let descriptionText = postAny.seo?.description?.[lang] || 
+    (typeof postAny.excerpt === "object" ? postAny.excerpt[lang] : postAny.excerpt) ||
+    (typeof postAny.description === "object" ? postAny.description[lang] : postAny.description);
 
   if (!descriptionText) {
-    descriptionText = `${titleText} hakkında detaylı gezi rehberi ve tavsiyeler Waylero Blog'da.`;
+    descriptionText = lang === "tr" 
+      ? `${titleText} hakkında detaylı gezi rehberi Waylero'da.`
+      : `Detailed travel guide for ${titleText} on Waylero.`;
   }
 
-  const fullUrl = `https://www.waylero.com/blog/${category}/${slug}`;
-  const metaTitle = `${titleText} | Waylero Blog`;
+  const baseUrl = lang === "en" ? "https://www.waylero.com/en" : "https://www.waylero.com";
+  const fullUrl = `${baseUrl}/blog/${category}/${slug}`;
 
   return {
-    title: metaTitle,
+    title: `${titleText} | Waylero Blog`,
     description: descriptionText,
     alternates: {
       canonical: fullUrl,
+      languages: {
+        "tr-TR": `https://www.waylero.com/blog/${category}/${slug}`,
+        "en-US": `https://www.waylero.com/en/blog/${category}/${slug}`,
+      },
     },
     openGraph: {
-      title: metaTitle,
+      title: titleText,
       description: descriptionText,
       url: fullUrl,
-      siteName: 'Waylero',
-      locale: 'tr_TR',
+      locale: lang === "tr" ? "tr_TR" : "en_US",
       type: "article",
-      images: post.image ? [
-        {
-          url: post.image,
-          width: 1200,
-          height: 630,
-          alt: titleText,
-        }
-      ] : [],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: metaTitle,
-      description: descriptionText,
-      images: post.image ? [post.image] : [],
+      images: post.image ? [{ url: post.image }] : [],
     },
   };
 }
 
-// 3. SAYFA BİLEŞENİ (SERVER COMPONENT)
 export default async function Page({
   params,
 }: {
   params: Promise<{ category: string; slug: string }>;
 }) {
   const { category, slug } = await params;
+  
+  // Buradaki dilde de header'ı okuyoruz
+  const headerList = await headers();
+  const lang = (headerList.get("x-url-lang") === "en" ? "en" : "tr") as "en" | "tr";
 
   const post = posts.find(
     (p) => p.city === category && p.slug === slug
@@ -142,5 +93,6 @@ export default async function Page({
     return notFound();
   }
 
-  return <BlogDetail post={post} />;
+  // BlogDetail'e dili de gönderiyoruz ki içeride metinleri ona göre bassın
+  return <BlogDetail post={post} currentLang={lang} />;
 }

@@ -7,54 +7,49 @@ import ClientLayout from "./components/ClientLayout";
 import ClientProviders from "./ClientProviders";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["latin"] });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// 🛡️ DINAMIK METADATA: Google artık /en'e gelince İngilizce başlık görecek
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const lang = headerList.get("x-url-lang") || "tr";
+  const isEn = lang === "en";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Waylero",
-  description: "Waylero | Şehirleri keşfet, gezini planla",
-  icons: {
-    icon: "/waylero-icon.png",
-    apple: "/waylero-icon.png",
-  },
-  alternates: {
-    canonical: "https://www.waylero.com",
-    languages: {
-      "tr-TR": "https://www.waylero.com",
-      "en-US": "https://www.waylero.com/en",
+  return {
+    title: isEn ? "Waylero | Create Travel Plan, Explore Events" : "Waylero | Gezi Planı Oluştur, Etkinlikleri Keşfet",
+    description: isEn 
+      ? "Discover cities, find events and easily create your travel plan with Waylero. Istanbul, Paris, Dubai and more are waiting for you."
+      : "Waylero ile şehirleri keşfet, etkinlikleri bul ve kolayca gezi planı oluştur. İstanbul, Paris, Dubai ve daha fazlası seni bekliyor",
+    icons: {
+      icon: "/waylero-icon.png",
+      apple: "/waylero-icon.png",
     },
-  },
-};
+    alternates: {
+      canonical: isEn ? "https://www.waylero.com/en" : "https://www.waylero.com",
+      languages: {
+        "tr-TR": "https://www.waylero.com",
+        "en-US": "https://www.waylero.com/en",
+        "x-default": "https://www.waylero.com", // Google'ın en sevdiği: "Dil bulamazsan buraya git" sinyali
+      },
+    },
+    openGraph: {
+      title: isEn ? "Waylero | Create Travel Plan" : "Waylero | Gezi Planı Oluştur",
+      locale: isEn ? "en_US" : "tr_TR",
+    }
+  };
+}
 
 export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  // headers() kullanımı sayfayı dinamik yapar, parametreleri korumak için dikkatli yönetilmeli
   const headerList = await headers();
   
-  // Middleware'den gelen dil bilgisini al
-  const middlewareLang = headerList.get("x-url-lang");
-  
-  // ÖNEMLİ: x-url'den sadece pathname geliyorsa query parametreleri kaybolur.
-  // Eğer ClientLayout içinde bu path'e göre bir yönlendirme varsa city=istanbul orada ölür.
-  const currentPath = headerList.get("x-url") || "";
-
-  // Dil belirleme mantığını sadeleştirdik
-  const displayLang = (middlewareLang === "en" || currentPath.includes("/en/")) ? "en" : "tr";
+  // Middleware'den gelen net bilgi. URL'de /en/ varsa middleware bunu "en" set ediyor zaten.
+  const displayLang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
 
   return (
     <html lang={displayLang} suppressHydrationWarning>
@@ -64,7 +59,7 @@ export default async function RootLayout({
         <GoogleAnalytics />
 
         <ClientProviders>
-          {/* ClientLayout'a dili geçiyoruz ama içindeki useEffect/router mantığına dikkat! */}
+          {/* ClientLayout ve içindeki Context artık doğru dili sunucudan (SSR) alarak başlıyor */}
           <ClientLayout lang={displayLang}>
             {children}
           </ClientLayout>

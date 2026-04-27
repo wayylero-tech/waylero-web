@@ -4,6 +4,9 @@
   "region": "turkiye",
   "country": "turkiye",
   "image": "/assets/genel/istanbul.webp",
+"additionalImages": [
+    "/assets/genel/sultanahmet.webp"
+],
   "names": {
     "tr": "İstanbul",
     "en": "Istanbul"
@@ -41,7 +44,9 @@
   "region": "avrupa",
   "country": "avusturya",
   "image": "/assets/genel/viyana.webp",
-
+"additionalImages": [
+    "/assets/genel/viyana1.webp"
+],
   "names": {
     "tr": "Viyana",
     "en": "Vienna"
@@ -80,7 +85,9 @@
   "region": "asya",
   "country": "bae",
   "image": "/assets/genel/dubai.webp",
-
+"additionalImages": [
+    "/assets/genel/dubai1.webp"
+],
   "names": {
     "tr": "Dubai",
     "en": "Dubai"
@@ -119,6 +126,9 @@
   "region": "amerika",
   "country": "amerika",
   "image": "/assets/genel/new.webp",
+"additionalImages": [
+    "/assets/genel/new1.webp"
+],
 
   "names": {
     "tr": "New York",
@@ -158,6 +168,9 @@
   "region": "asya",
   "country": "cin",
   "image": "/assets/genel/pekin.webp",
+"additionalImages": [
+    "/assets/genel/pekin1.webp"
+],
 
   "names": {
     "tr": "Pekin",
@@ -197,7 +210,9 @@
   "region": "avrupa",
   "country": "fransa",
   "image": "/assets/genel/paris.webp",
-
+"additionalImages": [
+    "/assets/genel/paris1.webp"
+],
   "names": {
     "tr": "Paris",
     "en": "Paris"

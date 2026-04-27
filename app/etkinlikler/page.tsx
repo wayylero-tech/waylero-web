@@ -49,6 +49,8 @@ export async function generateMetadata({ params }: { params: { lang?: string } }
   };
 }
 
-export default function Page() {
-  return <EtkinliklerClient />;
+export default function Page({ params }: { params: { lang?: string } }) {
+  const lang = params?.lang === "en" ? "en" : "tr";
+  // Bayrağı (lang) elden ele teslim ediyoruz mk
+  return <EtkinliklerClient currentLang={lang} />;
 }

@@ -1,97 +1,78 @@
 import toursData from "@/data/tours.json";
 import CityPageClient from "./CityPageClient";
 
-// Şehir ismini güzelleştiren yardımcı fonksiyon
+// Yardımcı fonksiyonlar
 const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
-type Params = { city: string; lang: string };
+type Params = { city: string; lang: 'tr' | 'en' };
 
-export async function generateMetadata({ params }: { params: Promise<Params> | Params }) {
-  const resolvedParams = await params;
-  const citySlug = (resolvedParams as any).city.toLowerCase();
-  const lang = (resolvedParams as any).lang === 'en' ? 'en' : 'tr';
+export async function generateMetadata({ params }: { params: Promise<Params> }) {
+  const { city, lang } = await params;
+  const citySlug = city.toLowerCase();
   const cityName = capitalize(citySlug);
 
-  // Dil bazlı içerik tanımları
-  const data = {
-    tr: {
-      title: `${cityName} Turlar & Deneyimler | Waylero`,
-      description: `${cityName} şehrindeki en iyi turları, etkinlikleri ve gezilecek yerleri keşfedin.`,
-      canonical: `https://www.waylero.com/etkinlikler/${citySlug}`,
-    },
-    en: {
-      title: `${cityName} Tours & Experiences | Waylero`,
-      description: `Discover the best tours, events, and things to do in ${cityName}.`,
-      canonical: `https://www.waylero.com/en/etkinlikler/${citySlug}`,
-    }
-  };
-
-  const current = data[lang];
+  const isTR = lang === 'tr';
+  const title = isTR ? `${cityName} Turlar & Deneyimler | Waylero` : `${cityName} Tours & Experiences | Waylero`;
+  const description = isTR 
+    ? `${cityName} şehrindeki en iyi turları, etkinlikleri ve gezilecek yerleri keşfedin.` 
+    : `Discover the best tours, events, and things to do in ${cityName}.`;
 
   return {
-    title: current.title,
-    description: current.description,
+    title,
+    description,
     alternates: {
-      canonical: current.canonical,
+      canonical: `https://www.waylero.com/${lang === 'en' ? 'en/' : ''}etkinlikler/${citySlug}`,
       languages: {
         'tr-TR': `https://www.waylero.com/etkinlikler/${citySlug}`,
         'en-US': `https://www.waylero.com/en/etkinlikler/${citySlug}`,
       },
     },
     openGraph: {
-      title: current.title,
-      description: current.description,
-      url: current.canonical,
+      title,
+      description,
+      url: `https://www.waylero.com/${lang === 'en' ? 'en/' : ''}etkinlikler/${citySlug}`,
       siteName: "Waylero",
       type: "website",
-      images: [{ url: "https://www.waylero.com/og.jpg" }],
-      locale: lang === 'en' ? 'en_US' : 'tr_TR',
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: current.title,
-      description: current.description,
-      images: ["https://www.waylero.com/og.jpg"],
+      locale: isTR ? 'tr_TR' : 'en_US',
     },
   };
 }
 
-export default async function Page({ params }: { params: Promise<Params> | Params }) {
-  const resolvedParams = await params;
-  const city = (resolvedParams as any).city.toLowerCase();
-
-  const cityTours = (toursData as any[]).filter(
-    (t) => t?.city?.toLowerCase?.() === city
+export default async function Page({ params }: { params: Promise<Params> }) {
+  const { city, lang } = await params;
+  
+  // Veriyi filtrele
+  const cityTours = toursData.filter(
+    (t: any) => t?.city?.toLowerCase() === city.toLowerCase()
   );
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: capitalize(city),
-    description: `${city} şehrindeki turlar ve deneyimler`,
-    url: `https://www.waylero.com/etkinlikler/${city}`,
-  };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: capitalize(city),
+            description: `${city} tours and experiences`,
+            url: `https://www.waylero.com/${lang === 'en' ? 'en/' : ''}etkinlikler/${city}`,
+          }),
+        }}
       />
-      <CityPageClient city={city} cityTours={cityTours} />
+      {/* Server'dan gelen lang değerini prop olarak geçmek, 
+         Hydration sırasında oluşabilecek dil kaymalarını engeller.
+      */}
+      <CityPageClient city={city} cityTours={cityTours} initialLang={lang} />
     </>
   );
 }
 
-// Hem dili hem şehri statik olarak tanımlıyoruz
 export function generateStaticParams() {
-  const cities = Array.from(new Set((toursData as any[]).map((t) => t.city?.toLowerCase())));
+  const cities = Array.from(new Set(toursData.map((t: any) => t.city?.toLowerCase())));
   const languages = ['tr', 'en'];
   
   return languages.flatMap((lang) =>
-    cities.map((city) => ({
-      lang,
-      city,
-    }))
+    cities.map((city) => ({ lang, city }))
   );
 }
