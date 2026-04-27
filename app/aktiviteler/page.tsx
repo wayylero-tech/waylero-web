@@ -117,10 +117,14 @@ export default async function ActivitiesPage({ searchParams }: any) {
     const domain = "www.waylero.com";
 
     // Kendi API Route'umuza istek atıyoruz
-   const res = await fetch(`/api/events?${apiParams.toString()}`, {
-  next: { revalidate: 900 },
-});
+ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
+const res = await fetch(
+  `${baseUrl}/api/events?${apiParams.toString()}`,
+  {
+    next: { revalidate: 900 },
+  }
+);
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || data.data || [];

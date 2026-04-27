@@ -72,9 +72,14 @@ export default async function Page() {
   const videos = wayleroLiveVideos.slice(0, 6);
 
   // 🟢 3. API'YE DİLİ GEÇ (API'n destekliyorsa datayı da İngilizce çeker)
- const res = await fetch(`/api/events?take=4&city_ids=40&lang=${lang}`, {
-  cache: "no-store",
-});
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
+const res = await fetch(
+  `${baseUrl}/api/events?take=4&city_ids=40&lang=${lang}`,
+  {
+    cache: "no-store",
+  }
+);
 
   const data = await res.json();
   const events = data?.items || [];
