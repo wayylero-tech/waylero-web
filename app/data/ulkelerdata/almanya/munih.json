@@ -89,55 +89,7 @@
       "https://upload.wikimedia.org/wikipedia/commons/0/0c/Schloss_Nymphenburg.jpg"
     ]
   },
-  {
-    "slug": "englischer-garten",
-    "name": {
-      "tr": "Englischer Garten",
-      "en": "English Garden",
-      "de": "Englischer Garten"
-    },
-    "latitude": 48.1604,
-    "longitude": 11.5803,
-    "description": {
-    "tr": "Münih'in kalbinde, Isar Nehri boyunca 3.7 kilometrekarelik devasa bir alana yayılan Englischer Garten (İngiliz Bahçesi), dünyanın en büyük ve en güzel şehir parklarından biri olarak kabul edilir. Londra'daki Hyde Park ve New York'taki Central Park'tan bile daha geniş bir alana sahip olan bu yeşil vaha, 1789 yılında Sir Benjamin Thompson tarafından tasarlanmıştır. Parkın en ikonik noktalarından biri, şehrin ortasında sörf yapma imkanı sunan dünyaca ünlü Eisbachwelle'dir; buradaki yapay dalga, profesyonel sörfçülerin her mevsim hünerlerini sergilediği bir cazibe merkezidir. Parkın derinliklerine doğru ilerlediğinizde, 25 metre yüksekliğindeki ahşap 'Chinesischer Turm' (Çin Kulesi) sizi karşılar. Bu kulenin dibinde yer alan Münih'in en eski ve en büyük ikinci bira bahçesi, geleneksel Bavyera mutfağını ve kültürünü deneyimlemek isteyenlerin vazgeçilmez durağıdır. Mimari açıdan bir diğer mücevher ise, bir tepe üzerine kurulu Yunan tarzı dairesel tapınak Monopteros'tur; buradan Münih'in silüetini ve Frauenkirche'nin kulelerini panoramik olarak izlemek mümkündür. Parkın kuzey kısmı daha sakin ve bakir bir doğa sunarken, güney kısmı güneşlenenler, amatör futbol oynayanlar ve Kleinhesseloher See gölünde pedallı botlarla tur atanlarla doludur. Ayrıca parkın içinde yer alan Japon Çay Evi (Japanisches Teehaus), ziyaretçilere geleneksel çay seremonileriyle huzurlu bir mola sunar. Yaklaşık 78 kilometrelik yürüyüş ve bisiklet yoluyla Englischer Garten, sadece bir dinlenme alanı değil, aynı zamanda Münih'in sosyal dokusunun en canlı parçasıdır. Mevsim ne olursa olsun, parkın sunduğu doğal güzellikler ve kültürel etkinlikler, burayı Münih ziyaretinin olmazsa olmaz bir parçası haline getirir.",
-
-    "en": "Spanning a massive 3.7 square kilometers along the Isar River in the heart of Munich, the Englischer Garten (English Garden) is renowned as one of the largest and most beautiful urban parks in the world. Larger than London’s Hyde Park and New York’s Central Park, this green oasis was created in 1789 by Sir Benjamin Thompson. One of the park's most iconic features is the world-famous Eisbachwelle, an artificial standing wave on the Eisbach river where professional surfers showcase their skills year-round, right in the middle of the city. As you venture deeper, you will encounter the 'Chinesischer Turm' (Chinese Tower), a 25-meter-high wooden structure surrounded by Munich's second-largest beer garden, offering an authentic taste of Bavarian hospitality and cuisine. For a breathtaking view of the city skyline and the towers of the Frauenkirche, a visit to the Monopteros—a Greek-style circular temple perched on a hill—is essential. The park is divided into two sections: the bustling southern part, popular with sunbathers and boaters on the Kleinhesseloher See lake, and the more tranquil northern part, perfect for long, undisturbed walks. Visitors can also experience a traditional tea ceremony at the Japanese Teahouse (Japanisches Teehaus), a gift for the 1972 Summer Olympics. With over 78 kilometers of paths for walking and cycling, the English Garden is not just a recreational area but the very soul of Munich's social life. Whether you are watching the surfers at the South entrance or enjoying a quiet moment by the lake, the garden offers a unique blend of natural beauty, historical architecture, and vibrant local culture.",
-
-    "de": "Der Englische Garten erstreckt sich über eine beeindruckende Fläche von 3,7 Quadratkilometern entlang der Isar im Herzen Münchens und gilt als eine der größten und schönsten innerstädtischen Parkanlagen weltweit. Die grüne Oase, die 1789 von Sir Benjamin Thompson entworfen wurde, ist flächenmäßig sogar größer als der Hyde Park in London oder der Central Park in New York. Ein absolutes Highlight und weltbekanntes Symbol des Parks ist die Eisbachwelle am südlichen Eingang, wo Surfer das ganze Jahr über auf einer stehenden Welle mitten in der Stadt ihr Können zeigen. Im Zentrum des Parks ragt der 25 Meter hohe Chinesische Turm empor, an dessen Fuße sich einer der traditionsreichsten und zweitgrößte Biergarten Münchens befindet – ein idealer Ort, um bayerische Gemütlichkeit bei einer Maß Bier und einer Brezn zu genießen. Ein weiteres architektonisches Juwel ist der Monopteros, ein Rundtempel im griechischen Stil auf einem künstlichen Hügel, der einen der schönsten Panoramablicke über die Münchener Altstadt bietet. Während der südliche Teil des Gartens mit dem Kleinhesseloher See und weitläufigen Liegewiesen besonders belebt ist, bietet der nördliche Teil (die Hirschau) weite, naturbelassene Landschaften für Ruhe seekers. Auch kulturelle Akzente fehlen nicht: Das Japanische Teehaus lädt regelmäßig zu traditionellen Teezeremonien ein. Mit einem Wegenetz von insgesamt 78 Kilometern für Spaziergänger und Radfahrer ist der Englische Garten das pulsierende Wohnzimmer der Münchener und ein unverzichtbares Ziel für jeden Besucher, der das wahre Lebensgefühl der bayerischen Landeshauptstadt spüren möchte."
-  },
-    "activities": {
-      "tr": [
-        "Bisiklet sürme",
-        "Kayık gezisi",
-        "Piknik"
-      ],
-      "en": [
-        "Cycling",
-        "Boat ride",
-        "Picnicking"
-      ],
-      "de": [
-        "Radfahren",
-        "Bootsfahrt",
-        "Picknicken"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "park"
-      ],
-      "en": [
-        "park"
-      ],
-      "de": [
-        "park"
-      ]
-    },
-    "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/0/09/Englischer_Garten_M%C3%BCnchen.jpg"
-    ]
-  },
-  {
+   {
     "slug": "deutsches-muzesi",
     "name": {
       "tr": "Deutsches Müzesi",

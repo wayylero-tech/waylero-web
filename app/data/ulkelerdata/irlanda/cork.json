@@ -46,63 +46,7 @@
       "https://example.com/blarney_castle_2.jpg"
     ]
   },
-  {
-    "slug": "english-market",
-    "name": {
-      "tr": "English Market",
-      "en": "English Market",
-      "de": "English Market"
-    },
-    "latitude": 51.8977,
-    "longitude": -8.4744,
-    "description": {
-    "tr": "English Market, İrlanda'nın Cork şehrinin merkezinde yer alan ve 1788 yılında açılmış olan tarihi bir kapalı gıda pazarıdır. Avrupa’nın en eski kapalı pazarlarından biri olarak kabul edilen bu mekan, yüzyıllardır yerel halkın ve ziyaretçilerin taze gıda ürünleriyle buluştuğu önemli bir ticaret ve kültür noktasıdır. Cork şehir merkezinde, Grand Parade ve Princes Street arasında konumlanan pazar, hem mimarisi hem de sunduğu ürün çeşitliliği ile dikkat çeker. Viktorya dönemine ait yapısı, yüksek tavanları ve geniş koridorlarıyla geleneksel bir pazar atmosferi sunarken, modern gıda kültürünü de içinde barındırır. English Market’te yerel üreticiler tarafından sunulan taze et ürünleri, deniz ürünleri, peynirler, ekmekler, meyve ve sebzeler gibi çok geniş bir ürün yelpazesi bulunmaktadır. Özellikle İrlanda’nın kıyı şehirlerinden gelen taze balık ve deniz ürünleri tezgâhları oldukça popülerdir. Bunun yanı sıra geleneksel İrlanda mutfağına ait özel ürünler, el yapımı yiyecekler ve gurme lezzetler de ziyaretçilere sunulmaktadır. Market içinde ayrıca kahve dükkanları ve küçük yemek alanları bulunarak ziyaretçilere yerinde tatma imkânı sağlar. English Market sadece bir alışveriş noktası değil, aynı zamanda Cork’un sosyal ve kültürel yaşamının da önemli bir parçasıdır. Yerel halk için günlük alışverişin yapıldığı bir merkez olmasının yanı sıra, turistler için de otantik İrlanda mutfağını deneyimleyebilecekleri bir destinasyondur. Yıl boyunca açık olan pazar, özellikle hafta sonları oldukça yoğun olur ve canlı atmosferiyle dikkat çeker. Cork’un gastronomi kültürünü yansıtan en önemli yerlerden biri olan English Market, hem tarihî dokusu hem de lezzet çeşitliliği ile ziyaretçilerine benzersiz bir deneyim sunar.",
-    "en": "The English Market, located in the heart of Cork city, Ireland, is a historic covered food market that first opened in 1788. It is widely regarded as one of the oldest covered markets in Europe and has long served as a central hub for food trade and local commerce. Situated between Grand Parade and Princes Street, the market is both an architectural landmark and a vibrant part of Cork’s cultural identity. Its Victorian-style structure features high ceilings, long corridors, and a traditional market layout that creates a distinctive and atmospheric shopping experience. Inside the English Market, visitors can find a wide variety of fresh and locally sourced products, including meats, seafood, cheeses, baked goods, fruits, and vegetables. The seafood section is particularly well known, offering fresh catches from Ireland’s coastal waters. In addition to raw ingredients, the market also features artisanal foods, traditional Irish specialties, and gourmet products crafted by local producers. Small cafés and food stalls within the market allow visitors to sample dishes on-site, adding to its lively and interactive atmosphere. Beyond being a place for shopping, the English Market plays an important role in Cork’s social and cultural life. It serves as a daily shopping destination for locals while also attracting tourists who wish to experience authentic Irish food culture. The market is open year-round and becomes especially busy on weekends, when its vibrant atmosphere is at its peak. As one of Cork’s most iconic landmarks, the English Market combines history, tradition, and culinary diversity, offering visitors a unique and memorable experience.",
-    "de": "Der English Market im Zentrum der Stadt Cork in Irland ist ein historischer überdachter Lebensmittelmarkt, der im Jahr 1788 eröffnet wurde. Er gilt als einer der ältesten überdachten Märkte Europas und spielt seit Jahrhunderten eine zentrale Rolle im lokalen Handel und in der Lebensmittelversorgung. Der Markt befindet sich zwischen Grand Parade und Princes Street und ist sowohl ein architektonisches Wahrzeichen als auch ein wichtiger Bestandteil der kulturellen Identität von Cork. Die viktorianische Bauweise mit hohen Decken, langen Gängen und einer traditionellen Marktstruktur schafft eine einzigartige und authentische Einkaufsatmosphäre. Im English Market finden Besucher eine große Auswahl an frischen und lokal produzierten Lebensmitteln, darunter Fleisch, Fisch, Meeresfrüchte, Käse, Backwaren, Obst und Gemüse. Besonders bekannt ist der Fischbereich, der täglich frische Ware aus den Küstengewässern Irlands anbietet. Neben Rohprodukten gibt es auch handwerklich hergestellte Lebensmittel, traditionelle irische Spezialitäten und Gourmetprodukte von lokalen Produzenten. Kleine Cafés und Essensstände innerhalb des Marktes ermöglichen es den Besuchern, Speisen direkt vor Ort zu probieren und tragen zur lebendigen Atmosphäre bei. Der English Market ist jedoch nicht nur ein Einkaufsort, sondern auch ein wichtiger sozialer und kultureller Treffpunkt in Cork. Er dient den Einheimischen als tägliche Versorgungsquelle und zieht gleichzeitig Touristen an, die die authentische irische Esskultur erleben möchten. Der Markt ist das ganze Jahr über geöffnet und besonders an Wochenenden sehr belebt. Als eines der bekanntesten Wahrzeichen von Cork verbindet der English Market Geschichte, Tradition und kulinarische Vielfalt zu einem einzigartigen Erlebnis."
-  },
-    "activities": {
-      "tr": [
-        "Pazar alanını gezmek",
-        "Taze ürünleri almak",
-        "Yerel İrlanda lezzetlerini tatmak"
-      ],
-      "en": [
-        "Exploring the market",
-        "Buying fresh produce",
-        "Tasting traditional Irish delicacies"
-      ],
-      "de": [
-        "Den Markt erkunden",
-        "Frische Produkte kaufen",
-        "Traditionelle irische Köstlichkeiten probieren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "çarşı"
-      ],
-      "en": [
-        "marketplace"
-      ],
-      "de": [
-        "marktplatz"
-      ],
-      "ar": [
-        "السوق"
-      ],
-      "ja": [
-        "マーケットプレイス"
-      ],
-      "ru": [
-        "рынок"
-      ]
-    },
-    "images": [
-      "https://example.com/english_market_1.jpg",
-      "https://example.com/english_market_2.jpg"
-    ]
-  },
-  {
+    {
     "slug": "fitzgerald-parki",
     "name": {
       "tr": "Fitzgerald Parkı",

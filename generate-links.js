@@ -1,16 +1,11 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import slugToCityMap from "./slug-city-map.json";
+const fs = require('fs');
 
+// 1. Slug -> City Map
+const slugToCityMap = JSON.parse(fs.readFileSync('./slug-city-map.json', 'utf8'));
 
-
-
-
-// 🛡️ 1. ŞEHİR-ÜLKE HARİTASI (Hepsi burada)
-
-const cityToCountryMap: Record<string, string> = {
-
-  "adana": "turkiye", "adiyaman": "turkiye", "afyonkarahisar": "turkiye", "agri": "turkiye", "aksaray": "turkiye", "amasya": "turkiye", "ankara": "turkiye", "istanbul": "turkiye", "antalya": "turkiye", "ardahan": "turkiye", "artvin": "turkiye", "aydin": "turkiye", "balikesir": "turkiye", "bartin": "turkiye", "batman": "turkiye", "bayburt": "turkiye", "bilecik": "turkiye", "bingol": "turkiye", "bitlis": "turkiye", "bolu": "turkiye", "bursa": "turkiye", "burdur": "turkiye", "canakkale": "turkiye", "cankiri": "turkiye", "corum": "turkiye", "denizli": "turkiye", "diyarbakir": "turkiye", "duzce": "turkiye", "edirne": "turkiye", "elazig": "turkiye", "erzincan": "turkiye", "erzurum": "turkiye", "eskisehir": "turkiye", "gaziantep": "turkiye", "giresun": "turkiye", "gumushane": "turkiye", "hakkari": "turkiye", "hatay": "turkiye", "igdir": "turkiye", "isparta": "turkiye", "izmir": "turkiye", "kahramanmaras": "turkiye", "karabuk": "turkiye", "karaman": "turkiye", "kars": "turkiye", "kastamonu": "turkiye", "kayseri": "turkiye", "kirikkale": "turkiye", "kirsehir": "turkiye", "kocaeli": "turkiye", "konya": "turkiye", "kutahya": "turkiye", "malatya": "turkiye", "manisa": "turkiye", "mardin": "turkiye", "mersin": "turkiye", "mugla": "turkiye", "mus": "turkiye", "nevsehir": "turkiye", "nigde": "turkiye", "ordu": "turkiye", "osmaniye": "turkiye", "rize": "turkiye", "sakarya": "turkiye", "samsun": "turkiye", "siirt": "turkiye", "sinop": "turkiye", "sivas": "turkiye", "sanliurfa": "turkiye", "tekirdag": "turkiye", "tokat": "turkiye", "trabzon": "turkiye", "tunceli": "turkiye", "usak": "turkiye", "van": "turkiye", "yalova": "turkiye", "yozgat": "turkiye", "zonguldak": "turkiye", "kirklareli": "turkiye", "kilis": "turkiye",
+// 2. Senin Middleware'deki Maplerin (Burayı Middleware'den kopyaladık)
+const cityToCountryMap = {
+ "adana": "turkiye", "adiyaman": "turkiye", "afyonkarahisar": "turkiye", "agri": "turkiye", "aksaray": "turkiye", "amasya": "turkiye", "ankara": "turkiye", "istanbul": "turkiye", "antalya": "turkiye", "ardahan": "turkiye", "artvin": "turkiye", "aydin": "turkiye", "balikesir": "turkiye", "bartin": "turkiye", "batman": "turkiye", "bayburt": "turkiye", "bilecik": "turkiye", "bingol": "turkiye", "bitlis": "turkiye", "bolu": "turkiye", "bursa": "turkiye", "burdur": "turkiye", "canakkale": "turkiye", "cankiri": "turkiye", "corum": "turkiye", "denizli": "turkiye", "diyarbakir": "turkiye", "duzce": "turkiye", "edirne": "turkiye", "elazig": "turkiye", "erzincan": "turkiye", "erzurum": "turkiye", "eskisehir": "turkiye", "gaziantep": "turkiye", "giresun": "turkiye", "gumushane": "turkiye", "hakkari": "turkiye", "hatay": "turkiye", "igdir": "turkiye", "isparta": "turkiye", "izmir": "turkiye", "kahramanmaras": "turkiye", "karabuk": "turkiye", "karaman": "turkiye", "kars": "turkiye", "kastamonu": "turkiye", "kayseri": "turkiye", "kirikkale": "turkiye", "kirsehir": "turkiye", "kocaeli": "turkiye", "konya": "turkiye", "kutahya": "turkiye", "malatya": "turkiye", "manisa": "turkiye", "mardin": "turkiye", "mersin": "turkiye", "mugla": "turkiye", "mus": "turkiye", "nevsehir": "turkiye", "nigde": "turkiye", "ordu": "turkiye", "osmaniye": "turkiye", "rize": "turkiye", "sakarya": "turkiye", "samsun": "turkiye", "siirt": "turkiye", "sinop": "turkiye", "sivas": "turkiye", "sanliurfa": "turkiye", "tekirdag": "turkiye", "tokat": "turkiye", "trabzon": "turkiye", "tunceli": "turkiye", "usak": "turkiye", "van": "turkiye", "yalova": "turkiye", "yozgat": "turkiye", "zonguldak": "turkiye", "kirklareli": "turkiye", "kilis": "turkiye",
 
   "newyork": "amerika", "los-angeles": "amerika", "chicago": "amerika", "arizona": "amerika", "las-vegas": "amerika", "birmingham": "amerika", "montgomery": "amerika", "anchorage": "amerika", "fairbanks": "amerika", "juneau": "amerika", "sitka": "amerika", "mesa": "amerika", "scottsdale": "amerika", "phoenix": "amerika", "tucson": "amerika", "glendale": "amerika", "san-diego": "amerika", "sacramento": "amerika", "miami": "amerika", "orlando": "amerika", "tampa": "amerika","san-jose": "amerika",
 
@@ -96,19 +91,10 @@ const cityToCountryMap: Record<string, string> = {
 
 };
 
-
-
-
-
-
-
-// 🌍 2. ÜLKE -> BÖLGE EŞLEŞTİRMESİ (Senin verdiğin liste)
-
-const countryToRegionMap: Record<string, string> = {
-
+const countryToRegionMap = {
   turkiye: "turkey", // Türkiye her zaman turkiye kalsın demiştin
 
-  fransa: "europa", almanya: "europa", italya: "europa", kktc: "europa",
+  fransa: "europa", almanya: "almanya", italya: "europa", kktc: "europa",
 
   ispanya: "europa", ingiltere: "europa", hollanda: "europa", bae: "europa", peru: "europa", 
 
@@ -126,106 +112,42 @@ const countryToRegionMap: Record<string, string> = {
 
   irlanda: "europa", avustralya: "europa", "guney-kore": "europa", filipinler: "europa", 
 
-  gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa", 
-
+  gurcistan: "europa", iskocya: "europa", galler: "europa", malezya: "europa",
 };
 
+async function generateLinks() {
+  const links = [];
+  const errors = [];
 
+  console.log("🚀 Linkler oluşturuluyor...");
 
-// 🔧 SANITIZE
-
-const sanitize = (str: string) =>
-
-  str.toLowerCase()
-
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-
-    .replace(/ /g, "")
-
-    .replace(/ı/g, "i").replace(/ğ/g, "g")
-
-    .replace(/ü/g, "u").replace(/ş/g, "s")
-
-    .replace(/ö/g, "o").replace(/ç/g, "c");
-
-
-
-// 🔥 SLUG → CITY
-
-
-export function middleware(request: NextRequest) {
-  const requestHeaders = new Headers(request.headers);
-  const { pathname, search } = request.nextUrl;
-  
-  const isEn = pathname.startsWith("/en");
-  const isKesfet = pathname.includes("/kesfet/");
-  const segments = pathname.split("/").filter(Boolean);
-
-  const slugSegment = isEn ? segments[1] : segments[0];
-
-  if (!isKesfet && slugSegment && segments.length === (isEn ? 2 : 1)) {
-    const slug = sanitize(slugSegment);
-    const city = (slugToCityMap as any)[slug];
-
-    if (city) {
-      const country = cityToCountryMap[city];
-      if (country) {
-        const url = request.nextUrl.clone();
-        url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
-        url.search = search;
-        return NextResponse.redirect(url, 301);
-      }
+  for (const [slug, city] of Object.entries(slugToCityMap)) {
+    const country = cityToCountryMap[city];
+    
+    if (!country) {
+      errors.push(`⚠️ HATA: Şehir '${city}' (Slug: ${slug}) için ülke tanımlı değil!`);
+      continue;
     }
-  }
 
-  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
-  requestHeaders.set("x-url", pathname + search);
-
-  const parts = pathname.split("/");
-  const offset = isEn ? 1 : 0;
-
-  if (isKesfet && parts.length >= 4 + offset) {
-    const regionInUrl = parts[2 + offset];
-    const cityInUrl = sanitize(parts[3 + offset]);
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (targetCountry && (regionInUrl === "turkey" || regionInUrl !== targetCountry)) {
-      const url = request.nextUrl.clone();
-      const newParts = [...parts];
-      newParts[2 + offset] = targetCountry;
-      url.pathname = newParts.join("/");
-      url.search = search;
-      return NextResponse.redirect(url, 301);
+    const region = countryToRegionMap[country];
+    if (!region) {
+      errors.push(`⚠️ HATA: Ülke '${country}' (Şehir: ${city}) için bölge tanımlı değil!`);
+      continue;
     }
+
+    // İstediğin yapı: http://localhost:3000/kesfet/BÖLGE/ŞEHİR/SLUG
+    const url = `"http://localhost:3000/kesfet/${region}/${city}/${slug}",`;
+links.push(url);
   }
 
-  if (isEn) {
-    const url = request.nextUrl.clone();
-    url.pathname = pathname.replace(/^\/en/, "") || "/";
-    url.search = search;
-    const response = NextResponse.rewrite(url, {
-      request: { headers: requestHeaders },
-    });
-    response.cookies.set("lang", "en", { path: "/" });
-    return response;
-  }
+  // Dosyaya yaz
+  fs.writeFileSync('tum-linkler.txt', links.join('\n'));
+  fs.writeFileSync('link-hatalari.txt', errors.join('\n'));
 
-  const response = NextResponse.next({
-    request: { headers: requestHeaders },
-  });
-  response.cookies.set("lang", "tr", { path: "/" });
-  return response;
+  console.log(`✅ İşlem tamam! ${links.length} adet link "tum-linkler.txt" dosyasına yazıldı.`);
+  if (errors.length > 0) {
+    console.log(`❌ ${errors.length} adet hata bulundu, "link-hatalari.txt" dosyasına bakabilirsin.`);
+  }
 }
 
-export const config = {
-  matcher: [
-    "/",
-    "/:slug((?!_next|api|favicon|.*\\..*).*)", // Kök dizindeki her şeyi yakala ama statik dosyaları (resim/css) hariç tut
-    "/kesfet/:path*",
-    "/aktiviteler/:path*",
-    "/etkinlikler/:path*",
-    "/blog/:path*",
-    "/en/:path*",
-    "/tr/:path*",
-  ],
-};
+generateLinks();
