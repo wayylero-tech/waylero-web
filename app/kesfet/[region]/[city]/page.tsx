@@ -149,10 +149,7 @@ export default async function CityPage({ params }: Props) {
                 </div>
 
                 {/* CONTENT AREA */}
-                <div className="absolute bottom-0 left-0 right-0 p-10 z-10">
-                  <p className="text-blue-400 text-[10px] font-black uppercase tracking-[0.3em] mb-2 drop-shadow-sm">
-                    {lang === "tr" ? "MEKAN" : "LOCATION"}
-                  </p>
+                <div className="absolute bottom-0 left-0 right-0 p-10 z-10">              
                   <h3 className="text-3xl font-serif font-bold text-white tracking-tight mb-4 group-hover:text-blue-200 transition-colors leading-tight">
                     {placeName}
                   </h3>

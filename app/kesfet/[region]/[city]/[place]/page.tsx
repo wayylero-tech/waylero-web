@@ -156,7 +156,9 @@ export default async function Page({ params }: { params: Promise<Params> }) {
                 <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
                   <Info size={24} />
                 </div>
-                <h2 className="text-3xl font-serif font-bold text-gray-900">{t.about}</h2>
+                <h2 className="text-3xl font-serif font-bold text-gray-900">
+                {foundPlace.name?.[lang]}
+                 </h2>              
               </div>
               <p className="text-xl text-gray-600 leading-relaxed font-medium">
                 {foundPlace.description?.[lang]}

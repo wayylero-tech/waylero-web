@@ -10,8 +10,6 @@ export async function generateMetadata(): Promise<Metadata> {
   const lang = headerList.get("x-url-lang") || "tr";
   const isEn = lang === "en";
 
-  console.log(`--- METADATA LOG: Şuan dil ${lang.toUpperCase()} olarak set ediliyor ---`);
-
   return {
     title: isEn ? "Waylero | Create Travel Plan, Explore Events" : "Waylero | Gezi Planı Oluştur, Etkinlikleri Keşfet",
     description: isEn 
