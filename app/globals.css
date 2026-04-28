@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
 
 /* =========================
    THEME (TAILWIND 4)
@@ -87,4 +88,75 @@ body {
 /* Opsiyonel: Butonun içindeki parlamayı daha yumuşak yapmak istersen */
 .shimmer-gradient {
     background: linear-gradient( 90deg, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100% );
+}
+
+/* =========================
+   HERO MARQUEE (SAĞ - SOL AKIŞ)
+   ========================= */
+
+/* sola akan */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* sağa akan */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* classlar */
+.scroll-left {
+  animation: scroll-left 25s linear infinite;
+  will-change: transform;
+}
+
+.scroll-right {
+  animation: scroll-right 25s linear infinite;
+  will-change: transform;
+}
+
+/* hover durdurma */
+.pause-slider:hover {
+  animation-play-state: paused;
+}
+
+/* =========================
+   LEAFLET FIX
+   ========================= */
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.leaflet-popup-content {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.leaflet-tooltip {
+  background: #1e445e;
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+}
+
+html,
+body {
+  height: 100%;
+  background: white !important;
 }

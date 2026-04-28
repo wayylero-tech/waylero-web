@@ -83,85 +83,174 @@ export default function HomeClient({
   }[lang as "tr" | "en"] || { /* fallback */ };
 
   const pathname = usePathname();
-  
 
   return (
     <main className="min-h-screen w-full bg-white overflow-x-hidden">
-      {/* 1. SECTION: HERO */}
-    
-<section className="relative min-h-[700px] flex items-center pt-10 pb-20 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)] overflow-hidden">
-  
-  {/* ✈️ BUTONDAN SAĞ ÜSTE YÜKSELİŞ ANİMASYONU */}
-  <div className="absolute inset-0 pointer-events-none overflow-hidden select-none z-0">
-    <svg className="w-full h-full" viewBox="0 0 1000 1000" preserveAspectRatio="none">
-      <path 
-        id="takeoffPath"
-        d="M150,700 C300,500 600,200 1100,50" 
-        fill="none"
-      />
-      
-      {/* 1. Uçak */}
-      <text className="text-5xl fill-sky-500/25">
-        <textPath href="#takeoffPath" startOffset="-10%">
-          ✈️
-          <animate 
-            attributeName="startOffset" 
-            from="-10%" 
-            to="110%" 
-            dur="12s" 
-            repeatCount="indefinite" 
-          />
-        </textPath>
-      </text>
 
-      {/* 2. Uçak (6. saniyede başlar) */}
-      <text className="text-5xl fill-sky-500/15">
-        <textPath href="#takeoffPath" startOffset="-10%">
-          ✈️
-          <animate 
-            attributeName="startOffset" 
-            from="-10%" 
-            to="110%" 
-            dur="12s" 
-            begin="6s" 
-            repeatCount="indefinite" 
-          />
-        </textPath>
-      </text>
-    </svg>
+     {/* ✅ YENİ ÜST ALAN */}
+    <section className="w-full py-10 bg-[#fdfaf7]">
+  <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16 flex flex-col items-center">
+    
+    {/* 🔍 ŞEFFAF VE SADE ARAMA ALANI */}
+    <div className="w-full max-w-2xl">
+      <div className="relative bg-transparent border-b-2 border-gray-200 focus-within:border-sky-500 transition-all duration-300">
+        <HomeSearch forcedLang={lang} />
+      </div>
+    </div>
+
+    {/* 📍 RENKLİ VE CANLI BUTONLAR */}
+    <div className="mt-10 flex flex-wrap justify-center gap-4">
+      {/* Şehirler - Modern & Soft Mavi Tonları */}
+      {[
+        { name: { tr: "İstanbul", en: "Istanbul" }, path: "/kesfet/turkiye/istanbul", icon: "🕌" },
+        { name: { tr: "Viyana", en: "Vienna" }, path: "/kesfet/avusturya/viyana", icon: "🏰" },
+        { name: { tr: "Paris", en: "Paris" }, path: "/kesfet/fransa/paris", icon: "🗼" },
+        { name: { tr: "Roma", en: "Rome" }, path: "/kesfet/italya/roma", icon: "🏛️" },
+      ].map((city) => (
+        <Link 
+          key={city.path} 
+          href={getLocalizedLink(city.path)} 
+          className="flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-sky-50 text-sky-700 rounded-full text-sm font-bold transition-all border border-sky-100 shadow-sm hover:shadow-sky-200/50 hover:-translate-y-1 active:scale-95"
+        >
+          <span>{city.icon}</span>
+          {lang === "en" ? city.name.en : city.name.tr}
+        </Link>
+      ))}
+
+      {/* Kategoriler - Enerjik & Renkli Tonlar */}
+      {[
+        { name: { tr: "Konserler", en: "Concerts" }, path: "/aktiviteler?type=concert", icon: "🎸", color: "bg-purple-50 text-purple-700 border-purple-100 hover:bg-purple-600 hover:text-white" },
+        { name: { tr: "Tiyatro", en: "Theater" }, path: "/aktiviteler?type=theater", icon: "🎭", color: "bg-rose-50 text-rose-700 border-rose-100 hover:bg-rose-600 hover:text-white" },
+        { name: { tr: "Turlar", en: "Tours" }, path: "/etkinlikler", icon: "🌍", color: "bg-amber-50 text-amber-700 border-amber-100 hover:bg-amber-600 hover:text-white" },
+      ].map((cat) => (
+        <Link 
+          key={cat.path} 
+          href={getLocalizedLink(cat.path)} 
+          className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-black transition-all border shadow-sm hover:shadow-lg hover:-translate-y-1 active:scale-95 ${cat.color}`}
+        >
+          <span>{cat.icon}</span>
+          {lang === "tr" ? cat.name.tr : cat.name.en}
+        </Link>
+      ))}
+    </div>
+
   </div>
+</section>
 
-  {/* İÇERİK KATMANI */}
-  <div className="relative z-10 w-full max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+  {/* 📍 2 */}
+
+<section className="w-full py-10 bg-[linear-gradient(110deg,#fdfaf7_60%,#fff5ed_40%)]">
+  <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16">
     
-    {/* SOL TARAF: YENİ METİNLER */}
-    <div className="space-y-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      
+    {/* 🔍 KEŞFET (Yenilenmiş & Bağlanmış) */}
+<div 
+  onClick={() => document.getElementById('kesfet-section')?.scrollIntoView({ behavior: 'smooth' })}
+  className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 border border-white shadow-sm hover:shadow-md transition-all flex items-center gap-4 cursor-pointer group"
+>
+  <div className="w-12 h-12 shrink-0 rounded-2xl flex items-center justify-center text-xl bg-sky-50 group-hover:rotate-12 transition-transform">
+    🌍
+  </div>
+  <div>
+    <h3 className="text-base font-bold text-gray-900 leading-tight">
+      {lang === "tr" ? "Maceraya Başla" : "Start Adventure"}
+    </h3>
+    <p className="text-gray-500 text-[10px] sm:text-xs mt-0.5 leading-tight">
+      {lang === "tr" 
+        ? "Sıradaki durak neresi? Sana özel rotaları keşfet." 
+        : "Where is the next stop? Discover routes just for you."}
+    </p>
+  </div>
+</div>
+
+     {/* 📍 PLANLA (Trip Planner Sayfasına Yönlendirir) */}
+<Link 
+  href={getLocalizedLink("/trip-planner")}
+  className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 border border-white shadow-sm hover:shadow-md transition-all flex items-center gap-4 cursor-pointer group"
+>
+  <div className="w-12 h-12 shrink-0 rounded-2xl flex items-center justify-center text-xl bg-orange-50 group-hover:scale-110 transition-transform">
+    📍
+  </div>
+  <div>
+    <h3 className="text-base font-bold text-gray-900 leading-tight">
+      {lang === "tr" ? "Yolculuk Planla" : "Plan a Trip"}
+    </h3>
+    <p className="text-gray-500 text-[10px] sm:text-xs mt-0.5 leading-tight">
+      {lang === "tr" 
+        ? "Yapay zeka destekli akıllı rota oluşturucu." 
+        : "AI-powered smart route planner."}
+    </p>
+  </div>
+</Link>
+
+      {/* ✅ İLHAM AL (GEZİ BLOĞU - TIKLANABİLİR) */}
+      <div 
+        onClick={() => document.getElementById('blog-section')?.scrollIntoView({ behavior: 'smooth' })}
+        className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 border border-white shadow-sm hover:shadow-md transition-all flex items-center gap-4 cursor-pointer group"
+      >
+        <div className="w-12 h-12 shrink-0 rounded-2xl flex items-center justify-center text-xl bg-amber-50 group-hover:scale-110 transition-transform">📖</div>
+        <div>
+          <h3 className="text-base font-bold text-gray-900 leading-tight">
+            {lang === "tr" ? "İlham Al" : "Get Inspired"}
+          </h3>
+          <p className="text-gray-500 text-[10px] sm:text-xs mt-0.5 leading-tight">
+            {lang === "tr" ? "Gezi Bloğu: Deneyimler, rotalar ve ipuçları..." : "Travel Blog: Experiences, routes, and tips..."}
+          </p>
+        </div>
+      </div>
+
+      {/* 🎥 GEZİ VİDEOLARI (Eski Paylaş Kartı) */}
+<div 
+  onClick={() => document.getElementById('video-section')?.scrollIntoView({ behavior: 'smooth' })}
+  className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 border border-white shadow-sm hover:shadow-md transition-all flex items-center gap-4 cursor-pointer group"
+>
+  <div className="w-12 h-12 shrink-0 rounded-2xl flex items-center justify-center text-xl bg-green-50 group-hover:scale-110 transition-transform">
+    🎬
+  </div>
+  <div>
+    <h3 className="text-base font-bold text-gray-900 leading-tight">
+      {lang === "tr" ? "Gezi Videoları" : "Travel Videos"}
+    </h3>
+    <p className="text-gray-500 text-[10px] sm:text-xs mt-0.5 leading-tight">
+      {lang === "tr" 
+        ? "Gezginlerin objektifinden dünyanın dört bir yanı." 
+        : "The world through the lens of travelers."}
+    </p>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+ {/* 📍 3 */}
+
+<section className="relative min-h-[700px] flex items-center pt-10 pb-20 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)] overflow-hidden">
+  <div className="relative z-10 w-full max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    
+    {/* 🔵 SOL TARAF */}
+    <div className="max-w-2xl space-y-6">
       <h1 className="text-5xl lg:text-7xl font-serif font-bold text-gray-900 leading-[1.1]">
         {lang === "tr" ? (
           <>
-            Hayalini <br />
-            kurduğun <br />
-            yerler artık <br />
+            Hayalini <br /> kurduğun <br /> yerler artık <br />
             <span className="text-sky-500 font-medium">sadece bir plan değil</span>
           </>
         ) : (
           <>
-            The places <br />
-            you dream of <br />
-            are no longer <br />
+            The places <br /> you dream of <br /> are no longer <br />
             <span className="text-sky-500 font-medium">just a plan</span>
           </>
         )}
       </h1>
-      
-      <p className="text-lg text-gray-600 max-w-md leading-relaxed font-medium">
+
+      <p className="text-lg text-gray-600 leading-relaxed font-medium">
         {lang === "tr"
           ? "Rotanı oluştur, gerçek deneyimleri keşfet, şehirleri hisset. Seyahati planlamaktan çık, yaşamaya başla. 12.500+ deneyim seni bekliyor."
           : "Create your route, discover real experiences, feel the cities. Stop just planning your travel, start living it. 12,500+ experiences await you."
         }
       </p>
 
-      {/* KALKIŞ NOKTASI BUTONU */}
       <div className="flex flex-wrap gap-4 pt-2">
         <Link href={getLocalizedLink("/trip-planner")}>
           <button className="bg-black text-white px-10 py-5 rounded-2xl font-bold hover:bg-gray-800 transition-all shadow-xl shadow-black/20 active:scale-95 text-lg">
@@ -169,58 +258,106 @@ export default function HomeClient({
           </button>
         </Link>
       </div>
-
-      <div className="flex gap-12 pt-10 border-t border-gray-200/50">
-        <div><p className="text-3xl font-bold text-gray-900">40+</p><p className="text-gray-500 text-sm font-medium">{t.stats.country}</p></div>
-        <div><p className="text-3xl font-bold text-gray-900">300+</p><p className="text-gray-500 text-sm font-medium">{t.stats.city}</p></div>
-        <div><p className="text-3xl font-bold text-gray-900">2000+</p><p className="text-gray-500 text-sm font-medium">{t.stats.spot}</p></div>
-      </div>
     </div>
 
-    {/* SAĞ TARAF: Arama Kartı (Aynı kalıyor) */}
-    <div className="relative">
-      <div className="bg-white p-12 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-white max-w-lg w-full ml-auto min-h-[520px] flex flex-col justify-center">
-        <h2 className="text-3xl font-serif font-bold mb-10 text-gray-900">{t.quickSearch}</h2>
-        <div className="w-full"><HomeSearch forcedLang={lang} /></div>
-        
-        <div className="mt-8">
-          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">{t.popularCities}</p>
-          <div className="flex flex-wrap gap-2">
-            {[
-              { name: lang === "tr" ? "İstanbul" : "Istanbul", path: "/kesfet/turkiye/istanbul" },
-              { name: lang === "tr" ? "Viyana" : "Vienna", path: "/kesfet/avusturya/viyana" },
-              { name: "Paris", path: "/kesfet/fransa/paris" },
-              { name: lang === "tr" ? "Roma" : "Rome", path: "/kesfet/italya/roma" },
-            ].map((city) => (
-              <Link key={city.path} href={getLocalizedLink(city.path)} className="px-4 py-2 bg-gray-50 hover:bg-blue-50 text-gray-600 hover:text-blue-600 rounded-full text-xs font-medium transition-all border border-gray-100">
-                {city.name}
-              </Link>
+    {/* 🔵 SAĞ TARAF */}
+    <div className="flex flex-col gap-4">
+      
+      <div className="text-right w-full pr-2">
+         <h3 className="text-xl font-bold text-gray-800 tracking-tight uppercase">
+            {t.popularCities}
+         </h3>
+         <div className="w-12 h-1 bg-sky-500 mt-1 rounded-full ml-auto"></div>
+      </div>
+
+      <div className="grid grid-cols-1 gap-6">
+        {/* ÜST SLIDER - [mask-image] eklendi */}
+        <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
+          <div className="flex scroll-left pause-slider gap-6 py-4">
+            {[...featuredCities.slice(0, 8), ...featuredCities.slice(0, 8)].map((c, i) => (
+              <div key={i} className="w-[180px] flex-shrink-0">
+                <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
+                  <img src={c.image} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt={c.name} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <p className="font-bold text-lg leading-tight">{c.name}</p>
+                    <p className="text-[10px] opacity-70 mt-1 uppercase tracking-widest">
+                      {c.country.replace(/-/g, " ")}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ALT SLIDER - [mask-image] eklendi */}
+        <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
+          <div className="flex scroll-right pause-slider gap-6 py-4">
+            {[...featuredCities.slice(8, 15), ...featuredCities.slice(8, 15)].map((c, i) => (
+              <div key={i} className="w-[180px] flex-shrink-0">
+                <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
+                  <img src={c.image} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt={c.name} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <p className="font-bold text-lg leading-tight">{c.name}</p>
+                    <p className="text-[10px] opacity-70 mt-1 uppercase tracking-widest">
+                      {c.country.replace(/-/g, " ")}
+                    </p>
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
       </div>
     </div>
+    
   </div>
 </section>
 
-      {/* 2. SECTION: TURLAR */}
-      <section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 md:mb-16 border-b border-gray-100 pb-6 md:pb-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900 tracking-tight font-serif">{t.tourTitle}</h2>
-          <Link href={getLocalizedLink("/etkinlikler")} className="inline-flex items-center justify-center gap-2 bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-all transform hover:scale-105">
-            {t.seeAll} <span className="text-xl">→</span>
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
-          {featuredTours?.length > 0 ? (
-            featuredTours.map((tour: any) => <div key={tour.id} className="h-full"><TourCard {...tour} /></div>)
-          ) : (
-            Array.from({ length: 4 }).map((_, i) => <div key={i} className="h-[400px] bg-gray-100 animate-pulse rounded-2xl" />)
-          )}
-        </div>
-      </section>
+    {/*4SECTION: GENİŞ VE FERAH YAPILANDIRMA */}
+<section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16">
 
-     {/* 2. SECTION: konserler */}
+  {/* Başlık ve Buton */}
+  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 md:mb-16 border-b border-gray-100 pb-6 md:pb-10">
+
+    <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900 tracking-tight font-serif">
+      {t.tourTitle}
+    </h2>
+
+    <Link
+      href={getLocalizedLink("/etkinlikler")}
+      className="inline-flex items-center justify-center gap-2 bg-orange-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 will-change-transform"
+    >
+      {t.seeAll}
+      <span className="text-xl">→</span>
+    </Link>
+  </div>
+
+  {/* Grid */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-7 lg:gap-10 items-stretch">
+
+    {featuredTours?.length > 0 ? (
+      featuredTours.map((tour: any) => (
+        <div key={tour.id} className="h-full">
+          {/* CRITICAL: TourCard'a lang prop'unu geçiyoruz ki içindeki metinler çevrilsin */}
+          <TourCard {...tour} lang={lang} />
+        </div>
+      ))
+    ) : (
+      Array.from({ length: 4 }).map((_, i) => (
+        <div
+          key={i}
+          className="h-[320px] sm:h-[380px] lg:h-[420px] bg-gray-100 animate-pulse rounded-2xl"
+        />
+      ))
+    )}
+
+  </div>
+</section>
+
+     {/* 5. SECTION: konserler */}
 <section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16">
   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 border-b border-gray-100 pb-10">
     <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900 tracking-tight font-serif">
@@ -291,8 +428,11 @@ export default function HomeClient({
     )}
   </div>
 </section>
-      {/* 4. SECTION: KEŞFET CTA */}
-     <section className="w-full max-w-[1800px] mx-auto px-8 md:px-16 my-24">
+      {/* 6. SECTION: KEŞFET CTA - ID Eklendi */}
+<section 
+  id="kesfet-section" 
+  className="w-full max-w-[1800px] mx-auto px-8 md:px-16 my-24 scroll-mt-24"
+>
   <div className="rounded-[3rem] bg-gradient-to-br from-blue-50 via-white to-orange-50/30 border border-gray-100 p-12 md:p-20 flex flex-col md:flex-row items-center justify-between gap-10 shadow-[0_20px_50px_rgba(0,0,0,0.05)]">
     
     <div className="max-w-2xl text-center md:text-left">
@@ -372,60 +512,62 @@ export default function HomeClient({
   </div>
 </section>
 
-      {/* 5. SECTION: BLOG */}
-      <section className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20">
-        <div className="flex items-center justify-between mb-12 border-b border-gray-100 pb-6">
-          <h2 className="text-2xl md:text-4xl font-black text-gray-900 font-serif">{t.blogTitle}</h2>
-          <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">{t.seeAll} →</Link>
-        </div>
-        <HomeBlogSlider />
-      </section>
+ {/* 7. SECTION: BLOG */}
+<section 
+  id="blog-section" 
+  className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20 scroll-mt-24"
+>
+  <div className="flex items-center justify-between mb-12 border-b border-gray-100 pb-6">
+    <h2 className="text-2xl md:text-4xl font-black text-gray-900 font-serif">{t.blogTitle}</h2>
+    <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">
+      {t.seeAll} →
+    </Link>
+  </div>
+  <HomeBlogSlider />
+</section>
 
-      {/* 6. SECTION: ŞEHİRLER (Horizontal Scroll) */}
-      <section className="mt-24 mb-24 w-full max-w-[1800px] mx-auto px-8 md:px-16">
-        <div className="flex items-center justify-between mb-16 border-b border-gray-100 pb-10">
-          <h2 className="text-3xl md:text-4xl font-black text-gray-900 font-serif">{t.cityTitle}</h2>
-        </div>
-        <div className="flex flex-row overflow-x-auto gap-8 pb-8 snap-x scrollbar-hide">
-          {featuredCities.map((c) => (
-            <Link key={c.slug} href={getLocalizedLink(`/${c.country}/${c.slug}`)} onClick={() => trackClick("city", c.name, `${c.country}/${c.slug}`)} className="flex-shrink-0 w-[280px] md:w-[400px] snap-start group">
-              <div className="relative h-[450px] rounded-[2.5rem] overflow-hidden shadow-lg transition-all duration-500 bg-gray-100">
-                <img src={c.image} alt={c.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <div className="absolute bottom-0 left-0 p-8 w-full">
-                  <h3 className="text-white text-2xl md:text-3xl font-black">{c.name}</h3>
-                  <p className="text-blue-300 font-extrabold text-[11px] uppercase tracking-widest mt-2">{c.country.replace(/-/g, " ")}</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* 7. SECTION: VİDEOLAR */}
-      <section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16">
-        <div className="flex items-center justify-between mb-16 border-b border-gray-100 pb-10">
-          <h2 className="text-2xl md:text-4xl font-black text-gray-900 font-serif">{t.videoTitle}</h2>
-          <Link href={getLocalizedLink("/videolar")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">{t.seeAll} →</Link>
-        </div>
-        <div className="flex gap-7 overflow-x-auto pb-6 snap-x scrollbar-hide">
-          {(videos ?? []).slice(0, 6).map((video) => (
-            <div key={video.id} onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))} className="flex-shrink-0 w-[220px] md:w-[300px] snap-start cursor-pointer group">
-              <div className="relative aspect-[9/16] rounded-2xl overflow-hidden bg-gray-100 shadow-sm group-hover:shadow-xl transition-all">
-                <img src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`} alt={video.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:scale-110 transition-all"><svg className="w-5 h-5 text-white translate-x-[1px]" fill="currentColor" viewBox="0 0 24 24"><path d="M7 6v12l10-6z" /></svg></div>
-                </div>
-                <div className="absolute bottom-0 left-0 p-5">
-                  <h3 className="text-white text-sm font-bold line-clamp-2">{video.title}</h3>
-                  <p className="text-orange-300 text-[10px] font-semibold uppercase tracking-widest mt-1">VIDEO</p>
-                </div>
-              </div>
+       {/* 7. SECTION: VİDEOLAR - ID ve Scroll Margin Eklendi */}
+<section 
+  id="video-section" 
+  className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16 scroll-mt-24"
+>
+  <div className="flex items-center justify-between mb-16 border-b border-gray-100 pb-10">
+    <h2 className="text-2xl md:text-4xl font-black text-gray-900 font-serif">{t.videoTitle}</h2>
+    <Link href={getLocalizedLink("/videolar")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">
+      {t.seeAll} →
+    </Link>
+  </div>
+  
+  <div className="flex gap-7 overflow-x-auto pb-6 snap-x scrollbar-hide">
+    {(videos ?? []).slice(0, 6).map((video) => (
+      <div 
+        key={video.id} 
+        onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))} 
+        className="flex-shrink-0 w-[220px] md:w-[300px] snap-start cursor-pointer group"
+      >
+        <div className="relative aspect-[9/16] rounded-2xl overflow-hidden bg-gray-100 shadow-sm group-hover:shadow-xl transition-all">
+          <img 
+            src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`} 
+            alt={video.title} 
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:scale-110 transition-all">
+              <svg className="w-5 h-5 text-white translate-x-[1px]" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M7 6v12l10-6z" />
+              </svg>
             </div>
-          ))}
+          </div>
+          <div className="absolute bottom-0 left-0 p-5">
+            <h3 className="text-white text-sm font-bold line-clamp-2">{video.title}</h3>
+            <p className="text-orange-300 text-[10px] font-semibold uppercase tracking-widest mt-1">VIDEO</p>
+          </div>
         </div>
-      </section>
+      </div>
+    ))}
+  </div>
+</section>
     </main>
   );
 }

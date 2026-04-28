@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import { headers } from "next/headers";
 import "./globals.css";
 
+
 import ClientLayout from "./components/ClientLayout";
 import ClientProviders from "./ClientProviders";
 import GoogleAnalytics from "./components/GoogleAnalytics";

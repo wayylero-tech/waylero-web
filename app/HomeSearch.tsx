@@ -255,11 +255,7 @@ export default function HomeSearch({ forcedLang }: { forcedLang?: string }) {
         </div>
       </div>
 
-      <p className={`mt-2 text-[11px] text-gray-400 px-2 italic opacity-80 relative z-[60] ${mapPlace ? "hidden" : "block"}`}>
-        {t.helper}
-      </p>
-
-      {/* 3. HARİTA PANELİ (z-50 - Blur'un üstünde, Input'un altında) */}
+        {/* 3. HARİTA PANELİ (z-50 - Blur'un üstünde, Input'un altında) */}
       {mapPlace && (
         <div className="absolute left-0 right-0 top-full mt-4 z-[50] animate-in fade-in slide-in-from-top-4 duration-300">
           <div className="bg-white rounded-3xl overflow-hidden shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] border border-gray-100">
