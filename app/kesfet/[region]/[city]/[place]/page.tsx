@@ -23,11 +23,13 @@ function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
 }
 
 async function getLanguage() {
-  const h = await headers();
+  const h = headers();
   const currentPath = h.get("x-url") || "";
   const middlewareLang = h.get("x-url-lang");
+
   if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
-  const cookieStore = await cookies();
+
+  const cookieStore = cookies();
   return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
 }
 
@@ -170,6 +172,8 @@ export default async function Page({ params }: { params: Promise<Params> }) {
 
   const langPrefix = lang === "en" ? "/en" : "";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
+  const canonical = `${BASE_URL}${lang === "en" ? "/en" : ""}/kesfet/${region}/${city}/${place}`;
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
@@ -306,35 +310,31 @@ const schema = {
   <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
     <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
     <div className="space-y-6">
-      {nearbyPlaces.map((p: any) => (
-        <Link
-          key={p.slug}
-          href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-          className="flex flex-col gap-1 group"
-        >
-          <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors">
-            {p.name?.[lang]}
-          </span>
-          <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
-            {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
-          </span>
-        </Link>
-      ))}
-    </div>
-  </div>
+       {nearbyPlaces.map((p: any) => (
+  <Link
+    key={p.slug}
+    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+    className="flex flex-col gap-1 group"
+  >
+    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors">
+      {p.name?.[lang]}
+    </span>
+    <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
+      {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
+    </span>
+  </Link>
+                ))}
+              </div>
+            </div>
 
-  {/* JSON-LD Script */}
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-  />
-</div>
-
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
           </div>
         </div>
       </section>
     </main>
   );
 }
-
   
