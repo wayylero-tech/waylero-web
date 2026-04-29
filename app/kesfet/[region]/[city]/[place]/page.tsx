@@ -1,7 +1,6 @@
 
 
 import { notFound } from "next/navigation";
-import { cookies, headers } from "next/headers";
 import { cache } from "react";
 import Link from "next/link"; // <--- BU SATIRI EKLE
 import PlaceSlider from "./PlaceSlider";
@@ -9,6 +8,10 @@ import fs from "fs";
 import path from "path";
 import { slugify } from "@/lib/utils/slugify";
 import { Sparkles, MapPin, Navigation, Calendar, Info, Activity, ArrowRight } from "lucide-react";
+import { headers } from "next/headers";
+
+
+
 export const runtime = "nodejs";
 const BASE_URL = "https://www.waylero.com";
 
@@ -24,13 +27,10 @@ function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
 
 async function getLanguage() {
   const h = headers();
-  const currentPath = h.get("x-url") || "";
-  const middlewareLang = h.get("x-url-lang");
 
-  if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
+  const lang = h.get("x-url-lang");
 
-  const cookieStore = cookies();
-  return (cookieStore.get("lang")?.value || "tr") as "tr" | "en";
+  return lang === "en" ? "en" : "tr";
 }
 
 const loadCityData = cache(async (region: string, city: string) => {
