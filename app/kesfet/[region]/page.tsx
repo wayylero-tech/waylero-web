@@ -68,24 +68,70 @@ async function getActiveLang() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region } = await params;
-  const lang = await getActiveLang();
+  const lang = await getActiveLang(); // Kendi fonksiyonun
   const baseUrl = "https://www.waylero.com";
 
-  // Klasör adını düzgün başlığa çevir
-  const displayTitle = regionNameMap[region]?.[lang] ?? region.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+  // Bölge ismini düzenle (regionNameMap'in tanımlı olduğunu varsayıyorum)
+  const displayTitle = regionNameMap[region]?.[lang] ?? 
+                       region.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
+  const isEn = lang === "en";
   const texts = {
-    tr: { title: `${displayTitle} Gezilecek Yerler`, desc: `${displayTitle} bölgesindeki en popüler şehirleri keşfedin.` },
-    en: { title: `Places to Visit in ${displayTitle}`, desc: `Discover the best cities in ${displayTitle}.` }
+    tr: { 
+        title: `${displayTitle} Gezilecek Yerler`, 
+        desc: `${displayTitle} bölgesindeki en popüler şehirleri keşfedin ve rehberinizi oluşturun.` 
+    },
+    en: { 
+        title: `Places to Visit in ${displayTitle}`, 
+        desc: `Discover the best cities and travel guides in ${displayTitle}.` 
+    }
   }[lang];
 
   const pathUrl = `/kesfet/${region}`;
-  const canonical = lang === "tr" ? `${baseUrl}${pathUrl}` : `${baseUrl}/en${pathUrl}`;
+  const canonical = isEn ? `${baseUrl}/en${pathUrl}` : `${baseUrl}${pathUrl}`;
 
   return {
     title: `${texts.title} | Waylero`,
     description: texts.desc,
-    alternates: { canonical, languages: { "tr-TR": `${baseUrl}${pathUrl}`, "en-US": `${baseUrl}/en${pathUrl}` } }
+
+    // 🔥 CANONICAL + HREFLANG (SEO'nun kalbi)
+    alternates: {
+      canonical,
+      languages: {
+        "tr-TR": `${baseUrl}${pathUrl}`,
+        "en-US": `${baseUrl}/en${pathUrl}`,
+      },
+    },
+
+    // 🔥 OPEN GRAPH (WhatsApp, Facebook, Twitter, LinkedIn paylaşımı)
+    openGraph: {
+      title: texts.title,
+      description: texts.desc,
+      url: canonical,
+      siteName: "Waylero",
+      type: "website",
+      locale: isEn ? "en_US" : "tr_TR",
+      // Eğer bölge için genel bir görselin varsa buraya ekle:
+      // images: [`${baseUrl}/og-images/${region}.jpg`], 
+    },
+
+    // 🔥 TWITTER CARD
+    twitter: {
+      card: "summary_large_image",
+      title: texts.title,
+      description: texts.desc,
+      site: "@waylero", // Varsa twitter kullanıcı adın
+    },
+
+    // 🔥 INDEX CONTROL (Google'ın sayfayı taraması için)
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
   };
 }
 
