@@ -251,14 +251,14 @@ const schema = {
       <h2 className="text-3xl font-serif font-bold text-gray-900">{t.location}</h2>
     </div>
     <div className="rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 h-[450px]">
-      <iframe
-        className="w-full h-full"
-        src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      />
+     <iframe
+  className="w-full h-full"
+  src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
     </div>
   </div>
 )}
