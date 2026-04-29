@@ -47,14 +47,26 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const lang = await getLanguage();
   const cityData = await loadCityData(region, city);
   if (!cityData) return { title: "Waylero" };
+
   const found = cityData.find((p: any) => slugify(p.slug) === slugify(decodeURIComponent(place)));
   if (!found) return { title: "Waylero" };
+
   const name = found.name?.[lang] || found.name?.tr;
+
   const seo = {
     tr: { title: `${name} | Gezi Rehberi`, desc: `${name} hakkında bilgiler ve gezilecek yerler.` },
     en: { title: `${name} | Travel Guide`, desc: `Discover ${name} and nearby places.` },
   }[lang];
-  return { title: `${seo.title} | Waylero`, description: (seo.desc + " " + (found.description?.[lang] || "")).slice(0, 158) };
+
+  const url = `${BASE_URL}/${lang === "en" ? "en/" : ""}kesfet/${region}/${city}/${place}`;
+
+  return {
+    title: `${seo.title} | Waylero`,
+    description: (seo.desc + " " + (found.description?.[lang] || "")).slice(0, 158),
+    alternates: {
+      canonical: url,
+    },
+  };
 }
 
 export default async function Page({ params }: { params: Promise<Params> }) {
