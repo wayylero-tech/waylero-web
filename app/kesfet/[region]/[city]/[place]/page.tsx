@@ -173,28 +173,47 @@ export default async function Page({ params }: { params: Promise<Params> }) {
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${lang === "en" ? "/en" : ""}/kesfet/${region}/${city}/${place}`;
 
-// --- SCHEMA TANIMLAMASI ---
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "TouristAttraction",
-    "@id": canonical,
-    "name": foundPlace.name?.[lang],
-    "description": foundPlace.description?.[lang],
-    "url": canonical,
-    "image": (images?.[0] ? `${BASE_URL}/${images[0]}` : `${BASE_URL}/og-default.jpg`),
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": foundPlace.latitude,
-      "longitude": foundPlace.longitude
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": city,
-      "addressRegion": region,
-      "addressCountry": "TR"
-    }
-  };
-  
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+
+  "@id": `${canonical}#place`,
+  "name": foundPlace.name?.[lang],
+  "description": foundPlace.description?.[lang],
+  "url": canonical,
+
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonical
+  },
+
+  "inLanguage": lang === "en" ? "en" : "tr",
+
+  "image": {
+    "@type": "ImageObject",
+    "url": `${BASE_URL}/${images?.[0] || "og-default.jpg"}`
+  },
+
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": Number(foundPlace.latitude),
+    "longitude": Number(foundPlace.longitude)
+  },
+
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": region,
+    "addressCountry": "TR"
+  },
+
+  "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
+
+  "potentialAction": {
+    "@type": "ViewAction",
+    "target": canonical
+  }
+};
   return (
     <main className="min-h-screen bg-white">
       {/* 1. HERO SECTION: Diagonal Signature with Integrated Slider */}

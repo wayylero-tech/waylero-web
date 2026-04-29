@@ -3,7 +3,6 @@
 import React, { useMemo } from "react";
 import Link from "next/link";
 import { MapPin, ChevronRight } from "lucide-react";
-import { useLang } from "../context/LanguageContext";
 
 /* 🔹 ŞEHİR VERİLERİ */
 const cities = [
