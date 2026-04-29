@@ -24,9 +24,8 @@ function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
   const a = Math.sin(dLat / 2) ** 2 + Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLon / 2) ** 2;
   return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)) * 1.25;
 }
-
 async function getLanguage() {
-  const h = headers();
+  const h = await headers();
 
   const lang = h.get("x-url-lang");
 
