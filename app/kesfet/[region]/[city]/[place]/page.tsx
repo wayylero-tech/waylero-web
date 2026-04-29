@@ -70,6 +70,11 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
 
   const canonical = `${BASE_URL}${lang === "en" ? "/en" : ""}/kesfet/${region}/${city}/${place}`;
 
+  const image =
+    found.images?.[0] ||
+    found.image ||
+    `${BASE_URL}/og-default.jpg`;
+
   return {
     title: `${seo.title} | Waylero`,
     description: (seo.desc + " " + (found.description?.[lang] || "")).slice(0, 158),
@@ -80,6 +85,35 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
         tr: `${BASE_URL}/kesfet/${region}/${city}/${place}`,
         en: `${BASE_URL}/en/kesfet/${region}/${city}/${place}`,
       },
+    },
+
+    openGraph: {
+      title: seo.title,
+      description: seo.desc,
+      url: canonical,
+      siteName: "Waylero",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: name,
+        },
+      ],
+      locale: lang === "en" ? "en_US" : "tr_TR",
+      type: "website",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: seo.title,
+      description: seo.desc,
+      images: [image],
+    },
+
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
@@ -136,7 +170,22 @@ export default async function Page({ params }: { params: Promise<Params> }) {
 
   const langPrefix = lang === "en" ? "/en" : "";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
-
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "@id": canonical,
+  name: foundPlace.name?.[lang],
+  description: foundPlace.description?.[lang],
+  url: canonical,
+  image: images?.[0] || `${BASE_URL}/og-default.jpg`,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: city,
+    addressRegion: region,
+    addressCountry: "TR",
+  },
+};
+  
   return (
     <main className="min-h-screen bg-white">
       {/* 1. HERO SECTION: Diagonal Signature with Integrated Slider */}
@@ -216,63 +265,70 @@ export default async function Page({ params }: { params: Promise<Params> }) {
           </div>
 
           {/* Sidebar Area */}
-          <div className="lg:col-span-4 space-y-10">
-            
-            {/* Activities Card */}
-            <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm hover:shadow-md transition-all">
-              <div className="flex items-center gap-3 mb-6">
-                <Activity className="text-orange-500" size={20} />
-                <h3 className="font-serif font-bold text-xl">{t.todo}</h3>
-              </div>
-              <ul className="space-y-4">
-                {(foundPlace.activities?.[lang] || []).map((a: string, i: number) => (
-                  <li key={i} className="flex items-start gap-3 text-gray-600 group">
-                    <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 group-hover:scale-150 transition-transform" />
-                    <span className="text-sm font-medium">{a}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg hover:shadow-xl transition-all">
-  <div className="flex items-center gap-3 mb-4">
-    <Calendar size={20} />
-    <h3 className="font-serif font-bold text-xl">
-      {cityName} {t.eventsTitle}
-    </h3>
+        {/* Sidebar Area */}
+<div className="lg:col-span-4 space-y-10">
+  
+  {/* Activities Card */}
+  <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm hover:shadow-md transition-all">
+    <div className="flex items-center gap-3 mb-6">
+      <Activity className="text-orange-500" size={20} />
+      <h3 className="font-serif font-bold text-xl">{t.todo}</h3>
+    </div>
+    <ul className="space-y-4">
+      {(foundPlace.activities?.[lang] || []).map((a: string, i: number) => (
+        <li key={i} className="flex items-start gap-3 text-gray-600 group">
+          <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 group-hover:scale-150 transition-transform" />
+          <span className="text-sm font-medium">{a}</span>
+        </li>
+      ))}
+    </ul>
   </div>
 
-  <p className="text-sm opacity-90 mb-6">
-    {t.eventsText}
-  </p>
+  {/* Events Card */}
+  <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg hover:shadow-xl transition-all">
+    <div className="flex items-center gap-3 mb-4">
+      <Calendar size={20} />
+      <h3 className="font-serif font-bold text-xl">
+        {cityName} {t.eventsTitle}
+      </h3>
+    </div>
+    <p className="text-sm opacity-90 mb-6">{t.eventsText}</p>
+    <Link
+      href={`/aktiviteler?city=${slugify(city)}`}
+      className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+    >
+      {cityName} {t.eventsTitle}
+      <ArrowRight size={18} />
+    </Link>
+  </div>
 
-  <Link
-    href={`/aktiviteler?city=${slugify(city)}`}
-    className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
-  >
-    {cityName} {t.eventsTitle}
-    <ArrowRight size={18} />
-  </Link>
+  {/* Nearby Places Card (Tek ve Doğru Hali) */}
+  <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
+    <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
+    <div className="space-y-6">
+      {nearbyPlaces.map((p: any) => (
+        <Link
+          key={p.slug}
+          href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+          className="flex flex-col gap-1 group"
+        >
+          <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors">
+            {p.name?.[lang]}
+          </span>
+          <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
+            {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
+          </span>
+        </Link>
+      ))}
+    </div>
+  </div>
+
+  {/* JSON-LD Script */}
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  />
 </div>
-            {/* Nearby Places Card */}
-            <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
-              <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
-              <div className="space-y-6">
-                {nearbyPlaces.map((p: any) => (
-                  <Link
-                    key={p.slug}
-                    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-                    className="flex flex-col gap-1 group"
-                  >
-                    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors">
-                      {p.name?.[lang]}
-                    </span>
-                    <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
-                      {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
 
           </div>
         </div>
@@ -280,3 +336,5 @@ export default async function Page({ params }: { params: Promise<Params> }) {
     </main>
   );
 }
+
+  
