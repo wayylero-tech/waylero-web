@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { headers } from "next/headers";
 import KesfetClient from "./KesfetClient";
+import { Metadata } from "next";
 
 // Ülke isimleri sözlüğü - SEO için İngilizce sayfada İngilizce isimler şart kanka
 const countryNames: Record<string, { tr: string; en: string }> = {
@@ -50,23 +51,78 @@ const countryNames: Record<string, { tr: string; en: string }> = {
 const countries = Object.keys(countryNames);
 
 // Dinamik SEO ayarları
-export async function generateMetadata() {
+
+
+const BASE_URL = "https://www.waylero.com";
+
+export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
-  const lang = headerList.get('x-url-lang') || 'tr';
-  const isEn = lang === 'en';
+  const lang = headerList.get("x-url-lang") || "tr";
+  const isEn = lang === "en";
+
+  const t = {
+    tr: {
+      title: "Dünyayı Keşfet | Popüler Ülke ve Şehir Rehberleri - Waylero",
+      desc: "Türkiye, Fransa, İtalya, Almanya ve daha fazlası... 2000'den fazla popüler noktayı Waylero ile keşfedin.",
+    },
+    en: {
+      title: "Explore the World | Popular Country & City Guides - Waylero",
+      desc: "Explore Turkey, France, Italy, Germany and more... Discover over 2000+ popular destinations with Waylero.",
+    },
+  }[isEn ? "en" : "tr"];
+
+  const canonical = isEn ? `${BASE_URL}/en/kesfet` : `${BASE_URL}/kesfet`;
 
   return {
-    title: isEn 
-      ? "Explore the World | Popular Country & City Guides - Waylero" 
-      : "Dünyayı Keşfet | Popüler Ülke ve Şehir Rehberleri - Waylero",
-    description: isEn 
-      ? "Explore Turkey, France, Italy, Germany and more... Discover over 2000+ popular destinations." 
-      : "Türkiye, Fransa, İtalya, Almanya ve daha fazlası... 2000'den fazla popüler noktayı keşfedin.",
+    title: t.title,
+    description: t.desc,
+
+    // 🔥 SEO: Canonical & Hreflang
     alternates: {
-      canonical: isEn ? "https://www.waylero.com/en/kesfet" : "https://www.waylero.com/kesfet",
+      canonical,
       languages: {
-        "tr-TR": "https://www.waylero.com/kesfet",
-        "en-US": "https://www.waylero.com/en/kesfet",
+        "tr-TR": `${BASE_URL}/kesfet`,
+        "en-US": `${BASE_URL}/en/kesfet`,
+      },
+    },
+
+    // 🔥 OPEN GRAPH (WhatsApp, Facebook, LinkedIn için "Zengin Önizleme")
+    openGraph: {
+      title: t.title,
+      description: t.desc,
+      url: canonical,
+      siteName: "Waylero",
+      type: "website",
+      locale: isEn ? "en_US" : "tr_TR",
+      images: [
+        {
+          url: `${BASE_URL}/og-image-explore.jpg`, // Buraya güzel bir kapak görseli koymalısın
+          width: 1200,
+          height: 630,
+          alt: "Waylero Discovery",
+        },
+      ],
+    },
+
+    // 🔥 TWITTER CARD (Twitter paylaşımları için "Büyük Görsel" formatı)
+    twitter: {
+      card: "summary_large_image",
+      title: t.title,
+      description: t.desc,
+      site: "@waylero", // Varsa Twitter hesabın
+      images: [`${BASE_URL}/og-image-explore.jpg`],
+    },
+
+    // 🔥 ROBOTS (Arama motorlarına "bu sayfayı dizine ekle" emri)
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
       },
     },
   };
