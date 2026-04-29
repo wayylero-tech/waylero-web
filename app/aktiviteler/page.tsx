@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import { headers } from "next/headers"; // 🔥 Cookies yerine headers
+import { headers } from "next/headers";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 
-
+// --- HELPERS ---
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
     'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u',
@@ -19,74 +19,135 @@ function slugify(text: string) {
     .trim();
 }
 
-// 🌍 Güvenli Dil Yakalama
 async function getLanguage() {
   const h = await headers();
   const currentPath = h.get("x-url") || "";
   const middlewareLang = h.get("x-url-lang");
-  
+
   if (middlewareLang === "en" || currentPath.includes("/en/")) return "en";
   return "tr";
 }
 
+// --- SCHEMA GENERATOR ---
+function generateEventSchema(events: any[], lang: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": lang === "tr" ? "Etkinlik Listesi" : "Event List",
+    "itemListElement": events.map((event, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": event.category?.name === "Konser" ? "MusicEvent" : "Event",
+        "name": event.name,
+        "startDate": event.start,
+        "location": {
+          "@type": "Place",
+          "name": event.venue?.name || "Mekan",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": event.venue?.city?.name || "Türkiye",
+            "addressCountry": "TR"
+          }
+        },
+        "image": event.poster_url || event.image_url,
+        "description": `${event.name} etkinliği Waylero güvencesiyle.`,
+        "offers": {
+  "@type": "Offer",
+  // /etkinlik/ yerine /aktivite/ (veya senin detay sayfa route adın neyse o)
+  "url": `https://www.waylero.com${lang === "en" ? "/en" : ""}/aktivite/${event.slug}`,
+  "priceCurrency": "TRY",
+  "availability": "https://schema.org/InStock"
+}
+      }
+    }))
+  };
+}
+
+// --- METADATA ---
 export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
   const params = await searchParams;
   const lang = await getLanguage();
   const cityParam = params.city || "";
-  
+  const typeParam = params.type || ""; // 🔥 Konser/Tiyatro ayrımı için
+
   const normalizedCityMap = Object.fromEntries(
     Object.entries(cityMap).map(([key, value]) => [slugify(key), key])
   );
 
   const originalCityName = normalizedCityMap[cityParam];
-  
-  // 🌍 SEO Metinleri (TR/EN)
+
   const t = {
     tr: {
       defaultCity: "TÜRKİYE GENELİ",
-      suffix: "Konserleri ve Etkinlikleri",
+      suffix: typeParam === "concert" ? "Konserleri" : "Etkinlikleri",
       desc: "şehrindeki en güncel konserler ve etkinlikler Waylero'da."
     },
     en: {
       defaultCity: "ALL OVER TURKEY",
-      suffix: "Concerts and Events",
+      suffix: typeParam === "concert" ? "Concerts" : "Events",
       desc: "Discover the latest concerts and events in"
     }
-  }[lang];
+  }[lang as "tr" | "en"];
 
-  const cityNameMeta = originalCityName 
-    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") 
+  const cityNameMeta = originalCityName
+    ? originalCityName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US")
     : t.defaultCity;
 
   const title = `${cityNameMeta} ${t.suffix} | Waylero`;
-  const description = lang === "tr" 
+  const description = lang === "tr"
     ? `${cityNameMeta} ${t.desc}`
     : `${t.desc} ${cityNameMeta} on Waylero.`;
 
-return {
+  // 🔥 URL DUZELTME: /etkinlikler yerine /aktiviteler kullanıyoruz
+  const searchQueries = new URLSearchParams();
+  if (cityParam) searchQueries.append("city", cityParam);
+  if (typeParam) searchQueries.append("type", typeParam);
+  const queryStr = searchQueries.toString() ? `?${searchQueries.toString()}` : "";
+
+  const baseUrl = "https://www.waylero.com";
+  const path = "/aktiviteler"; // 👈 Sayfanın gerçek yolu
+  const fullUrl = `${baseUrl}${lang === "en" ? "/en" : ""}${path}${queryStr}`;
+
+  return {
     title,
     description,
     alternates: {
-      canonical: `https://www.waylero.com${lang === "en" ? "/en" : ""}/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+      canonical: fullUrl,
       languages: {
-        "tr-TR": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-        "en-US": `https://www.waylero.com/en/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
-        "x-default": `https://www.waylero.com/etkinlikler${cityParam ? `?city=${cityParam}` : ""}`,
+        "tr-TR": `${baseUrl}${path}${queryStr}`,
+        "en-US": `${baseUrl}/en${path}${queryStr}`,
+        "x-default": `${baseUrl}${path}${queryStr}`,
       },
     },
+    openGraph: {
+      title,
+      description,
+      url: fullUrl,
+      siteName: "Waylero",
+      images: [{ url: `${baseUrl}/og-image.jpg`, width: 1200, height: 630 }],
+      locale: lang === "tr" ? "tr_TR" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`${baseUrl}/og-image.jpg`],
+    },
   };
-} // 👈 BU EKSİK!
+}
 
+// --- PAGE COMPONENT ---
 export default async function ActivitiesPage({ searchParams }: any) {
   const params = await searchParams;
   const lang = await getLanguage();
 
   const citySlug = params.city || "";
-  
-  // 🔥 GÜNCELLEME: Burası parametreleri yeni isimlerle yakalamalı
-  const startDate = params.start_gte || params.start || ""; 
+  const type = params.type || ""; // 🔥 UI tarafında filtreleme için gerekebilir
+  const startDate = params.start_gte || params.start || "";
   const endDate = params.end_lte || params.end || "";
-  
+
   const slugifiedCityMap = Object.fromEntries(
     Object.entries(cityMap).map(([key, value]) => [slugify(key), { id: value, originalName: key }])
   );
@@ -94,12 +155,11 @@ export default async function ActivitiesPage({ searchParams }: any) {
   const cityData = slugifiedCityMap[citySlug];
   const defaultCityName = lang === "tr" ? "TÜRKİYE GENELİ" : "ALL OVER TURKEY";
   let cityNameForUI = cityData ? cityData.originalName.toLocaleUpperCase(lang === "tr" ? "tr-TR" : "en-US") : defaultCityName;
-  
+
   let initialEvents: any[] = [];
 
   try {
     const apiParams = new URLSearchParams();
-    
     if (cityData) {
       apiParams.append("city_ids", cityData.id.toString());
     } else {
@@ -107,24 +167,20 @@ export default async function ActivitiesPage({ searchParams }: any) {
       apiParams.append("city_ids", allCityIds);
     }
 
-    // 🔥 GÜNCELLEME: API Route'una (kendi iç API'ne) yeni isimlerle gönderiyoruz
     if (startDate) apiParams.append("start_gte", startDate);
     if (endDate) apiParams.append("end_lte", endDate);
     
-    apiParams.append("take", "50"); 
-    apiParams.append("skip", "0"); 
+    // 🔥 Eğer sadece konser isteniyorsa API'ye ona göre parametre ekleyebilirsin
+    // if (type === "concert") apiParams.append("category_ids", "1"); // Etkinlik.io'daki ID neyse
 
-    const domain = "www.waylero.com";
+    apiParams.append("take", "50");
+    apiParams.append("skip", "0");
 
-    // Kendi API Route'umuza istek atıyoruz
- const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.waylero.com";
+    const res = await fetch(`${baseUrl}/api/events?${apiParams.toString()}`, {
+      next: { revalidate: 3600 },
+    });
 
-const res = await fetch(
-  `${baseUrl}/api/events?${apiParams.toString()}`,
-  {
-    next: { revalidate: 3600 },
-  }
-);
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || data.data || [];
@@ -133,11 +189,19 @@ const res = await fetch(
     console.error("Fetch hatası:", err);
   }
 
+  const jsonLd = generateEventSchema(initialEvents, lang);
+
   return (
-    <ActivityList
-      initialEvents={initialEvents}
-      initialCityName={cityNameForUI}
-      lang={lang}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ActivityList
+        initialEvents={initialEvents}
+        initialCityName={cityNameForUI}
+        lang={lang}
+      />
+    </>
   );
 }

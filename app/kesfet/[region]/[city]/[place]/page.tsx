@@ -262,11 +262,10 @@ export default async function Page({ params }: { params: Promise<Params> }) {
     <div className="rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 h-[450px]">
      <iframe
   className="w-full h-full"
-  src={`https://maps.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&z=15&output=embed`}
+  src={`https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&hl=${lang}&z=15&output=embed`}
   style={{ border: 0 }}
   allowFullScreen
   loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
 />
     </div>
   </div>

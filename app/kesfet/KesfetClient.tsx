@@ -76,22 +76,24 @@ export default function KesfetClient({ lang: propLang }: any) {
   const { lang: contextLang } = useLang();
   const lang = propLang || contextLang || "tr";
 
-  const t = {
-    tr: {
-      title: "Dünyayı Keşfet",
-      subTitle: "Binlerce nokta, sınırsız macera.",
-      city: "Şehir",
-      point: "Nokta",
-      badge: "KEŞİF MODU",
-    },
-    en: {
-      title: "Explore World",
-      subTitle: "Thousands of spots, endless adventure.",
-      city: "City",
-      point: "Points",
-      badge: "EXPLORE MODE",
-    },
-  }[lang as "tr" | "en"];
+const t = {
+  tr: {
+    title: "Dünyayı Keşfet",
+    subTitle: "Binlerce nokta, sınırsız macera.",
+    city: "Şehir",
+    point: "Nokta",
+    badge: "KEŞİF MODU",
+    explore: "KEŞFET",
+  },
+  en: {
+    title: "Explore World",
+    subTitle: "Thousands of spots, endless adventure.",
+    city: "City",
+    point: "Points",
+    badge: "EXPLORE MODE",
+    explore: "EXPLORE",
+  },
+}[lang as "tr" | "en"];
 
   const getLocalizedLink = (path: string) =>
     lang === "tr" ? path : `/${lang}${path}`;
@@ -166,8 +168,8 @@ export default function KesfetClient({ lang: propLang }: any) {
                 <div className="flex items-end justify-between gap-4">
                   <div>
                     <p className="text-blue-400 text-[10px] font-black uppercase tracking-[0.3em] mb-2 drop-shadow-sm">
-                      EXPLORE
-                    </p>
+                      {t.explore}
+                      </p>
                     <h2 className="text-3xl md:text-4xl font-serif font-bold text-white tracking-tight leading-none group-hover:text-blue-200 transition-colors">
                       {getCountryName(slug)}
                     </h2>
