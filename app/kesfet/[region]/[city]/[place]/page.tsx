@@ -173,6 +173,7 @@ export default async function Page({ params }: { params: Promise<Params> }) {
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${lang === "en" ? "/en" : ""}/kesfet/${region}/${city}/${place}`;
 
+// Schema kısmını şu şekilde güncelle:
 const schema = {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
@@ -181,6 +182,12 @@ const schema = {
   description: foundPlace.description?.[lang],
   url: canonical,
   image: images?.[0] || `${BASE_URL}/og-default.jpg`,
+  // Yeni eklenen GEO alanı:
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: foundPlace.latitude,
+    longitude: foundPlace.longitude,
+  },
   address: {
     "@type": "PostalAddress",
     addressLocality: city,
