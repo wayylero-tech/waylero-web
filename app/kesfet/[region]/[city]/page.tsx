@@ -28,10 +28,6 @@ async function getLanguage() {
 
 const BASE_URL = "https://www.waylero.com";
 
-type Props = {
-  params: Promise<{ city: string }>;
-};
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { city } = await params;
   const lang = await getLanguage();
