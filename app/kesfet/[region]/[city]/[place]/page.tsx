@@ -173,28 +173,27 @@ export default async function Page({ params }: { params: Promise<Params> }) {
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${lang === "en" ? "/en" : ""}/kesfet/${region}/${city}/${place}`;
 
-// Schema kısmını şu şekilde güncelle:
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "TouristAttraction",
-  "@id": canonical,
-  name: foundPlace.name?.[lang],
-  description: foundPlace.description?.[lang],
-  url: canonical,
-  image: images?.[0] || `${BASE_URL}/og-default.jpg`,
-  // Yeni eklenen GEO alanı:
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: foundPlace.latitude,
-    longitude: foundPlace.longitude,
-  },
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: city,
-    addressRegion: region,
-    addressCountry: "TR",
-  },
-};
+// --- SCHEMA TANIMLAMASI ---
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "@id": canonical,
+    "name": foundPlace.name?.[lang],
+    "description": foundPlace.description?.[lang],
+    "url": canonical,
+    "image": (images?.[0] ? `${BASE_URL}/${images[0]}` : `${BASE_URL}/og-default.jpg`),
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": foundPlace.latitude,
+      "longitude": foundPlace.longitude
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": city,
+      "addressRegion": region,
+      "addressCountry": "TR"
+    }
+  };
   
   return (
     <main className="min-h-screen bg-white">
@@ -312,34 +311,35 @@ const schema = {
     </Link>
   </div>
 
-  {/* Nearby Places Card (Tek ve Doğru Hali) */}
-  <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
-    <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
-    <div className="space-y-6">
-       {nearbyPlaces.map((p: any) => (
-  <Link
-    key={p.slug}
-    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-    className="flex flex-col gap-1 group"
-  >
-    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors">
-      {p.name?.[lang]}
-    </span>
-    <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
-      {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
-    </span>
-  </Link>
+{/* Nearby Places Card */}
+            <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
+              <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
+              <div className="space-y-6">
+                {nearbyPlaces.map((p: any) => (
+                  <Link
+                    key={p.slug}
+                    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+                    className="flex flex-col gap-1 group"
+                  >
+                    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors">
+                      {p.name?.[lang]}
+                    </span>
+                    <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
+                      {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
+                    </span>
+                  </Link>
                 ))}
               </div>
             </div>
-
-            <script
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-            />
           </div>
         </div>
       </section>
+
+      {/* SEO SCHEMA - En alta temiz bir şekilde eklendi */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </main>
   );
 }
