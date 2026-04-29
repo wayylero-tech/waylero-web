@@ -26,16 +26,71 @@ async function getLanguage() {
   return "tr";
 }
 
+const BASE_URL = "https://www.waylero.com";
+
+type Props = {
+  params: Promise<{ city: string }>;
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { city } = await params;
   const lang = await getLanguage();
-  const cityName = city.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+
+  const cityName = city
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (l) => l.toUpperCase());
+
   const t = {
-    tr: { title: `${cityName} Gezilecek Yerler`, desc: `${cityName} için en iyi gezi rehberi.` },
-    en: { title: `Places to Visit in ${cityName}`, desc: `Best travel guide for ${cityName}.` },
+    tr: {
+      title: `${cityName} Gezilecek Yerler`,
+      desc: `${cityName} için en iyi gezi rehberi ve keşfedilecek yerler.`,
+    },
+    en: {
+      title: `Places to Visit in ${cityName}`,
+      desc: `Discover the best travel guide and attractions in ${cityName}.`,
+    },
   }[lang];
 
-  return { title: `${t.title} | Waylero`, description: t.desc };
+  const isEn = lang === "en";
+
+  const canonical = `${BASE_URL}${isEn ? "/en" : ""}/kesfet/${city}`;
+
+  return {
+    title: `${t.title} | Waylero`,
+    description: t.desc,
+
+    // 🔥 CANONICAL + HREFLANG
+    alternates: {
+      canonical,
+      languages: {
+        tr: `${BASE_URL}/kesfet/${city}`,
+        en: `${BASE_URL}/en/kesfet/${city}`,
+      },
+    },
+
+    // 🔥 OPEN GRAPH (WhatsApp, Facebook, LinkedIn)
+    openGraph: {
+      title: t.title,
+      description: t.desc,
+      url: canonical,
+      siteName: "Waylero",
+      type: "website",
+      locale: isEn ? "en_US" : "tr_TR",
+    },
+
+    // 🔥 TWITTER CARD
+    twitter: {
+      card: "summary_large_image",
+      title: t.title,
+      description: t.desc,
+    },
+
+    // 🔥 INDEX CONTROL
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }
 
 export default async function CityPage({ params }: Props) {
