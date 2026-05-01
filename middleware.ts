@@ -32,7 +32,7 @@ export function middleware(request: NextRequest) {
     const city = (slugToCityMap as any)[slug];
 
     if (city) {
-      const country = cityToCountryMap[city];
+     const country = (cityToCountryMap as Record<string, string>)[city];
       if (country) {
         const url = request.nextUrl.clone();
         url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
