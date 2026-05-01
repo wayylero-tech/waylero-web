@@ -32,12 +32,16 @@ export function middleware(request: NextRequest) {
     const city = (slugToCityMap as any)[slug];
 
     if (city) {
-     const country = (cityToCountryMap as Record<string, string>)[city];
+      const country = (cityToCountryMap as Record<string, string>)[city];
+      
       if (country) {
         const url = request.nextUrl.clone();
         url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
         url.search = search;
-        return NextResponse.redirect(url, 301);
+        
+        // Vercel'i yormaması için kalıcı yönlendirme (301)
+        const response = NextResponse.redirect(url, 301);
+        return response;
       }
     }
   }
@@ -51,7 +55,7 @@ export function middleware(request: NextRequest) {
   if (isKesfet && parts.length >= 4 + offset) {
     const regionInUrl = parts[2 + offset];
     const cityInUrl = sanitize(parts[3 + offset]);
-    const targetCountry = cityToCountryMap[cityInUrl];
+    const targetCountry = (cityToCountryMap as Record<string, string>)[cityInUrl];
 
     if (targetCountry && (regionInUrl === "turkey" || regionInUrl !== targetCountry)) {
       const url = request.nextUrl.clone();
@@ -59,7 +63,9 @@ export function middleware(request: NextRequest) {
       newParts[2 + offset] = targetCountry;
       url.pathname = newParts.join("/");
       url.search = search;
-      return NextResponse.redirect(url, 301);
+      
+      const response = NextResponse.redirect(url, 301);
+      return response;
     }
   }
 
@@ -67,9 +73,13 @@ export function middleware(request: NextRequest) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.replace(/^\/en/, "") || "/";
     url.search = search;
+    
     const response = NextResponse.rewrite(url, {
       request: { headers: requestHeaders },
     });
+    
+    // Önbellek başlıkları ve çerezler eklendi
+    response.headers.set('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=3600');
     response.cookies.set("lang", "en", { path: "/" });
     return response;
   }
@@ -77,6 +87,9 @@ export function middleware(request: NextRequest) {
   const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
+
+  // Önbellek başlıkları ve çerezler eklendi
+  response.headers.set('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=3600');
   response.cookies.set("lang", "tr", { path: "/" });
   return response;
 }
@@ -84,7 +97,7 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/",
-    "/:slug((?!_next|api|favicon|.*\\..*).*)", // Kök dizindeki her şeyi yakala ama statik dosyaları (resim/css) hariç tut
+    "/:slug((?!_next|api|favicon|.*\\..*).*)",
     "/kesfet/:path*",
     "/aktiviteler/:path*",
     "/etkinlikler/:path*",
