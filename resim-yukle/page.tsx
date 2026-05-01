@@ -1,99 +1,156 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { db } from "@/lib/firebase";
+import {
+  collection,
+  query,
+  getDocs,
+  orderBy,
+  addDoc,
+  serverTimestamp
+} from "firebase/firestore";
 
-export default function ResimYuklePage() {
-  const [urlInput, setUrlInput] = useState("");
-  const [cityName, setCityName] = useState("konya");
-  const [placeName, setPlaceName] = useState("");
-  const [loading, setLoading] = useState(false);
+export default function MediaView({ user }: any) {
+  const [images, setImages] = useState<any[]>([]);
+  const [status, setStatus] = useState("");
+  const [lastUploaded, setLastUploaded] = useState<string | null>(null);
 
-  const format = (text: string) =>
-    text
-      .toLowerCase()
-      .trim()
-      .replace(/\s+/g, "-");
+  const fetchImages = async () => {
+    try {
+      const q = query(collection(db, "media"), orderBy("createdAt", "desc"));
+      const snap = await getDocs(q);
 
-  const handleUpload = async () => {
-    if (!urlInput || !placeName) {
-      alert("Boş bırakma kanka");
+      setImages(
+        snap.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data()
+        }))
+      );
+    } catch (err) {
+      console.log("FETCH ERROR:", err);
+      setStatus("❌ Firestore veri çekme hatası");
+    }
+  };
+
+  useEffect(() => {
+    fetchImages();
+  }, []);
+
+  const openWidget = () => {
+    setStatus("⏳ Upload hazırlanıyor...");
+
+    // Cloudinary kontrol
+    // @ts-ignore
+    if (!window.cloudinary) {
+      setStatus("❌ Cloudinary script yüklenmemiş!");
+      alert("Cloudinary script ekli değil!");
       return;
     }
 
-    setLoading(true);
+    // @ts-ignore
+    const widget = window.cloudinary.createUploadWidget(
+      {
+        cloudName: "cloud_adin", // 🔴 değiştir
+        uploadPreset: "unsigned_preset", // 🔴 değiştir
+        folder: "waylero_blog",
+        multiple: false,
+        sources: ["local", "url", "camera"],
+      },
+      async (error: any, result: any) => {
+        console.log("UPLOAD DEBUG:", error, result);
 
-    try {
-      const city = format(cityName);
-      const place = format(placeName);
-
-      const res = await fetch(urlInput);
-      const blob = await res.blob();
-
-      const formData = new FormData();
-      formData.append("file", blob);
-      formData.append("upload_preset", "YOUR_UPLOAD_PRESET"); // 🔴 BURAYI DEĞİŞTİR
-      formData.append("folder", `places/${city}/${place}`);
-
-      const cloudRes = await fetch(
-        "https://api.cloudinary.com/v1_1/YOUR_CLOUD_NAME/image/upload", // 🔴 BURAYI DEĞİŞTİR
-        {
-          method: "POST",
-          body: formData,
+        if (error) {
+          setStatus("❌ Upload hatası");
+          return;
         }
-      );
 
-      const data = await cloudRes.json();
+        if (result?.event === "success") {
+          const url = result.info.secure_url;
 
-      console.log("✅ UPLOAD OK:", data.secure_url);
-      alert("Yüklendi ✅");
+          setLastUploaded(url);
+          setStatus("✅ Upload başarılı, kaydediliyor...");
 
-      setUrlInput("");
-      setPlaceName("");
-    } catch (err) {
-      console.log(err);
-      alert("Hata oldu kanka");
-    }
+          try {
+            await addDoc(collection(db, "media"), {
+              url,
+              createdAt: serverTimestamp(),
+              uploadedBy: user?.email || "anon"
+            });
 
-    setLoading(false);
+            setStatus("✅ Firestore'a kaydedildi");
+            fetchImages();
+          } catch (err) {
+            console.log("FIRESTORE ERROR:", err);
+            setStatus("❌ Firestore kayıt hatası");
+          }
+        }
+      }
+    );
+
+    widget.open();
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-white flex items-center justify-center">
-      <div className="bg-slate-800 p-8 rounded-2xl w-[400px] space-y-4">
+    <section className="space-y-6">
 
-        <h1 className="text-xl font-bold">
-          Cloudinary Resim Yükle ☁️
-        </h1>
+      {/* STATUS PANEL */}
+      <div className="p-4 bg-gray-900 rounded-xl border border-gray-800">
+        <p className="text-sm text-gray-300">{status}</p>
 
-        <input
-          className="w-full p-3 bg-slate-700 rounded"
-          placeholder="Şehir"
-          value={cityName}
-          onChange={(e) => setCityName(e.target.value)}
-        />
-
-        <input
-          className="w-full p-3 bg-slate-700 rounded"
-          placeholder="Mekan"
-          value={placeName}
-          onChange={(e) => setPlaceName(e.target.value)}
-        />
-
-        <input
-          className="w-full p-3 bg-slate-700 rounded"
-          placeholder="Image URL"
-          value={urlInput}
-          onChange={(e) => setUrlInput(e.target.value)}
-        />
-
-        <button
-          onClick={handleUpload}
-          disabled={loading}
-          className="w-full p-3 bg-emerald-600 rounded font-bold"
-        >
-          {loading ? "Yükleniyor..." : "Yükle"}
-        </button>
+        {lastUploaded && (
+          <div className="mt-3">
+            <p className="text-xs text-green-400">Son yüklenen:</p>
+            <a
+              href={lastUploaded}
+              target="_blank"
+              className="text-blue-400 text-xs break-all"
+            >
+              {lastUploaded}
+            </a>
+          </div>
+        )}
       </div>
-    </div>
+
+      {/* UPLOAD BUTTON */}
+      <button
+        onClick={openWidget}
+        className="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-bold"
+      >
+        + Resim Yükle
+      </button>
+
+      {/* GALLERY */}
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {images.map((img) => (
+          <div
+            key={img.id}
+            className="aspect-square bg-gray-800 rounded-2xl overflow-hidden relative group"
+          >
+            <img
+              src={img.url}
+              className="w-full h-full object-cover"
+              alt=""
+            />
+
+            <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+              <button
+                onClick={() => {
+                  navigator.clipboard.writeText(img.url);
+                  alert("URL kopyalandı");
+                }}
+                className="bg-white text-black px-3 py-1 text-xs rounded"
+              >
+                URL KOPYALA
+              </button>
+            </div>
+
+            <div className="absolute bottom-1 left-1 text-[10px] text-white bg-black/50 px-2 py-1 rounded">
+              {img.uploadedBy}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
