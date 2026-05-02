@@ -14,7 +14,7 @@ import {
 } from "firebase/firestore";
 
 
-export const revalidate = 60 * 60 * 24 * 14; // 14 gün
+export const dynamic = "force-dynamic";
 
 
 // URL ve Metin temizleme (Unicode ve % encoded karakterleri standardize eder)
