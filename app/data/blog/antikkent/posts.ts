@@ -12,13 +12,13 @@ export const antikkentPosts = [
       en: "Anatolia is home to some of the world's richest ancient cities with thousands of years of history. From Ephesus to Göbeklitepe, here are the most important ancient sites in Turkey."
     },
 
-    image: "/assets/blog/genel/antik-kentler/cover.png",
+    image: "/assets/genel/soli-pompeiopolis.webp",
 
     gallery: [
       "/assets/blog/genel/antik-kentler/cover.png",
-      "/assets/blog/genel/antik-kentler/2.png",
-      "/assets/blog/genel/antik-kentler/3.png",
-      "/assets/blog/genel/antik-kentler/4.png",
+      "/assets/genel/antik-kentler/2.png",
+      "/assets/genel/antik-kentler/3.png",
+      "/assets/genel/antik-kentler/4.png",
     ],
 
     date: "2026-02-11",

@@ -12,13 +12,12 @@ export const trekkingPosts = [
       en: "Stretching along Turkey’s southern coast, the Lycian Way is one of the world’s best trekking routes with ancient cities, turquoise bays, and mountain views."
     },
 
-    image: "/assets/blog/likya/cover.png",
+    image: "/assets/genel/myra1.webp",
 
     gallery: [
-      "/assets/blog/likya/1.png",
-      "/assets/blog/likya/2.png",
-      "/assets/blog/likya/3.png",
-      "/assets/blog/likya/cover.png",
+      "/assets/genel/likya.webp",
+      "/assets/genel/myra1.webp",
+      "/assets/genel/myra.webp",
     ],
 
     date: "2026-03-12",

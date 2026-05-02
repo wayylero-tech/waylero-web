@@ -87,6 +87,7 @@ export default async function CityPage({ params }: Props) {
       c.country.toLowerCase().replace(/ /g, "-") === country
   );
 
+  
   if (!city) return notFound();
 
   const name = city.names[lang] || city.names["tr"];

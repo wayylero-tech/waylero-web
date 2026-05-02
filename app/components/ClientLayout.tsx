@@ -125,7 +125,7 @@ useEffect(() => {
 
   <Link href={getLocalizedLink("/")}>
     <img
-      src="/assets/genel/logo.webp"
+      src="/assets/logo/logo.webp"
       width={224}
       height={56}
       className={`object-contain transition-all duration-300 ${
@@ -181,7 +181,7 @@ useEffect(() => {
     {/* 1. SOL TARAF: LOGO */}
     <div className="flex flex-col items-start min-w-[200px]">
       <img
-        src="/assets/genel/logo.webp"
+        src="/assets/logo/logo.webp"
         alt="Waylero Logo"
         width={180}
         height={45}
@@ -243,7 +243,7 @@ useEffect(() => {
               className="grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all"
             >
               <img
-                src="/assets/genel/etkinlikio.webp"
+                src="/assets/logo/etkinlikio.webp"
                 alt="Etkinlik.io"
                 width={100}
                 height={30}
@@ -268,7 +268,7 @@ useEffect(() => {
               className="grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all"
             >
               <img
-                src="/assets/genel/getyourguide.webp" 
+                src="/assets/logo/getyourguide.webp" 
                 alt="GetYourGuide"
                 width={110}
                 height={30}
@@ -315,7 +315,7 @@ useEffect(() => {
             className="hover:scale-110 transition-transform flex items-center"
           >
             <img
-              src={`/assets/genel/${img}`}
+              src={`/assets/logo/${img}`}
               width={24}
               height={24}
               alt={label}
@@ -341,7 +341,7 @@ useEffect(() => {
           className="hover:opacity-80 transition-opacity flex items-center"
         >
           <img
-            src="/assets/genel/google-play.webp"
+            src="/assets/logo/google-play.webp"
             width={140}
             height={42}
             alt="Google Play"
@@ -352,7 +352,7 @@ useEffect(() => {
 
         <div className="flex items-center opacity-40 grayscale">
           <img
-            src="/assets/genel/app-store.webp"
+            src="/assets/logo/app-store.webp"
             width={140}
             height={42}
             alt="App Store"
@@ -368,7 +368,7 @@ useEffect(() => {
   {/* LOGO */}
   <div className="flex items-start pt-1">
     <img
-      src="/assets/genel/logo-sag.webp"
+      src="/assets/logo/logo-sag.webp"
       width={180}
       height={144}
       alt="Waylero Logo"

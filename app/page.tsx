@@ -37,21 +37,21 @@ export default async function Page() {
   // 🔴 LOG: Terminalde (VsCode altında) gör diye
 
   const featuredCitiesRaw = [
-    { name: { tr: "İstanbul", en: "Istanbul" }, slug: "istanbul", country: "turkiye", image: "/assets/genel/istanbul.webp" },
-    { name: { tr: "Viyana", en: "Vienna" }, slug: "viyana", country: "avusturya", image: "/assets/genel/viyana.webp" },
-    { name: { tr: "Dubai", en: "Dubai" }, slug: "dubai", country: "bae", image: "/assets/genel/dubai.webp" },
-    { name: { tr: "New York", en: "New York" }, slug: "newyork", country: "amerika", image: "/assets/genel/new.webp" },
-    { name: { tr: "Pekin", en: "Beijing" }, slug: "pekin", country: "cin", image: "/assets/genel/pekin.webp" },
-    { name: { tr: "Paris", en: "Paris" }, slug: "paris", country: "fransa", image: "/assets/genel/paris.webp" },
-    { name: { tr: "Londra", en: "London" }, slug: "londra", country: "ingiltere", image: "/assets/genel/londra.webp" },
-    { name: { tr: "Antalya", en: "Antalya" }, slug: "antalya", country: "turkiye", image: "/assets/genel/antalya.webp" },
-    { name: { tr: "Tokyo", en: "Tokyo" }, slug: "tokyo", country: "japonya", image: "/assets/genel/tokyo.webp" },
-    { name: { tr: "Hong Kong", en: "Hong Kong" }, slug: "hongkong", country: "cin", image: "/assets/genel/hongkong.webp" },
-    { name: { tr: "Bangkok", en: "Bangkok" }, slug: "bangkok", country: "tayland", image: "/assets/genel/bangkok.webp" },
-    { name: { tr: "Singapur", en: "Singapore" }, slug: "singapur", country: "singapur", image: "/assets/genel/singapur.webp" },
-    { name: { tr: "Barselona", en: "Barcelona" }, slug: "barselona", country: "ispanya", image: "/assets/genel/barcelona.webp" },
-    { name: { tr: "Roma", en: "Rome" }, slug: "roma", country: "italya", image: "/assets/genel/roma.webp" },
-    { name: { tr: "Mekke", en: "Mecca" }, slug: "mekke", country: "suudi-arabistan", image: "/assets/genel/mekke.webp" },
+    { name: { tr: "İstanbul", en: "Istanbul" }, slug: "istanbul", country: "turkiye", image: "/assets/sehir/istanbul.webp" },
+    { name: { tr: "Viyana", en: "Vienna" }, slug: "viyana", country: "avusturya", image: "/assets/sehir/viyana.webp" },
+    { name: { tr: "Dubai", en: "Dubai" }, slug: "dubai", country: "bae", image: "/assets/sehir/dubai.webp" },
+    { name: { tr: "New York", en: "New York" }, slug: "newyork", country: "amerika", image: "/assets/sehir/new.webp" },
+    { name: { tr: "Pekin", en: "Beijing" }, slug: "pekin", country: "cin", image: "/assets/sehir/pekin.webp" },
+    { name: { tr: "Paris", en: "Paris" }, slug: "paris", country: "fransa", image: "/assets/sehir/paris.webp" },
+    { name: { tr: "Londra", en: "London" }, slug: "londra", country: "ingiltere", image: "/assets/sehir/londra.webp" },
+    { name: { tr: "Antalya", en: "Antalya" }, slug: "antalya", country: "turkiye", image: "/assets/sehir/antalya.webp" },
+    { name: { tr: "Tokyo", en: "Tokyo" }, slug: "tokyo", country: "japonya", image: "/assets/sehir/tokyo.webp" },
+    { name: { tr: "Hong Kong", en: "Hong Kong" }, slug: "hongkong", country: "cin", image: "/assets/sehir/hongkong.webp" },
+    { name: { tr: "Bangkok", en: "Bangkok" }, slug: "bangkok", country: "tayland", image: "/assets/sehir/bangkok.webp" },
+    { name: { tr: "Singapur", en: "Singapore" }, slug: "singapur", country: "singapur", image: "/assets/sehir/singapur.webp" },
+    { name: { tr: "Barselona", en: "Barcelona" }, slug: "barselona", country: "ispanya", image: "/assets/sehir/barselona.webp" },
+    { name: { tr: "Roma", en: "Rome" }, slug: "roma", country: "italya", image: "/assets/sehir/roma.webp" },
+    { name: { tr: "Mekke", en: "Mecca" }, slug: "mekke", country: "suudi-arabistan", image: "/assets/sehir/mekke.webp" },
   ];
 
   // 🟢 2. ŞEHİR İSİMLERİNİ DİNAMİK YAP (Burası eksikti)

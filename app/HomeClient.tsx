@@ -44,6 +44,20 @@ export default function HomeClient({
     return `/${lang}${path === "/" ? "" : path}`;
   };
 
+  const slugify = (text: string) =>
+  text
+    .toLowerCase()
+    .normalize("NFD") // 🔥 kritik
+    .replace(/[\u0300-\u036f]/g, "") // 🔥 combining karakterleri sil
+    .replace(/ç/g, "c")
+    .replace(/ğ/g, "g")
+    .replace(/ı/g, "i")
+    .replace(/ö/g, "o")
+    .replace(/ş/g, "s")
+    .replace(/ü/g, "u")
+    .replace(/\s+/g, "-");
+
+    
   // 🌍 Genişletilmiş Sözlük
   const t = {
     tr: {
@@ -260,24 +274,35 @@ export default function HomeClient({
       </div>
     </div>
 
-    {/* 🔵 SAĞ TARAF */}
-    <div className="flex flex-col gap-4">
-      
-      <div className="text-right w-full pr-2">
-         <h3 className="text-xl font-bold text-gray-800 tracking-tight uppercase">
-            {t.popularCities}
-         </h3>
-         <div className="w-12 h-1 bg-sky-500 mt-1 rounded-full ml-auto"></div>
-      </div>
+   {/* 🔵 SAĞ TARAF */}
+<div className="flex flex-col gap-4">
+  
+  <div className="text-right w-full pr-2">
+    <h3 className="text-xl font-bold text-gray-800 tracking-tight uppercase">
+      {t.popularCities}
+    </h3>
+    <div className="w-12 h-1 bg-sky-500 mt-1 rounded-full ml-auto"></div>
+  </div>
 
-      <div className="grid grid-cols-1 gap-6">
-        {/* ÜST SLIDER - [mask-image] eklendi */}
-        <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
-          <div className="flex scroll-left pause-slider gap-6 py-4">
-            {[...featuredCities.slice(0, 8), ...featuredCities.slice(0, 8)].map((c, i) => (
-              <div key={i} className="w-[180px] flex-shrink-0">
+  <div className="grid grid-cols-1 gap-6">
+
+    {/* 🔥 ÜST SLIDER */}
+    <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
+      <div className="flex scroll-left pause-slider gap-6 py-4">
+        {[...featuredCities.slice(0, 8), ...featuredCities.slice(0, 8)].map((c, i) => {
+          
+          const countrySlug = slugify(c.country);
+          const citySlug = slugify(c.name);
+
+          return (
+            <Link key={i} href={`/${countrySlug}/${citySlug}`}>
+              <div className="w-[180px] flex-shrink-0 cursor-pointer">
                 <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
-                  <img src={c.image} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt={c.name} />
+                  <img
+                    src={c.image}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    alt={c.name}
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="font-bold text-lg leading-tight">{c.name}</p>
@@ -287,31 +312,46 @@ export default function HomeClient({
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* ALT SLIDER - [mask-image] eklendi */}
-        <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
-          <div className="flex scroll-right pause-slider gap-6 py-4">
-            {[...featuredCities.slice(8, 15), ...featuredCities.slice(8, 15)].map((c, i) => (
-              <div key={i} className="w-[180px] flex-shrink-0">
-                <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
-                  <img src={c.image} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt={c.name} />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                  <div className="absolute bottom-4 left-4 text-white">
-                    <p className="font-bold text-lg leading-tight">{c.name}</p>
-                    <p className="text-[10px] opacity-70 mt-1 uppercase tracking-widest">
-                      {c.country.replace(/-/g, " ")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+            </Link>
+          );
+        })}
       </div>
     </div>
+
+    {/* 🔥 ALT SLIDER */}
+    <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
+      <div className="flex scroll-right pause-slider gap-6 py-4">
+        {[...featuredCities.slice(8, 15), ...featuredCities.slice(8, 15)].map((c, i) => {
+          
+          const countrySlug = slugify(c.country);
+          const citySlug = slugify(c.name);
+
+          return (
+            <Link key={i} href={`/${countrySlug}/${citySlug}`}>
+              <div className="w-[180px] flex-shrink-0 cursor-pointer">
+                <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
+                  <img
+                    src={c.image}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    alt={c.name}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <p className="font-bold text-lg leading-tight">{c.name}</p>
+                    <p className="text-[10px] opacity-70 mt-1 uppercase tracking-widest">
+                      {c.country.replace(/-/g, " ")}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+
+  </div>
+</div>
     
   </div>
 </section>

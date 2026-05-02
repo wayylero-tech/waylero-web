@@ -3,8 +3,8 @@ export const ihlaraRehberPost = [
     slug: "ihlara-vadisi-gezi-rehberi-2026",
 
     title: {
-      tr: "Ihlara Vadisi Gezi Rehberi: Pro Rotalar ve Giriş Stratejileri (2026)",
-      en: "Ihlara Valley Travel Guide: Pro Routes and Entry Strategies (2026)"
+      tr: "Ihlara Vadisi Gezi Rehberi: Rotalar ve Giriş Stratejileri (2026)",
+      en: "Ihlara Valley Travel Guide: Routes and Entry Strategies (2026)"
     },
 
     excerpt: {

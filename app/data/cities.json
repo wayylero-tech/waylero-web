@@ -3,9 +3,9 @@
   "slug": "istanbul",
   "region": "turkiye",
   "country": "turkiye",
-  "image": "/assets/genel/istanbul.webp",
+  "image": "/assets/sehir/istanbul.webp",
 "additionalImages": [
-    "/assets/genel/sultanahmet.webp"
+    "/assets/sehir/sultanahmet.webp"
 ],
   "names": {
     "tr": "İstanbul",
@@ -34,18 +34,16 @@
 }
 ,
   "gallery": [
-    "/assets/sehir/istanbul1.webp",
-    "/assets/sehir/istanbul2.webp"
-  ]
+      ]
 }
 ,
   {
   "slug": "viyana",
   "region": "avrupa",
   "country": "avusturya",
-  "image": "/assets/genel/viyana.webp",
+  "image": "/assets/sehir/viyana.webp",
 "additionalImages": [
-    "/assets/genel/viyana1.webp"
+    "/assets/sehir/viyana1.webp"
 ],
   "names": {
     "tr": "Viyana",
@@ -84,9 +82,9 @@
   "slug": "dubai",
   "region": "asya",
   "country": "bae",
-  "image": "/assets/genel/dubai.webp",
+  "image": "/assets/sehir/dubai.webp",
 "additionalImages": [
-    "/assets/genel/dubai1.webp"
+    "/assets/sehir/dubai1.webp"
 ],
   "names": {
     "tr": "Dubai",
@@ -125,9 +123,9 @@
   "slug": "newyork",
   "region": "amerika",
   "country": "amerika",
-  "image": "/assets/genel/new.webp",
+  "image": "/assets/sehir/new.webp",
 "additionalImages": [
-    "/assets/genel/new1.webp"
+    "/assets/sehir/new1.webp"
 ],
 
   "names": {
@@ -167,9 +165,9 @@
   "slug": "pekin",
   "region": "asya",
   "country": "cin",
-  "image": "/assets/genel/pekin.webp",
+  "image": "/assets/sehir/pekin.webp",
 "additionalImages": [
-    "/assets/genel/pekin1.webp"
+    "/assets/sehir/pekin1.webp"
 ],
 
   "names": {
@@ -209,9 +207,9 @@
   "slug": "paris",
   "region": "avrupa",
   "country": "fransa",
-  "image": "/assets/genel/paris.webp",
+  "image": "/assets/sehir/paris.webp",
 "additionalImages": [
-    "/assets/genel/paris1.webp"
+    "/assets/sehir/paris1.webp"
 ],
   "names": {
     "tr": "Paris",
@@ -250,7 +248,7 @@
   "slug": "londra",
   "region": "avrupa",
   "country": "ingiltere",
-  "image": "/assets/genel/londra.webp",
+  "image": "/assets/sehir/londra.webp",
 
   "names": {
     "tr": "Londra",
@@ -289,7 +287,10 @@
   "slug": "antalya",
   "region": "turkiye",
   "country": "turkiye",
-  "image": "/assets/genel/antalya.webp",
+  "image": "/assets/sehir/antalya.webp",
+"additionalImages": [
+    "/assets/sehir/antalya1.webp"
+],
 
   "names": {
     "tr": "Antalya",
@@ -328,7 +329,10 @@
   "slug": "tokyo",
   "region": "asya",
   "country": "japonya",
-  "image": "/assets/genel/tokyo.webp",
+  "image": "/assets/sehir/tokyo.webp",
+"additionalImages": [
+    "/assets/sehir/tokyo1.webp"
+],
 
   "names": {
     "tr": "Tokyo",
@@ -367,7 +371,10 @@
   "slug": "hongkong",
   "region": "asya",
   "country": "cin",
-  "image": "/assets/genel/hongkong.webp",
+  "image": "/assets/sehir/hongkong.webp",
+"additionalImages": [
+    "/assets/sehir/hongkong.webp"
+],
 
   "names": {
     "tr": "Hong Kong",
@@ -406,8 +413,10 @@
   "slug": "bangkok",
   "region": "asya",
   "country": "tayland",
-  "image": "/assets/genel/bangkok.webp",
-
+  "image": "/assets/sehir/bangkok.webp",
+"additionalImages": [
+    "/assets/sehir/bangkok1.webp"
+],
   "names": {
     "tr": "Bangkok",
     "en": "Bangkok"
@@ -445,7 +454,10 @@
   "slug": "singapur",
   "region": "asya",
   "country": "singapur",
-  "image": "/assets/genel/singapur.webp",
+  "image": "/assets/sehir/singapur.webp",
+"additionalImages": [
+    "/assets/sehir/singapur1.webp"
+],
   "names": {
     "tr": "Singapur",
     "en": "Singapore"
@@ -480,7 +492,10 @@
   "slug": "barselona",
   "region": "avrupa",
   "country": "ispanya",
-  "image": "/assets/genel/barcelona.webp",
+  "image": "/assets/sehir/barselona.webp",
+"additionalImages": [
+    "/assets/sehir/barselona1.webp"
+],
   "names": {
     "tr": "Barselona",
     "en": "Barcelona"
@@ -506,15 +521,18 @@
     "en": "Barcelona is Spain’s second-largest city and the capital of the Catalonia region on the Mediterranean coast. With its rich history, modern architecture, and vibrant social life, it is one of Europe’s most popular tourist destinations.\n\nOne of the city’s most iconic landmarks is La Sagrada Família, the masterpiece of renowned architect Antoni Gaudí. Its unique design and ongoing construction have made it a symbol of Barcelona. Other famous Gaudí works such as Park Güell, Casa Batlló, and Casa Milà (La Pedrera) are outstanding examples of the city’s modernist architecture.\n\nBarcelona’s historic districts are particularly impressive. Areas like the Gothic Quarter (Barri Gòtic) and El Raval feature narrow medieval streets, historic squares, and ancient buildings. La Rambla is the city’s most famous avenue, known for its lively atmosphere, shopping, street performers, and restaurants.\n\nThe city is also well known for its beaches. Barceloneta Beach, located close to the city center, is a favorite spot for both tourists and locals. Nearby coastal towns and natural parks offer great options for nature lovers.\n\nBarcelona provides excellent shopping opportunities. Passeig de Gràcia is home to luxury stores of world-famous brands, while areas like El Born and El Raval feature boutique shops and local designs.\n\nThe local cuisine is another highlight. Traditional Spanish and Catalan dishes such as tapas, paella, seafood, and crema catalana can be enjoyed throughout the city. La Boqueria Market is famous for its fresh produce and local food stalls.\n\nBarcelona’s nightlife is energetic and diverse. Nightclubs, bars, and beach parties attract visitors from all over the world. Districts like El Born and El Raval become lively in the evenings with cocktail bars and tapas restaurants.\n\nBarcelona is also recognized as a major sports city. Football is deeply rooted in local culture, and Camp Nou, the home stadium of FC Barcelona, is a must-visit attraction for football fans."
   },
   "gallery": [
-    "/assets/sehir/barcelona1.webp",
-    "/assets/sehir/barcelona2.webp"
+    "/assets/sehir/barselona1.webp",
+    "/assets/sehir/barselona2.webp"
   ]
 },
 {
   "slug": "roma",
   "region": "avrupa",
   "country": "italya",
-  "image": "/assets/genel/roma.webp",
+  "image": "/assets/sehir/roma.webp",
+"additionalImages": [
+    "/assets/sehir/roma1.webp"
+],
   "names": {
     "tr": "Roma",
     "en": "Rome"
@@ -547,7 +565,10 @@
 {
   "slug": "mekke",
   "region": "asya",
-   "image": "/assets/genel/mekke.webp",  
+   "image": "/assets/sehir/mekke.webp",  
+"additionalImages": [
+    "/assets/sehir/mekke1.webp"
+],
 "names": {
     "tr": "Mekke",
     "en": "Mecca"
