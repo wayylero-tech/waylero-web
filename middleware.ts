@@ -6,7 +6,7 @@ import rawCityToCountryMap from "./maps/city-to-country-map.json";
 
 const isProd = process.env.NODE_ENV === "production";
 
-// 🔧 SANITIZE
+// 🔧 SANITIZE - Middleware dışında kalsın
 const sanitize = (str: string) =>
   str
     .toLowerCase()
@@ -22,31 +22,25 @@ const sanitize = (str: string) =>
     .replace(/-+/g, "-")
     .replace(/^-+|-+$/g, "");
 
-// 🚀 MAPS
-const slugToCityMap = Object.fromEntries(
-  Object.entries(rawSlugToCityMap).map(([k, v]) => [
-    sanitize(k),
-    sanitize(v as string),
-  ])
-);
+// 🚀 MAPS - BURASI KRİTİK! 
+// Bu işlem Vercel instance'ı başladığında 1 kere yapılır.
+// Artık her istekte (request) binlerce satır dönmeyecek.
+const slugToCityMap: Record<string, string> = {};
+for (const [k, v] of Object.entries(rawSlugToCityMap)) {
+  slugToCityMap[sanitize(k)] = sanitize(v as string);
+}
 
-const cityToCountryMap = Object.fromEntries(
-  Object.entries(rawCityToCountryMap).map(([k, v]) => [
-    sanitize(k),
-    sanitize(v as string),
-  ])
-);
+const cityToCountryMap: Record<string, string> = {};
+for (const [k, v] of Object.entries(rawCityToCountryMap)) {
+  cityToCountryMap[sanitize(k)] = sanitize(v as string);
+}
 
-// 🤖 BOT DETECT
-const isGoogleBot = (ua: string) =>
-  /googlebot|bingbot|slurp|duckduckbot|baiduspider|google-inspectiontool/i.test(
-    ua.toLowerCase()
-  );
+// 🤖 BOT DETECT - Regex'leri dışarı aldık (CPU dostu)
+const GOOGLE_BOT_REGEX = /googlebot|bingbot|slurp|duckduckbot|baiduspider|google-inspectiontool/i;
+const BAD_BOT_REGEX = /curl|wget|python|scrapy|axios|httpclient|node-fetch|go-http|spider|crawler|bot/i;
 
-const isBadBot = (ua: string) =>
-  /curl|wget|python|scrapy|axios|httpclient|node-fetch|go-http|spider|crawler|bot/i.test(
-    ua.toLowerCase()
-  );
+const isGoogleBot = (ua: string) => GOOGLE_BOT_REGEX.test(ua);
+const isBadBot = (ua: string) => BAD_BOT_REGEX.test(ua);
 
 // 🌐 IP
 const getIP = (req: NextRequest) =>
@@ -57,7 +51,6 @@ const getIP = (req: NextRequest) =>
 // ⚡ RATE LIMIT
 const RATE_LIMIT = 60;
 const WINDOW = 10;
-
 const rateMap = new Map<string, { count: number; time: number }>();
 
 const isRateLimited = (ip: string) => {
@@ -75,6 +68,8 @@ const isRateLimited = (ip: string) => {
   }
 
   record.count++;
+  // Bellek temizliği: Map çok büyürse temizle (basit önlem)
+  if (rateMap.size > 5000) rateMap.clear(); 
   return record.count > RATE_LIMIT;
 };
 
@@ -98,16 +93,19 @@ const safeRedirect = (req: NextRequest, url: URL) => {
   return NextResponse.redirect(url, isProd ? 301 : 307);
 };
 
+// ---------------------------------------------------------
+// 🛠️ ACTUAL MIDDLEWARE
+// ---------------------------------------------------------
 export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") || "";
   const ip = getIP(request);
 
-  // 🔥 BOT PROTECTION (GOOGLE SAFE)
+  // 🔥 1. BOT PROTECTION (En hızlı kontrol)
   if (isBadBot(ua) && !isGoogleBot(ua)) {
     return new NextResponse("Blocked", { status: 403 });
   }
 
-  // ⚡ RATE LIMIT
+  // ⚡ 2. RATE LIMIT
   if (isProd && isRateLimited(ip)) {
     return new NextResponse("Too Many Requests", { status: 429 });
   }
@@ -115,26 +113,25 @@ export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname.replace(/\/$/, "") || "/";
   const { search } = request.nextUrl;
 
+  // 🚨 3. SUSPICIOUS
   if (isSuspiciousPath(pathname)) {
     return new NextResponse("Forbidden", { status: 403 });
   }
 
-  // 🌐 LANG DETECT
   const isEn = pathname === "/en" || pathname.startsWith("/en/");
   const segments = pathname.split("/").filter(Boolean);
   const offset = isEn ? 1 : 0;
-
   const isKesfet = segments[offset] === "kesfet";
 
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
 
-  // 🔥 SLUG → CITY → COUNTRY
+  // 🔥 4. SLUG → CITY → COUNTRY (Şimdi uçuyor 🚀)
   const slugSegment = isEn ? segments[1] : segments[0];
 
   if (!isKesfet && slugSegment && segments.length <= (isEn ? 2 : 1)) {
     const slug = sanitize(slugSegment);
-    const city = slugToCityMap[slug];
+    const city = slugToCityMap[slug]; // Direkt hafızadan okuyor
     const country = city ? cityToCountryMap[city] : undefined;
 
     if (city && country) {
@@ -145,7 +142,7 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // 🔥 KESFET LOGIC
+  // 🔥 5. KESFET LOGIC
   if (isKesfet && segments.length > 2 + offset) {
     const regionInUrl = sanitize(segments[1 + offset] || "");
     const cityInUrl = sanitize(segments[2 + offset] || "");
@@ -169,6 +166,7 @@ export function middleware(request: NextRequest) {
     const expectedCity = slugToCityMap[slugInUrl];
 
     if (slugInUrl && expectedCity && expectedCity !== cityInUrl) {
+      // Doğru slug'ı bul (Bu kısım nadir çalışır, CPU'yu üzmez)
       const correctSlug = Object.keys(slugToCityMap).find(
         (k) => slugToCityMap[k] === cityInUrl
       );
@@ -181,45 +179,19 @@ export function middleware(request: NextRequest) {
         url.search = search;
         return safeRedirect(request, url);
       }
-
       return new NextResponse(null, { status: 404 });
     }
   }
 
-  // 🌐 EN REWRITE
-  if (isEn) {
-    const url = request.nextUrl.clone();
-    url.pathname = pathname.replace(/^\/en/, "") || "/";
-    url.search = search;
+  // 🌐 6. FINAL RESPONSES
+  const res = isEn 
+    ? NextResponse.rewrite(new URL(pathname.replace(/^\/en/, "") || "/", request.url), { request: { headers: requestHeaders } })
+    : NextResponse.next({ request: { headers: requestHeaders } });
 
-    const res = NextResponse.rewrite(url, {
-      request: { headers: requestHeaders },
-    });
-
-    res.headers.set(
-      "Cache-Control",
-      "public, s-maxage=86400, stale-while-revalidate=3600"
-    );
-
-    if (!request.cookies.has("lang")) {
-      res.cookies.set("lang", "en", { path: "/" });
-    }
-
-    return res;
-  }
-
-  // 🌐 DEFAULT TR
-  const res = NextResponse.next({
-    request: { headers: requestHeaders },
-  });
-
-  res.headers.set(
-    "Cache-Control",
-    "public, s-maxage=86400, stale-while-revalidate=3600"
-  );
-
+  res.headers.set("Cache-Control", "public, s-maxage=86400, stale-while-revalidate=3600");
+  
   if (!request.cookies.has("lang")) {
-    res.cookies.set("lang", "tr", { path: "/" });
+    res.cookies.set("lang", isEn ? "en" : "tr", { path: "/" });
   }
 
   return res;
