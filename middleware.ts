@@ -1,124 +1,230 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import slugToCityMap from "./slug-city-map.json";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-// 🌐 Map dosyaları
-import cityToCountryMap from "./maps/city-to-country-map.json";
+import rawSlugToCityMap from "./slug-city-map.json";
+import rawCityToCountryMap from "./maps/city-to-country-map.json";
 
-// ✅ Type çıkarımı
-type CityToCountryMap = typeof cityToCountryMap;
+const isProd = process.env.NODE_ENV === "production";
 
 // 🔧 SANITIZE
 const sanitize = (str: string) =>
-  str.toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/ /g, "")
-    .replace(/ı/g, "i").replace(/ğ/g, "g")
-    .replace(/ü/g, "u").replace(/ş/g, "s")
-    .replace(/ö/g, "o").replace(/ç/g, "c");
+  str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ı/g, "i")
+    .replace(/ğ/g, "g")
+    .replace(/ü/g, "u")
+    .replace(/ş/g, "s")
+    .replace(/ö/g, "o")
+    .replace(/ç/g, "c")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+// 🚀 MAPS
+const slugToCityMap = Object.fromEntries(
+  Object.entries(rawSlugToCityMap).map(([k, v]) => [
+    sanitize(k),
+    sanitize(v as string),
+  ])
+);
+
+const cityToCountryMap = Object.fromEntries(
+  Object.entries(rawCityToCountryMap).map(([k, v]) => [
+    sanitize(k),
+    sanitize(v as string),
+  ])
+);
+
+// 🤖 BOT DETECT
+const isBadBot = (ua: string) =>
+  /bot|crawler|spider|scrapy|curl|wget|python|axios|httpclient|go-http|node-fetch/i.test(
+    ua
+  );
+
+// 🌐 IP
+const getIP = (req: NextRequest) =>
+  req.headers.get("x-forwarded-for")?.split(",")[0] ||
+  req.headers.get("x-real-ip") ||
+  "unknown";
+
+// ⚡ RATE LIMIT (lightweight burst protection)
+const RATE_LIMIT = 60;
+const WINDOW = 10;
+
+const rateMap = new Map<string, { count: number; time: number }>();
+
+const isRateLimited = (ip: string) => {
+  const now = Date.now();
+  const record = rateMap.get(ip);
+
+  if (!record) {
+    rateMap.set(ip, { count: 1, time: now });
+    return false;
+  }
+
+  if (now - record.time > WINDOW * 1000) {
+    rateMap.set(ip, { count: 1, time: now });
+    return false;
+  }
+
+  record.count++;
+
+  return record.count > RATE_LIMIT;
+};
+
+// 🚨 SUSPICIOUS PATH
+const isSuspiciousPath = (pathname: string) =>
+  pathname.includes(".php") ||
+  pathname.includes("wp-admin") ||
+  pathname.includes("wp-login") ||
+  pathname.includes(".env") ||
+  pathname.includes("config") ||
+  pathname.length > 200;
+
+// 🔁 SAFE REDIRECT
+const safeRedirect = (req: NextRequest, url: URL) => {
+  if (
+    req.nextUrl.pathname === url.pathname &&
+    req.nextUrl.search === url.search
+  ) {
+    return NextResponse.next();
+  }
+  return NextResponse.redirect(url, isProd ? 301 : 307);
+};
 
 export function middleware(request: NextRequest) {
-  const requestHeaders = new Headers(request.headers);
-  const { pathname, search } = request.nextUrl;
+  const ua = request.headers.get("user-agent") || "";
+  const ip = getIP(request);
 
-  const isEn = pathname.startsWith("/en");
-  const isKesfet = pathname.includes("/kesfet/");
-  const segments = pathname.split("/").filter(Boolean);
-
-  const slugSegment = isEn ? segments[1] : segments[0];
-
-  // 🔥 SLUG → CITY → COUNTRY REDIRECT
-  if (!isKesfet && slugSegment && segments.length === (isEn ? 2 : 1)) {
-    const slug = sanitize(slugSegment);
-
-    const city =
-      slug in slugToCityMap
-        ? (slugToCityMap as Record<string, string>)[slug]
-        : undefined;
-
-    if (city && city in cityToCountryMap) {
-      const country = cityToCountryMap[city as keyof CityToCountryMap];
-
-      if (country) {
-        const url = request.nextUrl.clone();
-        url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
-        url.search = search;
-
-        return NextResponse.redirect(url, 301);
-      }
-    }
+  // 🔥 SECURITY LAYER
+  if (isBadBot(ua)) {
+    return new NextResponse("Blocked", { status: 403 });
   }
 
-  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
-  requestHeaders.set("x-url", pathname + search);
+  if (isRateLimited(ip)) {
+    return new NextResponse("Too Many Requests", { status: 429 });
+  }
 
-  const parts = pathname.split("/");
+  const pathname = request.nextUrl.pathname.replace(/\/$/, "") || "/";
+  const { search } = request.nextUrl;
+
+  if (isSuspiciousPath(pathname)) {
+    return new NextResponse("Forbidden", { status: 403 });
+  }
+
+  // 🌐 LANG DETECT
+  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+  const segments = pathname.split("/").filter(Boolean);
   const offset = isEn ? 1 : 0;
 
-  // 🔥 URL FIX (yanlış country varsa düzelt)
-  if (isKesfet && parts.length >= 4 + offset) {
-    const regionInUrl = parts[2 + offset];
-    const cityInUrl = sanitize(parts[3 + offset]);
+  const isKesfet = segments[offset] === "kesfet";
 
-    const targetCountry =
-      cityInUrl in cityToCountryMap
-        ? cityToCountryMap[cityInUrl as keyof CityToCountryMap]
-        : undefined;
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
 
-    if (targetCountry && regionInUrl !== targetCountry) {
+  // 🔥 SLUG → CITY → COUNTRY
+  const slugSegment = isEn ? segments[1] : segments[0];
+
+  if (!isKesfet && slugSegment && segments.length <= (isEn ? 2 : 1)) {
+    const slug = sanitize(slugSegment);
+    const city = slugToCityMap[slug];
+    const country = city ? cityToCountryMap[city] : undefined;
+
+    if (city && country) {
       const url = request.nextUrl.clone();
-      const newParts = [...parts];
-      newParts[2 + offset] = targetCountry;
-
-      url.pathname = newParts.join("/");
+      url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
       url.search = search;
-
-      return NextResponse.redirect(url, 301);
+      return safeRedirect(request, url);
     }
   }
 
-  // 🌐 EN rewrite
+  // 🔥 KESFET LOGIC
+  if (isKesfet && segments.length > 2 + offset) {
+    const regionInUrl = sanitize(segments[1 + offset] || "");
+    const cityInUrl = sanitize(segments[2 + offset] || "");
+    const slugInUrl = sanitize(segments[3 + offset] || "");
+
+    const targetCountry = cityToCountryMap[cityInUrl];
+
+    // ❌ invalid city
+    if (!targetCountry) {
+      return new NextResponse(null, { status: 404 });
+    }
+
+    // 🔁 wrong country
+    if (regionInUrl !== targetCountry) {
+      const url = request.nextUrl.clone();
+      const newSegments = [...segments];
+      newSegments[1 + offset] = targetCountry;
+      url.pathname = "/" + newSegments.join("/");
+      url.search = search;
+      return safeRedirect(request, url);
+    }
+
+    // 🔁 wrong slug → fix
+    const expectedCity = slugToCityMap[slugInUrl];
+
+    if (slugInUrl && expectedCity && expectedCity !== cityInUrl) {
+      const correctSlug = Object.keys(slugToCityMap).find(
+        (k) => slugToCityMap[k] === cityInUrl
+      );
+
+      if (correctSlug) {
+        const url = request.nextUrl.clone();
+        const newSegments = [...segments];
+        newSegments[3 + offset] = correctSlug;
+        url.pathname = "/" + newSegments.join("/");
+        url.search = search;
+        return safeRedirect(request, url);
+      }
+
+      return new NextResponse(null, { status: 404 });
+    }
+  }
+
+  // 🌐 EN REWRITE
   if (isEn) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.replace(/^\/en/, "") || "/";
     url.search = search;
 
-    const response = NextResponse.rewrite(url, {
+    const res = NextResponse.rewrite(url, {
       request: { headers: requestHeaders },
     });
 
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=86400, stale-while-revalidate=3600'
+    res.headers.set(
+      "Cache-Control",
+      "public, s-maxage=86400, stale-while-revalidate=3600"
     );
-    response.cookies.set("lang", "en", { path: "/" });
 
-    return response;
+    if (!request.cookies.has("lang")) {
+      res.cookies.set("lang", "en", { path: "/" });
+    }
+
+    return res;
   }
 
-  // 🌐 DEFAULT (TR)
-  const response = NextResponse.next({
+  // 🌐 DEFAULT TR
+  const res = NextResponse.next({
     request: { headers: requestHeaders },
   });
 
-  response.headers.set(
-    'Cache-Control',
-    'public, s-maxage=86400, stale-while-revalidate=3600'
+  res.headers.set(
+    "Cache-Control",
+    "public, s-maxage=86400, stale-while-revalidate=3600"
   );
-  response.cookies.set("lang", "tr", { path: "/" });
 
-  return response;
+  if (!request.cookies.has("lang")) {
+    res.cookies.set("lang", "tr", { path: "/" });
+  }
+
+  return res;
 }
 
 export const config = {
   matcher: [
-    "/",
-    "/:slug((?!_next|api|favicon|.*\\..*).*)",
-    "/kesfet/:path*",
-    "/aktiviteler/:path*",
-    "/etkinlikler/:path*",
-    "/blog/:path*",
-    "/en/:path*",
-    "/tr/:path*",
+    "/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

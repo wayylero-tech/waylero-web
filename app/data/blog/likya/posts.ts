@@ -15,7 +15,7 @@ export const trekkingPosts = [
     image: "/assets/genel/myra1.webp",
 
     gallery: [
-      "/assets/genel/likya.webp",
+     
       "/assets/genel/myra1.webp",
       "/assets/genel/myra.webp",
     ],

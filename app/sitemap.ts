@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
 import cities from "@/app/data/cities.json";
+import toursData from "@/data/tours.json";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
 
 const baseUrl = "https://www.waylero.com";
@@ -73,11 +74,11 @@ const manualBlogPosts = [
   { category: "spain", slug: "ispanya-4-gunluk-gezi-plani-barselona-madrid" },
   { category: "nevsehir", slug: "kapadokya-gezilecek-yerler-rehberi" },
   { category: "nevsehir", slug: "kapadokya-2-gunluk-gezi-plani" },
-  { category: "akdeniz", slug: "turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi" },
-  { category: "ege", slug: "turkiyede-gezilecek-yerler-2026-ege" },
-  { category: "marmara", slug: "turkiyede-gezilecek-yerler-2026-marmara" },
+  { category: "akdeniz", slug: "turkiyede-gezilecek-yerler-rehberi-2026-akdeniz-bolgesi" },
+  { category: "ege", slug: "turkiyede-gezilecek-yerler-rehberi-2026-ege" },
+  { category: "marmara", slug: "turkiyede-gezilecek-yerler-rehberi-2026-marmara" },
   { category: "ic-anadolu", slug: "turkiyede-gezilecek-yerler-2026-ic-anadolu" },
-  { category: "karadeniz", slug: "turkiyede-gezilecek-yerler-2026-karadeniz" },
+  { category: "karadeniz", slug: "turkiyede-gezilecek-yerler-rehberi-2026-karadeniz" },
   { category: "dogu-anadolu", slug: "turkiyede-gezilecek-yerler-2026-dogu-anadolu" },
   { category: "guneydogu-anadolu", slug: "turkiyede-gezilecek-yerler-2026-guneydogu-anadolu" },
   { category: "konya", slug: "catalhoyuk-gezi-rehberi-2026" }
@@ -93,6 +94,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/kesfet", priority: 0.95 },
     { url: "/aktiviteler", priority: 0.9 },
     { url: "/videolar", priority: 0.9 },
+    { url: "/etkinlikler", priority: 0.9 }, // Etkinlikler Ana Sayfası
   ];
 
   staticPages.forEach((page) => {
@@ -136,6 +138,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: buildUrl(baseUrl, `/aktiviteler?city=${city}`, locale),
         lastModified: now,
         priority: 0.7,
+      });
+    });
+  });
+
+  // EVENT CITIES (Dinamik Etkinlik Şehirleri)
+  const eventCities = Array.from(new Set(toursData.map((t: any) => t.city?.toLowerCase()))).filter(Boolean);
+
+  eventCities.forEach((city) => {
+    locales.forEach((locale) => {
+      entries.push({
+        url: buildUrl(baseUrl, `/etkinlikler/${city}`, locale),
+        lastModified: now,
+        priority: 0.75,
       });
     });
   });

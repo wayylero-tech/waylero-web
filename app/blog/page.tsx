@@ -1,29 +1,12 @@
 // @/app/blog/page.tsx (veya ilgili sayfanız)
 import BlogClient from "./BlogClient";
 import { headers } from "next/headers";
-import { db } from "@/lib/firebase"; // Firebase yapılandırman
-import { collection, getDocs, query, orderBy } from "firebase/firestore";
-import { cache } from "react";
+import { allPosts } from "@/lib/blog/posts";
 
 
+export const dynamic = "force-static";
 
-export const dynamic = "force-dynamic";
 
-const getFirebasePosts = cache(async () => {
-  try {
-    const blogsRef = collection(db, "blogs");
-    const q = query(blogsRef, orderBy("createdAt", "desc"));
-    const querySnapshot = await getDocs(q);
-    
-    return querySnapshot.docs.map(doc => ({
-      id: doc.id,
-      ...doc.data()
-    }));
-  } catch (error) {
-    console.error("Firebase veri çekme hatası:", error);
-    return [];
-  }
-});
 
 export async function generateMetadata() {
   const headerList = await headers(); 
@@ -59,7 +42,7 @@ export default async function Page() {
   const lang = (headerList.get("x-url-lang") === "en" ? "en" : "tr") as "tr" | "en";
 
   // Veriyi Firebase'den çekiyoruz
-  const posts = await getFirebasePosts();
+  const posts = allPosts;
 
   return <BlogClient posts={posts as any} currentLang={lang} />;
 }

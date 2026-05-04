@@ -15,10 +15,9 @@ export const antikkentPosts = [
     image: "/assets/genel/soli-pompeiopolis.webp",
 
     gallery: [
-      "/assets/blog/genel/antik-kentler/cover.png",
-      "/assets/genel/antik-kentler/2.png",
-      "/assets/genel/antik-kentler/3.png",
-      "/assets/genel/antik-kentler/4.png",
+      "/assets/genel/efes.webp",
+      "/assets/genel/gobeklitepe.webp",
+      "/assets/genel/aspendos.webp",
     ],
 
     date: "2026-02-11",
