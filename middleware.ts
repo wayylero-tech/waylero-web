@@ -38,9 +38,14 @@ const cityToCountryMap = Object.fromEntries(
 );
 
 // 🤖 BOT DETECT
+const isGoogleBot = (ua: string) =>
+  /googlebot|bingbot|slurp|duckduckbot|baiduspider|google-inspectiontool/i.test(
+    ua.toLowerCase()
+  );
+
 const isBadBot = (ua: string) =>
-  /bot|crawler|spider|scrapy|curl|wget|python|axios|httpclient|go-http|node-fetch/i.test(
-    ua
+  /curl|wget|python|scrapy|axios|httpclient|node-fetch|go-http|spider|crawler|bot/i.test(
+    ua.toLowerCase()
   );
 
 // 🌐 IP
@@ -49,7 +54,7 @@ const getIP = (req: NextRequest) =>
   req.headers.get("x-real-ip") ||
   "unknown";
 
-// ⚡ RATE LIMIT (lightweight burst protection)
+// ⚡ RATE LIMIT
 const RATE_LIMIT = 60;
 const WINDOW = 10;
 
@@ -70,7 +75,6 @@ const isRateLimited = (ip: string) => {
   }
 
   record.count++;
-
   return record.count > RATE_LIMIT;
 };
 
@@ -98,12 +102,13 @@ export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") || "";
   const ip = getIP(request);
 
-  // 🔥 SECURITY LAYER
-  if (isBadBot(ua)) {
+  // 🔥 BOT PROTECTION (GOOGLE SAFE)
+  if (isBadBot(ua) && !isGoogleBot(ua)) {
     return new NextResponse("Blocked", { status: 403 });
   }
 
-  if (isRateLimited(ip)) {
+  // ⚡ RATE LIMIT
+  if (isProd && isRateLimited(ip)) {
     return new NextResponse("Too Many Requests", { status: 429 });
   }
 
@@ -148,12 +153,10 @@ export function middleware(request: NextRequest) {
 
     const targetCountry = cityToCountryMap[cityInUrl];
 
-    // ❌ invalid city
     if (!targetCountry) {
       return new NextResponse(null, { status: 404 });
     }
 
-    // 🔁 wrong country
     if (regionInUrl !== targetCountry) {
       const url = request.nextUrl.clone();
       const newSegments = [...segments];
@@ -163,7 +166,6 @@ export function middleware(request: NextRequest) {
       return safeRedirect(request, url);
     }
 
-    // 🔁 wrong slug → fix
     const expectedCity = slugToCityMap[slugInUrl];
 
     if (slugInUrl && expectedCity && expectedCity !== cityInUrl) {
