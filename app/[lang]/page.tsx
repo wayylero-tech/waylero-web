@@ -121,20 +121,21 @@ export default async function Page(
 
   const videos = wayleroLiveVideos.slice(0, 6);
 
-  let events: any[] = [];
-  try {
-    // API isteğini direkt baseUrl üzerinden atıyoruz
-    const res = await fetch(
-      `${baseUrl}/api/events?take=4&city_ids=40&lang=${lang}`,
-      { next: { revalidate: 3600 } }
-    );
-    if (res.ok) {
-      const data = await res.json();
-      events = data?.items || [];
-    }
-  } catch (err) {
-    console.error("EVENT FETCH ERROR:", err);
+
+let events: any[] = [];
+try {
+  const res = await fetch(
+    `${baseUrl}/api/events?take=4&city_ids=40&lang=${lang}`,
+    { next: { revalidate: 3600 } }
+  );
+  
+  if (res.ok) {
+    const data = await res.json();
+    events = data?.items || [];
   }
+} catch (err) {
+  console.error("EVENT FETCH ERROR:", err);
+}
 
   return (
     <HomeClient

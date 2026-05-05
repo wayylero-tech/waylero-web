@@ -131,7 +131,7 @@ export default async function ActivitiesPage({
     apiParams.append("lang", currentLang);
 
     // ✅ Lokalde çalıştığını algılayıp `http://localhost:3000/api/...` isteği atmasını sağlıyoruz
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${process.env.VERCEL_URL}`;
     const finalUrl = `${baseUrl}/api/events?${apiParams.toString()}`;
 
     const res = await fetch(finalUrl, {
