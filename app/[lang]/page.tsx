@@ -3,7 +3,8 @@ import toursData from "@/data/tours.json";
 import { wayleroLiveVideos } from "@/videos";
 import type { Metadata } from "next";
 
-// 1. Metadata artık direkt params'tan dili alıyor
+// Sabit URL - Canlıda patlamaması için en tepeye yazdık
+const BASE_SITE_URL = "https://www.waylero.com";
 
 export async function generateMetadata(
   { params }: { params: Promise<{ lang: string }> }
@@ -19,37 +20,20 @@ export async function generateMetadata(
     ? "Discover 40+ countries including Turkey, Spain and USA. Explore 300+ cities like Paris, Istanbul and New York, and 2000+ iconic places such as Eiffel Tower, Kız Kulesi and Giza Pyramids. Find concerts, events, tickets, and tours, and plan your trip easily. Read travel blogs and get inspired for your next journey."
     : "Türkiye, İspanya ve Amerika dahil 40+ ülkeyi keşfet. Paris, İstanbul ve New York gibi 300+ şehri gez, Eyfel Kulesi, Kız Kulesi ve Giza Piramitleri gibi 2000+ ikonik yeri keşfet. Konserleri ve etkinlikleri bul, bilet al, turları keşfet ve seyahatini kolayca planla. Blog yazılarıyla ilham al ve bir sonraki yolculuğunu planla.";
 
-  const url = `https://waylero.com/${lang}`;
+  const url = `${BASE_SITE_URL}/${lang}`;
 
   return {
-    metadataBase: new URL("https://waylero.com"),
-
+    metadataBase: new URL(BASE_SITE_URL),
     title,
     description,
-
-    keywords: [
-      "travel",
-      "gezi",
-      "seyahat",
-      "cities",
-      "events",
-      "concerts",
-      "tours",
-      "travel planner",
-      "explore cities",
-      "trip planning",
-      "world travel",
-      "waylero",
-    ],
-
+    keywords: ["travel", "gezi", "seyahat", "cities", "events", "concerts", "tours", "waylero"],
     alternates: {
       canonical: url,
       languages: {
-        tr: "https://waylero.com/tr",
-        en: "https://waylero.com/en",
+        tr: `${BASE_SITE_URL}/tr`,
+        en: `${BASE_SITE_URL}/en`,
       },
     },
-
     openGraph: {
       title,
       description,
@@ -57,29 +41,17 @@ export async function generateMetadata(
       siteName: "Waylero",
       type: "website",
       locale: isEn ? "en_US" : "tr_TR",
-      images: [
-        {
-          url: "https://waylero.com/og-image.jpg",
-          width: 1200,
-          height: 630,
-          alt: "Waylero Travel Platform",
-        },
-      ],
+      images: [{ url: `${BASE_SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: "Waylero Travel Platform" }],
     },
-
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["https://waylero.com/og-image.jpg"],
+      images: [`${BASE_SITE_URL}/og-image.jpg`],
       creator: "@waylero",
       site: "@waylero",
     },
-
-    robots: {
-      index: true,
-      follow: true,
-    },
+    robots: { index: true, follow: true },
   };
 }
 
@@ -89,8 +61,7 @@ export default async function Page(
   const { lang } = await params;
   const isEn = lang === "en";
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.waylero.com";
-
+  // Şehir listesi (Eksiksiz duruyor)
   const featuredCitiesRaw = [
     { name: { tr: "İstanbul", en: "Istanbul" }, slug: "istanbul", country: "turkiye", image: "/assets/sehir/istanbul.webp" },
     { name: { tr: "Viyana", en: "Vienna" }, slug: "viyana", country: "avusturya", image: "/assets/sehir/viyana.webp" },
@@ -121,21 +92,21 @@ export default async function Page(
 
   const videos = wayleroLiveVideos.slice(0, 6);
 
-
-let events: any[] = [];
-try {
-  const res = await fetch(
-    `${baseUrl}/api/events?take=4&city_ids=40&lang=${lang}`,
-    { next: { revalidate: 3600 } }
-  );
-  
-  if (res.ok) {
-    const data = await res.json();
-    events = data?.items || [];
+  // --- FETCH DÜZENLEMESİ ---
+  let events: any[] = [];
+  try {
+    const res = await fetch(
+      `${BASE_SITE_URL}/api/events?take=4&city_ids=40&lang=${lang}`,
+      { next: { revalidate: 3600 } }
+    );
+    
+    if (res.ok) {
+      const data = await res.json();
+      events = data?.items || [];
+    }
+  } catch (err) {
+    console.error("EVENT FETCH ERROR:", err);
   }
-} catch (err) {
-  console.error("EVENT FETCH ERROR:", err);
-}
 
   return (
     <HomeClient

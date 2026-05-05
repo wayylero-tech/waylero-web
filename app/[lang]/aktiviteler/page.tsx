@@ -1,8 +1,10 @@
 import { Metadata } from "next";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
-import { Suspense } from 'react'; // Bunu eklemeyi unutma
+import { Suspense } from 'react';
 
+// Sabit URL - Canlıda patlamaması için direkt buraya yazdık
+const BASE_SITE_URL = "https://www.waylero.com";
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -19,45 +21,29 @@ function slugify(text: string) {
     .trim();
 }
 
-export async function generateMetadata({
-  params
-}: {
-  params: Promise<{ lang: string }>
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   const currentLang = (lang === "en" ? "en" : "tr") as "tr" | "en";
 
   const t = {
-    tr: {
-      title: "Türkiye Etkinlik Rehberi | Waylero",
-      desc: "Türkiye genelindeki en güncel konserler ve etkinlikler Waylero'da."
-    },
-    en: {
-      title: "Events in Turkey Guide | Waylero",
-      desc: "Discover the latest concerts and events in Turkey on Waylero."
-    }
+    tr: { title: "Türkiye Etkinlik Rehberi | Waylero", desc: "Türkiye genelindeki en güncel konserler ve etkinlikler Waylero'da." },
+    en: { title: "Events in Turkey Guide | Waylero", desc: "Discover the latest concerts and events in Turkey on Waylero." }
   }[currentLang];
 
-  const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-
   const path = "/aktiviteler";
-  const fullUrl = `${baseUrl}/${currentLang}${path}`;
-
-  const image = `${baseUrl}/og/events.jpg`;
+  const fullUrl = `${BASE_SITE_URL}/${currentLang}${path}`;
+  const image = `${BASE_SITE_URL}/og/events.jpg`;
 
   return {
     title: t.title,
     description: t.desc,
-
     alternates: {
       canonical: fullUrl,
       languages: {
-        "tr-TR": `${baseUrl}/tr${path}`,
-        "en-US": `${baseUrl}/en${path}`,
+        "tr-TR": `${BASE_SITE_URL}/tr${path}`,
+        "en-US": `${BASE_SITE_URL}/en${path}`,
       },
     },
-
     openGraph: {
       title: t.title,
       description: t.desc,
@@ -65,16 +51,8 @@ export async function generateMetadata({
       siteName: "Waylero",
       type: "website",
       locale: currentLang === "en" ? "en_US" : "tr_TR",
-      images: [
-        {
-          url: image,
-          width: 1200,
-          height: 630,
-          alt: t.title,
-        },
-      ],
+      images: [{ url: image, width: 1200, height: 630, alt: t.title }],
     },
-
     twitter: {
       card: "summary_large_image",
       title: t.title,
@@ -82,20 +60,10 @@ export async function generateMetadata({
       images: [image],
       creator: "@waylero",
     },
-
-    other: {
-      "theme-color": "#000000",
-    },
   };
 }
 
-export default async function ActivitiesPage({ 
-  params, 
-  searchParams 
-}: { 
-  params: Promise<{ lang: string }>, 
-  searchParams: Promise<any> 
-}) {
+export default async function ActivitiesPage({ params, searchParams }: { params: Promise<{ lang: string }>, searchParams: Promise<any> }) {
   const { lang } = await params;
   const currentLang = (lang === "en" ? "en" : "tr") as "tr" | "en";
   
@@ -130,9 +98,8 @@ export default async function ActivitiesPage({
     apiParams.append("take", "50");
     apiParams.append("lang", currentLang);
 
-    // ✅ Lokalde çalıştığını algılayıp `http://localhost:3000/api/...` isteği atmasını sağlıyoruz
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${process.env.VERCEL_URL}`;
-    const finalUrl = `${baseUrl}/api/events?${apiParams.toString()}`;
+    // Canlı site API adresi
+    const finalUrl = `${BASE_SITE_URL}/api/events?${apiParams.toString()}`;
 
     const res = await fetch(finalUrl, {
       next: { revalidate: 3600 },
@@ -143,7 +110,7 @@ export default async function ActivitiesPage({
       initialEvents = data.items || data.data || (Array.isArray(data) ? data : []);
     }
   } catch (err) {
-    console.error("Lokal Fetch Hatası:", err);
+    console.error("FETCH HATASI:", err);
   }
 
   return (
