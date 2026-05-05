@@ -3,8 +3,7 @@ import toursData from "@/data/tours.json";
 import { wayleroLiveVideos } from "@/videos";
 import type { Metadata } from "next";
 
-// Sabit URL - Canlıda patlamaması için en tepeye yazdık
-const BASE_SITE_URL = "https://www.waylero.com";
+// 1. Metadata artık direkt params'tan dili alıyor
 
 export async function generateMetadata(
   { params }: { params: Promise<{ lang: string }> }
@@ -20,20 +19,37 @@ export async function generateMetadata(
     ? "Discover 40+ countries including Turkey, Spain and USA. Explore 300+ cities like Paris, Istanbul and New York, and 2000+ iconic places such as Eiffel Tower, Kız Kulesi and Giza Pyramids. Find concerts, events, tickets, and tours, and plan your trip easily. Read travel blogs and get inspired for your next journey."
     : "Türkiye, İspanya ve Amerika dahil 40+ ülkeyi keşfet. Paris, İstanbul ve New York gibi 300+ şehri gez, Eyfel Kulesi, Kız Kulesi ve Giza Piramitleri gibi 2000+ ikonik yeri keşfet. Konserleri ve etkinlikleri bul, bilet al, turları keşfet ve seyahatini kolayca planla. Blog yazılarıyla ilham al ve bir sonraki yolculuğunu planla.";
 
-  const url = `${BASE_SITE_URL}/${lang}`;
+  const url = `https://waylero.com/${lang}`;
 
   return {
-    metadataBase: new URL(BASE_SITE_URL),
+    metadataBase: new URL("https://waylero.com"),
+
     title,
     description,
-    keywords: ["travel", "gezi", "seyahat", "cities", "events", "concerts", "tours", "waylero"],
+
+    keywords: [
+      "travel",
+      "gezi",
+      "seyahat",
+      "cities",
+      "events",
+      "concerts",
+      "tours",
+      "travel planner",
+      "explore cities",
+      "trip planning",
+      "world travel",
+      "waylero",
+    ],
+
     alternates: {
       canonical: url,
       languages: {
-        tr: `${BASE_SITE_URL}/tr`,
-        en: `${BASE_SITE_URL}/en`,
+        tr: "https://waylero.com/tr",
+        en: "https://waylero.com/en",
       },
     },
+
     openGraph: {
       title,
       description,
@@ -41,17 +57,29 @@ export async function generateMetadata(
       siteName: "Waylero",
       type: "website",
       locale: isEn ? "en_US" : "tr_TR",
-      images: [{ url: `${BASE_SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: "Waylero Travel Platform" }],
+      images: [
+        {
+          url: "https://waylero.com/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Waylero Travel Platform",
+        },
+      ],
     },
+
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [`${BASE_SITE_URL}/og-image.jpg`],
+      images: ["https://waylero.com/og-image.jpg"],
       creator: "@waylero",
       site: "@waylero",
     },
-    robots: { index: true, follow: true },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 
@@ -61,7 +89,8 @@ export default async function Page(
   const { lang } = await params;
   const isEn = lang === "en";
 
-  // Şehir listesi (Eksiksiz duruyor)
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.waylero.com";
+
   const featuredCitiesRaw = [
     { name: { tr: "İstanbul", en: "Istanbul" }, slug: "istanbul", country: "turkiye", image: "/assets/sehir/istanbul.webp" },
     { name: { tr: "Viyana", en: "Vienna" }, slug: "viyana", country: "avusturya", image: "/assets/sehir/viyana.webp" },
@@ -92,14 +121,13 @@ export default async function Page(
 
   const videos = wayleroLiveVideos.slice(0, 6);
 
-  // --- FETCH DÜZENLEMESİ ---
   let events: any[] = [];
   try {
+    // API isteğini direkt baseUrl üzerinden atıyoruz
     const res = await fetch(
-      `${BASE_SITE_URL}/api/events?take=4&city_ids=40&lang=${lang}`,
-      { next: { revalidate: 3600 } }
-    );
-    
+  `/api/events?take=4&city_ids=40&lang=${lang}`,
+  { next: { revalidate: 3600 } }
+);
     if (res.ok) {
       const data = await res.json();
       events = data?.items || [];
