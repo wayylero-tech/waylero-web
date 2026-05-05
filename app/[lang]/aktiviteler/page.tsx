@@ -1,8 +1,10 @@
 import { Metadata } from "next";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
-import { Suspense } from 'react'; // Bunu eklemeyi unutma
+import { Suspense } from 'react';
 
+// Canlı site adresini buraya sabitledik
+const BASE_SITE_URL = "https://www.waylero.com";
 
 function slugify(text: string) {
   const charMap: { [key: string]: string } = {
@@ -38,26 +40,21 @@ export async function generateMetadata({
     }
   }[currentLang];
 
-  const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-
   const path = "/aktiviteler";
-  const fullUrl = `${baseUrl}/${currentLang}${path}`;
-
-  const image = `${baseUrl}/og/events.jpg`;
+  const fullUrl = `${BASE_SITE_URL}/${currentLang}${path}`;
+  const image = `${BASE_SITE_URL}/og/events.jpg`;
 
   return {
+    metadataBase: new URL(BASE_SITE_URL),
     title: t.title,
     description: t.desc,
-
     alternates: {
       canonical: fullUrl,
       languages: {
-        "tr-TR": `${baseUrl}/tr${path}`,
-        "en-US": `${baseUrl}/en${path}`,
+        "tr-TR": `${BASE_SITE_URL}/tr${path}`,
+        "en-US": `${BASE_SITE_URL}/en${path}`,
       },
     },
-
     openGraph: {
       title: t.title,
       description: t.desc,
@@ -74,17 +71,12 @@ export async function generateMetadata({
         },
       ],
     },
-
     twitter: {
       card: "summary_large_image",
       title: t.title,
       description: t.desc,
       images: [image],
       creator: "@waylero",
-    },
-
-    other: {
-      "theme-color": "#000000",
     },
   };
 }
@@ -130,19 +122,25 @@ export default async function ActivitiesPage({
     apiParams.append("take", "50");
     apiParams.append("lang", currentLang);
 
-    // ✅ Lokalde çalıştığını algılayıp `http://localhost:3000/api/...` isteği atmasını sağlıyoruz
-    const finalUrl = `/api/events?${apiParams.toString()}`;
+    // ÇÖZÜM: Tam URL ve Kimlik Bilgisi (Headers) ekledik
+    const finalUrl = `${BASE_SITE_URL}/api/events?${apiParams.toString()}`;
 
     const res = await fetch(finalUrl, {
       next: { revalidate: 3600 },
+      headers: {
+        'Accept': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
     });
 
     if (res.ok) {
       const data = await res.json();
       initialEvents = data.items || data.data || (Array.isArray(data) ? data : []);
+    } else {
+      console.error("API Hatası:", res.status);
     }
   } catch (err) {
-    console.error("Lokal Fetch Hatası:", err);
+    console.error("Fetch Hatası:", err);
   }
 
   return (
