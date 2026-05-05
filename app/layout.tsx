@@ -1,70 +1,74 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
-import { headers } from "next/headers";
 import "./globals.css";
+import type { Metadata } from "next";
 
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
-import ClientLayout from "./components/ClientLayout";
-import ClientProviders from "./ClientProviders";
-import GoogleAnalytics from "./components/GoogleAnalytics";
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
-const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["latin"] });
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+});
 
-// 🛡️ DINAMIK METADATA: Google artık /en'e gelince İngilizce başlık görecek
-export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const lang = headerList.get("x-url-lang") || "tr";
-  const isEn = lang === "en";
-
-  return {
-    title: isEn ? "Waylero | Create Travel Plan, Explore Events" : "Waylero | Gezi Planı Oluştur, Etkinlikleri Keşfet",
-    description: isEn 
-      ? "Discover cities, find events and easily create your travel plan with Waylero. Istanbul, Paris, Dubai and more are waiting for you."
-      : "Waylero ile şehirleri keşfet, etkinlikleri bul ve kolayca gezi planı oluştur. İstanbul, Paris, Dubai ve daha fazlası seni bekliyor",
-    icons: {
-      icon: "/waylero-icon.png",
-      apple: "/waylero-icon.png",
-    },
-    alternates: {
-      canonical: isEn ? "https://www.waylero.com/en" : "https://www.waylero.com",
-      languages: {
-        "tr-TR": "https://www.waylero.com",
-        "en-US": "https://www.waylero.com/en",
-        "x-default": "https://www.waylero.com", // Google'ın en sevdiği: "Dil bulamazsan buraya git" sinyali
+export const metadata: Metadata = {
+  metadataBase: new URL("https://waylero.com"),
+  title: {
+    default: "Waylero | Explore Cities, Events & Travel Experiences",
+    template: "%s | Waylero",
+  },
+  description:
+    "Discover 40+ countries, 300+ cities and 2000+ travel spots. Find concerts, events, tours and travel inspiration with Waylero.",
+  icons: {
+    icon: "/waylero-icon.png",
+    shortcut: "/waylero-icon.png",
+    apple: "/waylero-icon.png",
+  },
+  openGraph: {
+    title: "Waylero | Travel & City Explorer",
+    description:
+      "Explore cities, events, concerts, tours and travel experiences worldwide.",
+    url: "https://waylero.com",
+    siteName: "Waylero",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Waylero",
       },
-    },
-    openGraph: {
-      title: isEn ? "Waylero | Create Travel Plan" : "Waylero | Gezi Planı Oluştur",
-      locale: isEn ? "en_US" : "tr_TR",
-    }
-  };
-}
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Waylero",
+    description:
+      "Explore cities, events, concerts and travel experiences worldwide.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 export default async function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ lang?: string }>;
 }) {
-  const headerList = await headers();
-  
-  // Middleware'den gelen net bilgi. URL'de /en/ varsa middleware bunu "en" set ediyor zaten.
-  const displayLang = headerList.get("x-url-lang") === "en" ? "en" : "tr";
+  const resolvedParams = await params;
+  const lang = resolvedParams.lang || "tr"; // Varsayılan dil Türkçe
 
   return (
-    <html lang={displayLang} suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}
-      >
-        <GoogleAnalytics />
-
-        <ClientProviders>
-          {/* ClientLayout ve içindeki Context artık doğru dili sunucudan (SSR) alarak başlıyor */}
-          <ClientLayout lang={displayLang}>
-            {children}
-          </ClientLayout>
-        </ClientProviders>
+    <html lang={lang}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}>
+        {children}
       </body>
     </html>
   );

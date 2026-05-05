@@ -1,48 +1,33 @@
 import { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
-import cities from "@/app/data/cities.json";
+import cities from "@/data/cities.json";
 import toursData from "@/data/tours.json";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
 
 const baseUrl = "https://www.waylero.com";
-
 const locales = ["tr", "en"];
-const defaultLocale = "tr";
 
-const buildUrl = (baseUrl: string, route: string, locale: string) => {
-  if (locale === defaultLocale) return `${baseUrl}${route}`;
+// ✅ HER ZAMAN LOCALE VAR
+const buildUrl = (route: string, locale: string) => {
   return `${baseUrl}/${locale}${route}`;
 };
 
+// ✅ Middleware ile AYNI sanitize
 const sanitize = (str: string) =>
   str
-    .toLowerCase()
+    .toLocaleLowerCase("tr")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/ /g, "")
     .replace(/ı/g, "i")
     .replace(/ğ/g, "g")
     .replace(/ü/g, "u")
     .replace(/ş/g, "s")
     .replace(/ö/g, "o")
-    .replace(/ç/g, "c");
-
-// ACTIVITY CITIES
-const activityCities = [
-  "adana","adiyaman","afyon","afyonkarahisar","agri","aksaray","amasya",
-  "ankara","antalya","ardahan","artvin","aydin","balikesir","bartin",
-  "batman","bayburt","bilecik","bingol","bitlis","bolu","burdur",
-  "bursa","canakkale","cankiri","corum","denizli","diyarbakir","duzce",
-  "edirne","elazig","erzincan","erzurum","eskisehir","gaziantep","giresun",
-  "gumushane","hakkari","hatay","igdir","isparta","istanbul","izmir",
-  "kahramanmaras","karabuk","karaman","kars","kastamonu","kayseri","kilis",
-  "kirikkale","kirklareli","kirsehir","kktc","kocaeli","konya","kutahya",
-  "lefkosa","malatya","manisa","mardin","mersin","mugla","mus","nevsehir",
-  "nigde","ordu","osmaniye","rize","sakarya","samsun","sanliurfa","siirt",
-  "sinop","sirnak","sivas","tekirdag","tokat","trabzon","tunceli",
-  "usak","van","yalova","yozgat","zonguldak"
-];
+    .replace(/ç/g, "c")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
 // COUNTRIES
 const countries = [
@@ -53,6 +38,131 @@ const countries = [
   "umman","bosna-hersek","cin","hindistan","tayland","urdun","galler","singapur"
 ];
 
+export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
+  const entries: MetadataRoute.Sitemap = [];
+
+  // ✅ STATIC
+  const staticPages = [
+    { url: "", priority: 1.0 },
+    { url: "/kesfet", priority: 0.95 },
+    { url: "/aktiviteler", priority: 0.9 },
+    { url: "/videolar", priority: 0.9 },
+    { url: "/etkinlikler", priority: 0.9 },
+    { url: "/trip-planner", priority: 0.9 }, // ✅ EKLENDİ
+  ];
+
+  staticPages.forEach((page) => {
+    locales.forEach((locale) => {
+      entries.push({
+        url: buildUrl(page.url, locale),
+        lastModified: now,
+        priority: page.priority,
+        alternates: {
+          languages: {
+            tr: buildUrl(page.url, "tr"),
+            en: buildUrl(page.url, "en"),
+          },
+        },
+      });
+    });
+  });
+
+  // ✅ COUNTRIES
+  countries.forEach((country) => {
+    locales.forEach((locale) => {
+      const route = `/kesfet/${country}`;
+
+      entries.push({
+        url: buildUrl(route, locale),
+        lastModified: now,
+        priority: 0.85,
+        alternates: {
+          languages: {
+            tr: buildUrl(route, "tr"),
+            en: buildUrl(route, "en"),
+          },
+        },
+      });
+    });
+  });
+
+  // ✅ VIDEOS
+  const videosWithSlugs = addSlugs(wayleroLiveVideos);
+
+  videosWithSlugs.forEach((video) => {
+    locales.forEach((locale) => {
+      const route = `/videolar/${video.slug}`;
+
+      entries.push({
+        url: buildUrl(route, locale),
+        lastModified: now,
+        priority: 0.8,
+        alternates: {
+          languages: {
+            tr: buildUrl(route, "tr"),
+            en: buildUrl(route, "en"),
+          },
+        },
+      });
+    });
+  });
+
+  // ✅ AKTİVİTELER (QUERY KORUNDU)
+  const activityCities = [ "adana","adiyaman","afyon","afyonkarahisar","agri","aksaray","amasya", "ankara","antalya","ardahan","artvin","aydin","balikesir","bartin", "batman","bayburt","bilecik","bingol","bitlis","bolu","burdur", "bursa","canakkale","cankiri","corum","denizli","diyarbakir","duzce", "edirne","elazig","erzincan","erzurum","eskisehir","gaziantep","giresun", "gumushane","hakkari","hatay","igdir","isparta","istanbul","izmir", "kahramanmaras","karabuk","karaman","kars","kastamonu","kayseri","kilis", "kirikkale","kirklareli","kirsehir","kktc","kocaeli","konya","kutahya", "lefkosa","malatya","manisa","mardin","mersin","mugla","mus","nevsehir", "nigde","ordu","osmaniye","rize","sakarya","samsun","sanliurfa","siirt", "sinop","sirnak","sivas","tekirdag","tokat","trabzon","tunceli", "usak","van","yalova","yozgat","zonguldak" ];
+
+  activityCities.forEach((city) => {
+    locales.forEach((locale) => {
+      const route = `/aktiviteler?city=${city}`;
+
+      entries.push({
+        url: buildUrl(route, locale),
+        lastModified: now,
+        priority: 0.7,
+      });
+    });
+  });
+
+  // ✅ EVENT CITIES
+  const eventCities = Array.from(
+    new Set(toursData.map((t: any) => t.city?.toLowerCase()))
+  ).filter(Boolean);
+
+  eventCities.forEach((city) => {
+    locales.forEach((locale) => {
+      const route = `/etkinlikler/${city}`;
+
+      entries.push({
+        url: buildUrl(route, locale),
+        lastModified: now,
+        priority: 0.75,
+      });
+    });
+  });
+
+  // ✅ CITIES (EN KRİTİK FIX)
+  cities.forEach((city: any) => {
+    locales.forEach((locale) => {
+      const countrySlug = sanitize(city.country);
+      const citySlug = sanitize(city.slug);
+
+      const route = `/kesfet/${countrySlug}/${citySlug}`;
+
+      entries.push({
+        url: buildUrl(route, locale),
+        lastModified: now,
+        priority: 0.8,
+        alternates: {
+          languages: {
+            tr: buildUrl(route, "tr"),
+            en: buildUrl(route, "en"),
+          },
+        },
+      });
+    });
+  });
+
+// ✅ BLOG POSTS
 const manualBlogPosts = [
   { category: "genel", slug: "muzekart-nedir-ucretleri" },
   { category: "genel", slug: "gezginler-icin-gerekli-mobil-uygulamalar" },
@@ -84,106 +194,26 @@ const manualBlogPosts = [
   { category: "konya", slug: "catalhoyuk-gezi-rehberi-2026" }
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-  const entries: MetadataRoute.Sitemap = [];
+manualBlogPosts.forEach((post) => {
+  locales.forEach((locale) => {
+    const route = `/blog/${post.category}/${post.slug}`;
 
-  // STATIC PAGES
-  const staticPages = [
-    { url: "", priority: 1.0 },
-    { url: "/kesfet", priority: 0.95 },
-    { url: "/aktiviteler", priority: 0.9 },
-    { url: "/videolar", priority: 0.9 },
-    { url: "/etkinlikler", priority: 0.9 }, // Etkinlikler Ana Sayfası
-  ];
-
-  staticPages.forEach((page) => {
-    locales.forEach((locale) => {
-      entries.push({
-        url: buildUrl(baseUrl, page.url, locale),
-        lastModified: now,
-        priority: page.priority,
-      });
+    entries.push({
+      url: buildUrl(route, locale),
+      lastModified: now,
+      priority: 0.6,
+      alternates: {
+        languages: {
+          tr: buildUrl(route, "tr"),
+          en: buildUrl(route, "en"),
+        },
+      },
     });
   });
+});
 
-  // COUNTRIES
-  countries.forEach((country) => {
-    locales.forEach((locale) => {
-      entries.push({
-        url: buildUrl(baseUrl, `/kesfet/${country}`, locale),
-        lastModified: now,
-        priority: 0.85,
-      });
-    });
-  });
-
-  // VIDEOS
-  const videosWithSlugs = addSlugs(wayleroLiveVideos);
-
-  videosWithSlugs.forEach((video) => {
-    locales.forEach((locale) => {
-      entries.push({
-        url: buildUrl(baseUrl, `/videolar/${video.slug}`, locale),
-        lastModified: now,
-        priority: 0.8,
-      });
-    });
-  });
-
-  // ACTIVITY CITIES
-  activityCities.forEach((city) => {
-    locales.forEach((locale) => {
-      entries.push({
-        url: buildUrl(baseUrl, `/aktiviteler?city=${city}`, locale),
-        lastModified: now,
-        priority: 0.7,
-      });
-    });
-  });
-
-  // EVENT CITIES (Dinamik Etkinlik Şehirleri)
-  const eventCities = Array.from(new Set(toursData.map((t: any) => t.city?.toLowerCase()))).filter(Boolean);
-
-  eventCities.forEach((city) => {
-    locales.forEach((locale) => {
-      entries.push({
-        url: buildUrl(baseUrl, `/etkinlikler/${city}`, locale),
-        lastModified: now,
-        priority: 0.75,
-      });
-    });
-  });
-
-  // CITIES
-  cities.forEach((city: any) => {
-    locales.forEach((locale) => {
-      const countrySlug = city.country.toLowerCase().replace(/ /g, "-");
-      const citySlug = sanitize(city.slug);
-
-      entries.push({
-        url: buildUrl(baseUrl, `/${countrySlug}/${citySlug}`, locale),
-        lastModified: now,
-        priority: 0.8,
-      });
-    });
-  });
-
-  // ELLE EKLENEN BLOGLAR
-  manualBlogPosts.forEach((post) => {
-    locales.forEach((locale) => {
-      const blogPath = `/blog/${post.category}/${post.slug}`;
-
-      entries.push({
-        url: buildUrl(baseUrl, blogPath, locale),
-        lastModified: now,
-        priority: 0.6,
-      });
-    });
-  });
-
-  // PLACES
-  const dataRoot = path.join(process.cwd(), "app/data/ulkelerdata");
+  // ✅ PLACES
+  const dataRoot = path.join(process.cwd(), "/data/ulkelerdata");
 
   if (fs.existsSync(dataRoot)) {
     const regions = fs.readdirSync(dataRoot);
@@ -211,14 +241,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
         places.forEach((place: any) => {
           locales.forEach((locale) => {
+            const route = `/kesfet/${region}/${cleanCity}/${place.slug}`;
+
             entries.push({
-              url: buildUrl(
-                baseUrl,
-                `/kesfet/${region}/${cleanCity}/${place.slug}`,
-                locale
-              ),
+              url: buildUrl(route, locale),
               lastModified: now,
               priority: 0.7,
+              alternates: {
+                languages: {
+                  tr: buildUrl(route, "tr"),
+                  en: buildUrl(route, "en"),
+                },
+              },
             });
           });
         });

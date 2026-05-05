@@ -4,12 +4,10 @@ import type { NextRequest } from "next/server";
 import rawSlugToCityMap from "./slug-city-map.json";
 import rawCityToCountryMap from "./maps/city-to-country-map.json";
 
-const isProd = process.env.NODE_ENV === "production";
-
-// 🔧 SANITIZE - Middleware dışında kalsın
+// --- 1. OPTİMİZASYON: MEMOIZATION ---
 const sanitize = (str: string) =>
   str
-    .toLowerCase()
+    .toLocaleLowerCase("tr")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/ı/g, "i")
@@ -22,183 +20,120 @@ const sanitize = (str: string) =>
     .replace(/-+/g, "-")
     .replace(/^-+|-+$/g, "");
 
-// 🚀 MAPS - BURASI KRİTİK! 
-// Bu işlem Vercel instance'ı başladığında 1 kere yapılır.
-// Artık her istekte (request) binlerce satır dönmeyecek.
-const slugToCityMap: Record<string, string> = {};
-for (const [k, v] of Object.entries(rawSlugToCityMap)) {
-  slugToCityMap[sanitize(k)] = sanitize(v as string);
+const slugToCityMap = Object.fromEntries(
+  Object.entries(rawSlugToCityMap).map(([k, v]) => [sanitize(k), sanitize(v as string)])
+);
+
+const cityToCountryMap = Object.fromEntries(
+  Object.entries(rawCityToCountryMap).map(([k, v]) => [sanitize(k), sanitize(v as string)])
+);
+
+// --- BOT FILTER ---
+const GOOGLE_BOT_REGEX =
+  /googlebot|bingbot|slurp|duckduckbot|baiduspider|google-inspectiontool/i;
+
+const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
+
+// --- DİL HELPER ---
+function getLocale(request: NextRequest) {
+  // 1. Çerezde (Cookie) daha önce yapılmış bir dil tercihi var mı?
+  const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value;
+  if (cookieLocale === "en" || cookieLocale === "tr") {
+    return cookieLocale;
+  }
+
+  // 2. Vercel veya benzeri platformlardan gelen ülke bilgisini al
+  // request.geo.country genellikle "TR", "US" gibi iki harfli ülke kodları döner.
+ const country =
+  request.headers.get("x-vercel-ip-country")?.toUpperCase() || "";
+
+  // 3. Konum Türkiye ise "tr", diğer ülkeler ise "en" yap
+  if (country === "TR") {
+    return "tr";
+  }
+
+  // 4. Tarayıcı dilini son çare olarak kontrol et
+  const acceptLang = request.headers.get("accept-language") || "";
+  
+  if (acceptLang.toLowerCase().includes("tr")) {
+    return "tr";
+  }
+
+  // Varsayılan olarak Türkiye dışındakiler için İngilizce
+  return "en";
 }
 
-const cityToCountryMap: Record<string, string> = {};
-for (const [k, v] of Object.entries(rawCityToCountryMap)) {
-  cityToCountryMap[sanitize(k)] = sanitize(v as string);
-}
-
-// 🤖 BOT DETECT - Regex'leri dışarı aldık (CPU dostu)
-const GOOGLE_BOT_REGEX = /googlebot|bingbot|slurp|duckduckbot|baiduspider|google-inspectiontool/i;
-const BAD_BOT_REGEX = /curl|wget|python|scrapy|axios|httpclient|node-fetch|go-http|spider|crawler|bot/i;
-
-const isGoogleBot = (ua: string) => GOOGLE_BOT_REGEX.test(ua);
-const isBadBot = (ua: string) => BAD_BOT_REGEX.test(ua);
-
-// 🌐 IP
-const getIP = (req: NextRequest) =>
-  req.headers.get("x-forwarded-for")?.split(",")[0] ||
-  req.headers.get("x-real-ip") ||
-  "unknown";
-
-// ⚡ RATE LIMIT
-const RATE_LIMIT = 60;
-const WINDOW = 10;
-const rateMap = new Map<string, { count: number; time: number }>();
-
-const isRateLimited = (ip: string) => {
-  const now = Date.now();
-  const record = rateMap.get(ip);
-
-  if (!record) {
-    rateMap.set(ip, { count: 1, time: now });
-    return false;
-  }
-
-  if (now - record.time > WINDOW * 1000) {
-    rateMap.set(ip, { count: 1, time: now });
-    return false;
-  }
-
-  record.count++;
-  // Bellek temizliği: Map çok büyürse temizle (basit önlem)
-  if (rateMap.size > 5000) rateMap.clear(); 
-  return record.count > RATE_LIMIT;
-};
-
-// 🚨 SUSPICIOUS PATH
-const isSuspiciousPath = (pathname: string) =>
-  pathname.includes(".php") ||
-  pathname.includes("wp-admin") ||
-  pathname.includes("wp-login") ||
-  pathname.includes(".env") ||
-  pathname.includes("config") ||
-  pathname.length > 200;
-
-// 🔁 SAFE REDIRECT
-const safeRedirect = (req: NextRequest, url: URL) => {
-  if (
-    req.nextUrl.pathname === url.pathname &&
-    req.nextUrl.search === url.search
-  ) {
-    return NextResponse.next();
-  }
-  return NextResponse.redirect(url, isProd ? 301 : 307);
-};
-
-// ---------------------------------------------------------
-// 🛠️ ACTUAL MIDDLEWARE
-// ---------------------------------------------------------
 export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") || "";
-  const ip = getIP(request);
+  const { pathname, search } = request.nextUrl;
 
-  // 🔥 1. BOT PROTECTION (En hızlı kontrol)
-  if (isBadBot(ua) && !isGoogleBot(ua)) {
+  // A. GÜVENLİK
+  if (BAD_BOT_REGEX.test(ua) && !GOOGLE_BOT_REGEX.test(ua)) {
     return new NextResponse("Blocked", { status: 403 });
   }
 
-  // ⚡ 2. RATE LIMIT
-  if (isProd && isRateLimited(ip)) {
-    return new NextResponse("Too Many Requests", { status: 429 });
-  }
+  // B. DOSYA KONTROLÜ
+  const isFile = pathname.includes(".") || pathname.startsWith("/_next");
+  if (isFile) return NextResponse.next();
 
-  const pathname = request.nextUrl.pathname.replace(/\/$/, "") || "/";
-  const { search } = request.nextUrl;
-
-  // 🚨 3. SUSPICIOUS
-  if (isSuspiciousPath(pathname)) {
-    return new NextResponse("Forbidden", { status: 403 });
-  }
-
-  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+  // C. PATH + SEGMENTS
   const segments = pathname.split("/").filter(Boolean);
-  const offset = isEn ? 1 : 0;
-  const isKesfet = segments[offset] === "kesfet";
+  const currentLocale = segments[0];
+  const isEn = currentLocale === "en";
+  const isTr = currentLocale === "tr";
 
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set("x-url-lang", isEn ? "en" : "tr");
+  // 🚀 1. DİL YOKSA (TEK HAMLE REDIRECT)
+  if (!isEn && !isTr) {
+    const locale = getLocale(request);
+    const url = request.nextUrl.clone();
 
-  // 🔥 4. SLUG → CITY → COUNTRY (Şimdi uçuyor 🚀)
-  const slugSegment = isEn ? segments[1] : segments[0];
+    const possibleSlug = segments[0] ? sanitize(segments[0]) : null;
+    const city = possibleSlug ? slugToCityMap[possibleSlug] : null;
+    const country = city ? cityToCountryMap[city] : null;
 
-  if (!isKesfet && slugSegment && segments.length <= (isEn ? 2 : 1)) {
+    let response: NextResponse;
+
+    if (city && country) {
+      url.pathname = `/${locale}/kesfet/${country}/${city}/${possibleSlug}`;
+      url.search = search; // ✅ query korunur
+      response = NextResponse.redirect(url, 301);
+    } else {
+      url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
+      url.search = search; // ✅ query korunur
+      response = NextResponse.redirect(url, 307);
+    }
+
+    // ✅ Cookie sadece gerekliyse set edilir
+    if (request.cookies.get("NEXT_LOCALE")?.value !== locale) {
+      response.cookies.set("NEXT_LOCALE", locale, {
+        path: "/",
+        maxAge: 60 * 60 * 24 * 30,
+      });
+    }
+
+    return response;
+  }
+
+  // 🚀 2. DİL VAR AMA KISA URL
+  const slugSegment = segments[1];
+
+  if (slugSegment !== "kesfet" && slugSegment && segments.length <= 2) {
     const slug = sanitize(slugSegment);
-    const city = slugToCityMap[slug]; // Direkt hafızadan okuyor
-    const country = city ? cityToCountryMap[city] : undefined;
+    const city = slugToCityMap[slug];
+    const country = city ? cityToCountryMap[city] : null;
 
     if (city && country) {
       const url = request.nextUrl.clone();
-      url.pathname = `${isEn ? "/en" : ""}/kesfet/${country}/${city}/${slug}`;
-      url.search = search;
-      return safeRedirect(request, url);
+      url.pathname = `/${currentLocale}/kesfet/${country}/${city}/${slug}`;
+      url.search = search; // ✅ query korunur
+      return NextResponse.redirect(url, 301);
     }
-  }
-
-  // 🔥 5. KESFET LOGIC
-  if (isKesfet && segments.length > 2 + offset) {
-    const regionInUrl = sanitize(segments[1 + offset] || "");
-    const cityInUrl = sanitize(segments[2 + offset] || "");
-    const slugInUrl = sanitize(segments[3 + offset] || "");
-
-    const targetCountry = cityToCountryMap[cityInUrl];
-
-    if (!targetCountry) {
-      return new NextResponse(null, { status: 404 });
-    }
-
-    if (regionInUrl !== targetCountry) {
-      const url = request.nextUrl.clone();
-      const newSegments = [...segments];
-      newSegments[1 + offset] = targetCountry;
-      url.pathname = "/" + newSegments.join("/");
-      url.search = search;
-      return safeRedirect(request, url);
-    }
-
-    const expectedCity = slugToCityMap[slugInUrl];
-
-    if (slugInUrl && expectedCity && expectedCity !== cityInUrl) {
-      // Doğru slug'ı bul (Bu kısım nadir çalışır, CPU'yu üzmez)
-      const correctSlug = Object.keys(slugToCityMap).find(
-        (k) => slugToCityMap[k] === cityInUrl
-      );
-
-      if (correctSlug) {
-        const url = request.nextUrl.clone();
-        const newSegments = [...segments];
-        newSegments[3 + offset] = correctSlug;
-        url.pathname = "/" + newSegments.join("/");
-        url.search = search;
-        return safeRedirect(request, url);
-      }
-      return new NextResponse(null, { status: 404 });
-    }
-  }
-
-  // 🌐 6. FINAL RESPONSES
-  const res = isEn 
-    ? NextResponse.rewrite(new URL(pathname.replace(/^\/en/, "") || "/", request.url), { request: { headers: requestHeaders } })
-    : NextResponse.next({ request: { headers: requestHeaders } });
-
-  res.headers.set("Cache-Control", "public, s-maxage=86400, stale-while-revalidate=3600");
-  
-  if (!request.cookies.has("lang")) {
-    res.cookies.set("lang", isEn ? "en" : "tr", { path: "/" });
-  }
-
-  return res;
 }
+  return NextResponse.next();
+} // 👈
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
+    '/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js|robots.txt|sitemap.xml|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff|woff2)$).*)',
   ],
 };
