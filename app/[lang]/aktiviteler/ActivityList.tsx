@@ -99,7 +99,7 @@ export default function ActivityList({
       date: eventDate,
       venue: item.venue?.name || item.mekan?.ad || t.noVenue,
       category: item.category?.name || t.event,
-      url: item.ticket_url || item.url || "#",
+      url: item.ticket_url || item.url || `https://etkinlik.io/etkinlik/${item.id}`,
     };
   };
 
@@ -251,48 +251,51 @@ export default function ActivityList({
         {events.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
             {events.map((event) => (
-              <div key={event.id} className="group bg-white rounded-[3rust] overflow-hidden border border-gray-50 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] transition-all duration-700 transform hover:-translate-y-3">
-                <div className="relative h-80 overflow-hidden">
-                  <img
-                    src={event.image}
-                    alt={event.name}
-                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  
-                  <div className="absolute top-6 left-6">
-                    <div className="bg-white/95 backdrop-blur-md w-14 h-16 rounded-2xl shadow-xl flex flex-col items-center justify-center">
-                      <span className="text-[9px] font-black text-orange-600 uppercase tracking-tighter">
-                        {event.date ? event.date.toLocaleDateString(lang === "tr" ? "tr-TR" : "en-US", { month: "short" }) : "-"}
-                      </span>
-                      <span className="text-xl font-serif font-black text-gray-900 leading-none mt-1">
-                        {event.date ? event.date.getDate() : "-"}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="p-8 flex flex-col h-full">
-                  <span className="text-[9px] font-black text-blue-500 uppercase tracking-[0.2em] mb-4 inline-block">{event.category}</span>
-                  <h2 className="text-xl font-serif font-bold text-gray-900 mb-4 line-clamp-2 min-h-[56px] leading-tight group-hover:text-orange-600 transition-colors uppercase italic">
-                    {event.name}
-                  </h2>
-                  <div className="flex items-center gap-2 text-gray-400 mb-8 border-b border-gray-50 pb-4">
-                    <MapPin size={14} className="text-red-400" />
-                    <p className="text-[10px] font-black truncate uppercase tracking-widest">{event.venue}</p>
-                  </div>
-                  
-                  <a 
-                    href={event.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="mt-auto flex items-center justify-between bg-gray-900 text-white p-5 rounded-2xl font-black text-[10px] uppercase tracking-[0.2em] hover:bg-orange-600 transition-all shadow-lg shadow-black/10 hover:shadow-orange-200"
-                  >
-                    {t.buyTicket}
-                    <ChevronRight size={16} />
-                  </a>
-                </div>
-              </div>
+              <div key={event.id} className="group bg-white rounded-[2rem] overflow-hidden border border-gray-100 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] transition-all duration-700 transform hover:-translate-y-3 flex flex-col h-full">
+  <div className="relative h-72 overflow-hidden shrink-0">
+    <img
+      src={event.image}
+      alt={event.name}
+      className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+    
+    <div className="absolute top-4 left-4">
+      <div className="bg-white/95 backdrop-blur-md w-12 h-14 rounded-xl shadow-xl flex flex-col items-center justify-center">
+        <span className="text-[8px] font-black text-orange-600 uppercase">
+          {event.date ? event.date.toLocaleDateString(lang === "tr" ? "tr-TR" : "en-US", { month: "short" }) : "-"}
+        </span>
+        <span className="text-lg font-serif font-black text-gray-900 leading-none">
+          {event.date ? event.date.getDate() : "-"}
+        </span>
+      </div>
+    </div>
+  </div>
+  
+  <div className="p-6 flex flex-col flex-1">
+    <span className="text-[9px] font-black text-blue-500 uppercase tracking-[0.2em] mb-2">{event.category}</span>
+    <h2 className="text-lg font-serif font-bold text-gray-900 mb-3 line-clamp-2 leading-tight group-hover:text-orange-600 transition-colors uppercase italic">
+      {event.name}
+    </h2>
+    <div className="flex items-center gap-2 text-gray-400 mb-6">
+      <MapPin size={12} className="text-red-400 shrink-0" />
+      <p className="text-[10px] font-black truncate uppercase tracking-widest">{event.venue}</p>
+    </div>
+    
+    {/* BUTON BURADA - h-full ve mt-auto sayesinde hep en altta kalacak */}
+    <div className="mt-auto pt-4">
+        <a 
+          href={event.url} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center justify-between bg-orange-600 text-white px-6 py-4 rounded-xl font-black text-[11px] uppercase tracking-[0.2em] hover:bg-black transition-all shadow-lg shadow-orange-200 active:scale-95"
+        >
+          <span className="flex-1 text-center">{t.buyTicket}</span>
+          <ChevronRight size={16} />
+        </a>
+    </div>
+  </div>
+</div>
             ))}
           </div>
         ) : (
