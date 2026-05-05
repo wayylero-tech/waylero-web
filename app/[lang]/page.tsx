@@ -123,17 +123,29 @@ export default async function Page(
 
   let events: any[] = [];
   try {
-    // API isteğini direkt baseUrl üzerinden atıyoruz
-    const res = await fetch(
-  `/api/events?take=4&city_ids=40&lang=${lang}`,
-  { next: { revalidate: 3600 } }
-);
+    // Tam adres yerine API yolunu ve parametreleri değişkene al
+    const apiPath = `/api/events?take=4&city_ids=40&lang=${lang}`;
+    
+    // Başına BASE_SITE_URL ekleyerek tam adresi oluştur
+    const finalUrl = `https://www.waylero.com${apiPath}`;
+
+    const res = await fetch(finalUrl, {
+      next: { revalidate: 3600 },
+      headers: {
+        'Accept': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
+
     if (res.ok) {
       const data = await res.json();
+      // API'den gelen yapıda items olduğu için burası doğru
       events = data?.items || [];
+    } else {
+      console.error("API Cevap Vermedi, Kod:", res.status);
     }
   } catch (err) {
-    console.error("EVENT FETCH ERROR:", err);
+    console.error("Fetch Patladı:", err);
   }
 
   return (
