@@ -6,7 +6,10 @@ import path from "path";
 import { slugify } from "@/lib/utils/slugify";
 import PlaceClient from "./PlaceClient";
 
+// 🚀 1. CACHE & RUNTIME AYARLARI
 export const runtime = "nodejs";
+export const dynamic = "force-static"; // Tam statik render
+export const revalidate = 604800;        // 1 saatlik ISR cache
 
 const BASE_URL = "https://www.waylero.com";
 
@@ -19,70 +22,56 @@ interface Props {
   }>;
 }
 
-// 🌍 DISTANCE
+// 📦 2. VERİ OKUMA (FS + CACHE)
+// React cache sayesinde aynı request içinde dosya sadece 1 kez okunur.
+const loadCityData = cache(async (region: string, city: string) => {
+  try {
+    const filePath = path.join(process.cwd(), "data/ulkelerdata", region, `${city}.json`);
+    if (!fs.existsSync(filePath)) return null;
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch (e) {
+    return null;
+  }
+});
+
+const loadImages = cache(async (region: string) => {
+  try {
+    const filePath = path.join(process.cwd(), "data/ulkedataimages", `${region}.json`);
+    if (!fs.existsSync(filePath)) return {};
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch (e) {
+    return {};
+  }
+});
+
+// 🌍 MESAFE HESAPLAMA (Haversine)
 function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
   const R = 6371;
   const dLat = ((lat2 - lat1) * Math.PI) / 180;
   const dLon = ((lon2 - lon1) * Math.PI) / 180;
-
-  const a =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) ** 2;
-
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) ** 2;
   return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)) * 1.25;
 }
 
-// 📦 CACHE DATA
-const loadCityData = cache(async (region: string, city: string) => {
-  const filePath = path.join(
-    process.cwd(),
-    "data/ulkelerdata",
-    region,
-    `${city}.json`
-  );
-
-  if (!fs.existsSync(filePath)) return null;
-
-  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-});
-
-const loadImages = cache((region: string) => {
-  const filePath = path.join(
-    process.cwd(),
-    "data/ulkedataimages",
-    `${region}.json`
-  );
-
-  if (!fs.existsSync(filePath)) return {};
-  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-});
-
-// 🧠 SEO METADATA
+// 🧠 3. SEO METADATA (OG + TWITTER + CANONICAL)
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const resolvedParams = await params;
-  const { lang, region, city, place } = resolvedParams;
-  const isEn = lang === "en";
-
+  const { lang, region, city, place } = await params;
   const cityData = await loadCityData(region, city);
+  
   if (!cityData) return { title: "Waylero" };
 
   const found = cityData.find(
-    (p: any) =>
-      slugify(p.slug) === slugify(decodeURIComponent(place))
+    (p: any) => slugify(p.slug) === slugify(decodeURIComponent(place))
   );
 
   if (!found) return { title: "Waylero" };
 
-  const name =
-    found.name?.[lang] ||
-    found.name?.tr ||
-    found.slug;
-
+  const isEn = lang === "en";
+  const name = found.name?.[lang] || found.name?.tr || found.slug;
   const cityName = city.replace(/-/g, " ");
-  const regionName = region.replace(/-/g, " ");
-
+  
   const title = isEn
     ? `${name} - Travel Guide in ${cityName}`
     : `${name} - ${cityName} Gezi Rehberi`;
@@ -95,6 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const pathUrl = `/kesfet/${region}/${city}/${place}`;
   const url = `${BASE_URL}/${lang}${pathUrl}`;
+  const ogImageUrl = `${BASE_URL}/og/place.jpg`; // Dinamik resim yolun varsa burayı güncelle
 
   return {
     title,
@@ -114,7 +104,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       images: [
         {
-          url: `${BASE_URL}/og/place.jpg`,
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: name,
@@ -125,48 +115,36 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: [`${BASE_URL}/og/place.jpg`],
+      images: [ogImageUrl],
     },
   };
 }
 
-// 🧠 PAGE
+// 🧠 4. PAGE COMPONENT
 export default async function Page({ params }: Props) {
-  const resolvedParams = await params;
-  const { lang, region, city, place } = resolvedParams;
+  const { lang, region, city, place } = await params;
 
+  // Veriyi yükle (Metadata'da yüklendiyse cache'den gelir)
   const cityData = await loadCityData(region, city);
   if (!cityData) return notFound();
 
   const foundPlace = cityData.find(
-    (p: any) =>
-      slugify(p.slug) === slugify(decodeURIComponent(place))
+    (p: any) => slugify(p.slug) === slugify(decodeURIComponent(place))
   );
 
   if (!foundPlace) return notFound();
 
-  const imagesData = loadImages(region);
-
+  // Resimleri ve Yakın Yerleri Hesapla
+  const imagesData = await loadImages(region);
   const imageGroup = imagesData[city] || {};
   const imageKey = `${slugify(city)}-${slugify(foundPlace.slug)}`;
   const images = imageGroup[imageKey] || [];
 
-  // 📍 NEARBY PLACES
   const nearbyPlaces = cityData
-    .filter(
-      (p: any) =>
-        p.slug !== foundPlace.slug &&
-        p.latitude &&
-        p.longitude
-    )
+    .filter((p: any) => p.slug !== foundPlace.slug && p.latitude && p.longitude)
     .map((p: any) => ({
       ...p,
-      distance: getDistance(
-        foundPlace.latitude,
-        foundPlace.longitude,
-        p.latitude,
-        p.longitude
-      ),
+      distance: getDistance(foundPlace.latitude, foundPlace.longitude, p.latitude, p.longitude),
     }))
     .sort((a: any, b: any) => a.distance - b.distance)
     .slice(0, 3);
