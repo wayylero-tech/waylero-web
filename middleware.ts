@@ -8,7 +8,7 @@ import rawCityToCountryMap from "./maps/city-to-country-map.json";
 const slugToCityMap = rawSlugToCityMap as Record<string, string>;
 const cityToCountryMap = rawCityToCountryMap as Record<string, string>;
 
-// ✅ SADECE GERÇEK ZARARLI BOTLAR
+// ✅ GERÇEK BOTLAR
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
 
 // 🌐 LOCALE HELPER
@@ -32,10 +32,7 @@ export function middleware(request: NextRequest) {
     return new NextResponse("Blocked", { status: 403 });
   }
 
-  // ⚡ 2. ROOT SKIP
-  if (pathname === "/") return NextResponse.next();
-
-  // ⚡ 3. STATIC & INTERNAL SKIP
+  // ⚡ 2. STATIC & INTERNAL SKIP
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
@@ -46,42 +43,39 @@ export function middleware(request: NextRequest) {
 
   const segments = pathname.split("/").filter(Boolean);
 
-  // 🔥 LOCALE NORMALIZE (EN KRİTİK FIX)
   const currentLocale = segments[0]?.toLowerCase();
   const isLocale = currentLocale === "en" || currentLocale === "tr";
+
+  // 🚀 3. ROOT → LOCALE REDIRECT
+  if (pathname === "/") {
+    const locale = getLocale(request);
+    const url = new URL(`/${locale}`, request.url);
+    return NextResponse.redirect(url, 307);
+  }
 
   // 🚀 4. LOCALE YOKSA
   if (!isLocale) {
     const locale = getLocale(request);
 
-    // 🛡️ LOOP GUARD (extra safety)
-    const lowerPath = pathname.toLowerCase();
-    if (lowerPath.startsWith("/en/") || lowerPath.startsWith("/tr/")) {
-      return NextResponse.next();
-    }
-
     const slug = (segments[0] || "").toLowerCase();
     const city = slugToCityMap[slug];
     const country = city ? cityToCountryMap[city] : null;
 
-    // ✔️ SEO redirect
+    // ✅ SEO URL
     if (city && country) {
       const url = new URL(
-        /${locale}/kesfet/${country}/${city}/${slug}${search},
+        `/${locale}/kesfet/${country}/${city}/${slug}${search}`,
         request.url
       );
       return NextResponse.redirect(url, 301);
     }
 
-    // ✔️ sadece locale ekle
-    const url = new URL(
-      /${locale}${pathname === "/" ? "" : pathname}${search},
-      request.url
-    );
+    // ✅ sadece locale ekle
+    const url = new URL(`/${locale}${pathname}${search}`, request.url);
     return NextResponse.redirect(url, 307);
   }
 
-  // 🚀 5. SHORT URL FIX
+  // 🚀 5. SHORT URL FIX (/tr/istanbul → full URL)
   const slugSegment = segments[1]?.toLowerCase();
 
   if (slugSegment && slugSegment !== "kesfet" && segments.length <= 2) {
@@ -90,7 +84,7 @@ export function middleware(request: NextRequest) {
 
     if (city && country) {
       const url = new URL(
-        /${currentLocale}/kesfet/${country}/${city}/${slugSegment}${search},
+        `/${currentLocale}/kesfet/${country}/${city}/${slugSegment}${search}`,
         request.url
       );
       return NextResponse.redirect(url, 301);
@@ -100,9 +94,9 @@ export function middleware(request: NextRequest) {
   return NextResponse.next();
 }
 
-// 🎯 DAR MATCHER
+// 🎯 CLEAN MATCHER
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|.\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff|woff2)$).)",
+    "/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff|woff2)$).*)",
   ],
 };
