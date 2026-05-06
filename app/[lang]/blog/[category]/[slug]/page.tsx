@@ -5,6 +5,7 @@ import BlogDetail from "./BlogDetail";
 import { allPosts } from "@/lib/blog/posts";
 
 export const dynamic = "force-static";
+export const revalidate = 2592000; // 1 ay cache
 
 const BASE_URL = "https://www.waylero.com";
 

@@ -6,6 +6,8 @@ interface Props {
   params: Promise<{ lang?: string }>;
 }
 
+export const revalidate = 2592000; // 1 ay cache
+
 const BASE_URL = "https://www.waylero.com";
 
 // 🧠 SEO METADATA

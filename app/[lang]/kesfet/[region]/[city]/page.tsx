@@ -7,6 +7,7 @@ import CityClient from "./CityClient";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
+export const dynamic = "force-static";
 
 
 interface Props {
