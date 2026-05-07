@@ -7,7 +7,8 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 export default function BlogCreateView({ user }: any) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
-  const [images, setImages] = useState<File[]>([]);
+  const [images, setImages] = useState<any[]>([]);
+  const [imageUrl, setImageUrl] = useState("");
   const [loading, setLoading] = useState(false);
 
   const isUserReady = !!user?.email;
@@ -19,7 +20,7 @@ export default function BlogCreateView({ user }: any) {
     formData.append("file", file);
     formData.append(
       "upload_preset",
-      process.env.NEXT_PUBLIC_CLOUDINARY_PRESET!
+      process.env.NEXT_PUBLIC_CLOUDINARY_PRESET || ""
     );
 
     const res = await fetch(
@@ -31,42 +32,55 @@ export default function BlogCreateView({ user }: any) {
     );
 
     const data = await res.json();
+
+    if (!data.secure_url) {
+      console.error("Cloudinary Error:", data);
+      throw new Error("Resim yüklenemedi");
+    }
+
     return data.secure_url;
   };
 
   const handleSubmit = async () => {
-    if (!isUserReady) return alert("Giriş yok");
-    if (!title || !content) return alert("Başlık ve içerik zorunlu");
+    if (!isUserReady) return alert("Giriş yapmalısın");
+    if (!title.trim() || !content.trim()) return alert("Başlık ve içerik zorunlu");
 
     setLoading(true);
 
     try {
+      // ☁️ IMAGE PROCESS (file + url mix)
       const uploadedImages = await Promise.all(
-        images.map((img) => uploadImageToCloudinary(img))
+        images.map(async (img) => {
+          if (typeof img === "string") {
+            return img; // 🔥 URL ise direkt kullan
+          }
+
+          return await uploadImageToCloudinary(img);
+        })
       );
 
-      const data = {
-        title,
-        content, // 🔥 TEK ALAN (TR gibi düşün)
+      await addDoc(collection(db, "pending_blogs"), {
+        title: title.trim(),
+        content: content.trim(),
+        gallery: uploadedImages.filter(Boolean),
 
-        gallery: uploadedImages,
-
-        authorEmail: user.email,
-        authorName: user.displayName || user.email,
+        authorEmail: user.email || "",
+        authorName: user.displayName || user.email || "",
 
         status: "pending",
         createdAt: serverTimestamp(),
-      };
+      });
 
-      await addDoc(collection(db, "pending_blogs"), data);
+      alert("Blog onaya gönderildi 🚀");
 
-      alert("Blog gönderildi");
-
+      // RESET
       setTitle("");
       setContent("");
       setImages([]);
+      setImageUrl("");
     } catch (err: any) {
-      alert(err.message);
+      console.error(err);
+      alert(err.message || "Bir hata oluştu");
     }
 
     setLoading(false);
@@ -74,7 +88,7 @@ export default function BlogCreateView({ user }: any) {
 
   return (
     <div className="text-white space-y-5 max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold">✍️ Blog Editor</h1>
+      <h1 className="text-2xl font-bold">✍️ Blog Yazısı Gönder</h1>
 
       {/* TITLE */}
       <input
@@ -86,65 +100,94 @@ export default function BlogCreateView({ user }: any) {
 
       {/* CONTENT */}
       <textarea
-        className="w-full h-[500px] p-4 rounded bg-gray-800 border border-gray-700 font-mono"
-        placeholder="İçerik yaz..."
+        className="w-full h-[400px] p-4 rounded bg-gray-800 border border-gray-700"
+        placeholder="Blog içeriğini yaz..."
         value={content}
         onChange={(e) => setContent(e.target.value)}
       />
 
-      {/* IMAGE UPLOAD */}
+      {/* LINK INPUT */}
       <div className="space-y-2">
         <label className="text-sm text-gray-300">
-          🖼️ Resimler
+          🔗 Resim Linki (Cloudinary URL)
         </label>
 
-        <label className="cursor-pointer inline-block px-4 py-2 bg-gray-800 border border-gray-600 rounded hover:bg-gray-700">
-          📸 Resim seç
+        <div className="flex gap-2">
           <input
-            type="file"
-            multiple
-            accept="image/*"
-            className="hidden"
-            onChange={(e) =>
-              setImages(Array.from(e.target.files || []))
-            }
+            value={imageUrl}
+            onChange={(e) => setImageUrl(e.target.value)}
+            placeholder="https://res.cloudinary.com/..."
+            className="flex-1 p-2 rounded bg-gray-800 border border-gray-700"
           />
+
+          <button
+            type="button"
+            onClick={() => {
+              if (!imageUrl.trim()) return;
+
+              setImages((prev) => [...prev, imageUrl]);
+              setImageUrl("");
+            }}
+            className="px-4 bg-blue-600 hover:bg-blue-700 rounded"
+          >
+            Ekle
+          </button>
+        </div>
+      </div>
+
+      {/* FILE UPLOAD */}
+      <div>
+        <label className="text-sm text-gray-300 block mb-2">
+          📸 Dosyadan Resim Yükle
         </label>
 
-        {/* PREVIEW */}
-        {images.length > 0 && (
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-            {images.map((img, index) => (
+        <input
+          type="file"
+          multiple
+          accept="image/*"
+          className="bg-gray-800 p-2 rounded border border-gray-700 w-full"
+          onChange={(e) =>
+            setImages((prev) => [
+              ...prev,
+              ...Array.from(e.target.files || []),
+            ])
+          }
+        />
+      </div>
+
+      {/* PREVIEW */}
+      {images.length > 0 && (
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {images.map((img, index) => {
+            const src =
+              typeof img === "string" ? img : URL.createObjectURL(img);
+
+            return (
               <div
                 key={index}
-                className="relative w-full h-40 rounded-lg overflow-hidden border border-gray-700"
+                className="relative h-40 rounded-lg overflow-hidden border border-gray-700"
               >
-                <img
-                  src={URL.createObjectURL(img)}
-                  className="w-full h-full object-cover"
-                />
+                <img src={src} className="w-full h-full object-cover" />
 
                 <button
                   onClick={() =>
-                    setImages((prev) =>
-                      prev.filter((_, i) => i !== index)
-                    )
+                    setImages((prev) => prev.filter((_, i) => i !== index))
                   }
-                  className="absolute top-2 right-2 bg-red-600 text-white w-7 h-7 rounded-full"
+                  className="absolute top-2 right-2 bg-red-600 w-6 h-6 rounded-full"
                 >
                   ✕
                 </button>
               </div>
-            ))}
-          </div>
-        )}
-      </div>
+            );
+          })}
+        </div>
+      )}
 
       {/* BUTTON */}
       <button
         onClick={handleSubmit}
         disabled={loading}
-        className="px-6 py-2 bg-yellow-600 hover:bg-yellow-700 rounded font-bold"
+        className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 rounded font-bold w-full"
       >
         {loading ? "Gönderiliyor..." : "Onaya Gönder"}
       </button>

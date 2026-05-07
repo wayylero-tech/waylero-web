@@ -206,7 +206,7 @@ Waylero rehberi ile tüm bölgeleri keşfedin:
 ---
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)  
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)  
       `,
 
       en: `
@@ -230,7 +230,7 @@ In addition, Topkapı Palace is an ideal destination for those wishing to explor
 Istanbul, the cultural and historical heart of the Marmara region, remains one of the top destinations for those seeking culture, history, and city tourism in the 2026 travel guides.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Istanbul](https://www.waylero.com/en/tr/kesfet/turkiye/istanbul)
+ [Click Here for Places to Visit in Istanbul](https://www.waylero.com/en/kesfet/turkiye/istanbul)
 
 ---
 ### 📍 Places to Visit in Edirne 2026
@@ -242,7 +242,7 @@ In addition, the Edirne Palace, with its rich Ottoman-era architecture, is an id
 With the historical and cultural heritage of the Marmara Region, Edirne remains one of the top destinations for cultural tourism seekers in 2026 among the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Edirne](https://www.waylero.com/en/tr/kesfet/turkiye/edirne)
+ [Click Here for Places to Visit in Edirne](https://www.waylero.com/en/kesfet/turkiye/edirne)
 
 ---
 ### 📍 Places to Visit in Bursa in 2026
@@ -254,7 +254,7 @@ Additionally, Cumalıkızık Village is a must-visit stop for those wishing to e
 With the rich history and natural beauty of the Marmara Region, Bursa continues to be one of the most popular destinations for tourists in 2026 among the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Bursa](https://www.waylero.com/en/tr/kesfet/turkiye/bursa)
+ [Click Here for Places to Visit in Bursa](https://www.waylero.com/en/kesfet/turkiye/bursa)
 
 ---
 ###  📍 Places to Visit in Çanakkale in 2026
@@ -266,7 +266,7 @@ In addition, the Gallipoli Peninsula Historical National Park is an ideal stop f
 Located where the Marmara and Aegean Seas meet, Çanakkale remains one of the top destinations for those seeking cultural and maritime tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Çanakkale](https://www.waylero.com/en/tr/kesfet/turkiye/canakkale)
+ [Click Here for Places to Visit in Çanakkale](https://www.waylero.com/en/kesfet/turkiye/canakkale)
 
 
 ---
@@ -279,7 +279,7 @@ Additionally, the coastal towns of Cunda Island and Ayvalık—famous for their 
 Located where the Marmara and Aegean regions meet, Balıkesir remains a significant alternative for those planning vacations in 2026 among the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Balıkesir](https://www.waylero.com/en/tr/kesfet/turkiye/balikesir)
+ [Click Here for Places to Visit in Balıkesir](https://www.waylero.com/en/kesfet/turkiye/balikesir)
 
 ---
 ### 📍 Places to Visit in Tekirdağ in 2026
@@ -293,7 +293,7 @@ For nature and camping enthusiasts, Uçmakdere is a popular destination for both
 The 2026 guide to places to visit in Tekirdağ offers comprehensive itineraries for those seeking to combine maritime tourism, history, and gastronomy. With the peaceful atmosphere of the Marmara region, Tekirdağ continues to be one of the top destinations for weekend getaways and cultural trips in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Tekirdağ](https://www.waylero.com/en/tr/kesfet/turkiye/tekirdag)
+ [Click Here for Places to Visit in Tekirdağ](https://www.waylero.com/en/kesfet/turkiye/tekirdag)
 
 ---
 ### 📍 Places to Visit in Sakarya in 2026
@@ -305,7 +305,7 @@ Additionally, Acarlar Longozu is an ideal destination for those interested in ec
 With the natural and cultural beauties of the Marmara region, Sakarya remains one of the top destinations for nature and cultural tourism in the 2026 itinerary of places to visit.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Sakarya](https://www.waylero.com/en/tr/kesfet/turkiye/sakarya)
+ [Click Here for Places to Visit in Sakarya](https://www.waylero.com/en/kesfet/turkiye/sakarya)
 
 ---
 ### 📍 Places to Visit in Kocaeli in 2026
@@ -317,7 +317,7 @@ In addition, the Gayret Ship Museum is an ideal destination for those wishing to
 With the green landscapes and historical charm of the Marmara region, Kocaeli remains one of the top destinations for those seeking cultural and nature tourism in the 2026 itinerary.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Kocaeli](https://www.waylero.com/en/tr/kesfet/turkiye/kocaeli)
+ [Click Here for Places to Visit in Kocaeli](https://www.waylero.com/en/kesfet/turkiye/kocaeli)
 ---
 ### 📍 Places to Visit in Yalova in 2026
 
@@ -330,7 +330,7 @@ As a hub for thermal tourism, Yalova Thermal Springs are visited year-round for 
 The 2026 Guide to Places to Visit in Yalova offers comprehensive itineraries for those seeking to experience nature, health, and history tourism all in one. With its proximity to Istanbul, Yalova remains one of the most preferred destinations for weekend getaways in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Yalova](https://www.waylero.com/en/tr/kesfet/turkiye/yalova)
+ [Click Here for Places to Visit in Yalova](https://www.waylero.com/en/kesfet/turkiye/yalova)
 
 ---
 ### 📍 Places to Visit in Bilecik 2026
@@ -342,7 +342,7 @@ Additionally, Söğüt holds great significance for both historical and cultural
 With the Marmara Region’s lush natural beauty and historical charm, Bilecik remains one of the top destinations for cultural tourism in the 2026 travel guides.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Bilecik](https://www.waylero.com/en/tr/kesfet/turkiye/bilecik)
+ [Click Here for Places to Visit in Bilecik](https://www.waylero.com/en/kesfet/turkiye/bilecik)
 
 ---
 

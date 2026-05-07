@@ -142,6 +142,185 @@ export default function BlogListView({ user }: any) {
                       />
                     </div>
                   )}
+                  {/* JSON EXPORT PANEL */}
+<div className="border-t border-gray-800 bg-black/30 p-4">
+  <div className="flex items-center justify-between mb-3">
+    <h3 className="text-xs uppercase tracking-widest text-gray-500 font-bold">
+      JSON Export
+    </h3>
+
+    <button
+      onClick={() => {
+        const blogJson = {
+          slug: blog.slug || "",
+
+          title: {
+            tr:
+              typeof blog.title === "object"
+                ? blog.title.tr
+                : blog.title || "",
+
+            en:
+              typeof blog.title === "object"
+                ? blog.title.en
+                : "",
+          },
+
+          excerpt: {
+            tr:
+              typeof blog.excerpt === "object"
+                ? blog.excerpt.tr
+                : blog.excerpt || "",
+
+            en:
+              typeof blog.excerpt === "object"
+                ? blog.excerpt.en
+                : "",
+          },
+
+          image:
+            blog.image ||
+            blog.gallery?.[0] ||
+            "",
+
+          gallery: Array.isArray(blog.gallery)
+            ? blog.gallery
+            : [],
+
+          date:
+            blog.date ||
+            new Date()
+              .toISOString()
+              .split("T")[0],
+
+          city: blog.city || "",
+
+          seo: {
+            tr: {
+              title:
+                blog.seo?.tr?.title || "",
+
+              description:
+                blog.seo?.tr?.description || "",
+            },
+
+            en: {
+              title:
+                blog.seo?.en?.title || "",
+
+              description:
+                blog.seo?.en?.description || "",
+            },
+          },
+
+          content: {
+            tr:
+              typeof blog.content === "object"
+                ? blog.content.tr
+                : blog.content || "",
+
+            en:
+              typeof blog.content === "object"
+                ? blog.content.en
+                : "",
+          },
+        };
+
+        navigator.clipboard.writeText(
+          JSON.stringify(blogJson, null, 2)
+        );
+
+        alert("JSON kopyalandı 🚀");
+      }}
+      className="text-xs bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded-lg transition"
+    >
+      JSON Kopyala
+    </button>
+  </div>
+
+  <textarea
+    readOnly
+    value={JSON.stringify(
+      {
+        slug: blog.slug || "",
+
+        title: {
+          tr:
+            typeof blog.title === "object"
+              ? blog.title.tr
+              : blog.title || "",
+
+          en:
+            typeof blog.title === "object"
+              ? blog.title.en
+              : "",
+        },
+
+        excerpt: {
+          tr:
+            typeof blog.excerpt === "object"
+              ? blog.excerpt.tr
+              : blog.excerpt || "",
+
+          en:
+            typeof blog.excerpt === "object"
+              ? blog.excerpt.en
+              : "",
+        },
+
+        image:
+          blog.image ||
+          blog.gallery?.[0] ||
+          "",
+
+        gallery: Array.isArray(blog.gallery)
+          ? blog.gallery
+          : [],
+
+        date:
+          blog.date ||
+          new Date()
+            .toISOString()
+            .split("T")[0],
+
+        city: blog.city || "",
+
+        seo: {
+          tr: {
+            title:
+              blog.seo?.tr?.title || "",
+
+            description:
+              blog.seo?.tr?.description || "",
+          },
+
+          en: {
+            title:
+              blog.seo?.en?.title || "",
+
+            description:
+              blog.seo?.en?.description || "",
+          },
+        },
+
+        content: {
+          tr:
+            typeof blog.content === "object"
+              ? blog.content.tr
+              : blog.content || "",
+
+          en:
+            typeof blog.content === "object"
+              ? blog.content.en
+              : "",
+        },
+      },
+      null,
+      2
+    )}
+    className="w-full min-h-[350px] bg-gray-950 border border-gray-800 rounded-xl p-4 text-xs font-mono text-green-400 resize-y outline-none"
+  />
+</div>
 
                 </div>
               </div>

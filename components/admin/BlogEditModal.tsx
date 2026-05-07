@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { db } from "@/lib/firebase";
 import { collection, addDoc, doc, deleteDoc, serverTimestamp, setDoc } from "firebase/firestore";
+import RichEditor from "./RichEditor";
 
 export default function BlogEditModal({ blog, onClose }: any) {
   const [loading, setLoading] = useState(false);
@@ -41,16 +42,16 @@ export default function BlogEditModal({ blog, onClose }: any) {
         city: city.toLowerCase(),
 
         seo: {
-          title: {
-            tr: titleTr,
-            en: titleEn
-          },
-          description: {
-            tr: excerptTr,
-            en: excerptEn
-          }
-        },
+  tr: {
+    title: titleTr,
+    description: excerptTr
+  },
 
+  en: {
+    title: titleEn,
+    description: excerptEn
+  }
+},
         content: {
           tr: contentTr,
           en: contentEn
