@@ -125,14 +125,13 @@ export default async function ActivitiesPage({
     // ÇÖZÜM: Tam URL ve Kimlik Bilgisi (Headers) ekledik
     const finalUrl = `${BASE_SITE_URL}/api/events?${apiParams.toString()}`;
 
-    console.log("FINAL URL:", finalUrl);
-
-const res = await fetch(finalUrl, {
-  next: { revalidate: 21600 },
-  cache: "no-store",
-});
-
-console.log("STATUS:", res.status);
+    const res = await fetch(finalUrl, {
+      next: { revalidate: 21600 },
+      headers: {
+        'Accept': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
 
     if (res.ok) {
       const data = await res.json();
