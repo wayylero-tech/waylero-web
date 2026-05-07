@@ -37,6 +37,7 @@ export default function AdminSidebar({
       { id: "pending-blogs", label: "Onay Bekleyen Bloglar", icon: "⏳" },
       { id: "blog-create", label: "Blog Yazısı Yaz", icon: "✍️" },
       { id: "upload", label: "Resim Yükle", icon: "🖼️" },
+      { id: "image-square", label: "400x400 Resim Düzenle", icon: "🟦" },
       { id: "settings", label: "Ayarlar & Yetki", icon: "⚙️" },
     ];
   })();

@@ -8,6 +8,7 @@ import DashboardView from "@/components/admin/DashboardView";
 import AdminSidebar from "@/components/admin/AdminSidebar";
 import SettingsView from "@/components/admin/SettingsView";
 import MediaView from "@/components/admin/MediaView";
+import ImageSquareMaker from "@/components/admin/ImageSquareMaker";
 
 import BlogListView from "@/components/admin/BlogListView";
 import PendingBlogsView from "@/components/admin/PendingBlogsView";
@@ -63,34 +64,39 @@ export default function AdminPage({ params }: { params: Promise<{ lang: string }
       <main className="flex-1 bg-gray-900 border border-gray-800 rounded-3xl p-8 shadow-2xl overflow-y-auto">
 
         {activeView === "blog-list" && (
-          <BlogListView user={user} lang={lang} /> // Gerekirse dili içeri pasladık
-        )}
+  <BlogListView user={user} lang={lang} />
+)}
 
-        {activeView === "pending-blogs" && (
-          <PendingBlogsView user={user} />
-        )}
+{activeView === "pending-blogs" && (
+  <PendingBlogsView user={user} />
+)}
 
-        {activeView === "blog-create" && (
-          <BlogCreateView user={user} />
-        )}
+{activeView === "blog-create" && (
+  <BlogCreateView user={user} />
+)}
 
-        {activeView === "upload" && isAdmin && (
-          <MediaView user={user} />
-        )}
+{activeView === "upload" && isAdmin && (
+  <MediaView user={user} />
+)}
 
-        {activeView === "dashboard" && (
-          <DashboardView />
-        )}
+{/* YENİ EKLENDİ */}
+{activeView === "image-square" && isAdmin && (
+  <ImageSquareMaker />
+)}
 
-        {activeView === "settings" && isSuperAdmin && (
-          <SettingsView
-            role={role}
-            authUsers={authUsers}
-            handleAddAuth={handleAddAuth}
-            handleDeleteAuth={handleDeleteAuth}
-            SUPER_ADMIN_EMAIL={SUPER_ADMIN_EMAIL}
-          />
-        )}
+{activeView === "dashboard" && (
+  <DashboardView />
+)}
+
+{activeView === "settings" && isSuperAdmin && (
+  <SettingsView
+    role={role}
+    authUsers={authUsers}
+    handleAddAuth={handleAddAuth}
+    handleDeleteAuth={handleDeleteAuth}
+    SUPER_ADMIN_EMAIL={SUPER_ADMIN_EMAIL}
+  />
+)}
 
       </main>
     </div>
