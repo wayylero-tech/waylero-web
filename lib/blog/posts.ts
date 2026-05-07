@@ -27,6 +27,7 @@ import { turkeyPostDoguAnadolu } from "@/data/blog/turkey/psostsdoguanadolu";
 import { turkeyPostGunaydogu } from "@/data/blog/turkey/postsguneydoguanadolu";
 import { catalhoyukPosts } from "@/data/blog/konya/posts4";
 import { ihlaraRehberPost } from "@/data/blog/aksaray/posts";
+import { daraAntikPosts } from "@/data/blog/mardin/posts";
 
 export const allPosts = [
    ...generalPosts,
@@ -57,5 +58,6 @@ export const allPosts = [
   ...turkeyPostDoguAnadolu,
   ...turkeyPostGunaydogu,
   ...catalhoyukPosts,
-  ...ihlaraRehberPost
+  ...ihlaraRehberPost,
+...daraAntikPosts
 ];

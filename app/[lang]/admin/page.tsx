@@ -13,7 +13,6 @@ import ImageSquareMaker from "@/components/admin/ImageSquareMaker";
 import BlogListView from "@/components/admin/BlogListView";
 import PendingBlogsView from "@/components/admin/PendingBlogsView";
 import BlogCreateView from "@/components/admin/BlogCreateView";
-import PendingBlogsJsonExporter from "@/components/admin/PendingBlogsJsonExporter";
 
 
 import { useAdminAuth } from "@/hooks/useAdminAuth";
@@ -88,10 +87,6 @@ export default function AdminPage({ params }: { params: Promise<{ lang: string }
 
 {activeView === "dashboard" && (
   <DashboardView />
-)}
-
-{activeView === "blog-json-export" && isAdmin && (
-  <PendingBlogsJsonExporter />
 )}
 
 {activeView === "settings" && isSuperAdmin && (

@@ -50,14 +50,16 @@ export default function BlogCreateView({ user }: any) {
     try {
       // ☁️ IMAGE PROCESS (file + url mix)
       const uploadedImages = await Promise.all(
-        images.map(async (img) => {
-          if (typeof img === "string") {
-            return img; // 🔥 URL ise direkt kullan
-          }
+  images.map(async (img) => {
+    // 🔥 URL ise direkt kullan
+    if (typeof img === "string") {
+      return img;
+    }
 
-          return await uploadImageToCloudinary(img);
-        })
-      );
+    // 🔥 File ise Cloudinary upload
+    return await uploadImageToCloudinary(img);
+  })
+);
 
       await addDoc(collection(db, "pending_blogs"), {
         title: title.trim(),
@@ -125,7 +127,10 @@ export default function BlogCreateView({ user }: any) {
             onClick={() => {
               if (!imageUrl.trim()) return;
 
-              setImages((prev) => [...prev, imageUrl]);
+              setImages((prev) => {
+  if (prev.includes(imageUrl)) return prev;
+  return [...prev, imageUrl];
+});
               setImageUrl("");
             }}
             className="px-4 bg-blue-600 hover:bg-blue-700 rounded"
