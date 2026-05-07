@@ -71,7 +71,7 @@ Tarih ve mimari meraklıları için türbeler, Selçuklu kültürünü ve Anadol
 Bu iki türbe, Konya’nın Selçuklu mirasını keşfetmek isteyen herkes için mutlaka görülmesi gereken noktalardan biridir.
 
 Yeni destinasyonlar ve gezi rehberleri için 
-**[gezi blog yazıları ve rehberler](https://www.waylero.com/blog)** 
+**[gezi blog yazıları ve rehberler](https://www.waylero.com/tr/blog)** 
 sayfamızı ziyaret edebilirsiniz.
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**

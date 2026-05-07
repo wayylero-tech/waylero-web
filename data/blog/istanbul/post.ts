@@ -84,7 +84,7 @@ Yakındaki tarihi yapılar ve müzelerle birlikte İstanbul’un en önemli turi
 
 
 İstanbul’un en önemli tarihi yapılarından biri olan 
-**[Ayasofya hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/ayasofya)** 
+**[Ayasofya hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/istanbul/ayasofya)** 
 tarih ve mimari açısından eşsiz bir eserdir.
 
 ---
@@ -120,7 +120,7 @@ Yakındaki müzeler ve tarihi yapılarla İstanbul’un en önemli turistik rota
 💡 İpucu: Harem bölümü için ekstra bilet gerekebilir; sabah erken giderek hem kalabalıktan kaçınabilir hem de tüm alanları rahatça gezebilirsiniz.
 
 Osmanlı İmparatorluğu’nun yönetim merkezi olan 
-**[Topkapı Sarayı hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/topkapi-sarayi)** 
+**[Topkapı Sarayı hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/istanbul/topkapi-sarayi)** 
 tarihi koleksiyonlarıyla dünyanın en önemli saraylarından biridir.
 
 ---
@@ -156,7 +156,7 @@ Yakındaki tarihi yapılar ile birlikte İstanbul’un en önemli turistik rotas
 💡 İpucu: İbadet saatlerinde cami ziyareti kısıtlı olabilir; ziyaretinizi namaz saatleri dışında planlamak daha rahat bir gezi sağlar.
 
 İstanbul’un en ikonik yapılarından biri olan 
-**[Sultanahmet Camii hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/sultanahmet-camii)** 
+**[Sultanahmet Camii hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/istanbul/sultanahmet-camii)** 
 Osmanlı mimarisinin en önemli eserlerindendir.
 
 ---
@@ -190,7 +190,7 @@ Sessiz ve mistik atmosferde İstanbul’un tarihini hissetmek
 Yakındaki tarihi yapılarla birlikte Sultanahmet bölgesini gezmek
 
 İstanbul’un en etkileyici tarihi yapılarından biri olan 
-**[Yerebatan Sarnıcı hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/yerebatan-sarnici)** 
+**[Yerebatan Sarnıcı hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/istanbul/yerebatan-sarnici)** 
 Bizans döneminden günümüze ulaşan en önemli su sarnıçlarındandır.
 
 ---
@@ -226,7 +226,7 @@ Rehberli tur ile Dolmabahçe Sarayı’nın tarihini detaylıca öğrenmek
 💡 İpucu: Sabah erken saatlerde veya öğleden sonra geç saatlerde ziyaret etmek, kalabalıktan kaçınmak ve fotoğraf çekmek için en uygun zamanlardır.
 
 İstanbul Boğazı kıyısında yer alan 
-**[Dolmabahçe Sarayı](https://www.waylero.com/kesfet/turkiye/istanbul/dolmabahce-sarayi)** 
+**[Dolmabahçe Sarayı](https://www.waylero.com/tr/kesfet/turkiye/istanbul/dolmabahce-sarayi)** 
 Osmanlı’nın modernleşme döneminin en önemli simgelerindendir.
 
 ---
@@ -264,7 +264,7 @@ Yakındaki kafelerde ve İstiklal Caddesi’nde İstanbul’un modern ve tarihi 
 💡 İpucu: Gün batımında kuleye çıkmak, hem muhteşem manzara hem de gün ışığının yarattığı altın renkleriyle unutulmaz fotoğraflar için idealdir.
 
 İstanbul gezinizde mutlaka görmeniz gereken 
-**[Galata Kulesi gezi rehberi](https://www.waylero.com/kesfet/turkiye/istanbul/galata-kulesi)** 
+**[Galata Kulesi gezi rehberi](https://www.waylero.com/tr/kesfet/turkiye/istanbul/galata-kulesi)** 
 şehrin en iyi manzara noktalarından biridir.
 
 
@@ -301,7 +301,7 @@ Yakındaki tarihi yapılar ve camileri gezmek
 💡 İpucu: Kalabalıktan kaçınmak için sabah erken saatlerde veya hafta içi ziyaret etmek daha rahat bir gezi sağlar.
 
 Osmanlı döneminden günümüze uzanan tarihiyle 
-**[Kapalıçarşı](https://www.waylero.com/kesfet/turkiye/istanbul/kapalicarsi)** 
+**[Kapalıçarşı](https://www.waylero.com/tr/kesfet/turkiye/istanbul/kapalicarsi)** 
 İstanbul’un en çok ziyaret edilen alışveriş noktalarından biridir.
 
 ---
@@ -337,7 +337,7 @@ Yakındaki Yeni Camii ve Galata Köprüsü ile birlikte İstanbul’un turistik 
 💡 İpucu: Sabah erken saatlerde veya hafta içi ziyaret etmek, kalabalıktan kaçınmanızı ve rahat bir alışveriş deneyimi yaşamanızı sağlar.
 
 İstanbul’un en ünlü tarihi baharat çarşılarından biri olan 
-**[Mısır Çarşısı hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/misir-carsisi)** 
+**[Mısır Çarşısı hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/istanbul/misir-carsisi)** 
 yüzyıllardır ticaretin önemli merkezlerinden biridir.
 
 
@@ -375,9 +375,7 @@ Boğaz köprüsü ve çevresini fotoğraflamak
 
 💡 İpucu: Gün batımında meydana gelmek, Boğaziçi Köprüsü’nün ışıklarıyla harika fotoğraflar çekmenizi sağlar.
 
-İstanbul Boğazı kıyısında yer alan en popüler meydanlardan biri olan 
-**[Ortaköy Meydanı hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/ortakoy-meydani)** 
-tarihi camisi ve sahiliyle ünlüdür.
+İstanbul Boğazı kıyısında yer alan en popüler meydanlardan biri olan tarihi camisi ve sahiliyle ünlüdür.
 
 ---
 
@@ -412,7 +410,7 @@ Yürüyüş yollarında doğa ile iç içe vakit geçirmek
 💡 İpucu: Gün batımında tepeye çıkmak, Boğaz ve İstanbul siluetini altın ışıklarla görmek için en uygun zamanlardır.
 
 İstanbul Boğazı ve şehir manzarasını en iyi görebileceğiniz noktalardan biri olan 
-**[Çamlıca Tepesi](https://www.waylero.com/kesfet/turkiye/istanbul/camlica-tepesi)** 
+**[Çamlıca Tepesi](https://www.waylero.com/tr/kesfet/turkiye/istanbul/camlica-tepesi)** 
 özellikle gün batımında çok popülerdir.
 
 
@@ -449,7 +447,7 @@ Yakındaki Eyüp Sultan Camii ve tarihi bölgeleri gezmek
 💡 İpucu: Gün batımında tepeye çıkmak, Haliç’in altın renklerle buluştuğu romantik manzarayı yakalamanızı sağlar.
 
 Haliç’i yukarıdan izleyebileceğiniz en güzel noktalardan biri olan 
-**[Pierre Loti Tepesi](https://www.waylero.com/kesfet/turkiye/istanbul/pierre-loti-tepesi)** 
+**[Pierre Loti Tepesi](https://www.waylero.com/tr/kesfet/turkiye/istanbul/pierre-loti-tepesi)** 
 İstanbul’un en huzurlu manzara alanlarından biridir.
 
 ---
@@ -485,7 +483,7 @@ Fotoğraf ve video çekimleri için eşsiz açıları değerlendirmek
 💡 İpucu: Gün batımı ve akşam ışıklandırmaları, Kız Kulesi fotoğraflarını daha etkileyici hale getirir; tekne yolculuğunu planlamak için öğleden önce veya gün batımına yakın saatleri tercih edin.
 
 İstanbul Boğazı’nın simgelerinden biri olan 
-**[Kız Kulesi hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/istanbul/kiz-kulesi)** 
+**[Kız Kulesi hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/istanbul/kiz-kulesi)** 
 tarihi ve efsaneleriyle şehrin en ikonik yapılarındandır.
 
 ---
@@ -522,7 +520,7 @@ Yakındaki tarihi müzeler ve saraylarla birlikte İstanbul’un kültürel rota
 
 💡 İpucu: Sabah saatlerinde parkın sessiz ve sakin atmosferinde yürüyüş yapmak, hem kalabalıktan kaçınmanızı hem de fotoğraf için en iyi ışığı yakalamanızı sağlar.
 
-Detaylar için tıkla 🔗 **[Gülhane Parkı](https://www.waylero.com/kesfet/turkiye/istanbul/gulhane-parki)**
+Detaylar için tıkla 🔗 **[Gülhane Parkı](https://www.waylero.com/tr/kesfet/turkiye/istanbul/gulhane-parki)**
 
 ---
 
@@ -556,7 +554,7 @@ Yakındaki Sakıp Sabancı Müzesi ve sahil rotasını keşfetmek
 
 💡 İpucu: Nisan ayında düzenlenen Lale Festivali zamanı ziyaret etmek, korunun en renkli ve çiçeklerle dolu hâlini görmek için ideal zamandır.
 
-Detaylar için tıkla 🔗 **[Emirgan Korusu](https://www.waylero.com/kesfet/turkiye/istanbul/emirgan-korusu)**
+Detaylar için tıkla 🔗 **[Emirgan Korusu](https://www.waylero.com/tr/kesfet/turkiye/istanbul/emirgan-korusu)**
 
 ---
 
@@ -590,7 +588,7 @@ Yakındaki Atatürk Arboretumu ve diğer doğal alanları keşfetmek
 
 💡 İpucu: Hafta sonları oldukça kalabalık olabileceği için sabah erken saatlerde ziyaret etmek, doğanın keyfini daha sakin bir şekilde çıkarmanızı sağlar.
 
-Detaylar için tıkla 🔗 **[Belgrad Ormanı](https://www.waylero.com/kesfet/turkiye/istanbul/belgrad-ormani)**
+Detaylar için tıkla 🔗 **[Belgrad Ormanı](https://www.waylero.com/tr/kesfet/turkiye/istanbul/belgrad-ormani)**
 
 ---
 
@@ -626,7 +624,6 @@ Yakındaki Fener ve Haliç bölgeleri ile birlikte tarihi keşif yapmak
 
 💡 İpucu: Sabah saatleri Balat’ın sakin atmosferini yaşamak ve fotoğraf çekmek için en uygun zamanlardır.
 
-Detaylar için tıkla 🔗 **[Balat](https://www.waylero.com/kesfet/turkiye/istanbul/balat)**
 
 ---
 
@@ -660,8 +657,6 @@ Yakındaki Tophane ve Galata Kulesi ile birlikte İstanbul’un kültürel rotas
 
 💡 İpucu: Sabah veya akşam saatlerinde semtin kafelerinde oturup Haliç manzarasını izlemek, Karaköy’ün atmosferini en iyi şekilde yaşamanızı sağlar.
 
-Detaylar için tıkla 🔗 **[Karaköy](https://www.waylero.com/turkiye/turkiye/istanbul/karakoy)**
-
 ---
 
 ## 🏙 Kadıköy – İstanbul’un Asya Yakası Kültür ve Eğlence Merkezi
@@ -694,7 +689,7 @@ Alışveriş yapmak ve bölgedeki müzik mekanlarını keşfetmek
 
 💡 İpucu: Hafta sonları Kadıköy oldukça kalabalık olabileceği için, sabah erken veya akşamüstü saatlerinde gezmek daha keyifli bir deneyim sunar.
 
-Detaylar için tıkla 🔗 **[Kadıköy](https://www.waylero.com/kesfet/turkiye/istanbul/kadikoy)**
+
 
 ---
 
@@ -728,7 +723,6 @@ Yakındaki Çamlıca Tepesi ve Kız Kulesi ile birlikte İstanbul turunu tamamla
 
 💡 İpucu: Gün batımında Üsküdar sahiline gelmek, Boğaz’ın ve İstanbul siluetinin en güzel manzarasını yakalamanızı sağlar.
 
-Detaylar için tıkla 🔗 **[Üsküdar](https://www.waylero.com/kesfet/turkiye/istanbul/uskudar)**
 
 ---
 
@@ -755,7 +749,7 @@ Toplamda **3 gün İstanbul’u keşfetmek için ideal süredir.**
 ---
 
 Tarihi yapıları, Boğaz manzarası ve kültürel noktalarıyla 
-**[İstanbul](https://www.waylero.com/kesfet/turkiye/istanbul)** 
+**[İstanbul](https://www.waylero.com/tr/kesfet/turkiye/istanbul)** 
 Türkiye’nin en çok ziyaret edilen şehridir.
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
@@ -1077,7 +1071,7 @@ Explore street performers and market stalls
 Take photos of the Bosphorus Bridge and its surroundings
 
 💡 Tip: Arriving at the square at sunset allows you to take amazing photos with the lights of the Bosphorus Bridge.
-Click here for details 🔗 **[Ortaköy Square](https://www.waylero.com/en/kesfet/turkiye/istanbul/ortakoy-meydani)**
+
 
 ---
 ## 🌄 Çamlıca Hill – Istanbul’s Panoramic View
@@ -1319,7 +1313,7 @@ Explore the historic areas of Fener and the Golden Horn
 
 💡 Tip: Morning hours are the best time to experience Balat’s peaceful atmosphere and take photos.
 
-Click here for details 🔗 **[Balat](https://www.waylero.com/en/kesfet/turkiye/istanbul/balat)**
+
 
 ---
 
@@ -1353,7 +1347,6 @@ Complete Istanbul’s cultural route by visiting nearby Tophane and the Galata T
 
 💡 Tip: Sitting in the neighborhood’s cafes in the morning or evening to watch the Golden Horn view lets you experience Karaköy’s atmosphere at its best.
 
-Click here for details 🔗 **[Karaköy](https://www.waylero.com/en/kesfet/turkiye/istanbul/karakoy)**
 
 ---
 ## 🏙 Kadıköy – Istanbul’s Asian Side Cultural and Entertainment Hub
@@ -1386,7 +1379,7 @@ Go shopping and discover the area’s music venues
 
 💡 Tip: Since Kadıköy can get quite crowded on weekends, exploring in the early morning or late afternoon offers a more enjoyable experience.
 
-Click here for details 🔗 **[Kadıköy](https://www.waylero.com/en/kesfet/turkiye/istanbul/kadikoy)**
+
 
 ---
 ## 🌊 Üsküdar – Istanbul’s Historic Neighborhood Overlooking the Bosphorus

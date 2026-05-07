@@ -51,7 +51,7 @@ Ege Bölgesi, tarih, doğa ve denizin kusursuz uyumunu bir arada sunan nadir des
 
 Bu içerik, **Türkiye’de Gezilecek Yerler 2026** ana rehberimizin bir parçasıdır.  
 
-👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
+👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/tr/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
 
 ---
 
@@ -64,7 +64,7 @@ Bunun yanında Efes Antik Kenti, antik dönem izlerini görmek isteyenler için 
 Ege’nin tarihi ve sahil zenginlikleriyle İzmir, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve deniz turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [İzmir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/izmir)
+ [İzmir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/izmir)
 
 
 ---
@@ -77,7 +77,7 @@ Bunun yanında Fethiye Ölüdeniz, Muğla’nın doğal güzelliklerini keşfetm
 Ege’nin turkuaz koyları ve tarihi dokusuyla Muğla, gezilecek yerler 2026 rotaları arasında 2026 yılında da yaz ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Muğla'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/mugla)
+ [Muğla'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/mugla)
 
 
 ---
@@ -90,7 +90,7 @@ Bunun yanında Kuşadası ve Didim gibi sahil beldeleri, plajları ve mavi bayra
 Ege’nin sıcak iklimi ve tarihi zenginliği ile Aydın, gezilecek yerler 2026 rotaları arasında 2026 yılında da hem yerli hem yabancı turistlerin öncelikli duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Aydın'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/aydin)
+ [Aydın'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/aydin)
 
 ---
 ## 📍 Denizli’de Gezilecek Yerler 2026
@@ -102,7 +102,7 @@ Bunun yanında Hierapolis Antik Kenti, Roma ve Bizans dönemine ait kalıntılar
 Ege Bölgesi’nin sıcak iklimi ve doğal zenginlikleriyle Denizli, gezilecek yerler 2026 rotaları arasında 2026 yılında da turistlerin gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Denizli'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/denizli)
+ [Denizli'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/denizli)
 
 ---
 ##  📍 Manisa’da Gezilecek Yerler 2026
@@ -114,7 +114,7 @@ Bunun yanında Sardes Antik Kenti, bölgenin antik dönem izlerini keşfetmek is
 Ege’nin tarih ve doğal güzellikleriyle Manisa, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Manisa'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/manisa)
+ [Manisa'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/manisa)
 
 ---
 ## 📍 Afyonkarahisar’da Gezilecek Yerler 2026
@@ -126,7 +126,7 @@ Bunun yanında Frig Vadisi, kaya anıtları ve yürüyüş rotalarıyla doğa ve
 Hem kültürel keşif hem dinlenme tatili arayanlar için Afyonkarahisar’da gezilecek yerler 2026 rotaları, 2026 yılında da alternatif turizm arayanların tercihleri arasında yer almaktadır.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
-[Afyonkarahisar'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/afyonkarahisar)
+[Afyonkarahisar'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/afyonkarahisar)
 
 ---
 ##  📍 Uşak’ta Gezilecek Yerler 2026
@@ -140,7 +140,7 @@ Tarihî zenginlikler arasında yer alan Uşak Arkeoloji Müzesi, Lidya dönemine
 Uşak’ta gezilecek yerler 2026 rehberi; tarih, doğa ve kültürü bir arada deneyimlemek isteyenler için kapsamlı rotalar sunar. Ege’nin sakin atmosferiyle Uşak, 2026 yılında da keşfedilmeyi bekleyen şehirler arasında yer almaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Uşak'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/usak)
+ [Uşak'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/usak)
 
 ---
 ##  📍 Kütahya’da Gezilecek Yerler 2026
@@ -152,7 +152,7 @@ Bunun yanında Aizanoi Antik Kenti, bölgenin antik dönem izlerini keşfetmek i
 Ege’nin kültür ve tarih merkezi Kütahya, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve sanat turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kütahya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kutahya)
+ [Kütahya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kutahya)
 
 
 
@@ -173,18 +173,18 @@ Ege Bölgesi 2026 yılında da her bütçeye ve her zevke hitap eden bir rota su
 ## 🌍 Diğer Bölgeleri Keşfet
 
 Waylero rehberi ile tüm bölgeleri keşfedin:  
-- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
-- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
-- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
-- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
-- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
-- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
-- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
+- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
+- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
+- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/tr/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
+- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
+- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
+- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)  
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)  
       `,
 
       en: `
@@ -238,7 +238,7 @@ In addition, coastal towns like Kuşadası and Didim are ideal for summer touris
 With the Aegean’s warm climate and rich history, Aydın remains one of the top destinations for both domestic and international tourists in the 2026 travel guide.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Aydın](https://www.waylero.com//en/kesfet/turkiye/aydin)
+ [Click Here for Places to Visit in Aydın](https://www.waylero.com/en/kesfet/turkiye/aydin)
 
 ---
 ## 📍 Places to Visit in Manisa in 2026

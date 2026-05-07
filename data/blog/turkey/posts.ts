@@ -51,7 +51,7 @@ Marmara'nın batısında **Çanakkale ve Gelibolu**, hem doğal güzellikleri he
 
 Marmara Bölgesi, hem şehir hem doğa hem de tarih meraklıları için oldukça çeşitlidir. İstanbul’un tarihi merkezlerinden başlayarak, Bursa’nın Osmanlı izlerini takip edin, Çanakkale’nin antik ve savaş tarihini keşfedin, Kaz Dağları’nda doğayla baş başa kalın. Bu kombinasyon, Marmara’yı Türkiye’de gezilecek yerler listenizin vazgeçilmez bir parçası yapar.  
 
-👉 [Marmara Gezi Rehberi ile Keşfet](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)
+👉 [Marmara Gezi Rehberi ile Keşfet](https://www.waylero.com/tr/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)
 
 ---
 
@@ -63,7 +63,7 @@ Doğa tutkunları için Ege kıyılarındaki masmavi koylar, yürüyüş rotalar
 
 Ege, sadece deniz değil; aynı zamanda dağ ve ova manzaralarıyla da büyüler. **Kaz Dağı Milli Parkı** ve **Spil Dağı** gibi doğal alanlarda trekking, fotoğraf ve doğa keşfi yapmak mümkündür. Bölgede, kıyı ve iç kesim kombinasyonu sayesinde ziyaretçiler hem antik tarihi hem de doğal güzellikleri tek bir rotada deneyimleyebilir.
 
-👉 [Ege Gezi Rehberi ile Hemen Keşfedin](www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)
+👉 [Ege Gezi Rehberi ile Hemen Keşfedin](www.waylero.com/tr/blog/ege/turkiyede-gezilecek-yerler-2026-ege)
 
 ---
 
@@ -75,7 +75,7 @@ Doğa tutkunları için Akdeniz’in dağları, gölleri ve sahil şeritleri unu
 
 Akdeniz’in kıyıları, sadece deniz değil; aynı zamanda su sporları ve keşif turları için de uygundur. Örneğin, Kekova ve Kaş çevresindeki batık şehirler ve gizli koylar, tarih ve denizin birleştiği eşsiz deneyimler sunar.
 
-👉 [Akdeniz Gezi Rehberi ile Keşfe Başlayın](www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)
+👉 [Akdeniz Gezi Rehberi ile Keşfe Başlayın](www.waylero.com/tr/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)
 
 ---
 
@@ -99,7 +99,7 @@ Selçuklu dönemi eserleri, **Konya Mevlana Müzesi**, camiler ve kervansaraylar
 
 İç Anadolu, hem tarih hem de doğal keşif için eşsiz bir bölgedir. Şehir merkezlerinden başlayarak, Kapadokya’nın peri bacalarını, Tuz Gölü’nün eşsiz manzarasını ve Selçuklu mirasını bir arada keşfetmek mümkündür.  
 
-👉 [İç Anadolu Gezi Rehberi ile Masala Yolculuk](www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)
+👉 [İç Anadolu Gezi Rehberi ile Masala Yolculuk](www.waylero.com/tr/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)
 
 ---
 
@@ -111,7 +111,7 @@ Tarih meraklıları için Doğu Anadolu, **Ani Harabeleri**, **Van Kalesi** ve *
 
 Doğa ve tarih birleşimi, Doğu Anadolu’yu trekking, dağcılık ve kültür turizmi için eşsiz bir destinasyon yapar. Ağrı Dağı ve Nemrut Dağı çevresi, bölgenin dramatik manzaralarını deneyimlemek isteyenler için vazgeçilmezdir.  
 
-👉 [Doğu Anadolu Gezi Rehberi ile Keşfe Çıkın](www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)
+👉 [Doğu Anadolu Gezi Rehberi ile Keşfe Çıkın](www.waylero.com/tr/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)
 
 ---
 
@@ -120,7 +120,7 @@ Doğa ve tarih birleşimi, Doğu Anadolu’yu trekking, dağcılık ve kültür 
 Güneydoğu Anadolu, Mardin, Gaziantep, Şanlıurfa ve Diyarbakır ile Mezopotamya uygarlıklarının kalbidir. **Göbeklitepe**, dünyanın en eski tapınak kompleksi olarak bölgeyi tarih meraklıları için eşsiz kılar. **Hasankeyf**, Dicle Nehri kıyısındaki kalıntıları ve mağara yerleşimleri ile ziyaretçileri zamanda yolculuğa çıkarır.
 
 Doğa açısından bölge, göller, nehirler ve bozkır manzaraları ile çeşitlilik sunar. **Halfeti** ve Fırat kıyıları, fotoğraf ve doğa gezileri için idealdir. Tarih ve doğa birleşimi, Güneydoğu Anadolu’yu antik kalıntıları ve doğal güzellikleri bir arada keşfetmek isteyenler için vazgeçilmez kılar.  
-👉 [Güneydoğu Anadolu Gezi Rehberi ile Serüvene Başlayın](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+👉 [Güneydoğu Anadolu Gezi Rehberi ile Serüvene Başlayın](https://www.waylero.com/tr/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 
@@ -146,7 +146,7 @@ Waylero rehberi ile tüm bölgeleri keşfedin:
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)   
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)   
 `
 
 ,

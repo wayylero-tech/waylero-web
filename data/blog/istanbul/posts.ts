@@ -86,7 +86,7 @@ export const istanbulPosts = [
 4.  **Taksi Uyarısı:** Özellikle turistik bölgelerde (Sultanahmet-Eminönü) taksi bulmak zordur. **BiTaksi** veya **Uber** kullanmaya çalış, yoldan çevirme.
 
 Tarihi yapıları, Boğaz manzarası ve kültürel noktalarıyla 
-**[İstanbul](https://www.waylero.com/kesfet/turkiye/istanbul)** 
+**[İstanbul](https://www.waylero.com/tr/kesfet/turkiye/istanbul)** 
 Türkiye’nin en çok ziyaret edilen şehridir.
 
 
@@ -137,7 +137,7 @@ Navigating Istanbul is an art; getting stuck in traffic is its greatest enemy. A
 
 > **Transport:** You can use the Marmaray (undersea metro), but the **Waylero advice** is: Always take the ferry. Watching the city from the water is a core Istanbul experience.
 
-Click here for details 🔗 **[Istanbul Travel Guide](https://www.waylero.com/kesfet/turkiye/istanbul)**
+Click here for details 🔗 **[Istanbul Travel Guide](https://www.waylero.com/en/kesfet/turkiye/istanbul)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**`
     }

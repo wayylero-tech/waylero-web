@@ -44,7 +44,7 @@ Akdeniz Bölgesi, Türkiye’nin en popüler turizm destinasyonlarından biridir
 
 Bu içerik, **Türkiye’de Gezilecek Yerler 2026** ana rehberimizin bir parçasıdır.  
 
-👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
+👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/tr/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
 
 ---
 
@@ -61,7 +61,7 @@ Adana, Akdeniz Bölgesi’nin en güçlü kültür ve gastronomi şehirlerinden 
 Adana’da gezilecek yerler 2026 denildiğinde ayrıca Anavarza Antik Kenti ve Kapıkaya Kanyonu da öne çıkar. Akdeniz iklimi sayesinde yılın büyük bölümünde keşif için uygundur. Özellikle bahar aylarında portakal çiçeği kokuları eşliğinde şehri gezmek ayrı bir deneyim sunar. Kültür, tarih ve lezzeti bir arada sunan şehir, 2026’da da popülerliğini korumaktadır.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın:
- [Adana'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=adana)
+ [Adana'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/adana)
 
 ---
 
@@ -74,7 +74,7 @@ Bunun yanında Düden Şelalesi, hem doğa hem fotoğraf tutkunları için ideal
 Akdeniz’in sıcak iklimi ve eşsiz deniz manzaraları ile Antalya’da gezilecek yerler 2026 rotaları, 2026 yılında hem yerli hem yabancı turistlerin gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Antalya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=antalya)
+ [Antalya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/antalya)
 
 ---
 
@@ -87,7 +87,7 @@ Bunun yanında Cennet-Cehennem Obruğu, Mersin’in doğal güzelliklerini keşf
 Akdeniz’in sıcak iklimi ve tarihî dokusuyla Mersin, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Mersin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=mersin)
+ [Mersin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/mersin)
 
 ---
 
@@ -100,7 +100,7 @@ Bunun yanında St. Pierre Kilisesi, hem inanç turizmi hem de tarih meraklılar�
 Akdeniz’in tarihî ve kültürel mirasıyla Hatay, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve gastronomi turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Hatay'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=hatay)
+ [Hatay'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/hatay)
 
 ---
 ### 📍 Burdur’da Gezilecek Yerler 2026
@@ -112,7 +112,7 @@ Bunun yanında Sagalassos Antik Kenti, Roma döneminden kalma yapıları ve etki
 Akdeniz’in sıcak iklimi ve doğal güzellikleriyle Burdur, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Burdur'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=burdur)
+ [Burdur'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/burdur)
 
 ---
 ### 📍 Isparta’da Gezilecek Yerler 2026
@@ -124,7 +124,7 @@ Bunun yanında Kovada Gölü Milli Parkı, doğal yaşam ve trekking için ideal
 Akdeniz’in göl ve yayla zenginliğiyle Isparta, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Isparta'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=isparta)
+ [Isparta'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/isparta)
 
 ---
 ### 📍 Osmaniye’de Gezilecek Yerler 2026
@@ -136,7 +136,7 @@ Bunun yanında Haruniye Şelalesi, doğal güzellikleri keşfetmek isteyenler i�
 Akdeniz’in tarih ve doğal güzellikleriyle Osmaniye, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Osmaniye'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=osmaniye)
+ [Osmaniye'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/osmaniye)
 
 ---
 ### 📍 Kahramanmaraş’ta Gezilecek Yerler 2026
@@ -148,7 +148,7 @@ Bunun yanında Dulkadiroğlu Konağı, bölgenin kültürel mirasını keşfetme
 İç Anadolu ve Güneydoğu’nun birleşim noktası olan Kahramanmaraş, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kahramanmaraş'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet?q=kahramanmaras)
+ [Kahramanmaraş'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kahramanmaras)
 
 
 ## ☀️ Akdeniz Tatili İçin En İyi Zaman
@@ -164,18 +164,18 @@ Akdeniz Bölgesi gezilecek yerler 2026 rehberi ile Antalya’dan Adana’ya kada
 ## 🌍 Diğer Bölgeleri Keşfet
 
 Waylero rehberi ile tüm bölgeleri keşfedin:  
-- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
-- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
-- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
-- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
-- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
-- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
-- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
+- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
+- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
+- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/tr/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
+- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
+- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
+- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)  
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)  
 
       `,
 
@@ -214,7 +214,7 @@ Additionally, Düden Waterfall is an ideal stop for both nature and photography 
 With the Mediterranean’s warm climate and stunning sea views, the 2026 itinerary for places to visit in Antalya remains one of the top destinations for both local and international tourists in 2026.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Antalya](https://www.waylero.com/en/kesfet?q=antalya)
+ [Click Here for Places to Visit in Antalya](https://www.waylero.com/en/kesfet/turkiye/antalya)
 
 ---
 ### 📍 Places to Visit in Mersin in 2026
@@ -226,7 +226,7 @@ Additionally, the Cennet-Cehennem Crater is an ideal route for those wishing to 
 With the Mediterranean’s warm climate and historical charm, Mersin remains one of the top destinations for those seeking cultural and nature tourism in the 2026 itinerary.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Mersin](https://www.waylero.com/en/kesfet?q=mersin)
+ [Click Here for Places to Visit in Mersin](https://www.waylero.com/en/kesfet/turkiye/mersin)
 
 ---
 ### 📍 Places to Visit in Hatay in 2026
@@ -238,7 +238,7 @@ In addition, St. Pierre Church is an important stop for both religious tourism a
 With its historical and cultural heritage of the Mediterranean, Hatay remains one of the top destinations for those seeking cultural and culinary tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Hatay](https://www.waylero.com/en/kesfet?q=hatay)
+ [Click Here for Places to Visit in Hatay](https://www.waylero.com/en/kesfet/turkiye/hatay)
 
 ---
 ### 📍 Places to Visit in Burdur 2026
@@ -250,7 +250,7 @@ Additionally, the ancient city of Sagalassos, with its structures from the Roman
 With the Mediterranean’s warm climate and natural beauty, Burdur remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Burdur](https://www.waylero.com/en/kesfet?q=burdur)
+ [Click Here for Places to Visit in Burdur](https://www.waylero.com/en/kesfet/turkiye/burdur)
 
 ---
 ### 📍 Places to Visit in Isparta 2026
@@ -262,7 +262,7 @@ In addition, Kovada Lake National Park offers an ideal route for wildlife observ
 With the Mediterranean’s abundance of lakes and highlands, Isparta remains one of the top destinations for nature and cultural tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Isparta](https://www.waylero.com/en/kesfet?q=isparta)
+ [Click Here for Places to Visit in Isparta](https://www.waylero.com/en/kesfet/turkiye/isparta)
 
 ---
 ### 📍 Places to Visit in Kahramanmaraş in 2026
@@ -274,7 +274,7 @@ Additionally, the Dulkadiroğlu Mansion is an ideal destination for those wishin
 Located at the intersection of Central Anatolia and Southeastern Turkey, Kahramanmaraş remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel routes.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Kahramanmaraş](https://www.waylero.com/en/kesfet?q=kahramanmaras)
+ [Click Here for Places to Visit in Kahramanmaraş](https://www.waylero.com/en/kesfet/turkiye/=kahramanmaras)
 
 ---
 ### 📍 Places to Visit in Osmaniye in 2026
@@ -286,7 +286,7 @@ Additionally, Haruniye Waterfall is an ideal route for those seeking to explore 
 With the Mediterranean’s history and natural beauty, Osmaniye remains one of the top destinations for those seeking cultural and nature tourism in the 2026 travel itineraries.
 
 👉 Click the link below for more: 
- [Click Here for Places to Visit in Osmaniye](https://www.waylero.com/en/kesfet?q=osmaniye)
+ [Click Here for Places to Visit in Osmaniye](https://www.waylero.com/en/kesfet/turkiye/osmaniye)
 
 ## ☀️ The Best Time for a Mediterranean Vacation
 

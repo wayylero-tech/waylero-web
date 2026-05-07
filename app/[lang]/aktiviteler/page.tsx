@@ -126,7 +126,7 @@ export default async function ActivitiesPage({
     const finalUrl = `${BASE_SITE_URL}/api/events?${apiParams.toString()}`;
 
     const res = await fetch(finalUrl, {
-      next: { revalidate: 3600 },
+      next: { revalidate: 21600 },
       headers: {
         'Accept': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'

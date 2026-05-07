@@ -76,10 +76,10 @@ Bazı çalışmalar mağara havasının astım ve solunum yolu rahatsızlıklar�
 📌 Ekstra: Restoran, kafe ve dinlenme alanları mevcut
 
 👉 Daha fazlası için linke tıklayın
- 🔗 **[Tınaztepe Mağarası](https://www.waylero.com/kesfet/turkiye/konya/tinaztepe-magarasi)**
+ 🔗 **[Tınaztepe Mağarası](https://www.waylero.com/tr/kesfet/turkiye/konya/tinaztepe-magarasi)**
 
 Yeni destinasyonlar ve gezi rehberleri için 
-**[gezi blog yazıları ve rehberler](https://www.waylero.com/blog)** 
+**[gezi blog yazıları ve rehberler](https://www.waylero.com/tr/blog)** 
 sayfamızı ziyaret edebilirsiniz
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
@@ -137,7 +137,7 @@ Some past studies have suggested that cave air may be beneficial for asthma and 
 
  🔗 **[Tınaztepe Cave](https://www.waylero.com/en/kesfet/turkiye/konya/tinaztepe-magarasi)**
 
-Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/blog)**
+Click here for more discoveries 🔗 **[Blog Posts](https://www.waylero.com/en/blog)**
 
 Download from Google Play to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

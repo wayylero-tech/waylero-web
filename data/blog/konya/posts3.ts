@@ -80,7 +80,7 @@ Mevlevi derviş hücrelerini gezmek
 Avluda fotoğraf çekmek
 
 Konya’da mutlaka görülmesi gereken yerlerden biri olan 
-**[Mevlana Müzesi](https://www.waylero.com/kesfet/turkiye/konya/mevlana-muzesi)** 
+**[Mevlana Müzesi](https://www.waylero.com/tr/kesfet/turkiye/konya/mevlana-muzesi)** 
 ziyaretçilere eşsiz bir kültürel deneyim sunar
 
 ---
@@ -120,7 +120,7 @@ Medrese mimarisini görmek
 Fotoğraf çekmek
 
 Konya’da Selçuklu mimarisinin en güzel örneklerinden biri olan 
-**[Karatay Medresesi](https://www.waylero.com/kesfet/turkiye/konya/karatay-medresesi)** 
+**[Karatay Medresesi](https://www.waylero.com/tr/kesfet/turkiye/konya/karatay-medresesi)** 
 tarihi dokusuyla dikkat çeker
 
 ---
@@ -166,7 +166,7 @@ Selçuklu taş işçiliğini inceleyebilir
 Taç kapısının detaylı kabartmalarını görebilir
 
 Medresedeki taş eserleri ve koleksiyonları inceleyebilir
-Detaylar için tıkla 🔗 **[İnce Minareli Medrese’yi İncele](https://www.waylero.com/kesfet/turkiye/konya/ince-minareli-medrese)**
+Detaylar için tıkla 🔗 **[İnce Minareli Medrese’yi İncele](https://www.waylero.com/tr/kesfet/turkiye/konya/ince-minareli-medrese)**
 
 ---
 
@@ -197,7 +197,7 @@ Gerekmez.
 Selçuklu türbelerini görmek
 
 Konya’nın en önemli tarihi ve turistik noktalarından biri olan 
-**[Alaaddin Tepesi ve Alaaddin Camii hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/alaaddin-tepesi-ve-alaaddin-camii)**
+**[Alaaddin Tepesi ve Alaaddin Camii hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/konya/alaaddin-tepesi-ve-alaaddin-camii)**
 
 ---
 
@@ -233,7 +233,7 @@ Beyşehir Gölü ile birlikte gezmek
 Tarihi cami atmosferini görmek
 
 Konya’daki en önemli Selçuklu eserlerinden biri olan 
-**[Eşrefoğlu Camii hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/esrefoglu-camii)**
+**[Eşrefoğlu Camii hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/konya/esrefoglu-camii)**
 
 ---
 
@@ -287,7 +287,7 @@ Koruma çatısı altındaki ev kalıntılarını incelemek
 Ziyaretçi merkezindeki sergileri gezmek
 
 Neolitik dönemin en önemli yerleşimlerinden biri olan 
-**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**
+**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/konya/catalhoyuk-oren-yeri)**
 
 ---
 
@@ -333,7 +333,7 @@ Doğal kaya oluşumları arasında yürüyüş yapmak
 Tarihi ve doğal manzaraların fotoğraflarını çekmek
 
 Roma ve Bizans dönemine uzanan tarihiyle dikkat çeken 
-**[Kilistra Antik Kenti](https://www.waylero.com/kesfet/turkiye/konya/kilistra)** 
+**[Kilistra Antik Kenti](https://www.waylero.com/tr/kesfet/turkiye/konya/kilistra)** 
 doğa ve tarihin iç içe olduğu özel bir bölgedir
 
 ---
@@ -375,7 +375,7 @@ Tarihi yapının fotoğraflarını çekmek
 Beyşehir gezisi sırasında kültürel bir mola vermek
 
 Hitit döneminden günümüze ulaşan en önemli su anıtlarından biri olan 
-**[Eflatunpınar Hitit Su Anıtı](https://www.waylero.com/kesfet/turkiye/konya/eflatun-pinari-hitit-su-aniti)** 
+**[Eflatunpınar Hitit Su Anıtı](https://www.waylero.com/tr/kesfet/turkiye/konya/eflatun-pinari-hitit-su-aniti)** 
 Konya’nın en özel tarihi yapılarındandır
 
 ---
@@ -423,7 +423,7 @@ Doğa ve manzara fotoğrafları çekmek
 Beyşehir merkezdeki tarihi Eşrefoğlu Camii’ni ziyaret etmek
 
 Türkiye’nin en büyük göllerinden biri olan 
-**[Beyşehir Gölü](https://www.waylero.com/kesfet/turkiye/konya/beysehir-golu)** 
+**[Beyşehir Gölü](https://www.waylero.com/tr/kesfet/turkiye/konya/beysehir-golu)** 
 doğal güzelliğiyle Konya’nın en önemli noktalarındandır
 
 ---
@@ -454,7 +454,7 @@ Sarkıt ve dikitleri görmek
 Mağara yürüyüşü yapmak
 
 Konya gezinizde mutlaka görmeniz gereken 
-**[Tınaztepe Mağarası gezi rehberi](https://www.waylero.com/kesfet/turkiye/konya/tinaztepe-magarasi)** 
+**[Tınaztepe Mağarası gezi rehberi](https://www.waylero.com/tr/kesfet/turkiye/konya/tinaztepe-magarasi)** 
 Türkiye’nin en uzun mağara sistemlerinden biridir
 
 ---
@@ -496,7 +496,7 @@ Tarihi Meram Köprüsü çevresinde fotoğraf çekmek
 Kafe ve restoranlarda Konya mutfağını denemek
 
 Konya’nın en yeşil ve tarihi dinlenme alanlarından biri olan 
-**[Meram Bağları hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/meram-baglari)**
+**[Meram Bağları hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/konya/meram-baglari)**
 
 ---
 
@@ -540,7 +540,7 @@ Seyir teraslarından fotoğraf çekmek
 Göksu Vadisi manzarasını izlemek
 
 Göksu Nehri üzerinde yer alan 
-**[Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkiye/konya/goksu-yerkopru-selalesi)** 
+**[Yerköprü Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/konya/goksu-yerkopru-selalesi)** 
 doğal köprü oluşumu ve manzarasıyla dikkat çeker
 
 ---
@@ -569,7 +569,7 @@ Taş sokaklarda yürümek
 Kafelerde oturmak
 
 Konya gezinizde mutlaka görmeniz gereken 
-**[Sille Köyü gezi rehberi](https://www.waylero.com/kesfet/turkiye/konya/sille-koyu)** 
+**[Sille Köyü gezi rehberi](https://www.waylero.com/tr/kesfet/turkiye/konya/sille-koyu)** 
 tarihi dokusuyla öne çıkan bir yerleşimdir.
 
 ---
@@ -603,7 +603,7 @@ tarihi dokusuyla öne çıkan bir yerleşimdir.
 Konya sadece bir şehir değil; bir medeniyetin merkezidir.
 
 Konya seyahatinizi planlamak için 
-**[Konya gezi rehberi ve gezilecek yerler listesi](https://www.waylero.com/kesfet/turkiye/konya)** 
+**[Konya gezi rehberi ve gezilecek yerler listesi](https://www.waylero.com/tr/kesfet/turkiye/konya)** 
 tüm önemli noktaları bir arada sunar
 
 

@@ -84,7 +84,7 @@ Kültür ve Turizm Bakanlığı’na bağlı **yüzlerce noktada** geçerlidir.
 📌 Fiyat Aralığı: Ücretsiz – 750 TL  
 📌 Avantaj: Uygun fiyatlı, hızlı giriş, geniş kapsama alanı
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)*
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/tr/blog)*
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

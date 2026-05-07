@@ -245,7 +245,7 @@ Vadinin içinde kamp yapmak yasaktır, ancak çevre köylerde konaklama ve kamp 
 
 Ihlara’yı tamamladıysan sıradaki durak Kapadokya’dır.
 
-👉 **[Kapadokya gezilecek yerler rehberine mutlaka göz at](https://www.waylero.com/kesfet/turkiye/nevsehir)**  
+👉 **[Kapadokya gezilecek yerler rehberine mutlaka göz at](https://www.waylero.com/tr/kesfet/turkiye/nevsehir)**  
 ve tüm bölgeyi tek seferde profesyonelce planla.
 `,
 
@@ -449,7 +449,7 @@ Camping inside the valley is prohibited, but accommodation and camping areas may
 
 If you’ve finished exploring Ihlara, your next stop is Cappadocia.
 
-👉 **[Be sure to check out the Cappadocia travel guide](https://www.waylero.com/kesfet/turkiye/nevsehir)**  
+👉 **[Be sure to check out the Cappadocia travel guide](https://www.waylero.com/en/kesfet/turkiye/nevsehir)**  
 and plan your entire trip professionally in one go.
 
 `

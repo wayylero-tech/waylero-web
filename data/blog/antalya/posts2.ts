@@ -155,7 +155,7 @@ Dönüş yolu yaklaşık 1 saat 15 dakika sürer.
 3. **MüzeKart:** Sadece Perge ve Aspendos girişi bile kart ücretinden fazladır. Girişteki gişeden 1 dakikada dijital kartınızı çıkartın.
 
 Antalya seyahatinizde mutlaka görmeniz gereken 5 önemli noktayı öğrenmek için 
-**[Antalya gezilecek yerler rehberi](https://www.waylero.com/blog/antalya/antalya-gezilecek-yerler-rehberi)** sayfasını inceleyebilirsiniz.
+**[Antalya gezilecek yerler rehberi](https://www.waylero.com/tr/blog/antalya/antalya-gezilecek-yerler-rehberi)** sayfasını inceleyebilirsiniz.
 
 
 
@@ -255,7 +255,7 @@ Piyaz and meatballs stop
 
 Explore, plan, and share with Waylero.
 
-Click for details 🔗 **[5 Places to Visit in Antalya](https://www.waylero.com/blog/antalya/antalya-gezilecek-yerler-rehberi)**
+Click for details 🔗 **[5 Places to Visit in Antalya](https://www.waylero.com/en/blog/antalya/antalya-gezilecek-yerler-rehberi)**
 
 Download the app from Google Play Store to create your own travel plan 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 `

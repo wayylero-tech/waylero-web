@@ -42,7 +42,7 @@ Türkiye’nin akciğerleri olarak bilinen Karadeniz Bölgesi, 2026 yılında da
 
 Bu içerik, **Türkiye’de Gezilecek Yerler 2026** ana rehberimizin bir parçasıdır.  
 
-👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
+👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/tr/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
 
 ---
 
@@ -64,7 +64,7 @@ Yayla turizmi açısından Hıdırnebi Yaylası, serin havası ve doğal güzell
 Karadeniz’in eşsiz doğasıyla Trabzon, 2026 yılında da yayla ve doğa turizmi arayanların en çok tercih ettiği şehirlerden biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Trabzon'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/trabzon)
+ [Trabzon'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/trabzon)
 
 
 ---
@@ -77,7 +77,7 @@ Bunun yanında Fırtına Vadisi, doğa yürüyüşleri, rafting ve fotoğraf tur
 Karadeniz’in yeşil doğası ve yaylalarıyla Rize, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Rize'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/rize)
+ [Rize'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/rize)
 
 
 ### 📍 Artvin’de Gezilecek Yerler 2026
@@ -89,7 +89,7 @@ Bunun yanında Artvin Kalesi, şehir merkezinde panoramik manzaralar sunan tarih
 Karadeniz’in serin iklimi ve yemyeşil yaylalarıyla Artvin, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Artvin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/artvin)
+ [Artvin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/artvin)
 
 
 ---
@@ -102,7 +102,7 @@ Bunun yanında Amazon Köyü, Samsun’un kültürel ve doğal mirasını keşfe
 Karadeniz’in tarihi ve doğal güzellikleriyle Samsun, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Samsun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/samsun)
+ [Samsun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/samsun)
 
 ---
 ### 📍 Bolu’da Gezilecek Yerler 2026
@@ -114,7 +114,7 @@ Bunun yanında Yedigöller Milli Parkı, doğa ve kamp turizmi için eşsiz rota
 Karadeniz’in serin iklimi ve yemyeşil ormanlarıyla Bolu, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bolu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bolu)
+ [Bolu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/bolu)
 
 ---
 ###  📍 Gümüşhane’de Gezilecek Yerler 2026
@@ -126,7 +126,7 @@ Bunun yanında Karaca Mağarası, sarkıt ve dikitleriyle doğa turizmi için id
 Karadeniz’in yüksek yaylaları ve tarihi zenginlikleriyle Gümüşhane, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Gümüşhane'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/gumushane)
+ [Gümüşhane'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/gumushane)
 
 ---
 ###  📍 Bartın’da Gezilecek Yerler 2026
@@ -138,7 +138,7 @@ Bunun yanında Amasra, tarihi taş evleri ve limanıyla hem kültür hem deniz t
 Karadeniz’in serin iklimi ve yeşil doğasıyla Bartın, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bartın'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bartin)
+ [Bartın'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/bartin)
 
 ---
 ### 📍 Amasya’da Gezilecek Yerler 2026
@@ -150,7 +150,7 @@ Pontus Krallığı’ndan kalan Amasya Kral Kaya Mezarları, şehir merkezinden 
 Karadeniz’in kültürel zenginliğini yansıtan şehirde Amasya’da gezilecek yerler 2026 seçenekleri, 2026 yılında da sakin ve otantik destinasyon arayanların ilgisini çekmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Amasya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/amasya)
+ [Amasya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/amasya)
 
 
 ---
@@ -163,7 +163,7 @@ Bunun yanında Giresun Adası, Karadeniz’in doğal güzelliklerini keşfetmek 
 Karadeniz’in yemyeşil yaylaları ve tarihi dokusuyla Giresun, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Giresun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/giresun)
+ [Giresun'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/giresun)
 
 
 
@@ -177,7 +177,7 @@ Bunun yanında Aydıntepe Yeraltı Şehri, bölgenin benzersiz tarihini deneyiml
 Karadeniz’in yeşil doğası ve tarihi dokusuyla Bayburt, gezilecek yerler 2026 rotaları arasında 2026 yılında da keşif meraklıları için önemli bir durak olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Bayburt'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/bayburt)
+ [Bayburt'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/bayburt)
 
 ---
 ### 📍 Çorum’da Gezilecek Yerler 2026
@@ -189,7 +189,7 @@ Bunun yanında Alacahöyük, arkeoloji meraklıları için eşsiz bir duraktır.
 Karadeniz ve İç Anadolu’nun kesişiminde konumlanan Çorum, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve tarih turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Çorum'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/corum)
+ [Çorum'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/corum)
 
 ---
 ###  📍 Düzce’de Gezilecek Yerler 2026
@@ -201,7 +201,7 @@ Bunun yanında Samandere Şelalesi Tabiat Parkı, trekking ve doğa keşfi yapma
 Karadeniz’in yemyeşil doğası ve serin iklimiyle Düzce, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Düzce'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/duzce)
+ [Düzce'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/duzce)
 
 
 
@@ -215,7 +215,7 @@ Bunun yanında Bulak Mağarası, doğa yürüyüşleri ve fotoğrafçılık içi
 Karadeniz’in tarihi ve doğal dokusuyla Karabük, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Karabük'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/karabuk)
+ [Karabük'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/karabuk)
 
 ---
 ### 📍 Kastamonu’da Gezilecek Yerler 2026
@@ -227,7 +227,7 @@ Bunun yanında Ilgaz Dağı Milli Parkı, doğa yürüyüşleri ve kış sporlar
 Karadeniz’in yeşil yaylaları ve tarihî dokusuyla Kastamonu, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kastamonu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kastamonu)
+ [Kastamonu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kastamonu)
 
 ---
 ###  📍 Ordu’da Gezilecek Yerler 2026
@@ -239,7 +239,7 @@ Bunun yanında Perşembe Yaylası, Karadeniz’in yeşil doğasını deneyimleme
 Karadeniz’in doğal ve kültürel güzellikleriyle Ordu, gezilecek yerler 2026 rotaları arasında 2026 yılında da yayla ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Ordu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/ordu)
+ [Ordu'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/ordu)
 
 ---
 ###  📍 Sinop’ta Gezilecek Yerler 2026
@@ -251,7 +251,7 @@ Bunun yanında Hamsilos Koyu, deniz ve doğa turizmi için ideal bir rotadır. A
 Karadeniz’in yeşil doğası ve sahil güzellikleriyle Sinop, gezilecek yerler 2026 rotaları arasında 2026 yılında da doğa ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Sinop'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/sinop)
+ [Sinop'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/sinop)
 
 
 ---
@@ -266,7 +266,7 @@ Doğa yürüyüşü ve kamp için Harmankaya Şelaleleri, huzurlu atmosferiyle d
 Zonguldak’ta gezilecek yerler 2026 rehberi; doğa, deniz ve keşif dolu rotalar arayanlar için kapsamlı seçenekler sunar. Karadeniz’in serin havası ve doğal dokusuyla Zonguldak, 2026 yılında da doğa turizmi meraklılarının gözde şehirlerinden biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Zonguldak'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/zonguldak)
+ [Zonguldak'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/zonguldak)
 
 ---
 ###  📍 Tokat’ta Gezilecek Yerler 2026
@@ -282,7 +282,7 @@ Tarihî konakları ve dar sokaklarıyla Tokat şehir merkezi de kültür turizmi
 Karadeniz’in doğal dokusu ile Anadolu’nun tarihî mirasını buluşturan Tokat, 2026 yılında da keşfedilmeyi bekleyen şehirler arasında yer almaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Tokat'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/tokat)
+ [Tokat'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/tokat)
 
 
 
@@ -299,7 +299,7 @@ Seyahatinizi sadece görerek değil, tadarak da tamamlayın:
 
 Karadeniz'in virajlı yollarında ve gizli kalmış yaylalarında kaybolmamak için seyahat planınızı **Waylero** üzerinden oluşturabilirsiniz. Bölgedeki en iyi kamp alanları ve butik yayla evleri için kullanıcı yorumlarına göz atmayı unutmayın!
 
-👉 [Waylero ile Karadeniz'i Keşfet](https://waylero.com)
+👉 [Waylero ile Karadeniz'i Keşfet](https://waylero.com/tr)
 
 ---
 
@@ -318,18 +318,18 @@ Karadeniz her mevsim güzeldir ancak yaylalara çıkmak istiyorsanız **Haziran 
 ## 🌍 Diğer Bölgeleri Keşfet
 
 Waylero rehberi ile tüm bölgeleri keşfedin:  
-- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
-- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
-- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
-- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
-- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
-- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
-- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
+- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
+- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
+- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/tr/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
+- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
+- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
+- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)   
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)   
       `,
 
       en: `

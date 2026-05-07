@@ -68,7 +68,7 @@ Mağara yaklaşık 15 metre yüksekliğinde silindirik bir boşluktan aşağıya
 
 Bugün Damlataş Mağarası, hem doğa meraklıları hem de sağlık turizmiyle ilgilenen ziyaretçiler için Antalya’nın en önemli duraklarından biri olmaya devam etmektedir. 
 
-🔗 https://www.waylero.com/kesfet/turkiye/antalya/damlatas-magarasi
+🔗 https://www.waylero.com/tr/kesfet/turkiye/antalya/damlatas-magarasi
 
 ---
 
@@ -95,7 +95,7 @@ Altınbeşik Mağarası’nı ziyaret etmek için en ideal dönem ilkbahar aylar
 
 Altınbeşik Mağarası, hem jeolojik yapısı hem de sunduğu eşsiz yeraltı gölü deneyimiyle Türkiye’de mutlaka görülmesi gereken doğal harikalardan biridir.
 
-Detaylar için tıkla 🔗 **[Altınbeşik Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/altinbesik-magarasi)**
+Detaylar için tıkla 🔗 **[Altınbeşik Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/antalya/altinbesik-magarasi)**
 
 ---
 
@@ -126,7 +126,7 @@ Karaca Mağarası’nı ziyaret etmek için ilkbahar ve yaz ayları en uygun dö
 
 Karaca Mağarası, sahip olduğu doğal oluşum çeşitliliği ve görsel zenginliği sayesinde Türkiye’de mağara turizminin en önemli duraklarından biri olarak kabul edilir.
 
-Detaylar için tıkla 🔗 **[Karaca Şelalesi](https://www.waylero.com/kesfet/turkiye/gumushane/karaca-magarasi )**
+Detaylar için tıkla 🔗 **[Karaca Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/gumushane/karaca-magarasi )**
 ---
 
 ### 🕳 Ballıca Mağarası (Tokat)
@@ -154,7 +154,7 @@ Ballıca Mağarası’nı ziyaret etmek için ilkbahar ve sonbahar ayları en id
 
 Ballıca Mağarası, büyüklüğü, jeolojik çeşitliliği ve görsel ihtişamıyla Türkiye’de mutlaka görülmesi gereken en önemli doğal oluşumlardan biridir.
 
-Detaylar için tıkla 🔗 **[Ballıca Şelalesi](https://www.waylero.com/kesfet/turkiye/tokat/ballica-magarasi)**
+Detaylar için tıkla 🔗 **[Ballıca Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/tokat/ballica-magarasi)**
 
 ---
 
@@ -214,7 +214,7 @@ Mağara içinde sarkıtlar, dikitler, sütunlar ve perde damlataş oluşumları 
 
 İnsuyu Mağarası, kolay ulaşımı, doğal güzelliği ve tarihi önemiyle Türkiye’de mağara turizminin gelişiminde önemli rol oynamış ve günümüzde de keşfedilmeye değer doğal alanlardan biri olarak öne çıkmaktadır.
 
-Detaylar için tıkla 🔗 **[İnsuyu Şelalesi](https://www.waylero.com/kesfet/turkiye/burdur/insuyu-magarasi )**
+Detaylar için tıkla 🔗 **[İnsuyu Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/burdur/insuyu-magarasi )**
 
 
 ---
@@ -244,7 +244,7 @@ Tınaztepe Mağarası’nı ziyaret ederken mutlaka kalın bir üst almanız ön
 
 Tınaztepe Mağarası, büyüklüğü, doğal oluşum çeşitliliği ve etkileyici atmosferiyle Türkiye’de mağara turizminin en önemli duraklarından biri olarak öne çıkar.
 
-Detaylar için tıkla 🔗 **[Tınaztepe Şelalesi](https://www.waylero.com/kesfet/turkiye/konya/tinaztepe-magarasi )**
+Detaylar için tıkla 🔗 **[Tınaztepe Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/konya/tinaztepe-magarasi )**
 
 ---
 
@@ -366,7 +366,7 @@ Türkiye’nin mağaraları yalnızca doğal oluşumlar değil, aynı zamanda je
 
 ---
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/tr/blog)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

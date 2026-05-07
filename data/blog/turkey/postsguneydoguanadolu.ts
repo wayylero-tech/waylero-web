@@ -41,7 +41,7 @@ Güneydoğu Anadolu Bölgesi, Türkiye’nin en kültürel ve tarihi açıdan ze
 
 Bu içerik, **Türkiye’de Gezilecek Yerler 2026** ana rehberimizin bir parçasıdır.  
 
-👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
+👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/tr/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
 
 ---
 
@@ -60,7 +60,7 @@ Bunun yanında Balıklıgöl, hem tarih hem de kültür turizmi için ideal bir 
 Güneydoğu Anadolu’nun tarih ve kültür merkezi Şanlıurfa, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve tarih turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Şanlıurfa'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/sanliurfa)
+ [Şanlıurfa'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/sanliurfa)
 
 
 
@@ -74,7 +74,7 @@ Bunun yanında Deyrulzafaran Manastırı, bölgenin tarihî ve dini mirasını k
 Güneydoğu Anadolu’nun tarih ve kültür merkezi Mardin, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve tarih turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Mardin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/mardin)
+ [Mardin'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/mardin)
 
 
 ---
@@ -87,7 +87,7 @@ Bunun yanında Zeugma Mozaik Müzesi, antik mozaikleri ve arkeolojik zenginlikle
 Güneydoğu Anadolu’nun kültürel ve lezzet rotalarıyla Gaziantep, gezilecek yerler 2026 rotaları arasında 2026 yılında da keşif ve gastronomi turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Gaziantep'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/gaziantep)
+ [Gaziantep'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/gaziantep)
 
 
 ---
@@ -100,7 +100,7 @@ Bunun yanında Malabadi Köprüsü, hem tarih hem fotoğraf tutkunları için id
 Güneydoğu’nun kültürel dokusunu ve doğal güzelliklerini keşfetmek isteyenler için Batman’da gezilecek yerler 2026 rotaları, 2026 yılında da turistlerin gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Batman'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/batman)
+ [Batman'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/batman)
 
 
 ---
@@ -113,7 +113,7 @@ Bunun yanında Ulu Camii, hem mimari hem de kültürel açıdan önemli duraklar
 Güneydoğu Anadolu’nun tarihi dokusu ve kültürel zenginliğiyle Diyarbakır, gezilecek yerler 2026 rotaları arasında 2026 yılında da keşif meraklılarının gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Diyarbakır'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/diyarbakir)
+ [Diyarbakır'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/diyarbakir)
 
 
 ---
@@ -126,7 +126,7 @@ Bunun yanında Belediye Camii, şehrin Osmanlı ve Selçuklu döneminden kalan k
 Güneydoğu Anadolu’nun kültür ve tarih zenginliğiyle Kilis, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kilis'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kilis)
+ [Kilis'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kilis)
 
 
 ---
@@ -139,7 +139,7 @@ Bunun yanında Cendere Köprüsü ve Arsemia Antik Kenti de mutlaka görülmesi 
 Hem tarih hem manzara arayanlar için Adıyaman’da gezilecek yerler 2026 listesi, 2026 yılında kültür turizminin yükselen duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın:
- [Adıyaman'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/adiyaman)
+ [Adıyaman'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/adiyaman)
 
 
 
@@ -153,7 +153,7 @@ Bunun yanında Pervari Botan Vadisi, doğa yürüyüşleri ve fotoğrafçılık 
 Güneydoğu Anadolu’nun kültür ve doğa zenginlikleriyle Siirt, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Siirt'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/siirt)
+ [Siirt'te Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/siirt)
 
 
 
@@ -173,18 +173,18 @@ Güneydoğu Anadolu gezilecek yerler 2026 rehberi ile Mardin’den Gaziantep’e
 ## 🌍 Diğer Bölgeleri Keşfet
 
 Waylero rehberi ile tüm bölgeleri keşfedin:  
-- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
-- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
-- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
-- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
-- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
-- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
-- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
+- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
+- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
+- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/tr/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
+- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
+- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
+- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)  
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)  
 
       `,
 

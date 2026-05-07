@@ -66,7 +66,7 @@ Yükseklik: ~40 metre (Aşağı Düden denize dökülür)
 Debi: Orta – ilkbaharda artar
 Ziyaretçi Yoğunluğu: Çok yüksek (özellikle yaz sezonu)
 
-Detaylar için tıkla 🔗 **[Düden Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/duden-selalesi)**
+Detaylar için tıkla 🔗 **[Düden Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/antalya/duden-selalesi)**
 
 ---
 
@@ -82,7 +82,7 @@ Yükseklik: 3–4 metre (geniş yatay akış)
 Debi: Yüksek ve sürekli
 Ziyaretçi Yoğunluğu: Çok yüksek (turistik tesis alanı)
 
-Detaylar için tıkla 🔗 **[Manavgat Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/manavgat-selalesi)**
+Detaylar için tıkla 🔗 **[Manavgat Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/antalya/manavgat-selalesi)**
 
 ---
 
@@ -119,7 +119,7 @@ Sonbahar: Daha sakin ve dingin bir atmosfer sunar
 
 Kurşunlu Şelalesi, Antalya’daki diğer büyük şelalelere göre daha küçük ölçekli olsa da doğayla iç içe, huzurlu ve düzenli yapısıyla özellikle aile ziyaretleri için ideal bir noktadır..
 
-Detaylar için tıkla 🔗 **[Kurşunlu Şelalesi](https://www.waylero.com/kesfet/turkiye/antalya/kursunlu-selalesi)**
+Detaylar için tıkla 🔗 **[Kurşunlu Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/antalya/kursunlu-selalesi)**
 
 ---
 
@@ -135,7 +135,7 @@ Yükseklik: ~30 metre
 Debi: Orta – yazın berrak, ilkbaharda daha güçlü
 Ziyaretçi Yoğunluğu: Orta – yazın artar
 
-Detaylar için tıkla 🔗 **[ Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkiye/mersin/yerkopru-selalesi)**
+Detaylar için tıkla 🔗 **[ Yerköprü Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/mersin/yerkopru-selalesi)**
 
 ---
 
@@ -153,7 +153,7 @@ Yükseklik: ~20 metre
 Debi: Orta – kar erimelerinde artış gösterir
 Ziyaretçi Yoğunluğu: Orta
 
-DeDetaylar için tıkla 🔗 **[Yerköprü Şelalesi](https://www.waylero.com/kesfet/turkiye/konya/goksu-yerkopru-selalesi)**
+DeDetaylar için tıkla 🔗 **[Yerköprü Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/konya/goksu-yerkopru-selalesi)**
 ---
 
 ### 🌊 Kapuzbaşı Şelaleleri (Yahyalı, Kayseri)
@@ -168,7 +168,7 @@ Yükseklik: 60–70 metreye ulaşan kollar
 Debi: Çok yüksek (yer altı kaynaklı güçlü akış)
 Ziyaretçi Yoğunluğu: Orta – doğa sever yoğunluğu
 
-Detaylar için tıkla 🔗 **[Kapuzbaşı Şelaleleri](https://www.waylero.com/kesfet/turkiye/kayseri/kapuzbasi-selaleleri)**
+Detaylar için tıkla 🔗 **[Kapuzbaşı Şelaleleri](https://www.waylero.com/tr/kesfet/turkiye/kayseri/kapuzbasi-selaleleri)**
 ---
 
 ## 🌊 Karadeniz Bölgesi
@@ -214,7 +214,7 @@ Yükseklik: Basamaklı yapı (~15 metre toplam düşüş)
 Debi: Orta – kaynak suyu
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Tomara Şelalesi](https://www.waylero.com/kesfet/turkiye/g%C3%BCm%C3%BC%C5%9Fhane/tomara-selalesi)**
+Detaylar için tıkla 🔗 **[Tomara Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/gumushane/tomara-selalesi)**
 
 ---
 
@@ -256,7 +256,7 @@ Yaz aylarında ve hafta sonlarında yüksek
 
 Erfelek Tatlıca Şelaleleri, Türkiye’nin en güzel şelaleleri arasında basamaklı yapısıyla öne çıkan nadir doğal oluşumlardan biridir. Doğa yürüyüşü, fotoğrafçılık ve serin bir Karadeniz deneyimi arayanlar için mutlaka görülmesi gereken yerlerden biridir.
 
-Detaylar için tıkla 🔗 **[Erfelek Tatlıca Şelaleleri](https://www.waylero.com/kesfet/turkiye/sinop/erfelek-selaleleri)**
+Detaylar için tıkla 🔗 **[Erfelek Tatlıca Şelaleleri](https://www.waylero.com/tr/kesfet/turkiye/sinop/erfelek-selaleleri)**
 
 ---
 
@@ -296,7 +296,7 @@ Kış: Çevresi karla kaplandığında farklı bir manzara sunar
 Tortum Şelalesi, yüksekliği ve ihtişamıyla Doğu Anadolu’nun en etkileyici doğa harikalarından biridir. Güçlü su akışı ve dramatik görünümü sayesinde mutlaka görülmesi gereken rotalar arasında yer alır.
 
 
-Detaylar için tıkla 🔗 **[Tortum Şelalesi](https://www.waylero.com/kesfet/turkiye/erzurum/tortum-selalesi)**
+Detaylar için tıkla 🔗 **[Tortum Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/erzurum/tortum-selalesi)**
 
 ---
 
@@ -312,7 +312,7 @@ Yükseklik: ~18 metre
 Debi: Mevsimsel – ilkbaharda güçlü
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Muradiye Şelalesi](https://www.waylero.com/kesfet/turkiye/van/muradiye-selalesi)**
+Detaylar için tıkla 🔗 **[Muradiye Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/van/muradiye-selalesi)**
 
 ---
 
@@ -333,7 +333,7 @@ Ziyaret için en ideal dönem:
 
 Girlevik Şelalesi, Doğu Anadolu Bölgesi’nin en etkileyici doğal güzelliklerinden biri olarak hem manzara hem de serinleme deneyimi sunar.
 
-Detaylar için tıkla 🔗 **[Girlevik Şelalesi](https://www.waylero.com/kesfet/turkiye/erzincan/girlevik-selalesi)**
+Detaylar için tıkla 🔗 **[Girlevik Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/erzincan/girlevik-selalesi)**
 ---
 
 ## 🌊 Marmara ve Batı Karadeniz
@@ -376,7 +376,7 @@ Hafta içi sabah saatleri daha sakindir
 
 Suuçtu Şelalesi, Marmara Bölgesi’nde doğayla baş başa kalmak isteyenler için hem kolay ulaşılabilir hem de etkileyici bir rota sunar. Bursa gezilerinde Uludağ kadar bilinmese de doğa severler için mutlaka görülmesi gereken yerlerden biridir.
 
-Detaylar için tıkla 🔗 **[Suuçtu Şelalesi](https://www.waylero.com/kesfet/turkiye/bursa/suuctu-tabiat-parki-ve-selalesi)**
+Detaylar için tıkla 🔗 **[Suuçtu Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/bursa/suuctu-tabiat-parki-ve-selalesi)**
 
 ---
 
@@ -392,7 +392,7 @@ Yükseklik: 130 metre
 Debi: Orta
 Ziyaretçi Yoğunluğu: Orta – trekking sezonunda artar
 
-Detaylar için tıkla 🔗 **[Güzeldere Şelalesi](https://www.waylero.com/kesfet/turkiye/d%C3%BCzce/guzeldere-selalesi)**
+Detaylar için tıkla 🔗 **[Güzeldere Şelalesi](https://www.waylero.com/tr/kesfet/turkiye/duzce/guzeldere-selalesi)**
 
 ---
 
@@ -416,7 +416,7 @@ Detaylar için tıkla 🔗 **[Güzeldere Şelalesi](https://www.waylero.com/kesf
 
 Türkiye’nin şelaleleri yalnızca doğal güzellik değil, aynı zamanda keşif, huzur ve fotoğraf tutkunları için eşsiz deneyimler sunar.
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/tr/blog)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 
@@ -446,7 +446,7 @@ Height: ~40 meters (Lower Düden flows into the sea)
 Flow: Moderate – increases in spring
 Visitor Volume: Very high (especially during the summer season)
 
-Click here for details 🔗 **[Düden Waterfall](https://www.waylero.com/kesfet/turkiye/antalya/duden-selalesi)**
+Click here for details 🔗 **[Düden Waterfall](https://www.waylero.com/en/kesfet/turkiye/antalya/duden-selalesi)**
 
 ---
 
@@ -462,7 +462,7 @@ Height: 3–4 meters (wide horizontal flow)
 Flow: High and constant
 Visitor Volume: Very high (tourist facility area)
 
-Click here for details 🔗 **[Manavgat Waterfall](https://www.waylero.com/kesfet/turkiye/antalya/manavgat-selalesi)**
+Click here for details 🔗 **[Manavgat Waterfall](https://www.waylero.com/en/kesfet/turkiye/antalya/manavgat-selalesi)**
 
 
 ---
@@ -500,7 +500,7 @@ Fall: Offers a calmer and more serene atmosphere
 
 Although Kurşunlu Waterfall is smaller in scale compared to other major waterfalls in Antalya, its natural setting, peaceful atmosphere, and well-maintained layout make it an ideal spot, especially for family visits.
 
-Click here for details 🔗 **[Kurşunlu Waterfall](https://www.waylero.com/kesfet/turkiye/antalya/kursunlu-selalesi)**
+Click here for details 🔗 **[Kurşunlu Waterfall](https://www.waylero.com/en/kesfet/turkiye/antalya/kursunlu-selalesi)**
 
 
 ---
@@ -517,7 +517,7 @@ Height: ~30 meters
 Flow: Moderate – clear in summer, stronger in spring
 Visitor Traffic: Moderate – increases in summer
 
-Click here for details 🔗 **[ Yerköprü Waterfall](https://www.waylero.com/kesfet/turkiye/mersin/yerkopru-selalesi)**
+Click here for details 🔗 **[ Yerköprü Waterfall](https://www.waylero.com/en/kesfet/turkiye/mersin/yerkopru-selalesi)**
 
 
 ## 🌊 Central Anatolia and the Taurus Mountains
@@ -534,7 +534,7 @@ Height: ~20 meters
 Flow Rate: Moderate – increases during snowmelt
 Visitor Traffic: Moderate
 
-Click here for details 🔗 **[Yerköprü Waterfall](https://www.waylero.com/kesfet/turkiye/konya/goksu-yerkopru-selalesi)**
+Click here for details 🔗 **[Yerköprü Waterfall](https://www.waylero.com/en/kesfet/turkiye/konya/goksu-yerkopru-selalesi)**
 ### 🌊 Kapuzbaşı Waterfalls (Yahyalı, Kayseri)
 
 Located within the boundaries of Aladağlar National Park. With its cascades reaching approximately 70 meters, it is one of Turkey’s tallest waterfall groups. The water flow is quite powerful.
@@ -547,7 +547,7 @@ Height: Branches reaching 60–70 meters
 Flow: Very high (strong flow from underground sources)
 Visitor Density: Moderate – nature lovers
 
-Click here for details 🔗 **[Kapuzbaşı Waterfalls](https://www.waylero.com/kesfet/turkiye/kayseri/kapuzbasi-selaleleri)**
+Click here for details 🔗 **[Kapuzbaşı Waterfalls](https://www.waylero.com/en/kesfet/turkiye/kayseri/kapuzbasi-selaleleri)**
 
 
 
@@ -593,7 +593,7 @@ Height: Stepped structure (~15-meter total drop)
 Flow: Moderate – spring water
 Visitor Traffic: Moderate
 
-Click here for details 🔗 **[Tomara Waterfall](https://www.waylero.com/kesfet/turkiye/g%C3%BCm%C3%BC%C5%9Fhane/tomara-selalesi)**
+Click here for details 🔗 **[Tomara Waterfall](https://www.waylero.com/en/kesfet/turkiye/gumushane/tomara-selalesi)**
 
 ---
 
@@ -637,7 +637,7 @@ Quieter in spring and on weekdays
 
 The Erfelek Tatlıca Waterfalls are one of Turkey’s most beautiful waterfalls and a rare natural formation distinguished by its stepped structure. It is a must-see destination for those seeking nature walks, photography, and a refreshing Black Sea experience.
 
-Click here for details 🔗 **[Erfelek Tatlıca Waterfalls](https://www.waylero.com/kesfet/turkiye/sinop/erfelek-selaleleri)**
+Click here for details 🔗 **[Erfelek Tatlıca Waterfalls](https://www.waylero.com/en/kesfet/turkiye/sinop/erfelek-selaleleri)**
 
 
 
@@ -676,7 +676,7 @@ Winter: Offers a different landscape when the surroundings are covered in snow
 Tortum Waterfall is one of the most impressive natural wonders of Eastern Anatolia, renowned for its height and grandeur. Thanks to its powerful water flow and dramatic appearance, it is a must-see destination.
 
 
-Click here for details 🔗 **[Tortum Waterfall](https://www.waylero.com/kesfet/turkiye/erzurum/tortum-selalesi)**
+Click here for details 🔗 **[Tortum Waterfall](https://www.waylero.com/en/kesfet/turkiye/erzurum/tortum-selalesi)**
 
 ---
 
@@ -712,7 +712,7 @@ Best times to visit:
 
 Girlevik Waterfall, one of the most striking natural wonders of the Eastern Anatolia Region, offers both breathtaking views and a refreshing experience.
 
-Click here for details 🔗 **[Girlevik Waterfall](https://www.waylero.com/kesfet/turkiye/erzincan/girlevik-selalesi)**
+Click here for details 🔗 **[Girlevik Waterfall](https://www.waylero.com/en/kesfet/turkiye/erzincan/girlevik-selalesi)**
 
 ## 🌊 Marmara and Western Black Sea
 
@@ -753,7 +753,7 @@ Weekday mornings are quieter
 
 Suuçtu Waterfall offers an easily accessible yet stunning route for those seeking to connect with nature in the Marmara Region. Although not as well-known as Uludağ during trips to Bursa, it is a must-see destination for nature lovers.
 
-Click here for details 🔗 **[Suuçtu Waterfall](https://www.waylero.com/kesfet/turkiye/bursa/suuctu-tabiat-parki-ve-selalesi)**
+Click here for details 🔗 **[Suuçtu Waterfall](https://www.waylero.com/en/kesfet/turkiye/bursa/suuctu-tabiat-parki-ve-selalesi)**
 
 ---
 
@@ -769,7 +769,7 @@ Height: 130 meters
 Flow Rate: Moderate
 Visitor Traffic: Moderate – increases during the hiking season
 
-Click here for details 🔗 **[Güzeldere Waterfall](https://www.waylero.com/kesfet/turkiye/d%C3%BCzce/guzeldere-selalesi)**
+Click here for details 🔗 **[Güzeldere Waterfall](https://www.waylero.com/en/kesfet/turkiye/duzce/guzeldere-selalesi)**
 
 ---
 

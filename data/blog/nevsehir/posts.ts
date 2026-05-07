@@ -90,7 +90,7 @@ Tarihi freskleri incelemek
 Fotoğraf ve video çekimi yapmak
 Rehberli tur ile bölgenin tarihini öğrenmek
 
-Detaylar için tıkla 🔗 **[Göreme Açık Hava Müzesi](https://www.waylero.com/kesfet/turkiye/nevsehir/goreme-acik-hava-muzesi)**
+Detaylar için tıkla 🔗 **[Göreme Açık Hava Müzesi](https://www.waylero.com/tr/kesfet/turkiye/nevsehir/goreme-acik-hava-muzesi)**
 
 ---
 
@@ -133,7 +133,7 @@ Rehberli tur ile peri bacalarının oluşumu ve tarihi hakkında detaylı bilgi 
 Peri bacaları, Kapadokya gezinizin en unutulmaz noktalarından biri olacak ve hem doğal hem de kültürel bir deneyim sunacaktır. Bölgeyi ziyaret ederken yanınıza mutlaka fotoğraf makinesi veya iyi bir telefon kamerası almayı unutmayın; çünkü Kapadokya’nın bu eşsiz simgesi, her açıdan farklı bir güzellik sunar.
 
 Kapadokya, Türkiye’nin en eşsiz doğal turizm bölgelerinden biridir. 
-Özellikle [Kapadokya’daki peri bacaları](/kesfet/turkiye/nevsehir/peri-bacalari) 
+Özellikle [Kapadokya’daki peri bacaları](https://www.waylero.com/tr/kesfet/turkiye/nevsehir/peri-bacalari) 
 dünyaca ünlüdür.
 
 ---
@@ -176,7 +176,7 @@ Rehberli tur ile kale hakkında detaylı bilgi almak
 Uçhisar Kalesi, Kapadokya gezinizin en unutulmaz noktalarından biri olacak ve bölgenin hem doğal hem de kültürel zenginliğini bir arada deneyimlemenizi sağlayacaktır. Özellikle fotoğraf ve video çekimi yapmak isteyen ziyaretçiler için kale, eşsiz bir görsel şölen sunar.
 
 Kapadokya’da mutlaka görülmesi gereken yerlerden biri olan 
-**[Uçhisar Kalesi gezi rehberi](https://www.waylero.com/kesfet/turkiye/nevsehir/uchisar-kalesi)** 
+**[Uçhisar Kalesi gezi rehberi](https://www.waylero.com/tr/kesfet/turkiye/nevsehir/uchisar-kalesi)** 
 ziyaretçilere eşsiz bir manzara sunar.
 
 ---
@@ -221,7 +221,7 @@ Bölgedeki gizli geçit ve merdiven sistemlerini incelemek
 Derinkuyu Yeraltı Şehri, Kapadokya seyahatinizde mutlaka görmeniz gereken yerlerden biridir. Hem tarih meraklıları hem de macera arayan ziyaretçiler için eşsiz bir deneyim sunar. Burayı gezmek, sadece Kapadokya’nın doğal güzelliklerini değil, aynı zamanda insanların tarih boyunca geliştirdiği yaratıcı çözümleri de keşfetmenizi sağlar.
 
 Kapadokya’nın en etkileyici yapılarından biri olan 
-**[Derinkuyu Yeraltı Şehri hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/nevsehir/derinkuyu-yeralti-sehri)**
+**[Derinkuyu Yeraltı Şehri hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/nevsehir/derinkuyu-yeralti-sehri)**
 
 
 ---
@@ -262,7 +262,7 @@ Rehberli tur ile bölgenin tarihçesini ve coğrafi oluşumlarını öğrenmek
 Paşabağ, Kapadokya seyahatinizde mutlaka uğramanız gereken noktaların başında gelir. Hem doğal güzelliği hem de tarihi dokusuyla, ziyaretçilerine unutulmaz bir deneyim sunar. Vadide geçireceğiniz birkaç saat, Kapadokya’nın neden dünyanın en etkileyici turistik bölgelerinden biri olduğunu açıkça gösterir.
 
 Kapadokya’daki en ilginç kaya oluşumlarını görebileceğiniz 
-**[Paşabağ (Rahipler Vadisi)](https://www.waylero.com/kesfet/turkiye/nevsehir/pasabagi-rahipler-vadisi)** 
+**[Paşabağ (Rahipler Vadisi)](https://www.waylero.com/tr/kesfet/turkiye/nevsehir/pasabagi-rahipler-vadisi)** 
 özellikle fotoğraf tutkunları için vazgeçilmezdir
 
 
@@ -373,7 +373,7 @@ Kapadokya’ya 2026 yılında yapılacak bir geziyi bu tavsiyelerle planlamak, h
 Kapadokya, doğa ve tarihin birleştiği büyüleyici bir coğrafyadır.
 
 Kapadokya seyahatinizi planlamak için 
-**[Kapadokya gezilecek yerler rehberine mutlaka göz atın](https://www.waylero.com/kesfet/turkiye/nevsehir)**
+**[Kapadokya gezilecek yerler rehberine mutlaka göz atın](https://www.waylero.com/tr/kesfet/turkiye/nevsehir)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

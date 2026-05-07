@@ -111,7 +111,7 @@ Casa Batlló ve Casa Milà’yı keşfetmek
 Barceloneta Plajı’nda vakit geçirmek  
 
 İspanya seyahatinizde mutlaka görmeniz gereken 
-**[Barselona gezi rehberi](https://www.waylero.com/kesfet/ispanya/barselona)** 
+**[Barselona gezi rehberi](https://www.waylero.com/tr/kesfet/ispanya/barselona)** 
 şehrin tüm turistik noktalarını detaylı şekilde sunar.
 
 ---
@@ -142,7 +142,7 @@ Kraliyet Sarayı’nı görmek
 Plaza Mayor’da vakit geçirmek  
 
 İspanya seyahatinizde mutlaka görmeniz gereken 
-**[Madrid gezi rehberi](https://www.waylero.com/kesfet/ispanya/madrid)** 
+**[Madrid gezi rehberi](https://www.waylero.com/tr/kesfet/ispanya/madrid)** 
 şehrin tarihi ve turistik noktalarını detaylı şekilde sunar.
 
 ---
@@ -191,7 +191,7 @@ Plaza de España’da fotoğraf çekmek
 Flamenko izlemek  
 
 Endülüs’ün en canlı şehirlerinden biri olan 
-**[Sevilla gezi rehberi](https://www.waylero.com/kesfet/ispanya/sevilla)** 
+**[Sevilla gezi rehberi](https://www.waylero.com/tr/kesfet/ispanya/sevilla)** 
 şehrin tarihi ve turistik noktalarını keşfetmenizi sağlar.
 
 ---
@@ -219,7 +219,7 @@ Es Vedrà’da gün batımı izlemek
 Dalt Vila’da gezmek  
 
 Dünyaca ünlü plajları ve gece hayatıyla bilinen 
-**[İbiza](https://www.waylero.com/kesfet/ispanya/ibiza)** 
+**[İbiza](https://www.waylero.com/tr/kesfet/ispanya/ibiza)** 
 İspanya’nın en popüler tatil destinasyonlarından biridir.
 
 ---
@@ -323,7 +323,7 @@ Waylero ile keşfet, planla, paylaş. 🚀
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
 Yeni destinasyonlar ve gezi rehberleri için 
-**[gezi blog yazıları ve rehberler](https://www.waylero.com/blog)** 
+**[gezi blog yazıları ve rehberler](https://www.waylero.com/tr/blog)** 
 sayfamızı ziyaret edebilirsiniz.
 
 `,
@@ -450,7 +450,7 @@ Explore the Alhambra Palace
 Take a walk in the Generalife Gardens  
 Explore the Albaicín  
 
-Click here for details 🔗 **[Granada Guide](https://www.waylero.com/kesfet/ispanya/granada)**
+Click here for details 🔗 **[Granada Guide](https://www.waylero.com/en/kesfet/ispanya/granada)**
 
 ---
 ## 💃 Seville
@@ -472,7 +472,7 @@ Climb the Giralda Tower
 Take photos at Plaza de España  
 Watch a flamenco show  
 
-Click here for details 🔗 **[Seville Guide](https://www.waylero.com/kesfet/ispanya/sevilla)**
+Click here for details 🔗 **[Seville Guide](https://www.waylero.com/en/kesfet/ispanya/sevilla)**
 
 ---
 ## 🌊 Ibiza
@@ -497,7 +497,7 @@ Swim at Cala Comte
 Watch the sunset at Es Vedrà  
 Explore Dalt Vila  
 
-Click here for details 🔗 **[Ibiza Guide](https://www.waylero.com/kesfet/ispanya/ibiza)**
+Click here for details 🔗 **[Ibiza Guide](https://www.waylero.com/en/kesfet/ispanya/ibiza)**
 
 ---
 ## 🍽 What to Eat in Spain?

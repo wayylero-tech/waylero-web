@@ -30,7 +30,7 @@ export default function BlogClient({ posts, currentLang }: BlogClientProps) {
     readMore: "Devamını Oku" 
   };
 
-  const langPrefix = isEn ? "/en" : "";
+  const langPrefix = `/${lang}`;
 
   return (
     <main className="min-h-screen bg-white">
@@ -60,12 +60,16 @@ export default function BlogClient({ posts, currentLang }: BlogClientProps) {
             return (
               <Link key={post.slug} href={localizedHref} className="h-full">
                 <div className="group bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col h-full">
-                  <div className="relative h-60 overflow-hidden">
-                    <div
-                      className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
-                      style={{ backgroundImage: `url(${post.image || '/placeholder.jpg'})` }}
-                    />
-                  </div>
+                  <div className="relative h-60 overflow-hidden bg-gray-100">
+  <img
+    src={post.image || "/placeholder.jpg"}
+    alt={displayTitle}
+    loading="lazy"
+    decoding="async"
+    fetchPriority="low"
+    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+  />
+</div>
 
                   <div className="p-8 flex flex-col flex-grow">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-600 transition-colors">

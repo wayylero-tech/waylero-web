@@ -101,7 +101,7 @@ Ziyaret sırasında görülebilecek önemli yapılar:
 Patara, Likya Yolu yürüyüşçülerinin en çok ziyaret ettiği tarihi duraklardan biridir.
 
 👉 Daha fazlası için linke tıklayın
- -[Patara Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/patara-antik-kent)
+ -[Patara Antik Kenti](https://www.waylero.com/tr/kesfet/turkiye/antalya/patara-antik-kent)
 
 ### 🏛️ Xanthos Antik Kenti
 
@@ -124,7 +124,7 @@ Antik çağda Likya'nın siyasi ve kültürel merkezi olarak kabul edilmiştir.
 Likya Yolu yürüyüşçüleri için Xanthos, tarih ve arkeoloji açısından en etkileyici duraklardan biridir.
 
 👉 Daha fazlası için linke tıklayın: 
- [Xanthos Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/xanthos-antik-kenti)
+ [Xanthos Antik Kenti](https://www.waylero.com/tr/kesfet/turkiye/antalya/xanthos-antik-kenti)
 
 ### 🏝️ Olympos Antik Kenti
 
@@ -147,7 +147,7 @@ Olympos'ta görülebilecek başlıca yapılar:
 Olympos ayrıca Likya Yolu üzerindeki en popüler kamp ve konaklama noktalarından biridir.
 
 👉 Daha fazlası için linke tıklayın
- -[Olympos Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/olympos-antik-kenti)
+ -[Olympos Antik Kenti](https://www.waylero.com/tr/kesfet/turkiye/antalya/olympos-antik-kenti)
 
 ### ⛰️ Myra Antik Kenti
 
@@ -168,7 +168,7 @@ Myra'da mutlaka görülmesi gereken yerler:
 Myra aynı zamanda Noel Baba olarak bilinen Aziz Nikolaos'un yaşadığı şehir olarak da bilinir.
 
 👉 Daha fazlası için linke tıklayın: 
- [Myra Antik Kenti](https://www.waylero.com/kesfet/turkiye/antalya/myra-antik-kenti)
+ [Myra Antik Kenti](https://www.waylero.com/tr/kesfet/turkiye/antalya/myra-antik-kenti)
 
 ## 🔎 Ziyaret Bilgileri
 
@@ -259,7 +259,7 @@ Antik kentler, turkuaz koylar ve dağ manzaralarıyla dolu bu rota, doğa ve ke�
 
 Eğer doğa yürüyüşünü seviyorsanız, Likya Yolu mutlaka yapılması gereken rotalar listesinde yer almalıdır.
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/tr/blog)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

@@ -149,7 +149,7 @@ At the top of our list is an assistant that will radically change your travel ha
 *   **Updated Blogs:** The freshest information and tips about cities.
 *   **Social Interaction:** Check out experiences from other travelers.
 
-👉 **Start Exploring with Waylero:** [waylero.com](https://waylero.com)
+👉 **Start Exploring with Waylero:** [waylero.com](https://waylero.com/en)
 
 ---
 

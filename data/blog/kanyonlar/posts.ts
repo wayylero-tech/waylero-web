@@ -63,7 +63,7 @@ Fethiye şehir merkezine yaklaşık 45 km mesafededir. Özel araçla yaklaşık 
 Debi: İlkbaharda güçlü  
 Ziyaretçi Yoğunluğu: Çok yüksek
 
-Detaylar için tıkla 🔗 **[Saklıkent Kanyonu](https://www.waylero.com/kesfet/turkiye/mugla/saklikent-kanyonu)**
+Detaylar için tıkla 🔗 **[Saklıkent Kanyonu](https://www.waylero.com/tr/kesfet/turkiye/mugla/saklikent-kanyonu)**
 
 ---
 
@@ -81,7 +81,7 @@ Antalya şehir merkezine yaklaşık 85 km mesafededir.
 Debi: Yüksek (rafting için ideal)  
 Ziyaretçi Yoğunluğu: Çok yüksek
 
-Detaylar için tıkla 🔗 **[Köprülü Kanyon](https://www.waylero.com/kesfet/turkiye/antalya/koprulu-kanyon-milli-parki)**
+Detaylar için tıkla 🔗 **[Köprülü Kanyon](https://www.waylero.com/tr/kesfet/turkiye/antalya/koprulu-kanyon-milli-parki)**
 
 ---
 
@@ -98,7 +98,7 @@ Antalya şehir merkezinden yaklaşık 90 km uzaklıktadır. Köprülü Kanyon Mi
 📐 Uçurum yüksekliği: 200 metreye yakın  
 Ziyaretçi Yoğunluğu: Son yıllarda hızla artmaktadır
 
-Detaylar için tıkla 🔗 **[Tazı Kanyonu](https://www.waylero.com/kesfet/turkiye/antalya/tazi-kanyonu)**
+Detaylar için tıkla 🔗 **[Tazı Kanyonu](https://www.waylero.com/tr/kesfet/turkiye/antalya/tazi-kanyonu)**
 
 ---
 
@@ -117,7 +117,7 @@ Kastamonu şehir merkezine yaklaşık 120 km uzaklıktadır. Pınarbaşı ilçes
 📐 Uzunluk: ~12 km  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Valla Kanyonu](https://www.waylero.com/kesfet/turkiye/kastamonu/valla-kanyonu)**
+Detaylar için tıkla 🔗 **[Valla Kanyonu](https://www.waylero.com/tr/kesfet/turkiye/kastamonu/valla-kanyonu)**
 
 ---
 
@@ -134,7 +134,7 @@ Samsun şehir merkezine yaklaşık 120 km mesafededir. Vezirköprü ilçesi üze
 📐 Kayalık yüksekliği: 300 metreyi aşan bölümler  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Şahinkaya Kanyonu](https://www.waylero.com/kesfet/turkiye/samsun/sahinkaya-kanyonu)**
+Detaylar için tıkla 🔗 **[Şahinkaya Kanyonu](https://www.waylero.com/tr/kesfet/turkiye/samsun/sahinkaya-kanyonu)**
 
 ---
 
@@ -153,7 +153,7 @@ Aydın’ın Bozdoğan ilçesi üzerinden ulaşım sağlanır.
 📐 Yükseklik: 300 metreyi aşan kayalıklar  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Arapapıştı Kanyonu](https://www.waylero.com/kesfet/turkiye/aydin/arapapisti-kanyonu)**
+Detaylar için tıkla 🔗 **[Arapapıştı Kanyonu](https://www.waylero.com/tr/kesfet/turkiye/aydin/arapapisti-kanyonu)**
 
 ---
 
@@ -172,7 +172,7 @@ Uşak şehir merkezine yaklaşık 30 km mesafededir.
 📐 Derinlik: 150 – 170 metre  
 Ziyaretçi Yoğunluğu: Orta
 
-Detaylar için tıkla 🔗 **[Ulubey Kanyonu](https://www.waylero.com/kesfet/turkiye/usak/ulubey-kanyonu)**
+Detaylar için tıkla 🔗 **[Ulubey Kanyonu](https://www.waylero.com/tr/kesfet/turkiye/usak/ulubey-kanyonu)**
 
 ---
 
@@ -195,7 +195,7 @@ Detaylar için tıkla 🔗 **[Ulubey Kanyonu](https://www.waylero.com/kesfet/tur
 
 Türkiye’nin kanyonları, doğa severler için keşfedilmeyi bekleyen eşsiz rotalar sunar. Yüksek kayalık duvarlar, serin akarsular ve büyüleyici manzaralar sayesinde bu doğal oluşumlar hem macera hem de huzur arayan gezginler için ideal destinasyonlardır.
 
-Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/blog)**
+Daha fazla keşif için tıkla 🔗 **[Blog Yazıalrı](https://www.waylero.com/tr/blog)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 

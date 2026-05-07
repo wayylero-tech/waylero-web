@@ -41,7 +41,7 @@ export const turkeyPostIcAnadolu = [
 
 Bu içerik, **Türkiye’de Gezilecek Yerler 2026** ana rehberimizin bir parçasıdır.  
 
-👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
+👉 [Türkiye’de Gezilecek Yerler 2026 Blog Yazısını İncele](https://www.waylero.com/tr/blog/turkiye/turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber)
 
 ---
 
@@ -59,7 +59,7 @@ Bunun yanında Ankara Kalesi ve Eymir Gölü çevresi, hem tarih hem doğa deney
 Hem kültür hem de şehir yaşamını bir arada sunan Ankara’da gezilecek yerler 2026 rotaları, 2026 yılında da turistlerin öncelikli duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Ankara'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/ankara)
+ [Ankara'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/ankara)
 
 
 ---
@@ -72,7 +72,7 @@ Bunun yanında Sazova Parkı, göletleri ve tematik alanlarıyla aileler ve doğ
 İç Anadolu’nun modern ve kültürel yüzüyle Eskişehir, gezilecek yerler 2026 rotaları arasında 2026 yılında da keşif ve kültür turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Eskişehir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/eskisehir)
+ [Eskişehir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/eskisehir)
 
 
 ---
@@ -85,7 +85,7 @@ Bunun yanında Alaaddin Tepesi, panoramik şehir manzarası ve yürüyüş rotal
 İç Anadolu’nun tarih ve kültür merkezi Konya, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve inanç turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Konya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/konya)
+ [Konya'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/konya)
 
 ---
 ### 📍 Kayseri’de Gezilecek Yerler 2026
@@ -97,7 +97,7 @@ Bunun yanında Erciyes Dağı, kış sporları ve doğa yürüyüşleri için id
 İç Anadolu’nun kültür ve doğa zenginliğiyle Kayseri, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kayseri'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kayseri)
+ [Kayseri'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kayseri)
 
 ---
 ### 📍 Nevşehir’de Gezilecek Yerler 2026
@@ -109,7 +109,7 @@ Bunun yanında Derinkuyu Yeraltı Şehri, tarihe ve arkeolojiye ilgi duyanlar i�
 İç Anadolu’nun kültür ve doğa harikası Nevşehir, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Nevşehir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/nevsehir)
+ [Nevşehir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/nevsehir)
 
 ---
 ### 📍 Aksaray’da Gezilecek Yerler 2026
@@ -121,7 +121,7 @@ Bunun yanında Sultan Hanı, Selçuklu mimarisinin en görkemli örneklerinden b
 Kapadokya atmosferini daha sakin bir ortamda deneyimlemek isteyenler için Aksaray’da gezilecek yerler 2026 rotaları 2026 yılında da popülerliğini artırmaktadır.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Aksaray'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/aksaray)
+ [Aksaray'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/aksaray)
 
 ---
 ### 📍 Niğde’de Gezilecek Yerler 2026
@@ -133,7 +133,7 @@ Bunun yanında Gümüşler Manastırı, bölgenin dini ve kültürel mirasını 
 İç Anadolu’nun tarih ve doğa merkezi Niğde, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Niğde'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/nigde)
+ [Niğde'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/nigde)
 
 
 ---
@@ -146,7 +146,7 @@ Bunun yanında Gök Medrese, tarih ve kültür meraklıları için ideal bir rot
 İç Anadolu’nun kültür ve sağlık turizmi merkezi Sivas, gezilecek yerler 2026 rotaları arasında 2026 yılında da tarih ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Sivas'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/sivas)
+ [Sivas'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/sivas)
 
 ---
 ###  📍 Kırıkkale’de Gezilecek Yerler 2026
@@ -158,7 +158,7 @@ Bunun yanında Hacılar Höyüğü, bölgenin tarihî ve arkeolojik zenginlikler
 İç Anadolu’nun kültürel ve doğal dokusuyla Kırıkkale, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kırıkkale'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kirikkale)
+ [Kırıkkale'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kirikkale)
 
 ---
 ###  📍 Kırşehir’de Gezilecek Yerler 2026
@@ -170,7 +170,7 @@ Bunun yanında Hacı Bektaş Veli Müzesi, bölgenin kültürel ve tarihî değe
 İç Anadolu’nun kültür ve tarih zenginliğiyle Kırşehir, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve doğa turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Kırşehir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/kirsehir)
+ [Kırşehir'de Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/kirsehir)
 
 ---
 ###  📍 Yozgat’ta Gezilecek Yerler 2026
@@ -184,7 +184,7 @@ Doğa ve manzara sevenler için Kazankaya Kanyonu, trekking ve kamp için elveri
 Yozgat’ta gezilecek yerler 2026 rehberi; doğa, tarih ve sakin bir atmosfer arayanlar için kapsamlı rotalar sunar. İç Anadolu’nun huzurlu dokusuyla Yozgat, 2026 yılında da keşfedilmeyi bekleyen şehirler arasında yer almaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Yozgat'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/yozgat)
+ [Yozgat'ta Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/yozgat)
 
 ---
 ### 📍 Karaman’da Gezilecek Yerler 2026
@@ -196,7 +196,7 @@ Bunun yanında Binbir Kilise Mağaraları, bölgenin tarihî ve arkeolojik değe
 İç Anadolu’nun tarih ve kültür merkezi Karaman, gezilecek yerler 2026 rotaları arasında 2026 yılında da kültür ve tarih turizmi arayanların gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Karaman'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/karaman)
+ [Karaman'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/karaman)
 
 ---
 ### 📍 Çankırı’da Gezilecek Yerler 2026
@@ -208,7 +208,7 @@ Bunun yanında Ilgaz Dağı ve Ilgaz Milli Parkı, doğa tutkunları ve yürüy�
 İç Anadolu’nun serin yaylaları ve tarihi zenginlikleriyle Çankırı, gezilecek yerler 2026 rotaları arasında 2026 yılında da ziyaretçilerin gözde duraklarından biri olmaya devam etmektedir.
 
 👉 Daha fazlası için aşağıdaki linke tıklayın: 
- [Çankırı'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/kesfet/turkiye/cankiri)
+ [Çankırı'da Gezilecek Yerler İçin Tıklayın](https://www.waylero.com/tr/kesfet/turkiye/cankiri)
 
 
 
@@ -221,21 +221,22 @@ Bunun yanında Ilgaz Dağı ve Ilgaz Milli Parkı, doğa tutkunları ve yürüy�
 ## ✈️ Sonuç
 
 İç Anadolu gezilecek yerler 2026 rehberi ile Kapadokya’dan Konya’ya, Ankara’dan Kayseri’ye kadar uzanan tarihi ve kültürel rotaları keşfedebilirsiniz.
+
 ## 🌍 Diğer Bölgeleri Keşfet
 
 Waylero rehberi ile tüm bölgeleri keşfedin:  
-- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
-- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
-- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
-- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
-- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
-- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
-- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
+- [👉 Marmara Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/marmara/turkiyede-gezilecek-yerler-2026-marmara)  
+- [👉 Ege Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ege/turkiyede-gezilecek-yerler-2026-ege)  
+- [👉 Akdeniz Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/akdeniz/turkiyede-gezilecek-yerler-2026-akdeniz-bolgesi)  
+- [👉 Karadeniz Bölgesi Gezi Rehberi](https://www.waylero.com/blog/tr/karadeniz/turkiyede-gezilecek-yerler-2026-karadeniz)  
+- [👉 İç Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/ic-anadolu/turkiyede-gezilecek-yerler-2026-ic-anadolu)  
+- [👉 Doğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/dogu-anadolu/turkiyede-gezilecek-yerler-2026-dogu-anadolu)  
+- [👉 Güneydoğu Anadolu Bölgesi Gezi Rehberi](https://www.waylero.com/tr/blog/guneydogu-anadolu/turkiyede-gezilecek-yerler-2026-guneydogu-anadolu)
 
 ---
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**  
 
-Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/blog)  
+Diğer yazılar ve rehberler için: 🌐 [Waylero Blog](https://www.waylero.com/tr/blog)  
 
       `,
 

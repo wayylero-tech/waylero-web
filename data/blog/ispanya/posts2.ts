@@ -86,7 +86,7 @@ export const spainPosts = [
 3. **Yankesicilere dikkat (özellikle Barselona).**  
 
 İspanya tatili planlayanlar için hazırlanan 
-**[İspanya gezilecek yerler rehberi](https://www.waylero.com/blog/ispanya/ispanya-gezilecek-yerler-rehberi)** 
+**[İspanya gezilecek yerler rehberi](https://www.waylero.com/tr/blog/ispanya/ispanya-gezilecek-yerler-rehberi)** 
 detaylı rota önerileri sunar.
  
 Kendi Gezi Planını Yapmak için Uygulamayı İndir 🔗 **[Waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile)**

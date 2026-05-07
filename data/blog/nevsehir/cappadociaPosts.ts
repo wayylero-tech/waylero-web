@@ -249,7 +249,7 @@ Kapadokya gezi planınızı genişletmek, farklı rotalar ve gizli kalmış yerl
 👉 Detaylı içerikler, hazır rotalar ve kişisel plan oluşturma araçlarıyla seyahatinizi profesyonel şekilde planlayabilirsiniz.
 
 ---
-Detaylar için tıkla 🔗 **[Kapadokya Gezilecek Yerler Rehberi](https://www.waylero.com/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
+Detaylar için tıkla 🔗 **[Kapadokya Gezilecek Yerler Rehberi](https://www.waylero.com/tr/blog/nevsehir/kapadokya-gezilecek-yerler-rehberi)**
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile&pcampaignid=web_share)**
 `,

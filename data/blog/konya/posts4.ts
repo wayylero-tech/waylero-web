@@ -122,10 +122,10 @@ Müzekart geçerlidir. 18 yaş altı ücretsizdir. Güncel fiyatlar dönemsel ol
 Ortalama 2 saat sürmektedir. 
 
 Neolitik dönemin en önemli yerleşimlerinden biri olan 
-**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/konya/catalhoyuk)**
+**[Çatalhöyük Ören Yeri hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/konya/catalhoyuk)**
 
 Türkiye’de gezilecek diğer önemli noktalar için 
-**[gezi blog yazılarımıza göz atabilirsiniz](https://www.waylero.com/blog)**.
+**[gezi blog yazılarımıza göz atabilirsiniz](https://www.waylero.com/tr/blog)**.
 
 Kendi Gezi Planını Yapmak için Google Play’den indir 🔗 **[waylero](https://play.google.com/store/apps/details?id=app.waylero.mobile)**
 

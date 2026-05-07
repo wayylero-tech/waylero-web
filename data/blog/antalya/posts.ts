@@ -82,7 +82,7 @@ Antik kent kalıntılarını keşfetmek
 Fotoğraf çekmek
 
 Antalya’nın en önemli Roma dönemi yapılarından biri olan 
-**[Aspendos Antik Kenti hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/antalya/aspendos-antik-kenti)** 
+**[Aspendos Antik Kenti hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/antalya/aspendos-antik-kenti)** 
 dünyanın en iyi korunmuş tiyatrolarından birine ev sahipliği yapar.
 
 ---
@@ -122,7 +122,7 @@ Gün batımını izlemek
 
 
 Toros Dağları manzarasıyla dikkat çeken 
-**[Konyaaltı Plajı](https://www.waylero.com/kesfet/turkiye/antalya/konyaalti-plaji)** 
+**[Konyaaltı Plajı](https://www.waylero.com/tr/kesfet/turkiye/antalya/konyaalti-plaji)** 
 Antalya’nın en çok ziyaret edilen plajlarından biridir.
 
 ---
@@ -164,7 +164,7 @@ Arkeolojik kalıntıları görmek
 Manzara fotoğrafları çekmek
 
 Antalya’da bulunan ve tarih öncesi dönemlere ait izler barındıran 
-**[Karain Mağarası](https://www.waylero.com/kesfet/turkiye/antalya/karain-magarasi)** 
+**[Karain Mağarası](https://www.waylero.com/tr/kesfet/turkiye/antalya/karain-magarasi)** 
 Türkiye’nin en önemli arkeolojik alanlarından biridir.
 
 ---
@@ -238,7 +238,7 @@ Fotoğraf çekmek
 
 
 Antalya’nın en ünlü doğal güzelliklerinden biri olan 
-**[Düden Şelalesi hakkında detaylı rehberi inceleyin](https://www.waylero.com/kesfet/turkiye/antalya/duden-selalesi)** 
+**[Düden Şelalesi hakkında detaylı rehberi inceleyin](https://www.waylero.com/tr/kesfet/turkiye/antalya/duden-selalesi)** 
 şehrin en çok ziyaret edilen doğa noktalarındandır.
 
 ---
@@ -277,7 +277,7 @@ Antalya sadece bir tatil şehri değil; aynı zamanda tarih, doğa ve kültürü
 Antalya için daha fazla yer önerisi için tıkla  
 
 Antalya’nın plajlarını, antik kentlerini ve doğal güzelliklerini görmek için 
-**[Antalya gezilecek yerler](https://www.waylero.com/kesfet/turkiye/antalya)** 
+**[Antalya gezilecek yerler](https://www.waylero.com/tr/kesfet/turkiye/antalya)** 
 sayfasına göz atabilirsiniz.
 
 

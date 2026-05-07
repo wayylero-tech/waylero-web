@@ -253,12 +253,12 @@ export default function HomeClient({
         )}
       </h1>
 
-      <p className="text-lg text-gray-600 leading-relaxed font-medium">
-        {lang === "tr"
-          ? "Rotanı oluştur, gerçek deneyimleri keşfet, şehirleri hisset. Seyahati planlamaktan çık, yaşamaya başla. 12.500+ deneyim seni bekliyor."
-          : "Create your route, discover real experiences, feel the cities. Stop just planning your travel, start living it. 12,500+ experiences await you."
-        }
-      </p>
+     <p className="text-lg text-orange-600 leading-relaxed font-medium">
+  {lang === "tr"
+    ? "40’tan fazla ülkenin sokaklarına düş, 300+ şehrin ritmini hisset, 2000’den fazla noktada kaybol… konserlerin kalabalığında, tiyatroların sessizliğinde, turların heyecanında hayatı yeniden keşfet."
+    : "Step into 40+ countries, feel the rhythm of 300+ cities, get lost in 2000+ places… rediscover life in the crowd of concerts, the silence of theaters, and the thrill of guided journeys."
+  }
+</p>
 
       <div className="flex flex-wrap gap-4 pt-2">
         <Link href={getLocalizedLink("/trip-planner")}>
@@ -358,7 +358,7 @@ export default function HomeClient({
 
   {/* Başlık ve Buton */}
   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 md:mb-16 border-b border-gray-100 pb-6 md:pb-10">
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900 tracking-tight font-serif">
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
       {t.tourTitle}
     </h2>
 
@@ -401,9 +401,9 @@ export default function HomeClient({
      {/* 5. SECTION: konserler */}
 <section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16">
   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 border-b border-gray-100 pb-10">
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900 tracking-tight font-serif">
-      {t.eventTitle}
-    </h2>
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
+  {t.eventTitle}
+</h2>
     <Link 
       href={getLocalizedLink("/aktiviteler")} 
       className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-all text-center"
@@ -559,7 +559,9 @@ export default function HomeClient({
   className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20 scroll-mt-24"
 >
   <div className="flex items-center justify-between mb-12 border-b border-gray-100 pb-6">
-    <h2 className="text-2xl md:text-4xl font-black text-gray-900 font-serif">{t.blogTitle}</h2>
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
+  {t.blogTitle}
+</h2>
     <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">
       {t.seeAll} →
     </Link>
@@ -567,24 +569,27 @@ export default function HomeClient({
   <HomeBlogSlider />
 </section>
 
+
        {/* 7. SECTION: VİDEOLAR - ID ve Scroll Margin Eklendi */}
 <section 
   id="video-section" 
   className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16 scroll-mt-24"
 >
   <div className="flex items-center justify-between mb-16 border-b border-gray-100 pb-10">
-    <h2 className="text-2xl md:text-4xl font-black text-gray-900 font-serif">{t.videoTitle}</h2>
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
+  {t.videoTitle}
+</h2>
     <Link href={getLocalizedLink("/videolar")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">
       {t.seeAll} →
     </Link>
   </div>
   
   <div className="flex gap-7 overflow-x-auto pb-6 snap-x scrollbar-hide">
-    {(videos ?? []).slice(0, 6).map((video) => (
+    {(videos ?? []).slice(0, 4).map((video) => (
       <div 
         key={video.id} 
         onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))} 
-        className="flex-shrink-0 w-[220px] md:w-[300px] snap-start cursor-pointer group"
+        className="flex-shrink-0 w-[220px] md:w-[320px] snap-start cursor-pointer group"
       >
         <div className="relative aspect-[9/16] rounded-2xl overflow-hidden bg-gray-100 shadow-sm group-hover:shadow-xl transition-all">
           <img 
