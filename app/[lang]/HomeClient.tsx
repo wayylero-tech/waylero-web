@@ -71,7 +71,20 @@ export default function HomeClient({
       where: "Neresi Olsun?",
       exploreDesc: "Rotanı çizmek, gezilecek yerleri görmek ve unutulmaz bir deneyim planlamak için gitmek istediğin ülkeyi seç.",
       exploreBtn: "Ülkeleri Keşfet",
-      stats: { country: "Ülke", city: "Şehir", spot: "Gezi noktası" }
+      stats: { country: "Ülke", city: "Şehir", spot: "Gezi noktası" },
+      mobileAppTag: "WAYLERO APP",
+    mobileAppTitle1: "Maceranı paylaş,",
+    mobileAppTitle2: "birlikte keşfet",
+    mobileAppDesc: "Kendi rotanı oluştur, seyahat anılarını paylaş ve yeni yol arkadaşlarıyla tanış. Waylero ile gezmek artık daha sosyal!",
+    mobileFeatures: [
+      "Kişiselleştirilmiş rotalar",
+      "Anlık fotoğraf paylaşımı",
+      "Gezginlerle tanışma",
+      "Mesajlaşma"
+    ],
+    indir: "HEMEN İNDİR",
+    ekle: "+ Ekle",
+    hazirMi: "Kanka Kapadokya rotasını güncelledim, herkes hazır mı? ✈️"
     },
     en: {
       cityTitle: "World's Most Visited Cities",
@@ -88,7 +101,20 @@ export default function HomeClient({
       where: "Where Should It Be?",
       exploreDesc: "Select the country you want to visit to start mapping your route, explore top attractions, and plan an unforgettable experience.",
       exploreBtn: "Explore Countries",
-      stats: { country: "Countries", city: "Cities", spot: "Tour spots" }
+      stats: { country: "Countries", city: "Cities", spot: "Tour spots" },
+      mobileAppTag: "WAYLERO SOCIAL",
+    mobileAppTitle1: "Share your adventure,",
+    mobileAppTitle2: "explore together",
+    mobileAppDesc: "Create your own route, share your travel memories and meet new travel companions. Traveling with Waylero is now more social!",
+    mobileFeatures: [
+      "Personalized routes",
+      "Instant photo sharing",
+      "Meet fellow travelers",
+      "Group messaging"
+    ],
+    indir: "DOWNLOAD NOW",
+    ekle: "+ Add",
+    hazirMi: "I updated the Cappadocia route, is everyone ready? ✈️"
     }
   }[lang as "tr" | "en"] || { /* fallback */ };
 
@@ -553,23 +579,137 @@ export default function HomeClient({
   </div>
 </section>
 
- {/* 7. SECTION: BLOG */}
-<section 
-  id="blog-section" 
-  className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20 scroll-mt-24"
->
-  <div className="flex items-center justify-between mb-12 border-b border-gray-100 pb-6">
-    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
-  {t.blogTitle}
-</h2>
-    <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">
-      {t.seeAll} →
-    </Link>
+ {/* Mobil Uygulama Reklam Alanı */}
+<section className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20">
+  <div className="bg-[#1a364d] rounded-[3rem] overflow-hidden relative min-h-[600px] flex flex-col lg:flex-row items-center p-8 lg:p-20 shadow-2xl">
+    
+    {/* Arka Plan Dekoratif Elementler */}
+    <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-orange-600/20 to-transparent pointer-events-none" />
+    <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-orange-500/10 rounded-full blur-[100px] pointer-events-none" />
+    <div className="absolute top-10 right-10 opacity-20 pointer-events-none">
+       <div className="grid grid-cols-6 gap-2">
+         {[...Array(24)].map((_, i) => (
+           <div key={i} className="w-1.5 h-1.5 bg-orange-500 rounded-full" />
+         ))}
+       </div>
+    </div>
+
+    {/* Sol İçerik Alanı */}
+    <div className="w-full lg:w-1/2 z-10 space-y-8">
+      <div className="inline-flex items-center gap-2 bg-orange-500/20 text-orange-400 px-5 py-2 rounded-full text-xs font-black uppercase tracking-[0.2em] border border-orange-500/30">
+        <span className="w-2 h-2 bg-orange-500 rounded-full animate-ping" />
+        {t.mobileAppTag}
+      </div>
+      
+      <h2 className="text-5xl md:text-7xl font-extrabold text-white leading-[1.1] font-serif italic">
+        {t.mobileAppTitle1} <br />
+        <span className="text-orange-500 drop-shadow-sm">{t.mobileAppTitle2}</span>
+      </h2>
+      
+      <p className="text-gray-300 text-xl max-w-md leading-relaxed">
+        {t.mobileAppDesc}
+      </p>
+
+      {/* Özellik Listesi */}
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-white">
+        {t.mobileFeatures?.map((item: string, idx: number) => (
+          <li key={idx} className="flex items-center gap-3 group">
+            <div className="bg-orange-500 rounded-lg p-1.5 group-hover:scale-110 transition-transform">
+              <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <span className="font-bold text-sm tracking-wide">{item}</span>
+          </li>
+        ))}
+      </ul>
+
+      {/* Mağaza Butonları */}
+      <div className="flex flex-col items-start pt-4">
+        <span className="font-bold text-white tracking-wider mb-3 whitespace-nowrap">
+          {t.indir}
+        </span>
+
+        <div className="flex flex-wrap gap-4 items-center h-12">
+          <a
+            href="https://play.google.com/store/apps/details?id=app.waylero.mobile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity flex items-center bg-black/20 p-2 rounded-xl border border-white/5"
+          >
+            <img
+              src="/assets/logo/google-play.webp"
+              width={140}
+              height={42}
+              alt="Google Play"
+              className="h-8 w-auto object-contain"
+              loading="lazy"
+            />
+          </a>
+
+          <div className="flex items-center opacity-40 grayscale bg-black/10 p-2 rounded-xl border border-white/5">
+            <img
+              src="/assets/logo/app-store.webp"
+              width={140}
+              height={42}
+              alt="App Store"
+              className="h-8 w-auto object-contain"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Sağ Telefon Mockup Alanı */}
+    <div className="w-full lg:w-1/2 mt-16 lg:mt-0 flex justify-center relative scale-110">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] rounded-full border-[2px] border-orange-500/30 animate-[spin_10s_linear_infinite]" />
+      
+      <div className="relative z-10 w-[280px] h-[590px] bg-[#fdfbf7] rounded-[3.5rem] border-[10px] border-slate-900 shadow-[0_0_50px_rgba(0,0,0,0.5)] p-4 overflow-hidden">
+        <div className="flex flex-col gap-4 h-full">
+            <div className="flex justify-between items-center border-b border-gray-100 pb-3">
+              <span className="font-serif font-black text-[#1a364d] text-2xl tracking-tighter">Waylero</span>
+              <div className="relative">
+                <span className="text-xl">🔔</span>
+                <span className="absolute -top-1 -right-1 w-4 h-4 bg-orange-500 rounded-full border-2 border-white text-[8px] flex items-center justify-center text-white font-bold">3</span>
+              </div>
+            </div>
+            
+            {/* Profil Kartları */}
+            {[
+              { name: "Mert Yılmaz", status: lang === "tr" ? "İstanbul • Yeni Rota" : "Istanbul • New Route", seed: "Mert" },
+              { name: "Ayşe Demir", status: lang === "tr" ? "Antalya • Fotoğraf" : "Antalya • Photo", seed: "Ayse" },
+              { name: "Can Özcan", status: lang === "tr" ? "Ankara • Katıldı" : "Ankara • Joined", seed: "Can" }
+            ].map((p, i) => (
+              <div key={i} className={`bg-white p-3 rounded-2xl shadow-sm border border-gray-50/50 flex flex-col gap-2 ${i > 0 ? 'opacity-90 scale-95' : 'scale-100'}`}>
+                <div className="flex items-center gap-3">
+                  <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${p.seed}`} alt={p.name} className="w-10 h-10 rounded-xl bg-orange-50" />
+                  <div className="flex-1">
+                    <div className="flex justify-between items-center">
+                      <p className="text-[11px] font-black text-slate-800">{p.name}</p>
+                      <button className="text-[9px] bg-slate-100 px-2 py-1 rounded-md font-bold text-slate-500">{t.ekle}</button>
+                    </div>
+                    <p className="text-[9px] text-gray-400 font-medium">{p.status}</p>
+                  </div>
+                </div>
+                {i === 0 && (
+                   <div className="w-full h-28 bg-gray-100 rounded-xl overflow-hidden relative">
+                      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=400" className="w-full h-full object-cover" alt="travel" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                      <div className="absolute bottom-2 left-2 text-white text-[10px] font-bold">📍 {lang === "tr" ? "Karadeniz" : "Black Sea"}</div>
+                   </div>
+                )}
+              </div>
+            ))}
+
+            <div className="mt-auto bg-slate-800 text-white p-3 rounded-2xl rounded-br-none text-[10px] leading-relaxed shadow-lg">
+               {t.hazirMi}
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <HomeBlogSlider />
 </section>
-
-
        {/* 7. SECTION: VİDEOLAR - ID ve Scroll Margin Eklendi */}
 <section 
   id="video-section" 

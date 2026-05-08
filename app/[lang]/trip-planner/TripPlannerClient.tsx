@@ -156,7 +156,7 @@ const reactToPrintFn = useReactToPrint({ contentRef });
 
   const cities = useMemo(() => {
   return [
-    { id: "istanbul", name: lang === "tr" ? "İstanbul" : "Istanbul", icon: "🕌" },
+    { id: "istanbul", name: lang === "tr" ? "istanbul" : "Istanbul", icon: "🕌" },
     { id: "nevsehir", name: lang === "tr" ? "Nevşehir" : "Nevsehir", icon: "🎈" },
     { id: "antalya", name: "Antalya", icon: "🎡" },
     { id: "paris", name: "Paris", icon: "🗼" },

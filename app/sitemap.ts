@@ -4,6 +4,7 @@ import path from "path";
 import cities from "@/data/cities.json";
 import toursData from "@/data/tours.json";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
+import { allPosts } from "@/lib/blog/posts";
 
 const baseUrl = "https://www.waylero.com";
 const locales = ["tr", "en"];
@@ -162,45 +163,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-// ✅ BLOG POSTS
-const manualBlogPosts = [
-  { category: "genel", slug: "muzekart-nedir-ucretleri" },
-  { category: "genel", slug: "gezginler-icin-gerekli-mobil-uygulamalar" },
-  { category: "genel", slug: "turkiyede-mutlaka-gorulmesi-gereken-antik-kentler" },
-  { category: "konya", slug: "tinaztepe-magarasi-gezi-rehberi" },
-  { category: "konya", slug: "kalender-baba-kesikbas-turbeleri" },
-  { category: "konya", slug: "konya-gezilecek-yerler-rehberi" },
-  { category: "turkiye", slug: "turkiye-en-guzel-selaleler-rehberi-2026" },
-  { category: "turkiye", slug: "turkiye-onemli-magaralar-rehberi-2026" },
-  { category: "turkiye", slug: "turkiyede-gezilecek-yerler-2026-81-il-detayli-rehber" },
-  { category: "turkiye", slug: "turkiye-en-guzel-kanyonlar-rehberi-2026" },
-  { category: "mersin", slug: "mersin-gezilecek-yerler-rehberi" },
-  { category: "turkiye", slug: "turkiye-en-cok-ziyaret-edilen-10-yer-2026" },
-  { category: "antalya", slug: "antalya-gezilecek-yerler-rehberi-2026" },
-  { category: "antalya", slug: "likya-yolu-dunyanin-en-iyi-trekking-rotalarindan-biri" },
-  { category: "istanbul", slug: "istanbul-gezilecek-yerler-rehberi" },
-  { category: "antalya", slug: "antalya-3-gunluk-gezi-plani" },
-  { category: "ispanya", slug: "ispanya-gezilecek-yerler-rehberi" },
-  { category: "spain", slug: "ispanya-4-gunluk-gezi-plani-barselona-madrid" },
-  { category: "nevsehir", slug: "kapadokya-gezilecek-yerler-rehberi" },
-  { category: "nevsehir", slug: "kapadokya-2-gunluk-gezi-plani" },
-  { category: "akdeniz", slug: "turkiyede-gezilecek-yerler-rehberi-2026-akdeniz-bolgesi" },
-  { category: "ege", slug: "turkiyede-gezilecek-yerler-rehberi-2026-ege" },
-  { category: "marmara", slug: "turkiyede-gezilecek-yerler-rehberi-2026-marmara" },
-  { category: "ic-anadolu", slug: "turkiyede-gezilecek-yerler-2026-ic-anadolu" },
-  { category: "karadeniz", slug: "turkiyede-gezilecek-yerler-rehberi-2026-karadeniz" },
-  { category: "dogu-anadolu", slug: "turkiyede-gezilecek-yerler-2026-dogu-anadolu" },
-  { category: "guneydogu-anadolu", slug: "turkiyede-gezilecek-yerler-2026-guneydogu-anadolu" },
-  { category: "konya", slug: "catalhoyuk-gezi-rehberi-2026" }
-];
+// ✅ BLOG POSTS AUTO
+allPosts.forEach((post: any) => {
+  if (!post?.slug) return;
 
-manualBlogPosts.forEach((post) => {
   locales.forEach((locale) => {
-    const route = `/blog/${post.category}/${post.slug}`;
+    const category = sanitize(
+      post.category ||
+      post.city ||
+      post.country ||
+      "genel"
+    );
+
+    const slug = sanitize(post.slug);
+
+    const route = `/blog/${category}/${slug}`;
 
     entries.push({
       url: buildUrl(route, locale),
-      lastModified: now,
+      lastModified: post.updatedAt
+        ? new Date(post.updatedAt)
+        : now,
       priority: 0.6,
       alternates: {
         languages: {
@@ -211,7 +194,6 @@ manualBlogPosts.forEach((post) => {
     });
   });
 });
-
   // ✅ PLACES
   const dataRoot = path.join(process.cwd(), "/data/ulkelerdata");
 
