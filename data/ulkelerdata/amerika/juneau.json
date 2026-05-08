@@ -1,48 +1,5 @@
 [
-  {
-    "slug": "mendenhall-buzulu",
-    "name": {
-      "tr": "Mendenhall Buzulu",
-      "en": "Mendenhall Glacier",
-      "de": "Mendenhall Gletscher"
-    },
-    "latitude": 58.4436,
-    "longitude": -134.6971,
-    "description": {
-      "tr": "Juneau'da yer alan Mendenhall Buzulu, etkileyici manzaralar ve doğa yürüyüşleri ile ünlüdür. Ziyaretçiler burada buzulu keşfetmek için çeşitli yolları takip edebilir.",
-      "en": "The Mendenhall Glacier in Juneau is known for its breathtaking views and hiking opportunities. Visitors can explore the glacier via various trails.",
-      "de": "Der Mendenhall-Gletscher in Juneau ist bekannt für seine atemberaubenden Ausblicke und Wandermöglichkeiten. Besucher können den Gletscher über verschiedene Wege erkunden."
-    },
-    "activities": {
-      "tr": [
-        "Buzulu keşfetmek",
-        "Doğal yürüyüş yollarında yürümek"
-      ],
-      "en": [
-        "Explore the glacier",
-        "Hike on natural trails"
-      ],
-      "de": [
-        "Den Gletscher erkunden",
-        "Wandern auf natürlichen Wegen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/mendenhall_glacier_juneau.jpg"
-    ]
-  },
-  {
+   {
     "slug": "mount-roberts-tramway",
     "name": {
       "tr": "Mount Roberts Tramway",
