@@ -1,49 +1,55 @@
 import HotelsClient from "./HotelsClient";
+import { Metadata } from "next";
 
 type Props = {
   params: Promise<{ lang?: string }>;
 };
 
-export async function generateMetadata({ params }: Props) {
+const BASE_URL = "https://www.waylero.com";
+
+// Global içerik yönetimi
+const content = {
+  tr: {
+    title: "En İyi Oteller ve Konaklama Seçenekleri | Waylero",
+    description: "Dünya genelindeki en popüler destinasyonlarda en iyi otelleri keşfedin ve güvenle rezervasyon yapın.",
+    path: "/hotels",
+    locale: "tr_TR",
+  },
+  en: {
+    title: "Best Hotels & Accommodations | Waylero",
+    description: "Discover and book the best hotels in top destinations worldwide with Waylero.",
+    path: "/en/hotels",
+    locale: "en_US",
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const lang = resolvedParams?.lang === "en" ? "en" : "tr";
-
-  const data = {
-    tr: {
-      title: "Türkiye Otelleri | Waylero",
-      description:
-        "İstanbul, Antalya, Kapadokya ve İzmir'deki en iyi otelleri keşfedin.",
-      canonical: "https://www.waylero.com/hotels",
-    },
-    en: {
-      title: "Turkey Hotels | Waylero",
-      description:
-        "Discover the best hotels in Istanbul, Antalya, Cappadocia and Izmir.",
-      canonical: "https://www.waylero.com/en/hotels",
-    },
-  };
-
-  const current = data[lang];
+  const t = content[lang];
 
   return {
-    title: current.title,
-    description: current.description,
-
+    title: t.title,
+    description: t.description,
     alternates: {
-      canonical: current.canonical,
+      canonical: `${BASE_URL}${t.path}`,
       languages: {
-        "tr-TR": "https://www.waylero.com/hotels",
-        "en-US": "https://www.waylero.com/en/hotels",
+        "tr-TR": `${BASE_URL}${content.tr.path}`,
+        "en-US": `${BASE_URL}${content.en.path}`,
       },
     },
-
     openGraph: {
-      title: current.title,
-      description: current.description,
-      url: current.canonical,
+      title: t.title,
+      description: t.description,
+      url: `${BASE_URL}${t.path}`,
       siteName: "Waylero",
       type: "website",
-      locale: lang === "en" ? "en_US" : "tr_TR",
+      locale: t.locale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t.title,
+      description: t.description,
     },
   };
 }
@@ -51,6 +57,48 @@ export async function generateMetadata({ params }: Props) {
 export default async function Page({ params }: Props) {
   const resolvedParams = await params;
   const lang = resolvedParams?.lang === "en" ? "en" : "tr";
+  const t = content[lang];
 
-  return <HotelsClient currentLang={lang} />;
+  // Global Otel Arama Sayfası Şeması
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": t.title,
+    "description": t.description,
+    "url": `${BASE_URL}${t.path}`,
+    "mainEntity": {
+      "@type": "LodgingBusiness", // Genel konaklama işi kategorisi
+      "name": "Waylero",
+      "description": lang === "en" 
+        ? "Global hotel search and booking platform." 
+        : "Dünya çapında otel arama ve rezervasyon platformu."
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": lang === "en" ? "Home" : "Anasayfa",
+          "item": `${BASE_URL}${lang === "en" ? "/en" : "/tr"}`
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": lang === "en" ? "Hotels" : "Oteller",
+          "item": `${BASE_URL}${t.path}`
+        }
+      ]
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <HotelsClient currentLang={lang} />
+    </>
+  );
 }
