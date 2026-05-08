@@ -140,22 +140,60 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                 ))}
               </ul>
             </div>
-            {/* ✅ SADECE TÜRKİYE İSE GÖSTER */}
-            {region.toLowerCase() === "turkiye" && (
-            <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg">
-              <div className="flex items-center gap-3 mb-4">
-                <Calendar size={20} />
-                <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
-              </div>
-              <p className="text-sm opacity-90 mb-6">{t.eventsText}</p>
-              <Link
-                href={`/aktiviteler?city=${slugify(city)}`}
-                className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
-              >
-                {t.eventsTitle} <ArrowRight size={18} />
-              </Link>
-            </div>
-             )}
+           {/* ✅ ETKİNLİKLER KARTI */}
+  {region.toLowerCase() === "turkiye" && (
+    <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg">
+      <div className="flex items-center gap-3 mb-4">
+        <Calendar size={20} />
+        <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
+      </div>
+      <p className="text-sm opacity-90 mb-6">{t.eventsText}</p>
+      <Link
+        href={`/aktiviteler?city=${slugify(city)}`}
+        className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+      >
+        {t.eventsTitle} <ArrowRight size={18} />
+      </Link>
+    </div>
+  )}
+
+  {/* ✅ OTELLER KARTI (YENİ) */}
+  <div className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-[2.5rem] p-8 shadow-lg">
+    <div className="flex items-center gap-3 mb-4">
+      <Activity size={20} />
+      <h3 className="font-serif font-bold text-xl">
+        {lang === "tr" ? `${cityName} Otelleri` : `${cityName} Hotels`}
+      </h3>
+    </div>
+    <p className="text-sm opacity-90 mb-6">
+      {lang === "tr" ? "Konaklayacak en iyi yerleri keşfetmek için tıklayın." : "Click to discover the best places to stay."}
+    </p>
+    <Link
+      href="/hotels"
+      className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+    >
+      {lang === "tr" ? "OTELLERİ GÖR" : "VIEW HOTELS"} <ArrowRight size={18} />
+    </Link>
+  </div>
+
+  {/* ✅ TURLAR KARTI (YENİ) */}
+  <div className="bg-gradient-to-br from-orange-600 to-amber-500 text-white rounded-[2.5rem] p-8 shadow-lg border border-orange-400/20">
+    <div className="flex items-center gap-3 mb-4">
+      <Navigation size={20} />
+      <h3 className="font-serif font-bold text-xl">
+        {lang === "tr" ? `${cityName} Turları` : `${cityName} Tours`}
+      </h3>
+    </div>
+    <p className="text-sm opacity-90 mb-6">
+      {lang === "tr" ? "Şehri uzman rehberlerle keşfedeceğin turlara göz at." : "Check out tours to explore the city with expert guides."}
+    </p>
+    <Link
+      href="/etkinlikler"
+      className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+    >
+      {lang === "tr" ? "TURLARI KEŞFET" : "EXPLORE TOURS"} <ArrowRight size={18} />
+    </Link>
+  </div>
                {/* 3. Çevreyi Keşfet Kartı (Hep Görünür) */}
            <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
   <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>

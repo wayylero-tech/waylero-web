@@ -1,4 +1,3 @@
-import toursData from "@/data/tours.json";
 import CityPageClient from "./CityPageClient";
 
 // Yardımcı fonksiyonlar
@@ -41,11 +40,6 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
 export default async function Page({ params }: { params: Promise<Params> }) {
   const { city, lang } = await params;
   
-  // Veriyi filtrele
-  const cityTours = toursData.filter(
-    (t: any) => t?.city?.toLowerCase() === city.toLowerCase()
-  );
-
   return (
     <>
       <script
@@ -60,16 +54,14 @@ export default async function Page({ params }: { params: Promise<Params> }) {
           }),
         }}
       />
-      <CityPageClient city={city} cityTours={cityTours} lang={lang} />
+      <CityPageClient city={city} lang={lang} />
     </>
   );
 }
 
+// ✅ Statik üretim için şehir listesini artık başka bir kaynaktan almalısın 
+// veya bu kısmı tamamen kaldırıp dynamic rendering'e bırakabilirsin.
+// Şimdilik boş bir array dönüyorum veya bu fonksiyonu silebilirsin.
 export function generateStaticParams() {
-  const cities = Array.from(new Set(toursData.map((t: any) => t.city?.toLowerCase())));
-  const languages = ['tr', 'en'];
-  
-  return languages.flatMap((lang) =>
-    cities.map((city) => ({ lang, city }))
-  );
+  return [];
 }

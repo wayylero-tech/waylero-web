@@ -7,6 +7,18 @@ import { MapPin, ChevronRight } from "lucide-react";
 /* 🔹 ŞEHİR VERİLERİ */
 const cities = [
   {
+  id: "tumsehirler",
+  name: {
+    tr: "Diğer Şehirler",
+    en: "Other Cities",
+  },
+  image: "/assets/sehir/tumsehirler.webp",
+  desc: {
+    tr: "Dünyanın dört bir yanındaki turları ve aktiviteleri keşfet",
+    en: "Discover tours and activities from all around the world",
+  },
+},
+  {
     id: "istanbul",
     name: { tr: "İstanbul", en: "Istanbul" },
     image: "/assets/sehir/istanbul.webp",
@@ -18,19 +30,10 @@ const cities = [
   {
     id: "nevsehir",
     name: { tr: "Nevşehir", en: "Nevsehir" },
-    image: "/assets/genel/goreme.webp",
+    image: "/assets/sehir/nevsehir.webp",
     desc: {
       tr: "Kapadokya balon turları ve peri bacaları",
       en: "Cappadocia hot air balloon tours and fairy chimneys",
-    },
-  },
-  {
-    id: "izmir",
-    name: { tr: "İzmir", en: "Izmir" },
-    image: "/assets/genel/efes.webp",
-    desc: {
-      tr: "Efes Antik Kenti ve Ege kıyıları",
-      en: "Ephesus Ancient City and Aegean coast",
     },
   },
   {
@@ -42,8 +45,88 @@ const cities = [
       en: "Beaches, waterfalls and ancient cities",
     },
   },
+  {
+    id: "izmir",
+    name: { tr: "İzmir", en: "Izmir" },
+    image: "/assets/sehir/izmir.webp",
+    desc: {
+      tr: "Efes Antik Kenti ve Ege kıyıları",
+      en: "Ephesus Ancient City and Aegean coast",
+    },
+  },
+  {
+    id: "mugla",
+    name: { tr: "Muğla", en: "Mugla" },
+    image: "/assets/sehir/mugla.webp",
+    desc: {
+      tr: "Bodrum, Marmaris ve Fethiye'nin eşsiz koyları",
+      en: "Unique bays of Bodrum, Marmaris and Fethiye",
+    },
+  },
+  {
+    id: "aydin",
+    name: { tr: "Aydın", en: "Aydin" },
+    image: "/assets/sehir/aydin.webp",
+    desc: {
+      tr: "Kuşadası ve Didim plajları, antik kalıntılar",
+      en: "Kusadasi and Didim beaches, ancient ruins",
+    },
+  },
+  {
+    id: "trabzon",
+    name: { tr: "Trabzon", en: "Trabzon" },
+    image: "/assets/sehir/trabzon.webp",
+    desc: {
+      tr: "Sümela Manastırı ve Karadeniz yaylaları",
+      en: "Sumela Monastery and Black Sea plateaus",
+    },
+  },
+  {
+    id: "viyana",
+    name: { tr: "Viyana", en: "Vienna" },
+    image: "/assets/sehir/viyana.webp",
+    desc: {
+      tr: "Klasik müzik, saraylar ve sanat galerileri",
+      en: "Classical music, palaces and art galleries",
+    },
+  },
+  {
+    id: "roma",
+    name: { tr: "Roma", en: "Rome" },
+    image: "/assets/sehir/roma.webp",
+    desc: {
+      tr: "Kolezyum, Vatikan ve tarihi meydanlar",
+      en: "Colosseum, Vatican and historical squares",
+    },
+  },
+  {
+    id: "paris",
+    name: { tr: "Paris", en: "Paris" },
+    image: "/assets/sehir/paris.webp",
+    desc: {
+      tr: "Eyfel Kulesi, Louvre Müzesi ve romantik sokaklar",
+      en: "Eiffel Tower, Louvre Museum and romantic streets",
+    },
+  },
+  {
+    id: "dubai",
+    name: { tr: "Dubai", en: "Dubai" },
+    image: "/assets/sehir/dubai.webp",
+    desc: {
+      tr: "Gökdelenler, lüks alışveriş ve çöl safarisi",
+      en: "Skyscrapers, luxury shopping and desert safari",
+    },
+  },
+  {
+    id: "bangkok",
+    name: { tr: "Bangkok", en: "Bangkok" },
+    image: "/assets/sehir/bangkok.webp",
+    desc: {
+      tr: "Tapınaklar, sokak lezzetleri ve gece hayatı",
+      en: "Temples, street food and nightlife",
+    },
+  },
 ];
-
 const AFFILIATE_BASE = "https://www.getyourguide.com";
 
 export default function EtkinliklerClient({ currentLang }: { currentLang: "en" | "tr" }) {
