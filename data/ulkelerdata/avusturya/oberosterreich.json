@@ -1,315 +1,268 @@
 [
-  {
-    "slug": "hallstatt-koyu",
-    "name": {
-      "tr": "Hallstatt Köyü",
-      "en": "Hallstatt Village",
-      "de": "Hallstatt"
-    },
-    "latitude": 47.5615,
-    "longitude": 13.6367,
-    "description": {
-      "tr": "Alp Dağları’nın eteklerinde bulunan, kartpostallardan fırlamış gibi görünen bir köy.",
-      "en": "A village at the foot of the Alps, looking like it's straight out of a postcard.",
-      "de": "Ein Dorf am Fuße der Alpen, das aussieht, als käme es direkt aus einer Postkarte."
-    },
-    "activities": {
-      "tr": [
-        "Köyde dolaşma",
-        "Doğa ile iç içe olma"
-      ],
-      "en": [
-        "Wander around the village",
-        "Be immersed in nature"
-      ],
-      "de": [
-        "Durch das Dorf spazieren",
-        "In der Natur sein"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/hallstatt_village.jpg"
+ {
+  "slug": "hallstatt-koyu",
+  "name": {
+    "tr": "Hallstatt Köyü",
+    "en": "Hallstatt Village",
+    "de": "Hallstatt"
+  },
+  "latitude": 47.5615,
+  "longitude": 13.6367,
+  "description": {
+    "tr": "Avusturya Alpleri'nin kalbinde, sarp dağ yamaçları ile aynalı bir göl yüzeyi arasına sıkışmış olan Hallstatt, dünyanın en çok fotoğraflanan ve büyüleyici yerleşim yerlerinden biridir. UNESCO Dünya Mirası Listesi'nde yer alan bu masalsı köy, sadece estetik güzelliğiyle değil, insanlık tarihine adını veren 'Hallstatt Kültürü' ile de eşsizdir. Köyün tarihi, yaklaşık 7.000 yıl öncesine, dünyanın en eski tuz madenlerine dayanır. Bu 'beyaz altın', Hallstatt'ı yüzyıllar boyunca zengin bir ticaret merkezi yapmış ve dik yamaçlara üst üste dizilmiş o kendine has pastel renkli ahşap evlerin inşa edilmesini sağlamıştır. Araç trafiğine kapalı dar sokakları, balkonlardan sarkan rengarenk çiçekleri ve göl üzerinde süzülen kuğularıyla burası, zamanın durduğu hissini veren gerçek bir huzur vahasıdır.\n\nHallstatt'ın derinliklerinde keşfedilmeyi bekleyen pek çok gizem bulunur. Köyün hemen üzerindeki dağda yer alan 'Salzwelten' (Tuz Dünyaları), ziyaretçileri yerin yüzlerce metre altına indirerek madencilerin binlerce yıllık serüvenine ortak eder. Buradaki Skywalk platformu ise, köyü ve gölü kuş bakışı izlemek isteyenler için adrenalin dolu bir manzara sunar. Köyün merkezindeki Katolik kilisesinin bahçesinde bulunan 'Beinhaus' (Kemik Evi) ise, yer darlığı nedeniyle 12. yüzyıldan itibaren kullanılan ve üzerlerine ölen kişilerin isimleri ile çiçek motifleri işlenmiş 1.200'den fazla kafatasıyla dünyanın en ilginç spiritüel duraklarından biridir. Köyün her köşesi, binlerce yıllık tuz ticaretinin getirdiği zenginlik ve zarafetin izlerini taşır.\n\nHallstatt, her mevsim farklı bir karaktere bürünür; bahar ve yaz aylarında yemyeşil dağlar ve göl turizmiyle canlanırken, kışın kar altında kaldığında gerçek bir 'Karlar Ülkesi' masalına dönüşür. Hatta Çin'de bu köyün birebir kopyasının inşa edilmiş olması, Hallstatt'ın küresel çapta ne kadar büyük bir hayranlık uyandırdığının en ilginç kanıtıdır. Göl kenarındaki balık restoranlarında taze tutulmuş göl balıklarının tadına bakmak, ahşap teknelerle (Plätten) gölde kısa bir gezintiye çıkmak veya sadece ana meydanda oturup Alplerin havasını solumak, ruhu tazeleyen bir deneyimdir. Hallstatt'ı ziyaret etmek, sadece turistik bir gezi değil; tarih öncesi çağlardan günümüze uzanan bir köprüde yürümek ve doğanın insan eliyle yaratılan en zarif mimariyle nasıl bütünleştiğine şahitlik etmektir.",
+    "en": "Tucked away in the heart of the Austrian Alps, squeezed between towering mountain slopes and the glassy surface of Lake Hallstatt, this village is one of the world's most photographed and enchanting settlements. A UNESCO World Heritage site, this fairytale destination is unique not only for its aesthetic perfection but also for the 'Hallstatt Culture' that defined an entire era of human history. The village's legacy stretches back nearly 7,000 years to the world’s oldest salt mines. Known as 'white gold,' this resource transformed Hallstatt into a wealthy trading hub for centuries, funding the construction of its distinctive pastel-colored wooden houses stacked precariously on the steep terrain. With its car-free narrow alleys, vibrant flowers cascading from balconies, and swans gliding across the lake, Hallstatt is a serene oasis where time seems to have stood still.\n\nDeep within Hallstatt lie mysteries waiting to be uncovered. High above the village, the 'Salzwelten' (Salt Worlds) takes visitors hundreds of meters underground to experience the ancient adventure of salt miners. For those seeking a bird's-eye view, the 'Skywalk' platform offers a breathtaking, adrenaline-pumping panoramic vista of the village and the entire Hallstätter See region. In the heart of the village, the 'Beinhaus' (Bone House) located in the cemetery of the Catholic church remains one of the world's most intriguing spiritual sites; it houses over 1,200 skulls, decorated with painted flower motifs and names—a tradition born from limited burial space in the 12th century. Every corner of the village bears the hallmarks of a wealthy, sophisticated civilization built on the salt trade.\n\nHallstatt takes on a different character with every season; while spring and summer bring lush green mountains and vibrant lake activities, the winter snow transforms it into a true 'Frozen' wonderland. Interestingly, the village’s allure is so immense that a full-scale replica of Hallstatt was built in China, a testament to its global fascination. Indulging in freshly caught lake fish at a waterfront restaurant, taking a quiet ride in a traditional wooden boat (Plätten), or simply sitting in the central market square to breathe in the crisp Alpine air is a soul-refreshing experience. Visiting Hallstatt is not just a tourist trip; it is a journey across a bridge connecting prehistoric times to the present, witnessing how nature perfectly integrates with the most elegant human-made architecture."
+  },
+  "activities": {
+    "tr": [
+      "Dünyanın en eski tuz madenini (Salzwelten) keşfetme",
+      "Skywalk platformundan panoramik göl manzarasını izleme",
+      "Beinhaus'taki (Kemik Evi) dekoratif kafataslarını görme",
+      "Geleneksel ahşap teknelerle göl turu yapma",
+      "Köyün simgesi olan klasik fotoğraf noktasından (Classic Village View) çekim yapma"
+    ],
+    "en": [
+      "Exploring the world’s oldest salt mine (Salzwelten)",
+      "Viewing the panoramic lake scenery from the Skywalk",
+      "Visiting the decorated skulls at the Beinhaus (Bone House)",
+      "Taking a lake tour in traditional wooden boats",
+      "Capturing the iconic photo from the Classic Village Viewpoint"
     ]
   },
+  "categories": {
+    "tr": ["doğa", "tarih", "UNESCO", "köy turu"],
+    "en": ["nature", "history", "UNESCO", "village tour"]
+  },
+  "images": [
+    "https://example.com/hallstatt_classic_view.jpg",
+    "https://example.com/hallstatt_salt_mine.jpg"
+  ]
+},
   {
-    "slug": "tuz-madeni",
-    "name": {
-      "tr": "Tuz Madeni",
-      "en": "Salt Mine",
-      "de": "Salzwelten Hallstatt"
-    },
-    "latitude": 47.5728,
-    "longitude": 13.643,
-    "description": {
-      "tr": "Bölgenin tarihî önemi hakkında bilgi edinmek için ziyaret edebilirsiniz.",
-      "en": "You can visit to learn about the historical importance of the region.",
-      "de": "Sie können besuchen, um mehr über die historische Bedeutung der Region zu erfahren."
-    },
-    "activities": {
-      "tr": [
-        "Tuz madenini gezme",
-        "Tarihi keşfetme"
-      ],
-      "en": [
-        "Tour the salt mine",
-        "Discover the history"
-      ],
-      "de": [
-        "Die Salzmine besichtigen",
-        "Die Geschichte entdecken"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/salt_mine.jpg"
+  "slug": "tuz-madeni",
+  "name": {
+    "tr": "Salzwelten Hallstatt (Tuz Madeni)",
+    "en": "Hallstatt Salt Mine (Salzwelten)",
+    "de": "Salzwelten Hallstatt"
+  },
+  "latitude": 47.5728,
+  "longitude": 13.643,
+  "description": {
+    "tr": "Hallstatt köyünün üzerinde, gökyüzüne komşu bir noktada yer alan Salzwelten, tam 7.000 yıllık geçmişiyle dünyanın bilinen en eski tuz madenidir. Neolitik çağlardan bu yana 'beyaz altın' olarak adlandırılan tuzun çıkarıldığı bu maden, Hallstatt'ın sadece bir yerleşim yeri değil, Avrupa'nın en zengin ve en gelişmiş antik kültürlerinden birinin merkezi olmasını sağlamıştır. Madene ulaşım, dik yamaçları saniyeler içinde aşan bir füniküler yolculuğu ile başlar ve ardından ziyaretçileri yerin yüzlerce metre altına götüren heyecan dolu bir yeraltı macerasına dönüşür. Bu maden, insan azminin ve mühendisliğin en eski kanıtlarını barındıran, zamanın derinliklerine açılan devasa bir kapıdır.\n\nMadenin içindeki tur, ziyaretçilere madenci kıyafetleri giydirilerek başlar; bu sayede atmosferin otantikliği en üst seviyeye çıkarılır. Turun en unutulmaz anlarından biri, madencilerin katlar arasında hızla hareket etmek için kullandığı 64 metre uzunluğundaki devasa ahşap kaydıraklardan aşağı kaymaktır. Bu Avrupa'nın en uzun yeraltı kaydırağı, adrenalin tutkunları için benzersiz bir deneyimdir. Madenin derinliklerinde, 2002 yılında keşfedilen ve 'Avrupa'nın En Eski Merdiveni' olarak tescillenen 3.400 yıllık ahşap merdivenleri görmek, tarihin dokusuna fiziksel olarak dokunmak gibidir. Ayrıca, yeraltındaki tuz gölü üzerinde gerçekleştirilen ses ve ışık gösterileri, madenin mistik havasını modern bir görsel şölenle birleştirir. Maden sadece tarihi değil, aynı zamanda tarih öncesi çağlarda burada yaşamış olan insanların günlük rutinlerini, beslenmelerini ve madencilik tekniklerini anlatan interaktif bir müze niteliğindedir.\n\nMadenin dışına çıktığınızda ise sizi 'Skywalk' adı verilen, uçurumun kenarından boşluğa uzanan ikonik gözlem platformu karşılar. Buradan Hallstatt gölünü, çevredeki karlı Alp zirvelerini ve UNESCO koruması altındaki bölgenin büyüleyici panoramasını izlemek, yeraltı macerasının ardından gelen muazzam bir ödül gibidir. Maden çevresindeki patikalarda yürürken, Demir Çağı'na ait mezar alanlarını (Cemetery) ve antik madenci yerleşimlerinin izlerini sürmek mümkündür. Hallstatt Tuz Madeni'ni ziyaret etmek, medeniyetin üzerine kurulduğu temelleri anlamak, karanlık galerilerde tarih öncesi yankıları dinlemek ve bir tuz kristalinin içinde saklı olan binlerce yıllık hikayeye tanıklık etmektir. Burası, her adımda tarihin tadını alabileceğiniz, Avusturya'nın sunduğu en epik ve öğretici seyahat noktalarından biridir.",
+    "en": "Perched high above the legendary village of Hallstatt, the Salzwelten (Salt Worlds) is the oldest salt mine in the world, boasting a history that stretches back an astonishing 7,000 years. Since Neolithic times, salt—often referred to as 'white gold'—has been extracted from these depths, transforming Hallstatt from a simple settlement into the epicenter of one of Europe's wealthiest and most advanced prehistoric civilizations, the Hallstatt Culture. The journey to the mine begins with a scenic funicular ride that scales the steep slopes in seconds, leading to a subterranean adventure hundreds of meters below the surface. This mine is not just a site of industrial heritage; it is a monumental gate to the past, revealing the earliest evidence of human ingenuity and engineering.\n\nThe guided tour begins with visitors donning traditional miner's overalls, immediately immersing them in the authentic atmosphere of a working mine. One of the absolute highlights of the excursion is sliding down the two massive wooden miners' slides, the longest of which measures 64 meters, earning it the title of the longest underground slide in Europe. Deeper in the mountain, visitors can witness the world-famous prehistoric wooden staircase, discovered in 2002 and dated back 3,400 years, making it the oldest of its kind in Europe. The underground journey also features a mystical salt lake, where state-of-the-art light and sound projections narrate the geological and historical formation of salt in the Alps. The mine serves as an interactive classroom, showcasing the diet, tools, and daily routines of the ancient miners who labored here millennia ago.\n\nUpon emerging from the depths of the mountain, visitors are greeted by the 'Skywalk'—an iconic viewing platform that juts out from the cliffside over a sheer drop. From here, the panoramic views of Lake Hallstatt, the surrounding snow-capped Alpine peaks, and the UNESCO World Heritage landscape offer a breathtaking reward after the dark underground galleries. The surrounding hiking trails lead past the historic Iron Age burial grounds and excavation sites where significant archaeological finds continue to tell the story of ancient Hallstatt. Visiting the Hallstatt Salt Mine is a profound invitation to explore the foundations of human civilization, to hear the echoes of prehistoric life in the cool subterranean air, and to witness the epic story of a single salt crystal that has shaped the world for seven millennia. It remains one of Austria's most essential and awe-inspiring landmarks, where the past is not just remembered, but vibrantly experienced."
+  },
+  "activities": {
+    "tr": [
+      "Dünyanın en eski madenci kıyafetlerini giyip yer altına inme",
+      "64 metrelik devasa ahşap madenci kaydıraklarından kayma",
+      "3.400 yıllık tarihi ahşap merdivenleri yerinde görme",
+      "Skywalk platformundan Hallstatt'ın en iyi manzarasını fotoğraflama",
+      "Yeraltı tuz gölünde yapılan multimedya şovunu izleme"
+    ],
+    "en": [
+      "Dressing in traditional miner's gear for a subterranean tour",
+      "Sliding down the massive 64-meter wooden miners' slides",
+      "Viewing the 3,400-year-old prehistoric wooden staircase",
+      "Capturing panoramic views of Hallstatt from the Skywalk platform",
+      "Watching the multimedia show over the underground salt lake"
     ]
   },
+  "categories": {
+    "tr": ["tarih", "macera", "müze", "doğa"],
+    "en": ["history", "adventure", "museum", "nature"]
+  },
+  "images": [
+    "https://example.com/hallstatt_salt_mine_interior.jpg",
+    "https://example.com/hallstatt_skywalk_view.jpg"
+  ]
+},
   {
-    "slug": "skywalk",
-    "name": {
-      "tr": "Skywalk",
-      "en": "Skywalk",
-      "de": "Skywalk"
-    },
-    "latitude": 47.57,
-    "longitude": 13.635,
-    "description": {
-      "tr": "Muhteşem manzaralara ev sahipliği yapan bir gözlem platformudur.",
-      "en": "A viewing platform offering breathtaking views.",
-      "de": "Eine Aussichtsplattform mit atemberaubenden Ausblicken."
-    },
-    "activities": {
-      "tr": [
-        "Manzara izleme",
-        "Fotoğraf çekme"
-      ],
-      "en": [
-        "Enjoy the view",
-        "Take photos"
-      ],
-      "de": [
-        "Die Aussicht genießen",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/skywalk.jpg"
+  "slug": "skywalk",
+  "name": {
+    "tr": "Skywalk Gözlem Platformu",
+    "en": "Skywalk Viewing Platform",
+    "de": "Skywalk Welterbeblick"
+  },
+  "latitude": 47.57,
+  "longitude": 13.635,
+  "description": {
+    "tr": "Hallstatt'ın hemen üzerinde, yaklaşık 360 metre yükseklikteki sarp bir kayalığın ucunda boşluğa doğru uzanan Skywalk 'World Heritage View', ziyaretçilerine dünyanın en görkemli manzaralarından birini sunan ikonik bir gözlem platformudur. Bir geminin pruvası gibi sivri bir uçla göle doğru uzanan bu çelik yapı, UNESCO Dünya Mirası Listesi'nde yer alan Hallstatt-Dachstein/Salzkammergut bölgesinin kalbinde yer alır. Platforma ulaşım, köy merkezinden kalkan panoramik bir füniküler yolculuğu ile sağlanır ve bu yolculuk bile tek başına Alplerin ihtişamını hissettirmek için yeterlidir. Skywalk'a adım attığınızda, ayaklarınızın altında kristal berraklığındaki Hallstatt Gölü, karşınızda ise karlı zirveleriyle heybetli Dachstein Dağları uzanır. Burası, doğanın büyüklüğü karşısında insanın kendini hem çok küçük hem de çok özgür hissettiği nadir noktalardan biridir.\n\nPlatformun tasarımı, çevredeki tarihi dokuya saygı duyarken modern bir zarafet sunar. 'Dünya Mirası Bakışı' olarak adlandırılan bu nokta, sadece bir fotoğraf çekilme alanı değil, aynı zamanda bölgenin 7.000 yıllık tarihini yukarıdan izleyebileceğiniz sessiz bir gözlem kulesidir. Platformun üzerinde dururken, aşağıda minyatür bir oyuncak gibi görünen Hallstatt evlerini, göl üzerinde süzülen tekneleri ve binlerce yıldır tuz taşınan antik yolları görebilirsiniz. Adrenalin tutkunları için uçurumun kenarında durmak heyecan verici bir deneyim sunarken, manzara meraklıları için Alplerin değişen ışık oyunlarını izlemek adeta meditatif bir süreçtir. Özellikle güneşin dağların arkasından batarken gölü altına boyadığı anlar, Skywalk'u dünyanın en romantik ve unutulmaz yerlerinden biri haline getirir.\n\nSkywalk sadece görsel bir şölen sunmakla kalmaz, aynı zamanda hemen arkasında bulunan tarihi 'Rudolf Kulesi' (Rudolfsturm) ile birleşerek ziyaretçilere kültürel bir derinlik de sunar. 13. yüzyılda tuz madenini korumak amacıyla inşa edilen bu kule, günümüzde manzaraya karşı kahvenizi yudumlayabileceğiniz şık bir restoran ve kafe olarak hizmet vermektedir. Platformda geçireceğiniz zaman, yeraltındaki tuz madeni turu ile birleştiğinde Hallstatt deneyimini mükemmelleştirir. Skywalk'u ziyaret etmek, Alplerin temiz havasını ciğerlerinize çekerken tarihin ve doğanın zirvesinde durmak, bir kartpostalın içine canlı bir figür olarak dahil olmaktır. Burası, Avusturya seyahatinde 'görmeden dönülmemesi gereken' yerlerin en başında gelir ve her adımda size neden burada olduğunuzu hatırlatan büyüleyici bir duraktır.",
+    "en": "Perched dramatically 360 meters above the roofs of Hallstatt, the Skywalk 'World Heritage View' is an iconic observation platform that extends into the void from a sheer cliffside, offering one of the most spectacular vistas on Earth. Shaped like the pointed prow of a ship jutting out toward the lake, this steel architectural marvel sits at the very heart of the UNESCO World Heritage Hallstatt-Dachstein/Salzkammergut region. Access to the platform is typically gained via a panoramic funicular ride from the village center, a journey that provides its own breathtaking introduction to the Alpine scenery. As you step onto the Skywalk, the crystal-clear Hallstätter See spreads out directly beneath your feet, while the towering Dachstein massif dominates the horizon with its majestic, snow-capped peaks. It is a place where one feels both remarkably small in the face of nature’s grandeur and profoundly free.\n\nThe design of the platform offers a modern elegance that respects the ancient cultural landscape surrounding it. More than just a photogenic spot, the 'World Heritage View' serves as a silent watchtower from which you can survey 7,000 years of human history from above. Standing at the edge, the houses of Hallstatt look like miniature toys, boats glide like tiny specks across the water, and the ancient trails used to transport salt for millennia reveal themselves in the terrain. For thrill-seekers, standing at the tip of the abyss provides an exhilarating rush of adrenaline, while for those seeking serenity, watching the play of light across the Alpine slopes is a meditative experience. The moments during sunset, when the light turns the lake into liquid gold, make the Skywalk one of the most romantic and unforgettable spots in the world.\n\nBeyond the view, the Skywalk is seamlessly connected to the historic Rudolf’s Tower (Rudolfsturm), adding a layer of cultural significance to the visit. Originally built in the 13th century as a defensive fortification for the salt mines, the tower now houses a charming restaurant and cafe where visitors can enjoy traditional Austrian delicacies while soaking in the panoramic scenery. When combined with a tour of the adjacent salt mines, the Skywalk completes the ultimate Hallstatt adventure. Visiting this platform means inhaling the crisp, pure Alpine air while standing at the intersection of history and natural beauty—it is like stepping into a postcard as a living character. It remains a 'must-see' highlight of any Austrian journey, a place that reminds you with every breath why Hallstatt is considered a world treasure."
+  },
+  "activities": {
+    "tr": [
+      "Uçurumun kenarındaki sivri uçta durarak adrenalin dolu anlar yaşama",
+      "Hallstatt ve göl manzarasını 360 derece fotoğraflama",
+      "Tarihi Rudolf Kulesi'nde manzaraya karşı akşam yemeği yeme",
+      "Köyden platforma panoramik füniküler ile çıkma",
+      "Gün batımı saatinde Alplerin renk değişimini izleme"
+    ],
+    "en": [
+      "Experiencing a thrill at the pointed tip of the cliffside platform",
+      "Capturing 360-degree panoramic photos of Hallstatt and the lake",
+      "Dining with a view at the historic Rudolf’s Tower",
+      "Taking the panoramic funicular from the village to the summit",
+      "Watching the shifting colors of the Alps during the golden hour"
     ]
   },
+  "categories": {
+    "tr": ["doğa", "mimari", "macera", "şehir turu"],
+    "en": ["nature", "architecture", "adventure", "city tour"]
+  },
+  "images": [
+    "https://example.com/hallstatt_skywalk_point.jpg",
+    "https://example.com/hallstatt_view_from_top.jpg"
+  ]
+},
   {
-    "slug": "linz",
-    "name": {
-      "tr": "Linz",
-      "en": "Linz",
-      "de": "Linz"
-    },
-    "latitude": 48.3064,
-    "longitude": 14.2861,
-    "description": {
-      "tr": "Linz, Üst Avusturya'nın başkenti ve Avusturya'nın üçüncü büyük şehridir. Sanat, kültür ve teknoloji ile ünlüdür. Linz, modern mimarisi, tarihi yerleri ve sanatsal etkinlikleriyle dikkat çeker.",
-      "en": "Linz is the capital of Upper Austria and the third largest city in Austria. It is famous for art, culture, and technology. Linz stands out with its modern architecture, historic sites, and artistic events.",
-      "de": "Linz ist die Hauptstadt von Oberösterreich und die drittgrößte Stadt Österreichs. Sie ist bekannt für Kunst, Kultur und Technologie. Linz zeichnet sich durch moderne Architektur, historische Stätten und künstlerische Veranstaltungen aus."
-    },
-    "activities": {
-      "tr": [
-        "Şehir turu yapma",
-        "Sanat galerilerini gezme",
-        "Müze gezisi yapma"
-      ],
-      "en": [
-        "City tour",
-        "Visit art galleries",
-        "Museum visit"
-      ],
-      "de": [
-        "Stadtrundfahrt",
-        "Kunstgalerien besuchen",
-        "Museumsbesuch"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "şehir turu",
-        "sanat",
-        "kültür"
-      ],
-      "en": [
-        "city tour",
-        "art",
-        "culture"
-      ],
-      "de": [
-        "stadtrundfahrt",
-        "kunst",
-        "kultur"
-      ]
-    },
-    "images": [
-      "https://example.com/linz.jpg"
+  "slug": "linz",
+  "name": {
+    "tr": "Linz",
+    "en": "Linz",
+    "de": "Linz"
+  },
+  "latitude": 48.3064,
+  "longitude": 14.2861,
+  "description": {
+    "tr": "Tuna Nehri'nin iki yakasına yayılmış olan Linz, Üst Avusturya eyaletinin başkenti ve ülkenin üçüncü büyük şehridir. Bir zamanlar sadece ağır sanayi merkezi olarak bilinen Linz, günümüzde 'Medya Sanatları Şehri' unvanıyla Avrupa'nın dijital ve teknolojik yaratıcılık kalbi haline gelmiştir. Şehrin en büyük meydanı olan Hauptplatz, Barok mimarinin en zarif örnekleriyle çevrili olup Avrupa'nın en geniş kentsel meydanlarından biridir. Meydanın ortasında yükselen Kutsal Üçlü Sütunu, şehrin tarihi derinliğini simgelerken, nehrin hemen karşı kıyısında parlayan Ars Electronica Center'ın LED cephesi, Linz'in geleceğe bakan fütüristik yüzünü temsil eder. Bu tezatlık, Linz'i klasik Avusturya şehirlerinden ayıran en temel özelliktir.\n\nLinz'in kültürel kimliği, teknoloji ile sanatın mükemmel simbiyozuna dayanır. 'Geleceğin Müzesi' olarak adlandırılan Ars Electronica Center, yapay zekadan bioteknolojiye kadar insanlığın geleceğini şekillendiren temaları interaktif bir şekilde sunar. Nehrin diğer kıyısındaki Lentos Sanat Müzesi ise cam mimarisi ve modern sanat koleksiyonuyla estetik bir şölen sunar. Şehir aynı zamanda bir 'açık hava galerisi' gibidir; özellikle liman bölgesindeki 'Mural Harbor', dünyanın en büyük duvar resmi (grafiti) koleksiyonlarından birine ev sahipliği yapar. Müzikseverler için ise modern mimarisi ve kusursuz akustiği ile tanınan Brucknerhaus, şehrin sanatsal nabzını tutar. Linz, aynı zamanda meşhur 'Linzer Torte'nin (dünyanın bilinen en eski pasta tarifi) anavatanıdır; bu lezzeti tarihi bir kafede tatmak, şehirdeki en tatlı geleneklerden biridir.\n\nŞehri kuş bakışı izlemek isteyenler için Pöstlingberg tepesi kaçınılmaz bir duraktır. Dünyanın en dik raylı sistemlerinden biri olan Pöstlingbergbahn ile çıkılan bu tepede, hem şehri hem de Alplerin eteklerini gören muazzam bir manzara bulunur. Linz ayrıca, Tuna Nehri boyunca uzanan yemyeşil parkları, bisiklet yolları ve canlı nehir trafiğiyle doğayla iç içe bir kentsel yaşam sunar. Avusturya'nın endüstriyel gücünü sanata dönüştüren bu şehir, 'Linz Değişir' (Linz Verändert) mottosunun hakkını her sokağında verir. Linz'i ziyaret etmek, klasik Barok sokaklarda yürürken bir anda kendinizi dijital bir rüyanın içinde bulmak ve Tuna'nın serinliğinde modern Avrupa'nın nabzını tutmaktır. Burası, her adımda yeniliğin ve yaratıcılığın fısıltılarının duyulduğu, Avusturya'nın vizyoner ruhunu temsil eden dinamik bir metropoldür.",
+    "en": "Straddling the banks of the mighty Danube, Linz is the capital of Upper Austria and the third-largest city in the country. Once known primarily as an industrial powerhouse, Linz has successfully reinvented itself as a 'UNESCO City of Media Arts,' becoming a global hub for digital culture and technological innovation. The city’s central square, Hauptplatz, is one of the largest enclosed urban squares in Europe, surrounded by magnificent Baroque buildings and featuring the impressive Holy Trinity Column. However, just across the river, the glowing LED facade of the Ars Electronica Center showcases the city's futuristic ambition. This striking contrast between historical elegance and high-tech vision is what makes Linz a truly unique Austrian destination.\n\nThe cultural identity of Linz is rooted in the perfect symbiosis of technology and art. The Ars Electronica Center, often called the 'Museum of the Future,' offers interactive exhibits on topics ranging from artificial intelligence to biotechnology, challenging visitors to think about the direction of human progress. On the opposite bank, the Lentos Kunstmuseum shines with its glass architecture and world-class collection of modern and contemporary art. The city also functions as a massive open-air gallery; the 'Mural Harbor' in the port district features over 300 oversized graffiti works, making it one of the largest outdoor galleries in the world. For music lovers, the Brucknerhaus concert hall provides a prestigious venue with world-class acoustics, honoring the legacy of the great composer Anton Bruckner.\n\nLinz is also the birthplace of the famous 'Linzer Torte,' believed to be the oldest cake recipe in the world; tasting this nutty, jam-filled delight in a traditional coffee house is an essential local experience. For the best panoramic views of the city and the winding Danube, visitors can take the Pöstlingbergbahn—one of the world’s steepest adhesion railways—to the summit of Pöstlingberg hill. The hilltop features a twin-towered pilgrimage basilica and the charming Grottenbahn, a fairytale attraction for families. Linz offers a vibrant urban life integrated with nature, boasting lush riverside parks and extensive cycling paths along the Danube. Embodying the motto 'Linz Changes' (Linz Verändert), the city celebrates its industrial heritage while looking boldly toward the digital future. Visiting Linz means walking through Baroque history one moment and stepping into a digital dream the next, all while feeling the steady pulse of a visionary European metropolis."
+  },
+  "activities": {
+    "tr": [
+      "Ars Electronica Center'da geleceğin teknolojilerini deneyimleme",
+      "Pöstlingbergbahn ile tepeye çıkıp panoramik şehir manzarasını izleme",
+      "Mural Harbor'da devasa duvar resimlerini tekneyle gezme",
+      "Tarihi bir pastanede orijinal Linzer Torte'nin tadına bakma",
+      "Tuna Nehri kıyısında akşam yürüyüşü yapıp Lentos Müzesi'nin ışıklarını seyretme"
+    ],
+    "en": [
+      "Experiencing futuristic technologies at the Ars Electronica Center",
+      "Taking the Pöstlingbergbahn for panoramic views of the city",
+      "Exploring the massive graffiti art at Mural Harbor by boat",
+      "Tasting the original Linzer Torte in a traditional bakery",
+      "Strolling along the Danube and enjoying the lights of the Lentos Museum"
     ]
   },
+  "categories": {
+    "tr": ["şehir turu", "sanat", "teknoloji", "gastronomi"],
+    "en": ["city tour", "art", "technology", "gastronomy"]
+  },
+  "images": [
+    "https://example.com/linz_danube_ars_electronica.jpg",
+    "https://example.com/linz_hauptplatz.jpg"
+  ]
+},
   {
-    "slug": "wolfgangsee",
-    "name": {
-      "tr": "Wolfgangsee",
-      "en": "Wolfgang Lake",
-      "de": "Wolfgangsee"
-    },
-    "latitude": 47.7125,
-    "longitude": 13.42,
-    "description": {
-      "tr": "Wolfgangsee, Avusturya'nın en güzel göllerinden biridir ve çevresindeki dağlarla ünlüdür. Yaz aylarında gölde yüzme, tekne turu yapma ve çevreyi keşfetme fırsatları sunulmaktadır.",
-      "en": "Wolfgang Lake is one of the most beautiful lakes in Austria, surrounded by mountains. In the summer, visitors can swim in the lake, take boat tours, and explore the surrounding area.",
-      "de": "Der Wolfgangsee ist einer der schönsten Seen in Österreich, umgeben von Bergen. Im Sommer können Besucher im See schwimmen, Bootstouren unternehmen und die Umgebung erkunden."
-    },
-    "activities": {
-      "tr": [
-        "Yüzme",
-        "Tekne turu yapma",
-        "Doğa yürüyüşü"
-      ],
-      "en": [
-        "Swimming",
-        "Boat tours",
-        "Nature hikes"
-      ],
-      "de": [
-        "Schwimmen",
-        "Bootstouren",
-        "Wandern"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "natur"
-      ]
-    },
-    "images": [
-      "https://example.com/wolfgangsee.jpg"
+  "slug": "wolfgangsee",
+  "name": {
+    "tr": "Wolfgangsee (Wolfgang Gölü)",
+    "en": "Wolfgang Lake (Wolfgangsee)",
+    "de": "Wolfgangsee"
+  },
+  "latitude": 47.7125,
+  "longitude": 13.42,
+  "description": {
+    "tr": "Salzkammergut bölgesinin en büyüleyici mücevherlerinden biri olan Wolfgangsee, zümrüt yeşili ve turkuaz tonlarındaki sularıyla Avusturya Alpleri'nin tüm ihtişamını yansıtan bir doğa harikasıdır. Deniz seviyesinden 538 metre yükseklikte yer alan bu göl, etrafını saran dik kayalıklar ve yemyeşil ormanlarla çevrili olup, yüzyıllardır sanatçılara, yazarlara ve imparatorluk ailesine ilham kaynağı olmuştur. Gölün kıyısına inci gibi dizilmiş olan St. Wolfgang, St. Gilgen ve Strobl kasabaları, geleneksel Avusturya mimarisinin en zarif örneklerini sunar. Wolfgangsee, sadece bir dinlenme noktası değil; aynı zamanda su sporlarından dağ tırmanışına, tarihi keşiflerden gastronomi duraklarına kadar geniş bir yelpazede unutulmaz bir Alp deneyimi vadeder.\n\nGölün en ikonik noktası olan St. Wolfgang kasabası, meşhur 'Im Weissen Rössl' (Beyaz At Hanı) operetine konu olan oteli ve 15. yüzyıldan kalma muazzam kanatlı sunağıyla bilinen hac kilisesiyle ünlüdür. Ancak bölgenin asıl adrenalin ve manzara kaynağı, 1893 yılından beri hizmet veren Schafbergbahn'dır. Avusturya'nın en dik buharlı dişli demiryolu olan bu tren, yolcuları Schafberg Dağı'nın zirvesine çıkarırken, Wolfgangsee de dahil olmak üzere bölgedeki beş farklı gölü aynı anda görebileceğiniz nefes kesen bir panorama sunar. Öte yandan, Mozart'ın annesinin doğum yeri olan St. Gilgen kasabası, Mozart köyü (Mozartdorf) olarak bilinir ve dar sokaklarındaki barok detaylarla ziyaretçilerini büyüleyici bir tarih yolculuğuna çıkarır.\n\nWolfgangsee'nin kristal berraklığındaki suları, yaz aylarında yüzme, yelken ve kano tutkunları için doğal bir oyun alanı sunarken, nehir üzerinde süzülen nostaljik buharlı gemiler (WolfgangseeSchifffahrt) kasabalar arası ulaşımı bir keyfe dönüştürür. Doğa yürüyüşçüleri için gölün çevresini dolanan parkurlar ve Falkenstein kayalıklarındaki tarihi 'Hac Yolu', bölgenin mistik havasını solumak için mükemmel rotalardır. Kış aylarında ise gölün çevresi, Avusturya'nın en romantik Noel pazarlarından birine (Wolfgangseer Advent) ev sahipliği yapar; göl üzerine kurulan devasa fenerler ve karlı dağların yansıması eşsiz bir atmosfer oluşturur. Wolfgangsee'yi ziyaret etmek, doğanın cömertliğini, Alplerin dinginliğini ve Avusturya'nın yaşayan kültürünü tek bir karede görmek demektir. Burası, her adımda huzuru fısıldayan ve ziyaretçilerini kendine aşık eden bir yeryüzü cennetidir.",
+    "en": "As one of the most mesmerizing jewels of the Salzkammergut region, Wolfgang Lake (Wolfgangsee) is a natural wonder that reflects the full splendor of the Austrian Alps with its emerald and turquoise waters. Situated at an elevation of 538 meters above sea level, this lake is framed by sheer cliffs and lush forests, having served as a source of inspiration for artists, writers, and imperial royalty for centuries. The charming villages of St. Wolfgang, St. Gilgen, and Strobl, which line the shores like pearls, showcase the finest examples of traditional Austrian architecture. Wolfgangsee is not merely a place of relaxation; it offers a comprehensive Alpine experience ranging from water sports and mountain climbing to historical discoveries and world-class gastronomy.\n\nThe most iconic spot on the lake, the village of St. Wolfgang, is world-famous for its 'Im Weissen Rössl' (White Horse Inn) hotel—the subject of a celebrated operetta—and its historic pilgrimage church, which houses a magnificent 15th-century winged altar. However, the ultimate source of adrenaline and breathtaking views is the Schafbergbahn. In operation since 1893, Austria’s steepest steam cog railway transports passengers to the summit of Mount Schafberg, offering a jaw-dropping panorama where you can see five different lakes, including Wolfgangsee, simultaneously. On the other end of the lake lies St. Gilgen, the birthplace of Mozart's mother; known as the 'Mozart Village,' it enchants visitors with its baroque details and narrow streets that feel like a journey through time.\n\nThe crystal-clear waters of Wolfgangsee provide a natural playground for swimming, sailing, and kayaking during the summer months, while nostalgic paddle steamers (WolfgangseeSchifffahrt) turn transportation between the villages into a scenic delight. For hikers, the trails encircling the lake and the historic 'Pilgrim's Path' across the Falkenstein cliffs are perfect routes to experience the region's mystical atmosphere. In winter, the lake’s surroundings host one of Austria's most romantic Christmas markets, the 'Wolfgangseer Advent,' where massive floating lanterns on the water and the reflection of snow-capped mountains create an ethereal setting. Visiting Wolfgangsee means witnessing the generosity of nature, the tranquility of the Alps, and the living culture of Austria in a single frame. It is a terrestrial paradise that whispers serenity at every turn and leaves every visitor profoundly spellbound."
+  },
+  "activities": {
+    "tr": [
+      "Schafbergbahn dişli treni ile zirveye çıkıp 5 gölü birden izleme",
+      "St. Wolfgang'daki tarihi kiliseyi ve 'Beyaz At Hanı'nı ziyaret etme",
+      "Göl üzerinde nostaljik buharlı gemi turuna katılma",
+      "St. Gilgen'in barok sokaklarında Mozart'ın izlerini sürme",
+      "Falkenstein kayalıklarındaki antik hac yolunda doğa yürüyüşü yapma"
+    ],
+    "en": [
+      "Ascending Mount Schafberg via the cog railway to view 5 lakes at once",
+      "Visiting the historic church and the 'White Horse Inn' in St. Wolfgang",
+      "Taking a cruise on the lake in a nostalgic paddle steamer",
+      "Tracing the footsteps of Mozart in the baroque streets of St. Gilgen",
+      "Hiking the ancient pilgrim's path across the Falkenstein cliffs"
     ]
   },
-  {
-    "slug": "bad-ischl",
-    "name": {
-      "tr": "Bad Ischl",
-      "en": "Bad Ischl",
-      "de": "Bad Ischl"
-    },
-    "latitude": 47.7031,
-    "longitude": 13.6194,
-    "description": {
-      "tr": "Bad Ischl, termal kaplıcaları ve tarihi hamamları ile ünlüdür. 19. yüzyılda Avusturya İmparatoru Franz Joseph’in yazlık sarayı burada bulunuyordu. Günümüzde, bu tarihi kasaba, şifalı sularıyla sağlık turizmi için popüler bir yerdir.",
-      "en": "Bad Ischl is known for its thermal spas and historic baths. In the 19th century, it was the summer residence of Emperor Franz Joseph of Austria. Today, this historic town is a popular destination for wellness tourism.",
-      "de": "Bad Ischl ist bekannt für seine Thermalbäder und historischen Kuranstalten. Im 19. Jahrhundert war es der Sommeraufenthalt von Kaiser Franz Joseph von Österreich. Heute ist diese historische Stadt ein beliebtes Ziel für Gesundheitstourismus."
-    },
-    "activities": {
-      "tr": [
-        "Kaplıcalarda dinlenme",
-        "Tarihî yapıları gezme"
-      ],
-      "en": [
-        "Relax in the spas",
-        "Visit historical buildings"
-      ],
-      "de": [
-        "In den Thermen entspannen",
-        "Historische Gebäude besichtigen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "history"
-      ],
-      "de": [
-        "geschichte"
-      ]
-    },
-    "images": [
-      "https://example.com/bad_ischl.jpg"
+  "categories": {
+    "tr": ["doğa", "spor", "tarih", "şehir turu"],
+    "en": ["nature", "sports", "history", "city tour"]
+  },
+  "images": [
+    "https://example.com/wolfgangsee_aerial_view.jpg",
+    "https://example.com/schafbergbahn_steam_train.jpg"
+  ]
+},
+ {
+  "slug": "bad-ischl",
+  "name": {
+    "tr": "Bad Ischl",
+    "en": "Bad Ischl",
+    "de": "Bad Ischl"
+  },
+  "latitude": 47.7031,
+  "longitude": 13.6194,
+  "description": {
+    "tr": "Salzkammergut bölgesinin kalbinde yer alan Bad Ischl, Avusturya'nın sadece bir kaplıca kasabası değil, aynı zamanda Avrupa tarihinin akışını değiştiren kararların alındığı görkemli bir imparatorluk merkezidir. 19. yüzyılda İmparator Franz Joseph ve İmparatoriçe Sisi'nin aşklarına ev sahipliği yapan ve yazlık ikametgah olarak kullanılan bu kasaba, bugün bile o dönemin asaletini ve zarafetini taşımaktadır. Traun ve Ischl nehirlerinin birleştiği noktada kurulu olan şehir, etrafını saran Alp dağlarının temiz havası ve yer altından fışkıran şifalı tuzlu sularıyla (tuzlu su banyoları) yüzyıllardır hem bedensel hem de ruhsal bir arınma noktası olmuştur. 2024 yılında Avrupa Kültür Başkenti seçilmesi, şehrin tarihi mirasını modern sanat ve kültürle ne kadar başarıyla harmanladığının en büyük kanıtıdır.\n\nKasabanın en önemli simgesi olan Kaiservilla (İmparatorluk Villası), Franz Joseph'in 'yeryüzündeki cennetim' dediği yerdir ve bugün hala o dönemin mobilyaları, av kupaları ve kişisel eşyalarıyla ziyaretçilere açıktır. Villayı çevreleyen geniş İngiliz bahçeleri (Kaiserpark), huzurlu bir yürüyüş için eşsiz bir ortam sunar. Bad Ischl'in gastronomik simgesi ise dünyaca ünlü 'Konditorei Zauner' pastanesidir. Bir zamanlar saraya hizmet veren bu tarihi mekan, meşhur 'Zaunerstollen' tatlısı ile damağınızda unutulmaz bir iz bırakır. Kasabanın sokaklarında yürürken göreceğiniz Biedermeier tarzı binalar, şık butikler ve nehir kenarındaki kafeler, sizi bir anda 19. yüzyılın o asil atmosferine geri götürür.\n\nSağlık ve wellness meraklıları için EurothermenResort, modern termal havuzları ve tuzlu su terapileriyle bölgenin en gelişmiş tesislerinden biridir. Kültür meraklıları için ise Lehár Villa, ünlü operet bestecisi Franz Lehár'ın hayatına ışık tutar. Doğa tutkunları, Katrin teleferiği (Katrin Seilbahn) ile zirveye çıkıp yedi farklı gölü aynı anda görebilecekleri panoramik bir manzaraya şahitlik edebilirler. Bad Ischl, sadece geçmişe yapılan bir yolculuk değil; aynı zamanda doğanın sunduğu şifayı imparatorluk zarafetiyle harmanlayan, her mevsim farklı bir güzelliğe bürünen bir yaşam sanatıdır. Burası, Avusturya'nın kalbinde huzuru, tarihi ve lezzeti bir kadeh şampanya zarafetinde sunan eşsiz bir duraktır.",
+    "en": "Located in the heart of the Salzkammergut region, Bad Ischl is more than just a spa town; it is a grand imperial center where history was made and the destiny of Europe was often decided. In the 19th century, it served as the summer residence for Emperor Franz Joseph I and Empress Elisabeth (Sisi), becoming the social and political hub of the Austro-Hungarian Empire. Situated at the confluence of the Traun and Ischl rivers, the town has been a sanctuary for physical and spiritual healing for centuries, thanks to its crisp Alpine air and therapeutic brine springs. Its designation as the European Capital of Culture in 2024 highlights its success in blending a prestigious historical legacy with contemporary artistic innovation.\n\nThe town’s crown jewel is the Kaiservilla (Imperial Villa), which the Emperor famously described as his 'heaven on earth.' Today, it remains open to the public, preserved with original furnishings, hunting trophies, and personal artifacts that offer an intimate look into the lives of the Habsburgs. The surrounding Kaiserpark, an expansive English-style landscape garden, provides a serene backdrop for leisurely strolls. For gourmets, no visit is complete without a stop at 'Konditorei Zauner,' a former purveyor to the imperial court. This historic pastry shop is world-renowned for its 'Zaunerstollen,' a sweet delight that embodies the sophisticated culinary tradition of Austria. Walking through the town's streets, lined with Biedermeier-style architecture and elegant boutiques, feels like stepping into a living museum of 19th-century nobility.\n\nFor wellness seekers, the EurothermenResort offers state-of-the-art thermal pools and brine therapies, continuing the town's long tradition as a premier health resort. Culture enthusiasts can explore the Lehár Villa, the former home of the celebrated operetta composer Franz Lehár. For outdoor lovers, the Katrin Cable Car (Katrin Seilbahn) whisks visitors to the summit for a breathtaking panorama where seven different Alpine lakes can be seen simultaneously on clear days. Bad Ischl is not merely a nostalgic trip into the past; it is a harmonious blend of nature’s healing powers and imperial elegance. It remains a unique destination in the heart of Austria where tranquility, history, and flavor converge with the sophistication of a bygone era, offering a refreshing escape for the modern traveler."
+  },
+  "activities": {
+    "tr": [
+      "Kaiservilla'yı ve muazzam imparatorluk bahçelerini gezme",
+      "Tarihi Konditorei Zauner'de orijinal Zaunerstollen tatma",
+      "EurothermenResort'ta şifalı tuzlu su banyoları ile rahatlama",
+      "Katrin Teleferiği ile zirveye çıkıp 7 göl manzarasını izleme",
+      "Lehár Villa'da ünlü bestecinin dünyasını keşfetme"
+    ],
+    "en": [
+      "Touring the Kaiservilla and the magnificent imperial gardens",
+      "Tasting the original Zaunerstollen at the historic Konditorei Zauner",
+      "Relaxing in the therapeutic brine baths at EurothermenResort",
+      "Taking the Katrin Cable Car for a 7-lake panoramic view",
+      "Discovering the world of the famous composer at Lehár Villa"
     ]
   },
-  {
-    "slug": "mauthausen-aniti",
-    "name": {
-      "tr": "Mauthausen Anıtı",
-      "en": "Mauthausen Memorial",
-      "de": "Gedenkstätte Mauthausen"
-    },
-    "latitude": 48.2417,
-    "longitude": 14.4986,
-    "description": {
-      "tr": "Mauthausen Anıtı, II. Dünya Savaşı sırasında bir Nazi toplama kampı olarak kullanılan Mauthausen kasabasında yer alır. Bugün, bu anıt, holokostu ve insanlık tarihinin en karanlık dönemlerinden birini anmak amacıyla ziyaret edilmektedir.",
-      "en": "The Mauthausen Memorial is located in the town of Mauthausen, which was a Nazi concentration camp during World War II. Today, the memorial serves as a place to remember the Holocaust and one of the darkest periods in human history.",
-      "de": "Die Gedenkstätte Mauthausen befindet sich in der Stadt Mauthausen, die während des Zweiten Weltkriegs ein nationalsozialistisches Konzentrationslager war. Heute dient das Denkmal dazu, den Holocaust und eine der dunkelsten Perioden der Menschheitsgeschichte zu erinnern."
-    },
-    "activities": {
-      "tr": [
-        "Tarihî alanları gezme",
-        "Anıta saygı gösterme"
-      ],
-      "en": [
-        "Tour the historical site",
-        "Pay respects at the memorial"
-      ],
-      "de": [
-        "Historische Stätten besichtigen",
-        "Respekt vor dem Denkmal zeigen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "history"
-      ],
-      "de": [
-        "geschichte"
-      ]
-    },
-    "images": [
-      "https://example.com/mauthausen_memorial.jpg"
+  "categories": {
+    "tr": ["tarih", "sağlık", "gastronomi", "şehir turu"],
+    "en": ["history", "wellness", "gastronomy", "city tour"]
+  },
+  "images": [
+    "https://example.com/bad_ischl_kaiservilla.jpg",
+    "https://example.com/bad_ischl_river_view.jpg"
+  ]
+},
+ {
+  "slug": "mauthausen-aniti",
+  "name": {
+    "tr": "Mauthausen Anıtı",
+    "en": "Mauthausen Memorial",
+    "de": "Gedenkstätte Mauthausen"
+  },
+  "latitude": 48.2417,
+  "longitude": 14.4986,
+  "description": {
+    "tr": "Linz şehri yakınlarındaki Mauthausen kasabasında bulunan Mauthausen Anıtı, II. Dünya Savaşı sırasında Nazi Almanyası tarafından kurulan en büyük ve en acımasız toplama kampı komplekslerinden birinin üzerinde yükselmektedir. 1938-1945 yılları arasında faaliyet gösteren bu kamp, Nazi ideolojisinin en karanlık yönlerini, sistemli bir yok etme mekanizmasına dönüştürmüştür. Mauthausen, diğer kamplardan farklı olarak 'Grade III' yani geri dönüşü olmayan bir kamp olarak sınıflandırılmış ve buraya getirilen on binlerce insan ağır çalışma koşulları, açlık ve şiddet yoluyla hayatını kaybetmiştir. Bugün bu alan, yaşanan trajediye tanıklık etmek, kurbanları onurlandırmak ve gelecekte benzer acıların yaşanmaması adına bir uyarı merkezi olarak hizmet vermektedir.\n\nAnıtın en sarsıcı bölümlerinden biri, mahkumların devasa granit bloklarını sırtlarında taşıyarak tırmanmak zorunda kaldıkları 'Ölüm Merdivenleri'dir (Todesstiege). Yakındaki bir taş ocağından kampın tepesine uzanan bu merdivenler, mahkumların fiziksel ve ruhsal olarak tüketilmesinin bir simgesidir. Kampın içinde yer alan 'İsimler Odası' (Raum der Namen), burada hayatını kaybeden 80.000'den fazla kişinin ismini barındırarak anonim kalmış trajedilere bir kimlik kazandırır. Gaz odaları, krematoryumlar ve mahkum barınakları, o dönemin dehşetini tüm çıplaklığıyla ziyaretçilere sunarken; modern sergi alanları bu vahşetin siyasi ve sosyal arka planını detaylı belgelerle analiz eder. Kampın dışındaki anıt parkı ise farklı ülkeler tarafından kendi vatandaşlarını anmak üzere dikilmiş heybetli heykellerle doludur.\n\nMauthausen Anıtı'nı ziyaret etmek, kolay bir turistik gezi değil, yoğun bir duygusal ve entelektüel deneyimdir. Burası, insan onurunun ayaklar altına alındığı bir yer olmasının yanı sıra, hayatta kalanların dayanışması ve direnişi hakkında da önemli dersler sunar. Profesyonel rehberler ve interaktif sesli rehberler eşliğinde yapılan turlar, ziyaretçilerin bu kompleks yapıyı ve Holokost'un dehşetini daha iyi kavramasını sağlar. Avusturya’nın bu karanlık mirasıyla yüzleşme biçimi olan Mauthausen, insan haklarının ve barışın değerini anlamak isteyen her birey için sarsıcı ama bir o kadar da gerekli bir duraktır. Sessizliğin en yüksek sese dönüştüğü bu taş duvarlar arasında yürümek, tarihin soğuk yüzüyle göz göze gelmek ve insanlığın karanlık kapasitesini asla unutmamak için verilen bir sözdür.",
+    "en": "Located near the town of Mauthausen, just outside of Linz, the Mauthausen Memorial stands on the site of one of the largest and most brutal concentration camp complexes established by Nazi Germany during World War II. Operating from 1938 to 1945, this camp embodied the darkest aspects of Nazi ideology, functioning as a systematic machine for 'extermination through labor.' Unlike many other camps, Mauthausen was classified as a 'Grade III' facility, intended for the most severe incarceration of so-called 'irrigible political enemies' of the Reich. Tens of thousands of victims from across Europe were subjected to forced labor, starvation, and extreme violence. Today, the site serves as a place of international remembrance, a memorial to the victims, and a vital educational center designed to ensure that such horrors are never repeated.\n\nOne of the most haunting elements of the memorial is the 'Stairs of Death' (Todesstiege). These uneven granite steps led from the nearby quarry to the top of the camp, where prisoners were forced to carry heavy stone blocks while climbing under the threat of execution. These stairs remain a chilling symbol of the inhumanity and physical destruction directed at the prisoners. Within the camp complex, the 'Room of Names' (Raum der Namen) lists over 80,000 individuals who perished here, giving a voice and a name to the victims of this industrial-scale atrocity. The gas chambers, crematoria, and preserved barracks provide a stark, unmediated encounter with the past, while the modern museum exhibitions offer critical historical context through documents, artifacts, and personal testimonies.\n\nThe international memorial park outside the camp walls features numerous monuments erected by different nations to honor their citizens who were imprisoned and killed here. Each monument reflects a unique artistic and cultural response to the tragedy, contributing to a diverse landscape of collective grief and resilience. A visit to Mauthausen is an intense emotional and intellectual journey, demanding reflection on the capacity for human cruelty and the importance of active vigilance in protecting human rights. Audio guides and guided tours help visitors navigate the vast complex and understand the political and social mechanisms that allowed such a system to exist. Mauthausen remains a somber but essential destination in Austria, a place where the heavy silence of history calls for a commitment to humanity, peace, and eternal remembrance."
+  },
+  "activities": {
+    "tr": [
+      "Ölüm Merdivenleri (Todesstiege) ve taş ocağını görme",
+      "İsimler Odası'nda kurbanları anma",
+      "Kampın tarihi barınaklarını ve gaz odalarını ziyaret etme",
+      "Modern sergilerle Holokost tarihini derinlemesine inceleme",
+      "Uluslararası anıt parkındaki heykelleri inceleme"
+    ],
+    "en": [
+      "Viewing the 'Stairs of Death' and the quarry",
+      "Paying respects at the Room of Names",
+      "Visiting the historic barracks and gas chambers",
+      "Exploring the history of the Holocaust through modern exhibitions",
+      "Studying the monuments in the International Memorial Park"
     ]
-  }
+  },
+  "categories": {
+    "tr": ["tarih", "kültür", "eğitim", "anıt"],
+    "en": ["history", "culture", "education", "memorial"]
+  },
+  "images": [
+    "https://example.com/mauthausen_memorial_entrance.jpg",
+    "https://example.com/mauthausen_stairs_of_death.jpg"
+  ]
+}
 ]

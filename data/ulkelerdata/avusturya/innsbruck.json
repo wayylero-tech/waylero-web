@@ -1,88 +1,74 @@
 [
-  {
-    "slug": "altin-cati",
-    "name": {
-      "tr": "Altın Çatı",
-      "en": "Golden Roof",
-      "de": "Goldenes Dachl"
-    },
-    "latitude": 47.2692,
-    "longitude": 11.3923,
-    "description": {
-      "tr": "Innsbruck'un sembolü olan bu yapı, Altın Çatı ile ünlüdür.",
-      "en": "This structure, known for its Golden Roof, is a symbol of Innsbruck.",
-      "de": "Dieses Gebäude, bekannt für sein Goldenes Dach, ist ein Wahrzeichen von Innsbruck."
-    },
-    "activities": {
-      "tr": [
-        "Altın Çatı'ya bakma",
-        "Şehir merkezi keşfi"
-      ],
-      "en": [
-        "Admire the Golden Roof",
-        "Explore the city center"
-      ],
-      "de": [
-        "Das Goldene Dach bewundern",
-        "Das Stadtzentrum erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/golden_roof.jpg"
+ {
+  "slug": "altin-cati",
+  "name": {
+    "tr": "Altın Çatı",
+    "en": "Golden Roof",
+    "de": "Goldenes Dachl"
+  },
+  "latitude": 47.2692,
+  "longitude": 11.3923,
+  "description": {
+    "tr": "Innsbruck'un eski şehir (Altstadt) bölgesinde yer alan Altın Çatı, sadece bir mimari yapı değil, Avusturya'nın ve Habsburg Hanedanı'nın ihtişamını yansıtan tarihi bir mühürdür. 1500 yılında İmparator I. Maximilian onuruna tamamlanan bu yapı, aslında imparatorun meydandaki etkinlikleri, turnuvaları ve festivalleri halkın arasındaymış gibi ancak güvenli bir mesafeden izleyebilmesi için inşa edilmiş bir kraliyet locasıdır. Yapıya adını veren en büyüleyici özellik, çatısını kaplayan tam 2.657 adet altın kaplama bakır kiremittir. Gün ışığıyla birleştiğinde adeta bir mücevher gibi parlayan bu çatı, o dönemde imparatorluğun zenginliğini ve gücünü tüm dünyaya ilan eden görsel bir manifestoydu.\n\nAltın Çatı'nın cephesi, geç Gotik tarzın en zarif örneklerinden biri olarak kabul edilir. Locanın altındaki kabartmalarda, İmparator Maximilian'ı iki eşiyle (Mary of Burgundy ve Bianca Maria Sforza) birlikte gösteren detaylı oymalar, armalar ve o dönemin sosyal yaşamını betimleyen figürler yer alır. Bu kabartmaların orijinalleri, binanın içinde bulunan müzede (Goldenes Dachl Museum) koruma altına alınmıştır. Müze, ziyaretçilere Maximilian'ın vizyoner kişiliğini, Innsbruck'u nasıl bir Avrupa merkezi haline getirdiğini ve çatının yapım aşamasındaki teknik sırları interaktif bir şekilde sunar. Binanın köşelerinde yer alan 'Moorish' dansçı figürleri gibi egzotik detaylar, Habsburgların kültürel çeşitliliğe ve sanata olan ilgisinin bir kanıtıdır.\n\nYapı, sadece fiziksel güzelliğiyle değil, çevresindeki dokuyla da büyüleyicidir. Altın Çatı'nın hemen önündeki meydan, Orta Çağ atmosferini koruyan dar sokaklar, pastel renkli tarihi binalar ve şık kafelerle çevrilidir. Meydanın her noktasından başınızı yukarı kaldırdığınızda, çatının altın ışıltısının üzerinde yükselen karlı Nordkette dağlarını görmek, Innsbruck'un sunduğu en ikonik manzaradır. Kış aylarında bu meydan, Avusturya'nın en romantik Noel pazarlarından birine ev sahipliği yapar ve devasa bir çam ağacı Altın Çatı'nın hemen önünde ışıklandırılır. Altın Çatı'yı ziyaret etmek, sadece bir fotoğraf karesi yakalamak değil; beş yüz yıllık bir imparatorluk locasından dünyaya bakmak ve Avrupa tarihinin en parıltılı dönemlerinden birine tanıklık etmektir. Burası, her adımda tarihin fısıltılarının duyulduğu, Innsbruck'un ruhunu temsil eden bir başyapıttır.",
+    "en": "Standing as the undisputed symbol of Innsbruck in the heart of the Old Town (Altstadt), the Golden Roof (Goldenes Dachl) is more than just an architectural marvel; it is a historical seal reflecting the grandeur of the Habsburg Empire. Completed in 1500 to honor Emperor Maximilian I, this structure was originally designed as a royal box, allowing the emperor to observe tournaments, festivals, and theatrical performances in the square below while maintaining a safe and prestigious distance. The building’s most captivating feature, from which it derives its name, is its magnificent canopy adorned with exactly 2,657 fire-gilded copper tiles. When struck by sunlight, these tiles shimmer like a brilliant jewel, serving as a visual manifesto that declared the empire's immense wealth and power to the world at the turn of the 16th century.\n\nThe facade of the Golden Roof is widely regarded as one of the finest examples of late Gothic artistry. The balustrade is decorated with intricate reliefs depicting Emperor Maximilian with his two wives, Mary of Burgundy and Bianca Maria Sforza, along with heraldic shields and stylized figures representing the social life of the era. To ensure their preservation, the original reliefs are kept inside the Goldenes Dachl Museum, located within the building itself. This museum offers an interactive journey into Maximilian's life, his visionary role in transforming Innsbruck into a European hub, and the technical secrets behind the construction of the roof. Exotic details, such as the carvings of 'Moorish' dancers, highlight the Habsburgs' fascination with diverse cultures and the arts.\n\nThe structure is equally enchanting because of its surrounding context. The square in front of the Golden Roof is a labyrinth of medieval streets, pastel-colored historic houses, and elegant Tyrolean cafes. Looking up from any point in the square provides the most iconic view of Innsbruck: the golden shimmer of the roof framed by the rugged, snow-capped peaks of the Nordkette mountains in the background. During the winter months, this area hosts one of Austria’s most romantic Christmas markets, with a giant tree illuminated right before the emperor’s balcony. Visiting the Golden Roof is not just about capturing a photograph; it is an invitation to look at the world from a 500-year-old royal vantage point and witness the legacy of one of Europe’s most glittering eras. It remains a masterpiece that embodies the soul of Innsbruck, where the whispers of history are felt with every step."
+  },
+  "activities": {
+    "tr": [
+      "Altın Çatı Müzesi'ni (Goldenes Dachl Museum) ziyaret etme",
+      "Eski şehir meydanında tarihi yürüyüş yapma",
+      "Kışın kurulan geleneksel Noel pazarlarını gezme",
+      "Çatının altın ışıltısını ve Alp manzarasını fotoğraflama"
+    ],
+    "en": [
+      "Visiting the Golden Roof Museum",
+      "Taking a historical walk through the Old Town square",
+      "Exploring the traditional Christmas markets in winter",
+      "Photographing the golden shimmer against the Alpine backdrop"
     ]
   },
-  {
-    "slug": "hofkirche",
-    "name": {
-      "tr": "Hofkirche",
-      "en": "Hofkirche",
-      "de": "Hofkirche"
-    },
-    "latitude": 47.267,
-    "longitude": 11.395,
-    "description": {
-      "tr": "Avusturya tarihinin önemli figürlerinden Kral I. Maximilian'ın mezarı burada bulunmaktadır.",
-      "en": "The tomb of King Maximilian I, a significant figure in Austrian history, is located here.",
-      "de": "Das Grab von König Maximilian I., einer wichtigen Figur der österreichischen Geschichte, befindet sich hier."
-    },
-    "activities": {
-      "tr": [
-        "Kral I. Maximilian'ın mezarını ziyaret etme",
-        "Tarihi yapıyı keşfetme"
-      ],
-      "en": [
-        "Visit King Maximilian I's tomb",
-        "Explore the historical site"
-      ],
-      "de": [
-        "Das Grab von König Maximilian I. besuchen",
-        "Die historische Stätte erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/hoftemple.jpg"
+  "categories": {
+    "tr": ["tarih", "mimari", "kültür", "şehir turu"],
+    "en": ["history", "architecture", "culture", "city tour"]
+  },
+  "images": [
+    "https://example.com/innsbruck_golden_roof.jpg"
+  ]
+},
+ {
+  "slug": "hofkirche",
+  "name": {
+    "tr": "Hofkirche",
+    "en": "Hofkirche",
+    "de": "Hofkirche"
+  },
+  "latitude": 47.267,
+  "longitude": 11.395,
+  "description": {
+    "tr": "Innsbruck'un kalbinde yükselen Hofkirche, Kutsal Roma İmparatoru I. Maximilian'ın anısını yaşatmak üzere 1553 yılında torunu I. Ferdinand tarafından inşa ettirilmiş muazzam bir Gotik yapıdır. Bu kilise, geleneksel bir ibadethaneden ziyade, Habsburg Hanedanı'nın gücünü ve silsilesini dünyaya ilan eden görkemli bir anıt mezar (cenotaph) olarak tasarlanmıştır. Kilisenin orta nefinde yer alan İmparator Maximilian’ın boş mezarı, mermer işçiliği ve etrafındaki ferforje kafesle başlı başına bir sanat eseridir. Ancak Hofkirche’yi dünya çapında üne kavuşturan asıl özellik, bu mezarın etrafında nöbet tutan ve 'Schwarze Mander' (Kara Adamlar) olarak adlandırılan 28 adet devasa bronz heykeldir. İnsan boyundan daha büyük olan bu figürler, Maximilian'ın atalarını, akrabalarını ve o dönemde örnek aldığı tarihi şahsiyetleri temsil eder.\n\nKilisedeki bronz heykel koleksiyonu, Rönesans döküm sanatının en nadide örneklerini sunar. Bu 'sessiz muhafızlar' arasında İngiltere Kralı Arthur, Büyük Charles (Şarlman) ve Maximilian’ın iki eşi gibi figürler yer alır; her bir heykeldeki zırh ve kıyafet detayları hayranlık uyandırıcı bir titizlikle işlenmiştir. Kilisenin içinde ayrıca Maximilian'ın gerçek mezarının bulunduğu Wiener Neustadt'tan farklı olarak, Avusturya'nın ulusal kahramanı Andreas Hofer'in mezarı da yer almaktadır. Kilisenin bir diğer mücevheri ise 1560 yılından kalma Ebert Organı'dır; bu enstrüman bugün hala çalınabilen ve Rönesans dönemine ait dünyadaki en eski ve en değerli orglardan biri kabul edilir.\n\nHofkirche'nin hemen bitişiğinde yer alan Gümüş Şapel (Silberne Kapelle) ise, Arşidük II. Ferdinand ve eşi Philippine Welser’in mezarlarını barındırır. Şapel, ismini gümüş kabartmalarla süslü sunak bölümünden alır ve kilisenin genel atmosferinden daha mahrem, mistik bir hava sunar. Kilisenin tavanındaki zarif alçı işçiliği ve yan sunaklardaki detaylar, Avusturya Barok ve Gotik geçiş döneminin estetik anlayışını yansıtır. Hofkirche’yi ziyaret etmek, sadece bir kiliseyi gezmek değil, bronzdan yapılmış devasa bir tarih kitabının sayfaları arasında yürümek gibidir. Dev heykellerin gölgesinde hissedilen o tarihi ağırlık, ziyaretçilere Habsburgların Avrupa tarihindeki sarsılmaz yerini hatırlatır. Burası, sanatın ve tarihin epik bir şekilde birleştiği, Innsbruck'un en mistik ve etkileyici duraklarından biridir.",
+    "en": "Rising in the heart of Innsbruck, the Hofkirche (Court Church) is a magnificent Gothic structure built in 1553 by Emperor Ferdinand I to honor the memory of his grandfather, Holy Roman Emperor Maximilian I. Rather than serving as a traditional place of worship, the church was conceived as a grand cenotaph—a monumental memorial designed to showcase the power and lineage of the Habsburg Dynasty. At the center of the nave stands the impressive marble tomb of Maximilian I, surrounded by an exquisite wrought-iron screen. However, what makes the Hofkirche world-famous is not the tomb itself, but the 'Schwarze Mander' (Black Men)—28 colossal bronze statues that stand guard around it. These larger-than-life figures represent the ancestors, relatives, and historical heroes whom Maximilian admired and wished to be associated with in eternity.\n\nThis collection of bronze statues represents one of the finest examples of Renaissance casting art. Among these 'silent sentinels' are legendary figures such as King Arthur of England and Charlemagne, alongside Maximilian’s two wives. The level of detail in the armor, weaponry, and textile patterns on each statue is breathtakingly precise, illustrating the peak of 16th-century craftsmanship. Interestingly, while the cenotaph is here, Maximilian’s actual remains are interred in Wiener Neustadt. The church also serves as the final resting place of Andreas Hofer, Tyrol’s national hero, adding a layer of local patriotic significance. Another musical treasure within the walls is the Ebert Organ, dating back to 1560; it is one of the oldest and most valuable Renaissance organs in the world that is still in playable condition today.\n\nAdjacent to the main hall is the Silver Chapel (Silberne Kapelle), which houses the tombs of Archduke Ferdinand II and his wife Philippine Welser. The chapel takes its name from the silver-embossed altarpiece and offers a more intimate, mystical atmosphere compared to the grand nave. The elegant stucco work on the ceilings and the intricate side altars reflect the transition between late Gothic and early Baroque aesthetics in Austria. Visiting the Hofkirche is not merely a religious excursion; it is like walking through the pages of an epic history book cast in bronze. The historical weight felt in the shadow of the giant statues reminds every visitor of the Habsburgs' indelible mark on European history. It remains one of Innsbruck’s most mystical and awe-inspiring landmarks, where art and imperial legacy converge in a hauntingly beautiful display."
+  },
+  "activities": {
+    "tr": [
+      "28 dev bronz heykeli (Kara Adamlar) yakından inceleme",
+      "Kral I. Maximilian'ın anıt mezarını ziyaret etme",
+      "Gümüş Şapel'in (Silberne Kapelle) mistik atmosferini görme",
+      "Dünyanın en eski orglarından biri olan Ebert Organı'nı inceleme",
+      "Andreas Hofer'in mezarını ziyaret etme"
+    ],
+    "en": [
+      "Examining the 28 colossal bronze statues (Black Men) up close",
+      "Visiting the cenotaph of Emperor Maximilian I",
+      "Seeing the mystical atmosphere of the Silver Chapel",
+      "Inspecting the Ebert Organ, one of the world's oldest organs",
+      "Visiting the tomb of Tyrolean hero Andreas Hofer"
     ]
-  }
+  },
+  "categories": {
+    "tr": ["tarih", "sanat", "mimari", "şehir turu"],
+    "en": ["history", "art", "architecture", "city tour"]
+  },
+  "images": [
+    "https://example.com/innsbruck_hofkirche_statues.jpg"
+  ]
+}
 ]

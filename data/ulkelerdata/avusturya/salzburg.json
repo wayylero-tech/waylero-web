@@ -1,263 +1,230 @@
 [
   {
-    "slug": "krimml-selaleleri",
-    "name": {
-      "tr": "Krimml Şelaleleri",
-      "en": "Krimml Waterfalls",
-      "de": "Krimmler Wasserfälle"
-    },
-    "latitude": 47.2,
-    "longitude": 12.2,
-    "description": {
-      "tr": "Avrupa’nın en yüksek şelalelerinden biridir.",
-      "en": "One of the highest waterfalls in Europe.",
-      "de": "Einer der höchsten Wasserfälle Europas."
-    },
-    "activities": {
-      "tr": [
-        "Şelaleleri izleme",
-        "Doğa yürüyüşü"
-      ],
-      "en": [
-        "Admire the waterfalls",
-        "Take a nature walk"
-      ],
-      "de": [
-        "Die Wasserfälle bewundern",
-        "Wandern in der Natur"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "şelale"
-      ],
-      "en": [
-        "waterfall"
-      ],
-      "de": [
-        "Wasserfall"
-      ]
-    },
-    "images": [
-      "https://example.com/krimml_waterfalls.jpg"
+  "slug": "krimml-selaleleri",
+  "name": {
+    "tr": "Krimml Şelaleleri",
+    "en": "Krimml Waterfalls",
+    "de": "Krimmler Wasserfälle"
+  },
+  "latitude": 47.2108,
+  "longitude": 12.1692,
+  "description": {
+    "tr": "Hohe Tauern Ulusal Parkı'nın kalbinde yer alan Krimml Şelaleleri, 380 metrelik toplam yüksekliğiyle Avrupa'nın en yüksek, dünyanın ise en görkemli beşinci şelalesidir. Üç kademeden oluşan bu doğa harikası, Krimmler Ache nehrinin buzullardan gelen serin sularını vadi tabanına doğru muazzam bir gürültü ve estetikle bırakır. Şelalenin her bir katmanı, suyun kayalara çarparak parçalandığı ve havada asılı kalan milyonlarca su damlacığının oluşturduğu mistik bir sis perdesiyle çevrilidir. Bu sis sadece görsel bir şölen sunmakla kalmaz; aynı zamanda havada yarattığı negatif iyon yoğunluğu sayesinde astım ve alerji gibi solunum yolu rahatsızlıklarına iyi geldiği bilimsel olarak kanıtlanmış bir şifa kaynağıdır. Avusturya Alpleri'nin bu vahşi ve bozulmamış köşesi, doğaseverler için adeta bir kutsal alan niteliğindedir.\n\nŞelalenin çevresinde uzanan 4 kilometrelik bakımlı yürüyüş yolu (Wasserfallweg), ziyaretçileri en alt kademeden başlayıp en tepe noktasına kadar her aşamada farklı bir perspektifle buluşturur. 1887 yılında Avusturya Alp Kulübü tarafından inşa edilen bu tarihi yol, sarp kayalıkların arasına gizlenmiş çok sayıda seyir terasına ev sahipliği yapar. 'Schönangerl' veya 'Bergerblick' gibi duraklarda durup suyun yarattığı gökkuşaklarını izlemek ve vadinin derinliklerine bakmak, doğanın kudreti karşısında büyülenmek için eşsiz anlardır. Şelalenin tepesine ulaşıldığında ise manzara değişerek sakin bir Alp vadisi olan Krimmler Achental'e dönüşür; burada nehrin dingin akışı, az önce şahitlik edilen o vahşi dökülmenin zıttı bir huzur sunar.\n\nKrimml Şelaleleri, aynı zamanda 'WasserWelten' (Su Dünyaları) adlı interaktif bir eğitim merkezine de ev sahipliği yapar. Burada suyun fiziksel gücü ve bölgenin ekosistemi hakkında eğlenceli bilgiler edinmek mümkündür. Gece aydınlatmalarıyla masalsı bir görünüme kavuşan şelaleler, kış aylarında ise devasa buz sarkıtlarına dönüşerek gerçek bir 'Karlar Ülkesi' dekoru oluşturur. Şelalenin eteklerinde yer alan geleneksel Alp kulübeleri, yürüyüş sonrası yerel lezzetlerle enerji toplamak için ideal noktalardır. Krimml Şelaleleri'ni ziyaret etmek, sadece bir manzara izlemek değil; suyun gücünü teninizde hissetmek, Alplerin en saf havasını solumak ve doğanın bitmek bilmeyen enerjisiyle yeniden doğmaktır. Burası, her adımda suyun şarkısının duyulduğu, Avusturya'nın yaşayan ve kükreyen doğal mirasıdır.",
+    "en": "Located in the heart of the Hohe Tauern National Park, the Krimml Waterfalls (Krimmler Wasserfälle) are the highest waterfalls in Europe and the fifth-highest in the world, with a staggering total drop of 380 meters. This natural wonder unfolds in three dramatic stages, where the waters of the Krimmler Ache river plunge from glacial heights into the valley floor with thunderous power and breathtaking grace. Each tier of the waterfall is shrouded in a fine, mystical mist—a cloud of millions of water droplets created as the torrent shatters against the ancient rock faces. This mist is not only a visual spectacle but also a scientifically proven healing agent; the high concentration of negative ions in the spray provides natural relief for respiratory conditions such as asthma and allergies, making the site a renowned 'health oasis' in the Austrian Alps.\n\nThe 4-kilometer-long Waterfall Trail (Wasserfallweg), meticulously maintained and steeped in history since its construction by the Austrian Alpine Club in 1887, guides visitors from the valley floor to the very top. Along this path, numerous observation platforms like 'Schönangerl' and 'Bergerblick' offer awe-inspiring vantage points to witness the rainbows dancing in the mist and the sheer scale of the falling water. Reaching the uppermost stage rewards hikers with a dramatic change in scenery as the terrain opens into the Krimmler Achental, a tranquil Alpine valley where the river flows peacefully before its tumultuous descent. This contrast between the wild roar of the falls and the serene mountain meadows creates a profound sensory experience.\n\nAdjacent to the falls, the 'WasserWelten' (Water Worlds) interactive center provides an educational deep dive into the physical power of water and the delicate ecosystem of the Hohe Tauern region. In winter, the waterfalls transform into a surreal landscape of massive ice formations and frozen cascades, looking like a scene from a winter legend. Traditional Alpine huts at the base of the falls offer the perfect spot to refuel with regional delicacies after a day of exploration. A visit to the Krimml Waterfalls is an invitation to feel the raw power of nature on your skin, breathe in the purest Alpine air, and reconnect with the inexhaustible energy of the earth. It is a place where the mountain's voice is heard in every splash—a roaring, living monument to Austria’s natural heritage."
+  },
+  "activities": {
+    "tr": [
+      "4 kilometrelik tarihi Wasserfallweg parkurunda yürüyüş yapma",
+      "Seyir teraslarından şelalenin üç kademesini fotoğraflama",
+      "Sağlık terapisi için şelale sisini soluma",
+      "WasserWelten interaktif müzesinde suyun gücünü keşfetme",
+      "Şelale manzaralı Alp kulübelerinde yerel yemeklerin tadına bakma"
+    ],
+    "en": [
+      "Hiking the historic 4-km Waterfall Trail (Wasserfallweg)",
+      "Photographing the three tiers of the falls from observation decks",
+      "Inhaling the waterfall mist for natural respiratory therapy",
+      "Discovering the power of water at the WasserWelten interactive museum",
+      "Enjoying local cuisine in Alpine huts with a view of the falls"
     ]
   },
-  {
-    "slug": "zeller-golu",
-    "name": {
-      "tr": "Zeller Gölü",
-      "en": "Lake Zell",
-      "de": "Zeller See"
-    },
-    "latitude": 47.3324,
-    "longitude": 12.7884,
-    "description": {
-      "tr": "Yüzme, yürüyüş ve su sporları için popüler bir yerdir.",
-      "en": "A popular spot for swimming, hiking, and water sports.",
-      "de": "Ein beliebter Ort zum Schwimmen, Wandern und Wassersport."
-    },
-    "activities": {
-      "tr": [
-        "Yüzme",
-        "Su sporları yapma",
-        "Gölde yürüyüş"
-      ],
-      "en": [
-        "Swimming",
-        "Water sports",
-        "Walking by the lake"
-      ],
-      "de": [
-        "Schwimmen",
-        "Wassersport",
-        "Am See spazieren gehen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/lake_zell.jpg"
+  "categories": {
+    "tr": ["doğa", "sağlık", "spor", "ulusal park"],
+    "en": ["nature", "wellness", "sports", "national park"]
+  },
+  "images": [
+    "https://example.com/krimml_waterfalls_main.jpg",
+    "https://example.com/krimml_mist_view.jpg"
+  ]
+},
+ {
+  "slug": "zeller-golu",
+  "name": {
+    "tr": "Zeller Gölü (Zeller See)",
+    "en": "Lake Zell (Zeller See)",
+    "de": "Zeller See"
+  },
+  "latitude": 47.3233,
+  "longitude": 12.805,
+  "description": {
+    "tr": "Salzburg eyaletinin en göz kamaştırıcı doğa harikalarından biri olan Zeller Gölü, görkemli Alplerin eteğinde, adeta bir mücevher gibi parlayan kristal berraklığında bir su kütlesidir. Yaklaşık 4.5 kilometre uzunluğunda ve 1.5 kilometre genişliğinde olan bu göl, buz devrinden kalma bir miras olup günümüzde Avusturya'nın en prestijli tatil rotalarından biri olan Zell am See-Kaprun bölgesinin merkezidir. Gölün en büyüleyici özelliği, suyunun içilebilir kalitede olması ve çevresindeki karlı zirvelerin, özellikle de 3.000 metrelik heybetli Kitzsteinhorn Buzulu'nun yansımasını yüzeyinde bir tablo gibi sunmasıdır. Burası, doğanın dinginliği ile Alp yaşamının lüks ve konforunu birleştiren benzersiz bir destinasyondur.\n\nZeller Gölü, yılın her mevsiminde farklı bir ruhu yansıtır. Yaz aylarında gölün sıcaklığı 23 dereceye kadar ulaşarak ziyaretçileri yüzme, yelken, kano ve stand-up paddling gibi su sporlarına davet eder. Gölün çevresini saran 11 kilometrelik düz yürüyüş ve bisiklet yolu, hem sporcular hem de manzara eşliğinde huzur bulmak isteyenler için ideal bir rotadır. Nostaljik 'MS Schmittenhöhe' gemisi ile yapılan göl turları, kasabanın Belle Époque mimarisini ve dik yamaçlara kurulu villaları sudan izleme şansı sunar. Akşamları ise göl yüzeyinde gerçekleştirilen 'Zell am See Magic Lake Show' adlı ışık, su ve müzik gösterisi, gölü adeta yaşayan bir sanat eserine dönüştürür.\n\nKışın ise gölün çehresi tamamen değişir. Etraftaki dağlar Avrupa'nın en popüler kayak merkezlerine ev sahipliği yaparken, göl bazen tamamen donarak üzerinde buz pateni yapılabilecek devasa bir doğal piste dönüşür. Göl kıyısında yer alan Grand Hotel gibi tarihi yapılar, karlı manzara eşliğinde Avusturya'nın köklü misafirperverliğini ve asaletini sergiler. Ayrıca gölün hemen arkasında yükselen Schmittenhöhe dağına teleferikle çıkıldığında, gölün tam bir kalp şeklini andıran panoramik görüntüsü ve 30'dan fazla üç bin metrelik zirvenin oluşturduğu ufuk çizgisi nefes kesicidir. Zeller Gölü'nü ziyaret etmek, Alplerin taze havasını solumak, turkuaz suların huzuruna teslim olmak ve doğanın sunduğu bu sonsuz estetiği her hücrenizde hissetmektir. Burası, modern yaşamın karmaşasından kaçıp doğanın saf gücüyle yeniden bağ kurmak isteyenler için Avusturya'nın sunduğu en zarif sığınaktır.",
+    "en": "Nestled at the foot of the majestic Alps in the province of Salzburg, Lake Zell (Zeller See) is a shimmering jewel of crystal-clear water that serves as the centerpiece of the prestigious Zell am See-Kaprun region. A remnant of the last Ice Age, this lake is approximately 4.5 kilometers long and 1.5 kilometers wide, offering a postcard-perfect setting where the turquoise water reflects the surrounding snow-capped peaks, most notably the towering 3,000-meter Kitzsteinhorn Glacier. What truly sets Lake Zell apart is the exceptional quality of its water, which is officially classified as drinking water, making it one of the cleanest and most inviting Alpine lakes in Europe. It is a destination that seamlessly blends the tranquility of untouched nature with the luxury and elegance of Austrian Alpine culture.\n\nThroughout the year, Lake Zell offers a diverse array of experiences tailored to the changing seasons. In summer, the water temperature rises to a pleasant 23°C, attracting enthusiasts for swimming, sailing, kayaking, and stand-up paddling. An 11-kilometer flat trail encircles the lake, providing a perfect path for cyclists and hikers to soak in the panoramic mountain views. For a more leisurely pace, the nostalgic 'MS Schmittenhöhe' cruise ship offers scenic tours, allowing guests to admire the town's Belle Époque architecture and grand lakeside villas from the water. In the evenings, the 'Zell am See Magic Lake Show'—a spectacular combination of synchronized lights, music, and water fountains—transforms the lake into a living stage of light and sound.\n\nIn winter, the landscape undergoes a magical transformation. While the surrounding mountains become a world-class playground for skiers and snowboarders, the lake itself often forms a mystical backdrop of deep blue against the white alpine world, and in particularly cold years, it freezes over to become a massive natural ice-skating rink. Iconic buildings like the historic Grand Hotel on the lakeshore stand as symbols of timeless Austrian hospitality and noble charm. Moreover, taking the cable car up to the Schmittenhöhe mountain reveals a breathtaking vista where the lake appears almost heart-shaped, framed by over thirty 3,000-meter peaks. Visiting Lake Zell is an invitation to breathe in the pure Alpine air, surrender to the serenity of its turquoise depths, and witness the harmony between dramatic landscapes and refined urbanity. It remains an elegant sanctuary for those looking to escape the hustle of modern life and reconnect with the raw, aesthetic power of the Austrian Alps."
+  },
+  "activities": {
+    "tr": [
+      "Kristal berraklığındaki gölde yüzme ve su sporları yapma",
+      "Göl çevresindeki 11 kilometrelik parkurda bisiklet turuna çıkma",
+      "Nostaljik gemi turları ile Alplerin manzarasını sudan izleme",
+      "Zell am See Magic Lake Show ışık ve su gösterisini seyretme",
+      "Schmittenhöhe dağına çıkıp gölü kuş bakışı fotoğraflama"
+    ],
+    "en": [
+      "Swimming and enjoying water sports in the crystal-clear lake",
+      "Cycling the scenic 11-kilometer loop around the lakeshore",
+      "Taking a nostalgic boat cruise to enjoy Alpine views from the water",
+      "Watching the spectacular Magic Lake Show of light and water",
+      "Ascending Schmittenhöhe for a bird's-eye panoramic photo of the lake"
     ]
   },
-  {
-    "slug": "kaprun-buzulu",
-    "name": {
-      "tr": "Kaprun Buzulu",
-      "en": "Kaprun Glacier",
-      "de": "Kapruner Gletscher"
-    },
-    "latitude": 47.263,
-    "longitude": 12.773,
-    "description": {
-      "tr": "Kayak yapmak için harika bir seçenektir.",
-      "en": "A great option for skiing.",
-      "de": "Eine großartige Möglichkeit zum Skifahren."
-    },
-    "activities": {
-      "tr": [
-        "Kayak yapma",
-        "Buzul turu"
-      ],
-      "en": [
-        "Skiing",
-        "Glacier tour"
-      ],
-      "de": [
-        "Skifahren",
-        "Gletscher-Tour"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/kaprun_glacier.jpg"
+  "categories": {
+    "tr": ["doğa", "spor", "lüks", "şehir turu"],
+    "en": ["nature", "sports", "luxury", "city tour"]
+  },
+  "images": [
+    "https://example.com/lake_zell_summer_view.jpg",
+    "https://example.com/zell_am_see_magic_lake_show.jpg"
+  ]
+},
+ {
+  "slug": "kaprun-buzulu",
+  "name": {
+    "tr": "Kaprun Buzulu (Kitzsteinhorn)",
+    "en": "Kaprun Glacier (Kitzsteinhorn)",
+    "de": "Kitzsteinhorn Gletscher"
+  },
+  "latitude": 47.1892,
+  "longitude": 12.6872,
+  "description": {
+    "tr": "Hohe Tauern Ulusal Parkı'nın zirvesinde yer alan Kitzsteinhorn, halk arasında bilinen adıyla Kaprun Buzulu, deniz seviyesinden tam 3.029 metre yükseklikte konumlanmış, Avusturya'nın ilk buzul kayak merkezidir. Burası sadece profesyonel kayakçılar için bir cennet değil, aynı zamanda yüksek Alp deneyimini her mevsim yaşamak isteyen gezginler için fütüristik bir gözlem merkezidir. Buzulun en dikkat çekici noktası, 'Gipfelwelt 3000' adı verilen ve fütüristik bir mimariyle tasarlanmış zirve istasyonudur. Burada yer alan 'Top of Salzburg' gözlem platformu, Salzburg eyaletinin en yüksek noktası olup; Grossglockner gibi Avusturya'nın en yüksek devlerinin de dahil olduğu, karlı zirvelerle dolu sonsuz bir beyazlık sunar. Kaprun Buzulu'nu ziyaret etmek, kendinizi bulutların üzerinde, dünyanın çatısında hissetmektir.\n\nBuzul, yılın yaklaşık 10 ayı boyunca kesintisiz kayak ve snowboard imkanı sunarak Avrupa'nın en uzun kış sezonlarından birine ev sahipliği yapar. Ancak Kitzsteinhorn sadece kış sporlarıyla sınırlı değildir. Yaz aylarında bile buzun ve karın üzerinde yürüme şansı sunan 'Ice Arena', ziyaretçilere temmuz sıcağında kar kaydırağı yapma ve güneşlenme keyfi yaşatır. Zirvede yer alan 360 metrelik 'Nationalpark Gallery' tüneli, ziyaretçileri dağın içinden geçirerek bambaşka bir manzara noktasına çıkarırken, yol boyunca buzulun oluşumu ve kristal madenleri hakkında büyüleyici bilgiler sunar. Modern teleferik sistemleri, özellikle en son teknolojiyle donatılmış '3K K-onnection', Kaprun kasaba merkezinden doğrudan buzulun kalbine kesintisiz ve panoramik bir yolculuk imkanı sağlar.\n\nGastronomi ve dinlenme açısından da zirve oldukça etkileyicidir. 3.000 metrede yer alan şık restoranlar, bir yandan gurme lezzetler sunarken diğer yandan devasa cam pencerelerden Alplerin vahşi doğasını izleme fırsatı verir. Doğa tutkunları için zirvedeki yüksek irtifa yürüyüş yolları, nadir Alp bitkilerini ve vahşi dağ keçilerini gözlemlemek için benzersizdir. Ayrıca, bölgenin tarihini ve biyolojik çeşitliliğini anlatan dev ekranlı sinema salonu (Cinema 3000), Alplerin ruhunu görsel bir şölenle ziyaretçilere aktarır. Kaprun Buzulu, doğanın saf gücüyle insan mühendisliğinin mükemmel bir uyumudur. Burayı ziyaret etmek, sadece bir dağa çıkmak değil; kristal buzların, temiz Alp havasının ve sınırsız özgürlük hissinin büyüleyici dünyasına adım atmaktır. Burası, Avusturya'nın yüksek irtifa asaletini en modern haliyle temsil eden sarsıcı bir destinasyondur.",
+    "en": "Standing majestically at the edge of the Hohe Tauern National Park, the Kitzsteinhorn, commonly known as the Kaprun Glacier, is a high-Alpine legend situated at 3,029 meters above sea level. As Austria's first glacier ski resort, it is not only a world-class sanctuary for winter sports enthusiasts but also a futuristic landmark for travelers seeking the ultimate Alpine experience regardless of the season. The architectural and experiential heart of the glacier is 'Gipfelwelt 3000,' a summit station designed with striking modern lines. Its crowning glory, the 'Top of Salzburg' panoramic platform, is the highest point in the province of Salzburg, offering a jaw-dropping view of a white-peaked horizon that includes Austria's highest giants, such as the Grossglockner. To visit the Kaprun Glacier is to stand on the roof of the world, high above the clouds.\n\nThe glacier offers an exceptionally long season, with skiing and snowboarding available for nearly ten months of the year, making it one of Europe's premier high-altitude winter playgrounds. However, Kitzsteinhorn’s appeal extends far beyond the slopes. Even in the height of summer, the 'Ice Arena' allows visitors to walk on pristine snow, enjoy snow slides, and sunbathe in an arctic-like environment while the valleys below are in full bloom. A particularly fascinating feature is the 360-meter-long 'Nationalpark Gallery' tunnel, which leads visitors through the very heart of the mountain to another spectacular viewpoint, showcasing informative displays about glacier formation and the mountain’s crystal treasures along the way. The state-of-the-art lift systems, especially the '3K K-onnection,' provide a seamless and breathtaking panoramic journey from Kaprun village directly to the glacier's icy core.\n\nCulinary delights at 3,000 meters are equally impressive, with high-end restaurants serving gourmet Austrian cuisine through floor-to-ceiling glass walls that frame the wild Alpine landscape. For nature lovers, the high-altitude hiking trails offer a chance to spot rare Alpine flora and wildlife, such as chamois and ibex, in their natural habitat. Additionally, 'Cinema 3000'—a widescreen cinema located within the summit station—presents a visually stunning film that captures the soul and raw beauty of the Alps. The Kaprun Glacier represents a perfect harmony between the raw power of nature and visionary human engineering. Visiting this glacier is not merely a mountain excursion; it is an entry into a world of crystal ice, pure mountain air, and an boundless sense of freedom. It remains one of Austria's most imposing and modern high-altitude destinations, leaving every visitor profoundly inspired by the grandeur of the peaks."
+  },
+  "activities": {
+    "tr": [
+      "Top of Salzburg platformunda 3.000 metrede panoramik fotoğraf çekme",
+      "Ice Arena'da yaz ortasında karda kayma ve kar keyfi yapma",
+      "Nationalpark Gallery tünelinden geçerek dağın kalbini keşfetme",
+      "3K K-onnection teleferiği ile bulutların üzerinden geçme",
+      "Cinema 3000'de Alplerin büyüleyici belgeselini izleme"
+    ],
+    "en": [
+      "Taking panoramic photos at 3,000 meters on the Top of Salzburg platform",
+      "Enjoying snow slides and arctic fun in the midsummer Ice Arena",
+      "Walking through the mountain's core in the Nationalpark Gallery tunnel",
+      "Gliding through the clouds on the 3K K-onnection cable car",
+      "Watching the mesmerizing Alpine documentary at Cinema 3000"
     ]
   },
-  {
-    "slug": "hohensalzburg-kalesi",
-    "name": {
-      "tr": "Hohensalzburg Kalesi",
-      "en": "Hohensalzburg Fortress",
-      "de": "Festung Hohensalzburg"
-    },
-    "latitude": 47.796,
-    "longitude": 13.0478,
-    "description": {
-      "tr": "Hohensalzburg Kalesi, Salzburg’un en önemli simgelerindendir ve Avrupa'nın en büyük ortaçağ kalelerindendir.",
-      "en": "Hohensalzburg Fortress is one of Salzburg's most iconic landmarks and one of Europe's largest medieval castles.",
-      "de": "Die Festung Hohensalzburg ist eines der bekanntesten Wahrzeichen Salzburgs und eine der größten mittelalterlichen Burgen Europas."
-    },
-    "activities": {
-      "tr": [
-        "Kale turu yapma",
-        "Panoramik şehir manzarası izleme"
-      ],
-      "en": [
-        "Take a castle tour",
-        "Enjoy panoramic city views"
-      ],
-      "de": [
-        "Eine Burgführung machen",
-        "Panoramablick auf die Stadt genießen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/hohensalzburg_fortress.jpg"
+  "categories": {
+    "tr": ["doğa", "spor", "macera", "ulusal park"],
+    "en": ["nature", "sports", "adventure", "national park"]
+  },
+  "images": [
+    "https://example.com/kaprun_glacier_summit.jpg",
+    "https://example.com/kitzsteinhorn_panorama_view.jpg"
+  ]
+},
+ {
+  "slug": "hohensalzburg-kalesi",
+  "name": {
+    "tr": "Hohensalzburg Kalesi",
+    "en": "Hohensalzburg Fortress",
+    "de": "Festung Hohensalzburg"
+  },
+  "latitude": 47.7949,
+  "longitude": 13.0475,
+  "description": {
+    "tr": "Salzburg'un 'Barok Mücevheri' olarak anılan eski şehir merkezinin üzerinde, Festungsberg tepesinde tüm heybetiyle yükselen Hohensalzburg Kalesi, 11. yüzyıldan kalma devasa bir savunma kompleksidir. Avrupa'nın tamamen korunmuş en büyük Orta Çağ kalelerinden biri olma özelliğini taşıyan bu yapı, şehre hakim konumuyla Salzburg silüetinin en ikonik parçasıdır. 1077 yılında Prens-Başpiskopos Gebhard tarafından inşa edilmeye başlanan kale, yüzyıllar boyunca sürekli genişletilmiş ve güçlendirilmiştir. Kalenin en dikkat çekici özelliği, tarihi boyunca hiçbir zaman düşman kuvvetleri tarafından fethedilememiş olmasıdır. Bu durum, kalenin mühendislik dehasını ve stratejik önemini kanıtlar niteliktedir. Bugün ziyaretçiler, kaleye çıkarken 1892 yılından beri hizmet veren modern bir füniküler (Festungsbahn) kullanabilir veya tarihi dokuyu hissederek dik yokuşlu yollardan yürüyerek zirveye ulaşabilirler.\n\nKalenin iç mekanları, Orta Çağ ve Rönesans döneminin lüks ve otoritesini gözler önüne seren paha biçilmez hazinelerle doludur. Özellikle 'Altın Oda' (Goldene Stube) ve 'Altın Salon' (Goldener Saal), geç Gotik tarzındaki oymalı tavanları ve görkemli süslemeleriyle dünyanın en etkileyici sivil odaları arasında kabul edilir. Prens-Başpiskoposların lüks yaşamını yansıtan bu odalar, kalenin sadece askeri bir kışla değil, aynı zamanda dini ve siyasi bir güç merkezi olduğunu gösterir. Ayrıca kale içerisinde yer alan Kale Müzesi, Kukla Müzesi ve Rainer Alayı Müzesi, ziyaretçilere Salzburg'un askeri tarihinden yerel sanatına kadar geniş bir perspektif sunar. Kalenin avlusunda yankılanan 'Salzburg Boğası' (Salzburger Stier) adlı 16. yüzyıldan kalma devasa mekanik org, şehrin asırlık geleneklerinden birini hala yaşatmaktadır.\n\nAncak Hohensalzburg Kalesi'ni ziyaret etmenin en büyüleyici yanlarından biri, sunduğu eşsiz panoramik manzaradır. Kalenin burçlarından bir yanda Tuna'ya doğru akan Salzach Nehri ve Barok kiliselerle bezeli Salzburg şehri, diğer yanda ise Alplerin karlı zirveleri kesintisiz bir görsel şölen sunar. Akşam saatlerinde kale avlusunda düzenlenen klasik müzik konserleri (Festungskonzerte), Mozart'ın memleketinde müziğin ve tarihin büyüsünü birleştiren unutulmaz bir atmosfer yaratır. Hohensalzburg'u ziyaret etmek, tarihin tozlu sayfalarından fırlamış bir masalın içine girmek, prenslerin gücüne tanıklık etmek ve Alplerin kapısında zamanın nasıl durduğuna şahitlik etmektir. Burası, her taşıyla direnci, her odasıyla asaleti ve her manzarasıyla özgürlüğü temsil eden bir Avusturya anıtıdır.",
+    "en": "Dominating the skyline of Salzburg from its commanding position atop the Festungsberg, Hohensalzburg Fortress is a colossal medieval stronghold and one of the largest fully preserved castles in Europe. Built in 1077 at the behest of Archbishop Gebhard, it has guarded the city for nearly a millennium, evolving through centuries of expansion into an invincible fortress of stone and power. Its most legendary attribute is that it was never once conquered by foreign forces, standing as a permanent testament to medieval military engineering and strategic foresight. Today, visitors can ascend to this 'crowning jewel' of the city via the modern Festungsbahn funicular, which has been in operation since 1892, or take a scenic, steep walk through the historical gateways that lead to the summit.\n\nThe interiors of the fortress are home to some of the most exquisite Gothic civil rooms in the world. The 'Golden Chamber' (Goldene Stube) and the 'Golden Hall' (Goldener Saal) are world-renowned for their lavish ornamentation, including late-Gothic wood carvings and gilded ceilings that reflect the absolute authority and wealth of the Prince-Archbishops. These state rooms prove that the fortress was not merely a military barracks but a magnificent residence and a political powerhouse. Within the walls, the Fortress Museum, the Marionette Museum, and the Rainer Regiment Museum offer deep dives into everything from medieval weaponry to local artistic traditions. Another historical curiosity is the 'Salzburg Bull' (Salzburger Stier), a massive 16th-century mechanical organ that still bellows its chords over the city, preserving an ancient local custom.\n\nBeyond the architecture and history, Hohensalzburg offers an unparalleled 360-degree panoramic view that is arguably the best in Austria. From the bastions, visitors can gaze down at the baroque domes and spires of the Old Town divided by the emerald Salzach River, while the other side reveals the dramatic, snow-capped peaks of the Alps stretching into the distance. The experience is further heightened in the evenings by the 'Fortress Concerts,' where the works of Mozart and other masters are performed in the castle’s historic halls, blending the magic of music with the weight of history. Visiting Hohensalzburg is an immersion into a world of knights and archbishops, a journey through corridors of power, and a chance to witness the intersection of dramatic natural beauty and human ambition. It remains a timeless sentinel of Salzburg, representing resilience in every stone and nobility in every hall."
+  },
+  "activities": {
+    "tr": [
+      "Altın Oda ve Prens Odaları'nın muazzam Gotik detaylarını inceleme",
+      "Kalenin burçlarından 360 derece Salzburg ve Alp manzarasını izleme",
+      "Tarihi Festungsbahn füniküleri ile dik bir yolculuk yapma",
+      "Kale avlusunda düzenlenen klasik müzik konserlerine katılma",
+      "Kukla Müzesi'nde Salzburg'un geleneksel kukla sanatını keşfetme"
+    ],
+    "en": [
+      "Exploring the exquisite Gothic details of the Golden Chamber and State Rooms",
+      "Enjoying 360-degree panoramic views of Salzburg and the Alps from the ramparts",
+      "Taking a steep, scenic ride on the historic Festungsbahn funicular",
+      "Attending world-class classical concerts within the fortress walls",
+      "Discovering Salzburg’s traditional puppetry at the Marionette Museum"
     ]
   },
+  "categories": {
+    "tr": ["tarih", "mimari", "kültür", "şehir turu"],
+    "en": ["history", "architecture", "culture", "city tour"]
+  },
+  "images": [
+    "https://example.com/hohensalzburg_fortress_aerial.jpg",
+    "https://example.com/hohensalzburg_golden_hall.jpg"
+  ]
+},
   {
-    "slug": "mirabell-sarayi-ve-bahceleri",
-    "name": {
-      "tr": "Mirabell Sarayı ve Bahçeleri",
-      "en": "Mirabell Palace and Gardens",
-      "de": "Schloss Mirabell und Gärten"
-    },
-    "latitude": 47.8054,
-    "longitude": 13.0417,
-    "description": {
-      "tr": "Mirabell Sarayı ve Bahçeleri, Barok tarzı mimarisiyle dikkat çeker ve ünlü \"The Sound of Music\" filminde sahne almıştır.",
-      "en": "Mirabell Palace and Gardens are known for their Baroque architecture and were featured in the famous film \"The Sound of Music\".",
-      "de": "Schloss Mirabell und seine Gärten sind bekannt für ihre barocke Architektur und wurden im berühmten Film \"The Sound of Music\" gezeigt."
-    },
-    "activities": {
-      "tr": [
-        "Bahçelerde dolaşma",
-        "Fotoğraf çekme"
-      ],
-      "en": [
-        "Stroll through the gardens",
-        "Take photos"
-      ],
-      "de": [
-        "Durch die Gärten spazieren",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/mirabell_palace.jpg"
+  "slug": "mirabell-sarayi-ve-bahceleri",
+  "name": {
+    "tr": "Mirabell Sarayı ve Bahçeleri",
+    "en": "Mirabell Palace and Gardens",
+    "de": "Schloss Mirabell und Mirabellgarten"
+  },
+  "latitude": 47.8058,
+  "longitude": 13.0414,
+  "description": {
+    "tr": "Salzach Nehri'nin kıyısında, Salzburg'un kalbinde yer alan Mirabell Sarayı ve Bahçeleri, 1606 yılında Prens-Başpiskopos Wolf Dietrich von Raitenau tarafından büyük aşkı Salome Alt için inşa ettirilmiş masalsı bir komplekstir. Başlangıçta 'Altenau' olarak adlandırılan saray, daha sonra 'hayranlık uyandıran' veya 'güzel manzara' anlamına gelen 'Mirabell' ismini almıştır. UNESCO Dünya Mirası Listesi'nde yer alan bu alan, Barok mimarinin ve peyzaj sanatının dünyadaki en kusursuz birleşimlerinden biridir. Sarayın iç mekanındaki en çarpıcı bölüm, Avrupa'nın en güzel nikah salonlarından biri kabul edilen 'Mermer Salon'dur (Marmorsaal). Bir zamanlar Mozart ailesinin müzik yaptığı bu görkemli salon, günümüzde dünyanın her yerinden gelen çiftlerin evlenmek için can attığı mistik ve lüks bir atmosfere sahiptir. Sarayın 'Melek Basamakları' (Angel Staircase) ise, mermer işçiliğindeki zarafetiyle ziyaretçileri daha girişte büyüler.\n\nSarayın bahçeleri, yani Mirabellgarten, gerçek bir açık hava müzesidir. 1690 yılında ünlü mimar Johann Bernhard Fischer von Erlach tarafından yeniden tasarlanan bahçeler, geometrik düzeni, mitolojik heykelleri ve devasa çiçek tarhlarıyla Barok bahçe sanatının zirvesini temsil eder. Bahçenin merkezindeki Büyük Fıskiye, hava ve toprak elementlerini simgeleyen heykellerle çevrilidir. Ancak bahçenin dünya çapında bir pop ikonuna dönüşmesini sağlayan asıl etken, efsanevi 'The Sound of Music' (Neşeli Şarkılar) filmidir. Maria ve çocukların 'Do-Re-Mi' şarkısını söylediği Pegasus Çeşmesi ve Cüceler Bahçesi (Zwerglgarten), filmin hayranları için adeta bir kutsal mekandır. Cüceler Bahçesi, 18. yüzyıldan kalma grotesk mermer cüce figürleriyle Avrupa'daki en eski ve en ilginç heykel koleksiyonlarından birine ev sahipliği yapar.\n\nBahçelerde dolaşırken her köşe başı yeni bir perspektif sunar; özellikle gül bahçelerinden bakıldığında arka planda yükselen Hohensalzburg Kalesi'nin heybetli görüntüsü, Salzburg'un en çok fotoğraflanan manzarasını oluşturur. Mirabell ayrıca, devasa bir palmiye koleksiyonuna sahip tarihi Palmiye Evi (Palmenhaus) ve yaz aylarında açık hava konserlerine ev sahipliği yapan Heckentheater (Çit Tiyatrosu) ile kültürel hayatın merkezidir. Bahçelerin huzurlu atmosferi, Salzburg'un kentsel dinamizmi ile doğanın dinginliğini birleştirir. Mirabell Sarayı'nı ziyaret etmek, sadece bir tarihi alanı gezmek değil, bir aşk hikayesinin izlerini sürmek, Mozart'ın notalarının yankılandığı salonlarda yürümek ve peyzajın bir şiir gibi işlendiği bahçelerde zamanın yavaşladığını hissetmektir. Burası, her adımda estetiği, tarihi ve romantizmi kutlayan bir Salzburg klasiğidir.",
+    "en": "Situated in the heart of Salzburg, Mirabell Palace and Gardens is a breathtaking Baroque masterpiece commissioned in 1606 by Prince-Archbishop Wolf Dietrich von Raitenau as a residence for his beloved Salome Alt. Originally named 'Altenau,' the palace was later renamed 'Mirabell'—a compound of the Italian words for 'admirable' and 'beautiful.' Included in the UNESCO World Heritage list, this complex represents one of the most perfect symbioses of Baroque architecture and horticultural art in the world. The interior's crown jewel is the 'Marble Hall' (Marmorsaal), widely considered one of the most beautiful wedding halls in the world. Once a venue where the Mozart family performed, this opulent hall now hosts daily chamber concerts and serves as a dream destination for couples from around the globe looking to tie the knot in a setting of unmatched nobility. The 'Angel Staircase,' with its delicate white marble carvings, enchants visitors before they even reach the upper floors.\n\nThe palace gardens, known as Mirabellgarten, are a living open-air museum of garden design. Redesigned around 1690 by the famous architect Johann Bernhard Fischer von Erlach, the gardens exemplify the Baroque ideal of geometric order, mythical sculptures, and vast floral tapestries. The Grand Fountain at the garden's center is surrounded by four groups of statues symbolizing the four elements: Fire, Air, Earth, and Water. However, for many international visitors, the gardens are most famous as a primary filming location for the legendary movie 'The Sound of Music.' Iconic spots such as the Pegasus Fountain and the Dwarf Garden (Zwerglgarten), where Maria and the children sang 'Do-Re-Mi,' have become pilgrimage sites for cinema enthusiasts. The Dwarf Garden, with its grotesque 18th-century marble figurines, is one of the oldest and most eccentric sculpture collections in Europe.\n\nEvery turn in the gardens offers a new perspective; the view from the rose gardens, with the towering Hohensalzburg Fortress in the background, is arguably the most photographed landscape in Salzburg. Mirabell is also a cultural hub, featuring the historic Palm House (Palmenhaus) with its exotic plant collection and the Heckentheater (Hedge Theater), one of the oldest open-air theaters north of the Alps, still used for concerts today. The atmosphere of the gardens blends the urban vibrancy of Salzburg with a profound sense of natural tranquility. A visit to Mirabell Palace is not just a walk through a historical site; it is an immersion into a timeless love story, a walk through halls where Mozart’s melodies once echoed, and a chance to feel time slow down in a landscape where every flower is placed like a word in a poem. It remains a quintessential Salzburg landmark, celebrating beauty, history, and romance in every corner."
+  },
+  "activities": {
+    "tr": [
+      "Dünyaca ünlü Mermer Salon'da klasik müzik konseri dinleme",
+      "The Sound of Music filminin ikonik sahnelerinin geçtiği Pegasus Çeşmesi'nde fotoğraf çekilme",
+      "Cüceler Bahçesi'ndeki ilginç 18. yüzyıl heykellerini inceleme",
+      "Bahçeden Hohensalzburg Kalesi'ne karşı Salzburg'un en iyi manzarasını izleme",
+      "Melek Basamakları'ndaki Barok mermer işçiliğini yakından görme"
+    ],
+    "en": [
+      "Listening to a chamber music concert in the world-renowned Marble Hall",
+      "Taking photos at the Pegasus Fountain, an iconic 'The Sound of Music' location",
+      "Exploring the eccentric 18th-century statues in the Dwarf Garden",
+      "Capturing the quintessential Salzburg view toward the Hohensalzburg Fortress",
+      "Admiring the intricate Baroque marble work on the Angel Staircase"
     ]
   },
+  "categories": {
+    "tr": ["tarih", "mimari", "sanat", "bahçe"],
+    "en": ["history", "architecture", "art", "garden"]
+  },
+  "images": [
+    "https://example.com/mirabell_gardens_view.jpg",
+    "https://example.com/mirabell_palace_marble_hall.jpg"
+  ]
+},
   {
-    "slug": "mozart-in-dogdugu-ev",
-    "name": {
-      "tr": "Mozart'ın Doğduğu Ev",
-      "en": "Mozart's Birthplace",
-      "de": "Mozarts Geburtshaus"
-    },
-    "latitude": 47.7979,
-    "longitude": 13.0432,
-    "description": {
-      "tr": "Wolfgang Amadeus Mozart'ın hayatını ve eserlerini öğrenmek için ideal bir yerdir.",
-      "en": "This is the ideal place to learn about the life and works of Wolfgang Amadeus Mozart.",
-      "de": "Hier ist der ideale Ort, um mehr über das Leben und Werk von Wolfgang Amadeus Mozart zu erfahren."
-    },
-    "activities": {
-      "tr": [
-        "Mozart'ın hayatını öğrenme",
-        "Müzeyi gezme"
-      ],
-      "en": [
-        "Learn about Mozart's life",
-        "Visit the museum"
-      ],
-      "de": [
-        "Mehr über Mozarts Leben erfahren",
-        "Das Museum besuchen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/mozart_birthplace.jpg"
+  "slug": "mozart-in-dogdugu-ev",
+  "name": {
+    "tr": "Mozart'ın Doğduğu Ev",
+    "en": "Mozart's Birthplace",
+    "de": "Mozarts Geburtshaus"
+  },
+  "latitude": 47.8001,
+  "longitude": 13.0436,
+  "description": {
+    "tr": "Salzburg'un dünyaca ünlü Getreidegasse caddesi üzerinde, 9 numaralı parlak sarı bina, müzik tarihinin en büyük dehası Wolfgang Amadeus Mozart'ın 27 Ocak 1756'da dünyaya gözlerini açtığı yerdir. Bugün dünyanın en çok ziyaret edilen müzelerinden biri olan bu ev, Mozart ailesinin 1747'den 1773'e kadar yaşadığı üçüncü kat dairesini kapsamaktadır. Kapıdan içeri adım attığınızda, sadece bir müzeyi değil, 18. yüzyıl Salzburg'unun günlük yaşamını ve bir dâhinin çocukluk yıllarını barındıran mistik bir atmosferi solursunuz. Müze, orijinal mobilyalar, tarihi belgeler ve Mozart'ın bizzat elleriyle çaldığı enstrümanlar aracılığıyla ziyaretçilerini müzikal bir zaman yolculuğuna çıkarır.\n\nMüzenin kalbinde, Mozart'ın çocukluk kemanı, konser kemanı, klavikordu ve üzerinde ölümsüz eserlerini bestelediği piyanosu (fortepiano) sergilenmektedir. Bu enstrümanları bu kadar yakın mesafeden görmek, klasik müzik tutkunları için adeta manevi bir deneyim niteliğindedir. Sergilenen aile mektupları ve portreler, Mozart'ın sadece bir sanatçı olarak değil, aynı zamanda babası Leopold ve kız kardeşi Nannerl ile olan karmaşık ve sevgi dolu aile bağlarını da gözler önüne serer. 'Mozart Tiyatroda' bölümü ise, sanatçının operalarının sahne tasarımlarını ve bu eserlerin dünya çapındaki etkisini fütüristik bir yaklaşımla ele alır. Binanın restorasyonu, o dönemin mutfak kültürünü ve odaların yerleşim planını titizlikle koruyarak ziyaretçilere 'Hagenauer Evi'nin asıl ruhunu hissettirir.\n\nGetreidegasse'nin tarihi ferforje tabelaları arasında yükselen bu bina, her yıl yüz binlerce kişiyi Salzburg'un dar sokaklarına çeken bir çekim merkezidir. Binanın dış cephesindeki altın yazılı 'Mozarts Geburtshaus' ibaresi, şehrin en ikonik fotoğraf noktalarından biridir. Müze ziyaretinin ardından binanın zemin katındaki hediyelik eşya bölümünde, Mozart'ın notalarının basılı olduğu özel tasarımlara ve meşhur 'Mozartkugel' çikolatalarına ulaşmak mümkündür. Mozart'ın Doğduğu Ev'i ziyaret etmek, müziğin evrensel dilinin başladığı noktada durmak, bir dehanın ilk adımlarına tanıklık etmek ve Salzburg'un neden 'Müzik Şehri' olarak anıldığını kalbinizde hissetmektir. Burası, her odasında notaların fısıldadığı, taşın ve ahşabın melodiye dönüştüğü bir sanat mabedidir.",
+    "en": "Located at No. 9 Getreidegasse in the heart of Salzburg, the bright yellow building known as 'Hagenauer House' is where the world’s most celebrated musical genius, Wolfgang Amadeus Mozart, was born on January 27, 1756. As one of the most visited museums in the world, it occupies the third-floor apartment where the Mozart family lived from 1747 to 1773. Stepping through its historic threshold is not just a visit to a museum but an immersion into the 18th-century daily life of Salzburg and the formative childhood years of a prodigy. The museum meticulously preserves the atmosphere of the era, showcasing original furnishings, historical documents, and the very instruments touched by Mozart’s hands, leading visitors on a profound musical journey through time.\n\nThe heart of the collection features Mozart’s childhood violin, his concert violin, his clavichord, and the pianoforte on which he composed many of his immortal masterpieces. For classical music enthusiasts, viewing these authentic instruments up close is a deeply moving, almost spiritual experience. The exhibition of personal family letters and portraits provides an intimate look into Mozart’s life not just as a composer, but as a son and brother, revealing the complex and affectionate bonds he shared with his father Leopold and sister Nannerl. The 'Mozart at the Theater' section utilizes futuristic scenography to explore his legendary operas and their global impact over the centuries. The building itself is a masterpiece of preservation, maintaining the original layout of the rooms and the historic kitchen, allowing guests to feel the authentic spirit of the residence.\n\nRising amidst the historic wrought-iron signs of the Getreidegasse, the building serves as a magnet that draws hundreds of thousands of visitors to Salzburg's narrow streets every year. The golden inscription 'Mozarts Geburtshaus' on its yellow facade is perhaps the city's most iconic photographic landmark. After touring the rooms, visitors can explore the ground-floor shop to find exclusive designs inspired by Mozart’s scores and the world-famous 'Mozartkugel' chocolates. A visit to Mozart’s Birthplace is an invitation to stand at the very origin of music’s universal language, to witness the first steps of a genius, and to understand why Salzburg is eternally celebrated as the 'City of Music.' It remains a sacred sanctuary of art where every room whispers with the echoes of history and every floorboard resonates with the ghost of a melody."
+  },
+  "activities": {
+    "tr": [
+      "Mozart'ın bizzat çaldığı orijinal keman ve piyanoyu yakından görme",
+      "Mozart ailesinin 18. yüzyıldan kalma orijinal yaşam alanlarını gezme",
+      "Sanatçının el yazması mektuplarını ve notalarını inceleme",
+      "Getreidegasse'nin tarihi atmosferinde binanın ikonik sarı cephesini fotoğraflama",
+      "Mozart'ın operalarının sahne tasarımlarını interaktif sergide keşfetme"
+    ],
+    "en": [
+      "Viewing the original violin and pianoforte played by Mozart himself",
+      "Exploring the Mozart family's authentic 18th-century living quarters",
+      "Studying the composer’s handwritten letters and musical scores",
+      "Photographing the iconic yellow facade amidst the historic Getreidegasse",
+      "Discovering the stage designs of Mozart’s operas in the interactive exhibition"
     ]
-  }
+  },
+  "categories": {
+    "tr": ["tarih", "müzik", "müze", "kültür"],
+    "en": ["history", "music", "museum", "culture"]
+  },
+  "images": [
+    "https://example.com/mozart_birthplace_yellow_house.jpg",
+    "https://example.com/mozart_violin_exhibit.jpg"
+  ]
+}
 ]

@@ -22,7 +22,8 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
     unit: "km",
     distanceNote: "away",
     eventsTitle: "Events",
-    eventsText: "Don't miss concerts and festivals →"
+    eventsText: "Don't miss concerts and festivals →",
+    estimated: "Est.", // Tahmini (Kısa)
   } : {
     badge: "DENEYİM NOKTASI",
     todo: "Burada Neler Yapılır?",
@@ -32,7 +33,8 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
     unit: "km",
     distanceNote: "yakınında",
     eventsTitle: "Etkinlikleri",
-    eventsText: "Konser ve festivalleri kaçırma →"
+    eventsText: "Konser ve festivalleri kaçırma →",
+    estimated: "Tahmini", // Tahmini
   };
 
   // ✅ SEO Schema (JSON-LD)
@@ -138,7 +140,8 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                 ))}
               </ul>
             </div>
-
+            {/* ✅ SADECE TÜRKİYE İSE GÖSTER */}
+            {region.toLowerCase() === "turkiye" && (
             <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg">
               <div className="flex items-center gap-3 mb-4">
                 <Calendar size={20} />
@@ -152,26 +155,34 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                 {t.eventsTitle} <ArrowRight size={18} />
               </Link>
             </div>
-
-            <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
-              <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
-              <div className="space-y-6">
-                {nearbyPlaces.map((p: any) => (
-                  <Link
-                    key={p.slug}
-                    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-                    className="flex flex-col gap-1 group"
-                  >
-                    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
-                      {p.name?.[lang]}
-                    </span>
-                    <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
-                      {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
+             )}
+               {/* 3. Çevreyi Keşfet Kartı (Hep Görünür) */}
+           <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
+  <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
+  <div className="space-y-6">
+    {nearbyPlaces.map((p: any) => (
+      <Link
+        key={p.slug}
+        href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+        className="flex flex-col gap-1 group"
+      >
+        <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
+          {p.name?.[lang]}
+        </span>
+        
+        {/* Mesafe ve Tahmini İbaresi */}
+        <div className="flex items-center gap-1.5">
+          <span className="text-[10px] text-blue-500 font-black uppercase tracking-widest bg-blue-50 px-1.5 py-0.5 rounded">
+            {t.estimated}
+          </span>
+          <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
+            {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
+          </span>
+        </div>
+      </Link>
+    ))}
+  </div>
+</div>
           </div>
         </div>
       </section>

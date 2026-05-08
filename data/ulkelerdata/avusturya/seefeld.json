@@ -1,45 +1,40 @@
 [
-  {
-    "slug": "kayak-ve-yuruyus-yollari",
-    "name": {
-      "tr": "Kayak ve Yürüyüş Yolları",
-      "en": "Ski and Hiking Trails",
-      "de": "Ski- und Wanderwege"
-    },
-    "latitude": 47.327,
-    "longitude": 11.191,
-    "description": {
-      "tr": "Kış sporları ve doğa yürüyüşleri için harika bir bölge.",
-      "en": "A great area for winter sports and nature walks.",
-      "de": "Ein großartiges Gebiet für Wintersport und Wanderungen in der Natur."
-    },
-    "activities": {
-      "tr": [
-        "Kayak yapma",
-        "Yürüyüş yapma"
-      ],
-      "en": [
-        "Skiing",
-        "Hiking"
-      ],
-      "de": [
-        "Skifahren",
-        "Wandern"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/ski_hiking_trails.jpg"
+ {
+  "slug": "seefeld-in-tirol",
+  "name": {
+    "tr": "Seefeld in Tirol",
+    "en": "Seefeld in Tirol",
+    "de": "Seefeld in Tirol"
+  },
+  "latitude": 47.3297,
+  "longitude": 11.1872,
+  "description": {
+    "tr": "Tirol Alpleri'nin güneşli bir platosunda, deniz seviyesinden 1.180 metre yükseklikte yer alan Seefeld in Tirol, Avusturya'nın en prestijli ve çok yönlü tatil merkezlerinden biridir. Bir zamanlar küçük bir tarım köyü olan Seefeld, günümüzde kış sporlarındaki dünya çapındaki ünü ve yaz aylarındaki asil atmosferiyle tanınır. İki kez Kış Olimpiyat Oyunları'na ev sahipliği yapmış olması, bölgenin özellikle kuzey disiplini (cross-country) kayak branşındaki kalitesini tesciller. Kasabanın kalbi, araç trafiğine kapalı olan ve şık butikler, gurme restoranlar ve tarihi yapılarla süslenmiş yaya bölgesidir. Seefeld, sadece sporcular için değil, aynı zamanda lüks ve huzuru bir arada arayan 'bon vivant'lar için de Alplerin en popüler kaçış noktalarından biridir.\n\nKasabanın en ikonik simgesi, göl kıyısında tek başına yükselen ve 'Seekirchl' olarak bilinen küçük, beyaz barok kilisedir. Bu yapı, Seefeld'in kartpostallık görüntüsünün ana kahramanıdır. Kış aylarında kasaba, 245 kilometrelik kusursuz kayak pistleriyle bir kış masalına dönüşürken; yaz aylarında yerini Karwendel ve Wetterstein dağlarının sunduğu muazzam yürüyüş rotalarına bırakır. Rosshütte ve Gschwandtkopf gibi zirvelere teleferikle çıkıldığında, Inntal Vadisi'nin ve çevredeki devasa zirvelerin sunduğu panoramik manzara insanın nefesini keser. Ayrıca kasabanın merkezindeki 'Wildsee' gölü, hem serinlemek isteyen yüzücüler için hem de göl kenarında sakin bir yürüyüş yapmak isteyen doğaseverler için eşsiz bir huzur durağıdır.\n\nSeefeld'in kültürel ve sosyal hayatı da doğası kadar zengindir. Kasaba, Alp mimarisinin modern dokunuşlarla harmanlandığı lüks otelleri ve dünya standartlarındaki spa merkezleriyle ünlüdür. Adrenalin arayanlar için bölgede yer alan dağ bisikleti parkurları ve yamaç paraşütü noktaları bulunurken, daha dingin bir gün geçirmek isteyenler Seefeld Casino'da şansını deneyebilir ya da kasabanın meşhur bira bahçelerinde Tirol mutfağının tadına bakabilir. Seefeld'i ziyaret etmek, Alplerin taze havasını solurken kendinizi şımartmak, sabah dağlarda macera yaşayıp öğleden sonra kasabanın şık sokaklarında asaletle yürümektir. Burası, her köşesinde kaliteli bir yaşamın izlerini taşıyan, Avusturya'nın vizyoner ve enerjik yüzünü temsil eden çok özel bir Alp durağıdır.",
+    "en": "Situated on a sun-drenched plateau at 1,180 meters above sea level in the heart of the Tyrolean Alps, Seefeld in Tirol is one of Austria's most prestigious and versatile mountain resorts. Once a modest farming village, Seefeld has transformed into a world-class destination known for its winter sports heritage and its noble, cosmopolitan atmosphere during the summer. Having twice hosted the Winter Olympics, the region is internationally recognized for its excellence in Nordic disciplines, particularly cross-country skiing. The heart of the village is its charming pedestrian zone, one of the oldest in Tyrol, lined with high-end boutiques, gourmet restaurants, and historic buildings, making it a haven for those who seek luxury, style, and Alpine serenity.\n\nThe village’s most iconic landmark is the 'Seekirchl,' a small, white Baroque pilgrimage church standing alone on the edge of the village, which has become the symbol of Seefeld's postcard-perfect beauty. In winter, the area turns into a snowy wonderland with 245 kilometers of meticulously groomed cross-country trails and family-friendly downhill slopes. As the seasons change, the snow makes way for an extensive network of hiking and mountain biking trails that explore the Karwendel and Wetterstein mountain ranges. Taking the cable cars to summits like Rosshütte or Gschwandtkopf rewards visitors with breathtaking panoramic views of the Inntal Valley and the surrounding limestone peaks. Additionally, the 'Wildsee' lake offers a refreshing escape for swimmers and a peaceful path for nature walks.\n\nBeyond its natural allure, Seefeld offers a rich social and cultural lifestyle. The village is renowned for its world-class wellness hotels, where traditional Tyrolean architecture meets modern luxury and expansive spa facilities. For thrill-seekers, the terrain provides ideal conditions for paragliding and rock climbing, while those preferring a more relaxed evening can visit the famous Casino Seefeld or enjoy authentic Tyrolean delicacies in cozy mountain huts. Visiting Seefeld is an invitation to indulge in the finer things in life while surrounded by raw Alpine beauty—it is about experiencing mountain adventures in the morning and sophisticated strolls through chic streets in the afternoon. It remains an extraordinary destination that celebrates a high-quality lifestyle, embodying the visionary and energetic spirit of the Austrian Alps."
+  },
+  "activities": {
+    "tr": [
+      "Seekirchl (Göl Kilisesi) önünde ikonik fotoğraflar çekilme",
+      "Rosshütte teleferiği ile zirveye çıkıp Alp manzarasını seyretme",
+      "Wildsee gölü çevresinde doğa yürüyüşü yapma",
+      "Olimpiyat standartlarındaki pistlerde kuzey disiplini kayağı deneme",
+      "Şık yaya bölgesinde alışveriş yapıp Tirol mutfağını keşfetme"
+    ],
+    "en": [
+      "Taking iconic photos in front of the Seekirchl church",
+      "Ascending to the Rosshütte summit for panoramic Alpine views",
+      "Hiking the scenic trails around the Wildsee lake",
+      "Trying cross-country skiing on Olympic-standard trails",
+      "Shopping and dining in the chic pedestrian zone of the village"
     ]
-  }
+  },
+  "categories": {
+    "tr": ["doğa", "spor", "lüks", "kış turizmi"],
+    "en": ["nature", "sports", "luxury", "winter tourism"]
+  },
+  "images": [
+    "https://example.com/seefeld_seekirchl_winter.jpg",
+    "https://example.com/seefeld_rosshuette_view.jpg"
+  ]
+}
 ]

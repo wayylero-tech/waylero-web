@@ -9,10 +9,11 @@ export default function MediaView({ user }: any) {
   const [uploadedPaths, setUploadedPaths] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
 
-  // 📌 SINGLE UPLOAD SELECTION
+  // 📌 SINGLE UPLOAD STATES
   const [region, setRegion] = useState("");
   const [city, setCity] = useState("");
   const [place, setPlace] = useState("");
+  const [selectedFile, setSelectedFile] = useState<File | null>(null); // Buton için dosyayı burada tutuyoruz
 
   const CLOUD_NAME = "dewd42ppf";
   const UPLOAD_PRESET = "waylero";
@@ -22,26 +23,19 @@ export default function MediaView({ user }: any) {
     return new Promise((resolve) => {
       const img = new Image();
       img.src = URL.createObjectURL(blob);
-
       img.onload = () => {
         const canvas = document.createElement("canvas");
-
         let width = img.width;
         let height = img.height;
-
         const MAX_WIDTH = 1280;
-
         if (width > MAX_WIDTH) {
           height = (MAX_WIDTH / width) * height;
           width = MAX_WIDTH;
         }
-
         canvas.width = width;
         canvas.height = height;
-
         const ctx = canvas.getContext("2d");
         ctx?.drawImage(img, 0, 0, width, height);
-
         canvas.toBlob((result) => resolve(result || blob), "image/jpeg", 0.8);
       };
     });
@@ -82,7 +76,6 @@ export default function MediaView({ user }: any) {
     if (cloudData.error) throw new Error(cloudData.error.message);
 
     const finalPath = cloudData.public_id;
-
     const docRef = doc(db, "city", citySlug, "places", placeSlug);
 
     await setDoc(
@@ -102,30 +95,22 @@ export default function MediaView({ user }: any) {
   // 📦 JSON BULK UPLOAD
   const startBulkUpload = async () => {
     if (!jsonData) return alert("JSON yapıştır!");
-
     setLoading(true);
-    setStatus(["🚀 Başladı..."]);
-    setUploadedPaths([]);
-
+    setStatus(["🚀 Toplu yükleme başladı..."]);
     try {
       const data = JSON.parse(jsonData);
       const temp: string[] = [];
-
       for (const regionKey in data) {
         const regionSlug = formatNameCustom(regionKey);
-
         for (const cityKey in data[regionKey]) {
           const citySlug = formatNameCustom(cityKey);
-
           for (const placeKey in data[regionKey][cityKey]) {
             const placeSlug = formatNameCustom(placeKey);
             const links = data[regionKey][cityKey][placeKey];
-
             for (const link of links) {
               const res = await fetch(link);
               const blob = await res.blob();
               const compressed = await compressImage(blob);
-
               const finalPath = await uploadToCloudAndFirebase(
                 compressed,
                 regionSlug,
@@ -133,7 +118,6 @@ export default function MediaView({ user }: any) {
                 placeSlug,
                 placeKey
               );
-
               temp.push(finalPath);
               setUploadedPaths([...temp]);
               setStatus((p) => [...p, `✅ ${finalPath}`]);
@@ -141,27 +125,25 @@ export default function MediaView({ user }: any) {
           }
         }
       }
-
-      setStatus((p) => [...p, "✨ BİTTİ"]);
+      setStatus((p) => [...p, "✨ TÜMÜ BİTTİ"]);
     } catch {
-      alert("JSON hatası");
+      alert("JSON formatı hatalı!");
     } finally {
       setLoading(false);
     }
   };
 
-  // 📸 SINGLE UPLOAD (ARTIK MANUAL YOK)
-  const handleSingleUpload = async (file: File) => {
-    if (!region || !city || !place) {
-      return alert("Region / City / Place seç kanka!");
+  // 📸 SINGLE UPLOAD
+  const handleSingleUpload = async () => {
+    if (!region || !city || !place || !selectedFile) {
+      return alert("Eksik bilgi var kanka (Bölge, Şehir, Mekan veya Dosya)!");
     }
 
     setLoading(true);
-    setStatus(["📸 Upload başladı..."]);
+    setStatus(["📸 Tekli yükleme başladı..."]);
 
     try {
-      const compressed = await compressImage(file);
-
+      const compressed = await compressImage(selectedFile);
       const finalPath = await uploadToCloudAndFirebase(
         compressed,
         formatNameCustom(region),
@@ -172,8 +154,9 @@ export default function MediaView({ user }: any) {
 
       setUploadedPaths((p) => [...p, finalPath]);
       setStatus((p) => [...p, `✅ Yüklendi: ${finalPath}`]);
+      setSelectedFile(null); // Yükleme bitince dosyayı temizle
     } catch (err: any) {
-      setStatus((p) => [...p, `❌ ${err.message}`]);
+      setStatus((p) => [...p, `❌ Hata: ${err.message}`]);
     } finally {
       setLoading(false);
     }
@@ -181,110 +164,95 @@ export default function MediaView({ user }: any) {
 
   return (
     <div className="p-10 bg-slate-900 min-h-screen text-white space-y-10">
-
-      {/* 📦 JSON UPLOAD */}
-      <div className="bg-slate-800 p-6 rounded-xl space-y-4">
-  <h2 className="text-xl font-bold text-blue-400">
-    📦 BULK JSON UPLOAD
-  </h2>
-
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-
-    {/* 📥 JSON INPUT */}
-    <div>
-      <textarea
-        value={jsonData}
-        onChange={(e) => setJsonData(e.target.value)}
-        className="w-full h-80 bg-slate-900 p-4 rounded font-mono text-sm"
-      />
-    </div>
-
-    {/* 📌 JSON EXAMPLE */}
-    <div className="bg-slate-900 border border-slate-700 p-4 rounded-xl text-xs text-slate-300">
-      <p className="text-blue-400 font-bold mb-2">
-        📌 JSON FORMAT ÖRNEĞİ
-      </p>
-
-      <pre className="whitespace-pre-wrap text-[11px] leading-relaxed text-emerald-200">
+      
+      {/* 📦 JSON UPLOAD SECTION */}
+      <div className="bg-slate-800 p-6 rounded-xl space-y-4 shadow-xl">
+        <h2 className="text-xl font-bold text-blue-400 flex items-center gap-2">
+          <span>📦</span> BULK JSON UPLOAD
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <textarea
+            value={jsonData}
+            onChange={(e) => setJsonData(e.target.value)}
+            placeholder="JSON verisini buraya yapıştır..."
+            className="w-full h-80 bg-slate-900 p-4 rounded border border-slate-700 font-mono text-sm focus:border-blue-500 outline-none"
+          />
+          <div className="bg-slate-900 border border-slate-700 p-4 rounded-xl text-xs text-slate-300">
+            <p className="text-blue-400 font-bold mb-2">📌 JSON FORMAT ÖRNEĞİ</p>
+            <pre className="whitespace-pre-wrap text-[11px] leading-relaxed text-emerald-200 bg-black/30 p-2 rounded">
 {`{
   "turkey": {
     "antalya": {
-      "kas": [
-        "https://site.com/image1.jpg",
-        "https://site.com/image2.jpg"
-      ]
-    },
-    "istanbul": {
-      "kadikoy": [
-        "https://site.com/image3.jpg"
-      ]
+      "kas": ["url1", "url2"]
     }
   }
 }`}
-      </pre>
-
-      <p className="mt-2 text-slate-400">
-        👉 Region → City → Place → Image URL listesi
-      </p>
-    </div>
-
-  </div>
-
-  {/* BUTTON */}
-  <button
-    onClick={startBulkUpload}
-    disabled={loading}
-    className="bg-blue-600 px-6 py-2 rounded"
-  >
-    YÜKLE
-  </button>
-</div>
-
-      {/* 📸 SINGLE UPLOAD */}
-      <div className="bg-slate-800 p-6 rounded-xl space-y-4">
-        <h2 className="text-xl font-bold text-emerald-400">
-          📸 TEK RESİM UPLOAD
-        </h2>
-
-        {/* 📍 SELECT AREA */}
-        <div className="grid grid-cols-3 gap-2">
-          <input
-            placeholder="Region"
-            value={region}
-            onChange={(e) => setRegion(e.target.value)}
-            className="p-2 bg-slate-900 rounded"
-          />
-          <input
-            placeholder="City"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-            className="p-2 bg-slate-900 rounded"
-          />
-          <input
-            placeholder="Place"
-            value={place}
-            onChange={(e) => setPlace(e.target.value)}
-            className="p-2 bg-slate-900 rounded"
-          />
+            </pre>
+            <p className="mt-4 text-slate-400 italic">👉 Region → City → Place → URL Array</p>
+          </div>
         </div>
-
-        {/* 📸 FILE */}
-        <input
-          type="file"
-          accept="image/*"
-          className="block"
-          onChange={(e) => {
-            const file = e.target.files?.[0];
-            if (file) handleSingleUpload(file);
-          }}
-        />
+        <button
+          onClick={startBulkUpload}
+          disabled={loading}
+          className="bg-blue-600 hover:bg-blue-500 disabled:bg-slate-600 px-10 py-3 rounded-lg font-bold transition-all"
+        >
+          {loading ? "İŞLENİYOR..." : "TOPLU YÜKLEMEYİ BAŞLAT"}
+        </button>
       </div>
 
-      {/* 📊 STATUS */}
-      <div className="bg-black/40 p-4 text-xs max-h-60 overflow-y-auto">
-        {status.map((s, i) => (
-          <div key={i}>{s}</div>
-        ))}
+      {/* 📸 SINGLE UPLOAD SECTION */}
+      <div className="bg-slate-800 p-6 rounded-xl space-y-4 shadow-xl border-l-4 border-emerald-500">
+        <h2 className="text-xl font-bold text-emerald-400 flex items-center gap-2">
+          <span>📸</span> TEK RESİM UPLOAD
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <input
+            placeholder="Region (Ege)"
+            value={region}
+            onChange={(e) => setRegion(e.target.value)}
+            className="p-3 bg-slate-900 rounded border border-slate-700 outline-none focus:border-emerald-500"
+          />
+          <input
+            placeholder="City (Muğla)"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+            className="p-3 bg-slate-900 rounded border border-slate-700 outline-none focus:border-emerald-500"
+          />
+          <input
+            placeholder="Place (Bodrum Antik Tiyatro)"
+            value={place}
+            onChange={(e) => setPlace(e.target.value)}
+            className="p-3 bg-slate-900 rounded border border-slate-700 outline-none focus:border-emerald-500"
+          />
+        </div>
+        <div className="flex flex-col md:flex-row items-center gap-4 pt-2">
+          <input
+            type="file"
+            accept="image/*"
+            onChange={(e) => setSelectedFile(e.target.files?.[0] || null)}
+            className="block w-full text-sm text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-emerald-600 file:text-white hover:file:bg-emerald-500 cursor-pointer"
+          />
+          <button
+            onClick={handleSingleUpload}
+            disabled={loading || !selectedFile}
+            className="w-full md:w-auto bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-600 px-10 py-3 rounded-lg font-bold transition-all"
+          >
+            {loading ? "YÜKLENİYOR..." : "RESMİ YÜKLE"}
+          </button>
+        </div>
+      </div>
+
+      {/* 📊 LOGS / STATUS */}
+      <div className="bg-black/60 p-4 rounded-xl border border-slate-800">
+        <h3 className="text-xs font-bold text-slate-500 mb-2 uppercase tracking-widest">İşlem Günlüğü</h3>
+        <div className="text-xs font-mono space-y-1 max-h-40 overflow-y-auto scrollbar-hide">
+          {status.length === 0 && <span className="text-slate-600 italic">Henüz bir işlem yapılmadı...</span>}
+          {status.map((s, i) => (
+            <div key={i} className={`${s.includes('✅') ? 'text-emerald-400' : s.includes('❌') ? 'text-red-400' : 'text-blue-300'}`}>
+              {s}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

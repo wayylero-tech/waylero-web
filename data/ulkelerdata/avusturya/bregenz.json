@@ -1,88 +1,76 @@
 [
   {
-    "slug": "bodensee-golu",
-    "name": {
-      "tr": "Bodensee Gölü",
-      "en": "Lake Constance",
-      "de": "Bodensee"
-    },
-    "latitude": 47.5,
-    "longitude": 9.75,
-    "description": {
-      "tr": "Tekne turlarıyla ünlüdür.",
-      "en": "Famous for boat tours.",
-      "de": "Berühmt für Bootstouren."
-    },
-    "activities": {
-      "tr": [
-        "Tekne turu yapma",
-        "Göl etrafında dolaşma"
-      ],
-      "en": [
-        "Take a boat tour",
-        "Walk around the lake"
-      ],
-      "de": [
-        "Eine Bootstour machen",
-        "Um den See spazieren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/lake_constance.jpg"
+  "slug": "bodensee-golu",
+  "name": {
+    "tr": "Bodensee (Konstanz Gölü)",
+    "en": "Lake Constance (Bodensee)",
+    "de": "Bodensee"
+  },
+  "latitude": 47.6363,
+  "longitude": 9.3892,
+  "description": {
+    "tr": "Alplerin kuzey eteklerinde; Almanya, Avusturya ve İsviçre’nin sınırlarının birleştiği noktada yer alan Bodensee (Konstanz Gölü), Avrupa'nın en büyük ve en büyüleyici tatlı su rezervlerinden biridir. Ren Nehri tarafından beslenen bu devasa göl, sadece doğal bir sınır değil, aynı zamanda üç farklı ülkenin kültürünün, mutfağının ve tarihinin harmanlandığı eşsiz bir coğrafyadır. Gölün çevresi boyunca uzanan kartpostal güzelliğindeki kasabalar, üzüm bağları ve karlı dağ zirveleri, burayı yılın her dönemi ziyaret edilen küresel bir cazibe merkezi haline getirir. Bodensee, toplamda 536 kilometrekarelik bir alanı kaplayarak ziyaretçilerine su sporlarından tarih turlarına kadar sınırsız bir aktivite yelpazesi sunar.\n\nGölün en dikkat çekici noktalarından biri, 'Çiçek Adası' olarak bilinen Mainau Adası'dır. Yılın her mevsiminde milyonlarca lale, gül ve egzotik bitkinin açtığı bu ada, bir botanik cennetidir. Tarih meraklıları için ise UNESCO Dünya Mirası listesinde yer alan Reichenau Adası, Orta Çağ'dan kalma manastırları ve dini önemiyle büyüleyici bir duraktır. Gölün kuzey kıyısında yer alan Lindau şehri, liman girişindeki devasa aslan heykeli ve deniz feneriyle ünlüdür; dar sokakları ve Bavyera mimarisiyle ziyaretçilerini Orta Çağ atmosferine davet eder. Meersburg kasabası ise, dik yamaçlara kurulu kaleleri ve şarap mahzenleriyle gölün romantik ruhunu yansıtır. Ayrıca, Friedrichshafen şehrinde bulunan Zeppelin Müzesi, bölgenin havacılık tarihindeki öncü rolünü gözler önüne serer.\n\nBodensee, aynı zamanda aktif yaşam tutkunları için bir cennettir. Gölün çevresini tam tur dolanan 270 kilometrelik 'Bodensee-Radweg' bisiklet yolu, dünyanın en popüler bisiklet rotalarından biri olarak kabul edilir. Yaz aylarında yelkenliler, kanolar ve feribotlar gölün sularını hareketlendirirken, gölün temiz ve serin suları yüzmek isteyenler için harika plajlar sunar. Gastronomik açıdan ise bölge, gölden çıkan taze Felchen balığı ve çevredeki yamaçlarda yetişen ödüllü beyaz şaraplarıyla damaklarda unutulmaz izler bırakır. Avusturya tarafındaki Bregenz şehri, gölün üzerine kurulan dünyanın en büyük yüzer sahnesinde düzenlenen 'Bregenz Festivali' ile her yaz sanatseverleri kendine çeker. Bodensee'yi ziyaret etmek, üç farklı ülkenin misafirperverliğini tek bir seyahatte yaşamak, Alplerin gölgesinde huzur bulmak ve doğanın sanatla nasıl kusursuzca birleştiğine tanıklık etmektir. Burası, Avrupa'nın kalbinde hem ruhu hem de bedeni tazeleyen zamansız bir destinasyondur.",
+    "en": "Nestled at the northern foot of the Alps where the borders of Germany, Austria, and Switzerland converge, Lake Constance, known locally as Bodensee, is one of Europe's largest and most enchanting freshwater reservoirs. Fed by the Rhine River, this vast lake is not merely a natural boundary but a unique geographical crossroads where the cultures, cuisines, and histories of three nations blend seamlessly. The postcard-perfect towns, lush vineyards, and snow-capped Alpine peaks that line its shores make it a premier global attraction year-round. Covering an area of 536 square kilometers, Lake Constance offers an inexhaustible array of activities, from high-energy water sports to contemplative historical tours through ancient monastic sites.\n\nOne of the lake's most spectacular highlights is Mainau Island, affectionately known as the 'Flower Island.' This botanical paradise features millions of blooming tulips, roses, and exotic plants across every season, surrounding a grand Baroque palace. For history enthusiasts, the Island of Reichenau—a UNESCO World Heritage site—offers a journey back to the Middle Ages with its well-preserved Romanesque churches and rich monastic tradition. On the northern shore, the Bavarian town of Lindau captivates visitors with its iconic harbor entrance, guarded by a massive stone lion and a historic lighthouse. Its labyrinthine medieval streets and vibrant lakeside promenade are a testament to centuries of trade and culture. Nearby, the town of Meersburg, with its ancient fortresses and steep vineyard slopes, reflects the romantic soul of the region.\n\nLake Constance is also a sanctuary for active travelers. The 'Bodensee-Radweg' is a 270-kilometer cycling path that encircles the entire lake, recognized as one of the most scenic and popular cycling routes in the world. During the summer months, the water becomes a vibrant stage for sailing, kayaking, and windsurfing, while the crystal-clear waters provide a refreshing escape for swimmers at numerous lakeside beaches. Gastronomically, the region is famous for its freshly caught whitefish (Felchen) and the award-winning wines produced in the sun-drenched vineyards overlooking the water. In the Austrian city of Bregenz, the world’s largest floating stage hosts the Bregenz Festival each summer, drawing opera lovers to witness spectacular performances against the backdrop of a setting sun. To visit Lake Constance is to experience the hospitality of three different countries in a single trip, to find peace in the shadow of the Alps, and to witness the perfect harmony of nature and artistic expression. It remains a timeless destination in the heart of Europe that rejuvenates both the body and the soul."
+  },
+  "activities": {
+    "tr": [
+      "Göl çevresinde bisiklet turu (Bodensee-Radweg)",
+      "Mainau Çiçek Adası'nı ziyaret etme",
+      "Lindau ve Meersburg tarihi kasabalarını gezme",
+      "Ülkeler arası feribot yolculuğu yapma",
+      "Zeppelin Müzesi'nde havacılık tarihini keşfetme"
+    ],
+    "en": [
+      "Cycling around the lake (Bodensee-Radweg)",
+      "Visiting the Flower Island of Mainau",
+      "Exploring the historic towns of Lindau and Meersburg",
+      "Taking a cross-border ferry ride",
+      "Discovering aviation history at the Zeppelin Museum"
     ]
   },
+  "categories": {
+    "tr": ["doğa", "kültür", "spor", "şehir turu"],
+    "en": ["nature", "culture", "sports", "city tour"]
+  },
+  "images": [
+    "https://example.com/lake_constance_lindau.jpg"
+  ]
+},
   {
-    "slug": "bregenz-festivali",
-    "name": {
-      "tr": "Bregenz Festivali",
-      "en": "Bregenz Festival",
-      "de": "Bregenzer Festspiele"
-    },
-    "latitude": 47.5034,
-    "longitude": 9.749,
-    "description": {
-      "tr": "Yaz aylarında düzenlenen açık hava opera etkinlikleriyle ünlüdür.",
-      "en": "Famous for outdoor opera performances during the summer.",
-      "de": "Berühmt für Open-Air-Opernaufführungen im Sommer."
-    },
-    "activities": {
-      "tr": [
-        "Opera izleme",
-        "Açık hava etkinliklerine katılma"
-      ],
-      "en": [
-        "Watch opera",
-        "Attend outdoor performances"
-      ],
-      "de": [
-        "Oper sehen",
-        "An Open-Air-Veranstaltungen teilnehmen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "kültürel etkinlikler"
-      ],
-      "en": [
-        "cultural events"
-      ],
-      "de": [
-        "Kulturelle Veranstaltungen"
-      ]
-    },
-    "images": [
-      "https://example.com/bregenz_festival.jpg"
+  "slug": "bregenz-festivali",
+  "name": {
+    "tr": "Bregenz Festivali",
+    "en": "Bregenz Festival",
+    "de": "Bregenzer Festspiele"
+  },
+  "latitude": 47.5048,
+  "longitude": 9.7378,
+  "description": {
+    "tr": "Avusturya'nın Vorarlberg eyaletinin başkenti Bregenz'de, Bodensee'nin serin suları üzerine kurulan Bregenz Festivali, dünyanın en etkileyici ve görsel olarak en iddialı açık hava opera festivallerinden biridir. 1946 yılında, İkinci Dünya Savaşı'nın hemen ardından iki çakıl mavnası üzerinde bir sahne kurulmasıyla başlayan bu gelenek, bugün küresel sanat camiasının en çok beklenen etkinliklerinden birine dönüşmüştür. Festivalin kalbi, 'Seebühne' (Yüzen Sahne) olarak adlandırılan ve her iki yılda bir tamamen değişen devasa dekorlara sahip olan platformdur. Bu sahne, yaklaşık 7.000 kişilik bir izleyici kapasitesine sahip olup, gökyüzünün kızıla boyandığı gün batımı manzarasıyla birleşerek izleyicilere gerçeküstü bir deneyim sunar. Festivalin en büyüleyici yanı, operanın klasik dokusunu modern teknolojinin sınırlarını zorlayan mekanik düzenekler, devasa heykeller ve suyun akustiğiyle harmanlamasıdır.\n\nBregenz Festivali'ni diğerlerinden ayıran en temel özellik, dekorların sadece birer görsel öğe değil, performansın yaşayan birer parçası olmasıdır. Örneğin, Puccini'nin 'Tosca'sı için inşa edilen devasa bir göz veya Verdi'nin 'Rigoletto'su için gölün ortasına kurulan hareketli dev bir palyaço kafası gibi ikonik tasarımlar, dünya çapında birer mühendislik harikası olarak kabul edilir. Bu dekorlar, sanatçıların suyun altından çıkmasına, havada asılı kalmasına veya dekorun içinden geçerek performans sergilemesine imkan tanır. Festival süresince sadece göl sahnesinde değil, aynı zamanda kapalı alan olan 'Festspielhaus' binasında da daha az bilinen veya teknik olarak kapalı mekan gerektiren prestijli eserler sahnelenir. Viyana Senfoni Orkestrası'nın (Wiener Symphoniker) festivalin ana orkestrası olarak görev yapması, sanatsal kalitenin en üst düzeyde tutulmasını sağlar.\n\nTemmuz ve Ağustos aylarında düzenlenen festival, sadece opera severleri değil; mimari, mühendislik ve fotoğraf meraklılarını da şehre çeker. Sahne hazırlıkları aylar öncesinden başlar ve her yeni prodüksiyon, sanat dünyasında büyük bir merakla beklenir. Festivalin etkisi Bregenz şehrinin her sokağında hissedilir; yerel dükkanlar, galeriler ve restoranlar bu dönemde sanatın ritmine uyum sağlar. Seyirciler, performans başlamadan önce göl kenarında şaraplarını yudumlarken Alplerin gölgesindeki bu eşsiz atmosferin tadını çıkarırlar. Ayrıca festival, popüler kültüre de damgasını vurmuş; 2008 yapımı James Bond filmi 'Quantum of Solace'ın ikonik opera sahnesi bizzat bu sahnede çekilmiştir. Bregenz Festivali'ni ziyaret etmek, insan yaratıcılığının doğayla kurduğu en görkemli ittifaka tanıklık etmek ve bir sanat eserinin içinde, suyun ve yıldızların eşliğinde kaybolmaktır. Burası, her adımda 'imkansız' denilen sahnelerin nasıl birer gerçeğe dönüştüğünü kanıtlayan, Avrupa'nın kültürel zirvelerinden biridir.",
+    "en": "The Bregenz Festival (Bregenzer Festspiele), held in the capital of Vorarlberg, Austria, is a world-renowned cultural phenomenon that transforms the tranquil waters of Lake Constance into a spectacular open-air opera stage. This legendary tradition began in 1946, shortly after World War II, when the first performances were staged on two gravel barges because the town lacked a traditional theater. Today, it has evolved into one of the most ambitious and visually breathtaking arts festivals in the world. The centerpiece of the event is the 'Seebühne' (Floating Stage), a massive technological marvel anchored in the lake, which features a completely new and awe-inspiring set design every two years. With a seating capacity for nearly 7,000 spectators, the stage offers a surreal experience where the setting sun and the Alpine horizon become an integral part of the artistic narrative.\n\nWhat sets the Bregenz Festival apart is its mastery of blending classical opera with cutting-edge engineering and grand-scale stagecraft. The sets are not merely backgrounds; they are dynamic, mechanical sculptures that define the performance. Iconic designs, such as the giant movable eye for Puccini’s 'Tosca' or the colossal, rotating clown head for Verdi’s 'Rigoletto,' have gained global fame as masterpieces of modern scenography. These sets allow performers to emerge from the depths of the lake, hang from great heights, or move through intricate internal structures, creating a three-dimensional spectacle that transcends traditional theater. While the floating stage hosts the most popular operas, the adjacent 'Festspielhaus' (Festival House) presents rarer or technically complex indoor productions, ensuring a diverse and high-caliber program. The presence of the Vienna Symphony Orchestra as the resident ensemble guarantees musical excellence of the highest order.\n\nTaking place annually during July and August, the festival attracts not only opera aficionados but also fans of architecture, engineering, and photography. The preparation for each production takes months of meticulous planning and construction, making every new season a highly anticipated event in the global art world. The festival's vibrant energy permeates every corner of Bregenz, as local galleries, restaurants, and shops align with the rhythmic pulse of the season. Before the curtain rises, visitors often gather along the lakeshore to enjoy a glass of regional wine, soaking in the serene atmosphere under the shadow of the mountains. The festival's cultural reach even extended into Hollywood when the 2008 James Bond film 'Quantum of Solace' featured an iconic chase sequence filmed during a performance on the floating stage. A visit to the Bregenz Festival is more than just attending a show; it is an invitation to witness the most magnificent alliance between human creativity and nature. It remains a pinnacle of European culture, proving every year that even the most impossible artistic visions can come to life amidst the stars and the water."
+  },
+  "activities": {
+    "tr": [
+      "Dünyanın en büyük yüzen sahnesinde opera izleme",
+      "Viyana Senfoni Orkestrası konserlerini dinleme",
+      "Göl kenarında gün batımı eşliğinde akşam yemeği",
+      "Sahne arkası (Backstage) turlarına katılarak mühendislik detaylarını görme",
+      "Bregenz şehir merkezindeki sanat galerilerini keşfetme"
+    ],
+    "en": [
+      "Watching an opera on the world's largest floating stage",
+      "Attending concerts by the Vienna Symphony Orchestra",
+      "Dining at the lakeside while watching the sunset",
+      "Taking backstage tours to discover engineering secrets",
+      "Exploring art galleries in the center of Bregenz"
     ]
-  }
+  },
+  "categories": {
+    "tr": ["kültür", "sanat", "müzik", "şehir turu"],
+    "en": ["culture", "art", "music", "city tour"]
+  },
+  "images": [
+    "https://example.com/bregenz_festival_seebuehne.jpg"
+  ]
+}
 ]

@@ -8,9 +8,10 @@
     },
     "latitude": 48.415,
     "longitude": 15.433,
-    "description": {
-      "tr": "Wachau Vadisi, Donau Nehri boyunca uzanan ve UNESCO Dünya Mirası Listesi'nde yer alan tarihi bir bölgedir. Vadide, şarap bağları, tarihi kasabalar ve kaleler bulunmaktadır. Ziyaretçiler, yürüyüş yapabilir, tekne turlarına katılabilir ve bölgenin ünlü şaraplarını tadabilirler.",
-      "en": "The Wachau Valley is a historic region along the Danube River, listed as a UNESCO World Heritage Site. The valley is home to vineyards, historic towns, and castles. Visitors can hike, take boat tours, and sample the famous wines of the region.",
+   "description": {
+    "tr": "Melk ve Krems kasabaları arasında, görkemli Tuna Nehri boyunca yaklaşık 36 kilometre boyunca uzanan Wachau Vadisi, Avusturya'nın en değerli kültürel ve doğal hazinelerinden biridir. 2000 yılında UNESCO Dünya Mirası Listesi'ne alınan bu bölge, sarp kayalıkların üzerine tünemiş Orta Çağ kaleleri, nehir kıyısına inci gibi dizilmiş tarihi kasabaları ve dik yamaçlara kurulu basamaklı üzüm bağlarıyla büyüleyici bir kompozisyon sunar. Vadinin tarihi, Paleolitik çağlara kadar uzanmakta olup, dünyaca ünlü 'Willendorf Venüsü' heykelciğinin burada bulunması, bölgenin insanlık tarihi için önemini kanıtlar. Wachau, hem tarih meraklıları hem de doğa tutkunları için Avrupa'nın en romantik ve huzurlu rotalarından biridir.\n\nVadinin en görkemli yapısı, bir tepenin üzerinde tüm heybetiyle yükselen sarı renkli Melk Manastırı'dır (Stift Melk). Barok mimarinin dünyadaki en seçkin örneklerinden biri olan bu manastır, muazzam kütüphanesi ve altın varaklı kilisesiyle ziyaretçileri büyüleyicidir. Nehrin biraz daha aşağısında yer alan Dürnstein kasabası ise, mavi kuleli manastır kilisesi ve İngiltere Kralı Aslan Yürekli Richard'ın hapsedildiği ünlü kale kalıntılarıyla tanınır. Bu kale kalıntılarına yapılan kısa bir tırmanış, Tuna Nehri'nin vadideki kıvrımlarını izlemek için en iyi manzarayı sunar. Wachau ayrıca, karakteristik tadını bölgenin özel mikroklimasından ve mineral bakımından zengin toprağından alan dünyaca ünlü Riesling ve Grüner Veltliner beyaz şaraplarının ana vatanıdır. Yerel halkın 'Heuriger' adını verdiği geleneksel şarap evlerinde, bölgenin şaraplarını ve meşhur kayısı (Marille) ürünlerini tatmak, Wachau deneyiminin ayrılmaz bir parçasıdır.\n\nAktif yaşamı tercih edenler için vadi, Tuna Bisiklet Yolu'nun (Donauradweg) en güzel etaplarından birine ev sahipliği yapar; nehir boyunca düz bir rotada pedal çevirmek, her dönemeçte yeni bir şato veya bağ evi keşfetme şansı verir. Nehir üzerinde düzenlenen feribot turları ise, vadinin mimari güzelliklerini sudan izlemek isteyenler için eşsiz bir perspektif sağlar. Bahar aylarında çiçek açan binlerce kayısı ağacı vadiyi beyaza boyarken, sonbaharda bağ bozumu zamanı üzüm bağları altın sarısı ve kızıla bürünür. Wachau Vadisi'ni ziyaret etmek, zamanın yavaş aktığı bir rüyanın içinde yürümek, tarihin her taşında imparatorluk izlerini sürmek ve doğanın cömertliğini bir kadeh şarap eşliğinde kutlamaktır. Burası, her adımda estetik, huzur ve lezzetin buluştuğu, Avusturya'nın gerçek ruhunu temsil eden bir yeryüzü cennetidir.",
+    "en": "Stretching for approximately 36 kilometers along the majestic Danube River between the towns of Melk and Krems, the Wachau Valley is one of Austria's most prized cultural and natural treasures. Inscribed as a UNESCO World Heritage Site in 2000, this region offers a breathtaking composition of medieval castles perched on rugged cliffs, historic riverside villages, and terraced vineyards carved into steep hillsides. The valley's history dates back to the Paleolithic era, highlighted by the discovery of the world-famous 'Venus of Willendorf' figurine, proving its long-standing significance in human history. For both history buffs and nature lovers, the Wachau is considered one of Europe's most romantic and tranquil destinations.\n\nThe most magnificent structure in the valley is the Melk Abbey (Stift Melk), a massive yellow Baroque masterpiece that sits regally atop a hill overlooking the Danube. As one of the world's finest examples of Baroque architecture, it enchants visitors with its grand library and gold-laden abbey church. Further downstream lies the town of Dürnstein, famous for its iconic blue monastic tower and the ruins of the castle where King Richard the Lionheart of England was once imprisoned. A short hike to these ruins provides the ultimate vantage point for viewing the winding curves of the Danube as it carves through the valley. The Wachau is also the birthplace of world-renowned Riesling and Grüner Veltliner white wines, which derive their unique character from the region’s distinct microclimate and mineral-rich soil. Visiting a 'Heuriger'—a traditional local wine tavern—to sample these wines alongside the region’s famous apricot (Marille) specialties is an essential part of the experience.\n\nFor active travelers, the valley hosts one of the most beautiful sections of the Danube Cycle Path (Donauradweg), where cycling along the flat riverside allows for the discovery of a new castle or vineyard at every turn. River cruises provide a different perspective, allowing guests to witness the architectural splendors of the valley from the water. In the spring, thousands of apricot trees transform the valley into a sea of white blossoms, while the autumn harvest turns the vineyards into shades of gold and crimson. Visiting the Wachau Valley is like stepping into a dream where time slows down; it is a journey through imperial history embedded in every stone and a celebration of nature’s bounty enjoyed with a fine glass of wine. It remains a terrestrial paradise where aesthetics, serenity, and flavor converge in perfect harmony, embodying the true soul of Austria."
+  ,
       "de": "Das Wachau-Tal ist eine historische Region entlang der Donau, die als UNESCO-Weltkulturerbe gelistet ist. Das Tal beherbergt Weinberge, historische Städte und Burgen. Besucher können wandern, Bootstouren machen und die berühmten Weine der Region probieren."
     },
     "activities": {
@@ -61,8 +62,9 @@
     "latitude": 48.213,
     "longitude": 15.3305,
     "description": {
-      "tr": "Melk Manastırı, Aşağı Avusturya'nın Melk kasabasında yer alan tarihi bir manastırdır. Barok tarzda inşa edilmiş olan manastır, Avusturya'nın en önemli dini ve kültürel yapılarından biridir. İçerisinde etkileyici bir kütüphane, bir kilise ve çeşitli sanat eserleri bulunmaktadır.",
-      "en": "Melk Abbey is a historic Benedictine monastery located in the town of Melk, Lower Austria. Built in the Baroque style, the abbey is one of Austria's most important religious and cultural landmarks. It features an impressive library, a church, and various art pieces.",
+    "tr": "Aşağı Avusturya'nın büyüleyici Wachau Vadisi'nin girişinde, Tuna Nehri'ne hakim dik bir kaya kütlesi üzerinde yükselen Melk Manastırı, barok mimarinin dünyadaki en görkemli ve en iyi korunmuş örneklerinden biridir. 1089 yılında Benediktin rahiplerine tahsis edilen bu manastır, yüzyıllar boyunca hem manevi bir merkez hem de bilim ve sanatın kalesi olmuştur. Günümüzde görülen sarı-beyaz ihtişamlı yapı, mimar Jakob Prandtauer tarafından 1702-1736 yılları arasında yeniden inşa edilmiş ve Avrupa’nın en etkileyici dini komplekslerinden biri haline gelmiştir. Manastır, devasa avluları, altın varaklı süslemeleri ve nehir manzarasını kucaklayan teraslarıyla ziyaretçilerini adeta bir kraliyet sarayındaymış gibi hissettirir.\n\nManastırın içindeki en büyüleyici duraklardan biri, yaklaşık 100.000 ciltlik nadir esere ev sahipliği yapan dünyaca ünlü kütüphanesidir. Paul Troger tarafından yapılan muazzam tavan freskiyle süslü bu kütüphane, sadece bir kitap deposu değil, aynı zamanda Orta Çağ’ın entelektüel derinliğini yansıtan bir sanat eseridir. Kütüphaneden geçilerek ulaşılan devasa manastır kilisesi (Stiftskirche) ise barok sanatın doruk noktasıdır; altın kaplamalı sunağı, tavan freskleri ve görkemli orgu ile ziyaretçileri büyüleyici bir atmosferin içine çeker. Ayrıca manastır müzesi, 'Benediktin Yaşamı' temasıyla hazırlanan modern ve interaktif odalarıyla, manastırın bin yıllık tarihini ve dini objelerini etkileyici bir ışıklandırma ve tasarımla sunar.\n\nMelk Manastırı, aynı zamanda 'Gülün Adı' (The Name of the Rose) romanının başkahramanı Adso’nun anılarını yazdığı yer olarak edebiyat dünyasında da derin bir iz bırakmıştır. Manastırın dışındaki geniş 'Stiftspark' (Manastır Parkı), egzotik bitkileri, barok tarzı bahçe evi ve huzur veren yürüyüş yollarıyla ziyaretçilere doğayla baş başa kalma imkanı tanır. Bahar ve yaz aylarında binlerce çiçeğin açtığı bu bahçeler, manastırın mimari sertliğini yumuşatan doğal bir cennet gibidir. Melk Manastırı'nı ziyaret etmek, sadece tarihi bir yapıyı gezmek değil, barok dönemin ihtişamlı sanat anlayışına tanıklık etmek, binlerce yıllık el yazmalarının arasında tarihin kokusunu almak ve Tuna'nın mavi kıvrımlarını bu mimari taçtan izlemektir.",
+    "en": "Perched dramatically on a rocky outcrop overlooking the Danube River at the entrance to the Wachau Valley, Melk Abbey (Stift Melk) is one of the world's most spectacular and well-preserved examples of Baroque architecture. Established in 1089 when Leopold II, Margrave of Austria, gifted his castle to Benedictine monks, the abbey has served as a spiritual, scientific, and artistic bastion for nearly a millennium. The current yellow-and-white masterpiece was largely reconstructed between 1702 and 1736 by architect Jakob Prandtauer, becoming an architectural jewel that combines religious devotion with imperial grandeur. Its sprawling courtyards and majestic terraces offer breathtaking views of the river, making it a centerpiece of Austrian cultural heritage.\n\nThe spiritual and intellectual heart of the abbey lies in its world-famous library, which houses around 100,000 rare volumes and manuscripts. Adorned with a magnificent ceiling fresco by Paul Troger, the library is not merely a repository of books but a grand sanctuary of human knowledge and artistic mastery. From the library, visitors move toward the Abbey Church (Stiftskirche), an absolute pinnacle of Baroque art. With its towering gold altar, intricate frescoes, and massive pipe organ, the church creates an overwhelming sense of divinity and awe. The abbey museum further enriches the experience, utilizing interactive lighting and modern design to tell the story of Benedictine life and display the institution's most precious historical artifacts.\n\nMelk Abbey also holds a prestigious place in literature as the setting where Adso, the protagonist of Umberto Eco's 'The Name of the Rose,' pens his memoirs. Beyond the walls, the expansive Abbey Park (Stiftspark) invites guests to stroll through formal gardens, past a charming Baroque garden pavilion, and under rare exotic trees. These grounds provide a serene counterpoint to the monumental scale of the buildings, especially in spring and summer when the flora is in full bloom. A visit to Melk Abbey is an invitation to witness the zenith of the Baroque era, to touch the intellectual pulse of the Middle Ages through its manuscripts, and to gaze upon the winding Danube from one of Europe’s most beautiful architectural crowns."
+  ,
       "de": "Das Stift Melk ist ein historisches Benediktinerkloster in der Stadt Melk in Niederösterreich. Es wurde im Barockstil erbaut und ist eines der wichtigsten religiösen und kulturellen Wahrzeichen Österreichs. Es beherbergt eine beeindruckende Bibliothek, eine Kirche und verschiedene Kunstwerke."
     },
     "activities": {
@@ -112,9 +114,10 @@
     },
     "latitude": 48.41,
     "longitude": 15.62,
-    "description": {
-      "tr": "Krems an der Donau, Wachau Vadisi'nde yer alan tarihi bir kasabadır. Şarapçılığıyla ünlü olan bu kasaba, tarihi binalar ve sanat galerileriyle dikkat çeker. Ziyaretçiler, kasabanın dar sokaklarında yürüyebilir ve geleneksel şarapları tadabilirler.",
-      "en": "Krems an der Donau is a historic town located in the Wachau Valley. Known for its wine production, the town features historic buildings and art galleries. Visitors can stroll through its narrow streets and taste the local wines.",
+   "description": {
+    "tr": "Aşağı Avusturya'nın UNESCO Dünya Mirası listesindeki Wachau Vadisi'nin doğu kapısında yer alan Krems an der Donau, bini aşkın yıllık geçmişiyle Avusturya'nın en eski ve en karakteristik yerleşimlerinden biridir. Tuna Nehri'nin kıyısında, üzüm bağlarıyla kaplı yamaçların eteğinde kurulu olan bu şehir, Orta Çağ, Rönesans ve Barok dönemlerine ait mimari dokusunu neredeyse tamamen korumayı başarmıştır. Krems, tarihi boyunca bir ticaret ve şarapçılık merkezi olmuş, bu zenginlik şehrin her köşesine yansıyan görkemli kiliseler, soylu konakları ve taş döşeli dar sokaklarla taçlanmıştır. Şehrin sembolü olan ve 15. yüzyıldan kalma Steinertor kapısı, ziyaretçileri masalsı bir yolculuğa çıkaran eski şehir merkezinin (Altstadt) girişinde tüm ihtişamıyla yükselir.\n\nKrems'in kültürel derinliği, 'Sanat Mili' (Kunstmeile Krems) olarak adlandırılan bölgede hayat bulur. Burada yer alan Karikatür Müzesi, Eyalet Galerisi ve eski bir manastırdan dönüştürülen Krems Sanat Salonu, şehri modern sanatın da önemli bir durağı haline getirir. Ancak Krems'in asıl ruhu, toprağında gizlidir. Şehir, dünyanın en kaliteli Riesling ve Grüner Veltliner üzümlerinin yetiştiği bağlarla çevrilidir. 'Winzer Krems' gibi devasa şarap kooperatifleri veya 'Heuriger' adı verilen aile işletmesi şarap evleri, ziyaretçilere bu sıvı altının üretim süreçlerini keşfetme ve en taze örneklerini tatma imkanı sunar. Şehrin hemen bitişiğindeki tarihi Stein bölgesi ise, nehir kıyısındaki eski balıkçı evleri ve Gotik kiliseleriyle adeta zamanın durduğu, daha sakin ve nostaljik bir atmosfer sağlar.\n\nKrems, aynı zamanda eğitim ve yeniliğin de merkezidir; Tuna Üniversitesi gibi kurumlar şehre genç ve dinamik bir enerji katar. Yaz aylarında nehir boyunca düzenlenen konserler, şarap festivalleri ve açık hava etkinlikleri Krems'i bölgenin en canlı destinasyonu yapar. Aktif gezginler için şehirden başlayan bağ yürüyüşleri, üzüm salkımlarının arasından Tuna Vadisi'nin nefes kesen panoramik manzarasını izleme fırsatı sunar. Krems an der Donau'yu ziyaret etmek, bir yandan bin yıllık bir tarihin izlerini sürerken, diğer yandan modern Avusturya yaşam tarzının tadını çıkarmaktır. Burası, her adımda tarihin fısıltılarının duyulduğu, kadehlerde güneşin ışıltısının saklandığı ve nehrin dinginliğinin ruhu tazelediği eşsiz bir vaha gibidir.",
+    "en": "Located at the eastern gateway to the UNESCO World Heritage-listed Wachau Valley in Lower Austria, Krems an der Donau is one of Austria's oldest and most characteristic settlements, boasting over a thousand years of history. Situated on the banks of the Danube at the foot of vineyard-covered slopes, the city has managed to preserve its architectural fabric from the Medieval, Renaissance, and Baroque periods almost in its entirety. Throughout history, Krems has been a major center of trade and viticulture, a wealth reflected in the magnificent churches, noble mansions, and narrow cobblestone streets that grace every corner. The 15th-century Steiner Tor, the city's iconic gate, stands majestically at the entrance to the Old Town (Altstadt), inviting visitors on a journey through time.\n\nThe cultural depth of Krems comes alive in the area known as the 'Art Mile' (Kunstmeile Krems). Home to the Caricature Museum, the State Gallery of Lower Austria, and the Kunsthalle Krems—housed in a converted former monastery—this district establishes the city as a significant hub for contemporary art. Yet, the true soul of Krems lies in its soil. The city is surrounded by vineyards that produce some of the world's finest Riesling and Grüner Veltliner grapes. Large-scale cooperatives like 'Winzer Krems' and family-run wine taverns known as 'Heuriger' offer visitors the chance to discover the production processes of this 'liquid gold' and sample its freshest vintages. The historic district of Stein, directly adjacent to the city center, provides a more serene and nostalgic atmosphere with its old fishermen's houses and Gothic churches along the riverside.\n\nKrems is also a center for education and innovation, with institutions like the Danube University adding a youthful and dynamic energy to the city. During the summer months, riverside concerts, wine festivals, and open-air events turn Krems into the region's most vibrant destination. For active travelers, vineyard hikes starting from the city offer breathtaking panoramic views of the Danube Valley through rows of ripening grapes. Visiting Krems an der Donau means tracing a millennium of history while simultaneously enjoying the modern Austrian lifestyle. It is a unique oasis where the whispers of history are heard with every step, the glow of the sun is hidden in every glass, and the tranquility of the river refreshes the soul."
+  ,
       "de": "Krems an der Donau ist eine historische Stadt im Wachau-Tal. Die Stadt ist bekannt für ihre Weinproduktion und zeichnet sich durch historische Gebäude und Kunstgalerien aus. Besucher können durch die engen Straßen schlendern und die lokalen Weine probieren."
     },
     "activities": {
@@ -155,236 +158,191 @@
       "https://example.com/krems.jpg"
     ]
   },
-  {
-    "slug": "tulln-an-der-donau",
-    "name": {
-      "tr": "Tulln an der Donau",
-      "en": "Tulln an der Donau",
-      "de": "Tulln an der Donau"
-    },
-    "latitude": 48.366,
-    "longitude": 15.587,
-    "description": {
-      "tr": "Tulln an der Donau, Viyana'nın batısında yer alan tarihi bir kasabadır. Egon Schiele Sanat Merkezi ve botanik bahçesi ile ünlüdür. Ziyaretçiler, kasabanın doğal güzelliklerini keşfedebilir ve modern sanat galerilerini gezebilirler.",
-      "en": "Tulln an der Donau is a historic town located west of Vienna. It is known for the Egon Schiele Art Center and its botanical gardens. Visitors can explore the town's natural beauty and visit modern art galleries.",
-      "de": "Tulln an der Donau ist eine historische Stadt westlich von Wien. Sie ist bekannt für das Egon Schiele Art Center und die botanischen Gärten. Besucher können die natürliche Schönheit der Stadt entdecken und moderne Kunstgalerien besuchen."
-    },
-    "activities": {
-      "tr": [
-        "Doğada yürüyüş yapma",
-        "Sanat galerilerini gezme"
-      ],
-      "en": [
-        "Hiking",
-        "Visit art galleries"
-      ],
-      "de": [
-        "Wandern",
-        "Kunstgalerien besuchen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih",
-        "mimari",
-        "kültür"
-      ],
-      "en": [
-        "historic",
-        "architecture",
-        "culture"
-      ],
-      "de": [
-        "historisch",
-        "architektur",
-        "kultur"
-      ]
-    },
-    "images": [
-      "https://example.com/tulln.jpg"
+ {
+  "slug": "tulln-an-der-donau",
+  "name": {
+    "tr": "Tulln an der Donau",
+    "en": "Tulln an der Donau",
+    "de": "Tulln an der Donau"
+  },
+  "latitude": 48.3306,
+  "longitude": 16.0583,
+  "description": {
+    "tr": "Aşağı Avusturya'nın kalbinde, görkemli Tuna Nehri'nin kıyısında yer alan Tulln an der Donau, Roma döneminden günümüze uzanan derin tarihi ve eşsiz bahçe kültürüyle Avusturya'nın en davetkar kasabalarından biridir. 'Güllerin ve Bahçelerin Şehri' olarak anılan Tulln, nehir kıyısı boyunca uzanan muazzam yeşil alanları ve yıl boyu süren çiçek festivalleriyle doğaseverler için gerçek bir cennet niteliğindedir. Kasabanın tarihi kökleri, bir zamanlar Roma İmparatorluğu'nun önemli bir donanma üssü olan 'Comagena' kalesine kadar uzanır; bugün bile şehir merkezindeki Roma Kulesi (Römerturm) bu kadim geçmişin ayakta kalan en güçlü tanığıdır. Ancak Tulln'un modern kimliği, sadece tarihiyle değil, aynı zamanda Avrupa'nın ilk ekolojik bahçe şovu olan 'Die Garten Tulln' ile şekillenmiştir. 70'ten fazla farklı örnek bahçeyi barındıran bu devasa alan, ziyaretçilere doğa dostu bahçeciliğin en yaratıcı örneklerini sunar.\n\nSanat dünyası için Tulln, dışavurumculuk akımının dahi ismi Egon Schiele'nin doğum yeri olmasıyla kutsal bir öneme sahiptir. Sanatçının doğduğu tren istasyonundaki evinden başlayıp, nehir kıyısındaki eski bir hapishaneden dönüştürülen Egon Schiele Müzesi'ne kadar uzanan rota, Schiele'nin fırtınalı hayatına ve çocukluk yıllarına dair derin izler sunar. Müze, sanatçının erken dönem eserlerini ve kişisel belgelerini barındırarak, onun sanatsal gelişimini anlamak isteyenler için eşsiz bir kaynaktır. Nehir kıyısında yer alan 'Nibelungen Anıtı' ise, Orta Çağ'ın ünlü destanı Nibelungenlied'in bir sahnesini canlandıran görkemli bronz heykelleriyle kasabanın mitolojik ve kültürel bağlarını güçlendirir. Bu anıt, Tuna'nın dingin suları önünde kasabanın en çok fotoğraflanan noktalarından biridir.\n\nTulln, aktif yaşam ve su sporları tutkunları için de sayısız imkan sunar. Tuna Bisiklet Yolu'nun en popüler duraklarından biri olan kasaba, bisikletçiler için modern altyapısı ve nehir manzaralı mola noktalarıyla ünlüdür. Şehrin 'Donaulände' adı verilen rıhtım bölgesi, açık hava konserleri, modern sanat enstalasyonları ve şık kafeleriyle sosyal hayatın kalbidir. Yaz aylarında nehirde düzenlenen tekne turları ve kano gezileri, Tulln'u sudan keşfetmek isteyenler için harika bir perspektif sunar. Ayrıca bölgenin taze tarım ürünlerinin sergilendiği yerel pazarlar, kasabanın gastronomik zenginliğini ortaya koyar. Tulln an der Donau'yu ziyaret etmek, bir yandan Roma döneminin taş duvarlarına dokunup bir yandan Schiele'nin aykırı çizgilerinde kaybolmak ve sonunda binlerce gülün kokusu eşliğinde Tuna'nın huzurunda nefes almaktır. Burası, her adımda estetik bir keşfin ve doğal dinginliğin garantisidir.",
+    "en": "Situated on the banks of the majestic Danube River in the heart of Lower Austria, Tulln an der Donau is a captivating destination where Roman history, expressive art, and unparalleled garden culture converge. Known affectionately as the 'City of Roses and Gardens,' Tulln is a verdant sanctuary famous for its expansive floral displays and its status as one of Austria's oldest settlements. Its historical foundations reach back to the Roman Empire when it served as 'Comagena,' a vital naval base. Today, the ancient Roman Tower (Römerturm) still stands in the city center as a powerful testament to this distant past. However, modern Tulln is perhaps most celebrated for 'Die Garten Tulln,' Europe's first purely ecological garden show. This vast site features over 70 distinct model gardens, showcasing the pinnacle of sustainable landscape design and providing a sensory playground for nature enthusiasts and professional gardeners alike.\n\nFor the global art community, Tulln holds immense prestige as the birthplace of the legendary expressionist painter Egon Schiele. The town honors its most famous son through a dedicated 'Schiele Trail' that begins at his birthplace near the train station and leads to the Egon Schiele Museum. Housed in a beautifully converted former prison along the riverside, the museum offers an intimate look at Schiele's early works, personal letters, and sketches, providing profound insight into the childhood and turbulent psyche of this artistic genius. Not far from the museum, the monumental 'Nibelungen Fountain' stands proudly on the Danube promenade. This bronze sculpture depicts a key scene from the medieval epic 'Nibelungenlied,' celebrating the mythological heritage of the region against the backdrop of the flowing river.\n\nTulln is also a premier destination for active travelers and water sports enthusiasts. As a major highlight along the international Danube Cycle Path, the town offers exceptional infrastructure for cyclists, including scenic resting areas and repair stations. The waterfront area, known as 'Donaulände,' serves as the town’s cultural stage, hosting open-air concerts, modern art installations, and vibrant festivals throughout the summer months. Visitors can explore the Danube’s backwaters by canoe or take leisurely river cruises to appreciate the lush landscapes from a different vantage point. The town’s commitment to quality of life is evident in its meticulously maintained public spaces and local markets filled with fresh regional produce. A visit to Tulln an der Donau is an invitation to touch Roman stones, lose oneself in the avant-garde lines of Schiele, and find tranquility amidst thousands of blooming roses. It remains a place where the pulse of history meets the peaceful rhythm of the river, ensuring a refreshing and aesthetically rich experience for every traveler."
+  },
+  "activities": {
+    "tr": [
+      "Die Garten Tulln ekolojik bahçelerini gezme",
+      "Egon Schiele Müzesi'nde modern sanatı keşfetme",
+      "Tuna kıyısındaki Nibelungen Anıtı'nı ziyaret etme",
+      "Roma Kulesi ve tarihi kalıntıları inceleme",
+      "Nehir kenarında bisiklet ve kano turuna çıkma"
+    ],
+    "en": [
+      "Exploring the ecological gardens of Die Garten Tulln",
+      "Discovering modern art at the Egon Schiele Museum",
+      "Visiting the Nibelungen Monument on the waterfront",
+      "Inspecting the Roman Tower and historical ruins",
+      "Cycling or canoeing along the Danube river"
     ]
   },
-  {
-    "slug": "sankt-polten",
-    "name": {
-      "tr": "Sankt Pölten",
-      "en": "Sankt Pölten",
-      "de": "Sankt Pölten"
-    },
-    "latitude": 48.204,
-    "longitude": 15.626,
-    "description": {
-      "tr": "Sankt Pölten, Aşağı Avusturya'nın başkentidir. Şehir, modern ve barok mimarinin birleşiminden oluşur. Şehirdeki önemli yapılar arasında **Sankt Pölten Katedrali** ve **Landhaus** yer alır.",
-      "en": "Sankt Pölten is the capital of Lower Austria. The city is a blend of modern and Baroque architecture. Important landmarks include the **Sankt Pölten Cathedral** and the **Landhaus**.",
-      "de": "Sankt Pölten ist die Hauptstadt von Niederösterreich. Die Stadt ist eine Mischung aus moderner und barocker Architektur. Wichtige Sehenswürdigkeiten sind der **Sankt Pölten Dom** und das **Landhaus**."
-    },
-    "activities": {
-      "tr": [
-        "Şehir turu",
-        "Barok yapıları gezme"
-      ],
-      "en": [
-        "City tour",
-        "Explore Baroque buildings"
-      ],
-      "de": [
-        "Stadtrundfahrt",
-        "Barockgebäude erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/sanktpoelten.jpg"
+  "categories": {
+    "tr": ["doğa", "sanat", "tarih", "şehir turu"],
+    "en": ["nature", "art", "history", "city tour"]
+  },
+  "images": [
+    "https://example.com/tulln_danube_gardens.jpg"
+  ]
+},
+ {
+  "slug": "sankt-polten",
+  "name": {
+    "tr": "Sankt Pölten",
+    "en": "Sankt Pölten",
+    "de": "Sankt Pölten"
+  },
+  "latitude": 48.2044,
+  "longitude": 15.6228,
+  "description": {
+    "tr": "Aşağı Avusturya'nın (Niederösterreich) idari merkezi ve en büyük şehri olan Sankt Pölten, yaklaşık iki bin yıllık geçmişiyle Avusturya'nın en eski şehir yerleşimlerinden biridir. Roma döneminde 'Aelium Cetium' olarak bilinen bu şehir, bugün barok mimarinin incelikli detaylarıyla modernizmın keskin hatlarının birbirine dokunduğu eşsiz bir kentsel dokuya sahiptir. Şehrin tarihi kalbi olan 'Altstadt' (Eski Şehir), barok mimarinin dahi ismi Jakob Prandtauer tarafından şekillendirilmiş görkemli meydanlar ve binalarla doludur. Şehrin en önemli dini yapısı olan Sankt Pölten Katedrali (Dom zu St. Pölten), dışarıdan sade görünse de içine girildiğinde altın varaklı süslemeleri, devasa tavan freskleri ve barok sanatının en ihtişamlı örnekleriyle ziyaretçileri büyüler. Rathausplatz (Belediye Meydanı) ise, pastel renkli binaları ve şehrin simgesi olan Trinity Sütunu ile sosyal hayatın ve festivallerin merkezi konumundadır.\n\nSankt Pölten'i diğer Avusturya şehirlerinden ayıran en çarpıcı özellik, 1990'larda inşa edilen ve 'Landhausviertel' olarak bilinen Hükümet Bölgesi'dir. Burası, fütüristik cam yapıları ve modern sanat enstalasyonlarıyla tamamen modern bir mimari anlayışı yansıtır. Bölgenin en ikonik yapısı, 77 metre yüksekliğindeki 'Klangturm' (Ses Kulesi) adlı gözlem kulesidir; buradan tüm şehrin ve Alplerin öncüsü olan yamaçların panoramik manzarasını izlemek mümkündür. Ayrıca, ödüllü mimarisiyle Festspielhaus (Festival Evi) ve Aşağı Avusturya Müzesi (Museum Niederösterreich), şehri sadece idari bir merkez değil, aynı zamanda çağdaş dansın, müziğin ve doğa bilimlerinin de kalbi haline getirir. Müze, bölgenin tarihini ve biyolojik çeşitliliğini interaktif odalar ve devasa akvaryumlarla sunarak her yaştan ziyaretçi için eğitici bir deneyim sağlar.\n\nŞehir, doğayla olan barışık yapısıyla da dikkat çeker. Traisen Nehri boyunca uzanan parklar ve şehrin hemen dışındaki Viehofner Gölleri, yerel halk ve turistler için yüzme, kano ve piknik gibi aktiviteler sunan doğal bir kaçış noktasıdır. Sankt Pölten, aynı zamanda Avusturya'nın en önemli ulaşım kavşaklarından biridir; Viyana'ya olan yakınlığı sayesinde hem bir ticaret merkezi hem de kültürel bir köprü görevi görür. Şehri ziyaret etmek, bir yanda barok dönemin soylu sessizliğini yaşarken, diğer yanda 'Landhaus'un cam duvarlarında yansıyan geleceği görmektir. Gastronomik olarak ise bölge, meşhur şarapları ve tarım ürünleriyle donatılmış şık restoranlarıyla misafirperverliğini taçlandırır. Sankt Pölten, tarih ve geleceğin, doğa ve sanatın kusursuz bir dengeyle buluştuğu, her köşesinde yeni bir hikaye barındıran yaşayan bir kentsel sanat eseridir.",
+    "en": "Sankt Pölten, the capital and largest city of Lower Austria (Niederösterreich), stands as one of the oldest urban settlements in the country, with a history stretching back nearly two thousand years to the Roman town of 'Aelium Cetium.' Today, it is a city of fascinating contrasts, where the ornate elegance of the Baroque era meets the sleek, visionary lines of contemporary architecture. The historic core, or 'Altstadt,' is a treasure trove of Baroque masterpieces, largely shaped by the legendary architect Jakob Prandtauer. The Sankt Pölten Cathedral (Dom zu St. Pölten) serves as the city’s spiritual anchor; while its exterior appears modest, the interior is a breathtaking explosion of gold leaf, intricate ceiling frescoes, and grand stucco work, representing the zenith of Austrian Baroque art. The nearby Rathausplatz, with its pastel-colored facades and the iconic Trinity Column, remains the vibrant social heart of the city, hosting year-round markets and festivals.\n\nWhat truly distinguishes Sankt Pölten from other Austrian cities is the 'Landhausviertel,' the government district established in the late 1990s. This district is an architectural marvel of glass and steel, embodying a bold, futuristic vision. Its most recognizable landmark is the 'Klangturm' (Sound Tower), a 77-meter-high observation tower that offers a 360-degree panoramic view of the city and the rolling foothills of the Alps. This area is also home to the Festspielhaus, a world-class venue for contemporary dance and music, and the Museum Niederösterreich. The museum is a state-of-the-art facility that explores the region’s history and biodiversity through interactive exhibits and massive aquariums, making it an essential stop for families and science enthusiasts alike. These modern structures have transformed Sankt Pölten into a dynamic hub for the arts and administrative innovation.\n\nThe city is also deeply integrated with nature, offering numerous green spaces and recreational opportunities. The Traisen River flows through the city, flanked by lush parks and cycling paths, while the nearby Viehofner Lakes provide a perfect natural retreat for swimming, canoeing, and birdwatching. As a major transportation hub located between the Danube and the Alps, Sankt Pölten serves as a crucial cultural and economic bridge to Vienna and beyond. Its culinary scene reflects this cosmopolitan reach, blending traditional Lower Austrian farm-to-table cuisine with upscale modern dining experiences. Visiting Sankt Pölten is an invitation to witness the seamless dialogue between the past and the future—from the silent dignity of Baroque cloisters to the shimmering glass walls of the Landhaus reflecting the sky. It is a city that celebrates its ancient roots while courageously embracing the innovations of the 21st century, ensuring an unforgettable experience for every traveler."
+  },
+  "activities": {
+    "tr": [
+      "Barok Katedrali ve kütüphanesini ziyaret etme",
+      "Klangturm kulesinden şehrin panoramik manzarasını izleme",
+      "Landhausviertel bölgesinde modern mimari turu yapma",
+      "Aşağı Avusturya Müzesi'ndeki interaktif sergileri keşfetme",
+      "Viehofner Gölleri kıyısında doğa yürüyüşü ve kano yapma"
+    ],
+    "en": [
+      "Visiting the Baroque Cathedral and its library",
+      "Enjoying panoramic city views from the Klangturm",
+      "Taking an architectural tour of the modern Landhausviertel",
+      "Discovering interactive exhibits at the Museum Niederösterreich",
+      "Hiking and canoeing at the Viehofner Lakes"
     ]
   },
+  "categories": {
+    "tr": ["şehir turu", "mimari", "tarih", "kültür"],
+    "en": ["city tour", "architecture", "history", "culture"]
+  },
+  "images": [
+    "https://example.com/sankt_polten_city_view.jpg"
+  ]
+},
   {
-    "slug": "gumpoldskirchen",
-    "name": {
-      "tr": "Gumpoldskirchen",
-      "en": "Gumpoldskirchen",
-      "de": "Gumpoldskirchen"
-    },
-    "latitude": 48.014,
-    "longitude": 16.37,
-    "description": {
-      "tr": "Gumpoldskirchen, şaraplarıyla ünlü bir köydür. Viyana'ya oldukça yakın olan bu kasaba, **şarap bağları** ve **geleneksel evler** ile dikkat çeker. Ziyaretçiler, bağlarda yürüyüş yapabilir ve yerel şarapları tadabilirler.",
-      "en": "Gumpoldskirchen is a village famous for its wines. Located near Vienna, the town is known for its **vineyards** and **traditional houses**. Visitors can walk through the vineyards and taste local wines.",
-      "de": "Gumpoldskirchen ist ein Dorf, das für seine Weine bekannt ist. Es liegt in der Nähe von Wien und ist bekannt für seine **Weinberge** und **traditionellen Häuser**. Besucher können durch die Weinberge spazieren und lokale Weine probieren."
-    },
-    "activities": {
-      "tr": [
-        "Şarap tadımı yapma",
-        "Bağlarda yürüyüş yapma"
-      ],
-      "en": [
-        "Wine tasting",
-        "Walk through the vineyards"
-      ],
-      "de": [
-        "Weinverkostung",
-        "Durch die Weinberge spazieren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih",
-        "mimari"
-      ],
-      "en": [
-        "history",
-        "architecture"
-      ],
-      "de": [
-        "geschichte",
-        "architektur"
-      ]
-    },
-    "images": [
-      "https://example.com/gumpoldskirchen.jpg"
+  "slug": "gumpoldskirchen",
+  "name": {
+    "tr": "Gumpoldskirchen",
+    "en": "Gumpoldskirchen",
+    "de": "Gumpoldskirchen"
+  },
+  "latitude": 48.0453,
+  "longitude": 16.2792,
+  "description": {
+    "tr": "Viyana'nın sadece 20 kilometre güneyinde, termal bölge (Thermenregion) olarak bilinen bereketli topraklar üzerinde yer alan Gumpoldskirchen, Avusturya'nın en prestijli ve tarihi şarap köylerinden biridir. Orta Çağ'dan kalma taş döşeli sokakları, sardunyalarla süslü pencereleri ve asırlık şarap evleriyle bu kasaba, ziyaretçilerini modern dünyanın hızından koparıp huzurlu bir bağ bozumu masalına davet eder. Gumpoldskirchen'in tarihi, Roma dönemine kadar uzanan bağcılık gelenekleriyle yoğrulmuştur. Kasabanın silüetine hakim olan 'Pfarrkirche St. Michael' kilisesi ve hemen yanındaki Töton Şövalyeleri'ne (Deutscher Orden) ait kale, bölgenin Orta Çağ'daki stratejik ve dini önemini gözler önüne serer. Ancak Gumpoldskirchen'i dünya çapında üne kavuşturan asıl hazinesi, sadece bu mikroklimada yetişen nadir üzüm türlerinden üretilen beyaz şaraplarıdır.\n\nKasabanın en büyük gururu, 'Zierfandler' ve 'Rotgipfler' adlı yerel üzüm çeşitleridir. Dünyanın başka hiçbir yerinde bu kalitede bulunmayan bu üzümler, bölgenin kireçli toprağı ve güneşli yamaçları sayesinde eşsiz bir aroma kazanır. Ziyaretçiler için en unutulmaz deneyim, 'Heuriger' adı verilen geleneksel şarap meyhanelerinde yaşanır. Bir Heuriger kapısında asılı olan çam dalları (Ausg’steckt), o mekanın taze şaraplarını servis etmeye başladığının geleneksel işaretidir. Bu evlerde, aile üretimi şarapların yanında ev yapımı soğuk etler, yerel peynirler ve taze fırın ürünlerinden oluşan zengin açık büfelerin tadı çıkarılabilir. Kasaba meydanındaki tarihi belediye binası (Rathaus) ve Rönesans tarzı konaklar, şarap kadehleri eşliğinde yapılan sohbetlere büyüleyici bir dekor oluşturur.\n\nDoğa tutkunları için Gumpoldskirchen, Anninger Dağı'nın eteklerine doğru uzanan muazzam yürüyüş rotaları sunar. '1. Viyana Su Hattı Yolu' (1. Wiener Hochquellenleitung) boyunca yapılan yürüyüşler, bir yanda sonsuz gibi görünen üzüm bağlarını, diğer yanda ise Viyana Havzası'nın panoramik manzarasını izleme imkanı verir. Bağların arasından geçen bu yollar, her mevsim farklı bir renk paleti sunar; özellikle sonbaharda altın sarısına bönen yapraklar, fotoğraf meraklıları için görsel bir şölene dönüşür. Ayrıca kasaba, her yıl düzenlenen geleneksel şarap festivalleri ve kültür günleriyle, Avusturya'nın yaşayan folklorunu deneyimlemek için mükemmel bir noktadır. Gumpoldskirchen'i ziyaret etmek, bir kadeh şarapta bin yıllık bir tarihi tatmak, doğanın kalbinde derin bir nefes almak ve Avusturya'nın misafirperver ruhunu en samimi haliyle hissetmektir. Burası, her adımda lezzetin ve huzurun fısıldadığı, Viyana'nın hemen yanı başındaki gizli bir cennettir.",
+    "en": "Nestled at the foot of the lush Anninger mountain within the renowned Thermal Region (Thermenregion), just 20 kilometers south of Vienna, Gumpoldskirchen stands as one of Austria's most prestigious and historic wine-growing villages. With its cobblestone alleys, Renaissance-era facades, and centuries-old wine cellars, this picturesque town invites visitors to step back in time and immerse themselves in a culture deeply rooted in the art of viticulture. The history of Gumpoldskirchen is inextricably linked to the vine, dating back to Roman times, but it was during the Middle Ages under the influence of the Teutonic Knights (Deutscher Orden) that the village flourished. The imposing Parish Church of St. Michael and the adjacent castle of the Teutonic Order still dominate the skyline, serving as monumental reminders of the town’s spiritual and historical significance. However, the true global claim to fame for Gumpoldskirchen lies in its liquid gold—world-class white wines produced from indigenous grape varieties.\n\nThe town is legendary for two specific grape varieties that are almost exclusive to this microclimate: Zierfandler (also known as Spätrot) and Rotgipfler. These grapes thrive in the lime-rich soil and sunny slopes, producing wines with exceptional complexity and aging potential. The quintessential Gumpoldskirchen experience is found within a 'Heuriger'—a traditional Austrian wine tavern. Look for the 'Ausg’steckt' sign, often a bunch of pine twigs hung over the doorway, which signals that the winemaker is currently serving their own new wine. Inside these rustic taverns, guests can pair award-winning wines with hearty, homemade regional specialties from abundant cold buffets, including cured meats, local cheeses, and traditional pastries. The historic Rathaus (Town Hall) in the central square, with its ornate arcades, provides a stunning backdrop for these culinary gatherings.\n\nFor those seeking outdoor adventure, Gumpoldskirchen offers an extensive network of hiking trails that wind through the surrounding vineyards and into the Vienna Woods. The famous '1st Vienna Water Heritage Trail' (1. Wiener Hochquellenleitung) is a favorite among hikers and runners, offering flat, scenic paths with panoramic views across the Vienna Basin and the distant Leitha Mountains. During the autumn harvest, the vineyards transform into a sea of gold and crimson, creating a breathtaking landscape for photographers and nature lovers alike. The village also hosts numerous wine festivals throughout the year, where traditional music and folk costumes bring the streets to life. Visiting Gumpoldskirchen is an invitation to taste a millennium of history in a single glass, to breathe in the fresh air of the rolling hills, and to experience the authentic warmth of Austrian hospitality. It remains a hidden gem where the sophisticated elegance of wine culture meets the rustic charm of village life, offering a perfect escape from the bustle of the capital."
+  },
+  "activities": {
+    "tr": [
+      "Geleneksel bir Heuriger'de yerel Zierfandler ve Rotgipfler şaraplarını tatma",
+      "Üzüm bağları arasından geçen panoramik yürüyüş rotalarını keşfetme",
+      "Töton Şövalyeleri Kalesi'ni ve tarihi meydanı gezme",
+      "Bağ bozumu festivallerine katılarak yerel kültürü deneyimleme",
+      "Tarihi şarap mahzenlerinde rehberli turlara katılma"
+    ],
+    "en": [
+      "Tasting local Zierfandler and Rotgipfler wines at a traditional Heuriger",
+      "Exploring panoramic hiking trails through the rolling vineyards",
+      "Visiting the Castle of the Teutonic Order and the historic square",
+      "Experiencing local culture at annual wine harvest festivals",
+      "Joining guided tours of historic underground wine cellars"
     ]
   },
-  {
-    "slug": "lilienfeld-manastiri",
-    "name": {
-      "tr": "Lilienfeld Manastırı",
-      "en": "Lilienfeld Abbey",
-      "de": "Stift Lilienfeld"
-    },
-    "latitude": 48.026,
-    "longitude": 15.613,
-    "description": {
-      "tr": "Lilienfeld Manastırı, Aşağı Avusturya'nın en eski manastırlarından biridir ve gotik mimarisiyle dikkat çeker. Ziyaretçiler, manastırın tarihi alanlarını gezebilir ve dinlenmek için manastır bahçesinde vakit geçirebilirler.",
-      "en": "Lilienfeld Abbey is one of the oldest monasteries in Lower Austria and is notable for its Gothic architecture. Visitors can tour the historic areas of the abbey and relax in its garden.",
-      "de": "Das Stift Lilienfeld ist eines der ältesten Klöster in Niederösterreich und bekannt für seine gotische Architektur. Besucher können die historischen Bereiche des Klosters besichtigen und im Garten entspannen."
-    },
-    "activities": {
-      "tr": [
-        "Manastırı gezme",
-        "Bahçede dinlenme"
-      ],
-      "en": [
-        "Tour the abbey",
-        "Relax in the garden"
-      ],
-      "de": [
-        "Das Kloster besichtigen",
-        "Im Garten entspannen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih",
-        "mimari"
-      ],
-      "en": [
-        "history",
-        "architecture"
-      ],
-      "de": [
-        "geschichte",
-        "architektur"
-      ]
-    },
-    "images": [
-      "https://example.com/lilienfeld.jpg"
+  "categories": {
+    "tr": ["gastronomi", "doğa", "tarih", "köy turu"],
+    "en": ["gastronomy", "nature", "history", "village tour"]
+  },
+  "images": [
+    "https://example.com/gumpoldskirchen_vineyards.jpg"
+  ]
+},
+ {
+  "slug": "lilienfeld-manastiri",
+  "name": {
+    "tr": "Lilienfeld Manastırı",
+    "en": "Lilienfeld Abbey",
+    "de": "Stift Lilienfeld"
+  },
+  "latitude": 48.0131,
+  "longitude": 15.5969,
+  "description": {
+    "tr": "Aşağı Avusturya'nın dağlık ve ormanlık Traisental bölgesinde yer alan Lilienfeld Manastırı, 1202 yılında Avusturya Dükü VI. Leopold tarafından kurulmuş bir Sistersiyen manastırıdır. Orta Avrupa'nın en büyük manastır komplekslerinden biri olma özelliğini taşıyan bu yapı, Gotik ve Barok mimarinin büyüleyici bir sentezini sunar. Manastırın en çarpıcı bölümü, Avusturya'nın en büyük kiliselerinden biri olan manastır bazilikasıdır. 13. yüzyıldan kalma bu devasa yapı, sade ama heybetli Gotik hatlarıyla Sistersiyen tarikatının estetik anlayışını yansıtırken, iç mekandaki Barok dokunuşlar ve muazzam sunak bölümleriyle ziyaretçileri büyüleyici bir atmosferin içine çeker. Ayrıca manastırın kurucusu VI. Leopold'un mezarı da burada bulunmakta olup, burayı Avusturya'nın tarihi ve hanedan mirası açısından kritik bir nokta haline getirir.\n\nLilienfeld'in kültürel hazineleri arasında, yaklaşık 40.000 ciltlik paha biçilmez eser ve nadir el yazmalarına ev sahipliği yapan görkemli kütüphanesi yer alır. Bu kütüphane, Orta Çağ'ın entelektüel derinliğini günümüze taşıyan canlı bir hafıza gibidir. Manastırın 'Cloister' (Revaklı avlu) bölümü ise, taş işçiliğindeki zarafeti ve huzurlu sessizliğiyle Avrupa'nın en iyi korunmuş Orta Çağ mimari örneklerinden biri kabul edilir. Buradaki 'Cellarium' (Kiler) ve yemekhane bölümleri, rahiplerin yüzyıllar boyu süren disiplinli yaşamına dair otantik bir bakış sunar. Manastırın çevresindeki geniş park ve bahçeler, egzotik bitki türleri ve asırlık ağaçlarıyla sadece bir dinlenme alanı değil, aynı zamanda bir botanik mirasıdır. Bahar aylarında çiçek açan manastır bahçeleri, yapının taş duvarlarına yumuşak ve renkli bir tezat oluşturur.\n\nManastır aynı zamanda modern kayak sporunun öncüsü sayılan Mathias Zdarsky ile de anılır; zira Zdarsky ilk kayak eğitimlerini ve yarışlarını manastırın hemen arkasındaki Muckenkogel dağında gerçekleştirmiştir. Bu durum Lilienfeld'i hem bir inanç merkezi hem de spor tarihi için önemli bir durak yapar. Ziyaretçiler, manastırın mistik koridorlarında tarih öncesine yolculuk yaptıktan sonra, çevredeki doğa yürüyüşü parkurlarında Alplerin temiz havasını soluyabilirler. Lilienfeld Manastırı'nı ziyaret etmek, bin yıllık bir ruhani geleneğin izlerini sürmek, mermer ve taşın sanatla buluştuğu koridorlarda kaybolmak ve doğanın kucağında tarihin dinginliğini hissetmektir. Burası, Avusturya'nın geçmişinden gelen asaletle doğanın sunduğu huzurun mükemmel bir birleşimidir.",
+    "en": "Deeply embedded in the forested Traisental region of Lower Austria, Lilienfeld Abbey (Stift Lilienfeld) is a premier Cistercian monastery founded in 1202 by Duke Leopold VI of Austria. As one of the largest monastic complexes in Central Europe, it stands as a monumental fusion of Gothic and Baroque architecture, reflecting centuries of spiritual and cultural prominence. The architectural heart of the abbey is its grand basilica, which remains one of the largest churches in Austria. This 13th-century structure is celebrated for its transition from Romanesque to Gothic style, featuring a vast interior that blends the austere simplicity of Cistercian tradition with opulent Baroque altars and ornate carvings. The abbey also serves as the final resting place of its founder, Duke Leopold VI, marking it as a site of immense dynastic and national importance for Austria.\n\nThe intellectual treasures of Lilienfeld are housed within its magnificent library, a sanctuary of knowledge containing over 40,000 volumes, including priceless medieval manuscripts and incunabula. The library’s stunning ceiling frescoes and historic shelves create an atmosphere of profound academic reverence. Another highlight is the exceptionally well-preserved medieval cloister, a masterpiece of stonework that provides access to the chapter house and the monks' refectory. These silent, arched walkways offer visitors a rare glimpse into the disciplined daily lives of the monks who have inhabited these walls for over 800 years. The abbey’s expansive park, often referred to as a botanical gem, features rare tree species and meticulously manicured lawns that offer a peaceful retreat against the backdrop of the rolling Alpine foothills.\n\nLilienfeld is also uniquely connected to the history of sports through Mathias Zdarsky, the pioneer of modern Alpine skiing, who developed his techniques and held the first-ever slalom race on the Muckenkogel slopes right behind the monastery. This dual identity as a center of faith and a landmark of sports history makes Lilienfeld a diverse destination for all types of travelers. Visitors can spend their day exploring the mystical corridors of the abbey before heading out to the surrounding hiking trails that lead deep into the mountains. A visit to Lilienfeld Abbey is an invitation to witness the enduring legacy of a spiritual fortress, where history is etched into every stone and the tranquility of the surroundings invites deep contemplation. It remains a timeless sanctuary where the grandeur of the Austrian past meets the pristine beauty of the natural world, ensuring an enriching experience for the body, mind, and soul."
+  },
+  "activities": {
+    "tr": [
+      "Avusturya'nın en büyük bazilikalarından birini keşfetme",
+      "Orta Çağ'dan kalma revaklı avluda (Cloister) yürüyüş yapma",
+      "40.000 ciltlik tarihi kütüphaneyi ziyaret etme",
+      "Manastır parkında botanik bir keşfe çıkma",
+      "Muckenkogel Dağı'na çıkarak kayak tarihinin doğduğu yeri görme"
+    ],
+    "en": [
+      "Exploring one of the largest basilicas in Austria",
+      "Walking through the exceptionally preserved medieval cloister",
+      "Visiting the historic library with 40,000 volumes",
+      "Taking a botanical discovery walk in the Abbey Park",
+      "Visiting Muckenkogel Mountain to see the birthplace of alpine skiing"
     ]
   },
-  {
-    "slug": "burg-kreuzenstein",
-    "name": {
-      "tr": "Burg Kreuzenstein",
-      "en": "Kreuzenstein Castle",
-      "de": "Burg Kreuzenstein"
-    },
-    "latitude": 48.287,
-    "longitude": 16.292,
-    "description": {
-      "tr": "Burg Kreuzenstein, Aşağı Avusturya'da yer alan ortaçağdan kalma bir kaledir. Ziyaretçiler, kaleyi gezebilir, tarihi koleksiyonları inceleyebilir ve kalenin muazzam manzarasının keyfini çıkarabilirler.",
-      "en": "Burg Kreuzenstein is a medieval castle located in Lower Austria. Visitors can tour the castle, explore its historical collections, and enjoy stunning views from the castle.",
-      "de": "Die Burg Kreuzenstein ist eine mittelalterliche Burg in Niederösterreich. Besucher können die Burg besichtigen, ihre historischen Sammlungen erkunden und die atemberaubende Aussicht genießen."
-    },
-    "activities": {
-      "tr": [
-        "Kale gezisi yapma",
-        "Tarihi koleksiyonları keşfetme"
-      ],
-      "en": [
-        "Castle tour",
-        "Explore historical collections"
-      ],
-      "de": [
-        "Burgbesichtigung",
-        "Historische Sammlungen erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih",
-        "mimari"
-      ],
-      "en": [
-        "history",
-        "architecture"
-      ],
-      "de": [
-        "geschichte",
-        "architektur"
-      ]
-    },
-    "images": [
-      "https://example.com/burg_kreuzenstein.jpg"
+  "categories": {
+    "tr": ["tarih", "mimari", "kültür", "doğa"],
+    "en": ["history", "architecture", "culture", "nature"]
+  },
+  "images": [
+    "https://example.com/lilienfeld_abbey_aerial.jpg"
+  ]
+},
+ {
+  "slug": "burg-kreuzenstein",
+  "name": {
+    "tr": "Burg Kreuzenstein",
+    "en": "Kreuzenstein Castle",
+    "de": "Burg Kreuzenstein"
+  },
+  "latitude": 48.3792,
+  "longitude": 16.3069,
+  "description": {
+    "tr": "Viyana'nın hemen kuzeyinde, Leobendorf kasabasının üzerinde heybetle yükselen Burg Kreuzenstein, ziyaretçilerini bir anda şövalyelerin, zırhlı odaların ve efsanelerin dünyasına taşıyan büyüleyici bir Orta Çağ kalesidir. Kalenin kökleri 12. yüzyıla kadar uzansa da, bugün görülen ihtişamlı yapı aslında 19. yüzyılda Kont Johann Nepomuk Wilczek tarafından 'hayalindeki Orta Çağ kalesi' olarak yeniden inşa edilmiştir. Otuz Yıl Savaşları sırasında yıkılan orijinal kalenin kalıntıları üzerine kurulan Kreuzenstein, Avrupa'nın dört bir yanından getirilen orijinal Orta Çağ mimari parçalarının bir araya getirilmesiyle oluşturulmuştur. Bu özelliğiyle kale, sadece bir yapı değil, aynı zamanda Avrupa'nın en büyük ve en değerli Orta Çağ koleksiyonlarından birini barındıran devasa bir açık hava müzesidir.\n\nKalenin içine girdiğinizde, kendinizi zamanın durduğu bir sahnede bulursunuz. Kalenin cephaneliği, Avrupa'nın en zengin özel koleksiyonlarından biri olup, nadir zırhlar, kılıçlar ve Orta Çağ savaş aletleriyle doludur. Şövalye Salonu (Rittersaal), ahşap tavan işlemeleri ve tarihi dokusuyla o dönemin soylu yaşamını tüm ihtişamıyla yansıtır. Kalenin mutfak bölümü ise, o dönemin yemek kültürünü ve devasa ocaklarını görebileceğiniz nadir alanlardan biridir. Ancak Kreuzenstein'ı diğer kalelerden ayıran en önemli farklardan biri, atmosferinin o kadar otantik ve masalsı olmasıdır ki; 'The Witcher', 'The Three Musketeers' ve 'Season of the Witch' gibi pek çok ünlü Hollywood yapımına ev sahipliği yapmıştır. Kalenin her köşesi, film setlerini aratmayan sanatsal bir detayla işlenmiştir.\n\nKalenin bir diğer cazibe merkezi ise hemen yanındaki 'Adlerwarte Kreuzenstein' adı verilen yırtıcı kuş gösteri merkezidir. Burada kartallar, şahinler ve baykuşlar gibi görkemli kuşların eğitmenler eşliğinde sunduğu serbest uçuş gösterileri, özellikle aileler için unutulmaz bir deneyim sunar. Kale tepesinden görülen manzara ise, Tuna Nehri'nin kıvrımlarından Viyana Ormanları'na kadar uzanan panoramik bir görsel şölen niteliğindedir. Burg Kreuzenstein'ı ziyaret etmek, sadece tarihi bir yapıyı görmek değil, bir kontun vizyoner hayalinde hayat bulan Orta Çağ dünyasını bizzat tecrübe etmektir. Burası, her adımda tarihin fısıltılarını duyabileceğiniz, taşın ve sanatın efsanelerle birleştiği, Avusturya'nın en karizmatik ve etkileyici kalelerinden biridir.",
+    "en": "Perched majestically on a hill overlooking the town of Leobendorf, just north of Vienna, Burg Kreuzenstein is a breathtaking medieval fortress that transports its visitors instantly into a world of knights, armored halls, and ancient legends. While the castle's roots trace back to the 12th century, the magnificent structure seen today was reconstructed in the late 19th century by Count Johann Nepomuk Wilczek as his vision of the 'ideal medieval castle.' Built upon the ruins of the original fortress destroyed during the Thirty Years' War, Kreuzenstein was uniquely crafted using original architectural fragments brought from all over Europe. This makes the castle more than just a building; it is a massive open-air museum housing one of the largest and most valuable private collections of medieval artifacts on the continent.\n\nStepping inside the castle is like walking onto a stage where time has stood still. The armory is a particular highlight, featuring one of Europe's richest private collections of rare armor, swords, and medieval weaponry. The Knight’s Hall (Rittersaal), with its intricate wooden ceilings and historical tapestries, perfectly reflects the noble lifestyle of the era. The castle’s kitchen is another rare gem, where visitors can witness the culinary traditions of the past with its massive hearths and antique utensils. What truly distinguishes Kreuzenstein, however, is its cinematic authenticity. Its fairy-tale atmosphere is so convincing that it has served as a filming location for numerous Hollywood productions, including 'The Witcher,' 'The Three Musketeers,' and 'Season of the Witch.' Every corner of the fortress is meticulously designed to create a sense of historical drama.\n\nAnother major attraction adjacent to the castle is the 'Adlerwarte Kreuzenstein,' a bird of prey center. Here, visitors can witness spectacular free-flight demonstrations by eagles, falcons, and owls, providing an unforgettable experience especially for families. From its vantage point on the hill, the castle also offers a stunning panoramic view that stretches from the curves of the Danube River to the distant Vienna Woods. A visit to Burg Kreuzenstein is not merely a historical excursion; it is an invitation to step into a count's visionary dream and experience the Middle Ages firsthand. It remains one of Austria's most charismatic and influential castles, where stone and art merge with legend to create an unforgettable encounter with the past."
+  },
+  "activities": {
+    "tr": [
+      "Kalenin muazzam cephaneliğini ve zırh koleksiyonunu inceleme",
+      "Hollywood filmlerinin çekildiği ikonik avluları gezme",
+      "Yırtıcı kuş gösterisini (Adlerwarte) izleme",
+      "Kale burçlarından panoramik manzaranın tadını çıkarma",
+      "Tarihi kale mutfağını ve Şövalye Salonu'nu ziyaret etme"
+    ],
+    "en": [
+      "Exploring the castle's vast armory and armor collection",
+      "Strolling through iconic courtyards used in Hollywood films",
+      "Watching the birds of prey show (Adlerwarte)",
+      "Enjoying panoramic views from the castle ramparts",
+      "Visiting the historic castle kitchen and the Knight’s Hall"
     ]
   },
+  "categories": {
+    "tr": ["tarih", "mimari", "kültür", "aile"],
+    "en": ["history", "architecture", "culture", "family"]
+  },
+  "images": [
+    "https://example.com/burg_kreuzenstein_aerial.jpg"
+  ]
+},
   {
     "slug": "semmering-gecidi-ve-kayak-merkezi",
     "name": {
@@ -392,27 +350,28 @@
       "en": "Semmering Pass and Ski Resort",
       "de": "Semmeringpass und Ski Resort"
     },
-    "latitude": 47.65,
-    "longitude": 15.947,
-    "description": {
-      "tr": "Semmering Geçidi, Avusturya Alpleri'nde yer alan tarihi bir dağ geçididir. Kışın kayak yapma imkanı sunan bölge, yazın ise doğa yürüyüşleri için tercih edilmektedir.",
-      "en": "Semmering Pass is a historic mountain pass in the Austrian Alps. The area offers skiing in winter and hiking in summer.",
-      "de": "Der Semmeringpass ist ein historischer Gebirgspass in den österreichischen Alpen. Das Gebiet bietet im Winter Skifahren und im Sommer Wandern."
-    },
-    "activities": {
-      "tr": [
-        "Kayak yapma",
-        "Doğada yürüyüş yapma"
-      ],
-      "en": [
-        "Skiing",
-        "Hiking"
-      ],
-      "de": [
-        "Skifahren",
-        "Wandern"
-      ]
-    },
+   "latitude": 47.6417,
+  "longitude": 15.8306,
+  "description": {
+    "tr": "Aşağı Avusturya ve Steiermark eyaletlerini birbirine bağlayan Semmering Geçidi, deniz seviyesinden 984 metre yükseklikte yer alan ve Avrupa ulaşım tarihinin en önemli dönüm noktalarından biri kabul edilen bir doğa harikasıdır. Alp Dağları'nın doğu ucunda konumlanan bu geçit, 19. yüzyılın ortalarından itibaren Viyana aristokrasisinin ve entelektüel kesiminin en gözde dinlenme mekanı haline gelmiştir. Bölgenin asıl ünü, 1848-1854 yılları arasında inşa edilen ve UNESCO Dünya Mirası Listesi'nde yer alan Semmering Demiryolu'ndan gelir. Carl von Ghega tarafından tasarlanan bu demiryolu, dünyanın ilk standart hatlı dağ demiryolu olup; tünelleri, viyadükleri ve dik yokuşlarıyla döneminin mühendislik sınırlarını zorlamıştır. Trenle bu geçidi aşmak, yolculara sarp kayalıklar arasından süzülen panoramik manzaralar sunan büyüleyici bir seyahat deneyimidir.\n\nSemmering, kış aylarında tam teşekküllü bir spor merkezine dönüşür. Viyana'ya olan yakınlığı sayesinde 'Viyana'nın kayak pisti' olarak anılan bölge, Hirschenkogel dağındaki modern tesisleriyle her seviyeden kayakçıya hitap eder. Özellikle gece kayak imkanı sunan ışıklandırılmış pistleri, dünya çapında bir üne sahiptir ve birçok kez Dünya Kayak Kupası yarışlarına ev sahipliği yapmıştır. Yaz aylarında ise karın yerini yemyeşil alp çayırları ve tertemiz bir hava alır. Doğa yürüyüşü (hiking) tutkunları için bölge, demiryolunun ikonik viyadüklerini en iyi açıdan gören 'Bahnwanderweg' gibi tematik rotalar sunar. Ayrıca bölgenin dik yamaçları, adrenalin tutkunu dağ bisikletçileri için tasarlanmış profesyonel bir 'Bikepark' alanına ev sahipliği yapar.\n\nGeçit çevresindeki mimari yapı, 'Semmering Mimarisi' olarak bilinen kendine has bir tarza sahiptir. Bir zamanlar Sigmund Freud, Stefan Zweig ve Arthur Schnitzler gibi isimlerin konakladığı görkemli tarihi oteller ve villalar, bölgeye nostaljik ve asil bir hava katar. Bu tarihi yapılar, ormanların arasında adeta gizlenmiş mücevherler gibi durarak ziyaretçileri Belle Époque dönemine geri götürür. Semmering'i ziyaret etmek, sadece bir spor tatili yapmak değil; aynı zamanda insan azminin doğayı nasıl sanatsal bir incelikle fethettiğine şahitlik etmek ve Alplerin huzur veren sessizliğinde tarihle iç içe bir mola vermektir. Burası, her mevsimde değişen renk paletiyle doğanın cömertliğini, mühendislik harikalarıyla da insan zekasını kutlayan Avusturya'nın en karizmatik duraklarından biridir.",
+    "en": "Connecting the provinces of Lower Austria and Styria at an elevation of 984 meters above sea level, the Semmering Pass is a majestic Alpine gateway that represents one of the most significant milestones in European transportation history. Positioned at the eastern edge of the Alps, this pass became a prestigious retreat for the Viennese aristocracy and intellectual elite during the 19th century. Its global fame is inextricably linked to the Semmering Railway, a UNESCO World Heritage site constructed between 1848 and 1854. Designed by Carl von Ghega, it was the world’s first standard-gauge mountain railway, an engineering feat that pushed the boundaries of the era with its complex network of tunnels, stone viaducts, and steep inclines. Traveling through the pass by train remains a legendary experience, offering passengers panoramic views of rugged cliffs and deep valleys.\n\nIn winter, Semmering transforms into a premier sports destination. Frequently referred to as 'Vienna’s local mountain' due to its proximity to the capital, the area features modern skiing facilities on the Hirschenkogel mountain, catering to all skill levels. Its floodlit slopes for night skiing are world-renowned and have regularly hosted the Alpine Ski World Cup, drawing professional athletes and fans from across the globe. As the snow melts, the winter landscape gives way to lush emerald Alpine meadows and crisp mountain air. For hiking enthusiasts, the region offers thematic trails such as the 'Bahnwanderweg,' which provides the best vantage points for photographing the railway's iconic viaducts. Additionally, the steep terrain serves as a haven for adrenaline seekers, featuring a professional mountain bike park with challenging downhill tracks.\n\nThe architectural landscape surrounding the pass is characterized by the distinct 'Semmering Architecture,' a style that emerged during the height of the Austro-Hungarian Empire. Grand historic hotels and villas, where famous figures like Sigmund Freud, Stefan Zweig, and Arthur Schnitzler once sought inspiration, add an aura of noble nostalgia to the region. These structures, nestled within dense forests, transport visitors back to the Belle Époque era. Visiting the Semmering Pass is more than just a seasonal getaway; it is an invitation to witness how human perseverance successfully tamed nature with artistic elegance and to find tranquility amidst history in the silence of the Alps. Whether viewed through the window of a historic train or explored on foot, Semmering remains one of Austria's most charismatic landmarks, celebrating both the genius of human engineering and the pristine beauty of the mountains."
+  },
+  "activities": {
+    "tr": [
+      "UNESCO tescilli Semmering Demiryolu ile tren yolculuğu yapma",
+      "Işıklandırılmış pistlerde gece kayağı deneyimi yaşama",
+      "Demiryolu viyadüklerini gören tematik doğa yürüyüşü rotalarını keşfetme",
+      "Hirschenkogel'deki profesyonel Bikepark'ta dağ bisikleti sürme",
+      "Tarihi Belle Époque dönemi otellerini ve villalarını fotoğraflama"
+    ],
+    "en": [
+      "Traveling on the UNESCO-listed Semmering Railway",
+      "Experiencing night skiing on floodlit Alpine slopes",
+      "Hiking thematic trails with views of the iconic railway viaducts",
+      "Mountain biking in the professional bike park at Hirschenkogel",
+      "Photographing historic Belle Époque hotels and grand villas"
+    ]
+  },
     "categories": {
       "tr": [
         "doğa",

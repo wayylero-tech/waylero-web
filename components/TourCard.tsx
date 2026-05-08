@@ -6,18 +6,17 @@ export default function TourCard({
   duration,
   features,
   city,
-  lang, // 👈 EKLENDİ
+  lang,
 }: any) {
-
   const activeLang = lang === "en" ? "en" : "tr";
 
   const t = {
     tr: {
-      reserve: "Fiyat bilgisi ve turları incelemek için tıkla",
+      reserve: "İncele ve Rezervasyon Yap",
       durationLabel: "Süre:",
     },
     en: {
-      reserve: "Click to view prices and tours",
+      reserve: "View and Book Now",
       durationLabel: "Duration:",
     },
   }[activeLang];
@@ -27,39 +26,44 @@ export default function TourCard({
     return field[activeLang] || field["tr"] || field;
   };
 
-  const safeImageUrl = imageUrl?.startsWith("/")
-    ? imageUrl
-    : `/${imageUrl}`;
+  const safeImageUrl = imageUrl?.startsWith("/") ? imageUrl : `/${imageUrl}`;
 
   return (
-    <div className="group relative flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden h-[560px] hover:shadow-2xl transition-all duration-500 hover:border-blue-500">
-
-      {/* IMAGE */}
-      <div className="relative w-full h-80 bg-gray-200 overflow-hidden">
+    <div className="group relative flex flex-col bg-white border border-gray-100 rounded-3xl overflow-hidden h-full min-h-[540px] hover:shadow-2xl transition-all duration-500 hover:border-orange-500">
+      
+      {/* IMAGE SECTION */}
+      <a 
+        href={link} 
+        target="_blank" 
+        rel="nofollow noopener noreferrer" 
+        className="relative w-full h-64 bg-gray-200 overflow-hidden block"
+      >
         <img
           src={safeImageUrl}
           alt={getLabel(title)}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
         />
-
         {tag && (
-          <div className="absolute top-4 left-4 bg-red-600 text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg z-10">
+          <div className="absolute top-4 left-4 bg-orange-600 text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg z-10">
             {getLabel(tag)}
           </div>
         )}
-      </div>
+      </a>
 
-      {/* CONTENT */}
-      <div className="p-6 flex flex-col flex-grow">
-
-        <h3>{getLabel(title)}</h3>
-
-        <div className="text-blue-600">
+      {/* CONTENT SECTION */}
+      <div className="p-5 flex flex-col flex-grow">
+        <div className="text-orange-600 text-xs font-bold uppercase tracking-wider mb-2">
           {getLabel(city)}
         </div>
 
-        <div className="text-gray-500">
-          <span className="font-bold text-gray-700">
+        <h3 className="text-lg font-bold text-gray-900 leading-snug mb-3 group-hover:text-orange-600 transition-colors">
+          <a href={link} target="_blank" rel="nofollow noopener noreferrer">
+            {getLabel(title)}
+          </a>
+        </h3>
+
+        <div className="text-sm text-gray-500 mb-6">
+          <span className="font-semibold text-gray-700">
             {t.durationLabel}
           </span>{" "}
           {getLabel(duration)}{" "}
@@ -68,10 +72,17 @@ export default function TourCard({
             : ""}
         </div>
 
-        <a href={link} target="_blank">
-          {t.reserve}
-        </a>
-
+        {/* CTA BUTTON */}
+        <div className="mt-auto pt-4">
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="nofollow noopener noreferrer"
+            className="block w-full py-3.5 bg-orange-600 hover:bg-orange-700 text-white text-center text-sm font-bold rounded-2xl transition-all shadow-md hover:shadow-lg active:scale-95"
+          >
+            {t.reserve}
+          </a>
+        </div>
       </div>
     </div>
   );
