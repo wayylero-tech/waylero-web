@@ -41,7 +41,7 @@ export default function HotelCard({
   const cardTitle =
     title || (isTR ? `${formattedCity} Otelleri` : `${formattedCity} Hotels`);
 
-  const cityImage = image || `/assets/sehir/${city.toLowerCase()}.webp`;
+  const cityImage = image || `/assets/sehir1/${city.toLowerCase()}.webp`;
 
   // 🔥 Şehir bazlı CTA metni
   const ctaText = (() => {

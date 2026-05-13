@@ -13,18 +13,18 @@ export default function TourGrid({ lang = "tr" }: any) {
   }[activeLang];
 
  const tours = [
-  { city: "İstanbul", link: "https://getyourguide.tp.st/nTBcXECr", imageUrl: "/assets/ehir/istanbul.webp", title: "İstanbul Turları" },
-  { city: "Nevşehir", link: "https://getyourguide.tp.st/jf5oS4u4", imageUrl: "/assets/sehir/nevsehir.webp", title: "Kapadokya Turları" },
-  { city: "Antalya", link: "https://getyourguide.tp.st/hwXRhIEO", imageUrl: "/assets/sehir/antalya.webp", title: "Antalya Turları" },
-  { city: "İzmir", link: "https://getyourguide.tp.st/Zcv1aMld", imageUrl: "/assets/sehir/izmir.webp", title: "İzmir Turları" },
-  { city: "Muğla", link: "https://getyourguide.tp.st/lzZDpwcu", imageUrl: "/assets/sehir/mugla.webp", title: "Muğla Turları" },
-  { city: "Aydın", link: "https://getyourguide.tp.st/hkZDFUO7", imageUrl: "/assets/sehir/aydin.webp", title: "Aydın Turları" },
-  { city: "Trabzon", link: "https://getyourguide.tp.st/fSiK9Sbq", imageUrl: "/assets/sehir/trabzon.webp", title: "Trabzon Turları" },
-  { city: "Viyana", link: "https://getyourguide.tp.st/Y1byIa5k", imageUrl: "/assets/sehir/viyana.webp", title: "Viyana Turları" },
-  { city: "Roma", link: "https://getyourguide.tp.st/VfYfG5ft", imageUrl: "/assets/sehir/roma.webp", title: "Roma Turları" },
-  { city: "Paris", link: "https://getyourguide.tp.st/bGcMEFlD", imageUrl: "/assets/sehir/paris.webp", title: "Paris Turları" },
-  { city: "Dubai", link: "https://getyourguide.tp.st/ZkaT4ETm", imageUrl: "/assets/sehir/dubai.webp", title: "Dubai Turları" },
-  { city: "Bangkok", link: "https://getyourguide.tp.st/rCKN04Sa", imageUrl: "/assets/sehir/bangkok.webp", title: "Bangkok Turları" },
+  { city: "İstanbul", link: "https://getyourguide.tp.st/nTBcXECr", imageUrl: "/assets/sehir1/istanbul.webp", title: "İstanbul Turları" },
+  { city: "Nevşehir", link: "https://getyourguide.tp.st/jf5oS4u4", imageUrl: "/assets/sehir1/nevsehir.webp", title: "Kapadokya Turları" },
+  { city: "Antalya", link: "https://getyourguide.tp.st/hwXRhIEO", imageUrl: "/assets/sehir1/antalya.webp", title: "Antalya Turları" },
+  { city: "İzmir", link: "https://getyourguide.tp.st/Zcv1aMld", imageUrl: "/assets/sehir1/izmir.webp", title: "İzmir Turları" },
+  { city: "Muğla", link: "https://getyourguide.tp.st/lzZDpwcu", imageUrl: "/assets/sehir1/mugla.webp", title: "Muğla Turları" },
+  { city: "Aydın", link: "https://getyourguide.tp.st/hkZDFUO7", imageUrl: "/assets/sehir1/aydin.webp", title: "Aydın Turları" },
+  { city: "Trabzon", link: "https://getyourguide.tp.st/fSiK9Sbq", imageUrl: "/assets/sehir1/trabzon.webp", title: "Trabzon Turları" },
+  { city: "Viyana", link: "https://getyourguide.tp.st/Y1byIa5k", imageUrl: "/assets/sehir1/viyana.webp", title: "Viyana Turları" },
+  { city: "Roma", link: "https://getyourguide.tp.st/VfYfG5ft", imageUrl: "/assets/sehir1/roma.webp", title: "Roma Turları" },
+  { city: "Paris", link: "https://getyourguide.tp.st/bGcMEFlD", imageUrl: "/assets/sehir1/paris.webp", title: "Paris Turları" },
+  { city: "Dubai", link: "https://getyourguide.tp.st/ZkaT4ETm", imageUrl: "/assets/sehir1/dubai.webp", title: "Dubai Turları" },
+  { city: "Bangkok", link: "https://getyourguide.tp.st/rCKN04Sa", imageUrl: "/assets/sehir1/bangkok.webp", title: "Bangkok Turları" },
 ];
 
   return (
