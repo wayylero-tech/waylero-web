@@ -1,57 +1,53 @@
 [
-  {
-    "slug": "bedre-plaji",
+{
+    "slug": "egirdir-golu",
     "name": {
-      "tr": "Bedre Plajı",
-      "en": "Bedre Beach",
-      "de": "Bedre Strand"
+      "tr": "Eğirdir Gölü",
+      "en": "Lake Eğirdir",
+      "de": "Eğirdir See"
     },
-    "latitude": 37.925694059703446,
-    "longitude": 30.78546031657635,
+    "latitude": 37.87679,
+    "longitude": 30.85291,
     "description": {
-      "tr": "Bedre Plajı, Isparta'nın Eğirdir ilçesine 10 km uzaklıkta, Beydere mevkiinde yer alan, 2016 yılında hizmete açılmış geniş kapsamlı bir plajdır. 160.000 m² alana ve 1.500 metrelik kum sahile sahip olan plaj, aynı anda 5.000 kişiye hizmet verebilmektedir. Tesis bünyesinde ücretsiz otopark, kafe, büfe, mescit, duş, tuvalet, giyinme kabinleri, cankurtaran kuleleri, mangal alanları, çadır ve karavan alanları, 3 kaydıraklı aquapark, şişme su kaydırağı ve deniz traktörleri gibi olanaklar bulunmaktadır. Sığ ve temiz suyu, geniş yeşil alanları ve çocuklar için uygun yapısıyla aileler için ideal bir tatil noktasıdır.",
-      "en": "Bedre Beach, located 10 km from Eğirdir in Isparta's Beydere area, is a comprehensive beach facility opened in 2016. Covering 160,000 m² with a 1,500-meter sandy shoreline, it can accommodate up to 5,000 visitors simultaneously. The facility includes free parking, a cafe, buffet, mosque, showers, toilets, dressing cabins, lifeguard towers, barbecue areas, tent and caravan zones, a 3-slide aquapark, inflatable water slide, and sea tractors. With its shallow and clean water, extensive green spaces, and family-friendly amenities, it's an ideal vacation spot for families.",
-      "de": "Der Bedre Strand, 10 km von Eğirdir in der Region Beydere (Isparta) entfernt, ist eine umfassende Strandanlage, die 2016 eröffnet wurde. Mit einer Fläche von 160.000 m² und einem 1.500 Meter langen Sandstrand kann sie gleichzeitig bis zu 5.000 Besucher aufnehmen. Die Anlage bietet kostenlosen Parkplatz, Café, Imbiss, Moschee, Duschen, Toiletten, Umkleidekabinen, Rettungsschwimmertürme, Grillbereiche, Zelt- und Wohnwagenplätze, einen Aquapark mit drei Rutschen, eine aufblasbare Wasserrutsche und Meerestraktoren. Mit ihrem flachen und sauberen Wasser, weitläufigen Grünflächen und familienfreundlichen Einrichtungen ist sie ein ideales Urlaubsziel für Familien."
+  "tr": ", Türkiye’nin en büyük tatlı su göllerinden biri olup Isparta il sınırları içerisinde yer almaktadır. Hem doğal güzelliği hem de ekolojik zenginliği ile bölgenin en önemli doğal miras alanlarından biridir.\n\nGöl, tektonik oluşumlu yapısı sayesinde oldukça geniş bir su yüzeyine sahiptir ve çevresindeki dağlarla birlikte etkileyici bir manzara oluşturur. Özellikle berrak suyu ve çevresindeki yeşil alanlar, ziyaretçilere huzurlu bir atmosfer sunar.\n\nEğirdir Gölü’nün çevresinde yürüyüş yapılabilecek sahil şeritleri ve dinlenme alanları bulunmaktadır. Bu alanlar, doğa ile iç içe vakit geçirmek isteyen ziyaretçiler için oldukça uygundur. Gün doğumu ve gün batımı saatlerinde göl yüzeyinde oluşan yansımalar etkileyici görüntüler oluşturur.\n\nGöl aynı zamanda zengin bir biyolojik çeşitliliğe sahiptir. Birçok kuş türü, balık ve su canlısı bu ekosistemde yaşamaktadır. Bu nedenle bölge, kuş gözlemciliği ve doğa fotoğrafçılığı açısından da önemli bir noktadır.\n\nEğirdir ilçesi, gölün kıyısında yer alması nedeniyle turizm açısından oldukça gelişmiştir. Ziyaretçiler göl çevresinde restoranlar, kafeler ve konaklama imkanları bulabilir.\n\nGöl üzerinde düzenlenen tekne turları, ziyaretçilere su üzerinden farklı bir bakış açısı sunar. Bu turlar sayesinde hem doğal güzellikler hem de gölün farklı bölgeleri keşfedilebilir.\n\nEğirdir Gölü, hem yerel halk hem de turistler için dinlenme, doğa keşfi ve rekreasyon açısından önemli bir destinasyon olup Isparta’nın en değerli doğal alanlarından biri olarak kabul edilir.",
+  "en": " is one of the largest freshwater lakes in Turkey, located within the province of Isparta. It is considered one of the most important natural heritage sites in the region due to its ecological richness and scenic beauty.\n\nFormed by tectonic activity, the lake has a wide water surface and is surrounded by mountains, creating a stunning natural landscape. Its clear waters and green surroundings offer a peaceful atmosphere for visitors.\n\nThere are walking paths and recreational areas along the lakeshore, making it an ideal place for those who want to spend time in nature. The reflections on the lake surface during sunrise and sunset create particularly beautiful views.\n\nThe lake is also rich in biodiversity, hosting various species of birds, fish, and aquatic life. This makes it an important destination for birdwatching and nature photography.\n\nThe district of Eğirdir, located right next to the lake, is well developed in terms of tourism. Visitors can find restaurants, cafés, and accommodation options around the lake.\n\nBoat tours on Lake Eğirdir offer a different perspective of the area, allowing visitors to explore different parts of the lake while enjoying its natural beauty.\n\nLake Eğirdir is an important destination for recreation, relaxation, and nature exploration for both locals and tourists, and is regarded as one of the most valuable natural areas in Isparta."
+,
+      "de": "Der Eğirdir-See ist einer der größten Seen in Isparta, und es gibt ruhige Bereiche rund um den See, in denen man spazieren gehen kann. Außerdem können auf dem See Bootstouren unternommen werden.\n"
     },
     "activities": {
       "tr": [
-        "Yüzme",
-        "Kamp yapma",
-        "Piknik",
-        "Su kaydırağı eğlencesi",
-        "Fotoğrafçılık"
+        "Tekne turu yapmak",
+        "Göl etrafında yürüyüş yapmak",
+        "Piknik yapmak"
       ],
       "en": [
-        "Swimming",
-        "Camping",
-        "Picnicking",
-        "Water slide fun",
-        "Photography"
+        "Take a boat tour",
+        "Walk around the lake",
+        "Have a picnic"
       ],
       "de": [
-        "Schwimmen",
-        "Camping",
-        "Picknick",
-        "Wasserrutschen-Spaß",
-        "Fotografie"
+        "Bootstour machen",
+        "Am See spazieren gehen",
+        "Picknick machen"
       ]
     },
     "categories": {
       "tr": [
-        "plaj"
+        "doğa"
       ],
       "en": [
-        "beach"
+        "nature"
       ],
       "de": [
-        "Strand"
+        "Natur"
       ]
     },
     "images": [
-      "https://www.bicamps.com/Uploads/Images/egirdir-bedre-plaji-1.jpg",
-      "https://www.bicamps.com/Uploads/Images/egirdir-bedre-plaji-2.jpg"
+      "https://example.com/egirdir_golu.jpg"
     ]
   },
+
+  
   {
     "slug": "egirdir-kalesi",
     "name": {
@@ -481,53 +477,7 @@
       "https://example.com/isparta_muzesi.jpg"
     ]
   },
-   {
-    "slug": "egirdir-golu",
-    "name": {
-      "tr": "Eğirdir Gölü",
-      "en": "Lake Eğirdir",
-      "de": "Eğirdir See"
-    },
-    "latitude": 37.87679,
-    "longitude": 30.85291,
-    "description": {
-  "tr": ", Türkiye’nin en büyük tatlı su göllerinden biri olup Isparta il sınırları içerisinde yer almaktadır. Hem doğal güzelliği hem de ekolojik zenginliği ile bölgenin en önemli doğal miras alanlarından biridir.\n\nGöl, tektonik oluşumlu yapısı sayesinde oldukça geniş bir su yüzeyine sahiptir ve çevresindeki dağlarla birlikte etkileyici bir manzara oluşturur. Özellikle berrak suyu ve çevresindeki yeşil alanlar, ziyaretçilere huzurlu bir atmosfer sunar.\n\nEğirdir Gölü’nün çevresinde yürüyüş yapılabilecek sahil şeritleri ve dinlenme alanları bulunmaktadır. Bu alanlar, doğa ile iç içe vakit geçirmek isteyen ziyaretçiler için oldukça uygundur. Gün doğumu ve gün batımı saatlerinde göl yüzeyinde oluşan yansımalar etkileyici görüntüler oluşturur.\n\nGöl aynı zamanda zengin bir biyolojik çeşitliliğe sahiptir. Birçok kuş türü, balık ve su canlısı bu ekosistemde yaşamaktadır. Bu nedenle bölge, kuş gözlemciliği ve doğa fotoğrafçılığı açısından da önemli bir noktadır.\n\nEğirdir ilçesi, gölün kıyısında yer alması nedeniyle turizm açısından oldukça gelişmiştir. Ziyaretçiler göl çevresinde restoranlar, kafeler ve konaklama imkanları bulabilir.\n\nGöl üzerinde düzenlenen tekne turları, ziyaretçilere su üzerinden farklı bir bakış açısı sunar. Bu turlar sayesinde hem doğal güzellikler hem de gölün farklı bölgeleri keşfedilebilir.\n\nEğirdir Gölü, hem yerel halk hem de turistler için dinlenme, doğa keşfi ve rekreasyon açısından önemli bir destinasyon olup Isparta’nın en değerli doğal alanlarından biri olarak kabul edilir.",
-  "en": " is one of the largest freshwater lakes in Turkey, located within the province of Isparta. It is considered one of the most important natural heritage sites in the region due to its ecological richness and scenic beauty.\n\nFormed by tectonic activity, the lake has a wide water surface and is surrounded by mountains, creating a stunning natural landscape. Its clear waters and green surroundings offer a peaceful atmosphere for visitors.\n\nThere are walking paths and recreational areas along the lakeshore, making it an ideal place for those who want to spend time in nature. The reflections on the lake surface during sunrise and sunset create particularly beautiful views.\n\nThe lake is also rich in biodiversity, hosting various species of birds, fish, and aquatic life. This makes it an important destination for birdwatching and nature photography.\n\nThe district of Eğirdir, located right next to the lake, is well developed in terms of tourism. Visitors can find restaurants, cafés, and accommodation options around the lake.\n\nBoat tours on Lake Eğirdir offer a different perspective of the area, allowing visitors to explore different parts of the lake while enjoying its natural beauty.\n\nLake Eğirdir is an important destination for recreation, relaxation, and nature exploration for both locals and tourists, and is regarded as one of the most valuable natural areas in Isparta."
-,
-      "de": "Der Eğirdir-See ist einer der größten Seen in Isparta, und es gibt ruhige Bereiche rund um den See, in denen man spazieren gehen kann. Außerdem können auf dem See Bootstouren unternommen werden.\n"
-    },
-    "activities": {
-      "tr": [
-        "Tekne turu yapmak",
-        "Göl etrafında yürüyüş yapmak",
-        "Piknik yapmak"
-      ],
-      "en": [
-        "Take a boat tour",
-        "Walk around the lake",
-        "Have a picnic"
-      ],
-      "de": [
-        "Bootstour machen",
-        "Am See spazieren gehen",
-        "Picknick machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/egirdir_golu.jpg"
-    ]
-  },
+   
   {
     "slug": "yalvac-antik-tiyatrosu",
     "name": {
@@ -572,6 +522,59 @@
     },
     "images": [
       "https://example.com/yalvac_antik_tiyatrosu.jpg"
+    ]
+  },
+{
+    "slug": "bedre-plaji",
+    "name": {
+      "tr": "Bedre Plajı",
+      "en": "Bedre Beach",
+      "de": "Bedre Strand"
+    },
+    "latitude": 37.925694059703446,
+    "longitude": 30.78546031657635,
+    "description": {
+      "tr": "Bedre Plajı, Isparta'nın Eğirdir ilçesine 10 km uzaklıkta, Beydere mevkiinde yer alan, 2016 yılında hizmete açılmış geniş kapsamlı bir plajdır. 160.000 m² alana ve 1.500 metrelik kum sahile sahip olan plaj, aynı anda 5.000 kişiye hizmet verebilmektedir. Tesis bünyesinde ücretsiz otopark, kafe, büfe, mescit, duş, tuvalet, giyinme kabinleri, cankurtaran kuleleri, mangal alanları, çadır ve karavan alanları, 3 kaydıraklı aquapark, şişme su kaydırağı ve deniz traktörleri gibi olanaklar bulunmaktadır. Sığ ve temiz suyu, geniş yeşil alanları ve çocuklar için uygun yapısıyla aileler için ideal bir tatil noktasıdır.",
+      "en": "Bedre Beach, located 10 km from Eğirdir in Isparta's Beydere area, is a comprehensive beach facility opened in 2016. Covering 160,000 m² with a 1,500-meter sandy shoreline, it can accommodate up to 5,000 visitors simultaneously. The facility includes free parking, a cafe, buffet, mosque, showers, toilets, dressing cabins, lifeguard towers, barbecue areas, tent and caravan zones, a 3-slide aquapark, inflatable water slide, and sea tractors. With its shallow and clean water, extensive green spaces, and family-friendly amenities, it's an ideal vacation spot for families.",
+      "de": "Der Bedre Strand, 10 km von Eğirdir in der Region Beydere (Isparta) entfernt, ist eine umfassende Strandanlage, die 2016 eröffnet wurde. Mit einer Fläche von 160.000 m² und einem 1.500 Meter langen Sandstrand kann sie gleichzeitig bis zu 5.000 Besucher aufnehmen. Die Anlage bietet kostenlosen Parkplatz, Café, Imbiss, Moschee, Duschen, Toiletten, Umkleidekabinen, Rettungsschwimmertürme, Grillbereiche, Zelt- und Wohnwagenplätze, einen Aquapark mit drei Rutschen, eine aufblasbare Wasserrutsche und Meerestraktoren. Mit ihrem flachen und sauberen Wasser, weitläufigen Grünflächen und familienfreundlichen Einrichtungen ist sie ein ideales Urlaubsziel für Familien."
+    },
+    "activities": {
+      "tr": [
+        "Yüzme",
+        "Kamp yapma",
+        "Piknik",
+        "Su kaydırağı eğlencesi",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Swimming",
+        "Camping",
+        "Picnicking",
+        "Water slide fun",
+        "Photography"
+      ],
+      "de": [
+        "Schwimmen",
+        "Camping",
+        "Picknick",
+        "Wasserrutschen-Spaß",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://www.bicamps.com/Uploads/Images/egirdir-bedre-plaji-1.jpg",
+      "https://www.bicamps.com/Uploads/Images/egirdir-bedre-plaji-2.jpg"
     ]
   },
   {
