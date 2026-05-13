@@ -13,6 +13,13 @@ interface Post {
   date?: string;
   authorName?: string;
   authorEmail?: string;
+
+  social?: {
+    instagram?: string;
+    twitter?: string;
+    linkedin?: string;
+    website?: string;
+  };
 }
 
 export default function BlogDetail({ post, currentLang }: { post: Post, currentLang: "tr" | "en" }) {
@@ -112,10 +119,13 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
             onClick={() => setLightboxImage(gridImages[0])}
           >
             <img
-              src={gridImages[0]}
-              alt="Main"
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+  src={`${gridImages[0]}?f=auto&q=75&w=1400`}
+  alt="Main"
+  loading="eager"
+  fetchPriority="high"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
           </div>
         </div>
       )}
@@ -130,10 +140,12 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
               onClick={() => setLightboxImage(img)}
             >
               <img
-                src={img}
-                alt={`Gallery ${idx}`}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+  src={`${img}?f=auto&q=60&w=800`}
+  alt={`Gallery ${idx}`}
+  loading="lazy"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
             </div>
           ))}
         </div>
@@ -149,10 +161,12 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
               onClick={() => setLightboxImage(img)}
             >
               <img
-                src={img}
-                alt={`Gallery ${idx}`}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+  src={`${img}?f=auto&q=55&w=600`}
+  alt={`Gallery ${idx}`}
+  loading="lazy"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
             </div>
           ))}
         </div>
@@ -165,11 +179,14 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
             className="col-span-2 row-span-2 relative group overflow-hidden cursor-zoom-in"
             onClick={() => setLightboxImage(gridImages[0])}
           >
-            <img
-              src={gridImages[0]}
-              alt="Main"
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+           <img
+  src={`${gridImages[0]}?f=auto&q=70&w=1200`}
+  alt="Main"
+  loading="eager"
+  fetchPriority="high"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
           </div>
 
           {[1, 2, 3, 4].map((idx) => (
@@ -183,10 +200,12 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
               {gridImages[idx] && (
                 <>
                   <img
-                    src={gridImages[idx]}
-                    alt={`Gallery ${idx}`}
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
+  src={`${gridImages[idx]}?f=auto&q=50&w=400`}
+  alt={`Gallery ${idx}`}
+  loading="lazy"
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+/>
 
                   {idx === 4 && allImages.length > 5 && (
                     <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white">
@@ -224,9 +243,12 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
                   img: ({ ...props }) => (
   <div className="my-12 relative group">
     <img 
-      {...props}
-      alt={props.alt || "Waylero Journal"} 
-      className="w-full h-auto rounded-[2.5rem] shadow-xl transition-transform duration-500 group-hover:scale-[1.01] cursor-zoom-in border-4 border-white shadow-gray-200"
+  {...props}
+  src={`${props.src}?f=auto&q=70&w=1200`}
+  loading="lazy"
+  decoding="async"
+  alt={props.alt || "Waylero Journal"} 
+  className="w-full h-auto rounded-[2.5rem] shadow-xl transition-transform duration-500 group-hover:scale-[1.01] cursor-zoom-in border-4 border-white shadow-gray-200"
       onClick={() => {
         if (props.src) setLightboxImage(props.src as string);
       }}
@@ -275,6 +297,49 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
                   </span>
                   <h4 className="text-3xl font-serif font-bold text-gray-900 mt-1">{post.authorName || ui.team}</h4>
                   {post.authorEmail && <p className="text-blue-500/70 text-sm mt-1 font-bold">{post.authorEmail}</p>}
+                  {post.social && (
+  <div className="flex items-center justify-center md:justify-start gap-3 mt-3 flex-wrap">
+    {post.social.instagram && (
+      <a
+        href={post.social.instagram}
+        target="_blank"
+        className="text-pink-500 text-xs font-black hover:underline"
+      >
+        Instagram
+      </a>
+    )}
+
+    {post.social.twitter && (
+      <a
+        href={post.social.twitter}
+        target="_blank"
+        className="text-sky-500 text-xs font-black hover:underline"
+      >
+        X
+      </a>
+    )}
+
+    {post.social.linkedin && (
+      <a
+        href={post.social.linkedin}
+        target="_blank"
+        className="text-blue-600 text-xs font-black hover:underline"
+      >
+        LinkedIn
+      </a>
+    )}
+
+    {post.social.website && (
+      <a
+        href={post.social.website}
+        target="_blank"
+        className="text-gray-700 text-xs font-black hover:underline"
+      >
+        Website
+      </a>
+    )}
+  </div>
+)}
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-3">
@@ -346,7 +411,10 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
       {/* Lightbox */}
       {lightboxImage && (
         <div onClick={() => setLightboxImage(null)} className="fixed inset-0 bg-black/98 backdrop-blur-xl flex justify-center items-center z-[9999] p-4 cursor-zoom-out">
-          <img src={lightboxImage} alt="Lightbox" className="max-h-[85vh] max-w-[90vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300" />
+          <img
+  src={`${lightboxImage}?f=auto&q=85&w=1600`}
+  alt="Lightbox"
+  decoding="async" className="max-h-[85vh] max-w-[90vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300" />
           <div className="absolute top-10 right-10 text-white/50 text-[10px] font-black tracking-widest uppercase">Kapatmak için tıkla</div>
         </div>
       )}

@@ -28,6 +28,13 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "ifyazilim.nyc3.cdn.digitaloceanspaces.com",
       },
+
+      // ☁️ CLOUDINARY EKLENDİ
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: '/**',
+      },
     ],
   },
 };

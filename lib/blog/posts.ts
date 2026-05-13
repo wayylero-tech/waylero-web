@@ -28,6 +28,11 @@ import { turkeyPostGunaydogu } from "@/data/blog/turkey/postsguneydoguanadolu";
 import { catalhoyukPosts } from "@/data/blog/konya/posts4";
 import { ihlaraRehberPost } from "@/data/blog/aksaray/posts";
 import { daraAntikPosts } from "@/data/blog/mardin/posts";
+import { burdurPosts } from "@/data/blog/burdur/posts";
+import { kibyraPosts } from "@/data/blog/burdur/kibyrapost";
+import { sagalassosPosts } from "@/data/blog/burdur/sagalassosposts";
+import { saldaPosts } from "@/data/blog/burdur/saldaposts";
+
 
 export const allPosts = [
    ...generalPosts,
@@ -59,5 +64,10 @@ export const allPosts = [
   ...turkeyPostGunaydogu,
   ...catalhoyukPosts,
   ...ihlaraRehberPost,
-...daraAntikPosts
+...daraAntikPosts,
+...burdurPosts,
+...kibyraPosts,
+...sagalassosPosts,
+...saldaPosts
+
 ];

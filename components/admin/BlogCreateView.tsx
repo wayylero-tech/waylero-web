@@ -7,8 +7,16 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 export default function BlogCreateView({ user }: any) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+
   const [images, setImages] = useState<any[]>([]);
   const [imageUrl, setImageUrl] = useState("");
+
+  // 🌐 SOCIALS
+  const [instagram, setInstagram] = useState("");
+  const [facebook, setFacebook] = useState("");
+  const [xAccount, setXAccount] = useState("");
+  const [youtube, setYoutube] = useState("");
+
   const [loading, setLoading] = useState(false);
 
   const isUserReady = !!user?.email;
@@ -18,6 +26,7 @@ export default function BlogCreateView({ user }: any) {
     const formData = new FormData();
 
     formData.append("file", file);
+
     formData.append(
       "upload_preset",
       process.env.NEXT_PUBLIC_CLOUDINARY_PRESET || ""
@@ -43,33 +52,46 @@ export default function BlogCreateView({ user }: any) {
 
   const handleSubmit = async () => {
     if (!isUserReady) return alert("Giriş yapmalısın");
-    if (!title.trim() || !content.trim()) return alert("Başlık ve içerik zorunlu");
+
+    if (!title.trim() || !content.trim()) {
+      return alert("Başlık ve içerik zorunlu");
+    }
 
     setLoading(true);
 
     try {
-      // ☁️ IMAGE PROCESS (file + url mix)
+      // ☁️ IMAGE PROCESS
       const uploadedImages = await Promise.all(
-  images.map(async (img) => {
-    // 🔥 URL ise direkt kullan
-    if (typeof img === "string") {
-      return img;
-    }
+        images.map(async (img) => {
+          // 🔥 URL ise direkt kullan
+          if (typeof img === "string") {
+            return img;
+          }
 
-    // 🔥 File ise Cloudinary upload
-    return await uploadImageToCloudinary(img);
-  })
-);
+          // 🔥 File ise upload
+          return await uploadImageToCloudinary(img);
+        })
+      );
 
       await addDoc(collection(db, "pending_blogs"), {
         title: title.trim(),
         content: content.trim(),
+
         gallery: uploadedImages.filter(Boolean),
 
         authorEmail: user.email || "",
         authorName: user.displayName || user.email || "",
 
+        // 🌐 SOCIALS
+        socials: {
+          instagram: instagram.trim() || null,
+          facebook: facebook.trim() || null,
+          x: xAccount.trim() || null,
+          youtube: youtube.trim() || null,
+        },
+
         status: "pending",
+
         createdAt: serverTimestamp(),
       });
 
@@ -78,8 +100,14 @@ export default function BlogCreateView({ user }: any) {
       // RESET
       setTitle("");
       setContent("");
+
       setImages([]);
       setImageUrl("");
+
+      setInstagram("");
+      setFacebook("");
+      setXAccount("");
+      setYoutube("");
     } catch (err: any) {
       console.error(err);
       alert(err.message || "Bir hata oluştu");
@@ -90,7 +118,9 @@ export default function BlogCreateView({ user }: any) {
 
   return (
     <div className="text-white space-y-5 max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold">✍️ Blog Yazısı Gönder</h1>
+      <h1 className="text-2xl font-bold">
+        ✍️ Blog Yazısı Gönder
+      </h1>
 
       {/* TITLE */}
       <input
@@ -107,6 +137,45 @@ export default function BlogCreateView({ user }: any) {
         value={content}
         onChange={(e) => setContent(e.target.value)}
       />
+
+      {/* SOCIAL LINKS */}
+      <div className="space-y-3">
+        <h2 className="text-lg font-semibold">
+          🌐 Sosyal Medya (Opsiyonel)
+        </h2>
+
+        <input
+          type="url"
+          value={instagram}
+          onChange={(e) => setInstagram(e.target.value)}
+          placeholder="Instagram URL"
+          className="w-full p-3 rounded bg-gray-800 border border-gray-700"
+        />
+
+        <input
+          type="url"
+          value={facebook}
+          onChange={(e) => setFacebook(e.target.value)}
+          placeholder="Facebook URL"
+          className="w-full p-3 rounded bg-gray-800 border border-gray-700"
+        />
+
+        <input
+          type="url"
+          value={xAccount}
+          onChange={(e) => setXAccount(e.target.value)}
+          placeholder="X / Twitter URL"
+          className="w-full p-3 rounded bg-gray-800 border border-gray-700"
+        />
+
+        <input
+          type="url"
+          value={youtube}
+          onChange={(e) => setYoutube(e.target.value)}
+          placeholder="YouTube URL"
+          className="w-full p-3 rounded bg-gray-800 border border-gray-700"
+        />
+      </div>
 
       {/* LINK INPUT */}
       <div className="space-y-2">
@@ -128,9 +197,11 @@ export default function BlogCreateView({ user }: any) {
               if (!imageUrl.trim()) return;
 
               setImages((prev) => {
-  if (prev.includes(imageUrl)) return prev;
-  return [...prev, imageUrl];
-});
+                if (prev.includes(imageUrl)) return prev;
+
+                return [...prev, imageUrl];
+              });
+
               setImageUrl("");
             }}
             className="px-4 bg-blue-600 hover:bg-blue-700 rounded"
@@ -165,18 +236,25 @@ export default function BlogCreateView({ user }: any) {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {images.map((img, index) => {
             const src =
-              typeof img === "string" ? img : URL.createObjectURL(img);
+              typeof img === "string"
+                ? img
+                : URL.createObjectURL(img);
 
             return (
               <div
                 key={index}
                 className="relative h-40 rounded-lg overflow-hidden border border-gray-700"
               >
-                <img src={src} className="w-full h-full object-cover" />
+                <img
+                  src={src}
+                  className="w-full h-full object-cover"
+                />
 
                 <button
                   onClick={() =>
-                    setImages((prev) => prev.filter((_, i) => i !== index))
+                    setImages((prev) =>
+                      prev.filter((_, i) => i !== index)
+                    )
                   }
                   className="absolute top-2 right-2 bg-red-600 w-6 h-6 rounded-full"
                 >
@@ -194,7 +272,9 @@ export default function BlogCreateView({ user }: any) {
         disabled={loading}
         className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 rounded font-bold w-full"
       >
-        {loading ? "Gönderiliyor..." : "Onaya Gönder"}
+        {loading
+          ? "Gönderiliyor..."
+          : "Onaya Gönder"}
       </button>
     </div>
   );

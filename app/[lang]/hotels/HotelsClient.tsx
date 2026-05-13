@@ -9,7 +9,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   id: "tumsehirler",
   name: {     tr: "Diğer Şehirler",     en: "Other Cities" 
   },
-  image: "/assets/sehir/tumsehirler.webp", // Genel bir seyahat görseli
+  image: "/assets/sehir1/tumsehirler.webp", // Genel bir seyahat görseli
   desc: {
     tr: "Dünyanın dört bir yanındaki lüks durakları keşfedin",
     en: "Discover luxury destinations all around the world",
@@ -18,7 +18,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "istanbul",
     name: { tr: "İstanbul", en: "Istanbul" },
-    image: "/assets/sehir/istanbul.webp",
+    image: "/assets/sehir1/istanbul.webp",
     desc: {
       tr: "Boğaz manzaralı lüks oteller",
       en: "Luxury hotels with Bosphorus views",
@@ -27,7 +27,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "nevsehir",
     name: { tr: "Kapadokya", en: "Cappadocia" },
-    image: "/assets/sehir/nevsehir.webp",
+    image: "/assets/sehir1/nevsehir.webp",
     desc: {
       tr: "Mağara otelleri ve eşsiz manzaralar",
       en: "Cave hotels and unique landscapes",
@@ -36,7 +36,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "antalya",
     name: { tr: "Antalya", en: "Antalya" },
-    image: "/assets/sehir/antalya.webp",
+    image: "/assets/sehir1/antalya.webp",
     desc: {
       tr: "Resort ve tatil otelleri",
       en: "Resort and holiday hotels",
@@ -45,7 +45,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "izmir",
     name: { tr: "İzmir", en: "Izmir" },
-    image: "/assets/sehir/izmir.webp",
+    image: "/assets/sehir1/izmir.webp",
     desc: {
       tr: "Sahil otelleri ve şehir kaçamakları",
       en: "Coastal hotels and city escapes",
@@ -54,7 +54,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "mugla",
     name: { tr: "Muğla", en: "Mugla" },
-    image: "/assets/sehir/mugla.webp",
+    image: "/assets/sehir1/mugla.webp",
     desc: {
       tr: "Bodrum ve Fethiye’de tatil keyfi",
       en: "Holiday escapes in Bodrum and Fethiye",
@@ -63,7 +63,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "aydin",
     name: { tr: "Aydın", en: "Aydin" },
-    image: "/assets/sehir/aydin.webp",
+    image: "/assets/sehir1/aydin.webp",
     desc: {
       tr: "Kuşadası ve deniz manzaralı oteller",
       en: "Sea-view hotels in Kusadasi",
@@ -72,7 +72,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "trabzon",
     name: { tr: "Trabzon", en: "Trabzon" },
-    image: "/assets/sehir/trabzon.webp",
+    image: "/assets/sehir1/trabzon.webp",
     desc: {
       tr: "Doğa ile iç içe Karadeniz otelleri",
       en: "Black Sea hotels surrounded by nature",
@@ -81,7 +81,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "bangkok",
     name: { tr: "Bangkok", en: "Bangkok" },
-    image: "/assets/sehir/bangkok.webp",
+    image: "/assets/sehir1/bangkok.webp",
     desc: {
       tr: "Modern şehir otelleri ve rooftop deneyimleri",
       en: "Modern city hotels and rooftop experiences",
@@ -90,7 +90,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "paris",
     name: { tr: "Paris", en: "Paris" },
-    image: "/assets/sehir/paris.webp",
+    image: "/assets/sehir1/paris.webp",
     desc: {
       tr: "Romantik ve tarihi lüks oteller",
       en: "Romantic and historical luxury hotels",
@@ -99,7 +99,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "londra",
     name: { tr: "Londra", en: "London" },
-    image: "/assets/sehir/londra.webp",
+    image: "/assets/sehir1/londra.webp",
     desc: {
       tr: "İkonik bölgelerde premium konaklama",
       en: "Premium stays in iconic districts",
@@ -108,7 +108,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "dubai",
     name: { tr: "Dubai", en: "Dubai" },
-    image: "/assets/sehir/dubai.webp",
+    image: "/assets/sehir1/dubai.webp",
     desc: {
       tr: "Ultra lüks gökdelen otelleri",
       en: "Ultra luxury skyscraper hotels",
@@ -117,7 +117,7 @@ import { MapPin, ChevronRight } from "lucide-react";
   {
     id: "roma",
     name: { tr: "Roma", en: "Rome" },
-    image: "/assets/sehir/roma.webp",
+    image: "/assets/sehir1/roma.webp",
     desc: {
       tr: "Klasik mimari ve butik konaklama",
       en: "Classical architecture and boutique stays",

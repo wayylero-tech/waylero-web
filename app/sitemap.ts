@@ -97,8 +97,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   allPosts.forEach((post: any) => {
     if (!post?.slug) return;
     locales.forEach((locale) => {
-      const category = sanitize(post.category || "genel");
-      const route = `/blog/${category}/${sanitize(post.slug)}`;
+      const city = sanitize(post.city || "genel");
+const route = `/blog/${city}/${sanitize(post.slug)}`;
       entries.push({
         url: buildUrl(route, locale),
         lastModified: post.updatedAt ? new Date(post.updatedAt) : now,

@@ -1,0 +1,38 @@
+export const kibyraPosts = [
+{
+  "slug": "kybira-antik-kenti",
+  "title": {
+    "tr": "Kybira 2026 Gezi Rehberi: Gladyatörler Şehri, Giriş Ücretleri ve Ziyaret Bilgileri",
+    "en": "Kybira 2026 Travel Guide: City of Gladiators, Entrance Fees and Visiting Information"
+  },
+  "excerpt": {
+    "tr": "Kibyra 2026 gezi rehberi: giriş ücretleri, Müze Kart bilgisi, Medusa Mozaiği, stadyum ve ziyaret saatleri. Gladyatörler şehrini keşfetmeden önce tüm güncel bilgileri öğren.",
+    "en": "Kibyra 2026 travel guide: entrance fees, Museum Pass information, Medusa Mosaic, stadium and visiting hours. Find out all the latest information before exploring the city of gladiators."
+  },
+  "content": {
+    "tr": "# Gladyatörler Şehri: Kybira\n\nBurdur’un Gölhisar ilçesinde yer alan Kybira Antik Kenti, “Gladyatörler Şehri” olarak anılan, güçlü mimarisi ve etkileyici yapılarıyla öne çıkan antik Likya kentlerinden biridir. Daha girişten itibaren devasa stadyumu ve taş dokusu, buranın sıradan bir antik kent olmadığını hissettirir.\n\nKentte dolaşırken en çok dikkat çeken yapı ise hiç şüphesiz Medusa Mozaiği’nin yer aldığı Odeon bölümüdür. Renkli taşlarla “Opus Sectile” tekniği kullanılarak yapılan bu mozaik, sadece Burdur’un değil, Anadolu’nun en özel antik sanat eserlerinden biri olarak kabul edilir.\n\n---\n\n## 🎫 Müze Kart Geçiyor mu?\n\nEvet, Kybira Antik Kenti girişinde Müze Kart geçerlidir. Bu sayede Türkiye Cumhuriyeti vatandaşları ekstra giriş ücreti ödemez.\n\n---\n\n## ⏱️ Kybira Gezi Süresi Ne Kadar?\n\nOrtalama ziyaret süresi:\n\n- 1 – 1,5 saat: Hızlı gezme  \n- 2 – 3 saat: Detaylı keşif + fotoğraf molaları  \n\nStadyum, Odeon ve Medusa Mozaiği en çok zaman geçirilen alanlardır.\n\n---\n\n## 📅 Kybira’yı Ziyaret Etmek İçin En İyi Zaman\n\n### 🌸 İlkbahar\nEn ideal dönem (serin hava, yeşil doğa)\n\n### 🍂 Sonbahar\nDaha sakin ve fotoğraf ışığı çok iyi\n\n### ☀️ Yaz\nSabah erken saatler tercih edilmeli\n\n### ❄️ Kış\nAçık alan olduğu için soğuk ve rüzgârlı olabilir\n\n---\n\n## 🏛️ Kybira’da Ne Görülür?\n\n- Devasa Roma Stadyumu  \n- Odeon (konser salonu)  \n- Ünlü Medusa Mozaiği  \n- Agora ve hamam kalıntıları  \n- Su kanalları ve şehir altyapısı  \n\n---\n\n## 📸 Kybira Fotoğraf İçin Güzel mi?\n\nEvet, özellikle:\n\n- Medusa Mozaiği  \n- Stadyum basamakları  \n- Odeon içi ışık oyunları  \n\nçok etkileyici kareler verir. Mozaik alanı özellikle detay fotoğraflar için çok idealdir.\n\n---\n\n## 🚗 Kybira’ya Nasıl Gidilir?\n\nBurdur merkezden Gölhisar ilçesine yaklaşık 1–1,5 saatlik yolculukla ulaşılır. Kybira, ilçe merkezine oldukça yakındır ve tabelalarla kolayca bulunabilir.\n\n---\n\n## 🌿 Kybira Gezi Tavsiyeleri\n\n- Rahat ayakkabı giy (alan taş ve geniş)  \n- Yazın su bulundur (güneş açık alanda etkili)  \n- Medusa Mozaiği’nde zaman ayır (en önemli nokta)  \n- Sabah saatleri daha sakin olur  \n- Rehberli gezmek tarihi daha iyi anlamanı sağlar  \n\n---\n\n## ⚔️ Kybira Deneyimi\n\nKybira Antik Kenti sadece bir antik kent değil; gladyatörlerin iz bıraktığı, taşların bile hikâye anlattığı bir yerdir. Stadyumda yürürken binlerce yıl öncesinin seslerini hayal etmek bile yeterince etkileyicidir.\n\nVe Medusa’nın gözlerine baktığında insanın aklından şu geçer:\n“Bu şehir gerçekten yaşamış ve çok güçlüymüş…”",
+    "en": "# City of Gladiators: Kybira\n\nLocated in the Gölhisar district of Burdur, the ancient city of Kybira is one of the ancient Lycian cities known as the “City of Gladiators,” distinguished by its imposing architecture and impressive structures. From the moment you enter, its massive stadium and stonework make it clear that this is no ordinary ancient city.\n\nThe most striking structure while exploring the city is undoubtedly the Odeon section, home to the Medusa Mosaic. Created using the “Opus Sectile” technique with colorful stones, this mosaic is considered one of the most unique ancient works of art not only in Burdur but in all of Anatolia.\n\n---\n\n## 🎫 Is the Museum Card Accepted?\n\nYes, the Museum Card is accepted at the entrance to Kybira Ancient City. This means Turkish citizens do not have to pay an additional entrance fee.\n\n---\n\n## ⏱️ How Long Does a Visit to Kybira Take?\n\nAverage visit duration:\n\n- 1 – 1.5 hours: Quick tour  \n- 2 – 3 hours: Detailed exploration + photo breaks  \n\nThe Stadium, Odeon, and Medusa Mosaic are the areas where visitors spend the most time.\n\n---\n\n## 📅 Best Time to Visit Kybira\n\n### 🌸 Spring\nThe ideal time (cool weather, lush greenery)\n\n### 🍂 Fall\nQuieter and excellent lighting for photos\n\n### ☀️ Summer\nEarly morning hours are recommended\n\n### ❄️ Winter\nCan be cold and windy due to the open-air setting\n\n---\n\n## 🏛️ What to See in Kybira?\n\n- The massive Roman Stadium  \n- The Odeon (concert hall)  \n- The famous Medusa Mosaic  \n- Remains of the Agora and baths  \n- Aqueducts and city infrastructure  \n\n---\n\n## 📸 Is Kybira Good for Photography?\n\nYes, especially:\n\n- The Medusa Mosaic  \n- The stadium steps  \n- The play of light inside the Odeon  \n\noffer very striking shots. The mosaic area is particularly ideal for detailed photography.\n\n---\n\n## 🚗 How to Get to Kybira?\n\nIt takes about 1–1.5 hours to reach Gölhisar district from the center of Burdur. Kybira is quite close to the district center and can be easily found by following the signs.\n\n---\n\n## 🌿 Kybira Travel Tips\n\n- Wear comfortable shoes (the area is rocky and expansive)  \n- Bring water in the summer (the sun is intense in open areas)  \n- Spend time at the Medusa Mosaic (the highlight)  \n- Morning hours are quieter  \n- A guided tour helps you better understand the history  \n\n---\n\n## ⚔️ The Kybira Experience\n\nKybira Ancient City is not just an ancient city; it’s a place where gladiators left their mark, and even the stones tell stories. Just imagining the sounds of thousands of years ago as you walk through the stadium is captivating enough.\n\nAnd when you look into Medusa’s eyes, this thought crosses your mind:\n“This city truly lived and was very powerful…”"
+  },
+  "seo": {
+    "title": {
+      "tr": "Kybira 2026 Gezi Rehberi: Gladyatörler Şehri, Giriş Ücretleri ve Ziyaret Bilgileri",
+      "en": "Kybira 2026 Travel Guide: City of Gladiators, Entrance Fees and Visiting Information"
+    },
+    "description": {
+      "tr": "Kibyra 2026 gezi rehberi: giriş ücretleri, Müze Kart bilgisi, Medusa Mozaiği, stadyum ve ziyaret saatleri. Gladyatörler şehrini keşfetmeden önce tüm güncel bilgileri öğren.",
+      "en": "Kibyra 2026 travel guide: entrance fees, Museum Pass information, Medusa Mosaic, stadium and visiting hours. Find out all the latest information before exploring the city of gladiators."
+    }
+  },
+  "image": "https://res.cloudinary.com/dewd42ppf/image/upload/v1778612722/places/turkey/burdur/kibyra-antik-kenti/kibyra-antik-kenti_1778612721383.jpg",
+  "gallery": [
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1778612722/places/turkey/burdur/kibyra-antik-kenti/kibyra-antik-kenti_1778612721383.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1778613430/places/turkey/burdur/kibyra-antik-kenti/kibyra-antik-kenti_1778613429196.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1778612955/places/turkey/burdur/kibyra-antik-kenti/kibyra-antik-kenti_1778612955018.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1778613273/places/turkey/burdur/kibyra-antik-kenti/kibyra-antik-kenti_1778613272547.jpg"
+  ],
+  "date": "2026-05-13",
+  "city": "burdur",
+  "authorEmail": "emrahtstn29.at@gmail.com",
+  "authorName": "emrah taştan"
+}
+];

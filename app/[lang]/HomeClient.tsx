@@ -413,25 +413,25 @@ export default function HomeClient({
       { 
         city: "İstanbul", 
         link: "https://getyourguide.tp.st/nTBcXECr", 
-        imageUrl: "/assets/sehir/istanbul.webp", 
+        imageUrl: "/assets/sehir1/istanbul.webp", 
         title: lang === "tr" ? "İstanbul Turlarını İncele" : "Explore Istanbul Tours" 
       },
       { 
         city: "Nevşehir", 
         link: "https://getyourguide.tp.st/jf5oS4u4", 
-        imageUrl: "/assets/sehir/nevsehir.webp", 
+        imageUrl: "/assets/sehir1/nevsehir.webp", 
         title: lang === "tr" ? "Kapadokya Turlarını İncele" : "Explore Cappadocia Tours" 
       },
       { 
         city: "Antalya", 
         link: "https://getyourguide.tp.st/hwXRhIEO", 
-        imageUrl: "/assets/sehir/antalya.webp", 
+        imageUrl: "/assets/sehir1/antalya.webp", 
         title: lang === "tr" ? "Antalya Turlarını İncele" : "Explore Antalya Tours" 
       },
       { 
         city: "İzmir", 
         link: "https://getyourguide.tp.st/Zcv1aMld", 
-        imageUrl: "/assets/sehir/izmir.webp", 
+        imageUrl: "/assets/sehir1/izmir.webp", 
         title: lang === "tr" ? "İzmir Turlarını İncele" : "Explore Izmir Tours" 
       }
     ].map((tour, i) => (

@@ -19,8 +19,14 @@ export const uygulamaPosts = [
       "/assets/genel/uygulama1.webp",
     ],
 
-    date: "2026-04-02", // Güncel tarih
+    date: "2026-04-02",
     city: "genel",
+
+    // 👇 BURASI EKLENDİ
+    social: {
+      instagram: "https://www.instagram.com/waylero_ile_kesfet?",
+     
+    },
 
     seo: {
       tr: {
@@ -32,6 +38,7 @@ export const uygulamaPosts = [
         description: "Discover the top travel apps for 2026. From flight booking to offline maps, explore the essential mobile apps for professional travelers."
       }
     },
+
 
     content: {
       tr: `
