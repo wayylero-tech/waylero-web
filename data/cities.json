@@ -3,9 +3,9 @@
   "slug": "istanbul",
   "region": "turkiye",
   "country": "turkiye",
-  "image": "/assets/sehir1/istanbul.webp",
+  "image": "/assets/sehir/istanbul.webp",
 "additionalImages": [
-    "/assets/sehir1/sultanahmet.webp"
+    "/assets/sehir/sultanahmet.webp"
 ],
   "names": {
     "tr": "İstanbul",
@@ -41,9 +41,9 @@
   "slug": "viyana",
   "region": "avrupa",
   "country": "avusturya",
-  "image": "/assets/sehir1/viyana.webp",
+  "image": "/assets/sehir/viyana.webp",
 "additionalImages": [
-    "/assets/sehir1/viyana1.webp"
+    "/assets/sehir/viyana1.webp"
 ],
   "names": {
     "tr": "Viyana",
@@ -75,16 +75,16 @@
   },
 
   "gallery": [
-    "/assets/sehir1/viyana.webp"
+    "/assets/sehir/viyana.webp"
   ]
 },
 {
   "slug": "dubai",
   "region": "asya",
   "country": "bae",
-  "image": "/assets/sehir1/dubai.webp",
+  "image": "/assets/sehir/dubai.webp",
 "additionalImages": [
-    "/assets/sehir1/dubai1.webp"
+    "/assets/sehir/dubai1.webp"
 ],
   "names": {
     "tr": "Dubai",
@@ -115,17 +115,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/dubai1.webp",
-    "/assets/sehir1/dubai2.webp"
+    "/assets/sehir/dubai1.webp",
+    "/assets/sehir/dubai2.webp"
   ]
 },
 {
   "slug": "new-york",
   "region": "amerika",
   "country": "amerika",
-  "image": "/assets/sehir1/new.webp",
+  "image": "/assets/sehir/new.webp",
 "additionalImages": [
-    "/assets/sehir1/new1.webp"
+    "/assets/sehir/new1.webp"
 ],
 
   "names": {
@@ -157,17 +157,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/newyork1.webp",
-    "/assets/sehir1/newyork2.webp"
+    "/assets/sehir/newyork1.webp",
+    "/assets/sehir/newyork2.webp"
   ]
 },
 {
   "slug": "pekin",
   "region": "asya",
   "country": "cin",
-  "image": "/assets/sehir1/pekin.webp",
+  "image": "/assets/sehir/pekin.webp",
 "additionalImages": [
-    "/assets/sehir1/pekin1.webp"
+    "/assets/sehir/pekin1.webp"
 ],
 
   "names": {
@@ -199,17 +199,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/pekin1.webp",
-    "/assets/sehir1/pekin2.webp"
+    "/assets/sehir/pekin1.webp",
+    "/assets/sehir/pekin2.webp"
   ]
 },
 {
   "slug": "paris",
   "region": "avrupa",
   "country": "fransa",
-  "image": "/assets/sehir1/paris.webp",
+  "image": "/assets/sehir/paris.webp",
 "additionalImages": [
-    "/assets/sehir1/paris1.webp"
+    "/assets/sehir/paris1.webp"
 ],
   "names": {
     "tr": "Paris",
@@ -240,15 +240,15 @@
   },
 
   "gallery": [
-    "/assets/sehir1/paris1.webp",
-    "/assets/sehir1/paris2.webp"
+    "/assets/sehir/paris1.webp",
+    "/assets/sehir/paris2.webp"
   ]
 },
 {
   "slug": "londra",
   "region": "avrupa",
   "country": "ingiltere",
-  "image": "/assets/sehir1/londra.webp",
+  "image": "/assets/sehir/londra.webp",
 
   "names": {
     "tr": "Londra",
@@ -279,17 +279,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/londra1.webp",
-    "/assets/sehir1/londra2.webp"
+    "/assets/sehir/londra1.webp",
+    "/assets/sehir/londra2.webp"
   ]
 },
 {
   "slug": "antalya",
   "region": "turkiye",
   "country": "turkiye",
-  "image": "/assets/sehir1/antalya.webp",
+  "image": "/assets/sehir/antalya.webp",
 "additionalImages": [
-    "/assets/sehir1/antalya1.webp"
+    "/assets/sehir/antalya1.webp"
 ],
 
   "names": {
@@ -321,17 +321,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/antalya1.webp",
-    "/assets/sehir1/antalya2.webp"
+    "/assets/sehir/antalya1.webp",
+    "/assets/sehir/antalya2.webp"
   ]
 },
 {
   "slug": "tokyo",
   "region": "asya",
   "country": "japonya",
-  "image": "/assets/sehir1/tokyo.webp",
+  "image": "/assets/sehir/tokyo.webp",
 "additionalImages": [
-    "/assets/sehir1/tokyo1.webp"
+    "/assets/sehir/tokyo1.webp"
 ],
 
   "names": {
@@ -363,17 +363,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/tokyo1.webp",
-    "/assets/sehir1/tokyo2.webp"
+    "/assets/sehir/tokyo1.webp",
+    "/assets/sehir/tokyo2.webp"
   ]
 },
 {
   "slug": "hong-kong",
   "region": "asya",
   "country": "cin",
-  "image": "/assets/sehir1/hongkong.webp",
+  "image": "/assets/sehir/hongkong.webp",
 "additionalImages": [
-    "/assets/sehir1/hongkong.webp"
+    "/assets/sehir/hongkong.webp"
 ],
 
   "names": {
@@ -405,17 +405,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/hongkong1.webp",
-    "/assets/sehir1/hongkong2.webp"
+    "/assets/sehir/hongkong1.webp",
+    "/assets/sehir/hongkong2.webp"
   ]
 },
 {
   "slug": "bangkok",
   "region": "asya",
   "country": "tayland",
-  "image": "/assets/sehir1/bangkok.webp",
+  "image": "/assets/sehir/bangkok.webp",
 "additionalImages": [
-    "/assets/sehir1/bangkok1.webp"
+    "/assets/sehir/bangkok1.webp"
 ],
   "names": {
     "tr": "Bangkok",
@@ -446,17 +446,17 @@
   },
 
   "gallery": [
-    "/assets/sehir1/bangkok1.webp",
-    "/assets/sehir1/bangkok2.webp"
+    "/assets/sehir/bangkok1.webp",
+    "/assets/sehir/bangkok2.webp"
   ]
 },
 {
   "slug": "singapur",
   "region": "asya",
   "country": "singapur",
-  "image": "/assets/sehir1/singapur.webp",
+  "image": "/assets/sehir/singapur.webp",
 "additionalImages": [
-    "/assets/sehir1/singapur1.webp"
+    "/assets/sehir/singapur1.webp"
 ],
   "names": {
     "tr": "Singapur",
@@ -484,17 +484,17 @@
     "en": "Singapore is one of the most modern and developed cities in Southeast Asia and a major global center for finance and trade. Known for its towering skyscrapers, green spaces, and advanced infrastructure, the city also stands out for its cultural diversity and innovative architecture.\n\nOne of Singapore’s most iconic landmarks is Marina Bay Sands, famous for its unique design connecting three towers and its rooftop infinity pool. Gardens by the Bay showcases the city’s modern and natural harmony with its futuristic Supertrees and massive conservatories.\n\nThe Singapore Botanic Gardens, a UNESCO World Heritage Site, highlight the city’s natural beauty. Sentosa Island attracts visitors with its beaches, theme parks, and luxury resorts. Merlion Park, home to the iconic Merlion statue, is a popular photo spot for tourists.\n\nSingapore is a major shopping destination. Orchard Road is the city’s most famous shopping street, featuring world-renowned brands. Ethnic districts such as Chinatown, Little India, and Kampong Glam offer traditional markets and cultural souvenirs.\n\nThe city’s cuisine is diverse and highly regarded. Local dishes like laksa, chili crab, satay, and kaya toast are widely available in both street stalls and restaurants. Hawker centers are must-visit spots to experience a variety of flavors at affordable prices.\n\nSingapore’s nightlife is lively and stylish. Clarke Quay is known for its bars and nightclubs along the river, while the SkyPark Bar at Marina Bay Sands offers breathtaking night views of the city.\n\nWith its eco-friendly initiatives, green urban design, and high quality of life, Singapore is considered one of the world’s leading examples of a sustainable and modern city."
   },
   "gallery": [
-    "/assets/sehir1/singapur1.webp",
-    "/assets/sehir1/singapur2.webp"
+    "/assets/sehir/singapur1.webp",
+    "/assets/sehir/singapur2.webp"
   ]
 },
 {
   "slug": "barselona",
   "region": "avrupa",
   "country": "ispanya",
-  "image": "/assets/sehir1/barselona.webp",
+  "image": "/assets/sehir/barselona.webp",
 "additionalImages": [
-    "/assets/sehir1/barselona1.webp"
+    "/assets/sehir/barselona1.webp"
 ],
   "names": {
     "tr": "Barselona",
@@ -521,17 +521,17 @@
     "en": "Barcelona is Spain’s second-largest city and the capital of the Catalonia region on the Mediterranean coast. With its rich history, modern architecture, and vibrant social life, it is one of Europe’s most popular tourist destinations.\n\nOne of the city’s most iconic landmarks is La Sagrada Família, the masterpiece of renowned architect Antoni Gaudí. Its unique design and ongoing construction have made it a symbol of Barcelona. Other famous Gaudí works such as Park Güell, Casa Batlló, and Casa Milà (La Pedrera) are outstanding examples of the city’s modernist architecture.\n\nBarcelona’s historic districts are particularly impressive. Areas like the Gothic Quarter (Barri Gòtic) and El Raval feature narrow medieval streets, historic squares, and ancient buildings. La Rambla is the city’s most famous avenue, known for its lively atmosphere, shopping, street performers, and restaurants.\n\nThe city is also well known for its beaches. Barceloneta Beach, located close to the city center, is a favorite spot for both tourists and locals. Nearby coastal towns and natural parks offer great options for nature lovers.\n\nBarcelona provides excellent shopping opportunities. Passeig de Gràcia is home to luxury stores of world-famous brands, while areas like El Born and El Raval feature boutique shops and local designs.\n\nThe local cuisine is another highlight. Traditional Spanish and Catalan dishes such as tapas, paella, seafood, and crema catalana can be enjoyed throughout the city. La Boqueria Market is famous for its fresh produce and local food stalls.\n\nBarcelona’s nightlife is energetic and diverse. Nightclubs, bars, and beach parties attract visitors from all over the world. Districts like El Born and El Raval become lively in the evenings with cocktail bars and tapas restaurants.\n\nBarcelona is also recognized as a major sports city. Football is deeply rooted in local culture, and Camp Nou, the home stadium of FC Barcelona, is a must-visit attraction for football fans."
   },
   "gallery": [
-    "/assets/sehir1/barselona1.webp",
-    "/assets/sehir1/barselona2.webp"
+    "/assets/sehir/barselona1.webp",
+    "/assets/sehir/barselona2.webp"
   ]
 },
 {
   "slug": "roma",
   "region": "avrupa",
   "country": "italya",
-  "image": "/assets/sehir1/roma.webp",
+  "image": "/assets/sehir/roma.webp",
 "additionalImages": [
-    "/assets/sehir1/roma1.webp"
+    "/assets/sehir/roma1.webp"
 ],
   "names": {
     "tr": "Roma",
@@ -558,16 +558,16 @@
   "en": "Rome, the capital of Italy, is one of the world's most historically significant cities and a top tourist destination in Europe. Once the center of the Roman Empire, this city is famous for its ancient landmarks, magnificent art galleries, stunning squares, grand churches, and world-renowned monuments. Rome perfectly blends history with modern life, offering cultural and artistic experiences around every corner.\n\nThe Colosseum, Rome's most iconic landmark, is the largest amphitheater of ancient Rome and a must-see attraction for history enthusiasts and travelers alike. Known for gladiator fights and ancient performances, the Colosseum remains at the top of Rome’s tourist highlights. The Roman Forum, the heart of ancient Rome, features temples, government building ruins, and columned plazas, providing visitors with an immersive historical journey.\n\nVatican City, an independent city-state within Rome, is the epicenter of Christian heritage and world-class art and architecture. St. Peter's Basilica, with Michelangelo’s famous Pietà sculpture and massive dome, is a highlight for visitors. The Sistine Chapel, with Michelangelo’s ceiling frescoes, is globally renowned, while the Vatican Museums, including Raphael's Rooms, house priceless art collections.\n\nWalking through the streets of Rome, tourists encounter history at every turn. Iconic sites such as the Pantheon, Piazza Navona, Trevi Fountain, and the Spanish Steps are essential stops. The city also offers a romantic atmosphere with charming cafés, perfect for savoring Italian coffee and gelato.\n\nRome is a culinary paradise. Pizza, pasta, risotto, fresh seafood, and traditional Italian desserts offer unforgettable dining experiences. Trattorias and Osterias provide authentic local flavors, ensuring a gastronomic adventure for every visitor.\n\nRome’s nightlife is lively, with bars, cafés, and restaurants concentrated in the city center and Trastevere district. Shopping enthusiasts will enjoy Via del Corso, Via Condotti, and Campo de' Fiori, home to luxury brands and boutique shops.\n\nFor history, art, culture, cuisine, and romance, Rome is one of Europe’s most captivating and enchanting cities. With countless sightseeing opportunities, it guarantees every visitor an unforgettable travel experience."
 },
   "gallery": [
-    "/assets/sehir1/roma1.webp",
-    "/assets/sehir1/roma2.webp"
+    "/assets/sehir/roma1.webp",
+    "/assets/sehir/roma2.webp"
   ]
 },
 {
   "slug": "mekke",
   "region": "asya",
-   "image": "/assets/sehir1/mekke.webp",  
+   "image": "/assets/sehir/mekke.webp",  
 "additionalImages": [
-    "/assets/sehir1/mekke1.webp"
+    "/assets/sehir/mekke1.webp"
 ],
 "names": {
     "tr": "Mekke",
