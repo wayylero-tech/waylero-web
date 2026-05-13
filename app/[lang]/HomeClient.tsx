@@ -7,6 +7,7 @@ import HomeSearch from './HomeSearch';
 import { useRouter } from "next/navigation"; // App Router için doğrusu budur.
 import { Suspense } from "react"; // 1. Import et
 import HotelCard from "@/components/HotelCard";
+import { wayleroLiveVideos as videos, addSlugs } from "@/videos";
 
 
 const trackClick = (type: string, label: string, destination?: string) => {
@@ -844,61 +845,118 @@ export default function HomeClient({
   className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20 scroll-mt-24"
 >
   <div className="flex items-center justify-between mb-12 border-b border-gray-100 pb-10">
-    {/* Başlık Mavi Gradyan Yapıldı */}
     <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
       {t.blogTitle}
     </h2>
-    <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-colors">
+    <Link 
+      href={getLocalizedLink("/blog")} 
+      className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-all hover:scale-105 active:scale-95"
+    >
       {t.seeAll} →
     </Link>
   </div>
-  <HomeBlogSlider />
+
+  {/* Kartların Büyütüldüğü Slider Alanı */}
+  <div className="w-full">
+    <HomeBlogSlider 
+      /* Eğer Slider bileşenin render prop destekliyorsa veya direkt içine yazıyorsan şu classları kullan: */
+      className="gap-8" 
+    />
+    
+    {/* Kartların içinde olması gereken güncel yapı (Örn: BlogCard.jsx) */}
+    <style jsx global>{`
+      .slick-track { display: flex !important; gap: 20px; }
+      .slick-slide { height: inherit !important; }
+      .blog-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        /* Kartın toplam minimum yüksekliği artırıldı */
+        min-height: 650px; 
+        background: white;
+        border-radius: 2rem;
+        overflow: hidden;
+        border: 1px solid #f3f4f6;
+        transition: all 0.3s ease;
+      }
+      .blog-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+      }
+      .blog-card-image {
+        width: 100%;
+        /* Görsel yüksekliği belirgin şekilde artırıldı */
+        height: 380px; 
+        object-fit: cover;
+      }
+      .blog-card-content {
+        padding: 2.5rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    `}</style>
+  </div>
 </section>
 
 
-       {/* 7. SECTION: VİDEOLAR - ID ve Scroll Margin Eklendi */}
+   {/* 7. SECTION: VİDEOLAR - ID ve Scroll Margin Eklendi */}
 <section 
   id="video-section" 
   className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 lg:px-16 scroll-mt-24"
 >
   <div className="flex items-center justify-between mb-16 border-b border-gray-100 pb-10">
     <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
-  {t.videoTitle}
-</h2>
+      {t.videoTitle}
+    </h2>
     <Link href={getLocalizedLink("/videolar")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold">
       {t.seeAll} →
     </Link>
   </div>
   
-  <div className="flex gap-7 overflow-x-auto pb-6 snap-x scrollbar-hide">
-    {(videos ?? []).slice(0, 4).map((video) => (
-      <div 
-        key={video.id} 
-        onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))} 
-        className="flex-shrink-0 w-[220px] md:w-[320px] snap-start cursor-pointer group"
-      >
-        <div className="relative aspect-[9/16] rounded-2xl overflow-hidden bg-gray-100 shadow-sm group-hover:shadow-xl transition-all">
-          <img 
-            src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`} 
-            alt={video.title} 
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:scale-110 transition-all">
-              <svg className="w-5 h-5 text-white translate-x-[1px]" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M7 6v12l10-6z" />
-              </svg>
-            </div>
-          </div>
-          <div className="absolute bottom-0 left-0 p-5">
-            <h3 className="text-white text-sm font-bold line-clamp-2">{video.title}</h3>
-            <p className="text-orange-300 text-[10px] font-semibold uppercase tracking-widest mt-1">VIDEO</p>
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+  {(addSlugs(videos || [])).slice(0, 4).map((video) => (
+    <div
+      key={video.id}
+      onClick={() => router.push(getLocalizedLink(`/videolar/${video.slug}`))}
+      className="cursor-pointer group"
+    >
+      <div className="relative aspect-[9/16] rounded-3xl overflow-hidden bg-gray-100 shadow-md group-hover:shadow-2xl transition-all duration-500">
+
+        <img
+          src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
+          alt={video.title}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center group-hover:scale-110 transition-all">
+            <svg
+              className="w-6 h-6 text-white translate-x-[1px]"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M7 6v12l10-6z" />
+            </svg>
           </div>
         </div>
+
+        <div className="absolute bottom-0 left-0 p-6">
+          <h3 className="text-white text-lg font-bold line-clamp-2">
+            {video.title}
+          </h3>
+
+          <p className="text-orange-300 text-xs font-semibold uppercase tracking-[0.25em] mt-2">
+            VIDEO
+          </p>
+        </div>
       </div>
-    ))}
-  </div>
+    </div>
+  ))}
+</div>
 </section>
     </main>
   );

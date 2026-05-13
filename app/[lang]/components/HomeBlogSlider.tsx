@@ -40,9 +40,9 @@ export default function HomeBlogSlider() {
             <Link
               key={`${post.slug}-${i}`}
               href={localizedHref}
-              className="group w-full h-[450px] rounded-[2.5rem] overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 flex flex-col"
+              className="group w-full h-[750px] rounded-[2.5rem] overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 flex flex-col"
             >
-              <div className="h-72 overflow-hidden rounded-t-[2.5rem]">
+              <div className="h-150 overflow-hidden rounded-t-[2.5rem]">
                 <img
                   src={post.image}
                   alt={displayTitle}

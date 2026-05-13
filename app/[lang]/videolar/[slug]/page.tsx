@@ -7,27 +7,32 @@ type Props = {
   params: Promise<{ slug: string; lang: string }>;
 };
 
-// 🌍 Yardımcı Dil Fonksiyonu (Parametreden dili temizce ayıklar)
 const getLang = (lang: string) => (lang === "en" ? "en" : "tr");
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, lang } = await params;
   const currentLang = getLang(lang);
 
-  const videosWithSlugs = addSlugs(wayleroLiveVideos);
-  const baseUrl = "https://www.waylero.com";
+  console.log("--- METADATA LOG BAŞLADI ---");
+  console.log("Gelen Parametreler:", { slug, lang });
 
+  const videosWithSlugs = addSlugs(wayleroLiveVideos);
+  
+  // Aranan slug ile listedeki slugları karşılaştır
   const video = videosWithSlugs.find(
-    (v: any) => v.slug.toLowerCase() === slug.toLowerCase()
+    (v: any) => v.slug && v.slug.toLowerCase() === slug?.toLowerCase()
   );
 
   if (!video) {
+    console.error("❌ METADATA: Video bulunamadı. Aranan Slug:", slug);
     return {
       title: "Video Not Found | Waylero",
-      description: "Video not found",
     };
   }
 
+  console.log("✅ METADATA: Video bulundu:", video.title, "Slug:", video.slug);
+
+  const baseUrl = "https://www.waylero.com";
   const t = {
     tr: {
       title: `${video.title} | Canlı İzle | Waylero Live`,
@@ -45,7 +50,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t.title,
     description: t.desc,
-
     alternates: {
       canonical: url,
       languages: {
@@ -53,34 +57,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "en-US": `${baseUrl}/en/videolar/${video.slug}`,
       },
     },
-
     openGraph: {
       title: t.title,
       description: t.desc,
       url,
-      siteName: "Waylero",
-      type: "video.other",
-      locale: currentLang === "en" ? "en_US" : "tr_TR",
-      images: [
-        {
-          url: image,
-          width: 1200,
-          height: 630,
-          alt: video.title,
-        },
-      ],
+      images: [{ url: image, width: 1200, height: 630, alt: video.title }],
     },
-
     twitter: {
       card: "summary_large_image",
       title: t.title,
       description: t.desc,
       images: [image],
-      creator: "@waylero",
-    },
-
-    other: {
-      "theme-color": "#000000",
     },
   };
 }
@@ -88,12 +75,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params }: Props) {
   const { slug, lang } = await params;
   const currentLang = getLang(lang);
+
+  console.log("--- PAGE LOG BAŞLADI ---");
+  console.log("Gelen URL Slug:", slug);
+
+  // 1. Ham veriyi kontrol et (Eğer burada title yoksa slug oluşmaz)
+  // console.log("Ham Veri İlk Kayıt:", wayleroLiveVideos[0]);
+
+  // 2. addSlugs sonrası durumu kontrol et
   const videosWithSlugs = addSlugs(wayleroLiveVideos);
-  const video = videosWithSlugs.find((v: any) => v.slug.toLowerCase() === slug.toLowerCase());
+  
+  console.log("İlk 3 Video Slug Durumu:");
+  videosWithSlugs.slice(0, 3).forEach((v: any, i: number) => {
+    console.log(`${i+1}. Başlık: ${v.title} -> Oluşan Slug: ${v.slug}`);
+  });
 
-  if (!video) notFound();
+  const video = videosWithSlugs.find(
+    (v: any) => v.slug && v.slug.toLowerCase() === slug?.toLowerCase()
+  );
 
-  // 🔹 JSON-LD Şeması (Dile duyarlı hale getirildi)
+  if (!video) {
+    console.error("❌ PAGE: Video eşleşmedi! 404'e yönlendiriliyor.");
+    notFound();
+  }
+
+  console.log("✅ PAGE: Video başarıyla yüklendi:", video.slug);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
@@ -116,8 +123,6 @@ export default async function Page({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      
-      {/* VideoModal'a dili de gönderiyoruz ki içindeki butonlar da değişsin */}
       <VideoModal video={video} lang={currentLang} />
     </div>
   );
