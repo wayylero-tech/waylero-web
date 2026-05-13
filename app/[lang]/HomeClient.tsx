@@ -845,59 +845,15 @@ export default function HomeClient({
   className="w-full max-w-[1800px] mx-auto px-4 lg:px-16 my-20 scroll-mt-24"
 >
   <div className="flex items-center justify-between mb-12 border-b border-gray-100 pb-10">
+    {/* Başlık Mavi Gradyan Yapıldı */}
     <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
       {t.blogTitle}
     </h2>
-    <Link 
-      href={getLocalizedLink("/blog")} 
-      className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-all hover:scale-105 active:scale-95"
-    >
+    <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-colors">
       {t.seeAll} →
     </Link>
   </div>
-
-  {/* Kartların Büyütüldüğü Slider Alanı */}
-  <div className="w-full">
-    <HomeBlogSlider 
-      /* Eğer Slider bileşenin render prop destekliyorsa veya direkt içine yazıyorsan şu classları kullan: */
-      className="gap-8" 
-    />
-    
-    {/* Kartların içinde olması gereken güncel yapı (Örn: BlogCard.jsx) */}
-    <style jsx global>{`
-      .slick-track { display: flex !important; gap: 20px; }
-      .slick-slide { height: inherit !important; }
-      .blog-card {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        /* Kartın toplam minimum yüksekliği artırıldı */
-        min-height: 650px; 
-        background: white;
-        border-radius: 2rem;
-        overflow: hidden;
-        border: 1px solid #f3f4f6;
-        transition: all 0.3s ease;
-      }
-      .blog-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
-      }
-      .blog-card-image {
-        width: 100%;
-        /* Görsel yüksekliği belirgin şekilde artırıldı */
-        height: 380px; 
-        object-fit: cover;
-      }
-      .blog-card-content {
-        padding: 2.5rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-    `}</style>
-  </div>
+  <HomeBlogSlider />
 </section>
 
 
