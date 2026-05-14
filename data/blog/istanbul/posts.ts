@@ -12,12 +12,12 @@ export const istanbulPosts = [
       en: "Explore Istanbul in 3 days like a local! A complete itinerary from the mysteries of the Historic Peninsula to Bosphorus breezes and the vibrant energy of Kadikoy."
     },
 
-        image: "/assets/genel/sultanahmet.webp",
+        image: "/assets/sehir/sultanahmet.webp",
 
     gallery: [
       "/assets/genel/ayasofya.webp",
       "/assets/genel/galata.webp",
-      "/assets/genel/sultanahmet.webp"
+      "/assets/sehir/sultanahmet.webp"
     ],
 
     date: "2025-02-10",

@@ -32,6 +32,7 @@ import { burdurPosts } from "@/data/blog/burdur/posts";
 import { kibyraPosts } from "@/data/blog/burdur/kibyrapost";
 import { sagalassosPosts } from "@/data/blog/burdur/sagalassosposts";
 import { saldaPosts } from "@/data/blog/burdur/saldaposts";
+import { istanbulPosts } from "@/data/blog/istanbul/posts";
 
 
 export const allPosts = [
@@ -68,6 +69,7 @@ export const allPosts = [
 ...burdurPosts,
 ...kibyraPosts,
 ...sagalassosPosts,
-...saldaPosts
+...saldaPosts,
+...istanbulPosts
 
 ];

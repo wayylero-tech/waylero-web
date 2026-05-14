@@ -4,194 +4,101 @@ import type { NextRequest } from "next/server";
 import rawSlugToCityMap from "./slug-city-map.json";
 import rawCityToCountryMap from "./maps/city-to-country-map.json";
 
-// ✅ STATIC MAPS
 const slugToCityMap = rawSlugToCityMap as Record<string, string>;
 const cityToCountryMap = rawCityToCountryMap as Record<string, string>;
-
-// ✅ REAL BOT BLOCK
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
 
-// 🌐 LOCALE HELPER
 function getLocale(request: NextRequest) {
-  console.log("----------- GET LOCALE -----------");
-
-  // ✅ REFERER FIRST
   const referer = request.headers.get("referer");
-
-  console.log("REFERER:", referer);
-
   if (referer) {
     try {
       const refererUrl = new URL(referer);
-
-      const firstSegment = refererUrl.pathname
-        .split("/")
-        .filter(Boolean)[0];
-
-      console.log("REFERER SEGMENT:", firstSegment);
-
-      if (firstSegment === "tr" || firstSegment === "en") {
-        console.log("LOCALE FROM REFERER:", firstSegment);
-        return firstSegment;
-      }
-    } catch (e) {
-      console.log("REFERER ERROR:", e);
-    }
+      const firstSegment = refererUrl.pathname.split("/").filter(Boolean)[0];
+      if (firstSegment === "tr" || firstSegment === "en") return firstSegment;
+    } catch (e) {}
   }
-
-  // ✅ COOKIE
   const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value;
-
-  console.log("COOKIE:", cookieLocale);
-
-  if (cookieLocale === "en" || cookieLocale === "tr") {
-    console.log("LOCALE FROM COOKIE:", cookieLocale);
-    return cookieLocale;
-  }
-
-  // ✅ COUNTRY
+  if (cookieLocale === "en" || cookieLocale === "tr") return cookieLocale;
   const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
-
-  console.log("COUNTRY:", country);
-
-  if (country === "TR") {
-    console.log("LOCALE FROM COUNTRY: tr");
-    return "tr";
-  }
-
-  // ✅ ACCEPT LANGUAGE
+  if (country === "TR") return "tr";
   const lang = request.headers.get("accept-language") || "";
-
-  console.log("ACCEPT LANGUAGE:", lang);
-
-  const detected = lang.toLowerCase().includes("tr") ? "tr" : "en";
-
-  console.log("LOCALE FROM ACCEPT LANGUAGE:", detected);
-
-  return detected;
+  return lang.toLowerCase().includes("tr") ? "tr" : "en";
 }
 
 export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") || "";
-  const { pathname, search } = request.nextUrl;
+  const { pathname, search, searchParams } = request.nextUrl;
 
-  console.log("\n=================================");
-  console.log("PATHNAME:", pathname);
-  console.log("SEARCH:", search);
-  console.log("USER AGENT:", ua);
-
-  // ⚡ BOT BLOCK
-  if (BAD_BOT_REGEX.test(ua)) {
-    console.log("BLOCKED BOT");
-    return new NextResponse("Blocked", { status: 403 });
-  }
-
-  // ⚡ STATIC & INTERNAL SKIP
-  if (
-    pathname.startsWith("/_next") ||
-    pathname.startsWith("/api") ||
-    pathname.includes(".")
-  ) {
-    console.log("STATIC/API SKIP");
+  // ⚡ BOT BLOCK & STATIC SKIP
+  if (BAD_BOT_REGEX.test(ua)) return new NextResponse("Blocked", { status: 403 });
+  if (pathname.startsWith("/_next") || pathname.startsWith("/api") || pathname.includes(".")) {
     return NextResponse.next();
   }
 
   const segments = pathname.split("/").filter(Boolean);
-
-  console.log("SEGMENTS:", segments);
-
   const currentLocale = segments[0]?.toLowerCase();
-
-  console.log("CURRENT LOCALE:", currentLocale);
-
   const isLocale = currentLocale === "en" || currentLocale === "tr";
 
-  console.log("IS LOCALE:", isLocale);
-
-  // 🚀 ROOT → LOCALE
+  // 🚀 1. ROOT REDIRECT
   if (pathname === "/") {
     const locale = getLocale(request);
-
-    console.log("ROOT REDIRECT:", locale);
-
-    const url = new URL(`/${locale}`, request.url);
-
-    return NextResponse.redirect(url, 307);
+    return NextResponse.redirect(new URL(`/${locale}`, request.url), 307);
   }
 
-  // 🚀 LOCALE YOK
+  // 🚀 2. LOCALE OLMAYAN URL'LERİ YAKALA
   if (!isLocale) {
     const locale = getLocale(request);
-
-    console.log("DETECTED LOCALE:", locale);
-
     const slug = (segments[0] || "").toLowerCase();
 
-    console.log("SLUG:", slug);
-
+    // --- SEO URL (KEŞFET) ---
     const city = slugToCityMap[slug];
-
-    console.log("CITY:", city);
-
     const country = city ? cityToCountryMap[city] : null;
-
-    console.log("COUNTRY:", country);
-
-    // ✅ SEO URL
     if (city && country) {
-      const redirectPath =
-        `/${locale}/kesfet/${country}/${city}/${slug}${search}`;
-
-      console.log("SEO REDIRECT:", redirectPath);
-
-      const url = new URL(redirectPath, request.url);
-
-      return NextResponse.redirect(url, 301);
+      return NextResponse.redirect(new URL(`/${locale}/kesfet/${country}/${city}/${slug}${search}`, request.url), 301);
     }
 
-    // ✅ NORMAL REDIRECT
-    const redirectPath = `/${locale}${pathname}${search}`;
+    // --- AKTİVİTELER PARAMETRE DÖNÜŞTÜRÜCÜ (?city=ankara -> /aktiviteler/ankara) ---
+    const cityParam = searchParams.get("city");
+    if (pathname.includes("/aktiviteler") && cityParam) {
+      return NextResponse.redirect(new URL(`/${locale}/aktiviteler/${cityParam.toLowerCase()}`, request.url), 301);
+    }
 
-    console.log("NORMAL REDIRECT:", redirectPath);
+    // --- HAYALET "q" TEMİZLİĞİ VE NORMAL REDIRECT ---
+    let finalSearch = search;
+    if (pathname.includes("/kesfet") && searchParams.has("q")) {
+      finalSearch = ""; 
+    }
 
-    const url = new URL(redirectPath, request.url);
-
-    return NextResponse.redirect(url, 307);
+    return NextResponse.redirect(new URL(`/${locale}${pathname}${finalSearch}`, request.url), 301);
   }
 
-  // 🚀 SHORT URL FIX
+  // 🚀 3. LOCALE VAR AMA PARAMETRE HALA URL'DEYSE (SEO Düzeltmesi)
+  // Örn: /tr/aktiviteler?city=ankara gelirse /tr/aktiviteler/ankara'ya at
+  const cityParam = searchParams.get("city");
+  if (pathname.endsWith("/aktiviteler") && cityParam) {
+    return NextResponse.redirect(new URL(`${pathname}/${cityParam.toLowerCase()}`, request.url), 301);
+  }
+
+  // Hayalet "q" parametresi locale varken de gelirse temizle
+  if (pathname.includes("/kesfet") && searchParams.has("q")) {
+    const url = new URL(request.url);
+    url.searchParams.delete("q");
+    return NextResponse.redirect(url, 301);
+  }
+
+  // 🚀 4. SHORT URL FIX
   const slugSegment = segments[1]?.toLowerCase();
-
-  console.log("SLUG SEGMENT:", slugSegment);
-
   if (slugSegment && slugSegment !== "kesfet" && segments.length <= 2) {
     const city = slugToCityMap[slugSegment];
-
-    console.log("SHORT URL CITY:", city);
-
     const country = city ? cityToCountryMap[city] : null;
-
-    console.log("SHORT URL COUNTRY:", country);
-
     if (city && country) {
-      const redirectPath =
-        `/${currentLocale}/kesfet/${country}/${city}/${slugSegment}${search}`;
-
-      console.log("SHORT URL REDIRECT:", redirectPath);
-
-      const url = new URL(redirectPath, request.url);
-
-      return NextResponse.redirect(url, 301);
+      return NextResponse.redirect(new URL(`/${currentLocale}/kesfet/${country}/${city}/${slugSegment}${search}`, request.url), 301);
     }
   }
-
-  console.log("NEXT()");
-  console.log("=================================\n");
 
   return NextResponse.next();
 }
 
-// 🎯 CLEAN MATCHER
 export const config = {
   matcher: [
     "/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff|woff2)$).*)",

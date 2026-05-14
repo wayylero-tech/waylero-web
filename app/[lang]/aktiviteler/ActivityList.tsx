@@ -105,6 +105,18 @@ export default function ActivityList({
 
   function pushWithParams(newParams: Record<string, string | null>) {
     const params = new URLSearchParams(searchParams.toString());
+    
+    // Eğer yeni parametreler içinde 'city' varsa
+    if (newParams.city) {
+      // ?city=ankara yerine direkt /tr/aktiviteler/ankara'ya gönder
+      // pathname şu an '/tr/aktiviteler' veya '/tr/aktiviteler/istanbul' olabilir
+      // O yüzden baz yolu '/aktiviteler' olarak sabitliyoruz
+      const basePath = pathname.split('/').slice(0, 3).join('/'); // /tr/aktiviteler kısmını alır
+      router.push(`${basePath}/${newParams.city}`, { scroll: false });
+      return;
+    }
+
+    // Diğer parametreler (tarih vb.) için eski düzen devam
     Object.entries(newParams).forEach(([key, value]) => {
       if (value === null) params.delete(key);
       else params.set(key, value);
@@ -212,10 +224,10 @@ export default function ActivityList({
                   key={c}
                   onClick={() => pushWithParams({ city: slugify(c) })}
                   className={`px-6 py-3 text-[10px] font-black border rounded-2xl transition-all tracking-widest uppercase ${
-                    slugify(initialCityName) === slugify(c)
-                    ? "bg-orange-600 text-white border-orange-600 shadow-xl shadow-orange-200" 
-                    : "bg-white text-gray-400 border-gray-100 hover:border-orange-200 hover:text-orange-600"
-                  }`}
+  slugify(initialCityName) === slugify(c) // Burası zaten doğru ama kontrol et
+  ? "bg-orange-600 text-white border-orange-600 shadow-xl shadow-orange-200" 
+  : "bg-white text-gray-400 border-gray-100 hover:border-orange-200 hover:text-orange-600"
+}`}
                 >
                   {c}
                 </button>
