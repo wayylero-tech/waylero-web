@@ -109,15 +109,20 @@ const route = `/blog/${city}/${sanitize(post.slug)}`;
 
   // 6️⃣ AKTİVİTELER, ETKİNLİKLER & HOTELS (0.7)
 
-  // ✅ AKTİVİTELER - TÜM LİSTE (Eksiksiz!)
-  const activityCities = [ "adana","adiyaman","afyon","afyonkarahisar","agri","aksaray","amasya", "ankara","antalya","ardahan","artvin","aydin","balikesir","bartin", "batman","bayburt","bilecik","bingol","bitlis","bolu","burdur", "bursa","canakkale","cankiri","corum","denizli","diyarbakir","duzce", "edirne","elazig","erzincan","erzurum","eskisehir","gaziantep","giresun", "gumushane","hakkari","hatay","igdir","isparta","istanbul","izmir", "kahramanmaras","karabuk","karaman","kars","kastamonu","kayseri","kilis", "kirikkale","kirklareli","kirsehir","kktc","kocaeli","konya","kutahya", "lefkosa","malatya","manisa","mardin","mersin","mugla","mus","nevsehir", "nigde","ordu","osmaniye","rize","sakarya","samsun","sanliurfa","siirt", "sinop","sirnak","sivas","tekirdag","tokat","trabzon","tunceli", "usak","van","yalova","yozgat","zonguldak" ];
+  // ✅ AKTİVİTELER - YENİ SEO DOSTU LİSTE
+const activityCities = [ "adana","adiyaman","afyon","afyonkarahisar","agri","aksaray","amasya", "ankara","antalya","ardahan","artvin","aydin","balikesir","bartin", "batman","bayburt","bilecik","bingol","bitlis","bolu","burdur", "bursa","canakkale","cankiri","corum","denizli","diyarbakir","duzce", "edirne","elazig","erzincan","erzurum","eskisehir","gaziantep","giresun", "gumushane","hakkari","hatay","igdir","isparta","istanbul","izmir", "kahramanmaras","karabuk","karaman","kars","kastamonu","kayseri","kilis", "kirikkale","kirklareli","kirsehir","kktc","kocaeli","konya","kutahya", "lefkosa","malatya","manisa","mardin","mersin","mugla","mus","nevsehir", "nigde","ordu","osmaniye","rize","sakarya","samsun","sanliurfa","siirt", "sinop","sirnak","sivas","tekirdag","tokat","trabzon","tunceli", "usak","van","yalova","yozgat","zonguldak" ];
 
-  activityCities.forEach((city) => {
-    if (!city) return;
-    locales.forEach((locale) => {
-      entries.push({ url: buildUrl(`/aktiviteler?city=${city}`, locale), lastModified: now, priority: 0.7 });
+activityCities.forEach((city) => {
+  if (!city) return;
+  locales.forEach((locale) => {
+    // BURAYI GÜNCELLEDİK: ?city= yerine direkt / ekledik
+    entries.push({ 
+      url: buildUrl(`/aktiviteler/${city}`, locale), 
+      lastModified: now, 
+      priority: 0.7 
     });
   });
+});
 
   // Etkinlikler
   const eventCities = Array.from(new Set(toursData.map((t: any) => t.city?.toLowerCase()))).filter(Boolean);
