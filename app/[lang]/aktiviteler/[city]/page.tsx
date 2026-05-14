@@ -107,9 +107,12 @@ export default async function CityActivitiesPage({
 
     const finalUrl = `${BASE_SITE_URL}/api/events?${apiParams.toString()}`;
     const res = await fetch(finalUrl, {
-      next: { revalidate: 3600 }, // Tarihli aramalarda çok uzun cache bazen kafa karıştırır, 1 saat iyidir
-      headers: { 'Accept': 'application/json' }
-    });
+  next: { revalidate: 3600 },
+  headers: {
+    'Accept': 'application/json',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+  }
+});
 
     if (res.ok) {
       const data = await res.json();
