@@ -118,6 +118,24 @@ export default async function CityPage({ params }: Props) {
   const regionSlug = countryToRegionMap[countryKey] || countryKey;
   const exploreLink = `/${isEn ? "en/" : ""}kesfet/${regionSlug}/${city.slug}`;
 
+
+  // 🔥 Hotel link
+const availableHotelCities = ["istanbul", "paris", "roma" ,"viyana","dubai","bangkok", "antalya"]
+
+const hotelLink = availableHotelCities.includes(city.slug)
+  ? `/${lang}/hotels/${city.slug}`
+  : `/${lang}/hotels`;
+
+  // 🔥 Etkinlik/Tur sayfası olan şehirler
+const availableTourCities = ["istanbul", "paris", "roma" ,"viyana","dubai","bangkok", "antalya"];
+
+// 🔥 Tour link
+const tourLink = availableTourCities.includes(city.slug)
+  ? `/${lang}/etkinlikler/${city.slug}`
+  : `/${lang}/etkinlikler`;
+
+
+
   return (
     <main className="min-h-screen bg-white text-gray-900">
       {/* Hero Section */}
@@ -168,11 +186,69 @@ export default async function CityPage({ params }: Props) {
             <span className="text-5xl text-orange-500 font-serif not-italic float-left mr-3 leading-none">“</span>
             {desc}
           </div>
-          <div className="flex flex-col items-center pb-24 space-y-6">
-            <a href={exploreLink} className="group relative px-16 py-6 rounded-full bg-black text-white font-bold transition-all hover:scale-105">
-              <span className="tracking-widest uppercase text-sm">📍 {t.explore} {name}</span>
-            </a>
-          </div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 pb-24">
+
+  {/* Explore */}
+  <a
+    href={exploreLink}
+    className="group relative overflow-hidden px-10 py-6 rounded-full bg-black text-white transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+  >
+    <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+    <div className="relative flex flex-col items-start">
+      <span className="text-[10px] tracking-[0.35em] uppercase text-orange-400 font-black">
+        📍 {isEn ? "Discover" : "Keşfet"}
+      </span>
+
+      <span className="text-sm md:text-base font-semibold mt-1">
+        {isEn
+          ? `Explore the best places in ${name}`
+          : `${name} şehrindeki en güzel yerleri keşfet`}
+      </span>
+    </div>
+  </a>
+
+  {/* Hotels */}
+  <a
+    href={hotelLink}
+    className="group relative overflow-hidden px-10 py-6 rounded-full bg-orange-500 text-white transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+  >
+    <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+    <div className="relative flex flex-col items-start">
+      <span className="text-[10px] tracking-[0.35em] uppercase font-black">
+        🏨 {isEn ? "Stay" : "Konaklama"}
+      </span>
+
+      <span className="text-sm md:text-base font-semibold mt-1">
+        {isEn
+          ? `Find the best hotels in ${name}`
+          : `${name} şehrindeki en iyi konaklamaları keşfet`}
+      </span>
+    </div>
+  </a>
+
+  {/* Tours */}
+  <a
+    href={tourLink}
+    className="group relative overflow-hidden px-10 py-6 rounded-full bg-neutral-900 text-white transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+  >
+    <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+    <div className="relative flex flex-col items-start">
+      <span className="text-[10px] tracking-[0.35em] uppercase text-orange-400 font-black">
+        🎟️ {isEn ? "Experience" : "Deneyim"}
+      </span>
+
+      <span className="text-sm md:text-base font-semibold mt-1">
+        {isEn
+          ? `Join tours & events in ${name}`
+          : `${name} şehrindeki turlar ve etkinlikleri deneyimle`}
+      </span>
+    </div>
+  </a>
+
+</div>
         </div>
       </section>
     </main>

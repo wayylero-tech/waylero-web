@@ -4,8 +4,10 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useState } from "react";
 import { Calendar, BookOpen, Sparkles, LayoutGrid, Mail, Share2, MapPin, Compass, Heart } from "lucide-react";
+import Link from "next/link";
 
 interface Post {
+  slug: string;
   title: { tr: string; en: string };
   content: { tr: string; en: string };
   image?: string;
@@ -13,7 +15,6 @@ interface Post {
   date?: string;
   authorName?: string;
   authorEmail?: string;
-
   social?: {
     instagram?: string;
     twitter?: string;
@@ -22,7 +23,22 @@ interface Post {
   };
 }
 
-export default function BlogDetail({ post, currentLang }: { post: Post, currentLang: "tr" | "en" }) {
+interface RelatedPost {
+  slug: string;
+  city: string;
+  title: { tr: string; en: string };
+  image?: string;
+}
+
+export default function BlogDetail({
+  post,
+  currentLang,
+  relatedPosts = [],
+}: {
+  post: Post;
+  currentLang: "tr" | "en";
+  relatedPosts?: RelatedPost[];
+}) {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   
@@ -108,122 +124,120 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
         </div>
 
         {/* TOP GALLERY GRID */}
-<div className="max-w-6xl mx-auto relative z-10 px-4 mt-12">
-  {gridImages.length > 0 && (
-    <>
-      {/* 1 IMAGE */}
-      {gridImages.length === 1 && (
-        <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
-          <div
-            className="relative aspect-[16/9] cursor-zoom-in group"
-            onClick={() => setLightboxImage(gridImages[0])}
-          >
-            <img
-  src={`${gridImages[0]}?f=auto&q=75&w=1400`}
-  alt="Main"
-  loading="eager"
-  fetchPriority="high"
-  decoding="async"
-  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-/>
-          </div>
-        </div>
-      )}
-
-      {/* 2 IMAGES */}
-      {gridImages.length === 2 && (
-        <div className="grid grid-cols-2 gap-3 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
-          {gridImages.map((img, idx) => (
-            <div
-              key={idx}
-              className="relative aspect-[4/5] cursor-zoom-in group overflow-hidden"
-              onClick={() => setLightboxImage(img)}
-            >
-              <img
-  src={`${img}?f=auto&q=60&w=800`}
-  alt={`Gallery ${idx}`}
-  loading="lazy"
-  decoding="async"
-  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-/>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* 3 IMAGES */}
-      {gridImages.length === 3 && (
-        <div className="grid grid-cols-3 gap-3 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
-          {gridImages.map((img, idx) => (
-            <div
-              key={idx}
-              className="relative aspect-[3/4] cursor-zoom-in group overflow-hidden"
-              onClick={() => setLightboxImage(img)}
-            >
-              <img
-  src={`${img}?f=auto&q=55&w=600`}
-  alt={`Gallery ${idx}`}
-  loading="lazy"
-  decoding="async"
-  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-/>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* 4+ IMAGES */}
-      {gridImages.length >= 4 && (
-        <div className="grid grid-cols-4 gap-2 md:gap-3 rounded-[2.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white aspect-[4/3] md:aspect-[21/10]">
-          <div
-            className="col-span-2 row-span-2 relative group overflow-hidden cursor-zoom-in"
-            onClick={() => setLightboxImage(gridImages[0])}
-          >
-           <img
-  src={`${gridImages[0]}?f=auto&q=70&w=1200`}
-  alt="Main"
-  loading="eager"
-  fetchPriority="high"
-  decoding="async"
-  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-/>
-          </div>
-
-          {[1, 2, 3, 4].map((idx) => (
-            <div
-              key={idx}
-              className="relative group overflow-hidden cursor-zoom-in bg-gray-50"
-              onClick={() =>
-                gridImages[idx] && setLightboxImage(gridImages[idx])
-              }
-            >
-              {gridImages[idx] && (
-                <>
-                  <img
-  src={`${gridImages[idx]}?f=auto&q=50&w=400`}
-  alt={`Gallery ${idx}`}
-  loading="lazy"
-  decoding="async"
-  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-/>
-
-                  {idx === 4 && allImages.length > 5 && (
-                    <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white">
-                      <LayoutGrid size={24} className="mb-1" />
-                      <span className="text-[10px] font-black tracking-widest">
-                        +{allImages.length - 5}
-                      </span>
-                    </div>
-                  )}
-                </>
+        <div className="max-w-6xl mx-auto relative z-10 px-4 mt-12">
+          {gridImages.length > 0 && (
+            <>
+              {/* 1 IMAGE */}
+              {gridImages.length === 1 && (
+                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
+                  <div
+                    className="relative aspect-[16/9] cursor-zoom-in group"
+                    onClick={() => setLightboxImage(gridImages[0])}
+                  >
+                    <img
+                      src={`${gridImages[0]}?f=auto&q=75&w=1400`}
+                      alt={`${displayTitle} Ana Görseli`}
+                      loading="eager"
+                      fetchPriority="high"
+                      decoding="async"
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
               )}
-            </div>
-          ))}
+
+              {/* 2 IMAGES */}
+              {gridImages.length === 2 && (
+                <div className="grid grid-cols-2 gap-3 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
+                  {gridImages.map((img, idx) => (
+                    <div
+                      key={idx}
+                      className="relative aspect-[4/5] cursor-zoom-in group overflow-hidden"
+                      onClick={() => setLightboxImage(img)}
+                    >
+                      <img
+                        src={`${img}?f=auto&q=60&w=800`}
+                        alt={`${displayTitle} - Detay Görseli ${idx + 1}`}
+                        loading="lazy"
+                        decoding="async"
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* 3 IMAGES */}
+              {gridImages.length === 3 && (
+                <div className="grid grid-cols-3 gap-3 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
+                  {gridImages.map((img, idx) => (
+                    <div
+                      key={idx}
+                      className="relative aspect-[3/4] cursor-zoom-in group overflow-hidden"
+                      onClick={() => setLightboxImage(img)}
+                    >
+                      <img
+                        src={`${img}?f=auto&q=55&w=600`}
+                        alt={`${displayTitle} - Galeri Görseli ${idx + 1}`}
+                        loading="lazy"
+                        decoding="async"
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* 4+ IMAGES */}
+              {gridImages.length >= 4 && (
+                <div className="grid grid-cols-4 gap-2 md:gap-3 rounded-[2.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white aspect-[4/3] md:aspect-[21/10]">
+                  <div
+                    className="col-span-2 row-span-2 relative group overflow-hidden cursor-zoom-in"
+                    onClick={() => setLightboxImage(gridImages[0])}
+                  >
+                    <img
+                      src={`${gridImages[0]}?f=auto&q=70&w=1200`}
+                      alt={`${displayTitle} Ana Görseli`}
+                      loading="eager"
+                      fetchPriority="high"
+                      decoding="async"
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                  </div>
+
+                  {[1, 2, 3, 4].map((idx) => (
+                    <div
+                      key={idx}
+                      className="relative group overflow-hidden cursor-zoom-in bg-gray-50"
+                      onClick={() => gridImages[idx] && setLightboxImage(gridImages[idx])}
+                    >
+                      {gridImages[idx] && (
+                        <>
+                          <img
+                            src={`${gridImages[idx]}?f=auto&q=50&w=400`}
+                            alt={`${displayTitle} - Galeri Görseli ${idx}`}
+                            loading="lazy"
+                            decoding="async"
+                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                          />
+
+                          {idx === 4 && allImages.length > 5 && (
+                            <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white">
+                              <LayoutGrid size={24} className="mb-1" />
+                              <span className="text-[10px] font-black tracking-widest">
+                                +{allImages.length - 5}
+                              </span>
+                            </div>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
         </div>
-      )}
-    </>
-  )}
-</div>
       </section>
 
       {/* CONTENT SECTION */}
@@ -239,27 +253,42 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
                   h3: ({ children }) => <h3 className="text-2xl md:text-3xl font-serif font-semibold mt-10 mb-4 text-gray-800">{children}</h3>,
                   p: ({ children }) => <p className="text-base md:text-lg leading-relaxed text-gray-600 mb-8">{children}</p>,
                   
-                  // ✅ BU KISIM MARKDOWN İÇİNDEKİ RESİMLERİ KURTARIR
+                  // Site içi linkleri Next.js Link'i yaparak sayfayı uçuran kısım:
+                  a: ({ href, children }) => {
+                    if (href?.startsWith("http")) {
+                      return (
+                        <a href={href} target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline font-bold">
+                          {children}
+                        </a>
+                      );
+                    }
+                    return (
+                      <Link href={href || "#"} className="text-orange-600 hover:underline font-bold">
+                        {children}
+                      </Link>
+                    );
+                  },
+
                   img: ({ ...props }) => (
-  <div className="my-12 relative group">
-    <img 
-  {...props}
-  src={`${props.src}?f=auto&q=70&w=1200`}
-  loading="lazy"
-  decoding="async"
-  alt={props.alt || "Waylero Journal"} 
-  className="w-full h-auto rounded-[2.5rem] shadow-xl transition-transform duration-500 group-hover:scale-[1.01] cursor-zoom-in border-4 border-white shadow-gray-200"
-      onClick={() => {
-        if (props.src) setLightboxImage(props.src as string);
-      }}
-    />
-    {props.alt && (
-      <span className="block text-center text-xs font-medium text-gray-400 mt-4 tracking-widest uppercase italic font-sans">
-        — {props.alt}
-      </span>
-    )}
-  </div>
-),
+                    <div className="my-12 relative group">
+                      <img 
+                        {...props}
+                        src={`${props.src}?f=auto&q=70&w=1200`}
+                        loading="lazy"
+                        decoding="async"
+                        alt={props.alt || `${displayTitle} İçerik Görseli`} 
+                        className="w-full h-auto rounded-[2.5rem] shadow-xl transition-transform duration-500 group-hover:scale-[1.01] cursor-zoom-in border-4 border-white shadow-gray-200"
+                        onClick={() => {
+                          if (props.src) setLightboxImage(props.src as string);
+                        }}
+                      />
+                      {props.alt && (
+                        <span className="block text-center text-xs font-medium text-gray-400 mt-4 tracking-widest uppercase italic font-sans">
+                          — {props.alt}
+                        </span>
+                      )}
+                    </div>
+                  ),
                   
                   li: ({ children }) => (
                     <li className="text-base md:text-lg text-gray-600 mb-4 flex gap-3 italic">
@@ -298,48 +327,29 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
                   <h4 className="text-3xl font-serif font-bold text-gray-900 mt-1">{post.authorName || ui.team}</h4>
                   {post.authorEmail && <p className="text-blue-500/70 text-sm mt-1 font-bold">{post.authorEmail}</p>}
                   {post.social && (
-  <div className="flex items-center justify-center md:justify-start gap-3 mt-3 flex-wrap">
-    {post.social.instagram && (
-      <a
-        href={post.social.instagram}
-        target="_blank"
-        className="text-pink-500 text-xs font-black hover:underline"
-      >
-        Instagram
-      </a>
-    )}
-
-    {post.social.twitter && (
-      <a
-        href={post.social.twitter}
-        target="_blank"
-        className="text-sky-500 text-xs font-black hover:underline"
-      >
-        X
-      </a>
-    )}
-
-    {post.social.linkedin && (
-      <a
-        href={post.social.linkedin}
-        target="_blank"
-        className="text-blue-600 text-xs font-black hover:underline"
-      >
-        LinkedIn
-      </a>
-    )}
-
-    {post.social.website && (
-      <a
-        href={post.social.website}
-        target="_blank"
-        className="text-gray-700 text-xs font-black hover:underline"
-      >
-        Website
-      </a>
-    )}
-  </div>
-)}
+                    <div className="flex items-center justify-center md:justify-start gap-3 mt-3 flex-wrap">
+                      {post.social.instagram && (
+                        <a href={post.social.instagram} target="_blank" className="text-pink-500 text-xs font-black hover:underline">
+                          Instagram
+                        </a>
+                      )}
+                      {post.social.twitter && (
+                        <a href={post.social.twitter} target="_blank" className="text-sky-500 text-xs font-black hover:underline">
+                          X
+                        </a>
+                      )}
+                      {post.social.linkedin && (
+                        <a href={post.social.linkedin} target="_blank" className="text-blue-600 text-xs font-black hover:underline">
+                          LinkedIn
+                        </a>
+                      )}
+                      {post.social.website && (
+                        <a href={post.social.website} target="_blank" className="text-gray-700 text-xs font-black hover:underline">
+                          Website
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-3">
@@ -367,10 +377,10 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
             <div className="sticky top-24 space-y-10">
               <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm relative overflow-hidden group">
                 <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                   <Compass size={80} />
+                  <Compass size={80} />
                 </div>
                 <h3 className="font-serif font-bold text-xl mb-4 flex items-center gap-2">
-                   {post.authorName ? `👤 ${post.authorName}` : ui.journal}
+                  {post.authorName ? `👤 ${post.authorName}` : ui.journal}
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed font-medium">
                   {ui.meta}
@@ -394,14 +404,54 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
                 )}
               </div>
 
+              {/* RELATED POSTS */}
+              {relatedPosts.length > 0 && (
+                <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm group">
+                  <h3 className="font-serif font-bold text-xl mb-6 flex items-center gap-2">
+                    <Compass size={20} className="text-orange-500" />
+                    {isEn ? "More From This City" : "Bu Şehirden Daha Fazla"}
+                  </h3>
+
+                  <div className="space-y-4">
+                    {relatedPosts.map((item, idx) => (
+                      <Link
+                        key={idx}
+                        href={`/${lang}/blog/${item.city}/${item.slug}`}
+                        className="group block rounded-2xl overflow-hidden border border-gray-100 hover:border-orange-200 transition-all bg-gray-50 hover:bg-white hover:shadow-lg"
+                      >
+                        {item.image && (
+                          <div className="aspect-[16/9] overflow-hidden">
+                            <img
+                              src={`${item.image}?f=auto&q=60&w=800`}
+                              alt={item.title?.[lang] || item.title?.tr}
+                              loading="lazy"
+                              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            />
+                          </div>
+                        )}
+
+                        <div className="p-4">
+                          <p className="text-[10px] uppercase tracking-[0.25em] text-orange-500 font-black mb-2">
+                            {isEn ? "Travel Guide" : "Gezi Rehberi"}
+                          </p>
+                          <h4 className="font-serif text-lg font-bold text-gray-900 leading-snug">
+                            {item.title?.[lang] || item.title?.tr}
+                          </h4>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm group">
                 <h3 className="font-serif font-bold text-xl mb-4 flex items-center gap-2">
                   <BookOpen size={20} className="text-orange-500" /> {ui.more}
                 </h3>
                 <p className="text-sm text-gray-500 mb-6">{ui.explore}</p>
-                <a href={lang === "tr" ? "/blog" : "/en/blog"} className="block w-full text-center py-4 bg-gray-50 text-gray-900 rounded-2xl font-black text-[10px] tracking-[0.2em] hover:bg-gray-900 hover:text-white transition-all uppercase">
+                <Link href={lang === "tr" ? "/blog" : "/en/blog"} className="block w-full text-center py-4 bg-gray-50 text-gray-900 rounded-2xl font-black text-[10px] tracking-[0.2em] hover:bg-gray-900 hover:text-white transition-all uppercase">
                   {ui.allPosts}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -412,9 +462,11 @@ export default function BlogDetail({ post, currentLang }: { post: Post, currentL
       {lightboxImage && (
         <div onClick={() => setLightboxImage(null)} className="fixed inset-0 bg-black/98 backdrop-blur-xl flex justify-center items-center z-[9999] p-4 cursor-zoom-out">
           <img
-  src={`${lightboxImage}?f=auto&q=85&w=1600`}
-  alt="Lightbox"
-  decoding="async" className="max-h-[85vh] max-w-[90vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300" />
+            src={`${lightboxImage}?f=auto&q=85&w=1600`}
+            alt="Lightbox"
+            decoding="async" 
+            className="max-h-[85vh] max-w-[90vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300" 
+          />
           <div className="absolute top-10 right-10 text-white/50 text-[10px] font-black tracking-widest uppercase">Kapatmak için tıkla</div>
         </div>
       )}

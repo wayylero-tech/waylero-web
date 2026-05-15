@@ -13,7 +13,7 @@ interface Props {
   params: Promise<{ lang: string; category: string; slug: string }>;
 }
 
-// 🔥 clean helper (stable SEO slug)
+// 🔥 clean helper
 const cleanText = (text: string) => {
   if (!text) return "";
   try {
@@ -29,13 +29,14 @@ const cleanText = (text: string) => {
 // 📌 cache lookup
 const getPostBySlug = cache(async (slug: string) => {
   const normalizedSlug = cleanText(slug);
-  return allPosts.find(
-    (p: any) => cleanText(p.slug) === normalizedSlug
-  ) || null;
+
+  return (
+    allPosts.find((p: any) => cleanText(p.slug) === normalizedSlug) || null
+  );
 });
 
 // --------------------
-// STATIC PARAMS (SEO BOOST)
+// STATIC PARAMS
 // --------------------
 export async function generateStaticParams() {
   const paths: any[] = [];
@@ -52,11 +53,9 @@ export async function generateStaticParams() {
 }
 
 // --------------------
-// METADATA (FULL SEO FIX)
+// METADATA
 // --------------------
-export async function generateMetadata({
-  params,
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const lang = resolvedParams.lang === "en" ? "en" : "tr";
 
@@ -65,8 +64,7 @@ export async function generateMetadata({
 
   const p: any = post;
 
-  const title =
-    p.title?.[lang] || p.title?.tr || "Travel Guide";
+  const title = p.title?.[lang] || p.title?.tr || "Travel Guide";
 
   const description =
     p.seo?.description?.[lang] ||
@@ -74,14 +72,12 @@ export async function generateMetadata({
     p.excerpt?.tr ||
     "";
 
-  const pathUrl = `/${lang}/blog/${resolvedParams.category}/${resolvedParams.slug}`;
-  const url = `${BASE_URL}${pathUrl}`;
+  const url = `${BASE_URL}/${lang}/blog/${resolvedParams.category}/${resolvedParams.slug}`;
 
   return {
     title: `${title} | Waylero Blog`,
     description: description.slice(0, 160),
 
-    // 🔥 canonical + hreflang (CRITICAL SEO)
     alternates: {
       canonical: url,
       languages: {
@@ -90,7 +86,6 @@ export async function generateMetadata({
       },
     },
 
-    // 🔥 OPEN GRAPH (WhatsApp / Discord / Facebook)
     openGraph: {
       title,
       description,
@@ -109,7 +104,6 @@ export async function generateMetadata({
         : [],
     },
 
-    // 🔥 TWITTER
     twitter: {
       card: "summary_large_image",
       title,
@@ -122,9 +116,7 @@ export async function generateMetadata({
 // --------------------
 // PAGE
 // --------------------
-export default async function Page({
-  params,
-}: Props) {
+export default async function Page({ params }: Props) {
   const resolvedParams = await params;
   const lang = resolvedParams.lang === "en" ? "en" : "tr";
 
@@ -136,13 +128,23 @@ export default async function Page({
   const dbCategory = cleanText(p.city || "travel");
   const urlCategory = cleanText(resolvedParams.category);
 
-  // ❌ wrong category protection
+  // ❌ category check
   if (dbCategory !== urlCategory) return notFound();
+
+  // 🔥 RELATED POSTS (BURASI EKLENDİ)
+  const relatedPosts = allPosts
+    .filter(
+      (item: any) =>
+        cleanText(item.city || "travel") === urlCategory &&
+        cleanText(item.slug) !== cleanText(p.slug)
+    )
+    .slice(0, 6);
 
   return (
     <BlogDetail
       post={p}
       currentLang={lang}
+      relatedPosts={relatedPosts}
     />
   );
 }

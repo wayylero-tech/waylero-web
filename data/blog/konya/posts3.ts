@@ -9,9 +9,9 @@ export const konyaRehberPost = [
       tr: "Konya gezilecek yerler 2026 rehberi: Mevlana Müzesi, Sille Köyü, Çatalhöyük, Beyşehir Gölü, Tınaztepe Mağarası ve Konya mutfağı dahil en kapsamlı gezi rotası.",
       en: "Konya travel guide 2026: Explore Mevlana Museum, Sille Village, Çatalhöyük, Lake Beyşehir, Tınaztepe Cave and the rich Konya cuisine in this comprehensive itinerary."
     },
-    image: "/assets/genel/tinaztepe.webp",
+    image: "/assets/genel/mevlana.webp",
     gallery: [
-      "/assets/genel/beysehir.webp",
+"/assets/genel/mevlana.webp",
       "/assets/genel/eflatun.png",
       "/assets/genel/tinaztepe.webp",
       "/assets/genel/esrefoglu.png",
