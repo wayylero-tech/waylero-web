@@ -7931,10 +7931,19 @@
     "country": "kktc",
     "city": "gazimagusa",
     "slug": "othello-kalesi",
-    "name_tr": "Othello Kalesi",
-    "name_en": "Othello Castle",
+    "name_tr": "Kapalı Maraş (Varosha)",
+    "name_en": "Ghost Town Varosha",
     "lat": 35.1281,
     "lng": 33.9156
+  },
+{
+    "country": "kktc",
+    "city": "gazimagusa",
+    "slug": "kapali-maras",
+    "name_tr": "Othello Kalesi",
+    "name_en": "Othello Castle",
+    "lat": 35.1114,
+    "lng": 33.9547
   },
   {
     "country": "kktc",
@@ -12255,6 +12264,42 @@
     "name_en": "Strasbourg, Grande-Île and Neustadt",
     "lat": 48.583,
     "lng": 7.746
+  },
+{
+    "country": "fransa",
+    "city": "strazburg",
+    "slug": "alsas-muzesi",
+    "name_tr": "Alsas Müzesi Strazburg",
+    "name_en": "Alsatian Museum Strasbourg",
+    "lat": 48.579,
+    "lng": 7.751
+  },
+{
+    "country": "fransa",
+    "city": "strazburg",
+    "slug": "orangerie-parki",
+    "name_tr": "Orangerie Parkı Strazburg",
+    "name_en": "Orangerie Park Strasbourg",
+    "lat": 48.589,
+    "lng": 7.775
+  },
+{
+    "country": "fransa",
+    "city": "strazburg",
+    "slug": "european-parliament",
+    "name_tr": "Avrupa Parlamentosu Strazburg",
+    "name_en": "European Parliament Strasbourg",
+    "lat": 48.597,
+    "lng": 7.771
+  },
+{
+    "country": "fransa",
+    "city": "strazburg",
+    "slug": "barrage-vauban",
+    "name_tr": "Barrage Vauban Strazburg",
+    "name_en": "Barrage Vauban Strasbourg",
+    "lat": 43.579,
+    "lng": 7.738
   },
   {
     "country": "fransa",

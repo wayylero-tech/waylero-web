@@ -1,5 +1,30 @@
 // videos.ts
 export const wayleroLiveVideos = [
+{ 
+  id: 27, 
+  title: "Çatalhöyük", 
+  youtubeId: "ir21dkVWNDQ",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 28, 
+  title: "Kibyra Antik Kenti Tholos Nymphaeum ", 
+  youtubeId: "pQz5ViXco3Q",
+  location: "Burdur, Türkiye"
+},
+{ 
+  id: 29, 
+  title: "Kibyra Antik Kenti Medusa Mozaiği", 
+  youtubeId: "k1zIYCkKbms",
+  location: "Burdur, Türkiye"
+},
+{ 
+  id: 30, 
+  title: "Kibyra Antik Kenti Agora", 
+  youtubeId: "JtkHQvhFZ1A",
+  location: "Burdur, Türkiye"
+},
+
   { 
     id: 1, 
     title: "Tantavi Kültür ve Sanat Merkezi", 
@@ -136,7 +161,21 @@ export const wayleroLiveVideos = [
   title: "Savatra Antik Kenti", 
   youtubeId: "NgOwd9vJqsc",
   location: "Konya, Türkiye"
+},
+{ 
+  id: 25, 
+  title: "Mavi Boğaz Kanyonu", 
+  youtubeId: "S8BZDvCcQxc",
+  location: "Konya, Türkiye"
+},
+{ 
+  id: 26, 
+  title: "Yalburt Hitit Anıtı", 
+  youtubeId: "MFXYJzlZpeI",
+  location: "Konya, Türkiye"
 }
+
+
 
 ];
 
