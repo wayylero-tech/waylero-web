@@ -38,17 +38,19 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
   };
 
   // ✅ SEO Schema (JSON-LD)
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "TouristAttraction",
-    "name": foundPlace.name?.[lang],
-    "description": foundPlace.description?.[lang],
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": Number(foundPlace.latitude),
-      "longitude": Number(foundPlace.longitude)
-    }
-  };
+ const schema = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "name": foundPlace.name?.[lang],
+  "description": foundPlace.description?.[lang],
+  "url": canonical,
+  "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": Number(foundPlace.latitude),
+    "longitude": Number(foundPlace.longitude)
+  }
+};
 
   return (
     <main className="min-h-screen bg-white">
@@ -85,44 +87,120 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
       </section>
 
       {/* 2. CONTENT GRID */}
-      <section className="container mx-auto px-6 py-20">
-        <div className="grid lg:grid-cols-12 gap-16">
-          {/* Main Info */}
-          <div className="lg:col-span-8 space-y-16">
-            <div className="prose prose-xl">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
-                  <Info size={24} />
-                </div>
-                <h2 className="text-3xl font-serif font-bold text-gray-900 m-0">
-                  {foundPlace.name?.[lang]}
-                </h2>               
+<section className="container mx-auto px-6 py-20">
+  <div className="grid lg:grid-cols-12 gap-16">
+
+    {/* Main Info */}
+    <div className="lg:col-span-8 space-y-16">
+
+      <div className="prose prose-xl">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
+            <Info size={24} />
+          </div>
+
+          <h2 className="text-3xl font-serif font-bold text-gray-900 m-0">
+            {foundPlace.name?.[lang]}
+          </h2>
+        </div>
+
+        <p className="text-xl text-gray-600 leading-relaxed font-medium">
+          {foundPlace.description?.[lang]}
+        </p>
+      </div>
+
+      {foundPlace.latitude && (
+        <div className="space-y-10">
+
+          {/* HARİTA */}
+          <div className="space-y-6">
+            <div className="flex items-center gap-3">
+              <div className="p-3 bg-red-50 text-red-600 rounded-2xl">
+                <Navigation size={24} />
               </div>
-              <p className="text-xl text-gray-600 leading-relaxed font-medium">
-                {foundPlace.description?.[lang]}
-              </p>
+
+              <h2 className="text-3xl font-serif font-bold text-gray-900">
+                {t.location}
+              </h2>
             </div>
 
-            {foundPlace.latitude && (
-              <div className="space-y-6">
-                <div className="flex items-center gap-3">
-                  <div className="p-3 bg-red-50 text-red-600 rounded-2xl">
-                    <Navigation size={24} />
-                  </div>
-                  <h2 className="text-3xl font-serif font-bold text-gray-900">{t.location}</h2>
-                </div>
-                <div className="rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 h-[450px]">
-                  <iframe
-                    className="w-full h-full"
-                    src={`https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&hl=${lang}&z=15&output=embed`}
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            )}
+            <div className="rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 h-[450px]">
+              <iframe
+                className="w-full h-full"
+                src={`https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&hl=${lang}&z=15&output=embed`}
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
           </div>
+
+          {/* ✅ NASIL GİDİLİR */}
+          <div className="space-y-6">
+
+            <div className="flex items-center gap-3">
+              <div className="p-3 bg-green-50 text-green-600 rounded-2xl">
+                <Navigation size={24} />
+              </div>
+
+              <h2 className="text-3xl font-serif font-bold text-gray-900">
+                {lang === "tr" ? "Nasıl Gidilir?" : "How to Get There"}
+              </h2>
+            </div>
+
+            <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm space-y-6">
+
+              {/* GOOGLE MAPS BUTONU */}
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${foundPlace.latitude},${foundPlace.longitude}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between bg-black text-white px-6 py-5 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-gray-900 transition-all"
+              >
+                <span>
+                  {lang === "tr"
+                    ? "Google Maps ile Yol Tarifi Al"
+                    : "Get Directions with Google Maps"}
+                </span>
+
+                <ArrowRight size={18} />
+              </a>
+
+              {/* BİLGİ KARTLARI */}
+              <div className="grid md:grid-cols-2 gap-6">
+
+                <div className="bg-gray-50 rounded-2xl p-5">
+                  <h3 className="font-bold mb-2 text-gray-900">
+                    {lang === "tr" ? "Özel Araç ile" : "By Car"}
+                  </h3>
+
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {lang === "tr"
+                      ? `${foundPlace.name?.tr} konumuna özel aracınızla kolayca ulaşabilirsiniz. Google Maps üzerinden canlı navigasyon başlatabilirsiniz.`
+                      : `You can easily reach ${foundPlace.name?.en} by car using live navigation on Google Maps.`}
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 rounded-2xl p-5">
+                  <h3 className="font-bold mb-2 text-gray-900">
+                    {lang === "tr" ? "Konum Bilgisi" : "Location Info"}
+                  </h3>
+
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {lang === "tr"
+                      ? `${cityName}, ${region} bölgesinde yer almaktadır.`
+                      : `Located in ${cityName}, ${region}.`}
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      )}
+
+    </div>
 
           {/* Sidebar */}
           <div className="lg:col-span-4 space-y-10">
