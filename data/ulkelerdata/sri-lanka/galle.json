@@ -1,0 +1,60 @@
+[
+
+{
+  "slug": "galle-tarihi-kalesi-sri-lanka",
+  "city": {
+    "tr": "Galle",
+    "en": "Galle",
+    "de": "Galle"
+  },
+  "name": {
+    "tr": "Galle Tarihi Kalesi ve Eski Şehir",
+    "en": "Galle Fort and Old Town",
+    "de": "Holländisches Fort Galle"
+  },
+  "latitude": 6.0264,
+  "longitude": 80.2176,
+  "description": {
+    "tr": "Sri Lanka'nın güneybatı kıyısında yer alan Galle şehrinde, Hint Okyanusu'na uzanan bir yarımada üzerinde kurulu olan Galle Kalesi, Avrupa mimarisi ile Güney Asya geleneklerinin harmanlandığı muazzam bir yaşayan açık hava müzesidir. İlk olarak 1588 yılında Portekizliler tarafından inşa edilen kale, 17. yüzyılda Hollandalılar tarafından genişletilerek bugünkü güçlü surlarına kavuşmuştur. UNESCO Dünya Mirası Listesi'nde yer alan surların içinde; sömürge döneminden kalma eski Hollanda kiliseleri, dar taş sokaklar, lüks butik oteller, şık kafeler ve kalenin simgesi olan ikonik beyaz Galle Deniz Feneri yer alır. Okyanus dalgalarının çarptığı tarihi surlarda yürüyüş yapmak Sri Lanka'nın en keyifli aktivitelerinden biridir.",
+    "en": "Situated on a rocky peninsula jutting into the Indian Ocean in the southwestern city of Galle, the Galle Fort is a beautifully preserved living open-air museum where European architectural styles seamlessly blend with South Asian traditions. Originally built by the Portuguese in 1588, it was extensively fortified by the Dutch during the 17th century. This UNESCO World Heritage Site features cobblestone streets lined with colonial-era Dutch villas, historic churches, chic cafes, artisan boutiques, and the famous white Galle Lighthouse. Walking along the massive ramparts as the ocean waves crash beneath is an unforgettable experience.",
+    "de": "In der Küstenstadt Galle im Südwesten liegt dieses lebendige UNESCO-Weltkulturerbe. Das im 16. Jahrhundert von den Portugiesen gegründete und von den Holländern ausgebaute Fort fasziniert durch europäische Kolonialarchitektur, kleine Gassen und den weißen Leuchtturm direkt am Okyan."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi sur yürüyüşü",
+      "Sömürge dönemi şehir turu",
+      "Okyanus manzaralı gün batımı izleme"
+    ],
+    "en": [
+      "Historical rampart walking tour",
+      "Colonial old town exploration",
+      "Ocean view sunset watching"
+    ],
+    "de": [
+      "Spaziergang auf den historischen Festungsmauern",
+      "Erkundung der kolonialen Altstadt",
+      "Sonnenuntergang mit Ozeanblick genießen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kale",
+      "plaj"
+    ],
+    "en": [
+      "historical-site",
+      "fortress",
+      "beach"
+    ],
+    "de": [
+      "historische-staette",
+      "festung",
+      "strand"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Galle_Fort_Lighthouse_Sri_Lanka.jpg"
+  ]
+}
+]

@@ -1,0 +1,211 @@
+[
+ {
+  "slug": "seki-han-sarayi",
+  "name": {
+    "tr": "Şeki Han Sarayı",
+    "en": "Palace of Shaki Khans",
+    "de": "Palast der Schaki-Chane"
+  },
+  "latitude": 41.2044,
+  "longitude": 47.1976,
+  "description": {
+    "tr": "1797 yılında Hüseyin Han döneminde inşa edilen Şeki Han Sarayı, Kafkasya sivil mimarisinin en nadide şaheserlerinden biridir ve UNESCO Dünya Mirası Listesi'nde yer alır. İki katlı bu yazlık sarayın en inanılmaz özelliği, yapımında tek bir çivi veya yapıştırıcı madde kullanılmamış olmasıdır. Sarayın pencereleri, 'Şebeke' adı verilen, binlerce küçük ahşap ve renkli cam parçalarının birbirine geçirilmesiyle yapılan dünyaca ünlü bir el sanatı ile bezelidir. İçeri giren ışık, duvarları süsleyen minyatür av ve savaş sahneleriyle birleşerek büyüleyici bir atmosfer yaratır. Bahçesindeki asırlık dev çınar ağaçları ile bu saray, Şeki'nin zengin tarihinin en büyük kanıtıdır.",
+    "en": "Built in 1797 during the reign of Muhammad Husayn Khan, the Palace of Shaki Khans is a rare masterpiece of Caucasian civic architecture and a UNESCO World Heritage Site. The most incredible feature of this two-story summer residence is that it was constructed without a single nail or glue. The palace windows are adorned with world-famous 'Shebeke' art, featuring intricate wooden lattices filled with thousands of pieces of colored glass. Inside, the light reflects beautifully upon brilliant miniature frescoes depicting hunting and war scenes, offering an enchanting atmosphere surrounded by centuries-old plane trees.",
+    "de": "Ein prächtiger Sommerpalast aus dem Jahr 1797 und UNESCO-Weltkulturerbe. Das Gebäude wurde komplett ohne Nägel erbaut und fasziniert durch seine kunstvollen Shebeke-Buntglasfenster."
+  },
+  "activities": {
+    "tr": [
+      "UNESCO miras gezisi",
+      "Tarihi saray turu",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "UNESCO heritage tour",
+      "Historical palace sightseeing",
+      "Photography"
+    ],
+    "de": [
+      "UNESCO-Erbe-Tour",
+      "Historische Palastbesichtigung",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "saray",
+      "müze"
+    ],
+    "en": [
+      "historical-site",
+      "palace",
+      "museum"
+    ],
+    "de": [
+      "historische-staette",
+      "palast",
+      "museum"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/09/Palace_of_Shaki_Khans_2021.jpg"
+  ]
+},
+{
+  "slug": "seki-kervansarayi",
+  "name": {
+    "tr": "Şeki Kervansarayı",
+    "en": "Shaki Caravanserai",
+    "de": "Karawanserei von Schaki"
+  },
+  "latitude": 41.2014,
+  "longitude": 47.1918,
+  "description": {
+    "tr": "Tarihi İpek Yolu üzerinde yer alan Şeki, Orta Çağ boyunca tüccarların en önemli duraklarından biri olmuştur. 18. yüzyılda inşa edilen Yukarı Kervansaray, Kafkasya'nın en büyük kervansaray yapılarından biridir. Kalın taş duvarları, tonozlu tavanları ve revaklı geniş iç avlusuyla tipik bir Doğu mimarisine sahiptir. Alt katı tüccarların mallarını depolaması ve develerini barındırması, üst katı ise konaklaması için tasarlanmıştır. Günümüzde mistik atmosferi korunarak otel ve restoran olarak hizmet veren bu kervansaray, ziyaretçilerine yüzyıllar öncesinin seyyahları gibi konaklama ve otantik Azerbaycan çayı içme deneyimi sunar.",
+    "en": "Situated on the historic Silk Road, Shaki was a vital hub for merchants throughout the Middle Ages. Built in the 18th century, the Upper Caravanserai stands as one of the largest structures of its kind in the Caucasus. It features traditional Eastern architecture with thick stone walls, vaulted ceilings, and a large arcaded inner courtyard. The lower floor was used for storing trade goods and stabling camels, while the upper floor served as lodging. Today, functioning partly as an authentic hotel and restaurant, it allows visitors to experience the historic ambiance of ancient travelers.",
+    "de": "Eine der größten historischen Karawansereien im Kaukasus aus dem 18. Jahrhundert. Sie liegt an der alten Seidenstraße und wird heute als authentisches Hotel und Restaurant genutzt."
+  },
+  "activities": {
+    "tr": [
+      "Otantik konaklama deneyimi",
+      "Tarihi gezi",
+      "Geleneksel çay keyfi"
+    ],
+    "en": [
+      "Authentic lodging experience",
+      "Historical sightseeing",
+      "Traditional tea experience"
+    ],
+    "de": [
+      "Authentisches Übernachtungserlebnis",
+      "Historische Besichtigung",
+      "Traditionelle Teestunde"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kervansaray",
+      "otel"
+    ],
+    "en": [
+      "historical-site",
+      "caravanserai",
+      "hotel"
+    ],
+    "de": [
+      "historische-staette",
+      "karawanserei",
+      "hotel"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ec/Yukhari_Caravanserai_in_Shaki_01.jpg"
+  ]
+},
+{
+  "slug": "kis-arnavut-kilisesi",
+  "name": {
+    "tr": "Kiş Arnavut Kilisesi",
+    "en": "Church of Kish",
+    "de": "Kirche von Kisch"
+  },
+  "latitude": 41.2482,
+  "longitude": 47.1924,
+  "description": {
+    "tr": "Şeki yakınlarındaki Kiş köyünde yer alan bu tarihi tapınak, Kafkasya'nın en eski Hristiyan anıtlarından biridir ve kadim Kafkas Albanyası (Arnavutluk) dönemine aittir. Temelleri M.S. 1. yüzyıla kadar uzanan kilisenin bugünkü kubbeli taş mimarisi çoğunlukla 12. yüzyıldan kalmadır. Kireçtaşından yapılan ve etrafı surlarla çevrili olan bu yapı, bölgedeki erken Hristiyanlık tarihine ışık tutmaktadır. Dünyaca ünlü Norveçli kâşif Thor Heyerdahl bu kiliseyi ziyaret etmiş ve İskandinavların kökeninin bu bölgeye dayandığına dair teorisini araştırmak için burada kazılar yapılmasını desteklemiştir. Günümüzde müze olan kilisenin içinde arkeolojik kazılarda bulunan antik mezarlar ve iskeletler de sergilenmektedir.",
+    "en": "Located in the picturesque village of Kish near Shaki, this historic sanctuary is one of the oldest Christian monuments in the Caucasus, belonging to the ancient Caucasian Albania era. With foundations dating back to the 1st century AD, its current domed stone structure mostly stems from the 12th century. The famous Norwegian explorer Thor Heyerdahl visited this church and supported archaeological excavations here to investigate his theory on the Caucasian roots of Scandinavians. Today operating as a museum, it displays ancient graves and skeletons discovered during on-site excavations.",
+    "de": "Eine der ältesten frühchristlichen Kirchen im Kaukasus, gelegen im Dorf Kisch. Sie stammt aus der Epoche des antiken kaukasischen Albaniens und dient heute als Museum."
+  },
+  "activities": {
+    "tr": [
+      "Arkeolojik ve tarihi gezi",
+      "Müze ziyareti",
+      "Köy turu"
+    ],
+    "en": [
+      "Archaeological and historical tour",
+      "Museum visit",
+      "Village exploration"
+    ],
+    "de": [
+      "Archäologische und historische Tour",
+      "Museumsbesuch",
+      "Dorfbesichtigung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kilise",
+      "müze"
+    ],
+    "en": [
+      "historical-site",
+      "church",
+      "museum"
+    ],
+    "de": [
+      "historische-staette",
+      "kirche",
+      "museum"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/7/70/Kish_Church_Azerbaijan_2021.jpg"
+  ]
+},
+{
+  "slug": "tufandag-dag-kis-kompleksi",
+  "name": {
+    "tr": "Tufandağ Dağ Kış Kompleksi",
+    "en": "Tufandag Mountain Resort",
+    "de": "Tufandag Bergresort"
+  },
+  "latitude": 41.0115,
+  "longitude": 47.8863,
+  "description": {
+    "tr": "Azerbaycan'ın turizm başkenti olarak anılan Gabala şehrinde, Büyük Kafkas Dağları'nın eteklerinde yer alan Tufandağ, ülkenin en popüler dağ ve kış turizmi merkezlerinden biridir. Hem kışın profesyonel kayak pistleriyle kayak tutkunlarını ağırlar hem de yazın yeşilin her tonunu sunarak doğa severlerin odağı olur. Tufandağ'ın en büyük cazibe merkezi, toplam uzunluğu kilometreleri bulan devasa teleferik (kanat hattı) ağıdır. Dört farklı istasyondan oluşan bu teleferiklerle dağların zirvesine çıkarken Kafkasya'nın nefes kesen bulutlarla kaplı manzarasını izleyebilirsiniz. Zirvede yer alan ekstrem aktiviteler, restoranlar ve eğlence alanları burayı yılın her dönemi cazip kılmaktadır.",
+    "en": "Situated on the slopes of the Greater Caucasus Mountains in Gabala, Tufandag is one of Azerbaijan's premier mountain and ski resorts. It welcomes winter sports enthusiasts with professional ski slopes and shifts into a lush green haven for nature lovers in summer. The resort's highlight is its extensive cable car network spanning several kilometers across four stations. Riding the cable cars to the peaks offers breathtaking, cloud-swept views of the Caucasus range, accompanied by extreme adventure activities, alpine dining, and entertainment zones.",
+    "de": "Ein erstklassiges Ganzjahres-Bergresort in Gabala inmitten des Großen Kaukasus. Bekannt für alpine Skipisten im Winter und weitläufige Seilbahnen mit Panoramablick im Sommer."
+  },
+  "activities": {
+    "tr": [
+      "Teleferik turu",
+      "Kayak ve kış sporları",
+      "Dağ manzarası seyri"
+    ],
+    "en": [
+      "Cable car ride",
+      "Skiing and winter sports",
+      "Mountain scenery viewpoint"
+    ],
+    "de": [
+      "Seilbahnfahrt",
+      "Skifahren und Wintersport",
+      "Bergblick genießen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doga",
+      "kayak-merkezi",
+      "eğlence"
+    ],
+    "en": [
+      "nature",
+      "ski-resort",
+      "entertainment"
+    ],
+    "de": [
+      "natur",
+      "skigebiet",
+      "unterhaltung"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tufandag_Ski_Resort_Gabala.jpg"
+  ]
+}
+
+]

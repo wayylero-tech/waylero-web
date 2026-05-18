@@ -36,6 +36,7 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   irlanda: { tr: "İrlanda", en: "Ireland" },
   "bosna-hersek": { tr: "Bosna Hersek", en: "Bosnia and Herzegovina" },
   avustralya: { tr: "Avustralya", en: "Australia" },
+  azerbaycan: { tr: "Azerbaycan", en: "Azerbaijan" },
   gurcistan: { tr: "Gürcistan", en: "Georgia" },
   iskocya: { tr: "İskoçya", en: "Scotland" },
   galler: { tr: "Galler", en: "Wales" },
@@ -55,6 +56,7 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   kktc: { tr: "KKTC", en: "Northern Cyprus" },
   bae: { tr: "BAE", en: "UAE" },
   peru: { tr: "Peru", en: "Peru" },
+  
 };
 
 export default function KesfetClient({ lang }: { lang: string }) {

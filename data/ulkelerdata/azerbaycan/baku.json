@@ -1,0 +1,467 @@
+[
+ {
+  "slug": "icerisehir",
+  "name": {
+    "tr": "İçerişehir (Eski Şehir)",
+    "en": "Icherisheher (Old City)",
+    "de": "Icherisheher (Altstadt)"
+  },
+  "latitude": 40.3661,
+  "longitude": 49.8354,
+  "description": {
+    "tr": "İçerişehir, Azerbaycan'ın başkenti Bakü'nin tarihi kalbi ve en eski yerleşim bölgesidir. 2000 yılında UNESCO Dünya Mirası Listesi'nde koruma altına alınan bu labirentvari bölge, Tunç Çağı'na kadar uzanan köklü bir geçmişe sahiptir. Etrafı 12. yüzyıldan kalma sağlam kale surlarıyla çevrili olan İçerişehir, dar taş sokakları, tarihi kervansarayları, camileri ve hamamlarıyla adeta bir açık hava müzesidir. Bölge, Orta Çağ İslam mimarisinin en nadide eserlerini barındırır ve yüzyıllar boyunca Şirvanşahlar Devleti'nin yönetim merkezi olmuştur. Günümüzde nostaljik atmosferini koruyan bu tarihi mahalle, yerel zanaatkarların dükkanlarına, geleneksel Azerbaycan restoranlarına ve halı tezgahlarına ev sahipliği yaparak ziyaretçilerini zamanda bir yolculuğa çıkarır.",
+    "en": "Icherisheher, also known as the Old City, is the historical heart and the oldest inhabited quarter of Baku. Inscribed as a UNESCO World Heritage Site in 2000, this labyrinthine district boasts a rich history dating back to the Bronze Age. Surrounded by well-preserved 12th-century fortress walls, Icherisheher is an open-air museum featuring narrow cobblestone alleys, historical caravanserais, ancient mosques, and bathhouses. It preserves the finest examples of medieval Islamic architecture and served as the ruling seat of the Shirvanshah dynasty for centuries. Today, maintaining its nostalgic atmosphere, this historic quarter hosts local artisan shops, traditional Azerbaijani restaurants, and carpet weavers, taking its visitors on a journey through time.",
+    "de": "Icherisheher ist der historische Kern von Baku und gehört zum UNESCO-Weltkulturerbe. Ein Labyrinth aus alten Gassen, historischen Karawansereien und Stadtmauern."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi sokak yürüyüşü",
+      "Kültür gezisi",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Historical street walk",
+      "Cultural sightseeing",
+      "Photography"
+    ],
+    "de": [
+      "Historischer Spaziergang",
+      "Kulturbesichtigung",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kale"
+    ],
+    "en": [
+      "historical-site",
+      "fortress"
+    ],
+    "de": [
+      "historische-staette",
+      "festung"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Baku_Old_City_View.jpg"
+  ]
+},
+
+
+{
+  "slug": "kiz-kalesi-baku",
+  "name": {
+    "tr": "Kız Kalesi",
+    "en": "Maiden Tower",
+    "de": "Jungfrauenturm"
+  },
+  "latitude": 40.3662,
+  "longitude": 49.8372,
+  "description": {
+    "tr": "Bakü'nün en ikonik simgesi olan Kız Kalesi (Qız Qalası), İçerişehir'in sahil tarafında yükselen, gizemi ve mimarisiyle büyüleyici bir anıttır. 29 metre yüksekliğindeki bu silindirik yapının kesin yapım tarihi ve asıl amacı hala bir tartışma konusudur; bazı araştırmacılar yapının M.Ö. 7-8. yüzyıllarda bir Zoroastrian (Zerdüşt) tapınağı veya rasathane olarak inşa edildiğini, 12. yüzyılda ise savunma kalesine dönüştürüldüğünü savunmaktadır. Duvar kalınlığı tabanda 5 metreyi bulan kule, kendine has devasa bir destek duvarına (payanda) sahiptir. Hakkında, babasının zorla evlendirmek istediği bir genç kızın kendini Hazar Denizi'nin sularına bırakması gibi pek çok hüzünlü efsane anlatılır. Günümüzde müze olarak hizmet veren kulenin tepesine çıkan ziyaretçiler, Bakü Körfezi'nin muhteşem manzarasını izleyebilirler.",
+    "en": "The Maiden Tower (Qız Qalası) is Baku's most iconic landmark, a mysterious and architecturally unique monument rising near the seafront of the Old City. Standing 29 meters tall, the exact date of construction and primary purpose of this cylindrical structure remain a subject of debate; some scholars suggest it originated as a Zoroastrian temple or observatory in the 7th-8th centuries BC, later adapted into a defense fortress in the 12th century. The tower's walls are up to 5 meters thick at the base, supported by a massive solid buttress. Countless tragic legends surround its name, most notably of a young girl who threw herself into the Caspian Sea to escape an forced marriage. Today, functioning as a museum, it offers visitors who climb to its top a spectacular panoramic view of Baku Bay.",
+    "de": "Der Jungfrauenturm ist das Wahrzeichen von Baku. Ein monumentaler, zylindrischer Turm mit reicher Geschichte, Legenden und Blick auf das Kaspische Meer."
+  },
+  "activities": {
+    "tr": [
+      "Müze ziyareti",
+      "Manzara izleme",
+      "Tarihi gezi"
+    ],
+    "en": [
+      "Museum visit",
+      "Viewpoint",
+      "Historical tour"
+    ],
+    "de": [
+      "Museumsbesuch",
+      "Aussichtspunkt",
+      "Historische Tour"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "müze",
+      "kule"
+    ],
+    "en": [
+      "historical-site",
+      "museum",
+      "tower"
+    ],
+    "de": [
+      "historische-staette",
+      "museum",
+      "turm"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/a/a2/Maiden_Tower_Baku_2015.jpg"
+  ]
+},
+{
+  "slug": "haydar-aliyev-merkezi",
+  "name": {
+    "tr": "Haydar Aliyev Merkezi",
+    "en": "Heydar Aliyev Centre",
+    "de": "Heydar Aliyev Zentrum"
+  },
+  "latitude": 40.3953,
+  "longitude": 49.8672,
+  "description": {
+    "tr": "Dünyaca ünlü Pritzker ödüllü Irak asıllı İngiliz mimar Zaha Hadid tarafından tasarlanan Haydar Aliyev Merkezi, modern dünya mimarisinin en görkemli şaheserlerinden biri kabul edilir. 2012 yılında açılan bu fütüristik bina, Sovyet döneminin katı ve köşeli mimari tarzına bir tepki olarak tamamen akışkan, kıvrımlı ve kesintisiz hatlarla tasarlanmıştır. Binanın dış yüzeyi, zeminden gökyüzüne doğru bir dalga gibi yükselerek postmodern mimarinin sınırlarını zorlar. 57.000 metrekarelik devasa bir alana yayılan komplekste modern sanat galerileri, konser salonları, kütüphane ve Azerbaycan kültürünü tanıtan müzeler yer alır. Beyaz rengiyle geleceği ve aydınlığı simgeleyen bu yapı, hem mimari dehasıyla hem de çevreleyen geniş park alanıyla fotoğraf tutkunlarının Bakü'deki bir numaralı adresidir.",
+    "en": "Designed by the world-renowned Pritzker Prize-winning architect Zaha Hadid, the Heydar Aliyev Centre is widely considered one of the most magnificent masterpieces of modern world architecture. Opened in 2012, this futuristic building features fluid, undulating, and continuous lines, designed as a deliberate departure from the rigid and monumental Soviet architecture that previously dominated the city. The exterior of the building rises from the ground toward the sky like a sweeping wave, pushing the boundaries of postmodern design. Spanning a massive 57,000 square meters, the complex houses contemporary art galleries, concert halls, a library, and exhibition spaces dedicated to Azerbaijani heritage. Symbolizing optimism and the future with its bright white color, it is a prime spot for photography and architectural enthusiasts.",
+    "de": "Ein futuristisches Meisterwerk der Architektin Zaha Hadid. Das Gebäude besticht durch seine fließenden, wellenartigen Formen ohne scharfe Kanten."
+  },
+  "activities": {
+    "tr": [
+      "Modern mimari gezisi",
+      "Sanat galerisi ziyareti",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Modern architectural tour",
+      "Art gallery visit",
+      "Photography"
+    ],
+    "de": [
+      "Architektonische Tour",
+      "Kunstgalerie-Besuch",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "modern-mimari",
+      "kültür-merkezi",
+      "müze"
+    ],
+    "en": [
+      "modern-architecture",
+      "cultural-center",
+      "museum"
+    ],
+    "de": [
+      "moderne-architektur",
+      "kulturzentrum",
+      "museum"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/03/Heydar_Aliyev_Collective_Anadolu_01.jpg"
+  ]
+},
+{
+  "slug": "alev-kuleleri",
+  "name": {
+    "tr": "Alev Kuleleri",
+    "en": "Flame Towers",
+    "de": "Flame Towers"
+  },
+  "latitude": 40.3596,
+  "longitude": 49.8267,
+  "description": {
+    "tr": "Bakü'nün en yüksek tepesinde yükselen Alev Kuleleri (Flame Towers), şehrin modern silüetini belirleyen üç devasa gökdelenden oluşan fütüristik bir komplekstir. En yüksek kulesi 182 metreye ulaşan bu yapılar, Azerbaycan'ın tarih boyunca süregelen 'Odlar Yurdu' (Ateş Ülkesi) unvanına ve yer altı doğal gaz kaynaklarından ilham alınarak alev şeklinde tasarlanmıştır. Amerikan mimarlık firması HOK tarafından projelendirilen ve 2012 yılında tamamlanan kuleler sırasıyla otel, rezidans ve ofis olarak hizmet vermektedir. Kulelerin dış cephesi tamamen 10.000'den fazla yüksek çözünürlüklü LED ekranla kaplıdır. Hava karardığında başlayan ışık gösterisinde, binalar devasa yanan alevlere, Azerbaycan bayrağını sallayan insan figürlerine dönüşerek tüm şehirden izlenebilen büyüleyici bir görsel şölen sunar.",
+    "en": "Rising on the highest hill of Baku, the Flame Towers are a trio of futuristic skyscrapers that define the modern skyline of the city. With the tallest tower reaching a height of 182 meters, the structures were designed in the shape of flames, drawing inspiration from Azerbaijan's historic nickname, 'The Land of Fire', and its rich natural gas reserves. Designed by the American architecture firm HOK and completed in 2012, the towers serve as a hotel, residential apartments, and office spaces. The exteriors are entirely covered with over 10,000 high-power LED luminaires. At night, the buildings transform into giant flickering flames or display figures waving the Azerbaijani flag, creating a spectacular visual show visible from across the city.",
+    "de": "Drei flammenförmige Wolkenkratzer, die das moderne Stadtbild von Baku prägen. Abends bieten sie eine spektakuläre LED-Lichtshow."
+  },
+  "activities": {
+    "tr": [
+      "Işık gösterisi izleme",
+      "Şehir silüeti fotoğrafçılığı",
+      "Lüks restoran/otel deneyimi"
+    ],
+    "en": [
+      "Light show watching",
+      "Skyline photography",
+      "Luxury dining/hotel experience"
+    ],
+    "de": [
+      "Lichtshow beobachten",
+      "Skyline-Fotografie",
+      "Luxus-Erlebnis"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "modern-mimari",
+      "gökdelen"
+    ],
+    "en": [
+      "modern-architecture",
+      "skyscraper"
+    ],
+    "de": [
+      "moderne-architektur",
+      "wolkenkratzer"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/25/Flame_Towers_Baku_Azerbaijan.jpg"
+  ]
+},
+{
+  "slug": "nizami-caddesi",
+  "name": {
+    "tr": "Nizami Caddesi (Tarqovı)",
+    "en": "Nizami Street",
+    "de": "Nizami-Straße"
+  },
+  "latitude": 40.3718,
+  "longitude": 49.8398,
+  "description": {
+    "tr": "Ünlü klasik şair Nizami Gencevi'nin adını taşıyan Nizami Caddesi, Bakü'nün en prestijli, hareketli ve tamamen trafiğe kapalı alışveriş ve yürüyüş caddesidir. Yerel halk arasında, eski adı olan 'Torgovaya'dan (Ticaret Caddesi) türeyen 'Tarqovı' ismiyle bilinir. Yaklaşık 3.5 kilometre uzunluğundaki caddenin mimari yapısı, 19. yüzyılın sonlarında petrol patlaması döneminde inşa edilmiş Neo-Klasik, Barok, Rönesans ve Neo-Gotik tarzda muazzam Avrupa binalarından oluşur. Cadde; lüks moda markalarının mağazaları, şık kafeler, yerel ve dünya mutfağından restoranlar ve otellerle doludur. Akşam saatlerinde sarı ve sıcak sokak lambalarıyla aydınlatılan binalar, caddeye adeta bir Avrupa başkenti havası katarken, sokak sanatçıları ve canlı atmosferiyle Bakü sosyal hayatının merkez üssüdür.",
+    "en": "Named after the famous classical poet Nizami Ganjavi, Nizami Street is Baku's most prestigious, lively, and fully pedestrianized shopping and promenade street. Locals still widely refer to it as 'Tarqovı', a name derived from its imperial-era Russian name meaning 'Merchant Street'. Stretching nearly 3.5 kilometers, the street features stunning European architecture from the late 19th-century oil boom, including Neo-Classical, Baroque, Renaissance, and Neo-Gothic styles. It is lined with luxury fashion boutiques, chic cafes, local and international restaurants, and hotels. In the evening, the meticulously illuminated historical facades give the street the ambiance of a European capital, making it the epicenter of Baku’s vibrant social life and street performances.",
+    "de": "Die Haupteinkaufsstraße von Baku. Eine wunderschöne Fußgängerzone mit prachtvoller europäischer Architektur des 19. Jahrhunderts, Cafés und Geschäften."
+  },
+  "activities": {
+    "tr": [
+      "Alışveriş",
+      "Akşam yürüyüşü",
+      "Gastronomi"
+    ],
+    "en": [
+      "Shopping",
+      "Evening promenade",
+      "Dining"
+    ],
+    "de": [
+      "Einkaufen",
+      "Abendspaziergang",
+      "Gastronomie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "cadde",
+      "alışveriş",
+      "sosyal-yaşam"
+    ],
+    "en": [
+      "street",
+      "shopping",
+      "social-life"
+    ],
+    "de": [
+      "strasse",
+      "einkaufen",
+      "soziales-leben"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/a/a2/Nizami_Street_Baku_2014.jpg"
+  ]
+},
+{
+  "slug": "baku-bulvari-kucuk-venedik",
+  "name": {
+    "tr": "Bakü Bulvarı ve Küçük Venedik",
+    "en": "Baku Boulevard and Little Venice",
+    "de": "Baku-Boulevard und Klein-Venedig"
+  },
+  "latitude": 40.3601,
+  "longitude": 49.8348,
+  "description": {
+    "tr": "Hazar Denizi kıyısı boyunca kilometrelerce uzanan Bakü Bulvarı (Denizkenarı Milli Park), 1909 yılında kurulan ve şehrin en sevilen açık hava rekreasyon alanıdır. Geniş yürüyüş yolları, asırlık ağaçları, kafeleri ve eğlence parklarıyla kentin akciğeri konumundadır. Bulvarın en büyüleyici bölümlerinden biri olan 'Küçük Venedik' (Kiçik Venesiya), 1960 yılında inşa edilmiş ve 2012'de tamamen modernize edilmiş su kanalları sistemidir. Birbirine köprülerle bağlanan adacıklar ve bu kanallarda yüzen otantik İtalyan gondolları, ziyaretçilere Hazar kıyısında bir Avrupa esintisi sunar. Bulvar üzerinde ayrıca rulo yapılmış bir halı şeklinde tasarlanan ünlü Azerbaycan Halı Müzesi, Bakü Gözü (Dönme Dolap) ve modern alışveriş merkezleri yer alarak burayı tam bir sosyal cazibe merkezi haline getirir.",
+    "en": "Stretching for kilometers along the coast of the Caspian Sea, Baku Boulevard (Seaside National Park) was established in 1909 and remains the city’s favorite outdoor recreation area. With wide promenades, century-old trees, open-air cafes, and amusement rides, it serves as the lungs of the capital. One of the boulevard's most charming features is 'Little Venice' (Kiçik Venesiya), a system of artificial water canals originally built in 1960 and completely modernized in 2012. Featuring small islands connected by stone bridges and authentic Italian gondolas, it offers a romantic European vibe right on the Caspian coast. The boulevard also hosts the Azerbaijan Carpet Museum (shaped like a rolled carpet), the Baku Eye ferris wheel, and modern malls.",
+    "de": "Eine kilometerlange Strandpromenade am Kaspischen Meer mit der Parkanlage 'Klein-Venedig', wo man mit echten Gondeln durch künstliche Kanäle fahren kann."
+  },
+  "activities": {
+    "tr": [
+      "Gondol turu",
+      "Sahil yürüyüşü",
+      "Bisiklet kiralama"
+    ],
+    "en": [
+      "Gondola ride",
+      "Seaside walk",
+      "Bicycle rental"
+    ],
+    "de": [
+      "Gondelfahrt",
+      "Strandspaziergang",
+      "Fahrradverleih"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "park",
+      "sahil",
+      "eğlence"
+    ],
+    "en": [
+      "park",
+      "seaside",
+      "entertainment"
+    ],
+    "de": [
+      "park",
+      "kueste",
+      "unterhaltung"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/3/30/Little_Venice_Baku_2017.jpg"
+  ]
+},
+{
+  "slug": "gobustan-milli-parki",
+  "name": {
+    "tr": "Gobustan Kaya Sanatı Kültürel Peyzajı",
+    "en": "Gobustan Rock Art Cultural Landscape",
+    "de": "Gobustan-Nationalpark"
+  },
+  "latitude": 40.1136,
+  "longitude": 49.3806,
+  "description": {
+    "tr": "Bakü'nün yaklaşık 64 kilometre güneybatısında, yarı çöl bir arazide yer alan Gobustan, insanlık tarihinin en eski ve en değerli parmak izlerinden biridir. 2007 yılında UNESCO Dünya Mirası Listesi'nde koruma altına alınan bu arkeolojik alan, Üst Paleolitik Dönem'den Orta Çağ'a kadar uzanan süreci kapsayan 6.000'den fazla antik kaya resmi (petrograf) barındırır. Kayalar üzerine kazınmış ilkel insan figürleri, av sahneleri, danslar (geleneksel Yallı dansının ilk izleri) ve ikonik 'Yallı' sazından yapılan 'Gaval Daşı' (üzerine vurulduğunda tef sesi çıkaran doğal müzikal taş) bölgenin ne kadar kadim olduğunu gösterir. Ayrıca bölgede, Roma İmparatoru Domitianus döneminde 12. Yıldırım Lejyonu tarafından bırakılan ve Roma İmparatorluğu'nun doğuda ulaştığı en uzak noktayı kanıtlayan Latince bir kaya yazıtı da bulunmaktadır.",
+    "en": "Situated about 64 kilometers southwest of Baku in a semi-desert landscape, Gobustan is one of the most ancient and valuable footprints of human civilization. Inscribed as a UNESCO World Heritage Site in 2000, this archaeological reserve contains over 6,000 prehistoric rock engravings (petroglyphs) spanning from the Upper Paleolithic to the Middle Ages. The carvings depict primitive humans, hunting scenes, tribal dances, and animals. It features the famous 'Gaval Dash', a natural musical stone that rings like a tambourine when struck. Gobustan also houses a historic Latin rock inscription left by the Roman Emperor Domitian's 12th Fulminata Legion, marking the easternmost point ever reached by Roman soldiers.",
+    "de": "Ein UNESCO-Weltkulturerbe südwestlich von Baku. Es beherbergt über 6.000 prähistorische Felsritzungen (Petroglyphen), die das Leben von Urkundenmenschen vor bis zu 40.000 Jahren dokumentieren."
+  },
+  "activities": {
+    "tr": [
+      "Arkeolojik ve prehistorik gezi",
+      "Açık hava müzesi turu",
+      "Kültür fotoğrafçılığı"
+    ],
+    "en": [
+      "Archaeological and prehistoric tour",
+      "Open-air museum exploration",
+      "Cultural photography"
+    ],
+    "de": [
+      "Archäologische und prähistorische Tour",
+      "Freilichtmuseums-Erkundung",
+      "Kulturfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "arkeoloji",
+      "milli-park"
+    ],
+    "en": [
+      "historical-site",
+      "archaeology",
+      "national-park"
+    ],
+    "de": [
+      "historische-staette",
+      "archaeologie",
+      "nationalpark"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/29/Gobustan_Petroglyphs_Azerbaijan_2013.jpg"
+  ]
+},
+{
+  "slug": "naftalan-saglik-merkezi",
+  "name": {
+    "tr": "Naftalan Termal Bölgesi",
+    "en": "Naftalan Health Resort",
+    "de": "Naftalan Heilbad"
+  },
+  "latitude": 40.6067,
+  "longitude": 46.8256,
+  "description": {
+    "tr": "Gence yakınlarında yer alan Naftalan, dünyada eşi benzeri olmayan bir sağlık turizmi merkezidir. Bu şehri benzersiz kılan şey, yanıcı olmayan ve 'siyah altın' olarak adlandırılan, şifalı özelliklere sahip özel bir ham petrol türüdür (Naftalan petrolü). Antik çağlardan beri bilinen, Marco Polo'nun seyahatnamelerinde bile bahsettiği bu petrol, modern tıpta özellikle romatizma, cilt hastalıkları (sedef, egzama), eklem ve sinir sistemi rahatsızlıklarının tedavisinde kullanılır. Ziyaretçiler buradaki lüks spa ve sağlık merkezlerinde, vücut sıcaklığına kadar ısıtılmış özel petrol banyolarına girerek tedavi olurlar. Dünyanın dört bir yanından şifa aramaya gelen turistleri ağırlayan Naftalan, alternatif tıp ve sağlık turizminin küresel ölçekteki en ilginç noktalarından biridir.",
+    "en": "Situated near Ganja, Naftalan is a globally unique health and wellness tourism hub. What makes this town extraordinary is its rare, non-combustible type of crude oil, known as Naftalan oil, which possesses remarkable therapeutic properties. Mentioned as early as the journals of Marco Polo, this unique petroleum is used in alternative medicine to treat over 70 diseases, particularly rheumatism, psoriasis, eczema, and neurological disorders. Visitors experience full-body immersion in warm crude oil baths at specialized medical resorts, making Naftalan one of the most eccentric and famous spa destinations in the world.",
+    "de": "Ein weltweit einzigartiger Kurort, bekannt für sein medizinisches Naftalan-Erdöl. Das nicht-brennbare Öl wird in speziellen Bädern zur Behandlung von Rheuma und Hautkrankheiten genutzt."
+  },
+  "activities": {
+    "tr": [
+      "Petrol banyosu ve spa deneyimi",
+      "Sağlık turizmi ve tedavi",
+      "Medikal wellness"
+    ],
+    "en": [
+      "Crude oil bath and spa experience",
+      "Health tourism and therapy",
+      "Medical wellness"
+    ],
+    "de": [
+      "Erdölbad und Spa-Erlebnis",
+      "Gesundheitstourismus und Therapie",
+      "Medizinische Wellness"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "saglik-turizmi",
+      "termal",
+      "ilginç-yer"
+    ],
+    "en": [
+      "health-tourism",
+      "thermal",
+      "quirky-site"
+    ],
+    "de": [
+      "gesundheitstourismus",
+      "thermalbad",
+      "sehenswuerdigkeit"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/d/df/Naftalan_oil_bath_experience.jpg"
+  ]
+},
+{
+  "slug": "yanardag-abseron",
+  "name": {
+    "tr": "Yanardağ Doğal Gaz Ateşi",
+    "en": "Yanar Dag (Burning Mountain)",
+    "de": "Yanar Dağ (Brennender Berg)"
+  },
+  "latitude": 40.5114,
+  "longitude": 49.8911,
+  "description": {
+    "tr": "Bakü'nün hemen dışındaki Abşeron Yarımadası'nda yer alan Yanardağ, Azerbaycan'ın neden 'Odlar Yurdu' (Ateş Ülkesi) olarak anıldığının en somut ve canlı kanıtıdır. Yer altındaki yoğun doğal gaz rezervlerinin sızıntı yapması sebebiyle bir tepenin yamaçlarında asırlardır hiç sönmeden yanan bu doğal ateş, yağmur, kar veya sert rüzgarlardan etkilenmez. Tarih boyunca Zerdüştlerin (ateşe tapanlar) kutsal kabul ettiği bu bölge, antik seyyahlar ve Marco Polo tarafından da hayretle kayda geçirilmiştir. Yaklaşık 10 metre genişliğinde bir şerit boyunca yükselen alevler, özellikle akşam karanlığında mistik ve büyüleyici bir görsel şölen sunar. Yanardağ, koruma altına alınmış bir devlet tarih-kültür ve doğa koruma alanıdır.",
+    "en": "Located on the Absheron Peninsula just outside Baku, Yanar Dag (Burning Mountain) is the most vivid proof of why Azerbaijan is historically nicknamed 'The Land of Fire'. Fueled by continuous natural gas seepage from the porous sandstone layers, this hillside fire has been burning uninterrupted for centuries, unaffected by rain, snow, or heavy winds. Historically sacred to Zoroastrians (fire-worshippers), it was documented with awe by ancient travelers like Marco Polo. The tongues of fire, stretching along a 10-meter ledge, create a mystical and mesmerizing spectacle, especially after sunset.",
+    "de": "Ein natürliches Erdgasfeuer auf der Abseron-Halbinsel, das seit Jahrhunderten ununterbrochen an einem Hügel brennt. Es trotzt Regen sowie Schnee und gab Aserbaidschan den Namen 'Land des Feuers'."
+  },
+  "activities": {
+    "tr": [
+      "Doğal ateş gösterisi izleme",
+      "Gece fotoğrafçılığı",
+      "Mistik ve tarihi tur"
+    ],
+    "en": [
+      "Natural fire show watching",
+      "Night photography",
+      "Mystical and historical tour"
+    ],
+    "de": [
+      "Natürliches Feuerspektakel beobachten",
+      "Nachtfotografie",
+      "Mystische und historische Tour"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doga",
+      "ilginç-yer",
+      "anit"
+    ],
+    "en": [
+      "nature",
+      "quirky-site",
+      "monument"
+    ],
+    "de": [
+      "natur",
+      "sehenswuerdigkeit",
+      "denkmal"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/1/15/Yanar_Dag_Baku_2013.jpg"
+  ]
+}
+
+]

@@ -1,0 +1,210 @@
+[
+{
+  "slug": "nizami-gencevi-turbesi",
+  "name": {
+    "tr": "Nizami Gencevi Türbesi",
+    "en": "Nizami Ganjavi Mausoleum",
+    "de": "Nizami-Gandschawi-Mausoleum"
+  },
+  "latitude": 40.6714,
+  "longitude": 46.4311,
+  "description": {
+    "tr": "12. yüzyılda yaşamış, Doğu ve dünya edebiyatının en büyük şair ve düşünürlerinden biri olan Nizami Gencevi'nin anısına inşa edilen bu anıt-türbe, Gence şehrinin en önemli girişinde yükselmektedir. İlk olarak eski bir mezar üzerine inşa edilen yapı, 1991 yılında bugünkü görkemli ve modern anıtsal formuna kavuşturulmuştur. Granitten inşa edilen ve silindirik bir kule şeklinde göğe yükselen türbenin etrafında şairin ünlü 'Hamse' (Beşli) eserindeki destanları (Leyla ile Mecnun, Hüsrev ile Şirin gibi) simgeleyen bronz heykeller yer alır. Çevresini saran geniş park alanı ve hemen yanındaki Nizami Müzesi ile burası, Gence'nin edebi ve kültürel kimliğinin en büyük sembolüdür.",
+    "en": "Erected in honor of Nizami Ganjavi, one of the greatest poets and thinkers of Eastern and world literature who lived in the 12th century, this monumental mausoleum stands at the main entrance to Ganja. Originally built over an older tomb, the structure was rebuilt in 1991 into its current grand, modern monumental form. Built from solid granite and rising as a tall cylindrical tower, the mausoleum is surrounded by bronze statues depicting scenes from the poet's famous 'Khamsa' (Quintet), including tales like Layla and Majnun. With its vast surrounding park and the adjacent Nizami Museum, it is the ultimate symbol of Ganja’s literary and cultural identity.",
+    "de": "Ein monumentales Mausoleum aus Granit für den weltberühmten Dichter des 12. Jahrhunderts, Nizami Gandschawi. Das Wahrzeichen von Ganja ist von Statuen aus seinen Werken umgeben."
+  },
+  "activities": {
+    "tr": [
+      "Anıt mezar ziyareti",
+      "Edebiyat ve tarih turu",
+      "Müze gezisi"
+    ],
+    "en": [
+      "Mausoleum visit",
+      "Literature and history tour",
+      "Museum sightseeing"
+    ],
+    "de": [
+      "Mausoleum-Besuch",
+      "Literatur- und Historische Tour",
+      "Museumsbesuch"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "anit",
+      "turbe",
+      "tarihi-yer"
+    ],
+    "en": [
+      "monument",
+      "mausoleum",
+      "historical-site"
+    ],
+    "de": [
+      "denkmal",
+      "mausoleum",
+      "historische-staette"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4c/Nizami_Ganjavi_mausoleum_2021.jpg"
+  ]
+},
+{
+  "slug": "sah-abbas-camii-gence",
+  "name": {
+    "tr": "Şah Abbas Camii (Cuma Camii)",
+    "en": "Shah Abbas Mosque (Juma Mosque)",
+    "de": "Schah-Abbas-Moschee (Freitagsmoschee)"
+  },
+  "latitude": 40.6775,
+  "longitude": 46.3603,
+  "description": {
+    "tr": "Gence'nin tarihi merkezinde yer alan Şah Abbas Camii, 1606 yılında Safevi hükümdarı Şah Abbas'ın emriyle ünlü astronom ve mimar Şeyh Bahaddin tarafından inşa edilmiştir. Kırmızı tuğladan yapılan bu devasa Cuma Camii, Gence mimari okulunun en kusursuz örneğidir. Şeyh Bahaddin'in mühendislik dehası sayesinde, caminin batı duvarındaki tek bir kırmızı tuğla, öğle namazı vaktinde güneş ışınlarının düşüş açısıyla kesin bir güneş saati işlevi görür. 1777 yılında camiye eklenen iki büyük minare yapının ihtişamını pekiştirmiştir. Caminin hemen arkasında yer alan tarihi Cevad Han Türbesi ve yanındaki Şah Abbas Hamamı ile birlikte bu bölge, Gence'nin Orta Çağ tarihini günümüze taşır.",
+    "en": "Located in the historic center of Ganja, the Shah Abbas Mosque was built in 1606 by order of the Safavid ruler Shah Abbas, under the direction of the famous astronomer and architect Sheikh Bahauddin. Built entirely of red brick, this massive Juma Mosque is the finest example of the Ganja school of architecture. Thanks to Sheikh Bahauddin's engineering genius, a specific red brick on the western wall functions as an exact sundial, pinpointing the noon prayer time via shadows. The twin minarets added in 1777 enhance the structure's grandeur. Adjacent to the tomb of Javad Khan and the historic Shah Abbas Bathhouse, this complex brings Ganja’s medieval history to life.",
+    "de": "Die 1606 erbaute rote Backsteinmoschee ist ein Meisterwerk der Safawiden-Architektur. Ein genialer Entwurf sorgt dafür, dass ein bestimmter Ziegelstein als astronomische Sonnenuhr fungiert."
+  },
+  "activities": {
+    "tr": [
+      "Dini mimari gezisi",
+      "Tarihi meydan yürüyüşü",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Religious architecture tour",
+      "Historic square walk",
+      "Photography"
+    ],
+    "de": [
+      "Religiöse Architekturführung",
+      "Historischer Platzspaziergang",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "cami",
+      "ibadethane"
+    ],
+    "en": [
+      "historical-site",
+      "mosque",
+      "place-of-worship"
+    ],
+    "de": [
+      "historische-staette",
+      "moschee",
+      "gotteshaus"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Juma_Mosque_of_Ganja_2011.jpg"
+  ]
+},
+{
+  "slug": "goygol-ulusal-parki",
+  "name": {
+    "tr": "Göygöl Ulusal Parkı ve Göygöl Gölü",
+    "en": "Göygöl National Park and Lake Göygöl",
+    "de": "Göygöl-Nationalpark und Göygöl-See"
+  },
+  "latitude": 40.4081,
+  "longitude": 46.3236,
+  "description": {
+    "tr": "Gence yakınlarındaki Küçük Kafkas Dağları'nın eteklerinde yer alan Göygöl, Azerbaycan'ın en büyüleyici ve en temiz doğa harikalarından biridir. M.S. 1139 yılında bölgede meydana gelen büyük bir deprem sonucunda Kapaz Dağı'ndan kopan devasa kayaların Kürəkçay'ın önünü kapatmasıyla oluşan bu tektonik heyelan gölü, adını cam gibi berrak, derin mavi sularından ('Gök Göl') almıştır. Deniz seviyesinden 1.566 metre yükseklikte yer alan gölün etrafı, yoğun ve el değmemiş Kafkas ormanlarıyla çevrilidir. Yoğun bitki örtüsü ve yaban hayatıyla koruma altında olan Göygöl Ulusal Parkı, temiz dağ havası, muazzam yansımalar sunan göl manzarası ve huzurlu atmosferiyle doğa tutkunları için adeta bir cennettir.",
+    "en": "Situated on the slopes of the Lesser Caucasus Mountains near Ganja, Lake Göygöl is one of Azerbaijan’s most breathtaking natural wonders. Formed in 1139 AD when a massive earthquake caused a part of Mount Kapaz to collapse and block the Kürəkçay River, this tectonic landslide lake derives its name ('Blue Lake') from its crystal-clear, deep blue waters. Located at an altitude of 1,566 meters above sea level, the lake is surrounded by dense, pristine Caucasian forests. Protected within the Göygöl National Park, it offers clean mountain air, spectacular alpine reflections, and a tranquil escape for nature lovers.",
+    "de": "Ein atemberaubender tektonischer Bergsee auf 1.566 Metern Höhe, der 1139 durch ein Erdbeben entstand. Bekannt für sein kristallklares, tiefblaues Wasser und dichte Wälder."
+  },
+  "activities": {
+    "tr": [
+      "Doğa fotoğrafçılığı",
+      "Manzara seyri",
+      "Milli park yürüyüşü"
+    ],
+    "en": [
+      "Nature photography",
+      "Scenic viewpoint watching",
+      "National park trekking"
+    ],
+    "de": [
+      "Naturfotografie",
+      "Aussichtspunkt genießen",
+      "Nationalpark-Wandern"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doga",
+      "gol",
+      "milli-park"
+    ],
+    "en": [
+      "nature",
+      "lake",
+      "national-park"
+    ],
+    "de": [
+      "natur",
+      "see",
+      "nationalpark"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e8/Goygol_lake_Azerbaijan_2021.jpg"
+  ]
+},
+{
+  "slug": "sise-ev-gence",
+  "name": {
+    "tr": "Şişe Ev",
+    "en": "Bottle House",
+    "de": "Flaschenhaus"
+  },
+  "latitude": 40.6792,
+  "longitude": 46.3655,
+  "description": {
+    "tr": "Gence'nin ara sokaklarında yer alan Şişe Ev, sıra dışı mimarisiyle şehrin en çok ilgi çeken turistik ve sanatsal mekanlarından biridir. 1966-1967 yılları arasında Genceli mimar İbrahim Caferov tarafından, İkinci Dünya Savaşı'nda kaybolan kardeşi Yusuf'un ve savaştan dönmeyen tüm askerlerin anısına inşa edilmiştir. İki katlı bu özel mülkün dış cephesi, farklı renk ve boyutlarda yaklaşık 48.000 adet cam şişe, renkli taşlar ve mozaiklerle kaplanmıştır. Şişelerin dizilimiyle duvara 'Gence' yazısı, dekoratif desenler ve İkinci Dünya Savaşı'na ait temalar işlenmiştir. Işık vurduğunda parıldayan bu benzersiz yapı, hem bir anıt niteliği taşır hem de dünyadaki sürdürülebilir/alternatif mimarinin erken dönem halk sanatındaki en yaratıcı örneklerinden biridir.",
+    "en": "Tucked away in the side streets of Ganja, the Bottle House is one of the city's most unique and quirky architectural sights. Built between 1966 and 1967 by local architect Ibrahim Jafarov, it was constructed in memory of his brother Yusuf, who went missing during WWII, and all soldiers who never returned. The exterior walls of this two-story private house are decorated with approximately 48,000 glass bottles of various shapes and colors, combined with colorful stones and mosaics. The bottles spell out the word 'Ganja' and form decorative folk art patterns. Shining brightly when hit by sunlight, this eccentric house serves both as a memorial and a highly creative example of folk art architecture.",
+    "de": "Ein einzigartiges zweistöckiges Privathaus, dessen Fassade aus rund 48.000 bunten Glasflaschen und Mosaiken besteht. Erbaut in den 1960er Jahren als Weltkriegsdenkmal."
+  },
+  "activities": {
+    "tr": [
+      "Sıra dışı mimari gezisi",
+      "Fotoğrafçılık",
+      "Şehir turu"
+    ],
+    "en": [
+      "Quirky architecture tour",
+      "Photography",
+      "City exploration"
+    ],
+    "de": [
+      "Kuriose Architekturführung",
+      "Fotografie",
+      "Stadt erkunden"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "modern-mimari",
+      "anit",
+      "ilginç-yer"
+    ],
+    "en": [
+      "modern-architecture",
+      "monument",
+      "quirky-site"
+    ],
+    "de": [
+      "moderne-architektur",
+      "denkmal",
+      "sehenswuerdigkeit"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bottle_house_in_Ganja_2011.jpg"
+  ]
+}
+]

@@ -86,5 +86,158 @@
       "assets/surlar1.jpg",
       "assets/surlar2.jpg"
     ]
-  }
+  },
+{
+  "slug": "buyuk-han-lefkosa",
+  "name": {
+    "tr": "Büyük Han",
+    "en": "The Great Inn (Büyük Han)",
+    "de": "Büyük Han"
+  },
+  "latitude": 35.1764,
+  "longitude": 33.3628,
+  "description": {
+    "tr": "Kıbrıs'ın en büyük ve en göz alıcı Osmanlı mimari eserlerinden biri olan Büyük Han, 1572 yılında Kıbrıs'ın ilk Osmanlı Beylerbeyi Muzaffer Paşa tarafından inşa ettirilmiştir. İki katlı, revaklı devasa bir avluya sahip olan bu kervansaray, Anadolu'daki menzil hanlarının mimari özelliklerini tam anlamıyla yansıtır. Hanın en dikkat çekici noktası, açık iç avlusunun tam merkezinde yer alan mermer sütunlar üzerindeki sekiz köşeli köşk mescididir ve bu mescidin altında bir çeşme bulunur. İngiliz sömürge döneminde hapishane ve yoksullar evi olarak da kullanılan yapı, günümüzde aslına uygun olarak restore edilmiştir. İçerisindeki geleneksel kafeler, el sanatları dükkanları ve otantik atmosferiyle Lefkoşa sosyal hayatının ve turizminin en canlı merkezidir.",
+    "en": "Considered one of the grandest and most beautiful Ottoman architectural monuments on the island, the Büyük Han (The Great Inn) was constructed in 1572 by Muzaffer Pasha, the first Ottoman governor of Cyprus. Featuring a massive two-story arcaded courtyard, this caravanserai reflects the classic layout of Anatolian traveler inns. The most striking highlight is the unique octagonal mosque (masjid) raised on stone pillars right at the center of the courtyard, with a water fountain beneath it. Used as a prison and a poorhouse during the British colonial era, the inn has been meticulously restored. Today, it serves as a vibrant cultural center filled with traditional cafes, artisan workshops, and souvenir shops.",
+    "de": "Die größte und prächtigste osmanische Karawanserei auf Zypern, erbaut im Jahr 1572. Der zweistöckige Komplex verfügt über einen wunderschönen Innenhof mit einer zentralen, achteckigen Moschee auf Säulen und beherbergt heute Cafés und Kunsthandwerksläden."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi kervansaray gezisi",
+      "Geleneksel Kıbrıs kahvesi keyfi",
+      "El sanatları alışverişi"
+    ],
+    "en": [
+      "Historical caravanserai tour",
+      "Traditional Cypriot coffee tasting",
+      "Artisan and souvenir shopping"
+    ],
+    "de": [
+      "Historische Karawanserei-Tour",
+      "Traditioneller zypriotischer Kaffeegenuss",
+      "Kunsthandwerk-Shopping"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kervansaray",
+      "kültür"
+    ],
+    "en": [
+      "historical-site",
+      "caravanserai",
+      "culture"
+    ],
+    "de": [
+      "historische-staette",
+      "karawanserei",
+      "kultur"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Buyuk_Han_Lefkosa_Cyprus.jpg"
+  ]
+},
+{
+  "slug": "barbarlik-muzesi-lefkosa",
+  "name": {
+    "tr": "Barbarlık Müzesi",
+    "en": "Museum of Barbarism",
+    "de": "Museum der Barbarei"
+  },
+  "latitude": 35.1912,
+  "longitude": 33.3619,
+  "description": {
+    "tr": "Lefkoşa'nın Kumsal bölgesinde yer alan Barbarlık Müzesi, Kıbrıs Türk halkının yakın tarihinde yaşadığı en trajik olayların anısını koruyan hüzünlü ve tarihi bir hafıza mekanıdır. Müze, 21 Aralık 1963 tarihinde 'Kanlı Noel' olarak bilinen olaylar sırasında, Kıbrıs Türk Kuvvetleri Alayı Doktoru Binbaşı Nihat İlhan'ın görevi başında olduğu sırada, Rum kurşunları tarafından eşi ve üç çocuğunun banyoda vahşice katledildiği tek katlı evdir. Olaydan sonra ev aynen korunmuş ve 1966 yılında müze haline getirilmiştir. Duvarlardaki kurşun izleri, kan lekeleri, o döneme ait fotoğraflar ve gazete kupürleri sergilenmektedir. Kıbrıs Barış Harekâtı'na giden süreci ve adadaki Türk toplumunun çektiği acıları anlamak adına sarsıcı ama son derece önemli bir ziyaret noktasıdır.",
+    "en": "Located in the Kumsal district of Nicosia, the Museum of Barbarism is a somber historic site dedicated to the tragic events of Cyprus's recent history. The museum is the actual single-story house of Major Dr. Nihat İlhan, a medical officer in the Turkish army contingent in Cyprus. During the outbreak of intercommunal violence known as 'Bloody Christmas' on December 21, 1963, his wife and three young children were brutally murdered in the bathroom by Greek Cypriot paramilitaries. Preserved in its original state and opened as a museum in 1966, the house displays bullet holes, personal items, and historic photographs, serving as a powerful monument to the struggles of the Turkish Cypriot community.",
+    "de": "Ein historisches Gedenkmuseum im Stadtteil Kumsal. Es ist das originale Wohnhaus eines türkischen Stabsarztes, dessen Familie während der ethnischen Unruhen zu Weihnachten 1963 ermordet wurde, und dokumentiert die tragische jüngere Geschichte Zyperns."
+  },
+  "activities": {
+    "tr": [
+      "Tarih ve hafıza merkezi ziyareti",
+      "Müze gezisi"
+    ],
+    "en": [
+      "History and memorial visit",
+      "Museum sightseeing"
+    ],
+    "de": [
+      "Geschichts- und Gedenkstättenbesuch",
+      "Museumsbesichtigung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "müze",
+      "tarihi-yer",
+      "anit"
+    ],
+    "en": [
+      "museum",
+      "historical-site",
+      "monument"
+    ],
+    "de": [
+      "museum",
+      "historische-staette",
+      "denkmal"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/23/Museum_of_Barbarism_Nicosia.jpg"
+  ]
+},
+{
+  "slug": "venedik-surlari-ve-girne-kapisi",
+  "name": {
+    "tr": "Venedik Surları ve Girne Kapısı",
+    "en": "Venetian Walls and Kyrenia Gate",
+    "de": "Venezianische Festungsmauer und Kyrenia-Tor"
+  },
+  "latitude": 35.1822,
+  "longitude": 33.3614,
+  "description": {
+    "tr": "Lefkoşa'yı bir yıldız gibi çevreleyen Venedik Surları, 1567 yılında Venedikliler tarafından Osmanlı kuşatmasına karşı şehri korumak amacıyla ünlü mimar Giulio Savorgnano tarafından tasarlanmıştır. Toplamda 4.8 kilometre uzunluğunda olan ve 11 burçtan oluşan bu dairesel sur sisteminin en kuzeydeki giriş noktası 'Girne Kapısı'dır (Porta del Proveditore). 1570 yılında Osmanlıların şehri fethetmesinin ardından kapı revize edilmiş ve üzerine kubbeli bir bekçi odası eklenmiştir. Kapının duvarlarında Venediklilere ait kitabeler ile Osmanlı döneminde eklenen Kur'an ayetleri ve tuğralar bir arada yer alır. Günümüzde Lefkoşa surlar içi ile modern şehir merkezini birbirine bağlayan tarihi ve mimari bir sınır anıtıdır.",
+    "en": "Encircling the old city of Nicosia like a perfect star, the Venetian Walls were designed in 1567 by the famous architect Giulio Savorgnano to protect the city against the impending Ottoman siege. Stretching 4.8 kilometers and featuring 11 bastions, the northernmost gate of this circular fortress system is the Kyrenia Gate. Following the Ottoman capture of the city in 1570, the gate was renovated with a domed guardhouse added on top. The gate features Venetian inscriptions alongside Ottoman calligraphic panels and tughras. Today, it stands as a beautiful historical landmark separating the old walled city from modern Nicosia.",
+    "de": "Die sternförmige venezianische Festungsmauer aus dem Jahr 1567 umschließt die Altstadt von Nikosia. Das Kyrenia-Tor im Norden ist das besterhaltene historische Stadttor und verbindet die Altstadt mit der modernen Stadt."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi sur ve kapı gezisi",
+      "Yürüyüş turu",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Historic walls and gate tour",
+      "Walking tour",
+      "Photography"
+    ],
+    "de": [
+      "Historische Stadtmauer- und Tor-Tour",
+      "Stadtspaziergang",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kale",
+      "anit"
+    ],
+    "en": [
+      "historical-site",
+      "fortress",
+      "monument"
+    ],
+    "de": [
+      "historische-staette",
+      "festung",
+      "denkmal"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/07/Kyrenia_Gate_Nicosia_2019.jpg"
+  ]
+}
 ]

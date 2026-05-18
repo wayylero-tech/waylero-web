@@ -33,6 +33,7 @@ import { MapPin, ChevronRight } from "lucide-react";
       en: "Cave hotels and unique landscapes",
     },
   },
+
   {
     id: "antalya",
     name: { tr: "Antalya", en: "Antalya" },
@@ -78,6 +79,15 @@ import { MapPin, ChevronRight } from "lucide-react";
       en: "Black Sea hotels surrounded by nature",
     },
   },
+  {
+  id: "edirne",
+  name: { tr: "Edirne", en: "Edirne" },
+  image: "/assets/sehir1/edirne.webp",
+  desc: {
+    tr: "Osmanlı mirası, tarihi çarşılar ve eşsiz lezzetler",
+    en: "Ottoman heritage, historic bazaars and unique flavors",
+  },
+},
   {
     id: "bangkok",
     name: { tr: "Bangkok", en: "Bangkok" },

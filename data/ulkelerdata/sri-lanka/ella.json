@@ -1,0 +1,60 @@
+[
+{
+  "slug": "dokuz-kemerli-kopru-ella",
+  "city": {
+    "tr": "Ella (Badulla Bölgesi)",
+    "en": "Ella (Badulla District)",
+    "de": "Ella (Badulla-Distrikt)"
+  },
+  "name": {
+    "tr": "Dokuz Kemerli Köprü",
+    "en": "Nine Arch Bridge",
+    "de": "Neun-Bogen-Brücke"
+  },
+  "latitude": 6.8768,
+  "longitude": 81.0608,
+  "description": {
+    "tr": "Sri Lanka'nın büyüleyici dağ kasabası Ella'da, uçsuz bucaksız çay tarlalarının ve tropikal ormanların arasında gizlenmiş olan Dokuz Kemerli Köprü, sömürge dönemi mühendisliğinin en estetik örneklerinden biridir. İngiliz sömürge yönetimi sırasında, 1921 yılında inşa edilen köprünün en çılgın özelliği, yapımında tek bir parça bile çelik veya metal kullanılmamış olmasıdır; tamamen yerel taş, tuğla ve çimento ile yapılmıştır. 'Gökyüzündeki Köprü' olarak da bilinen bu 30 metre yüksekliğindeki viyadüğün üzerinden mavi ve kırmızı renkli ikonik Sri Lanka trenleri geçerken, çay tarlalarıyla birleşen manzara dünyanın en popüler seyahat fotoğraflarından birini oluşturur.",
+    "en": "Hidden among the endless tea plantations and dense tropical forests of the misty mountain town of Ella, the Nine Arch Bridge is a spectacular masterpiece of colonial-era engineering. Commissioned in 1921 during the British colonial period, the most extraordinary aspect of this 30-meter-high viaduct is that it was constructed entirely from local stone, brick, and cement, without a single piece of steel. Also known as the 'Bridge in the Sky', watching the iconic blue and red trains pass over these sweeping arches amidst the lush green valleys is one of Sri Lanka's most picturesque experiences.",
+    "de": "Versteckt in den dichten Teebonbons und Bergwäldern der Kleinstadt Ella. Das 1921 während der britischen Kolonialzeit errichtete, 30 Meter hohe Viadukt wurde komplett ohne Stahl aus Steinen und Ziegeln gebaut. Berühmt für die Durchfahrt der nostalgischen Züge."
+  },
+  "activities": {
+    "tr": [
+      "Çay tarlaları trekkingi",
+      "Tren geçişi izleme",
+      "Manzara fotoğrafçılığı"
+    ],
+    "en": [
+      "Tea plantation trekking",
+      "Train passing viewpoint",
+      "Landscape photography"
+    ],
+    "de": [
+      "Wanderung durch die Teeplantagen",
+      "Zugbeobachtung auf der Brücke",
+      "Landschaftsfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doga",
+      "anit",
+      "mimari"
+    ],
+    "en": [
+      "nature",
+      "monument",
+      "architecture"
+    ],
+    "de": [
+      "natur",
+      "denkmal",
+      "architektur"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/1/15/Nine_Arch_Bridge_Ella_Sri_Lanka.jpg"
+  ]
+}
+
+]

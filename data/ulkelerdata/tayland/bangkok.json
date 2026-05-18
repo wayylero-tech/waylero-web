@@ -136,5 +136,266 @@
     "images": [
       "https://example.com/chatuchak_market.jpg"
     ]
-  }
+  },
+{
+  "slug": "buyuk-saray-bangkok",
+  "name": {
+    "tr": "Büyük Saray",
+    "en": "The Grand Palace",
+    "de": "Großer Palast"
+  },
+  "latitude": 13.7500,
+  "longitude": 100.4913,
+  "description": {
+    "tr": "1782 yılında inşa edilen ve uzun yıllar Siyam (Tayland) krallarına ev sahipliği yapan Büyük Saray, başkent Bangkok'un kalbinde yer alan muazzam bir mimari komplekstir. Geleneksel Tay mimarisi ile Avrupa tarzının harmanlandığı saray, altın varaklı kubbeleri, göz alıcı oymaları ve rengarenk mozaikleriyle büyüleyici bir görselliğe sahiptir. Kompleksin en kutsal noktası, içinde tek parça yeşim taşından oyulmuş gizemli Zümrüt Buda Heykeli'ni barındıran 'Wat Phra Kaew' tapınağıdır. Tayland halkı için hem manevi hem de siyasi bir sembol olan bu saray, ülkenin zengin kraliyet geçmişini ve sanatsal dehasını en ihtişamlı şekilde yansıtır.",
+    "en": "Established in 1782, the Grand Palace is a spectacular complex of buildings at the heart of Bangkok that served as the official residence of the Kings of Siam. Featuring a stunning blend of traditional Thai court architecture and Western styles, it is famous for its golden spires, intricate carvings, and vibrant mosaics. The complex houses 'Wat Phra Kaew' (Temple of the Emerald Buddha), which contains the highly revered Emerald Buddha meticulously carved from a single block of jade. It stands as the ultimate symbol of Thailand's royal heritage and spiritual devotion.",
+    "de": "Der 1782 erbaute Große Palast in Bangkok war die offizielle Residenz der Könige von Siam. Der weitläufige Komplex besticht durch seine goldenen Pagoden und beherbergt den Wat Phra Kaew mit dem heiligen Smaragd-Buddha."
+  },
+  "activities": {
+    "tr": [
+      "Kraliyet sarayı ve tapınak gezisi",
+      "Kültür ve mimari fotoğrafçılığı",
+      "Tarih turu"
+    ],
+    "en": [
+      "Royal palace and temple sightseeing",
+      "Cultural and architectural photography",
+      "Historical tour"
+    ],
+    "de": [
+      "Königspalast- und Tempelbesichtigung",
+      "Kultur- und Architekturfotografie",
+      "Historische Tour"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "saray",
+      "tapinak"
+    ],
+    "en": [
+      "historical-site",
+      "palace",
+      "template"
+    ],
+    "de": [
+      "historische-staette",
+      "palast",
+      "tempel"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e3/Grand_Palace_Bangkok_2019.jpg"
+  ]
+},
+{
+  "slug": "ayutthaya-tarihi-parki",
+  "name": {
+    "tr": "Ayutthaya Tarihi Parkı",
+    "en": "Ayutthaya Historical Park",
+    "de": "Geschichtspark Ayutthaya"
+  },
+  "latitude": 14.3569,
+  "longitude": 100.5583,
+  "description": {
+    "tr": "Bangkok'un yaklaşık 80 kilometre kuzeyinde yer alan Ayutthaya, 1350 ile 1767 yılları arasında Siyam Krallığı'nın ikinci ve en ihtişamlı başkenti olmuştur. Döneminde dünyanın en büyük ve en zengin ticaret metropollerinden biri olan şehir, 1767'de Birmanya ordusu tarafından yıkılana kadar altın çağını yaşamıştır. Günümüzde UNESCO Dünya Mirası Listesi'nde yer alan bu devasa açık hava arkeoloji parkı; devasa tuğla tapınak kalıntıları, gökyüzüne uzanan kuleler (chedi) ve ikonik ağaç köklerinin arasına sıkışıp büyümüş ünlü Buda başı heykeli (Wat Mahathat) ile mistik bir zaman yolculuğu sunar.",
+    "en": "Located about 80 kilometers north of Bangkok, Ayutthaya was founded in 1350 and served as the second glorious capital of the Siamese Kingdom. It grew into one of the world's largest and most prosperous cosmopolitan urban areas before being destroyed by the Burmese army in 1767. Today, this massive UNESCO World Heritage archaeological site features ancient brick temple ruins, towering chedis, and the world-famous stone Buddha head entwined in the roots of a banyan tree at Wat Mahathat, offering a mystical journey into the past.",
+    "de": "Die einstige glanzvolle Hauptstadt des Königreichs Siam (1350–1767) und heutiges UNESCO-Weltkulturerbe. Der Park fasziniert durch monumentale Tempelruinen aus Backstein und den berühmten, von Baumwurzeln umschlossenen Buddhakopf."
+  },
+  "activities": {
+    "tr": [
+      "UNESCO arkeoloji gezisi",
+      "Bisikletle antik kent turu",
+      "Tarihi kalıntı fotoğrafçılığı"
+    ],
+    "en": [
+      "UNESCO archaeological exploration",
+      "Bicycle tour around ancient ruins",
+      "Historical photography"
+    ],
+    "de": [
+      "UNESCO-Archäologietour",
+      "Fahrradtour durch die Ruinenstadt",
+      "Historische Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "arkeoloji",
+      "milli-park"
+    ],
+    "en": [
+      "historical-site",
+      "archaeology",
+      "national-park"
+    ],
+    "de": [
+      "historische-staette",
+      "archaeologie",
+      "nationalpark"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ayutthaya_Historical_Park_Wat_Chaiwatthanaram.jpg"
+  ]
+},
+{
+  "slug": "phi-phi-adalari-thailand",
+  "name": {
+    "tr": "Phi Phi Adaları",
+    "en": "Phi Phi Islands",
+    "de": "Phi Phi Inseln"
+  },
+  "latitude": 7.7407,
+  "longitude": 98.7784,
+  "description": {
+    "tr": "Andaman Denizi'nde, Phuket ile Krabi arasında yer alan Phi Phi Adaları, dünyaca ünlü tropikal bir doğa cennetidir. Turkuaz rengi berrak suları, denizden dikine yükselen devasa kireçtaşı karst kayalıkları ve bembeyaz kumsalları burayı Tayland deniz turizminin başkenti yapmıştır. Leonardo DiCaprio'nun oynadığı 'The Beach' filmiyle ünlenen ve dik kayalıklarla çevrili gizli bir koy olan 'Maya Bay' ile rengarenk mercan resifleri adanın en büyük cazibe merkezleridir. Şnorkelle dalış, kano turları ve adanın zirvesindeki eşsiz seyir terasları (viewpoint) ile hem macera arayanlar hem de huzur isteyenler için küresel bir cazibe merkezidir.",
+    "en": "Nestled in the Andaman Sea between Phuket and Krabi, the Phi Phi Islands are a world-famous tropical paradise. Renowned for their vibrant turquoise waters, sheer limestone cliffs rising dramatically from the sea, and powdery white beaches, they represent the ultimate exotic getaway. The archipelago's highlight is 'Maya Bay', a stunning hidden lagoon enclosed by monolithic cliffs made famous by the movie 'The Beach'. With pristine coral reefs perfect for snorkeling, scuba diving, and kayaking, it remains a bucket-list destination for travelers worldwide.",
+    "de": "Eine weltberühmte Inselgruppe in der Andamanensee. Sie ist bekannt für ihre kristallklaren türkisfarbenen Lagunen, steilen Kalksteinfelsen und die legendäre Maya Bay, die durch den Film 'The Beach' weltbekannt wurde."
+  },
+  "activities": {
+    "tr": [
+      "Şnorkelle dalış ve yüzme",
+      "Tekne turu ve ada keşfi",
+      "Seyir terasından manzara izleme"
+    ],
+    "en": [
+      "Snorkeling and scuba diving",
+      "Island hopping boat tours",
+      "Scenic viewpoint trekking"
+    ],
+    "de": [
+      "Schnorcheln und Tauchen",
+      "Inselhopping-Bootstour",
+      "Wanderung zum Panorama-Aussichtspunkt"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doga",
+      "plaj",
+      "ada"
+    ],
+    "en": [
+      "nature",
+      "beach",
+      "island"
+    ],
+    "de": [
+      "natur",
+      "strand",
+      "insel"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ko_Phi_Phi_Don_Viewpoint_Refr.jpg"
+  ]
+},
+{
+  "slug": "wat-pho-bangkok",
+  "name": {
+    "tr": "Wat Pho (Yatan Buda Tapınağı)",
+    "en": "Wat Pho (Temple of the Reclining Buddha)",
+    "de": "Wat Pho (Tempel des Liegenden Buddha)"
+  },
+  "latitude": 13.7465,
+  "longitude": 100.4933,
+  "description": {
+    "tr": "Büyük Saray'ın hemen güneyinde yer alan Wat Pho, Bangkok'un en eski, en büyük ve en yüksek dereceli kraliyet tapınak komplekslerinden biridir. Tapınağın dünya çapındaki ünü, içinde barındırdığı 46 metre uzunluğunda ve 15 metre yüksekliğindeki devasa 'Yatan Buda' heykelinden gelir. Tamamı altın varakla kaplı bu heykelin sedef kakmalarla süslenmiş ayak tabanları, Budizm'in kutsal sembollerini simgeler. Aynı zamanda Wat Pho, geleneksel Tay masajının ve tıbbının doğduğu yer olarak kabul edilir; kampüs içerisinde hâlâ kraliyet onaylı prestijli bir masaj okulu faaliyet göstermektedir.",
+    "en": "Located directly south of the Grand Palace, Wat Pho is one of Bangkok's oldest, largest, and highest-grade royal temple complexes. The temple is globally renowned for housing the spectacular 'Reclining Buddha' statue, measuring 46 meters long and 15 meters high. Completely covered in gold leaf, the statue's feet are intricately adorned with mother-of-pearl illustrations representing sacred Buddhist symbols. Wat Pho is also celebrated as the birthplace of traditional Thai massage and medicine, housing a prestigious, active massage school within its grounds.",
+    "de": "Einer der ältesten und größten Tempelkomplexe in Bangkok. Die Hauptattraktion ist der beeindruckende, 46 Meter lange und komplett mit Blattgold überzogene Liegende Buddha sowie die traditionelle Thai-Massage-Schule."
+  },
+  "activities": {
+    "tr": [
+      "Budist tapınağı ziyareti",
+      "Geleneksel Tay masajı deneyimi",
+      "Kültür fotoğrafçılığı"
+    ],
+    "en": [
+      "Buddhist temple sightseeing",
+      "Traditional Thai massage experience",
+      "Cultural photography"
+    ],
+    "de": [
+      "Buddhistische Tempelbesichtigung",
+      "Traditionelle Thai-Massage erleben",
+      "Kulturfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "tapinak",
+      "ibadethane"
+    ],
+    "en": [
+      "historical-site",
+      "temple",
+      "place-of-worship"
+    ],
+    "de": [
+      "historische-staette",
+      "tempel",
+      "gotteshaus"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/23/Wat_Pho_Reclining_Buddha_Statue.jpg"
+  ]
+},
+{
+  "slug": "khao-san-yolu-bangkok",
+  "name": {
+    "tr": "Khao San Yolu",
+    "en": "Khao San Road",
+    "de": "Khao San Road"
+  },
+  "latitude": 13.7591,
+  "longitude": 100.4972,
+  "description": {
+    "tr": "Bangkok'un merkezinde yer alan Khao San Yolu, dünya sırt çantalı gezginlerinin (backpacker) resmi olmayan başkenti ve şehrin en çılgın gece hayatı merkezidir. Yaklaşık 410 metre uzunluğundaki bu cadde; yan yana dizilmiş ucuz pansiyonları, neon ışıklı barları, masaj salonları ve dövmecileriyle 24 saat yaşayan dinamik bir yapıya sahiptir. Caddenin en büyük cazibesi ise Tayland'ın ünlü sokak lezzetleridir. Dünyaca ünlü 'Pad Thai' (Tay usulü erişte) ve 'Mango Sticky Rice'tan (mangolu yapışkan pirinç), cesur gezginlerin denediği akrep ve böcek kızartmalarına kadar her türlü sokak yemeğini burada bulmak mümkündür.",
+    "en": "Situated in central Bangkok, Khao San Road is widely known as the backpacker capital of the world and the city's most vibrant nightlife hub. Spanning around 410 meters, this neon-lit street is packed with budget hostels, open-air bars, tattoo parlors, and massage shops operating 24/7. The ultimate draw of Khao San is its legendary street food scene; visitors can taste everything from authentic 'Pad Thai' and 'Mango Sticky Rice' to exotic snacks like fried scorpions, making it an essential cultural experience.",
+    "de": "Die weltberühmte Backpacker-Meile im Herzen von Bangkok. Die lebhafte Straße ist bekannt für ihr pulsierendes Nachtleben, günstige Unterkünfte und eine riesige Auswahl an Street Food – von Pad Thai bis hin zu frittierten Skorpionen."
+  },
+  "activities": {
+    "tr": [
+      "Sokak lezzetleri ve yemek turu",
+      "Gece hayatı ve eğlence",
+      "Alışveriş ve insan gözlemi"
+    ],
+    "en": [
+      "Street food and culinary tour",
+      "Nightlife and entertainment",
+      "Shopping and people watching"
+    ],
+    "de": [
+      "Street Food- und Kulinarik-Tour",
+      "Nachtleben und Unterhaltung",
+      "Shopping und Leute beobachten"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "caddeler",
+      "eglence",
+      "kultur"
+    ],
+    "en": [
+      "streets",
+      "entertainment",
+      "culture"
+    ],
+    "de": [
+      "strassen",
+      "unterhaltung",
+      "kultur"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Khao_San_Road_Bangkok_Night.jpg"
+  ]
+}
+
 ]

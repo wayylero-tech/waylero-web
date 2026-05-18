@@ -38,17 +38,58 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
   };
 
   // ✅ SEO Schema (JSON-LD)
- const schema = {
+  // ✅ SEO Schema (EN GÜNCEL & GÜÇLÜ)
+const schema = {
   "@context": "https://schema.org",
+
   "@type": "TouristAttraction",
+
+  "@id": canonical,
+
   "name": foundPlace.name?.[lang],
+
   "description": foundPlace.description?.[lang],
+
   "url": canonical,
+
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonical
+  },
+
+  "image":
+    images?.[0]?.url ||
+    images?.[0] ||
+    undefined,
+
   "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
+
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": Number(foundPlace.latitude),
     "longitude": Number(foundPlace.longitude)
+  },
+
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": cityName,
+    "addressRegion": region
+  },
+
+  "touristType": [
+    "Tourists",
+    "Travelers",
+    "Backpackers",
+    "Photographers"
+  ],
+
+  "isAccessibleForFree": true,
+
+  "publicAccess": true,
+
+  "potentialAction": {
+    "@type": "ViewAction",
+    "target": canonical
   }
 };
 
@@ -133,6 +174,11 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                 loading="lazy"
               />
             </div>
+            <div className="flex items-center justify-center mt-4">
+  <p className="text-[11px] text-gray-400 font-medium tracking-wide">
+    {foundPlace.latitude}, {foundPlace.longitude}
+  </p>
+</div>
           </div>
 
           {/* ✅ NASIL GİDİLİR */}

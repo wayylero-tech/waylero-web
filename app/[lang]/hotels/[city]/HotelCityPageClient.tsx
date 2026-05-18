@@ -21,9 +21,7 @@ export default function HotelCityPageClient({
       tripadvisor?: string;
     };
   } = {
-    
     tumsehirler: {
-    
       tripadvisor: "https://tripadvisor.tp.st/RJ9OjisP",
       booking: "https://booking.tp.st/Zaseqksp",
     },
@@ -57,6 +55,11 @@ export default function HotelCityPageClient({
     trabzon: {
       tripadvisor: "https://tripadvisor.tp.st/jvSD2sg4",
     },
+ 
+     edirne: {
+      tripadvisor: "https://tripadvisor.tp.st/up96dTI6",
+    },
+    
 
     bangkok: {
       tripadvisor: "https://tripadvisor.tp.st/F9dnmaGA",
@@ -82,15 +85,15 @@ export default function HotelCityPageClient({
   };
 
   const cityName =
-  city.toLowerCase() === "nevsehir"
-    ? isTR
-      ? "Kapadokya"
-      : "Cappadocia"
-    : city.toLowerCase() === "tumsehirler"
-    ? isTR
-      ? "Diğer Şehirler"
-      : "Other Cities"
-    : city.charAt(0).toUpperCase() + city.slice(1);
+    city.toLowerCase() === "nevsehir"
+      ? isTR
+        ? "Kapadokya"
+        : "Cappadocia"
+      : city.toLowerCase() === "tumsehirler"
+      ? isTR
+        ? "Diğer Şehirler"
+        : "Other Cities"
+      : city.charAt(0).toUpperCase() + city.slice(1);
 
   const hotel = cityHotels?.[0];
 
@@ -98,11 +101,9 @@ export default function HotelCityPageClient({
 
   return (
     <div className="min-h-screen bg-white">
-
       {/* HERO */}
       <section className="pt-40 pb-24 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
         <div className="container mx-auto px-6 text-center">
-
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/50 backdrop-blur-sm rounded-full border border-orange-200 text-orange-600 text-[10px] font-black uppercase tracking-widest mb-6">
             <MapPin size={12} />
             {isTR ? "Şehir Rehberi" : "City Guide"}
@@ -117,14 +118,12 @@ export default function HotelCityPageClient({
               ? `${cityName} için en iyi konaklama seçenekleri`
               : `Best stays for ${cityName}`}
           </p>
-
         </div>
       </section>
 
       {/* HOTEL CARDS */}
       <section className="container mx-auto px-6 py-24">
         {hotel ? (
-
           <div
             className={`
               grid gap-10 mx-auto
@@ -135,38 +134,34 @@ export default function HotelCityPageClient({
               }
             `}
           >
-
             {/* BOOKING CARD */}
             {links.booking && (
               <HotelCard
+                {...hotel}
                 city={city}
-                link={links.booking}
                 lang={lang}
                 provider="booking"
-                {...hotel}
+                link={links.booking}
               />
             )}
 
             {/* TRIPADVISOR CARD */}
             {links.tripadvisor && (
               <HotelCard
+                {...hotel}
                 city={city}
-                link={links.tripadvisor}
                 lang={lang}
                 provider="tripadvisor"
-                {...hotel}
+                link={links.tripadvisor}
               />
             )}
-
           </div>
-
         ) : (
           <div className="text-center text-gray-400 py-20 border-2 border-dashed border-gray-100 rounded-[2.5rem]">
             {isTR ? "Otel bulunamadı" : "No hotel found"}
           </div>
         )}
       </section>
-
     </div>
   );
 }

@@ -16,6 +16,30 @@
       "places/europa/bourges/bourges-bourges-katedrali/rjxbyoqmmxmookldfkwu"
     ]
   },
+"amiens": {
+    "amiens-amiens-katedrali": [
+     "places/europa/amiens/amiens-katedrali/amiens-katedrali_1779093174073",
+"places/europa/amiens/amiens-katedrali/amiens-katedrali_1779093190578"
+
+    ]
+  },
+"strazburg": {
+    "strazburg-barrage-vauban": [
+
+"places/europa/strazburg/barrage-vauban/barrage-vauban_1779094086455",
+"places/europa/strazburg/barrage-vauban/barrage-vauban_1779094023895",
+"places/europa/strazburg/barrage-vauban/barrage-vauban_1779094043430",
+"places/europa/strazburg/barrage-vauban/barrage-vauban_1779094060582"
+    ],
+    "strazburg-alsas-muzesi": [
+     "places/europa/strazburg/alsas-muzesi/alsas-muzesi_1779094562199",
+"places/europa/strazburg/alsas-muzesi/alsas-muzesi_1779094576880",
+"places/europa/strazburg/alsas-muzesi/alsas-muzesi_1779094587508",
+"places/europa/strazburg/alsas-muzesi/alsas-muzesi_1779094599950",
+"places/europa/strazburg/alsas-muzesi/alsas-muzesi_1779094614700"
+    ]
+  },
+
 "paris": {
     "paris-champs-lys-es-bulvari": [
       "places/europa/paris/paris-champs-lys-es-bulvari/wknndj52qaxkgkgcg2cd"

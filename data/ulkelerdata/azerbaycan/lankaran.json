@@ -1,0 +1,106 @@
+[
+ {
+  "slug": "lankaran-kalesi-ve-zindan",
+  "name": {
+    "tr": "Lankaran Kalesi ve Dairesel Zindan",
+    "en": "Lankaran Fortress and Circular Castle",
+    "de": "Festung Lankaran und Runder Turm"
+  },
+  "latitude": 38.7538,
+  "longitude": 48.8514,
+  "description": {
+    "tr": "18. yüzyılda Talış Hanlığı döneminde inşa edilen Lankaran Kalesi, şehrin en eski ve en önemli tarihi askeri savunma tahkimatlarından biridir. Orijinalinde çok daha büyük bir alanı kaplayan kaleden günümüze kalan en ikonik parça, 'Dairesel Kale' (Dairəvi Qala) veya halk arasındaki adıyla Zindan'dır. Kırmızı tuğladan silindirik bir kule mimarisiyle yapılan bu yapı, Rus İmparatorluğu döneminde hapishane olarak kullanılmıştır. Bu zindanın en büyük tarihi popülaritesi, 20. yüzyılın başlarında genç Joseph Stalin'in burada bir süre mahkum olarak yatması ve ardından gizli bir yer altı tünelinden kaçması efsanesidir. Günümüzde Lankaran'ın simgelerinden biri olan bu yapı, bölgenin siyasi ve askeri tarihini yansıtır.",
+    "en": "Built in the 18th century during the Talysh Khanate era, the Lankaran Fortress was a major military defense fortification. The most iconic surviving part of the complex is the 'Circular Castle' (Dairəvi Qala), widely known as the Old Prison. Constructed with red bricks in a cylindrical tower layout, it served as a prison during the Russian Empire. The structure's main historical fame comes from the fact that a young Joseph Stalin was imprisoned here in the early 20th century before successfully escaping through a secret underground tunnel. Today, it stands as a prominent historical landmark of Lankaran.",
+    "de": "Eine Festungsanlage aus dem 18. Jahrhundert. Der markante rote, runde Turm diente im Russischen Reich als Gefängnis, in dem Anfang des 20. Jahrhunderts unter anderem der junge Josef Stalin inhaftiert war."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi askeri yapı gezisi",
+      "Fotoğrafçılık",
+      "Şehir turu"
+    ],
+    "en": [
+      "Historical military architecture tour",
+      "Photography",
+      "City exploration"
+    ],
+    "de": [
+      "Historische Militärarchitektur-Tour",
+      "Fotografie",
+      "Stadtbesichtigung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kale",
+      "zindan"
+    ],
+    "en": [
+      "historical-site",
+      "fortress",
+      "prison"
+    ],
+    "de": [
+      "historische-staette",
+      "festung",
+      "gefaengnis"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ec/Circular_Castle_Lankaran.jpg"
+  ]
+},
+{
+  "slug": "hanbulan-golu-lankaran",
+  "name": {
+    "tr": "Hanbulan Gölü",
+    "en": "Khanbulan Lake",
+    "de": "Chanbulan-See"
+  },
+  "latitude": 38.6651,
+  "longitude": 48.7889,
+  "description": {
+    "tr": "Lankaran ile Lerik ilçeleri arasında, Hirkan Ulusal Parkı'nın sık ve balta girmemiş subtropikal ormanlarının kalbinde yer alan Hanbulan, aslında 1976 yılında sulama amaçlı yapılmış devasa bir yapay su rezervuarıdır. Ancak zamanla etrafını saran asırlık demir ağaçları, meşeler ve Kafkas şimşirleri sayesinde tamamen doğal bir göl ekosistemine ve büyüleyici bir doğa harikasına dönüşmüştür. Subtropikal iklimin etkisiyle yılın her dönemi yemyeşil kalan gölün yüzeyi, etrafındaki yoğun ormanın kusursuz yeşil yansımalarını sunar. Şehrin gürültüsünden uzaklaşmak, temiz orman havası almak ve Hazar'ın arkasındaki yemyeşil dağların huzurunu yaşamak isteyen seyyahlar ile kamp tutkunları için Lankaran'daki en popüler kaçış noktasıdır.",
+    "en": "Nestled between the Lankaran and Lerik regions, in the heart of the lush and dense subtropical forests of Hirkan National Park, Khanbulan is a massive water reservoir built in 1976. Over the decades, surrounded by ancient ironwood trees, oaks, and Caucasian boxwoods, it has integrated beautifully into nature, becoming a stunning lake ecosystem. Due to the unique subtropical climate, it remains vibrantly green year-round, offering perfect reflections on its calm waters. It is the most popular getaway for camping, eco-trekking, and escaping the urban bustle in southern Azerbaijan.",
+    "de": "Ein malerischer Stausee inmitten der dichten subtropikalischen Wälder des Hirkan-Nationalparks. Ein Paradies für Ökotourismus, Camping und Naturfotografie im Süden Aserbaidschans."
+  },
+  "activities": {
+    "tr": [
+      "Doğa kampı ve piknik",
+      "Orman trekkingi",
+      "Eko-turizm ve manzara seyri"
+    ],
+    "en": [
+      "Nature camping and picnic",
+      "Forest trekking",
+      "Eco-tourism and scenic viewing"
+    ],
+    "de": [
+      "Natur-Camping und Picknick",
+      "Waldwandern",
+      "Ökotourismus und Landschaftsgenuss"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doga",
+      "gol",
+      "milli-park"
+    ],
+    "en": [
+      "nature",
+      "lake",
+      "national-park"
+    ],
+    "de": [
+      "natur",
+      "see",
+      "nationalpark"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/d/da/Khanbulan_Lake_Lankaran_Azerbaijan.jpg"
+  ]
+}
+]

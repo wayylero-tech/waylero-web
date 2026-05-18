@@ -1,0 +1,107 @@
+[
+ {
+  "slug": "kinalik-koyu-guba",
+  "name": {
+    "tr": "Kınalık Köyü",
+    "en": "Khinalug Village",
+    "de": "Chinalug-Dorf"
+  },
+  "latitude": 41.1794,
+  "longitude": 48.1278,
+  "description": {
+    "tr": "Deniz seviyesinden 2.350 metre yükseklikte, Büyük Kafkas Dağları'nın izole bir zirvesinde yer alan Kınalık, Avrupa'nın ve Azerbaycan'ın en yüksek ve en eski sürekli yerleşim yerlerinden biridir. UNESCO Dünya Mirası Listesi'nde yer alan köy, dik yamaçlara üst üste inşa edilmiş ve birinin çatısının diğerinin avlusu olduğu benzersiz taş evleriyle ünlüdür. Yüzyıllar boyunca coğrafi izolasyonu sayesinde kendine has dilini (Kınalık dili), geleneklerini ve kültürünü tamamen korumayı başarmıştır. Etrafını saran devasa dağ kanyonları, bulutların üzerindeki manzarası ve asırlara meydan okuyan etno-kültürel yapısı ile Kınalık, macera ve kültür gezginleri için adeta bir yeryüzü cennetidir.",
+    "en": "Situated at an altitude of 2,350 meters above sea level on an isolated peak of the Greater Caucasus Mountains, Khinalug is one of the highest and oldest continuously inhabited villages in Europe and Azerbaijan. Now a UNESCO World Heritage Site, it is famous for its unique terraced stone houses built tightly on steep slopes, where the roof of one house serves as the courtyard for another. Due to centuries of geographic isolation, the villagers have fully preserved their distinct language (Khinalug language), traditions, and lifestyle. Surrounded by massive mountain canyons and clouds, it offers an unparalleled journey into ancient ethno-cultural heritage.",
+    "de": "Eines der höchsten und ältesten kontinuierlich bewohnten Dörfer Europas auf 2.350 Metern Höhe im Großen Kaukasus. UNESCO-Weltkulturerbe, bekannt für seine terrassenförmigen Steinhäuser und eine eigene, antike Sprache."
+  },
+  "activities": {
+    "tr": [
+      "Kültür ve etno-turizm gezisi",
+      "Dağ trekkingi",
+      "Fotoğrafçılık"
+    ],
+    "en": [
+      "Cultural and ethno-tourism",
+      "Mountain trekking",
+      "Photography"
+    ],
+    "de": [
+      "Kultur- und Ethno-Tourismus",
+      "Bergwandern",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "doga",
+      "koy"
+    ],
+    "en": [
+      "historical-site",
+      "nature",
+      "village"
+    ],
+    "de": [
+      "historische-staette",
+      "natur",
+      "dorf"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khinalug_view_Azerbaijan_2021.jpg"
+  ]
+},
+{
+  "slug": "kirmizi-kasaba-guba",
+  "name": {
+    "tr": "Kırmızı Kasaba",
+    "en": "Red Town (Krasnaya Sloboda)",
+    "de": "Rote Siedlung (Krasnaja Sloboda)"
+  },
+  "latitude": 41.3742,
+  "longitude": 48.5139,
+  "description": {
+    "tr": "Guba şehir merkezinin hemen karşısında, Kudyalçay'ın diğer kıyısında yer alan Kırmızı Kasaba, İsrail dışındaki dünyada Yahudilerin tamamen bir arada yaşadığı tek ve en büyük yerleşim yeri olarak kabul edilir. 'Dağ Yahudileri' olarak bilinen topluluğun 18. yüzyıldan beri yaşadığı bu kasaba, adını evlerin karakteristik kırmızı kiremitli çatılarından almıştır. Kasaba boyunca yükselen görkemli sinagoglar, kendilerine has mimari tarzda inşa edilmiş lüks konaklar ve zengin kültürel miras korunmaktadır. Azerbaycan'ın asırlardır süregelen çok kültürlülük ve dini hoşgörü politikasının en somut örneği olan Kırmızı Kasaba, kendine özgü yaşam tarzı ve Judeo-Tat dilleriyle dünyadan büyük ilgi görmektedir.",
+    "en": "Located just across the Kudyalchay River from Ganja-Guba region, the Red Town (Krasnaya Sloboda) is considered the world's only entirely Jewish settlement outside of Israel and the United States. Inhabited since the 18th century by the 'Mountain Jews' community, the town owes its name to the characteristic red-tiled roofs of its buildings. It features beautiful historic synagogues, unique residential architecture, and a highly preserved heritage. Standing as the ultimate symbol of Azerbaijan's centuries-old policy of multiculturalism and religious tolerance, it remains a fascinating cultural hub attracting global interest.",
+    "de": "Die einzige rein jüdische Gemeinde außerhalb Israels und der USA, bekannt als Heimat der 'Bergjuden'. Der Ort verdankt seinen Namen den markanten roten Backstein- und Ziegeldächern."
+  },
+  "activities": {
+    "tr": [
+      "Kültür ve dinler tarihi gezisi",
+      "Tarihi sinagog ziyareti",
+      "Mimari yürüyüş"
+    ],
+    "en": [
+      "Cultural and religious history tour",
+      "Historical synagogue visit",
+      "Architectural promenade"
+    ],
+    "de": [
+      "Kultur- und Religionshistorische Tour",
+      "Historischer Synagogenbesuch",
+      "Architektur-Spaziergang"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "kasaba",
+      "kultur"
+    ],
+    "en": [
+      "historical-site",
+      "town",
+      "culture"
+    ],
+    "de": [
+      "historische-staette",
+      "kleinstadt",
+      "kultur"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Red_Town_Quba_Azerbaijan.jpg"
+  ]
+}
+
+]

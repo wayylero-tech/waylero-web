@@ -1,0 +1,59 @@
+[
+{
+  "slug": "kutsal-dis-emaneti-tapinagi-kandy",
+  "city": {
+    "tr": "Kandy",
+    "en": "Kandy",
+    "de": "Kandy"
+  },
+  "name": {
+    "tr": "Kutsal Diş Emaneti Tapınağı (Sri Dalada Maligawa)",
+    "en": "Temple of the Sacred Tooth Relic",
+    "de": "Zahntempel (Sri Dalada Maligawa)"
+  },
+  "latitude": 7.2936,
+  "longitude": 80.6414,
+  "description": {
+    "tr": "Sri Lanka'nın kültürel başkenti sayılan ve dağlarla çevrili olan Kandy şehrinde yer alan bu görkemli tapınak kompleksinin, Budizm dünyası için kutsal bir değeri vardır. UNESCO koruması altındaki tapınak, bizzat Buda'nın ölümünden sonra yakılan bedeninden kurtarılan ve buraya getirilen 'sol köpek dişini' barındırır. Tarih boyunca bu diş emanetine sahip olan kişinin Sri Lanka'nın hükümdarı olacağına inanıldığı için, tapınak kraliyet saray kompleksinin hemen içinde yer alır. Altın kubbeli bu kutsal mekanda her gün rahipler tarafından geleneksel ritüeller ve dualar gerçekleştirilir. Sri Lanka'nın manevi kalbi ve en önemli inanç merkezidir.",
+    "en": "Situated in the lush, mountain-enclosed city of Kandy, Sri Lanka's cultural capital, this grand temple complex is one of the most sacred places of worship in the Buddhist world. Located within the royal palace complex, the UNESCO-listed temple houses the sacred tooth relic of Lord Buddha, retrieved from his funeral pyre. Historically, the relic played a vital role in local politics, as it was believed that whoever held the relic held the divine right to rule the island. Adorned with a golden canopy, the temple hosts vibrant daily rituals and monks performing traditional prayers.",
+    "de": "In der zentralen Stadt Kandy, der Kulturhauptstadt Sri Lankas, befindet sich dieser weltberühmte buddhistische Tempel. Er liegt im ehemaligen Königspalast und hütet ein heiliges Relikt: den linken Eckzahn des historischen Buddha Siddhartha Gautama."
+  },
+  "activities": {
+    "tr": [
+      "İnanç ve kültür turizmi",
+      "Geleneksel Budist ritüellerini izleme",
+      "Tarihi tapınak gezisi"
+    ],
+    "en": [
+      "Faith and cultural tourism",
+      "Observing traditional Buddhist rituals",
+      "Historical temple sightseeing"
+    ],
+    "de": [
+      "Religiöser und kultureller Tourismus",
+      "Beobachtung traditioneller buddhistischer Rituale",
+      "Historische Tempelbesichtigung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-yer",
+      "tapinak",
+      "ibadethane"
+    ],
+    "en": [
+      "historical-site",
+      "temple",
+      "place-of-worship"
+    ],
+    "de": [
+      "historische-staette",
+      "tempel",
+      "gotteshaus"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/c/ca/Temple_of_the_Tooth_Kandy_Sri_Lanka.jpg"
+  ]
+}
+]
