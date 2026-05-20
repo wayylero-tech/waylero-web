@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_DIR = path.join(process.cwd(), 'app', 'data');
-const OUTPUT_FILE = path.join(DATA_DIR, 'explore-meta.json');
+const DATA_DIR = path.join(process.cwd(), "data", "ulkelerdata");
+const OUTPUT_FILE = path.join(process.cwd(), "data", "explore-meta.json");
 
 // 🗺️ ŞEHİRLERİ ÜLKELERE BAĞLAYAN KRİTİK MAP
 // Burayı projendeki şehir listesine göre genişlet kanka
@@ -52,59 +52,39 @@ const cityToCountryMap = {
   "beijing": "cin", "pekin": "cin","sangay": "cin", "xian": "cin", "guilin": "cin", "chengdu": "cin", "hongkong": "cin", "hangzhou": "cin", "lijiang": "cin","xi-anfianal": "cin"
 };
 
-const config = [
-  { file: 'turkey.json', region: 'turkey' },
-  { file: 'europa.json', region: 'europa' },
-  { file: 'asia.json', region: 'asia' }
-];
-
-const findRealImagePath = (region, cityName, placeSlug) => {
-  try {
-    const imageFilePath = path.join(DATA_DIR, 'images', `${region}.json`);
-    if (!fs.existsSync(imageFilePath)) return "";
-    const imageData = JSON.parse(fs.readFileSync(imageFilePath, 'utf8'));
-    const cityKey = Object.keys(imageData).find(k => k.toLowerCase() === cityName.toLowerCase());
-    if (!cityKey) return "";
-    const placeKeys = Object.keys(imageData[cityKey]);
-    const matchedKey = placeKeys.find(k => k.toLowerCase().includes(placeSlug.toLowerCase()));
-    return (matchedKey && imageData[cityKey][matchedKey].length > 0) ? imageData[cityKey][matchedKey][0] : "";
-  } catch (e) { return ""; }
-};
-
 const generateMeta = () => {
-  const metaResult = {};
+  const meta = {};
 
-  config.forEach(item => {
-    const filePath = path.join(DATA_DIR, item.file);
-    if (!fs.existsSync(filePath)) return;
+  const countries = fs.readdirSync(DATA_DIR);
 
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  countries.forEach((country) => {
+    const countryPath = path.join(DATA_DIR, country);
+    const cities = fs.readdirSync(countryPath);
 
-    Object.entries(data).forEach(([cityName, places]) => {
-      // 🚀 Şehri map üzerinden ülkeye bağlıyoruz, yoksa bölge adını kullanıyoruz
-      const lowerCity = cityName.toLowerCase();
-      const countryKey = cityToCountryMap[lowerCity] || (item.region === 'turkey' ? 'turkiye' : item.region);
+    cities.forEach((cityFile) => {
+      const cityPath = path.join(countryPath, cityFile);
+      const cityName = cityFile.replace(".json", "").toLowerCase();
 
-      if (!metaResult[countryKey]) {
-        // Bu ülkenin ilk kapak resmini ayarla
-        const firstPlace = places[0];
-        const realPath = findRealImagePath(item.region, cityName, firstPlace.slug);
+      const data = JSON.parse(fs.readFileSync(cityPath, "utf8"));
 
-        metaResult[countryKey] = {
+      const countryKey = cityToCountryMap[cityName] || country;
+
+      if (!meta[countryKey]) {
+        meta[countryKey] = {
           cityCount: 0,
           placeCount: 0,
-          coverPath: realPath
+          coverPath: "",
         };
       }
 
-      // Ülke istatistiklerini güncelle
-      metaResult[countryKey].cityCount += 1;
-      metaResult[countryKey].placeCount += places.length;
+      meta[countryKey].cityCount += 1;
+      meta[countryKey].placeCount += Array.isArray(data) ? data.length : 1;
     });
   });
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(metaResult, null, 2));
-  console.log('✅ Ülke bazlı gruplama ve resim eşleştirme tamamlandı!');
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(meta, null, 2));
+
+  console.log("✅ DONE");
 };
 
 generateMeta();

@@ -332,5 +332,63 @@
     "images": [
       "https://example.com/kastamonu_evleri.jpg"
     ]
-  }
+  },
+{
+  "slug": "horma-kanyonu",
+  "name": {
+    "tr": "Küre Dağları Milli Parkı Horma Kanyonu",
+    "en": "Horma Canyon - Kure Mountains National Park",
+    "de": "Horma Schlucht - Küre-Berge-Nationalpark"
+  },
+  "latitude": 41.6115,
+  "longitude": 33.1582,
+  "description": {
+    "tr": "Horma Kanyonu, Kastamonu ilinin Pınarbaşı ilçesinde yer alan ve PAN Parks sertifikasına sahip, Avrupa'nın en seçkin koruma alanlarından biri olan Küre Dağları Milli Parkı sınırları içerisinde bulunan olağanüstü bir jeolojik oluşum ve dünya standartlarında bir eko-turizm merkezidir. Zarı Çayı'nın kalkerli kayaçları milyonlarca yıl boyunca aşındırmasıyla meydana gelen bu devasa kanyon, derin vadileri, baş döndürücü dik yamaçları ve vahşi doğasıyla Türkiye'nin en karakteristik doğa rotalarından biridir. Horma Kanyonu'nu dünya çapında bir üne kavuşturan ve onu diğer kanyonlardan ayıran en büyük özellik, kanyon boyunca dik kaya duvarlarına çelik vidalarla monte edilmiş olan yaklaşık 3 kilometre uzunluğundaki devasa ahşap yürüyüş platformudur. Türkiye'nin en uzun kanyon içi yürüyüş yolu olma unvanına sahip bu yapı, her yaştan seyahat severin azgın suların, derin girdapların ve dev kazanlarının hemen üzerinden güvenle geçerek kanyonun vahşi derinliklerini baştan sona konforlu bir şekilde keşfetmesine olanak tanır. Yürüyüş parkurunun en can alıcı noktası ise kanyonun bittiği yerde sizi karşılayan ve yaklaşık 15 metreden dökülen büyüleyici Ilıca Şelalesi'dir. Kanyondaki 3 kilometrelik yürüyüşü tamamlayan gezginler, doğrudan bu şelalenin oluşturduğu doğal havuzun ve etrafını saran egzotik bitki örtüsünün büyüleyici manzarasına ulaşırlar. Doğa yürüyüşü (trekking), doğa fotoğrafçılığı, kanyon geçişi (canyoning) ve yaban hayatı gözlemciliği için Karadeniz bölgesindeki en popüler cazibe merkezi olan kanyon, zengin florası ve fauna çeşitliliğiyle adeta bir açık hava müzesidir. Kanyonun hem giriş hem de çıkış (Ilıca Şelalesi) bölümlerinde kamp yapmak isteyen macera tutkunları için kontrollü çadır kampı alanları, karavan park noktaları, piknik alanları, restoranlar, yöresel ürün pazarları ve modern sosyal tesisler mevcuttur. Girişlerin oldukça ekonomik bir milli park tarifesine tabi olduğu bu saklı cennet, Kastamonu merkezine yaklaşık 95 kilometre mesafede olup, Pınarbaşı ilçesi üzerinden asfalt yollar takip edilerek özel araçlarla son derece kolay ve konforlu bir şekilde ulaşılabilir durumdadır. Waylero dijital seyahat planlayıcısı kullanıcıları için hem adrenalin dolu bir yürüyüş hem de Küre Dağları'nın büyüleyici ekosistemini keşfetme fırsatı sunan bu benzersiz destinasyon, 'Kastamonu gezilecek yerler', 'Küre Dağları kamp alanları' ve 'Horma kanyonu ulaşım' arama hacimlerinde ilk sıralara yerleşecek muazzam bir SEO derinliğine sahiptir.",
+    "en": "Horma Canyon, located in the Pinarbasi district of Kastamonu province, is an extraordinary geological formation and a world-class eco-tourism hub situated within the borders of the Kure Mountains National Park, which holds the prestigious PAN Parks certificate as one of Europe's most exclusive protected areas. Formed over millions of years by the Zari Stream eroding the local limestone rocks, this massive canyon is one of the most characteristic nature routes in Turkey with its deep valleys, dizzying steep slopes, and wild nature. The greatest and most prominent feature that brought Horma Canyon worldwide fame and distinguishes it from other canyons is the colossal 3-kilometer-long wooden walking platform mounted directly onto the steep rock walls with steel screws. Holding the title of Turkey's longest in-canyon walking trail, this infrastructure allows travel lovers of all ages to safely walk right above the rushing waters, deep whirlpools, and giant potholes, comfortably exploring the wild depths of the canyon from end to end. The most captivating spot of the hiking trail is the breathtaking Ilica Waterfall, which welcomes you from about 15 meters at the very end of the path where the canyon concludes. Travelers completing the 3-kilometer hike directly arrive at the mesmerizing scenery of the natural pool formed by this waterfall and the exotic vegetation surrounding it. Being the most popular attraction center in the Black Sea region for outdoor activities such as trekking, nature photography, canyoning, and wildlife watching, the canyon functions virtually as an open-air museum with its rich flora and fauna diversity. At both the entrance and exit (Ilica Waterfall) sections of the canyon, controlled tent camping sites, caravan parking spots, picnic areas, restaurants, local product markets, and modern social facilities to meet basic needs are readily available for adventure enthusiasts. Entry to the park area is subject to a highly economical national park entrance fee, and it is located approximately 95 kilometers from Kastamonu city center, making it easily and comfortably accessible via private vehicles by following the asphalt roads over the Pinarbasi district route. Offering Waylero digital travel planner users both a thrilling nature hike and the opportunity to discover the enchanting ecosystem of the Kure Mountains, this unique destination possesses an excellent SEO density that will easily rank on top for search trends like 'Kastamonu historical places', 'best canyons in Turkey', and 'Ilica waterfall tour'.",
+    "de": "Horma Schlucht Naturpark."
+  },
+  "activities": {
+    "tr": [
+      "Kaya duvarındaki ahşap yolda trekking",
+      "Ilıca Şelalesi doğa fotoğrafçılığı",
+      "Küre Dağları'nda çadır ve karavan kampı",
+      "Kanyon geçişi (Canyoning)"
+    ],
+    "en": [
+      "Trekking on the cliffside wooden platform",
+      "Ilica Waterfall nature photography",
+      "Tent and caravan camping in Kure Mountains",
+      "Canyoning"
+    ],
+    "de": [
+      "Wandern",
+      "Fotografie",
+      "Camping",
+      "Canyoning"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal-güzellik",
+      "kanyon",
+      "milli-park",
+      "selale"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "national-park",
+      "waterfall"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "nationalpark",
+      "wasserfall"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Horma_Kanyonu_Kastamonu.jpg"
+  ]
+}
 ]

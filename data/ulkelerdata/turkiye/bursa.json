@@ -266,5 +266,64 @@
     "images": [
       "https://example.com/cumalikizik_koyu.jpg"
     ]
-  }
+  },
+{
+  "slug": "sadagi-kanyonu",
+  "name": {
+    "tr": "Sadağı Kanyonu Tabiat Parkı",
+    "en": "Sadagi Canyon Nature Park",
+    "de": "Sadagi Schlucht Naturpark"
+  },
+  "latitude": 39.9324,
+  "longitude": 28.9654,
+  "description": {
+    "tr": "Sadağı Kanyonu Tabiat Parkı, Bursa ilinin Orhaneli ilçesine bağlı Sadağı Köyü sınırları içerisinde yer alan, Marmara bölgesinin en görkemli jeolojik oluşumlarından biri ve el değmemiş bir doğa harikasıdır. Milyonlarca yıl boyunca Sadağı Çayı'nın kalkerli kayaçları aşındırmasıyla meydana gelen kanyon, yaklaşık 12 kilometre uzunluğa ve bazı noktalarda gökyüzünü kapatacak şekilde 60-70 metreyi bulan dik kaya duvarı yüksekliklerine sahiptir. Tarım ve Orman Bakanlığı Doğa Koruma ve Milli Parklar Genel Müdürlüğü tarafından tabiat parkı ilan edilerek koruma altına alınan bu bakir bölge, özellikle şehir hayatının gürültüsünden kaçıp nefes almak isteyen seyahat severlerin, kampçıların ve trekking tutkunlarının en popüler uğrak noktalarından biridir. Kanyonu diğer doğa rotalarından ayıran en benzersiz özellik, kanyonun yaklaşık 1.5 kilometre iç kısımlarında yer alan ve Roma İmparatorluğu döneminden beri şifalı sularıyla bilinen tarihi 'Kaya Hamamı' (kaplıca kaynağı) kalıntılarıdır. Kaya duvarlarından kaynayan yaklaşık 60 derece sıcaklıktaki termal su, kanyonun buz gibi akan sularıyla birleşerek ziyaretçilere hem tarihi hem de egzotik bir atmosfer sunmaktadır. Kanyonun turizme kazandırılan ilk 2 kilometrelik bölümüne inşa edilen son derece güvenli ahşap yürüyüş platformları, asma köprüler ve seyir terasları sayesinde, her yaştan gezgin azgın suların üzerinden rahatça geçerek kanyonun derinliklerini konforlu bir şekilde keşfedebilmektedir. Doğa yürüyüşü (trekking), doğa fotoğrafçılığı, kaya tırmanışı, kuş gözlemciliği ve çadır kampı gibi outdoor aktiviteler için muazzam bir coğrafya sunan tabiat parkı, asırlık çınar, meşe ve çam ağaçlarından oluşan zengin bir bitki örtüsüne (flora) sahiptir. Kanyon girişinde kamp yapmak isteyen macera tutkunları için kontrollü çadır kampı alanları, piknik masaları, dinlenme çardakları ve temel ihtiyaçların karşılanabileceği sosyal tesisler mevcuttur. Park alanına girişler ve kamp konaklamaları, milli parklar genel müdürlüğünün belirlediği oldukça ekonomik ve dönemsel bilet tarifelerine tabidir. Bursa merkezine yaklaşık 55 kilometre mesafede bulunan bu saklı cennete, Orhaneli ilçe yolu üzerinden asfalt zemin takip edilerek özel araçlarla son derece kolay ve konforlu bir şekilde ulaşılabilmektedir. Waylero seyahat planlayıcısı kullanıcıları için hem ferahlatıcı bir doğa kaçamağı hem de Roma tarihinin izlerini sürme fırsatı sunan bu destinasyon, 'Bursa gezilecek yerler', 'Marmara bölgesi kamp alanları' ve 'Sadağı kanyonu ulaşım' arama hacimlerinde ilk sıralara oynayacak harika bir SEO derinliğine sahiptir.",
+    "en": "Sadagi Canyon Nature Park, nestled within the boundaries of Sadagi Village in the Orhaneli district of Bursa province, is one of the most majestic geological formations in the Marmara region and a pristine natural wonder. Formed over millions of years by the Sadagi Stream eroding the local limestone rocks, the canyon spans approximately 12 kilometers in total length and features vertical rock walls reaching heights of 60-70 meters at certain points, almost blocking out the sky. Officially designated as a nature park and put under protection by the General Directorate of Nature Conservation and National Parks, this pristine area serves as one of the most popular getaways for travelers, campers, and trekking enthusiasts wishing to escape the noise of urban life. The most unique feature that distinguishes Sadagi Canyon from other nature routes is the historical 'Kaya Hamami' (Rock Bath) ruins located about 1.5 kilometers inside the canyon, which has been known for its healing thermal waters since the Roman Empire period. The thermal water at around 60 degrees Celsius boiling out of the rock walls blends with the ice-cold running stream of the canyon, offering visitors a historic yet exotic atmosphere. Thanks to the highly safe wooden walking platforms, suspension bridges, and observation decks constructed along the first 2 kilometers of the canyon brought into tourism, travelers of all ages can easily walk right above the rushing waters and comfortably explore the deep corners of the canyon. Offering a tremendous geography for outdoor activities such as trekking, nature photography, rock climbing, birdwatching, and tent camping, the nature park boasts a rich vegetation consisting of centuries-old plane, oak, and pine trees. For adventure enthusiasts wishing to camp at the entrance of the canyon, controlled tent camping sites, picnic tables, recreational gazebos, and social facilities to meet basic needs are readily available. Entry to the park area and tent overnight stays are subject to highly economical and seasonal entrance fee tariffs determined by the national parks. Located approximately 55 kilometers from Bursa city center, this hidden paradise is easily and comfortably accessible via private vehicles by following the asphalt road over the Orhaneli district route. Offering Waylero digital travel planner users both a refreshing nature getaway and the opportunity to trace the footsteps of Roman history, this unique destination possesses an excellent SEO density that will easily rank on top for search trends like 'Bursa historical places', 'best camping sites in Marmara', and 'Sadagi canyon tour'.",
+    "de": "Sadagi Schlucht Naturpark."
+  },
+  "activities": {
+    "tr": [
+      "Ahşap platformda doğa yürüyüşü",
+      "Tarihi Kaya Hamamı kültür gezisi",
+      "Kanyon girişinde çadır kampı",
+      "Doğa fotoğrafçılığı"
+    ],
+    "en": [
+      "Hiking on the wooden platform",
+      "Historical Rock Bath cultural sightseeing",
+      "Tent camping at the canyon entrance",
+      "Nature photography"
+    ],
+    "de": [
+      "Wandern",
+      "Kulturbesichtigung",
+      "Camping",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal-güzellik",
+      "kanyon",
+      "tabiat-parki",
+      "tarihi-yer"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "nature-park",
+      "historical-site"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "naturpark",
+      "historische-staette"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sada%C4%9F%C4%B1_Kanyonu_Bursa.jpg"
+  ]
+}
+
 ]

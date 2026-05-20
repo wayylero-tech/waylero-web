@@ -42,6 +42,58 @@
       "https://example.com/mevlana_muzesi.jpg"
     ]
   },
+{
+  "slug": "yalburt-hitit-aniti",
+  "name": {
+    "tr": "Yalburt Hitit Anıtı ve Kutsal Alanı",
+    "en": "Yalburt Hittite Monument and Sacred Pool",
+    "de": "Hethitisches Monument und Heiliger Pool von Yalburt"
+  },
+  "latitude": 38.45458047872098, 
+  "longitude": 31.97885850395873,
+  "description": {
+    "tr": "Yalburt Hitit Anıtı, Konya'nın Ilgın ilçesinde yer alan ve M.Ö. 13. yüzyıla, Geç Tunç Çağı'na tarihlenen son derece önemli bir Hitit kutsal alanı ve hiyeroglif yazıtlı anıt havuzdur. Hitit İmparatorluğu'nun en güçlü dönemlerinden biri olan IV. Tuthaliya (M.Ö. 1237-1209) saltanatı sırasında inşa edilmiştir. Yalburt, Anadolu'nun en eski ve en önemli su mühendisliği yapılarından biri olarak kabul edilir. Dikdörtgen planlı bir su havuzu şeklinde tasarlanan yapının çevresi, Hitit hiyeroglif yazısıyla (Luvice) bezeli büyük kireçtaşı bloklarla çevrilidir. Bu yazıtlar, Kral IV. Tuthaliya'nın Lukka (klasik dönemdeki Likya) bölgesine yaptığı başarılı askeri seferleri, kazandığı zaferleri ve tanrılara sunduğu şükranları detaylı bir şekilde anlatmaktadır. Arkeolojik açıdan eşsiz olan bu anıt, Hitit İmparatorluğu'nun siyasi tarihi, coğrafyası ve dini inanışları hakkında paha biçilmez bilgiler sunmaktadır. 1970'li yıllarda Ankara Anadolu Medeniyetleri Müzesi uzmanları tarafından yapılan kazılarla gün ışığına çıkarılan bu yapı, hem bir baraj/su rezervuarı işlevi görmüş hem de dini ritüeller için bir kült merkezi olarak kullanılmıştır. Günümüzde buradaki orijinal yazıtlı blokların bir kısmı koruma altına alınmış, alan ise Hitit tarihi ve arkeoloji meraklıları için büyüleyici bir açık hava müzesi niteliği kazanmıştır. Ilgın merkezine yaklaşık 23 kilometre mesafede bulunan Yalburt, Konya'nın gizli kalmış tarihi hazinelerinden biridir.",
+    "en": "The Yalburt Hittite Monument, located in the Ilgın district of Konya, is a highly significant Hittite sacred site and hieroglyphic monumental pool dating back to the 13th century BC (Late Bronze Age). It was constructed during the reign of King Tudhaliya IV (1237–1209 BC), one of the most powerful rulers of the Hittite Empire. Yalburt is considered one of the oldest and most important water engineering structures in Anatolia. Designed as a rectangular water reservoir, the pool's inner walls were lined with large limestone blocks inscribed with Luwian hieroglyphs. These inscriptions detail King Tudhaliya IV's military campaigns to the Lukka lands (classical Lycia), his victories, and his offerings of gratitude to the gods. Architecturally and historically unique, this monument provides invaluable insights into the political history, geography, and religious practices of the Hittite Empire. Excavated in the 1970s by experts from the Ankara Museum of Anatolian Civilizations, the site functioned both as a water management system and a cult center for religious rituals. Today, it stands as a fascinating open-air archaeological site for those interested in ancient civilizations.",
+    "de": "Das hethitische Monument von Yalburt im Bezirk Ilgın in Konya ist eine bedeutende hethitische Kultstätte und ein monumentales Becken mit Hieroglypheninschriften aus dem 13. Jahrhundert v. Chr. (Spätbronzezeit). Es wurde während der Herrschaft von König Tudhalija IV. (1237–1209 v. Chr.), einem der mächtigsten Herrscher des Hethiterreiches, errichtet. Yalburt gilt als eines der ältesten und wichtigsten Zeugnisse altanatolischer Wasserbaukunst. Die Anlage wurde als rechteckiges Wasserbecken konzipiert, dessen Wände mit großen Kalksteinblöcken verkleidet sind, die mit luwischen Hieroglyphen versehen wurden. Diese Inschriften beschreiben im Detail die Feldzüge von König Tudhalija IV. in die Lukka-Länder (das antike Lykien), seine Siege und seinen Dank an die Götter. Das Monument bietet unschätzbare Einblicke in die politische Geschichte, Geografie und religiösen Praktiken des Hethiterreiches. Die in den 1970er Jahren vom Museum für anatolische Zivilisationen in Ankara ausgegrabene Stätte diente sowohl als Wasserspeicher als auch als Kultzentrum für religiöse Rituale. Heute ist Yalburt eine faszinierende archäologische Freiluftstätte für Besucher, die sich für die Geschichte der Hethiter interessieren."
+  },
+  "activities": {
+    "tr": [
+      "Hitit hiyeroglif yazıtlarını ve antik havuz yapısını incelemek",
+      "Arkeolojik açık hava alanında fotoğraf çekimi yapmak",
+      "Hitit su mühendisliği ve kültürel tarihi hakkında bilgi edinmek"
+    ],
+    "en": [
+      "Examine the Hittite hieroglyphic inscriptions and the ancient pool structure",
+      "Take photographs at the archaeological open-air site",
+      "Learn about Hittite water engineering and cultural history"
+    ],
+    "de": [
+      "Untersuchung der hethitischen Hieroglypheninschriften und der antiken Beckenstruktur",
+      "Fotografieren auf der archäologischen Freiluftstätte",
+      "Informationen über hethitische Wasserwirtschaft und Kulturgeschichte sammeln"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "arkeolojik sit alanı",
+      "tarihi eser",
+      "açık hava müzesi"
+    ],
+    "en": [
+      "archaeological site",
+      "historical landmark",
+      "open-air museum"
+    ],
+    "de": [
+      "archäologische Stätte",
+      "historische Sehenswürdigkeit",
+      "Freilichtmuseum"
+    ]
+  },
+  "images": [
+    "https://example.com/yalburt_hitit_aniti.jpg"
+  ]
+},
   {
     "slug": "ivriz-kaya-aniti",
     "name": {
@@ -2336,50 +2388,53 @@
       "https://example.com/kubadabad_sarayi.jpg"
     ]
   },
-  {
-    "slug": "aksehir-golleri",
-    "name": {
-      "tr": "Akşehir Gölleri",
-      "en": "Akşehir Lakes",
-      "de": "Akşehir Seen"
-    },
-    "latitude": 38.49136,
-    "longitude": 31.34954,
-    "description": {
-      "tr": "      Akşehir Gölleri, Konya’nın Akşehir ilçesinin doğusunda yer alan ve birbirine bağlı küçük göllerden oluşan önemli bir doğal alan olarak dikkat çeker. İç Anadolu Bölgesi’nin nadir sulak alan ekosistemlerinden biri olan bu göller, hem doğal güzellikleri hem de zengin biyolojik çeşitliliği ile öne çıkmaktadır. Akşehir Gölü başta olmak üzere çevresindeki küçük göletler, özellikle kuş gözlemciliği, doğa yürüyüşü ve fotoğrafçılık açısından oldukça değerli bir destinasyondur.\n      \n      Bölge, yılın farklı dönemlerinde birçok yerli ve göçmen kuş türüne ev sahipliği yapmaktadır. Flamingolar, ördek türleri, leylekler ve çeşitli su kuşları bu alanda sıkça gözlemlenebilir. Bu özelliği sayesinde Akşehir Gölleri, Türkiye’de kuş gözlemciliği yapılabilecek önemli yerler arasında gösterilmektedir. Doğa fotoğrafçıları için gün doğumu ve gün batımı saatlerinde eşsiz manzaralar sunan göller, ziyaretçilere huzurlu ve sakin bir ortam sağlar.\n      \n      Akşehir Gölleri çevresi, doğal yürüyüş parkurları ve keşif alanları ile doğa severler için ideal bir rota sunmaktadır. Özellikle hafta sonu kaçamakları, kamp aktiviteleri ve doğa gezileri için tercih edilen bölge, şehir hayatının stresinden uzaklaşmak isteyenler için mükemmel bir alternatiftir. \"Konya gezilecek yerler\", \"Akşehir turistik yerler\" ve \"İç Anadolu doğal güzellikler\" gibi aramalarda öne çıkan bu bölge, her geçen yıl daha fazla ziyaretçi çekmektedir.\n      \n      Göller aynı zamanda bölgenin ekolojik dengesi açısından da büyük önem taşır. Sulak alanlar, yer altı su kaynaklarını beslerken aynı zamanda birçok canlı türü için yaşam alanı oluşturur. Bu nedenle Akşehir Gölleri, sadece turistik değil aynı zamanda çevresel açıdan da korunması gereken değerli alanlar arasında yer alır.\n      \n      Ulaşım açısından oldukça kolay bir konumda bulunan Akşehir Gölleri’ne Akşehir ilçe merkezinden kısa sürede ulaşılabilir. Bölgeye gelen ziyaretçiler, doğa ile iç içe vakit geçirmenin yanı sıra Akşehir’in tarihi ve kültürel zenginliklerini de keşfetme fırsatı bulur.\n      \n      Eğer doğa ile baş başa kalmak, kuş sesleri eşliğinde huzurlu bir gün geçirmek ve İç Anadolu’nun saklı doğal güzelliklerini keşfetmek istiyorsanız, Akşehir Gölleri mutlaka ziyaret edilmesi gereken yerlerden biridir.\n    ",
-      "en": "      Akşehir Lakes are a group of interconnected small lakes located to the east of Akşehir district in Konya, Turkey. As one of the rare wetland ecosystems in Central Anatolia, these lakes stand out with their natural beauty and rich biodiversity. The area, including Akşehir Lake and surrounding ponds, is a valuable destination for birdwatching, nature walks, and photography.\n      \n      The region hosts a wide variety of resident and migratory bird species throughout the year. Flamingos, ducks, storks, and many other water birds can frequently be observed here. Thanks to this diversity, Akşehir Lakes are considered one of the important birdwatching spots in Turkey. The lakes offer breathtaking views, especially during sunrise and sunset, making them a favorite location for nature photographers.\n      \n      The surroundings of the lakes provide natural walking trails and exploration areas, making it an ideal spot for nature lovers. It is a popular destination for weekend getaways, camping, and outdoor activities, offering a peaceful escape from city life. The region frequently appears in searches such as \"places to visit in Konya\", \"Akşehir attractions\", and \"natural sites in Central Anatolia\".\n      \n      In addition to tourism, the lakes play a crucial role in maintaining the ecological balance of the region. Wetlands support groundwater resources and provide habitats for various species, making them environmentally significant areas that need protection.\n      \n      Akşehir Lakes are easily accessible from the Akşehir town center, allowing visitors to enjoy both nature and the cultural heritage of the region. If you are looking for a peaceful destination surrounded by nature, Akşehir Lakes are definitely worth visiting.\n    ",
-      "de": "      Die Akşehir-Seen sind eine Gruppe miteinander verbundener kleiner Seen östlich des Bezirks Akşehir in der Provinz Konya. Als eines der seltenen Feuchtgebiete in Zentralanatolien zeichnen sie sich durch ihre natürliche Schönheit und ihre reiche Artenvielfalt aus. Der Akşehir-See und die umliegenden Gewässer sind ein bedeutendes Ziel für Vogelbeobachtung, Naturwanderungen und Fotografie.\n      \n      Die Region beherbergt das ganze Jahr über zahlreiche einheimische und Zugvogelarten. Flamingos, Enten, Störche und viele andere Wasservögel können hier beobachtet werden. Dadurch gelten die Akşehir-Seen als eines der wichtigsten Gebiete für Vogelbeobachtung in der Türkei. Besonders bei Sonnenaufgang und Sonnenuntergang bieten die Seen beeindruckende Landschaften.\n      \n      Die Umgebung bietet natürliche Wanderwege und Erkundungsmöglichkeiten und ist somit ideal für Naturliebhaber. Sie ist ein beliebtes Ziel für Wochenendausflüge, Camping und Outdoor-Aktivitäten und bietet eine ruhige Auszeit vom Stadtleben.\n      \n      Darüber hinaus spielen die Seen eine wichtige Rolle für das ökologische Gleichgewicht der Region. Feuchtgebiete unterstützen die Grundwasserressourcen und bieten Lebensraum für zahlreiche Tierarten.\n      \n      Die Akşehir-Seen sind vom Stadtzentrum aus leicht erreichbar und ermöglichen es Besuchern, Natur und Kultur gleichzeitig zu erleben. Wenn Sie eine ruhige und naturnahe Umgebung suchen, sind die Akşehir-Seen definitiv einen Besuch wert.\n    "
-    },
-    "activities": {
-      "tr": [
-        "Kuş gözlemi yapmak",
-        "Doğa Gezisi",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Bird watching",
-        "Nature walks",
-        "Photography"
-      ],
-      "de": [
-        "Vogelbeobachtung",
-        "Naturwanderungen",
-        "Fotografie"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/aksehir_golleri.jpg"
+ {
+  "slug": "cavuscu-golu",
+  "name": {
+    "tr": "Çavuşçu Gölü",
+    "en": "Çavuşçu Lake",
+    "de": "Çavuşçu-See"
+  },
+  "latitude": 38.35139,
+  "longitude": 31.97722,
+  "description": {
+    "tr": "Çavuşçu Gölü (Ladik Gölü olarak da bilinir), Konya'nın Ilgın ilçesinin kuzeybatısında yer alan, tektonik kökenli son derece önemli bir tatlı su gölüdür. İç Anadolu Bölgesi'nin değerli sulak alan ekosistemlerinden biri olan göl, hem doğal güzellikleri hem de barındırdığı zengin biyolojik çeşitlilik ile dikkat çekmektedir. Çavuşçu Gölü, özellikle göçmen kuşların uğrak noktası olması sebebiyle kuş gözlemciliği, doğa fotoğrafçılığı ve olta balıkçılığı açısından bölgedeki en popüler destinasyonlardan biridir. Göl ve çevresi, yılın farklı dönemlerinde başta pelikanlar, yabani ördekler, balıkçıllar ve çamurcunlar olmak üzere onlarca kuş türüne ev sahipliği yapar. Çevresindeki sazlıklar kuşlar için mükemmel bir üreme ve beslenme alanı oluştururken, doğa severler için de özellikle gün batımında eşsiz manzaralar sunmaktadır. Hafta sonu kaçamakları, doğa yürüyüşleri ve sakin bir ortamda kafa dinlemek isteyenler için harika bir alternatif olan bölge, Ilgın'ın en önemli doğal zenginlikleri arasında yer alır. Aynı zamanda tarımsal sulama açısından da bölge ekonomisine büyük katkı sağlayan göl, ekolojik dengenin korunması açısından kritik bir öneme sahiptir. Ilgın ilçe merkezine oldukça yakın ve ulaşımı kolay bir konumda bulunan Çavuşçu Gölü, hem doğayla iç içe vakit geçirmek hem de Ilgın'ın şifalı kaplıcalarını ziyaret eden turistler için harika bir gezi rotası sunmaktadır.",
+    "en": "Çavuşçu Lake (also known as Ladik Lake) is a highly significant freshwater lake of tectonic origin located northwest of the Ilgın district in Konya, Turkey. As a vital wetland ecosystem in the Central Anatolia region, the lake stands out for its natural beauty and rich biodiversity. Due to being a frequent stopover for migratory birds, Çavuşçu Lake is one of the most popular destinations in the area for birdwatching, nature photography, and recreational fishing. The lake and its surroundings host dozens of bird species throughout the year, including pelicans, wild ducks, herons, and teals. While the surrounding reedbeds provide perfect breeding and feeding grounds for avian life, they also offer unique, breathtaking views for nature lovers, especially at sunset. Serving as an excellent alternative for weekend getaways, nature walks, and those seeking a peaceful environment, the lake is among the most important natural assets of Ilgın. Easily accessible and located close to the Ilgın town center, Çavuşçu Lake offers a wonderful excursion route for visitors looking to connect with nature.",
+    "de": "Der Çavuşçu-See (auch bekannt als Ladik-See) ist ein bedeutender Süßwassersee tektonischen Ursprungs im Nordwesten des Bezirks Ilgın in der Provinz Konya. Als wichtiges Feuchtgebietökosystem in Zentralanatolien zeichnet sich der See durch seine natürliche Schönheit und reiche Artenvielfalt aus. Da er ein häufiger Zwischenstopp für Zugvögel ist, gehört der Çavuşçu-See zu den beliebtesten Zielen in der Region für Vogelbeobachtung, Naturfotografie und Angeln. Der See und seine Umgebung beherbergen das ganze Jahr über Dutzende von Vogelarten, darunter Pelikane, Wildenten, Reiher und Krickenten. Die umliegenden Schilfgebiete bieten perfekte Brut- und Nahrungsplätze für Vögel und bieten Naturliebhabern besonders bei Sonnenuntergang einzigartige Landschaften. Der See ist eine der wichtigsten Naturschätze von Ilgın und eine hervorragende Alternative für Wochenendausflüge, Naturwanderungen und für diejenigen, die eine friedliche Umgebung suchen. Der Çavuşçu-See ist vom Stadtzentrum Ilgın aus leicht erreichbar und bietet eine wunderbare Route für Besucher, die die Natur genießen möchten."
+  },
+  "activities": {
+    "tr": [
+      "Kuş gözlemciliği yapmak",
+      "Göl çevresinde doğa yürüyüşü ve kamp yapmak",
+      "Olta balıkçılığı ve manzara fotoğrafçılığı"
+    ],
+    "en": [
+      "Go birdwatching",
+      "Nature walking and camping around the lake",
+      "Recreational fishing and landscape photography"
+    ],
+    "de": [
+      "Vogelbeobachtung machen",
+      "Naturwandern und Camping rund um den See",
+      "Angeln und Landschaftsfotografie"
     ]
-  }
+  },
+  "categories": {
+    "tr": [
+      "doğa",
+      "göl"
+    ],
+    "en": [
+      "nature",
+      "lake"
+    ],
+    "de": [
+      "Natur",
+      "See"
+    ]
+  },
+  "images": [
+    "https://example.com/cavuscu_golu.jpg"
+  ]
+}
 ]

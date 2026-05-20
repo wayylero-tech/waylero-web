@@ -115,47 +115,108 @@ export default function PlaceSlider({
         </Swiper>
       </div>
 
-      {/* LIGHTBOX */}
-      {index !== null && (
-        <div className="fixed inset-0 z-[9999] bg-black/95 backdrop-blur-md flex items-center justify-center">
-          <button 
-            onClick={() => setIndex(null)} 
-            className="absolute top-8 right-8 text-white/50 hover:text-white text-5xl font-light transition-colors z-50"
-          >
-            ×
-          </button>
-          
-          {index > 0 && (
-            <button 
-              onClick={() => setIndex(index - 1)} 
-              className="absolute left-4 md:left-10 text-white/30 hover:text-white text-6xl transition-colors z-50"
-            >
-              ‹
-            </button>
-          )}
+     {/* LIGHTBOX */}
+{index !== null && (
+  <div className="fixed inset-0 z-[9999] overflow-hidden flex items-center justify-center">
 
-          <div className="relative w-[90vw] h-[80vh] flex items-center justify-center">
-            <img
-              src={getCloudinaryUrl(images[index], 1600)}
-              alt={title}
-              className="max-w-full max-h-full object-contain shadow-2xl"
-            />
-          </div>
+    {/* BLUR BACKGROUND */}
+    <div className="absolute inset-0">
+      <img
+        src={getCloudinaryUrl(images[index], 300)}
+        alt=""
+        className="w-full h-full object-cover scale-110 blur-3xl opacity-40"
+      />
 
-          {index < images.length - 1 && (
-            <button 
-              onClick={() => setIndex(index + 1)} 
-              className="absolute right-4 md:right-10 text-white/30 hover:text-white text-6xl transition-colors z-50"
-            >
-              ›
-            </button>
-          )}
+      {/* GLASS OVERLAY */}
+      <div className="absolute inset-0 bg-black/30 backdrop-blur-2xl" />
+    </div>
 
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 px-6 py-2 bg-white/10 rounded-full text-white/80 text-xs font-black tracking-widest uppercase">
-            {index + 1} / {images.length}
-          </div>
-        </div>
-      )}
+    {/* CLOSE */}
+    <button
+      onClick={() => setIndex(null)}
+      className="absolute top-6 right-6 md:top-8 md:right-8 z-50
+      w-14 h-14 rounded-full
+      bg-white/10 hover:bg-white/20
+      backdrop-blur-xl
+      border border-white/10
+      text-white/70 hover:text-white
+      text-4xl font-light
+      transition-all duration-300"
+    >
+      ×
+    </button>
+
+    {/* LEFT */}
+    {index > 0 && (
+      <button
+        onClick={() => setIndex(index - 1)}
+        className="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 z-50
+        w-14 h-14 rounded-full
+        bg-white/10 hover:bg-white/20
+        backdrop-blur-xl
+        border border-white/10
+        text-white/60 hover:text-white
+        text-5xl
+        transition-all duration-300"
+      >
+        ‹
+      </button>
+    )}
+
+    {/* IMAGE CONTAINER (Düzenlenen Kısım) */}
+    <div className="relative z-10 w-full max-w-[90vw] h-[80vh] flex items-center justify-center px-4">
+      <img
+        src={getCloudinaryUrl(images[index], 1600)}
+        alt={title}
+        className="
+        max-w-full
+        max-h-full
+        object-contain
+        rounded-[2rem]
+        border border-white/10
+        shadow-[0_20px_80px_rgba(0,0,0,0.45)]
+        "
+      />
+    </div>
+
+    {/* RIGHT */}
+    {index < images.length - 1 && (
+      <button
+        onClick={() => setIndex(index + 1)}
+        className="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 z-50
+        w-14 h-14 rounded-full
+        bg-white/10 hover:bg-white/20
+        backdrop-blur-xl
+        border border-white/10
+        text-white/60 hover:text-white
+        text-5xl
+        transition-all duration-300"
+      >
+        ›
+      </button>
+    )}
+
+    {/* COUNTER */}
+    <div
+      className="
+      absolute bottom-8 left-1/2 -translate-x-1/2 z-50
+      px-6 py-3
+      rounded-full
+      bg-white/10
+      backdrop-blur-xl
+      border border-white/10
+      text-white/80
+      text-xs
+      font-black
+      tracking-[0.25em]
+      uppercase
+      shadow-xl
+      "
+    >
+      {index + 1} / {images.length}
+    </div>
+  </div>
+)}
     </>
   );
 }

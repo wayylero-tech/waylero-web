@@ -267,5 +267,63 @@
       "https://www.denizlibeltas.com/hizmetler/2/bagbasi-yaylasi-bungalov-evleri/",
       "https://www.denizliteleferik.com.tr/"
     ]
-  }
+  },
+{
+  "slug": "acipayam-kanyonu",
+  "name": {
+    "tr": "Acıpayam Kanyonu",
+    "en": "Acipayam Canyon",
+    "de": "Acipayam Schlucht"
+  },
+  "latitude": 37.3142,
+  "longitude": 29.3854,
+  "description": {
+    "tr": "Acıpayam Kanyonu, Denizli ilinin Acıpayam ilçesine bağlı Benlik ve Olukbaşı köyleri arasında yer alan, son yıllarda doğaseverlerin ve seyahat tutkunlarının gözdesi haline gelmiş olağanüstü bir jeolojik oluşum ve eko-turizm merkezidir. Yerel halk tarafından Oluk Köprü Kanyonu olarak da bilinen bu devasa doğa harikası, dikey olarak gökyüzüne uzanan ve bazı noktalarda yüksekliği 40-50 metreyi bulan devasa kaya duvarlarıyla ziyaretçilerini adeta büyüleyici bir açık hava müzesi atmosferinde karşılar. Kanyonun en dikkat çekici ve ayırt edici özelliği, içerisinden akan suyun göz alıcı turkuaz rengi ve cam berraklığıdır. Dağların derinliklerinden gelen bu buz gibi su, kanyon boyunca irili ufaklı şelaleler ve doğal havuzlar meydana getirerek görsel bir şölen sunmaktadır. Denizli Büyükşehir Belediyesi ve yerel yönetimlerin vizyoner çalışmalarıyla turizme kazandırılan kanyonun içerisine, kaya duvarlarına monte edilmiş son derece güvenli ve konforlu ahşap yürüyüş platformları inşa edilmiştir. Bu ahşap yürüyüş yolu sayesinde, her yaştan gezgin azgın ve berrak suların hemen üzerinden yürüyerek kanyonun derinliklerini, saklı kalmış köşelerini rahatça keşfedebilmektedir. Doğa yürüyüşü (trekking), dağ tırmanışı, kanyon geçişi (canyoning) ve doğa fotoğrafçılığı için Ege ve Batı Akdeniz bölgesindeki en popüler yeni cazibe merkezlerinden biri olan bu alan, aynı zamanda etrafını saran çam ormanlarıyla zengin bir bitki örtüsü sunar. Kanyonun giriş bölümünde ve turkuaz havuzların kenarında kamp yapmak isteyen macera tutkunları için kontrollü çadır kampı alanları, piknik masaları, asma köprüler, restoranlar ve temel ihtiyaçların karşılanabileceği modern sosyal tesisler mevcuttur. Girişlerin oldukça ekonomik bir yerel işletme tarifesine tabi olduğu bu bakir doğa alanı, Denizli merkezine yaklaşık 90 kilometre, Acıpayam ilçe merkezine ise 40 kilometre mesafededir. Bölgeye ulaşım, Acıpayam üzerinden kanyona giden asfalt ve stabilize köy yolları takip edilerek özel araçlarla son derece kolay ve konforlu bir şekilde sağlanmaktadır. Waylero dijital seyahat rehberi kullanıcıları için hem ferahlatıcı bir doğa kaçamağı hem de Pamukkale rotasına alternatif harika bir macera sunan bu destinasyon, 'Denizli gezilecek yerler', 'Ege bölgesi kanyonları' ve 'Acıpayam kamp alanları' arama hacimlerinde ilk sıralara oynayacak SEO derinliğine sahiptir.",
+    "en": "Acipayam Canyon, nestled between the Benlik and Olukbasi villages in the Acipayam district of Denizli province, is an extraordinary geological formation and eco-tourism hub that has recently become a favorite destination for nature lovers and travel enthusiasts. Also known locally as the Oluk Kopru Canyon, this massive natural wonder welcomes its visitors in a mesmerizing open-air museum atmosphere with its vertical rock walls reaching heights of 40-50 meters at certain points. The most striking and distinctive feature of the canyon is the eye-catching turquoise color and crystal-clear clarity of the water flowing through it. Coming from the deep mountain springs, this ice-cold water creates various cascades and natural pools along the canyon, offering a spectacular visual feast. Brought into tourism through the extensive infrastructure works of the local municipalities, highly safe and comfortable wooden walking platforms mounted directly onto the steep rock walls have been constructed inside the canyon. Thanks to this wooden walkway, travelers of all ages can easily walk right above the rushing, pristine waters and comfortably explore the deepest points and hidden corners of the canyon. Being one of the most popular new attraction centers in the Aegean and Western Mediterranean regions for outdoor activities such as trekking, rock climbing, canyoning, and nature photography, this area also offers a rich vegetation surrounded by lush pine forests. For adventure enthusiasts wishing to camp at the entrance of the canyon and near the turquoise pools, controlled tent camping sites, picnic tables, suspension bridges, restaurants, and modern social facilities to meet basic needs are readily available. Entry to the park area is subject to a highly economical entrance fee, and it is located approximately 90 kilometers from Denizli city center and 40 kilometers from Acipayam district center. Transportation here is provided easily and comfortably via private vehicles by following the asphalt and stabilized village roads leading to the canyon over the Acipayam route. Offering Waylero digital travel guide users both a refreshing nature getaway and a wonderful alternative adventure to the classic Pamukkale itinerary, this unique destination possesses high SEO density that will easily rank on top for search trends like 'Denizli historical places', 'best canyons in Aegean region', and 'Acipayam camping sites'.",
+    "de": "Acipayam Schlucht Naturpark."
+  },
+  "activities": {
+    "tr": [
+      "Ahşap platformda doğa yürüyüşü",
+      "Turkuaz göletlerde fotoğrafçılık",
+      "Kanyon çevresinde çadır kampı",
+      "Kanyon geçişi (Canyoning)"
+    ],
+    "en": [
+      "Hiking on the wooden platform",
+      "Photography by the turquoise ponds",
+      "Tent camping around the canyon",
+      "Canyoning"
+    ],
+    "de": [
+      "Wandern",
+      "Fotografie",
+      "Camping",
+      "Canyoning"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal-güzellik",
+      "kanyon",
+      "kamp-alani",
+      "yuruyus-rotasi"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "camping-site",
+      "hiking-trail"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "campingplatz",
+      "wanderweg"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Acipayam_Kanyonu_Denizli.jpg"
+  ]
+}
 ]

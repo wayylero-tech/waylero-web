@@ -2540,5 +2540,121 @@
     "images": [
       "https://example.com/tahtali_dagi_kamp.jpg"
     ]
-  }
+  },
+{
+  "slug": "goynuk-kanyonu",
+  "name": {
+    "tr": "Göynük Kanyonu",
+    "en": "Goynuk Canyon",
+    "de": "Goynuk Schlucht"
+  },
+  "latitude": 36.6854,
+  "longitude": 30.5342,
+  "description": {
+    "tr": "Göynük Kanyonu, Antalya ilinin Kemer ilçesine bağlı Göynük beldesinde yer alan, hem dünyaca ünlü tarihi Likya Yolu'nun önemli bir parçasını oluşturan hem de muazzam doğal güzellikleriyle büyüleyen eşsiz bir macera parkı ve eko-turizm merkezidir. Beydağları Sahil Milli Parkı sınırları içerisinde bulunan bu devasa kanyon, Akdeniz bölgesinin en popüler outdoor aktivite alanlarından biri olarak her yıl binlerce yerli ve yabancı turisti ağırlamaktadır. Kanyonun iç kısımlarına doğru ilerledikçe karşınıza çıkan devasa kaya oluşumları, gürül gürül akan buz gibi sular, doğal göletler ve irili ufaklı şelaleler, ziyaretçilerine adeta saklı bir tropikal cennet atmosferi sunmaktadır. Göynük Kanyonu'nu Türkiye'deki diğer kanyonlardan ayıran en büyük özellik, içerisine kurulan profesyonel macera parkı altyapısı sayesinde kanyon geçişi (canyoning), zipline (telde kayma), rafting ve nehir botu turları gibi adrenalin dolu etkinliklerin organize bir şekilde yapılabilmesidir. Kanyona giriş yaptıktan sonra başlayan yaklaşık 2-3 kilometrelik yürüyüş yolu, çam ağaçlarının kokusu eşliğinde yapay göletlerin ve dinlenme alanlarının yanından geçerek kanyonun asıl macera parkurunun başladığı noktaya ulaşır. Bu noktadan itibaren kanyonun derinliklerine girmek isteyen gezginler, özel olarak kiralanabilen kask, can yeleği ve neopren elbise gibi profesyonel ekipmanları giyerek suyun içerisinden büyüleyici şelaleye kadar yüzebilir veya yürüyebilirler. Doğa yürüyüşü (trekking), doğa fotoğrafçılığı ve dağ tırmanışı için de muazzam bir coğrafya sunan kanyon, Likya Yolu'nun en zorlu ve en güzel etaplarından birine ev sahipliği yapmaktadır. Alan içerisinde kamp yapmak, çadır kurmak kesinlikle yasak olsa da kanyonun girişinde dinlenmek, bir şeyler atıştırmak ve temel ihtiyaçları karşılamak için restoranlar, kafeteryalar ve sosyal tesisler mevcuttur. Park alanına girişler ve içerideki ekstrem aktiviteler, Doğa Koruma ve Milli Parklar Genel Müdürlüğü denetimindeki işletme tarafından belirlenen dönemsel bilet fiyatlarına tabidir. Antalya ve Kemer merkezine son derece yakın olan bu bakir doğa alanına, özel araçların yanı sıra toplu taşıma araçları ve Kemer dolmuşlarıyla da son derece kolay, konforlu bir şekilde ulaşılabilmektedir. Waylero dijital seyahat planlayıcısı kullanıcıları için hem heyecan dolu su sporları hem de doğayla baş başa kalma fırsatı sunan bu benzersiz destinasyon, 'Antalya gezilecek yerler', 'Kemer kamp alanları' ve 'Türkiye'deki en popüler kanyonlar' arama hacimlerinde ilk sıralara yerleşecek harika bir SEO derinliğine sahiptir.",
+    "en": "Goynuk Canyon, situated in the Goynuk resort town of Kemer district in Antalya province, is a unique adventure park and eco-tourism hub that constitutes an important section of the world-famous historical Lycian Way and fascinates visitors with its magnificent natural beauties. Located within the borders of the Beydaglari Coastal National Park, this massive canyon welcomes thousands of domestic and foreign tourists every year as one of the most popular outdoor activity areas in the Mediterranean region. As you advance into the inner parts of the canyon, the colossal rock formations, roaring ice-cold streams, natural ponds, and various waterfalls offer visitors a hidden tropical paradise atmosphere. The most prominent feature that distinguishes Goynuk Canyon from other canyons in Turkey is its professional adventure park infrastructure, which allows organized activities such as canyoning, ziplining, rafting, and river boat tours to be conducted seamlessly. The 2-3 kilometer hiking trail starting after the entrance of the canyon passes through the scent of pine trees, artificial ponds, and relaxation areas to reach the point where the main adventure course of the canyon begins. From this point on, travelers who want to venture into the depths of the canyon can wear professional equipment such as helmets, life jackets, and neoprene suits that can be rented on-site, and swim or hike through the water to the breathtaking main waterfall. Offering a tremendous geography for trekking, nature photography, and rock climbing, the canyon hosts one of the most challenging and beautiful stages of the legendary Lycian Way. Although camping or setting up tents inside the canyon area is strictly prohibited, there are restaurants, cafeterias, and social facilities at the entrance to relax, have a snack, and meet basic needs. Entry to the park area and the extreme activities inside are subject to seasonal ticket prices determined by the operator under the supervision of the Ministry of Agriculture and Forestry. This pristine nature area, which is extremely close to the centers of Antalya and Kemer, can be reached very easily and comfortably via public transportation, Kemer minibuses, as well as private vehicles. Offering Waylero digital travel planner users both thrilling water sports and the opportunity to be at one with nature, this unique destination possesses an excellent SEO density that will easily rank on top for search trends like 'Antalya historical places', 'Kemer camping sites', and 'best canyons in Turkey'.",
+    "de": "Goynuk Schlucht Naturpark."
+  },
+  "activities": {
+    "tr": [
+      "Kanyon geçişi (Canyoning)",
+      "Zipline ve macera parkı",
+      "Likya Yolu doğa yürüyüşü",
+      "Nehir botu turu"
+    ],
+    "en": [
+      "Canyoning",
+      "Zipline and adventure park",
+      "Lycian Way trekking",
+      "River boat tour"
+    ],
+    "de": [
+      "Canyoning",
+      "Zipline",
+      "Wandern",
+      "Bootsfahrt"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal-güzellik",
+      "kanyon",
+      "macera-parki",
+      "yuruyus-rotasi"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "adventure-park",
+      "hiking-trail"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "abenteuerpark",
+      "wanderweg"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/25/G%C3%B6yn%C3%BCk_Canyon_Antalya_Turkey.jpg"
+  ]
+},
+{
+  "slug": "sapadere-kanyonu",
+  "name": {
+    "tr": "Sapadere Kanyonu",
+    "en": "Sapadere Canyon",
+    "de": "Sapadere Schlucht"
+  },
+  "latitude": 36.5248,
+  "longitude": 32.3124,
+  "description": {
+    "tr": "Sapadere Kanyonu, Antalya ilinin Alanya ilçesine bağlı Sapadere Köyü sınırları içerisinde yer alan, Toros Dağları'nın muazzam tektonik ve jeolojik hareketleri sonucunda milyonlarca yılda şekillenmiş olağanüstü bir doğa harikası ve eko-turizm merkezidir. Alanya'nın kavurucu yaz sıcağından kaçıp nefes almak isteyen seyahat severlerin en popüler uğrak noktalarından biri olan bu devasa kanyon, yaklaşık 750 metre uzunluğa ve yer yer 400 metreye ulaşan büyüleyici kaya duvarı yüksekliklerine sahiptir. Kanyonun içerisine adım attığınız andan itibaren sizi karşılayan buz gibi dağ suları, gürül gürül akan irili ufaklı şelaleler ve doğal dev kazanları, ziyaretçilerine adeta saklı bir vaha atmosferi sunmaktadır. Sapadere Kanyonu'nu Akdeniz bölgesindeki diğer kanyonlardan ayıran en büyük özellik, içerisine inşa edilen son derece konforlu ve güvenli ahşap yürüyüş platformu altyapısıdır. Çelik konstrüksiyonlar üzerine oturtulan bu ahşap yürüyüş yolu sayesinde, her yaştan gezgin azgın suların üzerinden rahatça geçerek kanyonun en derin noktalarına kadar konforlu bir şekilde ilerleyebilmektedir. Yürüyüş parkurunun en can alıcı noktası ise en sonda yer alan ve yaklaşık 15 metreden dökülen büyük Sapadere Şelalesi'dir. Şelalenin döküldüğü yerde oluşan doğal havuzun su sıcaklığı yaz-kış ortalama 10-12 derece civarında olup, cesur doğaseverler için bu buz gibi sularda yüzmek adrenalin dolu ve unutulmaz bir deneyim sunmaktadır. Bölge, doğa yürüyüşü (trekking), doğa fotoğrafçılığı, kuş gözlemciliği ve jeep safari turları gibi outdoor aktiviteler için Alanya'daki en popüler cazibe merkezidir. Alan içerisinde çadır kampı yapmak yasak olsa da kanyon girişinde ve Sapadere Köyü çevresinde yerel lezzetleri tadabileceğiniz gözleme evleri, alabalık restoranları, kafeteryalar ve temel ihtiyaçlarınızı karşılayabileceğiniz sosyal tesisler mevcuttur. Girişlerin oldukça ekonomik bir milli park/işletme tarifesine tabi olduğu bu bakir doğa alanı, Alanya merkezine yaklaşık 45 kilometre mesafede olup, Demirtaş beldesi üzerinden asfalt yollar takip edilerek özel araçlarla veya organize edilen günlük safari turlarıyla son derece kolay ve konforlu bir şekilde ulaşılabilir durumdadır. Waylero dijital seyahat planlayıcısı kullanıcıları için hem ferahlatıcı bir doğa kaçamağı hem de Torosların köy kültürünü keşfetme fırsatı sunan bu benzersiz destinasyon, 'Alanya gezilecek yerler', 'Antalya kanyonları' ve 'Sapadere şelalesi' arama hacimlerinde ilk sıralara yerleşecek harika bir SEO derinliğine sahiptir.",
+    "en": "Sapadere Canyon, situated within the boundaries of Sapadere Village in the Alanya district of Antalya province, is an extraordinary natural wonder and eco-tourism hub formed over millions of years by the massive tectonic and geological movements of the Taurus Mountains. Serving as one of the most popular getaways for travelers wishing to escape the scorching summer heat of Alanya, this massive canyon spans approximately 750 meters in length and features mesmerizing rock walls reaching heights of up to 400 meters at certain points. The ice-cold mountain streams, roaring cascades, and natural giant potholes that welcome you from the moment you step into the canyon offer visitors a hidden oasis atmosphere. The most prominent feature that distinguishes Sapadere Canyon from other canyons in the Mediterranean region is its highly comfortable and safe wooden walking platform infrastructure. Thanks to this wooden walkway mounted on steel constructions, travelers of all ages can easily walk over the rushing waters and comfortably advance to the deepest points of the canyon. The most captivating spot of the hiking trail is the main Sapadere Waterfall, which pours from about 15 meters at the very end of the path. The water temperature of the natural pool formed at the base of the waterfall averages around 10-12 degrees Celsius all year round, and swimming in these ice-cold waters offers a thrilling and unforgettable experience for brave nature lovers. The region is the most popular attraction center in Alanya for outdoor activities such as trekking, nature photography, birdwatching, and jeep safari tours. Although setting up tents inside the canyon is prohibited, there are pancake houses, trout restaurants, cafeterias, and social facilities at the entrance of the canyon and around Sapadere Village to taste local delicacies and meet basic needs. Entry to the park area is subject to a highly economical entrance fee, and it is located approximately 45 kilometers from Alanya city center, making it easily and comfortably accessible via private vehicles or daily organized safari tours by following the asphalt roads over the Demirtaş resort route. Offering Waylero digital travel planner users both a refreshing nature getaway and the opportunity to discover the village culture of the Taurus Mountains, this unique destination possesses an excellent SEO density that will easily rank on top for search trends like 'Alanya historical places', 'best canyons in Antalya', and 'Sapadere waterfall tour'.",
+    "de": "Sapadere Schlucht Naturpark."
+  },
+  "activities": {
+    "tr": [
+      "Ahşap platformda doğa yürüyüşü",
+      "Doğal havuzda yüzme ve serinleme",
+      "Jeep safari ve köy turları",
+      "Doğa fotoğrafçılığı"
+    ],
+    "en": [
+      "Hiking on the wooden platform",
+      "Swimming in the natural pool",
+      "Jeep safari and village tours",
+      "Nature photography"
+    ],
+    "de": [
+      "Wandern",
+      "Schwimmen",
+      "Jeep-Safari",
+      "Fotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal-güzellik",
+      "kanyon",
+      "selale",
+      "yuruyus-rotasi"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "waterfall",
+      "hiking-trail"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "wasserfall",
+      "wanderweg"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sapadere_Canyon_Alanya_Antalya_Turkey.jpg"
+  ]
+}
 ]

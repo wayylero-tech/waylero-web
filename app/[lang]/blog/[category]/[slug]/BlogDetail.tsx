@@ -5,6 +5,7 @@ import remarkGfm from "remark-gfm";
 import { useState } from "react";
 import { Calendar, BookOpen, Sparkles, LayoutGrid, Mail, Share2, MapPin, Compass, Heart } from "lucide-react";
 import Link from "next/link";
+import BlogViewCounter from "@/components/BlogViewCounter";
 
 interface Post {
   slug: string;
@@ -106,6 +107,8 @@ export default function BlogDetail({
   const ui = t[lang];
 
   return (
+     <>
+    <BlogViewCounter slug={post.slug} />
     <main className="min-h-screen bg-white pb-32">
       {/* HEADER SECTION */}
       <section className="relative pt-20 pb-32 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
@@ -470,6 +473,7 @@ export default function BlogDetail({
           <div className="absolute top-10 right-10 text-white/50 text-[10px] font-black tracking-widest uppercase">Kapatmak için tıkla</div>
         </div>
       )}
-    </main>
-  );
+   </main>
+  </>
+);
 }
