@@ -42,6 +42,49 @@
       "https://example.com/bodrum_kalesi.jpg"
     ]
   },
+{
+    "slug": "oludeniz",
+    "name": {
+      "tr": "Ölüdeniz",
+      "en": "Ölüdeniz",
+      "de": "Ölüdeniz"
+    },
+    "latitude": 36.55105,
+    "longitude": 29.11543,
+    "description": {
+      "tr": "Ölüdeniz, Muğla’nın Fethiye ilçesinde yer alan ve Türkiye’nin en ünlü plajlarından biri olarak bilinen doğal bir cennet köşesidir. Berrak turkuaz rengi denizi ve çevresini saran yemyeşil ormanlarla ünlüdür. Lagün biçimindeki denizi, dalgasız ve sığ oluşu nedeniyle özellikle aileler ve yüzme meraklıları için ideal bir ortam sunar. Ölüdeniz, sadece deniz turizmi değil, aynı zamanda yamaç paraşütü gibi macera sporlarıyla da ünlüdür; Babadağ’dan yapılan tandem uçuşlar ziyaretçilere eşsiz bir panoramik manzara sunar. Plaj boyunca çok sayıda kafe, restoran, butik otel ve su sporları merkezi bulunur. Ziyaretçiler, hem güneşlenme hem de çeşitli su sporları aktivitelerine katılabilirler. Gün batımı manzaraları, fotoğrafçılar ve doğa tutkunları için unutulmaz kareler sunar. Ölüdeniz çevresindeki yürüyüş parkurları ve doğa yolları, bölgenin florası ve faunası hakkında bilgi edinmek isteyenler için idealdir. Ayrıca çevredeki butik mağazalar ve pazarlarda yöresel ürünler ve hediyelik eşyalar bulmak mümkündür. Ölüdeniz, hem yerli hem de yabancı turistler tarafından yoğun ilgi görmektedir ve bölge ekonomisine önemli katkı sağlamaktadır. Ziyaretçiler, lagün boyunca kısa tekne turlarına katılarak çevredeki koyları ve doğal güzellikleri keşfedebilirler. Bölgenin güvenliği ve temizliği, belediye ve işletmeler tarafından düzenli olarak sağlanmaktadır; cankurtaran hizmetleri sayesinde güvenli bir deniz deneyimi sunulur. Ölüdeniz, hem dinlenme hem de doğa ve macera aktiviteleri için Türkiye’nin en çok tercih edilen destinasyonlarından biridir ve Fethiye gezisinin vazgeçilmez noktalarından biri olarak öne çıkar. Burada geçirilen zaman, ziyaretçilere hem huzurlu bir tatil deneyimi hem de doğayla iç içe unutulmaz anılar sunar.",
+      "en": "Ölüdeniz, located in Fethiye, Muğla, Turkey, is one of the country’s most famous and stunning beaches. Known for its crystal-clear turquoise waters and surrounding lush green forests, it is considered a natural paradise. Its lagoon-like formation, calm and shallow waters make it ideal for families and swimming enthusiasts. Beyond traditional beach activities, Ölüdeniz is renowned for adventure sports, particularly paragliding from Babadağ, offering visitors breathtaking panoramic views. The beach is lined with numerous cafes, restaurants, boutique hotels, and water sports centers, allowing visitors to sunbathe, swim, and participate in a wide range of water activities. The area is famous for its unforgettable sunsets, providing perfect photography opportunities for nature lovers. Walking trails and nature paths around Ölüdeniz allow visitors to explore local flora and fauna. Additionally, nearby markets and boutiques offer local products and souvenirs. Ölüdeniz attracts both domestic and international tourists and plays a significant role in the local economy. Visitors can take short boat tours along the lagoon to discover surrounding coves and natural beauty. Safety and cleanliness are maintained by local authorities and businesses, and lifeguard services ensure a secure beach experience. Ölüdeniz is one of Turkey’s most preferred destinations for relaxation, adventure, and nature activities, making it a must-visit spot on any Fethiye itinerary. Time spent here offers both a peaceful retreat and unforgettable moments in harmony with nature.",
+      "de": "Ölüdeniz, gelegen in Fethiye, Muğla, Türkei, ist einer der bekanntesten und atemberaubendsten Strände des Landes. Berühmt für sein kristallklares türkisfarbenes Wasser und die umliegenden grünen Wälder, gilt es als ein natürliches Paradies. Die lagunenartige Form des Strandes mit ruhigem und flachem Wasser macht ihn besonders für Familien und Schwimmbegeisterte ideal. Über die klassischen Strandaktivitäten hinaus ist Ölüdeniz für Abenteuer- und Extremsportarten bekannt, insbesondere für Paragliding vom Babadağ, das Besuchern spektakuläre Panoramablicke bietet. Der Strand ist gesäumt von zahlreichen Cafés, Restaurants, Boutique-Hotels und Wassersportzentren, die Möglichkeiten zum Sonnenbaden, Schwimmen und zur Teilnahme an verschiedenen Wassersportaktivitäten bieten. Die Gegend ist berühmt für ihre unvergesslichen Sonnenuntergänge und bietet perfekte Fotomotive für Naturliebhaber. Wanderwege und Naturpfade rund um Ölüdeniz ermöglichen es Besuchern, die lokale Flora und Fauna zu erkunden. In den nahegelegenen Märkten und Boutiquen können lokale Produkte und Souvenirs erworben werden. Ölüdeniz zieht sowohl einheimische als auch internationale Touristen an und leistet einen wichtigen Beitrag zur lokalen Wirtschaft. Besucher können kurze Bootstouren entlang der Lagune unternehmen, um die umliegenden Buchten und Naturschönheiten zu entdecken. Sicherheit und Sauberkeit werden von den lokalen Behörden und Betrieben gewährleistet, und Rettungsschwimmer sorgen für ein sicheres Strand-Erlebnis. Ölüdeniz ist eines der beliebtesten Reiseziele in der Türkei für Entspannung, Abenteuer und Naturerlebnisse und gehört zu den unverzichtbaren Sehenswürdigkeiten einer Reise nach Fethiye. Der Aufenthalt hier bietet sowohl eine friedliche Auszeit als auch unvergessliche Momente inmitten der Natur."
+    },
+    "activities": {
+      "tr": [
+        "Plajda dinlenmek",
+        "Paraşütle atlamak"
+      ],
+      "en": [
+        "Relax on the Beach",
+        "Paragliding"
+      ],
+      "de": [
+        "Am Strand entspannen",
+        "Fallschirmspringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "plaj"
+      ],
+      "en": [
+        "beach"
+      ],
+      "de": [
+        "Strand"
+      ]
+    },
+    "images": [
+      "https://example.com/oludeniz.jpg"
+    ]
+  },
   {
     "slug": "akyaka",
     "name": {
@@ -91,53 +134,65 @@
       "https://example.com/akyaka.jpg"
     ]
   },
-  {
-    "slug": "giynap-koyu",
-    "name": {
-      "tr": "Gıynap Koyu",
-      "en": "Gıynap Bay",
-      "de": "Gıynap Bucht"
-    },
-    "latitude": 36.68248,
-    "longitude": 27.39006,
-    "description": {
-      "tr": "Gıynap Koyu, Muğla’nın Datça yarımadasında yer alan ve bölgenin en güzel doğal alanlarından biri olarak kabul edilen etkileyici bir koydur. Sakin atmosferi, berrak ve temiz denizi ile hem yerli hem de yabancı turistlerin ilgisini çeker. Koy, doğa tutkunları, kampçılar ve deniz sporları ile ilgilenen ziyaretçiler için ideal bir destinasyondur.\n\nGıynap Koyu’nun etrafındaki doğal yürüyüş yolları, ziyaretçilere hem deniz manzarası hem de çevredeki bitki örtüsünü keşfetme imkanı sunar. Yürüyüş sırasında sahilin doğal yapısı, kaya oluşumları ve nadir bitki türleri gözlemlenebilir. Özellikle yaz aylarında, koyun sakinliği ve temiz suyu, yüzme ve dinlenme için mükemmel koşullar sağlar.\n\nKoyda kamp yapmak isteyenler için uygun alanlar bulunmaktadır. Çadır kurmak ve doğa ile iç içe zaman geçirmek isteyenler, Gıynap Koyu’nun sunduğu huzurlu ortamdan faydalanabilirler. Ayrıca koy, fotoğrafçılar için doğal ışık ve deniz manzarası ile eşsiz kareler yakalama fırsatı sunar.\n\nGıynap Koyu, çevresindeki doğal yaşam ve temiz denizi ile ekoturizm açısından da önemli bir alan oluşturur. Kuş gözlemi yapmak, sahil boyunca yürüyüş yapmak ve doğanın tadını çıkarmak için ideal bir noktadır. Bölge, hem dinlenme hem de doğa keşfi yapmak isteyenler için unutulmaz bir deneyim sunar.\n\nDatça gezileri sırasında Gıynap Koyu, ziyaret edilmesi gereken özel yerlerden biridir. Tarih, doğa ve deniz keyfini bir arada sunan koy, ziyaretçilerine unutulmaz bir deneyim yaşatır ve bölgenin doğal güzelliklerini yakından keşfetme imkanı verir.\n",
-      "en": "Gıynap Bay is an impressive bay located on the Datça Peninsula in Muğla, considered one of the most beautiful natural areas of the region. Famous for its tranquil atmosphere and clear, clean waters, it attracts both local and international tourists. The bay is an ideal destination for nature enthusiasts, campers, and visitors interested in water sports.\n\nThe natural walking trails around Gıynap Bay offer visitors the chance to enjoy sea views and explore the surrounding vegetation. Along the walks, visitors can observe the natural formations of the shore, rock structures, and rare plant species. Especially in summer, the bay’s calmness and clear waters provide perfect conditions for swimming and relaxation.\n\nThere are suitable areas for camping in the bay. Visitors wishing to set up tents and spend time immersed in nature can benefit from the peaceful environment of Gıynap Bay. Additionally, the bay offers photographers opportunities to capture unique shots with natural light and sea views.\n\nGıynap Bay also holds significance for ecotourism due to its natural surroundings and clean waters. It is an ideal spot for birdwatching, coastal walks, and enjoying nature. The area provides an unforgettable experience for those seeking both relaxation and nature exploration.\n\nDuring trips to Datça, Gıynap Bay is one of the special places that must be visited. Combining history, nature, and sea enjoyment, the bay offers visitors an unforgettable experience and the chance to explore the natural beauty of the region up close.\n",
-      "de": "Die Gıynap Bucht ist eine beeindruckende Bucht auf der Datça-Halbinsel in Muğla und gilt als eines der schönsten Naturgebiete der Region. Berühmt für ihre ruhige Atmosphäre und das klare, saubere Wasser, zieht sie sowohl einheimische als auch internationale Touristen an. Die Bucht ist ein ideales Ziel für Naturliebhaber, Camper und Besucher, die sich für Wassersport interessieren.\n\nDie natürlichen Wanderwege rund um die Gıynap-Bucht bieten den Besuchern die Möglichkeit, den Meerblick zu genießen und die umliegende Vegetation zu erkunden. Auf den Wanderungen können Besucher die natürliche Struktur der Küste, Felsformationen und seltene Pflanzenarten beobachten. Besonders im Sommer bieten die Ruhe und das klare Wasser der Bucht ideale Bedingungen zum Schwimmen und Entspannen.\n\nIn der Bucht gibt es geeignete Flächen zum Campen. Besucher, die Zelte aufstellen und Zeit in der Natur verbringen möchten, können die friedliche Umgebung der Gıynap-Bucht nutzen. Außerdem bietet die Bucht Fotografen die Möglichkeit, einzigartige Aufnahmen mit natürlichem Licht und Meerblick zu machen.\n\nDie Gıynap-Bucht ist auch aufgrund ihrer natürlichen Umgebung und des sauberen Wassers für den Ökotourismus von Bedeutung. Sie ist ein idealer Ort zur Vogelbeobachtung, für Spaziergänge entlang der Küste und zum Genießen der Natur. Das Gebiet bietet ein unvergessliches Erlebnis für alle, die sowohl Entspannung als auch Naturerlebnis suchen.\n\nWährend Reisen nach Datça ist die Gıynap-Bucht einer der besonderen Orte, die unbedingt besucht werden sollten. Geschichte, Natur und Meeresgenuss vereint, bietet die Bucht den Besuchern ein unvergessliches Erlebnis und die Möglichkeit, die natürliche Schönheit der Region hautnah zu entdecken.\n"
-    },
-    "activities": {
-      "tr": [
-        "Denize girmek",
-        "Yürüyüş yapmak",
-        "Kamp yapmak"
-      ],
-      "en": [
-        "Swimming",
-        "Walking",
-        "Camping"
-      ],
-      "de": [
-        "Schwimmen",
-        "Wandern",
-        "Campen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "koy"
-      ],
-      "en": [
-        "cove"
-      ],
-      "de": [
-        "Bucht"
-      ]
-    },
-    "images": [
-      "https://example.com/gynap_koyu.jpg",
-      "https://example.com/gynap_koyu_2.jpg"
+{
+  "slug": "marmaris",
+  "name": {
+    "tr": "Marmaris",
+    "en": "Marmaris",
+    "de": "Marmaris"
+  },
+  "latitude": 36.8550,
+  "longitude": 28.2742,
+  "description": {
+    "tr": "Marmaris, Ege ve Akdeniz'in kesişim noktasında, Muğla iline bağlı dünyaca ünlü bir liman kenti ve Türkiye'nin en popüler turizm destinasyonlarından biridir. Etrafı çam ormanlarıyla kaplı muhteşem dağlar, masmavi koylar ve tarihi zenginliklerle çevrili olan bu eşsiz ilçe, hem huzurlu bir doğa tatili hem de hareketli bir gece hayatı arayanlar için mükemmel bir dengedir. Marmaris'in kalbinde yer alan ve Kanuni Sultan Süleyman döneminde genişletilen tarihi Marmaris Kalesi ile hemen yanındaki Arkeoloji Müzesi, ilçenin köklü geçmişine ışık tutmaktadır ve cüzi bir giriş ücretiyle ziyaret edilebilmektedir. İlçenin halk plajları tamamen ücretsiz olup; İçmeler, Turunç, Sedir Adası (Kleopatra Plajı) ve Kızkumu gibi dünyaca ünlü plaj ve koyları ise berrak sularıyla deniz tutkunlarını büyülemektedir. Marmaris, Türkiye'nin en büyük marina altyapılarından birine sahip olduğu için mavi tur ve günlük tekne turlarının da ana merkezidir. Limandan kalkan teknelerle Kleopatra Adası, Cennet Adası ve Akvaryum Koyu gibi saklı cennetler kolayca keşfedilebilmektedir. Ayrıca Marmaris Milli Parkı sınırları içerisinde doğa yürüyüşleri, cip safari ve bisiklet turları gibi outdoor aktiviteler de oldukça yaygındır. Şehir merkezinde yer alan Kapalı Çarşı ve yat limanı boyunca uzanan restoranlar, ziyaretçilere Ege mutfağının en taze deniz ürünlerini ve meşhur Marmaris çam balını tatma fırsatı sunar. Waylero dijital seyahat planlayıcısı kullanıcıları için hem kültürel bir keşif hem de eksiksiz bir deniz tatili vadeden Marmaris; Dalaman Havalimanı'na yaklaşık 90 km mesafede olup, havalimanı servisleri (MUTTAŞ/HAVAŞ), şehirlerarası otobüsler ve Muğla merkez ile çevre ilçelerden kalkan düzenli dolmuş hatlarıyla son derece konforlu bir ulaşıma sahiptir. Bu dev destinasyon, 'Marmaris gezilecek yerler', 'Muğla en güzel koylar' ve 'Marmaris tekne turları' arama hacimlerinde her zaman zirvede yer alacak muazzam bir SEO potansiyeline sahiptir.",
+    "en": "Marmaris, located at the confluence of the Aegean and Mediterranean seas in the Mugla province, is a world-renowned port city and one of Turkey's most popular tourism destinations. Surrounded by magnificent mountains covered with pine forests, crystal-clear bays, and historical riches, this unique district offers a perfect balance for those seeking both a peaceful nature holiday and a vibrant nightlife. Located in the heart of Marmaris, the historical Marmaris Castle, expanded during the reign of Suleiman the Magnificent, and the adjacent Archaeology Museum shed light on the district's deep-rooted history and can be visited for a small entrance fee. While the public beaches in the town center are completely free of charge, world-famous beaches and bays such as Icmeler, Turunc, Sedir Island (Cleopatra Beach), and Kizkumu fascinate sea lovers with their pristine waters. Since Marmaris possesses one of the largest marina infrastructures in Turkey, it is also the main hub for blue cruises and daily boat trips. Hidden paradises like Cleopatra Island, Heaven Island, and Aquarium Bay can be easily explored with boats departing from the harbor. In addition, outdoor activities such as hiking, jeep safaris, and cycling tours are highly popular within the borders of Marmaris National Park. The Grand Bazaar located in the city center and the restaurants stretching along the marina offer visitors the chance to taste the freshest seafood of Aegean cuisine and the famous Marmaris pine honey. Promising both a cultural exploration and a flawless seaside vacation for Waylero digital travel planner users, Marmaris is approximately 90 km away from Dalaman Airport and offers highly comfortable transportation via airport shuttle services (MUTTAS/HAVAS), intercity buses, and regular minibus (dolmus) lines departing from Mugla center and surrounding districts. This mega destination possesses a massive SEO potential that will always rank on top for search trends like 'Marmaris places to visit', 'best bays in Mugla', and 'Marmaris boat tours'.",
+    "de": "Marmaris Urlaubsregion."
+  },
+  "activities": {
+    "tr": [
+      "Günlük tekne turları ve mavi yolculuk",
+      "Marmaris Kalesi ve Müzesi ziyareti",
+      "Koy ve plaj keşifleri (İçmeler, Kızkumu)",
+      "Cip safari ve doğa yürüyüşleri"
+    ],
+    "en": [
+      "Daily boat tours and blue cruises",
+      "Visiting Marmaris Castle and Museum",
+      "Exploring bays and beaches (Icmeler, Kizkumu)",
+      "Jeep safari and nature trekking"
+    ],
+    "de": [
+      "Bootsfahrten und Blaue Reise",
+      "Marmaris Burg und Museum",
+      "Buchten und Strände entdecken",
+      "Jeep-Safari und Wandern"
     ]
   },
+  "categories": {
+    "tr": [
+      "tatil-beldesi",
+      "deniz-ve-plaj",
+      "tarihi-mekan",
+      "dogal-guzellik"
+    ],
+    "en": [
+      "resort-town",
+      "beach-and-sea",
+      "historical-site",
+      "natural-wonder"
+    ],
+    "de": [
+      "ferienort",
+      "strand-und-meer",
+      "historische-staette",
+      "naturwunder"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4c/Marmaris_Marina_Mugla_Turkey.jpg"
+  ]
+},
+  
   {
     "slug": "saklikent-kanyonu",
     "name": {
@@ -186,6 +241,367 @@
     "images": [
       "https://example.com/saklikent_kanyonu.jpg",
       "https://example.com/saklikent_kanyonu_2.jpg"
+    ]
+  },
+{
+    "slug": "inbuku-koyu",
+    "name": {
+      "tr": "İnbükü Koyu",
+      "en": "İnbükü Bay",
+      "de": "İnbükü Bucht"
+    },
+    "latitude": 36.79733,
+    "longitude": 28.08371,
+    "description": {
+      "tr": "İnbükü Koyu, Muğla’nın Datça ilçesinde yer alan ve bölgenin en güzel koylarından biri olarak bilinen özel bir destinasyondur. Sakinliği, berrak ve temiz denizi ile ziyaretçilere huzurlu bir ortam sunar. Koy, aynı zamanda yemyeşil doğasıyla doğa severler ve fotoğrafçılar için eşsiz bir deneyim alanı oluşturur.\n\nİnbükü Koyu’nun çevresinde yürüyüş yapabileceğiniz doğal patikalar bulunmaktadır. Bu yollar boyunca ziyaretçiler, sahilin ve çevresindeki bitki örtüsünün güzelliklerini keşfedebilir. Denizin mavisi, çam ormanları ve temiz hava, özellikle yaz aylarında dinlenmek ve doğayla baş başa vakit geçirmek isteyenler için idealdir.\n\nKoy, su sporları ve dalış meraklıları için de mükemmel bir noktadır. Ziyaretçiler berrak sularında yüzebilir, su altı yaşamını gözlemleyebilir ve doğanın tadını çıkarabilirler. Ayrıca İnbükü Koyu, fotoğrafçılar için doğal ışık ve manzaralar sunarak unutulmaz kareler yakalama fırsatı verir.\n\nEkoturizm açısından önemli bir alan olan İnbükü Koyu, doğa ile iç içe vakit geçirmek isteyen ziyaretçilere yürüyüş, kuş gözlemi ve doğa keşfi gibi aktiviteler için uygun imkanlar sağlar. Bölgenin flora ve faunasını gözlemlemek, doğa tutkunları için unutulmaz bir deneyim oluşturur.\n\nDatça gezileri sırasında İnbükü Koyu, mutlaka ziyaret edilmesi gereken duraklardan biridir. Hem doğa, hem deniz hem de huzur arayan ziyaretçilere eşsiz bir deneyim sunar ve bölgenin doğal güzelliklerini yakından keşfetme imkanı verir.\n",
+      "en": "İnbükü Bay, located in the Datça district of Muğla, is one of the most beautiful bays in the region. Famous for its tranquility and clear waters, it offers visitors a peaceful environment. The bay also attracts nature lovers and photographers with its lush greenery, providing a unique experience.\n\nNatural walking trails around İnbükü Bay allow visitors to explore the coastal beauty and surrounding vegetation. Along these paths, the blue waters, pine forests, and fresh air create an ideal setting for relaxation and spending time immersed in nature, especially during summer.\n\nThe bay is also an excellent spot for water sports and diving enthusiasts. Visitors can swim in its clear waters, observe underwater life, and enjoy the natural surroundings. İnbükü Bay also offers photographers opportunities to capture unforgettable shots with natural light and scenic views.\n\nSignificant for ecotourism, İnbükü Bay provides visitors with hiking, birdwatching, and nature exploration opportunities. Observing the local flora and fauna creates an unforgettable experience for nature enthusiasts.\n\nDuring trips to Datça, İnbükü Bay is a must-visit destination. It offers a unique experience for visitors seeking nature, sea, and tranquility, allowing them to closely explore the natural beauty of the region.\n",
+      "de": "Die İnbükü Bucht, gelegen im Bezirk Datça in Muğla, ist eine der schönsten Buchten der Region. Berühmt für ihre Ruhe und das klare Wasser, bietet sie den Besuchern eine friedliche Umgebung. Die Bucht zieht zudem Naturliebhaber und Fotografen mit ihrem üppigen Grün an und bietet ein einzigartiges Erlebnis.\n\nNatürliche Wanderwege rund um die İnbükü-Bucht ermöglichen es den Besuchern, die Küstenlandschaft und die umliegende Vegetation zu erkunden. Entlang dieser Wege schaffen das blaue Wasser, die Kiefernwälder und die frische Luft eine ideale Umgebung für Entspannung und Zeit in der Natur, besonders im Sommer.\n\nDie Bucht ist auch ein hervorragender Ort für Wassersport- und Tauchbegeisterte. Besucher können im klaren Wasser schwimmen, das Unterwasserleben beobachten und die natürliche Umgebung genießen. Die İnbükü-Bucht bietet Fotografen zudem Möglichkeiten, unvergessliche Aufnahmen mit natürlichem Licht und malerischen Ausblicken zu machen.\n\nDie İnbükü-Bucht ist auch für den Ökotourismus von Bedeutung und bietet Wander-, Vogelbeobachtungs- und Naturerlebnis-Möglichkeiten für Besucher, die die Natur hautnah erleben möchten. Die Beobachtung der örtlichen Flora und Fauna schafft ein unvergessliches Erlebnis für Naturliebhaber.\n\nBei Reisen nach Datça ist die İnbükü-Bucht ein Muss. Sie bietet Besuchern, die Natur, Meer und Ruhe suchen, ein einzigartiges Erlebnis und ermöglicht es ihnen, die natürliche Schönheit der Region hautnah zu entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek ve güneşlenmek",
+        "Doğa yürüyüşü yapmak",
+        "Kamp yapmak"
+      ],
+      "en": [
+        "Swimming and Sunbathing",
+        "Nature Walks",
+        "Camping"
+      ],
+      "de": [
+        "Schwimmen und Sonnenbaden",
+        "Wanderungen in der Natur",
+        "Campen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/inbuku_koyu.jpg",
+      "https://example.com/inbuku_koyu_2.jpg"
+    ]
+  },
+ {
+    "slug": "yassi-adasi",
+    "name": {
+      "tr": "Yassı Adası",
+      "en": "Yassı Island",
+      "de": "Yassı Insel"
+    },
+    "latitude": 36.75283,
+    "longitude": 27.76213,
+    "description": {
+      "tr": "Yassı Adası, Muğla’nın Datça ilçesinde yer alan ve bölgenin sakin adalarından biri olarak bilinen özel bir destinasyondur. Berrak ve temiz suları, çevresindeki doğal güzellikleri ile ziyaretçilere huzurlu bir deneyim sunar. Adanın sessizliği ve doğal ortamı, deniz tutkunları ve doğa severler için mükemmel bir kaçış noktasıdır.\n\nYassı Adası çevresinde yüzme, şnorkelle dalış ve deniz keşfi gibi aktiviteler yapılabilir. Ziyaretçiler adanın berrak sularında yüzebilir, su altındaki yaşamı gözlemleyebilir ve doğal güzelliklerin tadını çıkarabilirler. Özellikle yaz aylarında, adanın sakinliği ve temiz havası, kalabalıktan uzak huzurlu bir tatil arayanlar için idealdir.\n\nAda, doğa yürüyüşleri ve fotoğrafçılık için de uygundur. Çevresindeki doğal patikalar ve taşlık alanlar, adayı keşfetmek isteyenler için eşsiz fırsatlar sunar. Berrak deniz, güneş ışığı ve doğal manzaralar, unutulmaz kareler yakalamak isteyen fotoğrafçılar için benzersiz sahneler oluşturur.\n\nEkoturizm açısından önemli olan Yassı Adası, doğa ile baş başa kalmak isteyen ziyaretçilere piknik, kuş gözlemi ve doğa keşfi gibi aktiviteler için imkan sağlar. Bölgenin flora ve faunasını gözlemlemek, doğa tutkunları için unutulmaz bir deneyim sunar.\n\nDatça gezileri sırasında Yassı Adası, mutlaka ziyaret edilmesi gereken duraklardan biridir. Hem doğa, hem deniz hem de sakin bir atmosfer arayan ziyaretçilere eşsiz bir deneyim sunar ve bölgenin doğal güzelliklerini yakından keşfetme fırsatı verir.\n",
+      "en": "Yassı Island, located in the Datça district of Muğla, is one of the region’s peaceful islands. Known for its clear waters and natural beauty, it offers visitors a tranquil experience. The island’s calmness and natural environment make it a perfect getaway for sea lovers and nature enthusiasts.\n\nAround Yassı Island, activities such as swimming, snorkeling, and exploring the sea can be enjoyed. Visitors can swim in its clear waters, observe underwater life, and enjoy the natural surroundings. Especially in summer, the island’s tranquility and clean air make it ideal for those seeking a peaceful holiday away from crowds.\n\nThe island is also suitable for nature walks and photography. Natural trails and rocky areas around the island provide unique opportunities for exploration. Clear waters, sunlight, and natural scenery create unforgettable scenes for photographers looking to capture memorable shots.\n\nSignificant for ecotourism, Yassı Island offers visitors opportunities for picnicking, birdwatching, and nature exploration. Observing the local flora and fauna provides an unforgettable experience for nature lovers.\n\nDuring trips to Datça, Yassı Island is a must-visit destination. It provides a unique experience for visitors seeking nature, sea, and a peaceful atmosphere, allowing them to closely explore the region’s natural beauty.\n",
+      "de": "Die Yassı Insel, gelegen im Bezirk Datça in Muğla, ist eine der ruhigen Inseln der Region. Bekannt für ihr klares Wasser und ihre natürliche Schönheit, bietet sie den Besuchern ein friedliches Erlebnis. Die Ruhe und natürliche Umgebung der Insel machen sie zu einem perfekten Rückzugsort für Meerliebhaber und Naturliebhaber.\n\nRund um die Yassı Insel können Aktivitäten wie Schwimmen, Schnorcheln und Erkundung des Meeres unternommen werden. Besucher können im klaren Wasser schwimmen, das Unterwasserleben beobachten und die natürliche Umgebung genießen. Besonders im Sommer ist die Ruhe und die saubere Luft der Insel ideal für alle, die einen ruhigen Urlaub abseits von Menschenmassen suchen.\n\nDie Insel eignet sich auch für Naturwanderungen und Fotografie. Natürliche Wege und felsige Gebiete rund um die Insel bieten einzigartige Möglichkeiten zur Erkundung. Klare Gewässer, Sonnenlicht und natürliche Landschaften schaffen unvergessliche Szenen für Fotografen, die besondere Aufnahmen machen möchten.\n\nFür den Ökotourismus von Bedeutung bietet die Yassı Insel Besuchern Möglichkeiten zum Picknicken, Vogelbeobachten und Naturerkunden. Die Beobachtung der örtlichen Flora und Fauna bietet Naturliebhabern ein unvergessliches Erlebnis.\n\nBei Reisen nach Datça ist die Yassı Insel ein Muss. Sie bietet Besuchern, die Natur, Meer und eine ruhige Atmosphäre suchen, ein einzigartiges Erlebnis und ermöglicht es, die natürliche Schönheit der Region hautnah zu entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Adada yürüyüş yapmak",
+        "Denize girmek",
+        "Tekneyle gezinti yapmak"
+      ],
+      "en": [
+        "Walking on the Island",
+        "Swimming",
+        "Boat Tours"
+      ],
+      "de": [
+        "Spaziergänge auf der Insel",
+        "Schwimmen",
+        "Bootstouren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/ayak_adasi.jpg",
+      "https://example.com/ayak_adasi_2.jpg"
+    ]
+  },
+{
+  "slug": "tlos-antik-kenti",
+  "name": {
+    "tr": "Tlos Antik Kenti",
+    "en": "Tlos Ancient City",
+    "de": "Tlos Antike Stadt"
+  },
+  "latitude": 36.5544,
+  "longitude": 29.4208,
+  "description": {
+    "tr": "Tlos Antik Kenti, Muğla ilinin Seydikemer ilçesi Yaka Köyü sınırları içerisinde yer alan, Likya Birliği'nin en eski, en büyük ve 'en parlak metropolü' unvanına sahip köklü bir yerleşim yeridir. Yaklaşık 4000 yıllık bir geçmişe sahip olan kent, mitolojide kanatlı at Pegasus ile onun kahramanı Bellerophontes'in yaşadığı yer olarak ün salmıştır. Kentin en dikkat çekici yapısı, akropolün dik yamaçlarına oyulmuş ve adeta bir apartman görüntüsünü andıran görkemli Likya kaya mezarlarıdır. Bu mezarlar arasında en önemlisi, cephesindeki Pegasus kabartmasıyla bilinen Bellerophontes'e ait mezardır. Akropolün tepesinde yer alan ve Osmanlı döneminde de kullanılan Kanlı Ali Ağa Sarayı'nın surları, kentin Likya, Roma, Bizans ve Osmanlı medeniyetlerini bir arada barındıran çok katmanlı yapısını gözler önüne serer. Tlos, Kültür ve Turizm Bakanlığı'na bağlı resmi bir ören yeri statüsünde olup, içeriye girişler biletlidir ve Müzekart burada aktif olarak geçmektedir. Geniş bir araziye yayılan kentin düzlük alanında devasa bir antik tiyatro, Roma hamamı, stadyum, bazilika ve kronolojik açıdan bölgenin en eski izlerini taşıyan kronolojik kazı alanları yer alır. Waylero dijital seyahat planlayıcısı kullanıcıları için hem mitolojik bir keşif hem de panoramik bir Eşen Ovası manzarası sunan Tlos; Fethiye ilçe merkezine yaklaşık 42 km, meşhur Saklıkent Kanyonu'na ise sadece 12 km mesafededir. Özel araçla Fethiye-Korkuteli yolu üzerinden Yaka Köyü tabelaları takip edilerek çok rahat ulaşılabileceği gibi, Fethiye otogarından kalkan Tlos-Yaka Köyü dolmuşlarıyla da konforlu bir şekilde erişim sağlanabilmektedir. Bu görkemli arkeolojik alan, 'Fethiye gezilecek yerler', 'Likya Yolu antik kentleri' ve 'Muğla tarihi mekanlar' arama hacimlerinde doğrudan ilk sıralara yerleşecek muazzam bir SEO potansiyeline sahiptir.",
+    "en": "Tlos Ancient City, located within the borders of Yaka Village in the Seydikemer district of Mugla province, is a deeply rooted settlement holding the titles of one of the oldest, largest, and the 'most brilliant metropolis' of the Lycian League. Having a history of approximately 4000 years, the city is famous in mythology as the home of the winged horse Pegasus and its hero Bellerophontes. The most striking feature of the city is the magnificent Lycian rock-cut tombs carved into the steep slopes of the acropolis, resembling an apartment complex. Among these tombs, the most important one belongs to Bellerophontes, known for the Pegasus relief on its facade. The ruins of the Kanli Ali Aga Palace, located at the top of the acropolis and used during the Ottoman period, reveal the multi-layered structure of the city, which embodies Lycian, Roman, Byzantine, and Ottoman civilizations together. Tlos is an official archaeological site affiliated with the Ministry of Culture and Tourism, entry is ticketed, and the Museum Pass (Muzekart) is fully valid. Spreading over a wide area, the flat terrain of the city features a massive ancient theater, Roman baths, a stadium, a basilica, and ongoing excavation sites carrying the oldest traces of the region. Offering Waylero digital travel planner users both a mythological exploration and a panoramic view of the Esen Valley, Tlos is approximately 42 km away from Fethiye district center and only 12 km from the famous Saklikent Canyon. It can be reached very easily by private vehicles by following the Yaka Village signs on the Fethiye-Korkuteli road, or comfortably accessed via the Tlos-Yaka Village minibuses departing from Fethiye bus terminal. This majestic archaeological site possesses a massive SEO potential that will rank high for search trends like 'Fethiye places to visit', 'Lycian Way ancient cities', and 'Mugla historical sites'.",
+    "de": "Tlos Antike Stadt und Ruinen."
+  },
+  "activities": {
+    "tr": [
+      "Akropol tırmanışı ve Likya kaya mezarlarını keşif",
+      "Pegasus kabartmalı Bellerophontes mezarını inceleme",
+      "Antik tiyatro, stadyum ve Roma hamamı gezisi",
+      "Eşen Ovası'na karşı panoramik manzara fotoğrafçılığı"
+    ],
+    "en": [
+      "Climbing the acropolis and exploring Lycian rock-cut tombs",
+      "Examining the tomb of Bellerophontes with Pegasus relief",
+      "Visiting the ancient theater, stadium, and Roman baths",
+      "Panoramic scenery photography against the Esen Valley"
+    ],
+    "de": [
+      "Erkundung der lykischen Felsengräber",
+      "Besichtigung des Bellerophon-Grabs",
+      "Besuch des antiken Theaters und Römischen Bades",
+      "Fotografie des Panoramablicks auf das Esen-Tal"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-mekan",
+      "oren-yeri",
+      "acik-hava-muzesi",
+      "manzara-noktasi"
+    ],
+    "en": [
+      "historical-site",
+      "archaeological-site",
+      "open-air-museum",
+      "viewpoint"
+    ],
+    "de": [
+      "historische-staette",
+      "archaeologische-staette",
+      "freilichtmuseum",
+      "aussichtspunkt"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/41/Tlos_Antik_Kenti_Mugla_Turkey.jpg"
+  ]
+},
+{
+  "slug": "kizkumu-plaji",
+  "name": {
+    "tr": "Kızkumu Plajı",
+    "en": "Kizkumu Beach",
+    "de": "Kizkumu Strand"
+  },
+  "latitude": 36.75924,
+  "longitude": 28.12781,
+  "description": {
+    "tr": "Kızkumu Plajı, Muğla’nın Marmaris ilçesine bağlı Orhaniye köyünde yer alan ve dünya çapında ün kazanan sıra dışı bir doğa harikasıdır. Plajı benzersiz kılan en önemli özellik, denizin ortasına doğru uzanan yaklaşık 600 metrelik sığ ve kumul bir yoldur. Ziyaretçiler bu doğal oluşum sayesinde denizin ortasında, adeta suyun üzerinde yürüyormuş gibi benzersiz bir deneyim yaşarlar.\n\nKızkumu, etrafını saran çam ormanları, sakin ve dalgasız denizi ile göz kamaştırıcı bir koyda yer alır. Plajın ismi ve oluşumu, yerel halk arasında anlatılan hüzünlü bir aşk efsanesine dayanmaktadır. Anlatılan hikayeye göre, bir prenses sevdiğine ulaşmak için eteğine doldurduğu kumları denize serperek ilerlemiş, ancak kumları bitince boğulmuştur. Bu etkileyici hikaye, plajın mistik atmosferini daha da pekiştirir.\n\nBölge, hem yüzmek hem de doğayla baş başa kalmak isteyenler için harika bir duraktır. Çevredeki restoranlarda yerel Ege lezzetlerini tadabilir, koyun huzurlu manzarasını izleyebilirsiniz. Ayrıca Kızkumu, Marmaris'ten kalkan tekne turlarının ve günübirlik gezi rotalarının da vazgeçilmez noktalarından biridir.\n\nFotoğraf tutkunları için eşsiz kareler sunan plaj, aynı zamanda sığ yapısı sayesinde çocuklu aileler için de son derece güvenli ve ideal bir yüzme alanı sağlar. Marmaris ve Orhaniye ziyaretlerinin olmazsa olmazı olan Kızkumu Plajı, ziyaretçilerine doğa, efsane ve deniz keyfini bir arada sunar.",
+    "en": "Kizkumu Beach, located in the Orhaniye village of Muğla's Marmaris district, is an extraordinary natural wonder that has gained worldwide fame. The most prominent feature making this beach unique is a shallow, sandy path extending about 600 meters into the middle of the sea. Thanks to this natural formation, visitors can walk on water, creating a unique and magical experience.\n\nKizkumu is situated in a dazzling bay surrounded by lush pine forests and calm, waveless waters. The name and formation of the beach are based on a melancholic love legend told among the locals. According to the story, a princess scattered sand from her skirt into the sea to reach her lover, creating a path, but tragically drowned when she ran out of sand. This touching tale adds a mystical atmosphere to the beach.\n\nThe region is a fantastic stop for those wishing to swim and blend with nature. You can taste local Aegean delicacies at the surrounding restaurants and enjoy the peaceful view of the bay. Kizkumu is also an indispensable stop for boat tours and daily excursions departing from Marmaris.\n\nOffering unique frames for photography enthusiasts, the beach is also safe and ideal for families with children due to its shallow structure. A must-visit during trips to Marmaris and Orhaniye, Kizkumu Beach offers visitors a perfect blend of nature, legend, and sea enjoyment.",
+    "de": "Der Kizkumu Strand liegt im Dorf Orhaniye im Bezirk Marmaris in Muğla und ist ein außergewöhnliches Naturwunder, das weltweite Berühmtheit erlangt hat. Das markanteste Merkmal, das diesen Strand so einzigartig macht, ist ein etwa 600 Meter langer, seichter Sandweg, der bis in die Mitte des Meeres führt. Dank dieser natürlichen Formation können Besucher buchstäblich auf dem Wasser gehen, was ein einmaliges Erlebnis darstellt.\n\nKizkumu liegt in einer schillernden Bucht, umgeben von dichten Pinienwäldern und ruhigem, wellenlosem Wasser. Der Name und die Entstehung des Strandes basieren auf einer melancholischen Liebeslegende, die unter den Einheimischen erzählt wird. Der Geschichte nach verstreute eine Prinzessin Sand aus ihrem Rock im Meer, um zu ihrem Geliebten zu gelangen, ertrank jedoch tragischerweise, als ihr der Sand ausging. Diese berührende Geschichte verleiht dem Strand eine mystische Atmosphäre.\n\nDie Region ist ein fantastischer Ort für alle, die schwimmen und in der Natur entspannen möchten. In den umliegenden Restaurants können Sie lokale ägäische Köstlichkeiten probieren und die friedliche Aussicht auf die Bucht genießen. Kizkumu ist auch ein unverzichtbarer Halt für Bootstouren und Tagesausflüge ab Marmaris.\n\nDer Strand bietet einzigartige Fotomotive und ist aufgrund seiner flachen Struktur besonders sicher und ideal für Familien mit Kindern. Der Kizkumu-Strand ist ein absolutes Muss bei Reisen nach Marmaris und Orhaniye und bietet Besuchern eine perfekte Kombination aus Natur, Legende und Meeresvergnügen."
+  },
+  "activities": {
+    "tr": [
+      "Deniz üzerinde yürümek",
+      "Yüzme",
+      "Fotoğrafçılık",
+      "Tekne turu"
+    ],
+    "en": [
+      "Walking on water",
+      "Swimming",
+      "Photography",
+      "Boat tour"
+    ],
+    "de": [
+      "Auf dem Wasser gehen",
+      "Schwimmen",
+      "Fotografie",
+      "Bootstour"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "plaj",
+      "doğal güzellik"
+    ],
+    "en": [
+      "beach",
+      "natural wonder"
+    ],
+    "de": [
+      "Strand",
+      "Naturwunder"
+    ]
+  },
+  "images": [
+    "https://example.com/kizkumu_plaji.jpg",
+    "https://example.com/kizkumu_plaji_2.jpg"
+  ]
+},
+{
+  "slug": "delikliyol-koyu",
+  "name": {
+    "tr": "Delikliyol Koyu",
+    "en": "Delikliyol Bay",
+    "de": "Delikliyol Bucht"
+  },
+  "latitude": 36.68055,
+  "longitude": 27.56842,
+  "description": {
+    "tr": "Delikliyol Koyu, Muğla’nın Datça yarımadasında yer alan, kitle turizminden uzak kalmayı başarmış ve doğallığını tamamen korumuş saklı bir cennettir. Adını, koyun çevresindeki kayalık yapılarda bulunan doğal aşınmalar ve geçitlerden alan bu özel bölge, sakinlik ve huzur arayan seyahat severlerin gizli rotalarından biridir. Berrak, akvaryum netliğindeki denizi ve el değmemiş doğasıyla büyüleyici bir atmosfere sahiptir.\n\nKoya ulaşım virajlı ve patika yollardan sağlandığı için burası Datça'nın en sakin koylarından biri olarak kalmıştır. Çevresindeki zeytin ve çam ağaçları, turkuaz tonlarındaki denizle birleşerek kartpostal benzeri manzaralar sunar. Deniz tabanının taşlık yapısı sayesinde su her zaman son derece temiz ve net olup, şnorkelle dalış yapmak ve su altı yaşamını gözlemlemek isteyenler için mükemmel bir ortam sunar.\n\nDelikliyol Koyu'nda herhangi bir ticari işletme, şezlong veya şemsiye hizmeti bulunmamaktadır. Bu durum, koyun bakir kalmasını sağlarken, ziyaretçilerin hazırlıklı gelmesini gerektirir. Doğayla baş başa kalmak, kalabalıklardan kaçmak ve yıldızların altında huzurlu bir kamp deneyimi yaşamak isteyen doğa tutkunları için Datça'da mutlaka keşfedilmesi gereken çok özel bir noktadır.",
+    "en": "Delikliyol Bay is a hidden paradise on Muğla's Datça Peninsula that has managed to stay away from mass tourism and completely preserve its natural state. Named after the natural erosions and passages in the rocky structures surrounding it, this special area is a secret route for travelers seeking tranquility and peace. It has a captivating atmosphere with its crystal-clear, aquarium-like sea and untouched nature.\n\nSince access to the bay is provided through winding and path roads, it has remained one of the quietest bays in Datça. The surrounding olive and pine trees combine with the turquoise sea to offer postcard-like views. Thanks to the pebbly structure of the sea floor, the water is always extremely clean and clear, providing a perfect environment for snorkeling and observing underwater life.\n\nThere are no commercial enterprises, sunbeds, or umbrella services in Delikliyol Bay. While this ensures that the bay remains pristine, it requires visitors to come prepared. It is a very special spot that must be discovered in Datça for nature enthusiasts who want to be alone with nature, escape the crowds, and have a peaceful camping experience under the stars.",
+    "de": "Die Delikliyol-Bucht ist ein verstecktes Paradies auf der Datça-Halbinsel in Muğla, dem es gelungen ist, vom Massentourismus verschont zu bleiben und seine Natürlichkeit vollständig zu bewahren. Benannt nach den natürlichen Abnutzungen und Durchgängen in den umliegenden Felsstrukturen, ist diese besondere Region eine geheime Route für Reisende, die Ruhe und Frieden suchen. Sie besticht durch eine faszinierende Atmosphäre mit ihrem kristallklaren, aquariumähnlichen Meer und der unberührten Natur.\n\nDa der Zugang zur Bucht über kurvige Pfade erfolgt, ist sie eine der ruhigsten Buchten in Datça geblieben. Die umliegenden Oliven- und Pinienbäume verbinden sich mit dem türkisfarbenen Meer und bieten postkartenreife Aussichten. Dank der kieseligen Struktur des Meeresbodens ist das Wasser immer extrem sauber und klar und bietet eine perfekte Umgebung zum Schnorcheln und Beobachten der Unterwasserwelt.\n\nIn der Delikliyol-Bucht gibt es keine kommerziellen Betriebe, Liegestühle oder Sonnenschirme. Dies sorgt zwar dafür, dass die Bucht unberührt bleibt, erfordert jedoch, dass Besucher vorbereitet anreisen. Es ist ein ganz besonderer Ort in Datça, den Naturliebhaber unbedingt entdecken sollten, die mit der Natur allein sein, den Massen entfliehen und ein friedliches Campingerlebnis unter den Sternen genießen möchten."
+  },
+  "activities": {
+    "tr": [
+      "Şnorkelle dalış",
+      "Yüzme",
+      "Doğa kampı",
+      "Kafa dinleme"
+    ],
+    "en": [
+      "Snorkeling",
+      "Swimming",
+      "Wild camping",
+      "Relaxing"
+    ],
+    "de": [
+      "Schnorcheln",
+      "Schwimmen",
+      "Wildcampen",
+      "Entspannen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "koy",
+      "bakir koy"
+    ],
+    "en": [
+      "cove",
+      "pristine bay"
+    ],
+    "de": [
+      "Bucht",
+      "unberührte Bucht"
+    ]
+  },
+  "images": [
+    "https://example.com/delikliyol_koyu.jpg",
+    "https://example.com/delikliyol_koyu_2.jpg"
+  ]
+},
+{
+  "slug": "amintas-kaya-mezarlari",
+  "name": {
+    "tr": "Amintas Kaya Mezarları",
+    "en": "Tomb of Amyntas",
+    "de": "Amyntas Felsengrab"
+  },
+  "latitude": 36.61944,
+  "longitude": 29.11778,
+  "description": {
+    "tr": "Amintas Kaya Mezarları, Muğla’nın Fethiye ilçesinde yer alan ve antik Telmessos kentinden günümüze ulaşan en görkemli yapılardan biridir. M.Ö. 4. yüzyılda, Likya döneminde inşa edilen bu mezarlar, doğrudan dik kayalıkların oyulmasıyla yapılmıştır. Bölgenin en sembolik yapılarından biri olan ve adını üzerinde yer alan 'Hermapias oğlu Amintas' ibaresinden alan bu anıt mezar, her yıl binlerce tarih ve kültür meraklısını ağırlar.\n\nMezarların en büyüğü ve en dikkat çekeni olan Amintas Mezarı, İon düzeninde iki sütunlu bir tapınak cephesine sahiptir. Kayaların içerisine titizlikle işlenmiş olan bu mimari harika, antik dönemin işçiliğini ve Likya kültürünün ölü gömme geleneklerini en iyi yansıtan örneklerden biridir. Dik merdivenleri tırmanarak anıtın yanına ulaşan ziyaretçiler, hem bu tarihi dokuya yakından dokunma hem de Fethiye körfezinin ve şehrinin kesintisiz manzarasını izleme fırsatı bulurlar.\n\nÖzellikle gün batımı saatlerinde kayaların üzerine düşen ışık, mezarlara mistik ve büyüleyici bir atmosfer kazandırır. Fethiye şehir merkezine oldukça yakın bir konumda bulunan Amintas Kaya Mezarları, Likya Yolu rotasında seyahat edenlerin ve Muğla'nın köklü tarihini keşfetmek isteyenlerin mutlaka ziyaret etmesi gereken açık hava müzelerinden biridir.",
+    "en": "The Tomb of Amyntas is one of the most magnificent structures surviving from the ancient city of Telmessos, located in the Fethiye district of Muğla. Built in the 4th century BC during the Lycian period, these tombs were carved directly into the sheer rock cliffs. Named after the inscription 'Amyntas, son of Hermapias' found on it, this monumental tomb is one of the most symbolic structures in the region and hosts thousands of history and culture enthusiasts every year.\n\nThe largest and most striking of the tombs, the Tomb of Amyntas, features a temple facade with two columns in the Ionic order. Meticulously carved into the rocks, this architectural marvel is one of the best examples reflecting ancient craftsmanship and the burial traditions of Lycian culture. Visitors climbing the steep stairs to reach the monument get the chance to experience this historical texture up close and enjoy an uninterrupted view of Fethiye Bay and the city.\n\nEspecially during sunset, the light falling on the rocks gives the tombs a mystical and captivating atmosphere. Located very close to Fethiye city center, the Amyntas Rock Tombs are a must-visit open-air museum for those traveling along the Lycian Way route and wishing to explore Muğla's deep-rooted history.",
+    "de": "Das Amyntas-Felsengrab ist eines der prächtigsten Bauwerke, die von der antiken Stadt Telmessos im Bezirk Fethiye in Muğla erhalten geblieben sind. Diese Gräber wurden im 4. Jahrhundert v. Chr. während der lykischen Zeit direkt in die steilen Felswände gemeißelt. Benannt nach der darauf befindlichen Inschrift 'Amyntas, Sohn des Hermapias', ist dieses Monumentalgrab eines der symbolträchtigsten Bauwerke der Region und zieht jedes Jahr Tausende von Geschichts- und Kulturinteressierten an.\n\nDas größte und auffälligste der Gräber, das Amyntas-Grab, weist eine Tempelfassade mit zwei Säulen in ionischer Ordnung auf. Dieses akribisch in den Fels gehauene architektonische Wunderwerk ist eines der besten Beispiele für die antike Handwerkskunst und die Bestattungstraditionen der lykischen Kultur. Besucher, die die steilen Stufen zum Monument hinaufsteigen, haben die Möglichkeit, diese historische Textur hautnah zu erleben und einen ununterbrochenen Blick auf die Bucht von Fethiye und die Stadt zu genießen.\n\nBesonders im Sonnenuntergang verleiht das auf die Felsen fallende Licht den Gräbern eine mystische und faszinierende Atmosphäre. Die Amyntas-Felsengräber liegen ganz in der Nähe des Stadtzentrums von Fethiye und sind ein absolutes Muss für alle, die auf dem Lykischen Weg reisen und die tief verwurzelte Geschichte von Muğla entdecken möchten."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi gezi",
+      "Fotoğrafçılık",
+      "Gün batımı izleme",
+      "Şehir manzarasını seyretme"
+    ],
+    "en": [
+      "Historical sightseeing",
+      "Photography",
+      "Watching the sunset",
+      "Viewing the city landscape"
+    ],
+    "de": [
+      "Historische Besichtigung",
+      "Fotografie",
+      "Sonnenuntergang beobachten",
+      "Stadtpanorama genießen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi mekan",
+      "antik kent",
+      "anıt mezar"
+    ],
+    "en": [
+      "historical site",
+      "ancient city",
+      "monumental tomb"
+    ],
+    "de": [
+      "historische Stätte",
+      "antike Stadt",
+      "Monumentalgrab"
+    ]
+  },
+  "images": [
+    "https://example.com/amintas_kaya_mezarlari.jpg",
+    "https://example.com/amintas_kaya_mezarlari_2.jpg"
+  ]
+},
+{
+    "slug": "giynap-koyu",
+    "name": {
+      "tr": "Gıynap Koyu",
+      "en": "Gıynap Bay",
+      "de": "Gıynap Bucht"
+    },
+    "latitude": 36.68248,
+    "longitude": 27.39006,
+    "description": {
+      "tr": "Gıynap Koyu, Muğla’nın Datça yarımadasında yer alan ve bölgenin en güzel doğal alanlarından biri olarak kabul edilen etkileyici bir koydur. Sakin atmosferi, berrak ve temiz denizi ile hem yerli hem de yabancı turistlerin ilgisini çeker. Koy, doğa tutkunları, kampçılar ve deniz sporları ile ilgilenen ziyaretçiler için ideal bir destinasyondur.\n\nGıynap Koyu’nun etrafındaki doğal yürüyüş yolları, ziyaretçilere hem deniz manzarası hem de çevredeki bitki örtüsünü keşfetme imkanı sunar. Yürüyüş sırasında sahilin doğal yapısı, kaya oluşumları ve nadir bitki türleri gözlemlenebilir. Özellikle yaz aylarında, koyun sakinliği ve temiz suyu, yüzme ve dinlenme için mükemmel koşullar sağlar.\n\nKoyda kamp yapmak isteyenler için uygun alanlar bulunmaktadır. Çadır kurmak ve doğa ile iç içe zaman geçirmek isteyenler, Gıynap Koyu’nun sunduğu huzurlu ortamdan faydalanabilirler. Ayrıca koy, fotoğrafçılar için doğal ışık ve deniz manzarası ile eşsiz kareler yakalama fırsatı sunar.\n\nGıynap Koyu, çevresindeki doğal yaşam ve temiz denizi ile ekoturizm açısından da önemli bir alan oluşturur. Kuş gözlemi yapmak, sahil boyunca yürüyüş yapmak ve doğanın tadını çıkarmak için ideal bir noktadır. Bölge, hem dinlenme hem de doğa keşfi yapmak isteyenler için unutulmaz bir deneyim sunar.\n\nDatça gezileri sırasında Gıynap Koyu, ziyaret edilmesi gereken özel yerlerden biridir. Tarih, doğa ve deniz keyfini bir arada sunan koy, ziyaretçilerine unutulmaz bir deneyim yaşatır ve bölgenin doğal güzelliklerini yakından keşfetme imkanı verir.\n",
+      "en": "Gıynap Bay is an impressive bay located on the Datça Peninsula in Muğla, considered one of the most beautiful natural areas of the region. Famous for its tranquil atmosphere and clear, clean waters, it attracts both local and international tourists. The bay is an ideal destination for nature enthusiasts, campers, and visitors interested in water sports.\n\nThe natural walking trails around Gıynap Bay offer visitors the chance to enjoy sea views and explore the surrounding vegetation. Along the walks, visitors can observe the natural formations of the shore, rock structures, and rare plant species. Especially in summer, the bay’s calmness and clear waters provide perfect conditions for swimming and relaxation.\n\nThere are suitable areas for camping in the bay. Visitors wishing to set up tents and spend time immersed in nature can benefit from the peaceful environment of Gıynap Bay. Additionally, the bay offers photographers opportunities to capture unique shots with natural light and sea views.\n\nGıynap Bay also holds significance for ecotourism due to its natural surroundings and clean waters. It is an ideal spot for birdwatching, coastal walks, and enjoying nature. The area provides an unforgettable experience for those seeking both relaxation and nature exploration.\n\nDuring trips to Datça, Gıynap Bay is one of the special places that must be visited. Combining history, nature, and sea enjoyment, the bay offers visitors an unforgettable experience and the chance to explore the natural beauty of the region up close.\n",
+      "de": "Die Gıynap Bucht ist eine beeindruckende Bucht auf der Datça-Halbinsel in Muğla und gilt als eines der schönsten Naturgebiete der Region. Berühmt für ihre ruhige Atmosphäre und das klare, saubere Wasser, zieht sie sowohl einheimische als auch internationale Touristen an. Die Bucht ist ein ideales Ziel für Naturliebhaber, Camper und Besucher, die sich für Wassersport interessieren.\n\nDie natürlichen Wanderwege rund um die Gıynap-Bucht bieten den Besuchern die Möglichkeit, den Meerblick zu genießen und die umliegende Vegetation zu erkunden. Auf den Wanderungen können Besucher die natürliche Struktur der Küste, Felsformationen und seltene Pflanzenarten beobachten. Besonders im Sommer bieten die Ruhe und das klare Wasser der Bucht ideale Bedingungen zum Schwimmen und Entspannen.\n\nIn der Bucht gibt es geeignete Flächen zum Campen. Besucher, die Zelte aufstellen und Zeit in der Natur verbringen möchten, können die friedliche Umgebung der Gıynap-Bucht nutzen. Außerdem bietet die Bucht Fotografen die Möglichkeit, einzigartige Aufnahmen mit natürlichem Licht und Meerblick zu machen.\n\nDie Gıynap-Bucht ist auch aufgrund ihrer natürlichen Umgebung und des sauberen Wassers für den Ökotourismus von Bedeutung. Sie ist ein idealer Ort zur Vogelbeobachtung, für Spaziergänge entlang der Küste und zum Genießen der Natur. Das Gebiet bietet ein unvergessliches Erlebnis für alle, die sowohl Entspannung als auch Naturerlebnis suchen.\n\nWährend Reisen nach Datça ist die Gıynap-Bucht einer der besonderen Orte, die unbedingt besucht werden sollten. Geschichte, Natur und Meeresgenuss vereint, bietet die Bucht den Besuchern ein unvergessliches Erlebnis und die Möglichkeit, die natürliche Schönheit der Region hautnah zu entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Denize girmek",
+        "Yürüyüş yapmak",
+        "Kamp yapmak"
+      ],
+      "en": [
+        "Swimming",
+        "Walking",
+        "Camping"
+      ],
+      "de": [
+        "Schwimmen",
+        "Wandern",
+        "Campen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "koy"
+      ],
+      "en": [
+        "cove"
+      ],
+      "de": [
+        "Bucht"
+      ]
+    },
+    "images": [
+      "https://example.com/gynap_koyu.jpg",
+      "https://example.com/gynap_koyu_2.jpg"
     ]
   },
   {
@@ -376,53 +792,7 @@
       "https://example.com/ballisu_koyu_2.jpg"
     ]
   },
-  {
-    "slug": "inbuku-koyu",
-    "name": {
-      "tr": "İnbükü Koyu",
-      "en": "İnbükü Bay",
-      "de": "İnbükü Bucht"
-    },
-    "latitude": 36.79733,
-    "longitude": 28.08371,
-    "description": {
-      "tr": "İnbükü Koyu, Muğla’nın Datça ilçesinde yer alan ve bölgenin en güzel koylarından biri olarak bilinen özel bir destinasyondur. Sakinliği, berrak ve temiz denizi ile ziyaretçilere huzurlu bir ortam sunar. Koy, aynı zamanda yemyeşil doğasıyla doğa severler ve fotoğrafçılar için eşsiz bir deneyim alanı oluşturur.\n\nİnbükü Koyu’nun çevresinde yürüyüş yapabileceğiniz doğal patikalar bulunmaktadır. Bu yollar boyunca ziyaretçiler, sahilin ve çevresindeki bitki örtüsünün güzelliklerini keşfedebilir. Denizin mavisi, çam ormanları ve temiz hava, özellikle yaz aylarında dinlenmek ve doğayla baş başa vakit geçirmek isteyenler için idealdir.\n\nKoy, su sporları ve dalış meraklıları için de mükemmel bir noktadır. Ziyaretçiler berrak sularında yüzebilir, su altı yaşamını gözlemleyebilir ve doğanın tadını çıkarabilirler. Ayrıca İnbükü Koyu, fotoğrafçılar için doğal ışık ve manzaralar sunarak unutulmaz kareler yakalama fırsatı verir.\n\nEkoturizm açısından önemli bir alan olan İnbükü Koyu, doğa ile iç içe vakit geçirmek isteyen ziyaretçilere yürüyüş, kuş gözlemi ve doğa keşfi gibi aktiviteler için uygun imkanlar sağlar. Bölgenin flora ve faunasını gözlemlemek, doğa tutkunları için unutulmaz bir deneyim oluşturur.\n\nDatça gezileri sırasında İnbükü Koyu, mutlaka ziyaret edilmesi gereken duraklardan biridir. Hem doğa, hem deniz hem de huzur arayan ziyaretçilere eşsiz bir deneyim sunar ve bölgenin doğal güzelliklerini yakından keşfetme imkanı verir.\n",
-      "en": "İnbükü Bay, located in the Datça district of Muğla, is one of the most beautiful bays in the region. Famous for its tranquility and clear waters, it offers visitors a peaceful environment. The bay also attracts nature lovers and photographers with its lush greenery, providing a unique experience.\n\nNatural walking trails around İnbükü Bay allow visitors to explore the coastal beauty and surrounding vegetation. Along these paths, the blue waters, pine forests, and fresh air create an ideal setting for relaxation and spending time immersed in nature, especially during summer.\n\nThe bay is also an excellent spot for water sports and diving enthusiasts. Visitors can swim in its clear waters, observe underwater life, and enjoy the natural surroundings. İnbükü Bay also offers photographers opportunities to capture unforgettable shots with natural light and scenic views.\n\nSignificant for ecotourism, İnbükü Bay provides visitors with hiking, birdwatching, and nature exploration opportunities. Observing the local flora and fauna creates an unforgettable experience for nature enthusiasts.\n\nDuring trips to Datça, İnbükü Bay is a must-visit destination. It offers a unique experience for visitors seeking nature, sea, and tranquility, allowing them to closely explore the natural beauty of the region.\n",
-      "de": "Die İnbükü Bucht, gelegen im Bezirk Datça in Muğla, ist eine der schönsten Buchten der Region. Berühmt für ihre Ruhe und das klare Wasser, bietet sie den Besuchern eine friedliche Umgebung. Die Bucht zieht zudem Naturliebhaber und Fotografen mit ihrem üppigen Grün an und bietet ein einzigartiges Erlebnis.\n\nNatürliche Wanderwege rund um die İnbükü-Bucht ermöglichen es den Besuchern, die Küstenlandschaft und die umliegende Vegetation zu erkunden. Entlang dieser Wege schaffen das blaue Wasser, die Kiefernwälder und die frische Luft eine ideale Umgebung für Entspannung und Zeit in der Natur, besonders im Sommer.\n\nDie Bucht ist auch ein hervorragender Ort für Wassersport- und Tauchbegeisterte. Besucher können im klaren Wasser schwimmen, das Unterwasserleben beobachten und die natürliche Umgebung genießen. Die İnbükü-Bucht bietet Fotografen zudem Möglichkeiten, unvergessliche Aufnahmen mit natürlichem Licht und malerischen Ausblicken zu machen.\n\nDie İnbükü-Bucht ist auch für den Ökotourismus von Bedeutung und bietet Wander-, Vogelbeobachtungs- und Naturerlebnis-Möglichkeiten für Besucher, die die Natur hautnah erleben möchten. Die Beobachtung der örtlichen Flora und Fauna schafft ein unvergessliches Erlebnis für Naturliebhaber.\n\nBei Reisen nach Datça ist die İnbükü-Bucht ein Muss. Sie bietet Besuchern, die Natur, Meer und Ruhe suchen, ein einzigartiges Erlebnis und ermöglicht es ihnen, die natürliche Schönheit der Region hautnah zu entdecken.\n"
-    },
-    "activities": {
-      "tr": [
-        "Denize girmek ve güneşlenmek",
-        "Doğa yürüyüşü yapmak",
-        "Kamp yapmak"
-      ],
-      "en": [
-        "Swimming and Sunbathing",
-        "Nature Walks",
-        "Camping"
-      ],
-      "de": [
-        "Schwimmen und Sonnenbaden",
-        "Wanderungen in der Natur",
-        "Campen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "koy"
-      ],
-      "en": [
-        "cove"
-      ],
-      "de": [
-        "Bucht"
-      ]
-    },
-    "images": [
-      "https://example.com/inbuku_koyu.jpg",
-      "https://example.com/inbuku_koyu_2.jpg"
-    ]
-  },
+  
   {
     "slug": "baglarozu-sahili",
     "name": {
@@ -564,53 +934,7 @@
       "https://example.com/perili_kosk_sahili_2.jpg"
     ]
   },
-  {
-    "slug": "yassi-adasi",
-    "name": {
-      "tr": "Yassı Adası",
-      "en": "Yassı Island",
-      "de": "Yassı Insel"
-    },
-    "latitude": 36.75283,
-    "longitude": 27.76213,
-    "description": {
-      "tr": "Yassı Adası, Muğla’nın Datça ilçesinde yer alan ve bölgenin sakin adalarından biri olarak bilinen özel bir destinasyondur. Berrak ve temiz suları, çevresindeki doğal güzellikleri ile ziyaretçilere huzurlu bir deneyim sunar. Adanın sessizliği ve doğal ortamı, deniz tutkunları ve doğa severler için mükemmel bir kaçış noktasıdır.\n\nYassı Adası çevresinde yüzme, şnorkelle dalış ve deniz keşfi gibi aktiviteler yapılabilir. Ziyaretçiler adanın berrak sularında yüzebilir, su altındaki yaşamı gözlemleyebilir ve doğal güzelliklerin tadını çıkarabilirler. Özellikle yaz aylarında, adanın sakinliği ve temiz havası, kalabalıktan uzak huzurlu bir tatil arayanlar için idealdir.\n\nAda, doğa yürüyüşleri ve fotoğrafçılık için de uygundur. Çevresindeki doğal patikalar ve taşlık alanlar, adayı keşfetmek isteyenler için eşsiz fırsatlar sunar. Berrak deniz, güneş ışığı ve doğal manzaralar, unutulmaz kareler yakalamak isteyen fotoğrafçılar için benzersiz sahneler oluşturur.\n\nEkoturizm açısından önemli olan Yassı Adası, doğa ile baş başa kalmak isteyen ziyaretçilere piknik, kuş gözlemi ve doğa keşfi gibi aktiviteler için imkan sağlar. Bölgenin flora ve faunasını gözlemlemek, doğa tutkunları için unutulmaz bir deneyim sunar.\n\nDatça gezileri sırasında Yassı Adası, mutlaka ziyaret edilmesi gereken duraklardan biridir. Hem doğa, hem deniz hem de sakin bir atmosfer arayan ziyaretçilere eşsiz bir deneyim sunar ve bölgenin doğal güzelliklerini yakından keşfetme fırsatı verir.\n",
-      "en": "Yassı Island, located in the Datça district of Muğla, is one of the region’s peaceful islands. Known for its clear waters and natural beauty, it offers visitors a tranquil experience. The island’s calmness and natural environment make it a perfect getaway for sea lovers and nature enthusiasts.\n\nAround Yassı Island, activities such as swimming, snorkeling, and exploring the sea can be enjoyed. Visitors can swim in its clear waters, observe underwater life, and enjoy the natural surroundings. Especially in summer, the island’s tranquility and clean air make it ideal for those seeking a peaceful holiday away from crowds.\n\nThe island is also suitable for nature walks and photography. Natural trails and rocky areas around the island provide unique opportunities for exploration. Clear waters, sunlight, and natural scenery create unforgettable scenes for photographers looking to capture memorable shots.\n\nSignificant for ecotourism, Yassı Island offers visitors opportunities for picnicking, birdwatching, and nature exploration. Observing the local flora and fauna provides an unforgettable experience for nature lovers.\n\nDuring trips to Datça, Yassı Island is a must-visit destination. It provides a unique experience for visitors seeking nature, sea, and a peaceful atmosphere, allowing them to closely explore the region’s natural beauty.\n",
-      "de": "Die Yassı Insel, gelegen im Bezirk Datça in Muğla, ist eine der ruhigen Inseln der Region. Bekannt für ihr klares Wasser und ihre natürliche Schönheit, bietet sie den Besuchern ein friedliches Erlebnis. Die Ruhe und natürliche Umgebung der Insel machen sie zu einem perfekten Rückzugsort für Meerliebhaber und Naturliebhaber.\n\nRund um die Yassı Insel können Aktivitäten wie Schwimmen, Schnorcheln und Erkundung des Meeres unternommen werden. Besucher können im klaren Wasser schwimmen, das Unterwasserleben beobachten und die natürliche Umgebung genießen. Besonders im Sommer ist die Ruhe und die saubere Luft der Insel ideal für alle, die einen ruhigen Urlaub abseits von Menschenmassen suchen.\n\nDie Insel eignet sich auch für Naturwanderungen und Fotografie. Natürliche Wege und felsige Gebiete rund um die Insel bieten einzigartige Möglichkeiten zur Erkundung. Klare Gewässer, Sonnenlicht und natürliche Landschaften schaffen unvergessliche Szenen für Fotografen, die besondere Aufnahmen machen möchten.\n\nFür den Ökotourismus von Bedeutung bietet die Yassı Insel Besuchern Möglichkeiten zum Picknicken, Vogelbeobachten und Naturerkunden. Die Beobachtung der örtlichen Flora und Fauna bietet Naturliebhabern ein unvergessliches Erlebnis.\n\nBei Reisen nach Datça ist die Yassı Insel ein Muss. Sie bietet Besuchern, die Natur, Meer und eine ruhige Atmosphäre suchen, ein einzigartiges Erlebnis und ermöglicht es, die natürliche Schönheit der Region hautnah zu entdecken.\n"
-    },
-    "activities": {
-      "tr": [
-        "Adada yürüyüş yapmak",
-        "Denize girmek",
-        "Tekneyle gezinti yapmak"
-      ],
-      "en": [
-        "Walking on the Island",
-        "Swimming",
-        "Boat Tours"
-      ],
-      "de": [
-        "Spaziergänge auf der Insel",
-        "Schwimmen",
-        "Bootstouren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "ada"
-      ],
-      "en": [
-        "island"
-      ],
-      "de": [
-        "insel"
-      ]
-    },
-    "images": [
-      "https://example.com/ayak_adasi.jpg",
-      "https://example.com/ayak_adasi_2.jpg"
-    ]
-  },
+ 
   {
     "slug": "kille-koyu",
     "name": {
@@ -1042,49 +1366,7 @@
       "https://example.com/yediler_manastiri_view.jpg"
     ]
   },
-  {
-    "slug": "oludeniz",
-    "name": {
-      "tr": "Ölüdeniz",
-      "en": "Ölüdeniz",
-      "de": "Ölüdeniz"
-    },
-    "latitude": 36.55105,
-    "longitude": 29.11543,
-    "description": {
-      "tr": "Ölüdeniz, Muğla’nın Fethiye ilçesinde yer alan ve Türkiye’nin en ünlü plajlarından biri olarak bilinen doğal bir cennet köşesidir. Berrak turkuaz rengi denizi ve çevresini saran yemyeşil ormanlarla ünlüdür. Lagün biçimindeki denizi, dalgasız ve sığ oluşu nedeniyle özellikle aileler ve yüzme meraklıları için ideal bir ortam sunar. Ölüdeniz, sadece deniz turizmi değil, aynı zamanda yamaç paraşütü gibi macera sporlarıyla da ünlüdür; Babadağ’dan yapılan tandem uçuşlar ziyaretçilere eşsiz bir panoramik manzara sunar. Plaj boyunca çok sayıda kafe, restoran, butik otel ve su sporları merkezi bulunur. Ziyaretçiler, hem güneşlenme hem de çeşitli su sporları aktivitelerine katılabilirler. Gün batımı manzaraları, fotoğrafçılar ve doğa tutkunları için unutulmaz kareler sunar. Ölüdeniz çevresindeki yürüyüş parkurları ve doğa yolları, bölgenin florası ve faunası hakkında bilgi edinmek isteyenler için idealdir. Ayrıca çevredeki butik mağazalar ve pazarlarda yöresel ürünler ve hediyelik eşyalar bulmak mümkündür. Ölüdeniz, hem yerli hem de yabancı turistler tarafından yoğun ilgi görmektedir ve bölge ekonomisine önemli katkı sağlamaktadır. Ziyaretçiler, lagün boyunca kısa tekne turlarına katılarak çevredeki koyları ve doğal güzellikleri keşfedebilirler. Bölgenin güvenliği ve temizliği, belediye ve işletmeler tarafından düzenli olarak sağlanmaktadır; cankurtaran hizmetleri sayesinde güvenli bir deniz deneyimi sunulur. Ölüdeniz, hem dinlenme hem de doğa ve macera aktiviteleri için Türkiye’nin en çok tercih edilen destinasyonlarından biridir ve Fethiye gezisinin vazgeçilmez noktalarından biri olarak öne çıkar. Burada geçirilen zaman, ziyaretçilere hem huzurlu bir tatil deneyimi hem de doğayla iç içe unutulmaz anılar sunar.",
-      "en": "Ölüdeniz, located in Fethiye, Muğla, Turkey, is one of the country’s most famous and stunning beaches. Known for its crystal-clear turquoise waters and surrounding lush green forests, it is considered a natural paradise. Its lagoon-like formation, calm and shallow waters make it ideal for families and swimming enthusiasts. Beyond traditional beach activities, Ölüdeniz is renowned for adventure sports, particularly paragliding from Babadağ, offering visitors breathtaking panoramic views. The beach is lined with numerous cafes, restaurants, boutique hotels, and water sports centers, allowing visitors to sunbathe, swim, and participate in a wide range of water activities. The area is famous for its unforgettable sunsets, providing perfect photography opportunities for nature lovers. Walking trails and nature paths around Ölüdeniz allow visitors to explore local flora and fauna. Additionally, nearby markets and boutiques offer local products and souvenirs. Ölüdeniz attracts both domestic and international tourists and plays a significant role in the local economy. Visitors can take short boat tours along the lagoon to discover surrounding coves and natural beauty. Safety and cleanliness are maintained by local authorities and businesses, and lifeguard services ensure a secure beach experience. Ölüdeniz is one of Turkey’s most preferred destinations for relaxation, adventure, and nature activities, making it a must-visit spot on any Fethiye itinerary. Time spent here offers both a peaceful retreat and unforgettable moments in harmony with nature.",
-      "de": "Ölüdeniz, gelegen in Fethiye, Muğla, Türkei, ist einer der bekanntesten und atemberaubendsten Strände des Landes. Berühmt für sein kristallklares türkisfarbenes Wasser und die umliegenden grünen Wälder, gilt es als ein natürliches Paradies. Die lagunenartige Form des Strandes mit ruhigem und flachem Wasser macht ihn besonders für Familien und Schwimmbegeisterte ideal. Über die klassischen Strandaktivitäten hinaus ist Ölüdeniz für Abenteuer- und Extremsportarten bekannt, insbesondere für Paragliding vom Babadağ, das Besuchern spektakuläre Panoramablicke bietet. Der Strand ist gesäumt von zahlreichen Cafés, Restaurants, Boutique-Hotels und Wassersportzentren, die Möglichkeiten zum Sonnenbaden, Schwimmen und zur Teilnahme an verschiedenen Wassersportaktivitäten bieten. Die Gegend ist berühmt für ihre unvergesslichen Sonnenuntergänge und bietet perfekte Fotomotive für Naturliebhaber. Wanderwege und Naturpfade rund um Ölüdeniz ermöglichen es Besuchern, die lokale Flora und Fauna zu erkunden. In den nahegelegenen Märkten und Boutiquen können lokale Produkte und Souvenirs erworben werden. Ölüdeniz zieht sowohl einheimische als auch internationale Touristen an und leistet einen wichtigen Beitrag zur lokalen Wirtschaft. Besucher können kurze Bootstouren entlang der Lagune unternehmen, um die umliegenden Buchten und Naturschönheiten zu entdecken. Sicherheit und Sauberkeit werden von den lokalen Behörden und Betrieben gewährleistet, und Rettungsschwimmer sorgen für ein sicheres Strand-Erlebnis. Ölüdeniz ist eines der beliebtesten Reiseziele in der Türkei für Entspannung, Abenteuer und Naturerlebnisse und gehört zu den unverzichtbaren Sehenswürdigkeiten einer Reise nach Fethiye. Der Aufenthalt hier bietet sowohl eine friedliche Auszeit als auch unvergessliche Momente inmitten der Natur."
-    },
-    "activities": {
-      "tr": [
-        "Plajda dinlenmek",
-        "Paraşütle atlamak"
-      ],
-      "en": [
-        "Relax on the Beach",
-        "Paragliding"
-      ],
-      "de": [
-        "Am Strand entspannen",
-        "Fallschirmspringen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "plaj"
-      ],
-      "en": [
-        "beach"
-      ],
-      "de": [
-        "Strand"
-      ]
-    },
-    "images": [
-      "https://example.com/oludeniz.jpg"
-    ]
-  },
+  
   {
     "slug": "marmaris-milli-parki",
     "name": {

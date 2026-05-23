@@ -85,7 +85,51 @@
       "https://example.com/kars_kalesi.jpg"
     ]
   },
+  
   {
+    "slug": "cildir-golu",
+    "name": {
+      "tr": "Çıldır Gölü",
+      "en": "Çıldır Lake",
+      "de": "Çıldır See"
+    },
+    "latitude": 41.04593532626912,
+    "longitude": 43.23866642507363,
+    "description": {
+      "tr": "Çıldır Gölü, Türkiye'nin doğusunda, Ardahan ve Kars illeri arasında yer alan ve doğal güzelliği ile öne çıkan en etkileyici göllerden biridir. Özellikle kış aylarında tamamen donarak eşsiz bir manzara sunan Çıldır Gölü, Türkiye'de donan nadir büyük göllerden biri olmasıyla dikkat çeker. Kış mevsiminde göl yüzeyinin kalın buz tabakası ile kaplanması, ziyaretçilere buz üzerinde yürüyüş yapma, atlı kızak gezintisi ve geleneksel buz balıkçılığı gibi farklı deneyimler sunar. Bu özelliği sayesinde Çıldır Gölü, kış turizmi açısından oldukça popüler bir destinasyon haline gelmiştir. Yaz aylarında ise göl çevresi yemyeşil doğası, temiz havası ve huzurlu atmosferi ile doğa severler için ideal bir kaçış noktasıdır. Göl etrafında yürüyüş yapmak, fotoğraf çekmek, piknik yapmak ve doğayla iç içe vakit geçirmek oldukça keyiflidir. Gün doğumu ve gün batımı saatlerinde gölün yüzeyine yansıyan ışıklar, ziyaretçilere görsel açıdan büyüleyici manzaralar sunar. Çıldır Gölü aynı zamanda zengin bir biyolojik çeşitliliğe sahiptir ve kuş gözlemciliği için de uygun bir alandır. Bölge, doğal yapısını büyük ölçüde korumuş olmasıyla dikkat çeker ve sakin atmosferi sayesinde kalabalıktan uzak bir deneyim sunar. Kars ve Ardahan şehir merkezlerine yakın konumda bulunan Çıldır Gölü, ulaşım açısından da oldukça elverişlidir ve günübirlik geziler için ideal bir rotadır. Özellikle kış aylarında düzenlenen etkinlikler ve festivaller, gölü daha da cazip hale getirmektedir. Sonuç olarak Çıldır Gölü, dört mevsim farklı güzellikler sunan, hem doğa hem de fotoğraf tutkunları için vazgeçilmez bir destinasyondur ve Türkiye'de mutlaka görülmesi gereken doğal yerler arasında yer almaktadır.",
+      "en": "Çıldır Lake is one of the most impressive natural attractions located in eastern Turkey, between the provinces of Ardahan and Kars. It is especially famous for freezing completely during the winter, offering a unique and breathtaking landscape. As one of the rare large lakes in Turkey that freeze over, Çıldır Lake provides visitors with extraordinary experiences such as walking on the frozen surface, horse-drawn sleigh rides, and traditional ice fishing. These features make it a popular destination for winter tourism. During the summer months, the lake transforms into a peaceful retreat surrounded by lush greenery, fresh air, and a calm natural environment. Visitors can enjoy walking around the lake, taking photos, having picnics, and relaxing in nature. The reflections of sunlight on the water during sunrise and sunset create stunning visual scenes that attract photographers and nature lovers. Çıldır Lake is also rich in biodiversity and is suitable for bird watching activities. The region has preserved its natural structure to a large extent and offers a quiet and uncrowded atmosphere for visitors seeking tranquility. Located close to both Kars and Ardahan city centers, the lake is easily accessible and ideal for day trips. Seasonal events and winter festivals held around the lake further enhance its appeal. In conclusion, Çıldır Lake is a must-visit destination in Turkey, offering different beauties in every season and providing an unforgettable experience for nature enthusiasts and travelers alike.",
+      "de": "Der Çıldır-See ist eine der beeindruckendsten Naturlandschaften im Osten der Türkei und liegt zwischen den Provinzen Ardahan und Kars. Besonders im Winter, wenn der See vollständig zufriert, bietet er eine einzigartige und faszinierende Aussicht. Als einer der wenigen großen Seen in der Türkei, die im Winter zufrieren, ermöglicht der Çıldır-See außergewöhnliche Aktivitäten wie Spaziergänge auf dem Eis, Fahrten mit Pferdeschlitten und traditionelles Eisfischen. Diese Besonderheiten machen ihn zu einem beliebten Ziel für den Wintertourismus. Im Sommer verwandelt sich die Region in ein ruhiges Naturparadies mit grünen Landschaften, frischer Luft und einer entspannten Atmosphäre. Besucher können rund um den See spazieren gehen, fotografieren, picknicken und die Natur genießen. Besonders bei Sonnenaufgang und Sonnenuntergang entstehen beeindruckende Spiegelungen auf der Wasseroberfläche. Der Çıldır-See zeichnet sich zudem durch eine reiche Tierwelt aus und eignet sich hervorragend für Vogelbeobachtungen. Die Region hat ihre natürliche Struktur weitgehend bewahrt und bietet eine ruhige Umgebung fernab von Menschenmassen. Dank seiner Nähe zu den Stadtzentren von Kars und Ardahan ist der See leicht erreichbar und ideal für Tagesausflüge. Veranstaltungen und Festivals im Winter machen den Ort zusätzlich attraktiv. Insgesamt ist der Çıldır-See ein unverzichtbares Reiseziel in der Türkei und bietet zu jeder Jahreszeit einzigartige Naturerlebnisse."
+    },
+    "activities": {
+      "tr": [
+        "Göl çevresinde yürüyüş",
+        "Doğa fotoğrafları çekme"
+      ],
+      "en": [
+        "Walk around the lake",
+        "Take nature photos"
+      ],
+      "de": [
+        "Am See spazieren gehen",
+        "Naturfotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/cildır_gölü.jpg"
+    ]
+  },
+{
     "slug": "sarikamis-kayak-merkezi",
     "name": {
       "tr": "Sarıkamış Kayak Merkezi",
@@ -169,49 +213,6 @@
     },
     "images": [
       "https://example.com/kars_muzesi.jpg"
-    ]
-  },
-  {
-    "slug": "cildir-golu",
-    "name": {
-      "tr": "Çıldır Gölü",
-      "en": "Çıldır Lake",
-      "de": "Çıldır See"
-    },
-    "latitude": 41.04593532626912,
-    "longitude": 43.23866642507363,
-    "description": {
-      "tr": "Çıldır Gölü, Türkiye'nin doğusunda, Ardahan ve Kars illeri arasında yer alan ve doğal güzelliği ile öne çıkan en etkileyici göllerden biridir. Özellikle kış aylarında tamamen donarak eşsiz bir manzara sunan Çıldır Gölü, Türkiye'de donan nadir büyük göllerden biri olmasıyla dikkat çeker. Kış mevsiminde göl yüzeyinin kalın buz tabakası ile kaplanması, ziyaretçilere buz üzerinde yürüyüş yapma, atlı kızak gezintisi ve geleneksel buz balıkçılığı gibi farklı deneyimler sunar. Bu özelliği sayesinde Çıldır Gölü, kış turizmi açısından oldukça popüler bir destinasyon haline gelmiştir. Yaz aylarında ise göl çevresi yemyeşil doğası, temiz havası ve huzurlu atmosferi ile doğa severler için ideal bir kaçış noktasıdır. Göl etrafında yürüyüş yapmak, fotoğraf çekmek, piknik yapmak ve doğayla iç içe vakit geçirmek oldukça keyiflidir. Gün doğumu ve gün batımı saatlerinde gölün yüzeyine yansıyan ışıklar, ziyaretçilere görsel açıdan büyüleyici manzaralar sunar. Çıldır Gölü aynı zamanda zengin bir biyolojik çeşitliliğe sahiptir ve kuş gözlemciliği için de uygun bir alandır. Bölge, doğal yapısını büyük ölçüde korumuş olmasıyla dikkat çeker ve sakin atmosferi sayesinde kalabalıktan uzak bir deneyim sunar. Kars ve Ardahan şehir merkezlerine yakın konumda bulunan Çıldır Gölü, ulaşım açısından da oldukça elverişlidir ve günübirlik geziler için ideal bir rotadır. Özellikle kış aylarında düzenlenen etkinlikler ve festivaller, gölü daha da cazip hale getirmektedir. Sonuç olarak Çıldır Gölü, dört mevsim farklı güzellikler sunan, hem doğa hem de fotoğraf tutkunları için vazgeçilmez bir destinasyondur ve Türkiye'de mutlaka görülmesi gereken doğal yerler arasında yer almaktadır.",
-      "en": "Çıldır Lake is one of the most impressive natural attractions located in eastern Turkey, between the provinces of Ardahan and Kars. It is especially famous for freezing completely during the winter, offering a unique and breathtaking landscape. As one of the rare large lakes in Turkey that freeze over, Çıldır Lake provides visitors with extraordinary experiences such as walking on the frozen surface, horse-drawn sleigh rides, and traditional ice fishing. These features make it a popular destination for winter tourism. During the summer months, the lake transforms into a peaceful retreat surrounded by lush greenery, fresh air, and a calm natural environment. Visitors can enjoy walking around the lake, taking photos, having picnics, and relaxing in nature. The reflections of sunlight on the water during sunrise and sunset create stunning visual scenes that attract photographers and nature lovers. Çıldır Lake is also rich in biodiversity and is suitable for bird watching activities. The region has preserved its natural structure to a large extent and offers a quiet and uncrowded atmosphere for visitors seeking tranquility. Located close to both Kars and Ardahan city centers, the lake is easily accessible and ideal for day trips. Seasonal events and winter festivals held around the lake further enhance its appeal. In conclusion, Çıldır Lake is a must-visit destination in Turkey, offering different beauties in every season and providing an unforgettable experience for nature enthusiasts and travelers alike.",
-      "de": "Der Çıldır-See ist eine der beeindruckendsten Naturlandschaften im Osten der Türkei und liegt zwischen den Provinzen Ardahan und Kars. Besonders im Winter, wenn der See vollständig zufriert, bietet er eine einzigartige und faszinierende Aussicht. Als einer der wenigen großen Seen in der Türkei, die im Winter zufrieren, ermöglicht der Çıldır-See außergewöhnliche Aktivitäten wie Spaziergänge auf dem Eis, Fahrten mit Pferdeschlitten und traditionelles Eisfischen. Diese Besonderheiten machen ihn zu einem beliebten Ziel für den Wintertourismus. Im Sommer verwandelt sich die Region in ein ruhiges Naturparadies mit grünen Landschaften, frischer Luft und einer entspannten Atmosphäre. Besucher können rund um den See spazieren gehen, fotografieren, picknicken und die Natur genießen. Besonders bei Sonnenaufgang und Sonnenuntergang entstehen beeindruckende Spiegelungen auf der Wasseroberfläche. Der Çıldır-See zeichnet sich zudem durch eine reiche Tierwelt aus und eignet sich hervorragend für Vogelbeobachtungen. Die Region hat ihre natürliche Struktur weitgehend bewahrt und bietet eine ruhige Umgebung fernab von Menschenmassen. Dank seiner Nähe zu den Stadtzentren von Kars und Ardahan ist der See leicht erreichbar und ideal für Tagesausflüge. Veranstaltungen und Festivals im Winter machen den Ort zusätzlich attraktiv. Insgesamt ist der Çıldır-See ein unverzichtbares Reiseziel in der Türkei und bietet zu jeder Jahreszeit einzigartige Naturerlebnisse."
-    },
-    "activities": {
-      "tr": [
-        "Göl çevresinde yürüyüş",
-        "Doğa fotoğrafları çekme"
-      ],
-      "en": [
-        "Walk around the lake",
-        "Take nature photos"
-      ],
-      "de": [
-        "Am See spazieren gehen",
-        "Naturfotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/cildır_gölü.jpg"
     ]
   }
 ]

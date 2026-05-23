@@ -42,6 +42,56 @@
       "https://example.com/cilo_dagi.jpg"
     ]
   },
+
+  {
+    "slug": "sat-buzul-golleri",
+    "name": {
+      "tr": "Sat Buzul Gölleri",
+      "en": "Sat Glacier Lakes",
+      "de": "Sat-Gletscherseen"
+    },
+    "latitude": 37.356863,
+    "longitude": 44.186979,
+    "description": {
+      "tr": "Hakkâri’nin en büyüleyici doğal alanlarından biri olan Sat Buzul Gölleri, yüksek rakımlı dağların arasında yer alan berrak ve turkuaz renkli gölleriyle dikkat çeker. Bu göller, binlerce yıl önce oluşan buzulların erimesiyle meydana gelmiş olup bölgenin en etkileyici manzaralarından birini sunar. Doğal yapısı bozulmamış olan bu alan, doğa severler ve macera tutkunları için eşsiz bir keşif noktasıdır.\n\nGöllerin bulunduğu bölge, özellikle yaz aylarında yemyeşil çayırlarla kaplanır ve ziyaretçilere huzurlu bir atmosfer sunar. Yüksek rakım nedeniyle hava genellikle serindir ve temiz dağ havası eşliğinde yürüyüş yapmak oldukça keyiflidir. Göllerin çevresinde yürüyüş parkurları bulunur ve bu parkurlar farklı zorluk seviyelerine sahiptir.\n\nSat Buzul Gölleri, kamp yapmak isteyenler için de oldukça uygun bir alandır. Göl kenarında çadır kurarak doğayla iç içe vakit geçirmek mümkündür. Gece saatlerinde gökyüzünün berrak olması sayesinde yıldız gözlemi yapmak da oldukça etkileyici bir deneyim sunar.\n\nBölge, zengin flora ve fauna çeşitliliğine sahiptir. Dağ çiçekleri, endemik bitkiler ve çeşitli yaban hayvanları bu doğal alanın ekosistemini oluşturur. Fotoğrafçılar için özellikle gün doğumu ve gün batımı saatleri eşsiz manzaralar sunar.\n\nSat Buzul Gölleri’ne ulaşım genellikle Hakkâri şehir merkezinden sağlanır. Yolun son kısmı genellikle stabilize olup arazi araçları veya rehberli turlar tercih edilir. Güvenli bir gezi için uygun ekipman ve hazırlık yapılması önerilir.\n\nEn uygun ziyaret zamanı yaz aylarıdır. Bu dönemde yollar daha erişilebilir olur ve doğa en canlı halini alır. İlkbahar ve sonbahar da ziyaret edilebilir ancak hava koşulları değişken olabilir. Kış aylarında ise bölge yoğun kar nedeniyle ulaşımı zor hale gelir.\n\nSonuç olarak Sat Buzul Gölleri, Hakkâri’nin saklı kalmış doğa harikalarından biri olup trekking, kamp ve fotoğrafçılık için mükemmel bir destinasyondur.",
+      "en": "Sat Glacier Lakes, one of the most fascinating natural areas in Hakkari, is known for its clear, turquoise-colored lakes located among high-altitude mountains. These lakes were formed by the melting of glaciers thousands of years ago and offer one of the most stunning landscapes in the region. With its untouched natural beauty, the area is a perfect destination for nature lovers and adventure seekers.\n\nDuring the summer months, the surroundings of the lakes are covered with lush green meadows, creating a peaceful and relaxing atmosphere. Due to the high altitude, the weather remains cool, making hiking in the fresh mountain air an enjoyable experience. There are various hiking trails around the lakes with different levels of difficulty.\n\nSat Glacier Lakes is also an excellent spot for camping. Visitors can set up tents near the lakes and enjoy a close connection with nature. At night, the clear sky provides an incredible opportunity for stargazing.\n\nThe area is rich in flora and fauna, including alpine flowers, endemic plants, and various wildlife species. For photographers, sunrise and sunset offer breathtaking views and unique photo opportunities.\n\nAccess to Sat Glacier Lakes is usually from Hakkari city center. The last part of the الطريق is typically rough, so off-road vehicles or guided tours are recommended. Proper equipment and preparation are advised for a safe visit.\n\nThe best time to visit is during summer when the roads are more accessible and nature is at its most vibrant. Spring and autumn are also possible, though weather conditions may vary. In winter, heavy snowfall can make access difficult.\n\nOverall, Sat Glacier Lakes is one of Hakkari’s hidden natural treasures and an ideal destination for trekking, camping, and photography.",
+      "de": "Die Sat-Gletscherseen gehören zu den faszinierendsten Naturgebieten in Hakkâri und sind bekannt für ihre klaren, türkisfarbenen Seen, die zwischen hoch gelegenen Bergen liegen. Diese Seen entstanden durch das Schmelzen von Gletschern vor Tausenden von Jahren und bieten eine der beeindruckendsten Landschaften der Region. Mit ihrer unberührten Natur ist die Gegend ein ideales Ziel für Naturliebhaber und Abenteurer.\n\nIm Sommer sind die Umgebung der Seen von üppigen grünen Wiesen bedeckt und schaffen eine ruhige und entspannte Atmosphäre. Aufgrund der Höhenlage ist das Wetter kühl, und Wanderungen in der frischen Bergluft sind besonders angenehm. Rund um die Seen gibt es Wanderwege mit unterschiedlichen Schwierigkeitsgraden.\n\nDie Sat-Gletscherseen eignen sich auch hervorragend zum Campen. Besucher können ihre Zelte in Seenähe aufstellen und die Natur hautnah erleben. Nachts bietet der klare Himmel ideale Bedingungen zur Sternenbeobachtung.\n\nDie Region verfügt über eine reiche Flora und Fauna, darunter alpine Blumen, endemische Pflanzen und verschiedene Wildtiere. Für Fotografen bieten Sonnenaufgang und Sonnenuntergang spektakuläre Motive.\n\nDer Zugang erfolgt in der Regel vom Stadtzentrum Hakkâri aus. Der letzte Teil der Strecke ist meist unbefestigt, daher werden Geländefahrzeuge oder geführte Touren empfohlen. Eine gute Vorbereitung und geeignete Ausrüstung sind ratsam.\n\nDie beste Reisezeit ist der Sommer, wenn die Wege zugänglich sind und die Natur in voller Blüte steht. Frühling und Herbst sind ebenfalls möglich, jedoch mit wechselhaften Wetterbedingungen. Im Winter kann starker Schneefall den Zugang erschweren.\n\nInsgesamt sind die Sat-Gletscherseen eines der verborgenen Naturjuwelen Hakkâris und ein perfektes Ziel für Wandern, Camping und Fotografie."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Kamp",
+        "Fotoğrafçılık",
+        "Keşif"
+      ],
+      "en": [
+        "Hiking",
+        "Camping",
+        "Photography",
+        "Exploration"
+      ],
+      "de": [
+        "Wandern",
+        "Camping",
+        "Fotografie",
+        "Erkundung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sat_buzul_golleri.jpg"
+    ]
+  },
   {
     "slug": "cennet-cehennem-vadisi",
     "name": {
@@ -135,55 +185,6 @@
     },
     "images": [
       "https://example.com/zap_vadisi.jpg"
-    ]
-  },
-  {
-    "slug": "sat-buzul-golleri",
-    "name": {
-      "tr": "Sat Buzul Gölleri",
-      "en": "Sat Glacier Lakes",
-      "de": "Sat-Gletscherseen"
-    },
-    "latitude": 37.356863,
-    "longitude": 44.186979,
-    "description": {
-      "tr": "Hakkâri’nin en büyüleyici doğal alanlarından biri olan Sat Buzul Gölleri, yüksek rakımlı dağların arasında yer alan berrak ve turkuaz renkli gölleriyle dikkat çeker. Bu göller, binlerce yıl önce oluşan buzulların erimesiyle meydana gelmiş olup bölgenin en etkileyici manzaralarından birini sunar. Doğal yapısı bozulmamış olan bu alan, doğa severler ve macera tutkunları için eşsiz bir keşif noktasıdır.\n\nGöllerin bulunduğu bölge, özellikle yaz aylarında yemyeşil çayırlarla kaplanır ve ziyaretçilere huzurlu bir atmosfer sunar. Yüksek rakım nedeniyle hava genellikle serindir ve temiz dağ havası eşliğinde yürüyüş yapmak oldukça keyiflidir. Göllerin çevresinde yürüyüş parkurları bulunur ve bu parkurlar farklı zorluk seviyelerine sahiptir.\n\nSat Buzul Gölleri, kamp yapmak isteyenler için de oldukça uygun bir alandır. Göl kenarında çadır kurarak doğayla iç içe vakit geçirmek mümkündür. Gece saatlerinde gökyüzünün berrak olması sayesinde yıldız gözlemi yapmak da oldukça etkileyici bir deneyim sunar.\n\nBölge, zengin flora ve fauna çeşitliliğine sahiptir. Dağ çiçekleri, endemik bitkiler ve çeşitli yaban hayvanları bu doğal alanın ekosistemini oluşturur. Fotoğrafçılar için özellikle gün doğumu ve gün batımı saatleri eşsiz manzaralar sunar.\n\nSat Buzul Gölleri’ne ulaşım genellikle Hakkâri şehir merkezinden sağlanır. Yolun son kısmı genellikle stabilize olup arazi araçları veya rehberli turlar tercih edilir. Güvenli bir gezi için uygun ekipman ve hazırlık yapılması önerilir.\n\nEn uygun ziyaret zamanı yaz aylarıdır. Bu dönemde yollar daha erişilebilir olur ve doğa en canlı halini alır. İlkbahar ve sonbahar da ziyaret edilebilir ancak hava koşulları değişken olabilir. Kış aylarında ise bölge yoğun kar nedeniyle ulaşımı zor hale gelir.\n\nSonuç olarak Sat Buzul Gölleri, Hakkâri’nin saklı kalmış doğa harikalarından biri olup trekking, kamp ve fotoğrafçılık için mükemmel bir destinasyondur.",
-      "en": "Sat Glacier Lakes, one of the most fascinating natural areas in Hakkari, is known for its clear, turquoise-colored lakes located among high-altitude mountains. These lakes were formed by the melting of glaciers thousands of years ago and offer one of the most stunning landscapes in the region. With its untouched natural beauty, the area is a perfect destination for nature lovers and adventure seekers.\n\nDuring the summer months, the surroundings of the lakes are covered with lush green meadows, creating a peaceful and relaxing atmosphere. Due to the high altitude, the weather remains cool, making hiking in the fresh mountain air an enjoyable experience. There are various hiking trails around the lakes with different levels of difficulty.\n\nSat Glacier Lakes is also an excellent spot for camping. Visitors can set up tents near the lakes and enjoy a close connection with nature. At night, the clear sky provides an incredible opportunity for stargazing.\n\nThe area is rich in flora and fauna, including alpine flowers, endemic plants, and various wildlife species. For photographers, sunrise and sunset offer breathtaking views and unique photo opportunities.\n\nAccess to Sat Glacier Lakes is usually from Hakkari city center. The last part of the الطريق is typically rough, so off-road vehicles or guided tours are recommended. Proper equipment and preparation are advised for a safe visit.\n\nThe best time to visit is during summer when the roads are more accessible and nature is at its most vibrant. Spring and autumn are also possible, though weather conditions may vary. In winter, heavy snowfall can make access difficult.\n\nOverall, Sat Glacier Lakes is one of Hakkari’s hidden natural treasures and an ideal destination for trekking, camping, and photography.",
-      "de": "Die Sat-Gletscherseen gehören zu den faszinierendsten Naturgebieten in Hakkâri und sind bekannt für ihre klaren, türkisfarbenen Seen, die zwischen hoch gelegenen Bergen liegen. Diese Seen entstanden durch das Schmelzen von Gletschern vor Tausenden von Jahren und bieten eine der beeindruckendsten Landschaften der Region. Mit ihrer unberührten Natur ist die Gegend ein ideales Ziel für Naturliebhaber und Abenteurer.\n\nIm Sommer sind die Umgebung der Seen von üppigen grünen Wiesen bedeckt und schaffen eine ruhige und entspannte Atmosphäre. Aufgrund der Höhenlage ist das Wetter kühl, und Wanderungen in der frischen Bergluft sind besonders angenehm. Rund um die Seen gibt es Wanderwege mit unterschiedlichen Schwierigkeitsgraden.\n\nDie Sat-Gletscherseen eignen sich auch hervorragend zum Campen. Besucher können ihre Zelte in Seenähe aufstellen und die Natur hautnah erleben. Nachts bietet der klare Himmel ideale Bedingungen zur Sternenbeobachtung.\n\nDie Region verfügt über eine reiche Flora und Fauna, darunter alpine Blumen, endemische Pflanzen und verschiedene Wildtiere. Für Fotografen bieten Sonnenaufgang und Sonnenuntergang spektakuläre Motive.\n\nDer Zugang erfolgt in der Regel vom Stadtzentrum Hakkâri aus. Der letzte Teil der Strecke ist meist unbefestigt, daher werden Geländefahrzeuge oder geführte Touren empfohlen. Eine gute Vorbereitung und geeignete Ausrüstung sind ratsam.\n\nDie beste Reisezeit ist der Sommer, wenn die Wege zugänglich sind und die Natur in voller Blüte steht. Frühling und Herbst sind ebenfalls möglich, jedoch mit wechselhaften Wetterbedingungen. Im Winter kann starker Schneefall den Zugang erschweren.\n\nInsgesamt sind die Sat-Gletscherseen eines der verborgenen Naturjuwelen Hakkâris und ein perfektes Ziel für Wandern, Camping und Fotografie."
-    },
-    "activities": {
-      "tr": [
-        "Doğa yürüyüşü",
-        "Kamp",
-        "Fotoğrafçılık",
-        "Keşif"
-      ],
-      "en": [
-        "Hiking",
-        "Camping",
-        "Photography",
-        "Exploration"
-      ],
-      "de": [
-        "Wandern",
-        "Camping",
-        "Fotografie",
-        "Erkundung"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/sat_buzul_golleri.jpg"
     ]
   },
   {

@@ -8,23 +8,32 @@ export default function SettingsView({
   return (
     <div className="animate-in slide-in-from-right duration-300 space-y-10">
       
-      {/* DIŞ BAĞLANTILAR */}
-      <section>
-        <h2 className="text-2xl font-bold mb-4">Kontrol Kulesi</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <a href="https://vercel.com" target="_blank" className="bg-black border border-gray-800 p-4 rounded-2xl flex items-center justify-between hover:border-white transition">
-            <span>Vercel</span> <span>↗</span>
-          </a>
+{/* DIŞ BAĞLANTILAR */}
+<section>
+  <h2 className="text-2xl font-bold mb-4">Kontrol Kulesi</h2>
+  <div className="grid grid-cols-1 md:grid-cols-5 gap-4"> {/* 5 element için grid genişletildi kanka */}
+    <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="bg-black border border-gray-800 p-4 rounded-2xl flex items-center justify-between hover:border-white transition">
+      <span>Vercel</span> <span>↗</span>
+    </a>
 
-          <a href="https://dash.cloudflare.com" target="_blank" className="bg-orange-900/10 border border-orange-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-orange-500 transition">
-            <span className="text-orange-500">Cloudflare</span> <span>↗</span>
-          </a>
+    <a href="https://dash.cloudflare.com/2208035be4df1e6f6c196fa24a04b221/home/overview" target="_blank" rel="noopener noreferrer" className="bg-orange-900/10 border border-orange-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-orange-500 transition">
+      <span className="text-orange-500">Cloudflare</span> <span>↗</span>
+    </a>
 
-          <a href="https://console.firebase.google.com" target="_blank" className="bg-yellow-900/10 border border-yellow-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-yellow-500 transition">
-            <span className="text-yellow-500">Firebase</span> <span>↗</span>
-          </a>
-        </div>
-      </section>
+    {/* ✨ YENİ: Cloudinary Upload Presets Bağlantısı */}
+    <a href="https://console.cloudinary.com/app/c-02ea77eee651bf6e22cbd14acfbf53/settings/upload/presets" target="_blank" rel="noopener noreferrer" className="bg-sky-900/10 border border-sky-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-sky-400 transition">
+      <span className="text-sky-400 font-medium">Cloudinary</span> <span>↗</span>
+    </a>
+
+    <a href="https://console.firebase.google.com" target="_blank" rel="noopener noreferrer" className="bg-yellow-900/10 border border-yellow-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-yellow-500 transition">
+      <span className="text-yellow-500">Firebase</span> <span>↗</span>
+    </a>
+
+    <a href="https://app.travelpayouts.com/dashboard?source=521133" target="_blank" rel="noopener noreferrer" className="bg-blue-900/10 border border-blue-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-blue-500 transition">
+      <span className="text-blue-400 font-medium">Travelpayouts</span> <span>↗</span>
+    </a>
+  </div>
+</section>
 
       {/* YETKİ EKLEME */}
       <section className="bg-gray-950 border border-gray-800 p-6 rounded-3xl">

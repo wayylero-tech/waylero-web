@@ -1,4 +1,63 @@
 [
+{
+  "slug": "payas-kalesi",
+  "name": {
+    "tr": "Payas Kalesi",
+    "en": "Payas Castle",
+    "de": "Burg Payas"
+  },
+  "latitude": 36.753333,
+  "longitude": 36.205278,
+  "description": {
+    "tr": "Payas Kalesi, Hatay’ın Payas ilçesinde yer alan, Akdeniz kıyısına oldukça yakın ve etrafı savunma amaçlı su hendekleriyle çevrili, Türkiye'deki en iyi korunmuş Osmanlı kalelerinden biridir. İlk olarak Haçlılar veya Bizans döneminde inşa edildiği tahmin edilen yapı, Yavuz Sultan Selim’in Mısır Seferi sırasında Osmanlı topraklarına katılmıştır. Ancak kale, bugünkü heybetli ve simetrik planlı yapısına 1567-1571 yılları arasında Sultan II. Selim ve ünlü vezir Sokollu Mehmet Paşa’nın emriyle, Mimar Sinan’ın da katkılarıyla baştan aşağı yeniden inşa edilerek kavuşmuştur. Kıbrıs’ın fethi sırasında lojistik ve askeri bir üs olarak kullanılan kale, sekiz büyük burçla güçlendirilmiş muazzam surlara sahiptir. Kalenin içerisinde askeri kışlalar, mühimmat depoları, tüneller ve tescilli tarihi yapılar yer almaktadır. Hemen yanındaki Sokollu Mehmet Paşa Külliyesi ile bütünleşen kale, Hatay tarih turizminin en önemli ve en görkemli duraklarından biridir.",
+    "en": "Payas Castle (Payas Kalesi) is one of the best-preserved Ottoman fortresses in Turkey, located in the Payas district of Hatay. Situated very close to the Mediterranean coast, its most defining characteristic is the wide defensive water moat completely surrounding its outer walls. While its original foundations are believed to date back to the Crusader or Byzantine eras, the castle was integrated into the Ottoman Empire during Sultan Selim I's Egyptian campaign. The fortress achieved its current majestic, symmetrical footprint between 1567 and 1571 when it was completely rebuilt by the decree of Sultan Selim II and Grand Vizier Sokollu Mehmed Pasha, with architectural contributions from Mimar Sinan. Serving as a crucial logistical and military outpost during the conquest of Cyprus, the castle features formidable ramparts reinforced by eight massive bastions. Inside, visitors can explore military barracks, arsenals, and historical tunnels.",
+    "de": "Die Burg Payas (Payas Kalesi) im Landkreis Payas in der Provinz Hatay ist eine der am besten erhaltenen osmanischen Festungen in der Türkei. Sie liegt nahe der Mittelmeerküste und zeichnet sich besonders durch den breiten, wassergefüllten Verteidigungsgraben aus, der die gesamten Außenmauern umgibt. Die ursprünglichen Fundamente stammen vermutlich aus der Kreuzfahrer- oder Kolonialzeit, bevor die Anlage unter Sultan Selim I. in das Osmanische Reich eingegliedert wurde. Ihre heutige monumentale, symmetrische Gestalt erhielt die Festung zwischen 1567 und 1571, als sie auf Befehl von Sultan Selim II. und Großwesir Sokollu Mehmed Pascha unter Mitwirkung des berühmten Architekten Mimar Sinan komplett neu errichtet wurde. Während der Eroberung Zyperns diente die Burg als wichtiger militärischer Stützpunkt. Sie verfügt über mächtige Mauern, die von acht massiven Bastionen verstärkt werden, sowie über Kasernen und Tunnel im Inneren."
+  },
+  "activities": {
+    "tr": [
+      "Kalenin etrafındaki tarihi su hendeklerini ve heybetli burçları inceleme",
+      "Kale içindeki askeri odaları, tünelleri ve kışla kalıntılarını keşfetme",
+      "Hemen bitişiğindeki tarihi Sokollu Mehmet Paşa Külliyesi'ni ziyaret etme",
+      "Tarihi surlar fonunda fotoğraf çekimi"
+    ],
+    "en": [
+      "Examine the historic water moats and massive bastions surrounding the castle",
+      "Explore the military barracks, ancient tunnels, and inner chambers",
+      "Visit the adjacent historic Sokollu Mehmed Pasha Complex",
+      "Take photos with the historic ramparts as a backdrop"
+    ],
+    "de": [
+      "Die historischen Wassergräben und massiven Bastionen rund um die Burg besichtigen",
+      "Die Kasernen, alten Tunnel und Innenräume der Festung erkunden",
+      "Die angrenzende historische Sokollu-Mehmed-Pascha-Karawanserei besuchen",
+      "Fotos vor der Kulisse der historischen Burgmauern machen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kale",
+      "tarihi yapı",
+      "osmanlı eseri",
+      "arkeolojik alan"
+    ],
+    "en": [
+      "castle",
+      "historical site",
+      "ottoman heritage",
+      "archaeological site"
+    ],
+    "de": [
+      "burg",
+      "historische stätte",
+      "osmanisches erbe",
+      "archäologische stätte"
+    ]
+  },
+  "images": [
+    "https://example.com/payas_kalesi_hatay.jpg"
+  ]
+},
+
   {
     "slug": "hatay-arkeoloji-muzesi",
     "name": {

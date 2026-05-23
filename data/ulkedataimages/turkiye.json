@@ -6,11 +6,15 @@
         "places/turkey/ankara/ankara-anitkabir/b2xopbfkvvegx4ejndxd"
       ],
       "ankara-atakule": [
-        "places/turkey/ankara/ankara-atakule/gneovpwzbkr2050v97q4",
-        "places/turkey/ankara/ankara-atakule/xfzehsjvvcrncyqnqla6",
-        "places/turkey/ankara/ankara-atakule/aguagmnyqvqzs3qwiyt3",
-        "places/turkey/ankara/ankara-atakule/xi2upa9pxcfhnwhpxvma"
+       "places/turkey/ankara/ankara-atakule/ankara-atakule_1779397300303_0.8994270031322293","places/turkey/ankara/ankara-atakule/ankara-atakule_1779397305541_0.04481029130639502","places/turkey/ankara/ankara-atakule/ankara-atakule_1779397307791_0.6409049643360967","places/turkey/ankara/ankara-atakule/ankara-atakule_1779397313525_0.4575086003105794","places/turkey/ankara/ankara-atakule/ankara-atakule_1779397316407_0.1504274141260371"
       ],
+ "ankara-ankara-kalesi": [
+
+"places/turkey/ankara/ankara-kalesi/ankara-kalesi_1779397399871_0.5035480724966566","places/turkey/ankara/ankara-kalesi/ankara-kalesi_1779397406856_0.14962029281265998","places/turkey/ankara/ankara-kalesi/ankara-kalesi_1779397411628_0.5643754438083535","places/turkey/ankara/ankara-kalesi/ankara-kalesi_1779397415993_0.5184218896936789"
+],
+"ankara-estergon-kalesi": [
+"places/turkey/ankara/estergon-kalesi/estergon-kalesi_1779397649383_0.3833664241345559"
+],
       "ankara-kocatepe-camii": [
         "places/turkey/ankara/ankara-kocatepe-camii/c7umrzuuyofha8fgeepo",
         "places/turkey/ankara/ankara-kocatepe-camii/jchhf0kttfdqcdzhofmv",
@@ -36,7 +40,9 @@
     },
     "istanbul": {
       "istanbul-anadolu-hisari": [
-        "places/turkey/istanbul/istanbul-anadolu-hisari/cnyru1oh608vrmx7evtx"
+        "places/turkey/istanbul/istanbul-anadolu-hisari/cnyru1oh608vrmx7evtx",
+"places/turkey/istanbul/istanbul-anadolu-hisarı/istanbul-anadolu-hisarı_1779394711603_0.5690738188560355"
+
       ],
       "istanbul-ataturk-arboretumu": [
         "places/turkey/istanbul/istanbul-ataturk-arboretumu/he7ujz5j1xnxoxfa7auq",
@@ -135,7 +141,8 @@
       ],
       "istanbul-rumeli-hisari": [
         "places/turkey/istanbul/istanbul-rumeli-hisari/u1exrzedjwnpdixgo1md",
-        "places/turkey/istanbul/istanbul-rumeli-hisari/rocltif32su7zd062nmh"
+        "places/turkey/istanbul/istanbul-rumeli-hisari/rocltif32su7zd062nmh",
+"places/turkey/istanbul/istanbul-rumeli-hisarı/istanbul-rumeli-hisarı_1779360014970_0.20183241910394056","places/turkey/istanbul/istanbul-rumeli-hisarı/istanbul-rumeli-hisarı_1779360017619_0.1838125754631621","places/turkey/istanbul/istanbul-rumeli-hisarı/istanbul-rumeli-hisarı_1779360019471_0.0482121986540337"
       ],
       "istanbul-sultanahmet-camii": [
         "places/turkey/istanbul/istanbul-sultanahmet-camii/av9cerovhlqwrtm1m1ls"
@@ -156,9 +163,42 @@
         "places/turkey/istanbul/istanbul-yeni-camii/s3ncvpv6nifhpkisnhf1",
         "places/turkey/istanbul/istanbul-yeni-camii/jaupb2waisc7txqdpkiw"
       ],
+"istanbul-buyukcekmece-golu": [
+       "places/turkey/istanbul/buyukcekmece-golu/buyukcekmece-golu_1779537537353_0.851160340317929"
+
+      ],
+"istanbul-ayazma-camii": [
+"places/turkey/istanbul/ayazma-camii/ayazma-camii_1779538518656_0.7360233819633517"
+
+      ],
+"istanbul-mihrimah-sultan-camii": [
+"places/turkey/istanbul/mihrimah-sultan-camii/mihrimah-sultan-camii_1779538327648_0.007121234663086562"
+
+      ],
+"istanbul-yildiz-parki": [
+"places/turkey/istanbul/yildiz-parki/yildiz-parki_1779538049633_0.48501458099325045","places/turkey/istanbul/yildiz-parki/yildiz-parki_1779538054149_0.4971803392992914"
+
+      ],
+
+"istanbul-camlica-tepesi": [
+"places/turkey/istanbul/camlica-tepesi/camlica-tepesi_1779537846336_0.9470986204754446","places/turkey/istanbul/camlica-tepesi/camlica-tepesi_1779537850569_0.10635482364093773"
+
+      ],
+"istanbul-polonezkoy-tabiat-parki": [
+"places/turkey/istanbul/polonezkoy-tabiat-parki/polonezkoy-tabiat-parki_1779537762073_0.5747498112841201"
+
+      ],
+"istanbul-belgrad-ormani": [
+"places/turkey/istanbul/belgrad-ormani/belgrad-ormani_1779537650465_0.1385533048107377","places/turkey/istanbul/belgrad-ormani/belgrad-ormani_1779537653605_0.11514431352900267","places/turkey/istanbul/belgrad-ormani/belgrad-ormani_1779537658185_0.19810228681603104","places/turkey/istanbul/belgrad-ormani/belgrad-ormani_1779537661881_0.7683030099516994"
+
+      ],
+"istanbul-emirgan-korusu": [
+        "places/turkey/istanbul/emirgan-korusu/emirgan-korusu_1779537228474_0.4521497136788669","places/turkey/istanbul/emirgan-korusu/emirgan-korusu_1779537232950_0.27417874001096976","places/turkey/istanbul/emirgan-korusu/emirgan-korusu_1779537237503_0.0344665959521635","places/turkey/istanbul/emirgan-korusu/emirgan-korusu_1779537248779_0.5209525314605495","places/turkey/istanbul/emirgan-korusu/emirgan-korusu_1779537257882_0.20584497182079842","places/turkey/istanbul/emirgan-korusu/emirgan-korusu_1779537269125_0.6756614535102496"
+      ],
       "istanbul-yerebatan-sarnici": [
         "places/turkey/istanbul/istanbul-yerebatan-sarnici/d92awvd4rqo29wefom3m",
-        "places/turkey/istanbul/istanbul-yerebatan-sarnici/aafylggi0yakzvlmd8m9"
+        "places/turkey/istanbul/istanbul-yerebatan-sarnici/aafylggi0yakzvlmd8m9",
+"places/turkey/istanbul/istanbul-yerebatan-sarnici/istanbul-yerebatan-sarnici_1779536779771_0.09123403337208524","places/turkey/istanbul/istanbul-yerebatan-sarnici/istanbul-yerebatan-sarnici_1779536783438_0.8938128925021419","places/turkey/istanbul/istanbul-yerebatan-sarnici/istanbul-yerebatan-sarnici_1779536785009_0.37464435984148936","places/turkey/istanbul/istanbul-yerebatan-sarnici/istanbul-yerebatan-sarnici_1779536790311_0.4221640764259925","places/turkey/istanbul/istanbul-yerebatan-sarnici/istanbul-yerebatan-sarnici_1779536792301_0.8209679052630934","places/turkey/istanbul/istanbul-yerebatan-sarnici/istanbul-yerebatan-sarnici_1779536804723_0.07253961577131629"
       ],
       "istanbul-ciragan-sarayi": [
         "places/turkey/istanbul/istanbul-ciragan-sarayi/bscmdpgoq21bqlmy4pnt",
@@ -330,7 +370,7 @@
         "places/turkey/konya/konya-isaura-antik-kenti-zengibar-kalesi/hjh4r4ayvhaqeuisgcyi"
       ],
       "konya-ivriz-kaya-aniti": [
-        "places/turkey/konya/konya-ivriz-kaya-aniti/gqedbnbwilobj3qbaqze",
+        "places/turkey/konya/konya-ivriz-kaya-aniti/nubrqa7ld6ebkzzkx9zt",
         "places/turkey/konya/konya-ivriz-kaya-aniti/konya-ivriz-kaya-aniti_1779284279508_0.9771485149301383",
         "places/turkey/konya/konya-ivriz-kaya-aniti/konya-ivriz-kaya-aniti_1779284282952_0.38870542562160537",
 "places/turkey/konya/konya-ivriz-kaya-aniti/konya-ivriz-kaya-aniti_1779284286896_0.29211161769436167",
@@ -358,7 +398,8 @@
         "places/turkey/konya/konya-karatay-sehir-parki/qtqwqlxitvrocnaxrntn"
       ],
       "konya-kestel-baraji": [
-        "places/turkey/konya/konya-kestel-baraji/rxvdp9sbaffltnlwcaaa"
+        "places/turkey/konya/konya-kestel-baraji/rxvdp9sbaffltnlwcaaa",
+"places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310630658_0.6256444316634201","places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310633056_0.006191584956595997","places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310634318_0.706329867645664","places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310636995_0.10497530359844343","places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310638831_0.1395670892763935","places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310642536_0.29900224801940134","places/turkey/konya/konya-kestel-baraji/konya-kestel-baraji_1779310645804_0.38350669066261645"
       ],
       "konya-kilistra": [
         "places/turkey/konya/konya-kilistra/fvevmybgdxpmbiugw6uh",
@@ -488,32 +529,18 @@
         "places/turkey/konya/konya-seytan-koprusu/ncdlucer47xvm58voy3c"
       ]
     },
-    "şanlıurfa": {
-      "sanliurfa-balikligol": [
-        "places/turkey/şanlıurfa/sanliurfa-balikligol/vhaubnfcuxgvtjjnd3di",
-        "places/turkey/şanlıurfa/sanliurfa-balikligol/o80t8rtkrqohsfzlazyo",
-        "places/turkey/şanlıurfa/sanliurfa-balikligol/xiyo3cte7bewb98zit2i",
-        "places/turkey/şanlıurfa/sanliurfa-balikligol/seixzglpyhaxeybs42g7",
-        "places/turkey/şanlıurfa/sanliurfa-balikligol/sdy3stkvsnyebndylroo"
-      ],
-      "sanliurfa-gobeklitepe": [
-        "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/eldizifl9fmwpgsa0b5k",
-        "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/wf83m61zc0nn1l05yssf",
-        "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/k9dp80klztx2fkgby0ku",
-        "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/llto3dyzzknworchgp3j",
-        "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/csbbuakxri02uezrimtr"
-      ],
-      "sanliurfa-rizvaniye-camii": [
-        "places/turkey/şanlıurfa/sanliurfa-rizvaniye-camii/rl4a7pkuqexuqoo5ljbz",
-        "places/turkey/şanlıurfa/sanliurfa-rizvaniye-camii/eiktstos9w5m3xaeia0p"
-      ]
-    },
     "antalya": {
       "antalya-alanya-dim-cayi": [
         "places/turkey/antalya/antalya-alanya-dim-cayi/kyesa6faxhfty9wnss25"
       ],
+      "antalya-kursunlu-selalesi": [
+        "places/turkey/antalya/kursunlu-selalesi/kursunlu-selalesi_1779484667652_0.98278788547554"
+
+      ],
       "antalya-alanya-kleopatra-plaji": [
-        "places/turkey/antalya/antalya-alanya-kleopatra-plaji/dbdpg5ogjhiiohcjhxzx"
+        "places/turkey/antalya/antalya-alanya-kleopatra-plaji/dbdpg5ogjhiiohcjhxzx",
+"places/turkey/antalya/alanya-kleopatra-plaji/alanya-kleopatra-plaji_1779358593172_0.32664304083229967"
+
       ],
       "antalya-antiphellos-antik-kenti": [
         "places/turkey/antalya/antalya-antiphellos-antik-kenti/cwvuo19fff0fdzrtcl4d",
@@ -543,7 +570,9 @@
         "places/turkey/antalya/antalya-konyaalti-plaji/ksdpn7f1r44dprosqasl"
       ],
       "antalya-koprulu-kanyon-milli-parki": [
-        "places/turkey/antalya/antalya-koprulu-kanyon-milli-parki/iq7nhkkebnicngo4t9zt"
+        "places/turkey/antalya/antalya-koprulu-kanyon-milli-parki/iq7nhkkebnicngo4t9zt",
+"places/turkey/antalya/antalya-koprulu-kanyon-milli-parki/antalya-koprulu-kanyon-milli-parki_1779358100254_0.6300559721846865","places/turkey/antalya/antalya-koprulu-kanyon-milli-parki/antalya-koprulu-kanyon-milli-parki_1779358102909_0.19741491886105111"
+
       ],
       "antalya-kizilkule-alanya": [
         "places/turkey/antalya/antalya-kizilkule-alanya/gsjki480n3lkscchctvo",
@@ -588,17 +617,98 @@
         "places/turkey/antalya/antalya-syedra-antik-kenti/o8ymglwgfeqhdgesdehk"
       ],
       "antalya-tazi-kanyonu": [
-        "places/turkey/antalya/antalya-tazi-kanyonu/itetgmmfch9jqvml5xgh"
+        "places/turkey/antalya/antalya-tazi-kanyonu/itetgmmfch9jqvml5xgh",
+"places/turkey/antalya/antalya-tazi-kanyonu/antalya-tazi-kanyonu_1779358014782_0.5859117953736462","places/turkey/antalya/antalya-tazi-kanyonu/antalya-tazi-kanyonu_1779358019838_0.12974951450798955","places/turkey/antalya/antalya-tazi-kanyonu/antalya-tazi-kanyonu_1779358024450_0.8987268935504483"
       ],
       "antalya-cirali-plaji": [
         "places/turkey/antalya/antalya-cirali-plaji/poglwe1ypw8bgngosopb"
-      ]
+      ],
+      "antalya-xanthos-antik-kenti": [
+"places/turkey/antalya/xanthos-antik-kenti/xanthos-antik-kenti_1779358402701_0.5566178798215945","places/turkey/antalya/xanthos-antik-kenti/xanthos-antik-kenti_1779358405070_0.20055557501162635","places/turkey/antalya/xanthos-antik-kenti/xanthos-antik-kenti_1779393822787_0.020972502636370627"
+
+  ],
+"antalya-perge-antik-kent": [
+"places/turkey/antalya/perge-antik-kent/perge-antik-kent_1779358447885_0.9662061639909832","places/turkey/antalya/perge-antik-kent/perge-antik-kent_1779358451094_0.04594559985709923","places/turkey/antalya/perge-antik-kent/perge-antik-kent_1779358454127_0.07849357785173228","places/turkey/antalya/perge-antik-kent/perge-antik-kent_1779358457480_0.6553049181184547","places/turkey/antalya/perge-antik-kent/perge-antik-kent_1779358460499_0.9505874895972736"
+  ],
+"antalya-kapuz-kanyonu": [
+
+"places/turkey/antalya/kapuz-kanyonu/kapuz-kanyonu_1779358990940_0.9475582845720882"
+],
+
+"antalya-alanya-kalesi": [
+
+"places/turkey/antalya/alanya-kalesi/alanya-kalesi_1779359036044_0.8259073351998472"
+],
+
+"antalya-saklikent-kanyonu": [
+"places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358775540_0.1068881720263758","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358779365_0.14935269779953975","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358783071_0.5328265838275672","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358786543_0.4440382476611545","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358789761_0.2551202891774118"
+ ],
+"antalya-termessos-antik-kenti": [
+
+"places/turkey/antalya/termessos-antik-kenti/termessos-antik-kenti_1779358838172_0.49690436630625645","places/turkey/antalya/termessos-antik-kenti/termessos-antik-kenti_1779358842422_0.4221278413942975","places/turkey/antalya/termessos-antik-kenti/termessos-antik-kenti_1779358844833_0.30352667259283683","places/turkey/antalya/termessos-antik-kenti/termessos-antik-kenti_1779358847969_0.138839536941755","places/turkey/antalya/termessos-antik-kenti/termessos-antik-kenti_1779358853340_0.44885548094402894","places/turkey/antalya/termessos-antik-kenti/termessos-antik-kenti_1779358858130_0.006060506951721112"
+],
+"antalya-termessos-milli-parki": [
+
+"places/turkey/antalya/termessos-milli-parki/termessos-milli-parki_1779358880964_0.6513316157759302"
+],
+"antalya-goynuk-kanyonu": [
+"places/turkey/antalya/goynuk-kanyonu/goynuk-kanyonu_1779358940508_0.1737971414608952"
+],
+"antalya-kapuz-kanyonu": [
+"places/turkey/antalya/kapuz-kanyonu/kapuz-kanyonu_1779358990940_0.9475582845720882"
+],
+"antalya-kaputas-plaji": [
+
+
+"places/turkey/antalya/kaputas-plaji/kaputas-plaji_1779358196670_0.5274294361309615","places/turkey/antalya/kaputas-plaji/kaputas-plaji_1779358200255_0.43114771724223366","places/turkey/antalya/kaputas-plaji/kaputas-plaji_1779358202809_0.7923895696777091"
+],
+"antalya-patara-plaji": [
+
+"places/turkey/antalya/patara-plaji/patara-plaji_1779358285173_0.023395385293595083"
+],
+
+"antalya-patara-antik-kent": [
+
+
+"places/turkey/antalya/patara-antik-kent/patara-antik-kent_1779358347093_0.4067596429042426","places/turkey/antalya/patara-antik-kent/patara-antik-kent_1779358350769_0.6873767625777711","places/turkey/antalya/patara-antik-kent/patara-antik-kent_1779358354154_0.9511912953705646","places/turkey/antalya/patara-antik-kent/patara-antik-kent_1779358356694_0.41055387913786","places/turkey/antalya/patara-antik-kent/patara-antik-kent_1779358358730_0.3312263300815983","places/turkey/antalya/patara-antik-kent/patara-antik-kent_1779358360783_0.8866211491492011"
+]
     },
     "erzurum": {
       "erzurum-tortum-selalesi": [
+"places/turkey/erzurum/erzurum-tortum-selalesi/erzurum-tortum-selalesi_1779489327301_0.08262901900254926",
         "places/turkey/erzurum/erzurum-tortum-selalesi/r7cepo5ep4wzu2sin0fu",
         "places/turkey/erzurum/erzurum-tortum-selalesi/gnlz9el6lovesdw0bob5"
+      ],
+"erzurum-cifte-minareli-medrese": [
+       "places/turkey/erzurum/cifte-minareli-medrese/cifte-minareli-medrese_1779488547382_0.8273841734530479","places/turkey/erzurum/cifte-minareli-medrese/cifte-minareli-medrese_1779488552821_0.5696330540971124","places/turkey/erzurum/cifte-minareli-medrese/cifte-minareli-medrese_1779488593169_0.1452143708173268","places/turkey/erzurum/cifte-minareli-medrese/cifte-minareli-medrese_1779488603967_0.19511292294357896"
+      ],
+ "erzurum-palandoken-dagi": [
+  "places/turkey/erzurum/palandöken-dagi/palandöken-dagi_1779488717943_0.8474880442592733"
+
+      ],
+"erzurum-uc-kumbetler": [
+"places/turkey/erzurum/uc-kumbetler/uc-kumbetler_1779488850262_0.6833899451235811","places/turkey/erzurum/uc-kumbetler/uc-kumbetler_1779488855190_0.3563856814200713","places/turkey/erzurum/uc-kumbetler/uc-kumbetler_1779488857595_0.7257836309538088","places/turkey/erzurum/uc-kumbetler/uc-kumbetler_1779488863317_0.17495653463492777"
+
+      ],
+"erzurum-erzurum-kalesi": [
+"places/turkey/erzurum/erzurum-kalesi/erzurum-kalesi_1779488998774_0.04510371768171462"
+
+
+      ],
+"erzurum-yakutiye-medresesi": [
+"places/turkey/erzurum/yakutiye-medresesi/yakutiye-medresesi_1779489052318_0.3664236559370365",
+"places/turkey/erzurum/yakutiye-medresesi/yakutiye-medresesi_1779489481333_0.4854854544106709"
+
+
+
+      ],
+"erzurum-lala-mustafa-pasa-camii": [
+"places/turkey/erzurum/lala-mustafa-pasa-camii/lala-mustafa-pasa-camii_1779489238286_0.08654208942596664"
+
+
       ]
+
+
     },
     "kayseri": {
       "kayseri-erciyes-dagi": [
@@ -613,7 +723,24 @@
     "kastamonu": {
       "kastamonu-ilica-selalesi": [
         "places/turkey/kastamonu/kastamonu-ilica-selalesi/zbn7orsah0ymtd9myfzv"
-      ]
+      ],
+"kastamonu-kastamonu-kalesi": [
+"places/turkey/kastamonu/kastamonu-kalesi/kastamonu-kalesi_1779394758826_0.7234340852789735"
+      ],
+"kastamonu-ginolu-koyu": [
+
+"places/turkey/kastamonu/ginolu-koyu/ginolu-koyu_1779359839083_0.019740425963510666"
+ ],
+"kastamonu-horma-kanyonu": [
+"places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779391351071_0.3068447708002082",
+"places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779359949403_0.5681863518359099","places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779359951270_0.21806077207576413","places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779359952238_0.91491767970896","places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779359953239_0.15397016689384735","places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779359954307_0.8125105324508305","places/turkey/kastamonu/horma-kanyonu/horma-kanyonu_1779359955191_0.726571936353972"
+ ],
+"kastamonu-valla-kanyonu": [
+"places/turkey/kastamonu/valla-kanyonu/valla-kanyonu_1779391442663_0.3398822722239446","places/turkey/kastamonu/valla-kanyonu/valla-kanyonu_1779391447934_0.4033888301404651"
+],
+"kastamonu-ilgaz-dagi-milli-parki": [
+"places/turkey/kastamonu/ilgaz-dagi-milli-parki/ilgaz-dagi-milli-parki_1779391605086_0.5258626865955456"
+]
     },
 
 "isparta": {
@@ -634,19 +761,33 @@
 "places/turkey/isparta/egirdir-golu/egirdir-golu_1778685636756",
 "places/turkey/isparta/egirdir-golu/egirdir-golu_1778685657975"
       ]
-
-
-
     },
 
+"kutahya": {
+      "kutahya-aizanoi-antik-kenti": [
+        "places/turkey/kütahya/aizanoi-antik-kenti/aizanoi-antik-kenti_1779359659075_0.6968635586835834","places/turkey/kütahya/aizanoi-antik-kenti/aizanoi-antik-kenti_1779359663850_0.6917030642733049","places/turkey/kütahya/aizanoi-antik-kenti/aizanoi-antik-kenti_1779359665701_0.9446387387409824"
+     ],
+"kutahya-frig-vadisi": [
+"places/turkey/kütahya/frig-vadisi/frig-vadisi_1779390676175_0.772441101064123"
+],
+"kutahya-kutahya-kalesi": [
+"places/turkey/kütahya/kutahya-kalesi/kutahya-kalesi_1779390922767_0.5934969079245378"
+]
+    },
     "aydin": {
       "aydin-altinkum-plaji": [
         "places/turkey/aydın/aydin-altinkum-plaji/kwobzxubcqoevftim0qk"
       ],
+"aydin-guvercin-ada": [
+"places/turkey/aydın/guvercin-ada/guvercin-ada_1779359506692_0.6579920629185279","places/turkey/aydın/guvercin-ada/guvercin-ada_1779359511847_0.2676803186405715","places/turkey/aydın/guvercin-ada/guvercin-ada_1779359514587_0.7478493940420602"
+],
       "aydin-aphrodisias-antik-kenti": [
         "places/turkey/aydın/aydin-aphrodisias-antik-kenti/mgvf2z1igb8h6uaeqqly",
         "places/turkey/aydın/aydin-aphrodisias-antik-kenti/wcj8noquwigfrdyk3s8j",
-        "places/turkey/aydın/aydin-aphrodisias-antik-kenti/pbc4ghfwxey2vgl7uwmd"
+        "places/turkey/aydın/aydin-aphrodisias-antik-kenti/pbc4ghfwxey2vgl7uwmd",
+"places/turkey/aydn/aydin-aphrodisias-antik-kenti/aydin-aphrodisias-antik-kenti_1779360192098_0.45506757665959185","places/turkey/aydn/aydin-aphrodisias-antik-kenti/aydin-aphrodisias-antik-kenti_1779360195228_0.7370911384408342"
+
+
       ],
       "aydin-apollon-tapinagi": [
         "places/turkey/aydın/aydin-apollon-tapinagi/vyqkjhfhyitrmhzxlh4x",
@@ -687,12 +828,13 @@
     },
     "izmir": {
       "izmir-agora-antik-kenti": [
-        "places/turkey/izmir/izmir-agora-antik-kenti/qmthapfbgw1axct1zvjv",
-        "places/turkey/izmir/izmir-agora-antik-kenti/boruyyvxvlit80dob5et",
+       
         "places/turkey/izmir/izmir-agora-antik-kenti/hurvwyiwyeoel7la0fja",
         "places/turkey/izmir/izmir-agora-antik-kenti/k7znrslowcvgvuwi5hhr",
         "places/turkey/izmir/izmir-agora-antik-kenti/xo9tvd6zbn8oswga4swt",
         "places/turkey/izmir/izmir-agora-antik-kenti/oadtvk8c2i1eqdqlnurw",
+ "places/turkey/izmir/izmir-agora-antik-kenti/qmthapfbgw1axct1zvjv",
+        "places/turkey/izmir/izmir-agora-antik-kenti/boruyyvxvlit80dob5et",
         "places/turkey/izmir/izmir-agora-antik-kenti/wjmhhzyvs3g4p3v9ofsp"
       ],
       "izmir-alacati": [
@@ -751,6 +893,12 @@
       ],
       "izmir-urla": [
         "places/turkey/izmir/izmir-urla/tnkcbpfciq5vhn9uhhv8"
+      ],
+"izmir-agacli-yol-buca": [
+"places/turkey/izmir/agacli-yol-buca/agacli-yol-buca_1779539772654_0.8359474981977507"
+      ],
+"izmir-sigacik-koyu-seferihisar": [
+"places/turkey/izmir/sigacik-koyu-seferihisar/sigacik-koyu-seferihisar_1779539914703_0.35666946073519024","places/turkey/izmir/sigacik-koyu-seferihisar/sigacik-koyu-seferihisar_1779539917790_0.7803319422759666","places/turkey/izmir/sigacik-koyu-seferihisar/sigacik-koyu-seferihisar_1779539920999_0.6055049867055113","places/turkey/izmir/sigacik-koyu-seferihisar/sigacik-koyu-seferihisar_1779539923981_0.15803621283114444"
       ],
       "izmir-cesme": [
         "places/turkey/izmir/izmir-cesme/qbulspmcxjcewztozowq",
@@ -914,6 +1062,15 @@
       "nevsehir-cavusin-koyu": [
         "places/turkey/nevşehir/nevsehir-cavusin-koyu/ilaz1pkmvxh5hvkkzpec",
         "places/turkey/nevşehir/nevsehir-cavusin-koyu/ijabyu1lwdfyndvqv2oz"
+      ],
+ "nevsehir-derinkuyu-yeralti-sehri": [
+       "places/turkey/nevşehir/derinkuyu-yeralti-sehri/derinkuyu-yeralti-sehri_1779539057206_0.962842474084203","places/turkey/nevşehir/derinkuyu-yeralti-sehri/derinkuyu-yeralti-sehri_1779539052975_0.20550575724412212"
+
+      ],
+"nevsehir-asmali-konak": [
+      "places/turkey/nevşehir/asmali-konak/asmali-konak_1779539345919_0.2678723574312235","places/turkey/nevşehir/asmali-konak/asmali-konak_1779539350902_0.6004709646895449","places/turkey/nevşehir/asmali-konak/asmali-konak_1779539361749_0.3633480556355321"
+
+
       ]
     },
     "adana": {
@@ -939,20 +1096,29 @@
       "adana-seyhan-baraji": [
         "places/turkey/adana/adana-seyhan-baraji/l7s4w7e1ojte2utw8d1a"
       ],
+  "adana-kozan-kalesi": [
+"places/turkey/adana/kozan-kalesi/kozan-kalesi_1779541828107_0.31665064561630407","places/turkey/adana/kozan-kalesi/kozan-kalesi_1779541842318_0.5863156505057636","places/turkey/adana/kozan-kalesi/kozan-kalesi_1779541850477_0.6521846259877682"
+      ],
       "adana-seyhan-merkez-park": [
         "places/turkey/adana/adana-seyhan-merkez-park/oayyjovyu4jfb5owunkd"
       ],
       "adana-varda-koprusu": [
         "places/turkey/adana/adana-varda-koprusu/cec0dnzmmf5gbrzupsdn",
         "places/turkey/adana/adana-varda-koprusu/lp4jwdqfcu4mmi5i2lrb"
-      ]
+      ],
+"adana-taskopru": [
+"places/turkey/adana/taskopru/taskopru_1779360794678_0.1691548427363584","places/turkey/adana/taskopru/taskopru_1779360791066_0.7620730471972973"
+]
     },
     "adiyaman": {
       "adiyaman-nemrut-dagi": [
         "places/turkey/adıyaman/adiyaman-nemrut-dagi/zwhi9frqdbf4dbvue8bp",
         "places/turkey/adıyaman/adiyaman-nemrut-dagi/eyeyidhsv5ckzy0qd2lb",
         "places/turkey/adıyaman/adiyaman-nemrut-dagi/g4yz2lumcblqg1mgcs13"
-      ]
+      ],
+ "adiyaman-cendere-koprusu": [
+"places/turkey/adıyaman/cendere-koprusu/cendere-koprusu_1779396466017_0.8978259354523863","places/turkey/adıyaman/cendere-koprusu/cendere-koprusu_1779396470378_0.33876176784902545","places/turkey/adıyaman/cendere-koprusu/cendere-koprusu_1779396475603_0.09327043967237991"
+]
     },
     "sivas": {
       "sivas-divrigi-ulu-camii": [
@@ -962,8 +1128,26 @@
       "sivas-gokmedrese": [
         "places/turkey/sivas/sivas-gokmedrese/ednvtishwzktr9d89tzb",
         "places/turkey/sivas/sivas-gokmedrese/fneszdbiogcaocsdhb8k",
-        "places/turkey/sivas/sivas-gokmedrese/qdi5gsgfjw1jvhbmqtxv"
-      ]
+        "places/turkey/sivas/sivas-gokmedrese/qdi5gsgfjw1jvhbmqtxv",
+"places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488241383_0.49076794641128807","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488252199_0.1862747365619627"
+      ],
+      "sivas-cifte-minareli-medrese": [
+      "places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488261560_0.39220257341932496","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488281281_0.3432262860656601","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488297019_0.062469425134037304","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488300329_0.17699750156181593","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488302214_0.5506430002198583","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488305375_0.5834739975256904","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488311505_0.3111694148292107","places/turkey/sivas/cifte-minareli-medrese/cifte-minareli-medrese_1779488315575_0.4697205746640506"
+      ],
+ "sivas-gokpinar-golu": [
+  "places/turkey/sivas/gokpınar-golu/gokpınar-golu_1779545759714_0.07056310474219163","places/turkey/sivas/gokpınar-golu/gokpınar-golu_1779545765230_0.6341450817749263","places/turkey/sivas/gokpınar-golu/gokpınar-golu_1779545771418_0.9031637293407901","places/turkey/sivas/gokpınar-golu/gokpınar-golu_1779545779389_0.1622513373052865"
+
+      ],
+"sivas-buriciye-medresesi": [
+"places/turkey/sivas/buruciye-medresesi/buruciye-medresesi_1779546096826_0.5658736138564142"
+
+
+      ],
+
+"sivas-sivas-ataturk-ve-kongre-muzesi": [
+"places/turkey/sivas/sivas-ataturk-ve-kongre-muzesi/sivas-ataturk-ve-kongre-muzesi_1779546264986_0.31667788704762045","places/turkey/sivas/sivas-ataturk-ve-kongre-muzesi/sivas-ataturk-ve-kongre-muzesi_1779546268658_0.7196642520209653"
+]
+    
     },
     "canakkale": {
       "canakkale-adatepe-koyu": [
@@ -1032,6 +1216,12 @@
       "afyonkarahisar-avdalaz-kalesi": [
         "places/turkey/afyonkarahisar/afyonkarahisar-avdalaz-kalesi/soqan1qhe69jssrmg1iw"
       ],
+ "afyonkarahisar-ayazini-koyu": [
+"places/turkey/afyonkarahisar/ayazini-koyu/ayazini-koyu_1779396763928_0.8893934700029165","places/turkey/afyonkarahisar/ayazini-koyu/ayazini-koyu_1779396768022_0.24484999271662455","places/turkey/afyonkarahisar/ayazini-koyu/ayazini-koyu_1779396771237_0.06524491788449605"
+      ],
+ "afyonkarahisar-afyonkarahisar-kalesi": [
+"places/turkey/afyonkarahisar/afyonkarahisar-kalesi/afyonkarahisar-kalesi_1779396902936_0.4023855273894561"
+],
       "afyonkarahisar-frig-vadisi": [
         "places/turkey/afyonkarahisar/afyonkarahisar-frig-vadisi/ozici7bkfezub23ooomo",
         "places/turkey/afyonkarahisar/afyonkarahisar-frig-vadisi/qpffeybcvfqbewj4am6q",
@@ -1049,8 +1239,12 @@
         "places/turkey/ağrı/agri-agri-dagi/yznxifivajwxidyrgwvt",
         "places/turkey/ağrı/agri-agri-dagi/qkqgshdqupopypaylzim"
       ],
+"agri-dogubayazit-kalesi": [
+       "places/turkey/ağrı/dogubeyazit-kalesi/dogubeyazit-kalesi_1779542208836_0.8759234252527327","places/turkey/ağrı/dogubeyazit-kalesi/dogubeyazit-kalesi_1779542218234_0.0861853155468284"
+
+      ],
       "agri-ishak-pasa-sarayi": [
-        "places/turkey/ağrı/agri-ishak-pasa-sarayi/efqf1ppimpprrqwymzqr",
+        "places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397078319_0.702841272621148","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397088253_0.6127056246884659","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397096057_0.6051656469028774","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397104647_0.035833841608949424","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397108421_0.7470851920926894","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397115288_0.2923633935860084","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397118445_0.27134053178218354","places/turkey/ağrı/agri-ishak-pasa-sarayi/agri-ishak-pasa-sarayi_1779397124479_0.7397177305100646","places/turkey/ağrı/agri-ishak-pasa-sarayi/efqf1ppimpprrqwymzqr",
         "places/turkey/ağrı/agri-ishak-pasa-sarayi/kdyj3jvhoyppnhujnduk"
       ]
     },
@@ -1073,6 +1267,24 @@
         "places/turkey/bartın/bartin-inkumu-plaji/g12gjnlmgevcevtjstwo"
       ]
     },
+ "tokat": {
+      "tokat-tokat-kalesi": [
+"places/turkey/tokat/tokat-kalesi/tokat-kalesi_1779394837003_0.8952030873348037"
+      ],
+"tokat-almus-baraji": [
+"places/turkey/tokat/almus-barajı/almus-barajı_1779395076314_0.41925361497746916"
+      ]
+
+    },
+
+   "rize": {
+      "rize-zilkale": [
+        "places/turkey/rize/zılkale/zılkale_1779394616162_0.015384091005985256"
+
+      ]
+    },
+
+
     "trabzon": {
       "trabzon-ayasofya-muzesi": [
         "places/turkey/trabzon/trabzon-ayasofya-muzesi/e2rwxkksfluubiyljl2d",
@@ -1096,6 +1308,15 @@
         "places/turkey/kars/kars-ani-harabeleri/pzdhcuov580hja5ru4dn",
         "places/turkey/kars/kars-ani-harabeleri/zmwshndxsalee1gisgdg",
         "places/turkey/kars/kars-ani-harabeleri/fhf50azsidjhid50lumd"
+      ],
+"kars-kars-kalesi": [
+      "places/turkey/kars/kars-kalesi/kars-kalesi_1779489691213_0.3917926156170478","places/turkey/kars/kars-kalesi/kars-kalesi_1779489698994_0.4579058976934184","places/turkey/kars/kars-kalesi/kars-kalesi_1779489703088_0.06281757650297648"
+
+      ],
+"kars-cildir-golu": [
+   "places/turkey/kars/cildir-golu/cildir-golu_1779489810284_0.2041120665178947"
+
+
       ]
     },
     "gaziantep": {
@@ -1118,7 +1339,20 @@
         "places/turkey/diyarbakır/diyarbakir-ulu-camii/j5xk6us6ootnzn66yvb6",
         "places/turkey/diyarbakır/diyarbakir-ulu-camii/erxelkjafphtqb5mvuww",
         "places/turkey/diyarbakır/diyarbakir-ulu-camii/ad3vc2wm0ydwdb5kwum8"
+      ],
+"diyarbakir-malabadi-koprusu": [
+        "places/turkey/diyarbakır/malabadi-koprusu/malabadi-koprusu_1779541170148_0.99626010856312","places/turkey/diyarbakır/malabadi-koprusu/malabadi-koprusu_1779541175328_0.5225031308102199","places/turkey/diyarbakır/malabadi-koprusu/malabadi-koprusu_1779541177599_0.23061541294281318","places/turkey/diyarbakır/malabadi-koprusu/malabadi-koprusu_1779541179863_0.5387257090877666"
+
+      ],
+"diyarbakir-on-gozlu-kopru": [
+"places/turkey/diyarbakır/on-gozlu-kopru/on-gozlu-kopru_1779541446172_0.1391362598182374","places/turkey/diyarbakır/on-gozlu-kopru/on-gozlu-kopru_1779541449502_0.22187340262287303","places/turkey/diyarbakır/on-gozlu-kopru/on-gozlu-kopru_1779541454760_0.3946839906366152"
+
+      ],
+"diyarbakir-diyarbakir-sur-ici": [
+"places/turkey/diyarbakır/diyarbakir-sur-ici/diyarbakir-sur-ici_1779541554564_0.8102923164096624"
+
       ]
+
     },
     "batman": {
       "batman-hasankeyf": [
@@ -1152,6 +1386,16 @@
       ],
       "mardin-deyrulzafaran-manastiri": [
         "places/turkey/mardin/mardin-deyrulzafaran-manastiri/uvht8crekiudrwzhp23t"
+      ],
+"mardin-mardin-kalesi": [
+"places/turkey/mardin/mardin-kalesi/mardin-kalesi_1779540530749_0.8746403582421232","places/turkey/mardin/mardin-kalesi/mardin-kalesi_1779540536433_0.8644706420089912"
+      ],
+"mardin-kasimiye-medresesi": [
+"places/turkey/mardin/kasimiye-medresesi/kasimiye-medresesi_1779540724621_0.9663140966950442"
+
+      ],
+"mardin-mor-gabriel-manastiri": [
+"places/turkey/mardin/mor-gabriel-manastiri/mor-gabriel-manastiri_1779540622397_0.23738900723343925","places/turkey/mardin/mor-gabriel-manastiri/mor-gabriel-manastiri_1779540625375_0.44658860923612276","places/turkey/mardin/mor-gabriel-manastiri/mor-gabriel-manastiri_1779540627734_0.1351104143569044","places/turkey/mardin/mor-gabriel-manastiri/mor-gabriel-manastiri_1779540632410_0.264933664444546","places/turkey/mardin/mor-gabriel-manastiri/mor-gabriel-manastiri_1779540635119_0.9115685877816473"
       ],
       "mardin-mardin-evleri": [
         "places/turkey/mardin/mardin-mardin-evleri/cw54nau9gy7rv6l2lxzd",
@@ -1211,15 +1455,67 @@
     "mersin": {
       "mersin-mamure-kalesi": [
         "places/turkey/mersin/mersin-mamure-kalesi/rsim2gv3zsrdo8kdo6vk"
-      ]
+      ],
+
+"mersin-kanli-divane-oren-yeri": [
+
+"places/turkey/mersin/kanlidivane-oren-yeri/kanlidivane-oren-yeri_1779360277795_0.5256635446164557"
+  ],
+"mersin-adamkayalar": [
+
+"places/turkey/mersin/adamkayalar/adamkayalar_1779360469298_0.925154289964614"
+  ],
+"mersin-kizkalesi": [
+"places/turkey/mersin/kizkalesi/kizkalesi_1779360528626_0.24470642793741348","places/turkey/mersin/kizkalesi/kizkalesi_1779360531240_0.9000724317349184","places/turkey/mersin/kizkalesi/kizkalesi_1779360533367_0.9533663349887315"
+  ],
+"mersin-soloi-pompeiopolis-antik-kenti": [
+  "places/turkey/mersin/soloi-pompeiopolis-antik-kenti/soloi-pompeiopolis-antik-kenti_1779392428846_0.21263286787979752"
+]
+
     },
     "mugla": {
       "mugla-akyaka": [
-        "places/turkey/muğla/mugla-akyaka/xumekcdroknqecawxgfn"
+        "places/turkey/muğla/mugla-akyaka/xumekcdroknqecawxgfn",
+"places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359137676_0.6611008155826439","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359140627_0.30740480569315165","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359143530_0.539955988494932","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359146734_0.9783003646506696","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359149126_0.27632717125446393"
       ],
+
+"mugla-tlos-antik-kenti": [
+"places/turkey/muğla/tlos-antik-kenti/tlos-antik-kenti_1779393672219_0.03884818189187578","places/turkey/muğla/tlos-antik-kenti/tlos-antik-kenti_1779393680606_0.9712249653231901"
+],
+
+"mugla-amintas-kaya-mezarlari": [
+"places/turkey/muğla/amintas-kaya-mezarlari/amintas-kaya-mezarlari_1779486339306_0.7087282049859832","places/turkey/muğla/amintas-kaya-mezarlari/amintas-kaya-mezarlari_1779486345221_0.10141380267140687","places/turkey/muğla/amintas-kaya-mezarlari/amintas-kaya-mezarlari_1779486348769_0.5492403998080679","places/turkey/muğla/amintas-kaya-mezarlari/amintas-kaya-mezarlari_1779486351508_0.6493865625158601"
+],
+
+"mugla-kizkumu-plaji": [
+"places/turkey/muğla/kizkumu-plaji/kizkumu-plaji_1779485385699_0.7726637344946493"
+],
+
+"mugla-delikliyol-koyu": [
+"places/turkey/muğla/delikliyol-koyu/delikliyol-koyu_1779485740866_0.12746195634770607"
+],
       "mugla-bodrum-kalesi": [
-        "places/turkey/muğla/mugla-bodrum-kalesi/vd38hqgpi8zbvwk9u3sc"
-      ]
+        "places/turkey/muğla/mugla-bodrum-kalesi/mugla-bodrum-kalesi_1779359182940_0.5874362366143079","places/turkey/muğla/mugla-bodrum-kalesi/mugla-bodrum-kalesi_1779359188447_0.9889930859709517","places/turkey/muğla/mugla-bodrum-kalesi/mugla-bodrum-kalesi_1779359191349_0.8953370695580173","places/turkey/muğla/mugla-bodrum-kalesi/mugla-bodrum-kalesi_1779359196300_0.34433789768925904","places/turkey/muğla/mugla-bodrum-kalesi/vd38hqgpi8zbvwk9u3sc"
+      ],
+"mugla-saklikent-kanyonu": [
+"places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358775540_0.1068881720263758","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358779365_0.14935269779953975","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358783071_0.5328265838275672","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358786543_0.4440382476611545","places/turkey/antalya/saklikent-kanyonu/saklikent-kanyonu_1779358789761_0.2551202891774118"
+],
+"mugla-oludeniz": [
+
+"places/turkey/muğla/oludeniz/oludeniz_1779359273692_0.004095276626490674","places/turkey/muğla/oludeniz/oludeniz_1779359276713_0.38242029000031297","places/turkey/muğla/oludeniz/oludeniz_1779359278331_0.8135542575535973","places/turkey/muğla/oludeniz/oludeniz_1779359284471_0.5249513494951562","places/turkey/muğla/oludeniz/oludeniz_1779359286356_0.15633702752888456"
+],
+"mugla-yassi-adasi": [
+
+"places/turkey/muğla/yassi-adasi/yassi-adasi_1779359331708_0.21973408684680218"
+],
+
+"mugla-inbuku-koyu": [
+
+"places/turkey/muğla/inbuku-koyu/inbuku-koyu_1779359388396_0.2693560075361965"
+],
+"mugla-marmaris": [
+"places/turkey/muğla/marmaris/marmaris_1779360098219_0.4069108726696682","places/turkey/muğla/marmaris/marmaris_1779360102321_0.0644125234814441","places/turkey/muğla/marmaris/marmaris_1779360104589_0.6471403531281826","places/turkey/muğla/marmaris/marmaris_1779360106674_0.4120411911806712","places/turkey/muğla/marmaris/marmaris_1779360108876_0.8992276740517714"
+]
     },
     "amasya": {
       "amasya-amasya-harsena-kalesi": [
@@ -1253,6 +1549,20 @@
         "places/turkey/bilceik/sogut-ertugrul-gazi-muzesi/sogut-ertugrul-gazi-muzesi_1776689919577"
       ]
     },
+"nigde": {
+      "nigde-alaeddin-camii": [
+"places/turkey/niğde/alaeddin-camii/alaeddin-camii_1779486999840_0.6343743255752379","places/turkey/niğde/alaeddin-camii/alaeddin-camii_1779487005099_0.3401961997000357"
+      ],
+      "nigde-gumusler-manastiri": [
+"places/turkey/niğde/gümüsler-manastiri/gümüsler-manastiri_1779487382768_0.8316175045184567","places/turkey/niğde/gümüsler-manastiri/gümüsler-manastiri_1779487389294_0.5067612213623547","places/turkey/niğde/gümüsler-manastiri/gümüsler-manastiri_1779487405584_0.5158174335460697"
+      ],
+"nigde-bolkar-daglari-karagol": [
+"places/turkey/niğde/bolkar-daglari-karagol/bolkar-daglari-karagol_1779487879183_0.2596604172902347"
+],
+"nigde-nigde-kalesi": [
+"places/turkey/niğde/nigde-kalesi/nigde-kalesi_1779488021871_0.9863462960467222"
+]
+    },
 "duzce": {
       "duzce-akcakoca-sahili": [
         "places/turkey/düzce/akcakoca-sahili/akcakoca-sahili_1776690144104"
@@ -1272,7 +1582,13 @@
  "ardahan": {
       "ardahan-posof-yaylasi": [
         "places/turkey/ardahan/posof-yaylasi/posof-yaylasi_1776689156243"
-      ]
+      ],
+"ardahan-seytan-kalesi": [
+"places/turkey/ardahan/seytan-kalesi/seytan-kalesi_1779541921979_0.4394488563411467"
+      ],
+"ardahan-cildir-golu": [
+   "places/turkey/kars/cildir-golu/cildir-golu_1779489810284_0.2041120665178947"
+]
     },
 
     "corum": {
@@ -1285,6 +1601,92 @@
         "places/turkey/bayburt/bayburt-kalesi/bayburt-kalesi_1779189500870",
     "places/turkey/bayburt/bayburt-kalesi/bayburt-kalesi_1779189492280",
     "places/turkey/bayburt/bayburt-kalesi/bayburt-kalesi_1779189508533"
+      ]
+    },
+ "giresun": {
+      "giresun-tirebolu-kalesi": [
+        "places/turkey/giresun/tirebolu-kalesi/tirebolu-kalesi_1779549299048_0.0892468533046471"
+
+      ],
+"giresun-giresun-kalesi": [
+"places/turkey/giresun/giresun-kalesi/giresun-kalesi_1779549476240_0.49618935108886497"
+
+      ],
+"giresun-mavi-gol-dereli": [
+"places/turkey/giresun/mavi-göl/mavi-göl_1779549597528_0.4110340268631846","places/turkey/giresun/mavi-göl/mavi-göl_1779549601574_0.7743544364714928","places/turkey/giresun/mavi-göl/mavi-göl_1779549606474_0.7945685276353789","places/turkey/giresun/mavi-göl/mavi-göl_1779549610487_0.4548720274106044","places/turkey/giresun/mavi-göl/mavi-göl_1779549613785_0.4659330017373894","places/turkey/giresun/mavi-göl/mavi-göl_1779549620165_0.03251560613260007"
+
+      ]
+    },
+"cankiri": {
+      "cankiri-ilgaz-dagi-milli-parki": [
+"places/turkey/çankırı/ilgaz-dagi-milli-parki/ilgaz-dagi-milli-parki_1779548600121_0.9645686585759721"
+
+      ]
+    },
+
+"hatay": {
+      "hatay-payas-kalesi": [
+"places/turkey/hatay/payas-kalesi/payas-kalesi_1779550200967_0.09319680683540288","places/turkey/hatay/payas-kalesi/payas-kalesi_1779550205429_0.1893519607820141","places/turkey/hatay/payas-kalesi/payas-kalesi_1779550207862_0.8288488387105455"
+
+      ]
+    },
+"sakarya": {
+      "sakarya-sapanca-golu": [
+"places/turkey/sakarya/sapanca-golu/sapanca-golu_1779551491518_0.5659431121393917","places/turkey/sakarya/sapanca-golu/sapanca-golu_1779551487141_0.12675774343476565"
+
+      ]
+    },
+
+"samsun": {
+      "samsun-ataturk-aniti": [
+"places/turkey/samsun/atatürk-aniti/atatürk-aniti_1779551615477_0.44256993463110195"
+
+      ],
+   "samsun-sahinkaya-kanyonu": [
+"places/turkey/samsun/sahinkaya-kanyonu/sahinkaya-kanyonu_1779551807069_0.3954826641739606","places/turkey/samsun/sahinkaya-kanyonu/sahinkaya-kanyonu_1779551810612_0.6379358603634272","places/turkey/samsun/sahinkaya-kanyonu/sahinkaya-kanyonu_1779551816055_0.07105058069436021"
+
+
+      ]
+    },
+"mus": {
+      "mus-tarihi-murat-koprusu": [
+"places/turkey/muş/murat-koprusu/murat-koprusu_1779551143358_0.9900334223187816"
+
+      ]
+    },
+"osmaniye": {
+      "osmaniye-kastabala-antik-kenti": [
+"places/turkey/osmaniye/kastabala-antik-kenti/kastabala-antik-kenti_1779551374565_0.4639899094106086","places/turkey/osmaniye/kastabala-antik-kenti/kastabala-antik-kenti_1779551383067_0.11775732540163242"
+
+      ]
+    },
+"ordu": {
+      "ordu-boztepe": [
+"places/turkey/ordu/boztepe/boztepe_1779551260742_0.4537965039537415"
+
+      ]
+    },
+"manisa": {
+      "manisa-sardes-antik-kenti": [
+"places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779550969886_0.295202740537289","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779550980829_0.8293525724826399","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779550988657_0.9242123564211794","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779550992832_0.6361205002700913","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779550996947_0.44970292595023653","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779551001150_0.810807227469071","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779551003582_0.35730200209326857","places/turkey/manisa/sardes-antik-kenti/sardes-antik-kenti_1779551006153_0.3307376470160176"
+
+
+      ]
+    },
+"igdir": {
+      "igdir-tuzluca-magarasi": [
+"places/turkey/ığdır/tuzluca-magarasi/tuzluca-magarasi_1779550408592_0.8763265093339723","places/turkey/ığdır/tuzluca-magarasi/tuzluca-magarasi_1779550431161_0.10660900449214916","places/turkey/ığdır/tuzluca-magarasi/tuzluca-magarasi_1779550397799_0.4145667939308719"
+
+      ]
+    },
+"hakkari": {
+      "hakkari-cilo-dagi": [
+"places/turkey/hakkari/cilo-dagi/cilo-dagi_1779549812680_0.6758675634411048"
+
+      ],
+ "hakkari-sat-buzul-golleri": [
+"places/turkey/hakkari/sat-buzul-golleri/sat-buzul-golleri_1779550023831_0.3196839631872772","places/turkey/hakkari/sat-buzul-golleri/sat-buzul-golleri_1779550041265_0.7566339379467045","places/turkey/hakkari/sat-buzul-golleri/sat-buzul-golleri_1779550045452_0.38910431714903315","places/turkey/hakkari/sat-buzul-golleri/sat-buzul-golleri_1779550048444_0.10484565067717966"
+
       ]
     },
     "usak": {
@@ -1325,24 +1727,24 @@
     },
 "sanliurfa": {
     "sanliurfa-balikligol": [
-      "places/turkey/sanliurfa/balikligol/balikligol_1776691141833",
-      "places/turkey/sanliurfa/balikligol/balikligol_1776691145913",
-      "places/turkey/sanliurfa/balikligol/balikligol_1776691150473",
-      "places/turkey/sanliurfa/balikligol/balikligol_1776691155084",
-      "places/turkey/sanliurfa/balikligol/balikligol_1776691160068"
+      "places/turkey/şanlıurfa/sanliurfa-balikligol/sdy3stkvsnyebndylroo",
+      "places/turkey/şanlıurfa/sanliurfa-balikligol/seixzglpyhaxeybs42g7",
+      "places/turkey/şanlıurfa/sanliurfa-balikligol/xiyo3cte7bewb98zit2i",
+      "places/turkey/şanlıurfa/sanliurfa-balikligol/o80t8rtkrqohsfzlazyo",
+      "places/turkey/şanlıurfa/sanliurfa-balikligol/vhaubnfcuxgvtjjnd3di"
     ],
 
     "sanliurfa-gobeklitepe": [
-      "places/turkey/sanliurfa/gobeklitepe/gobeklitepe_1776691164563",
-      "places/turkey/sanliurfa/gobeklitepe/gobeklitepe_1776691168410",
-      "places/turkey/sanliurfa/gobeklitepe/gobeklitepe_1776691171594",
-      "places/turkey/sanliurfa/gobeklitepe/gobeklitepe_1776691175136",
-      "places/turkey/sanliurfa/gobeklitepe/gobeklitepe_1776691178894"
+      "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/csbbuakxri02uezrimtr",
+      "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/llto3dyzzknworchgp3j",
+      "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/k9dp80klztx2fkgby0ku",
+      "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/wf83m61zc0nn1l05yssf",
+      "places/turkey/şanlıurfa/sanliurfa-gobeklitepe/eldizifl9fmwpgsa0b5k"
     ],
 
     "sanliurfa-rizvaniye-camii": [
-      "places/turkey/sanliurfa/rizvaniye-camii/rizvaniye-camii_1776691182908",
-      "places/turkey/sanliurfa/rizvaniye-camii/rizvaniye-camii_1776691186579"
+      "places/turkey/şanlıurfa/sanliurfa-rizvaniye-camii/eiktstos9w5m3xaeia0p",
+      "places/turkey/şanlıurfa/sanliurfa-rizvaniye-camii/rl4a7pkuqexuqoo5ljbz"
     ]
   }
 }

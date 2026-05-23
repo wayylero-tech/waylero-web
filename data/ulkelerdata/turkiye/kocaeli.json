@@ -1,4 +1,59 @@
 [
+{
+  "slug": "hereke-kalesi",
+  "name": {
+    "tr": "Hereke Kalesi",
+    "en": "Hereke Castle",
+    "de": "Burg Hereke"
+  },
+  "latitude": 40.792500,
+  "longitude": 29.610556,
+  "description": {
+    "tr": "Hereke Kalesi, Kocaeli'nin Körfez ilçesine bağlı Hereke beldesinde, İzmit Körfezi'ne hakim stratejik bir tepede yer alan tarihi bir savunma yapısıdır. M.S. 6.yy civarında, Doğu Roma (Bizans) İmparatorluğu döneminde, imparatorluğun doğu sınırlarını korumak ve İzmit Körfezi'nden geçen ticaret yollarını denetlemek amacıyla inşa edildiği bilinmektedir. Evliya Çelebi'nin Seyahatname'sinde de adı geçen kale, Osmanlı döneminde de stratejik önemini korumuştur. Zamanla büyük ölçüde harabeye dönen yapı, Kocaeli Büyükşehir Belediyesi tarafından yürütülen kapsamlı ve aslına uygun bir restorasyon projesiyle tamamen ayağa kaldırılmıştır. Günümüzde görkemli surları, kuleleri ve seyir teraslarıyla bir açık hava müzesi görünümünde olan kale, ziyaretçilerine hem bin yıllık bir tarihi soluma hem de İzmit Körfezi ve Osman Gazi Köprüsü'nün eşsiz panoramik manzarasını izleme fırsatı sunmaktadır.",
+    "en": "Hereke Castle is a historical defensive fortress situated on a strategic hill overlooking the Gulf of Izmit, located in the Hereke district of Körfez, Kocaeli. Built around the 6th century AD during the Eastern Roman (Byzantine) Empire, the castle was constructed to secure the empire's borders and control the vital trade routes passing through the gulf. Mentioned in the famous 17th-century travelogues of Ottoman traveler Evliya Çelebi, the fortress maintained its military significance for centuries. After falling into ruin over time, the castle was completely revived through a meticulous archaeological restoration project. Today, featuring fortified ramparts, restored bastions, and scenic observation decks, it operates as an open-air historical site offering breathtaking panoramic views of the Gulf of Izmit and the Osman Gazi Bridge.",
+    "de": "Die Burg Hereke (Hereke Kalesi) ist eine historische Verteidigungsanlage auf einem strategischen Hügel über dem Golf von Izmit im Bezirk Körfez in Kocaeli. Sie wurde um das 6. Jahrhundert n. Chr. während des Oströmischen (Byzantinischen) Reiches errichtet, um die Reichsgrenzen zu sichern und die Handelswege entlang des Golfs zu kontrollieren. Die Festung, die auch im berühmten Reisebuch des osmanischen Schriftstellers Evliya Çelebi erwähnt wird, behielt ihre strategische Bedeutung über Jahrhunderte bei. Nach einer umfassenden und originalgetreuen Restaurierung wurde die Anlage vollständig wiederaufgebaut. Heute bietet die Burg mit ihren mächtigen Mauern und Aussichtsplattformen Besuchern die Möglichkeit, in die Geschichte einzutauchen und einen Panoramablick auf den Golf von Izmit und die Osman-Gazi-Brücke zu genießen."
+  },
+  "activities": {
+    "tr": [
+      "Restorasyonla ayağa kaldırılan tarihi Bizans surlarını ve burçları inceleme",
+      "Seyir teraslarından İzmit Körfezi ve Osman Gazi Köprüsü manzarasını fotoğraflama",
+      "Kale çevresindeki yürüyüş yollarında gezinti yapma ve dinlenme"
+    ],
+    "en": [
+      "Examine the restored Byzantine ramparts and defensive bastions",
+      "Photograph the panoramic views of the Gulf of Izmit and the Osman Gazi Bridge from observation decks",
+      "Stroll along the walking paths and relax around the castle grounds"
+    ],
+    "de": [
+      "Die restaurierten byzantinischen Mauern und Bastionen besichtigen",
+      "Den Panoramablick auf den Golf von Izmit und die Osman-Gazi-Brücke fotografieren",
+      "Auf den Spazierwegen rund um das Burggelände wandern und entspannen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kale",
+      "tarihi yapı",
+      "manzara noktası",
+      "arkeolojik alan"
+    ],
+    "en": [
+      "castle",
+      "historical site",
+      "viewpoint",
+      "archaeological site"
+    ],
+    "de": [
+      "burg",
+      "historische stätte",
+      "aussichtspunkt",
+      "archäologische stätte"
+    ]
+  },
+  "images": [
+    "https://example.com/hereke_kalesi_kocaeli.jpg"
+  ]
+},
   {
     "slug": "uzuntarla-tabiat-parki",
     "name": {

@@ -331,6 +331,52 @@
       "https://example.com/altinkum_plaji.jpg"
     ]
   },
+{
+    "slug": "guvercin-ada",
+    "name": {
+      "tr": "Güvercin Ada",
+      "en": "Pigeon Island",
+      "de": "Taubeninsel"
+    },
+    "latitude": 37.86322,
+    "longitude": 27.24876,
+    "description": {
+      "tr": "Güvercin Ada, Aydın’ın Kuşadası ilçesinde yer alan ve Ege Denizi’nin eşsiz manzarasıyla çevrili olan tarihi ve doğal güzellikleriyle ünlü bir adadır. Kuşadası’nın simgelerinden biri haline gelen bu ada, karaya ince bir yol ile bağlanmış olup ziyaretçilere hem kolay ulaşım hem de benzersiz bir deneyim sunmaktadır. Tarih boyunca stratejik bir konuma sahip olan Güvercin Ada, korsan saldırılarına karşı savunma amacıyla kullanılmış ve üzerinde yer alan kale ile dikkat çekmiştir.\n\nAdanın en önemli yapısı olan Güvercinada Kalesi, Osmanlı döneminde güçlendirilmiş olup günümüzde de ayakta kalan tarihi bir yapıdır. Kale surları, ziyaretçilere geçmişin izlerini yakından görme fırsatı sunarken aynı zamanda Kuşadası Körfezi’nin panoramik manzarasını izleme imkanı sağlar. Bu yönüyle ada, hem tarih hem de manzara tutkunları için oldukça cazip bir noktadır.\n\nGüvercin Ada, sadece tarihi ile değil, aynı zamanda doğal güzellikleri ve huzurlu atmosferi ile de öne çıkmaktadır. Ada çevresinde yürüyüş yapabilir, deniz manzarasının keyfini çıkarabilir ve sakin bir ortamda dinlenebilirsiniz. Özellikle gün batımında sunulan manzara, ziyaretçilere unutulmaz anlar yaşatır.\n\nKuşadası merkezine oldukça yakın bir konumda bulunan Güvercin Ada, kolay ulaşılabilir olması sayesinde yıl boyunca yerli ve yabancı turistlerin ilgisini çekmektedir. Bölgeye gelen ziyaretçiler, hem deniz tatilinin keyfini çıkarabilir hem de tarihi bir keşif yapma fırsatı bulabilirler.\n\nSonuç olarak Güvercin Ada, tarihi kalesi, doğal güzellikleri ve eşsiz manzarası ile Kuşadası’nda mutlaka görülmesi gereken yerler arasında yer almaktadır. Huzurlu bir atmosferde vakit geçirmek ve Ege’nin büyüleyici doğasını keşfetmek isteyenler için ideal bir destinasyondur.",
+      "en": "Pigeon Island, located in Kuşadası in Aydın Province, is a remarkable destination surrounded by the beautiful waters of the Aegean Sea. As one of the iconic landmarks of Kuşadası, the island is connected to the mainland by a narrow causeway, making it easily accessible for visitors. Historically, the island held strategic importance and was used as a defensive point against pirate attacks, which is why a fortress was built on it.\n\nThe most prominent structure on the island is Güvercinada Castle, which was reinforced during the Ottoman period and still stands today. The castle walls offer visitors the chance to explore history while enjoying panoramic views of Kuşadası Bay. This makes the island an attractive destination for both history enthusiasts and nature lovers.\n\nPigeon Island is also known for its peaceful atmosphere and natural beauty. Visitors can take relaxing walks around the island, enjoy the sea views, and experience a calm environment away from the crowds. The sunset views from the island are particularly breathtaking.\n\nDue to its close proximity to Kuşadası town center, Pigeon Island is easily accessible and attracts many tourists throughout the year. Visitors can combine a beach holiday with a cultural exploration in this unique location.\n\nIn conclusion, Pigeon Island stands out as a must-visit destination in Kuşadası with its historical castle, natural beauty, and stunning scenery. It is an ideal place for those seeking tranquility and a deeper connection with nature.",
+      "de": "Die Taubeninsel (Güvercin Ada) befindet sich in Kuşadası in der Provinz Aydın und ist ein beeindruckendes Reiseziel, das von den Gewässern der Ägäis umgeben ist. Als eines der Wahrzeichen von Kuşadası ist die Insel über einen schmalen Damm mit dem Festland verbunden und daher leicht zugänglich. Historisch hatte die Insel eine strategische Bedeutung und wurde zum Schutz vor Piratenangriffen genutzt, weshalb dort eine Festung errichtet wurde.\n\nDas bekannteste Bauwerk auf der Insel ist die Güvercinada-Festung, die während der osmanischen Zeit verstärkt wurde und bis heute erhalten ist. Die Mauern der Festung bieten Besuchern die Möglichkeit, in die Geschichte einzutauchen und gleichzeitig den Panoramablick auf die Bucht von Kuşadası zu genießen. Dadurch ist die Insel sowohl für Geschichtsinteressierte als auch für Naturliebhaber attraktiv.\n\nDie Taubeninsel ist auch für ihre ruhige Atmosphäre und ihre natürliche Schönheit bekannt. Besucher können entspannte Spaziergänge unternehmen, den Blick auf das Meer genießen und die friedliche Umgebung erleben. Besonders die Sonnenuntergänge sind beeindruckend.\n\nDank ihrer Nähe zum Stadtzentrum von Kuşadası ist die Insel leicht erreichbar und zieht das ganze Jahr über viele Touristen an. Sie bietet die perfekte Kombination aus Badeurlaub und kultureller Entdeckung.\n\nZusammenfassend ist die Taubeninsel mit ihrer historischen Festung, ihrer natürlichen Schönheit und ihrer einzigartigen Lage ein unverzichtbares Reiseziel in Kuşadası."
+    },
+    "activities": {
+      "tr": [
+        "Tekne turları yapmak",
+        "Yüzmek",
+        "Şnorkelle dalış yapmak"
+      ],
+      "en": [
+        "Take boat tours",
+        "Swim",
+        "Snorkel"
+      ],
+      "de": [
+        "Bootstouren machen",
+        "Schwimmen",
+        "Schnorcheln"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/guvercin_ada_plaji.jpg"
+    ]
+  },
   {
     "slug": "alabanda-antik-kenti",
     "name": {
@@ -565,52 +611,7 @@
       "https://example.com/long_beach.jpg"
     ]
   },
-  {
-    "slug": "guvercin-ada",
-    "name": {
-      "tr": "Güvercin Ada",
-      "en": "Pigeon Island",
-      "de": "Taubeninsel"
-    },
-    "latitude": 37.86322,
-    "longitude": 27.24876,
-    "description": {
-      "tr": "Güvercin Ada, Aydın’ın Kuşadası ilçesinde yer alan ve Ege Denizi’nin eşsiz manzarasıyla çevrili olan tarihi ve doğal güzellikleriyle ünlü bir adadır. Kuşadası’nın simgelerinden biri haline gelen bu ada, karaya ince bir yol ile bağlanmış olup ziyaretçilere hem kolay ulaşım hem de benzersiz bir deneyim sunmaktadır. Tarih boyunca stratejik bir konuma sahip olan Güvercin Ada, korsan saldırılarına karşı savunma amacıyla kullanılmış ve üzerinde yer alan kale ile dikkat çekmiştir.\n\nAdanın en önemli yapısı olan Güvercinada Kalesi, Osmanlı döneminde güçlendirilmiş olup günümüzde de ayakta kalan tarihi bir yapıdır. Kale surları, ziyaretçilere geçmişin izlerini yakından görme fırsatı sunarken aynı zamanda Kuşadası Körfezi’nin panoramik manzarasını izleme imkanı sağlar. Bu yönüyle ada, hem tarih hem de manzara tutkunları için oldukça cazip bir noktadır.\n\nGüvercin Ada, sadece tarihi ile değil, aynı zamanda doğal güzellikleri ve huzurlu atmosferi ile de öne çıkmaktadır. Ada çevresinde yürüyüş yapabilir, deniz manzarasının keyfini çıkarabilir ve sakin bir ortamda dinlenebilirsiniz. Özellikle gün batımında sunulan manzara, ziyaretçilere unutulmaz anlar yaşatır.\n\nKuşadası merkezine oldukça yakın bir konumda bulunan Güvercin Ada, kolay ulaşılabilir olması sayesinde yıl boyunca yerli ve yabancı turistlerin ilgisini çekmektedir. Bölgeye gelen ziyaretçiler, hem deniz tatilinin keyfini çıkarabilir hem de tarihi bir keşif yapma fırsatı bulabilirler.\n\nSonuç olarak Güvercin Ada, tarihi kalesi, doğal güzellikleri ve eşsiz manzarası ile Kuşadası’nda mutlaka görülmesi gereken yerler arasında yer almaktadır. Huzurlu bir atmosferde vakit geçirmek ve Ege’nin büyüleyici doğasını keşfetmek isteyenler için ideal bir destinasyondur.",
-      "en": "Pigeon Island, located in Kuşadası in Aydın Province, is a remarkable destination surrounded by the beautiful waters of the Aegean Sea. As one of the iconic landmarks of Kuşadası, the island is connected to the mainland by a narrow causeway, making it easily accessible for visitors. Historically, the island held strategic importance and was used as a defensive point against pirate attacks, which is why a fortress was built on it.\n\nThe most prominent structure on the island is Güvercinada Castle, which was reinforced during the Ottoman period and still stands today. The castle walls offer visitors the chance to explore history while enjoying panoramic views of Kuşadası Bay. This makes the island an attractive destination for both history enthusiasts and nature lovers.\n\nPigeon Island is also known for its peaceful atmosphere and natural beauty. Visitors can take relaxing walks around the island, enjoy the sea views, and experience a calm environment away from the crowds. The sunset views from the island are particularly breathtaking.\n\nDue to its close proximity to Kuşadası town center, Pigeon Island is easily accessible and attracts many tourists throughout the year. Visitors can combine a beach holiday with a cultural exploration in this unique location.\n\nIn conclusion, Pigeon Island stands out as a must-visit destination in Kuşadası with its historical castle, natural beauty, and stunning scenery. It is an ideal place for those seeking tranquility and a deeper connection with nature.",
-      "de": "Die Taubeninsel (Güvercin Ada) befindet sich in Kuşadası in der Provinz Aydın und ist ein beeindruckendes Reiseziel, das von den Gewässern der Ägäis umgeben ist. Als eines der Wahrzeichen von Kuşadası ist die Insel über einen schmalen Damm mit dem Festland verbunden und daher leicht zugänglich. Historisch hatte die Insel eine strategische Bedeutung und wurde zum Schutz vor Piratenangriffen genutzt, weshalb dort eine Festung errichtet wurde.\n\nDas bekannteste Bauwerk auf der Insel ist die Güvercinada-Festung, die während der osmanischen Zeit verstärkt wurde und bis heute erhalten ist. Die Mauern der Festung bieten Besuchern die Möglichkeit, in die Geschichte einzutauchen und gleichzeitig den Panoramablick auf die Bucht von Kuşadası zu genießen. Dadurch ist die Insel sowohl für Geschichtsinteressierte als auch für Naturliebhaber attraktiv.\n\nDie Taubeninsel ist auch für ihre ruhige Atmosphäre und ihre natürliche Schönheit bekannt. Besucher können entspannte Spaziergänge unternehmen, den Blick auf das Meer genießen und die friedliche Umgebung erleben. Besonders die Sonnenuntergänge sind beeindruckend.\n\nDank ihrer Nähe zum Stadtzentrum von Kuşadası ist die Insel leicht erreichbar und zieht das ganze Jahr über viele Touristen an. Sie bietet die perfekte Kombination aus Badeurlaub und kultureller Entdeckung.\n\nZusammenfassend ist die Taubeninsel mit ihrer historischen Festung, ihrer natürlichen Schönheit und ihrer einzigartigen Lage ein unverzichtbares Reiseziel in Kuşadası."
-    },
-    "activities": {
-      "tr": [
-        "Tekne turları yapmak",
-        "Yüzmek",
-        "Şnorkelle dalış yapmak"
-      ],
-      "en": [
-        "Take boat tours",
-        "Swim",
-        "Snorkel"
-      ],
-      "de": [
-        "Bootstouren machen",
-        "Schwimmen",
-        "Schnorcheln"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/guvercin_ada_plaji.jpg"
-    ]
-  },
+  
   {
     "slug": "aydin-arkeoloji-muzesi",
     "name": {

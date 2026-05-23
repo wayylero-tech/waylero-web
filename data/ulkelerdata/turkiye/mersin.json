@@ -45,6 +45,203 @@
       "https://example.com/mamure_kalesi.jpg"
     ]
   },
+{
+  "slug": "kanli-divane-oren-yeri",
+  "name": {
+    "tr": "Kanlıdivane Ören Yeri",
+    "en": "Kanlidivane Archaeological Site",
+    "de": "Kanlidivane Archäologische Stätte"
+  },
+  "latitude": 36.5264,
+  "longitude": 34.1772,
+  "description": {
+    "tr": "Kanlıdivane Ören Yeri, Mersin ilinin Erdemli ilçesinde, tarihi Olba Krallığı'nın en önemli kutsal yerleşimlerinden biri olan antik 'Kanytelleis' kentinin kalıntıları üzerine kurulmuş büyüleyici bir açık hava müzesidir. Bu arkeolojik alanı dünyadaki diğer antik kentlerden ayıran en radikal özellik, merkezinde yer alan 30 metre derinliğindeki devasa bir doğal obruktur. Mitolojiye ve tarihi anlatılara göre antik dönemde suçluların bu obruğun içerisine atılarak vahşi hayvanlara yem edildiği inanışı, bölgeye halk arasında 'Kanlıdivane' isminin verilmesine neden olmuştur. Obruğun çevresinde ve yamaçlarında geç Roma, Bizans ve Olba dönemlerine ait kuleler, sarnıçlar, kiliseler, kaya mezarları ve asilzadeleri simgeleyen meşhur kaya kabartmaları yer almaktadır. Kanlıdivane Ören Yeri, Kültür ve Turizm Bakanlığı'na bağlı resmi bir ören yeri statüsünde olup, içeriye girişler biletlidir ve T.C. vatandaşları için geçerli olan Müzekart burada aktif olarak kullanılabilmektedir. Alanın profesyonelce ışıklandırılmış altyapısı sayesinde dönem dönem obruğun mistik atmosferinde harika akustik konserler ve kültürel etkinlikler de düzenlenmektedir. Waylero dijital seyahat planlayıcısı kullanıcılarına hem jeolojik bir doğa olayını hem de binlerce yıllık köklü bir tarihi aynı anda sunan destinasyon, Mersin-Antalya (D400) sahil yoluna sadece 3 km, Erdemli ilçe merkezine 15 km ve Mersin merkeze yaklaşık 50 km mesafededir. Özel araçla sahil yolundaki Kanlıdivane tabelasından sapılarak çok konforlu bir yolla ulaşılabileceği gibi, Mersin-Silifke arasında çalışan şehir içi otobüsler veya dolmuşlarla Kumkuyu mevkiinde inilerek de alana kolayca erişim sağlanabilir. Bu gizemli açık hava müzesi, 'Mersin gezilecek yerler', 'Mersin antik kentleri' ve 'Akdeniz tarihi yerler' arama hacimlerinde doğrudan üst sıralara yerleşecek muazzam bir SEO derinliğine sahiptir.",
+    "en": "Kanlidivane Archaeological Site, located in the Erdemli district of Mersin province, is a fascinating open-air museum built on the ruins of the ancient city of 'Kanytelleis', one of the most important sacred settlements of the historical Olba Kingdom. The most radical feature that distinguishes this archaeological site from other ancient cities in the world is a massive natural sinkhole (chasm) with a depth of 30 meters located at its center. According to mythology and historical narratives, the belief that criminals were thrown into this sinkhole and fed to wild animals in the ancient period led the local people to name the region 'Kanlidivane' (Bloody Madness). Surrounding the sinkhole and on its slopes are towers, cisterns, churches, rock-cut tombs, and famous rock reliefs symbolizing noblemen belonging to the late Roman, Byzantine, and Olbian periods. Kanlidivane is an official archaeological site affiliated with the Ministry of Culture and Tourism, entry is ticketed, and the Museum Pass (Muzekart) is fully valid for Turkish citizens and eligible visitors. Thanks to the professionally illuminated infrastructure of the site, wonderful acoustic concerts and cultural events are occasionally organized in the mystical atmosphere of the chasm. Offering Waylero digital travel planner users both a geological nature phenomenon and thousands of years of deep-rooted history simultaneously, the destination is only 3 km away from the Mersin-Antalya (D400) coastal highway, 15 km from Erdemli district center, and approximately 50 km from Mersin city center. It can be reached very comfortably by private vehicles by turning off at the Kanlidivane sign on the coastal road, or easily accessed by taking the municipal buses or minibuses operating between Mersin and Silifke and getting off at the Kumkuyu location. This mysterious open-air museum possesses a massive SEO depth that will rank high for search trends like 'Mersin places to visit', 'ancient cities in Mersin', and 'Mediterranean historical sites'.",
+    "de": "Kanlidivane Antike Stadt und Ruinen."
+  },
+  "activities": {
+    "tr": [
+      "Devasa doğal obruk ve çevresindeki antik kalıntıları keşif",
+      "Kaya mezarları ve Olba Krallığı kabartmalarını inceleme",
+      "Antik kiliseler ve sarnıçlar arasında tarih yürüyüşü",
+      "Arkeoloji ve doğa fotoğrafçılığı"
+    ],
+    "en": [
+      "Exploring the massive natural sinkhole and surrounding ancient ruins",
+      "Examining rock-cut tombs and Olba Kingdom reliefs",
+      "Historical trekking among ancient churches and cisterns",
+      "Archaeology and nature photography"
+    ],
+    "de": [
+      "Erkundung der riesigen Doline und der antiken Ruinen",
+      "Besichtigung von Felsengräbern und Olba-Reliefs",
+      "Historische Wanderung zwischen antiken Kirchen",
+      "Archäologie- und Naturfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-mekan",
+      "oren-yeri",
+      "dogal-guzellik",
+      "acik-hava-muzesi"
+    ],
+    "en": [
+      "historical-site",
+      "archaeological-site",
+      "natural-wonder",
+      "open-air-museum"
+    ],
+    "de": [
+      "historische-staette",
+      "archaeologische-staette",
+      "naturwunder",
+      "freilichtmuseum"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/1/15/Kanl%C4%B1divane_01.jpg"
+  ]
+},
+{
+    "slug": "kizkalesi",
+    "name": {
+      "tr": "Kızkalesi",
+      "en": "Kızkalesi",
+      "de": "Kızkalesi"
+    },
+    "latitude": 36.45729,
+    "longitude": 34.14787,
+    "description": {
+      "tr": "Kızkalesi, Mersin ilinin Erdemli ilçesine bağlı aynı adlı sahil beldesinde yer alan tarihi bir deniz kalesidir. Akdeniz'in ortasında küçük bir ada üzerinde bulunan bu etkileyici yapı, kıyıdan yaklaşık 200 metre açıkta yer almaktadır ve bölgenin en önemli tarihi simgelerinden biridir.\n\nKalenin kesin yapım tarihi tam olarak bilinmemekle birlikte Bizans döneminde, yaklaşık 12. yüzyılda inşa edildiği düşünülmektedir. Kızkalesi, Orta Çağ boyunca korsan saldırılarına karşı limanı korumak amacıyla kullanılmıştır. Daha sonraki dönemlerde Ermeniler, Selçuklular ve Osmanlılar tarafından da kullanılmış ve çeşitli onarımlar görmüştür.\n\nKızkalesi ile kıyıda bulunan Kara Kalesi (Corycus Kalesi) arasında savunma amaçlı bir bağlantı sistemi olduğu düşünülmektedir. Günümüzde kalenin surları, kuleleri ve iç yapısının büyük bölümü ayakta kalmayı başarmıştır ve ziyaretçilere etkileyici bir tarihi atmosfer sunmaktadır.\n\nKızkalesi aynı zamanda ünlü bir efsaneye de konu olmuştur. Rivayete göre bir kral, kızının yılan tarafından öldürüleceğini öğrenince onu korumak için bu kaleyi yaptırarak denizin ortasına yerleştirir. Ancak bir gün kaleye gönderilen üzüm sepetinin içinden çıkan yılan prensesi sokar ve kehanet gerçekleşir. Bu efsane nedeniyle yapı halk arasında Kızkalesi olarak anılmaya başlanmıştır.\n\nKızkalesi'ne ulaşım yaz aylarında sahilden kalkan küçük teknelerle sağlanmaktadır. Ziyaretçiler tekne ile kaleye giderek tarihi yapıyı yakından inceleyebilir. Mersin şehir merkezine yaklaşık 60 kilometre uzaklıkta bulunan Kızkalesi, hem tarihi yapısı hem de güzel plajları ile bölgenin en popüler turizm noktalarından biridir.",
+      "en": "Maiden's Castle (Kızkalesi) is a historic sea castle located in the Erdemli district of Mersin, Turkey. The castle stands on a small island in the Mediterranean Sea, approximately 200 meters from the shore, and is one of the most iconic landmarks of the region.\n\nAlthough the exact construction date is unknown, the castle is believed to have been built during the Byzantine period around the 12th century. During the Middle Ages, the castle served as a defensive structure protecting the harbor from pirate attacks. Later, it was used and repaired by the Armenians, Seljuks, and Ottomans.\n\nIt is believed that there was a defensive connection between Maiden's Castle and the nearby land fortress known as Corycus Castle. Today, much of the castle's walls, towers, and internal structures remain standing, offering visitors an impressive glimpse into medieval architecture.\n\nMaiden's Castle is also famous for a local legend. According to the story, a king learned from a prophecy that his daughter would die from a snake bite. To protect her, he built a castle in the middle of the sea and placed her there. However, a snake hidden in a basket of grapes eventually reached the princess and fulfilled the prophecy. Because of this legend, the castle became known as Maiden's Castle.\n\nVisitors can reach the castle by small boats departing from the nearby beach during the summer season. Located about 60 kilometers from the city center of Mersin, Maiden's Castle is one of the most popular tourist destinations in the region thanks to its historical significance and beautiful beaches.",
+      "de": "Die Mädchenburg (Kızkalesi) ist eine historische Seefestung im Bezirk Erdemli der Provinz Mersin in der Türkei. Die Burg befindet sich auf einer kleinen Insel im Mittelmeer, etwa 200 Meter von der Küste entfernt, und ist eines der bekanntesten Wahrzeichen der Region.\n\nDas genaue Baujahr der Burg ist nicht bekannt, jedoch wird angenommen, dass sie im 12. Jahrhundert während der byzantinischen Zeit errichtet wurde. Im Mittelalter diente die Burg zum Schutz des Hafens vor Piratenangriffen. Später wurde sie von Armeniern, Seldschuken und Osmanen genutzt und mehrfach restauriert.\n\nEs wird vermutet, dass es ein Verteidigungssystem zwischen der Inselburg und der nahegelegenen Landfestung Corycus gab. Heute sind große Teile der Mauern, Türme und inneren Strukturen der Burg noch erhalten.\n\nDie Burg ist auch Gegenstand einer bekannten Legende. Einer Prophezeiung zufolge sollte die Tochter eines Königs durch einen Schlangenbiss sterben. Um sie zu schützen, ließ der König die Burg mitten im Meer errichten. Dennoch gelangte eine Schlange in einem Korb mit Trauben zur Prinzessin und erfüllte die Prophezeiung. Daher erhielt die Burg den Namen Mädchenburg.\n\nDie Burg kann im Sommer mit kleinen Booten vom Strand aus erreicht werden. Sie liegt etwa 60 Kilometer vom Stadtzentrum von Mersin entfernt und zählt aufgrund ihrer historischen Bedeutung und der schönen Strände zu den beliebtesten touristischen Zielen der Region."
+    },
+    "activities": {
+      "tr": [
+        "Kızkalesi’ni ziyaret etmek",
+        "Tekneyle adaya gitmek"
+      ],
+      "en": [
+        "Visit Kızkalesi",
+        "Take a boat to the island"
+      ],
+      "de": [
+        "Besuchen Sie das Kızkalesi",
+        "Mit dem Boot zur Insel fahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kizkalesi.jpg"
+    ]
+  },
+  {
+    "slug": "adamkayalar",
+    "name": {
+      "tr": "Adamkayalar",
+      "en": "Adamkayalar",
+      "de": "Adamkayalar"
+    },
+    "latitude": 36.484084115046734,
+    "longitude": 34.12069200083824,
+    "description": {
+    "tr": "Adamkayalar, Mersin’in Erdemli ilçesine bağlı Kızkalesi yakınlarında bulunan ve özellikle Roma ile erken Bizans dönemlerine tarihlenen kaya oyma mezarlarıyla tanınan önemli bir arkeolojik alandır. Toros Dağları’nın eteklerinde, sarp ve ulaşımı nispeten zor bir vadide konumlanan bu alan, doğal yapısı ile tarihsel mirası bir arada sunar. Bölge, hem etkileyici manzarası hem de barındırdığı kültürel değerler sayesinde ziyaretçilerine farklı bir deneyim sunmaktadır.\n\nAdamkayalar’ın en dikkat çekici özelliği, kayalara oyulmuş mezarların dış yüzeylerinde yer alan insan kabartmalarıdır. Bu figürler genellikle erkek, kadın ve çocuk bireyleri temsil eder ve dönemin sosyal yapısı hakkında önemli ipuçları verir. Figürlerin yanında yer alan yazıtlar ve semboller, ölen kişilerin kimlikleri, statüleri ve inanç sistemleri hakkında bilgi sağlamaktadır. Bu yönüyle Adamkayalar, yalnızca bir mezar alanı değil, aynı zamanda dönemin yaşam tarzını ve kültürel değerlerini yansıtan açık hava arşivi niteliğindedir.\n\nMezarların büyük çoğunluğu Roma dönemine ait olmakla birlikte, Bizans döneminde de kullanıldığı ve bazı eklemeler yapıldığı düşünülmektedir. Kayalara oyularak yapılan bu mezarlar, dönemin mühendislik ve taş işçiliği becerilerini gözler önüne serer. Aynı zamanda bölgedeki yerleşimlerin ekonomik ve sosyal yapısı hakkında da önemli bilgiler sunar.\n\nAdamkayalar’a ulaşım zorlu bir yürüyüş gerektirebilir, bu nedenle ziyaretçilerin hazırlıklı olması önerilir. Ancak bu zorluk, bölgenin doğal ve tarihi dokusunun korunmasına katkı sağlamıştır. Alan, özellikle tarih, arkeoloji ve fotoğrafçılıkla ilgilenenler için oldukça cazip bir noktadır. Vadinin derinliği, kayaların görkemi ve mezar kabartmalarının detayları, ziyaretçilere etkileyici görüntüler sunar.\n\nGenel olarak Adamkayalar, Mersin’in en özgün ve etkileyici tarihi alanlarından biri olup, geçmiş uygarlıkların izlerini yakından görmek isteyenler için benzersiz bir keşif fırsatı sunmaktadır.",
+    "en": "Adamkayalar is an important archaeological site located near Kızkalesi in the Erdemli district of Mersin, Türkiye. It is especially known for its rock-cut tombs dating back to the Roman and early Byzantine periods. The site lies within a rugged valley on the slopes of the Taurus Mountains, offering a dramatic natural setting that enhances its historical significance. Due to its relatively remote location, Adamkayalar has preserved much of its original character, making it a fascinating destination for visitors interested in history and culture.\n\nThe most striking feature of Adamkayalar is the series of human reliefs carved onto the exterior surfaces of the rock-cut tombs. These figures typically depict men, women, and children, and they provide valuable insights into the social structure and family life of the time. Some carvings are accompanied by inscriptions and symbolic elements, which are believed to convey information about the identity, status, and beliefs of the deceased individuals. These artistic and cultural expressions make the site a unique open-air record of ancient funerary traditions.\n\nMost of the tombs are thought to have been constructed during the Roman period, with continued use and possible modifications in the Byzantine era. The craftsmanship involved in carving these tombs into solid rock demonstrates a high level of skill and technical knowledge. The site also offers clues about the economic and cultural life of the communities that once lived in the region.\n\nReaching Adamkayalar typically requires a hike through uneven and sometimes challenging terrain. While this may limit easy access, it has also helped protect the site from heavy tourism and modern development. Visitors are advised to wear appropriate footwear and come prepared for outdoor conditions.\n\nIn addition to its historical importance, Adamkayalar is a visually impressive location. The combination of steep cliffs, detailed carvings, and expansive valley views makes it particularly appealing for photography. The play of light and shadow across the rock surfaces further enhances the visual experience.\n\nOverall, Adamkayalar stands out as one of the most distinctive historical sites in Mersin. It offers a rare opportunity to explore ancient burial traditions, observe intricate rock carvings, and experience the intersection of natural beauty and cultural heritage. For history and archaeology enthusiasts, it is truly a unique and rewarding place to visit.",
+      "de": "Adamkayalar ist eine Region in der Nähe von Kızkalesi im Bezirk Erdemli in Mersin, die für ihre Felsengräber aus der römischen und byzantinischen Zeit bekannt ist.\nDie Felsengravuren von menschlichen Figuren an der Außenseite der Gräber sind das auffälligste Merkmal der Region.\nDiese Gravuren sind wichtige Artefakte, die den Glauben und die Bestattungsriten der lokalen Bevölkerung der damaligen Zeit widerspiegeln.\nAdamkayalar ist ein einzigartiger Ort für Geschichts- und Archäologieliebhaber.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kaya mezarlarını keşfetmek",
+        "Mezar figürlerini incelemek",
+        "Fotoğraf çekmek",
+        "Tarihi hakkında bilgi edinmek",
+        "Doğa yürüyüşleri yapmak"
+      ],
+      "en": [
+        "Explore the rock tombs",
+        "Examine the tomb figures",
+        "Take photos",
+        "Learn about its history",
+        "Go for nature walks"
+      ],
+      "de": [
+        "Die Felsengräber erkunden",
+        "Die Grabfiguren untersuchen",
+        "Fotos machen",
+        "Über die Geschichte lernen",
+        "Wanderungen in der Natur machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik anıt"
+      ],
+      "en": [
+        "ancient monument"
+      ],
+      "de": [
+        "antikes Denkmal"
+      ]
+    },
+    "images": [
+      "https://example.com/adamkayalar_mezar.jpg",
+      "https://example.com/adamkayalar_figurer.jpg"
+    ]
+  },
+ {
+    "slug": "soloi-pompeiopolis-antik-kenti",
+    "name": {
+      "tr": "Soloi Pompeiopolis Antik Kenti",
+      "en": "Soloi Pompeiopolis Ancient City",
+      "de": "Soloi Pompeiopolis Antike Stadt"
+    },
+    "latitude": 36.74323,
+    "longitude": 34.53491,
+    "description": {
+      "tr": "Soloi-Pompeiopolis Antik Kenti, Mersin'in Mezitli ilçesinde Akdeniz kıyısında yer alan önemli bir arkeolojik yerleşim alanıdır. Antik kentin kuruluşunun MÖ 7. yüzyıla kadar uzandığı düşünülmektedir. Kent, antik çağlarda Kilikya bölgesinin önemli liman şehirlerinden biri olarak ticaret ve denizcilik açısından büyük önem taşımıştır.\n\nSoloi adıyla kurulan kent, Roma döneminde ünlü Romalı komutan Pompeius tarafından yeniden düzenlenmiş ve bu nedenle Pompeiopolis adıyla anılmaya başlanmıştır. Kent özellikle Roma döneminde büyük bir gelişim göstermiştir.\n\nAntik kentte günümüze kadar ulaşan en dikkat çekici yapı kalıntıları arasında sütunlu cadde (colonnaded street), antik liman kalıntıları, hamam yapıları, tiyatro ve çeşitli mezar yapıları bulunmaktadır. Özellikle yaklaşık 200 metre uzunluğundaki sütunlu cadde, kentin en etkileyici bölümlerinden biridir ve ziyaretçilere antik dönem mimarisini yakından görme fırsatı sunar.\n\nSoloi-Pompeiopolis Antik Kenti aynı zamanda felsefe ve kültür açısından da önemli bir merkez olmuştur. Ünlü Stoacı filozof Chrysippos'un bu kentte doğduğu bilinmektedir.\n\nAntik kent Mersin şehir merkezine yaklaşık 11 kilometre uzaklıktadır ve Mezitli ilçesinde yer almaktadır. Şehir merkezinden özel araçla veya toplu taşıma ile kolayca ulaşılabilir. Bölge günümüzde arkeolojik sit alanı olarak korunmakta ve ziyaretçilere açık bir açık hava müzesi niteliği taşımaktadır.\n\nTarihi limanı, sütunlu caddesi ve etkileyici kalıntıları ile Soloi-Pompeiopolis Antik Kenti, Mersin'de görülmesi gereken en önemli tarihi yerlerden biridir.",
+      "en": "Soloi-Pompeiopolis Ancient City is an important archaeological site located on the Mediterranean coast in the Mezitli district of Mersin. The origins of the city are believed to date back to the 7th century BC. In ancient times, it was one of the most important port cities of the Cilicia region and played a significant role in maritime trade.\n\nOriginally founded as Soloi, the city was later reorganized by the Roman general Pompey after his campaigns against pirates in the Mediterranean. Following this reconstruction, the city became known as Pompeiopolis.\n\nAmong the most remarkable remains of the ancient city are the colonnaded street, ancient harbor structures, baths, theater ruins, and various tomb structures. The colonnaded street, approximately 200 meters long, is one of the most impressive features of the site and offers visitors a glimpse into Roman urban architecture.\n\nSoloi-Pompeiopolis was also an important cultural and philosophical center. The famous Stoic philosopher Chrysippus is believed to have been born in this city.\n\nThe ancient city is located about 11 kilometers from Mersin city center and can easily be reached from the city by car or public transportation. Today, the site is protected as an archaeological area and functions as an open-air museum.\n\nWith its historical harbor, monumental columns, and fascinating ruins, Soloi-Pompeiopolis Ancient City is considered one of the most important historical attractions in the Mersin region.",
+      "de": "Die antike Stadt Soloi-Pompeiopolis befindet sich im Bezirk Mezitli der Provinz Mersin an der Mittelmeerküste. Die Gründung der Stadt wird auf das 7. Jahrhundert v. Chr. datiert. In der Antike war sie eine bedeutende Hafenstadt der Region Kilikien und spielte eine wichtige Rolle im Seehandel.\n\nDie Stadt wurde ursprünglich unter dem Namen Soloi gegründet. Während der römischen Zeit wurde sie vom römischen Feldherrn Pompeius nach seinen Feldzügen gegen Piraten neu organisiert und erhielt den Namen Pompeiopolis.\n\nZu den wichtigsten erhaltenen Überresten gehören eine etwa 200 Meter lange Säulenstraße, Hafenreste, Badeanlagen, Theaterstrukturen und verschiedene Grabstätten. Besonders die Säulenstraße zählt zu den beeindruckendsten Bereichen der antiken Stadt.\n\nSoloi-Pompeiopolis war auch ein bedeutendes kulturelles Zentrum. Der berühmte stoische Philosoph Chrysipp soll hier geboren worden sein.\n\nDie antike Stadt liegt etwa 11 Kilometer vom Stadtzentrum von Mersin entfernt und ist sowohl mit dem Auto als auch mit öffentlichen Verkehrsmitteln leicht erreichbar. Heute ist das Gebiet als archäologische Stätte geschützt und kann als Freilichtmuseum besucht werden.\n\nMit ihrem historischen Hafen, den beeindruckenden Säulen und den antiken Ruinen gehört die antike Stadt Soloi-Pompeiopolis zu den wichtigsten historischen Sehenswürdigkeiten der Region Mersin."
+    },
+    "activities": {
+      "tr": [
+        "Antik kentte gezinti yapmak",
+        "Tarihi kalıntıları keşfetmek"
+      ],
+      "en": [
+        "Stroll through the ancient city",
+        "Explore the historical ruins"
+      ],
+      "de": [
+        "Durch die antike Stadt spazieren",
+        "Die historischen Ruinen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/soloi_pompeiopolis.jpg"
+    ]
+  },
   {
     "slug": "yerkopru-selalesi",
     "name": {
@@ -428,198 +625,8 @@
       "https://example.com/koramsali_sakli_selale.jpg"
     ]
   },
-  {
-    "slug": "kizkalesi",
-    "name": {
-      "tr": "Kızkalesi",
-      "en": "Kızkalesi",
-      "de": "Kızkalesi"
-    },
-    "latitude": 36.45729,
-    "longitude": 34.14787,
-    "description": {
-      "tr": "Kızkalesi, Mersin ilinin Erdemli ilçesine bağlı aynı adlı sahil beldesinde yer alan tarihi bir deniz kalesidir. Akdeniz'in ortasında küçük bir ada üzerinde bulunan bu etkileyici yapı, kıyıdan yaklaşık 200 metre açıkta yer almaktadır ve bölgenin en önemli tarihi simgelerinden biridir.\n\nKalenin kesin yapım tarihi tam olarak bilinmemekle birlikte Bizans döneminde, yaklaşık 12. yüzyılda inşa edildiği düşünülmektedir. Kızkalesi, Orta Çağ boyunca korsan saldırılarına karşı limanı korumak amacıyla kullanılmıştır. Daha sonraki dönemlerde Ermeniler, Selçuklular ve Osmanlılar tarafından da kullanılmış ve çeşitli onarımlar görmüştür.\n\nKızkalesi ile kıyıda bulunan Kara Kalesi (Corycus Kalesi) arasında savunma amaçlı bir bağlantı sistemi olduğu düşünülmektedir. Günümüzde kalenin surları, kuleleri ve iç yapısının büyük bölümü ayakta kalmayı başarmıştır ve ziyaretçilere etkileyici bir tarihi atmosfer sunmaktadır.\n\nKızkalesi aynı zamanda ünlü bir efsaneye de konu olmuştur. Rivayete göre bir kral, kızının yılan tarafından öldürüleceğini öğrenince onu korumak için bu kaleyi yaptırarak denizin ortasına yerleştirir. Ancak bir gün kaleye gönderilen üzüm sepetinin içinden çıkan yılan prensesi sokar ve kehanet gerçekleşir. Bu efsane nedeniyle yapı halk arasında Kızkalesi olarak anılmaya başlanmıştır.\n\nKızkalesi'ne ulaşım yaz aylarında sahilden kalkan küçük teknelerle sağlanmaktadır. Ziyaretçiler tekne ile kaleye giderek tarihi yapıyı yakından inceleyebilir. Mersin şehir merkezine yaklaşık 60 kilometre uzaklıkta bulunan Kızkalesi, hem tarihi yapısı hem de güzel plajları ile bölgenin en popüler turizm noktalarından biridir.",
-      "en": "Maiden's Castle (Kızkalesi) is a historic sea castle located in the Erdemli district of Mersin, Turkey. The castle stands on a small island in the Mediterranean Sea, approximately 200 meters from the shore, and is one of the most iconic landmarks of the region.\n\nAlthough the exact construction date is unknown, the castle is believed to have been built during the Byzantine period around the 12th century. During the Middle Ages, the castle served as a defensive structure protecting the harbor from pirate attacks. Later, it was used and repaired by the Armenians, Seljuks, and Ottomans.\n\nIt is believed that there was a defensive connection between Maiden's Castle and the nearby land fortress known as Corycus Castle. Today, much of the castle's walls, towers, and internal structures remain standing, offering visitors an impressive glimpse into medieval architecture.\n\nMaiden's Castle is also famous for a local legend. According to the story, a king learned from a prophecy that his daughter would die from a snake bite. To protect her, he built a castle in the middle of the sea and placed her there. However, a snake hidden in a basket of grapes eventually reached the princess and fulfilled the prophecy. Because of this legend, the castle became known as Maiden's Castle.\n\nVisitors can reach the castle by small boats departing from the nearby beach during the summer season. Located about 60 kilometers from the city center of Mersin, Maiden's Castle is one of the most popular tourist destinations in the region thanks to its historical significance and beautiful beaches.",
-      "de": "Die Mädchenburg (Kızkalesi) ist eine historische Seefestung im Bezirk Erdemli der Provinz Mersin in der Türkei. Die Burg befindet sich auf einer kleinen Insel im Mittelmeer, etwa 200 Meter von der Küste entfernt, und ist eines der bekanntesten Wahrzeichen der Region.\n\nDas genaue Baujahr der Burg ist nicht bekannt, jedoch wird angenommen, dass sie im 12. Jahrhundert während der byzantinischen Zeit errichtet wurde. Im Mittelalter diente die Burg zum Schutz des Hafens vor Piratenangriffen. Später wurde sie von Armeniern, Seldschuken und Osmanen genutzt und mehrfach restauriert.\n\nEs wird vermutet, dass es ein Verteidigungssystem zwischen der Inselburg und der nahegelegenen Landfestung Corycus gab. Heute sind große Teile der Mauern, Türme und inneren Strukturen der Burg noch erhalten.\n\nDie Burg ist auch Gegenstand einer bekannten Legende. Einer Prophezeiung zufolge sollte die Tochter eines Königs durch einen Schlangenbiss sterben. Um sie zu schützen, ließ der König die Burg mitten im Meer errichten. Dennoch gelangte eine Schlange in einem Korb mit Trauben zur Prinzessin und erfüllte die Prophezeiung. Daher erhielt die Burg den Namen Mädchenburg.\n\nDie Burg kann im Sommer mit kleinen Booten vom Strand aus erreicht werden. Sie liegt etwa 60 Kilometer vom Stadtzentrum von Mersin entfernt und zählt aufgrund ihrer historischen Bedeutung und der schönen Strände zu den beliebtesten touristischen Zielen der Region."
-    },
-    "activities": {
-      "tr": [
-        "Kızkalesi’ni ziyaret etmek",
-        "Tekneyle adaya gitmek"
-      ],
-      "en": [
-        "Visit Kızkalesi",
-        "Take a boat to the island"
-      ],
-      "de": [
-        "Besuchen Sie das Kızkalesi",
-        "Mit dem Boot zur Insel fahren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/kizkalesi.jpg"
-    ]
-  },
-  {
-    "slug": "adamkayalar",
-    "name": {
-      "tr": "Adamkayalar",
-      "en": "Adamkayalar",
-      "de": "Adamkayalar"
-    },
-    "latitude": 36.484084115046734,
-    "longitude": 34.12069200083824,
-    "description": {
-    "tr": "Adamkayalar, Mersin’in Erdemli ilçesine bağlı Kızkalesi yakınlarında bulunan ve özellikle Roma ile erken Bizans dönemlerine tarihlenen kaya oyma mezarlarıyla tanınan önemli bir arkeolojik alandır. Toros Dağları’nın eteklerinde, sarp ve ulaşımı nispeten zor bir vadide konumlanan bu alan, doğal yapısı ile tarihsel mirası bir arada sunar. Bölge, hem etkileyici manzarası hem de barındırdığı kültürel değerler sayesinde ziyaretçilerine farklı bir deneyim sunmaktadır.\n\nAdamkayalar’ın en dikkat çekici özelliği, kayalara oyulmuş mezarların dış yüzeylerinde yer alan insan kabartmalarıdır. Bu figürler genellikle erkek, kadın ve çocuk bireyleri temsil eder ve dönemin sosyal yapısı hakkında önemli ipuçları verir. Figürlerin yanında yer alan yazıtlar ve semboller, ölen kişilerin kimlikleri, statüleri ve inanç sistemleri hakkında bilgi sağlamaktadır. Bu yönüyle Adamkayalar, yalnızca bir mezar alanı değil, aynı zamanda dönemin yaşam tarzını ve kültürel değerlerini yansıtan açık hava arşivi niteliğindedir.\n\nMezarların büyük çoğunluğu Roma dönemine ait olmakla birlikte, Bizans döneminde de kullanıldığı ve bazı eklemeler yapıldığı düşünülmektedir. Kayalara oyularak yapılan bu mezarlar, dönemin mühendislik ve taş işçiliği becerilerini gözler önüne serer. Aynı zamanda bölgedeki yerleşimlerin ekonomik ve sosyal yapısı hakkında da önemli bilgiler sunar.\n\nAdamkayalar’a ulaşım zorlu bir yürüyüş gerektirebilir, bu nedenle ziyaretçilerin hazırlıklı olması önerilir. Ancak bu zorluk, bölgenin doğal ve tarihi dokusunun korunmasına katkı sağlamıştır. Alan, özellikle tarih, arkeoloji ve fotoğrafçılıkla ilgilenenler için oldukça cazip bir noktadır. Vadinin derinliği, kayaların görkemi ve mezar kabartmalarının detayları, ziyaretçilere etkileyici görüntüler sunar.\n\nGenel olarak Adamkayalar, Mersin’in en özgün ve etkileyici tarihi alanlarından biri olup, geçmiş uygarlıkların izlerini yakından görmek isteyenler için benzersiz bir keşif fırsatı sunmaktadır.",
-    "en": "Adamkayalar is an important archaeological site located near Kızkalesi in the Erdemli district of Mersin, Türkiye. It is especially known for its rock-cut tombs dating back to the Roman and early Byzantine periods. The site lies within a rugged valley on the slopes of the Taurus Mountains, offering a dramatic natural setting that enhances its historical significance. Due to its relatively remote location, Adamkayalar has preserved much of its original character, making it a fascinating destination for visitors interested in history and culture.\n\nThe most striking feature of Adamkayalar is the series of human reliefs carved onto the exterior surfaces of the rock-cut tombs. These figures typically depict men, women, and children, and they provide valuable insights into the social structure and family life of the time. Some carvings are accompanied by inscriptions and symbolic elements, which are believed to convey information about the identity, status, and beliefs of the deceased individuals. These artistic and cultural expressions make the site a unique open-air record of ancient funerary traditions.\n\nMost of the tombs are thought to have been constructed during the Roman period, with continued use and possible modifications in the Byzantine era. The craftsmanship involved in carving these tombs into solid rock demonstrates a high level of skill and technical knowledge. The site also offers clues about the economic and cultural life of the communities that once lived in the region.\n\nReaching Adamkayalar typically requires a hike through uneven and sometimes challenging terrain. While this may limit easy access, it has also helped protect the site from heavy tourism and modern development. Visitors are advised to wear appropriate footwear and come prepared for outdoor conditions.\n\nIn addition to its historical importance, Adamkayalar is a visually impressive location. The combination of steep cliffs, detailed carvings, and expansive valley views makes it particularly appealing for photography. The play of light and shadow across the rock surfaces further enhances the visual experience.\n\nOverall, Adamkayalar stands out as one of the most distinctive historical sites in Mersin. It offers a rare opportunity to explore ancient burial traditions, observe intricate rock carvings, and experience the intersection of natural beauty and cultural heritage. For history and archaeology enthusiasts, it is truly a unique and rewarding place to visit.",
-      "de": "Adamkayalar ist eine Region in der Nähe von Kızkalesi im Bezirk Erdemli in Mersin, die für ihre Felsengräber aus der römischen und byzantinischen Zeit bekannt ist.\nDie Felsengravuren von menschlichen Figuren an der Außenseite der Gräber sind das auffälligste Merkmal der Region.\nDiese Gravuren sind wichtige Artefakte, die den Glauben und die Bestattungsriten der lokalen Bevölkerung der damaligen Zeit widerspiegeln.\nAdamkayalar ist ein einzigartiger Ort für Geschichts- und Archäologieliebhaber.\n"
-    },
-    "activities": {
-      "tr": [
-        "Kaya mezarlarını keşfetmek",
-        "Mezar figürlerini incelemek",
-        "Fotoğraf çekmek",
-        "Tarihi hakkında bilgi edinmek",
-        "Doğa yürüyüşleri yapmak"
-      ],
-      "en": [
-        "Explore the rock tombs",
-        "Examine the tomb figures",
-        "Take photos",
-        "Learn about its history",
-        "Go for nature walks"
-      ],
-      "de": [
-        "Die Felsengräber erkunden",
-        "Die Grabfiguren untersuchen",
-        "Fotos machen",
-        "Über die Geschichte lernen",
-        "Wanderungen in der Natur machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "antik anıt"
-      ],
-      "en": [
-        "ancient monument"
-      ],
-      "de": [
-        "antikes Denkmal"
-      ]
-    },
-    "images": [
-      "https://example.com/adamkayalar_mezar.jpg",
-      "https://example.com/adamkayalar_figurer.jpg"
-    ]
-  },
-  {
-    "slug": "kanlidivane-oren-yeri",
-    "name": {
-      "tr": "Kanlıdivane Ören Yeri",
-      "en": "Kanlıdivane Ruins",
-      "de": "Kanlıdivane Ruinen"
-    },
-    "latitude": 36.525158950820185,
-    "longitude": 34.18110849198963,
-    "description": {
-    "tr": "Kanlıdivane Ören Yeri, Mersin’in Erdemli ilçesi sınırları içerisinde yer alan ve antik Olba Krallığı dönemine kadar uzanan önemli bir arkeolojik yerleşim alanıdır. Bölge, büyük bir doğal obruk (çöküntü alanı) etrafında kurulmuş olmasıyla dikkat çeker ve bu özelliği sayesinde hem jeolojik hem de tarihsel açıdan büyük bir öneme sahiptir. Kanlıdivane, antik çağlarda yerleşim, dini merkez ve idari alan olarak kullanılmış çok katmanlı bir yerleşimdir.\n\nÖren yerinin adıyla ilgili çeşitli efsaneler bulunmaktadır. En bilinen rivayetlerden biri, antik dönemde suçluların bu devasa obruğa atılarak cezalandırıldığı yönündedir. Bu nedenle bölge halk arasında \"Kanlıdivane\" adıyla anılmıştır. Ancak bu anlatımların büyük kısmı efsane niteliğinde olup, arkeolojik veriler daha çok bölgenin dini ve yerleşim amaçlı kullanıldığını göstermektedir.\n\nKanlıdivane’de Roma ve Bizans dönemlerine ait çok sayıda yapı kalıntısı bulunmaktadır. Bu yapılar arasında tapınaklar, kiliseler, anıt mezarlar, kaya mezarları ve lahitler önemli yer tutar. Özellikle kaya yüzeylerine oyulmuş mezarlar ve yazıtlar, dönemin inanç sistemleri ve sosyal yapısı hakkında önemli bilgiler sunmaktadır. Ayrıca bölgede görülen sütunlar ve mimari parçalar, antik dönemin mimari anlayışını yansıtır.\n\nObruğun çevresi oldukça geniş bir alanı kapsar ve ziyaretçilere etkileyici bir manzara sunar. Derin çöküntü alanı ve etrafındaki tarihi yapılar birlikte değerlendirildiğinde, Kanlıdivane adeta açık hava müzesi niteliği taşır. Bölge, özellikle arkeoloji ve tarih meraklıları için oldukça ilgi çekici bir destinasyondur.\n\nGünümüzde Kanlıdivane Ören Yeri, hem yerli hem de yabancı turistlerin ilgisini çekmekte olup, Mersin’in en önemli kültürel miras alanlarından biri olarak kabul edilmektedir. Doğal oluşumlar ile antik kalıntıların iç içe geçtiği bu alan, ziyaretçilerine geçmişe yolculuk yapma imkânı sunar.",
-    "en": "Kanlıdivane Ruins is an important archaeological settlement located within the borders of the Erdemli district of Mersin, Türkiye, dating back to the period of the ancient Olba Kingdom. The site is especially notable for being built around a massive natural sinkhole, which gives it both geological and historical significance. Throughout antiquity, Kanlıdivane served as a settlement area, religious center, and administrative site, reflecting its multi-layered historical character.\n\nThe name \"Kanlıdivane\" is associated with various local legends. One of the most common stories suggests that criminals were once executed by being thrown into the large sinkhole, giving the area its dramatic name. However, these accounts are largely considered folklore, while archaeological evidence indicates that the site was primarily used for settlement and religious purposes.\n\nThe ruins contain numerous remains from the Roman and Byzantine periods. Among the most important structures are temples, churches, monumental tombs, rock-cut graves, and sarcophagi. The inscriptions and carved tombs found in the area provide valuable insight into the belief systems, social organization, and cultural practices of the ancient inhabitants. Architectural fragments such as columns and stone blocks further illustrate the construction techniques of the time.\n\nThe central sinkhole is surrounded by a wide archaeological landscape, creating a visually striking environment. The combination of natural geological formations and ancient ruins gives the site the atmosphere of an open-air museum. This makes Kanlıdivane particularly attractive for visitors interested in archaeology, history, and ancient civilizations.\n\nToday, Kanlıdivane Ruins is recognized as one of the most significant cultural heritage sites in Mersin. It attracts both domestic and international visitors and offers a unique experience where nature and history are closely intertwined, allowing visitors to explore the remnants of ancient life within a dramatic natural setting.",
-      "de": "Die Kanlıdivane-Ruinen sind eine antike Siedlung aus der Olba-Königreichszeit im Bezirk Erdemli in Mersin.\nSie verdankt ihren Namen der riesigen Senke in der Region und den Legenden über dort ausgeführte Verurteilungen.\nBauten wie Tempel, Kirchen, Felsengräber und Sarkophage aus der römischen und byzantinischen Zeit zeigen die historische Vielfalt der Region.\n"
-    },
-    "activities": {
-      "tr": [
-        "Antik yapıları keşfetmek",
-        "Obruğu yakından incelemek",
-        "Tarihi lahitleri ve mezarları görmek",
-        "Fotoğraf çekmek",
-        "Tarihi hakkında bilgi edinmek"
-      ],
-      "en": [
-        "Explore the ancient structures",
-        "Examine the sinkhole closely",
-        "See the historical sarcophagi and tombs",
-        "Take photos",
-        "Learn about its history"
-      ],
-      "de": [
-        "Die antiken Strukturen erkunden",
-        "Die Senke genau untersuchen",
-        "Die historischen Sarkophage und Gräber sehen",
-        "Fotos machen",
-        "Über die Geschichte lernen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "antik kent"
-      ],
-      "en": [
-        "ancient site"
-      ],
-      "de": [
-        "Antike Stätte"
-      ]
-    },
-    "images": [
-      "https://example.com/kanlidivane_obruk.jpg",
-      "https://example.com/kanlidivane_antikyapi.jpg"
-    ]
-  },
-  {
-    "slug": "soloi-pompeiopolis-antik-kenti",
-    "name": {
-      "tr": "Soloi Pompeiopolis Antik Kenti",
-      "en": "Soloi Pompeiopolis Ancient City",
-      "de": "Soloi Pompeiopolis Antike Stadt"
-    },
-    "latitude": 36.74323,
-    "longitude": 34.53491,
-    "description": {
-      "tr": "Soloi-Pompeiopolis Antik Kenti, Mersin'in Mezitli ilçesinde Akdeniz kıyısında yer alan önemli bir arkeolojik yerleşim alanıdır. Antik kentin kuruluşunun MÖ 7. yüzyıla kadar uzandığı düşünülmektedir. Kent, antik çağlarda Kilikya bölgesinin önemli liman şehirlerinden biri olarak ticaret ve denizcilik açısından büyük önem taşımıştır.\n\nSoloi adıyla kurulan kent, Roma döneminde ünlü Romalı komutan Pompeius tarafından yeniden düzenlenmiş ve bu nedenle Pompeiopolis adıyla anılmaya başlanmıştır. Kent özellikle Roma döneminde büyük bir gelişim göstermiştir.\n\nAntik kentte günümüze kadar ulaşan en dikkat çekici yapı kalıntıları arasında sütunlu cadde (colonnaded street), antik liman kalıntıları, hamam yapıları, tiyatro ve çeşitli mezar yapıları bulunmaktadır. Özellikle yaklaşık 200 metre uzunluğundaki sütunlu cadde, kentin en etkileyici bölümlerinden biridir ve ziyaretçilere antik dönem mimarisini yakından görme fırsatı sunar.\n\nSoloi-Pompeiopolis Antik Kenti aynı zamanda felsefe ve kültür açısından da önemli bir merkez olmuştur. Ünlü Stoacı filozof Chrysippos'un bu kentte doğduğu bilinmektedir.\n\nAntik kent Mersin şehir merkezine yaklaşık 11 kilometre uzaklıktadır ve Mezitli ilçesinde yer almaktadır. Şehir merkezinden özel araçla veya toplu taşıma ile kolayca ulaşılabilir. Bölge günümüzde arkeolojik sit alanı olarak korunmakta ve ziyaretçilere açık bir açık hava müzesi niteliği taşımaktadır.\n\nTarihi limanı, sütunlu caddesi ve etkileyici kalıntıları ile Soloi-Pompeiopolis Antik Kenti, Mersin'de görülmesi gereken en önemli tarihi yerlerden biridir.",
-      "en": "Soloi-Pompeiopolis Ancient City is an important archaeological site located on the Mediterranean coast in the Mezitli district of Mersin. The origins of the city are believed to date back to the 7th century BC. In ancient times, it was one of the most important port cities of the Cilicia region and played a significant role in maritime trade.\n\nOriginally founded as Soloi, the city was later reorganized by the Roman general Pompey after his campaigns against pirates in the Mediterranean. Following this reconstruction, the city became known as Pompeiopolis.\n\nAmong the most remarkable remains of the ancient city are the colonnaded street, ancient harbor structures, baths, theater ruins, and various tomb structures. The colonnaded street, approximately 200 meters long, is one of the most impressive features of the site and offers visitors a glimpse into Roman urban architecture.\n\nSoloi-Pompeiopolis was also an important cultural and philosophical center. The famous Stoic philosopher Chrysippus is believed to have been born in this city.\n\nThe ancient city is located about 11 kilometers from Mersin city center and can easily be reached from the city by car or public transportation. Today, the site is protected as an archaeological area and functions as an open-air museum.\n\nWith its historical harbor, monumental columns, and fascinating ruins, Soloi-Pompeiopolis Ancient City is considered one of the most important historical attractions in the Mersin region.",
-      "de": "Die antike Stadt Soloi-Pompeiopolis befindet sich im Bezirk Mezitli der Provinz Mersin an der Mittelmeerküste. Die Gründung der Stadt wird auf das 7. Jahrhundert v. Chr. datiert. In der Antike war sie eine bedeutende Hafenstadt der Region Kilikien und spielte eine wichtige Rolle im Seehandel.\n\nDie Stadt wurde ursprünglich unter dem Namen Soloi gegründet. Während der römischen Zeit wurde sie vom römischen Feldherrn Pompeius nach seinen Feldzügen gegen Piraten neu organisiert und erhielt den Namen Pompeiopolis.\n\nZu den wichtigsten erhaltenen Überresten gehören eine etwa 200 Meter lange Säulenstraße, Hafenreste, Badeanlagen, Theaterstrukturen und verschiedene Grabstätten. Besonders die Säulenstraße zählt zu den beeindruckendsten Bereichen der antiken Stadt.\n\nSoloi-Pompeiopolis war auch ein bedeutendes kulturelles Zentrum. Der berühmte stoische Philosoph Chrysipp soll hier geboren worden sein.\n\nDie antike Stadt liegt etwa 11 Kilometer vom Stadtzentrum von Mersin entfernt und ist sowohl mit dem Auto als auch mit öffentlichen Verkehrsmitteln leicht erreichbar. Heute ist das Gebiet als archäologische Stätte geschützt und kann als Freilichtmuseum besucht werden.\n\nMit ihrem historischen Hafen, den beeindruckenden Säulen und den antiken Ruinen gehört die antike Stadt Soloi-Pompeiopolis zu den wichtigsten historischen Sehenswürdigkeiten der Region Mersin."
-    },
-    "activities": {
-      "tr": [
-        "Antik kentte gezinti yapmak",
-        "Tarihi kalıntıları keşfetmek"
-      ],
-      "en": [
-        "Stroll through the ancient city",
-        "Explore the historical ruins"
-      ],
-      "de": [
-        "Durch die antike Stadt spazieren",
-        "Die historischen Ruinen erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "antik kent"
-      ],
-      "en": [
-        "ancient site"
-      ],
-      "de": [
-        "Antike Stätte"
-      ]
-    },
-    "images": [
-      "https://example.com/soloi_pompeiopolis.jpg"
-    ]
-  },
+  
+   
   {
     "slug": "cennet-ve-cehennem-obruklari",
     "name": {

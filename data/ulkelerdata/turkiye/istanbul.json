@@ -846,6 +846,64 @@
       "https://example.com/panorama_1453_2.jpg"
     ]
   },
+{
+  "slug": "ayazma-camii",
+  "name": {
+    "tr": "Ayazma Camii",
+    "en": "Ayazma Mosque",
+    "de": "Ayazma-Moschee"
+  },
+  "latitude": 41.022378,
+  "longitude": 29.012543,
+  "description": {
+    "tr": "Ayazma Camii, İstanbul’un Üsküdar ilçesinde, Boğaz’a hakim bir yamaçta yer alan Barok mimari tarzındaki tarihi bir Osmanlı camisidir. Sultan III. Mustafa tarafından annesi Mihrişah Emine Sultan ve kardeşi Süleyman adına yaptırılan caminin inşasına 1757 yılında başlanmış ve yapı 1761 yılında tamamlanmıştır. Caminin adı, içinde veya yakınında bulunan eski bir Bizans ayazmasından (kutsal su kaynağı) gelmektedir. Klasik Osmanlı çizgisinden Batı etkisindeki Barok tarzına geçişin en zarif örneklerinden biri olarak kabul edilir.\n\nMimar Mehmet Tahir Ağa tarafından tasarlanan yapı, tek minareli olup, dış cephesindeki kuş evleri, mermer işçilikleri ve taş oymacılığıyla dikkat çeker. Caminin iç mekânı, geniş pencereler sayesinde oldukça aydınlıktır ve dönemin ruhunu yansıtan hat yazıları, renkli mermerler ve süslemelerle bezelidir. Depremler ve yangınlar nedeniyle zaman zaman hasar gören cami, geçirdiği kapsamlı restorasyonlarla günümüze kadar ihtişamını koruyarak ulaşmıştır.\n\nAyazma Camii, özellikle Üsküdar sahilinden yukarı doğru çıkan sokaklarda, Boğaz manzarasını arkasına alan büyüleyici bir konuma sahiptir. Çevresindeki tarihi hazire (mezarlık) ve çeşmelerle birlikte, İstanbul’un Anadolu yakasındaki en önemli kültürel miraslardan biridir.\n\nCamiye ulaşım oldukça kolaydır. Üsküdar Meydanı’na ve vapur/Marmaray iskelelerine yürüme mesafesinde bulunan yapıya, sahil şeridinden kısa bir yürüyüşle ya da Üsküdar içinden kalkan toplu taşıma araçlarıyla rahatça ulaşılabilir.",
+    "en": "The Ayazma Mosque (Ayazma Camii) is a historic Ottoman mosque featuring Baroque architectural elements, located on a hillside overlooking the Bosphorus in the Üsküdar district of Istanbul. Commissioned by Sultan Mustafa III in memory of his mother Mihrişah Emine Sultan and his brother Süleyman, construction began in 1757 and was completed in 1761. The mosque derives its name from a Byzantine ayazma (holy water spring) that was once located on or near the site. It is considered one of the finest examples of the transition from classical Ottoman architecture to the Western-influenced Baroque style.\n\nDesigned by the architect Mehmet Tahir Ağa, the mosque features a single minaret and is notable for its exquisite birdhouses carved into the exterior walls, fine marble craftsmanship, and stone carvings. The interior is remarkably bright due to its large windows and is adorned with beautiful calligraphy, colored marbles, and ornamental details reflective of the era. Having survived various earthquakes and fires, the mosque has been meticulously restored and preserved.\n\nSituated with a commanding view of the Bosphorus, the Ayazma Mosque stands out as a peaceful spiritual and cultural haven on the Asian side of Istanbul, complete with a historic graveyard (hazire) and traditional fountains.\n\nAccess to the mosque is very straightforward. It is located within walking distance of Üsküdar Square, the ferry docks, and the Marmaray station. Visitors can easily reach it via a short uphill walk from the historic waterfront.",
+    "de": "Die Ayazma-Moschee (Ayazma Camii) ist eine historische osmanische Moschee im Barockstil, die auf einem Hügel mit Blick auf den Bosporus im Istanbuler Stadtteil Üsküdar liegt. Sie wurde von Sultan Mustafa III. zum Gedenken an seine Mutter Mihrişah Emine Sultan und seinen Bruder Süleyman in Auftrag gegeben. Der Bau begann 1757 und wurde 1761 abgeschlossen. Ihren Namen verdankt die Moschee einer byzantinischen Ayazma (heilige Wasserquelle), die sich auf oder nahe dem Gelände befand. Das Bauwerk gilt als eines der elegantesten Beispiele für den Übergang von der klassischen osmanischen Architektur zum westlich beeinflussten Barockstil.\n\nEntworfen vom Architekten Mehmet Tahir Ağa, verfügt die Moschee über ein einzelnes Minarett und besticht durch kunstvolle Vogelhäuschen an den Außenwänden, feine Marmorarbeiten und Steinmetzkunst. Der Innenraum ist dank großer Fenster außergewöhnlich lichtdurchflutet und mit prächtigen Kalligraphien sowie farbigem Marmor verziert. Trotz Schäden durch Erdbeben und Brände im Laufe der Jahrhunderte wurde die Moschee aufwendig restauriert und erstrahlt heute in altem Glanz.\n\nMit ihrer Lage oberhalb der Küstenlinie bietet die Ayazma-Moschee einen faszinierenden Ausblick auf den Bosporus und bildet zusammen mit ihrem historischen Friedhof (Hazire) ein bedeutendes Kulturerbe auf der asiatischen Seite Istanbuls.\n\nDie Moschee ist leicht zu erreichen. Sie befindet sich in fußläufiger Entfernung zum Üsküdar-Platz, den Fähren und dem Marmaray-Bahnhof und kann über einen kurzen Spaziergang bergauf von der Küste aus erreicht werden."
+  },
+  "activities": {
+    "tr": [
+      "Camiyi ve barok mimari detayları inceleme",
+      "Dış cephedeki tarihi kuş evlerini fotoğraflama",
+      "Üsküdar sırtlarından Boğaz manzarasını izleme",
+      "Tarihi hazireyi ve çeşmeleri ziyaret etme"
+    ],
+    "en": [
+      "Examine the mosque and its Baroque architectural details",
+      "Photograph the historic birdhouses on the exterior walls",
+      "Enjoy the Bosphorus view from the ridges of Üsküdar",
+      "Visit the historic graveyard and fountains"
+    ],
+    "de": [
+      "Die Moschee und ihre barocken Architekturdetails besichtigen",
+      "Die historischen Vogelhäuschen an den Außenwänden fotografieren",
+      "Den Blick auf den Bosporus von den Hügeln in Üsküdar genießen",
+      "Den historischen Friedhof und die Brunnen besuchen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "cami",
+      "tarihi yapı",
+      "barok mimari",
+      "kullanımda"
+    ],
+    "en": [
+      "mosque",
+      "historical site",
+      "baroque architecture",
+      "active place of worship"
+    ],
+    "de": [
+      "Moschee",
+      "historische Stätte",
+      "Barockarchitektur",
+      "aktive Gebetsstätte"
+    ]
+  },
+  "images": [
+    "https://example.com/ayazma_camii_uskudar.jpg"
+  ]
+},
   {
     "slug": "laleli-camii",
     "name": {
@@ -1350,53 +1408,7 @@
       "https://example.com/pierre_loti.jpg"
     ]
   },
-  {
-    "slug": "serefiye-sarnici",
-    "name": {
-      "tr": "Şerefiye Sarnıcı",
-      "en": "Şerefiye Cistern",
-      "de": "Şerefiye-Zisterne"
-    },
-    "latitude": 41.00758,
-    "longitude": 28.97239,
-    "description": {
-      "tr": "Şerefiye Sarnıcı, İstanbul’un en eski su sarnıçlarından biri olup, 4. yüzyılda Roma İmparatoru II. Theodosius döneminde inşa edilmiştir. Tarihi Yarımada’nın kalbinde bulunan bu yapı, Bizans su sisteminin önemli bir parçasıdır. Günümüzde restore edilerek ziyarete açılan sarnıç, ışık gösterileri ve etkileyici mimarisiyle ziyaretçilerine unutulmaz bir deneyim sunmaktadır.\n\n**Tarih ve Mimari**\n\nŞerefiye Sarnıcı, Bizans döneminde şehrin su ihtiyacını karşılamak amacıyla inşa edilen önemli yapılardan biridir. 1600 yıllık geçmişi boyunca birçok değişikliğe uğrayan sarnıç, zarif mermer sütunları ve kemerleri ile dikkat çeker. 25 metreye 40 metre boyutlarında olan bu tarihi yapı, toplamda 32 sütuna sahiptir.\n\n**Deneyim ve Etkinlikler**\n\nGünümüzde Şerefiye Sarnıcı, sadece tarihi bir yapı olmanın ötesinde, modern sanat ve ışık gösterileriyle zenginleştirilmiş bir kültürel mekân olarak hizmet vermektedir. Ziyaretçiler, suyun büyüleyici yansımaları eşliğinde tarihi atmosferi keşfedebilir ve düzenlenen etkinliklere katılabilirler.\n\n**Nasıl Gidilir?**\n\nŞerefiye Sarnıcı, İstanbul’un tarihi yarımadasında, Çemberlitaş bölgesinde yer almaktadır. Toplu taşıma ile ulaşım oldukça kolaydır; Sultanahmet, Çemberlitaş veya Beyazıt tramvay duraklarından yürüyerek kısa sürede ulaşılabilir.\n",
-      "en": "The Şerefiye Cistern is one of Istanbul’s oldest water reservoirs, built in the 4th century during the reign of Roman Emperor Theodosius II. Located in the heart of the Historic Peninsula, this structure was an essential part of the Byzantine water system. Today, after restoration, it offers visitors a fascinating experience with mesmerizing light shows and remarkable architecture.\n\n**History and Architecture**\n\nConstructed to supply water to the city, the Şerefiye Cistern is a significant historical site from the Byzantine era. Over its 1,600-year history, it has undergone several changes but still retains its elegant marble columns and arches. The cistern spans 25 by 40 meters and features a total of 32 columns.\n\n**Experience and Events**\n\nToday, the Şerefiye Cistern is more than just a historical monument. It serves as a cultural venue enriched with modern art and light shows. Visitors can explore its captivating atmosphere, enhanced by the reflections on the water, and attend various events held within the space.\n\n**How to Get There?**\n\nLocated in Istanbul’s historic district of Çemberlitaş, the Şerefiye Cistern is easily accessible via public transport. It is within walking distance from the Sultanahmet, Çemberlitaş, or Beyazıt tram stations.\n",
-      "de": "Die Şerefiye-Zisterne ist eines der ältesten Wasserreservoire Istanbuls und wurde im 4. Jahrhundert unter der Herrschaft des römischen Kaisers Theodosius II. erbaut. Dieses Bauwerk, das sich im Herzen der historischen Halbinsel befindet, war ein wichtiger Bestandteil des byzantinischen Wassersystems. Nach einer umfassenden Restaurierung bietet es heute Besuchern ein faszinierendes Erlebnis mit beeindruckenden Lichtshows und bemerkenswerter Architektur.\n\n**Geschichte und Architektur**\n\nDie Şerefiye-Zisterne wurde errichtet, um die Stadt mit Wasser zu versorgen, und ist ein bedeutendes historisches Relikt aus byzantinischer Zeit. Im Laufe ihrer 1600-jährigen Geschichte hat sie viele Veränderungen erfahren, bewahrt jedoch ihre eleganten Marmorsäulen und Bögen. Die Zisterne ist 25 mal 40 Meter groß und verfügt über insgesamt 32 Säulen.\n\n**Erlebnis und Veranstaltungen**\n\nHeute dient die Şerefiye-Zisterne nicht nur als historisches Denkmal, sondern auch als kultureller Veranstaltungsort mit modernen Kunstinstallationen und Lichtshows. Besucher können die faszinierende Atmosphäre entdecken, die durch die Spiegelungen auf dem Wasser verstärkt wird, und an verschiedenen Veranstaltungen teilnehmen.\n\n**Anfahrt**\n\nDie Şerefiye-Zisterne befindet sich im historischen Stadtteil Çemberlitaş in Istanbul und ist leicht mit öffentlichen Verkehrsmitteln erreichbar. Sie liegt nur wenige Gehminuten von den Straßenbahnhaltestellen Sultanahmet, Çemberlitaş oder Beyazıt entfernt.\n"
-    },
-    "activities": {
-      "tr": [
-        "Tarihi atmosferi keşfetmek",
-        "Işık gösterilerini izlemek",
-        "Sanat etkinliklerine katılmak"
-      ],
-      "en": [
-        "Exploring the historical atmosphere",
-        "Watching light shows",
-        "Attending art events"
-      ],
-      "de": [
-        "Die historische Atmosphäre erkunden",
-        "Lichtshows ansehen",
-        "An Kunstveranstaltungen teilnehmen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/serefiye_1.jpg",
-      "https://example.com/serefiye_2.jpg"
-    ]
-  },
+ 
   {
     "slug": "yildiz-parki",
     "name": {
@@ -1437,59 +1449,7 @@
       "https://example.com/yildiz_parki.jpg"
     ]
   },
-  {
-    "slug": "beylikduzu-yasam-vadisi",
-    "name": {
-      "tr": "Beylikdüzü Yaşam Vadisi",
-      "en": "Beylikdüzü Life Valley",
-      "de": "Beylikdüzü Lebenstal"
-    },
-    "latitude": 41.00900492749888, 
-    "longitude": 28.635144722104574,
-    "description": {
-      "tr": "Beylikdüzü Yaşam Vadisi, İstanbul’un Beylikdüzü ilçesinde yer alan büyük bir yeşil alan ve rekreasyon alanıdır. 2013 yılında açılışı yapılan bu yaşam vadisi, bölgedeki en büyük park olarak, İstanbul’un gürültüsünden uzaklaşmak isteyenler için huzurlu bir kaçış noktası sunmaktadır. Doğayla iç içe bir yaşam alanı olan bu vadi, hem yerel halk hem de turistler için popüler bir destinasyon olmuştur.\n\n**Tarih ve Konsept**\n\nBeylikdüzü Yaşam Vadisi, 600 bin metrekarelik geniş bir alanı kaplamakta olup, çeşitli yürüyüş yolları, bisiklet parkurları, çocuk oyun alanları, spor alanları ve göletler gibi birçok farklı etkinlik alanı sunmaktadır. Ayrıca, doğal yaşamı destekleyen bitki örtüsü ve çevre dostu yapılarıyla dikkat çeker. Bu vadi, yeşil alanların korunmasına ve sürdürülebilirliğe önem verilerek tasarlanmıştır.\n\n**Deneyim ve Etkinlikler**\n\nBeylikdüzü Yaşam Vadisi, yürüyüş yapmak, bisiklete binmek, piknik yapmak, doğada vakit geçirmek ve spor aktiviteleriyle ilgilenmek isteyenler için mükemmel bir yerdir. Ayrıca, bölgedeki göletlerde sakin bir atmosferde yürüyüş yapabilir veya gölet kenarında dinlenebilirsiniz. Çocuklar için eğlenceli oyun alanları ve doğal yaşamı gözlemleyebileceğiniz çeşitli bölgeler bulunmaktadır.\n\n**Nasıl Gidilir?**\n\nBeylikdüzü Yaşam Vadisi, İstanbul’un Beylikdüzü ilçesinde kolayca ulaşılabilecek bir konumda yer almaktadır. Toplu taşıma ile ulaşım sağlanabilir; Beylikdüzü metro durağından otobüs veya dolmuşlar ile birkaç dakika içinde vadiye ulaşmak mümkündür. Özel araçla gelenler için otopark alanları da mevcuttur.\n",
-      "en": "Beylikdüzü Life Valley is a large green area and recreation park located in the Beylikdüzü district of Istanbul. Opened in 2013, this life valley is the largest park in the area, offering a peaceful escape for those looking to get away from the hustle and bustle of Istanbul. With its integration with nature, this valley has become a popular destination for both locals and tourists.\n\n**History and Concept**\n\nBeylikdüzü Life Valley covers a vast area of 600,000 square meters and offers various activity areas such as walking paths, bike trails, children’s play areas, sports fields, and ponds. It also stands out with its vegetation that supports natural life and eco-friendly structures. The valley is designed with an emphasis on the preservation of green spaces and sustainability.\n\n**Experience and Activities**\n\nBeylikdüzü Life Valley is a perfect place for walking, biking, picnicking, spending time in nature, and engaging in sports activities. Visitors can also enjoy a peaceful walk by the ponds or relax by the water. There are fun playgrounds for children and several areas to observe natural life.\n\n**How to Get There?**\n\nBeylikdüzü Life Valley is located in the Beylikdüzü district of Istanbul, easily accessible by public transport. You can take a bus or minibus from the Beylikdüzü metro station, and the valley is just a few minutes away. For those arriving by private vehicle, parking spaces are available.\n",
-      "de": "Das Beylikdüzü Lebenstal ist ein großer Grünbereich und ein Erholungspark im Stadtteil Beylikdüzü in Istanbul. Der 2013 eröffnete Lebenspark ist der größte Park in der Region und bietet eine friedliche Auszeit für diejenigen, die dem Trubel von Istanbul entfliehen möchten. Mit seiner Integration in die Natur ist dieses Tal ein beliebtes Ziel sowohl für Einheimische als auch für Touristen.\n\n**Geschichte und Konzept**\n\nDas Beylikdüzü Lebenstal erstreckt sich über eine Fläche von 600.000 Quadratmetern und bietet verschiedene Freizeitmöglichkeiten wie Wanderwege, Fahrradstrecken, Kinderspielplätze, Sportanlagen und Teiche. Es zeichnet sich auch durch seine Vegetation aus, die das natürliche Leben unterstützt, und seine umweltfreundlichen Strukturen. Das Tal wurde mit dem Schwerpunkt auf den Erhalt von Grünflächen und Nachhaltigkeit entworfen.\n\n**Erlebnis und Aktivitäten**\n\nDas Beylikdüzü Lebenstal ist ein perfekter Ort zum Wandern, Radfahren, Picknicken, Zeit in der Natur zu verbringen und sportlichen Aktivitäten nachzugehen. Besucher können auch einen ruhigen Spaziergang entlang der Teiche machen oder am Wasser entspannen. Es gibt unterhaltsame Spielplätze für Kinder und mehrere Bereiche, in denen man das natürliche Leben beobachten kann.\n\n**Anfahrt**\n\nDas Beylikdüzü Lebenstal befindet sich im Stadtteil Beylikdüzü in Istanbul und ist mit öffentlichen Verkehrsmitteln leicht zu erreichen. Vom Metro-Bahnhof Beylikdüzü aus können Sie mit dem Bus oder Minibus fahren, und das Tal ist nur wenige Minuten entfernt. Für diejenigen, die mit dem Privatfahrzeug anreisen, sind Parkplätze vorhanden.\n"
-    },
-    "activities": {
-      "tr": [
-        "Yürüyüş yapmak",
-        "Bisiklete binmek",
-        "Piknik yapmak",
-        "Spor yapmak",
-        "Çocuklar için oyun alanlarında vakit geçirmek"
-      ],
-      "en": [
-        "Walking",
-        "Biking",
-        "Picnicking",
-        "Engaging in sports",
-        "Spending time in children’s play areas"
-      ],
-      "de": [
-        "Wandern",
-        "Radfahren",
-        "Picknicken",
-        "Sport treiben",
-        "Zeit in den Kinderspielplätzen verbringen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "park"
-      ],
-      "en": [
-        "park"
-      ],
-      "de": [
-        "park"
-      ]
-    },
-    "images": [
-      "https://example.com/beylikduzu_life_valley_1.jpg",
-      "https://example.com/beylikduzu_life_valley_2.jpg"
-    ]
-  },
+ 
   {
     "slug": "buyukcekmece-golu",
     "name": {
@@ -1658,100 +1618,7 @@
       "https://example.com/mihrimah_sultan_mosque_2.jpg"
     ]
   },
-  {
-    "slug": "murat-pasa-camii",
-    "name": {
-      "tr": "Murat Paşa Camii",
-      "en": "Murat Pasha Mosque",
-      "de": "Murat-Pascha-Moschee"
-    },
-    "latitude": 41.01076,
-    "longitude": 28.94914,
-    "description": {
-      "tr": "Murat Paşa Camii, Osmanlı padişahlarından II. Murad döneminde, 15. yüzyılda inşa edilen önemli bir ibadethanedir. İstanbul'un Aksaray semtinde yer alan bu tarihi cami, klasik Osmanlı mimarisinin zarif örneklerinden biridir.\n\n**Tarih ve Mimari**\n\nCami, sadrazam Murat Paşa tarafından yaptırılmış olup, kesme taş ve tuğla kullanılarak inşa edilmiştir. Klasik Osmanlı mimari özelliklerini taşıyan yapı, tek kubbeli ve kare planlı bir tasarıma sahiptir. Caminin minaresi ve iç mekanındaki süslemeler, döneminin sanatsal anlayışını yansıtır.\n\n**Deneyim ve Etkinlikler**\n\nMurat Paşa Camii, hem ibadet hem de kültürel ziyaretler için açıktır. Osmanlı mimarisine ilgi duyanlar için önemli bir ziyaret noktasıdır. Caminin huzurlu atmosferi, ziyaretçilere tarihi bir deneyim sunar.\n\n**Nasıl Gidilir?**\n\nMurat Paşa Camii, İstanbul’un Fatih ilçesinde, Aksaray semtinde bulunmaktadır. Toplu taşıma ile ulaşım oldukça kolaydır; Aksaray tramvay durağı ve otobüs hatları camiye yürüme mesafesindedir.\n",
-      "en": "Murat Pasha Mosque is a significant place of worship built during the reign of Ottoman Sultan Murad II in the 15th century. Located in the Aksaray district of Istanbul, this historical mosque is a fine example of classical Ottoman architecture.\n\n**History and Architecture**\n\nCommissioned by Grand Vizier Murat Pasha, the mosque was constructed using cut stone and brick. It features a square plan with a single dome, reflecting the classical Ottoman architectural style. The minaret and interior decorations showcase the artistic craftsmanship of the period.\n\n**Experience and Activities**\n\nThe mosque is open for both worship and cultural visits. It is an important site for those interested in Ottoman architecture. The peaceful atmosphere of the mosque offers visitors a historical and spiritual experience.\n\n**How to Get There?**\n\nMurat Pasha Mosque is located in the Aksaray district of Fatih, Istanbul. It is easily accessible by public transportation, with the Aksaray tram station and bus stops within walking distance.\n",
-      "de": "Die Murat-Pascha-Moschee ist ein bedeutendes Gotteshaus, das während der Herrschaft des osmanischen Sultans Murad II. im 15. Jahrhundert erbaut wurde. Sie befindet sich im Stadtteil Aksaray in Istanbul und ist ein schönes Beispiel für die klassische osmanische Architektur.\n\n**Geschichte und Architektur**\n\nDie Moschee wurde im Auftrag von Großwesir Murat Pascha erbaut und aus Quaderstein und Ziegel konstruiert. Sie weist einen quadratischen Grundriss mit einer einzigen Kuppel auf und spiegelt den klassischen osmanischen Architekturstil wider. Das Minarett und die Innenverzierungen zeigen die kunstvolle Handwerkskunst der Epoche.\n\n**Erlebnis und Aktivitäten**\n\nDie Moschee ist sowohl für Gebete als auch für kulturelle Besuche geöffnet. Sie ist ein wichtiger Ort für diejenigen, die sich für osmanische Architektur interessieren. Die ruhige Atmosphäre der Moschee bietet den Besuchern eine historische und spirituelle Erfahrung.\n\n**Anfahrt**\n\nDie Murat-Pascha-Moschee befindet sich im Stadtteil Aksaray in Fatih, Istanbul. Sie ist leicht mit öffentlichen Verkehrsmitteln erreichbar – die Straßenbahnhaltestelle Aksaray sowie mehrere Bushaltestellen befinden sich in unmittelbarer Nähe.\n"
-    },
-    "activities": {
-      "tr": [
-        "Osmanlı mimarisini incelemek",
-        "İbadet etmek",
-        "Tarihi atmosferi keşfetmek"
-      ],
-      "en": [
-        "Exploring Ottoman architecture",
-        "Praying",
-        "Experiencing the historical atmosphere"
-      ],
-      "de": [
-        "Die osmanische Architektur erkunden",
-        "Beten",
-        "Die historische Atmosphäre erleben"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "cami"
-      ],
-      "en": [
-        "mosque"
-      ],
-      "de": [
-        "Moschee"
-      ]
-    },
-    "images": [
-      "https://example.com/murat_pasha_mosque_istanbul_1.jpg",
-      "https://example.com/murat_pasha_mosque_istanbul_2.jpg"
-    ]
-  },
-  {
-    "slug": "pertevniyal-valide-sultan-camii",
-    "name": {
-      "tr": "Pertevniyal Valide Sultan Camii",
-      "en": "Pertevniyal Valide Sultan Mosque",
-      "de": "Pertevniyal Valide Sultan Moschee"
-    },
-    "latitude": 41.01027,
-    "longitude": 28.95305,
-    "description": {
-      "tr": "Pertevniyal Valide Sultan Camii, Osmanlı padişahı II. Mahmud’un eşi ve Sultan Abdülaziz’in annesi Pertevniyal Valide Sultan tarafından 1871 yılında yaptırılmış, İstanbul’un en zarif ve dikkat çekici camilerinden biridir. Laleli semtinde yer alan cami, Osmanlı’nın geç dönem mimarisini yansıtan önemli bir eserdir.\n\n**Tarih ve Mimari**\n\nPertevniyal Valide Sultan Camii, Osmanlı mimarisinde alışılmışın dışında bir tarza sahiptir. Gotik, Hint ve Osmanlı mimari unsurlarını bir araya getiren eklektik üslubu ile dikkat çeker. Cami, mimar Montani ve Sarkis Balyan tarafından tasarlanmıştır. Zengin taş işçiliği, kabartmalar ve süslemeleriyle oldukça görkemli bir yapıdır.\n\n**Deneyim ve Etkinlikler**\n\nCami, ibadet edenler ve tarih meraklıları için önemli bir duraktır. Osmanlı mimarisindeki farklı akımları gözlemlemek isteyen ziyaretçiler için eşsiz bir deneyim sunar. Caminin iç mekanındaki zarif hat sanatları ve süslemeler, ziyaretçileri büyüleyici bir atmosferle karşılar.\n\n**Nasıl Gidilir?**\n\nPertevniyal Valide Sultan Camii, İstanbul’un Fatih ilçesinde, Laleli semtinde yer almaktadır. Ulaşım açısından oldukça elverişli bir konumda olup, Laleli-Üniversite tramvay durağından birkaç dakikalık yürüyüş mesafesindedir.\n",
-      "en": "Pertevniyal Valide Sultan Mosque, built in 1871 by Pertevniyal Valide Sultan, the wife of Ottoman Sultan Mahmud II and mother of Sultan Abdülaziz, is one of the most elegant and remarkable mosques in Istanbul. Located in the Laleli district, it is a significant example of the late Ottoman architectural style.\n\n**History and Architecture**\n\nUnlike traditional Ottoman mosques, Pertevniyal Valide Sultan Mosque exhibits an eclectic style, incorporating Gothic, Indian, and Ottoman architectural elements. Designed by architects Montani and Sarkis Balyan, the mosque features intricate stone carvings, detailed ornamentation, and impressive craftsmanship.\n\n**Experience and Activities**\n\nThe mosque serves both as a place of worship and a cultural attraction. Visitors interested in Ottoman architecture will find its unique blend of styles fascinating. The calligraphy and decorative details inside the mosque create a captivating spiritual and aesthetic experience.\n\n**How to Get There?**\n\nPertevniyal Valide Sultan Mosque is located in the Fatih district of Istanbul, in the Laleli neighborhood. It is easily accessible by tram, just a short walk from the Laleli-Üniversite station.\n",
-      "de": "Die Pertevniyal Valide Sultan Moschee, die 1871 von Pertevniyal Valide Sultan, der Frau von Sultan Mahmud II. und Mutter von Sultan Abdülaziz, erbaut wurde, ist eine der elegantesten und bemerkenswertesten Moscheen Istanbuls. Sie befindet sich im Stadtteil Laleli und ist ein bedeutendes Beispiel für die späte osmanische Architektur.\n\n**Geschichte und Architektur**\n\nIm Gegensatz zu traditionellen osmanischen Moscheen weist die Pertevniyal Valide Sultan Moschee einen eklektischen Stil auf, der gotische, indische und osmanische Architekturelemente vereint. Die Moschee wurde von den Architekten Montani und Sarkis Balyan entworfen und zeichnet sich durch kunstvolle Steinmetzarbeiten, detaillierte Verzierungen und beeindruckendes Handwerk aus.\n\n**Erlebnis und Aktivitäten**\n\nDie Moschee dient sowohl als Gebetsstätte als auch als kulturelle Attraktion. Besucher, die sich für die osmanische Architektur interessieren, werden die einzigartige Mischung der Stile faszinierend finden. Die Kalligrafien und dekorativen Details im Inneren der Moschee schaffen eine fesselnde spirituelle und ästhetische Atmosphäre.\n\n**Anfahrt**\n\nDie Pertevniyal Valide Sultan Moschee befindet sich im Stadtteil Fatih in Istanbul, im Viertel Laleli. Sie ist leicht mit der Straßenbahn erreichbar und nur wenige Gehminuten von der Haltestelle Laleli-Üniversite entfernt.\n"
-    },
-    "activities": {
-      "tr": [
-        "Eklektik Osmanlı mimarisini incelemek",
-        "İbadet etmek",
-        "Tarihi atmosferi keşfetmek"
-      ],
-      "en": [
-        "Exploring eclectic Ottoman architecture",
-        "Praying",
-        "Experiencing the historical atmosphere"
-      ],
-      "de": [
-        "Die eklektische osmanische Architektur erkunden",
-        "Beten",
-        "Die historische Atmosphäre erleben"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "cami"
-      ],
-      "en": [
-        "mosque"
-      ],
-      "de": [
-        "Moschee"
-      ]
-    },
-    "images": [
-      "https://example.com/pertevniyal_mosque_1.jpg",
-      "https://example.com/pertevniyal_mosque_2.jpg"
-    ]
-  },
+  
   {
     "slug": "polonezkoy-tabiat-parki",
     "name": {
@@ -2078,6 +1945,53 @@
       "https://example.com/caddebostan_sahili.jpg"
     ]
   },
+ {
+    "slug": "serefiye-sarnici",
+    "name": {
+      "tr": "Şerefiye Sarnıcı",
+      "en": "Şerefiye Cistern",
+      "de": "Şerefiye-Zisterne"
+    },
+    "latitude": 41.00758,
+    "longitude": 28.97239,
+    "description": {
+      "tr": "Şerefiye Sarnıcı, İstanbul’un en eski su sarnıçlarından biri olup, 4. yüzyılda Roma İmparatoru II. Theodosius döneminde inşa edilmiştir. Tarihi Yarımada’nın kalbinde bulunan bu yapı, Bizans su sisteminin önemli bir parçasıdır. Günümüzde restore edilerek ziyarete açılan sarnıç, ışık gösterileri ve etkileyici mimarisiyle ziyaretçilerine unutulmaz bir deneyim sunmaktadır.\n\n**Tarih ve Mimari**\n\nŞerefiye Sarnıcı, Bizans döneminde şehrin su ihtiyacını karşılamak amacıyla inşa edilen önemli yapılardan biridir. 1600 yıllık geçmişi boyunca birçok değişikliğe uğrayan sarnıç, zarif mermer sütunları ve kemerleri ile dikkat çeker. 25 metreye 40 metre boyutlarında olan bu tarihi yapı, toplamda 32 sütuna sahiptir.\n\n**Deneyim ve Etkinlikler**\n\nGünümüzde Şerefiye Sarnıcı, sadece tarihi bir yapı olmanın ötesinde, modern sanat ve ışık gösterileriyle zenginleştirilmiş bir kültürel mekân olarak hizmet vermektedir. Ziyaretçiler, suyun büyüleyici yansımaları eşliğinde tarihi atmosferi keşfedebilir ve düzenlenen etkinliklere katılabilirler.\n\n**Nasıl Gidilir?**\n\nŞerefiye Sarnıcı, İstanbul’un tarihi yarımadasında, Çemberlitaş bölgesinde yer almaktadır. Toplu taşıma ile ulaşım oldukça kolaydır; Sultanahmet, Çemberlitaş veya Beyazıt tramvay duraklarından yürüyerek kısa sürede ulaşılabilir.\n",
+      "en": "The Şerefiye Cistern is one of Istanbul’s oldest water reservoirs, built in the 4th century during the reign of Roman Emperor Theodosius II. Located in the heart of the Historic Peninsula, this structure was an essential part of the Byzantine water system. Today, after restoration, it offers visitors a fascinating experience with mesmerizing light shows and remarkable architecture.\n\n**History and Architecture**\n\nConstructed to supply water to the city, the Şerefiye Cistern is a significant historical site from the Byzantine era. Over its 1,600-year history, it has undergone several changes but still retains its elegant marble columns and arches. The cistern spans 25 by 40 meters and features a total of 32 columns.\n\n**Experience and Events**\n\nToday, the Şerefiye Cistern is more than just a historical monument. It serves as a cultural venue enriched with modern art and light shows. Visitors can explore its captivating atmosphere, enhanced by the reflections on the water, and attend various events held within the space.\n\n**How to Get There?**\n\nLocated in Istanbul’s historic district of Çemberlitaş, the Şerefiye Cistern is easily accessible via public transport. It is within walking distance from the Sultanahmet, Çemberlitaş, or Beyazıt tram stations.\n",
+      "de": "Die Şerefiye-Zisterne ist eines der ältesten Wasserreservoire Istanbuls und wurde im 4. Jahrhundert unter der Herrschaft des römischen Kaisers Theodosius II. erbaut. Dieses Bauwerk, das sich im Herzen der historischen Halbinsel befindet, war ein wichtiger Bestandteil des byzantinischen Wassersystems. Nach einer umfassenden Restaurierung bietet es heute Besuchern ein faszinierendes Erlebnis mit beeindruckenden Lichtshows und bemerkenswerter Architektur.\n\n**Geschichte und Architektur**\n\nDie Şerefiye-Zisterne wurde errichtet, um die Stadt mit Wasser zu versorgen, und ist ein bedeutendes historisches Relikt aus byzantinischer Zeit. Im Laufe ihrer 1600-jährigen Geschichte hat sie viele Veränderungen erfahren, bewahrt jedoch ihre eleganten Marmorsäulen und Bögen. Die Zisterne ist 25 mal 40 Meter groß und verfügt über insgesamt 32 Säulen.\n\n**Erlebnis und Veranstaltungen**\n\nHeute dient die Şerefiye-Zisterne nicht nur als historisches Denkmal, sondern auch als kultureller Veranstaltungsort mit modernen Kunstinstallationen und Lichtshows. Besucher können die faszinierende Atmosphäre entdecken, die durch die Spiegelungen auf dem Wasser verstärkt wird, und an verschiedenen Veranstaltungen teilnehmen.\n\n**Anfahrt**\n\nDie Şerefiye-Zisterne befindet sich im historischen Stadtteil Çemberlitaş in Istanbul und ist leicht mit öffentlichen Verkehrsmitteln erreichbar. Sie liegt nur wenige Gehminuten von den Straßenbahnhaltestellen Sultanahmet, Çemberlitaş oder Beyazıt entfernt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi atmosferi keşfetmek",
+        "Işık gösterilerini izlemek",
+        "Sanat etkinliklerine katılmak"
+      ],
+      "en": [
+        "Exploring the historical atmosphere",
+        "Watching light shows",
+        "Attending art events"
+      ],
+      "de": [
+        "Die historische Atmosphäre erkunden",
+        "Lichtshows ansehen",
+        "An Kunstveranstaltungen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/serefiye_1.jpg",
+      "https://example.com/serefiye_2.jpg"
+    ]
+  },
   {
     "slug": "florya-plaji",
     "name": {
@@ -2116,6 +2030,153 @@
     },
     "images": [
       "https://example.com/florya_plaji.jpg"
+    ]
+  },
+ {
+    "slug": "beylikduzu-yasam-vadisi",
+    "name": {
+      "tr": "Beylikdüzü Yaşam Vadisi",
+      "en": "Beylikdüzü Life Valley",
+      "de": "Beylikdüzü Lebenstal"
+    },
+    "latitude": 41.00900492749888, 
+    "longitude": 28.635144722104574,
+    "description": {
+      "tr": "Beylikdüzü Yaşam Vadisi, İstanbul’un Beylikdüzü ilçesinde yer alan büyük bir yeşil alan ve rekreasyon alanıdır. 2013 yılında açılışı yapılan bu yaşam vadisi, bölgedeki en büyük park olarak, İstanbul’un gürültüsünden uzaklaşmak isteyenler için huzurlu bir kaçış noktası sunmaktadır. Doğayla iç içe bir yaşam alanı olan bu vadi, hem yerel halk hem de turistler için popüler bir destinasyon olmuştur.\n\n**Tarih ve Konsept**\n\nBeylikdüzü Yaşam Vadisi, 600 bin metrekarelik geniş bir alanı kaplamakta olup, çeşitli yürüyüş yolları, bisiklet parkurları, çocuk oyun alanları, spor alanları ve göletler gibi birçok farklı etkinlik alanı sunmaktadır. Ayrıca, doğal yaşamı destekleyen bitki örtüsü ve çevre dostu yapılarıyla dikkat çeker. Bu vadi, yeşil alanların korunmasına ve sürdürülebilirliğe önem verilerek tasarlanmıştır.\n\n**Deneyim ve Etkinlikler**\n\nBeylikdüzü Yaşam Vadisi, yürüyüş yapmak, bisiklete binmek, piknik yapmak, doğada vakit geçirmek ve spor aktiviteleriyle ilgilenmek isteyenler için mükemmel bir yerdir. Ayrıca, bölgedeki göletlerde sakin bir atmosferde yürüyüş yapabilir veya gölet kenarında dinlenebilirsiniz. Çocuklar için eğlenceli oyun alanları ve doğal yaşamı gözlemleyebileceğiniz çeşitli bölgeler bulunmaktadır.\n\n**Nasıl Gidilir?**\n\nBeylikdüzü Yaşam Vadisi, İstanbul’un Beylikdüzü ilçesinde kolayca ulaşılabilecek bir konumda yer almaktadır. Toplu taşıma ile ulaşım sağlanabilir; Beylikdüzü metro durağından otobüs veya dolmuşlar ile birkaç dakika içinde vadiye ulaşmak mümkündür. Özel araçla gelenler için otopark alanları da mevcuttur.\n",
+      "en": "Beylikdüzü Life Valley is a large green area and recreation park located in the Beylikdüzü district of Istanbul. Opened in 2013, this life valley is the largest park in the area, offering a peaceful escape for those looking to get away from the hustle and bustle of Istanbul. With its integration with nature, this valley has become a popular destination for both locals and tourists.\n\n**History and Concept**\n\nBeylikdüzü Life Valley covers a vast area of 600,000 square meters and offers various activity areas such as walking paths, bike trails, children’s play areas, sports fields, and ponds. It also stands out with its vegetation that supports natural life and eco-friendly structures. The valley is designed with an emphasis on the preservation of green spaces and sustainability.\n\n**Experience and Activities**\n\nBeylikdüzü Life Valley is a perfect place for walking, biking, picnicking, spending time in nature, and engaging in sports activities. Visitors can also enjoy a peaceful walk by the ponds or relax by the water. There are fun playgrounds for children and several areas to observe natural life.\n\n**How to Get There?**\n\nBeylikdüzü Life Valley is located in the Beylikdüzü district of Istanbul, easily accessible by public transport. You can take a bus or minibus from the Beylikdüzü metro station, and the valley is just a few minutes away. For those arriving by private vehicle, parking spaces are available.\n",
+      "de": "Das Beylikdüzü Lebenstal ist ein großer Grünbereich und ein Erholungspark im Stadtteil Beylikdüzü in Istanbul. Der 2013 eröffnete Lebenspark ist der größte Park in der Region und bietet eine friedliche Auszeit für diejenigen, die dem Trubel von Istanbul entfliehen möchten. Mit seiner Integration in die Natur ist dieses Tal ein beliebtes Ziel sowohl für Einheimische als auch für Touristen.\n\n**Geschichte und Konzept**\n\nDas Beylikdüzü Lebenstal erstreckt sich über eine Fläche von 600.000 Quadratmetern und bietet verschiedene Freizeitmöglichkeiten wie Wanderwege, Fahrradstrecken, Kinderspielplätze, Sportanlagen und Teiche. Es zeichnet sich auch durch seine Vegetation aus, die das natürliche Leben unterstützt, und seine umweltfreundlichen Strukturen. Das Tal wurde mit dem Schwerpunkt auf den Erhalt von Grünflächen und Nachhaltigkeit entworfen.\n\n**Erlebnis und Aktivitäten**\n\nDas Beylikdüzü Lebenstal ist ein perfekter Ort zum Wandern, Radfahren, Picknicken, Zeit in der Natur zu verbringen und sportlichen Aktivitäten nachzugehen. Besucher können auch einen ruhigen Spaziergang entlang der Teiche machen oder am Wasser entspannen. Es gibt unterhaltsame Spielplätze für Kinder und mehrere Bereiche, in denen man das natürliche Leben beobachten kann.\n\n**Anfahrt**\n\nDas Beylikdüzü Lebenstal befindet sich im Stadtteil Beylikdüzü in Istanbul und ist mit öffentlichen Verkehrsmitteln leicht zu erreichen. Vom Metro-Bahnhof Beylikdüzü aus können Sie mit dem Bus oder Minibus fahren, und das Tal ist nur wenige Minuten entfernt. Für diejenigen, die mit dem Privatfahrzeug anreisen, sind Parkplätze vorhanden.\n"
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Bisiklete binmek",
+        "Piknik yapmak",
+        "Spor yapmak",
+        "Çocuklar için oyun alanlarında vakit geçirmek"
+      ],
+      "en": [
+        "Walking",
+        "Biking",
+        "Picnicking",
+        "Engaging in sports",
+        "Spending time in children’s play areas"
+      ],
+      "de": [
+        "Wandern",
+        "Radfahren",
+        "Picknicken",
+        "Sport treiben",
+        "Zeit in den Kinderspielplätzen verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park"
+      ],
+      "en": [
+        "park"
+      ],
+      "de": [
+        "park"
+      ]
+    },
+    "images": [
+      "https://example.com/beylikduzu_life_valley_1.jpg",
+      "https://example.com/beylikduzu_life_valley_2.jpg"
+    ]
+  },
+{
+    "slug": "murat-pasa-camii",
+    "name": {
+      "tr": "Murat Paşa Camii",
+      "en": "Murat Pasha Mosque",
+      "de": "Murat-Pascha-Moschee"
+    },
+    "latitude": 41.01076,
+    "longitude": 28.94914,
+    "description": {
+      "tr": "Murat Paşa Camii, Osmanlı padişahlarından II. Murad döneminde, 15. yüzyılda inşa edilen önemli bir ibadethanedir. İstanbul'un Aksaray semtinde yer alan bu tarihi cami, klasik Osmanlı mimarisinin zarif örneklerinden biridir.\n\n**Tarih ve Mimari**\n\nCami, sadrazam Murat Paşa tarafından yaptırılmış olup, kesme taş ve tuğla kullanılarak inşa edilmiştir. Klasik Osmanlı mimari özelliklerini taşıyan yapı, tek kubbeli ve kare planlı bir tasarıma sahiptir. Caminin minaresi ve iç mekanındaki süslemeler, döneminin sanatsal anlayışını yansıtır.\n\n**Deneyim ve Etkinlikler**\n\nMurat Paşa Camii, hem ibadet hem de kültürel ziyaretler için açıktır. Osmanlı mimarisine ilgi duyanlar için önemli bir ziyaret noktasıdır. Caminin huzurlu atmosferi, ziyaretçilere tarihi bir deneyim sunar.\n\n**Nasıl Gidilir?**\n\nMurat Paşa Camii, İstanbul’un Fatih ilçesinde, Aksaray semtinde bulunmaktadır. Toplu taşıma ile ulaşım oldukça kolaydır; Aksaray tramvay durağı ve otobüs hatları camiye yürüme mesafesindedir.\n",
+      "en": "Murat Pasha Mosque is a significant place of worship built during the reign of Ottoman Sultan Murad II in the 15th century. Located in the Aksaray district of Istanbul, this historical mosque is a fine example of classical Ottoman architecture.\n\n**History and Architecture**\n\nCommissioned by Grand Vizier Murat Pasha, the mosque was constructed using cut stone and brick. It features a square plan with a single dome, reflecting the classical Ottoman architectural style. The minaret and interior decorations showcase the artistic craftsmanship of the period.\n\n**Experience and Activities**\n\nThe mosque is open for both worship and cultural visits. It is an important site for those interested in Ottoman architecture. The peaceful atmosphere of the mosque offers visitors a historical and spiritual experience.\n\n**How to Get There?**\n\nMurat Pasha Mosque is located in the Aksaray district of Fatih, Istanbul. It is easily accessible by public transportation, with the Aksaray tram station and bus stops within walking distance.\n",
+      "de": "Die Murat-Pascha-Moschee ist ein bedeutendes Gotteshaus, das während der Herrschaft des osmanischen Sultans Murad II. im 15. Jahrhundert erbaut wurde. Sie befindet sich im Stadtteil Aksaray in Istanbul und ist ein schönes Beispiel für die klassische osmanische Architektur.\n\n**Geschichte und Architektur**\n\nDie Moschee wurde im Auftrag von Großwesir Murat Pascha erbaut und aus Quaderstein und Ziegel konstruiert. Sie weist einen quadratischen Grundriss mit einer einzigen Kuppel auf und spiegelt den klassischen osmanischen Architekturstil wider. Das Minarett und die Innenverzierungen zeigen die kunstvolle Handwerkskunst der Epoche.\n\n**Erlebnis und Aktivitäten**\n\nDie Moschee ist sowohl für Gebete als auch für kulturelle Besuche geöffnet. Sie ist ein wichtiger Ort für diejenigen, die sich für osmanische Architektur interessieren. Die ruhige Atmosphäre der Moschee bietet den Besuchern eine historische und spirituelle Erfahrung.\n\n**Anfahrt**\n\nDie Murat-Pascha-Moschee befindet sich im Stadtteil Aksaray in Fatih, Istanbul. Sie ist leicht mit öffentlichen Verkehrsmitteln erreichbar – die Straßenbahnhaltestelle Aksaray sowie mehrere Bushaltestellen befinden sich in unmittelbarer Nähe.\n"
+    },
+    "activities": {
+      "tr": [
+        "Osmanlı mimarisini incelemek",
+        "İbadet etmek",
+        "Tarihi atmosferi keşfetmek"
+      ],
+      "en": [
+        "Exploring Ottoman architecture",
+        "Praying",
+        "Experiencing the historical atmosphere"
+      ],
+      "de": [
+        "Die osmanische Architektur erkunden",
+        "Beten",
+        "Die historische Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/murat_pasha_mosque_istanbul_1.jpg",
+      "https://example.com/murat_pasha_mosque_istanbul_2.jpg"
+    ]
+  },
+  {
+    "slug": "pertevniyal-valide-sultan-camii",
+    "name": {
+      "tr": "Pertevniyal Valide Sultan Camii",
+      "en": "Pertevniyal Valide Sultan Mosque",
+      "de": "Pertevniyal Valide Sultan Moschee"
+    },
+    "latitude": 41.01027,
+    "longitude": 28.95305,
+    "description": {
+      "tr": "Pertevniyal Valide Sultan Camii, Osmanlı padişahı II. Mahmud’un eşi ve Sultan Abdülaziz’in annesi Pertevniyal Valide Sultan tarafından 1871 yılında yaptırılmış, İstanbul’un en zarif ve dikkat çekici camilerinden biridir. Laleli semtinde yer alan cami, Osmanlı’nın geç dönem mimarisini yansıtan önemli bir eserdir.\n\n**Tarih ve Mimari**\n\nPertevniyal Valide Sultan Camii, Osmanlı mimarisinde alışılmışın dışında bir tarza sahiptir. Gotik, Hint ve Osmanlı mimari unsurlarını bir araya getiren eklektik üslubu ile dikkat çeker. Cami, mimar Montani ve Sarkis Balyan tarafından tasarlanmıştır. Zengin taş işçiliği, kabartmalar ve süslemeleriyle oldukça görkemli bir yapıdır.\n\n**Deneyim ve Etkinlikler**\n\nCami, ibadet edenler ve tarih meraklıları için önemli bir duraktır. Osmanlı mimarisindeki farklı akımları gözlemlemek isteyen ziyaretçiler için eşsiz bir deneyim sunar. Caminin iç mekanındaki zarif hat sanatları ve süslemeler, ziyaretçileri büyüleyici bir atmosferle karşılar.\n\n**Nasıl Gidilir?**\n\nPertevniyal Valide Sultan Camii, İstanbul’un Fatih ilçesinde, Laleli semtinde yer almaktadır. Ulaşım açısından oldukça elverişli bir konumda olup, Laleli-Üniversite tramvay durağından birkaç dakikalık yürüyüş mesafesindedir.\n",
+      "en": "Pertevniyal Valide Sultan Mosque, built in 1871 by Pertevniyal Valide Sultan, the wife of Ottoman Sultan Mahmud II and mother of Sultan Abdülaziz, is one of the most elegant and remarkable mosques in Istanbul. Located in the Laleli district, it is a significant example of the late Ottoman architectural style.\n\n**History and Architecture**\n\nUnlike traditional Ottoman mosques, Pertevniyal Valide Sultan Mosque exhibits an eclectic style, incorporating Gothic, Indian, and Ottoman architectural elements. Designed by architects Montani and Sarkis Balyan, the mosque features intricate stone carvings, detailed ornamentation, and impressive craftsmanship.\n\n**Experience and Activities**\n\nThe mosque serves both as a place of worship and a cultural attraction. Visitors interested in Ottoman architecture will find its unique blend of styles fascinating. The calligraphy and decorative details inside the mosque create a captivating spiritual and aesthetic experience.\n\n**How to Get There?**\n\nPertevniyal Valide Sultan Mosque is located in the Fatih district of Istanbul, in the Laleli neighborhood. It is easily accessible by tram, just a short walk from the Laleli-Üniversite station.\n",
+      "de": "Die Pertevniyal Valide Sultan Moschee, die 1871 von Pertevniyal Valide Sultan, der Frau von Sultan Mahmud II. und Mutter von Sultan Abdülaziz, erbaut wurde, ist eine der elegantesten und bemerkenswertesten Moscheen Istanbuls. Sie befindet sich im Stadtteil Laleli und ist ein bedeutendes Beispiel für die späte osmanische Architektur.\n\n**Geschichte und Architektur**\n\nIm Gegensatz zu traditionellen osmanischen Moscheen weist die Pertevniyal Valide Sultan Moschee einen eklektischen Stil auf, der gotische, indische und osmanische Architekturelemente vereint. Die Moschee wurde von den Architekten Montani und Sarkis Balyan entworfen und zeichnet sich durch kunstvolle Steinmetzarbeiten, detaillierte Verzierungen und beeindruckendes Handwerk aus.\n\n**Erlebnis und Aktivitäten**\n\nDie Moschee dient sowohl als Gebetsstätte als auch als kulturelle Attraktion. Besucher, die sich für die osmanische Architektur interessieren, werden die einzigartige Mischung der Stile faszinierend finden. Die Kalligrafien und dekorativen Details im Inneren der Moschee schaffen eine fesselnde spirituelle und ästhetische Atmosphäre.\n\n**Anfahrt**\n\nDie Pertevniyal Valide Sultan Moschee befindet sich im Stadtteil Fatih in Istanbul, im Viertel Laleli. Sie ist leicht mit der Straßenbahn erreichbar und nur wenige Gehminuten von der Haltestelle Laleli-Üniversite entfernt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Eklektik Osmanlı mimarisini incelemek",
+        "İbadet etmek",
+        "Tarihi atmosferi keşfetmek"
+      ],
+      "en": [
+        "Exploring eclectic Ottoman architecture",
+        "Praying",
+        "Experiencing the historical atmosphere"
+      ],
+      "de": [
+        "Die eklektische osmanische Architektur erkunden",
+        "Beten",
+        "Die historische Atmosphäre erleben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami"
+      ],
+      "en": [
+        "mosque"
+      ],
+      "de": [
+        "Moschee"
+      ]
+    },
+    "images": [
+      "https://example.com/pertevniyal_mosque_1.jpg",
+      "https://example.com/pertevniyal_mosque_2.jpg"
     ]
   },
   {

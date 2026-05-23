@@ -42,49 +42,47 @@
       "https://example.com/giresun_kalesi.jpg"
     ]
   },
-  {
-    "slug": "giresun-adasi",
-    "name": {
-      "tr": "Giresun Adası",
-      "en": "Giresun Island",
-      "de": "Giresun Insel"
-    },
-    "latitude": 40.92871,
-    "longitude": 38.43683,
-    "description": {
-      "en": "Giresun Island, located off the coast of Giresun in the Black Sea region of Turkey, is the only inhabited island along Turkey’s Black Sea coastline and one of the region’s most unique natural and historical attractions. Known in ancient times as Aretias Island, it holds significant mythological importance and is often associated with Greek mythology, particularly the legends of the Amazons and the story of Jason and the Argonauts. The island is rich in archaeological remains, including the ruins of ancient temples, city walls, and monasteries dating back to the Hellenistic, Roman, and Byzantine periods. Surrounded by lush vegetation and offering stunning views of the Black Sea, Giresun Island is a popular destination for boat tours, nature walks, and cultural exploration. It is also known for hosting traditional events such as the Aksu Festival, where visitors can experience local customs and folklore. Today, Giresun Island stands out as a must-visit destination for those interested in history, mythology, and natural beauty, making it one of the top tourist attractions in the Black Sea region of Turkey.",
-      "tr": "Giresun Adası, Türkiye’nin Karadeniz kıyısında Giresun açıklarında yer alan ve Karadeniz’deki tek yerleşime sahip ada olarak bilinen, bölgenin en özgün doğal ve tarihi zenginliklerinden biridir. Antik dönemde Aretias Adası olarak anılan bu ada, Yunan mitolojisiyle ilişkilendirilmekte olup özellikle Amazonlar efsanesi ve Altın Post hikâyesiyle tanınan Argonautlar ile bağlantılıdır. Ada, Helenistik, Roma ve Bizans dönemlerine ait tapınak kalıntıları, surlar ve manastır yapıları gibi önemli arkeolojik izler barındırmaktadır. Yoğun bitki örtüsüyle kaplı olan ada, Karadeniz’in eşsiz manzarasını sunarken aynı zamanda tekne turları, doğa yürüyüşleri ve kültürel geziler için popüler bir destinasyondur. Ayrıca her yıl düzenlenen Aksu Festivali gibi geleneksel etkinliklerle de ziyaretçilere yerel kültürü deneyimleme fırsatı sunar. Günümüzde Giresun Adası; tarih, mitoloji ve doğayı bir arada keşfetmek isteyenler için Karadeniz Bölgesi’nde mutlaka görülmesi gereken önemli turistik yerlerden biri olarak öne çıkmaktadır.",
-      "de": "Die Giresun-Insel liegt vor der Küste der Stadt Giresun an der türkischen Schwarzmeerküste und ist die einzige bewohnte Insel in dieser Region. Sie zählt zu den außergewöhnlichsten natürlichen und historischen Sehenswürdigkeiten der Schwarzmeerregion. In der Antike war sie als Aretias-Insel bekannt und spielt eine wichtige Rolle in der griechischen Mythologie, insbesondere in den Legenden der Amazonen und der Argonauten um Jason und das Goldene Vlies. Die Insel beherbergt zahlreiche archäologische Überreste aus der hellenistischen, römischen und byzantinischen Zeit, darunter Tempelruinen, Stadtmauern und Klosteranlagen. Umgeben von üppiger Vegetation und mit beeindruckendem Blick auf das Schwarze Meer ist die Insel ein beliebtes Ziel für Bootsausflüge, Wanderungen und kulturelle Erkundungen. Zudem ist sie Schauplatz traditioneller Veranstaltungen wie des Aksu-Festivals, bei dem Besucher regionale Bräuche und Kultur erleben können. Heute gilt die Giresun-Insel als eines der wichtigsten Reiseziele in der Schwarzmeerregion der Türkei für alle, die sich für Geschichte, Mythologie und Natur interessieren."
-    },
-    "activities": {
-      "tr": [
-        "Adada yürüyüş yapmak",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Walk on the island",
-        "Take photos"
-      ],
-      "de": [
-        "Auf der Insel spazieren",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "ada"
-      ],
-      "en": [
-        "island"
-      ],
-      "de": [
-        "insel"
-      ]
-    },
-    "images": [
-      "https://example.com/giresun_adasi.jpg"
+ 
+{
+  "slug": "tirebolu-kalesi",
+  "name": {
+    "tr": "Tirebolu Kalesi",
+    "en": "Tirebolu Castle",
+    "de": "Burg Tirebolu"
+  },
+  "latitude": 41.008333,
+  "longitude": 38.813889,
+  "description": {
+    "tr": "Tirebolu Kalesi (tarihi adıyla Saint Jean Kalesi), Giresun’un Tirebolu ilçe merkezinde, denize doğru uzanan küçük bir yarımada üzerindeki dik kayalıkların tepesine inşa edilmiş çok stratejik bir Orta Çağ kalesidir. Kalenin kesin yapım tarihi bilinmemekle birlikte, M.Ö. 15. yüzyıla kadar uzanan bir geçmişi olduğu ve bugünkü haline Trabzon İmparatorluğu (13-15. yüzyıl) döneminde getirildiği tahmin edilmektedir. Karadeniz’deki deniz ticaret yollarını gözetlemek ve şehri korumak amacıyla inşa edilen kale, tek bir giriş kapısına sahip olup oldukça dik merdivenlerle çıkılan korunaklı bir yapıya sahiptir. Surların içerisinde eski dönemlere ait asker kışlaları, su sarnıçları ve Osmanlı döneminde eklenen mescit kalıntıları ile mezar taşları yer almaktadır. Günümüzde kale içi, ziyaretçilerin çay içip Karadeniz’in hırçın dalgalarını ve Tirebolu sahillerini kuş bakışı izleyebileceği eşsiz bir seyir terası ve açık hava müzesi olarak hizmet vermektedir.",
+    "en": "Tirebolu Castle (historically known as Saint Jean Castle) is a strategic medieval fortress built atop a steep rocky outcrop on a small peninsula extending into the sea, located in the town center of Tirebolu, Giresun. Although the exact date of its foundation remains unknown, its history is estimated to date back as far as the 15th century BC, reaching its definitive structural form during the Empire of Trebizond (13th-15th centuries). Constructed to secure the Black Sea maritime trade routes and safeguard the settlement, the castle features a single defensive entrance accessible via steep stone stairs. Inside the ramparts lie remnants of military barracks, water cisterns, historical Ottoman tombstones, and the foundations of a small prayer room. Today, it serves as an open-air museum and viewpoint where visitors can enjoy traditional tea while admiring panoramic views of the rugged coastline.",
+    "de": "Die Burg Tirebolu (historisch bekannt als Burg Saint Jean) ist eine strategische mittelalterliche Festung, die auf einem steilen Felsvorsprung auf einer kleinen Halbinsel im Stadtzentrum von Tirebolu in der Provinz Giresun liegt. Obwohl das genaue Gründungsdatum unbekannt ist, wird angenommen, dass die Geschichte der Anlage bis in das 15. Jahrhundert v. Chr. zurückreicht. Ihre heutige Gestalt erhielt sie im Wesentlichen während des Kaiserreichs Trapezunt (13.-15. Jahrhundert). Errichtet zur Sicherung der Seehandelswege im Schwarzen Meer, verfügt die Festung über einen einzigen Eingang, der über steile Steintreppen erreichbar ist. Innerhalb der Mauern befinden sich Ruinen von Kasernen, Zisternen und osmanischen Grabsteinen. Heute dient die Anlage als Aussichtspunkt, an dem Besucher traditionellen Tee genießen und den Panoramablick auf die Küste bewundern können."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi surları, sarnıçları ve Osmanlı dönemi mezar taşlarını inceleme",
+      "Kale içindeki çay bahçesinde panoramik Karadeniz manzarasının keyfini çıkarma",
+      "Deniz kenarındaki kayalıklar ve tarihi kale fonunda fotoğraf çekimi"
+    ],
+    "en": [
+      "Examine the historic ramparts, cisterns, and Ottoman tombstones",
+      "Enjoy traditional Turkish tea at the inner courtyard overlooking the Black Sea",
+      "Take photos with the historic castle and rugged cliffs as a backdrop"
+    ],
+    "de": [
+      "Die historischen Mauern, Zisternen und osmanischen Grabsteine besichtigen",
+      "Traditionellen türkischen Tee im Innenhof mit Blick auf das Schwarze Meer genießen",
+      "Fotos vor der Kulisse der historischen Burg und der Klippen machen"
     ]
   },
+  "categories": {
+    "tr": ["kale", "tarihi yapı", "manzara noktası", "arkeolojik alan"],
+    "en": ["castle", "historical site", "viewpoint", "archaeological site"],
+    "de": ["burg", "historische stätte", "aussichtspunkt", "archäologische stätte"]
+  },
+  "images": [
+    "https://example.com/tirebolu_kalesi_giresun.jpg"
+  ]
+},
   {
     "slug": "mavi-gol-dereli",
     "name": {
@@ -140,6 +138,49 @@
       "https://example.com/mavi_gol_dereli.jpg",
       "https://example.com/mavi_gol_dereli2.jpg",
       "https://example.com/mavi_gol_dereli3.jpg"
+    ]
+  },
+ {
+    "slug": "giresun-adasi",
+    "name": {
+      "tr": "Giresun Adası",
+      "en": "Giresun Island",
+      "de": "Giresun Insel"
+    },
+    "latitude": 40.92871,
+    "longitude": 38.43683,
+    "description": {
+      "en": "Giresun Island, located off the coast of Giresun in the Black Sea region of Turkey, is the only inhabited island along Turkey’s Black Sea coastline and one of the region’s most unique natural and historical attractions. Known in ancient times as Aretias Island, it holds significant mythological importance and is often associated with Greek mythology, particularly the legends of the Amazons and the story of Jason and the Argonauts. The island is rich in archaeological remains, including the ruins of ancient temples, city walls, and monasteries dating back to the Hellenistic, Roman, and Byzantine periods. Surrounded by lush vegetation and offering stunning views of the Black Sea, Giresun Island is a popular destination for boat tours, nature walks, and cultural exploration. It is also known for hosting traditional events such as the Aksu Festival, where visitors can experience local customs and folklore. Today, Giresun Island stands out as a must-visit destination for those interested in history, mythology, and natural beauty, making it one of the top tourist attractions in the Black Sea region of Turkey.",
+      "tr": "Giresun Adası, Türkiye’nin Karadeniz kıyısında Giresun açıklarında yer alan ve Karadeniz’deki tek yerleşime sahip ada olarak bilinen, bölgenin en özgün doğal ve tarihi zenginliklerinden biridir. Antik dönemde Aretias Adası olarak anılan bu ada, Yunan mitolojisiyle ilişkilendirilmekte olup özellikle Amazonlar efsanesi ve Altın Post hikâyesiyle tanınan Argonautlar ile bağlantılıdır. Ada, Helenistik, Roma ve Bizans dönemlerine ait tapınak kalıntıları, surlar ve manastır yapıları gibi önemli arkeolojik izler barındırmaktadır. Yoğun bitki örtüsüyle kaplı olan ada, Karadeniz’in eşsiz manzarasını sunarken aynı zamanda tekne turları, doğa yürüyüşleri ve kültürel geziler için popüler bir destinasyondur. Ayrıca her yıl düzenlenen Aksu Festivali gibi geleneksel etkinliklerle de ziyaretçilere yerel kültürü deneyimleme fırsatı sunar. Günümüzde Giresun Adası; tarih, mitoloji ve doğayı bir arada keşfetmek isteyenler için Karadeniz Bölgesi’nde mutlaka görülmesi gereken önemli turistik yerlerden biri olarak öne çıkmaktadır.",
+      "de": "Die Giresun-Insel liegt vor der Küste der Stadt Giresun an der türkischen Schwarzmeerküste und ist die einzige bewohnte Insel in dieser Region. Sie zählt zu den außergewöhnlichsten natürlichen und historischen Sehenswürdigkeiten der Schwarzmeerregion. In der Antike war sie als Aretias-Insel bekannt und spielt eine wichtige Rolle in der griechischen Mythologie, insbesondere in den Legenden der Amazonen und der Argonauten um Jason und das Goldene Vlies. Die Insel beherbergt zahlreiche archäologische Überreste aus der hellenistischen, römischen und byzantinischen Zeit, darunter Tempelruinen, Stadtmauern und Klosteranlagen. Umgeben von üppiger Vegetation und mit beeindruckendem Blick auf das Schwarze Meer ist die Insel ein beliebtes Ziel für Bootsausflüge, Wanderungen und kulturelle Erkundungen. Zudem ist sie Schauplatz traditioneller Veranstaltungen wie des Aksu-Festivals, bei dem Besucher regionale Bräuche und Kultur erleben können. Heute gilt die Giresun-Insel als eines der wichtigsten Reiseziele in der Schwarzmeerregion der Türkei für alle, die sich für Geschichte, Mythologie und Natur interessieren."
+    },
+    "activities": {
+      "tr": [
+        "Adada yürüyüş yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Walk on the island",
+        "Take photos"
+      ],
+      "de": [
+        "Auf der Insel spazieren",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "ada"
+      ],
+      "en": [
+        "island"
+      ],
+      "de": [
+        "insel"
+      ]
+    },
+    "images": [
+      "https://example.com/giresun_adasi.jpg"
     ]
   },
   {

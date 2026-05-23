@@ -1,48 +1,5 @@
 [
-  {
-    "slug": "kutahya-kalesi",
-    "name": {
-      "tr": "Kütahya Kalesi",
-      "en": "Kütahya Castle",
-      "de": "Kütahya Schloss"
-    },
-    "latitude": 39.41929,
-    "longitude": 29.97001,
-    "description": {
-      "tr": "Kütahya Kalesi, Türkiye’nin Ege bölgesinde yer alan Kütahya şehrinin simgesel yapılarından biridir. Şehrin merkezinde konumlanan kale, tarih boyunca farklı medeniyetler tarafından kullanılmış ve şehrin savunmasında önemli rol oynamıştır. Kaleye çıkarak Kütahya’nın panoramik manzarasını görmek mümkündür. Ziyaretçiler, kalenin surları ve burçları boyunca yürüyerek hem tarihi dokuyu keşfedebilir hem de fotoğraf çekebilir.\n\nKale, özellikle Bizans ve Osmanlı dönemlerinden izler taşımaktadır. Yapının mimarisi, dönemine ait savunma tekniklerini ve taş işçiliğini yansıtmaktadır. Kalede yer alan burçlar, sur duvarları ve kapılar, şehrin tarihini gözler önüne seren önemli detaylardır. Ziyaretçiler burada hem Kütahya’nın geçmişine tanıklık edebilir hem de şehir manzarasının keyfini çıkarabilir.\n\nKütahya Kalesi, aynı zamanda kültürel etkinlikler ve turistik geziler için de tercih edilen bir mekandır. Çevresindeki parklar ve yürüyüş yolları sayesinde aileler ve doğa severler rahatça vakit geçirebilir. Kaleye ulaşım, şehir merkezinden kısa bir yürüyüş veya araç ile sağlanabilir, bu da günübirlik ziyaretler için ideal bir durak haline getirir.\n\nSonuç olarak Kütahya Kalesi, tarihi, mimarisi ve panoramik şehir manzarası ile Kütahya’nın en önemli turistik değerlerinden biridir. Hem tarih meraklıları hem de fotoğrafçılar için unutulmaz bir deneyim sunmaktadır.",
-      "en": "Kütahya Castle is one of the iconic landmarks of Kütahya city, located in Turkey’s Aegean region. Situated in the city center, the castle has been used by various civilizations throughout history and played a crucial role in the defense of the city. Visitors can enjoy panoramic views of Kütahya from the castle. Walking along the walls and towers, visitors can explore the historical architecture and take memorable photographs.\n\nThe castle contains traces from the Byzantine and Ottoman periods. Its architecture reflects the defensive techniques and stone craftsmanship of its era. Towers, walls, and gates provide important details that reveal the city’s historical past. Visitors can witness Kütahya’s heritage and enjoy scenic views of the city.\n\nKütahya Castle is also a preferred venue for cultural activities and tourist visits. Parks and walking paths around the castle allow families and nature enthusiasts to spend time comfortably. The castle is easily accessible by a short walk or vehicle from the city center, making it ideal for day trips.\n\nIn conclusion, Kütahya Castle is one of the city’s most significant tourist attractions due to its history, architecture, and panoramic views. It offers an unforgettable experience for both history enthusiasts and photographers.",
-      "de": "Die Kütahya-Burg ist eines der markantesten Wahrzeichen der Stadt Kütahya in der Ägäisregion der Türkei. Die Burg liegt im Stadtzentrum und wurde im Laufe der Geschichte von verschiedenen Zivilisationen genutzt, wobei sie eine wichtige Rolle bei der Verteidigung der Stadt spielte. Von der Burg aus können Besucher einen Panoramablick auf Kütahya genießen. Entlang der Mauern und Türme können Besucher die historische Architektur erkunden und unvergessliche Fotos machen.\n\nDie Burg weist Spuren aus byzantinischer und osmanischer Zeit auf. Ihre Architektur spiegelt die Verteidigungstechniken und Steinmetzarbeiten der jeweiligen Epoche wider. Türme, Mauern und Tore zeigen wichtige Details, die die Geschichte der Stadt verdeutlichen. Besucher können das Erbe Kütahyas erleben und die Aussicht auf die Stadt genießen.\n\nDie Kütahya-Burg ist auch ein beliebter Ort für kulturelle Aktivitäten und touristische Besuche. Parks und Spazierwege in der Umgebung ermöglichen Familien und Naturliebhabern einen komfortablen Aufenthalt. Die Burg ist vom Stadtzentrum aus leicht zu erreichen, sowohl zu Fuß als auch mit dem Auto, und eignet sich daher ideal für Tagesausflüge.\n\nZusammenfassend ist die Kütahya-Burg aufgrund ihrer Geschichte, Architektur und Panoramaaussichten eine der bedeutendsten Touristenattraktionen der Stadt. Sie bietet ein unvergessliches Erlebnis für Geschichtsinteressierte und Fotografen."
-    },
-    "activities": {
-      "tr": [
-        "Kale gezisi",
-        "Tarihi yapıyı keşfetme"
-      ],
-      "en": [
-        "Castle tour",
-        "Exploring historical architecture"
-      ],
-      "de": [
-        "Burgführung",
-        "Erkundung historischer Architektur"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/kutahya_kalesi.jpg"
-    ]
-  },
-  {
+ {
     "slug": "aizanoi-antik-kenti",
     "name": {
       "tr": "Aizanoi Antik Kenti",
@@ -96,49 +53,6 @@
     ]
   },
   {
-    "slug": "kutahya-cini-ve-seramik-muzesi",
-    "name": {
-      "tr": "Kütahya Çini ve Seramik Müzesi",
-      "en": "Kütahya Ceramic and Pottery Museum",
-      "de": "Kütahya Keramik- und Töpfermuseum"
-    },
-    "latitude": 39.41747,
-    "longitude": 29.97525,
-    "description": {
-      "tr": "Kütahya Çini ve Seramik Müzesi, Türkiye’nin çini ve seramik üretim geleneğini sergileyen önemli bir kültürel mekândır. Kütahya, yüzyıllardır el sanatları ve özellikle çini üretimi ile ünlü bir şehir olmuştur. Müze, bu zengin mirası ziyaretçilere sunmak amacıyla kurulmuştur. Koleksiyonunda Osmanlı dönemi çinileri, modern tasarım seramikleri ve farklı dönemlere ait el yapımı eserler yer almaktadır.\n\nMüze, hem tarih meraklıları hem de sanatseverler için cazip bir ziyaret noktasıdır. Sergilenen eserler, Kütahya’nın sanat ve kültür tarihini gözler önüne sererken, ziyaretçilere geleneksel teknikler hakkında bilgi edinme fırsatı da sunar. Müze içerisinde ayrıca seramik atölyeleri ve interaktif bölümler bulunmakta, ziyaretçilere uygulamalı deneyimler yaşama imkânı sağlamaktadır.\n\nKütahya Çini ve Seramik Müzesi, şehir merkezine yakın konumu sayesinde kolayca ulaşılabilir. Ziyaretçiler, müzeyi gezdikten sonra Kütahya’nın tarihi sokaklarını keşfedebilir veya civardaki kafelerde dinlenebilir. Müze, eğitim programları ve sergiler ile hem yerli halkın hem de turistlerin ilgisini çeken dinamik bir kültürel merkez olarak öne çıkar.\n\nSonuç olarak, Kütahya Çini ve Seramik Müzesi, geleneksel el sanatlarını koruyan ve sergileyen, ziyaretçilere hem eğitim hem de görsel deneyim sunan bir mekândır. Türkiye’nin çini ve seramik kültürünü yakından tanımak isteyen herkes için mutlaka ziyaret edilmesi gereken bir noktadır.",
-      "en": "Kütahya Tile and Ceramic Museum is an important cultural venue showcasing Turkey’s tile and ceramic production tradition. Kütahya has been renowned for centuries for its handicrafts, particularly tile-making. The museum was established to present this rich heritage to visitors. Its collection includes Ottoman-era tiles, modern ceramic designs, and handcrafted works from various periods.\n\nThe museum is an attractive destination for both history enthusiasts and art lovers. The displayed artifacts reveal Kütahya’s artistic and cultural history while providing visitors the opportunity to learn about traditional techniques. There are also ceramic workshops and interactive sections in the museum, offering hands-on experiences for visitors.\n\nKütahya Tile and Ceramic Museum is easily accessible due to its central location. Visitors can explore Kütahya’s historical streets or relax in nearby cafes after touring the museum. Through educational programs and exhibitions, the museum stands out as a dynamic cultural center that engages both locals and tourists.\n\nIn conclusion, Kütahya Tile and Ceramic Museum preserves and displays traditional handicrafts while providing educational and visual experiences for visitors. It is a must-visit destination for anyone who wants to closely explore Turkey’s tile and ceramic culture.",
-      "de": "Das Kütahya-Fliesen- und Keramikmuseum ist ein bedeutendes Kulturzentrum, das die Tradition der Fliesen- und Keramikproduktion in der Türkei präsentiert. Kütahya ist seit Jahrhunderten für sein Handwerk, insbesondere die Fliesenherstellung, bekannt. Das Museum wurde eingerichtet, um dieses reiche Erbe den Besuchern zugänglich zu machen. Die Sammlung umfasst Fliesen aus osmanischer Zeit, moderne Keramikdesigns und handgefertigte Werke aus verschiedenen Epochen.\n\nDas Museum ist ein attraktives Ziel für Geschichtsinteressierte und Kunstliebhaber. Die ausgestellten Exponate zeigen die künstlerische und kulturelle Geschichte Kütahyas und bieten den Besuchern die Möglichkeit, traditionelle Techniken kennenzulernen. Außerdem gibt es im Museum Keramik-Workshops und interaktive Bereiche, die praktische Erfahrungen ermöglichen.\n\nDas Kütahya-Fliesen- und Keramikmuseum ist aufgrund seiner zentralen Lage leicht erreichbar. Besucher können nach der Besichtigung die historischen Straßen von Kütahya erkunden oder in nahegelegenen Cafés entspannen. Durch Bildungsprogramme und Ausstellungen zeichnet sich das Museum als dynamisches Kulturzentrum aus, das sowohl Einheimische als auch Touristen anspricht.\n\nZusammenfassend bewahrt und präsentiert das Kütahya-Fliesen- und Keramikmuseum traditionelle Handwerkskunst und bietet den Besuchern sowohl Bildungs- als auch visuelle Erlebnisse. Es ist ein Muss für alle, die die türkische Fliesen- und Keramikkultur hautnah erleben möchten."
-    },
-    "activities": {
-      "tr": [
-        "Çini eserleri gezme",
-        "Sanat ve kültür keşfi"
-      ],
-      "en": [
-        "Visit ceramic artworks",
-        "Explore art and culture"
-      ],
-      "de": [
-        "Besichtigung von Keramikkunstwerken",
-        "Erkundung von Kunst und Kultur"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "müze"
-      ],
-      "en": [
-        "museum"
-      ],
-      "de": [
-        "Museum"
-      ]
-    },
-    "images": [
-      "https://example.com/kutahya_cini_muzesi.jpg"
-    ]
-  },
-  {
     "slug": "frig-vadisi",
     "name": {
       "tr": "Frig Vadisi",
@@ -179,6 +93,94 @@
     },
     "images": [
       "https://example.com/frig_vadisi.jpg"
+    ]
+  },
+
+  {
+    "slug": "kutahya-kalesi",
+    "name": {
+      "tr": "Kütahya Kalesi",
+      "en": "Kütahya Castle",
+      "de": "Kütahya Schloss"
+    },
+    "latitude": 39.41929,
+    "longitude": 29.97001,
+    "description": {
+      "tr": "Kütahya Kalesi, Türkiye’nin Ege bölgesinde yer alan Kütahya şehrinin simgesel yapılarından biridir. Şehrin merkezinde konumlanan kale, tarih boyunca farklı medeniyetler tarafından kullanılmış ve şehrin savunmasında önemli rol oynamıştır. Kaleye çıkarak Kütahya’nın panoramik manzarasını görmek mümkündür. Ziyaretçiler, kalenin surları ve burçları boyunca yürüyerek hem tarihi dokuyu keşfedebilir hem de fotoğraf çekebilir.\n\nKale, özellikle Bizans ve Osmanlı dönemlerinden izler taşımaktadır. Yapının mimarisi, dönemine ait savunma tekniklerini ve taş işçiliğini yansıtmaktadır. Kalede yer alan burçlar, sur duvarları ve kapılar, şehrin tarihini gözler önüne seren önemli detaylardır. Ziyaretçiler burada hem Kütahya’nın geçmişine tanıklık edebilir hem de şehir manzarasının keyfini çıkarabilir.\n\nKütahya Kalesi, aynı zamanda kültürel etkinlikler ve turistik geziler için de tercih edilen bir mekandır. Çevresindeki parklar ve yürüyüş yolları sayesinde aileler ve doğa severler rahatça vakit geçirebilir. Kaleye ulaşım, şehir merkezinden kısa bir yürüyüş veya araç ile sağlanabilir, bu da günübirlik ziyaretler için ideal bir durak haline getirir.\n\nSonuç olarak Kütahya Kalesi, tarihi, mimarisi ve panoramik şehir manzarası ile Kütahya’nın en önemli turistik değerlerinden biridir. Hem tarih meraklıları hem de fotoğrafçılar için unutulmaz bir deneyim sunmaktadır.",
+      "en": "Kütahya Castle is one of the iconic landmarks of Kütahya city, located in Turkey’s Aegean region. Situated in the city center, the castle has been used by various civilizations throughout history and played a crucial role in the defense of the city. Visitors can enjoy panoramic views of Kütahya from the castle. Walking along the walls and towers, visitors can explore the historical architecture and take memorable photographs.\n\nThe castle contains traces from the Byzantine and Ottoman periods. Its architecture reflects the defensive techniques and stone craftsmanship of its era. Towers, walls, and gates provide important details that reveal the city’s historical past. Visitors can witness Kütahya’s heritage and enjoy scenic views of the city.\n\nKütahya Castle is also a preferred venue for cultural activities and tourist visits. Parks and walking paths around the castle allow families and nature enthusiasts to spend time comfortably. The castle is easily accessible by a short walk or vehicle from the city center, making it ideal for day trips.\n\nIn conclusion, Kütahya Castle is one of the city’s most significant tourist attractions due to its history, architecture, and panoramic views. It offers an unforgettable experience for both history enthusiasts and photographers.",
+      "de": "Die Kütahya-Burg ist eines der markantesten Wahrzeichen der Stadt Kütahya in der Ägäisregion der Türkei. Die Burg liegt im Stadtzentrum und wurde im Laufe der Geschichte von verschiedenen Zivilisationen genutzt, wobei sie eine wichtige Rolle bei der Verteidigung der Stadt spielte. Von der Burg aus können Besucher einen Panoramablick auf Kütahya genießen. Entlang der Mauern und Türme können Besucher die historische Architektur erkunden und unvergessliche Fotos machen.\n\nDie Burg weist Spuren aus byzantinischer und osmanischer Zeit auf. Ihre Architektur spiegelt die Verteidigungstechniken und Steinmetzarbeiten der jeweiligen Epoche wider. Türme, Mauern und Tore zeigen wichtige Details, die die Geschichte der Stadt verdeutlichen. Besucher können das Erbe Kütahyas erleben und die Aussicht auf die Stadt genießen.\n\nDie Kütahya-Burg ist auch ein beliebter Ort für kulturelle Aktivitäten und touristische Besuche. Parks und Spazierwege in der Umgebung ermöglichen Familien und Naturliebhabern einen komfortablen Aufenthalt. Die Burg ist vom Stadtzentrum aus leicht zu erreichen, sowohl zu Fuß als auch mit dem Auto, und eignet sich daher ideal für Tagesausflüge.\n\nZusammenfassend ist die Kütahya-Burg aufgrund ihrer Geschichte, Architektur und Panoramaaussichten eine der bedeutendsten Touristenattraktionen der Stadt. Sie bietet ein unvergessliches Erlebnis für Geschichtsinteressierte und Fotografen."
+    },
+    "activities": {
+      "tr": [
+        "Kale gezisi",
+        "Tarihi yapıyı keşfetme"
+      ],
+      "en": [
+        "Castle tour",
+        "Exploring historical architecture"
+      ],
+      "de": [
+        "Burgführung",
+        "Erkundung historischer Architektur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kutahya_kalesi.jpg"
+    ]
+  },
+ 
+  {
+    "slug": "kutahya-cini-ve-seramik-muzesi",
+    "name": {
+      "tr": "Kütahya Çini ve Seramik Müzesi",
+      "en": "Kütahya Ceramic and Pottery Museum",
+      "de": "Kütahya Keramik- und Töpfermuseum"
+    },
+    "latitude": 39.41747,
+    "longitude": 29.97525,
+    "description": {
+      "tr": "Kütahya Çini ve Seramik Müzesi, Türkiye’nin çini ve seramik üretim geleneğini sergileyen önemli bir kültürel mekândır. Kütahya, yüzyıllardır el sanatları ve özellikle çini üretimi ile ünlü bir şehir olmuştur. Müze, bu zengin mirası ziyaretçilere sunmak amacıyla kurulmuştur. Koleksiyonunda Osmanlı dönemi çinileri, modern tasarım seramikleri ve farklı dönemlere ait el yapımı eserler yer almaktadır.\n\nMüze, hem tarih meraklıları hem de sanatseverler için cazip bir ziyaret noktasıdır. Sergilenen eserler, Kütahya’nın sanat ve kültür tarihini gözler önüne sererken, ziyaretçilere geleneksel teknikler hakkında bilgi edinme fırsatı da sunar. Müze içerisinde ayrıca seramik atölyeleri ve interaktif bölümler bulunmakta, ziyaretçilere uygulamalı deneyimler yaşama imkânı sağlamaktadır.\n\nKütahya Çini ve Seramik Müzesi, şehir merkezine yakın konumu sayesinde kolayca ulaşılabilir. Ziyaretçiler, müzeyi gezdikten sonra Kütahya’nın tarihi sokaklarını keşfedebilir veya civardaki kafelerde dinlenebilir. Müze, eğitim programları ve sergiler ile hem yerli halkın hem de turistlerin ilgisini çeken dinamik bir kültürel merkez olarak öne çıkar.\n\nSonuç olarak, Kütahya Çini ve Seramik Müzesi, geleneksel el sanatlarını koruyan ve sergileyen, ziyaretçilere hem eğitim hem de görsel deneyim sunan bir mekândır. Türkiye’nin çini ve seramik kültürünü yakından tanımak isteyen herkes için mutlaka ziyaret edilmesi gereken bir noktadır.",
+      "en": "Kütahya Tile and Ceramic Museum is an important cultural venue showcasing Turkey’s tile and ceramic production tradition. Kütahya has been renowned for centuries for its handicrafts, particularly tile-making. The museum was established to present this rich heritage to visitors. Its collection includes Ottoman-era tiles, modern ceramic designs, and handcrafted works from various periods.\n\nThe museum is an attractive destination for both history enthusiasts and art lovers. The displayed artifacts reveal Kütahya’s artistic and cultural history while providing visitors the opportunity to learn about traditional techniques. There are also ceramic workshops and interactive sections in the museum, offering hands-on experiences for visitors.\n\nKütahya Tile and Ceramic Museum is easily accessible due to its central location. Visitors can explore Kütahya’s historical streets or relax in nearby cafes after touring the museum. Through educational programs and exhibitions, the museum stands out as a dynamic cultural center that engages both locals and tourists.\n\nIn conclusion, Kütahya Tile and Ceramic Museum preserves and displays traditional handicrafts while providing educational and visual experiences for visitors. It is a must-visit destination for anyone who wants to closely explore Turkey’s tile and ceramic culture.",
+      "de": "Das Kütahya-Fliesen- und Keramikmuseum ist ein bedeutendes Kulturzentrum, das die Tradition der Fliesen- und Keramikproduktion in der Türkei präsentiert. Kütahya ist seit Jahrhunderten für sein Handwerk, insbesondere die Fliesenherstellung, bekannt. Das Museum wurde eingerichtet, um dieses reiche Erbe den Besuchern zugänglich zu machen. Die Sammlung umfasst Fliesen aus osmanischer Zeit, moderne Keramikdesigns und handgefertigte Werke aus verschiedenen Epochen.\n\nDas Museum ist ein attraktives Ziel für Geschichtsinteressierte und Kunstliebhaber. Die ausgestellten Exponate zeigen die künstlerische und kulturelle Geschichte Kütahyas und bieten den Besuchern die Möglichkeit, traditionelle Techniken kennenzulernen. Außerdem gibt es im Museum Keramik-Workshops und interaktive Bereiche, die praktische Erfahrungen ermöglichen.\n\nDas Kütahya-Fliesen- und Keramikmuseum ist aufgrund seiner zentralen Lage leicht erreichbar. Besucher können nach der Besichtigung die historischen Straßen von Kütahya erkunden oder in nahegelegenen Cafés entspannen. Durch Bildungsprogramme und Ausstellungen zeichnet sich das Museum als dynamisches Kulturzentrum aus, das sowohl Einheimische als auch Touristen anspricht.\n\nZusammenfassend bewahrt und präsentiert das Kütahya-Fliesen- und Keramikmuseum traditionelle Handwerkskunst und bietet den Besuchern sowohl Bildungs- als auch visuelle Erlebnisse. Es ist ein Muss für alle, die die türkische Fliesen- und Keramikkultur hautnah erleben möchten."
+    },
+    "activities": {
+      "tr": [
+        "Çini eserleri gezme",
+        "Sanat ve kültür keşfi"
+      ],
+      "en": [
+        "Visit ceramic artworks",
+        "Explore art and culture"
+      ],
+      "de": [
+        "Besichtigung von Keramikkunstwerken",
+        "Erkundung von Kunst und Kultur"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/kutahya_cini_muzesi.jpg"
     ]
   },
   {

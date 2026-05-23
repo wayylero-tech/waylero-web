@@ -537,6 +537,122 @@
       "https://example.com/antiphellos.jpg"
     ]
   },
+{
+  "slug": "kapuz-kanyonu",
+  "name": {
+    "tr": "Kapuz Kanyonu",
+    "en": "Kapuz Canyon",
+    "de": "Kapuz Schlucht"
+  },
+  "latitude": 36.9365,
+  "longitude": 30.5186,
+  "description": {
+    "tr": "Kapuz Kanyonu, Antalya ilinin Konyaaltı ilçesine bağlı Aşağıkaraman Köyü sınırları içerisinde yer alan, henüz tamamen ticarileşmemiş ve doğallığını korumayı başarmış saklı bir doğa harikasıdır. Antalya şehir merkezine yaklaşık 10-15 kilometre gibi son derece yakın bir mesafede bulunmasına rağmen, sarp kayalıkların ve yemyeşil bitki örtüsünün arasında gizlendiği için uzun yıllar boyunca sadece bölge halkı tarafından bilinen bir kaçış noktası olmuştur. Kanyonun yaklaşık 3 kilometrelik toplam uzunluğunun son 400 metrelik kısmı, iki dev kaya duvarının birleştiği, suyun durgunlaşıp turkuaz ve yeşil tonlarına büründüğü büyüleyici bir seyir alanı sunar. Kapuz Kanyonu'na girişler tamamen ücretsizdir. Göynük Kanyonu gibi profesyonel bir macera parkı altyapısı bulunmasa da, özellikle hafta sonları yerel halk ve gezginler tarafından kanyon içinde kano (paddleboard) yapmak, botla gezintiye çıkmak ve serin sularında yüzmek için sıklıkla tercih edilmektedir. Kanyonun giriş kısmında piknik yapılabilecek gölgelik alanlar mevcuttur ancak herhangi bir lüks restoran veya gelişmiş sosyal tesis bulunmadığı için ziyaretçilerin yiyecek, içecek ve temel ihtiyaç malzemelerini yanlarında getirmeleri önerilir. Waylero dijital seyahat planlayıcısı kullanıcıları için Antalya merkezden günübirlik, doğayla iç içe ve bütçe dostu bir kaçış rotası sunan Kapuz Kanyonu'na, özel araçlarla Aşağıkaraman tabelaları takip edilerek kolayca ulaşılabilir. Toplu taşımayı tercih edecek gezginler ise Antalya merkezden kalkan ve Aşağıkaraman Köyü'ne giden belediye otobüslerini kullanarak kanyon yakınlarına kadar konforlu bir şekilde erişim sağlayabilirler. Bu bakir rota, 'Antalya gizli yerler', 'Antalya kanyonları' ve 'Konyaaltı gezilecek yerler' arama hacimlerinde fark yaratacak mükemmel bir SEO derinliğine sahiptir.",
+    "en": "Kapuz Canyon, located within the borders of Asagikaraman Village in the Konyaalti district of Antalya province, is a hidden natural wonder that has not yet been fully commercialized and has managed to preserve its pristine state. Despite being extremely close to Antalya city center, at a distance of approximately 10-15 kilometers, it has remained a getaway spot known mostly by the locals for many years because it is hidden between steep cliffs and lush green vegetation. The last 400 meters of the canyon's approximately 3-kilometer total length offers a fascinating view where two giant rock walls merge and the water becomes stagnant, turning into shades of turquoise and green. Entrance to Kapuz Canyon is completely free of charge. Although it does not have a professional adventure park infrastructure like Goynuk Canyon, it is frequently preferred by locals and travelers, especially on weekends, for canoeing (paddleboarding), boating, and swimming in its cool waters. There are shaded areas suitable for picnics at the entrance of the canyon, but since there are no luxury restaurants or developed social facilities, visitors are advised to bring their own food, drinks, and basic supplies. Offering Waylero digital travel planner users a daily, nature-entwined, and budget-friendly escape route from the center of Antalya, Kapuz Canyon can be easily reached by private vehicles by following the Asagikaraman signs. Travelers who prefer public transportation can easily access the vicinity of the canyon by using the municipal buses departing from Antalya center and going to Asagikaraman Village. This pristine route possesses an excellent SEO depth that will make a difference in search volumes like 'Antalya hidden gems', 'canyons in Antalya', and 'places to visit in Konyaalti'.",
+    "de": "Kapuz Schlucht Naturparadies."
+  },
+  "activities": {
+    "tr": [
+      "Durgun sularda kano ve bot turu",
+      "Kanyonun turkuaz sularında yüzme",
+      "Doğa yürüyüşü ve nehir kenarında piknik",
+      "Doğa fotoğrafçılığı"
+    ],
+    "en": [
+      "Canoeing and boat trips in calm waters",
+      "Swimming in the turquoise waters of the canyon",
+      "Nature trekking and picnicking by the river",
+      "Nature photography"
+    ],
+    "de": [
+      "Kanu- und Bootfahren",
+      "Schwimmen im türkisfarbenen Wasser",
+      "Wandern und Picknick am Fluss",
+      "Naturfotografie"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "dogal-guzellik",
+      "kanyon",
+      "mesire-alani",
+      "su-sporlari"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "recreation-area",
+      "water-sports"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "erholungsgebiet",
+      "wassersport"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e4/Kapuz_Canyon_Antalya_Turkey.jpg"
+  ]
+},
+{
+  "slug": "alanya-kalesi",
+  "name": {
+    "tr": "Alanya Kalesi",
+    "en": "Alanya Castle",
+    "de": "Burg von Alanya"
+  },
+  "latitude": 36.5332,
+  "longitude": 31.9904,
+  "description": {
+    "tr": "Alanya Kalesi, Antalya ilinin Alanya ilçesinde, Akdeniz'e uzanan sarp bir yarımada üzerinde kurulmuş, yaklaşık 6.5 kilometre uzunluğundaki surları ve görkemli mimarisiyle Türkiye'nin en iyi korunmuş orta çağ kalelerinden biridir. Helenistik, Roma ve Bizans dönemlerinde de yerleşim gören kale, asıl ihtişamına 13. yüzyılda Anadolu Selçuklu Sultanı I. Alaeddin Keykubad'ın kenti fethedip başkentlerinden biri yapmasıyla kavuşmuştur. Kalenin zirvesinde yer alan İçkale ve Ehmedek bölgesi, Kültür ve Turizm Bakanlığı'na bağlı resmi bir ören yeri statüsünde olup giriş ücretlidir; T.C. vatandaşları ve uygun ziyaretçiler için Müzekart burada aktif olarak geçerlidir. Yarımadanın liman kısmında yer alan kaleden bağımsız mimari harikalar Kızılkule ve Tarihi Alanya Tersanesi ise ayrı birer cazibe merkezi oluşturmaktadır. Alanya Kalesi'nin surları arasından süzülen tarihi ahşap evler, sarnıçlar, Süleymaniye Camii ve dik uçurumlardan Akdeniz'in turkuaz sularına bakan meşhur 'Adam Atacağı' kayalığı, ziyaretçilerine adeta bir zaman yolculuğu yaşatır. Waylero dijital seyahat planlayıcısı kullanıcıları için hem eşsiz bir açık hava müzesi hem de Damlataş ve Kleopatra plajlarına nazır muazzam bir gün batımı seyir noktası sunan kaleye ulaşım oldukça keyiflidir. Özel araçların yanı sıra, Damlataş Plajı yanından kalkan Alanya Teleferik hattı ile kalenin Ehmedek kapısına kadar panoramik bir manzarayla çıkılabilmektedir. Ayrıca Alanya merkezden kalkan belediye otobüsleri ve dolmuşlar da kalenin zirvesine kadar düzenli seferler düzenlemektedir. Bu devasa tarihi alan, 'Alanya gezilecek yerler', 'Antalya tarihi kaleler' ve 'Akdeniz açık hava müzeleri' arama hacimlerinde her zaman en üst sırada yer alacak müthiş bir SEO derinliğine sahiptir.",
+    "en": "Alanya Castle, built on a steep peninsula extending into the Mediterranean Sea in the Alanya district of Antalya province, is one of Turkey's best-preserved medieval castles with its approximately 6.5-kilometer-long walls and magnificent architecture. Inhabited during the Hellenistic, Roman, and Byzantine periods, the castle reached its peak of glory in the 13th century when the Anatolian Seljuk Sultan Alaaddin Keykubad I conquered the city and made it one of his capitals. The Inner Castle (Ickale) and Ehmedek sections located at the summit of the castle are official archaeological sites affiliated with the Ministry of Culture and Tourism, and entry is ticketed; the Museum Pass (Muzekart) is fully valid. The Red Tower (Kizilkule) and the Historical Alanya Shipyard, located at the harbor section of the peninsula, form separate architectural wonders and attractions. The historical wooden houses, cisterns, Suleymaniye Mosque, and the famous 'Adam Atacagi' (Man Thrower) cliff overlooking the turquoise waters of the Mediterranean among the castle walls offer visitors a virtual time travel. Offering Waylero digital travel planner users both a unique open-air museum and a magnificent sunset viewpoint overlooking Damlatas and Cleopatra beaches, transportation to the castle is highly enjoyable. In addition to private vehicles, the Alanya Cable Car (Teleferik) departing next to Damlatas Beach reaches the Ehmedek gate of the castle with a panoramic view. Furthermore, municipal buses and minibuses departing from Alanya center organize regular trips to the summit of the castle. This massive historical site possesses a tremendous SEO depth that will always rank on top for search trends like 'Alanya places to visit', 'historical castles in Antalya', and 'Mediterranean open-air museums'.",
+    "de": "Burg von Alanya Historische Stätte."
+  },
+  "activities": {
+    "tr": [
+      "İçkale ve Ehmedek surlarında tarihi keşif",
+      "Alanya Teleferik ile panoramik zirve yolculuğu",
+      "Kızılkule ve Tarihi Selçuklu Tersanesi ziyareti",
+      "Kleopatra Plajı manzarasına karşı gün batımı fotoğrafçılığı"
+    ],
+    "en": [
+      "Historical exploration of Inner Castle and Ehmedek walls",
+      "Panoramic summit journey with Alanya Cable Car",
+      "Visiting the Red Tower and Historical Seljuk Shipyard",
+      "Sunset photography against the view of Cleopatra Beach"
+    ],
+    "de": [
+      "Erkundung der Innenburg und Ehmedek-Mauern",
+      "Panoramafahrt mit der Alanya-Seilbahn",
+      "Besichtigung des Roten Turms und der Seldschukischen Werft",
+      "Sonnenuntergangsfotografie mit Blick auf den Cleopatra-Strand"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi-mekan",
+      "oren-yeri",
+      "acik-hava-muzesi",
+      "manzara-noktasi"
+    ],
+    "en": [
+      "historical-site",
+      "archaeological-site",
+      "open-air-museum",
+      "viewpoint"
+    ],
+    "de": [
+      "historische-staette",
+      "archaeologische-staette",
+      "freilichtmuseum",
+      "aussichtspunkt"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e5/Alanya_Castle_Antalya_Turkey.jpg"
+  ]
+},
   {
     "slug": "cirali-plaji",
     "name": {
@@ -2541,6 +2657,7 @@
       "https://example.com/tahtali_dagi_kamp.jpg"
     ]
   },
+
 {
   "slug": "goynuk-kanyonu",
   "name": {

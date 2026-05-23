@@ -137,7 +137,146 @@
       "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Memec2.jpg"
     ]
   },
+{
+    "slug": "ayazini-koyu",
+    "name": {
+      "tr": "Ayazini Köyü",
+      "en": "Ayazini Village",
+      "de": "Ayazini Dorf"
+    },
+    "latitude": 39.0118,
+    "longitude": 30.56426,
+    "description": {
+      "tr": "Ayazini Köyü, Afyonkarahisar il sınırlarında yer alan ve tarihi kaya evleri ile doğal güzellikleriyle ünlü bir köydür. Köydeki taş yapılar, özellikle kayalara oyulmuş evler, geçmiş dönemlerin mimari ve yaşam tarzını gözler önüne serer. Ayrıca köyde bulunan eski manastır, tarih ve kültür meraklıları için önemli bir ziyaret noktasıdır.\n\nKöyün çevresindeki doğal alanlar, yürüyüş ve doğa gezileri için uygundur. Ayazini Köyü, fotoğrafçılar, tarih tutkunları ve doğa severler için eşsiz bir deneyim sunar. Ziyaretçiler köyde hem tarihi yapıları keşfedebilir hem de doğanın huzur dolu ortamında vakit geçirebilir.\n\nSonuç olarak Ayazini Köyü, tarihi, kültürel ve doğal değerleri bir arada sunan Afyonkarahisar’ın mutlaka görülmesi gereken yerlerinden biridir.",
+      "en": "Ayazini Village, located in Afyonkarahisar province, is renowned for its historical rock houses and natural beauty. The village’s stone structures, especially the rock-carved homes, reflect the architectural style and way of life of past eras. The old monastery in the village is also an important attraction for those interested in history and culture.\n\nThe surrounding natural areas are ideal for walking and nature excursions. Ayazini Village offers a unique experience for photographers, history enthusiasts, and nature lovers alike. Visitors can explore the historical structures while enjoying the peaceful natural environment.\n\nIn conclusion, Ayazini Village is one of Afyonkarahisar’s must-visit destinations, offering historical, cultural, and natural value all in one place.",
+      "de": "Das Ayazini-Dorf, gelegen in der Provinz Afyonkarahisar, ist bekannt für seine historischen Felsenhäuser und seine natürliche Schönheit. Die Steingebäude des Dorfes, insbesondere die in den Felsen gehauenen Häuser, spiegeln den architektonischen Stil und die Lebensweise vergangener Epochen wider. Das alte Kloster im Dorf ist ebenfalls ein bedeutender Anziehungspunkt für Geschichts- und Kulturinteressierte.\n\nDie umliegenden Naturräume eignen sich hervorragend für Spaziergänge und Naturausflüge. Das Ayazini-Dorf bietet Fotografen, Geschichtsbegeisterten und Naturliebhabern ein einzigartiges Erlebnis. Besucher können die historischen Bauwerke erkunden und gleichzeitig die ruhige Umgebung der Natur genießen.\n\nZusammenfassend ist das Ayazini-Dorf eines der sehenswerten Ziele in Afyonkarahisar, das historische, kulturelle und natürliche Werte vereint."
+    },
+    "activities": {
+      "tr": [
+        "Köyde gezinti yapmak",
+        "Kaya evlerini keşfetmek",
+        "Doğal manzaralarla fotoğraf çekmek"
+      ],
+      "en": [
+        "Walk around the village",
+        "Explore the rock houses",
+        "Take photos of the natural scenery"
+      ],
+      "de": [
+        "Im Dorf spazieren gehen",
+        "Die Felsenhäuser erkunden",
+        "Fotos von der Natur machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ayazini_koyu.jpg"
+    ]
+  },
+  
   {
+    "slug": "afyonkarahisar-kalesi",
+    "name": {
+      "tr": "Afyonkarahisar Kalesi",
+      "en": "Afyonkarahisar Castle",
+      "de": "Afyonkarahisar Schloss"
+    },
+    "latitude": 38.75719,
+    "longitude": 30.53164,
+    "description": {
+      "tr": "Afyonkarahisar Kalesi, Afyonkarahisar şehir merkezinde yer alan ve şehri yüksekten izleme imkânı sunan tarihi bir yapıdır. Kale, stratejik konumu sayesinde Bizans ve Osmanlı dönemlerinde önemli bir savunma noktası olarak kullanılmıştır. Ziyaretçiler, kalenin surlarına çıkarak hem şehrin panoramik manzarasını görebilir hem de tarihi yapının mimari özelliklerini inceleyebilir.\n\nKale, taş işçiliği ve savunma amaçlı tasarlanmış yapıları ile dikkat çeker. Çeşitli kapılar, kuleler ve surlar, dönemin askeri mimarisini ve savunma tekniklerini yansıtır. Afyonkarahisar Kalesi, tarih meraklıları ve fotoğraf tutkunları için eşsiz bir deneyim sunar.\n\nSonuç olarak Afyonkarahisar Kalesi, hem tarihi önemi hem de şehri kuşbakışı izleme imkânı ile Afyonkarahisar’ı ziyaret edenlerin mutlaka görmesi gereken yerlerden biridir.",
+      "en": "Afyonkarahisar Castle is a historic structure located in the city center, offering panoramic views of Afyonkarahisar from a high vantage point. Due to its strategic location, the castle served as an important defensive site during both the Byzantine and Ottoman periods. Visitors can climb the walls to enjoy city views and examine the architectural features of this historic fortress.\n\nThe castle features stone masonry and defensive structures, including gates, towers, and ramparts that reflect the military architecture and defense techniques of its time. Afyonkarahisar Castle provides a unique experience for history enthusiasts and photography lovers alike.\n\nIn conclusion, Afyonkarahisar Castle is a must-visit destination for anyone exploring the city, offering both historical significance and stunning panoramic views.",
+      "de": "Das Afyonkarahisar-Schloss ist eine historische Struktur im Stadtzentrum, die einen Panoramablick auf Afyonkarahisar von einem hohen Punkt aus bietet. Aufgrund seiner strategischen Lage diente die Burg sowohl in der byzantinischen als auch in der osmanischen Zeit als wichtige Verteidigungsanlage. Besucher können die Mauern erklimmen, um die Stadt zu überblicken und die architektonischen Merkmale dieser historischen Festung zu erkunden.\n\nDie Burg zeichnet sich durch Steinbauweise und Verteidigungsanlagen aus, darunter Tore, Türme und Mauern, die die Militärarchitektur und Verteidigungstechniken der damaligen Zeit widerspiegeln. Das Afyonkarahisar-Schloss bietet Geschichteinteressierten und Fotografiebegeisterten ein einzigartiges Erlebnis.\n\nZusammenfassend ist das Afyonkarahisar-Schloss ein Muss für alle, die die Stadt besuchen, da es sowohl historische Bedeutung als auch beeindruckende Panoramablicke bietet."
+    },
+    "activities": {
+      "tr": [
+        "Kaleyi gezmek",
+        "Şehir manzarasını izlemek",
+        "Tarihi yapıyı incelemek"
+      ],
+      "en": [
+        "Visit the castle",
+        "Enjoy the city view",
+        "Explore the historical structure"
+      ],
+      "de": [
+        "Das Schloss besichtigen",
+        "Die Aussicht auf die Stadt genießen",
+        "Die historische Struktur erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/afyonkarahisar_kalesi.jpg"
+    ]
+  },
+{
+    "slug": "afyonkarahisar-arkeoloji-muzesi",
+    "name": {
+      "tr": "Afyonkarahisar Arkeoloji Müzesi",
+      "en": "Afyonkarahisar Archaeological Museum",
+      "de": "Afyonkarahisar Archäologisches Museum"
+    },
+    "latitude": 38.78645,
+    "longitude": 30.47362,
+    "description": {
+      "tr": "Afyonkarahisar Arkeoloji Müzesi, bölgedeki antik yerleşimlerden çıkarılan tarihi eserleri sergileyen önemli bir müzedir. Müzede Hititler, Frigler, Roma ve Bizans dönemlerine ait taş eserler, heykeller, seramikler, yazıtlar ve günlük yaşamda kullanılan objeler bulunmaktadır. Ziyaretçiler, bu eserler aracılığıyla Afyonkarahisar ve çevresinin tarihî gelişimini yakından inceleyebilir.\n\nMüze, kronolojik sergi düzeni ve bilgilendirici panolar ile ziyaretçilere hem eğitici hem de ilgi çekici bir deneyim sunar. Ayrıca rehberli turlar sayesinde bölgenin kültürel mirası hakkında detaylı bilgiler edinmek mümkündür. Afyonkarahisar Arkeoloji Müzesi, tarih ve arkeoloji meraklıları için mutlaka görülmesi gereken bir durak olarak öne çıkar.",
+      "en": "Afyonkarahisar Archaeological Museum is an important institution showcasing artifacts unearthed from ancient settlements in the region. The museum’s collection includes items from the Hittite, Phrygian, Roman, and Byzantine periods, such as stone artifacts, sculptures, ceramics, inscriptions, and everyday objects. Through these exhibits, visitors can closely explore the historical development of Afyonkarahisar and its surroundings.\n\nWith its chronological exhibition layout and informative panels, the museum offers an educational and engaging experience. Guided tours provide detailed insights into the region’s cultural heritage. The Afyonkarahisar Archaeological Museum stands out as a must-visit destination for history and archaeology enthusiasts.",
+      "de": "Das Afyonkarahisar Archäologische Museum ist eine bedeutende Einrichtung, die Artefakte aus antiken Siedlungen der Region präsentiert. Die Sammlung umfasst Objekte aus der hethitischen, phrygischen, römischen und byzantinischen Zeit, darunter Steinartefakte, Skulpturen, Keramiken, Inschriften und Alltagsgegenstände. Besucher können so die historische Entwicklung Afyonkarahisars und seiner Umgebung hautnah erleben.\n\nDie chronologische Anordnung der Ausstellungen und informative Tafeln machen den Besuch sowohl lehrreich als auch interessant. Führungen bieten detaillierte Einblicke in das kulturelle Erbe der Region. Das Afyonkarahisar Archäologische Museum ist ein Muss für alle Geschichts- und Archäologieinteressierten."
+    },
+    "activities": {
+      "tr": [
+        "Eserleri incelemek",
+        "Tarihi bilgileri öğrenmek",
+        "Müze turu yapmak"
+      ],
+      "en": [
+        "Examine the artifacts",
+        "Learn historical information",
+        "Take a museum tour"
+      ],
+      "de": [
+        "Die Artefakte untersuchen",
+        "Historische Informationen lernen",
+        "Eine Museumsführung machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze"
+      ],
+      "en": [
+        "museum"
+      ],
+      "de": [
+        "Museum"
+      ]
+    },
+    "images": [
+      "https://example.com/afyonkarahisar_arkeoloji_muzesi.jpg"
+    ]
+  },
+{
     "slug": "asar-kalesi",
     "name": {
       "tr": "Asar Kalesi",
@@ -233,52 +372,6 @@
     ]
   },
   {
-    "slug": "afyonkarahisar-kalesi",
-    "name": {
-      "tr": "Afyonkarahisar Kalesi",
-      "en": "Afyonkarahisar Castle",
-      "de": "Afyonkarahisar Schloss"
-    },
-    "latitude": 38.75719,
-    "longitude": 30.53164,
-    "description": {
-      "tr": "Afyonkarahisar Kalesi, Afyonkarahisar şehir merkezinde yer alan ve şehri yüksekten izleme imkânı sunan tarihi bir yapıdır. Kale, stratejik konumu sayesinde Bizans ve Osmanlı dönemlerinde önemli bir savunma noktası olarak kullanılmıştır. Ziyaretçiler, kalenin surlarına çıkarak hem şehrin panoramik manzarasını görebilir hem de tarihi yapının mimari özelliklerini inceleyebilir.\n\nKale, taş işçiliği ve savunma amaçlı tasarlanmış yapıları ile dikkat çeker. Çeşitli kapılar, kuleler ve surlar, dönemin askeri mimarisini ve savunma tekniklerini yansıtır. Afyonkarahisar Kalesi, tarih meraklıları ve fotoğraf tutkunları için eşsiz bir deneyim sunar.\n\nSonuç olarak Afyonkarahisar Kalesi, hem tarihi önemi hem de şehri kuşbakışı izleme imkânı ile Afyonkarahisar’ı ziyaret edenlerin mutlaka görmesi gereken yerlerden biridir.",
-      "en": "Afyonkarahisar Castle is a historic structure located in the city center, offering panoramic views of Afyonkarahisar from a high vantage point. Due to its strategic location, the castle served as an important defensive site during both the Byzantine and Ottoman periods. Visitors can climb the walls to enjoy city views and examine the architectural features of this historic fortress.\n\nThe castle features stone masonry and defensive structures, including gates, towers, and ramparts that reflect the military architecture and defense techniques of its time. Afyonkarahisar Castle provides a unique experience for history enthusiasts and photography lovers alike.\n\nIn conclusion, Afyonkarahisar Castle is a must-visit destination for anyone exploring the city, offering both historical significance and stunning panoramic views.",
-      "de": "Das Afyonkarahisar-Schloss ist eine historische Struktur im Stadtzentrum, die einen Panoramablick auf Afyonkarahisar von einem hohen Punkt aus bietet. Aufgrund seiner strategischen Lage diente die Burg sowohl in der byzantinischen als auch in der osmanischen Zeit als wichtige Verteidigungsanlage. Besucher können die Mauern erklimmen, um die Stadt zu überblicken und die architektonischen Merkmale dieser historischen Festung zu erkunden.\n\nDie Burg zeichnet sich durch Steinbauweise und Verteidigungsanlagen aus, darunter Tore, Türme und Mauern, die die Militärarchitektur und Verteidigungstechniken der damaligen Zeit widerspiegeln. Das Afyonkarahisar-Schloss bietet Geschichteinteressierten und Fotografiebegeisterten ein einzigartiges Erlebnis.\n\nZusammenfassend ist das Afyonkarahisar-Schloss ein Muss für alle, die die Stadt besuchen, da es sowohl historische Bedeutung als auch beeindruckende Panoramablicke bietet."
-    },
-    "activities": {
-      "tr": [
-        "Kaleyi gezmek",
-        "Şehir manzarasını izlemek",
-        "Tarihi yapıyı incelemek"
-      ],
-      "en": [
-        "Visit the castle",
-        "Enjoy the city view",
-        "Explore the historical structure"
-      ],
-      "de": [
-        "Das Schloss besichtigen",
-        "Die Aussicht auf die Stadt genießen",
-        "Die historische Struktur erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/afyonkarahisar_kalesi.jpg"
-    ]
-  },
-  {
     "slug": "maltas-oren-yeri",
     "name": {
       "tr": "Maltaş Ören Yeri",
@@ -324,52 +417,7 @@
       "https://www.frigyaafyon.com/wp-content/uploads/2019/12/Maltas2.jpg"
     ]
   },
-  {
-    "slug": "afyonkarahisar-arkeoloji-muzesi",
-    "name": {
-      "tr": "Afyonkarahisar Arkeoloji Müzesi",
-      "en": "Afyonkarahisar Archaeological Museum",
-      "de": "Afyonkarahisar Archäologisches Museum"
-    },
-    "latitude": 38.78645,
-    "longitude": 30.47362,
-    "description": {
-      "tr": "Afyonkarahisar Arkeoloji Müzesi, bölgedeki antik yerleşimlerden çıkarılan tarihi eserleri sergileyen önemli bir müzedir. Müzede Hititler, Frigler, Roma ve Bizans dönemlerine ait taş eserler, heykeller, seramikler, yazıtlar ve günlük yaşamda kullanılan objeler bulunmaktadır. Ziyaretçiler, bu eserler aracılığıyla Afyonkarahisar ve çevresinin tarihî gelişimini yakından inceleyebilir.\n\nMüze, kronolojik sergi düzeni ve bilgilendirici panolar ile ziyaretçilere hem eğitici hem de ilgi çekici bir deneyim sunar. Ayrıca rehberli turlar sayesinde bölgenin kültürel mirası hakkında detaylı bilgiler edinmek mümkündür. Afyonkarahisar Arkeoloji Müzesi, tarih ve arkeoloji meraklıları için mutlaka görülmesi gereken bir durak olarak öne çıkar.",
-      "en": "Afyonkarahisar Archaeological Museum is an important institution showcasing artifacts unearthed from ancient settlements in the region. The museum’s collection includes items from the Hittite, Phrygian, Roman, and Byzantine periods, such as stone artifacts, sculptures, ceramics, inscriptions, and everyday objects. Through these exhibits, visitors can closely explore the historical development of Afyonkarahisar and its surroundings.\n\nWith its chronological exhibition layout and informative panels, the museum offers an educational and engaging experience. Guided tours provide detailed insights into the region’s cultural heritage. The Afyonkarahisar Archaeological Museum stands out as a must-visit destination for history and archaeology enthusiasts.",
-      "de": "Das Afyonkarahisar Archäologische Museum ist eine bedeutende Einrichtung, die Artefakte aus antiken Siedlungen der Region präsentiert. Die Sammlung umfasst Objekte aus der hethitischen, phrygischen, römischen und byzantinischen Zeit, darunter Steinartefakte, Skulpturen, Keramiken, Inschriften und Alltagsgegenstände. Besucher können so die historische Entwicklung Afyonkarahisars und seiner Umgebung hautnah erleben.\n\nDie chronologische Anordnung der Ausstellungen und informative Tafeln machen den Besuch sowohl lehrreich als auch interessant. Führungen bieten detaillierte Einblicke in das kulturelle Erbe der Region. Das Afyonkarahisar Archäologische Museum ist ein Muss für alle Geschichts- und Archäologieinteressierten."
-    },
-    "activities": {
-      "tr": [
-        "Eserleri incelemek",
-        "Tarihi bilgileri öğrenmek",
-        "Müze turu yapmak"
-      ],
-      "en": [
-        "Examine the artifacts",
-        "Learn historical information",
-        "Take a museum tour"
-      ],
-      "de": [
-        "Die Artefakte untersuchen",
-        "Historische Informationen lernen",
-        "Eine Museumsführung machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "müze"
-      ],
-      "en": [
-        "museum"
-      ],
-      "de": [
-        "Museum"
-      ]
-    },
-    "images": [
-      "https://example.com/afyonkarahisar_arkeoloji_muzesi.jpg"
-    ]
-  },
+  
   {
     "slug": "ihsaniye-taskinpasa-camii",
     "name": {
@@ -506,52 +554,6 @@
     },
     "images": [
       "https://example.com/afyonkarahisar_ulu_camii.jpg"
-    ]
-  },
-  {
-    "slug": "ayazini-koyu",
-    "name": {
-      "tr": "Ayazini Köyü",
-      "en": "Ayazini Village",
-      "de": "Ayazini Dorf"
-    },
-    "latitude": 39.0118,
-    "longitude": 30.56426,
-    "description": {
-      "tr": "Ayazini Köyü, Afyonkarahisar il sınırlarında yer alan ve tarihi kaya evleri ile doğal güzellikleriyle ünlü bir köydür. Köydeki taş yapılar, özellikle kayalara oyulmuş evler, geçmiş dönemlerin mimari ve yaşam tarzını gözler önüne serer. Ayrıca köyde bulunan eski manastır, tarih ve kültür meraklıları için önemli bir ziyaret noktasıdır.\n\nKöyün çevresindeki doğal alanlar, yürüyüş ve doğa gezileri için uygundur. Ayazini Köyü, fotoğrafçılar, tarih tutkunları ve doğa severler için eşsiz bir deneyim sunar. Ziyaretçiler köyde hem tarihi yapıları keşfedebilir hem de doğanın huzur dolu ortamında vakit geçirebilir.\n\nSonuç olarak Ayazini Köyü, tarihi, kültürel ve doğal değerleri bir arada sunan Afyonkarahisar’ın mutlaka görülmesi gereken yerlerinden biridir.",
-      "en": "Ayazini Village, located in Afyonkarahisar province, is renowned for its historical rock houses and natural beauty. The village’s stone structures, especially the rock-carved homes, reflect the architectural style and way of life of past eras. The old monastery in the village is also an important attraction for those interested in history and culture.\n\nThe surrounding natural areas are ideal for walking and nature excursions. Ayazini Village offers a unique experience for photographers, history enthusiasts, and nature lovers alike. Visitors can explore the historical structures while enjoying the peaceful natural environment.\n\nIn conclusion, Ayazini Village is one of Afyonkarahisar’s must-visit destinations, offering historical, cultural, and natural value all in one place.",
-      "de": "Das Ayazini-Dorf, gelegen in der Provinz Afyonkarahisar, ist bekannt für seine historischen Felsenhäuser und seine natürliche Schönheit. Die Steingebäude des Dorfes, insbesondere die in den Felsen gehauenen Häuser, spiegeln den architektonischen Stil und die Lebensweise vergangener Epochen wider. Das alte Kloster im Dorf ist ebenfalls ein bedeutender Anziehungspunkt für Geschichts- und Kulturinteressierte.\n\nDie umliegenden Naturräume eignen sich hervorragend für Spaziergänge und Naturausflüge. Das Ayazini-Dorf bietet Fotografen, Geschichtsbegeisterten und Naturliebhabern ein einzigartiges Erlebnis. Besucher können die historischen Bauwerke erkunden und gleichzeitig die ruhige Umgebung der Natur genießen.\n\nZusammenfassend ist das Ayazini-Dorf eines der sehenswerten Ziele in Afyonkarahisar, das historische, kulturelle und natürliche Werte vereint."
-    },
-    "activities": {
-      "tr": [
-        "Köyde gezinti yapmak",
-        "Kaya evlerini keşfetmek",
-        "Doğal manzaralarla fotoğraf çekmek"
-      ],
-      "en": [
-        "Walk around the village",
-        "Explore the rock houses",
-        "Take photos of the natural scenery"
-      ],
-      "de": [
-        "Im Dorf spazieren gehen",
-        "Die Felsenhäuser erkunden",
-        "Fotos von der Natur machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/ayazini_koyu.jpg"
     ]
   }
 ]

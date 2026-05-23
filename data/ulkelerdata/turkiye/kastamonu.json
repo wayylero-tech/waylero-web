@@ -52,6 +52,122 @@
       "https://example.com/ilica_selalesi_2.jpg"
     ]
   },
+{
+  "slug": "horma-kanyonu",
+  "name": {
+    "tr": "Küre Dağları Milli Parkı Horma Kanyonu",
+    "en": "Horma Canyon - Kure Mountains National Park",
+    "de": "Horma Schlucht - Küre-Berge-Nationalpark"
+  },
+  "latitude": 41.6115,
+  "longitude": 33.1582,
+  "description": {
+    "tr": "Horma Kanyonu, Kastamonu ilinin Pınarbaşı ilçesinde yer alan ve PAN Parks sertifikasına sahip, Avrupa'nın en seçkin koruma alanlarından biri olan Küre Dağları Milli Parkı sınırları içerisinde bulunan olağanüstü bir jeolojik oluşum ve dünya standartlarında bir eko-turizm merkezidir. Zarı Çayı'nın kalkerli kayaçları milyonlarca yıl boyunca aşındırmasıyla meydana gelen bu devasa kanyon, derin vadileri, baş döndürücü dik yamaçları ve vahşi doğasıyla Türkiye'nin en karakteristik doğa rotalarından biridir. Horma Kanyonu'nu dünya çapında bir üne kavuşturan ve onu diğer kanyonlardan ayıran en büyük özellik, kanyon boyunca dik kaya duvarlarına çelik vidalarla monte edilmiş olan yaklaşık 3 kilometre uzunluğundaki devasa ahşap yürüyüş platformudur. Türkiye'nin en uzun kanyon içi yürüyüş yolu olma unvanına sahip bu yapı, her yaştan seyahat severin azgın suların, derin girdapların ve dev kazanlarının hemen üzerinden güvenle geçerek kanyonun vahşi derinliklerini baştan sona konforlu bir şekilde keşfetmesine olanak tanır. Yürüyüş parkurunun en can alıcı noktası ise kanyonun bittiği yerde sizi karşılayan ve yaklaşık 15 metreden dökülen büyüleyici Ilıca Şelalesi'dir. Kanyondaki 3 kilometrelik yürüyüşü tamamlayan gezginler, doğrudan bu şelalenin oluşturduğu doğal havuzun ve etrafını saran egzotik bitki örtüsünün büyüleyici manzarasına ulaşırlar. Doğa yürüyüşü (trekking), doğa fotoğrafçılığı, kanyon geçişi (canyoning) ve yaban hayatı gözlemciliği için Karadeniz bölgesindeki en popüler cazibe merkezi olan kanyon, zengin florası ve fauna çeşitliliğiyle adeta bir açık hava müzesidir. Kanyonun hem giriş hem de çıkış (Ilıca Şelalesi) bölümlerinde kamp yapmak isteyen macera tutkunları için kontrollü çadır kampı alanları, karavan park noktaları, piknik alanları, restoranlar, yöresel ürün pazarları ve modern sosyal tesisler mevcuttur. Girişlerin oldukça ekonomik bir milli park tarifesine tabi olduğu bu saklı cennet, Kastamonu merkezine yaklaşık 95 kilometre mesafede olup, Pınarbaşı ilçesi üzerinden asfalt yollar takip edilerek özel araçlarla son derece kolay ve konforlu bir şekilde ulaşılabilir durumdadır. Waylero dijital seyahat planlayıcısı kullanıcıları için hem adrenalin dolu bir yürüyüş hem de Küre Dağları'nın büyüleyici ekosistemini keşfetme fırsatı sunan bu benzersiz destinasyon, 'Kastamonu gezilecek yerler', 'Küre Dağları kamp alanları' ve 'Horma kanyonu ulaşım' arama hacimlerinde ilk sıralara yerleşecek muazzam bir SEO derinliğine sahiptir.",
+    "en": "Horma Canyon, located in the Pinarbasi district of Kastamonu province, is an extraordinary geological formation and a world-class eco-tourism hub situated within the borders of the Kure Mountains National Park, which holds the prestigious PAN Parks certificate as one of Europe's most exclusive protected areas. Formed over millions of years by the Zari Stream eroding the local limestone rocks, this massive canyon is one of the most characteristic nature routes in Turkey with its deep valleys, dizzying steep slopes, and wild nature. The greatest and most prominent feature that brought Horma Canyon worldwide fame and distinguishes it from other canyons is the colossal 3-kilometer-long wooden walking platform mounted directly onto the steep rock walls with steel screws. Holding the title of Turkey's longest in-canyon walking trail, this infrastructure allows travel lovers of all ages to safely walk right above the rushing waters, deep whirlpools, and giant potholes, comfortably exploring the wild depths of the canyon from end to end. The most captivating spot of the hiking trail is the breathtaking Ilica Waterfall, which welcomes you from about 15 meters at the very end of the path where the canyon concludes. Travelers completing the 3-kilometer hike directly arrive at the mesmerizing scenery of the natural pool formed by this waterfall and the exotic vegetation surrounding it. Being the most popular attraction center in the Black Sea region for outdoor activities such as trekking, nature photography, canyoning, and wildlife watching, the canyon functions virtually as an open-air museum with its rich flora and fauna diversity. At both the entrance and exit (Ilica Waterfall) sections of the canyon, controlled tent camping sites, caravan parking spots, picnic areas, restaurants, local product markets, and modern social facilities to meet basic needs are readily available for adventure enthusiasts. Entry to the park area is subject to a highly economical national park entrance fee, and it is located approximately 95 kilometers from Kastamonu city center, making it easily and comfortably accessible via private vehicles by following the asphalt roads over the Pinarbasi district route. Offering Waylero digital travel planner users both a thrilling nature hike and the opportunity to discover the enchanting ecosystem of the Kure Mountains, this unique destination possesses an excellent SEO density that will easily rank on top for search trends like 'Kastamonu historical places', 'best canyons in Turkey', and 'Ilica waterfall tour'.",
+    "de": "Horma Schlucht Naturpark."
+  },
+  "activities": {
+    "tr": [
+      "Kaya duvarındaki ahşap yolda trekking",
+      "Ilıca Şelalesi doğa fotoğrafçılığı",
+      "Küre Dağları'nda çadır ve karavan kampı",
+      "Kanyon geçişi (Canyoning)"
+    ],
+    "en": [
+      "Trekking on the cliffside wooden platform",
+      "Ilica Waterfall nature photography",
+      "Tent and caravan camping in Kure Mountains",
+      "Canyoning"
+    ],
+    "de": [
+      "Wandern",
+      "Fotografie",
+      "Camping",
+      "Canyoning"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal-güzellik",
+      "kanyon",
+      "milli-park",
+      "selale"
+    ],
+    "en": [
+      "natural-wonder",
+      "canyon",
+      "national-park",
+      "waterfall"
+    ],
+    "de": [
+      "naturwunder",
+      "canyon",
+      "nationalpark",
+      "wasserfall"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Horma_Kanyonu_Kastamonu.jpg"
+  ]
+},
+{
+  "slug": "ginolu-koyu",
+  "name": {
+    "tr": "Ginolu Koyu ve Kalesi",
+    "en": "Ginolu Bay and Castle",
+    "de": "Ginolu Bucht und Burg"
+  },
+  "latitude": 41.9472,
+  "longitude": 34.2044,
+  "description": {
+    "tr": "Ginolu Koyu, Batı Karadeniz'in en büyüleyici ve en bakir köşelerinden biri olarak Kastamonu ilinin Çatalzeytin ilçesinde yer almaktadır. Karadeniz'in genellikle dalgalı ve hırçın olan sularının aksine, doğal bir liman yapısına sahip olan koy, neredeyse bir havuz kadar durgun, berrak ve sığ deniziyle bölgenin en güvenli yüzme alanlarından biridir. Koyun hemen üzerinde yükselen tarihi Ginolu Kalesi (Kinolu), antik dönemde 'Kinolis' adıyla bilinen ve geçmişi ilk çağlara kadar uzanan köklü bir yerleşim yeridir. Günümüzde kaleden geriye kalan sur kalıntıları, ziyaretçilerine Karadeniz'in ve yemyeşil doğanın birleştiği muazzam bir panoramik manzara sunmaktadır. Ginolu Koyu'na girişler, plaj kullanımı ve kaleye tırmanış tamamen ücretsizdir. Doğal sit alanı koruması altında olan koyda büyük oteller yerine, doğayla iç içe mini bir kamp alanı, karavan park noktaları ve temel ihtiyaçları karşılayabileceğiniz belediye iştiraki küçük bir sosyal tesis ile kafe-restoran yer almaktadır. Karadeniz'in hırçın dalgalarından kaçıp huzur bulmak, çadır kurmak veya doğa fotoğrafçılığı yapmak isteyen gezginler için Ginolu biçilmiş kaftandır. Waylero dijital seyahat planlayıcısı kullanıcıları için keşfedilmeyi bekleyen gizli bir cennet olan bu destinasyon; Kastamonu il merkezine yaklaşık 100 km, Çatalzeytin ilçe merkezine ise sadece 5 km mesafededir. Koya özel araçlarla sahil yolu üzerinden son derece rahat ulaşılabildiği gibi, Kastamonu merkezden veya Sinop Türkeli yönünden kalkan Çatalzeytin minibüsleriyle de konforlu bir şekilde erişim sağlanabilmektedir. Bu otantik bölge, 'Kastamonu gezilecek yerler', 'Karadeniz gizli koylar' ve 'Kastamonu kamp alanları' arama hacimlerinde fark yaratacak harika bir SEO potansiyeline sahiptir.",
+    "en": "Ginolu Bay, one of the most fascinating and pristine corners of the Western Black Sea, is located in the Catalzeytin district of Kastamonu province. Unlike the generally wavy and harsh waters of the Black Sea, the bay has a natural harbor structure, making it one of the safest swimming areas in the region with its crystal-clear, shallow water that is as calm as a pool. Rising right above the bay, the historical Ginolu Castle (Kinolu), known as 'Kinolis' in ancient times, is a deeply rooted settlement dating back to antiquity. Today, the remaining ruins of the castle walls offer visitors a magnificent panoramic view where the Black Sea and lush green nature merge. Entrance to Ginolu Bay, use of the beach, and climbing the castle are completely free of charge. In the bay, which is under natural protected area status, instead of massive hotels, there is a mini campsite intertwined with nature, caravan parking points, and a small municipal social facility with a cafe-restaurant to meet basic needs. Ginolu is the perfect fit for travelers who want to escape the rough waves of the Black Sea and find peace, pitch a tent, or enjoy nature photography. Standing out as a hidden paradise waiting to be discovered for Waylero digital travel planner users, this destination is approximately 100 km from Kastamonu city center and only 5 km from Catalzeytin district center. The bay can be reached very easily by private vehicles via the coastal road, and comfortable access is also provided by Catalzeytin minibuses departing from Kastamonu center or Sinop Turkeli direction. This authentic region possesses a wonderful SEO potential that will make a difference in search volumes like 'Kastamonu places to visit', 'Black Sea hidden bays', and 'Kastamonu camping sites'.",
+    "de": "Ginolu Bucht und Burg Naturstrand."
+  },
+  "activities": {
+    "tr": [
+      "Karadeniz'in durgun sularında yüzme",
+      "Tarihi Ginolu Kalesi gezisi ve manzara seyri",
+      "Koy çevresinde çadır ve karavan kampı",
+      "Doğa fotoğrafçılığı ve gün batımı izleme"
+    ],
+    "en": [
+      "Swimming in the calm waters of the Black Sea",
+      "Visiting the historical Ginolu Castle and sightseeing",
+      "Tent and caravan camping around the bay",
+      "Nature photography and watching the sunset"
+    ],
+    "de": [
+      "Schwimmen im ruhigen Schwarzen Meer",
+      "Besichtigung der historischen Burg Ginolu",
+      "Zelt- und Wohnmobil-Camping",
+      "Naturfotografie und Sonnenuntergang"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "deniz-ve-plaj",
+      "tarihi-mekan",
+      "dogal-guzellik",
+      "kamp-alani"
+    ],
+    "en": [
+      "beach-and-sea",
+      "historical-site",
+      "natural-wonder",
+      "camping-ground"
+    ],
+    "de": [
+      "strand-und-meer",
+      "historische-staette",
+      "naturwunder",
+      "campingplatz"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ginolu_Koyu_Catalzeytin_Kastamonu.jpg"
+  ]
+},
   {
     "slug": "kastamonu-kalesi",
     "name": {
@@ -149,7 +265,51 @@
       "https://example.com/valla_kanyonu_2.jpg"
     ]
   },
+  
   {
+    "slug": "ilgaz-dagi-milli-parki",
+    "name": {
+      "tr": "Ilgaz Dağı Milli Parkı",
+      "en": "Ilgaz Mountain National Park",
+      "de": "Ilgaz-Berg-Nationalpark"
+    },
+    "latitude": 41.07431,
+    "longitude": 33.72984,
+    "description": {
+      "tr": "Ilgaz Dağı Milli Parkı, Türkiye'nin Karadeniz Bölgesi ile İç Anadolu Bölgesi arasında doğal bir sınır oluşturan Ilgaz Dağları üzerinde yer alan ve doğa turizmi açısından büyük öneme sahip olan eşsiz bir milli parktır. Kastamonu ve Çankırı illeri arasında konumlanan bu doğal alan, zengin bitki örtüsü, temiz havası ve etkileyici manzaraları ile doğa severler için vazgeçilmez bir destinasyondur. Ilgaz Dağı Milli Parkı, dört mevsim farklı güzellikler sunmasıyla dikkat çeker. Kış aylarında karla kaplanan dağlar, kayak ve snowboard gibi kış sporları için ideal bir ortam oluştururken, Ilgaz Kayak Merkezi bölgenin en popüler noktalarından biri haline gelir. Yaz aylarında ise serin havası, yemyeşil ormanları ve çeşitli yürüyüş parkurları ile trekking, kamp ve doğa yürüyüşü yapmak isteyenler için mükemmel bir ortam sunar. Milli park, biyolojik çeşitlilik açısından oldukça zengindir ve çok sayıda bitki türü, yabani hayvan ve kuş türüne ev sahipliği yapmaktadır. Özellikle endemik bitkiler ve nadir görülen hayvan türleri, bölgenin ekolojik değerini artırmaktadır. Ilgaz Dağı Milli Parkı, aynı zamanda fotoğrafçılar ve doğa gözlemcileri için de önemli bir merkezdir. Gün doğumu ve gün batımı saatlerinde ortaya çıkan manzaralar, ziyaretçilere görsel açıdan büyüleyici anlar yaşatır. Ulaşım açısından oldukça elverişli bir konumda bulunan milli park, şehir merkezlerine olan yakınlığı sayesinde günübirlik ziyaretler için de uygundur. Bölgedeki konaklama tesisleri ve doğa ile iç içe alanlar, ziyaretçilere hem konforlu hem de huzurlu bir deneyim sunar. Sonuç olarak Ilgaz Dağı Milli Parkı, doğal güzellikleri, zengin biyolojik çeşitliliği ve sunduğu aktiviteler ile Türkiye'de mutlaka görülmesi gereken doğa destinasyonlarından biri olarak öne çıkmaktadır.",
+      "en": "Ilgaz Mountain National Park is a remarkable natural destination located between the Black Sea and Central Anatolia regions of Turkey, forming a natural boundary along the Ilgaz Mountains. Situated between Kastamonu and Çankırı provinces, the park is known for its rich vegetation, clean air, and breathtaking landscapes, making it a favorite destination for nature lovers. Ilgaz Mountain National Park offers unique experiences in every season. During the winter months, the snow-covered mountains create ideal conditions for skiing and snowboarding, with Ilgaz Ski Resort being one of the most popular attractions in the area. In the summer, the park transforms into a refreshing escape with lush green forests, cool climate, and numerous hiking trails suitable for trekking, camping, and nature walks. The park is also rich in biodiversity, hosting a wide variety of plant species, wildlife, and bird species. Endemic plants and rare animals further enhance the ecological importance of the region. Ilgaz Mountain National Park is also a great spot for photography and nature observation, especially during sunrise and sunset when the scenery becomes particularly stunning. Its convenient location allows easy access from nearby cities, making it suitable for day trips as well. Accommodation facilities and natural surroundings provide visitors with a comfortable and peaceful experience. In conclusion, Ilgaz Mountain National Park stands out as one of the must-visit natural destinations in Turkey, offering a perfect combination of scenic beauty, biodiversity, and outdoor activities.",
+      "de": "Der Ilgaz-Berg-Nationalpark ist ein beeindruckendes Naturgebiet, das sich zwischen der Schwarzmeerregion und Zentralanatolien in der Türkei befindet und eine natürliche Grenze entlang der Ilgaz-Berge bildet. Der Park liegt zwischen den Provinzen Kastamonu und Çankırı und ist bekannt für seine reiche Vegetation, saubere Luft und atemberaubende Landschaften, was ihn zu einem beliebten Ziel für Naturliebhaber macht. Der Ilgaz-Berg-Nationalpark bietet zu jeder Jahreszeit einzigartige Erlebnisse. Im Winter verwandeln sich die schneebedeckten Berge in ein ideales Gebiet für Skifahren und Snowboarden, wobei das Skigebiet Ilgaz zu den beliebtesten Attraktionen zählt. Im Sommer bietet der Park mit seinen grünen Wäldern, dem kühlen Klima und zahlreichen Wanderwegen ideale Bedingungen für Trekking, Camping und Naturwanderungen. Der Park zeichnet sich durch eine hohe biologische Vielfalt aus und beherbergt zahlreiche Pflanzenarten, Wildtiere und Vogelarten. Endemische Pflanzen und seltene Tierarten unterstreichen die ökologische Bedeutung der Region. Zudem ist der Park ein hervorragender Ort für Fotografie und Naturbeobachtung, insbesondere bei Sonnenaufgang und Sonnenuntergang, wenn die Landschaft besonders eindrucksvoll ist. Dank seiner günstigen Lage ist der Park leicht erreichbar und eignet sich auch für Tagesausflüge. Die vorhandenen Unterkünfte und die naturnahe Umgebung bieten Besuchern ein komfortables und zugleich ruhiges Erlebnis. Insgesamt gehört der Ilgaz-Berg-Nationalpark zu den wichtigsten Naturzielen der Türkei und bietet eine ideale Kombination aus Landschaft, Artenvielfalt und Freizeitaktivitäten."
+    },
+    "activities": {
+      "tr": [
+        "Dağcılık yapmak",
+        "Kayak yapmak"
+      ],
+      "en": [
+        "Mountain climbing",
+        "Skiing"
+      ],
+      "de": [
+        "Bergsteigen",
+        "Skifahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/ilgaz_dagi.jpg"
+    ]
+  },
+{
     "slug": "ilgarini-magarasi",
     "name": {
       "tr": "Ilgarini Mağarası",
@@ -247,49 +407,6 @@
     ]
   },
   {
-    "slug": "ilgaz-dagi-milli-parki",
-    "name": {
-      "tr": "Ilgaz Dağı Milli Parkı",
-      "en": "Ilgaz Mountain National Park",
-      "de": "Ilgaz-Berg-Nationalpark"
-    },
-    "latitude": 41.07431,
-    "longitude": 33.72984,
-    "description": {
-      "tr": "Ilgaz Dağı Milli Parkı, Türkiye'nin Karadeniz Bölgesi ile İç Anadolu Bölgesi arasında doğal bir sınır oluşturan Ilgaz Dağları üzerinde yer alan ve doğa turizmi açısından büyük öneme sahip olan eşsiz bir milli parktır. Kastamonu ve Çankırı illeri arasında konumlanan bu doğal alan, zengin bitki örtüsü, temiz havası ve etkileyici manzaraları ile doğa severler için vazgeçilmez bir destinasyondur. Ilgaz Dağı Milli Parkı, dört mevsim farklı güzellikler sunmasıyla dikkat çeker. Kış aylarında karla kaplanan dağlar, kayak ve snowboard gibi kış sporları için ideal bir ortam oluştururken, Ilgaz Kayak Merkezi bölgenin en popüler noktalarından biri haline gelir. Yaz aylarında ise serin havası, yemyeşil ormanları ve çeşitli yürüyüş parkurları ile trekking, kamp ve doğa yürüyüşü yapmak isteyenler için mükemmel bir ortam sunar. Milli park, biyolojik çeşitlilik açısından oldukça zengindir ve çok sayıda bitki türü, yabani hayvan ve kuş türüne ev sahipliği yapmaktadır. Özellikle endemik bitkiler ve nadir görülen hayvan türleri, bölgenin ekolojik değerini artırmaktadır. Ilgaz Dağı Milli Parkı, aynı zamanda fotoğrafçılar ve doğa gözlemcileri için de önemli bir merkezdir. Gün doğumu ve gün batımı saatlerinde ortaya çıkan manzaralar, ziyaretçilere görsel açıdan büyüleyici anlar yaşatır. Ulaşım açısından oldukça elverişli bir konumda bulunan milli park, şehir merkezlerine olan yakınlığı sayesinde günübirlik ziyaretler için de uygundur. Bölgedeki konaklama tesisleri ve doğa ile iç içe alanlar, ziyaretçilere hem konforlu hem de huzurlu bir deneyim sunar. Sonuç olarak Ilgaz Dağı Milli Parkı, doğal güzellikleri, zengin biyolojik çeşitliliği ve sunduğu aktiviteler ile Türkiye'de mutlaka görülmesi gereken doğa destinasyonlarından biri olarak öne çıkmaktadır.",
-      "en": "Ilgaz Mountain National Park is a remarkable natural destination located between the Black Sea and Central Anatolia regions of Turkey, forming a natural boundary along the Ilgaz Mountains. Situated between Kastamonu and Çankırı provinces, the park is known for its rich vegetation, clean air, and breathtaking landscapes, making it a favorite destination for nature lovers. Ilgaz Mountain National Park offers unique experiences in every season. During the winter months, the snow-covered mountains create ideal conditions for skiing and snowboarding, with Ilgaz Ski Resort being one of the most popular attractions in the area. In the summer, the park transforms into a refreshing escape with lush green forests, cool climate, and numerous hiking trails suitable for trekking, camping, and nature walks. The park is also rich in biodiversity, hosting a wide variety of plant species, wildlife, and bird species. Endemic plants and rare animals further enhance the ecological importance of the region. Ilgaz Mountain National Park is also a great spot for photography and nature observation, especially during sunrise and sunset when the scenery becomes particularly stunning. Its convenient location allows easy access from nearby cities, making it suitable for day trips as well. Accommodation facilities and natural surroundings provide visitors with a comfortable and peaceful experience. In conclusion, Ilgaz Mountain National Park stands out as one of the must-visit natural destinations in Turkey, offering a perfect combination of scenic beauty, biodiversity, and outdoor activities.",
-      "de": "Der Ilgaz-Berg-Nationalpark ist ein beeindruckendes Naturgebiet, das sich zwischen der Schwarzmeerregion und Zentralanatolien in der Türkei befindet und eine natürliche Grenze entlang der Ilgaz-Berge bildet. Der Park liegt zwischen den Provinzen Kastamonu und Çankırı und ist bekannt für seine reiche Vegetation, saubere Luft und atemberaubende Landschaften, was ihn zu einem beliebten Ziel für Naturliebhaber macht. Der Ilgaz-Berg-Nationalpark bietet zu jeder Jahreszeit einzigartige Erlebnisse. Im Winter verwandeln sich die schneebedeckten Berge in ein ideales Gebiet für Skifahren und Snowboarden, wobei das Skigebiet Ilgaz zu den beliebtesten Attraktionen zählt. Im Sommer bietet der Park mit seinen grünen Wäldern, dem kühlen Klima und zahlreichen Wanderwegen ideale Bedingungen für Trekking, Camping und Naturwanderungen. Der Park zeichnet sich durch eine hohe biologische Vielfalt aus und beherbergt zahlreiche Pflanzenarten, Wildtiere und Vogelarten. Endemische Pflanzen und seltene Tierarten unterstreichen die ökologische Bedeutung der Region. Zudem ist der Park ein hervorragender Ort für Fotografie und Naturbeobachtung, insbesondere bei Sonnenaufgang und Sonnenuntergang, wenn die Landschaft besonders eindrucksvoll ist. Dank seiner günstigen Lage ist der Park leicht erreichbar und eignet sich auch für Tagesausflüge. Die vorhandenen Unterkünfte und die naturnahe Umgebung bieten Besuchern ein komfortables und zugleich ruhiges Erlebnis. Insgesamt gehört der Ilgaz-Berg-Nationalpark zu den wichtigsten Naturzielen der Türkei und bietet eine ideale Kombination aus Landschaft, Artenvielfalt und Freizeitaktivitäten."
-    },
-    "activities": {
-      "tr": [
-        "Dağcılık yapmak",
-        "Kayak yapmak"
-      ],
-      "en": [
-        "Mountain climbing",
-        "Skiing"
-      ],
-      "de": [
-        "Bergsteigen",
-        "Skifahren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/ilgaz_dagi.jpg"
-    ]
-  },
-  {
     "slug": "kastamonu-evleri",
     "name": {
       "tr": "Kastamonu Evleri",
@@ -332,63 +449,5 @@
     "images": [
       "https://example.com/kastamonu_evleri.jpg"
     ]
-  },
-{
-  "slug": "horma-kanyonu",
-  "name": {
-    "tr": "Küre Dağları Milli Parkı Horma Kanyonu",
-    "en": "Horma Canyon - Kure Mountains National Park",
-    "de": "Horma Schlucht - Küre-Berge-Nationalpark"
-  },
-  "latitude": 41.6115,
-  "longitude": 33.1582,
-  "description": {
-    "tr": "Horma Kanyonu, Kastamonu ilinin Pınarbaşı ilçesinde yer alan ve PAN Parks sertifikasına sahip, Avrupa'nın en seçkin koruma alanlarından biri olan Küre Dağları Milli Parkı sınırları içerisinde bulunan olağanüstü bir jeolojik oluşum ve dünya standartlarında bir eko-turizm merkezidir. Zarı Çayı'nın kalkerli kayaçları milyonlarca yıl boyunca aşındırmasıyla meydana gelen bu devasa kanyon, derin vadileri, baş döndürücü dik yamaçları ve vahşi doğasıyla Türkiye'nin en karakteristik doğa rotalarından biridir. Horma Kanyonu'nu dünya çapında bir üne kavuşturan ve onu diğer kanyonlardan ayıran en büyük özellik, kanyon boyunca dik kaya duvarlarına çelik vidalarla monte edilmiş olan yaklaşık 3 kilometre uzunluğundaki devasa ahşap yürüyüş platformudur. Türkiye'nin en uzun kanyon içi yürüyüş yolu olma unvanına sahip bu yapı, her yaştan seyahat severin azgın suların, derin girdapların ve dev kazanlarının hemen üzerinden güvenle geçerek kanyonun vahşi derinliklerini baştan sona konforlu bir şekilde keşfetmesine olanak tanır. Yürüyüş parkurunun en can alıcı noktası ise kanyonun bittiği yerde sizi karşılayan ve yaklaşık 15 metreden dökülen büyüleyici Ilıca Şelalesi'dir. Kanyondaki 3 kilometrelik yürüyüşü tamamlayan gezginler, doğrudan bu şelalenin oluşturduğu doğal havuzun ve etrafını saran egzotik bitki örtüsünün büyüleyici manzarasına ulaşırlar. Doğa yürüyüşü (trekking), doğa fotoğrafçılığı, kanyon geçişi (canyoning) ve yaban hayatı gözlemciliği için Karadeniz bölgesindeki en popüler cazibe merkezi olan kanyon, zengin florası ve fauna çeşitliliğiyle adeta bir açık hava müzesidir. Kanyonun hem giriş hem de çıkış (Ilıca Şelalesi) bölümlerinde kamp yapmak isteyen macera tutkunları için kontrollü çadır kampı alanları, karavan park noktaları, piknik alanları, restoranlar, yöresel ürün pazarları ve modern sosyal tesisler mevcuttur. Girişlerin oldukça ekonomik bir milli park tarifesine tabi olduğu bu saklı cennet, Kastamonu merkezine yaklaşık 95 kilometre mesafede olup, Pınarbaşı ilçesi üzerinden asfalt yollar takip edilerek özel araçlarla son derece kolay ve konforlu bir şekilde ulaşılabilir durumdadır. Waylero dijital seyahat planlayıcısı kullanıcıları için hem adrenalin dolu bir yürüyüş hem de Küre Dağları'nın büyüleyici ekosistemini keşfetme fırsatı sunan bu benzersiz destinasyon, 'Kastamonu gezilecek yerler', 'Küre Dağları kamp alanları' ve 'Horma kanyonu ulaşım' arama hacimlerinde ilk sıralara yerleşecek muazzam bir SEO derinliğine sahiptir.",
-    "en": "Horma Canyon, located in the Pinarbasi district of Kastamonu province, is an extraordinary geological formation and a world-class eco-tourism hub situated within the borders of the Kure Mountains National Park, which holds the prestigious PAN Parks certificate as one of Europe's most exclusive protected areas. Formed over millions of years by the Zari Stream eroding the local limestone rocks, this massive canyon is one of the most characteristic nature routes in Turkey with its deep valleys, dizzying steep slopes, and wild nature. The greatest and most prominent feature that brought Horma Canyon worldwide fame and distinguishes it from other canyons is the colossal 3-kilometer-long wooden walking platform mounted directly onto the steep rock walls with steel screws. Holding the title of Turkey's longest in-canyon walking trail, this infrastructure allows travel lovers of all ages to safely walk right above the rushing waters, deep whirlpools, and giant potholes, comfortably exploring the wild depths of the canyon from end to end. The most captivating spot of the hiking trail is the breathtaking Ilica Waterfall, which welcomes you from about 15 meters at the very end of the path where the canyon concludes. Travelers completing the 3-kilometer hike directly arrive at the mesmerizing scenery of the natural pool formed by this waterfall and the exotic vegetation surrounding it. Being the most popular attraction center in the Black Sea region for outdoor activities such as trekking, nature photography, canyoning, and wildlife watching, the canyon functions virtually as an open-air museum with its rich flora and fauna diversity. At both the entrance and exit (Ilica Waterfall) sections of the canyon, controlled tent camping sites, caravan parking spots, picnic areas, restaurants, local product markets, and modern social facilities to meet basic needs are readily available for adventure enthusiasts. Entry to the park area is subject to a highly economical national park entrance fee, and it is located approximately 95 kilometers from Kastamonu city center, making it easily and comfortably accessible via private vehicles by following the asphalt roads over the Pinarbasi district route. Offering Waylero digital travel planner users both a thrilling nature hike and the opportunity to discover the enchanting ecosystem of the Kure Mountains, this unique destination possesses an excellent SEO density that will easily rank on top for search trends like 'Kastamonu historical places', 'best canyons in Turkey', and 'Ilica waterfall tour'.",
-    "de": "Horma Schlucht Naturpark."
-  },
-  "activities": {
-    "tr": [
-      "Kaya duvarındaki ahşap yolda trekking",
-      "Ilıca Şelalesi doğa fotoğrafçılığı",
-      "Küre Dağları'nda çadır ve karavan kampı",
-      "Kanyon geçişi (Canyoning)"
-    ],
-    "en": [
-      "Trekking on the cliffside wooden platform",
-      "Ilica Waterfall nature photography",
-      "Tent and caravan camping in Kure Mountains",
-      "Canyoning"
-    ],
-    "de": [
-      "Wandern",
-      "Fotografie",
-      "Camping",
-      "Canyoning"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "doğal-güzellik",
-      "kanyon",
-      "milli-park",
-      "selale"
-    ],
-    "en": [
-      "natural-wonder",
-      "canyon",
-      "national-park",
-      "waterfall"
-    ],
-    "de": [
-      "naturwunder",
-      "canyon",
-      "nationalpark",
-      "wasserfall"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Horma_Kanyonu_Kastamonu.jpg"
-  ]
-}
+  }
 ]

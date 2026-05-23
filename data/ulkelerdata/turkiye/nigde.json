@@ -96,6 +96,118 @@
       "https://example.com/gumusler_fresk.jpg"
     ]
   },
+{
+  "slug": "alaeddin-camii",
+  "name": {
+    "tr": "Niğde Alâeddin Camii",
+    "en": "Nigde Alaeddin Mosque",
+    "de": "Alaeddin Moschee Nigde"
+  },
+  "latitude": 37.96722,
+  "longitude": 34.67833,
+  "description": {
+    "tr": "Alâeddin Camii, Niğde kent merkezindeki tarihi Niğde Kalesi içinde yer alan, Anadolu Selçuklu dönemine ait en önemli ve en eski mimari şaheserlerden biridir. 1223 yılında Niğde Sancak Beyi Zeyneddin Beşare tarafından, Selçuklu Sultanı I. Alâeddin Keykubad adına yaptırılmıştır. Caminin en büyük özelliği, orijinal yapısını günümüze kadar neredeyse tamamen korumayı başarmış olması ve Selçuklu taş işçiliğinin en zarif örneklerini barındırmasıdır.\n\nCaminin dünya çapında ün kazanmasını sağlayan en etkileyici detay, doğu kapısında (taç kapı) gizlidir. Yaz aylarında, sabah saat 09:30 - 11:00 arasında kapının üzerindeki taş oymaların üzerine düşen güneş ışığı ve gölgeler, yan profilden örüklü saçları ve başında tacı olan muazzam bir 'Kadın Başı' silüeti oluşturur. Efsaneye göre camiyi yapan usta, Niğde Sancak Beyi’nin kızına aşık olmuş ve aşkını ilan edemediği için bu gizli silüeti taşa işlemiştir. Bu büyüleyici optik illüzyon, her yıl binlerce yerli ve yabancı turistin ilgisini çeker.\n\nİç mimarisi, mihrabı ve minaresindeki geometrik süslemeleriyle tam bir Selçuklu dönemi karakteri yansıtan Alâeddin Camii, Niğde’nin en önemli inanç ve kültür turizmi merkezidir. Kale höyüğü üzerinde yer alması sebebiyle ziyaretçilerine aynı zamanda tarihi kale surlarını gezme ve Niğde şehir manzarasını panoramik olarak izleme imkanı sunar.",
+    "en": "The Alaeddin Mosque, located within the historical Nigde Castle in the city center of Nigde, is one of the most important and oldest architectural masterpieces of the Anatolian Seljuk period. Built in 1223 by the Governor of Nigde, Zeyneddin Besare, on behalf of Seljuk Sultan Alaeddin Keykubad I, the mosque's most prominent feature is that it has preserved its original structure almost completely until today, showcasing the most elegant examples of Seljuk stonemasonry.\n\nThe most impressive detail that brought worldwide fame to the mosque is hidden in its eastern portal (crown gate). During the summer months, between 09:30 and 11:00 in the morning, sunlight and shadows falling on the stone carvings project a magnificent profile of a 'Woman's Head' with braided hair and a crown. According to legend, the master mason fell in love with the daughter of the Governor of Nigde, and since he could not declare his love, he carved this secret silhouette into the stone. This fascinating optical illusion attracts thousands of local and international tourists every year.\n\nReflecting a true Seljuk character with its interior architecture, mihrab, and geometric decorations on its minaret, the Alaeddin Mosque is the most significant faith and culture tourism center in Nigde. Being situated on the castle mound, it also offers visitors the opportunity to tour the historical castle walls and enjoy a panoramic view of the city of Nigde.",
+    "de": "Die Alaeddin-Moschee befindet sich in der historischen Burg von Nigde im Stadtzentrum und ist eines der wichtigsten und ältesten architektonischen Meisterwerke der anatolischen Seldschukenzeit. Sie wurde 1223 vom Gouverneur von Nigde, Zeyneddin Besare, im Namen des seldschukischen Sultans Alaeddin Keykubad I. erbaut. Das herausragendste Merkmal der Moschee ist, dass sie ihre ursprüngliche Struktur bis heute fast vollständig bewahrt hat und feinste Beispiele seldschukischer Steinmetzkunst zeigt.\n\nDas beeindruckendste Detail, das der Moschee weltweiten Ruhm eingebracht hat, verbirgt sich an ihrem Ostportal (Krontor). In den Sommermonaten, morgens zwischen 09:30 und 11:00 Uhr, werfen Sonnenlicht und Schatten auf den Steinmetzarbeiten das prachtvolle Profil eines 'Frauenkopfes' mit geflochtenem Haar und einer Krone an die Wand. Der Legende nach verliebt sich der Baumeister in die Tochter des Gouverneurs von Nigde, und da er seine Liebe nicht gestehen konnte, meißelte er diese geheime Silhouette in den Stein. Diese faszinierende optische Täuschung zieht jedes Jahr Tausende von einheimischen und internationalen Touristen an.\n\nDie Alaeddin-Moschee, die mit ihrer Innenarchitektur, dem Mihrab und den geometrischen Dekorationen auf ihrem Minarett den echten seldschukischen Charakter widerspiegelt, ist das bedeutendste Glaubens- und Kulturtourismuszentrum in Nigde. Da sie sich auf dem Burghügel befindet, bietet sie Besuchern zudem die Möglichkeit, die historischen Burgmauern zu besichtigen und ein Panorama der Stadt Nigde zu genießen."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi ve kültürel gezi",
+      "İnanç turizmi / İbadet",
+      "Kadın başı silüetini fotoğraflama",
+      "Niğde Kalesi gezisi"
+    ],
+    "en": [
+      "Historical and cultural sightseeing",
+      "Faith tourism / Worship",
+      "Photographing the woman's head silhouette",
+      "Visiting Nigde Castle"
+    ],
+    "de": [
+      "Historische und kulturelle Besichtigung",
+      "Glaubenztourismus / Gottesdienst",
+      "Fotografieren der Frauenkopf-Silhouette",
+      "Besichtigung der Burg von Nigde"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi mekan",
+      "cami",
+      "selçuklu mimarisi"
+    ],
+    "en": [
+      "historical site",
+      "mosque",
+      "seljuk architecture"
+    ],
+    "de": [
+      "historische Stätte",
+      "Moschee",
+      "seldschukische Architektur"
+    ]
+  },
+  "images": [
+    "https://example.com/nigde_alaeddin_camii.jpg",
+    "https://example.com/nigde_alaeddin_camii_siluet.jpg"
+  ]
+},
+{
+  "slug": "bolkar-daglari-karagol",
+  "name": {
+    "tr": "Bolkar Dağları Karagöl",
+    "en": "Bolkar Mountains Karagol",
+    "de": "Bolkar-Berge Karagol"
+  },
+  "latitude": 37.42138,
+  "longitude": 34.61194,
+  "description": {
+    "tr": "Bolkar Dağları Karagöl, Muğla ve Artvin'deki göllerden tamamen farklı bir atmosfere sahip, Niğde’nin Ulukışla ilçesi sınırlarında ve Bolkar Dağları üzerinde yer alan büyüleyici bir tektonik buzul gölüdür. Yaklaşık 2.650 metre yükseklikte konumlanan göl, yüksek dağ ekosisteminin en saf ve vahşi güzelliklerini barındırır. Çevresini saran dik ve kayalık zirveler, gölün berrak sularına yansıyarak doğaseverler ve dağcılar için eşsiz manzaralar oluşturur.\n\nGölün dünya çapında bir üne sahip olmasının en önemli nedeni, biyolojik çeşitliliğidir. Dünyada sadece bu gölde ve hemen yakınındaki Çiniligöl’de yaşayan, endemik bir tür olan ve 'ötmeyen kurbağa' olarak bilinen Toros Kurbağası ($Rana \\: holtzi$), buranın en özel sakinidir. Bu nedenle göl ve çevresi, bilim insanları ve doğa gözlemcileri için son derece kritik bir koruma alanıdır.\n\nKış aylarında tamamen donan ve karla kaplanan Karagöl, yaz ve sonbahar aylarında ise dağcılık, yüksek irtifa kampçılığı ve trekking için Türkiye'nin en popüler merkezlerinden biri haline gelir. Herhangi bir tesisin bulunmadığı bu bakir alan, gece gökyüzünü ve yıldızları izlemek isteyen astro-fotoğrafçılar için de ışık kirliliğinden uzak, mükemmel bir kamp deneyimi sunar.",
+    "en": "Bolkar Mountains Karagol is a fascinating tectonic glacial lake located within the borders of the Ulukisla district of Nigde on the Bolkar Mountains, possessing a completely different atmosphere from the lakes in Mugla and Artvin. Situated at an altitude of approximately 2,650 meters, the lake embodies the purest and wildest beauties of the high mountain ecosystem. The steep and rocky peaks surrounding it reflect on the clear waters of the lake, creating unique landscapes for nature lovers and mountaineers.\n\nThe most important reason for the lake's worldwide fame is its biodiversity. The Toros Frog ($Rana \\: holtzi$), an endemic species known as the 'silent frog' that lives only in this lake and the nearby Ciniligol, is the most special inhabitant here. Therefore, the lake and its surroundings are a highly critical conservation area for scientists and nature observers.\n\nCompletely freezing and covered with snow during the winter months, Karagol becomes one of the most popular centers in Turkey for mountaineering, high-altitude camping, and trekking during the summer and autumn. This pristine area, where no commercial facilities are available, offers an excellent camping experience away from light pollution for astro-photographers wishing to observe the night sky and stars.",
+    "de": "Der Karagol in den Bolkar-Bergen ist ein faszinierender tektonischer Gletscheree innerhalb der Grenzen des Bezirks Ulukisla in Nigde auf den Bolkar-Bergen, der eine völlig andere Atmosphäre als die Seen in Mugla und Artvin besitzt. Auf einer Höhe von etwa 2.650 Metern gelegen, verkörpert der See die reinsten und wildesten Schönheiten des Hochgebirgsökosystems. Die ihn umgebenden steilen und felsigen Gipfel spiegeln sich im klaren Wasser des Sees wider und schaffen einzigartige Landschaften für Naturliebhaber und Bergsteiger.\n\nDer wichtigste Grund für den weltweiten Ruhm des Sees ist seine Artenvielfalt. Der Toros-Frosch ($Rana \\: holtzi$), eine endemische Art, die als 'stummer Frosch' bekannt ist und nur in diesem See und dem nahe gelegenen Ciniligol lebt, ist der ganz besondere Bewohner hier. Daher sind der See und seine Umgebung ein äußerst kritisches Schutzgebiet für Wissenschaftler und Naturbeobachter.\n\nIm Winter komplett zugefroren und schneebedeckt, wird der Karagol im Sommer und Herbst zu einem der beliebtesten Zentren in der Türkei für Bergsteigen, Höhencamping und Trekking. Dieses unberührte Gebiet, in dem keine kommerziellen Einrichtungen vorhanden sind, bietet Astrofotografen, die den Nachthimmel und die Sterne beobachten möchten, ein hervorragendes Campingerlebnis abseits von Lichtverschmutzung."
+  },
+  "activities": {
+    "tr": [
+      "Yüksek irtifa kampçılığı",
+      "Dağcılık ve Trekking",
+      "Toros kurbağası gözlemciliği",
+      "Astro-fotoğrafçılık (Yıldız pozlama)"
+    ],
+    "en": [
+      "High-altitude camping",
+      "Mountaineering and Trekking",
+      "Toros frog watching",
+      "Astro-photography (Star gazing)"
+    ],
+    "de": [
+      "Höhencamping",
+      "Bergsteigen und Trekking",
+      "Toros-Frosch-Beobachtung",
+      "Astrofotografie (Sterne beobachten)"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "buzul gölü",
+      "doğal koruma alanı",
+      "dağ"
+    ],
+    "en": [
+      "glacial lake",
+      "nature reserve",
+      "mountain"
+    ],
+    "de": [
+      "Gletschersee",
+      "Naturschutzgebiet",
+      "Berg"
+    ]
+  },
+  "images": [
+    "https://example.com/bolkar_karagol.jpg",
+    "https://example.com/toros_kurbagasi_rana_holtzi.jpg"
+  ]
+},
   {
     "slug": "gollu-dag",
     "name": {

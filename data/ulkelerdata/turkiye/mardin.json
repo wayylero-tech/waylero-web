@@ -178,7 +178,137 @@
       "https://example.com/deyrulzafaran.jpg"
     ]
   },
+  
   {
+    "slug": "mardin-kalesi",
+    "name": {
+      "tr": "Mardin Kalesi",
+      "en": "Mardin Castle",
+      "de": "Mardin Burg"
+    },
+    "latitude": 37.31566,
+    "longitude": 40.73891,
+    "description": {
+      "tr": "Mardin Kalesi, Mardin şehir merkezinin hemen üzerinde, Mezopotamya Ovası’na hakim yüksek bir tepede konumlanan ve şehrin en önemli simgelerinden biri olan tarihi bir yapıdır. “Kartal Yuvası” olarak da anılan kale, stratejik konumu sayesinde tarih boyunca birçok medeniyet tarafından kullanılmış ve korunmuştur. İlk yapımının Roma dönemine kadar uzandığı düşünülen Mardin Kalesi, daha sonra Bizans, Artuklu ve Osmanlı dönemlerinde de aktif olarak kullanılmıştır.\n\nKale, sarp kayalıklar üzerine inşa edilmiş olup doğal bir savunma sistemi sunar. Bu özelliği sayesinde yüzyıllar boyunca askeri üs ve savunma noktası olarak büyük önem taşımıştır. Mardin Kalesi’nin surları, burçları ve iç yapıları günümüze tam olarak ulaşamamış olsa da, kalenin ihtişamı ve tarihi değeri hala hissedilmektedir.\n\nMardin Kalesi’nin bulunduğu konum, ziyaretçilere eşsiz bir manzara sunar. Mezopotamya’nın uçsuz bucaksız ovalarına bakan bu noktadan gün doğumu ve gün batımı izlemek, unutulmaz bir deneyimdir. Bu nedenle kale, hem tarih meraklıları hem de fotoğraf tutkunları için oldukça cazip bir noktadır.\n\nTarih boyunca kalede askeri yapıların yanı sıra ibadet alanları, su sarnıçları ve yaşam alanları da bulunmuştur. Bu durum, kalenin sadece bir savunma yapısı değil, aynı zamanda bir yaşam merkezi olarak da kullanıldığını göstermektedir. Özellikle Artuklu döneminde kalenin önemi daha da artmış ve bölgenin yönetim merkezlerinden biri haline gelmiştir.\n\nGünümüzde Mardin Kalesi, güvenlik ve koruma nedenleriyle ziyarete kapalı olsa da, şehrin birçok noktasından rahatlıkla görülebilmektedir. Mardin’in tarihi taş evleri ve dar sokakları arasında gezerken kalenin silueti sürekli olarak ziyaretçilere eşlik eder.\n\nMardin’e gelen yerli ve yabancı turistler için Mardin Kalesi, mutlaka görülmesi gereken sembolik bir yapıdır. Tarih, mimari ve doğal güzelliği bir arada sunan bu eşsiz kale, Mezopotamya’nın zengin geçmişini keşfetmek isteyenler için önemli bir durak olmaya devam etmektedir.\n",
+      "en": "Mardin Castle, located on a high hill overlooking the vast Mesopotamian Plain, is one of the most iconic landmarks of Mardin. Also known as the “Eagle’s Nest,” the castle has been used and fortified by various civilizations throughout history due to its strategic position. Its origins are believed to date back to the Roman period, and it continued to be used during the Byzantine, Artuqid, and Ottoman eras.\n\nBuilt on steep rocky terrain, the castle offers a natural defense system, making it a significant military stronghold for centuries. Although much of the original walls, towers, and internal structures have not survived intact, the grandeur and historical importance of Mardin Castle can still be felt today.\n\nThe location of the castle provides visitors with breathtaking panoramic views of the Mesopotamian Plain. Watching the sunrise or sunset from this vantage point is an unforgettable experience, making it a popular attraction for photographers and history enthusiasts.\n\nThroughout history, the castle housed not only military structures but also places of worship, water cisterns, and living quarters. This indicates that it functioned not only as a defensive structure but also as a settlement area. During the Artuqid period, the castle gained even more significance and became one of the administrative centers of the region.\n\nToday, Mardin Castle is closed to visitors due to security and preservation reasons; however, it can be easily seen from many نقاط of the city. As you walk through Mardin’s historic streets and stone houses, the silhouette of the castle is always present.\n\nFor both local and international tourists visiting Mardin, Mardin Castle remains a must-see landmark. Combining history, architecture, and natural beauty, this remarkable fortress continues to be an essential stop for those who wish to explore the rich heritage of Mesopotamia.\n",
+      "de": "Die Burg von Mardin befindet sich auf einem hohen Hügel über der weiten Ebene Mesopotamiens und ist eines der bekanntesten Wahrzeichen der Stadt. Aufgrund ihrer strategischen Lage wurde sie im Laufe der Geschichte von verschiedenen Zivilisationen genutzt und befestigt. Es wird angenommen, dass ihre Ursprünge bis in die Römerzeit zurückreichen, während sie auch in der byzantinischen, artukidischen und osmanischen Zeit genutzt wurde.\n\nDie Burg wurde auf steilen Felsen errichtet und bot ein natürliches Verteidigungssystem, wodurch sie über Jahrhunderte hinweg eine wichtige militärische Festung war. Obwohl viele Teile der ursprünglichen Mauern, Türme und Innenstrukturen heute nicht mehr vollständig erhalten sind, ist ihre historische Bedeutung und beeindruckende Präsenz weiterhin spürbar.\n\nDank ihrer Lage bietet die Burg einen atemberaubenden Panoramablick über die mesopotamische Ebene. Besonders der Sonnenaufgang und Sonnenuntergang sind von hier aus ein unvergessliches Erlebnis, weshalb die Burg ein beliebtes Ziel für Fotografen und Geschichtsinteressierte ist.\n\nIm Laufe der Geschichte beherbergte die Burg nicht nur militärische Anlagen, sondern auch Gebetsräume, Wasserzisternen und Wohnbereiche. Dies zeigt, dass sie nicht nur als Verteidigungsanlage, sondern auch als Lebensraum genutzt wurde. Während der Artukidenzeit gewann die Burg weiter an Bedeutung und wurde zu einem wichtigen Verwaltungszentrum der Region.\n\nHeute ist die Burg von Mardin aus Sicherheits- und Denkmalschutzgründen für Besucher geschlossen, kann jedoch von vielen Punkten der Stadt aus gut gesehen werden. Beim Spaziergang durch die historischen Gassen und Steinhäuser Mardins begleitet die Silhouette der Burg die Besucher stets.\n\nFür Besucher aus dem In- und Ausland ist die Burg von Mardin ein unverzichtbares Wahrzeichen. Sie vereint Geschichte, Architektur und natürliche Schönheit und bleibt ein bedeutendes Ziel für alle, die das reiche Erbe Mesopotamiens entdecken möchten.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında yürüyüş yapmak",
+        "Tarihi yapıları keşfetmek"
+      ],
+      "en": [
+        "Walk around the castle",
+        "Explore historical buildings"
+      ],
+      "de": [
+        "Rundgang um die Burg",
+        "Historische Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/mardin_kalesi.jpg"
+    ]
+  },
+  {
+    "slug": "mor-gabriel-manastiri",
+    "name": {
+      "tr": "Mor Gabriel Manastırı",
+      "en": "Mor Gabriel Monastery",
+      "de": "Mor Gabriel Kloster"
+    },
+    "latitude": 37.32207,
+    "longitude": 41.53842,
+    "description": {
+      "tr": "Mor Gabriel Manastırı, Mardin’in Midyat ilçesi yakınlarında yer alan ve Süryani Ortodoks dünyasının en eski ve en önemli manastırlarından biri olarak kabul edilen tarihi bir yapıdır. MS 397 yılında kurulan bu manastır, yaklaşık 1600 yılı aşkın geçmişiyle sadece Türkiye’nin değil, dünyanın da en eski aktif manastırlarından biri olma özelliğini taşır. Süryani Ortodoks inancının önemli merkezlerinden biri olan Mor Gabriel Manastırı, yüzyıllar boyunca dini, kültürel ve eğitim faaliyetlerinin yürütüldüğü bir merkez olmuştur.\n\nManastır, adını kurucularından biri olan Mor Şmuel ve Mor Şemun’un öğrencisi olan Mor Gabriel’den almıştır. Tarih boyunca birçok Süryani patriği ve din adamı burada yetişmiş, bu yönüyle manastır önemli bir ilim ve ruhani eğitim merkezi haline gelmiştir. Günümüzde de aktif olarak kullanılan manastır, Süryani toplumu için büyük bir manevi değer taşımaktadır.\n\nMor Gabriel Manastırı’nın mimarisi, bölgenin karakteristik sarı kalker taşlarıyla inşa edilmiş olup oldukça etkileyicidir. Kompleks içerisinde kiliseler, şapeller, avlular, keşiş odaları ve eğitim alanları bulunmaktadır. Özellikle kubbeli yapılar, kemerli geçişler ve ince taş işçiliği, manastırın mimari zenginliğini gözler önüne serer.\n\nManastırın iç mekanları sade ama derin bir manevi atmosfere sahiptir. Taş duvarlar, loş ışıklandırma ve sessiz ortam, ziyaretçilere huzurlu ve mistik bir deneyim sunar. İbadet alanları ve tarihi odalar, yüzyıllar boyunca süregelen dini yaşamın izlerini taşımaktadır.\n\nDoğayla iç içe bir konumda bulunan Mor Gabriel Manastırı, çevresindeki geniş araziler ve sakin atmosferiyle dikkat çeker. Bu özelliği sayesinde ziyaretçiler hem tarihi hem de ruhsal bir yolculuk deneyimi yaşayabilirler. Aynı zamanda manastır, fotoğraf tutkunları ve kültür meraklıları için de oldukça etkileyici bir destinasyondur.\n\nGünümüzde Mor Gabriel Manastırı, Mardin ve çevresini ziyaret eden yerli ve yabancı turistler için önemli bir durak haline gelmiştir. Tarih, inanç ve kültürü bir arada sunan bu eşsiz yapı, Mezopotamya’nın kadim mirasını keşfetmek isteyenler için vazgeçilmez bir noktadır. Mor Gabriel Manastırı’nı ziyaret ederek hem Süryani kültürünü yakından tanıyabilir hem de binlerce yıllık bir tarihin içinde unutulmaz bir deneyim yaşayabilirsiniz.\n",
+      "en": "Mor Gabriel Monastery, located near the Midyat district of Mardin, is one of the oldest and most significant monasteries of the Syriac Orthodox world. Founded in 397 AD, this remarkable structure has a history of over 1,600 years, making it one of the oldest active monasteries not only in Türkiye but also in the world. As a major center of the Syriac Orthodox faith, the monastery has served for centuries as a hub for religious, cultural, and educational activities.\n\nThe monastery is named after Mor Gabriel, a prominent religious figure and disciple of its founders Mor Shmuel and Mor Shemun. Throughout history, many Syriac patriarchs and clergy were educated here, establishing the monastery as an important center of spiritual and scholarly learning. It continues to function actively today and holds great spiritual significance for the Syriac community.\n\nArchitecturally, Mor Gabriel Monastery is built using the region’s characteristic yellow limestone and features an impressive design. The complex includes churches, chapels, courtyards, monk cells, and educational spaces. Domed structures, arched passages, and intricate stone craftsmanship highlight its architectural richness.\n\nThe interior of the monastery offers a simple yet deeply spiritual atmosphere. Stone walls, dim lighting, and a peaceful environment provide visitors with a sense of tranquility and reflection. Prayer areas and historic rooms preserve the traces of centuries-old religious life.\n\nSurrounded by natural landscapes, Mor Gabriel Monastery stands in a მშვიდ and serene setting. Its location allows visitors to experience both a historical and spiritual journey. It is also a popular destination for photographers and cultural enthusiasts.\n\nToday, Mor Gabriel Monastery is an important stop for both local and international visitors exploring Mardin and its surroundings. Combining history, faith, and culture, this extraordinary site offers a unique opportunity to discover the ancient heritage of Mesopotamia. Visiting the monastery allows travelers to immerse themselves in a timeless atmosphere and experience a living tradition that spans millennia.\n",
+      "de": "Das Mor Gabriel Kloster, in der Nähe des Bezirks Midyat in Mardin gelegen, gehört zu den ältesten und bedeutendsten Klöstern der syrisch-orthodoxen Welt. Es wurde im Jahr 397 n. Chr. gegründet und blickt auf eine über 1600-jährige Geschichte zurück, wodurch es zu den ältesten noch aktiven Klöstern der Welt zählt. Als wichtiges Zentrum des syrisch-orthodoxen Glaubens diente es über Jahrhunderte hinweg als Ort religiöser, kultureller und bildungsbezogener Aktivitäten.\n\nDas Kloster ist nach Mor Gabriel benannt, einer bedeutenden religiösen Persönlichkeit und Schüler der Gründer Mor Shmuel und Mor Shemun. Im Laufe der Geschichte wurden hier zahlreiche Patriarchen und Geistliche ausgebildet, was das Kloster zu einem wichtigen Zentrum spiritueller und wissenschaftlicher Bildung machte. Auch heute wird es aktiv genutzt und hat eine große spirituelle Bedeutung für die syrische Gemeinschaft.\n\nArchitektonisch wurde das Mor Gabriel Kloster aus dem für die Region typischen gelben Kalkstein errichtet und beeindruckt durch seine Bauweise. Der Komplex umfasst Kirchen, Kapellen, Innenhöfe, Mönchszellen und Unterrichtsräume. Kuppelbauten, Gewölbe und feine Steinmetzarbeiten unterstreichen die architektonische Vielfalt.\n\nDas Innere des Klosters ist schlicht, aber von einer tiefen spirituellen Atmosphäre geprägt. Steinwände, gedämpftes Licht und eine ruhige Umgebung schaffen eine besondere Stimmung der Besinnung. Gebetsräume und historische Bereiche bewahren die Spuren jahrhundertealten religiösen Lebens.\n\nUmgeben von einer ruhigen Naturlandschaft bietet das Kloster eine friedliche Umgebung, die Besucher zu einer spirituellen und historischen Reise einlädt. Es ist zudem ein beliebtes Ziel für Fotografen und Kulturinteressierte.\n\nHeute ist das Mor Gabriel Kloster ein wichtiger Anlaufpunkt für Besucher aus dem In- und Ausland, die Mardin und seine Umgebung erkunden. Es vereint Geschichte, Glauben und Kultur und bietet eine einzigartige Möglichkeit, das antike Erbe Mesopotamiens kennenzulernen. Ein Besuch ermöglicht es, in eine zeitlose Atmosphäre einzutauchen und eine lebendige Tradition zu erleben, die sich über Jahrtausende erstreckt.\n"
+    },
+    "activities": {
+      "tr": [
+        "Manastırı ziyaret etmek",
+        "Dini kültürü keşfetmek"
+      ],
+      "en": [
+        "Visit the monastery",
+        "Explore religious culture"
+      ],
+      "de": [
+        "Das Kloster besuchen",
+        "Religiöse Kultur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/mor_gabriel.jpg"
+    ]
+  },
+  {
+    "slug": "kasimiye-medresesi",
+    "name": {
+      "tr": "Kasımiye Medresesi",
+      "en": "Kasimiye Medrese",
+      "de": "Kasimiye Medrese"
+    },
+    "latitude": 37.30779,
+    "longitude": 40.72004,
+    "description": {
+      "tr": "Kasımiye Medresesi, Mardin’in merkezinde yer alan ve Selçuklu döneminin en önemli eğitim yapılarından biri olarak kabul edilen tarihi bir medresedir. 15. yüzyılda inşa edilen bu yapı, hem mimari ihtişamı hem de tarihi önemiyle dikkat çeker. Medrese, döneminin ilim merkezlerinden biri olarak hizmet vermiş ve Mardin’in kültürel ve bilimsel yaşamına büyük katkılar sağlamıştır.\n\nMedresenin en çarpıcı özelliklerinden biri geniş avlusu ve zarif taş işçiliğidir. Avlu etrafında sıralanan derslikler, öğrencilerin eğitim aldığı alanlar olarak tasarlanmıştır. Ortasında bulunan büyük havuz, hem estetik bir unsur hem de sosyal bir buluşma noktası olarak kullanılmıştır. Medresenin taş işçiliği, Selçuklu dönemi mimarisinin zarif detaylarını yansıtarak ziyaretçilere görsel bir şölen sunar.\n\nKasımiye Medresesi’nin taç kapısı ve giriş detayları, Selçuklu taş işçiliğinin en güzel örneklerini sergiler. Kapı üzerindeki geometrik motifler, kabartmalar ve süslemeler, medresenin hem dini hem de eğitimsel kimliğini güçlendiren unsurlardır. Sarı kalker taşları, Mardin’in karakteristik mimari dokusunu yansıtırken, yapının genel uyumu ve simetrisi ziyaretçiler üzerinde büyüleyici bir etki bırakır.\n\nMedresenin konumu, şehrin tarihi dokusuna hakim bir noktada olup, ziyaretçilere Mardin’in dar ve labirent benzeri sokakları arasında eşsiz bir manzara sunar. Bu özelliğiyle Kasımiye Medresesi, hem tarih meraklıları hem de fotoğraf tutkunları için ideal bir destinasyondur. Medrese, günümüzde hem koruma altında olan bir kültürel miras hem de Mardin’in simgelerinden biri olarak ziyaret edilmektedir.\n\nGünümüzde Kasımiye Medresesi, Mardin’e gelen yerli ve yabancı turistlerin mutlaka ziyaret ettiği tarihi yapılar arasında yer alır. Tarih, mimari ve kültürün bir arada sunulduğu bu medrese, Selçuklu dönemi mimarisini keşfetmek isteyenler için eşsiz bir fırsat sunar. Ziyaretçiler, medresenin avlusunda dolaşarak, taş işçiliğini inceleyerek ve tarihi atmosferi hissederek geçmişin izlerini yakından deneyimleyebilirler.\n",
+      "en": "Kasimiye Medrese, located in the center of Mardin, is a historic medrese considered one of the most important educational buildings of the Seljuk period. Built in the 15th century, this structure draws attention for both its architectural grandeur and historical significance. Serving as a center of learning in its time, the medrese greatly contributed to the cultural and scholarly life of Mardin.\n\nOne of the most striking features of the medrese is its spacious courtyard and elegant stone craftsmanship. The classrooms surrounding the courtyard were designed for student learning, while the large pool at its center served both aesthetic and social purposes. The intricate stonework reflects the refined details of Seljuk architecture, offering visitors a visual feast.\n\nThe grand entrance and portal of Kasimiye Medrese showcase some of the finest examples of Seljuk stone craftsmanship. Geometric motifs, reliefs, and decorative carvings on the entrance emphasize the medrese’s dual identity as a place of religious and educational significance. The yellow limestone used in the construction reflects the characteristic architectural style of Mardin, while the overall harmony and symmetry of the building leave a captivating impression on visitors.\n\nSituated in a vantage point overlooking the historic fabric of the city, the medrese offers visitors panoramic views among Mardin’s narrow, maze-like streets. This makes Kasimiye Medrese an ideal destination for history enthusiasts and photography lovers alike. Today, it stands as both a preserved cultural heritage site and one of Mardin’s iconic landmarks.\n\nCurrently, Kasimiye Medrese is among the must-visit historical sites for local and international tourists exploring Mardin. Combining history, architecture, and culture, this medrese provides a unique opportunity to discover Seljuk-era architecture. Visitors can stroll through the courtyard, examine the stone craftsmanship, and immerse themselves in the historical atmosphere, experiencing traces of the past up close.\n",
+      "de": "Die Kasimiye-Medrese, im Zentrum von Mardin gelegen, ist ein historisches Bauwerk und zählt zu den wichtigsten Bildungseinrichtungen der seldschukischen Zeit. Sie wurde im 15. Jahrhundert erbaut und zieht sowohl durch ihre architektonische Pracht als auch durch ihre historische Bedeutung Aufmerksamkeit auf sich. Als Bildungszentrum ihrer Zeit trug die Medrese wesentlich zum kulturellen und wissenschaftlichen Leben Mardins bei.\n\nEin besonders auffälliges Merkmal der Medrese ist ihr großzügiger Innenhof und die elegante Steinmetzarbeit. Die rund um den Innenhof angeordneten Unterrichtsräume dienten der Ausbildung der Schüler, während der große Brunnen in der Mitte sowohl ästhetische als auch soziale Funktionen erfüllte. Die kunstvollen Steinmetzarbeiten spiegeln die feinen Details der seldschukischen Architektur wider und bieten den Besuchern ein visuelles Erlebnis.\n\nDas prächtige Eingangsportal der Kasimiye-Medrese zeigt einige der schönsten Beispiele seldschukischer Steinmetzkunst. Geometrische Motive, Reliefs und dekorative Schnitzereien betonen die doppelte Identität der Medrese als religiöses und Bildungsbauwerk. Der verwendete gelbe Kalkstein entspricht dem charakteristischen Baustil Mardins, während die harmonische Gesamtanordnung und Symmetrie einen bleibenden Eindruck hinterlassen.\n\nDie Lage der Medrese, mit Aussicht über die historische Struktur der Stadt, bietet Besuchern Panoramablicke zwischen den engen, labyrinthartigen Gassen Mardins. Dies macht die Kasimiye-Medrese zu einem idealen Ziel für Geschichtsinteressierte und Fotografiebegeisterte. Heute gilt sie sowohl als geschütztes Kulturerbe als auch als eines der Wahrzeichen Mardins.\n\nHeutzutage gehört die Kasimiye-Medrese zu den wichtigsten historischen Sehenswürdigkeiten für einheimische und internationale Touristen, die Mardin besuchen. Sie vereint Geschichte, Architektur und Kultur und bietet eine einzigartige Gelegenheit, die Architektur der seldschukischen Zeit zu entdecken. Besucher können den Innenhof durchschreiten, die Steinmetzarbeiten bewundern und in die historische Atmosphäre eintauchen, um die Spuren der Vergangenheit hautnah zu erleben.\n"
+    },
+    "activities": {
+      "tr": [
+        "Medreseyi gezmek",
+        "Tarihi yapıları incelemek"
+      ],
+      "en": [
+        "Visit the medrese",
+        "Explore historical buildings"
+      ],
+      "de": [
+        "Das Medrese besichtigen",
+        "Historische Gebäude erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/kasimye_medresesi.jpg"
+    ]
+  },
+{
     "slug": "kirklar-kilisesi",
     "name": {
       "tr": "Kırklar Kilisesi",
@@ -314,135 +444,6 @@
     },
     "images": [
       "https://example.com/sehidiye_medresesi.jpg"
-    ]
-  },
-  {
-    "slug": "mardin-kalesi",
-    "name": {
-      "tr": "Mardin Kalesi",
-      "en": "Mardin Castle",
-      "de": "Mardin Burg"
-    },
-    "latitude": 37.31566,
-    "longitude": 40.73891,
-    "description": {
-      "tr": "Mardin Kalesi, Mardin şehir merkezinin hemen üzerinde, Mezopotamya Ovası’na hakim yüksek bir tepede konumlanan ve şehrin en önemli simgelerinden biri olan tarihi bir yapıdır. “Kartal Yuvası” olarak da anılan kale, stratejik konumu sayesinde tarih boyunca birçok medeniyet tarafından kullanılmış ve korunmuştur. İlk yapımının Roma dönemine kadar uzandığı düşünülen Mardin Kalesi, daha sonra Bizans, Artuklu ve Osmanlı dönemlerinde de aktif olarak kullanılmıştır.\n\nKale, sarp kayalıklar üzerine inşa edilmiş olup doğal bir savunma sistemi sunar. Bu özelliği sayesinde yüzyıllar boyunca askeri üs ve savunma noktası olarak büyük önem taşımıştır. Mardin Kalesi’nin surları, burçları ve iç yapıları günümüze tam olarak ulaşamamış olsa da, kalenin ihtişamı ve tarihi değeri hala hissedilmektedir.\n\nMardin Kalesi’nin bulunduğu konum, ziyaretçilere eşsiz bir manzara sunar. Mezopotamya’nın uçsuz bucaksız ovalarına bakan bu noktadan gün doğumu ve gün batımı izlemek, unutulmaz bir deneyimdir. Bu nedenle kale, hem tarih meraklıları hem de fotoğraf tutkunları için oldukça cazip bir noktadır.\n\nTarih boyunca kalede askeri yapıların yanı sıra ibadet alanları, su sarnıçları ve yaşam alanları da bulunmuştur. Bu durum, kalenin sadece bir savunma yapısı değil, aynı zamanda bir yaşam merkezi olarak da kullanıldığını göstermektedir. Özellikle Artuklu döneminde kalenin önemi daha da artmış ve bölgenin yönetim merkezlerinden biri haline gelmiştir.\n\nGünümüzde Mardin Kalesi, güvenlik ve koruma nedenleriyle ziyarete kapalı olsa da, şehrin birçok noktasından rahatlıkla görülebilmektedir. Mardin’in tarihi taş evleri ve dar sokakları arasında gezerken kalenin silueti sürekli olarak ziyaretçilere eşlik eder.\n\nMardin’e gelen yerli ve yabancı turistler için Mardin Kalesi, mutlaka görülmesi gereken sembolik bir yapıdır. Tarih, mimari ve doğal güzelliği bir arada sunan bu eşsiz kale, Mezopotamya’nın zengin geçmişini keşfetmek isteyenler için önemli bir durak olmaya devam etmektedir.\n",
-      "en": "Mardin Castle, located on a high hill overlooking the vast Mesopotamian Plain, is one of the most iconic landmarks of Mardin. Also known as the “Eagle’s Nest,” the castle has been used and fortified by various civilizations throughout history due to its strategic position. Its origins are believed to date back to the Roman period, and it continued to be used during the Byzantine, Artuqid, and Ottoman eras.\n\nBuilt on steep rocky terrain, the castle offers a natural defense system, making it a significant military stronghold for centuries. Although much of the original walls, towers, and internal structures have not survived intact, the grandeur and historical importance of Mardin Castle can still be felt today.\n\nThe location of the castle provides visitors with breathtaking panoramic views of the Mesopotamian Plain. Watching the sunrise or sunset from this vantage point is an unforgettable experience, making it a popular attraction for photographers and history enthusiasts.\n\nThroughout history, the castle housed not only military structures but also places of worship, water cisterns, and living quarters. This indicates that it functioned not only as a defensive structure but also as a settlement area. During the Artuqid period, the castle gained even more significance and became one of the administrative centers of the region.\n\nToday, Mardin Castle is closed to visitors due to security and preservation reasons; however, it can be easily seen from many نقاط of the city. As you walk through Mardin’s historic streets and stone houses, the silhouette of the castle is always present.\n\nFor both local and international tourists visiting Mardin, Mardin Castle remains a must-see landmark. Combining history, architecture, and natural beauty, this remarkable fortress continues to be an essential stop for those who wish to explore the rich heritage of Mesopotamia.\n",
-      "de": "Die Burg von Mardin befindet sich auf einem hohen Hügel über der weiten Ebene Mesopotamiens und ist eines der bekanntesten Wahrzeichen der Stadt. Aufgrund ihrer strategischen Lage wurde sie im Laufe der Geschichte von verschiedenen Zivilisationen genutzt und befestigt. Es wird angenommen, dass ihre Ursprünge bis in die Römerzeit zurückreichen, während sie auch in der byzantinischen, artukidischen und osmanischen Zeit genutzt wurde.\n\nDie Burg wurde auf steilen Felsen errichtet und bot ein natürliches Verteidigungssystem, wodurch sie über Jahrhunderte hinweg eine wichtige militärische Festung war. Obwohl viele Teile der ursprünglichen Mauern, Türme und Innenstrukturen heute nicht mehr vollständig erhalten sind, ist ihre historische Bedeutung und beeindruckende Präsenz weiterhin spürbar.\n\nDank ihrer Lage bietet die Burg einen atemberaubenden Panoramablick über die mesopotamische Ebene. Besonders der Sonnenaufgang und Sonnenuntergang sind von hier aus ein unvergessliches Erlebnis, weshalb die Burg ein beliebtes Ziel für Fotografen und Geschichtsinteressierte ist.\n\nIm Laufe der Geschichte beherbergte die Burg nicht nur militärische Anlagen, sondern auch Gebetsräume, Wasserzisternen und Wohnbereiche. Dies zeigt, dass sie nicht nur als Verteidigungsanlage, sondern auch als Lebensraum genutzt wurde. Während der Artukidenzeit gewann die Burg weiter an Bedeutung und wurde zu einem wichtigen Verwaltungszentrum der Region.\n\nHeute ist die Burg von Mardin aus Sicherheits- und Denkmalschutzgründen für Besucher geschlossen, kann jedoch von vielen Punkten der Stadt aus gut gesehen werden. Beim Spaziergang durch die historischen Gassen und Steinhäuser Mardins begleitet die Silhouette der Burg die Besucher stets.\n\nFür Besucher aus dem In- und Ausland ist die Burg von Mardin ein unverzichtbares Wahrzeichen. Sie vereint Geschichte, Architektur und natürliche Schönheit und bleibt ein bedeutendes Ziel für alle, die das reiche Erbe Mesopotamiens entdecken möchten.\n"
-    },
-    "activities": {
-      "tr": [
-        "Kale etrafında yürüyüş yapmak",
-        "Tarihi yapıları keşfetmek"
-      ],
-      "en": [
-        "Walk around the castle",
-        "Explore historical buildings"
-      ],
-      "de": [
-        "Rundgang um die Burg",
-        "Historische Gebäude erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/mardin_kalesi.jpg"
-    ]
-  },
-  {
-    "slug": "mor-gabriel-manastiri",
-    "name": {
-      "tr": "Mor Gabriel Manastırı",
-      "en": "Mor Gabriel Monastery",
-      "de": "Mor Gabriel Kloster"
-    },
-    "latitude": 37.32207,
-    "longitude": 41.53842,
-    "description": {
-      "tr": "Mor Gabriel Manastırı, Mardin’in Midyat ilçesi yakınlarında yer alan ve Süryani Ortodoks dünyasının en eski ve en önemli manastırlarından biri olarak kabul edilen tarihi bir yapıdır. MS 397 yılında kurulan bu manastır, yaklaşık 1600 yılı aşkın geçmişiyle sadece Türkiye’nin değil, dünyanın da en eski aktif manastırlarından biri olma özelliğini taşır. Süryani Ortodoks inancının önemli merkezlerinden biri olan Mor Gabriel Manastırı, yüzyıllar boyunca dini, kültürel ve eğitim faaliyetlerinin yürütüldüğü bir merkez olmuştur.\n\nManastır, adını kurucularından biri olan Mor Şmuel ve Mor Şemun’un öğrencisi olan Mor Gabriel’den almıştır. Tarih boyunca birçok Süryani patriği ve din adamı burada yetişmiş, bu yönüyle manastır önemli bir ilim ve ruhani eğitim merkezi haline gelmiştir. Günümüzde de aktif olarak kullanılan manastır, Süryani toplumu için büyük bir manevi değer taşımaktadır.\n\nMor Gabriel Manastırı’nın mimarisi, bölgenin karakteristik sarı kalker taşlarıyla inşa edilmiş olup oldukça etkileyicidir. Kompleks içerisinde kiliseler, şapeller, avlular, keşiş odaları ve eğitim alanları bulunmaktadır. Özellikle kubbeli yapılar, kemerli geçişler ve ince taş işçiliği, manastırın mimari zenginliğini gözler önüne serer.\n\nManastırın iç mekanları sade ama derin bir manevi atmosfere sahiptir. Taş duvarlar, loş ışıklandırma ve sessiz ortam, ziyaretçilere huzurlu ve mistik bir deneyim sunar. İbadet alanları ve tarihi odalar, yüzyıllar boyunca süregelen dini yaşamın izlerini taşımaktadır.\n\nDoğayla iç içe bir konumda bulunan Mor Gabriel Manastırı, çevresindeki geniş araziler ve sakin atmosferiyle dikkat çeker. Bu özelliği sayesinde ziyaretçiler hem tarihi hem de ruhsal bir yolculuk deneyimi yaşayabilirler. Aynı zamanda manastır, fotoğraf tutkunları ve kültür meraklıları için de oldukça etkileyici bir destinasyondur.\n\nGünümüzde Mor Gabriel Manastırı, Mardin ve çevresini ziyaret eden yerli ve yabancı turistler için önemli bir durak haline gelmiştir. Tarih, inanç ve kültürü bir arada sunan bu eşsiz yapı, Mezopotamya’nın kadim mirasını keşfetmek isteyenler için vazgeçilmez bir noktadır. Mor Gabriel Manastırı’nı ziyaret ederek hem Süryani kültürünü yakından tanıyabilir hem de binlerce yıllık bir tarihin içinde unutulmaz bir deneyim yaşayabilirsiniz.\n",
-      "en": "Mor Gabriel Monastery, located near the Midyat district of Mardin, is one of the oldest and most significant monasteries of the Syriac Orthodox world. Founded in 397 AD, this remarkable structure has a history of over 1,600 years, making it one of the oldest active monasteries not only in Türkiye but also in the world. As a major center of the Syriac Orthodox faith, the monastery has served for centuries as a hub for religious, cultural, and educational activities.\n\nThe monastery is named after Mor Gabriel, a prominent religious figure and disciple of its founders Mor Shmuel and Mor Shemun. Throughout history, many Syriac patriarchs and clergy were educated here, establishing the monastery as an important center of spiritual and scholarly learning. It continues to function actively today and holds great spiritual significance for the Syriac community.\n\nArchitecturally, Mor Gabriel Monastery is built using the region’s characteristic yellow limestone and features an impressive design. The complex includes churches, chapels, courtyards, monk cells, and educational spaces. Domed structures, arched passages, and intricate stone craftsmanship highlight its architectural richness.\n\nThe interior of the monastery offers a simple yet deeply spiritual atmosphere. Stone walls, dim lighting, and a peaceful environment provide visitors with a sense of tranquility and reflection. Prayer areas and historic rooms preserve the traces of centuries-old religious life.\n\nSurrounded by natural landscapes, Mor Gabriel Monastery stands in a მშვიდ and serene setting. Its location allows visitors to experience both a historical and spiritual journey. It is also a popular destination for photographers and cultural enthusiasts.\n\nToday, Mor Gabriel Monastery is an important stop for both local and international visitors exploring Mardin and its surroundings. Combining history, faith, and culture, this extraordinary site offers a unique opportunity to discover the ancient heritage of Mesopotamia. Visiting the monastery allows travelers to immerse themselves in a timeless atmosphere and experience a living tradition that spans millennia.\n",
-      "de": "Das Mor Gabriel Kloster, in der Nähe des Bezirks Midyat in Mardin gelegen, gehört zu den ältesten und bedeutendsten Klöstern der syrisch-orthodoxen Welt. Es wurde im Jahr 397 n. Chr. gegründet und blickt auf eine über 1600-jährige Geschichte zurück, wodurch es zu den ältesten noch aktiven Klöstern der Welt zählt. Als wichtiges Zentrum des syrisch-orthodoxen Glaubens diente es über Jahrhunderte hinweg als Ort religiöser, kultureller und bildungsbezogener Aktivitäten.\n\nDas Kloster ist nach Mor Gabriel benannt, einer bedeutenden religiösen Persönlichkeit und Schüler der Gründer Mor Shmuel und Mor Shemun. Im Laufe der Geschichte wurden hier zahlreiche Patriarchen und Geistliche ausgebildet, was das Kloster zu einem wichtigen Zentrum spiritueller und wissenschaftlicher Bildung machte. Auch heute wird es aktiv genutzt und hat eine große spirituelle Bedeutung für die syrische Gemeinschaft.\n\nArchitektonisch wurde das Mor Gabriel Kloster aus dem für die Region typischen gelben Kalkstein errichtet und beeindruckt durch seine Bauweise. Der Komplex umfasst Kirchen, Kapellen, Innenhöfe, Mönchszellen und Unterrichtsräume. Kuppelbauten, Gewölbe und feine Steinmetzarbeiten unterstreichen die architektonische Vielfalt.\n\nDas Innere des Klosters ist schlicht, aber von einer tiefen spirituellen Atmosphäre geprägt. Steinwände, gedämpftes Licht und eine ruhige Umgebung schaffen eine besondere Stimmung der Besinnung. Gebetsräume und historische Bereiche bewahren die Spuren jahrhundertealten religiösen Lebens.\n\nUmgeben von einer ruhigen Naturlandschaft bietet das Kloster eine friedliche Umgebung, die Besucher zu einer spirituellen und historischen Reise einlädt. Es ist zudem ein beliebtes Ziel für Fotografen und Kulturinteressierte.\n\nHeute ist das Mor Gabriel Kloster ein wichtiger Anlaufpunkt für Besucher aus dem In- und Ausland, die Mardin und seine Umgebung erkunden. Es vereint Geschichte, Glauben und Kultur und bietet eine einzigartige Möglichkeit, das antike Erbe Mesopotamiens kennenzulernen. Ein Besuch ermöglicht es, in eine zeitlose Atmosphäre einzutauchen und eine lebendige Tradition zu erleben, die sich über Jahrtausende erstreckt.\n"
-    },
-    "activities": {
-      "tr": [
-        "Manastırı ziyaret etmek",
-        "Dini kültürü keşfetmek"
-      ],
-      "en": [
-        "Visit the monastery",
-        "Explore religious culture"
-      ],
-      "de": [
-        "Das Kloster besuchen",
-        "Religiöse Kultur entdecken"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/mor_gabriel.jpg"
-    ]
-  },
-  {
-    "slug": "kasimiye-medresesi",
-    "name": {
-      "tr": "Kasımiye Medresesi",
-      "en": "Kasimiye Medrese",
-      "de": "Kasimiye Medrese"
-    },
-    "latitude": 37.30779,
-    "longitude": 40.72004,
-    "description": {
-      "tr": "Kasımiye Medresesi, Mardin’in merkezinde yer alan ve Selçuklu döneminin en önemli eğitim yapılarından biri olarak kabul edilen tarihi bir medresedir. 15. yüzyılda inşa edilen bu yapı, hem mimari ihtişamı hem de tarihi önemiyle dikkat çeker. Medrese, döneminin ilim merkezlerinden biri olarak hizmet vermiş ve Mardin’in kültürel ve bilimsel yaşamına büyük katkılar sağlamıştır.\n\nMedresenin en çarpıcı özelliklerinden biri geniş avlusu ve zarif taş işçiliğidir. Avlu etrafında sıralanan derslikler, öğrencilerin eğitim aldığı alanlar olarak tasarlanmıştır. Ortasında bulunan büyük havuz, hem estetik bir unsur hem de sosyal bir buluşma noktası olarak kullanılmıştır. Medresenin taş işçiliği, Selçuklu dönemi mimarisinin zarif detaylarını yansıtarak ziyaretçilere görsel bir şölen sunar.\n\nKasımiye Medresesi’nin taç kapısı ve giriş detayları, Selçuklu taş işçiliğinin en güzel örneklerini sergiler. Kapı üzerindeki geometrik motifler, kabartmalar ve süslemeler, medresenin hem dini hem de eğitimsel kimliğini güçlendiren unsurlardır. Sarı kalker taşları, Mardin’in karakteristik mimari dokusunu yansıtırken, yapının genel uyumu ve simetrisi ziyaretçiler üzerinde büyüleyici bir etki bırakır.\n\nMedresenin konumu, şehrin tarihi dokusuna hakim bir noktada olup, ziyaretçilere Mardin’in dar ve labirent benzeri sokakları arasında eşsiz bir manzara sunar. Bu özelliğiyle Kasımiye Medresesi, hem tarih meraklıları hem de fotoğraf tutkunları için ideal bir destinasyondur. Medrese, günümüzde hem koruma altında olan bir kültürel miras hem de Mardin’in simgelerinden biri olarak ziyaret edilmektedir.\n\nGünümüzde Kasımiye Medresesi, Mardin’e gelen yerli ve yabancı turistlerin mutlaka ziyaret ettiği tarihi yapılar arasında yer alır. Tarih, mimari ve kültürün bir arada sunulduğu bu medrese, Selçuklu dönemi mimarisini keşfetmek isteyenler için eşsiz bir fırsat sunar. Ziyaretçiler, medresenin avlusunda dolaşarak, taş işçiliğini inceleyerek ve tarihi atmosferi hissederek geçmişin izlerini yakından deneyimleyebilirler.\n",
-      "en": "Kasimiye Medrese, located in the center of Mardin, is a historic medrese considered one of the most important educational buildings of the Seljuk period. Built in the 15th century, this structure draws attention for both its architectural grandeur and historical significance. Serving as a center of learning in its time, the medrese greatly contributed to the cultural and scholarly life of Mardin.\n\nOne of the most striking features of the medrese is its spacious courtyard and elegant stone craftsmanship. The classrooms surrounding the courtyard were designed for student learning, while the large pool at its center served both aesthetic and social purposes. The intricate stonework reflects the refined details of Seljuk architecture, offering visitors a visual feast.\n\nThe grand entrance and portal of Kasimiye Medrese showcase some of the finest examples of Seljuk stone craftsmanship. Geometric motifs, reliefs, and decorative carvings on the entrance emphasize the medrese’s dual identity as a place of religious and educational significance. The yellow limestone used in the construction reflects the characteristic architectural style of Mardin, while the overall harmony and symmetry of the building leave a captivating impression on visitors.\n\nSituated in a vantage point overlooking the historic fabric of the city, the medrese offers visitors panoramic views among Mardin’s narrow, maze-like streets. This makes Kasimiye Medrese an ideal destination for history enthusiasts and photography lovers alike. Today, it stands as both a preserved cultural heritage site and one of Mardin’s iconic landmarks.\n\nCurrently, Kasimiye Medrese is among the must-visit historical sites for local and international tourists exploring Mardin. Combining history, architecture, and culture, this medrese provides a unique opportunity to discover Seljuk-era architecture. Visitors can stroll through the courtyard, examine the stone craftsmanship, and immerse themselves in the historical atmosphere, experiencing traces of the past up close.\n",
-      "de": "Die Kasimiye-Medrese, im Zentrum von Mardin gelegen, ist ein historisches Bauwerk und zählt zu den wichtigsten Bildungseinrichtungen der seldschukischen Zeit. Sie wurde im 15. Jahrhundert erbaut und zieht sowohl durch ihre architektonische Pracht als auch durch ihre historische Bedeutung Aufmerksamkeit auf sich. Als Bildungszentrum ihrer Zeit trug die Medrese wesentlich zum kulturellen und wissenschaftlichen Leben Mardins bei.\n\nEin besonders auffälliges Merkmal der Medrese ist ihr großzügiger Innenhof und die elegante Steinmetzarbeit. Die rund um den Innenhof angeordneten Unterrichtsräume dienten der Ausbildung der Schüler, während der große Brunnen in der Mitte sowohl ästhetische als auch soziale Funktionen erfüllte. Die kunstvollen Steinmetzarbeiten spiegeln die feinen Details der seldschukischen Architektur wider und bieten den Besuchern ein visuelles Erlebnis.\n\nDas prächtige Eingangsportal der Kasimiye-Medrese zeigt einige der schönsten Beispiele seldschukischer Steinmetzkunst. Geometrische Motive, Reliefs und dekorative Schnitzereien betonen die doppelte Identität der Medrese als religiöses und Bildungsbauwerk. Der verwendete gelbe Kalkstein entspricht dem charakteristischen Baustil Mardins, während die harmonische Gesamtanordnung und Symmetrie einen bleibenden Eindruck hinterlassen.\n\nDie Lage der Medrese, mit Aussicht über die historische Struktur der Stadt, bietet Besuchern Panoramablicke zwischen den engen, labyrinthartigen Gassen Mardins. Dies macht die Kasimiye-Medrese zu einem idealen Ziel für Geschichtsinteressierte und Fotografiebegeisterte. Heute gilt sie sowohl als geschütztes Kulturerbe als auch als eines der Wahrzeichen Mardins.\n\nHeutzutage gehört die Kasimiye-Medrese zu den wichtigsten historischen Sehenswürdigkeiten für einheimische und internationale Touristen, die Mardin besuchen. Sie vereint Geschichte, Architektur und Kultur und bietet eine einzigartige Gelegenheit, die Architektur der seldschukischen Zeit zu entdecken. Besucher können den Innenhof durchschreiten, die Steinmetzarbeiten bewundern und in die historische Atmosphäre eintauchen, um die Spuren der Vergangenheit hautnah zu erleben.\n"
-    },
-    "activities": {
-      "tr": [
-        "Medreseyi gezmek",
-        "Tarihi yapıları incelemek"
-      ],
-      "en": [
-        "Visit the medrese",
-        "Explore historical buildings"
-      ],
-      "de": [
-        "Das Medrese besichtigen",
-        "Historische Gebäude erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/kasimye_medresesi.jpg"
     ]
   },
   {

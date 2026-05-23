@@ -275,6 +275,49 @@
       "assets/images/tas.png"
     ]
   },
+{
+  "slug": "kozan-kalesi",
+  "name": {
+    "tr": "Kozan Kalesi",
+    "en": "Kozan Castle",
+    "de": "Burg Kozan"
+  },
+  "latitude": 37.443889,
+  "longitude": 35.807778,
+  "description": {
+    "tr": "Kozan Kalesi (tarihi adıyla Sis Kalesi), Adana’nın Kozan ilçesinde, şehre hakim yaklaşık 400 metre yükseklikteki dik bir kaya kütlesi üzerine inşa edilmiş, Çukurova’nın en görkemli Orta Çağ kalelerinden biridir. Kalenin ilk olarak Asurlar tarafından yapıldığı tahmin edilse de, bugünkü devasa yapısını ve mimari karakterini Roma, Bizans, Kilikya Ermeni Krallığı ve Memlükler döneminde geçirdiği büyük genişletme ve restorasyon çalışmalarına borçludur. Bölgenin en stratejik savunma noktalarından biri olan kale, iki ana gruptan oluşan toplam 44 burç ve kuleye sahiptir. Kale içerisinde gizli yer altı geçitleri, büyük su sarnıçları, cephanelikler, odalar ve Kilikya dönemine ait dini yapı kalıntıları yer almaktadır. Yüzyıllar boyunca bölgedeki krallıkların ve beyliklerin yönetim merkezi olan bu yapı, heybetli surları ve eşsiz Çukurova manzarasıyla günümüzde bölge turizminin en önemli odak noktalarından biridir.",
+    "en": "Kozan Castle (historically known as Sis Castle) is one of the most magnificent medieval fortresses in the Çukurova region, built upon a steep, rocky hill roughly 400 meters high overlooking the town of Kozan in Adana. Although the castle's foundations are believed to date back to the Assyrian period, its massive structural footprint and architectural character were shaped by extensive expansions during the Roman, Byzantine, Armenian Kingdom of Cilicia, and Mamluk eras. Serving as a crucial strategic defense hub for centuries, the fortress features 44 bastions and towers divided into two main sections. Inside, visitors can explore secret underground tunnels, massive water cisterns, arsenals, residential rooms, and remnants of ancient religious chapels. With its commanding ramparts and panoramic views of the fertile plains, it stands as a premier cultural heritage destination.",
+    "de": "Die Burg Kozan (historisch bekannt als Burg Sis) ist eine der prachtvollsten mittelalterlichen Festungen der Çukurova-Region. Sie thront auf einem steilen, etwa 400 Meter hohen Felsmassiv über der Stadt Kozan in der Provinz Adana. Während die Ursprünge vermutlich auf die Assyrer zurückgehen, erhielt die Anlage ihre heutige monumentale Gestalt durch weitreichende Erweiterungen unter den Römern, Byzantinern, dem Armenischen Königreich Kilikien und den Mamluken. Als einer der strategisch wichtigsten Verteidigungspunkte der Region verfügt die Festung über insgesamt 44 Bastione und Türme. Im Inneren befinden sich geheime unterirdische Gänge, riesige Zisternen, Arsenale und Ruinen sakraler Bauwerke. Mit ihren mächtigen Mauern und dem Panoramablick über die weite Ebene ist die Burg heute ein bedeutendes Ziel für Kulturtouristen."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi surları, burçları ve gizli geçitleri keşfetme",
+      "Kalenin zirvesinden panoramik Kozan ve Çukurova manzarasını izleme",
+      "Kale çevresindeki dinlenme alanlarında yöresel lezzetleri deneme",
+      "Fotoğraf çekimi"
+    ],
+    "en": [
+      "Explore the historic ramparts, bastions, and hidden tunnels",
+      "Enjoy panoramic views of Kozan and the Çukurova plain from the summit",
+      "Taste local delicacies at the recreational facilities around the castle",
+      "Photography"
+    ],
+    "de": [
+      "Die historischen Mauern, Bastione und Geheimgänge erkunden",
+      "Den Panoramablick auf Kozan und die Çukurova-Ebene vom Gipfel genießen",
+      "Lokale Köstlichkeiten in den Raststätten rund um die Burg probieren",
+      "Fotografieren"
+    ]
+  },
+  "categories": {
+    "tr": ["kale", "tarihi yapı", "arkeolojik alan", "manzara noktası"],
+    "en": ["castle", "historical site", "archaeological site", "viewpoint"],
+    "de": ["burg", "historische stätte", "archäologische stätte", "aussichtspunkt"]
+  },
+  "images": [
+    "https://example.com/kozan_kalesi_adana.jpg"
+  ]
+},
   {
     "slug": "seyhan-merkez-park",
     "name": {
