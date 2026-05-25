@@ -13,10 +13,22 @@ export const wayleroLiveVideos = [
   location: "Burdur, Türkiye"
 },
 { 
+  id: 31, 
+  title: "Sagalassos Antoninler Çeşmesi", 
+  youtubeId: "K7trrH0qu5Y",
+  location: "Burdur, Türkiye"
+},
+{ 
   id: 29, 
   title: "Kibyra Antik Kenti Medusa Mozaiği", 
   youtubeId: "k1zIYCkKbms",
   location: "Burdur, Türkiye"
+},
+{ 
+  id: 32, 
+  title: "Hızırbeycami Eğirdir ", 
+  youtubeId: "KPjNoFf1Drw",
+  location: "Isparta, Türkiye"
 },
 { 
   id: 30, 
