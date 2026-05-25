@@ -130,7 +130,7 @@ export default async function Page(
     const finalUrl = `https://www.waylero.com${apiPath}`;
 
     const res = await fetch(finalUrl, {
-      next: { revalidate: 3600 },
+      next: { revalidate: 7200 },
       headers: {
         'Accept': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'

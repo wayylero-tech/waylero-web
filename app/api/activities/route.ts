@@ -23,7 +23,7 @@ export async function GET(request: Request) {
         'x-access-token': apiKey,
         'Content-Type': 'application/json',
       },
-      next: { revalidate: 3600 },
+      next: { revalidate: 7200 },
     });
 
     if (!res.ok) {

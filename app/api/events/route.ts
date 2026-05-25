@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { LRUCache } from "lru-cache";
 
-export const revalidate = 60;
-
 const rateLimiter = new LRUCache<string, { count: number }>({
   max: 5000,
   ttl: 60 * 1000,
@@ -81,7 +79,7 @@ export async function GET(request: Request) {
         "X-Etkinlik-Token": token || "",
         Accept: "application/json",
       },
-      next: { revalidate: 3600 },
+      next: { revalidate: 7200 },
     });
 
     const data = await res.json();
