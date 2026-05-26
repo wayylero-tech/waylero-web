@@ -7,6 +7,14 @@ const Map = dynamic(() => import("@/components/Map"), {
 });
 
 export default function TripClient({ trip }: any) {
+
+  // 🔥 LAT LNG DÜZELTME
+  const normalizedPlaces = (trip.places || []).map((p: any) => ({
+    ...p,
+    lat: Number(p.lat),
+    lng: Number(p.lng),
+  }));
+
   return (
     <main className="min-h-screen bg-[#f8fafc] text-gray-900">
 
@@ -16,7 +24,7 @@ export default function TripClient({ trip }: any) {
         {/* MAP */}
         <div className="h-[420px] w-full overflow-hidden rounded-b-[32px]">
           <Map
-            places={trip.places || []}
+            places={normalizedPlaces}
             showControls={true}
           />
         </div>
@@ -32,7 +40,7 @@ export default function TripClient({ trip }: any) {
           </h1>
 
           <p className="text-sm text-white/80 mt-1">
-            {trip.places?.length || 0} durak
+            {normalizedPlaces?.length || 0} durak
           </p>
 
         </div>
@@ -52,7 +60,7 @@ export default function TripClient({ trip }: any) {
           </p>
         </div>
 
-        {trip.places?.map((p: any, i: number) => (
+        {normalizedPlaces?.map((p: any, i: number) => (
           <div
             key={p.slug + i}
             className="bg-white border rounded-2xl p-4 flex justify-between items-center hover:shadow-sm transition"

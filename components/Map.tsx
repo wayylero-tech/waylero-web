@@ -14,7 +14,6 @@ import L from "leaflet";
 import { useEffect, useState, useRef } from "react";
 import { divIcon } from "leaflet";
 
-
 const CLOUDINARY_BASE = `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_fill,w_120,h_120,q_auto,f_auto/`;
 
 function FitBounds({ places }: { places: any[] }) {
@@ -478,4 +477,4 @@ export default function Map({
       </MapContainer>
     </div>
   );
-}
+} 
