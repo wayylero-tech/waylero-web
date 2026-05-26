@@ -1,12 +1,25 @@
 "use client";
 
-import { useState, useMemo, useRef, useEffect } from "react"; // ✅ useEffect eklendi
-import { useRouter, useSearchParams } from "next/navigation"; // ✅ useSearchParams eklendi
+import { useState, useMemo, useRef, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import dynamic from "next/dynamic";
 import { useReactToPrint } from "react-to-print";
 import globalPlacesData from "@/data/globalPlaces.json";
+import {
+  GoogleAuthProvider,
+  signInWithPopup,
+  onAuthStateChanged,
+  User,
+} from "firebase/auth";
+
+import { auth } from "@/lib/firebase";
+import { db } from "@/lib/firebase";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
+
 
 const Map = dynamic(() => import("@/components/Map"), { ssr: false });
+
+const CLOUDINARY_BASE = `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_fill,w_120,h_120,q_auto,f_auto/`;
 
 interface Place {
   country: string;
@@ -16,6 +29,8 @@ interface Place {
   name_en: string;
   lat: number;
   lng: number;
+  image?: string;
+
 }
 
 // 🌍 Dil Sözlüğü
@@ -47,6 +62,12 @@ const translations = {
     devAlert: "Geliştirme Aşamasında",
     devMessage: "Bu araç şu an beta aşamasındadır. Yakında yapay zeka ile tam rota optimizasyonu ve yeni şehirler eklenecek!",
     devButton: "ANLAYIŞINIZ İÇİN TEŞEKKÜR EDERİZ",
+    saveSuccess: "Planınız kaydedildi. Seyahat rotanıza artık her zaman erişebilirsiniz.",
+     savedTitle: "🎉 Gezi başarıyla kaydedildi",
+  savedDesc: "Bu gezi rotasını görmek istediğin kişilerle paylaşabilir ya da aşağıdaki linki kopyalayıp doğrudan iletebilirsin.",
+  copy: "📋 Kopyala",
+  close: "Kapat",
+
   },
   en: {
     heroTitle: "Your Itinerary",
@@ -74,17 +95,21 @@ const translations = {
     shareText: "I created an amazing travel route, check it out!",
     devAlert: "Under Development",
     devMessage: "This tool is currently in beta. Full AI route optimization and more cities are coming soon!",
-    
     devButton: "THANK YOU FOR YOUR UNDERSTANDING",
+      saveSuccess: "Your trip has been saved. You can access your route anytime.",
+        savedTitle: "🎉 Trip saved successfully",
+  savedDesc: "You can share this trip with anyone you want or copy the link below and send it directly.",
+  copy: "📋 Copy",
+  close: "Close",
+
   }
 };
 
 export default function TripPlannerClient({ lang = "tr" }: { lang: "tr" | "en" }) {
   const t = translations[lang];
   const router = useRouter();
-  const searchParams = useSearchParams(); // ✅ URL parametrelerini okumak için
+  const searchParams = useSearchParams();
   
-  // URL'de city varsa onu al, yoksa İstanbul/Istanbul default yap
   const cityFromUrl = searchParams.get("city");
 
   const [activeStep, setActiveStep] = useState(1);
@@ -94,59 +119,145 @@ export default function TripPlannerClient({ lang = "tr" }: { lang: "tr" | "en" }
   const [selectedPlaces, setSelectedPlaces] = useState<Place[]>([]);
   const [showAllCities, setShowAllCities] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
-
+  const [isMapFullscreen, setIsMapFullscreen] = useState(false);
   const contentRef = useRef(null);
-const reactToPrintFn = useReactToPrint({ contentRef });
+  const reactToPrintFn = useReactToPrint({ contentRef });
+ const [savedUrl, setSavedUrl] = useState<string | null>(null);
+ const [user, setUser] = useState<User | null>(null);
+  const [isTripStarted, setIsTripStarted] = useState(false);
+  const [travelMode, setTravelMode] = useState("driving");
 
-
-  // ✅ URL değiştiğinde (mesela geri tuşuna basıldığında) state'i güncelle
   useEffect(() => {
     if (cityFromUrl) {
       setSelectedCity(cityFromUrl);
     }
   }, [cityFromUrl]);
 
-  // ✅ Şehir değiştirme fonksiyonunu güzelleştirelim
+  useEffect(() => {
+    if (isMapFullscreen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isMapFullscreen]);
+
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsMapFullscreen(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleEsc);
+
+    return () => {
+      window.removeEventListener("keydown", handleEsc);
+    };
+  }, []);
+
+  useEffect(() => {
+  const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    console.log("AUTH STATE:", currentUser);
+    setUser(currentUser);
+  });
+
+  return () => unsubscribe();
+}, []);
+
+const handleGoogleLogin = async () => {
+  try {
+    const provider = new GoogleAuthProvider();
+
+    const result = await signInWithPopup(auth, provider);
+
+    console.log("LOGIN RESULT:", result.user);
+
+  } catch (err: any) {
+    console.log(err);
+  }
+};
+
+const handleSaveTrip = async () => {
+  if (!user) {
+    handleGoogleLogin();
+    return;
+  }
+
+  try {
+    const tripData = {
+      userId: user.uid,
+      city: selectedCity,
+      places: selectedPlaces,
+      travelMode,
+      createdAt: serverTimestamp(),
+    };
+
+    const docRef = await addDoc(collection(db, "trips"), tripData);
+
+    const url = `${window.location.origin}/trip/${docRef.id}`;
+
+    setSavedUrl(url); // 👈 popup açmak için
+
+    console.log("SHARE URL:", url);
+
+  } catch (err) {
+    console.error("Save error:", err);
+  }
+};
+
+const handleCopy = async () => {
+  if (!savedUrl) return;
+  await navigator.clipboard.writeText(savedUrl);
+  alert("Link kopyalandı");
+};
+
+const formatCity = (city: string) => {
+  if (!city) return "";
+  return city
+    .toLocaleLowerCase("tr-TR")
+    .split(" ")
+    .map(w => w.charAt(0).toLocaleUpperCase("tr-TR") + w.slice(1))
+    .join(" ");
+};
+
+
   const handleCityChange = (cityName: string) => {
     setSelectedCity(cityName);
     setSelectedPlaces([]);
     setActiveStep(2);
     
-    // URL'i güncelle (Sayfa yenilenince veri gitmesin diye)
-    // Örn: /tr/gezi-planlayici?city=Antalya
     const params = new URLSearchParams(searchParams.toString());
-    params.set("city", cityName);
+   params.set("city", cityName.toLocaleLowerCase("tr-TR"));
     router.push(`?${params.toString()}`, { scroll: false });
   };
 
   const handleNewRoute = () => {
-  setItinerary([]);
-  setSelectedPlaces([]);
-  setActiveStep(1);
-  setShowAllCities(false); // Bunu da ekle ki liste kapalı başlasın
-  
-  // URL'deki ?city=... kısmını temizler
-  router.push(window.location.pathname, { scroll: false });
-};
-
-
-  const handleShare = async () => {
-    const shareData = {
-      title: t.shareTitle,
-      text: t.shareText,
-      url: window.location.href,
-    };
-    try {
-      if (navigator.share) {
-        await navigator.share(shareData);
-      } else {
-        await navigator.clipboard.writeText(window.location.href);
-        alert(t.copySuccess);
-      }
-    } catch (err) {
-      console.error("Paylaşım başarısız", err);
-    }
+    setItinerary([]);
+    setSelectedPlaces([]);
+    setActiveStep(1);
+    setShowAllCities(false);
+    
+    router.push(window.location.pathname, { scroll: false });
   };
+
+  const handleShareLink = async () => {
+  if (!savedUrl) return;
+
+  if (navigator.share) {
+    await navigator.share({
+      title: "Gezi Rotası",
+      text: "Oluşturduğum gezi planı",
+      url: savedUrl,
+    });
+  } else {
+    await navigator.clipboard.writeText(savedUrl);
+    alert("Link kopyalandı");
+  }
+};
 
   const steps = [
     { id: 1, label: t.steps[0], icon: "📍" },
@@ -155,15 +266,16 @@ const reactToPrintFn = useReactToPrint({ contentRef });
   ];
 
   const cities = useMemo(() => {
-  return [
-    { id: "istanbul", name: lang === "tr" ? "istanbul" : "Istanbul", icon: "🕌" },
-    { id: "nevsehir", name: lang === "tr" ? "Nevşehir" : "Nevsehir", icon: "🎈" },
-    { id: "antalya", name: "Antalya", icon: "🎡" },
-    { id: "paris", name: "Paris", icon: "🗼" },
-    { id: "roma", name: lang === "tr" ? "Roma" : "Rome", icon: "🏛️" },
-  ];
-}, [lang]);
+    return [
+      { id: "istanbul", name: lang === "tr" ? "istanbul" : "Istanbul", icon: "🕌" },
+      { id: "nevsehir", name: lang === "tr" ? "Nevsehir" : "Nevsehir", icon: "🎈" },
+      { id: "antalya", name: "Antalya", icon: "🎡" },
+      { id: "paris", name: "Paris", icon: "🗼" },
+      { id: "roma", name: lang === "tr" ? "Roma" : "Rome", icon: "🏛️" },
+    ];
+  }, [lang]);
 
+  
   const countries = useMemo(() => {
     const data = globalPlacesData as Place[];
     return [...new Set(data.map((p) => p.country))];
@@ -175,17 +287,22 @@ const reactToPrintFn = useReactToPrint({ contentRef });
     return [...new Set(data.filter((p) => p.country === selectedCountry).map((p) => p.city))];
   }, [selectedCountry]);
 
+  // ✅ DÜZELTİLEN YER 1: Filtreleme Mantığı
   const filteredPlaces = useMemo(() => {
-  const data = (globalPlacesData as Place[]) || [];
-  return data.filter((p) => 
-    p.city.toLowerCase().replace('i', 'ı') === selectedCity.toLowerCase().replace('i', 'ı')
-  );
-}, [selectedCity]);
+    const data = (globalPlacesData as Place[]) || [];
+    return data.filter((p) => {
+      const normalize = (str: string) => 
+        str?.toLocaleLowerCase('tr-TR').replace(/i̇/g, 'i').replace(/ı/g, 'i').trim();
+      
+      return normalize(p.city) === normalize(selectedCity);
+    });
+  }, [selectedCity]);
 
+  // ✅ DÜZELTİLEN YER 2: Seçim Mantığı
   const togglePlace = (place: Place) => {
     setSelectedPlaces((prev) => {
-      const exists = prev.some((item) => item.slug === place.slug);
-      if (exists) return prev.filter((item) => item.slug !== place.slug);
+      const exists = prev.some((item) => item.slug === place.slug && item.name_tr === place.name_tr);
+      if (exists) return prev.filter((item) => !(item.slug === place.slug && item.name_tr === place.name_tr));
       return [...prev, place];
     });
   };
@@ -203,73 +320,19 @@ const reactToPrintFn = useReactToPrint({ contentRef });
     }, 1200);
   };
 
-  const [showBetaAlert, setShowBetaAlert] = useState(true);
 
+  
   return (
-    
     <main className="min-h-screen bg-[#fdfaf7] text-gray-900 pb-20">
       {/* 🚀 EKRANIN TAM ORTASINDA ÇIKAN BETA MODAL */}
-{showBetaAlert && (
-  <div className="fixed inset-0 z-[9999] flex items-center justify-center px-6">
-    {/* Arkadaki Karartma Katmanı (Overlay) */}
-    <div 
-      className="absolute inset-0 bg-[#1e445e]/60 backdrop-blur-sm animate-in fade-in duration-300"
-      onClick={() => setShowBetaAlert(false)} 
-    />
-    
-    {/* Modal İçeriği */}
-    <div className="relative bg-white w-full max-w-md rounded-[2.5rem] p-8 shadow-2xl border border-orange-100 animate-in zoom-in-95 duration-300">
       
-      {/* Kapatma Butonu */}
-      <button 
-        onClick={() => setShowBetaAlert(false)}
-        className="absolute top-6 right-6 text-gray-400 hover:text-gray-900 transition-colors"
-      >
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
 
-      <div className="text-center">
-        {/* İkon */}
-        <div className="inline-flex items-center justify-center w-20 h-20 bg-orange-50 rounded-full mb-6">
-          <span className="text-4xl animate-bounce">🚀</span>
-        </div>
-
-        {/* Başlık ve Metin */}
-        <h3 className="text-2xl font-serif font-bold text-[#1e445e] mb-3 uppercase">
-          {t.devAlert}
-        </h3>
-        <p className="text-gray-500 text-sm leading-relaxed mb-8">
-          {t.devMessage}
-        </p>
-
-        {/* Buton */}
-        <button 
-  onClick={() => setShowBetaAlert(false)}
-  className="w-full bg-[#1e445e] text-white py-4 rounded-2xl font-bold text-[11px] uppercase tracking-widest hover:bg-orange-500 transition-all shadow-xl active:scale-95"
->
-  {t.devButton}
-</button>
-
-        {/* Alt Progress Detayı */}
-        <div className="mt-6 flex items-center justify-center gap-2">
-          <span className="text-[10px] font-black text-orange-400 uppercase tracking-tight">Beta v0.1</span>
-          <div className="w-12 h-1 bg-gray-100 rounded-full overflow-hidden">
-            <div className="h-full bg-orange-400 w-2/3"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-)}
       <section className="bg-[#1e445e] pt-16 pb-28 px-6">
         <div className="max-w-[1400px] mx-auto text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-2 leading-tight">
             {activeStep === 3 
-              ? t.heroTitle 
-              : `${selectedCity} ${lang === 'tr' ? 'Rotası' : 'Route'}`}
+  ? t.heroTitle 
+  : `${formatCity(selectedCity)} ${lang === 'tr' ? 'Rotası' : 'Route'}`}
           </h1>
           <p className="text-blue-100/60 text-sm font-medium uppercase tracking-widest">{t.heroSub}</p>
         </div>
@@ -302,7 +365,7 @@ const reactToPrintFn = useReactToPrint({ contentRef });
                       {cities.map((c) => (
                         <button
                           key={c.id}
-                          onClick={() => handleCityChange(c.name)} // ✅ Yeni fonksiyonu kullandık
+                          onClick={() => handleCityChange(c.name)}
                           className={`flex items-center gap-4 p-3 rounded-xl border-2 transition-all ${
                             selectedCity.toLowerCase() === c.name.toLowerCase()
                               ? "bg-[#1e445e] border-[#1e445e] text-white shadow-md scale-[1.02]"
@@ -343,13 +406,13 @@ const reactToPrintFn = useReactToPrint({ contentRef });
                     <h2 className="text-sm font-black text-gray-400 uppercase mb-6">{t.selectCity}</h2>
                     <div className="grid gap-2">
                       {citiesByCountry.map((city) => (
-                     <button
-  key={city}
-  onClick={() => handleCityChange(city)}
-  className="p-3 border rounded-xl text-xs font-bold hover:bg-blue-50"
->
-  {city}
-</button>
+                        <button
+                          key={city}
+                          onClick={() => handleCityChange(city)}
+                          className="p-3 border rounded-xl text-xs font-bold hover:bg-blue-50"
+                        >
+                          {city}
+                        </button>
                       ))}
                     </div>
                     <button onClick={() => setSelectedCountry(null)} className="mt-4 text-xs text-gray-400">{t.back}</button>
@@ -364,70 +427,136 @@ const reactToPrintFn = useReactToPrint({ contentRef });
               <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100">
                 <h3 className="text-sm font-bold mb-4 text-gray-500">{t.mapTitle}</h3>
                 <div className="h-[500px] w-full rounded-2xl overflow-hidden">
-                  <Map places={filteredPlaces} />
+                  <Map places={selectedPlaces} />
                 </div>
               </div>
             )}
 
-            {activeStep === 2 && (
-              <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-gray-100">
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
-                  <div>
-                    <h3 className="text-2xl font-serif font-bold text-gray-900 uppercase">{t.stopsTitle}</h3>
-                    <p className="text-xs text-gray-400 font-medium">{t.stopsSub}</p>
-                  </div>
-                  <div className="bg-orange-400 text-white px-4 py-2 rounded-xl text-[10px] font-black shadow-lg shadow-orange-200">
-                    {selectedPlaces.length} {t.selectedCount}
-                  </div>
-                </div>
+           {activeStep === 2 && (
+  <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100 flex flex-col gap-6">
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                  {filteredPlaces.map((place: Place) => {
-                    const isSelected = selectedPlaces.some((p) => p.slug === place.slug);
-                    return (
-                      <div key={place.slug} onClick={() => togglePlace(place)} className={`group p-4 rounded-2xl border-2 cursor-pointer transition-all flex items-center justify-between ${isSelected ? "border-[#1e445e] bg-blue-50/30 shadow-inner" : "border-gray-50 bg-gray-50/50 hover:border-orange-200"}`}>
-                        <div className="flex items-center gap-4">
-                          <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all ${isSelected ? "bg-[#1e445e] text-white rotate-6 scale-110" : "bg-white text-gray-300 shadow-sm"}`}>📍</div>
-                          <div>
-                            <h4 className="font-bold text-sm text-gray-800 leading-none mb-1.5">
-                              {lang === "tr" ? place.name_tr : place.name_en}
-                            </h4>
-                            <p className="text-[10px] text-gray-400 font-semibold tracking-widest uppercase">
-                              {lang === "tr" ? place.name_en : place.name_tr}
-                            </p>
-                          </div>
-                        </div>
-                        <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${isSelected ? "bg-green-500 border-green-500 scale-110" : "border-gray-200"}`}>
-                          {isSelected && <span className="text-white text-[10px] font-bold">✓</span>}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
+    {/* 🔥 HARİTA ÜSTTE SABİT */}
+    <div className="w-full">
+      <h3 className="text-sm font-bold mb-3 text-gray-500">{t.mapTitle}</h3>
 
-                <button 
-                  onClick={handleGenerate}
-                  disabled={isGenerating || selectedPlaces.length === 0}
-                  className="w-full bg-[#1e445e] text-white py-4 rounded-2xl font-black hover:bg-orange-500 transition-all shadow-xl active:scale-95 disabled:opacity-30"
+      <div className="h-[420px] w-full rounded-2xl overflow-hidden border">
+        <Map
+  places={selectedPlaces}
+/>
+      </div>
+    </div>
+
+    {/* 🔥 SEÇİM LİSTESİ ALTTA */}
+    <div className="flex flex-col">
+
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+        <div>
+          <h3 className="text-2xl font-serif font-bold text-gray-900 uppercase">
+            {t.stopsTitle}
+          </h3>
+          <p className="text-xs text-gray-400 font-medium">
+            {t.stopsSub}
+          </p>
+        </div>
+
+        <div className="bg-orange-400 text-white px-4 py-2 rounded-xl text-[10px] font-black shadow-lg">
+          {selectedPlaces.length} {t.selectedCount}
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 max-h-[400px] overflow-y-auto pr-2">
+        {filteredPlaces.map((place: Place, index: number) => {
+          const isSelected = selectedPlaces.some(
+            (p) => p.slug === place.slug && p.name_tr === place.name_tr
+          );
+
+          return (
+            <div
+              key={`${place.slug}-${index}`}
+              onClick={() => togglePlace(place)}
+              className={`group p-4 rounded-2xl border-2 cursor-pointer transition-all flex items-center justify-between
+              ${isSelected
+                ? "border-[#1e445e] bg-blue-50/30 shadow-inner"
+                : "border-gray-50 bg-gray-50/50 hover:border-orange-200"
+              }`}
+            >
+              <div className="flex items-center gap-4">
+                
+                <div className={`w-12 h-12 rounded-2xl overflow-hidden flex items-center justify-center transition-all
+                  ${isSelected ? "ring-2 ring-[#1e445e] scale-110" : "shadow-sm"}`}
                 >
-                  {isGenerating ? t.generating : t.continue}
-                </button>
+                  {place.image ? (
+                    <img
+                      src={`${CLOUDINARY_BASE}${place.image}`}
+                      alt={lang === "tr" ? place.name_tr : place.name_en}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className={`w-full h-full flex items-center justify-center
+                      ${isSelected ? "bg-[#1e445e] text-white" : "bg-white text-gray-300"}`}>
+                      📍
+                    </div>
+                  )}
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-sm text-gray-800">
+                    {lang === "tr" ? place.name_tr : place.name_en}
+                  </h4>
+                  <p className="text-[10px] text-gray-400 uppercase">
+                    {lang === "tr" ? place.name_en : place.name_tr}
+                  </p>
+                </div>
               </div>
-            )}
+
+              <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center
+                ${isSelected ? "bg-green-500 border-green-500" : "border-gray-200"}`}
+              >
+                {isSelected && <span className="text-white text-[10px]">✓</span>}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <button
+        onClick={handleGenerate}
+        disabled={isGenerating || selectedPlaces.length === 0}
+        className="w-full bg-[#1e445e] text-white py-4 rounded-2xl font-black hover:bg-orange-500 transition-all"
+      >
+        {isGenerating ? t.generating : t.continue}
+      </button>
+
+    </div>
+  </div>
+)}
 
             {activeStep === 3 && (
               <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 flex flex-col">
                 <div className="p-6 border-b border-gray-50 flex items-center justify-between bg-white/80 backdrop-blur-md sticky top-0 z-10">
                   <h3 className="text-xs font-black text-gray-400 uppercase tracking-[0.2em]">{t.yourRoute}</h3>
-                  <div className="flex gap-2">
-                    <button onClick={handleShare} className="bg-gray-100 text-gray-600 px-6 py-3 rounded-2xl text-[11px] font-black hover:bg-gray-200 transition-all active:scale-95">{t.share}</button>
-                    <button onClick={() => reactToPrintFn()} className="bg-blue-600 text-white px-6 py-3 rounded-2xl text-[11px] font-black hover:bg-blue-700 transition-all shadow-xl active:scale-95">{t.print}</button>
-                  </div>
+                  <div className="flex gap-2 flex-wrap">
+  <button onClick={() => reactToPrintFn()} className="bg-blue-600 text-white px-6 py-3 rounded-2xl text-[11px] font-black hover:bg-blue-700 transition-all shadow-xl active:scale-95">
+    {t.print}
+  </button>
+
+  <button
+    onClick={user ? handleSaveTrip : handleGoogleLogin}
+    className="bg-green-600 text-white px-6 py-3 rounded-2xl text-[11px] font-black"
+  >
+    {user ? "KAYDET 💾" : "GOOGLE İLE GİRİŞ 🔐"}
+  </button>
+</div>
                 </div>
 
                 <div ref={contentRef} className="p-10 space-y-8">
-                  <div className="h-[400px] w-full rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                    <Map places={itinerary} />
+                  <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-sm border border-gray-100 z-0">
+                    <Map 
+                      key="normal-map" 
+                      places={itinerary} 
+                      onFullscreen={() => setIsMapFullscreen(true)} 
+                      showControls={true} // BURA EKLENDİ
+                    />
                   </div>
 
                   {itinerary.map((item, index) => (
@@ -457,6 +586,75 @@ const reactToPrintFn = useReactToPrint({ contentRef });
           </div>
         </div>
       </section>
-    </main>
+
+      {isMapFullscreen && (
+        <div className="fixed inset-0 z-[99999] bg-black animate-in fade-in duration-200">
+          <div className="w-full h-screen relative overflow-hidden">
+            {/* 👇 İŞTE BURAYA showControls={true} EKLİYORUZ 👇 */}
+            <Map 
+              key="fullscreen-map" 
+              places={itinerary} 
+              showControls={true} 
+            />
+          </div>
+
+          <button
+            onClick={() => setIsMapFullscreen(false)}
+            className="absolute bottom-6 right-6 z-[999999] bg-white text-black px-6 py-3.5 rounded-2xl font-black shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center gap-1 border border-gray-100 text-xs tracking-wider uppercase"
+          >
+            ✕ KAPAT
+          </button>
+        </div>
+      )}
+    {savedUrl && (
+  <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[9999] px-4">
+    <div className="bg-white p-6 rounded-2xl w-full max-w-md space-y-5 shadow-2xl">
+
+      {/* Başlık */}
+      <h2 className="text-xl font-bold text-gray-900">
+        {t.savedTitle}
+      </h2>
+
+      {/* Açıklama */}
+      <p className="text-sm text-gray-500 leading-relaxed">
+        {t.savedDesc}
+      </p>
+
+      {/* Link */}
+      <div className="bg-gray-50 border rounded-xl p-3 break-all text-xs text-gray-700">
+        {savedUrl}
+      </div>
+
+      {/* Butonlar */}
+      <div className="flex gap-2">
+        <button
+          onClick={handleCopy}
+          className="flex-1 bg-blue-600 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-blue-700 transition"
+        >
+          {t.copy}
+        </button>
+
+        <button
+          onClick={handleShareLink}
+          className="flex-1 bg-green-600 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-green-700 transition"
+        >
+          {t.share}
+        </button>
+      </div>
+
+      {/* Kapat */}
+      <button
+        onClick={() => setSavedUrl(null)}
+        className="w-full text-xs text-gray-400 hover:text-gray-600 transition"
+      >
+        {t.close}
+      </button>
+
+    </div>
+  </div>
+)}
+
+  </main>
+
   );
-}
+} 
