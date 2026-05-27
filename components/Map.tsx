@@ -16,6 +16,8 @@ import { divIcon } from "leaflet";
 
 const CLOUDINARY_BASE = `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_fill,w_120,h_120,q_auto,f_auto/`;
 
+const BASE_SITE_URL = "https://www.waylero.com";
+
 function FitBounds({ places }: { places: any[] }) {
   const map = useMap();
 
@@ -232,16 +234,17 @@ export default function Map({
 
         requestTimestampsRef.current.push(now);
 
-        const response = await fetch("/api/route", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ 
-            coordinates: coordinates,
-            orsMode: orsMode 
-          }),
-        });
+       const response = await fetch(`${BASE_SITE_URL}/api/route`, {
+  method: "POST",
+  headers: {
+    "Accept": "application/json", // Güvenliği yumuşatmak için
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ 
+    coordinates: coordinates,
+    orsMode: orsMode 
+  }),
+});
 
         const data = await response.json();
 
