@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.waylero.mobile",
+    "sha256_cert_fingerprints":
+    ["1F:04:C5:06:11:FE:AE:ED:0A:EB:96:DB:5C:6A:F9:0B:E5:C3:6D:14:DE:9E:5E:D8:F5:95:3E:A7:FF:DA:11:C5"]
+  }
+}]
