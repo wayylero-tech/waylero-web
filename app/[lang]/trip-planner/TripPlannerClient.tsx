@@ -67,6 +67,17 @@ const translations = {
   savedDesc: "Bu gezi rotasını görmek istediğin kişilerle paylaşabilir ya da aşağıdaki linki kopyalayıp doğrudan iletebilirsin.",
   copy: "📋 Kopyala",
   close: "Kapat",
+  loginSaveText:
+  "Bu gezi rotasını Google hesabın ile kaydedebilir, istediğin zaman uygulamada tekrar görüntüleyebilirsin.",
+
+saveTripText:
+  "Bu rotayı hesabına kaydederek istediğin zaman uygulamada yeniden görüntüleyebilirsin.",
+
+googleLogin:
+  "GOOGLE İLE GİRİŞ YAP 🔐",
+
+saveTrip:
+  "ROTAYI KAYDET 💾",
 
   },
   en: {
@@ -101,6 +112,17 @@ const translations = {
   savedDesc: "You can share this trip with anyone you want or copy the link below and send it directly.",
   copy: "📋 Copy",
   close: "Close",
+  loginSaveText:
+  "You can save this travel route with your Google account and view it anytime in the app.",
+
+saveTripText:
+  "Save this route to your account and access it anytime in the app.",
+
+googleLogin:
+  "SIGN IN WITH GOOGLE 🔐",
+
+saveTrip:
+  "SAVE ROUTE 💾",
 
   }
 };
@@ -535,17 +557,37 @@ const formatCity = (city: string) => {
               <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 flex flex-col">
                 <div className="p-6 border-b border-gray-50 flex items-center justify-between bg-white/80 backdrop-blur-md sticky top-0 z-10">
                   <h3 className="text-xs font-black text-gray-400 uppercase tracking-[0.2em]">{t.yourRoute}</h3>
-                  <div className="flex gap-2 flex-wrap">
-  <button onClick={() => reactToPrintFn()} className="bg-blue-600 text-white px-6 py-3 rounded-2xl text-[11px] font-black hover:bg-blue-700 transition-all shadow-xl active:scale-95">
-    {t.print}
-  </button>
+                <div className="flex flex-col items-end gap-2">
 
-  <button
-    onClick={user ? handleSaveTrip : handleGoogleLogin}
-    className="bg-green-600 text-white px-6 py-3 rounded-2xl text-[11px] font-black"
-  >
-    {user ? "KAYDET 💾" : "GOOGLE İLE GİRİŞ 🔐"}
-  </button>
+  {!user ? (
+    <>
+      <p className="text-[11px] text-gray-400 font-medium text-right max-w-[260px] leading-relaxed">
+        {t.loginSaveText}
+      </p>
+
+      <button
+        onClick={handleGoogleLogin}
+        className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-2xl text-[11px] font-black transition-all shadow-xl active:scale-95"
+      >
+        {t.googleLogin}
+      </button>
+    </>
+  ) : (
+    <>
+      <p className="text-[11px] text-gray-400 font-medium text-right max-w-[260px] leading-relaxed">
+        {t.saveTripText}
+      </p>
+
+      <button
+        onClick={handleSaveTrip}
+        className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-2xl text-[11px] font-black transition-all shadow-xl active:scale-95"
+      >
+        {t.saveTrip}
+      </button>
+    </>
+  )}
+
+
 </div>
                 </div>
 

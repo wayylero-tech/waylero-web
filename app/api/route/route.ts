@@ -1,36 +1,71 @@
 import { NextResponse } from "next/server";
 
-// Sunucu tarafında çalışan ve API anahtarını gizleyen güvenli köprü
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { coordinates, orsMode } = body;
+    const { coordinates, travelMode } = body;
 
-    // 🛡️ Anahtarımız sunucu içinde güvende, tarayıcı burayı asla göremez
-    const apiKey = process.env.ORS_API_KEY;
+    const apiKey = process.env.MAPBOX_ACCESS_TOKEN;
 
     if (!apiKey) {
-      return NextResponse.json({ error: "API Anahtarı sunucuda bulunamadı!" }, { status: 500 });
+      return NextResponse.json(
+        { error: "Mapbox API key bulunamadı" },
+        { status: 500 }
+      );
     }
 
-    const response = await fetch(
-      `https://api.openrouteservice.org/v2/directions/${orsMode}/geojson`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json; charset=utf-8",
-          Authorization: apiKey,
-        },
-        body: JSON.stringify({ coordinates }),
-      }
-    );
+    // [lng, lat];[lng, lat]
+    const coordinatesString = coordinates
+      .map((coord: [number, number]) => `${coord[0]},${coord[1]}`)
+      .join(";");
+
+    // driving / walking / cycling
+    const profile =
+      travelMode === "walking"
+        ? "walking"
+        : travelMode === "cycling"
+        ? "cycling"
+        : "driving";
+
+    const url = `https://api.mapbox.com/directions/v5/mapbox/${profile}/${coordinatesString}?geometries=geojson&overview=full&steps=false&access_token=${apiKey}`;
+
+    const response = await fetch(url);
 
     const data = await response.json();
-    
-    // ORS'den gelen veriyi doğrudan bizim frontend'e paslıyoruz
-    return NextResponse.json(data, { status: response.status });
+
+    if (!response.ok) {
+      console.error("Mapbox Hatası:", data);
+
+      return NextResponse.json(
+        { error: "Mapbox rota alınamadı" },
+        { status: response.status }
+      );
+    }
+
+    // ORS formatına benzer hale getiriyoruz
+    const adaptedData = {
+      features: [
+        {
+          geometry: {
+            coordinates: data.routes[0].geometry.coordinates,
+          },
+          properties: {
+            summary: {
+              distance: data.routes[0].distance,
+              duration: data.routes[0].duration,
+            },
+          },
+        },
+      ],
+    };
+
+    return NextResponse.json(adaptedData);
   } catch (error) {
-    console.error("Backend rota proxy hatası:", error);
-    return NextResponse.json({ error: "Sunucu hatası oluştu" }, { status: 500 });
+    console.error("Mapbox backend hatası:", error);
+
+    return NextResponse.json(
+      { error: "Sunucu hatası oluştu" },
+      { status: 500 }
+    );
   }
 }

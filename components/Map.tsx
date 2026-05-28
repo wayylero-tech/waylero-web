@@ -229,7 +229,6 @@ export default function Map({
           coordinates = [[userLocation[1], userLocation[0]], ...coordinates];
         }
 
-        const orsMode = travelMode === "driving" ? "driving-car" : travelMode === "walking" ? "foot-walking" : "cycling-regular";
 
         requestTimestampsRef.current.push(now);
 
@@ -239,10 +238,10 @@ export default function Map({
     "Accept": "application/json", // 👈 Sadece bu satır Cloudflare için kalacak
     "Content-Type": "application/json",
   },
-  body: JSON.stringify({ 
-    coordinates: coordinates,
-    orsMode: orsMode 
-  }),
+ body: JSON.stringify({ 
+  coordinates,
+  travelMode
+}),
 });
 
         const data = await response.json();
@@ -336,20 +335,31 @@ export default function Map({
 
           <button
             onClick={() => {
-              lastFetchTimeRef.current = 0;
-              if (!isTripStarted) {
-                // 🚀 GEZİ BAŞLIYOR: Konuma göre mekanları sırala
-                if (userLocation) {
-                  const sorted = sortPlacesByNearestNeighbor(userLocation, places);
-                  setOrderedPlaces(sorted);
-                }
-              } else {
-                // 🛑 GEZİ BİTTİ: Mekanları eski haline döndür
-                lastFetchedLocationRef.current = null;
-                setOrderedPlaces(places);
-              }
-              setIsTripStarted(!isTripStarted);
-            }}
+  lastFetchTimeRef.current = 0;
+
+  if (!isTripStarted) {
+    if (userLocation) {
+      const sorted = sortPlacesByNearestNeighbor(userLocation, places);
+      setOrderedPlaces(sorted);
+    }
+  } else {
+    lastFetchedLocationRef.current = null;
+    setOrderedPlaces(places);
+  }
+
+  const nextState = !isTripStarted;
+
+  setIsTripStarted(nextState);
+
+  // 📱 Mobilde otomatik fullscreen
+  if (
+    nextState &&
+    typeof window !== "undefined" &&
+    window.innerWidth < 768
+  ) {
+    onFullscreen?.();
+  }
+}}
             disabled={(isTripStarted ? false : !userLocation) || isRateLimited}
             className={`px-4 py-3 rounded-xl text-xs font-black shadow-xl uppercase tracking-wider transition-all ${
               isTripStarted
