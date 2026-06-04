@@ -654,9 +654,7 @@
 "antalya-goynuk-kanyonu": [
 "places/turkey/antalya/goynuk-kanyonu/goynuk-kanyonu_1779358940508_0.1737971414608952"
 ],
-"antalya-kapuz-kanyonu": [
-"places/turkey/antalya/kapuz-kanyonu/kapuz-kanyonu_1779358990940_0.9475582845720882"
-],
+
 "antalya-kaputas-plaji": [
 
 
@@ -1662,9 +1660,30 @@
     },
 "ordu": {
       "ordu-boztepe": [
-"places/turkey/ordu/boztepe/boztepe_1779551260742_0.4537965039537415"
+"places/turkey/ordu/boztepe/boztepe_1780432720396_0.996218939077793",
+"places/turkey/ordu/boztepe/boztepe_1780432716836_0.3654832168604054",
+"places/turkey/ordu/boztepe/boztepe_1780432714076_0.9445238097616661",
+"places/turkey/ordu/boztepe/boztepe_1780432711237_0.8649005545540448",
+"places/turkey/ordu/boztepe/boztepe_1780432708787_0.5033941026477812",
+"places/turkey/ordu/boztepe/boztepe_1780432705572_0.23669578237395072"
 
-      ]
+      ],
+      "ordu-karaoluk-ciseli-selalesi": [
+"places/turkey/ordu/karaoluk-ciseli-selalesi/karaoluk-ciseli-selalesi_1780434216818_0.2158905369043237"
+ ],
+      "ordu-yason-burnu": [
+"places/turkey/ordu/yason-burnu/yason-burnu_1780433852847_0.3892000824388657",
+"places/turkey/ordu/yason-burnu/yason-burnu_1780433849009_0.5125323899490785",
+"places/turkey/ordu/yason-burnu/yason-burnu_1780433843298_0.3244908947348255",
+"places/turkey/ordu/yason-burnu/yason-burnu_1780433839950_0.954362703296504",
+"places/turkey/ordu/yason-burnu/yason-burnu_1780433829876_0.7799271183239621",
+"places/turkey/ordu/yason-burnu/yason-burnu_1780433824290_0.5704523181025826"
+
+      ],
+         "ordu-persembe-yaylasi": [
+"places/turkey/ordu/persembe-yaylasi/persembe-yaylasi_1780434107696_0.723809762467522",
+"places/turkey/ordu/persembe-yaylasi/persembe-yaylasi_1780434105139_0.8290277023020953"
+ ]
     },
 "manisa": {
       "manisa-sardes-antik-kenti": [

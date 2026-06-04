@@ -1,11 +1,12 @@
 // videos.ts
 export const wayleroLiveVideos = [
-{ 
-  id: 27, 
-  title: "Çatalhöyük", 
-  youtubeId: "ir21dkVWNDQ",
+  { 
+  id: 33, 
+  title: "Göksu Yerköprü Şelalesi", 
+  youtubeId: "oOqcc_kRjUs",
   location: "Konya, Türkiye"
 },
+
 { 
   id: 28, 
   title: "Kibyra Antik Kenti Tholos Nymphaeum ", 
@@ -15,14 +16,21 @@ export const wayleroLiveVideos = [
 { 
   id: 31, 
   title: "Sagalassos Antoninler Çeşmesi", 
-  youtubeId: "K7trrH0qu5Y",
+  youtubeId: "36LV1nJEgDw",
   location: "Burdur, Türkiye"
 },
+
 { 
   id: 29, 
   title: "Kibyra Antik Kenti Medusa Mozaiği", 
   youtubeId: "k1zIYCkKbms",
   location: "Burdur, Türkiye"
+},
+{ 
+  id: 27, 
+  title: "Çatalhöyük", 
+  youtubeId: "ir21dkVWNDQ",
+  location: "Konya, Türkiye"
 },
 { 
   id: 32, 

@@ -9,18 +9,18 @@ const BASE_URL = "https://www.waylero.com";
 
 // Global içerik yönetimi
 const content = {
-  tr: {
-    title: "En İyi Oteller ve Konaklama Seçenekleri | Waylero",
-    description: "Dünya genelindeki en popüler destinasyonlarda en iyi otelleri keşfedin ve güvenle rezervasyon yapın.",
-    path: "/hotels",
-    locale: "tr_TR",
-  },
-  en: {
-    title: "Best Hotels & Accommodations | Waylero",
-    description: "Discover and book the best hotels in top destinations worldwide with Waylero.",
-    path: "/en/hotels",
-    locale: "en_US",
-  },
+ tr: {
+  title: "En İyi Oteller ve Konaklama Seçenekleri | Waylero",
+  description: "Dünya genelindeki en popüler destinasyonlarda en iyi otelleri keşfedin ve güvenle rezervasyon yapın.",
+  path: "/tr/hotels",
+  locale: "tr_TR",
+},
+en: {
+  title: "Best Hotels & Accommodations | Waylero",
+  description: "Discover and book the best hotels in top destinations worldwide with Waylero.",
+  path: "/en/hotels",
+  locale: "en_US",
+},
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

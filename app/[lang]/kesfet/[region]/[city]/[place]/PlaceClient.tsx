@@ -9,7 +9,7 @@ const BASE_URL = "https://www.waylero.com";
 
 export default function PlaceClient({ lang, region, city, place, foundPlace, images, nearbyPlaces }: any) {
   const isEn = lang === "en";
-  const langPrefix = isEn ? "/en" : "";
+const langPrefix = lang === "en" ? "/en" : "/tr";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${langPrefix}/kesfet/${region}/${city}/${place}`;
 

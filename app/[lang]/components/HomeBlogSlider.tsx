@@ -19,7 +19,7 @@ export default function HomeBlogSlider() {
   };
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {posts
         .sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)))
         .slice(0, 4)

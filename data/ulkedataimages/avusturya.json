@@ -44,5 +44,156 @@
       "places/europa/viyana/viyana-viyana-donau/vnwwg84d3jnhe3or1b2v",
       "places/europa/viyana/viyana-viyana-donau/fcygxyrtimwaqb8mqovk"
     ]
+  },
+  "bregenz": {
+    "bregenz-bodensee-golu": [
+      "places/europa/avusturya/bodensee-golu/bodensee-golu_1780563214279_0.6105594044035346",
+      "places/europa/avusturya/bodensee-golu/bodensee-golu_1780563217484_0.2994833975783757",
+      "places/europa/avusturya/bodensee-golu/bodensee-golu_1780563220132_0.8521710881929586",
+      "places/europa/avusturya/bodensee-golu/bodensee-golu_1780563221882_0.7726740786313852",
+      "places/europa/avusturya/bodensee-golu/bodensee-golu_1780563223767_0.6893475381857117"
+    ],
+    "bregenz-bregenz-festivali": [
+      "places/europa/avusturya/bregenz-festivali/bregenz-festivali_1780563350839_0.9705871487482519",
+      "places/europa/avusturya/bregenz-festivali/bregenz-festivali_1780563355381_0.07462915402039816"
+    ]
+  },
+  "graz": {
+    "graz-schlossberg-tepesi": [
+      "places/europa/avusturya/schlossberg-tepesi/schlossberg-tepesi_1780563463271_0.617973087033123",
+      "places/europa/avusturya/schlossberg-tepesi/schlossberg-tepesi_1780563465786_0.44325337366616646",
+      "places/europa/avusturya/schlossberg-tepesi/schlossberg-tepesi_1780563470683_0.5360464702528935"
+    ],
+    "graz-murinsel": [
+      "places/europa/avusturya/murinsel/murinsel_1780563543152_0.6892642584829966",
+      "places/europa/avusturya/murinsel/murinsel_1780563546203_0.26642777464426104",
+      "places/europa/avusturya/murinsel/murinsel_1780563548704_0.02769067494693933",
+      "places/europa/avusturya/murinsel/murinsel_1780563550505_0.20014678446577427",
+      "places/europa/avusturya/murinsel/murinsel_1780563557557_0.6102374336487333",
+      "places/europa/avusturya/murinsel/murinsel_1780563558959_0.6195594113852939"
+    ],
+    "graz-eski-sehir-altstadt": [
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563667832_0.4330301295923147",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563674591_0.06268591111312838",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563681327_0.3208273707716591",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563686710_0.6472719074389934"
+    ]
+  },
+  "innsbruck": {
+    "innsbruck-eski-sehir-altstadt": [
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563667832_0.4330301295923147",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563674591_0.06268591111312838",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563678504_0.8320602903563835",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563681327_0.3208273707716591",
+      "places/europa/avusturya/eski-sehir-altstadt/eski-sehir-altstadt_1780563686710_0.6472719074389934"
+    ],
+    "innsbruck-hofkirche": [
+      "places/europa/avusturya/hofkirche/hofkirche_1780563902400_0.7862794616286151",
+      "places/europa/avusturya/hofkirche/hofkirche_1780563905586_0.30716196871526746",
+      "places/europa/avusturya/hofkirche/hofkirche_1780563909791_0.7957588387096832",
+      "places/europa/avusturya/hofkirche/hofkirche_1780563913916_0.76304552598534",
+      "places/europa/avusturya/hofkirche/hofkirche_1780563916540_0.44090055677336115"
+    ]
+  },
+  "niederosterreich": {
+    "niederosterreich-wachau-vadisi": [
+      "places/europa/avusturya/wachau-vadisi/wachau-vadisi_1780564008472_0.689104113104805",
+      "places/europa/avusturya/wachau-vadisi/wachau-vadisi_1780564012386_0.1960817565045384",
+      "places/europa/avusturya/wachau-vadisi/wachau-vadisi_1780564017929_0.6260184208982669",
+      "places/europa/avusturya/wachau-vadisi/wachau-vadisi_1780564023181_0.5811313379236221"
+    ],
+    "niederosterreich-melk-manastiri": [
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568443573_0.3116273180700715",
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568447187_0.5966934104424778",
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568453960_0.7202251667671761",
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568458025_0.7445043546863747",
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568462021_0.366438394628287",
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568465391_0.5833165979070251",
+      "places/europa/avusturya/melk-manastiri/melk-manastiri_1780568469129_0.4636776617215992"
+    ],
+    "niederosterreich-krems-an-der-donau": [
+      "places/europa/avusturya/krems-an-der-donau/krems-an-der-donau_1780568613829_0.6418059800952888",
+      "places/europa/avusturya/krems-an-der-donau/krems-an-der-donau_1780568620161_0.3473576916524044",
+      "places/europa/avusturya/krems-an-der-donau/krems-an-der-donau_1780568626314_0.10705286928258373",
+      "places/europa/avusturya/krems-an-der-donau/krems-an-der-donau_1780568629394_0.6567910203871759"
+    ],
+    "niederosterreich-gumpoldskirchen": [
+      "places/europa/avusturya/gumpoldskirchen/gumpoldskirchen_1780568882277_0.0978763809996741",
+      "places/europa/avusturya/gumpoldskirchen/gumpoldskirchen_1780568892911_0.43013742560742296",
+      "places/europa/avusturya/gumpoldskirchen/gumpoldskirchen_1780568900117_0.6872525209749851",
+      "places/europa/avusturya/gumpoldskirchen/gumpoldskirchen_1780568904216_0.10177165050350478",
+      "places/europa/avusturya/gumpoldskirchen/gumpoldskirchen_1780568906827_0.23746038019463156"
+    ]
+  },
+  "oberosterreich": {
+    "oberosterreich-hallstatt": [
+      "places/europa/avusturya/hallstatt/hallstatt_1780569589118_0.9481368656804424",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569592776_0.2875442419832036",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569599569_0.43431746455446074",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569604240_0.4654648026511071",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569608742_0.8141071419623485",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569613240_0.5741293928243613",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569614736_0.12998239970681702",
+      "places/europa/avusturya/hallstatt/hallstatt_1780569616238_0.9323198824734673"
+    ],
+    "oberosterreich-skywalk": [
+      "places/europa/avusturya/skywalk/skywalk_1780569832438_0.6708596873734985"
+    ],
+    "oberosterreich-linz": [
+      "places/europa/avusturya/linz/linz_1780569891998_0.7528998842029762",
+      "places/europa/avusturya/linz/linz_1780569897688_0.4275735680613335",
+      "places/europa/avusturya/linz/linz_1780569903530_0.7093702669969723",
+      "places/europa/avusturya/linz/linz_1780569907508_0.10437821984214823",
+      "places/europa/avusturya/linz/linz_1780569908922_0.4374739744419953"
+    ],
+    "oberosterreich-wolfgangsee": [
+      "places/europa/avusturya/wolfgangsee/wolfgangsee_1780569994334_0.40173225984573135",
+      "places/europa/avusturya/wolfgangsee/wolfgangsee_1780570001061_0.6304901270207046",
+      "places/europa/avusturya/wolfgangsee/wolfgangsee_1780570012992_0.4972998256383534"
+    ]
+  },
+  "salzburg": {
+    "salzburg-krimml-selaleleri": [
+      "places/europa/avusturya/krimml-selaleleri/krimml-selaleleri_1780570156022_0.684921971863076",
+      "places/europa/avusturya/krimml-selaleleri/krimml-selaleleri_1780570163937_0.9796867273587507",
+      "places/europa/avusturya/krimml-selaleleri/krimml-selaleleri_1780570173958_0.5429206343862519",
+      "places/europa/avusturya/krimml-selaleleri/krimml-selaleleri_1780570177297_0.4746725652465088"
+    ],
+    "salzburg-zeller-golu": [
+      "places/europa/avusturya/zeller-golu/zeller-golu_1780570276558_0.8392033625448797",
+      "places/europa/avusturya/zeller-golu/zeller-golu_1780570282230_0.8496049202201451"
+    ],
+    "salzburg-kaprun-buzulu": [
+      "places/europa/avusturya/kaprun-buzulu/kaprun-buzulu_1780570361127_0.6587281895549577",
+      "places/europa/avusturya/kaprun-buzulu/kaprun-buzulu_1780570376929_0.6582209640587903"
+    ],
+    "salzburg-hohensalzburg-kalesi": [
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570477543_0.5439069838354212",
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570486393_0.5182504437408973",
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570496595_0.19206741279150064",
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570500082_0.4127914503098983",
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570503655_0.20072348989085564",
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570507093_0.26192202006042953",
+      "places/europa/avusturya/hohensalzburg-kalesi/hohensalzburg-kalesi_1780570510163_0.4275657478517939"
+    ],
+    "salzburg-mirabell-sarayi-ve-bahceleri": [
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570587023_0.7653827239803276",
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570594822_0.04260782994508783",
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570599598_0.09709880886861744",
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570605357_0.22705704503648894",
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570608863_0.9089132396288979",
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570612912_0.37533445095378803",
+      "places/europa/avusturya/mirabell-sarayi-ve-bahceleri/mirabell-sarayi-ve-bahceleri_1780570617940_0.8785938062333813"
+    ]
+  },
+  "seefeld": {
+    "seefeld-seefeld-in-tirol": [
+      "places/europa/avusturya/seefeld-in-tirol/seefeld-in-tirol_1780570849720_0.19272814023624107",
+      "places/europa/avusturya/seefeld-in-tirol/seefeld-in-tirol_1780570860358_0.5678521560263529",
+      "places/europa/avusturya/seefeld-in-tirol/seefeld-in-tirol_1780570867072_0.40564101645683626",
+      "places/europa/avusturya/seefeld-in-tirol/seefeld-in-tirol_1780570877260_0.28325001069994515",
+      "places/europa/avusturya/seefeld-in-tirol/seefeld-in-tirol_1780570879342_0.1089124276536807",
+      "places/europa/avusturya/seefeld-in-tirol/seefeld-in-tirol_178057084267_0.22786226749987637"
+    ]
   }
 }
