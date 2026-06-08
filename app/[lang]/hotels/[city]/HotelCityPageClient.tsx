@@ -18,69 +18,68 @@ export default function HotelCityPageClient({
   const cityLinks: {
     [key: string]: {
       booking?: string;
-      tripadvisor?: string;
+      hotels?: string;
     };
   } = {
     tumsehirler: {
-      tripadvisor: "https://tripadvisor.tp.st/RJ9OjisP",
       booking: "https://booking.tp.st/Zaseqksp",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     istanbul: {
       booking: "https://booking.tp.st/ZtWXbtwj",
-      tripadvisor: "https://tripadvisor.tp.st/v8WrkVTr",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     nevsehir: {
-      tripadvisor: "https://tripadvisor.tp.st/h6mtmF4w",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     antalya: {
       booking: "https://booking.tp.st/3YML2Z43",
-      tripadvisor: "https://tripadvisor.tp.st/NviPGJhh",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     izmir: {
-      tripadvisor: "https://tripadvisor.tp.st/ueIpVJo2",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     mugla: {
-      tripadvisor: "https://tripadvisor.tp.st/GvhXTKhE",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     aydin: {
-      tripadvisor: "https://tripadvisor.tp.st/s2QQf7A3",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     trabzon: {
-      tripadvisor: "https://tripadvisor.tp.st/jvSD2sg4",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
- 
-     edirne: {
-      tripadvisor: "https://tripadvisor.tp.st/up96dTI6",
+
+    edirne: {
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
-    
 
     bangkok: {
-      tripadvisor: "https://tripadvisor.tp.st/F9dnmaGA",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     paris: {
       booking: "https://booking.tp.st/JoXA9ovm",
-      tripadvisor: "https://tripadvisor.tp.st/60JEEuZU",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     londra: {
-      tripadvisor: "https://tripadvisor.tp.st/e7NzLpAo",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     dubai: {
-      tripadvisor: "https://tripadvisor.tp.st/he3oWia1",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
 
     roma: {
       booking: "https://booking.tp.st/vs4oDzlc",
-      tripadvisor: "https://tripadvisor.tp.st/rXCUDzxj",
+      hotels: "https://hotels.tp.st/QM5SvNxc",
     },
   };
 
@@ -96,7 +95,6 @@ export default function HotelCityPageClient({
       : city.charAt(0).toUpperCase() + city.slice(1);
 
   const hotel = cityHotels?.[0];
-
   const links = cityLinks[city.toLowerCase()] || {};
 
   return (
@@ -128,7 +126,7 @@ export default function HotelCityPageClient({
             className={`
               grid gap-10 mx-auto
               ${
-                links.booking && links.tripadvisor
+                links.booking && links.hotels
                   ? "grid-cols-1 lg:grid-cols-2 max-w-7xl"
                   : "grid-cols-1 max-w-4xl"
               }
@@ -145,14 +143,14 @@ export default function HotelCityPageClient({
               />
             )}
 
-            {/* TRIPADVISOR CARD */}
-            {links.tripadvisor && (
+            {/* HOTELS CARD */}
+            {links.hotels && (
               <HotelCard
                 {...hotel}
                 city={city}
                 lang={lang}
-                provider="tripadvisor"
-                link={links.tripadvisor}
+                provider="hotels"
+                link={links.hotels}
               />
             )}
           </div>

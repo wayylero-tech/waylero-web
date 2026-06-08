@@ -1,9 +1,12 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "app.waylero.mobile",
-    "sha256_cert_fingerprints":
-    ["1F:04:C5:06:11:FE:AE:ED:0A:EB:96:DB:5C:6A:F9:0B:E5:C3:6D:14:DE:9E:5E:D8:F5:95:3E:A7:FF:DA:11:C5"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.waylero.mobile",
+       "sha256_cert_fingerprints": [
+        "85:C8:2F:75:10:CF:7E:84:7C:53:6E:2D:D3:50:BF:EC:EC:8F:F0:83:78:61:13:74:31:E0:1E:B5:C1:FC:F5:34"
+      ]
+    }
   }
-}]
+]

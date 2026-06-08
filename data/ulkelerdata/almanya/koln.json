@@ -134,50 +134,53 @@
       "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hohenzollernbr%C3%BCcke_mit_Locks_und_K%C3%B6lner_Dom_%28Z%C3%BCge%29.jpg"
     ]
   },
-  {
-    "slug": "koln-muzesi",
-    "name": {
-      "tr": "Köln Müzesi",
-      "en": "Cologne Museum",
-      "de": "Kölner Museum"
-    },
-    "latitude": 50.9433,
-    "longitude": 6.9607,
-    "description": {
-    "tr": "Köln Müze kültürü, şehrin 2000 yıllık köklü geçmişini Roma döneminden modern sanatın zirvesine kadar uzanan geniş bir yelpazede sunar. Köln'ü ziyaret edenler için 'Köln Müzesi' kavramı aslında birden fazla dünya çapında kurumu kapsar. Bunların başında gelen Roma-Germen Müzesi (Römisch-Germanisches Museum), katedralin hemen yanında yer alır ve şehrin üzerine kurulduğu antik Roma yerleşkesi 'Colonia Claudia Ara Agrippinensium' dönemine ait paha biçilemez eserlere ev sahipliği yapar. Müzenin en dikkat çekici parçası, MS 220 yılına tarihlenen ve orijinal yerinde korunan 70 metrekarelik muazzam Dionysos Mozaiği'dir. Bu mozaik, bir Roma villasının yemek odasını süsleyen binlerce küçük taşın bir araya gelmesiyle oluşmuştur ve antik dünyanın günlük yaşamına dair büyüleyici ipuçları sunar.\n\nŞehrin kendi biyografisini merak edenler için ise Köln Şehir Müzesi (Kölnisches Stadtmuseum), Orta Çağ'dan günümüze Köln'ün sosyal, ekonomik ve siyasi evrimini belgeler. Müze, meşhur Köln Karnavalı'nın kökenlerinden, şehrin Fransız ve Prusya dönemlerine, İkinci Dünya Savaşı'ndaki büyük yıkımdan 'Ekonomik Mucize' (Wirtschaftswunder) yıllarına kadar her dönemi detaylı bir şekilde işler. Müze koleksiyonunda sadece tarihi belgeler değil, aynı zamanda şehrin sembolü haline gelmiş yerel zanaat ürünleri ve Köln'e özgü Kölsch birası kültürünün gelişimini anlatan sergiler de yer alır.\n\nSanatseverler için ise Köln, Avrupa'nın en önemli duraklarından biridir. Wallraf-Richartz Müzesi, Orta Çağ'dan 20. yüzyılın başına kadar uzanan klasik sanat eserleriyle (özellikle Rembrandt ve Rubens gibi ustalarla) dikkat çekerken, Müze Ludwig (Museum Ludwig) modern sanatın kalesidir. Müze Ludwig, Picasso'nun Avrupa'daki en geniş koleksiyonlarından birine ve dünyadaki en önemli Pop Art koleksiyonlarından birine sahiptir. Ayrıca, kokunun tarihine yolculuk yapmak isteyenler için Farina Parfüm Müzesi (Eau de Cologne'un doğduğu yer) veya tatlı bir mola vermek isteyenler için Çikolata Müzesi (Schokoladenmuseum) gibi tematik müzeler de şehrin kültürel dokusunu zenginleştirir. Köln'deki müzeler, sadece birer sergi alanı değil, aynı zamanda Ren bölgesinin hoşgörülü, neşeli ve derinlemesine köklü kimliğini anlamak için açılan pencerelerdir. Her bir müze, ziyaretçilerine bu antik kentin katmanlarını tek tek keşfetme imkanı tanır.",
-    "en": "The museum landscape of Cologne offers a magnificent journey through 2,000 years of history, stretching from the city's Roman origins to the very pinnacle of modern art. When visitors speak of the 'Cologne Museum,' they are often referring to a network of world-class institutions that preserve the city's dual identity as both an ancient Roman colony and a contemporary cultural hub. Foremost among these is the Romano-Germanic Museum (Römisch-Germanisches Museum), located directly adjacent to the cathedral. It is built atop the remains of an original Roman villa and houses the world-famous Dionysus Mosaic, dating back to 220 AD. This 70-square-meter masterpiece, consisting of millions of tiny tiles, remains in its original location and provides a breathtaking glimpse into the luxury and artistic sophistication of Roman life in the Rhineland.\n\nFor those seeking to understand the soul of the city itself, the Cologne City Museum (Kölnisches Stadtmuseum) serves as the official biographer of the metropolis. It meticulously documents Cologne’s evolution from a medieval powerhouse to a modern industrial leader. The museum explores the origins of the world-famous Cologne Carnival, the city’s complex relationship with French and Prussian rulers, the devastating impact of World War II, and the triumphant years of the 'Economic Miracle' (Wirtschaftswunder). Beyond historical documents, the collection features authentic artifacts of local craftsmanship and exhibitions dedicated to the unique Kölsch beer culture, which is synonymous with the city's identity.\n\nArt enthusiasts find Cologne to be one of Europe’s most essential destinations. While the Wallraf-Richartz Museum boasts an impressive collection of classical works from the Middle Ages to the early 20th century—including masterpieces by Rubens and Rembrandt—Museum Ludwig stands as a beacon of the avant-garde. Museum Ludwig holds one of the most extensive Picasso collections in Europe and one of the world's most significant assemblies of Pop Art. Furthermore, the city offers specialized thematic experiences, such as the Farina Fragrance Museum, where the original Eau de Cologne was born, and the immensely popular Chocolate Museum (Schokoladenmuseum) on the Rhine. These institutions are not merely galleries but gateways into the tolerant, spirited, and deeply rooted character of the Rhineland. Each museum allows visitors to peel back the historical layers of this ancient Roman city, making it a premier destination for cultural exploration."
-  ,
-      "de": "Das Kölner Museum ist ein großartiger Ort, um die Geschichte und Kunst der Stadt zu entdecken. Das Museum zeigt eine umfangreiche Sammlung von Werken aus antiken bis modernen Zeiten.\n"
-    },
-    "activities": {
-      "tr": [
-        "Sanat galerisi ziyareti",
-        "Tarih keşfi"
-      ],
-      "en": [
-        "Art gallery visit",
-        "History exploration"
-      ],
-      "de": [
-        "Kunstgalerie besuchen",
-        "Geschichte entdecken"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "müze"
-      ],
-      "en": [
-        "museum"
-      ],
-      "de": [
-        "museum"
-      ]
-    },
-    "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/e/ec/K%C3%B6ln_Museum.jpg"
+ 
+{
+  "slug": "cikolata-muzesi",
+  "name": {
+    "tr": "Çikolata Müzesi",
+    "en": "Chocolate Museum",
+    "de": "Schokoladenmuseum"
+  },
+  "latitude": 50.9309,
+  "longitude": 6.9646,
+  "description": {
+    "tr": "Çikolata Müzesi, Almanya'nın Köln şehrinde Ren Nehri kıyısında yer alan ve dünyanın en popüler çikolata müzelerinden biri olarak kabul edilen önemli bir kültürel cazibe merkezidir. Müze, kakao çekirdeğinin tropikal plantasyonlardan başlayarak modern çikolata üretimine kadar uzanan yolculuğunu ziyaretçilere interaktif sergilerle anlatır. İçerisinde çalışan bir çikolata fabrikası, dev çikolata çeşmesi ve çeşitli tadım alanları bulunmaktadır. Her yıl yüz binlerce ziyaretçiyi ağırlayan müze, Köln'ün en çok ziyaret edilen turistik noktalarından biridir.",
+    "en": "The Chocolate Museum is one of the most popular museums in Germany, located on the banks of the Rhine River in Cologne. It presents the journey of cocoa beans from tropical plantations to modern chocolate production through interactive exhibitions. Visitors can explore a functioning chocolate factory, a giant chocolate fountain, and various tasting stations. Welcoming hundreds of thousands of visitors each year, it is one of Cologne's most visited tourist attractions.",
+    "de": "Das Schokoladenmuseum befindet sich am Rheinufer in Köln und zählt zu den bekanntesten Schokoladenmuseen der Welt. Es zeigt den Weg der Kakaobohne von tropischen Plantagen bis zur modernen Schokoladenproduktion. Besucher können eine funktionierende Schokoladenfabrik, einen großen Schokoladenbrunnen und verschiedene Verkostungsbereiche erleben. Das Museum gehört zu den meistbesuchten Sehenswürdigkeiten Kölns."
+  },
+  "activities": {
+    "tr": [
+      "Çikolata yapım sürecini keşfetme",
+      "Çikolata tadımı yapma",
+      "Müze sergilerini gezme"
+    ],
+    "en": [
+      "Explore chocolate production",
+      "Taste chocolate",
+      "Visit museum exhibitions"
+    ],
+    "de": [
+      "Schokoladenherstellung entdecken",
+      "Schokolade probieren",
+      "Museumsausstellungen besuchen"
     ]
   },
+  "categories": {
+    "tr": [
+      "müze"
+    ],
+    "en": [
+      "museum"
+    ],
+    "de": [
+      "museum"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/5/50/Schokoladenmuseum_Koeln.jpg"
+  ]
+},
   {
     "slug": "ludwig-muzesi",
     "name": {

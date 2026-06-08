@@ -19,7 +19,7 @@ export default function HomeBlogSlider() {
   };
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-8 p-2">
       {posts
         .sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)))
         .slice(0, 4)
@@ -40,9 +40,10 @@ export default function HomeBlogSlider() {
             <Link
               key={`${post.slug}-${i}`}
               href={localizedHref}
-              className="group w-full h-[750px] rounded-[2.5rem] overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 flex flex-col"
+              className="group w-full rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 flex flex-col"
             >
-              <div className="h-150 overflow-hidden rounded-t-[2.5rem]">
+              {/* Resim Alanı (Yatay/Dikey dengesi aspect-ratio ile sağlandı) */}
+              <div className="aspect-[3/4] sm:aspect-[4/5] md:aspect-square overflow-hidden rounded-t-[1.5rem] md:rounded-t-[2.5rem]">
                 <img
                   src={post.image}
                   alt={displayTitle}
@@ -52,11 +53,12 @@ export default function HomeBlogSlider() {
                 />
               </div>
 
-              <div className="p-6 flex-1 flex flex-col justify-center">
-                <h3 className="font-bold text-gray-900 text-base line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors">
+              {/* Metin Alanı (Mobil ve PC için padding/font boyutları optimize edildi) */}
+              <div className="p-3 md:p-6 flex-1 flex flex-col justify-start">
+                <h3 className="font-bold text-gray-900 text-xs md:text-base line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors">
                   {displayTitle}
                 </h3>
-                <p className="text-xs text-gray-500 mt-3 line-clamp-3 leading-relaxed">
+                <p className="text-[10px] md:text-xs text-gray-500 mt-1.5 md:mt-3 line-clamp-2 md:line-clamp-3 leading-relaxed">
                   {displayExcerpt}
                 </p>
               </div>

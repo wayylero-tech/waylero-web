@@ -73,24 +73,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function Page({ params }: Props) {
-  const { lang } = await params; // ✅ Dili buradan çekiyoruz
+  const { lang } = await params;
   const currentLang = lang === "en" ? "en" : "tr";
   const videos = addSlugs(wayleroLiveVideos);
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "name":
+      currentLang === "tr"
+        ? "Waylero Videoları"
+        : "Waylero Videos",
     "itemListElement": videos.map((video, index) => ({
       "@type": "ListItem",
       "position": index + 1,
-      "item": {
-        "@type": "VideoObject",
-        "name": video.title,
-        "description": currentLang === "tr" 
-          ? `${video.title} - Waylero özel çekimler.`
-          : `${video.title} - Waylero exclusive footage.`,
-        "thumbnailUrl": `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`,
-      }
+      "url": `https://www.waylero.com${
+        currentLang === "en" ? "/en" : ""
+      }/videolar/${video.slug}`
     }))
   };
 
@@ -100,8 +99,11 @@ export default async function Page({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* ✅ Client tarafına temiz temiz gönderiyoruz */}
-      <VideolarClientPage lang={currentLang} initialVideos={videos} />
+
+      <VideolarClientPage
+        lang={currentLang}
+        initialVideos={videos}
+      />
     </>
   );
 }

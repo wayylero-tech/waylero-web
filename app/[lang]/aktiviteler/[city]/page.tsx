@@ -64,25 +64,36 @@ async function fetchEvents(
 ) {
   try {
     const params = new URLSearchParams();
+
     params.append("city_ids", cityId.toString());
+
     if (startDate) params.append("start_gte", startDate);
     if (endDate) params.append("end_lte", endDate);
+
     params.append("take", "50");
     params.append("lang", lang);
 
-    const res = await fetch(
-      `${BASE_SITE_URL}/api/events?${params.toString()}`,
-      {
-        next: { revalidate: 86400 },
-        headers: { Accept: "application/json" },
-      }
-    );
+    const finalUrl = `${BASE_SITE_URL}/api/events?${params.toString()}`;
 
-    if (!res.ok) return [];
+    const res = await fetch(finalUrl, {
+      next: { revalidate: 21600 },
+      headers: {
+        Accept: "application/json",
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      },
+    });
+
+    if (!res.ok) {
+      console.error("API Hatası:", res.status, finalUrl);
+      return [];
+    }
+
     const data = await res.json();
-    return data.items || data.data || [];
-  } catch (e) {
-    console.error(e);
+
+    return data.items || data.data || (Array.isArray(data) ? data : []);
+  } catch (err) {
+    console.error("Fetch Hatası:", err);
     return [];
   }
 }

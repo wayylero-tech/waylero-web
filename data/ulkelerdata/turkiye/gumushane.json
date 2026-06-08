@@ -42,53 +42,7 @@
       "https://example.com/karaca_magara.jpg"
     ]
   },
-  {
-    "slug": "kov-kalesi",
-    "name": {
-      "tr": "Kov Kalesi",
-      "en": "Kov Castle",
-      "de": "Kov Burg"
-    },
-    "latitude": 40.37002,
-    "longitude": 39.54847,
-    "description": {
-      "tr": "Kov Kalesi, Gümüşhane il merkezinin 22 km güneydoğusunda, Esenyurt Köyü sınırlarında bulunan tarihi bir kaledir. 130 metre yüksekliğindeki bir kaya kütlesi üzerine inşa edilmiş olup, deniz seviyesinden yüksekliği 1.760 metredir. Kalenin doğu-batı yönündeki uzunluğu yaklaşık 70 metredir.\n\nKale, 1361 yılında Trabzon İmparatoru III. Aleksios tarafından, Bayburt bölgesinden gelen akınlara karşı savunma amacıyla yaptırılmıştır. Selçuklu döneminde de kullanıldığı bilinen Kov Kalesi, stratejik konumu sayesinde tarih boyunca önemli bir savunma noktası olmuştur.\n\nMimari yapısı itibarıyla kale, iç ve dış surlardan oluşmaktadır. İç duvarları 90 cm, dış duvarları ise 150 cm kalınlığındadır. Dış duvarların köşelerinde düzgün yontma taşlar kullanılmış, iç kalenin güney cephesinde ise moloz taşlar tercih edilmiştir. Hem iç hem de dış kalenin yüzeyi kireç ve kum karışımıyla sağlamlaştırılmıştır. Sur duvarları, köşeli, üçgen ve yuvarlak burçlarla desteklenmiştir.\n\n2007 yılında restorasyon çalışmaları yapılan Kov Kalesi, günümüzde turistik ziyaretler için uygundur.\n",
-      "en": "Kov Castle is a historical fortress located 22 km southeast of Gümüşhane city center, within the borders of Esenyurt Village. Built on a rock mass 130 meters high, the castle stands at an altitude of 1,760 meters above sea level. The east-west length of the castle is approximately 70 meters.\n\nThe castle was built in 1361 by Emperor Alexios III of Trebizond to defend against raids from the Bayburt region. It was also used during the Seljuk period and remained an important defensive structure throughout history due to its strategic location.\n\nArchitecturally, the castle consists of inner and outer walls. The inner walls are 90 cm thick, while the outer walls are 150 cm thick. The corners of the outer walls are reinforced with finely cut stones, while the southern facade of the inner castle is built with rubble stones. Both the inner and outer walls were strengthened with a mixture of lime and sand. The defensive walls feature angular, triangular, and round bastions.\n\nRestored in 2007, Kov Castle is now open for tourists to visit.\n",
-      "de": "Die Kov-Burg ist eine historische Festung, die 22 km südöstlich des Stadtzentrums von Gümüşhane im Gebiet des Dorfes Esenyurt liegt. Die Burg wurde auf einem 130 Meter hohen Felsen errichtet und liegt auf einer Höhe von 1.760 Metern über dem Meeresspiegel. Ihre Ost-West-Länge beträgt etwa 70 Meter.\n\nDie Burg wurde 1361 vom Kaiser Alexios III. von Trapezunt zum Schutz gegen Angriffe aus der Region Bayburt errichtet. Sie wurde auch während der Seldschukenzeit genutzt und blieb aufgrund ihrer strategischen Lage eine wichtige Verteidigungsanlage.\n\nArchitektonisch besteht die Burg aus inneren und äußeren Mauern. Die inneren Mauern sind 90 cm dick, während die äußeren Mauern 150 cm dick sind. Die Ecken der Außenmauern sind mit fein bearbeiteten Steinen verstärkt, während die südliche Fassade der inneren Burg aus Bruchsteinen besteht. Sowohl die Innen- als auch die Außenmauern wurden mit einer Mischung aus Kalk und Sand verstärkt. Die Verteidigungsmauern verfügen über eckige, dreieckige und runde Bastionen.\n\nDie Kov-Burg wurde 2007 restauriert und ist heute für Touristen zugänglich.\n"
-    },
-    "activities": {
-      "tr": [
-        "Tarihi keşif yapmak",
-        "Manzarayı izlemek",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Exploring history",
-        "Enjoying the view",
-        "Taking photographs"
-      ],
-      "de": [
-        "Historische Erkundung",
-        "Die Aussicht genießen",
-        "Fotografieren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/kov_kalesi.jpg",
-      "https://example.com/kov_kalesi_2.jpg"
-    ]
-  },
+  
   {
     "slug": "metropolitan-rum-kilisesi",
     "name": {

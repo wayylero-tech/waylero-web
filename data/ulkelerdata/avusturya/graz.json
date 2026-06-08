@@ -1,5 +1,100 @@
 [
   {
+  "slug": "altstadt-von-graz",
+  "name": {
+    "tr": "Graz Eski Kenti",
+    "en": "Old Town of Graz",
+    "de": "Altstadt von Graz"
+  },
+  "latitude": 47.07122,
+  "longitude": 15.43805,
+  "description": {
+    "tr": "Graz Eski Kenti (Altstadt von Graz), Orta Avrupa'nın en iyi korunmuş tarihi şehir merkezlerinden biri olarak kabul edilir. Yüzyıllar boyunca farklı mimari akımların etkisinde kalan bölge, Gotik, Rönesans, Barok ve modern mimarinin eşsiz bir uyumunu sunar.\n\nBu eşsiz yapısı ve tarihi dokusunun bütünlüğü sayesinde, 1999 yılında UNESCO Dünya Mirası Listesi'ne dahil edilmiştir. Dar sokakları, gizli İtalyan tarzı iç avluları ve özenle işlenmiş renkli cepheleri ile ziyaretçilerine adeta zamanda yolculuk yapma hissi yaşatır.\n\nEski kentin silüetini belirleyen en önemli unsurlardan biri, hemen yanı başında yükselen Schlossberg (Şato Tepesi) ve Graz'ın sembolü olan meşhur Saat Kulesi'dir (Uhrturm). Bu noktadan tüm eski kentin kızıl çatılı evlerini panoramik olarak izlemek mümkündür.\n\nTarihi öneminin yanı sıra, bölge günümüzde oldukça dinamik bir yaşam alanıdır. Graz'ın bir öğrenci şehri olması, eski kentin sokaklarını her daim canlı kılar.\n\nBugün Altstadt von Graz; hareketli kafeleri, butik dükkanları, şık restoranları ve yıl boyu süren kültürel etkinlikleriyle hem yerel halk hem de turistler için capcanlı bir cazibe merkezidir.",
+    "en": "The Old Town of Graz (Altstadt von Graz) is considered one of the best-preserved historic city centers in Central Europe. Influenced by various architectural movements over the centuries, the area presents a unique harmony of Gothic, Renaissance, Baroque, and modern architecture.\n\nThanks to its outstanding universal value and well-preserved historical fabric, it was added to the UNESCO World Heritage List in 1999. With its narrow streets, hidden Italian-style courtyards, and elaborately decorated colorful façades, it offers visitors the feeling of stepping back in time.\n\nOne of the most important elements defining the skyline of the old town is the adjacent Schlossberg (Castle Hill) and the famous Clock Tower (Uhrturm), the symbol of Graz. From this vantage point, visitors can enjoy a panoramic view of the old town's characteristic red-roofed houses.\n\nBeyond its historical significance, the area is a highly dynamic living space today. The fact that Graz is a university city keeps the streets of the old town vibrant at all times.\n\nToday, the Altstadt von Graz is a lively attraction for both locals and tourists, filled with bustling cafes, boutique shops, elegant restaurants, and year-round cultural events.",
+    "de": "Die Altstadt von Graz gilt als eines der am besten erhaltenen historischen Stadtzentren Mitteleuropas. Das Gebiet, das im Laufe der Jahrhunderte von verschiedenen architektonischen Strömungen geprägt wurde, bietet eine einzigartige Harmonie aus Gotik, Renaissance, Barock und moderner Architektur.\n\nDank ihres außergewöhnlichen universellen Wertes und der gut erhaltenen historischen Bausubstanz wurde sie 1999 in die Liste des UNESCO-Weltkulturerbes aufgenommen. Mit ihren engen Gassen, versteckten Innenhöfen im italienischen Stil und aufwendig verzierten, farbenfrohen Fassaden vermittelt sie Besuchern das Gefühl einer Zeitreise.\n\nEines der wichtigsten Elemente der Altstadtsilhouette ist der angrenzende Schlossberg und der berühmte Uhrturm, das Wahrzeichen von Graz. Von diesem Aussichtspunkt aus können Besucher einen Panoramablick auf die charakteristischen rotdachigen Häuser der Altstadt genießen.\n\nNeben ihrer historischen Bedeutung ist die Gegend heute ein äußerst dynamischer Lebensraum. Die Tatsache, dass Graz eine Universitätsstadt ist, sorgt dafür, dass die Straßen der Altstadt stets lebendig sind.\n\nHeute ist die Altstadt von Graz mit ihren belebten Cafés, Boutiquen, eleganten Restaurants und ganzjährigen Kulturveranstaltungen ein lebendiger Anziehungspunkt für Einheimische und Touristen."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi keşif",
+      "Şehir turu",
+      "Mimari gezi"
+    ],
+    "en": [
+      "Historical discovery",
+      "City tour",
+      "Architectural sightseeing"
+    ],
+    "de": [
+      "Historische Entdeckung",
+      "Stadtrundgang",
+      "Architektur-Sightseeing"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi merkez"
+    ],
+    "en": [
+      "historic center"
+    ],
+    "de": [
+      "historisches Zentrum"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Graz_Hauptplatz_mit_Rathaus.jpg"
+  ]
+},
+{
+  "slug": "grazer-uhrturm",
+  "name": {
+    "tr": "Graz Saat Kulesi",
+    "en": "Graz Clock Tower",
+    "de": "Grazer Uhrturm"
+  },
+  "latitude": 47.07358,
+  "longitude": 15.43773,
+  "description": {
+    "tr": "Grazer Uhrturm (Graz Saat Kulesi), Schlossberg (Şato Tepesi) üzerinde yer alan ve şehrin her noktasından görülebilen, Graz'ın en önemli simgesidir. Geçmişi 13. yüzyıla kadar uzanan bu tarihi yapı, bugünkü karakteristik görünümünü 16. yüzyılda kazanmıştır.\n\nKulenin en benzersiz ve şaşırtıcı özelliği, saat kadranındaki yelkovan ve akrebin ters çalışmasıdır. Eskiden sadece uzaktan saatin kaç olduğunun görülmesi yeterli olduğu için kuleye ilk olarak sadece büyük bir akrep (saat ibresi) takılmıştır. Dakikaları gösteren küçük yelkovan ise sonradan eklenmiş, bu yüzden büyük ibre saati, küçük ibre ise dakikayı gösterir hale gelmiştir.\n\nAhşap yürüme galerisi ve onu çevreleyen rengarenk çiçek bahçeleri, yapıya romantik bir atmosfer katar. Kulenin içinde, en eskisi 1382 yılına tarihlenen ve hala çalmaya devam eden tarihi çanlar bulunmaktadır.\n\nNapolyon orduları 1809'da Graz'ı işgal edip Schlossberg'deki kaleyi yıktığında, Graz halkı yüksek bir fidye ödeyerek bu saat kulesini ve çan kulesini yıkımdan kurtarmıştır. Bu durum, kulenin yerel halk için taşıdığı manevi değeri gözler önüne serer.\n\nGünümüzde Uhrturm, kırmızı çatılarıyla meşhur Graz eski kentinin ve çevredeki yemyeşil tepelerin en muhteşem panoramik manzarasını sunan noktadır. Tepeye ister yürüyerek, ister Schlossbergbahn (füniküler) veya asansör ile çıkılabilir.",
+    "en": "The Grazer Uhrturm (Graz Clock Tower) is the most prominent landmark of Graz, standing proudly on the Schlossberg (Castle Hill) and visible from almost everywhere in the city. Dating back to the 13th century, the tower acquired its current characteristic appearance in the 16th century.\n\nThe most unique and surprising feature of the tower is its clock face, where the roles of the hands are reversed. Originally, only a single large hand was installed to show the hours so they could be read from a distance. The smaller minute hand was added later, resulting in the long hand displaying the hours and the short hand indicating the minutes.\n\nIts wooden gallery and the surrounding colorful flower gardens add a romantic atmosphere to the structure. Inside the tower are historic bells, the oldest of which dates back to 1382 and still rings today.\n\nWhen Napoleon's army occupied Graz in 1809 and destroyed the fortress on the Schlossberg, the citizens of Graz paid a hefty ransom to save the clock tower and the bell tower from destruction. This act clearly demonstrates the immense sentimental value the tower holds for the locals.\n\nToday, the Uhrturm is the perfect spot to enjoy a magnificent panoramic view of Graz's old town with its famous red roofs and the surrounding lush green hills. Visitors can reach the top on foot, by the Schlossbergbahn (funicular), or via the elevator.",
+    "de": "Der Grazer Uhrturm ist das wichtigste Wahrzeichen von Graz. Er thront auf dem Schlossberg und ist von fast überall in der Stadt aus zu sehen. Die Ursprünge des Turms reichen bis ins 13. Jahrhundert zurück, sein heutiges, charakteristisches Aussehen erhielt er jedoch im 16. Jahrhundert.\n\nDas einzigartigste und überraschendste Merkmal des Turms ist sein Zifferblatt, bei dem die Rollen der Zeiger vertauscht sind. Ursprünglich wurde nur ein großer Zeiger angebracht, um die Stunden aus der Ferne lesbar zu machen. Der kleinere Minutenzeiger wurde erst später hinzugefügt, sodass der große Zeiger die Stunden und der kleine Zeiger die Minuten anzeigt.\n\nSein hölzerner Wehrgang und die umliegenden bunten Blumengärten verleihen dem Bauwerk eine romantische Atmosphäre. Im Inneren des Turms befinden sich historische Glocken, von denen die älteste aus dem Jahr 1382 stammt und noch heute läutet.\n\nAls Napoleons Truppen 1809 Graz besetzten und die Festung auf dem Schlossberg zerstörten, kauften die Grazer Bürger den Uhrturm und den Glockenturm für ein hohes Lösegeld frei, um sie vor der Zerstörung zu bewahren. Dies zeigt deutlich den hohen emotionalen Wert, den der Turm für die Einheimischen hat.\n\nHeute bietet der Uhrturm den besten Panoramablick auf die Altstadt von Graz mit ihren berühmten roten Dächern und die umliegenden grünen Hügel. Besucher können den Gipfel zu Fuß, mit der Schlossbergbahn oder mit dem Lift erreichen."
+  },
+  "activities": {
+    "tr": [
+      "Manzara izleme",
+      "Fotoğrafçılık",
+      "Tarihi keşif"
+    ],
+    "en": [
+      "Panoramic viewing",
+      "Photography",
+      "Historical discovery"
+    ],
+    "de": [
+      "Panoramablick",
+      "Fotografie",
+      "Historische Entdeckung"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarihi yapı",
+      "manzara noktası"
+    ],
+    "en": [
+      "historical building",
+      "viewpoint"
+    ],
+    "de": [
+      "historisches Gebäude",
+      "Aussichtspunkt"
+    ]
+  },
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Grazer_Uhrturm.jpg"
+  ]
+},
+  {
     "slug": "schlossberg-tepesi",
     "name": {
       "tr": "Schlossberg Tepesi",
@@ -51,8 +146,8 @@
       "en": "Murinsel",
       "de": "Murinsel"
     },
-    "latitude": 47.07,
-    "longitude": 15.4421,
+    "latitude": 47.07325548343794, 
+    "longitude":15.434685242832197,
   "description": {
   "tr": "Murinsel, Avusturya’nın Graz şehrinde Mur Nehri üzerinde yer alan ve modern mimarinin en dikkat çekici örneklerinden biri olarak kabul edilen yapay bir adadır. 2003 yılında Graz’ın Avrupa Kültür Başkenti ilan edilmesi kapsamında inşa edilen bu özgün yapı, Amerikalı sanatçı ve tasarımcı Vito Acconci tarafından tasarlanmıştır. Murinsel, klasik anlamda bir ada değil; çelik konstrüksiyon üzerine kurulmuş, nehrin ortasında sabitlenmiş ve her iki yakaya köprülerle bağlanan yenilikçi bir mimari projedir. Tasarımı, deniz kabuğunu andıran akışkan hatlara sahiptir ve bulunduğu çevreyle hem kontrast hem de uyum içindedir.\n\nYaklaşık 50 metre uzunluğunda olan Murinsel, sadece görsel bir sanat eseri değil aynı zamanda işlevsel bir kamusal alandır. Yapının içinde bir amfi tiyatro, küçük bir kafe ve dinlenme alanları bulunur. Yaz aylarında düzenlenen etkinlikler, konserler ve performanslar sayesinde Murinsel şehrin kültürel yaşamının aktif bir parçası haline gelir. Amfi tiyatro bölümü nehir manzarası eşliğinde etkinliklere katılma imkânı sunar, kafe kısmı ise modern atmosferiyle dinlenmek için idealdir.\n\nMurinsel’in en dikkat çekici özelliklerinden biri gece aydınlatmasıdır. Özel ışıklandırma sistemi sayesinde yapı mavi tonlarda parlayarak Mur Nehri üzerinde etkileyici bir görüntü oluşturur. Bu durum fotoğrafçılar için oldukça cazip bir atmosfer yaratır. Tarihi şehir dokusu ile modern mimarinin birleştiği bu nokta, Graz’ın çağdaş yüzünü temsil eder.\n\nMurinsel, eski şehir merkezi ile modern bölgeler arasında bir bağlantı noktasıdır. Köprüler üzerinden yürüyerek ulaşım sağlanır ve ziyaretçilere suyun üzerinde yürüyor hissi veren farklı bir deneyim sunar. Yapı günün her saati ücretsiz olarak ziyaret edilebilir.\n\nSu üzerinde yer alması sayesinde Murinsel sakin ve huzurlu bir atmosfer sunar. Nehrin akışı ve şehir manzarası birlikte dengeli bir ortam oluşturur. Murinsel, sanat, mimari ve sosyal yaşamı birleştiren modern Graz’ın önemli simgelerinden biridir.",
   

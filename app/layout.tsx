@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import type { Metadata } from "next";
+import Script from "next/script"; // 🚀 KANKA BAK BURAYA IMPORT'U EKLEDİK
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,13 +66,29 @@ export default async function RootLayout({
   params: Promise<{ lang?: string }>;
 }) {
   const resolvedParams = await params;
-  const lang = resolvedParams.lang || "tr"; // Varsayılan dil Türkçe
+  const lang = resolvedParams.lang || "tr";
 
   return (
     <html lang={lang}>
+      <head>
+        {/* 🇷🇺 YANDEX WEBMASTER DOĞRULAMA KODU TAM BURADA */}
+        <meta name="yandex-verification" content="81cbfcf8784b9317" />
+
+        {/* 🚀 MICROSOFT CLARITY KODU TAM BURADA */}
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "x3v9pxahkm");
+          `}
+        </Script>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}>
         {children}
       </body>
     </html>
   );
+
 }

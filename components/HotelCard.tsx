@@ -13,7 +13,7 @@ interface HotelCardProps {
   title?: string;
   image?: string;
   link: string;
-  provider?: "tripadvisor" | "booking";
+  provider?: "booking" | "hotels";
   lang?: "tr" | "en";
 }
 
@@ -22,56 +22,41 @@ export default function HotelCard({
   title,
   image,
   link,
-  provider = "tripadvisor",
+  provider = "hotels",
   lang = "tr",
 }: HotelCardProps) {
   const isTR = lang === "tr";
 
   const formattedCity =
-  city.toLowerCase() === "nevsehir"
-    ? isTR
-      ? "Kapadokya"
-      : "Cappadocia"
-    : city.toLowerCase() === "tumsehirler"
-    ? isTR
-      ? "Diğer Şehirler"
-      : "Other Cities"
-    : city.charAt(0).toUpperCase() + city.slice(1);
+    city.toLowerCase() === "nevsehir"
+      ? isTR
+        ? "Kapadokya"
+        : "Cappadocia"
+      : city.toLowerCase() === "tumsehirler"
+      ? isTR
+        ? "Diğer Şehirler"
+        : "Other Cities"
+      : city.charAt(0).toUpperCase() + city.slice(1);
 
   const cardTitle =
     title || (isTR ? `${formattedCity} Otelleri` : `${formattedCity} Hotels`);
 
   const cityImage = image || `/assets/sehir1/${city.toLowerCase()}.webp`;
 
-  // 🔥 Şehir bazlı CTA metni
-  const ctaText = (() => {
-    if (!isTR) {
-      return provider === "booking"
-        ? "View on Booking"
-        : "View on Tripadvisor";
-    }
-
-    switch (city.toLowerCase()) {
-      case "istanbul":
-        return "İstanbul Otellerini Keşfet";
-      case "antalya":
-        return "Antalya Tatil Otellerini Gör";
-      case "paris":
-        return "Paris Konaklama Fırsatlarını İncele";
-      case "roma":
-        return "Roma Otellerini Gör";
-      default:
-        return provider === "booking"
-          ? "Booking'de İncele"
-          : "Tripadvisor'da İncele";
-    }
-  })();
+  // 🔥 CTA
+  const ctaText = isTR
+    ? provider === "booking"
+      ? "Booking'de İncele"
+      : "Otelleri Gör"
+    : provider === "booking"
+    ? "View on Booking"
+    : "View Hotels";
 
   // 🔥 Provider badge
   const providerConfig = {
-    tripadvisor: {
-      label: "Tripadvisor",
-      color: "bg-[#34E0A1] text-black",
+    hotels: {
+      label: "Hotels",
+      color: "bg-orange-500 text-white",
       icon: <Globe size={13} />,
     },
     booking: {
@@ -104,7 +89,7 @@ export default function HotelCard({
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
 
-          {/* 🔥 Provider Badge */}
+          {/* Provider Badge */}
           <div
             className={`absolute top-4 left-4 flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-bold shadow-lg backdrop-blur-md ${currentProvider.color}`}
           >
@@ -143,7 +128,7 @@ export default function HotelCard({
               ${
                 provider === "booking"
                   ? "bg-[#003B95] hover:bg-[#00224f] shadow-[#003B95]/20"
-                  : "bg-[#1e445e] hover:bg-orange-600 shadow-[#1e445e]/10"
+                  : "bg-orange-600 hover:bg-orange-700"
               }`}
             >
               {ctaText}
