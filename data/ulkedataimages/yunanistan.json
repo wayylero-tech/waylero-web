@@ -1,7 +1,144 @@
 {
+  "atina": {
+    "atina-akropolis": [
+      "places/europa/atina/akropolis/akropolis_1780993816014_0.8440232782505253",
+      "places/europa/atina/akropolis/akropolis_1780993819195_0.2908344725684734",
+      "places/europa/atina/akropolis/akropolis_1780993822073_0.4392106742080074",
+      "places/europa/atina/akropolis/akropolis_1780993825311_0.0694053310043472",
+      "places/europa/atina/akropolis/akropolis_1780993829078_0.3805828711426884",
+      "places/europa/atina/akropolis/akropolis_1780993833434_0.5161404349477382",
+      "places/europa/atina/akropolis/akropolis_1780993837879_0.6154155116742487"
+    ],
+    "atina-akropolis-muzesi": [
+      "places/europa/atina/akropolis-muzesi/akropolis-muzesi_1780994116478_0.39696611263850357",
+      "places/europa/atina/akropolis-muzesi/akropolis-muzesi_1780994123032_0.5291506424364987"
+    ],
+    "atina-plaka-bolgesi": [
+      "places/europa/atina/plaka-bolgesi/plaka-bolgesi_1780993997294_0.7471015171196039",
+      "places/europa/atina/plaka-bolgesi/plaka-bolgesi_1780994000540_0.9859832298867619",
+      "places/europa/atina/plaka-bolgesi/plaka-bolgesi_1780994002415_0.649814306078905",
+      "places/europa/atina/plaka-bolgesi/plaka-bolgesi_1780994005214_0.8705504741351902"
+    ],
+    "atina-delphi-antik-kenti": [
+      "places/europa/atina/delphi-antik-kenti/delphi-antik-kenti_1780993675166_0.17823084782517262",
+      "places/europa/atina/delphi-antik-kenti/delphi-antik-kenti_1780993678564_0.36303075087590375",
+      "places/europa/atina/delphi-antik-kenti/delphi-antik-kenti_1780993683595_0.3790888044544406",
+      "places/europa/atina/delphi-antik-kenti/delphi-antik-kenti_1780993686089_0.6715287041620835",
+      "places/europa/atina/delphi-antik-kenti/delphi-antik-kenti_1780993689362_0.35061622885573784",
+      "places/europa/atina/delphi-antik-kenti/delphi-antik-kenti_1780993693973_0.6257601725005566"
+    ]
+  },
+
+  "girit-adasi": {
+    "girit-adasi-elafonissi-plaji": [
+      "places/europa/girit-adasi/elafonissi-plaji/elafonissi-plaji_1780994420462_0.48963468024406154",
+      "places/europa/girit-adasi/elafonissi-plaji/elafonissi-plaji_1780994423417_0.26753320948317305",
+      "places/europa/girit-adasi/elafonissi-plaji/elafonissi-plaji_1780994426985_0.4099340665507992",
+      "places/europa/girit-adasi/elafonissi-plaji/elafonissi-plaji_1780994433241_0.6351666601202495",
+      "places/europa/girit-adasi/elafonissi-plaji/elafonissi-plaji_1780994435295_0.1651380286170936"
+    ],
+    "girit-adasi-knossos-antik-kenti": [
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994562599_0.9370152185006481",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994567159_0.9193451785931738",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994569997_0.0513258601656259",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994572517_0.4832948414662315",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994574216_0.8715802256209033",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994575939_0.8086219296035826",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994579702_0.8708792042687382",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994582708_0.4455047263756824"
+    ],
+     "girit-adasi-knossos-sarayi": [     
+     
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994569997_0.0513258601656259",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994572517_0.4832948414662315",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994574216_0.8715802256209033",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994575939_0.8086219296035826",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994579702_0.8708792042687382",
+       "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994567159_0.9193451785931738",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994562599_0.9370152185006481",
+      "places/europa/girit-adasi/knossos-antik-kenti/knossos-antik-kenti_1780994582708_0.4455047263756824"
+    ]
+  },
+
   "greece": {
     "greece-meteora-manastirlari": [
-      "places/europa/greece/greece-meteora-manastirlari/pjjr1xtbikydopmgcl4y"
+      "places/europa/greece/meteora-manastirlari/meteora-manastirlari_1780994761167_0.9002296888559853",
+      "places/europa/greece/meteora-manastirlari/meteora-manastirlari_1780994764435_0.3583842575573044",
+      "places/europa/greece/meteora-manastirlari/meteora-manastirlari_1780994772764_0.019987905928049",
+      "places/europa/greece/meteora-manastirlari/meteora-manastirlari_1780994780049_0.50667563375209",
+      "places/europa/greece/meteora-manastirlari/meteora-manastirlari_1780994781855_0.1572226285099515"
+    ]
+  },
+
+  "kafelonya-adasi": {
+    "kafelonya-adasi-melissani-magarasi": [
+      "places/europa/kafelonya-adasi/melissani-magarasi/melissani-magarasi_1780995065343_0.8983962975481571",
+      "places/europa/kafelonya-adasi/melissani-magarasi/melissani-magarasi_1780995069620_0.6989270775269043",
+      "places/europa/kafelonya-adasi/melissani-magarasi/melissani-magarasi_1780995072721_0.5147609367703132",
+      "places/europa/kafelonya-adasi/melissani-magarasi/melissani-magarasi_1780995076843_0.9362902713082718",
+      "places/europa/kafelonya-adasi/melissani-magarasi/melissani-magarasi_1780995078998_0.3325192811104062"
+    ]
+  },
+
+  "korint": {
+    "korint-perama-magarasi": [
+      "places/europa/korint/perama-magarasi/perama-magarasi_1780995177567_0.3288116823660946"
+    ]
+  },
+
+  "peloponez-yarimadasi": {
+    "peloponez-yarimadasi-epidaurus-antik-kenti": [
+      "places/europa/peloponez-yarimadasi/epidaurus-antik-kenti/epidaurus-antik-kenti_1780995387297_0.7956242554514554",
+      "places/europa/peloponez-yarimadasi/epidaurus-antik-kenti/epidaurus-antik-kenti_1780995394894_0.27458659551947795",
+      "places/europa/peloponez-yarimadasi/epidaurus-antik-kenti/epidaurus-antik-kenti_1780995401558_0.8266960921543651",
+      "places/europa/peloponez-yarimadasi/epidaurus-antik-kenti/epidaurus-antik-kenti_1780995404363_0.08799302686665522",
+      "places/europa/peloponez-yarimadasi/epidaurus-antik-kenti/epidaurus-antik-kenti_1780995410509_0.7765006989197154"
+    ],
+    "peloponez-yarimadasi-olympia-antik-kenti": [
+      "places/europa/peloponez-yarimadasi/olympia-antik-kenti/olympia-antik-kenti_1780995613808_0.44380533628634844",
+      "places/europa/peloponez-yarimadasi/olympia-antik-kenti/olympia-antik-kenti_1780995618751_0.20492835817056632",
+      "places/europa/peloponez-yarimadasi/olympia-antik-kenti/olympia-antik-kenti_1780995621238_0.21796732054774237",
+      "places/europa/peloponez-yarimadasi/olympia-antik-kenti/olympia-antik-kenti_1780995625230_0.9913958069323581",
+      "places/europa/peloponez-yarimadasi/olympia-antik-kenti/olympia-antik-kenti_1780995628222_0.3765109923358899",
+      "places/europa/peloponez-yarimadasi/olympia-antik-kenti/olympia-antik-kenti_1780995629477_0.7404964099816864"
+    ]
+  },
+
+  "santorini": {
+    "santorini-oia-kasabasi": [
+      "places/europa/santorini/oia-kasabasi/oia-kasabasi_1780995802216_0.32494405406349214",
+      "places/europa/santorini/oia-kasabasi/oia-kasabasi_1780995805256_0.940435113080324",
+      "places/europa/santorini/oia-kasabasi/oia-kasabasi_1780995808484_0.6671356608674284",
+      "places/europa/santorini/oia-kasabasi/oia-kasabasi_1780995813007_0.15337073358651165",
+      "places/europa/santorini/oia-kasabasi/oia-kasabasi_1780995814986_0.9420568763992834",
+      "places/europa/santorini/oia-kasabasi/oia-kasabasi_1780995817073_0.12695234263932387"
+    ],
+    "santorini-fira": [
+      "places/europa/santorini/fira/fira_1780995894416_0.6724707892713043",
+      "places/europa/santorini/fira/fira_1780995897329_0.7164751583915575",
+      "places/europa/santorini/fira/fira_1780995899994_0.5149707814888961",
+      "places/europa/santorini/fira/fira_1780995902890_0.1106848951445405",
+      "places/europa/santorini/fira/fira_1780995904642_0.9002995429028174"
+    ]
+  },
+
+  "selanik": {
+    "selanik-galerius-mozolesi": [
+      "places/europa/selanik/galerius-mozolesi/galerius-mozolesi_1780996064656_0.7675460468159899",
+      "places/europa/selanik/galerius-mozolesi/galerius-mozolesi_1780996068418_0.15203033575894842",
+      "places/europa/selanik/galerius-mozolesi/galerius-mozolesi_1780996071356_0.1712506607011579",
+      "places/europa/selanik/galerius-mozolesi/galerius-mozolesi_1780996074890_0.5512048261885589",
+      "places/europa/selanik/galerius-mozolesi/galerius-mozolesi_1780996081142_0.641196922806667"
+    ]
+  },
+
+  "zakynthos": {
+    "zakynthos-zakynthos-sehir": [
+      "places/europa/zakynthos/zakynthos-sehir/zakynthos-sehir_1780996227368_0.5307384726237645",
+      "places/europa/zakynthos/zakynthos-sehir/zakynthos-sehir_1780996232957_0.46773143741810763",
+      "places/europa/zakynthos/zakynthos-sehir/zakynthos-sehir_1780996238114_0.8272289591266435",
+      "places/europa/zakynthos/zakynthos-sehir/zakynthos-sehir_1780996242951_0.48855214888885456",
+      "places/europa/zakynthos/zakynthos-sehir/zakynthos-sehir_1780996245048_0.5273936380623283"
     ]
   }
 }

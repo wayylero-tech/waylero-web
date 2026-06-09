@@ -1,8 +1,108 @@
 {
+  "saraybosna": {
+    "saraybosna-latin-koprusu": [
+      "places/europa/saraybosna/latin-koprusu/latin-koprusu_1781000506525_0.9506027265794121",
+      "places/europa/saraybosna/latin-koprusu/latin-koprusu_1781000511952_0.6118892828626974",
+      "places/europa/saraybosna/latin-koprusu/latin-koprusu_1781000514457_0.8186982020636883",
+      "places/europa/saraybosna/latin-koprusu/latin-koprusu_1781000517714_0.26721434428906743",
+      "places/europa/saraybosna/latin-koprusu/latin-koprusu_1781000520136_0.44212156880154085",
+      "places/europa/saraybosna/latin-koprusu/latin-koprusu_1781000523585_0.9081825200962192"
+    ],
+    "saraybosna-vrelo-bosne-bosna-nehri-kaynagi": [
+      "places/europa/saraybosna/vrelo-bosne-bosna-nehri-kaynagi/vrelo-bosne-bosna-nehri-kaynagi_1781000591557_0.2126029635256279",
+      "places/europa/saraybosna/vrelo-bosne-bosna-nehri-kaynagi/vrelo-bosne-bosna-nehri-kaynagi_1781000597589_0.0028326720767696267",
+      "places/europa/saraybosna/vrelo-bosne-bosna-nehri-kaynagi/vrelo-bosne-bosna-nehri-kaynagi_1781000602603_0.362842299571583",
+      "places/europa/saraybosna/vrelo-bosne-bosna-nehri-kaynagi/vrelo-bosne-bosna-nehri-kaynagi_1781000605113_0.13231769782318215",
+      "places/europa/saraybosna/vrelo-bosne-bosna-nehri-kaynagi/vrelo-bosne-bosna-nehri-kaynagi_1781000607694_0.12659786525797012"
+    ],
+    "saraybosna-bascarsi": [
+      "places/europa/saraybosna/bascarsi/bascarsi_1781000874838_0.4590180937242174",
+      "places/europa/saraybosna/bascarsi/bascarsi_1781000878581_0.6979236883659812",
+      "places/europa/saraybosna/bascarsi/bascarsi_1781000880887_0.25181599170639835",
+      "places/europa/saraybosna/bascarsi/bascarsi_1781000882925_0.12934968282026404",
+      "places/europa/saraybosna/bascarsi/bascarsi_1781000885075_0.8084133125649616"
+    ]
+  },
+
+  "travnik": {
+    "travnik-travnik-kalesi": [
+      "places/europa/travnik/travnik-kalesi/travnik-kalesi_1781001034230_0.14473586955529916",
+      "places/europa/travnik/travnik-kalesi/travnik-kalesi_1781001037352_0.7629782634463583",
+      "places/europa/travnik/travnik-kalesi/travnik-kalesi_1781001039813_0.8571658001730654"
+    ],
+    "travnik-alaca-camii": [
+      "places/europa/travnik/alaca-camii/alaca-camii_1781001255982_0.595077297479174",
+      "places/europa/travnik/alaca-camii/alaca-camii_1781001259631_0.43291065792245553",
+      "places/europa/travnik/alaca-camii/alaca-camii_1781001261821_0.2757671254232309",
+      "places/europa/travnik/alaca-camii/alaca-camii_1781001263734_0.1929203116374979",
+      "places/europa/travnik/alaca-camii/alaca-camii_1781001265556_0.9248537649299896"
+    ]
+  },
+
   "mostar": {
     "mostar-mostar-koprusu": [
       "places/europa/mostar/mostar-mostar-koprusu/hgp8mpfvcfcka50ilqlx",
       "places/europa/mostar/mostar-mostar-koprusu/noquugalwkeqrcmnsi3b"
+    ],
+    "mostar-blagaj-tekkesi": [
+      "places/europa/mostar/blagaj-tekkesi/blagaj-tekkesi_1781001565742_0.452935918373354",
+      "places/europa/mostar/blagaj-tekkesi/blagaj-tekkesi_1781001569940_0.9334011569665271",
+      "places/europa/mostar/blagaj-tekkesi/blagaj-tekkesi_1781001575393_0.8299847038186858",
+      "places/europa/mostar/blagaj-tekkesi/blagaj-tekkesi_1781001577581_0.6240047177494604",
+      "places/europa/mostar/blagaj-tekkesi/blagaj-tekkesi_1781001582405_0.9027415319960711"
+    ],
+    "mostar-mostar-eski-carsisi": [
+      "places/europa/mostar/mostar-eski-carsisi/mostar-eski-carsisi_1781001695510_0.9327692301209287",
+      "places/europa/mostar/mostar-eski-carsisi/mostar-eski-carsisi_1781001700901_0.8765559310271924",
+      "places/europa/mostar/mostar-eski-carsisi/mostar-eski-carsisi_1781001704866_0.8092624729472768",
+      "places/europa/mostar/mostar-eski-carsisi/mostar-eski-carsisi_1781001708436_0.6735751330632835",
+      "places/europa/mostar/mostar-eski-carsisi/mostar-eski-carsisi_1781001710812_0.9709515883216319"
+    ],
+    "mostar-koski-mehmed-pasa-camii": [
+      "places/europa/mostar/koski-mehmed-pasa-camii/koski-mehmed-pasa-camii_1781001784974_0.33177825519592963",
+      "places/europa/mostar/koski-mehmed-pasa-camii/koski-mehmed-pasa-camii_1781001788348_0.4760029549666229",
+      "places/europa/mostar/koski-mehmed-pasa-camii/koski-mehmed-pasa-camii_1781001790670_0.8983713586179525",
+      "places/europa/mostar/koski-mehmed-pasa-camii/koski-mehmed-pasa-camii_1781001792766_0.2830938614970816"
+    ]
+  },
+
+  "pocitel": {
+    "pocitel-po-itelj-kalesi": [
+      "places/europa/pocitel/po-itelj-kalesi/po-itelj-kalesi_1781002008030_0.00014705866904463072",
+      "places/europa/pocitel/po-itelj-kalesi/po-itelj-kalesi_1781002012533_0.5824103695835151",
+      "places/europa/pocitel/po-itelj-kalesi/po-itelj-kalesi_1781002015873_0.34549949349702447",
+      "places/europa/pocitel/po-itelj-kalesi/po-itelj-kalesi_1781002019811_0.2683439627769908",
+      "places/europa/pocitel/po-itelj-kalesi/po-itelj-kalesi_1781002024550_0.770033155076963"
+    ],
+    "pocitel-sisman-ibrahim-pasa-camii": [
+      "places/europa/pocitel/sisman-ibrahim-pasa-camii/sisman-ibrahim-pasa-camii_1781002138095_0.5197479758665509",
+      "places/europa/pocitel/sisman-ibrahim-pasa-camii/sisman-ibrahim-pasa-camii_1781002143726_0.0792206929140018"
+    ]
+  },
+
+  "ljubuski": {
+    "ljubuski-kravice-selaleleri": [
+      "places/europa/ljubuski/kravice-şelaleleri/kravice-şelaleleri_1781002224759_0.33734088170263543",
+      "places/europa/ljubuski/kravice-şelaleleri/kravice-şelaleleri_1781002231884_0.2322316206341981",
+      "places/europa/ljubuski/kravice-şelaleleri/kravice-şelaleleri_1781002237832_0.17149364866084704",
+      "places/europa/ljubuski/kravice-şelaleleri/kravice-şelaleleri_1781002241779_0.5023945605840112",
+      "places/europa/ljubuski/kravice-şelaleleri/kravice-şelaleleri_1781002244326_0.40290899800992486",
+      "places/europa/ljubuski/kravice-şelaleleri/kravice-şelaleleri_1781002247515_0.2946610013897404"
+    ]
+  },
+
+  "jajce": {
+    "jajce-pliva-selalesi": [
+      "places/europa/jajce/jajce-selalesi/jajce-selalesi_1781002371575_0.029563917645824445",
+      "places/europa/jajce/jajce-selalesi/jajce-selalesi_1781002375727_0.7637107144231491",
+      "places/europa/jajce/jajce-selalesi/jajce-selalesi_1781002379032_0.042952966515782065",
+      "places/europa/jajce/jajce-selalesi/jajce-selalesi_1781002384234_0.7909579371612295"
+    ],
+    "jajce-pliva-golleri-ve-ahsap-degirmenler": [
+      "places/europa/jajce/pliva-golleri-ve-ahsap-degirmenler/pliva-golleri-ve-ahsap-degirmenler_1781002486119_0.9464064593057684",
+      "places/europa/jajce/pliva-golleri-ve-ahsap-degirmenler/pliva-golleri-ve-ahsap-degirmenler_1781002492591_0.1117118390405929",
+      "places/europa/jajce/pliva-golleri-ve-ahsap-degirmenler/pliva-golleri-ve-ahsap-degirmenler_1781002498459_0.7227946080743358",
+      "places/europa/jajce/pliva-golleri-ve-ahsap-degirmenler/pliva-golleri-ve-ahsap-degirmenler_1781002504071_0.8328438251697557"
     ]
   }
 }

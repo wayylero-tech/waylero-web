@@ -40,55 +40,124 @@ export default function PlaceSlider({
   return (
     <>
       {/* DESKTOP GRID */}
-      {images.length === 1 ? (
-        <div className="hidden md:block mb-12 cursor-zoom-in" onClick={() => setIndex(0)}>
-          <div className="relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100">
-            <img
-              src={getCloudinaryUrl(images[0], 1200)}
-              alt={title}
-              loading="eager"
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            />
-          </div>
-        </div>
-      ) : (
-        <div className="hidden md:grid grid-cols-4 grid-rows-2 gap-4 mb-12 h-[500px]">
-          {/* HERO GÖRSEL (SOL BÜYÜK) */}
-          <div
-            className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] cursor-zoom-in border border-gray-100"
-            onClick={() => setIndex(0)}
-          >
-            <img
-              src={getCloudinaryUrl(images[0], 800)}
-              alt={title}
-              loading="eager"
-              className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
+<div className="hidden md:block mb-12">
+  {/* 1 RESİM VARSA */}
+  {images.length === 1 && (
+    <div className="relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+      <img
+        src={getCloudinaryUrl(images[0], 1200)}
+        alt={title}
+        loading="eager"
+        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+      />
+    </div>
+  )}
 
-          {/* SAĞDAKİ KÜÇÜK GÖRSELLER */}
-          {images.slice(1, 5).map((img, i) => (
-            <div
-              key={i}
-              className="relative overflow-hidden rounded-3xl cursor-zoom-in border border-gray-100"
-              onClick={() => setIndex(i + 1)}
-            >
-              <img
-                src={getCloudinaryUrl(img, 400)}
-                alt={`${title} ${i + 2}`}
-                loading="lazy"
-                className="absolute inset-0 w-full h-full object-cover hover:scale-110 transition-transform duration-700"
-              />
-              {i === 3 && extraImages > 0 && (
-                <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] flex flex-col items-center justify-center text-white transition-colors hover:bg-black/20">
-                  <span className="text-2xl font-black">+{extraImages}</span>
-                  <span className="text-[10px] font-bold uppercase tracking-widest">Fotoğraf</span>
-                </div>
-              )}
-            </div>
-          ))}
+  {/* 2 RESİM VARSA: Yan yana eşit iki büyük blok */}
+  {images.length === 2 && (
+    <div className="grid grid-cols-2 gap-4 h-[500px]">
+      {images.map((img, i) => (
+        <div key={i} className="relative overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i)}>
+          <img
+            src={getCloudinaryUrl(img, 800)}
+            alt={`${title} ${i + 1}`}
+            loading="eager"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+          />
         </div>
-      )}
+      ))}
+    </div>
+  )}
+
+  {/* 3 RESİM VARSA: Sol büyük, sağda alt alta iki orta boy */}
+  {images.length === 3 && (
+    <div className="grid grid-cols-2 grid-rows-2 gap-4 h-[500px]">
+      <div className="relative row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+        <img
+          src={getCloudinaryUrl(images[0], 800)}
+          alt={title}
+          loading="eager"
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+        />
+      </div>
+      {images.slice(1, 3).map((img, i) => (
+        <div key={i} className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i + 1)}>
+          <img
+            src={getCloudinaryUrl(img, 600)}
+            alt={`${title} ${i + 2}`}
+            loading="lazy"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+          />
+        </div>
+      ))}
+    </div>
+  )}
+
+  {/* 4 RESİM VARSA: Sol büyük, sağ üst tek büyük, sağ alt yan yana iki küçük */}
+  {images.length === 4 && (
+    <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
+      {/* Sol Büyük */}
+      <div className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+        <img
+          src={getCloudinaryUrl(images[0], 800)}
+          alt={title}
+          loading="eager"
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+        />
+      </div>
+      {/* Sağ Üst Tek Büyük */}
+      <div className="relative col-span-2 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(1)}>
+        <img
+          src={getCloudinaryUrl(images[1], 800)}
+          alt={`${title} 2`}
+          loading="lazy"
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+        />
+      </div>
+      {/* Sağ Alt Yan Yana İki Küçük */}
+      {images.slice(2, 4).map((img, i) => (
+        <div key={i} className="relative col-span-1 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i + 2)}>
+          <img
+            src={getCloudinaryUrl(img, 400)}
+            alt={`${title} ${i + 3}`}
+            loading="lazy"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+          />
+        </div>
+      ))}
+    </div>
+  )}
+
+  {/* 5 VEYA DAHA FAZLA RESİM VARSA (Orijinal Düzenin) */}
+  {images.length >= 5 && (
+    <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
+      <div className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+        <img
+          src={getCloudinaryUrl(images[0], 800)}
+          alt={title}
+          loading="eager"
+          className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+        />
+      </div>
+      {images.slice(1, 5).map((img, i) => (
+        <div key={i} className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i + 1)}>
+          <img
+            src={getCloudinaryUrl(img, 400)}
+            alt={`${title} ${i + 2}`}
+            loading="lazy"
+            className="absolute inset-0 w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+          />
+          {i === 3 && extraImages > 0 && (
+            <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] flex flex-col items-center justify-center text-white transition-colors hover:bg-black/20">
+              <span className="text-2xl font-black">+{extraImages}</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest">Fotoğraf</span>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  )}
+</div>
 
       {/* MOBILE SLIDER */}
       <div className="md:hidden mb-10">

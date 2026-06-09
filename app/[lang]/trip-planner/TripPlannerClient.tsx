@@ -76,11 +76,16 @@ saveTripText:
 googleLogin:
   "GOOGLE İLE GİRİŞ YAP 🔐",
 
-saveTrip:
-  "ROTAYI KAYDET 💾",
-
+saveTrip: "ROTAYI KAYDET 💾", // senin en son satırın
+    guideStep1: "Keşfetmek istediğiniz şehri sol taraftaki menüden seçerek planlamaya başlayabilirsiniz.",
+    guideStep2: "Listede bulunan mekanların üzerine tıklayarak gezi duraklarınızı belirleyebilirsiniz.",
+    guideStep3: "Harika! Gezi rotanız başarıyla oluşturuldu. Aşağıdan rotanızı inceleyebilir, kaydedebilir veya sevdiklerinizle paylaşabilirsiniz.",
   },
   en: {
+    // ... eski çevirilerin (aynen kalsın) ...
+    guideStep1: "You can start planning by selecting the city you want to explore from the menu on the left.",
+    guideStep2: "You can determine your travel stops by clicking on the places on the map or in the list.",
+    guideStep3: "Great! Your travel itinerary has been successfully created. You can review, save, or share your route below.",
     heroTitle: "Your Itinerary",
     heroSub: "Personalized Travel Plan",
     steps: ["Destination", "Places", "Program"],
@@ -148,6 +153,7 @@ export default function TripPlannerClient({ lang = "tr" }: { lang: "tr" | "en" }
  const [user, setUser] = useState<User | null>(null);
   const [isTripStarted, setIsTripStarted] = useState(false);
   const [travelMode, setTravelMode] = useState("driving");
+const [showGuide, setShowGuide] = useState(true);
 
   useEffect(() => {
     if (cityFromUrl) {
@@ -445,14 +451,40 @@ const formatCity = (city: string) => {
           )}
 
           <div className={`${activeStep === 3 ? "lg:col-span-12" : "lg:col-span-9"} space-y-6 transition-all`}>
-            {activeStep === 1 && (
-              <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100">
-                <h3 className="text-sm font-bold mb-4 text-gray-500">{t.mapTitle}</h3>
-                <div className="h-[500px] w-full rounded-2xl overflow-hidden">
-                  <Map places={selectedPlaces} />
-                </div>
-              </div>
-            )}
+  
+  {/* ======================================================== */}
+  {/* 🗺️ ADIM 1 BİLGİLENDİRME POP-UP'I */}
+  {/* ======================================================== */}
+  {activeStep === 1 && showGuide && (
+    <div className="bg-orange-50 border border-orange-200 p-4 rounded-2xl flex justify-between items-center shadow-sm">
+      <div className="flex items-center gap-3">
+        <span className="text-lg">🗺️</span>
+        <p className="text-xs font-medium text-orange-800">{t.guideStep1}</p>
+      </div>
+      <button onClick={() => setShowGuide(false)} className="text-orange-400 hover:text-orange-600 text-sm font-bold pl-4">✕</button>
+    </div>
+  )}
+
+  {activeStep === 1 && (
+    <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100">
+      <h3 className="text-sm font-bold mb-4 text-gray-500">{t.mapTitle}</h3>
+      <div className="h-[500px] w-full rounded-2xl overflow-hidden">
+        <Map places={selectedPlaces} />
+      </div>
+    </div>
+  )}
+  {/* ======================================================== */}
+  {/* 🚩 ADIM 2 BİLGİLENDİRME POP-UP'I */}
+  {/* ======================================================== */}
+  {activeStep === 2 && showGuide && (
+    <div className="bg-blue-50 border border-blue-100 p-4 rounded-2xl flex justify-between items-center shadow-sm">
+      <div className="flex items-center gap-3">
+        <span className="text-lg">🎯</span>
+        <p className="text-xs font-medium text-blue-800">{t.guideStep2}</p>
+      </div>
+      <button onClick={() => setShowGuide(false)} className="text-blue-400 hover:text-blue-600 text-sm font-bold pl-4">✕</button>
+    </div>
+  )}
 
            {activeStep === 2 && (
   <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100 flex flex-col gap-6">
@@ -553,8 +585,21 @@ const formatCity = (city: string) => {
   </div>
 )}
 
-            {activeStep === 3 && (
-              <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 flex flex-col">
+           {activeStep === 3 && (
+  <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 flex flex-col">
+    
+    {/* ======================================================== */}
+    {/* ✨ ADIM 3 BİLGİLENDİRME POP-UP'I */}
+    {/* ======================================================== */}
+    {showGuide && (
+      <div className="m-6 mb-0 bg-green-50 border border-green-100 p-4 rounded-2xl flex justify-between items-center shadow-sm">
+        <div className="flex items-center gap-3">
+          <span className="text-lg">✨</span>
+          <p className="text-xs font-medium text-green-800">{t.guideStep3}</p>
+        </div>
+        <button onClick={() => setShowGuide(false)} className="text-green-400 hover:text-green-600 text-sm font-bold pl-4">✕</button>
+      </div>
+    )}
                 <div className="p-6 border-b border-gray-50 flex items-center justify-between bg-white/80 backdrop-blur-md sticky top-0 z-10">
                   <h3 className="text-xs font-black text-gray-400 uppercase tracking-[0.2em]">{t.yourRoute}</h3>
                 <div className="flex flex-col items-end gap-2">

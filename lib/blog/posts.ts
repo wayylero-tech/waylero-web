@@ -40,7 +40,7 @@ import { yerkopruPosts } from "@/data/blog/konya/posts5";
 import { sahinkayaPosts } from "@/data/blog/samsun/posts";
 import { orduPosts } from "@/data/blog/ordu/posts";
 import { kumburnuPosts } from "@/data/blog/mugla/posts";
-
+import { katranciPosts } from "@/data/blog/mugla/posts1";
 
 
 export const allPosts = [
@@ -85,5 +85,6 @@ export const allPosts = [
 ...yerkopruPosts,
 ...sahinkayaPosts,
 ...orduPosts,
-...kumburnuPosts
+...kumburnuPosts,
+...katranciPosts
 ];

@@ -8,6 +8,7 @@ import {
   Polyline,
   CircleMarker,
   useMap,
+  useMapEvents, // 👈 Kullanıcı hareketlerini yakalamak için eklendi
 } from "react-leaflet";
 
 import L from "leaflet";
@@ -100,13 +101,28 @@ function LiveLocation({ setUserLocation }: { setUserLocation: (loc: [number, num
   return null;
 }
 
-function MapController({ center }: { center: [number, number] }) {
+// 🎯 YENİLENEN KONTROLLER: Kullanıcı haritaya dokunduysa takibi engeller
+function MapController({ center, isMapInteracted }: { center: [number, number]; isMapInteracted: boolean }) {
   const map = useMap();
   useEffect(() => {
-    if (center) {
+    // Eğer kullanıcı haritayı kaydırdıysa/zoomladıysa flyTo işlemine izin verme!
+    if (center && !isMapInteracted) {
       map.flyTo(center, map.getZoom(), { duration: 1.5 });
     }
-  }, [center, map]);
+  }, [center, map, isMapInteracted]);
+  return null;
+}
+
+// 🛑 HARİTA HAREKETLERİNİ DİNLEYEN YENİ BİLEŞEN
+function MapEventsHandler({ setIsMapInteracted }: { setIsMapInteracted: (val: boolean) => void }) {
+  useMapEvents({
+    dragstart: () => {
+      setIsMapInteracted(true); // Kullanıcı haritayı sürüklemeye başladı, takibi dondur
+    },
+    zoomstart: () => {
+      setIsMapInteracted(true); // Kullanıcı zoom yapmaya başladı, takibi dondur
+    },
+  });
   return null;
 }
 
@@ -119,7 +135,6 @@ export default function Map({
   onFullscreen?: () => void; 
   showControls?: boolean;
 }) {
-  // 🌟 Orijinal places yerine ekranda ve rotada bu sıralanmış listeyi kullanacağız
   const [orderedPlaces, setOrderedPlaces] = useState<any[]>(places);
   
   const [routeCoords, setRouteCoords] = useState<[number, number][]>([]);
@@ -131,6 +146,9 @@ export default function Map({
   const [travelMode, setTravelMode] = useState<"driving" | "walking" | "cycling">("driving");
 
   const [isRateLimited, setIsRateLimited] = useState<boolean>(false);
+
+  // 🌟 KRİTİK EKLEME: Kullanıcının haritayı manuel kontrol edip etmediğini tutan kilit state
+  const [isMapInteracted, setIsMapInteracted] = useState<boolean>(false);
 
   const lastFetchedLocationRef = useRef<[number, number] | null>(null);
   const lastFetchTimeRef = useRef<number>(0);
@@ -147,7 +165,6 @@ export default function Map({
     });
   }, []);
 
-  // Dışarıdan yeni bir places listesi gelirse ve gezi başlamadıysa listeyi güncelle
   useEffect(() => {
     if (!isTripStarted) {
       setOrderedPlaces(places);
@@ -202,7 +219,6 @@ export default function Map({
 
       const approxLat = userLocation ? userLocation[0].toFixed(3) : "0";
       const approxLng = userLocation ? userLocation[1].toFixed(3) : "0";
-      // Cache key'i sıralanmış liste üzerinden oluşturalım
       const cacheKey = `${travelMode}_${approxLat}_${approxLng}_${orderedPlaces.length}`;
 
       if (routeCacheRef.current[cacheKey]) {
@@ -223,26 +239,24 @@ export default function Map({
       }
 
       try {
-        // 🌟 Rota hesaplaması için artık sıralanmış 'orderedPlaces' kullanıyoruz
         let coordinates: [number, number][] = orderedPlaces.map((p) => [p.lng, p.lat]);
         if (userLocation) {
           coordinates = [[userLocation[1], userLocation[0]], ...coordinates];
         }
 
-
         requestTimestampsRef.current.push(now);
 
-      const response = await fetch("/api/route", {
-  method: "POST",
-  headers: {
-    "Accept": "application/json", // 👈 Sadece bu satır Cloudflare için kalacak
-    "Content-Type": "application/json",
-  },
- body: JSON.stringify({ 
-  coordinates,
-  travelMode
-}),
-});
+        const response = await fetch("/api/route", {
+          method: "POST",
+          headers: {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ 
+            coordinates,
+            travelMode
+          }),
+        });
 
         const data = await response.json();
 
@@ -335,31 +349,30 @@ export default function Map({
 
           <button
             onClick={() => {
-  lastFetchTimeRef.current = 0;
+              lastFetchTimeRef.current = 0;
 
-  if (!isTripStarted) {
-    if (userLocation) {
-      const sorted = sortPlacesByNearestNeighbor(userLocation, places);
-      setOrderedPlaces(sorted);
-    }
-  } else {
-    lastFetchedLocationRef.current = null;
-    setOrderedPlaces(places);
-  }
+              if (!isTripStarted) {
+                if (userLocation) {
+                  const sorted = sortPlacesByNearestNeighbor(userLocation, places);
+                  setOrderedPlaces(sorted);
+                }
+              } else {
+                lastFetchedLocationRef.current = null;
+                setOrderedPlaces(places);
+              }
 
-  const nextState = !isTripStarted;
+              const nextState = !isTripStarted;
+              setIsTripStarted(nextState);
+              setIsMapInteracted(false); // Yeni gezi durumunda takibi sıfırla
 
-  setIsTripStarted(nextState);
-
-  // 📱 Mobilde otomatik fullscreen
-  if (
-    nextState &&
-    typeof window !== "undefined" &&
-    window.innerWidth < 768
-  ) {
-    onFullscreen?.();
-  }
-}}
+              if (
+                nextState &&
+                typeof window !== "undefined" &&
+                window.innerWidth < 768
+              ) {
+                onFullscreen?.();
+              }
+            }}
             disabled={(isTripStarted ? false : !userLocation) || isRateLimited}
             className={`px-4 py-3 rounded-xl text-xs font-black shadow-xl uppercase tracking-wider transition-all ${
               isTripStarted
@@ -388,16 +401,39 @@ export default function Map({
         </div>
       )}
 
-      {/* 📏 ROTA BİLGİSİ */}
-      {showControls && orderedPlaces && orderedPlaces.length > 0 && routeCoords.length > 0 && (
-        <div className="absolute top-4 right-4 z-[9999] bg-white px-5 py-4 rounded-2xl shadow-2xl">
-          <div className="text-xs font-black text-gray-400 uppercase">
-            {isTripStarted ? "Navigasyon Bilgisi" : "Rota Bilgisi"}
-          </div>
-          <div className="mt-2 text-sm font-bold">📏 {distance.toFixed(1)} KM</div>
-          <div className="text-sm font-bold">⏱ {Math.round(duration)} DK</div>
-        </div>
+      {/* 🎯 "BENİ BUL / ODAKLAN" BUTONU - Kullanıcı haritayı oynatınca sol altta belirir */}
+      {isTripStarted && isMapInteracted && userLocation && (
+        <button
+          onClick={() => setIsMapInteracted(false)} // Basınca kilidi kaldırır ve haritayı yeniden anlık konuma uçurur
+          type="button"
+          className="absolute bottom-16 left-4 z-[10000] bg-white text-gray-950 p-3.5 rounded-2xl shadow-2xl border border-gray-100 hover:scale-105 active:scale-95 transition-all text-sm font-black flex items-center gap-1.5"
+        >
+          🎯 KONUMUMA DÖN
+        </button>
       )}
+
+     {/* 📏 ROTA BİLGİSİ */}
+{showControls && orderedPlaces && orderedPlaces.length > 0 && routeCoords.length > 0 && (
+  <div className="absolute top-4 right-4 z-[9999] bg-white px-5 py-4 rounded-2xl shadow-2xl">
+    <div className="text-xs font-black text-gray-400 uppercase">
+      {isTripStarted ? "Navigasyon Bilgisi" : "Rota Bilgisi"}
+    </div>
+    <div className="mt-2 text-sm font-bold">📏 {distance.toFixed(1)} KM</div>
+    
+    {/* ⏱ Burası güncellendi: Dakikayı Saat ve Dakikaya çeviriyoruz */}
+    <div className="text-sm font-bold">
+      ⏱ {(() => {
+        const totalMinutes = Math.round(duration);
+        if (totalMinutes < 60) {
+          return `${totalMinutes} DK`;
+        }
+        const hours = Math.floor(totalMinutes / 60);
+        const minutes = totalMinutes % 60;
+        return minutes > 0 ? `${hours} SAAT ${minutes} DK` : `${hours} SAAT`;
+      })()}
+    </div>
+  </div>
+)}
 
       {/* ⛶ TAM EKRAN BUTONU */}
       {onFullscreen && (
@@ -412,9 +448,11 @@ export default function Map({
 
       {/* 🗺 HARİTA */}
       <MapContainer center={mapCenter} zoom={12} className="w-full h-full z-0">
-        <MapController center={mapCenter} />
+        {/* 🌟 Güncellenmiş MapController ve Yeni Eklenen Olay Yakalayıcı */}
+        <MapController center={mapCenter} isMapInteracted={isMapInteracted} />
+        <MapEventsHandler setIsMapInteracted={setIsMapInteracted} />
+        
         <LiveLocation setUserLocation={setUserLocation} />
-
         <FitBounds places={orderedPlaces} />
 
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -445,7 +483,6 @@ export default function Map({
           </>
         )}
 
-        {/* 🌟 Marker'lar da sıralanmış listeye (orderedPlaces) göre numaralandırılır */}
         {orderedPlaces.map((place, index) => {
           const icon = divIcon({
             className: "custom-div-icon",
@@ -489,4 +526,4 @@ export default function Map({
       </MapContainer>
     </div>
   );
-} 
+}
