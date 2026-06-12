@@ -2307,7 +2307,7 @@
     "name_en": "Hallstatt Village",
     "lat": 47.5615,
     "lng": 13.6367,
-    "image": "places/europa/avusturya/hallstatt/hallstatt_1780569589118_0.9481368656804424"
+    "image": ""
   },
   {
     "country": "avusturya",
@@ -2317,7 +2317,7 @@
     "name_en": "Hallstatt Salt Mine (Salzwelten)",
     "lat": 47.55612673266669,
     "lng": 13.645535673547647,
-    "image": ""
+    "image": "places/europa/avusturya/hallstatt/hallstatt_1780569589118_0.9481368656804424"
   },
   {
     "country": "avusturya",
@@ -3167,7 +3167,7 @@
     "name_en": "Leshan Giant Buddha",
     "lat": 29.5139,
     "lng": 103.7642,
-    "image": ""
+    "image": "places/asia/chengdu/leshan-buyuk-buda/leshan-buyuk-buda_1781262053243_0.7558563029600176"
   },
   {
     "country": "cin",
@@ -3177,7 +3177,7 @@
     "name_en": "Li River",
     "lat": 25.2767,
     "lng": 110.2765,
-    "image": ""
+    "image": "places/asia/guilin/li-nehri/li-nehri_1781262243281_0.09471341644741071"
   },
   {
     "country": "cin",
@@ -3187,7 +3187,7 @@
     "name_en": "Reed Flute Cave",
     "lat": 25.317,
     "lng": 110.2851,
-    "image": ""
+    "image": "places/asia/guilin/reed-flute-magarasi/reed-flute-magarasi_1781262152731_0.3105848848589703"
   },
   {
     "country": "cin",
@@ -3207,7 +3207,7 @@
     "name_en": "Lingyin Temple",
     "lat": 30.2355,
     "lng": 120.1137,
-    "image": ""
+    "image": "places/asia/hangzhou/lingyin-tapinagi/lingyin-tapinagi_1781262329035_0.35348892291191714"
   },
   {
     "country": "cin",
@@ -3247,7 +3247,7 @@
     "name_en": "Old Town of Lijiang",
     "lat": 26.8755,
     "lng": 100.2281,
-    "image": ""
+    "image": "places/asia/lijiang/eski-lijiang-sehri/eski-lijiang-sehri_1781261866011_0.15979304533962935"
   },
   {
     "country": "cin",
@@ -3257,7 +3257,7 @@
     "name_en": "Jade Dragon Snow Mountain",
     "lat": 27.1256,
     "lng": 100.2368,
-    "image": ""
+    "image": "places/asia/lijiang/jade-dragon-snow-mountain/jade-dragon-snow-mountain_1781261774675_0.22382305624950305"
   },
   {
     "country": "cin",
@@ -3307,7 +3307,7 @@
     "name_en": "Shanghai Tower",
     "lat": 31.233,
     "lng": 121.5053,
-    "image": ""
+    "image": "places/asia/sangay/sanghay-kulesi/sanghay-kulesi_1781261355251_0.9680401914612748"
   },
   {
     "country": "cin",
@@ -3317,7 +3317,7 @@
     "name_en": "Terracotta Army",
     "lat": 34.3853,
     "lng": 109.2782,
-    "image": ""
+    "image": "places/asia/xi-anfianal/terracotta-ordusu/terracotta-ordusu_1781261534466_0.2474020288844463"
   },
   {
     "country": "cin",
@@ -3327,7 +3327,7 @@
     "name_en": "Xi'an City Wall",
     "lat": 34.343,
     "lng": 108.9387,
-    "image": ""
+    "image": "places/asia/xi-anfianal/xi-an-sehir-surlari/xi-an-sehir-surlari_1781261647819_0.2984372827616064"
   },
   {
     "country": "danimarka",
@@ -4787,7 +4787,7 @@
     "name_en": "Red Fort",
     "lat": 28.6562,
     "lng": 77.241,
-    "image": ""
+    "image": "places/asia/delhi/kizil-kale/kizil-kale_1781262643820_0.8318656168672326"
   },
   {
     "country": "hindistan",
@@ -4807,7 +4807,7 @@
     "name_en": "Humayun’s Tomb",
     "lat": 28.5933,
     "lng": 77.2507,
-    "image": ""
+    "image": "places/asia/delhi/humayun-turbesi/humayun-turbesi_1781262844748_0.8360050822915742"
   },
   {
     "country": "hindistan",
@@ -4817,7 +4817,7 @@
     "name_en": "Lotus Temple",
     "lat": 28.5535,
     "lng": 77.2588,
-    "image": ""
+    "image": "places/asia/delhi/lotus-tapinagi/lotus-tapinagi_1781262908836_0.6102750302502844"
   },
   {
     "country": "hindistan",
@@ -4827,7 +4827,7 @@
     "name_en": "India Gate",
     "lat": 28.6129,
     "lng": 77.2295,
-    "image": ""
+    "image": "places/asia/delhi/hindistan-kapisi/hindistan-kapisi_1781262996268_0.5998447165670584"
   },
   {
     "country": "hindistan",
@@ -4837,7 +4837,7 @@
     "name_en": "Palolem Beach",
     "lat": 15,
     "lng": 74.1,
-    "image": ""
+    "image": "places/asia/goa/palolem-plaji/palolem-plaji_1781263096428_0.5012448628655382"
   },
   {
     "country": "hindistan",
@@ -4847,7 +4847,7 @@
     "name_en": "Baga Beach",
     "lat": 15.5522,
     "lng": 73.7497,
-    "image": ""
+    "image": "places/asia/goa/baga-plaji/baga-plaji_1781263192988_0.8163519851087377"
   },
   {
     "country": "hindistan",
@@ -4887,7 +4887,7 @@
     "name_en": "Amber Fort",
     "lat": 26.9855,
     "lng": 75.8507,
-    "image": ""
+    "image": "places/asia/jaipur/amber-kalesi/amber-kalesi_1781263300549_0.21801233897134475"
   },
   {
     "country": "hindistan",
@@ -4897,7 +4897,7 @@
     "name_en": "Hawa Mahal",
     "lat": 26.9239,
     "lng": 75.8267,
-    "image": ""
+    "image": "places/asia/jaipur/hawa-mahal/hawa-mahal_1781263471652_0.16337952239547815"
   },
   {
     "country": "hindistan",
@@ -4907,7 +4907,7 @@
     "name_en": "City Palace",
     "lat": 26.926,
     "lng": 75.8235,
-    "image": ""
+    "image": "places/asia/jaipur/sehir-sarayi/sehir-sarayi_1781263617804_0.3659823924386634"
   },
   {
     "country": "hindistan",
@@ -4917,7 +4917,7 @@
     "name_en": "Jantar Mantar",
     "lat": 26.9256,
     "lng": 75.8236,
-    "image": ""
+    "image": "places/asia/jaipur/jantar-mantar/jantar-mantar_1781263717445_0.39751294082584965"
   },
   {
     "country": "hindistan",
@@ -4927,7 +4927,7 @@
     "name_en": "Jal Mahal",
     "lat": 26.9535,
     "lng": 75.8463,
-    "image": ""
+    "image": "places/asia/jaipur/jal-mahal/jal-mahal_1781263791925_0.7619511904271294"
   },
   {
     "country": "hindistan",
@@ -4937,7 +4937,7 @@
     "name_en": "Alleppey",
     "lat": 9.5,
     "lng": 76.35,
-    "image": ""
+    "image": "places/asia/kerala/alleppey/alleppey_1781263870029_0.9437002411743115"
   },
   {
     "country": "hindistan",
@@ -4947,7 +4947,7 @@
     "name_en": "Munnar",
     "lat": 10.0884,
     "lng": 77.0625,
-    "image": ""
+    "image": "places/asia/kerala/munnar/munnar_1781263933396_0.3826815149140893"
   },
   {
     "country": "hindistan",
@@ -4957,7 +4957,7 @@
     "name_en": "Kumarakom",
     "lat": 9.6,
     "lng": 76.5333,
-    "image": ""
+    "image": "places/asia/kerala/kumarakom/kumarakom_1781263975165_0.40979604516631896"
   },
   {
     "country": "hindistan",
@@ -4987,7 +4987,7 @@
     "name_en": "Gateway of India",
     "lat": 18.922,
     "lng": 72.8347,
-    "image": ""
+    "image": "places/asia/mumbai/gateway-of-india/gateway-of-india_1781264078101_0.9148062203959715"
   },
   {
     "country": "hindistan",
@@ -4997,7 +4997,7 @@
     "name_en": "Elephanta Island",
     "lat": 18.9575,
     "lng": 72.9267,
-    "image": ""
+    "image": "places/asia/mumbai/elephanta-adasi/elephanta-adasi_1781264177037_0.19616850772774608"
   },
   {
     "country": "hindistan",
@@ -5007,7 +5007,7 @@
     "name_en": "Marine Drive",
     "lat": 18.9387,
     "lng": 72.8232,
-    "image": ""
+    "image": "places/asia/mumbai/marine-drive/marine-drive_1781264268077_0.7462439530341703"
   },
   {
     "country": "hindistan",

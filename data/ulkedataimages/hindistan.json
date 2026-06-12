@@ -19,5 +19,112 @@
       "places/asia/agra/agra-tac-mahal/ccdtogzdnj9rvsmtzx10",
       "places/asia/agra/agra-tac-mahal/bayr8huwmeejwf98kzdq"
     ]
+  },
+  
+  "delhi": {
+    "delhi-kizil-kale": [
+      "places/asia/delhi/kizil-kale/kizil-kale_1781262643820_0.8318656168672326",
+      "places/asia/delhi/kizil-kale/kizil-kale_1781262655063_0.08880101450672995",
+      "places/asia/delhi/kizil-kale/kizil-kale_1781262662746_0.6311667334502685",
+      "places/asia/delhi/kizil-kale/kizil-kale_1781262671178_0.2544081004411055",
+      "places/asia/delhi/kizil-kale/kizil-kale_1781262674928_0.10900644734662635",
+      "places/asia/delhi/kizil-kale/kizil-kale_1781262677936_0.15588543188224002"
+    ],
+    "delhi-kutup-minar": [
+      "places/asia/delhi/kutup-minar/kutup-minar_1781262750548_0.6996760275102964",
+      "places/asia/delhi/kutup-minar/kutup-minar_1781262757950_0.6965664844224944",
+      "places/asia/delhi/kutup-minar/kutup-minar_1781262761815_0.6165726848513061",
+      "places/asia/delhi/kutup-minar/kutup-minar_1781262765441_0.3941425451899975",
+      "places/asia/delhi/kutup-minar/kutup-minar_1781262767849_0.08463193853516604"
+    ],
+    "delhi-humayun-turbesi": [
+      "places/asia/delhi/humayun-turbesi/humayun-turbesi_1781262844748_0.8360050822915742",
+      "places/asia/delhi/humayun-turbesi/humayun-turbesi_1781262893219_0.16301567323599797",
+      "places/asia/delhi/humayun-turbesi/humayun-turbesi_1781262894547_0.10790017396809248"
+    ],
+    "delhi-lotus-tapinagi": [
+      "places/asia/delhi/lotus-tapinagi/lotus-tapinagi_1781262908836_0.6102750302502844",
+      "places/asia/delhi/lotus-tapinagi/lotus-tapinagi_1781262911813_0.7150721059718192",
+      "places/asia/delhi/lotus-tapinagi/lotus-tapinagi_1781262913652_0.46759758247335226",
+      "places/asia/delhi/lotus-tapinagi/lotus-tapinagi_1781262915672_0.4032614561120088"
+    ],
+    "delhi-hindistan-kapisi": [
+      "places/asia/delhi/hindistan-kapisi/hindistan-kapisi_1781262996268_0.5998447165670584",
+      "places/asia/delhi/hindistan-kapisi/hindistan-kapisi_1781263000821_0.6107381901287159",
+      "places/asia/delhi/hindistan-kapisi/hindistan-kapisi_1781263002745_0.3699328359869316",
+      "places/asia/delhi/hindistan-kapisi/hindistan-kapisi_1781263004557_0.08261854513188016"
+    ]
+  },
+  "goa": {
+    "goa-palolem-plaji": [
+      "places/asia/goa/palolem-plaji/palolem-plaji_1781263096428_0.5012448628655382",
+      "places/asia/goa/palolem-plaji/palolem-plaji_1781263100346_0.9960596373761653",
+      "places/asia/goa/palolem-plaji/palolem-plaji_1781263103086_0.07572628690368322"
+    ],
+    "goa-baga-plaji": [
+      "places/asia/goa/baga-plaji/baga-plaji_1781263192988_0.8163519851087377"
+    ]
+  },
+  "jaipur": {
+    "jaipur-amber-kalesi": [
+      "places/asia/jaipur/amber-kalesi/amber-kalesi_1781263300549_0.21801233897134475",
+      "places/asia/jaipur/amber-kalesi/amber-kalesi_1781263303048_0.6712705230669217",
+      "places/asia/jaipur/amber-kalesi/amber-kalesi_1781263307167_0.35164073637153415",
+      "places/asia/jaipur/amber-kalesi/amber-kalesi_1781263308339_0.15989054095941302"
+    ],
+    "jaipur-hawa-mahal": [
+      "places/asia/jaipur/hawa-mahal/hawa-mahal_1781263471652_0.16337952239547815",
+      "places/asia/jaipur/hawa-mahal/hawa-mahal_1781263474538_0.9443421574535615",
+      "places/asia/jaipur/hawa-mahal/hawa-mahal_1781263476724_0.9418623152692156",
+      "places/asia/jaipur/hawa-mahal/hawa-mahal_1781263478614_0.43181893197595966"
+    ],
+    "jaipur-sehir-sarayi": [
+      "places/asia/jaipur/sehir-sarayi/sehir-sarayi_1781263617804_0.3659823924386634",
+      "places/asia/jaipur/sehir-sarayi/sehir-sarayi_1781263620638_0.5663251812418637"
+    ],
+    "jaipur-jantar-mantar": [
+      "places/asia/jaipur/jantar-mantar/jantar-mantar_1781263717445_0.39751294082584965",
+      "places/asia/jaipur/jantar-mantar/jantar-mantar_1781263723853_0.22556076563344607",
+      "places/asia/jaipur/jantar-mantar/jantar-mantar_1781263725854_0.2634539189815869",
+      "places/asia/jaipur/jantar-mantar/jantar-mantar_1781263729288_0.1498258496810625"
+    ],
+    "jaipur-jal-mahal": [
+      "places/asia/jaipur/jal-mahal/jal-mahal_1781263791925_0.7619511904271294",
+      "places/asia/jaipur/jal-mahal/jal-mahal_1781263795834_0.1786617306949364",
+      "places/asia/jaipur/jal-mahal/jal-mahal_1781263798915_0.030418075738602113",
+      "places/asia/jaipur/jal-mahal/jal-mahal_1781263804046_0.25241643257585156"
+    ]
+  },
+  "kerala": {
+    "kerala-alleppey": [
+      "places/asia/kerala/alleppey/alleppey_1781263870029_0.9437002411743115",
+      "places/asia/kerala/alleppey/alleppey_1781263873498_0.3601466696135054"
+    ],
+    "kerala-munnar": [
+      "places/asia/kerala/munnar/munnar_1781263933396_0.3826815149140893",
+      "places/asia/kerala/munnar/munnar_1781263945291_0.4229737439792366",
+      "places/asia/kerala/munnar/munnar_1781263953756_0.5115781456442563"
+    ],
+    "kerala-kumarakom": [
+      "places/asia/kerala/kumarakom/kumarakom_1781263975165_0.40979604516631896",
+      "places/asia/kerala/kumarakom/kumarakom_1781263983685_0.4507417760432961"
+    ]
+  },
+  "mumbai": {
+    "mumbai-gateway-of-india": [
+      "places/asia/mumbai/gateway-of-india/gateway-of-india_1781264078101_0.9148062203959715",
+      "places/asia/mumbai/gateway-of-india/gateway-of-india_1781264087580_0.5887071523517883",
+      "places/asia/mumbai/gateway-of-india/gateway-of-india_1781264095089_0.4926637865153465",
+      "places/asia/mumbai/gateway-of-india/gateway-of-india_1781264106815_0.7366220305325025"
+    ],
+    "mumbai-elephanta-adasi": [
+      "places/asia/mumbai/elephanta-adasi/elephanta-adasi_1781264177037_0.19616850772774608",
+      "places/asia/mumbai/elephanta-adasi/elephanta-adasi_1781264183523_0.369313762962201"
+    ],
+    "mumbai-marine-drive": [
+      "places/asia/mumbai/marine-drive/marine-drive_1781264268077_0.7462439530341703",
+      "places/asia/mumbai/marine-drive/marine-drive_1781264274739_0.82162564828938"
+    ]
   }
+
 }

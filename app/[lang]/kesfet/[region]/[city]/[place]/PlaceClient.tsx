@@ -4,6 +4,8 @@ import Link from "next/link";
 import { slugify } from "@/lib/utils/slugify";
 import { Sparkles, MapPin, Navigation, Calendar, Info, Activity, ArrowRight } from "lucide-react";
 import PlaceSlider from "./PlaceSlider";
+import { trackPlaceViewed } from "@/lib/analytics";
+import { useEffect } from "react";
 
 const BASE_URL = "https://www.waylero.com";
 
@@ -12,6 +14,15 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
 const langPrefix = lang === "en" ? "/en" : "/tr";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${langPrefix}/kesfet/${region}/${city}/${place}`;
+
+  useEffect(() => {
+  trackPlaceViewed(
+    foundPlace.name?.[lang],
+    city,
+    region,
+    lang
+  );
+}, []);
 
   const t = isEn ? {
     badge: "EXPERIENCE POINT",

@@ -15,6 +15,7 @@ import {
 import { auth } from "@/lib/firebase";
 import { db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
+import { trackEvent } from "@/lib/analytics";
 
 
 const Map = dynamic(() => import("@/components/Map"), { ssr: false });
@@ -160,6 +161,13 @@ const [showGuide, setShowGuide] = useState(true);
       setSelectedCity(cityFromUrl);
     }
   }, [cityFromUrl]);
+  
+  useEffect(() => {
+  trackEvent("planner_started", {
+    city: selectedCity,
+    lang,
+  });
+}, []);
 
   useEffect(() => {
     if (isMapFullscreen) {
@@ -202,7 +210,9 @@ const handleGoogleLogin = async () => {
 
     const result = await signInWithPopup(auth, provider);
 
-    console.log("LOGIN RESULT:", result.user);
+    trackEvent("google_login", {
+  method: "google",
+  });
 
   } catch (err: any) {
     console.log(err);
@@ -226,7 +236,13 @@ const handleSaveTrip = async () => {
 
     const docRef = await addDoc(collection(db, "trips"), tripData);
 
-    const url = `${window.location.origin}/trip/${docRef.id}`;
+trackEvent("trip_saved", {
+  city: selectedCity,
+  place_count: selectedPlaces.length,
+  trip_id: docRef.id,
+});
+
+const url = `${window.location.origin}/trip/${docRef.id}`;
 
     setSavedUrl(url); // 👈 popup açmak için
 
@@ -239,6 +255,11 @@ const handleSaveTrip = async () => {
 
 const handleCopy = async () => {
   if (!savedUrl) return;
+
+  trackEvent("trip_link_copied", {
+    city: selectedCity,
+  });
+
   await navigator.clipboard.writeText(savedUrl);
   alert("Link kopyalandı");
 };
@@ -253,15 +274,22 @@ const formatCity = (city: string) => {
 };
 
 
-  const handleCityChange = (cityName: string) => {
-    setSelectedCity(cityName);
-    setSelectedPlaces([]);
-    setActiveStep(2);
-    
-    const params = new URLSearchParams(searchParams.toString());
-   params.set("city", cityName.toLocaleLowerCase("tr-TR"));
-    router.push(`?${params.toString()}`, { scroll: false });
-  };
+ const handleCityChange = (cityName: string) => {
+
+  trackEvent("city_selected", {
+    city: cityName,
+    lang,
+  });
+
+  setSelectedCity(cityName);
+  setSelectedPlaces([]);
+  setActiveStep(2);
+
+  const params = new URLSearchParams(searchParams.toString());
+  params.set("city", cityName.toLocaleLowerCase("tr-TR"));
+
+  router.push(`?${params.toString()}`, { scroll: false });
+};
 
   const handleNewRoute = () => {
     setItinerary([]);
@@ -272,8 +300,12 @@ const formatCity = (city: string) => {
     router.push(window.location.pathname, { scroll: false });
   };
 
-  const handleShareLink = async () => {
+ const handleShareLink = async () => {
   if (!savedUrl) return;
+
+  trackEvent("trip_shared", {
+    city: selectedCity,
+  });
 
   if (navigator.share) {
     await navigator.share({
@@ -328,25 +360,59 @@ const formatCity = (city: string) => {
 
   // ✅ DÜZELTİLEN YER 2: Seçim Mantığı
   const togglePlace = (place: Place) => {
-    setSelectedPlaces((prev) => {
-      const exists = prev.some((item) => item.slug === place.slug && item.name_tr === place.name_tr);
-      if (exists) return prev.filter((item) => !(item.slug === place.slug && item.name_tr === place.name_tr));
-      return [...prev, place];
+  setSelectedPlaces((prev) => {
+    const exists = prev.some(
+      (item) =>
+        item.slug === place.slug &&
+        item.name_tr === place.name_tr
+    );
+
+    if (exists) {
+      trackEvent("place_unselected", {
+        city: selectedCity,
+        place: place.name_en,
+      });
+
+      return prev.filter(
+        (item) =>
+          !(
+            item.slug === place.slug &&
+            item.name_tr === place.name_tr
+          )
+      );
+    }
+
+    trackEvent("place_selected", {
+      city: selectedCity,
+      place: place.name_en,
     });
-  };
+
+    return [...prev, place];
+  });
+};
 
   const handleGenerate = () => {
-    if (selectedPlaces.length === 0) {
-      alert(t.alertSelection);
-      return;
-    }
-    setIsGenerating(true);
-    setTimeout(() => {
-      setIsGenerating(false);
-      setItinerary(selectedPlaces);
-      setActiveStep(3);
-    }, 1200);
-  };
+  if (selectedPlaces.length === 0) {
+    alert(t.alertSelection);
+    return;
+  }
+
+  // 🔥 GA4 EVENT
+  trackEvent("route_generated", {
+    city: selectedCity,
+    place_count: selectedPlaces.length,
+    travel_mode: travelMode,
+    lang,
+  });
+
+  setIsGenerating(true);
+
+  setTimeout(() => {
+    setIsGenerating(false);
+    setItinerary(selectedPlaces);
+    setActiveStep(3);
+  }, 1200);
+};
 
 
   
