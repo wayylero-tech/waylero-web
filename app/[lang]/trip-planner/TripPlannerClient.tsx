@@ -12,10 +12,15 @@ import {
   User,
 } from "firebase/auth";
 
-import { auth } from "@/lib/firebase";
-import { db } from "@/lib/firebase";
+import { auth, db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { trackEvent } from "@/lib/analytics";
+
+// 👇 Böldüğümüz Yeni Bileşenleri İçeri Alıyoruz
+import CitySelector from "@/components/trip-planner/CitySelector";
+import PlaceSelector from "@/components/trip-planner/PlaceSelector";
+import ItineraryList from "@/components/trip-planner/ItineraryList";
+
 
 
 const Map = dynamic(() => import("@/components/Map"), { ssr: false });
@@ -31,10 +36,8 @@ interface Place {
   lat: number;
   lng: number;
   image?: string;
-
 }
 
-// 🌍 Dil Sözlüğü
 const translations = {
   tr: {
     heroTitle: "Senin Rotan",
@@ -64,26 +67,19 @@ const translations = {
     devMessage: "Bu araç şu an beta aşamasındadır. Yakında yapay zeka ile tam rota optimizasyonu ve yeni şehirler eklenecek!",
     devButton: "ANLAYIŞINIZ İÇİN TEŞEKKÜR EDERİZ",
     saveSuccess: "Planınız kaydedildi. Seyahat rotanıza artık her zaman erişebilirsiniz.",
-     savedTitle: "🎉 Gezi başarıyla kaydedildi",
-  savedDesc: "Bu gezi rotasını görmek istediğin kişilerle paylaşabilir ya da aşağıdaki linki kopyalayıp doğrudan iletebilirsin.",
-  copy: "📋 Kopyala",
-  close: "Kapat",
-  loginSaveText:
-  "Bu gezi rotasını Google hesabın ile kaydedebilir, istediğin zaman uygulamada tekrar görüntüleyebilirsin.",
-
-saveTripText:
-  "Bu rotayı hesabına kaydederek istediğin zaman uygulamada yeniden görüntüleyebilirsin.",
-
-googleLogin:
-  "GOOGLE İLE GİRİŞ YAP 🔐",
-
-saveTrip: "ROTAYI KAYDET 💾", // senin en son satırın
+    savedTitle: "🎉 Gezi başarıyla kaydedildi",
+    savedDesc: "Bu gezi rotasını görmek istediğin kişilerle paylaşabilir ya da aşağıdaki linki kopyalayıp doğrudan iletebilirsin.",
+    copy: "📋 Kopyala",
+    close: "Kapat",
+    loginSaveText: "Bu gezi rotasını Google hesabın ile kaydedebilir, istediğin zaman uygulamada tekrar görüntüleyebilirsin.",
+    saveTripText: "Bu rotayı hesabına kaydederek istediğin zaman uygulamada yeniden görüntüleyebilirsin.",
+    googleLogin: "GOOGLE İLE GİRİŞ YAP 🔐",
+    saveTrip: "ROTAYI KAYDET 💾",
     guideStep1: "Keşfetmek istediğiniz şehri sol taraftaki menüden seçerek planlamaya başlayabilirsiniz.",
     guideStep2: "Listede bulunan mekanların üzerine tıklayarak gezi duraklarınızı belirleyebilirsiniz.",
     guideStep3: "Harika! Gezi rotanız başarıyla oluşturuldu. Aşağıdan rotanızı inceleyebilir, kaydedebilir veya sevdiklerinizle paylaşabilirsiniz.",
   },
   en: {
-    // ... eski çevirilerin (aynen kalsın) ...
     guideStep1: "You can start planning by selecting the city you want to explore from the menu on the left.",
     guideStep2: "You can determine your travel stops by clicking on the places on the map or in the list.",
     guideStep3: "Great! Your travel itinerary has been successfully created. You can review, save, or share your route below.",
@@ -100,7 +96,7 @@ saveTrip: "ROTAYI KAYDET 💾", // senin en son satırın
     stopsSub: "Click on the places you want to visit, buddy.",
     selectedCount: "PLACES SELECTED",
     alertSelection: "Buddy, you must select at least one place!",
-    generating: "🌀 CALCULATING...",
+    generating: "CALCULATING...",
     continue: "CONTINUE PLANNING →",
     yourRoute: "Your Route",
     share: "SHARE 🔗",
@@ -113,23 +109,15 @@ saveTrip: "ROTAYI KAYDET 💾", // senin en son satırın
     devAlert: "Under Development",
     devMessage: "This tool is currently in beta. Full AI route optimization and more cities are coming soon!",
     devButton: "THANK YOU FOR YOUR UNDERSTANDING",
-      saveSuccess: "Your trip has been saved. You can access your route anytime.",
-        savedTitle: "🎉 Trip saved successfully",
-  savedDesc: "You can share this trip with anyone you want or copy the link below and send it directly.",
-  copy: "📋 Copy",
-  close: "Close",
-  loginSaveText:
-  "You can save this travel route with your Google account and view it anytime in the app.",
-
-saveTripText:
-  "Save this route to your account and access it anytime in the app.",
-
-googleLogin:
-  "SIGN IN WITH GOOGLE 🔐",
-
-saveTrip:
-  "SAVE ROUTE 💾",
-
+    saveSuccess: "Your trip has been saved. You can access your route anytime.",
+    savedTitle: "🎉 Trip saved successfully",
+    savedDesc: "You can share this trip with anyone you want or copy the link below and send it directly.",
+    copy: "📋 Copy",
+    close: "Close",
+    loginSaveText: "You can save this travel route with your Google account and view it anytime in the app.",
+    saveTripText: "Save this route to your account and access it anytime in the app.",
+    googleLogin: "SIGN IN WITH GOOGLE 🔐",
+    saveTrip: "SAVE ROUTE 💾",
   }
 };
 
@@ -150,11 +138,16 @@ export default function TripPlannerClient({ lang = "tr" }: { lang: "tr" | "en" }
   const [isMapFullscreen, setIsMapFullscreen] = useState(false);
   const contentRef = useRef(null);
   const reactToPrintFn = useReactToPrint({ contentRef });
- const [savedUrl, setSavedUrl] = useState<string | null>(null);
- const [user, setUser] = useState<User | null>(null);
-  const [isTripStarted, setIsTripStarted] = useState(false);
+  const [savedUrl, setSavedUrl] = useState<string | null>(null);
+  const [user, setUser] = useState<User | null>(null);
   const [travelMode, setTravelMode] = useState("driving");
-const [showGuide, setShowGuide] = useState(true);
+  const [showGuide, setShowGuide] = useState(true);
+
+const [userPreferences] = useState({
+  wantsHotels: true,
+  wantsTours: true,
+  wantsEvents: true,
+});
 
   useEffect(() => {
     if (cityFromUrl) {
@@ -163,161 +156,123 @@ const [showGuide, setShowGuide] = useState(true);
   }, [cityFromUrl]);
   
   useEffect(() => {
-  trackEvent("planner_started", {
-    city: selectedCity,
-    lang,
-  });
-}, []);
-
-  useEffect(() => {
-    if (isMapFullscreen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-
-    return () => {
-      document.body.style.overflow = "auto";
-    };
-  }, [isMapFullscreen]);
-
-  useEffect(() => {
-    const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        setIsMapFullscreen(false);
-      }
-    };
-
-    window.addEventListener("keydown", handleEsc);
-
-    return () => {
-      window.removeEventListener("keydown", handleEsc);
-    };
+    trackEvent("planner_started", { city: selectedCity, lang });
   }, []);
 
   useEffect(() => {
-  const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-    console.log("AUTH STATE:", currentUser);
-    setUser(currentUser);
-  });
+    document.body.style.overflow = isMapFullscreen ? "hidden" : "auto";
+    return () => { document.body.style.overflow = "auto"; };
+  }, [isMapFullscreen]);
 
-  return () => unsubscribe();
-}, []);
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => { if (e.key === "Escape") setIsMapFullscreen(false); };
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, []);
 
-const handleGoogleLogin = async () => {
-  try {
-    const provider = new GoogleAuthProvider();
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe();
+  }, []);
 
-    const result = await signInWithPopup(auth, provider);
+  const handleGoogleLogin = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      await signInWithPopup(auth, provider);
+      trackEvent("google_login", { method: "google" });
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
-    trackEvent("google_login", {
-  method: "google",
-  });
-
-  } catch (err: any) {
-    console.log(err);
+  const handleSaveTrip = async (currentUser = user) => {
+  // 1. Eğer parametre olarak gelen veya state'teki user yoksa ÖNCE GİRİŞ YAPTIR
+  if (!currentUser) {
+    try {
+      const provider = new GoogleAuthProvider();
+      const result = await signInWithPopup(auth, provider);
+      trackEvent("google_login", { method: "google" });
+      
+      // Giriş başarılı olduysa, yeni gelen kullanıcı bilgisiyle bu fonksiyonu tekrar tetikle
+      if (result.user) {
+        handleSaveTrip(result.user);
+      }
+    } catch (err) {
+      console.error("Giriş hatası:", err);
+    }
+    return; // Giriş penceresi açıldığı için ilk çalışmayı burada kes
   }
-};
 
-const handleSaveTrip = async () => {
-  if (!user) {
-    handleGoogleLogin();
-    return;
-  }
-
+  // 2. Eğer kullanıcı varsa (veya az önce giriş yaptıysa) ASIL KAYIT BURADA BAŞLAR
   try {
     const tripData = {
-      userId: user.uid,
+      userId: currentUser.uid, // Kesinlikle güvenli ID
       city: selectedCity,
       places: selectedPlaces,
       travelMode,
       createdAt: serverTimestamp(),
     };
-
+    
     const docRef = await addDoc(collection(db, "trips"), tripData);
-
-trackEvent("trip_saved", {
-  city: selectedCity,
-  place_count: selectedPlaces.length,
-  trip_id: docRef.id,
-});
-
-const url = `${window.location.origin}/trip/${docRef.id}`;
-
-    setSavedUrl(url); // 👈 popup açmak için
-
-    console.log("SHARE URL:", url);
-
+    trackEvent("trip_saved", {
+      city: selectedCity,
+      place_count: selectedPlaces.length,
+      trip_id: docRef.id,
+    });
+    
+    const url = `${window.location.origin}/trip/${docRef.id}`;
+    setSavedUrl(url); // Artık bu pop-up sadece başarılı kayıt sonrası açılır!
   } catch (err) {
     console.error("Save error:", err);
   }
 };
 
-const handleCopy = async () => {
-  if (!savedUrl) return;
+  const handleCopy = async () => {
+    if (!savedUrl) return;
+    trackEvent("trip_link_copied", { city: selectedCity });
+    await navigator.clipboard.writeText(savedUrl);
+    alert("Link kopyalandı");
+  };
 
-  trackEvent("trip_link_copied", {
-    city: selectedCity,
-  });
+  const formatCity = (city: string) => {
+    if (!city) return "";
+    return city
+      .toLocaleLowerCase("tr-TR")
+      .split(" ")
+      .map(w => w.charAt(0).toLocaleUpperCase("tr-TR") + w.slice(1))
+      .join(" ");
+  };
 
-  await navigator.clipboard.writeText(savedUrl);
-  alert("Link kopyalandı");
-};
-
-const formatCity = (city: string) => {
-  if (!city) return "";
-  return city
-    .toLocaleLowerCase("tr-TR")
-    .split(" ")
-    .map(w => w.charAt(0).toLocaleUpperCase("tr-TR") + w.slice(1))
-    .join(" ");
-};
-
-
- const handleCityChange = (cityName: string) => {
-
-  trackEvent("city_selected", {
-    city: cityName,
-    lang,
-  });
-
-  setSelectedCity(cityName);
-  setSelectedPlaces([]);
-  setActiveStep(2);
-
-  const params = new URLSearchParams(searchParams.toString());
-  params.set("city", cityName.toLocaleLowerCase("tr-TR"));
-
-  router.push(`?${params.toString()}`, { scroll: false });
-};
+  const handleCityChange = (cityName: string) => {
+    trackEvent("city_selected", { city: cityName, lang });
+    setSelectedCity(cityName);
+    setSelectedPlaces([]);
+    setActiveStep(2);
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("city", cityName.toLocaleLowerCase("tr-TR"));
+    router.push(`?${params.toString()}`, { scroll: false });
+  };
 
   const handleNewRoute = () => {
     setItinerary([]);
     setSelectedPlaces([]);
     setActiveStep(1);
     setShowAllCities(false);
-    
     router.push(window.location.pathname, { scroll: false });
   };
 
- const handleShareLink = async () => {
-  if (!savedUrl) return;
-
-  trackEvent("trip_shared", {
-    city: selectedCity,
-  });
-
-  if (navigator.share) {
-    await navigator.share({
-      title: "Gezi Rotası",
-      text: "Oluşturduğum gezi planı",
-      url: savedUrl,
-    });
-  } else {
-    await navigator.clipboard.writeText(savedUrl);
-    alert("Link kopyalandı");
-  }
-};
+  const handleShareLink = async () => {
+    if (!savedUrl) return;
+    trackEvent("trip_shared", { city: selectedCity });
+    if (navigator.share) {
+      await navigator.share({ title: "Gezi Rotası", text: "Oluşturduğum gezi planı", url: savedUrl });
+    } else {
+      await navigator.clipboard.writeText(savedUrl);
+      alert("Link kopyalandı");
+    }
+  };
 
   const steps = [
     { id: 1, label: t.steps[0], icon: "📍" },
@@ -325,17 +280,14 @@ const formatCity = (city: string) => {
     { id: 3, label: t.steps[2], icon: "📅" },
   ];
 
-  const cities = useMemo(() => {
-    return [
-      { id: "istanbul", name: lang === "tr" ? "istanbul" : "Istanbul", icon: "🕌" },
-      { id: "nevsehir", name: lang === "tr" ? "Nevsehir" : "Nevsehir", icon: "🎈" },
-      { id: "antalya", name: "Antalya", icon: "🎡" },
-      { id: "paris", name: "Paris", icon: "🗼" },
-      { id: "roma", name: lang === "tr" ? "Roma" : "Rome", icon: "🏛️" },
-    ];
-  }, [lang]);
+  const cities = useMemo(() => [
+    { id: "istanbul", name: lang === "tr" ? "istanbul" : "Istanbul", icon: "🕌" },
+    { id: "nevsehir", name: lang === "tr" ? "Nevsehir" : "Nevsehir", icon: "🎈" },
+    { id: "antalya", name: "Antalya", icon: "🎡" },
+    { id: "paris", name: "Paris", icon: "🗼" },
+    { id: "roma", name: lang === "tr" ? "Roma" : "Rome", icon: "🏛️" },
+  ], [lang]);
 
-  
   const countries = useMemo(() => {
     const data = globalPlacesData as Place[];
     return [...new Set(data.map((p) => p.country))];
@@ -347,57 +299,37 @@ const formatCity = (city: string) => {
     return [...new Set(data.filter((p) => p.country === selectedCountry).map((p) => p.city))];
   }, [selectedCountry]);
 
-  // ✅ DÜZELTİLEN YER 1: Filtreleme Mantığı
   const filteredPlaces = useMemo(() => {
     const data = (globalPlacesData as Place[]) || [];
     return data.filter((p) => {
       const normalize = (str: string) => 
         str?.toLocaleLowerCase('tr-TR').replace(/i̇/g, 'i').replace(/ı/g, 'i').trim();
-      
       return normalize(p.city) === normalize(selectedCity);
     });
   }, [selectedCity]);
 
-  // ✅ DÜZELTİLEN YER 2: Seçim Mantığı
   const togglePlace = (place: Place) => {
-  setSelectedPlaces((prev) => {
-    const exists = prev.some(
-      (item) =>
-        item.slug === place.slug &&
-        item.name_tr === place.name_tr
-    );
-
-    if (exists) {
-      trackEvent("place_unselected", {
-        city: selectedCity,
-        place: place.name_en,
-      });
-
-      return prev.filter(
-        (item) =>
-          !(
-            item.slug === place.slug &&
-            item.name_tr === place.name_tr
-          )
-      );
-    }
-
-    trackEvent("place_selected", {
-      city: selectedCity,
-      place: place.name_en,
+    setSelectedPlaces((prev) => {
+      const exists = prev.some((item) => item.slug === place.slug && item.name_tr === place.name_tr);
+      if (exists) {
+        trackEvent("place_unselected", { city: selectedCity, place: place.name_en });
+        return prev.filter((item) => !(item.slug === place.slug && item.name_tr === place.name_tr));
+      }
+      trackEvent("place_selected", { city: selectedCity, place: place.name_en });
+      return [...prev, place];
     });
+  };
 
-    return [...prev, place];
-  });
-};
-
-  const handleGenerate = () => {
+const handleGenerate = () => {
   if (selectedPlaces.length === 0) {
     alert(t.alertSelection);
     return;
   }
 
-  // 🔥 GA4 EVENT
+  handleFinalPlanning();
+};
+
+const handleFinalPlanning = async () => {
   trackEvent("route_generated", {
     city: selectedCity,
     place_count: selectedPlaces.length,
@@ -407,26 +339,36 @@ const formatCity = (city: string) => {
 
   setIsGenerating(true);
 
-  setTimeout(() => {
-    setIsGenerating(false);
+  try {
+    const ordered = [...selectedPlaces];
+
+    ordered.sort((a, b) => {
+      const distA = Math.abs(a.lat) + Math.abs(a.lng);
+      const distB = Math.abs(b.lat) + Math.abs(b.lng);
+      return distA - distB;
+    });
+
+    // ⚡ DÜZ LİSTE
+    setItinerary(ordered);
+    setActiveStep(3);
+
+  } catch (err) {
+    console.error(err);
     setItinerary(selectedPlaces);
     setActiveStep(3);
-  }, 1200);
+  } finally {
+    setIsGenerating(false);
+  }
 };
 
-
-  
   return (
     <main className="min-h-screen bg-[#fdfaf7] text-gray-900 pb-20">
-      {/* 🚀 EKRANIN TAM ORTASINDA ÇIKAN BETA MODAL */}
-      
-
+  {/* 📋 SEYAHAT TERCİHLERİ POP-UP'I */}
+  
       <section className="bg-[#1e445e] pt-16 pb-28 px-6">
         <div className="max-w-[1400px] mx-auto text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-2 leading-tight">
-            {activeStep === 3 
-  ? t.heroTitle 
-  : `${formatCity(selectedCity)} ${lang === 'tr' ? 'Rotası' : 'Route'}`}
+            {activeStep === 3 ? t.heroTitle : `${formatCity(selectedCity)} ${lang === 'tr' ? 'Rotası' : 'Route'}`}
           </h1>
           <p className="text-blue-100/60 text-sm font-medium uppercase tracking-widest">{t.heroSub}</p>
         </div>
@@ -451,282 +393,120 @@ const formatCity = (city: string) => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {(activeStep === 1 || activeStep === 2) && (
             <div className="lg:col-span-3 space-y-4">
-              <div className="bg-white rounded-[1.5rem] p-6 shadow-sm border border-gray-100">
-                {!showAllCities ? (
-                  <>
-                    <h2 className="text-sm font-black text-gray-400 uppercase mb-6 tracking-widest">{t.changeCity}</h2>
-                    <div className="grid grid-cols-1 gap-2">
-                      {cities.map((c) => (
-                        <button
-                          key={c.id}
-                          onClick={() => handleCityChange(c.name)}
-                          className={`flex items-center gap-4 p-3 rounded-xl border-2 transition-all ${
-                            selectedCity.toLowerCase() === c.name.toLowerCase()
-                              ? "bg-[#1e445e] border-[#1e445e] text-white shadow-md scale-[1.02]"
-                              : "bg-white border-transparent text-gray-500 hover:bg-orange-50 hover:border-orange-100"
-                          }`}
-                        >
-                          <span className="text-xl">{c.icon}</span>
-                          <span className="text-xs font-bold">{c.name}</span>
-                        </button>
-                      ))}
-                      <button
-                        onClick={() => setShowAllCities(true)}
-                        className="flex items-center gap-4 p-3 rounded-xl border-2 bg-white text-gray-500 hover:bg-blue-50 hover:border-blue-200"
-                      >
-                        <span className="text-xl">🌍</span>
-                        <span className="text-xs font-bold">{t.otherCities}</span>
-                      </button>
-                    </div>
-                  </>
-                ) : !selectedCountry ? (
-                  <>
-                    <h2 className="text-sm font-black text-gray-400 uppercase mb-6">{t.selectCountry}</h2>
-                    <div className="grid gap-2">
-                      {countries.map((country) => (
-                        <button
-                          key={country}
-                          onClick={() => setSelectedCountry(country)}
-                          className="p-3 border rounded-xl text-xs font-bold hover:bg-orange-50"
-                        >
-                          {country.toUpperCase()}
-                        </button>
-                      ))}
-                    </div>
-                    <button onClick={() => setShowAllCities(false)} className="mt-4 text-xs text-gray-400">{t.back}</button>
-                  </>
-                ) : (
-                  <>
-                    <h2 className="text-sm font-black text-gray-400 uppercase mb-6">{t.selectCity}</h2>
-                    <div className="grid gap-2">
-                      {citiesByCountry.map((city) => (
-                        <button
-                          key={city}
-                          onClick={() => handleCityChange(city)}
-                          className="p-3 border rounded-xl text-xs font-bold hover:bg-blue-50"
-                        >
-                          {city}
-                        </button>
-                      ))}
-                    </div>
-                    <button onClick={() => setSelectedCountry(null)} className="mt-4 text-xs text-gray-400">{t.back}</button>
-                  </>
-                )}
-              </div>
+              <CitySelector
+                lang={lang}
+                t={t}
+                cities={cities}
+                countries={countries}
+                citiesByCountry={citiesByCountry}
+                selectedCity={selectedCity}
+                selectedCountry={selectedCountry}
+                showAllCities={showAllCities}
+                setShowAllCities={setShowAllCities}
+                setSelectedCountry={setSelectedCountry}
+                handleCityChange={handleCityChange}
+              />
             </div>
           )}
 
           <div className={`${activeStep === 3 ? "lg:col-span-12" : "lg:col-span-9"} space-y-6 transition-all`}>
-  
-  {/* ======================================================== */}
-  {/* 🗺️ ADIM 1 BİLGİLENDİRME POP-UP'I */}
-  {/* ======================================================== */}
-  {activeStep === 1 && showGuide && (
-    <div className="bg-orange-50 border border-orange-200 p-4 rounded-2xl flex justify-between items-center shadow-sm">
-      <div className="flex items-center gap-3">
-        <span className="text-lg">🗺️</span>
-        <p className="text-xs font-medium text-orange-800">{t.guideStep1}</p>
-      </div>
-      <button onClick={() => setShowGuide(false)} className="text-orange-400 hover:text-orange-600 text-sm font-bold pl-4">✕</button>
-    </div>
-  )}
-
-  {activeStep === 1 && (
-    <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100">
-      <h3 className="text-sm font-bold mb-4 text-gray-500">{t.mapTitle}</h3>
-      <div className="h-[500px] w-full rounded-2xl overflow-hidden">
-        <Map places={selectedPlaces} />
-      </div>
-    </div>
-  )}
-  {/* ======================================================== */}
-  {/* 🚩 ADIM 2 BİLGİLENDİRME POP-UP'I */}
-  {/* ======================================================== */}
-  {activeStep === 2 && showGuide && (
-    <div className="bg-blue-50 border border-blue-100 p-4 rounded-2xl flex justify-between items-center shadow-sm">
-      <div className="flex items-center gap-3">
-        <span className="text-lg">🎯</span>
-        <p className="text-xs font-medium text-blue-800">{t.guideStep2}</p>
-      </div>
-      <button onClick={() => setShowGuide(false)} className="text-blue-400 hover:text-blue-600 text-sm font-bold pl-4">✕</button>
-    </div>
-  )}
-
-           {activeStep === 2 && (
-  <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100 flex flex-col gap-6">
-
-    {/* 🔥 HARİTA ÜSTTE SABİT */}
-    <div className="w-full">
-      <h3 className="text-sm font-bold mb-3 text-gray-500">{t.mapTitle}</h3>
-
-      <div className="h-[420px] w-full rounded-2xl overflow-hidden border">
-        <Map
-  places={selectedPlaces}
-/>
-      </div>
-    </div>
-
-    {/* 🔥 SEÇİM LİSTESİ ALTTA */}
-    <div className="flex flex-col">
-
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
-        <div>
-          <h3 className="text-2xl font-serif font-bold text-gray-900 uppercase">
-            {t.stopsTitle}
-          </h3>
-          <p className="text-xs text-gray-400 font-medium">
-            {t.stopsSub}
-          </p>
-        </div>
-
-        <div className="bg-orange-400 text-white px-4 py-2 rounded-xl text-[10px] font-black shadow-lg">
-          {selectedPlaces.length} {t.selectedCount}
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 max-h-[400px] overflow-y-auto pr-2">
-        {filteredPlaces.map((place: Place, index: number) => {
-          const isSelected = selectedPlaces.some(
-            (p) => p.slug === place.slug && p.name_tr === place.name_tr
-          );
-
-          return (
-            <div
-              key={`${place.slug}-${index}`}
-              onClick={() => togglePlace(place)}
-              className={`group p-4 rounded-2xl border-2 cursor-pointer transition-all flex items-center justify-between
-              ${isSelected
-                ? "border-[#1e445e] bg-blue-50/30 shadow-inner"
-                : "border-gray-50 bg-gray-50/50 hover:border-orange-200"
-              }`}
-            >
-              <div className="flex items-center gap-4">
-                
-                <div className={`w-12 h-12 rounded-2xl overflow-hidden flex items-center justify-center transition-all
-                  ${isSelected ? "ring-2 ring-[#1e445e] scale-110" : "shadow-sm"}`}
-                >
-                  {place.image ? (
-                    <img
-                      src={`${CLOUDINARY_BASE}${place.image}`}
-                      alt={lang === "tr" ? place.name_tr : place.name_en}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className={`w-full h-full flex items-center justify-center
-                      ${isSelected ? "bg-[#1e445e] text-white" : "bg-white text-gray-300"}`}>
-                      📍
-                    </div>
-                  )}
+            {activeStep === 1 && showGuide && (
+              <div className="bg-orange-50 border border-orange-200 p-4 rounded-2xl flex justify-between items-center shadow-sm">
+                <div className="flex items-center gap-3">
+                  <span className="text-lg">🗺️</span>
+                  <p className="text-xs font-medium text-orange-800">{t.guideStep1}</p>
                 </div>
-
-                <div>
-                  <h4 className="font-bold text-sm text-gray-800">
-                    {lang === "tr" ? place.name_tr : place.name_en}
-                  </h4>
-                  <p className="text-[10px] text-gray-400 uppercase">
-                    {lang === "tr" ? place.name_en : place.name_tr}
-                  </p>
-                </div>
+                <button onClick={() => setShowGuide(false)} className="text-orange-400 hover:text-orange-600 text-sm font-bold pl-4">✕</button>
               </div>
+            )}
 
-              <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center
-                ${isSelected ? "bg-green-500 border-green-500" : "border-gray-200"}`}
-              >
-                {isSelected && <span className="text-white text-[10px]">✓</span>}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <button
-        onClick={handleGenerate}
-        disabled={isGenerating || selectedPlaces.length === 0}
-        className="w-full bg-[#1e445e] text-white py-4 rounded-2xl font-black hover:bg-orange-500 transition-all"
-      >
-        {isGenerating ? t.generating : t.continue}
-      </button>
-
+            {activeStep === 1 && (
+  <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100">
+    <h3 className="text-sm font-bold mb-4 text-gray-500">{t.mapTitle}</h3>
+    <div className="h-[500px] w-full rounded-2xl overflow-hidden">
+      {/* 🌟 lang={lang} prop'u eklendi */}
+      <Map places={selectedPlaces} lang={lang} />
     </div>
   </div>
 )}
 
-           {activeStep === 3 && (
-  <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 flex flex-col">
-    
-    {/* ======================================================== */}
-    {/* ✨ ADIM 3 BİLGİLENDİRME POP-UP'I */}
-    {/* ======================================================== */}
-    {showGuide && (
-      <div className="m-6 mb-0 bg-green-50 border border-green-100 p-4 rounded-2xl flex justify-between items-center shadow-sm">
-        <div className="flex items-center gap-3">
-          <span className="text-lg">✨</span>
-          <p className="text-xs font-medium text-green-800">{t.guideStep3}</p>
-        </div>
-        <button onClick={() => setShowGuide(false)} className="text-green-400 hover:text-green-600 text-sm font-bold pl-4">✕</button>
-      </div>
-    )}
+            {activeStep === 2 && showGuide && (
+              <div className="bg-blue-50 border border-blue-100 p-4 rounded-2xl flex justify-between items-center shadow-sm">
+                <div className="flex items-center gap-3">
+                  <span className="text-lg">🎯</span>
+                  <p className="text-xs font-medium text-blue-800">{t.guideStep2}</p>
+                </div>
+                <button onClick={() => setShowGuide(false)} className="text-blue-400 hover:text-blue-600 text-sm font-bold pl-4">✕</button>
+              </div>
+            )}
+
+            {activeStep === 2 && (
+  <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100 flex flex-col gap-6">
+    <div className="w-full">
+      <h3 className="text-sm font-bold mb-3 text-gray-500">{t.mapTitle}</h3>
+      <div className="h-[420px] w-full rounded-2xl overflow-hidden border">
+        {/* 🌟 lang={lang} prop'u eklendi */}
+        <Map places={selectedPlaces} lang={lang} />
+                  </div>
+                </div>
+                <PlaceSelector
+                  lang={lang}
+                  t={t}
+                  filteredPlaces={filteredPlaces}
+                  selectedPlaces={selectedPlaces}
+                  togglePlace={togglePlace}
+                  handleGenerate={handleGenerate}
+                  isGenerating={isGenerating}
+                  cloudinaryBase={CLOUDINARY_BASE}
+                />
+              </div>
+            )}
+
+            {activeStep === 3 && (
+              <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 flex flex-col">
+                {showGuide && (
+                  <div className="m-6 mb-0 bg-green-50 border border-green-100 p-4 rounded-2xl flex justify-between items-center shadow-sm">
+                    <div className="flex items-center gap-3">
+                      <span className="text-lg">✨</span>
+                      <p className="text-xs font-medium text-green-800">{t.guideStep3}</p>
+                    </div>
+                    <button onClick={() => setShowGuide(false)} className="text-green-400 hover:text-green-600 text-sm font-bold pl-4">✕</button>
+                  </div>
+                )}
                 <div className="p-6 border-b border-gray-50 flex items-center justify-between bg-white/80 backdrop-blur-md sticky top-0 z-10">
                   <h3 className="text-xs font-black text-gray-400 uppercase tracking-[0.2em]">{t.yourRoute}</h3>
-                <div className="flex flex-col items-end gap-2">
-
-  {!user ? (
-    <>
-      <p className="text-[11px] text-gray-400 font-medium text-right max-w-[260px] leading-relaxed">
-        {t.loginSaveText}
-      </p>
-
-      <button
-        onClick={handleGoogleLogin}
-        className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-2xl text-[11px] font-black transition-all shadow-xl active:scale-95"
-      >
-        {t.googleLogin}
-      </button>
-    </>
-  ) : (
-    <>
-      <p className="text-[11px] text-gray-400 font-medium text-right max-w-[260px] leading-relaxed">
-        {t.saveTripText}
-      </p>
-
-      <button
-        onClick={handleSaveTrip}
-        className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-2xl text-[11px] font-black transition-all shadow-xl active:scale-95"
-      >
-        {t.saveTrip}
-      </button>
-    </>
-  )}
-
-
-</div>
+                  <div className="flex flex-col items-end gap-2">
+                    {!user ? (
+                      <>
+                        <p className="text-[11px] text-gray-400 font-medium text-right max-w-[260px] leading-relaxed">{t.loginSaveText}</p>
+                        <button onClick={handleGoogleLogin} className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-2xl text-[11px] font-black transition-all shadow-xl active:scale-95">{t.googleLogin}</button>
+                      </>
+                    ) : (
+                      <>
+                        <p className="text-[11px] text-gray-400 font-medium text-right max-w-[260px] leading-relaxed">{t.saveTripText}</p>
+                        <button 
+  onClick={() => handleSaveTrip(user)} 
+  className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-2xl text-[11px] font-black"
+>
+  {!user ? t.googleLogin : t.saveTrip}
+</button>
+                      </>
+                    )}
+                  </div>
                 </div>
 
                 <div ref={contentRef} className="p-10 space-y-8">
-                  <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-sm border border-gray-100 z-0">
-                    <Map 
-                      key="normal-map" 
-                      places={itinerary} 
-                      onFullscreen={() => setIsMapFullscreen(true)} 
-                      showControls={true} // BURA EKLENDİ
-                    />
-                  </div>
-
-                  {itinerary.map((item, index) => (
-                    <div key={index} className="flex gap-8 items-start relative pb-8 last:pb-0 border-l-2 border-dashed border-gray-100 ml-6 pl-12">
-                      <div className="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-[#1e445e] border-4 border-white shadow-md z-10"></div>
-                      <div className="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm flex-1 hover:shadow-xl hover:border-orange-100 transition-all">
-                        <div className="flex justify-between items-center mb-2">
-                          <span className="text-[10px] font-black text-orange-400 uppercase tracking-widest">
-                            {t.stop} #{index + 1}
-                          </span>
-                        </div>
-                        <h4 className="font-bold text-gray-900 text-xl tracking-tight">
-                          {lang === "tr" ? item.name_tr : item.name_en}
-                        </h4>
-                      </div>
-                    </div>
-                  ))}
+  <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-sm border border-gray-100 z-0">
+    {/* 🌟 lang={lang} prop'u eklendi */}
+    <Map key="normal-map" places={itinerary} onFullscreen={() => setIsMapFullscreen(true)} showControls={true} lang={lang} />
+  </div>
+                  <ItineraryList 
+  lang={lang} 
+  t={t} 
+  itinerary={itinerary} 
+  preferences={userPreferences}
+  city={selectedCity}
+/>
                 </div>
 
                 <div className="p-8 border-t border-gray-50 flex justify-center">
@@ -741,73 +521,29 @@ const formatCity = (city: string) => {
       </section>
 
       {isMapFullscreen && (
-        <div className="fixed inset-0 z-[99999] bg-black animate-in fade-in duration-200">
-          <div className="w-full h-screen relative overflow-hidden">
-            {/* 👇 İŞTE BURAYA showControls={true} EKLİYORUZ 👇 */}
-            <Map 
-              key="fullscreen-map" 
-              places={itinerary} 
-              showControls={true} 
-            />
-          </div>
+  <div className="fixed inset-0 z-[99999] bg-black animate-in fade-in duration-200">
+    <div className="w-full h-screen relative overflow-hidden">
+      {/* 🌟 lang={lang} prop'u eklendi */}
+      <Map key="fullscreen-map" places={itinerary} showControls={true} lang={lang} />
+    </div>
+    <button onClick={() => setIsMapFullscreen(false)} className="absolute bottom-6 right-6 z-[999999] bg-white text-black px-6 py-3.5 rounded-2xl font-black shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center gap-1 border border-gray-100 text-xs tracking-wider uppercase">✕ KAPAT</button>
+  </div>
+      )}
 
-          <button
-            onClick={() => setIsMapFullscreen(false)}
-            className="absolute bottom-6 right-6 z-[999999] bg-white text-black px-6 py-3.5 rounded-2xl font-black shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center gap-1 border border-gray-100 text-xs tracking-wider uppercase"
-          >
-            ✕ KAPAT
-          </button>
+      {savedUrl && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[9999] px-4">
+          <div className="bg-white p-6 rounded-2xl w-full max-w-md space-y-5 shadow-2xl">
+            <h2 className="text-xl font-bold text-gray-900">{t.savedTitle}</h2>
+            <p className="text-sm text-gray-500 leading-relaxed">{t.savedDesc}</p>
+            <div className="bg-gray-50 border rounded-xl p-3 break-all text-xs text-gray-700">{savedUrl}</div>
+            <div className="flex gap-2">
+              <button onClick={handleCopy} className="flex-1 bg-blue-600 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-blue-700 transition">{t.copy}</button>
+              <button onClick={handleShareLink} className="flex-1 bg-green-600 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-green-700 transition">{t.share}</button>
+            </div>
+            <button onClick={() => setSavedUrl(null)} className="w-full text-xs text-gray-400 hover:text-gray-600 transition">{t.close}</button>
+          </div>
         </div>
       )}
-    {savedUrl && (
-  <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[9999] px-4">
-    <div className="bg-white p-6 rounded-2xl w-full max-w-md space-y-5 shadow-2xl">
-
-      {/* Başlık */}
-      <h2 className="text-xl font-bold text-gray-900">
-        {t.savedTitle}
-      </h2>
-
-      {/* Açıklama */}
-      <p className="text-sm text-gray-500 leading-relaxed">
-        {t.savedDesc}
-      </p>
-
-      {/* Link */}
-      <div className="bg-gray-50 border rounded-xl p-3 break-all text-xs text-gray-700">
-        {savedUrl}
-      </div>
-
-      {/* Butonlar */}
-      <div className="flex gap-2">
-        <button
-          onClick={handleCopy}
-          className="flex-1 bg-blue-600 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-blue-700 transition"
-        >
-          {t.copy}
-        </button>
-
-        <button
-          onClick={handleShareLink}
-          className="flex-1 bg-green-600 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-green-700 transition"
-        >
-          {t.share}
-        </button>
-      </div>
-
-      {/* Kapat */}
-      <button
-        onClick={() => setSavedUrl(null)}
-        className="w-full text-xs text-gray-400 hover:text-gray-600 transition"
-      >
-        {t.close}
-      </button>
-
-    </div>
-  </div>
-)}
-
-  </main>
-
+    </main>
   );
 } 

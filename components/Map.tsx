@@ -22,20 +22,47 @@ function FitBounds({ places }: { places: any[] }) {
   const map = useMap();
 
   useEffect(() => {
-    if (!places || places.length === 0) return;
+    // 1. Map ve places kontrolü
+    if (!map || !places || places.length === 0) return;
 
-    const bounds = L.latLngBounds(
-      places.map((p) => [p.lat, p.lng])
+    // 2. TypeScript hatasını önlemek için 'as any' kullanıyoruz
+    const m = map as any; 
+
+    // 3. Leaflet hazır mı kontrolü
+    if (m._leaflet_pos === undefined && !map.getContainer()) return;
+
+    // 🛡️ KALKAN: Sadece geçerli koordinatları olan mekanları filtrele
+    const validPlaces = places.filter(
+      (p) => p && p.lat !== undefined && p.lng !== undefined && p.lat !== null && p.lng !== null
     );
 
-    map.fitBounds(bounds, {
-      padding: [80, 80],
-      maxZoom: 14,
-    });
-  }, [places, map]);
+    // Eğer geçerli koordinatı olan hiç mekan kalmadıysa haritayı sınırlandırmaya zorlama, çık
+    if (validPlaces.length === 0) return;
+
+    // Sadece temiz koordinatlarla bounds oluştur
+    const bounds = L.latLngBounds(
+      validPlaces.map((p) => [Number(p.lat), Number(p.lng)])
+    );
+
+    const timer = setTimeout(() => {
+      try {
+        map.fitBounds(bounds, {
+          padding: [80, 80],
+          maxZoom: 14,
+          });
+      } catch (e) {
+        console.error("FitBounds hata:", e);
+      }
+    }, 200);
+
+    return () => clearTimeout(timer);
+  }, [map, places]);
 
   return null;
 }
+
+
+
 
 function getDistanceInMetres(lat1: number, lon1: number, lat2: number, lon2: number) {
   const R = 6371e3;
@@ -126,14 +153,16 @@ function MapEventsHandler({ setIsMapInteracted }: { setIsMapInteracted: (val: bo
   return null;
 }
 
-export default function Map({ 
-  places, 
+export default function Map({
+  places,
   onFullscreen,
-  showControls = false 
-}: { 
-  places: any[]; 
-  onFullscreen?: () => void; 
+  showControls = false,
+  lang = "tr",
+}: {
+  places: any[];
+  onFullscreen?: () => void;
   showControls?: boolean;
+  lang?: "tr" | "en";
 }) {
   const [orderedPlaces, setOrderedPlaces] = useState<any[]>(places);
   
@@ -156,6 +185,44 @@ export default function Map({
   const requestTimestampsRef = useRef<number[]>([]);
   const routeCacheRef = useRef<{ [key: string]: { coords: [number, number][]; distance: number; duration: number } }>({});
 
+  const translations = {
+  tr: {
+    startTrip: "🚀 Geziyi Başlat",
+    stopTrip: "🛑 Geziyi Bitir",
+    waitingLocation: "⏳ Konum Bekleniyor...",
+    tooManyRequests: "⚠️ Çok Fazla İstek Atıldı",
+    backToLocation: "🎯 KONUMUMA DÖN",
+    routeInfo: "Rota Bilgisi",
+    navigationInfo: "Navigasyon Bilgisi",
+    fullscreen: "TAM EKRAN",
+    rateLimit:
+      "⚠️ Sistem güvenliği için çok hızlı tıkladınız. Lütfen 15 saniye bekleyin.",
+    routeHelp:
+      "ℹ️ Geziyi Başlat dediğinizde, anlık konumunuzdan seçili mekanlara giden en kısa rota otomatik olarak oluşturulur.",
+    hour: "SAAT",
+    minute: "DK",
+  },
+  en: {
+    startTrip: "🚀 Start Trip",
+    stopTrip: "🛑 End Trip",
+    waitingLocation: "⏳ Waiting For Location...",
+    tooManyRequests: "⚠️ Too Many Requests",
+    backToLocation: "🎯 BACK TO MY LOCATION",
+    routeInfo: "Route Information",
+    navigationInfo: "Navigation Information",
+    fullscreen: "FULLSCREEN",
+    rateLimit:
+      "⚠️ You are sending requests too quickly. Please wait 15 seconds.",
+    routeHelp:
+      "ℹ️ When you press Start Trip, the shortest route from your current location to the selected places will be created automatically.",
+    hour: "HOUR",
+    minute: "MIN",
+  },
+};
+
+const t = translations[lang];
+console.log("MAP LANG:", lang);
+
   
   useEffect(() => {
     delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -171,11 +238,26 @@ export default function Map({
     }
   }, [places, isTripStarted]);
 
-  const mapCenter: [number, number] = isTripStarted && userLocation
-    ? userLocation
-    : orderedPlaces.length > 0
-    ? [orderedPlaces[0].lat, orderedPlaces[0].lng]
-    : [41.0082, 28.9784];
+ // 🎯 HARİTA ÇÖKMESİNİ ENGELLEYEN GÜVENLİ MERKEZ HESAPLAMASI
+const getSafeCenter = (): [number, number] => {
+  // 1. Gezi başladıysa ve kullanıcı konumu varsa oraya odaklan
+  if (isTripStarted && userLocation && userLocation[0] !== undefined && userLocation[1] !== undefined) {
+    return userLocation;
+  }
+  
+  // 2. Eğer gezi başlamadıysa ama listede mekan varsa ilk mekana odaklan (Koordinat kontrolüyle birlikte)
+  if (orderedPlaces && orderedPlaces.length > 0) {
+    const firstPlace = orderedPlaces[0];
+    if (firstPlace && firstPlace.lat !== undefined && firstPlace.lng !== undefined) {
+      return [Number(firstPlace.lat), Number(firstPlace.lng)];
+    }
+  }
+  
+  // 3. Yukarıdakilerin hiçbiri yoksa veya veriler bozuksa harita patlamasın diye İstanbul'u baz al
+  return [41.0082, 28.9784];
+};
+
+const mapCenter = getSafeCenter();
 
   useEffect(() => {
     const fetchRoute = async () => {
@@ -312,7 +394,9 @@ export default function Map({
   };
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
+    // 🌟 EN DIŞTAKİ DIV'E key={lang} EKLEDİK! 
+    // Dil değiştiği an React tüm harita DOM'unu çöpe atıp sıfırdan ayağa kaldıracak.
+    <div key={lang} className="relative w-full h-full overflow-hidden">
       
       {/* 🚗 KONTROL PANELİ */}
       {showControls && orderedPlaces && orderedPlaces.length > 0 && (
@@ -363,7 +447,7 @@ export default function Map({
 
               const nextState = !isTripStarted;
               setIsTripStarted(nextState);
-              setIsMapInteracted(false); // Yeni gezi durumunda takibi sıfırla
+              setIsMapInteracted(false);
 
               if (
                 nextState &&
@@ -382,58 +466,70 @@ export default function Map({
                 : "bg-gray-300 text-gray-500 cursor-not-allowed"
             } ${isRateLimited ? "bg-amber-500 text-white cursor-not-allowed animate-pulse" : ""}`}
           >
-            {isRateLimited 
-              ? "⚠️ Çok Fazla İstek Atıldı" 
-              : isTripStarted 
-              ? "🛑 Geziyi Bitir" 
-              : userLocation 
-              ? "🚀 Geziyi Başlat" 
-              : "⏳ Konum Bekleniyor..."}
+            {isRateLimited
+              ? t.tooManyRequests
+              : isTripStarted
+              ? t.stopTrip
+              : userLocation
+              ? t.startTrip
+              : t.waitingLocation}
           </button>
 
           <div className="bg-white/90 backdrop-blur-sm p-2.5 rounded-xl shadow-lg text-[10px] font-bold text-gray-600 border border-gray-100">
             {isRateLimited ? (
-              <span className="text-red-500 animate-pulse">⚠️ Sistem güvenliği için çok hızlı tıkladınız. Lütfen 15 saniye bekleyin.</span>
+              <span className="text-red-500 animate-pulse">
+                {t.rateLimit}
+              </span>
             ) : (
-              <span>ℹ️ <b>Geziyi Başlat</b> dediğinizde, anlık konumunuzdan seçili mekanlara giden en kısa rota otomatik olarak oluşturulur.</span>
+              <span>{t.routeHelp}</span>
             )}
           </div>
         </div>
       )}
 
-      {/* 🎯 "BENİ BUL / ODAKLAN" BUTONU - Kullanıcı haritayı oynatınca sol altta belirir */}
+      {/* 🎯 "BENİ BUL / ODAKLAN" BUTONU */}
       {isTripStarted && isMapInteracted && userLocation && (
         <button
-          onClick={() => setIsMapInteracted(false)} // Basınca kilidi kaldırır ve haritayı yeniden anlık konuma uçurur
+          onClick={() => setIsMapInteracted(false)}
           type="button"
           className="absolute bottom-16 left-4 z-[10000] bg-white text-gray-950 p-3.5 rounded-2xl shadow-2xl border border-gray-100 hover:scale-105 active:scale-95 transition-all text-sm font-black flex items-center gap-1.5"
         >
-          🎯 KONUMUMA DÖN
+          {t.backToLocation}
         </button>
       )}
 
-     {/* 📏 ROTA BİLGİSİ */}
-{showControls && orderedPlaces && orderedPlaces.length > 0 && routeCoords.length > 0 && (
-  <div className="absolute top-4 right-4 z-[9999] bg-white px-5 py-4 rounded-2xl shadow-2xl">
-    <div className="text-xs font-black text-gray-400 uppercase">
-      {isTripStarted ? "Navigasyon Bilgisi" : "Rota Bilgisi"}
-    </div>
-    <div className="mt-2 text-sm font-bold">📏 {distance.toFixed(1)} KM</div>
-    
-    {/* ⏱ Burası güncellendi: Dakikayı Saat ve Dakikaya çeviriyoruz */}
-    <div className="text-sm font-bold">
-      ⏱ {(() => {
-        const totalMinutes = Math.round(duration);
-        if (totalMinutes < 60) {
-          return `${totalMinutes} DK`;
-        }
-        const hours = Math.floor(totalMinutes / 60);
-        const minutes = totalMinutes % 60;
-        return minutes > 0 ? `${hours} SAAT ${minutes} DK` : `${hours} SAAT`;
-      })()}
-    </div>
-  </div>
-)}
+      {/* 📏 ROTA BİLGİSİ */}
+      {showControls &&
+        orderedPlaces &&
+        orderedPlaces.length > 0 &&
+        routeCoords.length > 0 && (
+          <div className="absolute top-4 right-4 z-[9999] bg-white px-5 py-4 rounded-2xl shadow-2xl">
+            <div className="text-xs font-black text-gray-400 uppercase">
+              {isTripStarted ? t.navigationInfo : t.routeInfo}
+            </div>
+
+            <div className="mt-2 text-sm font-bold">
+              📏 {distance.toFixed(1)} KM
+            </div>
+
+            <div className="text-sm font-bold">
+              ⏱ {(() => {
+                const totalMinutes = Math.round(duration);
+
+                if (totalMinutes < 60) {
+                  return `${totalMinutes} ${t.minute}`;
+                }
+
+                const hours = Math.floor(totalMinutes / 60);
+                const minutes = totalMinutes % 60;
+
+                return minutes > 0
+                  ? `${hours} ${t.hour} ${minutes} ${t.minute}`
+                  : `${hours} ${t.hour}`;
+              })()}
+            </div>
+          </div>
+      )}
 
       {/* ⛶ TAM EKRAN BUTONU */}
       {onFullscreen && (
@@ -442,13 +538,12 @@ export default function Map({
           type="button"
           className="absolute bottom-4 right-4 z-[10000] bg-white text-gray-900 px-4 py-2.5 rounded-xl shadow-2xl font-black text-xs hover:scale-105 active:scale-95 transition-all flex items-center gap-1 border border-gray-200"
         >
-          <span>⛶</span> TAM EKRAN
+          <span>⛶</span> {t.fullscreen}
         </button>
       )}
 
       {/* 🗺 HARİTA */}
       <MapContainer center={mapCenter} zoom={12} className="w-full h-full z-0">
-        {/* 🌟 Güncellenmiş MapController ve Yeni Eklenen Olay Yakalayıcı */}
         <MapController center={mapCenter} isMapInteracted={isMapInteracted} />
         <MapEventsHandler setIsMapInteracted={setIsMapInteracted} />
         
@@ -483,46 +578,52 @@ export default function Map({
           </>
         )}
 
-        {orderedPlaces.map((place, index) => {
-          const icon = divIcon({
-            className: "custom-div-icon",
-            html: place.image
-              ? `<div style="
-                  width:40px;
-                  height:40px;
-                  border-radius:12px;
-                  overflow:hidden;
-                  border:2px solid white;
-                  box-shadow:0 4px 10px rgba(0,0,0,0.2);
-                ">
-                  <img src="${CLOUDINARY_BASE}${place.image}" 
-                       style="width:100%;height:100%;object-fit:cover;" />
-                </div>`
-              : `<div style="
-                  width:40px;
-                  height:40px;
-                  border-radius:12px;
-                  background:#1e445e;
-                  display:flex;
-                  align-items:center;
-                  justify-content:center;
-                  color:white;
-                  font-weight:900;
-                ">📍</div>`,
-            iconSize: [40, 40],
-            iconAnchor: [20, 40],
-          });
+        {/* 🎯 SÜPER GÜVENLİ DÖNGÜ */}
+        {orderedPlaces
+          .filter((place) => place && place.lat !== undefined && place.lng !== undefined && place.lat !== null && place.lng !== null)
+          .map((place, index) => {
+            const icon = divIcon({
+              className: "custom-div-icon",
+              html: place.image
+                ? `<div style="
+                    width:40px;
+                    height:40px;
+                    border-radius:12px;
+                    overflow:hidden;
+                    border:2px solid white;
+                    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+                  ">
+                    <img src="${CLOUDINARY_BASE}${place.image}" 
+                         style="width:100%;height:100%;object-fit:cover;" />
+                  </div>`
+                : `<div style="
+                    width:40px;
+                    height:40px;
+                    border-radius:12px;
+                    background:#1e445e;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    color:white;
+                    font-weight:900;
+                  ">📍</div>`,
+              iconSize: [40, 40],
+              iconAnchor: [20, 40],
+            });
 
-          return (
-            <Marker key={place.slug} position={[place.lat, place.lng]} icon={icon}>
-              <Tooltip permanent direction="top" offset={[0, -30]}>
-                <div className="font-bold">
-                  {index + 1}. {place.name_tr}
-                </div>
-              </Tooltip>
-            </Marker>
-          );
-        })}
+            // Üst componentten gelen dile göre TR veya EN ismini seçiyoruz
+            const currentPlaceName = lang === "tr" ? place.name_tr : (place.name_en || place.name);
+
+            return (
+              <Marker key={`${place.slug || index}-${lang}`} position={[Number(place.lat), Number(place.lng)]} icon={icon}>
+                <Tooltip permanent direction="top" offset={[0, -30]}>
+                  <div className="font-bold">
+                    {index + 1}. {currentPlaceName}
+                  </div>
+                </Tooltip>
+              </Marker>
+            );
+          })}
       </MapContainer>
     </div>
   );
