@@ -78,10 +78,11 @@ async function fetchEvents(
     const res = await fetch(finalUrl, {
       next: { revalidate: 21600 },
       headers: {
-        Accept: "application/json",
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      },
+  'Accept': 'application/json',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'Referer': 'https://www.waylero.com/', // Bunu ekle
+  'Origin': 'https://www.waylero.com/'    // Bunu da ekle
+}
     });
 
     if (!res.ok) {
