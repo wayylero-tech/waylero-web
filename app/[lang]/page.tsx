@@ -1,10 +1,12 @@
+// app/[lang]/page.tsx (Dosyanın Tam ve Eksiksiz Hali)
+
 import HomeClient from "./HomeClient";
 import toursData from "@/data/tours.json";
 import { wayleroLiveVideos } from "@/videos";
 import type { Metadata } from "next";
+import { fetchEtkinlikData } from "@/lib/fetchEvents"; // Ortak fonksiyonu import ettik
 
 // 1. Metadata artık direkt params'tan dili alıyor
-
 export async function generateMetadata(
   { params }: { params: Promise<{ lang: string }> }
 ): Promise<Metadata> {
@@ -122,30 +124,19 @@ export default async function Page(
   const videos = wayleroLiveVideos.slice(0, 6);
 
   let events: any[] = [];
+  
   try {
-    // Tam adres yerine API yolunu ve parametreleri değişkene al
-    const apiPath = `/api/events?take=4&city_ids=40&lang=${lang}`;
-    
-    // Başına BASE_SITE_URL ekleyerek tam adresi oluştur
-    const finalUrl = `https://www.waylero.com${apiPath}`;
-
-    const res = await fetch(finalUrl, {
-      next: { revalidate: 7200 },
-      headers: {
-        'Accept': 'application/json',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-      }
+    // HTTP fetch isteğini tamamen uçurduk, doğrudan sunucu katmanından çekiyoruz
+    const data = await fetchEtkinlikData({
+      take: "4",
+      cityId: "40", // İstanbul (veya belirlediğin city_id) korundu
+      lang: lang
     });
 
-    if (res.ok) {
-      const data = await res.json();
-      // API'den gelen yapıda items olduğu için burası doğru
-      events = data?.items || [];
-    } else {
-      console.error("API Cevap Vermedi, Kod:", res.status);
-    }
+    events = data?.items || [];
   } catch (err) {
-    console.error("Fetch Patladı:", err);
+    console.error("Ana sayfa doğrudan veri çekme hatası:", err);
+    events = []; // Hata durumunda boş dizi kalsın ki skeleton çalışsın veya sayfa çökmesin
   }
 
   return (

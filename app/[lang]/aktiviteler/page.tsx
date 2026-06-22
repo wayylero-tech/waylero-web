@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import ActivityList from "./ActivityList";
 import { cityMap } from "@/lib/cityMap";
 import { Suspense } from 'react';
+import { fetchEtkinlikData } from "@/lib/fetchEvents";
+
 
 // Canlı site adresini buraya sabitledik
 const BASE_SITE_URL = "https://www.waylero.com";
@@ -106,43 +108,26 @@ export default async function ActivitiesPage({
 
   let initialEvents: any[] = [];
 
+  // 🔥 DEĞİŞEN KISIM BURASI KANKA
   try {
-    const apiParams = new URLSearchParams();
-    
-    if (cityData) {
-      apiParams.append("city_ids", cityData.id.toString());
-    } else {
-      const allCityIds = Object.values(cityMap).join(",");
-      apiParams.append("city_ids", allCityIds);
-    }
+    const selectedCityIds = cityData 
+      ? cityData.id.toString() 
+      : Object.values(cityMap).join(",");
 
-    if (startDate) apiParams.append("start_gte", startDate);
-    if (endDate) apiParams.append("end_lte", endDate);
-    
-    apiParams.append("take", "50");
-    apiParams.append("lang", currentLang);
-
-    // ÇÖZÜM: Tam URL ve Kimlik Bilgisi (Headers) ekledik
-    const finalUrl = `${BASE_SITE_URL}/api/events?${apiParams.toString()}`;
-
-    const res = await fetch(finalUrl, {
-      next: { revalidate: 21600 },
-      headers: {
-  'Accept': 'application/json',
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-  'Referer': 'https://www.waylero.com/', // Bunu ekle
-  'Origin': 'https://www.waylero.com/'    // Bunu da ekle
-}
+    // HTTP isteği atmıyoruz! Doğrudan sunucu fonksiyonunu tetikliyoruz.
+    const data = await fetchEtkinlikData({
+      cityId: selectedCityIds,
+      startParam: startDate,
+      endParam: endDate,
+      take: "50",
+      lang: currentLang
     });
 
-    if (res.ok) {
-      const data = await res.json();
-      initialEvents = data.items || data.data || (Array.isArray(data) ? data : []);
-    } else {
-      console.error("API Hatası:", res.status);
-    }
+    initialEvents = data.items || data.data || (Array.isArray(data) ? data : []);
   } catch (err) {
-    console.error("Fetch Hatası:", err);
+    console.error("Doğrudan sunucu veri çekme hatası:", err);
+    // Hata durumunda arayüzün patlamaması için boş dizi set ediyoruz
+    initialEvents = []; 
   }
 
   return (

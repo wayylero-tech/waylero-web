@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import ActivityList from "../ActivityList";
 import { cityMap } from "@/lib/cityMap";
 import { Suspense } from "react";
-import Link from "next/link"; // Butonlar için Link ekledik
+import Link from "next/link"; 
+import { fetchEtkinlikData } from "@/lib/fetchEvents"; // 🔥 1. Ortak fonksiyonumuzu buraya import ettik
 
 const BASE_SITE_URL = "https://www.waylero.com";
 
@@ -31,13 +32,13 @@ const NEIGHBOR_CITIES: { [key: string]: string[] } = {
   lefkosa: ["girne", "gazimagusa"],
   kktc: ["girne", "gazimagusa"],
   istanbul: ["kocaeli", "tekirdag", "sakarya", "bursa"],
-ankara: ["eskisehir", "konya", "kirikkale", "bolu"],
-izmir: ["manisa", "aydin", "mugla", "balikesir"],
-antalya: ["mersin", "mugla", "konya", "burdur"],
-bursa: ["istanbul", "kocaeli", "balikesir", "eskisehir"],
-konya: ["ankara", "antalya", "kayseri", "mersin"],
-adana: ["mersin", "gaziantep", "hatay", "osmaniye"],
-trabzon: ["rize", "ordu", "samsun", "erzurum"]
+  ankara: ["eskisehir", "konya", "kirikkale", "bolu"],
+  izmir: ["manisa", "aydin", "mugla", "balikesir"],
+  antalya: ["mersin", "mugla", "konya", "burdur"],
+  bursa: ["istanbul", "kocaeli", "balikesir", "eskisehir"],
+  konya: ["ankara", "antalya", "kayseri", "mersin"],
+  adana: ["mersin", "gaziantep", "hatay", "osmaniye"],
+  trabzon: ["rize", "ordu", "samsun", "erzurum"]
 };
 
 function slugify(text: string) {
@@ -56,48 +57,7 @@ function slugify(text: string) {
     .trim();
 }
 
-async function fetchEvents(
-  cityId: number,
-  lang: string,
-  startDate?: string,
-  endDate?: string
-) {
-  try {
-    const params = new URLSearchParams();
-
-    params.append("city_ids", cityId.toString());
-
-    if (startDate) params.append("start_gte", startDate);
-    if (endDate) params.append("end_lte", endDate);
-
-    params.append("take", "50");
-    params.append("lang", lang);
-
-    const finalUrl = `${BASE_SITE_URL}/api/events?${params.toString()}`;
-
-    const res = await fetch(finalUrl, {
-      next: { revalidate: 21600 },
-      headers: {
-  'Accept': 'application/json',
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-  'Referer': 'https://www.waylero.com/', // Bunu ekle
-  'Origin': 'https://www.waylero.com/'    // Bunu da ekle
-}
-    });
-
-    if (!res.ok) {
-      console.error("API Hatası:", res.status, finalUrl);
-      return [];
-    }
-
-    const data = await res.json();
-
-    return data.items || data.data || (Array.isArray(data) ? data : []);
-  } catch (err) {
-    console.error("Fetch Hatası:", err);
-    return [];
-  }
-}
+// ⚠️ ESKİ HTTP FETCH YAPAN FONKSİYONU TAMAMEN SİLEBİLİRSİN YA DA YERİNE BUNU KULLANABİLİRSİN.
 
 /* ---------------- SEO ---------------- */
 
@@ -152,7 +112,6 @@ export default async function CityActivitiesPage({
   const currentLang = lang === "en" ? "en" : "tr";
   const citySlug = slugify(city);
 
-  // Şehir haritasını tersine çevirip slug -> id/name yapıyoruz
   const slugMap = Object.fromEntries(
     Object.entries(cityMap).map(([k, v]) => [slugify(k), { id: v, name: k }])
   );
@@ -167,17 +126,25 @@ export default async function CityActivitiesPage({
     );
   }
 
-  // Sadece ilgili şehrin etkinliklerini çekiyoruz (Tek bir fetch, tertemiz!)
-  const cityEvents = await fetchEvents(
-    cityData.id,
-    currentLang,
-    s.start_gte || "",
-    s.end_lte || ""
-  );
+  // 🔥 DEĞİŞEN KISIM BURASI: HTTP isteği yerine ortak fonksiyonu içeriden çağırıyoruz
+  let cityEvents: any[] = [];
+  try {
+    const data = await fetchEtkinlikData({
+      cityId: cityData.id.toString(),
+      lang: currentLang,
+      startParam: s.start_gte || undefined,
+      endParam: s.end_lte || undefined,
+      take: "50"
+    });
+    
+    cityEvents = data.items || data.data || (Array.isArray(data) ? data : []);
+  } catch (err) {
+    console.error("Şehir sayfası doğrudan veri çekme hatası:", err);
+    cityEvents = [];
+  }
 
   const cityName = cityData.name.toUpperCase();
 
-  // Etkinlik yoksa buton olarak gösterilecek komşu şehirleri hazırlıyoruz
   let displayNeighbors: { name: string; slug: string }[] = [];
   
   if (cityEvents.length === 0) {
@@ -195,7 +162,6 @@ export default async function CityActivitiesPage({
     <Suspense fallback={<div>Yükleniyor...</div>}>
       <div className="w-full">
         
-        {/* ETKİNLİK BULUNAMADI VE KOMŞU ŞEHİR BUTONLARI */}
         {cityEvents.length === 0 && (
           <div className="bg-amber-50/60 border-b p-8 text-center flex flex-col items-center justify-center">
             <h1 className="font-bold text-2xl text-amber-900 mb-2">{cityName}</h1>
@@ -205,7 +171,6 @@ export default async function CityActivitiesPage({
                 : `No upcoming events found for ${cityData.name}.`}
             </p>
 
-            {/* Komşu Şehir Buton Blokları */}
             {displayNeighbors.length > 0 && (
               <div className="w-full max-w-md">
                 <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-3">
@@ -227,7 +192,6 @@ export default async function CityActivitiesPage({
           </div>
         )}
 
-        {/* ANA LİSTE (Eğer etkinlik varsa çalışır, yoksa boş array paslarız ActivityList kendi içinde handle eder) */}
         {cityEvents.length > 0 && (
           <ActivityList
             initialEvents={cityEvents}
@@ -238,4 +202,4 @@ export default async function CityActivitiesPage({
       </div>
     </Suspense>
   );
-} 
+}
