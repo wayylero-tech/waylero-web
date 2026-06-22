@@ -4,6 +4,7 @@ export default function SettingsView({
   handleAddAuth,
   handleDeleteAuth,
   SUPER_ADMIN_EMAIL,
+  handleUpdateEntryFee, // 🚀 Yeni: Giriş ücreti güncellemesini tetikleyecek fonksiyon prop olarak eklendi kanka
 }: any) {
   return (
     <div className="animate-in slide-in-from-right duration-300 space-y-10">
@@ -39,6 +40,76 @@ export default function SettingsView({
           <a href="https://account.heigit.org/manage/key" target="_blank" rel="noopener noreferrer" className="bg-emerald-900/10 border border-emerald-900/30 p-4 rounded-2xl flex items-center justify-between hover:border-emerald-400 transition">
             <span className="text-emerald-400 font-medium">ORS Dashboard</span> <span>↗</span>
           </a>
+        </div>
+      </section>
+
+      {/* 🎫 YENİ BÖLÜM: GİRİŞ ÜCRETİ GÜNCELLEME MERKEZİ */}
+      <section className="bg-gray-950 border border-gray-800 p-6 rounded-3xl space-y-4">
+        <h3 className="text-lg font-bold text-emerald-400 flex items-center gap-2">
+          <span>🎫</span> Yer Giriş Bilgisi Güncelleme Merkezi
+        </h3>
+        <p className="text-xs text-gray-500">
+          2000+ ikonik nokta arasından istediğin yerin giriş ücretini veya müze kart bilgisini buradan güncelleyebilirsin kanka. Boş bırakırsan kullanıcı arayüzünde görünmez.
+        </p>
+
+        <div className="space-y-4">
+          {/* Yer Belirleme Inputu */}
+          <div className="flex flex-col gap-2">
+            <label className="text-xs font-bold text-gray-400 uppercase tracking-wider">Güncellenecek Yer (Slug veya Benzersiz ID)</label>
+            <input
+              id="targetPlaceSlug"
+              type="text"
+              placeholder="ornek: kiz-kulesi veya eyfel-kulesi"
+              className="w-full bg-gray-900 border border-gray-800 rounded-xl px-4 py-3 outline-none focus:border-emerald-600 transition text-sm"
+            />
+          </div>
+
+          {/* Diller için Ücret Bilgileri */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-2">
+              <label className="text-xs font-bold text-gray-400 uppercase tracking-wider">Giriş Ücreti (Türkçe)</label>
+              <textarea
+                id="entryFeeTr"
+                rows={3}
+                placeholder="Örn: Müze Kart geçerlidir. Yetişkin: 100 TL, Öğrenci: İndirimli."
+                className="w-full bg-gray-900 border border-gray-800 rounded-xl px-4 py-3 outline-none focus:border-emerald-600 transition text-sm resize-none"
+              />
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label className="text-xs font-bold text-gray-400 uppercase tracking-wider">Entry Fee (English)</label>
+              <textarea
+                id="entryFeeEn"
+                rows={3}
+                placeholder="Örn: Museum Pass is valid. Adult: 100 TL, Student: Discounted."
+                className="w-full bg-gray-900 border border-gray-800 rounded-xl px-4 py-3 outline-none focus:border-emerald-600 transition text-sm resize-none"
+              />
+            </div>
+          </div>
+
+          {/* Gönderim Butonu */}
+          <div className="flex justify-end">
+            <button
+              onClick={() => {
+                const slugInput = document.getElementById("targetPlaceSlug") as HTMLInputElement;
+                const feeTrInput = document.getElementById("entryFeeTr") as HTMLTextAreaElement;
+                const feeEnInput = document.getElementById("entryFeeEn") as HTMLTextAreaElement;
+
+                if (handleUpdateEntryFee) {
+                  handleUpdateEntryFee({
+                    slug: slugInput?.value,
+                    entryFee: {
+                      tr: feeTrInput?.value,
+                      en: feeEnInput?.value
+                    }
+                  });
+                }
+              }}
+              className="bg-emerald-600 hover:bg-emerald-700 px-8 py-3 rounded-xl font-bold transition text-sm text-white"
+            >
+              Giriş Bilgisini Güncelle
+            </button>
+          </div>
         </div>
       </section>
 

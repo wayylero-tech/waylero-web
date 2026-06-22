@@ -2,27 +2,78 @@
 
 import Link from "next/link";
 import { slugify } from "@/lib/utils/slugify";
-import { Sparkles, MapPin, Navigation, Calendar, Info, Activity, ArrowRight } from "lucide-react";
+import { Sparkles, MapPin, Navigation, Calendar, Info, Activity, ArrowRight, Ticket } from "lucide-react";
 import PlaceSlider from "./PlaceSlider";
 import { trackPlaceViewed } from "@/lib/analytics";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
+// 🔥 entry_fees koleksiyonundan canlı okuma yapabilmek için gerekli importlar
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "@/lib/firebase";
 
 const BASE_URL = "https://www.waylero.com";
 
 export default function PlaceClient({ lang, region, city, place, foundPlace, images, nearbyPlaces }: any) {
   const isEn = lang === "en";
-const langPrefix = lang === "en" ? "/en" : "/tr";
+  const langPrefix = lang === "en" ? "/en" : "/tr";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${langPrefix}/kesfet/${region}/${city}/${place}`;
 
+  // 🎫 Canlı giriş ücretini tutacak yerel state kanka
+  const [liveEntryFee, setLiveEntryFee] = useState<string | null>(null);
+
   useEffect(() => {
-  trackPlaceViewed(
-    foundPlace.name?.[lang],
-    city,
-    region,
-    lang
-  );
-}, []);
+    // 1. Analytics tetikleme
+    trackPlaceViewed(
+      foundPlace.name?.[lang],
+      city,
+      region,
+      lang
+    );
+
+    // 2. entry_fees koleksiyonundan veriyi sorgulama (⚡ Session Storage Cache Destekli)
+    const fetchFeeData = async () => {
+      if (!place) return;
+      
+      const cacheKey = `fee_${place.toLowerCase().trim()}`;
+      const cachedData = sessionStorage.getItem(cacheKey);
+
+      // Eğer veri tarayıcı hafızasında (Cache) varsa direkt oradan oku kanka
+      if (cachedData) {
+        const parsedData = JSON.parse(cachedData);
+        const feeText = isEn ? parsedData.en : parsedData.tr;
+        if (feeText && feeText.trim() !== "") {
+          setLiveEntryFee(feeText);
+        }
+        return;
+      }
+
+      // Cache yoksa Firebase'e git
+      try {
+        const feeDocRef = doc(db, "entry_fees", place.toLowerCase().trim());
+        const feeDocSnap = await getDoc(feeDocRef);
+
+        if (feeDocSnap.exists()) {
+          const data = feeDocSnap.data();
+          
+          // Gelen ham veriyi tarayıcı hafızasına yazıyoruz ki bir daha Firebase'i yormayalım
+          sessionStorage.setItem(cacheKey, JSON.stringify({
+            tr: data.tr || "",
+            en: data.en || ""
+          }));
+
+          const feeText = isEn ? data.en : data.tr;
+          if (feeText && feeText.trim() !== "") {
+            setLiveEntryFee(feeText);
+          }
+        }
+      } catch (err) {
+        console.error("Giriş ücreti çekilirken hata oluştu kanka:", err);
+      }
+    };
+
+    fetchFeeData();
+  }, [place, isEn]);
 
   const t = isEn ? {
     badge: "EXPERIENCE POINT",
@@ -34,7 +85,8 @@ const langPrefix = lang === "en" ? "/en" : "/tr";
     distanceNote: "away",
     eventsTitle: "Events",
     eventsText: "Don't miss concerts and festivals →",
-    estimated: "Est.", // Tahmini (Kısa)
+    estimated: "Est.",
+    feeTitle: "Entry Fee",
   } : {
     badge: "DENEYİM NOKTASI",
     todo: "Burada Neler Yapılır?",
@@ -45,64 +97,42 @@ const langPrefix = lang === "en" ? "/en" : "/tr";
     distanceNote: "yakınında",
     eventsTitle: "Etkinlikleri",
     eventsText: "Konser ve festivalleri kaçırma →",
-    estimated: "Tahmini", // Tahmini
+    estimated: "Tahmini",
+    feeTitle: "Giriş Ücreti",
   };
 
   // ✅ SEO Schema (JSON-LD)
-  // ✅ SEO Schema (EN GÜNCEL & GÜÇLÜ)
-const schema = {
-  "@context": "https://schema.org",
-
-  "@type": "TouristAttraction",
-
-  "@id": canonical,
-
-  "name": foundPlace.name?.[lang],
-
-  "description": foundPlace.description?.[lang],
-
-  "url": canonical,
-
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": canonical
-  },
-
-  "image":
-    images?.[0]?.url ||
-    images?.[0] ||
-    undefined,
-
-  "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
-
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": Number(foundPlace.latitude),
-    "longitude": Number(foundPlace.longitude)
-  },
-
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": cityName,
-    "addressRegion": region
-  },
-
-  "touristType": [
-    "Tourists",
-    "Travelers",
-    "Backpackers",
-    "Photographers"
-  ],
-
-  "isAccessibleForFree": true,
-
-  "publicAccess": true,
-
-  "potentialAction": {
-    "@type": "ViewAction",
-    "target": canonical
-  }
-};
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "@id": canonical,
+    "name": foundPlace.name?.[lang],
+    "description": foundPlace.description?.[lang],
+    "url": canonical,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonical
+    },
+    "image": images?.[0]?.url || images?.[0] || undefined,
+    "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": Number(foundPlace.latitude),
+      "longitude": Number(foundPlace.longitude)
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": cityName,
+      "addressRegion": region
+    },
+    "touristType": ["Tourists", "Travelers", "Backpackers", "Photographers"],
+    "isAccessibleForFree": true,
+    "publicAccess": true,
+    "potentialAction": {
+      "@type": "ViewAction",
+      "target": canonical
+    }
+  };
 
   return (
     <main className="min-h-screen bg-white">
@@ -114,6 +144,7 @@ const schema = {
               <Sparkles size={14} />
               <span>{t.badge}</span>
             </div>
+            {/* 🌟 GOOGLE DOSTU ANA BAŞLIK */}
             <h1 className="text-5xl md:text-8xl font-serif font-bold text-gray-900 mb-6 tracking-tighter leading-tight max-w-4xl uppercase">
               {foundPlace.name?.[lang]}
             </h1>
@@ -139,131 +170,115 @@ const schema = {
       </section>
 
       {/* 2. CONTENT GRID */}
-<section className="container mx-auto px-6 py-20">
-  <div className="grid lg:grid-cols-12 gap-16">
+      <section className="container mx-auto px-6 py-20">
+        <div className="grid lg:grid-cols-12 gap-16">
 
-    {/* Main Info */}
-    <div className="lg:col-span-8 space-y-16">
-
-      <div className="prose prose-xl">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
-            <Info size={24} />
-          </div>
-
-          <h2 className="text-3xl font-serif font-bold text-gray-900 m-0">
-            {foundPlace.name?.[lang]}
-          </h2>
-        </div>
-
-        <p className="text-xl text-gray-600 leading-relaxed font-medium">
-          {foundPlace.description?.[lang]}
-        </p>
-      </div>
-
-      {foundPlace.latitude && (
-        <div className="space-y-10">
-
-          {/* HARİTA */}
-          <div className="space-y-6">
-            <div className="flex items-center gap-3">
-              <div className="p-3 bg-red-50 text-red-600 rounded-2xl">
-                <Navigation size={24} />
+          {/* Main Info */}
+          <div className="lg:col-span-8 space-y-16">
+            <div className="prose prose-xl">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
+                  <Info size={24} />
+                </div>
+                {/* 🌟 SEO İÇİN BURASI H2 OLARAK KALDI, TAM STANDART */}
+                <h2 className="text-3xl font-serif font-bold text-gray-900 m-0">
+                  {foundPlace.name?.[lang]}
+                </h2>
               </div>
-
-              <h2 className="text-3xl font-serif font-bold text-gray-900">
-                {t.location}
-              </h2>
+              <p className="text-xl text-gray-600 leading-relaxed font-medium">
+                {foundPlace.description?.[lang]}
+              </p>
             </div>
 
-            <div className="rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 h-[450px]">
-              <iframe
-                className="w-full h-full"
-                src={`https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&hl=${lang}&z=15&output=embed`}
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-              />
-            </div>
-            <div className="flex items-center justify-center mt-4">
-  <p className="text-[11px] text-gray-400 font-medium tracking-wide">
-    {foundPlace.latitude}, {foundPlace.longitude}
-  </p>
-</div>
-          </div>
-
-          {/* ✅ NASIL GİDİLİR */}
-          <div className="space-y-6">
-
-            <div className="flex items-center gap-3">
-              <div className="p-3 bg-green-50 text-green-600 rounded-2xl">
-                <Navigation size={24} />
-              </div>
-
-              <h2 className="text-3xl font-serif font-bold text-gray-900">
-                {lang === "tr" ? "Nasıl Gidilir?" : "How to Get There"}
-              </h2>
-            </div>
-
-            <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm space-y-6">
-
-              {/* GOOGLE MAPS BUTONU */}
-              <a
-                href={`https://www.google.com/maps/dir/?api=1&destination=${foundPlace.latitude},${foundPlace.longitude}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-between bg-black text-white px-6 py-5 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-gray-900 transition-all"
-              >
-                <span>
-                  {lang === "tr"
-                    ? "Google Maps ile Yol Tarifi Al"
-                    : "Get Directions with Google Maps"}
-                </span>
-
-                <ArrowRight size={18} />
-              </a>
-
-              {/* BİLGİ KARTLARI */}
-              <div className="grid md:grid-cols-2 gap-6">
-
-                <div className="bg-gray-50 rounded-2xl p-5">
-                  <h3 className="font-bold mb-2 text-gray-900">
-                    {lang === "tr" ? "Özel Araç ile" : "By Car"}
-                  </h3>
-
-                  <p className="text-sm text-gray-600 leading-relaxed">
-                    {lang === "tr"
-                      ? `${foundPlace.name?.tr} konumuna özel aracınızla kolayca ulaşabilirsiniz. Google Maps üzerinden canlı navigasyon başlatabilirsiniz.`
-                      : `You can easily reach ${foundPlace.name?.en} by car using live navigation on Google Maps.`}
-                  </p>
+            {foundPlace.latitude && (
+              <div className="space-y-10">
+                {/* HARİTA */}
+                <div className="space-y-6">
+                  <div className="flex items-center gap-3">
+                    <div className="p-3 bg-red-50 text-red-600 rounded-2xl">
+                      <Navigation size={24} />
+                    </div>
+                    {/* 🌟 SEO H2 UYUMU */}
+                    <h2 className="text-3xl font-serif font-bold text-gray-900">
+                      {t.location}
+                    </h2>
+                  </div>
+                  <div className="rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 h-[450px]">
+                    <iframe
+                      className="w-full h-full"
+                      src={`https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}&hl=${lang}&z=15&output=embed`}
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center mt-4">
+                    <p className="text-[11px] text-gray-400 font-medium tracking-wide">
+                      {foundPlace.latitude}, {foundPlace.longitude}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="bg-gray-50 rounded-2xl p-5">
-                  <h3 className="font-bold mb-2 text-gray-900">
-                    {lang === "tr" ? "Konum Bilgisi" : "Location Info"}
-                  </h3>
+                {/* NASIL GİDİLİR */}
+                <div className="space-y-6">
+                  <div className="flex items-center gap-3">
+                    <div className="p-3 bg-green-50 text-green-600 rounded-2xl">
+                      <Navigation size={24} />
+                    </div>
+                    {/* 🌟 SEO H2 UYUMU */}
+                    <h2 className="text-3xl font-serif font-bold text-gray-900">
+                      {lang === "tr" ? "Nasıl Gidilir?" : "How to Get There"}
+                    </h2>
+                  </div>
 
-                  <p className="text-sm text-gray-600 leading-relaxed">
-                    {lang === "tr"
-                      ? `${cityName}, ${region} bölgesinde yer almaktadır.`
-                      : `Located in ${cityName}, ${region}.`}
-                  </p>
+                  <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm space-y-6">
+                    <a
+                      href={`https://www.google.com/maps/dir/?api=1&destination=${foundPlace.latitude},${foundPlace.longitude}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between bg-black text-white px-6 py-5 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-gray-900 transition-all"
+                    >
+                      <span>
+                        {lang === "tr" ? "Google Maps ile Yol Tarifi Al" : "Get Directions with Google Maps"}
+                      </span>
+                      <ArrowRight size={18} />
+                    </a>
+
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="bg-gray-50 rounded-2xl p-5">
+                        {/* 🌟 SEO İÇİN H3 YAPILDI - Google Alt Başlık Mimarisi */}
+                        <h3 className="font-bold text-base mb-2 text-gray-900">
+                          {lang === "tr" ? "Özel Araç ile" : "By Car"}
+                        </h3>
+                        <p className="text-sm text-gray-600 leading-relaxed">
+                          {lang === "tr"
+                            ? `${foundPlace.name?.tr} konumuna özel aracınızla kolayca ulaşabilirsiniz. Google Maps üzerinden canlı navigasyon başlatabilirsiniz.`
+                            : `You can easily reach ${foundPlace.name?.en} by car using live navigation on Google Maps.`}
+                        </p>
+                      </div>
+
+                      <div className="bg-gray-50 rounded-2xl p-5">
+                        {/* 🌟 SEO İÇİN H3 YAPILDI */}
+                        <h3 className="font-bold text-base mb-2 text-gray-900">
+                          {lang === "tr" ? "Konum Bilgisi" : "Location Info"}
+                        </h3>
+                        <p className="text-sm text-gray-600 leading-relaxed">
+                          {lang === "tr" ? `${cityName}, ${region} bölgesinde yer almaktadır.` : `Located in ${cityName}, ${region}.`}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
               </div>
-            </div>
+            )}
           </div>
-
-        </div>
-      )}
-
-    </div>
 
           {/* Sidebar */}
           <div className="lg:col-span-4 space-y-10">
             <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
                 <Activity className="text-orange-500" size={20} />
+                {/* 🌟 SIDEBAR ALT BAŞLIĞI H3 OLARAK GÜNCELLENDİ (SEO MASTERSTROKE) */}
                 <h3 className="font-serif font-bold text-xl">{t.todo}</h3>
               </div>
               <ul className="space-y-4">
@@ -275,87 +290,108 @@ const schema = {
                 ))}
               </ul>
             </div>
-           {/* ✅ ETKİNLİKLER KARTI */}
-  {region.toLowerCase() === "turkiye" && (
-    <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg">
-      <div className="flex items-center gap-3 mb-4">
-        <Calendar size={20} />
-        <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
-      </div>
-      <p className="text-sm opacity-90 mb-6">{t.eventsText}</p>
-      <Link
-        href={`/aktiviteler?city=${slugify(city)}`}
-        className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
-      >
-        {t.eventsTitle} <ArrowRight size={18} />
-      </Link>
-    </div>
-  )}
 
-  {/* ✅ OTELLER KARTI (YENİ) */}
-  <div className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-[2.5rem] p-8 shadow-lg">
-    <div className="flex items-center gap-3 mb-4">
-      <Activity size={20} />
-      <h3 className="font-serif font-bold text-xl">
-        {lang === "tr" ? `${cityName} Otelleri` : `${cityName} Hotels`}
-      </h3>
-    </div>
-    <p className="text-sm opacity-90 mb-6">
-      {lang === "tr" ? "Konaklayacak en iyi yerleri keşfetmek için tıklayın." : "Click to discover the best places to stay."}
-    </p>
-    <Link
-      href="/hotels"
-      className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
-    >
-      {lang === "tr" ? "OTELLERİ GÖR" : "VIEW HOTELS"} <ArrowRight size={18} />
-    </Link>
-  </div>
+            {/* ✅ DİNAMİK GİRİŞ ÜCRETİ KARTI (H3 Başlığı Google Standartlarına Çekildi) */}
+            {liveEntryFee && (
+              <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm animate-in fade-in duration-300">
+                <div className="flex items-center gap-3 mb-4">
+                  <Ticket className="text-emerald-500" size={20} />
+                  {/* 🌟 GİRİŞ ÜCRETİ BAŞLIĞI ARTIK TERTEMİZ BİR H3 */}
+                  <h3 className="font-serif font-bold text-xl">{t.feeTitle}</h3>
+                </div>
+                <div className="p-4 bg-emerald-50/60 rounded-2xl border border-emerald-100">
+                  <p className="text-sm text-emerald-900 font-medium whitespace-pre-line leading-relaxed">
+                    {liveEntryFee}
+                  </p>
+                </div>
+              </div>
+            )}
 
-  {/* ✅ TURLAR KARTI (YENİ) */}
-  <div className="bg-gradient-to-br from-orange-600 to-amber-500 text-white rounded-[2.5rem] p-8 shadow-lg border border-orange-400/20">
-    <div className="flex items-center gap-3 mb-4">
-      <Navigation size={20} />
-      <h3 className="font-serif font-bold text-xl">
-        {lang === "tr" ? `${cityName} Turları` : `${cityName} Tours`}
-      </h3>
-    </div>
-    <p className="text-sm opacity-90 mb-6">
-      {lang === "tr" ? "Şehri uzman rehberlerle keşfedeceğin turlara göz at." : "Check out tours to explore the city with expert guides."}
-    </p>
-    <Link
-      href="/etkinlikler"
-      className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
-    >
-      {lang === "tr" ? "TURLARI KEŞFET" : "EXPLORE TOURS"} <ArrowRight size={18} />
-    </Link>
-  </div>
-               {/* 3. Çevreyi Keşfet Kartı (Hep Görünür) */}
-           <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
-  <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
-  <div className="space-y-6">
-    {nearbyPlaces.map((p: any) => (
-      <Link
-        key={p.slug}
-        href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-        className="flex flex-col gap-1 group"
-      >
-        <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
-          {p.name?.[lang]}
-        </span>
-        
-        {/* Mesafe ve Tahmini İbaresi */}
-        <div className="flex items-center gap-1.5">
-          <span className="text-[10px] text-blue-500 font-black uppercase tracking-widest bg-blue-50 px-1.5 py-0.5 rounded">
-            {t.estimated}
-          </span>
-          <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
-            {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
-          </span>
-        </div>
-      </Link>
-    ))}
-  </div>
-</div>
+            {/* ETKİNLİKLER KARTI */}
+            {region.toLowerCase() === "turkiye" && (
+              <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg">
+                <div className="flex items-center gap-3 mb-4">
+                  <Calendar size={20} />
+                  {/* 🌟 SEO H3 GÜNCELLEMESİ */}
+                  <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
+                </div>
+                <p className="text-sm opacity-90 mb-6">{t.eventsText}</p>
+                <Link
+                  href={`/aktiviteler?city=${slugify(city)}`}
+                  className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+                >
+                  {t.eventsTitle} <ArrowRight size={18} />
+                </Link>
+              </div>
+            )}
+
+            {/* OTELLER KARTI */}
+            <div className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-[2.5rem] p-8 shadow-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <Activity size={20} />
+                {/* 🌟 SEO H3 GÜNCELLEMESİ */}
+                <h3 className="font-serif font-bold text-xl">
+                  {lang === "tr" ? `${cityName} Otelleri` : `${cityName} Hotels`}
+                </h3>
+              </div>
+              <p className="text-sm opacity-90 mb-6">
+                {lang === "tr" ? "Konaklayacak en iyi yerleri keşfetmek için tıklayın." : "Click to discover the best places to stay."}
+              </p>
+              <Link
+                href="/hotels"
+                className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+              >
+                {lang === "tr" ? "OTELLERİ GÖR" : "VIEW HOTELS"} <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* TURLAR KARTI */}
+            <div className="bg-gradient-to-br from-orange-600 to-amber-500 text-white rounded-[2.5rem] p-8 shadow-lg border border-orange-400/20">
+              <div className="flex items-center gap-3 mb-4">
+                <Navigation size={20} />
+                {/* 🌟 SEO H3 GÜNCELLEMESİ */}
+                <h3 className="font-serif font-bold text-xl">
+                  {lang === "tr" ? `${cityName} Turları` : `${cityName} Tours`}
+                </h3>
+              </div>
+              <p className="text-sm opacity-90 mb-6">
+                {lang === "tr" ? "Şehri uzman rehberlerle keşfedeceğin turlara göz at." : "Check out tours to explore the city with expert guides."}
+              </p>
+              <Link
+                href="/etkinlikler"
+                className="flex items-center justify-between bg-white text-gray-900 px-5 py-4 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-all"
+              >
+                {lang === "tr" ? "TURLARI KEŞFET" : "EXPLORE TOURS"} <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* Çevreyi Keşfet Kartı */}
+            <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
+              {/* 🌟 SEO H3 GÜNCELLEMESİ */}
+              <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
+              <div className="space-y-6">
+                {nearbyPlaces.map((p: any) => (
+                  <Link
+                    key={p.slug}
+                    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+                    className="flex flex-col gap-1 group"
+                  >
+                    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
+                      {p.name?.[lang]}
+                    </span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[10px] text-blue-500 font-black uppercase tracking-widest bg-blue-50 px-1.5 py-0.5 rounded">
+                        {t.estimated}
+                      </span>
+                      <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
+                        {p.distance.toFixed(1)} {t.unit} {t.distanceNote}
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
