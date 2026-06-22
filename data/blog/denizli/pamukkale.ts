@@ -28,7 +28,8 @@ export const pamukkalePosts = [
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278408/places/turkey/denizli/denizli-hierapolis-antik-kenti/szr45i4re1fnwbqvy0pd.jpg",
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278406/places/turkey/denizli/denizli-hierapolis-antik-kenti/td7lznzokyscxrkslcmm.jpg",
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278417/places/turkey/denizli/denizli-pamukkale-travertenleri/ncqqjjm3hwsbm0dfro1q.jpg",
-    "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278418/places/turkey/denizli/denizli-pamukkale-travertenleri/fjto5ibitvykom6cosjr.jpg"
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278418/places/turkey/denizli/denizli-pamukkale-travertenleri/fjto5ibitvykom6cosjr.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278423/places/turkey/denizli/denizli-pamukkale-travertenleri/gjw7yjvgma6dapnksmge.jpg"
   ],
   "date": "2026-06-22",
   "city": "denizli",

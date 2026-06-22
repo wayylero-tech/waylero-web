@@ -3,7 +3,7 @@ export const laodikeiaPosts = [
   "slug": "laodikeia-antik-kenti-gezi-rehberi-2026",
   "title": {
     "tr": "Laodikeia Antik Kenti Gezi Rehberi 2026: Giriş Ücretleri,  Traian Heykeli ve Ziyaret Tavsiyeleri",
-    "en": ""
+    "en": "Laodicea Ancient City Travel Guide 2026: Entrance Fees, Traian Statue, and Visiting Recommendations"
   },
   "excerpt": {
     "tr": "Laodikeia Antik Kenti’ni ziyaret ettik! 2026 güncel giriş ücretleri, QR kodlu Müze Kart kullanımı, Traian Heykeli, antik tiyatro, gezi süresi, ulaşım bilgileri ve sıcak havada ziyaret için önemli tavsiyeler bu rehberde.",
@@ -28,7 +28,8 @@ export const laodikeiaPosts = [
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1782147079/places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147073291_0.9609267244958778.jpg",
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1782147097/places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147085948_0.033479032677901865.jpg",
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1782147084/places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147080881_0.030736983411543073.jpg",
-    "https://res.cloudinary.com/dewd42ppf/image/upload/v1782147127/places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147109907_0.4497483599055575.jpg"
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1782147127/places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147109907_0.4497483599055575.jpg",
+   " https://res.cloudinary.com/dewd42ppf/image/upload/v1782147311/places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147299818_0.5197671341959285.jpg"
   ],
   "date": "2026-06-22",
   "city": "denizli",

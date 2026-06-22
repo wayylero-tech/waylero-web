@@ -75,14 +75,23 @@ export async function GET(request: Request) {
     }
 
     const res = await fetch(apiUrl.toString(), {
-      headers: {
-        "X-Etkinlik-Token": token || "",
-        Accept: "application/json",
-      },
-      next: { revalidate: 7200 },
-    });
+  headers: {
+    "X-Etkinlik-Token": token || "",
+    "Accept": "application/json",
+    // 🔥 EN KRİTİK EKLEME: etkinlik.io'nun Vercel'i bot sanıp engellemesini önlüyoruz
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+  },
+  next: { revalidate: 7200 },
+});
 
-    const data = await res.json();
+// Hatayı daha rahat debug edebilmek için log ekleyelim:
+if (!res.ok) {
+  console.error("Etkinlik.io API yanıt vermedi, Kod:", res.status);
+  // Eğer etkinlik.io 403 verirse, uygulamanın çökmemesi için boş dizi dönelim
+  return NextResponse.json({ items: [], total_count: 0 }, { status: 200 });
+}
+
+const data = await res.json();
 
     if (!res.ok) {
       return NextResponse.json(data, { status: res.status });
