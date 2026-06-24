@@ -31,12 +31,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   const title = isEn
-    ? `Best Places in ${cityName}, ${regionName}`
-    : `${cityName} - ${regionName} Gezilecek Yerler`;
+  ? `Best Places to Visit in ${cityName} (${regionName}) | Travel Guide`
+  : `${cityName} Gezilecek Yerler 2026 | En Güzel Yerler ve Gezi Rehberi`;
 
-  const description = isEn
-    ? `Discover attractions, guides and travel tips for ${cityName}, ${regionName}.`
-    : `${cityName}, ${regionName} bölgesindeki en iyi gezilecek yerler.`;
+const description = isEn
+  ? `Discover the best places to visit in ${cityName}. Attractions, museums, nature spots, travel tips and local guides.`
+  : `${cityName} gezilecek yerler rehberi. Tarihi mekanlar, doğal güzellikler, müzeler ve keşfedilecek en güzel noktaları inceleyin.`;
 
   const pathUrl = `/${lang}/kesfet/${region}/${city}`;
   const url = `${BASE_URL}${pathUrl}`;

@@ -73,8 +73,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cityName = city.replace(/-/g, " ");
   
   const title = isEn
-    ? `${name} - Travel Guide in ${cityName}`
-    : `${name} - ${cityName} Gezi Rehberi`;
+  ? `${name} | Travel Guide`
+  : `${name} | Gezi Rehberi ve Ziyaret Bilgileri`;
 
   const description = (
     found.description?.[lang] ||

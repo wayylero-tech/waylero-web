@@ -86,12 +86,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     region.replace(/-/g, " ");
 
   const title = isEn
-    ? `Best Places to Visit in ${name}`
-    : `${name} Gezilecek Yerler`;
+  ? `Best Places to Visit in ${name} | Travel Guide`
+  : `${name} Gezilecek Yerler 2026 | En Güzel Şehirler ve Gezi Rehberi`;
 
-  const description = isEn
-    ? `Discover cities, attractions and travel guides in ${name}.`
-    : `${name} bölgesindeki en iyi gezilecek yerleri keşfedin.`;
+const description = isEn
+  ? `Discover the best cities, attractions, historical sites and travel destinations in ${name}.`
+  : `${name}'de gezilecek yerleri keşfedin. Şehirler, tarihi mekanlar, doğal güzellikler ve popüler turistik noktalar için kapsamlı gezi rehberi.`;
 
   const pathUrl = `/kesfet/${region}`;
   const url = `${BASE_URL}/${lang}${pathUrl}`;

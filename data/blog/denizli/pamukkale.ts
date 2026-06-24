@@ -23,7 +23,8 @@ export const pamukkalePosts = [
       "tr": " Pamukkale ve Hierapolis Antik Kenti Gezi Rehberi 2026: Kuzey Kapısı, Travertenler ve Ziyaret Tavsiyeleri"
     }
   },
-  "image": "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278408/places/turkey/denizli/denizli-hierapolis-antik-kenti/szr45i4re1fnwbqvy0pd.jpg",
+  "image":    "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278418/places/turkey/denizli/denizli-pamukkale-travertenleri/fjto5ibitvykom6cosjr.jpg",
+
   "gallery": [
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278408/places/turkey/denizli/denizli-hierapolis-antik-kenti/szr45i4re1fnwbqvy0pd.jpg",
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278406/places/turkey/denizli/denizli-hierapolis-antik-kenti/td7lznzokyscxrkslcmm.jpg",

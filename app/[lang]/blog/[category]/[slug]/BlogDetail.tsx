@@ -50,7 +50,7 @@ export default function BlogDetail({
 
   const allImages = post.gallery?.length ? post.gallery : post.image ? [post.image] : [];
   const gridImages = allImages.slice(0, 5);
-
+const extraImages = allImages.length - 5;
   const handleShare = async () => {
     const shareData = {
       title: displayTitle,
@@ -128,119 +128,173 @@ export default function BlogDetail({
 
         {/* TOP GALLERY GRID */}
         <div className="max-w-6xl mx-auto relative z-10 px-4 mt-12">
-          {gridImages.length > 0 && (
-            <>
-              {/* 1 IMAGE */}
-              {gridImages.length === 1 && (
-                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
-                  <div
-                    className="relative aspect-[16/9] cursor-zoom-in group"
-                    onClick={() => setLightboxImage(gridImages[0])}
-                  >
-                    <img
-                      src={`${gridImages[0]}?f=auto&q=75&w=1400`}
-                      alt={`${displayTitle} Ana Görseli`}
-                      loading="eager"
-                      fetchPriority="high"
-                      decoding="async"
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                  </div>
-                </div>
-              )}
-
-              {/* 2 IMAGES */}
-              {gridImages.length === 2 && (
-                <div className="grid grid-cols-2 gap-3 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
-                  {gridImages.map((img, idx) => (
-                    <div
-                      key={idx}
-                      className="relative aspect-[4/5] cursor-zoom-in group overflow-hidden"
-                      onClick={() => setLightboxImage(img)}
-                    >
-                      <img
-                        src={`${img}?f=auto&q=60&w=800`}
-                        alt={`${displayTitle} - Detay Görseli ${idx + 1}`}
-                        loading="lazy"
-                        decoding="async"
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {/* 3 IMAGES */}
-              {gridImages.length === 3 && (
-                <div className="grid grid-cols-3 gap-3 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white">
-                  {gridImages.map((img, idx) => (
-                    <div
-                      key={idx}
-                      className="relative aspect-[3/4] cursor-zoom-in group overflow-hidden"
-                      onClick={() => setLightboxImage(img)}
-                    >
-                      <img
-                        src={`${img}?f=auto&q=55&w=600`}
-                        alt={`${displayTitle} - Galeri Görseli ${idx + 1}`}
-                        loading="lazy"
-                        decoding="async"
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {/* 4+ IMAGES */}
-              {gridImages.length >= 4 && (
-                <div className="grid grid-cols-4 gap-2 md:gap-3 rounded-[2.5rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white bg-white aspect-[4/3] md:aspect-[21/10]">
-                  <div
-                    className="col-span-2 row-span-2 relative group overflow-hidden cursor-zoom-in"
-                    onClick={() => setLightboxImage(gridImages[0])}
-                  >
-                    <img
-                      src={`${gridImages[0]}?f=auto&q=70&w=1200`}
-                      alt={`${displayTitle} Ana Görseli`}
-                      loading="eager"
-                      fetchPriority="high"
-                      decoding="async"
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                  </div>
-
-                  {[1, 2, 3, 4].map((idx) => (
-                    <div
-                      key={idx}
-                      className="relative group overflow-hidden cursor-zoom-in bg-gray-50"
-                      onClick={() => gridImages[idx] && setLightboxImage(gridImages[idx])}
-                    >
-                      {gridImages[idx] && (
-                        <>
-                          <img
-                            src={`${gridImages[idx]}?f=auto&q=50&w=400`}
-                            alt={`${displayTitle} - Galeri Görseli ${idx}`}
-                            loading="lazy"
-                            decoding="async"
-                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                          />
-
-                          {idx === 4 && allImages.length > 5 && (
-                            <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white">
-                              <LayoutGrid size={24} className="mb-1" />
-                              <span className="text-[10px] font-black tracking-widest">
-                                +{allImages.length - 5}
-                              </span>
-                            </div>
-                          )}
-                        </>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </>
-          )}
+  {gridImages.length > 0 && (
+    <>
+      {/* 1 RESİM */}
+      {gridImages.length === 1 && (
+        <div
+          className="relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+          onClick={() => setLightboxImage(gridImages[0])}
+        >
+          <img
+            src={`${gridImages[0]}?f=auto&q=70&w=1200`}
+            alt={displayTitle}
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+          />
         </div>
+      )}
+
+      {/* 2 RESİM */}
+      {gridImages.length === 2 && (
+        <div className="grid grid-cols-2 gap-4 h-[500px]">
+          {gridImages.map((img, i) => (
+            <div
+              key={i}
+              className="relative overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+              onClick={() => setLightboxImage(img)}
+            >
+              <img
+                src={`${img}?f=auto&q=60&w=800`}
+                alt={`${displayTitle} ${i + 1}`}
+                fetchPriority={i === 0 ? "high" : "low"}
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* 3 RESİM */}
+      {gridImages.length === 3 && (
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 h-[500px]">
+          <div
+            className="relative row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+            onClick={() => setLightboxImage(gridImages[0])}
+          >
+            <img
+              src={`${gridImages[0]}?f=auto&q=70&w=1200`}
+              alt={displayTitle}
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+
+          {gridImages.slice(1, 3).map((img, i) => (
+            <div
+              key={i}
+              className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+              onClick={() => setLightboxImage(img)}
+            >
+              <img
+                src={`${img}?f=auto&q=60&w=600`}
+                alt={`${displayTitle} ${i + 2}`}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* 4 RESİM */}
+      {gridImages.length === 4 && (
+        <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
+          <div
+            className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+            onClick={() => setLightboxImage(gridImages[0])}
+          >
+            <img
+              src={`${gridImages[0]}?f=auto&q=70&w=1200`}
+              alt={displayTitle}
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+
+          <div
+            className="relative col-span-2 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+            onClick={() => setLightboxImage(gridImages[1])}
+          >
+            <img
+              src={`${gridImages[1]}?f=auto&q=60&w=800`}
+              alt={`${displayTitle} 2`}
+              loading="lazy"
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+            />
+          </div>
+
+          {gridImages.slice(2, 4).map((img, i) => (
+            <div
+              key={i}
+              className="relative col-span-1 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+              onClick={() => setLightboxImage(img)}
+            >
+              <img
+                src={`${img}?f=auto&q=50&w=400`}
+                alt={`${displayTitle} ${i + 3}`}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* 5+ RESİM */}
+      {gridImages.length >= 5 && (
+        <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
+          <div
+            className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+            onClick={() => setLightboxImage(gridImages[0])}
+          >
+            <img
+              src={`${gridImages[0]}?f=auto&q=70&w=1200`}
+              alt={displayTitle}
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
+
+          {gridImages.slice(1, 5).map((img, i) => (
+            <div
+              key={i}
+              className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+              onClick={() => setLightboxImage(img)}
+            >
+              <img
+                src={`${img}?f=auto&q=50&w=400`}
+                alt={`${displayTitle} ${i + 2}`}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+              />
+
+              {i === 3 && allImages.length > 5 && (
+                <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] flex flex-col items-center justify-center text-white z-10">
+                  <span className="text-2xl font-black">
+                    +{allImages.length - 5}
+                  </span>
+                  <span className="text-[10px] font-bold uppercase tracking-widest">
+                    Fotoğraf
+                  </span>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </>
+  )}
+</div>
       </section>
 
       {/* CONTENT SECTION */}
