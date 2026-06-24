@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Calendar, BookOpen, Sparkles, LayoutGrid, Mail, Share2, MapPin, Compass, Heart } from "lucide-react";
 import Link from "next/link";
 import BlogViewCounter from "@/components/BlogViewCounter";
+import EzoicScripts from "@/components/EzoicScripts";
 
 interface Post {
   slug: string;
@@ -108,6 +109,8 @@ const extraImages = allImages.length - 5;
 
   return (
      <>
+      {/* İŞTE BİZİM PAKET BURAYA GELECEK */}
+      <EzoicScripts />
     <BlogViewCounter slug={post.slug} />
     <main className="min-h-screen bg-white pb-32">
       {/* HEADER SECTION */}
