@@ -3,7 +3,8 @@ import ActivityList from "../ActivityList";
 import { cityMap } from "@/lib/cityMap";
 import { Suspense } from "react";
 import Link from "next/link"; 
-import { fetchEtkinlikData } from "@/lib/fetchEvents"; // 🔥 1. Ortak fonksiyonumuzu buraya import ettik
+import { notFound } from "next/navigation"; // 🚀 GERÇEK 404 İÇİN EKLEDİK
+import { fetchEtkinlikData } from "@/lib/fetchEvents";
 
 const BASE_SITE_URL = "https://www.waylero.com";
 
@@ -57,8 +58,6 @@ function slugify(text: string) {
     .trim();
 }
 
-// ⚠️ ESKİ HTTP FETCH YAPAN FONKSİYONU TAMAMEN SİLEBİLİRSİN YA DA YERİNE BUNU KULLANABİLİRSİN.
-
 /* ---------------- SEO ---------------- */
 
 export async function generateMetadata({
@@ -75,16 +74,34 @@ export async function generateMetadata({
   );
 
   const cityData = slugMap[citySlug];
-  const cityName = cityData?.name || city;
+  
+  // 🚀 Şehir sistemde yoksa botlar taramasın
+  if (!cityData) return { title: "Waylero" };
+
+  const cityName = cityData.name || city;
+
+  // 🚀 ÖNEMLİ: Etkinlik var mı yok mu metadata içinde de kontrol ediyoruz!
+  let hasEvents = true;
+  try {
+    const data = await fetchEtkinlikData({
+      cityId: cityData.id.toString(),
+      lang: currentLang,
+      take: "1" // Sadece etkinlik var mı yok mu anlamak için 1 tane çekiyoruz
+    });
+    const events = data.items || data.data || (Array.isArray(data) ? data : []);
+    if (events.length === 0) hasEvents = false;
+  } catch {
+    hasEvents = false;
+  }
 
   const t = {
     tr: {
       title: `${cityName} Etkinlikleri | Waylero`,
-      desc: `${cityName} konser, tiyatro ve etkinlikleri.`,
+      desc: `${cityName} konser, tiyatro ve kültür sanat etkinlikleri.`,
     },
     en: {
       title: `Events in ${cityName} | Waylero`,
-      desc: `Discover events in ${cityName}.`,
+      desc: `Discover concerts, theaters and cultural events in ${cityName}.`,
     },
   }[currentLang];
 
@@ -95,6 +112,9 @@ export async function generateMetadata({
     alternates: {
       canonical: `${BASE_SITE_URL}/${currentLang}/aktiviteler/${citySlug}`,
     },
+    // 🎯 EĞER ETKİNLİK YOKSA: Google'a "Bu sayfayı dizine ekleme (noindex)" talimatı veriyoruz.
+    // Böylece Soft 404 hatasından tamamen kurtuluyorsun.
+    robots: hasEvents ? null : { index: false, follow: true }
   };
 }
 
@@ -118,15 +138,9 @@ export default async function CityActivitiesPage({
 
   const cityData = slugMap[citySlug];
 
-  if (!cityData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        Şehir bulunamadı
-      </div>
-    );
-  }
+  // 🚀 DEĞİŞİKLİK: "Şehir bulunamadı" divi yerine GERÇEK 404 HTTP kodu fırlatıyoruz
+  if (!cityData) return notFound();
 
-  // 🔥 DEĞİŞEN KISIM BURASI: HTTP isteği yerine ortak fonksiyonu içeriden çağırıyoruz
   let cityEvents: any[] = [];
   try {
     const data = await fetchEtkinlikData({
@@ -163,12 +177,12 @@ export default async function CityActivitiesPage({
       <div className="w-full">
         
         {cityEvents.length === 0 && (
-          <div className="bg-amber-50/60 border-b p-8 text-center flex flex-col items-center justify-center">
+          <div className="bg-amber-50/60 border-b p-8 text-center flex flex-col items-center justify-center min-h-[50vh]">
             <h1 className="font-bold text-2xl text-amber-900 mb-2">{cityName}</h1>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 max-w-md">
               {currentLang === "tr"
-                ? `${cityData.name} için güncel bir etkinlik bulunamadı.`
-                : `No upcoming events found for ${cityData.name}.`}
+                ? `${cityData.name} şehri için şu an güncel bir etkinlik bulunamadı. Dilerseniz çevre illerdeki popüler etkinliklere ve konserlere göz atabilirsiniz.`
+                : `No upcoming events found for ${cityData.name}. You can check out events in neighboring cities.`}
             </p>
 
             {displayNeighbors.length > 0 && (

@@ -55,6 +55,22 @@ function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
   return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)) * 1.25;
 }
 
+// Kelimeleri bölmeden akıllıca kırpan yardımcı fonksiyon
+function smartTrim(text: string, maxLength: number = 155): string {
+  if (text.length <= maxLength) return text;
+  
+  // Belirtilen sınırdan önceki son boşluğun indeksini bul (böylece kelime bölünmez)
+  let trimmed = text.substring(0, maxLength);
+  const lastSpace = trimmed.lastIndexOf(" ");
+  
+  if (lastSpace > 0) {
+    trimmed = trimmed.substring(0, lastSpace);
+  }
+  
+  // Son karakter nokta veya virgül ise temizle, ardından üç nokta ekle
+  return trimmed.replace(/[,.-]$/, "").trim() + "...";
+}
+
 // 🧠 3. SEO METADATA (OG + TWITTER + CANONICAL)
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, region, city, place } = await params;
@@ -70,21 +86,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const isEn = lang === "en";
   const name = found.name?.[lang] || found.name?.tr || found.slug;
-  const cityName = city.replace(/-/g, " ");
   
-  const title = isEn
-  ? `${name} | Travel Guide`
-  : `${name} | Gezi Rehberi ve Ziyaret Bilgileri`;
+ const title = isEn
+  ? `${name} Travel Guide: How to Get There?`
+  : `${name} Rehberi: Nerede ve Nasıl Gidilir?`;
 
-  const description = (
-    found.description?.[lang] ||
-    found.description?.tr ||
-    ""
-  ).slice(0, 160);
+  // 🎯 ESKİ HALİ: .slice(0, 160) yerine Akıllı Kırpma uyguluyoruz
+  const rawDescription = found.description?.[lang] || found.description?.tr || "";
+  const description = smartTrim(rawDescription, 155); 
 
   const pathUrl = `/kesfet/${region}/${city}/${place}`;
   const url = `${BASE_URL}/${lang}${pathUrl}`;
-  const ogImageUrl = `${BASE_URL}/og/place.jpg`; // Dinamik resim yolun varsa burayı güncelle
+  const ogImageUrl = `${BASE_URL}/og/place.jpg`;
 
   return {
     title,
