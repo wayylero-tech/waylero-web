@@ -113,7 +113,7 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
       "@type": "WebPage",
       "@id": canonical
     },
-    "image": images?.[0]?.url || images?.[0] || undefined,
+   "image": images?.length > 0 ? (images[0]?.url || images[0]) : `${BASE_URL}/images/waylero-placeholder.jpg`,
     "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
     "geo": {
       "@type": "GeoCoordinates",
@@ -156,15 +156,24 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
 
           <div className="max-w-5xl mx-auto relative z-10">
             {images.length > 0 ? (
-              <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
-                <PlaceSlider images={images} title={foundPlace.name?.[lang]} />
-              </div>
-            ) : (
-              <div className="h-[500px] flex flex-col items-center justify-center bg-gray-50 rounded-[3rem] border-4 border-dashed border-gray-200 text-gray-300 gap-4">
-                <Info size={48} />
-                <span className="font-bold uppercase tracking-widest text-xs">{t.noPhoto}</span>
-              </div>
-            )}
+  <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
+    <PlaceSlider images={images} title={foundPlace.name?.[lang]} />
+  </div>
+) : (
+  <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white h-[500px] relative bg-gray-900">
+    <img
+      src="/images/waylero-placeholder.jpg" 
+      alt={foundPlace.name?.[lang] || "Waylero Explore"}
+      className="w-full h-full object-cover opacity-80"
+      loading="eager" 
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-12">
+      <p className="text-white font-serif text-3xl font-bold uppercase tracking-tight">
+        {foundPlace.name?.[lang]}
+      </p>
+    </div>
+  </div>
+)}
           </div>
         </div>
       </section>

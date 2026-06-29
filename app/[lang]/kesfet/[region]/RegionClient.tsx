@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import Link from "next/link";
-import { slugify } from "@/lib/utils/slugify"; // Yolunu kendi projene göre kontrol et
+import { slugify } from "@/lib/utils/slugify";
 import { Sparkles, MapPin, Globe, ChevronRight } from "lucide-react";
 
 const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dewd42ppf/image/upload";
@@ -12,89 +12,23 @@ const getCloudinaryUrl = (path: string, width: number) => {
   return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(/^\/+/, "")}`;
 };
 
-// Şehir isimlerini Türkçeleştirme haritası
 const cityNameMapTR: Record<string, string> = {
-  adana: "Adana",
-  adiyaman: "Adıyaman",
-  afyonkarahisar: "Afyonkarahisar",
-  agri: "Ağrı",
-  amasya: "Amasya",
-  ankara: "Ankara",
-  antalya: "Antalya",
-  artvin: "Artvin",
-  aydin: "Aydın",
-  balikesir: "Balıkesir",
-  bilecik: "Bilecik",
-  bingol: "Bingöl",
-  bitlis: "Bitlis",
-  bolu: "Bolu",
-  burdur: "Burdur",
-  bursa: "Bursa",
-  canakkale: "Çanakkale",
-  cankiri: "Çankırı",
-  corum: "Çorum",
-  denizli: "Denizli",
-  diyarbakir: "Diyarbakır",
-  edirne: "Edirne",
-  elazig: "Elazığ",
-  erzincan: "Erzincan",
-  erzurum: "Erzurum",
-  eskisehir: "Eskişehir",
-  gaziantep: "Gaziantep",
-  giresun: "Giresun",
-  gumushane: "Gümüşhane",
-  hakkari: "Hakkari",
-  hatay: "Hatay",
-  isparta: "Isparta",
-  mersin: "Mersin",
-  istanbul: "İstanbul",
-  izmir: "İzmir",
-  kars: "Kars",
-  kastamonu: "Kastamonu",
-  kayseri: "Kayseri",
-  kirklareli: "Kırklareli",
-  kirsehir: "Kırşehir",
-  kocaeli: "Kocaeli",
-  konya: "Konya",
-  kutahya: "Kütahya",
-  malatya: "Malatya",
-  manisa: "Manisa",
-  kahramanmaras: "Kahramanmaraş",
-  mardin: "Mardin",
-  mugla: "Muğla",
-  mus: "Muş",
-  nevsehir: "Nevşehir",
-  nigde: "Niğde",
-  ordu: "Ordu",
-  rize: "Rize",
-  sakarya: "Sakarya",
-  samsun: "Samsun",
-  siirt: "Siirt",
-  sinop: "Sinop",
-  sivas: "Sivas",
-  tekirdag: "Tekirdağ",
-  tokat: "Tokat",
-  trabzon: "Trabzon",
-  tunceli: "Tunceli",
-  sanliurfa: "Şanlıurfa",
-  usak: "Uşak",
-  van: "Van",
-  yozgat: "Yozgat",
-  zonguldak: "Zonguldak",
-  aksaray: "Aksaray",
-  bayburt: "Bayburt",
-  karaman: "Karaman",
-  kirikkale: "Kırıkkale",
-  batman: "Batman",
-  sirnak: "Şırnak",
-  bartin: "Bartın",
-  ardahan: "Ardahan",
-  igdir: "Iğdır",
-  yalova: "Yalova",
-  karabuk: "Karabük",
-  kilis: "Kilis",
-  osmaniye: "Osmaniye",
-  duzce: "Düzce"
+  adana: "Adana", adiyaman: "Adıyaman", afyonkarahisar: "Afyonkarahisar", agri: "Ağrı", amasya: "Amasya",
+  ankara: "Ankara", antalya: "Antalya", artvin: "Artvin", aydin: "Aydın", balikesir: "Balıkesir",
+  bilecik: "Bilecik", bingol: "Bingöl", bitlis: "Bitlis", bolu: "Bolu", burdur: "Burdur",
+  bursa: "Bursa", canakkale: "Çanakkale", cankiri: "Çankırı", corum: "Çorum", denizli: "Denizli",
+  diyarbakir: "Diyarbakır", edirne: "Edirne", elazig: "Elazığ", erzincan: "Erzincan", erzurum: "Erzurum",
+  eskisehir: "Eskişehir", gaziantep: "Gaziantep", giresun: "Giresun", gumushane: "Gümüşhane", hakkari: "Hakkari",
+  hatay: "Hatay", isparta: "Isparta", mersin: "Mersin", istanbul: "İstanbul", izmir: "İzmir",
+  kars: "Kars", kastamonu: "Kastamonu", kayseri: "Kayseri", kirklareli: "Kırklareli", kirsehir: "Kırşehir",
+  kocaeli: "Kocaeli", konya: "Konya", kutahya: "Kütahya", malatya: "Malatya", manisa: "Manisa",
+  kahramanmaras: "Kahramanmaraş", mardin: "Mardin", mugla: "Muğla", mus: "Muş", nevsehir: "Nevşehir",
+  nigde: "Niğde", ordu: "Ordu", rize: "Rize", sakarya: "Sakarya", samsun: "Samsun",
+  siirt: "Siirt", sinop: "Sinop", sivas: "Sivas", tekirdag: "Tekirdağ", tokat: "Tokat",
+  trabzon: "Trabzon", tunceli: "Tunceli", sanliurfa: "Şanlıurfa", usak: "Uşak", van: "Van",
+  yozgat: "Yozgat", zonguldak: "Zonguldak", aksaray: "Aksaray", bayburt: "Bayburt", karaman: "Karaman",
+  kirikkale: "Kırıkkale", batman: "Batman", sirnak: "Şırnak", bartin: "Bartın", ardahan: "Ardahan",
+  igdir: "Iğdır", yalova: "Yalova", karabuk: "Karabük", kilis: "Kilis", osmaniye: "Osmaniye", duzce: "Düzce"
 };
 
 const formatCityName = (name: string, lang: string) => {
@@ -107,7 +41,6 @@ const formatCityName = (name: string, lang: string) => {
 };
 
 export default function RegionClient({ region, lang, data, images }: any) {
-  // ✅ useLang SİLİNDİ. Sadece dışarıdan (page.tsx'den) gelen 'lang' kullanılıyor.
   const isEn = lang === "en";
   
   const t = isEn ? {
@@ -174,7 +107,7 @@ export default function RegionClient({ region, lang, data, images }: any) {
               href={getLocalizedLink(`/kesfet/${region}/${city.slug}`)}
               className="group relative flex flex-col bg-white rounded-[3rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3"
             >
-              <div className="relative aspect-[4/5] overflow-hidden">
+              <div className="relative aspect-[4/5] overflow-hidden bg-gray-900">
                 {city.coverImage ? (
                   <img
                     src={getCloudinaryUrl(city.coverImage, 600)}
@@ -183,12 +116,22 @@ export default function RegionClient({ region, lang, data, images }: any) {
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                   />
                 ) : (
-                  <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                    <MapPin size={40} className="text-gray-200" />
-                  </div>
+                  /* ✅ AYNI ŞIK PLACEHOLDER MANTISI BURAYA DA ENTEGRE EDİLDİ */
+                  <>
+                    <img
+                      src="/images/waylero-placeholder.jpg"
+                      alt={city.name}
+                      loading={index < 3 ? "eager" : "lazy"}
+                      className="absolute inset-0 w-full h-full object-cover opacity-80 transition-transform duration-1000 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent z-0" />
+                  </>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-70" />
-                <div className="absolute top-6 left-6 bg-white/90 px-4 py-2 rounded-2xl text-[10px] font-black text-gray-900 border border-white">
+                
+                {/* Her iki durumda da metinlerin okunabilmesi için ortak gradyan maskesi */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-70 z-[1]" />
+                
+                <div className="absolute top-6 left-6 bg-white/90 px-4 py-2 rounded-2xl text-[10px] font-black text-gray-900 border border-white z-10">
                   {city.placeCount} {t.placeSuffix}
                 </div>
               </div>
