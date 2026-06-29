@@ -619,6 +619,110 @@
     ]
   },
   {
+  "slug": "karapinar-aci-gol",
+  "name": {
+    "tr": "Karapınar Acıgöl ",
+    "en": "Karapınar Lake Acigol",
+    "de": "Karapınar Acigol See"
+  },
+  "latitude": 37.711726578798206, 
+  "longitude": 33.674124228055895,
+  "description": {
+    "tr": "Konya ilinin Karapınar ilçesinde yer alan Acıgöl, volkanik bir patlama sonucu oluşmuş benzersiz bir maar gölüdür. Türkiye'nin en derin göllerinden biri olan Acıgöl, yüksek tuz ve mineral oranı nedeniyle mikrobiyal yaşam dışında canlı barındırmaz ancak bu mineral yapısı sayesinde suyun rengi büyüleyici bir maviliğe sahiptir. Çevresindeki volkanik oluşumlar ve hemen yanı başındaki Meke Gölü ile birlikte doğaseverler ve fotoğrafçılar için eşsiz bir rota sunmaktadır.\n\n**Doğal Yapısı ve Önemi**\n\nAcıgöl, tektonik ve volkanik faaliyetlerin bir arada görüldüğü Karapınar düzlüğünde yer alır. Gölün suyu sodalı ve tuzlu olduğu için yerel halk arasında şifalı olduğuna inanılan yönleri de konuşulur. Derinliği yer yer 30 metreyi aşan bu doğal akvaryum görüntüsündeki göl, özellikle gün doğumu ve gün batımında muazzam manzaralar sunar.\n\n**Gezilecek Yerler ve Aktiviteler**\n\n- **Seyir Terası ve Fotoğrafçılık:** Gölün etrafındaki yüksek tepelerden ve doğal kıyılardan gölün turkuaz rengini fotoğraflayabilir, harika manzara kareleri yakalayabilirsiniz.\n\n- **Doğa Yürüyüşü ve Kamp:** Çevresindeki geniş arazi, kalabalıktan uzak doğa yürüyüşleri ve sessiz bir kamp deneyimi için oldukça uygundur.\n\n**Giriş Ücreti ve Ziyaret Bilgileri**\n\n- **Giriş Ücreti:** Doğal sit alanı statüsünde olan göl bölgesine giriş tamamen **ücretsizdir**.\n\n**Nasıl Gidilir?**\n\nAcıgöl, Karapınar ilçe merkezine yaklaşık 8 kilometre mesafede, Konya-Adana karayolunun hemen yakınında yer almaktadır. Konya merkezden özel araçla yaklaşık 1 saat 15 dakikalık bir sürüşle (yaklaşık 100 km) kolayca ulaşılabilir.\n\n",
+    "en": "Lake Acigol, located in the Karapinar district of Konya province, is a unique maar lake formed as a result of a volcanic eruption. As one of the deepest lakes in Turkey, Acigol does not support complex aquatic life due to its high salt and mineral content; however, this mineral structure gives the water a fascinating turquoise blue color. Together with the nearby Meke Lake and surrounding volcanic formations, it offers an unparalleled route for nature lovers and photographers.\n\n**Natural Structure and Significance**\n\nAcigol is situated on the Karapinar plain, where tectonic and volcanic activities intersect. Since the lake water is rich in soda and salt, it is historically known for its unique mineral properties. With a depth exceeding 30 meters in some areas, this natural basin presents magnificent landscapes, especially during sunrise and sunset.\n\n**Places to See and Activities**\n\n- **Scenic Viewpoints and Photography:** You can photograph the stunning turquoise contrast of the lake from the surrounding hills and capture great landscape shots.\n\n- **Trekking and Camping:** The vast area around the lake is highly suitable for peaceful nature walks and quiet camping experiences away from the crowd.\n\n**Entrance Fee and Visiting Information**\n\n- **Entrance Fee:** Entrance to the lake area is completely **free of charge**.\n\n**How to Get There?**\n\nLake Acigol is located approximately 8 kilometers from the Karapinar town center, right off the Konya-Adana highway. It can be easily reached by a 1-hour and 15-minute drive (about 100 km) from Konya city center by private vehicle.\n\n",
+    "de": "Der Acigol-See im Bezirk Karapinar der Provinz Konya ist ein einzigartiger Maarsee, der durch einen Vulkanausbruch entstanden ist. Als einer der tiefsten Seen der Türkei beherbergt der Acigol aufgrund seines hohen Salz- und Mineraliengehalts kein komplexes aquatisches Leben. Diese mineralische Struktur verleiht dem Wasser jedoch eine faszinierende türkisblaue Farbe. Zusammen mit dem nahen Meke-See bietet er eine unvergleichliche Route für Naturliebhaber und Fotografen.\n\n- **Eintrittsgebühr:** Der Eintritt in das Seegebiet ist völlig **kostenlos**.\n\nDer Acigol-See liegt etwa 8 Kilometer vom Stadtzentrum von Karapinar entfernt. Von Konya aus ist er mit dem Auto in ca. 1 Stunde und 15 Minuten zu erreichen.\n\n"
+  },
+  "activities": {
+    "tr": [
+      "Fotoğrafçılık ve manzara izleme",
+      "Doğa yürüyüşü yapmak",
+      "Göl çevresinde kamp kurmak"
+    ],
+    "en": [
+      "Photography and landscape viewing",
+      "Nature trekking",
+      "Camping around the lake"
+    ],
+    "de": [
+      "Fotografie und Landschaftsbetrachtung",
+      "Naturwandern",
+      "Campen rund um den See"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal güzellik",
+      "göl"
+    ],
+    "en": [
+      "natural beauty",
+      "lake"
+    ],
+    "de": [
+      "Naturschönheit",
+      "See"
+    ]
+  },
+  "images": [
+    "https://www.kulturportali.gov.tr/turkiye/konya/gezilecekyer/karapinar-acigol",
+    "https://www.kulturportali.gov.tr/turkiye/konya/gezilecekyer/karapinar-acigol"
+  ]
+},
+
+{
+  "slug": "cumra-apa-baraji",
+   "name": {
+    "tr": "Çumra Apa Barajı Mesire Piknik Alanı",
+    "en": "Cumra Apa Dam Recreation and Picnic Area",
+    "de": "Cumra Apa Talsperre Erholungs- und Picknickplatz"
+  },
+  "latitude": 37.356994484919134, 
+  "longitude": 32.54460140140637,
+  "description": {
+    "tr": "Apa Barajı, Konya ilinin Çumra ilçesi sınırlarında, Çarşamba Çayı üzerinde 1958-1962 yılları arasında sulama ve taşkın önleme amacıyla inşa edilmiş tarihi bir barajdır. Barajın çevresi, özellikle Orman Genel Müdürlüğü'ne bağlı 'Apa Orman Parkı' ve Selçuk Üniversitesi ile Konya Büyükşehir Belediyesi'nin ortaklaşa kullandığı gençlik ve doğa kampı alanları ile Konya halkı için önemli bir hafta sonu rotası haline gelmiştir.\n\n**Doğal Yapısı ve Önemi**\n\nBaraj çevresi, İç Anadolu'nun bozkır yapısına tezat oluşturan yoğun ardıç ormanları ve ağaçlık alanlarla kaplıdır. %90 sulama amacı taşıyan bu yapay rezervuar, zengin bir alg florasına ve endemik bitki türlerine ev sahipliği yapar. Sakin ve doğa ile baş başa kalınabilecek yapısıyla öne çıkmaktadır.\n\n**Gezilecek Yerler ve Aktiviteler**\n\n- **Piknik ve Mesire Alanı:** Orman parkı içerisinde yer alan piknik üniteleri, kameriyeler ve göl manzaralı seyir terasları günübirlik ziyaretçiler için idealdir.\n\n- **Kampçılık ve Doğa Kampları:** Alanda çadırlı kamp imkanı mevcuttur. Bölge aynı zamanda lise ve izcilik kulüplerinin resmi doğa kamplarına ev sahipliği yapmaktadır.\n\n**Giriş Ücreti ve Ziyaret Bilgileri**\n\n- **Giriş Ücreti:** Baraj çevresindeki doğal alanlara ve orman parkının genel bölümlerine giriş **ücretsizdir**.\n\n**Nasıl Gidilir?**\n\nApa Barajı, Konya il merkezine yaklaşık 50-60 km, Çumra ilçe merkezine ise 25 km mesafede, Apa Mahallesi sınırlarında yer alır. Konya-Karaman yolu üzerinden özel araçla yaklaşık 45 dakikada ulaşılabilir.\n\n",
+    "en": "Apa Dam is a historic dam constructed between 1958 and 1962 on the Carsamba Stream in the Cumra district of Konya for irrigation and flood control. The surrounding area, particularly the 'Apa Forest Park' managed by the General Directorate of Forestry and the youth camps co-organized by Selcuk University and Konya Metropolitan Municipality, has become a significant weekend getaway for locals.\n\n**Natural Structure and Significance**\n\nThe dam environment is covered with dense juniper forests and wooded areas that contrast sharply with the steppe nature of Central Anatolia. Serving 90% for agricultural irrigation, this artificial reservoir hosts a rich flora and endemic plant species, offering a tranquil retreat in nature.\n\n**Places to See and Activities**\n\n- **Picnic and Recreation:** The forest park features picnic units, gazebos, and scenic observation decks overlooking the reservoir for day-trippers.\n\n- **Camping and Youth Camps:** Tent camping is available. The area also hosts official nature and scouting camps for student groups.\n\n**Entrance Fee and Visiting Information**\n\n- **Entrance Fee:** Access to the natural dam environment and the general forest park sections is **free of charge**.\n\n**How to Get There?**\n\nApa Dam is located approximately 50-60 km from Konya city center and 25 km from Cumra town center, within the borders of Apa Village. It can be reached in about 45 minutes by private vehicle via the Konya-Karaman highway.\n\n",
+    "de": "Die Apa-Talsperre wurde zwischen 1958 und 1962 im Bezirk Cumra erbaut. Der umliegende Apa-Waldpark bietet Picknickplätze, Aussichtsterrassen und Campingmöglichkeiten inmitten von Wacholderhainen.\n\n- **Eintrittsgebühr:** Der Eintritt in die allgemeinen Natur- und Parkbereiche ist **kostenlos**.\n\nEs liegt etwa 50-60 km vom Stadtzentrum von Konya entfernt.\n\n"
+  },
+  "activities": {
+    "tr": [
+      "Ardıç ormanları içinde piknik yapmak",
+      "Çadırlı kampçılık",
+      "Manzara seyir teraslarında fotoğraf çekimi"
+    ],
+    "en": [
+      "Picnicking inside juniper forests",
+      "Tent camping",
+      "Photography at scenic observation decks"
+    ],
+    "de": [
+      "Picknicken im Wacholderwald",
+      "Zeltcamping",
+      "Fotografieren auf Aussichtsterrassen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "orman parkı",
+      "kamp alanı",
+      "baraj gölü"
+    ],
+    "en": [
+      "forest park",
+      "camping area",
+      "reservoir"
+    ],
+    "de": [
+      "Waldpark",
+      "Campingplatz",
+      "Stausee"
+    ]
+  },
+  "images": [
+    "https://www.kulturportali.gov.tr/turkiye/konya/gezilecekyer/cumra-apa-baraji",
+    "https://www.kulturportali.gov.tr/turkiye/konya/gezilecekyer/cumra-apa-baraji"
+  ]
+},
+  {
     "slug": "savatra-antik-kenti",
     "name": {
       "tr": "Savatra Antik Kenti",

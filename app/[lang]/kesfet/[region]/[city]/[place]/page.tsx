@@ -134,10 +134,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 // 🧠 4. PAGE COMPONENT
+// 🧠 4. PAGE COMPONENT (Optimize Edilmiş Hali)
 export default async function Page({ params }: Props) {
   const { lang, region, city, place } = await params;
 
-  // Veriyi yükle (Metadata'da yüklendiyse cache'den gelir)
   const cityData = await loadCityData(region, city);
   if (!cityData) return notFound();
 
@@ -147,7 +147,18 @@ export default async function Page({ params }: Props) {
 
   if (!foundPlace) return notFound();
 
-  // Resimleri ve Yakın Yerleri Hesapla
+  // 🎯 OPTİMİZASYON: PlaceClient'a gitmeden önce veriyi sadece aktif dile göre küçültüyoruz
+  const optimizedPlace = {
+    slug: foundPlace.slug,
+    latitude: foundPlace.latitude,
+    longitude: foundPlace.longitude,
+    categories: foundPlace.categories?.[lang] || foundPlace.categories?.tr || [],
+    activities: foundPlace.activities?.[lang] || foundPlace.activities?.tr || [],
+    // Sadece o anki aktif dilin ismini ve açıklamasını gönderiyoruz:
+    name: foundPlace.name?.[lang] || foundPlace.name?.tr || foundPlace.slug,
+    description: foundPlace.description?.[lang] || foundPlace.description?.tr || "",
+  };
+
   const imagesData = await loadImages(region);
   const imageGroup = imagesData[city] || {};
   const imageKey = `${slugify(city)}-${slugify(foundPlace.slug)}`;
@@ -156,7 +167,10 @@ export default async function Page({ params }: Props) {
   const nearbyPlaces = cityData
     .filter((p: any) => p.slug !== foundPlace.slug && p.latitude && p.longitude)
     .map((p: any) => ({
-      ...p,
+      slug: p.slug,
+      latitude: p.latitude,
+      longitude: p.longitude,
+      name: p.name?.[lang] || p.name?.tr || p.slug, // Yakın yerlerin de sadece o anki dilini alıyoruz
       distance: getDistance(foundPlace.latitude, foundPlace.longitude, p.latitude, p.longitude),
     }))
     .sort((a: any, b: any) => a.distance - b.distance)
@@ -168,7 +182,7 @@ export default async function Page({ params }: Props) {
       region={region}
       city={city}
       place={place}
-      foundPlace={foundPlace}
+      foundPlace={optimizedPlace} // Artık sadece tek dil barındıran temiz nesne gidiyor
       images={images}
       nearbyPlaces={nearbyPlaces}
     />
