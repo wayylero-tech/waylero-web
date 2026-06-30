@@ -6,8 +6,6 @@ import { Sparkles, MapPin, Navigation, Calendar, Info, Activity, ArrowRight, Tic
 import PlaceSlider from "./PlaceSlider";
 import { trackPlaceViewed } from "@/lib/analytics";
 import { useEffect, useState } from "react";
-
-// 🔥 entry_fees koleksiyonundan canlı okuma yapabilmek için gerekli importlar
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 
@@ -19,26 +17,24 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${langPrefix}/kesfet/${region}/${city}/${place}`;
 
-  // 🎫 Canlı giriş ücretini tutacak yerel state kanka
   const [liveEntryFee, setLiveEntryFee] = useState<string | null>(null);
 
   useEffect(() => {
-    // 1. Analytics tetikleme
+    // 1. Analytics tetikleme (Server'dan isim zaten temizlendi)
     trackPlaceViewed(
-      foundPlace.name?.[lang],
+      foundPlace.name,
       city,
       region,
       lang
     );
 
-    // 2. entry_fees koleksiyonundan veriyi sorgulama (⚡ Session Storage Cache Destekli)
+    // 2. Firebase / Cache sorgusu
     const fetchFeeData = async () => {
       if (!place) return;
       
       const cacheKey = `fee_${place.toLowerCase().trim()}`;
       const cachedData = sessionStorage.getItem(cacheKey);
 
-      // Eğer veri tarayıcı hafızasında (Cache) varsa direkt oradan oku kanka
       if (cachedData) {
         const parsedData = JSON.parse(cachedData);
         const feeText = isEn ? parsedData.en : parsedData.tr;
@@ -48,7 +44,6 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
         return;
       }
 
-      // Cache yoksa Firebase'e git
       try {
         const feeDocRef = doc(db, "entry_fees", place.toLowerCase().trim());
         const feeDocSnap = await getDoc(feeDocRef);
@@ -56,7 +51,6 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
         if (feeDocSnap.exists()) {
           const data = feeDocSnap.data();
           
-          // Gelen ham veriyi tarayıcı hafızasına yazıyoruz ki bir daha Firebase'i yormayalım
           sessionStorage.setItem(cacheKey, JSON.stringify({
             tr: data.tr || "",
             en: data.en || ""
@@ -73,7 +67,7 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
     };
 
     fetchFeeData();
-  }, [place, isEn]);
+  } , [place, isEn, foundPlace.name, city, region, lang]);
 
   const t = isEn ? {
     badge: "EXPERIENCE POINT",
@@ -101,19 +95,19 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
     feeTitle: "Giriş Ücreti",
   };
 
-  // ✅ SEO Schema (JSON-LD)
+  // ✅ SEO Schema (JSON-LD) - Temizlenmiş değişkenlerle uyumlu
   const schema = {
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
     "@id": canonical,
-    "name": foundPlace.name?.[lang],
-    "description": foundPlace.description?.[lang],
+    "name": foundPlace.name,
+    "description": foundPlace.description,
     "url": canonical,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": canonical
     },
-   "image": images?.length > 0 ? (images[0]?.url || images[0]) : `${BASE_URL}/images/waylero-placeholder.jpg`,
+    "image": images?.length > 0 ? (images[0]?.url || images[0]) : `${BASE_URL}/images/waylero-placeholder.jpg`,
     "hasMap": `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
     "geo": {
       "@type": "GeoCoordinates",
@@ -144,9 +138,8 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
               <Sparkles size={14} />
               <span>{t.badge}</span>
             </div>
-            {/* 🌟 GOOGLE DOSTU ANA BAŞLIK */}
             <h1 className="text-5xl md:text-8xl font-serif font-bold text-gray-900 mb-6 tracking-tighter leading-tight max-w-4xl uppercase">
-              {foundPlace.name?.[lang]}
+              {foundPlace.name}
             </h1>
             <div className="flex items-center gap-2 text-gray-400 font-bold text-[10px] uppercase tracking-widest">
               <MapPin size={14} className="text-blue-500" />
@@ -156,24 +149,24 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
 
           <div className="max-w-5xl mx-auto relative z-10">
             {images.length > 0 ? (
-  <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
-    <PlaceSlider images={images} title={foundPlace.name?.[lang]} />
-  </div>
-) : (
-  <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white h-[500px] relative bg-gray-900">
-    <img
-      src="/images/waylero-placeholder.jpg" 
-      alt={foundPlace.name?.[lang] || "Waylero Explore"}
-      className="w-full h-full object-cover opacity-80"
-      loading="eager" 
-    />
-    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-12">
-      <p className="text-white font-serif text-3xl font-bold uppercase tracking-tight">
-        {foundPlace.name?.[lang]}
-      </p>
-    </div>
-  </div>
-)}
+              <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
+                <PlaceSlider images={images} title={foundPlace.name} />
+              </div>
+            ) : (
+              <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white h-[500px] relative bg-gray-900">
+                <img
+                  src="/images/waylero-placeholder.jpg" 
+                  alt={foundPlace.name || "Waylero Explore"}
+                  className="w-full h-full object-cover opacity-80"
+                  loading="eager" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-12">
+                  <p className="text-white font-serif text-3xl font-bold uppercase tracking-tight">
+                    {foundPlace.name}
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -189,13 +182,12 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                 <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
                   <Info size={24} />
                 </div>
-                {/* 🌟 SEO İÇİN BURASI H2 OLARAK KALDI, TAM STANDART */}
                 <h2 className="text-3xl font-serif font-bold text-gray-900 m-0">
-                  {foundPlace.name?.[lang]}
+                  {foundPlace.name}
                 </h2>
               </div>
               <p className="text-xl text-gray-600 leading-relaxed font-medium">
-                {foundPlace.description?.[lang]}
+                {foundPlace.description}
               </p>
             </div>
 
@@ -207,7 +199,6 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                     <div className="p-3 bg-red-50 text-red-600 rounded-2xl">
                       <Navigation size={24} />
                     </div>
-                    {/* 🌟 SEO H2 UYUMU */}
                     <h2 className="text-3xl font-serif font-bold text-gray-900">
                       {t.location}
                     </h2>
@@ -234,7 +225,6 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                     <div className="p-3 bg-green-50 text-green-600 rounded-2xl">
                       <Navigation size={24} />
                     </div>
-                    {/* 🌟 SEO H2 UYUMU */}
                     <h2 className="text-3xl font-serif font-bold text-gray-900">
                       {lang === "tr" ? "Nasıl Gidilir?" : "How to Get There"}
                     </h2>
@@ -255,19 +245,17 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="bg-gray-50 rounded-2xl p-5">
-                        {/* 🌟 SEO İÇİN H3 YAPILDI - Google Alt Başlık Mimarisi */}
                         <h3 className="font-bold text-base mb-2 text-gray-900">
                           {lang === "tr" ? "Özel Araç ile" : "By Car"}
                         </h3>
                         <p className="text-sm text-gray-600 leading-relaxed">
                           {lang === "tr"
-                            ? `${foundPlace.name?.tr} konumuna özel aracınızla kolayca ulaşabilirsiniz. Google Maps üzerinden canlı navigasyon başlatabilirsiniz.`
-                            : `You can easily reach ${foundPlace.name?.en} by car using live navigation on Google Maps.`}
+                            ? `${foundPlace.name} konumuna özel aracınızla kolayca ulaşabilirsiniz. Google Maps üzerinden canlı navigasyon başlatabilirsiniz.`
+                            : `You can easily reach ${foundPlace.name} by car using live navigation on Google Maps.`}
                         </p>
                       </div>
 
                       <div className="bg-gray-50 rounded-2xl p-5">
-                        {/* 🌟 SEO İÇİN H3 YAPILDI */}
                         <h3 className="font-bold text-base mb-2 text-gray-900">
                           {lang === "tr" ? "Konum Bilgisi" : "Location Info"}
                         </h3>
@@ -287,11 +275,10 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
             <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
                 <Activity className="text-orange-500" size={20} />
-                {/* 🌟 SIDEBAR ALT BAŞLIĞI H3 OLARAK GÜNCELLENDİ (SEO MASTERSTROKE) */}
                 <h3 className="font-serif font-bold text-xl">{t.todo}</h3>
               </div>
               <ul className="space-y-4">
-                {(foundPlace.activities?.[lang] || []).map((a: string, i: number) => (
+                {(foundPlace.activities || []).map((a: string, i: number) => (
                   <li key={i} className="flex items-start gap-3 text-gray-600 group">
                     <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 group-hover:scale-150 transition-transform" />
                     <span className="text-sm font-medium">{a}</span>
@@ -300,12 +287,10 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
               </ul>
             </div>
 
-            {/* ✅ DİNAMİK GİRİŞ ÜCRETİ KARTI (H3 Başlığı Google Standartlarına Çekildi) */}
             {liveEntryFee && (
               <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm animate-in fade-in duration-300">
                 <div className="flex items-center gap-3 mb-4">
                   <Ticket className="text-emerald-500" size={20} />
-                  {/* 🌟 GİRİŞ ÜCRETİ BAŞLIĞI ARTIK TERTEMİZ BİR H3 */}
                   <h3 className="font-serif font-bold text-xl">{t.feeTitle}</h3>
                 </div>
                 <div className="p-4 bg-emerald-50/60 rounded-2xl border border-emerald-100">
@@ -316,12 +301,10 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
               </div>
             )}
 
-            {/* ETKİNLİKLER KARTI */}
             {region.toLowerCase() === "turkiye" && (
               <div className="bg-gradient-to-br from-orange-500 to-pink-500 text-white rounded-[2.5rem] p-8 shadow-lg">
                 <div className="flex items-center gap-3 mb-4">
                   <Calendar size={20} />
-                  {/* 🌟 SEO H3 GÜNCELLEMESİ */}
                   <h3 className="font-serif font-bold text-xl">{cityName} {t.eventsTitle}</h3>
                 </div>
                 <p className="text-sm opacity-90 mb-6">{t.eventsText}</p>
@@ -334,11 +317,9 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
               </div>
             )}
 
-            {/* OTELLER KARTI */}
             <div className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-[2.5rem] p-8 shadow-lg">
               <div className="flex items-center gap-3 mb-4">
                 <Activity size={20} />
-                {/* 🌟 SEO H3 GÜNCELLEMESİ */}
                 <h3 className="font-serif font-bold text-xl">
                   {lang === "tr" ? `${cityName} Otelleri` : `${cityName} Hotels`}
                 </h3>
@@ -354,11 +335,9 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
               </Link>
             </div>
 
-            {/* TURLAR KARTI */}
             <div className="bg-gradient-to-br from-orange-600 to-amber-500 text-white rounded-[2.5rem] p-8 shadow-lg border border-orange-400/20">
               <div className="flex items-center gap-3 mb-4">
                 <Navigation size={20} />
-                {/* 🌟 SEO H3 GÜNCELLEMESİ */}
                 <h3 className="font-serif font-bold text-xl">
                   {lang === "tr" ? `${cityName} Turları` : `${cityName} Tours`}
                 </h3>
@@ -374,9 +353,7 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
               </Link>
             </div>
 
-            {/* Çevreyi Keşfet Kartı */}
             <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
-              {/* 🌟 SEO H3 GÜNCELLEMESİ */}
               <h3 className="font-serif font-bold text-xl mb-6">{t.nearby}</h3>
               <div className="space-y-6">
                 {nearbyPlaces.map((p: any) => (
@@ -386,7 +363,7 @@ export default function PlaceClient({ lang, region, city, place, foundPlace, ima
                     className="flex flex-col gap-1 group"
                   >
                     <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
-                      {p.name?.[lang]}
+                      {p.name}
                     </span>
                     <div className="flex items-center gap-1.5">
                       <span className="text-[10px] text-blue-500 font-black uppercase tracking-widest bg-blue-50 px-1.5 py-0.5 rounded">
