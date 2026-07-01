@@ -7,7 +7,7 @@ const citiesData = [
   {
     id: "tumsehirler",
     name: { tr: "Diğer Şehirler", en: "Other Cities" },
-    image: "/assets/sehir1/tumsehirler.webp",
+    image: "/assets/sehir1/tumsehirler1.webp",
     desc: {
       tr: "Dünyanın dört bir yanındaki turları ve aktiviteleri keşfet",
       en: "Discover tours and activities from all around the world",
@@ -149,21 +149,19 @@ export default function CityPageClient({
 }) {
   const isTR = lang === "tr";
 
-  const cityInfo = citiesData.find((c) => c.id === city.toLowerCase());
-
-  const t = {
-    guide: isTR ? "Destinasyon Rehberi" : "Destination Guide",
-    experiences: isTR ? "Deneyim" : "Experiences",
-    avgRating: isTR ? "Ort. Puan" : "Avg. Rating",
-    reserve: isTR ? "İncele ve Rezervasyon Yap" : "View and Book Now",
+ const cityInfo =
+  citiesData.find((c) => c.id === city.toLowerCase()) || {
+    id: city.toLowerCase(),
+    name: {
+      tr: city.charAt(0).toUpperCase() + city.slice(1),
+      en: city.charAt(0).toUpperCase() + city.slice(1),
+    },
+    image: "/assets/sehir1/tümsehirler1.webp",
+    desc: {
+      tr: `${city.charAt(0).toUpperCase() + city.slice(1)} için en popüler turları ve aktiviteleri keşfet`,
+      en: `Discover the most popular tours and activities in ${city}`,
+    },
   };
-
-  if (!cityInfo)
-    return (
-      <div className="p-20 text-center font-serif text-2xl">
-        Şehir bulunamadı.
-      </div>
-    );
 
   return (
     <main className="min-h-screen bg-white">
@@ -172,7 +170,7 @@ export default function CityPageClient({
         <div className="container mx-auto px-6 text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 text-blue-600 text-xs font-bold rounded-full shadow-sm border border-blue-50">
             <MapPin size={14} />
-            <span>{t.guide}</span>
+            <span>{isTR ? "Destinasyon Rehberi" : "Destination Guide"}</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-gray-900">
@@ -214,7 +212,7 @@ export default function CityPageClient({
               </p>
 
               <div className="w-fit px-10 py-4 bg-orange-600 text-white font-bold rounded-2xl">
-                {t.reserve}
+                {isTR ? "İncele ve Rezervasyon Yap" : "View and Book Now"}
               </div>
             </div>
           </a>

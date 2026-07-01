@@ -41,8 +41,27 @@ export default function HotelCard({
   const cardTitle =
     title || (isTR ? `${formattedCity} Otelleri` : `${formattedCity} Hotels`);
 
-  const cityImage = image || `/assets/sehir1/${city.toLowerCase()}.webp`;
+const availableCityImages = [
+  "istanbul",
+  "nevsehir",
+  "antalya",
+  "izmir",
+  "mugla",
+  "aydin",
+  "trabzon",
+  "edirne",
+  "bangkok",
+  "paris",
+  "londra",
+  "dubai",
+  "roma",
+];
 
+const cityImage =
+  image ||
+  (availableCityImages.includes(city.toLowerCase())
+    ? `/assets/sehir1/${city.toLowerCase()}.webp`
+    : "/assets/sehir1/tumsehirler.webp");
   // 🔥 CTA
   const ctaText = isTR
     ? provider === "booking"

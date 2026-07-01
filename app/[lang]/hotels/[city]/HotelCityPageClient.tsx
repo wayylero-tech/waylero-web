@@ -95,7 +95,8 @@ export default function HotelCityPageClient({
       : city.charAt(0).toUpperCase() + city.slice(1);
 
   const hotel = cityHotels?.[0];
-  const links = cityLinks[city.toLowerCase()] || {};
+  const links =
+  cityLinks[city.toLowerCase()] || cityLinks.tumsehirler;
 
   return (
     <div className="min-h-screen bg-white">

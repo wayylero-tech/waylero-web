@@ -322,13 +322,11 @@ const actualCityKey =
     : capitalizeCityName(citySlug);
   const cityImages = images[city] || images[slugify(city)] || {};
 
-  const availableFeatureCities = ["istanbul", "paris", "roma", "viyana", "dubai", "bangkok", "antalya"];
-  
   const currentCitySlug = slugify(city);
-  const hasSpecificPage = availableFeatureCities.includes(currentCitySlug);
 
-  const hotelLink = hasSpecificPage ? `/${lang}/hotels/${currentCitySlug}` : `/${lang}/hotels`;
-  const tourLink = hasSpecificPage ? `/${lang}/etkinlikler/${currentCitySlug}` : `/${lang}/etkinlikler`;
+const hotelLink = `/${lang}/hotels/${currentCitySlug}`;
+const tourLink = `/${lang}/etkinlikler/${currentCitySlug}`;
+
 
   return (
     <main className="min-h-screen bg-white">

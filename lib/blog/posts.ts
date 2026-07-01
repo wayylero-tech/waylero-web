@@ -47,6 +47,8 @@ import { pamukkalePosts } from "@/data/blog/denizli/pamukkale";
 import { laodikeiaPosts } from "@/data/blog/denizli/laodikeia";
 import { denizliPosts } from "@/data/blog/denizli/posts";
 import { karaburunPosts } from "@/data/blog/konya/karaburunposts";
+import { aydinPosts } from "@/data/blog/aydin/posts";
+import { muglaPosts } from "@/data/blog/mugla/posts2";
 
 
 
@@ -99,6 +101,8 @@ export const allPosts = [
 ...pamukkalePosts,
 ...laodikeiaPosts,
 ...denizliPosts,
-...karaburunPosts
+...karaburunPosts,
+...aydinPosts,
+...muglaPosts
 
 ];

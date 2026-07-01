@@ -129,7 +129,9 @@ export default function TripPlannerClient({ lang = "tr" }: { lang: "tr" | "en" }
   const cityFromUrl = searchParams.get("city");
 
   const [activeStep, setActiveStep] = useState(1);
-  const [selectedCity, setSelectedCity] = useState(cityFromUrl || (lang === "tr" ? "İstanbul" : "Istanbul"));
+  const [selectedCities, setSelectedCities] = useState<string[]>(
+  cityFromUrl ? [cityFromUrl] : [lang === "tr" ? "İstanbul" : "Istanbul"]
+);
   const [isGenerating, setIsGenerating] = useState(false);
   const [itinerary, setItinerary] = useState<Place[]>([]);
   const [selectedPlaces, setSelectedPlaces] = useState<Place[]>([]);
@@ -149,14 +151,14 @@ const [userPreferences] = useState({
   wantsEvents: true,
 });
 
-  useEffect(() => {
-    if (cityFromUrl) {
-      setSelectedCity(cityFromUrl);
-    }
-  }, [cityFromUrl]);
+ useEffect(() => {
+  if (cityFromUrl) {
+    setSelectedCities(cityFromUrl.split(","));
+  }
+}, [cityFromUrl]);
   
   useEffect(() => {
-    trackEvent("planner_started", { city: selectedCity, lang });
+    trackEvent("planner_started", { cities: selectedCities, lang });
   }, []);
 
   useEffect(() => {
@@ -209,7 +211,7 @@ const [userPreferences] = useState({
   try {
     const tripData = {
       userId: currentUser.uid, // Kesinlikle güvenli ID
-      city: selectedCity,
+      cities: selectedCities,
       places: selectedPlaces,
       travelMode,
       createdAt: serverTimestamp(),
@@ -217,7 +219,7 @@ const [userPreferences] = useState({
     
     const docRef = await addDoc(collection(db, "trips"), tripData);
     trackEvent("trip_saved", {
-      city: selectedCity,
+      cities: selectedCities,
       place_count: selectedPlaces.length,
       trip_id: docRef.id,
     });
@@ -231,7 +233,8 @@ const [userPreferences] = useState({
 
   const handleCopy = async () => {
     if (!savedUrl) return;
-    trackEvent("trip_link_copied", { city: selectedCity });
+    trackEvent("trip_link_copied", { cities: selectedCities });
+
     await navigator.clipboard.writeText(savedUrl);
     alert("Link kopyalandı");
   };
@@ -245,27 +248,43 @@ const [userPreferences] = useState({
       .join(" ");
   };
 
-  const handleCityChange = (cityName: string) => {
-    trackEvent("city_selected", { city: cityName, lang });
-    setSelectedCity(cityName);
-    setSelectedPlaces([]);
-    setActiveStep(2);
-    const params = new URLSearchParams(searchParams.toString());
-    params.set("city", cityName.toLocaleLowerCase("tr-TR"));
-    router.push(`?${params.toString()}`, { scroll: false });
-  };
+const handleCityChange = (cityName: string) => {
+trackEvent("city_selected", { city: cityName, lang });
+
+let updatedCities: string[] = [];
+
+setSelectedCities((prev) => {
+if (prev.includes(cityName)) {
+updatedCities = prev.filter((c) => c !== cityName);
+} else {
+updatedCities = [...prev, cityName];
+}
+
+
+return updatedCities;
+
+});
+
+const params = new URLSearchParams(searchParams.toString());
+params.set("city", updatedCities.join(","));
+router.push(`?${params.toString()}`, { scroll: false });
+
+setSelectedPlaces([]);
+setActiveStep(2);
+};
 
   const handleNewRoute = () => {
-    setItinerary([]);
-    setSelectedPlaces([]);
-    setActiveStep(1);
-    setShowAllCities(false);
-    router.push(window.location.pathname, { scroll: false });
-  };
+  setItinerary([]);
+  setSelectedPlaces([]);
+  setSelectedCities([]);
+  setActiveStep(1);
+  setShowAllCities(false);
+  router.push(window.location.pathname, { scroll: false });
+};
 
   const handleShareLink = async () => {
     if (!savedUrl) return;
-    trackEvent("trip_shared", { city: selectedCity });
+    trackEvent("trip_shared", { cities: selectedCities });
     if (navigator.share) {
       await navigator.share({ title: "Gezi Rotası", text: "Oluşturduğum gezi planı", url: savedUrl });
     } else {
@@ -300,22 +319,30 @@ const [userPreferences] = useState({
   }, [selectedCountry]);
 
   const filteredPlaces = useMemo(() => {
-    const data = (globalPlacesData as Place[]) || [];
-    return data.filter((p) => {
-      const normalize = (str: string) => 
-        str?.toLocaleLowerCase('tr-TR').replace(/i̇/g, 'i').replace(/ı/g, 'i').trim();
-      return normalize(p.city) === normalize(selectedCity);
-    });
-  }, [selectedCity]);
+  const data = (globalPlacesData as Place[]) || [];
+
+  return data.filter((p) => {
+    const normalize = (str: string) =>
+      str?.toLocaleLowerCase("tr-TR")
+        .replace(/i̇/g, "i")
+        .replace(/ı/g, "i")
+        .trim();
+
+    return selectedCities.some(
+      (city) => normalize(p.city) === normalize(city)
+    );
+  });
+}, [selectedCities]);
+
 
   const togglePlace = (place: Place) => {
     setSelectedPlaces((prev) => {
       const exists = prev.some((item) => item.slug === place.slug && item.name_tr === place.name_tr);
       if (exists) {
-        trackEvent("place_unselected", { city: selectedCity, place: place.name_en });
+        trackEvent("place_unselected", { cities: selectedCities, place: place.name_en });
         return prev.filter((item) => !(item.slug === place.slug && item.name_tr === place.name_tr));
       }
-      trackEvent("place_selected", { city: selectedCity, place: place.name_en });
+      trackEvent("place_selected", { cities: selectedCities, place: place.name_en });
       return [...prev, place];
     });
   };
@@ -331,7 +358,7 @@ const handleGenerate = () => {
 
 const handleFinalPlanning = async () => {
   trackEvent("route_generated", {
-    city: selectedCity,
+    cities: selectedCities,
     place_count: selectedPlaces.length,
     travel_mode: travelMode,
     lang,
@@ -368,7 +395,7 @@ const handleFinalPlanning = async () => {
       <section className="bg-[#1e445e] pt-16 pb-28 px-6">
         <div className="max-w-[1400px] mx-auto text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-2 leading-tight">
-            {activeStep === 3 ? t.heroTitle : `${formatCity(selectedCity)} ${lang === 'tr' ? 'Rotası' : 'Route'}`}
+            {activeStep === 3 ? t.heroTitle : `${selectedCities.map(formatCity).join(', ')} ${lang === 'tr' ? 'Rotası' : 'Route'}`}
           </h1>
           <p className="text-blue-100/60 text-sm font-medium uppercase tracking-widest">{t.heroSub}</p>
         </div>
@@ -399,7 +426,7 @@ const handleFinalPlanning = async () => {
                 cities={cities}
                 countries={countries}
                 citiesByCountry={citiesByCountry}
-                selectedCity={selectedCity}
+                selectedCities={selectedCities}
                 selectedCountry={selectedCountry}
                 showAllCities={showAllCities}
                 setShowAllCities={setShowAllCities}
@@ -444,10 +471,14 @@ const handleFinalPlanning = async () => {
   <div className="bg-white rounded-[2rem] p-6 shadow-sm border border-gray-100 flex flex-col gap-6">
     <div className="w-full">
       <h3 className="text-sm font-bold mb-3 text-gray-500">{t.mapTitle}</h3>
-      <div className="h-[420px] w-full rounded-2xl overflow-hidden border">
-        {/* 🌟 lang={lang} prop'u eklendi */}
-        <Map places={selectedPlaces} lang={lang} />
-                  </div>
+      <div className="h-[70vh] min-h-[500px] w-full rounded-2xl overflow-hidden border">
+  <Map
+    places={selectedPlaces}
+    lang={lang}
+    showControls={true}
+    onFullscreen={() => setIsMapFullscreen(true)}
+  />
+</div>
                 </div>
                 <PlaceSelector
                   lang={lang}
@@ -505,7 +536,7 @@ const handleFinalPlanning = async () => {
   t={t} 
   itinerary={itinerary} 
   preferences={userPreferences}
-  city={selectedCity}
+ city={selectedCities.join(", ")}
 />
                 </div>
 
@@ -524,7 +555,12 @@ const handleFinalPlanning = async () => {
   <div className="fixed inset-0 z-[99999] bg-black animate-in fade-in duration-200">
     <div className="w-full h-screen relative overflow-hidden">
       {/* 🌟 lang={lang} prop'u eklendi */}
-      <Map key="fullscreen-map" places={itinerary} showControls={true} lang={lang} />
+      <Map
+  key="fullscreen-map"
+  places={activeStep === 3 ? itinerary : selectedPlaces}
+  showControls={true}
+  lang={lang}
+/>
     </div>
     <button onClick={() => setIsMapFullscreen(false)} className="absolute bottom-6 right-6 z-[999999] bg-white text-black px-6 py-3.5 rounded-2xl font-black shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center gap-1 border border-gray-100 text-xs tracking-wider uppercase">✕ KAPAT</button>
   </div>
