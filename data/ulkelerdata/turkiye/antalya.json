@@ -45,6 +45,7 @@
       "https://example.com/hadrians_gate.jpg"
     ]
   },
+
   {
     "slug": "koprulu-kanyon-milli-parki",
     "name": {
@@ -1395,6 +1396,59 @@
     "https://upload.wikimedia.org/wikipedia/commons/2/25/G%C3%B6yn%C3%BCk_Canyon_Antalya_Turkey.jpg"
   ]
 },
+{
+  "slug": "kemer-cifte-cesmeler-halk-plaji",
+  "name": {
+    "tr": "Kemer Çifteçeşmeler Halk Plajı",
+    "en": "Kemer Ciftecesmeler Public Beach",
+    "de": "Öffentlicher Strand Kemer Ciftecesmeler"
+  },
+  "latitude": 36.68140271733147, 
+  "longitude": 30.56977791003983,
+  "description": {
+    "tr": "Kemer Çifteçeşmeler Halk Plajı, Antalya’nın Kemer ilçesine bağlı Beldibi bölgesinde yer alan, Kültür ve Turizm Bakanlığı tarafından '5 Yıldızlı Halk Plajı' konseptiyle işletilen modern ve doğa dostu bir plajdır. Çam ağaçlarının denizle buluştuğu eşsiz bir noktada yer alan plaj, hem günübirlik tatilciler hem de kamp severler için bölgedeki en popüler uğrak noktalarından biridir. Tesis bünyesinde geniş bir yeşil alan, yürüyüş yolları, çocuk oyun parkları, spor alanları, uygun fiyatlı kafe ve restoranlar bulunmaktadır. Ayrıca plajın en büyük özelliklerinden biri, karavan ve çadır kullanıcıları için özel altyapıya sahip resmi bir kamp alanına ev sahipliği yapmasıdır. Denizi genellikle temiz ve berraktır, sahil şeridi ise ince çakıl ve kum karışımı bir yapıya sahiptir. Girişlerin ücretsiz olduğu plajda şezlong, şemsiye, duş, soyunma kabini ve otopark gibi hizmetler oldukça ekonomik fiyatlarla sunulmaktadır. Hem bütçe dostu bir deniz tatili yapmak hem de doğa içinde kamp kurmak isteyen yerli ve yabancı turistler için Kemer Çifteçeşmeler Halk Plajı ideal bir alternatiftir.",
+    "en": "Kemer Ciftecesmeler Public Beach, located in the Beldibi region of Antalya's Kemer district, is a modern and eco-friendly beach operated by the Ministry of Culture and Tourism under the '5-Star Public Beach' concept. Situated at a unique spot where pine trees meet the sea, the beach is one of the most popular destinations in the area for both day-trippers and camping enthusiasts. The facility features a large green area, walking paths, children's playgrounds, sports fields, and budget-friendly cafes and restaurants. One of the main highlights of the beach is that it hosts an official campsite with dedicated infrastructure for tents and caravans. The sea is generally clean and crystal clear, while the shoreline has a mixture of fine pebbles and sand. Admission to the beach is free, and services such as sunbeds, umbrellas, showers, changing cabins, and parking are provided at highly affordable prices. Kemer Ciftecesmeler Public Beach is an ideal alternative for both domestic and foreign tourists looking for a budget-friendly beach vacation and camping in nature.",
+    "de": "Der öffentliche Strand Kemer Ciftecesmeler in der Region Beldibi im Bezirk Kemer in Antalya ist ein moderner und umweltfreundlicher Strand, der vom Ministerium für Kultur und Tourismus unter dem Konzept '5-Sterne-Öffentlicher Strand' betrieben wird. An einem einzigartigen Punkt gelegen, an dem Pinienbäume auf das Meer treffen, ist der Strand eines der beliebtesten Ziele in der Region für Tagesausflügler und Campingbegeisterte. Die Anlage verfügt über eine große Grünfläche, Spazierwege, Kinderspielplätze, Sportplätze sowie preisgünstige Cafés und Restaurants. Eines der wichtigsten Highlights des Strandes ist der offizielle Campingplatz mit spezieller Infrastruktur für Zelte und Wohnmobile. Das Meer ist generell sauber und kristallklar, während die Küstenlinie aus einer Mischung aus feinem Kies und Sand besteht. Der Eintritt zum Strand ist kostenlos, und Dienstleistungen wie Liegestühle, Sonnenschirme, Duschen, Umkleidekabinen und Parkplätze werden zu sehr günstigen Preisen angeboten. Der öffentliche Strand Kemer Ciftecesmeler ist eine ideale Alternative für einheimische und ausländische Touristen, die einen preisgünstigen Strandurlaub und Camping in der Natur suchen."
+  },
+  "activities": {
+    "tr": [
+      "Denize girmek ve güneşlenmek",
+      "Çadır veya karavan kampı yapmak",
+      "Mesire alanında piknik yapmak"
+    ],
+    "en": [
+      "Swimming and sunbathing",
+      "Tent or caravan camping",
+      "Picnicking in the recreation area"
+    ],
+    "de": [
+      "Schwimmen und Sonnenbaden",
+      "Zelt- oder Wohnmobil-Camping",
+      "Picknicken im Erholungsgebiet"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "plaj",
+      "kamp",
+      "doga"
+    ],
+    "en": [
+      "beach",
+      "camping",
+      "nature"
+    ],
+    "de": [
+      "Strand",
+      "Camping",
+      "Natur"
+    ]
+  },
+  "images": [
+    "https://example.com"
+  ]
+},
+
   {
     "slug": "selge-antik-kenti",
     "name": {

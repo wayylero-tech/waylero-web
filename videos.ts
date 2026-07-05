@@ -6,6 +6,47 @@ export const wayleroLiveVideos = [
   youtubeId: "oOqcc_kRjUs",
   location: "Konya, Türkiye"
 },
+  { 
+  id: 34, 
+  title: "Hierapolis Antik Kenti", 
+  youtubeId: "-ORDq_6z1ZY",
+  location: "Denizli, Türkiye"
+},
+
+  { 
+  id: 35, 
+  title: "Laodikeia Antik kenti", 
+  youtubeId: "kONMruUrlnQ",
+  location: "Denizli, Türkiye"
+},
+
+  { 
+  id: 36, 
+  title: "Beyşehir Karaburun Plajı ", 
+  youtubeId: "t0j9qQu4Nfw",
+  location: "Konya, Türkiye"
+},
+ { 
+  id: 37, 
+  title: "İvriz Kaya Anıtı", 
+  youtubeId: "sFMS9-ZVqHs",
+  location: "Konya, Türkiye"
+},
+
+  { 
+  id: 38, 
+  title: "Karapınar Acıgöl", 
+  youtubeId: "B7cxqVwFzB8",
+  location: "Konya, Türkiye"
+},
+
+  { 
+  id: 39, 
+  title: "Doğan Hisar Gölcük Gölü Ve Mesire Alanı ", 
+  youtubeId: "yeyS8c4S_sA",
+  location: "Konya, Türkiye"
+},
+
 
 { 
   id: 28, 
