@@ -1,5 +1,63 @@
 [
 {
+  "slug": "ormanya-dogal-yasam-parki",
+  "name": {
+    "tr": "Ormanya Doğal Yaşam Parkı",
+    "en": "Ormanya Nature Park",
+    "de": "Ormanya Naturpark"
+  },
+  "latitude": 40.713611,
+  "longitude": 30.174444,
+  "description": {
+    "tr": "Ormanya Doğal Yaşam Parkı, Kocaeli'nin Kartepe ilçesinde yer alan, Avrupa'nın en büyük doğal yaşam parklarından biridir. Yaklaşık 2 bin dönümlük devasa bir alana yayılan park; Çocuk Hayvanat Bahçesi, Yaban Yaşam Alanı, Bisiklet ve Yürüyüş Parkurları, Mesire Alanı ve Kamp Alanı gibi farklı konseptleri bir arada sunmaktadır. Özellikle masalsı tasarımıyla dikkat çeken 'Hobbit Evleri' (Ormanköy), parkın en popüler ve fotojenik noktasıdır. Doğal çevrenin korunarak modern bir rekreasyon alanına dönüştürüldüğü Ormanya, hem aileler hem de doğa severler için harika bir kaçış noktasıdır.",
+    "en": "Ormanya Nature Park, located in the Kartepe district of Kocaeli, is one of the largest natural life parks in Europe. Spanning a massive area of approximately 2,000 decares, the park features a Children's Zoo, Wildlife Area, Cycling and Walking Trails, a Picnic Area, and a Campsite. The 'Hobbit Houses' (Ormanköy), famous for their fairytale-like design, are the most popular and photogenic spots in the park. Successfully transforming a preserved natural environment into a modern recreational space, Ormanya is a perfect getaway for both families and nature enthusiasts.",
+    "de": "Der Ormanya Naturpark im Bezirk Kartepe in Kocaeli ist einer der größten Naturschutzparks in Europa. Auf einer riesigen Fläche von rund 2.000 Dekar vereint der Park verschiedene Bereiche wie einen Kinderzoo, ein Wildtiergebiet, Fahrrad- und Wanderwege, einen Picknickplatz und einen Campingplatz. Die für ihr märchenhaftes Design bekannten 'Hobbit-Häuser' (Ormanköy) sind der beliebteste und fotogenste Ort des Parks. Ormanya hat eine geschützte natürliche Umgebung erfolgreich in ein modernes Naherholungsgebiet verwandelt und ist ein perfektes Ausflugsziel für Familien und Naturliebhaber."
+  },
+  "activities": {
+    "tr": [
+      "Çocuk Hayvanat Bahçesi ve Yaban Yaşam Alanı'ndaki canlıları ziyaret etme",
+      "Masalsı Hobbit Evleri (Ormanköy) önünde harika fotoğraflar çekilme",
+      "Doğa içindeki uzun yürüyüş ve bisiklet parkurlarında spor yapma",
+      "Karavan veya çadırla kamp alanında konaklama"
+    ],
+    "en": [
+      "Visit various animal species in the Children's Zoo and Wildlife Area",
+      "Take unique photos in front of the fairytale-like Hobbit Houses (Ormanköy)",
+      "Hike or cycle along the scenic trails embedded in nature",
+      "Stay overnight at the designated caravan and tent campsite"
+    ],
+    "de": [
+      "Verschiedene Tierarten im Kinderzoo und im Wildtierbereich besuchen",
+      "Einzigartige Fotos vor den märchenhaften Hobbit-Häusern (Ormanköy) machen",
+      "Auf den wunderschönen Wegen inmitten der Natur wandern oder Rad fahren",
+      "Auf dem ausgewiesenen Wohnmobil- und Zeltplatz übernachten"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğal yaşam parkı",
+      "milli park",
+      "kamp alanı",
+      "aile aktivitesi"
+    ],
+    "en": [
+      "nature park",
+      "national park",
+      "campsite",
+      "family activity"
+    ],
+    "de": [
+      "naturpark",
+      "nationalpark",
+      "campingplatz",
+      "familienaktivität"
+    ]
+  },
+  "images": [
+    "https://example.com/kocaeli_ormanya_dogal_yasam_parki.jpg"
+  ]
+},
+{
   "slug": "hereke-kalesi",
   "name": {
     "tr": "Hereke Kalesi",

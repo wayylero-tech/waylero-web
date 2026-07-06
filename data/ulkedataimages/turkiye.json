@@ -1504,9 +1504,27 @@
         "places/turkey/muğla/mugla-akyaka/xumekcdroknqecawxgfn",
 "places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359137676_0.6611008155826439","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359140627_0.30740480569315165","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359143530_0.539955988494932","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359146734_0.9783003646506696","places/turkey/muğla/mugla-akyaka/mugla-akyaka_1779359149126_0.27632717125446393"
       ],
+"mugla-geren-sahili": [
+ "places/turkey/mugla/geren-sahili/geren-sahili_1783359707338_0.10625446822008655","places/turkey/mugla/geren-sahili/geren-sahili_1783359710806_0.8184734472332211","places/turkey/mugla/geren-sahili/geren-sahili_1783359713268_0.7556024793032026"
 
+      ],
+"mugla-cakalboku": [
+"places/turkey/mugla/cakalboku/cakalboku_1783359881601_0.041037372308475484","places/turkey/mugla/cakalboku/cakalboku_1783359888571_0.32132448313629647","places/turkey/mugla/cakalboku/cakalboku_1783359893176_0.48624813208494644","places/turkey/mugla/cakalboku/cakalboku_1783359896419_0.8860835527175303","places/turkey/mugla/cakalboku/cakalboku_1783359899651_0.3948198860823461"
+
+      ],
+"mugla-seytan-yalisi": [
+"places/turkey/mugla/seytan-yalisi/seytan-yalisi_1783359963234_0.8717492031520393","places/turkey/mugla/seytan-yalisi/seytan-yalisi_1783359966627_0.25424082792361724","places/turkey/mugla/seytan-yalisi/seytan-yalisi_1783359969451_0.964455558537696","places/turkey/mugla/seytan-yalisi/seytan-yalisi_1783359971665_0.6125439126714671","places/turkey/mugla/seytan-yalisi/seytan-yalisi_1783359974566_0.7005451311029584"
+
+
+      ],
 "mugla-tlos-antik-kenti": [
 "places/turkey/muğla/tlos-antik-kenti/tlos-antik-kenti_1779393672219_0.03884818189187578","places/turkey/muğla/tlos-antik-kenti/tlos-antik-kenti_1779393680606_0.9712249653231901"
+],
+"mugla-albay-koyu": [
+"places/turkey/mugla/albay-koyu/albay-koyu_1783324006767_0.47488029365487516","places/turkey/mugla/albay-koyu/albay-koyu_1783324013036_0.7548097157711241","places/turkey/mugla/albay-koyu/albay-koyu_1783324018421_0.5096760166476181","places/turkey/mugla/albay-koyu/albay-koyu_1783324022701_0.7522089870713914","places/turkey/mugla/albay-koyu/albay-koyu_1783324026077_0.23724968905202404"
+],
+"mugla-sarigerme-mesire-ve-kamp-alani": [
+"places/turkey/mugla/sarigerme-mesire-ve-kamp-alani/sarigerme-mesire-ve-kamp-alani_1783325223111_0.3148596361658579","places/turkey/mugla/sarigerme-mesire-ve-kamp-alani/sarigerme-mesire-ve-kamp-alani_1783325226970_0.6560461347094978","places/turkey/mugla/sarigerme-mesire-ve-kamp-alani/sarigerme-mesire-ve-kamp-alani_1783325235175_0.4080852778458063","places/turkey/mugla/sarigerme-mesire-ve-kamp-alani/sarigerme-mesire-ve-kamp-alani_1783325238611_0.8749112284136527"
 ],
 
 "mugla-amintas-kaya-mezarlari": [
@@ -1553,6 +1571,15 @@
         "places/turkey/amasya/amasya-kral-kaya-mezarlari/fxe2zyz39cxuawt62bns"
       ]
     },
+
+"kocaeli": {
+      "kocaeli-ormanya-dogal-yasam-parki": [
+     "places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322718900_0.6519849668298351","places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322723224_0.7162423852920563","places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322727373_0.09088933840828395","places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322730518_0.48714573420693563","places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322733755_0.05132694133301341","places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322738003_0.8753720146959306"
+
+
+      ]
+    },
+
     "artvin": {
       "artvin-ciftekemer-koprusu": [
         "places/turkey/artvin/artvin-ciftekemer-koprusu/hltz4cvv1mcjbg1ae4vq",

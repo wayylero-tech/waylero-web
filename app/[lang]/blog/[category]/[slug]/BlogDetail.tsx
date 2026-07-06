@@ -17,12 +17,12 @@ interface Post {
   date?: string;
   authorName?: string;
   authorEmail?: string;
-  social?: {
-    instagram?: string;
-    twitter?: string;
-    linkedin?: string;
-    website?: string;
-  };
+ socials?: {
+  instagram?: string;
+  facebook?: string;
+  x?: string;
+  youtube?: string;
+};
 }
 
 interface RelatedPost {
@@ -388,27 +388,61 @@ const extraImages = allImages.length - 5;
                   {post.authorEmail && <p className="text-blue-500/70 text-sm mt-1 font-bold">{post.authorEmail}</p>}
                   {post.social && (
                     <div className="flex items-center justify-center md:justify-start gap-3 mt-3 flex-wrap">
-                      {post.social.instagram && (
-                        <a href={post.social.instagram} target="_blank" className="text-pink-500 text-xs font-black hover:underline">
-                          Instagram
-                        </a>
-                      )}
-                      {post.social.twitter && (
-                        <a href={post.social.twitter} target="_blank" className="text-sky-500 text-xs font-black hover:underline">
-                          X
-                        </a>
-                      )}
-                      {post.social.linkedin && (
-                        <a href={post.social.linkedin} target="_blank" className="text-blue-600 text-xs font-black hover:underline">
-                          LinkedIn
-                        </a>
-                      )}
-                      {post.social.website && (
-                        <a href={post.social.website} target="_blank" className="text-gray-700 text-xs font-black hover:underline">
-                          Website
-                        </a>
-                      )}
-                    </div>
+  {post.social.instagram && (
+    <a
+      href={post.social.instagram}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-pink-500 text-xs font-black hover:underline"
+    >
+      Instagram
+    </a>
+  )}
+
+  {post.social.youtube && (
+    <a
+      href={post.social.youtube}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-red-600 text-xs font-black hover:underline"
+    >
+      YouTube
+    </a>
+  )}
+
+  {post.social.twitter && (
+    <a
+      href={post.social.twitter}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sky-500 text-xs font-black hover:underline"
+    >
+      X
+    </a>
+  )}
+
+  {post.social.linkedin && (
+    <a
+      href={post.social.linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 text-xs font-black hover:underline"
+    >
+      LinkedIn
+    </a>
+  )}
+
+  {post.social.website && (
+    <a
+      href={post.social.website}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-700 text-xs font-black hover:underline"
+    >
+      Website
+    </a>
+  )}
+</div>
                   )}
                 </div>
 

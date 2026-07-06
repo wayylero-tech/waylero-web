@@ -50,6 +50,10 @@ import { karaburunPosts } from "@/data/blog/konya/karaburunposts";
 import { aydinPosts } from "@/data/blog/aydin/posts";
 import { muglaPosts } from "@/data/blog/mugla/posts2";
 import { ciftecesmelerPosts } from "@/data/blog/antalya/ciftecesmelerplaji";
+import { albayPosts } from "@/data/blog/mugla/albaykoyu";
+import { sarigermePosts } from "@/data/blog/mugla/sarigerme";
+import { ormanyaPosts } from "@/data/blog/kocaeli/ormanya";
+import { tatilPosts } from "@/data/blog/mugla/tatil";
 
 
 
@@ -105,6 +109,11 @@ export const allPosts = [
 ...karaburunPosts,
 ...aydinPosts,
 ...muglaPosts,
-...ciftecesmelerPosts
+...ciftecesmelerPosts,
+...albayPosts,
+...sarigermePosts,
+...ormanyaPosts,
+...tatilPosts
+
 
 ];

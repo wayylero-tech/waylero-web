@@ -558,6 +558,124 @@
   ]
 },
 {
+  "slug": "albay-koyu",
+  "name": {
+    "tr": "Albay Koyu",
+    "en": "Albay Bay",
+    "de": "Albay Bucht"
+  },
+  "latitude": 37.051389,
+  "longitude": 28.320278,
+ "description": {
+  "tr": "Albay Koyu, Muğla'nın Ula ilçesine bağlı, sakin şehir (Cittaslow) unvanıyla bilinen Akyaka beldesinde, asırlık çam ağaçlarıyla kaplı ünlü Akyaka Orman Kampı sınırları içerisinde saklanmış eşsiz bir doğa harikasıdır. Bölge halkı arasındaki hikayesine göre adını, 1970'li yıllarda bu bakir noktayı keşfedip uzun süre çadır kampı kuran emekli Albay Süleyman Faik Turna'dan alan koy, Gökova Körfezi'nin dik falezleri ile yoğun çam ormanlarının kesiştiği büyüleyici bir noktada yer alır. Komşusu olan meşhur 72 Merdiven Koyu gibi orman içi taş patikalardan ve dik ahşap basamaklardan inilerek ulaşılan bu saklı kaçış noktası, klasik bir kumsala sahip değildir; tamamen kayalık ve kayaların üzerine kurulu ahşap güneşlenme platformlarından oluşan özgün bir yapıya sahiptir. Koyun en belirleyici özelliklerinden biri, bölgedeki yeraltı tatlı su kaynaklarının deniz altından fışkırması sebebiyle suyunun her zaman canlandırıcı bir serinliğe, akvaryum netliğinde bir berraklığa ve göz alıcı bir turkuaz renge sahip olmasıdır. Derin yapısı ve zengin su altı popülasyonu sayesinde şnorkelle dalış ve su altı fotoğrafçılığı için muazzam bir ortam sunan Albay Koyu, Akyaka'nın merkezindeki yoğun plaj kalabalığından kaçmak, çam kokuları eşliğinde dalga seslerini dinlemek ve doğayla tamamen baş başa kalmak isteyen gezginlerin bölgedeki en favori duraklarından biridir.",
+  "en": "Albay Bay (Albay Koyu) is a pristine, hidden natural wonder tucked away inside the borders of the famous Akyaka Forest Campground, surrounded by centuries-old pine trees in the slow city (Cittaslow) resort of Akyaka, within the Ula district of Mugla. According to local lore, the bay owes its name to retired Colonel Suleyman Faik Turna, who discovered this untouched spot in the 1970s and pitched his tent here for extended periods. Situated at a breathtaking intersection where the steep cliffs of the Gulf of Gokova meet dense pine woodlands, this secluded retreat is accessible via forested stone pathways and steep wooden steps, much like its neighbor, the famous 72 Steps Bay. Albay Bay does not feature a traditional sandy shoreline; instead, it offers a distinctive rocky terrain equipped with wooden sunbathing platforms built directly over the rocks. One of the bay's most defining characteristics is its exceptionally refreshing water temperature and aquarium-like clarity, caused by underwater freshwater springs merging into the sea, which creates a striking turquoise hue. With its deep waters and rich marine biodiversity, the bay provides an incredible environment for snorkeling and underwater photography. It remains a top choice in Akyaka for travelers looking to escape the crowded central beaches, breathe in the therapeutic scent of pine needles, and find absolute serenity by the soothing sound of the waves.",
+    "de": "Die Albay-Bucht (Albay Koyu) ist ein verstecktes Naturparadies auf dem Gelände des berühmten Akyaka-Waldcampingplatzes in Akyaka, einem Urlaubsort mit dem Titel 'Cittaslow' im Bezirk Ula in Mugla. Benannt nach dem Oberst (Albay) Suleyman Faik Turna, der hier in den 1970er Jahren ausgiebig zeltete, liegt die Bucht an dem Punkt, an dem die steilen, kiefernbewachsenen Hänge des Golfs von Gokova auf das Meer treffen. Zugänglich über steile Holzstufen oder Waldpfade, ähnlich wie die benachbarte 72-Stufen-Bucht, zeichnet sie sich durch ein felsiges Gelände ohne Sandstrand aus, an dem man über Holzplattformen ins Meer gelangt. Mit ihrem tiefen, aquarienhaften und zeitweise welligen türkisfarbenen Wasser ist sie ein beliebter Rückzugsort in Akyaka für alle, die der Masse entfliehen und die Natur genießen möchten."
+  },
+  "activities": {
+    "tr": [
+      "Akyaka Orman Kampı içindeki çam ağaçları arasından koya inen patikalarda yürüyüş yapma",
+      "Ahşap platformlar üzerinden Gökova Körfezi'nin derin ve berrak sularına atlayıp yüzme",
+      "Çam kokuları ve dalga sesleri eşliğinde kalabalıktan uzak huzurlu vakit geçirme",
+      "Koyun kayalık yapısı ve masmavi denizinin birleştiği manzarayı fotoğraflama"
+    ],
+    "en": [
+      "Hike along the scenic trails through pine trees inside the Akyaka Forest Campground",
+      "Dive and swim in the deep, crystal-clear waters of the Gulf of Gokova from wooden platforms",
+      "Spend peaceful time away from the crowds, accompanied by the scent of pine and the sound of waves",
+      "Photograph the stunning scenery where the rocky shores of the bay meet the vibrant blue sea"
+    ],
+    "de": [
+      "Auf den landschaftlich reizvollen Pfaden durch die Pinienbäume auf dem Akyaka-Waldcampingplatz wandern",
+      "Von den Holzplattformen in das tiefe, kristallklare Wasser des Golfs von Gokova springen und schwimmen",
+      "Abseits der Massen eine friedliche Zeit verbringen, begleitet von Kiefernduft und Wellenrauschen",
+      "Die herrliche Landschaft fotografieren, in der die felsige Küste der Bucht auf das tiefblaue Meer trifft"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "koy",
+      "doğal alan",
+      "manzara noktası",
+      "orman içi alan"
+    ],
+    "en": [
+      "bay",
+      "natural site",
+      "viewpoint",
+      "forested area"
+    ],
+    "de": [
+      "bucht",
+      "naturstätte",
+      "aussichtspunkt",
+      "waldgebiet"
+    ]
+  },
+  "images": [
+    "https://example.com/mugla_akyaka_albay_koyu.jpg"
+  ]
+},
+
+{
+  "slug": "sarigerme-mesire-ve-kamp-alani",
+  "name": {
+    "tr": "Sarıgerme Mesire ve Kamp Alanı",
+    "en": "Sarigerme Picnic and Camping Area",
+    "de": "Sarigerme Picknick- und Campingplatz"
+  },
+  "latitude": 36.702778,
+  "longitude": 28.701111,
+  "description": {
+    "tr": "Sarıgerme Mesire ve Kamp Alanı, Muğla'nın Ortaca ilçesine bağlı Sarıgerme köyünde, dünyaca ünlü SARÇED plajının hemen arkasında yer alan doğa harikası bir rekreasyon alanıdır. Çam ve sığla ağaçlarının gölgesinde kurulu olan bu alan, hem günübirlik piknikçiler hem de çadır ve karavan kampı yapmak isteyen doğa severler için ideal bir alternatiftir. İncecik altın sarısı kumu, sığ ve temiz deniziyle bilinen plaja yürüme mesafesinde olan kamp alanı; geniş olanakları, yeşille maviyi buluşturan atmosferi ve huzurlu yapısıyla Akdeniz ile Ege'nin birleştiği bu benzersiz coğrafyada keyifli bir mola noktası sunmaktadır.",
+    "en": "Sarigerme Picnic and Camping Area is a natural wonderland located in the Sarigerme village of Ortaca, Mugla, situated right behind the world-famous SARCED beach. Set under the shade of pine and sweetgum trees, this area is an ideal choice for both day-trip picnickers and nature enthusiasts looking to pitch tents or camp with caravans. Being within walking distance of the beach—renowned for its fine golden sand and shallow, crystal-clear sea—the campsite provides well-maintained facilities and a peaceful atmosphere where green meets blue, offering a delightful getaway where the Mediterranean and Aegean meet.",
+    "de": "Das Sarigerme Picknick- und Campingplatz ist ein Naturparadies im Dorf Sarigerme im Bezirk Ortaca in Mugla, direkt hinter dem weltberühmten SARCED-Strand gelegen. Im Schatten von Pinien und Amberbäumen bietet dieser Bereich eine ideale Alternative sowohl für Tagesausflügler zum Picknicken als auch für Naturliebhaber, die mit dem Zelt oder Wohnmobil campen möchten. Der Campingplatz liegt nur wenige Gehminuten vom Strand entfernt, der für seinen feinen goldenen Sand und sein flaches, sauberes Meer bekannt ist. Mit seinen umfangreichen Einrichtungen und einer friedlichen Atmosphäre, die Grün und Blau verbindet, bietet er einen angenehmen Rückzugsort am Schnittpunkt von Mittelmeer und Ägäis."
+  },
+  "activities": {
+    "tr": [
+      "Çam ve sığla ağaçları altında piknik ve mangal keyfi yapma",
+      "İnce kumlu ve sığ Sarıgerme Plajı'nda yüzme ve güneşlenme",
+      "Çadır veya karavanla doğa içinde huzurlu bir kamp deneyimi yaşama",
+      "Sahil şeridinde ve ormanlık patikalarda yürüyüşe çıkma"
+    ],
+    "en": [
+      "Enjoy a picnic or barbecue under the shade of pine and sweetgum trees",
+      "Swim and sunbathe at the fine-sanded, shallow Sarigerme Beach",
+      "Experience a peaceful tent or caravan camping trip embedded in nature",
+      "Take long walks along the coastline and through forested paths"
+    ],
+    "de": [
+      "Picknicken und Grillen unter Pinien- und Amberbäumen genießen",
+      "Am feinsandigen und flachen Strand von Sarigerme schwimmen und sonnenbaden",
+      "Ein friedliches Camping-Erlebnis mit dem Zelt oder Wohnmobil inmitten der Natur genießen",
+      "Ausgiebige Spaziergänge an der Küste und auf den Waldwegen unternehmen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "kamp alanı",
+      "mesire alanı",
+      "plaj",
+      "doğa yürüyüşü"
+    ],
+    "en": [
+      "campsite",
+      "picnic area",
+      "beach",
+      "trekking"
+    ],
+    "de": [
+      "campingplatz",
+      "picknickplatz",
+      "strand",
+      "wandern"
+    ]
+  },
+  "images": [
+    "https://example.com/sarigerme_mesire_ve_kamp_alani.jpg"
+  ]
+},
+
+{
     "slug": "giynap-koyu",
     "name": {
       "tr": "Gıynap Koyu",
