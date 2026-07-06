@@ -17,11 +17,13 @@ interface Post {
   date?: string;
   authorName?: string;
   authorEmail?: string;
- socials?: {
+ social?: {
   instagram?: string;
   facebook?: string;
   x?: string;
   youtube?: string;
+  linkedin ?:string;
+  website?:string;
 };
 }
 
@@ -410,9 +412,9 @@ const extraImages = allImages.length - 5;
     </a>
   )}
 
-  {post.social.twitter && (
+  {post.social.x && (
     <a
-      href={post.social.twitter}
+      href={post.social.x}
       target="_blank"
       rel="noopener noreferrer"
       className="text-sky-500 text-xs font-black hover:underline"
