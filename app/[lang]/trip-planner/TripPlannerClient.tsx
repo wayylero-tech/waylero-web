@@ -130,7 +130,7 @@ export default function TripPlannerClient({ lang = "tr" }: { lang: "tr" | "en" }
 
   const [activeStep, setActiveStep] = useState(1);
   const [selectedCities, setSelectedCities] = useState<string[]>(
-  cityFromUrl ? [cityFromUrl] : [lang === "tr" ? "İstanbul" : "Istanbul"]
+  cityFromUrl ? cityFromUrl.split(",") : []
 );
   const [isGenerating, setIsGenerating] = useState(false);
   const [itinerary, setItinerary] = useState<Place[]>([]);
