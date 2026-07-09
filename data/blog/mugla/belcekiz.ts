@@ -1,0 +1,44 @@
+export const belcekizPosts = [
+{
+  "slug": "belcekiz-plaji",
+  "title": {
+    "tr": "Masmavi Bir Cennet: Fethiye Ölüdeniz Belcekız Plajı-2026-Gezi Rehberi",
+    "en": "An Azure Paradise: Fethiye Ölüdeniz Belcekız Beach – 2026 Travel Guide"
+  },
+  "excerpt": {
+    "tr": "Belcekız Plajı 2026 gezi rehberi! Güncel giriş ücreti, şezlong fiyatları, ulaşım, otopark, toplu taşıma ücretleri ve Ölüdeniz Belcekız Plajı hakkında bilmeniz gereken tüm detaylar burada.",
+    "en": "Belcekız Beach 2026 travel guide! Here are all the details you need to know about Ölüdeniz Belcekız Beach, including current entrance fees, sunbed prices, transportation, parking, and public transport fares."
+  },
+  "content": {
+    "tr": "# Masmavi Bir Cennet: Fethiye Ölüdeniz Belcekız Plajı Gezi Rehberi\n\nHerkese selam! Geçtiğimiz günlerde rotayı Ege ve Akdeniz’in birleştiği o meşhur noktaya, Fethiye Ölüdeniz’e çevirdim. Dalgaların kıyıya vurduğu, gökyüzünde rengarenk yamaç paraşütlerinin süzüldüğü **Belcekız Plajı**’nda harika bir gün geçirdim.\n\nGitmeden önce kafamda \"Acaba fiyatlar ne durumda, bütçeyi nasıl ayarlamalıyım?\" gibi deli sorular vardı. Benim gibi hazırlıksız yakalanmak istemeyenler için taze taze edindiğim tüm güncel bilgileri, cep yakan ve yüz güldüren detayları bir araya getirdim. İşte bir gezgin gözünden 2026 Belcekız Plajı deneyimi!\n\n---\n\n## Belcekız Plajı’na Giriş ve Temel Hizmetler\n\nPlaja adımımı atar atmaz ilk dikkatimi çeken ve beni en çok mutlu eden şey, birçok halk plajının aksine temel ihtiyaçların ücretsiz olması oldu.\n\n* **Yaya Girişi:** Plaja giriş tamamen **ücretsiz**. Yani havlunuzu kapıp dilediğiniz gibi gelebilirsiniz.\n* **Duş, WC ve Soyunma Kabini:** Sahillerde en büyük çilelerden biri bunlara para ödemektir. Belcekız'da duş, tuvalet ve soyunma kabini kullanımı için hiçbir ücret talep edilmiyor; üstelik gayet temiz ve bakımlıydılar.\n\n> ⚠️ **Araçla Geleceklerin Dikkatine:** Plajın kendisine ait bir araç otoparkı bulunmuyor. Eğer şahsi aracınızla gelirseniz, arabanızı plajın dışındaki dış alanlara veya çevre otoparklara bırakmanız gerekiyor. Bu yüzden erken saatlerde gelip yer kapmakta fayda var.\n\n---\n\n## Şezlong ve Şemsiye Kiralama Ücretleri\n\n\"Ben kumun üstüne havlu seremem, konforumdan ödün vermem\" diyenlerdenseniz, belediye/işletme tabelalarında gördüğüm resmi şezlong ve şemsiye fiyatlarını hemen şuraya bırakıyorum:\n\n| Hizmet Türü | 2026 Fiyatı |\n| --- | --- |\n| **1 Adet Şezlong** | 300 TL |\n| **1 Şezlong + 1 Şemsiye** | 600 TL |\n| **2 Şezlong + 1 Şemsiye** | 900 TL |\n\nFiyatlar popüler bir tatil beldesine göre bence makul seviyede tutulmuş. Tabii ki kendi şemsiyenizi ve sandalyenizi getirip ücretsiz alanda takılma özgürlüğünüz de var.\n\n---\n\n## Belcekız Plajı’na Ulaşım ve Ödeme İpuçları\n\nFethiye merkezden Ölüdeniz’e geçmek oldukça kolay. Toplu taşımayı (minibüs/otobüs) sıklıkla kullanabiliyorsunuz. Ancak burada dikkat etmeniz gereken çok önemli bir **\"ekonomi\"** hilesi var!\n\n* **Nakit Ödeme:** Minibüste nakit ödeme yapmak isterseniz kişi başı **115 TL** alıyorlar.\n* **Banka / Kredi Kartı İle Ödeme:** Eğer temassız banka veya kredi kartınızı okutursanız ücret **89 TL**’ye düşüyor.\n\nYani toplu taşıma kullanacaksanız kesinlikle cebinizdeki kartları hazırlayın; her binişte ciddi bir kâr elde ediyorsunuz, benden söylemesi!\n\n---\n\n### Gezginin Son Notu\n\nBelcekız Plajı, o turkuaz denizi ve arkasındaki Babadağ manzarasıyla her kuruşa ve harcanan her emeğe değer bir yer. Özellikle gökyüzünden süzülen paraşütçüleri izleyerek denize girmek bambaşka bir keyif. Eğer bu yıl yolunuz buralara düşecekse, kartınızı yanınıza almayı ve otopark sorununu hesaba katarak yola erken çıkmayı unutmayın.\n\nŞimdiden keyifli tatiller!",
+    "en": "# A Deep-Blue Paradise: Fethiye Ölüdeniz Belcekız Beach Travel Guide\n\nHello, everyone! A few days ago, I headed to that famous spot where the Aegean and Mediterranean Seas meet: Fethiye’s Ölüdeniz. I spent a wonderful day at **Belcekız Beach**, where the waves crash against the shore and colorful paragliders glide through the sky.\n\nBefore heading out, I had all these crazy questions swirling in my head: “What are the prices like? How should I plan my budget?” For those who, like me, don’t want to get caught unprepared, I’ve compiled all the up-to-date information I’ve freshly gathered—including both the wallet-busting and the smile-inducing details. Here’s the 2026 Belcekız Beach experience through a traveler’s eyes!\n\n---\n\n## Entrance to Belcekız Beach and Basic Amenities\n\nThe first thing that caught my attention—and made me happiest—as soon as I set foot on the beach was that, unlike many public beaches, basic amenities are free.\n\n* **Pedestrian Entrance:** Entrance to the beach is completely **free**. So, just grab your towel and come whenever you like.\n* **Showers, Restrooms, and Changing Rooms:** One of the biggest hassles at beaches is having to pay for these facilities. At Belcekız, there’s no charge for using the showers, restrooms, or changing rooms—and they were very clean and well-maintained.\n\n> ⚠️ **Note for Those Arriving by Car:** The beach does not have its own parking lot. If you’re coming by personal vehicle, you’ll need to park in the open areas outside the beach or at nearby parking lots. That’s why it’s a good idea to arrive early to secure a spot.\n\n---\n\n## Sunbed and Umbrella Rental Fees\n\nIf you’re the type who says, “I won’t lay my towel on the sand—I won’t compromise on comfort,” here are the official sunbed and umbrella prices I saw on the municipal/operating signs:\n\n| Service Type | 2026 Price |\n| --- | --- |\n| **1 Sun Lounger** | 300 TL |\n| **1 Sun Lounger + 1 Umbrella** | 600 TL |\n| **2 Sun Loungers + 1 Umbrella** | 900 TL |\n\nI think the prices are kept at a reasonable level for a popular vacation spot. Of course, you also have the freedom to bring your own umbrella and chair and hang out in the free area.\n\n---\n\n## Tips for Getting to Belcekız Beach and Payment\n\nGetting from central Fethiye to Ölüdeniz is quite easy. You can frequently use public transportation (minibus/bus). However, there’s a very important **“money-saving”** tip you need to keep in mind here!\n\n* **Cash Payment:** If you pay in cash on the minibus, they charge **115 TL** per person.\n* **Payment by Debit/Credit Card:** If you tap your contactless debit or credit card, the fee drops to **89 TL**.\n\nSo if you’re using public transportation, definitely have your cards ready—you’ll save a significant amount on every ride, just saying!\n\n---\n\n### Traveler’s Final Note\n\nBelcekız Beach, with its turquoise sea and the view of Babadağ in the background, is a place worth every penny and every effort spent. Especially taking a dip in the sea while watching paragliders glide through the sky is a whole different kind of pleasure. If you’re heading this way this year, don’t forget to bring your card and set out early, keeping parking issues in mind.\n\nHave a great vacation!\n\nTranslated with DeepL.com (free version)"
+  },
+  "seo": {
+    "title": {
+      "tr": "Masmavi Bir Cennet: Fethiye Ölüdeniz Belcekız Plajı-2026-Gezi Rehberi",
+      "en": "An Azure Paradise: Fethiye Ölüdeniz Belcekız Beach – 2026 Travel Guide"
+    },
+    "description": {
+      "tr": "Belcekız Plajı 2026 gezi rehberi! Güncel giriş ücreti, şezlong fiyatları, ulaşım, otopark, toplu taşıma ücretleri ve Ölüdeniz Belcekız Plajı hakkında bilmeniz gereken tüm detaylar burada.",
+      "en": "Belcekız Beach 2026 travel guide! Here are all the details you need to know about Ölüdeniz Belcekız Beach, including current entrance fees, sunbed prices, transportation, parking, and public transport fares."
+    }
+  },
+  "image": "https://res.cloudinary.com/dewd42ppf/image/upload/v1783624116/places/turkey/mugla/belcekiz-plaji/belcekiz-plaji_1783624116176_0.23240393358166067.jpg",
+  "gallery": [
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1783624116/places/turkey/mugla/belcekiz-plaji/belcekiz-plaji_1783624116176_0.23240393358166067.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1783624114/places/turkey/mugla/belcekiz-plaji/belcekiz-plaji_1783624112648_0.15894261008236632.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1783624110/places/turkey/mugla/belcekiz-plaji/belcekiz-plaji_1783624111243_0.7391763448714235.jpg",
+    "https://res.cloudinary.com/dewd42ppf/image/upload/v1783624108/places/turkey/mugla/belcekiz-plaji/belcekiz-plaji_1783624108632_0.3976706947217675.jpg"
+  ],
+  "date": "2026-07-09",
+  "city": "mugla",
+  "authorEmail": "wayylero@gmail.com",
+  "authorName": "waylero",
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+  }
+}
+];

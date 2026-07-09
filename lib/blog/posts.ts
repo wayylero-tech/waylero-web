@@ -54,6 +54,9 @@ import { albayPosts } from "@/data/blog/mugla/albaykoyu";
 import { sarigermePosts } from "@/data/blog/mugla/sarigerme";
 import { ormanyaPosts } from "@/data/blog/kocaeli/ormanya";
 import { tatilPosts } from "@/data/blog/mugla/tatil";
+import { belcekizPosts } from "@/data/blog/mugla/belcekiz";
+import { kidrakPosts } from "@/data/blog/mugla/kidrak";
+import { yesilvadiPosts } from "@/data/blog/mugla/yesilvadi";
 
 
 
@@ -113,7 +116,10 @@ export const allPosts = [
 ...albayPosts,
 ...sarigermePosts,
 ...ormanyaPosts,
-...tatilPosts
+...tatilPosts,
+...belcekizPosts,
+...kidrakPosts,
+...yesilvadiPosts
 
 
 ];
