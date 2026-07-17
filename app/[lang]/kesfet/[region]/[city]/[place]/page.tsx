@@ -5,6 +5,8 @@ import fs from "fs";
 import path from "path";
 import { slugify } from "@/lib/utils/slugify";
 import PlaceClient from "./PlaceClient";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "@/lib/firebase";
 
 // 🚀 1. CACHE & RUNTIME AYARLARI
 export const runtime = "nodejs";
@@ -147,6 +149,24 @@ export default async function Page({ params }: Props) {
   );
 
   if (!foundPlace) return notFound();
+  let liveEntryFee = null;
+
+try {
+  const feeDoc = await getDoc(
+    doc(db, "entry_fees", place.toLowerCase().trim())
+  );
+
+  if (feeDoc.exists()) {
+    const data = feeDoc.data();
+
+    liveEntryFee =
+      lang === "en"
+        ? data.en || null
+        : data.tr || null;
+  }
+} catch (e) {
+  console.error(e);
+}
 
   // 🎯 GEREKSİZ DİLLERİ KAYNAK KODDAN TEMİZLEME OPERASYONU
   // İstemciye sadece o anki dilin verilerini veya fallback (tr) verisini gönderiyoruz.
@@ -180,13 +200,14 @@ export default async function Page({ params }: Props) {
 
   return (
     <PlaceClient
-      lang={lang}
-      region={region}
-      city={city}
-      place={place}
-      foundPlace={cleanedPlace} // Artık burası tertemiz!
-      images={images}
-      nearbyPlaces={nearbyPlaces}
-    />
+  lang={lang}
+  region={region}
+  city={city}
+  place={place}
+  foundPlace={cleanedPlace}
+  images={images}
+  nearbyPlaces={nearbyPlaces}
+  liveEntryFee={liveEntryFee}
+/>
   );
 }
