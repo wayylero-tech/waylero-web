@@ -170,6 +170,58 @@
     ]
   },
 {
+  "slug": "helvadere-goleti",
+  "name": {
+    "tr": "Helvadere Göleti",
+    "en": "Helvadere Pond",
+    "de": "Helvadere Teich"
+  },
+  "latitude": 38.20224612126744, 
+  "longitude": 34.209312399795394,
+  "description": {
+    "tr": "Helvadere Göleti, Aksaray il merkezine yaklaşık 25 km uzaklıkta, görkemli Hasandağı’nın eteklerinde yer alan doğal bir güzelliktir. Hem sulama amacıyla kullanılan hem de çevresindeki yeşil alanlarla muhteşem bir rekreasyon alanı sunan gölet, özellikle hafta sonları şehir hayatının stresinden kaçmak isteyenlerin uğrak noktasıdır.\n\n**Doğası ve Önemi**\n\nGölet, arkasına Hasandağı’nın karlı zirvelerini alarak ziyaretçilerine kartpostallık manzaralar sunar. Çevresi, piknik alanları, yürüyüş yolları ve doğayla iç içe vakit geçirilebilecek mesire yerleriyle donatılmıştır. Aynı zamanda amatör olta balıkçılığı için de uygun bir ortama sahip olan Helvadere Göleti, temiz havası ve huzurlu atmosferiyle bilinir. Göletin hemen yakınında bulunan tarihi Nora Antik Kenti (Mokissos) kalıntıları ise bölgeye kültürel bir zenginlik katmaktadır.\n\n**Nasıl Gidilir?**\n\nHelvadere Göleti, Aksaray’ın Merkez ilçesine bağlı Helvadere beldesinde yer almaktadır. Özel araçla Aksaray şehir merkezinden Hasandağı istikameti takip edilerek yaklaşık 30 dakikada ulaşılabilir. Toplu taşıma kullanacaklar için Aksaray merkezinden Helvadere beldesine düzenli olarak hareket eden minibüsler bulunmaktadır.\n",
+    "en": "Helvadere Pond is a natural beauty located at the foot of the majestic Mount Hasan, approximately 25 km from the center of Aksaray. Serving both irrigation purposes and offering a wonderful recreation area with its surrounding greenery, the pond is a popular getaway, especially on weekends, for those looking to escape the stress of city life.\n\n**Nature and Significance**\n\nWith the snowy peaks of Mount Hasan in the background, the pond offers postcard-perfect views to its visitors. Its surroundings are equipped with picnic areas, walking paths, and recreational spots to spend time in touch with nature. Also providing a suitable environment for amateur line fishing, Helvadere Pond is known for its fresh air and peaceful atmosphere. The ruins of the historic Nora Ancient City (Mokissos) located just near the pond add a cultural richness to the region.\n\n**How to Get There?**\n\nHelvadere Pond is located in the Helvadere town of Aksaray's Central district. It can be reached in about 30 minutes by private vehicle from Aksaray city center by following the Mount Hasan direction. For those using public transportation, there are regular minibuses departing from the center of Aksaray to Helvadere town.\n",
+    "de": "Der Helvadere-Teich ist eine Naturschönheit am Fuße des majestätischen Berges Hasan, etwa 25 km vom Zentrum von Aksaray entfernt. Der Teich bietet eine wunderschöne Aussicht mit den schneebedeckten Gipfeln des Hasandağı im Hintergrund. Die Umgebung ist mit Picknickplätzen und Wanderwegen ausgestattet. Es ist ein idealer Ort für Natur- und Fotoliebhaber."
+  },
+  "activities": {
+    "tr": [
+      "Doğa yürüyüşü yapmak",
+      "Piknik yapmak",
+      "Fotoğraf çekmek",
+      "Olta balıkçılığı yapmak"
+    ],
+    "en": [
+      "Nature trekking",
+      "Having a picnic",
+      "Taking photos",
+      "Line fishing"
+    ],
+    "de": [
+      "Naturwanderungen",
+      "Picknicken",
+      "Fotografieren"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğa",
+      "manzara"
+    ],
+    "en": [
+      "nature",
+      "scenery"
+    ],
+    "de": [
+      "Natur",
+      "Landschaft"
+    ]
+  },
+  "images": [
+    "https://example.com/helvadere_goleti.jpg",
+    "https://example.com/helvadere_goleti_2.jpg"
+]
+  },
+{
   "slug": "aksaray-ulu-camii",
   "name": {
     "tr": "Aksaray Ulu Camii",

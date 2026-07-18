@@ -58,6 +58,7 @@ import { belcekizPosts } from "@/data/blog/mugla/belcekiz";
 import { kidrakPosts } from "@/data/blog/mugla/kidrak";
 import { yesilvadiPosts } from "@/data/blog/mugla/yesilvadi";
 import { tatil2Posts } from "@/data/blog/mugla/tatil2";
+import { halkplajiPosts } from "@/data/blog/antalya/halkplaji";
 
 
 
@@ -121,7 +122,8 @@ export const allPosts = [
 ...belcekizPosts,
 ...kidrakPosts,
 ...yesilvadiPosts,
-...tatil2Posts
+...tatil2Posts,
+...halkplajiPosts,
 
 
 ];
