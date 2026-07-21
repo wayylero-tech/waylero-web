@@ -4,7 +4,7 @@ import path from "path";
 import cities from "@/data/cities.json";
 import toursData from "@/data/tours.json";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
-import { allPosts } from "@/lib/blog/posts";
+import { allPosts } from "@/lib/blog/allPosts";
 
 const baseUrl = "https://www.waylero.com";
 const locales = ["tr", "en"];

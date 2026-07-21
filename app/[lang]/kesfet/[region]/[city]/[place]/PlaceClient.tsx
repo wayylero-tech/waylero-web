@@ -6,68 +6,25 @@ import { Sparkles, MapPin, Navigation, Calendar, Info, Activity, ArrowRight, Tic
 import PlaceSlider from "./PlaceSlider";
 import { trackPlaceViewed } from "@/lib/analytics";
 import { useEffect, useState } from "react";
-import { doc, getDoc } from "firebase/firestore";
-import { db } from "@/lib/firebase";
+
 
 const BASE_URL = "https://www.waylero.com";
 
-export default function PlaceClient({ lang, region, city, place, foundPlace, images, nearbyPlaces }: any) {
+export default function PlaceClient({
+  lang,
+  region,
+  city,
+  place,
+  foundPlace,
+  images,
+  nearbyPlaces,
+  liveEntryFee,
+}: any) {
   const isEn = lang === "en";
   const langPrefix = lang === "en" ? "/en" : "/tr";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
   const canonical = `${BASE_URL}${langPrefix}/kesfet/${region}/${city}/${place}`;
 
-  const [liveEntryFee, setLiveEntryFee] = useState<string | null>(null);
-
-  useEffect(() => {
-    // 1. Analytics tetikleme (Server'dan isim zaten temizlendi)
-    trackPlaceViewed(
-      foundPlace.name,
-      city,
-      region,
-      lang
-    );
-
-    // 2. Firebase / Cache sorgusu
-    const fetchFeeData = async () => {
-      if (!place) return;
-      
-      const cacheKey = `fee_${place.toLowerCase().trim()}`;
-      const cachedData = sessionStorage.getItem(cacheKey);
-
-      if (cachedData) {
-        const parsedData = JSON.parse(cachedData);
-        const feeText = isEn ? parsedData.en : parsedData.tr;
-        if (feeText && feeText.trim() !== "") {
-          setLiveEntryFee(feeText);
-        }
-        return;
-      }
-
-      try {
-        const feeDocRef = doc(db, "entry_fees", place.toLowerCase().trim());
-        const feeDocSnap = await getDoc(feeDocRef);
-
-        if (feeDocSnap.exists()) {
-          const data = feeDocSnap.data();
-          
-          sessionStorage.setItem(cacheKey, JSON.stringify({
-            tr: data.tr || "",
-            en: data.en || ""
-          }));
-
-          const feeText = isEn ? data.en : data.tr;
-          if (feeText && feeText.trim() !== "") {
-            setLiveEntryFee(feeText);
-          }
-        }
-      } catch (err) {
-        console.error("Giriş ücreti çekilirken hata oluştu kanka:", err);
-      }
-    };
-
-    fetchFeeData();
-  } , [place, isEn, foundPlace.name, city, region, lang]);
 
   const t = isEn ? {
     badge: "EXPERIENCE POINT",

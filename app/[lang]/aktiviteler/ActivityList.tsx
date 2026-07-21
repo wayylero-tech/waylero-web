@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { cityMap } from "@/lib/cityMap";
 import { MapPin, ChevronRight, Sparkles, X } from 'lucide-react';
 
@@ -78,7 +78,7 @@ export default function ActivityList({
   const [skip, setSkip] = useState(0);
   const [hasMore, setHasMore] = useState(true);
   const [showCityList, setShowCityList] = useState(false);
-
+ const sentImpressions = useRef(new Set<number | string>());
   const displayCityName = initialCityName;
   const cities = ["İSTANBUL", "ANKARA", "İZMİR", "KONYA", "ANTALYA"];
   const otherCities = Object.keys(cityMap)
@@ -125,15 +125,34 @@ export default function ActivityList({
     router.push(`${pathname}?${params.toString()}`, { scroll: false });
   }
 
-  // ✅ initialEvents prop'u her değiştiğinde listeyi günceller
   useEffect(() => {
-    if (initialEvents && Array.isArray(initialEvents)) {
-      const mapped = initialEvents.map(mapEvent);
-      setEvents(mapped);
-      setSkip(0);
-      setHasMore(mapped.length >= 50);
-    }
-  }, [initialEvents]);
+  if (initialEvents && Array.isArray(initialEvents)) {
+    const mapped = initialEvents.map(mapEvent);
+    setEvents(mapped);
+    setSkip(0);
+    setHasMore(mapped.length >= 50);
+  }
+}, [initialEvents]);
+
+// 👇 BUNU EKLE
+const handleImpression = (id: number | string) => {
+  if (sentImpressions.current.has(id)) return;
+
+  sentImpressions.current.add(id);
+
+  fetch("/api/events/impression", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      id,
+      user_agent: navigator.userAgent,
+    }),
+  }).catch(() => {
+    sentImpressions.current.delete(id);
+  });
+};
 
   const loadMore = async () => {
     if (loading || !hasMore) return;
@@ -263,7 +282,27 @@ export default function ActivityList({
         {events.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
             {events.map((event) => (
-              <div key={event.id} className="group bg-white rounded-[2rem] overflow-hidden border border-gray-100 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] transition-all duration-700 transform hover:-translate-y-3 flex flex-col h-full">
+              <div
+  key={event.id}
+  ref={(el) => {
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          handleImpression(event.id);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.5,
+      }
+    );
+
+    observer.observe(el);
+  }}
+  className="group bg-white rounded-[2rem] overflow-hidden border border-gray-100 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] transition-all duration-700 transform hover:-translate-y-3 flex flex-col h-full"
+>
   <div className="relative h-72 overflow-hidden shrink-0">
     <img
       src={event.image}

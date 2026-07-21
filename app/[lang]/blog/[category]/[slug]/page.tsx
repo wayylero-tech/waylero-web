@@ -2,7 +2,7 @@ import { cache } from "react";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import BlogDetail from "./BlogDetail";
-import { allPosts } from "@/lib/blog/posts";
+import { allPosts } from "@/lib/blog/allPosts";
 
 export const dynamic = "force-static";
 export const revalidate = 2592000; // 1 ay cache
