@@ -60,6 +60,7 @@ import { yesilvadiPosts } from "@/data/blog/mugla/yesilvadi";
 import { tatil2Posts } from "@/data/blog/mugla/tatil2";
 import { halkplajiPosts } from "@/data/blog/antalya/halkplaji";
 import { yunanistanPosts } from "@/data/blog/yunanistan/posts";
+import { kampPosts } from "@/data/blog/mersin/kamp";
 
 
 
@@ -125,6 +126,7 @@ export const allPosts = [
 ...yesilvadiPosts,
 ...tatil2Posts,
 ...halkplajiPosts,
-...yunanistanPosts
+...yunanistanPosts,
+...kampPosts
 
 ];
