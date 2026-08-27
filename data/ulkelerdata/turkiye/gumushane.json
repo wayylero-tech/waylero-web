@@ -43,53 +43,7 @@
     ]
   },
   
-  {
-    "slug": "metropolitan-rum-kilisesi",
-    "name": {
-      "tr": "Metropolitan Rum Kilisesi",
-      "en": "Metropolitan Greek Church",
-      "de": "Metropolitanische Griechische Kirche"
-    },
-    "latitude": 40.45081,
-    "longitude": 39.45417,
-    "description": {
-      "tr": "Metropolitan Rum Kilisesi, Karadeniz Bölgesi'nde Osmanlı döneminden kalma önemli bir dini ve tarihi yapıdır. Rum Ortodoks topluluğuna hizmet vermiş olan bu kilise, mimarisi ve sanatsal detaylarıyla dikkat çekmektedir.\n\n**Mimari Özellikleri:**  \nKilise, tipik Bizans ve Osmanlı mimarisinin etkilerini taşımaktadır. Yüksek kubbesi, taş ve tuğla işçiliği ile dikkat çeker. İç mekanda freskler ve ikonalar yer almaktadır.\n\n**Tarihi:**  \nKilisenin inşa tarihi kesin olarak bilinmemekle birlikte, 19. yüzyılın sonlarına doğru yapıldığı düşünülmektedir. Osmanlı döneminde bölgede yaşayan Rum nüfusa dini hizmet sağlamak amacıyla inşa edilmiştir.\n\n**Konum:**  \nŞehir merkezine yakın bir konumda bulunan kilise, tarihi yapıları keşfetmek isteyen ziyaretçiler için önemli bir durak noktasıdır.\n\n**Kültürel Önemi:**  \nGünümüzde, hem mimari hem de kültürel miras açısından büyük öneme sahip olan bu yapı, tarih meraklıları ve turistler için ilgi çekici bir noktadır.\n\nEğer bölgeyi ziyaret ediyorsanız, Metropolitan Rum Kilisesi’ni görmeden dönmemelisiniz.\n",
-      "en": "The Metropolitan Greek Church is a significant religious and historical structure from the Ottoman period in the Black Sea region. It once served the Greek Orthodox community and is known for its impressive architecture and artistic details.\n\n**Architectural Features:**  \nThe church reflects influences of Byzantine and Ottoman architecture. It has a high dome, intricate stone and brick craftsmanship, and a beautifully decorated interior with frescoes and icons.\n\n**History:**  \nAlthough the exact construction date is unknown, it is believed to have been built in the late 19th century to serve the Greek Orthodox population in the region during the Ottoman period.\n\n**Location:**  \nSituated near the city center, the church is an important stop for visitors interested in exploring historical landmarks.\n\n**Cultural Importance:**  \nToday, the church remains a significant cultural and architectural heritage site, attracting history enthusiasts and tourists alike.\n\nIf you visit the region, be sure to see the Metropolitan Greek Church.\n",
-      "de": "Die Metropolitanische Griechische Kirche ist ein bedeutendes religiöses und historisches Bauwerk aus der osmanischen Zeit in der Schwarzmeerregion. Sie diente einst der griechisch-orthodoxen Gemeinde und ist bekannt für ihre beeindruckende Architektur und künstlerischen Details.\n\n**Architektonische Merkmale:**  \nDie Kirche weist Einflüsse der byzantinischen und osmanischen Architektur auf. Sie verfügt über eine hohe Kuppel, kunstvolle Stein- und Ziegelarbeiten sowie ein wunderschön dekoriertes Inneres mit Fresken und Ikonen.\n\n**Geschichte:**  \nObwohl das genaue Baujahr unbekannt ist, geht man davon aus, dass sie Ende des 19. Jahrhunderts erbaut wurde, um der griechisch-orthodoxen Bevölkerung während der osmanischen Zeit zu dienen.\n\n**Lage:**  \nDie Kirche liegt in der Nähe des Stadtzentrums und ist ein wichtiger Anlaufpunkt für Besucher, die historische Sehenswürdigkeiten erkunden möchten.\n\n**Kulturelle Bedeutung:**  \nHeute bleibt die Kirche ein bedeutendes kulturelles und architektonisches Erbe, das Geschichtsinteressierte und Touristen gleichermaßen anzieht.\n\nWenn Sie die Region besuchen, sollten Sie unbedingt die Metropolitanische Griechische Kirche besichtigen.\n"
-    },
-    "activities": {
-      "tr": [
-        "Tarihi keşfetmek",
-        "Mimariyi incelemek",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Exploring history",
-        "Admiring architecture",
-        "Taking photographs"
-      ],
-      "de": [
-        "Geschichte erkunden",
-        "Architektur bewundern",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "kilise"
-      ],
-      "en": [
-        "church"
-      ],
-      "de": [
-        "Kirche"
-      ]
-    },
-    "images": [
-      "https://example.com/metropolitan_kilisesi.jpg",
-      "https://example.com/metropolitan_kilisesi_2.jpg"
-    ]
-  },
+ 
   {
     "slug": "hagios-stephanos-church-aziz-stefan-kilisesi",
     "name": {
@@ -183,7 +137,219 @@
       "https://example.com/limni_lake_nature_park.jpg"
     ]
   },
+ {
+    "slug": "tomara-selalesi",
+    "name": {
+      "tr": "Tomara Şelalesi",
+      "en": "Tomara Waterfall",
+      "de": "Tomara-Wasserfall"
+    },
+    "latitude": 40.08169,
+    "longitude": 39.04448,
+    "description": {
+      "tr": "Tomara Şelalesi (Gümüşhane)\n\nTomara Şelalesi, Gümüşhane’nin Şiran ilçesine bağlı Seydibaba Köyü yakınlarında yer alan ve Doğu Karadeniz’in en etkileyici doğal güzelliklerinden biri olarak kabul edilen bir tabiat harikasıdır. Şelale, yer altı kaynak sularının geniş bir kaya yamacından onlarca farklı noktadan yüzeye çıkarak dökülmesiyle oluşur ve bu özelliğiyle klasik tek akışlı şelalelerden ayrılır.\n\nYaklaşık 40 metre genişliğe yayılan su çıkışları, kayaların arasından adeta fışkırarak aşağıya doğru akarken görsel olarak büyüleyici bir manzara oluşturur. Özellikle ilkbahar ve yaz başında su debisinin artmasıyla birlikte şelalenin coşkusu daha da etkileyici hale gelir.\n\nŞelale çevresi yürüyüş yolları, seyir alanları ve düzenlenmiş mesire alanlarıyla ziyaretçiler için oldukça elverişlidir. Gürül gürül akan su sesi ve yemyeşil doğa atmosferi, huzurlu ve serin bir ortam sunar.\n\n📍 Neden Önemli?\n• Yer altı kaynaklarının çoklu çıkış noktalarından oluşmasıyla benzersizdir\n• Gümüşhane’nin en bilinen doğal turizm noktalarındandır\n• Doğa yürüyüşü ve fotoğrafçılık için ideal bir ortam sunar\n• Yaz aylarında serin iklimiyle tercih edilir\n\n🗓 Ne Zaman Gidilir?\n• Mayıs – Haziran: En güçlü ve etkileyici su akışı dönemi\n• Yaz ayları: Serinlemek ve doğada vakit geçirmek için ideal\n• İlkbahar: Doğanın en canlı olduğu dönem\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Rahat yürüyüş ayakkabısı tercih edin\n• Sabah saatlerinde daha sakin bir atmosfer yakalayabilirsiniz\n• Çevre temizliğine özen gösterin\n\nTomara Şelalesi, çoklu su çıkışları, doğal yapısı ve huzur veren atmosferiyle Doğu Karadeniz’in mutlaka görülmesi gereken saklı cennetlerinden biridir.",
+      "en": "Tomara Waterfall is one of the largest waterfalls in Gümüşhane, offering a wonderful nature experience with its beauty and green surroundings.",
+      "de": "Der Tomara-Wasserfall ist einer der größten Wasserfälle in Gümüşhane und bietet ein wunderbares Naturerlebnis mit seiner Schönheit und den grünen Umgebungen."
+    },
+    "activities": {
+      "tr": [
+        "Şelale etrafında yürüyüş yapmak",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Take a walk around the waterfall",
+        "Take photographs"
+      ],
+      "de": [
+        "Um den Wasserfall spazieren gehen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şelale"
+      ],
+      "en": [
+        "waterfall"
+      ],
+      "de": [
+        "Wasserfall"
+      ]
+    },
+    "images": [
+      "https://example.com/tomara_selalesi.jpg"
+    ]
+  },
   {
+    "slug": "kov-kalesi",
+    "name": {
+      "tr": "Kov Kalesi",
+      "en": "Kov Castle",
+      "de": "Kov-Burg"
+    },
+    "latitude": 40.36937998054419,
+    "longitude":  39.546867403850484,
+    "description": {
+  "tr": ", Gümüşhane il sınırları içerisinde yer alan ve Karadeniz Bölgesi’nin tarihi savunma yapıları arasında önemli bir yere sahip olan etkileyici bir kaledir. Genellikle sarp ve yüksek kayalık bir alan üzerine inşa edilmiş olması, kalenin hem savunma hem de gözetleme amacıyla stratejik bir noktada konumlandığını gösterir.\n\nKalenin kesin inşa tarihi net olarak bilinmemekle birlikte, bölgedeki birçok kaynak yapının Bizans dönemine uzanan bir geçmişe sahip olduğunu ve daha sonra farklı medeniyetler tarafından kullanıldığını belirtmektedir. Özellikle Orta Çağ boyunca bölgedeki geçiş yollarını kontrol etmek ve çevredeki yerleşimleri korumak amacıyla kullanılmıştır.\n\nKov Kalesi’nin mimari yapısı, doğal kaya formasyonlarıyla bütünleşmiş durumdadır. Bu özellik, kalenin insan eliyle yapılmış bir yapı olmasının yanı sıra doğal bir savunma sistemiyle desteklendiğini göstermektedir. Yüksek duvarlar, kayaya oyulmuş bölümler ve dar geçitler, savunma açısından oldukça avantajlı bir yapı oluşturur.\n\nKalede günümüze ulaşan kalıntılar arasında sur duvarları, gözetleme noktaları ve bazı temel yapı izleri bulunmaktadır. Zamanla doğal şartlar ve bakımsızlık nedeniyle büyük ölçüde yıpranmış olsa da, kalan izler bile yapının geçmişteki ihtişamını ve önemini anlamak için yeterlidir.\n\nKov Kalesi’nin bulunduğu bölge aynı zamanda doğal güzellikleriyle de dikkat çeker. Gümüşhane’nin dağlık ve ormanlık yapısı, kaleye ulaşım sırasında ziyaretçilere etkileyici manzaralar sunar. Bu nedenle bölge hem tarih hem de doğa turizmi açısından ilgi görmektedir.\n\nZiyaretçiler, kaleyi gezerek hem tarihi bir yapıyı keşfetme hem de çevredeki doğal atmosferi deneyimleme fırsatı bulur. Özellikle doğa yürüyüşü ve fotoğrafçılık açısından oldukça uygun bir ortam sunar.\n\nKov Kalesi, Gümüşhane’nin az bilinen ancak tarihi açıdan değerli yapılarından biri olarak, bölgenin kültürel mirasını yansıtan önemli bir destinasyondur. Tarih ve doğanın iç içe geçtiği bu yapı, keşif meraklıları için dikkat çekici bir durak niteliğindedir.",
+  "en": " is a historic fortress located within the boundaries of Gümüşhane province in the Black Sea region of Turkey. Built on a steep and rocky terrain, the castle holds a strategic position that highlights its historical role in surveillance and regional defense.\n\nAlthough the exact construction date is not clearly documented, historical sources suggest that the castle dates back to the Byzantine period and was later used by various civilizations throughout the Middle Ages. It played an important role in controlling trade and travel routes in the mountainous region.\n\nThe architectural structure of Kov Castle is closely integrated with the natural rock formations on which it was built. This combination of natural and man-made defenses provided a strong strategic advantage. High walls, rock-carved sections, and narrow passages reflect its defensive purpose.\n\nToday, the remains of the castle include sections of stone walls, observation points, and foundational structures. Although time and natural conditions have significantly damaged much of the site, the remaining ruins still reflect its historical importance.\n\nThe surrounding region is also notable for its natural beauty. Gümüşhane’s mountainous landscape and forested areas create a scenic environment, making the journey to the castle as impressive as the site itself.\n\nVisitors to Kov Castle can explore both historical ruins and enjoy the natural surroundings. The area is suitable for hiking, exploration, and photography, offering a peaceful and authentic experience.\n\nKov Castle is one of the lesser-known yet historically valuable landmarks of Gümüşhane, representing an important part of the region’s cultural heritage and offering a unique blend of history and nature.",
+      "de": "Die Gümüşhane-Burg ist eine historische Festung, die auf einem hohen Punkt über der Stadt liegt und einen Panoramablick bietet. Historische Untersuchungen deuten darauf hin, dass die Burg aus der Römerzeit stammt und eine lange und reiche Vergangenheit widerspiegelt. Im Laufe der Geschichte diente die Burg verschiedenen Zivilisationen aufgrund ihrer militärischen und strategischen Bedeutung und war ein zentraler Teil des Verteidigungssystems der Stadt.\n\nDie Burg zeichnet sich durch ihre Steinmetzkunst, Mauern und Türme aus. Besucher können beim Erkunden Spuren aus der römischen, byzantinischen und osmanischen Zeit erkennen. Die Verteidigungsmauern und Aussichtstürme wurden errichtet, um einen umfassenden Blick auf die Stadt zu ermöglichen, was die Burg sowohl historisch als auch architektonisch wertvoll macht.\n\nBesucher der Gümüşhane-Burg können nicht nur die historische Struktur erkunden, sondern auch die umliegende natürliche Schönheit genießen. Das Stadtbild, die Berge, Täler und Grünflächen, die von der Burg aus zu sehen sind, schaffen ein atemberaubendes Panorama. Fotografen finden die Burg besonders lohnend bei Sonnenauf- und -untergang, wenn das Licht die Landschaft noch eindrucksvoller erscheinen lässt.\n\nDie Umgebung der Burg eignet sich gut für Spaziergänge und Naturerkundungen. Besucher können die Wanderwege zur Burg hinaufgehen, die lokale Tierwelt beobachten und in der Natur ruhige Momente genießen, ohne die Stadt zu verlassen. Kurze Rastplätze und Sitzmöglichkeiten sind ebenfalls in der Nähe vorhanden.\n\nDie Gümüşhane-Burg fungiert als Freiluftmuseum für Geschichtsinteressierte. Geführte Touren bieten detaillierte Informationen über die Burg und die Geschichte der Stadt. Besucher können mehr über den historischen Kontext der Burg, ihre architektonischen Merkmale und die Nutzung im Laufe der Jahrhunderte erfahren, wodurch ihr Besuch bereichert wird.\n\nDie Struktur und Lage der Burg machen sie auch zu einem Veranstaltungsort für kulturelle Aktivitäten. Gelegentlich finden dort Ausstellungen, kulturelle Veranstaltungen und historische Programme statt, die den Besuchern ermöglichen, sich interaktiv mit der Geschichte auseinanderzusetzen.\n\nDie empfohlene Besuchszeit ist Frühling und Sommer, wenn das Wetter mild ist und die Wanderwege gut zugänglich sind. Winterbesuche erfordern Vorsicht aufgrund potenziell schwieriger Straßenverhältnisse. Der Zugang zur Burg erfolgt in der Regel mit dem Auto in kurzer Fahrtzeit vom Stadtzentrum Gümüşhane aus, kann jedoch auch zu Fuß erreicht werden, wobei zu beachten ist, dass die Wege steil und felsig sein können.\n\nZusammenfassend ist die Gümüşhane-Burg eine wichtige Touristenattraktion, die Geschichte, Architektur und natürliche Schönheit vereint. Sie bietet ein unvergessliches Erlebnis für Geschichts- und Kulturinteressierte sowie Natur- und Fotoliebhaber. Besucher können die Burg erkunden, den Panoramablick genießen und in die einzigartige Atmosphäre von Gümüşhane eintauchen."
+    },
+    "activities": {
+      "tr": [
+        "Kale etrafında gezmek",
+        "Tarihi yapıları keşfetmek"
+      ],
+      "en": [
+        "Explore around the castle",
+        "Discover historical structures"
+      ],
+      "de": [
+        "Die Burg erkunden",
+        "Historische Strukturen entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/gumushane_kalesi.jpg"
+    ]
+  },
+{
+  "slug": "kadirga-yaylasi-ustu-acik-cami",
+  "name": {
+    "tr": "Kadırga Yaylası ve Üstü Açık Cami",
+    "en": "Kadırga Plateau and Open-Air Mosque",
+    "de": "Kadırga-Hochebene und Freiluftmoschee"
+  },
+  "latitude": 40.7222,
+  "longitude": 39.3312,
+  "description": {
+    "tr": "Kadırga Yaylası ve Üstü Açık Cami, Gümüşhane'nin Kürtün ilçesi sınırlarında yer alan ve Doğu Karadeniz'in yaylacılık kültürünü tarihî ve dinî mirasla bir arada yaşatan önemli bir doğal ve kültürel alandır. Gümüşhane ile Trabzon arasındaki yayla bölgesinde bulunan Kadırga, özellikle yaz aylarında çevre illerden gelen yaylacılar, doğa tutkunları ve ziyaretçilerle hareketlenen bir merkezdir. Yayla, geniş çimenlik alanları, yüksek rakımlı doğal çevresi, geleneksel yayla yaşamı ve uzun yıllardır sürdürülen Kadırga Yayla Şenlikleri ile tanınır. Gümüşhane Belediyesi ve Gümüşhane İl Kültür ve Turizm Müdürlüğü kaynaklarında Kadırga Yaylası'nın Kürtün ilçesi Süme köyü sınırlarında bulunduğu ve yaylada konaklama ile yeme içme imkânlarının yanı sıra açık hava camisi bulunduğu belirtilmektedir.\n\nKadırga Yaylası'nın en dikkat çekici özelliği ise yaylanın ortasında bulunan ve halk arasında “Üstü Açık Cami” veya “Kadırga Açık Camii” olarak bilinen açık hava ibadet alanıdır. Yapının en sıra dışı özelliği, klasik anlamda kapalı bir cami binasının bulunmamasıdır. İbadet alanının üzeri açık olup namazlar doğrudan gökyüzünün altında, çimenlik alanda kılınmaktadır. Günümüzde alanın çevresi alçak bir duvarla çevrilmiş ve iki adet minare inşa edilmiştir. Bu görünümüyle Kadırga Açık Camii, Türkiye'deki en farklı ibadet alanlarından biri olarak dikkat çeker.\n\nAçık hava camisinin geçmişiyle ilgili anlatı 15. yüzyıla, Fatih Sultan Mehmet dönemine uzanmaktadır. Doğu Karadeniz Kültür Envanteri Projesi'nde yer alan bilgilere göre, 1461 yılında bölgenin Osmanlı topraklarına katılmasının ardından Fatih Sultan Mehmet'in bir arkadaşının mezarını ziyaret etmek amacıyla Kadırga Yaylası'na geldiği ve burada Cuma namazı kılmak istediği anlatılmaktadır. Padişahın belirlediği alanın taşlarla çevrildiği ve Cuma namazının bu açık alanda kılındığı aktarılmaktadır. Bu olayın ardından aynı yerde açık havada ibadet etme geleneğinin yüzyıllar boyunca devam ettiği belirtilmektedir. Ancak bu anlatıyı aktarırken bunun resmî kültür envanterinde yer alan tarihî anlatı olduğunu, yapının bugünkü fiziksel unsurlarının tamamının 1461'den kaldığı anlamına gelmediğini belirtmek gerekir.\n\nKadırga Açık Camii'nin en önemli özelliklerinden biri, ibadet alanının doğayla doğrudan bütünleşmesidir. Kapalı bir kubbe veya çatı yerine gökyüzünün altında bulunan çimenlik alan, özellikle yaz aylarında oldukça farklı bir ibadet atmosferi oluşturur. Cuma namazına gelenler seccadelerini çimenlerin üzerine sererek saf tutar. Böylece ibadet alanı, geleneksel bir caminin iç mekânından farklı olarak yaylanın doğal çevresinin bir parçası haline gelir. Bu özellik, Kadırga'yı yalnızca dinî açıdan değil, kültürel açıdan da dikkat çekici bir yer haline getirmektedir.\n\nKadırga Yaylası'nda açık hava camisinde Cuma namazı geleneği günümüzde de sürdürülmektedir. Özellikle yaz aylarında her Cuma günü yaylaya gelen vatandaşlar burada namaz kılmaktadır. Temmuz ayının üçüncü Cuma günü ise bölgenin en yoğun dönemlerinden biridir. Bu tarih, Kadırga Yayla Şenlikleri ve halk arasında “Otçular Haftası” veya “Otçu Şenliği” olarak bilinen geleneksel etkinliklerle bağlantılıdır. Gümüşhane Valiliği, Kadırga Yayla Şenlikleri'nin geleneksel olarak Temmuz ayının üçüncü Cuma günü düzenlendiğini ve çevre illerden çok sayıda kişinin bu etkinlik için yaylada toplandığını belirtmektedir.\n\nKadırga Yayla Şenlikleri yalnızca bir eğlence organizasyonu değildir. Bölgedeki yaylacılık kültürünün, komşuluk ilişkilerinin, geleneksel müziğin ve toplu buluşma kültürünün devam ettirilmesinde önemli bir yere sahiptir. Şenlik döneminde yaylada kalabalık topluluklar bir araya gelir, horon oynanır ve kemençe, davul ve zurna eşliğinde geleneksel eğlenceler düzenlenir. Çevredeki obalardan gelen insanlar Kadırga'da buluşarak uzun süredir devam eden yayla kültürünü yaşatır. Bu nedenle Kadırga Yaylası'nı yalnızca doğal güzellikleriyle değerlendirmek eksik olur; bölgenin asıl özelliklerinden biri yaşayan kültürel mirasıdır.\n\nYaylanın çevresinde çok sayıda oba ve yayla yerleşimi bulunmaktadır. Kadırga, çevredeki yaylaların ve obaların buluşma noktalarından biri olarak öne çıkar. Yaz aylarında yaylacılık faaliyetleriyle birlikte bölgenin nüfusu ve hareketliliği belirgin şekilde artar. Yaylada geçmişten günümüze geleneksel yayla yaşamının izlerini görmek mümkündür. Çimenlik alanlar, yayla evleri, çevredeki yüksek tepeler ve geniş manzaralar Kadırga'nın karakteristik görüntüsünü oluşturur.\n\nKadırga'nın doğal çevresi de yayla turizmi açısından önemlidir. Yüksek rakımlı konumu nedeniyle yaz aylarında şehir merkezlerine göre daha serin bir atmosfere sahiptir. Yaylanın geniş açık alanları doğa yürüyüşü, manzara izleme ve fotoğraf çekimi için uygun ortamlar sunar. Özellikle sisli havalarda yaylanın görünümü değişir ve çevredeki tepeler sis içerisinde farklı bir atmosfer oluşturabilir. Açık havanın ve doğal peyzajın tadını çıkarmak isteyen ziyaretçiler için Kadırga, Doğu Karadeniz'in yayla rotaları içerisinde değerlendirilebilecek noktalardan biridir.\n\nKadırga Yaylası'na gelen ziyaretçiler yalnızca camiyi görmekle kalmaz, aynı zamanda yaylanın geleneksel yaşamını da gözlemleme fırsatı bulabilir. Yaz döneminde yaylada otel, lokanta, kır kahvesi, bakkal ve benzeri hizmetlerin bulunduğu resmî turizm kaynaklarında belirtilmektedir. Ancak yayla ortamının mevsimsel karakteri nedeniyle özellikle sezon dışındaki ziyaretlerde hizmetlerin tamamının açık olduğunu varsaymamak gerekir. Yayla ziyaretini planlarken hava ve yol koşullarını kontrol etmek faydalı olacaktır.\n\nÜstü Açık Cami'nin mimari açıdan en belirgin özelliği, kapalı bir ibadet mekânından ziyade belirlenmiş açık bir namaz alanı olmasıdır. Kültür envanterinde alanın çevresinin alçak bir duvarla sınırlandırıldığı ve iki minarenin bulunduğu belirtilmektedir. Bu nedenle “üstü açık cami” ifadesi, çatısı bulunmayan ve ibadetin açık havada gerçekleştirildiği alanı tanımlamak için kullanılmaktadır. Yapının bugün görülen minareleri ve çevre düzenlemesi, açık hava ibadet geleneğinin günümüzdeki fiziksel görünümünü oluşturmaktadır.\n\nKadırga Açık Camii'nin tarihî anlatısında Fatih Sultan Mehmet'in önemli bir yeri vardır. Bölgedeki geleneksel anlatıya göre Fatih Sultan Mehmet, Trabzon seferi sırasında Kadırga bölgesine uğramış ve burada Cuma namazı kılmıştır. Bazı güncel haberlerde de caminin Fatih Sultan Mehmet tarafından yaptırıldığı şeklinde ifadeler kullanılsa da, kültür envanterindeki daha temkinli anlatım olayın açık hava ibadet alanının başlangıcıyla ilişkilendirildiğini göstermektedir. Bu nedenle tarihî doğruluk açısından “Fatih Sultan Mehmet döneminden gelen açık hava ibadet geleneği” ifadesini kullanmak, “bugünkü cami binası 1461 yılında inşa edildi” demekten daha doğru olacaktır.\n\nKadırga Yaylası'nın bir diğer önemli yönü, farklı şehirlerden gelen insanların ortak bir kültürel alanda buluşmasıdır. Yayla, Gümüşhane'nin yanı sıra Trabzon ve Giresun çevresinden gelen yaylacılar tarafından da kullanılmaktadır. Özellikle yaz aylarında çevre illerden gelen insanların bir araya gelmesi, Kadırga'yı bölgesel ölçekte önemli bir yayla merkezi haline getirir. Temmuz ayındaki şenlikler sırasında bu kültürel etkileşim daha da belirgin hale gelir.\n\nKadırga Yaylası'nda doğa ve kültür iç içe geçmiştir. Bir tarafta yüksek rakımlı Doğu Karadeniz peyzajı, diğer tarafta yüzyıllardır devam ettiği anlatılan açık hava namaz geleneği bulunmaktadır. Bu durum Kadırga'yı sıradan bir yayla gezisinden farklılaştırır. Ziyaretçi burada yalnızca manzara seyretmez; yaylacılık kültürünü, geleneksel buluşmaları ve tarihî bir ibadet geleneğini aynı yerde deneyimleme fırsatı bulur.\n\nFotoğraf açısından da Kadırga Yaylası oldukça dikkat çekicidir. Açık hava camisinin iki minaresi, geniş çimenlik alan ve arka plandaki yayla manzarası birlikte fotoğraflandığında bölgeye özgü bir görüntü ortaya çıkar. Sisli havalar, yaz aylarındaki yeşil çimenler ve şenlik dönemindeki kalabalıklar farklı fotoğraf seçenekleri sunar. Ancak dinî bir mekân olduğu için ibadet sırasında insanların fotoğraflarını izin almadan çekmemek gerekir.\n\nKadırga Yaylası'nı ziyaret etmek isteyenlerin özellikle yaz aylarını tercih etmesi daha uygundur. Çünkü yayla yaşamı ve şenlikler bu dönemde canlanmaktadır. Temmuz ayının üçüncü haftası ise bölgenin en hareketli zamanlarından biridir. Ancak bu dönemde ziyaretçi yoğunluğu da oldukça artabileceğinden sakin bir yayla deneyimi isteyenler için şenlik dışındaki yaz günleri daha uygun olabilir.\n\nKadırga Yaylası, Gümüşhane'nin Kürtün ilçesi sınırlarında yer alır. Doğu Karadeniz Kültür Envanteri'nde Üstü Açık Cami için verilen koordinatlar 40.7222, 39.3312 şeklindedir. Gümüşhane Belediyesi yaylayı şehir merkezinden yaklaşık 65 kilometre uzaklıkta verirken, Gümüşhane İl Kültür ve Turizm Müdürlüğü farklı bir ulaşım ölçüsüyle merkez ilçeye 90 kilometre mesafe belirtmektedir. Bu farklılığın kullanılan güzergâh ve ölçüm noktasından kaynaklanabileceği düşünülebilir. Bu nedenle gezi içeriğinde kesin kilometre yerine “Gümüşhane merkezden yaklaşık bir saatlikten daha uzun bir yolculukla ulaşılabilen, güzergâha göre mesafesi değişen bir yayla” şeklinde yaklaşmak daha sağlıklıdır.\n\nKadırga Yaylası'na ulaşımda yol ve hava koşullarına dikkat etmek gerekir. Karadeniz'in yüksek rakımlı yaylalarında hava koşulları kısa sürede değişebilir. Yaz aylarında bile sis ve yağış görülebileceği için hazırlıklı olmak önemlidir. Kış aylarında ise yüksek rakım ve kar nedeniyle ulaşım çok daha zor olabilir. Bu nedenle kış döneminde yaylaya çıkmadan önce yol durumunu ve hava koşullarını kontrol etmek gerekir.\n\nKadırga Yaylası ve Üstü Açık Cami, Gümüşhane'nin yalnızca doğal güzelliklerini değil, yaşayan kültürel mirasını da gösteren özel destinasyonlardan biridir. Açık havada, çimenlerin üzerinde Cuma namazı kılma geleneği Kadırga'yı diğer yaylalardan ayırırken, Fatih Sultan Mehmet dönemine bağlanan tarihî anlatı bölgenin kültürel önemini güçlendirmektedir. Yaylanın geniş çimenlikleri, yüksek rakımlı doğal çevresi, geleneksel şenlikleri, horonları ve çevredeki obalarla ilişkisi ise burayı Doğu Karadeniz yaylacılık kültürünü tanımak isteyenler için önemli bir durak haline getirir. Kadırga'ya gelen ziyaretçiler hem üstü açık camiyi görebilir hem de yaylanın doğal atmosferini yaşayabilir. Özellikle yaz aylarında ve Temmuz ayının üçüncü Cuma günü çevresinde düzenlenen etkinlik döneminde bölge, Gümüşhane, Trabzon ve Giresun'dan gelen ziyaretçilerle oldukça hareketli hale gelir. Tarih, doğa, inanç ve yayla kültürünü aynı noktada buluşturan Kadırga Yaylası, Gümüşhane gezilecek yerler listesinde mutlaka değerlendirilmesi gereken özgün noktalardan biridir.",
+
+    "en": "Kadırga Plateau and its Open-Air Mosque are among the most distinctive natural and cultural attractions of Gümüşhane's Kürtün district. Located in the Eastern Black Sea highlands, the plateau is known for its traditional summer pastoral culture, broad green meadows, high-altitude landscape, seasonal settlements, traditional festivals, and the unusual open-air place of worship known as Kadırga Open Mosque. The plateau has been used for generations by communities from Gümüşhane and neighboring provinces, particularly Trabzon and Giresun. During the summer months, Kadırga becomes a lively gathering place where local traditions, religious practices, music, horon dancing, and highland life come together.\n\nThe most remarkable feature of Kadırga is its open-air mosque. Unlike a conventional mosque, the main prayer area does not have a roof or dome. Worship takes place outdoors on the grassy ground, beneath the open sky. The prayer area is surrounded by a low wall, and two minarets stand beside it. This unusual design and its continuing religious function make Kadırga Open Mosque one of the most distinctive places of worship associated with the highland culture of the Eastern Black Sea region.\n\nThe historical tradition associated with the open-air mosque reaches back to the reign of Sultan Mehmed II, better known as Mehmed the Conqueror. According to the Eastern Black Sea Cultural Inventory, written sources state that after the Ottoman conquest of the region in 1461, Mehmed II came to Kadırga Plateau to visit the grave of a friend and wished to perform Friday prayer in the highland. The area selected for prayer was surrounded with stones, and Friday prayer was performed there. According to the same cultural inventory, this open-air place of worship continued to be visited by local people and Friday prayer continued to be performed there for generations.\n\nThis historical account should be presented carefully. It is appropriate to say that the tradition of open-air worship at Kadırga is associated with the 1461 visit of Mehmed II, but it would be misleading to claim that every part of the present-day mosque complex was physically constructed in 1461. The cultural inventory describes the historical beginning of the prayer area and the tradition, while the present site includes later physical elements such as the low surrounding wall and two minarets. This distinction is important for presenting the site's history accurately.\n\nThe open-air character of the mosque is what immediately separates it from conventional religious buildings. Worshippers spread their prayer rugs directly on the grass and form rows in the open landscape. During summer Fridays, the surrounding meadows become part of the prayer environment. The combination of religious practice and the natural landscape creates an atmosphere that is very different from an enclosed mosque. Visitors can observe how the religious tradition has become integrated with the seasonal life of the highland.\n\nFriday prayer continues to be performed at Kadırga Open Mosque during the summer season. The tradition becomes especially visible during the major Kadırga Plateau Festival period. The third Friday of July is particularly important because it is associated with the traditional Kadırga festivities, often connected with the Otçular or Otçu tradition. Gümüşhane Provincial authorities have described the event as a long-standing highland festival that brings together thousands of people from the surrounding region.\n\nThe Kadırga Plateau Festival is much more than a modern tourism event. It reflects the continuing highland culture of the Eastern Black Sea region. During the festival period, communities from surrounding settlements gather on the plateau, people meet relatives and friends, and traditional music and dancing continue throughout the event. Horon, accompanied by instruments such as the kemençe, davul, and zurna, is one of the most recognizable cultural elements of the celebrations. The festival therefore provides visitors with an opportunity to observe living traditions rather than simply viewing historical objects.\n\nKadırga also functions as a central gathering area for surrounding highland settlements and oba communities. During the summer season, people move toward the plateau as part of traditional highland life. The area contains meadows, highland houses, surrounding hills, and open landscapes that reflect the character of the Eastern Black Sea mountain environment. This relationship between the plateau and neighboring settlements is one of the reasons Kadırga has remained culturally important over time.\n\nThe natural environment is another major attraction. Because Kadırga is located at high elevation, summer temperatures can be noticeably cooler than those in lower urban areas. The broad grassy spaces and surrounding mountain scenery make the plateau suitable for walking, landscape photography, sightseeing, and simply spending time outdoors. Weather conditions can change rapidly in high-altitude Black Sea environments, however, so visitors should be prepared for rain, fog, and sudden temperature changes even during summer.\n\nFog can create a particularly striking atmosphere at Kadırga. When clouds move across the highland landscape, the surrounding hills and settlements may disappear into mist, while the two minarets of the open-air mosque remain visible above the grass. On clear summer days, the green meadows and surrounding mountain slopes provide a completely different visual experience. These changing conditions make the plateau attractive to photographers and nature enthusiasts.\n\nVisitors can also find basic services on the plateau during the active season. Official Gümüşhane tourism sources mention accommodation and food services, including hotels, restaurants, small shops, village-style cafés, and other seasonal facilities. Because Kadırga is a highland destination with strong seasonal use, visitors should not assume that every service will operate throughout the year. Conditions are much more active during the summer highland season and especially around festival dates.\n\nThe architecture of Kadırga Open Mosque is simple compared with large Ottoman or Seljuk mosques. Its significance lies not in elaborate stone decoration or monumental interior architecture, but in the continuation of an outdoor prayer tradition. The cultural inventory identifies the site as a religious structure and notes that it is still used as a mosque today. The low wall defines the prayer area, while the two minarets provide the most recognizable architectural elements.\n\nThe association with Mehmed II is an important part of the cultural identity of Kadırga. Local and regional accounts often describe the mosque as a place where the Sultan prayed during his campaign toward Trabzon. Some modern reports use stronger language and state that the mosque was directly built by Mehmed II. However, the official cultural inventory gives a more careful description, focusing on the establishment of the open-air prayer area and the continuation of the tradition. For this reason, describing Kadırga as a site connected to the 1461 campaign and the Friday prayer tradition is more historically responsible than claiming that the present structure is entirely a 15th-century building.\n\nKadırga is also important because it connects several provinces through shared highland culture. Although the plateau is located within Gümüşhane's Kürtün district, people from Trabzon and Giresun also participate in its summer activities. The movement of people between highland settlements has historically strengthened social and cultural connections across the region. During the festival season, this regional character becomes particularly visible as large crowds gather for prayer, music, dancing, and social activities.\n\nThe combination of nature and culture is perhaps the most important reason to visit Kadırga. A traveler can stand beside an open-air mosque, look across a green highland meadow, hear traditional music during the festival season, and observe the continuing traditions of seasonal pastoral life in the same place. This makes Kadırga different from a standard sightseeing stop where the visitor simply photographs a historical building and leaves.\n\nThe plateau is especially attractive for photography. The two minarets, open grassy prayer area, surrounding mountains, and seasonal crowds create a distinctive composition. Clear summer weather can provide wide views, while fog can produce dramatic and atmospheric photographs. Festival days offer opportunities to photograph traditional clothing, horon circles, musical performances, and the gathering of highland communities. Visitors should nevertheless respect the religious character of the site and avoid photographing worshippers without permission.\n\nSummer is generally the most suitable season for experiencing Kadırga. The highland community becomes active, restaurants and seasonal facilities open, and the plateau's cultural events take place. The third week of July is particularly lively because of the traditional festival. Travelers seeking a quieter experience may prefer other summer dates, outside the main festival period, when the landscape can be enjoyed with fewer crowds.\n\nKadırga Plateau is located within the boundaries of Kürtün district in Gümüşhane. The Eastern Black Sea Cultural Inventory provides coordinates of approximately 40.7222 latitude and 39.3312 longitude for the open-air mosque. Official sources give different distance figures from Gümüşhane city center, depending on the reference point and route used. Gümüşhane Municipality mentions approximately 65 kilometers, while the Provincial Directorate of Culture and Tourism gives a figure of about 90 kilometers from the central district. Because road routes and measurement points differ, travelers should rely on current navigation when planning their journey rather than treating one distance figure as absolute.\n\nRoad and weather conditions should be considered when traveling to the plateau. High-altitude roads in the Black Sea region can be affected by rain, fog, and seasonal conditions. Even during summer, weather can change quickly. Winter travel can be considerably more difficult because of snow and high elevation. Checking road conditions and weather forecasts before departure is therefore advisable.\n\nKadırga Plateau and Open-Air Mosque represent an unusual combination of natural landscape, religious heritage, and living highland culture. The open prayer area, surrounded by green meadows and marked by two minarets, is associated with a tradition that local and cultural sources connect with Mehmed II's 1461 visit to the region. The continuing Friday prayer tradition gives the site a living religious character, while the Kadırga Plateau Festival preserves elements of regional highland culture through horon, traditional music, community gatherings, and seasonal pastoral life. The plateau's high-altitude scenery, broad meadows, surrounding settlements, and changing weather conditions also make it attractive for nature lovers and photographers. Located in Kürtün district of Gümüşhane, Kadırga can be considered one of the region's most distinctive destinations for travelers who want to experience more than conventional historical monuments. Here, history is not limited to a building; it continues through religious practice, seasonal migration, festivals, music, and the daily cultural life of the highlands.",
+
+    "de": "Offene Moschee"
+  },
+  "activities": {
+    "tr": [
+      "Kadırga Yaylası'nı keşfetmek",
+      "Üstü Açık Cami'yi görmek",
+      "Cuma namazı geleneğini gözlemlemek",
+      "Yayla manzarasını izlemek",
+      "Doğa yürüyüşü yapmak",
+      "Fotoğraf çekmek",
+      "Yayla kültürünü tanımak",
+      "Kadırga Yayla Şenlikleri'ne katılmak",
+      "Horon ve geleneksel müzikleri izlemek"
+    ],
+    "en": [
+      "Explore Kadırga Plateau",
+      "Visit the Open-Air Mosque",
+      "Observe the Friday prayer tradition",
+      "Enjoy the highland scenery",
+      "Go hiking",
+      "Take landscape photographs",
+      "Experience highland culture",
+      "Attend the Kadırga Plateau Festival",
+      "Watch traditional horon and music"
+    ],
+    "de": [
+      "Hochebene erkunden",
+      "Moschee besuchen",
+      "Gebetstradition erleben",
+      "Landschaft genießen",
+      "Wandern",
+      "Fotografieren",
+      "Hochlandkultur erleben",
+      "Fest besuchen",
+      "Horon beobachten"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "doğa",
+      "yayla",
+      "tarih",
+      "inanç",
+      "kültür"
+    ],
+    "en": [
+      "nature",
+      "plateau",
+      "historic",
+      "religious",
+      "culture"
+    ],
+    "de": [
+      "Natur",
+      "Hochebene",
+      "Historisch",
+      "Religiös",
+      "Kultur"
+    ]
+  },
+  "images": [
+    "https://example.com/kadirga-yaylasi-ustu-acik-cami.jpg"
+  ]
+},
+ 
+{
+  "slug": "gumushane-suleymaniye-mahallesi",
+  "name": {
+    "tr": "Süleymaniye Mahallesi",
+    "en": "Suleymaniye District",
+    "de": "Süleymaniye-Viertel"
+  },
+  "latitude": 40.45154365710275, 
+  "longitude": 39.454919365435664,
+  "description": {
+    "tr": "Süleymaniye Mahallesi, Gümüşhane’nin tarihi yerleşim alanı olup halk arasında \"Eski Gümüşhane\" olarak bilinmektedir. Şehir merkezine yaklaşık 4–5 km uzaklıkta, dağ yamacında konumlanmış bu bölge, geçmişte kentin ana yaşam alanı olmuştur.\n\n**Tarihi ve Önemi**\n\nTarihi M.Ö. 3000’li yıllara kadar uzanan Süleymaniye Mahallesi, İpek Yolu üzerinde yer alması nedeniyle tarih boyunca önemli bir ticaret ve yerleşim merkezi olmuştur. Persler, Romalılar, Bizanslılar, Selçuklular ve Osmanlılar gibi birçok medeniyete ev sahipliği yapmıştır.\n\nMahalle, farklı din ve kültürlerin bir arada yaşadığı çok katmanlı bir yapıya sahiptir. Bölgede camiler, kiliseler, hamamlar, köprüler ve geleneksel Osmanlı evleri yan yana bulunmaktadır. Bu durum, Süleymaniye’yi Anadolu’nun en özgün tarihi yerleşimlerinden biri hâline getirmektedir.\n\n19. yüzyılda bölgedeki madencilik faaliyetlerinin azalmasıyla birlikte yerleşim önemini kaybetmiş ve halk zamanla bugünkü şehir merkezine taşınmıştır. Bu nedenle mahalle günümüzde kısmen terk edilmiş tarihi bir kent görünümündedir.\n\n**Günümüzde**\n\nSüleymaniye Mahallesi günümüzde sit alanı olarak korunmakta ve açık hava müzesi niteliği taşımaktadır. Ziyaretçiler, taş sokaklar arasında yürüyerek tarihi yapıları keşfedebilir, bölgenin mistik atmosferini deneyimleyebilir.\n\nFotoğrafçılık, tarih keşfi ve kültürel geziler için oldukça uygun olan mahalle, özellikle gün doğumu ve gün batımında eşsiz manzaralar sunar.\n\n**Nasıl Gidilir?**\n\nGümüşhane şehir merkezinden Süleymaniye Mahallesi’ne özel araçla yaklaşık 10 dakikada ulaşılabilir. Ayrıca kısa bir yürüyüş rotası ile de bölgeye çıkmak mümkündür.",
+    "en": "Suleymaniye District, also known as \"Old Gümüşhane,\" is the historical settlement area of the city. Located about 4–5 km from the modern city center on a hillside, it once served as the main residential and commercial hub.\n\n**History and Significance**\n\nDating back to around 3000 BC, the district was an important settlement along the Silk Road. It hosted various civilizations including the Persians, Romans, Byzantines, Seljuks, and Ottomans.\n\nThe area reflects a multicultural past where mosques, churches, baths, bridges, and traditional houses coexist. This diversity makes it one of the most unique historical settlements in Anatolia.\n\nAs mining activities declined in the 19th century, the population gradually moved to the modern city center, leaving the area partially abandoned.\n\n**Today**\n\nToday, the district is protected as a historical site and resembles an open-air museum. Visitors can walk through stone streets, explore historical buildings, and experience its unique atmosphere.\n\nIt is ideal for photography, cultural exploration, and history enthusiasts, especially during sunrise and sunset.\n\n**How to Get There?**\n\nSuleymaniye District is about a 10-minute drive from Gümüşhane city center. It can also be reached via a short hiking route.",
+    "de": "Das Süleymaniye-Viertel, auch als \"Alt-Gümüşhane\" bekannt, ist das historische Siedlungsgebiet der Stadt. Es liegt etwa 4–5 km vom heutigen Stadtzentrum entfernt an einem Berghang und war einst das Hauptzentrum des städtischen Lebens.\n\n**Geschichte und Bedeutung**\n\nDie Geschichte des Viertels reicht bis etwa 3000 v. Chr. zurück. Aufgrund seiner Lage an der Seidenstraße war es ein bedeutendes Handels- und Siedlungszentrum. Verschiedene Zivilisationen wie Perser, Römer, Byzantiner, Seldschuken und Osmanen lebten hier.\n\nDas Viertel zeichnet sich durch seine multikulturelle Struktur aus, in der Moscheen, Kirchen, Bäder, Brücken und traditionelle Häuser nebeneinander existieren.\n\nMit dem Rückgang des Bergbaus im 19. Jahrhundert verlor das Gebiet an Bedeutung, und die Bevölkerung zog in das heutige Stadtzentrum um.\n\n**Heute**\n\nHeute steht das Viertel unter Denkmalschutz und wirkt wie ein Freilichtmuseum. Besucher können durch die historischen Gassen spazieren und die einzigartige Atmosphäre erleben.\n\n**Anfahrt**\n\nDas Viertel ist vom Stadtzentrum Gümüşhanes aus in etwa 10 Minuten mit dem Auto erreichbar oder zu Fuß über kurze Wanderwege."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi sokaklarda yürüyüş yapmak",
+      "Eski yapıları keşfetmek",
+      "Fotoğraf çekmek"
+    ],
+    "en": [
+      "Walking through historic streets",
+      "Exploring old structures",
+      "Taking photos"
+    ],
+    "de": [
+      "Durch historische Straßen spazieren",
+      "Alte Gebäude erkunden",
+      "Fotos machen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "tarih"
+    ],
+    "en": [
+      "historic"
+    ],
+    "de": [
+      "Historisch"
+    ]
+  },
+  "images": [
+    "https://example.com/suleymaniye_gumushane.jpg",
+    "https://example.com/suleymaniye_gumushane_2.jpg"
+  ]
+},
+ {
     "slug": "cimenli-kanyonu",
     "name": {
       "tr": "Çimenli Kanyonu",
@@ -233,53 +399,6 @@
       "https://example.com/cimenli_kanyonu_2.jpg"
     ]
   },
-{
-  "slug": "gumushane-suleymaniye-mahallesi",
-  "name": {
-    "tr": "Süleymaniye Mahallesi",
-    "en": "Suleymaniye District",
-    "de": "Süleymaniye-Viertel"
-  },
-  "latitude": 40.45154365710275, 
-  "longitude": 39.454919365435664,
-  "description": {
-    "tr": "Süleymaniye Mahallesi, Gümüşhane’nin tarihi yerleşim alanı olup halk arasında \"Eski Gümüşhane\" olarak bilinmektedir. Şehir merkezine yaklaşık 4–5 km uzaklıkta, dağ yamacında konumlanmış bu bölge, geçmişte kentin ana yaşam alanı olmuştur.\n\n**Tarihi ve Önemi**\n\nTarihi M.Ö. 3000’li yıllara kadar uzanan Süleymaniye Mahallesi, İpek Yolu üzerinde yer alması nedeniyle tarih boyunca önemli bir ticaret ve yerleşim merkezi olmuştur. Persler, Romalılar, Bizanslılar, Selçuklular ve Osmanlılar gibi birçok medeniyete ev sahipliği yapmıştır.\n\nMahalle, farklı din ve kültürlerin bir arada yaşadığı çok katmanlı bir yapıya sahiptir. Bölgede camiler, kiliseler, hamamlar, köprüler ve geleneksel Osmanlı evleri yan yana bulunmaktadır. Bu durum, Süleymaniye’yi Anadolu’nun en özgün tarihi yerleşimlerinden biri hâline getirmektedir.\n\n19. yüzyılda bölgedeki madencilik faaliyetlerinin azalmasıyla birlikte yerleşim önemini kaybetmiş ve halk zamanla bugünkü şehir merkezine taşınmıştır. Bu nedenle mahalle günümüzde kısmen terk edilmiş tarihi bir kent görünümündedir.\n\n**Günümüzde**\n\nSüleymaniye Mahallesi günümüzde sit alanı olarak korunmakta ve açık hava müzesi niteliği taşımaktadır. Ziyaretçiler, taş sokaklar arasında yürüyerek tarihi yapıları keşfedebilir, bölgenin mistik atmosferini deneyimleyebilir.\n\nFotoğrafçılık, tarih keşfi ve kültürel geziler için oldukça uygun olan mahalle, özellikle gün doğumu ve gün batımında eşsiz manzaralar sunar.\n\n**Nasıl Gidilir?**\n\nGümüşhane şehir merkezinden Süleymaniye Mahallesi’ne özel araçla yaklaşık 10 dakikada ulaşılabilir. Ayrıca kısa bir yürüyüş rotası ile de bölgeye çıkmak mümkündür.",
-    "en": "Suleymaniye District, also known as \"Old Gümüşhane,\" is the historical settlement area of the city. Located about 4–5 km from the modern city center on a hillside, it once served as the main residential and commercial hub.\n\n**History and Significance**\n\nDating back to around 3000 BC, the district was an important settlement along the Silk Road. It hosted various civilizations including the Persians, Romans, Byzantines, Seljuks, and Ottomans.\n\nThe area reflects a multicultural past where mosques, churches, baths, bridges, and traditional houses coexist. This diversity makes it one of the most unique historical settlements in Anatolia.\n\nAs mining activities declined in the 19th century, the population gradually moved to the modern city center, leaving the area partially abandoned.\n\n**Today**\n\nToday, the district is protected as a historical site and resembles an open-air museum. Visitors can walk through stone streets, explore historical buildings, and experience its unique atmosphere.\n\nIt is ideal for photography, cultural exploration, and history enthusiasts, especially during sunrise and sunset.\n\n**How to Get There?**\n\nSuleymaniye District is about a 10-minute drive from Gümüşhane city center. It can also be reached via a short hiking route.",
-    "de": "Das Süleymaniye-Viertel, auch als \"Alt-Gümüşhane\" bekannt, ist das historische Siedlungsgebiet der Stadt. Es liegt etwa 4–5 km vom heutigen Stadtzentrum entfernt an einem Berghang und war einst das Hauptzentrum des städtischen Lebens.\n\n**Geschichte und Bedeutung**\n\nDie Geschichte des Viertels reicht bis etwa 3000 v. Chr. zurück. Aufgrund seiner Lage an der Seidenstraße war es ein bedeutendes Handels- und Siedlungszentrum. Verschiedene Zivilisationen wie Perser, Römer, Byzantiner, Seldschuken und Osmanen lebten hier.\n\nDas Viertel zeichnet sich durch seine multikulturelle Struktur aus, in der Moscheen, Kirchen, Bäder, Brücken und traditionelle Häuser nebeneinander existieren.\n\nMit dem Rückgang des Bergbaus im 19. Jahrhundert verlor das Gebiet an Bedeutung, und die Bevölkerung zog in das heutige Stadtzentrum um.\n\n**Heute**\n\nHeute steht das Viertel unter Denkmalschutz und wirkt wie ein Freilichtmuseum. Besucher können durch die historischen Gassen spazieren und die einzigartige Atmosphäre erleben.\n\n**Anfahrt**\n\nDas Viertel ist vom Stadtzentrum Gümüşhanes aus in etwa 10 Minuten mit dem Auto erreichbar oder zu Fuß über kurze Wanderwege."
-  },
-  "activities": {
-    "tr": [
-      "Tarihi sokaklarda yürüyüş yapmak",
-      "Eski yapıları keşfetmek",
-      "Fotoğraf çekmek"
-    ],
-    "en": [
-      "Walking through historic streets",
-      "Exploring old structures",
-      "Taking photos"
-    ],
-    "de": [
-      "Durch historische Straßen spazieren",
-      "Alte Gebäude erkunden",
-      "Fotos machen"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "tarih"
-    ],
-    "en": [
-      "historic"
-    ],
-    "de": [
-      "Historisch"
-    ]
-  },
-  "images": [
-    "https://example.com/suleymaniye_gumushane.jpg",
-    "https://example.com/suleymaniye_gumushane_2.jpg"
-  ]
-},
   {
     "slug": "taskopru-yaylasi",
     "name": {
@@ -473,90 +592,52 @@
       "https://example.com/cimsit_yaylasi.jpg"
     ]
   },
-  {
-    "slug": "tomara-selalesi",
+ 
+ {
+    "slug": "metropolitan-rum-kilisesi",
     "name": {
-      "tr": "Tomara Şelalesi",
-      "en": "Tomara Waterfall",
-      "de": "Tomara-Wasserfall"
+      "tr": "Metropolitan Rum Kilisesi",
+      "en": "Metropolitan Greek Church",
+      "de": "Metropolitanische Griechische Kirche"
     },
-    "latitude": 40.08169,
-    "longitude": 39.04448,
+    "latitude": 40.45081,
+    "longitude": 39.45417,
     "description": {
-      "tr": "Tomara Şelalesi (Gümüşhane)\n\nTomara Şelalesi, Gümüşhane’nin Şiran ilçesine bağlı Seydibaba Köyü yakınlarında yer alan ve Doğu Karadeniz’in en etkileyici doğal güzelliklerinden biri olarak kabul edilen bir tabiat harikasıdır. Şelale, yer altı kaynak sularının geniş bir kaya yamacından onlarca farklı noktadan yüzeye çıkarak dökülmesiyle oluşur ve bu özelliğiyle klasik tek akışlı şelalelerden ayrılır.\n\nYaklaşık 40 metre genişliğe yayılan su çıkışları, kayaların arasından adeta fışkırarak aşağıya doğru akarken görsel olarak büyüleyici bir manzara oluşturur. Özellikle ilkbahar ve yaz başında su debisinin artmasıyla birlikte şelalenin coşkusu daha da etkileyici hale gelir.\n\nŞelale çevresi yürüyüş yolları, seyir alanları ve düzenlenmiş mesire alanlarıyla ziyaretçiler için oldukça elverişlidir. Gürül gürül akan su sesi ve yemyeşil doğa atmosferi, huzurlu ve serin bir ortam sunar.\n\n📍 Neden Önemli?\n• Yer altı kaynaklarının çoklu çıkış noktalarından oluşmasıyla benzersizdir\n• Gümüşhane’nin en bilinen doğal turizm noktalarındandır\n• Doğa yürüyüşü ve fotoğrafçılık için ideal bir ortam sunar\n• Yaz aylarında serin iklimiyle tercih edilir\n\n🗓 Ne Zaman Gidilir?\n• Mayıs – Haziran: En güçlü ve etkileyici su akışı dönemi\n• Yaz ayları: Serinlemek ve doğada vakit geçirmek için ideal\n• İlkbahar: Doğanın en canlı olduğu dönem\n\n🎯 Ziyaret Tavsiyeleri\n• Kaygan zeminlere karşı dikkatli olun\n• Rahat yürüyüş ayakkabısı tercih edin\n• Sabah saatlerinde daha sakin bir atmosfer yakalayabilirsiniz\n• Çevre temizliğine özen gösterin\n\nTomara Şelalesi, çoklu su çıkışları, doğal yapısı ve huzur veren atmosferiyle Doğu Karadeniz’in mutlaka görülmesi gereken saklı cennetlerinden biridir.",
-      "en": "Tomara Waterfall is one of the largest waterfalls in Gümüşhane, offering a wonderful nature experience with its beauty and green surroundings.",
-      "de": "Der Tomara-Wasserfall ist einer der größten Wasserfälle in Gümüşhane und bietet ein wunderbares Naturerlebnis mit seiner Schönheit und den grünen Umgebungen."
+      "tr": "Metropolitan Rum Kilisesi, Karadeniz Bölgesi'nde Osmanlı döneminden kalma önemli bir dini ve tarihi yapıdır. Rum Ortodoks topluluğuna hizmet vermiş olan bu kilise, mimarisi ve sanatsal detaylarıyla dikkat çekmektedir.\n\n**Mimari Özellikleri:**  \nKilise, tipik Bizans ve Osmanlı mimarisinin etkilerini taşımaktadır. Yüksek kubbesi, taş ve tuğla işçiliği ile dikkat çeker. İç mekanda freskler ve ikonalar yer almaktadır.\n\n**Tarihi:**  \nKilisenin inşa tarihi kesin olarak bilinmemekle birlikte, 19. yüzyılın sonlarına doğru yapıldığı düşünülmektedir. Osmanlı döneminde bölgede yaşayan Rum nüfusa dini hizmet sağlamak amacıyla inşa edilmiştir.\n\n**Konum:**  \nŞehir merkezine yakın bir konumda bulunan kilise, tarihi yapıları keşfetmek isteyen ziyaretçiler için önemli bir durak noktasıdır.\n\n**Kültürel Önemi:**  \nGünümüzde, hem mimari hem de kültürel miras açısından büyük öneme sahip olan bu yapı, tarih meraklıları ve turistler için ilgi çekici bir noktadır.\n\nEğer bölgeyi ziyaret ediyorsanız, Metropolitan Rum Kilisesi’ni görmeden dönmemelisiniz.\n",
+      "en": "The Metropolitan Greek Church is a significant religious and historical structure from the Ottoman period in the Black Sea region. It once served the Greek Orthodox community and is known for its impressive architecture and artistic details.\n\n**Architectural Features:**  \nThe church reflects influences of Byzantine and Ottoman architecture. It has a high dome, intricate stone and brick craftsmanship, and a beautifully decorated interior with frescoes and icons.\n\n**History:**  \nAlthough the exact construction date is unknown, it is believed to have been built in the late 19th century to serve the Greek Orthodox population in the region during the Ottoman period.\n\n**Location:**  \nSituated near the city center, the church is an important stop for visitors interested in exploring historical landmarks.\n\n**Cultural Importance:**  \nToday, the church remains a significant cultural and architectural heritage site, attracting history enthusiasts and tourists alike.\n\nIf you visit the region, be sure to see the Metropolitan Greek Church.\n",
+      "de": "Die Metropolitanische Griechische Kirche ist ein bedeutendes religiöses und historisches Bauwerk aus der osmanischen Zeit in der Schwarzmeerregion. Sie diente einst der griechisch-orthodoxen Gemeinde und ist bekannt für ihre beeindruckende Architektur und künstlerischen Details.\n\n**Architektonische Merkmale:**  \nDie Kirche weist Einflüsse der byzantinischen und osmanischen Architektur auf. Sie verfügt über eine hohe Kuppel, kunstvolle Stein- und Ziegelarbeiten sowie ein wunderschön dekoriertes Inneres mit Fresken und Ikonen.\n\n**Geschichte:**  \nObwohl das genaue Baujahr unbekannt ist, geht man davon aus, dass sie Ende des 19. Jahrhunderts erbaut wurde, um der griechisch-orthodoxen Bevölkerung während der osmanischen Zeit zu dienen.\n\n**Lage:**  \nDie Kirche liegt in der Nähe des Stadtzentrums und ist ein wichtiger Anlaufpunkt für Besucher, die historische Sehenswürdigkeiten erkunden möchten.\n\n**Kulturelle Bedeutung:**  \nHeute bleibt die Kirche ein bedeutendes kulturelles und architektonisches Erbe, das Geschichtsinteressierte und Touristen gleichermaßen anzieht.\n\nWenn Sie die Region besuchen, sollten Sie unbedingt die Metropolitanische Griechische Kirche besichtigen.\n"
     },
     "activities": {
       "tr": [
-        "Şelale etrafında yürüyüş yapmak",
+        "Tarihi keşfetmek",
+        "Mimariyi incelemek",
         "Fotoğraf çekmek"
       ],
       "en": [
-        "Take a walk around the waterfall",
-        "Take photographs"
+        "Exploring history",
+        "Admiring architecture",
+        "Taking photographs"
       ],
       "de": [
-        "Um den Wasserfall spazieren gehen",
-        "Fotografieren"
+        "Geschichte erkunden",
+        "Architektur bewundern",
+        "Fotos machen"
       ]
     },
     "categories": {
       "tr": [
-        "şelale"
+        "kilise"
       ],
       "en": [
-        "waterfall"
+        "church"
       ],
       "de": [
-        "Wasserfall"
+        "Kirche"
       ]
     },
     "images": [
-      "https://example.com/tomara_selalesi.jpg"
-    ]
-  },
-  {
-    "slug": "kov-kalesi",
-    "name": {
-      "tr": "Kov Kalesi",
-      "en": "Kov Castle",
-      "de": "Kov-Burg"
-    },
-    "latitude": 40.36937998054419,
-    "longitude":  39.546867403850484,
-    "description": {
-  "tr": ", Gümüşhane il sınırları içerisinde yer alan ve Karadeniz Bölgesi’nin tarihi savunma yapıları arasında önemli bir yere sahip olan etkileyici bir kaledir. Genellikle sarp ve yüksek kayalık bir alan üzerine inşa edilmiş olması, kalenin hem savunma hem de gözetleme amacıyla stratejik bir noktada konumlandığını gösterir.\n\nKalenin kesin inşa tarihi net olarak bilinmemekle birlikte, bölgedeki birçok kaynak yapının Bizans dönemine uzanan bir geçmişe sahip olduğunu ve daha sonra farklı medeniyetler tarafından kullanıldığını belirtmektedir. Özellikle Orta Çağ boyunca bölgedeki geçiş yollarını kontrol etmek ve çevredeki yerleşimleri korumak amacıyla kullanılmıştır.\n\nKov Kalesi’nin mimari yapısı, doğal kaya formasyonlarıyla bütünleşmiş durumdadır. Bu özellik, kalenin insan eliyle yapılmış bir yapı olmasının yanı sıra doğal bir savunma sistemiyle desteklendiğini göstermektedir. Yüksek duvarlar, kayaya oyulmuş bölümler ve dar geçitler, savunma açısından oldukça avantajlı bir yapı oluşturur.\n\nKalede günümüze ulaşan kalıntılar arasında sur duvarları, gözetleme noktaları ve bazı temel yapı izleri bulunmaktadır. Zamanla doğal şartlar ve bakımsızlık nedeniyle büyük ölçüde yıpranmış olsa da, kalan izler bile yapının geçmişteki ihtişamını ve önemini anlamak için yeterlidir.\n\nKov Kalesi’nin bulunduğu bölge aynı zamanda doğal güzellikleriyle de dikkat çeker. Gümüşhane’nin dağlık ve ormanlık yapısı, kaleye ulaşım sırasında ziyaretçilere etkileyici manzaralar sunar. Bu nedenle bölge hem tarih hem de doğa turizmi açısından ilgi görmektedir.\n\nZiyaretçiler, kaleyi gezerek hem tarihi bir yapıyı keşfetme hem de çevredeki doğal atmosferi deneyimleme fırsatı bulur. Özellikle doğa yürüyüşü ve fotoğrafçılık açısından oldukça uygun bir ortam sunar.\n\nKov Kalesi, Gümüşhane’nin az bilinen ancak tarihi açıdan değerli yapılarından biri olarak, bölgenin kültürel mirasını yansıtan önemli bir destinasyondur. Tarih ve doğanın iç içe geçtiği bu yapı, keşif meraklıları için dikkat çekici bir durak niteliğindedir.",
-  "en": " is a historic fortress located within the boundaries of Gümüşhane province in the Black Sea region of Turkey. Built on a steep and rocky terrain, the castle holds a strategic position that highlights its historical role in surveillance and regional defense.\n\nAlthough the exact construction date is not clearly documented, historical sources suggest that the castle dates back to the Byzantine period and was later used by various civilizations throughout the Middle Ages. It played an important role in controlling trade and travel routes in the mountainous region.\n\nThe architectural structure of Kov Castle is closely integrated with the natural rock formations on which it was built. This combination of natural and man-made defenses provided a strong strategic advantage. High walls, rock-carved sections, and narrow passages reflect its defensive purpose.\n\nToday, the remains of the castle include sections of stone walls, observation points, and foundational structures. Although time and natural conditions have significantly damaged much of the site, the remaining ruins still reflect its historical importance.\n\nThe surrounding region is also notable for its natural beauty. Gümüşhane’s mountainous landscape and forested areas create a scenic environment, making the journey to the castle as impressive as the site itself.\n\nVisitors to Kov Castle can explore both historical ruins and enjoy the natural surroundings. The area is suitable for hiking, exploration, and photography, offering a peaceful and authentic experience.\n\nKov Castle is one of the lesser-known yet historically valuable landmarks of Gümüşhane, representing an important part of the region’s cultural heritage and offering a unique blend of history and nature.",
-      "de": "Die Gümüşhane-Burg ist eine historische Festung, die auf einem hohen Punkt über der Stadt liegt und einen Panoramablick bietet. Historische Untersuchungen deuten darauf hin, dass die Burg aus der Römerzeit stammt und eine lange und reiche Vergangenheit widerspiegelt. Im Laufe der Geschichte diente die Burg verschiedenen Zivilisationen aufgrund ihrer militärischen und strategischen Bedeutung und war ein zentraler Teil des Verteidigungssystems der Stadt.\n\nDie Burg zeichnet sich durch ihre Steinmetzkunst, Mauern und Türme aus. Besucher können beim Erkunden Spuren aus der römischen, byzantinischen und osmanischen Zeit erkennen. Die Verteidigungsmauern und Aussichtstürme wurden errichtet, um einen umfassenden Blick auf die Stadt zu ermöglichen, was die Burg sowohl historisch als auch architektonisch wertvoll macht.\n\nBesucher der Gümüşhane-Burg können nicht nur die historische Struktur erkunden, sondern auch die umliegende natürliche Schönheit genießen. Das Stadtbild, die Berge, Täler und Grünflächen, die von der Burg aus zu sehen sind, schaffen ein atemberaubendes Panorama. Fotografen finden die Burg besonders lohnend bei Sonnenauf- und -untergang, wenn das Licht die Landschaft noch eindrucksvoller erscheinen lässt.\n\nDie Umgebung der Burg eignet sich gut für Spaziergänge und Naturerkundungen. Besucher können die Wanderwege zur Burg hinaufgehen, die lokale Tierwelt beobachten und in der Natur ruhige Momente genießen, ohne die Stadt zu verlassen. Kurze Rastplätze und Sitzmöglichkeiten sind ebenfalls in der Nähe vorhanden.\n\nDie Gümüşhane-Burg fungiert als Freiluftmuseum für Geschichtsinteressierte. Geführte Touren bieten detaillierte Informationen über die Burg und die Geschichte der Stadt. Besucher können mehr über den historischen Kontext der Burg, ihre architektonischen Merkmale und die Nutzung im Laufe der Jahrhunderte erfahren, wodurch ihr Besuch bereichert wird.\n\nDie Struktur und Lage der Burg machen sie auch zu einem Veranstaltungsort für kulturelle Aktivitäten. Gelegentlich finden dort Ausstellungen, kulturelle Veranstaltungen und historische Programme statt, die den Besuchern ermöglichen, sich interaktiv mit der Geschichte auseinanderzusetzen.\n\nDie empfohlene Besuchszeit ist Frühling und Sommer, wenn das Wetter mild ist und die Wanderwege gut zugänglich sind. Winterbesuche erfordern Vorsicht aufgrund potenziell schwieriger Straßenverhältnisse. Der Zugang zur Burg erfolgt in der Regel mit dem Auto in kurzer Fahrtzeit vom Stadtzentrum Gümüşhane aus, kann jedoch auch zu Fuß erreicht werden, wobei zu beachten ist, dass die Wege steil und felsig sein können.\n\nZusammenfassend ist die Gümüşhane-Burg eine wichtige Touristenattraktion, die Geschichte, Architektur und natürliche Schönheit vereint. Sie bietet ein unvergessliches Erlebnis für Geschichts- und Kulturinteressierte sowie Natur- und Fotoliebhaber. Besucher können die Burg erkunden, den Panoramablick genießen und in die einzigartige Atmosphäre von Gümüşhane eintauchen."
-    },
-    "activities": {
-      "tr": [
-        "Kale etrafında gezmek",
-        "Tarihi yapıları keşfetmek"
-      ],
-      "en": [
-        "Explore around the castle",
-        "Discover historical structures"
-      ],
-      "de": [
-        "Die Burg erkunden",
-        "Historische Strukturen entdecken"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/gumushane_kalesi.jpg"
+      "https://example.com/metropolitan_kilisesi.jpg",
+      "https://example.com/metropolitan_kilisesi_2.jpg"
     ]
   }
 ]

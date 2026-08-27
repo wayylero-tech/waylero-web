@@ -1,14 +1,13 @@
 "use client";
-
 import { useState } from "react";
 import { db } from "../../lib/firebase";
 import { doc, setDoc, arrayUnion } from "firebase/firestore";
 
 type PreviewFile = {
-  id: string; // Resimleri benzersiz şekilde silmek için ID ekledik
+  id: string;
   file: File;
   preview: string;
-  sizeMB: number; // Karşılaştırma kolay olsun diye number yaptık
+  sizeMB: number;
   progress: number;
   status: string;
 };
@@ -37,6 +36,90 @@ export default function MediaView({ user }: any) {
       .replace(/\s+/g, "-")
       .replace(/[^\wğüşıöçĞÜŞİÖÇ\-]/gu, "");
 
+  // 🗜️ ULTRA OPTİMİZE RESİM SIKIŞTIRMA (Gelişmiş Çözünürlük + Kalite Dengesi)
+  const compressImage = async (file: File, targetMB: number = 9.5): Promise<File> => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      const objectUrl = URL.createObjectURL(file);
+
+      img.onload = async () => {
+        URL.revokeObjectURL(objectUrl);
+
+        let currentWidth = img.width;
+        let currentHeight = img.height;
+        let quality = 0.95; // Yüksek kaliteden başla
+
+        // Tarayıcı WebP destekliyor mu kontrol et
+        const mimeType = "image/webp"; 
+        const fileExt = ".webp";
+
+        const attemptCompression = (width: number, height: number, q: number): Promise<File> => {
+          return new Promise((res, rej) => {
+            const canvas = document.createElement("canvas");
+            canvas.width = width;
+            canvas.height = height;
+
+            const ctx = canvas.getContext("2d");
+            if (!ctx) return rej(new Error("Canvas context oluşturulamadı."));
+
+            // Yumuşatılmış pürüzsüz ölçekleme ayarları
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = "high";
+            ctx.drawImage(img, 0, 0, width, height);
+
+            canvas.toBlob(
+              (blob) => {
+                if (!blob) return rej(new Error("Blob oluşturulamadı."));
+
+                const compressedFile = new File(
+                  [blob],
+                  file.name.replace(/\.[^/.]+$/, fileExt),
+                  {
+                    type: mimeType,
+                    lastModified: Date.now(),
+                  }
+                );
+                res(compressedFile);
+              },
+              mimeType,
+              q
+            );
+          });
+        };
+
+        try {
+          let currentFile = await attemptCompression(currentWidth, currentHeight, quality);
+
+          // Dosya boyutu 9.5 MB altına inene kadar adımlarla döngüye gir
+          while (currentFile.size / 1024 / 1024 > targetMB) {
+            // Eğer kalite hala 0.65 üzerindeyse hassas %5 kalite düşür
+            if (quality > 0.65) {
+              quality -= 0.05;
+            } else {
+              // Kalite düşmesine rağmen hala büyükse boyutu %10 küçült
+              currentWidth = Math.round(currentWidth * 0.9);
+              currentHeight = Math.round(currentHeight * 0.9);
+            }
+
+            // Güvenlik sınırı: Çok aşırı küçük boyutlara düşmeyi engelle
+            if (currentWidth < 1200 || currentHeight < 1200) {
+              break;
+            }
+
+            currentFile = await attemptCompression(currentWidth, currentHeight, quality);
+          }
+
+          resolve(currentFile);
+        } catch (err) {
+          reject(err);
+        }
+      };
+
+      img.onerror = (err) => reject(err);
+      img.src = objectUrl;
+    });
+  };
+
   // ☁️ CLOUDINARY + FIREBASE
   const uploadToCloudAndFirebase = async (
     fileBlob: Blob,
@@ -55,8 +138,7 @@ export default function MediaView({ user }: any) {
     formData.append("folder", folderPath);
     formData.append("public_id", fileName);
 
-    // PROGRESS SIMULATION
-    updateProgress(fileId, 15);
+    updateProgress(fileId, 50);
 
     const cloudRes = await fetch(
       `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`,
@@ -66,10 +148,9 @@ export default function MediaView({ user }: any) {
       }
     );
 
-    updateProgress(fileId, 70);
+    updateProgress(fileId, 80);
 
     const cloudData = await cloudRes.json();
-
     if (cloudData.error) {
       throw new Error(cloudData.error.message);
     }
@@ -89,7 +170,6 @@ export default function MediaView({ user }: any) {
     );
 
     updateProgress(fileId, 100);
-
     return finalPath;
   };
 
@@ -105,7 +185,6 @@ export default function MediaView({ user }: any) {
   // 📸 HANDLE FILE SELECT
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = Array.from(e.target.files || []);
-
     const previews: PreviewFile[] = files.map((file) => ({
       id: `${file.name}_${Date.now()}_${Math.random()}`,
       file,
@@ -115,8 +194,6 @@ export default function MediaView({ user }: any) {
       status: "Bekliyor",
     }));
 
-    // Eski seçimlerin üstüne eklemek istersen `[...selectedFiles, ...previews]` yapabilirsin.
-    // Şimdilik sıfırlayıp yenisini koyma mantığını korudum.
     setSelectedFiles(previews);
   };
 
@@ -125,7 +202,7 @@ export default function MediaView({ user }: any) {
     setSelectedFiles((prev) => {
       const target = prev.find((item) => item.id === id);
       if (target) {
-        URL.revokeObjectURL(target.preview); // Bellek sızıntısını önlemek için önizleme URL'ini siliyoruz
+        URL.revokeObjectURL(target.preview);
       }
       return prev.filter((item) => item.id !== id);
     });
@@ -144,38 +221,71 @@ export default function MediaView({ user }: any) {
       const regionSlug = formatNameCustom(region);
       const citySlug = formatNameCustom(city);
       const placeSlug = formatNameCustom(place);
-
       const temp: string[] = [...uploadedPaths];
 
       for (let i = 0; i < selectedFiles.length; i++) {
-        const item = selectedFiles[i];
+        let item = selectedFiles[i];
 
-        // Zaten yüklenmiş veya 10MB üstü işaretlenmişse atla
-        if (item.status.includes("Yüklendi") || item.status.includes("10MB")) {
-          continue;
-        }
+        if (item.status.includes("Yüklendi")) continue;
 
-        // 🛑 10 MB KONTROLÜ
+        let uploadFile = item.file;
+
+        // 🛑 10 MB SIKIŞTIRMA KONTROLÜ
         if (item.sizeMB > 10) {
-          setSelectedFiles((prev) =>
-            prev.map((x) =>
-              x.id === item.id
-                ? { ...x, status: "10MB Üstü! ❌", progress: 0 }
-                : x
-            )
-          );
-          setStatus((p) => [
-            ...p,
-            `⚠️ Hata: ${item.file.name} (10MB sınırını aşıyor, atlandı.)`,
-          ]);
-          continue; // Döngüyü kırmadan bir sonraki resme geç!
+          try {
+            setSelectedFiles((prev) =>
+              prev.map((x) =>
+                x.id === item.id
+                  ? { ...x, status: "Akıllı Sıkıştırma... 🗜️", progress: 15 }
+                  : x
+              )
+            );
+            setStatus((p) => [
+              ...p,
+              `🗜️ ${item.file.name} (${item.sizeMB.toFixed(1)}MB) 10MB üstü. Kalite korunarak optimizasyon başlatıldı...`,
+            ]);
+
+            uploadFile = await compressImage(item.file, 9.5);
+            const newSizeMB = uploadFile.size / 1024 / 1024;
+
+            setSelectedFiles((prev) =>
+              prev.map((x) =>
+                x.id === item.id
+                  ? {
+                      ...x,
+                      file: uploadFile,
+                      sizeMB: newSizeMB,
+                      status: "Optimize Edildi 👌",
+                      progress: 30,
+                    }
+                  : x
+              )
+            );
+
+            setStatus((p) => [
+              ...p,
+              `✨ Sıkıştırma Başarılı: ${item.file.name} ➔ ${newSizeMB.toFixed(2)} MB (${uploadFile.type})`,
+            ]);
+          } catch (compErr: any) {
+            setSelectedFiles((prev) =>
+              prev.map((x) =>
+                x.id === item.id
+                  ? { ...x, status: "Sıkıştırma Hatası ❌" }
+                  : x
+              )
+            );
+            setStatus((p) => [
+              ...p,
+              `❌ Sıkıştırma Başarısız (${item.file.name}): ${compErr.message}`,
+            ]);
+            continue;
+          }
         }
 
         try {
-          updateProgress(item.id, 10);
-
+          updateProgress(item.id, 35);
           const finalPath = await uploadToCloudAndFirebase(
-            item.file,
+            uploadFile,
             regionSlug,
             citySlug,
             placeSlug,
@@ -195,7 +305,6 @@ export default function MediaView({ user }: any) {
             )
           );
         } catch (fileErr: any) {
-          // Münferit bir resim yüklenirken hata alırsa da diğerleri iptal olmasın
           setSelectedFiles((prev) =>
             prev.map((x) =>
               x.id === item.id ? { ...x, status: "Hata oluştu ❌" } : x
@@ -207,7 +316,6 @@ export default function MediaView({ user }: any) {
           ]);
         }
       }
-
       setStatus((p) => [...p, "✨ TÜM İŞLEMLER TAMAMLANDI"]);
     } catch (err: any) {
       setStatus((p) => [...p, `❌ Genel Hata: ${err.message}`]);
@@ -218,17 +326,14 @@ export default function MediaView({ user }: any) {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white p-10 space-y-10">
-      {/* HEADER */}
       <div>
         <h1 className="text-3xl font-black">☁️ WAYLERO MEDIA PANEL</h1>
         <p className="text-slate-400 mt-2">
-          Cloudinary + Firebase upload sistemi
+          Cloudinary + Firebase Upload ve Akıllı Görsel Optimizasyonu
         </p>
       </div>
 
-      {/* UPLOAD BOX */}
       <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 space-y-6">
-        {/* INPUTS */}
         <div className="grid md:grid-cols-3 gap-4">
           <input
             placeholder="Region (Örn: Turkey)"
@@ -236,14 +341,12 @@ export default function MediaView({ user }: any) {
             onChange={(e) => setRegion(e.target.value)}
             className="bg-slate-800 p-4 rounded-xl border border-slate-700 focus:outline-none focus:border-emerald-500 transition"
           />
-
           <input
             placeholder="City (Örn: Çanakkale)"
             value={city}
             onChange={(e) => setCity(e.target.value)}
             className="bg-slate-800 p-4 rounded-xl border border-slate-700 focus:outline-none focus:border-emerald-500 transition"
           />
-
           <input
             placeholder="Place (Örn: Adatepe Köyü)"
             value={place}
@@ -252,7 +355,6 @@ export default function MediaView({ user }: any) {
           />
         </div>
 
-        {/* 🎯 CANLI SLUG VE KLASÖR ÖNİZLEME ALANI */}
         {(region || city || place) && (
           <div className="bg-slate-950/60 border border-slate-800 p-4 rounded-2xl space-y-2">
             <div className="text-[11px] text-slate-500 font-bold uppercase tracking-wider">
@@ -272,39 +374,21 @@ export default function MediaView({ user }: any) {
                 {place ? formatNameCustom(place) : "[:place]"}
               </span>
             </div>
-
-            {place && (
-              <div className="text-[11px] font-mono text-slate-400 pt-1 border-t border-slate-900">
-                <span className="text-slate-500">Örnek Üretilecek Path: </span>
-                <span className="text-slate-300">
-                  places/{formatNameCustom(region || "turkey")}/
-                  {formatNameCustom(city || "canakkale")}/
-                  {formatNameCustom(place)}
-                </span>
-              </div>
-            )}
           </div>
         )}
 
-        {/* FILE INPUT */}
         <input
           type="file"
           multiple
           accept="image/*"
           onChange={handleFileSelect}
           className="block w-full text-sm
-          file:mr-4
-          file:py-3
-          file:px-6
-          file:rounded-full
-          file:border-0
-          file:bg-emerald-600
-          file:text-white
-          file:font-bold
-          hover:file:bg-emerald-500"
+          file:mr-4 file:py-3 file:px-6
+          file:rounded-full file:border-0
+          file:bg-emerald-600 file:text-white
+          file:font-bold hover:file:bg-emerald-500"
         />
 
-        {/* PREVIEW GRID */}
         {selectedFiles.length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-5">
             {selectedFiles.map((item) => (
@@ -312,7 +396,6 @@ export default function MediaView({ user }: any) {
                 key={item.id}
                 className="relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 group"
               >
-                {/* ✕ SİLME (ÇARPI) BUTONU */}
                 <button
                   type="button"
                   onClick={() => handleRemoveFile(item.id)}
@@ -321,7 +404,6 @@ export default function MediaView({ user }: any) {
                 >
                   ✕
                 </button>
-
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={item.preview}
@@ -329,7 +411,6 @@ export default function MediaView({ user }: any) {
                     className="w-full h-full object-cover"
                   />
                 </div>
-
                 <div className="p-4 space-y-3">
                   <div>
                     <p className="text-xs text-slate-300 truncate">
@@ -339,8 +420,6 @@ export default function MediaView({ user }: any) {
                       {item.sizeMB.toFixed(2)} MB
                     </p>
                   </div>
-
-                  {/* PROGRESS */}
                   <div className="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
                     <div
                       className={`h-full transition-all duration-300 ${
@@ -353,7 +432,6 @@ export default function MediaView({ user }: any) {
                       }}
                     />
                   </div>
-
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-slate-400">{item.progress}%</span>
                     <span
@@ -372,17 +450,15 @@ export default function MediaView({ user }: any) {
           </div>
         )}
 
-        {/* BUTTON */}
         <button
           onClick={handleMultiUpload}
           disabled={loading || selectedFiles.length === 0}
           className="w-full bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-700 py-4 rounded-2xl font-black text-lg transition"
         >
-          {loading ? "YÜKLENİYOR..." : `🚀 YÜKLE (${selectedFiles.length})`}
+          {loading ? "İŞLENİYOR & YÜKLENİYOR..." : `🚀 YÜKLE (${selectedFiles.length})`}
         </button>
       </div>
 
-      {/* LOG PANEL */}
       <div className="bg-black/50 border border-slate-800 rounded-2xl p-6">
         <h3 className="text-sm text-slate-400 mb-4">📊 Upload Logları</h3>
         <div className="space-y-2 text-xs max-h-72 overflow-y-auto font-mono">
@@ -392,7 +468,6 @@ export default function MediaView({ user }: any) {
         </div>
       </div>
 
-      {/* PATHS */}
       {uploadedPaths.length > 0 && (
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
           <h3 className="font-bold mb-4 text-emerald-400">
