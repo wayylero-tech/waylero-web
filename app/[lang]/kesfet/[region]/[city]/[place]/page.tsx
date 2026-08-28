@@ -10,8 +10,7 @@ import { db } from "@/lib/firebase";
 
 // 🚀 1. CACHE & RUNTIME AYARLARI
 export const runtime = "nodejs";
-export const dynamic = "force-static"; // Tam statik render
-export const revalidate = 604800;        // 1 saatlik ISR cache
+export const dynamic = "force-dynamic";
 
 const BASE_URL = "https://www.waylero.com";
 

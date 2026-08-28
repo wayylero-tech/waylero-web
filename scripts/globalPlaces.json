@@ -2307,7 +2307,7 @@
     "name_en": "Hallstatt Village",
     "lat": 47.5615,
     "lng": 13.6367,
-    "image": ""
+    "image": " "places/europa/avusturya/hallstatt/hallstatt_1780569589118_0.9481368656804424""
   },
   {
     "country": "avusturya",
@@ -2317,7 +2317,7 @@
     "name_en": "Hallstatt Salt Mine (Salzwelten)",
     "lat": 47.55612673266669,
     "lng": 13.645535673547647,
-    "image": "places/europa/avusturya/hallstatt/hallstatt_1780569589118_0.9481368656804424"
+    "image": ""
   },
   {
     "country": "avusturya",
@@ -10022,6 +10022,16 @@
   {
     "country": "turkiye",
     "city": "aksaray",
+    "slug": "helvadere-goleti",
+    "name_tr": "Helvadere Göleti",
+    "name_en": "Helvadere Pond",
+    "lat": 38.20224612126744,
+    "lng": 34.209312399795394,
+    "image": "places/turkey/aksaray/helvadere-goleti/helvadere-goleti_1784412894162_0.31680853421772814"
+  },
+  {
+    "country": "turkiye",
+    "city": "aksaray",
     "slug": "aksaray-ulu-camii",
     "name_tr": "Aksaray Ulu Camii",
     "name_en": "Aksaray Grand Mosque",
@@ -10058,6 +10068,16 @@
     "lat": 38.25405,
     "lng": 34.30292,
     "image": "places/turkey/aksaray/aksaray-agacalti-kilisesi/pcngjsfplcxfa7cmdlgn"
+  },
+  {
+    "country": "turkiye",
+    "city": "aksaray",
+    "slug": "canli-kilise",
+    "name_tr": "Çanlı Kilise",
+    "name_en": "Canli Church",
+    "lat": 38.3736,
+    "lng": 34.1515,
+    "image": "places/turkey/aksaray/canli-kilise/canli-kilise_1784413472162_0.021955023787046613"
   },
   {
     "country": "turkiye",
@@ -10722,6 +10742,16 @@
   {
     "country": "turkiye",
     "city": "antalya",
+    "slug": "kemer-cifte-cesmeler-halk-plaji",
+    "name_tr": "Kemer Çifteçeşmeler Halk Plajı",
+    "name_en": "Kemer Ciftecesmeler Public Beach",
+    "lat": 36.68140271733147,
+    "lng": 30.56977791003983,
+    "image": "places/turkey/antalya/kemer-cifte-cesmeler-halk-plaji/kemer-cifte-cesmeler-halk-plaji_1783282500603_0.03051875528105974"
+  },
+  {
+    "country": "turkiye",
+    "city": "antalya",
     "slug": "selge-antik-kenti",
     "name_tr": "Selge Antik Kenti",
     "name_en": "Selge Ancient City",
@@ -10797,7 +10827,7 @@
     "name_en": "Belek Beach",
     "lat": 36.84312,
     "lng": 31.07861,
-    "image": ""
+    "image": "places/turker/antalya/belek-plaji/belek-plaji_1784411741580_0.8675236168706508"
   },
   {
     "country": "turkiye",
@@ -10837,7 +10867,7 @@
     "name_en": "Sorgun Beach",
     "lat": 36.75428,
     "lng": 31.45173,
-    "image": ""
+    "image": "places/turker/antalya/sorgun-plaji/sorgun-plaji_1784411914330_0.2264773147824395"
   },
   {
     "country": "turkiye",
@@ -12147,7 +12177,7 @@
     "name_en": "Laodicea Ancient City",
     "lat": 37.83689,
     "lng": 29.10873,
-    "image": "places/turkey/denizli/denizli-laodikeia-antik-kenti/rsqfkkm3q9vbkgkoglyr"
+    "image": "places/turkey/denizli/denizli-laodikeia-antik-kenti/denizli-laodikeia-antik-kenti_1782147235684_0.0654384390040712"
   },
   {
     "country": "turkiye",
@@ -12327,7 +12357,17 @@
     "name_en": "Selimiye Mosque",
     "lat": 41.67828,
     "lng": 26.55912,
-    "image": "places/turkey/edirne/edirne-selimiye-camii/uvs7dygpsbneodo1donx"
+    "image": "places/turkey/edirne/selimiye-camii/selimiye-camii_1787813004464_0.8566674967517017"
+  },
+  {
+    "country": "turkiye",
+    "city": "edirne",
+    "slug": "edirne-arkeoloji-ve-etnografya-muzesi",
+    "name_tr": "Edirne Arkeoloji ve Etnografya Müzesi",
+    "name_en": "Edirne Archaeology and Ethnography Museum",
+    "lat": 41.67896,
+    "lng": 26.55056,
+    "image": "places/turkey/edirne/edirne-arkeoloji-ve-etnografya-muzesi/edirne-arkeoloji-ve-etnografya-muzesi_1787813140696_0.33968986807844104"
   },
   {
     "country": "turkiye",
@@ -12347,16 +12387,6 @@
     "name_en": "Edirne Castle",
     "lat": 41.67819,
     "lng": 26.55186,
-    "image": ""
-  },
-  {
-    "country": "turkiye",
-    "city": "edirne",
-    "slug": "edirne-arkeoloji-ve-etnografya-muzesi",
-    "name_tr": "Edirne Arkeoloji ve Etnografya Müzesi",
-    "name_en": "Edirne Archaeology and Ethnography Museum",
-    "lat": 41.67896,
-    "lng": 26.55056,
     "image": ""
   },
   {
@@ -12517,7 +12547,7 @@
     "name_en": "Three Tombs (Üç Kümbetler)",
     "lat": 39.90396,
     "lng": 41.27852,
-    "image": "places/turkey/erzurum/uc-kumbetler/uc-kumbetler_1779488850262_0.6833899451235811"
+    "image": "places/turkey/erzurum/uc-kumbetler/uc-kumbetler_1787811894444_0.15250699537122414"
   },
   {
     "country": "turkiye",
@@ -12542,6 +12572,86 @@
   {
     "country": "turkiye",
     "city": "erzurum",
+    "slug": "caferiye-medresesi",
+    "name_tr": "Caferiye Medresesi",
+    "name_en": "Caferiye Madrasa",
+    "lat": 39.906458,
+    "lng": 41.275611,
+    "image": "places/turkey/erzurum/caferiye-medresesi/caferiye-medresesi_1787772446860_0.26730716425497847"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "cimcime-hatun-turbesi",
+    "name_tr": "Cimcime Hatun Türbesi",
+    "name_en": "Cimcime Hatun Tomb",
+    "lat": 39.90695,
+    "lng": 41.27495,
+    "image": "places/turkey/erzurum/cimcime-hatun-turbesi/cimcime-hatun-turbesi_1787772568751_0.8852050487278301"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "emirseyh-camii",
+    "name_tr": "Emirşeyh Camii",
+    "name_en": "Emirseykh Mosque",
+    "lat": 39.90586,
+    "lng": 41.27405,
+    "image": "places/turkey/erzurum/emirseyh-camii/emirseyh-camii_1787772692232_0.4581079613838561"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "gurcu-mehmet-pasa-camii",
+    "name_tr": "Gürcü Mehmet Paşa Camii",
+    "name_en": "Gürcü Mehmet Pasha Mosque",
+    "lat": 39.90536,
+    "lng": 41.27542,
+    "image": "places/turkey/erzurum/gurcu-mehmet-pasa-camii/gurcu-mehmet-pasa-camii_1787772808278_0.37330939057915513"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "ibrahim-pasa-camii",
+    "name_tr": "İbrahim Paşa Camii",
+    "name_en": "Ibrahim Pasha Mosque",
+    "lat": 39.9052,
+    "lng": 41.27438,
+    "image": "places/turkey/erzurum/ibrahim-pasa-camii/ibrahim-pasa-camii_1787773163299_0.1974605069937333"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "narmanli-camii",
+    "name_tr": "Narmanlı Camii",
+    "name_en": "Narmanlı Mosque",
+    "lat": 39.9062,
+    "lng": 41.27585,
+    "image": "places/turkey/erzurum/narmanli-cami/narmanli-cami_1787773629217_0.29797191293374625"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "erzurum-muzesi",
+    "name_tr": "Erzurum Müzesi",
+    "name_en": "Erzurum Museum",
+    "lat": 39.90364,
+    "lng": 41.27067,
+    "image": "places/turkey/erzurum/erzurum-muzesi/erzurum-muzesi_1787773905912_0.2006401853765838"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "abdurrahman-gazi-turbesi",
+    "name_tr": "Abdurrahman Gazi Türbesi",
+    "name_en": "Tomb of Abdurrahman Gazi",
+    "lat": 39.8816,
+    "lng": 41.2962,
+    "image": "places/turkey/erzurum/abdurrahman-gazi-turbesi/abdurrahman-gazi-turbesi_1787774376280_0.8226389990123392"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
     "slug": "palandoken-dagi",
     "name_tr": "Palandöken Dağı",
     "name_en": "Palandöken Mountain",
@@ -12558,6 +12668,36 @@
     "lat": 39.9064162053123,
     "lng": 41.27223272785772,
     "image": "places/turkey/erzurum/yakutiye-medresesi/yakutiye-medresesi_1779489052318_0.3664236559370365"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "rustem-pasa-bedesteni-tashan",
+    "name_tr": "Rüstem Paşa Bedesteni (Taşhan)",
+    "name_en": "Rüstem Pasha Caravanserai (Taşhan)",
+    "lat": 39.90868,
+    "lng": 41.27382,
+    "image": "places/turkey/erzurum/rustem-pasa-bedesteni-tashan/rustem-pasa-bedesteni-tashan_1787774511964_0.9518094571132139"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "erzurum-ulu-camii",
+    "name_tr": "Erzurum Ulu Camii",
+    "name_en": "Erzurum Ulu Mosque",
+    "lat": 39.90645,
+    "lng": 41.2777,
+    "image": "places/turkey/erzurum/erzurum-ulu-camii/erzurum-ulu-camii_1787774824403_0.5789535908419565"
+  },
+  {
+    "country": "turkiye",
+    "city": "erzurum",
+    "slug": "narman-peri-bacalari",
+    "name_tr": "Narman Peri Bacaları",
+    "name_en": "Narman Fairy Chimneys",
+    "lat": 40.2956,
+    "lng": 41.8733,
+    "image": "places/turkey/erzurum/narman-peri-bacalari/narman-peri-bacalari_1787811442311_0.3179827944251854"
   },
   {
     "country": "turkiye",
@@ -12582,41 +12722,11 @@
   {
     "country": "turkiye",
     "city": "erzurum",
-    "slug": "rustem-pasa-bedesteni-tashan",
-    "name_tr": "Rüstem Paşa Bedesteni (Taşhan)",
-    "name_en": "Rüstem Pasha Caravanserai (Taşhan)",
-    "lat": 39.90868,
-    "lng": 41.27382,
-    "image": ""
-  },
-  {
-    "country": "turkiye",
-    "city": "erzurum",
     "slug": "ata-park-botanik-bahcesi",
     "name_tr": "Ata Park Botanik Bahçesi",
     "name_en": "Ata Park Botanical Garden",
     "lat": 39.90632,
     "lng": 41.25247,
-    "image": ""
-  },
-  {
-    "country": "turkiye",
-    "city": "erzurum",
-    "slug": "erzurum-ulu-camii",
-    "name_tr": "Erzurum Ulu Camii",
-    "name_en": "Erzurum Ulu Mosque",
-    "lat": 39.90645,
-    "lng": 41.2777,
-    "image": ""
-  },
-  {
-    "country": "turkiye",
-    "city": "erzurum",
-    "slug": "abdurrahman-gazi-turbesi",
-    "name_tr": "Abdurrahman Gazi Türbesi",
-    "name_en": "Abdurrahman Gazi Tomb",
-    "lat": 39.87847,
-    "lng": 41.31325,
     "image": ""
   },
   {
@@ -12892,22 +13002,12 @@
   {
     "country": "turkiye",
     "city": "gumushane",
-    "slug": "metropolitan-rum-kilisesi",
-    "name_tr": "Metropolitan Rum Kilisesi",
-    "name_en": "Metropolitan Greek Church",
-    "lat": 40.45081,
-    "lng": 39.45417,
-    "image": ""
-  },
-  {
-    "country": "turkiye",
-    "city": "gumushane",
     "slug": "hagios-stephanos-church-aziz-stefan-kilisesi",
     "name_tr": "Hagios Stephanos Church (Aziz Stefan Kilisesi)",
     "name_en": "Hagios Stephanos Church (Aziz Stefan Church)",
     "lat": 40.45142,
     "lng": 39.45649,
-    "image": ""
+    "image": "places/turkey/gümüşhane/hagios-stephanos-church-aziz-stefan-kilisesi/hagios-stephanos-church-aziz-stefan-kilisesi_1787739066428_0.35213356136825724"
   },
   {
     "country": "turkiye",
@@ -12922,12 +13022,32 @@
   {
     "country": "turkiye",
     "city": "gumushane",
-    "slug": "cimenli-kanyonu",
-    "name_tr": "Çimenli Kanyonu",
-    "name_en": "Çimenli Canyon",
-    "lat": 39.97554,
-    "lng": 39.30135,
-    "image": ""
+    "slug": "tomara-selalesi",
+    "name_tr": "Tomara Şelalesi",
+    "name_en": "Tomara Waterfall",
+    "lat": 40.08169,
+    "lng": 39.04448,
+    "image": "places/turkey/gümüşhane/gumushane-tomara-selalesi/npdfwcdqokpawzagby3v"
+  },
+  {
+    "country": "turkiye",
+    "city": "gumushane",
+    "slug": "kov-kalesi",
+    "name_tr": "Kov Kalesi",
+    "name_en": "Kov Castle",
+    "lat": 40.36937998054419,
+    "lng": 39.546867403850484,
+    "image": "places/turkey/gümüşhane/kov-kalesi/kov-kalesi_1787739622756_0.08059908773353908"
+  },
+  {
+    "country": "turkiye",
+    "city": "gumushane",
+    "slug": "kadirga-yaylasi-ustu-acik-cami",
+    "name_tr": "Kadırga Yaylası ve Üstü Açık Cami",
+    "name_en": "Kadırga Plateau and Open-Air Mosque",
+    "lat": 40.7222,
+    "lng": 39.3312,
+    "image": "places/turkey/gümüşhane/kadirga-yaylasi-ustu-acik-cami/kadirga-yaylasi-ustu-acik-cami_1787740108833_0.23020570673645802"
   },
   {
     "country": "turkiye",
@@ -12937,6 +13057,26 @@
     "name_en": "Suleymaniye District",
     "lat": 40.45154365710275,
     "lng": 39.454919365435664,
+    "image": "places/turkey/gümüşhane/gumushane-suleymaniye-mahallesi/gumushane-suleymaniye-mahallesi_1787740318405_0.7162890474866385"
+  },
+  {
+    "country": "turkiye",
+    "city": "gumushane",
+    "slug": "cakirkaya-kilisesi",
+    "name_tr": "Çakırkaya Kilisesi",
+    "name_en": "Çakırkaya Church",
+    "lat": 40.1161,
+    "lng": 39.0824,
+    "image": "places/turkey/gümüşhane/cakirkaya-kilisesi/cakirkaya-kilisesi_1787951573078_0.9171526793908275"
+  },
+  {
+    "country": "turkiye",
+    "city": "gumushane",
+    "slug": "cimenli-kanyonu",
+    "name_tr": "Çimenli Kanyonu",
+    "name_en": "Çimenli Canyon",
+    "lat": 39.97554,
+    "lng": 39.30135,
     "image": ""
   },
   {
@@ -12982,21 +13122,11 @@
   {
     "country": "turkiye",
     "city": "gumushane",
-    "slug": "tomara-selalesi",
-    "name_tr": "Tomara Şelalesi",
-    "name_en": "Tomara Waterfall",
-    "lat": 40.08169,
-    "lng": 39.04448,
-    "image": "places/turkey/gümüşhane/gumushane-tomara-selalesi/npdfwcdqokpawzagby3v"
-  },
-  {
-    "country": "turkiye",
-    "city": "gumushane",
-    "slug": "kov-kalesi",
-    "name_tr": "Kov Kalesi",
-    "name_en": "Kov Castle",
-    "lat": 40.36937998054419,
-    "lng": 39.546867403850484,
+    "slug": "metropolitan-rum-kilisesi",
+    "name_tr": "Metropolitan Rum Kilisesi",
+    "name_en": "Metropolitan Greek Church",
+    "lat": 40.45081,
+    "lng": 39.45417,
     "image": ""
   },
   {
@@ -14063,8 +14193,8 @@
     "country": "turkiye",
     "city": "kahramanmaras",
     "slug": "tashan",
-    "name_tr": "Taşhan",
-    "name_en": "Taşhan",
+    "name_tr": "Tarihi Taşhan",
+    "name_en": "Historical Tashan",
     "lat": 37.58268,
     "lng": 36.92775,
     "image": ""
@@ -14722,6 +14852,16 @@
   {
     "country": "turkiye",
     "city": "kocaeli",
+    "slug": "ormanya-dogal-yasam-parki",
+    "name_tr": "Ormanya Doğal Yaşam Parkı",
+    "name_en": "Ormanya Nature Park",
+    "lat": 40.713611,
+    "lng": 30.174444,
+    "image": "places/turkey/kocaeli/ormanya-dogal-yasam-parki/ormanya-dogal-yasam-parki_1783322718900_0.6519849668298351"
+  },
+  {
+    "country": "turkiye",
+    "city": "kocaeli",
     "slug": "hereke-kalesi",
     "name_tr": "Hereke Kalesi",
     "name_en": "Hereke Castle",
@@ -14942,6 +15082,26 @@
   {
     "country": "turkiye",
     "city": "konya",
+    "slug": "karapinar-aci-gol",
+    "name_tr": "Karapınar Acıgöl ",
+    "name_en": "Karapınar Lake Acigol",
+    "lat": 37.711726578798206,
+    "lng": 33.674124228055895,
+    "image": "places/turkey/konya/konya-aci-gol/konya-aci-gol_1782762150742_0.642618017240883"
+  },
+  {
+    "country": "turkiye",
+    "city": "konya",
+    "slug": "cumra-apa-baraji",
+    "name_tr": "Çumra Apa Barajı Mesire Piknik Alanı",
+    "name_en": "Cumra Apa Dam Recreation and Picnic Area",
+    "lat": 37.356994484919134,
+    "lng": 32.54460140140637,
+    "image": "places/turkey/konya/cumra-apa-baraji/cumra-apa-baraji_1782762905989_0.15126661841150024"
+  },
+  {
+    "country": "turkiye",
+    "city": "konya",
     "slug": "savatra-antik-kenti",
     "name_tr": "Savatra Antik Kenti",
     "name_en": "Savatra Ancient City",
@@ -15147,7 +15307,7 @@
     "name_en": "Meram Vineyards",
     "lat": 37.85284,
     "lng": 32.42019,
-    "image": "places/turkey/konya/konya-meram-baglari/aglejygi3nrmtm8dhxut"
+    "image": "places/turkey/konya/meram-baglari/meram-baglari_1787812522469_0.6852790779058695"
   },
   {
     "country": "turkiye",
@@ -15972,6 +16132,26 @@
   {
     "country": "turkiye",
     "city": "mugla",
+    "slug": "albay-koyu",
+    "name_tr": "Albay Koyu",
+    "name_en": "Albay Bay",
+    "lat": 37.051389,
+    "lng": 28.320278,
+    "image": "places/turkey/mugla/albay-koyu/albay-koyu_1783324006767_0.47488029365487516"
+  },
+  {
+    "country": "turkiye",
+    "city": "mugla",
+    "slug": "sarigerme-mesire-ve-kamp-alani",
+    "name_tr": "Sarıgerme Mesire ve Kamp Alanı",
+    "name_en": "Sarigerme Picnic and Camping Area",
+    "lat": 36.702778,
+    "lng": 28.701111,
+    "image": "places/turkey/mugla/sarigerme-mesire-ve-kamp-alani/sarigerme-mesire-ve-kamp-alani_1783325223111_0.3148596361658579"
+  },
+  {
+    "country": "turkiye",
+    "city": "mugla",
     "slug": "giynap-koyu",
     "name_tr": "Gıynap Koyu",
     "name_en": "Gıynap Bay",
@@ -16478,6 +16658,26 @@
     "lat": 37.42138,
     "lng": 34.61194,
     "image": "places/turkey/niğde/bolkar-daglari-karagol/bolkar-daglari-karagol_1779487879183_0.2596604172902347"
+  },
+  {
+    "country": "turkiye",
+    "city": "nigde",
+    "slug": "tyana-roma-havuzu",
+    "name_tr": "Tyana Roma Havuzu",
+    "name_en": "Tyana Roman Pool",
+    "lat": 37.7871,
+    "lng": 34.6548,
+    "image": "places/turkey/niğde/tyana-roma-havuzu/tyana-roma-havuzu_1787952832931_0.8262802353147026"
+  },
+  {
+    "country": "turkiye",
+    "city": "nigde",
+    "slug": "tyana-antik-kenti",
+    "name_tr": "Tyana Antik Kenti",
+    "name_en": "Tyana Ancient City",
+    "lat": 37.7833,
+    "lng": 34.6,
+    "image": "places/turkey/niğde/tyana-antik-kenti/tyana-antik-kenti_1787953075954_0.3829664561186362"
   },
   {
     "country": "turkiye",
@@ -17132,6 +17332,56 @@
   {
     "country": "turkiye",
     "city": "sivas",
+    "slug": "tashan",
+    "name_tr": "Taşhan",
+    "name_en": "Taşhan",
+    "lat": 39.7498,
+    "lng": 37.0191,
+    "image": "places/turkey/sivas/tashan/tashan_1787738279738_0.10997455244872356"
+  },
+  {
+    "country": "turkiye",
+    "city": "sivas",
+    "slug": "yeni-camii",
+    "name_tr": "Yeni Camii",
+    "name_en": "Yeni Mosque",
+    "lat": 39.7479,
+    "lng": 37.0169,
+    "image": "places/turkey/sivas/yeni-camii/yeni-camii_1787738624699_0.07565034226609446"
+  },
+  {
+    "country": "turkiye",
+    "city": "sivas",
+    "slug": "sivas-ulu-camii",
+    "name_tr": "Sivas Ulu Camii",
+    "name_en": "Sivas Grand Mosque",
+    "lat": 39.74752,
+    "lng": 37.01758,
+    "image": ""
+  },
+  {
+    "country": "turkiye",
+    "city": "sivas",
+    "slug": "ortmeli-camii",
+    "name_tr": "Örtmeli Camii",
+    "name_en": "Örtmeli Mosque",
+    "lat": 39.746231,
+    "lng": 37.018953,
+    "image": "places/turkey/sivas/ortmeli-cami/ortmeli-cami_1787734890336_0.3303934604314376"
+  },
+  {
+    "country": "turkiye",
+    "city": "sivas",
+    "slug": "semsi-sivasi-turbesi",
+    "name_tr": "Şemsi Sivasi Türbesi",
+    "name_en": "Şemsi Sivasi Tomb",
+    "lat": 39.7467,
+    "lng": 37.0169,
+    "image": "places/turkey/sivas/semsi-sivasi-turbesi/semsi-sivasi-turbesi_1787734687428_0.7732150687110855"
+  },
+  {
+    "country": "turkiye",
+    "city": "sivas",
     "slug": "gokpinar-golu",
     "name_tr": "Gökpınar Gölü",
     "name_en": "Gökpınar Lake",
@@ -17227,7 +17477,7 @@
     "name_en": "Kale Mosque",
     "lat": 39.74919,
     "lng": 37.01433,
-    "image": ""
+    "image": "places/turkey/sivas/kale-camii/kale-camii_1787731568305_0.9491155047451322"
   },
   {
     "country": "turkiye",
