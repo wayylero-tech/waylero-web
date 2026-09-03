@@ -1,88 +1,362 @@
 [
   {
-    "slug": "vora-katedrali",
+    "slug": "evora-katedrali",
     "name": {
       "tr": "Évora Katedrali",
       "en": "Évora Cathedral",
-      "de": "Évora Kathedrale"
+      "de": "Kathedrale von Évora"
     },
-    "latitude": 38.5744,
-    "longitude": -7.9128,
+    "latitude": 38.57161,
+    "longitude": -7.90651,
     "description": {
-      "tr": "Évora Katedrali, 12. yüzyıldan kalma Romanesk ve Gotik tarzda inşa edilmiş büyük bir dini yapıdır.",
-      "en": "Évora Cathedral is a large religious building built in Romanesque and Gothic styles dating back to the 12th century.",
-      "de": "Die Évora Kathedrale ist ein großes religiöses Gebäude, das im romanischen und gotischen Stil aus dem 12. Jahrhundert erbaut wurde."
+      "tr": "Évora Katedrali, Portekiz'in Alentejo bölgesindeki Évora'nın en etkileyici Orta Çağ yapılarından biridir. Santa Maria'ya adanan katedralin inşasına 12. yüzyılın sonlarında başlanmış ve ana yapı büyük ölçüde 13. yüzyılda tamamlanmıştır. Yapı, Romanesk ve Gotik mimarinin güçlü özelliklerini bir araya getirir. Kalın taş duvarları, savunma yapısını andıran kuleleri, sivri kemerleri ve görkemli cephesi katedrale oldukça anıtsal bir görünüm kazandırır. Ana girişte yer alan ogival portal ve havarileri temsil eden heykeller yapının en dikkat çekici dış ayrıntıları arasındadır. Katedralin iç bölümlerinde ise farklı dönemlerin izleri görülebilir. Gotik nef, yüksek tonozlar, tarihi org, koro bölümü, şapeller ve dini sanat eserleri ziyaret sırasında öne çıkan unsurlardır. Yapının manastır bölümü de özellikle taş işçiliği ve kemerli galerileriyle dikkat çeker. Katedralin bazı bölümleri sonraki yüzyıllarda yeniden düzenlenmiş, özellikle ana şapel 18. yüzyılda Barok anlayışla değiştirilmiştir. Bu nedenle yapı tek bir mimari dönemi temsil etmekten ziyade Évora'nın yüzyıllar boyunca geçirdiği dini ve sanatsal dönüşümü gösterir. Katedral, UNESCO Dünya Mirası statüsündeki Évora tarihi merkezinin en önemli anıtlarından biridir. Kentin yüksek bölümünde bulunduğu için çevresindeki meydan ve sokaklardan yapının kulelerini görmek mümkündür. Katedral ziyaretini hemen yakınındaki Roma Tapınağı, Évora Müzesi ve tarihi şehir sokaklarıyla birleştirmek oldukça kolaydır. Özellikle fotoğraf açısından taş cephe, kuleler ve çevredeki beyaz badanalı Alentejo evleri güçlü kompozisyonlar oluşturur. Évora'yı ilk kez ziyaret edenler için katedral, Roma döneminden Orta Çağ'a ve sonraki Portekiz sanatına uzanan şehir tarihini anlamak açısından önemli bir duraktır.",
+      "en": "Évora Cathedral, dedicated to Saint Mary, is one of the most impressive medieval monuments in Évora and in Portugal's Alentejo region. Construction began at the end of the 12th century and the main structure was largely completed during the 13th century. The cathedral combines strong Romanesque and Gothic characteristics. Its massive stone walls, fortified-looking towers, pointed arches and monumental façade give the building a distinctive medieval appearance. The ogival main portal, decorated with sculptures representing the Apostles, is one of the most remarkable features of the exterior. Inside, visitors can see elements from several different periods. The Gothic nave, high vaults, historic organ, choir and chapels are among the highlights, while the cloister is notable for its stonework and arcaded galleries. Several parts of the cathedral were modified in later centuries, including the main chapel, which was redesigned in the 18th century with strong Baroque influences. The building therefore represents more than one architectural period and reflects the religious and artistic development of Évora over many centuries. The cathedral forms one of the most important monuments within the UNESCO-listed Historic Centre of Évora. Because it stands in the upper part of the old city, its towers can be seen from several surrounding streets and squares. The cathedral is easy to combine with the nearby Roman Temple, Évora Museum and the narrow streets of the historic center. Photography enthusiasts will find strong compositions in the stone façade, medieval towers and surrounding whitewashed Alentejo buildings. For first-time visitors, the cathedral provides an excellent introduction to Évora's history, connecting Roman, medieval and later Portuguese cultural traditions in one of the city's most recognizable landmarks.",
+      "de": "Die Kathedrale von Évora, die der heiligen Maria geweiht ist, gehört zu den beeindruckendsten mittelalterlichen Bauwerken der Stadt und der portugiesischen Region Alentejo. Mit ihrem Bau wurde Ende des 12. Jahrhunderts begonnen, während der Hauptbau größtenteils im 13. Jahrhundert fertiggestellt wurde. Die Kathedrale verbindet markante romanische und gotische Merkmale. Ihre massiven Steinmauern, die wehrhaft wirkenden Türme, Spitzbögen und die monumentale Fassade verleihen ihr ein charakteristisches mittelalterliches Erscheinungsbild. Besonders bemerkenswert ist das spitzbogige Hauptportal mit Skulpturen der Apostel. Im Inneren lassen sich Elemente aus mehreren Jahrhunderten entdecken. Das gotische Langhaus, die hohen Gewölbe, die historische Orgel, der Chorbereich und verschiedene Kapellen gehören zu den wichtigsten Bereichen. Auch der Kreuzgang mit seinen Steinmetzarbeiten und Arkaden ist sehenswert. Einige Bereiche wurden in späteren Jahrhunderten verändert, darunter die Hauptkapelle, die im 18. Jahrhundert im barocken Stil neu gestaltet wurde. Die Kathedrale repräsentiert daher nicht nur eine einzige Epoche, sondern zeigt die religiöse und künstlerische Entwicklung Évoras über viele Jahrhunderte. Sie gehört zu den bedeutendsten Bauwerken innerhalb des UNESCO-Welterbes Historisches Zentrum von Évora. Aufgrund ihrer Lage im oberen Teil der Altstadt sind die Türme von verschiedenen Straßen und Plätzen aus sichtbar. Die Kathedrale lässt sich gut mit dem nahe gelegenen Römischen Tempel, dem Museum von Évora und den historischen Gassen verbinden. Für Fotografen bieten die steinerne Fassade, die mittelalterlichen Türme und die weiß getünchten Häuser des Alentejo zahlreiche Motive. Für Besucher, die Évora zum ersten Mal erkunden, ist die Kathedrale ein wichtiger Ausgangspunkt, um die römischen, mittelalterlichen und späteren kulturellen Einflüsse der Stadt kennenzulernen."
     },
     "activities": {
       "tr": [
         "Katedrali gezme",
-        "Mimari detayları keşfetme"
+        "Havari heykellerini inceleme",
+        "Gotik nefi keşfetme",
+        "Manastır bölümünü görme",
+        "Tarihi mimariyi fotoğraflama"
       ],
       "en": [
         "Tour the cathedral",
-        "Explore the architectural details"
+        "Examine the Apostle sculptures",
+        "Explore the Gothic nave",
+        "See the cloister",
+        "Photograph the historic architecture"
       ],
       "de": [
         "Die Kathedrale besichtigen",
-        "Die architektonischen Details erkunden"
+        "Die Apostelskulpturen betrachten",
+        "Das gotische Langhaus erkunden",
+        "Den Kreuzgang besichtigen",
+        "Die historische Architektur fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "tarih",
+        "dini yapı",
+        "mimari",
+        "UNESCO"
       ],
       "en": [
-        "church"
+        "historic",
+        "religious",
+        "architecture",
+        "UNESCO"
       ],
       "de": [
-        "kirche"
+        "Historisch",
+        "Sakral",
+        "Architektur",
+        "UNESCO"
       ]
     },
     "images": [
-      "https://example.com/evora_cathedral.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20%C3%89vora%20-%20Portugal%20%2852365272639%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nave%20of%20the%20Cathedral%20of%20Evora.jpg"
     ]
   },
   {
-    "slug": "tarihi-sehir-merkezi",
+    "slug": "evora-tarihi-sehir-merkezi",
     "name": {
-      "tr": "Tarihi Şehir Merkezi",
-      "en": "Historical City Center",
-      "de": "Historisches Stadtzentrum"
+      "tr": "Évora Tarihi Şehir Merkezi",
+      "en": "Historic Centre of Évora",
+      "de": "Historisches Zentrum von Évora"
     },
-    "latitude": 38.5742,
-    "longitude": -7.9121,
+    "latitude": 38.57306,
+    "longitude": -7.90778,
     "description": {
-      "tr": "Évora'nın tarihi şehir merkezi, dar sokakları, beyaz evleri ve Roma kalıntıları ile ünlüdür ve UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
-      "en": "The historical city center of Évora is famous for its narrow streets, white houses, and Roman ruins, and is a UNESCO World Heritage site.",
-      "de": "Das historische Stadtzentrum von Évora ist bekannt für seine engen Straßen, weißen Häuser und römischen Ruinen und ist ein UNESCO-Weltkulturerbe."
+      "tr": "Évora Tarihi Şehir Merkezi, iki bin yılı aşkın geçmişi farklı dönemlerin mimari ve şehir dokusu içinde görülebilen, Portekiz'in en önemli tarihi alanlarından biridir. Kentin kökenleri Roma dönemine kadar uzanır ve Roma egemenliğinin izleri bugün özellikle Roma Tapınağı, eski şehir duvarları ve termal yapı kalıntılarında görülebilir. Daha sonraki Vizigot ve Müslüman dönemleri de şehir dokusunda iz bırakmıştır. 1165 yılında Hristiyanların şehri yeniden ele geçirmesinden sonra Évora Orta Çağ boyunca gelişmiş ve 15. yüzyıldan itibaren Portekiz krallarının sık kullandığı yerleşimlerden biri haline gelmiştir. Bu dönem şehrin kültürel ve mimari gelişiminde önemli bir dönüm noktası olmuştur. Bugünkü tarihi merkezde beyaz badanalı evlerin, dar sokakların, taş döşeli meydanların, kiliselerin, manastırların, sarayların ve eski şehir surlarının bir arada bulunması Évora'ya kendine özgü bir görünüm verir. Praça do Giraldo, tarihi merkezin sosyal ve turistik merkezlerinden biridir. Buradan Roma Tapınağı, Évora Katedrali, São Francisco Kilisesi ve Kemikler Şapeli gibi önemli yapılara yürüyerek ulaşılabilir. Tarihi merkez 1986 yılında UNESCO Dünya Mirası Listesi'ne alınmıştır. UNESCO'nun değerlendirmesinde özellikle 16. ve 18. yüzyıllar arasında korunmuş şehir dokusu ile kentin iki bin yılı aşan tarihinin bir arada bulunması önem taşır. Évora'yı keşfetmenin en iyi yollarından biri tarihi merkezin sokaklarında yürümektir. Çünkü birçok yapı ana caddelerden çok küçük sokaklar ve meydanlar boyunca karşınıza çıkar. Beyaz cephelerdeki sarı ve mavi detaylar, geleneksel seramikler, taş kemerler ve eski kapılar fotoğraf açısından da oldukça zengin bir ortam oluşturur. Şehir merkezi için tek bir bina ziyareti yerine yürüyüş rotası planlamak daha anlamlıdır. Praça do Giraldo'dan başlayarak katedrale, Roma Tapınağı'na, São Francisco'ya, Kemikler Şapeli'ne ve şehir surlarına doğru ilerlemek Évora'nın farklı dönemlerini kısa bir yürüyüşte görmeyi sağlar.",
+      "en": "The Historic Centre of Évora is one of Portugal's most important heritage areas, where more than two thousand years of history can be experienced through its architecture and urban landscape. The city's origins go back to Roman times, with Roman remains visible today in monuments such as the Roman Temple, sections of the old walls and archaeological remains of Roman baths. Later Visigothic and Muslim periods also left their mark on the city. After the Christian reconquest in 1165, Évora developed throughout the Middle Ages and from the 15th century became an increasingly important residence for the Portuguese monarchy. This period contributed greatly to the city's architectural and cultural development. Today, the historic center combines whitewashed houses, narrow streets, stone-paved squares, churches, monasteries, palaces and medieval walls. Praça do Giraldo functions as one of the main social and visitor hubs of the old town. From the square, visitors can easily walk to the Roman Temple, Évora Cathedral, the Church of São Francisco and the Chapel of Bones. The Historic Centre of Évora was inscribed on the UNESCO World Heritage List in 1986. UNESCO highlights both the long historical development of the city and the preservation of an urban landscape particularly representative of the 16th to 18th centuries. One of the best ways to experience Évora is on foot because many of its most interesting details are found along smaller streets and squares rather than only on major roads. White façades decorated with yellow or blue details, traditional tiles, stone arches and historic doors provide many photographic opportunities. Instead of treating the historic center as a single attraction, visitors can plan a walking route through several landmarks. Starting at Praça do Giraldo and continuing toward the cathedral, Roman Temple, São Francisco Church, Chapel of Bones and the medieval walls allows travelers to experience several different periods of Évora's history in a relatively compact area.",
+      "de": "Das Historische Zentrum von Évora gehört zu den bedeutendsten Kulturerbestätten Portugals. Hier lassen sich mehr als zweitausend Jahre Geschichte anhand der Architektur und des Stadtbildes nachvollziehen. Die Ursprünge der Stadt reichen bis in die Römerzeit zurück. Zeugnisse dieser Epoche sind unter anderem der Römische Tempel, Teile der alten Stadtmauer und archäologische Reste römischer Thermen. Auch die westgotische und muslimische Zeit hinterließen Spuren im Stadtbild. Nach der christlichen Rückeroberung im Jahr 1165 entwickelte sich Évora im Mittelalter weiter und wurde ab dem 15. Jahrhundert zunehmend zu einem wichtigen Aufenthaltsort der portugiesischen Könige. Diese Entwicklung beeinflusste die kulturelle und architektonische Bedeutung der Stadt. Das heutige historische Zentrum verbindet weiß getünchte Häuser, enge Gassen, gepflasterte Plätze, Kirchen, Klöster, Paläste und mittelalterliche Stadtmauern. Die Praça do Giraldo ist einer der wichtigsten Treffpunkte der Altstadt. Von hier aus können der Römische Tempel, die Kathedrale von Évora, die Kirche São Francisco und die Knochenkapelle zu Fuß erreicht werden. Das Historische Zentrum von Évora wurde 1986 in die UNESCO-Welterbeliste aufgenommen. Besonders wichtig sind dabei die lange historische Entwicklung der Stadt und das erhaltene Stadtbild, das vor allem die Zeit vom 16. bis zum 18. Jahrhundert widerspiegelt. Am besten lässt sich Évora zu Fuß entdecken, da viele interessante Details in kleinen Gassen und auf Plätzen zu finden sind. Weiß getünchte Fassaden mit gelben oder blauen Elementen, traditionelle Fliesen, Steinbögen und historische Türen bieten zahlreiche Fotomotive. Statt das Zentrum nur als eine einzelne Sehenswürdigkeit zu betrachten, empfiehlt sich eine Route durch mehrere historische Punkte. Von der Praça do Giraldo über die Kathedrale und den Römischen Tempel bis zur Kirche São Francisco, der Knochenkapelle und den alten Stadtmauern können Besucher verschiedene Epochen der Stadtgeschichte auf engem Raum kennenlernen."
     },
     "activities": {
       "tr": [
-        "Tarihi şehirde gezme",
-        "Roma tapınağını ziyaret etme"
+        "Tarihi sokaklarda yürüyüş",
+        "Praça do Giraldo'yu keşfetme",
+        "Roma kalıntılarını görme",
+        "Şehir surlarını inceleme",
+        "Tarihi evleri fotoğraflama"
       ],
       "en": [
-        "Tour the historical city",
-        "Visit the Roman temple"
+        "Walk through the historic streets",
+        "Explore Praça do Giraldo",
+        "See Roman remains",
+        "Explore the city walls",
+        "Photograph historic houses"
       ],
       "de": [
-        "Durch die historische Stadt spazieren",
-        "Den römischen Tempel besichtigen"
+        "Durch die historischen Gassen spazieren",
+        "Die Praça do Giraldo erkunden",
+        "Römische Überreste sehen",
+        "Die Stadtmauern erkunden",
+        "Historische Häuser fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi merkez",
+        "UNESCO",
+        "mimari",
+        "şehir"
       ],
       "en": [
-        "historic square"
+        "historic center",
+        "UNESCO",
+        "architecture",
+        "city"
       ],
       "de": [
-        "historischer Platz"
+        "Historisches Zentrum",
+        "UNESCO",
+        "Architektur",
+        "Stadt"
       ]
     },
     "images": [
-      "https://example.com/evora_historical_center.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89vora%20-%20Pra%C3%A7a%20do%20Giraldo.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pra%C3%A7a%20do%20Giraldo%20-%20%C3%89vora%20-%20Portugal%20%2852258127529%29.jpg"
+    ]
+  },
+  {
+    "slug": "evora-roma-tapinagi",
+    "name": {
+      "tr": "Évora Roma Tapınağı",
+      "en": "Roman Temple of Évora",
+      "de": "Römischer Tempel von Évora"
+    },
+    "latitude": 38.57265,
+    "longitude": -7.90729,
+    "description": {
+      "tr": "Évora Roma Tapınağı, şehrin en tanınmış antik anıtı ve tarihi merkezin en güçlü simgelerinden biridir. Yapı Roma döneminde, MS 1. yüzyılda İmparator Augustus döneminde inşa edilmiş ve Évora'daki Roma forumunun önemli bir parçası olmuştur. Günümüzde halk arasında uzun süre 'Diana Tapınağı' olarak tanınsa da bu adlandırma tarihsel olarak kesin kabul edilmemektedir. Güncel arkeolojik değerlendirmeler yapının Roma imparatorluk kültüyle bağlantılı olduğunu göstermektedir. Tapınak, yüksek bir taş platform üzerinde yükselen Korint başlıklı granit sütunlarıyla dikkat çeker. Yüzyıllar boyunca farklı amaçlarla kullanılan yapı ciddi değişikliklere uğramış ve Roma dönemindeki görünümü büyük ölçüde kaybolmuştur. Orta Çağ'da çevresindeki yapıların ve savunma sistemlerinin bir parçası olarak kullanılan tapınak, daha sonraki dönemlerde farklı işlevlere sahip olmuş ve 19. yüzyıldaki arkeolojik çalışmalar sırasında Roma mimarisine ait görünümü yeniden ortaya çıkarılmıştır. Bugün ayakta kalan sütunlar ve üst yapı kalıntıları, Roma Évora'sının şehir planı ve imparatorluk kültü hakkında önemli ipuçları verir. Tapınağın çevresindeki Largo do Conde de Vila Flor ve bahçe alanı, tarihi merkezin en fotojenik noktalarındandır. Katedral de çok yakın olduğu için aynı bölgede Roma ve Orta Çağ mimarisini yan yana görmek mümkündür. Tapınak, Évora Tarihi Şehir Merkezi'nin UNESCO Dünya Mirası kapsamındaki önemli anıtlarından biridir. Ziyaret genellikle açık alandan yapının çevresini görme ve fotoğraf çekme şeklindedir. Çevredeki meydan ve bahçeler, yapının farklı açılardan görülmesine olanak tanır. Évora gezisinde Roma Tapınağı'nı katedral, Évora Müzesi ve tarihi şehir sokaklarıyla aynı yürüyüş rotasına eklemek en pratik seçeneklerden biridir.",
+      "en": "The Roman Temple of Évora is the city's best-known ancient monument and one of the strongest symbols of its historic center. The structure was built during the Roman period, in the 1st century AD under Emperor Augustus, and formed an important part of the Roman forum of Évora. It has traditionally been called the Temple of Diana, but this identification is not considered historically certain. Archaeological interpretation connects the monument with the Roman imperial cult. The temple stands on a high stone podium and is distinguished by its surviving granite columns with Corinthian capitals. Over the centuries, the structure underwent major changes and was used for different purposes, meaning that much of its original Roman appearance disappeared. During the medieval period, it became incorporated into the surrounding urban and defensive structures. Archaeological work in the 19th century helped reveal and restore the Roman character of the monument. The surviving columns and architectural remains provide important evidence of Roman Évora and its relationship with imperial architecture. The area around Largo do Conde de Vila Flor is also one of the most photogenic parts of the historic center. Because Évora Cathedral is only a short walk away, visitors can see Roman and medieval architecture almost side by side. The Roman Temple forms an important component of the UNESCO-listed Historic Centre of Évora. A visit usually focuses on viewing the monument from the surrounding public areas and photographing the columns and podium. The nearby square and garden provide several viewpoints. For a compact sightseeing route, the temple can easily be combined with Évora Cathedral, the Évora Museum and the narrow streets of the historic center.",
+      "de": "Der Römische Tempel von Évora ist das bekannteste antike Bauwerk der Stadt und eines der wichtigsten Wahrzeichen ihres historischen Zentrums. Der Tempel wurde in der Römerzeit im 1. Jahrhundert n. Chr. unter Kaiser Augustus errichtet und war ein bedeutender Bestandteil des römischen Forums von Évora. Lange Zeit wurde er als „Dianatempel“ bezeichnet, doch diese Zuordnung gilt historisch nicht als gesichert. Nach heutiger archäologischer Interpretation steht das Bauwerk mit dem römischen Kaiserkult in Verbindung. Der Tempel steht auf einem erhöhten steinernen Podium und zeichnet sich durch erhaltene Granitsäulen mit korinthischen Kapitellen aus. Im Laufe der Jahrhunderte wurde das Bauwerk stark verändert und für verschiedene Zwecke genutzt, wodurch sein ursprüngliches römisches Erscheinungsbild teilweise verloren ging. Im Mittelalter wurde der Tempel in die städtischen und teilweise wehrhaften Strukturen integriert. Archäologische Arbeiten im 19. Jahrhundert machten den römischen Charakter des Monuments wieder deutlicher sichtbar. Die erhaltenen Säulen und Baureste geben wichtige Hinweise auf das römische Évora und seine Verbindung zur kaiserzeitlichen Architektur. Die Umgebung des Largo do Conde de Vila Flor gehört ebenfalls zu den fotogensten Bereichen der Altstadt. Da die Kathedrale von Évora nur wenige Gehminuten entfernt liegt, können Besucher römische und mittelalterliche Architektur nahezu unmittelbar nebeneinander erleben. Der Römische Tempel ist ein wichtiger Bestandteil des UNESCO-Welterbes Historisches Zentrum von Évora. Der Besuch konzentriert sich in der Regel auf die Besichtigung des Monuments aus den umliegenden öffentlichen Bereichen und auf Fotografien der Säulen und des Podiums. Der nahe gelegene Platz und Garten bieten verschiedene Perspektiven. Der Tempel lässt sich besonders gut mit der Kathedrale, dem Museum von Évora und den historischen Gassen verbinden."
+    },
+    "activities": {
+      "tr": [
+        "Roma sütunlarını görme",
+        "Antik yapıyı fotoğraflama",
+        "Largo do Conde de Vila Flor'da yürüyüş",
+        "Roma tarihini keşfetme"
+      ],
+      "en": [
+        "See the Roman columns",
+        "Photograph the ancient monument",
+        "Walk around Largo do Conde de Vila Flor",
+        "Explore Roman history"
+      ],
+      "de": [
+        "Die römischen Säulen sehen",
+        "Das antike Bauwerk fotografieren",
+        "Am Largo do Conde de Vila Flor spazieren",
+        "Römische Geschichte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent",
+        "arkeoloji",
+        "Roma",
+        "UNESCO"
+      ],
+      "en": [
+        "ancient site",
+        "archaeology",
+        "Roman",
+        "UNESCO"
+      ],
+      "de": [
+        "Antike Stätte",
+        "Archäologie",
+        "Römisch",
+        "UNESCO"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Roman-Temple-Evora.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Templo%20romano%20de%20%C3%89vora.jpg"
+    ]
+  },
+  {
+    "slug": "evora-kemikler-sapeli",
+    "name": {
+      "tr": "Évora Kemikler Şapeli",
+      "en": "Chapel of Bones",
+      "de": "Knochenkapelle von Évora"
+    },
+    "latitude": 38.56898,
+    "longitude": -7.90832,
+    "description": {
+      "tr": "Évora Kemikler Şapeli, São Francisco Kilisesi kompleksinin içinde yer alan ve şehrin en sıra dışı tarihi mekânlarından biridir. Şapel 16. yüzyılda Fransisken rahipleri tarafından oluşturulmuştur. Dönemin şehir içindeki mezarlık alanlarının sınırlı olması nedeniyle bazı mezarlıkların yeniden düzenlenmesi sırasında çıkarılan insan kemikleri ve kafatasları şapelin duvarlarında ve sütunlarında dekoratif bir düzen içinde kullanılmıştır. Amaç yalnızca mekân kazanmak değil, ziyaretçilere hayatın geçiciliğini ve ölümün kaçınılmazlığını hatırlatan dini bir düşünceyi görsel olarak aktarmaktı. Şapelin iç mekânı bu nedenle klasik bir kilise dekorasyonundan oldukça farklıdır. Duvarlar ve kemerli bölümler çok sayıda kemik ve kafatasıyla kaplıdır. Giriş bölümünde ziyaretçiyi karşılayan ünlü yazıt da yaşamın geçiciliği üzerine düşünmeye yönlendirir. Yapı küçük olmasına rağmen içerideki yoğun görsel atmosfer nedeniyle Évora'nın en akılda kalan duraklarından biridir. Şapel, São Francisco Kilisesi'nin bulunduğu tarihi kompleksin parçasıdır ve tarihi şehir merkezinin yürüyüş rotasına kolayca eklenebilir. Ziyaret sırasında buranın dini ve tarihsel bağlamını dikkate almak önemlidir; mekân yalnızca ilginç bir fotoğraf noktası olarak değil, 16. yüzyıl Fransisken düşüncesinin ölüm ve yaşam anlayışını yansıtan bir yapı olarak değerlendirilmelidir. Évora'nın beyaz evleri ve açık meydanlarından sonra şapelin içindeki karanlık ve yoğun atmosfer belirgin bir kontrast oluşturur. Fotoğraf çekimi için güncel kurallar ziyaret öncesinde kontrol edilmelidir. Kemikler Şapeli, Roma Tapınağı ve katedralden farklı bir tarihsel deneyim sunduğu için Évora gezisine eklenmeye değer.",
+      "en": "The Chapel of Bones is one of Évora's most unusual historic sites and forms part of the Church of São Francisco complex. The chapel was created in the 16th century by Franciscan friars. Because burial grounds in the city were becoming limited, human bones and skulls uncovered during the reorganization of certain cemeteries were incorporated into the chapel's walls and architectural surfaces. The intention was not simply to create space, but also to provide a visual reminder of the transience of human life and the inevitability of death, reflecting an important aspect of Franciscan religious thought. As a result, the interior looks very different from that of a conventional church. Bones and skulls cover sections of the walls and arches, creating a highly distinctive atmosphere. A well-known inscription at the entrance reinforces the chapel's meditation on mortality. Although the chapel is relatively small, its unusual interior makes it one of the most memorable stops in Évora. It belongs to the historic São Francisco complex and can easily be included in a walking route through the old city. Visitors should consider the religious and historical context of the space rather than treating it simply as a curious photographic attraction. The chapel represents a particular religious attitude toward death that developed in 16th-century Franciscan communities. Its dark and enclosed interior also creates a strong contrast with Évora's bright squares and whitewashed houses outside. Current photography rules should be checked before visiting. Because the Chapel of Bones provides a very different experience from the Roman Temple and cathedral, it adds another important dimension to a tour of Évora's historic center.",
+      "de": "Die Knochenkapelle gehört zu den ungewöhnlichsten historischen Sehenswürdigkeiten Évoras und ist Teil des Komplexes der Kirche São Francisco. Die Kapelle wurde im 16. Jahrhundert von Franziskanermönchen eingerichtet. Da die verfügbaren Friedhofsflächen innerhalb der Stadt begrenzt waren, wurden bei der Neuordnung bestimmter Gräber freigelegte menschliche Knochen und Schädel in die Wände und architektonischen Bereiche der Kapelle integriert. Dabei ging es nicht nur um die Schaffung von Platz, sondern auch um eine religiöse Erinnerung an die Vergänglichkeit des Lebens und die Unausweichlichkeit des Todes. Das Innere unterscheidet sich deshalb deutlich von einer gewöhnlichen Kirche. Teile der Wände und Bögen sind mit zahlreichen Knochen und Schädeln gestaltet und erzeugen eine außergewöhnliche Atmosphäre. Eine bekannte Inschrift am Eingang verstärkt die Auseinandersetzung mit der menschlichen Sterblichkeit. Obwohl die Kapelle relativ klein ist, gehört sie wegen ihres ungewöhnlichen Innenraums zu den einprägsamsten Stationen Évoras. Sie ist Teil des historischen Komplexes von São Francisco und lässt sich problemlos in einen Rundgang durch die Altstadt integrieren. Beim Besuch sollte der religiöse und historische Kontext berücksichtigt werden, da die Kapelle nicht lediglich als ungewöhnlicher Fotostopp verstanden werden sollte. Sie vermittelt eine besondere Haltung gegenüber Tod und Vergänglichkeit, die mit der franziskanischen Tradition des 16. Jahrhunderts verbunden ist. Der dunkle Innenraum bildet zudem einen starken Kontrast zu den hellen Plätzen und weiß getünchten Häusern der Stadt. Die aktuellen Regeln für das Fotografieren sollten vor dem Besuch geprüft werden. Da die Knochenkapelle eine völlig andere Erfahrung als der Römische Tempel oder die Kathedrale bietet, ergänzt sie eine historische Évora-Rundreise um eine besondere kulturelle und religiöse Perspektive."
+    },
+    "activities": {
+      "tr": [
+        "Şapeli ziyaret etme",
+        "Kemik ve kafatası düzenlemelerini inceleme",
+        "São Francisco Kilisesi'ni keşfetme",
+        "Tarihi dini mirası öğrenme"
+      ],
+      "en": [
+        "Visit the chapel",
+        "Examine the bone and skull arrangements",
+        "Explore São Francisco Church",
+        "Learn about the religious heritage"
+      ],
+      "de": [
+        "Die Kapelle besichtigen",
+        "Die Anordnung der Knochen und Schädel betrachten",
+        "Die Kirche São Francisco erkunden",
+        "Das religiöse Erbe kennenlernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "dini yapı",
+        "mimari"
+      ],
+      "en": [
+        "historic",
+        "religious",
+        "architecture"
+      ],
+      "de": [
+        "Historisch",
+        "Sakral",
+        "Architektur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Evora%20-%20Chapel%20of%20Bones.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel%20of%20Bones%2C%20Royal%20Church%20of%20St%20Francis%2C%20Evora%2C%20Portugal%20%2853980169503%29.jpg"
+    ]
+  },
+  {
+    "slug": "praca-do-giraldo",
+    "name": {
+      "tr": "Praça do Giraldo",
+      "en": "Praça do Giraldo",
+      "de": "Praça do Giraldo"
+    },
+    "latitude": 38.57111,
+    "longitude": -7.90974,
+    "description": {
+      "tr": "Praça do Giraldo, Évora'nın tarihi merkezinin kalbinde bulunan ve şehir yaşamının en önemli meydanlarından biridir. Meydan adını 12. yüzyılda Évora'nın Hristiyanlar tarafından yeniden ele geçirilmesiyle ilişkilendirilen Geraldo Geraldes'ten alır. Günümüzde meydanın çevresinde tarihi yapılar, kafeler, restoranlar, mağazalar ve yaya yolları bulunur. Meydanın bir ucunda 16. yüzyılda inşa edilen Santo Antão Kilisesi yer alırken, önündeki mermer çeşme meydanın karakteristik unsurlarından biridir. Çeşmenin sekiz çıkışının meydandan ayrılan sekiz sokağı temsil ettiği geleneksel olarak kabul edilir. Praça do Giraldo, Évora'yı yürüyerek keşfetmek için doğal bir başlangıç noktasıdır. Buradan tarihi merkezin farklı yönlerine uzanan sokaklar sayesinde katedrale, Roma Tapınağı'na, São Francisco Kilisesi'ne ve Kemikler Şapeli'ne ulaşılabilir. Meydanın çevresindeki beyaz cepheli ve geleneksel mimariye sahip yapılar Alentejo şehir dokusunun tipik örneklerini oluşturur. Gündüz saatlerinde meydan şehir merkezindeki günlük yaşamı gözlemlemek için uygun bir noktadır; akşam saatlerinde ise kafeler ve restoranlar nedeniyle farklı bir atmosfere bürünür. Meydanın taş döşemesi, çeşmesi, kilise cephesi ve çevredeki tarihi binalar fotoğraf açısından da çeşitli kompozisyonlar sunar. Praça do Giraldo, Évora'nın UNESCO Dünya Mirası kapsamındaki tarihi merkezinin bir parçasıdır. Ziyaretçiler burada uzun süre kalmadan bile meydanı şehir yürüyüşünün başlangıç veya dinlenme noktası olarak değerlendirebilir. Évora'yı gezerken yalnızca anıtları tek tek görmek yerine meydanlar ve sokaklar üzerinden ilerlemek şehrin karakterini daha iyi anlamayı sağlar.",
+      "en": "Praça do Giraldo is one of the most important squares in Évora and lies at the heart of the city's historic center. The square is named after Geraldo Geraldes, a figure traditionally associated with the Christian reconquest of Évora in the 12th century. Today it is surrounded by historic buildings, cafés, restaurants, shops and pedestrian streets. At one end stands the Church of Santo Antão, built in the 16th century, while the marble fountain in front of it is one of the square's most recognizable features. According to local tradition, the fountain's eight outlets represent the eight streets leading away from the square. Praça do Giraldo is a natural starting point for exploring Évora on foot. From here, visitors can follow streets toward the cathedral, Roman Temple, Church of São Francisco and Chapel of Bones. The white façades and traditional architecture surrounding the square reflect the characteristic urban landscape of the Alentejo region. During the day, the square is useful for observing everyday city life, while in the evening its cafés and restaurants create a different atmosphere. The stone paving, fountain, church façade and surrounding historic buildings also offer several photographic compositions. Praça do Giraldo forms part of the UNESCO-listed Historic Centre of Évora. Visitors do not necessarily need to spend a long time here; the square works particularly well as a starting point or resting place during a walking tour. Exploring Évora through its squares and streets, rather than visiting monuments in isolation, provides a better understanding of the city's character and preserved urban heritage.",
+      "de": "Die Praça do Giraldo gehört zu den wichtigsten Plätzen Évoras und liegt im Herzen des historischen Stadtzentrums. Benannt ist der Platz nach Geraldo Geraldes, der traditionell mit der christlichen Rückeroberung Évoras im 12. Jahrhundert verbunden wird. Heute befinden sich rund um den Platz historische Gebäude, Cafés, Restaurants, Geschäfte und Fußwege. An einem Ende steht die im 16. Jahrhundert errichtete Kirche Santo Antão. Der davor gelegene Marmorbrunnen gehört zu den charakteristischen Elementen des Platzes. Nach lokaler Überlieferung stehen seine acht Ausläufe für die acht Straßen, die vom Platz wegführen. Die Praça do Giraldo eignet sich hervorragend als Ausgangspunkt für einen Rundgang durch Évora. Von hier führen Straßen zur Kathedrale, zum Römischen Tempel, zur Kirche São Francisco und zur Knochenkapelle. Die weiß getünchten Fassaden und die traditionelle Architektur rund um den Platz spiegeln das typische Stadtbild des Alentejo wider. Tagsüber lässt sich hier das alltägliche Leben der Stadt beobachten, während am Abend Cafés und Restaurants eine andere Atmosphäre schaffen. Das Kopfsteinpflaster, der Brunnen, die Kirchenfassade und die historischen Gebäude bieten außerdem verschiedene Fotomotive. Die Praça do Giraldo ist Bestandteil des UNESCO-Welterbes Historisches Zentrum von Évora. Ein langer Aufenthalt ist nicht zwingend erforderlich; besonders sinnvoll ist der Platz als Start- oder Ruhepunkt während eines Rundgangs. Wer Évora über Plätze und Gassen erkundet, statt die Monumente isoliert zu betrachten, erhält einen besseren Eindruck vom Charakter und vom erhaltenen historischen Stadtbild."
+    },
+    "activities": {
+      "tr": [
+        "Meydanda yürüyüş",
+        "Santo Antão Kilisesi'ni görme",
+        "Tarihi çeşmeyi inceleme",
+        "Kafelerde mola verme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Walk around the square",
+        "See Santo Antão Church",
+        "Examine the historic fountain",
+        "Relax at cafés",
+        "Take photographs"
+      ],
+      "de": [
+        "Über den Platz spazieren",
+        "Die Kirche Santo Antão sehen",
+        "Den historischen Brunnen betrachten",
+        "In Cafés entspannen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "meydan",
+        "tarih",
+        "şehir",
+        "UNESCO"
+      ],
+      "en": [
+        "square",
+        "historic",
+        "city",
+        "UNESCO"
+      ],
+      "de": [
+        "Platz",
+        "Historisch",
+        "Stadt",
+        "UNESCO"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89vora%20-%20Pra%C3%A7a%20do%20Giraldo.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pra%C3%A7a%20do%20Giraldo%20-%20%C3%89vora%20-%20Portugal%20%2852409667787%29.jpg"
+    ]
+  },
+  {
+    "slug": "evora-muzesi",
+    "name": {
+      "tr": "Évora Müzesi",
+      "en": "Évora Museum",
+      "de": "Museum von Évora"
+    },
+    "latitude": 38.57283,
+    "longitude": -7.90791,
+    "description": {
+      "tr": "Évora Müzesi, şehrin tarihi merkezinde, katedralin hemen yakınında bulunan önemli bir kültür ve sanat müzesidir. Müze, Évora'nın Roma döneminden Orta Çağ'a ve sonraki yüzyıllara uzanan sanat ve tarih mirasını anlamak için önemli bir duraktır. Koleksiyonlarında arkeolojik eserler, dini sanat, heykeller, resimler ve farklı dönemlere ait kültürel objeler bulunur. Müzenin bulunduğu eski piskoposluk sarayı kompleksi de ziyaretin önemli bir parçasıdır. Tarihi yapı ile sergilenen eserlerin aynı mekânda bulunması, Évora'nın dini ve sanatsal geçmişini daha iyi anlamaya yardımcı olur. Müzenin en dikkat çekici eserleri arasında Portekiz Rönesans resminin önemli örnekleri ve özellikle Évora ile bağlantılı dini sanat eserleri yer alır. Koleksiyonun bazı bölümleri Roma döneminden kalma arkeolojik buluntularla şehrin çok daha eski geçmişine de ışık tutar. Müzenin konumu, Évora Katedrali ve Roma Tapınağı arasında kurulabilecek yürüyüş rotası açısından oldukça avantajlıdır. Ziyaretçiler katedrali gördükten sonra birkaç dakikalık yürüyüşle müzeye ulaşabilir ve ardından Roma Tapınağı'na devam edebilir. Müze binasının tarihi atmosferi, dar koridorları, taş mimari unsurları ve sergi salonları fotoğraf ve kültür meraklıları için farklı bir deneyim sunar. Évora'nın tarihi merkezini yalnızca açık hava anıtları üzerinden gezmek yerine müzeyi de programa eklemek, şehrin sanat tarihini daha kapsamlı şekilde görmeyi sağlar. Sergi düzenleri, geçici sergiler, giriş ücretleri ve ziyaret saatleri dönemsel olarak değişebileceği için seyahat öncesinde güncel bilgiler kontrol edilmelidir.",
+      "en": "Évora Museum is an important cultural and artistic institution located in the historic center of the city, close to the cathedral. The museum provides an opportunity to understand Évora's artistic and historical heritage from the Roman period through the Middle Ages and later centuries. Its collections include archaeological objects, religious art, sculpture, painting and cultural artifacts from different periods. The former episcopal palace complex that houses the museum is itself an important part of the visit. The combination of historic architecture and museum collections helps visitors understand the religious and artistic development of Évora. Among the museum's highlights are important examples of Portuguese Renaissance painting and religious works associated with Évora. Archaeological collections also provide evidence of the city's much older Roman past. The museum's location is particularly convenient for a walking route connecting Évora Cathedral and the Roman Temple. Visitors can explore the cathedral and then reach the museum within a short walk before continuing toward the Roman monument. The historic atmosphere of the building, stone architectural elements and exhibition rooms provide a different experience for travelers interested in culture and photography. Adding the museum to a tour of Évora makes it possible to explore the city's art history rather than focusing only on its outdoor monuments. Exhibition arrangements, temporary exhibitions, admission prices and opening hours can change, so current visitor information should be checked before traveling.",
+      "de": "Das Museum von Évora ist eine bedeutende Kultur- und Kunsteinrichtung im historischen Zentrum der Stadt und befindet sich in unmittelbarer Nähe der Kathedrale. Das Museum vermittelt einen Einblick in die Kunst- und Geschichte Évoras von der Römerzeit über das Mittelalter bis in spätere Jahrhunderte. Die Sammlungen umfassen archäologische Objekte, religiöse Kunst, Skulpturen, Gemälde und verschiedene kulturelle Gegenstände aus unterschiedlichen Epochen. Auch der ehemalige Bischofspalast, in dem das Museum untergebracht ist, bildet einen wichtigen Teil des Besuchs. Die Verbindung zwischen historischer Architektur und den ausgestellten Kunstwerken macht die religiöse und künstlerische Entwicklung Évoras besonders anschaulich. Zu den wichtigen Bereichen gehören Beispiele der portugiesischen Renaissance-Malerei sowie religiöse Kunstwerke mit Bezug zu Évora. Archäologische Sammlungen geben außerdem Einblicke in die deutlich ältere römische Vergangenheit der Stadt. Die Lage des Museums eignet sich hervorragend für einen Rundgang zwischen Kathedrale und Römischem Tempel. Nach der Besichtigung der Kathedrale kann das Museum bequem zu Fuß erreicht werden, bevor der Weg zum römischen Monument fortgesetzt wird. Die historische Atmosphäre des Gebäudes, steinerne Architekturelemente und die Ausstellungsräume bieten Kultur- und Fotografieinteressierten eine abwechslungsreiche Erfahrung. Wer Évora nicht nur über die Monumente im Freien kennenlernen möchte, kann mit dem Museum einen tieferen Einblick in die Kunstgeschichte der Stadt erhalten. Ausstellungen, temporäre Präsentationen, Eintrittspreise und Öffnungszeiten können sich ändern und sollten vor dem Besuch aktuell überprüft werden."
+    },
+    "activities": {
+      "tr": [
+        "Sanat koleksiyonlarını inceleme",
+        "Arkeolojik eserleri görme",
+        "Rönesans eserlerini keşfetme",
+        "Tarihi müze binasını gezme"
+      ],
+      "en": [
+        "Explore the art collections",
+        "See archaeological artifacts",
+        "Discover Renaissance works",
+        "Explore the historic museum building"
+      ],
+      "de": [
+        "Die Kunstsammlungen erkunden",
+        "Archäologische Objekte sehen",
+        "Renaissancewerke entdecken",
+        "Das historische Museumsgebäude besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "sanat",
+        "arkeoloji",
+        "tarih"
+      ],
+      "en": [
+        "museum",
+        "art",
+        "archaeology",
+        "historic"
+      ],
+      "de": [
+        "Museum",
+        "Kunst",
+        "Archäologie",
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20de%20%C3%89vora.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20Nacional%20Frei%20Manuel%20do%20Cen%C3%A1culo.jpg"
     ]
   }
 ]
