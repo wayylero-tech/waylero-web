@@ -2,216 +2,417 @@
   {
     "slug": "sitka-national-historical-park",
     "name": {
-      "tr": "Sitka National Historical Park",
+      "tr": "Sitka Ulusal Tarihi Parkı",
       "en": "Sitka National Historical Park",
       "de": "Sitka National Historical Park"
     },
-    "latitude": 57.05,
-    "longitude": -135.33,
+    "latitude": 57.05164,
+    "longitude": -135.33153,
     "description": {
-      "tr": "Sitka Ulusal Tarihi Parkı, Alaska'nın tarihini ve kültürünü yansıtan bir alan olup, bölgedeki Tlingit yerli halkının mirasını keşfetmek için harika bir yerdir.",
-      "en": "Sitka National Historical Park reflects the history and culture of Alaska, and it's a great place to explore the heritage of the Tlingit Native people.",
-      "de": "Der Sitka National Historical Park spiegelt die Geschichte und Kultur Alaskas wider und ist ein großartiger Ort, um das Erbe der Tlingit-Indianer zu entdecken."
+      "tr": "Sitka Ulusal Tarihi Parkı, Alaska'nın Tlingit ve Rus-Amerikan tarihinin kesiştiği en önemli alanlardan biridir. Sitka Sound kıyısında yer alan park, 1804 yılında Tlingitler ile Ruslar arasında gerçekleşen çatışmaların yaşandığı bölgeyi korur. Parkın en dikkat çekici bölümlerinden biri, yoğun ılıman yağmur ormanının içinden geçen Totem Trail'dir. Yol boyunca Tlingit ve Haida kültürlerinden esinlenen çok sayıda totem direği görülebilir. Parkta ayrıca Indian River, kıyıdaki gelgit alanları ve Sitka Sound manzaraları bulunur. Ziyaretçi merkezinde Tlingit yaşamı, Rus-Amerikan dönemi ve parkın tarihi hakkında sergiler yer alır. Totem Trail ve Russian Memorial Loop birlikte yaklaşık 1,6 mil uzunluğunda bir yürüyüş oluşturur. Park, şehir merkezine yakın olması nedeniyle Sitka'yı kısa sürede keşfetmek isteyen gezginler için özellikle değerlidir. Totem direklerinin yalnızca dekoratif eserler olmadığını, aile soylarını, klan kimliğini, hikâyeleri ve anma geleneklerini yansıttığını bilmek park ziyaretini daha anlamlı hale getirir.",
+      "en": "Sitka National Historical Park is one of the most important places in Southeast Alaska for understanding the intertwined histories of the Tlingit people and Russian America. Located along Sitka Sound, the park preserves the area associated with the 1804 conflict between the Tlingit and Russian forces. One of its highlights is the Totem Trail, a relatively easy path that winds through a temperate rainforest filled with Sitka spruce and western hemlock. Visitors can see numerous Tlingit and Haida-inspired totem poles along the trail, as well as views of Sitka Sound and the intertidal zone. The visitor center contains exhibits about traditional Tlingit life, Russian-American history and the park's cultural heritage. The Totem Trail and Russian Memorial Loop together form a 1.6-mile walking experience. The park is also close to downtown Sitka, making it convenient for visitors arriving by cruise ship or spending only a short time in the city. Understanding that totem poles can represent ancestry, clan identity, legends and memorial traditions adds considerable cultural context to the visit.",
+      "de": "Der Sitka National Historical Park gehört zu den bedeutendsten Orten im Südosten Alaskas, um die miteinander verflochtene Geschichte der Tlingit und des russischen Amerikas zu verstehen. Der Park liegt am Sitka Sound und bewahrt einen historisch bedeutenden Schauplatz der Auseinandersetzungen zwischen Tlingit und russischen Kräften im Jahr 1804. Zu den Höhepunkten gehört der Totem Trail, ein vergleichsweise leichter Weg durch den gemäßigten Regenwald Südost-Alaskas. Entlang des Weges stehen zahlreiche Totempfähle mit Motiven aus der Tlingit- und Haida-Tradition. Außerdem bieten sich Ausblicke auf den Sitka Sound und die Gezeitenzone. Im Besucherzentrum informieren Ausstellungen über das traditionelle Leben der Tlingit, die russisch-amerikanische Geschichte und das kulturelle Erbe der Region. Der Totem Trail und der Russian Memorial Loop bilden zusammen einen etwa 1,6 Meilen langen Spaziergang. Aufgrund der Nähe zur Innenstadt eignet sich der Park auch gut für Reisende mit begrenzter Zeit. Wer die Bedeutung der Totempfähle als Darstellungen von Abstammung, Clanidentität, Geschichten und Erinnerungen kennt, kann die kulturelle Bedeutung des Ortes besser verstehen."
     },
     "activities": {
       "tr": [
-        "Tarihi parkı gezmek",
-        "Tlingit kültürünü öğrenmek"
+        "Totem Trail'de yürüyüş yapmak",
+        "Tlingit ve Haida totemlerini incelemek",
+        "Ziyaretçi merkezindeki sergileri gezmek",
+        "Sitka Sound manzarasını izlemek",
+        "Ilıman yağmur ormanını keşfetmek"
       ],
       "en": [
-        "Explore the historical park",
-        "Learn about Tlingit culture"
+        "Walk the Totem Trail",
+        "Explore Tlingit and Haida totem poles",
+        "Visit the visitor center exhibits",
+        "Enjoy views of Sitka Sound",
+        "Explore the temperate rainforest"
       ],
       "de": [
-        "Den historischen Park erkunden",
-        "Mehr über die Kultur der Tlingit erfahren"
+        "Auf dem Totem Trail wandern",
+        "Tlingit- und Haida-Totempfähle erkunden",
+        "Die Ausstellungen im Besucherzentrum besuchen",
+        "Den Sitka Sound betrachten",
+        "Den gemäßigten Regenwald erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "tarih",
+        "kültür",
+        "doğa",
+        "park"
       ],
       "en": [
-        "nature"
+        "historic",
+        "culture",
+        "nature",
+        "park"
       ],
       "de": [
-        "Natur"
+        "Historisch",
+        "Kultur",
+        "Natur",
+        "Park"
       ]
     },
     "images": [
-      "https://example.com/sitka_national_park.jpg"
+      "https://www.travelalaska.com/sites/default/files/2021-12/Destinations_ParksPublicLands_Sitka%20National%20Historical%20Park_Hero_%28ATIA%29_0.jpg",
+      "https://www.celebritycruises.com/blog/content/uploads/2019/02/cultural-cruises-sitka-national-historical-park-totem-poles.jpg"
     ]
   },
   {
     "slug": "russian-bishop-s-house",
     "name": {
-      "tr": "Russian Bishop's House",
+      "tr": "Rus Piskopos Evi",
       "en": "Russian Bishop's House",
       "de": "Russian Bishop's House"
     },
     "latitude": 57.0524,
     "longitude": -135.3344,
     "description": {
-      "tr": "Russian Bishop's House, Sitka'daki tarihi bir yapıdır ve bölgedeki Rus Ortodoks Kilisesi'nin mirasını keşfetmek için ziyaret edilebilir.",
-      "en": "The Russian Bishop's House is a historic building in Sitka, offering a chance to explore the heritage of the Russian Orthodox Church in the region.",
-      "de": "Das Russian Bishop's House ist ein historisches Gebäude in Sitka und bietet die Möglichkeit, das Erbe der russisch-orthodoxen Kirche in der Region zu entdecken."
+      "tr": "Russian Bishop's House, Sitka'nın Rus-Amerikan döneminden günümüze ulaşan en önemli yapılarından biridir. Yapı 1842'de tamamlanmış ve Kaliforniya'dan Sibirya Kamçatka'sına kadar uzanan geniş bir Rus Ortodoks piskoposluğunun dini yönetim merkezi olarak kullanılmıştır. Bina zamanla ciddi şekilde yıpranmış, ancak National Park Service tarafından satın alındıktan sonra uzun yıllar süren kapsamlı bir restorasyon çalışmasıyla 1853 dönemindeki görünümüne yakın şekilde yeniden düzenlenmiştir. Günümüzde ilk katta müze sergileri, üst katta ise tarihi odalar ve rehberli turlar bulunur. Yapı, Sitka'daki Rus sömürge dönemini anlamak için özellikle değerli bir duraktır. Ziyaret sırasında Rus Ortodoks Kilisesi'nin Alaska'daki etkisi, Rus-Amerikan döneminin günlük yaşamı ve binanın okul ile dini merkez olarak kullanılması hakkında bilgi edinilebilir. Şehir merkezine yakın konumu sayesinde Sitka'nın tarihi yürüyüş rotasına kolayca dahil edilebilir.",
+      "en": "The Russian Bishop's House is one of Sitka's most significant surviving buildings from the Russian-American period. Completed in 1842, it became the center of Russian Orthodox Church authority in a vast diocese stretching from California to Siberian Kamchatka. Over time the building deteriorated severely, but after the National Park Service acquired the property, a long restoration project returned it close to its 1853 appearance. Today, the first floor contains museum exhibits while the second floor can be explored through guided tours. The building provides an unusually direct look at Russian colonial life in Sitka and the role of the Orthodox Church in the region. Visitors can learn about the building's use as a bishop's residence, school and religious center while examining preserved architectural details. Its location near downtown makes it easy to combine with Sitka National Historical Park and other historic attractions during a walking tour.",
+      "de": "Das Russian Bishop's House ist eines der bedeutendsten erhaltenen Gebäude aus der Zeit des russisch-amerikanischen Sitkas. Das Gebäude wurde 1842 fertiggestellt und diente als Zentrum der russisch-orthodoxen Kirchenverwaltung für ein weitreichendes Bistum, das sich von Kalifornien bis nach Kamtschatka erstreckte. Im Laufe der Zeit verfiel das Gebäude stark. Nachdem der National Park Service das Grundstück übernommen hatte, wurde es in einem langjährigen Restaurierungsprojekt weitgehend auf seinen historischen Zustand von 1853 zurückgeführt. Heute befinden sich im Erdgeschoss Museumsausstellungen, während das Obergeschoss im Rahmen kostenloser Führungen besichtigt werden kann. Das Gebäude vermittelt einen direkten Eindruck vom russisch-amerikanischen Alltag und vom Einfluss der orthodoxen Kirche in Alaska. Besucher können mehr über die Nutzung als Bischofsresidenz, Schule und religiöses Zentrum erfahren. Dank der Lage nahe der Innenstadt lässt sich das Gebäude gut mit dem Sitka National Historical Park und weiteren historischen Sehenswürdigkeiten verbinden."
     },
     "activities": {
       "tr": [
-        "Tarihi yapıyı gezmek",
-        "Rus Ortodoks mirasını incelemek"
+        "Tarihi binayı gezmek",
+        "Rus-Amerikan dönemini öğrenmek",
+        "Müze sergilerini incelemek",
+        "Rehberli üst kat turuna katılmak",
+        "Rus Ortodoks mirasını keşfetmek"
       ],
       "en": [
         "Explore the historic building",
-        "Study Russian Orthodox heritage"
+        "Learn about the Russian-American period",
+        "View museum exhibits",
+        "Join a guided upper-floor tour",
+        "Explore Russian Orthodox heritage"
       ],
       "de": [
-        "Das historische Gebäude erkunden",
-        "Das russisch-orthodoxe Erbe studieren"
+        "Das historische Gebäude besichtigen",
+        "Mehr über die russisch-amerikanische Zeit erfahren",
+        "Museumsausstellungen ansehen",
+        "An einer Führung durch das Obergeschoss teilnehmen",
+        "Das russisch-orthodoxe Erbe entdecken"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "kültür",
+        "müze"
       ],
       "en": [
-        "historic"
+        "historic",
+        "culture",
+        "museum"
       ],
       "de": [
-        "Historisch"
+        "Historisch",
+        "Kultur",
+        "Museum"
       ]
     },
     "images": [
-      "https://example.com/russian_bishops_house.jpg"
+      "https://www.nps.gov/sitk/learn/historyculture/images/RBH_Exterior2_1.jpg?autorotate=false&maxwidth=650",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20del%20Obispo%20Ruso..jpg"
     ]
   },
   {
-    "slug": "baranof-castle",
+    "slug": "baranof-castle-state-historic-site",
     "name": {
-      "tr": "Baranof Castle",
-      "en": "Baranof Castle",
-      "de": "Baranof Castle"
+      "tr": "Baranof Castle Eyalet Tarihi Alanı",
+      "en": "Baranof Castle State Historic Site",
+      "de": "Baranof Castle State Historic Site"
     },
-    "latitude": 57.0556,
-    "longitude": -135.3308,
+    "latitude": 57.04854,
+    "longitude": -135.33803,
     "description": {
-      "tr": "Baranof Kalesi, Sitka'nın tarihi bir kalesidir ve Alaska'nın erken dönemlerine dair önemli kalıntılar sunar.",
-      "en": "Baranof Castle is a historical castle in Sitka, offering important remnants from Alaska's early history.",
-      "de": "Das Baranof Castle ist eine historische Burg in Sitka und bietet wichtige Überreste aus der frühen Geschichte Alaskas."
+      "tr": "Baranof Castle State Historic Site, genellikle Castle Hill olarak bilinen ve Sitka'nın en önemli tarihi noktalarından biri olan tepedir. Bölge Avrupalıların gelişinden önce Kiks.ádi Tlingit toplulukları tarafından stratejik bir savunma alanı olarak kullanılmıştır. 1804'te Rus kuvvetlerinin kontrolüne geçtikten sonra Sitka, Rus-Amerikan yönetiminin merkezi haline geldi ve Castle Hill uzun yıllar Rus yönetim yapılarının bulunduğu alan oldu. 18 Ekim 1867'de Alaska'nın Rusya'dan Amerika Birleşik Devletleri'ne resmi devri burada gerçekleştirildi. Bu nedenle bölge yalnızca yerel tarih açısından değil, Alaska'nın Amerika Birleşik Devletleri'ne katılması açısından da büyük önem taşır. Günümüzde eski yapıların çoğu ayakta değildir; bunun yerine tarihi panolar, toplar, bayrak direkleri ve Sitka Sound'a bakan seyir noktaları bulunur. Tepeye çıkan erişilebilir yürüyüş yolu sayesinde kısa bir yürüyüşle tarihi alan ve liman manzarası görülebilir.",
+      "en": "Baranof Castle State Historic Site, commonly known as Castle Hill, is one of Sitka's most important historical landmarks. Before European settlement, the hill was occupied by Kiks.ádi Tlingit families and served as a strategically important defensive location. Russian forces took control of the site in 1804, after which Castle Hill became the center of Russian administration in Sitka and the Russian-American colonial government. On October 18, 1867, the formal transfer of Alaska from Russia to the United States took place on this hill. The event gives Castle Hill major significance in the history of both Alaska and the United States. The original Russian buildings no longer survive, but visitors can see cannons, flagpoles, interpretive panels and the stone parapet. An accessible walkway leads to the top and provides views over downtown Sitka and the waterfront. The site is located in the heart of downtown and is easy to include in a walking tour.",
+      "de": "Die Baranof Castle State Historic Site, meist als Castle Hill bezeichnet, gehört zu den wichtigsten historischen Sehenswürdigkeiten Sitkas. Vor der europäischen Besiedlung wurde der Hügel von Familien des Kiks.ádi-Clans der Tlingit bewohnt und als strategischer Verteidigungsplatz genutzt. Nach der Eroberung durch russische Kräfte im Jahr 1804 wurde Castle Hill zum Zentrum der russischen Verwaltung in Sitka und zum wichtigen Standort der russisch-amerikanischen Kolonialregierung. Am 18. Oktober 1867 fand hier die offizielle Übergabe Alaskas von Russland an die Vereinigten Staaten statt. Dadurch besitzt der Ort eine besondere Bedeutung für die Geschichte Alaskas und der USA. Die ursprünglichen russischen Gebäude sind heute nicht mehr erhalten. Stattdessen finden Besucher Kanonen, Fahnenmasten, Informationstafeln und eine historische Steinbrüstung. Ein barrierearmer Weg führt auf den Hügel und bietet Ausblicke auf die Innenstadt und die Uferzone von Sitka. Die Lage im Stadtzentrum macht Castle Hill zu einem idealen Bestandteil eines historischen Rundgangs."
     },
     "activities": {
       "tr": [
-        "Kale gezisi yapmak",
-        "Alaska tarihini öğrenmek"
+        "Castle Hill'e çıkmak",
+        "Tarihi panoları incelemek",
+        "Tarihi topları görmek",
+        "Sitka Sound manzarasını izlemek",
+        "Alaska'nın devrini öğrenmek"
       ],
       "en": [
-        "Tour the castle",
-        "Learn about Alaska's history"
+        "Walk up Castle Hill",
+        "Read the historical panels",
+        "See the historic cannons",
+        "Enjoy views of Sitka Sound",
+        "Learn about the Alaska transfer"
       ],
       "de": [
-        "Die Burg besichtigen",
-        "Mehr über die Geschichte Alaskas lernen"
+        "Castle Hill hinaufgehen",
+        "Historische Informationstafeln lesen",
+        "Historische Kanonen ansehen",
+        "Den Sitka Sound betrachten",
+        "Mehr über die Übergabe Alaskas erfahren"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "manzara",
+        "kültür"
       ],
       "en": [
-        "historic"
+        "historic",
+        "viewpoint",
+        "culture"
       ],
       "de": [
-        "Historisch"
+        "Historisch",
+        "Aussichtspunkt",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/baranof_castle.jpg"
+      "https://dnr.alaska.gov/parks/pics/castlehill.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Colina%20del%20Castillo%20de%20Baranof..jpg"
     ]
   },
   {
     "slug": "sitka-sound-science-center",
     "name": {
-      "tr": "Sitka Sound Science Center",
+      "tr": "Sitka Sound Bilim Merkezi",
       "en": "Sitka Sound Science Center",
       "de": "Sitka Sound Science Center"
     },
-    "latitude": 57.0569,
-    "longitude": -135.3386,
+    "latitude": 57.05306,
+    "longitude": -135.33,
     "description": {
-      "tr": "Sitka Sound Science Center, Alaska'nın deniz yaşamını ve doğal çevresini keşfetmek için harika bir yerdir. Ziyaretçiler, okyanus yaşamını öğrenebilir.",
-      "en": "The Sitka Sound Science Center is a great place to explore Alaska's marine life and natural environment. Visitors can learn about ocean life.",
-      "de": "Das Sitka Sound Science Center ist ein großartiger Ort, um das Meeresleben und die natürliche Umwelt Alaskas zu erkunden. Besucher können mehr über das Leben im Ozean erfahren."
+      "tr": "Sitka Sound Science Center, Sitka çevresindeki deniz ekosistemlerini ve Alaska'nın sucul yaşamını yakından tanımak isteyenler için önemli bir eğitim ve ziyaret merkezidir. Merkezde akvaryum, dokunma havuzları, araştırma alanları ve somon kuluçkahanesi bulunur. Ziyaretçiler dokunma havuzlarında deniz kestaneleri, deniz anemonları ve diğer gelgit canlılarını gözlemleyebilir. Büyük tuzlu su tankında Sitka çevresindeki derin sularda yaşayan balıklar ve omurgasızlar sergilenir. Merkezin dikkat çekici canlılarından biri wolf eel olarak bilinen kurt yılan balığıdır. Somon kuluçkahanesi ise bölgedeki somonların yaşam döngüsünü anlamak için farklı bir bakış sunar. Merkez aynı zamanda Alaska'nın kıyı ekosistemleri üzerine araştırma ve eğitim çalışmaları yürütür. Şehir merkezindeki konumu sayesinde kısa bir Sitka gezisinde rahatlıkla ziyaret edilebilir. Özellikle çocuklarla seyahat eden aileler için etkileşimli bölümleri sayesinde klasik bir müze ziyaretinden daha deneyimsel bir durak olabilir.",
+      "en": "The Sitka Sound Science Center is an educational and visitor center focused on the marine ecosystems and aquatic life of coastal Alaska. The facility includes an aquarium, touch tanks, research spaces and a salmon hatchery. Visitors can interact with tide-pool organisms such as sea urchins and anemones in the touch tanks. An 800-gallon saltwater aquarium presents fish and invertebrates found in deeper waters around Sitka, including rockfish, sculpins and a resident wolf eel. The salmon hatchery provides another perspective on the life cycle of one of Southeast Alaska's most important fish species. Beyond the visitor experience, the center conducts research and educational programs related to Alaska's aquatic and terrestrial ecosystems. Its location on Lincoln Street makes it convenient to visit while exploring central Sitka. The combination of live animals, hands-on exhibits and scientific interpretation makes the center particularly suitable for families and travelers interested in Alaska's marine environment.",
+      "de": "Das Sitka Sound Science Center ist ein Bildungs- und Besucherzentrum, das sich mit den Meeresökosystemen und der Wasserwelt der Küsten Alaskas beschäftigt. Zur Einrichtung gehören ein Aquarium, Berührungsbecken, Forschungsbereiche und eine Lachszuchtanlage. In den Touch-Tanks können Besucher Gezeitenbewohner wie Seeigel und Seeanemonen aus nächster Nähe erleben. Ein 800-Gallonen-Salzwasserbecken zeigt Fische und Wirbellose aus den tieferen Gewässern rund um Sitka, darunter Felsenbarsche, Sculpins und einen Wolfsaal. Die Lachszuchtanlage vermittelt zusätzlich Einblicke in den Lebenszyklus einer der wichtigsten Fischarten Südost-Alaskas. Neben den Besucherangeboten arbeitet das Zentrum an Forschungs- und Bildungsprogrammen über die aquatischen und terrestrischen Ökosysteme Alaskas. Durch die Lage an der Lincoln Street lässt es sich gut in einen Rundgang durch Sitka integrieren. Die Kombination aus lebenden Tieren, interaktiven Ausstellungen und wissenschaftlicher Vermittlung macht den Besuch besonders für Familien und Naturinteressierte interessant."
     },
     "activities": {
       "tr": [
-        "Deniz yaşamını keşfetmek",
-        "Okyanus hakkında bilgi edinmek"
+        "Akvaryumu gezmek",
+        "Dokunma havuzlarını keşfetmek",
+        "Somon kuluçkahanesini görmek",
+        "Deniz canlılarını incelemek",
+        "Alaska'nın deniz ekosistemini öğrenmek"
       ],
       "en": [
-        "Explore marine life",
-        "Learn about the ocean"
+        "Visit the aquarium",
+        "Explore the touch tanks",
+        "See the salmon hatchery",
+        "Observe marine life",
+        "Learn about Alaska's marine ecosystems"
       ],
       "de": [
-        "Meeresleben erkunden",
-        "Mehr über den Ozean erfahren"
+        "Das Aquarium besuchen",
+        "Die Touch-Tanks erkunden",
+        "Die Lachszuchtanlage besichtigen",
+        "Meereslebewesen beobachten",
+        "Mehr über Alaskas Meeresökosysteme erfahren"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "bilim",
+        "akvaryum",
+        "aile"
       ],
       "en": [
-        "nature"
+        "nature",
+        "science",
+        "aquarium",
+        "family"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Wissenschaft",
+        "Aquarium",
+        "Familie"
       ]
     },
     "images": [
-      "https://example.com/sitka_science_center.jpg"
+      "https://sitkascience.org/sssc/wp-content/uploads/2024/07/SSSC-scaled.jpg",
+      "https://sitkascience.org/sssc/wp-content/uploads/2024/01/447A6444-1024x683.jpg"
     ]
   },
   {
-    "slug": "totem-park",
+    "slug": "sheldon-jackson-museum",
     "name": {
-      "tr": "Totem Park",
-      "en": "Totem Park",
-      "de": "Totem Park"
+      "tr": "Sheldon Jackson Müzesi",
+      "en": "Sheldon Jackson Museum",
+      "de": "Sheldon Jackson Museum"
     },
-    "latitude": 57.0506,
-    "longitude": -135.3293,
+    "latitude": 57.050543,
+    "longitude": -135.322232,
     "description": {
-      "tr": "Totem Park, Sitka'daki Tlingit halkının kültürünü ve tarihini keşfetmek için harika bir yerdir. Burada çok sayıda totem direği bulunmaktadır.",
-      "en": "Totem Park in Sitka is a great place to learn about the culture and history of the Tlingit people. The park contains numerous totem poles.",
-      "de": "Der Totem Park in Sitka ist ein großartiger Ort, um mehr über die Kultur und Geschichte der Tlingit zu erfahren. Der Park enthält zahlreiche Totempfähle."
+      "tr": "Sheldon Jackson Müzesi, Alaska'nın yerli halklarına ait kültürel mirası görmek isteyenler için Sitka'nın en önemli müzelerinden biridir. 1888'de kurulan müze, Alaska'nın en eski müzesi olarak kabul edilir ve bulunduğu yapı Alaska'daki ilk beton yapılardan biri olarak tarihi öneme sahiptir. Koleksiyonda Tlingit, Haida, Aleut, Yup'ik, Iñupiat ve Alaska'nın diğer yerli topluluklarına ait eserler bulunur. Totemler, maskeler, sepetler, geleneksel giysiler, oymalar, kanolar, baidarkalar ve çeşitli günlük kullanım eşyaları koleksiyonun dikkat çeken parçaları arasındadır. Müze yalnızca geçmişten kalan nesneleri sergilemekle kalmaz; yaz dönemindeki Native Artist Residency programları aracılığıyla Alaska'nın yerli sanat geleneklerinin günümüzde de devam ettiğini gösterir. Sitka National Historical Park ile şehir merkezi arasında yer aldığı için yürüyüş rotasına kolayca eklenebilir. Sitka'nın yerli kültürünü daha derin anlamak isteyen ziyaretçiler için güçlü bir kültürel duraktır.",
+      "en": "The Sheldon Jackson Museum is one of Sitka's most important cultural attractions for visitors interested in the heritage of Alaska Native peoples. Founded in 1888, it is recognized as Alaska's oldest museum and occupies a historically significant building noted as the first concrete structure built in Alaska. Its collection includes objects associated with Tlingit, Haida, Aleut, Yup'ik, Iñupiat and other Alaska Native cultures. Totem carvings, masks, baskets, traditional clothing, carved objects, kayaks, baidarkas and everyday tools are among the collection's highlights. The museum is not limited to preserving historical objects; its Native Artist Residency program also demonstrates how Alaska Native artistic traditions continue today. Located between downtown Sitka and Sitka National Historical Park, it is easy to include in a walking itinerary. For travelers who want to understand Sitka's Indigenous cultural heritage beyond the famous totem poles, the museum provides important context and a much broader view of Alaska Native craftsmanship.",
+      "de": "Das Sheldon Jackson Museum gehört zu den wichtigsten kulturellen Sehenswürdigkeiten Sitkas für Besucher, die sich für das Erbe der indigenen Bevölkerungsgruppen Alaskas interessieren. Das Museum wurde 1888 gegründet und gilt als ältestes Museum Alaskas. Auch sein Gebäude besitzt historische Bedeutung, da es als erstes Betongebäude Alaskas bezeichnet wird. Die Sammlung umfasst Objekte der Tlingit, Haida, Aleut, Yup'ik, Iñupiat und weiterer indigener Kulturen Alaskas. Zu den Höhepunkten gehören Totems, Masken, Körbe, traditionelle Kleidung, Schnitzarbeiten, Kajaks, Baidarkas und verschiedene Alltagsgegenstände. Das Museum bewahrt nicht nur historische Objekte, sondern unterstützt durch sein Native Artist Residency Program auch lebendige Kunsttraditionen der Alaska Natives. Durch seine Lage zwischen der Innenstadt und dem Sitka National Historical Park lässt es sich gut in einen Stadtrundgang integrieren. Wer die indigene Kultur Sitkas über die bekannten Totempfähle hinaus kennenlernen möchte, findet hier einen wichtigen und umfassenden kulturellen Zugang."
     },
     "activities": {
       "tr": [
-        "Totem direklerini görmek",
-        "Tlingit kültürünü öğrenmek"
+        "Alaska Yerli halklarının eserlerini incelemek",
+        "Totem ve maskeleri görmek",
+        "Geleneksel kıyafetleri keşfetmek",
+        "Kanoları ve baidarkaları görmek",
+        "Yerli sanat programlarını takip etmek"
       ],
       "en": [
-        "See totem poles",
-        "Learn about Tlingit culture"
+        "Explore Alaska Native artifacts",
+        "See totems and masks",
+        "Discover traditional clothing",
+        "View kayaks and baidarkas",
+        "Learn about Native art programs"
       ],
       "de": [
-        "Totempfähle sehen",
-        "Mehr über die Kultur der Tlingit erfahren"
+        "Artefakte der Alaska Natives erkunden",
+        "Totems und Masken ansehen",
+        "Traditionelle Kleidung entdecken",
+        "Kajaks und Baidarkas sehen",
+        "Programme indigener Künstler kennenlernen"
       ]
     },
     "categories": {
       "tr": [
-        "park"
+        "müze",
+        "kültür",
+        "tarih"
       ],
       "en": [
-        "park"
+        "museum",
+        "culture",
+        "historic"
       ],
       "de": [
-        "park"
+        "Museum",
+        "Kultur",
+        "Historisch"
       ]
     },
     "images": [
-      "https://example.com/totem_park.jpg"
+      "https://www.nps.gov/common/uploads/grid_builder/sitk/crop1_1/1A917E4F-A4D2-8841-556DB2FB900CD3B8.jpg?mode=crop&quality=90&width=640",
+      "https://www.travelalaska.com/sites/default/files/listing_images/profile/409/0-43ab4bf5129b4b7aaeded41f473a78ed_sheldonjacksonmuseumprofileadimage.jpg"
+    ]
+  },
+  {
+    "slug": "st-michaels-cathedral",
+    "name": {
+      "tr": "Aziz Michael Katedrali",
+      "en": "St. Michael's Cathedral",
+      "de": "St. Michael's Cathedral"
+    },
+    "latitude": 57.05,
+    "longitude": -135.335,
+    "description": {
+      "tr": "St. Michael's Cathedral, Sitka'nın Rus Ortodoks geçmişini simgeleyen ve şehir silüetinin en tanınabilir yapılarından biri olan tarihi bir katedraldir. İlk yapı 19. yüzyılda Rus-Amerikan döneminde inşa edilmiş, 1966 yılında çıkan büyük yangında tamamen yok olmuştur. Günümüzde görülen yapı, tarihi katedralin yeniden inşa edilmiş halidir ve yangından kurtarılan çok sayıda dini eser ile ikonu barındırır. Katedralin yeşil kubbesi ve soğan biçimli mimari detayları Sitka'nın Rus mirasını görsel olarak da yansıtır. İç mekânda Rus Ortodoks sanatına ait ikonlar, dini objeler ve tarihi eserler görülebilir. Yapı aktif bir ibadet mekânı olduğu için ziyaret saatleri ibadet programlarına göre değişebilir. Sitka'nın merkezinde bulunması sayesinde Castle Hill, Sitka History Museum ve diğer tarihi yapılarla birlikte yürüyerek ziyaret edilebilir. Şehrin Tlingit ve Rus-Amerikan tarihinin nasıl iç içe geçtiğini anlamak isteyenler için önemli bir duraktır.",
+      "en": "St. Michael's Cathedral is one of Sitka's most recognizable landmarks and an important symbol of the city's Russian Orthodox heritage. The original cathedral was built during the Russian-American period in the nineteenth century and was destroyed by a major fire in 1966. The present structure is a reconstruction of the historic cathedral and preserves numerous religious objects and icons that survived the fire. Its green dome and distinctive Orthodox architectural details are among the most recognizable features of downtown Sitka. Inside, visitors can see Russian Orthodox icons, religious objects and historic treasures. Because the cathedral remains an active place of worship, visitor access and tour times can vary according to services and the current schedule. Its central location makes it easy to combine with Castle Hill, the Sitka History Museum and other downtown historic sites. The cathedral is particularly valuable for understanding the Russian cultural and religious influence that became part of Sitka's layered history.",
+      "de": "Die St. Michael's Cathedral gehört zu den bekanntesten Wahrzeichen Sitkas und ist ein wichtiges Symbol für das russisch-orthodoxe Erbe der Stadt. Die ursprüngliche Kathedrale wurde im 19. Jahrhundert während der russisch-amerikanischen Zeit errichtet und 1966 bei einem großen Brand zerstört. Das heutige Gebäude ist eine Rekonstruktion der historischen Kathedrale und bewahrt zahlreiche religiöse Gegenstände und Ikonen, die das Feuer überstanden haben. Besonders auffällig sind die grüne Kuppel und die charakteristischen orthodoxen Architekturdetails. Im Inneren können Besucher russisch-orthodoxe Ikonen, religiöse Objekte und historische Schätze sehen. Da die Kathedrale weiterhin als aktive Kirche genutzt wird, können Besichtigungszeiten von Gottesdiensten und dem aktuellen Besuchsplan abhängen. Durch die zentrale Lage lässt sie sich gut mit Castle Hill, dem Sitka History Museum und weiteren historischen Sehenswürdigkeiten verbinden. Die Kathedrale vermittelt einen wichtigen Eindruck vom russischen kulturellen und religiösen Einfluss auf die Geschichte Sitkas."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etmek",
+        "Rus Ortodoks ikonlarını görmek",
+        "Mimariyi incelemek",
+        "Sitka'nın Rus geçmişini öğrenmek"
+      ],
+      "en": [
+        "Visit the cathedral",
+        "See Russian Orthodox icons",
+        "Explore the architecture",
+        "Learn about Sitka's Russian heritage"
+      ],
+      "de": [
+        "Die Kathedrale besuchen",
+        "Russisch-orthodoxe Ikonen sehen",
+        "Die Architektur erkunden",
+        "Sitkas russisches Erbe kennenlernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kültür",
+        "dini yapı"
+      ],
+      "en": [
+        "historic",
+        "culture",
+        "religious site"
+      ],
+      "de": [
+        "Historisch",
+        "Kultur",
+        "Religiös"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sitka%2C%20Alaska%20-%20St%20Michael%27s%20Orthodox%20Cathedral.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20St.%20Michael..jpg"
+    ]
+  },
+  {
+    "slug": "sitka-history-museum",
+    "name": {
+      "tr": "Sitka Tarih Müzesi",
+      "en": "Sitka History Museum",
+      "de": "Sitka History Museum"
+    },
+    "latitude": 57.0494663,
+    "longitude": -135.332123,
+    "description": {
+      "tr": "Sitka History Museum, şehrin Tlingit geçmişinden Rus-Amerikan dönemine ve Alaska'nın Amerika Birleşik Devletleri'ne devrinden modern döneme kadar uzanan tarihini bir arada görmek için önemli bir müzedir. Müze, Harrigan Centennial Hall içerisinde yer alır ve Sitka Historical Society tarafından işletilir. Koleksiyonlarında binlerce üç boyutlu eser, tarihi fotoğraf, belge, sanat eseri ve arşiv malzemesi bulunur. Sergiler Tlingit kültürünü, Rus-Amerikan ticaretini, Alaska'nın 1867'deki devrini, denizcilik tarihini, madenciliği, balıkçılığı ve Sitka'nın 20. yüzyıl gelişimini ele alır. Müzenin güçlü yönlerinden biri, şehirdeki diğer tarihi noktaları anlamak için gerekli arka planı sağlamasıdır. Castle Hill'de Alaska'nın devrini, Russian Bishop's House'da Rus dönemini veya St. Michael's Cathedral'de Ortodoks mirasını gördükten sonra buradaki sergiler bu hikâyeleri daha geniş bir çerçeveye oturtabilir. Downtown Sitka'daki konumu nedeniyle kısa şehir yürüyüşlerine kolayca eklenebilir.",
+      "en": "The Sitka History Museum is an important stop for understanding the city's history from its Tlingit heritage through the Russian-American period, the 1867 transfer of Alaska and the development of modern Sitka. The museum is located inside Harrigan Centennial Hall and is operated by the Sitka Historical Society. Its collections include thousands of three-dimensional artifacts, historic photographs, documents, works of art and archival materials. Exhibits explore Tlingit culture, Russian-American trade, the Alaska Purchase and transfer, maritime history, mining, fishing and Sitka's twentieth-century development. One of the museum's greatest strengths is the context it provides for the other historic sites around town. After visiting Castle Hill, the Russian Bishop's House or St. Michael's Cathedral, the museum can help connect those individual places into a broader historical story. Located in downtown Sitka, it is easy to add to a walking itinerary and can be particularly useful as an introductory stop before exploring the city's historic landmarks.",
+      "de": "Das Sitka History Museum ist ein wichtiger Anlaufpunkt, um die Geschichte der Stadt von ihrem Tlingit-Erbe über die russisch-amerikanische Zeit und die Übergabe Alaskas im Jahr 1867 bis zur Entwicklung des modernen Sitkas zu verstehen. Das Museum befindet sich im Harrigan Centennial Hall und wird von der Sitka Historical Society betrieben. Die Sammlung umfasst Tausende dreidimensionale Objekte, historische Fotografien, Dokumente, Kunstwerke und Archivmaterialien. Die Ausstellungen behandeln unter anderem die Tlingit-Kultur, den russisch-amerikanischen Handel, den Alaska-Kauf und die Übergabe, die Seefahrtsgeschichte, Bergbau, Fischerei und die Entwicklung Sitkas im 20. Jahrhundert. Besonders wertvoll ist der historische Kontext, den das Museum für andere Sehenswürdigkeiten der Stadt bietet. Nach einem Besuch von Castle Hill, dem Russian Bishop's House oder der St. Michael's Cathedral lassen sich die einzelnen historischen Orte hier zu einer größeren Geschichte verbinden. Aufgrund der zentralen Lage eignet sich das Museum gut als Bestandteil eines Rundgangs durch die Innenstadt."
+    },
+    "activities": {
+      "tr": [
+        "Sitka tarihini keşfetmek",
+        "Tlingit eserlerini incelemek",
+        "Rus-Amerikan dönemini öğrenmek",
+        "Tarihi fotoğrafları görmek",
+        "Alaska'nın 1867 devrini anlamak"
+      ],
+      "en": [
+        "Explore Sitka's history",
+        "View Tlingit artifacts",
+        "Learn about the Russian-American period",
+        "See historic photographs",
+        "Learn about the 1867 Alaska transfer"
+      ],
+      "de": [
+        "Sitkas Geschichte erkunden",
+        "Tlingit-Artefakte ansehen",
+        "Die russisch-amerikanische Zeit kennenlernen",
+        "Historische Fotografien betrachten",
+        "Mehr über die Übergabe Alaskas 1867 erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "tarih",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "historic",
+        "culture"
+      ],
+      "de": [
+        "Museum",
+        "Historisch",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Estatua%20de%20Alexander%20Baranof%2C%20gobernador%20de%20la%20Am%C3%A9rica%20Rusa%20%28Museo%20de%20Historia%20de%20Sitka%29..jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Placa%20de%20posesi%C3%B3n%20rusa%20%28Sitka%20History%20Museum%29..jpg"
     ]
   }
 ]

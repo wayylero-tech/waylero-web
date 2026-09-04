@@ -6,40 +6,63 @@
       "en": "Mole Antonelliana",
       "de": "Mole Antonelliana"
     },
-    "latitude": 45.0703,
-    "longitude": 7.6869,
+    "latitude": 45.06898,
+    "longitude": 7.69327,
     "description": {
-      "tr": "Mole Antonelliana, Torino'nun en yüksek yapısıdır ve şehri panoramik bir açıdan görmenizi sağlar. Ayrıca, içinde sinema müzesi bulunmaktadır.",
-      "en": "Mole Antonelliana is the tallest building in Turin and offers a panoramic view of the city. It also houses the Cinema Museum.",
-      "de": "Die Mole Antonelliana ist das höchste Gebäude in Turin und bietet einen Panoramablick auf die Stadt. Außerdem beherbergt es das Filmmuseum."
+      "tr": "Mole Antonelliana, Torino'nun en tanınmış simgesi ve şehrin silüetini belirleyen görkemli bir yapıdır. Alessandro Antonelli tarafından tasarlanan yapı 1863 yılında sinagog olarak planlanmış, daha sonra Torino Belediyesi tarafından devralınarak anıtsal bir yapıya dönüştürülmüş ve 1889'da tamamlanmıştır. Günümüzde 167 metreye ulaşan yapı, Museo Nazionale del Cinema'ya ev sahipliği yapar. Ziyaretçiler panoramik asansörle 85 metre yükseklikteki terasa çıkarak Torino'nun tarihi merkezini, Po Nehri'ni ve açık havalarda Alpler'i görebilir.",
+      "en": "Mole Antonelliana is Turin's most recognizable landmark and one of the defining features of the city's skyline. Designed by Alessandro Antonelli, it was originally conceived as a synagogue in 1863 before being taken over by the Municipality of Turin and completed as a monumental structure in 1889. Today, the 167-metre building houses the Museo Nazionale del Cinema. Visitors can take the panoramic lift to the terrace 85 metres above the ground for views across historic Turin, the Po River and, on clear days, the Alps.",
+      "de": "Die Mole Antonelliana ist das bekannteste Wahrzeichen Turins und prägt die Silhouette der Stadt. Das von Alessandro Antonelli entworfene Bauwerk wurde 1863 ursprünglich als Synagoge geplant, später von der Stadt Turin übernommen und 1889 als monumentales Gebäude fertiggestellt. Heute beherbergt das 167 Meter hohe Bauwerk das Museo Nazionale del Cinema. Mit dem Panoramalift können Besucher zur 85 Meter hoch gelegenen Terrasse fahren und den Blick über das historische Turin, den Po und bei klarer Sicht bis zu den Alpen genießen."
     },
     "activities": {
       "tr": [
-        "Gözlem terasından şehri izleme",
-        "Sinema müzesini gezme"
+        "Museo Nazionale del Cinema'yı ziyaret etme",
+        "Panoramik asansörle terasa çıkma",
+        "Torino manzarasını seyretme",
+        "Alessandro Antonelli'nin mimarisini keşfetme",
+        "Sinema tarihi sergilerini inceleme"
       ],
       "en": [
-        "Enjoy the city view from the observation deck",
-        "Visit the cinema museum"
+        "Visit the Museo Nazionale del Cinema",
+        "Take the panoramic lift to the terrace",
+        "Enjoy views over Turin",
+        "Explore Alessandro Antonelli's architecture",
+        "Discover the history of cinema"
       ],
       "de": [
-        "Genießen Sie den Blick auf die Stadt von der Aussichtsplattform",
-        "Das Filmmuseum besuchen"
+        "Das Museo Nazionale del Cinema besuchen",
+        "Mit dem Panoramalift zur Terrasse fahren",
+        "Den Blick über Turin genießen",
+        "Die Architektur von Alessandro Antonelli entdecken",
+        "Die Geschichte des Kinos erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "şehir simgesi"
+        "şehir simgesi",
+        "mimari",
+        "müze",
+        "manzara",
+        "tarih"
       ],
       "en": [
-        "city landmark"
+        "city landmark",
+        "architecture",
+        "museum",
+        "viewpoint",
+        "history"
       ],
       "de": [
-        "Wahrzeichen der Stadt"
+        "Wahrzeichen",
+        "Architektur",
+        "Museum",
+        "Aussichtspunkt",
+        "Geschichte"
       ]
     },
     "images": [
-      "https://example.com/mole_antonelliana.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mole%20Antonelliana%20in%20Turin.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mole%20Antonelliana%20Torino.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2026-06-10-Mole-Antonelliana.jpg"
     ]
   },
   {
@@ -49,40 +72,256 @@
       "en": "Royal Palace of Turin",
       "de": "Königspalast von Turin"
     },
-    "latitude": 45.0702,
-    "longitude": 7.6841,
+    "latitude": 45.07278,
+    "longitude": 7.68639,
     "description": {
-      "tr": "Torino Kraliyet Sarayı, İtalya'nın en önemli tarihî yapılarından biri olup, barok tarzında inşa edilmiştir ve UNESCO Dünya Mirası listesindedir.",
-      "en": "The Royal Palace of Turin is one of Italy's most important historical buildings, built in Baroque style and listed as a UNESCO World Heritage site.",
-      "de": "Der Königspalast von Turin ist eines der wichtigsten historischen Gebäude Italiens, im Barockstil erbaut und als UNESCO-Weltkulturerbe gelistet."
+      "tr": "Torino Kraliyet Sarayı (Palazzo Reale), Savoy Hanedanı'nın Torino'daki ana ikametgâhı ve şehrin tarihî merkezindeki en önemli saraylardan biridir. Saray, 17. ve 18. yüzyıllarda Torino'nun Savoy yönetiminin merkezi olarak yeniden şekillendirilmesinde önemli rol oynamıştır. Günümüzde Musei Reali'nin bir parçası olan kompleks; görkemli devlet odaları, Kraliyet Cephaneliği, Galleria Sabauda ve diğer tarihî bölümleriyle ziyaret edilebilir. Saray, 1997 yılında UNESCO Dünya Mirası Listesi'ne alınan Savoy Hanedanı Kraliyet Konutları serisinin bir bileşenidir.",
+      "en": "The Royal Palace of Turin, or Palazzo Reale, was the principal residence of the House of Savoy in Turin and is one of the most important palaces in the city's historic centre. The palace played a central role in the transformation of Turin into the political and ceremonial centre of the Savoy dynasty during the 17th and 18th centuries. Today it forms part of the Musei Reali complex, with lavish state rooms, the Royal Armoury, the Galleria Sabauda and other historic spaces open to visitors. The palace is one of the components of the Residences of the Royal House of Savoy, inscribed on the UNESCO World Heritage List in 1997.",
+      "de": "Der Königspalast von Turin, Palazzo Reale, war die wichtigste Residenz des Hauses Savoyen in Turin und gehört zu den bedeutendsten Palästen im historischen Zentrum der Stadt. Im 17. und 18. Jahrhundert spielte der Palast eine zentrale Rolle bei der Entwicklung Turins zum politischen und zeremoniellen Zentrum der Savoyer. Heute ist er Teil des Musei-Reali-Komplexes mit prachtvollen Prunksälen, der Königlichen Rüstkammer, der Galleria Sabauda und weiteren historischen Bereichen. Der Palast gehört zu den Residenzen des Hauses Savoyen, die 1997 in die UNESCO-Welterbeliste aufgenommen wurden."
     },
     "activities": {
       "tr": [
-        "Saray içinde gezme",
-        "Bahçelerde dolaşma"
+        "Sarayın tarihî odalarını gezme",
+        "Kraliyet Cephaneliği'ni ziyaret etme",
+        "Galleria Sabauda'yı keşfetme",
+        "Saray bahçelerinde yürüyüş",
+        "Savoy Hanedanı tarihini keşfetme",
+        "UNESCO mirasını inceleme"
       ],
       "en": [
-        "Tour the palace",
-        "Stroll through the gardens"
+        "Explore the historic rooms",
+        "Visit the Royal Armoury",
+        "Explore the Galleria Sabauda",
+        "Walk through the palace gardens",
+        "Discover the history of the House of Savoy",
+        "Explore the UNESCO heritage"
       ],
       "de": [
-        "Den Palast besichtigen",
-        "Durch die Gärten spazieren"
+        "Die historischen Räume besichtigen",
+        "Die Königliche Rüstkammer besuchen",
+        "Die Galleria Sabauda erkunden",
+        "Durch die Schlossgärten spazieren",
+        "Die Geschichte des Hauses Savoyen entdecken",
+        "Das UNESCO-Erbe erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "saray",
+        "tarih",
+        "mimari",
+        "UNESCO",
+        "müze"
       ],
       "en": [
-        "historic"
+        "palace",
+        "history",
+        "architecture",
+        "UNESCO",
+        "museum"
       ],
       "de": [
-        "Historisch"
+        "Palast",
+        "Geschichte",
+        "Architektur",
+        "UNESCO",
+        "Museum"
       ]
     },
     "images": [
-      "https://example.com/royal_palace_torino.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2026-06-10-Palazzo-Reale-di-Torino.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/PalazzoRealeTorino.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Torino-PalazzoReale.jpg"
+    ]
+  },
+  {
+    "slug": "museo-egizio-torino",
+    "name": {
+      "tr": "Torino Mısır Müzesi",
+      "en": "Egyptian Museum of Turin",
+      "de": "Ägyptisches Museum Turin"
+    },
+    "latitude": 45.0685,
+    "longitude": 7.6848,
+    "description": {
+      "tr": "Torino Mısır Müzesi, Antik Mısır uygarlığına adanmış dünyanın en önemli müzelerinden biridir. Müzenin koleksiyonunda heykeller, papirüsler, mezar eşyaları, mumyalar ve günlük yaşama ait çok sayıda arkeolojik eser bulunur. 1824 yılında kurulan müze, Torino'nun kültürel mirasının en önemli parçalarından biridir ve Mısır tarihi ile arkeolojisine ilgi duyan ziyaretçiler için şehrin mutlaka görülmesi gereken durakları arasındadır.",
+      "en": "The Egyptian Museum of Turin is one of the world's most important museums dedicated to Ancient Egyptian civilization. Its collections include statues, papyri, funerary objects, mummies and numerous archaeological artifacts documenting different aspects of Egyptian life and history. Founded in 1824, the museum is one of Turin's major cultural institutions and an essential stop for visitors interested in Egyptian archaeology and ancient history.",
+      "de": "Das Ägyptische Museum Turin gehört zu den bedeutendsten Museen der Welt, die der altägyptischen Zivilisation gewidmet sind. Die Sammlungen umfassen Statuen, Papyri, Grabbeigaben, Mumien und zahlreiche archäologische Objekte aus verschiedenen Bereichen des ägyptischen Lebens. Das 1824 gegründete Museum zählt zu den wichtigsten Kultureinrichtungen Turins und ist ein bedeutendes Ziel für alle, die sich für altägyptische Geschichte und Archäologie interessieren."
+    },
+    "activities": {
+      "tr": [
+        "Antik Mısır eserlerini inceleme",
+        "Mumyaları ve heykelleri görme",
+        "Papirüs koleksiyonlarını keşfetme",
+        "Arkeoloji galerilerini gezme",
+        "Antik Mısır tarihi hakkında bilgi edinme"
+      ],
+      "en": [
+        "Explore Ancient Egyptian artifacts",
+        "See mummies and statues",
+        "Discover the papyrus collections",
+        "Visit the archaeological galleries",
+        "Learn about Ancient Egyptian history"
+      ],
+      "de": [
+        "Altägyptische Artefakte entdecken",
+        "Mumien und Statuen besichtigen",
+        "Papyrussammlungen erkunden",
+        "Archäologische Galerien besuchen",
+        "Mehr über die altägyptische Geschichte erfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "arkeoloji",
+        "tarih",
+        "antik mısır",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "archaeology",
+        "history",
+        "ancient Egypt",
+        "culture"
+      ],
+      "de": [
+        "Museum",
+        "Archäologie",
+        "Geschichte",
+        "Altes Ägypten",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Museo%20Egizio%20Turin.jpg"
+    ]
+  },
+  {
+    "slug": "palazzo-carignano",
+    "name": {
+      "tr": "Palazzo Carignano",
+      "en": "Palazzo Carignano",
+      "de": "Palazzo Carignano"
+    },
+    "latitude": 45.06831,
+    "longitude": 7.68652,
+    "description": {
+      "tr": "Palazzo Carignano, Torino'nun Barok mimarisinin en dikkat çekici örneklerinden biri ve İtalya'nın siyasi tarihinde önemli bir yapıdır. Guarino Guarini tarafından tasarlanan saray, 17. yüzyılda inşa edilmiştir. Yapı, İtalya'nın birleşme sürecinde önemli siyasi gelişmelere ev sahipliği yapmış ve ilk İtalyan Parlamentosu'nun toplandığı yerlerden biri olmuştur. Günümüzde Museo Nazionale del Risorgimento Italiano'ya ev sahipliği yaparak İtalya'nın birleşme tarihini anlatan önemli koleksiyonları barındırır.",
+      "en": "Palazzo Carignano is one of Turin's finest examples of Baroque architecture and an important site in Italian political history. Designed by Guarino Guarini and built in the 17th century, the palace played a significant role during the Italian unification period and was associated with the first Italian Parliament. Today it houses the Museo Nazionale del Risorgimento Italiano, whose collections explore the history of the Italian Risorgimento.",
+      "de": "Der Palazzo Carignano gehört zu den herausragendsten Beispielen der Barockarchitektur in Turin und ist ein bedeutender Ort der italienischen politischen Geschichte. Der von Guarino Guarini entworfene Palast wurde im 17. Jahrhundert errichtet und spielte während der italienischen Einigung eine wichtige Rolle. Heute beherbergt er das Museo Nazionale del Risorgimento Italiano mit bedeutenden Sammlungen zur Geschichte des Risorgimento."
+    },
+    "activities": {
+      "tr": [
+        "Barok mimariyi inceleme",
+        "Risorgimento Müzesi'ni ziyaret etme",
+        "İtalya'nın birleşme tarihini keşfetme",
+        "Tarihî saray cephesini fotoğraflama"
+      ],
+      "en": [
+        "Admire Baroque architecture",
+        "Visit the Risorgimento Museum",
+        "Explore the history of Italian unification",
+        "Photograph the historic palace facade"
+      ],
+      "de": [
+        "Barocke Architektur bewundern",
+        "Das Risorgimento-Museum besuchen",
+        "Die Geschichte der italienischen Einigung entdecken",
+        "Die historische Palastfassade fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "saray",
+        "mimari",
+        "tarih",
+        "müze",
+        "Barok"
+      ],
+      "en": [
+        "palace",
+        "architecture",
+        "history",
+        "museum",
+        "Baroque"
+      ],
+      "de": [
+        "Palast",
+        "Architektur",
+        "Geschichte",
+        "Museum",
+        "Barock"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Carignano%20Torino.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Carignano%20%285995073911%29.jpg"
+    ]
+  },
+  {
+    "slug": "basilica-di-superga",
+    "name": {
+      "tr": "Superga Bazilikası",
+      "en": "Basilica of Superga",
+      "de": "Basilika von Superga"
+    },
+    "latitude": 45.08045,
+    "longitude": 7.76761,
+    "description": {
+      "tr": "Superga Bazilikası, Torino'nun doğusundaki Superga Tepesi üzerinde yer alan görkemli bir 18. yüzyıl bazilikasıdır. Filippo Juvarra tarafından tasarlanan yapı, Savoy Hanedanı'nın önemli tarihî yapılarından biri olarak kabul edilir. Tepedeki konumu sayesinde Torino ve çevresindeki Alpler üzerinde geniş panoramik manzaralar sunar. Bazilikanın kraliyet mezarları ve tarihî önemi, burayı Torino şehir merkezinin dışında ziyaret edilebilecek en önemli kültür duraklarından biri haline getirir.",
+      "en": "The Basilica of Superga is a magnificent 18th-century basilica standing on Superga Hill east of Turin. Designed by Filippo Juvarra, it is an important historic monument associated with the House of Savoy. Its elevated position provides extensive panoramic views over Turin and the surrounding Alps. The royal tombs and historical importance of the basilica make it one of the most significant cultural attractions outside Turin's city centre.",
+      "de": "Die Basilika von Superga ist eine prächtige Basilika aus dem 18. Jahrhundert auf dem Superga-Hügel östlich von Turin. Sie wurde von Filippo Juvarra entworfen und gehört zu den bedeutenden historischen Bauwerken des Hauses Savoyen. Dank ihrer erhöhten Lage bietet sie einen weiten Panoramablick über Turin und die umliegenden Alpen. Die königlichen Grabstätten und die historische Bedeutung machen die Basilika zu einem wichtigen Ausflugsziel außerhalb des Stadtzentrums."
+    },
+    "activities": {
+      "tr": [
+        "Bazilikayı ziyaret etme",
+        "Kraliyet mezarlarını görme",
+        "Torino manzarasını seyretme",
+        "Alpler manzarasını fotoğraflama",
+        "Filippo Juvarra'nın mimarisini keşfetme"
+      ],
+      "en": [
+        "Visit the basilica",
+        "See the royal tombs",
+        "Enjoy views over Turin",
+        "Photograph the Alps",
+        "Admire Filippo Juvarra's architecture"
+      ],
+      "de": [
+        "Die Basilika besichtigen",
+        "Die königlichen Grabstätten sehen",
+        "Den Blick über Turin genießen",
+        "Die Alpen fotografieren",
+        "Die Architektur von Filippo Juvarra bewundern"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "bazilika",
+        "tarih",
+        "mimari",
+        "manzara",
+        "dini yapı"
+      ],
+      "en": [
+        "basilica",
+        "history",
+        "architecture",
+        "viewpoint",
+        "religious site"
+      ],
+      "de": [
+        "Basilika",
+        "Geschichte",
+        "Architektur",
+        "Aussichtspunkt",
+        "Sakralbau"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica-Superga-Turin.jpg"
     ]
   }
 ]

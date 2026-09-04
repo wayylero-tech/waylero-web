@@ -6,126 +6,189 @@
       "en": "Kazan Kremlin",
       "de": "Kasaner Kreml"
     },
-    "latitude": 55.796,
-    "longitude": 49.107,
+    "latitude": 55.79945,
+    "longitude": 49.10646,
     "description": {
-      "tr": "Kazan Kremlini, Kazan şehrinin kalbinde yer alan tarihi bir yapıdır. UNESCO Dünya Mirası Listesi'nde yer alan bu kale, Tataristan’ın simgesidir.\n",
-      "en": "The Kazan Kremlin is a historic structure located in the heart of Kazan. It is a UNESCO World Heritage Site and a symbol of Tatarstan.\n",
-      "de": "Der Kasaner Kreml ist ein historisches Bauwerk im Herzen von Kasan. Es gehört zum UNESCO-Weltkulturerbe und ist ein Symbol Tatarstans.\n"
+      "tr": "Kazan Kremlini, Tataristan'ın başkenti Kazan'ın tarihî merkezinde yer alan ve 2000 yılında UNESCO Dünya Mirası Listesi'ne alınan önemli bir tarihî komplekstir. Kökenleri Volga Bulgarları, Altın Orda ve Kazan Hanlığı dönemlerine kadar uzanan Kremlin, 1552 yılında Kazan'ın Ruslar tarafından ele geçirilmesinin ardından yeniden şekillendirilmiştir. Beyaz taş surları, kuleleri, Qolşärif Camii, Müjde Katedrali ve Süyümbike Kulesi gibi farklı dönemlere ait yapılarıyla Tatar, İslam ve Rus mimari geleneklerinin bir arada görülebildiği eşsiz bir kültürel miras alanıdır.",
+      "en": "The Kazan Kremlin is a historic complex in the centre of Kazan and was inscribed on the UNESCO World Heritage List in 2000. Its origins extend through the history of Volga Bulgaria, the Golden Horde and the Kazan Khanate, while the present ensemble was largely reshaped after the Russian conquest of Kazan in 1552. With its white-stone walls, towers, Kul Sharif Mosque, Annunciation Cathedral and Söyembikä Tower, the Kremlin represents a remarkable combination of Tatar, Islamic and Russian architectural traditions.",
+      "de": "Der Kasaner Kreml ist ein historischer Komplex im Zentrum von Kasan und wurde im Jahr 2000 in die UNESCO-Welterbeliste aufgenommen. Seine Geschichte reicht bis in die Zeit der Wolgabulgaren, der Goldenen Horde und des Kasaner Khanats zurück. Nach der Eroberung Kasans durch die Russen im Jahr 1552 wurde das Ensemble weitgehend neu gestaltet. Mit seinen weißen Steinmauern, Türmen, der Kul-Scharif-Moschee, der Mariä-Verkündigungs-Kathedrale und dem Sjujumbike-Turm verbindet der Kreml tatarische, islamische und russische Architekturtraditionen."
     },
     "activities": {
       "tr": [
-        "Kremlin’i gezme",
-        "Tatar kültürü hakkında bilgi edinme"
+        "Kremlin surlarını ve kulelerini keşfetme",
+        "Qolşärif Camii'ni ziyaret etme",
+        "Müjde Katedrali'ni görme",
+        "Süyümbike Kulesi'ni inceleme",
+        "Tataristan tarihini keşfetme",
+        "Tarihî yapıları fotoğraflama"
       ],
       "en": [
-        "Tour the Kremlin",
-        "Learn about Tatar culture"
+        "Explore the Kremlin walls and towers",
+        "Visit the Kul Sharif Mosque",
+        "See the Annunciation Cathedral",
+        "Admire the Söyembikä Tower",
+        "Discover the history of Tatarstan",
+        "Photograph the historic architecture"
       ],
       "de": [
-        "Den Kreml besichtigen",
-        "Mehr über die tatarische Kultur erfahren"
+        "Die Mauern und Türme des Kremls erkunden",
+        "Die Kul-Scharif-Moschee besuchen",
+        "Die Mariä-Verkündigungs-Kathedrale besichtigen",
+        "Den Sjujumbike-Turm bewundern",
+        "Die Geschichte Tatarstans entdecken",
+        "Die historische Architektur fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "UNESCO",
+        "tarihi yapı",
+        "kale",
+        "kültür",
+        "mimari"
       ],
       "en": [
-        "historic"
+        "UNESCO",
+        "historic site",
+        "fortress",
+        "culture",
+        "architecture"
       ],
       "de": [
-        "Historisch"
+        "UNESCO",
+        "historische Stätte",
+        "Festung",
+        "Kultur",
+        "Architektur"
       ]
     },
     "images": [
-      "https://example.com/kazan_kremlin.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kazan%20Kremlin.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kazan%20Kremlin%20and%20Kul%20Sharif%20Mosque.jpg"
     ]
   },
   {
-    "slug": "qols-rif-camii",
+    "slug": "qolsharif-camii",
     "name": {
       "tr": "Qolşärif Camii",
-      "en": "Qolşärif Mosque",
+      "en": "Kul Sharif Mosque",
       "de": "Kul-Scharif-Moschee"
     },
-    "latitude": 55.792,
-    "longitude": 49.106,
+    "latitude": 55.79831,
+    "longitude": 49.10519,
     "description": {
-      "tr": "Qolşärif Camii, Kazan Kremlininde yer alan ve Rusya'nın en büyük camilerinden biri olan tarihi bir yapıdır. Hem dini hem de mimari bir hazinedir.\n",
-      "en": "The Qolşärif Mosque, located in the Kazan Kremlin, is one of the largest mosques in Russia. It is both a religious and architectural treasure.\n",
-      "de": "Die Kul-Scharif-Moschee, die sich im Kasaner Kreml befindet, ist eine der größten Moscheen Russlands. Sie ist sowohl ein religiöser als auch architektonischer Schatz.\n"
+      "tr": "Qolşärif Camii, Kazan Kremlini'nin içinde yükselen ve günümüz Tataristan'ının en tanınmış İslami mimari sembollerinden biri olan görkemli bir camidir. Bugünkü yapı 1996-2005 yılları arasında inşa edilmiştir ve adını 1552 yılında Kazan'ın düşüşü sırasında hayatını kaybeden din adamı Qolşärif'ten alır. Beyaz taş cephesi, merkezi kubbesi ve dört ana minaresiyle dikkat çeken cami, Kazan'ın çok kültürlü tarihinin önemli sembollerinden biridir.",
+      "en": "The Kul Sharif Mosque is a monumental mosque within the Kazan Kremlin and one of the best-known symbols of Islamic architecture in modern Tatarstan. The present building was constructed between 1996 and 2005 and takes its name from Qol Sharif, a religious figure who died during the fall of Kazan in 1552. Its white-stone exterior, central dome and four main minarets make it one of the most recognizable landmarks of Kazan.",
+      "de": "Die Kul-Scharif-Moschee ist eine monumentale Moschee innerhalb des Kasaner Kremls und eines der bekanntesten Symbole der islamischen Architektur im heutigen Tatarstan. Das heutige Gebäude wurde zwischen 1996 und 2005 errichtet und nach Qol Scharif benannt, einem Geistlichen, der beim Fall Kasans im Jahr 1552 ums Leben kam. Die Fassade aus weißem Stein, die zentrale Kuppel und die vier Hauptminarette prägen das Erscheinungsbild der Moschee."
     },
     "activities": {
       "tr": [
         "Camiyi ziyaret etme",
-        "Mimarisine hayran kalma"
+        "İslam mimarisini inceleme",
+        "Kremlin içindeki konumunu keşfetme",
+        "İç mekân süslemelerini görme",
+        "Fotoğraf çekme"
       ],
       "en": [
         "Visit the mosque",
-        "Admire its architecture"
+        "Admire Islamic architecture",
+        "Explore its location within the Kremlin",
+        "See the interior decoration",
+        "Take photographs"
       ],
       "de": [
         "Die Moschee besuchen",
-        "Die Architektur bewundern"
+        "Islamische Architektur bewundern",
+        "Die Lage innerhalb des Kremls erkunden",
+        "Die Innenausstattung betrachten",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "cami"
+        "cami",
+        "mimari",
+        "dini yapı",
+        "kültür"
       ],
       "en": [
-        "mosque"
+        "mosque",
+        "architecture",
+        "religious site",
+        "culture"
       ],
       "de": [
-        "Moschee"
+        "Moschee",
+        "Architektur",
+        "Sakralbau",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/qolsharif_mosque.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Qol%20Sharif%20Mosque%20Kazan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kul%20Sharif%20Mosque%20Kazan.jpg"
     ]
   },
   {
-    "slug": "kazan-katedrali",
+    "slug": "mujde-katedrali-kazan",
     "name": {
-      "tr": "Kazan Katedrali",
-      "en": "Kazan Cathedral",
-      "de": "Kasaner Kathedrale"
+      "tr": "Müjde Katedrali",
+      "en": "Annunciation Cathedral of Kazan",
+      "de": "Mariä-Verkündigungs-Kathedrale von Kasan"
     },
-    "latitude": 55.796,
-    "longitude": 49.106,
+    "latitude": 55.79888,
+    "longitude": 49.10622,
     "description": {
-      "tr": "Kazan Katedrali, Rus Ortodoks kilisesinin önemli yapılarından biridir. İç mekanındaki süslemeleri ve tarihi atmosferi ile dikkat çeker.\n",
-      "en": "The Kazan Cathedral is an important structure of the Russian Orthodox Church. It is known for its interior decorations and historic ambiance.\n",
-      "de": "Die Kasaner Kathedrale ist ein wichtiges Bauwerk der russisch-orthodoxen Kirche. Sie ist für ihre Innenverzierungen und historische Atmosphäre bekannt.\n"
+      "tr": "Müjde Katedrali, Kazan Kremlini'nin içindeki en önemli tarihî yapılardan biridir. 16. yüzyılda Kazan'ın Ruslar tarafından ele geçirilmesinden sonra inşa edilen katedral, Kremlin'deki Ortodoks mimarisinin en önemli örneklerinden biri olarak günümüze ulaşmıştır. Beyaz taş duvarları, kubbeleri ve tarihî ikonalarıyla dikkat çeken yapı, Qolşärif Camii ile birlikte Kazan'ın farklı dini ve kültürel geleneklerinin aynı tarihî alanda buluşmasını gösterir.",
+      "en": "The Annunciation Cathedral is one of the most important historic buildings within the Kazan Kremlin. Built after the Russian conquest of Kazan in the 16th century, it became one of the principal examples of Orthodox architecture within the Kremlin. Its white-stone walls, domes and historic icons form an important part of Kazan's religious heritage and, together with the Kul Sharif Mosque, illustrate the coexistence of different cultural traditions within the historic complex.",
+      "de": "Die Mariä-Verkündigungs-Kathedrale gehört zu den bedeutendsten historischen Bauwerken im Kasaner Kreml. Sie wurde nach der russischen Eroberung Kasans im 16. Jahrhundert errichtet und entwickelte sich zu einem wichtigen Beispiel orthodoxer Architektur innerhalb des Kremls. Ihre weißen Steinmauern, Kuppeln und historischen Ikonen sind ein bedeutender Teil des religiösen Erbes Kasans und zeigen zusammen mit der Kul-Scharif-Moschee die Verbindung verschiedener kultureller Traditionen."
     },
     "activities": {
       "tr": [
-        "Katedralde gezinti yapma",
-        "Dini atmosferi hissetme"
+        "Katedrali ziyaret etme",
+        "Ortodoks mimarisini inceleme",
+        "Tarihî ikonaları görme",
+        "Kremlin tarihini keşfetme",
+        "Mimari fotoğrafçılık"
       ],
       "en": [
-        "Wander inside the cathedral",
-        "Experience the religious ambiance"
+        "Visit the cathedral",
+        "Admire Orthodox architecture",
+        "See historic icons",
+        "Explore the history of the Kremlin",
+        "Architectural photography"
       ],
       "de": [
-        "In der Kathedrale spazieren gehen",
-        "Die religiöse Atmosphäre erleben"
+        "Die Kathedrale besichtigen",
+        "Orthodoxe Architektur bewundern",
+        "Historische Ikonen sehen",
+        "Die Geschichte des Kremls entdecken",
+        "Architekturfotografie"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "katedral",
+        "tarih",
+        "dini yapı",
+        "mimari"
       ],
       "en": [
-        "church"
+        "cathedral",
+        "history",
+        "religious site",
+        "architecture"
       ],
       "de": [
-        "kirche"
+        "Kathedrale",
+        "Geschichte",
+        "Sakralbau",
+        "Architektur"
       ]
     },
     "images": [
-      "https://example.com/kazan_cathedral.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Annunciation%20Cathedral%20Kazan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kazan%20Annunciation%20Cathedral.jpg"
     ]
   },
   {
@@ -135,83 +198,253 @@
       "en": "Bauman Street",
       "de": "Bauman-Straße"
     },
-    "latitude": 55.795,
-    "longitude": 49.105,
+    "latitude": 55.7872,
+    "longitude": 49.1220,
     "description": {
-      "tr": "Bauman Caddesi, Kazan’ın en ünlü alışveriş caddelerinden biridir. Burada geleneksel pazarlar ve modern alışveriş merkezleri bulunur.\n",
-      "en": "Bauman Street is one of Kazan's most famous shopping streets. It features traditional markets and modern shopping centers.\n",
-      "de": "Die Bauman-Straße ist eine der bekanntesten Einkaufsstraßen Kasans. Sie bietet traditionelle Märkte und moderne Einkaufszentren.\n"
+      "tr": "Bauman Caddesi, Kazan'ın merkezindeki en önemli yaya caddelerinden biridir ve Kremlin çevresinden başlayarak şehir merkezine doğru uzanır. Tarihî binalar, mağazalar, kafeler, restoranlar, sokak sanatçıları ve çeşitli anıtlarla çevrili cadde, Kazan'ın günlük şehir yaşamını görmek için ideal yerlerden biridir. Özellikle akşam saatlerinde hareketlenen Bauman Caddesi, yürüyüş yapmak ve şehir atmosferini deneyimlemek isteyen ziyaretçiler için popüler bir duraktır.",
+      "en": "Bauman Street is one of the main pedestrian streets in central Kazan, extending from the area near the Kremlin toward the heart of the city. Lined with historic buildings, shops, cafés, restaurants, street performers and monuments, it is a lively place to experience everyday city life in Kazan. The street becomes particularly atmospheric in the evening and is a popular destination for walking and exploring the city centre.",
+      "de": "Die Bauman-Straße gehört zu den wichtigsten Fußgängerstraßen im Zentrum von Kasan und führt vom Bereich nahe dem Kreml in Richtung Stadtzentrum. Historische Gebäude, Geschäfte, Cafés, Restaurants, Straßenkünstler und Denkmäler prägen das Straßenbild. Besonders am Abend herrscht hier eine lebendige Atmosphäre, weshalb die Straße zu den beliebten Orten für Spaziergänge und Stadterkundungen gehört."
     },
     "activities": {
       "tr": [
-        "Alışveriş yapma",
-        "Caddede yürüyüş yapma"
+        "Yaya caddesinde yürüyüş",
+        "Kafeleri ve restoranları keşfetme",
+        "Tarihî binaları inceleme",
+        "Sokak sanatçılarını izleme",
+        "Fotoğraf çekme",
+        "Alışveriş yapma"
       ],
       "en": [
-        "Go shopping",
-        "Stroll along the street"
+        "Walk along the pedestrian street",
+        "Explore cafés and restaurants",
+        "Admire historic buildings",
+        "Watch street performers",
+        "Take photographs",
+        "Go shopping"
       ],
       "de": [
-        "Einkaufen gehen",
-        "Die Straße entlang schlendern"
+        "Durch die Fußgängerzone spazieren",
+        "Cafés und Restaurants entdecken",
+        "Historische Gebäude bewundern",
+        "Straßenkünstler beobachten",
+        "Fotografieren",
+        "Einkaufen"
       ]
     },
     "categories": {
       "tr": [
-        "şehir turu"
+        "yaya caddesi",
+        "şehir turu",
+        "alışveriş",
+        "yeme içme",
+        "tarih"
       ],
       "en": [
-        "city tour"
+        "pedestrian street",
+        "city walk",
+        "shopping",
+        "food and drink",
+        "history"
       ],
       "de": [
-        "stadtrundfahrt"
+        "Fußgängerzone",
+        "Stadtspaziergang",
+        "Shopping",
+        "Essen und Trinken",
+        "Geschichte"
       ]
     },
     "images": [
-      "https://example.com/bauman_street.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bauman%20street%2C%20Kazan%20%282020-11-10%29.jpg"
     ]
   },
   {
     "slug": "tataristan-ulusal-muzesi",
     "name": {
       "tr": "Tataristan Ulusal Müzesi",
-      "en": "Tatarstan National Museum",
-      "de": "Nationalmuseum Tatarstans"
+      "en": "National Museum of the Republic of Tatarstan",
+      "de": "Nationalmuseum der Republik Tatarstan"
     },
-    "latitude": 55.7965,
-    "longitude": 49.1075,
+    "latitude": 55.7947,
+    "longitude": 49.1084,
     "description": {
-      "tr": "Tataristan Ulusal Müzesi, bölgenin tarihi, kültürü ve sanatı hakkında kapsamlı bir koleksiyona sahiptir. Burada Tatar kültürüne dair pek çok eser bulunmaktadır.\n",
-      "en": "The Tatarstan National Museum offers a comprehensive collection about the region's history, culture, and art. It features many exhibits on Tatar culture.\n",
-      "de": "Das Nationalmuseum Tatarstans bietet eine umfassende Sammlung zur Geschichte, Kultur und Kunst der Region. Es zeigt viele Exponate zur tatarischen Kultur.\n"
+      "tr": "Tataristan Ulusal Müzesi, Kazan'ın tarihî merkezinde yer alan ve bölgenin geçmişini geniş bir koleksiyonla anlatan önemli bir kültür kurumudur. 1895 yılında açılan müzede Tataristan'ın tarihî, arkeolojik, etnografik ve kültürel mirasına ilişkin eserler sergilenir. Kalıcı sergiler, bölgenin en eski dönemlerinden günümüze kadar uzanan tarihini ve çok uluslu toplumunun kültürel gelişimini ele alır.",
+      "en": "The National Museum of the Republic of Tatarstan is an important cultural institution in the historic centre of Kazan. Opened in 1895, the museum houses collections covering the region's history, archaeology, ethnography and cultural heritage. Its permanent exhibitions explore the history of Tatarstan from ancient times to the present and highlight the traditions and experiences of its multicultural population.",
+      "de": "Das Nationalmuseum der Republik Tatarstan ist eine bedeutende Kultureinrichtung im historischen Zentrum von Kasan. Das 1895 eröffnete Museum besitzt umfangreiche Sammlungen zur Geschichte, Archäologie, Ethnografie und Kultur der Region. Die Dauerausstellungen behandeln die Geschichte Tatarstans von der Antike bis zur Gegenwart und zeigen die Traditionen und das kulturelle Erbe der multiethnischen Bevölkerung."
     },
     "activities": {
       "tr": [
-        "Tatar kültürünü öğrenme",
-        "Sanat galerilerini gezme"
+        "Tataristan tarihini öğrenme",
+        "Arkeolojik eserleri inceleme",
+        "Etnografik koleksiyonları keşfetme",
+        "Tatar kültürü hakkında bilgi edinme",
+        "Tarihî sergileri gezme"
       ],
       "en": [
+        "Learn about the history of Tatarstan",
+        "Explore archaeological artifacts",
+        "Discover ethnographic collections",
         "Learn about Tatar culture",
-        "Explore art galleries"
+        "Visit historical exhibitions"
       ],
       "de": [
+        "Die Geschichte Tatarstans kennenlernen",
+        "Archäologische Artefakte entdecken",
+        "Ethnografische Sammlungen erkunden",
         "Mehr über die tatarische Kultur erfahren",
-        "Kunstgalerien erkunden"
+        "Historische Ausstellungen besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "tarih",
+        "arkeoloji",
+        "kültür",
+        "etnografya"
       ],
       "en": [
-        "museum"
+        "museum",
+        "history",
+        "archaeology",
+        "culture",
+        "ethnography"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Geschichte",
+        "Archäologie",
+        "Kultur",
+        "Ethnografie"
       ]
     },
     "images": [
-      "https://example.com/tatarstan_museum.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Museum%20of%20Tatarstan%20Kazan.jpg"
+    ]
+  },
+  {
+    "slug": "eski-tatar-mahallesi",
+    "name": {
+      "tr": "Eski Tatar Mahallesi",
+      "en": "Old Tatar Quarter",
+      "de": "Altes Tatarenviertel"
+    },
+    "latitude": 55.7781,
+    "longitude": 49.1149,
+    "description": {
+      "tr": "Eski Tatar Mahallesi, Kazan'ın tarihî Tatar kimliğini en güçlü şekilde yansıtan bölgelerinden biridir. Geleneksel ahşap ve taş evler, tarihî camiler, küçük sokaklar ve Tatar kültürünü yaşatan yapılar mahalleye özgün bir karakter kazandırır. Özellikle Kayum Nasyri Caddesi çevresinde yürüyerek tarihî şehir dokusunu keşfedebilir, Tatar mimarisini ve geleneksel şehir yaşamının izlerini görebilirsiniz.",
+      "en": "The Old Tatar Quarter is one of the areas of Kazan that most strongly reflects the city's historic Tatar identity. Traditional wooden and stone houses, historic mosques, narrow streets and buildings associated with Tatar culture give the district a distinctive character. Walking around Kayum Nasyri Street is a good way to discover the historic urban fabric and traditional Tatar architecture.",
+      "de": "Das Alte Tatarenviertel gehört zu den Stadtteilen Kasans, die die historische tatarische Identität besonders deutlich widerspiegeln. Traditionelle Holz- und Steinhäuser, historische Moscheen, enge Straßen und Gebäude mit Bezug zur tatarischen Kultur prägen das Viertel. Ein Spaziergang rund um die Kayum-Nasyri-Straße bietet die Möglichkeit, die historische Stadtstruktur und traditionelle tatarische Architektur zu entdecken."
+    },
+    "activities": {
+      "tr": [
+        "Tarihî mahallede yürüyüş",
+        "Geleneksel Tatar evlerini keşfetme",
+        "Tarihî camileri görme",
+        "Kayum Nasyri Caddesi'nde gezme",
+        "Tatar kültürünü keşfetme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Walk through the historic quarter",
+        "Discover traditional Tatar houses",
+        "See historic mosques",
+        "Explore Kayum Nasyri Street",
+        "Discover Tatar culture",
+        "Take photographs"
+      ],
+      "de": [
+        "Durch das historische Viertel spazieren",
+        "Traditionelle Tatarenhäuser entdecken",
+        "Historische Moscheen besichtigen",
+        "Die Kayum-Nasyri-Straße erkunden",
+        "Die tatarische Kultur entdecken",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi mahalle",
+        "kültür",
+        "mimari",
+        "tarih"
+      ],
+      "en": [
+        "historic district",
+        "culture",
+        "architecture",
+        "history"
+      ],
+      "de": [
+        "historisches Viertel",
+        "Kultur",
+        "Architektur",
+        "Geschichte"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Tatar%20Sloboda%20in%20Kazan%20%28April%202025%29%20-%200.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Tatar%20Sloboda%20in%20Kazan%20%28April%202025%29%20-%200%203.jpg"
+    ]
+  },
+  {
+    "slug": "tum-dinler-tapinagi-kazan",
+    "name": {
+      "tr": "Tüm Dinler Tapınağı",
+      "en": "Temple of All Religions",
+      "de": "Tempel aller Religionen"
+    },
+    "latitude": 55.80028,
+    "longitude": 48.97500,
+    "description": {
+      "tr": "Tüm Dinler Tapınağı, Kazan'ın Eski Arakçino bölgesinde yer alan sıra dışı ve renkli bir mimari komplekstir. Yapı, farklı dinlerin ve kültürel geleneklerin sembollerini aynı mimari kompozisyon içerisinde bir araya getirmesiyle dikkat çeker. 1990'lı yıllarda başlayan proje, klasik bir ibadethaneden ziyade kültürel ve mimari bir merkez niteliğindedir. Renkli kubbeleri, kuleleri ve farklı mimari unsurlarıyla Kazan'ın en sıra dışı fotoğraf noktalarından biridir.",
+      "en": "The Temple of All Religions is a distinctive and colorful architectural complex in the Staroye Arakchino area of Kazan. The project brings together symbols and architectural elements associated with different religions and cultural traditions within a single composition. Begun in the 1990s, it functions more as a cultural and architectural centre than as a conventional place of worship. Its colorful domes, towers and unusual design make it one of Kazan's most distinctive photographic attractions.",
+      "de": "Der Tempel aller Religionen ist ein außergewöhnlicher und farbenfroher Architekturkomplex im Stadtteil Staroye Arakchino in Kasan. Das Projekt verbindet Symbole und architektonische Elemente verschiedener Religionen und kultureller Traditionen in einer einzigen Anlage. Das in den 1990er-Jahren begonnene Projekt ist eher ein kulturelles und architektonisches Zentrum als ein traditionelles Gotteshaus. Seine farbenfrohen Kuppeln, Türme und ungewöhnlichen Formen machen ihn zu einem der auffälligsten Fotomotive Kasans."
+    },
+    "activities": {
+      "tr": [
+        "Mimari kompleksi keşfetme",
+        "Farklı dinlerin sembollerini inceleme",
+        "Fotoğraf çekme",
+        "Kazan'ın farklı bölgelerini keşfetme"
+      ],
+      "en": [
+        "Explore the architectural complex",
+        "Admire symbols from different religions",
+        "Take photographs",
+        "Explore a different side of Kazan"
+      ],
+      "de": [
+        "Den Architekturkomplex erkunden",
+        "Symbole verschiedener Religionen entdecken",
+        "Fotografieren",
+        "Eine andere Seite Kasans kennenlernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mimari",
+        "kültür",
+        "fotoğraf",
+        "dini yapı"
+      ],
+      "en": [
+        "architecture",
+        "culture",
+        "photography",
+        "religious architecture"
+      ],
+      "de": [
+        "Architektur",
+        "Kultur",
+        "Fotografie",
+        "religiöse Architektur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kazan%20temple%20of%20religions.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/All%20Religions%20Temple%20in%20Kazan%2001.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/20220623%20All%20Religions%20Temple%20in%20Kazan%2015.jpg"
     ]
   }
 ]

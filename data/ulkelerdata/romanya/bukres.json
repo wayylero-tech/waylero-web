@@ -6,40 +6,67 @@
       "en": "Calea Victoriei",
       "de": "Calea Victoriei"
     },
-    "latitude": 44.4333,
-    "longitude": 26.1,
+    "latitude": 44.43966,
+    "longitude": 26.10146,
     "description": {
-      "tr": "Calea Victoriei, Bükreş'in en eski ve en prestijli caddelerinden biridir. Tarihi binaları, restoranları ve alışveriş dükkanları ile ünlüdür.",
-      "en": "Calea Victoriei is one of Bucharest's oldest and most prestigious streets, famous for its historic buildings, restaurants, and shops.",
-      "de": "Calea Victoriei ist eine der ältesten und prestigeträchtigsten Straßen Bukarests, bekannt für ihre historischen Gebäude, Restaurants und Geschäfte."
+      "tr": "Calea Victoriei, Bükreş'in en eski, en tanınmış ve tarihi açıdan en önemli caddelerinden biridir. Yaklaşık 2,7 kilometre boyunca şehrin merkezi kesiminden uzanan cadde, bugün tarihi yapıları, müzeleri, sarayları, otelleri, restoranları, kafeleri ve mağazalarıyla Bükreş'in kültürel yaşamının önemli merkezlerinden biridir. Caddenin geçmişi 17. yüzyıla uzanır. Constantin Brâncoveanu döneminde eski Mogoșoaia Yolu'nun geliştirilmesiyle önemli bir ulaşım güzergâhına dönüşmüş, 1878 yılında Romanya'nın Bağımsızlık Savaşı'ndaki zaferini anmak amacıyla Calea Victoriei adını almıştır. Güzergâh boyunca Romanya Ulusal Sanat Müzesi'nin bulunduğu eski Kraliyet Sarayı, Romanya Ulusal Tarih Müzesi, CEC Sarayı, Cantacuzino Sarayı, Romanya Athenaeumu ve Ulusal Askerî Çevre gibi önemli yapılar bulunur. Tarihi mimari ile modern şehir yaşamının bir arada görülebildiği cadde, Bükreş'i yürüyerek keşfetmek isteyenler için en dikkat çekici güzergâhlardan biridir.",
+      "en": "Calea Victoriei is one of Bucharest's oldest, best-known and most historically significant streets. Stretching for approximately 2.7 kilometers through the central part of the city, the avenue is lined with historic buildings, museums, palaces, hotels, restaurants, cafés and shops, making it an important part of Bucharest's cultural and urban life. Its history dates back to the 17th century, when Prince Constantin Brâncoveanu developed the former Mogoșoaia Road into an important route. In 1878, it was renamed Calea Victoriei to commemorate Romania's victory in the War of Independence. Important landmarks along the avenue include the former Royal Palace, now home to the National Museum of Art of Romania, the National Museum of Romanian History, CEC Palace, Cantacuzino Palace, the Romanian Athenaeum and the National Military Circle. With its combination of historic architecture and modern city life, Calea Victoriei is one of the best routes for discovering central Bucharest on foot.",
+      "de": "Die Calea Victoriei gehört zu den ältesten, bekanntesten und historisch bedeutendsten Straßen Bukarests. Die etwa 2,7 Kilometer lange Straße führt durch das Zentrum der Stadt und ist von historischen Gebäuden, Museen, Palästen, Hotels, Restaurants, Cafés und Geschäften gesäumt. Ihre Geschichte reicht bis ins 17. Jahrhundert zurück, als Fürst Constantin Brâncoveanu die damalige Mogoșoaia-Straße zu einer wichtigen Verkehrsverbindung ausbauen ließ. Im Jahr 1878 erhielt sie ihren heutigen Namen Calea Victoriei, um den rumänischen Sieg im Unabhängigkeitskrieg zu würdigen. Entlang der Straße befinden sich bedeutende Sehenswürdigkeiten wie der ehemalige Königspalast, heute Sitz des Nationalen Kunstmuseums Rumäniens, das Nationale Geschichtsmuseum, der CEC-Palast, der Cantacuzino-Palast, das Rumänische Athenäum und der Nationale Militärkreis. Die Verbindung aus historischer Architektur und modernem Stadtleben macht die Calea Victoriei zu einer der interessantesten Routen, um das Zentrum Bukarests zu Fuß zu erkunden."
     },
     "activities": {
       "tr": [
         "Caddede yürüyüş yapma",
-        "Alışveriş yapma"
+        "Tarihi binaları ve sarayları fotoğraflama",
+        "Müze ve kültür merkezlerini ziyaret etme",
+        "Kafelerde ve restoranlarda vakit geçirme",
+        "Alışveriş yapma",
+        "Romanya Athenaeumu ve CEC Sarayı'nı görme",
+        "Şehrin tarihi merkezini yürüyerek keşfetme"
       ],
       "en": [
-        "Take a walk on the street",
-        "Shop around"
+        "Walk along the avenue",
+        "Photograph historic buildings and palaces",
+        "Visit museums and cultural institutions",
+        "Enjoy cafés and restaurants",
+        "Go shopping",
+        "See the Romanian Athenaeum and CEC Palace",
+        "Explore central Bucharest on foot"
       ],
       "de": [
-        "Auf der Straße spazieren gehen",
-        "Einkaufen gehen"
+        "Entlang der Straße spazieren",
+        "Historische Gebäude und Paläste fotografieren",
+        "Museen und Kultureinrichtungen besuchen",
+        "Cafés und Restaurants genießen",
+        "Einkaufen gehen",
+        "Das Rumänische Athenäum und den CEC-Palast besichtigen",
+        "Das Zentrum Bukarests zu Fuß erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi semtler"
+        "tarih",
+        "mimari",
+        "kültür",
+        "alışveriş",
+        "şehir"
       ],
       "en": [
-        "historic districts"
+        "history",
+        "architecture",
+        "culture",
+        "shopping",
+        "city"
       ],
       "de": [
-        "historische Viertel"
+        "geschichte",
+        "architektur",
+        "kultur",
+        "einkaufen",
+        "stadt"
       ]
     },
     "images": [
-      "https://example.com/calea_victoriei.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Victory%20Avenue%20Calea%20Victoriei%20Bucharest%20Bucuresti%20Romania.JPG"
     ]
   },
   {
@@ -47,42 +74,63 @@
     "name": {
       "tr": "Parlamento Sarayı",
       "en": "Palace of Parliament",
-      "de": "Palast des Parlaments"
+      "de": "Parlamentspalast"
     },
-    "latitude": 44.4268,
-    "longitude": 26.1025,
+    "latitude": 44.427454,
+    "longitude": 26.087287,
     "description": {
-      "tr": "Parlamento Sarayı, dünyadaki ikinci en büyük idari binadır ve Bükreş'in simgelerinden biridir. Bina, Ceaușescu'nun yönetimi altında inşa edilmiştir.",
-      "en": "The Palace of Parliament is the second largest administrative building in the world and one of Bucharest's landmarks. It was built during Ceaușescu's regime.",
-      "de": "Der Palast des Parlaments ist das zweitgrößte Verwaltungsgebäude der Welt und eines der Wahrzeichen von Bukarest. Es wurde während der Ceaușescu-Regierung erbaut."
+      "tr": "Parlamento Sarayı (Palatul Parlamentului), Bükreş'in en büyük ve en dikkat çekici yapılarından biridir. Yapının inşası 1984 yılında Nicolae Ceaușescu döneminde başladı ve komünist rejimin şehirde gerçekleştirdiği kapsamlı yeniden yapılanma projesinin merkezinde yer aldı. Bina, dönemin siyasi ve mimari anlayışını yansıtan anıtsal ölçeği, geniş salonları, mermer kaplamaları, kristal avizeleri ve büyük iç mekânlarıyla dikkat çeker. Romanya Parlamentosu'nun resmi kaynaklarına göre yapı dünyanın en ağır idari binasıdır ve hacim bakımından dünyada üçüncü sırada yer almaktadır. İnşaat sırasında çok büyük miktarlarda mermer, çelik, ahşap, cam ve kristal kullanılmıştır. 1989 Romanya Devrimi sırasında bina henüz tamamen tamamlanmamıştı. Günümüzde Parlamento Sarayı, Romanya Temsilciler Meclisi ve Senato gibi devlet kurumlarına ev sahipliği yapmasının yanı sıra konferans ve ziyaret programlarına da açıktır. Rehberli ziyaretlerde binanın belirli salonları ve iç bölümleri görülebilir. Parlamento Sarayı, Bükreş'in komünist dönem tarihini ve modern Romanya'nın siyasi dönüşümünü anlamak açısından önemli bir yapıdır.",
+      "en": "The Palace of Parliament (Palatul Parlamentului) is one of Bucharest's largest and most remarkable buildings. Construction began in 1984 during the rule of Nicolae Ceaușescu as part of a vast urban redevelopment project that transformed a large area of the city. The building reflects the monumental architectural ambitions of the communist era through its enormous scale, grand halls, extensive marble surfaces, crystal chandeliers and lavish interiors. According to the Romanian Parliament's official information, it is the heaviest administrative building in the world and ranks third worldwide by volume. Huge quantities of marble, steel, wood, glass and crystal were used during its construction. The building was still incomplete when the Romanian Revolution took place in 1989. Today, the Palace houses important state institutions, including the Chamber of Deputies and the Senate, while selected areas are accessible through guided visitor programs. The Palace of Parliament is an important landmark for understanding Bucharest's communist-era history and Romania's political transformation.",
+      "de": "Der Parlamentspalast (Palatul Parlamentului) ist eines der größten und beeindruckendsten Bauwerke Bukarests. Mit dem Bau wurde 1984 während der Herrschaft von Nicolae Ceaușescu begonnen. Er war Teil eines umfangreichen städtebaulichen Projekts, das große Teile des Stadtgebiets grundlegend veränderte. Das Gebäude spiegelt die monumentalen architektonischen Vorstellungen der kommunistischen Ära wider und beeindruckt durch seine enorme Größe, repräsentative Säle, umfangreiche Marmorverkleidungen, Kristallleuchter und aufwendig gestalteten Innenräume. Nach offiziellen Angaben des rumänischen Parlaments ist der Bau das schwerste Verwaltungsgebäude der Welt und steht hinsichtlich seines Volumens weltweit an dritter Stelle. Für seine Errichtung wurden große Mengen an Marmor, Stahl, Holz, Glas und Kristall verwendet. Während der rumänischen Revolution von 1989 war das Gebäude noch nicht vollständig fertiggestellt. Heute beherbergt es wichtige staatliche Institutionen wie die Abgeordnetenkammer und den Senat. Bestimmte Bereiche können im Rahmen geführter Besichtigungen besucht werden. Der Parlamentspalast ist ein bedeutendes Zeugnis der kommunistischen Geschichte Bukarests und des politischen Wandels Rumäniens."
     },
     "activities": {
       "tr": [
-        "Sarayı ziyaret etme",
-        "Mimari detayları keşfetme"
+        "Sarayı rehberli turla ziyaret etme",
+        "Anıtsal salonları ve iç mekânları inceleme",
+        "Mermer ve mimari detayları görme",
+        "Binanın komünist dönem tarihini keşfetme",
+        "Fotoğraf çekme",
+        "Parlamento binasının dış cephesini inceleme"
       ],
       "en": [
-        "Visit the palace",
-        "Explore the architectural details"
+        "Take a guided tour of the palace",
+        "Explore the monumental halls and interiors",
+        "Admire the marble and architectural details",
+        "Learn about the building's communist-era history",
+        "Take photographs",
+        "Admire the exterior architecture"
       ],
       "de": [
-        "Den Palast besichtigen",
-        "Die architektonischen Details erkunden"
+        "An einer Führung durch den Palast teilnehmen",
+        "Die monumentalen Säle und Innenräume erkunden",
+        "Marmor und architektonische Details betrachten",
+        "Die Geschichte des Gebäudes aus der kommunistischen Zeit kennenlernen",
+        "Fotos machen",
+        "Die Außenfassade bewundern"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "mimari",
+        "kültür",
+        "şehir"
       ],
       "en": [
-        "historic"
+        "history",
+        "architecture",
+        "culture",
+        "city"
       ],
       "de": [
-        "Historisch"
+        "geschichte",
+        "architektur",
+        "kultur",
+        "stadt"
       ]
     },
     "images": [
-      "https://example.com/parliament_palace.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palace%20of%20the%20Parliament%20in%20Bucharest%20%2851878975552%29.jpg"
     ]
   }
 ]

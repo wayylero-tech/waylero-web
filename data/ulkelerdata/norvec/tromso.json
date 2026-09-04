@@ -7,39 +7,535 @@
       "de": "Arktische Kathedrale"
     },
     "latitude": 69.6496,
-    "longitude": 18.956,
+    "longitude": 18.9560,
     "description": {
-      "tr": "Arctic Cathedral, Tromsø'nun en ikonik yapılarından biridir. Buzlu deniz manzarasıyla dikkat çeker.",
-      "en": "The Arctic Cathedral is one of Tromsø's most iconic buildings, known for its stunning view of the icy sea.",
-      "de": "Die Arktische Kathedrale ist eines der ikonischsten Gebäude von Tromsø und bekannt für ihren atemberaubenden Blick auf das eisige Meer."
+      "tr": "Arctic Cathedral, resmi adıyla Tromsdalen Kilisesi, Tromsø'nun en tanınan yapılarından biridir. Jan Inge Hovig tarafından tasarlanan yapı 1965 yılında ibadete açılmış ve modern İskandinav mimarisinin dikkat çekici örneklerinden biri haline gelmiştir. Binanın iki yanında yükselen 11 adet alüminyum kaplı beton panel, Kuzey Kutbu'ndaki buz ve dağ oluşumlarını çağrıştıran karakteristik siluetini oluşturur. Batı cephesindeki büyük cam bölüm ve doğu tarafındaki 1972 tarihli 'The Return of Christ' cam mozaiği yapının en dikkat çekici ayrıntıları arasındadır. Kilise, Tromsø Köprüsü ve Tromsø Sound üzerinden kolayca görülebilen konumuyla şehrin simgelerinden biri haline gelmiştir. Yıl boyunca dini törenlerin yanı sıra özellikle yaz döneminde konserler de düzenlenmektedir.",
+      "en": "The Arctic Cathedral, officially known as Tromsdalen Church, is one of Tromsø's most recognizable landmarks. Designed by architect Jan Inge Hovig, the church was consecrated in 1965 and became a notable example of modern Scandinavian architecture. Its distinctive silhouette is formed by 11 aluminium-coated concrete panels on each side of the roof, inspired by the Arctic landscape. The large glass façade at the western entrance and the 1972 'The Return of Christ' glass mosaic on the eastern wall are among its most remarkable features. The church is clearly visible from Tromsø Bridge and Tromsø Sound and has become one of the city's defining landmarks. In addition to religious services, concerts are held here, particularly during the summer season.",
+      "de": "Die Arktische Kathedrale, offiziell Tromsdalen-Kirche genannt, ist eines der bekanntesten Wahrzeichen von Tromsø. Das von dem Architekten Jan Inge Hovig entworfene Gotteshaus wurde 1965 eingeweiht und gilt als bemerkenswertes Beispiel moderner skandinavischer Architektur. Seine charakteristische Silhouette entsteht durch 11 mit Aluminium verkleidete Betonplatten auf beiden Seiten des Daches, die an die arktische Landschaft erinnern. Die große Glasfassade am westlichen Eingang und das 1972 hinzugefügte Glas-Mosaik 'The Return of Christ' an der Ostseite gehören zu den auffälligsten Elementen. Die Kirche ist von der Tromsø-Brücke und vom Tromsø-Sund gut sichtbar und wurde zu einem Wahrzeichen der Stadt. Neben Gottesdiensten finden hier insbesondere im Sommer auch Konzerte statt."
     },
     "activities": {
       "tr": [
-        "Kilisenin mimarisini inceleme",
-        "Konserde dinlenme"
+        "Modern mimariyi inceleme",
+        "Cam mozaiğini görme",
+        "Kilise içini keşfetme",
+        "Konserlere katılma",
+        "Tromsø Köprüsü'nden fotoğraf çekme",
+        "Kuzey ışıkları atmosferinde dışarıdan fotoğraf çekme"
       ],
       "en": [
-        "Examine the architecture of the church",
-        "Relax at a concert"
+        "Explore modern architecture",
+        "See the famous glass mosaic",
+        "Explore the church interior",
+        "Attend concerts",
+        "Take photographs from Tromsø Bridge",
+        "Photograph the building under the Northern Lights"
       ],
       "de": [
-        "Die Architektur der Kirche besichtigen",
-        "Bei einem Konzert entspannen"
+        "Moderne Architektur entdecken",
+        "Das berühmte Glasmosaik ansehen",
+        "Den Innenraum erkunden",
+        "Konzerte besuchen",
+        "Von der Tromsø-Brücke fotografieren",
+        "Das Gebäude unter dem Nordlicht fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "kilise",
+        "mimari",
+        "kültür",
+        "dini yapı",
+        "fotoğraf"
       ],
       "en": [
-        "church"
+        "church",
+        "architecture",
+        "culture",
+        "religious site",
+        "photography"
       ],
       "de": [
-        "kirche"
+        "kirche",
+        "architektur",
+        "kultur",
+        "religiöse stätte",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/arctic_cathedral.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Arctic%20Cathedral%20Troms%C3%B8.jpg"
+    ]
+  },
+  {
+    "slug": "fjellheisen",
+    "name": {
+      "tr": "Fjellheisen Teleferiği",
+      "en": "Fjellheisen Cable Car",
+      "de": "Fjellheisen-Seilbahn"
+    },
+    "latitude": 69.6371,
+    "longitude": 18.9972,
+    "description": {
+      "tr": "Fjellheisen, Tromsø'nun en etkileyici manzara noktalarından biri olan Storsteinen Dağı'na çıkan teleferiktir. Yukarı istasyondan Tromsø şehri, Tromsøysundet, çevredeki adalar, fiyortlar ve dağlar geniş bir panoramayla görülebilir. Yaz aylarında gece yarısı güneşi manzarası, kış aylarında ise uygun hava koşullarında kuzey ışıkları için popüler bir noktadır. Üst istasyonda Fjellstua adlı kafe ve restoran bulunur. Teleferik aynı zamanda Fløya ve çevresindeki yürüyüş rotalarına ulaşmak için başlangıç noktalarından biridir. Teleferik sistemi 2026-2027 döneminde kapsamlı bir yeniden yapım projesinden geçmektedir; erişilebilirlik ve çalışma durumu seyahat tarihine göre kontrol edilmelidir.",
+      "en": "Fjellheisen is Tromsø's cable car to Storsteinen Mountain and one of the city's best panoramic viewpoints. From the upper station, visitors can see Tromsø, Tromsøysundet, surrounding islands, fjords and mountains. It is popular in summer for views of the midnight sun and in winter as a potential Northern Lights viewing location when conditions are suitable. Fjellstua café and restaurant is located at the upper station. The cable car area also provides access to hiking routes toward Mount Fløya and the surrounding mountains. A major reconstruction project is taking place during the 2026-2027 period, so accessibility and operating conditions should be checked before visiting.",
+      "de": "Fjellheisen ist die Seilbahn von Tromsø auf den Berg Storsteinen und gehört zu den besten Aussichtspunkten der Stadt. Von der Bergstation eröffnet sich ein weiter Blick über Tromsø, den Tromsøysundet, umliegende Inseln, Fjorde und Berge. Im Sommer ist die Seilbahn wegen der Mitternachtssonne beliebt, während sie im Winter bei geeigneten Bedingungen auch ein möglicher Aussichtspunkt für das Nordlicht ist. An der Bergstation befindet sich das Café und Restaurant Fjellstua. Von hier beginnen außerdem Wanderwege in Richtung Fløya und der umliegenden Berge. Im Zeitraum 2026-2027 findet ein umfangreiches Umbauprojekt statt, daher sollten Zugänglichkeit und Betriebsstatus vor dem Besuch geprüft werden."
+    },
+    "activities": {
+      "tr": [
+        "Teleferikle Storsteinen'e çıkma",
+        "Tromsø panoramasını izleme",
+        "Gece yarısı güneşini görme",
+        "Kuzey ışıklarını gözlemleme",
+        "Dağ yürüyüşü yapma",
+        "Fjellstua'da mola verme",
+        "Manzara fotoğrafı çekme"
+      ],
+      "en": [
+        "Ride the cable car to Storsteinen",
+        "Enjoy panoramic views of Tromsø",
+        "Experience the midnight sun",
+        "Look for the Northern Lights",
+        "Go hiking",
+        "Stop at Fjellstua",
+        "Take panoramic photographs"
+      ],
+      "de": [
+        "Mit der Seilbahn auf den Storsteinen fahren",
+        "Das Panorama von Tromsø genießen",
+        "Die Mitternachtssonne erleben",
+        "Nach den Nordlichtern Ausschau halten",
+        "Wandern",
+        "Im Fjellstua einkehren",
+        "Panoramafotos aufnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "manzara",
+        "doğa",
+        "teleferik",
+        "dağ",
+        "yürüyüş",
+        "fotoğraf"
+      ],
+      "en": [
+        "viewpoint",
+        "nature",
+        "cable car",
+        "mountain",
+        "hiking",
+        "photography"
+      ],
+      "de": [
+        "aussichtspunkt",
+        "natur",
+        "seilbahn",
+        "berg",
+        "wandern",
+        "fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fjellheisen%20Troms%C3%B8.jpg"
+    ]
+  },
+  {
+    "slug": "polaria",
+    "name": {
+      "tr": "Polaria",
+      "en": "Polaria",
+      "de": "Polaria"
+    },
+    "latitude": 69.6444,
+    "longitude": 18.9477,
+    "description": {
+      "tr": "Polaria, Tromsø şehir merkezinde yer alan bir Arktik deneyim merkezi ve dünyanın en kuzeydeki akvaryumu olarak tanıtılan önemli bir ziyaret noktasıdır. Bina, Arktik Okyanusu'nun kıyıya sürüklediği buz kütlelerinden esinlenen sıra dışı mimarisiyle dikkat çeker. Merkezde kuzey denizlerine ait canlıların bulunduğu akvaryumlar, interaktif sergiler ve panoramik sinema bulunur. Sakallı foklar ve diğer fok türleri merkezin en ilgi çekici canlıları arasındadır. İklim değişikliği, Arktik ekosistemler ve kuzey denizlerindeki yaşam üzerine hazırlanan sergiler, ziyaretçiye bölgenin doğal çevresini daha yakından tanıma imkânı verir. Mekânın tamamı kapalı olduğundan özellikle soğuk veya yağışlı günlerde Tromsø gezisine eklenebilecek seçeneklerden biridir.",
+      "en": "Polaria is an Arctic experience centre in central Tromsø and is promoted as the world's northernmost aquarium. Its distinctive building was inspired by Arctic sea ice pushed ashore by the ocean. Inside are aquariums featuring marine life from northern waters, interactive exhibitions and a panoramic cinema. Bearded seals and other seals are among the centre's main attractions. Exhibitions explore climate change, Arctic ecosystems and life in northern seas, giving visitors a closer look at the region's natural environment. Since the entire experience takes place indoors, Polaria is also a practical option during cold or rainy weather.",
+      "de": "Polaria ist ein arktisches Erlebniszentrum im Zentrum von Tromsø und wird als das nördlichste Aquarium der Welt bezeichnet. Das auffällige Gebäude wurde von Eisschollen inspiriert, die vom Arktischen Ozean an Land getrieben werden. Im Inneren befinden sich Aquarien mit Meereslebewesen aus den nördlichen Gewässern, interaktive Ausstellungen und ein Panoramakino. Bartrobben und andere Robben gehören zu den besonderen Attraktionen. Die Ausstellungen beschäftigen sich mit dem Klimawandel, arktischen Ökosystemen und dem Leben in den nördlichen Meeren. Da der gesamte Besuch im Innenbereich stattfindet, eignet sich Polaria besonders auch für kalte oder regnerische Tage."
+    },
+    "activities": {
+      "tr": [
+        "Arktik akvaryumlarını keşfetme",
+        "Fokları gözlemleme",
+        "İnteraktif sergileri gezme",
+        "Panoramik sinemayı deneyimleme",
+        "Arktik iklim hakkında bilgi edinme",
+        "Aileyle ziyaret etme"
+      ],
+      "en": [
+        "Explore Arctic aquariums",
+        "Observe the seals",
+        "Visit interactive exhibitions",
+        "Experience the panoramic cinema",
+        "Learn about the Arctic climate",
+        "Visit with family"
+      ],
+      "de": [
+        "Arktische Aquarien entdecken",
+        "Robben beobachten",
+        "Interaktive Ausstellungen besuchen",
+        "Das Panoramakino erleben",
+        "Mehr über das arktische Klima erfahren",
+        "Mit der Familie besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "akvaryum",
+        "müze",
+        "arktik",
+        "bilim",
+        "aile",
+        "kültür"
+      ],
+      "en": [
+        "aquarium",
+        "museum",
+        "Arctic",
+        "science",
+        "family",
+        "culture"
+      ],
+      "de": [
+        "aquarium",
+        "museum",
+        "arktis",
+        "wissenschaft",
+        "familie",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Polaria%20Troms%C3%B8.jpg"
+    ]
+  },
+  {
+    "slug": "polar-museum",
+    "name": {
+      "tr": "Tromsø Polar Müzesi",
+      "en": "Polar Museum",
+      "de": "Polarmuseum"
+    },
+    "latitude": 69.6526,
+    "longitude": 18.9636,
+    "description": {
+      "tr": "Tromsø Polar Müzesi, şehrin Arktik keşifleri ve kutup yaşamıyla olan bağlantısını anlatan önemli müzelerden biridir. Tarihi bir gümrük yapısında bulunan müze, 17. yüzyıldan günümüze kadar Arktik avcılık, tuzakçılık, kışlama kültürü, kutup keşifleri ve Svalbard'ın kültürel tarihi üzerine sergiler sunar. Tromsø'nun neden 'Kuzey Kutbu'na açılan kapı' olarak anıldığını anlamak için en iyi duraklardan biridir. Roald Amundsen gibi kaşiflerin seferleri ile kuzeyde yaşayan avcı ve tuzakçıların zorlu günlük yaşamı müzenin önemli temaları arasındadır.",
+      "en": "The Polar Museum in Tromsø explores the city's strong connection with Arctic exploration and polar life. Housed in a historic customs building, the museum presents exhibitions covering Arctic hunting, trapping, overwintering, polar expeditions and the cultural history of Svalbard from the 17th century to the present. It is an excellent place to understand why Tromsø became known as a gateway to the Arctic. Expeditions by explorers such as Roald Amundsen and the demanding everyday lives of northern hunters and trappers are among the museum's major themes.",
+      "de": "Das Polarmuseum in Tromsø beschäftigt sich mit der engen Verbindung der Stadt zur Arktisforschung und zum Leben in den Polarregionen. Das Museum befindet sich in einem historischen Zollgebäude und zeigt Ausstellungen über arktische Jagd, Fallenstellerei, Überwinterung, Polarexpeditionen und die Kulturgeschichte von Spitzbergen vom 17. Jahrhundert bis zur Gegenwart. Es vermittelt anschaulich, warum Tromsø als Tor zur Arktis bekannt wurde. Expeditionen von Forschern wie Roald Amundsen sowie der schwierige Alltag nördlicher Jäger und Fallensteller gehören zu den zentralen Themen."
+    },
+    "activities": {
+      "tr": [
+        "Kutup keşiflerini öğrenme",
+        "Arktik avcılık tarihini keşfetme",
+        "Svalbard tarihini inceleme",
+        "Tarihi müze binasını gezme",
+        "Kutup kaşiflerinin hikâyelerini keşfetme"
+      ],
+      "en": [
+        "Learn about polar expeditions",
+        "Explore the history of Arctic hunting",
+        "Discover Svalbard's history",
+        "Visit the historic museum building",
+        "Learn about polar explorers"
+      ],
+      "de": [
+        "Polarexpeditionen kennenlernen",
+        "Die Geschichte der arktischen Jagd entdecken",
+        "Die Geschichte Spitzbergens erkunden",
+        "Das historische Museumsgebäude besichtigen",
+        "Geschichten der Polarforscher entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "tarih",
+        "arktik",
+        "kültür",
+        "keşif"
+      ],
+      "en": [
+        "museum",
+        "history",
+        "Arctic",
+        "culture",
+        "exploration"
+      ],
+      "de": [
+        "museum",
+        "geschichte",
+        "arktis",
+        "kultur",
+        "expedition"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Polar%20Museum.jpg"
+    ]
+  },
+  {
+    "slug": "tromso-cathedral",
+    "name": {
+      "tr": "Tromsø Katedrali",
+      "en": "Tromsø Cathedral",
+      "de": "Tromsø-Kathedrale"
+    },
+    "latitude": 69.6486,
+    "longitude": 18.9557,
+    "description": {
+      "tr": "Tromsø Katedrali, şehir merkezindeki Kirkeparken'in yanında bulunan ve 1861 yılında inşa edilen ahşap bir katedraldir. Mimar Christian Heinrich Grosch tarafından Gotik Revival tarzında tasarlanan yapı, Norveç'in ahşap kilise mimarisinin şehir merkezindeki dikkat çekici örneklerinden biridir. Açık renkli dış cephesi, ahşap yapısı ve tarihi iç mekânı Arctic Cathedral'den tamamen farklı bir karakter sunar. İçeride sunak, vitraylar, vaaz kürsüsü ve org gibi tarihi unsurlar görülebilir. Tromsø'nun gerçek katedrali burasıdır; Arctic Cathedral ise resmi olarak Tromsdalen Kilisesi adlı bir bölge kilisesidir.",
+      "en": "Tromsø Cathedral is a wooden cathedral located beside Kirkeparken in the city centre and built in 1861. Designed by architect Christian Heinrich Grosch in the Gothic Revival style, it is a notable urban example of Norway's wooden church architecture. Its light-coloured exterior, timber construction and historic interior give it a very different character from the Arctic Cathedral. Inside, visitors can see features such as the altar, stained glass, pulpit and organ. Unlike the Arctic Cathedral, Tromsø Cathedral is the city's actual cathedral, while the Arctic Cathedral is officially a parish church in Tromsdalen.",
+      "de": "Die Tromsø-Kathedrale ist eine 1861 errichtete Holzkirche neben dem Kirkeparken im Stadtzentrum. Sie wurde vom Architekten Christian Heinrich Grosch im neugotischen Stil entworfen und ist ein bemerkenswertes Beispiel für norwegische Holzarchitektur in einer Stadt. Ihre helle Fassade, die Holzkonstruktion und der historische Innenraum unterscheiden sie deutlich von der Arktischen Kathedrale. Im Inneren befinden sich unter anderem ein Altar, Glasfenster, eine Kanzel und eine Orgel. Im Gegensatz zur Arktischen Kathedrale ist die Tromsø-Kathedrale tatsächlich eine Kathedrale, während die Arktische Kathedrale offiziell eine Pfarrkirche in Tromsdalen ist."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etme",
+        "Ahşap Gotik Revival mimarisini inceleme",
+        "Tarihi iç mekânı keşfetme",
+        "Vitrayları inceleme",
+        "Kirkeparken'de yürüyüş yapma",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Visit the cathedral",
+        "Explore Gothic Revival wooden architecture",
+        "Discover the historic interior",
+        "Admire the stained glass",
+        "Walk through Kirkeparken",
+        "Take photographs"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Neugotische Holzarchitektur entdecken",
+        "Den historischen Innenraum erkunden",
+        "Die Glasfenster betrachten",
+        "Durch den Kirkeparken spazieren",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "katedral",
+        "kilise",
+        "tarih",
+        "mimari",
+        "kültür"
+      ],
+      "en": [
+        "cathedral",
+        "church",
+        "history",
+        "architecture",
+        "culture"
+      ],
+      "de": [
+        "kathedrale",
+        "kirche",
+        "geschichte",
+        "architektur",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Troms%C3%B8%20Cathedral%20%288528097668%29.jpg"
+    ]
+  },
+  {
+    "slug": "tromso-arctic-alpine-botanical-garden",
+    "name": {
+      "tr": "Tromsø Arktik-Alpin Botanik Bahçesi",
+      "en": "Tromsø Arctic-Alpine Botanical Garden",
+      "de": "Arktisch-Alpiner Botanischer Garten Tromsø"
+    },
+    "latitude": 69.6496,
+    "longitude": 18.9550,
+    "description": {
+      "tr": "Tromsø Arktik-Alpin Botanik Bahçesi, dünyanın en kuzeydeki botanik bahçesi olarak tanınan açık hava koleksiyonlarından biridir. Bahçede Arktik bölgeler, yüksek dağlar ve dünyanın farklı soğuk iklim kuşaklarından gelen 7.000'den fazla bitki türü ve yaklaşık 27 farklı koleksiyon bulunur. Svalbard, Himalayalar, Güney Amerika ve diğer dağlık bölgelerden getirilen bitkiler, Tromsø'nun kuzey ikliminde özel bir ortamda sergilenir. Bahçe normal olarak mayıs-ekim döneminde, kar ve hava koşullarına bağlı olarak ziyaret edilebilir ve giriş ücretsizdir. Özellikle yaz aylarında çiçeklenme dönemleri nedeniyle fotoğraf ve doğa yürüyüşü açısından ilgi çekicidir.",
+      "en": "The Tromsø Arctic-Alpine Botanical Garden is known as the world's northernmost botanical garden and is an outdoor collection dedicated to plants from cold climates. It contains more than 7,000 plant species across around 27 collections, including plants from the Arctic, high mountains, Svalbard, the Himalayas, South America and other alpine regions. The garden normally operates from May to October depending on snow and weather conditions, and admission is free. The flowering season during the summer makes it particularly interesting for nature walks and photography.",
+      "de": "Der arktisch-alpine Botanische Garten von Tromsø gilt als der nördlichste botanische Garten der Welt und präsentiert Pflanzen aus kalten Klimazonen. Er umfasst mehr als 7.000 Pflanzenarten in etwa 27 Sammlungen, darunter Arten aus der Arktis, aus Hochgebirgen, Spitzbergen, dem Himalaya, Südamerika und anderen alpinen Regionen. Der Garten ist normalerweise von Mai bis Oktober geöffnet, abhängig von Schnee- und Wetterbedingungen, und der Eintritt ist kostenlos. Besonders während der Blütezeit im Sommer eignet sich die Anlage für Spaziergänge und Fotografie."
+    },
+    "activities": {
+      "tr": [
+        "Bitki koleksiyonlarını keşfetme",
+        "Arktik bitkileri inceleme",
+        "Doğa yürüyüşü yapma",
+        "Çiçekleri fotoğraflama",
+        "Yaz döneminde bahçeyi gezme"
+      ],
+      "en": [
+        "Explore plant collections",
+        "Discover Arctic plants",
+        "Take a nature walk",
+        "Photograph flowers",
+        "Visit during the summer season"
+      ],
+      "de": [
+        "Pflanzensammlungen entdecken",
+        "Arktische Pflanzen kennenlernen",
+        "Spazieren gehen",
+        "Blumen fotografieren",
+        "Den Garten im Sommer besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "botanik",
+        "bahçe",
+        "doğa",
+        "bitkiler",
+        "fotoğraf"
+      ],
+      "en": [
+        "botanical garden",
+        "garden",
+        "nature",
+        "plants",
+        "photography"
+      ],
+      "de": [
+        "botanischer garten",
+        "garten",
+        "natur",
+        "pflanzen",
+        "fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Troms%C3%B8%20Arctic-Alpine%20Botanical%20Garden.jpg"
+    ]
+  },
+  {
+    "slug": "telegrafbukta",
+    "name": {
+      "tr": "Telegrafbukta",
+      "en": "Telegrafbukta",
+      "de": "Telegrafbukta"
+    },
+    "latitude": 69.6320,
+    "longitude": 18.9075,
+    "description": {
+      "tr": "Telegrafbukta, Tromsøya'nın güney tarafında yer alan doğal kıyı alanlarından biridir. Şehir merkezinden biraz uzaklaşarak deniz, kıyı ve çevredeki dağ manzaralarını görmek isteyenler için sakin bir açık hava noktası sunar. Park alanı, yürüyüş yolları ve kıyı bölümü özellikle yaz aylarında yerel yaşamı gözlemlemek ve açık havada vakit geçirmek için tercih edilir. Bölge aynı zamanda bazı kültürel etkinliklere ve açık hava organizasyonlarına ev sahipliği yapabilir. Kışın karla kaplı kıyı ve deniz manzarası, yazın ise uzun gün ışığı fotoğrafçılık açısından farklı atmosferler oluşturur.",
+      "en": "Telegrafbukta is a coastal recreational area on the southern side of Tromsøya. It offers an opportunity to get away from the city centre and enjoy views of the sea, shoreline and surrounding mountains. The park area, walking paths and waterfront are popular for spending time outdoors and experiencing the local atmosphere, particularly during summer. The area can also host cultural and outdoor events. In winter, snow-covered shores create a very different landscape, while the long summer daylight provides excellent conditions for photography.",
+      "de": "Telegrafbukta ist ein Küsten- und Erholungsgebiet im Süden der Insel Tromsøya. Hier kann man dem Stadtzentrum etwas entkommen und den Blick auf das Meer, die Küste und die umliegenden Berge genießen. Der Park, die Spazierwege und der Uferbereich werden besonders im Sommer gerne für Aktivitäten im Freien genutzt. In der Umgebung können auch kulturelle und öffentliche Veranstaltungen stattfinden. Im Winter bietet die verschneite Küste eine völlig andere Landschaft, während das lange Sommerlicht interessante Bedingungen für die Fotografie schafft."
+    },
+    "activities": {
+      "tr": [
+        "Sahil boyunca yürüyüş yapma",
+        "Deniz ve dağ manzarasını izleme",
+        "Piknik yapma",
+        "Fotoğraf çekme",
+        "Açık hava etkinliklerine katılma"
+      ],
+      "en": [
+        "Walk along the shore",
+        "Enjoy sea and mountain views",
+        "Have a picnic",
+        "Take photographs",
+        "Attend outdoor events"
+      ],
+      "de": [
+        "Am Ufer spazieren",
+        "Meer- und Bergblicke genießen",
+        "Ein Picknick machen",
+        "Fotos aufnehmen",
+        "An Veranstaltungen im Freien teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park",
+        "sahil",
+        "doğa",
+        "yürüyüş",
+        "manzara",
+        "fotoğraf"
+      ],
+      "en": [
+        "park",
+        "coast",
+        "nature",
+        "walking",
+        "scenery",
+        "photography"
+      ],
+      "de": [
+        "park",
+        "küste",
+        "natur",
+        "spaziergang",
+        "landschaft",
+        "fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Telegrafbukta%20tromso.jpg"
+    ]
+  },
+  {
+    "slug": "tromso-museum",
+    "name": {
+      "tr": "Norveç Arktik Üniversitesi Müzesi",
+      "en": "Arctic University Museum of Norway",
+      "de": "Arktisches Universitätsmuseum Norwegens"
+    },
+    "latitude": 69.6444,
+    "longitude": 18.9186,
+    "description": {
+      "tr": "Norveç Arktik Üniversitesi Müzesi, Tromsø'nun kuzey Norveç tarihi, doğası ve kültürü hakkında bilgi veren önemli müzelerinden biridir. Sergilerde bölgenin doğal tarihi, yaban hayatı, Sami kültürü, Taş Devri toplulukları, Viking Çağı ve kuzey Norveç'in dini sanat mirası gibi farklı konular ele alınır. Müze ayrıca Kuzey Işıkları'nın bilimsel ve kültürel yönlerine ilişkin içerikler sunar. Tromsø'nun yalnızca kuzey ışıkları ve doğa turizmiyle değil, binlerce yıllık insanlık ve kültür tarihiyle de bağlantısını anlamak isteyenler için iyi bir duraktır.",
+      "en": "The Arctic University Museum of Norway is an important museum in Tromsø focusing on the history, nature and culture of northern Norway. Its exhibitions cover natural history and wildlife as well as Sami culture, Stone Age communities, the Viking Age and the religious art heritage of northern Norway. The museum also presents information about the Northern Lights from scientific and cultural perspectives. It is a useful stop for understanding Tromsø's history beyond its reputation for Arctic landscapes and Northern Lights tourism.",
+      "de": "Das Arktische Universitätsmuseum Norwegens ist ein bedeutendes Museum in Tromsø, das sich mit der Geschichte, Natur und Kultur Nordnorwegens beschäftigt. Die Ausstellungen behandeln die Naturgeschichte und Tierwelt ebenso wie die samische Kultur, steinzeitliche Gemeinschaften, die Wikingerzeit und das religiöse Kunsterbe Nordnorwegens. Außerdem werden die Nordlichter aus wissenschaftlicher und kultureller Perspektive thematisiert. Das Museum vermittelt damit einen umfassenderen Blick auf Tromsø jenseits von arktischer Landschaft und Nordlicht-Tourismus."
+    },
+    "activities": {
+      "tr": [
+        "Sami kültürünü öğrenme",
+        "Kuzey Norveç tarihini keşfetme",
+        "Doğa tarihi sergilerini gezme",
+        "Kuzey ışıkları hakkında bilgi edinme",
+        "Arkeolojik sergileri inceleme"
+      ],
+      "en": [
+        "Learn about Sami culture",
+        "Explore northern Norwegian history",
+        "Visit natural history exhibitions",
+        "Learn about the Northern Lights",
+        "Explore archaeological exhibits"
+      ],
+      "de": [
+        "Die samische Kultur kennenlernen",
+        "Die Geschichte Nordnorwegens entdecken",
+        "Naturkundliche Ausstellungen besuchen",
+        "Mehr über die Nordlichter erfahren",
+        "Archäologische Ausstellungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "tarih",
+        "kültür",
+        "sami kültürü",
+        "bilim",
+        "arkeoloji"
+      ],
+      "en": [
+        "museum",
+        "history",
+        "culture",
+        "Sami culture",
+        "science",
+        "archaeology"
+      ],
+      "de": [
+        "museum",
+        "geschichte",
+        "kultur",
+        "samische kultur",
+        "wissenschaft",
+        "archäologie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Troms%C3%B8%20Museum.jpg"
     ]
   }
 ]

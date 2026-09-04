@@ -6,39 +6,78 @@
       "en": "Ganges River",
       "de": "Ganges Fluss"
     },
-    "latitude": 25.2952,
-    "longitude": 82.0078,
+    "latitude": 25.3,
+    "longitude": 83.01,
     "description": {
-      "tr": "Ganj Nehri, Hindistan’ın en kutsal nehridir ve Varanasi’nin kalbinde yer alır. Sabaha karşı yapılan tekne turları, bu kutsal nehri görmek için en güzel fırsattır.",
-      "en": "The Ganges River is one of the holiest rivers in India, and it flows through the heart of Varanasi. Early morning boat rides are a popular way to experience this sacred river.",
-      "de": "Der Gangesfluss ist einer der heiligsten Flüsse Indiens und verläuft durch das Herz von Varanasi. Frühmorgendliche Bootstouren sind eine beliebte Möglichkeit, diesen heiligen Fluss zu erleben."
+      "tr": "Ganj Nehri, Hindistan'ın en önemli ve Hinduizm açısından en kutsal nehirlerinden biridir. Kuzey Hindistan boyunca ilerleyen nehir, Varanasi'de şehrin kimliğinin ayrılmaz bir parçasına dönüşür. Varanasi'nin tarihi kıyı şeridi boyunca uzanan çok sayıdaki ghat, yani nehir kıyısındaki taş basamaklar, Ganj'ın şehir yaşamındaki dini ve kültürel önemini açıkça gösterir. Sabahın erken saatlerinde nehir üzerinde yapılan tekne turları, Varanasi'yi deneyimlemenin en karakteristik yollarından biridir. Gün doğumu sırasında ghats boyunca uzanan tapınaklar, saraylar ve tarihi yapılar yumuşak ışık altında farklı bir görünüme kavuşur. Nehir kıyısında sabah ibadetleri, dua, yoga ve çeşitli dini ritüeller gerçekleştirilebilir. Akşam saatlerinde ise özellikle Dashashwamedh Ghat çevresindeki Ganga Aarti törenleri nehir kıyısında dikkat çekici bir atmosfer oluşturur. Ganj yalnızca dini açıdan değil, Varanasi'nin sosyal ve kültürel yaşamı açısından da önemlidir. Ghats boyunca ibadet edenler, hacılar, yerel halk, kayıkçılar ve ziyaretçiler bir arada görülür. Manikarnika Ghat gibi bazı bölümler kremasyon ritüelleri için kullanılırken, Assi Ghat gibi başka alanlar sabah etkinlikleri ve kültürel faaliyetleriyle öne çıkar. Ziyaretçiler nehir üzerinde tekne turuna katılabilir, kıyıdaki tarihi ghatları yürüyerek keşfedebilir ve gün doğumu veya gün batımında fotoğraf çekebilir. Ancak dini ritüelleri gözlemlerken insanların mahremiyetine ve yerel geleneklere saygı göstermek önemlidir. Ganj Nehri, Varanasi'de yalnızca doğal bir unsur değil; binlerce yıllık dini geleneklerin, hac kültürünün, şehir tarihinin ve günlük yaşamın merkezinde bulunan yaşayan bir kültürel peyzajdır.",
+      "en": "The Ganges River is one of India's most important rivers and one of the holiest rivers in Hindu tradition. Flowing across northern India, it becomes inseparable from the identity of Varanasi, where the historic riverfront is lined with numerous ghats, the stone steps leading down to the river. These ghats demonstrate the river's central role in the religious and cultural life of the city. Early-morning boat rides on the Ganges are among the most characteristic ways to experience Varanasi. Around sunrise, temples, palaces and historic buildings along the ghats are illuminated by soft morning light, creating one of the city's most memorable scenes. Morning prayers, yoga and various religious rituals take place along the river. In the evening, ceremonies such as the Ganga Aarti at Dashashwamedh Ghat create another distinctive atmosphere along the waterfront. The Ganges is important not only for religious reasons but also for the social and cultural life of Varanasi. Pilgrims, worshippers, local residents, boatmen and visitors can all be seen along the ghats. Some areas, such as Manikarnika Ghat, are used for cremation rituals, while others, including Assi Ghat, are known for morning gatherings and cultural activities. Visitors can take boat trips, explore the historic ghats on foot and photograph the river at sunrise or sunset. When observing religious ceremonies, however, it is important to respect people's privacy and local customs. In Varanasi, the Ganges is more than a river. It forms a living cultural landscape at the centre of religious traditions, pilgrimage, urban history and everyday life that have shaped the city for centuries.",
+      "de": "Der Ganges ist einer der wichtigsten Flüsse Indiens und gehört in der hinduistischen Tradition zu den heiligsten Flüssen des Landes. Auf seinem Weg durch Nordindien wird er in Varanasi zu einem untrennbaren Bestandteil der Identität der Stadt. Entlang des historischen Ufers reihen sich zahlreiche Ghats, steinerne Treppen, die zum Fluss hinunterführen. Sie verdeutlichen die zentrale religiöse und kulturelle Bedeutung des Ganges für Varanasi. Frühmorgendliche Bootsfahrten gehören zu den charakteristischsten Möglichkeiten, die Stadt vom Wasser aus zu erleben. Bei Sonnenaufgang werden Tempel, Paläste und historische Gebäude entlang der Ghats vom weichen Morgenlicht beleuchtet. Am Fluss finden am Morgen Gebete, Yoga und verschiedene religiöse Rituale statt. Am Abend schaffen Zeremonien wie die Ganga Aarti am Dashashwamedh Ghat eine besondere Atmosphäre. Der Ganges ist nicht nur aus religiöser Sicht wichtig, sondern spielt auch eine zentrale Rolle im sozialen und kulturellen Leben von Varanasi. Pilger, Gläubige, Einheimische, Bootsführer und Besucher begegnen sich entlang der Ghats. Einige Bereiche wie der Manikarnika Ghat dienen traditionellen Einäscherungsritualen, während andere Ghats, darunter Assi Ghat, für morgendliche Veranstaltungen und kulturelle Aktivitäten bekannt sind. Besucher können an einer Bootsfahrt teilnehmen, die historischen Ghats zu Fuß erkunden und den Fluss bei Sonnenaufgang oder Sonnenuntergang fotografieren. Bei religiösen Zeremonien sollten jedoch die Privatsphäre der Menschen und die örtlichen Traditionen respektiert werden. In Varanasi ist der Ganges weit mehr als ein Fluss. Er bildet eine lebendige Kulturlandschaft, die religiöse Traditionen, Pilgerwesen, Stadtgeschichte und den Alltag der Stadt miteinander verbindet."
     },
     "activities": {
       "tr": [
-        "Tekne turu",
-        "Hindu dini seremonileri izleme",
-        "Meditasyon"
+        "Gün doğumunda tekne turu yapmak",
+        "Ghatları nehirden izlemek",
+        "Ganj kıyısında yürümek",
+        "Ganga Aarti törenini izlemek",
+        "Sabah ritüellerini gözlemlemek",
+        "Gün doğumu ve gün batımında fotoğraf çekmek",
+        "Yoga ve meditasyon etkinliklerine katılmak",
+        "Varanasi'nin nehir kültürünü keşfetmek"
       ],
       "en": [
-        "Boat ride",
-        "Watch Hindu religious ceremonies",
-        "Meditation"
+        "Take a sunrise boat ride",
+        "View the ghats from the river",
+        "Walk along the Ganges waterfront",
+        "Watch the Ganga Aarti ceremony",
+        "Observe morning rituals",
+        "Take sunrise and sunset photographs",
+        "Join yoga or meditation activities",
+        "Discover Varanasi's river culture"
       ],
       "de": [
-        "Bootsfahrt",
-        "Beobachten von hinduistischen religiösen Zeremonien",
-        "Meditation"
+        "Eine Bootsfahrt bei Sonnenaufgang unternehmen",
+        "Die Ghats vom Fluss aus betrachten",
+        "Am Gangesufer spazieren",
+        "Die Ganga-Aarti-Zeremonie beobachten",
+        "Morgenrituale beobachten",
+        "Bei Sonnenaufgang und Sonnenuntergang fotografieren",
+        "An Yoga- oder Meditationsangeboten teilnehmen",
+        "Die Flusskultur von Varanasi entdecken"
       ]
     },
     "categories": {
       "tr": [
-        "genel"
+        "nehir",
+        "doğa",
+        "kültür",
+        "din",
+        "hac",
+        "maneviyat",
+        "tekne turu",
+        "fotoğrafçılık",
+        "şehir manzarası"
       ],
       "en": [
-        "general"
+        "river",
+        "nature",
+        "culture",
+        "religion",
+        "pilgrimage",
+        "spirituality",
+        "boat tour",
+        "photography",
+        "city views"
       ],
       "de": [
-        "Allgemein"
+        "Fluss",
+        "Natur",
+        "Kultur",
+        "Religion",
+        "Pilgerreise",
+        "Spiritualität",
+        "Bootstour",
+        "Fotografie",
+        "Stadtblick"
       ]
     },
     "images": [
@@ -52,42 +91,75 @@
       "en": "Kashi Vishwanath Temple",
       "de": "Kashi Vishwanath Tempel"
     },
-    "latitude": 25.309,
-    "longitude": 82.0735,
+    "latitude": 25.31082,
+    "longitude": 83.01067,
     "description": {
-      "tr": "Kashi Vishwanath Tapınağı, Hinduizm’in en kutsal Shiva tapınaklarından biridir. Bu tapınak, Ganj Nehri’nin yakınında yer alır ve her yıl milyonlarca ziyaretçi çeker.",
-      "en": "Kashi Vishwanath Temple is one of the holiest Shiva temples in Hinduism. It is located near the Ganges River and attracts millions of visitors each year.",
-      "de": "Der Kashi Vishwanath Tempel ist einer der heiligsten Shiva-Tempel im Hinduismus. Er liegt in der Nähe des Gangesflusses und zieht jedes Jahr Millionen von Besuchern an."
+      "tr": "Kashi Vishwanath Tapınağı, Varanasi'nin en önemli Hindu tapınaklarından ve Shiva'ya adanmış en kutsal hac merkezlerinden biridir. Tapınak, Kashi Vishwanath veya Vishwanath Jyotirlinga olarak bilinen Shiva formuna adanmıştır ve Ganj Nehri'nin tarihi ghatlarına oldukça yakın bir konumda bulunur. Varanasi'nin dini kimliğinin merkezinde yer alan tapınak, özellikle Shiva'ya ibadet eden Hindular için önemli bir hac noktasıdır. Günümüzde görülen tapınak yapısı 1780 yılında Indore hükümdarı Maharani Ahilyabai Holkar tarafından inşa ettirilmiştir. Daha sonraki dönemlerde kompleksin çeşitli bölümlerine ve kubbelerine yapılan eklemeler tapınağın bugünkü görünümünün oluşmasına katkıda bulunmuştur. Tapınağın kubbelerinden ikisi 19. yüzyılda Maharaja Ranjit Singh tarafından bağışlanan altınla kaplanmıştır. Kashi Vishwanath'ın çevresi Varanasi'nin eski şehir dokusunu oluşturan dar sokaklar, küçük tapınaklar, dini yapılar ve geleneksel işletmelerle çevrilidir. Bu nedenle tapınağa yapılan ziyaret, yalnızca bir yapı görmekten çok Kashi'nin dini ve tarihi atmosferini deneyimleme fırsatı sunar. Tapınak aktif bir ibadet alanı olduğu için ziyaretçilerin kıyafet, fotoğraf, güvenlik ve giriş kurallarına uyması gerekir. Ziyaretçiler burada ibadet edebilir, dini ritüelleri gözlemleyebilir ve tapınağın mimari özelliklerini inceleyebilir. Kashi Vishwanath, Ganj kıyısındaki Manikarnika Ghat ve diğer tarihi ghatlarla birlikte değerlendirildiğinde Varanasi'nin dini mirasını anlamak için önemli bir duraktır.",
+      "en": "Kashi Vishwanath Temple is one of the most important Hindu temples in Varanasi and one of the most sacred pilgrimage centres dedicated to Shiva. The temple is dedicated to Shiva in the form known as Kashi Vishwanath or Vishwanath Jyotirlinga and is located close to the historic ghats of the Ganges. It occupies a central place in the religious identity of Varanasi and is particularly important for Hindu pilgrims devoted to Shiva. The present temple structure was built in 1780 under Maharani Ahilyabai Holkar of Indore. Further additions and changes were made to parts of the complex over later periods, contributing to its present appearance. Two of the temple's domes were covered with gold donated by Maharaja Ranjit Singh in the 19th century. The area surrounding Kashi Vishwanath preserves the dense historic character of the old city, with narrow lanes, small shrines, religious buildings and traditional businesses. A visit therefore offers more than an encounter with a single building; it provides an opportunity to experience the religious and historic atmosphere of Kashi. Because the temple remains an active place of worship, visitors should follow current rules concerning clothing, photography, security and entry. Visitors may worship, observe religious practices and appreciate the architecture of the temple complex. Together with Manikarnika Ghat and the other historic ghats along the Ganges, Kashi Vishwanath is an important stop for understanding Varanasi's religious heritage.",
+      "de": "Der Kashi-Vishwanath-Tempel gehört zu den wichtigsten hinduistischen Tempeln von Varanasi und zu den bedeutendsten Pilgerstätten, die Shiva gewidmet sind. Der Tempel verehrt Shiva in der Form von Kashi Vishwanath beziehungsweise Vishwanath Jyotirlinga und liegt nahe den historischen Ghats am Ganges. Er nimmt eine zentrale Stellung in der religiösen Identität von Varanasi ein und ist insbesondere für Shiva-Pilger von großer Bedeutung. Das heutige Tempelgebäude wurde 1780 unter Maharani Ahilyabai Holkar von Indore errichtet. In späteren Zeiten wurden verschiedene Teile des Komplexes erweitert oder verändert, wodurch sein heutiges Erscheinungsbild entstand. Zwei Kuppeln des Tempels wurden im 19. Jahrhundert mit Gold verkleidet, das von Maharaja Ranjit Singh gestiftet wurde. Die Umgebung des Kashi Vishwanath bewahrt den dichten historischen Charakter der Altstadt mit engen Gassen, kleinen Schreinen, religiösen Gebäuden und traditionellen Geschäften. Ein Besuch ermöglicht daher nicht nur die Besichtigung eines einzelnen Bauwerks, sondern auch einen Einblick in die religiöse und historische Atmosphäre von Kashi. Da der Tempel weiterhin ein aktiver Ort der Anbetung ist, sollten Besucher die aktuellen Regeln zu Kleidung, Fotografie, Sicherheitskontrollen und Zutritt beachten. Besucher können beten, religiöse Rituale beobachten und die Architektur des Tempelkomplexes kennenlernen. Zusammen mit dem Manikarnika Ghat und den anderen historischen Ghats am Ganges ist der Kashi-Vishwanath-Tempel ein wichtiger Ort, um das religiöse Erbe von Varanasi zu verstehen."
     },
     "activities": {
       "tr": [
-        "Dini ibadet",
-        "Tarihi ziyaret",
-        "Hindu kültürünü keşfetme"
+        "İbadet etmek",
+        "Tapınak mimarisini keşfetmek",
+        "Dini ritüelleri gözlemlemek",
+        "Shiva kültürünü tanımak",
+        "Kashi'nin hac geleneğini keşfetmek",
+        "Eski şehir sokaklarını keşfetmek",
+        "Tapınak çevresindeki dini yapıları görmek"
       ],
       "en": [
-        "Religious worship",
-        "Historical visit",
-        "Explore Hindu culture"
+        "Worship at the temple",
+        "Explore the temple architecture",
+        "Observe religious rituals",
+        "Learn about Shiva traditions",
+        "Discover Kashi's pilgrimage culture",
+        "Explore the old city lanes",
+        "Visit religious sites around the temple"
       ],
       "de": [
-        "Religiöse Verehrung",
-        "Historische Besichtigung",
-        "Hindu-Kultur entdecken"
+        "Im Tempel beten",
+        "Die Tempelarchitektur erkunden",
+        "Religiöse Rituale beobachten",
+        "Die Traditionen rund um Shiva kennenlernen",
+        "Die Pilgertradition von Kashi entdecken",
+        "Die Gassen der Altstadt erkunden",
+        "Religiöse Orte rund um den Tempel besuchen"
       ]
     },
     "categories": {
       "tr": [
         "tapınak",
-        "anıtsal yapı"
+        "din",
+        "Hinduizm",
+        "Shiva",
+        "hac",
+        "maneviyat",
+        "tarih",
+        "mimari",
+        "kültür"
       ],
       "en": [
         "temple",
-        "monumental structure"
+        "religion",
+        "Hinduism",
+        "Shiva",
+        "pilgrimage",
+        "spirituality",
+        "history",
+        "architecture",
+        "culture"
       ],
       "de": [
         "Tempel",
-        "monumentale Struktur"
+        "Religion",
+        "Hinduismus",
+        "Shiva",
+        "Pilgerreise",
+        "Spiritualität",
+        "Geschichte",
+        "Architektur",
+        "Kultur"
       ]
     },
     "images": [
@@ -101,36 +173,69 @@
       "en": "Manikarnika Ghat",
       "de": "Manikarnika Ghat"
     },
-    "latitude": 25.3096,
-    "longitude": 82.0739,
+    "latitude": 25.31077,
+    "longitude": 83.01402,
     "description": {
-      "tr": "Manikarnika Ghat, Varanasi’deki en önemli ve en kutsal cenaze merdivenlerinden biridir. Burada cenaze törenleri yapılır ve Hindu inancına göre, burada ölen kişilerin ruhları kurtuluşa ulaşır.",
-      "en": "Manikarnika Ghat is one of the most important and sacred funeral ghats in Varanasi. Funeral rituals take place here, and in Hindu belief, those who die here attain liberation.",
-      "de": "Manikarnika Ghat ist einer der wichtigsten und heiligsten Leichenschauhäuser in Varanasi. Hier finden Begräbnisriten statt, und im Hinduismus glaubt man, dass die Seelen der Verstorbenen hier Befreiung erlangen."
+      "tr": "Manikarnika Ghat, Varanasi'nin Ganj Nehri kıyısındaki en kutsal ve en tanınmış kremasyon alanlarından biridir. Hindu geleneğinde ölüm, yaşam döngüsünün bir parçası olarak görülür ve Manikarnika Ghat yüzyıllardır cenaze ve kremasyon ritüelleriyle ilişkilendirilen önemli bir hac noktasıdır. Hindu inancına göre burada gerçekleşen ölüm ve kremasyonla ilgili ritüeller moksha, yani yeniden doğuş döngüsünden kurtuluş düşüncesiyle ilişkilendirilir. Ghat aynı zamanda dini açıdan yalnızca kremasyon alanı değildir; tarih boyunca hac, ibadet, arınma ve çeşitli dini ritüellerle de bağlantılı olmuştur. Günümüzde ghatın bazı bölümleri banyo ve dini ritüeller için kullanılırken, diğer bölümleri kremasyonlara ayrılmıştır. Manikarnika Ghat, Varanasi'nin diğer ghatlarından farklı olarak ziyaretçilere son derece yoğun ve hassas bir kültürel deneyim sunar. Burada yapılan ritüellerin bir turistik gösteri olmadığı unutulmamalıdır. Ziyaretçilerin özellikle fotoğraf ve video konusunda son derece dikkatli davranması, ailelerin mahremiyetine ve dini törenlerin ciddiyetine saygı göstermesi gerekir. Ghat çevresindeki teknelerden bölgeyi uzaktan görmek mümkün olabilir, ancak ritüellere müdahale edilmemeli ve insanların izni olmadan fotoğrafları çekilmemelidir. Manikarnika Ghat, Varanasi'nin yaşam, ölüm, inanç ve hac kültürünün nasıl iç içe geçtiğini anlamak açısından önemli bir yerdir. Yakınındaki Kashi Vishwanath Tapınağı ve diğer tarihi ghatlarla birlikte değerlendirildiğinde, şehrin dini coğrafyasının merkezindeki konumu daha iyi anlaşılır. Burası klasik anlamda eğlence amaçlı bir turistik mekân değil; ziyaret sırasında sessizlik, mesafe ve kültürel hassasiyet gerektiren aktif bir dini alandır.",
+      "en": "Manikarnika Ghat is one of the holiest and best-known cremation grounds along the Ganges in Varanasi. In Hindu tradition, death is understood as part of the cycle of existence, and Manikarnika Ghat has for centuries been associated with funeral and cremation rituals and pilgrimage. Hindu beliefs connect death and cremation rituals performed here with the idea of moksha, liberation from the cycle of rebirth. The ghat is not exclusively associated with cremation; historically, it has also been connected with pilgrimage, worship, ritual bathing and other religious practices. Today, different parts of the ghat are used for bathing and religious rituals, while other sections are reserved for cremations. Manikarnika offers a very different and highly sensitive cultural experience from many of Varanasi's other riverfront sites. Visitors should remember that the ceremonies taking place here are not a tourist performance. Photography and filming require particular care, and the privacy of families and the seriousness of the rituals should always be respected. From boats on the river, visitors may be able to observe the area from a distance, but they should never interfere with ceremonies or photograph people without permission. Manikarnika Ghat is an important place for understanding how life, death, faith and pilgrimage are intertwined in Varanasi. Its proximity to Kashi Vishwanath Temple and other historic ghats further demonstrates its central position within the city's religious geography. This is not a conventional entertainment attraction but an active religious site where visitors should behave with silence, distance and cultural sensitivity.",
+      "de": "Der Manikarnika Ghat gehört zu den heiligsten und bekanntesten Einäscherungsplätzen am Ganges in Varanasi. In der hinduistischen Tradition wird der Tod als Teil des Kreislaufs des Daseins verstanden, und der Manikarnika Ghat ist seit Jahrhunderten mit Bestattungs- und Einäscherungsritualen sowie mit Pilgerreisen verbunden. Nach hinduistischer Vorstellung stehen die hier durchgeführten Rituale im Zusammenhang mit Moksha, der Befreiung aus dem Kreislauf der Wiedergeburt. Der Ghat ist jedoch nicht ausschließlich ein Ort der Einäscherung. Historisch war er auch mit Pilgerreisen, Gebeten, rituellen Bädern und anderen religiösen Praktiken verbunden. Heute werden verschiedene Bereiche des Ghats für rituelle Bäder und religiöse Handlungen genutzt, während andere Abschnitte den Einäscherungen vorbehalten sind. Der Manikarnika Ghat bietet eine wesentlich sensiblere kulturelle Erfahrung als viele andere Orte am Flussufer von Varanasi. Besucher sollten bedenken, dass die hier stattfindenden Rituale keine touristische Aufführung sind. Beim Fotografieren und Filmen ist besondere Zurückhaltung erforderlich, und die Privatsphäre der Familien sowie die Würde der Rituale müssen respektiert werden. Von Booten auf dem Fluss kann die Umgebung teilweise aus größerer Entfernung beobachtet werden, ohne die Zeremonien zu stören. Der Manikarnika Ghat hilft dabei zu verstehen, wie eng Leben, Tod, Glaube und Pilgerwesen in Varanasi miteinander verbunden sind. Zusammen mit dem nahe gelegenen Kashi-Vishwanath-Tempel und den anderen historischen Ghats bildet er einen wichtigen Teil der religiösen Geografie der Stadt. Es handelt sich nicht um eine gewöhnliche Touristenattraktion, sondern um einen aktiven religiösen Ort, an dem Ruhe, Abstand und kulturelle Sensibilität besonders wichtig sind."
     },
     "activities": {
       "tr": [
-        "Cenaze töreni gözlemi",
-        "Hindu ritüelleri hakkında bilgi edinme"
+        "Ghatı uzaktan gözlemlemek",
+        "Ganj Nehri'nden tekneyle çevreyi görmek",
+        "Hindu cenaze gelenekleri hakkında bilgi edinmek",
+        "Varanasi'nin dini kültürünü anlamak",
+        "Ghat çevresindeki tarihi yapıları keşfetmek",
+        "Dini ritüellere saygılı biçimde tanıklık etmek"
       ],
       "en": [
-        "Observe funeral rites",
-        "Learn about Hindu rituals"
+        "Observe the ghat from a respectful distance",
+        "View the area from a boat on the Ganges",
+        "Learn about Hindu funeral traditions",
+        "Understand Varanasi's religious culture",
+        "Explore historic sites around the ghat",
+        "Witness religious practices respectfully"
       ],
       "de": [
-        "Beobachten von Bestattungsriten",
-        "Lernen über hinduistische Rituale"
+        "Den Ghat aus respektvoller Entfernung beobachten",
+        "Die Umgebung von einem Boot auf dem Ganges aus sehen",
+        "Hinduistische Bestattungstraditionen kennenlernen",
+        "Die religiöse Kultur von Varanasi verstehen",
+        "Historische Orte rund um den Ghat erkunden",
+        "Religiöse Rituale respektvoll beobachten"
       ]
     },
     "categories": {
       "tr": [
-        "genel"
+        "ghat",
+        "din",
+        "Hinduizm",
+        "hac",
+        "kültür",
+        "tarih",
+        "maneviyat",
+        "nehir kıyısı"
       ],
       "en": [
-        "general"
+        "ghat",
+        "religion",
+        "Hinduism",
+        "pilgrimage",
+        "culture",
+        "history",
+        "spirituality",
+        "riverfront"
       ],
       "de": [
-        "Allgemein"
+        "Ghat",
+        "Religion",
+        "Hinduismus",
+        "Pilgerreise",
+        "Kultur",
+        "Geschichte",
+        "Spiritualität",
+        "Flussufer"
       ]
     },
     "images": [
@@ -144,42 +249,75 @@
       "en": "Durga Kund Temple",
       "de": "Durga Kund Tempel"
     },
-    "latitude": 25.2892,
-    "longitude": 82.0587,
+    "latitude": 25.28909,
+    "longitude": 82.9995,
     "description": {
-      "tr": "Durgakund Tapınağı, Varanasi’nin en eski ve en saygın tapınaklarından biridir. Durga Tanrıçası’na adanmıştır ve ziyaretçiler burada huzur ve manevi bir deneyim arar.",
-      "en": "Durga Kund Temple is one of the oldest and most revered temples in Varanasi, dedicated to the Goddess Durga. Visitors seek peace and a spiritual experience here.",
-      "de": "Der Durga Kund Tempel ist einer der ältesten und verehrtesten Tempel in Varanasi, der der Göttin Durga gewidmet ist. Besucher suchen hier Frieden und spirituelle Erfahrung."
+      "tr": "Durga Kund Tapınağı, Varanasi'nin önemli Hindu tapınaklarından biri ve tanrıça Durga'ya adanmış tarihi bir ibadet merkezidir. Tapınak, adını hemen yanında bulunan Durga Kund adlı kutsal havuzdan alır. Günümüzde görülen yapı 18. yüzyılla ilişkilendirilir ve geleneksel kuzey Hindistan Nagara mimarisinin karakteristik özelliklerini taşır. Kırmızımsı taş kullanımı, yükselen şikhara kuleleri ve avlu çevresindeki mimari düzen tapınağın görünümünü belirler. Tapınağın hemen yanındaki kund, yani kutsal su havuzu, Varanasi'nin dini coğrafyasında önemli bir yere sahiptir. Durga Tapınağı, özellikle Navratri gibi Durga ile bağlantılı dini dönemlerde yoğun ziyaretçi ve ibadetçi çekebilir. Tapınak aktif bir ibadet alanı olduğundan ziyaretçilerin dini kurallara, kıyafet gerekliliklerine ve fotoğraf çekimiyle ilgili yerel uygulamalara dikkat etmesi gerekir. Tapınağın çevresinde Varanasi'nin yoğun şehir dokusu devam ederken, kutsal havuz ve tapınak avlusu farklı bir atmosfer oluşturur. Burayı ziyaret edenler tapınağın mimarisini inceleyebilir, Durga kültürü hakkında bilgi edinebilir ve çevredeki tarihi dini yapıları keşfedebilir. Durgakund Tapınağı, Kashi Vishwanath gibi daha büyük hac merkezlerinin yanında Varanasi'nin farklı dini geleneklerini tanımak isteyenler için daha sakin ve yerel karakterli bir durak olabilir. Tapınağın tarihi, mimarisi ve Durga'ya adanmış ibadet geleneği birlikte değerlendirildiğinde, Varanasi'nin çok katmanlı dini mirasını anlamaya yardımcı olan önemli yapılardan biridir.",
+      "en": "Durga Kund Temple is an important Hindu temple in Varanasi and a historic place of worship dedicated to the goddess Durga. The temple takes its name from the sacred pond known as Durga Kund located beside it. The present structure is associated with the 18th century and displays characteristic elements of northern Indian Nagara architecture. Its reddish stone construction, rising shikhara towers and courtyard arrangement contribute to its distinctive appearance. The sacred pond beside the temple, known as a kund, is also an important part of the religious landscape of Varanasi. The temple can attract larger numbers of worshippers during religious periods associated with Durga, including Navratri. As an active place of worship, visitors should respect local religious practices, clothing expectations and rules concerning photography. Around the temple, the dense urban character of Varanasi continues, while the temple courtyard and sacred pond create a contrasting atmosphere. Visitors can appreciate the architecture, learn about traditions associated with Durga and explore other historic religious sites in the surrounding area. Compared with larger pilgrimage centres such as Kashi Vishwanath, Durga Kund can provide a more local-scale experience of Varanasi's religious heritage. Its architecture, history and continuing worship tradition make it an important place for understanding the city's layered religious culture.",
+      "de": "Der Durga-Kund-Tempel ist ein bedeutender hinduistischer Tempel in Varanasi und ein historischer Ort der Verehrung der Göttin Durga. Der Tempel trägt seinen Namen nach dem heiligen Teich Durga Kund, der sich unmittelbar neben dem Bauwerk befindet. Das heutige Gebäude wird mit dem 18. Jahrhundert verbunden und weist charakteristische Elemente der nordindischen Nagara-Architektur auf. Die rötliche Steinbauweise, die aufragenden Shikhara-Türme und die Anordnung um einen Innenhof prägen das Erscheinungsbild des Tempels. Der heilige Teich neben dem Tempel ist ebenfalls ein wichtiger Bestandteil der religiösen Landschaft von Varanasi. Während religiöser Feste und Zeiten, die mit Durga verbunden sind, darunter Navratri, kann der Tempel besonders viele Gläubige anziehen. Da es sich um einen aktiven Gebetsort handelt, sollten Besucher die örtlichen religiösen Regeln, Kleidungsvorschriften und Bestimmungen zur Fotografie beachten. Rund um den Tempel setzt sich das dichte Stadtbild von Varanasi fort, während der Innenhof und der heilige Teich eine besondere Atmosphäre schaffen. Besucher können die Architektur betrachten, mehr über die Traditionen rund um Durga erfahren und weitere historische religiöse Orte in der Umgebung erkunden. Im Vergleich zu größeren Pilgerzentren wie dem Kashi-Vishwanath-Tempel ermöglicht der Durga-Kund-Tempel einen stärker lokal geprägten Einblick in das religiöse Erbe von Varanasi. Seine Architektur, Geschichte und die bis heute fortbestehende Verehrung machen ihn zu einem wichtigen Ort, um die vielschichtige religiöse Kultur der Stadt zu verstehen."
     },
     "activities": {
       "tr": [
-        "Tapınak ziyareti",
-        "Dini ibadet",
-        "Meditasyon"
+        "Tapınağı ziyaret etmek",
+        "Durga'ya adanmış ibadet geleneğini tanımak",
+        "Nagara mimarisini incelemek",
+        "Durga Kund kutsal havuzunu görmek",
+        "Dini ritüeller hakkında bilgi edinmek",
+        "Tapınak çevresindeki tarihi yapıları keşfetmek",
+        "Fotoğraf çekmek"
       ],
       "en": [
-        "Temple visit",
-        "Religious worship",
-        "Meditation"
+        "Visit the temple",
+        "Learn about traditions dedicated to Durga",
+        "Explore Nagara architecture",
+        "See the Durga Kund sacred pond",
+        "Learn about religious rituals",
+        "Explore historic sites nearby",
+        "Take photographs"
       ],
       "de": [
-        "Tempelbesuch",
-        "Religiöse Verehrung",
-        "Meditation"
+        "Den Tempel besichtigen",
+        "Traditionen rund um Durga kennenlernen",
+        "Nagara-Architektur erkunden",
+        "Den heiligen Durga-Kund-Teich sehen",
+        "Religiöse Rituale kennenlernen",
+        "Historische Orte in der Umgebung erkunden",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
         "tapınak",
-        "anıtsal yapı"
+        "din",
+        "Hinduizm",
+        "Durga",
+        "tarih",
+        "mimari",
+        "kültür",
+        "hac",
+        "kutsal alan"
       ],
       "en": [
         "temple",
-        "monumental structure"
+        "religion",
+        "Hinduism",
+        "Durga",
+        "history",
+        "architecture",
+        "culture",
+        "pilgrimage",
+        "sacred site"
       ],
       "de": [
         "Tempel",
-        "monumentale Struktur"
+        "Religion",
+        "Hinduismus",
+        "Durga",
+        "Geschichte",
+        "Architektur",
+        "Kultur",
+        "Pilgerstätte",
+        "heiliger Ort"
       ]
     },
     "images": [
@@ -193,39 +331,84 @@
       "en": "Sarnath",
       "de": "Sarnath"
     },
-    "latitude": 25.3809,
-    "longitude": 82.7753,
+    "latitude": 25.38083,
+    "longitude": 83.02444,
     "description": {
-      "tr": "Sarnath, Budizm’in doğuş yeri olarak kabul edilir. Buddha’nın aydınlanmayı burada bulduğuna inanılır. Sarnath’ta, antik tapınaklar ve kazılar görülebilir.",
-      "en": "Sarnath is considered the birthplace of Buddhism, where Buddha is believed to have attained enlightenment. Ancient temples and excavations can be explored here.",
-      "de": "Sarnath gilt als der Geburtsort des Buddhismus, wo Buddha angeblich Erleuchtung erlangte. Hier können antike Tempel und Ausgrabungen besichtigt werden."
+      "tr": "Sarnath, Varanasi'nin yaklaşık 10 kilometre kuzeydoğusunda bulunan ve Budizm tarihinin en önemli merkezlerinden biri kabul edilen antik bir dini ve arkeolojik alandır. Burası Buddha'nın aydınlanmaya ulaştığı yer değildir; Buddha'nın Bodh Gaya'da aydınlanmasının ardından ilk öğretilerini verdiği ve Budist geleneğinde Dharma'nın yayılmasının başlangıcı olarak kabul edilen yerdir. Geleneksel anlatıya göre Buddha, aydınlanmasından sonra Sarnath'a gelerek daha önce birlikte olduğu beş keşişe ilk vaazını verdi. Bu olay Budist gelenekte 'Dharma Çarkı'nın döndürülmesi' olarak anılır. Sarnath'ın arkeolojik alanında antik stupalar, manastır kalıntıları ve farklı dönemlere ait dini yapılar görülebilir. Dhamek Stupası bölgenin en tanınmış yapılarından biridir ve Buddha'nın ilk vaazıyla ilişkilendirilen alanın önemli simgelerindendir. Chaukhandi Stupası da Sarnath'ın önemli tarihi yapıları arasında yer alır. Arkeolojik kazılar sırasında ortaya çıkarılan heykeller ve diğer eserlerin önemli bir bölümü Sarnath Müzesi'nde sergilenmektedir. Müze, Hindistan Arkeolojik Araştırmalar Kurumu tarafından oluşturulan en eski yerleşke müzelerinden biri olarak Sarnath'ın tarihini anlamak açısından özellikle önemlidir. Sarnath günümüzde Hindistan'ın yanı sıra Sri Lanka, Tayland, Myanmar, Tibet, Japonya ve diğer Budist topluluklardan gelen hacılar için önemli bir ziyaret noktasıdır. Antik kalıntıların çevresinde farklı ülkelerin Budist geleneklerini temsil eden modern tapınaklar ve manastırlar da bulunur. Sarnath'ın atmosferi Varanasi'nin yoğun ve hareketli nehir kıyısından oldukça farklıdır; arkeolojik alan, yeşil çevresi ve dini yapıları daha sakin bir gezi deneyimi sunar. Tarihe ve Budizm'e ilgi duyan ziyaretçiler burada antik kalıntıları gezebilir, müzeyi ziyaret edebilir ve Buddha'nın ilk öğretilerinin verildiği yerin tarihsel önemini anlayabilir. Sarnath, UNESCO Dünya Mirası Listesi'nde değildir; alan UNESCO'nun Hindistan Geçici Dünya Mirası Listesi'nde yer alan bir aday olarak değerlendirilmiştir.",
+      "en": "Sarnath is an ancient religious and archaeological site about 10 kilometres northeast of Varanasi and is regarded as one of the most important places in the history of Buddhism. It is not the place where the Buddha attained enlightenment; according to Buddhist tradition, he attained enlightenment at Bodh Gaya and later travelled to Sarnath, where he delivered his first sermon. This event is traditionally associated with the beginning of the Buddha's teaching and is known as the 'turning of the Wheel of Dharma'. The archaeological area of Sarnath contains ancient stupas, monastery remains and religious structures from different periods. The Dhamek Stupa is one of the site's most recognisable monuments and is traditionally associated with the location of the Buddha's first sermon. Chaukhandi Stupa is another important historic structure within the wider Sarnath area. Many sculptures and artefacts discovered through archaeological excavations are preserved in the Sarnath Museum. The museum is particularly valuable for understanding the history of the site and its Buddhist artistic heritage. Sarnath remains an important pilgrimage destination for Buddhists from India and from countries and communities including Sri Lanka, Thailand, Myanmar, Tibet and Japan. Modern Buddhist temples and monasteries representing different traditions can also be found around the archaeological area. The atmosphere of Sarnath is considerably quieter than the busy riverfront of Varanasi, with archaeological remains, landscaped surroundings and religious buildings creating a more peaceful setting. Visitors interested in history and Buddhism can explore the ancient remains, visit the museum and learn about the historical importance of the Buddha's first teaching. Sarnath is not currently inscribed on the UNESCO World Heritage List; it has been included on India's UNESCO Tentative List as a potential heritage property.",
+      "de": "Sarnath ist eine antike religiöse und archäologische Stätte etwa 10 Kilometer nordöstlich von Varanasi und gilt als einer der bedeutendsten Orte in der Geschichte des Buddhismus. Sarnath ist nicht der Ort, an dem Buddha die Erleuchtung erlangte. Nach buddhistischer Überlieferung erreichte Buddha seine Erleuchtung in Bodh Gaya und reiste anschließend nach Sarnath, wo er seine erste Lehrrede hielt. Dieses Ereignis wird mit dem Beginn seiner Lehrtätigkeit verbunden und als 'Drehen des Rades der Lehre' bezeichnet. Das archäologische Gebiet von Sarnath umfasst antike Stupas, Überreste von Klöstern und religiöse Bauwerke aus verschiedenen Epochen. Der Dhamek-Stupa gehört zu den bekanntesten Bauwerken der Anlage und wird traditionell mit dem Ort der ersten Lehrrede Buddhas verbunden. Auch der Chaukhandi-Stupa ist ein bedeutendes historisches Bauwerk des Gebietes. Zahlreiche bei archäologischen Ausgrabungen entdeckte Skulpturen und Artefakte werden im Sarnath Museum aufbewahrt. Das Museum ist besonders wichtig, um die Geschichte der Stätte und das buddhistische Kunsterbe zu verstehen. Sarnath ist bis heute ein bedeutendes Pilgerziel für Buddhisten aus Indien sowie aus Ländern und Gemeinschaften wie Sri Lanka, Thailand, Myanmar, Tibet und Japan. Rund um das archäologische Gebiet befinden sich außerdem moderne buddhistische Tempel und Klöster verschiedener Traditionen. Die Atmosphäre von Sarnath ist deutlich ruhiger als die belebte Flusslandschaft von Varanasi. Archäologische Überreste, gepflegte Grünflächen und religiöse Bauwerke schaffen eine friedlichere Umgebung. Besucher mit Interesse an Geschichte und Buddhismus können die antiken Überreste erkunden, das Museum besuchen und die historische Bedeutung der ersten Lehrrede Buddhas kennenlernen. Sarnath gehört derzeit nicht zum UNESCO-Welterbe; die Stätte befindet sich jedoch auf der indischen UNESCO-Tentativliste für mögliche zukünftige Welterbestätten."
     },
     "activities": {
       "tr": [
-        "Tapınak ziyareti",
-        "Antik kazılar",
-        "Tarihi keşif"
+        "Dhamek Stupası'nı görmek",
+        "Chaukhandi Stupası'nı keşfetmek",
+        "Antik manastır ve yapı kalıntılarını gezmek",
+        "Sarnath Müzesi'ni ziyaret etmek",
+        "Budizm tarihi hakkında bilgi edinmek",
+        "Buddha'nın ilk vaazının tarihini keşfetmek",
+        "Budist tapınak ve manastırlarını görmek",
+        "Arkeolojik alanda yürümek",
+        "Tarihi fotoğraflamak"
       ],
       "en": [
-        "Temple visit",
-        "Ancient excavations",
-        "Historical exploration"
+        "Visit Dhamek Stupa",
+        "Explore Chaukhandi Stupa",
+        "Explore ancient monastery and building remains",
+        "Visit Sarnath Museum",
+        "Learn about Buddhist history",
+        "Discover the history of the Buddha's first sermon",
+        "Visit Buddhist temples and monasteries",
+        "Walk through the archaeological area",
+        "Photograph historic monuments"
       ],
       "de": [
-        "Tempelbesuch",
-        "Antike Ausgrabungen",
-        "Historische Entdeckungen"
+        "Den Dhamek-Stupa besichtigen",
+        "Den Chaukhandi-Stupa erkunden",
+        "Antike Kloster- und Gebäudereste entdecken",
+        "Das Sarnath Museum besuchen",
+        "Die Geschichte des Buddhismus kennenlernen",
+        "Die Geschichte der ersten Lehrrede Buddhas entdecken",
+        "Buddhistische Tempel und Klöster besuchen",
+        "Durch das archäologische Gebiet spazieren",
+        "Historische Bauwerke fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "genel"
+        "arkeoloji",
+        "Budizm",
+        "tarih",
+        "kültür",
+        "dini miras",
+        "stupa",
+        "müze",
+        "antik alan",
+        "hac",
+        "UNESCO Geçici Liste"
       ],
       "en": [
-        "general"
+        "archaeology",
+        "Buddhism",
+        "history",
+        "culture",
+        "religious heritage",
+        "stupa",
+        "museum",
+        "ancient site",
+        "pilgrimage",
+        "UNESCO Tentative List"
       ],
       "de": [
-        "Allgemein"
+        "Archäologie",
+        "Buddhismus",
+        "Geschichte",
+        "Kultur",
+        "religiöses Erbe",
+        "Stupa",
+        "Museum",
+        "antike Stätte",
+        "Pilgerstätte",
+        "UNESCO-Tentativliste"
       ]
     },
     "images": [

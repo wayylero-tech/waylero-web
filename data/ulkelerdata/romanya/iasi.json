@@ -1,88 +1,154 @@
 [
   {
-    "slug": "tara-m-n-stirii",
+    "slug": "manastirea-sfintii-trei-ierarhi",
     "name": {
-      "tr": "Tara Mănăstirii",
-      "en": "Tara Mănăstirii",
-      "de": "Tara Mănăstirii"
+      "tr": "Üç Kutsal Hiyerarşi Manastırı",
+      "en": "Three Holy Hierarchs Monastery",
+      "de": "Kloster der Heiligen Drei Hierarchen"
     },
-    "latitude": 47.1585,
-    "longitude": 27.6014,
+    "latitude": 47.15970,
+    "longitude": 27.58443,
     "description": {
-      "tr": "Tara Mănăstirii, Iași'nin tarihi dini yapılarından biridir ve önemli bir manastırdır. Manastırın içi oldukça etkileyici ve sakin bir atmosfer sunar.",
-      "en": "Tara Mănăstirii is one of Iași's historical religious buildings and an important monastery. The interior of the monastery offers a serene and impressive atmosphere.",
-      "de": "Tara Mănăstirii ist eines der historischen religiösen Gebäude in Iași und ein wichtiges Kloster. Das Innere des Klosters bietet eine ruhige und beeindruckende Atmosphäre."
+      "tr": "Üç Kutsal Hiyerarşi Manastırı, Iași'nin tarihi merkezinde yer alan ve 17. yüzyıl Moldova mimarisinin en dikkat çekici dini yapılarından biridir. Manastırın ana kilisesi, Moldova Voyvodası Vasile Lupu tarafından 1637-1639 yılları arasında inşa ettirilmiştir. Yapı, geleneksel Moldova mimarisini Bizans, Kafkas, Doğu ve Batı Avrupa etkileriyle birleştiren özgün tasarımıyla öne çıkar. Kilisenin en dikkat çekici özelliği, dış cephelerini neredeyse tamamen kaplayan son derece ayrıntılı taş işçiliğidir. Cephede farklı geometrik ve bitkisel motiflerin yanı sıra Doğu sanatından esinlenen süslemeler görülür ve dekorasyon yaklaşık 30 yatay kuşak halinde düzenlenmiştir. Manastır tarih boyunca yalnızca dini bir merkez değil, aynı zamanda eğitim ve kültür merkezi olarak da önemli bir rol oynamıştır. Burada bir matbaa ve Vasilian College olarak bilinen eğitim kurumu faaliyet göstermiştir. 1641 yılında İstanbul'dan getirilen Azize Parascheva'nın kutsal emanetleri bir dönem burada muhafaza edilmiş, daha sonra Iași Metropolitan Katedrali'ne taşınmıştır. Manastır kompleksi bugün Iași'nin en önemli tarihi anıtlarından biri olarak korunmaktadır ve UNESCO Dünya Mirası Geçici Listesi'nde yer almaktadır. Şehir merkezinde bulunduğu için Metropolitan Katedrali, Birlik Meydanı ve Palatul Culturii gibi önemli noktalarla birlikte yürüyerek ziyaret edilebilir.",
+      "en": "The Three Holy Hierarchs Monastery is located in the historic center of Iași and is one of the most remarkable religious monuments of 17th-century Moldavian architecture. Its main church was commissioned by Moldavian Prince Vasile Lupu and built between 1637 and 1639. The building combines traditional Moldavian architecture with Byzantine, Caucasian, Eastern and Western European influences, creating a distinctive architectural character. Its most striking feature is the exceptionally detailed stonework covering much of the exterior. Geometric and floral motifs, together with decorative elements influenced by Eastern art, are arranged in approximately 30 horizontal bands across the façades. Throughout its history, the monastery served not only as a religious center but also as an important center of education and culture. A printing press and the institution known as Vasilian College operated here. In 1641, the relics of Saint Parascheva were brought from Constantinople and kept at the monastery for a period before being transferred to the Metropolitan Cathedral of Iași. The monastery complex remains one of the city's major historic monuments and is included on Romania's tentative UNESCO World Heritage list. Its central location makes it easy to combine with visits to the Metropolitan Cathedral, Union Square and the Palace of Culture.",
+      "de": "Das Kloster der Heiligen Drei Hierarchen liegt im historischen Zentrum von Iași und gehört zu den bedeutendsten religiösen Bauwerken der moldauischen Architektur des 17. Jahrhunderts. Die Hauptkirche wurde vom moldauischen Fürsten Vasile Lupu in Auftrag gegeben und zwischen 1637 und 1639 errichtet. Das Bauwerk verbindet die traditionelle moldauische Architektur mit byzantinischen, kaukasischen, orientalischen und westeuropäischen Einflüssen und besitzt dadurch einen außergewöhnlichen Charakter. Besonders auffällig ist die äußerst detailreiche Steinornamentik, die große Teile der Außenfassaden bedeckt. Geometrische und florale Motive sowie orientalisch beeinflusste Dekorationen sind in etwa 30 horizontalen Bändern angeordnet. Im Laufe seiner Geschichte war das Kloster nicht nur ein religiöses Zentrum, sondern auch ein bedeutender Ort für Bildung und Kultur. Hier waren eine Druckerei und das als Vasilian College bekannte Bildungszentrum tätig. Im Jahr 1641 wurden die Reliquien der Heiligen Parascheva aus Konstantinopel nach Iași gebracht und zunächst im Kloster aufbewahrt, bevor sie später in die Metropolitankathedrale überführt wurden. Das Kloster gehört heute zu den wichtigsten historischen Denkmälern von Iași und steht auf der vorläufigen UNESCO-Welterbeliste Rumäniens. Dank seiner zentralen Lage lässt es sich gut mit einem Besuch der Metropolitankathedrale, des Union Square und des Kulturpalastes verbinden."
     },
     "activities": {
       "tr": [
-        "Manastır turu yapma",
-        "Dini yapıları keşfetme"
+        "Manastırı ve kiliseyi ziyaret etme",
+        "Taş cephe süslemelerini inceleme",
+        "Tarihi mimariyi keşfetme",
+        "Geleneksel Moldova mimarisini inceleme",
+        "Manastırın kültürel tarihini öğrenme",
+        "Dini sanat eserlerini görme",
+        "Tarihi yapı fotoğrafçılığı yapma",
+        "Iași'nin tarihi merkezini yürüyerek keşfetme"
       ],
       "en": [
-        "Take a tour of the monastery",
-        "Explore the religious buildings"
+        "Visit the monastery and church",
+        "Examine the carved stone façades",
+        "Explore the historic architecture",
+        "Study traditional Moldavian architecture",
+        "Learn about the monastery's cultural history",
+        "See religious artworks",
+        "Take architectural photographs",
+        "Explore the historic center of Iași on foot"
       ],
       "de": [
-        "Eine Tour durch das Kloster machen",
-        "Die religiösen Gebäude erkunden"
+        "Das Kloster und die Kirche besichtigen",
+        "Die geschnitzten Steinfassaden betrachten",
+        "Die historische Architektur entdecken",
+        "Traditionelle moldauische Architektur kennenlernen",
+        "Die Kulturgeschichte des Klosters kennenlernen",
+        "Religiöse Kunstwerke sehen",
+        "Architekturfotografie machen",
+        "Das historische Zentrum von Iași zu Fuß erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "dini yapı",
+        "mimari",
+        "kültür",
+        "fotoğraf"
       ],
       "en": [
-        "historic"
+        "history",
+        "religious site",
+        "architecture",
+        "culture",
+        "photography"
       ],
       "de": [
-        "Historisch"
+        "geschichte",
+        "religiöse sehenswürdigkeit",
+        "architektur",
+        "kultur",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/tara_mănăstirii.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/M%C4%83n%C4%83stirea%20%E2%80%9ESf.%20Trei%20Ierarhi%E2%80%9C%20%281%29%20%28cropped%29.jpg"
     ]
   },
   {
-    "slug": "palatul-culturii",
+    "slug": "palatul-culturii-iasi",
     "name": {
-      "tr": "Palatul Culturii",
-      "en": "Palatul Culturii",
-      "de": "Palatul Culturii"
+      "tr": "Iași Kültür Sarayı",
+      "en": "Palace of Culture, Iași",
+      "de": "Kulturpalast von Iași"
     },
-    "latitude": 47.158,
-    "longitude": 27.601,
+    "latitude": 47.15851,
+    "longitude": 27.58613,
     "description": {
-      "tr": "Palatul Culturii (Kültür Sarayı), Iași'nin en önemli kültürel yapılarından biridir ve bir dizi müze ve sanat galerisini barındırmaktadır.",
-      "en": "Palatul Culturii (The Palace of Culture) is one of Iași's most important cultural buildings, housing a series of museums and art galleries.",
-      "de": "Palatul Culturii (Der Kulturpalast) ist eines der wichtigsten Kulturgebäude in Iași und beherbergt eine Reihe von Museen und Kunstgalerien."
+      "tr": "Iași Kültür Sarayı, şehrin en tanınmış tarihi yapılarından biri ve Moldova bölgesinin önemli kültür merkezlerinden biridir. Piața Palat 1 adresinde bulunan görkemli yapı, 20. yüzyılın başlarında inşa edilmiş ve Neo-Gotik üslubuyla şehrin siluetinde öne çıkmıştır. Yapı, eski Moldova Prenslik Sarayı'nın bulunduğu alan üzerinde yükselir ve tarih boyunca Iași'nin siyasi ve idari geçmişiyle bağlantılı olmuştur. Günümüzde Kültür Sarayı, Moldova Ulusal Müze Kompleksi'ne bağlı önemli müze birimlerine ev sahipliği yapmaktadır. Bunlar arasında Moldova Tarih Müzesi, Etnografya Müzesi, Sanat Müzesi ve Bilim ve Teknik Müzesi bulunur. Sarayın iç mekânlarında anıtsal salonlar, dekoratif ayrıntılar, vitraylar, tarihi merdivenler ve mimari süslemeler dikkat çeker. Yapının çevresindeki alan da Iași'nin tarihi merkezinin önemli duraklarından biridir. Sarayın önünde Moldova hükümdarı Ștefan cel Mare'nin atlı heykeli bulunur ve yakın çevrede eski saray kalıntıları ile Casa Dosoftei gibi başka tarihi yapılar görülebilir. Müze koleksiyonları sayesinde tek bir ziyaret sırasında tarih, sanat, etnografya ve bilim alanlarında farklı sergiler keşfedilebilir. Özellikle mimarisi nedeniyle dışarıdan görülmesi bile Iași gezisinin önemli duraklarından biri olan yapı, müze ziyaretiyle birlikte değerlendirildiğinde şehrin kültürel mirasını daha kapsamlı şekilde tanıma fırsatı sunar.",
+      "en": "The Palace of Culture in Iași is one of the city's best-known historic landmarks and an important cultural center of the Moldavia region. Located at Piața Palat 1, the imposing building was constructed in the early 20th century and stands out in the cityscape with its Neo-Gothic architecture. It occupies the site of the former Princely Palace of Moldavia and is closely connected with the political and administrative history of Iași. Today, the Palace of Culture houses major museum institutions belonging to the Moldova National Museum Complex. These include the Museum of the History of Moldova, the Ethnographic Museum, the Art Museum and the Museum of Science and Technology. Inside, visitors can see monumental halls, decorative details, stained glass, historic staircases and architectural ornamentation. The surrounding square is also an important part of Iași's historic center. In front of the palace stands the equestrian statue of Moldavian ruler Ștefan cel Mare, while nearby are archaeological remains of the former princely court and other historic buildings such as Casa Dosoftei. The museum complex allows visitors to explore history, art, ethnography and science in a single location. Even from the outside, the palace is an important stop for understanding Iași's architectural character, while visiting its museums provides a deeper look into the cultural heritage of the city and Moldavia.",
+      "de": "Der Kulturpalast von Iași ist eines der bekanntesten historischen Wahrzeichen der Stadt und ein bedeutendes Kulturzentrum der Region Moldau. Das imposante Gebäude befindet sich an der Piața Palat 1 und wurde zu Beginn des 20. Jahrhunderts errichtet. Mit seiner neugotischen Architektur prägt es das Stadtbild von Iași. Der Palast steht auf dem Gelände des ehemaligen Fürstenhofs von Moldawien und ist eng mit der politischen und administrativen Geschichte der Stadt verbunden. Heute beherbergt der Kulturpalast bedeutende Museen des Nationalen Museumskomplexes „Moldova“. Dazu gehören das Museum der Geschichte Moldawiens, das Ethnografische Museum, das Kunstmuseum und das Museum für Wissenschaft und Technik. Im Inneren sind monumentale Säle, dekorative Details, Glasfenster, historische Treppen und architektonische Ornamente zu sehen. Auch der Platz vor dem Gebäude gehört zu den wichtigen Bereichen des historischen Zentrums von Iași. Vor dem Palast steht das Reiterdenkmal des moldauischen Fürsten Ștefan cel Mare; in der Umgebung befinden sich außerdem archäologische Überreste des ehemaligen Fürstenhofs und historische Gebäude wie Casa Dosoftei. Der Museumskomplex ermöglicht es, Geschichte, Kunst, Ethnografie und Wissenschaft an einem Ort kennenzulernen. Schon die Außenansicht macht den Kulturpalast zu einem wichtigen Ziel, während ein Museumsbesuch einen umfassenderen Einblick in das kulturelle Erbe von Iași und Moldawien bietet."
     },
     "activities": {
       "tr": [
-        "Müzeleri ziyaret etme",
-        "Sanat galerilerini keşfetme"
+        "Kültür Sarayı'nı ziyaret etme",
+        "Moldova Tarih Müzesi'ni keşfetme",
+        "Etnografya Müzesi'ni gezme",
+        "Sanat Müzesi'ni ziyaret etme",
+        "Bilim ve Teknik Müzesi'ni keşfetme",
+        "Neo-Gotik mimariyi inceleme",
+        "Vitray ve iç mimari detayları fotoğraflama",
+        "Ștefan cel Mare heykelini görme",
+        "Eski Prenslik Sarayı kalıntılarını keşfetme"
       ],
       "en": [
-        "Visit the museums",
-        "Explore the art galleries"
+        "Visit the Palace of Culture",
+        "Explore the Museum of the History of Moldova",
+        "Visit the Ethnographic Museum",
+        "Visit the Art Museum",
+        "Explore the Museum of Science and Technology",
+        "Admire the Neo-Gothic architecture",
+        "Photograph stained glass and interior details",
+        "See the statue of Ștefan cel Mare",
+        "Explore the remains of the former Princely Court"
       ],
       "de": [
-        "Die Museen besuchen",
-        "Die Kunstgalerien erkunden"
+        "Den Kulturpalast besichtigen",
+        "Das Museum der Geschichte Moldawiens besuchen",
+        "Das Ethnografische Museum besuchen",
+        "Das Kunstmuseum besuchen",
+        "Das Museum für Wissenschaft und Technik erkunden",
+        "Die neugotische Architektur bewundern",
+        "Glasfenster und Innendetails fotografieren",
+        "Das Denkmal von Ștefan cel Mare sehen",
+        "Die Überreste des ehemaligen Fürstenhofs erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "sanat galerisi"
+        "müze",
+        "tarih",
+        "kültür",
+        "mimari",
+        "sanat",
+        "bilim"
       ],
       "en": [
-        "art gallery"
+        "museum",
+        "history",
+        "culture",
+        "architecture",
+        "art",
+        "science"
       ],
       "de": [
-        "Kunstgalerie"
+        "museum",
+        "geschichte",
+        "kultur",
+        "architektur",
+        "kunst",
+        "wissenschaft"
       ]
     },
     "images": [
-      "https://example.com/palatul_culturii.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palatul%20Culturii%20-%20Iasi.jpg"
     ]
   }
 ]

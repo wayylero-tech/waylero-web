@@ -6,23 +6,25 @@
       "en": "MONA (Museum of Old and New Art)",
       "de": "MONA (Museum of Old and New Art)"
     },
-    "latitude": -42.8805,
-    "longitude": 147.3231,
+    "latitude": -42.8126,
+    "longitude": 147.2618,
     "description": {
-      "tr": "MONA, Hobart’ta yer alan, modern ve eski sanatın birleşimini sunan ilginç bir müzedir. Ziyaretçilerine farklı sanat anlayışlarını deneyimleme fırsatı sunar.",
-      "en": "MONA is an intriguing museum in Hobart that combines modern and ancient art. It offers visitors a chance to experience various artistic expressions.",
+      "tr": "MONA (Museum of Old and New Art), Tazmanya'nın başkenti Hobart'ta Derwent Nehrinin kıyısındaki kumtaşı kayalıkların içerisine oyulmuş, dünyanın en sıradışı ve kışkırtıcı yeraltı müzelerinden biridir. Kumarbaz ve iş insanı David Walsh tarafından kurulan müze, antik Mısır mumyalarından çağdaş sanatın en tartışmalı ve deneysel eserlerine kadar uzanan ezber bozan bir koleksiyona ev sahipliği yapar. Ziyaretçiler Hobart limanından kalkan özel feribotlarla müzeye ulaşır ve nehir kıyısından yerin metrelerce altına inen labirent benzeri galerileri keşfeder. Müze içerisinde geleneksel bilgilendirme panoları yerine 'The O' adı verilen özel dijital rehber cihazları kullanılır. MONA; bünyesindeki şarap imalathanesi, restoranlar, açık hava konser alanları ve lüks konaklama pavyonlarıyla sadece bir sanat galerisi değil, başlı başına radikal bir duyusal deneyim merkezidir.",
+      "en": "MONA (Museum of Old and New Art) is one of the world's most provocative and unconventional underground museums, carved directly into the sandstone cliffs along the Derwent River in Hobart, Tasmania. Founded by eccentric professional gambler David Walsh, the museum houses a subterranean collection spanning ancient Egyptian mummies to controversial, boundary-pushing contemporary installations. Visitors typically arrive via fast catamaran from Hobart's waterfront and descend into subterranean, windowless galleries connected by labyrinthine tunnels. Eliminating traditional wall labels, MONA utilizes custom location-aware digital devices called 'The O' to deliver curatorial commentary, interviews, and artist insights. Featuring an on-site winery, brewery, luxury pavilions, and fine dining, MONA is an immersive cultural sanctuary that redefines the modern museum experience.",
       "de": "MONA ist ein faszinierendes Museum in Hobart, das moderne und antike Kunst kombiniert. Es bietet den Besuchern die Möglichkeit, verschiedene künstlerische Ausdrucksformen zu erleben."
     },
     "activities": {
       "tr": [
-        "Sanat eserlerini keşfetmek",
-        "Müzeyi gezmek",
-        "Ziyaretçi sergilerini görmek"
+        "Yeraltı galerilerinde çağdaş ve antik sanat koleksiyonlarını keşfetmek",
+        "Hobart limanından kalkan 'MR-1' feribotu ile Derwent Nehrinde yolculuk yapmak",
+        "Moorilla Şaraphanesi ve Moo Brew bira imalathanesinde tadım turlarına katılmak",
+        "'The O' dijital cihazı ile sergilenen eserlerin detaylı hikayelerini dinlemek"
       ],
       "en": [
-        "Exploring artworks",
-        "Visiting the museum",
-        "Seeing visitor exhibitions"
+        "Exploring provocative subterranean contemporary and ancient art installations",
+        "Riding the high-speed MONA ROMA catamaran along the scenic Derwent River",
+        "Tasting cool-climate wines at Moorilla Winery and craft beers at Moo Brew",
+        "Using 'The O' handheld device to access interactive content and artist commentary"
       ],
       "de": [
         "Kunstwerke erkunden",
@@ -48,27 +50,29 @@
   {
     "slug": "mount-wellington",
     "name": {
-      "tr": "Mount Wellington",
-      "en": "Mount Wellington",
-      "de": "Mount Wellington"
+      "tr": "kunanyi / Mount Wellington",
+      "en": "kunanyi / Mount Wellington",
+      "de": "kunanyi / Mount Wellington"
     },
-    "latitude": -42.8797,
-    "longitude": 147.3216,
+    "latitude": -42.8961,
+    "longitude": 147.2372,
     "description": {
-      "tr": "Mount Wellington, Hobart’ın en yüksek dağıdır ve şehir manzaralarını yüksekten görebileceğiniz muazzam bir yerdir. Dağa yürüyüş yapmak ya da araçla çıkmak mümkündür.",
-      "en": "Mount Wellington is the highest mountain near Hobart, offering stunning views of the city. Visitors can hike to the summit or drive up.",
+      "tr": "kunanyi / Mount Wellington, Hobart şehir merkezinin hemen arkasında yükselen ve deniz seviyesinden 1.271 metre yüksekliğe ulaşan görkemli bir dağ kütlesidir. Şehrin doğal fonunu oluşturan bu dağ; Hobart kentinin, Derwent Nehrinin, Bruny Adasının ve güneydoğu Tazmanya kıyılarının kesintisiz panoramik manzaralarını sunar. Zirve noktasına büyüleyici dağ yollarından araçla kolayca ulaşılabileceği gibi, yürüyüşçüler ve dağ bisikletçileri için yüzlerce kilometrelik doğal parkurlar mevcuttur. Organ Pipes olarak bilinen devasa bazalt sütunları, dağ tırmanıcıları için popüler bir duraktır. Zirvede yer alan cam kaplı gözlem kulesi, ziyaretçilerin sert alpine rüzgarlarından korunarak manzaranın tadını çıkarmasına olanak tanır. Kış aylarında karla kaplanan kunanyi, el değmemiş alpin bitki örtüsü ve zengin yaban hayatıyla doğaseverler için eşsiz bir rotadır.",
+      "en": "kunanyi / Mount Wellington rises dramatically behind Hobart to an elevation of 1,271 meters, dominating the city's skyline and offering sweeping panoramic views over the Derwent River, Bruny Island, and southern Tasmania. Accessible via a winding 22-kilometer scenic drive, the summit features a glass-enclosed observation shelter designed to protect visitors from fierce alpine winds while providing breathtaking 360-degree vistas. The mountain's eastern face is famous for the Organ Pipes, striking vertical dolerite columns that attract rock climbers from around the globe. A network of bushwalking trails, mountain biking tracks, and historic stone huts covers the lower slopes, taking visitors through temperate rainforests to sub-alpine plateaus. During winter, snow frequently blankets the peak, making it a beloved natural playground for locals and travelers alike.",
       "de": "Mount Wellington ist der höchste Berg in der Nähe von Hobart und bietet einen atemberaubenden Blick auf die Stadt. Besucher können zum Gipfel wandern oder mit dem Auto hinauffahren."
     },
     "activities": {
       "tr": [
-        "Yürüyüş yapmak",
-        "Dağ manzaralarını izlemek",
-        "Fotoğraf çekmek"
+        "Zirvedeki gözlem kulesinden 360 derecelik panoramik Hobart manzarasını izlemek",
+        "Organ Pipes bazalt kaya oluşumları boyunca doğa yürüyüşü ve kaya tırmanışı yapmak",
+        "Pinnacle Road üzerinden manzaralı dağ sürüşü gerçekleştirmek",
+        "Dağ eteklerindeki ılıman yağmur ormanı parkurlarında bisiklete binmek"
       ],
       "en": [
-        "Hiking",
-        "Enjoying the mountain views",
-        "Taking photos"
+        "Taking in 360-degree panoramic views of Hobart from the summit boardwalks",
+        "Hiking through temperate rainforests along the Organ Pipes track",
+        "Driving up the scenic Pinnacle Road to experience sub-alpine landscapes",
+        "Mountain biking down network trails on the mountain's lower slopes"
       ],
       "de": [
         "Wandern",
@@ -98,23 +102,25 @@
       "en": "Salamanca Market",
       "de": "Salamanca Markt"
     },
-    "latitude": -42.8834,
-    "longitude": 147.3294,
+    "latitude": -42.8872,
+    "longitude": 147.3331,
     "description": {
-      "tr": "Salamanca Market, Hobart’ta haftalık olarak düzenlenen renkli bir pazardır. El sanatları, gıda ve hediyelik eşyalarla dolu olan pazar, şehre gelen ziyaretçilerin ilgisini çeker.",
-      "en": "Salamanca Market is a colorful weekly market in Hobart, filled with crafts, food, and souvenirs. It attracts many visitors to the city.",
+      "tr": "Salamanca Market, Hobart'ın tarihi sahil bölgesindeki Salamanca Place boyunca her cumartesi günü kurulan, Avustralya'nın en açık hava pazarlarından biridir. Gürcü mimarisine sahip tarihi kumtaşı binaların ve çınar ağaçlarının gölgesinde kurulan pazar, 300'den fazla stantla rengarenk bir festival atmosferi yaratır. Pazar yerinde Tazmanya'ya özgü Huon çamı ağacından yapılmış el sanatları, yerel tasarım takılar, organik tarım ürünleri ve özgün sanat eserleri sergilenir. Gurme lezzet tutkunları için taze Tazmanya istiridyeleri, el yapımı peynirler, özel imalat reçeller, yerel viski ve cin çeşitleri tadılabilir. Sokak müzisyenlerinin canlı performansları eşliğinde yürüyüş yapmak, hem yerel halkın hem de kenti ziyaret eden turistlerin cumartesi sabahları vazgeçilmez geleneğidir.",
+      "en": "Salamanca Market is Australia's premier outdoor community market, held every Saturday rain or shine along historic Salamanca Place in Hobart. Set against a backdrop of 1830s Georgian sandstone warehouses and towering plane trees near the waterfront, the market features over 300 stalls bursting with local crafts, fresh produce, and artisan goods. Visitors can browse handcrafted Huon pine woodwork, bespoke jewelry, local wool products, and fine Tasmanian art directly from the makers. The market is also a culinary destination, offering freshly shucked Tasmanian oysters, artisan cheeses, small-batch gins, single malt whiskies, and gourmet hot food options. Accompanied by buskers and live performers, Salamanca Market provides a vibrant showcase of Tasmanian culture and craftsmanship.",
       "de": "Der Salamanca Market ist ein bunter Wochenmarkt in Hobart, der mit Kunsthandwerk, Lebensmitteln und Souvenirs gefüllt ist. Er zieht viele Besucher in die Stadt."
     },
     "activities": {
       "tr": [
-        "Alışveriş yapmak",
-        "Yerli ürünleri tatmak",
-        "Sanat eserlerini görmek"
+        "300'den fazla stantta Tazmanya yapımı el sanatları ve hediyelik eşyaları incelemek",
+        "Taze Tazmanya istiridyesi, el yapımı peynirler ve sokak lezzetlerini tatmak",
+        "Tarihi kumtaşı depoların arasında canlı sokak performanslarını izlemek",
+        "Tazmanya yapımı özel viski, cin ve organik bal çeşitlerini denemek"
       ],
       "en": [
-        "Shopping",
-        "Tasting local products",
-        "Viewing artworks"
+        "Browsing over 300 artisan stalls for handcrafted Tasmanian woodwork and crafts",
+        "Sampling fresh Tasmanian seafood, artisan cheeses, and local street food",
+        "Enjoying street music and live busking performances under historic plane trees",
+        "Tasting small-batch Tasmanian spirits, cold-climate wines, and organic honey"
       ],
       "de": [
         "Einkaufen",
@@ -153,23 +159,25 @@
       "en": "Bruny Island",
       "de": "Bruny Island"
     },
-    "latitude": -43.3999,
-    "longitude": 147.1952,
+    "latitude": -43.2500,
+    "longitude": 147.3333,
     "description": {
-      "tr": "Bruny Island, doğal güzellikleri ve yerel lezzetleri ile ünlü bir adadır. Burada doğa yürüyüşleri yapabilir, bölgenin ünlü peynirlerini ve deniz ürünlerini tadabilirsiniz.",
-      "en": "Bruny Island is famous for its natural beauty and local delicacies. Visitors can enjoy nature walks and taste famous cheeses and seafood.",
+      "tr": "Bruny Island, Tazmanya'nın güneydoğu kıyısında yer alan, büyüleyici el değmemiş doğası ve zengin gastronomi kültürüyle ünlü büyüleyici bir adadır. Kettering kasabasından kalkan kısa bir feribot seferiyle ulaşılan ada, 'The Neck' adı verilen dar bir kumsal şeridiyle birbirine bağlanan Kuzey ve Güney Bruny olmak üzere iki ana kara kütlesinden oluşur. South Bruny National Park sınırları içerisinde yüksek deniz kayalıkları, tenha koylar, dramatik fenerler ve zengin bir yaban hayatı barındırır. Ada; nadir görülen beyaz valabiler, penguenler ve deniz kuşlarına ev sahipliği yapar. Bruny Island aynı zamanda bir gurme cennetidir; ada boyunca taze istiridye çiftlikleri, el yapımı peynir imalathaneleri, çikolata atölyeleri, meyve bahçeleri ve yerel şarap imalathaneleri sıralanır. Sahil şeridinde düzenlenen tekne turları, ziyaretçilere devasa deniz mağaralarını ve fok kolonilerini yakından görme fırsatı sunar.",
+      "en": "Bruny Island, located off the southeastern coast of Tasmania, is a spectacular destination renowned for its wild coastal landscapes and world-class artisan produce. Easily reached via a short vehicular ferry ride from Kettering, the island consists of North and South Bruny connected by 'The Neck,' a narrow sandy isthmus offering 360-degree ocean views. South Bruny National Park features dramatic dolerite sea cliffs, sheltered coves, temperate rainforests, and the historic Cape Bruny Lighthouse. The island is a sanctuary for unique wildlife, including rare albino wallabies, little penguins, and fur seals. Beyond its natural beauty, Bruny Island is a premier food destination where travelers can sample award-winning cheeses, freshly shucked oysters, handmade chocolates, berries, and cool-climate wines directly from local producers.",
       "de": "Bruny Island ist bekannt für seine natürliche Schönheit und lokalen Delikatessen. Besucher können Wanderungen in der Natur unternehmen und berühmte Käsesorten und Meeresfrüchte probieren."
     },
     "activities": {
       "tr": [
-        "Doğa yürüyüşleri yapmak",
-        "Yerel lezzetleri tatmak",
-        "Peynir ve deniz ürünü yemek"
+        "The Neck seyir terasından adayı bağlayan dar kumsal şeridini ve okyanus manzarasını izlemek",
+        "Bruny Island Cheese Company ve Get Shucked İstiridye Çiftliğinde gurme tadımlar yapmak",
+        "Güney Bruny Ulusal Parkında kıyı kayalıkları boyunca doğa yürüyüşüne çıkmak",
+        "Sürat tekneleriyle yüksek deniz kayalıkları ve fok kolonileri etrafında tura katılmak"
       ],
       "en": [
-        "Hiking in nature",
-        "Tasting local delicacies",
-        "Eating cheese and seafood"
+        "Climbing The Neck lookout stairs for iconic views of the narrow isthmus",
+        "Tasting artisan cheeses, freshly shucked oysters, and handmade chocolates",
+        "Hiking along coastal cliff tracks in South Bruny National Park",
+        "Taking an wilderness cruise along high sea cliffs and coastal sea caves"
       ],
       "de": [
         "Wandern in der Natur",
@@ -199,23 +207,25 @@
       "en": "Port Arthur Historic Site",
       "de": "Port Arthur Historic Site"
     },
-    "latitude": -43.1644,
-    "longitude": 147.5256,
+    "latitude": -43.1481,
+    "longitude": 147.8488,
     "description": {
-      "tr": "Port Arthur, eski bir cezaevi kompleksidir. Burada, Avustralya’nın ceza tarihi hakkında bilgi alabilir ve cezaların nasıl verildiğini öğrenebilirsiniz.",
-      "en": "Port Arthur is a historic prison complex where you can learn about Australia’s penal history and how punishment was administered.",
+      "tr": "Port Arthur Historic Site, Tazmanya'nın Tasman Yarımadası'nda yer alan ve UNESCO Dünya Mirası Listesi'nde bulunan Avustralya'nın en önemli tarihi ceza kolonisidir. 1830-1877 yılları arasında Büyük Britanya İmparatorluğu'nun en ıslah olmaz mahkumlarının gönderildiği bu yerleşke, dönemin sert ceza ve ıslahevi sisteminin simgesidir. 40 hektarlık geniş bir alana yayılan ören yeri; korunmuş cezaevi binaları, tarihi hapishane hücresi kalıntıları, komutan konutu, kilise ve mahkumlar tarafından inşa edilmiş taş yapıları barındırır. Ziyaretçiler alan içerisindeki interaktif sergileri gezebilir, rehberli yürüyüş turlarına katılabilir ve Carnarvon Körfezi'nde kısa bir liman tekne turu yapabilirler. Akşam saatlerinde düzenlenen meşaleli hayalet turları ise alanın karanlık geçmişine dair tüyler ürpertici hikayeler sunar.",
+      "en": "The Port Arthur Historic Site is an open-air museum and UNESCO World Heritage-listed convict settlement located on the Tasman Peninsula in Tasmania. Operating as a penal colony between 1830 and 1877, Port Arthur was designed as a inescapable prison for Britain's hardest reoffending convicts, playing a pivotal role in Australia's colonial history. Set across 40 hectares of manicured grounds, the site features more than 30 historic buildings, ruins, and restored structures, including the iconic Penitentiary, the Separate Prison, the Commandant's House, and the Unroofed Convict Church. Admission includes an introductory guided walking tour and a harbor cruise around the Isle of the Dead. For intrepid visitors, nighttime lantern-lit ghost tours explore the hauntings and grim legends of the site's dark past.",
       "de": "Port Arthur ist ein historisches Gefängniskomplex, in dem Sie mehr über die Strafgeschichte Australiens erfahren und wie Strafen verhängt wurden."
     },
     "activities": {
       "tr": [
-        "Tarihi keşfetmek",
-        "Cezaevi turu yapmak",
-        "Avustralya’nın ceza tarihini öğrenmek"
+        "UNESCO Dünya Mirası tarihi cezaevi kalıntılarını rehberli turlar ile keşfetmek",
+        "Carnarvon Körfezinde ve Ölüler Adası (Isle of the Dead) etrafında tekne turuna katılmak",
+        "Ayrı Hapishane (Separate Prison) ve Cezaevi Binası sergilerini gezmek",
+        "Hava karardıktan sonra düzenlenen meşaleli tarihi hayalet turlarına katılmak"
       ],
       "en": [
-        "Exploring history",
-        "Taking a prison tour",
-        "Learning about Australia’s penal history"
+        "Exploring UNESCO World Heritage convict ruins and restored historic buildings",
+        "Taking a harbor cruise around Carnarvon Bay and the Isle of the Dead",
+        "Learning about colonial penal history inside the Separate Prison museum galleries",
+        "Joining an evening lantern-lit ghost tour through historic ruins"
       ],
       "de": [
         "Die Geschichte entdecken",

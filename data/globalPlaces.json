@@ -933,10 +933,10 @@
     "country": "amerika",
     "city": "glendale",
     "slug": "glendale-desert-garden",
-    "name_tr": "Glendale Desert Garden",
-    "name_en": "Glendale Desert Garden",
-    "lat": 33.5375,
-    "lng": -112.1868,
+    "name_tr": "Glendale Desert Garden Park",
+    "name_en": "Glendale Desert Garden Park",
+    "lat": 33.5339,
+    "lng": -112.2138,
     "image": ""
   },
   {
@@ -955,8 +955,8 @@
     "slug": "arizona-doll-and-toy-museum",
     "name_tr": "Arizona Doll and Toy Museum",
     "name_en": "Arizona Doll and Toy Museum",
-    "lat": 33.54,
-    "lng": -112.1864,
+    "lat": 33.54206,
+    "lng": -112.18584,
     "image": ""
   },
   {
@@ -965,8 +965,8 @@
     "slug": "glendale-community-college",
     "name_tr": "Glendale Community College",
     "name_en": "Glendale Community College",
-    "lat": 33.542,
-    "lng": -112.1866,
+    "lat": 33.57,
+    "lng": -112.1892,
     "image": ""
   },
   {
@@ -985,8 +985,8 @@
     "slug": "glacier-gardens-rainforest-adventure",
     "name_tr": "Glacier Gardens Rainforest Adventure",
     "name_en": "Glacier Gardens Rainforest Adventure",
-    "lat": 58.3924,
-    "lng": -134.4605,
+    "lat": 58.36,
+    "lng": -134.5481,
     "image": ""
   },
   {
@@ -995,8 +995,8 @@
     "slug": "alaska-state-museum",
     "name_tr": "Alaska State Museum",
     "name_en": "Alaska State Museum",
-    "lat": 58.2995,
-    "lng": -134.4207,
+    "lat": 58.299,
+    "lng": -134.4056,
     "image": ""
   },
   {
@@ -1092,21 +1092,11 @@
   {
     "country": "amerika",
     "city": "mesa",
-    "slug": "desert-ridge-park",
-    "name_tr": "Desert Ridge Park",
-    "name_en": "Desert Ridge Park",
-    "lat": 33.5206,
-    "lng": -111.7075,
-    "image": ""
-  },
-  {
-    "country": "amerika",
-    "city": "mesa",
     "slug": "mesa-arts-center",
     "name_tr": "Mesa Arts Center",
     "name_en": "Mesa Arts Center",
-    "lat": 33.4185,
-    "lng": -111.8305,
+    "lat": 33.415,
+    "lng": -111.831,
     "image": ""
   },
   {
@@ -1115,28 +1105,58 @@
     "slug": "usery-mountain-regional-park",
     "name_tr": "Usery Mountain Regional Park",
     "name_en": "Usery Mountain Regional Park",
-    "lat": 33.4465,
-    "lng": -111.6313,
+    "lat": 33.437,
+    "lng": -111.645,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "mesa",
     "slug": "arizona-museum-of-natural-history",
-    "name_tr": "Arizona Museum of Natural History",
+    "name_tr": "Arizona Doğa Tarihi Müzesi",
     "name_en": "Arizona Museum of Natural History",
-    "lat": 33.4154,
-    "lng": -111.8277,
+    "lat": 33.4167,
+    "lng": -111.8337,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "mesa",
-    "slug": "mesa-grande-cultural-park",
-    "name_tr": "Mesa Grande Cultural Park",
-    "name_en": "Mesa Grande Cultural Park",
-    "lat": 33.4153,
-    "lng": -111.816,
+    "slug": "scedagi-muval-vaaki",
+    "name_tr": "Sce:dagĭ Mu:val Va’aki",
+    "name_en": "Sce:dagĭ Mu:val Va’aki",
+    "lat": 33.43415,
+    "lng": -111.84527,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "mesa",
+    "slug": "park-of-the-canals",
+    "name_tr": "Park of the Canals",
+    "name_en": "Park of the Canals",
+    "lat": 33.44555,
+    "lng": -111.8141,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "mesa",
+    "slug": "idea-museum",
+    "name_tr": "i.d.e.a. Museum",
+    "name_en": "i.d.e.a. Museum",
+    "lat": 33.4168,
+    "lng": -111.836,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "mesa",
+    "slug": "sloan-park",
+    "name_tr": "Sloan Park",
+    "name_en": "Sloan Park",
+    "lat": 33.43107,
+    "lng": -111.88155,
     "image": ""
   },
   {
@@ -1192,41 +1212,91 @@
   {
     "country": "amerika",
     "city": "montgomery",
-    "slug": "montgomery-medeniyetler-muzesi",
-    "name_tr": "Montgomery Medeniyetler Müzesi",
-    "name_en": "Montgomery Museum of Civil Rights",
-    "lat": 32.3792,
-    "lng": -86.3077,
+    "slug": "rosa-parks-museum",
+    "name_tr": "Rosa Parks Müzesi",
+    "name_en": "Rosa Parks Museum",
+    "lat": 32.37682,
+    "lng": -86.31117,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "montgomery",
-    "slug": "alabama-eyalet-meclisi",
-    "name_tr": "Alabama Eyalet Meclisi",
+    "slug": "alabama-state-capitol",
+    "name_tr": "Alabama Eyalet Meclis Binası",
     "name_en": "Alabama State Capitol",
-    "lat": 32.3787,
-    "lng": -86.3005,
+    "lat": 32.37745,
+    "lng": -86.30094,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "montgomery",
-    "slug": "rosa-parks-aniti",
-    "name_tr": "Rosa Parks Anıtı",
-    "name_en": "Rosa Parks Monument",
-    "lat": 32.3801,
-    "lng": -86.2998,
+    "slug": "rosa-parks-statue",
+    "name_tr": "Rosa Parks Heykeli",
+    "name_en": "Rosa Parks Statue",
+    "lat": 32.37703,
+    "lng": -86.30933,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "montgomery",
-    "slug": "dexter-avenue-baptist-kilisesi",
-    "name_tr": "Dexter Avenue Baptist Kilisesi",
-    "name_en": "Dexter Avenue Baptist Church",
-    "lat": 32.3793,
-    "lng": -86.2995,
+    "slug": "dexter-avenue-king-memorial-baptist-church",
+    "name_tr": "Dexter Avenue King Memorial Baptist Kilisesi",
+    "name_en": "Dexter Avenue King Memorial Baptist Church",
+    "lat": 32.37727,
+    "lng": -86.30269,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "montgomery",
+    "slug": "civil-rights-memorial",
+    "name_tr": "Sivil Haklar Anıtı",
+    "name_en": "Civil Rights Memorial",
+    "lat": 32.3763,
+    "lng": -86.30328,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "montgomery",
+    "slug": "freedom-rides-museum",
+    "name_tr": "Freedom Rides Müzesi",
+    "name_en": "Freedom Rides Museum",
+    "lat": 32.37472,
+    "lng": -86.30917,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "montgomery",
+    "slug": "the-legacy-museum",
+    "name_tr": "The Legacy Museum",
+    "name_en": "The Legacy Museum",
+    "lat": 32.383,
+    "lng": -86.3098,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "montgomery",
+    "slug": "national-memorial-for-peace-and-justice",
+    "name_tr": "Barış ve Adalet Ulusal Anıtı",
+    "name_en": "National Memorial for Peace and Justice",
+    "lat": 32.37248,
+    "lng": -86.31335,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "montgomery",
+    "slug": "montgomery-square",
+    "name_tr": "Montgomery Square",
+    "name_en": "Montgomery Square",
+    "lat": 32.37486,
+    "lng": -86.31455,
     "image": ""
   },
   {
@@ -1305,18 +1375,38 @@
     "slug": "universal-studios-florida",
     "name_tr": "Universal Studios Florida",
     "name_en": "Universal Studios Florida",
-    "lat": 28.4737,
-    "lng": -81.4677,
+    "lat": 28.4794,
+    "lng": -81.4687,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "orlando",
-    "slug": "epcot-center",
-    "name_tr": "Epcot Center",
-    "name_en": "Epcot Center",
+    "slug": "epcot",
+    "name_tr": "EPCOT",
+    "name_en": "EPCOT",
     "lat": 28.3747,
     "lng": -81.5494,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "orlando",
+    "slug": "magic-kingdom",
+    "name_tr": "Magic Kingdom",
+    "name_en": "Magic Kingdom Park",
+    "lat": 28.4177,
+    "lng": -81.5812,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "orlando",
+    "slug": "universal-epic-universe",
+    "name_tr": "Universal Epic Universe",
+    "name_en": "Universal Epic Universe",
+    "lat": 28.4422,
+    "lng": -81.4492,
     "image": ""
   },
   {
@@ -1325,8 +1415,8 @@
     "slug": "desert-botanical-garden",
     "name_tr": "Desert Botanical Garden",
     "name_en": "Desert Botanical Garden",
-    "lat": 33.4668,
-    "lng": -111.9441,
+    "lat": 33.463,
+    "lng": -111.9455,
     "image": ""
   },
   {
@@ -1335,8 +1425,8 @@
     "slug": "camelback-mountain",
     "name_tr": "Camelback Mountain",
     "name_en": "Camelback Mountain",
-    "lat": 33.5236,
-    "lng": -112.0242,
+    "lat": 33.514724,
+    "lng": -111.961604,
     "image": ""
   },
   {
@@ -1345,48 +1435,138 @@
     "slug": "heard-museum",
     "name_tr": "Heard Museum",
     "name_en": "Heard Museum",
-    "lat": 33.4914,
-    "lng": -112.071,
+    "lat": 33.4729,
+    "lng": -112.0737,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "phoenix",
     "slug": "south-mountain-park",
-    "name_tr": "South Mountain Park",
-    "name_en": "South Mountain Park",
-    "lat": 33.3253,
-    "lng": -112.126,
+    "name_tr": "South Mountain Park and Preserve",
+    "name_en": "South Mountain Park and Preserve",
+    "lat": 33.3452,
+    "lng": -112.0584,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "phoenix",
     "slug": "musical-instrument-museum",
-    "name_tr": "Musical Instrument Museum",
+    "name_tr": "Müzik Aletleri Müzesi",
     "name_en": "Musical Instrument Museum",
-    "lat": 33.6436,
-    "lng": -112.074,
+    "lat": 33.6678,
+    "lng": -111.979,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "phoenix",
+    "slug": "papago-park",
+    "name_tr": "Papago Park",
+    "name_en": "Papago Park",
+    "lat": 33.4535,
+    "lng": -111.9458,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "phoenix",
+    "slug": "phoenix-art-museum",
+    "name_tr": "Phoenix Sanat Müzesi",
+    "name_en": "Phoenix Art Museum",
+    "lat": 33.4669,
+    "lng": -112.0729,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "phoenix",
+    "slug": "arizona-science-center",
+    "name_tr": "Arizona Bilim Merkezi",
+    "name_en": "Arizona Science Center",
+    "lat": 33.4489,
+    "lng": -112.0659,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "phoenix",
+    "slug": "piestewa-peak",
+    "name_tr": "Piestewa Peak",
+    "name_en": "Piestewa Peak",
+    "lat": 33.5392,
+    "lng": -112.0231,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "phoenix",
+    "slug": "sedav-vaaki-museum",
+    "name_tr": "S'edav Va'aki Museum",
+    "name_en": "S'edav Va'aki Museum",
+    "lat": 33.4483,
+    "lng": -111.9889,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "sacramento",
     "slug": "california-state-capitol",
-    "name_tr": "California State Capitol",
+    "name_tr": "California Eyalet Meclis Binası",
     "name_en": "California State Capitol",
-    "lat": 38.5791,
-    "lng": -121.4937,
+    "lat": 38.57667,
+    "lng": -121.49383,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "sacramento",
-    "slug": "old-sacramento",
-    "name_tr": "Old Sacramento",
-    "name_en": "Old Sacramento",
-    "lat": 38.5833,
-    "lng": -121.4953,
+    "slug": "old-sacramento-state-historic-park",
+    "name_tr": "Old Sacramento Eyalet Tarihi Parkı",
+    "name_en": "Old Sacramento State Historic Park",
+    "lat": 38.58444,
+    "lng": -121.50528,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "sacramento",
+    "slug": "california-state-railroad-museum",
+    "name_tr": "California Eyalet Demiryolu Müzesi",
+    "name_en": "California State Railroad Museum",
+    "lat": 38.58405,
+    "lng": -121.50499,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "sacramento",
+    "slug": "crocker-art-museum",
+    "name_tr": "Crocker Sanat Müzesi",
+    "name_en": "Crocker Art Museum",
+    "lat": 38.57349,
+    "lng": -121.50463,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "sacramento",
+    "slug": "california-museum",
+    "name_tr": "California Müzesi",
+    "name_en": "California Museum",
+    "lat": 38.57548,
+    "lng": -121.49583,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "sacramento",
+    "slug": "sutters-fort-state-historic-park",
+    "name_tr": "Sutter's Fort Eyalet Tarihi Parkı",
+    "name_en": "Sutter's Fort State Historic Park",
+    "lat": 38.55242,
+    "lng": -121.48306,
     "image": ""
   },
   {
@@ -1425,8 +1605,8 @@
     "slug": "winchester-mystery-house",
     "name_tr": "Winchester Mystery House",
     "name_en": "Winchester Mystery House",
-    "lat": 37.2958,
-    "lng": -121.9762,
+    "lat": 37.3186,
+    "lng": -121.9508,
     "image": ""
   },
   {
@@ -1435,8 +1615,8 @@
     "slug": "rosicrucian-egyptian-museum",
     "name_tr": "Rosicrucian Egyptian Museum",
     "name_en": "Rosicrucian Egyptian Museum",
-    "lat": 37.308,
-    "lng": -121.9345,
+    "lat": 37.3334,
+    "lng": -121.9229,
     "image": ""
   },
   {
@@ -1445,18 +1625,18 @@
     "slug": "old-town-scottsdale",
     "name_tr": "Old Town Scottsdale",
     "name_en": "Old Town Scottsdale",
-    "lat": 33.4986,
-    "lng": -111.9291,
+    "lat": 33.493056,
+    "lng": -111.926111,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "scottsdale",
     "slug": "scottsdale-museum-of-contemporary-art",
-    "name_tr": "Scottsdale Museum of Contemporary Art",
+    "name_tr": "Scottsdale Çağdaş Sanat Müzesi",
     "name_en": "Scottsdale Museum of Contemporary Art",
-    "lat": 33.494,
-    "lng": -111.9263,
+    "lat": 33.4933,
+    "lng": -111.926,
     "image": ""
   },
   {
@@ -1465,8 +1645,8 @@
     "slug": "mcdowell-sonoran-preserve",
     "name_tr": "McDowell Sonoran Preserve",
     "name_en": "McDowell Sonoran Preserve",
-    "lat": 33.5872,
-    "lng": -111.8231,
+    "lat": 33.648953,
+    "lng": -111.859156,
     "image": ""
   },
   {
@@ -1475,8 +1655,8 @@
     "slug": "taliesin-west",
     "name_tr": "Taliesin West",
     "name_en": "Taliesin West",
-    "lat": 33.6175,
-    "lng": -111.7906,
+    "lat": 33.606274,
+    "lng": -111.845029,
     "image": ""
   },
   {
@@ -1485,25 +1665,45 @@
     "slug": "scottsdale-waterfront",
     "name_tr": "Scottsdale Waterfront",
     "name_en": "Scottsdale Waterfront",
-    "lat": 33.5086,
-    "lng": -111.9016,
+    "lat": 33.499611,
+    "lng": -111.928306,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "scottsdale",
+    "slug": "western-spirit-scottsdales-museum-of-the-west",
+    "name_tr": "Western Spirit: Scottsdale Batı Müzesi",
+    "name_en": "Western Spirit: Scottsdale's Museum of the West",
+    "lat": 33.4945,
+    "lng": -111.9198,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "scottsdale",
+    "slug": "scottsdale-civic-center",
+    "name_tr": "Scottsdale Civic Center",
+    "name_en": "Scottsdale Civic Center",
+    "lat": 33.494,
+    "lng": -111.9219,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "sitka",
     "slug": "sitka-national-historical-park",
-    "name_tr": "Sitka National Historical Park",
+    "name_tr": "Sitka Ulusal Tarihi Parkı",
     "name_en": "Sitka National Historical Park",
-    "lat": 57.05,
-    "lng": -135.33,
+    "lat": 57.05164,
+    "lng": -135.33153,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "sitka",
     "slug": "russian-bishop-s-house",
-    "name_tr": "Russian Bishop's House",
+    "name_tr": "Rus Piskopos Evi",
     "name_en": "Russian Bishop's House",
     "lat": 57.0524,
     "lng": -135.3344,
@@ -1512,31 +1712,51 @@
   {
     "country": "amerika",
     "city": "sitka",
-    "slug": "baranof-castle",
-    "name_tr": "Baranof Castle",
-    "name_en": "Baranof Castle",
-    "lat": 57.0556,
-    "lng": -135.3308,
+    "slug": "baranof-castle-state-historic-site",
+    "name_tr": "Baranof Castle Eyalet Tarihi Alanı",
+    "name_en": "Baranof Castle State Historic Site",
+    "lat": 57.04854,
+    "lng": -135.33803,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "sitka",
     "slug": "sitka-sound-science-center",
-    "name_tr": "Sitka Sound Science Center",
+    "name_tr": "Sitka Sound Bilim Merkezi",
     "name_en": "Sitka Sound Science Center",
-    "lat": 57.0569,
-    "lng": -135.3386,
+    "lat": 57.05306,
+    "lng": -135.33,
     "image": ""
   },
   {
     "country": "amerika",
     "city": "sitka",
-    "slug": "totem-park",
-    "name_tr": "Totem Park",
-    "name_en": "Totem Park",
-    "lat": 57.0506,
-    "lng": -135.3293,
+    "slug": "sheldon-jackson-museum",
+    "name_tr": "Sheldon Jackson Müzesi",
+    "name_en": "Sheldon Jackson Museum",
+    "lat": 57.050543,
+    "lng": -135.322232,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "sitka",
+    "slug": "st-michaels-cathedral",
+    "name_tr": "Aziz Michael Katedrali",
+    "name_en": "St. Michael's Cathedral",
+    "lat": 57.05,
+    "lng": -135.335,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "sitka",
+    "slug": "sitka-history-museum",
+    "name_tr": "Sitka Tarih Müzesi",
+    "name_en": "Sitka History Museum",
+    "lat": 57.0494663,
+    "lng": -135.332123,
     "image": ""
   },
   {
@@ -1545,8 +1765,8 @@
     "slug": "busch-gardens-tampa-bay",
     "name_tr": "Busch Gardens Tampa Bay",
     "name_en": "Busch Gardens Tampa Bay",
-    "lat": 27.9852,
-    "lng": -82.6532,
+    "lat": 27.9817,
+    "lng": -82.4214,
     "image": ""
   },
   {
@@ -1602,11 +1822,111 @@
   {
     "country": "amerika",
     "city": "tucson",
+    "slug": "old-town-scottsdale",
+    "name_tr": "Old Town Scottsdale",
+    "name_en": "Old Town Scottsdale",
+    "lat": 33.4938,
+    "lng": -111.9261,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "scottsdale-museum-of-contemporary-art",
+    "name_tr": "Scottsdale Çağdaş Sanat Müzesi",
+    "name_en": "Scottsdale Museum of Contemporary Art",
+    "lat": 33.4917,
+    "lng": -111.923,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "mcdowell-sonoran-preserve",
+    "name_tr": "McDowell Sonoran Preserve",
+    "name_en": "McDowell Sonoran Preserve",
+    "lat": 33.64895,
+    "lng": -111.85916,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "taliesin-west",
+    "name_tr": "Taliesin West",
+    "name_en": "Taliesin West",
+    "lat": 33.6011,
+    "lng": -111.8495,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "scottsdale-waterfront",
+    "name_tr": "Scottsdale Waterfront",
+    "name_en": "Scottsdale Waterfront",
+    "lat": 33.4998,
+    "lng": -111.9283,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "desert-botanical-garden",
+    "name_tr": "Desert Botanical Garden",
+    "name_en": "Desert Botanical Garden",
+    "lat": 33.4606,
+    "lng": -111.9442,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "camelback-mountain",
+    "name_tr": "Camelback Mountain",
+    "name_en": "Camelback Mountain",
+    "lat": 33.5236,
+    "lng": -112.0242,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "heard-museum",
+    "name_tr": "Heard Museum",
+    "name_en": "Heard Museum",
+    "lat": 33.4914,
+    "lng": -112.071,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "south-mountain-park",
+    "name_tr": "South Mountain Park and Preserve",
+    "name_en": "South Mountain Park and Preserve",
+    "lat": 33.3031,
+    "lng": -112.1034,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
+    "slug": "musical-instrument-museum",
+    "name_tr": "Musical Instrument Museum",
+    "name_en": "Musical Instrument Museum",
+    "lat": 33.6675,
+    "lng": -111.9786,
+    "image": ""
+  },
+  {
+    "country": "amerika",
+    "city": "tucson",
     "slug": "saguaro-national-park",
     "name_tr": "Saguaro National Park",
     "name_en": "Saguaro National Park",
-    "lat": 32.2967,
-    "lng": -111.543,
+    "lat": 32.1789,
+    "lng": -110.608,
     "image": ""
   },
   {
@@ -1615,8 +1935,8 @@
     "slug": "arizona-sonora-desert-museum",
     "name_tr": "Arizona-Sonora Desert Museum",
     "name_en": "Arizona-Sonora Desert Museum",
-    "lat": 32.2225,
-    "lng": -111.0668,
+    "lat": 32.2463,
+    "lng": -111.1677,
     "image": ""
   },
   {
@@ -1625,8 +1945,8 @@
     "slug": "tucson-mountain-park",
     "name_tr": "Tucson Mountain Park",
     "name_en": "Tucson Mountain Park",
-    "lat": 32.192,
-    "lng": -111.161,
+    "lat": 32.227,
+    "lng": -111.0844,
     "image": ""
   },
   {
@@ -1635,8 +1955,8 @@
     "slug": "pima-air-space-museum",
     "name_tr": "Pima Air & Space Museum",
     "name_en": "Pima Air & Space Museum",
-    "lat": 32.1316,
-    "lng": -110.8463,
+    "lat": 32.1416,
+    "lng": -110.858,
     "image": ""
   },
   {
@@ -1645,8 +1965,8 @@
     "slug": "mission-san-xavier-del-bac",
     "name_tr": "Mission San Xavier del Bac",
     "name_en": "Mission San Xavier del Bac",
-    "lat": 32.1408,
-    "lng": -111.0449,
+    "lat": 32.1073,
+    "lng": -111.0079,
     "image": ""
   },
   {
@@ -1705,8 +2025,8 @@
     "slug": "lone-pine-koala-sanctuary",
     "name_tr": "Lone Pine Koala Sanctuary",
     "name_en": "Lone Pine Koala Sanctuary",
-    "lat": -27.4606,
-    "lng": 153.0253,
+    "lat": -27.5338,
+    "lng": 152.9688,
     "image": ""
   },
   {
@@ -1715,8 +2035,8 @@
     "slug": "brisbane-botanic-gardens-mount-coot-tha",
     "name_tr": "Brisbane Botanic Gardens Mount Coot-tha",
     "name_en": "Brisbane Botanic Gardens Mount Coot-tha",
-    "lat": -27.4673,
-    "lng": 152.987,
+    "lat": -27.4765,
+    "lng": 152.9761,
     "image": ""
   },
   {
@@ -1745,8 +2065,8 @@
     "slug": "great-barrier-reef",
     "name_tr": "Great Barrier Reef",
     "name_en": "Great Barrier Reef",
-    "lat": -16.488,
-    "lng": 145.9297,
+    "lat": -18.2871,
+    "lng": 147.6992,
     "image": ""
   },
   {
@@ -1755,8 +2075,8 @@
     "slug": "daintree-rainforest",
     "name_tr": "Daintree Rainforest",
     "name_en": "Daintree Rainforest",
-    "lat": -16.2333,
-    "lng": 145.3833,
+    "lat": -16.17,
+    "lng": 145.42,
     "image": ""
   },
   {
@@ -1765,8 +2085,8 @@
     "slug": "kuranda",
     "name_tr": "Kuranda",
     "name_en": "Kuranda",
-    "lat": -16.8224,
-    "lng": 145.6969,
+    "lat": -16.8197,
+    "lng": 145.6378,
     "image": ""
   },
   {
@@ -1775,8 +2095,8 @@
     "slug": "cairns-esplanade-lagoon",
     "name_tr": "Cairns Esplanade Lagoon",
     "name_en": "Cairns Esplanade Lagoon",
-    "lat": -16.9236,
-    "lng": 145.7732,
+    "lat": -16.9205,
+    "lng": 145.7781,
     "image": ""
   },
   {
@@ -1785,8 +2105,8 @@
     "slug": "atherton-tablelands",
     "name_tr": "Atherton Tablelands",
     "name_en": "Atherton Tablelands",
-    "lat": -17.5,
-    "lng": 145.4,
+    "lat": -17.2656,
+    "lng": 145.478,
     "image": ""
   },
   {
@@ -1795,8 +2115,8 @@
     "slug": "litchfield-national-park",
     "name_tr": "Litchfield National Park",
     "name_en": "Litchfield National Park",
-    "lat": -12.467,
-    "lng": 130.5402,
+    "lat": -13.1667,
+    "lng": 130.8333,
     "image": ""
   },
   {
@@ -1805,8 +2125,8 @@
     "slug": "kakadu-national-park",
     "name_tr": "Kakadu National Park",
     "name_en": "Kakadu National Park",
-    "lat": -12.4393,
-    "lng": 132.4593,
+    "lat": -12.6823,
+    "lng": 132.8988,
     "image": ""
   },
   {
@@ -1815,8 +2135,8 @@
     "slug": "darwin-waterfront",
     "name_tr": "Darwin Waterfront",
     "name_en": "Darwin Waterfront",
-    "lat": -12.4628,
-    "lng": 130.8435,
+    "lat": -12.4678,
+    "lng": 130.8461,
     "image": ""
   },
   {
@@ -1825,8 +2145,8 @@
     "slug": "mindil-beach",
     "name_tr": "Mindil Beach",
     "name_en": "Mindil Beach",
-    "lat": -12.3649,
-    "lng": 130.8772,
+    "lat": -12.4431,
+    "lng": 130.8353,
     "image": ""
   },
   {
@@ -1835,8 +2155,8 @@
     "slug": "museum-and-art-gallery-of-the-northern-territory",
     "name_tr": "Museum and Art Gallery of the Northern Territory",
     "name_en": "Museum and Art Gallery of the Northern Territory",
-    "lat": -12.4632,
-    "lng": 130.8327,
+    "lat": -12.4389,
+    "lng": 130.8322,
     "image": ""
   },
   {
@@ -1845,8 +2165,8 @@
     "slug": "surfers-paradise",
     "name_tr": "Surfers Paradise",
     "name_en": "Surfers Paradise",
-    "lat": -28.0167,
-    "lng": 153.4,
+    "lat": -28.0027,
+    "lng": 153.4292,
     "image": ""
   },
   {
@@ -1855,8 +2175,8 @@
     "slug": "warner-bros-movie-world",
     "name_tr": "Warner Bros. Movie World",
     "name_en": "Warner Bros. Movie World",
-    "lat": -27.9385,
-    "lng": 153.3489,
+    "lat": -27.9061,
+    "lng": 153.3145,
     "image": ""
   },
   {
@@ -1865,8 +2185,8 @@
     "slug": "currumbin-wildlife-sanctuary",
     "name_tr": "Currumbin Wildlife Sanctuary",
     "name_en": "Currumbin Wildlife Sanctuary",
-    "lat": -28.1458,
-    "lng": 153.4261,
+    "lat": -28.1352,
+    "lng": 153.4829,
     "image": ""
   },
   {
@@ -1875,18 +2195,18 @@
     "slug": "mona-museum-of-old-and-new-art",
     "name_tr": "MONA (Museum of Old and New Art)",
     "name_en": "MONA (Museum of Old and New Art)",
-    "lat": -42.8805,
-    "lng": 147.3231,
+    "lat": -42.8126,
+    "lng": 147.2618,
     "image": ""
   },
   {
     "country": "avustralya",
     "city": "hobart",
     "slug": "mount-wellington",
-    "name_tr": "Mount Wellington",
-    "name_en": "Mount Wellington",
-    "lat": -42.8797,
-    "lng": 147.3216,
+    "name_tr": "kunanyi / Mount Wellington",
+    "name_en": "kunanyi / Mount Wellington",
+    "lat": -42.8961,
+    "lng": 147.2372,
     "image": ""
   },
   {
@@ -1895,8 +2215,8 @@
     "slug": "salamanca-market",
     "name_tr": "Salamanca Market",
     "name_en": "Salamanca Market",
-    "lat": -42.8834,
-    "lng": 147.3294,
+    "lat": -42.8872,
+    "lng": 147.3331,
     "image": ""
   },
   {
@@ -1905,8 +2225,8 @@
     "slug": "bruny-island",
     "name_tr": "Bruny Island",
     "name_en": "Bruny Island",
-    "lat": -43.3999,
-    "lng": 147.1952,
+    "lat": -43.25,
+    "lng": 147.3333,
     "image": ""
   },
   {
@@ -1915,8 +2235,8 @@
     "slug": "port-arthur-historic-site",
     "name_tr": "Port Arthur Historic Site",
     "name_en": "Port Arthur Historic Site",
-    "lat": -43.1644,
-    "lng": 147.5256,
+    "lat": -43.1481,
+    "lng": 147.8488,
     "image": ""
   },
   {
@@ -1935,8 +2255,8 @@
     "slug": "melbourne-zoo",
     "name_tr": "Melbourne Zoo",
     "name_en": "Melbourne Zoo",
-    "lat": -37.7986,
-    "lng": 144.9607,
+    "lat": -37.7849,
+    "lng": 144.9515,
     "image": ""
   },
   {
@@ -1945,8 +2265,8 @@
     "slug": "national-gallery-of-victoria",
     "name_tr": "National Gallery of Victoria",
     "name_en": "National Gallery of Victoria",
-    "lat": -37.8297,
-    "lng": 144.9696,
+    "lat": -37.8226,
+    "lng": 144.9689,
     "image": ""
   },
   {
@@ -1955,8 +2275,8 @@
     "slug": "eureka-skydeck",
     "name_tr": "Eureka Skydeck",
     "name_en": "Eureka Skydeck",
-    "lat": -37.82,
-    "lng": 144.965,
+    "lat": -37.8218,
+    "lng": 144.9646,
     "image": ""
   },
   {
@@ -1965,8 +2285,8 @@
     "slug": "phillip-island",
     "name_tr": "Phillip Island",
     "name_en": "Phillip Island",
-    "lat": -38.4902,
-    "lng": 145.0314,
+    "lat": -38.4835,
+    "lng": 145.231,
     "image": ""
   },
   {
@@ -2005,8 +2325,8 @@
     "slug": "the-perth-mint",
     "name_tr": "The Perth Mint",
     "name_en": "The Perth Mint",
-    "lat": -31.9502,
-    "lng": 115.8605,
+    "lat": -31.9567889,
+    "lng": 115.8694588,
     "image": ""
   },
   {
@@ -2015,8 +2335,8 @@
     "slug": "rottnest-island",
     "name_tr": "Rottnest Island",
     "name_en": "Rottnest Island",
-    "lat": -32.0001,
-    "lng": 115.4733,
+    "lat": -32.0086,
+    "lng": 115.5276,
     "image": ""
   },
   {
@@ -2025,7 +2345,7 @@
     "slug": "sidney-opera-binasi",
     "name_tr": "Sidney Opera Binası",
     "name_en": "Sydney Opera House",
-    "lat": -33.857,
+    "lat": -33.8568,
     "lng": 151.2153,
     "image": "places/europa/sidney/sidney-sidney-opera-binasi/fldrcmokzo8ahon0ghjf"
   },
@@ -2035,7 +2355,7 @@
     "slug": "sidney-limani-koprusu",
     "name_tr": "Sidney Limanı Köprüsü",
     "name_en": "Sydney Harbour Bridge",
-    "lat": -33.8486,
+    "lat": -33.8523,
     "lng": 151.2108,
     "image": "places/europa/sidney/sidney-sidney-limani-koprusu/sghtgneit1it2s208npi"
   },
@@ -2053,8 +2373,8 @@
     "country": "avustralya",
     "city": "sidney",
     "slug": "royal-botanic-gardens",
-    "name_tr": "Royal Botanic Gardens",
-    "name_en": "Royal Botanic Gardens",
+    "name_tr": "Royal Botanik Bahçeleri",
+    "name_en": "Royal Botanic Garden Sydney",
     "lat": -33.8642,
     "lng": 151.2167,
     "image": ""
@@ -2063,8 +2383,8 @@
     "country": "avustralya",
     "city": "sidney",
     "slug": "taronga-zoo",
-    "name_tr": "Taronga Zoo",
-    "name_en": "Taronga Zoo",
+    "name_tr": "Taronga Hayvanat Bahçesi",
+    "name_en": "Taronga Zoo Sydney",
     "lat": -33.8433,
     "lng": 151.2437,
     "image": ""
@@ -2075,7 +2395,7 @@
     "slug": "the-rocks",
     "name_tr": "The Rocks",
     "name_en": "The Rocks",
-    "lat": -33.8607,
+    "lat": -33.8597,
     "lng": 151.2086,
     "image": ""
   },
@@ -2083,7 +2403,7 @@
     "country": "avustralya",
     "city": "sidney",
     "slug": "manly-beach",
-    "name_tr": "Manly Beach",
+    "name_tr": "Manly Plajı",
     "name_en": "Manly Beach",
     "lat": -33.8007,
     "lng": 151.2867,
@@ -3763,7 +4083,7 @@
     "country": "filipinler",
     "city": "bohol",
     "slug": "panglao-island",
-    "name_tr": "Panglao Island",
+    "name_tr": "Panglao Adası",
     "name_en": "Panglao Island",
     "lat": 9.5535,
     "lng": 123.7469,
@@ -3775,8 +4095,8 @@
     "slug": "bohol-bee-farm",
     "name_tr": "Bohol Bee Farm",
     "name_en": "Bohol Bee Farm",
-    "lat": 9.5363,
-    "lng": 124.2023,
+    "lat": 9.5802,
+    "lng": 123.8237,
     "image": ""
   },
   {
@@ -3845,8 +4165,8 @@
     "slug": "mount-apo",
     "name_tr": "Mount Apo",
     "name_en": "Mount Apo",
-    "lat": 7.0911,
-    "lng": 125.2645,
+    "lat": 7.006,
+    "lng": 125.27,
     "image": ""
   },
   {
@@ -3855,8 +4175,8 @@
     "slug": "philippine-eagle-center",
     "name_tr": "Philippine Eagle Center",
     "name_en": "Philippine Eagle Center",
-    "lat": 7.0828,
-    "lng": 125.6609,
+    "lat": 7.18488,
+    "lng": 125.41529,
     "image": ""
   },
   {
@@ -3865,8 +4185,8 @@
     "slug": "davao-crocodile-park",
     "name_tr": "Davao Crocodile Park",
     "name_en": "Davao Crocodile Park",
-    "lat": 7.085,
-    "lng": 125.6478,
+    "lat": 7.09706,
+    "lng": 125.59925,
     "image": ""
   },
   {
@@ -3875,8 +4195,8 @@
     "slug": "people-s-park",
     "name_tr": "People’s Park",
     "name_en": "People’s Park",
-    "lat": 7.0702,
-    "lng": 125.6097,
+    "lat": 7.0709,
+    "lng": 125.6087,
     "image": ""
   },
   {
@@ -3885,8 +4205,8 @@
     "slug": "eden-nature-park",
     "name_tr": "Eden Nature Park",
     "name_en": "Eden Nature Park",
-    "lat": 7.0874,
-    "lng": 125.7511,
+    "lat": 7.02825,
+    "lng": 125.40127,
     "image": ""
   },
   {
@@ -3925,8 +4245,8 @@
     "slug": "miagao-church",
     "name_tr": "Miagao Church",
     "name_en": "Miagao Church",
-    "lat": 10.6084,
-    "lng": 122.3306,
+    "lat": 10.6419,
+    "lng": 122.2354,
     "image": ""
   },
   {
@@ -3945,8 +4265,8 @@
     "slug": "garin-farm",
     "name_tr": "Garin Farm",
     "name_en": "Garin Farm",
-    "lat": 10.6598,
-    "lng": 122.5573,
+    "lat": 10.59684,
+    "lng": 122.13908,
     "image": ""
   },
   {
@@ -3955,8 +4275,8 @@
     "slug": "isla-de-gigantes",
     "name_tr": "Isla de Gigantes",
     "name_en": "Isla de Gigantes",
-    "lat": 11.0423,
-    "lng": 122.0975,
+    "lat": 11.59417,
+    "lng": 123.33639,
     "image": ""
   },
   {
@@ -4025,8 +4345,8 @@
     "slug": "puerto-princesa-underground-river",
     "name_tr": "Puerto Princesa Underground River",
     "name_en": "Puerto Princesa Underground River",
-    "lat": 9.9797,
-    "lng": 118.7687,
+    "lat": 10.1998,
+    "lng": 118.9261,
     "image": ""
   },
   {
@@ -4035,8 +4355,8 @@
     "slug": "el-nido",
     "name_tr": "El Nido",
     "name_en": "El Nido",
-    "lat": 11.2021,
-    "lng": 119.3922,
+    "lat": 11.18,
+    "lng": 119.3905,
     "image": ""
   },
   {
@@ -4055,8 +4375,8 @@
     "slug": "tubbataha-reefs-natural-park",
     "name_tr": "Tubbataha Reefs Natural Park",
     "name_en": "Tubbataha Reefs Natural Park",
-    "lat": 9.0393,
-    "lng": 119.9297,
+    "lat": 8.9533,
+    "lng": 119.8675,
     "image": ""
   },
   {
@@ -4065,8 +4385,8 @@
     "slug": "coron",
     "name_tr": "Coron",
     "name_en": "Coron",
-    "lat": 12,
-    "lng": 120.2,
+    "lat": 11.9986,
+    "lng": 120.2052,
     "image": ""
   },
   {
@@ -4075,8 +4395,8 @@
     "slug": "taal-volcano",
     "name_tr": "Taal Volcano",
     "name_en": "Taal Volcano",
-    "lat": 13.3584,
-    "lng": 120.5856,
+    "lat": 14.01024,
+    "lng": 120.99812,
     "image": ""
   },
   {
@@ -4085,8 +4405,8 @@
     "slug": "sky-ranch",
     "name_tr": "Sky Ranch",
     "name_en": "Sky Ranch",
-    "lat": 13.1066,
-    "lng": 120.9372,
+    "lat": 14.1096,
+    "lng": 120.9617,
     "image": ""
   },
   {
@@ -4095,8 +4415,8 @@
     "slug": "people-s-park-in-the-sky",
     "name_tr": "People’s Park in the Sky",
     "name_en": "People’s Park in the Sky",
-    "lat": 13.1106,
-    "lng": 120.9749,
+    "lat": 14.1354,
+    "lng": 120.9942,
     "image": ""
   },
   {
@@ -4105,8 +4425,8 @@
     "slug": "puzzle-mansion",
     "name_tr": "Puzzle Mansion",
     "name_en": "Puzzle Mansion",
-    "lat": 13.1141,
-    "lng": 120.9375,
+    "lat": 14.1342,
+    "lng": 120.9715,
     "image": ""
   },
   {
@@ -4115,8 +4435,8 @@
     "slug": "calle-crisologo",
     "name_tr": "Calle Crisologo",
     "name_en": "Calle Crisologo",
-    "lat": 17.5708,
-    "lng": 120.3847,
+    "lat": 17.575,
+    "lng": 120.3875,
     "image": ""
   },
   {
@@ -4125,8 +4445,8 @@
     "slug": "st-paul-metropolitan-cathedral",
     "name_tr": "St. Paul Metropolitan Cathedral",
     "name_en": "St. Paul Metropolitan Cathedral",
-    "lat": 17.5704,
-    "lng": 120.3842,
+    "lat": 17.5748,
+    "lng": 120.3874,
     "image": ""
   },
   {
@@ -4135,8 +4455,8 @@
     "slug": "vigan-heritage-village",
     "name_tr": "Vigan Heritage Village",
     "name_en": "Vigan Heritage Village",
-    "lat": 17.5715,
-    "lng": 120.3841,
+    "lat": 17.575,
+    "lng": 120.3875,
     "image": ""
   },
   {
@@ -4423,8 +4743,8 @@
     "country": "guney-kore",
     "city": "seul",
     "slug": "namsan-seoul-tower",
-    "name_tr": "Namsan Seoul Tower",
-    "name_en": "Namsan Seoul Tower",
+    "name_tr": "N Seoul Tower",
+    "name_en": "N Seoul Tower",
     "lat": 37.5512,
     "lng": 126.9882,
     "image": ""
@@ -4433,7 +4753,7 @@
     "country": "guney-kore",
     "city": "seul",
     "slug": "bukchon-hanok-village",
-    "name_tr": "Bukchon Hanok Village",
+    "name_tr": "Bukchon Hanok Köyü",
     "name_en": "Bukchon Hanok Village",
     "lat": 37.5825,
     "lng": 126.9831,
@@ -4915,8 +5235,8 @@
     "slug": "jantar-mantar",
     "name_tr": "Jantar Mantar",
     "name_en": "Jantar Mantar",
-    "lat": 26.9256,
-    "lng": 75.8236,
+    "lat": 26.92472,
+    "lng": 75.825,
     "image": "places/asia/jaipur/jantar-mantar/jantar-mantar_1781263717445_0.39751294082584965"
   },
   {
@@ -4935,8 +5255,8 @@
     "slug": "alleppey",
     "name_tr": "Alleppey",
     "name_en": "Alleppey",
-    "lat": 9.5,
-    "lng": 76.35,
+    "lat": 9.4814,
+    "lng": 76.3408,
     "image": "places/asia/kerala/alleppey/alleppey_1781263870029_0.9437002411743115"
   },
   {
@@ -4955,8 +5275,8 @@
     "slug": "kumarakom",
     "name_tr": "Kumarakom",
     "name_en": "Kumarakom",
-    "lat": 9.6,
-    "lng": 76.5333,
+    "lat": 9.617,
+    "lng": 76.43,
     "image": "places/asia/kerala/kumarakom/kumarakom_1781263975165_0.40979604516631896"
   },
   {
@@ -4975,8 +5295,8 @@
     "slug": "athirappilly-selalesi",
     "name_tr": "Athirappilly Şelalesi",
     "name_en": "Athirappilly Waterfalls",
-    "lat": 10.2821,
-    "lng": 76.533,
+    "lat": 10.2846,
+    "lng": 76.569,
     "image": ""
   },
   {
@@ -4995,8 +5315,8 @@
     "slug": "elephanta-adasi",
     "name_tr": "Elephanta Adası",
     "name_en": "Elephanta Island",
-    "lat": 18.9575,
-    "lng": 72.9267,
+    "lat": 18.9667,
+    "lng": 72.9358,
     "image": "places/asia/mumbai/elephanta-adasi/elephanta-adasi_1781264177037_0.19616850772774608"
   },
   {
@@ -5005,8 +5325,8 @@
     "slug": "marine-drive",
     "name_tr": "Marine Drive",
     "name_en": "Marine Drive",
-    "lat": 18.9387,
-    "lng": 72.8232,
+    "lat": 18.9408,
+    "lng": 72.8243,
     "image": "places/asia/mumbai/marine-drive/marine-drive_1781264268077_0.7462439530341703"
   },
   {
@@ -5015,8 +5335,8 @@
     "slug": "chhatrapati-shivaji-maharaj-terminus",
     "name_tr": "Chhatrapati Shivaji Maharaj Terminus",
     "name_en": "Chhatrapati Shivaji Maharaj Terminus",
-    "lat": 18.94,
-    "lng": 72.835,
+    "lat": 18.9401,
+    "lng": 72.8352,
     "image": ""
   },
   {
@@ -5025,8 +5345,8 @@
     "slug": "haji-ali-dargah",
     "name_tr": "Haji Ali Dargah",
     "name_en": "Haji Ali Dargah",
-    "lat": 18.938,
-    "lng": 72.8219,
+    "lat": 18.9828,
+    "lng": 72.8091,
     "image": ""
   },
   {
@@ -5065,8 +5385,8 @@
     "slug": "city-palace",
     "name_tr": "City Palace",
     "name_en": "City Palace",
-    "lat": 24.5857,
-    "lng": 73.712,
+    "lat": 24.5764,
+    "lng": 73.6838,
     "image": ""
   },
   {
@@ -5075,8 +5395,8 @@
     "slug": "lake-palace",
     "name_tr": "Lake Palace",
     "name_en": "Lake Palace",
-    "lat": 24.5852,
-    "lng": 73.7117,
+    "lat": 24.5757,
+    "lng": 73.6789,
     "image": ""
   },
   {
@@ -5085,8 +5405,8 @@
     "slug": "jagdish-temple",
     "name_tr": "Jagdish Temple",
     "name_en": "Jagdish Temple",
-    "lat": 24.5859,
-    "lng": 73.7128,
+    "lat": 24.5767,
+    "lng": 73.6838,
     "image": ""
   },
   {
@@ -5095,8 +5415,8 @@
     "slug": "saheliyon-ki-bari",
     "name_tr": "Saheliyon-ki-Bari",
     "name_en": "Saheliyon-ki-Bari",
-    "lat": 24.585,
-    "lng": 73.7141,
+    "lat": 24.6035,
+    "lng": 73.677,
     "image": ""
   },
   {
@@ -5105,8 +5425,8 @@
     "slug": "ganj-nehri",
     "name_tr": "Ganj Nehri",
     "name_en": "Ganges River",
-    "lat": 25.2952,
-    "lng": 82.0078,
+    "lat": 25.3,
+    "lng": 83.01,
     "image": ""
   },
   {
@@ -5115,8 +5435,8 @@
     "slug": "kashi-vishwanath-tapinagi",
     "name_tr": "Kashi Vishwanath Tapınağı",
     "name_en": "Kashi Vishwanath Temple",
-    "lat": 25.309,
-    "lng": 82.0735,
+    "lat": 25.31082,
+    "lng": 83.01067,
     "image": ""
   },
   {
@@ -5125,8 +5445,8 @@
     "slug": "manikarnika-ghat",
     "name_tr": "Manikarnika Ghat",
     "name_en": "Manikarnika Ghat",
-    "lat": 25.3096,
-    "lng": 82.0739,
+    "lat": 25.31077,
+    "lng": 83.01402,
     "image": ""
   },
   {
@@ -5135,8 +5455,8 @@
     "slug": "durgakund-tapinagi",
     "name_tr": "Durgakund Tapınağı",
     "name_en": "Durga Kund Temple",
-    "lat": 25.2892,
-    "lng": 82.0587,
+    "lat": 25.28909,
+    "lng": 82.9995,
     "image": ""
   },
   {
@@ -5145,8 +5465,8 @@
     "slug": "sarnath",
     "name_tr": "Sarnath",
     "name_en": "Sarnath",
-    "lat": 25.3809,
-    "lng": 82.7753,
+    "lat": 25.38083,
+    "lng": 83.02444,
     "image": ""
   },
   {
@@ -7435,18 +7755,48 @@
     "slug": "frasassi-magaralari",
     "name_tr": "Frasassi Mağaraları",
     "name_en": "Frasassi Caves",
-    "lat": 43.4089,
-    "lng": 12.9795,
+    "lat": 43.4009,
+    "lng": 12.9632,
     "image": ""
   },
   {
     "country": "italya",
     "city": "marche",
-    "slug": "urbino-tarih-sehri",
-    "name_tr": "Urbino Tarihî Şehri",
-    "name_en": "Historic City of Urbino",
-    "lat": 43.7244,
-    "lng": 12.6394,
+    "slug": "urbino-tarihi-merkezi",
+    "name_tr": "Urbino Tarihî Merkezi",
+    "name_en": "Historic Centre of Urbino",
+    "lat": 43.7261,
+    "lng": 12.6359,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "marche",
+    "slug": "palazzo-ducale-urbino",
+    "name_tr": "Urbino Dükalık Sarayı",
+    "name_en": "Ducal Palace of Urbino",
+    "lat": 43.7237,
+    "lng": 12.6359,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "marche",
+    "slug": "tempio-del-valadier",
+    "name_tr": "Valadier Tapınağı",
+    "name_en": "Temple of Valadier",
+    "lat": 43.403,
+    "lng": 12.9545,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "marche",
+    "slug": "san-vittore-delle-chiuse",
+    "name_tr": "San Vittore delle Chiuse Manastırı",
+    "name_en": "San Vittore delle Chiuse Abbey",
+    "lat": 43.4023,
+    "lng": 12.9706,
     "image": ""
   },
   {
@@ -7454,9 +7804,9 @@
     "city": "milano",
     "slug": "duomo-di-milano",
     "name_tr": "Duomo di Milano",
-    "name_en": "Duomo di Milano",
-    "lat": 45.4642,
-    "lng": 9.19,
+    "name_en": "Milan Cathedral",
+    "lat": 45.4641,
+    "lng": 9.1919,
     "image": ""
   },
   {
@@ -7465,8 +7815,38 @@
     "slug": "galleria-vittorio-emanuele-ii",
     "name_tr": "Galleria Vittorio Emanuele II",
     "name_en": "Galleria Vittorio Emanuele II",
-    "lat": 45.4686,
+    "lat": 45.4656,
     "lng": 9.19,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "milano",
+    "slug": "castello-sforzesco",
+    "name_tr": "Sforza Kalesi",
+    "name_en": "Sforza Castle",
+    "lat": 45.4707,
+    "lng": 9.1794,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "milano",
+    "slug": "navigli",
+    "name_tr": "Navigli",
+    "name_en": "Navigli",
+    "lat": 45.4517,
+    "lng": 9.175,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "milano",
+    "slug": "santa-maria-delle-grazie",
+    "name_tr": "Santa Maria delle Grazie",
+    "name_en": "Santa Maria delle Grazie",
+    "lat": 45.4669,
+    "lng": 9.1706,
     "image": ""
   },
   {
@@ -7595,8 +7975,8 @@
     "slug": "mole-antonelliana",
     "name_tr": "Mole Antonelliana",
     "name_en": "Mole Antonelliana",
-    "lat": 45.0703,
-    "lng": 7.6869,
+    "lat": 45.06898,
+    "lng": 7.69327,
     "image": ""
   },
   {
@@ -7605,8 +7985,38 @@
     "slug": "torino-kraliyet-sarayi",
     "name_tr": "Torino Kraliyet Sarayı",
     "name_en": "Royal Palace of Turin",
-    "lat": 45.0702,
-    "lng": 7.6841,
+    "lat": 45.07278,
+    "lng": 7.68639,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "torino",
+    "slug": "museo-egizio-torino",
+    "name_tr": "Torino Mısır Müzesi",
+    "name_en": "Egyptian Museum of Turin",
+    "lat": 45.0685,
+    "lng": 7.6848,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "torino",
+    "slug": "palazzo-carignano",
+    "name_tr": "Palazzo Carignano",
+    "name_en": "Palazzo Carignano",
+    "lat": 45.06831,
+    "lng": 7.68652,
+    "image": ""
+  },
+  {
+    "country": "italya",
+    "city": "torino",
+    "slug": "basilica-di-superga",
+    "name_tr": "Superga Bazilikası",
+    "name_en": "Basilica of Superga",
+    "lat": 45.08045,
+    "lng": 7.76761,
     "image": ""
   },
   {
@@ -7692,31 +8102,11 @@
   {
     "country": "japonya",
     "city": "hakone",
-    "slug": "ashinoko-golu",
-    "name_tr": "Ashinoko Gölü",
-    "name_en": "Lake Ashi (Ashinoko)",
-    "lat": 35.2058,
-    "lng": 139.0204,
-    "image": ""
-  },
-  {
-    "country": "japonya",
-    "city": "hakone",
     "slug": "hakone-teleferigi-owakudani-vadisi",
     "name_tr": "Hakone Teleferiği & Owakudani Vadisi",
     "name_en": "Hakone Ropeway & Owakudani Valley",
     "lat": 35.2406,
     "lng": 139.0212,
-    "image": ""
-  },
-  {
-    "country": "japonya",
-    "city": "hakone",
-    "slug": "hakone-acik-hava-muzesi",
-    "name_tr": "Hakone Açık Hava Müzesi",
-    "name_en": "Hakone Open Air Museum",
-    "lat": 35.2485,
-    "lng": 139.0457,
     "image": ""
   },
   {
@@ -7884,7 +8274,7 @@
     "city": "kyoto",
     "slug": "filozof-yolu",
     "name_tr": "Filozof Yolu",
-    "name_en": "Philosopher’s Path",
+    "name_en": "Philosopher's Path",
     "lat": 35.0276,
     "lng": 135.7984,
     "image": ""
@@ -8023,7 +8413,7 @@
     "country": "japonya",
     "city": "takayama",
     "slug": "hida-great-limestone-cave",
-    "name_tr": "Hida Great Limestone Cave",
+    "name_tr": "Hida Büyük Kireçtaşı Mağarası",
     "name_en": "Hida Great Limestone Cave",
     "lat": 36.1833,
     "lng": 137.4,
@@ -8565,18 +8955,48 @@
     "slug": "bryggen",
     "name_tr": "Bryggen",
     "name_en": "Bryggen",
-    "lat": 60.3934,
-    "lng": 5.3246,
+    "lat": 60.39749,
+    "lng": 5.32423,
     "image": ""
   },
   {
     "country": "norvec",
     "city": "bergen",
-    "slug": "fl-ibanen-funicular",
-    "name_tr": "Fløibanen Funicular",
+    "slug": "floibanen-funicular",
+    "name_tr": "Fløibanen Füniküleri",
     "name_en": "Fløibanen Funicular",
-    "lat": 60.3955,
-    "lng": 5.3219,
+    "lat": 60.39642,
+    "lng": 5.32856,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "bergen",
+    "slug": "bergen-balik-pazari",
+    "name_tr": "Bergen Balık Pazarı",
+    "name_en": "Bergen Fish Market",
+    "lat": 60.39496,
+    "lng": 5.32456,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "bergen",
+    "slug": "bergenhus-kalesi",
+    "name_tr": "Bergenhus Kalesi",
+    "name_en": "Bergenhus Fortress",
+    "lat": 60.39757,
+    "lng": 5.3189,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "bergen",
+    "slug": "ulriken",
+    "name_tr": "Ulriken Dağı",
+    "name_en": "Mount Ulriken",
+    "lat": 60.64,
+    "lng": 5.33,
     "image": ""
   },
   {
@@ -8585,7 +9005,7 @@
     "slug": "drammen-nehri",
     "name_tr": "Drammen Nehri",
     "name_en": "Drammen River",
-    "lat": 59.74,
+    "lat": 59.7441,
     "lng": 10.2047,
     "image": ""
   },
@@ -8595,8 +9015,38 @@
     "slug": "spiralen",
     "name_tr": "Spiralen",
     "name_en": "Spiralen",
-    "lat": 59.7387,
-    "lng": 10.2024,
+    "lat": 59.75239,
+    "lng": 10.20131,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "drammen",
+    "slug": "ypsilon-koprusu",
+    "name_tr": "Ypsilon Köprüsü",
+    "name_en": "Ypsilon Bridge",
+    "lat": 59.74345,
+    "lng": 10.20175,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "drammen",
+    "slug": "drammen-parki",
+    "name_tr": "Drammen Parkı",
+    "name_en": "Drammen Park",
+    "lat": 59.74285,
+    "lng": 10.20195,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "drammen",
+    "slug": "bragernes-kilisesi",
+    "name_tr": "Bragernes Kilisesi",
+    "name_en": "Bragernes Church",
+    "lat": 59.74495,
+    "lng": 10.20485,
     "image": ""
   },
   {
@@ -8604,9 +9054,9 @@
     "city": "fredrikstad",
     "slug": "gamlebyen",
     "name_tr": "Gamlebyen",
-    "name_en": "Gamlebyen",
-    "lat": 59.2172,
-    "lng": 10.9297,
+    "name_en": "Gamlebyen Old Town",
+    "lat": 59.2022,
+    "lng": 10.9507,
     "image": ""
   },
   {
@@ -8615,28 +9065,78 @@
     "slug": "fredrikstad-kalesi",
     "name_tr": "Fredrikstad Kalesi",
     "name_en": "Fredrikstad Fortress",
-    "lat": 59.2178,
-    "lng": 10.9315,
+    "lat": 59.2027,
+    "lng": 10.954,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "fredrikstad",
+    "slug": "kongsten-fort",
+    "name_tr": "Kongsten Kalesi",
+    "name_en": "Kongsten Fort",
+    "lat": 59.2049,
+    "lng": 10.9617,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "fredrikstad",
+    "slug": "isegran-fort",
+    "name_tr": "Isegran Kalesi",
+    "name_en": "Isegran Fort",
+    "lat": 59.1987,
+    "lng": 10.9495,
     "image": ""
   },
   {
     "country": "norvec",
     "city": "kristiansand",
     "slug": "kristiansand-hayvanat-bahcesi",
-    "name_tr": "Kristiansand Hayvanat Bahçesi",
-    "name_en": "Kristiansand Zoo",
-    "lat": 58.141,
-    "lng": 7.9893,
+    "name_tr": "Kristiansand Hayvanat Bahçesi ve Eğlence Parkı",
+    "name_en": "Kristiansand Zoo and Amusement Park",
+    "lat": 58.18506,
+    "lng": 8.14141,
     "image": ""
   },
   {
     "country": "norvec",
     "city": "kristiansand",
     "slug": "posebyen",
-    "name_tr": "Posebyen",
-    "name_en": "Posebyen",
-    "lat": 58.1435,
-    "lng": 7.9957,
+    "name_tr": "Posebyen Tarihi Mahallesi",
+    "name_en": "Posebyen Old Town",
+    "lat": 58.14861,
+    "lng": 7.99889,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "kristiansand",
+    "slug": "kunstsilo",
+    "name_tr": "Kunstsilo",
+    "name_en": "Kunstsilo",
+    "lat": 58.13838,
+    "lng": 7.99712,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "kristiansand",
+    "slug": "fiskebrygga",
+    "name_tr": "Fiskebrygga Balıkçı Rıhtımı",
+    "name_en": "Fiskebrygga Fish Wharf",
+    "lat": 58.14088,
+    "lng": 7.9954,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "kristiansand",
+    "slug": "christiansholm-kalesi",
+    "name_tr": "Christiansholm Kalesi",
+    "name_en": "Christiansholm Fortress",
+    "lat": 58.14412,
+    "lng": 8.00357,
     "image": ""
   },
   {
@@ -8665,8 +9165,8 @@
     "slug": "gandsfjorden",
     "name_tr": "Gandsfjorden",
     "name_en": "Gandsfjorden",
-    "lat": 58.8539,
-    "lng": 5.7307,
+    "lat": 58.9061,
+    "lng": 5.75879,
     "image": ""
   },
   {
@@ -8675,8 +9175,28 @@
     "slug": "vitenfabrikken",
     "name_tr": "Vitenfabrikken",
     "name_en": "Vitenfabrikken",
-    "lat": 58.8585,
-    "lng": 5.7327,
+    "lat": 58.8514,
+    "lng": 5.7356,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "sandnes",
+    "slug": "ruten-bypark",
+    "name_tr": "Ruten Şehir Parkı",
+    "name_en": "Ruten City Park",
+    "lat": 58.8519,
+    "lng": 5.7351,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "sandnes",
+    "slug": "sandvedparken",
+    "name_tr": "Sandvedparken",
+    "name_en": "Sandvedparken",
+    "lat": 58.8467,
+    "lng": 5.7389,
     "image": ""
   },
   {
@@ -8685,18 +9205,58 @@
     "slug": "preikestolen",
     "name_tr": "Preikestolen",
     "name_en": "Preikestolen",
-    "lat": 58.9833,
-    "lng": 6.19,
+    "lat": 58.9867,
+    "lng": 6.1887,
     "image": ""
   },
   {
     "country": "norvec",
     "city": "stavanger",
-    "slug": "stavanger-eski-sehir",
+    "slug": "gamle-stavanger",
     "name_tr": "Stavanger Eski Şehir",
-    "name_en": "Stavanger Old Town",
-    "lat": 58.97,
-    "lng": 5.7333,
+    "name_en": "Gamle Stavanger",
+    "lat": 58.972,
+    "lng": 5.7287,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "stavanger",
+    "slug": "stavanger-katedrali",
+    "name_tr": "Stavanger Katedrali",
+    "name_en": "Stavanger Cathedral",
+    "lat": 58.9708,
+    "lng": 5.7331,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "stavanger",
+    "slug": "fargegaten",
+    "name_tr": "Fargegaten - Renkli Sokak",
+    "name_en": "Fargegaten - Øvre Holmegate",
+    "lat": 58.9709,
+    "lng": 5.7348,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "stavanger",
+    "slug": "sverd-i-fjell",
+    "name_tr": "Sverd i fjell",
+    "name_en": "Swords in Rock",
+    "lat": 58.942,
+    "lng": 5.6746,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "stavanger",
+    "slug": "norwegian-petroleum-museum",
+    "name_tr": "Norveç Petrol Müzesi",
+    "name_en": "Norwegian Petroleum Museum",
+    "lat": 58.9717,
+    "lng": 5.7338,
     "image": ""
   },
   {
@@ -8711,12 +9271,82 @@
   },
   {
     "country": "norvec",
+    "city": "tromso",
+    "slug": "fjellheisen",
+    "name_tr": "Fjellheisen Teleferiği",
+    "name_en": "Fjellheisen Cable Car",
+    "lat": 69.6371,
+    "lng": 18.9972,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "tromso",
+    "slug": "polaria",
+    "name_tr": "Polaria",
+    "name_en": "Polaria",
+    "lat": 69.6444,
+    "lng": 18.9477,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "tromso",
+    "slug": "polar-museum",
+    "name_tr": "Tromsø Polar Müzesi",
+    "name_en": "Polar Museum",
+    "lat": 69.6526,
+    "lng": 18.9636,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "tromso",
+    "slug": "tromso-cathedral",
+    "name_tr": "Tromsø Katedrali",
+    "name_en": "Tromsø Cathedral",
+    "lat": 69.6486,
+    "lng": 18.9557,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "tromso",
+    "slug": "tromso-arctic-alpine-botanical-garden",
+    "name_tr": "Tromsø Arktik-Alpin Botanik Bahçesi",
+    "name_en": "Tromsø Arctic-Alpine Botanical Garden",
+    "lat": 69.6496,
+    "lng": 18.955,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "tromso",
+    "slug": "telegrafbukta",
+    "name_tr": "Telegrafbukta",
+    "name_en": "Telegrafbukta",
+    "lat": 69.632,
+    "lng": 18.9075,
+    "image": ""
+  },
+  {
+    "country": "norvec",
+    "city": "tromso",
+    "slug": "tromso-museum",
+    "name_tr": "Norveç Arktik Üniversitesi Müzesi",
+    "name_en": "Arctic University Museum of Norway",
+    "lat": 69.6444,
+    "lng": 18.9186,
+    "image": ""
+  },
+  {
+    "country": "norvec",
     "city": "trondheim",
     "slug": "nidaros-katedrali",
     "name_tr": "Nidaros Katedrali",
     "name_en": "Nidaros Cathedral",
-    "lat": 63.4305,
-    "lng": 10.3951,
+    "lat": 63.4269,
+    "lng": 10.3969,
     "image": ""
   },
   {
@@ -8725,8 +9355,8 @@
     "slug": "bakklandet",
     "name_tr": "Bakklandet",
     "name_en": "Bakklandet",
-    "lat": 63.4307,
-    "lng": 10.3947,
+    "lat": 63.4281,
+    "lng": 10.403,
     "image": ""
   },
   {
@@ -8785,18 +9415,48 @@
     "slug": "aveiro-kanallari",
     "name_tr": "Aveiro Kanalları",
     "name_en": "Aveiro Canals",
-    "lat": 40.6403,
-    "lng": -8.6538,
+    "lat": 40.641,
+    "lng": -8.65618,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "aveiro",
     "slug": "aveiro-muzesi",
-    "name_tr": "Aveiro Müzesi",
-    "name_en": "Aveiro Museum",
-    "lat": 40.6407,
-    "lng": -8.655,
+    "name_tr": "Aveiro Müzesi / Santa Joana",
+    "name_en": "Aveiro Museum / Santa Joana",
+    "lat": 40.63933,
+    "lng": -8.65096,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "aveiro",
+    "slug": "aveiro-katedrali",
+    "name_tr": "Aveiro Katedrali",
+    "name_en": "Aveiro Cathedral",
+    "lat": 40.63981,
+    "lng": -8.65002,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "aveiro",
+    "slug": "aveiro-art-nouveau-muzesi",
+    "name_tr": "Aveiro Art Nouveau Müzesi",
+    "name_en": "Aveiro Art Nouveau Museum",
+    "lat": 40.6418,
+    "lng": -8.65564,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "aveiro",
+    "slug": "costa-nova-aveiro",
+    "name_tr": "Costa Nova",
+    "name_en": "Costa Nova",
+    "lat": 40.61756,
+    "lng": -8.74958,
     "image": ""
   },
   {
@@ -8825,8 +9485,8 @@
     "slug": "coimbra-universitesi",
     "name_tr": "Coimbra Üniversitesi",
     "name_en": "University of Coimbra",
-    "lat": 40.208,
-    "lng": -8.42,
+    "lat": 40.20781,
+    "lng": -8.42578,
     "image": ""
   },
   {
@@ -8835,68 +9495,208 @@
     "slug": "joanina-kutuphanesi",
     "name_tr": "Joanina Kütüphanesi",
     "name_en": "Joanina Library",
-    "lat": 40.2085,
-    "lng": -8.4207,
+    "lat": 40.20806,
+    "lng": -8.42394,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "coimbra",
+    "slug": "santa-cruz-manastiri-coimbra",
+    "name_tr": "Santa Cruz Manastırı",
+    "name_en": "Santa Cruz Monastery",
+    "lat": 40.21025,
+    "lng": -8.42931,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "coimbra",
+    "slug": "machado-de-castro-ulusal-muzesi",
+    "name_tr": "Machado de Castro Ulusal Müzesi",
+    "name_en": "Machado de Castro National Museum",
+    "lat": 40.20889,
+    "lng": -8.42556,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "coimbra",
+    "slug": "coimbra-universitesi-botanik-bahcesi",
+    "name_tr": "Coimbra Üniversitesi Botanik Bahçesi",
+    "name_en": "University of Coimbra Botanical Garden",
+    "lat": 40.20561,
+    "lng": -8.42274,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "evora",
-    "slug": "vora-katedrali",
+    "slug": "evora-katedrali",
     "name_tr": "Évora Katedrali",
     "name_en": "Évora Cathedral",
-    "lat": 38.5744,
-    "lng": -7.9128,
+    "lat": 38.57161,
+    "lng": -7.90651,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "evora",
-    "slug": "tarihi-sehir-merkezi",
-    "name_tr": "Tarihi Şehir Merkezi",
-    "name_en": "Historical City Center",
-    "lat": 38.5742,
-    "lng": -7.9121,
+    "slug": "evora-tarihi-sehir-merkezi",
+    "name_tr": "Évora Tarihi Şehir Merkezi",
+    "name_en": "Historic Centre of Évora",
+    "lat": 38.57306,
+    "lng": -7.90778,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "evora",
+    "slug": "evora-roma-tapinagi",
+    "name_tr": "Évora Roma Tapınağı",
+    "name_en": "Roman Temple of Évora",
+    "lat": 38.57265,
+    "lng": -7.90729,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "evora",
+    "slug": "evora-kemikler-sapeli",
+    "name_tr": "Évora Kemikler Şapeli",
+    "name_en": "Chapel of Bones",
+    "lat": 38.56898,
+    "lng": -7.90832,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "evora",
+    "slug": "praca-do-giraldo",
+    "name_tr": "Praça do Giraldo",
+    "name_en": "Praça do Giraldo",
+    "lat": 38.57111,
+    "lng": -7.90974,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "evora",
+    "slug": "evora-muzesi",
+    "name_tr": "Évora Müzesi",
+    "name_en": "Évora Museum",
+    "lat": 38.57283,
+    "lng": -7.90791,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "funchal",
     "slug": "monte-palace",
-    "name_tr": "Monte Palace",
-    "name_en": "Monte Palace",
-    "lat": 32.6665,
-    "lng": -16.9267,
+    "name_tr": "Monte Palace Madeira Tropikal Bahçesi",
+    "name_en": "Monte Palace Madeira Tropical Garden",
+    "lat": 32.6742,
+    "lng": -16.9016,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "funchal",
     "slug": "botanik-bahcesi",
-    "name_tr": "Botanik Bahçesi",
-    "name_en": "Botanical Garden",
-    "lat": 32.6637,
-    "lng": -16.9259,
+    "name_tr": "Madeira Botanik Bahçesi",
+    "name_en": "Madeira Botanical Garden",
+    "lat": 32.6622,
+    "lng": -16.8955,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "funchal",
+    "slug": "monte-kizaklari",
+    "name_tr": "Monte Kızakları",
+    "name_en": "Monte Sledges",
+    "lat": 32.674,
+    "lng": -16.9017,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "funchal",
+    "slug": "mercado-dos-lavradores",
+    "name_tr": "Mercado dos Lavradores",
+    "name_en": "Mercado dos Lavradores",
+    "lat": 32.6496,
+    "lng": -16.9076,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "lizbon",
-    "slug": "bel-m-kulesi",
-    "name_tr": "Belem Kulesi",
+    "slug": "belem-kulesi",
+    "name_tr": "Belém Kulesi",
     "name_en": "Belém Tower",
-    "lat": 38.6919,
-    "lng": -9.2163,
-    "image": "places/europa/lizbon/lizbon-bel-m-kulesi/ugjkk1akzcnufdv1p1hm"
+    "lat": 38.691597,
+    "lng": -9.215981,
+    "image": ""
   },
   {
     "country": "portekiz",
     "city": "lizbon",
-    "slug": "jer-nimos-manastiri",
+    "slug": "jeronimos-manastiri",
     "name_tr": "Jerónimos Manastırı",
     "name_en": "Jerónimos Monastery",
-    "lat": 38.6972,
-    "lng": -9.2064,
+    "lat": 38.697222,
+    "lng": -9.206667,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "lizbon",
+    "slug": "castelo-de-sao-jorge",
+    "name_tr": "São Jorge Kalesi",
+    "name_en": "São Jorge Castle",
+    "lat": 38.7139,
+    "lng": -9.1335,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "lizbon",
+    "slug": "praca-do-comercio",
+    "name_tr": "Praça do Comércio",
+    "name_en": "Praça do Comércio",
+    "lat": 38.7072,
+    "lng": -9.1369,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "lizbon",
+    "slug": "alfama",
+    "name_tr": "Alfama",
+    "name_en": "Alfama",
+    "lat": 38.7107,
+    "lng": -9.1306,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "lizbon",
+    "slug": "se-de-lisboa",
+    "name_tr": "Lizbon Katedrali",
+    "name_en": "Lisbon Cathedral",
+    "lat": 38.7098,
+    "lng": -9.1327,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "lizbon",
+    "slug": "lx-factory",
+    "name_tr": "LX Factory",
+    "name_en": "LX Factory",
+    "lat": 38.7027,
+    "lng": -9.1802,
     "image": ""
   },
   {
@@ -8915,18 +9715,38 @@
     "slug": "porto-sarap-mahzenleri",
     "name_tr": "Porto Şarap Mahzenleri",
     "name_en": "Porto Wine Cellars",
-    "lat": 41.142,
-    "lng": -8.6107,
+    "lat": 41.1365,
+    "lng": -8.615,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "porto",
-    "slug": "porto-korfezi-piana-korfezi-girolata-korfezi-scandola-koruma-alani",
-    "name_tr": "Porto Körfezi: Piana Körfezi, Girolata Körfezi, Scandola Koruma Alanı",
-    "name_en": "Porto Gulf: Piana Gulf, Girolata Gulf, Scandola Nature Reserve",
-    "lat": 42.182,
-    "lng": 8.773,
+    "slug": "piana-calanques",
+    "name_tr": "Piana Calanques",
+    "name_en": "Calanche of Piana",
+    "lat": 42.239,
+    "lng": 8.641,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "porto",
+    "slug": "girolata-korfezi",
+    "name_tr": "Girolata Körfezi",
+    "name_en": "Gulf of Girolata",
+    "lat": 42.319,
+    "lng": 8.631,
+    "image": ""
+  },
+  {
+    "country": "portekiz",
+    "city": "porto",
+    "slug": "scandola-doga-koruma-alani",
+    "name_tr": "Scandola Doğa Koruma Alanı",
+    "name_en": "Scandola Nature Reserve",
+    "lat": 42.336,
+    "lng": 8.555,
     "image": ""
   },
   {
@@ -8935,38 +9755,38 @@
     "slug": "viseu-katedrali",
     "name_tr": "Viseu Katedrali",
     "name_en": "Viseu Cathedral",
-    "lat": 40.661,
-    "lng": -7.9134,
+    "lat": 40.6598,
+    "lng": -7.9099,
     "image": ""
   },
   {
     "country": "portekiz",
     "city": "viseu",
-    "slug": "gr-o-vasco-muzesi",
+    "slug": "grao-vasco-muzesi",
     "name_tr": "Grão Vasco Müzesi",
-    "name_en": "Grão Vasco Museum",
-    "lat": 40.6614,
-    "lng": -7.9141,
+    "name_en": "Grão Vasco National Museum",
+    "lat": 40.6599,
+    "lng": -7.91,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "brasov",
-    "slug": "kara-kaya-kilisesi",
-    "name_tr": "Kara Kaya Kilisesi",
-    "name_en": "Black Church",
-    "lat": 45.6333,
-    "lng": 25.5861,
+    "slug": "kara-kilise",
+    "name_tr": "Kara Kilise (Biserica Neagră)",
+    "name_en": "Black Church (Biserica Neagră)",
+    "lat": 45.64091,
+    "lng": 25.58764,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "brasov",
-    "slug": "pia-a-sfatului",
+    "slug": "piata-sfatului",
     "name_tr": "Piața Sfatului",
-    "name_en": "Piața Sfatului",
-    "lat": 45.6415,
-    "lng": 25.5869,
+    "name_en": "Piața Sfatului (Council Square)",
+    "lat": 45.6427,
+    "lng": 25.5886,
     "image": ""
   },
   {
@@ -8975,8 +9795,8 @@
     "slug": "calea-victoriei",
     "name_tr": "Calea Victoriei",
     "name_en": "Calea Victoriei",
-    "lat": 44.4333,
-    "lng": 26.1,
+    "lat": 44.43966,
+    "lng": 26.10146,
     "image": "places/europa/bukres/bukres-calea-victoriei/g6mvfy8usfpeipo1pwsj"
   },
   {
@@ -8985,28 +9805,28 @@
     "slug": "parlamento-sarayi",
     "name_tr": "Parlamento Sarayı",
     "name_en": "Palace of Parliament",
-    "lat": 44.4268,
-    "lng": 26.1025,
+    "lat": 44.427454,
+    "lng": 26.087287,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "cluj-napoca",
     "slug": "st-michael-kilisesi",
-    "name_tr": "St. Michael Kilisesi",
-    "name_en": "St. Michael Church",
-    "lat": 46.77,
-    "lng": 23.59,
+    "name_tr": "Aziz Michael Kilisesi",
+    "name_en": "St. Michael's Church",
+    "lat": 46.76972,
+    "lng": 23.58972,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "cluj-napoca",
-    "slug": "botanik-bahcesi",
-    "name_tr": "Botanik Bahçesi",
-    "name_en": "Botanical Garden",
-    "lat": 46.7711,
-    "lng": 23.5923,
+    "slug": "alexandru-borza-botanik-bahcesi",
+    "name_tr": "Alexandru Borza Botanik Bahçesi",
+    "name_en": "Alexandru Borza Botanical Garden",
+    "lat": 46.75861,
+    "lng": 23.58944,
     "image": ""
   },
   {
@@ -9015,78 +9835,78 @@
     "slug": "mamaia-plaji",
     "name_tr": "Mamaia Plajı",
     "name_en": "Mamaia Beach",
-    "lat": 44.2641,
-    "lng": 28.6301,
+    "lat": 44.24187,
+    "lng": 28.62381,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "constanta",
-    "slug": "constan-a-tarihi-merkez",
-    "name_tr": "Constanța Tarihi Merkez",
+    "slug": "constanta-tarihi-merkez",
+    "name_tr": "Constanța Tarihi Merkezi",
     "name_en": "Constanța Old Town",
-    "lat": 44.1598,
-    "lng": 28.6348,
+    "lat": 44.17415,
+    "lng": 28.65849,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "craiova",
     "slug": "nicolae-romanescu-park",
-    "name_tr": "Nicolae Romanescu Park",
+    "name_tr": "Nicolae Romanescu Parkı",
     "name_en": "Nicolae Romanescu Park",
-    "lat": 44.3193,
-    "lng": 23.791,
+    "lat": 44.3009,
+    "lng": 23.8045,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "craiova",
-    "slug": "craiova-sanat-galerisi",
-    "name_tr": "Craiova Sanat Galerisi",
-    "name_en": "Craiova Art Gallery",
-    "lat": 44.3142,
-    "lng": 23.7942,
+    "slug": "craiova-sanat-muzesi",
+    "name_tr": "Craiova Sanat Müzesi",
+    "name_en": "Craiova Art Museum",
+    "lat": 44.31917,
+    "lng": 23.79467,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "galati",
-    "slug": "dun-rea-park",
-    "name_tr": "Dunărea Park",
-    "name_en": "Dunărea Park",
-    "lat": 45.4409,
-    "lng": 28.0155,
+    "slug": "faleza-dunarii-galati",
+    "name_tr": "Galați Tuna Nehir Kıyısı",
+    "name_en": "Galați Danube Promenade",
+    "lat": 45.42296,
+    "lng": 28.04254,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "galati",
-    "slug": "muzeul-de-istorie-gala-i",
-    "name_tr": "Muzeul de Istorie Galați",
-    "name_en": "Galați History Museum",
-    "lat": 45.44,
-    "lng": 28.015,
+    "slug": "muzeul-de-istorie-paul-paltanea-galati",
+    "name_tr": "Paul Păltănea Galați Tarih Müzesi",
+    "name_en": "Paul Păltănea History Museum of Galați",
+    "lat": 45.43745,
+    "lng": 28.05537,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "iasi",
-    "slug": "tara-m-n-stirii",
-    "name_tr": "Tara Mănăstirii",
-    "name_en": "Tara Mănăstirii",
-    "lat": 47.1585,
-    "lng": 27.6014,
+    "slug": "manastirea-sfintii-trei-ierarhi",
+    "name_tr": "Üç Kutsal Hiyerarşi Manastırı",
+    "name_en": "Three Holy Hierarchs Monastery",
+    "lat": 47.1597,
+    "lng": 27.58443,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "iasi",
-    "slug": "palatul-culturii",
-    "name_tr": "Palatul Culturii",
-    "name_en": "Palatul Culturii",
-    "lat": 47.158,
-    "lng": 27.601,
+    "slug": "palatul-culturii-iasi",
+    "name_tr": "Iași Kültür Sarayı",
+    "name_en": "Palace of Culture, Iași",
+    "lat": 47.15851,
+    "lng": 27.58613,
     "image": ""
   },
   {
@@ -9094,49 +9914,49 @@
     "city": "oradea",
     "slug": "oradea-kalesi",
     "name_tr": "Oradea Kalesi",
-    "name_en": "Oradea Castle",
-    "lat": 47.072,
-    "lng": 21.933,
+    "name_en": "Oradea Fortress",
+    "lat": 47.05123,
+    "lng": 21.94302,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "oradea",
-    "slug": "oradea-merkezi",
-    "name_tr": "Oradea Merkezi",
-    "name_en": "Oradea Center",
-    "lat": 47.073,
-    "lng": 21.9337,
+    "slug": "piata-unirii-oradea",
+    "name_tr": "Piața Unirii (Birlik Meydanı)",
+    "name_en": "Piața Unirii (Union Square)",
+    "lat": 47.05476,
+    "lng": 21.9285,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "ploiesti",
-    "slug": "ploie-ti-tarihi-merkez",
-    "name_tr": "Ploiești Tarihi Merkez",
-    "name_en": "Ploiești Old Town",
-    "lat": 44.9384,
-    "lng": 26.0303,
+    "slug": "ploiesti-tarihi-merkez",
+    "name_tr": "Ploiești Tarihi Merkezi",
+    "name_en": "Ploiești Historic Center",
+    "lat": 44.93941,
+    "lng": 26.02335,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "ploiesti",
-    "slug": "muzeul-ceasului",
-    "name_tr": "Muzeul Ceasului",
-    "name_en": "The Clock Museum",
-    "lat": 44.9465,
-    "lng": 26.0305,
+    "slug": "muzeul-ceasului-nicolae-simache",
+    "name_tr": "Nicolae Simache Saat Müzesi",
+    "name_en": "Nicolae Simache Clock Museum",
+    "lat": 44.93622,
+    "lng": 26.02699,
     "image": ""
   },
   {
     "country": "romanya",
     "city": "timisoara",
-    "slug": "unirii-meydani",
-    "name_tr": "Unirii Meydanı",
-    "name_en": "Unirii Square",
-    "lat": 45.7517,
-    "lng": 21.2276,
+    "slug": "piata-unirii-timisoara",
+    "name_tr": "Piața Unirii (Birlik Meydanı)",
+    "name_en": "Piața Unirii (Union Square)",
+    "lat": 45.7579,
+    "lng": 21.2291,
     "image": ""
   },
   {
@@ -9145,8 +9965,8 @@
     "slug": "huniade-kalesi",
     "name_tr": "Huniade Kalesi",
     "name_en": "Huniade Castle",
-    "lat": 45.7577,
-    "lng": 21.2254,
+    "lat": 45.75318,
+    "lng": 21.2271,
     "image": ""
   },
   {
@@ -9155,28 +9975,28 @@
     "slug": "kazan-kremlini",
     "name_tr": "Kazan Kremlini",
     "name_en": "Kazan Kremlin",
-    "lat": 55.796,
-    "lng": 49.107,
+    "lat": 55.79945,
+    "lng": 49.10646,
     "image": ""
   },
   {
     "country": "rusya",
     "city": "kazan",
-    "slug": "qols-rif-camii",
+    "slug": "qolsharif-camii",
     "name_tr": "Qolşärif Camii",
-    "name_en": "Qolşärif Mosque",
-    "lat": 55.792,
-    "lng": 49.106,
+    "name_en": "Kul Sharif Mosque",
+    "lat": 55.79831,
+    "lng": 49.10519,
     "image": ""
   },
   {
     "country": "rusya",
     "city": "kazan",
-    "slug": "kazan-katedrali",
-    "name_tr": "Kazan Katedrali",
-    "name_en": "Kazan Cathedral",
-    "lat": 55.796,
-    "lng": 49.106,
+    "slug": "mujde-katedrali-kazan",
+    "name_tr": "Müjde Katedrali",
+    "name_en": "Annunciation Cathedral of Kazan",
+    "lat": 55.79888,
+    "lng": 49.10622,
     "image": ""
   },
   {
@@ -9185,8 +10005,8 @@
     "slug": "bauman-caddesi",
     "name_tr": "Bauman Caddesi",
     "name_en": "Bauman Street",
-    "lat": 55.795,
-    "lng": 49.105,
+    "lat": 55.7872,
+    "lng": 49.122,
     "image": ""
   },
   {
@@ -9194,9 +10014,29 @@
     "city": "kazan",
     "slug": "tataristan-ulusal-muzesi",
     "name_tr": "Tataristan Ulusal Müzesi",
-    "name_en": "Tatarstan National Museum",
-    "lat": 55.7965,
-    "lng": 49.1075,
+    "name_en": "National Museum of the Republic of Tatarstan",
+    "lat": 55.7947,
+    "lng": 49.1084,
+    "image": ""
+  },
+  {
+    "country": "rusya",
+    "city": "kazan",
+    "slug": "eski-tatar-mahallesi",
+    "name_tr": "Eski Tatar Mahallesi",
+    "name_en": "Old Tatar Quarter",
+    "lat": 55.7781,
+    "lng": 49.1149,
+    "image": ""
+  },
+  {
+    "country": "rusya",
+    "city": "kazan",
+    "slug": "tum-dinler-tapinagi-kazan",
+    "name_tr": "Tüm Dinler Tapınağı",
+    "name_en": "Temple of All Religions",
+    "lat": 55.80028,
+    "lng": 48.975,
     "image": ""
   },
   {
@@ -9245,8 +10085,8 @@
     "slug": "hermitaj-muzesi",
     "name_tr": "Hermitaj Müzesi",
     "name_en": "Hermitage Museum",
-    "lat": 59.9343,
-    "lng": 30.3351,
+    "lat": 59.9398,
+    "lng": 30.3146,
     "image": ""
   },
   {
@@ -9255,8 +10095,8 @@
     "slug": "peter-ve-paul-kalesi",
     "name_tr": "Peter ve Paul Kalesi",
     "name_en": "Peter and Paul Fortress",
-    "lat": 59.95,
-    "lng": 30.3025,
+    "lat": 59.9502,
+    "lng": 30.3165,
     "image": ""
   },
   {
@@ -9265,8 +10105,8 @@
     "slug": "nevsky-prospekt",
     "name_tr": "Nevsky Prospekt",
     "name_en": "Nevsky Prospekt",
-    "lat": 59.9343,
-    "lng": 30.3374,
+    "lat": 59.9319,
+    "lng": 30.3565,
     "image": ""
   },
   {
@@ -9275,18 +10115,38 @@
     "slug": "ermitaj-tiyatrosu",
     "name_tr": "Ermitaj Tiyatrosu",
     "name_en": "Hermitage Theatre",
-    "lat": 59.9342,
-    "lng": 30.3268,
+    "lat": 59.9412,
+    "lng": 30.3191,
     "image": ""
   },
   {
     "country": "rusya",
     "city": "stpeterburg",
-    "slug": "puskin-muzesi",
-    "name_tr": "Puşkin Müzesi",
-    "name_en": "Pushkin Museum",
-    "lat": 59.9343,
-    "lng": 30.3374,
+    "slug": "puskin-apartman-muzesi",
+    "name_tr": "Puşkin Apartman Müzesi",
+    "name_en": "Pushkin Apartment Museum",
+    "lat": 59.9419,
+    "lng": 30.3246,
+    "image": ""
+  },
+  {
+    "country": "rusya",
+    "city": "stpeterburg",
+    "slug": "aziz-isaak-katedrali",
+    "name_tr": "Aziz İshak Katedrali",
+    "name_en": "Saint Isaac's Cathedral",
+    "lat": 59.9339,
+    "lng": 30.3063,
+    "image": ""
+  },
+  {
+    "country": "rusya",
+    "city": "stpeterburg",
+    "slug": "kurtarici-kan-uzerine-kilise",
+    "name_tr": "Kurtarıcı Kan Üzerine Kilise",
+    "name_en": "Church of the Savior on Spilled Blood",
+    "lat": 59.94,
+    "lng": 30.3289,
     "image": ""
   },
   {
@@ -11815,8 +12675,8 @@
     "slug": "salda-golu",
     "name_tr": "Salda Gölü",
     "name_en": "Salda Lake",
-    "lat": 37.507489819312134,
-    "lng":  29.71079302939495,
+    "lat": 37.507446878568295,
+    "lng": 29.71080205123456,
     "image": "places/turkey/burdur/burdur-salda-golu/j09r4e3iivj56gbnjtgs"
   },
   {
@@ -17427,7 +18287,7 @@
     "name_en": "Kurşunlu Bathhouse",
     "lat": 39.74687,
     "lng": 37.02096,
-    "image": ""
+    "image": "places/turkey/sivas/kursunlu-hamami/kursunlu-hamami_1788464939008_0.33559879927301306"
   },
   {
     "country": "turkiye",
@@ -18535,8 +19395,8 @@
     "slug": "paralia-ammoudi",
     "name_tr": "Paralia Ammoudi",
     "name_en": "Paralia Ammoudi",
-    "lat": 37.83,
-    "lng": 20.805,
+    "lat": 37.842,
+    "lng": 20.804,
     "image": ""
   },
   {
@@ -18555,8 +19415,8 @@
     "slug": "kremidi-plaji",
     "name_tr": "Kremidi Plajı",
     "name_en": "Kremidi Beach",
-    "lat": 37.653,
-    "lng": 20.923,
+    "lat": 37.89115,
+    "lng": 20.71483,
     "image": ""
   },
   {
@@ -18565,8 +19425,8 @@
     "slug": "vathi-lagadi-plaji",
     "name_tr": "Vathi Lagadi Plajı",
     "name_en": "Vathi Lagadi Beach",
-    "lat": 37.66,
-    "lng": 20.95,
+    "lat": 37.8898,
+    "lng": 20.7153,
     "image": ""
   },
   {
@@ -18575,8 +19435,8 @@
     "slug": "makris-gialos-plaji",
     "name_tr": "Makris Gialos Plajı",
     "name_en": "Makris Gialos Beach",
-    "lat": 37.822,
-    "lng": 20.801,
+    "lat": 37.87822,
+    "lng": 20.72598,
     "image": ""
   },
   {
@@ -18585,8 +19445,8 @@
     "slug": "xigia-kukurt-plaji",
     "name_tr": "Xigia Kükürt Plajı",
     "name_en": "Xigia Sulfur Beach",
-    "lat": 37.8535,
-    "lng": 20.76,
+    "lat": 37.8679,
+    "lng": 20.7351,
     "image": ""
   },
   {
@@ -18595,8 +19455,8 @@
     "slug": "xigia-plaji-seyir-noktasi",
     "name_tr": "Xigia Plajı Seyir Noktası",
     "name_en": "Xigia Beach View",
-    "lat": 37.8545,
-    "lng": 20.762,
+    "lat": 37.86386,
+    "lng": 20.73876,
     "image": ""
   },
   {
@@ -18615,8 +19475,8 @@
     "slug": "gerakas-plaji",
     "name_tr": "Gerakas Plajı",
     "name_en": "Gerakas Beach",
-    "lat": 37.6333,
-    "lng": 20.9833,
+    "lat": 37.70793,
+    "lng": 20.98654,
     "image": ""
   },
   {
@@ -18625,8 +19485,8 @@
     "slug": "navagio-plaji-gemi-enkazi-plaji",
     "name_tr": "Navagio Plajı (Gemi Enkazı Plajı)",
     "name_en": "Navagio Beach (Shipwreck Beach)",
-    "lat": 37.859,
-    "lng": 20.624,
+    "lat": 37.85955,
+    "lng": 20.62494,
     "image": ""
   },
   {
@@ -18635,8 +19495,8 @@
     "slug": "navagio-plaji-seyir-noktasi",
     "name_tr": "Navagio Plajı Seyir Noktası",
     "name_en": "Navagio Beach Viewpoint",
-    "lat": 37.8598,
-    "lng": 20.627,
+    "lat": 37.86471,
+    "lng": 20.62477,
     "image": ""
   },
   {
@@ -18645,8 +19505,8 @@
     "slug": "filippoi-plaji",
     "name_tr": "Filippoi Plajı",
     "name_en": "Filippoi Beach",
-    "lat": 37.9,
-    "lng": 20.7333,
+    "lat": 37.90053,
+    "lng": 20.65227,
     "image": ""
   }
 ]

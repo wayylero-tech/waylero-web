@@ -6,40 +6,55 @@
       "en": "Desert Botanical Garden",
       "de": "Desert Botanical Garden"
     },
-    "latitude": 33.4668,
-    "longitude": -111.9441,
+    "latitude": 33.463,
+    "longitude": -111.9455,
     "description": {
-      "tr": "Phoenix'teki Desert Botanical Garden, çöl bitkileri ve manzaralarıyla ünlüdür. Ziyaretçiler, bölgenin özgün bitki örtüsünü keşfederken doğal güzellikleri de görebilir.",
-      "en": "The Desert Botanical Garden in Phoenix is famous for its desert plants and landscapes. Visitors can explore the region's unique flora and enjoy the natural beauty.",
-      "de": "Der Desert Botanical Garden in Phoenix ist berühmt für seine Wüstenpflanzen und -landschaften. Besucher können die einzigartige Flora der Region entdecken und die natürliche Schönheit genießen."
+      "tr": "Phoenix'teki Desert Botanical Garden, Sonoran Çölü'nün bitki dünyasını yakından tanımak için ziyaret edilebilecek en önemli yerlerden biridir. Papago Park'ın içerisinde bulunan bahçe 140 acre alanı kaplar ve dünya çöllerinden binlerce bitkinin yanı sıra özellikle Sonoran Çölü'ne özgü kaktüs ve sukulent türlerini sergiler. Bahçede 50.000'den fazla bitki sergilenmekte ve farklı temalara sahip yürüyüş parkurları aracılığıyla çöl ekosisteminin nasıl şekillendiği anlatılmaktadır. Saguaro kaktüsleri, agavlar, dikenli armutlar, palo verde ağaçları ve farklı sukulent türleri bahçenin karakteristik bitkileri arasındadır. Ziyaret sırasında yalnızca bitkileri görmek değil, çöl yaşamının su, sıcaklık ve kuraklıkla nasıl mücadele ettiğini anlamak da mümkündür. Bahçede yıl boyunca dönemsel sergiler, rehberli turlar, eğitim programları ve akşam etkinlikleri düzenlenmektedir. Yaz aylarında Phoenix'in sıcaklığı nedeniyle bahçenin sabahın erken saatlerinde veya akşam saatlerinde gezilmesi daha rahat olabilir. Güncel uygulamada bazı dönemlerde bahçe sabah erken saatlerde açılıp gece geç saatlere kadar özel etkinlikler gerçekleştirebilmektedir. Ziyaretçiler yürüyüş için su, güneş koruyucu, şapka ve rahat ayakkabı bulundurmalıdır. Bahçe özellikle çöl manzarası, kaktüs fotoğrafçılığı ve Arizona'nın doğal bitki örtüsünü keşfetmek isteyenler için güçlü bir duraktır.",
+      "en": "Desert Botanical Garden in Phoenix is one of the best places to experience the plant life of the Sonoran Desert. Located within Papago Park, the garden covers 140 acres and presents thousands of plants from deserts around the world, with a strong focus on cacti, succulents, and plants native to the Sonoran Desert. More than 50,000 plants are displayed across themed trails that explain desert ecosystems, conservation, desert living, and the relationship between people and plants. Saguaro cacti, agaves, prickly pears, palo verde trees, and numerous succulent species create the characteristic landscape. A visit is not simply about seeing desert plants; the trails also demonstrate how plants survive extreme heat, limited rainfall, and intense sunlight. The garden hosts changing exhibitions, educational programs, guided experiences, concerts, and seasonal evening events throughout the year. During Phoenix's hottest months, visiting early in the morning or later in the evening can be more comfortable than walking during the middle of the day. Visitors should bring water, sun protection, a hat, and comfortable walking shoes. The garden is especially rewarding for travelers interested in desert landscapes, cactus photography, botanical collections, and the natural environment of Arizona.",
+      "de": "Der Desert Botanical Garden in Phoenix ist einer der besten Orte, um die Pflanzenwelt der Sonora-Wüste kennenzulernen. Der Garten liegt im Papago Park, umfasst 140 Acres und präsentiert Tausende Pflanzen aus Wüstenregionen der ganzen Welt, mit einem besonderen Schwerpunkt auf Kakteen, Sukkulenten und Pflanzen der Sonora-Wüste. Mehr als 50.000 Pflanzen werden entlang verschiedener thematischer Wege gezeigt, die sich mit Wüstenökosystemen, Naturschutz, dem Leben in der Wüste und der Beziehung zwischen Menschen und Pflanzen beschäftigen. Saguaro-Kakteen, Agaven, Feigenkakteen, Palo-Verde-Bäume und zahlreiche Sukkulenten prägen das Landschaftsbild. Besucher lernen dabei nicht nur verschiedene Pflanzen kennen, sondern erfahren auch, wie Pflanzen extreme Hitze, wenig Niederschlag und intensive Sonneneinstrahlung überleben. Im Garten finden wechselnde Ausstellungen, Bildungsprogramme, Führungen, Konzerte und saisonale Abendveranstaltungen statt. Während der besonders heißen Monate empfiehlt es sich, den Garten möglichst früh am Morgen oder am Abend zu besuchen. Wasser, Sonnenschutz, ein Hut und bequeme Schuhe sind für den Rundgang sinnvoll. Besonders für Fotografie, Kakteen, Wüstenlandschaften und die Natur Arizonas ist der Garten ein lohnendes Ziel."
     },
     "activities": {
       "tr": [
         "Çöl bitkilerini keşfetmek",
-        "Doğal güzellikleri görmek"
+        "Kaktüs fotoğrafçılığı yapmak",
+        "Yürüyüş yapmak",
+        "Botanik sergilerini görmek",
+        "Akşam etkinliklerine katılmak"
       ],
       "en": [
         "Explore desert plants",
-        "Enjoy the natural beauty"
+        "Take cactus photographs",
+        "Walk the garden trails",
+        "Visit botanical exhibitions",
+        "Attend evening events"
       ],
       "de": [
-        "Wüstenpflanzen erkunden",
-        "Die natürliche Schönheit genießen"
+        "Wüstenpflanzen entdecken",
+        "Kakteen fotografieren",
+        "Durch die Gartenwege spazieren",
+        "Botanische Ausstellungen besuchen",
+        "An Abendveranstaltungen teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "botanik",
+        "bahçe"
       ],
       "en": [
-        "nature"
+        "nature",
+        "botanical",
+        "garden"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Botanik",
+        "Garten"
       ]
     },
     "images": [
-      "https://example.com/desert_botanical_garden.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Desert%20Botanical%20Garden%2C%20Phoenix%2C%20Arizona.jpg"
     ]
   },
   {
@@ -49,40 +64,56 @@
       "en": "Camelback Mountain",
       "de": "Camelback Mountain"
     },
-    "latitude": 33.5236,
-    "longitude": -112.0242,
+    "latitude": 33.514724,
+    "longitude": -111.961604,
     "description": {
-      "tr": "Camelback Dağı, Phoenix'in simgelerinden biridir ve yürüyüşçüler için popüler bir yerdir. Zirveye ulaştığınızda şehri yüksekten görebilirsiniz.",
-      "en": "Camelback Mountain is one of Phoenix's landmarks and a popular destination for hikers. Once at the summit, you can enjoy panoramic views of the city.",
-      "de": "Der Camelback Mountain ist ein Wahrzeichen von Phoenix und ein beliebtes Ziel für Wanderer. Vom Gipfel aus können Besucher einen Panoramablick auf die Stadt genießen."
+      "tr": "Camelback Mountain, Phoenix'in en tanınmış doğal simgelerinden biri ve şehir bölgesindeki en popüler dağ yürüyüşü noktalarından biridir. Dağın adı, uzaktan bakıldığında diz çökmüş bir devenin başını ve hörgücünü andıran siluetinden gelir. Zirve yaklaşık 2.704 feet yüksekliğindedir ve buradan Phoenix ile çevredeki Valley bölgesinin geniş manzarası görülebilir. Zirveye ulaşmak için başlıca iki rota bulunur: batı taraftaki Echo Canyon Trail ve doğu taraftaki Cholla Trail. Her iki parkur da Phoenix Belediyesi tarafından Extremely Difficult seviyesinde değerlendirilmektedir. Özellikle Echo Canyon Trail'in üst bölümlerinde kayalık zemin, dik tırmanış ve elleri kullanmayı gerektiren bölümler bulunur. Cholla Trail de son bölümünde oldukça dik ve kayalıktır. Bu nedenle Camelback Mountain sıradan bir şehir yürüyüşü olarak değerlendirilmemelidir; deneyimli ve hazırlıklı yürüyüşçüler için daha uygundur. Dağda saguaro, cholla ve dikenli armut gibi Sonoran Çölü bitkilerinin yanı sıra tavşanlar, kertenkeleler, çeşitli kuşlar ve zaman zaman çıngıraklı yılanlar görülebilir. Parkurlar gün doğumundan gün batımına kadar kullanılır. Phoenix'in aşırı sıcak günlerinde yürüyüş koşulları hızla tehlikeli hale gelebileceği için hava koşulları ve şehir tarafından yayınlanan sıcaklık uyarıları mutlaka kontrol edilmelidir. Zirveye çıkmak istemeyenler için dağın çevresindeki bölgelerden Camelback'in karakteristik siluetini fotoğraflamak da güzel bir alternatiftir.",
+      "en": "Camelback Mountain is one of Phoenix's most recognizable natural landmarks and one of the most popular hiking destinations in the metropolitan area. Its name comes from the mountain's distinctive silhouette, which resembles the head and hump of a kneeling camel. The summit rises to approximately 2,704 feet and provides broad views across Phoenix and the surrounding Valley. Two main trails lead toward the summit: Echo Canyon Trail on the western side and Cholla Trail on the eastern side. Both trails are rated Extremely Difficult by the City of Phoenix. Echo Canyon becomes particularly steep and rocky near the upper sections, with handrails and sections where hikers need to use their hands for climbing. Cholla Trail also becomes very steep and rocky toward the summit. Camelback should therefore not be treated as an ordinary urban walk; it is better suited to experienced and properly prepared hikers. The mountain supports typical Sonoran Desert vegetation including saguaro, cholla, and prickly pear cacti. Wildlife can include rabbits, lizards, birds, and occasionally rattlesnakes. Trail access is generally from sunrise to sunset. During Phoenix's extreme heat, hiking conditions can become hazardous very quickly, so visitors should check current heat warnings and trail information before starting. Travelers who do not want to climb can also photograph the distinctive camel-shaped mountain from surrounding parts of Phoenix and Scottsdale.",
+      "de": "Der Camelback Mountain gehört zu den bekanntesten Naturdenkmälern von Phoenix und ist eines der beliebtesten Wanderziele der Metropolregion. Seinen Namen verdankt der Berg seiner charakteristischen Silhouette, die an den Kopf und Höcker eines knienden Kamels erinnert. Der Gipfel liegt auf etwa 2.704 Fuß Höhe und bietet weite Ausblicke über Phoenix und das Valley. Zwei Hauptwege führen zum Gipfel: der Echo Canyon Trail auf der Westseite und der Cholla Trail auf der Ostseite. Beide Wege werden von der Stadt Phoenix als Extremely Difficult eingestuft. Der Echo Canyon Trail wird im oberen Bereich besonders steil und felsig und enthält Abschnitte mit Handläufen und Kletterpassagen. Auch der Cholla Trail wird zum Gipfel hin sehr steil und felsig. Der Camelback Mountain ist daher kein gewöhnlicher Stadtspaziergang und eignet sich eher für erfahrene und gut vorbereitete Wanderer. Typische Pflanzen der Sonora-Wüste wie Saguaro-, Cholla- und Feigenkakteen wachsen an den Hängen. Auch Kaninchen, Eidechsen, verschiedene Vogelarten und gelegentlich Klapperschlangen können beobachtet werden. Die Wege sind grundsätzlich von Sonnenaufgang bis Sonnenuntergang zugänglich. Bei extremer Hitze können Wanderungen jedoch schnell gefährlich werden, weshalb aktuelle Hitzewarnungen und Informationen zu den Wegen vor dem Start geprüft werden sollten. Wer nicht zum Gipfel wandern möchte, kann den markanten Berg auch aus den umliegenden Stadtteilen fotografieren."
     },
     "activities": {
       "tr": [
-        "Dağa tırmanmak",
-        "Zirveye çıkmak"
+        "Dağ yürüyüşü yapmak",
+        "Zirveye tırmanmak",
+        "Şehir manzarasını izlemek",
+        "Çöl bitkilerini gözlemlemek",
+        "Fotoğraf çekmek"
       ],
       "en": [
         "Hike the mountain",
-        "Reach the summit"
+        "Climb to the summit",
+        "Enjoy city views",
+        "Observe desert plants",
+        "Take photographs"
       ],
       "de": [
-        "Den Berg erklimmen",
-        "Den Gipfel erreichen"
+        "Bergwandern",
+        "Zum Gipfel wandern",
+        "Die Aussicht genießen",
+        "Wüstenpflanzen beobachten",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "yürüyüş",
+        "manzara"
       ],
       "en": [
-        "nature"
+        "nature",
+        "hiking",
+        "scenic"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Wandern",
+        "Aussicht"
       ]
     },
     "images": [
-      "https://example.com/camelback_mountain.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Camelback%20Mountain%2C%20Phoenix%2C%20United%20States%20%28Unsplash%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Camelback%20Mountain.jpg"
     ]
   },
   {
@@ -92,129 +123,472 @@
       "en": "Heard Museum",
       "de": "Heard Museum"
     },
-    "latitude": 33.4914,
-    "longitude": -112.071,
+    "latitude": 33.4729,
+    "longitude": -112.0737,
     "description": {
-      "tr": "Heard Müzesi, Amerikan Yerlisi kültürüne adanmış bir müzedir. Phoenix'te bulunan bu müze, yerli Amerikan halklarının sanatlarını ve tarihini sergiler.",
-      "en": "The Heard Museum is dedicated to Native American culture and is located in Phoenix. It showcases Native American art and history.",
-      "de": "Das Heard Museum ist der Kultur der amerikanischen Ureinwohner gewidmet und befindet sich in Phoenix. Es zeigt Kunst und Geschichte der Ureinwohner."
+      "tr": "Heard Museum, Phoenix'te Amerikan Yerlileri ve özellikle Güneybatı Amerika'nın yerli halklarının sanat, kültür ve tarihini anlatan önemli bir müzedir. 1929 yılında kurulan müze, günümüzde bölgedeki yerli toplulukların geçmişini ve günümüzdeki kültürel üretimlerini sanat eserleri, tarihi objeler, fotoğraflar ve kapsamlı sergiler üzerinden ziyaretçilere sunar. Müzenin koleksiyonlarında Arizona ve Güneybatı Amerika'daki farklı yerli topluluklara ait seramikler, dokumalar, takılar, heykeller, resimler, sepetler ve diğer kültürel objeler bulunur. Müze özellikle Amerikan yerlilerinin yatılı okullarda yaşadığı deneyimleri ele alan sergileriyle de dikkat çeker. HOME: Native People in the Southwest gibi sergiler bölgenin yerli halklarının geçmişten günümüze devam eden kültürel bağlarını anlatırken, Away From Home sergisi Amerikan Yerlilerinin boarding school deneyimlerine odaklanır. Müze yalnızca kapalı galerilerden oluşmaz; açık alanları ve avluları da gezilebilir. Düzenli olarak sanatçı etkinlikleri, konuşmalar, gösteriler ve kültürel programlar gerçekleştirilir. Güncel müze adresi 2301 N. Central Ave'dir. Müze yılın büyük bölümünde her gün 10.00-16.00 arasında açıktır; yaz döneminde pazartesi günleri kapalıdır. Sergi programı zaman içinde değiştiğinden ziyaret öncesinde güncel sergilerin kontrol edilmesi faydalıdır.",
+      "en": "The Heard Museum in Phoenix is an important cultural institution dedicated to the art, culture, and history of American Indian peoples, with a particular emphasis on the Indigenous communities of the American Southwest. Founded in 1929, the museum presents the histories and contemporary cultural expressions of Native communities through artworks, historic objects, photographs, and immersive exhibitions. Its collections include pottery, textiles, jewelry, sculpture, paintings, baskets, and other cultural objects representing communities from Arizona and throughout the Southwest. The museum is also known for exhibitions addressing the experiences of American Indian children in boarding schools. Exhibitions such as HOME: Native People in the Southwest explore continuing cultural connections, while Away From Home focuses on the history and experiences associated with American Indian boarding schools. The museum campus also includes outdoor spaces and courtyards in addition to its indoor galleries. Throughout the year it hosts artist programs, talks, demonstrations, performances, and cultural events. The museum is located at 2301 N. Central Ave. Current general hours are 10 a.m. to 4 p.m. daily for most of the year, with Mondays closed during the summer period. Exhibition schedules change, so visitors should check the current program before visiting.",
+      "de": "Das Heard Museum in Phoenix ist eine bedeutende Kultureinrichtung, die sich der Kunst, Kultur und Geschichte der amerikanischen Ureinwohner widmet, mit einem besonderen Schwerpunkt auf den indigenen Gemeinschaften des amerikanischen Südwestens. Das Museum wurde 1929 gegründet und präsentiert die Geschichte sowie die zeitgenössische Kultur indigener Gemeinschaften anhand von Kunstwerken, historischen Objekten, Fotografien und umfangreichen Ausstellungen. Die Sammlungen umfassen Keramik, Textilien, Schmuck, Skulpturen, Gemälde, Körbe und andere kulturelle Objekte aus Arizona und dem gesamten Südwesten. Bekannt ist das Museum auch für Ausstellungen über die Erfahrungen indigener Kinder in Internatsschulen. Ausstellungen wie HOME: Native People in the Southwest beschäftigen sich mit den kulturellen Verbindungen indigener Gemeinschaften bis in die Gegenwart, während Away From Home die Geschichte der Indian Boarding Schools thematisiert. Neben den Galerien gehören auch Innenhöfe und Außenbereiche zum Museumsgelände. Regelmäßig finden Künstlerprogramme, Vorträge, Vorführungen, Aufführungen und kulturelle Veranstaltungen statt. Das Museum befindet sich in der 2301 N. Central Ave. Die regulären Öffnungszeiten sind größtenteils täglich von 10 bis 16 Uhr; während der Sommermonate bleibt das Museum montags geschlossen. Da sich die Ausstellungen ändern, sollte das aktuelle Programm vor dem Besuch geprüft werden."
     },
     "activities": {
       "tr": [
-        "Sanat galerilerini gezmek",
-        "Yerli Amerikan kültürünü keşfetmek"
+        "Yerli Amerikan sanatını keşfetmek",
+        "Tarihi eserleri incelemek",
+        "Kültürel sergileri gezmek",
+        "Fotoğraf ve sanat koleksiyonlarını görmek",
+        "Kültürel etkinliklere katılmak"
       ],
       "en": [
-        "Explore the art galleries",
-        "Learn about Native American culture"
+        "Explore Native American art",
+        "View historic objects",
+        "Visit cultural exhibitions",
+        "Explore photography and art collections",
+        "Attend cultural programs"
       ],
       "de": [
-        "Die Kunstgalerien erkunden",
-        "Mehr über die Kultur der amerikanischen Ureinwohner erfahren"
+        "Indigene amerikanische Kunst entdecken",
+        "Historische Objekte betrachten",
+        "Kulturelle Ausstellungen besuchen",
+        "Foto- und Kunstsammlungen erkunden",
+        "An Kulturprogrammen teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "kültür",
+        "sanat",
+        "tarih"
       ],
       "en": [
-        "museum"
+        "museum",
+        "culture",
+        "art",
+        "history"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Kultur",
+        "Kunst",
+        "Geschichte"
       ]
     },
     "images": [
-      "https://example.com/heard_museum.jpg"
+      "https://img.ctykit.com/cdn/az-phoenix/images/heard-museum-1024x612.png"
     ]
   },
   {
     "slug": "south-mountain-park",
     "name": {
-      "tr": "South Mountain Park",
-      "en": "South Mountain Park",
-      "de": "South Mountain Park"
+      "tr": "South Mountain Park and Preserve",
+      "en": "South Mountain Park and Preserve",
+      "de": "South Mountain Park and Preserve"
     },
-    "latitude": 33.3253,
-    "longitude": -112.126,
+    "latitude": 33.3452,
+    "longitude": -112.0584,
     "description": {
-      "tr": "South Mountain Park, Phoenix'teki büyük bir şehir parkıdır. Ziyaretçilere yürüyüş, bisiklet sürme ve piknik yapma gibi açık hava etkinlikleri sunar.",
-      "en": "South Mountain Park is a large city park in Phoenix, offering outdoor activities such as hiking, biking, and picnicking.",
-      "de": "Der South Mountain Park ist ein großer Stadtpark in Phoenix und bietet Aktivitäten im Freien wie Wandern, Radfahren und Picknicken."
+      "tr": "South Mountain Park and Preserve, Phoenix'in güneyinde yer alan ve 16.000 acre'dan fazla alanı kapsayan devasa bir şehir parkı ve doğal koruma alanıdır. Üç farklı dağ silsilesinden oluşan park, Phoenix şehir merkezine yakın olmasına rağmen geniş Sonoran Çölü manzaraları sunar. Park içerisinde 50 milden fazla yürüyüş, bisiklet ve binicilik parkuru bulunur. Dağın yüksek kesimlerine çıkan yollar boyunca saguaro kaktüsleri, palo verde ağaçları ve diğer çöl bitkileri görülür. Parkın en bilinen manzara noktalarından biri Dobbin's Lookout'tur. Buraya ulaşan Summit Road sayesinde ziyaretçiler, zorlu bir yürüyüş yapmadan da yüksek kesimlere araçla ulaşabilir ve Phoenix şehir silüetini yukarıdan izleyebilir. Holbert Trail gibi yürüyüş rotaları daha aktif bir deneyim isteyenler için kullanılabilir. Parkta ayrıca kayalara işlenmiş antik petroglyphler ve Sonoran Çölü'nün doğal yaşamını anlatan eğitim alanları bulunur. Şehir sınırları içinde bu kadar geniş bir çöl alanına sahip olması South Mountain'ı Phoenix'in en önemli açık hava destinasyonlarından biri haline getirir. Gün doğumu ve gün batımı saatlerinde şehir ile çölün birlikte görüldüğü manzaralar özellikle fotoğrafçılık açısından dikkat çekicidir. Parkın güncel düzenlemelerine göre giriş ve otopark saatleri 05.00-19.00, parkur kullanım saatleri ise 05.00-23.00 olarak belirtilmektedir; sıcaklık uyarıları sırasında bazı parkurlar için ek kısıtlamalar uygulanabilir.",
+      "en": "South Mountain Park and Preserve is a vast municipal park and desert preserve south of Phoenix covering more than 16,000 acres. Consisting of three mountain ranges, the park offers extensive Sonoran Desert scenery surprisingly close to the city center. More than 50 miles of trails are available for hiking, biking, and equestrian activities. Saguaro cacti, palo verde trees, and other Sonoran Desert vegetation can be seen across the mountains. One of the most popular scenic locations is Dobbin's Lookout. Summit Road allows visitors to drive toward the higher elevations and enjoy views over Phoenix without completing a long hike. For hikers, routes such as Holbert Trail provide a more active way to explore the mountains. The park also contains ancient petroglyphs and educational areas focused on the plants, animals, and natural history of the Sonoran Desert. Its enormous size within the Phoenix municipal area makes South Mountain one of the city's most important outdoor destinations. Sunrise and sunset are especially attractive for photography because the desert mountains and urban skyline can be seen together. Current city information lists parking and entrance hours as 5 a.m. to 7 p.m. and trail hours as 5 a.m. to 11 p.m., while additional trail restrictions can apply during extreme heat warnings.",
+      "de": "Der South Mountain Park and Preserve ist ein riesiger Stadtpark und Naturraum südlich von Phoenix mit einer Fläche von mehr als 16.000 Acres. Das Gebiet besteht aus drei Gebirgsketten und bietet eine ausgedehnte Landschaft der Sonora-Wüste in unmittelbarer Nähe der Stadt. Mehr als 50 Meilen Wander-, Rad- und Reitwege führen durch das Schutzgebiet. Entlang der Berge wachsen Saguaro-Kakteen, Palo-Verde-Bäume und zahlreiche weitere typische Pflanzen der Sonora-Wüste. Einer der bekanntesten Aussichtspunkte ist Dobbin's Lookout. Über die Summit Road können Besucher auch mit dem Auto in höhere Bereiche gelangen und den Blick über Phoenix genießen, ohne eine lange Wanderung unternehmen zu müssen. Wanderwege wie der Holbert Trail bieten eine aktivere Möglichkeit, die Berglandschaft zu erkunden. Im Park befinden sich außerdem historische Felszeichnungen und Bildungsbereiche zur Naturgeschichte der Sonora-Wüste. Aufgrund seiner enormen Größe innerhalb des Stadtgebiets gehört South Mountain zu den wichtigsten Outdoor-Zielen von Phoenix. Besonders bei Sonnenauf- und Sonnenuntergang ist die Kombination aus Wüstenlandschaft und Stadtpanorama interessant für Fotografen. Die aktuellen Angaben der Stadt nennen für Parkplätze und Zufahrten 5 bis 19 Uhr sowie für die Wege 5 bis 23 Uhr; bei extremer Hitze können zusätzliche Einschränkungen für bestimmte Wege gelten."
     },
     "activities": {
       "tr": [
-        "Yürüyüş yapmak",
-        "Bisiklet sürmek",
-        "Piknik yapmak"
+        "Doğa yürüyüşü yapmak",
+        "Bisiklete binmek",
+        "Dobbin's Lookout'a gitmek",
+        "Çöl manzarası izlemek",
+        "Petroglifleri görmek",
+        "Fotoğraf çekmek"
       ],
       "en": [
         "Hike",
-        "Bike",
-        "Picnic"
+        "Cycle",
+        "Visit Dobbin's Lookout",
+        "Enjoy desert views",
+        "See petroglyphs",
+        "Take photographs"
       ],
       "de": [
         "Wandern",
         "Radfahren",
-        "Picknicken"
+        "Dobbin's Lookout besuchen",
+        "Wüstenlandschaften genießen",
+        "Petroglyphen sehen",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "yürüyüş",
+        "manzara"
       ],
       "en": [
-        "nature"
+        "nature",
+        "hiking",
+        "scenic"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Wandern",
+        "Aussicht"
       ]
     },
     "images": [
-      "https://example.com/south_mountain_park.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/South%20Mountain%20Park%20Phoenix.jpg",
+      "https://www.visitphoenix.com/media/2020/10/south-mountain-park-phoenix.jpg"
     ]
   },
   {
     "slug": "musical-instrument-museum",
     "name": {
-      "tr": "Musical Instrument Museum",
+      "tr": "Müzik Aletleri Müzesi",
       "en": "Musical Instrument Museum",
       "de": "Musical Instrument Museum"
     },
-    "latitude": 33.6436,
-    "longitude": -112.074,
+    "latitude": 33.6678,
+    "longitude": -111.979,
     "description": {
-      "tr": "Musical Instrument Museum, dünyanın dört bir yanından gelen müzik aletlerini sergileyen eşsiz bir müzedir. Ziyaretçiler, müzik tarihine dair bilgiler edinebilir.",
-      "en": "The Musical Instrument Museum is a unique museum showcasing musical instruments from around the world. Visitors can learn about the history of music.",
-      "de": "Das Musical Instrument Museum ist ein einzigartiges Museum, das Musikinstrumente aus der ganzen Welt zeigt. Besucher können mehr über die Geschichte der Musik erfahren."
+      "tr": "Musical Instrument Museum, Phoenix'in kuzeyinde yer alan ve dünyanın farklı bölgelerinden müzik kültürlerini tek çatı altında buluşturan kapsamlı bir müzedir. MIM olarak da bilinen müze, dünyanın farklı ülkelerinden ve kültürlerinden on binlerce müzik aletini sergiler. Koleksiyonlar Afrika, Asya, Avrupa, Latin Amerika, Orta Doğu ve Okyanusya gibi farklı coğrafi bölgeler üzerinden düzenlenmiştir. Ziyaretçiler yalnızca vitrinlerdeki enstrümanları görmekle kalmaz; birçok galeride müziğin nasıl icra edildiğini gösteren video ve ses kayıtları da kullanılmaktadır. Müzenin Experience Gallery bölümünde ziyaretçilerin bazı enstrümanları kendilerinin deneyebileceği interaktif alanlar bulunur. Mechanical Music Gallery mekanik müzik aletlerini, STEM Gallery ise müzik ile bilim arasındaki bağlantıları anlatır. Müze içerisinde ayrıca konserlerin düzenlendiği MIM Music Theater, kafe ve müze mağazası bulunur. 4725 E. Mayo Blvd adresindeki müze her gün 09.00-17.00 saatleri arasında açıktır. Koleksiyonu çok geniş olduğu için birkaç saatlik ziyaret bile yalnızca belirli bölümlerin görülmesine yetebilir. Müzik tarihiyle ilgilenmeyen ziyaretçiler için bile farklı ülkelerin kültürlerini ses, görüntü ve enstrümanlar üzerinden keşfetme imkanı sunduğu için Phoenix'in en farklı müze deneyimlerinden biridir.",
+      "en": "The Musical Instrument Museum, located in northern Phoenix, brings together musical traditions from around the world in a single museum. Commonly known as MIM, it presents tens of thousands of instruments representing different countries and cultures. The galleries are organized geographically, with collections covering regions such as Africa, Asia, Europe, Latin America, the Middle East, and Oceania. Visitors do more than look at instruments behind glass; many galleries include videos and recordings showing how instruments are played within their cultural contexts. The Experience Gallery allows visitors to interact with selected instruments, while the Mechanical Music Gallery focuses on mechanical instruments and the STEM Gallery explores connections between music and science. The museum also includes the MIM Music Theater, a café, and a museum store. Located at 4725 E. Mayo Blvd., MIM is currently open daily from 9 a.m. to 5 p.m. Because of the size of the collection, visitors can easily spend several hours exploring the galleries. Even travelers who are not specifically interested in music can find the museum engaging because it presents world cultures through sound, instruments, video, and interactive experiences.",
+      "de": "Das Musical Instrument Museum im Norden von Phoenix verbindet musikalische Traditionen aus aller Welt in einem einzigen Museum. Das häufig als MIM bezeichnete Museum zeigt Zehntausende Instrumente aus verschiedenen Ländern und Kulturen. Die Ausstellungen sind geografisch gegliedert und umfassen unter anderem Afrika, Asien, Europa, Lateinamerika, den Nahen Osten und Ozeanien. Besucher sehen nicht nur Instrumente in Vitrinen; viele Galerien zeigen Videos und Tonaufnahmen, die erklären, wie die Instrumente in ihren jeweiligen Kulturen verwendet werden. In der Experience Gallery können Besucher ausgewählte Instrumente selbst ausprobieren. Die Mechanical Music Gallery beschäftigt sich mit mechanischen Musikinstrumenten, während die STEM Gallery Verbindungen zwischen Musik und Wissenschaft erklärt. Zum Museum gehören außerdem das MIM Music Theater, ein Café und ein Museumsshop. Das Museum befindet sich in 4725 E. Mayo Blvd. und ist derzeit täglich von 9 bis 17 Uhr geöffnet. Aufgrund der umfangreichen Sammlung lohnt es sich, mehrere Stunden für den Besuch einzuplanen. Auch wer kein ausgesprochener Musikliebhaber ist, kann hier verschiedene Kulturen auf ungewöhnliche Weise über Instrumente, Klang, Videos und interaktive Erlebnisse kennenlernen."
     },
     "activities": {
       "tr": [
-        "Müzik aletlerini keşfetmek",
-        "Müzik tarihini öğrenmek"
+        "Dünya müzik kültürlerini keşfetmek",
+        "Müzik aletlerini incelemek",
+        "İnteraktif enstrümanları denemek",
+        "Müzik tarihini öğrenmek",
+        "Konser izlemek"
       ],
       "en": [
-        "Explore musical instruments",
-        "Learn about the history of music"
+        "Explore world music cultures",
+        "View musical instruments",
+        "Try interactive instruments",
+        "Learn about music history",
+        "Attend concerts"
       ],
       "de": [
-        "Musikinstrumente erkunden",
-        "Mehr über die Geschichte der Musik erfahren"
+        "Weltweite Musikkulturen entdecken",
+        "Musikinstrumente betrachten",
+        "Interaktive Instrumente ausprobieren",
+        "Musikgeschichte kennenlernen",
+        "Konzerte besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "kültür",
+        "müzik"
       ],
       "en": [
-        "museum"
+        "museum",
+        "culture",
+        "music"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Kultur",
+        "Musik"
       ]
     },
     "images": [
-      "https://example.com/musical_instrument_museum.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/MIM%20SW04.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Musical%20instruments%20on%20display%20at%20the%20MIM%20%2814350237502%29.jpg"
+    ]
+  },
+  {
+    "slug": "papago-park",
+    "name": {
+      "tr": "Papago Park",
+      "en": "Papago Park",
+      "de": "Papago Park"
+    },
+    "latitude": 33.4535,
+    "longitude": -111.9458,
+    "description": {
+      "tr": "Papago Park, Phoenix ve Tempe arasında yer alan, kırmızımsı kumtaşı oluşumları, göletleri ve kolay erişilebilir yürüyüş parkurlarıyla tanınan geniş bir çöl parkıdır. Park yaklaşık 1.200 acre alanı kaplar ve Phoenix şehir merkezine kısa bir mesafede bulunur. En bilinen noktası, kayalık bir oluşumun içerisindeki doğal açıklıktan şehir ve park manzarası sunan Hole-in-the-Rock'tur. Bu kısa parkur yaklaşık 0,2 mil uzunluğundadır ve diğer Phoenix dağ parkurlarına göre oldukça kolaydır. Papago Park içerisinde Desert Botanical Garden ve Phoenix Zoo gibi önemli ziyaret noktaları da bulunur. Parkın farklı bölümlerinde göletler, piknik alanları, bisiklet yolları ve çeşitli kısa yürüyüş rotaları vardır. Kırmızı kaya oluşumları ve palmiye ağaçlarının birlikte görüldüğü manzaralar özellikle fotoğrafçılık açısından dikkat çekicidir. Hole-in-the-Rock, gün doğumu ve gün batımı sırasında Phoenix manzarasını izlemek isteyenlerin sık kullandığı noktalardan biridir. Parktaki yolların büyük bölümü düşük eğimli olduğundan şehir içinde kısa bir doğa molası için uygundur. Papago Park'ı tek başına gezmek mümkün olduğu gibi Desert Botanical Garden ve Phoenix Zoo ile birlikte tam günlük bir gezi programına da dahil etmek mümkündür.",
+      "en": "Papago Park is a large desert park between Phoenix and Tempe known for its reddish sandstone formations, lagoons, and accessible trails. Covering roughly 1,200 acres, the park is only a short distance from downtown Phoenix. Its best-known landmark is Hole-in-the-Rock, a natural opening in a sandstone formation that provides views over the park and surrounding city. The Hole-in-the-Rock Trail is only about 0.2 miles and is considerably easier than many of Phoenix's mountain hikes. Papago Park is also home to major attractions including Desert Botanical Garden and Phoenix Zoo. Other parts of the park contain lagoons, picnic areas, bike paths, and several short hiking routes. The combination of red rock formations, palm trees, desert vegetation, and water creates distinctive photography opportunities. Hole-in-the-Rock is especially popular around sunrise and sunset for views across the Phoenix area. Most trails in the park have relatively little elevation gain, making the area suitable for visitors looking for an accessible outdoor experience close to the city. Papago Park can be visited independently or combined with Desert Botanical Garden and Phoenix Zoo for a longer itinerary.",
+      "de": "Papago Park liegt zwischen Phoenix und Tempe und ist für seine rötlichen Sandsteinformationen, Teiche und gut zugänglichen Wege bekannt. Der Park umfasst ungefähr 1.200 Acres und befindet sich nur wenige Minuten vom Zentrum von Phoenix entfernt. Die bekannteste Sehenswürdigkeit ist Hole-in-the-Rock, eine natürliche Öffnung in einer Sandsteinformation mit Blick über den Park und die umliegende Stadt. Der Hole-in-the-Rock Trail ist nur etwa 0,2 Meilen lang und deutlich einfacher als viele der Bergwanderwege von Phoenix. Im Park befinden sich außerdem wichtige Attraktionen wie der Desert Botanical Garden und der Phoenix Zoo. Weitere Bereiche bieten Teiche, Picknickplätze, Radwege und kurze Wanderwege. Die Kombination aus roten Felsen, Palmen, Wüstenvegetation und Wasser bietet interessante Fotomotive. Besonders bei Sonnenaufgang und Sonnenuntergang ist Hole-in-the-Rock beliebt. Die meisten Wege weisen nur geringe Höhenunterschiede auf und eignen sich daher für Besucher, die eine leicht zugängliche Naturerfahrung nahe der Stadt suchen. Papago Park lässt sich gut allein erkunden oder mit dem Desert Botanical Garden und dem Phoenix Zoo zu einem längeren Ausflug verbinden."
+    },
+    "activities": {
+      "tr": [
+        "Hole-in-the-Rock'e çıkmak",
+        "Yürüyüş yapmak",
+        "Fotoğraf çekmek",
+        "Göletleri keşfetmek",
+        "Piknik yapmak",
+        "Bisiklete binmek"
+      ],
+      "en": [
+        "Hike to Hole-in-the-Rock",
+        "Walk the trails",
+        "Take photographs",
+        "Explore the lagoons",
+        "Have a picnic",
+        "Cycle"
+      ],
+      "de": [
+        "Zu Hole-in-the-Rock wandern",
+        "Auf den Wegen spazieren",
+        "Fotografieren",
+        "Die Teiche erkunden",
+        "Picknicken",
+        "Radfahren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "park",
+        "yürüyüş"
+      ],
+      "en": [
+        "nature",
+        "park",
+        "hiking"
+      ],
+      "de": [
+        "Natur",
+        "Park",
+        "Wandern"
+      ]
+    },
+    "images": [
+      "https://cdn.businessyab.com/assets/uploads2/0dc50d535e00768f68fd2f9552ed4132_-united-states-arizona-maricopa-county-phoenix-papago-park.jpg"
+    ]
+  },
+  {
+    "slug": "phoenix-art-museum",
+    "name": {
+      "tr": "Phoenix Sanat Müzesi",
+      "en": "Phoenix Art Museum",
+      "de": "Phoenix Art Museum"
+    },
+    "latitude": 33.4669,
+    "longitude": -112.0729,
+    "description": {
+      "tr": "Phoenix Art Museum, Arizona'nın en önemli sanat kurumlarından biri ve Güneybatı Amerika'nın önde gelen sanat müzelerinden biridir. Phoenix şehir merkezinin kuzeyinde yer alan müze, Amerikan, Asya, Avrupa, Latin Amerika ve modern çağdaş sanatın yanı sıra moda tasarımı ve fotoğraf alanlarında geniş koleksiyonlara sahiptir. Koleksiyonda 18.000'den fazla eser bulunur ve kalıcı koleksiyonların yanında dönemsel sergiler de düzenlenir. Müze yalnızca klasik tabloları görmek isteyen sanatseverlere değil, modern sanat, fotoğraf, moda ve farklı kültürlerin sanat üretimleriyle ilgilenen ziyaretçilere de hitap eder. Müze kompleksinde heykel bahçesi, eğitim alanları, mağaza ve yeme içme bölümleri de bulunur. Bazı günlerde belirli saatlerde ücretsiz veya bağış esaslı giriş programları düzenlenebildiği için ziyaret öncesinde güncel takvim kontrol edilebilir. Phoenix Art Museum, şehir merkezindeki Heard Museum ve Arizona Science Center gibi diğer kültür noktalarıyla birlikte değerlendirilebilecek önemli bir müzedir.",
+      "en": "Phoenix Art Museum is one of Arizona's major art institutions and a leading visual arts destination in the American Southwest. Located north of downtown Phoenix, the museum holds collections covering American, Asian, European, Latin American, modern and contemporary art, fashion design, and photography. Its collection contains more than 18,000 works, complemented by rotating exhibitions and special programs. The museum is suitable not only for visitors interested in traditional painting but also for travelers interested in modern art, photography, fashion, and art from different parts of the world. The campus also includes a sculpture garden, educational spaces, a museum store, and dining facilities. On selected occasions, the museum offers free or voluntary-donation admission periods, so visitors should check the current schedule before planning a visit. Phoenix Art Museum can easily be combined with other cultural attractions in central Phoenix, including the Heard Museum and Arizona Science Center.",
+      "de": "Das Phoenix Art Museum gehört zu den wichtigsten Kunstinstitutionen Arizonas und ist ein bedeutendes Zentrum für bildende Kunst im amerikanischen Südwesten. Das Museum liegt nördlich des Stadtzentrums von Phoenix und besitzt Sammlungen amerikanischer, asiatischer, europäischer und lateinamerikanischer Kunst sowie moderne und zeitgenössische Werke, Mode und Fotografie. Die Sammlung umfasst mehr als 18.000 Werke und wird durch wechselnde Ausstellungen und Sonderprogramme ergänzt. Das Museum richtet sich nicht nur an Besucher, die klassische Gemälde sehen möchten, sondern auch an Interessierte für moderne Kunst, Fotografie, Mode und internationale Kunst. Zum Gelände gehören außerdem ein Skulpturengarten, Bildungsbereiche, ein Museumsshop und gastronomische Angebote. Zu bestimmten Zeiten gibt es kostenlose oder freiwillige Spendenprogramme, weshalb der aktuelle Kalender vor dem Besuch geprüft werden sollte. Das Phoenix Art Museum lässt sich gut mit anderen kulturellen Sehenswürdigkeiten im Zentrum verbinden, darunter das Heard Museum und das Arizona Science Center."
+    },
+    "activities": {
+      "tr": [
+        "Sanat koleksiyonlarını gezmek",
+        "Çağdaş sanat eserlerini görmek",
+        "Fotoğraf sergilerini incelemek",
+        "Heykel bahçesini gezmek",
+        "Geçici sergileri ziyaret etmek"
+      ],
+      "en": [
+        "Explore art collections",
+        "See contemporary artworks",
+        "Visit photography exhibitions",
+        "Explore the sculpture garden",
+        "Visit temporary exhibitions"
+      ],
+      "de": [
+        "Kunstsammlungen erkunden",
+        "Zeitgenössische Kunst sehen",
+        "Fotoausstellungen besuchen",
+        "Den Skulpturengarten erkunden",
+        "Wechselausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "sanat",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "art",
+        "culture"
+      ],
+      "de": [
+        "Museum",
+        "Kunst",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://assets.experiencescottsdale.com/simpleview/image/upload/c_fill%2Ch_645%2Cq_75%2Cw_1150/v1/crm/scottsdale/phoenix-art-museum-on_B8C1E8FC-CD5E-6E8D-2B8ABA7AB40799C5-b8c1e7049be4675_b8c1f578-ce8a-336a-3fa81eecc2c1ea53.jpg"
+    ]
+  },
+  {
+    "slug": "arizona-science-center",
+    "name": {
+      "tr": "Arizona Bilim Merkezi",
+      "en": "Arizona Science Center",
+      "de": "Arizona Science Center"
+    },
+    "latitude": 33.4489,
+    "longitude": -112.0659,
+    "description": {
+      "tr": "Arizona Science Center, Phoenix şehir merkezindeki Heritage and Science Park içerisinde bulunan ve bilimi interaktif deneyimler üzerinden anlatan büyük bir bilim merkezidir. Yaklaşık 140.000 square feet alana yayılan merkezde dört kat boyunca farklı bilim ve teknoloji sergileri bulunur. Sergiler çocuklardan yetişkinlere kadar farklı yaş gruplarına hitap edecek şekilde tasarlanmıştır. Fizik, uzay, insan vücudu, teknoloji ve günlük yaşamda kullanılan bilimsel prensipler çeşitli interaktif düzeneklerle anlatılır. Merkezde ayrıca Dorrance Planetarium, dev ekranlı tiyatro ve farklı dönemlerde düzenlenen özel sergiler bulunur. Ziyaretçilerin birçok deneyimi doğrudan kullanabilmesi, burayı klasik bir müzeden daha uygulamalı bir gezi noktası haline getirir. Özellikle çocuklu aileler için Phoenix'te değerlendirilebilecek önemli kapalı alan aktivitelerinden biridir. Arizona Science Center, Heritage Square ve Phoenix şehir merkezindeki diğer kültür noktalarına yürüme mesafesinde sayılabilecek bir konumdadır. Yaz aylarında Phoenix'in yüksek sıcaklıklarından kaçmak için kapalı alanda birkaç saat geçirmek isteyen gezginler açısından da kullanışlıdır. Güncel programda sergiler, planetarium gösterimleri ve özel etkinlikler dönemsel olarak değişebildiği için ziyaret öncesinde program kontrol edilmelidir.",
+      "en": "Arizona Science Center is a large interactive science museum located in Heritage and Science Park in downtown Phoenix. The approximately 140,000-square-foot center contains four levels of science and technology exhibits designed for visitors of different ages. Exhibits explore physics, space, the human body, technology, and scientific principles found in everyday life through hands-on displays and interactive experiences. The center also features the Dorrance Planetarium, a giant-screen theater, and changing special exhibitions. Because many displays encourage visitors to interact directly with the exhibits, the experience is more hands-on than a traditional museum. It is particularly suitable for families with children but can also be enjoyable for adults interested in science and technology. The Arizona Science Center is close to Heritage Square and other downtown Phoenix attractions, making it easy to include in a city sightseeing itinerary. It can also be a useful indoor stop during Phoenix's hottest weather. Planetarium programs, special exhibitions, and events change over time, so visitors should check the current schedule before visiting.",
+      "de": "Das Arizona Science Center ist ein großes interaktives Wissenschaftsmuseum im Heritage and Science Park im Zentrum von Phoenix. Das rund 140.000 Quadratfuß große Gebäude verfügt über vier Ebenen mit Ausstellungen zu Wissenschaft und Technik für Besucher verschiedener Altersgruppen. Themen wie Physik, Weltraum, der menschliche Körper, Technologie und wissenschaftliche Prinzipien des Alltags werden durch interaktive Stationen vermittelt. Zum Zentrum gehören außerdem das Dorrance Planetarium, ein Großbildtheater und wechselnde Sonderausstellungen. Da viele Exponate zum direkten Ausprobieren einladen, ist der Besuch wesentlich praktischer als in einem klassischen Museum. Besonders für Familien mit Kindern ist das Science Center eine interessante Sehenswürdigkeit, aber auch Erwachsene mit Interesse an Wissenschaft und Technik finden hier zahlreiche Inhalte. Die Lage nahe Heritage Square und weiteren Sehenswürdigkeiten im Zentrum von Phoenix erleichtert die Kombination mit einer Stadttour. Während der extrem heißen Sommermonate ist das Science Center zudem eine gute Möglichkeit, einige Stunden in einem klimatisierten Innenraum zu verbringen. Planetariumsprogramme, Sonderausstellungen und Veranstaltungen wechseln, daher sollte das aktuelle Programm vor dem Besuch geprüft werden."
+    },
+    "activities": {
+      "tr": [
+        "Bilim deneylerini keşfetmek",
+        "İnteraktif sergileri deneyimlemek",
+        "Planetaryum gösterisi izlemek",
+        "Uzay ve teknoloji sergilerini görmek",
+        "Aile etkinliklerine katılmak"
+      ],
+      "en": [
+        "Explore science exhibits",
+        "Experience interactive displays",
+        "Watch a planetarium show",
+        "Explore space and technology exhibits",
+        "Join family programs"
+      ],
+      "de": [
+        "Wissenschaftliche Ausstellungen entdecken",
+        "Interaktive Stationen ausprobieren",
+        "Eine Planetariumsshow besuchen",
+        "Weltraum- und Technikausstellungen erkunden",
+        "An Familienprogrammen teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "bilim",
+        "aile"
+      ],
+      "en": [
+        "museum",
+        "science",
+        "family"
+      ],
+      "de": [
+        "Museum",
+        "Wissenschaft",
+        "Familie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Arizona%20Science%20Center%20Phoenix.jpg"
+    ]
+  },
+  {
+    "slug": "piestewa-peak",
+    "name": {
+      "tr": "Piestewa Peak",
+      "en": "Piestewa Peak",
+      "de": "Piestewa Peak"
+    },
+    "latitude": 33.5392,
+    "longitude": -112.0231,
+    "description": {
+      "tr": "Piestewa Peak, Phoenix Mountains Preserve içerisinde yer alan ve şehir manzarası sunan önemli bir yürüyüş noktasıdır. Dağın zirvesine çıkan Summit Trail, kısa mesafesine rağmen dik yükselti kazanımı nedeniyle fiziksel olarak zorlayıcıdır. Yol boyunca Sonoran Çölü'ne özgü kaktüsler, kayalık yamaçlar ve Phoenix şehir manzaraları görülür. Zirveye ulaşıldığında Phoenix metropolitan bölgesinin geniş bir bölümü yüksekten izlenebilir. Parkur Camelback Mountain kadar teknik kaya tırmanışı gerektirmese de özellikle sıcak havalarda ciddi efor gerektirir. Phoenix Belediyesi, sıcaklık uyarılarının olduğu günlerde belirli parkurlarda saat kısıtlamaları uygulayabilmektedir. Summit Trail üzerinde köpekler yasaktır. Piestewa Peak'e çıkan patikalar özellikle sabah saatlerinde yoğunlaşabilir; sıcaklık nedeniyle erken saatler genellikle daha uygun olur. Zirveye çıkmak istemeyenler için çevredeki daha kısa parkurlar da Phoenix Mountains Preserve'in çöl manzarasını deneyimleme imkanı sunar. Fotoğrafçılar için şehir, dağ ve saguaro kaktüslerini aynı kadrajda birleştirebilecek çeşitli noktalar bulunur.",
+      "en": "Piestewa Peak is a prominent hiking destination within the Phoenix Mountains Preserve offering expansive views over Phoenix. The Summit Trail is relatively short but physically demanding because of its steep elevation gain. Along the route, hikers encounter Sonoran Desert vegetation, rocky slopes, and increasingly broad views of the city. From the summit, much of the Phoenix metropolitan area can be seen from above. Although the trail does not involve the same degree of technical scrambling associated with parts of Camelback Mountain, it still requires significant effort, especially during hot weather. The City of Phoenix can impose time restrictions on certain trails during extreme heat warnings. Dogs are prohibited on the Piestewa Peak Summit Trail. The trailhead can become busy, particularly during cooler morning hours, and early starts are generally preferable in the desert climate. Visitors who do not want to climb to the summit can explore shorter routes in the surrounding Phoenix Mountains Preserve. The combination of rugged desert terrain, saguaro cacti, and city views also makes the area attractive for photography.",
+      "de": "Der Piestewa Peak ist ein bedeutendes Wanderziel im Phoenix Mountains Preserve und bietet weitreichende Ausblicke über Phoenix. Der Summit Trail ist relativ kurz, aber aufgrund des starken Höhenunterschieds körperlich anspruchsvoll. Entlang des Weges wachsen typische Pflanzen der Sonora-Wüste, während felsige Hänge und immer umfassendere Stadtblicke die Landschaft prägen. Vom Gipfel aus ist ein großer Teil der Metropolregion Phoenix zu sehen. Obwohl der Weg nicht die gleichen technischen Kletterpassagen wie einige Abschnitte des Camelback Mountain aufweist, ist er besonders bei heißem Wetter anstrengend. Bei extremen Hitzewarnungen kann die Stadt Phoenix zeitliche Einschränkungen für bestimmte Wege verhängen. Hunde sind auf dem Piestewa Peak Summit Trail nicht erlaubt. Der Ausgangspunkt kann besonders in den kühleren Morgenstunden stark besucht sein, weshalb ein früher Start sinnvoll ist. Wer nicht bis zum Gipfel wandern möchte, kann kürzere Wege im umliegenden Phoenix Mountains Preserve nutzen. Die Kombination aus Felsen, Saguaro-Kakteen und Stadtpanorama bietet außerdem interessante Fotomotive."
+    },
+    "activities": {
+      "tr": [
+        "Zirve yürüyüşü yapmak",
+        "Phoenix manzarasını izlemek",
+        "Çöl bitkilerini gözlemlemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Hike to the summit",
+        "Enjoy Phoenix views",
+        "Observe desert plants",
+        "Take photographs"
+      ],
+      "de": [
+        "Zum Gipfel wandern",
+        "Den Blick über Phoenix genießen",
+        "Wüstenpflanzen beobachten",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "yürüyüş",
+        "manzara"
+      ],
+      "en": [
+        "nature",
+        "hiking",
+        "scenic"
+      ],
+      "de": [
+        "Natur",
+        "Wandern",
+        "Aussicht"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Piestewa%20Peak%20Phoenix.jpg"
+    ]
+  },
+  {
+    "slug": "sedav-vaaki-museum",
+    "name": {
+      "tr": "S'edav Va'aki Museum",
+      "en": "S'edav Va'aki Museum",
+      "de": "S'edav Va'aki Museum"
+    },
+    "latitude": 33.4483,
+    "longitude": -111.9889,
+    "description": {
+      "tr": "S'edav Va'aki Museum, Phoenix bölgesinin binlerce yıllık arkeolojik geçmişini anlatan önemli bir müze ve arkeolojik alandır. Müze daha önce Pueblo Grande Museum and Archaeological Park adıyla biliniyordu ve 2023 yılında S'edav Va'aki Museum adını aldı. Alan yaklaşık 1.500 yıllık bir arkeolojik yerleşim üzerinde bulunur ve Ancestral Sonoran Desert People olarak tanımlanan, arkeolojik literatürde Hohokam kültürüyle ilişkilendirilen toplulukların yaşamını araştırır. Ziyaretçiler açık hava parkurlarında platform höyük, eski yerleşim alanları, sulama kanalları, top sahası ve geçmişte kullanılan evlerin yeniden oluşturulmuş örneklerini görebilir. Müze içerisindeki sergiler ise Phoenix çevresindeki arkeolojik kazılardan elde edilen eserler ve bölgenin tarih öncesi yaşamı hakkında bilgi verir. Alanın en dikkat çekici özelliklerinden biri, Sonoran Çölü'nde tarım yapılmasını sağlayan gelişmiş sulama sistemlerinin nasıl kullanıldığını göstermesidir. Yaklaşık üçte iki millik yorumlayıcı açık hava parkuru, arkeolojik alanın farklı bölümlerini birbirine bağlar. Müze, Phoenix Sky Harbor International Airport yakınında ve şehir merkezine kısa mesafede bulunur. Güncel standart saatlerde pazartesi, cuma ve cumartesi 09.00-16.00, perşembe 09.00-20.00 ve pazar 12.00-16.00 açıktır; salı ve çarşamba kapalıdır.",
+      "en": "S'edav Va'aki Museum is an important archaeological museum and historic site exploring the ancient history of the Phoenix area. Formerly known as Pueblo Grande Museum and Archaeological Park, it was renamed S'edav Va'aki Museum in 2023. The museum stands on an approximately 1,500-year-old archaeological site associated with the Ancestral Sonoran Desert People, archaeologically connected with the Hohokam culture. Visitors can explore outdoor trails featuring a platform mound, ancient settlement remains, irrigation canals, a ballcourt, and reconstructed examples of houses. Indoor exhibits present archaeological objects and explain prehistoric life in the Phoenix area. One of the site's most important themes is the sophisticated irrigation technology that allowed people to farm successfully in the Sonoran Desert. A roughly two-thirds-mile interpretive trail connects different parts of the archaeological site and provides context about daily life, agriculture, water management, and the surrounding environment. The museum is near Phoenix Sky Harbor International Airport and only a short distance from downtown. Current standard hours are Monday, Friday, and Saturday from 9 a.m. to 4 p.m., Thursday from 9 a.m. to 8 p.m., and Sunday from noon to 4 p.m.; it is closed Tuesday and Wednesday.",
+      "de": "Das S'edav Va'aki Museum ist ein bedeutendes archäologisches Museum und eine historische Stätte, die sich mit der jahrtausendealten Geschichte der Region Phoenix beschäftigt. Früher war es unter dem Namen Pueblo Grande Museum and Archaeological Park bekannt und wurde 2023 in S'edav Va'aki Museum umbenannt. Das Museum befindet sich auf einer etwa 1.500 Jahre alten archäologischen Stätte, die mit den Ancestral Sonoran Desert People und archäologisch mit der Hohokam-Kultur verbunden wird. Auf den Außenwegen können Besucher einen Plattformhügel, Siedlungsreste, Bewässerungskanäle, einen Ballspielplatz und rekonstruierte Häuser sehen. Die Innenausstellungen präsentieren archäologische Objekte und erklären das Leben in der Region Phoenix vor vielen Jahrhunderten. Ein zentrales Thema ist das ausgeklügelte Bewässerungssystem, mit dem die Menschen in der Sonora-Wüste Landwirtschaft betreiben konnten. Ein etwa zwei Drittel Meilen langer Lehrpfad verbindet verschiedene Bereiche der archäologischen Stätte und vermittelt Informationen über Alltag, Landwirtschaft, Wasserwirtschaft und die Umwelt. Das Museum liegt nahe dem Phoenix Sky Harbor International Airport und nicht weit vom Stadtzentrum entfernt. Die aktuellen regulären Öffnungszeiten sind montags, freitags und samstags 9 bis 16 Uhr, donnerstags 9 bis 20 Uhr und sonntags 12 bis 16 Uhr; dienstags und mittwochs bleibt das Museum geschlossen."
+    },
+    "activities": {
+      "tr": [
+        "Arkeolojik alanı keşfetmek",
+        "Platform höyüğünü görmek",
+        "Antik sulama kanallarını incelemek",
+        "Müze sergilerini gezmek",
+        "Tarih öncesi Phoenix'i öğrenmek"
+      ],
+      "en": [
+        "Explore the archaeological site",
+        "See the platform mound",
+        "Explore ancient irrigation canals",
+        "Visit museum exhibitions",
+        "Learn about prehistoric Phoenix"
+      ],
+      "de": [
+        "Die archäologische Stätte erkunden",
+        "Den Plattformhügel sehen",
+        "Antike Bewässerungskanäle entdecken",
+        "Museumsausstellungen besuchen",
+        "Das prähistorische Phoenix kennenlernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "arkeoloji",
+        "tarih",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "archaeology",
+        "history",
+        "culture"
+      ],
+      "de": [
+        "Museum",
+        "Archäologie",
+        "Geschichte",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pueblo%20Grande%20Museum%20Phoenix.jpg"
     ]
   }
 ]

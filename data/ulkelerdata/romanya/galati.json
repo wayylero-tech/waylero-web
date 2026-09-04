@@ -1,88 +1,142 @@
 [
   {
-    "slug": "dun-rea-park",
+    "slug": "faleza-dunarii-galati",
     "name": {
-      "tr": "Dunărea Park",
-      "en": "Dunărea Park",
-      "de": "Dunărea Park"
+      "tr": "Galați Tuna Nehir Kıyısı",
+      "en": "Galați Danube Promenade",
+      "de": "Donaupromenade von Galați"
     },
-    "latitude": 45.4409,
-    "longitude": 28.0155,
+    "latitude": 45.42296,
+    "longitude": 28.04254,
     "description": {
-      "tr": "Dunărea Park, Galați'deki en büyük park olup, doğa yürüyüşleri yapmak ve gölet etrafında dinlenmek için harika bir mekandır.",
-      "en": "Dunărea Park is the largest park in Galați, a great place for nature walks and relaxing around the lake.",
-      "de": "Der Dunărea Park ist der größte Park in Galați und ein großartiger Ort für Spaziergänge in der Natur und zum Entspannen am See."
+      "tr": "Faleza Dunării, Galați'nin Tuna Nehri kıyısındaki en önemli rekreasyon ve yürüyüş alanlarından biridir. Şehrin nehirle olan ilişkisini en iyi şekilde gösteren bu uzun kıyı şeridi, Tuna boyunca yürüyüş yapmak, manzarayı izlemek ve açık havada vakit geçirmek isteyenlerin tercih ettiği başlıca yerlerden biridir. Faleza, yaklaşık 4 kilometrelik bir güzergâh boyunca nehre paralel olarak uzanır ve üst ile alt bölümlerden oluşur. Özellikle nehir kıyısındaki yürüyüş alanları, Tuna üzerinde ilerleyen gemileri izlemek ve günün farklı saatlerinde manzara fotoğrafları çekmek için elverişlidir. Kıyı boyunca restoranlar ve dinlenme noktaları da bulunur. Bölgenin tarihi ve kültürel karakterini güçlendiren önemli yapılardan biri, Tuna kıyısında yer alan Precista Müstahkem Kilisesi'dir. Faleza çevresi aynı zamanda Galați'nin şehir yaşamını gözlemlemek için uygun bir noktadır. Sabah yürüyüşlerinden akşamüstü gezilerine kadar farklı zamanlarda ziyaret edilebilir. Tuna'nın geniş su yüzeyi ve karşı kıyı manzaraları özellikle fotoğrafçılık açısından dikkat çekici görüntüler sunar. Galați'yi gezerken tarihi merkez ve müzelerden sonra şehrin nehir kıyısındaki atmosferini deneyimlemek isteyenler için Faleza Dunării önemli bir duraktır.",
+      "en": "The Danube Promenade is one of Galați's most important recreational and walking areas along the Danube River. The waterfront offers one of the best ways to experience the city's relationship with the river and is a popular place for walking, relaxing outdoors and enjoying views of the Danube. The promenade extends for approximately 4 kilometers along the river and is organized into upper and lower sections. Its riverside paths provide opportunities to watch boats and ships on the Danube and to take photographs at different times of the day. Restaurants and places to stop and relax can also be found along the waterfront. One of the area's most important historic landmarks is the Precista Fortified Church, located near the Danube. The promenade is also a good place to observe everyday life in Galați and experience the city's riverside atmosphere. Morning walks, afternoon strolls and sunset visits can all offer different views of the river. With its broad water views and open riverside landscape, the promenade is particularly attractive for photography. For visitors exploring Galați, it provides an important complement to the city's museums and historic center.",
+      "de": "Die Donaupromenade von Galați gehört zu den wichtigsten Erholungs- und Spazierbereichen der Stadt am Ufer der Donau. Sie vermittelt einen guten Eindruck von der Verbindung zwischen Galați und dem Fluss und lädt zu Spaziergängen, Erholung im Freien und zum Genießen des Flussblicks ein. Die Promenade erstreckt sich über etwa 4 Kilometer parallel zur Donau und besteht aus einem oberen und einem unteren Bereich. Entlang der Uferwege können Besucher Schiffe auf der Donau beobachten und zu verschiedenen Tageszeiten Fotos aufnehmen. Entlang der Promenade gibt es außerdem Restaurants und Bereiche zum Verweilen. Zu den bedeutenden historischen Bauwerken in der Umgebung gehört die befestigte Precista-Kirche am Donauufer. Die Promenade eignet sich auch hervorragend, um das alltägliche Stadtleben von Galați und die Atmosphäre am Fluss zu erleben. Spaziergänge am Morgen, am Nachmittag oder zum Sonnenuntergang bieten jeweils unterschiedliche Eindrücke. Die weiten Wasserflächen und offenen Landschaftsbilder machen die Gegend auch für die Fotografie interessant. Für Besucher von Galați ist die Donaupromenade eine wichtige Ergänzung zu den historischen Sehenswürdigkeiten und Museen der Stadt."
     },
     "activities": {
       "tr": [
-        "Parkta yürüyüş yapma",
-        "Göl kenarında dinlenme"
+        "Tuna Nehri kıyısında yürüyüş yapma",
+        "Nehir manzarasını izleme",
+        "Gemi ve tekneleri gözlemleme",
+        "Gün batımını izleme",
+        "Manzara fotoğrafçılığı yapma",
+        "Restoran ve dinlenme alanlarını keşfetme",
+        "Precista Müstahkem Kilisesi'ni görme"
       ],
       "en": [
-        "Take a walk in the park",
-        "Relax by the lake"
+        "Walk along the Danube River",
+        "Enjoy the river views",
+        "Watch ships and boats",
+        "Watch the sunset",
+        "Take landscape photographs",
+        "Explore restaurants and relaxation areas",
+        "See the Precista Fortified Church"
       ],
       "de": [
-        "Im Park spazieren gehen",
-        "Am See entspannen"
+        "An der Donau spazieren",
+        "Den Flussblick genießen",
+        "Schiffe und Boote beobachten",
+        "Den Sonnenuntergang ansehen",
+        "Landschaftsfotos aufnehmen",
+        "Restaurants und Erholungsbereiche entdecken",
+        "Die befestigte Precista-Kirche besichtigen"
       ]
     },
     "categories": {
       "tr": [
-        "park"
+        "park",
+        "doğa",
+        "yürüyüş",
+        "manzara",
+        "fotoğraf"
       ],
       "en": [
-        "park"
+        "park",
+        "nature",
+        "walking",
+        "scenery",
+        "photography"
       ],
       "de": [
-        "park"
+        "park",
+        "natur",
+        "spaziergang",
+        "landschaft",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/dunarea_park.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Faleza%20Dun%C4%83rii%20Gala%C8%9Bi.jpg"
     ]
   },
   {
-    "slug": "muzeul-de-istorie-gala-i",
+    "slug": "muzeul-de-istorie-paul-paltanea-galati",
     "name": {
-      "tr": "Muzeul de Istorie Galați",
-      "en": "Galați History Museum",
-      "de": "Galați Geschichte Museum"
+      "tr": "Paul Păltănea Galați Tarih Müzesi",
+      "en": "Paul Păltănea History Museum of Galați",
+      "de": "Paul-Păltănea-Geschichtsmuseum Galați"
     },
-    "latitude": 45.44,
-    "longitude": 28.015,
+    "latitude": 45.43745,
+    "longitude": 28.05537,
     "description": {
-      "tr": "Galați Tarih Müzesi, şehrin tarihini ve kültürünü sergileyen önemli bir müzedir.",
-      "en": "The Galați History Museum is an important museum showcasing the history and culture of the city.",
-      "de": "Das Galați Geschichte Museum ist ein wichtiges Museum, das die Geschichte und Kultur der Stadt zeigt."
+      "tr": "Paul Păltănea Galați Tarih Müzesi, şehrin ve Galați bölgesinin geçmişini arkeolojik, tarihi ve kültürel eserler üzerinden tanımaya imkân sağlayan önemli bir müzedir. Müzenin kökeni 20. yüzyılın ilk yarısına uzanır ve kurum 1939 yılında açılmıştır. Koleksiyonlarda bölgenin tarih öncesi dönemlerinden antik çağa, Orta Çağ'dan modern döneme kadar farklı dönemlere ait eserler bulunur. Galați ve çevresindeki arkeolojik araştırmalardan elde edilen buluntular müzenin önemli bölümlerini oluşturur. Özellikle antik dönem ve Roma tarihi açısından bölgedeki Tirighina-Bărboși arkeolojik alanından elde edilen buluntular dikkat çeker. Müzenin ana tarih biriminin yanı sıra Lapidarium ve Casa Cuza Vodă gibi farklı mekânlarda da koleksiyon ve sergiler sunulmaktadır. Ana müze binası, tarihi bir yapı olan Casa Cavalliotti'de yer alır. Yapının 19. yüzyıl sonları ve 20. yüzyıl başlarına ait eklektik mimari özellikleri de ziyaret sırasında görülebilir. Müze, yalnızca Galați kentinin siyasi tarihini değil, bölgenin arkeolojik mirasını, sosyal yaşamını ve kültürel gelişimini anlamak açısından da önemlidir. Şehir merkezinde yer alan müze, tarihi sokaklar ve diğer kültürel noktalarla birlikte ziyaret edilebilir. Galați'nin geçmişini daha yakından tanımak ve Tuna'nın aşağı kesimindeki bölgenin tarihine dair eserleri görmek isteyen ziyaretçiler için önemli bir kültür durağıdır.",
+      "en": "The Paul Păltănea History Museum of Galați is an important museum dedicated to the history, archaeology and cultural heritage of Galați and the surrounding region. The institution traces its origins to the first half of the 20th century and was inaugurated in 1939. Its collections cover different periods ranging from prehistory and antiquity to the Middle Ages and modern history. Archaeological discoveries from Galați and the surrounding region form an important part of the museum's holdings. Among the notable material are finds connected with the ancient archaeological site of Tirighina-Bărboși, which provides evidence of the Roman presence in the region. The museum also operates several related sites and collections, including the Lapidarium and Casa Cuza Vodă. The main history museum is housed in Casa Cavalliotti, a historic building whose eclectic architectural features are themselves worth observing. The museum provides insight not only into the political history of Galați but also into the region's archaeology, social life and cultural development. Its central location makes it possible to combine a visit with a walk through the historic streets and other cultural attractions of the city. For travelers interested in understanding Galați's past and exploring the archaeological heritage of the Lower Danube region, the Paul Păltănea History Museum is an important cultural stop.",
+      "de": "Das Paul-Păltănea-Geschichtsmuseum von Galați ist ein bedeutendes Museum zur Geschichte, Archäologie und zum kulturellen Erbe von Galați und der umliegenden Region. Die Ursprünge der Einrichtung reichen in die erste Hälfte des 20. Jahrhunderts zurück; eröffnet wurde das Museum 1939. Die Sammlungen umfassen verschiedene Epochen von der Vorgeschichte und Antike über das Mittelalter bis zur Neuzeit. Einen wichtigen Teil bilden archäologische Funde aus Galați und der Umgebung. Besonders bemerkenswert sind Funde aus dem antiken archäologischen Komplex von Tirighina-Bărboși, die Zeugnisse der römischen Präsenz in der Region liefern. Zum Museum gehören außerdem weitere Standorte und Sammlungen, darunter das Lapidarium und das Casa-Cuza-Vodă-Museum. Das Hauptmuseum befindet sich im historischen Casa-Cavalliotti-Gebäude, dessen eklektische Architektur ebenfalls sehenswert ist. Die Ausstellungen vermitteln nicht nur die politische Geschichte von Galați, sondern auch die archäologische Entwicklung, das gesellschaftliche Leben und die kulturelle Geschichte der Region. Durch seine zentrale Lage lässt sich der Museumsbesuch gut mit einem Spaziergang durch die historischen Straßen und weiteren kulturellen Sehenswürdigkeiten verbinden. Für Reisende, die die Geschichte von Galați und das archäologische Erbe der unteren Donau kennenlernen möchten, gehört das Museum zu den wichtigsten kulturellen Zielen der Stadt."
     },
     "activities": {
       "tr": [
         "Müzeyi gezme",
-        "Tarihi eserleri inceleme"
+        "Arkeolojik eserleri inceleme",
+        "Tirighina-Bărboși buluntularını keşfetme",
+        "Tarihi Casa Cavalliotti binasını görme",
+        "Lapidarium'u ziyaret etme",
+        "Galați tarihini keşfetme",
+        "Tarihi ve kültürel eserleri fotoğraflama"
       ],
       "en": [
-        "Tour the museum",
-        "Examine historical artifacts"
+        "Visit the museum",
+        "Explore archaeological artifacts",
+        "Discover finds from Tirighina-Bărboși",
+        "See the historic Casa Cavalliotti building",
+        "Visit the Lapidarium",
+        "Learn about Galați's history",
+        "Photograph historic and cultural exhibits"
       ],
       "de": [
         "Das Museum besichtigen",
-        "Historische Artefakte untersuchen"
+        "Archäologische Artefakte entdecken",
+        "Funde aus Tirighina-Bărboși kennenlernen",
+        "Das historische Casa-Cavalliotti-Gebäude sehen",
+        "Das Lapidarium besuchen",
+        "Die Geschichte von Galați kennenlernen",
+        "Historische und kulturelle Exponate fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "tarih",
+        "arkeoloji",
+        "kültür",
+        "mimari"
       ],
       "en": [
-        "museum"
+        "museum",
+        "history",
+        "archaeology",
+        "culture",
+        "architecture"
       ],
       "de": [
-        "museum"
+        "museum",
+        "geschichte",
+        "archäologie",
+        "kultur",
+        "architektur"
       ]
     },
     "images": [
-      "https://example.com/galati_museum.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Muzeul%20de%20Istorie%20Galati.jpg"
     ]
   }
 ]

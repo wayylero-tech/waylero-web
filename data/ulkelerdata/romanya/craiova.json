@@ -2,87 +2,144 @@
   {
     "slug": "nicolae-romanescu-park",
     "name": {
-      "tr": "Nicolae Romanescu Park",
+      "tr": "Nicolae Romanescu Parkı",
       "en": "Nicolae Romanescu Park",
-      "de": "Nicolae Romanescu Park"
+      "de": "Nicolae-Romanescu-Park"
     },
-    "latitude": 44.3193,
-    "longitude": 23.791,
+    "latitude": 44.3009,
+    "longitude": 23.8045,
     "description": {
-      "tr": "Nicolae Romanescu Park, Craiova'nın en büyük parkıdır ve yürüyüş yapmak, piknik yapmak için harika bir alandır.",
-      "en": "Nicolae Romanescu Park is the largest park in Craiova, perfect for walks and picnics.",
-      "de": "Der Nicolae Romanescu Park ist der größte Park in Craiova, ideal für Spaziergänge und Picknicks."
+      "tr": "Nicolae Romanescu Parkı, Craiova'nın güneyinde yer alan yaklaşık 100 hektarlık tarihi bir şehir parkıdır ve kentin en önemli yeşil alanlarından biridir. Parkın modern tasarımı, 20. yüzyılın başlarında Fransız peyzaj mimarı Édouard Redont tarafından Nicolae Romanescu'nun girişimleriyle hazırlanmıştır. Redont'un park projesi 1900 yılında Paris Evrensel Sergisi'nde diploma ve altın madalya kazanmıştır. Park 1901-1903 yılları arasında büyük ölçüde şekillendirilmiş ve 1903 yılında Kral I. Carol'un katıldığı törenle açılmıştır. Romantik peyzaj anlayışıyla düzenlenen parkta geniş çim alanlar, ağaçlıklı yürüyüş yolları, göller, su kanalları, şelaleler ve farklı mimari yapılar bir arada bulunur. Büyük göl ve çevresindeki yürüyüş alanları parkın en dikkat çekici bölümlerindendir. Tarihi asma köprü, parkın en tanınan yapılarından biri olarak göl çevresindeki manzaraya farklı bir görünüm kazandırır. Parkta ayrıca eski Bibescu malikanesi, çeşitli pavyonlar, yazlık tiyatro, hipodrom, velodrom ve Craiova Hayvanat Bahçesi gibi alanlar bulunur. Ziyaretçiler burada uzun yürüyüşler yapabilir, göl çevresinde dinlenebilir, peyzajı ve tarihi yapıları fotoğraflayabilir. Tarihi dokusu ile doğal peyzajın birlikte görülmesi, Nicolae Romanescu Parkı'nı Craiova'nın şehir merkezinden kısa süreliğine uzaklaşmak isteyenler için önemli bir durak haline getirir.",
+      "en": "Nicolae Romanescu Park is a historic urban park of approximately 100 hectares located in the southern part of Craiova and is one of the city's most important green spaces. Its modern landscape design was created at the beginning of the 20th century by French landscape architect Édouard Redont at the initiative of Nicolae Romanescu. Redont's park project received a diploma and gold medal at the Paris Universal Exhibition in 1900. The park was largely developed between 1901 and 1903 and was officially inaugurated in 1903 in the presence of King Carol I. Designed in a romantic landscape style, the park combines large green areas, tree-lined paths, lakes, waterways, waterfalls and historic architectural structures. The large lake and its surrounding walking paths are among the park's most distinctive features. The historic suspended bridge is one of its best-known structures and creates a striking scene over the park's water and landscape. Other features include the former Bibescu estate, various pavilions, a summer theater, a horse-racing track, a velodrome and Craiova Zoo. Visitors can take long walks, relax beside the lake, explore the historic structures and photograph the landscaped scenery. The combination of historic architecture and natural surroundings makes Nicolae Romanescu Park an important place to visit when exploring Craiova.",
+      "de": "Der Nicolae-Romanescu-Park ist ein historischer Stadtpark von etwa 100 Hektar im Süden von Craiova und gehört zu den wichtigsten Grünanlagen der Stadt. Die moderne Gestaltung des Parks wurde zu Beginn des 20. Jahrhunderts vom französischen Landschaftsarchitekten Édouard Redont auf Initiative von Nicolae Romanescu entworfen. Redonts Projekt erhielt bei der Weltausstellung in Paris im Jahr 1900 ein Diplom und eine Goldmedaille. Der Park wurde zwischen 1901 und 1903 weitgehend angelegt und 1903 in Anwesenheit von König Carol I. feierlich eröffnet. Die Anlage wurde im romantischen Landschaftsstil gestaltet und verbindet große Grünflächen, von Bäumen gesäumte Wege, Seen, Wasserläufe, Wasserfälle und historische Bauwerke. Der große See mit seinen Spazierwegen gehört zu den auffälligsten Bereichen des Parks. Eine historische Hängebrücke ist eines der bekanntesten Bauwerke der Anlage und bietet einen charakteristischen Blick über das Wasser und die Landschaft. Zum Park gehören außerdem das ehemalige Bibescu-Anwesen, verschiedene Pavillons, ein Sommertheater, eine Pferderennbahn, ein Velodrom und der Zoo von Craiova. Besucher können ausgedehnte Spaziergänge unternehmen, am See entspannen, historische Bauwerke entdecken und die Landschaft fotografieren. Die Verbindung von historischer Architektur und gestalteter Natur macht den Nicolae-Romanescu-Park zu einem wichtigen Ziel bei einem Besuch in Craiova."
     },
     "activities": {
       "tr": [
         "Parkta yürüyüş yapma",
-        "Piknik yapma"
+        "Göl çevresinde gezme",
+        "Tarihi asma köprüyü görme",
+        "Piknik yapma",
+        "Tarihi yapıları ve pavyonları keşfetme",
+        "Peyzaj ve doğa fotoğrafçılığı yapma",
+        "Şelaleleri ve su alanlarını görme",
+        "Craiova Hayvanat Bahçesi'ni ziyaret etme"
       ],
       "en": [
-        "Take a walk in the park",
-        "Have a picnic"
+        "Walk through the park",
+        "Explore the lake area",
+        "See the historic suspended bridge",
+        "Have a picnic",
+        "Explore historic buildings and pavilions",
+        "Take landscape and nature photographs",
+        "See the waterfalls and water features",
+        "Visit Craiova Zoo"
       ],
       "de": [
-        "Im Park spazieren gehen",
-        "Picknick machen"
+        "Im Park spazieren",
+        "Den See erkunden",
+        "Die historische Hängebrücke besichtigen",
+        "Ein Picknick machen",
+        "Historische Gebäude und Pavillons entdecken",
+        "Landschafts- und Naturfotos aufnehmen",
+        "Wasserfälle und Wasseranlagen sehen",
+        "Den Zoo von Craiova besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "park"
+        "park",
+        "doğa",
+        "tarih",
+        "mimari",
+        "fotoğraf"
       ],
       "en": [
-        "park"
+        "park",
+        "nature",
+        "history",
+        "architecture",
+        "photography"
       ],
       "de": [
-        "park"
+        "park",
+        "natur",
+        "geschichte",
+        "architektur",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/romanescu_park.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolae%20Romanescu%20Park%20in%20Craiova%2C%20Romania.jpg"
     ]
   },
   {
-    "slug": "craiova-sanat-galerisi",
+    "slug": "craiova-sanat-muzesi",
     "name": {
-      "tr": "Craiova Sanat Galerisi",
-      "en": "Craiova Art Gallery",
-      "de": "Craiova Kunstgalerie"
+      "tr": "Craiova Sanat Müzesi",
+      "en": "Craiova Art Museum",
+      "de": "Kunstmuseum Craiova"
     },
-    "latitude": 44.3142,
-    "longitude": 23.7942,
+    "latitude": 44.31917,
+    "longitude": 23.79467,
     "description": {
-      "tr": "Craiova Sanat Galerisi, yerel sanatçıların eserlerinin sergilendiği modern bir sanat galerisi olarak önemli bir kültürel mekandır.",
-      "en": "Craiova Art Gallery is an important cultural venue showcasing the works of local artists.",
-      "de": "Die Craiova Kunstgalerie ist ein wichtiges kulturelles Zentrum, das die Werke lokaler Künstler zeigt."
+      "tr": "Craiova Sanat Müzesi, şehrin merkezindeki tarihi Jean Mihail Sarayı'nda bulunan ve Romanya'nın önemli sanat müzelerinden biri olan kültürel bir kurumdur. Müze 1954 yılında kurulmuş ve koleksiyonlarında Romanya sanatının farklı dönemlerinden çok sayıda eser bir araya getirilmiştir. Müzenin en dikkat çekici bölümlerinden biri Constantin Brâncuși'ye ayrılmış galeridir. Burada Brâncuși'nin erken dönem çalışmalarından altı eser sergilenmektedir. Koleksiyonda ayrıca Theodor Aman, Nicolae Grigorescu, Ștefan Luchian ve Theodor Pallady gibi önemli Rumen sanatçıların eserleri bulunur. Romanya resminin yanı sıra Avrupa sanatına ait çalışmalar ve dini sanat örnekleri de müzenin koleksiyonları arasında yer alır. Müze binası da başlı başına görülmeye değer bir yapıdır. 19. yüzyılın sonları ile 20. yüzyılın başlarında inşa edilen Jean Mihail Sarayı, Fransız mimar Paul Gottereau'nun tasarımına göre yapılmış ve gösterişli iç dekorasyonu ile dikkat çekmiştir. Mermer merdivenler, süslemeli tavanlar, dekoratif sıvalar, aynalar ve avizeler sarayın tarihi atmosferini tamamlar. Bu nedenle ziyaret sırasında yalnızca sergilenen sanat eserlerine değil, binanın mimari ayrıntılarına da zaman ayırmak gerekir. Craiova'nın merkezi konumu sayesinde müze, şehir merkezindeki diğer tarihi yapılarla birlikte yürüyerek ziyaret edilebilir. Özellikle Brâncuși'nin erken dönem eserlerini görmek, Rumen resmini keşfetmek ve tarihi bir saray atmosferinde sanat koleksiyonlarını incelemek isteyenler için şehirdeki en önemli kültür duraklarından biridir.",
+      "en": "The Craiova Art Museum is a major cultural institution located in the historic Jean Mihail Palace in the center of Craiova. Founded in 1954, the museum brings together collections representing different periods of Romanian art. One of its most important sections is the gallery dedicated to Constantin Brâncuși, which displays six works from the sculptor's early period. The collection also includes works by major Romanian artists such as Theodor Aman, Nicolae Grigorescu, Ștefan Luchian and Theodor Pallady. Alongside Romanian painting and sculpture, the museum also presents European artworks and examples of religious art. The building itself is an important attraction. Jean Mihail Palace was constructed around the turn of the 20th century according to plans by French architect Paul Gottereau and is known for its richly decorated interiors. Marble staircases, ornamental ceilings, decorative stucco, mirrors and chandeliers contribute to the palace's historic character. Visitors therefore have the opportunity to experience both the art collection and the architecture of the historic building. Its central location also makes it easy to combine a museum visit with a walk through Craiova's historic city center. For travelers interested in Constantin Brâncuși, Romanian painting, European art and historic architecture, the Craiova Art Museum is one of the city's most significant cultural attractions.",
+      "de": "Das Kunstmuseum Craiova befindet sich im historischen Jean-Mihail-Palast im Zentrum der Stadt und gehört zu den bedeutenden Kultureinrichtungen von Craiova. Das Museum wurde 1954 gegründet und vereint Sammlungen aus verschiedenen Epochen der rumänischen Kunst. Eine der wichtigsten Abteilungen ist die Constantin Brâncuși gewidmete Galerie, in der sechs Werke aus der frühen Schaffensperiode des Bildhauers ausgestellt sind. Darüber hinaus umfasst die Sammlung Werke bedeutender rumänischer Künstler wie Theodor Aman, Nicolae Grigorescu, Ștefan Luchian und Theodor Pallady. Neben rumänischer Malerei und Bildhauerei werden auch europäische Kunstwerke und Beispiele religiöser Kunst präsentiert. Auch das Museumsgebäude selbst ist sehenswert. Der Jean-Mihail-Palast wurde um die Wende zum 20. Jahrhundert nach Plänen des französischen Architekten Paul Gottereau errichtet und zeichnet sich durch seine aufwendig gestalteten Innenräume aus. Marmortreppen, dekorierte Decken, Stuckelemente, Spiegel und Kronleuchter prägen die historische Atmosphäre des Palastes. Besucher können somit sowohl die Kunstsammlungen als auch die Architektur des Gebäudes entdecken. Durch seine zentrale Lage lässt sich der Museumsbesuch gut mit einem Spaziergang durch das historische Zentrum von Craiova verbinden. Für Reisende, die sich für Brâncuși, rumänische Malerei, europäische Kunst und historische Architektur interessieren, gehört das Kunstmuseum Craiova zu den wichtigsten kulturellen Sehenswürdigkeiten der Stadt."
     },
     "activities": {
       "tr": [
-        "Sanat galerini gezme",
-        "Sanat eserlerini keşfetme"
+        "Sanat müzesini gezme",
+        "Constantin Brâncuși eserlerini görme",
+        "Rumen ressamların eserlerini keşfetme",
+        "Jean Mihail Sarayı'nı inceleme",
+        "Tarihi iç mimariyi ve dekorasyonu görme",
+        "Sanat eserlerini fotoğraflama",
+        "Geçici sergileri keşfetme"
       ],
       "en": [
-        "Tour the art gallery",
-        "Discover art pieces"
+        "Visit the art museum",
+        "See works by Constantin Brâncuși",
+        "Discover works by Romanian painters",
+        "Explore Jean Mihail Palace",
+        "Admire the historic interior architecture",
+        "Photograph the artworks",
+        "Explore temporary exhibitions"
       ],
       "de": [
-        "Die Kunstgalerie besichtigen",
-        "Kunstwerke entdecken"
+        "Das Kunstmuseum besichtigen",
+        "Werke von Constantin Brâncuși sehen",
+        "Werke rumänischer Maler entdecken",
+        "Den Jean-Mihail-Palast erkunden",
+        "Die historische Innenarchitektur bewundern",
+        "Kunstwerke fotografieren",
+        "Temporäre Ausstellungen entdecken"
       ]
     },
     "categories": {
       "tr": [
-        "sanat galerisi"
+        "sanat",
+        "müze",
+        "kültür",
+        "tarih",
+        "mimari"
       ],
       "en": [
-        "art gallery"
+        "art",
+        "museum",
+        "culture",
+        "history",
+        "architecture"
       ],
       "de": [
-        "Kunstgalerie"
+        "kunst",
+        "museum",
+        "kultur",
+        "geschichte",
+        "architektur"
       ]
     },
     "images": [
-      "https://example.com/craiova_art_gallery.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Craiova-Muzeul%20de%20Arta%20-%20panoramio.jpg"
     ]
   }
 ]

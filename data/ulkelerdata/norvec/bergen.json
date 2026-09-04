@@ -6,83 +6,364 @@
       "en": "Bryggen",
       "de": "Bryggen"
     },
-    "latitude": 60.3934,
-    "longitude": 5.3246,
+    "latitude": 60.39749,
+    "longitude": 5.32423,
     "description": {
-      "tr": "Bryggen, Bergen'in tarihi ve renkli ahşap binalarıyla ünlü bir bölgesidir. UNESCO Dünya Mirası Listesi'nde yer alır ve şehri simgelerinden biridir.",
-      "en": "Bryggen is a district in Bergen famous for its historic and colorful wooden buildings. It is listed as a UNESCO World Heritage Site and is one of the city's landmarks.",
-      "de": "Bryggen ist ein Stadtteil in Bergen, der für seine historischen und bunten Holzhäuser bekannt ist. Es steht auf der UNESCO-Weltkulturerbeliste und ist eines der Wahrzeichen der Stadt."
+      "tr": "Bryggen, Bergen'in Vågen Körfezi kıyısındaki tarihi Hanseatik rıhtımı ve şehrin en tanınmış simgelerinden biridir. Bölgenin tarihi yaklaşık 11. yüzyıla kadar uzanır ve Bergen'in Avrupa ile kuzey Norveç arasındaki ticarette önemli bir merkez haline gelmesiyle birlikte gelişmiştir. 1360 yılında Alman Hansa Birliği burada bir ticaret ofisi kurmuş ve Bryggen yaklaşık dört yüzyıl boyunca kuzey Avrupa ticaretinin önemli noktalarından biri olmuştur. Büyük yangınlara rağmen geleneksel plan ve ahşap yapı karakteri korunarak yeniden inşa edilen bölgedeki yaklaşık 62 tarihi yapı günümüze ulaşmıştır. Dar geçitler, ahşap galeriler, eğimli cepheler, küçük atölyeler, galeriler ve dükkânlar Bryggen'in karakterini oluşturur. Bryggen 1979 yılında Norveç'in ilk UNESCO Dünya Mirası alanı olarak listeye alınmıştır. Bölgedeki Hanseatic Museum ve Schøtstuene ile Bryggens Museum, rıhtımın ticaret ve günlük yaşam tarihini daha yakından tanımak için ziyaret edilebilir.",
+      "en": "Bryggen is Bergen's historic Hanseatic wharf on Vågen harbour and one of the city's most recognisable landmarks. Its history reaches back to the early development of Bergen around the 11th century, when the city became an important centre for trade between northern Norway and continental Europe. In 1360, the German Hanseatic League established a trading office here, and Bryggen remained an important centre of northern European commerce for almost four centuries. Despite repeated fires, the area was rebuilt according to traditional patterns, preserving its distinctive wooden urban character. Around 62 historic buildings survive today, with narrow passageways, wooden galleries, workshops, galleries and small shops hidden behind the famous waterfront façades. Bryggen was inscribed on the UNESCO World Heritage List in 1979 as Norway's first World Heritage site. The Hanseatic Museum and Schøtstuene and Bryggens Museum provide further insight into the history of trade and everyday life in the district.",
+      "de": "Bryggen ist die historische Hanse-Kaianlage von Bergen am Vågen und eines der bekanntesten Wahrzeichen der Stadt. Die Geschichte des Viertels reicht bis in die frühe Entwicklung Bergens im 11. Jahrhundert zurück, als die Stadt zu einem wichtigen Handelszentrum zwischen Nordnorwegen und dem europäischen Kontinent wurde. Im Jahr 1360 richtete die deutsche Hanse hier ein Handelskontor ein, das den Handel in Bryggen fast vier Jahrhunderte lang prägte. Trotz zahlreicher Brände wurde das Viertel nach traditionellen Grundrissen wieder aufgebaut, sodass sein charakteristisches hölzernes Stadtbild erhalten blieb. Heute sind rund 62 historische Gebäude erhalten, darunter enge Gassen, Holzgalerien, Werkstätten, Galerien und kleine Geschäfte hinter den bekannten Fassaden. Bryggen wurde 1979 als erste Welterbestätte Norwegens in die UNESCO-Welterbeliste aufgenommen. Das Hanseatische Museum mit den Schøtstuene und das Bryggens Museum vermitteln zusätzliche Einblicke in die Handels- und Alltagsgeschichte des Viertels."
     },
     "activities": {
       "tr": [
-        "Tarihi binaları gezme",
-        "Bölgedeki dükkanları ziyaret etme"
+        "Tarihi rıhtımı keşfetme",
+        "Ahşap yapılar arasında yürüyüş",
+        "Dar tarihi geçitleri gezme",
+        "Hanseatik ticaret tarihini öğrenme",
+        "Hanseatic Museum ve Schøtstuene'yi ziyaret etme",
+        "Bryggens Museum'u ziyaret etme",
+        "Geleneksel dükkân ve atölyeleri keşfetme",
+        "Tarihi mimariyi fotoğraflama"
       ],
       "en": [
-        "Explore the historic buildings",
-        "Visit the shops in the area"
+        "Explore the historic wharf",
+        "Walk among the wooden buildings",
+        "Explore the historic passageways",
+        "Learn about Hanseatic trade history",
+        "Visit the Hanseatic Museum and Schøtstuene",
+        "Visit Bryggens Museum",
+        "Explore traditional shops and workshops",
+        "Photograph the historic architecture"
       ],
       "de": [
-        "Die historischen Gebäude besichtigen",
-        "Die Geschäfte in der Gegend besuchen"
+        "Den historischen Kai erkunden",
+        "Zwischen den Holzhäusern spazieren",
+        "Historische Gassen entdecken",
+        "Die Geschichte des Hansehandels kennenlernen",
+        "Das Hanseatische Museum und Schøtstuene besuchen",
+        "Das Bryggens Museum besuchen",
+        "Traditionelle Geschäfte und Werkstätten entdecken",
+        "Die historische Architektur fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarih",
+        "kültür",
+        "UNESCO",
+        "mimari",
+        "tarihi rıhtım",
+        "fotoğrafçılık"
       ],
       "en": [
-        "historic square"
+        "history",
+        "culture",
+        "UNESCO",
+        "architecture",
+        "historic wharf",
+        "photography"
       ],
       "de": [
-        "historischer Platz"
+        "Geschichte",
+        "Kultur",
+        "UNESCO",
+        "Architektur",
+        "historischer Kai",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/bryggen.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bryggen%20Bergen.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bryggen%20in%20Bergen.jpg"
     ]
   },
   {
-    "slug": "fl-ibanen-funicular",
+    "slug": "floibanen-funicular",
     "name": {
-      "tr": "Fløibanen Funicular",
+      "tr": "Fløibanen Füniküleri",
       "en": "Fløibanen Funicular",
-      "de": "Fløibanen Funicular"
+      "de": "Fløibanen Standseilbahn"
     },
-    "latitude": 60.3955,
-    "longitude": 5.3219,
+    "latitude": 60.39642,
+    "longitude": 5.32856,
     "description": {
-      "tr": "Fløibanen Funicular, Bergen'in tepelerine çıkan teleferiktir ve şehri yüksekten görmek için mükemmel bir fırsat sunar.",
-      "en": "The Fløibanen Funicular is a cable car that takes you up the hills of Bergen, offering a great opportunity to view the city from above.",
-      "de": "Die Fløibanen Funicular ist eine Seilbahn, die dich die Hügel von Bergen hinauffährt und eine großartige Möglichkeit bietet, die Stadt von oben zu sehen."
+      "tr": "Fløibanen, Bergen şehir merkezinden Fløyen Dağı'na çıkan tarihi bir füniküler demiryoludur. 1918'den beri hizmet veren hat, şehir merkezindeki istasyondan yaklaşık 320 metre rakımdaki Fløyen'e ulaşır ve yolculuk yaklaşık altı dakika sürer. Yol boyunca Bergen'in yamaçlara yayılan mahalleleri ve şehir dokusu görülürken üst istasyona ulaşıldığında Vågen Limanı, şehir merkezi, çevredeki dağlar ve uygun havalarda fiyort manzaraları geniş bir açıyla izlenebilir. Fløyen'in zirvesinde restoran, kafe, mağaza, çocuk oyun alanları ve yürüyüş parkurları bulunur. Yaz aylarında dağ bisikleti ve kano gibi farklı açık hava aktiviteleri de sunulabilir. Fløibanen yıl boyunca çalışır; sefer sıklığı ve bilet fiyatları döneme göre değişir.",
+      "en": "Fløibanen is a historic funicular railway connecting Bergen city centre with Mount Fløyen. Operating since 1918, the railway climbs from its city station to Fløyen at approximately 320 metres above sea level, with the journey taking around six minutes. During the ascent, passengers can see Bergen's hillside neighbourhoods and urban landscape, while the top offers wide views over the city centre, Vågen harbour, surrounding mountains and, in suitable weather, the fjords. At the summit there are restaurants, cafés, a shop, children's play areas and a network of hiking trails. Seasonal outdoor activities such as mountain biking and canoeing may also be available. Fløibanen operates throughout the year, while departure frequency and ticket prices vary by season.",
+      "de": "Die Fløibanen ist eine historische Standseilbahn, die das Stadtzentrum von Bergen mit dem Berg Fløyen verbindet. Die seit 1918 betriebene Bahn fährt vom Stadtbahnhof auf etwa 320 Meter über dem Meeresspiegel und benötigt für die Fahrt rund sechs Minuten. Während der Auffahrt bieten sich Blicke auf die Hänge und das Stadtbild Bergens. Oben angekommen eröffnet sich ein weiter Blick über das Stadtzentrum, den Hafen Vågen, die umliegenden Berge und bei geeigneter Witterung auf die Fjorde. Auf dem Fløyen befinden sich Restaurants, Cafés, ein Geschäft, Spielbereiche für Kinder und zahlreiche Wanderwege. Saisonabhängig werden auch Aktivitäten wie Mountainbiking und Kanufahren angeboten. Die Fløibanen fährt ganzjährig, wobei Fahrplan und Preise je nach Saison variieren."
     },
     "activities": {
       "tr": [
-        "Teleferikle tepeye çıkma",
-        "Bergen manzarasını izleme"
+        "Füniküler yolculuğu yapma",
+        "Fløyen'e çıkma",
+        "Bergen panoramasını izleme",
+        "Vågen Limanı manzarasını seyretme",
+        "Fløyen yürüyüş parkurlarını keşfetme",
+        "Çocuk oyun alanlarını kullanma",
+        "Dağ bisikleti ve kano gibi sezonluk aktivitelere katılma",
+        "Manzara fotoğrafçılığı"
       ],
       "en": [
-        "Ride the cable car to the top",
-        "Enjoy the view of Bergen"
+        "Ride the funicular",
+        "Travel to Mount Fløyen",
+        "Enjoy panoramic views of Bergen",
+        "View Vågen harbour",
+        "Explore hiking trails on Fløyen",
+        "Use the children's play areas",
+        "Join seasonal activities such as mountain biking and canoeing",
+        "Take panoramic photographs"
       ],
       "de": [
-        "Mit der Seilbahn zum Gipfel fahren",
-        "Die Aussicht auf Bergen genießen"
+        "Mit der Standseilbahn fahren",
+        "Zum Fløyen fahren",
+        "Das Panorama von Bergen genießen",
+        "Den Hafen Vågen betrachten",
+        "Wanderwege auf dem Fløyen erkunden",
+        "Die Kinderspielbereiche nutzen",
+        "An saisonalen Aktivitäten wie Mountainbiking und Kanufahren teilnehmen",
+        "Panoramafotografie"
       ]
     },
     "categories": {
       "tr": [
-        "şehir simgesi"
+        "şehir simgesi",
+        "füniküler",
+        "manzara",
+        "doğa",
+        "yürüyüş",
+        "aile"
       ],
       "en": [
-        "city landmark"
+        "city landmark",
+        "funicular",
+        "viewpoint",
+        "nature",
+        "hiking",
+        "family"
       ],
       "de": [
-        "Wahrzeichen der Stadt"
+        "Wahrzeichen",
+        "Standseilbahn",
+        "Aussichtspunkt",
+        "Natur",
+        "Wandern",
+        "Familie"
       ]
     },
     "images": [
-      "https://example.com/floibanen.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fl%C3%B8ibanen%20funicular%20Bergen.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Floibanen%20Bergen.jpg"
+    ]
+  },
+  {
+    "slug": "bergen-balik-pazari",
+    "name": {
+      "tr": "Bergen Balık Pazarı",
+      "en": "Bergen Fish Market",
+      "de": "Fischmarkt Bergen"
+    },
+    "latitude": 60.39496,
+    "longitude": 5.32456,
+    "description": {
+      "tr": "Bergen Balık Pazarı (Fisketorget), şehrin liman bölgesindeki en bilinen buluşma noktalarından biridir ve ticari geçmişi 1200'lü yıllara kadar uzanır. Tarihi pazar günümüzde taze deniz ürünleri, balık, karides, yengeç ve diğer yerel ürünlerin satıldığı tezgâhların yanı sıra restoran ve yiyecek seçenekleriyle ziyaretçileri ağırlar. Vågen kıyısındaki konumu sayesinde Bryggen, Fløibanen ve şehir merkezindeki diğer önemli noktalarla birlikte kolayca gezilebilir. Özellikle yaz sezonunda açık hava alanları ve deniz ürünleri seçenekleriyle hareketlenir.",
+      "en": "Bergen Fish Market (Fisketorget) is one of the city's best-known meeting places by the harbour, with a commercial history dating back to the 1200s. The historic market now offers fresh seafood, fish, shrimp, crab and other local products, together with restaurants and food stalls. Its waterfront location makes it easy to combine with visits to Bryggen, Fløibanen and other central attractions. The market becomes particularly lively during the summer season, when outdoor areas and seafood offerings expand.",
+      "de": "Der Fischmarkt Bergen (Fisketorget) gehört zu den bekanntesten Treffpunkten der Stadt am Hafen und blickt auf eine Handelsgeschichte zurück, die bis ins 13. Jahrhundert reicht. Heute werden dort frische Meeresfrüchte, Fisch, Garnelen, Krabben und andere regionale Produkte angeboten, ergänzt durch Restaurants und Imbissstände. Durch seine Lage am Vågen lässt sich der Markt gut mit einem Besuch von Bryggen, der Fløibanen und weiteren Sehenswürdigkeiten im Zentrum verbinden. Besonders während der Sommersaison wird der Markt durch Außenbereiche und ein größeres Angebot an Meeresfrüchten belebt."
+    },
+    "activities": {
+      "tr": [
+        "Balık pazarını keşfetme",
+        "Deniz ürünlerini deneme",
+        "Yerel ürünleri inceleme",
+        "Liman çevresinde yürüyüş",
+        "Sokak ve liman fotoğrafçılığı",
+        "Bryggen'e yürüyerek devam etme"
+      ],
+      "en": [
+        "Explore the fish market",
+        "Taste seafood",
+        "Browse local products",
+        "Walk around the harbour",
+        "Take street and harbour photographs",
+        "Continue walking towards Bryggen"
+      ],
+      "de": [
+        "Den Fischmarkt erkunden",
+        "Meeresfrüchte probieren",
+        "Regionale Produkte entdecken",
+        "Am Hafen spazieren",
+        "Straßen- und Hafenfotografie",
+        "Zu Fuß nach Bryggen weitergehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "pazar",
+        "yemek",
+        "deniz ürünleri",
+        "liman",
+        "şehir",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "market",
+        "food",
+        "seafood",
+        "harbour",
+        "city",
+        "photography"
+      ],
+      "de": [
+        "Markt",
+        "Gastronomie",
+        "Meeresfrüchte",
+        "Hafen",
+        "Stadt",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20market%20in%20Bergen.jpg"
+    ]
+  },
+  {
+    "slug": "bergenhus-kalesi",
+    "name": {
+      "tr": "Bergenhus Kalesi",
+      "en": "Bergenhus Fortress",
+      "de": "Festung Bergenhus"
+    },
+    "latitude": 60.39757,
+    "longitude": 5.31890,
+    "description": {
+      "tr": "Bergenhus Kalesi, Bergen'in liman girişine yakın konumlanan ve Norveç'in en eski ve en iyi korunmuş kale komplekslerinden biridir. Orta Çağ boyunca Bergen'in siyasi ve askeri merkezlerinden biri olan alan, Håkon's Hall ve Rosenkrantz Kulesi gibi önemli tarihi yapılara ev sahipliği yapar. Håkon's Hall, 13. yüzyılda Norveç kraliyet ikametgâhının bir parçası olarak inşa edilmişken Rosenkrantz Kulesi daha sonraki dönemlerde savunma ve kraliyet yapısı olarak geliştirilmiştir. Kale alanında yürürken tarihi surlar, avlular ve liman manzarası görülebilir. Bryggen'in hemen batısında yer aldığı için Bergen şehir merkezindeki tarihi yürüyüş rotalarına kolayca eklenebilir.",
+      "en": "Bergenhus Fortress is one of Norway's oldest and best-preserved fortress complexes, located near the entrance to Bergen's historic harbour. The site served as an important political and military centre during the Middle Ages and includes major historic buildings such as Håkon's Hall and the Rosenkrantz Tower. Håkon's Hall was built in the 13th century as part of the Norwegian royal residence, while Rosenkrantz Tower was later developed as a defensive and royal structure. Visitors can explore the fortress grounds, historic walls and courtyards while enjoying views towards the harbour. Its location immediately west of Bryggen makes it an easy addition to a historic walking route through central Bergen.",
+      "de": "Die Festung Bergenhus gehört zu den ältesten und am besten erhaltenen Festungsanlagen Norwegens und liegt nahe der Einfahrt in den historischen Hafen von Bergen. Im Mittelalter war die Anlage ein wichtiges politisches und militärisches Zentrum und umfasst bedeutende historische Gebäude wie die Håkonshalle und den Rosenkrantzturm. Die Håkonshalle wurde im 13. Jahrhundert als Teil der norwegischen Königsresidenz errichtet, während der Rosenkrantzturm später als Verteidigungs- und Königsbau ausgebaut wurde. Auf dem Gelände lassen sich historische Mauern und Innenhöfe erkunden, während sich Blicke auf den Hafen eröffnen. Durch die Lage direkt westlich von Bryggen lässt sich die Festung gut in einen historischen Rundgang durch Bergen integrieren."
+    },
+    "activities": {
+      "tr": [
+        "Kale kompleksini keşfetme",
+        "Håkon's Hall'u ziyaret etme",
+        "Rosenkrantz Kulesi'ni görme",
+        "Tarihi surlarda yürüyüş",
+        "Liman manzarasını izleme",
+        "Orta Çağ tarihini keşfetme",
+        "Tarihi yapı fotoğrafçılığı"
+      ],
+      "en": [
+        "Explore the fortress complex",
+        "Visit Håkon's Hall",
+        "See Rosenkrantz Tower",
+        "Walk along the historic grounds",
+        "Enjoy harbour views",
+        "Discover medieval history",
+        "Take architectural photographs"
+      ],
+      "de": [
+        "Die Festungsanlage erkunden",
+        "Die Håkonshalle besuchen",
+        "Den Rosenkrantzturm besichtigen",
+        "Auf dem historischen Gelände spazieren",
+        "Den Hafenblick genießen",
+        "Mittelalterliche Geschichte entdecken",
+        "Architekturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kale",
+        "mimari",
+        "kültür",
+        "liman",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "history",
+        "fortress",
+        "architecture",
+        "culture",
+        "harbour",
+        "photography"
+      ],
+      "de": [
+        "Geschichte",
+        "Festung",
+        "Architektur",
+        "Kultur",
+        "Hafen",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bergenhus%20Fortress.jpg"
+    ]
+  },
+  {
+    "slug": "ulriken",
+    "name": {
+      "tr": "Ulriken Dağı",
+      "en": "Mount Ulriken",
+      "de": "Ulriken"
+    },
+    "latitude": 60.6400,
+    "longitude": 5.3300,
+    "description": {
+      "tr": "Ulriken, Bergen'i çevreleyen yedi dağın en yükseğidir ve deniz seviyesinden 643 metre yüksekliğe ulaşır. Dağın zirvesinden Bergen şehir merkezi, çevredeki dağlar, adalar ve fiyortlara doğru geniş panoramik manzaralar görülebilir. Zirveye yürüyerek ulaşılabildiği gibi Ulriksbanen teleferiğiyle de çıkılabilir. Dağ, şehir merkezine yakın olmasına rağmen açık bir doğa ve yürüyüş ortamı sunar. Zirve çevresinde farklı zorluk seviyelerinde yürüyüş rotaları bulunur ve Ulriken, Fløyen ile birlikte Bergen'in en önemli seyir ve doğa noktalarından biridir. Hava koşulları Norveç'in batı kıyısında hızlı değişebildiğinden yürüyüş öncesinde güncel hava ve ulaşım koşullarının kontrol edilmesi gerekir.",
+      "en": "Mount Ulriken is the highest of the seven mountains surrounding Bergen, reaching 643 metres above sea level. From the summit, visitors can enjoy wide panoramic views across Bergen, the surrounding mountains, islands and fjords. The mountain can be reached on foot or by the Ulriksbanen cable car. Despite its proximity to the city, Ulriken provides a distinctly natural hiking environment. Several hiking routes of different difficulty levels can be found around the summit, making Ulriken one of Bergen's main viewpoints and outdoor destinations alongside Mount Fløyen. Weather conditions on Norway's western coast can change quickly, so current weather and transport conditions should be checked before hiking.",
+      "de": "Der Ulriken ist mit 643 Metern über dem Meeresspiegel der höchste der sieben Berge rund um Bergen. Vom Gipfel bietet sich ein weitreichender Panoramablick über Bergen, die umliegenden Berge, Inseln und Fjorde. Der Gipfel kann zu Fuß oder mit der Seilbahn Ulriksbanen erreicht werden. Trotz der Nähe zur Stadt bietet der Ulriken eine ausgeprägte natürliche Umgebung mit verschiedenen Wanderwegen und Schwierigkeitsgraden. Zusammen mit dem Fløyen gehört er zu den wichtigsten Aussichtspunkten und Naturzielen Bergens. Das Wetter an der norwegischen Westküste kann sich schnell ändern, daher sollten vor einer Wanderung die aktuellen Wetter- und Transportbedingungen geprüft werden."
+    },
+    "activities": {
+      "tr": [
+        "Dağ yürüyüşü yapma",
+        "Ulriksbanen teleferiğine binme",
+        "Bergen panoramasını izleme",
+        "Fiyort ve ada manzaralarını seyretme",
+        "Doğa fotoğrafçılığı",
+        "Zirvede yürüyüş parkurlarını keşfetme"
+      ],
+      "en": [
+        "Go hiking",
+        "Ride the Ulriksbanen cable car",
+        "Enjoy panoramic views of Bergen",
+        "View the fjords and islands",
+        "Take nature photographs",
+        "Explore summit hiking trails"
+      ],
+      "de": [
+        "Wandern",
+        "Mit der Ulriksbanen-Seilbahn fahren",
+        "Das Panorama von Bergen genießen",
+        "Fjorde und Inseln betrachten",
+        "Naturfotografie",
+        "Wanderwege am Gipfel erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "dağ",
+        "doğa",
+        "seyir noktası",
+        "yürüyüş",
+        "teleferik",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "mountain",
+        "nature",
+        "viewpoint",
+        "hiking",
+        "cable car",
+        "photography"
+      ],
+      "de": [
+        "Berg",
+        "Natur",
+        "Aussichtspunkt",
+        "Wandern",
+        "Seilbahn",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ulriken%20Bergen.jpg"
     ]
   }
 ]

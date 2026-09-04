@@ -1,174 +1,540 @@
 [
   {
-    "slug": "montgomery-medeniyetler-muzesi",
+    "slug": "rosa-parks-museum",
     "name": {
-      "tr": "Montgomery Medeniyetler Müzesi",
-      "en": "Montgomery Museum of Civil Rights",
-      "de": "Montgomery Museum für Bürgerrechte"
+      "tr": "Rosa Parks Müzesi",
+      "en": "Rosa Parks Museum",
+      "de": "Rosa-Parks-Museum"
     },
-    "latitude": 32.3792,
-    "longitude": -86.3077,
+    "latitude": 32.37682,
+    "longitude": -86.31117,
     "description": {
-      "tr": "Montgomery Medeniyetler Müzesi, sivil haklar hareketinin merkezlerinden biri olan Montgomery'nin tarihi ve kültürel geçmişini keşfetmek için mükemmel bir yerdir. Ziyaretçiler, şehrin sivil haklar mücadelesindeki önemli rolünü öğrenebilirler.\n",
-      "en": "The Montgomery Museum of Civil Rights is a great place to explore the historical and cultural past of Montgomery, one of the centers of the civil rights movement. Visitors can learn about the city's important role in the civil rights struggle.\n",
-      "de": "Das Montgomery Museum für Bürgerrechte ist ein großartiger Ort, um die historische und kulturelle Vergangenheit von Montgomery, einem der Zentren der Bürgerrechtsbewegung, zu erkunden. Besucher können mehr über die wichtige Rolle der Stadt im Kampf um Bürgerrechte erfahren.\n"
+      "tr": "Rosa Parks Müzesi, Montgomery'deki sivil haklar tarihini ve 1955 Montgomery Otobüs Boykotu'nun arka planını anlamak için şehrin en önemli müzelerinden biridir. Müze, Rosa Parks'ın 1 Aralık 1955'te tutuklandığı yerin bulunduğu Montgomery Street üzerindeki binada yer alır. Ziyaretçiler burada Rosa Parks'ın hayatını, otobüslerdeki ırk ayrımcılığını, onun tutuklanmasına yol açan olayları ve ardından gelişen Montgomery Otobüs Boykotu'nu anlatan sergileri inceleyebilir. Müzenin anlatımı yalnızca Rosa Parks'a odaklanmaz; boykotun arkasındaki yerel topluluğu, Martin Luther King Jr. ve diğer sivil haklar aktivistlerinin rolünü de ele alır. Etkileşimli sergiler, tarihi belgeler, fotoğraflar ve döneme ait nesneler sayesinde olayların gelişimi kronolojik bir şekilde takip edilebilir. Müzenin hemen yakınında çocuklara yönelik ayrı bir eğitim alanı da bulunur. Montgomery'nin sivil haklar rotasını gezenler için Rosa Parks Müzesi, Freedom Rides Museum, Civil Rights Memorial ve Dexter Avenue King Memorial Baptist Church ile birlikte değerlendirilebilecek merkezi bir duraktır.",
+      "en": "The Rosa Parks Museum is one of Montgomery's most important museums for understanding the city's civil rights history and the events surrounding the 1955 Montgomery Bus Boycott. The museum is located on Montgomery Street at the site associated with Rosa Parks's arrest on December 1, 1955. Exhibits explore Parks's life, racial segregation on public buses, the circumstances surrounding her arrest and the community movement that followed. The museum also places Parks's story within the wider history of the Montgomery Bus Boycott and the emerging Civil Rights Movement, including the roles of Martin Luther King Jr. and other local activists. Visitors can explore historical documents, photographs, artifacts, interactive displays and presentations that explain how the boycott developed and why it became a major turning point in American history. A separate Children's Wing provides age-focused educational experiences nearby. Because of its central location, the museum can easily be combined with the Freedom Rides Museum, Civil Rights Memorial and Dexter Avenue King Memorial Baptist Church as part of a walking tour of Montgomery's civil rights landmarks.",
+      "de": "Das Rosa-Parks-Museum gehört zu den wichtigsten Museen in Montgomery, um die Geschichte der Bürgerrechtsbewegung und die Ereignisse rund um den Montgomery Bus Boycott von 1955 zu verstehen. Das Museum befindet sich an der Montgomery Street an dem historischen Ort, der mit der Verhaftung von Rosa Parks am 1. Dezember 1955 verbunden ist. Die Ausstellungen beschäftigen sich mit dem Leben von Rosa Parks, der Rassentrennung in öffentlichen Bussen, den Ereignissen ihrer Verhaftung und der anschließenden Organisation des Busboykotts. Dabei wird die Geschichte nicht ausschließlich auf Rosa Parks konzentriert, sondern auch die Rolle der lokalen Gemeinschaft, von Martin Luther King Jr. und weiteren Aktivisten dargestellt. Historische Dokumente, Fotografien, Objekte und interaktive Präsentationen zeigen die Entwicklung des Boykotts und seine Bedeutung für die amerikanische Bürgerrechtsbewegung. In unmittelbarer Nähe befindet sich außerdem ein eigener Bereich für Kinder. Dank seiner zentralen Lage lässt sich das Museum gut mit dem Freedom Rides Museum, dem Civil Rights Memorial und der Dexter Avenue King Memorial Baptist Church verbinden."
     },
     "activities": {
       "tr": [
-        "Sivil haklar hareketi hakkında bilgi edinmek",
-        "Müzeyi gezmek"
+        "Rosa Parks'ın hayatını öğrenmek",
+        "Montgomery Otobüs Boykotu tarihini keşfetmek",
+        "Tarihi belgeleri ve fotoğrafları incelemek",
+        "Etkileşimli sergileri gezmek",
+        "Sivil haklar hareketinin gelişimini öğrenmek"
       ],
       "en": [
-        "Learn about the civil rights movement",
-        "Visit the museum"
+        "Learn about Rosa Parks's life",
+        "Explore the Montgomery Bus Boycott",
+        "View historical documents and photographs",
+        "Explore interactive exhibits",
+        "Learn about the Civil Rights Movement"
       ],
       "de": [
-        "Mehr über die Bürgerrechtsbewegung erfahren",
-        "Das Museum besichtigen"
+        "Das Leben von Rosa Parks kennenlernen",
+        "Die Geschichte des Montgomery Bus Boycott entdecken",
+        "Historische Dokumente und Fotografien ansehen",
+        "Interaktive Ausstellungen erkunden",
+        "Die Entwicklung der Bürgerrechtsbewegung kennenlernen"
       ]
     },
     "categories": {
       "tr": [
+        "müze",
+        "tarih",
+        "sivil haklar",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "history",
+        "civil rights",
+        "culture"
+      ],
+      "de": [
+        "Museum",
+        "Geschichte",
+        "Bürgerrechte",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://media.voicemap.me/uploads/sound_bite_image/image/1432/original/Rosa_Parks_museum_2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa%20Parks%20Library%20and%20Museum.jpg"
+    ]
+  },
+  {
+    "slug": "alabama-state-capitol",
+    "name": {
+      "tr": "Alabama Eyalet Meclis Binası",
+      "en": "Alabama State Capitol",
+      "de": "Alabama State Capitol"
+    },
+    "latitude": 32.37745,
+    "longitude": -86.30094,
+    "description": {
+      "tr": "Alabama State Capitol, Montgomery'nin en önemli tarihî yapılarından ve eyaletin siyasi geçmişini anlamak için önemli duraklarından biridir. Bugünkü bina 1850-1851 yılları arasında inşa edilmiştir ve klasik dönem etkileri taşıyan görkemli mimarisiyle dikkat çeker. Yapının tarihî önemi yalnızca eyalet yönetimiyle sınırlı değildir. 1861 yılında Geçici Konfederasyon Kongresi ilk toplantılarından birini burada gerçekleştirmiş ve Alabama'nın Amerikan İç Savaşı öncesindeki siyasi rolü bu yapı üzerinden de şekillenmiştir. 1861'de Jefferson Davis'in Amerika Konfedere Devletleri başkanı olarak göreve başlamasıyla bağlantılı törenler de Capitol çevresindeki tarihî alanla ilişkilidir. Günümüzde Alabama'nın günlük yasama faaliyetleri bu binada yürütülmez; eyalet yasama organı State House'ta çalışır. Buna rağmen Capitol, Alabama tarihinin farklı dönemlerini anlamak isteyen ziyaretçiler için önemli bir tarihî mekândır. Binanın önündeki geniş alan, Dexter Avenue ve sivil haklar tarihindeki önemli noktalarla birlikte değerlendirilebilir. Özellikle Selma-Montgomery yürüyüşünün 1965'te burada sona eren bölümünü anlamak açısından Capitol çevresi ayrıca önem taşır.",
+      "en": "The Alabama State Capitol is one of Montgomery's most important historic buildings and a major landmark for understanding Alabama's political history. The present building was constructed in 1850-1851 and is notable for its neoclassical architecture and prominent dome. Its historical importance extends beyond state government. In 1861, the Provisional Congress of the Confederate States held meetings here, connecting the building to one of the most consequential periods in Alabama and American history. The Capitol also became associated with the political events surrounding the formation of the Confederacy. Today, the building is primarily a historic and ceremonial site rather than the location where Alabama's legislature conducts its regular business; legislative operations take place in the Alabama State House. Visitors can explore the building and its surrounding grounds while learning about Alabama's political past. The Capitol is also closely connected to Montgomery's civil rights history. The steps and surrounding area became an important setting during the Selma-to-Montgomery voting rights campaign, making the Capitol a useful stop when following Montgomery's broader historical story.",
+      "de": "Das Alabama State Capitol gehört zu den bedeutendsten historischen Gebäuden Montgomerys und vermittelt einen wichtigen Einblick in die politische Geschichte Alabamas. Das heutige Gebäude wurde 1850-1851 errichtet und fällt durch seine klassizistische Architektur und die markante Kuppel auf. Seine historische Bedeutung geht jedoch weit über die Landespolitik hinaus. Im Jahr 1861 tagte hier der Provisorische Kongress der Konföderierten Staaten, wodurch das Gebäude eng mit einer entscheidenden Epoche der Geschichte Alabamas und der USA verbunden ist. Auch wichtige politische Ereignisse rund um die Gründung der Konföderation stehen mit dem Capitol in Verbindung. Heute dient das Gebäude vor allem als historischer und zeremonieller Ort; die reguläre Arbeit des Parlaments findet im Alabama State House statt. Besucher können die Architektur und das Gelände erkunden und dabei mehr über die politische Vergangenheit Alabamas erfahren. Gleichzeitig besitzt das Capitol eine wichtige Bedeutung für die Bürgerrechtsgeschichte Montgomerys, da die Umgebung während des Selma-to-Montgomery-Marsches 1965 eine zentrale Rolle spielte."
+    },
+    "activities": {
+      "tr": [
+        "Capitol binasını gezmek",
+        "Tarihî mimariyi incelemek",
+        "Alabama'nın siyasi tarihini öğrenmek",
+        "Capitol çevresindeki tarihî alanları keşfetmek"
+      ],
+      "en": [
+        "Explore the Capitol building",
+        "Admire the historic architecture",
+        "Learn about Alabama's political history",
+        "Explore the historic grounds"
+      ],
+      "de": [
+        "Das Capitol besichtigen",
+        "Die historische Architektur betrachten",
+        "Alabamas politische Geschichte kennenlernen",
+        "Das historische Gelände erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "şehir simgesi",
+        "mimari"
+      ],
+      "en": [
+        "historic",
+        "landmark",
+        "architecture"
+      ],
+      "de": [
+        "Historisch",
+        "Wahrzeichen",
+        "Architektur"
+      ]
+    },
+    "images": [
+      "https://ghosty-production.s3.amazonaws.com/fotospot_spots/Alabama-State-Capitol-Fotospot-01_e7157236d71e24ece3bb9e97f5fea386/large.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alabama%20State%20Capitol%20Montgomery.jpg"
+    ]
+  },
+  {
+    "slug": "rosa-parks-statue",
+    "name": {
+      "tr": "Rosa Parks Heykeli",
+      "en": "Rosa Parks Statue",
+      "de": "Rosa-Parks-Statue"
+    },
+    "latitude": 32.37703,
+    "longitude": -86.30933,
+    "description": {
+      "tr": "Rosa Parks Heykeli, Montgomery şehir merkezindeki Court Square bölgesinde bulunan ve Rosa Parks'ın sivil haklar tarihindeki rolünü anan bronz bir heykeldir. Heykel 1 Aralık 2019'da, Montgomery Otobüs Boykotu'nun başlangıcının yıldönümünde açılmıştır. Rosa Parks, 1 Aralık 1955'te Montgomery şehir otobüsünde koltuğunu beyaz bir yolcuya vermeyi reddettiği için tutuklanmış ve bu olay 381 gün süren Montgomery Otobüs Boykotu'nun başlamasında önemli bir dönüm noktası olmuştur. Heykelde Parks ayakta, el çantası önünde olacak şekilde tasvir edilmiştir. Anıtın bulunduğu Court Square bölgesi, Montgomery'nin 19. yüzyıldan sivil haklar dönemine uzanan tarihinin farklı katmanlarını bir arada gösterir. Rosa Parks Müzesi, Dexter Avenue King Memorial Baptist Church ve Alabama State Capitol gibi önemli noktalar da şehir merkezindeki aynı tarihî rotaya eklenebilir. Heykel kısa bir ziyaret için uygundur ve çevredeki tarihî işaretlerle birlikte incelendiğinde Rosa Parks'ın hikâyesinin yalnızca tek bir otobüs yolculuğundan ibaret olmadığını, Montgomery'deki daha geniş sivil haklar mücadelesinin bir parçası olduğunu anlamaya yardımcı olur.",
+      "en": "The Rosa Parks Statue is a bronze monument in downtown Montgomery's Court Square area commemorating Rosa Parks and her role in the Civil Rights Movement. The statue was dedicated on December 1, 2019, marking the anniversary of the beginning of the Montgomery Bus Boycott. Parks was arrested on December 1, 1955 after refusing to give up her seat to a white passenger on a segregated city bus. Her arrest became a major catalyst for the 381-day Montgomery Bus Boycott. The life-size bronze sculpture depicts Parks standing with her handbag in front of her. The surrounding Court Square area contains several historical markers that help place her story within Montgomery's broader history. Visitors can combine the statue with the Rosa Parks Museum, Dexter Avenue King Memorial Baptist Church and the Alabama State Capitol as part of a downtown walking route. The monument is a relatively quick stop, but the nearby historical markers provide additional context about the boycott, the legal challenge to bus segregation and the wider civil rights struggle in Montgomery.",
+      "de": "Die Rosa-Parks-Statue ist ein Bronzedenkmal im Bereich des Court Square im Zentrum von Montgomery und erinnert an Rosa Parks und ihre Rolle in der Bürgerrechtsbewegung. Die Statue wurde am 1. Dezember 2019 eingeweiht, dem Jahrestag des Beginns des Montgomery Bus Boycott. Am 1. Dezember 1955 wurde Rosa Parks verhaftet, nachdem sie sich geweigert hatte, ihren Sitzplatz in einem segregierten Stadtbus für einen weißen Fahrgast freizugeben. Ihre Verhaftung wurde zu einem wichtigen Auslöser des 381 Tage dauernden Busboykotts. Die lebensgroße Bronzestatue zeigt Parks mit ihrer Handtasche vor dem Körper. Rund um den Court Square befinden sich weitere historische Markierungen, die ihre Geschichte in den größeren Zusammenhang der Bürgerrechtsbewegung einordnen. Die Statue lässt sich gut mit dem Rosa-Parks-Museum, der Dexter Avenue King Memorial Baptist Church und dem Alabama State Capitol zu einem historischen Rundgang verbinden."
+    },
+    "activities": {
+      "tr": [
+        "Rosa Parks heykelini görmek",
+        "Tarihî işaretleri incelemek",
+        "Montgomery Otobüs Boykotu hakkında bilgi edinmek",
+        "Şehir merkezindeki tarihî rotayı keşfetmek"
+      ],
+      "en": [
+        "See the Rosa Parks statue",
+        "Read the historical markers",
+        "Learn about the Montgomery Bus Boycott",
+        "Explore downtown's historic route"
+      ],
+      "de": [
+        "Die Rosa-Parks-Statue ansehen",
+        "Historische Markierungen lesen",
+        "Mehr über den Montgomery Bus Boycott erfahren",
+        "Die historische Innenstadt erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "anıt",
+        "tarih",
+        "sivil haklar"
+      ],
+      "en": [
+        "monument",
+        "history",
+        "civil rights"
+      ],
+      "de": [
+        "Denkmal",
+        "Geschichte",
+        "Bürgerrechte"
+      ]
+    },
+    "images": [
+      "https://ww3.rics.org/content/dam/rics/images/modus/built-environment/february-2024/montgomery/Modus_feb24_Montgomery_historic_sites24.jpg"
+    ]
+  },
+  {
+    "slug": "dexter-avenue-king-memorial-baptist-church",
+    "name": {
+      "tr": "Dexter Avenue King Memorial Baptist Kilisesi",
+      "en": "Dexter Avenue King Memorial Baptist Church",
+      "de": "Dexter Avenue King Memorial Baptist Church"
+    },
+    "latitude": 32.37727,
+    "longitude": -86.30269,
+    "description": {
+      "tr": "Dexter Avenue King Memorial Baptist Church, Montgomery'nin sivil haklar tarihindeki en önemli yapılardan biridir. Kilise 1877'de kurulmuş, bugünkü kırmızı tuğlalı yapı ise 1883-1889 yılları arasında inşa edilmiştir. Yapının önemi özellikle Martin Luther King Jr.'ın burada 1954-1960 yılları arasında papazlık yapmasıyla bağlantılıdır. King'in Montgomery Otobüs Boykotu sırasında kilisenin alt katındaki ofisinden hareketi organize eden isimlerden biri olması, yapıyı Amerikan sivil haklar tarihinin önemli mekânlarından biri haline getirmiştir. Kilisenin içindeki tarihî duvar resmi, King'in Montgomery'den Memphis'e uzanan sivil haklar mücadelesini betimler. Günümüzde kilise aktif bir ibadet mekânıdır ve tarihî turlar randevu sistemiyle düzenlenmektedir. Ziyaretçiler kilisenin mimarisini, tarihî vaaz mekânlarını ve Martin Luther King Jr. ile bağlantılı bölümleri rehberli tur kapsamında inceleyebilir. Kilisenin konumu Alabama State Capitol ve Civil Rights Memorial'a yakın olduğu için Montgomery'nin sivil haklar rotasının en önemli duraklarından biri olarak değerlendirilebilir.",
+      "en": "Dexter Avenue King Memorial Baptist Church is one of the most important historic sites associated with the Civil Rights Movement in Montgomery. The congregation was established in 1877, while the present red-brick church was built between 1883 and 1889. Its historical significance is closely connected with Martin Luther King Jr., who served as pastor from 1954 to 1960. During the Montgomery Bus Boycott, King used his office in the church to help organize and direct the movement. The church therefore became an important gathering and organizing place during one of the defining campaigns of the American Civil Rights Movement. Inside, a large historical mural depicts King's journey through the movement from Montgomery to Memphis. The church remains an active place of worship, and historical tours are arranged according to the current schedule and appointment policy. Its location near the Alabama State Capitol and Civil Rights Memorial makes it a natural part of a downtown Montgomery civil rights walking tour.",
+      "de": "Die Dexter Avenue King Memorial Baptist Church gehört zu den wichtigsten historischen Orten der Bürgerrechtsbewegung in Montgomery. Die Gemeinde wurde 1877 gegründet, während das heutige rote Backsteingebäude zwischen 1883 und 1889 errichtet wurde. Seine besondere Bedeutung hängt mit Martin Luther King Jr. zusammen, der hier von 1954 bis 1960 als Pastor tätig war. Während des Montgomery Bus Boycott nutzte King sein Büro im Untergeschoss der Kirche, um die Bewegung mitzuorganisieren und zu leiten. Dadurch wurde die Kirche zu einem wichtigen Treffpunkt der Bürgerrechtsbewegung. Im Inneren befindet sich ein großes historisches Wandgemälde, das Kings Weg von Montgomery bis Memphis darstellt. Die Kirche wird weiterhin aktiv für Gottesdienste genutzt; historische Führungen werden nach dem aktuellen Besuchs- und Terminplan angeboten. Durch die Nähe zum Alabama State Capitol und zum Civil Rights Memorial eignet sich die Kirche hervorragend als Teil eines Rundgangs durch die Bürgerrechtsgeschichte Montgomerys."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin tarihini keşfetmek",
+        "Martin Luther King Jr. ile bağlantılı alanları görmek",
+        "Tarihî duvar resmini incelemek",
+        "Rehberli tarih turuna katılmak"
+      ],
+      "en": [
+        "Explore the church's history",
+        "See sites connected with Martin Luther King Jr.",
+        "View the historic mural",
+        "Join a historical tour"
+      ],
+      "de": [
+        "Die Geschichte der Kirche erkunden",
+        "Orte mit Bezug zu Martin Luther King Jr. sehen",
+        "Das historische Wandgemälde betrachten",
+        "An einer historischen Führung teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise",
+        "tarih",
+        "sivil haklar",
+        "mimari"
+      ],
+      "en": [
+        "church",
+        "history",
+        "civil rights",
+        "architecture"
+      ],
+      "de": [
+        "Kirche",
+        "Geschichte",
+        "Bürgerrechte",
+        "Architektur"
+      ]
+    },
+    "images": [
+      "https://experiencemontgomeryal.org/wp-content/uploads/2022/04/Dexter-Avenue-King-Memorial-Baptist-Church.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Dexter%20Avenue%20King%20Memorial%20Baptist%20Church.jpg"
+    ]
+  },
+  {
+    "slug": "civil-rights-memorial",
+    "name": {
+      "tr": "Sivil Haklar Anıtı",
+      "en": "Civil Rights Memorial",
+      "de": "Bürgerrechtsdenkmal"
+    },
+    "latitude": 32.37630,
+    "longitude": -86.30328,
+    "description": {
+      "tr": "Civil Rights Memorial, Montgomery'de Amerikan Sivil Haklar Hareketi sırasında hayatını kaybeden kişileri anmak ve bu dönemin tarihini ziyaretçilere aktarmak amacıyla oluşturulmuş önemli bir anıttır. Maya Lin tarafından tasarlanan anıt 1989'da açılmıştır. Siyah granitten yapılan dairesel su masası ve akışkan su tasarımı, hareketin önemli tarihlerini ve yaşamını yitiren insanların isimlerini bir araya getirir. Anıtın yanında bulunan Civil Rights Memorial Center ise anıtın tarihsel bağlamını daha ayrıntılı şekilde ele alan sergilere sahiptir. Merkezde hareketin şehitleri olarak anılan 40 kişinin hikâyeleri, sivil haklar hareketinin 1950'ler ve 1960'lardaki gelişimi ve günümüzde sosyal adalet çalışmalarının devamlılığı üzerine içerikler bulunur. Anıt, Alabama State Capitol ve Dexter Avenue King Memorial Baptist Church'e yalnızca kısa bir yürüyüş mesafesindedir. Bu nedenle Montgomery'de sivil haklar tarihi üzerine bir şehir yürüyüşü yapan ziyaretçiler için merkezi bir duraktır. Açık alandaki anıtın kendisi ile ziyaretçi merkezindeki sergi deneyimini ayrı ayrı değerlendirmek mümkündür.",
+      "en": "The Civil Rights Memorial is an important Montgomery landmark dedicated to remembering people who lost their lives during the American Civil Rights Movement and interpreting the history of the struggle for racial justice. Designed by Maya Lin and dedicated in 1989, the memorial features a circular black granite water table and a curved wall. Water flows across the memorial while names and major dates associated with the movement are incorporated into the design. The adjacent Civil Rights Memorial Center provides additional historical interpretation through exhibitions about the movement and the people who died during the struggle. Visitors can learn about the 40 people whose names are inscribed on the memorial and explore exhibits connecting the civil rights campaigns of the 1950s and 1960s with ongoing work for social justice. The memorial is only a short walk from the Alabama State Capitol and Dexter Avenue King Memorial Baptist Church, making it an important stop on a downtown Montgomery civil rights itinerary.",
+      "de": "Das Civil Rights Memorial ist ein bedeutendes Wahrzeichen Montgomerys, das an Menschen erinnert, die während der amerikanischen Bürgerrechtsbewegung ihr Leben verloren, und die Geschichte des Kampfes für Bürgerrechte vermittelt. Das von Maya Lin entworfene Denkmal wurde 1989 eingeweiht. Im Mittelpunkt steht eine runde schwarze Granitfläche mit fließendem Wasser, ergänzt durch eine geschwungene Granitwand. Namen und wichtige Daten der Bürgerrechtsbewegung sind in das Gestaltungskonzept integriert. Das angrenzende Civil Rights Memorial Center bietet zusätzliche historische Informationen über Ausstellungen zur Bewegung und zu den Menschen, die während des Kampfes ums Leben kamen. Besucher können die Geschichten der 40 auf dem Denkmal genannten Personen kennenlernen und erfahren, wie die Bürgerrechtsbewegung der 1950er und 1960er Jahre mit heutigen Fragen sozialer Gerechtigkeit verbunden wird. Das Denkmal liegt nur wenige Gehminuten vom Alabama State Capitol und der Dexter Avenue King Memorial Baptist Church entfernt und eignet sich daher besonders für einen historischen Rundgang durch Montgomery."
+    },
+    "activities": {
+      "tr": [
+        "Anıtı ziyaret etmek",
+        "Maya Lin'in tasarımını incelemek",
+        "Sivil haklar tarihini öğrenmek",
+        "Civil Rights Memorial Center'ı gezmek",
+        "Anıtın su tasarımını görmek"
+      ],
+      "en": [
+        "Visit the memorial",
+        "Explore Maya Lin's design",
+        "Learn about civil rights history",
+        "Visit the Civil Rights Memorial Center",
+        "See the memorial's water design"
+      ],
+      "de": [
+        "Das Denkmal besuchen",
+        "Das Design von Maya Lin betrachten",
+        "Bürgerrechtsgeschichte kennenlernen",
+        "Das Civil Rights Memorial Center besuchen",
+        "Das Wasserelement des Denkmals sehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "anıt",
+        "tarih",
+        "sivil haklar",
         "müze"
       ],
       "en": [
+        "monument",
+        "history",
+        "civil rights",
         "museum"
       ],
       "de": [
-        "museum"
+        "Denkmal",
+        "Geschichte",
+        "Bürgerrechte",
+        "Museum"
       ]
     },
     "images": [
-      "https://example.com/montgomery_museum_of_civil_rights.jpg"
+      "https://www.splcenter.org/sites/default/files/styles/max_1300x1300/public/crmc_memorial.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Civil_Rights_Memorial_Montgomery_Alabama.jpg/1280px-Civil_Rights_Memorial_Montgomery_Alabama.jpg"
     ]
   },
   {
-    "slug": "alabama-eyalet-meclisi",
+    "slug": "freedom-rides-museum",
     "name": {
-      "tr": "Alabama Eyalet Meclisi",
-      "en": "Alabama State Capitol",
-      "de": "Alabama Staatskapitol"
+      "tr": "Freedom Rides Müzesi",
+      "en": "Freedom Rides Museum",
+      "de": "Freedom Rides Museum"
     },
-    "latitude": 32.3787,
-    "longitude": -86.3005,
+    "latitude": 32.37472,
+    "longitude": -86.30917,
     "description": {
-      "tr": "Alabama Eyalet Meclisi, Montgomery'nin en ikonik yapılarından biridir. 1851 yılında inşa edilen bu yapı, Alabama'nın siyasal tarihini yansıtır. Ziyaretçiler, binanın tarihini öğrenebilir ve devletin yasama sürecine dair bilgiler edinebilir.\n",
-      "en": "The Alabama State Capitol is one of Montgomery's most iconic structures. Built in 1851, this building reflects Alabama's political history. Visitors can learn about the building's history and gain insight into the state's legislative process.\n",
-      "de": "Das Alabama Staatskapitol ist eines der ikonischsten Gebäude in Montgomery. Es wurde 1851 erbaut und spiegelt die politische Geschichte von Alabama wider. Besucher können mehr über die Geschichte des Gebäudes erfahren und Einblicke in den Gesetzgebungsprozess des Staates erhalten.\n"
+      "tr": "Freedom Rides Müzesi, 1961 Freedom Rides olaylarının Montgomery'deki önemli duraklarından biri olan eski Greyhound otobüs terminalinin içinde yer alır. Freedom Riders olarak bilinen aktivistler, eyaletler arası otobüs taşımacılığında ırk ayrımcılığını protesto etmek ve federal mahkeme kararlarının uygulanmasını talep etmek amacıyla Güney eyaletlerinde otobüs yolculukları gerçekleştirdi. 20 Mayıs 1961'de Montgomery'ye gelen Freedom Riders, terminal çevresinde şiddetli bir saldırıyla karşılaştı. Günümüzde müze, bu olayları tarihî binanın kendisi üzerinden anlatır. Sergilerde Freedom Riders'ın yolculuğu, şiddet içermeyen protesto yöntemleri, öğrenci aktivizmi ve dönemin siyasi atmosferi ele alınır. Tarihî Greyhound terminalinin korunmuş mimarisi de deneyimin önemli bir parçasıdır. Müze yaklaşık bir saatlik bir ziyaretle gezilebilecek ölçektedir ve özellikle Amerikan sivil haklar tarihini yerinde anlamak isteyenler için güçlü bir duraktır. Montgomery şehir merkezinde bulunması sayesinde Rosa Parks Museum, Civil Rights Memorial ve diğer tarihî noktalarla aynı gün içerisinde ziyaret edilebilir.",
+      "en": "The Freedom Rides Museum is located inside Montgomery's former Greyhound Bus Station, one of the city's most significant sites associated with the 1961 Freedom Rides. Freedom Riders were activists who traveled on interstate buses through the segregated South to challenge racial segregation and demand enforcement of federal rulings requiring integrated transportation. On May 20, 1961, Freedom Riders arriving in Montgomery were attacked by a mob near the bus station. Today, the museum tells the story of those events within the historic terminal itself. Exhibits examine the Freedom Riders' journeys, nonviolent protest strategies, student activism and the political environment of the period. The preserved Streamline Moderne architecture of the former bus station is also part of the experience. The museum can generally be explored in about an hour and offers an important opportunity to understand the Civil Rights Movement through the physical place where major events occurred. Its downtown location makes it easy to combine with the Rosa Parks Museum, Civil Rights Memorial and other historic sites.",
+      "de": "Das Freedom Rides Museum befindet sich im ehemaligen Greyhound-Busbahnhof von Montgomery, einem der wichtigsten historischen Orte der Freedom Rides von 1961. Die Freedom Riders waren Aktivisten, die mit Fernbussen durch den segregierten Süden reisten, um die Rassentrennung im öffentlichen Verkehr herauszufordern und die Umsetzung bundesgerichtlicher Entscheidungen zu verlangen. Am 20. Mai 1961 wurden Freedom Riders bei ihrer Ankunft in Montgomery in der Nähe des Busbahnhofs von einem Mob angegriffen. Heute erzählt das Museum diese Geschichte direkt in dem historischen Gebäude. Die Ausstellungen behandeln die Reisen der Freedom Riders, gewaltfreie Protestformen, studentischen Aktivismus und die politische Situation der Zeit. Auch die erhaltene Streamline-Moderne-Architektur des ehemaligen Busbahnhofs gehört zur historischen Erfahrung. Das Museum kann in ungefähr einer Stunde besichtigt werden und lässt sich aufgrund seiner Lage im Stadtzentrum gut mit dem Rosa-Parks-Museum, dem Civil Rights Memorial und weiteren historischen Orten verbinden."
     },
     "activities": {
       "tr": [
-        "Eyalet meclisini gezmek",
-        "Alabama’nın siyasal geçmişini keşfetmek"
+        "Freedom Riders tarihini öğrenmek",
+        "Eski Greyhound terminalini gezmek",
+        "Sivil haklar sergilerini incelemek",
+        "1961 Freedom Rides olaylarını keşfetmek",
+        "Tarihî mimariyi görmek"
       ],
       "en": [
-        "Tour the state capitol",
-        "Explore Alabama’s political history"
+        "Learn about the Freedom Riders",
+        "Explore the former Greyhound station",
+        "View civil rights exhibits",
+        "Explore the 1961 Freedom Rides",
+        "See the historic architecture"
       ],
       "de": [
-        "Das Staatskapitol besichtigen",
-        "Die politische Geschichte Alabamas erkunden"
+        "Die Geschichte der Freedom Riders kennenlernen",
+        "Den ehemaligen Greyhound-Bahnhof erkunden",
+        "Bürgerrechtsausstellungen ansehen",
+        "Die Freedom Rides von 1961 kennenlernen",
+        "Die historische Architektur betrachten"
       ]
     },
     "categories": {
       "tr": [
-        "şehir simgesi"
+        "müze",
+        "tarih",
+        "sivil haklar"
       ],
       "en": [
-        "city landmark"
+        "museum",
+        "history",
+        "civil rights"
       ],
       "de": [
-        "Wahrzeichen der Stadt"
+        "Museum",
+        "Geschichte",
+        "Bürgerrechte"
       ]
     },
     "images": [
-      "https://example.com/alabama_state_capitol.jpg"
+      "https://ccrarchitecture.com/wp-content/uploads/The_Freedom_Rides_Museum_group2-2_0.6943285865476028-work.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Montgomery%20-%20Freedom%20Rides%20Museum%20-%2020220712120134.jpg"
     ]
   },
   {
-    "slug": "rosa-parks-aniti",
+    "slug": "the-legacy-museum",
     "name": {
-      "tr": "Rosa Parks Anıtı",
-      "en": "Rosa Parks Monument",
-      "de": "Rosa Parks Denkmal"
+      "tr": "The Legacy Museum",
+      "en": "The Legacy Museum",
+      "de": "The Legacy Museum"
     },
-    "latitude": 32.3801,
-    "longitude": -86.2998,
+    "latitude": 32.3830,
+    "longitude": -86.3098,
     "description": {
-      "tr": "Rosa Parks Anıtı, sivil haklar hareketinin sembolü haline gelen Rosa Parks'ın hatırasına yapılmış bir anıttır. 1955 yılında, Rosa Parks’ın otobüslerdeki ırk ayrımcılığına karşı başlattığı protesto, sivil haklar mücadelesinin simgesi olmuştur.\n",
-      "en": "The Rosa Parks Monument is a tribute to Rosa Parks, a symbol of the civil rights movement. In 1955, Rosa Parks' protest against bus segregation became a pivotal moment in the civil rights struggle.\n",
-      "de": "Das Rosa Parks Denkmal ist eine Ehrung von Rosa Parks, einem Symbol der Bürgerrechtsbewegung. 1955 begann Rosa Parks mit ihrem Protest gegen die Bussegregation einen Wendepunkt im Kampf um Bürgerrechte.\n"
+      "tr": "The Legacy Museum, Montgomery'nin kölelikten ırkçı şiddete, ayrımcılıktan kitlesel hapsedilmeye kadar uzanan Amerikan tarihini inceleyen önemli müzelerinden biridir. Equal Justice Initiative tarafından işletilen müze, Amerika Birleşik Devletleri'ndeki ırksal adaletsizliğin farklı dönemlerini birbirine bağlayan kapsamlı bir anlatı sunar. Sergiler köle ticareti ve kölelik döneminden başlayarak İç Savaş sonrası dönem, Jim Crow yasaları, linçler, ayrımcılık ve günümüzdeki kitlesel hapsedilme sistemine kadar uzanır. Müze, tarihî belgelerin yanı sıra kişisel hikâyeler, görsel materyaller, sanat eserleri ve etkileşimli anlatım tekniklerinden yararlanır. Montgomery'deki konumu da tesadüfi değildir; müze, şehrin kölelik ve sivil haklar tarihinin önemli noktalarının bulunduğu bölgede yer alır. Ziyaretçiler müzeyi tek başına gezebileceği gibi aynı bilet kapsamında National Memorial for Peace and Justice, Freedom Monument Sculpture Park ve Montgomery Square gibi EJI'nin diğer Legacy Sites noktalarıyla birlikte değerlendirebilir. Resmî ziyaret bilgilerine göre müzeye giriş zamanlıdır ve diğer üç Legacy Sites noktası aynı genel bilet kapsamında ziyaret edilebilir.",
+      "en": "The Legacy Museum is a major Montgomery museum exploring the history of racial injustice in the United States, from slavery and racial terror to segregation and mass incarceration. Operated by the Equal Justice Initiative, the museum presents a broad historical narrative that connects different eras of American racial history. Exhibits move from the transatlantic slave trade and slavery through Reconstruction, Jim Crow segregation, racial terror lynchings and the development of modern mass incarceration. The museum combines historical documents with personal stories, visual material, artwork and interactive interpretation. Its location in Montgomery is itself historically significant, placing the museum within a city deeply connected to both the history of slavery and the modern Civil Rights Movement. Visitors can explore the museum independently and can also use the same general admission ticket to visit the National Memorial for Peace and Justice, Freedom Monument Sculpture Park and Montgomery Square. Because the museum covers a wide historical period, visitors interested in American history may want to allow several hours for the exhibits.",
+      "de": "Das Legacy Museum ist eines der bedeutendsten Museen Montgomerys und beschäftigt sich mit der Geschichte rassistischer Ungerechtigkeit in den USA – von Sklaverei und rassistischem Terror über Segregation bis hin zu Masseninhaftierung. Das Museum wird von der Equal Justice Initiative betrieben und verbindet verschiedene Epochen der amerikanischen Geschichte zu einer umfassenden Erzählung. Die Ausstellungen beginnen mit dem transatlantischen Sklavenhandel und der Sklaverei und führen über Reconstruction und die Jim-Crow-Segregation zu rassistischem Terror und dem modernen System der Masseninhaftierung. Historische Dokumente werden mit persönlichen Geschichten, Bildern, Kunstwerken und interaktiven Präsentationen kombiniert. Auch der Standort in Montgomery ist historisch bedeutsam, da die Stadt eng mit der Geschichte der Sklaverei und der Bürgerrechtsbewegung verbunden ist. Besucher können das Museum eigenständig erkunden und mit demselben allgemeinen Eintritt auch das National Memorial for Peace and Justice, den Freedom Monument Sculpture Park und Montgomery Square besuchen. Aufgrund des umfangreichen Inhalts lohnt es sich, mehrere Stunden für das Museum einzuplanen."
     },
     "activities": {
       "tr": [
-        "Rosa Parks’ın mücadelesini öğrenmek",
-        "Anıtı ziyaret etmek"
+        "Amerikan ırk tarihini keşfetmek",
+        "Kölelik tarihini öğrenmek",
+        "Sivil haklar tarihini incelemek",
+        "Etkileşimli sergileri gezmek",
+        "EJI Legacy Sites rotasını keşfetmek"
       ],
       "en": [
-        "Learn about Rosa Parks’ struggle",
-        "Visit the monument"
+        "Explore American racial history",
+        "Learn about the history of slavery",
+        "Study civil rights history",
+        "Explore interactive exhibits",
+        "Explore the EJI Legacy Sites"
       ],
       "de": [
-        "Mehr über den Kampf von Rosa Parks erfahren",
-        "Das Denkmal besuchen"
+        "Die amerikanische Rassengeschichte erkunden",
+        "Die Geschichte der Sklaverei kennenlernen",
+        "Bürgerrechtsgeschichte erforschen",
+        "Interaktive Ausstellungen erkunden",
+        "Die EJI Legacy Sites entdecken"
       ]
     },
     "categories": {
       "tr": [
-        "şehir simgesi"
+        "müze",
+        "tarih",
+        "sivil haklar",
+        "kültür"
       ],
       "en": [
-        "city landmark"
+        "museum",
+        "history",
+        "civil rights",
+        "culture"
       ],
       "de": [
-        "Wahrzeichen der Stadt"
+        "Museum",
+        "Geschichte",
+        "Bürgerrechte",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/rosa_parks_monument.jpg"
+      "https://www.worldatlas.com/r/w768/upload/6f/ae/5f/shutterstock-2714125631-1-s3cdn.jpg",
+      "https://cloudfront-us-east-1.images.arcpublishing.com/gray/ZMUA4N55SBH57PVRNVL7VGYYZU.jpg"
     ]
   },
   {
-    "slug": "dexter-avenue-baptist-kilisesi",
+    "slug": "national-memorial-for-peace-and-justice",
     "name": {
-      "tr": "Dexter Avenue Baptist Kilisesi",
-      "en": "Dexter Avenue Baptist Church",
-      "de": "Dexter Avenue Baptistenkirche"
+      "tr": "Barış ve Adalet Ulusal Anıtı",
+      "en": "National Memorial for Peace and Justice",
+      "de": "National Memorial for Peace and Justice"
     },
-    "latitude": 32.3793,
-    "longitude": -86.2995,
+    "latitude": 32.37248,
+    "longitude": -86.31335,
     "description": {
-      "tr": "Dexter Avenue Baptist Kilisesi, Martin Luther King Jr.'ın vaaz verdiği ve sivil haklar hareketinin önemli bir merkezi olan tarihi bir kilisedir. Burada, sivil haklar mücadelesi hakkında daha fazla bilgi edinilebilir.\n",
-      "en": "Dexter Avenue Baptist Church is a historic church where Martin Luther King Jr. preached and was a pivotal site for the civil rights movement. Visitors can learn more about the civil rights struggle at this location.\n",
-      "de": "Die Dexter Avenue Baptistenkirche ist eine historische Kirche, in der Martin Luther King Jr. predigte und die ein wichtiger Ort für die Bürgerrechtsbewegung war. Besucher können hier mehr über den Kampf um Bürgerrechte erfahren.\n"
+      "tr": "National Memorial for Peace and Justice, Amerika Birleşik Devletleri'ndeki ırkçı linç terörünün kurbanlarını anmak amacıyla oluşturulmuş ulusal ölçekte önemli bir anıttır. Montgomery'de altı dönümlük bir alanda yer alan anıt, Equal Justice Initiative tarafından oluşturulmuştur. Alanın merkezindeki corten çelik yapılar, 1877-1950 yılları arasında ırkçı terör linçlerinin gerçekleştiği ilçeleri temsil eder. Anıtta 4.400'den fazla siyah Amerikalının bu dönemdeki linçlerde öldürüldüğü anılır ve her ilçe için hazırlanmış çelik sütunlar ziyaretçilerin rotası boyunca giderek farklı yüksekliklerde konumlandırılır. Tasarım, ziyaretçiyi tarihsel olaylarla fiziksel olarak karşılaştıran bir mimari deneyim oluşturur. Anıtın çevresindeki heykeller ve açıklamalar, kölelik, ayrımcılık ve ırkçı şiddetin Amerikan toplumundaki uzun vadeli etkilerini ele alır. Ziyaret, Montgomery'nin sivil haklar tarihinin ötesine geçerek Amerikan tarihindeki ırksal şiddet dönemlerini anlamaya yardımcı olur. EJI'nin diğer Legacy Sites noktalarıyla birlikte ziyaret edilebilir ve resmî genel bilet bu alanlara da erişim sağlar.",
+      "en": "The National Memorial for Peace and Justice is a major American memorial dedicated to the victims of racial terror lynchings and the broader legacy of racial injustice in the United States. Located on a six-acre site in Montgomery, the memorial was created by the Equal Justice Initiative. Its central structure features weathering steel monuments representing counties where racial terror lynchings occurred. More than 4,400 Black people killed in racial terror lynchings between 1877 and 1950 are remembered at the site. The architecture gradually changes the position of the steel monuments as visitors move through the memorial, creating a powerful physical interpretation of the history. Sculptures, text and landscape elements further examine slavery, racial segregation, racial terror and their continuing legacy. The memorial provides a different perspective from Montgomery's better-known Civil Rights Movement sites by focusing strongly on the earlier history of racial violence in the United States. It can be visited with the other EJI Legacy Sites, including the Legacy Museum, Freedom Monument Sculpture Park and Montgomery Square, under the general admission system.",
+      "de": "Das National Memorial for Peace and Justice ist ein bedeutendes amerikanisches Denkmal, das den Opfern rassistischen Terrors und Lynchmorden sowie dem langfristigen Erbe rassistischer Ungerechtigkeit gewidmet ist. Das Memorial befindet sich auf einem sechs Acre großen Gelände in Montgomery und wurde von der Equal Justice Initiative geschaffen. Im Zentrum stehen Monumente aus wetterfestem Stahl, die Landkreise repräsentieren, in denen rassistischer Terror durch Lynchmorde stattfand. Mehr als 4.400 Schwarze Menschen, die zwischen 1877 und 1950 durch rassistischen Lynchterror getötet wurden, werden hier erinnert. Die Anordnung der Stahlmonumente verändert sich während des Rundgangs und vermittelt die Geschichte auch räumlich. Skulpturen, Texte und die Landschaft thematisieren außerdem Sklaverei, Segregation, rassistische Gewalt und deren langfristige Folgen. Das Memorial ergänzt die bekannteren Bürgerrechtsorte Montgomerys um eine intensive Auseinandersetzung mit der früheren Geschichte rassistischer Gewalt in den USA. Es kann zusammen mit dem Legacy Museum, dem Freedom Monument Sculpture Park und Montgomery Square im Rahmen des allgemeinen Legacy-Sites-Tickets besucht werden."
     },
     "activities": {
       "tr": [
-        "Kilisenin tarihi hakkında bilgi edinmek",
-        "Martin Luther King Jr.’ın vaazlarını dinlemek"
+        "Anıt alanını gezmek",
+        "Irkçı linç tarihini öğrenmek",
+        "Çelik anıtları incelemek",
+        "Heykel ve sanat eserlerini görmek",
+        "Amerikan tarihindeki ırksal şiddeti anlamak"
       ],
       "en": [
-        "Learn about the church’s history",
-        "Listen to Martin Luther King Jr.’s sermons"
+        "Explore the memorial",
+        "Learn about the history of racial terror lynching",
+        "View the steel monuments",
+        "See the sculptures and artworks",
+        "Learn about racial violence in American history"
       ],
       "de": [
-        "Mehr über die Geschichte der Kirche erfahren",
-        "Die Predigten von Martin Luther King Jr. hören"
+        "Das Memorial erkunden",
+        "Die Geschichte rassistischer Lynchgewalt kennenlernen",
+        "Die Stahlmonumente betrachten",
+        "Skulpturen und Kunstwerke ansehen",
+        "Rassistische Gewalt in der amerikanischen Geschichte verstehen"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "anıt",
+        "tarih",
+        "sivil haklar",
+        "kültür"
       ],
       "en": [
-        "church"
+        "monument",
+        "history",
+        "civil rights",
+        "culture"
       ],
       "de": [
-        "kirche"
+        "Denkmal",
+        "Geschichte",
+        "Bürgerrechte",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/dexter_avenue_baptist_church.jpg"
+      "https://www.lampartners.com/wp-content/uploads/2021/05/16003_n20_medium.jpg",
+      "https://www.lampartners.com/wp-content/uploads/2021/05/16003_n20_medium.jpg"
+    ]
+  },
+  {
+    "slug": "montgomery-square",
+    "name": {
+      "tr": "Montgomery Square",
+      "en": "Montgomery Square",
+      "de": "Montgomery Square"
+    },
+    "latitude": 32.37486,
+    "longitude": -86.31455,
+    "description": {
+      "tr": "Montgomery Square, 2026 yılında Equal Justice Initiative tarafından açılan yeni bir Legacy Sites alanıdır ve Montgomery'nin 1955-1965 arasındaki sivil haklar tarihine odaklanır. Alan, Montgomery Otobüs Boykotu'nun başlamasından 1965 Selma-Montgomery Yürüyüşü'ne kadar uzanan ve Amerikan siyasi tarihini değiştiren on yıllık dönemi anlatır. Montgomery Square'in konumu özellikle önemlidir; alan, 1965'te Selma'dan gelen yürüyüşçülerin Montgomery'deki tarihî yürüyüş rotasının son bölümüne yakın bir konumda bulunur. Açık hava alanında heykeller, tarihî fotoğraflar, bilgi panoları ve Montgomery'deki sivil haklar mücadelesinin daha az bilinen isimlerine ilişkin içerikler bulunur. EJI, alanı Legacy Museum, National Memorial for Peace and Justice ve Freedom Monument Sculpture Park ile birlikte kendi Legacy Sites ağı içinde değerlendirir. 2026'da açıldığı için eski Montgomery gezi listelerinde bulunmayabilir. Şehrin daha bilinen Rosa Parks, Martin Luther King Jr. ve Selma-Montgomery yürüyüşü hikâyelerini daha geniş bir tarihsel çerçevede görmek isteyen ziyaretçiler için yeni ve önemli bir duraktır.",
+      "en": "Montgomery Square is a new Legacy Site opened by the Equal Justice Initiative in 2026 and dedicated to Montgomery's pivotal civil rights decade from 1955 to 1965. The site explores the period beginning with the Montgomery Bus Boycott and continuing through the 1965 Selma-to-Montgomery voting rights march. Its location is historically significant because it sits near the final portion of the historic march route into Montgomery. The mostly outdoor site combines sculpture, photography, historical interpretation and research about the people and events that shaped Montgomery during this transformative decade. Montgomery Square forms part of EJI's Legacy Sites network alongside the Legacy Museum, National Memorial for Peace and Justice and Freedom Monument Sculpture Park. Because it opened in 2026, it may be missing from older travel guides and attraction lists. For visitors who already plan to explore Rosa Parks-related sites, Dexter Avenue and the Civil Rights Memorial, Montgomery Square provides additional context about the broader community activism that transformed Montgomery and influenced the national Civil Rights Movement.",
+      "de": "Montgomery Square ist ein 2026 von der Equal Justice Initiative eröffnetes neues Legacy Site und widmet sich dem entscheidenden Bürgerrechtsjahrzehnt von 1955 bis 1965. Der Ort behandelt die Zeit vom Beginn des Montgomery Bus Boycott bis zum Selma-to-Montgomery-Marsch für das Wahlrecht im Jahr 1965. Seine Lage ist historisch bedeutsam, da sich das Gelände in der Nähe des letzten Abschnitts der historischen Marschroute nach Montgomery befindet. Der überwiegend im Freien gelegene Bereich verbindet Skulpturen, Fotografien, historische Informationen und neue Forschung über Menschen und Ereignisse, die diese entscheidende Phase geprägt haben. Montgomery Square gehört zum Legacy-Sites-Netzwerk der Equal Justice Initiative und ergänzt das Legacy Museum, das National Memorial for Peace and Justice und den Freedom Monument Sculpture Park. Da die Anlage erst 2026 eröffnet wurde, fehlt sie möglicherweise noch in älteren Reiseführern. Für Besucher, die bereits die Orte rund um Rosa Parks, Dexter Avenue und das Civil Rights Memorial erkunden, bietet Montgomery Square einen erweiterten Blick auf die lokale Bürgerrechtsbewegung."
+    },
+    "activities": {
+      "tr": [
+        "Açık hava alanını keşfetmek",
+        "Sivil haklar heykellerini görmek",
+        "1955-1965 dönemini öğrenmek",
+        "Tarihî fotoğrafları incelemek",
+        "Selma-Montgomery yürüyüşünün tarihini keşfetmek"
+      ],
+      "en": [
+        "Explore the outdoor site",
+        "See civil rights sculptures",
+        "Learn about 1955-1965",
+        "View historical photographs",
+        "Explore the history of the Selma-to-Montgomery March"
+      ],
+      "de": [
+        "Den Außenbereich erkunden",
+        "Skulpturen zur Bürgerrechtsgeschichte sehen",
+        "Mehr über die Jahre 1955-1965 erfahren",
+        "Historische Fotografien betrachten",
+        "Die Geschichte des Selma-to-Montgomery-Marsches kennenlernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "anıt",
+        "sivil haklar",
+        "kültür"
+      ],
+      "en": [
+        "history",
+        "monument",
+        "civil rights",
+        "culture"
+      ],
+      "de": [
+        "Geschichte",
+        "Denkmal",
+        "Bürgerrechte",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://wpcdn.us-east-1.vip.tn-cloud.net/www.waka.com/content/uploads/2026/03/c/j/montgomery-square-photo-credit-equal-justice-initiative-human-pictures-2048x1026.png"
     ]
   }
 ]

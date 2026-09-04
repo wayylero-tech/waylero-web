@@ -1,45 +1,611 @@
 [
   {
-    "slug": "saguaro-national-park",
+    "slug": "old-town-scottsdale",
     "name": {
-      "tr": "Saguaro National Park",
-      "en": "Saguaro National Park",
-      "de": "Saguaro Nationalpark"
+      "tr": "Old Town Scottsdale",
+      "en": "Old Town Scottsdale",
+      "de": "Old Town Scottsdale"
     },
-    "latitude": 32.2967,
-    "longitude": -111.543,
+    "latitude": 33.4938,
+    "longitude": -111.9261,
     "description": {
-      "tr": "Saguaro National Park, dev Saguaro kaktüsleriyle ünlüdür ve bölgenin eşsiz çöl manzaralarını sunar. Ziyaretçiler, parkta yürüyüş yaparak bu ikonik bitkileri görebilirler.",
-      "en": "Saguaro National Park is famous for its giant Saguaro cacti and offers stunning desert landscapes. Visitors can hike through the park to see these iconic plants.",
-      "de": "Der Saguaro Nationalpark ist berühmt für seine riesigen Saguaro-Kakteen und bietet atemberaubende Wüstenlandschaften. Besucher können durch den Park wandern, um diese ikonischen Pflanzen zu sehen."
+      "tr": "Old Town Scottsdale, Scottsdale'ın tarihi, kültürel ve turistik merkezidir. Yaklaşık bir mil karelik yürünebilir alanda tarihi yapılar, sanat galerileri, restoranlar, kafeler, butik mağazalar, müzeler, gece hayatı ve açık hava sanat eserleri bir arada bulunur. Bölgenin tarihi 19. yüzyılın sonlarına kadar uzanır ve günümüzde Eski Batı atmosferi ile modern şehir yaşamını birleştirir. Historic Old Town bölgesinde Batı tarzı mağazalar, yerel işletmeler ve tarihi yapılar öne çıkar. Arts District ise sanat galerileri, müzeler ve Scottsdale ArtWalk etkinliğiyle dikkat çeker. Ziyaret sırasında Main Street ve çevresindeki galerileri gezmek, tarihi sokaklarda yürümek, yerel restoranlarda yemek yemek ve bölgedeki kamu sanat eserlerini keşfetmek mümkündür. Old Town aynı zamanda Scottsdale'ın alışveriş açısından en yoğun bölgelerinden biridir. Cumartesi günleri kurulan farmers market da özellikle yerel ürünleri görmek isteyenler için farklı bir deneyim sunar. Bölge doğa parkından çok şehir gezisi, sanat, tarih, alışveriş ve gastronomi odaklı bir destinasyondur.",
+      "en": "Old Town Scottsdale is the historic, cultural, commercial and tourism center of Scottsdale. Within roughly one square mile of walkable districts, visitors can find historic buildings, art galleries, restaurants, cafés, boutique shops, museums, nightlife and public art. The area's history reaches back to the late nineteenth century, while its present-day identity combines Old West character with modern urban life. Historic Old Town is known for Western-style shops, locally owned businesses and preserved historic buildings. The Arts District is home to galleries, museums and the popular Scottsdale ArtWalk. Visitors can explore Main Street and nearby galleries, walk through the historic streets, enjoy restaurants and discover public art installations. Old Town is also one of Scottsdale's main shopping areas, with a wide range of independent stores and boutiques. The Saturday farmers market adds another attraction for visitors interested in local produce and food. Rather than being a nature destination, Old Town Scottsdale is best suited to visitors interested in history, art, shopping, dining and urban sightseeing.",
+      "de": "Old Town Scottsdale ist das historische, kulturelle, kommerzielle und touristische Zentrum von Scottsdale. Auf einer ungefähr eine Quadratmeile großen, gut zu Fuß erkundbaren Fläche befinden sich historische Gebäude, Kunstgalerien, Restaurants, Cafés, Boutiquen, Museen, Nachtleben und öffentliche Kunstwerke. Die Geschichte des Viertels reicht bis ins späte 19. Jahrhundert zurück. Heute verbindet Old Town den Charakter des amerikanischen Westens mit einem modernen Stadtleben. Im Historic Old Town findet man Geschäfte im Western-Stil, lokale Unternehmen und historische Gebäude. Das Arts District ist für seine Galerien, Museen und den Scottsdale ArtWalk bekannt. Besucher können entlang der Main Street spazieren, Galerien besuchen, historische Gebäude entdecken und in Restaurants regionale sowie internationale Küche probieren. Old Town gehört außerdem zu den wichtigsten Einkaufsgebieten von Scottsdale. Der samstägliche Farmers Market bietet zusätzlich lokale Produkte und Lebensmittel. Das Viertel eignet sich daher vor allem für Stadtbesichtigungen, Geschichte, Kunst, Shopping und Gastronomie und weniger für klassische Naturerlebnisse."
     },
     "activities": {
       "tr": [
-        "Yürüyüş yapmak",
-        "Kaktüsleri keşfetmek"
+        "Tarihi sokakları keşfetmek",
+        "Sanat galerilerini gezmek",
+        "Alışveriş yapmak",
+        "Restoranları ve kafeleri keşfetmek",
+        "Kamu sanat eserlerini görmek"
       ],
       "en": [
-        "Hike",
-        "Explore cacti"
+        "Explore historic streets",
+        "Visit art galleries",
+        "Go shopping",
+        "Explore restaurants and cafés",
+        "See public art"
       ],
       "de": [
-        "Wandern",
-        "Kakteen erkunden"
+        "Historische Straßen erkunden",
+        "Kunstgalerien besuchen",
+        "Einkaufen",
+        "Restaurants und Cafés entdecken",
+        "Öffentliche Kunstwerke ansehen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "tarih",
+        "kültür",
+        "alışveriş"
       ],
       "en": [
-        "nature"
+        "historic",
+        "culture",
+        "shopping"
       ],
       "de": [
-        "Natur"
+        "historisch",
+        "kultur",
+        "shopping"
       ]
     },
     "images": [
-      "https://example.com/saguaro_national_park.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Town_Scottsdale.jpg",
+      "https://scottsdalesbest.com/wp-content/uploads/2023/10/Old-Town-Scottsdale-2.jpg"
+    ]
+  },
+  {
+    "slug": "scottsdale-museum-of-contemporary-art",
+    "name": {
+      "tr": "Scottsdale Çağdaş Sanat Müzesi",
+      "en": "Scottsdale Museum of Contemporary Art",
+      "de": "Scottsdale Museum of Contemporary Art"
+    },
+    "latitude": 33.4917,
+    "longitude": -111.9230,
+    "description": {
+      "tr": "Scottsdale Museum of Contemporary Art, kısaca SMoCA, Scottsdale şehir merkezindeki Civic Center bölgesinde çağdaş sanat, mimari ve tasarıma odaklanan bir müzedir. Müze 1999 yılında kurulmuş ve farklı dönemlerden sanatçıların eserlerini, geçici sergileri ve çağdaş tasarım çalışmalarını ziyaretçilere sunmuştur. Yapının kendisi de sade ve modern mimarisiyle dikkat çeker. Müze ziyaretinde yalnızca sergilenen sanat eserleri değil, binanın geometrik tasarımı ve çevresindeki peyzaj da görülebilir. SMoCA, Old Town Scottsdale içinde yer aldığı için bölgedeki galeriler, restoranlar ve diğer kültürel noktalarla aynı gezi planına kolayca eklenebilir. Güncel ziyaret bilgilerinde müze çarşamba, cuma, cumartesi ve pazar günleri 11.00-17.00, perşembe günleri ise 11.00-19.00 arasında açıktır; pazartesi ve salı kapalıdır. Bilet fiyatları dönemsel olarak değişebileceğinden ziyaret öncesinde güncel tarifeye bakılması gerekir.",
+      "en": "The Scottsdale Museum of Contemporary Art, commonly known as SMoCA, is a museum in downtown Scottsdale's Civic Center area dedicated to contemporary art, architecture and design. Founded in 1999, the museum presents works by artists from different periods alongside temporary exhibitions and contemporary design projects. The building itself is also notable for its minimalist modern architecture. A visit therefore combines exhibitions with an appreciation of the building's geometric design and surrounding landscape. Because SMoCA is located within Old Town Scottsdale, it can easily be combined with nearby galleries, restaurants and other cultural attractions. Current visitor information lists opening hours of 11 a.m. to 5 p.m. on Wednesdays, Fridays, Saturdays and Sundays, and 11 a.m. to 7 p.m. on Thursdays. The museum is closed on Mondays, Tuesdays and major holidays. Admission prices can change, so visitors should check the current rate before visiting.",
+      "de": "Das Scottsdale Museum of Contemporary Art, kurz SMoCA, befindet sich im Civic-Center-Gebiet im Zentrum von Scottsdale und widmet sich zeitgenössischer Kunst, Architektur und Design. Das Museum wurde 1999 gegründet und zeigt Werke verschiedener Künstler sowie wechselnde Ausstellungen und zeitgenössische Designprojekte. Auch das Museumsgebäude selbst ist wegen seiner minimalistischen und modernen Architektur interessant. Bei einem Besuch lassen sich daher Kunstwerke, Architektur und die gestaltete Umgebung miteinander verbinden. Durch seine Lage in Old Town Scottsdale kann das Museum problemlos mit Galerien, Restaurants und weiteren kulturellen Sehenswürdigkeiten kombiniert werden. Nach den aktuellen Besucherinformationen ist das Museum mittwochs, freitags, samstags und sonntags von 11 bis 17 Uhr sowie donnerstags von 11 bis 19 Uhr geöffnet. Montags, dienstags und an wichtigen Feiertagen bleibt es geschlossen. Eintrittspreise können sich ändern und sollten vor dem Besuch überprüft werden."
+    },
+    "activities": {
+      "tr": [
+        "Çağdaş sanat sergilerini gezmek",
+        "Mimariyi incelemek",
+        "Tasarım eserlerini görmek",
+        "Geçici sergileri keşfetmek"
+      ],
+      "en": [
+        "Explore contemporary art exhibitions",
+        "Admire the architecture",
+        "See design works",
+        "Discover temporary exhibitions"
+      ],
+      "de": [
+        "Ausstellungen zeitgenössischer Kunst besuchen",
+        "Architektur entdecken",
+        "Designwerke ansehen",
+        "Wechselausstellungen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "sanat",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "art",
+        "culture"
+      ],
+      "de": [
+        "museum",
+        "kunst",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://images.trvl-media.com/place/6085781/c884dc43-919f-445b-9fff-784c122735fa.jpg"
+    ]
+  },
+  {
+    "slug": "mcdowell-sonoran-preserve",
+    "name": {
+      "tr": "McDowell Sonoran Preserve",
+      "en": "McDowell Sonoran Preserve",
+      "de": "McDowell Sonoran Preserve"
+    },
+    "latitude": 33.64895,
+    "longitude": -111.85916,
+    "description": {
+      "tr": "McDowell Sonoran Preserve, Scottsdale'ın kuzey ve kuzeydoğusunda uzanan devasa bir Sonoran Çölü koruma alanıdır. Belediye tarafından korunan alan 30.500 acre'den fazla bir büyüklüğe ve 230 milden fazla çok amaçlı parkura sahiptir. Parkurlar yürüyüşçüler, bisikletliler ve atlılar tarafından kullanılabilir. Çöl bitkileri, kayalık dağ yamaçları, saguarolar ve çeşitli yaban hayatı alanın temel özelliklerindendir. Gateway, Tom's Thumb, Sunrise, Lost Dog Wash ve Brown's Ranch gibi çok sayıda trailhead farklı zorluk seviyelerinde rotalara erişim sağlar. Gateway Trailhead'de gölgelik alanlar, su, tuvaletler ve erişilebilir Bajada Nature Trail bulunur. Koruma alanına giriş ücretsizdir ve genel olarak gün doğumundan gün batımına kadar açıktır. Scottsdale Belediyesi özellikle sıcak havalarda ziyaretçilerin erken saatlerde veya günün daha serin dönemlerinde yürüyüş yapmasını öneriyor. Çöl ortamında su, güneş koruması ve uygun ayakkabı önemlidir. Bu nedenle bölge kısa bir yürüyüşten uzun doğa parkurlarına kadar farklı açık hava deneyimleri sunar.",
+      "en": "McDowell Sonoran Preserve is a vast protected Sonoran Desert landscape in northern and northeastern Scottsdale. The preserve encompasses more than 30,500 acres and over 230 miles of multi-use trails. Routes are available for hikers, cyclists and equestrians. Desert vegetation, rocky mountain slopes, saguaros and diverse wildlife are among its defining features. Multiple trailheads, including Gateway, Tom's Thumb, Sunrise, Lost Dog Wash and Brown's Ranch, provide access to trails of different lengths and difficulty levels. Gateway Trailhead includes shade ramadas, water, restrooms and access to the accessible Bajada Nature Trail. Entrance to the preserve is free and the preserve generally operates from sunrise to sunset. Scottsdale officials emphasize that desert heat can be dangerous and recommend visiting during cooler parts of the day, carrying sufficient water and using sun protection. The preserve is therefore suitable for visitors looking for anything from short nature walks to longer desert hikes, with scenery that highlights the rugged character of the Sonoran Desert.",
+      "de": "Das McDowell Sonoran Preserve ist ein weitläufiges Schutzgebiet der Sonora-Wüste im Norden und Nordosten von Scottsdale. Das Schutzgebiet umfasst mehr als 30.500 Acres und über 230 Meilen an Mehrzweckwegen. Die Wege können von Wanderern, Radfahrern und Reitern genutzt werden. Typisch sind die Wüstenvegetation, felsige Berghänge, Saguaros und verschiedene Wildtiere. Mehrere Ausgangspunkte wie Gateway, Tom's Thumb, Sunrise, Lost Dog Wash und Brown's Ranch ermöglichen den Zugang zu unterschiedlich langen und anspruchsvollen Wegen. Am Gateway Trailhead gibt es Schattenplätze, Wasser, Toiletten und Zugang zum barrierearmen Bajada Nature Trail. Der Eintritt in das Schutzgebiet ist kostenlos und es ist grundsätzlich von Sonnenaufgang bis Sonnenuntergang geöffnet. Aufgrund der extremen Wüstenhitze empfiehlt die Stadt Scottsdale, die Wanderungen in den kühleren Tageszeiten zu unternehmen und ausreichend Wasser sowie Sonnenschutz mitzunehmen. Das Gebiet eignet sich sowohl für kurze Spaziergänge als auch für längere Wanderungen durch die Sonora-Wüste."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü yapmak",
+        "Bisiklete binmek",
+        "Yaban hayatını gözlemlemek",
+        "Çöl manzaralarını fotoğraflamak",
+        "Atlı parkurları keşfetmek"
+      ],
+      "en": [
+        "Hike",
+        "Cycle",
+        "Observe wildlife",
+        "Photograph desert landscapes",
+        "Explore equestrian trails"
+      ],
+      "de": [
+        "Wandern",
+        "Radfahren",
+        "Wildtiere beobachten",
+        "Wüstenlandschaften fotografieren",
+        "Reitwege erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "yürüyüş"
+      ],
+      "en": [
+        "nature",
+        "hiking"
+      ],
+      "de": [
+        "natur",
+        "wandern"
+      ]
+    },
+    "images": [
+      "https://www.experiencescottsdale.com/stories/post/gateway-to-the-sonoran-desert/"
+    ]
+  },
+  {
+    "slug": "taliesin-west",
+    "name": {
+      "tr": "Taliesin West",
+      "en": "Taliesin West",
+      "de": "Taliesin West"
+    },
+    "latitude": 33.6011,
+    "longitude": -111.8495,
+    "description": {
+      "tr": "Taliesin West, ünlü Amerikalı mimar Frank Lloyd Wright'ın Scottsdale'daki kışlık evi, stüdyosu ve mimarlık laboratuvarıdır. Yapı 1937 yılında oluşturulmaya başlanmış ve Wright ile çırakları tarafından yıllar boyunca geliştirilmiştir. Yerel taş, ahşap ve çöl malzemelerinin kullanıldığı yapı, çevredeki McDowell Dağları ve Sonoran Çölü ile bütünleşecek şekilde tasarlanmıştır. Düşük yatay çizgiler, açık alanlar, teraslar, taş duvarlar ve doğal ışık kullanımı Wright'ın organik mimari anlayışını burada açık biçimde gösterir. Taliesin West, Frank Lloyd Wright'ın 20. yüzyıl mimarisi koleksiyonunun parçası olarak UNESCO Dünya Mirası Listesi'nde yer alır ve aynı zamanda National Historic Landmark statüsündedir. Ziyaretçiler farklı rehberli ve sesli turlar aracılığıyla kompleksi keşfedebilir. Çöl ortamında bulunan alan için özellikle sıcak aylarda yürüyüş koşullarına dikkat etmek gerekir. Mimariye ilgi duyanlar için Scottsdale'ın en önemli kültürel duraklarından biridir.",
+      "en": "Taliesin West is the Scottsdale winter home, studio and architectural laboratory of renowned American architect Frank Lloyd Wright. Construction began in 1937 and the complex was developed over many years by Wright and his apprentices. Local stone, wood and desert materials were used to create buildings that respond closely to the surrounding McDowell Mountains and Sonoran Desert. Low horizontal forms, open spaces, terraces, masonry walls and carefully controlled natural light demonstrate Wright's organic approach to architecture. Taliesin West forms part of the collection of twentieth-century Frank Lloyd Wright architecture inscribed on the UNESCO World Heritage List and is also designated a National Historic Landmark. Visitors can explore the complex through different guided and audio-tour experiences. Because the site is set within the desert landscape, visitors should consider heat and walking conditions, especially during warmer months. For architecture enthusiasts, Taliesin West is one of Scottsdale's most significant cultural attractions.",
+      "de": "Taliesin West ist das Winterhaus, Studio und Architekturlabor des berühmten amerikanischen Architekten Frank Lloyd Wright in Scottsdale. Die Anlage wurde ab 1937 errichtet und über viele Jahre von Wright und seinen Schülern weiterentwickelt. Lokaler Stein, Holz und Materialien aus der Wüstenlandschaft wurden verwendet, um die Gebäude eng mit den McDowell Mountains und der Sonora-Wüste zu verbinden. Niedrige horizontale Formen, offene Bereiche, Terrassen, Natursteinmauern und natürliches Licht zeigen Wrights organische Architektur deutlich. Taliesin West gehört zur Sammlung von acht Bauwerken Frank Lloyd Wrights, die auf der UNESCO-Welterbeliste stehen, und ist außerdem als National Historic Landmark ausgewiesen. Besucher können die Anlage mit verschiedenen Führungen und Audiotouren erkunden. Da sich das Gelände in der Wüste befindet, sollten besonders in den warmen Monaten Hitze und Gehstrecken berücksichtigt werden. Für Architekturinteressierte gehört Taliesin West zu den bedeutendsten kulturellen Sehenswürdigkeiten von Scottsdale."
+    },
+    "activities": {
+      "tr": [
+        "Mimariyi keşfetmek",
+        "Rehberli tura katılmak",
+        "Frank Lloyd Wright'ın çalışmalarını incelemek",
+        "Tarihi yapıları fotoğraflamak"
+      ],
+      "en": [
+        "Explore the architecture",
+        "Join a guided tour",
+        "Study Frank Lloyd Wright's work",
+        "Photograph the historic buildings"
+      ],
+      "de": [
+        "Architektur entdecken",
+        "An einer Führung teilnehmen",
+        "Frank Lloyd Wrights Werke kennenlernen",
+        "Historische Gebäude fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "mimari",
+        "kültür"
+      ],
+      "en": [
+        "historic",
+        "architecture",
+        "culture"
+      ],
+      "de": [
+        "historisch",
+        "architektur",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://cdn.prod.website-files.com/636be92588cd42dd3b0d9ee3/63be15ca55a6564f1c61783e_20150504_113456-1024x576.jpg"
+    ]
+  },
+  {
+    "slug": "scottsdale-waterfront",
+    "name": {
+      "tr": "Scottsdale Waterfront",
+      "en": "Scottsdale Waterfront",
+      "de": "Scottsdale Waterfront"
+    },
+    "latitude": 33.4998,
+    "longitude": -111.9283,
+    "description": {
+      "tr": "Scottsdale Waterfront, Old Town Scottsdale'ın içinden geçen Arizona Canal çevresinde gelişen yürüyüş, alışveriş, restoran ve kamusal sanat alanıdır. Bölge geleneksel anlamda bir göl veya nehir kıyısı değildir; Arizona Canal boyunca düzenlenmiş kentsel bir waterfront alanıdır. Yaya yolları, restoranlar, kafeler, butik mağazalar ve kamu sanat eserleri burada bir araya gelir. Özellikle Waterfront ve Southbridge bölgeleri, Old Town gezisinin bir parçası olarak keşfedilebilir. Kanal çevresinde yürüyüş yapmak, restoranlarda yemek yemek ve çevredeki sanat eserlerini incelemek popüler aktiviteler arasındadır. Bölgede dönemsel olarak Canal Convergence gibi kamusal sanat etkinlikleri de düzenlenir. Scottsdale Waterfront'ın konumu Old Town'ın merkezine yakın olduğu için arabaya ihtiyaç duymadan diğer şehir merkezindeki turistik noktalara geçmek mümkündür. Fotoğraf açısından özellikle gün batımı ve akşam saatlerinde kanal, ışıklandırılmış binalar ve çevredeki yürüyüş yolları ilgi çekici görüntüler oluşturabilir.",
+      "en": "Scottsdale Waterfront is an urban waterfront area developed along the Arizona Canal in Old Town Scottsdale. It is not a traditional lake or riverfront but a landscaped city area combining pedestrian paths, restaurants, cafés, boutiques and public art along the canal. The Waterfront and Southbridge districts can easily be included in a walking itinerary through Old Town. Visitors can walk beside the canal, stop at restaurants and cafés, browse nearby shops and discover public art installations. Seasonal public art events such as Canal Convergence can also bring interactive installations and performances to the area. Because Scottsdale Waterfront is close to the core of Old Town, it can be combined with museums, galleries and historic streets without requiring a separate trip across the city. The canal, surrounding buildings and pedestrian areas can also provide attractive photography opportunities, particularly around sunset and after dark when the area is illuminated.",
+      "de": "Scottsdale Waterfront ist ein urbanes Ufergebiet entlang des Arizona Canal in Old Town Scottsdale. Es handelt sich nicht um ein traditionelles See- oder Flussufer, sondern um einen gestalteten Stadtbereich mit Fußwegen, Restaurants, Cafés, Boutiquen und öffentlicher Kunst entlang des Kanals. Die Waterfront- und Southbridge-Viertel lassen sich problemlos in einen Rundgang durch Old Town integrieren. Besucher können am Kanal spazieren, in Restaurants und Cafés einkehren, Geschäfte besuchen und Kunstinstallationen entdecken. Saisonale Veranstaltungen wie Canal Convergence bringen außerdem interaktive Kunstinstallationen und Aufführungen in das Gebiet. Durch die zentrale Lage kann Scottsdale Waterfront mit Museen, Galerien und historischen Straßen von Old Town kombiniert werden. Für Fotografen bieten der Kanal, die umliegenden Gebäude und die beleuchteten Wege besonders am Abend interessante Motive."
+    },
+    "activities": {
+      "tr": [
+        "Kanal boyunca yürümek",
+        "Restoran ve kafeleri keşfetmek",
+        "Alışveriş yapmak",
+        "Kamu sanat eserlerini görmek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Walk along the canal",
+        "Explore restaurants and cafés",
+        "Go shopping",
+        "See public art",
+        "Take photographs"
+      ],
+      "de": [
+        "Am Kanal spazieren",
+        "Restaurants und Cafés entdecken",
+        "Einkaufen",
+        "Öffentliche Kunst ansehen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir",
+        "kültür",
+        "alışveriş"
+      ],
+      "en": [
+        "urban",
+        "culture",
+        "shopping"
+      ],
+      "de": [
+        "stadt",
+        "kultur",
+        "shopping"
+      ]
+    },
+    "images": [
+      "https://www.welikela.com/wp-content/uploads/2018/02/downtown-scottsdale-waterfront.jpg"
+    ]
+  },
+  {
+    "slug": "desert-botanical-garden",
+    "name": {
+      "tr": "Desert Botanical Garden",
+      "en": "Desert Botanical Garden",
+      "de": "Desert Botanical Garden"
+    },
+    "latitude": 33.4606,
+    "longitude": -111.9442,
+    "description": {
+      "tr": "Phoenix'teki Desert Botanical Garden, Sonoran Çölü başta olmak üzere dünyanın farklı çöl bölgelerine ait bitkileri sergileyen 140 acre büyüklüğünde bir botanik bahçesidir. Bahçede 50.000'den fazla bitki sergilenir ve koleksiyonda binlerce farklı tür bulunur. Ziyaretçiler tematik yürüyüş parkurlarında kaktüsleri, agavları, çöl ağaçlarını ve diğer kurak iklim bitkilerini yakından görebilir. Bahçe yalnızca bitki sergileme alanı değil, aynı zamanda araştırma, koruma ve eğitim çalışmalarının yürütüldüğü bir kurumdur. Beş ana tematik parkur farklı bölümleri birbirine bağlar. Yaz aylarında Phoenix sıcaklığı nedeniyle ziyaret saatleri ve bazı parkur koşulları değişebilir. Güncel resmi bilgilerde bahçe günlük olarak açık tutulmakta ve dönemsel olarak erken sabah veya akşam etkinlikleri düzenlenmektedir. Özellikle kaktüs ve agav koleksiyonları, çöl manzaraları ve gün batımı ışığı fotoğraf açısından dikkat çekicidir. Phoenix'te doğa ve botanik odaklı bir gezi yapmak isteyenler için şehrin en önemli duraklarından biridir.",
+      "en": "Desert Botanical Garden in Phoenix is a 140-acre botanical garden showcasing plants from the world's desert regions, with a strong emphasis on the Sonoran Desert. More than 50,000 plants are displayed across the garden, representing thousands of species. Visitors can follow thematic trails to see cacti, agaves, desert trees and other plants adapted to arid environments. The garden is more than a visitor attraction; it is also an institution focused on research, conservation and education. Five thematic trails connect different areas of the garden. During the hot Phoenix summer, opening times and trail conditions can vary, while seasonal early-morning and evening experiences are also offered. The cactus and agave collections, desert scenery and changing light around sunset make the garden especially attractive for photography. For visitors interested in desert ecology, plants and outdoor experiences, Desert Botanical Garden is one of Phoenix's most important attractions.",
+      "de": "Der Desert Botanical Garden in Phoenix ist ein 140 Acre großer botanischer Garten, der Pflanzen aus den Wüstenregionen der Welt zeigt und einen besonderen Schwerpunkt auf die Sonora-Wüste legt. Mehr als 50.000 Pflanzen aus Tausenden Arten werden im Garten präsentiert. Auf thematischen Wegen können Besucher Kakteen, Agaven, Wüstenbäume und andere an trockene Lebensräume angepasste Pflanzen entdecken. Der Garten ist nicht nur eine touristische Sehenswürdigkeit, sondern auch eine Einrichtung für Forschung, Naturschutz und Bildung. Fünf thematische Wege verbinden die verschiedenen Bereiche. Während der heißen Sommermonate in Phoenix können Öffnungszeiten und Bedingungen auf den Wegen variieren; zusätzlich werden saisonale Erlebnisse am frühen Morgen oder am Abend angeboten. Besonders die Kakteen- und Agavensammlungen sowie die Wüstenlandschaft bieten interessante Fotomotive. Für Besucher, die sich für Wüstenökologie, Pflanzen und Naturerlebnisse interessieren, gehört der Garten zu den wichtigsten Sehenswürdigkeiten von Phoenix."
+    },
+    "activities": {
+      "tr": [
+        "Çöl bitkilerini keşfetmek",
+        "Botanik parkurlarında yürümek",
+        "Kaktüsleri fotoğraflamak",
+        "Bahçe sergilerini gezmek"
+      ],
+      "en": [
+        "Explore desert plants",
+        "Walk the botanical trails",
+        "Photograph cacti",
+        "Explore garden exhibits"
+      ],
+      "de": [
+        "Wüstenpflanzen entdecken",
+        "Botanische Wege erkunden",
+        "Kakteen fotografieren",
+        "Gartenausstellungen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "botanik"
+      ],
+      "en": [
+        "nature",
+        "botanical"
+      ],
+      "de": [
+        "natur",
+        "botanik"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Desert_Botanical_Garden_Phoenix.jpg"
+    ]
+  },
+  {
+    "slug": "camelback-mountain",
+    "name": {
+      "tr": "Camelback Mountain",
+      "en": "Camelback Mountain",
+      "de": "Camelback Mountain"
+    },
+    "latitude": 33.5236,
+    "longitude": -112.0242,
+    "description": {
+      "tr": "Camelback Mountain, Phoenix bölgesinin en tanınan dağlarından biri ve deneyimli yürüyüşçüler arasında popüler bir zirve rotasıdır. Dağın adı, uzaktan bakıldığında bir devenin başı ve hörgücünü andıran siluetinden gelir. Zirve 2.704 feet yüksekliğindedir ve yukarıdan Phoenix metropol bölgesinin geniş manzaraları görülebilir. Dağa çıkan iki ana rota Echo Canyon Trail ve Cholla Trail'dir. Her iki ana zirve rotası da Phoenix Belediyesi tarafından 'Extremely Difficult' olarak sınıflandırılmıştır. Parkurlar dik, kayalık ve büyük ölçüde güneşe açıktır; bazı bölümlerde yürüyüşten çok tırmanış hissi verebilir. Bu nedenle Camelback Mountain sıradan bir şehir parkı yürüyüşü olarak değerlendirilmemelidir. Yeterli su, güneş koruması ve uygun ayakkabı önemlidir. Ayrıca sıcak hava nedeniyle kurtarma vakaları yaşanabildiği için hava koşulları mutlaka kontrol edilmelidir. 2-18 Eylül 2026 arasında Echo Canyon Trail'de otomatik kapı ve parkur ekipmanlarının kurulumu nedeniyle geçici kapanış planlanmıştır.",
+      "en": "Camelback Mountain is one of the best-known mountains in the Phoenix area and a popular summit destination for experienced hikers. Its name comes from the distinctive silhouette that resembles a camel's head and hump when viewed from the Valley. The summit reaches 2,704 feet and offers broad views across the Phoenix metropolitan area. The two principal summit routes are Echo Canyon Trail and Cholla Trail, both of which are rated Extremely Difficult by the City of Phoenix. The routes are steep, rocky and largely exposed to the elements, with some upper sections requiring scrambling or climbing rather than ordinary walking. Camelback should therefore not be treated as an easy city-park hike. Visitors need sufficient water, sun protection and suitable footwear, and weather conditions should be checked carefully because of the desert heat. The City of Phoenix has scheduled a temporary closure of Echo Canyon Trail from September 2 through September 18, 2026, for installation work.",
+      "de": "Der Camelback Mountain gehört zu den bekanntesten Bergen im Raum Phoenix und ist ein beliebtes Gipfelziel für erfahrene Wanderer. Seinen Namen verdankt der Berg seiner charakteristischen Silhouette, die an den Kopf und Höcker eines Kamels erinnert. Der Gipfel liegt auf 2.704 Fuß und bietet weitreichende Ausblicke über den Großraum Phoenix. Die beiden wichtigsten Gipfelwege sind der Echo Canyon Trail und der Cholla Trail. Beide werden von der Stadt Phoenix als 'Extremely Difficult' eingestuft. Die Wege sind steil, felsig und weitgehend der Sonne ausgesetzt; in den oberen Bereichen kann die Route teilweise eher Klettern als normales Wandern erfordern. Camelback sollte deshalb nicht als einfacher Stadtparkweg betrachtet werden. Ausreichend Wasser, Sonnenschutz und geeignetes Schuhwerk sind wichtig. Wegen der Wüstenhitze sollten die Wetterbedingungen vor dem Aufstieg geprüft werden. Vom 2. bis 18. September 2026 ist der Echo Canyon Trail wegen Installationsarbeiten vorübergehend geschlossen."
+    },
+    "activities": {
+      "tr": [
+        "Dağ yürüyüşü yapmak",
+        "Zirveye tırmanmak",
+        "Phoenix manzarasını izlemek",
+        "Doğa fotoğrafçılığı yapmak"
+      ],
+      "en": [
+        "Hike the mountain",
+        "Climb to the summit",
+        "Enjoy Phoenix views",
+        "Take landscape photographs"
+      ],
+      "de": [
+        "Den Berg erwandern",
+        "Zum Gipfel aufsteigen",
+        "Die Aussicht auf Phoenix genießen",
+        "Landschaftsfotografie machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "yürüyüş"
+      ],
+      "en": [
+        "nature",
+        "hiking"
+      ],
+      "de": [
+        "natur",
+        "wandern"
+      ]
+    },
+    "images": [
+      "https://cdn.thecrazytourist.com/wp-content/uploads/2019/11/ccimage-shutterstock_1163025946.jpg"
+    ]
+  },
+  {
+    "slug": "heard-museum",
+    "name": {
+      "tr": "Heard Museum",
+      "en": "Heard Museum",
+      "de": "Heard Museum"
+    },
+    "latitude": 33.4914,
+    "longitude": -112.0710,
+    "description": {
+      "tr": "Phoenix'teki Heard Museum, Amerikan Yerlileri ve özellikle Güneybatı bölgesindeki Indigenous toplulukların sanatını, tarihini ve kültürel mirasını anlatan önemli bir müzedir. Müze 1929 yılında kurulmuş ve koleksiyonlarını zaman içinde genişleterek Amerikan Yerlilerinin geleneksel ve çağdaş sanatlarını bir araya getirmiştir. Ziyaretçiler galerilerde seramik, tekstil, takı, heykel, resim, fotoğraf ve tarihî objeler dahil çok çeşitli eserler görebilir. Müzenin kalıcı ve geçici sergileri arasında Güneybatı yerli topluluklarının kültürü, sanat üretimi ve tarihine odaklanan çalışmalar bulunur. Müze ayrıca yıl boyunca kültürel etkinlikler, sanatçı programları, konuşmalar ve eğitim faaliyetleri düzenler. Güncel ziyaret saatleri 1 Eylül-31 Mayıs arasında her gün 10.00-16.00, yaz döneminde ise pazartesi hariç 10.00-16.00 şeklindedir. Phoenix merkezine yakın konumu nedeniyle şehir turuna kolayca eklenebilir. Yerli sanatları, tarih ve kültür hakkında daha derin bilgi edinmek isteyen ziyaretçiler için Phoenix'in öne çıkan müzelerinden biridir.",
+      "en": "The Heard Museum in Phoenix is a major cultural institution dedicated to the art, history and heritage of American Indian peoples, with a particular emphasis on Indigenous communities of the Southwest. Founded in 1929, the museum has expanded its collections over time to include both traditional and contemporary Indigenous art. Visitors can see ceramics, textiles, jewelry, sculpture, paintings, photography and historical objects across its galleries. Permanent and temporary exhibitions explore Indigenous cultures, artistic traditions and historical experiences in the Southwest. The museum also hosts cultural events, artist programs, talks and educational activities throughout the year. Current visitor information lists hours of 10 a.m. to 4 p.m. daily from September 1 through May 31, with Mondays closed during the summer period. Its location near central Phoenix makes it easy to include in a city sightseeing itinerary. The Heard Museum is particularly valuable for travelers who want to understand Indigenous art and cultural history beyond a conventional museum visit.",
+      "de": "Das Heard Museum in Phoenix ist eine bedeutende Kultureinrichtung, die sich der Kunst, Geschichte und dem kulturellen Erbe der amerikanischen Ureinwohner widmet, mit einem besonderen Schwerpunkt auf indigenen Gemeinschaften im Südwesten der USA. Das Museum wurde 1929 gegründet und besitzt heute eine umfangreiche Sammlung traditioneller und zeitgenössischer indigener Kunst. Besucher können Keramik, Textilien, Schmuck, Skulpturen, Gemälde, Fotografien und historische Objekte entdecken. Dauer- und Wechselausstellungen beschäftigen sich mit den Kulturen, künstlerischen Traditionen und historischen Erfahrungen indigener Gemeinschaften im Südwesten. Darüber hinaus finden kulturelle Veranstaltungen, Künstlerprogramme, Vorträge und Bildungsangebote statt. Aktuelle Besucherinformationen nennen Öffnungszeiten von 10 bis 16 Uhr täglich vom 1. September bis 31. Mai; im Sommer ist montags geschlossen. Durch die Lage nahe dem Zentrum von Phoenix lässt sich das Museum gut mit einer Stadtrundfahrt verbinden. Besonders für Besucher, die sich intensiver mit indigener Kunst und Geschichte beschäftigen möchten, ist es eine wichtige Sehenswürdigkeit."
+    },
+    "activities": {
+      "tr": [
+        "Yerli Amerikan sanatını keşfetmek",
+        "Müze galerilerini gezmek",
+        "Kültürel etkinliklere katılmak",
+        "Tarihî eserleri incelemek"
+      ],
+      "en": [
+        "Explore Indigenous art",
+        "Visit museum galleries",
+        "Attend cultural programs",
+        "Study historical objects"
+      ],
+      "de": [
+        "Indigene Kunst entdecken",
+        "Museumsgalerien besuchen",
+        "An Kulturprogrammen teilnehmen",
+        "Historische Objekte ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "kültür",
+        "tarih"
+      ],
+      "en": [
+        "museum",
+        "culture",
+        "history"
+      ],
+      "de": [
+        "museum",
+        "kultur",
+        "geschichte"
+      ]
+    },
+    "images": [
+      "https://cdn.thecollector.com/wp-content/uploads/2024/02/indigenous-art-heard-museum-photo.jpg?quality=55&width=1400"
+    ]
+  },
+  {
+    "slug": "south-mountain-park",
+    "name": {
+      "tr": "South Mountain Park and Preserve",
+      "en": "South Mountain Park and Preserve",
+      "de": "South Mountain Park and Preserve"
+    },
+    "latitude": 33.3031,
+    "longitude": -112.1034,
+    "description": {
+      "tr": "South Mountain Park and Preserve, Phoenix'in güneyinde yer alan 16.000 acre'den büyük dev bir şehir parkı ve doğal koruma alanıdır. Park Ma Ha Tauk, Gila ve Guadalupe olmak üzere üç dağ silsilesinden oluşur ve yürüyüş, dağ bisikleti, binicilik ve manzara seyri için çok sayıda seçenek sunar. Parkın en bilinen noktalarından biri 2.330 feet yükseklikteki Dobbins Lookout'tur. Buradan Phoenix şehir merkezi ve Valley bölgesinin geniş panoramik manzarası görülebilir. Parkta 100 milden fazla parkur bulunur ve farklı zorluk seviyelerinde rotalar vardır. Summit Road araçla ulaşılabilen manzaralı yollardan biridir. Phoenix Belediyesi sıcaklık uyarılarında bazı bölümlerin geçici olarak kapatılabileceğini belirtiyor. Ayrıca ayın belirli pazar günlerinde Silent Sunday uygulaması kapsamında ana yollar motorlu araçlara kapatılarak yürüyüş ve bisiklet kullanımına ayrılır. Büyük alanı ve geniş parkur ağı nedeniyle kısa bir yürüyüşten uzun doğa gezilerine kadar farklı deneyimler sunar.",
+      "en": "South Mountain Park and Preserve is a vast urban park and natural preserve of more than 16,000 acres south of central Phoenix. It consists of three mountain ranges—the Ma Ha Tauk, Gila and Guadalupe—and offers hiking, mountain biking, horseback riding and scenic viewpoints. One of its best-known destinations is Dobbins Lookout at 2,330 feet, where visitors can enjoy broad views across downtown Phoenix and the Valley. The park contains more than 100 miles of trails with routes of varying difficulty. Summit Road provides a scenic drive toward the higher parts of the park. Phoenix officials may restrict access during excessive heat conditions, and visitors should check current conditions before hiking. On selected Sundays, the park also holds Silent Sunday periods during which portions of the main road are closed to motor vehicles and reserved for non-motorized activities. With its extensive trail network and viewpoints, South Mountain can accommodate anything from a short desert walk to a longer outdoor excursion.",
+      "de": "South Mountain Park and Preserve ist ein riesiger Stadtpark und Naturschutzbereich mit mehr als 16.000 Acres südlich des Zentrums von Phoenix. Das Gebiet besteht aus den drei Bergketten Ma Ha Tauk, Gila und Guadalupe und bietet Möglichkeiten zum Wandern, Mountainbiken, Reiten und für Aussichtserlebnisse. Einer der bekanntesten Punkte ist Dobbins Lookout auf 2.330 Fuß Höhe. Von dort eröffnet sich ein weiter Blick über die Innenstadt von Phoenix und das Valley. Das Parkgebiet verfügt über mehr als 100 Meilen Wanderwege unterschiedlicher Schwierigkeitsgrade. Über die Summit Road können Besucher auch mit dem Fahrzeug zu höher gelegenen Bereichen gelangen. Bei extremer Hitze können Teile des Parks eingeschränkt werden, weshalb aktuelle Bedingungen vor einer Wanderung geprüft werden sollten. An bestimmten Sonntagen findet außerdem Silent Sunday statt, bei dem Abschnitte der Hauptstraße für den motorisierten Verkehr geschlossen und für Fußgänger und Radfahrer reserviert werden. Durch die große Fläche eignet sich der Park sowohl für kurze Spaziergänge als auch für längere Outdoor-Touren."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Dağ bisikleti sürmek",
+        "Manzara seyretmek",
+        "At binmek",
+        "Dobbins Lookout'a çıkmak"
+      ],
+      "en": [
+        "Hike",
+        "Mountain bike",
+        "Enjoy scenic views",
+        "Ride horses",
+        "Visit Dobbins Lookout"
+      ],
+      "de": [
+        "Wandern",
+        "Mountainbike fahren",
+        "Aussichten genießen",
+        "Reiten",
+        "Dobbins Lookout besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa",
+        "yürüyüş"
+      ],
+      "en": [
+        "nature",
+        "hiking"
+      ],
+      "de": [
+        "natur",
+        "wandern"
+      ]
+    },
+    "images": [
+      "https://www.visitphoenix.com/things-to-do/outdoors/biking-hiking/south-mountain-park-and-preserve/"
+    ]
+  },
+  {
+    "slug": "musical-instrument-museum",
+    "name": {
+      "tr": "Musical Instrument Museum",
+      "en": "Musical Instrument Museum",
+      "de": "Musical Instrument Museum"
+    },
+    "latitude": 33.6675,
+    "longitude": -111.9786,
+    "description": {
+      "tr": "Phoenix'teki Musical Instrument Museum, dünyanın farklı bölgelerinden müzik aletlerini ve müzik kültürlerini bir araya getiren uluslararası bir müzedir. Müzenin galerileri farklı coğrafi bölgelere ayrılarak dünyanın çeşitli ülkelerindeki müzik geleneklerini tanıtır. Ziyaretçiler binlerce enstrümanı görmenin yanında müzisyenlerin performanslarını ve enstrümanların kullanıldığı kültürel ortamları gösteren görsel ve işitsel içeriklerden yararlanabilir. Müzenin Experience Gallery bölümü ziyaretçilerin bazı müzik aletleriyle etkileşime girmesine olanak tanır. Koleksiyon yalnızca klasik müzik enstrümanlarıyla sınırlı değildir; geleneksel halk çalgılarından modern müzik aletlerine kadar geniş bir yelpazeyi kapsar. Müze ayrıca konserler, eğitim programları ve özel etkinlikler düzenler. Güncel resmi ziyaret bilgilerine göre müze her gün 09.00-17.00 arasında açıktır ve otopark ücretsizdir. Phoenix'in kuzeyindeki konumu nedeniyle şehir merkezinden ayrı bir gezi durağı olarak planlanabilir. Müzik, kültür ve dünya coğrafyasına ilgi duyanlar için Phoenix'teki en farklı müze deneyimlerinden biridir.",
+      "en": "The Musical Instrument Museum in Phoenix is an international museum bringing together musical instruments and music cultures from around the world. Its galleries are organized around geographic regions and introduce musical traditions from different countries. Visitors can see thousands of instruments while also using audiovisual displays that show musicians performing and explain the cultural settings in which instruments are used. The Experience Gallery allows visitors to interact with selected instruments. The collection is not limited to classical instruments; it ranges from traditional folk instruments to modern musical equipment. The museum also hosts concerts, educational programs and special events. According to current official visitor information, the museum is open daily from 9 a.m. to 5 p.m., with free parking. Located in northern Phoenix, it is best planned as a dedicated stop rather than a quick downtown attraction. For travelers interested in music, world cultures and cultural diversity, the Musical Instrument Museum offers one of Phoenix's most distinctive museum experiences.",
+      "de": "Das Musical Instrument Museum in Phoenix ist ein internationales Museum, das Musikinstrumente und Musikkulturen aus aller Welt präsentiert. Die Galerien sind nach geografischen Regionen gegliedert und stellen musikalische Traditionen verschiedener Länder vor. Besucher können Tausende Instrumente sehen und gleichzeitig audiovisuelle Präsentationen nutzen, die Musiker bei Aufführungen zeigen und den kulturellen Kontext der Instrumente erklären. In der Experience Gallery können Besucher ausgewählte Instrumente selbst ausprobieren. Die Sammlung umfasst nicht nur klassische Instrumente, sondern reicht von traditionellen Volksinstrumenten bis zu modernen Musikinstrumenten. Das Museum veranstaltet außerdem Konzerte, Bildungsprogramme und Sonderveranstaltungen. Nach den aktuellen offiziellen Besucherinformationen ist das Museum täglich von 9 bis 17 Uhr geöffnet; Parkplätze sind kostenlos. Aufgrund seiner Lage im Norden von Phoenix eignet es sich eher als eigener Programmpunkt. Für Reisende, die Musik, Weltkulturen und kulturelle Vielfalt entdecken möchten, ist das Museum eine besonders interessante Sehenswürdigkeit."
+    },
+    "activities": {
+      "tr": [
+        "Dünya müzik aletlerini keşfetmek",
+        "Müzik kültürlerini öğrenmek",
+        "Etkileşimli galerileri gezmek",
+        "Konserlere katılmak"
+      ],
+      "en": [
+        "Explore musical instruments",
+        "Learn about music cultures",
+        "Visit interactive galleries",
+        "Attend concerts"
+      ],
+      "de": [
+        "Musikinstrumente entdecken",
+        "Musikkulturen kennenlernen",
+        "Interaktive Galerien besuchen",
+        "Konzerte besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "kültür",
+        "müzik"
+      ],
+      "en": [
+        "museum",
+        "culture",
+        "music"
+      ],
+      "de": [
+        "museum",
+        "kultur",
+        "musik"
+      ]
+    },
+    "images": [
+      "https://phoenixparking.info/wp-content/uploads/2017/09/Musical-Instrument-Museum.jpg"
+    ]
+  },
+  {
+    "slug": "saguaro-national-park",
+    "name": {
+      "tr": "Saguaro National Park",
+      "en": "Saguaro National Park",
+      "de": "Saguaro-Nationalpark"
+    },
+    "latitude": 32.1789,
+    "longitude": -110.6080,
+    "description": {
+      "tr": "Saguaro National Park, Tucson kentinin doğu ve batısında iki ayrı bölüm halinde uzanan ve Amerika'nın en karakteristik kaktüslerinden biri olan dev saguaro kaktüslerini koruyan milli parktır. Park yaklaşık 91.442 acre büyüklüğündedir. Tucson Mountain District batıda, Rincon Mountain District ise doğuda bulunur ve iki bölüm şehir tarafından birbirinden ayrılır. Batı bölümünde yoğun saguaro ormanları öne çıkarken doğu bölümünde Rincon Dağları ve daha yüksek rakımlı ekosistemler bulunur. Parkta yürüyüş parkurları, manzaralı araç yolları, doğa gözlem alanları ve rehberli programlar vardır. Saguaro kaktüsleri parkın en belirgin özelliği olsa da bölgede çok sayıda başka çöl bitkisi ve yaban hayatı da yaşar. Özellikle gün doğumu ve gün batımı sırasında kaktüslerin dağ siluetleriyle oluşturduğu görüntüler fotoğrafçılar için dikkat çekicidir. Tucson'a gelen doğa ve fotoğraf meraklılarının mutlaka değerlendirmesi gereken büyük açık hava alanlarından biridir.",
+      "en": "Saguaro National Park protects the giant saguaro cactus landscapes surrounding Tucson in two separate districts, one east and one west of the city. The park covers approximately 91,442 acres. The Tucson Mountain District lies west of Tucson, while the Rincon Mountain District lies east, with the city separating the two areas. The western district is particularly known for dense stands of saguaros, while the eastern district includes the higher Rincon Mountains and a more varied mountain ecosystem. Visitors can explore hiking trails, scenic drives, overlooks and ranger-led programs. Although the giant saguaro is the park's defining symbol, the desert supports many other plant and animal species. Sunrise and sunset are particularly attractive times for landscape photography, when the cacti stand against the surrounding mountain silhouettes. For travelers interested in desert scenery, hiking, wildlife and photography, Saguaro National Park is one of the most important natural attractions around Tucson.",
+      "de": "Der Saguaro-Nationalpark schützt die Landschaften mit den berühmten riesigen Saguaro-Kakteen rund um Tucson. Der Park besteht aus zwei getrennten Bereichen östlich und westlich der Stadt und umfasst etwa 91.442 Acres. Der Tucson Mountain District liegt westlich von Tucson, während der Rincon Mountain District östlich der Stadt liegt. Der westliche Teil ist besonders für seine dichten Saguaro-Bestände bekannt, während der östliche Teil die höheren Rincon Mountains und vielfältigere Bergökosysteme umfasst. Besucher können Wanderwege, Panoramastraßen, Aussichtspunkte und Rangerprogramme nutzen. Neben den charakteristischen Saguaro-Kakteen gibt es zahlreiche weitere Wüstenpflanzen und Wildtiere. Besonders bei Sonnenaufgang und Sonnenuntergang entstehen eindrucksvolle Fotomotive mit Kakteen und Bergsilhouetten. Für Reisende, die Wüstenlandschaften, Wandern, Tierbeobachtung und Fotografie miteinander verbinden möchten, gehört der Saguaro-Nationalpark zu den wichtigsten Naturzielen rund um Tucson."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "Saguaro kaktüslerini görmek",
+        "Manzaralı yollarda araç kullanmak",
+        "Yaban hayatını gözlemlemek",
+        "Doğa fotoğrafçılığı yapmak"
+      ],
+      "en": [
+        "Hike",
+        "See giant saguaros",
+        "Drive scenic routes",
+        "Observe wildlife",
+        "Photograph desert landscapes"
+      ],
+      "de": [
+        "Wandern",
+        "Große Saguaro-Kakteen sehen",
+        "Panoramastraßen fahren",
+        "Wildtiere beobachten",
+        "Wüstenlandschaften fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "milli park",
+        "doğa",
+        "yürüyüş"
+      ],
+      "en": [
+        "national park",
+        "nature",
+        "hiking"
+      ],
+      "de": [
+        "nationalpark",
+        "natur",
+        "wandern"
+      ]
+    },
+    "images": [
+      "https://npgallery.nps.gov/GetAsset/c1af9375-983c-4b1c-aa72-2feb54462a84/original.jpg"
     ]
   },
   {
@@ -49,40 +615,55 @@
       "en": "Arizona-Sonora Desert Museum",
       "de": "Arizona-Sonora Desert Museum"
     },
-    "latitude": 32.2225,
-    "longitude": -111.0668,
+    "latitude": 32.2463,
+    "longitude": -111.1677,
     "description": {
-      "tr": "Arizona-Sonora Çöl Müzesi, bölgedeki çöl ekosistemini keşfetmek için harika bir yerdir. Ziyaretçiler, çöl bitkileri ve hayvanları hakkında bilgi edinebilir.",
-      "en": "The Arizona-Sonora Desert Museum is a great place to explore the desert ecosystem of the region. Visitors can learn about desert plants and animals.",
-      "de": "Das Arizona-Sonora Desert Museum ist ein großartiger Ort, um das Wüstensystem der Region zu erkunden. Besucher können mehr über Wüstenpflanzen und -tiere erfahren."
+      "tr": "Arizona-Sonora Desert Museum, Tucson'un batısında Sonoran Çölü ekosistemini canlı hayvanlar, bitkiler, akvaryumlar, sanat eserleri ve doğal tarih sergileriyle tanıtan açık hava ağırlıklı bir müze kompleksidir. Yaklaşık 98 acre büyüklüğündeki alanda iki milden fazla yürüyüş yolu bulunur. Müze, geleneksel kapalı müzeden farklı olarak ziyaretçilerin çöl ortamına doğrudan girerek bitkileri ve hayvanları doğal yaşam alanlarına benzer ortamlarda görmesini sağlar. Kurumun koleksiyon ve sergilerinde yüzlerce hayvan türü ile çok sayıda Sonoran Çölü bitkisi yer alır. Akvaryum, kuş alanları, memeliler, sürüngenler, botanik bahçeler ve sanat galerileri ziyaretin farklı bölümlerini oluşturur. Güncel resmi bilgilerde genel yetişkin giriş ücreti 29,95 dolar, 3-12 yaş çocuk bileti 24,95 dolar olarak belirtilmektedir; üyeler, bazı yerel ve özel gruplar için farklı uygulamalar vardır. Müze yıl boyunca açıktır ancak yaz döneminde saatler değişir. Kompleksi rahatça gezmek için en az iki saat ayırmak önerilir.",
+      "en": "The Arizona-Sonora Desert Museum is an outdoor-focused museum complex west of Tucson that presents the Sonoran Desert ecosystem through live animals, plants, aquariums, art and natural-history exhibits. The approximately 98-acre campus contains more than two miles of walking paths. Unlike a conventional indoor museum, visitors move through outdoor habitats designed to showcase desert wildlife and vegetation in naturalistic settings. The institution presents hundreds of animal species and a wide range of Sonoran Desert plants. Aquariums, bird areas, mammals, reptiles, botanical gardens and art galleries form different parts of the experience. Current official information lists general admission at $29.95 for adults and $24.95 for children ages 3-12, with different arrangements for members, Native Americans and certain discounted groups. The museum is open throughout the year, although summer hours differ. The museum recommends allowing at least two hours to experience the grounds. It is one of Tucson's best destinations for visitors wanting to combine wildlife, desert plants and natural history in a single attraction.",
+      "de": "Das Arizona-Sonora Desert Museum ist ein überwiegend im Freien gelegenes Museum westlich von Tucson, das das Ökosystem der Sonora-Wüste mit lebenden Tieren, Pflanzen, Aquarien, Kunst und naturhistorischen Ausstellungen präsentiert. Das etwa 98 Acres große Gelände verfügt über mehr als zwei Meilen Fußwege. Im Gegensatz zu einem klassischen Museum bewegen sich Besucher durch Außenbereiche, die Wüstenpflanzen und Tiere in möglichst natürlichen Lebensräumen zeigen. Zu den Bereichen gehören Aquarien, Vögel, Säugetiere, Reptilien, botanische Gärten und Kunstgalerien. Nach den aktuellen offiziellen Angaben kostet der allgemeine Eintritt für Erwachsene 29,95 US-Dollar und für Kinder von 3 bis 12 Jahren 24,95 US-Dollar; für Mitglieder und bestimmte Gruppen gelten andere Regelungen. Das Museum ist ganzjährig geöffnet, wobei sich die Sommeröffnungszeiten unterscheiden. Für einen vollständigen Besuch werden mindestens zwei Stunden empfohlen. Es ist eines der interessantesten Ziele in Tucson, wenn man Wüstenlandschaft, Tiere, Pflanzen und Naturgeschichte miteinander verbinden möchte."
     },
     "activities": {
       "tr": [
-        "Müze gezisi yapmak",
+        "Çöl hayvanlarını görmek",
+        "Botanik bahçelerini gezmek",
+        "Akvaryumu keşfetmek",
+        "Doğal tarih sergilerini incelemek",
         "Çöl ekosistemini öğrenmek"
       ],
       "en": [
-        "Tour the museum",
+        "See desert animals",
+        "Explore botanical gardens",
+        "Visit the aquarium",
+        "Explore natural-history exhibits",
         "Learn about the desert ecosystem"
       ],
       "de": [
-        "Das Museum besichtigen",
-        "Mehr über das Wüstensystem lernen"
+        "Wüstentiere sehen",
+        "Botanische Gärten erkunden",
+        "Das Aquarium besuchen",
+        "Naturhistorische Ausstellungen ansehen",
+        "Das Wüstenökosystem kennenlernen"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "doğa",
+        "hayvanlar"
       ],
       "en": [
-        "museum"
+        "museum",
+        "nature",
+        "wildlife"
       ],
       "de": [
-        "museum"
+        "museum",
+        "natur",
+        "tiere"
       ]
     },
     "images": [
-      "https://example.com/arizona_sonora_desert_museum.jpg"
+      "https://infoarizona.com/wp-content/uploads/2024/10/desert-museum-arizona.jpg"
     ]
   },
   {
@@ -92,40 +673,49 @@
       "en": "Tucson Mountain Park",
       "de": "Tucson Mountain Park"
     },
-    "latitude": 32.192,
-    "longitude": -111.161,
+    "latitude": 32.2270,
+    "longitude": -111.0844,
     "description": {
-      "tr": "Tucson Dağı Parkı, Tucson'un doğusunda yer alır ve doğal alanları keşfetmek için çeşitli yürüyüş yolları sunar.",
-      "en": "Tucson Mountain Park is located to the east of Tucson and offers several hiking trails to explore the natural landscapes.",
-      "de": "Der Tucson Mountain Park liegt östlich von Tucson und bietet verschiedene Wanderwege, um die natürlichen Landschaften zu erkunden."
+      "tr": "Tucson Mountain Park, Tucson'un doğusunda değil batısında, Tucson Dağları çevresinde uzanan geniş bir doğal rekreasyon alanıdır. Parkın bulunduğu bölge Sonoran Çölü manzaraları, kayalık tepeler ve yoğun saguaro kaktüsleriyle karakterizedir. Parkın çevresinde yürüyüş ve doğa gözlemi için farklı parkurlar bulunur ve Gates Pass gibi noktalar özellikle gün batımı manzaralarıyla tanınır. Tucson Mountain Park aynı zamanda Saguaro National Park'ın batı bölümü ve Arizona-Sonora Desert Museum ile aynı coğrafi çevrede bulunur. Bu nedenle Tucson'un batı yakasında bir günlük doğa rotası oluşturmak isteyenler için birbirine yakın birkaç önemli durak sunar. Çöl sıcağı nedeniyle yürüyüşlerde su ve güneş koruması önemlidir. Park, şehir merkezindeki yoğun yapılaşmadan uzaklaşmak ve Sonoran Çölü'nün doğal görünümünü görmek isteyen ziyaretçiler için uygundur. Özellikle kısa doğa yürüyüşleri, manzara seyri ve fotoğrafçılık açısından değerlendirilebilir.",
+      "en": "Tucson Mountain Park is located west of Tucson, not east of the city, and extends across the Tucson Mountains within the Sonoran Desert. The landscape is characterized by rocky hills, desert vegetation and stands of saguaro cacti. The park provides opportunities for hiking, wildlife observation and scenic drives, while nearby locations such as Gates Pass are known for desert sunsets and mountain views. Tucson Mountain Park is also close to the western district of Saguaro National Park and the Arizona-Sonora Desert Museum, making it easy to combine several major attractions into a western Tucson day trip. Because of the desert climate, visitors should carry water and use sun protection when hiking. The park is particularly suitable for travelers who want to escape the urban area and experience the rugged scenery of the Sonoran Desert. Short hikes, scenic viewpoints and landscape photography are among the main reasons to visit.",
+      "de": "Der Tucson Mountain Park liegt westlich von Tucson und nicht östlich der Stadt. Er erstreckt sich in den Tucson Mountains innerhalb der Sonora-Wüste. Die Landschaft wird von felsigen Hügeln, Wüstenvegetation und zahlreichen Saguaro-Kakteen geprägt. Der Park bietet Möglichkeiten zum Wandern, zur Tierbeobachtung und für landschaftliche Ausflüge. Orte wie Gates Pass sind besonders für Sonnenuntergänge und Bergpanoramen bekannt. Tucson Mountain Park liegt außerdem nahe dem westlichen Teil des Saguaro-Nationalparks und dem Arizona-Sonora Desert Museum, sodass sich mehrere wichtige Sehenswürdigkeiten zu einem Tagesausflug im Westen von Tucson verbinden lassen. Wegen des Wüstenklimas sind ausreichend Wasser und Sonnenschutz beim Wandern wichtig. Der Park eignet sich vor allem für Besucher, die die Stadt verlassen und die ursprüngliche Landschaft der Sonora-Wüste erleben möchten. Kurze Wanderungen, Aussichtspunkte und Landschaftsfotografie gehören zu den wichtigsten Aktivitäten."
     },
     "activities": {
       "tr": [
         "Yürüyüş yapmak",
-        "Doğayı keşfetmek"
+        "Çöl manzaralarını izlemek",
+        "Gün batımını fotoğraflamak",
+        "Saguaro kaktüslerini görmek"
       ],
       "en": [
         "Hike",
-        "Explore nature"
+        "Enjoy desert scenery",
+        "Photograph sunsets",
+        "See saguaro cacti"
       ],
       "de": [
         "Wandern",
-        "Die Natur erkunden"
+        "Wüstenlandschaften genießen",
+        "Sonnenuntergänge fotografieren",
+        "Saguaro-Kakteen sehen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "yürüyüş"
       ],
       "en": [
-        "nature"
+        "nature",
+        "hiking"
       ],
       "de": [
-        "Natur"
+        "natur",
+        "wandern"
       ]
     },
     "images": [
-      "https://example.com/tucson_mountain_park.jpg"
+      "https://www.wildnatureimages.com/photo/tucson-mountain-park-3/"
     ]
   },
   {
@@ -135,40 +725,52 @@
       "en": "Pima Air & Space Museum",
       "de": "Pima Air & Space Museum"
     },
-    "latitude": 32.1316,
-    "longitude": -110.8463,
+    "latitude": 32.1416,
+    "longitude": -110.8580,
     "description": {
-      "tr": "Pima Hava ve Uzay Müzesi, hava ve uzay araçlarını sergileyen devasa bir koleksiyona sahip olup, uçuş tarihine ilgi duyanlar için harika bir yerdir.",
-      "en": "The Pima Air & Space Museum has a massive collection of aircraft and spacecraft, making it a great place for aviation and space enthusiasts.",
-      "de": "Das Pima Air & Space Museum hat eine riesige Sammlung von Flugzeugen und Raumfahrzeugen, was es zu einem großartigen Ort für Luftfahrt- und Weltraumbegeisterte macht."
+      "tr": "Pima Air & Space Museum, Tucson'un güneydoğusunda bulunan ve havacılık tarihine odaklanan büyük bir müzedir. Müze 80 acre alana yayılır ve 250.000 square feet'ten fazla kapalı sergi alanının yanı sıra açık hava sergilerine sahiptir. Güncel müze verilerine göre koleksiyonda 350'den fazla uçak sergilenmektedir. Sergiler arasında askerî uçaklar, sivil havacılık araçları, tarihî uçaklar ve uzay araştırmalarıyla ilişkili parçalar bulunur. Müzenin altı kapalı hangarında geniş koleksiyonlar yer alır ve hangarların üçü özellikle II. Dünya Savaşı dönemine ayrılmıştır. Açık hava alanında da çok sayıda büyük uçak görülebilir. Müze, havacılık tarihinin ilk dönemlerinden modern döneme kadar uzanan gelişimi karşılaştırmalı şekilde gösterir. Güncel resmi ziyaret bilgilerinde müze her gün 09.00-15.00 arasında açıktır ve son giriş 13.30 olarak belirtilmektedir. Uçak ve uzay tarihine ilgi duyanlar için Tucson'un en kapsamlı müze deneyimlerinden biridir.",
+      "en": "Pima Air & Space Museum is a major aviation museum in southeastern Tucson dedicated to the history of flight and aerospace. The museum occupies an 80-acre site with more than 250,000 square feet of indoor exhibition space as well as extensive outdoor displays. Current museum information states that more than 350 aircraft are on display. The collection includes military aircraft, civilian aviation, historic airplanes and objects connected with the development of aerospace technology. Six indoor hangars form the main exhibition area, with three dedicated to World War II collections. Numerous large aircraft are also displayed outdoors. The museum traces aviation history from early experimental aircraft to modern aerospace technology. Current official visitor information lists opening hours of 9 a.m. to 3 p.m. daily, with last admission at 1:30 p.m. Because of its scale, visitors interested in aviation should allow several hours to explore the hangars and outdoor displays.",
+      "de": "Das Pima Air & Space Museum ist ein großes Luftfahrtmuseum im Südosten von Tucson und widmet sich der Geschichte des Fliegens und der Raumfahrt. Das Museum erstreckt sich über 80 Acres und verfügt über mehr als 250.000 Quadratfuß Innenausstellungsfläche sowie große Außenbereiche. Nach aktuellen Museumsangaben werden mehr als 350 Flugzeuge gezeigt. Die Sammlung umfasst Militärflugzeuge, zivile Maschinen, historische Flugzeuge und Objekte zur Entwicklung der Luft- und Raumfahrt. Sechs Hallen bilden den Hauptbereich der Innenausstellungen, drei davon sind speziell den Sammlungen aus dem Zweiten Weltkrieg gewidmet. Weitere große Flugzeuge stehen im Außenbereich. Das Museum zeigt die Entwicklung der Luftfahrt von frühen Flugversuchen bis zur modernen Raumfahrttechnik. Nach den aktuellen offiziellen Informationen ist es täglich von 9 bis 15 Uhr geöffnet; letzter Einlass ist um 13.30 Uhr. Aufgrund der Größe der Sammlung sollten Luftfahrtinteressierte mehrere Stunden für den Besuch einplanen."
     },
     "activities": {
       "tr": [
-        "Uçakları görmek",
-        "Uzay araçlarını keşfetmek"
+        "Uçakları incelemek",
+        "Havacılık tarihini öğrenmek",
+        "Hangarları gezmek",
+        "Uzay ve havacılık sergilerini keşfetmek"
       ],
       "en": [
-        "See airplanes",
-        "Explore spacecraft"
+        "Explore aircraft",
+        "Learn about aviation history",
+        "Visit the hangars",
+        "Explore aerospace exhibits"
       ],
       "de": [
-        "Flugzeuge sehen",
-        "Raumfahrzeuge erkunden"
+        "Flugzeuge entdecken",
+        "Luftfahrtgeschichte kennenlernen",
+        "Hangars besuchen",
+        "Luft- und Raumfahrtausstellungen erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "havacılık",
+        "tarih"
       ],
       "en": [
-        "museum"
+        "museum",
+        "aviation",
+        "history"
       ],
       "de": [
-        "museum"
+        "museum",
+        "luftfahrt",
+        "geschichte"
       ]
     },
     "images": [
-      "https://example.com/pima_air_space_museum.jpg"
+      "https://photos.bringfido.com/photo/2021/11/29/image_miexI2O.jpeg?density=2x&size=full"
     ]
   },
   {
@@ -178,40 +780,52 @@
       "en": "Mission San Xavier del Bac",
       "de": "Mission San Xavier del Bac"
     },
-    "latitude": 32.1408,
-    "longitude": -111.0449,
+    "latitude": 32.1073,
+    "longitude": -111.0079,
     "description": {
-      "tr": "Mission San Xavier del Bac, Tucson'un güneydoğusunda yer alan tarihi bir İspanyol misyonudur. Ziyaretçiler, bu tarihi yapıyı keşfederek bölgenin geçmişine dair bilgi edinebilir.",
-      "en": "Mission San Xavier del Bac is a historic Spanish mission located southeast of Tucson. Visitors can explore this historic site and learn about the area's history.",
-      "de": "Die Mission San Xavier del Bac ist eine historische spanische Mission südöstlich von Tucson. Besucher können dieses historische Wahrzeichen erkunden und mehr über die Geschichte der Region erfahren."
+      "tr": "Mission San Xavier del Bac, Tucson'un güneybatısında Tohono O'odham Nation topraklarında bulunan tarihî bir İspanyol Katolik misyonudur. Misyonun tarihi 1692 yılında Cizvit misyoner Padre Eusebio Francisco Kino tarafından kurulan yerleşime kadar uzanır. Bugünkü kilise yapısının inşasına 1783 yılında başlanmış ve 1797 yılında tamamlanmıştır. Beyaz sıvalı dış cephesi, ayrıntılı Barok süslemeleri, kuleleri ve zengin iç dekorasyonu nedeniyle 'White Dove of the Desert' yani Çölün Beyaz Güvercini olarak anılır. Yapı, National Historic Landmark statüsüne sahiptir ve Arizona'daki en önemli İspanyol sömürge dönemi mimari örneklerinden biridir. Mission günümüzde hâlâ aktif bir ibadet ve topluluk merkezidir. Ziyaretçiler kiliseyi, müzeyi ve mausoleumu görebilir. Güncel ziyaret bilgilerinde kilise 09.00-16.00, müze ve mausoleum da 09.00-16.00 arasında açık olarak belirtilmektedir. Burası yalnızca mimari bir turistik nokta değil, Tohono O'odham topluluğu açısından yaşayan bir kültürel ve dini alandır.",
+      "en": "Mission San Xavier del Bac is a historic Spanish Catholic mission located southwest of Tucson on the Tohono O'odham Nation. Its history reaches back to the mission founded by Jesuit missionary Father Eusebio Francisco Kino in 1692. Construction of the present church began in 1783 and was completed in 1797. Its white stucco exterior, elaborate Baroque decoration, towers and richly decorated interior have earned it the nickname 'White Dove of the Desert.' The mission is a National Historic Landmark and one of the most important surviving examples of Spanish Colonial architecture in Arizona. It remains an active place of worship and community life today. Visitors can explore the church, museum and mausoleum. Current visitor information lists the church, museum and mausoleum as open from 9 a.m. to 4 p.m. The site should be understood not simply as a historic attraction but as a living religious and cultural place for the Tohono O'odham community.",
+      "de": "Mission San Xavier del Bac ist eine historische spanische katholische Mission südwestlich von Tucson auf dem Gebiet der Tohono O'odham Nation. Ihre Geschichte reicht bis zur 1692 von dem Jesuitenmissionar Padre Eusebio Francisco Kino gegründeten Missionsstation zurück. Der Bau der heutigen Kirche begann 1783 und wurde 1797 abgeschlossen. Die weiß verputzte Fassade, die aufwendige barocke Dekoration, die Türme und die reich verzierte Innenausstattung haben ihr den Beinamen 'White Dove of the Desert' eingebracht. Die Mission ist als National Historic Landmark ausgewiesen und gehört zu den bedeutendsten erhaltenen Beispielen spanischer Kolonialarchitektur in Arizona. Bis heute ist sie ein aktiver Ort des Glaubens und des Gemeinschaftslebens. Besucher können die Kirche, das Museum und das Mausoleum besichtigen. Nach den aktuellen Besucherinformationen sind Kirche, Museum und Mausoleum von 9 bis 16 Uhr geöffnet. Der Ort ist nicht nur eine historische Sehenswürdigkeit, sondern weiterhin ein lebendiger religiöser und kultureller Ort der Tohono O'odham."
     },
     "activities": {
       "tr": [
-        "Tarihi misyonu gezmek",
-        "Bölgenin tarihini öğrenmek"
+        "Tarihi kiliseyi gezmek",
+        "İspanyol sömürge mimarisini incelemek",
+        "Müzeyi ziyaret etmek",
+        "Fotoğraf çekmek"
       ],
       "en": [
-        "Tour the historic mission",
-        "Learn about the area's history"
+        "Visit the historic church",
+        "Explore Spanish Colonial architecture",
+        "Visit the museum",
+        "Take photographs"
       ],
       "de": [
-        "Die historische Mission besichtigen",
-        "Mehr über die Geschichte der Region erfahren"
+        "Die historische Kirche besuchen",
+        "Spanische Kolonialarchitektur entdecken",
+        "Das Museum besuchen",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "mimari",
+        "kültür"
       ],
       "en": [
-        "historic"
+        "historic",
+        "architecture",
+        "culture"
       ],
       "de": [
-        "Historisch"
+        "historisch",
+        "architektur",
+        "kultur"
       ]
     },
     "images": [
-      "https://example.com/san_xavier_mission.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mission_San_Xavier_del_Bac_%286989402755%29.jpg"
     ]
   }
 ]

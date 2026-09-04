@@ -4,95 +4,300 @@
     "name": {
       "tr": "Frasassi Mağaraları",
       "en": "Frasassi Caves",
-      "de": "Frasassi Höhlen"
+      "de": "Frasassi-Höhlen"
     },
-    "latitude": 43.4089,
-    "longitude": 12.9795,
+    "latitude": 43.4009,
+    "longitude": 12.9632,
     "description": {
-      "tr": "Frasassi Mağaraları, Marche bölgesinde bulunan büyüleyici bir yeraltı mağara kompleksidir. Bu mağaralar, doğal olarak oluşmuş devasa kaya oluşumları ve kristallerle doludur.",
-      "en": "The Frasassi Caves are a fascinating underground cave complex located in the Marche region, filled with naturally formed massive rock formations and crystals.",
-      "de": "Die Frasassi-Höhlen sind ein faszinierendes unterirdisches Höhlensystem in der Region Marken, das mit natürlich gebildeten riesigen Felsformationen und Kristallen gefüllt ist."
+      "tr": "İtalya'nın Marche bölgesindeki Genga yakınlarında yer alan Frasassi Mağaraları, İtalya'nın en etkileyici karstik mağara sistemlerinden biridir. Yeraltında devasa salonlar, sarkıtlar, dikitler, kristal oluşumları ve milyonlarca yıl boyunca suyun şekillendirdiği doğal yapılar bulunur. Turistik rota boyunca mağaranın en görkemli bölümleri arasında yürüyerek keşif yapabilirsiniz. Frasassi, Gola della Rossa ve Frasassi Bölgesel Doğa Parkı içinde yer alır ve bölgenin en önemli doğal turizm noktalarından biridir.",
+      "en": "Located near Genga in Italy's Marche region, the Frasassi Caves are one of Italy's most impressive karst cave systems. Deep underground, visitors can discover enormous chambers, stalactites, stalagmites, crystal formations and natural structures shaped by water over millions of years. The tourist route allows visitors to walk through some of the cave system's most spectacular chambers. Frasassi is located within the Gola della Rossa and Frasassi Regional Natural Park and is one of the area's major natural attractions.",
+      "de": "Die Frasassi-Höhlen bei Genga in der italienischen Region Marken gehören zu den beeindruckendsten Karsthöhlensystemen Italiens. Tief unter der Erde erwarten Besucher riesige Hallen, Stalaktiten, Stalagmiten, Kristallformationen und natürliche Strukturen, die über Millionen von Jahren durch Wasser geformt wurden. Auf dem touristischen Rundweg können einige der eindrucksvollsten Bereiche des Höhlensystems erkundet werden. Die Frasassi-Höhlen liegen im Regionalen Naturpark Gola della Rossa und Frasassi und gehören zu den wichtigsten Naturattraktionen der Region."
     },
     "activities": {
       "tr": [
-        "Mağara turları yapma",
-        "Doğal güzellikleri keşfetme",
-        "Fotoğrafçılık"
+        "Mağara turuna katılma",
+        "Dev yeraltı salonlarını keşfetme",
+        "Sarkıt ve dikitleri inceleme",
+        "Mağara fotoğrafçılığı",
+        "Speleoloji turlarına katılma"
       ],
       "en": [
-        "Take cave tours",
-        "Explore natural beauty",
-        "Photography"
+        "Take a guided cave tour",
+        "Explore the giant underground chambers",
+        "Admire stalactites and stalagmites",
+        "Cave photography",
+        "Join speleological tours"
       ],
       "de": [
-        "Höhlentouren machen",
-        "Natürliche Schönheit erkunden",
-        "Fotografie"
+        "An einer geführten Höhlentour teilnehmen",
+        "Die riesigen unterirdischen Hallen erkunden",
+        "Stalaktiten und Stalagmiten bewundern",
+        "Höhlenfotografie",
+        "An Höhlenforschertouren teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "mağara"
+        "mağara",
+        "doğa",
+        "macera"
       ],
       "en": [
-        "cave"
+        "cave",
+        "nature",
+        "adventure"
       ],
       "de": [
-        "Höhle"
+        "Höhle",
+        "Natur",
+        "Abenteuer"
       ]
     },
     "images": [
-      "assets/frasassi1.jpg",
-      "assets/frasassi2.jpg",
-      "assets/frasassi3.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Grotte%20di%20Frasassi%20%2838710%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frasassi%2001.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frasassi%2002.jpg"
     ]
   },
   {
-    "slug": "urbino-tarih-sehri",
+    "slug": "urbino-tarihi-merkezi",
     "name": {
-      "tr": "Urbino Tarihî Şehri",
-      "en": "Historic City of Urbino",
-      "de": "Historische Stadt Urbino"
+      "tr": "Urbino Tarihî Merkezi",
+      "en": "Historic Centre of Urbino",
+      "de": "Historisches Zentrum von Urbino"
     },
-    "latitude": 43.7244,
-    "longitude": 12.6394,
+    "latitude": 43.7261,
+    "longitude": 12.6359,
     "description": {
-      "tr": "Urbino, Marche bölgesinde yer alan bir UNESCO Dünya Mirası şehiridir. Rönesans dönemi mimarisi ve Raphael'in doğum yeri olarak bilinir.",
-      "en": "Urbino is a UNESCO World Heritage city in the Marche region, known for its Renaissance architecture and as the birthplace of Raphael.",
-      "de": "Urbino ist eine UNESCO-Weltkulturerbe-Stadt in der Region Marken, bekannt für ihre Renaissance-Architektur und als Geburtsort von Raphael."
+      "tr": "Urbino Tarihî Merkezi, İtalya'nın Marche bölgesindeki Rönesans mirasının en önemli örneklerinden biridir ve 1998 yılında UNESCO Dünya Mirası Listesi'ne alınmıştır. Orta Çağ'dan gelen dar sokaklar, Rönesans döneminde şekillenen kent dokusu ve günümüze kadar büyük ölçüde korunmuş surlar şehrin karakterini oluşturur. Federico da Montefeltro döneminde önemli bir kültür merkezi haline gelen Urbino, Palazzo Ducale, katedrali ve Rönesans mimarisiyle sanat ve tarih meraklıları için dikkat çekici bir destinasyondur.",
+      "en": "The Historic Centre of Urbino is one of the most important examples of Renaissance heritage in Italy's Marche region and was inscribed on the UNESCO World Heritage List in 1998. Narrow medieval streets, a Renaissance urban layout and remarkably preserved walls define the character of the city. Urbino became an important cultural centre under Federico da Montefeltro and today attracts visitors with the Ducal Palace, cathedral and outstanding Renaissance architecture.",
+      "de": "Das Historische Zentrum von Urbino gehört zu den bedeutendsten Beispielen des Renaissance-Erbes in der italienischen Region Marken und wurde 1998 in die UNESCO-Welterbeliste aufgenommen. Enge mittelalterliche Gassen, die im Zeitalter der Renaissance geprägte Stadtstruktur und die weitgehend erhaltenen Stadtmauern bestimmen das Stadtbild. Unter Federico da Montefeltro entwickelte sich Urbino zu einem bedeutenden Kulturzentrum. Heute beeindruckt die Stadt mit dem Herzogspalast, der Kathedrale und ihrer außergewöhnlichen Renaissance-Architektur."
     },
     "activities": {
       "tr": [
         "Tarihî sokaklarda yürüyüş",
-        "Müzeleri ziyaret etme",
-        "Yerel mutfak lezzetlerini deneme"
+        "Rönesans mimarisini keşfetme",
+        "Palazzo Ducale'yi ziyaret etme",
+        "Müzeleri ve sanat koleksiyonlarını gezme",
+        "Şehir surlarını ve manzara noktalarını keşfetme"
       ],
       "en": [
-        "Walk through historic streets",
-        "Visit museums",
-        "Try local cuisine"
+        "Walk through the historic streets",
+        "Explore Renaissance architecture",
+        "Visit the Ducal Palace",
+        "Explore museums and art collections",
+        "Discover the city walls and viewpoints"
       ],
       "de": [
-        "Durch historische Straßen spazieren",
-        "Museen besuchen",
-        "Lokale Küche probieren"
+        "Durch die historischen Gassen spazieren",
+        "Renaissance-Architektur entdecken",
+        "Den Herzogspalast besichtigen",
+        "Museen und Kunstsammlungen besuchen",
+        "Stadtmauern und Aussichtspunkte erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi merkez",
+        "UNESCO",
+        "Rönesans",
+        "mimari"
       ],
       "en": [
-        "historic square"
+        "historic centre",
+        "UNESCO",
+        "Renaissance",
+        "architecture"
       ],
       "de": [
-        "historischer Platz"
+        "historisches Zentrum",
+        "UNESCO",
+        "Renaissance",
+        "Architektur"
       ]
     },
     "images": [
-      "assets/urbino1.jpg",
-      "assets/urbino2.jpg",
-      "assets/urbino3.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Historic%20Centre%20of%20Urbino-112089.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Urbino%20veduta.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Via%20Raffaello%20Urbino.jpg"
+    ]
+  },
+  {
+    "slug": "palazzo-ducale-urbino",
+    "name": {
+      "tr": "Urbino Dükalık Sarayı",
+      "en": "Ducal Palace of Urbino",
+      "de": "Herzogspalast von Urbino"
+    },
+    "latitude": 43.7237,
+    "longitude": 12.6359,
+    "description": {
+      "tr": "Palazzo Ducale, Urbino'nun Rönesans dönemindeki kültürel ve siyasi önemini yansıtan görkemli saray kompleksidir. Federico da Montefeltro tarafından geliştirilen saray, Rönesans mimarisinin seçkin örneklerinden biri olarak kabul edilir. Günümüzde sarayda Galleria Nazionale delle Marche bulunur ve ziyaretçiler burada önemli Rönesans sanat eserlerini görebilir.",
+      "en": "The Ducal Palace is a magnificent palace complex that reflects Urbino's cultural and political importance during the Renaissance. Developed under Federico da Montefeltro, it is regarded as one of the outstanding examples of Renaissance architecture. Today, the palace houses the Galleria Nazionale delle Marche, where visitors can see important works of Renaissance art.",
+      "de": "Der Herzogspalast ist ein prächtiger Palastkomplex, der die kulturelle und politische Bedeutung Urbinos während der Renaissance widerspiegelt. Unter Federico da Montefeltro wurde die Anlage zu einem herausragenden Beispiel der Renaissance-Architektur ausgebaut. Heute beherbergt der Palast die Galleria Nazionale delle Marche mit bedeutenden Kunstwerken der Renaissance."
+    },
+    "activities": {
+      "tr": [
+        "Sarayın içini gezme",
+        "Rönesans sanat eserlerini inceleme",
+        "Galleria Nazionale delle Marche'yi ziyaret etme",
+        "İç avluları ve mimari detayları keşfetme"
+      ],
+      "en": [
+        "Tour the palace",
+        "Admire Renaissance artworks",
+        "Visit the Galleria Nazionale delle Marche",
+        "Explore the courtyards and architectural details"
+      ],
+      "de": [
+        "Den Palast besichtigen",
+        "Renaissance-Kunstwerke bewundern",
+        "Die Galleria Nazionale delle Marche besuchen",
+        "Innenhöfe und architektonische Details erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "saray",
+        "tarih",
+        "sanat",
+        "Rönesans"
+      ],
+      "en": [
+        "palace",
+        "history",
+        "art",
+        "Renaissance"
+      ],
+      "de": [
+        "Palast",
+        "Geschichte",
+        "Kunst",
+        "Renaissance"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Ducale%20in%20Urbino.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Ducale%2C%20Urbino%2C%20Italy%20%282%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palazzo%20Ducale%20%28Urbino%29%20%2893268%29.jpg"
+    ]
+  },
+  {
+    "slug": "tempio-del-valadier",
+    "name": {
+      "tr": "Valadier Tapınağı",
+      "en": "Temple of Valadier",
+      "de": "Valadier-Tempel"
+    },
+    "latitude": 43.4030,
+    "longitude": 12.9545,
+    "description": {
+      "tr": "Valadier Tapınağı, Frasassi Boğazı'nın kayalıkları arasında, bir mağaranın girişine yakın konumda bulunan neoklasik bir tapınaktır. 1828 yılında Papa XII. Leo'nun emriyle tamamlanan sekizgen yapı, beyaz traverten bloklarıyla dikkat çeker. Dağların ve kayalıkların arasındaki konumu nedeniyle Frasassi Mağaraları ziyaretinin en etkileyici duraklarından biridir.",
+      "en": "The Temple of Valadier is a neoclassical sanctuary built among the cliffs of the Frasassi Gorge near the entrance of a cave. Completed in 1828 by order of Pope Leo XII, the octagonal structure is notable for its white travertine blocks. Its dramatic setting among mountains and cliffs makes it one of the most striking stops near the Frasassi Caves.",
+      "de": "Der Valadier-Tempel ist ein neoklassizistisches Heiligtum zwischen den Felsen der Frasassi-Schlucht nahe dem Eingang einer Höhle. Das achteckige Bauwerk wurde 1828 im Auftrag von Papst Leo XII. fertiggestellt und besteht aus markanten weißen Travertinblöcken. Seine spektakuläre Lage zwischen Bergen und Felsen macht ihn zu einem der eindrucksvollsten Ausflugsziele bei den Frasassi-Höhlen."
+    },
+    "activities": {
+      "tr": [
+        "Tapınağı ziyaret etme",
+        "Frasassi Boğazı'nı keşfetme",
+        "Doğa ve mimari fotoğrafçılığı",
+        "Kayalık manzaraları seyretme"
+      ],
+      "en": [
+        "Visit the temple",
+        "Explore the Frasassi Gorge",
+        "Nature and architectural photography",
+        "Enjoy the rocky mountain scenery"
+      ],
+      "de": [
+        "Den Tempel besichtigen",
+        "Die Frasassi-Schlucht erkunden",
+        "Natur- und Architekturfotografie",
+        "Die felsige Berglandschaft genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi yapı",
+        "dini yapı",
+        "mimari",
+        "doğa"
+      ],
+      "en": [
+        "historic building",
+        "religious site",
+        "architecture",
+        "nature"
+      ],
+      "de": [
+        "historisches Gebäude",
+        "Sakralbau",
+        "Architektur",
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tempio%20del%20Valadier.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tempio%20di%20Valadier.jpg"
+    ]
+  },
+  {
+    "slug": "san-vittore-delle-chiuse",
+    "name": {
+      "tr": "San Vittore delle Chiuse Manastırı",
+      "en": "San Vittore delle Chiuse Abbey",
+      "de": "Abtei San Vittore delle Chiuse"
+    },
+    "latitude": 43.4023,
+    "longitude": 12.9706,
+    "description": {
+      "tr": "San Vittore delle Chiuse Manastırı, Frasassi Boğazı'nın girişinde yer alan ve Orta İtalya'nın önemli Romanesk yapılarından biri olan tarihî bir manastır kompleksidir. 11. yüzyıla uzanan geçmişiyle bölgenin dini ve mimari mirasını yansıtır. Manastırın çevresindeki kayalık vadiler, Sentino Nehri ve Frasassi Mağaraları ile birlikte ziyaret edilebilecek etkileyici bir kültür ve doğa rotası oluşturur.",
+      "en": "San Vittore delle Chiuse Abbey is a historic monastic complex at the entrance to the Frasassi Gorge and an important Romanesque monument in central Italy. With origins dating back to the 11th century, it reflects the religious and architectural heritage of the area. Together with the surrounding rocky valleys, the Sentino River and the Frasassi Caves, it forms an impressive cultural and nature route.",
+      "de": "Die Abtei San Vittore delle Chiuse ist ein historischer Klosterkomplex am Eingang der Frasassi-Schlucht und zählt zu den bedeutenden romanischen Bauwerken Mittelitaliens. Ihre Ursprünge reichen bis ins 11. Jahrhundert zurück und spiegeln das religiöse und architektonische Erbe der Region wider. Zusammen mit den umliegenden Felslandschaften, dem Fluss Sentino und den Frasassi-Höhlen bildet sie eine beeindruckende Kultur- und Naturroute."
+    },
+    "activities": {
+      "tr": [
+        "Manastırı ziyaret etme",
+        "Romanesk mimariyi inceleme",
+        "Frasassi Boğazı'nda yürüyüş",
+        "Çevrede fotoğraf çekme"
+      ],
+      "en": [
+        "Visit the abbey",
+        "Admire Romanesque architecture",
+        "Walk through the Frasassi Gorge",
+        "Take photographs of the surroundings"
+      ],
+      "de": [
+        "Die Abtei besichtigen",
+        "Romanische Architektur bewundern",
+        "Durch die Frasassi-Schlucht wandern",
+        "Die Umgebung fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "manastır",
+        "tarih",
+        "mimari",
+        "dini yapı"
+      ],
+      "en": [
+        "abbey",
+        "history",
+        "architecture",
+        "religious site"
+      ],
+      "de": [
+        "Abtei",
+        "Geschichte",
+        "Architektur",
+        "Sakralbau"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/San%20Vittore%20alle%20Chiuse.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Abbazia%20di%20San%20Vittore%20alle%20Chiuse.jpg"
     ]
   }
 ]

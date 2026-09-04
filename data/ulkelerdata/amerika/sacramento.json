@@ -2,93 +2,370 @@
   {
     "slug": "california-state-capitol",
     "name": {
-      "tr": "California State Capitol",
+      "tr": "California Eyalet Meclis Binası",
       "en": "California State Capitol",
       "de": "California State Capitol"
     },
-    "latitude": 38.5791,
-    "longitude": -121.4937,
+    "latitude": 38.57667,
+    "longitude": -121.49383,
     "description": {
-      "tr": "California State Capitol, Kaliforniya eyaletinin hükümet merkezi olarak hizmet vermektedir. Ziyaretçiler, tarihi yapıyı gezebilir ve eyalet hükümetinin işleyişini öğrenebilirler. Binada aynı zamanda bir müze bulunmaktadır.\n",
-      "en": "The California State Capitol serves as the government center of California. Visitors can tour the historic building and learn about the state's government workings. The building also houses a museum.\n",
-      "de": "Das California State Capitol dient als Regierungssitz von Kalifornien. Besucher können das historische Gebäude besichtigen und mehr über die Arbeitsweise der Landesregierung erfahren. Das Gebäude beherbergt auch ein Museum.\n"
+      "tr": "California State Capitol, Sacramento'nun merkezinde bulunan ve Kaliforniya'nın siyasi tarihini yansıtan en önemli yapılardan biridir. Bugünkü Capitol binası 1860 yılında tamamlanmış ve o tarihten itibaren Kaliforniya eyalet yönetiminin sembollerinden biri olmuştur. Neoklasik mimarisi, büyük kubbesi ve çevresindeki Capitol Park ile birlikte Sacramento şehir manzarasının en tanınabilir bölümlerinden birini oluşturur. Bina günümüzde California State Capitol Museum olarak ziyaret edilebilir. Ziyaretçiler tarihî salonları, yasama odalarını, sanat eserlerini ve Kaliforniya'nın geçmişiyle ilgili sergileri görebilir. Capitol Park'ın içinde farklı dönemleri ve kişileri anan heykeller, anıtlar ve bahçeler de bulunur. Müze tarafından düzenlenen rehberli turlar ücretsizdir ve binanın mimarisi ile tarihî işlevi hakkında bilgi verir. Ziyaretçiler ayrıca kendi başlarına gezmek için ücretsiz rehberden yararlanabilir. Capitol, Sacramento'nun şehir merkezindeki diğer müzeler ve tarihî yapılarla birlikte kolayca ziyaret edilebilir. Özellikle Kaliforniya'nın siyasi tarihini ve Sacramento'nun eyalet başkenti olarak gelişimini anlamak isteyenler için önemli bir duraktır.",
+      "en": "The California State Capitol is one of Sacramento's most important landmarks and a major symbol of California's political history. The present Capitol building was completed in 1860 and has remained one of the defining buildings of the state capital. Its neoclassical architecture, prominent dome and surrounding Capitol Park create one of Sacramento's most recognizable urban landscapes. Today the building can be visited as the California State Capitol Museum. Visitors can explore historic rooms, legislative chambers, artworks and exhibits covering California's political and cultural history. Capitol Park surrounding the building contains memorials, monuments, sculptures and landscaped gardens representing different periods and people connected with the state. The Capitol Museum offers free guided tours as well as a self-guided experience for visitors who prefer to explore independently. Because the building is located in central Sacramento, it can easily be combined with the California Museum, Crocker Art Museum and other downtown attractions. The Capitol is particularly valuable for travelers interested in California government, architecture and the development of Sacramento as the state capital.",
+      "de": "Das California State Capitol gehört zu den wichtigsten Wahrzeichen Sacramentos und ist ein bedeutendes Symbol für die politische Geschichte Kaliforniens. Das heutige Capitol-Gebäude wurde 1860 fertiggestellt und prägt seitdem das Stadtbild der Hauptstadt. Die klassizistische Architektur, die markante Kuppel und der umliegende Capitol Park bilden zusammen einen der bekanntesten Bereiche der Innenstadt. Heute kann das Gebäude als California State Capitol Museum besichtigt werden. Besucher können historische Räume, Sitzungssäle, Kunstwerke und Ausstellungen zur politischen und kulturellen Geschichte Kaliforniens erkunden. Im Capitol Park befinden sich außerdem Denkmäler, Skulpturen und angelegte Gartenbereiche, die an verschiedene Personen und Ereignisse der Staatsgeschichte erinnern. Das Capitol Museum bietet kostenlose Führungen sowie eine Möglichkeit zur selbstständigen Besichtigung. Durch die zentrale Lage lässt sich das Capitol gut mit dem California Museum, dem Crocker Art Museum und weiteren Sehenswürdigkeiten der Innenstadt verbinden. Für Besucher, die sich für Politik, Architektur und die Entwicklung Sacramentos als Hauptstadt Kaliforniens interessieren, ist das Capitol ein wichtiger Anlaufpunkt."
     },
     "activities": {
       "tr": [
-        "Capitol Binası’nı gezmek",
-        "Müzeyi ziyaret etmek",
-        "Hükümet işlemlerini öğrenmek"
+        "Capitol binasını gezmek",
+        "Tarihî salonları incelemek",
+        "Müze sergilerini keşfetmek",
+        "Capitol Park'ta yürümek",
+        "Kaliforniya'nın siyasi tarihini öğrenmek"
       ],
       "en": [
-        "Tour the Capitol Building",
-        "Visit the museum",
-        "Learn about government operations"
+        "Tour the Capitol building",
+        "Explore historic rooms",
+        "Visit museum exhibits",
+        "Walk through Capitol Park",
+        "Learn about California's political history"
       ],
       "de": [
-        "Das Capitol-Gebäude besichtigen",
-        "Das Museum besuchen",
-        "Mehr über Regierungsarbeit erfahren"
+        "Das Capitol besichtigen",
+        "Historische Räume erkunden",
+        "Museumsausstellungen besuchen",
+        "Durch den Capitol Park spazieren",
+        "Kaliforniens politische Geschichte kennenlernen"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "şehir simgesi",
+        "mimari",
+        "müze"
       ],
       "en": [
-        "historic"
+        "historic",
+        "landmark",
+        "architecture",
+        "museum"
       ],
       "de": [
-        "Historisch"
+        "Historisch",
+        "Wahrzeichen",
+        "Architektur",
+        "Museum"
       ]
     },
     "images": [
-      "https://example.com/california_state_capitol_image.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/California%20State%20Capitol%20Sacramento.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/California_State_Capitol.jpg"
     ]
   },
   {
-    "slug": "old-sacramento",
+    "slug": "old-sacramento-state-historic-park",
     "name": {
-      "tr": "Old Sacramento",
-      "en": "Old Sacramento",
-      "de": "Old Sacramento"
+      "tr": "Old Sacramento Eyalet Tarihi Parkı",
+      "en": "Old Sacramento State Historic Park",
+      "de": "Old Sacramento State Historic Park"
     },
-    "latitude": 38.5833,
-    "longitude": -121.4953,
+    "latitude": 38.58444,
+    "longitude": -121.50528,
     "description": {
-      "tr": "Old Sacramento, tarihi yapıları ve nostaljik atmosferiyle ünlüdür. 19. yüzyıldan kalma binalar, müzeler ve mağazalar ile ziyaretçilere geçmişe yolculuk yapma fırsatı sunar.\n",
-      "en": "Old Sacramento is famous for its historic buildings and nostalgic atmosphere. The 19th-century structures, museums, and shops offer visitors a chance to step back in time.\n",
-      "de": "Old Sacramento ist berühmt für seine historischen Gebäude und nostalgische Atmosphäre. Die Gebäude aus dem 19. Jahrhundert, Museen und Geschäfte bieten den Besuchern die Möglichkeit, in die Vergangenheit zurückzukehren.\n"
+      "tr": "Old Sacramento State Historic Park, Sacramento'nun Gold Rush dönemini ve 19. yüzyıldaki ticari gelişimini günümüze taşıyan tarihî bir bölgedir. Park alanında 50'den fazla korunmuş tarihî yapı bulunur. Ahşap kaldırımlar, eski ticari binalar, mağazalar, restoranlar ve müzeler bölgeye 1850'ler Sacramento'sunu hatırlatan karakteristik bir görünüm kazandırır. Old Sacramento'nun tarihî önemi Gold Rush ile sınırlı değildir. Bölge, Pony Express posta sisteminin batı terminali, ilk kıtalararası demiryolunun batı ucu ve kıtalararası telgraf sisteminin önemli noktalarından biri olarak Sacramento'nun Amerikan Batı'sındaki gelişiminde rol oynamıştır. Parkın önemli yapıları arasında 1849 tarihli Eagle Theatre, 1853 B. F. Hastings Building ve 1855 Big Four Building bulunur. California State Railroad Museum da Old Sacramento'nun içinde yer alır ve demiryolu tarihini ayrı bir müze deneyimiyle sunar. Tarihî sokaklarda yürümek ücretsizdir; bazı müze ve özel etkinliklerin ayrıca giriş ücreti olabilir. Sacramento Nehri kıyısındaki konumu sayesinde yürüyüş, fotoğraf çekimi, alışveriş ve müze ziyaretini aynı gezide birleştirmek mümkündür.",
+      "en": "Old Sacramento State Historic Park preserves more than 50 historic buildings and offers one of the best places in the city to experience Sacramento's Gold Rush-era and nineteenth-century commercial history. Wooden sidewalks, preserved commercial buildings, shops, restaurants and museums create a distinctive historic district along the Sacramento River. Old Sacramento's importance goes beyond the Gold Rush. The district became the western terminus of the Pony Express, the western end of the first transcontinental railroad and an important point on the transcontinental telegraph network. Historic buildings include the 1849 Eagle Theatre, the 1853 B. F. Hastings Building and the 1855 Big Four Building. The California State Railroad Museum is also located within the district and provides a separate look at the development of railroads in California and the American West. Walking through the historic district itself is free, while individual museums and special attractions may charge admission. Its waterfront setting makes Old Sacramento particularly suitable for combining history, photography, shopping, dining and riverfront walks in one visit.",
+      "de": "Old Sacramento State Historic Park bewahrt mehr als 50 historische Gebäude und gehört zu den besten Orten in Sacramento, um die Geschichte des Goldrauschs und die Entwicklung der Stadt im 19. Jahrhundert zu erleben. Holzgehwege, erhaltene Geschäftsgebäude, Geschäfte, Restaurants und Museen verleihen dem Viertel seinen historischen Charakter. Die Bedeutung von Old Sacramento geht jedoch über den Goldrausch hinaus. Der Ort war westlicher Endpunkt des Pony Express, Endpunkt der ersten transkontinentalen Eisenbahn und ein wichtiger Punkt des transkontinentalen Telegrafennetzes. Zu den historischen Gebäuden gehören das Eagle Theatre von 1849, das B. F. Hastings Building von 1853 und das Big Four Building von 1855. Auch das California State Railroad Museum befindet sich innerhalb des historischen Viertels. Der Spaziergang durch Old Sacramento ist kostenlos, während einzelne Museen und besondere Attraktionen Eintritt verlangen können. Durch die Lage am Sacramento River lassen sich hier Geschichte, Fotografie, Einkaufen, Gastronomie und ein Spaziergang am Wasser gut miteinander verbinden."
     },
     "activities": {
       "tr": [
-        "Tarihi sokaklarda yürüyüş yapmak",
+        "Tarihî sokaklarda yürümek",
+        "Gold Rush dönemini keşfetmek",
+        "Tarihî binaları fotoğraflamak",
         "Müzeleri ziyaret etmek",
-        "Nostaljik dükkanlardan alışveriş yapmak"
+        "Sacramento Nehri kıyısında yürümek"
       ],
       "en": [
         "Walk through historic streets",
+        "Explore Gold Rush history",
+        "Photograph historic buildings",
         "Visit museums",
-        "Shop at nostalgic stores"
+        "Walk along the Sacramento River"
       ],
       "de": [
         "Durch historische Straßen spazieren",
+        "Die Geschichte des Goldrauschs entdecken",
+        "Historische Gebäude fotografieren",
         "Museen besuchen",
-        "In nostalgischen Geschäften einkaufen"
+        "Am Sacramento River spazieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi semtler"
+        "tarihi semtler",
+        "tarih",
+        "kültür",
+        "şehir gezisi"
       ],
       "en": [
-        "historic districts"
+        "historic district",
+        "history",
+        "culture",
+        "city sightseeing"
       ],
       "de": [
-        "historische Viertel"
+        "Historisches Viertel",
+        "Geschichte",
+        "Kultur",
+        "Stadtrundgang"
       ]
     },
     "images": [
-      "https://example.com/old_sacramento_image.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Sacramento%20California.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Sacramento%20Waterfront.jpg"
+    ]
+  },
+  {
+    "slug": "california-state-railroad-museum",
+    "name": {
+      "tr": "California Eyalet Demiryolu Müzesi",
+      "en": "California State Railroad Museum",
+      "de": "California State Railroad Museum"
+    },
+    "latitude": 38.58405,
+    "longitude": -121.50499,
+    "description": {
+      "tr": "California State Railroad Museum, Kaliforniya ve Amerikan Batısı demiryollarının tarihini anlatan Sacramento'nun en önemli müzelerinden biridir. Old Sacramento'nun içinde yer alan müze, 225.000 metrekareden fazla sergi alanına sahip geniş bir kompleks içinde faaliyet gösterir. Sergilerde özenle restore edilmiş lokomotifler, yolcu vagonları, yük vagonları ve demiryolu dönemine ait çeşitli objeler görülebilir. Müzenin koleksiyonunda 21 restore edilmiş lokomotif ve vagon önemli bir yer tutar. Sergiler, demiryollarının Kaliforniya'nın ekonomisini, yerleşim düzenini ve Amerikan Batısı'nın gelişimini nasıl etkilediğini anlatır. Bazı dönemlerde Sacramento River boyunca tarihî trenlerle gezi seferleri de düzenlenir. Bu seferler Old Sacramento Waterfront'tan hareket eden tarihî vagonlarla yaklaşık 45 dakikalık ve 6 millik bir yolculuk şeklinde gerçekleştirilebilir; sefer programı ve biletler dönemsel olarak değişebilir. Müze, özellikle demiryollarına, Amerikan Batısı tarihine ve mühendisliğe ilgi duyan ziyaretçiler için güçlü bir duraktır. Old Sacramento State Historic Park ile aynı bölgede bulunduğundan iki yer tek bir şehir gezisinde rahatlıkla birleştirilebilir.",
+      "en": "The California State Railroad Museum is one of Sacramento's major museums and explores the history of railroads in California and the American West. Located within Old Sacramento, the museum complex contains more than 225,000 square feet of exhibit space. Visitors can see carefully restored locomotives, passenger cars, freight cars and other objects connected with the railroad era. Twenty-one meticulously restored locomotives and cars form an important part of the museum's collection. Exhibits explain how railroads transformed California's economy, settlement patterns and the development of the American West. During selected periods, the museum also operates excursion trains along the Sacramento River using historic railroad cars. These rides can cover approximately six miles in about 45 minutes, although schedules and ticket availability vary. The museum is particularly appealing to travelers interested in engineering, transportation and Western American history. Because it is located inside Old Sacramento, it can easily be combined with the historic district, waterfront and other downtown attractions.",
+      "de": "Das California State Railroad Museum gehört zu den bedeutendsten Museen Sacramentos und vermittelt die Geschichte der Eisenbahn in Kalifornien und im amerikanischen Westen. Das Museum befindet sich in Old Sacramento und verfügt über mehr als 225.000 Quadratfuß Ausstellungsfläche. Besucher können sorgfältig restaurierte Lokomotiven, Personenwagen, Güterwagen und zahlreiche Objekte aus der Eisenbahngeschichte sehen. Insgesamt bilden 21 restaurierte Lokomotiven und Wagen einen wichtigen Teil der Sammlung. Die Ausstellungen zeigen, wie die Eisenbahn die Wirtschaft, Besiedlung und Entwicklung Kaliforniens und des amerikanischen Westens veränderte. Zu bestimmten Zeiten werden außerdem Ausflugsfahrten mit historischen Eisenbahnwagen entlang des Sacramento River angeboten. Diese Fahrten können etwa sechs Meilen in ungefähr 45 Minuten zurücklegen, wobei Fahrplan und Ticketangebot saisonal variieren. Besonders für Besucher mit Interesse an Technik, Verkehrsgeschichte und dem amerikanischen Westen ist das Museum interessant. Durch die Lage in Old Sacramento lässt es sich ideal mit dem historischen Viertel und der Waterfront verbinden."
+    },
+    "activities": {
+      "tr": [
+        "Tarihî lokomotifleri görmek",
+        "Restore edilmiş vagonları incelemek",
+        "Demiryolu tarihini öğrenmek",
+        "Tarihî tren gezisine katılmak",
+        "Amerikan Batısı tarihini keşfetmek"
+      ],
+      "en": [
+        "See historic locomotives",
+        "Explore restored railroad cars",
+        "Learn about railroad history",
+        "Take a historic train excursion",
+        "Explore the history of the American West"
+      ],
+      "de": [
+        "Historische Lokomotiven sehen",
+        "Restaurierte Eisenbahnwagen erkunden",
+        "Eisenbahngeschichte kennenlernen",
+        "An einer historischen Zugfahrt teilnehmen",
+        "Die Geschichte des amerikanischen Westens entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "tarih",
+        "demiryolu",
+        "aile"
+      ],
+      "en": [
+        "museum",
+        "history",
+        "railroad",
+        "family"
+      ],
+      "de": [
+        "Museum",
+        "Geschichte",
+        "Eisenbahn",
+        "Familie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/California%20State%20Railroad%20Museum%20-%20Sacramento.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/California%20State%20Railroad%20Museum%20locomotive.jpg"
+    ]
+  },
+  {
+    "slug": "crocker-art-museum",
+    "name": {
+      "tr": "Crocker Sanat Müzesi",
+      "en": "Crocker Art Museum",
+      "de": "Crocker Art Museum"
+    },
+    "latitude": 38.57349,
+    "longitude": -121.50463,
+    "description": {
+      "tr": "Crocker Art Museum, Sacramento'nun en önemli sanat kurumlarından biri ve Amerika Birleşik Devletleri'nin Mississippi Nehri'nin batısındaki en eski kamu sanat müzelerinden biridir. Müzenin kökeni 1885 yılına uzanır ve koleksiyonu Kaliforniya sanatından Avrupa resimlerine, çizimlerden seramiklere ve Asya, Afrika ve Okyanusya sanatına kadar geniş bir yelpazeye sahiptir. Müze, tarihî Crocker ailesi konutunun bulunduğu yapı ile daha modern galeri binasını bir araya getirir. Sergi alanlarında farklı dönemlere ve kültürlere ait sanat eserleri görülebilir. Kaliforniya sanat koleksiyonu özellikle Gold Rush döneminden günümüze kadar uzanan eserleriyle dikkat çeker. Müzenin Avrupa çizimleri, uluslararası seramikleri, Asya, Afrika ve Okyanusya sanatları ile fotoğraf koleksiyonları da önemli bölümler arasındadır. Müze yalnızca sergi alanlarından oluşmaz; rehberli turlar, aile etkinlikleri, sanat dersleri, konuşmalar, film gösterimleri ve konserler gibi programlar da düzenlenir. Downtown Sacramento'da, Capitol Mall ve Sacramento Riverfront'a yakın konumu sayesinde şehir merkezindeki diğer kültürel duraklarla birlikte ziyaret edilebilir.",
+      "en": "The Crocker Art Museum is one of Sacramento's leading cultural institutions and one of the oldest public art museums in the United States west of the Mississippi River. Founded in 1885, the museum has developed a diverse collection covering California art, European paintings and drawings, international ceramics, Asian art, African art, Oceanic art and photography. The museum combines the historic Crocker family gallery building with a modern addition, creating a varied architectural and exhibition experience. Its California collection spans from the Gold Rush era to contemporary works, while its European master drawings and international ceramics are particularly notable. Visitors can explore three floors and numerous gallery spaces featuring both permanent collections and changing exhibitions. Beyond traditional gallery visits, the museum hosts guided tours, family programs, art classes, lectures, films and concerts. Its location on O Street in downtown Sacramento places it within easy reach of the State Capitol, Capitol Mall and riverfront. For travelers looking for an art-focused experience rather than only California's political and Gold Rush history, the Crocker is one of Sacramento's strongest choices.",
+      "de": "Das Crocker Art Museum gehört zu den wichtigsten Kultureinrichtungen Sacramentos und zählt zu den ältesten öffentlichen Kunstmuseen der Vereinigten Staaten westlich des Mississippi. Das Museum wurde 1885 gegründet und besitzt eine vielseitige Sammlung mit kalifornischer Kunst, europäischen Gemälden und Zeichnungen, internationaler Keramik sowie Kunst aus Asien, Afrika und Ozeanien und Fotografien. Das historische Gebäude der Crocker-Familie wird mit einem modernen Galeriegebäude verbunden und schafft dadurch eine abwechslungsreiche Museumsarchitektur. Die Sammlung kalifornischer Kunst reicht von der Goldrauschzeit bis in die Gegenwart. Bedeutend sind außerdem die europäischen Meisterzeichnungen und die internationale Keramiksammlung. Besucher können mehrere Etagen und zahlreiche Galerieräume mit Dauer- und Wechselausstellungen erkunden. Zusätzlich werden Führungen, Familienprogramme, Kunstkurse, Vorträge, Filme und Konzerte angeboten. Durch die Lage an der O Street in der Innenstadt lässt sich das Museum gut mit dem State Capitol, dem Capitol Mall und dem Sacramento Riverfront verbinden. Für Reisende, die neben der politischen und Goldrauschgeschichte auch die Kunstszene Sacramentos entdecken möchten, ist das Crocker Art Museum ein wichtiger Anlaufpunkt."
+    },
+    "activities": {
+      "tr": [
+        "Sanat koleksiyonlarını keşfetmek",
+        "Kaliforniya sanatını incelemek",
+        "Avrupa eserlerini görmek",
+        "Seramik koleksiyonunu gezmek",
+        "Rehberli sanat turuna katılmak"
+      ],
+      "en": [
+        "Explore the art collections",
+        "Discover California art",
+        "View European works",
+        "Explore the ceramics collection",
+        "Join a guided museum tour"
+      ],
+      "de": [
+        "Die Kunstsammlungen erkunden",
+        "Kalifornische Kunst entdecken",
+        "Europäische Werke ansehen",
+        "Die Keramiksammlung erkunden",
+        "An einer Museumsführung teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "sanat",
+        "kültür",
+        "tarih"
+      ],
+      "en": [
+        "museum",
+        "art",
+        "culture",
+        "history"
+      ],
+      "de": [
+        "Museum",
+        "Kunst",
+        "Kultur",
+        "Geschichte"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Crocker%20Art%20Museum%20Sacramento.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Crocker%20Art%20Museum%20-%20Sacramento.jpg"
+    ]
+  },
+  {
+    "slug": "california-museum",
+    "name": {
+      "tr": "California Müzesi",
+      "en": "California Museum",
+      "de": "California Museum"
+    },
+    "latitude": 38.57548,
+    "longitude": -121.49583,
+    "description": {
+      "tr": "California Museum, Kaliforniya'nın tarihini, kültürel çeşitliliğini ve eyaletin Amerika Birleşik Devletleri'ndeki gelişimindeki rolünü anlamak için Sacramento'da ziyaret edilebilecek önemli müzelerden biridir. Müze, California Hall of Fame'e de ev sahipliği yapar ve eyalet tarihini farklı temalar üzerinden anlatan kalıcı ve geçici sergiler sunar. Sergiler yalnızca siyasi tarihe odaklanmaz; Kaliforniya'nın farklı toplulukları, sosyal hareketleri, yenilikleri, kültürel gelişimi ve eyaletin dünya üzerindeki etkisi de ele alınır. Etkileşimli sergiler özellikle ziyaretçilerin tarihî konuları daha anlaşılır biçimde takip etmesini sağlar. Müze zaman zaman kadın tarihi, siyah Kaliforniyalıların tarihi ve eyaletin daha az anlatılan topluluklarına ilişkin özel sergiler ve programlar düzenler. Sacramento'nun merkezindeki O Street üzerinde bulunan müze, State Capitol'a yürüme mesafesindedir. Bu nedenle Capitol ziyaretiyle birlikte aynı şehir yürüyüşüne eklenebilir. Tarih, kültür ve California kimliği hakkında daha geniş bir bakış açısı arayan ziyaretçiler için California Museum, yalnızca siyasi tarihe odaklanan müzelerden farklı bir deneyim sunar.",
+      "en": "The California Museum is an important Sacramento museum for exploring California's history, cultural diversity and influence on the development of the United States. The museum is also home to the California Hall of Fame and presents permanent and changing exhibitions covering a wide range of subjects. Its exhibitions go beyond political history to explore California's diverse communities, social movements, innovation, arts, culture and lesser-told stories. Interactive experiences make many of the historical subjects accessible to a broad range of visitors. The museum also develops special exhibitions and programs focusing on subjects such as women's history, Black Californians and the contributions of different communities to the state. Located on O Street in central Sacramento, the museum is within walking distance of the State Capitol and can easily be combined with a downtown cultural itinerary. For travelers looking for a broader understanding of California's identity and history rather than focusing only on government or Gold Rush history, the California Museum provides a useful overview.",
+      "de": "Das California Museum ist ein wichtiges Museum in Sacramento, um die Geschichte, kulturelle Vielfalt und den Einfluss Kaliforniens auf die Entwicklung der USA kennenzulernen. Das Museum beherbergt außerdem die California Hall of Fame und präsentiert Dauer- sowie Wechselausstellungen zu zahlreichen Themen. Neben der politischen Geschichte werden die unterschiedlichen Gemeinschaften Kaliforniens, soziale Bewegungen, Innovation, Kunst, Kultur und weniger bekannte historische Geschichten behandelt. Interaktive Elemente machen viele Inhalte für Besucher unterschiedlichen Alters zugänglich. Das Museum organisiert außerdem Sonderausstellungen und Programme zu Themen wie Frauengeschichte, der Geschichte Schwarzer Kalifornier und den Beiträgen verschiedener Bevölkerungsgruppen. Durch die Lage an der O Street im Zentrum liegt es nur wenige Gehminuten vom State Capitol entfernt und kann gut in einen kulturellen Stadtrundgang integriert werden. Für Reisende, die ein breiteres Bild der Geschichte und Identität Kaliforniens suchen, bietet das California Museum eine gute Ergänzung zu den politischen und Goldrausch-Sehenswürdigkeiten der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kaliforniya tarihini keşfetmek",
+        "California Hall of Fame'i görmek",
+        "Etkileşimli sergileri gezmek",
+        "Kültürel çeşitliliği öğrenmek",
+        "Geçici sergileri incelemek"
+      ],
+      "en": [
+        "Explore California history",
+        "Visit the California Hall of Fame",
+        "Explore interactive exhibits",
+        "Learn about cultural diversity",
+        "View temporary exhibitions"
+      ],
+      "de": [
+        "Kaliforniens Geschichte erkunden",
+        "Die California Hall of Fame besuchen",
+        "Interaktive Ausstellungen erkunden",
+        "Die kulturelle Vielfalt kennenlernen",
+        "Wechselausstellungen ansehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "tarih",
+        "kültür"
+      ],
+      "en": [
+        "museum",
+        "history",
+        "culture"
+      ],
+      "de": [
+        "Museum",
+        "Geschichte",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/California%20Museum%20Sacramento.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/California%20Museum%20-%20Sacramento.jpg"
+    ]
+  },
+  {
+    "slug": "sutters-fort-state-historic-park",
+    "name": {
+      "tr": "Sutter's Fort Eyalet Tarihi Parkı",
+      "en": "Sutter's Fort State Historic Park",
+      "de": "Sutter's Fort State Historic Park"
+    },
+    "latitude": 38.55242,
+    "longitude": -121.48306,
+    "description": {
+      "tr": "Sutter's Fort State Historic Park, Sacramento'nun kuruluş dönemini ve Kaliforniya'nın Gold Rush öncesindeki tarihini anlamak için önemli bir tarihî alandır. İsviçre kökenli John Augustus Sutter tarafından 1839 yılında New Helvetia yerleşiminin bir parçası olarak kurulan kale, Sacramento'nun erken dönem gelişiminde önemli bir rol oynamıştır. Kaleden günümüze orijinal merkez yapısının bir bölümü ulaşmış, dış surlar ve odaların önemli kısmı ise daha sonraki dönemlerde tarihî kaynaklara dayanılarak yeniden inşa edilmiştir. Kale, Sacramento'nun şehirleşmesinden önce bölgedeki tarım, ticaret ve yerleşim faaliyetlerinin merkeziydi. 1848'de Sutter'ın arazilerinden birinde altın bulunması, kısa süre sonra California Gold Rush'ın başlamasına yol açan gelişmelerden biri oldu. Günümüzde parkta kale duvarları, avlular, tarihî odalar ve dönem yaşamını anlatan sergiler görülebilir. Ziyaretçiler kalenin farklı bölümlerini dolaşarak 19. yüzyıl Kaliforniya'sındaki yaşam hakkında bilgi edinebilir. Sacramento şehir merkezinin doğusunda yer alan park, özellikle Gold Rush'ın nasıl ortaya çıktığını ve Sacramento'nun neden hızla büyüdüğünü anlamak isteyen tarih meraklıları için değerli bir duraktır.",
+      "en": "Sutter's Fort State Historic Park is an important Sacramento historic site for understanding the city's early development and California's history before the Gold Rush. Swiss-born John Augustus Sutter established the fort in 1839 as part of his New Helvetia settlement. The fort became an important center for agriculture, trade and settlement before Sacramento developed into a major city. Part of the original two-story adobe and oak central building survives, while many of the outer walls and rooms were reconstructed after the state acquired the property. The fort is also closely connected to the events that triggered the California Gold Rush. Gold was discovered at Sutter's Mill, part of Sutter's wider operations, in 1848, helping set off the migration that transformed California. Today, visitors can explore reconstructed fort walls, courtyards, historic rooms and exhibits explaining daily life in nineteenth-century California. The site offers useful context for understanding how Sacramento developed from an early settlement into a major city. Located east of downtown, Sutter's Fort is particularly worthwhile for travelers interested in California's early history, settlement and Gold Rush story.",
+      "de": "Sutter's Fort State Historic Park ist ein bedeutender historischer Ort in Sacramento, um die frühe Entwicklung der Stadt und die Geschichte Kaliforniens vor dem Goldrausch zu verstehen. Der aus der Schweiz stammende John Augustus Sutter gründete die Festung 1839 als Teil seiner Siedlung New Helvetia. Das Fort entwickelte sich zu einem wichtigen Zentrum für Landwirtschaft, Handel und Besiedlung, bevor Sacramento zu einer größeren Stadt heranwuchs. Ein Teil des ursprünglichen zweistöckigen Zentralgebäudes aus Lehmziegeln und Eichenholz ist erhalten. Große Teile der Außenmauern und Räume wurden später rekonstruiert. Die Geschichte des Forts ist eng mit den Ereignissen verbunden, die den California Gold Rush auslösten. 1848 wurde auf Sutter's Mill, einem Teil von Sutters Besitzungen, Gold entdeckt und löste eine massive Einwanderungsbewegung nach Kalifornien aus. Heute können Besucher rekonstruierte Mauern, Innenhöfe, historische Räume und Ausstellungen zum Leben im Kalifornien des 19. Jahrhunderts erkunden. Der Park bietet damit einen wichtigen historischen Kontext für die Entstehung und das Wachstum Sacramentos."
+    },
+    "activities": {
+      "tr": [
+        "Tarihî kaleyi gezmek",
+        "19. yüzyıl Kaliforniya yaşamını keşfetmek",
+        "Gold Rush tarihini öğrenmek",
+        "Tarihî odaları incelemek",
+        "Kalenin avlularını gezmek"
+      ],
+      "en": [
+        "Explore the historic fort",
+        "Discover nineteenth-century California life",
+        "Learn about Gold Rush history",
+        "Explore historic rooms",
+        "Walk through the fort courtyards"
+      ],
+      "de": [
+        "Die historische Festung erkunden",
+        "Das Leben im Kalifornien des 19. Jahrhunderts entdecken",
+        "Die Geschichte des Goldrauschs kennenlernen",
+        "Historische Räume erkunden",
+        "Durch die Innenhöfe der Festung gehen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kültür",
+        "müze",
+        "park"
+      ],
+      "en": [
+        "history",
+        "culture",
+        "museum",
+        "park"
+      ],
+      "de": [
+        "Geschichte",
+        "Kultur",
+        "Museum",
+        "Park"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sutters%20Fort%20Sacramento.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sutter%27s%20Fort%20Sacramento.jpg"
     ]
   }
 ]

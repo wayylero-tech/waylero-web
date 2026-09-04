@@ -6,23 +6,25 @@
       "en": "Great Barrier Reef",
       "de": "Great Barrier Reef"
     },
-    "latitude": -16.488,
-    "longitude": 145.9297,
+    "latitude": -18.2871,
+    "longitude": 147.6992,
     "description": {
-      "tr": "Great Barrier Reef, dünyanın en büyük mercan resifidir ve şnorkelle yüzme, tüple dalış gibi aktiviteler için ideal bir yerdir. Mercanlar, deniz canlıları ve muazzam su altı manzarası ile ünlüdür.",
-      "en": "The Great Barrier Reef is the world’s largest coral reef, perfect for snorkeling and scuba diving. It is renowned for its vibrant coral, marine life, and stunning underwater landscapes.",
+      "tr": "Great Barrier Reef (Büyük Set Resifi), Avustralya'nın kuzeydoğu kıyısında yer alan ve uzaydan görülebilen tek canlı organizma olan devasa bir doğa harikasıdır. Yaklaşık 2.300 kilometrelik bir alana yayılan bu görkemli ekosistem, 2.900'den fazla bireysel resifi, 900 adayı ve binlerce deniz canlısı türünü kapsayarak UNESCO Dünya Mirası listesinin en değerli mücevherlerinden biri kabul edilir. Deniz altındaki biyolojik çeşitliliği ile büyüleyen resif; rengarenk sert ve yumuşak mercan kayalıklarına, nadir deniz kaplumbağalarına, balinalara, yunuslara, vatozlara ve 1.500'den fazla egzotik balık türüne ev sahipliği yapmaktadır. Dünyanın her yerinden dalgıçlar ve maceraseverler, kristal berraklığındaki turkuaz sulara dalarak bu büyüleyici su altı cennetini keşfetmek için bölgeye akın ederler. Cairns veya Port Douglas gibi kıyı kentlerinden kalkan katamaran turları, ziyaretçileri dış resiflerde yer alan yüzen platformlara ulaştırır. Burada şnorkelle yüzme, tüple dalış (scuba diving), kasklı deniz altı yürüyüşü ve altı cam teknelerle tur atma gibi zengin aktiviteler sunulmaktadır. Ayrıca romantik Heart Reef (Kalp Resifi) ve ikonik Whitehaven Plajı üzerinde gerçekleştirilen helikopter veya deniz uçağı turları, bu eşsiz doğa harikasını gökyüzünden kuş bakışı izleme fırsatı sağlar. Sadece bir turizm cazibe merkezi olmanın ötesinde, küresel deniz ekolojisi için kritik bir koruma alanı olan Great Barrier Reef, sunduğu görsel şölen ve unutulmaz su altı maceralarıyla hayat boyu unutulamayacak muazzam bir seyahat deneyimi vadetmektedir.",
+      "en": "The Great Barrier Reef is the world's largest coral reef system and the only living structure on Earth visible from outer space. Stretching along Queensland's northeastern coast for over 2,300 kilometers, this astonishing natural wonder encompasses more than 2,900 individual reefs, 900 islands, and an unparalleled marine ecosystem that earned it UNESCO World Heritage status in 1981. Brimming with extraordinary biodiversity, the reef serves as a sanctuary for thousands of unique marine species, including vibrant hard and soft corals, endangered sea turtles, humpback whales, reef sharks, rays, and over 1,500 species of tropical fish. Travelers from around the globe converge on primary gateway cities such as Cairns and Port Douglas to experience this aquatic paradise firsthand. High-speed catamarans take adventurers out to spacious outer reef pontoons, offering a diverse array of immersive activities suited for all skill levels. Visitors can engage in world-class snorkeling, scuba diving, guided marine biologist tours, and semi-submersible boat rides. For a truly unforgettable perspective, scenic flights via helicopter or seaplane reveal breathtaking aerial panoramas of the turquoise waters, intricate coral formations, and iconic landmarks like the Heart Reef and Whitsunday Islands. As a vital natural sanctuary and an exhilarating adventure destination, the Great Barrier Reef guarantees a life-changing encounter with the wonders of the natural world.",
       "de": "Das Great Barrier Reef ist das größte Korallenriff der Welt und eignet sich hervorragend zum Schnorcheln und Tauchen. Es ist berühmt für seine lebendigen Korallen, Meereslebewesen und atemberaubende Unterwasserlandschaften."
     },
     "activities": {
       "tr": [
-        "Şnorkelle yüzme",
-        "Tüple dalış",
-        "Deniz canlılarını keşfetmek"
+        "Kristal berraklığındaki dış resiflerde şnorkelle yüzmek ve tüple dalış yapmak",
+        "Helikopter veya deniz uçağı ile Heart Reef (Kalp Resifi) üzerinde manzara uçuşu yapmak",
+        "Altı cam tekneler ve yarı batmalı deniz altıları ile mercanları izlemek",
+        "Deniz biyologları rehberliğinde su altı yaşamı ve ekoloji turlarına katılmak"
       ],
       "en": [
-        "Snorkeling",
-        "Scuba diving",
-        "Exploring marine life"
+        "Snorkeling and scuba diving among vibrant outer reef coral gardens",
+        "Taking scenic helicopter or seaplane flights over Heart Reef and the Whitsundays",
+        "Observing marine life onboard semi-submersible craft and glass-bottom boats",
+        "Joining guided educational eco-tours led by expert marine biologists"
       ],
       "de": [
         "Schnorcheln",
@@ -52,23 +54,25 @@
       "en": "Daintree Rainforest",
       "de": "Daintree Regenwald"
     },
-    "latitude": -16.2333,
-    "longitude": 145.3833,
+    "latitude": -16.1700,
+    "longitude": 145.4200,
     "description": {
-      "tr": "Daintree Rainforest, dünyanın en eski yağmur ormanlarından biridir ve keşif turları ile ünlüdür. Burası biyolojik çeşitliliği ile dikkat çeker.",
-      "en": "The Daintree Rainforest is one of the world’s oldest rainforests and is famous for its exploration tours. It is known for its rich biodiversity.",
+      "tr": "Daintree Rainforest (Daintree Yağmur Ormanı), yaklaşık 180 milyon yıllık geçmişiyle Amazon Yağmur Ormanları'ndan bile eski, gezegenimizdeki en kadim tropikal yağmur ormanıdır. Avustralya'nın Queensland eyaletinin kuzeydoğusunda yer alan bu UNESCO Dünya Mirası alanı, dünyada eşine az rastlanır bir biçimde iki farklı Dünya Mirası bölgesinin — tropikal yağmur ormanı ile Great Barrier Reef mercan kayalıklarının — tam kıyıda buluştuğu Binalar ve Cape Tribulation (Çile Burnu) bölgesini kapsar. Yaklaşık 1.200 kilometrekarelik bir alanı kaplayan Daintree, el değmemiş doğal ekosistemi, büyüleyici dev ağaçları, egzotik eğrelti otları ve inanılmaz biyolojik çeşitliliği ile canlı bir doğa müzesi niteliğindedir. Orman, Avustralya'daki kurbağa, marsupial ve sürüngen türlerinin önemli bir yüzdesine, dünyada nadir görülen uçamayan dinozor benzeri Tepeli Kazuvar (Cassowary) kuşuna ve ağaç kangurularına ev sahipliği yapar. Ziyaretçiler ahşap yürüyüş yolları (boardwalk) üzerinde yürüyerek ormanın kalbini keşfedebilir, Daintree Nehir turlarına katılarak doğal ortamlarında tuzlu su timsahlarını gözlemleyebilir veya ağaç tepelerine kurulan çelik halat hatlarında (zipline) macera dolu anlar yaşayabilirler. Kuku Yalanji Aborjin halkının binlerce yıllık atasal toprakları olan bu bölge, yerel kültür turları sayesinde doğayla kurulan kadim bağları anlamak için de eşsiz bir fırsat sunar. Yemyeşil orman örtüsünün turkuaz Okyanus sularıyla birleştiği sahilleri, saklı şelaleleri ve büyüleyici atmosferiyle Daintree, doğa tutkunlarının kaçırmaması gereken efsanevi bir duraktır.",
+      "en": "The Daintree Rainforest is widely recognized as the oldest continuously surviving tropical rainforest on Earth, with an estimated age of over 180 million years—predating even the Amazon. Located in Far North Queensland, this UNESCO World Heritage-listed eco-wonder spans approximately 1,200 square kilometers and represents an invaluable living museum of ancient flora and fauna. Daintree holds a unique geographical distinction as one of the very few places where two World Heritage sites meet directly, as the dense rainforest canopy tumbles straight down to touch the fringe reefs of the Great Barrier Reef at Cape Tribulation. Home to incredible biodiversity, the forest shelters thousands of plant species and rare wildlife, including the endangered Southern Cassowary, Bennett's tree-kangaroos, brilliant Ulysses butterflies, and prehistoric saltwater crocodiles. Visitors can explore this untamed wilderness via elevated rainforest boardwalks, experience thrilling river cruises along the Daintree River to spot wild crocodiles and tropical birds, or fly through the ancient canopy on zipline adventures. Deeply rooted in the cultural history of the Indigenous Kuku Yalanji people, the Daintree offers meaningful cultural tours that share traditional ecological knowledge and bush medicine practices. With its pristine beaches, cascading freshwater waterfalls, and ancient green canopy, the Daintree Rainforest provides an unforgettable journey into primeval nature.",
       "de": "Der Daintree Regenwald ist einer der ältesten Regenwälder der Welt und berühmt für seine Entdeckungstouren. Er ist bekannt für seine reiche Biodiversität."
     },
     "activities": {
       "tr": [
-        "Yağmur ormanında yürüyüş yapmak",
-        "Doğal yaşamı gözlemlemek",
-        "Keşif turlarına katılmak"
+        "Daintree Nehrinde timsah ve yaban hayatı gözlem tekneleriyle tura katılmak",
+        "Jindalba ve Marrdja ahşap yürüyüş yollarında kadim bitkiler arasında gezmek",
+        "Kuku Yalanji Aborjin rehberleri eşliğinde kültür ve doğa yürüyüşleri yapmak",
+        "Cape Tribulation sahilinde orman ile mercan resifinin buluştuğu noktayı keşfetmek"
       ],
       "en": [
-        "Hiking in the rainforest",
-        "Wildlife observation",
-        "Participating in exploration tours"
+        "Cruising along the Daintree River to spot wild crocodiles and native birds",
+        "Walking elevated boardwalk trails through ancient rainforest canopies at Jindalba",
+        "Taking cultural guided tours with the traditional Kuku Yalanji custodians",
+        "Exploring Cape Tribulation where the rainforest meets the Great Barrier Reef"
       ],
       "de": [
         "Wandern im Regenwald",
@@ -98,23 +102,25 @@
       "en": "Kuranda",
       "de": "Kuranda"
     },
-    "latitude": -16.8224,
-    "longitude": 145.6969,
+    "latitude": -16.8197,
+    "longitude": 145.6378,
     "description": {
-      "tr": "Kuranda, yağmur ormanı içinde yer alan geleneksel pazarlara ve otantik kültüre sahip bir kasabadır. Burada sanat galerileri, el sanatları dükkanları ve eski pazarlar bulunmaktadır.",
-      "en": "Kuranda is a village set within the rainforest, known for its traditional markets and authentic culture. The village features art galleries, handicraft shops, and historic markets.",
+      "tr": "Kuranda, Avustralya'nın Queensland eyaletinde, Atherton Tablelands bölgesinin kenarında ve el değmemiş yağmur ormanlarının tam ortasında yer alan büyüleyici ve bohem bir dağ kasabasıdır. 'Yağmur Ormanındaki Kasaba' olarak anılan bu tarihi yerleşim, 1960'lardan itibaren sanatçıların, zanaatkarların ve alternatif yaşamı benimseyenlerin yerleşmesiyle kendine özgü, renkli ve kültürel bir kimlik kazanmıştır. Kasabanın en büyük çekim noktalarından biri, haftanın her günü açık olan dünyaca ünlü Kuranda Orijinal Pazarları ve Kuranda Miras Pazarları'dır. Bu pazarlarda yerel sanatçılar tarafından yapılan el yapımı takılar, ahşap oymalar, Aborjin sanat eserleri, otantik deri ürünler ve leziz organik gıdalar sergilenir. Kuranda'ya ulaşım süreci de en az kasabanın kendisi kadar büyüleyici bir maceradır. Ziyaretçiler genellikle Cairns'ten kalkan tarihi Kuranda Scenic Railway treniyle yoğun yağmur ormanı vadilerini ve Barron Şelaleleri'ni aşarak kasabaya varır ya da Skyrail Rainforest Cableway teleferiği ile orman tavanının metrelerce üzerinden süzülerek panoramik bir yolculuk yaparlar. Kasaba merkezinde yürüyüş mesafesinde yer alan Kuranda Kelebek Evi (Australian Butterfly Sanctuary), Kuş Dünyası ve Koala Bahçeleri gibi parklar, ziyaretçilerin egzotik tropikal canlılarla yakın temas kurmasına olanak tanır. Görkemli Barron Kanyonu'nun hemen yanı başında yer alan Kuranda, doğanın huzuruyla bohem kültürün eğlencesini harmanlayan benzersiz bir gezi rotasıdır.",
+      "en": "Kuranda is a picturesque and bohemian mountain village uniquely nestled high in the tropical rainforest of Far North Queensland, perched on the edge of the Atherton Tablelands. Known fondly as 'The Village in the Rainforest,' Kuranda transformed in the late 1960s into a vibrant haven for local artists, craftspeople, and musicians, developing a distinct culture that seamlessly blends artistic flair with natural beauty. The town's central attractions are its world-famous open-air markets—the Kuranda Original Rainforest Markets and the Heritage Markets. Here, travelers can browse through colorful stalls offering hand-crafted woodwork, unique jewelry, authentic Indigenous Aboriginal art, local coffee, and tropical treats. Reaching the village is an extraordinary journey in itself: visitors often arrive aboard the historic Kuranda Scenic Railway, which winds past dramatic waterfalls and rocky gorges, or via the Skyrail Rainforest Cableway, a gondola ride gliding just meters above the dense forest canopy. Within the village, wildlife sanctuaries such as the Australian Butterfly Sanctuary, Birdworld, and Kuranda Koala Gardens allow guests to encounter vibrant tropical fauna up close. Overlooking the breathtaking Barron Falls and Barron Gorge National Park, Kuranda combines artistic charm, rich cultural history, and magnificent nature, making it a must-visit destination for anyone traveling through Northern Australia.",
       "de": "Kuranda ist ein Dorf im Regenwald, bekannt für seine traditionellen Märkte und authentische Kultur. Das Dorf beherbergt Kunstgalerien, Handwerksläden und historische Märkte."
     },
     "activities": {
       "tr": [
-        "Pazarlarda alışveriş yapmak",
-        "Sanat galerilerini gezmek",
-        "Doğal güzellikleri keşfetmek"
+        "Kuranda Miras Pazarlarında el sanatları ve yerel Aborjin ürünleri alışverişi yapmak",
+        "Skyrail teleferiği ve Kuranda Scenic Railway treni ile orman manzaralı yolculuk yapmak",
+        "Barron Şelaleleri seyir terasından görkemli kanyon ve şelale manzarasını izlemek",
+        "Australian Butterfly Sanctuary'de binlerce tropikal kelebek arasında yürümek"
       ],
       "en": [
-        "Shopping at markets",
-        "Visiting art galleries",
-        "Exploring natural beauty"
+        "Shopping for handcrafted arts, jewelry, and Indigenous crafts at the Kuranda Markets",
+        "Riding the historic Kuranda Scenic Railway and Skyrail Rainforest Cableway",
+        "Enjoying dramatic views of Barron Falls and Barron Gorge from scenic lookouts",
+        "Walking amongst thousands of free-flying tropical butterflies at the Butterfly Sanctuary"
       ],
       "de": [
         "Auf Märkten einkaufen",
@@ -144,23 +150,25 @@
       "en": "Cairns Esplanade Lagoon",
       "de": "Cairns Esplanade Lagoon"
     },
-    "latitude": -16.9236,
-    "longitude": 145.7732,
+    "latitude": -16.9205,
+    "longitude": 145.7781,
     "description": {
-      "tr": "Cairns Esplanade Lagoon, şehir merkezinde bulunan geniş bir lagündür. Yüzme ve dinlenme için mükemmel bir yerdir. Ayrıca, çevresindeki yürüyüş parkurları ile dinlenmek için ideal bir alandır.",
-      "en": "The Cairns Esplanade Lagoon is a large lagoon located in the city center. It is perfect for swimming and relaxing, with surrounding walking paths that make it an ideal place to unwind.",
+      "tr": "Cairns Esplanade Lagoon, Cairns kent merkezinin kalbinde, sahil kordonunda yer alan 4.800 metrekarelik devasa ve ikonik bir yapay tuzlu su yüzme kompleksidir. Cairns kıyılarının çamurlu yapısı ve denizde bulunan denizanası ile timsah riski nedeniyle güvenli yüzme imkanı sunmak amacıyla inşa edilen bu lagün, hem yerel halkın hem de kente gelen turistlerin en favori buluşma noktasıdır. Yaklaşık 1.000 kişiyi aynı anda ağırlayabilen lagün, kumsal hissi veren beyaz kumlu kıyıları, kristal berraklığındaki suyu, kademeli sığlaşan çocuk alanları ve yerel sanatçı Brian Robinson tarafından tasarlanan ikonik dokuz adet dokuma balık heykel fıskiyesi ile dikkat çeker. Tesis tamamen ücretsiz olup yılın 365 günü cankurtaran denetimi altında güvenli bir yüzme ve güneşlenme imkanı sağlar. Lagünün çevresi bakımlı yeşil çimlikler, gölgelik palmiye ağaçları, ücretsiz halka açık barbekü (BBQ) istasyonları ve modern piknik masaları ile donatılmıştır. Günün erken saatlerinden itibaren lagün çevresindeki kordonda yürüyüş, koşu veya yoga yapan insanları görmek mümkündür. Ayrıca sahil kordonu boyunca sıralanan açık hava kafeleri, dondurmacılar ve akşamları kurulan canlı pazar tezgahları bölgeye bitmek bilmeyen bir hareketlilik katar. Trinity Körfezi'nin ve limana giren teknelerin manzarasına karşı güneşlenmek, serinlemek veya akşam üzeri ailenizle barbekü yapmak için Cairns Esplanade Lagoon, şehrin en canlı, huzurlu ve büyüleyici atmosferine sahiptir.",
+      "en": "The Cairns Esplanade Lagoon is a massive 4,800-square-meter saltwater swimming lagoon positioned directly along the vibrant waterfront of central Cairns. Designed as a safe, stinger-free, and crocodile-safe swimming haven to offset the tidal mudflats of Trinity Bay, this iconic public amenity serves as the social beat and recreational heart of the city. Accommodating up to 1,000 swimmers, the lagoon features crystal-clear filtered saltwater, sandy artificial beaches, timber sunbathing decks, and shallow splash zones ideal for young children. Its most recognizable feature is the set of nine stainless steel fish sculptures created by Indigenous artist Brian Robinson, which fountain water into the pool. Completely free to enter and monitored year-round by professional lifeguards, the lagoon offers an ideal spot for relaxation and active leisure. Surrounding the water are lush, meticulously maintained lawns shaded by tropical palms, equipped with free public electric barbecues, picnic tables, and fitness equipment. Visitors can enjoy early morning yoga on the grass, take scenic strolls along the Esplanade boardwalk, or savor ice cream from adjacent waterfront cafes. As sunset approaches, the precinct lights up with lively night markets and street performers, offering an energetic tropical atmosphere for tourists and locals alike.",
       "de": "Die Cairns Esplanade Lagoon ist eine große Lagune im Stadtzentrum. Sie ist perfekt zum Schwimmen und Entspannen, mit umgebenden Wanderwegen, die sie zu einem idealen Ort zum Ausruhen machen."
     },
     "activities": {
       "tr": [
-        "Yüzmek",
-        "Dinlenmek",
-        "Yürüyüş yapmak"
+        "Güvenli ve ücretsiz tuzlu su lagününde yüzmek ve kumsalda güneşlenmek",
+        "Çim alanlardaki ücretsiz elektrikli barbekü istasyonlarında piknik yapmak",
+        "Esplanade sahil kordonu boyunca nehir ve deniz manzaralı yürüyüş yapmak",
+        "Akşamları kordon boyunca kurulan pazarları ve açık hava performanslarını izlemek"
       ],
       "en": [
-        "Swimming",
-        "Relaxing",
-        "Walking"
+        "Swimming in the safe, lifeguarded saltwater lagoon and sunbathing on sandy shores",
+        "Enjoying outdoor picnics using the free public electric barbecue facilities",
+        "Walking or jogging along the scenic waterfront Esplanade boardwalk",
+        "Browsing the evening Esplanade markets and enjoying street entertainment"
       ],
       "de": [
         "Schwimmen",
@@ -190,23 +198,25 @@
       "en": "Atherton Tablelands",
       "de": "Atherton Tablelands"
     },
-    "latitude": -17.5,
-    "longitude": 145.4,
+    "latitude": -17.2656,
+    "longitude": 145.4780,
     "description": {
-      "tr": "Atherton Tablelands, şelaleler, doğal parklar ve kanyonlarla ünlü bir bölgedir. Doğa severler için mükemmel bir yerdir ve yürüyüş yaparken harika manzaralar sunar.",
-      "en": "The Atherton Tablelands is an area famous for its waterfalls, natural parks, and canyons. It is a great place for nature lovers and offers stunning views while hiking.",
+      "tr": "Atherton Tablelands, Avustralya'nın Queensland eyaletinde, Great Dividing Range dağ sırasının üzerinde yer alan, ortalama 600 ile 1.100 metre yüksekliğe sahip büyüleyici bir volkanik plato bölgesidir. Cairns'in tropikal nemli iklimine kıyasla daha serin, ferahlatıcı havası, verimli volkanik toprakları ve yemyeşil tarım arazileri ile bilinen bu alan, doğa severler ve gurme gezginler için büyüleyici bir kaçış noktasıdır. Bölge; krater gölleri, çağlayan şelaleleri, dramatik kanyonları ve el değmemiş yağmur ormanlarıyla doludur. Atherton Tablelands'in en ünlü rotalarından biri, Millaa Millaa, Zillie ve Ellinjaa şelalelerini içeren büyüleyici 'Waterfall Circuit' (Şelale Rotası)'dır. Burada ziyaretçiler tropikal şelalelerin oluşturduğu doğal havuzlarda serinleyebilir ve fotoğraflar çekebilirler. Eski volkanik patlamalar sonucu oluşan Lake Barrine ve Lake Eacham gibi dev krater gölleri ise sakin suları ve etraflarını saran zengin orman yolları ile kano, yüzme ve kuş gözlemciliği için mükemmel imkanlar sunar. Bölge aynı zamanda nadir görülen Ornitorenkleri (Platypus) doğal ortamında canlı izleme şansı sunan Yungaburra kasabasına ve 500 yıldan daha yaşlı dev perde figürlü ağaç 'Curtain Fig Tree'ye ev sahipliği yapar. Zengin tarımsal üretimi sayesinde kahve çiftlikleri, çay tarlaları, tropikal meyve bahçeleri, yerel peynir imalathaneleri ve gurme pazarlarıyla Atherton Tablelands, hem göze hem de damağa hitap eden benzersiz bir keşif alanıdır.",
+      "en": "The Atherton Tablelands is a fertile, elevated plateau region nestled within the Great Dividing Range in Far North Queensland, ranging between 600 and 1,100 meters above sea level. Famed for its refreshing cooler climate, rich volcanic soils, rolling green hills, and dramatic natural scenery, this region offers a stark, beautiful contrast to the coastal tropical humidity of Cairns. The Tablelands are world-renowned for their spectacular natural attractions, including ancient crater lakes, dramatic gorges, lush rainforests, and world-class waterfalls. A major highlight for travelers is the famous 17-kilometer 'Waterfall Circuit,' featuring the picturesque Millaa Millaa Falls, Zillie Falls, and Ellinjaa Falls, where visitors can swim beneath cascading waters surrounded by tropical flora. Extinct volcanic craters formed deep, serene lakes such as Lake Eacham and Lake Barrine, providing tranquil settings for open-water swimming, kayaking, and scenic boat cruises. The region is also a wildlife haven; near the historic town of Yungaburra, dedicated observation decks offer rare opportunities to spot elusive wild platypuses in their natural river habitats, while nearby stands the awe-inspiring Curtain Fig Tree, a giant 500-year-old strangler fig. Beyond nature, the Atherton Tablelands is Queensland's food bowl, renowned for its boutique coffee plantations, artisan cheese factories, mango wineries, and vibrant local farmers' markets, offering a complete sensory travel experience.",
       "de": "Die Atherton Tablelands ist eine Region, die für ihre Wasserfälle, Naturparks und Schluchten bekannt ist. Es ist ein großartiger Ort für Naturliebhaber und bietet beim Wandern atemberaubende Ausblicke."
     },
     "activities": {
       "tr": [
-        "Doğa yürüyüşleri yapmak",
-        "Şelaleleri keşfetmek",
-        "Doğal parklarda gezmek"
+        "Millaa Millaa ve çevresindeki ünlü Şelale Rotasını (Waterfall Circuit) gezmek",
+        "Lake Eacham ve Lake Barrine krater göllerinde yüzmek ve kano yapmak",
+        "Yungaburra yakınlarındaki nehirlerde doğal ortamında canlı Ornitorenk (Platypus) aramak",
+        "Bölgedeki kahve çiftliklerini, peynir imalathanelerini ve gurme pazarları ziyaret etmek"
       ],
       "en": [
-        "Hiking",
-        "Exploring waterfalls",
-        "Wandering in natural parks"
+        "Touring the famous Waterfall Circuit including Millaa Millaa Falls and Zillie Falls",
+        "Swimming and kayaking in extinct volcanic crater lakes like Lake Eacham",
+        "Spotting rare wild platypuses from viewing platforms near historic Yungaburra",
+        "Visiting boutique coffee plantations, artisan creameries, and local food markets"
       ],
       "de": [
         "Wandern",

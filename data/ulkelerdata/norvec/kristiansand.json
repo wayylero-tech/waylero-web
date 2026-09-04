@@ -2,87 +2,349 @@
   {
     "slug": "kristiansand-hayvanat-bahcesi",
     "name": {
-      "tr": "Kristiansand Hayvanat Bahçesi",
-      "en": "Kristiansand Zoo",
-      "de": "Kristiansand Zoo"
+      "tr": "Kristiansand Hayvanat Bahçesi ve Eğlence Parkı",
+      "en": "Kristiansand Zoo and Amusement Park",
+      "de": "Kristiansand Zoo und Vergnügungspark"
     },
-    "latitude": 58.141,
-    "longitude": 7.9893,
+    "latitude": 58.18506,
+    "longitude": 8.14141,
     "description": {
-      "tr": "Kristiansand Hayvanat Bahçesi, Norveç'in en büyük hayvanat bahçelerinden biridir. Pek çok egzotik hayvan ve eğlenceli aktiviteler sunar.",
-      "en": "Kristiansand Zoo is one of Norway's largest zoos. It offers many exotic animals and fun activities.",
-      "de": "Der Kristiansand Zoo ist einer der größten Zoos Norwegens. Er bietet viele exotische Tiere und unterhaltsame Aktivitäten."
+      "tr": "Kristiansand Hayvanat Bahçesi ve Eğlence Parkı (Dyreparken), Norveç'in en önemli aile ve turizm destinasyonlarından biridir ve Kristiansand'ın yaklaşık 11-12 kilometre doğusunda yer alır. Klasik bir hayvanat bahçesinden çok daha kapsamlı olan parkta dünyanın farklı bölgelerinden 100'den fazla hayvan türü bulunur. Aslan, kaplan, zürafa, vaşak, kurt ve geyik gibi türlerin yanı sıra farklı tematik alanlar da ziyaretçilere sunulur. Parkın en dikkat çekici bölümleri arasında Thorbjørn Egner'in hikâyelerinden esinlenen Kardemomme By ve Hakkebakkeskogen ile korsan temalı Kaptein Sabeltanns Verden bulunur. Ayrıca eğlence parkı oyuncakları, su parkı, gösteriler ve çocuklara yönelik aktiviteler sayesinde ziyaret yalnızca hayvan gözleminden ibaret değildir. Park yıl boyunca açık olsa da bazı aktivitelerin ve gösterilerin çalışma dönemleri mevsime göre değişir.",
+      "en": "Kristiansand Zoo and Amusement Park (Dyreparken) is one of Norway's major family and tourist destinations, located about 11–12 kilometres east of Kristiansand. It is much more than a traditional zoo, with more than 100 animal species from different parts of the world. Visitors can see animals such as lions, tigers, giraffes, lynx, wolves and deer, while exploring a variety of themed areas. Highlights include Kardemomme By and Hakkebakkeskogen, inspired by the stories of Norwegian author Thorbjørn Egner, as well as the pirate-themed Captain Sabertooth's World. The destination also combines amusement rides, a water park, live entertainment and activities for children. The park is open year-round, although individual attractions and shows operate according to the season.",
+      "de": "Der Kristiansand Zoo und Vergnügungspark (Dyreparken) gehört zu den bedeutendsten Familien- und Touristenzielen Norwegens und liegt etwa 11–12 Kilometer östlich von Kristiansand. Die Anlage ist weit mehr als ein klassischer Zoo und beherbergt über 100 Tierarten aus verschiedenen Teilen der Welt. Zu sehen sind unter anderem Löwen, Tiger, Giraffen, Luchse, Wölfe und Hirsche. Zu den thematischen Bereichen gehören Kardemomme By und Hakkebakkeskogen, die auf den Geschichten des norwegischen Autors Thorbjørn Egner basieren, sowie die Piratenwelt von Kaptein Sabeltann. Zusätzlich gibt es Fahrgeschäfte, einen Wasserpark, Shows und zahlreiche Aktivitäten für Kinder. Der Park ist ganzjährig geöffnet, wobei die Öffnungszeiten einzelner Attraktionen und Veranstaltungen saisonabhängig sind."
     },
     "activities": {
       "tr": [
-        "Hayvanat bahçesini keşfetme",
-        "Eğlence parkında vakit geçirme"
+        "Hayvanları gözlemleme",
+        "Tematik alanları keşfetme",
+        "Kardemomme By'yi gezme",
+        "Hakkebakkeskogen'i keşfetme",
+        "Korsan temalı Kaptein Sabeltann dünyasını deneyimleme",
+        "Eğlence parkı aktivitelerine katılma",
+        "Su parkında vakit geçirme",
+        "Gösteri ve etkinlikleri izleme",
+        "Çocuk aktivitelerine katılma"
       ],
       "en": [
-        "Explore the zoo",
-        "Spend time at the amusement park"
+        "Observe animals",
+        "Explore themed areas",
+        "Visit Kardemomme By",
+        "Explore Hakkebakkeskogen",
+        "Experience the Captain Sabertooth pirate world",
+        "Enjoy amusement park attractions",
+        "Spend time at the water park",
+        "Watch shows and entertainment",
+        "Join children's activities"
       ],
       "de": [
-        "Den Zoo erkunden",
-        "Zeit im Vergnügungspark verbringen"
+        "Tiere beobachten",
+        "Thematische Bereiche erkunden",
+        "Kardemomme By besuchen",
+        "Hakkebakkeskogen erkunden",
+        "Die Piratenwelt von Kaptein Sabeltann erleben",
+        "Attraktionen des Vergnügungsparks nutzen",
+        "Zeit im Wasserpark verbringen",
+        "Shows und Unterhaltung ansehen",
+        "An Kinderaktivitäten teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "park"
+        "hayvanat bahçesi",
+        "eğlence parkı",
+        "su parkı",
+        "aile",
+        "çocuk"
       ],
       "en": [
-        "park"
+        "zoo",
+        "amusement park",
+        "water park",
+        "family",
+        "children"
       ],
       "de": [
-        "park"
+        "Zoo",
+        "Vergnügungspark",
+        "Wasserpark",
+        "Familie",
+        "Kinder"
       ]
     },
     "images": [
-      "https://example.com/kristiansand_zoo.jpg"
+      "https://media.snl.no/media/299520/standard_compressed_Foto_Dyreparken__2_.jpg",
+      "https://www.dyreparken.no/content/uploads/2019/02/20230705-DSC_3502-1200x800-5b2df79-768x512.jpg"
     ]
   },
   {
     "slug": "posebyen",
     "name": {
-      "tr": "Posebyen",
-      "en": "Posebyen",
-      "de": "Posebyen"
+      "tr": "Posebyen Tarihi Mahallesi",
+      "en": "Posebyen Old Town",
+      "de": "Altstadt Posebyen"
     },
-    "latitude": 58.1435,
-    "longitude": 7.9957,
+    "latitude": 58.14861,
+    "longitude": 7.99889,
     "description": {
-      "tr": "Posebyen, Kristiansand'ın eski ve renkli taş evlerle dolu bölgesidir. Bu alan şehri gezmenin keyifli bir yoludur.",
-      "en": "Posebyen is an area filled with old, colorful stone houses in Kristiansand. It's a fun way to explore the city.",
-      "de": "Posebyen ist ein Gebiet in Kristiansand, das mit alten, bunten Steinhäusern gefüllt ist. Es ist eine unterhaltsame Möglichkeit, die Stadt zu erkunden."
+      "tr": "Posebyen, Kristiansand'ın tarihi merkezindeki en karakteristik mahallelerden biridir ve Güney Norveç'in geleneksel ahşap mimarisini görmek için şehrin en güzel bölgelerinden biridir. Mahalle, beyaz boyalı, alçak ahşap evleri ve sakin sokaklarıyla tanınır. 1892'de Kristiansand'da meydana gelen büyük şehir yangını şehrin önemli bir bölümünü yok ederken Posebyen'deki ahşap yapıların önemli bir kısmı ayakta kalmıştır. Bu nedenle bölge, eski Kristiansand'ın mimari karakterini günümüze taşıyan önemli bir alan haline gelmiştir. Sokaklarda yürürken tarihi evlerin cephelerini, küçük avluları ve geleneksel detayları görebilir; bazı bölümlerde kafeler, küçük dükkânlar ve kültürel mekânlarla karşılaşabilirsiniz. Posebyen, özellikle yürüyerek ve fotoğraf çekerek keşfetmek için uygundur.",
+      "en": "Posebyen is one of the most distinctive historic districts in central Kristiansand and one of the best places to experience the traditional wooden architecture of Southern Norway. The neighbourhood is known for its low, white-painted wooden houses and quiet streets. When a major city fire struck Kristiansand in 1892, large parts of the city were destroyed, while much of Posebyen's wooden architecture survived. As a result, the district preserves an important part of the architectural character of historic Kristiansand. Walking through the streets reveals traditional façades, small courtyards and historic details, along with cafés, small shops and cultural spaces in parts of the neighbourhood. Posebyen is particularly enjoyable to explore on foot and is popular for architectural photography.",
+      "de": "Posebyen ist eines der charakteristischsten historischen Viertel im Zentrum von Kristiansand und ein hervorragender Ort, um die traditionelle Holzarchitektur Südnorwegens kennenzulernen. Das Viertel ist für seine niedrigen, weiß gestrichenen Holzhäuser und ruhigen Straßen bekannt. Beim großen Stadtbrand von Kristiansand im Jahr 1892 wurden weite Teile der Stadt zerstört, während ein großer Teil der Holzbebauung von Posebyen erhalten blieb. Dadurch bewahrt das Viertel einen wichtigen Teil des historischen Stadtbildes von Kristiansand. Bei einem Spaziergang lassen sich traditionelle Fassaden, kleine Innenhöfe und architektonische Details entdecken. In einigen Bereichen gibt es außerdem Cafés, kleine Geschäfte und kulturelle Einrichtungen. Posebyen eignet sich besonders gut für Spaziergänge und Architekturfotografie."
     },
     "activities": {
       "tr": [
-        "Tarihi mahalleyi gezme",
-        "Kafelerde dinlenme"
+        "Tarihi sokaklarda yürüyüş",
+        "Ahşap evleri keşfetme",
+        "Mimari fotoğrafçılık",
+        "Küçük dükkânları gezme",
+        "Kafelerde dinlenme",
+        "Posebyhaven'ı keşfetme",
+        "Tarihi yapıları inceleme"
       ],
       "en": [
-        "Explore the historic district",
-        "Relax at the cafes"
+        "Walk through historic streets",
+        "Explore traditional wooden houses",
+        "Take architectural photographs",
+        "Visit small shops",
+        "Relax at cafés",
+        "Explore Posebyhaven",
+        "Discover historic buildings"
       ],
       "de": [
-        "Das historische Viertel erkunden",
-        "In den Cafés entspannen"
+        "Durch historische Straßen spazieren",
+        "Traditionelle Holzhäuser entdecken",
+        "Architekturfotografie",
+        "Kleine Geschäfte besuchen",
+        "In Cafés entspannen",
+        "Posebyhaven erkunden",
+        "Historische Gebäude entdecken"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi mahalle",
+        "mimari",
+        "kültür",
+        "yürüyüş",
+        "fotoğrafçılık"
       ],
       "en": [
-        "historic square"
+        "historic district",
+        "architecture",
+        "culture",
+        "walking",
+        "photography"
       ],
       "de": [
-        "historischer Platz"
+        "historisches Viertel",
+        "Architektur",
+        "Kultur",
+        "Spaziergang",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/posebyen.jpg"
+      "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill%2Ch_799%2Cq_75%2Cw_1200/v1/clients/visitsorlandet/Posebyen_Visit_S_rlandet_21362810-a9c2-4d80-a130-2c5ca04d15bd.jpg"
+    ]
+  },
+  {
+    "slug": "kunstsilo",
+    "name": {
+      "tr": "Kunstsilo",
+      "en": "Kunstsilo",
+      "de": "Kunstsilo"
+    },
+    "latitude": 58.13838,
+    "longitude": 7.99712,
+    "description": {
+      "tr": "Kunstsilo, Kristiansand'ın Odderøya kıyısında eski bir tahıl silosunun dönüştürülmesiyle oluşturulmuş çağdaş bir sanat ve kültür merkezidir. 1935 tarihli silo yapısı, 2024 yılında müze olarak ziyarete açılmış ve modern mimarisiyle Kristiansand'ın yeni kültür bölgesinin simgelerinden biri haline gelmiştir. Müzenin koleksiyonlarının merkezinde Tangen Koleksiyonu, Sørlandet Sanat Koleksiyonu ve Christianssands Billedgalleri koleksiyonu bulunur. Tangen Koleksiyonu özellikle İskandinav modernizmine odaklanır ve binada geçici sergilerin yanı sıra etkinlikler, atölyeler, rehberli turlar, restoran ve dokuzuncu kattaki Panorama bölümü bulunur.",
+      "en": "Kunstsilo is an art and cultural centre created by transforming a former grain silo on the waterfront of Odderøya in Kristiansand. The 1935 silo building opened as a museum in 2024 and has become one of the symbols of Kristiansand's emerging cultural district. Its collections include the Tangen Collection, the Southern Norway Art Collection and the Christianssands Billedgalleri collection. The Tangen Collection has a strong focus on Nordic modernism. Alongside exhibitions, Kunstsilo offers temporary shows, guided tours, workshops, cultural events, a brasserie and the Panorama space on the ninth floor.",
+      "de": "Kunstsilo ist ein Kunst- und Kulturzentrum am Wasser auf Odderøya in Kristiansand, das aus einem ehemaligen Getreidesilo entstanden ist. Das Silo aus dem Jahr 1935 wurde 2024 als Museum eröffnet und gehört heute zu den markanten Symbolen des neuen Kulturviertels von Kristiansand. Zu den Sammlungen gehören die Tangen-Sammlung, die Kunstsammlung Südnorwegens und die Sammlung der Christianssands Billedgalleri. Die Tangen-Sammlung konzentriert sich insbesondere auf die nordische Moderne. Neben Ausstellungen bietet Kunstsilo Führungen, Workshops, Kulturveranstaltungen, ein Brasserie-Restaurant und den Panorama-Bereich im neunten Stock."
+    },
+    "activities": {
+      "tr": [
+        "Sanat sergilerini gezme",
+        "İskandinav modernizmini keşfetme",
+        "Rehberli turlara katılma",
+        "Panorama bölümünden manzara izleme",
+        "Atölyelere ve kültürel etkinliklere katılma",
+        "Brasserie'de vakit geçirme"
+      ],
+      "en": [
+        "Explore art exhibitions",
+        "Discover Nordic modernism",
+        "Join guided tours",
+        "Enjoy views from the Panorama area",
+        "Attend workshops and cultural events",
+        "Spend time at the brasserie"
+      ],
+      "de": [
+        "Kunstausstellungen besuchen",
+        "Nordische Moderne entdecken",
+        "An Führungen teilnehmen",
+        "Die Aussicht vom Panorama genießen",
+        "An Workshops und Kulturveranstaltungen teilnehmen",
+        "Zeit in der Brasserie verbringen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sanat",
+        "müze",
+        "kültür",
+        "modern mimari",
+        "manzara"
+      ],
+      "en": [
+        "art",
+        "museum",
+        "culture",
+        "modern architecture",
+        "viewpoint"
+      ],
+      "de": [
+        "Kunst",
+        "Museum",
+        "Kultur",
+        "moderne Architektur",
+        "Aussichtspunkt"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kunstsilo%20Kristiansand.jpg"
+    ]
+  },
+  {
+    "slug": "fiskebrygga",
+    "name": {
+      "tr": "Fiskebrygga Balıkçı Rıhtımı",
+      "en": "Fiskebrygga Fish Wharf",
+      "de": "Fiskebrygga Fischkai"
+    },
+    "latitude": 58.14088,
+    "longitude": 7.9954,
+    "description": {
+      "tr": "Fiskebrygga, Kristiansand'ın liman ve kanal çevresindeki en canlı sahil bölgelerinden biridir. Tarihi balıkçı iskelesi ve balıkçılık geçmişi üzerine gelişen bölge, bugün restoranlar, kafeler, mağazalar, balık pazarı ve teknelerin bulunduğu hareketli bir turizm alanına dönüşmüştür. Renkli ahşap cepheli yapılar Gravane Kanalı boyunca sıralanır ve özellikle yaz aylarında açık hava oturma alanlarıyla canlanır. Deniz kenarında yemek yemek, tekneleri izlemek ve şehir merkezinden Odderøya yönüne doğru yürümek için güzel bir duraktır.",
+      "en": "Fiskebrygga is one of Kristiansand's liveliest waterfront areas around the harbour and canal. Developed from the city's former fish landing, the area has evolved into a popular destination with restaurants, cafés, shops, a fish market and boats along the waterfront. Colourful wooden-fronted buildings line the Gravane Canal, creating a distinctive maritime atmosphere, especially during the summer. It is a pleasant place to enjoy a meal by the water, watch the boats and continue walking towards Odderøya.",
+      "de": "Fiskebrygga gehört zu den lebendigsten Uferbereichen von Kristiansand rund um den Hafen und den Kanal. Das ehemalige Fischanlandungsgebiet wurde zu einem beliebten Ausflugsziel mit Restaurants, Cafés, Geschäften, Fischmarkt und Booten am Wasser entwickelt. Entlang des Gravane-Kanals stehen farbenfrohe Gebäude mit Holzfassaden und verleihen dem Viertel besonders im Sommer eine maritime Atmosphäre. Hier kann man am Wasser essen, Boote beobachten und den Spaziergang in Richtung Odderøya fortsetzen."
+    },
+    "activities": {
+      "tr": [
+        "Sahil boyunca yürüyüş",
+        "Balık pazarını keşfetme",
+        "Restoran ve kafelerde vakit geçirme",
+        "Tekneleri izleme",
+        "Deniz kenarında fotoğraf çekme",
+        "Odderøya yönünde yürüyüş"
+      ],
+      "en": [
+        "Walk along the waterfront",
+        "Explore the fish market",
+        "Visit restaurants and cafés",
+        "Watch the boats",
+        "Take waterfront photographs",
+        "Walk towards Odderøya"
+      ],
+      "de": [
+        "Am Wasser spazieren",
+        "Den Fischmarkt erkunden",
+        "Restaurants und Cafés besuchen",
+        "Boote beobachten",
+        "Am Wasser fotografieren",
+        "In Richtung Odderøya spazieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "sahil",
+        "liman",
+        "yemek",
+        "alışveriş",
+        "şehir",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "waterfront",
+        "harbour",
+        "food",
+        "shopping",
+        "city",
+        "photography"
+      ],
+      "de": [
+        "Uferpromenade",
+        "Hafen",
+        "Gastronomie",
+        "Einkaufen",
+        "Stadt",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frafiskebrygga.JPG"
+    ]
+  },
+  {
+    "slug": "christiansholm-kalesi",
+    "name": {
+      "tr": "Christiansholm Kalesi",
+      "en": "Christiansholm Fortress",
+      "de": "Festung Christiansholm"
+    },
+    "latitude": 58.14412,
+    "longitude": 8.00357,
+    "description": {
+      "tr": "Christiansholm Kalesi, Kristiansand'ı denizden gelebilecek saldırılara karşı korumak amacıyla inşa edilen 17. yüzyıl savunma yapısıdır. Kale 1672 yılında tamamlanmış ve Kristiansand'ın kuruluş dönemindeki savunma sisteminin önemli parçalarından biri olmuştur. Başlangıçta kıyıya yakın küçük bir ada üzerinde bulunan yapı günümüzde karayla bağlantılıdır. Taş duvarları, yuvarlak planlı ana yapısı ve kırmızı kiremitli çatısıyla şehrin sahil kesimindeki en dikkat çekici tarihi yapılardan biridir. Kale çevresindeki yürüyüş alanlarından liman ve deniz manzaraları görülebilir.",
+      "en": "Christiansholm Fortress is a 17th-century defensive structure built to protect Kristiansand from attacks by sea. Completed in 1672, it formed an important part of the city's early defensive system. The fortress was originally built on a small islet close to the shore and is now connected to the mainland. Its stone walls, circular main structure and red-tiled roof make it one of the most distinctive historic buildings along Kristiansand's waterfront. The surrounding area also offers views towards the harbour and sea.",
+      "de": "Die Festung Christiansholm ist eine Verteidigungsanlage aus dem 17. Jahrhundert, die zum Schutz von Kristiansand vor Angriffen vom Meer errichtet wurde. Die Festung wurde 1672 fertiggestellt und war ein wichtiger Bestandteil der frühen Verteidigungsanlagen der Stadt. Ursprünglich lag sie auf einer kleinen Insel nahe der Küste und ist heute mit dem Festland verbunden. Die Steinmauern, der runde Hauptbau und das rote Ziegeldach machen sie zu einem markanten historischen Bauwerk am Wasser. Von der Umgebung bieten sich Ausblicke auf den Hafen und das Meer."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kaleyi keşfetme",
+        "Liman ve deniz manzarasını izleme",
+        "Sahil boyunca yürüyüş",
+        "Tarihi yapı fotoğraflama",
+        "Kristiansand'ın savunma tarihini keşfetme"
+      ],
+      "en": [
+        "Explore the historic fortress",
+        "Enjoy harbour and sea views",
+        "Walk along the waterfront",
+        "Photograph the historic structure",
+        "Discover Kristiansand's defensive history"
+      ],
+      "de": [
+        "Die historische Festung erkunden",
+        "Hafen- und Meerblick genießen",
+        "Am Wasser spazieren",
+        "Das historische Bauwerk fotografieren",
+        "Die Verteidigungsgeschichte Kristiansands entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kale",
+        "mimari",
+        "sahil",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "history",
+        "fortress",
+        "architecture",
+        "waterfront",
+        "photography"
+      ],
+      "de": [
+        "Geschichte",
+        "Festung",
+        "Architektur",
+        "Ufer",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Christiansholm%20Fortress.JPG"
     ]
   }
 ]

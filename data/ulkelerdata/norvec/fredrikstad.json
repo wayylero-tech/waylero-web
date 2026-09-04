@@ -3,43 +3,80 @@
     "slug": "gamlebyen",
     "name": {
       "tr": "Gamlebyen",
-      "en": "Gamlebyen",
-      "de": "Gamlebyen"
+      "en": "Gamlebyen Old Town",
+      "de": "Gamlebyen Altstadt"
     },
-    "latitude": 59.2172,
-    "longitude": 10.9297,
+    "latitude": 59.2022,
+    "longitude": 10.9507,
     "description": {
-      "tr": "Gamlebyen, Norveç'in en iyi korunmuş eski şehirlerinden biridir. Burada, eski taş binalar ve taş yollar arasında gezebilirsiniz.",
-      "en": "Gamlebyen is one of Norway's best-preserved old towns. You can walk between ancient stone buildings and cobblestone streets.",
-      "de": "Gamlebyen ist eine der am besten erhaltenen Altstädte Norwegens. Sie können zwischen alten Steingebäuden und Kopfsteinpflasterstraßen spazieren."
+      "tr": "Gamlebyen, Fredrikstad'ın 1567 yılında kurulan tarihi eski şehridir ve Kuzey Avrupa'nın en iyi korunmuş yıldız planlı surlu şehirlerinden biri olarak kabul edilir. Şehrin savunma sistemi hendekler, toprak surlar, bastionlar ve kapılarla çevrili bir yapı oluşturur. Arnavut kaldırımlı sokaklar boyunca tarihi ahşap ve taş yapılar, küçük meydanlar, kafeler, galeriler, müzeler ve dükkânlar sıralanır. Gamlebyen'in en dikkat çekici girişlerinden biri Kongsten yönüne açılan sur sistemi ve tarihi şehir kapılarıdır. Bölge günümüzde yaşayan bir mahalle ve kültür alanı olduğundan yalnızca askeri mimari değil, günlük şehir yaşamı da görülebilir. Fredrikstad Müzesi, tarihi savunma yapıları ve surların çevresindeki yürüyüş yolları bölgenin geçmişini keşfetmek için öne çıkan duraklardır. Eski şehir özellikle yürüyerek gezmek, tarihi atmosferi hissetmek ve fotoğraf çekmek için uygundur.",
+      "en": "Gamlebyen is Fredrikstad's historic old town, founded in 1567, and is regarded as one of Northern Europe's best-preserved fortified towns with a star-shaped defensive plan. The historic fortifications include moats, earth ramparts, bastions and gates. Inside the walls, cobblestone streets lead past historic wooden and stone buildings, small squares, cafés, galleries, museums and shops. The defensive system and historic gates are among the most distinctive features of Gamlebyen. Today the area is both a historic district and a living neighbourhood, so visitors can experience everyday urban life alongside its military architecture. Fredrikstad Museum, the historic fortifications and walking paths around the ramparts provide opportunities to learn more about the town's past. Gamlebyen is particularly enjoyable to explore on foot and is well suited to architectural and street photography.",
+      "de": "Gamlebyen ist die historische Altstadt von Fredrikstad, die 1567 gegründet wurde und als eine der am besten erhaltenen sternförmigen Festungsstädte Nordeuropas gilt. Das Verteidigungssystem besteht aus Wassergräben, Erdwällen, Bastionen und Toren. Innerhalb der Festungsanlage führen Kopfsteinpflasterstraßen an historischen Holz- und Steinhäusern, kleinen Plätzen, Cafés, Galerien, Museen und Geschäften vorbei. Die Befestigungsanlagen und historischen Stadttore gehören zu den markantesten Elementen von Gamlebyen. Heute ist das Gebiet zugleich historisches Viertel und lebendiger Stadtteil, sodass Besucher neben der Militärarchitektur auch das heutige Stadtleben erleben können. Das Fredrikstad Museum, die historischen Befestigungsanlagen und die Wege entlang der Wälle bieten Einblicke in die Geschichte der Stadt. Besonders gut lässt sich Gamlebyen zu Fuß und mit der Kamera erkunden."
     },
     "activities": {
       "tr": [
-        "Eski şehirde gezme",
-        "Tarihi yapıları keşfetme"
+        "Tarihi surlu şehri yürüyerek keşfetme",
+        "Arnavut kaldırımlı sokaklarda gezme",
+        "Tarihi ahşap ve taş yapıları inceleme",
+        "Fredrikstad Müzesi'ni ziyaret etme",
+        "Surlar ve hendekler boyunca yürüyüş",
+        "Tarihi şehir kapılarını görme",
+        "Kafeleri ve küçük dükkânları keşfetme",
+        "Mimari ve sokak fotoğrafçılığı"
       ],
       "en": [
-        "Walk through the old town",
-        "Explore the historic buildings"
+        "Explore the fortified old town on foot",
+        "Walk along the cobblestone streets",
+        "Discover historic wooden and stone buildings",
+        "Visit Fredrikstad Museum",
+        "Walk along the ramparts and moat",
+        "See the historic town gates",
+        "Explore cafés and small shops",
+        "Take architectural and street photographs"
       ],
       "de": [
-        "Durch die Altstadt spazieren",
-        "Die historischen Gebäude erkunden"
+        "Die befestigte Altstadt zu Fuß erkunden",
+        "Durch die Kopfsteinpflasterstraßen spazieren",
+        "Historische Holz- und Steinhäuser entdecken",
+        "Das Fredrikstad Museum besuchen",
+        "Entlang der Wälle und Wassergräben spazieren",
+        "Historische Stadttore besichtigen",
+        "Cafés und kleine Geschäfte entdecken",
+        "Architektur- und Straßenfotografie"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi mahalle",
+        "kale",
+        "tarih",
+        "mimari",
+        "kültür",
+        "yürüyüş",
+        "fotoğrafçılık"
       ],
       "en": [
-        "historic square"
+        "historic district",
+        "fortress",
+        "history",
+        "architecture",
+        "culture",
+        "walking",
+        "photography"
       ],
       "de": [
-        "historischer Platz"
+        "historisches Viertel",
+        "Festung",
+        "Geschichte",
+        "Architektur",
+        "Kultur",
+        "Spaziergang",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/gamlebyen.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gamlebyen%20Fredrikstad.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gamlebyen%20Fredrikstad%20Norway.jpg"
     ]
   },
   {
@@ -47,42 +84,210 @@
     "name": {
       "tr": "Fredrikstad Kalesi",
       "en": "Fredrikstad Fortress",
-      "de": "Fredrikstad Festung"
+      "de": "Festung Fredrikstad"
     },
-    "latitude": 59.2178,
-    "longitude": 10.9315,
+    "latitude": 59.2027,
+    "longitude": 10.9540,
     "description": {
-      "tr": "Fredrikstad Kalesi, 16. yüzyıldan kalma bir askeri yapıdır. Kalenin içinde gezebilir ve tarihi atmosferi keşfedebilirsiniz.",
-      "en": "Fredrikstad Fortress is a military structure from the 16th century. You can tour the fortress and explore its historic atmosphere.",
-      "de": "Die Fredrikstad Festung ist eine militärische Struktur aus dem 16. Jahrhundert. Sie können die Festung besichtigen und die historische Atmosphäre erkunden."
+      "tr": "Fredrikstad Kalesi, Gamlebyen'i çevreleyen büyük savunma sisteminin merkezindeki yıldız planlı tahkimat kompleksidir. Fredrikstad'ın 1567'de kurulmasından sonra şehrin savunmasını güçlendirmek amacıyla 17. yüzyılın başlarından itibaren kapsamlı tahkimatlar inşa edilmiştir. Özellikle Kral IV. Christian döneminde geliştirilen sistem, hendekler, toprak surlar, bastionlar ve kapılarla çevrili güçlü bir askeri şehir oluşturmuştur. Fredrikstad'ın savunma yapıları zaman içinde genişletilmiş ve 17. yüzyılın sonlarında Avrupa'nın dönemin önemli yıldız kalelerinden biri haline gelmiştir. Günümüzde surların, kapıların ve hendeklerin büyük bölümü görülebilir. Kale alanı aynı zamanda kafeler, müzeler, galeriler, atölyeler ve etkinlik alanlarıyla yaşayan bir kültür bölgesidir. Gamlebyen ile birlikte ziyaret edildiğinde Fredrikstad'ın kuruluş ve savunma tarihini anlamak çok daha kolaydır.",
+      "en": "Fredrikstad Fortress is the star-shaped defensive complex at the heart of the fortifications surrounding Gamlebyen. After Fredrikstad was founded in 1567, extensive fortifications were developed from the early 17th century to strengthen the city's defences. The system was expanded particularly during the reign of King Christian IV and consisted of moats, earth ramparts, bastions and gates forming a powerful fortified town. The defences were enlarged over time and by the late 17th century Fredrikstad had become one of the important star fortresses of its period. Much of the historic ramparts, gates and moat system can still be explored today. The fortress area is also a living cultural district with cafés, museums, galleries, workshops and event spaces. Visiting the fortress together with Gamlebyen provides a deeper understanding of Fredrikstad's foundation and military history.",
+      "de": "Die Festung Fredrikstad ist die sternförmige Verteidigungsanlage im Zentrum der Befestigungen rund um Gamlebyen. Nach der Gründung Fredrikstads im Jahr 1567 wurden ab dem frühen 17. Jahrhundert umfangreiche Befestigungen errichtet, um die Stadt besser zu schützen. Besonders unter König Christian IV. wurde das System ausgebaut und umfasste Wassergräben, Erdwälle, Bastionen und Tore. Im Laufe der Zeit wurden die Anlagen erweitert, sodass Fredrikstad gegen Ende des 17. Jahrhunderts zu den bedeutenden Sternfestungen ihrer Zeit gehörte. Große Teile der historischen Wälle, Tore und Gräben können heute besichtigt werden. Das Festungsgebiet ist außerdem ein lebendiges Kulturviertel mit Cafés, Museen, Galerien, Werkstätten und Veranstaltungsorten. Zusammen mit Gamlebyen lässt sich hier die Gründungs- und Militärgeschichte Fredrikstads besonders gut entdecken."
     },
     "activities": {
       "tr": [
-        "Kale turu yapma",
-        "Tarihi surları inceleme"
+        "Yıldız planlı kale sistemini keşfetme",
+        "Tarihi surlarda yürüyüş",
+        "Hendekleri ve bastionları inceleme",
+        "Şehir kapılarını görme",
+        "Askeri mimariyi fotoğraflama",
+        "Gamlebyen ile birlikte tarihi rota yapma",
+        "Müze ve galerileri ziyaret etme"
       ],
       "en": [
-        "Take a fortress tour",
-        "Examine the historic walls"
+        "Explore the star-shaped fortress",
+        "Walk along the historic ramparts",
+        "Discover the moat and bastions",
+        "See the historic gates",
+        "Photograph the military architecture",
+        "Combine the fortress with a Gamlebyen walking route",
+        "Visit museums and galleries"
       ],
       "de": [
-        "Eine Festungstour machen",
-        "Die historischen Mauern untersuchen"
+        "Die sternförmige Festung erkunden",
+        "Auf den historischen Wällen spazieren",
+        "Wassergräben und Bastionen entdecken",
+        "Historische Tore besichtigen",
+        "Militärarchitektur fotografieren",
+        "Die Festung mit einem Rundgang durch Gamlebyen verbinden",
+        "Museen und Galerien besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "kale",
+        "tarih",
+        "askeri mimari",
+        "kültür",
+        "mimari",
+        "fotoğrafçılık"
       ],
       "en": [
-        "historic"
+        "fortress",
+        "history",
+        "military architecture",
+        "culture",
+        "architecture",
+        "photography"
       ],
       "de": [
-        "Historisch"
+        "Festung",
+        "Geschichte",
+        "Militärarchitektur",
+        "Kultur",
+        "Architektur",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/fredrikstad_fortress.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fredrikstad%20fortress.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fredrikstad%20Gamlebyen.jpg"
+    ]
+  },
+  {
+    "slug": "kongsten-fort",
+    "name": {
+      "tr": "Kongsten Kalesi",
+      "en": "Kongsten Fort",
+      "de": "Festung Kongsten"
+    },
+    "latitude": 59.2049,
+    "longitude": 10.9617,
+    "description": {
+      "tr": "Kongsten Kalesi, Gamlebyen'in doğusundaki savunma sisteminin önemli parçalarından biridir ve 1680'lerde inşa edilmiştir. Kale, Fredrikstad'ın yıldız planlı tahkimatlarını doğu yönünden korumak için tasarlanmış ve ana sur sisteminin dışında yüksek bir konuma yerleştirilmiştir. Taş duvarları, hendekleri ve savunma düzeni dönemin askeri mühendisliğini anlamak için dikkat çekici örnekler sunar. Günümüzde kale çevresinde yürüyüş yapabilir ve Gamlebyen ile çevredeki manzarayı yüksekten görebilirsiniz. Kale, Gamlebyen'in surları ve diğer savunma yapılarıyla birlikte ziyaret edildiğinde Fredrikstad'ın askeri tarihini daha bütünlüklü biçimde gösterir.",
+      "en": "Kongsten Fort is an important part of the defensive system east of Gamlebyen and was built in the 1680s. The fort was designed to protect Fredrikstad's star-shaped fortifications from the east and was positioned on higher ground outside the main ramparts. Its stone walls, moat and defensive layout provide an interesting example of military engineering from the period. Today visitors can walk around the fort and enjoy elevated views towards Gamlebyen and the surrounding landscape. Together with Gamlebyen's ramparts and other defensive structures, Kongsten Fort helps illustrate the wider military history of Fredrikstad.",
+      "de": "Die Festung Kongsten ist ein wichtiger Bestandteil der Verteidigungsanlagen östlich von Gamlebyen und wurde in den 1680er-Jahren errichtet. Sie sollte die sternförmigen Befestigungen Fredrikstads von Osten schützen und wurde auf höherem Gelände außerhalb der Hauptwälle angelegt. Die Steinmauern, der Graben und die militärische Anordnung vermitteln einen Eindruck von der damaligen Festungsbaukunst. Heute kann man das Gelände erkunden und von den höher gelegenen Bereichen auf Gamlebyen und die umliegende Landschaft blicken. Zusammen mit den Wällen von Gamlebyen und den übrigen Verteidigungsanlagen vermittelt Kongsten einen umfassenderen Eindruck von der Militärgeschichte Fredrikstads."
+    },
+    "activities": {
+      "tr": [
+        "Kaleyi keşfetme",
+        "Tarihi savunma yapılarını inceleme",
+        "Gamlebyen manzarasını izleme",
+        "Kale çevresinde yürüyüş",
+        "Askeri mimari fotoğrafçılığı"
+      ],
+      "en": [
+        "Explore the fort",
+        "Discover historic defensive structures",
+        "Enjoy views of Gamlebyen",
+        "Walk around the fort",
+        "Take military architecture photographs"
+      ],
+      "de": [
+        "Die Festung erkunden",
+        "Historische Verteidigungsanlagen entdecken",
+        "Den Blick auf Gamlebyen genießen",
+        "Um die Festung spazieren",
+        "Militärarchitektur fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kale",
+        "tarih",
+        "askeri mimari",
+        "manzara",
+        "yürüyüş",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "fort",
+        "history",
+        "military architecture",
+        "viewpoint",
+        "walking",
+        "photography"
+      ],
+      "de": [
+        "Festung",
+        "Geschichte",
+        "Militärarchitektur",
+        "Aussichtspunkt",
+        "Spaziergang",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kongsten%20fort.jpg"
+    ]
+  },
+  {
+    "slug": "isegran-fort",
+    "name": {
+      "tr": "Isegran Kalesi",
+      "en": "Isegran Fort",
+      "de": "Festung Isegran"
+    },
+    "latitude": 59.1987,
+    "longitude": 10.9495,
+    "description": {
+      "tr": "Isegran Kalesi, Fredrikstad'ın Glomma Nehri ile Vesterelva'nın birleştiği noktadaki tarihi savunma alanıdır. Bölgenin savunma tarihi Fredrikstad'ın kuruluşundan da eskiye uzanır ve 17. yüzyılda şehir tahkimatlarının gelişmesiyle daha önemli hale gelmiştir. Isegran, nehir trafiğini ve şehrin su yollarını kontrol eden stratejik konumu sayesinde Fredrikstad savunma sisteminin önemli noktalarından biri olmuştur. Günümüzde alanda tarihi surlar ve askeri yapılarla birlikte denizcilik kültürünü yansıtan ortamlar görülebilir. Nehir kıyısındaki konumu sayesinde yürüyüş ve fotoğrafçılık için de keyifli bir duraktır. Gamlebyen'den kısa bir yürüyüşle ulaşılabilmesi, iki bölgenin aynı gezi içinde değerlendirilmesini kolaylaştırır.",
+      "en": "Isegran Fort is a historic defensive site at the meeting point of the Glomma and Vesterelva rivers in Fredrikstad. Its defensive history predates the foundation of Fredrikstad and became increasingly important as the city's fortifications developed during the 17th century. Its strategic position allowed the authorities to control river traffic and important waterways leading towards the town. Today the area combines historic defensive structures with a maritime atmosphere. Its riverside setting also makes it an enjoyable place for walking and photography. Because it is within walking distance of Gamlebyen, Isegran can easily be included in the same historic sightseeing route.",
+      "de": "Die Festung Isegran ist eine historische Verteidigungsanlage am Zusammenfluss von Glomma und Vesterelva in Fredrikstad. Ihre Verteidigungsgeschichte reicht weiter zurück als die Gründung Fredrikstads und gewann mit dem Ausbau der Stadtbefestigungen im 17. Jahrhundert an Bedeutung. Durch ihre strategische Lage konnten Flussverkehr und wichtige Wasserwege in Richtung Stadt kontrolliert werden. Heute verbindet das Gebiet historische Verteidigungsanlagen mit einer maritimen Atmosphäre. Die Lage am Fluss macht Isegran außerdem zu einem schönen Ziel für Spaziergänge und Fotografie. Da die Anlage zu Fuß von Gamlebyen erreichbar ist, lässt sie sich gut in denselben historischen Rundgang integrieren."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kaleyi keşfetme",
+        "Nehir kıyısında yürüyüş",
+        "Denizcilik tarihini keşfetme",
+        "Tarihi savunma yapılarını fotoğraflama",
+        "Glomma ve Vesterelva manzarasını izleme",
+        "Gamlebyen ile birlikte gezme"
+      ],
+      "en": [
+        "Explore the historic fort",
+        "Walk along the riverside",
+        "Discover maritime history",
+        "Photograph historic defensive structures",
+        "Enjoy views of the Glomma and Vesterelva",
+        "Visit together with Gamlebyen"
+      ],
+      "de": [
+        "Die historische Festung erkunden",
+        "Am Fluss spazieren",
+        "Maritime Geschichte entdecken",
+        "Historische Verteidigungsanlagen fotografieren",
+        "Den Blick auf Glomma und Vesterelva genießen",
+        "Zusammen mit Gamlebyen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kale",
+        "denizcilik",
+        "nehir",
+        "yürüyüş",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "history",
+        "fort",
+        "maritime",
+        "river",
+        "walking",
+        "photography"
+      ],
+      "de": [
+        "Geschichte",
+        "Festung",
+        "Maritimes",
+        "Fluss",
+        "Spaziergang",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Isegran%20Fredrikstad.jpg"
     ]
   }
 ]

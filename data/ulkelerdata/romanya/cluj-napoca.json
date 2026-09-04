@@ -2,87 +2,138 @@
   {
     "slug": "st-michael-kilisesi",
     "name": {
-      "tr": "St. Michael Kilisesi",
-      "en": "St. Michael Church",
-      "de": "St. Michael Kirche"
+      "tr": "Aziz Michael Kilisesi",
+      "en": "St. Michael's Church",
+      "de": "St.-Michael-Kirche"
     },
-    "latitude": 46.77,
-    "longitude": 23.59,
+    "latitude": 46.76972,
+    "longitude": 23.58972,
     "description": {
-      "tr": "St. Michael Kilisesi, Gotik tarzda inşa edilmiş ve şehrin simgelerinden biri olan bir katedraldir. İçindeki tarihi eserler dikkat çekicidir.",
-      "en": "St. Michael Church is a Gothic-style cathedral and one of the city's landmarks, known for its historical artifacts inside.",
-      "de": "Die St. Michael Kirche ist eine gotische Kathedrale und eines der Wahrzeichen der Stadt, bekannt für ihre historischen Artefakte im Inneren."
+      "tr": "Aziz Michael Kilisesi, Cluj-Napoca'nın tarihi merkezindeki Unirii Meydanı'nda bulunan ve şehrin en önemli Gotik yapılarından biri olan tarihi bir kilisedir. Yapının inşasına 14. yüzyılda başlanmış, kilise 15. yüzyılın başlarında büyük ölçüde tamamlanmıştır. Transilvanya'daki Orta Çağ Gotik mimarisinin önemli örneklerinden biri kabul edilen yapı, özellikle yüksek nefleri, kemerli pencereleri ve etkileyici iç mekânıyla dikkat çeker. Kilisenin önündeki meydanda Matthias Corvinus'a ait anıtsal heykel grubu bulunur. Yapının kulesi 19. yüzyılda yeniden inşa edilmiş ve günümüzde Cluj-Napoca şehir siluetinin önemli parçalarından biri haline gelmiştir. Kilise tarih boyunca farklı dini toplulukların kullanımında bulunmuş, günümüzde ise Roma Katolik topluluğuna hizmet etmektedir. Tarihi şehir merkezinde yer alması sayesinde kilise, Unirii Meydanı ve çevresindeki tarihi yapılarla birlikte kolayca ziyaret edilebilir. Gotik mimari, Orta Çağ tarihi ve Transilvanya'nın kültürel mirasıyla ilgilenen ziyaretçiler için Cluj-Napoca'da görülmesi gereken başlıca yapılardan biridir.",
+      "en": "St. Michael's Church is a historic Gothic church located in Union Square in the center of Cluj-Napoca and is one of the city's most important architectural landmarks. Construction began in the 14th century and the church was largely completed in the early 15th century. It is regarded as an important example of medieval Gothic architecture in Transylvania, with its tall nave, pointed arches, large windows and impressive interior. The monumental Matthias Corvinus statue group stands directly in front of the church in Union Square. The church tower was rebuilt in the 19th century and remains a prominent feature of the Cluj-Napoca skyline. Throughout its history, the building has been associated with different religious communities and today serves the Roman Catholic community. Its central location makes it easy to combine a visit to the church with a walk around Union Square and the surrounding historic streets. With its medieval history and distinctive Gothic architecture, St. Michael's Church is one of the essential sights for visitors interested in the cultural heritage of Cluj-Napoca and Transylvania.",
+      "de": "Die St.-Michael-Kirche befindet sich am Unirii-Platz im historischen Zentrum von Cluj-Napoca und gehört zu den bedeutendsten gotischen Bauwerken der Stadt. Mit dem Bau wurde im 14. Jahrhundert begonnen, während die Kirche zu Beginn des 15. Jahrhunderts weitgehend fertiggestellt wurde. Sie gilt als bedeutendes Beispiel mittelalterlicher gotischer Architektur in Siebenbürgen und beeindruckt unter anderem durch ihr hohes Kirchenschiff, die Spitzbögen, großen Fenster und den weitläufigen Innenraum. Direkt vor der Kirche befindet sich das monumentale Reiterstandbild von Matthias Corvinus. Der Kirchturm wurde im 19. Jahrhundert neu errichtet und prägt bis heute das Stadtbild von Cluj-Napoca. Im Laufe ihrer Geschichte wurde die Kirche von verschiedenen religiösen Gemeinschaften genutzt und dient heute der römisch-katholischen Gemeinde. Durch ihre zentrale Lage lässt sich ein Besuch gut mit einem Spaziergang über den Unirii-Platz und durch die historische Altstadt verbinden. Für Besucher, die sich für gotische Architektur, mittelalterliche Geschichte und das kulturelle Erbe Siebenbürgens interessieren, gehört die St.-Michael-Kirche zu den wichtigsten Sehenswürdigkeiten der Stadt."
     },
     "activities": {
       "tr": [
         "Kilisenin içini keşfetme",
-        "Tarihi yapıyı gezme"
+        "Gotik mimariyi inceleme",
+        "Tarihi detayları ve sanat eserlerini görme",
+        "Unirii Meydanı'nı keşfetme",
+        "Matthias Corvinus heykelini görme",
+        "Tarihi şehir merkezinde yürüyüş yapma",
+        "Fotoğraf çekme"
       ],
       "en": [
-        "Explore the interior of the church",
-        "Tour the historical building"
+        "Explore the church interior",
+        "Admire the Gothic architecture",
+        "See historic details and artworks",
+        "Explore Union Square",
+        "See the Matthias Corvinus statue",
+        "Walk through the historic city center",
+        "Take photographs"
       ],
       "de": [
-        "Das Innere der Kirche erkunden",
-        "Das historische Gebäude besichtigen"
+        "Das Kircheninnere erkunden",
+        "Die gotische Architektur bewundern",
+        "Historische Details und Kunstwerke entdecken",
+        "Den Unirii-Platz erkunden",
+        "Das Matthias-Corvinus-Denkmal besichtigen",
+        "Durch das historische Stadtzentrum spazieren",
+        "Fotos machen"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "kilise",
+        "tarih",
+        "mimari",
+        "kültür"
       ],
       "en": [
-        "church"
+        "church",
+        "history",
+        "architecture",
+        "culture"
       ],
       "de": [
-        "kirche"
+        "kirche",
+        "geschichte",
+        "architektur",
+        "kultur"
       ]
     },
     "images": [
-      "https://example.com/st_michael_church.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Biserica%20Sf%20Mihail%20Cluj-Napoca.jpg"
     ]
   },
   {
-    "slug": "botanik-bahcesi",
+    "slug": "alexandru-borza-botanik-bahcesi",
     "name": {
-      "tr": "Botanik Bahçesi",
-      "en": "Botanical Garden",
-      "de": "Botanischer Garten"
+      "tr": "Alexandru Borza Botanik Bahçesi",
+      "en": "Alexandru Borza Botanical Garden",
+      "de": "Botanischer Garten Alexandru Borza"
     },
-    "latitude": 46.7711,
-    "longitude": 23.5923,
+    "latitude": 46.75861,
+    "longitude": 23.58944,
     "description": {
-      "tr": "Cluj-Napoca Botanik Bahçesi, Romanya'nın en büyük ve en güzel botanik bahçelerinden biridir. Yürüyüş yapmak ve doğanın tadını çıkarmak için harika bir yerdir.",
-      "en": "Cluj-Napoca Botanical Garden is one of Romania's largest and most beautiful botanical gardens. It is a great place to take a walk and enjoy nature.",
-      "de": "Der Botanische Garten Cluj-Napoca ist einer der größten und schönsten botanischen Gärten Rumäniens. Es ist ein großartiger Ort, um spazieren zu gehen und die Natur zu genießen."
+      "tr": "Alexandru Borza Botanik Bahçesi, Cluj-Napoca'da Babeș-Bolyai Üniversitesi'ne bağlı olarak faaliyet gösteren geniş bir botanik bahçesidir. Yaklaşık 14 hektarlık alana yayılan bahçe, farklı iklim ve coğrafyalardan bitki türlerini bir arada görmek isteyen ziyaretçiler için önemli bir doğal ve bilimsel alan sunar. Bahçede Japon Bahçesi, Roma Bahçesi, süs bitkileri bölümleri, sera kompleksleri ve farklı bitki koleksiyonları bulunur. Açık alanlarda mevsime göre değişen çiçeklenmeler ve peyzaj düzenlemeleri görülebilir. Sera bölümlerinde ise tropikal ve subtropikal iklimlere ait bitkiler ile özel koleksiyonlar sergilenir. Bahçenin en dikkat çekici bölümlerinden biri Japon Bahçesi'dir; gölet, köprüler ve geleneksel peyzaj unsurlarıyla sakin bir yürüyüş alanı oluşturur. Roma Bahçesi'nde ise arkeolojik kalıntılar ve klasik dönemden esinlenen düzenlemeler dikkat çeker. Botanik bahçesi yalnızca gezinti ve fotoğrafçılık için değil, bitki bilimi ve eğitim çalışmaları açısından da önemlidir. Cluj-Napoca'nın yoğun şehir dokusundan kısa süreliğine uzaklaşmak, farklı bitki türlerini görmek ve açık havada yürüyüş yapmak isteyenler için şehir içindeki önemli duraklardan biridir.",
+      "en": "The Alexandru Borza Botanical Garden is a large botanical garden in Cluj-Napoca operated by Babeș-Bolyai University. Covering approximately 14 hectares, it provides an important scientific and recreational space where visitors can see plant species from different climates and regions. The garden includes a Japanese Garden, Roman Garden, ornamental plant sections, greenhouse complexes and a variety of botanical collections. The outdoor areas change throughout the seasons, with different plants and flowers coming into bloom at different times of the year. The greenhouse complex contains tropical and subtropical plants as well as specialized collections. One of the garden's most distinctive areas is the Japanese Garden, which features a pond, bridges and traditional landscape elements. The Roman Garden combines botanical displays with archaeological remains and classical-inspired landscaping. Beyond recreation and photography, the garden also has an important role in botanical research and education. It is a popular place for walking, discovering plant diversity and taking a break from the busy atmosphere of central Cluj-Napoca.",
+      "de": "Der Botanische Garten Alexandru Borza ist ein großer botanischer Garten in Cluj-Napoca und gehört zur Babeș-Bolyai-Universität. Auf einer Fläche von etwa 14 Hektar bietet er einen bedeutenden wissenschaftlichen und zugleich erholsamen Raum, in dem Pflanzen aus unterschiedlichen Klimazonen und Regionen zu sehen sind. Zum Garten gehören unter anderem ein Japanischer Garten, ein Römischer Garten, Bereiche für Zierpflanzen, mehrere Gewächshäuser und verschiedene botanische Sammlungen. Die Außenanlagen verändern sich je nach Jahreszeit und bieten unterschiedliche Blüten und Pflanzenbilder. In den Gewächshäusern werden tropische und subtropische Pflanzen sowie spezielle Sammlungen präsentiert. Zu den auffälligsten Bereichen gehört der Japanische Garten mit Teich, Brücken und traditionellen Gestaltungselementen. Der Römische Garten verbindet botanische Elemente mit archäologischen Überresten und einer an die klassische Antike angelehnten Gestaltung. Der Garten dient nicht nur der Erholung und Fotografie, sondern spielt auch eine wichtige Rolle in Forschung und botanischer Bildung. Für Spaziergänge, Naturbeobachtungen und eine Pause vom Stadtleben gehört er zu den sehenswerten Orten in Cluj-Napoca."
     },
     "activities": {
       "tr": [
         "Bahçede yürüyüş yapma",
-        "Endemik bitkileri keşfetme"
+        "Japon Bahçesi'ni keşfetme",
+        "Roma Bahçesi'ni görme",
+        "Seraları ziyaret etme",
+        "Farklı bitki koleksiyonlarını inceleme",
+        "Mevsimlik çiçekleri fotoğraflama",
+        "Doğayla iç içe vakit geçirme"
       ],
       "en": [
-        "Take a walk in the garden",
-        "Explore endemic plants"
+        "Walk through the garden",
+        "Explore the Japanese Garden",
+        "Visit the Roman Garden",
+        "Explore the greenhouses",
+        "Discover different plant collections",
+        "Photograph seasonal flowers",
+        "Spend time surrounded by nature"
       ],
       "de": [
-        "Im Garten spazieren gehen",
-        "Endemische Pflanzen erkunden"
+        "Durch den Garten spazieren",
+        "Den Japanischen Garten erkunden",
+        "Den Römischen Garten besichtigen",
+        "Die Gewächshäuser besuchen",
+        "Verschiedene Pflanzensammlungen entdecken",
+        "Saisonale Blumen fotografieren",
+        "Zeit in der Natur verbringen"
       ]
     },
     "categories": {
       "tr": [
-        "park"
+        "botanik",
+        "bahçe",
+        "doğa",
+        "park",
+        "eğitim"
       ],
       "en": [
-        "park"
+        "botanical garden",
+        "garden",
+        "nature",
+        "park",
+        "education"
       ],
       "de": [
-        "park"
+        "botanischer garten",
+        "garten",
+        "natur",
+        "park",
+        "bildung"
       ]
     },
     "images": [
-      "https://example.com/cluj_botanical_garden.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cluj-Napoca%20Botanical%20Garden.jpg"
     ]
   }
 ]

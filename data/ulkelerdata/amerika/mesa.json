@@ -1,94 +1,67 @@
 [
   {
-    "slug": "desert-ridge-park",
-    "name": {
-      "tr": "Desert Ridge Park",
-      "en": "Desert Ridge Park",
-      "de": "Desert Ridge Park"
-    },
-    "latitude": 33.5206,
-    "longitude": -111.7075,
-    "description": {
-      "tr": "Desert Ridge Park, Mesa şehrinde bulunan büyük bir rekreasyon alanıdır. Doğayla iç içe yürüyüş yapabilir, piknik yapabilir ve spor alanlarını kullanabilirsiniz.",
-      "en": "Desert Ridge Park is a large recreational area in Mesa. Visitors can hike, picnic, and use sports facilities while enjoying the surrounding nature.",
-      "de": "Der Desert Ridge Park ist ein großer Erholungsbereich in Mesa. Besucher können wandern, picknicken und Sporteinrichtungen nutzen, während sie die umliegende Natur genießen."
-    },
-    "activities": {
-      "tr": [
-        "Yürüyüş yapmak",
-        "Piknik yapmak",
-        "Spor yapmak"
-      ],
-      "en": [
-        "Hike",
-        "Picnic",
-        "Exercise"
-      ],
-      "de": [
-        "Wandern",
-        "Picknicken",
-        "Sport treiben"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "park"
-      ],
-      "en": [
-        "park"
-      ],
-      "de": [
-        "park"
-      ]
-    },
-    "images": [
-      "https://example.com/desert_ridge_park.jpg"
-    ]
-  },
-  {
     "slug": "mesa-arts-center",
     "name": {
       "tr": "Mesa Arts Center",
       "en": "Mesa Arts Center",
       "de": "Mesa Arts Center"
     },
-    "latitude": 33.4185,
-    "longitude": -111.8305,
+    "latitude": 33.4150,
+    "longitude": -111.8310,
     "description": {
-      "tr": "Mesa Arts Center, sanat galerileri, tiyatro ve konser salonlarıyla dolu bir kültür merkezi olarak ziyaretçilere sanat deneyimi sunar.",
-      "en": "Mesa Arts Center is a cultural hub with art galleries, theater, and concert venues, offering visitors a rich artistic experience.",
-      "de": "Das Mesa Arts Center ist ein Kulturzentrum mit Kunstgalerien, Theatern und Konzertstätten, das den Besuchern ein reichhaltiges künstlerisches Erlebnis bietet."
+      "tr": "Mesa Arts Center, Mesa şehir merkezinin kalbinde yer alan ve Arizona'nın en büyük sanat merkezlerinden biri olarak öne çıkan kapsamlı bir kültür kompleksidir. Tek bir bina yerine tiyatroları, galerileri, sanat stüdyolarını ve açık alanları bir araya getiren büyük bir kampüs şeklinde tasarlanmıştır. Merkezde dört tiyatro, beş sanat galerisi ve 14 sanat stüdyosu bulunur. Bu nedenle burası yalnızca sergi görmek için gidilen bir müze değil, aynı zamanda tiyatro, konser, dans, sanat eğitimi ve çeşitli kültürel etkinliklerin düzenlendiği aktif bir sanat alanıdır. Kampüsün modern mimarisi de başlı başına dikkat çekici bir unsurdur. Geniş cam yüzeyler, geometrik yapılar, açık meydanlar, yürüyüş alanları ve gölgelendirme elemanları Mesa'nın sıcak çöl iklimine uyarlanmış çağdaş bir mimari anlayış ortaya koyar. Mesa Contemporary Arts Museum bölümünde bölgesel, ulusal ve uluslararası sanatçıların çağdaş sanat sergileri düzenlenir. Sergiler dönemsel olarak değiştiği için her ziyaret farklı bir içerik sunabilir. Merkezde ayrıca sanat atölyeleri ve eğitim programları bulunur. Ziyaretçiler etkinlik takvimine göre tiyatro gösterileri, konserler, sanatçı buluşmaları, sergi açılışları ve aile etkinliklerine katılabilir. Mesa Arts Center, özellikle Downtown Mesa gezisi sırasında değerlendirmek için uygun bir duraktır. Arizona Museum of Natural History ve i.d.e.a. Museum gibi diğer kültür kurumlarına da şehir merkezinde yakın konumdadır. Etkinliklerin önemli bir bölümü belirli tarihlerde düzenlendiğinden ziyaret öncesinde resmi programın kontrol edilmesi gerekir. Müze bölümü normalde salı-cumartesi 10.00-17.00, pazar 12.00-17.00 saatleri arasında hizmet verirken özel sezon kapanışları uygulanabilir. Örneğin 2026 yazında Mesa Contemporary Arts Museum 29 Haziran-11 Eylül arasında geçici olarak kapalıdır. Bu nedenle güncel sergi ve etkinlik durumunu kontrol etmek önemlidir.",
+      "en": "Mesa Arts Center is a major cultural complex in Downtown Mesa and one of the most significant arts destinations in Arizona. Rather than functioning as a single museum, it brings together theaters, galleries, art studios and public spaces in one large campus. The complex contains four theaters, five art galleries and 14 art studios. This makes it a place for much more than visual exhibitions, with theater, concerts, dance, arts education and community programs taking place throughout the year. The architecture of the campus is also an important part of the experience. Glass walls, geometric structures, open plazas, walking areas and shade structures create a contemporary architectural environment adapted to Mesa's desert setting. The Mesa Contemporary Arts Museum presents exhibitions by regional, national and international contemporary artists. Because exhibitions change periodically, the experience can vary depending on the date of a visit. The center also offers art classes, workshops and educational programs. Depending on the event calendar, visitors may attend theater performances, concerts, artist talks, exhibition openings and family programs. Mesa Arts Center is especially convenient to include in a Downtown Mesa itinerary. It is also close to other cultural attractions such as the Arizona Museum of Natural History and the idea Museum. Since many performances and programs take place on specific dates, visitors should check the official calendar before planning a visit. The museum normally operates Tuesday through Saturday from 10:00 to 17:00 and Sunday from noon to 17:00, although seasonal closures can occur. For example, the Mesa Contemporary Arts Museum is scheduled to be closed from June 29 to September 11, 2026, for its summer closure. Current exhibition and event information should therefore be checked before visiting.",
+      "de": "Das Mesa Arts Center ist ein bedeutender Kulturkomplex im Zentrum von Mesa und gehört zu den wichtigsten Kunst- und Kulturorten Arizonas. Es handelt sich nicht nur um ein einzelnes Museum, sondern um einen großen Campus mit Theatern, Galerien, Kunststudios und öffentlichen Bereichen. Das Zentrum verfügt über vier Theater, fünf Kunstgalerien und 14 Kunststudios. Dadurch finden hier neben Kunstausstellungen auch Theateraufführungen, Konzerte, Tanzveranstaltungen, Kunstkurse und verschiedene Kulturprogramme statt. Auch die moderne Architektur des Campus ist sehenswert. Große Glasflächen, geometrische Bauformen, offene Plätze, Wege und Überdachungen schaffen eine zeitgenössische Umgebung, die an das heiße Wüstenklima von Mesa angepasst ist. Das Mesa Contemporary Arts Museum zeigt Ausstellungen regionaler, nationaler und internationaler zeitgenössischer Künstler. Da die Ausstellungen regelmäßig wechseln, kann sich das Besuchserlebnis je nach Termin deutlich unterscheiden. Zusätzlich werden Kunstkurse, Workshops und Bildungsprogramme angeboten. Je nach Veranstaltungskalender können Besucher Theateraufführungen, Konzerte, Künstlergespräche, Ausstellungseröffnungen und Familienprogramme besuchen. Das Mesa Arts Center lässt sich besonders gut mit einem Rundgang durch Downtown Mesa verbinden. Auch das Arizona Museum of Natural History und das idea Museum befinden sich in der näheren Umgebung. Da viele Veranstaltungen nur an bestimmten Terminen stattfinden, sollte der aktuelle Kalender vor dem Besuch geprüft werden. Das Museum ist normalerweise dienstags bis samstags von 10:00 bis 17:00 Uhr und sonntags von 12:00 bis 17:00 Uhr geöffnet, wobei saisonale Schließungen möglich sind. Im Jahr 2026 ist das Mesa Contemporary Arts Museum beispielsweise vom 29. Juni bis zum 11. September wegen der Sommerpause geschlossen. Daher sollten aktuelle Ausstellungen und Öffnungszeiten vor dem Besuch überprüft werden."
     },
     "activities": {
       "tr": [
-        "Sanat galerilerini gezmek",
-        "Tiyatroya gitmek",
-        "Konser dinlemek"
+        "Çağdaş sanat sergilerini gezme",
+        "Tiyatro ve performansları izleme",
+        "Konserlere katılma",
+        "Sanat atölyelerine katılma",
+        "Modern mimariyi fotoğraflama"
       ],
       "en": [
-        "Visit art galleries",
-        "Attend theater shows",
-        "Listen to concerts"
+        "Explore contemporary art exhibitions",
+        "Attend theater performances",
+        "Attend concerts",
+        "Join art workshops",
+        "Photograph the modern architecture"
       ],
       "de": [
-        "Kunstgalerien besichtigen",
-        "Theateraufführungen besuchen",
-        "Konzerte hören"
+        "Ausstellungen zeitgenössischer Kunst besuchen",
+        "Theateraufführungen ansehen",
+        "Konzerte besuchen",
+        "An Kunstworkshops teilnehmen",
+        "Die moderne Architektur fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "kültürel etkinlikler"
+        "sanat",
+        "müze",
+        "kültür",
+        "etkinlik",
+        "mimari"
       ],
       "en": [
-        "cultural events"
+        "art",
+        "museum",
+        "culture",
+        "events",
+        "architecture"
       ],
       "de": [
-        "Kulturelle Veranstaltungen"
+        "Kunst",
+        "Museum",
+        "Kultur",
+        "Veranstaltungen",
+        "Architektur"
       ]
     },
     "images": [
-      "https://example.com/mesa_arts_center.jpg"
+      "https://assets.simpleviewinc.com/simpleview/image/upload/crm/chandler/Mesa-Arts-Center-Dusk-Exterior-1-Full-Res-253db5765056a36_253dba1c-5056-a36a-0b72705cb2918cbd.jpg",
+      "https://img.p.mapq.st/?q=75&url=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-o%2F0f%2F39%2Fce%2Fd0%2Fmesa-arts-center-s-iconic.jpg&w=3840"
     ]
   },
   {
@@ -98,126 +71,391 @@
       "en": "Usery Mountain Regional Park",
       "de": "Usery Mountain Regional Park"
     },
-    "latitude": 33.4465,
-    "longitude": -111.6313,
+    "latitude": 33.4370,
+    "longitude": -111.6450,
     "description": {
-      "tr": "Usery Mountain Regional Park, dağ manzaraları ve doğa yürüyüşleri sunan bir parktır. Ziyaretçiler, parkta yürüyüş yapabilir ve doğal yaşamı gözlemleyebilirler.",
-      "en": "Usery Mountain Regional Park offers mountain views and hiking trails. Visitors can explore the park while observing local wildlife.",
-      "de": "Der Usery Mountain Regional Park bietet Bergblicke und Wanderwege. Besucher können den Park erkunden und dabei einheimische Wildtiere beobachten."
+      "tr": "Usery Mountain Regional Park, Mesa'nın doğusunda Goldfield Mountains'ın batı ucunda ve Tonto National Forest'ın hemen yanında yer alan geniş bir Sonoran Çölü koruma ve rekreasyon alanıdır. Yaklaşık 3.648 acre büyüklüğündeki park, çöl manzaralarını yakından görmek isteyenler için Mesa çevresindeki önemli açık hava destinasyonlarından biridir. Parkın arazisinde çok sayıda yürüyüş ve dağ bisikleti rotası bulunur. At binme rotaları, piknik alanları, kamp alanları ve doğa merkezi de parkın kullanım alanlarını çeşitlendirir. Bölgenin karakteristik saguaro kaktüsleri, çöl çalıları, kayalık tepeleri ve geniş vadi manzaraları yürüyüş sırasında görülebilir. Parkın en tanınan rotalarından biri Wind Cave Trail'dir. Bu rota Pass Mountain'ın volkanik tüf ile granit arasındaki jeolojik sınırında oluşan bir kaya oyuntusuna ulaşır. Kaya oluşumunun iç bölümünde su sızıntılarının oluşturduğu küçük bitki toplulukları ve kaya papatyaları görülebilir. Parkta ayrıca farklı zorluk seviyelerine sahip rotalar bulunduğundan hem kısa doğa yürüyüşleri hem de daha uzun parkur deneyimleri mümkündür. Yüksek noktalardan Phoenix metropol alanına ve çevredeki dağlara bakmak mümkündür. Parkın doğası nedeniyle sıcaklık özellikle yaz aylarında ciddi şekilde yükselebilir; bu nedenle yürüyüş saatini hava durumuna göre seçmek, yeterli su taşımak ve resmi park uyarılarını kontrol etmek önemlidir. Maricopa County'nin güncel bilgilerine göre park mayıs-ekim döneminde 05.00-21.00, kasım-nisan döneminde ise 06.00-20.00 arasında açıktır. Nature Center'ın çalışma saatleri ayrıca mevsime göre değişir. Parka araçla giriş için ücret uygulanır. 2026 yılında ayrıca 1 Mayıs-30 Eylül arasında yıllık yangın yasağı bulunmaktadır; ateş ve barbekü kullanımı konusunda güncel kurallar kontrol edilmelidir. Usery Mountain Regional Park, özellikle çöl yürüyüşü, kaktüs manzaraları, doğa fotoğrafçılığı ve kamp deneyimi arayan ziyaretçiler için Mesa çevresindeki en önemli açık hava duraklarından biridir.",
+      "en": "Usery Mountain Regional Park is a large Sonoran Desert recreation and conservation area on the eastern side of Mesa, at the western end of the Goldfield Mountains and adjacent to the Tonto National Forest. Covering approximately 3,648 acres, it is one of the major outdoor destinations around Mesa for visitors interested in experiencing the desert landscape. The park contains numerous hiking and mountain-biking trails, along with equestrian routes, picnic areas, campgrounds and a nature center. The landscape includes characteristic saguaro cacti, desert vegetation, rocky hills and broad views across the surrounding valleys. One of the park's best-known routes is the Wind Cave Trail. The trail leads to a rock alcove formed along the geological boundary between volcanic tuff and granite on Pass Mountain. Water seeps through part of the formation and supports small plant communities and rock daisies. The park also offers trails of different difficulty levels, allowing visitors to choose between shorter walks and longer hikes. Elevated areas provide views toward the Phoenix metropolitan area and the surrounding mountain ranges. Because this is a desert environment, temperatures can become extremely high, especially during summer. Visitors should plan hikes according to weather conditions, carry sufficient water and check current park alerts. According to current Maricopa County information, the park is open from 05:00 to 21:00 from May through October and from 06:00 to 20:00 from November through April. Nature Center hours vary by season. A vehicle entry fee applies. In 2026, an annual fire ban is also in effect from May 1 through September 30, so visitors should check current rules regarding fires and barbecues. Usery Mountain Regional Park is particularly suitable for desert hiking, cactus photography, wildlife observation, camping and experiencing the Sonoran Desert landscape close to Mesa.",
+      "de": "Der Usery Mountain Regional Park liegt im Osten von Mesa am westlichen Rand der Goldfield Mountains und direkt neben dem Tonto National Forest. Mit einer Fläche von rund 3.648 Acres gehört er zu den wichtigsten Natur- und Erholungsgebieten in der Umgebung von Mesa. Die Landschaft wird von der Sonora-Wüste, Saguaro-Kakteen, trockener Vegetation, felsigen Hügeln und weiten Ausblicken geprägt. Im Park gibt es zahlreiche Wanderwege und Mountainbike-Strecken sowie Reitwege, Picknickbereiche, Campingplätze und ein Naturzentrum. Zu den bekanntesten Wegen gehört der Wind Cave Trail. Er führt zu einer Felsformation am geologischen Übergang zwischen vulkanischem Tuff und Granit am Pass Mountain. Durch Wasser, das an Teilen der Felswand austritt, können sich dort kleine Pflanzengemeinschaften und Fels-Gänseblümchen entwickeln. Die verschiedenen Wege bieten unterschiedliche Schwierigkeitsgrade, sodass sowohl kurze Spaziergänge als auch längere Wanderungen möglich sind. Von höher gelegenen Stellen eröffnen sich Blicke auf den Großraum Phoenix und die umliegenden Bergketten. Da der Park in einer Wüstenlandschaft liegt, können die Temperaturen besonders im Sommer sehr hoch werden. Besucher sollten Wanderungen entsprechend der Wetterbedingungen planen, ausreichend Wasser mitnehmen und aktuelle Parkwarnungen beachten. Nach den aktuellen Angaben von Maricopa County ist der Park von Mai bis Oktober täglich von 05:00 bis 21:00 Uhr und von November bis April von 06:00 bis 20:00 Uhr geöffnet. Die Öffnungszeiten des Naturzentrums sind saisonabhängig. Für die Einfahrt mit dem Fahrzeug wird eine Gebühr erhoben. Im Jahr 2026 gilt außerdem vom 1. Mai bis zum 30. September ein jährliches Feuerverbot. Vor einem Besuch sollten daher die aktuellen Regeln für Feuer und Grillen geprüft werden. Der Usery Mountain Regional Park eignet sich besonders für Wanderungen in der Wüste, Naturfotografie, Kakteenlandschaften, Tierbeobachtung und Camping."
     },
     "activities": {
       "tr": [
-        "Yürüyüş yapmak",
+        "Çöl yürüyüşü yapmak",
+        "Wind Cave Trail'i keşfetmek",
+        "Saguaro kaktüslerini fotoğraflamak",
+        "Dağ bisikleti yapmak",
+        "Piknik ve kamp yapmak",
         "Doğal yaşamı gözlemlemek"
       ],
       "en": [
-        "Hike",
+        "Hike in the desert",
+        "Explore Wind Cave Trail",
+        "Photograph saguaro cacti",
+        "Mountain bike",
+        "Picnic and camp",
         "Observe wildlife"
       ],
       "de": [
-        "Wandern",
+        "In der Wüste wandern",
+        "Den Wind Cave Trail erkunden",
+        "Saguaro-Kakteen fotografieren",
+        "Mountainbike fahren",
+        "Picknicken und campen",
         "Wildtiere beobachten"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "yürüyüş",
+        "macera",
+        "kamp",
+        "fotoğraf"
       ],
       "en": [
-        "nature"
+        "nature",
+        "hiking",
+        "adventure",
+        "camping",
+        "photography"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Wandern",
+        "Abenteuer",
+        "Camping",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/usery_mountain_regional_park.jpg"
+      "https://www.maricopacountyparks.net/wp-content/uploads/2017/07/UM-4.jpg",
+      "https://img.p.mapq.st/?q=75&url=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-o%2F2f%2Fb4%2F6b%2F46%2Fcaption.jpg&w=3840"
     ]
   },
   {
     "slug": "arizona-museum-of-natural-history",
     "name": {
-      "tr": "Arizona Museum of Natural History",
+      "tr": "Arizona Doğa Tarihi Müzesi",
       "en": "Arizona Museum of Natural History",
       "de": "Arizona Museum of Natural History"
     },
-    "latitude": 33.4154,
-    "longitude": -111.8277,
+    "latitude": 33.4167,
+    "longitude": -111.8337,
     "description": {
-      "tr": "Arizona Doğa Tarihi Müzesi, bölgenin tarihi ve doğal kaynakları hakkında zengin bir koleksiyon sunar. Müzede dinozorlar, taşlar ve yerel flora hakkında bilgiler bulabilirsiniz.",
-      "en": "The Arizona Museum of Natural History offers a rich collection about the region’s history and natural resources. Exhibits include dinosaurs, rocks, and local flora.",
-      "de": "Das Arizona Museum of Natural History bietet eine reiche Sammlung über die Geschichte und natürlichen Ressourcen der Region. Ausstellungen umfassen Dinosaurier, Steine und lokale Flora."
+      "tr": "Arizona Museum of Natural History, Mesa şehir merkezinde Arizona'nın doğal ve kültürel geçmişini farklı sergiler üzerinden anlatan önemli bir müzedir. Müzenin koleksiyonları yalnızca dinozorlarla sınırlı değildir; Arizona'nın jeolojisi, paleontolojisi, yerli halkların geçmişi, bölgesel tarih ve Güneybatı Amerika'nın doğal çevresi hakkında da sergiler bulunur. Dinozor iskeletleri ve fosiller müzenin en çok ilgi gören bölümlerinden biridir. Ziyaretçiler tarih öncesi canlıların yanı sıra mineraller, taşlar, fosiller ve Arizona'nın jeolojik oluşumu hakkında bilgi edinebilir. Müze ayrıca Sonoran Çölü'nde yaşayan insanların tarihini ve bölgenin kültürel mirasını ele alan bölümlere sahiptir. İnteraktif sergiler arasında altın arama deneyimi ve sel sularının gücünü anlatan uygulamalı bölümler bulunur. Müzenin sergileri zaman içinde değişebildiği için her dönemde aynı galeri düzeninin bulunması beklenmemelidir. 2026 yılında müze, daha önce Arizona and the Movies sergisinde kullanılan alanı Arizona'nın tarih öncesi memelilerine odaklanan Mammal Hall sergisine dönüştürmüştür. Bu değişiklik, müzenin yalnızca klasik dinozor sergilerinden ibaret olmadığını gösteren örneklerden biridir. Müze 53 N Macdonald, Downtown Mesa adresinde bulunur ve şehir merkezindeki diğer kültür duraklarıyla birlikte ziyaret edilebilir. Ayrıca Sce:dagĭ Mu:val Va’aki adlı arkeolojik alan müzenin ilişkili olduğu önemli bir başka noktadır. Güncel resmi bilgilere göre müze pazartesi günleri kapalıdır; salı-cumartesi 10.00-17.00, pazar ise 12.00-17.00 arasında açıktır. 2026 itibarıyla yetişkin giriş ücreti 16 dolar, 3-12 yaş çocuk bileti 9 dolar ve 65 yaş üstü ziyaretçiler için 13 dolardır. Özel indirimler ve geçici galeri kapanışları olabilir. Özellikle çocuklu aileler, paleontoloji meraklıları ve Arizona'nın doğal tarihini öğrenmek isteyenler için güçlü bir müze seçeneğidir.",
+      "en": "The Arizona Museum of Natural History is an important museum in Downtown Mesa that explores the natural and cultural history of Arizona through a wide range of exhibitions. Its collections go far beyond dinosaurs, covering geology, paleontology, Indigenous history, regional development and the natural environment of the American Southwest. Dinosaur skeletons and fossils are among the museum's most popular attractions. Visitors can also learn about minerals, rocks, fossils and the geological history of Arizona. Other galleries examine the history and cultural heritage of people who lived in the Sonoran Desert. Interactive experiences include gold panning and exhibits demonstrating the power of flash floods. Exhibitions can change over time, so the gallery lineup may be different from one visit to another. In 2026, the museum repurposed the former Arizona and the Movies gallery into Mammal Hall: Why Aren't They Here Now?, an exhibition focused on prehistoric mammals and the extinction of Arizona's megafauna. This demonstrates that the museum offers a broader natural-history experience than a dinosaur-only attraction. The museum is located at 53 N Macdonald in Downtown Mesa and can be combined with other cultural attractions in the area. The related archaeological site Sce:dagĭ Mu:val Va’aki is another significant place associated with the museum. Current official information lists the museum as closed Mondays, open Tuesday through Saturday from 10:00 to 17:00 and Sunday from noon to 17:00. As of 2026, admission is $16 for adults, $9 for children ages 3-12 and $13 for seniors aged 65 and over, with additional discounts available. Temporary gallery closures and special programs may affect the visitor experience. The museum is especially suitable for families, dinosaur and fossil enthusiasts, and travelers interested in Arizona's natural history.",
+      "de": "Das Arizona Museum of Natural History befindet sich im Zentrum von Mesa und vermittelt anhand verschiedener Ausstellungen die Natur- und Kulturgeschichte Arizonas. Die Sammlung beschränkt sich nicht auf Dinosaurier, sondern umfasst auch Geologie, Paläontologie, die Geschichte indigener Bevölkerungsgruppen, die regionale Entwicklung und die Natur des amerikanischen Südwestens. Dinosaurierskelette und Fossilien gehören zu den bekanntesten Bereichen des Museums. Besucher können außerdem Mineralien, Gesteine und die geologische Entwicklung Arizonas kennenlernen. Weitere Ausstellungen beschäftigen sich mit den Menschen, die seit langer Zeit in der Sonora-Wüste leben, sowie mit dem kulturellen Erbe der Region. Zu den interaktiven Angeboten gehören unter anderem Goldwaschen und eine Ausstellung über die Kraft von Sturzfluten. Da sich die Ausstellungen regelmäßig verändern können, ist die konkrete Galerieauswahl vom Besuchsdatum abhängig. Im Jahr 2026 wurde der frühere Ausstellungsbereich Arizona and the Movies in die neue Mammal Hall: Why Aren't They Here Now? umgewandelt, die sich mit prähistorischen Säugetieren und dem Aussterben der Megafauna Arizonas beschäftigt. Dadurch bietet das Museum deutlich mehr als eine reine Dinosaurierausstellung. Es befindet sich in der 53 N Macdonald im Zentrum von Mesa und lässt sich gut mit anderen Kulturangeboten der Innenstadt verbinden. Mit dem Museum verbunden ist außerdem die archäologische Stätte Sce:dagĭ Mu:val Va’aki. Nach den aktuellen offiziellen Angaben ist das Museum montags geschlossen, dienstags bis samstags von 10:00 bis 17:00 Uhr und sonntags von 12:00 bis 17:00 Uhr geöffnet. Im Jahr 2026 beträgt der reguläre Eintritt 16 US-Dollar für Erwachsene, 9 US-Dollar für Kinder von 3 bis 12 Jahren und 13 US-Dollar für Senioren ab 65 Jahren. Weitere Ermäßigungen und zeitweise geschlossene Galerien sind möglich. Das Museum eignet sich besonders für Familien, Fossilien- und Dinosaurierinteressierte sowie Reisende, die die Naturgeschichte Arizonas kennenlernen möchten."
     },
     "activities": {
       "tr": [
-        "Dinozorları görmek",
-        "Doğa tarihi hakkında bilgi edinmek"
+        "Dinozor fosillerini inceleme",
+        "Mineral ve taş koleksiyonlarını keşfetme",
+        "Arizona'nın doğal tarihini öğrenme",
+        "İnteraktif sergilere katılma",
+        "Altın arama deneyimini deneme",
+        "Tarih öncesi memeliler sergisini görme"
       ],
       "en": [
-        "See dinosaurs",
-        "Learn about natural history"
+        "Explore dinosaur fossils",
+        "Discover mineral and rock collections",
+        "Learn about Arizona's natural history",
+        "Explore interactive exhibits",
+        "Try the gold panning experience",
+        "See the prehistoric mammals exhibition"
       ],
       "de": [
-        "Dinosaurier sehen",
-        "Mehr über Naturgeschichte lernen"
+        "Dinosaurierfossilien entdecken",
+        "Mineralien- und Gesteinssammlungen erkunden",
+        "Die Naturgeschichte Arizonas kennenlernen",
+        "Interaktive Ausstellungen erleben",
+        "Goldwaschen ausprobieren",
+        "Die Ausstellung über prähistorische Säugetiere besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "doğa tarihi",
+        "paleontoloji",
+        "bilim",
+        "kültür"
       ],
       "en": [
-        "museum"
+        "museum",
+        "natural history",
+        "paleontology",
+        "science",
+        "culture"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Naturgeschichte",
+        "Paläontologie",
+        "Wissenschaft",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/arizona_museum_of_natural_history.jpg"
+      "https://imagescdn.homes.com/i2/PxZ7dxYugHWRpBsI-Q2_TryTGfTD2AcKE_AUDIjyLGs/102/reed-park-mesa-az-2.jpg",
+      "https://familydestinationsguide.com/wp-content/uploads/2024/12/1-Exterior-2.jpg"
     ]
   },
   {
-    "slug": "mesa-grande-cultural-park",
+    "slug": "scedagi-muval-vaaki",
     "name": {
-      "tr": "Mesa Grande Cultural Park",
-      "en": "Mesa Grande Cultural Park",
-      "de": "Mesa Grande Cultural Park"
+      "tr": "Sce:dagĭ Mu:val Va’aki",
+      "en": "Sce:dagĭ Mu:val Va’aki",
+      "de": "Sce:dagĭ Mu:val Va’aki"
     },
-    "latitude": 33.4153,
-    "longitude": -111.816,
+    "latitude": 33.43415,
+    "longitude": -111.84527,
     "description": {
-      "tr": "Mesa Grande Kültürel Parkı, bölgedeki antik yerleşim alanlarının kalıntılarını gösteren bir parktır. Ziyaretçiler, erken yerli Amerikan kültürlerini keşfedebilir.",
-      "en": "Mesa Grande Cultural Park showcases the remains of ancient settlements in the area. Visitors can explore early Native American cultures.",
-      "de": "Der Mesa Grande Cultural Park zeigt die Überreste antiker Siedlungen in der Region. Besucher können frühe Kulturen der amerikanischen Ureinwohner erkunden."
+      "tr": "Sce:dagĭ Mu:val Va’aki, 2024 yılına kadar Mesa Grande Cultural Park adıyla bilinen, Mesa'daki önemli bir arkeolojik alandır. Alan, Sonoran Çölü'nde yaşayan Hohokam toplumlarının geçmişine ışık tutan büyük bir platform höyüğünü ve çevresindeki arkeolojik kalıntıları korur. Günümüzde alanın resmi adı Sce:dagĭ Mu:val Va’aki'dir ve bu ad O'odham dilinde 'Mavi Sinek'in yaşadığı yer' veya 'Mavi Sinek'in evi' anlamına gelir. Alanın tarihi yaklaşık MS 1100-1400 dönemine uzanır; bazı resmi eğitim materyallerinde kullanım dönemi MS 1100-1450 olarak da ifade edilir. Buradaki büyük platform höyüğü, geçmişte idari ve dini faaliyetlerin gerçekleştirildiği bir toplumsal ve tören merkezi olarak kullanılmıştır. Alan, Hohokam toplumlarının Salt River Vadisi'nde geliştirdiği gelişmiş sulama sistemleriyle de doğrudan bağlantılıdır. Höyüğün yakınında, bölgedeki büyük kanal sistemlerinin baş kısımları bulunuyordu ve bu sulama altyapısı geniş tarım alanlarının verimli şekilde kullanılmasına yardımcı oluyordu. Günümüzde ziyaretçiler alandaki höyük ve arkeolojik kalıntılar hakkında bilgi edinebilir, yürüyüş yollarını kullanabilir ve bölgenin tarihini anlamaya yönelik yorumlayıcı içerikleri inceleyebilir. Alan, Arizona Museum of Natural History tarafından yürütülen araştırma ve eğitim faaliyetleriyle bağlantılıdır. Sce:dagĭ Mu:val Va’aki 1978 yılında National Register of Historic Places'e dahil edilmiştir. Güncel resmi bilgilere göre alan mevsimsel olarak işletilmektedir ve şu anda kapalı olup sonbaharda yeniden açılması planlanmaktadır. Giriş ücreti yetişkinler için 6 dolar, çocuklar için 3 dolar olarak belirtilmiştir ve Arizona Museum of Natural History girişine dahil edilmektedir. Ziyaret öncesinde sezon ve saatlerin mutlaka kontrol edilmesi gerekir. Burası büyük müze salonlarından ziyade açık havada arkeolojik bir alan görme fırsatı sunduğu için Mesa'nın yerli kültürleri, Hohokam tarihi, eski sulama teknolojileri ve arkeolojiyle ilgilenen ziyaretçileri için farklı bir deneyim sunar.",
+      "en": "Sce:dagĭ Mu:val Va’aki, formerly known as Mesa Grande Cultural Park until 2024, is an important archaeological site in Mesa preserving a large platform mound and associated remains connected to the Hohokam people of the Sonoran Desert. The site's official name is now Sce:dagĭ Mu:val Va’aki, an O'odham name meaning 'Blue Fly's place of dwelling' or 'Blue Fly's house.' The site dates broadly to the period around AD 1100-1400, while some official educational material describes occupation and construction extending to approximately AD 1100-1450. Its large platform mound functioned as a civic and ceremonial center where administrative and religious activities were carried out. The site is also closely connected to the sophisticated irrigation systems developed by Hohokam communities in the Salt River Valley. The mound was positioned near the head-gates of a major canal network that supported extensive agricultural production. Visitors can learn about the mound and archaeological remains, follow walking paths and explore interpretive information about the site's history. The archaeological area is connected to research and educational programs operated in partnership with the Arizona Museum of Natural History. Sce:dagĭ Mu:val Va’aki was added to the National Register of Historic Places in 1978. Current official information states that the site operates seasonally and is currently closed for the season, with reopening planned for the fall. Admission is listed at $6 for adults and $3 for children and is included with admission to the Arizona Museum of Natural History. Visitors should check the current season and opening schedule before planning a visit. Unlike a conventional indoor museum, the site provides an opportunity to experience an archaeological landscape outdoors. It is particularly relevant for travelers interested in Indigenous history, Hohokam culture, ancient irrigation engineering and archaeology in the Phoenix-Mesa region.",
+      "de": "Sce:dagĭ Mu:val Va’aki, bis 2024 als Mesa Grande Cultural Park bekannt, ist eine bedeutende archäologische Stätte in Mesa. Erhalten sind ein großer Plattformhügel und weitere archäologische Überreste, die mit den Hohokam-Gemeinschaften der Sonora-Wüste verbunden sind. Der heutige offizielle Name lautet Sce:dagĭ Mu:val Va’aki und stammt aus der O'odham-Sprache. Er bedeutet ungefähr 'Ort, an dem die Blaue Fliege lebt' oder 'Haus der Blauen Fliege'. Die Anlage wird allgemein in die Zeit zwischen etwa 1100 und 1400 n. Chr. datiert; in offiziellen Bildungsunterlagen wird teilweise eine Nutzung bis etwa 1450 angegeben. Der große Plattformhügel diente als gesellschaftliches und zeremonielles Zentrum, an dem administrative und religiöse Aktivitäten stattfanden. Die Stätte steht außerdem in engem Zusammenhang mit den hochentwickelten Bewässerungssystemen der Hohokam im Salt River Valley. Der Hügel lag in der Nähe der Kopftore eines großen Kanalsystems, das umfangreiche landwirtschaftliche Flächen versorgte. Besucher können den Plattformhügel und die archäologischen Überreste kennenlernen, Spazierwege nutzen und Informationen über die Geschichte der Anlage lesen. Die Stätte ist mit Forschungs- und Bildungsprogrammen des Arizona Museum of Natural History verbunden. Sce:dagĭ Mu:val Va’aki wurde 1978 in das National Register of Historic Places aufgenommen. Nach den aktuellen offiziellen Angaben ist die Anlage saisonal geöffnet und derzeit für die Saison geschlossen; eine Wiedereröffnung ist im Herbst vorgesehen. Der Eintritt wird mit 6 US-Dollar für Erwachsene und 3 US-Dollar für Kinder angegeben und ist im Eintritt des Arizona Museum of Natural History enthalten. Vor dem Besuch sollten Saison und Öffnungszeiten überprüft werden. Im Gegensatz zu einem klassischen Museum handelt es sich um eine archäologische Landschaft im Freien. Besonders für Reisende, die sich für indigene Geschichte, Hohokam-Kultur, historische Bewässerungstechnik und Archäologie interessieren, ist der Ort interessant."
     },
     "activities": {
       "tr": [
-        "Antik kalıntıları görmek",
-        "Yerli Amerikan kültürünü keşfetmek"
+        "Hohokam arkeolojik alanını keşfetme",
+        "Platform höyüğünü görme",
+        "Arkeoloji yürüyüşü yapma",
+        "Antik sulama sistemleri hakkında bilgi edinme",
+        "Yerli kültür tarihini öğrenme"
       ],
       "en": [
-        "See ancient ruins",
-        "Explore Native American culture"
+        "Explore the Hohokam archaeological site",
+        "See the platform mound",
+        "Walk through the archaeological area",
+        "Learn about ancient irrigation systems",
+        "Learn about Indigenous history"
       ],
       "de": [
-        "Antike Ruinen sehen",
-        "Kultur der amerikanischen Ureinwohner erkunden"
+        "Die Hohokam-Ausgrabungsstätte erkunden",
+        "Den Plattformhügel besichtigen",
+        "Durch das archäologische Gelände spazieren",
+        "Historische Bewässerungssysteme kennenlernen",
+        "Indigene Geschichte entdecken"
       ]
     },
     "categories": {
       "tr": [
-        "park"
+        "arkeoloji",
+        "tarih",
+        "yerli kültür",
+        "açık hava",
+        "kültür"
       ],
       "en": [
-        "park"
+        "archaeology",
+        "history",
+        "Indigenous culture",
+        "outdoor",
+        "culture"
       ],
       "de": [
-        "park"
+        "Archäologie",
+        "Geschichte",
+        "Indigene Kultur",
+        "Freiluft",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/mesa_grande_cultural_park.jpg"
+      "https://www.destinationsdetoursdreams.com/wp-content/uploads/2022/01/mounds-canals-mesa-grande-excavation.jpg"
+    ]
+  },
+  {
+    "slug": "park-of-the-canals",
+    "name": {
+      "tr": "Park of the Canals",
+      "en": "Park of the Canals",
+      "de": "Park of the Canals"
+    },
+    "latitude": 33.44555,
+    "longitude": -111.81410,
+    "description": {
+      "tr": "Park of the Canals, Mesa'nın kuzey bölümünde yer alan ve doğal rekreasyon alanlarını Hohokam döneminden kalan sulama kanallarının tarihiyle bir araya getiren 31 acre büyüklüğünde bir şehir parkıdır. Parkın en önemli özelliği, Salt River Vadisi'nde binlerce yıl önce geliştirilen karmaşık sulama sistemlerinin izlerinin korunmuş olmasıdır. Hohokam toplumları, kurak Sonoran Çölü ortamında tarım yapabilmek için geniş kanal ağları geliştirmiş ve bu sistemler bölgenin tarihini önemli ölçüde şekillendirmiştir. Parkta bu eski kanal kalıntılarının yanında yürüyüş alanları, gölgeli bahçe bölümleri, botanik bahçe, piknik masaları, oyun alanı, ramadalar ve tuvaletler bulunur. Böylece ziyaret hem açık hava rekreasyonu hem de bölgenin eski mühendislik geçmişini tanıma fırsatı sunar. Parkın botanik alanı çöl bitkileri ve bölgenin doğal peyzajını anlamak için ek bir bölüm oluşturur. Alan, Mesa'nın tarihini anlamak açısından da önemlidir. Mesa Historical and Archaeological Society'nin ilk önemli projelerinden biri Park of the Canals olmuş ve alan 1977 yılında şehir parkı haline getirilmiştir. Günümüzde parkta yürüyüş yapmak, piknik yapmak ve botanik alanı keşfetmek mümkündür. Hohokam kanal kalıntıları özellikle arkeoloji ve yerli kültür tarihiyle ilgilenen ziyaretçiler için parkın diğer şehir parklarından ayrılmasını sağlar. Parkın resmi adresi 1710 N Horne, Mesa'dır. Şehir yönetiminin güncel bilgilerine göre park güneş doğuşundan 22.00'ye kadar veya ilan edilen saatlere göre açıktır. Parkta rezervasyon yapılabilen ve yapılamayan ramadalar bulunur. Yaz aylarında Arizona'nın yüksek sıcaklıkları nedeniyle özellikle açık alanları gezerken günün daha serin saatlerini tercih etmek daha rahat olabilir. Park of the Canals, Mesa'da hem kısa bir açık hava molası hem de Hohokamların geliştirdiği antik sulama teknolojisine dair izleri görmek isteyenler için değerlendirilebilecek farklı bir duraktır.",
+      "en": "Park of the Canals is a 31-acre city park in northern Mesa that combines outdoor recreation with preserved traces of the irrigation canals developed by Hohokam communities in the Salt River Valley. Its main historical feature is the surviving evidence of ancient irrigation systems that made agriculture possible in the arid Sonoran Desert. Hohokam communities developed extensive canal networks that played a major role in shaping the history of the Phoenix and Mesa region. Alongside the archaeological remains, the park contains walking areas, shaded garden spaces, a botanical garden, picnic tables, a playground, ramadas and restrooms. This combination allows visitors to enjoy a conventional city park while also learning about the engineering history of the region. The botanical garden provides another opportunity to see desert-adapted plants and understand the area's natural landscape. The park is also part of Mesa's modern historical preservation story. The Mesa Historical and Archaeological Society identified the area as an important project, and Park of the Canals became a city park in 1977. Today visitors can walk through the grounds, use the picnic areas and explore the botanical garden. The preserved canal remains make the park particularly interesting for travelers interested in archaeology, Indigenous history and ancient water-management systems. The official address is 1710 N Horne, Mesa. According to current City of Mesa information, the park is open from sunrise until 22:00 or as posted. Both reservable and non-reservable ramadas are available. Because Mesa experiences very high temperatures during summer, visitors may find the outdoor areas more comfortable during the cooler parts of the day. Park of the Canals is a useful stop for travelers who want a short outdoor break while also seeing evidence of the ancient irrigation technology that supported settlement and agriculture in the Salt River Valley.",
+      "de": "Der Park of the Canals ist ein 31 Acre großer Stadtpark im Norden von Mesa, der Freizeitangebote im Freien mit erhaltenen Spuren der historischen Bewässerungskanäle der Hohokam verbindet. Die wichtigste Besonderheit des Parks sind die Überreste alter Bewässerungssysteme, die Landwirtschaft in der trockenen Sonora-Wüste ermöglichten. Die Hohokam entwickelten im Salt River Valley umfangreiche Kanalsysteme, die die Geschichte der Region um Mesa und Phoenix nachhaltig prägten. Neben den archäologischen Überresten bietet der Park Spazierwege, schattige Gartenbereiche, einen botanischen Garten, Picknicktische, einen Spielplatz, Ramadas und Toiletten. Dadurch lässt sich ein gewöhnlicher Parkbesuch mit einem Einblick in die historische Ingenieurskunst der Region verbinden. Der botanische Bereich bietet zusätzlich die Möglichkeit, an die Wüstenbedingungen angepasste Pflanzen kennenzulernen. Der Park ist auch Teil der modernen historischen Bewahrungsgeschichte von Mesa. Die Mesa Historical and Archaeological Society beschäftigte sich früh mit der Erhaltung des Gebiets, und der Park of the Canals wurde 1977 zu einem Stadtpark. Heute können Besucher durch das Gelände spazieren, die Picknickbereiche nutzen und den botanischen Garten erkunden. Die erhaltenen Kanalspuren machen den Park besonders für Reisende interessant, die sich für Archäologie, indigene Geschichte und historische Wasserbewirtschaftung interessieren. Die offizielle Adresse lautet 1710 N Horne, Mesa. Nach den aktuellen Angaben der Stadt Mesa ist der Park von Sonnenaufgang bis 22:00 Uhr beziehungsweise nach Aushang geöffnet. Es gibt reservierbare und nicht reservierbare Ramadas. Da die Temperaturen in Mesa im Sommer sehr hoch werden können, sind die kühleren Tageszeiten für einen Besuch der Außenbereiche angenehmer. Der Park of the Canals eignet sich daher als kurzer Natur- und Geschichtsstopp für Besucher, die neben der Freizeitgestaltung auch Spuren der alten Bewässerungstechnik des Salt River Valley sehen möchten."
+    },
+    "activities": {
+      "tr": [
+        "Antik kanal kalıntılarını keşfetme",
+        "Botanik bahçesini gezme",
+        "Yürüyüş yapma",
+        "Piknik yapma",
+        "Hohokam sulama sistemlerini öğrenme"
+      ],
+      "en": [
+        "Explore ancient canal remains",
+        "Visit the botanical garden",
+        "Walk through the park",
+        "Have a picnic",
+        "Learn about Hohokam irrigation systems"
+      ],
+      "de": [
+        "Alte Kanalreste erkunden",
+        "Den botanischen Garten besuchen",
+        "Durch den Park spazieren",
+        "Picknicken",
+        "Hohokam-Bewässerungssysteme kennenlernen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park",
+        "arkeoloji",
+        "tarih",
+        "botanik",
+        "doğa"
+      ],
+      "en": [
+        "park",
+        "archaeology",
+        "history",
+        "botanical",
+        "nature"
+      ],
+      "de": [
+        "Park",
+        "Archäologie",
+        "Geschichte",
+        "Botanik",
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://www.mesaaz.gov/home/showpublishedimage/1842/638866111822330000",
+      "https://www.destinationsdetoursdreams.com/wp-content/uploads/2022/01/mounds-canals-mesa-grande-excavation.jpg"
+    ]
+  },
+  {
+    "slug": "idea-museum",
+    "name": {
+      "tr": "i.d.e.a. Museum",
+      "en": "i.d.e.a. Museum",
+      "de": "i.d.e.a. Museum"
+    },
+    "latitude": 33.4168,
+    "longitude": -111.8360,
+    "description": {
+      "tr": "i.d.e.a. Museum, Downtown Mesa'da çocukları ve aileleri sanat, yaratıcılık ve STEAM etkinlikleriyle buluşturan interaktif bir müzedir. Müzenin yaklaşımı klasik bir sanat müzesinde eserleri yalnızca uzaktan izlemekten farklıdır; ziyaretçilerin sanatla etkileşime girmesini, üretmesini, denemesini ve bilim, teknoloji, mühendislik ve matematik gibi alanlarla bağlantılar kurmasını amaçlar. Müze 1978 yılında Children's Fine Art Center olarak başlayan geçmişinin ardından farklı isim ve kurumsal aşamalardan geçmiş, 2014 yılında i.d.e.a. Museum adını almıştır. Günümüzde erken öğrenmeyi destekleyen sergiler, uygulamalı etkinlikler ve aile programları düzenlenmektedir. Müzenin interaktif alanları arasında çocukların hayal gücünü kullanarak farklı malzemeler ve yöntemlerle üretim yapabildiği bölümler bulunur. The HUB adı verilen alan da ziyaretçilerin farklı etkileşimli deneyimleri keşfetmesine olanak tanır. Müze yalnızca küçük çocuklara yönelik bir oyun alanı olarak düşünülmemelidir; sergiler ve programlar farklı yaş gruplarını sanat ve yaratıcılık üzerinden bir araya getirmeyi hedefler. Downtown Mesa'daki konumu nedeniyle Arizona Museum of Natural History ve Mesa Arts Center ile aynı gezi planına eklenebilir. Müze ayrıca duyusal ihtiyaçları bulunan ziyaretçiler için sessiz alanlar, duyusal destek ekipmanları ve erişilebilirlik uygulamaları sunmaktadır. Güncel resmi bilgilere göre müze salı-cumartesi 09.00-16.00, pazar 12.00-16.00 saatleri arasında açıktır ve pazartesi günleri kapalıdır. 2026 itibarıyla standart giriş kişi başı 12 dolardır; bir yaşından küçük çocuklar ve üyeler ücretsizdir. Bazı özel erişim programlarında indirimli giriş uygulanmaktadır. Müze özellikle çocuklu aileler, yaratıcı etkinlikleri sevenler ve sıcak Arizona günlerinde kapalı alanda kültürel bir aktivite arayan ziyaretçiler için Mesa'da değerlendirilebilecek iyi bir seçenektir.",
+      "en": "The i.d.e.a. Museum is an interactive museum in Downtown Mesa that brings children and families together through art, creativity and STEAM-based experiences. Rather than asking visitors simply to look at artworks from a distance, the museum encourages participation, experimentation and hands-on learning while connecting art with science, technology, engineering and mathematics. The institution began in 1978 as the Children's Fine Art Center and went through several stages before adopting the i.d.e.a. Museum name in 2014. Today it presents exhibitions, interactive learning spaces and family programs designed to support early learning and creative thinking. Interactive areas allow visitors to experiment with different materials, ideas and creative processes. The HUB is one of the museum's spaces designed to encourage imagination through interactive experiences. Although the museum is particularly relevant to children, it is not simply a play center; its programs and exhibitions are designed to bring different generations together through art and creative learning. Its Downtown Mesa location makes it convenient to combine with the Arizona Museum of Natural History and Mesa Arts Center. The museum also provides sensory accommodations, quiet spaces and support resources for visitors with different sensory needs. Current official information lists opening hours of 09:00-16:00 Tuesday through Saturday and 12:00-16:00 on Sunday, with Mondays closed. As of 2026, standard admission is $12 per person, while members and children under one are admitted free. Certain access programs provide discounted admission. The museum is especially suitable for families with children, visitors interested in creative hands-on activities and travelers looking for an indoor cultural experience during hot Arizona weather.",
+      "de": "Das i.d.e.a. Museum ist ein interaktives Museum im Zentrum von Mesa, das Kinder und Familien durch Kunst, Kreativität und STEAM-Angebote zusammenbringt. Anders als in einem klassischen Kunstmuseum steht nicht nur das Betrachten von Kunstwerken im Vordergrund. Besucher sollen selbst experimentieren, gestalten und Zusammenhänge zwischen Kunst und Wissenschaft, Technologie, Ingenieurwesen und Mathematik entdecken. Die Einrichtung begann 1978 als Children's Fine Art Center und entwickelte sich über mehrere institutionelle Phasen weiter, bevor sie 2014 den Namen i.d.e.a. Museum erhielt. Heute werden Ausstellungen, interaktive Lernbereiche und Familienprogramme angeboten, die frühes Lernen und kreatives Denken unterstützen. In verschiedenen Bereichen können Besucher mit Materialien, Ideen und kreativen Techniken experimentieren. Der Bereich The HUB bietet interaktive Erfahrungen, die die Fantasie anregen sollen. Obwohl das Museum besonders für Kinder interessant ist, handelt es sich nicht einfach um einen Spielplatz. Die Ausstellungen und Programme sollen verschiedene Generationen durch Kunst und kreatives Lernen miteinander verbinden. Durch die Lage im Zentrum von Mesa lässt sich das Museum gut mit dem Arizona Museum of Natural History und dem Mesa Arts Center kombinieren. Das Museum verfügt außerdem über Angebote für Besucher mit unterschiedlichen sensorischen Bedürfnissen, darunter ruhige Bereiche und unterstützende Hilfsmittel. Nach den aktuellen offiziellen Angaben ist es dienstags bis samstags von 09:00 bis 16:00 Uhr und sonntags von 12:00 bis 16:00 Uhr geöffnet; montags ist es geschlossen. Im Jahr 2026 beträgt der reguläre Eintritt 12 US-Dollar pro Person, während Mitglieder und Kinder unter einem Jahr kostenlos eintreten. Bestimmte Zugangsprogramme bieten ermäßigte Eintrittspreise. Das Museum eignet sich besonders für Familien mit Kindern, Besucher, die interaktive Kreativangebote mögen, und Reisende, die an heißen Tagen eine kulturelle Aktivität in Innenräumen suchen."
+    },
+    "activities": {
+      "tr": [
+        "İnteraktif sanat etkinliklerine katılma",
+        "STEAM aktivitelerini keşfetme",
+        "Yaratıcı çalışmalar yapma",
+        "Aile etkinliklerine katılma",
+        "Eğitim alanlarını keşfetme"
+      ],
+      "en": [
+        "Join interactive art activities",
+        "Explore STEAM experiences",
+        "Create hands-on projects",
+        "Join family programs",
+        "Explore educational spaces"
+      ],
+      "de": [
+        "An interaktiven Kunstaktivitäten teilnehmen",
+        "STEAM-Angebote entdecken",
+        "Kreative Projekte gestalten",
+        "Familienprogramme besuchen",
+        "Lernbereiche erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "sanat",
+        "aile",
+        "eğitim",
+        "STEAM"
+      ],
+      "en": [
+        "museum",
+        "art",
+        "family",
+        "education",
+        "STEAM"
+      ],
+      "de": [
+        "Museum",
+        "Kunst",
+        "Familie",
+        "Bildung",
+        "STEAM"
+      ]
+    },
+    "images": [
+      "https://www.ideamuseum.org/storage/summernote_photo/ideamuseum/d6d39761b650b456affb608a53f5196eb02fcf42.webp"
+    ]
+  },
+  {
+    "slug": "sloan-park",
+    "name": {
+      "tr": "Sloan Park",
+      "en": "Sloan Park",
+      "de": "Sloan Park"
+    },
+    "latitude": 33.43107,
+    "longitude": -111.88155,
+    "description": {
+      "tr": "Sloan Park, Mesa'daki Riverview Park içinde yer alan ve Chicago Cubs'ın bahar antrenman maçlarına ev sahipliği yapan 15.000 kişilik beyzbol stadyumudur. Modern stadyum 2014 yılında açılmış ve Arizona'nın Cactus League organizasyonundaki önemli beyzbol tesislerinden biri haline gelmiştir. Chicago Cubs'ın bahar antrenman dönemindeki maçlarını izlemek isteyen beyzbolseverler için ana duraklardan biri olan Sloan Park, sezon dışında da Mesa'nın spor kültürü açısından dikkat çeken yapılarından biridir. Stadyumun konumu Riverview Park kompleksinin içinde olduğundan ziyaretçiler yalnızca maç deneyimiyle sınırlı kalmaz; çevredeki park alanları ve rekreasyon olanaklarıyla birlikte değerlendirilebilir. Sloan Park'ın tasarımında Chicago Cubs'ın tarihi Wrigley Field atmosferinden esinlenen bazı unsurlar kullanılmıştır. Yeşil tribün yapıları, geniş çatı bölümleri ve stadyum çevresindeki açık alanlar Arizona'nın modern spor tesisleriyle klasik beyzbol görünümünü bir araya getirir. Tesisin içinde tribünler, gölgeli alanlar, tuvaletler ve takım mağazası gibi ziyaretçi olanakları bulunur. Bahar antrenmanı döneminde maç günlerinde bilet, otopark ve giriş düzenlemeleri etkinliğe göre değişebilir. Bu nedenle özellikle maç izlemek amacıyla gidilecekse güncel Chicago Cubs programının ve bilet bilgilerinin kontrol edilmesi gerekir. Sloan Park'ın resmi adresi 2330 W Rio Salado Pkwy, Mesa'dır ve koordinatları yaklaşık 33.4310672, -111.8815505 olarak şehir yönetimi tarafından verilmektedir. Mesa'daki spor turizmi açısından önemli bir nokta olan stadyum, özellikle Cactus League döneminde beyzbol atmosferini yaşamak isteyen ziyaretçiler için değerlendirilebilir. Fotoğraf açısından da geniş tribünleri, saha görünümü ve Arizona'nın açık gökyüzü ilgi çekici kareler sunabilir.",
+      "en": "Sloan Park is a 15,000-seat baseball stadium located within Riverview Park in Mesa and serves as the Chicago Cubs' spring training home. Opened in 2014, the stadium became one of the important baseball facilities in Arizona's Cactus League. For baseball fans who want to watch the Chicago Cubs during spring training, Sloan Park is one of the major destinations in the Phoenix-Mesa area. Because the stadium is located within the larger Riverview Park complex, a visit can also be combined with the surrounding recreational areas. Sloan Park incorporates design elements inspired by the atmosphere and appearance of Wrigley Field, creating a connection between the Cubs' historic home in Chicago and their Arizona spring-training venue. Green seating structures, covered areas and open spaces combine the character of traditional baseball architecture with a modern Arizona sports facility. Visitor amenities include seating areas, shaded spaces, restrooms and a team store. During spring training games, ticketing, parking and entry procedures can vary depending on the event, so visitors planning to attend a game should check the current Chicago Cubs schedule and ticket information. The official address is 2330 W Rio Salado Pkwy, Mesa, and the City of Mesa lists the location at approximately 33.4310672, -111.8815505. Sloan Park is particularly relevant for sports tourism during the Cactus League season, when the stadium becomes a focal point for baseball fans visiting the Phoenix metropolitan area. The broad stadium views, field and Arizona skies can also provide interesting opportunities for sports photography.",
+      "de": "Sloan Park ist ein Baseballstadion mit 15.000 Plätzen im Riverview Park in Mesa und dient als Heimstadion der Chicago Cubs während der Spring-Training-Saison. Das Stadion wurde 2014 eröffnet und gehört zu den bedeutenden Baseballanlagen der Cactus League in Arizona. Für Baseballfans, die die Chicago Cubs während des Spring Trainings erleben möchten, ist Sloan Park ein wichtiger Anlaufpunkt im Raum Phoenix und Mesa. Da sich das Stadion innerhalb des größeren Riverview-Park-Komplexes befindet, lässt sich der Besuch mit den umliegenden Freizeitbereichen verbinden. Bei der Gestaltung wurden Elemente verwendet, die an die Atmosphäre und das Erscheinungsbild des historischen Wrigley Field erinnern. Grüne Tribünen, überdachte Bereiche und offene Flächen verbinden traditionelle Baseballästhetik mit einer modernen Sportanlage in Arizona. Zu den Einrichtungen gehören Sitzbereiche, schattige Bereiche, Toiletten und ein Fanshop. Während der Spring-Training-Spiele können Eintritt, Parkmöglichkeiten und Einlassregelungen je nach Veranstaltung variieren. Besucher, die ein Spiel besuchen möchten, sollten daher den aktuellen Spielplan und die Ticketinformationen der Chicago Cubs prüfen. Die offizielle Adresse lautet 2330 W Rio Salado Pkwy, Mesa; die Stadt Mesa gibt die Koordinaten mit etwa 33.4310672, -111.8815505 an. Sloan Park ist besonders während der Cactus-League-Saison für Sportreisende interessant, wenn zahlreiche Baseballfans die Region besuchen. Die weiten Tribünenansichten, das Spielfeld und der offene Himmel Arizonas bieten außerdem interessante Möglichkeiten für Sport- und Reisefotografie."
+    },
+    "activities": {
+      "tr": [
+        "Beyzbol maçı izleme",
+        "Chicago Cubs bahar antrenmanını takip etme",
+        "Stadyumu keşfetme",
+        "Spor fotoğrafçılığı yapma",
+        "Riverview Park'ı gezme"
+      ],
+      "en": [
+        "Watch a baseball game",
+        "Attend Chicago Cubs spring training",
+        "Explore the stadium",
+        "Practice sports photography",
+        "Explore Riverview Park"
+      ],
+      "de": [
+        "Ein Baseballspiel ansehen",
+        "Das Spring Training der Chicago Cubs erleben",
+        "Das Stadion erkunden",
+        "Sportfotografie betreiben",
+        "Den Riverview Park erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "spor",
+        "beyzbol",
+        "etkinlik",
+        "stadyum",
+        "park"
+      ],
+      "en": [
+        "sports",
+        "baseball",
+        "events",
+        "stadium",
+        "park"
+      ],
+      "de": [
+        "Sport",
+        "Baseball",
+        "Veranstaltungen",
+        "Stadion",
+        "Park"
+      ]
+    },
+    "images": [
+      "https://snworksceo.imgix.net/asp/4d2003ff-cd54-4d84-9169-e1b2cc07a153.sized-1000x1000.jpg?w=1000",
+      "https://i.pinimg.com/originals/e0/41/77/e041774dfbe768b607abef4a7ec8c5b4.jpg"
     ]
   }
 ]

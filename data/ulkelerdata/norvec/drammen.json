@@ -4,42 +4,73 @@
     "name": {
       "tr": "Drammen Nehri",
       "en": "Drammen River",
-      "de": "Drammen Fluss"
+      "de": "Drammenselva"
     },
-    "latitude": 59.74,
+    "latitude": 59.7441,
     "longitude": 10.2047,
     "description": {
-      "tr": "Drammen Nehri, şehri ikiye bölen güzel bir nehirdir. Nehir boyunca yürüyüş yapabilir ve feribotla gezebilirsiniz.",
-      "en": "The Drammen River is a beautiful river that divides the city. You can walk along the river or take a ferry ride.",
-      "de": "Der Drammen Fluss ist ein schöner Fluss, der die Stadt teilt. Man kann entlang des Flusses spazieren oder eine Fährfahrt machen."
+      "tr": "Drammen Nehri (Drammenselva), Norveç'in güneydoğusundaki önemli akarsulardan biridir ve Drammen şehir merkezinin içinden geçerek şehrin iki yakasını birbirine bağlayan köprülerin altından ilerler. Yaklaşık 48 kilometre uzunluğundaki nehir Tyrifjorden'den doğar ve Drammensfjord'a ulaşır. Drammen'in şehir yaşamında nehir önemli bir yere sahiptir; kıyıları yürüyüş ve bisiklet yolları, parklar, oturma alanları ve kamusal alanlarla düzenlenmiştir. Özellikle Elvepromenaden boyunca yürüyüş yaparken nehir, köprüler ve şehir manzarası birlikte görülebilir. Ypsilon Köprüsü çevresi nehir kenarında fotoğraf çekmek ve iki yakayı yürüyerek keşfetmek için öne çıkan noktalardan biridir. Dönemsel olarak nehir üzerinde tekne ve elektrikli feribot seferleri de düzenlenebilir.",
+      "en": "The Drammen River (Drammenselva) is an important river in southeastern Norway, flowing through the centre of Drammen and beneath several bridges that connect the two sides of the city. The river is about 48 kilometres long, originating at Tyrifjorden before reaching the Drammensfjord. It plays an important role in Drammen's urban life, with riverside paths, parks, seating areas and public spaces developed along its banks. The Elvepromenaden river promenade is particularly suitable for walking and cycling, with views of the water, bridges and cityscape. The area around Ypsilon Bridge is a popular place for photography and for exploring both sides of the river on foot. Seasonal boat and electric ferry services may also operate on the river.",
+      "de": "Die Drammenselva ist ein bedeutender Fluss im Südosten Norwegens und fließt durch das Zentrum von Drammen unter mehreren Brücken hindurch, die beide Stadtseiten miteinander verbinden. Der Fluss ist etwa 48 Kilometer lang, entspringt im Tyrifjord und mündet in den Drammensfjord. Entlang seiner Ufer wurden Spazier- und Radwege, Parks, Sitzbereiche und öffentliche Räume angelegt. Besonders die Elvepromenaden eignen sich für Spaziergänge und Fahrradtouren mit Blick auf das Wasser, die Brücken und die Stadt. Die Umgebung der Ypsilon-Brücke ist ein beliebter Ort für Fotografien und Spaziergänge entlang beider Flussufer. Saisonale Boots- und Elektrofährverbindungen können ebenfalls angeboten werden."
     },
     "activities": {
       "tr": [
-        "Nehir kenarında yürüyüş yapma",
-        "Feribot turu yapma"
+        "Nehir kenarında yürüyüş",
+        "Bisiklet sürme",
+        "Elvepromenaden boyunca gezme",
+        "Köprüleri ve şehir manzarasını fotoğraflama",
+        "Ypsilon Köprüsü çevresini keşfetme",
+        "Nehir kenarında dinlenme",
+        "Dönemsel tekne veya feribot seferlerine katılma"
       ],
       "en": [
         "Walk along the river",
-        "Take a ferry tour"
+        "Cycle along the riverside",
+        "Explore the Elvepromenaden",
+        "Photograph the bridges and cityscape",
+        "Explore the area around Ypsilon Bridge",
+        "Relax by the river",
+        "Join seasonal boat or ferry services"
       ],
       "de": [
-        "Am Fluss entlang spazieren",
-        "Eine Fährfahrt machen"
+        "Am Fluss spazieren",
+        "Am Fluss Rad fahren",
+        "Die Elvepromenaden erkunden",
+        "Brücken und Stadtlandschaft fotografieren",
+        "Die Umgebung der Ypsilon-Brücke erkunden",
+        "Am Fluss entspannen",
+        "An saisonalen Boots- oder Fährfahrten teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "nehir",
+        "doğa",
+        "yürüyüş",
+        "bisiklet",
+        "şehir",
+        "fotoğrafçılık"
       ],
       "en": [
-        "nature"
+        "river",
+        "nature",
+        "walking",
+        "cycling",
+        "city",
+        "photography"
       ],
       "de": [
-        "Natur"
+        "Fluss",
+        "Natur",
+        "Spaziergang",
+        "Radfahren",
+        "Stadt",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/drammen_river.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Drammenselva_fra_Holmenbrua.JPG/1280px-Drammenselva_fra_Holmenbrua.JPG",
+      "https://norway-website.euwest01.umbraco.io/media/uzwo2f3j/godteglasset_drammen_ann_innlegg_fb_insta_oppgi_fotograf-kjetil-balog_nettsiden_2.jpg?format=webp&height=640&width=1024"
     ]
   },
   {
@@ -49,40 +80,280 @@
       "en": "Spiralen",
       "de": "Spiralen"
     },
-    "latitude": 59.7387,
-    "longitude": 10.2024,
+    "latitude": 59.75239,
+    "longitude": 10.20131,
     "description": {
-      "tr": "Spiralen, Drammen'de bir tepeye çıkan bir yoldur ve şehri yüksekten izleyebileceğiniz harika bir manzara sunar.",
-      "en": "Spiralen is a road that winds up a hill in Drammen, offering a fantastic view of the city from above.",
-      "de": "Spiralen ist eine Straße, die einen Hügel in Drammen hinaufführt und einen fantastischen Blick auf die Stadt von oben bietet."
+      "tr": "Spiralen, Drammen'in Bragernesåsen dağına oyulmuş sıra dışı bir spiral tüneldir. 1953-1961 yılları arasında inşa edilen tünel yaklaşık 1.650 metre uzunluğundadır ve dağın içinde kendi ekseni etrafında altı buçuk kez dönerek yaklaşık 213 metre rakımdaki Spiraltoppen'e ulaşır. Tünelin üst bölümüne ulaşıldığında Drammen şehir merkezi, Drammen Nehri ve çevredeki tepeler geniş bir açıyla görülebilir. Tünel günümüzde hem ulaşım sağlayan ilginç bir mühendislik yapısı hem de önemli bir seyir noktası olarak kullanılır. Spiraltoppen çevresinde yürüyüş parkurları, açık hava müzesi ve kafe-restoran bulunur. Tünel içerisinde ışıklandırma gösterileri de yer almaktadır. Ziyaret saatleri ve araç geçiş koşulları dönemsel olarak değişebileceğinden yola çıkmadan önce güncel bilgilerin kontrol edilmesi önerilir.",
+      "en": "Spiralen is an unusual spiral tunnel carved into Bragernesåsen in Drammen. Built between 1953 and 1961, the tunnel is approximately 1,650 metres long and winds six and a half times around its own axis before reaching Spiraltoppen at about 213 metres above sea level. From the top, visitors can enjoy broad views over central Drammen, the Drammen River and the surrounding hills. Today, the tunnel is both an unusual piece of engineering and an important viewpoint attraction. The area around Spiraltoppen includes hiking opportunities, an open-air museum and a café-restaurant. The tunnel also features lighting effects along the route. Opening hours and vehicle access conditions can vary, so current information should be checked before visiting.",
+      "de": "Spiralen ist ein ungewöhnlicher Spiraltunnel, der in den Bragernesåsen bei Drammen gebaut wurde. Der zwischen 1953 und 1961 errichtete Tunnel ist etwa 1.650 Meter lang und windet sich sechseinhalb Mal um seine eigene Achse, bevor er den Spiraltoppen auf etwa 213 Metern über dem Meeresspiegel erreicht. Von oben bietet sich ein weiter Blick über das Zentrum von Drammen, die Drammenselva und die umliegenden Hügel. Heute ist der Tunnel sowohl ein bemerkenswertes Ingenieurbauwerk als auch eine wichtige Sehenswürdigkeit mit Aussichtspunkt. Rund um den Spiraltoppen gibt es Wandermöglichkeiten, ein Freilichtmuseum sowie ein Café-Restaurant. Entlang des Tunnels gibt es außerdem Lichteffekte. Öffnungszeiten und Zufahrtsbedingungen können sich ändern, daher sollten aktuelle Informationen vor dem Besuch geprüft werden."
     },
     "activities": {
       "tr": [
-        "Spiral yolda yürüyüş yapma",
-        "Şehri yüksekten izleme"
+        "Spiral tünelden geçme",
+        "Spiraltoppen'e çıkma",
+        "Drammen manzarasını izleme",
+        "Yürüyüş parkurlarını keşfetme",
+        "Açık hava müzesini gezme",
+        "Manzara fotoğrafçılığı",
+        "Kafe-restoranda dinlenme"
       ],
       "en": [
-        "Walk along the winding road",
-        "View the city from above"
+        "Drive through the spiral tunnel",
+        "Reach Spiraltoppen",
+        "Enjoy views over Drammen",
+        "Explore hiking trails",
+        "Visit the open-air museum",
+        "Take panoramic photographs",
+        "Relax at the café-restaurant"
       ],
       "de": [
-        "Die gewundene Straße entlang spazieren",
-        "Die Stadt von oben ansehen"
+        "Durch den Spiraltunnel fahren",
+        "Den Spiraltoppen erreichen",
+        "Den Blick über Drammen genießen",
+        "Wanderwege erkunden",
+        "Das Freilichtmuseum besuchen",
+        "Panoramafotografie",
+        "Im Café-Restaurant entspannen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "seyir noktası",
+        "mimari",
+        "mühendislik",
+        "doğa",
+        "yürüyüş",
+        "fotoğrafçılık"
       ],
       "en": [
-        "nature"
+        "viewpoint",
+        "architecture",
+        "engineering",
+        "nature",
+        "hiking",
+        "photography"
       ],
       "de": [
-        "Natur"
+        "Aussichtspunkt",
+        "Architektur",
+        "Ingenieurwesen",
+        "Natur",
+        "Wandern",
+        "Fotografie"
       ]
     },
     "images": [
-      "https://example.com/spiralen.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Spiralen_Drammen_lower_portal.jpg/1280px-Spiralen_Drammen_lower_portal.jpg"
+    ]
+  },
+  {
+    "slug": "ypsilon-koprusu",
+    "name": {
+      "tr": "Ypsilon Köprüsü",
+      "en": "Ypsilon Bridge",
+      "de": "Ypsilon-Brücke"
+    },
+    "latitude": 59.74345,
+    "longitude": 10.20175,
+    "description": {
+      "tr": "Ypsilon Köprüsü, Drammen'in simge yapılarından biri haline gelen modern bir yaya ve bisiklet köprüsüdür. 2008 yılında tamamlanan köprü, Drammen Nehri üzerinde Bragernes'teki şehir parkını Grønland ve Papirbredden bölgesine bağlar. Adını havadan bakıldığında Y harfine benzeyen üç kollu tasarımından alır. İnce çelik yapısı ve eğimli taşıyıcıları özellikle nehir kıyısından bakıldığında dikkat çekici bir siluet oluşturur. Köprü üzerinden nehir, şehir merkezi ve çevredeki tepeler görülebilir. Elvepromenaden boyunca yapılacak yürüyüşlerle birlikte ziyaret edildiğinde Drammen'in modern şehir dokusunu keşfetmek için güzel bir duraktır.",
+      "en": "Ypsilon Bridge is a modern pedestrian and cycling bridge that has become one of Drammen's urban landmarks. Completed in 2008, it crosses the Drammen River and connects the city park in Bragernes with the Grønland and Papirbredden areas. Its name comes from its three-arm design, which resembles the letter Y when seen from above. The slender steel structure and angled supports create a distinctive silhouette along the river. From the bridge, visitors can see the river, city centre and surrounding hills. It is especially enjoyable as part of a walk along the Elvepromenaden.",
+      "de": "Die Ypsilon-Brücke ist eine moderne Fuß- und Fahrradbrücke und gehört zu den Wahrzeichen von Drammen. Sie wurde 2008 fertiggestellt und überquert die Drammenselva zwischen dem Stadtpark in Bragernes und den Stadtteilen Grønland und Papirbredden. Ihren Namen verdankt sie ihrer dreiteiligen Form, die von oben wie der Buchstabe Y aussieht. Die schlanke Stahlkonstruktion und die schrägen Träger bilden eine markante Silhouette am Fluss. Von der Brücke hat man einen schönen Blick auf den Fluss, das Stadtzentrum und die umliegenden Hügel. Besonders gut lässt sie sich mit einem Spaziergang entlang der Elvepromenaden verbinden."
+    },
+    "activities": {
+      "tr": [
+        "Köprüden yürüyüş",
+        "Bisiklet sürme",
+        "Drammen Nehri manzarasını izleme",
+        "Şehir fotoğrafçılığı",
+        "Elvepromenaden boyunca yürüyüş",
+        "Gün batımında fotoğraf çekme"
+      ],
+      "en": [
+        "Walk across the bridge",
+        "Cycle across the bridge",
+        "Enjoy views of the Drammen River",
+        "Urban photography",
+        "Walk along the Elvepromenaden",
+        "Take sunset photographs"
+      ],
+      "de": [
+        "Über die Brücke spazieren",
+        "Mit dem Fahrrad über die Brücke fahren",
+        "Den Blick auf die Drammenselva genießen",
+        "Stadtfotografie",
+        "Entlang der Elvepromenaden spazieren",
+        "Sonnenuntergang fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "mimari",
+        "şehir",
+        "nehir",
+        "yürüyüş",
+        "bisiklet",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "architecture",
+        "city",
+        "river",
+        "walking",
+        "cycling",
+        "photography"
+      ],
+      "de": [
+        "Architektur",
+        "Stadt",
+        "Fluss",
+        "Spaziergang",
+        "Radfahren",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ypsilon_binder_sammen_Union_Brygge_med_Bragernes.JPG/1280px-Ypsilon_binder_sammen_Union_Brygge_med_Bragernes.JPG"
+    ]
+  },
+  {
+    "slug": "drammen-parki",
+    "name": {
+      "tr": "Drammen Parkı",
+      "en": "Drammen Park",
+      "de": "Drammen Park"
+    },
+    "latitude": 59.74285,
+    "longitude": 10.20195,
+    "description": {
+      "tr": "Drammen Parkı, şehir merkezinde yer alan geniş bir kentsel yeşil alandır ve Drammen Nehri ile Ypsilon Köprüsü'ne yakın konumuyla şehir gezisine kolayca eklenebilir. Parkta geniş çim alanlar, yaşlı ağaçlar, yürüyüş yolları, çocuk oyun alanları, çeşme ve müzik pavyonu bulunur. Parkın bazı bölümleri aileler ve çocuklar için tasarlanmış oyun ve dinlenme alanları sunar. Nehir kıyısındaki yürüyüş rotalarıyla birleştiği için şehir merkezini yürüyerek keşfetmek isteyenler açısından kullanışlı bir mola noktasıdır.",
+      "en": "Drammen Park is a large urban green space in the city centre, close to the Drammen River and Ypsilon Bridge. The park features broad lawns, mature trees, walking paths, a playground, a fountain and a music pavilion. Several areas are designed for recreation and family activities. Because it connects naturally with the riverside walking routes, the park is a convenient stop for visitors exploring central Drammen on foot.",
+      "de": "Der Drammen Park ist eine große Grünanlage im Stadtzentrum, in der Nähe der Drammenselva und der Ypsilon-Brücke. Der Park bietet große Rasenflächen, alte Bäume, Spazierwege, einen Spielplatz, einen Brunnen und einen Musikpavillon. Mehrere Bereiche eignen sich zur Erholung und für Familienaktivitäten. Durch die Verbindung mit den Wegen entlang des Flusses ist der Park ein praktischer Zwischenstopp bei einem Rundgang durch das Zentrum von Drammen."
+    },
+    "activities": {
+      "tr": [
+        "Parkta yürüyüş",
+        "Dinlenme ve piknik",
+        "Çocuk oyun alanlarını kullanma",
+        "Çeşme ve müzik pavyonunu görme",
+        "Nehir kenarına yürüyüş",
+        "Şehir içinde fotoğraf çekme"
+      ],
+      "en": [
+        "Walk in the park",
+        "Relax and have a picnic",
+        "Use the children's playgrounds",
+        "See the fountain and music pavilion",
+        "Walk towards the river",
+        "Take urban photographs"
+      ],
+      "de": [
+        "Im Park spazieren",
+        "Entspannen und picknicken",
+        "Kinderspielplätze nutzen",
+        "Brunnen und Musikpavillon sehen",
+        "Zum Fluss spazieren",
+        "Stadtfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park",
+        "doğa",
+        "aile",
+        "çocuk",
+        "yürüyüş",
+        "şehir"
+      ],
+      "en": [
+        "park",
+        "nature",
+        "family",
+        "children",
+        "walking",
+        "city"
+      ],
+      "de": [
+        "Park",
+        "Natur",
+        "Familie",
+        "Kinder",
+        "Spaziergang",
+        "Stadt"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Drammen_Union_brygge_torvet.JPG/1280px-Drammen_Union_brygge_torvet.JPG"
+    ]
+  },
+  {
+    "slug": "bragernes-kilisesi",
+    "name": {
+      "tr": "Bragernes Kilisesi",
+      "en": "Bragernes Church",
+      "de": "Bragernes Kirche"
+    },
+    "latitude": 59.74495,
+    "longitude": 10.20485,
+    "description": {
+      "tr": "Bragernes Kilisesi, Drammen'in merkezindeki Bragernes Torg'a hakim konumuyla şehrin en belirgin dini yapılarından biridir. Önceki kilisenin 1866'daki büyük şehir yangınında yanmasının ardından yeni kilise inşa edilmiş ve yapı 12 Temmuz 1871'de kutsanmıştır. Ernst Robarth Dalin Norgrenn tarafından tasarlanan büyük tuğla kilise, uzun nefi, yüksek kulesi ve üç bölümlü iç mekân düzeniyle dikkat çeker. Yaklaşık 850 kişilik kapasitesi ve üç galerisi bulunan kilise, şehir merkezindeki tarihi yürüyüş rotalarının önemli duraklarından biridir. Yaz sezonunda belirli günlerde rehberli ziyaretler düzenlenebilir.",
+      "en": "Bragernes Church is one of the most prominent religious buildings in central Drammen, overlooking Bragernes Torg. After the previous church was destroyed in the great city fire of 1866, a new church was built and consecrated on 12 July 1871. Designed by Ernst Robarth Dalin Norgrenn, the large brick church is notable for its long nave, tall tower and three-part interior arrangement. With seating for around 850 people and three galleries, it is an important stop on walks through the historic city centre. Guided visits may be available on selected days during the summer season.",
+      "de": "Die Bragernes Kirche gehört zu den markantesten Sakralbauten im Zentrum von Drammen und liegt oberhalb des Bragernes Torg. Nachdem die vorherige Kirche beim großen Stadtbrand von 1866 zerstört worden war, wurde eine neue Kirche errichtet und am 12. Juli 1871 eingeweiht. Die von Ernst Robarth Dalin Norgrenn entworfene Backsteinkirche zeichnet sich durch ihr langes Kirchenschiff, den hohen Turm und die dreiteilige Innenraumgestaltung aus. Mit etwa 850 Sitzplätzen und drei Emporen ist sie ein wichtiger Bestandteil eines historischen Stadtrundgangs. Während der Sommersaison können an ausgewählten Tagen Führungen angeboten werden."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin mimarisini inceleme",
+        "Bragernes Torg'u keşfetme",
+        "Tarihi şehir yürüyüşü yapma",
+        "İç mekânı ziyaret etme",
+        "Rehberli tura katılma",
+        "Mimari fotoğrafçılık"
+      ],
+      "en": [
+        "Explore the church architecture",
+        "Visit Bragernes Torg",
+        "Take a historic city walk",
+        "Visit the interior",
+        "Join a guided tour",
+        "Take architectural photographs"
+      ],
+      "de": [
+        "Die Kirchenarchitektur entdecken",
+        "Den Bragernes Torg besuchen",
+        "Einen historischen Stadtrundgang machen",
+        "Das Innere besichtigen",
+        "An einer Führung teilnehmen",
+        "Architekturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kilise",
+        "mimari",
+        "kültür",
+        "şehir",
+        "fotoğrafçılık"
+      ],
+      "en": [
+        "history",
+        "church",
+        "architecture",
+        "culture",
+        "city",
+        "photography"
+      ],
+      "de": [
+        "Geschichte",
+        "Kirche",
+        "Architektur",
+        "Kultur",
+        "Stadt",
+        "Fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bragernes%20kirke%20-%20en%20vinterdag.jpg"
     ]
   }
 ]

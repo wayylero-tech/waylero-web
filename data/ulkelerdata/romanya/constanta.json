@@ -4,85 +4,145 @@
     "name": {
       "tr": "Mamaia Plajı",
       "en": "Mamaia Beach",
-      "de": "Mamaia Strand"
+      "de": "Mamaia-Strand"
     },
-    "latitude": 44.2641,
-    "longitude": 28.6301,
+    "latitude": 44.24187,
+    "longitude": 28.62381,
     "description": {
-      "tr": "Mamaia Plajı, Karadeniz'in en popüler tatil bölgelerinden biridir ve güzel plajlarıyla ünlüdür.",
-      "en": "Mamaia Beach is one of the most popular holiday destinations on the Black Sea, famous for its beautiful beaches.",
-      "de": "Der Mamaia Strand ist eines der beliebtesten Urlaubsziele am Schwarzen Meer, bekannt für seine schönen Strände."
+      "tr": "Mamaia Plajı, Romanya'nın Karadeniz kıyısındaki en tanınmış sahil destinasyonlarından biri olan Mamaia tatil beldesinin uzun kumsalını ifade eder. Mamaia, yaklaşık 8 kilometre uzunluğundaki dar bir kara şeridi üzerinde, bir tarafında Karadeniz, diğer tarafında ise Siutghiol Gölü olacak şekilde uzanır. Geniş kumlu plaj boyunca oteller, restoranlar, beach barlar ve sezonluk eğlence alanları bulunur. Yaz aylarında bölge özellikle deniz tatili, güneşlenme ve su sporları için tercih edilir. Jet ski, paddleboard, parasailing ve benzeri aktiviteler sezon ve işletmeye göre farklı noktalarda sunulabilir. Sahil boyunca yürüyüş yapmak, deniz kenarında vakit geçirmek ve gün batımını izlemek de Mamaia'nın öne çıkan deneyimleri arasındadır. Mamaia yalnızca plajıyla değil, gece hayatı ve tatil atmosferiyle de bilinir. Plajın bazı bölümlerinde şezlong ve şemsiye gibi hizmetler ücretli olabilir ve fiyatlar işletmeye ve sezona göre değişebilir. Mamaia'nın uzun sahil şeridi nedeniyle ziyaretçilerin farklı bölümlerde farklı atmosferlerle karşılaşması mümkündür. Karadeniz kıyısında deniz tatili planlayanlar için Constanța ile birlikte değerlendirilebilecek önemli bir destinasyondur.",
+      "en": "Mamaia Beach forms the long sandy shoreline of Mamaia, one of Romania's best-known seaside resorts on the Black Sea. Mamaia stretches along an approximately 8-kilometer-long strip of land between the Black Sea and Lake Siutghiol. The beach is lined with hotels, restaurants, beach bars and seasonal entertainment venues. During the summer season, the area is particularly popular for swimming, sunbathing and water-based activities. Depending on the season and operator, visitors may find activities such as jet skiing, paddleboarding and parasailing at different sections of the beach. Walking along the shoreline, relaxing by the sea and watching the sunset are also popular ways to experience Mamaia. The resort is known not only for its sandy beaches but also for its nightlife and lively holiday atmosphere. Sun loungers, umbrellas and other beach services may be available for an additional fee, with conditions varying between different sections of the beach and according to the season. Because Mamaia has a long coastline, the atmosphere can differ considerably from one part of the resort to another. It is one of the main seaside destinations to consider when exploring Romania's Black Sea coast.",
+      "de": "Der Mamaia-Strand bildet die lange Sandküste von Mamaia, einem der bekanntesten Badeorte an der rumänischen Schwarzmeerküste. Mamaia erstreckt sich über einen etwa 8 Kilometer langen schmalen Landstreifen zwischen dem Schwarzen Meer und dem Siutghiol-See. Entlang des Strandes befinden sich Hotels, Restaurants, Beachbars und saisonale Unterhaltungsangebote. Während der Sommersaison ist die Region besonders zum Baden, Sonnen und für verschiedene Wassersportaktivitäten beliebt. Je nach Saison und Anbieter können unter anderem Jetski, Stand-up-Paddling und Parasailing angeboten werden. Spaziergänge am Meer, entspannte Stunden am Strand und Sonnenuntergänge gehören ebenfalls zu den typischen Erlebnissen in Mamaia. Der Ferienort ist neben seinen Sandstränden auch für sein Nachtleben und seine lebendige Urlaubsatmosphäre bekannt. Liegestühle, Sonnenschirme und weitere Strandangebote können je nach Strandabschnitt und Saison kostenpflichtig sein. Aufgrund der langen Küstenlinie unterscheiden sich die einzelnen Strandbereiche teilweise in ihrer Atmosphäre und Ausstattung. Für Reisende, die die rumänische Schwarzmeerküste erkunden möchten, gehört Mamaia zu den wichtigsten Badeorten der Region."
     },
     "activities": {
       "tr": [
         "Plajda dinlenme",
-        "Yüzme"
+        "Denize girme",
+        "Sahil boyunca yürüyüş yapma",
+        "Güneşlenme",
+        "Su sporlarını deneme",
+        "Gün batımını izleme",
+        "Plaj çevresindeki restoran ve kafeleri keşfetme",
+        "Gece hayatını deneyimleme"
       ],
       "en": [
         "Relax on the beach",
-        "Swimming"
+        "Go swimming",
+        "Walk along the shoreline",
+        "Sunbathe",
+        "Try water sports",
+        "Watch the sunset",
+        "Explore beachfront restaurants and cafés",
+        "Experience the nightlife"
       ],
       "de": [
         "Am Strand entspannen",
-        "Schwimmen"
+        "Schwimmen gehen",
+        "Am Ufer spazieren",
+        "Sonnenbaden",
+        "Wassersport ausprobieren",
+        "Den Sonnenuntergang beobachten",
+        "Restaurants und Cafés am Strand entdecken",
+        "Das Nachtleben erleben"
       ]
     },
     "categories": {
       "tr": [
-        "plaj"
+        "plaj",
+        "deniz",
+        "doğa",
+        "eğlence",
+        "su sporları"
       ],
       "en": [
-        "beach"
+        "beach",
+        "sea",
+        "nature",
+        "entertainment",
+        "water sports"
       ],
       "de": [
-        "Strand"
+        "strand",
+        "meer",
+        "natur",
+        "unterhaltung",
+        "wassersport"
       ]
     },
     "images": [
-      "https://example.com/mamaia_beach.jpg"
+      "https://media.hotnews.ro/assets/image/2023/07/14/26398163-0.jpg"
     ]
   },
   {
-    "slug": "constan-a-tarihi-merkez",
+    "slug": "constanta-tarihi-merkez",
     "name": {
-      "tr": "Constanța Tarihi Merkez",
+      "tr": "Constanța Tarihi Merkezi",
       "en": "Constanța Old Town",
-      "de": "Constanța Altstadt"
+      "de": "Altstadt von Constanța"
     },
-    "latitude": 44.1598,
-    "longitude": 28.6348,
+    "latitude": 44.17415,
+    "longitude": 28.65849,
     "description": {
-      "tr": "Constanța'nın tarihi merkezi, eski Yunan ve Roma dönemlerine ait kalıntılarla doludur. Şehirdeki en önemli tarihi yapıları keşfedin.",
-      "en": "The Old Town of Constanța is filled with ruins from the ancient Greek and Roman periods. Discover the city's most important historical landmarks.",
-      "de": "Die Altstadt von Constanța ist voller Ruinen aus der antiken griechischen und römischen Zeit. Entdecken Sie die wichtigsten historischen Wahrzeichen der Stadt."
+      "tr": "Constanța Tarihi Merkezi, Karadeniz kıyısındaki şehrin en önemli kültürel ve tarihi bölgelerinden biridir. Antik çağda Tomis olarak bilinen Constanța, Yunan kolonisi döneminden Roma ve Roma-Bizans dönemlerine kadar uzanan uzun bir geçmişe sahiptir. Tarihi merkezin kalbinde yer alan Piața Ovidiu, çevresindeki tarihi yapılar ve meydanın ortasındaki Romalı şair Ovidius heykeliyle bölgenin en tanınmış noktalarından biridir. Meydanın çevresinde Ulusal Tarih ve Arkeoloji Müzesi ile Roma Mozaik Yapısı gibi antik kentin geçmişini yansıtan önemli yapılar bulunur. Roma Mozaik Yapısı, antik Tomis'in liman ve ticaret yaşamıyla bağlantılı büyük bir kompleksin günümüze ulaşan önemli parçalarından biridir. Tarihi merkezde ayrıca Carol I Camii, Aziz Peter ve Paul Katedrali, eski sokaklar ve Karadeniz kıyısına uzanan tarihi liman bölgesi görülebilir. Bölge, farklı dönemlere ait mimari ve arkeolojik mirasın aynı yürüyüş rotası üzerinde bir araya gelmesi açısından dikkat çekicidir. Constanța'nın tarihi merkezini gezerken Piața Ovidiu'dan başlayarak müze çevresini, Roma Mozaik Yapısı'nı ve sahil tarafındaki tarihi yapıları yürüyerek keşfetmek mümkündür. Tarih, arkeoloji, mimari ve şehir fotoğrafçılığıyla ilgilenen ziyaretçiler için şehrin en önemli keşif alanlarından biridir.",
+      "en": "Constanța Old Town is one of the city's most important cultural and historic areas on the Black Sea coast. Known as Tomis in antiquity, Constanța has a long history that stretches from its Greek colonial origins through the Roman and Roman-Byzantine periods. At the heart of the historic area is Piața Ovidiu, one of the city's best-known public spaces, named after the Roman poet Ovid and featuring his statue in the square. Important landmarks around the square include the National Museum of History and Archaeology and the Roman Edifice with Mosaic, which preserve important evidence of the ancient city's history. The Roman Edifice with Mosaic formed part of a large complex associated with the commercial and port activities of ancient Tomis. Other notable sights in the historic center include the Carol I Mosque, the Cathedral of Saints Peter and Paul, historic streets and the old harbor area along the Black Sea. The district brings together archaeological remains and architecture from different periods within a relatively compact walking area. Visitors can explore the historic center by starting at Piața Ovidiu and continuing toward the museum area, the Roman Mosaic Edifice and the waterfront. It is one of the most rewarding areas of Constanța for travelers interested in history, archaeology, architecture and urban photography.",
+      "de": "Die Altstadt von Constanța gehört zu den bedeutendsten historischen und kulturellen Bereichen der Stadt an der Schwarzmeerküste. In der Antike war Constanța unter dem Namen Tomis bekannt und blickt auf eine lange Geschichte zurück, die von der griechischen Kolonialzeit über die römische bis zur römisch-byzantinischen Epoche reicht. Im Zentrum der historischen Altstadt liegt die Piața Ovidiu, einer der bekanntesten Plätze der Stadt, in dessen Mitte sich ein Denkmal des römischen Dichters Ovid befindet. Rund um den Platz liegen bedeutende Sehenswürdigkeiten wie das Nationale Geschichts- und Archäologiemuseum sowie das Römische Mosaikgebäude, die wichtige Zeugnisse der antiken Geschichte von Tomis bewahren. Das Römische Mosaikgebäude war Teil eines größeren Komplexes, der mit dem Hafen- und Handelsleben der antiken Stadt verbunden war. Weitere Sehenswürdigkeiten der Altstadt sind die Carol-I-Moschee, die Kathedrale der Heiligen Peter und Paul, historische Straßen und der alte Hafenbereich am Schwarzen Meer. In diesem Viertel treffen archäologische Überreste und Architektur aus verschiedenen Epochen auf engem Raum aufeinander. Wer Constanța zu Fuß erkunden möchte, kann am Piața Ovidiu beginnen und von dort das Museumsviertel, das Römische Mosaikgebäude und die historische Uferzone entdecken. Für Reisende, die sich für Geschichte, Archäologie, Architektur und Stadtfotografie interessieren, ist die Altstadt eines der wichtigsten Ziele der Stadt."
     },
     "activities": {
       "tr": [
-        "Tarihi şehirde gezme",
-        "Roma kalıntılarını keşfetme"
+        "Piața Ovidiu'yu keşfetme",
+        "Roma Mozaik Yapısı'nı görme",
+        "Ulusal Tarih ve Arkeoloji Müzesi'ni ziyaret etme",
+        "Carol I Camii'ni görme",
+        "Tarihi sokaklarda yürüyüş yapma",
+        "Antik Tomis kalıntılarını keşfetme",
+        "Tarihi binaları fotoğraflama",
+        "Sahil ve eski liman çevresini gezme"
       ],
       "en": [
-        "Explore the historic town",
-        "Discover Roman ruins"
+        "Explore Piața Ovidiu",
+        "See the Roman Edifice with Mosaic",
+        "Visit the National Museum of History and Archaeology",
+        "See the Carol I Mosque",
+        "Walk through the historic streets",
+        "Discover the remains of ancient Tomis",
+        "Photograph historic buildings",
+        "Explore the waterfront and old harbor area"
       ],
       "de": [
-        "Die historische Stadt erkunden",
-        "Römische Ruinen entdecken"
+        "Die Piața Ovidiu erkunden",
+        "Das Römische Mosaikgebäude besichtigen",
+        "Das Nationale Geschichts- und Archäologiemuseum besuchen",
+        "Die Carol-I-Moschee besichtigen",
+        "Durch die historischen Straßen spazieren",
+        "Die Überreste des antiken Tomis entdecken",
+        "Historische Gebäude fotografieren",
+        "Die Uferzone und den alten Hafen erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "arkeoloji",
+        "mimari",
+        "kültür",
+        "şehir"
       ],
       "en": [
-        "historic"
+        "history",
+        "archaeology",
+        "architecture",
+        "culture",
+        "city"
       ],
       "de": [
-        "Historisch"
+        "geschichte",
+        "archäologie",
+        "architektur",
+        "kultur",
+        "stadt"
       ]
     },
     "images": [
-      "https://example.com/constanta_old_town.jpg"
+      "https://img.ordinea.ro/uploads/2022/01/piata-ovidiu.jpg"
     ]
   }
 ]

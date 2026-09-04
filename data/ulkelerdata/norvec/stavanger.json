@@ -6,83 +6,408 @@
       "en": "Preikestolen",
       "de": "Preikestolen"
     },
-    "latitude": 58.9833,
-    "longitude": 6.19,
+    "latitude": 58.9867,
+    "longitude": 6.1887,
     "description": {
-      "tr": "Preikestolen, Norveç’in en ünlü kaya platformlarından biridir. Üzerinden muazzam bir manzara izlenebilir.",
-      "en": "Preikestolen is one of Norway’s most famous rock platforms, offering a breathtaking view from above.",
-      "de": "Preikestolen ist eine der bekanntesten Felsplattformen Norwegens und bietet von oben einen atemberaubenden Ausblick."
+      "tr": "Preikestolen, Norveç'in en ünlü doğal seyir noktalarından biridir ve Lysefjord'un yaklaşık 604 metre üzerinde yükselen büyük, düz bir kaya platformudur. Stavanger bölgesinin en çok ziyaret edilen doğal cazibe merkezlerinden olan Preikestolen'e ulaşmak için Preikestolhytta'daki otoparktan başlayan yaklaşık 3,8 kilometrelik bir yürüyüş parkuru takip edilir. Parkurda kayalık bölümler, taş basamaklar, küçük göller ve farklı manzara noktaları bulunur. Zirveye ulaşıldığında Lysefjord'un derin suları ve çevredeki sarp dağlar geniş bir panoramayla görülür. Yürüyüş hava koşullarına bağlı olarak dikkatli planlanmalıdır; iyi yürüyüş ayakkabısı ve uygun kıyafet önerilir. Stavanger'dan araçla ulaşım da mümkündür ve ana sezonda otopark ücretlidir.",
+      "en": "Preikestolen, also known as Pulpit Rock, is one of Norway's most famous natural viewpoints, rising approximately 604 metres above the Lysefjord. It is one of the most visited attractions in the Stavanger region. The hike begins at the Preikestolhytta parking area and follows a trail of about 3.8 kilometres to the rock platform. The route includes rocky sections, stone steps, small lakes and several viewpoints. From the top, visitors can enjoy a sweeping panorama of the Lysefjord and the steep mountains surrounding it. The hike should be planned according to weather conditions, and good hiking shoes and suitable clothing are recommended. Preikestolen can also be reached by car from Stavanger, with parking fees applying during the main season.",
+      "de": "Preikestolen, auch Pulpit Rock genannt, gehört zu den bekanntesten Naturaussichtspunkten Norwegens und erhebt sich rund 604 Meter über dem Lysefjord. Er zählt zu den meistbesuchten Sehenswürdigkeiten der Region Stavanger. Die Wanderung beginnt am Parkplatz bei Preikestolhytta und führt über einen etwa 3,8 Kilometer langen Weg bis zur Felsplattform. Die Strecke umfasst felsige Abschnitte, Steinstufen, kleine Seen und mehrere Aussichtspunkte. Oben eröffnet sich ein weitreichender Blick über den Lysefjord und die steilen Berge der Umgebung. Die Wanderung sollte abhängig von den Wetterbedingungen geplant werden; gutes Schuhwerk und geeignete Kleidung werden empfohlen. Von Stavanger aus ist die Anreise mit dem Auto möglich, wobei in der Hauptsaison Parkgebühren anfallen."
     },
     "activities": {
       "tr": [
-        "Yürüyüş yapma",
-        "Manzara fotoğrafları çekme"
+        "Preikestolen'e yürüyüş yapma",
+        "Lysefjord manzarasını izleme",
+        "Doğa yürüyüşü yapma",
+        "Manzara fotoğrafları çekme",
+        "Kayalık ve dağlık araziyi keşfetme",
+        "Lysefjord tekne turuyla kayayı aşağıdan görme"
       ],
       "en": [
+        "Hike to Preikestolen",
+        "Enjoy views of the Lysefjord",
         "Go hiking",
-        "Take photos of the view"
+        "Take landscape photographs",
+        "Explore the rocky mountain terrain",
+        "See Preikestolen from the fjord on a boat trip"
       ],
       "de": [
-        "Wandern gehen",
-        "Fotos von der Aussicht machen"
+        "Zum Preikestolen wandern",
+        "Den Lysefjord überblicken",
+        "Wandern",
+        "Landschaftsfotos aufnehmen",
+        "Die felsige Berglandschaft erkunden",
+        "Preikestolen bei einer Bootsfahrt vom Fjord aus sehen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "dağ",
+        "yürüyüş",
+        "manzara",
+        "seyir noktası",
+        "fotoğraf"
       ],
       "en": [
-        "nature"
+        "nature",
+        "mountain",
+        "hiking",
+        "scenery",
+        "viewpoint",
+        "photography"
       ],
       "de": [
-        "Natur"
+        "natur",
+        "berg",
+        "wandern",
+        "landschaft",
+        "aussichtspunkt",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/preikestolen.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Preikestolen%20above%20Lysefjorden.jpg"
     ]
   },
   {
-    "slug": "stavanger-eski-sehir",
+    "slug": "gamle-stavanger",
     "name": {
       "tr": "Stavanger Eski Şehir",
-      "en": "Stavanger Old Town",
-      "de": "Stavanger Altstadt"
+      "en": "Gamle Stavanger",
+      "de": "Gamle Stavanger"
     },
-    "latitude": 58.97,
-    "longitude": 5.7333,
+    "latitude": 58.9720,
+    "longitude": 5.7287,
     "description": {
-      "tr": "Stavanger Eski Şehir, renkli ve tarihi ahşap evleriyle ünlüdür. Bu bölge, Norveç'in en iyi korunmuş eski şehirlerinden biridir.",
-      "en": "Stavanger Old Town is known for its colorful, historic wooden houses. This area is one of the best-preserved old towns in Norway.",
-      "de": "Die Altstadt von Stavanger ist bekannt für ihre bunten, historischen Holzhäuser. Dieses Gebiet ist eine der am besten erhaltenen Altstädte Norwegens."
+      "tr": "Gamle Stavanger, Stavanger'in limanın batı tarafında bulunan ve 173 korunmuş ahşap evden oluşan tarihi mahallesidir. Evlerin çoğu 18. yüzyılın sonları ile 19. yüzyılın başlarında inşa edilmiş küçük, beyaz boyalı yapılardır. Arnavut kaldırımlı dar sokakları, ahşap cepheleri, çiçeklerle süslü bahçeleri ve tarihi atmosferiyle Stavanger'in en karakteristik bölgelerinden biridir. Mahalle günümüzde hâlâ yerleşim alanıdır; bu nedenle evlerin önemli bölümü özel konut olarak kullanılmaktadır. Bölgede galeriler, el sanatları dükkânları, Stavanger Denizcilik Müzesi ve IDDIS Norveç Matbaa ve Konserve Müzesi gibi kültürel duraklar da bulunur. Gamle Stavanger, korunması ve tarihi ahşap yapı dokusunun yaşatılması nedeniyle Norveç'in önemli kültürel miras alanlarından biri olarak kabul edilir.",
+      "en": "Gamle Stavanger is the historic neighbourhood on the western side of Stavanger's harbour, consisting of 173 preserved wooden houses. Most of the houses are small, white-painted buildings dating from the late 18th and early 19th centuries. With its cobblestone streets, wooden façades, flower-filled gardens and historic atmosphere, it is one of the most distinctive areas of Stavanger. The neighbourhood is still residential, meaning that many of the houses are private homes. Visitors can also find galleries, craft shops, the Stavanger Maritime Museum and IDDIS, the Norwegian Printing and Canning Museum. Gamle Stavanger is recognised for the successful preservation of its historic wooden urban environment.",
+      "de": "Gamle Stavanger ist das historische Viertel auf der Westseite des Hafens von Stavanger und besteht aus 173 erhaltenen Holzhäusern. Die meisten Häuser sind kleine, weiß gestrichene Gebäude aus dem späten 18. und frühen 19. Jahrhundert. Kopfsteinpflasterstraßen, Holzfassaden, blühende Gärten und die historische Atmosphäre machen das Viertel zu einem der charakteristischsten Bereiche Stavangers. Gamle Stavanger ist weiterhin ein Wohnviertel, weshalb viele Häuser private Wohnhäuser sind. Außerdem gibt es Galerien, Kunsthandwerksläden, das Stavanger Maritime Museum und IDDIS, das Norwegische Druckerei- und Konservenmuseum. Das Viertel ist besonders für die Erhaltung seiner historischen Holzarchitektur bekannt."
     },
     "activities": {
       "tr": [
-        "Eski şehirde gezinti yapma",
-        "Tarihi evleri inceleme"
+        "Tarihi sokaklarda yürüyüş yapma",
+        "Ahşap evleri fotoğraflama",
+        "Arnavut kaldırımlı sokakları keşfetme",
+        "Galerileri ve el sanatları dükkânlarını gezme",
+        "Stavanger Denizcilik Müzesi'ni ziyaret etme",
+        "Tarihi mahallede fotoğraf çekme"
       ],
       "en": [
-        "Stroll through the old town",
-        "Examine the historic houses"
+        "Walk through the historic streets",
+        "Photograph the wooden houses",
+        "Explore the cobblestone lanes",
+        "Visit galleries and craft shops",
+        "Visit the Stavanger Maritime Museum",
+        "Take photographs around the historic neighbourhood"
       ],
       "de": [
-        "Durch die Altstadt schlendern",
-        "Die historischen Häuser besichtigen"
+        "Durch die historischen Straßen spazieren",
+        "Die Holzhäuser fotografieren",
+        "Die Kopfsteinpflastergassen erkunden",
+        "Galerien und Kunsthandwerksläden besuchen",
+        "Das Stavanger Maritime Museum besuchen",
+        "Das historische Viertel fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi mahalle",
+        "mimari",
+        "kültür",
+        "şehir",
+        "yürüyüş",
+        "fotoğraf"
       ],
       "en": [
-        "historic square"
+        "historic district",
+        "architecture",
+        "culture",
+        "city",
+        "walking",
+        "photography"
       ],
       "de": [
-        "historischer Platz"
+        "historisches viertel",
+        "architektur",
+        "kultur",
+        "stadt",
+        "spaziergang",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/old_town_stavanger.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gamle%20Stavanger.jpg"
+    ]
+  },
+  {
+    "slug": "stavanger-katedrali",
+    "name": {
+      "tr": "Stavanger Katedrali",
+      "en": "Stavanger Cathedral",
+      "de": "Stavanger Dom"
+    },
+    "latitude": 58.9708,
+    "longitude": 5.7331,
+    "description": {
+      "tr": "Stavanger Katedrali, Norveç'in Orta Çağ'dan günümüze ulaşan en önemli dini yapılarından biridir. Geleneksel olarak yapımının 1125 civarında başladığı kabul edilen katedral, Romanesk mimariyle inşa edilmiş ve sonraki dönemlerde özellikle koru Gotik unsurlarla yenilenmiştir. Norveç'te Orta Çağ'daki mimari karakterini büyük ölçüde koruyan katedrallerden biri olmasıyla dikkat çeker. Yapı Stavanger şehir merkezindeki küçük bir park alanının yanında yer alır ve liman bölgesinden yürüyerek kolayca ulaşılabilir. Taş duvarları, kuleleri, kemerli pencereleri ve tarihi iç mekânı Stavanger'in Orta Çağ geçmişini görmek isteyenler için önemli bir duraktır.",
+      "en": "Stavanger Cathedral is one of Norway's most important surviving medieval religious buildings. Construction is traditionally dated to around 1125. The cathedral was built in the Romanesque style, while the choir was later rebuilt with Gothic elements. It is notable for retaining much of its medieval architectural character and is one of the few Norwegian medieval cathedrals to have preserved its original form to a significant extent. Located beside a small park in the city centre, the cathedral is easily reached on foot from the harbour area. Its stone walls, towers, arched windows and historic interior make it an important stop for visitors interested in Stavanger's medieval heritage.",
+      "de": "Der Stavanger Dom gehört zu den bedeutendsten erhaltenen mittelalterlichen Sakralbauten Norwegens. Der Baubeginn wird traditionell auf etwa 1125 datiert. Die Kathedrale wurde ursprünglich im romanischen Stil errichtet, während der Chor später mit gotischen Elementen neu gestaltet wurde. Besonders bemerkenswert ist, dass sie einen großen Teil ihres mittelalterlichen architektonischen Charakters bewahrt hat. Die Kathedrale liegt neben einem kleinen Park im Stadtzentrum und ist vom Hafen bequem zu Fuß erreichbar. Ihre Steinmauern, Türme, Bogenfenster und der historische Innenraum machen sie zu einem wichtigen Ziel für Besucher, die sich für die mittelalterliche Geschichte Stavangers interessieren."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etme",
+        "Romanesk ve Gotik mimariyi inceleme",
+        "Tarihi iç mekânı keşfetme",
+        "Katedral çevresinde yürüyüş yapma",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Visit the cathedral",
+        "Explore Romanesque and Gothic architecture",
+        "Discover the historic interior",
+        "Walk around the cathedral",
+        "Take photographs"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Romanische und gotische Architektur entdecken",
+        "Den historischen Innenraum erkunden",
+        "Rund um die Kathedrale spazieren",
+        "Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "katedral",
+        "kilise",
+        "tarih",
+        "mimari",
+        "kültür"
+      ],
+      "en": [
+        "cathedral",
+        "church",
+        "history",
+        "architecture",
+        "culture"
+      ],
+      "de": [
+        "kathedrale",
+        "kirche",
+        "geschichte",
+        "architektur",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Stavanger%20Cathedral.jpg"
+    ]
+  },
+  {
+    "slug": "fargegaten",
+    "name": {
+      "tr": "Fargegaten - Renkli Sokak",
+      "en": "Fargegaten - Øvre Holmegate",
+      "de": "Fargegaten - Øvre Holmegate"
+    },
+    "latitude": 58.9709,
+    "longitude": 5.7348,
+    "description": {
+      "tr": "Fargegaten, resmi adıyla Øvre Holmegate, Stavanger'in en renkli ve fotojenik şehir sokaklarından biridir. Sokaktaki ahşap yapıların cepheleri pembe, yeşil, turuncu, mavi ve mor gibi canlı renklere boyanmış; bu nedenle bölge 'Renkli Sokak' olarak tanınmıştır. Günümüzde sokak boyunca kafeler, barlar, küçük mağazalar, tasarım dükkânları ve sanat galerileri bulunur. Arnavut kaldırımlı yol, renkli cepheler ve dış mekân oturma alanları özellikle şehir fotoğrafçılığı için dikkat çekici bir atmosfer oluşturur. Fargegaten, liman ve Stavanger şehir merkezindeki diğer tarihi sokaklarla birlikte yürüyerek keşfedilebilecek kompakt bir bölgedir.",
+      "en": "Fargegaten, officially Øvre Holmegate, is one of Stavanger's most colourful and photogenic streets. The façades of its wooden buildings are painted in vivid shades including pink, green, orange, blue and purple, giving the street its nickname, the Street of Colours. Today the street is lined with cafés, bars, independent shops, design stores and art galleries. The cobblestone surface, colourful façades and outdoor seating create a distinctive setting for urban photography. Fargegaten can easily be explored on foot together with the harbour and other historic streets in central Stavanger.",
+      "de": "Fargegaten, offiziell Øvre Holmegate, gehört zu den farbenfrohsten und fotogensten Straßen Stavangers. Die Fassaden der Holzhäuser sind in kräftigen Farben wie Rosa, Grün, Orange, Blau und Violett gestaltet, weshalb die Straße als 'Straße der Farben' bekannt ist. Heute befinden sich hier Cafés, Bars, kleine Geschäfte, Designläden und Kunstgalerien. Kopfsteinpflaster, farbenfrohe Fassaden und Außenbereiche schaffen eine besondere Atmosphäre für die Stadtfotografie. Fargegaten lässt sich gemeinsam mit dem Hafen und den historischen Straßen im Zentrum bequem zu Fuß erkunden."
+    },
+    "activities": {
+      "tr": [
+        "Renkli sokakta yürüyüş yapma",
+        "Renkli ahşap binaları fotoğraflama",
+        "Kafelerde vakit geçirme",
+        "Tasarım ve butik mağazaları gezme",
+        "Sanat galerilerini keşfetme",
+        "Şehir fotoğrafçılığı yapma"
+      ],
+      "en": [
+        "Walk along the colourful street",
+        "Photograph the colourful wooden buildings",
+        "Relax at cafés",
+        "Visit design and boutique shops",
+        "Explore art galleries",
+        "Enjoy urban photography"
+      ],
+      "de": [
+        "Durch die farbenfrohe Straße spazieren",
+        "Die bunten Holzhäuser fotografieren",
+        "In Cafés entspannen",
+        "Design- und Boutiqueläden besuchen",
+        "Kunstgalerien entdecken",
+        "Stadtfotografie betreiben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "şehir",
+        "mimari",
+        "kültür",
+        "alışveriş",
+        "kafe",
+        "fotoğraf"
+      ],
+      "en": [
+        "city",
+        "architecture",
+        "culture",
+        "shopping",
+        "cafe",
+        "photography"
+      ],
+      "de": [
+        "stadt",
+        "architektur",
+        "kultur",
+        "shopping",
+        "café",
+        "fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fargegaten%20Stavanger.jpg"
+    ]
+  },
+  {
+    "slug": "sverd-i-fjell",
+    "name": {
+      "tr": "Sverd i fjell",
+      "en": "Swords in Rock",
+      "de": "Schwerter im Fels"
+    },
+    "latitude": 58.9420,
+    "longitude": 5.6746,
+    "description": {
+      "tr": "Sverd i fjell, Stavanger yakınlarındaki Hafrsfjord kıyısında bulunan üç dev Viking kılıcından oluşan anıtsal bir eserdir. Fritz Røed tarafından tasarlanan anıt 1983 yılında açılmıştır. Üç kılıç, 872 yılında gerçekleştiği kabul edilen Hafrsfjord Savaşı ve Norveç'in birleşme süreciyle ilişkilendirilir. Kılıçların kabzaları ülkenin farklı bölgelerinde bulunan Viking kılıçlarından esinlenmiştir. Anıtta üç kılıç sırasıyla barış, birlik ve özgürlüğü simgeler. Sverd i fjell, fjord kıyısındaki konumu nedeniyle tarih meraklıları kadar fotoğrafçılar için de dikkat çekici bir duraktır. Anıtın yakınındaki Møllebukta kıyı alanında yürüyüş ve açık hava aktiviteleri de yapılabilir.",
+      "en": "Sverd i fjell, or Swords in Rock, is a monumental artwork consisting of three giant Viking swords on the shore of Hafrsfjord near Stavanger. Created by sculptor Fritz Røed, the monument was unveiled in 1983. It commemorates the Battle of Hafrsfjord, traditionally dated to 872, and the historical process associated with the unification of Norway. The sword hilts were inspired by Viking swords discovered in different parts of the country. The three swords symbolise peace, unity and freedom. Its position beside the fjord makes the monument interesting for both history enthusiasts and photographers, while the nearby Møllebukta area provides opportunities for walking and outdoor activities.",
+      "de": "Sverd i fjell, auch 'Schwerter im Fels' genannt, ist ein monumentales Kunstwerk aus drei riesigen Wikingerschwertern am Ufer des Hafrsfjords bei Stavanger. Das von dem Bildhauer Fritz Røed geschaffene Denkmal wurde 1983 enthüllt. Es erinnert an die Schlacht am Hafrsfjord, die traditionell auf das Jahr 872 datiert wird, und an den historischen Prozess der Einigung Norwegens. Die Schwertgriffe wurden von Wikingerschwertern inspiriert, die an verschiedenen Orten des Landes gefunden wurden. Die drei Schwerter stehen symbolisch für Frieden, Einheit und Freiheit. Die Lage am Fjord macht das Denkmal sowohl für Geschichtsinteressierte als auch für Fotografen interessant; in der nahe gelegenen Møllebukta sind außerdem Spaziergänge und Aktivitäten im Freien möglich."
+    },
+    "activities": {
+      "tr": [
+        "Viking anıtını görme",
+        "Hafrsfjord kıyısında yürüyüş yapma",
+        "Viking tarihi hakkında bilgi edinme",
+        "Anıtı fotoğraflama",
+        "Møllebukta'yı keşfetme"
+      ],
+      "en": [
+        "See the Viking monument",
+        "Walk along Hafrsfjord",
+        "Learn about Viking history",
+        "Photograph the monument",
+        "Explore Møllebukta"
+      ],
+      "de": [
+        "Das Wikingerdenkmal besichtigen",
+        "Am Hafrsfjord spazieren",
+        "Mehr über die Wikingergeschichte erfahren",
+        "Das Denkmal fotografieren",
+        "Møllebukta erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih",
+        "kültür",
+        "anıt",
+        "viking",
+        "manzara",
+        "fotoğraf"
+      ],
+      "en": [
+        "history",
+        "culture",
+        "monument",
+        "Viking",
+        "scenery",
+        "photography"
+      ],
+      "de": [
+        "geschichte",
+        "kultur",
+        "denkmal",
+        "wikinger",
+        "landschaft",
+        "fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sverd%20i%20fjell%20Stavanger.jpg"
+    ]
+  },
+  {
+    "slug": "norwegian-petroleum-museum",
+    "name": {
+      "tr": "Norveç Petrol Müzesi",
+      "en": "Norwegian Petroleum Museum",
+      "de": "Norwegisches Erdölmuseum"
+    },
+    "latitude": 58.9717,
+    "longitude": 5.7338,
+    "description": {
+      "tr": "Norveç Petrol Müzesi, Stavanger'in Kuzey Denizi petrol ve doğal gaz endüstrisiyle olan ilişkisini anlatan önemli bir müzedir. Kjeringholmen'de, şehir merkezindeki liman bölgesinin hemen yanında yer alan müze, Norveç'in açık deniz petrol endüstrisinin gelişimini tarih, teknoloji ve toplum açısından ele alır. Sergilerde petrol ve doğal gazın oluşumu, deniz tabanındaki kaynakların bulunması, sondaj ve üretim teknolojileri, açık deniz platformları ve petrol gelirlerinin Norveç toplumuna etkileri anlatılır. İklim değişikliği ve fosil yakıtların çevresel etkileri de sergilerin önemli konuları arasındadır. Etkileşimli bölümler, filmler ve çocuklara yönelik deneyim alanları sayesinde müze farklı yaş grupları için uygun bir ziyaret noktasıdır.",
+      "en": "The Norwegian Petroleum Museum explores Stavanger's relationship with Norway's North Sea oil and gas industry. Located at Kjeringholmen beside the central waterfront, the museum presents the development of Norway's offshore petroleum industry from historical, technological and social perspectives. Exhibitions explain how oil and gas are formed, how resources beneath the seabed are discovered, and how drilling and production technologies have developed. Offshore platforms and the impact of petroleum revenues on Norwegian society are also covered. Climate change and the environmental challenges associated with fossil fuels form another important part of the museum's exhibitions. Interactive installations, films and activities for children make it suitable for visitors of different ages.",
+      "de": "Das Norwegische Erdölmuseum beschäftigt sich mit der Verbindung Stavangers zur Öl- und Gasindustrie der Nordsee. Es befindet sich am Kjeringholmen direkt an der zentralen Uferpromenade und zeigt die Entwicklung der norwegischen Offshore-Erdölindustrie aus historischer, technischer und gesellschaftlicher Perspektive. Die Ausstellungen erklären die Entstehung von Erdöl und Erdgas, die Suche nach Ressourcen unter dem Meeresboden sowie die Entwicklung von Bohr- und Fördertechnologien. Auch Offshore-Plattformen und die Auswirkungen der Erdöleinnahmen auf die norwegische Gesellschaft werden behandelt. Der Klimawandel und die ökologischen Herausforderungen fossiler Brennstoffe bilden einen weiteren wichtigen Themenbereich. Interaktive Installationen, Filme und Angebote für Kinder machen das Museum für verschiedene Altersgruppen interessant."
+    },
+    "activities": {
+      "tr": [
+        "Petrol endüstrisinin tarihini öğrenme",
+        "Açık deniz platformlarını keşfetme",
+        "İnteraktif sergileri deneyimleme",
+        "Norveç'in petrol ekonomisini öğrenme",
+        "İklim ve enerji konularını inceleme",
+        "Çocuklara yönelik deneyim alanlarını keşfetme"
+      ],
+      "en": [
+        "Learn about petroleum history",
+        "Explore offshore platforms",
+        "Experience interactive exhibitions",
+        "Learn about Norway's petroleum economy",
+        "Explore climate and energy topics",
+        "Discover activities for children"
+      ],
+      "de": [
+        "Die Geschichte der Erdölindustrie kennenlernen",
+        "Offshore-Plattformen entdecken",
+        "Interaktive Ausstellungen erleben",
+        "Norwegens Erdölwirtschaft kennenlernen",
+        "Klima- und Energiethemen erkunden",
+        "Angebote für Kinder entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "bilim",
+        "teknoloji",
+        "tarih",
+        "endüstri",
+        "aile"
+      ],
+      "en": [
+        "museum",
+        "science",
+        "technology",
+        "history",
+        "industry",
+        "family"
+      ],
+      "de": [
+        "museum",
+        "wissenschaft",
+        "technologie",
+        "geschichte",
+        "industrie",
+        "familie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian%20Petroleum%20Museum.jpg"
     ]
   }
 ]

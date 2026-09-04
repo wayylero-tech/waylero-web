@@ -6,40 +6,62 @@
       "en": "Hermitage Museum",
       "de": "Eremitage-Museum"
     },
-    "latitude": 59.9343,
-    "longitude": 30.3351,
+    "latitude": 59.9398,
+    "longitude": 30.3146,
     "description": {
-      "tr": "Hermitaj Müzesi, dünyanın en büyük ve en eski sanat galerilerinden biridir. Çok geniş bir koleksiyona sahiptir ve çok sayıda sanat eserini barındırır.\n",
-      "en": "The Hermitage Museum is one of the largest and oldest art galleries in the world. It houses an extensive collection of artworks.\n",
-      "de": "Das Eremitage-Museum ist eine der größten und ältesten Kunstgalerien der Welt. Es beherbergt eine umfangreiche Sammlung von Kunstwerken.\n"
+      "tr": "St. Petersburg'daki Devlet Hermitaj Müzesi, dünyanın en önemli sanat ve kültür müzelerinden biridir ve ana koleksiyonları görkemli Kışlık Saray ile çevresindeki tarihî yapılarda sergilenir. Müzenin koleksiyonları antik çağlardan 20. yüzyıla kadar uzanır ve Batı Avrupa sanatı, Rusya tarihi, arkeoloji, dekoratif sanatlar ve farklı medeniyetlere ait eserleri kapsar. Sarayın gösterişli salonları ve zengin sanat koleksiyonu, Hermitaj'ı St. Petersburg'un mutlaka görülmesi gereken kültür duraklarından biri haline getirir.",
+      "en": "The State Hermitage Museum in Saint Petersburg is one of the world's most important museums of art and culture. Its main collections are displayed in the magnificent Winter Palace and surrounding historic buildings. The collections span from antiquity to the 20th century and include Western European art, archaeology, Russian history, decorative arts and works from many civilizations. The richly decorated palace interiors and extensive collections make the Hermitage one of Saint Petersburg's essential cultural attractions.",
+      "de": "Das Staatliche Eremitage-Museum in Sankt Petersburg gehört zu den bedeutendsten Kunst- und Kulturmuseen der Welt. Die wichtigsten Sammlungen befinden sich im prachtvollen Winterpalast und den umliegenden historischen Gebäuden. Die Bestände reichen von der Antike bis ins 20. Jahrhundert und umfassen westeuropäische Kunst, Archäologie, russische Geschichte, dekorative Kunst sowie Werke verschiedener Kulturen. Die prunkvollen Innenräume des Palastes und die umfangreichen Sammlungen machen die Eremitage zu einer der wichtigsten Sehenswürdigkeiten Sankt Petersburgs."
     },
     "activities": {
       "tr": [
-        "Sanat eserlerini inceleme",
-        "Müze içinde gezinti yapma"
+        "Sanat koleksiyonlarını keşfetme",
+        "Kışlık Saray'ın salonlarını gezme",
+        "Tarihî eserleri inceleme",
+        "Ünlü sanatçıların eserlerini görme",
+        "Müze mimarisini fotoğraflama"
       ],
       "en": [
-        "Explore art exhibits",
-        "Wander through the museum"
+        "Explore the art collections",
+        "Tour the halls of the Winter Palace",
+        "Admire historic artifacts",
+        "See works by famous artists",
+        "Photograph the historic interiors"
       ],
       "de": [
-        "Kunstwerke erkunden",
-        "Im Museum spazieren gehen"
+        "Die Kunstsammlungen erkunden",
+        "Die Säle des Winterpalastes besichtigen",
+        "Historische Artefakte entdecken",
+        "Werke berühmter Künstler betrachten",
+        "Die historischen Innenräume fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "sanat",
+        "tarih",
+        "mimari",
+        "kültür"
       ],
       "en": [
-        "museum"
+        "museum",
+        "art",
+        "history",
+        "architecture",
+        "culture"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Kunst",
+        "Geschichte",
+        "Architektur",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/hermitage_museum.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Winter%20Palace%20in%20Saint%20Petersburg%202015-07%201435974443.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Palace%20Square%20Saint%20Petersburg%20Russia.jpg"
     ]
   },
   {
@@ -49,40 +71,62 @@
       "en": "Peter and Paul Fortress",
       "de": "Peter-und-Paul-Festung"
     },
-    "latitude": 59.95,
-    "longitude": 30.3025,
+    "latitude": 59.9502,
+    "longitude": 30.3165,
     "description": {
-      "tr": "Peter ve Paul Kalesi, St. Petersburg’un en eski yapılarından biridir. Rus Çarlığı döneminde kullanılmış olan bu kale, günümüzde bir müze olarak işlev görmektedir.\n",
-      "en": "The Peter and Paul Fortress is one of the oldest structures in St. Petersburg. It was used during the Russian Tsarist era and now serves as a museum.\n",
-      "de": "Die Peter-und-Paul-Festung ist eines der ältesten Bauwerke in St. Petersburg. Sie wurde während der Zarenzeit genutzt und dient heute als Museum.\n"
+      "tr": "Peter ve Paul Kalesi, St. Petersburg'un kuruluşuyla doğrudan bağlantılı olan ve 1703 yılında Neva Nehri üzerindeki Tavşan Adası'nda kurulan tarihî bir kale kompleksidir. Günümüzde surları, burçları, Peter ve Paul Katedrali, eski hapishane yapıları ve çeşitli müzeleriyle şehrin en önemli tarih duraklarından biridir. Kalenin bulunduğu ada, Neva manzarası ve şehir silüetini görmek için de etkileyici bir noktadır.",
+      "en": "The Peter and Paul Fortress is a historic fortress complex directly connected with the founding of Saint Petersburg. Established in 1703 on Hare Island in the Neva River, it contains defensive walls, bastions, the Peter and Paul Cathedral, former prison buildings and several museums. The island also provides impressive views of the Neva and the city's historic skyline.",
+      "de": "Die Peter-und-Paul-Festung ist ein historischer Festungskomplex, der unmittelbar mit der Gründung Sankt Petersburgs verbunden ist. Sie wurde 1703 auf der Haseninsel in der Newa gegründet und umfasst Befestigungsmauern, Bastionen, die Peter-und-Paul-Kathedrale, ehemalige Gefängnisgebäude und mehrere Museen. Die Insel bietet außerdem beeindruckende Ausblicke auf die Newa und die historische Skyline der Stadt."
     },
     "activities": {
       "tr": [
-        "Kaleyi keşfetme",
-        "Tarihi kalıntıları inceleme"
+        "Kale surlarını keşfetme",
+        "Peter ve Paul Katedrali'ni ziyaret etme",
+        "Müzeleri gezme",
+        "Tarihî hapishane yapılarını görme",
+        "Neva Nehri manzarasını izleme",
+        "Fotoğraf çekme"
       ],
       "en": [
-        "Explore the fortress",
-        "Inspect historical artifacts"
+        "Explore the fortress walls",
+        "Visit Peter and Paul Cathedral",
+        "Explore the museums",
+        "See the historic prison buildings",
+        "Enjoy views of the Neva River",
+        "Take photographs"
       ],
       "de": [
-        "Die Festung erkunden",
-        "Historische Überreste besichtigen"
+        "Die Festungsmauern erkunden",
+        "Die Peter-und-Paul-Kathedrale besuchen",
+        "Die Museen besichtigen",
+        "Die historischen Gefängnisgebäude sehen",
+        "Den Blick auf die Newa genießen",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "kale",
+        "tarih",
+        "müze",
+        "mimari"
       ],
       "en": [
-        "historic"
+        "fortress",
+        "history",
+        "museum",
+        "architecture"
       ],
       "de": [
-        "Historisch"
+        "Festung",
+        "Geschichte",
+        "Museum",
+        "Architektur"
       ]
     },
     "images": [
-      "https://example.com/peter_paul_fortress.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20and%20Paul%20Fortress%2C%20Saint%20Petersburg%2C%20Russia.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Paul%20Fortress.jpg"
     ]
   },
   {
@@ -92,40 +136,65 @@
       "en": "Nevsky Prospekt",
       "de": "Newski-Prospekt"
     },
-    "latitude": 59.9343,
-    "longitude": 30.3374,
+    "latitude": 59.9319,
+    "longitude": 30.3565,
     "description": {
-      "tr": "Nevsky Prospekt, St. Petersburg'un en ünlü ve en uzun caddelerinden biridir. Alışveriş yapabileceğiniz çok sayıda mağaza, restoran ve kafe vardır.\n",
-      "en": "Nevsky Prospekt is one of St. Petersburg's most famous and longest streets. It features numerous shops, restaurants, and cafes.\n",
-      "de": "Der Newski-Prospekt ist eine der bekanntesten und längsten Straßen in St. Petersburg. Er bietet zahlreiche Geschäfte, Restaurants und Cafés.\n"
+      "tr": "Nevsky Prospekt, St. Petersburg'un dört kilometreden uzun ana caddesi ve şehrin kültürel ve sosyal yaşamının en önemli merkezlerinden biridir. Cadde boyunca tarihî saraylar, kiliseler, mağazalar, kafeler, restoranlar, tiyatrolar ve müzeler sıralanır. Admiralteysky bölgesinden başlayarak Alexander Nevsky Meydanı yönüne uzanan cadde, St. Petersburg'u yürüyerek keşfetmek için en iyi rotalardan biridir.",
+      "en": "Nevsky Prospekt is Saint Petersburg's main avenue, stretching for more than four kilometres and forming one of the central axes of the city's cultural and social life. Historic palaces, churches, shops, cafés, restaurants, theatres and museums line the avenue. Running from the Admiralty area toward Alexander Nevsky Square, it is one of the best routes for exploring central Saint Petersburg on foot.",
+      "de": "Der Newski-Prospekt ist die wichtigste Straße Sankt Petersburgs, erstreckt sich über mehr als vier Kilometer und bildet eine der zentralen Achsen des kulturellen und gesellschaftlichen Lebens der Stadt. Historische Paläste, Kirchen, Geschäfte, Cafés, Restaurants, Theater und Museen säumen die Straße. Sie führt vom Bereich der Admiralität in Richtung Alexander-Newski-Platz und eignet sich hervorragend, um das Zentrum zu Fuß zu erkunden."
     },
     "activities": {
       "tr": [
+        "Caddede yürüyüş yapma",
+        "Tarihî yapıları keşfetme",
+        "Kafelerde ve restoranlarda vakit geçirme",
         "Alışveriş yapma",
-        "Caddede yürüyüş yapma"
+        "Sokak sanatçılarını izleme",
+        "Mimari fotoğrafçılık"
       ],
       "en": [
+        "Walk along the avenue",
+        "Explore historic buildings",
+        "Visit cafés and restaurants",
         "Go shopping",
-        "Stroll along the avenue"
+        "Watch street performers",
+        "Take architectural photographs"
       ],
       "de": [
-        "Einkaufen gehen",
-        "Die Straße entlang spazieren"
+        "Durch die Straße spazieren",
+        "Historische Gebäude erkunden",
+        "Cafés und Restaurants besuchen",
+        "Einkaufen",
+        "Straßenkünstler beobachten",
+        "Architekturfotografie"
       ]
     },
     "categories": {
       "tr": [
-        "şehir turu"
+        "şehir turu",
+        "yaya caddesi",
+        "alışveriş",
+        "tarih",
+        "mimari"
       ],
       "en": [
-        "city tour"
+        "city walk",
+        "pedestrian area",
+        "shopping",
+        "history",
+        "architecture"
       ],
       "de": [
-        "stadtrundfahrt"
+        "Stadtspaziergang",
+        "Fußgängerbereich",
+        "Shopping",
+        "Geschichte",
+        "Architektur"
       ]
     },
     "images": [
-      "https://example.com/nevsky_prospekt.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nevsky%20Prospect%20%2821153644541%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nevsky%20Prospect%2C%20St.%20Petersburg%2C%20Russia.jpg"
     ]
   },
   {
@@ -135,83 +204,249 @@
       "en": "Hermitage Theatre",
       "de": "Eremitage-Theater"
     },
-    "latitude": 59.9342,
-    "longitude": 30.3268,
+    "latitude": 59.9412,
+    "longitude": 30.3191,
     "description": {
-      "tr": "Ermitaj Tiyatrosu, tarihi yapılarıyla ünlü olan ve konserler, bale ve tiyatro gösterilerine ev sahipliği yapan bir mekan olup, kültürel bir hazine sunar.\n",
-      "en": "The Hermitage Theatre is a cultural gem, known for its historic architecture and hosting concerts, ballets, and theatre performances.\n",
-      "de": "Das Eremitage-Theater ist ein kulturelles Juwel, bekannt für seine historische Architektur und die Aufführungen von Konzerten, Balletten und Theaterstücken.\n"
+      "tr": "Ermitaj Tiyatrosu, Kışlık Saray kompleksinin yakınında yer alan ve 18. yüzyılın sonlarında İmparatoriçe II. Katerina döneminde inşa edilen tarihî bir tiyatro binasıdır. Günümüzde opera, bale, konser ve çeşitli sahne gösterileriyle Hermitaj'ın kültürel mirasının bir parçasını oluşturur. Zarif iç mimarisi ve Neva kıyısındaki konumuyla St. Petersburg'un tarihî atmosferini deneyimlemek isteyenler için dikkat çekici bir duraktır.",
+      "en": "The Hermitage Theatre is a historic theatre near the Winter Palace complex, built in the late 18th century during the reign of Empress Catherine II. Today it forms part of the Hermitage's cultural heritage and hosts opera, ballet, concerts and other stage performances. Its elegant interiors and location near the Neva make it an interesting stop for visitors exploring historic Saint Petersburg.",
+      "de": "Das Eremitage-Theater ist ein historisches Theater in der Nähe des Winterpalast-Komplexes und wurde Ende des 18. Jahrhunderts unter Kaiserin Katharina II. errichtet. Heute gehört es zum kulturellen Erbe der Eremitage und bietet Opern-, Ballett-, Konzert- und andere Bühnenaufführungen. Seine eleganten Innenräume und die Lage an der Newa machen es zu einem sehenswerten Kulturort im historischen Sankt Petersburg."
     },
     "activities": {
       "tr": [
-        "Bir performans izleme",
-        "Sanat etkinliklerine katılma"
+        "Tiyatro binasını keşfetme",
+        "Opera ve bale gösterisi izleme",
+        "Konserlere katılma",
+        "Tarihî iç mimariyi inceleme",
+        "Kültürel etkinliklere katılma"
       ],
       "en": [
-        "Watch a performance",
-        "Attend artistic events"
+        "Explore the theatre building",
+        "Attend an opera or ballet",
+        "Attend concerts",
+        "Admire the historic interiors",
+        "Attend cultural events"
       ],
       "de": [
-        "Eine Aufführung ansehen",
-        "An Kunstveranstaltungen teilnehmen"
+        "Das Theatergebäude erkunden",
+        "Eine Oper oder ein Ballett besuchen",
+        "Konzerte besuchen",
+        "Die historischen Innenräume bewundern",
+        "An Kulturveranstaltungen teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "kültürel etkinlikler"
+        "tiyatro",
+        "kültür",
+        "tarih",
+        "mimari"
       ],
       "en": [
-        "cultural events"
+        "theatre",
+        "culture",
+        "history",
+        "architecture"
       ],
       "de": [
-        "Kulturelle Veranstaltungen"
+        "Theater",
+        "Kultur",
+        "Geschichte",
+        "Architektur"
       ]
     },
     "images": [
-      "https://example.com/hermitage_theatre.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hermitage%20Theatre%20Saint%20Petersburg.jpg"
     ]
   },
   {
-    "slug": "puskin-muzesi",
+    "slug": "puskin-apartman-muzesi",
     "name": {
-      "tr": "Puşkin Müzesi",
-      "en": "Pushkin Museum",
-      "de": "Puschkin-Museum"
+      "tr": "Puşkin Apartman Müzesi",
+      "en": "Pushkin Apartment Museum",
+      "de": "Puschkin-Museum in der Wohnung"
     },
-    "latitude": 59.9343,
-    "longitude": 30.3374,
+    "latitude": 59.9419,
+    "longitude": 30.3246,
     "description": {
-      "tr": "Puşkin Müzesi, Rus edebiyatının en büyük yazarlarından biri olan Aleksandr Puşkin'e adanmış bir müzedir. Yazarın hayatına dair pek çok sergi sunulmaktadır.\n",
-      "en": "The Pushkin Museum is dedicated to one of Russia’s greatest literary figures, Alexander Pushkin. It offers many exhibits about his life.\n",
-      "de": "Das Puschkin-Museum ist dem großen russischen Schriftsteller Alexander Puschkin gewidmet. Es bietet viele Ausstellungen zu seinem Leben.\n"
+      "tr": "Puşkin Apartman Müzesi, Aleksandr Puşkin'in hayatının son dönemini geçirdiği St. Petersburg'daki Moika Nehri kıyısındaki tarihî dairede yer alır. Puşkin, 1836 yılında ailesiyle birlikte bu evin zemin katındaki daireye taşınmış ve 1837 yılında burada hayatını kaybetmiştir. Günümüzde müzede şairin çalışma ve yaşam alanları, kişisel eşyaları, tarihî belgeler ve döneme ait hatıralar sergilenir. Müze, Rus edebiyatının en önemli isimlerinden birinin hayatını yakından tanımak için özel bir duraktır.",
+      "en": "The Pushkin Apartment Museum occupies the historic apartment on the Moika River where Alexander Pushkin spent the final months of his life. Pushkin moved into the ground-floor apartment with his family in 1836 and died there in 1837. The museum recreates his living and working spaces and displays personal belongings, historical documents and objects associated with the poet's final period. It offers an intimate insight into one of Russia's most important literary figures.",
+      "de": "Das Puschkin-Museum in der Wohnung befindet sich in der historischen Wohnung an der Moika, in der Alexander Puschkin die letzten Monate seines Lebens verbrachte. Puschkin zog 1836 mit seiner Familie in die Wohnung im Erdgeschoss und starb dort 1837. Das Museum zeigt rekonstruierte Wohn- und Arbeitsräume sowie persönliche Gegenstände, historische Dokumente und Erinnerungsstücke aus seiner letzten Lebensphase. Es bietet einen persönlichen Einblick in das Leben eines der bedeutendsten russischen Schriftsteller."
     },
     "activities": {
       "tr": [
-        "Puşkin’in hayatı hakkında bilgi edinme",
-        "Edebiyatla ilgili sergileri gezme"
+        "Puşkin'in yaşam alanlarını görme",
+        "Kişisel eşyalarını inceleme",
+        "Tarihî belgeleri keşfetme",
+        "Rus edebiyatı hakkında bilgi edinme",
+        "Moika Nehri çevresinde yürüyüş yapma"
       ],
       "en": [
-        "Learn about Pushkin’s life",
-        "Explore literary exhibits"
+        "See Pushkin's living spaces",
+        "Explore his personal belongings",
+        "Discover historical documents",
+        "Learn about Russian literature",
+        "Walk along the Moika River"
       ],
       "de": [
-        "Mehr über Puschkins Leben erfahren",
-        "Literarische Ausstellungen erkunden"
+        "Puschkins Wohnräume besichtigen",
+        "Seine persönlichen Gegenstände betrachten",
+        "Historische Dokumente entdecken",
+        "Mehr über russische Literatur erfahren",
+        "Entlang der Moika spazieren"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "edebiyat",
+        "tarih",
+        "kültür"
       ],
       "en": [
-        "museum"
+        "museum",
+        "literature",
+        "history",
+        "culture"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Literatur",
+        "Geschichte",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/pushkin_museum.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pushkin%20Apartment%20Museum%20on%2012%20Moyka%20River.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pushkin%20apartment.jpg"
+    ]
+  },
+  {
+    "slug": "aziz-isaak-katedrali",
+    "name": {
+      "tr": "Aziz İshak Katedrali",
+      "en": "Saint Isaac's Cathedral",
+      "de": "Isaakskathedrale"
+    },
+    "latitude": 59.9339,
+    "longitude": 30.3063,
+    "description": {
+      "tr": "Aziz İshak Katedrali, St. Petersburg'un en görkemli anıtsal yapılarından biridir ve devasa yaldızlı kubbesiyle şehir silüetinin en belirgin unsurlarından birini oluşturur. 19. yüzyılda tamamlanan katedral, mermer, granit, malakit ve lapis lazuli gibi zengin malzemelerin kullanıldığı iç mekânıyla dikkat çeker. Kubbenin çevresindeki sütunlu seyir alanına çıkıldığında Neva, tarihî merkez ve çevredeki önemli yapılar geniş bir açıyla görülebilir.",
+      "en": "Saint Isaac's Cathedral is one of Saint Petersburg's most monumental landmarks and a defining feature of the city's skyline with its enormous gilded dome. Completed in the 19th century, the cathedral is known for its richly decorated interior featuring materials such as marble, granite, malachite and lapis lazuli. The colonnade around the dome offers wide views across the Neva, the historic centre and many of the city's famous landmarks.",
+      "de": "Die Isaakskathedrale gehört zu den monumentalsten Bauwerken Sankt Petersburgs und prägt mit ihrer gewaltigen vergoldeten Kuppel die Skyline der Stadt. Die im 19. Jahrhundert fertiggestellte Kathedrale beeindruckt durch ihre reich ausgestatteten Innenräume mit Marmor, Granit, Malachit und Lapislazuli. Von der Kolonnade rund um die Kuppel bietet sich ein weiter Blick über die Newa, das historische Zentrum und zahlreiche Sehenswürdigkeiten der Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Katedrali ziyaret etme",
+        "İç mekân süslemelerini inceleme",
+        "Sütunlu seyir alanına çıkma",
+        "Şehir manzarasını izleme",
+        "Mimari fotoğrafçılık"
+      ],
+      "en": [
+        "Visit the cathedral",
+        "Admire the interior decoration",
+        "Climb to the colonnade",
+        "Enjoy panoramic city views",
+        "Take architectural photographs"
+      ],
+      "de": [
+        "Die Kathedrale besichtigen",
+        "Die Innenausstattung bewundern",
+        "Zur Kolonnade hinaufsteigen",
+        "Den Panoramablick genießen",
+        "Architekturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "katedral",
+        "tarih",
+        "mimari",
+        "şehir simgesi",
+        "seyir noktası"
+      ],
+      "en": [
+        "cathedral",
+        "history",
+        "architecture",
+        "landmark",
+        "viewpoint"
+      ],
+      "de": [
+        "Kathedrale",
+        "Geschichte",
+        "Architektur",
+        "Wahrzeichen",
+        "Aussichtspunkt"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Isaac%27s%20Cathedral%20Saint%20Petersburg.jpg"
+    ]
+  },
+  {
+    "slug": "kurtarici-kan-uzerine-kilise",
+    "name": {
+      "tr": "Kurtarıcı Kan Üzerine Kilise",
+      "en": "Church of the Savior on Spilled Blood",
+      "de": "Auferstehungskirche auf dem Blut"
+    },
+    "latitude": 59.9400,
+    "longitude": 30.3289,
+    "description": {
+      "tr": "Kurtarıcı Kan Üzerine Kilise, St. Petersburg'un en dikkat çekici mimari yapılarından biridir ve 1881 yılında suikasta uğrayan Çar II. Aleksandr'ın anısına olayın gerçekleştiği yerde inşa edilmiştir. Renkli soğan kubbeleri, ayrıntılı cephe süslemeleri ve iç mekânını kaplayan geniş mozaik yüzeyleriyle diğer şehir yapılarından kolayca ayrılır. Griboyedov Kanalı kıyısındaki konumu da yapının fotoğraf çekimi açısından etkileyici görünmesini sağlar.",
+      "en": "The Church of the Savior on Spilled Blood is one of Saint Petersburg's most distinctive landmarks. It was built on the site where Emperor Alexander II was fatally wounded in 1881. Its colorful onion domes, richly decorated façades and extensive interior mosaics make it instantly recognizable. Its position beside the Griboyedov Canal also creates one of the city's most memorable architectural views.",
+      "de": "Die Auferstehungskirche auf dem Blut gehört zu den markantesten Sehenswürdigkeiten Sankt Petersburgs. Sie wurde an der Stelle errichtet, an der Kaiser Alexander II. 1881 tödlich verwundet wurde. Die farbenfrohen Zwiebeltürme, die reich verzierte Fassade und die umfangreichen Mosaike im Inneren verleihen ihr ein unverwechselbares Erscheinungsbild. Die Lage am Gribojedow-Kanal macht die Kirche zudem zu einem besonders eindrucksvollen Fotomotiv."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin dış mimarisini inceleme",
+        "Mozaiklerle süslü iç mekânı görme",
+        "Griboyedov Kanalı boyunca yürüyüş yapma",
+        "Fotoğraf çekme",
+        "Tarihî yapıyı keşfetme"
+      ],
+      "en": [
+        "Admire the exterior architecture",
+        "See the mosaic-covered interior",
+        "Walk along the Griboyedov Canal",
+        "Take photographs",
+        "Explore the historic monument"
+      ],
+      "de": [
+        "Die Außenarchitektur bewundern",
+        "Das mit Mosaiken geschmückte Innere besichtigen",
+        "Am Gribojedow-Kanal spazieren",
+        "Fotografieren",
+        "Das historische Bauwerk erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise",
+        "mimari",
+        "tarih",
+        "sanat",
+        "şehir simgesi"
+      ],
+      "en": [
+        "church",
+        "architecture",
+        "history",
+        "art",
+        "landmark"
+      ],
+      "de": [
+        "Kirche",
+        "Architektur",
+        "Geschichte",
+        "Kunst",
+        "Wahrzeichen"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20of%20the%20Saviour%20on%20Spilled%20Blood%2C%20St%20Petersburg%2C%20Russia.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20of%20the%20Savior%20on%20Spilled%20Blood%2C%201883%20and%20later%2C%20St.%20Petersburg%20%2825%29%20%2837044039191%29.jpg"
     ]
   }
 ]

@@ -9,20 +9,22 @@
     "latitude": 30.0869,
     "longitude": 78.2676,
     "description": {
-      "tr": "Rishikesh, Hinduizm’in kutsal şehirlerinden biri olup yoga ve meditasyon merkezleriyle ünlüdür. Nehir kenarında yapılan dini ayinler de popülerdir.",
-      "en": "Rishikesh is one of the holiest cities in Hinduism, famous for its yoga and meditation centers. Religious ceremonies on the riverbank are also popular.",
+      "tr": "Rishikesh, Kuzey Hindistan'ın Uttarakhand eyaletinde, Doğu Himalaya dağlarının eteklerinde yer alan ve Ganj Nehri'nin kutsal sularıyla yıkanan efsanevi bir şehirdir. 'Dünyanın Yoga Başkenti' olarak kabul edilen Rishikesh, yüzyıllardır ruhsal arayış içinde olan aşram sakinlerini, yogileri, azizleri ve dünyanın dört bir yanından gelen gezginleri kendine çekmektedir. Şehrin spiritüel kimliği, Hindu mitolojisinde Tanrı Vishnu'nun bir tecellisi olan Hrishikesh kelimesinden türetilmiştir. Ganj Nehri'nin dağlardan çıkarak düzlüklere ulaştığı bu noktada sular kristal berraklığında ve son derece coşkuludur. Rishikesh, 1968 yılında ünlü İngiliz müzik grubu The Beatles'ın Maharishi Mahesh Yogi'nin aşramını ziyaret edip Transandantal Meditasyon eğitimi almasıyla batı dünyasında kitlesel bir şöhrete kavuşmuştur. Grup, efsanevi 'White Album' şarkılarının çoğunu bu aşramda kalırken bestelemiştir. Şehir, nehrin iki yakasını birbirine bağlayan tarihi asma köprüler olan Laxman Jhula ve Ram Jhula çevresinde şekillenmiştir. Her akşam Parmarth Niketan ve Triveni Ghat kıyılarında düzenlenen 'Ganga Aarti' ayinleri; tütsü kokuları, Vedik dualar, çan sesleri ve nehre bırakılan küçük çiçek kandilleriyle büyüleyici bir atmosfer sunar. Spiritüel atmosferinin yanı sıra Rishikesh, macera sporlarının da Hindistan'daki merkezidir. Ganj Nehri'nin coşkun sularında yapılan beyaz su raftingi (white-water rafting), cliff jumping, bungee jumping ve doğa yürüyüşü rotaları şehre dinamik bir gençlik enerjisi katar. Şehirde alkol tüketimi ve et satışı tamamen yasak olup, sokaklar ve restoranlar Ayurveda yemekleri, vejetaryen lezzetler ve taze meyve suları sunan gurme mekânlarla doludur. Hem zihinsel hem de fiziksel bir arınma arayanlar için Rishikesh, geleneksel ile modernin harmanlandığı eşsiz bir kaçış noktasıdır.",
+      "en": "Rishikesh, nestled in the foothills of the Himalayas in the northern Indian state of Uttarakhand, is globally renowned as the 'Yoga Capital of the World.' Bisected by the emerald waters of the holy Ganges River, this sacred city has served as a sanctuary for sages, yogis, and spiritual seekers for thousands of years. The name Rishikesh translates to 'Lord of the Senses,' referring to Lord Vishnu, and the town marks the precise point where the Ganges leaves the rugged Himalayan mountains to flow into the Gangetic plains. The city gained immense international prominence in 1968 when the legendary British rock band The Beatles spent several weeks at the ashram of Maharishi Mahesh Yogi to study Transcendental Meditation, composing dozens of songs for their iconic 'White Album' during their stay. Today, Rishikesh is divided into distinct spiritual neighborhoods anchored by the iconic suspension bridges Laxman Jhula and Ram Jhula. As dusk falls, thousands gather along the riverbanks at Triveni Ghat and Parmarth Niketan Ashram to participate in the spellbinding Ganga Aarti—a divine ritual filled with chanting, rhythmic bell ringing, and floating oil lamps reflecting on the sacred waters. Beyond its profound spiritual heritage, Rishikesh has evolved into India's premier hub for adventure sports, attracting thrill-seekers for white-water rafting, bungee jumping, zip-lining, and Himalayan trekking. The entire city adheres to strict vegetarianism and a total ban on alcohol, fostering a peaceful atmosphere filled with Ayurvedic healing centers, organic cafes, yoga schools, and vibrant bazaars.",
       "de": "Rishikesh ist eine der heiligsten Städte im Hinduismus, bekannt für seine Yoga- und Meditationszentren. Religiöse Zeremonien am Flussufer sind ebenfalls beliebt."
     },
     "activities": {
       "tr": [
-        "Yoga ve meditasyon",
-        "Rafting",
-        "Dini ayinler"
+        "Aşramlarda geleneksel Hatha, Vinyasa ve Kundalini yoga derslerine katılmak",
+        "Ganj Nehri'nin coşkun sularında beyaz su raftingi ve su sporları yapmak",
+        "Parmarth Niketan ve Triveni Ghat'ta akşam düzenlenen Ganga Aarti ayinlerini izlemek",
+        "The Beatles Aşramı'nı (Chaurasi Kutia) ve tarihi duvar resimlerini ziyaret etmek"
       ],
       "en": [
-        "Yoga and meditation",
-        "Rafting",
-        "Religious ceremonies"
+        "Attending traditional yoga and meditation teacher training courses at world-renowned ashrams",
+        "Experiencing thrilling white-water rafting along the rapids of the Ganges River",
+        "Witnessing the mesmerizing Ganga Aarti ceremony at Parmarth Niketan and Triveni Ghat",
+        "Exploring the historic Beatles Ashram (Chaurasi Kutia) and its iconic graffiti art"
       ],
       "de": [
         "Yoga und Meditation",
@@ -32,13 +34,16 @@
     },
     "categories": {
       "tr": [
-        "genel"
+        "genel",
+        "doğa"
       ],
       "en": [
-        "general"
+        "general",
+        "nature"
       ],
       "de": [
-        "Allgemein"
+        "Allgemein",
+        "Natur"
       ]
     },
     "images": [
@@ -55,20 +60,22 @@
     "latitude": 29.9457,
     "longitude": 78.1642,
     "description": {
-      "tr": "Haridwar, Hindistan’ın kutsal şehirlerinden biridir. Ganj Nehri’nde yapılan Aarti seremonileriyle ünlüdür.",
-      "en": "Haridwar is one of the holiest cities in India. It is famous for the Aarti ceremonies on the Ganges River.",
+      "tr": "Haridwar, Kuzey Hindistan'ın Uttarakhand eyaletinde yer alan ve Hinduizm'in en kutsal yedi şehrinden (Sapta Puri) biri olarak kabul edilen tarihi bir inanç merkezidir. Adı Sanskritçe'de 'Tanrı'ya Açılan Kapı' (Hari: Tanrı, Dwar: Kapı) anlamına gelen Haridwar, Ganj Nehri'nin Himalayalar'dan çıkarak Kuzey Hindistan ovalarıyla buluştuğu ilk noktadır. Hindu mitolojisinde, tanrıların ölümsüzlük iksiri olan 'Amrit'i taşırken düşürdükleri dört damladan birinin buraya damladığına inanılır. Bu efsane nedeniyle Haridwar, 12 yılda bir düzenlenen ve dünyanın en büyük dini buluşması sayılan tarihi Kumbh Mela festivaline ev sahipliği yapan dört kutsal şehirden biridir. Şehrin kalbi, tanrı Vishnu'nun ayak izinin bulunduğuna inanılan ve nehrin en kutsal noktası kabul edilen 'Har Ki Pauri' ghatında atar. Her gün gün batımında burada gerçekleştirilen devasa Ganga Aarti ayini; binlerce inananın katılımı, yakılan meşaleler, Vedik ilahiler ve nehir üzerinde süzülen pirinç kaplı kandillerle büyüleyici bir manzara sunar. İnançlı Hindular, geçmiş günahlarından arınmak ve ruhsal özgürlüğe (Mokşa) ulaşmak amacıyla Haridwar'daki buz gibi Ganj sularında yıkanırlar. Kentin tepelerinde yer alan Mansa Devi ve Chandi Devi tapınaklarına teleferiklerle tırmanılarak tüm şehrin ve Ganj vadisinin panoramik manzarası izlenebilir. Dar sokakları; dindar hacılar, turuncu giysili sadhular, baharat ve dini objeler satan renkli pazar yerleriyle doludur. Haridwar, Hindistan'ın köklü inanç kültürünü ve kadim geleneklerini tüm canlılığıyla hissetmek isteyenler için unutulmaz bir kültürel ve ruhsal deneyim noktasıdır.",
+      "en": "Haridwar, situated in Uttarakhand, India, is revered as one of the seven holiest cities (Sapta Puri) in Hinduism. The city's name literally translates to 'Gateway to the Gods' (Hari meaning Lord Vishnu, and Dwar meaning Gateway), serving as the entry point where the holy Ganges River emerges from the lofty peaks of the Himalayas onto the vast Indo-Gangetic plains. According to Hindu mythology, Haridwar is one of four sacred sites where drops of 'Amrita'—the elixir of immortality—spilled from a celestial pitcher during the churning of the cosmic ocean. Consequently, the city hosts the world-renowned Kumbh Mela every 12 years, attracting tens of millions of pilgrims from across the globe. The spiritual epicenter of Haridwar is 'Har Ki Pauri' (Footprint of God), a famous bathing ghat where a footprint believed to belong to Lord Vishnu is preserved on a stone wall. Every evening at sunset, Har Ki Pauri comes alive with the magnificent Maha Ganga Aarti, an awe-inspiring ceremony where priests swing elaborate brass lamps while thousands of devotees float earthen lamps adorned with marigolds down the rushing river. Pilgrims travel from all corners of India to immerse themselves in the ice-cold Ganges waters, believing it purifies the soul and washes away accumulated sins. Perched atop the surrounding hills are revered shrines like Mansa Devi and Chandi Devi, accessible via scenic cable car rides that offer panoramic views of the river plains. Haridwar remains an unmissable destination for experiencing authentic Indian traditions, ancient rituals, and spiritual devotion.",
       "de": "Haridwar ist eine der heiligsten Städte Indiens. Es ist bekannt für die Aarti-Zeremonien am Ganges-Fluss."
     },
     "activities": {
       "tr": [
-        "Aarti törenleri",
-        "Kutsal nehirde tekne turu",
-        "Hindu tapınaklarını gezmek"
+        "Har Ki Pauri ghatında büyüleyici akşam Maha Ganga Aarti törenini izlemek",
+        "Kutsal Ganj Nehri'nin sularında arınma banyosu yapmak",
+        "Teleferik ile tepedeki Mansa Devi ve Chandi Devi tapınaklarına tırmanmak",
+        "Tarihi pazar yerlerini gezerek dini objeler, pirinç heykeller ve baharatlar satın almak"
       ],
       "en": [
-        "Aarti ceremonies",
-        "Boat ride on the holy river",
-        "Visit Hindu temples"
+        "Witnessing the grand evening Maha Ganga Aarti ceremony at the historic Har Ki Pauri",
+        "Taking a sacred purification dip in the holy waters of the Ganges River",
+        "Riding the cable car (Ropeway) to the hilltop shrines of Mansa Devi and Chandi Devi",
+        "Exploring the vibrant bazaars selling brassware, religious artifacts, and traditional sweets"
       ],
       "de": [
         "Aarti-Zeremonien",
@@ -78,13 +85,16 @@
     },
     "categories": {
       "tr": [
-        "genel"
+        "genel",
+        "tarih"
       ],
       "en": [
-        "general"
+        "general",
+        "historic"
       ],
       "de": [
-        "Allgemein"
+        "Allgemein",
+        "Historisch"
       ]
     },
     "images": [

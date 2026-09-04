@@ -9,36 +9,90 @@
     "latitude": 24.5854,
     "longitude": 73.7125,
     "description": {
-      "tr": "Udaipur, Hindistan’ın en romantik şehirlerinden biri olarak bilinir. Göl Sarayı ve City Palace gibi tarihi yapılarıyla ünlüdür.",
-      "en": "Udaipur is known as one of the most romantic cities in India. It is famous for its historical structures like the Lake Palace and City Palace.",
-      "de": "Udaipur ist als eine der romantischsten Städte Indiens bekannt. Es ist berühmt für historische Bauwerke wie den Lake Palace und den City Palace."
+      "tr": "Udaipur, Rajasthan'ın güneyinde, göller ve Aravalli Tepeleri arasında kurulmuş tarihi bir şehirdir. Genellikle 'Göller Şehri' olarak anılan Udaipur, Mewar krallığının tarihiyle, sarayları, göl manzaraları ve eski şehir dokusuyla Rajasthan'ın en karakteristik destinasyonlarından biridir. Şehrin en önemli doğal ve kültürel merkezlerinden biri Pichola Gölü'dür. Gölün doğu kıyısında yükselen City Palace, Udaipur'un kraliyet geçmişinin en görkemli simgelerinden biridir. Gölün üzerinde yer alan beyaz mermer Lake Palace ise şehrin en tanınmış manzaralarından birini oluşturur ve günümüzde Taj Lake Palace adlı lüks bir otel olarak kullanılmaktadır. Udaipur'da tarihi sarayların yanı sıra Jagdish Temple gibi önemli Hindu tapınakları, Saheliyon-ki-Bari gibi kraliyet bahçeleri ve eski şehirdeki geleneksel sokaklar keşfedilebilir. Pichola Gölü'nde özellikle gün batımına yakın yapılan tekne turları, City Palace ve göl üzerindeki sarayları farklı bir açıdan görme fırsatı sunar. Udaipur'un eski şehir bölgesinde yürüyerek dolaşmak, göl kıyısındaki ghatları görmek, geleneksel mimariyi incelemek ve yerel restoranlarda Rajasthan mutfağını denemek şehrin deneyimini tamamlar. Udaipur yalnızca romantik atmosferiyle değil, Mewar tarihinin izlerini taşıyan sarayları, dini yapıları, gölleri ve geleneksel kültürüyle de öne çıkar. Şehir, birkaç güne yayılan bir gezi planında hem tarihi yapıları hem de göl çevresindeki manzaraları birlikte keşfetmek isteyenler için güçlü bir Rajasthan rotasıdır.",
+      "en": "Udaipur is a historic city in southern Rajasthan, set among lakes and the Aravalli Hills. Often called the 'City of Lakes', it is one of Rajasthan's most distinctive destinations, known for its Mewar heritage, royal palaces, lake views and historic old-city atmosphere. One of the city's most important landmarks is Lake Pichola. Rising along its eastern shore, the City Palace is one of the grandest symbols of Udaipur's royal past. The white marble Lake Palace, standing on an island in the lake, creates one of the city's most recognisable views and now operates as the Taj Lake Palace luxury hotel. Udaipur is also home to important Hindu temples such as Jagdish Temple, historic royal gardens such as Saheliyon-ki-Bari and traditional streets in the old city. Boat rides on Lake Pichola, particularly around sunset, provide a different perspective of the City Palace and the palaces on the lake. Walking through the old city, visiting the ghats along the waterfront, admiring traditional architecture and trying Rajasthani cuisine in local restaurants are all worthwhile ways to experience Udaipur. The city stands out not only for its romantic atmosphere but also for its combination of Mewar history, royal architecture, religious heritage, lakes and living local culture. Udaipur is particularly rewarding for travellers who want to combine historic sightseeing with scenic lake experiences during a Rajasthan itinerary.",
+      "de": "Udaipur ist eine historische Stadt im Süden Rajasthans, die zwischen Seen und den Aravalli-Bergen liegt. Die oft als „Stadt der Seen“ bezeichnete Stadt gehört zu den charakteristischsten Reisezielen Rajasthans und ist für das Erbe der Mewar-Herrscher, königliche Paläste, Seeblicke und ihre historische Altstadt bekannt. Einer der wichtigsten Orientierungspunkte ist der Pichola-See. An seinem östlichen Ufer erhebt sich der City Palace, eines der eindrucksvollsten Zeugnisse der königlichen Vergangenheit Udaipurs. Der weiße Marmorpalast Lake Palace auf einer Insel im See gehört zu den bekanntesten Ansichten der Stadt und wird heute als luxuriöses Taj Lake Palace Hotel genutzt. Zu Udaipur gehören außerdem bedeutende hinduistische Tempel wie der Jagdish-Tempel, historische königliche Gärten wie Saheliyon-ki-Bari und traditionelle Gassen in der Altstadt. Eine Bootsfahrt auf dem Pichola-See, besonders zum Sonnenuntergang, bietet eine besondere Perspektive auf den City Palace und die Paläste auf dem Wasser. Ein Spaziergang durch die Altstadt, der Besuch der Ghats am Seeufer, die Betrachtung traditioneller Architektur und das Probieren der Rajasthani-Küche gehören zu den schönsten Möglichkeiten, Udaipur kennenzulernen. Die Stadt beeindruckt nicht nur durch ihre romantische Atmosphäre, sondern auch durch die Verbindung von Mewar-Geschichte, königlicher Architektur, religiösem Erbe, Seen und lebendiger lokaler Kultur. Udaipur eignet sich besonders für Reisende, die historische Sehenswürdigkeiten mit eindrucksvollen Landschaften und Erlebnissen am Wasser verbinden möchten."
     },
     "activities": {
       "tr": [
-        "Lake Palace'i ziyaret etmek ",
-        "  City Palace'i gezmek",
-        "Göl etrafında tekne turu"
+        "Pichola Gölü'nde tekne turu yapmak",
+        "Gün batımında göl manzarasını izlemek",
+        "City Palace'ı keşfetmek",
+        "Lake Palace'ı gölden görmek",
+        "Jagdish Temple'ı ziyaret etmek",
+        "Saheliyon-ki-Bari bahçesini gezmek",
+        "Udaipur'un eski şehir sokaklarında yürümek",
+        "Göl kıyısındaki ghatları keşfetmek",
+        "Rajasthan mutfağını denemek",
+        "Tarihi mimariyi fotoğraflamak"
       ],
       "en": [
-        "Visit the Lake Palace",
+        "Take a boat ride on Lake Pichola",
+        "Watch the sunset over the lake",
         "Explore the City Palace",
-        "Boat ride around the lake"
+        "See the Lake Palace from the lake",
+        "Visit Jagdish Temple",
+        "Explore Saheliyon-ki-Bari",
+        "Walk through Udaipur's old city",
+        "Discover the lakeside ghats",
+        "Try Rajasthani cuisine",
+        "Photograph historic architecture"
       ],
       "de": [
-        "Besuch des Lake Palace",
-        "Erkundung des City Palace",
-        "Bootsfahrt rund um den See"
+        "Eine Bootsfahrt auf dem Pichola-See unternehmen",
+        "Den Sonnenuntergang über dem See beobachten",
+        "Den City Palace erkunden",
+        "Den Lake Palace vom See aus sehen",
+        "Den Jagdish-Tempel besuchen",
+        "Saheliyon-ki-Bari erkunden",
+        "Durch die Altstadt von Udaipur spazieren",
+        "Die Ghats am Seeufer entdecken",
+        "Rajasthani-Küche probieren",
+        "Historische Architektur fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "genel"
+        "şehir",
+        "tarih",
+        "kraliyet mirası",
+        "saray",
+        "göl",
+        "kültür",
+        "mimari",
+        "din",
+        "Hinduizm",
+        "tekne turu",
+        "fotoğrafçılık",
+        "romantik rota"
       ],
       "en": [
-        "general"
+        "city",
+        "history",
+        "royal heritage",
+        "palace",
+        "lake",
+        "culture",
+        "architecture",
+        "religion",
+        "Hinduism",
+        "boat tour",
+        "photography",
+        "romantic destination"
       ],
       "de": [
-        "Allgemein"
+        "Stadt",
+        "Geschichte",
+        "königliches Erbe",
+        "Palast",
+        "See",
+        "Kultur",
+        "Architektur",
+        "Religion",
+        "Hinduismus",
+        "Bootstour",
+        "Fotografie",
+        "romantisches Reiseziel"
       ]
     },
     "images": [
@@ -52,36 +106,81 @@
       "en": "City Palace",
       "de": "City Palace"
     },
-    "latitude": 24.5857,
-    "longitude": 73.712,
+    "latitude": 24.5764,
+    "longitude": 73.6838,
     "description": {
-      "tr": "City Palace, Udaipur’un en büyük ve en etkileyici yapılarından biridir. Sarayın görkemli odaları ve gölet manzarası büyüleyicidir.",
-      "en": "City Palace is one of the largest and most impressive structures in Udaipur. The grand rooms and the lake view are mesmerizing.",
-      "de": "Der City Palace ist eines der größten und beeindruckendsten Gebäude in Udaipur. Die prächtigen Räume und der Blick auf den See sind faszinierend."
+      "tr": "Udaipur City Palace, Pichola Gölü'nün doğu kıyısında yükselen ve Mewar hanedanının yaklaşık 450 yıllık tarihini yansıtan geniş bir saray kompleksidir. Yapının temelleri 16. yüzyılda Udaipur'un kuruluş dönemine kadar uzanırken, kompleks farklı Mewar hükümdarları tarafından yüzyıllar boyunca genişletilmiştir. Bu nedenle City Palace tek bir saraydan ziyade birbirine bağlanan büyük ve küçük saraylar, avlular, kuleler, balkonlar, kubbeler ve koridorlardan oluşan çok katmanlı bir mimari bütündür. Kompleksin önemli bölümleri günümüzde müze olarak korunmakta ve Mewar kraliyet ailesine ait sanat eserleri, silahlar, mobilyalar, tekstiller ve tarihi objeler sergilenmektedir. Sarayın mimarisinde özellikle Rajput gelenekleri belirgin olmakla birlikte Mughal etkileri ve farklı dönemlerin mimari eklemeleri de görülebilir. City Palace'ın en etkileyici özelliklerinden biri Pichola Gölü ve Udaipur manzarasına açılan balkon ve teraslarıdır. Saray kompleksinin içindeki avlular, süslü kapılar, renkli cam işçiliği, aynalı salonlar ve dekoratif duvarlar Mewar saray yaşamı hakkında fikir verir. Ziyaret sırasında farklı bölümlerin işlevlerini ve sarayın yüzyıllar boyunca nasıl büyüdüğünü anlamak için müze alanlarını ve tarihi avluları birlikte görmek faydalıdır. City Palace, Udaipur'un yalnızca en önemli turistik yapılarından biri değil, aynı zamanda şehrin Mewar geçmişini anlamak için en kapsamlı duraklarından biridir. Pichola Gölü, Jagdish Temple ve eski şehirle birlikte ziyaret edildiğinde Udaipur'un tarihi merkezini keşfetmek için ideal bir rota oluşturur.",
+      "en": "Udaipur City Palace is a vast palace complex rising above the eastern shore of Lake Pichola and reflecting around 450 years of Mewar history. Its origins reach back to the foundation period of Udaipur in the 16th century, while successive Mewar rulers expanded the complex over several centuries. City Palace is therefore not a single palace but a layered architectural ensemble of interconnected major and smaller palaces, courtyards, towers, balconies, domes and passageways. Significant sections are preserved as a museum today, displaying artworks, weapons, furniture, textiles and historic objects associated with the Mewar royal heritage. Rajput architectural traditions are especially prominent, while Mughal influences and additions from different periods can also be seen throughout the complex. One of the palace's most impressive features is the series of balconies and terraces overlooking Lake Pichola and the city. Courtyards, ornate gateways, coloured glasswork, mirrored halls and decorative walls provide insight into the life of the Mewar court. Exploring both the museum galleries and historic courtyards helps visitors understand how the complex developed over the centuries and how its different sections were used. City Palace is not only one of Udaipur's major attractions but also one of the best places to understand the city's Mewar heritage. Combined with Lake Pichola, Jagdish Temple and the surrounding old city, it forms a natural core for exploring historic Udaipur.",
+      "de": "Der City Palace von Udaipur ist ein weitläufiger Palastkomplex am östlichen Ufer des Pichola-Sees und spiegelt rund 450 Jahre Geschichte der Mewar-Dynastie wider. Seine Ursprünge reichen bis in die Gründungszeit Udaipurs im 16. Jahrhundert zurück, während successive Herrscher von Mewar den Komplex über mehrere Jahrhunderte erweiterten. Der City Palace ist daher kein einzelner Palast, sondern ein vielschichtiges Ensemble aus miteinander verbundenen großen und kleineren Palästen, Innenhöfen, Türmen, Balkonen, Kuppeln und Durchgängen. Bedeutende Bereiche sind heute als Museum erhalten und zeigen Kunstwerke, Waffen, Möbel, Textilien und historische Gegenstände aus dem Erbe der Mewar-Herrscher. Besonders deutlich sind Rajputische Architekturelemente, während auch Einflüsse der Mogularchitektur und Ergänzungen aus verschiedenen Epochen erkennbar sind. Zu den beeindruckendsten Bereichen gehören die Balkone und Terrassen mit Blick auf den Pichola-See und die Stadt. Innenhöfe, kunstvoll gestaltete Tore, farbiges Glas, Spiegelsäle und dekorierte Wände vermitteln einen Eindruck vom Leben am Hof von Mewar. Wer sowohl die Museumsräume als auch die historischen Innenhöfe erkundet, kann besser verstehen, wie der Komplex über Jahrhunderte gewachsen ist. Der City Palace gehört nicht nur zu den wichtigsten Sehenswürdigkeiten Udaipurs, sondern ist auch einer der besten Orte, um das historische Erbe Mewars kennenzulernen. Zusammen mit dem Pichola-See, dem Jagdish-Tempel und der Altstadt bildet er das historische Zentrum einer Udaipur-Erkundung."
     },
     "activities": {
       "tr": [
-        "Saray turu",
-        "Göl manzarasında yürüyüş"
+        "Saray müzesini gezmek",
+        "Kraliyet koleksiyonlarını incelemek",
+        "Tarihi avluları keşfetmek",
+        "Rajput mimarisini incelemek",
+        "Pichola Gölü manzarasını izlemek",
+        "Saray balkonlarından fotoğraf çekmek",
+        "Mewar tarihi hakkında bilgi edinmek",
+        "Eski şehirle birlikte tarihi yürüyüş yapmak"
       ],
       "en": [
-        "Palace tour",
-        "Walk along the lake view"
+        "Visit the palace museum",
+        "Explore royal collections",
+        "Discover historic courtyards",
+        "Admire Rajput architecture",
+        "Enjoy views over Lake Pichola",
+        "Take photographs from the palace balconies",
+        "Learn about Mewar history",
+        "Combine the visit with a historic old-city walk"
       ],
       "de": [
-        "Palasttour",
-        "Spaziergang mit Seeblick"
+        "Das Palastmuseum besuchen",
+        "Königliche Sammlungen erkunden",
+        "Historische Innenhöfe entdecken",
+        "Rajputische Architektur betrachten",
+        "Den Blick auf den Pichola-See genießen",
+        "Von den Palastbalkonen fotografieren",
+        "Die Geschichte von Mewar kennenlernen",
+        "Den Besuch mit einem Altstadtspaziergang verbinden"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "saray",
+        "müze",
+        "tarih",
+        "kraliyet mirası",
+        "Rajput mimarisi",
+        "Mughal etkisi",
+        "kültür",
+        "mimari",
+        "fotoğrafçılık",
+        "şehir manzarası"
       ],
       "en": [
-        "historic"
+        "palace",
+        "museum",
+        "history",
+        "royal heritage",
+        "Rajput architecture",
+        "Mughal influence",
+        "culture",
+        "architecture",
+        "photography",
+        "city views"
       ],
       "de": [
-        "Historisch"
+        "Palast",
+        "Museum",
+        "Geschichte",
+        "königliches Erbe",
+        "Rajputische Architektur",
+        "Mogul-Einfluss",
+        "Kultur",
+        "Architektur",
+        "Fotografie",
+        "Stadtblick"
       ]
     },
     "images": [
@@ -95,36 +194,75 @@
       "en": "Lake Palace",
       "de": "Lake Palace"
     },
-    "latitude": 24.5852,
-    "longitude": 73.7117,
+    "latitude": 24.5757,
+    "longitude": 73.6789,
     "description": {
-      "tr": "Lake Palace, Pichola Gölü üzerinde yer alan bir saraydır. Bu tarihi yapı, Udaipur’un simgelerinden biridir.",
-      "en": "Lake Palace is a palace situated on Lake Pichola. This historic building is one of the landmarks of Udaipur.",
-      "de": "Der Lake Palace ist ein Palast, der auf dem Pichola-See liegt. Dieses historische Gebäude ist eines der Wahrzeichen von Udaipur."
+      "tr": "Lake Palace, Pichola Gölü'nün ortasındaki Jag Niwas adası üzerinde bulunan ve Udaipur'un en tanınmış yapılarından biri olan tarihi bir saraydır. Beyaz mermerden inşa edilen yapı, Maharana Jagat Singh II döneminde 1743 ile 1746 yılları arasında yazlık saray olarak yaptırılmıştır. Başlangıçta Jag Niwas adıyla bilinen yapı, Mewar kraliyet ailesinin göl üzerindeki yazlık inziva ve dinlenme mekânlarından biri olarak kullanılmıştır. Zamanla saray farklı dönemlerden geçerek 1963 yılında miras otele dönüştürülmüş ve günümüzde Taj Lake Palace adıyla lüks bir otel olarak hizmet vermektedir. Bu nedenle yapı, klasik anlamda her ziyaretçinin müze gibi serbestçe gezebildiği bir saray değildir. Dışarıdan, özellikle Pichola Gölü üzerinde yapılan tekne turlarından, beyaz mermer duvarları, kubbeleri ve teraslarıyla etkileyici biçimde görülebilir. Sarayın gölün ortasındaki konumu, City Palace ve Aravalli Tepeleriyle birlikte Udaipur'un en karakteristik manzaralarından birini oluşturur. Lake Palace'ın ününün artmasında 1983 yılında çekilen James Bond filmi Octopussy'nin de etkisi olmuştur. Günümüzde yapı, konaklama ve özel otel hizmetleri için kullanılan aktif bir tarihi yapıdır. Ziyaretçiler için en uygun deneyimlerden biri gölde tekne turu sırasında sarayı farklı açılardan görmek ve gün batımında fotoğraflamaktır. Lake Palace, Udaipur'un kraliyet geçmişi, göl kültürü ve lüks miras turizminin aynı noktada buluştuğu simgesel yapılardan biridir.",
+      "en": "Lake Palace is a historic palace standing on Jag Niwas island in the middle of Lake Pichola and is one of Udaipur's most recognisable landmarks. Built in white marble, it was constructed between 1743 and 1746 during the reign of Maharana Jagat Singh II as a summer palace. Originally known as Jag Niwas, it served as a retreat for the Mewar royal family on the lake. The palace later passed through different phases and was converted into a heritage hotel in 1963. Today it operates as the Taj Lake Palace, a luxury hotel. For this reason, it is not a conventional museum palace that visitors can freely explore like City Palace. Its white marble walls, domes and terraces can be admired particularly well from boat trips on Lake Pichola. The palace's position on the water, together with the City Palace and the surrounding Aravalli Hills, creates one of Udaipur's most recognisable views. Its international fame was also boosted by the 1983 James Bond film Octopussy. Today, Lake Palace remains an active historic hotel property. For visitors, one of the best ways to experience it is from a boat on Lake Pichola, especially around sunset when the white marble architecture contrasts with the changing colours of the lake. Lake Palace represents the meeting point of Udaipur's royal heritage, lake culture and luxury tourism.",
+      "de": "Der Lake Palace ist ein historischer Palast auf der Insel Jag Niwas mitten im Pichola-See und gehört zu den bekanntesten Wahrzeichen Udaipurs. Das Gebäude aus weißem Marmor wurde zwischen 1743 und 1746 unter Maharana Jagat Singh II als Sommerpalast errichtet. Ursprünglich als Jag Niwas bekannt, diente es der königlichen Familie von Mewar als Rückzugsort auf dem See. Später wurde der Palast mehrfach umgenutzt und 1963 in ein Heritage-Hotel umgewandelt. Heute wird er als luxuriöses Taj Lake Palace Hotel betrieben. Daher handelt es sich nicht um einen klassischen Museumspalast, den Besucher frei besichtigen können. Besonders eindrucksvoll lässt sich der Palast von Booten auf dem Pichola-See aus betrachten. Seine weißen Marmorfassaden, Kuppeln und Terrassen bilden zusammen mit dem City Palace und den Aravalli-Bergen eines der bekanntesten Stadtbilder Udaipurs. Internationale Bekanntheit erlangte der Palast unter anderem durch den James-Bond-Film Octopussy aus dem Jahr 1983. Heute ist der Lake Palace weiterhin ein aktives historisches Hotel. Eine der besten Möglichkeiten für Besucher, das Bauwerk zu erleben, ist eine Bootsfahrt auf dem Pichola-See, besonders zum Sonnenuntergang. Der Lake Palace verbindet auf eindrucksvolle Weise das königliche Erbe Udaipurs mit der Kultur des Sees und dem Luxus-Hoteltourismus."
     },
     "activities": {
       "tr": [
-        "Tekne turu ile sarayı görmek",
-        "Göl etrafında yürüyüş"
+        "Pichola Gölü'nde tekne turu yapmak",
+        "Lake Palace'ı gölden fotoğraflamak",
+        "Gün batımında saray manzarasını izlemek",
+        "Sarayın beyaz mermer mimarisini incelemek",
+        "Udaipur'un kraliyet mirasını keşfetmek",
+        "Göl çevresindeki tarihi yapıları görmek"
       ],
       "en": [
-        "Take a boat tour to see the palace",
-        "Walk around the lake"
+        "Take a boat ride on Lake Pichola",
+        "Photograph Lake Palace from the water",
+        "Watch the palace at sunset",
+        "Admire its white marble architecture",
+        "Explore Udaipur's royal heritage",
+        "See historic landmarks around the lake"
       ],
       "de": [
-        "Bootstour zum Palast",
-        "Spaziergang rund um den See"
+        "Eine Bootsfahrt auf dem Pichola-See unternehmen",
+        "Den Lake Palace vom Wasser aus fotografieren",
+        "Den Palast bei Sonnenuntergang betrachten",
+        "Die weiße Marmorarchitektur bewundern",
+        "Das königliche Erbe Udaipurs entdecken",
+        "Historische Bauwerke rund um den See sehen"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "saray",
+        "tarih",
+        "kraliyet mirası",
+        "otel",
+        "göl",
+        "mimari",
+        "kültür",
+        "tekne turu",
+        "fotoğrafçılık",
+        "lüks turizm"
       ],
       "en": [
-        "historic"
+        "palace",
+        "history",
+        "royal heritage",
+        "hotel",
+        "lake",
+        "architecture",
+        "culture",
+        "boat tour",
+        "photography",
+        "luxury tourism"
       ],
       "de": [
-        "Historisch"
+        "Palast",
+        "Geschichte",
+        "königliches Erbe",
+        "Hotel",
+        "See",
+        "Architektur",
+        "Kultur",
+        "Bootstour",
+        "Fotografie",
+        "Luxustourismus"
       ]
     },
     "images": [
@@ -138,39 +276,81 @@
       "en": "Jagdish Temple",
       "de": "Jagdish Tempel"
     },
-    "latitude": 24.5859,
-    "longitude": 73.7128,
+    "latitude": 24.5767,
+    "longitude": 73.6838,
     "description": {
-      "tr": "Jagdish Tapınağı, Udaipur’daki en önemli Hindu tapınaklarından biridir. Tapınak, etkileyici taş işçiliği ve dini heykelleri ile ünlüdür.",
-      "en": "Jagdish Temple is one of the most important Hindu temples in Udaipur. The temple is famous for its impressive stone carvings and religious statues.",
-      "de": "Der Jagdish-Tempel ist einer der wichtigsten Hindu-Tempel in Udaipur. Der Tempel ist berühmt für seine beeindruckenden Steinmetzarbeiten und religiösen Statuen."
+      "tr": "Jagdish Temple, Udaipur'un tarihi merkezindeki en önemli Hindu tapınaklarından biridir ve Vishnu'ya adanmıştır. Günümüzde görülen tapınak 1651 yılında Maharana Jagat Singh I döneminde inşa edilmiş olup Indo-Aryan mimarisinin etkileyici bir örneğidir. Tapınağa ulaşmak için yükselen merdivenler kullanılır ve giriş bölümünde taş işçiliğiyle süslenmiş fil figürleri dikkat çeker. Ana tapınak yapısının yüksek şikhara kulesi, ayrıntılı taş kabartmaları ve tanrısal figürleri yapının en belirgin özellikleri arasındadır. Tapınağın ana bölümünde Vishnu'nun siyah taş heykeli bulunurken, kompleks içinde Shiva, Ganesha, Shakti ve Surya'ya adanmış daha küçük tapınaklar da yer alır. Jagdish Temple günümüzde de aktif bir ibadet alanıdır ve gün boyunca yerel halk ile hacılar tarafından ziyaret edilir. Sabah saatlerinde gerçekleştirilen aarti gibi dini törenler, tapınağın yaşayan dini karakterini gözlemlemek isteyen ziyaretçiler için dikkat çekici olabilir. Ancak buranın aktif bir ibadet alanı olması nedeniyle ziyaretçilerin uygun kıyafet giymesi, dini törenlere müdahale etmemesi ve fotoğraf kurallarına uyması gerekir. City Palace'a yakın konumu sayesinde Jagdish Temple, Udaipur'un tarihi merkezini gezerken kolayca rotaya eklenebilir. Tapınağın ayrıntılı taş oymaları, sütunları, tavan süslemeleri ve heykelleri özellikle mimariye ve Hint dini sanatına ilgi duyanlar için değerlidir.",
+      "en": "Jagdish Temple is one of the most important Hindu temples in the historic centre of Udaipur and is dedicated to Vishnu. The present temple was built in 1651 during the reign of Maharana Jagat Singh I and is an impressive example of Indo-Aryan architectural traditions. Visitors reach the temple by climbing a flight of steps, where carved stone elephant figures can be seen near the entrance. The tall shikhara tower, intricate stone carvings and sculpted religious figures are among the temple's most distinctive features. The main shrine houses a black stone image of Vishnu, while smaller shrines within the complex are dedicated to Shiva, Ganesha, Shakti and Surya. Jagdish Temple remains an active place of worship and is visited throughout the day by local worshippers and pilgrims. Morning aarti ceremonies can provide an opportunity to observe the living religious traditions of the temple, provided visitors behave respectfully. Because the temple remains an active religious site, visitors should dress appropriately, avoid disrupting ceremonies and follow local rules concerning photography. Its location near City Palace makes Jagdish Temple an easy addition to a walking route through historic Udaipur. The detailed stone carvings, pillars, ceilings and religious sculptures are particularly rewarding for travellers interested in architecture and Indian religious art.",
+      "de": "Der Jagdish-Tempel gehört zu den wichtigsten hinduistischen Tempeln im historischen Zentrum Udaipurs und ist Vishnu gewidmet. Der heutige Tempel wurde 1651 unter Maharana Jagat Singh I errichtet und gilt als eindrucksvolles Beispiel indoarischer Architekturtraditionen. Zum Tempel führt eine Treppe hinauf, an deren Eingang kunstvoll gearbeitete steinerne Elefantenfiguren auffallen. Der hohe Shikhara-Turm, die detaillierten Steinreliefs und die religiösen Skulpturen gehören zu den charakteristischsten Elementen des Bauwerks. Im Hauptheiligtum befindet sich ein schwarzes Vishnu-Bildnis, während kleinere Schreine im Komplex Shiva, Ganesha, Shakti und Surya gewidmet sind. Der Jagdish-Tempel ist weiterhin ein aktiver Gebetsort und wird von Einheimischen und Pilgern besucht. Die morgendliche Aarti-Zeremonie bietet bei respektvollem Verhalten einen Einblick in die lebendige religiöse Tradition des Tempels. Da es sich um einen aktiven religiösen Ort handelt, sollten Besucher angemessene Kleidung tragen, Zeremonien nicht stören und die örtlichen Regeln zur Fotografie beachten. Dank seiner Nähe zum City Palace lässt sich der Jagdish-Tempel problemlos in einen Rundgang durch das historische Udaipur integrieren. Die detaillierten Steinmetzarbeiten, Säulen, Decken und religiösen Skulpturen sind besonders für Besucher interessant, die sich für Architektur und indische religiöse Kunst interessieren."
     },
     "activities": {
       "tr": [
-        "Tapınak ziyaretleri",
-        "Taş işçiliğini incelemek"
+        "Tapınağı ziyaret etmek",
+        "Vishnu'ya adanmış ibadet geleneğini tanımak",
+        "Taş oymalarını incelemek",
+        "Şikhara kulesini görmek",
+        "Dini ritüelleri gözlemlemek",
+        "Sabah aarti törenini izlemek",
+        "Hint dini sanatını keşfetmek",
+        "City Palace ile birlikte tarihi yürüyüş yapmak"
       ],
       "en": [
-        "Temple visits",
-        "Admire the stone carvings"
+        "Visit the temple",
+        "Learn about Vishnu worship traditions",
+        "Admire the stone carvings",
+        "See the shikhara tower",
+        "Observe religious traditions",
+        "Watch the morning aarti",
+        "Explore Indian religious art",
+        "Combine the visit with a City Palace walk"
       ],
       "de": [
-        "Tempelbesuche",
-        "Bestaunen Sie die Steinmetzarbeiten"
+        "Den Tempel besuchen",
+        "Traditionen der Vishnu-Verehrung kennenlernen",
+        "Die Steinmetzarbeiten betrachten",
+        "Den Shikhara-Turm sehen",
+        "Religiöse Traditionen beobachten",
+        "Die morgendliche Aarti-Zeremonie erleben",
+        "Indische religiöse Kunst entdecken",
+        "Den Besuch mit einem Rundgang zum City Palace verbinden"
       ]
     },
     "categories": {
       "tr": [
         "tapınak",
-        "anıtsal yapı"
+        "Hinduizm",
+        "Vishnu",
+        "din",
+        "tarih",
+        "mimari",
+        "kültür",
+        "dini miras",
+        "hac",
+        "fotoğrafçılık"
       ],
       "en": [
         "temple",
-        "monumental structure"
+        "Hinduism",
+        "Vishnu",
+        "religion",
+        "history",
+        "architecture",
+        "culture",
+        "religious heritage",
+        "pilgrimage",
+        "photography"
       ],
       "de": [
         "Tempel",
-        "monumentale Struktur"
+        "Hinduismus",
+        "Vishnu",
+        "Religion",
+        "Geschichte",
+        "Architektur",
+        "Kultur",
+        "religiöses Erbe",
+        "Pilgerstätte",
+        "Fotografie"
       ]
     },
     "images": [
@@ -184,36 +364,81 @@
       "en": "Saheliyon-ki-Bari",
       "de": "Saheliyon-ki-Bari"
     },
-    "latitude": 24.585,
-    "longitude": 73.7141,
+    "latitude": 24.6035,
+    "longitude": 73.677,
     "description": {
-      "tr": "Saheliyon-ki-Bari, Udaipur’daki tarihi bir bahçedir. Bu bahçe, Mughal tarzı tasarımı ve su fıskiyeleriyle ünlüdür.",
-      "en": "Saheliyon-ki-Bari is a historic garden in Udaipur. The garden is famous for its Mughal-style design and water fountains.",
-      "de": "Saheliyon-ki-Bari ist ein historischer Garten in Udaipur. Der Garten ist bekannt für sein Mughal-Stil-Design und die Wasserbrunnen."
+      "tr": "Saheliyon-ki-Bari, Udaipur'un kuzeyinde, Fateh Sagar Gölü yakınında bulunan tarihi bir kraliyet bahçesidir. Adı 'Genç Kadınların Bahçesi' veya 'Hizmetçi Kızların Bahçesi' anlamında kullanılan bahçe, 18. yüzyılda Maharana Sangram Singh tarafından kraliçe ve beraberindeki kadınlar için sakin bir dinlenme alanı olarak yaptırılmıştır. Bahçe, Rajasthan'ın saray kültüründe doğa, su ve mimarinin nasıl bir araya getirildiğini gösteren zarif örneklerden biridir. Düzenlenmiş çimler, gölgeli ağaçlık alanlar, mermer pavyonlar, lotus havuzları ve çeşitli çeşmeler bahçenin temel unsurlarını oluşturur. Özellikle yağmur çeşmeleri ve su düzenekleri, bahçenin en dikkat çekici özellikleri arasında yer alır. Rajasthan'ın sıcak ikliminde suyun bahçe tasarımının merkezinde kullanılması hem estetik hem de işlevsel bir unsur oluşturmuştur. Bahçede ayrıca mermer fil heykelleri, küçük yapılar ve koleksiyonların sergilendiği bir müze bölümü bulunur. Saheliyon-ki-Bari, City Palace gibi görkemli saraylardan farklı olarak daha sakin ve peyzaj odaklı bir kraliyet mirası deneyimi sunar. Ziyaretçiler burada bahçe yollarında yürüyebilir, çeşmeleri ve lotus havuzlarını inceleyebilir ve mermer süslemeleri fotoğraflayabilir. Fateh Sagar Gölü çevresindeki diğer noktalarla birlikte değerlendirildiğinde Udaipur'un saray yaşamını yalnızca büyük yapılar üzerinden değil, kraliyet bahçeleri ve dinlenme alanları üzerinden de anlamaya yardımcı olur. Bahçenin düzeni, su unsurları ve mimari ayrıntıları özellikle fotoğrafçılık ve sakin bir şehir gezisi için uygundur.",
+      "en": "Saheliyon-ki-Bari is a historic royal garden in northern Udaipur, close to Fateh Sagar Lake. Its name is commonly translated as the 'Garden of the Maidens', and the garden was built in the 18th century by Maharana Sangram Singh as a peaceful retreat for the queen and her female companions. It is an elegant example of how nature, water and architecture were combined within the royal culture of Rajasthan. Manicured lawns, shaded groves, marble pavilions, lotus pools and fountains form the main elements of the garden. Its fountains and water features are among its most distinctive attractions. In the hot climate of Rajasthan, water was an important part of garden design, serving both aesthetic and practical purposes. The complex also includes marble elephant sculptures, small architectural structures and a museum area. Unlike the grand palace experience offered by City Palace, Saheliyon-ki-Bari provides a quieter and more landscape-focused encounter with Udaipur's royal heritage. Visitors can walk along the garden paths, admire the fountains and lotus pools and photograph the marble details. Combined with other attractions around Fateh Sagar Lake, the garden helps visitors understand Udaipur's royal culture not only through monumental palaces but also through gardens and private leisure spaces. Its landscaped setting, water features and architectural details make it particularly suitable for a relaxed visit and photography.",
+      "de": "Saheliyon-ki-Bari ist ein historischer königlicher Garten im Norden Udaipurs in der Nähe des Fateh-Sagar-Sees. Der Name wird häufig als „Garten der Jungfrauen“ oder „Garten der Hofdamen“ übersetzt. Der Garten wurde im 18. Jahrhundert von Maharana Sangram Singh als ruhiger Rückzugsort für die Königin und ihre weiblichen Begleiterinnen angelegt. Er ist ein elegantes Beispiel dafür, wie Natur, Wasser und Architektur in der königlichen Kultur Rajasthans miteinander verbunden wurden. Gepflegte Rasenflächen, schattige Baumgruppen, Marmorpavillons, Lotusteiche und zahlreiche Brunnen prägen die Anlage. Besonders die Brunnen und Wasserelemente gehören zu den auffälligsten Merkmalen des Gartens. Im heißen Klima Rajasthans spielte Wasser bei der Gartengestaltung sowohl eine ästhetische als auch eine praktische Rolle. Zur Anlage gehören außerdem Marmorelefanten, kleinere architektonische Elemente und ein Museumsbereich. Im Gegensatz zum monumentalen Erlebnis des City Palace bietet Saheliyon-ki-Bari einen ruhigeren und stärker auf Landschaftsgestaltung ausgerichteten Einblick in das königliche Erbe Udaipurs. Besucher können durch die Gartenwege spazieren, Brunnen und Lotusteiche betrachten und die Marmorarbeiten fotografieren. Zusammen mit den Sehenswürdigkeiten rund um den Fateh-Sagar-See vermittelt der Garten ein umfassenderes Bild der königlichen Kultur Udaipurs, die nicht nur aus Palästen, sondern auch aus Gärten und privaten Rückzugsorten bestand. Die Landschaftsgestaltung, Wasserelemente und architektonischen Details machen den Ort besonders für einen entspannten Besuch und für Fotografie interessant."
     },
     "activities": {
       "tr": [
-        "Bahçede yürüyüş yapmak",
-        "Su fıskiyelerini izlemek"
+        "Tarihi bahçede yürümek",
+        "Çeşmeleri ve su düzeneklerini görmek",
+        "Lotus havuzlarını keşfetmek",
+        "Mermer fil heykellerini incelemek",
+        "Mermer pavyonları görmek",
+        "Bahçeyi fotoğraflamak",
+        "Kraliyet bahçeciliği hakkında bilgi edinmek",
+        "Fateh Sagar Gölü çevresini keşfetmek"
       ],
       "en": [
-        "Take a walk in the garden",
-        "Admire the water fountains"
+        "Walk through the historic garden",
+        "See the fountains and water features",
+        "Explore the lotus pools",
+        "Admire the marble elephant sculptures",
+        "Visit the marble pavilions",
+        "Photograph the garden",
+        "Learn about royal garden design",
+        "Explore the area around Fateh Sagar Lake"
       ],
       "de": [
-        "Spaziergang im Garten",
-        "Die Wasserbrunnen bewundern"
+        "Durch den historischen Garten spazieren",
+        "Brunnen und Wasserelemente betrachten",
+        "Die Lotusteiche erkunden",
+        "Die Marmorelefanten bewundern",
+        "Die Marmorpavillons sehen",
+        "Den Garten fotografieren",
+        "Mehr über königliche Gartengestaltung erfahren",
+        "Die Umgebung des Fateh-Sagar-Sees erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "genel"
+        "tarihi bahçe",
+        "kraliyet mirası",
+        "bahçe",
+        "doğa",
+        "mimari",
+        "tarih",
+        "kültür",
+        "su yapıları",
+        "fotoğrafçılık",
+        "şehir gezisi"
       ],
       "en": [
-        "general"
+        "historic garden",
+        "royal heritage",
+        "garden",
+        "nature",
+        "architecture",
+        "history",
+        "culture",
+        "water features",
+        "photography",
+        "city sightseeing"
       ],
       "de": [
-        "Allgemein"
+        "historischer Garten",
+        "königliches Erbe",
+        "Garten",
+        "Natur",
+        "Architektur",
+        "Geschichte",
+        "Kultur",
+        "Wasserelemente",
+        "Fotografie",
+        "Stadtrundgang"
       ]
     },
     "images": [

@@ -1,88 +1,163 @@
 [
   {
-    "slug": "ploie-ti-tarihi-merkez",
+    "slug": "ploiesti-tarihi-merkez",
     "name": {
-      "tr": "Ploiești Tarihi Merkez",
-      "en": "Ploiești Old Town",
-      "de": "Ploiești Altstadt"
+      "tr": "Ploiești Tarihi Merkezi",
+      "en": "Ploiești Historic Center",
+      "de": "Historisches Zentrum von Ploiești"
     },
-    "latitude": 44.9384,
-    "longitude": 26.0303,
+    "latitude": 44.93941,
+    "longitude": 26.02335,
     "description": {
-      "tr": "Ploiești, tarihi binaları ve eski sokakları ile ünlü bir şehirdir. Şehir merkezinde gezinerek bu tarihi atmosferi keşfedin.",
-      "en": "Ploiești is a city famous for its historic buildings and old streets. Explore the city center to experience its historical atmosphere.",
-      "de": "Ploiești ist eine Stadt, die für ihre historischen Gebäude und alten Straßen bekannt ist. Erkunden Sie das Stadtzentrum, um die historische Atmosphäre zu erleben."
+      "tr": "Ploiești Tarihi Merkezi, Romanya'nın Prahova bölgesindeki şehrin tarihini, mimarisini ve kültürel kimliğini keşfetmek için yürüyerek gezilebilecek merkezi bir bölgedir. Şehir, 19. ve 20. yüzyıllarda özellikle petrol endüstrisinin gelişmesiyle büyümüş ve bu dönemlerden günümüze ulaşan çok sayıda tarihi yapı kazanmıştır. Tarihi merkez çevresinde Piața Victoriei, Bulevardul Republicii ve Bulevardul Independenței gibi önemli kentsel akslar bulunur. Bulevardul Independenței, tarihi villalar ve yaşlı kestane ağaçlarıyla karakterize edilen önemli bir şehir yürüyüş güzergâhıdır. Merkezdeki yapılarda Neo-Romen, Neoklasik, Art Nouveau ve savaşlar arası dönem mimarisinin farklı örnekleri görülebilir. Palatul Culturii, Halele Centrale, Prahova İl Sanat Müzesi, Nicolae Simache Saat Müzesi ve Prahova Tarih ve Arkeoloji Müzesi gibi kültürel noktalar şehir merkezindeki geziyi zenginleştirir. Ploiești'nin tarihi dokusu yalnızca büyük anıtsal yapılardan oluşmaz; eski konaklar, kamu binaları, meydanlar ve ticari yapılar da şehrin geçmişini yansıtır. Özellikle şehir merkezinde yürürken farklı dönemlere ait yapıların cephelerini incelemek, Ploiești'nin 19. yüzyıl sonundan savaşlar arası döneme uzanan şehirleşme sürecini anlamaya yardımcı olur. Bölge aynı zamanda kent fotoğrafçılığı için de uygundur. Tarihi binaların cepheleri, geniş bulvarlar, meydanlar ve anıtlar farklı açılardan fotoğraflanabilir. Ploiești'yi keşfetmek isteyenler için tarihi merkez, müzelerle birlikte değerlendirildiğinde şehrin kültürel ve mimari karakterini tanımak için en iyi başlangıç noktalarından biridir.",
+      "en": "The Historic Center of Ploiești is a central area that can be explored on foot and offers an introduction to the city's history, architecture and cultural identity in Romania's Prahova region. Ploiești expanded significantly during the 19th and 20th centuries, particularly with the development of the oil industry, and many historic buildings from these periods remain part of the urban landscape. Important urban routes around the historic center include Piața Victoriei, Bulevardul Republicii and Bulevardul Independenței. Bulevardul Independenței is a notable walking route characterized by historic villas and mature chestnut trees. The city center contains examples of Neo-Romanian, Neoclassical, Art Nouveau and interwar architecture. Landmarks such as the Palace of Culture, Central Market Halls, the Prahova County Art Museum, the Nicolae Simache Clock Museum and the Prahova County Museum of History and Archaeology add cultural depth to a city-center visit. Ploiești's historic character is not limited to monumental buildings; former residences, public buildings, squares and commercial structures also reflect the city's development. Walking through the central streets provides an opportunity to examine façades from different periods and understand how Ploiești developed from the late 19th century into the interwar era. The area is also well suited to urban photography, with historic façades, broad boulevards, squares and monuments providing a variety of subjects. For travelers exploring Ploiești, the historic center is an excellent starting point, especially when combined with visits to the city's museums and architectural landmarks.",
+      "de": "Das historische Zentrum von Ploiești ist ein zentraler Bereich, der sich gut zu Fuß erkunden lässt und einen Einblick in die Geschichte, Architektur und kulturelle Identität der Stadt in der rumänischen Region Prahova bietet. Ploiești entwickelte sich im 19. und 20. Jahrhundert besonders stark mit dem Aufstieg der Erdölindustrie und bewahrt zahlreiche historische Gebäude aus dieser Zeit. Zu den wichtigen städtischen Achsen rund um das historische Zentrum gehören die Piața Victoriei, der Bulevardul Republicii und der Bulevardul Independenței. Der Bulevardul Independenței ist eine bedeutende Promenade mit historischen Villen und alten Kastanienbäumen. Im Stadtzentrum finden sich Beispiele der neorumänischen, neoklassizistischen, Jugendstil- und Zwischenkriegsarchitektur. Sehenswürdigkeiten wie der Kulturpalast, die Zentralmarkthallen, das Kunstmuseum des Kreises Prahova, das Nicolae-Simache-Uhrenmuseum und das Geschichts- und Archäologiemuseum des Kreises Prahova ergänzen den Rundgang. Das historische Stadtbild von Ploiești besteht nicht nur aus monumentalen Gebäuden; auch ehemalige Wohnhäuser, öffentliche Gebäude, Plätze und Geschäftshäuser spiegeln die Entwicklung der Stadt wider. Bei einem Spaziergang durch die zentralen Straßen können Besucher Fassaden aus verschiedenen Epochen betrachten und die städtebauliche Entwicklung vom späten 19. Jahrhundert bis zur Zwischenkriegszeit nachvollziehen. Das Zentrum eignet sich außerdem gut für Stadtfotografie, da historische Fassaden, breite Boulevards, Plätze und Denkmäler zahlreiche Motive bieten. Für Reisende, die Ploiești kennenlernen möchten, ist das historische Zentrum ein guter Ausgangspunkt, besonders in Verbindung mit den Museen und architektonischen Sehenswürdigkeiten der Stadt."
     },
     "activities": {
       "tr": [
-        "Tarihi şehirde gezme",
-        "Eski binaları keşfetme"
+        "Tarihi şehir merkezinde yürüyüş yapma",
+        "Piața Victoriei'yi keşfetme",
+        "Bulevardul Republicii boyunca gezme",
+        "Bulevardul Independenței'ni keşfetme",
+        "Tarihi binaların mimarisini inceleme",
+        "Palatul Culturii'ni görme",
+        "Halele Centrale'yi görme",
+        "Şehir anıtlarını keşfetme",
+        "Kent fotoğrafçılığı yapma",
+        "Müzeleri ziyaret etme"
       ],
       "en": [
-        "Explore the historic city",
-        "Discover the old buildings"
+        "Walk through the historic center",
+        "Explore Piața Victoriei",
+        "Walk along Bulevardul Republicii",
+        "Explore Bulevardul Independenței",
+        "Admire historic architecture",
+        "See the Palace of Culture",
+        "See the Central Market Halls",
+        "Discover the city's monuments",
+        "Take urban photographs",
+        "Visit the museums"
       ],
       "de": [
-        "Die historische Stadt erkunden",
-        "Die alten Gebäude entdecken"
+        "Durch das historische Zentrum spazieren",
+        "Die Piața Victoriei erkunden",
+        "Am Bulevardul Republicii entlanggehen",
+        "Den Bulevardul Independenței entdecken",
+        "Historische Architektur betrachten",
+        "Den Kulturpalast sehen",
+        "Die Zentralmarkthallen sehen",
+        "Die Denkmäler der Stadt entdecken",
+        "Stadtfotografie machen",
+        "Die Museen besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarih",
+        "mimari",
+        "kültür",
+        "şehir",
+        "fotoğraf",
+        "yürüyüş"
       ],
       "en": [
-        "historic square"
+        "history",
+        "architecture",
+        "culture",
+        "city",
+        "photography",
+        "walking"
       ],
       "de": [
-        "historischer Platz"
+        "geschichte",
+        "architektur",
+        "kultur",
+        "stadt",
+        "fotografie",
+        "spaziergang"
       ]
     },
     "images": [
-      "https://example.com/ploiesti_old_town.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/BancaRomaneasca-5.JPG/760px-Mapcarta.jpg"
     ]
   },
   {
-    "slug": "muzeul-ceasului",
+    "slug": "muzeul-ceasului-nicolae-simache",
     "name": {
-      "tr": "Muzeul Ceasului",
-      "en": "The Clock Museum",
-      "de": "Das Uhrmuseum"
+      "tr": "Nicolae Simache Saat Müzesi",
+      "en": "Nicolae Simache Clock Museum",
+      "de": "Uhrenmuseum Nicolae Simache"
     },
-    "latitude": 44.9465,
-    "longitude": 26.0305,
+    "latitude": 44.93622,
+    "longitude": 26.02699,
     "description": {
-      "tr": "Muzeul Ceasului, saat koleksiyonlarıyla ünlü bir müzedir ve Ploiești'nin tarihi hakkında bilgi edinmek için mükemmel bir yerdir.",
-      "en": "The Clock Museum is famous for its clock collections and is a great place to learn about the history of Ploiești.",
-      "de": "Das Uhrmuseum ist berühmt für seine Uhrensammlungen und ein großartiger Ort, um mehr über die Geschichte von Ploiești zu erfahren."
+      "tr": "Nicolae Simache Saat Müzesi, Ploiești'de saatçilik ve zaman ölçümünün tarihine adanmış özgün bir müzedir. Müze, 20. yüzyılın başlarında inşa edilmiş Neo-Gotik bir tarihi yapıda, eski vali Luca Elefterescu'nun konutunda faaliyet göstermektedir. Müze 1960'lı yıllarda tarihçi ve koleksiyoncu Nicolae Simache'nin girişimleriyle oluşturulmuş ve zaman içinde Romanya'nın en dikkat çekici saat koleksiyonlarından birini geliştirmiştir. Koleksiyonda 4.000'den fazla miras eseri bulunur ve farklı dönemlere ait güneş saatleri, su ve kum saatleri, mekanik saatler, cep saatleri, masa saatleri, duvar saatleri, seyahat saatleri, kronometreler ve kule saatlerine ait mekanizmalar görülebilir. Koleksiyon yalnızca saatlerden oluşmaz; saatçilik teknolojisinin gelişimini, farklı dönemlerin estetik anlayışını ve zaman ölçümünde kullanılan çeşitli mekanizmaları da gösterir. Bazı eserlerde altın, bronz, fildişi ve değerli ahşap gibi farklı malzemelerin kullanıldığı görülür. Sergiler arasında Avrupa'nın önemli saat ustaları tarafından üretilmiş tarihi örneklerin yanı sıra Romanya'nın Transilvanya ve diğer bölgelerindeki saatçilik geleneğini yansıtan eserler de bulunur. Müze binasının kendisi de ziyaretin önemli bir parçasıdır. Neo-Gotik cephe, yüksek pencereler, dekoratif ayrıntılar ve tarihi iç mekânlar koleksiyonun atmosferini tamamlar. Ploiești'nin Bulevardul Independenței ve tarihi merkezine yakın konumu sayesinde müze, şehir yürüyüşü sırasında kolayca ziyaret edilebilir. Saatlere, mekanik sistemlere, teknoloji tarihine veya tarihi mimariye ilgi duyanlar için farklı ve detaylı bir müze deneyimi sunar. Fotoğraf açısından da özellikle dış cephe ve tarihi saat mekanizmaları dikkat çekici görüntüler oluşturabilir.",
+      "en": "The Nicolae Simache Clock Museum is a distinctive museum in Ploiești dedicated to the history of clocks, timekeeping and horological craftsmanship. It operates in a historic Neo-Gothic building dating from the early 20th century, formerly the residence of Luca Elefterescu. The museum was established in the 1960s through the efforts of historian and collector Nicolae Simache and gradually developed one of Romania's notable collections of timepieces. Its holdings contain more than 4,000 heritage objects, including sundials, water and sand clocks, mechanical clocks, pocket watches, table clocks, wall clocks, travel clocks, chronometers and tower-clock mechanisms from different periods. The collection illustrates not only the development of clockmaking technology but also changing artistic styles and the different mechanisms used to measure time. Some pieces incorporate materials such as gold, bronze, ivory and fine woods. The displays include historic examples made by important European clockmakers as well as objects representing the clockmaking traditions of Romania and Transylvania. The museum building itself is an important part of the visit. Its Neo-Gothic façade, tall windows, decorative details and historic interiors provide an appropriate setting for the collection. Because of its location close to Bulevardul Independenței and Ploiești's central area, the museum can easily be included in a walking tour of the city. It offers an unusual museum experience for visitors interested in clocks, mechanical systems, technological history or historic architecture. The building's exterior and intricate clock mechanisms also provide interesting subjects for photography.",
+      "de": "Das Nicolae-Simache-Uhrenmuseum in Ploiești ist ein außergewöhnliches Museum, das der Geschichte der Uhren, der Zeitmessung und des Uhrmacherhandwerks gewidmet ist. Es befindet sich in einem historischen neugotischen Gebäude aus dem frühen 20. Jahrhundert, dem ehemaligen Wohnhaus von Luca Elefterescu. Das Museum entstand in den 1960er Jahren auf Initiative des Historikers und Sammlers Nicolae Simache und entwickelte im Laufe der Zeit eine der bemerkenswerten Uhrensammlungen Rumäniens. Die Sammlung umfasst mehr als 4.000 Kulturgüter, darunter Sonnenuhren, Wasser- und Sanduhren, mechanische Uhren, Taschenuhren, Tischuhren, Wanduhren, Reiseuhren, Chronometer und Uhrwerke von Turmuhren aus verschiedenen Epochen. Die Ausstellung zeigt nicht nur die technische Entwicklung der Uhrmacherei, sondern auch die wechselnden Stilrichtungen und unterschiedlichen Mechanismen zur Zeitmessung. Bei einigen Exponaten wurden Materialien wie Gold, Bronze, Elfenbein und edle Hölzer verwendet. Zu den Beständen gehören historische Arbeiten bedeutender europäischer Uhrmacher sowie Stücke, die die Uhrmachertraditionen Rumäniens und Siebenbürgens widerspiegeln. Auch das Museumsgebäude selbst ist sehenswert. Die neugotische Fassade, hohen Fenster, dekorativen Details und historischen Innenräume bilden einen passenden Rahmen für die Sammlung. Dank der Lage nahe dem Bulevardul Independenței und dem Stadtzentrum lässt sich das Museum gut in einen Rundgang durch Ploiești integrieren. Es bietet ein besonderes Museumserlebnis für Besucher, die sich für Uhren, mechanische Systeme, Technikgeschichte oder historische Architektur interessieren. Auch die Außenfassade und die detaillierten Uhrwerke bieten interessante Motive für die Fotografie."
     },
     "activities": {
       "tr": [
-        "Saat koleksiyonlarını inceleme",
-        "Müzeyi gezme"
+        "Saat koleksiyonunu inceleme",
+        "Tarihi saat mekanizmalarını keşfetme",
+        "Güneş ve su saatlerini görme",
+        "Cep ve masa saatlerini inceleme",
+        "Kule saati mekanizmalarını keşfetme",
+        "Neo-Gotik müze binasını inceleme",
+        "Saatçilik tarihini öğrenme",
+        "Tarihi eserleri fotoğraflama",
+        "Müze koleksiyonlarını keşfetme"
       ],
       "en": [
-        "Examine the clock collections",
-        "Tour the museum"
+        "Explore the clock collection",
+        "Discover historic clock mechanisms",
+        "See sundials and water clocks",
+        "Examine pocket and table clocks",
+        "Explore tower-clock mechanisms",
+        "Admire the Neo-Gothic museum building",
+        "Learn about the history of clockmaking",
+        "Photograph historic objects",
+        "Explore the museum collections"
       ],
       "de": [
-        "Die Uhrensammlungen untersuchen",
-        "Das Museum besichtigen"
+        "Die Uhrensammlung erkunden",
+        "Historische Uhrwerke entdecken",
+        "Sonnen- und Wasseruhren sehen",
+        "Taschen- und Tischuhren betrachten",
+        "Turmuhrwerke entdecken",
+        "Das neugotische Museumsgebäude bewundern",
+        "Die Geschichte der Uhrmacherei kennenlernen",
+        "Historische Exponate fotografieren",
+        "Die Museumssammlungen erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "tarih",
+        "bilim ve teknoloji",
+        "mimari",
+        "kültür",
+        "fotoğraf"
       ],
       "en": [
-        "museum"
+        "museum",
+        "history",
+        "science and technology",
+        "architecture",
+        "culture",
+        "photography"
       ],
       "de": [
-        "museum"
+        "museum",
+        "geschichte",
+        "wissenschaft und technik",
+        "architektur",
+        "kultur",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/muzeul_ceasului.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/RO_PH_Ploiesti_clock_museum_1.jpg/1280px-RO_PH_Ploiesti_clock_museum_1.jpg"
     ]
   }
 ]

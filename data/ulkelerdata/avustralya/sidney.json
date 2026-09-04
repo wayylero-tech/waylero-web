@@ -6,21 +6,23 @@
       "en": "Sydney Opera House",
       "de": "Sydney Opernhaus"
     },
-    "latitude": -33.857,
+    "latitude": -33.8568,
     "longitude": 151.2153,
     "description": {
-      "tr": "Sidney Opera Binası, dünyanın en ünlü ve ikonik yapılarından biridir. Eşsiz mimarisi ve dünya çapında kültürel etkinliklere ev sahipliği yapmasıyla dikkat çeker. Hem dış tasarımı hem de iç mekanları ile büyüleyici bir deneyim sunar.",
-      "en": "Sydney Opera House is one of the world’s most famous and iconic structures. It attracts attention for its unique architecture and the cultural events it hosts. The building offers a captivating experience both inside and out.",
+      "tr": "Sidney Opera Binası, Avustralya'nın en simgesel yapısı ve 20. yüzyıl modern mimarisinin tüm dünyada kabul gören en radikal başyapıtlarından biridir. Sidney Limanı'nın büyüleyici sularına doğru uzanan tarihi Bennelong Point yarımadasında konumlanan bu devasa yapı, 2007 yılında UNESCO Dünya Mirası Listesi'ne dahil edilmiştir. Danimarkalı dahi mimar Jørn Utzon tarafından tasarlanan yapı, 1957 yılında uluslararası bir mimarlık yarışmasını 230'dan fazla rakibini geride bırakarak kazanmıştır. Ancak binanın tasarımı ve inşaat süreci, mimarlık ve mühendislik tarihinin en çalkantılı ve ilginç hikayelerinden birine sahne olmuştur. Limanda süzülen devasa yelkenleri veya beyaz deniz kabuklarını andıran karakteristik çatı strüktürünün inşası, dönemin mevcut mühendislik teknolojilerinin sınırlarını aşırı derecede zorlamıştır. Yıllar süren karmaşık matematiksel hesaplamaların ardındanUtzon, küresel çözüm olarak adlandırılan yöntemle tüm çatı kabuklarının tek bir küre yüzeyinden kesilen parçalarla üretilebileceğini keşfetmiş ve bu sayede prefabrik beton elemanların montajı mümkün kılınmıştır. Bütçe aşımları ve siyasi baskılar nedeniyle Jørn Utzon 1966 yılında projeden istifa edip Avustralya'yı terk etmek zorunda kalmış, iç mekanlar Avustralyalı bir mimarlık ekibi tarafından tamamlanmıştır. İnşaatı 14 yıl süren yapı, 20 Ekim 1973 tarihinde Kraliçe II. Elizabeth tarafından resmi törenle hizmete açılmıştır. Yapının dış yüzeyi, İsveç'ten özel olarak getirtilen ve kendi kendini temizleme özelliğine sahip 1 milyon 56 bin adet mat ve parlak seramik karoyla kaplanmıştır. Binasının içinde devasa konser salonu (Concert Hall), drama tiyatrosu, opera tiyatrosu ve stüdyolar da dahil olmak üzere toplam yedi ayrı performans mekanı yer almaktadır. Dünyanın en büyük mekanik orglarından birine ev sahipliği yapan ana konser salonu, akustiğiyle dünya çapındaki senfoni orkestralarını büyülemektedir. Büyüleyici dış mimarisinin yanı sıra limana bakan terasları, restoranları ve şık barlarıyla sosyal yaşamın kalbinin attığı devasa bir alandır. Her yıl 10 milyondan fazla ziyaretçi ağırlayan bu küresel kültür simgesi, sadece bir sanat merkezi değil, aynı zamanda çağdaş Avustralya'nın uluslararası kimliğini ve yaratıcı gücünü temsil eden en önemli simgedir.",
+      "en": "The Sydney Opera House stands as Australia's most universally recognized architectural icon and one of the most celebrated masterworks of 20th-century modern design. Dominating the waters of Port Jackson on historic Bennelong Point, this magnificent performing arts complex was formally inscribed on the UNESCO World Heritage list in 2007. The story of its creation began in 1956 when the New South Wales government launched an international design competition that attracted 233 submissions from around the globe. The winning entry belonged to visionary Danish architect Jørn Utzon, whose conceptual sketches featured dramatic, sculptural roof shells reminiscent of soaring yacht sails or interlocking sea shells drifting across the harbor. However, turning Utzon's groundbreaking organic vision into a physical structure proved to be one of the most daunting engineering sagas of modern history. The complex geometry of the roof shells baffled engineers for years until Utzon devised a brilliant 'spherical solution', realizing that all shell segments could be cast from the uniform geometry of a single theoretical sphere. Severe political disputes, skyrocketing costs, and engineering delays eventually forced Utzon to resign from the project in 1966, leaving a team of Australian architects to complete the interior spaces. Following 14 years of challenging construction, the building was officially opened by Queen Elizabeth II on October 20, 1973. The exterior of the shells is clad in more than 1.05 million chevron-patterned Swedish ceramic tiles that gleam against the sunlight and self-clean during rainstorms. Inside, the facility encompasses seven distinct performance venues—including the grand 2,679-seat Concert Hall, home to the world's largest mechanical tracker-action pipe organ—alongside recording studios, exhibition spaces, and waterfront restaurants. Welcoming over 10 million visitors each year, the Sydney Opera House is far more than a venue for opera, ballet, and symphonic music; it is an enduring monument to human imagination, creative risk-taking, and architectural innovation.",
       "de": "Das Sydney Opera House ist eines der bekanntesten und ikonischsten Gebäude der Welt. Es fällt durch seine einzigartige Architektur und die kulturellen Veranstaltungen, die dort stattfinden, auf. Das Gebäude bietet sowohl innen als auch außen ein fesselndes Erlebnis."
     },
     "activities": {
       "tr": [
-        "Opera gösterilerini izlemek",
-        "Bina turu yapmak"
+        "Dünya çapındaki salonlarda opera, bale veya tiyatro gösterilerini izlemek",
+        "Rehberli turlarla mimari yapıyı ve sahne arkasını keşfetmek",
+        "Opera Bar'da liman ve köprü manzarası eşliğinde yemek yemek"
       ],
       "en": [
-        "Watching opera performances",
-        "Taking a tour of the building"
+        "Attending world-class opera, ballet, and orchestral performances",
+        "Taking guided architectural and backstage heritage tours",
+        "Dining at the harborside Opera Bar with views of the Harbour Bridge"
       ],
       "de": [
         "Opernaufführungen sehen",
@@ -29,13 +31,16 @@
     },
     "categories": {
       "tr": [
-        "kültürel etkinlikler"
+        "kültürel etkinlikler",
+        "şehir simgesi"
       ],
       "en": [
-        "cultural events"
+        "cultural events",
+        "city landmark"
       ],
       "de": [
-        "Kulturelle Veranstaltungen"
+        "Kulturelle Veranstaltungen",
+        "Wahrzeichen der Stadt"
       ]
     },
     "images": [
@@ -49,21 +54,23 @@
       "en": "Sydney Harbour Bridge",
       "de": "Sydney Harbour Bridge"
     },
-    "latitude": -33.8486,
+    "latitude": -33.8523,
     "longitude": 151.2108,
     "description": {
-      "tr": "Sidney Limanı Köprüsü, dünyanın en büyük çelik köprülerinden biridir. Yürüyüş yaparak ya da köprü tırmanışı ile harika Sidney manzaralarını keşfetmek mümkündür. Köprüye tırmanış, adrenalini yüksek bir deneyim sunar.",
-      "en": "Sydney Harbour Bridge is one of the world’s largest steel bridges. You can explore stunning views of Sydney by walking or climbing the bridge. The bridge climb offers an adrenaline-filled experience.",
+      "tr": "Sidney Limanı Köprüsü, Avustralya mühendislik tarihinin en görkemli yapılarından biri olup, devasa çelik kemer tasarımı nedeniyle bölge halkı tarafından sevgiyle 'Elbise Askısı' (The Coathanger) olarak adlandırılır. Sidney Kent Merkezi (CBD) ile Kuzey Sahili mahallelerini birbirine bağlayan bu devasa köprü, limanın iki yakasındaki ulaşımı kökten değiştirmiştir. Köprünün inşa edilmesi fikri ilk kez 19. yüzyılın başlarında ortaya çıkmış olsa da, detaylı planlama ünlü Avustralyalı mühendis Dr. John Bradfield liderliğinde 20. yüzyılın başında yapılabilmiştir. İngiliz Dorman Long firması tarafından inşa edilen yapının yapımına 1923-1924 yıllarında başlanmış ve Büyük Buhran'ın en zorlu ekonomik kriz döneminde 1.400'ü aşkın işçiye istihdam sağlamıştır. İnşaatı tam 8 yıl süren ve 19 Mart 1932 tarihinde görkemli bir törenle açılan köprü, toplamda yaklaşık 53.000 ton çelik barındırır ve yapımında 6 milyon adet elle çakılmış perçin kullanılmıştır. Açıldığı dönemde dünyanın en geniş uzun açıklıklı çelik kemer köprüsü olma unvanını kazanan yapı, deniz seviyesinden 134 metre yüksekliğe kadar ulaşır. İskele kurulmadan limanın her iki yakasından karşılıklı inşa edilerek ortada milimetrik hassasiyetle buluşturulan kemerleri, dönemin en büyük mühendislik başarısı olarak kabul edilir. Köprünün her iki ucunda yer alan ve granit kaplamayla dekore edilen devasa beton pilonlar (ayaklar) yapıya estetik bir ağırlık kazandırır. Günümüzde üzerinden sekiz şeritli karayolu, iki tren hattı, bisiklet yolu ve yaya kaldırımı geçmekte, günde 160 binden fazla araca geçiş sağlamaktadır. Macera tutkunları için 'BridgeClimb' organizasyonları ile köprünün çelik kemerleri üzerine tırmanarak 360 derecelik panoramik Sidney manzaralarını izlemek dünyanın en popüler turist aktivitelerinden biridir. Sidney Limanı Köprüsü, her yılbaşı gecesi düzenlenen muhteşem havai fişek gösterilerinin de ana sahnesi olarak tüm dünyanın odağındadır.",
+      "en": "The Sydney Harbour Bridge is one of Australia's most formidable engineering triumphs, affectionately known to locals as 'The Coathanger' because of its iconic arch-based structural design. Spanning across Port Jackson, it connects the Sydney central business district with the residential North Shore, serving as a fundamental artery for the metropolis. Although proposals for bridging the harbor date back to the early 1800s, the project was finally brought to fruition through the visionary leadership of Australian engineer Dr. John Bradfield in the early 20th century. Construction officially began in 1923 under the direction of British firm Dorman Long & Co. During the dark years of the Great Depression, the project provided essential employment for over 1,400 workers who braved perilous working conditions at high altitudes. Following eight years of relentless effort and the tragic loss of 16 lives, the bridge opened with massive public fanfare on March 19, 1932. Constructed with over 53,000 tonnes of structural steel held together by six million hand-driven rivets, it remains one of the tallest steel arch bridges in the world, rising 134 meters above the harbor surface. The two colossal halves of the arch were built cantilevered out from opposite shores without scaffold support, meeting in the center with astounding precision. Four decorative granite-faced concrete pylons frame the bridge at each corner, adding historic elegance to the massive steel frame. Today, the bridge carries eight vehicular traffic lanes, two railway tracks, a pedestrian pathway, and a dedicated cycleway, accommodating over 160,000 vehicles daily. For thrill-seekers, the world-famous BridgeClimb experience offers guided treks up the outer steel arches, delivering sweeping 360-degree views of the Opera House and the vast Pacific ocean horizon. It also stands as the dramatic centerpiece of Sydney's iconic New Year's Eve fireworks celebrations.",
       "de": "Die Sydney Harbour Bridge ist eine der größten Stahlbrücken der Welt. Sie können atemberaubende Ausblicke auf Sydney genießen, indem Sie über die Brücke gehen oder sie erklimmen. Der Brückenklettern bietet ein adrenalinförderndes Erlebnis."
     },
     "activities": {
       "tr": [
-        "Köprü tırmanışı yapmak",
-        "Yürüyüş yaparak manzarayı görmek"
+        "BridgeClimb ile köprünün zirvesine adrenalin dolu bir tırmanış yapmak",
+        "Pedestrian Walkway üzerinde yürüyerek liman manzarasını fotoğraflamak",
+        "South East Pylon Lookout müzesini ve seyir terasını ziyaret etmek"
       ],
       "en": [
-        "Climbing the bridge",
-        "Walking for the view"
+        "Experiencing the BridgeClimb to reach the arch summit",
+        "Strolling along the pedestrian walkway for unobstructed harbor views",
+        "Visiting the Pylon Lookout to explore historical bridge construction exhibits"
       ],
       "de": [
         "Die Brücke erklimmen",
@@ -95,18 +102,20 @@
     "latitude": -33.8915,
     "longitude": 151.2767,
     "description": {
-      "tr": "Bondi Plajı, Sidney’in en ünlü plajlarından biridir ve Surfers Paradise gibi plajları ile bilinir. Burada sörf yapmayı sevenler için ideal bir noktadır. Ayrıca plajın çevresindeki kafelerde dinlenebilir ve harika manzarayı izleyebilirsiniz.",
-      "en": "Bondi Beach is one of Sydney’s most famous beaches, known for its beautiful surfing spots like Surfers Paradise. It is an ideal place for surfers and offers a relaxing atmosphere with cafes around the beach to enjoy the great views.",
+      "tr": "Bondi Plajı, Avustralya'nın sadece en meşhur sahil şeridi değil, aynı zamanda küresel plaj ve sörf kültürünün doğduğu en ikonik merkezlerden biridir. Sidney şehir merkezinin yaklaşık 7 kilometre doğusunda, Pasifik Okyanusu kıyısında yer alan bu 1 kilometre uzunluğundaki hilal şeklindeki altın sarısı kumsal, büyüleyici atmosferiyle her yıl milyonlarca yerli ve yabancı turisti kendine çeker. 'Bondi' kelimesi, Avustralya yerlileri olan Aborjinlerin dilinde ' kayalıklara çarpan kayaların veya dalgaların sesi' anlamına gelen 'Boondi' sözcüğünden türetilmiştir. 1907 yılında Avustralya'nın ve dünyanın ilk resmi hayat kurtarma kulüplerinden biri olan Bondi Surf Bathers' Life Saving Club burada kurulmuş, kırmızı ve sarı üniformalı hayat kurtaranlar plajın ayrılmaz bir parçası haline gelmiştir. Bondi, Pasifik'ten gelen tutarlı ve güçlü dalgaları sayesinde hem acemi sörfçüler hem de profesyonel sörf ustaları için mükemmel bir oyun alanıdır. Plajın güney ucunda yer alan ve kayalıkların üzerine inşa edilen tarihi 'Bondi Icebergs' olimpik deniz suyu havuzu, dalgaların havuz duvarlarına çarptığı görsel şöleniyle dünyanın en çok fotoğraflanan yüzme alanlarından biridir. Sahil paralelinde uzanan Campbell Parade caddesi; bohem tarzdaki sörf mağazaları, üçüncü dalga kahveciler, organik smoothie barları ve deniz mahsulleri sunan gurme restoranlarıyla doludur. Doğa ve spor tutkunları için Bondi Plajı'ndan başlayıp klifler, tenha koylar ve büyüleyici kayalıklar boyunca uzanarak Coogee Plajı'na kadar devam eden 6 kilometrelik Bondi-Coogee Kıyı Yürüyüş Yolu (Bondi to Coogee Coastal Walk), kentin en popüler doğa rotasıdır. Bondi, plaj voleybolu turnuvalarından açık hava sanat sergilerine kadar yıl boyu canlılığını korur.",
+      "en": "Bondi Beach is not merely Australia's most celebrated stretch of coastline, but a global epicenter of beach lifestyle and surfing culture. Situated roughly seven kilometers east of Sydney's central business district, this crescent-shaped, golden-sand beach spans one kilometer along the edge of the Pacific Ocean. The name 'Bondi' originates from the Indigenous Aboriginal word 'Boondi,' which translates to 'water breaking over rocks' or the sound of waves crashing on the shore. Historically significant, it was here in 1907 that the Bondi Surf Bathers' Life Saving Club was established, giving birth to Australia's iconic surf lifesaving movement with its famous red-and-yellow-clad guards. Benefiting from consistent Pacific swells, Bondi offers ideal wave conditions for both novice surfers learning the ropes and seasoned pros riding the outer breaks. At the southern headland lies the world-famous Bondi Icebergs Club, featuring an historic oceanfront saltwater pool where crashing waves dramatically spill over the concrete walls. Parallel to the shore runs Campbell Parade, a vibrant boulevard bustling with trendy surf boutiques, artisanal coffee roasters, organic juice bars, and fine seafood dining venues. For outdoor enthusiasts, the beach serves as the northern trailhead for the iconic Bondi to Coogee Coastal Walk—a breathtaking six-kilometer cliffside path that meanders past dramatic sandstone headlands, hidden coves, and panoramic ocean vistas. Hosting international sporting events, outdoor cinema screenings, and community art festivals, Bondi Beach encapsulates the laid-back yet energetic spirit of contemporary coastal Australia.",
       "de": "Bondi Beach ist einer der bekanntesten Strände von Sydney, bekannt für seine schönen Surfspots wie Surfers Paradise. Es ist ein idealer Ort für Surfer und bietet eine entspannende Atmosphäre mit Cafés rund um den Strand, um die großartige Aussicht zu genießen."
     },
     "activities": {
       "tr": [
-        "Sörf yapmak",
-        "Plajda dinlenmek"
+        "Pasifik dalgalarında sörf dersleri almak",
+        "Bondi'den Coogee'ye uzanan kayalık kıyı yürüyüş yolunda gezintiye çıkmak",
+        "Bondi Icebergs deniz suyunun doldurduğu havuzda yüzmek"
       ],
       "en": [
-        "Surfing",
-        "Relaxing on the beach"
+        "Catching waves or taking surf lessons in the ocean breaks",
+        "Walking the scenic Bondi to Coogee coastal cliff track",
+        "Swimming at the iconic oceanfront Bondi Icebergs Pool"
       ],
       "de": [
         "Surfen",
@@ -115,13 +124,16 @@
     },
     "categories": {
       "tr": [
-        "plaj"
+        "plaj",
+        "doğa"
       ],
       "en": [
-        "beach"
+        "beach",
+        "nature"
       ],
       "de": [
-        "Strand"
+        "Strand",
+        "Natur"
       ]
     },
     "images": [
@@ -131,25 +143,27 @@
   {
     "slug": "royal-botanic-gardens",
     "name": {
-      "tr": "Royal Botanic Gardens",
-      "en": "Royal Botanic Gardens",
+      "tr": "Royal Botanik Bahçeleri",
+      "en": "Royal Botanic Garden Sydney",
       "de": "Royal Botanic Gardens"
     },
     "latitude": -33.8642,
     "longitude": 151.2167,
     "description": {
-      "tr": "Royal Botanik Bahçeleri, Sidney Opera Binası ve Limanı manzaralı geniş bir alan sunar. Bu muazzam bahçede, tropikal bitkilerden nadir çiçeklere kadar pek çok bitki türü bulunmaktadır. Hem doğa severler hem de fotoğrafçılar için mükemmel bir yerdir.",
-      "en": "The Royal Botanic Gardens offer vast space with stunning views of the Sydney Opera House and Harbour. The gardens are home to a variety of plants, ranging from tropical species to rare flowers. It is an excellent spot for nature lovers and photographers.",
+      "tr": "Royal Botanik Bahçeleri, Sidney Opera Binası'nın hemen yanı başında, Farm Cove koyunun büyüleyici kıyılarında yer alan 30 hektarlık devasa bir tarihi botanik cennetidir. 1816 yılında Vali Lachlan Macquarie tarafından kurulan park, Avustralya'nın en eski bilimsel kurumu ve sürekli yaşayan en eski botanik bahçesidir. Şehrin gürültülü iş merkezinin hemen bitişiğinde yükselen devasa gökdelenlerin gölgesinde tam bir doğa vahası sunan bahçe, Avustralya'ya özgü endemik bitkilerden dünyanın tropikal ve subtropikal bölgelerinden getirilmiş binlerce nadir bitki türüne ev sahipliği yapar. Bahçe içerisinde yer alan 'The Calyx' adlı cam mimarili botanik sergi merkezi, Güney Yarımküre'nin en büyük yaşayan dikey yeşil duvarına ve düzenli olarak değişen tematik bitki sergilerine ev sahipliği yapmaktadır. Parkın Doğu tarafındaki kıyı şeridinde yer alan 'Mrs Macquarie's Chair' (Bayan Macquarie'nin Sandalyesi), 1810'lu yıllarda mahkumlar tarafından vali eşi için doğrudan kumtaşı kayalığa oyulmuş tarihi bir banktır; burası günümüzde Sidney Opera Binası ve Liman Köprüsü'nün yan yana görüldüğü en ikonik manzara noktasıdır. Bahçe; tematik Palmiye Koruluğu, Avustralya Yağmur Ormanı Alanı, Kokulu Gül Bahçesi ve tarihi seralarıyla hem botanik bilimciler hem de doğa yürüyüşü yapmak, piknik yapmak ve fotoğraf çekmek isteyen ziyaretçiler için paha biçilmez bir cazibe merkezidir.",
+      "en": "The Royal Botanic Garden Sydney is a lush, 30-hectare heritage-listed botanical sanctuary situated along the serene shores of Farm Cove, adjacent to the Sydney Opera House. Established in 1816 by Governor Lachlan Macquarie, it holds the distinction of being the oldest scientific institution in Australia and one of the most historic botanical gardens in the Southern Hemisphere. Serving as a peaceful green oasis juxtaposed against the soaring skyscrapers of Sydney's central business district, the garden showcases a living collection of thousands of plant species, ranging from rare native Australian flora to exotic tropical specimens gathered globally. At the heart of the site lies 'The Calyx,' an architectural glasshouse center that houses the largest living green wall in the Southern Hemisphere along with rotating horticultural displays. Along the eastern edge of the garden, visitors can find 'Mrs Macquarie's Chair,' a historic bench carved directly into a sandstone rock ledge by convicts in 1810 for the Governor's wife; today, it provides the most celebrated panoramic viewpoint combining both the Sydney Opera House and Harbour Bridge in a single frame. With its themed collections, including the Australian Native Rockery, the historic Palm Grove, the fragrant Rose Garden, and ancient Moreton Bay Fig trees, the garden offers a world-class center for botanical research, conservation, and tranquil recreation.",
       "de": "Die Royal Botanic Gardens bieten viel Platz mit atemberaubendem Blick auf das Sydney Opera House und den Hafen. Die Gärten beherbergen eine Vielzahl von Pflanzen, von tropischen Arten bis hin zu seltenen Blumen. Es ist ein ausgezeichneter Ort für Naturliebhaber und Fotografen."
     },
     "activities": {
       "tr": [
-        "Bahçeyi keşfetmek",
-        "Fotoğraf çekmek"
+        "Mrs Macquarie's Point noktasından liman ve opera binası manzarasını izlemek",
+        "The Calyx sera kompleksindeki özel floral sergileri ziyaret etmek",
+        "Çimlerde piknik yaparak tarihi ağaçların gölgesinde dinlenmek"
       ],
       "en": [
-        "Exploring the garden",
-        "Taking photos"
+        "Enjoying panoramic skyline views from Mrs Macquarie's Point",
+        "Exploring tropical plant displays at The Calyx glasshouse",
+        "Picnicking on lush heritage lawns beneath sprawling trees"
       ],
       "de": [
         "Den Garten erkunden",
@@ -158,13 +172,16 @@
     },
     "categories": {
       "tr": [
-        "park"
+        "park",
+        "doğa"
       ],
       "en": [
-        "park"
+        "park",
+        "nature"
       ],
       "de": [
-        "park"
+        "park",
+        "Natur"
       ]
     },
     "images": [
@@ -174,25 +191,27 @@
   {
     "slug": "taronga-zoo",
     "name": {
-      "tr": "Taronga Zoo",
-      "en": "Taronga Zoo",
+      "tr": "Taronga Hayvanat Bahçesi",
+      "en": "Taronga Zoo Sydney",
       "de": "Taronga Zoo"
     },
     "latitude": -33.8433,
     "longitude": 151.2437,
     "description": {
-      "tr": "Taronga Hayvanat Bahçesi, Sidney’in ünlü hayvanat bahçesidir ve burada Avustralya’ya özgü yerel hayvanları görmek mümkündür. Ayrıca deniz aslanları, kangurular ve koalalar gibi popüler Avustralya hayvanlarını da burada görebilirsiniz.",
-      "en": "Taronga Zoo is one of Sydney’s famous zoos, where you can see native Australian animals. You can also spot popular Australian animals such as sea lions, kangaroos, and koalas.",
+      "tr": "Taronga Hayvanat Bahçesi, Sidney Limanı'nın kuzey kıyısındaki Mosman tepelerinde 28 hektarlık doğal çalı alan üzerine kurulu, dünya standartlarında ödüllü bir yaban hayatı koruma merkezidir. 1916 yılında kapılarını açan hayvanat bahçesi, 'Taronga' kelimesinin yerel Aborjin dilindeki anlamı olan 'Güzel Manzara' ifadesinin hakkını tam anlamıyla vermektedir. Tesis, ziyaretçilerine egzotik hayvanları incelerken arka planda Sidney Liman Köprüsü ve Opera Binası'nın yer aldığı büyüleyici kent manzarasını izleme imkanı sunar. Taronga, 350'den fazla türe ait 4.000'den fazla canlıya ev sahipliği yapmaktadır. Özel olarak tasarlanmış tematik yaşam alanlarında Avustralya'ya özgü koalalar, kangurular, valabiler, ornitorenkler, vombatlar ve kertenkelelerin yanı sıra zürafalar, Asya filleri, şempanzeler ve Sumatran kaplanları gibi koruma altındaki nesli tehlikedeki canlılar barındırılır. Ziyaretçiler liman iskelesinden kalkıp hayvanat bahçesinin ana girişine ulaşan 'Sky Safari' teleferik hattıyla havadan tüm parkı izleme fırsatı bulur. Hayvanat bahçesi, eğlence amacının ötesinde küresel çapta yaban hayatı koruma, nesli tükenmekte olan türlerin üretilmesi ve rehabilitasyon projelerine öncülük etmektedir. Açık hava amfitiyatrosunda düzenlenen serbest uçuş kuş gösterileri ve deniz aslanı sunumları kentin en popüler aile aktivitelerindendir.",
+      "en": "Taronga Zoo Sydney is a world-renowned non-profit wildlife conservation park nestled on 28 hectares of elevated bushland along the northern shores of Sydney Harbour in Mosman. Officially opened in 1916, the zoo's name derives from the local Aboriginal word meaning 'Beautiful View'—a fitting description given its iconic amphitheater-like setting that offers dramatic views of the Sydney skyline, Harbour Bridge, and Opera House. Taronga is home to more than 4,000 animals representing over 350 species, featuring immersive habitats that replicate natural ecosystems. Visitors can encounter unique Australian native species, including koalas, red kangaroos, platypuses, wombats, and Tasmanian devils, alongside endangered global wildlife such as Asian elephants, Sumatran tigers, chimpanzees, and giraffes. The 'Sky Safari' cable car lifts guests from the harbor ferry wharf up to the main entrance, providing aerial panoramas of the zoo grounds and the surrounding bay. Beyond tourism, Taronga stands as a global leader in wildlife medicine, breeding programs for endangered species, and environmental education. Daily free-flight bird shows and seal presentations set against the dramatic backdrop of Sydney Harbour make it an unmissable destination.",
       "de": "Der Taronga Zoo ist einer der berühmten Zoos von Sydney, in dem man einheimische australische Tiere sehen kann. Man kann auch populäre australische Tiere wie Seelöwen, Kängurus und Koalas sehen."
     },
     "activities": {
       "tr": [
-        "Hayvanları görmek",
-        "Hayvanat bahçesinde gezmek"
+        "Koala ve kanguru gibi yerel Avustralya hayvanlarını yakından görmek",
+        "Sky Safari teleferiği ile hayvanat bahçesi ve liman üzerinden geçmek",
+        "Liman manzaralı amfitiyatroda kuş ve deniz aslanı gösterilerini izlemek"
       ],
       "en": [
-        "Seeing the animals",
-        "Exploring the zoo"
+        "Encountering native Australian animals like koalas, kangaroos, and wallabies",
+        "Riding the Sky Safari cable car above the zoo grounds",
+        "Watching free-flight bird and seal demonstrations against harbor backdrops"
       ],
       "de": [
         "Die Tiere sehen",
@@ -221,21 +240,23 @@
       "en": "The Rocks",
       "de": "The Rocks"
     },
-    "latitude": -33.8607,
+    "latitude": -33.8597,
     "longitude": 151.2086,
     "description": {
-      "tr": "The Rocks, Sidney’in tarihi bölgesidir. Eski taş yapıları, müzeleri ve restoranlarıyla ünlüdür. Bu bölge, Sidney’in ilk kurulduğu yerdir ve burada tarihi yapılar arasında dolaşarak geçmişe yolculuk yapabilirsiniz.",
-      "en": "The Rocks is the historical district of Sydney. Known for its old stone buildings, museums, and restaurants, it is the site where Sydney was first established. You can travel back in time as you walk through its historic buildings.",
+      "tr": "The Rocks, Avustralya'nın modern sömürge tarihinin başladığı, Sidney Limanı Köprüsü'nün hemen gölgesinde yer alan büyüleyici bir tarihi semttir. 1788 yılında Büyük Britanya'dan gelen 'İlk Filo' (First Fleet) mahkumları ve denizcileri tarafından kurulan yerleşim, adını bölgedeki yerel sağlam sarı kumtaşı kayalıklardan almıştır. İlk dönemlerde mahkumların, denizcilerin ve tüccarların yaşadığı tehlikeli ve karanlık bir liman mahallesi olan The Rocks, zamanla restore edilerek kentin kültürel ve tarihi kalbine dönüştürülmüştür. Arnavut kaldırımlı dar sokakları, Viktorya ve Gürcü mimarisini yansıtan restore edilmiş 19. yüzyıl kumtaşı depoları, el yapımı eşyaların satıldığı dükkanları ve tarihi meyhaneleriyle ziyaretçileri zamanda bir yolculuğa çıkarır. Avustralya'nın en eski işletmelerinden biri olan 'Fortune of War' ve 'Lord Nelson' gibi tarihi barlar halen orijinal dokularıyla hizmet vermektedir. Her hafta sonu kurulan 'The Rocks Markets' açık hava pazarı; el yapımı takılar, sanat eserleri, deri tasarımlar ve gurme sokak lezzetleri satan stantlarıyla sokaklara renk katar. Semt ayrıca Çağdaş Sanat Müzesi (MCA) ve bölgenin çalkantılı geçmişini sergileyen The Rocks Discovery Museum gibi önemli kültür mekanlarına ev sahipliği yapmaktadır.",
+      "en": "The Rocks is Sydney's most vibrant historical precinct, nestled directly beneath the southern shadow of the Sydney Harbour Bridge. Established in 1788 following the arrival of the First Fleet of British convicts and officers, it marks the birthplace of modern Australia. The area derived its name from the rugged local yellow sandstone ledges upon which the original colony was constructed. Originally a rough maritime neighborhood frequented by sailors, convicts, and traders, The Rocks underwent extensive heritage preservation to transform into a captivating cultural hub. Its winding cobblestone alleyways, restored 19th-century sandstone warehouses, artisan boutiques, and heritage-listed taverns take visitors on a journey through Australia's colonial past. Iconic historic pubs like the 'Fortune of War' and 'Lord Nelson Hotel' still serve patrons in their original 19th-century settings. On weekends, the bustling 'The Rocks Markets' line the streets, offering handcrafted jewelry, local artworks, bespoke leather goods, and gourmet street food. The precinct is also home to major cultural institutions, including the Museum of Contemporary Art Australia (MCA) and The Rocks Discovery Museum.",
       "de": "The Rocks ist das historische Viertel von Sydney. Es ist bekannt für seine alten Steinbauten, Museen und Restaurants und ist der Ort, an dem Sydney erstmals gegründet wurde. Sie können in der Zeit zurückreisen, während Sie durch seine historischen Gebäude gehen."
     },
     "activities": {
       "tr": [
-        "Tarihi yapıları gezmek",
-        "Müzelere gitmek"
+        "Hafta sonu kurulan açık hava pazarında el sanatları ve yerel ürünleri incelemek",
+        "Sidney'in en eski tarihi barlarında yerel biraları tatmak",
+        "Arnavut kaldırımlı sokaklarda rehberli hayalet ve tarih turlarına katılmak"
       ],
       "en": [
-        "Exploring the historic buildings",
-        "Visiting museums"
+        "Browsing artisan crafts and street food at The Rocks Weekend Market",
+        "Sampling craft ales at Sydney's oldest historic pubs",
+        "Joining a heritage walking tour through historic cobblestone laneways"
       ],
       "de": [
         "Die historischen Gebäude erkunden",
@@ -244,13 +265,16 @@
     },
     "categories": {
       "tr": [
-        "tarihi semtler"
+        "tarihi semtler",
+        "çarşı"
       ],
       "en": [
-        "historic districts"
+        "historic districts",
+        "marketplace"
       ],
       "de": [
-        "historische Viertel"
+        "historische Viertel",
+        "marktplatz"
       ]
     },
     "images": [
@@ -260,25 +284,27 @@
   {
     "slug": "manly-beach",
     "name": {
-      "tr": "Manly Beach",
+      "tr": "Manly Plajı",
       "en": "Manly Beach",
       "de": "Manly Beach"
     },
     "latitude": -33.8007,
     "longitude": 151.2867,
     "description": {
-      "tr": "Manly Plajı, Sidney’in popüler plajlarından biridir ve feribotla ulaşılabilir. Geniş plajı ve mükemmel sörf koşulları ile ünlüdür. Ayrıca plajda dinlenebilir ve çevresindeki kafelerde keyifli vakit geçirebilirsiniz.",
-      "en": "Manly Beach is one of Sydney’s popular beaches and can be reached by ferry. It is famous for its wide beach and excellent surfing conditions. You can also relax on the beach and enjoy the cafes around it.",
+      "tr": "Manly Plajı, Sidney'in Kuzey Sahilleri (Northern Beaches) bölgesinde yer alan, geniş altın kumsalları ve devasa Norfolk çam ağaçlarıyla kaplı büyüleyici sahil bulvarıyla ünlü dünya çapında bir sahil beldesidir. Şehrin merkezindeki Circular Quay limanından kalkan tarihi yeşil-sarı Manly Feribotu ile yapılan 30 dakikalık manzaralı liman yolculuğu, Manly deneyiminin en ikonik parçasıdır. Bölgenin adı, 1788 yılında Kaptan Arthur Phillip'in burada yaşayan Aborjin halkının sergilediği özgüvenli ve 'erkeksi' (manly) duruştan etkilenmesiyle verilmiştir. 1964 yılında dünyanın ilk Dünya Sörf Şampiyonası'na ev sahipliği yapan plaj, zengin sörf mirasıyla tanınır. Feribot iskelesi ile ana plaj arasında uzanan trafiğe kapalı 'The Corso' caddesi; cıvıl cıvıl sörf mağazaları, açık hava kafeleri, dondurmacılar ve restoranlarla doludur. Manly, Pasifik Okyanusu'na bakan uzun ana plajının yanı sıra, sakin sulara sahip Shelly Beach koruma alanına da kısa bir yürüyüş mesafesindedir. Shelly Beach, şnorkelle ve tüple dalış yapanlar için zengin deniz canlılığı sunan korunaklı bir deniz parkıdır. Manly, kent merkezinin karmaşasından uzaklaşıp gerçek bir tatil kasabası atmosferi yaşamak isteyenler için mükemmel bir kaçış noktasıdır.",
+      "en": "Manly Beach is a world-famous coastal resort suburb situated on Sydney's Northern Beaches, renowned for its wide golden sands and soaring line of historic Norfolk Island pines. The journey to Manly is an adventure in itself, accessible via a iconic 30-minute ride aboard the green-and-yellow Manly Ferry from Circular Quay, offering panoramic views of Sydney Harbour. The precinct was named in 1788 by Captain Arthur Phillip, who was deeply impressed by the confident and 'manly' demeanor of the local Indigenous Gadigal people. Historically significant to surf culture, Manly hosted the world's first World Surfing Championship in 1964 and remains a premier destination for wave riders. Connecting the harbor ferry terminal to the ocean beach is 'The Corso,' a bustling pedestrian mall lined with surf shops, outdoor cafes, pub gardens, and gelato parlors. Beyond its main Pacific ocean surf beach, a scenic coastal path leads to nearby Shelly Beach, a sheltered marine reserve ideal for snorkeling and scuba diving among rich aquatic life.",
       "de": "Manly Beach ist einer der beliebten Strände von Sydney und kann mit der Fähre erreicht werden. Es ist berühmt für seinen breiten Strand und ausgezeichnete Surfbedingungen. Sie können auch am Strand entspannen und die Cafés in der Umgebung genießen."
     },
     "activities": {
       "tr": [
-        "Sörf yapmak",
-        "Plajda dinlenmek"
+        "Circular Quay'den Manly Feribotu ile manzaralı liman yolculuğu yapmak",
+        "Corso caddesindeki kafe, restoran ve sörf mağazalarını keşfetmek",
+        "Shelly Beach koruma alanında şnorkelle dalış yapmak"
       ],
       "en": [
-        "Surfing",
-        "Relaxing on the beach"
+        "Taking the iconic Manly Ferry ride across Sydney Harbour",
+        "Strolling down the bustling Corso shopping and dining promenade",
+        "Snorkeling in the calm waters of the nearby Shelly Beach marine reserve"
       ],
       "de": [
         "Surfen",

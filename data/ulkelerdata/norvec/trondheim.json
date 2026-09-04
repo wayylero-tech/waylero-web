@@ -4,42 +4,75 @@
     "name": {
       "tr": "Nidaros Katedrali",
       "en": "Nidaros Cathedral",
-      "de": "Nidaros Kathedrale"
+      "de": "Nidaros-Kathedrale"
     },
-    "latitude": 63.4305,
-    "longitude": 10.3951,
+    "latitude": 63.4269,
+    "longitude": 10.3969,
     "description": {
-      "tr": "Nidaros Katedrali, Norveç'in en önemli dini yapılarından biridir. Gotik tarzda inşa edilmiştir ve UNESCO Dünya Mirası Listesi'nde yer alır.",
-      "en": "Nidaros Cathedral is one of Norway's most important religious buildings. It is built in Gothic style and is listed as a UNESCO World Heritage Site.",
-      "de": "Die Nidaros Kathedrale ist eines der wichtigsten religiösen Gebäude Norwegens. Sie wurde im gotischen Stil erbaut und ist ein UNESCO-Weltkulturerbe."
+      "tr": "Nidaros Katedrali, Trondheim'in en önemli tarihi ve dini yapılarından biridir. Aziz Olav'ın mezarının bulunduğu alan üzerine inşa edilen katedralin yapım süreci 1070 civarında başlamış ve yapı Orta Çağ'ın sonlarına doğru tamamlanmıştır. Romanesk ve özellikle Gotik mimari özellikleri bir arada görülür; yüksek taş tonozları, sivri kemerleri, uçan payandaları, renkli vitrayları ve binlerce taş heykeli katedrale karakteristik görünümünü verir. Orta Çağ boyunca Nidaros, Kuzey Avrupa'nın önemli hac merkezlerinden biri olmuş ve Aziz Olav'ın mezarı nedeniyle çok sayıda hacıyı ağırlamıştır. Katedral, Norveç tarihindeki kraliyet törenleriyle de bağlantılıdır ve günümüzde Trondheim'in en önemli ziyaret noktalarından biri olmaya devam etmektedir. Katedralin restorasyonu 19. yüzyıldan beri farklı aşamalarda sürdürülmekte ve geleneksel taş işçiliği teknikleri günümüzde de kullanılmaktadır. Yaz döneminde kule tırmanışı ve rehberli turlar gibi özel ziyaret seçenekleri de düzenlenebilmektedir.",
+      "en": "Nidaros Cathedral is one of the most important historic and religious landmarks in Trondheim. The cathedral was built over the burial site of St. Olav, and construction began around 1070, with the main medieval building completed around 1300. Its architecture combines Romanesque and especially Gothic elements, including high stone vaults, pointed arches, flying buttresses, stained-glass windows and thousands of carved stone sculptures. During the Middle Ages, Nidaros became one of Northern Europe's major pilgrimage destinations because of St. Olav's tomb. The cathedral is also closely connected with Norway's royal history and remains one of Trondheim's most significant visitor attractions. Restoration has continued in different phases since the 19th century, with traditional stonecraft techniques still being used today. Seasonal experiences such as guided tours and tower climbs may also be available, depending on the time of year.",
+      "de": "Die Nidaros-Kathedrale gehört zu den bedeutendsten historischen und religiösen Bauwerken in Trondheim. Sie wurde über dem Grab des heiligen Olav errichtet; der Bau begann um 1070 und die mittelalterliche Kathedrale wurde um 1300 weitgehend fertiggestellt. Die Architektur verbindet romanische und vor allem gotische Elemente, darunter hohe steinerne Gewölbe, Spitzbögen, Strebepfeiler, farbige Glasfenster und Tausende kunstvoll gearbeitete Steinskulpturen. Im Mittelalter entwickelte sich Nidaros aufgrund des Grabes des heiligen Olav zu einem der wichtigsten Pilgerziele Nordeuropas. Die Kathedrale ist außerdem eng mit der norwegischen Königsgeschichte verbunden und zählt heute zu den bedeutendsten Sehenswürdigkeiten Trondheims. Seit dem 19. Jahrhundert wird das Bauwerk in verschiedenen Phasen restauriert, wobei traditionelle Steinmetztechniken weiterhin zum Einsatz kommen. Je nach Jahreszeit werden auch Führungen und Turmbesteigungen angeboten."
     },
     "activities": {
       "tr": [
         "Katedrali ziyaret etme",
-        "Mimari detayları keşfetme"
+        "Gotik mimari ve taş heykelleri inceleme",
+        "Vitray pencereleri ve iç mekânı keşfetme",
+        "Rehberli tura katılma",
+        "Yaz döneminde kule tırmanışına katılma",
+        "Aziz Olav hac geleneğini keşfetme",
+        "Fotoğraf çekme"
       ],
       "en": [
         "Visit the cathedral",
-        "Explore the architectural details"
+        "Explore Gothic architecture and stone sculptures",
+        "Admire the stained-glass windows and interior",
+        "Join a guided tour",
+        "Take a seasonal tower climb",
+        "Learn about the St. Olav pilgrimage tradition",
+        "Take photographs"
       ],
       "de": [
         "Die Kathedrale besichtigen",
-        "Die architektonischen Details erkunden"
+        "Gotische Architektur und Steinskulpturen entdecken",
+        "Die Glasfenster und den Innenraum bewundern",
+        "An einer Führung teilnehmen",
+        "Eine saisonale Turmbesteigung unternehmen",
+        "Die Pilgertradition des heiligen Olav kennenlernen",
+        "Fotos machen"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "kilise",
+        "katedral",
+        "tarih",
+        "mimari",
+        "kültür",
+        "dini yapı",
+        "fotoğraf"
       ],
       "en": [
-        "church"
+        "church",
+        "cathedral",
+        "history",
+        "architecture",
+        "culture",
+        "religious site",
+        "photography"
       ],
       "de": [
-        "kirche"
+        "kirche",
+        "kathedrale",
+        "geschichte",
+        "architektur",
+        "kultur",
+        "religiöse stätte",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/nidaros_cathedral.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nidaros_Cathedral_Trondheim.JPG"
     ]
   },
   {
@@ -49,40 +82,73 @@
       "en": "Bakklandet",
       "de": "Bakklandet"
     },
-    "latitude": 63.4307,
-    "longitude": 10.3947,
+    "latitude": 63.4281,
+    "longitude": 10.4030,
     "description": {
-      "tr": "Bakklandet, Trondheim'in eski ve renkli taş binalarla dolu tarihi bir mahallesidir. Burada şirin kafeler ve dükkanlar yer almaktadır.",
-      "en": "Bakklandet is a historic district in Trondheim filled with old, colorful stone buildings. It is home to charming cafes and shops.",
-      "de": "Bakklandet ist ein historisches Viertel in Trondheim, das mit alten, bunten Steingebäuden gefüllt ist. Hier gibt es charmante Cafés und Geschäfte."
+      "tr": "Bakklandet, Trondheim'in Nidelva Nehri'nin doğu kıyısında yer alan tarihi ve karakteristik mahallelerinden biridir. Bölge özellikle 18. ve 19. yüzyıldan kalma renkli ahşap evleri, dar sokakları ve nehir boyunca uzanan eski yapı dokusuyla tanınır. Günümüzde tarihi atmosfer ile modern şehir yaşamının bir araya geldiği Bakklandet'te kafeler, restoranlar, küçük mağazalar, galeriler ve tasarım dükkânları bulunur. Bölgeye şehir merkezinden 1681'de ilk kez inşa edilen Gamle Bybro üzerinden yürüyerek ulaşılabilir; köprünün günümüzdeki kapıları ve görünümü ise 19. yüzyıldaki değişikliklerle şekillenmiştir. Bakklandet ayrıca dünyanın ilk bisiklet asansörü olarak tanınan Trampe ile de ünlüdür. Nidelva kıyısındaki ahşap yapıların yansımaları ve renkli cepheler, özellikle yürüyüş ve fotoğraf için mahallenin en dikkat çekici unsurları arasındadır.",
+      "en": "Bakklandet is one of Trondheim's most distinctive historic neighbourhoods, located on the eastern side of the Nidelva River. The area is known for its colourful wooden houses dating mainly from the 18th and 19th centuries, narrow streets and historic riverside buildings. Today, Bakklandet combines historic character with modern urban life and is home to cafés, restaurants, small shops, galleries and design boutiques. The neighbourhood can be reached on foot from the city centre via Gamle Bybro, the Old Town Bridge, which was first built here in 1681 and later modified into the form seen today. Bakklandet is also home to Trampe, known as the world's first bicycle lift. The colourful wooden buildings, river reflections and cobbled streets make the neighbourhood especially appealing for walking and photography.",
+      "de": "Bakklandet ist eines der charakteristischsten historischen Viertel Trondheims und liegt am östlichen Ufer des Flusses Nidelva. Bekannt ist das Viertel vor allem für seine farbenfrohen Holzhäuser aus dem 18. und 19. Jahrhundert, schmalen Straßen und historischen Gebäude entlang des Flusses. Heute verbindet Bakklandet historische Atmosphäre mit modernem Stadtleben und bietet zahlreiche Cafés, Restaurants, kleine Geschäfte, Galerien und Designläden. Vom Stadtzentrum aus erreicht man das Viertel zu Fuß über die Gamle Bybro, die Alte Stadtbrücke, die an dieser Stelle erstmals 1681 errichtet wurde und später ihre heutige Form erhielt. Bakklandet beherbergt außerdem Trampe, den weltweit ersten Fahrradlift. Die farbenfrohen Holzhäuser, die Spiegelungen des Flusses und die gepflasterten Straßen machen das Viertel besonders interessant für Spaziergänge und Fotografie."
     },
     "activities": {
       "tr": [
-        "Tarihi mahalleyi keşfetme",
-        "Kafelerde dinlenme"
+        "Tarihi mahalleyi yürüyerek keşfetme",
+        "Renkli ahşap evleri fotoğraflama",
+        "Nidelva Nehri kıyısında yürüyüş yapma",
+        "Yerel kafelerde dinlenme",
+        "Küçük mağaza ve galerileri gezme",
+        "Gamle Bybro üzerinden geçme",
+        "Trampe bisiklet asansörünü görme"
       ],
       "en": [
-        "Explore the historic district",
-        "Relax at the cafes"
+        "Explore the historic neighbourhood on foot",
+        "Photograph the colourful wooden houses",
+        "Walk along the Nidelva River",
+        "Relax at local cafés",
+        "Visit small shops and galleries",
+        "Cross Gamle Bybro",
+        "See the Trampe bicycle lift"
       ],
       "de": [
-        "Das historische Viertel erkunden",
-        "In den Cafés entspannen"
+        "Das historische Viertel zu Fuß erkunden",
+        "Die farbenfrohen Holzhäuser fotografieren",
+        "Am Fluss Nidelva spazieren",
+        "In lokalen Cafés entspannen",
+        "Kleine Geschäfte und Galerien besuchen",
+        "Die Gamle Bybro überqueren",
+        "Den Fahrradlift Trampe sehen"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi mahalle",
+        "mimari",
+        "kültür",
+        "şehir",
+        "yürüyüş",
+        "fotoğraf",
+        "kafe"
       ],
       "en": [
-        "historic square"
+        "historic district",
+        "architecture",
+        "culture",
+        "city",
+        "walking",
+        "photography",
+        "cafe"
       ],
       "de": [
-        "historischer Platz"
+        "historisches viertel",
+        "architektur",
+        "kultur",
+        "stadt",
+        "spaziergang",
+        "fotografie",
+        "café"
       ]
     },
     "images": [
-      "https://example.com/bakklandet.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bakklandet%2C%20Trondheim.jpg"
     ]
   }
 ]

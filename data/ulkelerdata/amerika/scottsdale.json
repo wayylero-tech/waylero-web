@@ -6,86 +6,117 @@
       "en": "Old Town Scottsdale",
       "de": "Old Town Scottsdale"
     },
-    "latitude": 33.4986,
-    "longitude": -111.9291,
+    "latitude": 33.493056,
+    "longitude": -111.926111,
     "description": {
-      "tr": "Scottsdale'ın Eski Şehri, alışveriş, yemek ve sanatı bir arada sunar. Ziyaretçiler, eski binalarda ve galerilerde alışveriş yapabilir, yerel sanatçıların eserlerini görebilirler.",
-      "en": "Old Town Scottsdale offers shopping, dining, and art experiences. Visitors can shop in historic buildings and see local artists' works in galleries.",
-      "de": "Old Town Scottsdale bietet Einkaufsmöglichkeiten, Restaurants und Kunsterlebnisse. Besucher können in historischen Gebäuden einkaufen und Werke lokaler Künstler in Galerien sehen."
+      "tr": "Old Town Scottsdale, şehrin tarihi ve kültürel merkezlerinden biri olup alışveriş, sanat, yemek, gece hayatı ve Batı Amerika mirasını aynı bölgede bir araya getirir. Scottsdale'ın gelişiminin temelleri 1888 yılında Winfield Scott'ın bölgeye yerleşmesiyle atıldı ve bugün Old Town olarak bilinen merkez bu tarihsel geçmişin izlerini taşır. Bölge yaklaşık bir mil karelik yürünebilir bir alan içerisinde dokuz farklı mahalle ve tematik bölgeye ayrılır. Tarihi sokaklarda dolaşırken eski Scottsdale mimarisini, Batı tarzı mağazaları, sanat galerilerini ve kamusal sanat eserlerini görmek mümkündür. Arts District, çok sayıda galeri ve müzeye ev sahipliği yaparken Historic Old Town bölümünde Little Red Schoolhouse, Old Adobe Mission ve tarihi Rusty Spur Saloon gibi noktalar bulunur. Fifth Avenue çevresi hediyelik eşyalar, yerel sanat eserleri, Kızılderili takıları ve butik mağazalarıyla öne çıkar. Old Town aynı zamanda Arizona mutfağını ve farklı dünya mutfaklarını deneyebileceğiniz çok sayıda restorana sahiptir. Perşembe akşamları düzenlenen Scottsdale ArtWalk, galerilerin geç saatlere kadar açık olduğu ve sanat etkinliklerinin gerçekleştirildiği geleneksel bir etkinliktir. Cumartesi günleri kurulan Old Town Scottsdale Farmers Market ise mevsimsel ürünler, yerel yiyecekler ve el yapımı ürünler için popüler bir duraktır. Bölgeyi yürüyerek keşfetmek mümkün olduğu için Scottsdale gezisinin merkez noktalarından biri olarak değerlendirilebilir. Özellikle günün ilerleyen saatlerinde mağazalar, restoranlar ve sanat galerileriyle daha hareketli bir atmosfere bürünür.",
+      "en": "Old Town Scottsdale is one of the city's historic and cultural centers, bringing together shopping, art, dining, nightlife, and the heritage of the American West in one walkable area. Scottsdale's development began in 1888 when Winfield Scott settled in the area, and today's Old Town preserves many connections to that early history. The district covers roughly one square mile and is organized into nine walkable neighborhoods and districts. Visitors can explore historic streets, Western-style shops, art galleries, public art installations, restaurants, and cultural attractions. The Arts District is known for its galleries and museums, while the Historic Old Town area includes landmarks such as the Little Red Schoolhouse, Old Adobe Mission, and Rusty Spur Saloon. Fifth Avenue is popular for boutiques, Native American jewelry, souvenirs, and local art. Old Town also offers a wide range of restaurants representing both local and international cuisine. Scottsdale ArtWalk takes place on most Thursday evenings, when galleries stay open late and special exhibitions, artist receptions, and entertainment add to the atmosphere. The Old Town Scottsdale Farmers Market is held on Saturday mornings during its seasonal period and features local produce, prepared foods, baked goods, and handmade products. Because most of the district can be explored on foot, Old Town Scottsdale works particularly well as a walking destination. Its combination of historic buildings, galleries, restaurants, shopping streets, and public art makes it one of the most comprehensive places to experience Scottsdale's character in a single visit.",
+      "de": "Old Town Scottsdale ist eines der historischen und kulturellen Zentren der Stadt und verbindet Einkaufsmöglichkeiten, Kunst, Gastronomie, Nachtleben und das Erbe des amerikanischen Westens in einem gut zu Fuß erkundbaren Gebiet. Die Entwicklung von Scottsdale begann 1888, als Winfield Scott sich in der Region niederließ. Heute erinnern historische Gebäude und Straßen an diese frühe Geschichte. Old Town umfasst ungefähr eine Quadratmeile und ist in neun gut zu Fuß erreichbare Viertel und Bezirke gegliedert. Besucher können historische Straßen, Geschäfte im Western-Stil, Kunstgalerien, öffentliche Kunstwerke, Restaurants und kulturelle Sehenswürdigkeiten entdecken. Das Arts District ist für seine zahlreichen Galerien und Museen bekannt, während der Historic Old Town-Bereich Sehenswürdigkeiten wie das Little Red Schoolhouse, die Old Adobe Mission und den Rusty Spur Saloon bietet. Entlang der Fifth Avenue befinden sich Boutiquen, Geschäfte für indianischen Schmuck, Souvenirs und regionale Kunst. Außerdem gibt es zahlreiche Restaurants mit lokaler und internationaler Küche. Beim Scottsdale ArtWalk öffnen viele Galerien an den meisten Donnerstagabenden länger und bieten Sonderausstellungen, Künstlerempfänge und Unterhaltung. Der Old Town Scottsdale Farmers Market findet saisonal am Samstagmorgen statt und bietet regionale Produkte, Speisen, Backwaren und handgefertigte Waren. Da sich viele Sehenswürdigkeiten bequem zu Fuß erreichen lassen, eignet sich Old Town besonders für einen Spaziergang. Die Mischung aus Geschichte, Kunst, Gastronomie, Shopping und öffentlicher Kunst macht den Bezirk zu einem wichtigen Bestandteil eines Scottsdale-Besuchs."
     },
     "activities": {
       "tr": [
-        "Alışveriş yapmak",
+        "Tarihi sokaklarda yürümek",
         "Sanat galerilerini gezmek",
-        "Yerel yemekleri tatmak"
+        "Alışveriş yapmak",
+        "Restoranları keşfetmek",
+        "Kamusal sanat eserlerini görmek",
+        "Scottsdale ArtWalk'a katılmak"
       ],
       "en": [
-        "Shop",
+        "Walk through historic streets",
         "Visit art galleries",
-        "Taste local food"
+        "Shop",
+        "Explore restaurants",
+        "See public art",
+        "Attend Scottsdale ArtWalk"
       ],
       "de": [
-        "Einkaufen",
+        "Durch historische Straßen spazieren",
         "Kunstgalerien besuchen",
-        "Lokale Gerichte probieren"
+        "Einkaufen",
+        "Restaurants entdecken",
+        "Öffentliche Kunstwerke sehen",
+        "Am Scottsdale ArtWalk teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "tarih",
+        "kültür",
+        "alışveriş",
+        "sanat"
       ],
       "en": [
-        "nature"
+        "historic",
+        "culture",
+        "shopping",
+        "art"
       ],
       "de": [
-        "Natur"
+        "Historisch",
+        "Kultur",
+        "Shopping",
+        "Kunst"
       ]
     },
     "images": [
-      "https://example.com/old_town_scottsdale.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Town%20Scottsdale.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Town%20%28Scottsdale%2C%20Arizona%29.jpg"
     ]
   },
   {
     "slug": "scottsdale-museum-of-contemporary-art",
     "name": {
-      "tr": "Scottsdale Museum of Contemporary Art",
+      "tr": "Scottsdale Çağdaş Sanat Müzesi",
       "en": "Scottsdale Museum of Contemporary Art",
       "de": "Scottsdale Museum of Contemporary Art"
     },
-    "latitude": 33.494,
-    "longitude": -111.9263,
+    "latitude": 33.4933,
+    "longitude": -111.9260,
     "description": {
-      "tr": "Scottsdale Çağdaş Sanat Müzesi, çağdaş sanat eserlerini sergileyen bir müzedir. Sanat tutkunları için bu müze mutlaka görülmesi gereken bir yerdir.",
-      "en": "The Scottsdale Museum of Contemporary Art showcases contemporary art. It is a must-visit for art enthusiasts.",
-      "de": "Das Scottsdale Museum of Contemporary Art zeigt zeitgenössische Kunst. Es ist ein Muss für Kunstliebhaber."
+      "tr": "Scottsdale Museum of Contemporary Art, kısaca SMoCA, Old Town Scottsdale içindeki Scottsdale Civic Center yakınında yer alan çağdaş sanat, mimari ve tasarıma odaklanan bir müzedir. Müze, 1999 yılında açılmış ve eski bir sinema yapısının mimar Will Bruder tarafından dönüştürülmesiyle bugünkü karakteristik binasına kavuşmuştur. İçeride değişen sergiler aracılığıyla çağdaş sanatın farklı alanları, mimari yaklaşımlar ve tasarım çalışmaları ziyaretçilere sunulur. Müzenin sergi programı zaman içerisinde değiştiği için her ziyarette farklı sanatçı ve eserlerle karşılaşmak mümkündür. SMoCA'nın dikkat çeken bölümlerinden biri, Amerikalı sanatçı James Turrell tarafından tasarlanan Knight Rise adlı kalıcı ışık ve gökyüzü çalışmasıdır. Müze yalnızca geleneksel tabloları görmek için değil, ışık, mekan, mimari ve teknoloji arasındaki ilişkiyi deneyimlemek isteyenler için de ilgi çekicidir. Konumu sayesinde müzeyi Scottsdale Civic Center, Old Town'ın sanat galerileri ve diğer kültürel noktalarla aynı gezi içerisinde değerlendirmek kolaydır. Güncel ziyaret saatleri çarşamba ve hafta sonu 11.00-17.00, perşembe ise 11.00-19.00 şeklindedir; pazartesi ve salı kapalıdır. Sergi ve programların değişebilmesi nedeniyle ziyaret öncesinde güncel takvimin kontrol edilmesi önerilir.",
+      "en": "The Scottsdale Museum of Contemporary Art, commonly known as SMoCA, is a museum near Scottsdale Civic Center in Old Town Scottsdale dedicated to contemporary art, architecture, and design. The museum opened in 1999 and occupies a former movie theater that was transformed by architect Will Bruder into its distinctive modern building. Its galleries present changing exhibitions covering different forms of contemporary art, architectural ideas, and design. Because exhibitions rotate over time, visitors may encounter different artists and works during different visits. One of the museum's notable permanent experiences is Knight Rise, a light and skyspace installation by American artist James Turrell. SMoCA is therefore more than a conventional art museum, offering visitors opportunities to explore the relationship between light, space, architecture, and perception. Its location also makes it easy to combine a museum visit with Scottsdale Civic Center, Old Town's galleries, public art, and other cultural attractions. Current museum hours are 11 a.m. to 5 p.m. Wednesday, Friday, Saturday, and Sunday, with extended hours until 7 p.m. on Thursday. The museum is closed Monday and Tuesday. Exhibition schedules and programs can change, so visitors should check the current schedule before planning a visit.",
+      "de": "Das Scottsdale Museum of Contemporary Art, kurz SMoCA, befindet sich nahe dem Scottsdale Civic Center in Old Town Scottsdale und widmet sich zeitgenössischer Kunst, Architektur und Design. Das Museum wurde 1999 eröffnet und befindet sich in einem ehemaligen Kino, das vom Architekten Will Bruder in ein markantes modernes Museumsgebäude umgewandelt wurde. Die Galerien zeigen wechselnde Ausstellungen aus verschiedenen Bereichen der zeitgenössischen Kunst sowie Architektur- und Designprojekte. Da sich die Ausstellungen regelmäßig ändern, können Besucher bei unterschiedlichen Besuchen neue Künstler und Werke entdecken. Zu den bekannten dauerhaften Erlebnissen gehört Knight Rise, ein Licht- und Skyspace-Werk des amerikanischen Künstlers James Turrell. Dadurch eignet sich SMoCA nicht nur für klassische Kunstliebhaber, sondern auch für Besucher, die sich für Licht, Raum, Architektur und Wahrnehmung interessieren. Aufgrund seiner Lage lässt sich das Museum gut mit dem Scottsdale Civic Center, den Galerien von Old Town und weiteren kulturellen Sehenswürdigkeiten verbinden. Die aktuellen Öffnungszeiten sind mittwochs, freitags, samstags und sonntags von 11 bis 17 Uhr sowie donnerstags von 11 bis 19 Uhr. Montags und dienstags bleibt das Museum geschlossen. Da Ausstellungen und Programme wechseln können, sollte der aktuelle Veranstaltungskalender vor dem Besuch geprüft werden."
     },
     "activities": {
       "tr": [
-        "Sanat galerilerini gezmek",
-        "Çağdaş sanat eserlerini görmek"
+        "Çağdaş sanat eserlerini incelemek",
+        "Mimari ve tasarım sergilerini görmek",
+        "Knight Rise eserini deneyimlemek",
+        "Sergileri gezmek"
       ],
       "en": [
-        "Visit art galleries",
-        "See contemporary artworks"
+        "Explore contemporary artworks",
+        "See architecture and design exhibitions",
+        "Experience Knight Rise",
+        "Visit exhibitions"
       ],
       "de": [
-        "Kunstgalerien besuchen",
-        "Zeitgenössische Kunstwerke sehen"
+        "Zeitgenössische Kunst entdecken",
+        "Architektur- und Designausstellungen besuchen",
+        "Knight Rise erleben",
+        "Ausstellungen besichtigen"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "sanat",
+        "kültür"
       ],
       "en": [
-        "museum"
+        "museum",
+        "art",
+        "culture"
       ],
       "de": [
-        "museum"
+        "Museum",
+        "Kunst",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/scottsdale_museum_of_contemporary_art.jpg"
+      "https://images.squarespace-cdn.com/content/v1/60da2a060458516d04fb196a/3682cb70-58bf-4a23-ad24-9c4ff0251bff/SMoCA_2019_Building%2BExterior_photo-by-Charles-Darr.jpg"
     ]
   },
   {
@@ -95,40 +126,53 @@
       "en": "McDowell Sonoran Preserve",
       "de": "McDowell Sonoran Preserve"
     },
-    "latitude": 33.5872,
-    "longitude": -111.8231,
+    "latitude": 33.648953,
+    "longitude": -111.859156,
     "description": {
-      "tr": "McDowell Sonoran Preserve, Scottsdale'ın doğasında bulunan geniş bir koruma alanıdır. Ziyaretçiler, doğa yürüyüşleri yapabilir, vahşi yaşamı gözlemleyebilir ve manzaranın tadını çıkarabilirler.",
-      "en": "McDowell Sonoran Preserve is a vast preserve in the desert landscape of Scottsdale. Visitors can hike, observe wildlife, and enjoy scenic views.",
-      "de": "Das McDowell Sonoran Preserve ist ein großes Schutzgebiet in der Wüstenlandschaft von Scottsdale. Besucher können wandern, Wildtiere beobachten und die Aussicht genießen."
+      "tr": "McDowell Sonoran Preserve, Scottsdale'ın doğusunda yer alan ve Sonoran Çölü'nün önemli doğal alanlarını koruyan geniş bir koruma bölgesidir. 30.500 acre'dan fazla alanı ve 230 milden fazla çok amaçlı parkuru bulunan preserve, yürüyüş, bisiklet ve binicilik gibi açık hava aktiviteleri için kullanılır. Alan tek bir girişten oluşmadığı için ziyaretçilerin farklı bölgelerdeki trailhead noktalarından parklara ulaşması mümkündür. Gateway Trailhead, özellikle ziyaretçiler için önemli girişlerden biridir ve otopark, tuvalet, gölgelik alan, su ve erişilebilir Bajada Nature Trail gibi olanaklara sahiptir. Preserve içerisinde saguaro kaktüsleri, çöl bitkileri, kayalık tepeler ve farklı vahşi yaşam türleri görülebilir. Parkurların zorluk seviyeleri oldukça değişkendir; bazı kısa doğa parkurları daha kolayken, dağlık bölgelere çıkan rotalarda ciddi yükselti kazanımı bulunabilir. Tom's Thumb, Granite Mountain, Lost Dog Wash, Sunrise ve Brown's Ranch gibi farklı trailhead noktaları farklı manzaralara ve parkurlara erişim sağlar. Bölge ücretsizdir ve genel olarak gün doğumundan gün batımına kadar açıktır. Arizona'nın sıcak iklimi nedeniyle özellikle yaz aylarında günün serin saatlerinde yürüyüş yapmak önemlidir. Scottsdale şehrinin resmi yönetimi, sıcaklık koşullarının insanlar ve evcil hayvanlar için ciddi risk oluşturabileceği konusunda uyarıda bulunuyor. Preserve içerisinde gece konaklama ve kamp yapmaya izin verilmez. Doğa yürüyüşü, çöl fotoğrafçılığı ve Sonoran Çölü'nün karakteristik bitki örtüsünü görmek isteyenler için Scottsdale çevresindeki en önemli doğal alanlardan biridir.",
+      "en": "The McDowell Sonoran Preserve is a large protected desert area on the eastern side of Scottsdale that preserves important examples of the Sonoran Desert landscape. Covering more than 30,500 acres and containing over 230 miles of multi-use trails, the Preserve supports hiking, biking, and equestrian recreation. It is not a single-site attraction with one entrance; visitors can access different parts of the Preserve through numerous trailheads. Gateway Trailhead is one of the major access points and provides parking, restrooms, shade ramadas, water, and the accessible Bajada Nature Trail. The Preserve is home to saguaro cacti, desert vegetation, rocky mountain terrain, and a variety of wildlife. Trail difficulty varies considerably. Some nature trails are relatively accessible, while routes into the mountains can involve significant elevation gain. Trailheads such as Tom's Thumb, Granite Mountain, Lost Dog Wash, Sunrise, and Brown's Ranch provide access to different landscapes and hiking routes. Admission is free and the Preserve is generally open from sunrise to sunset. Arizona's desert heat can be hazardous, particularly during the hottest months, so early morning or cooler-hour hikes are advisable. The City of Scottsdale specifically warns visitors about heat exposure and recommends taking appropriate precautions. Overnight camping is not permitted in the Preserve. For visitors interested in hiking, desert photography, wildlife, and the characteristic scenery of the Sonoran Desert, McDowell Sonoran Preserve is one of the most significant natural areas around Scottsdale.",
+      "de": "Das McDowell Sonoran Preserve ist ein großes geschütztes Wüstengebiet im Osten von Scottsdale und bewahrt bedeutende Landschaften der Sonora-Wüste. Das Schutzgebiet umfasst mehr als 30.500 Acres und verfügt über mehr als 230 Meilen an Mehrzweckwegen für Wanderer, Radfahrer und Reiter. Es handelt sich nicht um eine einzelne Sehenswürdigkeit mit nur einem Eingang; verschiedene Bereiche sind über zahlreiche Trailheads erreichbar. Der Gateway Trailhead ist einer der wichtigsten Zugänge und bietet Parkplätze, Toiletten, Schattenbereiche, Wasser und den barrierearmen Bajada Nature Trail. Im Schutzgebiet wachsen typische Saguaro-Kakteen und andere Wüstenpflanzen, während felsige Berge und verschiedene Tierarten die Landschaft prägen. Die Schwierigkeitsgrade der Wege unterscheiden sich deutlich. Einige kurze Naturwege sind relativ einfach, während Bergwege erhebliche Höhenunterschiede aufweisen können. Trailheads wie Tom's Thumb, Granite Mountain, Lost Dog Wash, Sunrise und Brown's Ranch führen zu unterschiedlichen Landschaften und Wanderwegen. Der Eintritt ist kostenlos und das Schutzgebiet ist grundsätzlich von Sonnenaufgang bis Sonnenuntergang geöffnet. Aufgrund der extremen Wüstenhitze sollten Wanderungen besonders in den heißen Monaten möglichst in den kühleren Morgenstunden stattfinden. Die Stadt Scottsdale warnt ausdrücklich vor den Gefahren von Hitze und empfiehlt entsprechende Vorsichtsmaßnahmen. Übernachtungen und Camping sind im Preserve nicht erlaubt. Für Wanderungen, Wüstenfotografie, Tierbeobachtungen und das Erleben der typischen Sonora-Wüstenlandschaft gehört das McDowell Sonoran Preserve zu den wichtigsten Naturzielen rund um Scottsdale."
     },
     "activities": {
       "tr": [
-        "Yürüyüş yapmak",
-        "Vahşi yaşamı gözlemlemek"
+        "Doğa yürüyüşü yapmak",
+        "Çöl fotoğrafçılığı yapmak",
+        "Yaban hayatını gözlemlemek",
+        "Bisiklete binmek",
+        "Manzara izlemek"
       ],
       "en": [
         "Hike",
-        "Observe wildlife"
+        "Take desert photographs",
+        "Observe wildlife",
+        "Cycle",
+        "Enjoy scenic views"
       ],
       "de": [
         "Wandern",
-        "Wildtiere beobachten"
+        "Wüstenlandschaften fotografieren",
+        "Wildtiere beobachten",
+        "Radfahren",
+        "Aussichten genießen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "yürüyüş"
       ],
       "en": [
-        "nature"
+        "nature",
+        "hiking"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Wandern"
       ]
     },
     "images": [
-      "https://example.com/mcdowell_sonoran_preserve.jpg"
+      "https://media.sandiegoreader.com/img/photos/2022/11/13/McDowell_Sonoran_Preserve_t670.jpeg",
+      "https://www.experiencescottsdale.com/stories/post/gateway-to-the-sonoran-desert/"
     ]
   },
   {
@@ -138,40 +182,53 @@
       "en": "Taliesin West",
       "de": "Taliesin West"
     },
-    "latitude": 33.6175,
-    "longitude": -111.7906,
+    "latitude": 33.606274,
+    "longitude": -111.845029,
     "description": {
-      "tr": "Taliesin West, ünlü mimar Frank Lloyd Wright'ın evi ve çalışma alanıdır. Scottsdale'da bulunan bu yapı, modern mimarinin örneklerinden biridir.",
-      "en": "Taliesin West is the home and studio of famous architect Frank Lloyd Wright. Located in Scottsdale, it is a masterpiece of modern architecture.",
-      "de": "Taliesin West ist das Zuhause und Studio des berühmten Architekten Frank Lloyd Wright. Es befindet sich in Scottsdale und ist ein Meisterwerk der modernen Architektur."
+      "tr": "Taliesin West, dünyaca tanınan Amerikalı mimar Frank Lloyd Wright'ın Arizona'daki kışlık evi, çalışma alanı ve mimarlık kampüsü olarak tasarladığı önemli bir yapıdır. Scottsdale'ın kuzeydoğusunda McDowell Dağları'nın eteklerinde yer alan kompleks, Wright'ın organik mimarlık anlayışının çöl ortamına uyarlanmış en önemli örneklerinden biridir. Wright, Taliesin West'i 1930'ların sonunda Arizona'daki kışlık yaşamı için geliştirdi ve yapı zaman içerisinde hem kişisel konutu hem de mimarlık eğitimi verilen bir çalışma ortamı olarak kullanıldı. Yapının tasarımında çevrede bulunan taşlar ve çöl peyzajıyla uyum sağlayan malzemeler öne çıkar. Düşük yatay çizgiler, geniş teraslar, geometrik formlar, doğal taş duvarlar ve açık alanlarla iç mekan arasındaki geçişler kompleksin karakterini oluşturur. Taliesin West günümüzde Frank Lloyd Wright Foundation tarafından korunmaktadır ve ziyaretçilere rehberli ve farklı temalara sahip turlar sunulmaktadır. Yapı aynı zamanda Frank Lloyd Wright'ın 20. yüzyıl mimarisine ait sekiz yapısının oluşturduğu UNESCO Dünya Mirası listesinde yer alan seri mirasın parçalarından biridir. Adres 12621 N. Frank Lloyd Wright Blvd'dir ve ziyaret için önceden rezervasyon yapılması özellikle önerilir. Mimarlık, fotoğrafçılık ve tasarım meraklıları için Scottsdale'deki en özel ziyaret noktalarından biri olan Taliesin West, çöl manzarasıyla yapının mimari anlayışını aynı deneyimde buluşturur.",
+      "en": "Taliesin West is an important architectural complex in Scottsdale designed by renowned American architect Frank Lloyd Wright as his Arizona winter home, studio, and architectural campus. Located near the foothills of the McDowell Mountains, the property is one of the best-known examples of Wright's organic architecture adapted to the desert environment. Wright developed Taliesin West in the late 1930s as his winter residence and working environment, and the complex eventually became closely associated with architectural education as well. Local stone, desert-inspired materials, low horizontal lines, geometric forms, terraces, and transitions between indoor and outdoor spaces define its appearance. Taliesin West is preserved today by the Frank Lloyd Wright Foundation and is open to visitors through guided and themed tours. The site is also part of the UNESCO World Heritage serial property recognizing eight works of Frank Lloyd Wright that demonstrate the development of modern architecture. Taliesin West is located at 12621 N. Frank Lloyd Wright Blvd. Advance reservations are strongly recommended because tour availability is limited. The combination of architecture, desert landscape, history, and photography makes the complex one of Scottsdale's most distinctive cultural attractions. Visitors interested in modern architecture can observe how Wright incorporated natural materials, light, geometry, and the surrounding landscape into a single architectural environment.",
+      "de": "Taliesin West ist ein bedeutender Architekturkomplex in Scottsdale, den der berühmte amerikanische Architekt Frank Lloyd Wright als Winterhaus, Atelier und Architekturschule in Arizona entwarf. Das Anwesen liegt am Fuß der McDowell Mountains und gehört zu den bekanntesten Beispielen für Wrights organische Architektur, die an die Bedingungen der Wüstenlandschaft angepasst wurde. Wright entwickelte Taliesin West Ende der 1930er Jahre als Winterwohnsitz und Arbeitsstätte. Später wurde der Komplex auch eng mit der architektonischen Ausbildung verbunden. Naturstein, Materialien aus der Umgebung, niedrige horizontale Linien, geometrische Formen, Terrassen und fließende Übergänge zwischen Innen- und Außenräumen prägen die Architektur. Heute wird Taliesin West von der Frank Lloyd Wright Foundation erhalten und kann im Rahmen verschiedener Führungen besichtigt werden. Die Anlage gehört außerdem zum UNESCO-Welterbe, das acht Bauwerke von Frank Lloyd Wright als Beispiele für die Entwicklung der modernen Architektur zusammenfasst. Taliesin West befindet sich in der 12621 N. Frank Lloyd Wright Blvd. Eine Reservierung im Voraus wird ausdrücklich empfohlen, da die Tourplätze begrenzt sind. Die Verbindung aus Architektur, Wüstenlandschaft, Geschichte und Fotografie macht Taliesin West zu einem der besonderen kulturellen Ziele in Scottsdale."
     },
     "activities": {
       "tr": [
         "Mimariyi keşfetmek",
-        "Tarihi yapıları gezmek"
+        "Rehberli tura katılmak",
+        "Fotoğraf çekmek",
+        "Frank Lloyd Wright'ın tasarım anlayışını incelemek"
       ],
       "en": [
         "Explore architecture",
-        "Tour historic buildings"
+        "Join a guided tour",
+        "Take photographs",
+        "Study Frank Lloyd Wright's design"
       ],
       "de": [
-        "Architektur erkunden",
-        "Historische Gebäude besichtigen"
+        "Architektur entdecken",
+        "An einer Führung teilnehmen",
+        "Fotografieren",
+        "Frank Lloyd Wrights Architektur kennenlernen"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "mimari",
+        "kültür"
       ],
       "en": [
-        "historic"
+        "historic",
+        "architecture",
+        "culture"
       ],
       "de": [
-        "Historisch"
+        "Historisch",
+        "Architektur",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/taliesin_west.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Taliesin%20West-1.jpg",
+      "https://blog.assets.thediscoverer.com/2022/06/shutterstock_1893156103.jpg"
     ]
   },
   {
@@ -181,43 +238,178 @@
       "en": "Scottsdale Waterfront",
       "de": "Scottsdale Waterfront"
     },
-    "latitude": 33.5086,
-    "longitude": -111.9016,
+    "latitude": 33.499611,
+    "longitude": -111.928306,
     "description": {
-      "tr": "Scottsdale Waterfront, alışveriş ve yemek için harika bir bölgedir. Ziyaretçiler, yürüyüş yapabilir veya gölet etrafında dolaşarak manzaranın tadını çıkarabilir.",
-      "en": "Scottsdale Waterfront is a great area for shopping and dining. Visitors can walk along the waterfront or explore the area while enjoying the view.",
-      "de": "Der Scottsdale Waterfront ist ein großartiger Ort zum Einkaufen und Essen. Besucher können am Wasser entlang spazieren oder das Gebiet erkunden, während sie den Blick genießen."
+      "tr": "Scottsdale Waterfront, Arizona Canal çevresinde oluşturulan ve Old Town Scottsdale'ın alışveriş, restoran, yürüyüş ve kamusal sanat alanlarını birbirine bağlayan şehir içi bir bölgedir. Buradaki su kanalı doğal bir göl ya da nehir değil, Arizona Canal sisteminin bir parçasıdır. Kanal boyunca uzanan yürüyüş alanları palmiye ağaçları, peyzaj düzenlemeleri, restoranlar, mağazalar ve çağdaş sanat eserleriyle çevrilidir. Scottsdale Waterfront ve Southbridge bölgesi, Old Town'ın farklı bölümleri arasında geçiş sağlayan önemli noktalardan biridir. Soleri Bridge ve Marshall Way Bridge gibi yaya köprüleri kanal çevresindeki alanları birbirine bağlar. Bölge yıl boyunca çeşitli etkinliklere ev sahipliği yapar ve özellikle Canal Convergence gibi kamusal sanat etkinlikleri sırasında interaktif sanat eserleri ve ışık çalışmalarıyla farklı bir görünüme kavuşur. Scottsdale Fashion Square'in hemen karşısında bulunması nedeniyle alışveriş gezisiyle birlikte ziyaret etmek de kolaydır. Waterfront boyunca yürüyüş yapmak, kanalı ve çevredeki mimariyi fotoğraflamak, restoranlarda yemek yemek veya Old Town'ın diğer bölgelerine yürüyerek geçmek mümkündür. Günün sıcak saatlerinde Arizona iklimi nedeniyle açık alanda uzun süre kalırken dikkatli olmak gerekir. Scottsdale Waterfront, doğa parkından ziyade şehir yaşamı, kanal peyzajı, alışveriş, gastronomi ve kamusal sanatın birleştiği kentsel bir gezi noktası olarak değerlendirilmelidir.",
+      "en": "Scottsdale Waterfront is an urban district built around the Arizona Canal that connects shopping, dining, walking paths, and public art areas in and around Old Town Scottsdale. The waterway is not a natural lake or river but part of the Arizona Canal system. Pedestrian paths along the canal are surrounded by palm trees, landscaped areas, restaurants, shops, fountains, and contemporary public artworks. The Waterfront and Southbridge districts form an important connection between different parts of Old Town. Pedestrian bridges such as Soleri Bridge and Marshall Way Bridge connect areas on both sides of the canal. The district hosts events throughout the year and takes on a particularly distinctive atmosphere during public art events such as Canal Convergence, when interactive installations and illuminated artworks are displayed along the waterfront. Scottsdale Fashion Square is directly across the area, making it easy to combine the Waterfront with shopping. Visitors can walk along the canal, photograph the water and architecture, dine at nearby restaurants, or continue on foot toward other Old Town districts. Because Scottsdale has a hot desert climate, visitors should take precautions when spending extended periods outdoors during the hottest parts of the day. Scottsdale Waterfront is best understood as an urban leisure area where canal scenery, shopping, dining, architecture, and public art come together rather than as a conventional nature attraction.",
+      "de": "Scottsdale Waterfront ist ein Stadtviertel am Arizona Canal, das Spazierwege, Einkaufsmöglichkeiten, Restaurants und öffentliche Kunst im Bereich von Old Town Scottsdale miteinander verbindet. Der Wasserlauf ist kein natürlicher See oder Fluss, sondern Teil des Arizona-Canal-Systems. Entlang des Kanals befinden sich Fußwege, Palmen, gestaltete Grünflächen, Restaurants, Geschäfte, Brunnen und zeitgenössische Kunstwerke. Die Bereiche Waterfront und Southbridge verbinden verschiedene Teile von Old Town miteinander. Fußgängerbrücken wie die Soleri Bridge und die Marshall Way Bridge führen über den Kanal und verbinden die angrenzenden Viertel. Das Gebiet ist das ganze Jahr über Veranstaltungsort verschiedener Events und wird während Kunstveranstaltungen wie Canal Convergence durch interaktive Installationen und Lichtkunst besonders interessant. Das Scottsdale Fashion Square befindet sich direkt gegenüber, sodass sich ein Besuch gut mit einer Shoppingtour kombinieren lässt. Besucher können am Kanal spazieren, die Landschaft und Architektur fotografieren, in einem Restaurant essen oder zu weiteren Bereichen von Old Town weitergehen. Aufgrund des heißen Wüstenklimas sollten Besucher in den heißesten Tagesstunden auf ausreichenden Sonnenschutz und Flüssigkeit achten. Scottsdale Waterfront ist weniger als Naturpark zu verstehen, sondern vielmehr als urbaner Freizeitbereich, in dem Kanallandschaft, Shopping, Gastronomie, Architektur und öffentliche Kunst zusammenkommen."
     },
     "activities": {
       "tr": [
+        "Kanal boyunca yürümek",
+        "Fotoğraf çekmek",
+        "Restoranları keşfetmek",
         "Alışveriş yapmak",
-        "Yürüyüş yapmak",
-        "Yemek yemek"
+        "Kamusal sanat eserlerini görmek",
+        "Etkinliklere katılmak"
       ],
       "en": [
+        "Walk along the canal",
+        "Take photographs",
+        "Explore restaurants",
         "Shop",
-        "Walk",
-        "Eat"
+        "See public art",
+        "Attend events"
       ],
       "de": [
+        "Am Kanal spazieren",
+        "Fotografieren",
+        "Restaurants entdecken",
         "Einkaufen",
-        "Spazieren gehen",
-        "Essen"
+        "Öffentliche Kunst sehen",
+        "Veranstaltungen besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "şehir",
+        "alışveriş",
+        "sanat",
+        "eğlence"
       ],
       "en": [
-        "nature"
+        "urban",
+        "shopping",
+        "art",
+        "entertainment"
       ],
       "de": [
-        "Natur"
+        "Stadt",
+        "Shopping",
+        "Kunst",
+        "Unterhaltung"
       ]
     },
     "images": [
-      "https://example.com/scottsdale_waterfront.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scottsdale%20waterfront.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scottsdale%20Waterfront.jpg"
+    ]
+  },
+  {
+    "slug": "western-spirit-scottsdales-museum-of-the-west",
+    "name": {
+      "tr": "Western Spirit: Scottsdale Batı Müzesi",
+      "en": "Western Spirit: Scottsdale's Museum of the West",
+      "de": "Western Spirit: Scottsdale's Museum of the West"
+    },
+    "latitude": 33.4945,
+    "longitude": -111.9198,
+    "description": {
+      "tr": "Western Spirit: Scottsdale's Museum of the West, Old Town Scottsdale'ın Arts District bölümünde yer alan ve Amerikan Batısı'nın tarihini, sanatını ve kültürel mirasını anlatan önemli bir müzedir. Müze 2015 yılında açılmış ve Smithsonian Affiliate statüsüne sahip olmuştur. Sergiler yalnızca kovboy kültürüne odaklanmak yerine Amerikan Batısı'nın farklı topluluklarını, yerli halkların kültürlerini, batıya doğru genişlemeyi, sanat ve günlük yaşamı farklı koleksiyonlar üzerinden ele alır. Müzenin koleksiyon ve sergilerinde Batı sanatına ait eserler, tarihi objeler, kovboy ekipmanları, Hopi seramikleri, afişler, fotoğraflar ve farklı dönemlere ait kültürel materyaller görülebilir. Sergiler dönemsel olarak değiştiğinden müze farklı ziyaretlerde yeni içerikler sunabilir. Modern mimarisiyle de dikkat çeken yapı, Old Town'ın galerileri ve diğer kültürel noktalarıyla birlikte gezilebilir. Müze 3830 N. Marshall Way adresinde bulunur ve güncel çalışma saatleri pazartesiden cumartesiye 09.30-17.00, pazar günü ise 11.00-17.00 şeklindedir. Perşembe günleri dönemsel olarak uzatılmış akşam saatleri uygulanabilir. Western Spirit, Scottsdale'ın 'West's Most Western Town' kimliğini anlamak ve Arizona ile Amerikan Batısı arasındaki kültürel bağlantıları daha yakından görmek isteyen ziyaretçiler için Old Town'daki en önemli müzelerden biridir.",
+      "en": "Western Spirit: Scottsdale's Museum of the West is located in Old Town Scottsdale's Arts District and explores the history, art, and cultural heritage of the American West. The museum opened in 2015 and became a Smithsonian Affiliate. Its exhibitions go beyond the traditional cowboy image and examine different communities, Indigenous cultures, westward expansion, art, and everyday life through collections and changing exhibitions. Visitors can encounter Western artworks, historic objects, cowboy equipment, Hopi pottery, posters, photographs, and cultural materials from different periods. Because exhibitions change over time, the museum can offer different experiences on subsequent visits. The contemporary building itself is also notable and fits naturally into an itinerary focused on Old Town's galleries, public art, and cultural attractions. The museum is located at 3830 N. Marshall Way. Current general hours are 9:30 a.m. to 5 p.m. Monday through Saturday and 11 a.m. to 5 p.m. Sunday, with seasonal extended Thursday hours. Western Spirit is one of the most important museums in Old Town for visitors who want to understand Scottsdale's identity as the 'West's Most Western Town' and explore the cultural history of Arizona and the wider American West.",
+      "de": "Western Spirit: Scottsdale's Museum of the West befindet sich im Arts District von Old Town Scottsdale und beschäftigt sich mit der Geschichte, Kunst und dem kulturellen Erbe des amerikanischen Westens. Das Museum wurde 2015 eröffnet und ist heute ein Smithsonian Affiliate. Die Ausstellungen beschränken sich nicht auf das klassische Cowboybild, sondern behandeln verschiedene Gemeinschaften, indigene Kulturen, die Expansion nach Westen, Kunst und Alltag anhand wechselnder Sammlungen. Besucher können westliche Kunstwerke, historische Objekte, Cowboy-Ausrüstung, Hopi-Keramik, Plakate, Fotografien und kulturelle Materialien aus unterschiedlichen Epochen sehen. Da die Ausstellungen regelmäßig wechseln, kann das Museum bei späteren Besuchen neue Inhalte bieten. Auch das moderne Museumsgebäude selbst ist architektonisch interessant und lässt sich gut mit den Galerien, öffentlichen Kunstwerken und anderen Kulturangeboten von Old Town verbinden. Das Museum befindet sich in 3830 N. Marshall Way. Die allgemeinen Öffnungszeiten sind derzeit montags bis samstags von 9:30 bis 17 Uhr und sonntags von 11 bis 17 Uhr; donnerstags können saisonal verlängerte Öffnungszeiten gelten. Western Spirit gehört zu den wichtigsten Museen in Old Town für Besucher, die Scottsdale als 'West's Most Western Town' kennenlernen und die Kulturgeschichte Arizonas und des amerikanischen Westens besser verstehen möchten."
+    },
+    "activities": {
+      "tr": [
+        "Amerikanı Batı tarihini keşfetmek",
+        "Batı sanatını incelemek",
+        "Yerli kültürlerine ait eserleri görmek",
+        "Tarihi objeleri incelemek"
+      ],
+      "en": [
+        "Explore American West history",
+        "View Western art",
+        "See Indigenous cultural works",
+        "Explore historic objects"
+      ],
+      "de": [
+        "Die Geschichte des amerikanischen Westens entdecken",
+        "Westliche Kunst betrachten",
+        "Indigene Kultur kennenlernen",
+        "Historische Objekte entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "tarih",
+        "kültür",
+        "sanat"
+      ],
+      "en": [
+        "museum",
+        "history",
+        "culture",
+        "art"
+      ],
+      "de": [
+        "Museum",
+        "Geschichte",
+        "Kultur",
+        "Kunst"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20Spirit%20Scottsdale%27s%20Museum%20of%20the%20West.jpg"
+    ]
+  },
+  {
+    "slug": "scottsdale-civic-center",
+    "name": {
+      "tr": "Scottsdale Civic Center",
+      "en": "Scottsdale Civic Center",
+      "de": "Scottsdale Civic Center"
+    },
+    "latitude": 33.4940,
+    "longitude": -111.9219,
+    "description": {
+      "tr": "Scottsdale Civic Center, Old Town Scottsdale'ın tarihi merkezinde yer alan geniş bir kamusal park ve kültür alanıdır. Yenilenen park alanı çimler, yürüyüş yolları, çeşmeler, lagünler, bahçeler, kamusal sanat eserleri ve etkinlik alanlarını bir araya getirir. Bölgenin en tanınan sanat eserlerinden biri Robert Indiana'nın LOVE heykelidir. Civic Center aynı zamanda Scottsdale Center for the Performing Arts, Scottsdale Museum of Contemporary Art ve Scottsdale Civic Center Library gibi önemli kültür kurumlarına yakın konumda bulunur. Park içerisinde Water and Fog Plaza, çocuk bahçeleri, etkinlik çimleri ve dinlenme alanları da yer alır. Bu nedenle yalnızca müze ziyaretleri arasında geçiş yapılan bir alan değil, başlı başına yürüyüş ve açık hava gezisi için değerlendirilebilecek bir noktadır. Parkın yenileme çalışmaları sonrasında farklı bölümleri daha açık ve erişilebilir hale getirilmiş, kamusal sanat eserleri yeniden konumlandırılmıştır. Güncel park saatleri gün doğumundan 22.30'a kadar olarak belirtilmektedir. Civic Center'ı SMoCA ve Old Town'ın sanat galerileriyle birlikte gezmek oldukça kolaydır. Özellikle fotoğraf çekmek, kamusal sanat eserlerini görmek, kısa bir yürüyüş yapmak veya şehir merkezinde dinlenmek isteyenler için Scottsdale gezi rotasına eklenebilecek önemli bir açık alan noktasıdır.",
+      "en": "Scottsdale Civic Center is a large public park and cultural space in the historic heart of Old Town Scottsdale. The renovated park combines lawns, walking paths, fountains, lagoons, gardens, public art, and event spaces. One of its best-known artworks is Robert Indiana's LOVE sculpture. Civic Center is also close to important cultural institutions including Scottsdale Center for the Performing Arts, Scottsdale Museum of Contemporary Art, and Scottsdale Civic Center Library. The park includes the Water and Fog Plaza, children's gardens, event lawns, and areas for relaxing. It therefore works not only as a connection between museums and attractions but also as a destination for walking and spending time outdoors. Following its recent renovation, several areas have been redesigned to improve connections and accessibility, while public artworks have returned to the park in new locations. Current park hours are listed as sunrise to 10:30 p.m. Civic Center is easy to combine with SMoCA and the galleries and historic attractions of Old Town. It is a useful stop for visitors interested in public art, photography, a short urban walk, or simply taking a break while exploring downtown Scottsdale.",
+      "de": "Das Scottsdale Civic Center ist ein großer öffentlicher Park und Kulturraum im historischen Zentrum von Old Town Scottsdale. Der renovierte Park verbindet Rasenflächen, Spazierwege, Brunnen, Lagunen, Gärten, öffentliche Kunst und Veranstaltungsbereiche. Zu den bekanntesten Kunstwerken gehört die LOVE-Skulptur von Robert Indiana. In unmittelbarer Nähe befinden sich wichtige Kulturinstitutionen wie das Scottsdale Center for the Performing Arts, das Scottsdale Museum of Contemporary Art und die Scottsdale Civic Center Library. Im Park gibt es außerdem den Water and Fog Plaza, Kindergärten, Veranstaltungsflächen und Bereiche zum Entspannen. Damit ist der Civic Center nicht nur eine Verbindung zwischen verschiedenen Sehenswürdigkeiten, sondern auch ein eigenständiges Ziel für Spaziergänge und Erholung im Freien. Nach der jüngsten Renovierung wurden mehrere Bereiche neu gestaltet und öffentliche Kunstwerke an neuen Standorten wieder aufgestellt. Die aktuellen Parköffnungszeiten werden mit Sonnenaufgang bis 22:30 Uhr angegeben. Der Civic Center lässt sich besonders gut mit SMoCA sowie den Galerien und historischen Sehenswürdigkeiten von Old Town verbinden. Für Besucher, die öffentliche Kunst, Fotografie, einen kurzen Stadtspaziergang oder eine Pause während ihrer Scottsdale-Erkundung suchen, ist der Park eine sinnvolle Ergänzung."
+    },
+    "activities": {
+      "tr": [
+        "Yürüyüş yapmak",
+        "LOVE heykelini görmek",
+        "Kamusal sanat eserlerini incelemek",
+        "Fotoğraf çekmek",
+        "Bahçeleri ve açık alanları keşfetmek"
+      ],
+      "en": [
+        "Walk",
+        "See the LOVE sculpture",
+        "Explore public art",
+        "Take photographs",
+        "Explore gardens and open spaces"
+      ],
+      "de": [
+        "Spazieren gehen",
+        "Die LOVE-Skulptur sehen",
+        "Öffentliche Kunst entdecken",
+        "Fotografieren",
+        "Gärten und Freiflächen erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park",
+        "sanat",
+        "kültür"
+      ],
+      "en": [
+        "park",
+        "art",
+        "culture"
+      ],
+      "de": [
+        "Park",
+        "Kunst",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Scottsdale%20Civic%20Center.jpg"
     ]
   }
 ]

@@ -1,88 +1,130 @@
 [
   {
-    "slug": "kara-kaya-kilisesi",
+    "slug": "kara-kilise",
     "name": {
-      "tr": "Kara Kaya Kilisesi",
-      "en": "Black Church",
-      "de": "Schwarze Kirche"
+      "tr": "Kara Kilise (Biserica Neagră)",
+      "en": "Black Church (Biserica Neagră)",
+      "de": "Schwarze Kirche (Biserica Neagră)"
     },
-    "latitude": 45.6333,
-    "longitude": 25.5861,
+    "latitude": 45.64091,
+    "longitude": 25.58764,
     "description": {
-      "tr": "Kara Kaya Kilisesi, Brașov'un en eski ve en önemli dini yapılarından biridir. Gotik mimarisi ile dikkat çeker.",
-      "en": "The Black Church is one of Brașov's oldest and most important religious buildings, famous for its Gothic architecture.",
-      "de": "Die Schwarze Kirche ist eines der ältesten und wichtigsten religiösen Gebäude in Brașov, bekannt für ihre gotische Architektur."
+      "tr": "Kara Kilise (Biserica Neagră), Romanya'nın Brașov kentinin en önemli tarihi yapılarından ve ülkenin en dikkat çekici Gotik kiliselerinden biridir. Yapının inşası 14. yüzyılın sonlarında başlamış ve ana yapı 1477 yılına kadar tamamlanmıştır. Başlangıçta Aziz Meryem'e adanan Katolik bir kilise olan yapı, Reform hareketinin ardından 16. yüzyılda Evanjelik-Lüteriyen topluluğun kilisesi haline gelmiştir. 1689 yılında Brașov'u etkileyen büyük yangında ağır hasar gören kilisenin duvarları yangın nedeniyle kararmış ve yapı zamanla 'Kara Kilise' adıyla tanınmıştır. Kilisenin iç mekânında etkileyici Gotik mimari ayrıntılar, tarihi doğu halıları ve büyük Buchholz orgu dikkat çeker. Brașov'un tarihi merkezinde, Piața Sfatului'na çok yakın konumda bulunan kilise hem mimarisi hem de şehrin Sakson geçmişini yansıtan tarihiyle ziyaret edilebilecek başlıca yapılardan biridir.",
+      "en": "The Black Church (Biserica Neagră) is one of Brașov's most important historic landmarks and one of Romania's most impressive Gothic churches. Construction began in the late 14th century and the main structure was completed in 1477. Originally a Catholic church dedicated to Saint Mary, it became an Evangelical Lutheran church following the Reformation in the 16th century. The building was severely damaged during the great fire of 1689, which darkened its walls and eventually gave the church its famous name. Inside, visitors can see impressive Gothic architectural details, a remarkable collection of historic Oriental carpets and the monumental Buchholz organ. Located in the heart of Brașov's historic center, close to Piața Sfatului, the church is an important stop for understanding the city's medieval and Transylvanian Saxon heritage.",
+      "de": "Die Schwarze Kirche (Biserica Neagră) gehört zu den bedeutendsten historischen Sehenswürdigkeiten von Brașov und ist eine der beeindruckendsten gotischen Kirchen Rumäniens. Der Bau begann Ende des 14. Jahrhunderts und wurde 1477 weitgehend abgeschlossen. Ursprünglich war die Kirche der Heiligen Maria geweiht und katholisch. Nach der Reformation im 16. Jahrhundert wurde sie zur evangelisch-lutherischen Kirche. Beim großen Stadtbrand von 1689 wurde das Gebäude schwer beschädigt und die Außenmauern verdunkelten sich, wodurch der Name 'Schwarze Kirche' entstand. Im Inneren befinden sich eindrucksvolle gotische Architekturdetails, historische orientalische Teppiche sowie die monumentale Buchholz-Orgel. Die Kirche liegt im Herzen der historischen Altstadt nahe der Piața Sfatului und vermittelt einen wichtigen Einblick in die mittelalterliche Geschichte und das kulturelle Erbe der Siebenbürger Sachsen."
     },
     "activities": {
       "tr": [
         "Kilisenin içini gezme",
-        "Mimari detayları inceleme"
+        "Gotik mimariyi inceleme",
+        "Tarihi doğu halılarını görme",
+        "Buchholz orgunu inceleme",
+        "Kilisenin tarihini keşfetme",
+        "Piața Sfatului çevresini gezme"
       ],
       "en": [
-        "Tour the church interior",
-        "Examine the architectural details"
+        "Visit the church interior",
+        "Admire the Gothic architecture",
+        "See the historic Oriental carpets",
+        "View the Buchholz organ",
+        "Explore the church's history",
+        "Explore the area around Piața Sfatului"
       ],
       "de": [
-        "Das Innere der Kirche besichtigen",
-        "Die architektonischen Details untersuchen"
+        "Das Kircheninnere besichtigen",
+        "Die gotische Architektur bewundern",
+        "Historische orientalische Teppiche sehen",
+        "Die Buchholz-Orgel besichtigen",
+        "Die Geschichte der Kirche entdecken",
+        "Die Umgebung der Piața Sfatului erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "kilise",
+        "tarih",
+        "mimari",
+        "kültür"
       ],
       "en": [
-        "church"
+        "church",
+        "history",
+        "architecture",
+        "culture"
       ],
       "de": [
-        "kirche"
+        "kirche",
+        "geschichte",
+        "architektur",
+        "kultur"
       ]
     },
     "images": [
-      "https://example.com/black_church.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/RO%20BV%20Biserica%20Neagr%C4%83.jpg"
     ]
   },
   {
-    "slug": "pia-a-sfatului",
+    "slug": "piata-sfatului",
     "name": {
       "tr": "Piața Sfatului",
-      "en": "Piața Sfatului",
-      "de": "Piața Sfatului"
+      "en": "Piața Sfatului (Council Square)",
+      "de": "Piața Sfatului (Ratsplatz)"
     },
-    "latitude": 45.6415,
-    "longitude": 25.5869,
+    "latitude": 45.64270,
+    "longitude": 25.58860,
     "description": {
-      "tr": "Piața Sfatului, Brașov'un tarihi meydanıdır ve şehrin merkezinde yer alan güzel binaları ile ünlüdür.",
-      "en": "Piața Sfatului is the historic square of Brașov, famous for its beautiful buildings located in the city center.",
-      "de": "Der Piața Sfatului ist der historische Platz in Brașov, bekannt für seine schönen Gebäude im Stadtzentrum."
+      "tr": "Piața Sfatului, Brașov'un tarihi merkezinin kalbinde yer alan ve şehrin en tanınmış meydanlarından biridir. Orta Çağ'dan bu yana ticari ve siyasi yaşamın önemli merkezlerinden biri olan meydan, renkli tarihi binaları, eski tüccar evleri, kafeleri ve çevresindeki dar sokaklarıyla dikkat çeker. Meydanın merkezinde Brașov'un eski belediye binası olan Casa Sfatului bulunur ve yapının saat kulesi meydanın en belirgin simgelerinden biridir. Çevrede Gotik, Rönesans ve Barok mimari özellikleri taşıyan yapılar görülebilir. Kara Kilise de meydana çok yakın konumdadır. Piața Sfatului günümüzde yürüyüş yapmak, tarihi şehir dokusunu keşfetmek, meydandaki kafelerde oturmak ve Brașov'un eski kent atmosferini deneyimlemek için şehrin en uygun noktalarından biridir.",
+      "en": "Piața Sfatului, or Council Square, is the historic heart of Brașov and one of the city's best-known public spaces. It has played an important role in the city's commercial and political life since the Middle Ages. The square is surrounded by colorful historic buildings, former merchant houses, cafés and narrow streets that lead into Brașov's old town. At its center stands Casa Sfatului, the former town hall, whose clock tower is one of the most recognizable landmarks of the square. Gothic, Renaissance and Baroque architectural elements can be seen throughout the surrounding buildings. The Black Church is also located only a short walk away. Today, Piața Sfatului is an ideal place to walk, admire the historic architecture, enjoy the cafés and experience the atmosphere of Brașov's old town.",
+      "de": "Die Piața Sfatului, auch Ratsplatz genannt, liegt im historischen Herzen von Brașov und gehört zu den bekanntesten Plätzen der Stadt. Seit dem Mittelalter war sie ein bedeutendes Zentrum des wirtschaftlichen und politischen Lebens. Der Platz ist von farbenfrohen historischen Gebäuden, ehemaligen Kaufmannshäusern, Cafés und engen Gassen umgeben, die in die Altstadt führen. In der Mitte steht die Casa Sfatului, das ehemalige Rathaus, dessen Uhrturm zu den bekanntesten Wahrzeichen des Platzes gehört. In der Umgebung finden sich Gebäude mit gotischen, Renaissance- und barocken Elementen. Auch die Schwarze Kirche befindet sich nur wenige Gehminuten entfernt. Heute eignet sich die Piața Sfatului hervorragend für Spaziergänge, zum Entdecken der historischen Architektur, für eine Pause in einem Café und zum Erleben der Atmosphäre der Brașover Altstadt."
     },
     "activities": {
       "tr": [
-        "Meydanı keşfetme",
-        "Çevredeki kafelerde oturma"
+        "Tarihi meydanı keşfetme",
+        "Casa Sfatului'yu görme",
+        "Tarihi binaları ve mimariyi fotoğraflama",
+        "Çevredeki kafelerde oturma",
+        "Eski şehir sokaklarında yürüyüş yapma",
+        "Kara Kilise'yi ziyaret etme"
       ],
       "en": [
-        "Explore the square",
-        "Sit at the cafes around it"
+        "Explore the historic square",
+        "See Casa Sfatului",
+        "Photograph the historic buildings and architecture",
+        "Relax at the surrounding cafés",
+        "Walk through the old town streets",
+        "Visit the Black Church"
       ],
       "de": [
-        "Den Platz erkunden",
-        "In den umliegenden Cafés sitzen"
+        "Den historischen Platz erkunden",
+        "Die Casa Sfatului besichtigen",
+        "Historische Gebäude und Architektur fotografieren",
+        "In den umliegenden Cafés entspannen",
+        "Durch die Gassen der Altstadt spazieren",
+        "Die Schwarze Kirche besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarihi meydan",
+        "tarih",
+        "kültür",
+        "şehir"
       ],
       "en": [
-        "historic square"
+        "historic square",
+        "history",
+        "culture",
+        "city"
       ],
       "de": [
-        "historischer Platz"
+        "historischer platz",
+        "geschichte",
+        "kultur",
+        "stadt"
       ]
     },
     "images": [
-      "https://example.com/piata_sfatului.jpg"
+      "https://ipanematravels.com/wp-content/uploads/2019/06/Brasov-1024x683.jpg"
     ]
   }
 ]

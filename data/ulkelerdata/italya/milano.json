@@ -3,43 +3,68 @@
     "slug": "duomo-di-milano",
     "name": {
       "tr": "Duomo di Milano",
-      "en": "Duomo di Milano",
-      "de": "Duomo di Milano"
+      "en": "Milan Cathedral",
+      "de": "Mailänder Dom"
     },
-    "latitude": 45.4642,
-    "longitude": 9.19,
+    "latitude": 45.4641,
+    "longitude": 9.1919,
     "description": {
-      "tr": "Duomo di Milano, İtalya'nın en büyük Gotik katedrali olup, Milano'nun en ünlü simgesidir.",
-      "en": "Duomo di Milano is Italy's largest Gothic cathedral and is Milan's most famous landmark.",
-      "de": "Der Duomo di Milano ist die größte gotische Kathedrale Italiens und das bekannteste Wahrzeichen Mailands."
+      "tr": "Duomo di Milano, Milano'nun kalbinde yükselen ve İtalya'nın en görkemli Gotik mimari eserlerinden biri olan katedraldir. Yapımına 1386 yılında başlanan yapı, altı yüzyıldan uzun süren çalışmalar sonucunda bugünkü görünümüne kavuşmuştur. Candoglia mermerinden inşa edilen katedral; binlerce heykeli, kuleleri, vitrayları ve altın renkli Madonnina heykelinin bulunduğu ana kulesiyle Milano'nun en önemli simgelerinden biridir. Katedralin içinin yanı sıra çatı teraslarına çıkarak kuleleri yakından görebilir ve Milano manzarasını seyredebilirsiniz.",
+      "en": "Milan Cathedral, or Duomo di Milano, is one of Italy's most magnificent Gothic monuments and one of Milan's most recognizable landmarks. Construction began in 1386 and continued for more than six centuries. Built largely from Candoglia marble, the cathedral is famous for its thousands of statues, elaborate spires, stained-glass windows and the golden Madonnina statue crowning its main spire. Visitors can explore the cathedral interior and climb to the rooftop terraces to admire the Gothic details and panoramic views of Milan.",
+      "de": "Der Mailänder Dom, Duomo di Milano, gehört zu den eindrucksvollsten gotischen Bauwerken Italiens und ist eines der bekanntesten Wahrzeichen Mailands. Mit dem Bau wurde 1386 begonnen, und die Arbeiten dauerten mehr als sechs Jahrhunderte. Der größtenteils aus Candoglia-Marmor errichtete Dom ist für seine zahlreichen Statuen, kunstvollen Spitzen, Glasfenster und die vergoldete Madonnina auf der Hauptspitze bekannt. Besucher können das Innere des Doms besichtigen und die Dachterrassen erkunden, um die gotischen Details und den Panoramablick über Mailand zu genießen."
     },
     "activities": {
       "tr": [
-        "Katedrali gezme",
-        "Kuleye çıkarak şehir manzarasını izleme"
+        "Katedrali ziyaret etme",
+        "Duomo çatı teraslarına çıkma",
+        "Gotik heykel ve mimari detayları inceleme",
+        "Madonnina'yı görme",
+        "Milano manzarasını seyretme",
+        "Arkeolojik alanı ve Duomo Müzesi'ni ziyaret etme"
       ],
       "en": [
-        "Tour the cathedral",
-        "Climb the tower for a city view"
+        "Visit the cathedral",
+        "Explore the Duomo rooftops",
+        "Admire Gothic sculptures and architectural details",
+        "See the Madonnina",
+        "Enjoy panoramic views of Milan",
+        "Visit the archaeological area and Duomo Museum"
       ],
       "de": [
         "Die Kathedrale besichtigen",
-        "Den Turm besteigen und die Stadtansicht genießen"
+        "Die Dachterrassen des Doms erkunden",
+        "Gotische Skulpturen und architektonische Details bewundern",
+        "Die Madonnina sehen",
+        "Den Panoramablick über Mailand genießen",
+        "Das archäologische Areal und das Dommuseum besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "kilise"
+        "katedral",
+        "tarih",
+        "mimari",
+        "Gotik",
+        "manzara"
       ],
       "en": [
-        "church"
+        "cathedral",
+        "history",
+        "architecture",
+        "Gothic",
+        "viewpoint"
       ],
       "de": [
-        "kirche"
+        "Kathedrale",
+        "Geschichte",
+        "Architektur",
+        "Gotik",
+        "Aussichtspunkt"
       ]
     },
     "images": [
-      "https://example.com/duomo_milano.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Duomo%2C%20Milan%20Italy.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Milan%20Cathedral%20%28Duomo%29.jpg"
     ]
   },
   {
@@ -49,40 +74,246 @@
       "en": "Galleria Vittorio Emanuele II",
       "de": "Galleria Vittorio Emanuele II"
     },
-    "latitude": 45.4686,
-    "longitude": 9.19,
+    "latitude": 45.4656,
+    "longitude": 9.1900,
     "description": {
-      "tr": "Galleria Vittorio Emanuele II, lüks mağazalar ve restoranlarla dolu tarihi bir alışveriş galerisi olup, Milano'nun en ikonik yapılarından biridir.",
-      "en": "Galleria Vittorio Emanuele II is a historic shopping gallery filled with luxury stores and restaurants, one of Milan's most iconic buildings.",
-      "de": "Die Galleria Vittorio Emanuele II ist eine historische Einkaufsstraße mit Luxusgeschäften und Restaurants und eines der bekanntesten Gebäude Mailands."
+      "tr": "Galleria Vittorio Emanuele II, Duomo Meydanı ile Teatro alla Scala'yı birbirine bağlayan ve Milano'nun en ikonik yapılarından biri olan tarihî kapalı alışveriş galerisidir. Giuseppe Mengoni tarafından tasarlanan yapı 1867 yılında açılmıştır. Cam ve demirden oluşan büyük kubbesi, mozaik zeminleri, heykelleri ve zarif mimarisiyle dikkat çeken Galleria, İtalya'nın en eski alışveriş galerilerinden biri olarak kabul edilir. Günümüzde lüks mağazalar, restoranlar, kafeler ve tarihî işletmeler arasında yürüyüş yapmak Milano deneyiminin önemli parçalarındandır.",
+      "en": "Galleria Vittorio Emanuele II is Milan's iconic historic covered shopping arcade connecting Piazza del Duomo with Teatro alla Scala. Designed by Giuseppe Mengoni and opened in 1867, it is distinguished by its impressive glass-and-iron dome, mosaic floors, sculptures and elegant architecture. One of Italy's oldest shopping galleries, it is now home to luxury brands, restaurants, cafés and historic establishments, making it a popular place for walking and experiencing the atmosphere of central Milan.",
+      "de": "Die Galleria Vittorio Emanuele II ist eine der bekanntesten historischen Einkaufspassagen Mailands und verbindet die Piazza del Duomo mit dem Teatro alla Scala. Das von Giuseppe Mengoni entworfene Bauwerk wurde 1867 eröffnet und beeindruckt mit seiner großen Kuppel aus Glas und Eisen, Mosaikböden, Skulpturen und eleganter Architektur. Als eine der ältesten Einkaufsgalerien Italiens beherbergt sie heute Luxusgeschäfte, Restaurants, Cafés und traditionsreiche Lokale und ist ein beliebter Ort für einen Spaziergang im Herzen Mailands."
     },
     "activities": {
       "tr": [
-        "Alışveriş yapma",
-        "Kafelerde oturma"
+        "Tarihî galeride yürüyüş",
+        "Mimari detayları ve mozaikleri inceleme",
+        "Lüks mağazaları keşfetme",
+        "Kafelerde oturma",
+        "Restoranlarda Milano mutfağını deneme",
+        "Merkezde fotoğraf çekme"
       ],
       "en": [
-        "Shop",
-        "Relax in cafes"
+        "Walk through the historic arcade",
+        "Admire the architecture and mosaics",
+        "Explore luxury shops",
+        "Relax in cafés",
+        "Try Milanese cuisine at restaurants",
+        "Take photographs"
       ],
       "de": [
-        "Einkaufen",
-        "In Cafés entspannen"
+        "Durch die historische Einkaufspassage spazieren",
+        "Architektur und Mosaike bewundern",
+        "Luxusgeschäfte entdecken",
+        "In Cafés entspannen",
+        "Mailänder Spezialitäten in Restaurants probieren",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarihi yapı",
+        "alışveriş",
+        "mimari",
+        "kültür"
       ],
       "en": [
-        "historic"
+        "historic building",
+        "shopping",
+        "architecture",
+        "culture"
       ],
       "de": [
-        "Historisch"
+        "historisches Gebäude",
+        "Shopping",
+        "Architektur",
+        "Kultur"
       ]
     },
     "images": [
-      "https://example.com/galleria_vittorio.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Galleria-Vittorio-Emanuele-II%20Milan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Galleria%20Vittorio%20Emanuele%20II%2C%20Milano.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Galleria%20Vittorio%20Emanuele%202.jpg"
+    ]
+  },
+  {
+    "slug": "castello-sforzesco",
+    "name": {
+      "tr": "Sforza Kalesi",
+      "en": "Sforza Castle",
+      "de": "Castello Sforzesco"
+    },
+    "latitude": 45.4707,
+    "longitude": 9.1794,
+    "description": {
+      "tr": "Sforza Kalesi, Milano'nun merkezinde yer alan ve şehrin en önemli tarihî yapılarından biri olan büyük bir kale kompleksidir. İlk savunma yapısının 14. yüzyılda ortaya çıktığı kompleks, Sforza ailesinin yönetimi döneminde genişletilerek görkemli bir saraya dönüştürülmüştür. Günümüzde kalenin farklı bölümlerinde sanat ve tarih müzeleri bulunur. Geniş avluları, kuleleri ve surlarıyla Milano şehir gezisine tarihî bir atmosfer katan önemli bir duraktır.",
+      "en": "Sforza Castle is a major historic fortress complex in the centre of Milan. Its origins date back to a 14th-century defensive structure, which was expanded under the Sforza family and transformed into a magnificent residence. Today, the complex houses several museums dedicated to art and history. Its courtyards, towers and defensive walls make it one of the most important historic attractions in central Milan.",
+      "de": "Das Castello Sforzesco ist eine bedeutende historische Festungsanlage im Zentrum von Mailand. Seine Ursprünge reichen bis zu einer Verteidigungsanlage aus dem 14. Jahrhundert zurück, die unter der Familie Sforza erweitert und in eine prachtvolle Residenz umgewandelt wurde. Heute beherbergt der Komplex mehrere Kunst- und Geschichtsmuseen. Mit seinen Höfen, Türmen und Mauern gehört das Schloss zu den wichtigsten historischen Sehenswürdigkeiten Mailands."
+    },
+    "activities": {
+      "tr": [
+        "Kale kompleksini gezme",
+        "Müzeleri ziyaret etme",
+        "Tarihî avluları keşfetme",
+        "Kule ve surları inceleme",
+        "Fotoğraf çekme"
+      ],
+      "en": [
+        "Explore the castle complex",
+        "Visit the museums",
+        "Discover the historic courtyards",
+        "Admire the towers and walls",
+        "Take photographs"
+      ],
+      "de": [
+        "Den Burgkomplex erkunden",
+        "Museen besuchen",
+        "Historische Innenhöfe entdecken",
+        "Türme und Mauern besichtigen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kale",
+        "tarih",
+        "müze",
+        "mimari"
+      ],
+      "en": [
+        "castle",
+        "history",
+        "museum",
+        "architecture"
+      ],
+      "de": [
+        "Burg",
+        "Geschichte",
+        "Museum",
+        "Architektur"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Castello%20Sforzesco%20Milan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Castello%20Sforzesco%20Milano.jpg"
+    ]
+  },
+  {
+    "slug": "navigli",
+    "name": {
+      "tr": "Navigli",
+      "en": "Navigli",
+      "de": "Navigli"
+    },
+    "latitude": 45.4517,
+    "longitude": 9.1750,
+    "description": {
+      "tr": "Navigli, Milano'nun kanallar çevresinde gelişmiş en karakteristik bölgelerinden biridir. Özellikle Naviglio Grande ve Naviglio Pavese boyunca uzanan sokaklar; renkli cepheler, küçük dükkânlar, sanat galerileri, kafeler ve restoranlarla canlı bir atmosfere sahiptir. Bölge özellikle gün batımı ve akşam saatlerinde aperitivo kültürüyle öne çıkar. Kanal kenarında yürüyüş yapmak ve Milano'nun daha farklı yüzünü keşfetmek isteyenler için şehrin en popüler bölgelerinden biridir.",
+      "en": "Navigli is one of Milan's most distinctive districts, developed around the city's historic canals. The streets along Naviglio Grande and Naviglio Pavese are lined with colorful buildings, small shops, art galleries, cafés and restaurants. The area is especially lively around sunset and in the evening, when Milan's aperitivo culture comes to life. Walking beside the canals offers a different perspective on the city.",
+      "de": "Navigli gehört zu den charakteristischsten Vierteln Mailands und entwickelte sich rund um die historischen Kanäle der Stadt. Entlang des Naviglio Grande und Naviglio Pavese befinden sich farbenfrohe Gebäude, kleine Geschäfte, Kunstgalerien, Cafés und Restaurants. Besonders bei Sonnenuntergang und am Abend ist das Viertel lebendig und bekannt für die Mailänder Aperitivo-Kultur. Ein Spaziergang entlang der Kanäle bietet eine besondere Perspektive auf die Stadt."
+    },
+    "activities": {
+      "tr": [
+        "Kanal boyunca yürüyüş",
+        "Aperitivo deneyimi",
+        "Restoran ve kafeleri keşfetme",
+        "Sanat galerilerini gezme",
+        "Gün batımında fotoğraf çekme"
+      ],
+      "en": [
+        "Walk along the canals",
+        "Experience aperitivo",
+        "Explore restaurants and cafés",
+        "Visit art galleries",
+        "Take photographs at sunset"
+      ],
+      "de": [
+        "Entlang der Kanäle spazieren",
+        "Aperitivo erleben",
+        "Restaurants und Cafés entdecken",
+        "Kunstgalerien besuchen",
+        "Bei Sonnenuntergang fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi bölge",
+        "kanal",
+        "gece hayatı",
+        "yeme içme"
+      ],
+      "en": [
+        "historic district",
+        "canal",
+        "nightlife",
+        "food and drink"
+      ],
+      "de": [
+        "historisches Viertel",
+        "Kanal",
+        "Nachtleben",
+        "Essen und Trinken"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Naviglio%20Grande%20Milan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Navigli%20Milano.jpg"
+    ]
+  },
+  {
+    "slug": "santa-maria-delle-grazie",
+    "name": {
+      "tr": "Santa Maria delle Grazie",
+      "en": "Santa Maria delle Grazie",
+      "de": "Santa Maria delle Grazie"
+    },
+    "latitude": 45.4669,
+    "longitude": 9.1706,
+    "description": {
+      "tr": "Santa Maria delle Grazie, Milano'nun en önemli Rönesans dönemi yapılarından biridir ve özellikle Leonardo da Vinci'nin Son Akşam Yemeği freskine ev sahipliği yapmasıyla dünya çapında tanınır. Kilise ve bitişiğindeki Dominiken manastırı, 1980 yılında UNESCO Dünya Mirası Listesi'ne alınmıştır. Yapı, Milano'nun Orta Çağ'dan Rönesans'a geçişini yansıtan mimarisi ve sanat tarihi açısından taşıdığı önem nedeniyle şehrin en değerli kültür duraklarından biridir.",
+      "en": "Santa Maria delle Grazie is one of Milan's most important Renaissance monuments and is world-famous for housing Leonardo da Vinci's Last Supper fresco. The church and adjoining Dominican convent were inscribed on the UNESCO World Heritage List in 1980. Its architecture and artistic heritage make it one of Milan's most significant cultural attractions.",
+      "de": "Santa Maria delle Grazie gehört zu den bedeutendsten Renaissance-Bauwerken Mailands und ist weltweit für Leonardo da Vincis Fresko Das Letzte Abendmahl bekannt. Die Kirche und das angrenzende Dominikanerkloster wurden 1980 in die UNESCO-Welterbeliste aufgenommen. Ihre Architektur und ihr kunsthistorisches Erbe machen sie zu einer der wichtigsten kulturellen Sehenswürdigkeiten Mailands."
+    },
+    "activities": {
+      "tr": [
+        "Kilisenin mimarisini inceleme",
+        "Son Akşam Yemeği freskini görme",
+        "Rönesans sanatını keşfetme",
+        "UNESCO mirasını keşfetme"
+      ],
+      "en": [
+        "Admire the church's architecture",
+        "See The Last Supper fresco",
+        "Explore Renaissance art",
+        "Discover the UNESCO heritage site"
+      ],
+      "de": [
+        "Die Architektur der Kirche bewundern",
+        "Das Fresko Das Letzte Abendmahl sehen",
+        "Renaissancekunst entdecken",
+        "Das UNESCO-Welterbe erkunden"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kilise",
+        "UNESCO",
+        "sanat",
+        "Rönesans"
+      ],
+      "en": [
+        "church",
+        "UNESCO",
+        "art",
+        "Renaissance"
+      ],
+      "de": [
+        "Kirche",
+        "UNESCO",
+        "Kunst",
+        "Renaissance"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Maria%20delle%20Grazie%20Milan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Maria%20delle%20Grazie%20Milan%20Italy.jpg"
     ]
   }
 ]

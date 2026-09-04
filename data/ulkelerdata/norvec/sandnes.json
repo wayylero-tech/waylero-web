@@ -6,40 +6,67 @@
       "en": "Gandsfjorden",
       "de": "Gandsfjorden"
     },
-    "latitude": 58.8539,
-    "longitude": 5.7307,
+    "latitude": 58.9061,
+    "longitude": 5.75879,
     "description": {
-      "tr": "Gandsfjorden, Sandnes yakınlarında bulunan bir fiyordur. Burada tekne turu yapabilir ve güzel manzaraların tadını çıkarabilirsiniz.",
-      "en": "Gandsfjorden is a fjord near Sandnes. You can take a boat tour and enjoy the beautiful views.",
-      "de": "Gandsfjorden ist ein Fjord in der Nähe von Sandnes. Man kann eine Bootstour machen und die schönen Aussichten genießen."
+      "tr": "Gandsfjorden, Stavanger ve Sandnes belediyeleri arasında uzanan ve özellikle Sandnes çevresindeki şehir yaşamıyla güçlü bir bağlantısı bulunan bir fiyordur. Sandnes yerleşimi fiyordun iç kesimindeki kıyılara yayılırken, su yolu kuzeyde Stavanger yönüne doğru devam eder. Fiyordun kıyılarında yerleşim alanları, liman bölgeleri, tepeler ve daha doğal kıyı kesimleri bir arada görülür. Gandsfjorden yalnızca bir manzara noktası değil, aynı zamanda Sandnes'in ulaşım, denizcilik ve sanayi tarihinde önemli rol oynamış bir su yoludur. Günümüzde kıyı boyunca yürüyüş, manzara izleme, balıkçılık ve tekne aktiviteleri için farklı noktalar bulunur. Özellikle Sandnes çevresindeki kıyı manzaraları, Norveç'in fiyort coğrafyasını şehir yaşamıyla birlikte görmek isteyenler için ilgi çekicidir.",
+      "en": "Gandsfjorden is a fjord stretching through Stavanger and Sandnes municipalities and closely connected to the urban landscape of Sandnes. The town of Sandnes extends around the inner parts of the fjord, while the waterway continues north towards Stavanger. Its shores combine residential areas, harbour and industrial zones, hills and more natural stretches of coastline. Gandsfjorden is not only a scenic waterway but has also played an important role in the maritime, transport and industrial history of Sandnes. Today, different sections of the shoreline offer opportunities for walking, fishing, enjoying the scenery and boating. The combination of fjord landscapes and urban surroundings makes the area an interesting place to experience the geography of western Norway.",
+      "de": "Der Gandsfjorden erstreckt sich durch die Gemeinden Stavanger und Sandnes und ist eng mit dem Stadtbild von Sandnes verbunden. Die Stadt Sandnes liegt an den inneren Bereichen des Fjords, während sich die Wasserstraße nach Norden in Richtung Stavanger fortsetzt. Entlang der Ufer treffen Wohngebiete, Hafen- und Industrieflächen, Hügel und natürlichere Küstenabschnitte aufeinander. Der Gandsfjorden ist nicht nur landschaftlich bedeutend, sondern spielte auch eine wichtige Rolle in der maritimen, verkehrlichen und industriellen Entwicklung von Sandnes. Heute bieten verschiedene Uferbereiche Möglichkeiten zum Spazieren, Angeln, für Bootsaktivitäten und zum Genießen der Landschaft. Besonders interessant ist die Verbindung von Fjordlandschaft und städtischer Umgebung."
     },
     "activities": {
       "tr": [
-        "Tekne turu yapma",
-        "Fiyord manzarasını izleme"
+        "Fiyord manzarasını izleme",
+        "Kıyı boyunca yürüyüş yapma",
+        "Tekne gezilerine katılma",
+        "Balıkçılık yapma",
+        "Manzara fotoğrafları çekme",
+        "Sandnes kıyılarını keşfetme"
       ],
       "en": [
-        "Take a boat tour",
-        "Enjoy the fjord views"
+        "Enjoy the fjord scenery",
+        "Walk along the shoreline",
+        "Take boat trips",
+        "Go fishing",
+        "Take landscape photographs",
+        "Explore the Sandnes waterfront"
       ],
       "de": [
-        "Eine Bootstour machen",
-        "Die Fjord-Aussichten genießen"
+        "Die Fjordlandschaft genießen",
+        "Am Ufer spazieren",
+        "Bootsfahrten unternehmen",
+        "Angeln",
+        "Landschaftsfotos aufnehmen",
+        "Die Küste von Sandnes erkunden"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "fiyort",
+        "doğa",
+        "manzara",
+        "sahil",
+        "tekne",
+        "fotoğraf"
       ],
       "en": [
-        "nature"
+        "fjord",
+        "nature",
+        "scenery",
+        "coast",
+        "boating",
+        "photography"
       ],
       "de": [
-        "Natur"
+        "fjord",
+        "natur",
+        "landschaft",
+        "küste",
+        "bootsfahrt",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/gandsfjorden.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Gandsfjorden.jpg"
     ]
   },
   {
@@ -49,40 +76,216 @@
       "en": "Vitenfabrikken",
       "de": "Vitenfabrikken"
     },
-    "latitude": 58.8585,
-    "longitude": 5.7327,
+    "latitude": 58.8514,
+    "longitude": 5.7356,
     "description": {
-      "tr": "Vitenfabrikken, bilim ve teknolojiye dair eğitici sergilere sahip bir interaktif bilim merkezidir.",
-      "en": "Vitenfabrikken is an interactive science center with educational exhibits on science and technology.",
-      "de": "Vitenfabrikken ist ein interaktives Wissenschaftszentrum mit lehrreichen Ausstellungen zu Wissenschaft und Technologie."
+      "tr": "Vitenfabrikken, Sandnes'in merkezinde bulunan interaktif bir bilim merkezi ve müzedir. Dört kata yayılan sergilerde bilim, matematik, enerji, astronomi, teknoloji, sanayi ve Sandnes'in yerel tarihi bir arada ele alınır. Ziyaretçilerin deneyerek ve oynayarak öğrenmesine yönelik çok sayıda interaktif düzenek bulunur. Merkezin dikkat çeken bölümlerinden biri, binanın merkezinde yer alan ve gökyüzü ile evren üzerine gösterimler sunan planetariumdur. Abelloftet bölümünde 50'den fazla interaktif düzenekle matematik günlük ve eğlenceli deneyimler üzerinden anlatılır. Sandnes'in sanayi geçmişine ayrılan sergilerde ise seramik, bisiklet üretimi ve bölgedeki önemli sanayi şirketleri hakkında bilgiler bulunur. Ayrıca 1912 tarihli Krossen yulaf değirmeninin orijinal makineleri de sergilenmektedir. Çocuklar için LEGO alanı ve dönemsel atölyeler de merkezin aileler açısından öne çıkan bölümlerindendir.",
+      "en": "Vitenfabrikken is an interactive science centre and museum in central Sandnes. Its four floors contain exhibitions covering science, mathematics, energy, astronomy, technology, industry and the local history of Sandnes. Many of the exhibits are designed around hands-on learning, experiments and interactive experiences. One of the highlights is the planetarium suspended in the centre of the building, where visitors can explore the night sky and the universe. The Abelloftet exhibition uses more than 50 interactive installations to make mathematics accessible through puzzles, visual effects and experimentation. Other exhibitions explore Sandnes' industrial heritage, including pottery, bicycle production and important local companies. Original machinery from the 1912 Krossen oat mill is also preserved here. A large LEGO area and seasonal workshops add to the family-friendly experience.",
+      "de": "Vitenfabrikken ist ein interaktives Wissenschaftszentrum und Museum im Zentrum von Sandnes. Auf vier Etagen werden Wissenschaft, Mathematik, Energie, Astronomie, Technologie, Industrie und die lokale Geschichte von Sandnes behandelt. Viele Ausstellungen sind auf praktisches Lernen, Experimente und interaktive Erlebnisse ausgerichtet. Zu den Höhepunkten gehört das im Zentrum des Gebäudes schwebende Planetarium mit Vorführungen über den Nachthimmel und das Universum. Im Bereich Abelloftet machen mehr als 50 interaktive Stationen Mathematik durch Rätsel, visuelle Effekte und Experimente erlebbar. Weitere Ausstellungen widmen sich der Industriegeschichte von Sandnes, darunter der Keramik- und Fahrradproduktion sowie wichtigen regionalen Unternehmen. Auch die Originalmaschinen der Krossen-Hafermühle von 1912 sind erhalten. Ein großer LEGO-Bereich und saisonale Workshops machen das Museum besonders für Familien interessant."
     },
     "activities": {
       "tr": [
-        "Eğitici sergilere katılma",
-        "Bilim deneylerini keşfetme"
+        "İnteraktif bilim deneylerini keşfetme",
+        "Planetarium gösterisini izleme",
+        "Matematik düzeneklerini deneyimleme",
+        "Sandnes'in sanayi tarihini öğrenme",
+        "LEGO alanını keşfetme",
+        "Çocuk atölyelerine katılma",
+        "Teknoloji ve astronomi sergilerini gezme"
       ],
       "en": [
-        "Join educational exhibits",
-        "Explore science experiments"
+        "Explore interactive science experiments",
+        "Watch a planetarium show",
+        "Try the mathematics installations",
+        "Learn about Sandnes' industrial history",
+        "Explore the LEGO area",
+        "Join children's workshops",
+        "Visit technology and astronomy exhibitions"
       ],
       "de": [
-        "An lehrreichen Ausstellungen teilnehmen",
-        "Wissenschaftsexperimente erkunden"
+        "Interaktive Wissenschaftsexperimente entdecken",
+        "Eine Planetariumsshow besuchen",
+        "Mathematik-Stationen ausprobieren",
+        "Die Industriegeschichte von Sandnes kennenlernen",
+        "Den LEGO-Bereich erkunden",
+        "An Kinderworkshops teilnehmen",
+        "Technologie- und Astronomieausstellungen besuchen"
       ]
     },
     "categories": {
       "tr": [
-        "kültürel etkinlikler"
+        "bilim",
+        "müze",
+        "teknoloji",
+        "astronomi",
+        "eğitim",
+        "aile",
+        "kültür"
       ],
       "en": [
-        "cultural events"
+        "science",
+        "museum",
+        "technology",
+        "astronomy",
+        "education",
+        "family",
+        "culture"
       ],
       "de": [
-        "Kulturelle Veranstaltungen"
+        "wissenschaft",
+        "museum",
+        "technologie",
+        "astronomie",
+        "bildung",
+        "familie",
+        "kultur"
       ]
     },
     "images": [
-      "https://example.com/vitenfabrikken.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Vitenfabrikken%20Sandnes.jpg"
+    ]
+  },
+  {
+    "slug": "ruten-bypark",
+    "name": {
+      "tr": "Ruten Şehir Parkı",
+      "en": "Ruten City Park",
+      "de": "Ruten-Stadtpark"
+    },
+    "latitude": 58.8519,
+    "longitude": 5.7351,
+    "description": {
+      "tr": "Ruten, Sandnes şehir merkezinin kalbinde, Langgata ile Vågen Amfi arasında yer alan modern bir şehir parkı ve çok amaçlı kamusal alandır. Alan 2021 yılında kapsamlı bir yenilemeden geçirilerek yeşil alanlar, ağaçlar, oturma bölümleri, oyun alanları, su öğeleri ve kaykay parkının bulunduğu çağdaş bir kent mekânına dönüştürülmüştür. Parkın merkezindeki Lysningen adlı büyük dairesel alan konserler, festivaller, pazarlar ve çeşitli şehir etkinlikleri için kullanılmaktadır. Ruten yıl boyunca farklı etkinliklere ev sahipliği yapar; kış döneminde ise alanda Vinterland adıyla buz pisti ve mevsimsel etkinlikler düzenlenebilir. Park, Sandnes'in merkezini yürüyerek keşfetmek için de iyi bir başlangıç noktasıdır.",
+      "en": "Ruten is a modern city park and multifunctional public space in the heart of Sandnes, located between Langgata and Vågen Amfi. The area was extensively redeveloped and opened as a new city park in 2021, with green spaces, trees, seating areas, play areas, water features and a skatepark. The large circular area known as Lysningen provides space for concerts, festivals, markets and other city events. Ruten hosts activities throughout the year, while winter can bring seasonal attractions such as an ice rink and Vinterland events. Its central location also makes it a convenient starting point for exploring Sandnes on foot.",
+      "de": "Ruten ist ein moderner Stadtpark und multifunktionaler öffentlicher Raum im Herzen von Sandnes zwischen Langgata und Vågen Amfi. Das Gelände wurde umfassend umgestaltet und 2021 als neuer Stadtpark eröffnet. Es bietet Grünflächen, Bäume, Sitzbereiche, Spielplätze, Wasserelemente und einen Skatepark. Der große kreisförmige Bereich namens Lysningen wird für Konzerte, Festivals, Märkte und andere Veranstaltungen genutzt. Über das Jahr finden hier zahlreiche Aktivitäten statt; im Winter können saisonale Angebote wie eine Eisbahn und Veranstaltungen unter dem Namen Vinterland hinzukommen. Durch seine zentrale Lage eignet sich Ruten auch als Ausgangspunkt für einen Spaziergang durch Sandnes."
+    },
+    "activities": {
+      "tr": [
+        "Şehir parkında yürüyüş yapma",
+        "Kaykay parkını keşfetme",
+        "Etkinlik ve konserlere katılma",
+        "Çocuk oyun alanlarını kullanma",
+        "Parkta dinlenme",
+        "Şehir fotoğrafçılığı yapma"
+      ],
+      "en": [
+        "Walk through the city park",
+        "Explore the skatepark",
+        "Attend events and concerts",
+        "Use the children's play areas",
+        "Relax in the park",
+        "Enjoy urban photography"
+      ],
+      "de": [
+        "Durch den Stadtpark spazieren",
+        "Den Skatepark entdecken",
+        "An Veranstaltungen und Konzerten teilnehmen",
+        "Die Spielbereiche nutzen",
+        "Im Park entspannen",
+        "Stadtfotografie betreiben"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park",
+        "şehir",
+        "eğlence",
+        "etkinlik",
+        "aile",
+        "yürüyüş"
+      ],
+      "en": [
+        "park",
+        "city",
+        "entertainment",
+        "events",
+        "family",
+        "walking"
+      ],
+      "de": [
+        "park",
+        "stadt",
+        "unterhaltung",
+        "veranstaltungen",
+        "familie",
+        "spaziergang"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ruten%20Sandnes.jpg"
+    ]
+  },
+  {
+    "slug": "sandvedparken",
+    "name": {
+      "tr": "Sandvedparken",
+      "en": "Sandvedparken",
+      "de": "Sandvedparken"
+    },
+    "latitude": 58.8467,
+    "longitude": 5.7389,
+    "description": {
+      "tr": "Sandvedparken, Sandnes şehir merkezinin güneyinde Storåna nehri boyunca uzanan geniş bir park ve rekreasyon alanıdır. Parktaki yürüyüş yolu nehir boyunca ilerler ve daha uzun rotalarla Ganddal yönüne bağlanır. Yeşil alanlar, ağaçlık bölümler, nehir manzarası, banklar ve çocuk oyun alanları sayesinde şehir içinde doğayla vakit geçirmek isteyenler için uygun bir noktadır. Parkın yakınındaki Japon Bahçesi, alanın en dikkat çekici bölümlerinden biridir. Burada ayrıca spor ve rekreasyon için çeşitli alanlar bulunur. Sandvedparken, yürüyüş ve bisiklet rotalarının yanı sıra ailece açık havada vakit geçirmek isteyenler için de değerlendirilebilir.",
+      "en": "Sandvedparken is a large park and recreational area south of central Sandnes, stretching along the Storåna river. Its walking path follows the river and connects with longer routes towards Ganddal. Green spaces, wooded sections, river views, benches and children's play areas make it a convenient place to enjoy nature without leaving the city. One of its distinctive features is the Japanese Garden near the Kvelluren bridge. The park also includes areas for sports and recreation. Sandvedparken is suitable for walking, cycling and spending time outdoors with family.",
+      "de": "Sandvedparken ist ein weitläufiger Park- und Erholungsbereich südlich des Zentrums von Sandnes und erstreckt sich entlang des Flusses Storåna. Ein Spazierweg folgt dem Fluss und verbindet sich mit längeren Wegen in Richtung Ganddal. Grünflächen, Waldabschnitte, Flussblicke, Bänke und Spielplätze machen den Park zu einem angenehmen Ort, um mitten in der Stadt Zeit in der Natur zu verbringen. Eine besondere Attraktion ist der Japanische Garten nahe der Kvelluren-Brücke. Darüber hinaus gibt es verschiedene Bereiche für Sport und Freizeit. Sandvedparken eignet sich zum Spazieren, Radfahren und für Aktivitäten mit der Familie."
+    },
+    "activities": {
+      "tr": [
+        "Nehir boyunca yürüyüş yapma",
+        "Bisiklet sürme",
+        "Japon Bahçesi'ni keşfetme",
+        "Piknik yapma",
+        "Çocuk oyun alanlarını kullanma",
+        "Doğa ve park fotoğrafları çekme"
+      ],
+      "en": [
+        "Walk along the river",
+        "Go cycling",
+        "Explore the Japanese Garden",
+        "Have a picnic",
+        "Use the children's play areas",
+        "Take nature and park photographs"
+      ],
+      "de": [
+        "Am Fluss spazieren",
+        "Radfahren",
+        "Den Japanischen Garten entdecken",
+        "Ein Picknick machen",
+        "Die Spielplätze nutzen",
+        "Natur- und Parkfotos aufnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "park",
+        "doğa",
+        "yürüyüş",
+        "bahçe",
+        "aile",
+        "bisiklet",
+        "fotoğraf"
+      ],
+      "en": [
+        "park",
+        "nature",
+        "walking",
+        "garden",
+        "family",
+        "cycling",
+        "photography"
+      ],
+      "de": [
+        "park",
+        "natur",
+        "spaziergang",
+        "garten",
+        "familie",
+        "radfahren",
+        "fotografie"
+      ]
+    },
+    "images": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sandvedparken.jpg"
     ]
   }
 ]

@@ -3,86 +3,155 @@
     "slug": "oradea-kalesi",
     "name": {
       "tr": "Oradea Kalesi",
-      "en": "Oradea Castle",
-      "de": "Oradea Schloss"
+      "en": "Oradea Fortress",
+      "de": "Festung Oradea"
     },
-    "latitude": 47.072,
-    "longitude": 21.933,
+    "latitude": 47.05123,
+    "longitude": 21.94302,
     "description": {
-      "tr": "Oradea Kalesi, şehrin en önemli tarihi yapılarından biridir ve Orta Çağ'dan kalma bir kale olarak dikkat çeker.",
-      "en": "Oradea Castle is one of the most important historical landmarks in the city, notable for its medieval architecture.",
-      "de": "Das Oradea Schloss ist eines der wichtigsten historischen Wahrzeichen der Stadt und bekannt für seine mittelalterliche Architektur."
+      "tr": "Oradea Kalesi, Romanya'nın Oradea kentindeki en önemli tarihi yapılardan biri ve yaklaşık dokuz yüzyıllık geçmişe sahip büyük bir savunma kompleksidir. İlk yerleşim ve dini yapıların bulunduğu alan Oradea'nın gelişiminde önemli rol oynamış, kale zaman içinde piskoposluk merkezi, prenslik konutu ve askeri tahkimat olarak kullanılmıştır. Günümüzde görülen kale, özellikle 16. ve 17. yüzyıllarda gerçekleştirilen büyük inşa ve güçlendirme çalışmalarının sonucunda İtalyan Rönesans tarzındaki burçlu savunma mimarisine kavuşmuştur. Beşgen planı, köşe burçları, surları ve geçmişte savunma amacıyla kullanılan hendekleri kalenin en belirgin özellikleridir. Kompleksin içinde Prenslik Sarayı'na ait yapılar, kilise ve farklı dönemlerde kullanılan tarihi binalar bulunur. Kale yalnızca askeri geçmişiyle değil, Orta Çağ ve Rönesans dönemlerinde önemli bir dini, kültürel ve entelektüel merkez olmasıyla da dikkat çeker. Tarih boyunca kuşatmalar geçiren kale, bugün restore edilmiş bölümleri, müze alanları, sergileri ve kültürel etkinlikleriyle Oradea'nın önemli ziyaret noktalarından biridir. Kale çevresindeki yeşil alanlar ve eski savunma hendekleri de yürüyüş için değerlendirilebilir. Özellikle surların, burçların ve avluların mimari ayrıntıları fotoğrafçılık açısından oldukça ilgi çekicidir. Oradea'nın tarihi geçmişini anlamak isteyen ziyaretçiler için kale, şehir merkezindeki Art Nouveau mirasıyla birlikte görülmesi gereken başlıca yerlerden biridir.",
+      "en": "Oradea Fortress is one of the most important historic landmarks in Oradea, Romania, and a major defensive complex with a history spanning almost nine centuries. The area played an important role in the development of Oradea and served at different times as a religious center, princely residence and military stronghold. The fortress visible today took on its characteristic Italian Renaissance bastion-style appearance mainly through major construction and fortification works carried out during the 16th and 17th centuries. Its pentagonal layout, corner bastions, defensive walls and former moat are among its most distinctive features. Inside the complex are buildings associated with the Princely Palace, a church and historic structures from different periods. The fortress was important not only militarily but also as a religious, cultural and intellectual center during the medieval and Renaissance periods. After experiencing several sieges throughout its history, the fortress is now an important visitor attraction with restored sections, museum spaces, exhibitions and cultural events. The green areas and former defensive moat around the fortress also provide opportunities for walking. The walls, bastions and courtyards offer numerous architectural details for photography. For travelers interested in understanding Oradea's long history, the fortress is one of the city's essential sights and can be combined with a walk through the Art Nouveau heritage of the historic center.",
+      "de": "Die Festung Oradea gehört zu den bedeutendsten historischen Sehenswürdigkeiten der rumänischen Stadt Oradea und ist ein großer Verteidigungskomplex mit einer fast neun Jahrhunderte umfassenden Geschichte. Das Gebiet spielte eine wichtige Rolle bei der Entwicklung der Stadt und diente im Laufe der Zeit als religiöses Zentrum, fürstliche Residenz und militärische Festung. Ihr heutiges Erscheinungsbild erhielt die Anlage vor allem durch umfangreiche Bau- und Befestigungsarbeiten im 16. und 17. Jahrhundert, durch die sie zu einer Festung im Stil der italienischen Renaissance mit Bastionen wurde. Der fünfeckige Grundriss, die Eckbastionen, die Festungsmauern und der ehemalige Wassergraben gehören zu ihren auffälligsten Merkmalen. Innerhalb der Anlage befinden sich Gebäude des ehemaligen Fürstenpalastes, eine Kirche und historische Bauten aus verschiedenen Epochen. Neben ihrer militärischen Bedeutung war die Festung im Mittelalter und in der Renaissance auch ein wichtiges religiöses, kulturelles und geistiges Zentrum. Im Laufe ihrer Geschichte wurde sie mehrfach belagert und ist heute mit restaurierten Bereichen, Museumsräumen, Ausstellungen und kulturellen Veranstaltungen ein bedeutendes Besucherziel. Die Grünflächen und der ehemalige Verteidigungsgraben rund um die Festung eignen sich ebenfalls für Spaziergänge. Mauern, Bastionen und Innenhöfe bieten zahlreiche interessante Motive für die Architekturfotografie. Wer die lange Geschichte von Oradea kennenlernen möchte, sollte die Festung mit einem Spaziergang durch das Art-Nouveau-geprägte historische Zentrum verbinden."
     },
     "activities": {
       "tr": [
-        "Kale turu yapma",
-        "Tarihi yapıyı keşfetme"
+        "Kaleyi ve surları keşfetme",
+        "Burçları inceleme",
+        "Tarihi avluları gezme",
+        "Prenslik Sarayı yapılarını görme",
+        "Müze ve sergileri ziyaret etme",
+        "Kale çevresinde yürüyüş yapma",
+        "Tarihi mimariyi fotoğraflama",
+        "Kültürel etkinliklere katılma"
       ],
       "en": [
-        "Take a castle tour",
-        "Explore the historical building"
+        "Explore the fortress and walls",
+        "Examine the bastions",
+        "Walk through the historic courtyards",
+        "See the Princely Palace buildings",
+        "Visit museums and exhibitions",
+        "Walk around the fortress grounds",
+        "Photograph the historic architecture",
+        "Attend cultural events"
       ],
       "de": [
-        "Eine Schlossführung machen",
-        "Das historische Gebäude erkunden"
+        "Die Festung und Mauern erkunden",
+        "Die Bastionen besichtigen",
+        "Durch die historischen Innenhöfe gehen",
+        "Die Gebäude des Fürstenpalastes sehen",
+        "Museen und Ausstellungen besuchen",
+        "Auf dem Festungsgelände spazieren",
+        "Die historische Architektur fotografieren",
+        "An Kulturveranstaltungen teilnehmen"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "kale",
+        "mimari",
+        "kültür",
+        "müze",
+        "fotoğraf"
       ],
       "en": [
-        "historic"
+        "history",
+        "fortress",
+        "architecture",
+        "culture",
+        "museum",
+        "photography"
       ],
       "de": [
-        "Historisch"
+        "geschichte",
+        "festung",
+        "architektur",
+        "kultur",
+        "museum",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/oradea_castle.jpg"
+      "https://roa.cdn.eventya.net/ig6az1hbqgnrdt6mn1vbpphuejlo"
     ]
   },
   {
-    "slug": "oradea-merkezi",
+    "slug": "piata-unirii-oradea",
     "name": {
-      "tr": "Oradea Merkezi",
-      "en": "Oradea Center",
-      "de": "Oradea Zentrum"
+      "tr": "Piața Unirii (Birlik Meydanı)",
+      "en": "Piața Unirii (Union Square)",
+      "de": "Piața Unirii (Union Square)"
     },
-    "latitude": 47.073,
-    "longitude": 21.9337,
+    "latitude": 47.05476,
+    "longitude": 21.92850,
     "description": {
-      "tr": "Oradea'nın merkezi, Art Nouveau tarzındaki binaları ve tarihi meydanlarıyla ünlüdür. Şehirdeki atmosferi keşfetmek için ideal bir yerdir.",
-      "en": "The center of Oradea is famous for its Art Nouveau buildings and historic squares. It's an ideal place to explore the city's atmosphere.",
-      "de": "Das Zentrum von Oradea ist bekannt für seine Art Nouveau-Gebäude und historischen Plätze. Es ist der ideale Ort, um die Atmosphäre der Stadt zu erkunden."
+      "tr": "Piața Unirii, Oradea'nın tarihi merkezinin kalbinde yer alan ve şehrin mimari karakterini en iyi yansıtan meydanlardan biridir. Meydanın çevresinde farklı dönemlere ve mimari üsluplara ait çok sayıda tarihi yapı bulunur. Özellikle Art Nouveau ve Secession etkileri taşıyan yapılar meydanın en dikkat çekici özellikleri arasındadır. Siyah Kartal Sarayı (Palatul Vulturul Negru), Oradea Belediye Binası, Yunan Katolik Piskoposluk Sarayı, St. Nicholas Katedrali, Moon Church ve St. Ladislaus Kilisesi meydanın çevresindeki önemli yapılardan bazılarıdır. Meydanın bugünkü görünümü kapsamlı bir yenileme çalışmasının ardından şekillenmiş ve tarihi yapıların önünde geniş bir kamusal alan oluşturulmuştur. Açık alan, kafeler, restoranlar, oturma noktaları ve yürüyüş yollarıyla hem turistlerin hem de şehir sakinlerinin kullandığı canlı bir buluşma noktasıdır. Oradea'nın Art Nouveau mirasını keşfetmek isteyenler için meydan iyi bir başlangıç noktasıdır; çevredeki tarihi sokaklara yürüyerek devam edildiğinde Moskovits, Stern, Adorjan ve diğer önemli Secession yapıları görülebilir. Meydan özellikle gündüz mimari fotoğrafçılığı, akşam saatlerinde ise aydınlatılmış tarihi cepheleri görmek için değerlendirilebilir. Şehrin kültürel atmosferini hissetmek, kafelerde dinlenmek ve tarihi binaları yakından incelemek isteyenler için Piața Unirii, Oradea gezisinin merkez noktalarından biridir.",
+      "en": "Piața Unirii, or Union Square, lies at the heart of Oradea's historic center and is one of the best places to experience the city's architectural character. The square is surrounded by historic buildings representing several periods and architectural styles, with Art Nouveau and Secession architecture being particularly prominent. Important landmarks around the square include the Black Eagle Palace, Oradea City Hall, the Greek-Catholic Episcopal Palace, St. Nicholas Cathedral, the Church of the Moon and St. Ladislaus Church. The present appearance of the square was shaped by a major rehabilitation project that created a broad public space in front of the historic buildings. Today, the square is a lively gathering place with cafés, restaurants, seating areas and pedestrian spaces used by both residents and visitors. It is an excellent starting point for exploring Oradea's Art Nouveau heritage. From the square, visitors can continue on foot through the surrounding historic streets to see important Secession buildings such as the Moskovits, Stern and Adorjan buildings. The square is well suited to architectural photography during the day, while evening visits provide an opportunity to see the historic façades illuminated. For travelers who want to experience Oradea's urban atmosphere, relax at a café and explore its historic architecture, Piața Unirii is one of the city's central destinations.",
+      "de": "Die Piața Unirii, der Union Square, liegt im Herzen des historischen Zentrums von Oradea und gehört zu den besten Orten, um den architektonischen Charakter der Stadt kennenzulernen. Rund um den Platz stehen historische Gebäude aus verschiedenen Epochen und mit unterschiedlichen Baustilen, wobei insbesondere die Architektur des Jugendstils und der Secession auffällt. Zu den bedeutenden Bauwerken in der Umgebung gehören der Schwarze-Adler-Palast, das Rathaus von Oradea, der griechisch-katholische Bischofspalast, die St.-Nikolaus-Kathedrale, die Mondkirche und die St.-Ladislaus-Kirche. Das heutige Erscheinungsbild des Platzes entstand nach einer umfassenden Neugestaltung, durch die vor den historischen Gebäuden ein großzügiger öffentlicher Raum geschaffen wurde. Heute ist der Platz mit Cafés, Restaurants, Sitzmöglichkeiten und Fußgängerbereichen ein lebendiger Treffpunkt für Einheimische und Besucher. Er eignet sich besonders gut als Ausgangspunkt für die Erkundung des Jugendstil-Erbes von Oradea. Von hier aus können Besucher zu Fuß durch die umliegenden historischen Straßen weitergehen und bedeutende Secessionsgebäude wie die Moskovits-, Stern- und Adorjan-Häuser entdecken. Tagsüber bietet der Platz gute Möglichkeiten für Architekturfotografie, während am Abend die beleuchteten historischen Fassaden eine andere Atmosphäre schaffen. Wer das Stadtleben von Oradea erleben, in einem Café entspannen und historische Architektur entdecken möchte, findet in der Piața Unirii einen der wichtigsten Ausgangspunkte der Stadt."
     },
     "activities": {
       "tr": [
-        "Tarihi şehirde gezme",
-        "Meydanları keşfetme"
+        "Tarihi meydanı keşfetme",
+        "Art Nouveau binalarını inceleme",
+        "Siyah Kartal Sarayı'nı görme",
+        "Oradea Belediye Binası'nı görme",
+        "Tarihi kiliseleri keşfetme",
+        "Kafelerde ve restoranlarda vakit geçirme",
+        "Şehir merkezinde yürüyüş yapma",
+        "Mimari fotoğrafçılık yapma",
+        "Akşam aydınlatmalarını görme"
       ],
       "en": [
-        "Explore the historic city",
-        "Discover the squares"
+        "Explore the historic square",
+        "Admire Art Nouveau buildings",
+        "See the Black Eagle Palace",
+        "See Oradea City Hall",
+        "Explore the historic churches",
+        "Spend time at cafés and restaurants",
+        "Walk through the city center",
+        "Take architectural photographs",
+        "See the illuminated buildings at night"
       ],
       "de": [
-        "Die historische Stadt erkunden",
-        "Die Plätze entdecken"
+        "Den historischen Platz erkunden",
+        "Jugendstilgebäude bewundern",
+        "Den Schwarzen-Adler-Palast sehen",
+        "Das Rathaus von Oradea sehen",
+        "Die historischen Kirchen entdecken",
+        "Zeit in Cafés und Restaurants verbringen",
+        "Durch das Stadtzentrum spazieren",
+        "Architekturfotografie machen",
+        "Die beleuchteten Gebäude am Abend sehen"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi meydan"
+        "tarih",
+        "meydan",
+        "mimari",
+        "kültür",
+        "şehir",
+        "fotoğraf"
       ],
       "en": [
-        "historic square"
+        "history",
+        "square",
+        "architecture",
+        "culture",
+        "city",
+        "photography"
       ],
       "de": [
-        "historischer Platz"
+        "geschichte",
+        "platz",
+        "architektur",
+        "kultur",
+        "stadt",
+        "fotografie"
       ]
     },
     "images": [
-      "https://example.com/oradea_center.jpg"
+      "https://www.oradeainvest.ro/wp-content/uploads/2022/10/piata-unirii-oradea.jpg"
     ]
   }
 ]
