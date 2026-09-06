@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import type { Metadata } from "next";
-import Script from "next/script"; // 🚀 KANKA BAK BURAYA IMPORT'U EKLEDİK
+import Script from "next/script";
+import DisableContextMenu from "@/components/DisableContextMenu";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,6 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
   display: "swap",
 });
+
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
@@ -22,17 +24,21 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://waylero.com"),
+
   title: {
     default: "Waylero | Explore Cities, Events & Travel Experiences",
     template: "%s | Waylero",
   },
+
   description:
     "Discover 40+ countries, 300+ cities and 2000+ travel spots. Find concerts, events, tours and travel inspiration with Waylero.",
+
   icons: {
     icon: "/waylero-icon.png",
     shortcut: "/waylero-icon.png",
     apple: "/waylero-icon.png",
   },
+
   openGraph: {
     title: "Waylero | Travel & City Explorer",
     description:
@@ -49,6 +55,7 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Waylero",
@@ -71,24 +78,37 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <head>
-        {/* 🇷🇺 YANDEX WEBMASTER DOĞRULAMA KODU TAM BURADA */}
-        <meta name="yandex-verification" content="81cbfcf8784b9317" />
+        <meta
+          name="yandex-verification"
+          content="81cbfcf8784b9317"
+        />
 
-        {/* 🚀 MICROSOFT CLARITY KODU TAM BURADA */}
-        <Script id="microsoft-clarity" strategy="afterInteractive">
+        <Script
+          id="microsoft-clarity"
+          strategy="lazyOnload"
+        >
           {`
             (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              c[a]=c[a]||function(){
+                (c[a].q=c[a].q||[]).push(arguments)
+              };
+              t=l.createElement(r);
+              t.async=1;
+              t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+              y=l.getElementsByTagName(r)[0];
+              y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "x3v9pxahkm");
           `}
         </Script>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}>
-        {children}
-      </body>
+
+      <body 
+  className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`} 
+>
+  <DisableContextMenu />
+
+  {children}
+</body>
     </html>
   );
-
 }
