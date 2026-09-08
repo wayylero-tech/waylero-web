@@ -1431,7 +1431,9 @@
     "bartin": {
       "bartin-inkumu-plaji": [
         "places/turkey/bartın/bartin-inkumu-plaji/g12gjnlmgevcevtjstwo"
-      ]
+      ],
+"bartin-amasra-kalesi": [
+"places/turkey/bartin/amasra-kalesi/amasra-kalesi_1788807713824_0.865677760606282","places/turkey/bartin/amasra-kalesi/amasra-kalesi_1788807717431_0.015546766951920254","places/turkey/bartin/amasra-kalesi/amasra-kalesi_1788807719508_0.5008442631747393","places/turkey/bartin/amasra-kalesi/amasra-kalesi_1788807722238_0.8874677186831749","places/turkey/bartin/amasra-kalesi/amasra-kalesi_1788807725301_0.8380706024989751"      ]
     },
  "tokat": {
       "tokat-tokat-kalesi": [
@@ -1586,7 +1588,8 @@
       "bolu-golcuk-tabiat-parki": [
         "places/turkey/bolu/bolu-golcuk-tabiat-parki/sa7im1ub0qkvmy8chmgv",
         "places/turkey/bolu/bolu-golcuk-tabiat-parki/juyaquhmshonddwl0iyd",
-        "places/turkey/bolu/bolu-golcuk-tabiat-parki/yf2ak5v3jh1iv2oglhut"
+        "places/turkey/bolu/bolu-golcuk-tabiat-parki/yf2ak5v3jh1iv2oglhut",
+"places/turkey/bolu/bolu-golcuk-tabiat-parki/bolu-golcuk-tabiat-parki_1788808092647_0.13780791955940552"
       ],
       "bolu-yedigoller-milli-parki": [
         "places/turkey/bolu/bolu-yedigoller-milli-parki/tfguaaelv9fkvke1klpd"
@@ -1616,7 +1619,8 @@
       "karabuk-safranbolu-evleri": [
         "places/turkey/karabük/karabuk-safranbolu-evleri/xleonzjdmtmgiqqh4olt",
         "places/turkey/karabük/karabuk-safranbolu-evleri/xnc2e53uklprasyezxmx",
-        "places/turkey/karabük/karabuk-safranbolu-evleri/wk8qygtppicnmy97wzzu"
+        "places/turkey/karabük/karabuk-safranbolu-evleri/wk8qygtppicnmy97wzzu",
+"places/turkey/karabük/karabuk-safranbolu-evleri/karabuk-safranbolu-evleri_1788806679040_0.8298115930872023","places/turkey/karabük/karabuk-safranbolu-evleri/karabuk-safranbolu-evleri_1788806683694_0.6779208284389272","places/turkey/karabük/karabuk-safranbolu-evleri/karabuk-safranbolu-evleri_1788806693012_0.7977487565145419","places/turkey/karabük/karabuk-safranbolu-evleri/karabuk-safranbolu-evleri_1788806697580_0.7687651386362968","places/turkey/karabük/karabuk-safranbolu-evleri/karabuk-safranbolu-evleri_1788806702299_0.40723929945308135"
       ],
       "karabuk-safranbolu-carsisi": [
         "places/turkey/karabük/karabuk-safranbolu-carsisi/j4lxal1rjrk2codnifmy"
@@ -1769,6 +1773,9 @@
       "artvin-ciftekemer-koprusu": [
         "places/turkey/artvin/artvin-ciftekemer-koprusu/hltz4cvv1mcjbg1ae4vq",
         "places/turkey/artvin/artvin-ciftekemer-koprusu/g1v1jsptepnrx5atrlbh"
+      ],
+"artvin-borcka-karagol": [
+        "places/turkey/artvin/borcka-karagol/borcka-karagol_1788808249479_0.9503217774219245","places/turkey/artvin/borcka-karagol/borcka-karagol_1788808251859_0.04335058202262976","places/turkey/artvin/borcka-karagol/borcka-karagol_1788808255277_0.5565391208369153"
       ]
     },
     "bingol": {
@@ -1947,6 +1954,7 @@
 
       ]
     },
+
 "hakkari": {
       "hakkari-cilo-dagi": [
 "places/turkey/hakkari/cilo-dagi/cilo-dagi_1779549812680_0.6758675634411048"

@@ -65,6 +65,11 @@ import { erzurumPosts } from "@/data/blog/erzurum/posts";
 import { aksaraygezisiPosts } from "@/data/blog/aksaray/aksaraygezisi";
 import { gümüshanegezisiPosts } from "@/data/blog/gümüshane/gümüshanegezisi";
 import { sivasgezisiPosts } from "@/data/blog/sivas/sivasgezisi";
+import { boluAbantGolcukPosts } from "@/data/blog/bolu/golcuk";
+import { boluyedigollerPosts } from "@/data/blog/bolu/bolu";
+import { borckaKaragolPosts } from "@/data/blog/artvin/borkca";
+import { safranboluPosts } from "@/data/blog/karabuk/safranbolu";
+import { amasraPosts } from "@/data/blog/bartin/amasra";
 
 
 
@@ -135,6 +140,12 @@ export const allPosts = [
 ...erzurumPosts,
 ...aksaraygezisiPosts,
 ...gümüshanegezisiPosts,
-...sivasgezisiPosts
+...sivasgezisiPosts,
+...boluAbantGolcukPosts,
+...boluyedigollerPosts,
+...borckaKaragolPosts,
+...safranboluPosts,
+...amasraPosts
+
 
 ];
