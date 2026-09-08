@@ -1,0 +1,475 @@
+[
+  {
+    "id": "turkiye",
+    "country_name": {
+      "tr": "Türkiye",
+      "en": "Turkey"
+    },
+    "summary": {
+      "tr": "Türkiye, Avrupa ile Asya'nın kesiştiği noktada yer alan ve farklı coğrafyaları, zengin tarihi, kültürel mirası ve doğal güzellikleri bir arada sunan önemli bir seyahat destinasyonudur.",
+      "en": "Turkey is a major travel destination located at the crossroads of Europe and Asia, offering diverse landscapes, rich history, cultural heritage and natural beauty."
+    }
+  },
+  {
+    "id": "amerika",
+    "country_name": {
+      "tr": "Amerika",
+      "en": "USA"
+    },
+    "summary": {
+      "tr": "Amerika Birleşik Devletleri, büyük şehirlerden milli parklara, sahillerden tarihi bölgelere kadar oldukça geniş bir seyahat deneyimi sunar.",
+      "en": "The United States offers a wide range of travel experiences, from major cities and national parks to beaches and historic destinations."
+    }
+  },
+  {
+    "id": "fransa",
+    "country_name": {
+      "tr": "Fransa",
+      "en": "France"
+    },
+    "summary": {
+      "tr": "Fransa; Paris'in tarihi ve kültürel mirasından Akdeniz kıyılarına, Alplerden Loire Vadisi'ne kadar farklı seyahat rotaları sunan Avrupa'nın öne çıkan destinasyonlarından biridir.",
+      "en": "France offers diverse travel experiences, from the historic and cultural attractions of Paris to the Mediterranean coast, the Alps and the Loire Valley."
+    }
+  },
+  {
+    "id": "almanya",
+    "country_name": {
+      "tr": "Almanya",
+      "en": "Germany"
+    },
+    "summary": {
+      "tr": "Almanya; tarihi şehirleri, kaleleri, müzeleri, doğal alanları ve modern şehir yaşamıyla yıl boyunca farklı seyahat beklentilerine hitap eder.",
+      "en": "Germany appeals to different types of travelers with its historic cities, castles, museums, natural landscapes and modern urban life."
+    }
+  },
+  {
+    "id": "italya",
+    "country_name": {
+      "tr": "İtalya",
+      "en": "Italy"
+    },
+    "summary": {
+      "tr": "İtalya; Roma, Floransa ve Venedik gibi tarihi şehirleri, Akdeniz kıyıları, sanat mirası ve mutfağıyla dünyanın en çok ilgi gören seyahat destinasyonlarından biridir.",
+      "en": "Italy is one of the world's most popular travel destinations, known for historic cities such as Rome, Florence and Venice, Mediterranean coastlines, art heritage and cuisine."
+    }
+  },
+  {
+    "id": "ispanya",
+    "country_name": {
+      "tr": "İspanya",
+      "en": "Spain"
+    },
+    "summary": {
+      "tr": "İspanya; Barselona ve Madrid gibi büyük şehirleri, Endülüs mirası, Akdeniz kıyıları ve zengin gastronomi kültürüyle farklı seyahat rotaları sunar.",
+      "en": "Spain offers diverse travel routes through major cities such as Barcelona and Madrid, Andalusian heritage, Mediterranean coastlines and a rich food culture."
+    }
+  },
+  {
+    "id": "ingiltere",
+    "country_name": {
+      "tr": "İngiltere",
+      "en": "United Kingdom"
+    },
+    "summary": {
+      "tr": "İngiltere; Londra başta olmak üzere tarihi şehirleri, kırsal bölgeleri, müzeleri, sarayları ve kültürel mirasıyla ziyaretçilere farklı deneyimler sunar.",
+      "en": "England offers diverse experiences through London and other historic cities, countryside landscapes, museums, palaces and cultural heritage."
+    }
+  },
+  {
+    "id": "hollanda",
+    "country_name": {
+      "tr": "Hollanda",
+      "en": "Netherlands"
+    },
+    "summary": {
+      "tr": "Hollanda; Amsterdam'ın kanalları, tarihi şehirleri, bisiklet yolları, müzeleri ve lale tarlalarıyla özellikle şehir ve kültür gezileri için popülerdir.",
+      "en": "The Netherlands is popular for city and cultural trips thanks to Amsterdam's canals, historic towns, cycling routes, museums and tulip fields."
+    }
+  },
+  {
+    "id": "avusturya",
+    "country_name": {
+      "tr": "Avusturya",
+      "en": "Austria"
+    },
+    "summary": {
+      "tr": "Avusturya; Viyana'nın tarihi yapıları, Salzburg'un kültürel mirası ve Alplerin doğal manzaralarıyla kültür ve doğa gezilerini bir araya getirir.",
+      "en": "Austria combines cultural and nature travel through Vienna's historic architecture, Salzburg's heritage and the scenic Austrian Alps."
+    }
+  },
+  {
+    "id": "yunanistan",
+    "country_name": {
+      "tr": "Yunanistan",
+      "en": "Greece"
+    },
+    "summary": {
+      "tr": "Yunanistan; tarihi antik kentleri, Ege ve İyon adaları, Akdeniz kıyıları ve geleneksel yerleşimleriyle deniz, tarih ve kültür gezileri için önemli bir destinasyondur.",
+      "en": "Greece is an important destination for beach, history and cultural travel, with ancient sites, Aegean and Ionian islands, Mediterranean coastlines and traditional settlements."
+    }
+  },
+  {
+    "id": "cek-cumhuriyeti",
+    "country_name": {
+      "tr": "Çek Cumhuriyeti",
+      "en": "Czech Republic"
+    },
+    "summary": {
+      "tr": "Çek Cumhuriyeti; özellikle Prag'ın tarihi merkezi, kaleleri, meydanları ve Orta Avrupa kültürüyle şehir gezileri açısından dikkat çeker.",
+      "en": "The Czech Republic is known for city trips, particularly Prague's historic center, castles, squares and Central European culture."
+    }
+  },
+  {
+    "id": "rusya",
+    "country_name": {
+      "tr": "Rusya",
+      "en": "Russia"
+    },
+    "summary": {
+      "tr": "Rusya; Moskova ve Sankt Petersburg gibi tarihi şehirleri, geniş coğrafyası ve farklı kültürel bölgeleriyle çok çeşitli seyahat deneyimleri sunar.",
+      "en": "Russia offers diverse travel experiences through historic cities such as Moscow and Saint Petersburg, as well as its vast geography and varied cultural regions."
+    }
+  },
+  {
+    "id": "portekiz",
+    "country_name": {
+      "tr": "Portekiz",
+      "en": "Portugal"
+    },
+    "summary": {
+      "tr": "Portekiz; Lizbon ve Porto gibi tarihi şehirleri, Atlantik kıyıları, renkli mahalleleri ve doğal güzellikleriyle Avrupa'nın sevilen seyahat rotalarındandır.",
+      "en": "Portugal is a popular European destination with historic cities such as Lisbon and Porto, Atlantic coastlines, colorful neighborhoods and natural landscapes."
+    }
+  },
+  {
+    "id": "romanya",
+    "country_name": {
+      "tr": "Romanya",
+      "en": "Romania"
+    },
+    "summary": {
+      "tr": "Romanya; Bükreş'in şehir yaşamı, Transilvanya'nın tarihi kasabaları, kaleleri ve Karpat Dağları ile kültür ve doğa gezileri için çeşitli seçenekler sunar.",
+      "en": "Romania offers varied cultural and nature experiences through Bucharest, historic Transylvanian towns, castles and the Carpathian Mountains."
+    }
+  },
+  {
+    "id": "danimarka",
+    "country_name": {
+      "tr": "Danimarka",
+      "en": "Denmark"
+    },
+    "summary": {
+      "tr": "Danimarka; Kopenhag'ın tarihi bölgeleri, renkli limanları, müzeleri ve bisiklet kültürüyle Kuzey Avrupa şehir gezileri için öne çıkar.",
+      "en": "Denmark stands out for Northern European city travel with Copenhagen's historic areas, colorful harbor, museums and cycling culture."
+    }
+  },
+  {
+    "id": "urdun",
+    "country_name": {
+      "tr": "Ürdün",
+      "en": "Jordan"
+    },
+    "summary": {
+      "tr": "Ürdün; Petra Antik Kenti, Wadi Rum çölü, Lut Gölü ve Amman gibi önemli duraklarıyla tarih ve doğa odaklı seyahatler için dikkat çekici bir destinasyondur.",
+      "en": "Jordan is a remarkable destination for history and nature travel, with attractions such as Petra, Wadi Rum, the Dead Sea and Amman."
+    }
+  },
+  {
+    "id": "isvec",
+    "country_name": {
+      "tr": "İsveç",
+      "en": "Sweden"
+    },
+    "summary": {
+      "tr": "İsveç; Stockholm gibi tarihi şehirleri, gölleri, ormanları ve kuzey bölgelerindeki doğal manzaralarıyla şehir ve doğa gezilerini bir arada sunar.",
+      "en": "Sweden combines city and nature travel through historic cities such as Stockholm, lakes, forests and northern landscapes."
+    }
+  },
+  {
+    "id": "norvec",
+    "country_name": {
+      "tr": "Norveç",
+      "en": "Norway"
+    },
+    "summary": {
+      "tr": "Norveç; fiyortları, dağları, kuzey ışıkları ve doğal manzaralarıyla özellikle doğa ve macera odaklı seyahatlerin öne çıkan destinasyonlarından biridir.",
+      "en": "Norway is a leading destination for nature and adventure travel, known for its fjords, mountains, northern lights and dramatic landscapes."
+    }
+  },
+  {
+    "id": "isvicre",
+    "country_name": {
+      "tr": "İsviçre",
+      "en": "Switzerland"
+    },
+    "summary": {
+      "tr": "İsviçre; Alpler, göller, dağ kasabaları ve Zürih, Cenevre gibi şehirleriyle doğa, kış sporları ve şehir gezilerini bir arada sunar.",
+      "en": "Switzerland combines nature, winter sports and city travel through the Alps, lakes, mountain towns and cities such as Zurich and Geneva."
+    }
+  },
+  {
+    "id": "endonezya",
+    "country_name": {
+      "tr": "Endonezya",
+      "en": "Indonesia"
+    },
+    "summary": {
+      "tr": "Endonezya; Bali başta olmak üzere tropikal adaları, volkanları, pirinç tarlaları ve zengin kültürel mirasıyla farklı seyahat deneyimleri sunar.",
+      "en": "Indonesia offers diverse travel experiences through tropical islands, volcanoes, rice terraces and rich cultural heritage, especially in Bali."
+    }
+  },
+  {
+    "id": "irlanda",
+    "country_name": {
+      "tr": "İrlanda",
+      "en": "Ireland"
+    },
+    "summary": {
+      "tr": "İrlanda; yeşil kırsal manzaraları, tarihi kaleleri, kayalık kıyıları, geleneksel kasabaları ve Dublin'in kültürel atmosferiyle dikkat çeker.",
+      "en": "Ireland is known for its green countryside, historic castles, dramatic coastlines, traditional towns and Dublin's cultural atmosphere."
+    }
+  },
+  {
+    "id": "bosna-hersek",
+    "country_name": {
+      "tr": "Bosna Hersek",
+      "en": "Bosnia and Herzegovina"
+    },
+    "summary": {
+      "tr": "Bosna Hersek; Saraybosna ve Mostar gibi tarihi şehirleri, Osmanlı döneminden kalan eserleri, nehirleri ve doğal güzellikleriyle kültür gezileri için önemli bir Balkan destinasyonudur.",
+      "en": "Bosnia and Herzegovina is an important Balkan destination with historic cities such as Sarajevo and Mostar, Ottoman-era heritage, rivers and natural landscapes."
+    }
+  },
+  {
+    "id": "avustralya",
+    "country_name": {
+      "tr": "Avustralya",
+      "en": "Australia"
+    },
+    "summary": {
+      "tr": "Avustralya; Sidney ve Melbourne gibi büyük şehirleri, geniş kıyıları, milli parkları ve eşsiz doğal yaşamıyla uzun mesafeli seyahatler için zengin seçenekler sunar.",
+      "en": "Australia offers a wide range of long-distance travel experiences through cities such as Sydney and Melbourne, extensive coastlines, national parks and unique wildlife."
+    }
+  },
+  {
+    "id": "azerbaycan",
+    "country_name": {
+      "tr": "Azerbaycan",
+      "en": "Azerbaijan"
+    },
+    "summary": {
+      "tr": "Azerbaycan; Bakü'nün modern şehir dokusu, tarihi bölgeleri, Hazar Denizi kıyısı ve ülkenin farklı doğal alanlarıyla keşfedilecek çeşitli rotalara sahiptir.",
+      "en": "Azerbaijan offers diverse travel routes through Baku's modern cityscape, historic areas, the Caspian Sea coast and varied natural landscapes."
+    }
+  },
+  {
+    "id": "gurcistan",
+    "country_name": {
+      "tr": "Gürcistan",
+      "en": "Georgia"
+    },
+    "summary": {
+      "tr": "Gürcistan; Tiflis'in tarihi sokakları, Batum'un Karadeniz kıyısı, Kafkas Dağları ve geleneksel mutfağıyla özellikle yakın mesafeli yurtdışı seyahatlerinde tercih edilir.",
+      "en": "Georgia is popular for nearby international trips thanks to Tbilisi's historic streets, Batumi's Black Sea coast, the Caucasus Mountains and traditional cuisine."
+    }
+  },
+  {
+    "id": "iskocya",
+    "country_name": {
+      "tr": "İskoçya",
+      "en": "Scotland"
+    },
+    "summary": {
+      "tr": "İskoçya; Edinburgh'un tarihi yapıları, Highlands bölgesi, gölleri, kaleleri ve kıyı manzaralarıyla Birleşik Krallık içinde kendine özgü seyahat rotaları sunar.",
+      "en": "Scotland offers distinctive travel routes through the historic architecture of Edinburgh, the Highlands, lochs, castles and coastal landscapes."
+    }
+  },
+  {
+    "id": "galler",
+    "country_name": {
+      "tr": "Galler",
+      "en": "Wales"
+    },
+    "summary": {
+      "tr": "Galler; kaleleri, dağlık bölgeleri, milli parkları ve kıyı manzaralarıyla doğa ve tarih odaklı seyahatler için farklı seçenekler sunar.",
+      "en": "Wales offers a variety of nature and history experiences through its castles, mountains, national parks and coastal landscapes."
+    }
+  },
+  {
+    "id": "malezya",
+    "country_name": {
+      "tr": "Malezya",
+      "en": "Malaysia"
+    },
+    "summary": {
+      "tr": "Malezya; Kuala Lumpur'un modern şehir hayatı, tropikal adaları, yağmur ormanları ve farklı kültürlerin bir arada yaşadığı mutfağıyla dikkat çeker.",
+      "en": "Malaysia stands out with Kuala Lumpur's modern city life, tropical islands, rainforests and cuisine shaped by diverse cultures."
+    }
+  },
+  {
+    "id": "cin",
+    "country_name": {
+      "tr": "Çin",
+      "en": "China"
+    },
+    "summary": {
+      "tr": "Çin; Pekin, Şanghay ve Xi'an gibi büyük şehirleri, tarihi yapıları, doğal alanları ve binlerce yıllık kültürel mirasıyla geniş bir seyahat coğrafyası sunar.",
+      "en": "China offers a vast travel landscape through major cities such as Beijing, Shanghai and Xi'an, historic landmarks, natural areas and thousands of years of cultural heritage."
+    }
+  },
+  {
+    "id": "hindistan",
+    "country_name": {
+      "tr": "Hindistan",
+      "en": "India"
+    },
+    "summary": {
+      "tr": "Hindistan; tarihi yapıları, dini merkezleri, renkli şehirleri, farklı kültürleri ve geniş coğrafyasıyla çok çeşitli seyahat deneyimleri sunar.",
+      "en": "India offers highly diverse travel experiences through historic landmarks, religious centers, colorful cities, different cultures and its vast geography."
+    }
+  },
+  {
+    "id": "tayland",
+    "country_name": {
+      "tr": "Tayland",
+      "en": "Thailand"
+    },
+    "summary": {
+      "tr": "Tayland; Bangkok'un hareketli şehir yaşamı, tropikal adaları, tapınakları ve plajlarıyla kültür ve deniz tatilini bir arada yaşamak isteyenlerin tercih ettiği destinasyonlardan biridir.",
+      "en": "Thailand is a popular destination for travelers seeking a combination of culture and beach holidays, with Bangkok's vibrant city life, tropical islands, temples and beaches."
+    }
+  },
+  {
+    "id": "guney-kore",
+    "country_name": {
+      "tr": "Güney Kore",
+      "en": "South Korea"
+    },
+    "summary": {
+      "tr": "Güney Kore; Seul'ün modern şehir yaşamı, tarihi sarayları, geleneksel mahalleleri, teknoloji kültürü ve zengin mutfağıyla dikkat çeker.",
+      "en": "South Korea stands out with Seoul's modern urban life, historic palaces, traditional neighborhoods, technology culture and rich cuisine."
+    }
+  },
+  {
+    "id": "filipinler",
+    "country_name": {
+      "tr": "Filipinler",
+      "en": "Philippines"
+    },
+    "summary": {
+      "tr": "Filipinler; tropikal adaları, beyaz kumsalları, mercan resifleri ve doğal güzellikleriyle özellikle deniz ve ada gezileri için tercih edilir.",
+      "en": "The Philippines is especially popular for island and beach travel, with tropical islands, white-sand beaches, coral reefs and natural landscapes."
+    }
+  },
+  {
+    "id": "japonya",
+    "country_name": {
+      "tr": "Japonya",
+      "en": "Japan"
+    },
+    "summary": {
+      "tr": "Japonya; Tokyo ve Kyoto gibi şehirleri, tapınakları, geleneksel kültürü, teknolojisi ve doğal güzellikleriyle farklı seyahat deneyimlerini bir araya getirir.",
+      "en": "Japan combines diverse travel experiences through cities such as Tokyo and Kyoto, temples, traditional culture, technology and natural landscapes."
+    }
+  },
+  {
+    "id": "sri-lanka",
+    "country_name": {
+      "tr": "Sri Lanka",
+      "en": "Sri Lanka"
+    },
+    "summary": {
+      "tr": "Sri Lanka; tropikal kıyıları, çay tarlaları, tarihi yapıları, milli parkları ve kültürel mirasıyla küçük bir coğrafyada farklı seyahat deneyimleri sunar.",
+      "en": "Sri Lanka offers diverse travel experiences in a relatively compact country through tropical coasts, tea plantations, historic sites, national parks and cultural heritage."
+    }
+  },
+  {
+    "id": "singapur",
+    "country_name": {
+      "tr": "Singapur",
+      "en": "Singapore"
+    },
+    "summary": {
+      "tr": "Singapur; modern şehir mimarisi, yeşil alanları, farklı kültürlerin etkisini taşıyan mahalleleri ve zengin gastronomisiyle şehir gezileri için öne çıkar.",
+      "en": "Singapore stands out for city travel with modern architecture, green spaces, culturally diverse neighborhoods and a rich food scene."
+    }
+  },
+  {
+    "id": "umman",
+    "country_name": {
+      "tr": "Umman",
+      "en": "Oman"
+    },
+    "summary": {
+      "tr": "Umman; çöl manzaraları, dağları, vadileri, tarihi kaleleri ve Umman Körfezi kıyılarıyla doğa ve kültür odaklı seyahatler için farklı bir Körfez deneyimi sunar.",
+      "en": "Oman offers a distinctive Gulf travel experience through deserts, mountains, wadis, historic forts and the coast of the Gulf of Oman."
+    }
+  },
+  {
+    "id": "suudi-arabistan",
+    "country_name": {
+      "tr": "Suudi Arabistan",
+      "en": "Saudi Arabia"
+    },
+    "summary": {
+      "tr": "Suudi Arabistan; Riyad ve Cidde gibi şehirlerinin yanı sıra AlUla'nın tarihi ve doğal alanlarıyla son yıllarda farklı seyahat rotalarının öne çıktığı bir destinasyondur.",
+      "en": "Saudi Arabia has developed diverse travel routes in recent years, including cities such as Riyadh and Jeddah as well as the historic and natural landscapes of AlUla."
+    }
+  },
+  {
+    "id": "misir",
+    "country_name": {
+      "tr": "Mısır",
+      "en": "Egypt"
+    },
+    "summary": {
+      "tr": "Mısır; Kahire'nin tarihi eserleri, Gize Piramitleri, Nil Nehri, Luksor ve Kızıldeniz kıyılarıyla tarih ve deniz tatilini bir araya getirir.",
+      "en": "Egypt combines history and beach travel through Cairo's historic sites, the Pyramids of Giza, the Nile, Luxor and the Red Sea coast."
+    }
+  },
+  {
+    "id": "belarus",
+    "country_name": {
+      "tr": "Belarus",
+      "en": "Belarus"
+    },
+    "summary": {
+      "tr": "Belarus; Minsk'in şehir yaşamı, tarihi yapıları, geniş parkları ve ülkenin doğal alanlarıyla daha sakin bir Doğu Avrupa seyahat deneyimi sunar.",
+      "en": "Belarus offers a quieter Eastern European travel experience through Minsk's urban life, historic sites, large parks and natural areas."
+    }
+  },
+  {
+    "id": "kktc",
+    "country_name": {
+      "tr": "KKTC",
+      "en": "Northern Cyprus"
+    },
+    "summary": {
+      "tr": "Kıbrıs'ın kuzeyinde bulunan ve Türkiye tarafından tanınan Kuzey Kıbrıs Türk Cumhuriyeti; Girne, Gazimağusa ve Lefkoşa gibi şehirleri, sahilleri ve tarihi yapılarıyla ziyaret edilen bir bölgedir.",
+      "en": "Located in the northern part of Cyprus and recognized as a state by Türkiye, Northern Cyprus is visited for destinations such as Kyrenia, Famagusta and Nicosia, as well as its beaches and historic sites."
+    }
+  },
+  {
+    "id": "bae",
+    "country_name": {
+      "tr": "BAE",
+      "en": "UAE"
+    },
+    "summary": {
+      "tr": "Birleşik Arap Emirlikleri; Dubai ve Abu Dabi gibi modern şehirleri, çöl deneyimleri, alışveriş merkezleri, plajları ve mimari yapılarıyla öne çıkar.",
+      "en": "The United Arab Emirates stands out with modern cities such as Dubai and Abu Dhabi, desert experiences, shopping destinations, beaches and remarkable architecture."
+    }
+  },
+  {
+    "id": "peru",
+    "country_name": {
+      "tr": "Peru",
+      "en": "Peru"
+    },
+    "summary": {
+      "tr": "Peru; Machu Picchu, Cusco, And Dağları ve Lima gibi önemli duraklarıyla tarih, kültür ve doğa odaklı seyahatler için zengin bir Güney Amerika destinasyonudur.",
+      "en": "Peru is a rich South American destination for history, culture and nature travel, with highlights such as Machu Picchu, Cusco, the Andes and Lima."
+    }
+  }
+]

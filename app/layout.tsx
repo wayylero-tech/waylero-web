@@ -105,7 +105,7 @@ export default async function RootLayout({
       <body 
   className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`} 
 >
-  <DisableContextMenu />
+   {/* <DisableContextMenu /> */}
 
   {children}
 </body>

@@ -118,16 +118,14 @@ export default async function KesfetPage({ params }: Props) {
     <div className="min-h-screen">
       {/* SEO H1 + Internal Links */}
       <div className="sr-only">
-        <h1>{lang === "en" ? "Explore the World" : "Dünyayı Keşfet"}</h1>
-
-        <nav>
-          {Object.entries(countryNames).map(([slug, names]) => (
-            <a key={slug} href={`/${lang}/kesfet/${slug}`}>
-              {lang === "en" ? names.en : names.tr}
-            </a>
-          ))}
-        </nav>
-      </div>
+  <nav aria-label={lang === "en" ? "Countries" : "Ülkeler"}>
+    {Object.entries(countryNames).map(([slug, names]) => (
+      <a key={slug} href={`/${lang}/kesfet/${slug}`}>
+        {lang === "en" ? names.en : names.tr}
+      </a>
+    ))}
+  </nav>
+</div>
 
       {/* CONTENT */}
       <Suspense

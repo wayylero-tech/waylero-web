@@ -28,15 +28,15 @@ export default function HotelCard({
   const isTR = lang === "tr";
 
   const formattedCity =
-    city.toLowerCase() === "nevsehir"
-      ? isTR
-        ? "Kapadokya"
-        : "Cappadocia"
-      : city.toLowerCase() === "tumsehirler"
-      ? isTR
-        ? "Diğer Şehirler"
-        : "Other Cities"
-      : city.charAt(0).toUpperCase() + city.slice(1);
+  city.toLowerCase() === "nevsehir"
+    ? isTR
+      ? "Kapadokya"
+      : "Cappadocia"
+    : city.toLowerCase() === "londra"
+    ? isTR
+      ? "Londra"
+      : "London"
+    : city.charAt(0).toUpperCase() + city.slice(1);
 
   const cardTitle =
     title || (isTR ? `${formattedCity} Otelleri` : `${formattedCity} Hotels`);
@@ -61,7 +61,7 @@ const cityImage =
   image ||
   (availableCityImages.includes(city.toLowerCase())
     ? `/assets/sehir1/${city.toLowerCase()}.webp`
-    : "/assets/sehir1/tumsehirler.webp");
+    : "/assets/sehir1/istanbul.webp");
   // 🔥 CTA
   const ctaText = isTR
     ? provider === "booking"

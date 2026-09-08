@@ -35,6 +35,20 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // 🗑️ ESKİ KEŞFET URL'LERİ — KALICI OLARAK KALDIRILDI
+const gonePaths = [
+  "/kesfet/turkey",
+  "/en/kesfet/turkey",
+  "/kesfet/europa",
+  "/en/kesfet/europa",
+  "/kesfet/asia",
+  "/en/kesfet/asia",
+];
+
+if (gonePaths.includes(pathname.toLowerCase())) {
+  return new NextResponse("Gone", { status: 410 });
+}
+
   const segments = pathname.split("/").filter(Boolean);
   const currentLocale = segments[0]?.toLowerCase();
   const isLocale = currentLocale === "en" || currentLocale === "tr";

@@ -7,15 +7,6 @@ import { MapPin, ChevronRight } from "lucide-react";
 /* 🔹 ŞEHİR VERİLERİ */
 const cities = [
   {
-    id: "tumsehirler",
-    name: { tr: "Diğer Şehirler", en: "Other Cities" },
-    image: "/assets/sehir1/tumsehirler.webp",
-    desc: {
-      tr: "Dünyanın dört bir yanındaki turları ve aktiviteleri keşfet",
-      en: "Discover tours and activities from all around the world",
-    },
-  },
-  {
     id: "istanbul",
     name: { tr: "İstanbul", en: "Istanbul" },
     image: "/assets/sehir1/istanbul.webp",

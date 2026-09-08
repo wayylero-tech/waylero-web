@@ -5,16 +5,7 @@ import { MapPin, ChevronRight } from "lucide-react";
 
 
   const cities = [
-    {
-  id: "tumsehirler",
-  name: {     tr: "Diğer Şehirler",     en: "Other Cities" 
-  },
-  image: "/assets/sehir1/tumsehirler.webp", // Genel bir seyahat görseli
-  desc: {
-    tr: "Dünyanın dört bir yanındaki lüks durakları keşfedin",
-    en: "Discover luxury destinations all around the world",
-  },
-},
+
   {
     id: "istanbul",
     name: { tr: "İstanbul", en: "Istanbul" },

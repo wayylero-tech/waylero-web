@@ -2,7 +2,6 @@ import { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
 import cities from "@/data/cities.json";
-import toursData from "@/data/tours.json";
 import { wayleroLiveVideos, addSlugs } from "@/videos";
 import { allPosts } from "@/lib/blog/posts";
 
@@ -127,20 +126,67 @@ activityCities.forEach((city) => {
 });
 
   // Etkinlikler
-  const eventCities = Array.from(new Set(toursData.map((t: any) => t.city?.toLowerCase()))).filter(Boolean);
-  eventCities.forEach((city) => {
-    locales.forEach((locale) => {
-      entries.push({ url: buildUrl(`/etkinlikler/${city}`, locale), lastModified: now, priority: 0.7 });
+// Etkinlikler
+// Sadece içerik sayfası gerçekten bulunan şehirler sitemap'e eklenir.
+const eventCities = [
+  "istanbul",
+  "nevsehir",
+  "antalya",
+  "izmir",
+  "mugla",
+  "aydin",
+  "trabzon",
+  "viyana",
+  "roma",
+  "paris",
+  "dubai",
+  "bangkok",
+];
+
+eventCities.forEach((city) => {
+  locales.forEach((locale) => {
+    const route = `/etkinlikler/${city}`;
+
+    entries.push({
+      url: buildUrl(route, locale),
+      lastModified: now,
+      priority: 0.7,
+      alternates: {
+        languages: {
+          tr: buildUrl(route, "tr"),
+          en: buildUrl(route, "en"),
+        },
+      },
     });
   });
+});
 
   // Hotels
-  const hotelCitiesList = ["istanbul", "nevsehir", "antalya", "izmir", "mugla", "aydin", "trabzon", "bangkok", "paris", "londra", "dubai", "roma"];
-  hotelCitiesList.forEach((city) => {
-    locales.forEach((locale) => {
-      entries.push({ url: buildUrl(`/hotels/${sanitize(city)}`, locale), lastModified: now, priority: 0.7 });
+ const hotelCitiesList = [
+  "istanbul",
+  "nevsehir",
+  "antalya",
+  "izmir",
+  "mugla",
+  "aydin",
+  "trabzon",
+  "edirne",
+  "bangkok",
+  "paris",
+  "londra",
+  "dubai",
+  "roma",
+];
+
+hotelCitiesList.forEach((city) => {
+  locales.forEach((locale) => {
+    entries.push({
+      url: buildUrl(`/hotels/${sanitize(city)}`, locale),
+      lastModified: now,
+      priority: 0.7,
     });
   });
+});
 
   // 7️⃣ VİDEOLAR (0.6)
   const videosWithSlugs = addSlugs(wayleroLiveVideos);

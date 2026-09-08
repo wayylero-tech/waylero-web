@@ -25,6 +25,30 @@ const capitalizeCityName = (str: string) => {
     .join(" ");
 };
 
+const getShortDescription = (
+  description: string | undefined,
+  maxLength = 180
+) => {
+  if (!description) return "";
+
+  // İlk paragrafı al
+  const firstParagraph = description
+    .split(/\n\s*\n/)[0]
+    .replace(/\*\*/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (firstParagraph.length <= maxLength) {
+    return firstParagraph;
+  }
+
+  // Kelime ortasında kesme
+  const shortened = firstParagraph.slice(0, maxLength);
+  const lastSpace = shortened.lastIndexOf(" ");
+
+  return `${shortened.slice(0, lastSpace > 0 ? lastSpace : maxLength)}...`;
+};
+
 // 🌟 Tam Ekran Görüntüsündeki Gibi iStock Tarzı Zengin Vektörel İllüstrasyonlar
 const getFallbackIllustration = (placeName: string, placeSlug: string) => {
   const text = `${placeName} ${placeSlug}`.toLowerCase();
@@ -351,11 +375,14 @@ const tourLink = `/${lang}/etkinlikler/${currentCitySlug}`;
               <span className="text-[10px] font-black uppercase tracking-widest">{t.badge}</span>
             </div>
             <h1 className="text-7xl md:text-9xl font-serif font-bold text-gray-900 mb-8 tracking-tighter leading-none">
-              {actualCityKey}
-            </h1>
-            <p className="text-xl text-gray-500 font-medium italic opacity-80">
-              {cityPlaces.length} {t.suffix2}
-            </p>
+  {actualCityKey}
+</h1>
+
+<h2 className="text-2xl md:text-3xl font-serif font-bold text-gray-700">
+  {isEn
+    ? `${cityPlaces.length} Places to Visit in ${actualCityKey}`
+    : `${actualCityKey} Gezilecek Yerler`}
+</h2>
           </div>
         </div>
       </section>
@@ -367,6 +394,8 @@ const tourLink = `/${lang}/etkinlikler/${currentCitySlug}`;
             const placeName = place.name?.[lang] || place.name?.tr || "Place";
             const imageKey = `${slugify(actualCityKey)}-${slugify(place.slug)}`;
             const coverImage = cityImages[imageKey]?.[0] || cityImages[place.slug]?.[0];
+            const placeDescription =
+            getShortDescription(place.description?.[lang] || place.description?.tr);
 
             return (
               <Link
@@ -393,17 +422,27 @@ const tourLink = `/${lang}/etkinlikler/${currentCitySlug}`;
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
                 </div>
 
-                <div className="absolute bottom-0 left-0 right-0 p-10 z-10">                   
-                  <h3 className="text-3xl font-serif font-bold text-white mb-4 group-hover:text-blue-200 transition-colors leading-tight">
-                    {placeName}
-                  </h3>
-                  <div className="flex items-center justify-between opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
-                    <span className="text-white/80 text-[10px] font-black uppercase tracking-widest">{t.exploreBtn}</span>
-                    <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-xl">
-                      <ChevronRight size={20} />
-                    </div>
-                  </div>
-                </div>
+               <div className="absolute bottom-0 left-0 right-0 p-10 z-10">
+  <h3 className="text-3xl font-serif font-bold text-white mb-3 group-hover:text-blue-200 transition-colors leading-tight">
+    {placeName}
+  </h3>
+
+  {placeDescription && (
+    <p className="text-sm md:text-base text-white/80 leading-relaxed line-clamp-3">
+      {placeDescription}
+    </p>
+  )}
+
+  <div className="flex items-center justify-between opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
+    <span className="text-white/80 text-[10px] font-black uppercase tracking-widest">
+      {t.exploreBtn}
+    </span>
+
+    <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-xl">
+      <ChevronRight size={20} />
+    </div>
+  </div>
+</div>
               </Link>
             );
           })}

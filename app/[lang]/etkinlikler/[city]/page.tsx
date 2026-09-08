@@ -1,46 +1,75 @@
 import CityPageClient from "./CityPageClient";
+import { notFound } from "next/navigation";
 
-const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-
-type Params = { city: string; lang: 'tr' | 'en' };
+type Params = {
+  city: string;
+  lang: "tr" | "en";
+};
 
 const BASE_URL = "https://www.waylero.com";
 
-// Şehir ismini slug'dan güzel bir formata çeviren yardımcı
+const VALID_CITIES = [
+  "istanbul",
+  "nevsehir",
+  "antalya",
+  "izmir",
+  "mugla",
+  "aydin",
+  "trabzon",
+  "viyana",
+  "roma",
+  "paris",
+  "dubai",
+  "bangkok",
+];
+
 function getCityName(citySlug: string) {
   return citySlug
     .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 }
 
-export async function generateMetadata({ params }: { params: Promise<Params> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
   const { city, lang } = await params;
+
+  if (
+    (lang !== "tr" && lang !== "en") ||
+    !VALID_CITIES.includes(city)
+  ) {
+    return {};
+  }
+
   const isTR = lang === "tr";
   const cityName = getCityName(city);
-  
-  // URL yapısını sabitleyelim
-  const currentPath = `/${lang}/etkinlikler/${city}`;
-  const fullUrl = `${BASE_URL}${currentPath}`;
+
+  const fullUrl = `${BASE_URL}/${lang}/etkinlikler/${city}`;
 
   const title = isTR
-    ? `${cityName} Turlar & Deneyimler | Waylero`
+    ? `${cityName} Turları ve Deneyimleri | Waylero`
     : `${cityName} Tours & Experiences | Waylero`;
 
   const description = isTR
-    ? `${cityName} şehrindeki en iyi turları, etkinlikleri ve gezilecek yerleri keşfedin.`
-    : `Discover the best tours, events, and things to do in ${cityName}.`;
+    ? `${cityName} için gezi rehberi, yapılacaklar, günlük rota önerileri, seyahat ipuçları ve en iyi turları keşfedin.`
+    : `Discover the best things to do in ${cityName}, including travel tips, itinerary ideas, tours and experiences.`;
 
   return {
     title,
     description,
+
     alternates: {
       canonical: fullUrl,
+
       languages: {
         "tr-TR": `${BASE_URL}/tr/etkinlikler/${city}`,
         "en-US": `${BASE_URL}/en/etkinlikler/${city}`,
       },
     },
+
     openGraph: {
       title,
       description,
@@ -49,42 +78,88 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
       type: "website",
       locale: isTR ? "tr_TR" : "en_US",
     },
+
     twitter: {
       card: "summary_large_image",
       title,
       description,
     },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 
-export default async function Page({ params }: { params: Promise<Params> }) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
   const { city, lang } = await params;
+
+  if (
+    (lang !== "tr" && lang !== "en") ||
+    !VALID_CITIES.includes(city)
+  ) {
+    notFound();
+  }
+
   const cityName = getCityName(city);
-  
-  // Metadata ile aynı URL yapısını kullanıyoruz
   const schemaUrl = `${BASE_URL}/${lang}/etkinlikler/${city}`;
+
+  const isTR = lang === "tr";
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": cityName,
-    "description": lang === 'tr' 
-      ? `${cityName} turları ve deneyimleri` 
-      : `${cityName} tours and experiences`,
-    "url": schemaUrl,
+
+    name: isTR
+      ? `${cityName} Turları ve Deneyimleri`
+      : `${cityName} Tours & Experiences`,
+
+    description: isTR
+      ? `${cityName} için gezi rehberi, yapılacaklar, seyahat ipuçları, günlük rota önerileri ve turlar.`
+      : `Travel guide for ${cityName} with things to do, travel tips, itinerary ideas, tours and experiences.`,
+
+    url: schemaUrl,
+
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Waylero",
+      url: BASE_URL,
+    },
+
+    inLanguage: lang,
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
       />
-      <CityPageClient city={city} lang={lang} />
+
+      <CityPageClient
+        city={city}
+        lang={lang}
+      />
     </>
   );
 }
 
 export function generateStaticParams() {
-  return []; // Dinamik render için doğru
+  return VALID_CITIES.flatMap((city) => [
+    {
+      lang: "tr",
+      city,
+    },
+    {
+      lang: "en",
+      city,
+    },
+  ]);
 }
