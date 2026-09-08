@@ -383,106 +383,7 @@ export default function HomeClient({
   </div>
 </section>
 
-{/* 4SECTION: GENİŞ VE FERAH YAPILANDIRMA */}
-<section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16">
-
-  {/* Başlık ve Buton */}
-  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 md:mb-16 border-b border-gray-100 pb-6 md:pb-10">
-    <div>
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
-        {t.tourTitle}
-      </h2>
-      <p className="mt-3 text-gray-500 text-sm sm:text-base max-w-2xl">
-        {lang === "tr"
-          ? "Şehrin en sevilen rotalarını ve popüler etkinliklerini uzman rehberliğiyle keşfedin."
-          : "Explore the city's favorite routes and popular events with expert guidance."}
-      </p>
-    </div>
-
-    <Link
-      href={lang === "tr" ? "/etkinlikler" : "/en/etkinlikler"}
-      className="inline-flex items-center justify-center gap-2 bg-orange-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-orange-500/20"
-    >
-      {t.seeAll}
-      <span className="text-xl">→</span>
-    </Link>
-  </div>
-
-  {/* Grid - Yüksekliği Artırılmış Kartlar */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-7 lg:gap-10 items-stretch">
-    {[
-      { 
-        city: "İstanbul", 
-        link: "https://getyourguide.tp.st/nTBcXECr", 
-        imageUrl: "/assets/sehir1/istanbul.webp", 
-        title: lang === "tr" ? "İstanbul Turlarını İncele" : "Explore Istanbul Tours" 
-      },
-      { 
-        city: "Nevşehir", 
-        link: "https://getyourguide.tp.st/jf5oS4u4", 
-        imageUrl: "/assets/sehir1/nevsehir.webp", 
-        title: lang === "tr" ? "Kapadokya Turlarını İncele" : "Explore Cappadocia Tours" 
-      },
-      { 
-        city: "Antalya", 
-        link: "https://getyourguide.tp.st/hwXRhIEO", 
-        imageUrl: "/assets/sehir1/antalya.webp", 
-        title: lang === "tr" ? "Antalya Turlarını İncele" : "Explore Antalya Tours" 
-      },
-      { 
-        city: "İzmir", 
-        link: "https://getyourguide.tp.st/Zcv1aMld", 
-        imageUrl: "/assets/sehir1/izmir.webp", 
-        title: lang === "tr" ? "İzmir Turlarını İncele" : "Explore Izmir Tours" 
-      }
-    ].map((tour, i) => (
-      <div key={i} className="h-full">
-        {/* min-h-[420px] yaparak kartı biraz daha uzattım kanka */}
-        <div className="group relative flex flex-col bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden h-full min-h-[420px] hover:shadow-2xl transition-all duration-500 hover:border-blue-500">
-          
-          {/* IMAGE */}
-          <a
-            href={tour.link}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="relative w-full h-64 bg-gray-200 overflow-hidden block"
-          >
-            <img
-              src={tour.imageUrl}
-              alt={tour.city}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-          </a>
-
-          {/* CONTENT */}
-          <div className="p-7 flex flex-col flex-grow">
-            <div className="text-blue-600 text-xs font-bold uppercase tracking-wider mb-3">
-              {tour.city}
-            </div>
-
-            <h3 className="text-xl font-bold text-gray-900 leading-tight mb-6 group-hover:text-blue-600 transition-colors">
-              <a href={tour.link} target="_blank" rel="nofollow noopener noreferrer">
-                {tour.title}
-              </a>
-            </h3>
-
-            {/* CTA */}
-            <div className="mt-auto">
-              <a
-                href={tour.link}
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                className="block w-full py-4 bg-blue-600 hover:bg-orange-500 text-white text-center text-sm font-bold rounded-2xl transition-all duration-300 shadow-md active:scale-95"
-              >
-                {lang === "tr" ? "İncele ve Rezervasyon Yap" : "View and Book Now"}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    ))}
-  </div>
-</section>
+{/* 4SECTION: TURLAR */} <section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16"> {/* Başlık ve Buton */} <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-10 md:mb-16 border-b border-gray-100 pb-6 md:pb-10"> <div> <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600"> {t.tourTitle} </h2> <p className="mt-3 text-gray-500 text-sm sm:text-base max-w-2xl"> {lang === "tr" ? "Şehrin en sevilen rotalarını ve popüler etkinliklerini keşfedin." : "Explore the city's favorite routes and popular experiences."} </p> </div> <Link href={getLocalizedLink("/etkinlikler")} className="inline-flex items-center justify-center gap-2 bg-orange-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-orange-500/20" > {t.seeAll} <span className="text-xl">→</span> </Link> </div> {/* TUR KARTLARI */} <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-7 lg:gap-10 items-stretch"> {[ { city: "İstanbul", slug: "istanbul", imageUrl: "/assets/sehir1/istanbul.webp", title: lang === "tr" ? "İstanbul Turlarını İncele" : "Explore Istanbul Tours" }, { city: "Nevşehir", slug: "nevsehir", imageUrl: "/assets/sehir1/nevsehir.webp", title: lang === "tr" ? "Kapadokya Turlarını İncele" : "Explore Cappadocia Tours" }, { city: "Antalya", slug: "antalya", imageUrl: "/assets/sehir1/antalya.webp", title: lang === "tr" ? "Antalya Turlarını İncele" : "Explore Antalya Tours" }, { city: "İzmir", slug: "izmir", imageUrl: "/assets/sehir1/izmir.webp", title: lang === "tr" ? "İzmir Turlarını İncele" : "Explore Izmir Tours" } ].map((tour) => { const cityUrl = getLocalizedLink(`/etkinlikler/${tour.slug}`); return ( <div key={tour.slug} className="h-full"> <div className="group relative flex flex-col bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden h-full min-h-[420px] hover:shadow-2xl transition-all duration-500 hover:border-blue-500"> {/* IMAGE */} <Link href={cityUrl} className="relative w-full h-64 bg-gray-200 overflow-hidden block" > <img src={tour.imageUrl} alt={tour.city} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" /> </Link> {/* CONTENT */} <div className="p-7 flex flex-col flex-grow"> <div className="text-blue-600 text-xs font-bold uppercase tracking-wider mb-3"> {tour.city} </div> <h3 className="text-xl font-bold text-gray-900 leading-tight mb-6 group-hover:text-blue-600 transition-colors"> <Link href={cityUrl}> {tour.title} </Link> </h3> {/* CTA */} <div className="mt-auto"> <Link href={cityUrl} className="block w-full py-4 bg-blue-600 hover:bg-orange-500 text-white text-center text-sm font-bold rounded-2xl transition-all duration-300 shadow-md active:scale-95" > {lang === "tr" ? "Turları İncele" : "Explore Tours"} </Link> </div> </div> </div> </div> ); })} </div> </section>
 
 {/* HOTEL SECTION */}
 <section className="mt-16 md:mt-24 mb-16 md:mb-24 w-full max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-16">
@@ -518,7 +419,7 @@ export default function HomeClient({
     <div className="h-full">
   <HotelCard
     city="istanbul"
-    link="https://booking.tp.st/ZtWXbtwj"
+    link={getLocalizedLink("/hotels/istanbul")}
     lang={lang as "tr" | "en"}
   />
 </div>
@@ -526,7 +427,7 @@ export default function HomeClient({
 <div className="h-full">
   <HotelCard
     city="antalya"
-    link="https://booking.tp.st/3YML2Z43"
+    link={getLocalizedLink("/hotels/antalya")}
     lang={lang as "tr" | "en"}
   />
 </div>
@@ -534,7 +435,7 @@ export default function HomeClient({
 <div className="h-full">
   <HotelCard
     city="paris"
-    link="https://booking.tp.st/vs4oDzlc"
+    link={getLocalizedLink("/hotels/paris")}
     lang={lang as "tr" | "en"}
   />
 </div>
@@ -542,7 +443,7 @@ export default function HomeClient({
 <div className="h-full">
   <HotelCard
     city="roma"
-    link="https://booking.tp.st/JoXA9ovm"
+    link={getLocalizedLink("/hotels/roma")}
     lang={lang as "tr" | "en"}
   />
 </div>

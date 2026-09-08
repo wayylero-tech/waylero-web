@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { slugify } from "@/lib/utils/slugify";
-import { Sparkles, MapPin, ChevronRight, Hotel, Ticket, Globe2 } from "lucide-react";
+import { Sparkles, MapPin, ChevronRight, Globe2 } from "lucide-react";
 
 const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dewd42ppf/image/upload";
 
@@ -235,20 +235,12 @@ export default function CityClient({ lang, region, city, cityPlaces, images }: a
     badge: "EXPLORE ROUTE",
     suffix2: "amazing spots to discover.",
     exploreBtn: "View Details",
-    backBtn: "All Routes",
-    hotelBadge: "Stay",
-    hotelText: "Hotels in ",
-    tourBadge: "Experience",
-    tourText: "Tours in "
+    backBtn: "All Routes"
   } : {
     badge: "KEŞİF ROTASI",
     suffix2: "farklı deneyim sizi bekliyor.",
     exploreBtn: "Detayları Gör",
-    backBtn: "Başka Rotalar",
-    hotelBadge: "Konaklama",
-    hotelText: "Otelleri",
-    tourBadge: "Deneyim",
-    tourText: "Turları"
+    backBtn: "Başka Rotalar"
   };
 
 
@@ -348,8 +340,6 @@ const actualCityKey =
 
   const currentCitySlug = slugify(city);
 
-const hotelLink = `/${lang}/hotels/${currentCitySlug}`;
-const tourLink = `/${lang}/etkinlikler/${currentCitySlug}`;
 
 
   return (
@@ -469,30 +459,7 @@ const tourLink = `/${lang}/etkinlikler/${currentCitySlug}`;
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto shrink-0">
-            <Link
-              href={hotelLink}
-              className="w-full sm:w-auto group relative overflow-hidden px-6 py-4 rounded-2xl bg-orange-500 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg flex flex-col items-start min-w-[160px]"
-            >
-              <span className="text-[9px] tracking-widest uppercase font-black opacity-80 flex items-center gap-1">
-                <Hotel size={10} /> {t.hotelBadge}
-              </span>
-              <span className="text-xs font-bold mt-0.5 whitespace-nowrap">
-                {isEn ? `${t.hotelText}${actualCityKey}` : `${actualCityKey} ${t.hotelText}`}
-              </span>
-            </Link>
-
-            <Link
-              href={tourLink}
-              className="w-full sm:w-auto group relative overflow-hidden px-6 py-4 rounded-2xl bg-white/10 text-white border border-white/10 transition-all duration-300 hover:bg-white/20 hover:scale-105 flex flex-col items-start min-w-[160px]"
-            >
-              <span className="text-[9px] tracking-widest uppercase font-black text-orange-400 flex items-center gap-1">
-                <Ticket size={10} /> {t.tourBadge}
-              </span>
-              <span className="text-xs font-bold mt-0.5 whitespace-nowrap">
-                {isEn ? `${t.tourText}${actualCityKey}` : `${actualCityKey} ${t.tourText}`}
-              </span>
-            </Link>
-
+            
             <Link
               href={exploreBase}
               className="w-full sm:w-auto group relative overflow-hidden px-6 py-4 rounded-2xl bg-white text-black transition-all duration-300 hover:bg-blue-600 hover:text-white hover:scale-105 flex flex-col items-start justify-center min-w-[140px] h-[52px]"

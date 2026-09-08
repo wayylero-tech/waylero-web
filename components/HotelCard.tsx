@@ -1,6 +1,8 @@
+
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import {
   MapPin,
   ArrowUpRight,
@@ -28,41 +30,45 @@ export default function HotelCard({
   const isTR = lang === "tr";
 
   const formattedCity =
-  city.toLowerCase() === "nevsehir"
-    ? isTR
-      ? "Kapadokya"
-      : "Cappadocia"
-    : city.toLowerCase() === "londra"
-    ? isTR
-      ? "Londra"
-      : "London"
-    : city.charAt(0).toUpperCase() + city.slice(1);
+    city.toLowerCase() === "nevsehir"
+      ? isTR
+        ? "Kapadokya"
+        : "Cappadocia"
+      : city.toLowerCase() === "londra"
+      ? isTR
+        ? "Londra"
+        : "London"
+      : city.charAt(0).toUpperCase() + city.slice(1);
 
   const cardTitle =
-    title || (isTR ? `${formattedCity} Otelleri` : `${formattedCity} Hotels`);
+    title ||
+    (isTR
+      ? `${formattedCity} Otelleri`
+      : `${formattedCity} Hotels`);
 
-const availableCityImages = [
-  "istanbul",
-  "nevsehir",
-  "antalya",
-  "izmir",
-  "mugla",
-  "aydin",
-  "trabzon",
-  "edirne",
-  "bangkok",
-  "paris",
-  "londra",
-  "dubai",
-  "roma",
-];
+  const availableCityImages = [
+    "istanbul",
+    "nevsehir",
+    "antalya",
+    "izmir",
+    "mugla",
+    "aydin",
+    "trabzon",
+    "edirne",
+    "bangkok",
+    "paris",
+    "londra",
+    "dubai",
+    "roma",
+  ];
 
-const cityImage =
-  image ||
-  (availableCityImages.includes(city.toLowerCase())
-    ? `/assets/sehir1/${city.toLowerCase()}.webp`
-    : "/assets/sehir1/istanbul.webp");
-  // 🔥 CTA
+  const cityImage =
+    image ||
+    (availableCityImages.includes(city.toLowerCase())
+      ? `/assets/sehir1/${city.toLowerCase()}.webp`
+      : "/assets/sehir1/istanbul.webp");
+
+  // CTA
   const ctaText = isTR
     ? provider === "booking"
       ? "Booking'de İncele"
@@ -71,7 +77,7 @@ const cityImage =
     ? "View on Booking"
     : "View Hotels";
 
-  // 🔥 Provider badge
+  // Provider badge
   const providerConfig = {
     hotels: {
       label: "Hotels",
@@ -88,10 +94,8 @@ const cityImage =
   const currentProvider = providerConfig[provider];
 
   return (
-    <a
+    <Link
       href={link}
-      target="_blank"
-      rel="sponsored noopener noreferrer"
       className="group block h-full"
     >
       <div className="bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 flex flex-col h-full hover:-translate-y-1">
@@ -118,7 +122,10 @@ const cityImage =
 
           {/* Arrow */}
           <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center shadow-md group-hover:rotate-45 transition-transform duration-300">
-            <ArrowUpRight size={18} className="text-gray-900" />
+            <ArrowUpRight
+              size={18}
+              className="text-gray-900"
+            />
           </div>
         </div>
 
@@ -143,8 +150,7 @@ const cityImage =
           {/* CTA */}
           <div className="mt-auto">
             <div
-              className={`w-full text-white text-center py-4 rounded-2xl font-bold text-sm transition-all duration-300 shadow-lg
-              ${
+              className={`w-full text-white text-center py-4 rounded-2xl font-bold text-sm transition-all duration-300 shadow-lg ${
                 provider === "booking"
                   ? "bg-[#003B95] hover:bg-[#00224f] shadow-[#003B95]/20"
                   : "bg-orange-600 hover:bg-orange-700"
@@ -156,6 +162,7 @@ const cityImage =
 
         </div>
       </div>
-    </a>
+    </Link>
   );
 }
+
