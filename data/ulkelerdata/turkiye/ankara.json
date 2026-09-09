@@ -414,6 +414,52 @@
       "https://example.com/ankara_estergon_kalesi.jpg"
     ]
   },
+ {
+  "slug": "ankamall-alisveris-merkezi",
+  "name": {
+    "tr": "Ankamall Alışveriş Merkezi",
+    "en": "Ankamall Shopping Center",
+    "de": "Ankamall Einkaufszentrum"
+  },
+  "latitude": 39.95046,
+  "longitude": 32.83136,
+ "description": { "tr": "Ankamall Alışveriş Merkezi, Ankara'nın Yenimahalle ilçesinde, Mevlana Bulvarı üzerinde yer alan büyük bir alışveriş ve yaşam merkezidir. Merkezi konumu, çok sayıda mağazası, restoran ve kafeleri, sinema ve eğlence seçenekleri sayesinde hem Ankaralıların hem de Ankara'yı ziyaret edenlerin tercih ettiği alışveriş merkezlerinden biridir.\n\nAnkamall'da giyim, teknoloji, kozmetik, spor, ev ve yaşam gibi farklı kategorilerde mağazalar bulunmaktadır. Alışveriş merkezinde günlük ihtiyaçlarınızı karşılayabilir, farklı markaları aynı çatı altında inceleyebilir ve alışveriş sonrasında restoran veya kafelerde vakit geçirebilirsiniz. Mağaza ve marka seçenekleri zaman içerisinde değişebileceği için ziyaret öncesinde güncel mağaza listesinin kontrol edilmesi faydalı olur.\n\nAnkamall yalnızca alışveriş için değil, gün içinde vakit geçirmek ve eğlenmek için de değerlendirilebilir. Sinemaya gidebilir, restoran ve kafelerde yemek yiyebilir, çocuklarla birlikte eğlence alanlarından yararlanabilir ve dönemsel olarak düzenlenen etkinlikleri takip edebilirsiniz.\n\nAnkamall Alışveriş Merkezi, Ankara'nın Yenimahalle ilçesinde Mevlana Bulvarı üzerinde yer almaktadır. Özel araçla ulaşım sağlayan ziyaretçiler alışveriş merkezinin otoparkını kullanabilir. Toplu taşıma ile gelecek ziyaretçiler ise Ankara'nın farklı bölgelerinden Ankamall'a ulaşım sağlayan güncel otobüs ve raylı sistem bağlantılarından yararlanabilir. Yolculuk öncesinde güncel güzergâh ve sefer bilgilerini kontrol etmek özellikle toplu taşımada faydalıdır.\n\nAnkamall'ın genel ziyaret saatleri 10.00-22.00 arasındadır. Resmî tatiller, özel günler veya dönemsel uygulamalar nedeniyle çalışma saatlerinde değişiklik olabileceğinden ziyaret öncesinde güncel bilgilerin kontrol edilmesi önerilir.", "en": "Ankamall Shopping Center is a major shopping and lifestyle center located on Mevlana Boulevard in Ankara's Yenimahalle district. Its central location, wide range of stores, restaurants, cafes, cinema and entertainment options make it a popular destination for both local residents and visitors to Ankara.\n\nAnkamall features stores across different categories, including fashion, technology, cosmetics, sports, home and lifestyle. Visitors can shop for everyday needs, explore different brands under one roof and take a break at the restaurants and cafes after shopping. Store and brand availability may change over time, so checking the latest store information before visiting is recommended.\n\nAnkamall is also a place where visitors can spend time and enjoy entertainment beyond shopping. You can watch a movie, dine at restaurants and cafes, enjoy entertainment areas with children and follow seasonal events and activities held at the shopping center.\n\nAnkamall Shopping Center is located on Mevlana Boulevard in Ankara's Yenimahalle district. Visitors arriving by private car can use the shopping center's parking facilities. Those using public transportation can reach Ankamall from different parts of Ankara using current bus and rail connections. Checking the latest routes and schedules before traveling is recommended, especially when using public transportation.\n\nThe general visiting hours of Ankamall are 10:00-22:00. Opening hours may change on public holidays, special occasions or during temporary arrangements, so visitors are advised to check the latest information before their visit.", "de": "Ankamall ist ein großes Einkaufszentrum im Bezirk Yenimahalle in Ankara. Es bietet zahlreiche Geschäfte, Restaurants und Unterhaltungsmöglichkeiten." },
+  "activities": {
+    "tr": [
+      "Alışveriş yapmak",
+      "Sinema izlemek",
+      "Restoran ve kafelerde vakit geçirmek",
+      "Etkinlikleri takip etmek"
+    ],
+    "en": [
+      "Shopping",
+      "Watching a movie",
+      "Dining at restaurants and cafes",
+      "Attending events"
+    ],
+    "de": [
+      "Einkaufen",
+      "Einen Film schauen",
+      "Zeit in Restaurants und Cafés verbringen",
+      "Veranstaltungen besuchen"
+    ]
+  },
+  "categories": {
+    "tr": [
+      "alışveriş"
+    ],
+    "en": [
+      "shopping"
+    ],
+    "de": [
+      "Einkaufen"
+    ]
+  },
+  "images": [
+    "https://example.com/ankamall_1.jpg",
+    "https://example.com/ankamall_2.jpg"
+  ]
+},
   {
     "slug": "dijital-hayvanat-bahcesi",
     "name": {
@@ -605,53 +651,7 @@
       "https://example.com/panora_shopping_2.jpg"
     ]
   },
-  {
-    "slug": "ankamall-alisveris-merkezi",
-    "name": {
-      "tr": "Ankamall Alışveriş Merkezi",
-      "en": "Ankamall Shopping Center",
-      "de": "Ankamall Einkaufszentrum"
-    },
-    "latitude": 39.95046,
-    "longitude": 32.83136,
-    "description": {
-      "tr": "Ankamall Alışveriş Merkezi, Ankara'nın en büyük ve en popüler alışveriş merkezlerinden biridir. Modern mimarisi, geniş mağaza yelpazesi ve zengin restoran seçenekleriyle dikkat çekmektedir. Alışveriş merkezi, hem yerli hem de uluslararası markaların mağazalarını barındırarak ziyaretçilere geniş bir alışveriş deneyimi sunmaktadır. Ayrıca, eğlence alanları ve etkinlik mekanlarıyla aileler için uygun bir ortam sağlamaktadır.\n\n**Eğlence ve Aktivite Olanakları**\n\nAnkamall, sinema salonları, oyun alanları, çocuk parkları ve çeşitli etkinlik alanları ile dolu bir yaşam merkezi olarak öne çıkmaktadır. Ziyaretçiler, alışveriş yapmanın yanı sıra, çeşitli eğlenceli aktivitelerle dolu bir gün geçirebilirler. Ayrıca, dönemsel olarak düzenlenen etkinlikler, konserler ve sergiler, alışveriş deneyimini zenginleştirmektedir.\n\n**Nasıl Gidilir?**\n\nAnkamall Alışveriş Merkezi, merkezi bir konumda yer almakta olup, toplu taşıma araçlarıyla kolayca ulaşılabilir. Özel araçla gelenler için geniş otopark alanları mevcuttur. Ankara'nın birçok noktasından direkt ulaşım imkanı bulunmaktadır.\n",
-      "en": "Ankamall Shopping Center is one of the largest and most popular shopping malls in Ankara. With its modern architecture, extensive range of stores, and diverse restaurant options, it stands out as a premier shopping destination. The mall houses both local and international brand stores, offering visitors a comprehensive shopping experience. Additionally, with entertainment areas and event venues, it provides a family-friendly environment.\n\n**Entertainment and Activity Opportunities**\n\nAnkamall features cinema halls, play areas, children's parks, and various event spaces, making it a vibrant lifestyle center. Visitors can enjoy a day filled with fun activities in addition to shopping. Seasonal events, concerts, and exhibitions enrich the shopping experience.\n\n**How to Get There?**\n\nAnkamall Shopping Center is located in a central area and can be easily accessed by public transport. For those coming by car, there are ample parking facilities available. Direct access is provided from many points in Ankara.\n",
-      "de": "Das Ankamall Einkaufszentrum ist eines der größten und beliebtesten Einkaufszentren in Ankara. Mit seiner modernen Architektur, der umfangreichen Auswahl an Geschäften und den vielfältigen Restaurantoptionen hebt es sich als erstklassiges Einkaufsziel hervor. Das Einkaufszentrum beherbergt sowohl lokale als auch internationale Marken und bietet den Besuchern ein umfassendes Einkaufserlebnis. Darüber hinaus sorgt es mit Freizeiteinrichtungen und Veranstaltungsräumen für ein familienfreundliches Ambiente.\n\n**Unterhaltungs- und Aktivitätsmöglichkeiten**\n\nDas Ankamall bietet Kinos, Spielbereiche, Kinderparks und verschiedene Veranstaltungsräume und ist somit ein lebendiges Lebenszentrum. Die Besucher können neben dem Einkaufen einen Tag voller unterhaltsamer Aktivitäten genießen. Saisonale Veranstaltungen, Konzerte und Ausstellungen bereichern das Einkaufserlebnis.\n\n**Anfahrt**\n\nDas Ankamall Einkaufszentrum befindet sich in zentraler Lage und ist leicht mit öffentlichen Verkehrsmitteln zu erreichen. Für Autofahrer stehen ausreichend Parkmöglichkeiten zur Verfügung. Es besteht direkter Zugang von vielen Punkten in Ankara.\n"
-    },
-    "activities": {
-      "tr": [
-        "Alışveriş yapmak",
-        "Sinema izlemek",
-        "Restoranlarda yemek yemek"
-      ],
-      "en": [
-        "Shopping",
-        "Watching a movie",
-        "Dining at restaurants"
-      ],
-      "de": [
-        "Einkaufen",
-        "Einen Film schauen",
-        "In Restaurants speisen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "alışveriş"
-      ],
-      "en": [
-        "shopping"
-      ],
-      "de": [
-        "Einkaufen"
-      ]
-    },
-    "images": [
-      "https://example.com/ankamall_1.jpg",
-      "https://example.com/ankamall_2.jpg"
-    ]
-  },
+ 
   {
     "slug": "merik-konagi",
     "name": {

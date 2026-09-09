@@ -2,7 +2,7 @@ import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import type { Metadata } from "next";
 import Script from "next/script";
-import DisableContextMenu from "@/components/DisableContextMenu";
+import { headers } from "next/headers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -67,48 +67,49 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang?: string }>;
 }) {
-  const resolvedParams = await params;
-  const lang = resolvedParams.lang || "tr";
+  const headersList = await headers();
+
+  const lang =
+    headersList.get("x-waylero-lang") === "en" ? "en" : "tr";
 
   return (
     <html lang={lang}>
-      <head>
-        <meta
-          name="yandex-verification"
-          content="81cbfcf8784b9317"
-        />
-
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
+      >
         <Script
           id="microsoft-clarity"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         >
           {`
-            (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){
-                (c[a].q=c[a].q||[]).push(arguments)
-              };
-              t=l.createElement(r);
-              t.async=1;
-              t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-              y=l.getElementsByTagName(r)[0];
-              y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "x3v9pxahkm");
+            (function() {
+              var consent = localStorage.getItem("waylero_cookie_consent");
+
+              if (consent !== "accepted") {
+                return;
+              }
+
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){
+                  (c[a].q=c[a].q||[]).push(arguments)
+                };
+
+                t=l.createElement(r);
+                t.async=1;
+                t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+
+                y=l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "x3v9pxahkm");
+            })();
           `}
         </Script>
-      </head>
 
-      <body 
-  className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`} 
->
-   {/* <DisableContextMenu /> */}
-
-  {children}
-</body>
+        {children}
+      </body>
     </html>
   );
 }

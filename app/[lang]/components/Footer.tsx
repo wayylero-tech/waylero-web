@@ -1,6 +1,8 @@
 
 import Link from "next/link";
 
+import CookiePreferencesButton from "./CookiePreferencesButton";
+
 export default function Footer({ lang }: { lang: "tr" | "en" }) {
   const isEn = lang === "en";
 
@@ -65,8 +67,12 @@ export default function Footer({ lang }: { lang: "tr" | "en" }) {
           </Link>
 
           <Link href={getLocalizedLink("/contact")}>
-            {t.iletisim}
-          </Link>
+  {t.iletisim}
+</Link>
+
+<CookiePreferencesButton
+  label={isEn ? "Cookie Preferences" : "Çerez Tercihleri"}
+/>
         </div>
 
         <div className="flex flex-col gap-3 min-w-[250px] max-w-[500px] overflow-hidden">

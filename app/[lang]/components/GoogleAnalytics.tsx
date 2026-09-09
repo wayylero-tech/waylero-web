@@ -6,26 +6,65 @@ import { usePathname, useSearchParams } from "next/navigation";
 
 const GA_ID = "G-SMS2634C53";
 
-// 1. Asıl çalışan kısmı küçük bir bileşene alıyoruz
 function AnalyticsContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    if (typeof window.gtag === "function") {
+    const checkConsent = () => {
+      const consent = localStorage.getItem("waylero_cookie_consent");
+
+      if (consent !== "accepted") {
+        return;
+      }
+
+      if (typeof window.gtag !== "function") {
+        return;
+      }
+
       const url =
         pathname + (searchParams?.toString() ? `?${searchParams}` : "");
 
       window.gtag("config", GA_ID, {
         page_path: url,
       });
-    }
+    };
+
+    checkConsent();
+
+    const handleConsent = (event: Event) => {
+      const customEvent = event as CustomEvent<"accepted" | "rejected">;
+
+      if (customEvent.detail !== "accepted") {
+        return;
+      }
+
+      const url =
+        pathname + (searchParams?.toString() ? `?${searchParams}` : "");
+
+      if (typeof window.gtag === "function") {
+        window.gtag("config", GA_ID, {
+          page_path: url,
+        });
+      }
+    };
+
+    window.addEventListener(
+      "waylero-cookie-consent",
+      handleConsent
+    );
+
+    return () => {
+      window.removeEventListener(
+        "waylero-cookie-consent",
+        handleConsent
+      );
+    };
   }, [pathname, searchParams]);
 
-  return null; // Görsel bir şey göstermesine gerek yok, sadece çalışacak.
+  return null;
 }
 
-// 2. Ana dışa aktarılan bileşeni Suspense içine alıyoruz
 export default function GoogleAnalytics() {
   return (
     <>
@@ -33,28 +72,48 @@ export default function GoogleAnalytics() {
         <AnalyticsContent />
       </Suspense>
 
-     <Script
-  src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-  strategy="lazyOnload"
-/>
+      <Script
+        id="ga-loader"
+        strategy="afterInteractive"
+      >
+        {`
+          (function() {
+            var consent = localStorage.getItem("waylero_cookie_consent");
+
+            if (consent !== "accepted") {
+              return;
+            }
+
+            var script = document.createElement("script");
+            script.src = "https://www.googletagmanager.com/gtag/js?id=${GA_ID}";
+            script.async = true;
+            document.head.appendChild(script);
+          })();
+        `}
+      </Script>
 
       <Script
         id="ga-init"
         strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
+      >
+        {`
+          window.dataLayer = window.dataLayer || [];
 
-            gtag('js', new Date());
+          function gtag() {
+            dataLayer.push(arguments);
+          }
 
+          window.gtag = gtag;
+
+          gtag('js', new Date());
+
+          if (localStorage.getItem("waylero_cookie_consent") === "accepted") {
             gtag('config', '${GA_ID}', {
               send_page_view: false
             });
-          `,
-        }}
-      />
+          }
+        `}
+      </Script>
     </>
   );
 }

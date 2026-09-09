@@ -10,18 +10,32 @@ const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
 
 function getLocale(request: NextRequest) {
   const referer = request.headers.get("referer");
+
   if (referer) {
     try {
       const refererUrl = new URL(referer);
       const firstSegment = refererUrl.pathname.split("/").filter(Boolean)[0];
-      if (firstSegment === "tr" || firstSegment === "en") return firstSegment;
+
+      if (firstSegment === "tr" || firstSegment === "en") {
+        return firstSegment;
+      }
     } catch (e) {}
   }
+
   const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value;
-  if (cookieLocale === "en" || cookieLocale === "tr") return cookieLocale;
-  const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
+
+  if (cookieLocale === "en" || cookieLocale === "tr") {
+    return cookieLocale;
+  }
+
+  const country = request.headers
+    .get("x-vercel-ip-country")
+    ?.toUpperCase();
+
   if (country === "TR") return "tr";
+
   const lang = request.headers.get("accept-language") || "";
+
   return lang.toLowerCase().includes("tr") ? "tr" : "en";
 }
 
@@ -30,33 +44,52 @@ export function middleware(request: NextRequest) {
   const { pathname, search, searchParams } = request.nextUrl;
 
   // ⚡ BOT BLOCK & STATIC SKIP
-  if (BAD_BOT_REGEX.test(ua)) return new NextResponse("Blocked", { status: 403 });
-  if (pathname.startsWith("/_next") || pathname.startsWith("/api") || pathname.includes(".")) {
+  if (BAD_BOT_REGEX.test(ua)) {
+    return new NextResponse("Blocked", { status: 403 });
+  }
+
+  if (
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/api") ||
+    pathname.includes(".")
+  ) {
     return NextResponse.next();
   }
 
   // 🗑️ ESKİ KEŞFET URL'LERİ — KALICI OLARAK KALDIRILDI
-const gonePaths = [
-  "/kesfet/turkey",
-  "/en/kesfet/turkey",
-  "/kesfet/europa",
-  "/en/kesfet/europa",
-  "/kesfet/asia",
-  "/en/kesfet/asia",
-];
+  const gonePaths = [
+    "/kesfet/turkey",
+    "/en/kesfet/turkey",
+    "/kesfet/europa",
+    "/en/kesfet/europa",
+    "/kesfet/asia",
+    "/en/kesfet/asia",
+  ];
 
-if (gonePaths.includes(pathname.toLowerCase())) {
-  return new NextResponse("Gone", { status: 410 });
-}
+  if (gonePaths.includes(pathname.toLowerCase())) {
+    return new NextResponse("Gone", { status: 410 });
+  }
 
   const segments = pathname.split("/").filter(Boolean);
+
   const currentLocale = segments[0]?.toLowerCase();
   const isLocale = currentLocale === "en" || currentLocale === "tr";
 
-  // 🚀 1. ROOT REDIRECT
+  // ---------------------------------------------------------
+  // ✅ URL'DEKİ DİLİ BELİRLE
+  // ---------------------------------------------------------
+  const detectedLocale = isLocale
+    ? currentLocale
+    : getLocale(request);
+
+  // ---------------------------------------------------------
+  // ✅ ROOT REDIRECT
+  // ---------------------------------------------------------
   if (pathname === "/") {
-    const locale = getLocale(request);
-    return NextResponse.redirect(new URL(`/${locale}`, request.url), 307);
+    return NextResponse.redirect(
+      new URL(`/${detectedLocale}`, request.url),
+      307
+    );
   }
 
   // 🚀 2. LOCALE OLMAYAN URL'LERİ YAKALA
@@ -67,50 +100,101 @@ if (gonePaths.includes(pathname.toLowerCase())) {
     // --- SEO URL (KEŞFET) ---
     const city = slugToCityMap[slug];
     const country = city ? cityToCountryMap[city] : null;
+
     if (city && country) {
-      return NextResponse.redirect(new URL(`/${locale}/kesfet/${country}/${city}/${slug}${search}`, request.url), 301);
+      return NextResponse.redirect(
+        new URL(
+          `/${locale}/kesfet/${country}/${city}/${slug}${search}`,
+          request.url
+        ),
+        301
+      );
     }
 
-    // --- AKTİVİTELER PARAMETRE DÖNÜŞTÜRÜCÜ (?city=ankara -> /aktiviteler/ankara) ---
+    // --- AKTİVİTELER PARAMETRE DÖNÜŞTÜRÜCÜ
+    // (?city=ankara -> /aktiviteler/ankara)
     const cityParam = searchParams.get("city");
+
     if (pathname.includes("/aktiviteler") && cityParam) {
-      return NextResponse.redirect(new URL(`/${locale}/aktiviteler/${cityParam.toLowerCase()}`, request.url), 301);
+      return NextResponse.redirect(
+        new URL(
+          `/${locale}/aktiviteler/${cityParam.toLowerCase()}`,
+          request.url
+        ),
+        301
+      );
     }
 
     // --- HAYALET "q" TEMİZLİĞİ VE NORMAL REDIRECT ---
     let finalSearch = search;
+
     if (pathname.includes("/kesfet") && searchParams.has("q")) {
-      finalSearch = ""; 
+      finalSearch = "";
     }
 
-    return NextResponse.redirect(new URL(`/${locale}${pathname}${finalSearch}`, request.url), 301);
+    return NextResponse.redirect(
+      new URL(`/${locale}${pathname}${finalSearch}`, request.url),
+      301
+    );
   }
 
-  // 🚀 3. LOCALE VAR AMA PARAMETRE HALA URL'DEYSE (SEO Düzeltmesi)
-  // Örn: /tr/aktiviteler?city=ankara gelirse /tr/aktiviteler/ankara'ya at
+  // 🚀 3. LOCALE VAR AMA PARAMETRE HALA URL'DEYSE
+  // Örn: /tr/aktiviteler?city=ankara
+  // -> /tr/aktiviteler/ankara
   const cityParam = searchParams.get("city");
+
   if (pathname.endsWith("/aktiviteler") && cityParam) {
-    return NextResponse.redirect(new URL(`${pathname}/${cityParam.toLowerCase()}`, request.url), 301);
+    return NextResponse.redirect(
+      new URL(
+        `${pathname}/${cityParam.toLowerCase()}`,
+        request.url
+      ),
+      301
+    );
   }
 
   // Hayalet "q" parametresi locale varken de gelirse temizle
   if (pathname.includes("/kesfet") && searchParams.has("q")) {
     const url = new URL(request.url);
     url.searchParams.delete("q");
+
     return NextResponse.redirect(url, 301);
   }
 
   // 🚀 4. SHORT URL FIX
   const slugSegment = segments[1]?.toLowerCase();
-  if (slugSegment && slugSegment !== "kesfet" && segments.length <= 2) {
+
+  if (
+    slugSegment &&
+    slugSegment !== "kesfet" &&
+    segments.length <= 2
+  ) {
     const city = slugToCityMap[slugSegment];
     const country = city ? cityToCountryMap[city] : null;
+
     if (city && country) {
-      return NextResponse.redirect(new URL(`/${currentLocale}/kesfet/${country}/${city}/${slugSegment}${search}`, request.url), 301);
+      return NextResponse.redirect(
+        new URL(
+          `/${currentLocale}/kesfet/${country}/${city}/${slugSegment}${search}`,
+          request.url
+        ),
+        301
+      );
     }
   }
 
-  return NextResponse.next();
+  // ---------------------------------------------------------
+  // ✅ ROOT LAYOUT'A DİLİ HEADER OLARAK GÖNDER
+  // ---------------------------------------------------------
+  const requestHeaders = new Headers(request.headers);
+
+  requestHeaders.set("x-waylero-lang", detectedLocale);
+
+  return NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
 }
 
 export const config = {

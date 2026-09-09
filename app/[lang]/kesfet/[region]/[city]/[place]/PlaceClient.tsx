@@ -173,8 +173,10 @@ const hasEventPage = eventCities.includes(city.toLowerCase());
                   <Info size={24} />
                 </div>
                 <h2 className="text-3xl font-serif font-bold text-gray-900 m-0">
-                  {foundPlace.name}
-                </h2>
+  {lang === "tr"
+    ? `${foundPlace.name} Hakkında`
+    : `About ${foundPlace.name}`}
+</h2>
               </div>
               <p className="text-xl text-gray-600 leading-relaxed font-medium">
                 {foundPlace.description}

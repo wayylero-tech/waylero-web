@@ -1,8 +1,8 @@
-
 import type { Metadata } from "next";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import CookieConsent from "./components/CookieConsent";
 
 export async function generateMetadata(
   { params }: { params: Promise<{ lang: string }> }
@@ -34,16 +34,25 @@ export default async function LangLayout({
   const finalLang = lang === "en" ? "en" : "tr";
 
   return (
-    <div className="antialiased min-h-screen flex flex-col">
+    <>
+      <head>
+        <meta
+          name="yandex-verification"
+          content="81cbfcf8784b9317"
+        />
+      </head>
+
       <Header lang={finalLang} />
 
       <GoogleAnalytics />
+
+      <CookieConsent lang={finalLang} />
 
       <main className="flex-1">
         {children}
       </main>
 
       <Footer lang={finalLang} />
-    </div>
+    </>
   );
 }
