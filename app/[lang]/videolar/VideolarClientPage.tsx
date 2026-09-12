@@ -53,7 +53,7 @@ export default function VideolarClientPage({ lang, initialVideos = [] }: Videola
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* 1. HERO SECTION */}
       <section className="pt-24 pb-40 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
         <div className="container mx-auto px-6 text-center">
@@ -134,6 +134,6 @@ export default function VideolarClientPage({ lang, initialVideos = [] }: Videola
 
       {/* Arka Plan Dekoru */}
       <div className="fixed top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-50 rounded-full blur-[120px] -z-10 opacity-60" />
-    </main>
+    </div>
   );
 }

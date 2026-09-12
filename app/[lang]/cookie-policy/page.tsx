@@ -163,7 +163,7 @@ export default async function CookiePolicyPage({ params }: Props) {
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20 bg-white">
+    <div className="max-w-4xl mx-auto px-6 py-20 bg-white">
       <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-gray-900 tracking-tight">
         {content.title}
       </h1>
@@ -245,6 +245,6 @@ export default async function CookiePolicyPage({ params }: Props) {
           </p>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

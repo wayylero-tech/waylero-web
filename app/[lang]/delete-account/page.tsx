@@ -4,7 +4,7 @@ export const metadata = {
 
 export default function DeleteAccount() {
   return (
-    <main style={{ maxWidth: 800, margin: "0 auto", padding: 20 }}>
+    <div style={{ maxWidth: 800, margin: "0 auto", padding: 20 }}>
       <h1>Waylero Hesap Silme</h1>
 
       <p>
@@ -37,6 +37,6 @@ export default function DeleteAccount() {
         Yasal yükümlülükler kapsamında bazı teknik kayıtlar sınırlı süreyle
         saklanabilir.
       </p>
-    </main>
+    </div>
   );
 }

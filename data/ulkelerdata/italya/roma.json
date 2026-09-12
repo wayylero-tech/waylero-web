@@ -105,49 +105,50 @@
       "https://example.com/colosseum_interior.jpg"
     ]
   },
-  {
-    "slug": "roma-su-kemeri",
-    "name": {
-      "tr": "Roma Su Kemeri",
-      "en": "Roman Aqueduct",
-      "de": "Römisches Aquädukt"
-    },
-    "latitude": 43.94767,
-    "longitude": 4.53494,
-    "description": {
-      "tr": "Pont du Gard, Fransa’nın güneydoğusunda yer alan ve Antik Roma döneminden günümüze ulaşan en etkileyici mühendislik yapılarından biri olarak kabul edilen tarihi bir su kemeridir. Nîmes şehrine su taşımak amacıyla M.S. 1. yüzyılda inşa edilen bu yapı, Roma İmparatorluğu’nun mühendislik ve mimari alanındaki üstün başarısını gözler önüne serer. Üç katlı yapısı ve kusursuz taş işçiliği ile Pont du Gard, antik dünyanın en iyi korunmuş su kemerlerinden biri olarak öne çıkar.\n\nYaklaşık 50 metre yüksekliğe ulaşan Pont du Gard, dönemin teknik imkanları düşünüldüğünde son derece etkileyici bir yapı olarak kabul edilir. Harç kullanılmadan, büyük taş blokların ustaca bir araya getirilmesiyle inşa edilmiştir. Bu yapı tekniği, Roma mühendisliğinin ne kadar ileri seviyede olduğunu göstermektedir. Su kemeri, Gardon Nehri üzerinde yer almakta olup hem işlevsel hem de estetik açıdan dikkat çekici bir tasarıma sahiptir.\n\nPont du Gard sadece bir mühendislik harikası değil, aynı zamanda doğal güzelliklerle çevrili bir turistik cazibe merkezidir. Çevresinde yürüyüş yolları, seyir noktaları ve piknik alanları bulunur. Ziyaretçiler, bu tarihi yapıyı yakından inceleyebilir, nehir kenarında vakit geçirebilir ve doğayla iç içe keyifli bir gün geçirebilirler. Özellikle gün batımında kemerin taşlarının aldığı altın tonları, ziyaretçilere büyüleyici manzaralar sunar.\n\nYapı, 1985 yılında UNESCO Dünya Mirası Listesi’ne dahil edilmiştir. Bu statü, Pont du Gard’ın sadece Fransa için değil, tüm insanlık için önemli bir kültürel miras olduğunu göstermektedir. Her yıl binlerce turist, bu eşsiz yapıyı görmek ve Roma döneminin izlerini keşfetmek için bölgeyi ziyaret eder.\n\nPont du Gard, tarih, mimari ve doğanın mükemmel bir birleşimini sunar. Antik Roma’nın su yönetimi sistemlerini anlamak, mühendislik başarısını görmek ve etkileyici manzaraların tadını çıkarmak isteyenler için ideal bir destinasyondur. Fransa’da gezilecek yerler arasında önemli bir yere sahip olan bu yapı, ziyaretçilerine hem öğretici hem de görsel açıdan zengin bir deneyim sunar.",
-      "en": "Pont du Gard is an ancient Roman aqueduct located in the southeast of France and is considered one of the most impressive engineering achievements of the Roman era. Built in the 1st century AD to supply water to the city of Nîmes, the structure showcases the remarkable architectural and engineering skills of the Roman Empire. With its three-tier design and precise stone construction, Pont du Gard is one of the best-preserved aqueducts from antiquity.\n\nRising to a height of nearly 50 meters, the aqueduct is an extraordinary example of Roman ingenuity, especially considering the limited technology available at the time. Constructed without the use of mortar, it relies on perfectly cut stone blocks fitted together with precision. This technique highlights the advanced engineering knowledge of the Romans. The aqueduct spans the Gardon River, combining both functionality and aesthetic beauty.\n\nBeyond its historical significance, Pont du Gard is also a popular tourist destination surrounded by natural beauty. Visitors can explore walking trails, scenic viewpoints, and picnic areas around the site. The location offers a peaceful environment where visitors can relax by the river and admire the structure. At sunset, the golden hues reflecting on the stones create a breathtaking visual experience.\n\nThe site was designated as a UNESCO World Heritage Site in 1985, emphasizing its global cultural importance. Every year, thousands of tourists visit Pont du Gard to witness this extraordinary structure and learn about Roman history and engineering.\n\nPont du Gard represents a perfect blend of history, architecture, and nature. It is an ideal destination for those interested in ancient engineering, cultural heritage, and scenic landscapes, making it one of the must-visit attractions in France.",
-      "de": "Der Pont du Gard ist ein antikes römisches Aquädukt im Südosten Frankreichs und gilt als eines der beeindruckendsten Ingenieurbauwerke der Antike. Er wurde im 1. Jahrhundert n. Chr. erbaut, um die Stadt Nîmes mit Wasser zu versorgen, und zeigt die außergewöhnlichen architektonischen und technischen Fähigkeiten des Römischen Reiches. Mit seiner dreistöckigen Bauweise und präzisen Steinverarbeitung gehört der Pont du Gard zu den am besten erhaltenen Aquädukten der Antike.\n\nMit einer Höhe von fast 50 Metern ist das Bauwerk ein bemerkenswertes Beispiel römischer Ingenieurskunst, insbesondere angesichts der begrenzten technischen Mittel der damaligen Zeit. Der Pont du Gard wurde ohne Mörtel errichtet, wobei perfekt zugeschnittene Steinblöcke präzise ineinandergefügt wurden. Diese Technik unterstreicht das hohe Niveau der römischen Baukunst. Das Aquädukt überspannt den Fluss Gardon und vereint Funktionalität mit ästhetischer Schönheit.\n\nNeben seiner historischen Bedeutung ist der Pont du Gard auch ein beliebtes Touristenziel, das von natürlicher Schönheit umgeben ist. Besucher können Wanderwege, Aussichtspunkte und Picknickbereiche erkunden. Besonders bei Sonnenuntergang bietet das Bauwerk mit seinen goldenen Farbtönen ein beeindruckendes Schauspiel.\n\nSeit 1985 gehört der Pont du Gard zum UNESCO-Weltkulturerbe, was seine globale kulturelle Bedeutung unterstreicht. Jährlich besuchen Tausende von Touristen diesen Ort, um das Bauwerk zu bewundern und mehr über die römische Geschichte zu erfahren.\n\nDer Pont du Gard vereint Geschichte, Architektur und Natur auf einzigartige Weise und ist ein ideales Ziel für alle, die sich für antike Bauwerke und beeindruckende Landschaften interessieren."
-    },
-    "activities": {
-      "tr": [
-        "Su kemerini gezmek",
-        "Roma mühendisliğini görmek"
-      ],
-      "en": [
-        "Tour the aqueduct",
-        "See Roman engineering"
-      ],
-      "de": [
-        "Das Aquädukt besichtigen",
-        "Römische Ingenieurskunst sehen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/pont_du_gard.jpg"
+{
+  "slug": "roma-su-kemeri",
+  "name": {
+    "tr": "Roma Su Kemeri",
+    "en": "Roman Aqueduct",
+    "de": "Römisches Aquädukt"
+  },
+  "latitude": 41.89021,
+  "longitude": 12.49223,
+  "description": {
+    "tr": "Roma Su Kemerleri, Antik Roma'nın şehir yaşamını destekleyen gelişmiş su sistemlerinin en önemli örnekleri arasında yer alır. Romalılar, büyüyen nüfusun temiz su ihtiyacını karşılamak amacıyla kaynaklardan şehre kadar uzanan uzun su kemerleri ve kanallar inşa etmişlerdir. Bu sistemler sayesinde Roma'ya yalnızca içme suyu değil, hamamlar, çeşmeler, kamu yapıları ve günlük yaşam için gerekli su da ulaştırılmıştır.\n\nRoma'daki su kemerleri çoğu zaman yüksek kemerli yapılarla ilişkilendirilse de suyun büyük bölümü aslında eğimli kanallar içerisinde taşınmıştır. Arazi koşullarının uygun olmadığı noktalarda köprü benzeri kemerli yapılar kullanılmış, böylece suyun doğal eğimle şehir merkezine ulaşması sağlanmıştır. Bu mühendislik sistemi, Roma döneminde suyun uzun mesafeler boyunca kontrollü biçimde taşınabilmesini mümkün kılmıştır.\n\nRoma'nın antik su altyapısı zaman içinde çok geniş bir ağ haline gelmiştir. Aqua Appia, Aqua Claudia ve Aqua Marcia gibi farklı dönemlerde inşa edilen su kemerleri şehrin gelişiminde önemli rol oynamıştır. Özellikle kemerli bölümler günümüzde Roma'nın antik mühendislik anlayışını gözlemlemek isteyen ziyaretçiler için dikkat çekici kalıntılar arasında bulunur.\n\nRoma Su Kemerleri yalnızca teknik başarılarıyla değil, şehrin sosyal ve kültürel gelişimine yaptıkları katkıyla da önemlidir. Kamu hamamlarının çalışması, çeşmelerin su sağlaması ve şehirdeki günlük yaşamın sürdürülebilmesi büyük ölçüde bu gelişmiş su altyapısına bağlıydı. Antik Roma'nın mühendislik anlayışını anlamak isteyenler için bu yapılar, dönemin şehir planlaması ve kamu hizmetleri hakkında önemli ipuçları sunar.\n\nRoma'yı gezerken antik su kemerlerini görmek isteyen ziyaretçiler için Parco degli Acquedotti gibi bölgeler özellikle ilgi çekicidir. Burada Roma'nın su kemeri sistemlerine ait etkileyici kalıntılar, geniş yeşil alanlarla birlikte görülebilir. Tarih, arkeoloji ve antik Roma mimarisine ilgi duyanlar için su kemerleri, şehrin Kolezyum ve Roma Forumu gibi daha bilinen yapılarının yanında keşfedilebilecek önemli tarihi miraslardan biridir.",
+    "en": "Roman aqueducts are among the most important examples of the advanced water systems that supported daily life in ancient Rome. As the population of the city grew, the Romans constructed long aqueducts and channels to transport water from natural springs to Rome. These systems supplied water not only for drinking but also for public baths, fountains, public buildings, and other essential activities.\n\nAlthough Roman aqueducts are often associated with tall rows of arches, much of the water was actually carried through channels built with a carefully controlled gradient. Arched structures were used where the terrain required them, allowing water to continue flowing naturally toward the city. This engineering approach enabled the Romans to transport water over considerable distances with remarkable efficiency.\n\nRome's ancient water infrastructure eventually developed into an extensive network. Aqueducts such as the Aqua Appia, Aqua Marcia, and Aqua Claudia were constructed during different periods and played an important role in the development of the city. The surviving remains of their monumental arches provide visitors with a fascinating insight into Roman engineering and urban planning.\n\nRoman aqueducts were important not only as engineering achievements but also because of their contribution to the social and cultural life of the city. Public baths, fountains, and many aspects of everyday urban life depended on a reliable water supply. For visitors interested in understanding how ancient Rome functioned as a major city, the aqueducts offer valuable insight into Roman infrastructure and public services.\n\nVisitors who want to explore Rome's ancient aqueduct heritage can also consider areas such as the Parco degli Acquedotti. The park contains impressive remains of Roman aqueducts within a large open landscape. For travelers interested in history, archaeology, and ancient Roman architecture, these structures provide an opportunity to discover a different side of Rome beyond its better-known monuments such as the Colosseum and Roman Forum.",
+    "de": "Die römischen Aquädukte gehören zu den bedeutendsten Beispielen der fortschrittlichen Wasserversorgung, die das tägliche Leben im antiken Rom ermöglichte. Mit dem Wachstum der Stadt errichteten die Römer lange Wasserleitungen und Kanäle, um Wasser aus natürlichen Quellen nach Rom zu transportieren. Diese Systeme versorgten nicht nur die Bevölkerung mit Wasser, sondern auch öffentliche Bäder, Brunnen und andere wichtige Einrichtungen.\n\nObwohl römische Aquädukte häufig mit hohen Bogenkonstruktionen verbunden werden, wurde ein großer Teil des Wassers tatsächlich durch Kanäle mit sorgfältig kontrolliertem Gefälle transportiert. Dort, wo das Gelände es erforderte, wurden monumentale Bogenkonstruktionen eingesetzt. Auf diese Weise konnte das Wasser auf natürliche Weise in Richtung Stadt fließen. Diese Bauweise zeigt das hohe Niveau der römischen Ingenieurskunst.\n\nDie antike Wasserversorgung Roms entwickelte sich im Laufe der Jahrhunderte zu einem weit verzweigten Netz. Aquädukte wie Aqua Appia, Aqua Marcia und Aqua Claudia wurden in unterschiedlichen Epochen errichtet und spielten eine wichtige Rolle bei der Entwicklung der Stadt. Die erhaltenen Überreste ihrer monumentalen Bögen ermöglichen Besuchern einen Einblick in die römische Ingenieurskunst und Stadtplanung.\n\nDie Aquädukte waren nicht nur technische Meisterleistungen, sondern hatten auch eine große Bedeutung für das gesellschaftliche Leben Roms. Öffentliche Bäder, Brunnen und viele Bereiche des städtischen Alltags waren auf eine zuverlässige Wasserversorgung angewiesen. Wer verstehen möchte, wie das antike Rom als Großstadt funktionierte, findet in den Aquädukten wichtige Hinweise auf die Infrastruktur und öffentlichen Dienstleistungen der damaligen Zeit.\n\nWer die antiken Aquädukte Roms erkunden möchte, kann beispielsweise den Parco degli Acquedotti besuchen. In dem weitläufigen Park befinden sich beeindruckende Überreste römischer Wasserleitungen. Für Reisende, die sich für Geschichte, Archäologie und antike Architektur interessieren, bieten die Aquädukte eine interessante Ergänzung zu den bekannten Sehenswürdigkeiten wie dem Kolosseum und dem Forum Romanum."
+  },
+  "activities": {
+    "tr": [
+      "Antik Roma'nın su kemerlerini keşfetmek",
+      "Roma mühendisliğini incelemek",
+      "Antik su sistemlerinin kalıntılarını görmek"
+    ],
+    "en": [
+      "Explore Rome's ancient aqueducts",
+      "Discover Roman engineering",
+      "See the remains of ancient water systems"
+    ],
+    "de": [
+      "Die antiken Aquädukte Roms erkunden",
+      "Römische Ingenieurskunst entdecken",
+      "Überreste antiker Wassersysteme besichtigen"
     ]
   },
+  "categories": {
+    "tr": [
+      "tarih"
+    ],
+    "en": [
+      "historic"
+    ],
+    "de": [
+      "Historisch"
+    ]
+  },
+  "images": []
+},
   {
     "slug": "trevi-cesmesi",
     "name": {

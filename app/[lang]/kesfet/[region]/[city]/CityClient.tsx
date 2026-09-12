@@ -328,7 +328,7 @@ export default function CityClient({ lang, region, city, cityPlaces, images }: a
   duzce: "Düzce"
 };
 
-  const exploreBase = isEn ? "/en/kesfet" : "/kesfet";
+  const exploreBase = `/${lang}/kesfet`;
   
   const citySlug = (cityPlaces?.[0]?.cityName || city)?.toLowerCase();
 
@@ -342,8 +342,8 @@ const actualCityKey =
 
 
 
-  return (
-    <main className="min-h-screen bg-white">
+ return (
+  <div className="min-h-screen bg-white">
       {/* 1. HERO SECTION */}
       <section className="pt-24 pb-48 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
         <div className="container mx-auto px-6 text-center">
@@ -474,6 +474,6 @@ const actualCityKey =
           </div>
         </div>
       </footer>
-    </main>
+    </div>
   );
 }

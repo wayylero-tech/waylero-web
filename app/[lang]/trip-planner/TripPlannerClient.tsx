@@ -389,7 +389,7 @@ const handleFinalPlanning = async () => {
 };
 
   return (
-    <main className="min-h-screen bg-[#fdfaf7] text-gray-900 pb-20">
+    <div className="min-h-screen bg-[#fdfaf7] text-gray-900 pb-20">
   {/* 📋 SEYAHAT TERCİHLERİ POP-UP'I */}
   
       <section className="bg-[#1e445e] pt-16 pb-28 px-6">
@@ -580,6 +580,6 @@ const handleFinalPlanning = async () => {
           </div>
         </div>
       )}
-    </main>
+    </div>
   );
 } 

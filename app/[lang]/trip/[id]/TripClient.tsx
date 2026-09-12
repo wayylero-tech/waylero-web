@@ -81,7 +81,7 @@ export default function TripClient({ trip, currentLang }: any) {
   });
 
   return (
-    <main className="min-h-screen bg-[#f8fafc] text-gray-900">
+    <div className="min-h-screen bg-[#f8fafc] text-gray-900">
       <section className="relative">
         <div className="h-[420px] w-full overflow-hidden rounded-b-[32px]">
           <MapComponent
@@ -186,6 +186,6 @@ export default function TripClient({ trip, currentLang }: any) {
           </section>
         )}
       </section>
-    </main>
+    </div>
   );
 }

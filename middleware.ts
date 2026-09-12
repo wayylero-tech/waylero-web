@@ -6,20 +6,29 @@ import rawCityToCountryMap from "./maps/city-to-country-map.json";
 
 const slugToCityMap = rawSlugToCityMap as Record<string, string>;
 const cityToCountryMap = rawCityToCountryMap as Record<string, string>;
+
+// Eski slug -> Yeni slug yönlendirme haritası
+const LEGACY_REDIRECTS: Record<string, string> = {
+  "hagios-stephanos-church-aziz-stefan-kilisesi": "hagios-georgios-metropolitik-kilisesi",
+};
+
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
 
-function getLocale(request: NextRequest) {
+function getLocale(request: NextRequest): "tr" | "en" {
   const referer = request.headers.get("referer");
 
   if (referer) {
     try {
       const refererUrl = new URL(referer);
-      const firstSegment = refererUrl.pathname.split("/").filter(Boolean)[0];
+      const firstSegment = refererUrl.pathname
+        .split("/")
+        .filter(Boolean)[0]
+        ?.toLowerCase();
 
       if (firstSegment === "tr" || firstSegment === "en") {
         return firstSegment;
       }
-    } catch (e) {}
+    } catch {}
   }
 
   const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value;
@@ -32,22 +41,25 @@ function getLocale(request: NextRequest) {
     .get("x-vercel-ip-country")
     ?.toUpperCase();
 
-  if (country === "TR") return "tr";
+  if (country === "TR") {
+    return "tr";
+  }
 
-  const lang = request.headers.get("accept-language") || "";
+  const acceptLanguage = request.headers.get("accept-language") || "";
 
-  return lang.toLowerCase().includes("tr") ? "tr" : "en";
+  return acceptLanguage.toLowerCase().includes("tr") ? "tr" : "en";
 }
 
 export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") || "";
   const { pathname, search, searchParams } = request.nextUrl;
 
-  // ⚡ BOT BLOCK & STATIC SKIP
+  // BOT BLOCK
   if (BAD_BOT_REGEX.test(ua)) {
     return new NextResponse("Blocked", { status: 403 });
   }
 
+  // STATIC / API SKIP
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
@@ -56,7 +68,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // 🗑️ ESKİ KEŞFET URL'LERİ — KALICI OLARAK KALDIRILDI
+  // ESKİ KEŞFET URL'LERİ (410 GONE)
   const gonePaths = [
     "/kesfet/turkey",
     "/en/kesfet/turkey",
@@ -71,20 +83,29 @@ export function middleware(request: NextRequest) {
   }
 
   const segments = pathname.split("/").filter(Boolean);
-
   const currentLocale = segments[0]?.toLowerCase();
-  const isLocale = currentLocale === "en" || currentLocale === "tr";
+  const isLocale = currentLocale === "tr" || currentLocale === "en";
 
-  // ---------------------------------------------------------
-  // ✅ URL'DEKİ DİLİ BELİRLE
-  // ---------------------------------------------------------
-  const detectedLocale = isLocale
-    ? currentLocale
+  // --- 1. LEGACY SLUG / URL YÖNLENDİRMESİ (301) ---
+  // URL'nin sonundaki slug değerini kontrol eder
+  const lastSegment = segments[segments.length - 1]?.toLowerCase();
+
+  if (lastSegment && LEGACY_REDIRECTS[lastSegment]) {
+    const newSlug = LEGACY_REDIRECTS[lastSegment];
+    const newPathname = pathname.replace(lastSegment, newSlug);
+
+    return NextResponse.redirect(
+      new URL(`${newPathname}${search}`, request.url),
+      301
+    );
+  }
+
+  // URL'deki dili kullan
+  const detectedLocale: "tr" | "en" = isLocale
+    ? (currentLocale as "tr" | "en")
     : getLocale(request);
 
-  // ---------------------------------------------------------
-  // ✅ ROOT REDIRECT
-  // ---------------------------------------------------------
+  // ROOT REDIRECT
   if (pathname === "/") {
     return NextResponse.redirect(
       new URL(`/${detectedLocale}`, request.url),
@@ -92,12 +113,12 @@ export function middleware(request: NextRequest) {
     );
   }
 
-  // 🚀 2. LOCALE OLMAYAN URL'LERİ YAKALA
+  // LOCALE OLMAYAN URL'LER
   if (!isLocale) {
     const locale = getLocale(request);
     const slug = (segments[0] || "").toLowerCase();
 
-    // --- SEO URL (KEŞFET) ---
+    // SEO URL - KEŞFET
     const city = slugToCityMap[slug];
     const country = city ? cityToCountryMap[city] : null;
 
@@ -111,8 +132,7 @@ export function middleware(request: NextRequest) {
       );
     }
 
-    // --- AKTİVİTELER PARAMETRE DÖNÜŞTÜRÜCÜ
-    // (?city=ankara -> /aktiviteler/ankara)
+    // AKTİVİTELER
     const cityParam = searchParams.get("city");
 
     if (pathname.includes("/aktiviteler") && cityParam) {
@@ -125,7 +145,7 @@ export function middleware(request: NextRequest) {
       );
     }
 
-    // --- HAYALET "q" TEMİZLİĞİ VE NORMAL REDIRECT ---
+    // q PARAMETRESİ
     let finalSearch = search;
 
     if (pathname.includes("/kesfet") && searchParams.has("q")) {
@@ -133,14 +153,15 @@ export function middleware(request: NextRequest) {
     }
 
     return NextResponse.redirect(
-      new URL(`/${locale}${pathname}${finalSearch}`, request.url),
+      new URL(
+        `/${locale}${pathname}${finalSearch}`,
+        request.url
+      ),
       301
     );
   }
 
-  // 🚀 3. LOCALE VAR AMA PARAMETRE HALA URL'DEYSE
-  // Örn: /tr/aktiviteler?city=ankara
-  // -> /tr/aktiviteler/ankara
+  // AKTİVİTELER CITY PARAMETRESİ
   const cityParam = searchParams.get("city");
 
   if (pathname.endsWith("/aktiviteler") && cityParam) {
@@ -153,15 +174,18 @@ export function middleware(request: NextRequest) {
     );
   }
 
-  // Hayalet "q" parametresi locale varken de gelirse temizle
-  if (pathname.includes("/kesfet") && searchParams.has("q")) {
+  // q PARAMETRESİNİ TEMİZLE
+  if (
+    pathname.includes("/kesfet") &&
+    searchParams.has("q")
+  ) {
     const url = new URL(request.url);
     url.searchParams.delete("q");
 
     return NextResponse.redirect(url, 301);
   }
 
-  // 🚀 4. SHORT URL FIX
+  // SHORT URL FIX
   const slugSegment = segments[1]?.toLowerCase();
 
   if (
@@ -183,18 +207,7 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // ---------------------------------------------------------
-  // ✅ ROOT LAYOUT'A DİLİ HEADER OLARAK GÖNDER
-  // ---------------------------------------------------------
-  const requestHeaders = new Headers(request.headers);
-
-  requestHeaders.set("x-waylero-lang", detectedLocale);
-
-  return NextResponse.next({
-    request: {
-      headers: requestHeaders,
-    },
-  });
+  return NextResponse.next();
 }
 
 export const config = {

@@ -43,54 +43,53 @@
     ]
   },
   
- 
-  {
-    "slug": "hagios-stephanos-church-aziz-stefan-kilisesi",
-    "name": {
-      "tr": "Hagios Stephanos Church (Aziz Stefan Kilisesi)",
-      "en": "Hagios Stephanos Church (Aziz Stefan Church)",
-      "de": "Hagios Stephanos Kirche (Aziz Stefan Kirche)"
-    },
-    "latitude": 40.45142,
-    "longitude": 39.45649,
-    "description": {
-      "tr": "Hagios Georgios Metropolitik Kilisesi, Gümüşhane’nin tarihi ve kültürel mirası açısından büyük öneme sahip bir yapıdır. Osmanlı döneminde inşa edilen bu Ortodoks kilisesi, Gümüşhane’nin eski yerleşim bölgelerinden biri olan Tarihi Gümüşhane Evleri bölgesinde yer almaktadır.\n\n**Tarihi ve İnşa Edilişi:**  \nHagios Georgios Kilisesi, 19. yüzyılda inşa edilmiştir. Metropolitik unvanı, kilisenin bölgedeki önemli dini merkezlerden biri olduğunu göstermektedir. Kilise, Ortodoks Hristiyan topluluğu için büyük bir ibadet ve toplanma alanı olarak kullanılmıştır.\n\n**Mimari Özellikleri:**  \nKilisenin mimarisi, Bizans ve Osmanlı etkilerinin birleşimiyle oluşmuştur. Dikdörtgen planlı yapıya sahip olan kilise, gösterişli olmaktan çok sade ama etkileyici bir iç mekana sahiptir. İç mekan freskler ve ikonalarla süslenmiş olup, Ortodoks Hristiyanlıkta önemli dini motifler barındırmaktadır.\n\n**Bölgesel Önemi:**  \nOsmanlı döneminde, Hagios Georgios Kilisesi yalnızca dini bir ibadet yeri değil, aynı zamanda toplumun buluştuğu bir sosyal merkez olarak da kullanılmıştır. Kilise, bölgede yaşayan Rum Ortodoks halkı için önemli bir yapıydı.\n\n**Günümüzdeki Durumu:**  \nGünümüzde kilise ibadete açık değildir, ancak Gümüşhane'nin tarihi yapılarından biri olarak turistik bir cazibe merkezi olmayı sürdürmektedir. Kilisenin iç mekanında hala bazı freskler ve yapısal detaylar korunmuş olup, ziyaretçilere geçmişin izlerini sunmaktadır.\n",
-      "en": "The Hagios Georgios Metropolitan Church is a historically and culturally significant structure in Gümüşhane. Built during the Ottoman period, this Orthodox church is located in one of the city's oldest settlements, known as the Historic Gümüşhane Houses district.\n\n**History and Construction:**  \nHagios Georgios Church was built in the 19th century. The title \"Metropolitan\" indicates its status as a major religious center in the region. It served as a place of worship and a gathering spot for the local Orthodox Christian community.\n\n**Architectural Features:**  \nThe church's architecture is a blend of Byzantine and Ottoman influences. It has a rectangular plan and a modest yet impressive interior. The walls and ceilings were adorned with frescoes and icons, depicting important religious symbols of Orthodox Christianity.\n\n**Regional Importance:**  \nDuring the Ottoman period, the Hagios Georgios Church was not only a place of worship but also a social center for the local Greek Orthodox population.\n\n**Current Status:**  \nToday, the church is no longer used for worship but remains a significant historical landmark in Gümüşhane. Visitors can still see preserved frescoes and architectural elements, offering a glimpse into the region’s religious and cultural past.\n",
-      "de": "Die Hagios Georgios Metropolitische Kirche ist ein historisch und kulturell bedeutendes Bauwerk in Gümüşhane. Sie wurde während der osmanischen Zeit erbaut und befindet sich in einem der ältesten Siedlungsgebiete der Stadt, dem Bezirk der Historischen Gümüşhane-Häuser.\n\n**Geschichte und Bauweise:**  \nDie Hagios Georgios Kirche wurde im 19. Jahrhundert erbaut. Der Titel \"Metropolitisch\" weist darauf hin, dass sie eines der wichtigsten religiösen Zentren der Region war. Sie diente der griechisch-orthodoxen Gemeinschaft als Gebets- und Versammlungsort.\n\n**Architektonische Merkmale:**  \nDie Architektur der Kirche vereint byzantinische und osmanische Einflüsse. Sie hat einen rechteckigen Grundriss und ein schlichtes, aber beeindruckendes Inneres. Die Wände und Decken sind mit Fresken und Ikonen verziert, die wichtige religiöse Symbole der orthodoxen Christenheit darstellen.\n\n**Regionale Bedeutung:**  \nWährend der osmanischen Zeit war die Hagios Georgios Kirche nicht nur ein Gotteshaus, sondern auch ein gesellschaftliches Zentrum für die lokale griechisch-orthodoxe Bevölkerung.\n\n**Heutiger Zustand:**  \nHeute wird die Kirche nicht mehr als Gotteshaus genutzt, bleibt aber eine bedeutende historische Sehenswürdigkeit in Gümüşhane. Besucher können noch erhaltene Fresken und architektonische Details sehen, die einen Einblick in die religiöse und kulturelle Vergangenheit der Region geben.\n"
-    },
-    "activities": {
-      "tr": [
-        "Tarihi keşfetmek",
-        "Mimariyi incelemek",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Exploring history",
-        "Admiring architecture",
-        "Taking photographs"
-      ],
-      "de": [
-        "Geschichte erkunden",
-        "Architektur bewundern",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "kilise"
-      ],
-      "en": [
-        "church"
-      ],
-      "de": [
-        "Kirche"
-      ]
-    },
-    "images": [
-      "https://example.com/hagios_georgios_kilisesi.jpg",
-      "https://example.com/hagios_georgios_kilisesi_2.jpg"
+{
+  "slug": "hagios-georgios-metropolitik-kilisesi",
+  "name": {
+    "tr": "Hagios Georgios Metropolitik Kilisesi",
+    "en": "Hagios Georgios Metropolitan Church",
+    "de": "Hagios Georgios Metropolitische Kirche"
+  },
+  "latitude": 40.4505,
+  "longitude": 39.4542,
+  "description": {
+    "tr": "Hagios Georgios Metropolitik Kilisesi, Gümüşhane’nin tarihi ve kültürel mirası açısından büyük öneme sahip bir yapıdır. Osmanlı döneminde inşa edilen bu Ortodoks kilisesi, Gümüşhane’nin eski yerleşim bölgelerinden biri olan Tarihi Gümüşhane Evleri bölgesinde yer almaktadır.\n\nTarihi ve İnşa Edilişi:\nHagios Georgios Kilisesi, 19. yüzyılda inşa edilmiştir. Metropolitik unvanı, kilisenin bölgedeki önemli dini merkezlerden biri olduğunu göstermektedir. Kilise, Ortodoks Hristiyan topluluğu için büyük bir ibadet ve toplanma alanı olarak kullanılmıştır.\n\nMimari Özellikleri:\nKilisenin mimarisi, Bizans ve Osmanlı etkilerinin birleşimiyle oluşmuştur. Dikdörtgen planlı yapıya sahip olan kilise, gösterişli olmaktan çok sade ama etkileyici bir iç mekana sahiptir. İç mekan freskler ve ikonalarla süslenmiş olup, Ortodoks Hristiyanlıkta önemli dini motifler barındırmaktadır.\n\nBölgesel Önemi:\nOsmanlı döneminde, Hagios Georgios Kilisesi yalnızca dini bir ibadet yeri değil, aynı zamanda toplumun buluştuğu bir sosyal merkez olarak da kullanılmıştır. Kilise, bölgede yaşayan Rum Ortodoks halkı için önemli bir yapıydı.\n\nGünümüzdeki Durumu:\nGünümüzde kilise ibadete açık değildir, ancak Gümüşhane'nin tarihi yapılarından biri olarak turistik bir cazibe merkezi olmayı sürdürmektedir. Kilisenin iç mekanında hala bazı freskler ve yapısal detaylar korunmuş olup, ziyaretçilere geçmişin izlerini sunmaktadır.",
+    "en": "The Hagios Georgios Metropolitan Church is a historically and culturally significant structure in Gümüşhane. Built during the Ottoman period, this Orthodox church is located in one of the city's oldest settlements, known as the Historic Gümüşhane Houses district.\n\nHistory and Construction:\nHagios Georgios Church was built in the 19th century. The title \"Metropolitan\" indicates its status as a major religious center in the region. It served as a place of worship and a gathering spot for the local Orthodox Christian community.\n\nArchitectural Features:\nThe church's architecture is a blend of Byzantine and Ottoman influences. It has a rectangular plan and a modest yet impressive interior. The walls and ceilings were adorned with frescoes and icons, depicting important religious symbols of Orthodox Christianity.\n\nRegional Importance:\nDuring the Ottoman period, the Hagios Georgios Church was not only a place of worship but also a social center for the local Greek Orthodox population.\n\nCurrent Status:\nToday, the church is no longer used for worship but remains a significant historical landmark in Gümüşhane. Visitors can still see preserved frescoes and architectural elements, offering a glimpse into the region’s religious and cultural past.",
+    "de": "Die Hagios Georgios Metropolitische Kirche ist ein historisch und kulturell bedeutendes Bauwerk in Gümüşhane. Sie wurde während der osmanischen Zeit erbaut und befindet sich in einem der ältesten Siedlungsgebiete der Stadt, dem Bezirk der Historischen Gümüşhane-Häuser.\n\nGeschichte und Bauweise:\nDie Hagios Georgios Kirche wurde im 19. Jahrhundert erbaut. Der Titel \"Metropolitisch\" weist darauf hin, dass sie eines der wichtigsten religiösen Zentren der Region war. Sie diente der griechisch-orthodoxen Gemeinschaft als Gebets- und Versammlungsort.\n\nArchitektonische Merkmale:\nDie Architektur der Kirche vereint byzantinische und osmanische Einflüsse. Sie hat einen rechteckigen Grundriss und ein schlichtes, aber beeindruckendes Inneres. Die Wände und Decken sind mit Fresken und Ikonen verziert, die wichtige religiöse Symbole der orthodoxen Christenheit darstellen.\n\nRegionale Bedeutung:\nWährend der osmanischen Zeit war die Hagios Georgios Kirche nicht nur ein Gotteshaus, sondern auch ein gesellschaftliches Zentrum für die lokale griechisch-orthodoxe Bevölkerung.\n\nHeutiger Zustand:\nHeute wird die Kirche nicht mehr als Gotteshaus genutzt, bleibt aber eine bedeutende historische Sehenswürdigkeit in Gümüşhane. Besucher können noch erhaltene Fresken und architektonische Details sehen, die einen Einblick in die religiöse und kulturelle Vergangenheit der Region geben."
+  },
+  "activities": {
+    "tr": [
+      "Tarihi keşfetmek",
+      "Mimariyi incelemek",
+      "Fotoğraf çekmek"
+    ],
+    "en": [
+      "Exploring history",
+      "Admiring architecture",
+      "Taking photographs"
+    ],
+    "de": [
+      "Geschichte erkunden",
+      "Architektur bewundern",
+      "Fotos machen"
     ]
   },
+  "categories": {
+    "tr": [
+      "kilise"
+    ],
+    "en": [
+      "church"
+    ],
+    "de": [
+      "Kirche"
+    ]
+  },
+  "images": [
+    "https://example.com/hagios_georgios_kilisesi.jpg",
+    "https://example.com/hagios_georgios_kilisesi_2.jpg"
+  ]
+},
   {
     "slug": "limni-golu-tabiat-parki",
     "name": {

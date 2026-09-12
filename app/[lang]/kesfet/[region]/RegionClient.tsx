@@ -343,7 +343,7 @@ export default function RegionClient({
    */
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* ==================================================
           HERO
       ================================================== */}
@@ -546,6 +546,6 @@ export default function RegionClient({
           )}
         </div>
       </section>
-    </main>
+    </div>
   );
 }

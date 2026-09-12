@@ -46,7 +46,7 @@ export default async function ContactPage({
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-6 py-24">
+    <div className="max-w-4xl mx-auto px-6 py-24">
       {/* Waylero Signature Title */}
       <h1 className="text-5xl md:text-7xl font-serif font-bold mb-12 text-gray-900 tracking-tighter italic uppercase leading-[0.85]">
         {content.title}
@@ -108,6 +108,6 @@ export default async function ContactPage({
           </p>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

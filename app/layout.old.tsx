@@ -22,8 +22,11 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://waylero.com"),
+  metadataBase: new URL("https://waylero.com" ),
 
   title: {
     default: "Waylero | Explore Cities, Events & Travel Experiences",
@@ -67,23 +70,27 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}> ) {
   const headersList = await headers();
 
-  const lang =
-    headersList.get("x-waylero-lang") === "en" ? "en" : "tr";
+  const headerLocale = headersList.get("x-waylero-lang")?.toLowerCase();
+  console.log("ROOT LAYOUT LANG:", headerLocale);
+
+  const lang: "tr" | "en" =
+    headerLocale === "en"
+      ? "en"
+      : headerLocale === "tr"
+        ? "tr"
+        : "en";
 
   return (
     <html lang={lang}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
-        <Script
-          id="microsoft-clarity"
-          strategy="afterInteractive"
-        >
+        <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
             (function() {
               var consent = localStorage.getItem("waylero_cookie_consent");
@@ -101,7 +108,7 @@ export default async function RootLayout({
                 t.async=1;
                 t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
 
-                y=l.getElementsByTagName(r)[0];
+                y=l.getElementsByTagName(r )[0];
                 y.parentNode.insertBefore(t,y);
               })(window, document, "clarity", "script", "x3v9pxahkm");
             })();

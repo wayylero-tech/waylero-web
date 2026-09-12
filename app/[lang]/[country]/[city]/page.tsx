@@ -137,7 +137,7 @@ const tourLink = availableTourCities.includes(city.slug)
 
 
   return (
-    <main className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen bg-white text-gray-900">
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-[linear-gradient(110deg,#fdfaf7_50%,#eef8fb_50%)]">
         <div className="container mx-auto px-6 text-center">
@@ -251,6 +251,6 @@ const tourLink = availableTourCities.includes(city.slug)
 </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

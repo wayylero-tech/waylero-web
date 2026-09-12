@@ -72,7 +72,7 @@ export default async function HakkimizdaPage({
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-6 py-24">
+    <div className="max-w-4xl mx-auto px-6 py-24">
       {/* Başlık ve Intro */}
       <div className="mb-20">
         <h1 className="text-6xl md:text-8xl font-serif font-bold text-gray-900 mb-10 tracking-tighter italic leading-none">
@@ -152,6 +152,6 @@ export default async function HakkimizdaPage({
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

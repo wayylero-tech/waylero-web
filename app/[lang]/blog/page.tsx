@@ -103,7 +103,7 @@ export default async function Page({ params }: Props) {
   const displayPosts = [...allPosts].reverse();
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <section className="pt-24 pb-32 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
         <div className="container mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 px-5 py-2 bg-white/60 backdrop-blur-md text-orange-700 text-[10px] font-black uppercase tracking-[0.2em] rounded-full mb-8 border border-orange-100 shadow-sm">
@@ -188,6 +188,6 @@ export default async function Page({ params }: Props) {
           })}
         </div>
       </section>
-    </main>
+   </div>
   );
 }

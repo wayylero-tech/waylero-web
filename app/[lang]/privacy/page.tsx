@@ -130,7 +130,7 @@ export default async function PrivacyPage({
   };
 
   return (
-    <main className="max-w-4xl mx-auto px-6 py-24">
+   <div className="max-w-4xl mx-auto px-6 py-24">
       {/* Waylero Hero Title */}
       <h1 className="text-5xl md:text-7xl font-serif font-bold mb-4 text-gray-900 tracking-tighter italic leading-none uppercase">
         {content.title}
@@ -202,6 +202,6 @@ export default async function PrivacyPage({
           <p className="text-gray-400 text-xs italic opacity-60">© {new Date().getFullYear()} Waylero Platform</p>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

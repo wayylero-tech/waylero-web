@@ -1823,7 +1823,7 @@ export default function CityPageClient({
 
   if (!cityInfo) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-white">
+      <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="text-center px-6">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
             {lang === "tr"
@@ -1837,7 +1837,7 @@ export default function CityPageClient({
               : "A page for this city is not available yet."}
           </p>
         </div>
-      </main>
+      </div>
     );
   }
 
@@ -1864,7 +1864,7 @@ export default function CityPageClient({
 const hasHotelPage = hotelCities.includes(cityInfo.id);
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
 
       {/* =====================================================
           HERO
@@ -2254,6 +2254,6 @@ const hasHotelPage = hotelCities.includes(cityInfo.id);
   </section>
 )}
 
-    </main>
+    </div>
   );
 }

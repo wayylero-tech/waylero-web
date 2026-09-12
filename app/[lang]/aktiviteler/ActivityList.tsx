@@ -183,7 +183,7 @@ const handleImpression = (id: number | string) => {
   };
 
   return (
-    <main className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen bg-white text-gray-900">
       <section className="pt-24 pb-44 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
         <div className="container mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 px-5 py-2 bg-white/80 backdrop-blur-md text-orange-700 text-[10px] font-black uppercase tracking-[0.2em] rounded-full mb-8 border border-orange-100">
@@ -375,6 +375,6 @@ const handleImpression = (id: number | string) => {
           {t.footerText.split("{link}")[1]}
         </p>
       </footer>
-    </main>
+    </div>
   );
 }

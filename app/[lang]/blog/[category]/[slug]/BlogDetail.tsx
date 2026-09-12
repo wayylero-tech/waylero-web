@@ -140,7 +140,7 @@ export default function BlogDetail({
     <>
       <BlogViewCounter slug={post.slug} />
 
-      <main className="min-h-screen bg-white pb-32">
+      <div className="min-h-screen bg-white pb-32">
 
         {/* ========================================================= */}
         {/* HEADER */}
@@ -810,7 +810,7 @@ export default function BlogDetail({
 
         </section>
 
-      </main>
+     </div>
     </>
   );
 }

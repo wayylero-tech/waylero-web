@@ -131,7 +131,7 @@ export default function KesfetClient({ lang }: { lang: string }) {
   };
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
 
       {/* 1. HERO SECTION */}
 
@@ -301,6 +301,6 @@ export default function KesfetClient({ lang }: { lang: string }) {
 
       </footer>
 
-    </main>
+    </div>
   );
 }

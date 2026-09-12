@@ -123,7 +123,7 @@ export default function HomeClient({
 
   
   return (
-    <main className="min-h-screen w-full bg-white overflow-x-hidden">
+    <div className="min-h-screen w-full bg-white overflow-x-hidden">
 
      {/* ✅ YENİ ÜST ALAN */}
     <section className="w-full py-10 bg-[#fdfaf7]">
@@ -815,6 +815,6 @@ export default function HomeClient({
   ))}
 </div>
 </section>
-    </main>
+    </div>
   );
 }
