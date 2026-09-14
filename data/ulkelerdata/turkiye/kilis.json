@@ -1,243 +1,317 @@
 [
-
-{
-  "slug": "ravanda-kalesi",
-  "name": {
-    "tr": "Ravanda Kalesi",
-    "en": "Ravanda Castle",
-    "de": "Burg Ravanda"
-  },
-  "latitude": 36.8775,
-  "longitude": 37.078611,
-  "description": {
-    "tr": "Ravanda Kalesi, Kilis’in Polateli ilçesi yakınlarında, Afrin Çayı’nın doğusunda, oldukça dik ve konik bir tepe üzerine kurulu tarihi bir kaledir. Kalenin ilk yapım tarihi kesin olarak bilinmemekle birlikte, Hitit, Asur veya Roma dönemlerinden kaldığı, ardından Bizans, Haçlılar, Selçuklular ve Memlükler tarafından aktif olarak kullanıldığı bilinmektedir. Özellikle Haçlı Seferleri döneminde çok stratejik bir savunma noktası olmuştur. Günümüze ulaşan iç kale surları, devasa su sarnıçları, askeri kışla odaları ve ambar kalıntıları ile tarih meraklıları için büyüleyici bir keşif noktasıdır. Konumu itibariyle çevresindeki uçsuz bucaksız zeytinlikleri ve nehir vadisini gören muazzam bir panoramik manzaraya sahiptir.",
-    "en": "Ravanda Castle is a historic fortress built upon a steep, conical hill near the Polateli district of Kilis, located east of the Afrin River. Although its exact origin remains uncertain, the fortress dates back to the Hittite, Assyrian, or Roman periods and was subsequently utilized by the Byzantines, Crusaders, Seljuks, and Mamluks. It played a highly strategic defensive role, especially during the Crusades. The surviving inner citadel walls, massive water cisterns, military barracks, and storehouses make it a fascinating site for history enthusiasts. Due to its elevated position, it offers spectacular panoramic views of the surrounding vast olive groves and river valley.",
-    "de": "Die Burg Ravanda ist eine historische Festung auf einem steilen, kegelförmigen Hügel in der Nähe des Bezirks Polateli in Kilis, östlich des Flusses Afrin. Obwohl der genaue Ursprung unklar ist, reicht die Festung bis in die hethitische, assyrische oder römische Zeit zurück und wurde später von Byzantinern, Kreuzfahrern, Seldschuken und Mamluken genutzt. Besonders während der Kreuzzüge spielte sie eine strategisch wichtige Verteidigungsrolle. Die erhaltenen inneren Festungsmauern, riesigen Zisternen, Kasernen und Lagerhäuser machen sie zu einem faszinierenden Ziel für Geschichtsliebhaber. Aufgrund ihrer erhöhten Lage bietet sie einen spektakulären Panoramablick auf die umliegenden Olivenhaine und das Flusstal."
-  },
-  "activities": {
-    "tr": [
-      "Tarihi iç kale kalıntılarını ve sarnıçları keşfetme",
-      "Kalenin zirvesinden Afrin Vadisi ve zeytinlik manzarasını izleme",
-      "Fotoğraf çekimi"
-    ],
-    "en": [
-      "Explore the historic inner citadel ruins and cisterns",
-      "Enjoy views of the Afrin Valley and olive groves from the summit",
-      "Photography"
-    ],
-    "de": [
-      "Die historischen Ruinen der inneren Zitadelle und Zisternen erkunden",
-      "Den Ausblick auf das Afrin-Tal und die Olivenhaine vom Gipfel genießen",
-      "Fotografieren"
+  {
+    "slug": "ravanda-kalesi",
+    "name": {
+      "tr": "Ravanda Kalesi",
+      "en": "Ravanda Castle",
+      "de": "Burg Ravanda"
+    },
+    "latitude": 36.8775,
+    "longitude": 37.078611,
+    "description": {
+      "tr": "Ravanda Kalesi, Kilis il merkezinin yaklaşık otuz beş kilometre kuzeybatısında, Polateli ilçesine bağlı Belenözü Köyü sınırları içerisinde konumlanan görkemli bir tarihi savunma yapısıdır. Afrin Çayı Vadisine hakim, oldukça dik ve konik bir dağ tepesi üzerine inşa edilen bu kale, antik çağlardan itibaren bölgedeki ticaret ve askeri geçit yollarını gözetlemek amacıyla kullanılmıştır. Yapım yılına dair kesin bir yazılı belge bulunmamakla birlikte, yapılan arkeolojik incelemeler ve mimari katmanlar kalenin temelinin Hitit veya Asur dönemlerine kadar uzandığını göstermektedir. Roma ve Bizans dönemlerinde aktif olarak kullanılan tahkimat, özellikle Orta Çağda Haçlı Seferleri esnasında kritik bir savunma ve konaklama merkezi haline gelmiştir. Edessa Kontluğunun kontrolüne geçen yapı, Haçlı kaynaklarında Ravendel adıyla anılmış ve Doğu Akdeniz ticaret rotalarının güvenliğinde kilit bir rol oynamıştır. Daha sonraki süreçte Selçuklular, Eyyubiler ve Memlüklerin idaresine giren kale, Osmanlı imparatorluğu döneminde de sınır güvenliği için stratejik önemini muhafaza etmiştir. Kale mimarisi incelendiğinde, zirveyi çevreleyen yüksek iç kale surlarının günümüze kadar ulaşabildiği görülmektedir. Surların yapımında köşe bloklarında iri kesme taşlar, duvar gövdelerinde ise moloz taşlar kullanılmıştır. Kale içerisinde sur altlarına oyulmuş devasa su sarnıçları, askerlerin barınması için tasarlanmış kışla odaları, erzak depolamaya yarayan ambarlar, gizli kaçış tünelleri ve şapel kalıntıları mevcuttur. Yüksek rakımı sayesinde kale zirvesinden Afrin Vadisi, çevredeki uçsuz bucaksız zeytinlikler ve geniş ovaları kapsayan muazzam bir panoramik manzara sunulmaktadır. Doğa yürüyüşü ve tarih meraklıları için bölgedeki en etkileyici duraklardan biri olan yapı, Doğu Akdeniz ile Güneydoğu Anadolu arasındaki askeri mimari gelişimini gözler önüne serer. Savunma mimarisinin tüm unsurlarını barındıran bu eser, stratejik konumu ve köklü geçmişiyle Kilis kültür turizminin en kıymetli hazinelerindendir.",
+      "en": "Ravanda Castle is a magnificent historic defense structure located within the borders of Belenozu Village in the Polateli district, approximately thirty-five kilometers northwest of Kilis city center. Built atop a steep, conical mountain hill overlooking the Afrin River Valley, this castle was utilized since antiquity to oversee critical commercial and military transit routes in the region. Although no definitive written record confirms its exact year of construction, archaeological examinations and architectural layering indicate that the foundation of the fortress dates back to the Hittite or Assyrian periods. Active during the Roman and Byzantine eras, the fortification became a crucial stronghold and staging post during the Crusades in the Middle Ages. Passing under the control of the County of Edessa, the castle was referred to as Ravendel in Crusader sources and played a key role in securing East Mediterranean trade routes. Subsequently governed by the Seljuks, Ayyubids, and Mamluks, the fortress maintained its strategic importance for border security under the Ottoman Empire. An analysis of the castle architecture reveals that the high inner citadel walls surrounding the summit have survived to the present day. Large ashlar stones were utilized at the corners of the walls, while rubble stone was used for the main wall bodies. Within the castle complex, visitors can observe massive water cisterns carved underneath the ramparts, military barracks designed for garrison housing, storage vaults for supplies, secret escape tunnels, and remnants of a historic chapel. Due to its elevated altitude, the summit provides an exceptional panoramic view encompassing the Afrin Valley, expansive olive groves, and surrounding plains. As one of the most impressive destinations for hiking and history enthusiasts in the region, the site reflects the evolution of military architecture between the Eastern Mediterranean and Southeastern Anatolia. Preserving all key elements of ancient fortification, this monumental site stands as one of the most precious treasures of local cultural tourism.",
+      "de": "Burg Ravanda"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi iç kale kalıntılarını ve sarnıçları keşfetme",
+        "Kalenin zirvesinden Afrin Vadisi ve zeytinlik manzarasını izleme",
+        "Fotoğraf çekimi"
+      ],
+      "en": [
+        "Explore the historic inner citadel ruins and cisterns",
+        "Enjoy views of the Afrin Valley and olive groves from the summit",
+        "Photography"
+      ],
+      "de": [
+        "Die historischen Ruinen der inneren Zitadelle und Zisternen erkunden",
+        "Den Ausblick auf das Afrin-Tal und die Olivenhaine vom Gipfel genießen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "kale",
+        "tarihi yapı",
+        "arkeolojik alan",
+        "manzara noktası"
+      ],
+      "en": [
+        "castle",
+        "historical site",
+        "archaeological site",
+        "viewpoint"
+      ],
+      "de": [
+        "burg",
+        "historische stätte",
+        "archäologische stätte",
+        "aussichtspunkt"
+      ]
+    },
+    "images": [
+      "https://example.com/ravanda_kalesi_kilis.jpg"
     ]
   },
-  "categories": {
-    "tr": ["kale", "tarihi yapı", "arkeolojik alan", "manzara noktası"],
-    "en": ["castle", "historical site", "archaeological site", "viewpoint"],
-    "de": ["burg", "historische stätte", "archäologische stätte", "aussichtspunkt"]
-  },
-  "images": [
-    "https://example.com/ravanda_kalesi_kilis.jpg"
-  ]
-},
-{
-  "slug": "oylum-hoyuk",
-  "name": {
-    "tr": "Oylum Höyük",
-    "en": "Oylum Höyük",
-    "de": "Oylum Höyük"
-  },
-  "latitude": 36.685278,
-  "longitude": 37.164444,
-  "description": {
-    "tr": "Oylum Höyük, Kilis şehir merkezinin güneydoğusunda yer alan, yaklaşık 460 metre uzunluğu ve 37 metre yüksekliği ile Güneydoğu Anadolu ve Ortadoğu'nun en büyük höyüklerinden biridir. Bölgede yapılan arkeolojik kazılar, höyükteki yerleşimin kesintisiz olarak Kalkolitik Çağ'dan (M.Ö. 4000) başlayarak Roma ve Bizans dönemlerine kadar uzandığını göstermektedir. Antik çağlarda krallık merkezleri ve önemli ticaret yollarının kesişim noktası olan bu alan, Akdeniz dünyasını Mezopotamya’ya bağlayan stratejik bir askeri ve ticari üs konumundaydı. Oylum Höyük’ten çıkarılan binlerce yıllık krallık mühürleri, tabletler, heykelcikler ve mozaikler, bölgenin köklü tarihini gözler önüne sermektedir.",
-    "en": "Oylum Höyük, located southeast of Kilis city center, is one of the largest mounds in Southeastern Anatolia and the Middle East, measuring approximately 460 meters in length and 37 meters in height. Archaeological excavations reveal that settlement on the mound spans continuously from the Chalcolithic Age (4000 BC) through the Roman and Byzantine eras. Serving as a royal administrative hub and a crossroads for vital ancient trade routes, it was a strategic military and commercial base linking the Mediterranean world to Mesopotamia. The millennia-old royal seals, cuneiform tablets, figurines, and mosaics discovered here showcase the deep-rooted history of the region.",
-    "de": "Oylum Höyük liegt südöstlich des Stadtzentrums von Kilis und ist mit einer Länge von ca. 460 Metern und einer Höhe von 37 Metern einer der größten Siedlungshügel in Südostanatolien und im Nahen Osten. Archäologische Ausgrabungen zeigen, dass die Besiedlung des Hügels kontinuierlich von der Chalkolithischen Zeit (4000 v. Chr.) bis in die römische und byzantinische Epoche reicht. Als königliches Verwaltungszentrum und Knotenpunkt wichtiger antiker Handelswege war es ein strategischer Stützpunkt, der die Mittelmeerwelt mit Mesopotamien verband. Die hier entdeckten jahrtausendealten königlichen Siegel, Keilschrifttafeln und Mosaike zeugen von der tief verwurzelten Geschichte der Region."
-  },
-  "activities": {
-    "tr": [
-      "Binlerce yıllık antik kazı alanını ve yerleşim katmanlarını inceleme",
-      "Bölgeden çıkarılan eserler hakkında bilgi edinme",
-      "Kırsal tarih turizmi"
-    ],
-    "en": [
-      "Examine the ancient excavation site and settlement layers spanning millennia",
-      "Learn about the artifacts discovered in the area",
-      "Rural historical tourism"
-    ],
-    "de": [
-      "Die antike Ausgrabungsstätte und die jahrtausendealten Siedlungsschichten besichtigen",
-      "Mehr über die in der Region entdeckten Artefakte erfahren",
-      "Ländlicher Geschichtstourismus"
+  {
+    "slug": "oylum-hoyuk",
+    "name": {
+      "tr": "Oylum Höyük",
+      "en": "Oylum Höyük",
+      "de": "Oylum Höyük"
+    },
+    "latitude": 36.685278,
+    "longitude": 37.164444,
+    "description": {
+      "tr": "Oylum Höyük, Kilis şehir merkezinin yaklaşık yedi kilometre güneydoğusunda, Oylum Köyü sınırları içerisinde yer alan, Güneydoğu Anadolu Bölgesi ve Ön Asyanın en büyük höyüklerinden biridir. Yaklaşık dörtyüz altmış metre uzunluğa, üçyüz yetmiş metre genişliğe ve otuz yedi metre yüksekliğe sahip olan bu devasa yerleşim tepesi, iki farklı yükseltiden oluşan kuzey ve güney tepe yapısıyla dikkat çeker. Bölgede yürütülen sistemli arkeolojik kazılar, Oylum Höyükteki ilk yerleşimin MÖ 4000 yıllarına, yani Geç Kalkolitik Çağa kadar uzandığını ve Tunç Çağları, Hitit, Asur, Hellenistik, Roma, Bizans ve İslami dönemler boyunca kesintisiz olarak devam ettiğini kanıtlamıştır. Antik çağda Doğu Akdeniz ile Mezopotamya arasındaki ticaret yollarının, Fırat Nehri geçişlerinin ve bereketli tarım arazilerinin kesişim noktasında bulunması, burayı bölgesel bir krallık merkezi ve yönetim üssü haline getirmiştir. Höyükte gerçekleştirilen kazılarda krallık sarayı kalıntıları, anıtsal idari yapılar, tapınaklar ve sur duvarları açığa çıkarılmıştır. Bu yapılardan elde edilen çivi yazılı kil tabletler, kraliyet mühür baskıları, altın ve bronz takılar, adak adanan heykelcikler ile Erken Hristiyanlık dönemine ait taban mozaikleri, alanın siyasi ve dini gücünü ortaya koymaktadır. Buluntular, höyüğün antik yazılı kaynaklarda geçen Nuhaşşe veya Ulisum adlı şehir krallıklarından biri olabileceğini göstermektedir. Binlerce yıllık kesintisiz kentleşme dokusu, arkeoloji dünyası için Mezopotamya ve Anadolu kültürlerinin etkileşimini anlamada eşsiz bir laboratuvar niteliğindedir. Stratejik konumu sayesinde tarih boyunca çok sayıda medeniyete ev sahipliği yapmış olan höyük, dönemin diplomatik ve ticari ilişkilerini belgeleyen nadide eserlere ev sahipliği yapar. Yerleşim katmanlarının zenginliği, bölgenin antik çağ mimarisi ve toplumsal yaşamı hakkında bilim dünyasına çok değerli veriler sunmaya devam etmektedir.",
+      "en": "Oylum Hoyuk, situated approximately seven kilometers southeast of Kilis city center within the boundaries of Oylum Village, stands as one of the largest settlement mounds in the Southeastern Anatolia region and the Near East. Measuring roughly four hundred sixty meters in length, three hundred seventy meters in width, and thirty-seven meters in height, this colossal mound features a distinct double-mound topography consisting of northern and southern heights. Systematic archaeological excavations conducted at the site demonstrate that human settlement began as early as 4000 BC in the Late Chalcolithic Age and continued without interruption through the Bronze Ages, Hittite, Assyrian, Hellenistic, Roman, Byzantine, and Islamic eras. Positioned at the strategic crossroads connecting the Eastern Mediterranean to Mesopotamia, ancient Euphrates river crossings, and fertile agricultural basins, the site served as a vital regional royal center and administrative hub. Excavations have unearthed the remains of a monumental royal palace, administrative complexes, temples, and defensive fortification walls. The artifact assemblage recovered from these structures includes cuneiform clay tablets, royal seal impressions, gold and bronze jewelry, votive figurines, and intricate Early Christian floor mosaics, all highlighting the political and religious prominence of the city. Scholars suggest that Oylum Hoyuk may correspond to the historical city-state of Nuhasse or Ulisum mentioned in ancient cuneiform texts. This unbroken urban sequence spanning thousands of years provides invaluable insights into the cultural synthesis between Anatolian and Mesopotamian civilizations. Having hosted numerous civilizations throughout history due to its strategic position, the mound yields rare artifacts that document ancient diplomatic and commercial networks. The density of its stratigraphy continues to offer key data regarding ancient architecture and societal structures.",
+      "de": "Oylum Höyük"
+    },
+    "activities": {
+      "tr": [
+        "Binlerce yıllık antik kazı alanını ve yerleşim katmanlarını inceleme",
+        "Bölgeden çıkarılan eserler hakkında bilgi edinme",
+        "Kırsal tarih turizmi"
+      ],
+      "en": [
+        "Examine the ancient excavation site and settlement layers spanning millennia",
+        "Learn about the artifacts discovered in the area",
+        "Rural historical tourism"
+      ],
+      "de": [
+        "Die antike Ausgrabungsstätte und die jahrtausendealten Siedlungsschichten besichtigen",
+        "Mehr über die in der Region entdeckten Artefakte erfahren",
+        "Ländlicher Geschichtstourismus"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "arkeolojik alan",
+        "antik kent",
+        "tarihi yapı"
+      ],
+      "en": [
+        "archaeological site",
+        "ancient city",
+        "historical site"
+      ],
+      "de": [
+        "archäologische stätte",
+        "antike stadt",
+        "historische stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/oylum_hoyuk_kilis.jpg"
     ]
   },
-  "categories": {
-    "tr": ["arkeolojik alan", "antik kent", "tarihi yapı"],
-    "en": ["archaeological site", "ancient city", "historical site"],
-    "de": ["archäologische stätte", "antike stadt", "historische stätte"]
-  },
-  "images": [
-    "https://example.com/oylum_hoyuk_kilis.jpg"
-  ]
-},
-{
-  "slug": "kilis-tarihi-tas-evleri",
-  "name": {
-    "tr": "Tarihi Kilis Sokakları ve Taş Evleri",
-    "en": "Historic Kilis Streets and Stone Houses",
-    "de": "Historische Straßen und Steinhäuser von Kilis"
-  },
-  "latitude": 36.716111,
-  "longitude": 37.114722,
-  "description": {
-    "tr": "Tarihi Kilis Sokakları ve Taş Evleri, kentin geleneksel sivil mimari dokusunu günümüze taşıyan en zarif alanlardır. Genellikle sarımsı renkteki yerel kesme taşlardan inşa edilen bu evler, yüksek duvarları, dış dünyaya kapalı 'hayat' adı verilen iç avluları ve ahşap süslemeli pencereleri ile tipik bir Güneydoğu ve Ortadoğu mimari karakteri sergiler. Dar ve Arnavut kaldırımlı Salih Efendi Sokakları boyunca sıralanan bu yapılar, yazın serin, kışın ise sıcak tutan mimari özellikleriyle bilinir. Restorasyon çalışmalarıyla turizme kazandırılan birçok konak günümüzde müze, kültür evi veya butik kafe olarak hizmet vermekte, ziyaretçilerine eski Kilis’in mahalle kültürünü birebir yaşatmaktadır.",
-    "en": "The Historic Kilis Streets and Stone Houses are the finest examples showcasing the traditional civic architecture of the city. Built primarily with local yellowish ashlar stones, these houses exhibit typical Southeastern and Middle Eastern architectural characteristics with their high outer walls, private inner courtyards called 'hayat', and beautifully ornamented wooden windows. Lining the narrow, cobbled streets such as Salih Efendi Street, these structures are designed to stay cool in summer and warm in winter. Many beautifully restored mansions now serve as museums, cultural centers, or boutique cafes, offering visitors a firsthand look at old Kilis neighborhood culture.",
-    "de": "Die historischen Straßen und Steinhäuser von Kilis sind die schönsten Beispiele für die traditionelle zivile Architektur der Stadt. Diese hauptsächlich aus lokalem, gelblichem Quaderstein erbauten Häuser weisen mit ihren hohen Außenmauern, den 'Hayat' genannten privaten Innenhöfen und den verzierten Holzfenstern typische südostanatolische und nahöstliche Merkmale auf. Entlang der engen kopfsteingepflasterten Gassen wie der Salih-Efendi-Straße gelegen, sind diese Gebäude so konzipiert, dass sie im Sommer kühl und im Winter warm bleiben. Viele restaurierte Herrenhäuser dienen heute als Museen oder Cafés und vermitteln den Besuchern die alte Stadtteilkultur von Kilis."
-  },
-  "activities": {
-    "tr": [
-      "Arnavut kaldırımlı dar tarihi sokaklarda yürüyüş yapma",
-      "Geleneksel Kilis taş konaklarının mimarisini ve iç avlularını fotoğraflama",
-      "Kültür evlerinde Kilis zeytinyağı ve yöresel lezzetleri deneme"
-    ],
-    "en": [
-      "Stroll along the narrow, cobblestone historic streets",
-      "Photograph the architecture and inner courtyards of traditional stone mansions",
-      "Taste local delicacies and Kilis olive oil at cultural centers"
-    ],
-    "de": [
-      "Durch die engen, kopfsteingepflasterten historischen Gassen schlendern",
-      "Die Architektur und die Innenhöfe der traditionellen Steinbauten fotografieren",
-      "Lokale Köstlichkeiten und das Olivenöl von Kilis in Kulturhäusern probieren"
+  {
+    "slug": "kilis-tarihi-tas-evleri",
+    "name": {
+      "tr": "Tarihi Kilis Sokakları ve Taş Evleri",
+      "en": "Historic Kilis Streets and Stone Houses",
+      "de": "Historische Straßen und Steinhäuser von Kilis"
+    },
+    "latitude": 36.716111,
+    "longitude": 37.114722,
+    "description": {
+      "tr": "Tarihi Kilis Sokakları ve Taş Evleri, kentin binlerce yıllık köklü geçmişini ve Akdeniz ile Ortadoğu mimari sentezini günümüze taşıyan en özgün sivil mimarlık örnekleridir. Kent merkezindeki Salih Efendi Sokak, Akcurun Mahallesi ve Kabaltı sokaklarında yoğunlaşan bu yapılar, çoğunlukla bölgeden çıkarılan ve işlenmesi kolay olan sarımsı renkteki kalker taşlarından inşa edilmiştir. Dış cepheleri yüksek ve pencereleri sokak seviyesinden yukarıda tutulan bu evler, mahremiyet kültürünün bir yansıması olarak doğrudan dış dünyaya kapalı bir yapı sergiler. Cümle kapısından içeri girildiğinde hayat adı verilen son derece geniş, avlulu ve havuzlu bir iç mekan ziyaretçileri karşılar. Bu avluların etrafında dizilen odalar, yazın kavurucu sıcaklarından korunmak için yüksek tavanlı ve ahşap süslemeli olarak tasarlanmıştır. Evlerin alt kısımlarında gıdaların saklandığı kilerler ve mahzenler yer alırken, üst katlarda cumba adı verilen ve sokak manzarasına hakim ahşap çıkıntılar yer alır. Yapıların bir diğer mimari özelliği ise dar sokakların üzerini örten ve üst kattaki odaları birbirine bağlayan kabaltı adı verilen tonozlu geçitlerdir. Bu dar ve taş döşeli sokaklar, güneş ışığını dik açıyla almayacak şekilde dar planlanmış, böylece mahalle sakinleri için doğal bir iklimlendirme sağlanmıştır. Günümüzde başlatılan restorasyon hamleleri sayesinde bu tarihi konaklar, kültür evleri, butik oteller, etnoğrafik müzeler ve kafeler olarak yeniden işlevlendirilmiş olup, kentin tarih kokan mahalle yaşamını ziyaretçilere yaşatmaktadır. Taş işçiliğinin en zarif detaylarını barındıran bu yerleşim alanları, ziyaretçilere geçmişin sıcak mahalle ilişkilerini ve otantik yaşam tarzını deneyimleme fırsatı sunar. Her bir konak, dönemin ustalık eserlerini ve estetik anlayışını yansıtan benzersiz kapı tokmakları ve taş oymalarıyla bezenmiştir.",
+      "en": "The Historic Kilis Streets and Stone Houses represent the most authentic residential architectural heritage of the city, echoing centuries of cultural synthesis between Mediterranean and Middle Eastern traditions. Concentrated around Salih Efendi Street, Akcurun Neighborhood, and narrow vaulted passageways in the city center, these historic dwellings were primarily constructed using locally quarried yellowish limestone, which is soft when extracted and hardens over time. Reflecting a strong traditional focus on domestic privacy, the outer facades feature tall, solid stone walls with high-set windows. Upon passing through the grand entrance gates, visitors are welcomed into a spacious inner courtyard known locally as hayat, often decorated with central stone basins and lush greenery. The living quarters arranged around these courtyards are built with soaring ceilings and intricately carved wooden fixtures to withstand the intense summer heat. Beneath the primary floors lie cool vaulted cellars used for storing olive oil and winter provisions, while the upper levels showcase enclosed wooden balconies known as cumbas that extend over the streets. Another defining architectural element of these historic quarters is the kabalti, a series of barrel-vaulted stone arches that span across narrow alleys to connect adjacent upper floors. The winding, cobblestone-paved streets were intentionally designed narrow to block harsh direct sunlight, creating naturally cooler microclimates for residents. Through comprehensive heritage preservation projects, many of these mansions have been restored and repurposed into cultural centers, boutique accommodations, museums, and traditional teahouses, allowing visitors to experience authentic local neighborhood life. Displaying fine stonemasonry details, these residential quarters offer guests a chance to immerse themselves in authentic regional culture. Each restored structure preserves artistic door knockers and stone reliefs that embody historic craftsmanship.",
+      "de": "Historische Straßen und Steinhäuser von Kilis"
+    },
+    "activities": {
+      "tr": [
+        "Arnavut kaldırımlı dar tarihi sokaklarda yürüyüş yapma",
+        "Geleneksel Kilis taş konaklarının mimarisini ve iç avlularını fotoğraflama",
+        "Kültür evlerinde Kilis zeytinyağı ve yöresel lezzetleri deneme"
+      ],
+      "en": [
+        "Stroll along the narrow, cobblestone historic streets",
+        "Photograph the architecture and inner courtyards of traditional stone mansions",
+        "Taste local delicacies and Kilis olive oil at cultural centers"
+      ],
+      "de": [
+        "Durch die engen, kopfsteingepflasterten historischen Gassen schlendern",
+        "Die Architektur und die Innenhöfe der traditionellen Steinbauten fotografieren",
+        "Lokale Köstlichkeiten und das Olivenöl von Kilis in Kulturhäusern probieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi yapı",
+        "kültürel miras",
+        "mimari yapi"
+      ],
+      "en": [
+        "historical site",
+        "cultural heritage",
+        "architectural site"
+      ],
+      "de": [
+        "historische stätte",
+        "kulturerbe",
+        "architektur"
+      ]
+    },
+    "images": [
+      "https://example.com/kilis_tas_evleri.jpg"
     ]
   },
-  "categories": {
-    "tr": ["tarihi yapı", "kültürel miras", "mimari yapi"],
-    "en": ["historical site", "cultural heritage", "architectural site"],
-    "de": ["historische stätte", "kulturerbe", "architektur"]
-  },
-  "images": [
-    "https://example.com/kilis_tas_evleri.jpg"
-  ]
-},
-{
-  "slug": "seyh-efendi-tekkesi",
-  "name": {
-    "tr": "Şeyh Efendi Tekkesi (Kilis Mevlevihanesi)",
-    "en": "Sheik Efendi Tekkesi (Kilis Mevlevihane)",
-    "de": "Scheich-Efendi-Tekke (Mevlevi-Kloster Kilis)"
-  },
-  "latitude": 36.712222,
-  "longitude": 37.118889,
-  "description": {
-    "tr": "Şeyh Efendi Tekkesi, Kilis’in inanç ve kültür turizmi açısından en önemli manevi merkezlerinden biridir. 16. yüzyılda Osmanlı Dönemi'nde inşa edilen ve uzun yıllar Mevlevihane olarak hizmet veren bu yapı, bölgedeki Mevlevi kültürünün en önemli temsilcisi olmuştur. Geniş bir avlu etrafında sıralanan derviş odaları, semahane ve türbe bölümlerinden oluşan tekke, klasik Osmanlı mimari çizgilerini taşır. İçerisinde bölgenin önemli mutasavvıflarının kabirleri yer almaktadır. Günümüzde vakıf eseri olarak korunan ve aslına uygun şekilde restore edilen tekke, hem huzurlu atmosferi hem de kentin sosyal tarihindeki büyük önemi nedeniyle yerli ve yabancı ziyaretçilerin uğrak noktalarından biridir.",
-    "en": "The Sheik Efendi Tekkesi (also known as the Kilis Mevlevihane) is one of the most prominent spiritual and cultural centers in Kilis. Constructed in the 16th century during the Ottoman era, this historic lodge served as a Mevlevi (Whirling Dervishes) monastery for centuries, anchoring Sufi culture in the region. The complex features a spacious central courtyard surrounded by dervish cells, a semahane (whirling hall), and a mausoleum housing the tombs of revered local Sufi saints. Meticulously restored, it stands today as a preserved heritage site, drawing visitors with its serene atmosphere and deep historical significance.",
-    "de": "Die Scheich-Efendi-Tekke (auch bekannt als Mevlevi-Kloster von Kilis) ist eines der bedeutendsten spirituellen und kulturellen Zentren in Kilis. Das im 16. Jahrhundert während der osmanischen Ära erbauten Kloster diente jahrhundertelang als Mevlevi-Dervisch-Zentrum und war der Anker der sufischen Kultur in der Region. Der Komplex besteht aus einem großen Innenhof, der von Derwischzellen, einer Semahane (Tanzhalle) und einem Mausoleum umgeben ist, in dem bedeutende Sufi-Heilige bestattet sind. Heute ist die aufwendig restaurierte Anlage ein geschütztes Kulturerbe, das Besucher durch seine friedliche Atmosphäre anzieht."
-  },
-  "activities": {
-    "tr": [
-      "Tarihi Mevlevihane mimarisini ve derviş odalarını inceleme",
-      "Türbe bölümünü ziyaret ederek manevi atmosferi deneyimleme",
-      "Tekke bahçesinde dinlenme ve fotoğraf çekimi"
-    ],
-    "en": [
-      "Examine the historic Mevlevihane architecture and dervish cells",
-      "Visit the mausoleum and experience the spiritual atmosphere",
-      "Relax in the courtyard garden and take photos"
-    ],
-    "de": [
-      "Die historische Mevlevi-Architektur und die Derwischzellen besichtigen",
-      "Das Mausoleum besuchen und die spirituelle Atmosphäre erleben",
-      "Im Innenhofgarten entspannen und Fotos machen"
+  {
+    "slug": "seyh-efendi-tekkesi",
+    "name": {
+      "tr": "Şeyh Efendi Tekkesi (Kilis Mevlevihanesi)",
+      "en": "Sheik Efendi Tekkesi (Kilis Mevlevihane)",
+      "de": "Scheich-Efendi-Tekke (Mevlevi-Kloster Kilis)"
+    },
+    "latitude": 36.712222,
+    "longitude": 37.118889,
+    "description": {
+      "tr": "Şeyh Efendi Tekkesi, diğer adıyla Kilis Mevlevihanesi, şehir merkezinde yer alan ve kentin tasavvufi ve kültürel mirasını simgeleyen en anıtsal dini yapılardan biridir. Onaltıncı yüzyılda Osmanlı Döneminde, bölgedeki Mevlevi geleneğini yaymak ve sosyal dayanışmayı sağlamak amacıyla inşa edilen bu yapı, Güneydoğu Anadolunun en önemli Mevlevi külliyelerinden biri olarak kabul edilir. Külliye; geniş bir avlu, semahane, derviş hücreleri, türbe, mutfak ve çeşme bölümlerinden meydana gelen zengin bir mimari kompozisyona sahiptir. Yapının inşasında Kilisin geleneksel ince kesme taş işçiliği kullanılmış, pencere söveleri ve kapı kemerlerinde dönemin estetik anlayışını yansıtan geometrik süslemelere yer verilmiştir. Semahane bölümü ahşap kubbesi ve akustik yapısıyla dikkat çekerken, derviş hücreleri sade ve inzivaya uygun şekilde tasarlanmıştır. Türbe kısmında ise bölgede yetişmiş önemli Mevlevi şeyhlerinin ve mutasavvıfların kabirleri bulunmaktadır. Yüzyıllar boyunca sadece dini bir eğitim merkezi olarak değil, aynı zamanda ihtiyaç sahiplerine yemek dağıtılan, musiki ve edebiyat derslerinin verildiği bir kültür odağı olarak hizmet vermiştir. Cumhuriyet döneminde farklı amaçlarla kullanılan külliye, Vakıflar Genel Müdürlüğü tarafından yürütülen aslına uygun restorasyon projeleri ile özgün kimliğine kavuşturulmuştur. Günümüzde huzurlu atmosferi, tarihi iç mekanları ve mistik dokusuyla hem inanç turizmi hem de kültür meraklıları için kentteki en önemli uğrak noktalarından biri olmayı sürdürmektedir. Yapının mimari detayları ve sakin bahçesi, ziyaretçilere Osmanlı tasavvuf dünyasının zarafetini hissettirmektedir. Şehrin merkezinde manevi bir vaha niteliğinde olan tekke, tarihi geçmişiyle kentin kültürel belleğini yaşatmaktadır.",
+      "en": "The Sheik Efendi Tekkesi, also historically recognized as the Kilis Mevlevihane, is one of the most monumental religious complexes located in the city center, symbolizing the spiritual and cultural heritage of Kilis. Constructed in the sixteenth century during the Ottoman era to foster Sufi traditions and community solidarity, this complex stands as one of the most significant Mevlevi institutions in Southeastern Anatolia. The architecture encompasses a broad central courtyard surrounded by a semahane or whirling hall, individual dervish cells, a mausoleum, a communal kitchen, and historic fountains. Built with fine local ashlar masonry, the structure displays elegant geometric stone carvings along its window frames and arched portals. The semahane is notable for its acoustic wooden ceiling and spacious layout, whereas the dervish cells were built with minimalist features suitable for contemplation and retreat. Inside the mausoleum section, tombs of influential Mevlevi scholars and Sufi masters are preserved. For centuries, the lodge operated not only as a spiritual sanctuary, but also as a vibrant cultural center where classical music, literature, and charitable food distribution took place. After being used for various public purposes in the twentieth century, the complex underwent extensive restoration by the Directorate General of Foundations to reclaim its original architectural integrity. Today, with its tranquil courtyard garden and rich historical resonance, it remains a vital site for spiritual tourism and cultural exploration. The intricate masonry work and quiet gardens offer visitors an authentic glimpse into the elegance of Ottoman spiritual life. Serving as a peaceful haven in the town center, it safeguards local cultural memory.",
+      "de": "Scheich-Efendi-Tekke (Mevlevi-Kloster Kilis)"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi Mevlevihane mimarisini ve derviş odalarını inceleme",
+        "Türbe bölümünü ziyaret ederek manevi atmosferi deneyimleme",
+        "Tekke bahçesinde dinlenme ve fotoğraf çekimi"
+      ],
+      "en": [
+        "Examine the historic Mevlevihane architecture and dervish cells",
+        "Visit the mausoleum and experience the spiritual atmosphere",
+        "Relax in the courtyard garden and take photos"
+      ],
+      "de": [
+        "Die historische Mevlevi-Architektur und die Derwischzellen besichtigen",
+        "Das Mausoleum besuchen und die spirituelle Atmosphäre erleben",
+        "Im Innenhofgarten entspannen und Fotos machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi yapı",
+        "dini mekan",
+        "kültürel miras"
+      ],
+      "en": [
+        "historical site",
+        "religious site",
+        "cultural heritage"
+      ],
+      "de": [
+        "historische stätte",
+        "religiöse stätte",
+        "kulturerbe"
+      ]
+    },
+    "images": [
+      "https://example.com/kilis_mevlevihanesi.jpg"
     ]
   },
-  "categories": {
-    "tr": ["tarihi yapı", "dini mekan", "kültürel miras"],
-    "en": ["historical site", "religious site", "cultural heritage"],
-    "de": ["historische stätte", "religiöse stätte", "kulturerbe"]
-  },
-  "images": [
-    "https://example.com/kilis_mevlevihanesi.jpg"
-  ]
-},
-{
-  "slug": "kilis-ulu-camii",
-  "name": {
-    "tr": "Kilis Ulu Camii",
-    "en": "Kilis Grand Mosque",
-    "de": "Große Moschee von Kilis"
-  },
-  "latitude": 36.715278,
-  "longitude": 37.113611,
-  "description": {
-    "tr": "Kilis Ulu Camii (Cami-i Kebir), kent merkezinde yer alan ve Kilis'in günümüze ulaşmış en eski, en büyük dini yapısıdır. İlk inşasının Memlükler döneminde, 14. yüzyılda yapıldığı tahmin edilen cami, 1388 yılında yenilenmiş ve Osmanlı döneminde de büyük onarımlardan geçerek genişletilmiştir. Dikdörtgen planlı, kesme taş işçiliğiyle inşa edilmiş olan yapı, özellikle büyük kubbesi ve zengin taş süslemeli mihrabıyla dikkat çeker. Caminin bitişiğinde yer alan ve kentin siluetini oluşturan heybetli minaresi, Memlük ve Erken Osmanlı mimarisinin geçiş özelliklerini taşır. Yüzyıllardır kentin kalbi konumundaki bu cami, günümüzde de aktif bir ibadethane ve tarihi simgedir.",
-    "en": "The Kilis Grand Mosque (Ulu Camii), also known as Cami-i Kebir, is the oldest and largest surviving religious monument in the city center of Kilis. Believed to have been originally founded during the Mamluk period in the 14th century, the mosque was reconstructed in 1388 and later expanded with major renovations during the Ottoman era. Built with local ashlar masonry on a rectangular layout, it features a prominent dome and an intricately carved stone mihrab. Its majestic minaret showcases transition styles between Mamluk and early Ottoman arts. Remaining the beating heart of the city for centuries, it is an active place of worship and a central historic landmark.",
-    "de": "Die Große Moschee von Kilis (Ulu Camii) ist das älteste und größte erhaltene religiöse Denkmal im Stadtzentrum von Kilis. Es wird angenommen, dass sie ursprünglich im 14. Jahrhundert während der Mamluken-Zeit gegründet, 1388 umgebaut und später in der osmanischen Ära umfassend erweitert wurde. Die aus lokalem Quaderstein errichtete Moschee besticht durch eine markante Kuppel und eine kunstvoll geschnitzte Stein-Mihrab. Ihr majestätisches Minarett zeigt den Übergangsstil zwischen Mamluken- und früher osmanischer Kunst. Seit Jahrhunderten das Herz der Stadt, ist sie bis heute ein aktives Gotteshaus."
-  },
-  "activities": {
-    "tr": [
-      "Kentin en eski camisinin mimarisini ve taş oymacılığını inceleme",
-      "Tarihi Memlük dönemi minaresini fotoğraflama",
-      "Merkezi konumdaki tarihi çarşı ile birlikte ziyaret etme"
-    ],
-    "en": [
-      "Appreciate the architecture and stone carvings of the city's oldest mosque",
-      "Photograph the historic Mamluk-era minaret",
-      "Visit alongside the centrally located historical bazaars"
-    ],
-    "de": [
-      "Die Architektur und Steinmetzkunst der ältesten Moschee der Stadt bewundern",
-      "Das historische Minarett aus der Mamluken-Zeit fotografieren",
-      "Zusammen mit den zentral gelegenen historischen Basaren besichtigen"
+  {
+    "slug": "kilis-ulu-camii",
+    "name": {
+      "tr": "Kilis Ulu Camii",
+      "en": "Kilis Grand Mosque",
+      "de": "Große Moschee von Kilis"
+    },
+    "latitude": 36.715278,
+    "longitude": 37.113611,
+    "description": {
+      "tr": "Kilis Ulu Camii veya bilinen diğer adıyla Cami-i Kebir, Kilis şehir merkezinde ticaretin ve sosyal yaşamın kalbinde yer alan, kentin ayakta kalan en eski ve en büyük ibadethanesidir. Orijinal inşasının Onüçüncü veya Ondördüncü yüzyılda Memlükler döneminde gerçekleştirildiği kabul edilen cami, 1388 yılında geniş çaplı bir yenilemeden geçmiş, ardından Osmanlı imparatorluğu idaresinde yapılan eklemeler ve restorasyonlarla günümüzdeki görkemli formunu kazanmıştır. Enlemesine gelişen rectangular plan şemasına sahip olan yapı, Güneydoğu Anadolu cami mimarisinin tipik özelliklerini bünyesinde barındırır. Düzgün kesme taş malzemeyle inşa edilmiş olan caminin harim kısmı, payeler üzerine oturan sağlam kemerler ve üzerini örten merkezi kubbe yapısı ile oldukça ferah bir iç mekan sunar. Mihrabında yer alan renkli taş işçiliği ve mukarnaslı taş oymaları, Memlük taş sanatının üstün zarafetini sergilemektedir. Caminin kuzeybatı köşesinde yükselen heybetli minaresi, silindirik gövdesi, şerefe altı taş süslemeleri ve özgün kule formu ile Memlük mimarisinden Osmanlı mimarisine geçişin bölgedeki en belirgin sembollerinden biridir. Caminin etrafını çevreleyen geniş avluda tarihi şadırvan bulunmakta olup, yapı çevresindeki tarihi çarşılar ve bedestenler ile bütüncül bir külliye dokusu oluşturmaktadır. Yüzyıllardır kentin ana ibadet merkezi olma vasfını koruyan Ulu Cami, tarih meraklıları ve mimari tutkunları için benzersiz bir şaheserdir. Tarihi atmosferi, taş oymacılığındaki ustalık ve cemaat yaşamındaki merkezi rolüyle kentin kimliğini oluşturan en temel yapı taşı konumundadır. Ziyaretçiler cami içerisinde Orta Çağ İslam mimarisinin estetik anlayışını yakından inceleme imkanı bulurlar.",
+      "en": "The Kilis Grand Mosque, locally referred to as Cami-i Kebir, is situated at the historic core of Kilis city center and stands as the oldest and largest surviving place of worship in the region. Originally constructed during the Mamluk era in the thirteenth or fourteenth century, the mosque underwent a major reconstruction in 1388 and was subsequently expanded through major Ottoman renovations to reach its present grand layout. Featuring a transversely oriented rectangular plan, the building embodies the traditional mosque architecture of Southeastern Anatolia. Built using high-quality local ashlar masonry, the main prayer hall offers a spacious interior characterized by heavy support piers, sweeping stone arches, and a central dome. The mihrab features polychrome stone craftsmanship and intricate stalactite carvings that highlight the refined elegance of Mamluk stonemasonry. Rising at the northwestern corner of the complex, the imposing minaret, with its cylindrical shaft, detailed balcony corbels, and distinctive cap, serves as one of the finest regional examples illustrating the architectural transition from Mamluk to Early Ottoman styles. A historical ablution fountain adorns the wide outer courtyard, which seamlessly integrates with the surrounding historic bazaars to form a traditional urban hub. Continuing its role as the primary spiritual center of the city for centuries, the Grand Mosque remains an architectural landmark. Its historic atmosphere, masterful stonemasonry, and central position in community life make it a core pillar of local identity. Visitors can admire the refined artistic sense of medieval Islamic architecture throughout the hall.",
+      "de": "Große Moschee von Kilis"
+    },
+    "activities": {
+      "tr": [
+        "Kentin en eski camisinin mimarisini ve taş oymacılığını inceleme",
+        "Tarihi Memlük dönemi minaresini fotoğraflama",
+        "Merkezi konumdaki tarihi çarşı ile birlikte ziyaret etme"
+      ],
+      "en": [
+        "Appreciate the architecture and stone carvings of the city's oldest mosque",
+        "Photograph the historic Mamluk-era minaret",
+        "Visit alongside the centrally located historical bazaars"
+      ],
+      "de": [
+        "Die Architektur und Steinmetzkunst der ältesten Moschee der Stadt bewundern",
+        "Das historische Minarett aus der Mamluken-Zeit fotografieren",
+        "Zusammen mit den zentral gelegenen historischen Basaren besichtigen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "cami",
+        "tarihi yapı",
+        "dini mekan"
+      ],
+      "en": [
+        "mosque",
+        "historical site",
+        "religious site"
+      ],
+      "de": [
+        "moschee",
+        "historische stätte",
+        "religiöse stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/kilis_ulu_camii.jpg"
     ]
   },
-  "categories": {
-    "tr": ["cami", "tarihi yapı", "dini mekan"],
-    "en": ["mosque", "historical site", "religious site"],
-    "de": ["moschee", "historische stätte", "religiöse stätte"]
-  },
-  "images": [
-    "https://example.com/kilis_ulu_camii.jpg"
-  ]
-},
-{
-  "slug": "tarihi-kilis-sabunhanesi",
-  "name": {
-    "tr": "Tarihi Kilis Sabunhanesi",
-    "en": "Historic Kilis Soap Factory",
-    "de": "Historische Seifenkammer Kilis"
-  },
-  "latitude": 36.713889,
-  "longitude": 37.111667,
-  "description": {
-    "tr": "Tarihi Kilis Sabunhanesi, Kilis’in geleneksel zeytinyağı ve sabun üretimi tarihini somutlaştıran en önemli endüstriyel miras yapısıdır. 19. yüzyıl Osmanlı döneminde inşa edilen bu devasa taş bina, Kilis'in meşhur zeytinlerinden elde edilen zeytinyağlarının sabuna dönüştürüldüğü en büyük imalathanelerden biriydi. Yüksek tavanları, kemerli pencereleri ve geniş depolarıyla dönemin sanayi mimarisini harika bir şekilde yansıtır. Yakın dönemde yapılan kapsamlı bir restorasyon projesinin ardından yapı, müze, sergi salonu ve kültür merkezi olarak şehre kazandırılmıştır. İçerisinde geleneksel sabun yapım aletleri, zeytinyağı presleri ve Kilis kültürüne ait etnografik eserler sergilenmektedir.",
-    "en": "The Historic Kilis Soap Factory (Sabunhane) is the most significant industrial heritage building illustrating the city’s deep-rooted history of olive oil and soap production. Built in the 19th century during the late Ottoman period, this massive stone structure was one of the largest workshops where oil from Kilis's famous olive orchards was processed into traditional soaps. It reflects late Ottoman industrial architecture with its high ceilings, arched windows, and vast storage vaults. Following a comprehensive restoration, the facility now serves as a museum and cultural center, displaying traditional soap-making tools, olive presses, and regional ethnographic artifacts.",
-    "de": "Die historische Seifenkammer Kilis (Sabunhane) ist das bedeutendste industrielle Erbegebäude, das die tief verwurzelte Geschichte der Olivenöl- und Seifenproduktion der Stadt zeigt. Dieses im 19. Jahrhundert während der späten osmanischen Zeit errichtete massive Steingebäude war eine der größten Werkstätten, in denen das Öl aus den berühmten Olivenhainen von Kilis zu traditionellen Seifen verarbeitet wurde. Nach einer umfassenden Restaurierung dient die Anlage heute als Museum und Kulturzentrum, in dem traditionelle Werkzeuge zur Seifenherstellung, Olivenpressen und regionale ethnografische Artefakte ausgestellt sind."
-  },
-  "activities": {
-    "tr": [
-      "Geleneksel zeytinyağı preslerini ve sabun kalıplarını görme",
-      "Osmanlı endüstriyel taş mimarisini inceleme",
-      "Müze bünyesindeki kültürel etkinliklere ve sergilere katılma"
-    ],
-    "en": [
-      "See traditional olive oil presses and historic soap molds",
-      "Examine the Ottoman industrial stone architecture",
-      "Attend cultural events and exhibitions held inside the museum"
-    ],
-    "de": [
-      "Traditionelle Olivenölpressen und historische Seifenformen besichtigen",
-      "Die osmanische industrielle Steinarchitektur bewundern",
-      "An kulturellen Veranstaltungen und Ausstellungen im Museum teilnehmen"
+  {
+    "slug": "tarihi-kilis-sabunhanesi",
+    "name": {
+      "tr": "Tarihi Kilis Sabunhanesi",
+      "en": "Historic Kilis Soap Factory",
+      "de": "Historische Seifenkammer Kilis"
+    },
+    "latitude": 36.713889,
+    "longitude": 37.111667,
+    "description": {
+      "tr": "Tarihi Kilis Sabunhanesi, kentin yüzyıllara dayanan zeytincilik ve sabun imalatı kültürünü gözler önüne seren, Güneydoğu Anadolunun en dikkat çekici endüstriyel miras yapılardan biridir. Ondokuzuncu yüzyılda Geç Osmanlı Döneminde inşa edilen bu devasa imalathane kompleksi, Kilisin bereketli topraklarında yetişen yüksek kaliteli zeytinlerden elde edilen yağların geleneksel yöntemlerle sabuna dönüştürüldüğü ana üretim tesisi olarak hizmet vermiştir. Yapı, dönemin endüstriyel mimarlık özelliklerini yansıtan devasa taş kemerleri, yüksek tavanlı üretim salonları, havalandırma bacaları ve geniş depolama mahzenleri ile son derece görkemli bir görünüme sahiptir. İmalathanede zeytinyağının pişirildiği dev pirinç kazanlar, sabun hamurunun dökülüp kurutulduğu geniş zemin alanları ve paketleme bölümleri yer almaktaydı. Üretilen Kilis sabunları, Osmanlı döneminde tüm Ortadoğu ve Akdeniz pazarlarına ihraç edilerek kentin ekonomisinde hayati bir rol oynamıştır. Zamanla endüstrileşme karşısında işlevini yitiren bina, Kilis Valiliği ve İpek Yolu Kalkınma Ajansı işbirliğiyle gerçekleştirilen mimari restorasyon projesi sayesinde yıkılmaktan kurtarılmış ve çağdaş bir müze ile kültür merkezine dönüştürülmüştür. Günümüzde müze içerisinde geleneksel sabun yapımında kullanılan tarihi araç gereçler, devasa zeytin presleri, sabun mühürleri ve Kilis etnografyasına ait koleksiyonlar sergilenmektedir. Hem endüstriyel mimarisi hem de zengin müze içeriğiyle yerli ve yabancı ziyaretçiler için benzersiz bir keşif alanıdır. Yapı, bölgenin tımarlı ziraat ve erken sanayileşme tarihine ışık tutarak ziyaretçileri tarihsel bir yolculuğa çıkarır. Restorasyonun başarısı, kentin kültürel mirasını koruma bilincinin en güzel tezahürlerinden biri olarak öne çıkmaktadır.",
+      "en": "The Historic Kilis Soap Factory stands as one of the most remarkable industrial heritage monuments in Southeastern Anatolia, reflecting the centuries-old regional tradition of olive cultivation and soap manufacturing. Constructed during the late Ottoman period in the nineteenth century, this massive workshop complex functioned as the primary processing center where oil extracted from the fertile olive groves of Kilis was converted into soap using traditional methods. The building displays late Ottoman industrial architecture, featuring massive stone vaults, high-ceilinged production halls, ventilation chimneys, and expansive underground storage vaults. The original operational layout included large brass cauldrons where olive oil was boiled, vast floor drying zones where liquid soap paste was poured and sliced, and dedicated packaging chambers. The traditional olive oil soaps produced here were exported across Ottoman markets in the Middle East and the Mediterranean, serving as a cornerstone of the regional economy. Although the facility eventually fell dormant due to modern industrialization, a comprehensive restoration campaign preserved the structural heritage and converted the site into a modern museum and cultural center. Today, the museum exhibits historic olive presses, authentic soap molds and stamps, traditional processing tools, and ethnographic artifacts detailing local heritage. Its industrial stone architecture combined with curated historical exhibits offers an exceptional cultural experience for visitors. Shedding light on regional agriculture and early industrialization, the monument guides visitors through a historic journey. Its successful conversion stands as a prime example of heritage preservation in the region.",
+      "de": "Historische Seifenkammer Kilis"
+    },
+    "activities": {
+      "tr": [
+        "Geleneksel zeytinyağı preslerini ve sabun kalıplarını görme",
+        "Osmanlı endüstriyel taş mimarisini inceleme",
+        "Müze bünyesindeki kültürel etkinliklere ve sergilere katılma"
+      ],
+      "en": [
+        "See traditional olive oil presses and historic soap molds",
+        "Examine the Ottoman industrial stone architecture",
+        "Attend cultural events and exhibitions held inside the museum"
+      ],
+      "de": [
+        "Traditionelle Olivenölpressen und historische Seifenformen besichtigen",
+        "Die osmanische industrielle Steinarchitektur bewundern",
+        "An kulturellen Veranstaltungen und Ausstellungen im Museum teilnehmen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi yapı",
+        "müze",
+        "endüstriyel miras"
+      ],
+      "en": [
+        "historical site",
+        "museum",
+        "industrial heritage"
+      ],
+      "de": [
+        "historische stätte",
+        "museum",
+        "industriekulturerbe"
+      ]
+    },
+    "images": [
+      "https://example.com/kilis_sabunhanesi.jpg"
     ]
-  },
-  "categories": {
-    "tr": ["tarihi yapı", "müze", "endüstriyel miras"],
-    "en": ["historical site", "museum", "industrial heritage"],
-    "de": ["historische stätte", "museum", "industriekulturerbe"]
-  },
-  "images": [
-    "https://example.com/kilis_sabunhanesi.jpg"
-  ]
-}
+  }
 ]

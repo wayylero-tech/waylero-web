@@ -1,208 +1,207 @@
-
 [
-{
-  "slug": "nuh-nebi-camii-ve-turbesi-sirnak",
-  "name": {
-    "tr": "Nuh Peygamber Camii ve Türbesi",
-    "en": "Tomb and Mosque of Prophet Noah",
-    "de": "Prophet-Noah-Moschee und Grabstätte"
-  },
-  "latitude": 37.3275,
-  "longitude": 42.1894,
-  "description": {
-    "tr": "Şırnak'ın Cizre ilçesinde yer alan Nuh Peygamber Türbesi, insanlık tarihinin en eski mezar yapılarından biri olarak kabul edilir. Büyük Tufan'dan sonra Nuh'un Gemisi'nin Cudi Dağı'na oturmasıyla, Hz. Nuh'un Cizre'ye yerleştiğine ve öldüğünde buraya gömüldüğüne inanılır. İlk olarak tek tanrılı dinler öncesinde bir tapınak olan yapı, daha sonra kiliseye ve nihayetinde 639 yılında İslamiyet'in bölgeye gelişiyle camiye dönüştürülmüştür. Dünyanın en eski ibadethanelerinden biri kabul edilen bu kutsal mekanda, bodrum katında Hz. Nuh'a ait olduğu kabul edilen ve uzunluğu yaklaşık 9 metreyi bulan anıtsal bir sanduka-mezar yer alır. Şırnak'ın manevi ve tarihi kimliğinin en büyük sembolüdür.",
-    "en": "Located in the Cizre district of Sirnak, the Tomb of Prophet Noah is considered one of the oldest burial sites in human history. Following the Great Flood, it is believed that Noah's Ark rested on Mount Judi, and Noah settled in Cizre, where he was eventually buried. Originally an ancient temple, it was later converted into a church, and finally into a mosque in 639 AD. The lower level of this sacred sanctuary houses an active shrine with a 9-meter-long monumental tomb attributed to Noah, making it a cornerstone of historical and religious tourism in Southeastern Anatolia.",
-    "de": "Das im Bezirk Cizre gelegene Grab des Propheten Noah gilt als eine der ältesten Grabstätten der Menschheit. Es wird angenommen, dass Noah sich nach der großen Sintflut hier niederließ. Die Krypta der Moschee beherbergt einen 9 Meter langen monumentalen Sarkophag."
-  },
-  "activities": {
-    "tr": [
-      "İnanç ve kültür turizmi",
-      "Tarihi türbe ziyareti",
-      "Fotoğrafçılık"
-    ],
-    "en": [
-      "Faith and cultural tourism",
-      "Historical shrine visit",
-      "Photography"
-    ],
-    "de": [
-      "Religiöser und kultureller Tourismus",
-      "Historischer Grabstättenbesuch",
-      "Fotografie"
+  {
+    "slug": "nuh-nebi-camii-ve-turbesi-sirnak",
+    "name": {
+      "tr": "Nuh Peygamber Camii ve Türbesi",
+      "en": "Tomb and Mosque of Prophet Noah",
+      "de": "Prophet-Noah-Moschee und Grabstätte"
+    },
+    "latitude": 37.3275,
+    "longitude": 42.1894,
+    "description": {
+      "tr": "Nuh Peygamber Camii ve Türbesi, Şırnak ilinin Cizre ilçe merkezinde, Dağ Kapı Mahallesi sınırları içerisinde yer alan, insanlık tarihi ve kutsal metinler açısından dünya üzerindeki en eski makamlardan biri kabul edilen anıtsal bir ibadet kompleksidir. Semavi dinlerin ortak anlatılarına göre Büyük Tufan sonrasında Hz. Nuh'un gemisinin Cudi Dağı zirvesine oturmasının ardından, insanlığın ikinci atası olarak kabul edilen Hz. Nuh ve beraberindekilerin dağdan inerek Cizre bölgesine yerleştikleri ve hayatlarının sonuna kadar burada yaşadıkları kabul edilir. Tarihsel süreç içerisinde ilk olarak tek tanrılı dinler öncesi çağlarda bir tapınak alanı olarak kullanılan yapı, Erken Hristiyanlık döneminde kiliseye çevrilmiş, ardından 639 yılında İslam ordularının bölgeyi fethi ile birlikte camiye dönüştürülmüştür. Yapının bodrum katında yer alan türbe bölümünde, Hz. Nuh'a ait olduğu kabul edilen ve yaklaşık dokuz metre uzunluğundaki anıtsal sanduka yer almaktadır. Sandukanın devasa boyutları, antik dönemlerden günümüze ulaşan manevi bir gelenek ve saygı göstergesi olarak değerlendirilmektedir. Caminin mimari dokusunda bölgenin karakteristik siyah bazalt taşları ve sarı kesme taş işçiliği bir arada kullanılmıştır. İki katlı plan şemasına sahip olan yapının alt katında türbe ve mahzen alanları bulunurken, üst kat aktif ibadethane olarak hizmet vermektedir. Yüzyıllardır Orta Doğu ve Mezopotamya coğrafyasından binlerce inanç turisti tarafından ziyaret edilen mekan, Cizrenin manevi merkezini oluşturur. Tarihi boyunca geçirdiği onarımlarla özgün yapısını koruyan bu alan, Şırnak kent kimliğinin ve inanç turizminin en köklü simgesidir.",
+      "en": "The Tomb and Mosque of Prophet Noah is a monumental religious complex located within the Dag Kapi neighborhood of the Cizre district center in Sirnak, universally recognized as one of the oldest sacred burial sites in human history. According to shared Abrahamic traditions, following the Great Flood, Noah's Ark came to rest upon the summit of Mount Judi, whereupon Prophet Noah and his followers descended to settle in the fertile plains of Cizre, residing here for the remainder of their lives. Historically originating as an ancient pagan temple in the pre-monotheistic era, the structure was converted into a Christian church during the Early Christian period, before being transformed into a mosque following the Islamic conquest of the region in 639 AD. Within the subterranean crypt of the complex lies a monumental tomb attributed to Prophet Noah, featuring a sarcophagus measuring approximately nine meters in length. The massive scale of this sarcophagus reflects an ancient spiritual tradition symbolizing deep reverence for legendary figures. Architecturally, the complex combines local black basalt masonry with refined yellow ashlar stone craftsmanship typical of Upper Mesopotamia. Featuring a two-story layout, the lower level houses the ancient burial vault and subterranean chambers, while the upper level functions as an active congregational mosque. Drawing thousands of pilgrims and cultural travelers across the Middle East for centuries, the sanctuary serves as the spiritual heart of Cizre and stands as an enduring symbol of regional religious history.",
+      "de": "Prophet-Noah-Moschee und Grabstätte"
+    },
+    "activities": {
+      "tr": [
+        "İnanç ve kültür turizmi",
+        "Tarihi türbe ziyareti",
+        "Fotoğrafçılık"
+      ],
+      "en": [
+        "Faith and cultural tourism",
+        "Historical shrine visit",
+        "Photography"
+      ],
+      "de": [
+        "Religiöser und kultureller Tourismus",
+        "Historischer Grabstättenbesuch",
+        "Fotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "turbe",
+        "ibadethane"
+      ],
+      "en": [
+        "historical-site",
+        "mausoleum",
+        "place-of-worship"
+      ],
+      "de": [
+        "historische-staette",
+        "mausoleum",
+        "gotteshaus"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Noah_Tomb_Cizre_Sirnak.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "turbe",
-      "ibadethane"
-    ],
-    "en": [
-      "historical-site",
-      "mausoleum",
-      "place-of-worship"
-    ],
-    "de": [
-      "historische-staette",
-      "mausoleum",
-      "gotteshaus"
+  {
+    "slug": "kirmizi-medrese-sirnak",
+    "name": {
+      "tr": "Kırmızı Medrese (Medreseya Sor)",
+      "en": "Red Madrasa (Kırmızı Medrese)",
+      "de": "Rote Medrese"
+    },
+    "latitude": 37.3236,
+    "longitude": 42.1931,
+    "description": {
+      "tr": "Kırmızı Medrese veya yerel adıyla Medreseya Sor, Şırnak ilinin Cizre ilçe merkezinde, Dağ Kapı Mahallesi sınırları içindeki tarihi kent surlarının güneybatı burçları üzerinde yükselen, Orta Çağ İslam mimarisinin ve eğitim tarihinin Doğu Anadoludaki en nadide örneklerinden biridir. Ondördüncü yüzyılda Cizre Azizan Beyliği döneminde Hükümdar Han Şeref tarafından yaptırılan bu anıtsal eğitim kurumu, adını inşasında kullanılan ve bölge toprağından özel olarak imal edilen kırmızı renkli pişmiş tuğlalardan almıştır. İki katlı, açık avlulu ve revaklı bir plan şemasına sahip olan yapı, Mezopotamya ve Selçuklu mimari geleneklerinin mükemmel bir sentezini sunar. Medresenin merkezinde yer alan dikdörtgen avlu, çevresini saran kemerli revaklar, müderris odaları, talebe hücreleri, geniş bir dershane, kütüphane ve mescit bölümlerinden oluşmaktadır. Yapının taş ve tuğla işçiliğindeki hassasiyet, iç mekandaki akustik düzenlemeler ve süsleme detayları dönemin yüksek mimari seviyesini gözler önüne serer. Kırmızı Medrese, aynı zamanda Klasik Kürt edebiyatının kurucularından, ünlü filozof, şair ve mutasavvıf Melaye Ciziri'nin (Molla Ceziri) uzun yıllar ders verdiği, eserlerini kaleme aldığı ve vefat ettiğinde avlusuna defnedildiği mekandır. Türbesi medrese kompleksi içerisinde yer alan Melaye Ciziri, yapıyı edebi ve felsefi açıdan bölgesel bir ilim merkezine dönüştürmüştür. Yüzyıllar boyunca bünyesinde dini bilimlerin yanı sıra mantık, astronomi, tıp ve edebiyat eğitimlerinin verildiği bu yapı, günümüzde titizlikle korunan tarihi ve mimari dokusuyla Şırnak'ın en değerli kültür mirası eseridir.",
+      "en": "The Red Madrasa, locally known as Medreseya Sor, is an outstanding masterpiece of medieval Islamic architecture and educational heritage located atop the southwestern bastion of the ancient city walls in Cizre, Sirnak. Commissioned in the fourteenth century during the reign of Prince Han Seref of the Azizan Principality, this monumental academy derives its name from the distinctive red-fired bricks specially crafted from local clay used throughout its construction. Designed around a two-story open courtyard layout flanked by vaulted arcades, the complex seamlessly blends Mesopotamian masonry with Seljuk architectural traditions. The central rectangular courtyard is enveloped by arched porticos, faculty quarters, student cells, a grand lecture hall, a library, and a prayer space. The extraordinary precision of its brickwork, acoustic engineering in the classrooms, and refined decorative reliefs reflect the advanced structural technology of the period. Furthermore, the Red Madrasa is historically renowned as the residence and sanctuary of Melaye Ciziri (Molla Ceziri), the celebrated sixteenth-century Sufi poet, philosopher, and luminary of classical literature. Ciziri taught at this academy for decades, composed his celebrated divan here, and was laid to rest within a mausoleum located inside the courtyard complex. Functioning for centuries as a premier institution where theology, logic, astronomy, medicine, and literature were taught, the restored complex stands today as a crown jewel of regional cultural tourism.",
+      "de": "Rote Medrese"
+    },
+    "activities": {
+      "tr": [
+        "Tarihi medrese gezisi",
+        "Edebiyat ve kültür turu",
+        "Mimari fotoğrafçılık"
+      ],
+      "en": [
+        "Historical madrasa tour",
+        "Literature and culture tour",
+        "Architectural photography"
+      ],
+      "de": [
+        "Historische Medrese-Tour",
+        "Literatur- und Kulturtour",
+        "Architekturfotografie"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "medrese",
+        "kultur"
+      ],
+      "en": [
+        "historical-site",
+        "madrasa",
+        "culture"
+      ],
+      "de": [
+        "historische-staette",
+        "madrasa",
+        "kultur"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Red_Madrasa_Cizre_Sirnak.jpg"
     ]
   },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/e2/Noah_Tomb_Cizre_Sirnak.jpg"
-  ]
-},
-{
-  "slug": "kirmizi-medrese-sirnak",
-  "name": {
-    "tr": "Kırmızı Medrese (Medreseya Sor)",
-    "en": "Red Madrasa (Kırmızı Medrese)",
-    "de": "Rote Medrese"
-  },
-  "latitude": 37.3236,
-  "longitude": 42.1931,
-  "description": {
-    "tr": "Cizre'nin güneybatısındaki tarihi surlar üzerinde yükselen Kırmızı Medrese, 14. yüzyılda Cizre Azizan Beyliği döneminde Han Şeref tarafından inşa ettirilmiş muazzam bir İslam bilimi ve kültür merkezidir. Yapımında kullanılan ve bölgeye özgü olan kırmızı renkli tuğlalardan dolayı halk arasında 'Kırmızı Medrese' (Medreseya Sor) olarak adlandırılmıştır. İç avlulu, iki katlı revaklı mimarisiyle Doğu Anadolu medrese tarzının en asil örneklerinden biridir. Medresenin içinde, ünlü Kürt şair, filozof ve mutasavvıf Melaye Ciziri'nin (Molla Ceziri) türbesi ve ders verdiği odalar da yer alır. Döneminin üniversitesi sayılan bu yapı, hem mimari taş işçiliği hem de taşıdığı edebi mirasla Şırnak'ın en nadide kültürel yapılarından biridir.",
-    "en": "Built in the early 14th century during the Azizan Principality by Han Seref, the Red Madrasa is a spectacular complex of Islamic education and culture perched on the historic fortress walls of Cizre. It owes its name to the unique local red-fired bricks used in its construction. Featuring an open courtyard layout with beautiful stone craftsmanship, it serves as an excellent example of medieval regional architecture. The madrasa also contains the tomb of the famous 16th-century Sufi poet and philosopher Melaye Ciziri, standing as a primary center of literary and educational heritage in the region.",
-    "de": "Eine islamische Hochschule aus dem 14. Jahrhundert, erbaut aus charakteristischen roten Ziegeln. Sie gilt als architektonisches Meisterwerk und beherbergt das Grab des berühmten Sufi-Dichters Melaye Ciziri."
-  },
-  "activities": {
-    "tr": [
-      "Tarihi medrese gezisi",
-      "Edebiyat ve kültür turu",
-      "Mimari fotoğrafçılık"
-    ],
-    "en": [
-      "Historical madrasa tour",
-      "Literature and culture tour",
-      "Architectural photography"
-    ],
-    "de": [
-      "Historische Medrese-Tour",
-      "Literatur- und Kulturtour",
-      "Architekturfotografie"
+  {
+    "slug": "cizre-kalesi-ve-mem-u-zin-turbesi",
+    "name": {
+      "tr": "Cizre Kalesi ve Mem-u Zin Türbesi",
+      "en": "Cizre Castle and Mem and Zin Tomb",
+      "de": "Burg von Cizre und Mem-u-Zin-Grab"
+    },
+    "latitude": 37.3292,
+    "longitude": 42.1906,
+    "description": {
+      "tr": "Cizre Kalesi ve Mem-u Zin Türbesi, Şırnak ilinin Cizre ilçesinde, Dicle Nehrinin hemen doğu kıyısında stratejik bir tepe üzerinde konumlanan, köklü tarihi savunma mimarisi ile efsanevi edebi mirası bünyesinde birleştiren en önemli kültür alanıdır. Cizre Kalesinin ilk yapım evresi MÖ ikinci binyılda Asurlular dönemine kadar uzanmakta olup; Medler, Persler, Roma, Bizans, Abbasiler, Selçuklular, Cizre Beyliği ve Osmanlı dönemlerinde yapılan ekleme ve onarımlarla çok katmanlı bir tahkimat haline gelmiştir. Siyah bazalt taşlarından inşa edilen heybetli surlar, nehir boyunca uzanarak kenti koruma görevini üstlenmiştir. Kale kompleksinin en anlamlı ve ziyaretçileri duygusal açıdan etkileyen bölümü ise alt komplekste yer alan Mem-u Zin Türbesidir. Onbeşinci yüzyılda Cizre Beyliğinde yaşanmış gerçek bir olaya dayanan ve ünlü edebiyatçı Ahmed-i Hani tarafından destanlaştırılan Mem ile Zin'in trajik aşkı, Doğu edebiyatının en büyük romantik klasiği kabul edilir. Aşkları saray entrikaları ve dedikodular nedeniyle engellenen, birbirlerine kavuşamadan hayatlarını kaybeden Mem ile Zin'in kabirleri yan yana yer almaktadır. Aynı türbe odasında, bu iki aşığın ayrılmasına sebep olan fitneci kapıcı Bekonun (Beko Ewan) mezarı da aşıkların ayak ucunda bulunmaktadır. Efsaneye göre Beko'nun mezarından çıkan bir sarmaşık, her yıl Mem ve Zin'in mezarları arasından büyüyerek iki aşığın ruhlarının kavuşmasını engellemektedir. Hem görkemli kale kalıntıları hem de Doğu coğrafyasının en ünlü trajik aşk anıtı olması sebebiyle alan, her yıl binlerce tarih ve edebiyat tutkununu ağırlamaktadır.",
+      "en": "Cizre Castle and the Tomb of Mem and Zin represent a profound cultural complex situated on a strategic bluff overlooking the eastern banks of the Tigris River in Cizre, Sirnak, combining ancient military fortification with epic romantic folklore. The historical foundations of Cizre Castle trace back to the second millennium BC under the Assyrians, evolving through successive reconstruction layers under the Medes, Romans, Byzantines, Abbasids, Seljuks, Azizan Principality, and Ottomans. Built primarily with local black basalt masonry, its formidable ramparts line the riverbanks to safeguard the ancient trade routes. Located within the lower perimeter of the castle grounds is the deeply moving Tomb of Mem and Zin. Based on historical events that occurred in Cizre during the fifteenth century and immortalized by the legendary poet Ahmedi Khani, the story of Mem and Zin is celebrated as the premier romantic tragedy of Eastern literature. Separated by palace intrigue, the tragic lovers passed away without reuniting in life and were buried side by side inside this mausoleum. Uniquely, the grave of Beko, the treacherous courtier responsible for their separation, lies directly at the foot of their tombs. According to local folklore, a thorned briar continuously sprouts from Beko's grave to keep the spirits of the lovers apart for eternity. Combining ancient Tigris defensive architecture with timeless literary romance, this monument attracts thousands of cultural travelers and historians each year.",
+      "de": "Burg von Cizre und Mem-u-Zin-Grab"
+    },
+    "activities": {
+      "tr": [
+        "Kültür ve edebiyat turu",
+        "Tarihi kale gezisi",
+        "Dicle nehri manzarası izleme"
+      ],
+      "en": [
+        "Culture and literature tour",
+        "Historical castle sightseeing",
+        "Tigris river view watching"
+      ],
+      "de": [
+        "Kultur- und Literaturtour",
+        "Historische Burgbesichtigung",
+        "Blick auf den Tigris genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "kale",
+        "turbe"
+      ],
+      "en": [
+        "historical-site",
+        "fortress",
+        "mausoleum"
+      ],
+      "de": [
+        "historische-staette",
+        "festung",
+        "mausoleum"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cizre_Castle_and_Walls.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "medrese",
-      "kultur"
-    ],
-    "en": [
-      "historical-site",
-      "madrasa",
-      "culture"
-    ],
-    "de": [
-      "historische-staette",
-      "madrasa",
-      "kultur"
+  {
+    "slug": "cezeri-muzesi-sirnak",
+    "name": {
+      "tr": "İsmail Ebul-İiz El-Cezeri Müzesi",
+      "en": "Ismail Al-Jazari Museum",
+      "de": "Ismail-Al-Dschazari-Museum"
+    },
+    "latitude": 37.3255,
+    "longitude": 42.1872,
+    "description": {
+      "tr": "İsmail Ebul-İiz El-Cezeri Müzesi, Şırnak ilinin Cizre ilçe merkezinde yer alan, Onikinci yüzyılda bu topraklarda yaşamış, sibernetik, robotik, otomasyon ve hidrolik biliminin dünyadaki kurucusu kabul edilen dahi bilim insanı El-Cezeri'nin bilimsel mirasını yaşatmak amacıyla kurulmuş tematik bir müzedir. Artuklu Sarayında otuz yılı aşkın süre başmühendis olarak görev yapan El-Cezeri; elektrik veya elektronik bileşenlerin bulunmadığı bir çağda, tamamen su gücü, hava basıncı, yerçekimi ve mekanik dişli sistemlerini kullanarak çalışan otomatlar, robotlar ve ölçüm cihazları tasarlamıştır. Müze bünyesinde, El-Cezeri'nin kaleme aldığı Olağanüstü Mekanik Araçların Bilgisi (Kitab-ül Hiyel) adlı dünyaca ünlü eserinde yer alan çizimlerden aslına uygun olarak imal edilen çalışan replikalar sergilenmektedir. Bu mekanik düzenekler arasında dünya saatçilik tarihinin başyapıtı sayılan görkemli Fil Saati, kendi kendine içecek ikram eden otomat şerbetçi kızlar, su seviyesini düzenleyen mekanik vanalar, şifreli kilitler, abdest alma otomatları ve hidrolik su terfi sistemleri yer almaktadır. Sergi alanları, ziyaretçilere modern bilgisayar teknolojisinin, otomasyon sistemlerinin ve robotik mühendisliğinin temellerinin yüzyıllar önce Mezopotamya topraklarında nasıl atıldığını somut örneklerle kanıtlamaktadır. Müze, İnteraktif düzenekleri, bilgilendirici panoları ve bilim tarihi arşivleri ile hem yetişkinler hem de öğrenciler için son derece eğitici bir deneyim sunmaktadır. Şırnak'ın bilimsel ve entelektüel geçmişini gururla temsil eden bu mekan, dünya bilim tarihine ilgi duyan tüm ziyaretçiler için vazgeçilmez bir duraktır.",
+      "en": "The Ismail Al-Jazari Museum is a specialized thematic museum located in the district center of Cizre, Sirnak, dedicated to honoring the scientific legacy of the twelfth-century polymath Ismail Al-Jazari, globally recognized as the founding father of robotics, cybernetics, and mechanical automation. Serving for over three decades as chief engineer at the Artuqid Palace in Cizre, Al-Jazari pioneered automated machines, humanoid mechanisms, and precise measuring devices operated entirely through water power, air pressure, gravity, and intricate gear trains without electricity. The museum features functioning, full-scale replicas meticulously reconstructed according to the original diagrams in his celebrated manuscript, The Book of Knowledge of Ingenious Mechanical Devices (Kitab al-Hiyal). Highlighted exhibits include the iconic Elephant Clock—a masterwork of ancient horology—alongside automated drinks servers, self-regulating hydraulic valves, combination locks, automated ablution basins, and water-raising machines. These interactive installations demonstrate to visitors how the fundamental principles of modern mechanical engineering, robotics, and cybernetics were established in Mesopotamia centuries ago. Featuring educational displays, historical archives, and working mechanical models, the museum provides an enriching experience for students, researchers, and international tourists. Standing as a monument to regional intellectual history, it celebrates one of the greatest scientific minds in human civilization.",
+      "de": "Ismail-Al-Dschazari-Museum"
+    },
+    "activities": {
+      "tr": [
+        "Bilim ve teknoloji tarihi gezisi",
+        "Müze ve robotik düzenek incelemesi"
+      ],
+      "en": [
+        "Science and technology history tour",
+        "Museum and robotics inspection"
+      ],
+      "de": [
+        "Wissenschafts- und Technikgeschichte-Tour",
+        "Museums- und Robotikbesichtigung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "muze",
+        "bilim",
+        "tarihi-yer"
+      ],
+      "en": [
+        "museum",
+        "science",
+        "historical-site"
+      ],
+      "de": [
+        "museum",
+        "wissenschaft",
+        "historische-staette"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/Al_Jazari_Museum_Cizre.jpg"
     ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Red_Madrasa_Cizre_Sirnak.jpg"
-  ]
-},
-{
-  "slug": "cizre-kalesi-ve-mem-u-zin-turbesi",
-  "name": {
-    "tr": "Cizre Kalesi ve Mem-u Zin Türbesi",
-    "en": "Cizre Castle and Mem and Zin Tomb",
-    "de": "Burg von Cizre und Mem-u-Zin-Grab"
-  },
-  "latitude": 37.3292,
-  "longitude": 42.1906,
-  "description": {
-    "tr": "Dicle Nehri'nin kıyısında yükselen tarihi Cizre Kalesi, kökenleri Asurlular ve Medler dönemine kadar uzanan, Roma, Bizans ve Osmanlılar tarafından sürekli onarılarak kullanılmış çok katmanlı bir savunma yapısıdır. Kalenin içinde yer alan en hüzünlü ve popüler nokta ise şüphesiz 'Mem-u Zin Türbesi'dir. Ünlü edebiyatçı Ahmed-i Hani tarafından kaleme alınan, 1450 yılında Cizre Beyliği'nde yaşanmış gerçek bir aşk hikayesine dayanan Mem ve Zin'in ilahi aşka dönüşen trajik öyküsü bu türbede son bulmuştur. Türbe içerisinde birbirine kavuşamayan aşıklar Mem ve Zin ile onların ölümüne sebep olan kapıcı Beko'nun mezarları yan yana yer alır. Bu yönüyle yapı, Doğu'nun 'Romeo ve Juliet' anıtı olarak kabul edilir.",
-    "en": "Perched on the banks of the Tigris River, the historic Cizre Castle dates back to the Assyrian and Median empires, showcasing layers of Roman, Byzantine, and Ottoman fortifications. Within the castle complex lies the deeply moving 'Mem and Zin Tomb'. Based on a true, tragic 15th-century love story later immortalized by the famous writer Ahmedi Khani, it serves as the final resting place for the legendary lovers Mem and Zin. Their graves, along with Beko—the antagonist who separated them—lie side by side, making this site the most famous monument of epic romantic folklore in the East.",
-    "de": "Die am Tigris gelegene Burg von Cizre hat antike assyrische Wurzeln. Berühmt ist sie für das Grab von Mem und Zin, den Hauptfiguren einer legendären, tragischen Liebesgeschichte des Orients aus dem 15. Jahrhundert."
-  },
-  "activities": {
-    "tr": [
-      "Kültür ve edebiyat turu",
-      "Tarihi kale gezisi",
-      "Dicle nehri manzarası izleme"
-    ],
-    "en": [
-      "Culture and literature tour",
-      "Historical castle sightseeing",
-      "Tigris river view watching"
-    ],
-    "de": [
-      "Kultur- und Literaturtour",
-      "Historische Burgbesichtigung",
-      "Blick auf den Tigris genießen"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "kale",
-      "turbe"
-    ],
-    "en": [
-      "historical-site",
-      "fortress",
-      "mausoleum"
-    ],
-    "de": [
-      "historische-staette",
-      "festung",
-      "mausoleum"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cizre_Castle_and_Walls.jpg"
-  ]
-},
-{
-  "slug": "cezeri-muzesi-sirnak",
-  "name": {
-    "tr": "İsmail Ebul-İiz El-Cezeri Müzesi",
-    "en": "Ismail Al-Jazari Museum",
-    "de": "Ismail-Al-Dschazari-Museum"
-  },
-  "latitude": 37.3255,
-  "longitude": 42.1872,
-  "description": {
-    "tr": "12. yüzyılda Cizre'de yaşamış, sibernetik, robotik ve otomasyon biliminin dünyadaki kurucusu kabul edilen dahi bilim insanı El-Cezeri'nin anısını yaşatan bu müze, Şırnak'ın bilim tarihi açısından en gurur verici mekanıdır. Artuklu sarayında başmühendis olarak çalışan El-Cezeri; elektrik kullanmadan, su ve mekanik dişlilerle çalışan otomatik makineler, robot şerbetçiler, şifreli kilitler ve dünyaca ünlü 'Fil Saatini' tasarlamıştır. Günümüzde müze bünyesinde, El-Cezeri'nin 'Olağanüstü Mekanik Araçların Bilgisi' kitabındaki çizimlerden aslına uygun olarak üretilen mekanik düzeneklerin replikaları, su saatleri ve sibernetik robot tasarımları sergilenerek modern teknolojinin temellerinin burada nasıl atıldığını gözler önüne sermektedir.",
-    "en": "Dedicated to the 12th-century polymath and genius scientist Al-Jazari, who lived in Cizre and is globally recognized as the founder of cybernetics and robotics, this museum is a crown jewel of scientific history. Serving as the chief engineer of the Artuqid palace, Al-Jazari designed water-powered automated devices, humanoid robots, and the world-famous Elephant Clock without using electricity. The museum displays working replicas and models reconstructed directly from his historical manuscripts, illustrating how the foundations of modern automation and mechanical engineering were laid right here.",
-    "de": "Ein Museum gewidmet dem im 12. Jahrhundert in Cizre geborenen Genie Al-Dschazari, dem Begründer der Kybernetik und Robotik. Es zeigt faszinierende Nachbauten seiner wasserbetriebenen mechanischen Automaten und Uhren."
-  },
-  "activities": {
-    "tr": [
-      "Bilim ve teknoloji tarihi gezisi",
-      "Müze ve robotik düzenek incelemesi"
-    ],
-    "en": [
-      "Science and technology history tour",
-      "Museum and robotics inspection"
-    ],
-    "de": [
-      "Wissenschafts- und Technikgeschichte-Tour",
-      "Museums- und Robotikbesichtigung"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "muze",
-      "bilim",
-      "tarihi-yer"
-    ],
-    "en": [
-      "museum",
-      "science",
-      "historical-site"
-    ],
-    "de": [
-      "museum",
-      "wissenschaft",
-      "historische-staette"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Al_Jazari_Museum_Cizre.jpg"
-  ]
-}
+  }
 ]

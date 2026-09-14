@@ -1,107 +1,122 @@
 [
- {
-  "slug": "kinalik-koyu-guba",
-  "name": {
-    "tr": "Kınalık Köyü",
-    "en": "Khinalug Village",
-    "de": "Chinalug-Dorf"
-  },
-  "latitude": 41.1794,
-  "longitude": 48.1278,
-  "description": {
-    "tr": "Deniz seviyesinden 2.350 metre yükseklikte, Büyük Kafkas Dağları'nın izole bir zirvesinde yer alan Kınalık, Avrupa'nın ve Azerbaycan'ın en yüksek ve en eski sürekli yerleşim yerlerinden biridir. UNESCO Dünya Mirası Listesi'nde yer alan köy, dik yamaçlara üst üste inşa edilmiş ve birinin çatısının diğerinin avlusu olduğu benzersiz taş evleriyle ünlüdür. Yüzyıllar boyunca coğrafi izolasyonu sayesinde kendine has dilini (Kınalık dili), geleneklerini ve kültürünü tamamen korumayı başarmıştır. Etrafını saran devasa dağ kanyonları, bulutların üzerindeki manzarası ve asırlara meydan okuyan etno-kültürel yapısı ile Kınalık, macera ve kültür gezginleri için adeta bir yeryüzü cennetidir.",
-    "en": "Situated at an altitude of 2,350 meters above sea level on an isolated peak of the Greater Caucasus Mountains, Khinalug is one of the highest and oldest continuously inhabited villages in Europe and Azerbaijan. Now a UNESCO World Heritage Site, it is famous for its unique terraced stone houses built tightly on steep slopes, where the roof of one house serves as the courtyard for another. Due to centuries of geographic isolation, the villagers have fully preserved their distinct language (Khinalug language), traditions, and lifestyle. Surrounded by massive mountain canyons and clouds, it offers an unparalleled journey into ancient ethno-cultural heritage.",
-    "de": "Eines der höchsten und ältesten kontinuierlich bewohnten Dörfer Europas auf 2.350 Metern Höhe im Großen Kaukasus. UNESCO-Weltkulturerbe, bekannt für seine terrassenförmigen Steinhäuser und eine eigene, antike Sprache."
-  },
-  "activities": {
-    "tr": [
-      "Kültür ve etno-turizm gezisi",
-      "Dağ trekkingi",
-      "Fotoğrafçılık"
-    ],
-    "en": [
-      "Cultural and ethno-tourism",
-      "Mountain trekking",
-      "Photography"
-    ],
-    "de": [
-      "Kultur- und Ethno-Tourismus",
-      "Bergwandern",
-      "Fotografie"
+  {
+    "slug": "kinalik-koyu-guba",
+    "name": {
+      "tr": "Kınalık Köyü",
+      "en": "Khinalug Village",
+      "de": "Chinalug-Dorf"
+    },
+    "latitude": 41.1794,
+    "longitude": 48.1278,
+    "description": {
+      "tr": "Kınalık, Azerbaycan'ın kuzeyinde, Büyük Kafkas Dağları'nın yüksek kesimlerinde yer alan ve kendine özgü kültürü, dili ve geleneksel yaşam biçimiyle dikkat çeken tarihi bir dağ köyüdür. Azerbaycan'ın Kuba bölgesinde bulunan köy, sarp dağ yamaçları ve derin vadiler arasında yaklaşık 2.300 metre rakımda kurulmuştur. Ulaşımın uzun süre zor olması, Kınalık'ın çevresindeki diğer yerleşimlerden görece izole kalmasına ve kendine özgü kültürel özelliklerini günümüze kadar korumasına katkıda bulunmuştur.\n\nKınalık'ın tarihi ve kültürel önemi yalnızca köyün taş evlerinden oluşmaz. Köy, yüzyıllar boyunca burada yaşayan Kınalık halkının geleneksel yaşam biçimiyle birlikte değerlendirilmelidir. Kınalık halkının kendine özgü dili, sözlü kültürü, gelenekleri ve inançları bölgenin kültürel kimliğinin önemli parçalarıdır. Köydeki yaşam tarih boyunca Büyük Kafkas Dağları'nın zorlu coğrafi koşullarına uyum sağlamış ve hayvancılık ile mevsimsel yaylacılık önemli bir geçim kaynağı olmuştur.\n\nKınalık'ın mimarisi de bölgenin doğal şartlarına göre şekillenmiştir. Köy, dik yamaçlar üzerinde yoğun biçimde yerleşmiş taş yapılardan oluşur. Geleneksel evlerin birbirine yakın konumlandırılması, dağlık arazinin sınırlı alanından yararlanılmasını sağlamıştır. Bazı yapıların çatılarının üstte bulunan evler veya geçiş alanları tarafından kullanılması, köyün eğimli araziye uyarlanmış geleneksel yerleşim düzeninin dikkat çekici özelliklerinden biridir. Dar sokaklar ve taş yapılar, Kınalık'ın geleneksel görünümünün önemli bir bölümünü oluşturur.\n\nKınalık'ın UNESCO açısından önemi 2023 yılında daha da belirgin hale gelmiştir. UNESCO Dünya Mirası Listesi'ne alınan alanın resmi adı Kınalık Halkının Kültürel Peyzajı ve Köç Yolu Göçerlik Rotasıdır. Bu Dünya Mirası alanı yalnızca Kınalık köyünden oluşmaz. Köyün yanı sıra yüksek rakımlı yaz meraları, alçak kesimlerdeki kış meraları ve bunları birbirine bağlayan yaklaşık 200 kilometrelik geleneksel Köç Yolu güzergâhı da alanın parçasıdır. Bu nedenle UNESCO statüsü, tek bir köyden çok, Kınalık halkının doğayla ve mevsimsel hayvancılıkla bağlantılı kültürel peyzajını korumayı amaçlamaktadır.\n\nKöç Yolu, Kınalık halkının yaz ve kış meraları arasında gerçekleştirdiği geleneksel mevsimsel hareketin temel güzergâhıdır. Bu dikey göç sistemi, insanların hayvanlarıyla birlikte yılın farklı dönemlerinde farklı yüksekliklerdeki otlaklara taşınmasına dayanır. UNESCO, bu yaşam biçimini Büyük Kafkas Dağları'nın çevresel koşullarına uyarlanmış devam eden bir kültürel sistem olarak değerlendirmektedir. Güzergâh boyunca eski yolların yanı sıra geçici konaklama alanları, mezarlıklar, türbeler, camiler, su kaynakları, sulama yapıları ve hayvancılıkla ilişkili çeşitli unsurlar da bulunmaktadır.\n\nKınalık çevresindeki doğal manzara da köyün çekiciliğinin önemli bir parçasıdır. Yüksek dağlar, derin vadiler, sarp kayalıklar ve geniş yayla alanları özellikle doğa yürüyüşü ve fotoğrafçılık açısından dikkat çekmektedir. Bununla birlikte bölgenin yüksek dağlık konumu nedeniyle hava koşulları hızlı değişebilir ve özellikle kış aylarında ulaşım şartları zorlaşabilir.\n\nKınalık'ı ziyaret edenler yalnızca manzara görmekle kalmaz, aynı zamanda Azerbaycan'ın dağlık bölgelerinde yüzyıllar boyunca gelişmiş özgün bir kültürel yaşamı tanıma fırsatı bulur. Köyün taş mimarisi, yerel dili, gelenekleri, yaylacılık kültürü ve çevresindeki tarihi güzergâhlar birlikte değerlendirildiğinde Kınalık, doğa ve kültür mirasının iç içe geçtiği özel destinasyonlardan biridir. 2023 yılında UNESCO Dünya Mirası Listesi'ne dahil edilmesi de Kınalık'ın uluslararası kültürel miras açısından önemini güçlendirmiştir.",
+      "en": "Khinalug, also known as Khinalig or Xınalıq, is a historic mountain village in northern Azerbaijan, located high in the Greater Caucasus Mountains in the Guba region. Built on steep mountain slopes at an elevation of roughly 2,300 meters, the village is surrounded by dramatic valleys, rugged peaks and high-altitude pastures. Its remote location and difficult access for much of its history contributed to the preservation of a distinctive local culture, language and traditional way of life.\n\nThe cultural identity of Khinalug is closely connected with the Khinalig people, who have lived in the region for centuries. The community has preserved its own language, oral traditions, customs and elements of its traditional belief system. Life in the village has historically been shaped by the demanding mountain environment, with livestock raising and seasonal movement between summer and winter pastures playing an important role in the local economy and culture.\n\nKhinalug's traditional architecture is another defining feature of the settlement. The village is built densely along steep slopes, with stone houses adapted to the limited and uneven terrain. Buildings are positioned close to one another, and the roofs and terraces of lower houses can form useful spaces for structures and pathways above them. This distinctive arrangement creates a layered appearance that follows the natural shape of the mountain. Narrow passages and traditional stone buildings give the village much of its characteristic appearance.\n\nKhinalug gained major international recognition in 2023 when the Cultural Landscape of Khinalig People and “Köç Yolu” Transhumance Route was inscribed on the UNESCO World Heritage List. The protected cultural landscape is much larger than the village itself. It includes Khinalug, high-altitude summer pastures, winter pastures in lower areas and the approximately 200-kilometer seasonal transhumance route known as Köç Yolu. The UNESCO designation therefore protects a living cultural landscape rather than simply a historic village.\n\nKöç Yolu is associated with the traditional seasonal movement of the Khinalig people and their livestock between summer and winter pastures. This form of vertical transhumance has been maintained over generations and reflects the community's adaptation to the extreme environmental conditions of the Greater Caucasus. The cultural landscape also contains ancient routes, temporary camps, agricultural terraces, springs, wells, irrigation structures, cemeteries, mausoleums, mosques and other elements connected with traditional pastoral life.\n\nThe natural surroundings of Khinalug are equally impressive. High mountain ridges, deep valleys, rocky slopes and open alpine pastures create a landscape that attracts hikers, photographers and travelers interested in mountain cultures. The scenery changes significantly with the seasons, while the high elevation can bring rapidly changing weather conditions. Winter conditions can be particularly challenging because of snow and difficult mountain access.\n\nFor visitors, Khinalug offers an opportunity to experience both the dramatic landscapes of the Greater Caucasus and a living cultural tradition that has developed in close relationship with the mountains. The village's architecture, language, seasonal pastoral practices and historic routes are all part of the same cultural story. Its UNESCO status since 2023 recognizes the exceptional relationship between the Khinalig community, its environment and its traditional way of life, making Khinalug one of Azerbaijan's most distinctive cultural and mountain destinations.",
+      "de": "Chinalug, auch Khinalug oder Xınalıq genannt, ist ein historisches Bergdorf im Norden Aserbaidschans im Großen Kaukasus. Das Dorf liegt auf etwa 2.300 Metern Höhe und ist für seine traditionelle Steinarchitektur, die eigene Sprache und die besondere Kultur der Chinalug-Bevölkerung bekannt. Die Lebensweise ist eng mit der Berglandschaft und der saisonalen Wanderweidewirtschaft verbunden. Seit 2023 gehört die Kulturlandschaft des Volkes von Khinalig und die historische Köç-Yolu-Wanderroute zum UNESCO-Welterbe. Das geschützte Gebiet umfasst neben dem Dorf auch Sommer- und Winterweiden sowie die traditionelle Wanderroute."
+    },
+    "activities": {
+      "tr": [
+        "Kınalık'ın geleneksel taş evlerini keşfetmek",
+        "Köyün kültürel mirasını ve yerel yaşamını tanımak",
+        "Dağ yürüyüşü ve doğa keşfi yapmak",
+        "Büyük Kafkas Dağları manzaralarını fotoğraflamak",
+        "Köç Yolu ve geleneksel yaylacılık kültürü hakkında bilgi edinmek"
+      ],
+      "en": [
+        "Explore the traditional stone houses of Khinalug",
+        "Discover the village's cultural heritage and local life",
+        "Go hiking in the Greater Caucasus Mountains",
+        "Photograph the mountain landscapes",
+        "Learn about the Köç Yolu and traditional transhumance"
+      ],
+      "de": [
+        "Traditionelle Steinhäuser besichtigen",
+        "Die lokale Kultur kennenlernen",
+        "Wandern und fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi yer",
+        "doğa",
+        "köy",
+        "kültür",
+        "UNESCO Dünya Mirası"
+      ],
+      "en": [
+        "historical site",
+        "nature",
+        "village",
+        "culture",
+        "UNESCO World Heritage Site"
+      ],
+      "de": [
+        "historische Stätte",
+        "Natur",
+        "Dorf",
+        "Kultur"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khinalug_view_Azerbaijan_2021.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "doga",
-      "koy"
-    ],
-    "en": [
-      "historical-site",
-      "nature",
-      "village"
-    ],
-    "de": [
-      "historische-staette",
-      "natur",
-      "dorf"
+  {
+    "slug": "kirmizi-kasaba-guba",
+    "name": {
+      "tr": "Kırmızı Kasaba",
+      "en": "Red Settlement",
+      "de": "Rote Siedlung"
+    },
+    "latitude": 41.3742,
+    "longitude": 48.5139,
+    "description": {
+      "tr": "Kırmızı Kasaba, Azerbaycan'ın kuzeyindeki Kuba bölgesinde, Kuba şehrinin karşısında ve Gudyalçay Nehri'nin kuzey kıyısında yer alan tarihi bir yerleşimdir. Azerbaycanca Qırmızı Qəsəbə, Rusça Krasnaya Sloboda olarak da bilinen kasaba, yüzyıllardır bölgede yaşayan Dağ Yahudileri topluluğunun kültürel mirası açısından büyük önem taşır. Kırmızı Kasaba, kırmızı kiremitli çatıları, tarihi sinagogları, geleneksel konutları ve kendine özgü Yahudi mirasıyla Azerbaycan'ın en dikkat çekici kültürel destinasyonlarından biridir.\n\nYerleşimin tarihi 18. yüzyılın ortalarına kadar uzanır. Kırmızı Kasaba, tarih boyunca Kuba Hanlığı'nın yönetimi ve himayesi altında gelişen Dağ Yahudileri topluluğunun önemli merkezlerinden biri olmuştur. Burada yaşayan topluluk, yüzyıllar boyunca kendi dini geleneklerini, kültürel uygulamalarını ve dilini korumuştur. Dağ Yahudileri tarafından kullanılan Cuhuri veya Judeo-Tat dili, bu kültürel mirasın önemli unsurlarından biridir.\n\nKırmızı Kasaba'nın mimarisi yerleşimin en dikkat çekici özelliklerinden biridir. Köy ve kasaba dokusu boyunca kırmızı kiremitli çatılar göze çarpar ve bu görünüm yerleşime karakteristik bir kimlik kazandırır. Tarihi sinagoglar, konutlar ve diğer yapılar, burada oluşan topluluk yaşamının izlerini taşır. Yerleşimdeki dini yapılar yalnızca ibadet amacıyla değil, aynı zamanda topluluğun kültürel ve sosyal yaşamının devamlılığı açısından da önemlidir.\n\nKırmızı Kasaba, Dağ Yahudileri mirasını günümüzde de yaşatmaya devam eden az sayıdaki tarihi yerleşimlerden biridir. Azerbaycan'ın resmi turizm kaynakları burayı İsrail ve Amerika Birleşik Devletleri dışındaki tamamen veya büyük ölçüde Yahudi topluluklarının yaşadığı az sayıdaki yerleşimlerden biri ve dünyanın son ştetllerinden biri olarak tanımlamaktadır. Bu nedenle Kırmızı Kasaba'yı dünyanın İsrail dışındaki tek Yahudi yerleşimi olarak kesin bir ifadeyle tanımlamak doğru değildir. Yerleşimin asıl önemi, yüzyıllar boyunca korunmuş olan Dağ Yahudileri kültürü ve topluluk mirasından kaynaklanmaktadır.\n\nKasabada Yahudi tarihini ve Dağ Yahudilerinin yaşamını daha yakından tanımak isteyen ziyaretçiler için kültürel yapılar ve müze olanakları bulunmaktadır. Dağ Yahudileri Müzesi, bölgenin toplumsal geçmişi, gelenekleri ve kültürel mirası hakkında bilgi edinmek açısından önemli bir duraktır. Tarihi sinagoglar da yerleşimin dini ve mimari mirasının anlaşılmasına yardımcı olur.\n\nKırmızı Kasaba'nın Kuba şehrinin hemen karşısında bulunması, burayı kuzey Azerbaycan gezileri için kolayca birleştirilebilecek bir kültür durağı haline getirir. Gudyalçay'ın oluşturduğu doğal sınır, yerleşimin coğrafi karakterinin önemli bir parçasıdır. Kasabanın geleneksel dokusu ve çevredeki Kafkas manzaraları, kültür ve fotoğraf meraklıları için farklı görüntüler sunar.\n\nKırmızı Kasaba'nın önemi yalnızca dini mirasıyla sınırlı değildir. Burada yüzyıllar boyunca farklı toplulukların bir arada yaşadığı kuzey Azerbaycan'ın çok kültürlü tarihinin önemli bir bölümü görülebilir. Dağ Yahudilerinin gelenekleri, dili, dini yapıları ve günlük yaşamı, Azerbaycan'ın kültürel çeşitliliğinin önemli parçalarından biridir.\n\nKırmızı Kasaba'yı ziyaret edenler tarihi sinagogları, geleneksel yapıları ve kültürel merkezleri keşfedebilir, Dağ Yahudilerinin tarihini öğrenebilir ve Kuba bölgesinin farklı kültürel miraslarını bir arada görebilir. Kırmızı kiremitli çatılarla çevrili yerleşim dokusu ve Gudyalçay çevresindeki doğal manzara, burayı Azerbaycan'ın kültür ve tarih odaklı seyahat rotalarında özel bir konuma taşımaktadır.",
+      "en": "Red Settlement, also known as Qırmızı Qəsəbə or Krasnaya Sloboda, is a historic settlement in northern Azerbaijan, located opposite the city of Guba on the northern bank of the Gudyalchay River. The settlement is particularly important for the cultural heritage of Azerbaijan's Mountain Jewish community, which has lived in the Guba region for centuries. With its distinctive red-tiled roofs, historic synagogues, traditional residential architecture and strong community identity, Red Settlement is one of the most distinctive cultural destinations in northern Azerbaijan.\n\nThe history of the settlement dates back to the mid-18th century. Red Settlement developed under the protection of the Guba Khanate and became an important center for Mountain Jews in the region. Over generations, the community preserved its religious traditions, cultural practices and language. Juhuri, also known as Judeo-Tat, is an important part of this heritage and reflects the long history of the Mountain Jewish population in the eastern Caucasus.\n\nThe architecture of Red Settlement is one of its most recognizable characteristics. Red-tiled roofs give the settlement a distinctive appearance, while historic synagogues and residential buildings reflect the development of the local community. Religious buildings have played an important role not only in worship but also in maintaining the social and cultural life of the community.\n\nRed Settlement is one of the relatively few historic settlements where the heritage of the Mountain Jews remains strongly visible today. Azerbaijan's official tourism sources describe it as one of the few compact Jewish settlements outside Israel and the United States and as one of the world's surviving shtetls. For this reason, describing Red Settlement simply as the world's only Jewish settlement outside Israel would be inaccurate. Its importance lies in the preservation of a distinctive Mountain Jewish community and its cultural heritage over many generations.\n\nVisitors interested in the history of the Mountain Jews can explore cultural institutions and historic religious sites in the settlement. The Museum of Mountain Jews provides an opportunity to learn more about the history, traditions and everyday life of the community. Historic synagogues also offer insight into the religious and architectural heritage of the settlement.\n\nIts location directly opposite Guba makes Red Settlement an accessible cultural stop when exploring northern Azerbaijan. The Gudyalchay River forms an important geographical feature between the settlement and Guba, while the surrounding landscape connects the town with the broader mountain environment of the region. The combination of traditional architecture, cultural heritage and natural scenery also makes the area interesting for photographers and travelers interested in local history.\n\nThe significance of Red Settlement extends beyond religious heritage. The settlement represents an important part of the multicultural history of northern Azerbaijan and illustrates the long presence of Mountain Jewish communities in the Caucasus. Their language, religious traditions, architecture and community institutions contribute to the cultural diversity of the region.\n\nA visit to Red Settlement can include historic synagogues, traditional buildings, cultural institutions and the Museum of Mountain Jews. Travelers can learn about the history of the Mountain Jewish community while also exploring the wider heritage of the Guba region. The distinctive red-tiled roofs, historic buildings and location along the Gudyalchay River give Red Settlement a unique character and make it an especially interesting destination for travelers interested in culture, history and the diverse heritage of Azerbaijan.",
+      "de": "Die Rote Siedlung, auch Qırmızı Qəsəbə oder Krasnaya Sloboda genannt, liegt gegenüber der Stadt Guba am Nordufer des Gudjaltschay in Aserbaidschan. Der Ort ist seit dem 18. Jahrhundert eng mit der Geschichte der Bergjuden verbunden. Charakteristisch sind die roten Ziegeldächer, historische Synagogen und traditionelle Wohnhäuser. Die Gemeinschaft bewahrt bis heute wichtige kulturelle Traditionen und die Sprache Juhuri. Ein Museum informiert über die Geschichte der Bergjuden. Die Rote Siedlung gilt als eine der wenigen historischen jüdischen Siedlungen außerhalb Israels und der Vereinigten Staaten und gehört zu den besonderen kulturellen Sehenswürdigkeiten Nordaserbaidschans."
+    },
+    "activities": {
+      "tr": [
+        "Dağ Yahudileri Müzesi'ni ziyaret etmek",
+        "Tarihi sinagogları keşfetmek",
+        "Kırmızı kiremitli geleneksel yapıları incelemek",
+        "Dağ Yahudilerinin tarihini ve kültürünü tanımak",
+        "Gudyalçay çevresinde yürüyüş ve fotoğrafçılık yapmak"
+      ],
+      "en": [
+        "Visit the Museum of Mountain Jews",
+        "Explore the historic synagogues",
+        "See the traditional red-tiled buildings",
+        "Learn about Mountain Jewish history and culture",
+        "Walk and take photographs around the Gudyalchay River"
+      ],
+      "de": [
+        "Das Museum der Bergjuden besuchen",
+        "Historische Synagogen besichtigen",
+        "Die traditionelle Architektur entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi yer",
+        "kasaba",
+        "kültür",
+        "dini miras"
+      ],
+      "en": [
+        "historical site",
+        "town",
+        "culture",
+        "religious heritage"
+      ],
+      "de": [
+        "historische Stätte",
+        "Kleinstadt",
+        "Kultur",
+        "religiöses Erbe"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Red_Town_Quba_Azerbaijan.jpg"
     ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khinalug_view_Azerbaijan_2021.jpg"
-  ]
-},
-{
-  "slug": "kirmizi-kasaba-guba",
-  "name": {
-    "tr": "Kırmızı Kasaba",
-    "en": "Red Town (Krasnaya Sloboda)",
-    "de": "Rote Siedlung (Krasnaja Sloboda)"
-  },
-  "latitude": 41.3742,
-  "longitude": 48.5139,
-  "description": {
-    "tr": "Guba şehir merkezinin hemen karşısında, Kudyalçay'ın diğer kıyısında yer alan Kırmızı Kasaba, İsrail dışındaki dünyada Yahudilerin tamamen bir arada yaşadığı tek ve en büyük yerleşim yeri olarak kabul edilir. 'Dağ Yahudileri' olarak bilinen topluluğun 18. yüzyıldan beri yaşadığı bu kasaba, adını evlerin karakteristik kırmızı kiremitli çatılarından almıştır. Kasaba boyunca yükselen görkemli sinagoglar, kendilerine has mimari tarzda inşa edilmiş lüks konaklar ve zengin kültürel miras korunmaktadır. Azerbaycan'ın asırlardır süregelen çok kültürlülük ve dini hoşgörü politikasının en somut örneği olan Kırmızı Kasaba, kendine özgü yaşam tarzı ve Judeo-Tat dilleriyle dünyadan büyük ilgi görmektedir.",
-    "en": "Located just across the Kudyalchay River from Ganja-Guba region, the Red Town (Krasnaya Sloboda) is considered the world's only entirely Jewish settlement outside of Israel and the United States. Inhabited since the 18th century by the 'Mountain Jews' community, the town owes its name to the characteristic red-tiled roofs of its buildings. It features beautiful historic synagogues, unique residential architecture, and a highly preserved heritage. Standing as the ultimate symbol of Azerbaijan's centuries-old policy of multiculturalism and religious tolerance, it remains a fascinating cultural hub attracting global interest.",
-    "de": "Die einzige rein jüdische Gemeinde außerhalb Israels und der USA, bekannt als Heimat der 'Bergjuden'. Der Ort verdankt seinen Namen den markanten roten Backstein- und Ziegeldächern."
-  },
-  "activities": {
-    "tr": [
-      "Kültür ve dinler tarihi gezisi",
-      "Tarihi sinagog ziyareti",
-      "Mimari yürüyüş"
-    ],
-    "en": [
-      "Cultural and religious history tour",
-      "Historical synagogue visit",
-      "Architectural promenade"
-    ],
-    "de": [
-      "Kultur- und Religionshistorische Tour",
-      "Historischer Synagogenbesuch",
-      "Architektur-Spaziergang"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "kasaba",
-      "kultur"
-    ],
-    "en": [
-      "historical-site",
-      "town",
-      "culture"
-    ],
-    "de": [
-      "historische-staette",
-      "kleinstadt",
-      "kultur"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Red_Town_Quba_Azerbaijan.jpg"
-  ]
-}
-
+  }
 ]

@@ -175,52 +175,68 @@
     ]
   },
   {
-    "slug": "saraykent-millet-bahcesi",
-    "name": {
-      "tr": "Saraykent Millet Bahçesi",
-      "en": "Saraykent National Garden",
-      "de": "Saraykent Nationalgarten"
-    },
-    "latitude": 39.67689,
-    "longitude": 35.52472,
-    "description": {
-      "tr": "Saraykent Millet Bahçesi, Yozgat ilinin Saraykent ilçesinde yer alan büyük bir yeşil alan ve doğa parkıdır. Yürüyüş yolları, piknik alanları, göletler ve çocuk oyun alanları gibi çeşitli aktiviteler sunan bu park, doğal güzellikleriyle huzurlu bir atmosfer sağlar. Ziyaretçilere dinlenme, spor yapma ve doğayla iç içe vakit geçirme imkanı sunar.\n",
-      "en": "Saraykent National Garden is a large green space and nature park located in Saraykent district of Yozgat. Offering various activities such as walking paths, picnic areas, ponds, and children's playgrounds, this park provides a peaceful atmosphere with its natural beauty. It offers visitors opportunities for relaxation, exercise, and spending time in nature.\n",
-      "de": "Der Saraykent Nationalgarten ist ein großer Grünbereich und Naturpark im Saraykent-Bezirk von Yozgat. Der Park bietet verschiedene Aktivitäten wie Wanderwege, Picknickbereiche, Teiche und Spielplätze für Kinder und schafft mit seiner natürlichen Schönheit eine friedliche Atmosphäre. Besuchern wird die Möglichkeit geboten, sich zu entspannen, Sport zu treiben und Zeit in der Natur zu verbringen.\n"
-    },
-    "activities": {
-      "tr": [
-        "Yürüyüş yapmak",
-        "Piknik yapmak",
-        "Doğada dinlenmek",
-        "Çocuk oyun alanlarında vakit geçirmek"
-      ],
-      "en": [
-        "Go for a walk",
-        "Have a picnic",
-        "Relax in nature",
-        "Spend time in children's playgrounds"
-      ],
-      "de": [
-        "Wandern gehen",
-        "Picknicken",
-        "In der Natur entspannen",
-        "Zeit auf den Spielplätzen verbringen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/saraykent_millet_bahcesi.jpg"
-    ]
-  }
+"slug": "saraykent-millet-bahcesi",
+"name": {
+"tr": "Saraykent Millet Bahçesi",
+"en": "Saraykent National Garden",
+"de": "Saraykent-Nationalgarten"
+},
+"latitude": 39.67689,
+"longitude": 35.52472,
+"description": {
+"tr": "Saraykent Millet Bahçesi, Yozgat'ın Saraykent ilçesinde, Divanlı Göleti'nin kıyısında yer alan geniş bir rekreasyon ve dinlenme alanıdır. Yozgat'ın ilk millet bahçesi olarak hayata geçirilen proje, yaklaşık 30 bin metrekarelik bir alan üzerinde oluşturulmuştur. Alanın planlanmasında gölet manzarası ile yeşil alanların bir arada değerlendirildiği açık hava kullanımına yönelik bir düzenleme öne çıkar. Divanlı Göleti'ne cepheli konumu, özellikle doğayla ve su manzarasıyla vakit geçirmek isteyen ziyaretçiler için parkın en belirgin özelliklerinden biridir.\n\nMillet Bahçesi içerisinde yürüyüş yolları, geniş yeşil alanlar, piknik alanları, kamelyalar ve oturma grupları bulunur. Gölet kenarında oluşturulan seyir iskelesi ise ziyaretçilere su yüzeyine daha yakın bir noktadan manzara izleme imkanı sağlar. Çocuk oyun alanı da ailelerin parkta daha uzun süre vakit geçirebilmesine olanak veren bölümlerden biridir. Proje kapsamında ayrıca 674 metrekarelik kapalı alan oluşturulmuş ve bunun 544 metrekarelik bölümü Millet Kıraathanesi olarak tasarlanmıştır. Bu nedenle alan yalnızca açık hava yürüyüşü veya piknik için değil, dinlenmek ve sosyal amaçlı zaman geçirmek için de kullanılabilecek şekilde düzenlenmiştir.\n\nSaraykent'in yüksek rakımlı bir ilçe olması da parkın çevresindeki doğal atmosferi belirleyen unsurlardan biridir. İlçenin rakımı yaklaşık 1330 metre seviyesindedir. Özellikle ilkbahar ve yaz aylarında yeşil alanlardan yararlanmak, gölet çevresinde yürümek, piknik yapmak ve açık havada dinlenmek isteyenler için Millet Bahçesi ilçenin değerlendirilebilecek noktalarından biridir. Sabah veya akşam saatlerinde gölet çevresinde yürüyüş yapmak, günün daha sakin zamanlarında manzaranın tadını çıkarmak isteyenler için uygun bir seçenek olabilir.\n\nMillet Bahçesi'ndeki peyzaj çalışmaları yalnızca mevcut yeşil alanlarla sınırlı kalmayıp meyve ağaçlarının da kullanımını içermektedir. 2026 yılında alanda daha önce dikilmiş karışık meyve ağaçları üzerinde uygulamalı budama çalışmaları gerçekleştirilmiş, ayrıca bağ ve üzümsü meyveler için yeni bir tesis planlaması konusunda teknik çalışmalar yapılmıştır. Bu yönüyle alan, klasik bir park kullanımının yanında ilçenin tarımsal ve peyzaj çalışmalarının da görülebildiği bir açık alan niteliği taşımaktadır.\n\nSaraykent Millet Bahçesi'ni ziyaret edenler burada uzun bir doğa yürüyüşünden ziyade gölet manzarası eşliğinde dinlenme, piknik yapma, çocuklarla açık havada vakit geçirme ve kısa yürüyüşler gibi aktiviteleri değerlendirebilir. Özellikle Saraykent ilçe merkezinde vakit geçiren veya Yozgat'ın doğu kesiminde seyahat edenler için mola verilebilecek bir rekreasyon alanıdır. Ziyaret öncesinde işletme, sosyal tesis ve diğer hizmetlerin güncel kullanım durumunu kontrol etmek faydalı olabilir.",
+"en": "Saraykent National Garden is a large recreational and leisure area located beside Divanlı Pond in Saraykent district of Yozgat. Developed as Yozgat's first national garden, the project covers approximately 30,000 square meters and was designed around the combination of open green spaces and views of the pond. Its position directly facing Divanlı Pond is one of the area's most distinctive features and makes it an appealing place for visitors who want to spend time outdoors while enjoying a waterside landscape.\n\nThe national garden includes walking paths, large green areas, picnic spaces, gazebos and seating areas. A viewing pier along the pond provides visitors with a closer view of the water and surrounding landscape. There is also a children's playground, making the park suitable for families who want to spend several hours outdoors. The project also includes a 674-square-meter enclosed building, with 544 square meters designed as a Millet Kıraathanesi, a social and leisure facility. As a result, the area was planned not only for walking and picnicking but also for resting and spending time in a social setting.\n\nSaraykent's high elevation is another characteristic of the surrounding environment. The district stands at approximately 1,330 meters above sea level, contributing to the landscape and seasonal character of the area. During spring and summer, the national garden can be considered for walking around the pond, having a picnic, relaxing in the green areas and spending time outdoors. Walking around the pond in the morning or late afternoon can be a pleasant option for visitors who prefer a quieter atmosphere and cooler conditions.\n\nThe landscaping of the national garden also includes fruit trees. In 2026, practical pruning training was carried out on the mixed fruit orchard previously planted in the garden. Technical planning was also undertaken for a proposed area for vineyards and berry-producing plants. This gives the site an additional agricultural and landscaping dimension alongside its recreational function.\n\nVisitors to Saraykent National Garden can enjoy activities such as relaxing beside the pond, having a picnic, taking short walks, spending time with children in the playground and enjoying the surrounding green landscape. Rather than being a destination focused on long hiking routes, the area is better suited to leisure, recreation and short outdoor visits. It can be a useful stop for travelers exploring Saraykent or passing through the eastern part of Yozgat. Visitors may wish to check the current operating conditions of any social facilities and services before their visit.",
+"de": "Der Saraykent-Nationalgarten ist ein weitläufiges Erholungs- und Freizeitgebiet am Divanlı-Teich im Bezirk Saraykent der Provinz Yozgat. Die Anlage wurde als erster Nationalgarten von Yozgat geschaffen und erstreckt sich über eine Fläche von etwa 30.000 Quadratmetern. Bei der Gestaltung wurden großzügige Grünflächen mit dem Blick auf den Teich verbunden. Die Lage direkt am Divanlı-Teich gehört zu den wichtigsten Merkmalen des Parks und macht ihn besonders für Besucher interessant, die Zeit im Freien verbringen und dabei eine Landschaft am Wasser genießen möchten.\n\nIm Nationalgarten gibt es Spazierwege, weitläufige Grünflächen, Picknickbereiche, Pavillons und Sitzgruppen. Am Ufer wurde außerdem ein Aussichtssteg eingerichtet, von dem aus Besucher einen näheren Blick auf den Teich und die Umgebung erhalten. Ein Kinderspielplatz macht die Anlage auch für Familien interessant. Zum Projekt gehört darüber hinaus ein überdachtes Gebäude mit einer Fläche von 674 Quadratmetern. Davon wurden 544 Quadratmeter als Millet-Kıraathanesi, also als sozialer Aufenthalts- und Freizeittreffpunkt, geplant. Der Bereich ist damit nicht nur für Spaziergänge und Picknicks, sondern auch zum Ausruhen und für gemeinschaftliche Aktivitäten vorgesehen.\n\nDie Höhenlage von Saraykent prägt ebenfalls die natürliche Umgebung des Parks. Der Bezirk liegt auf einer Höhe von etwa 1.330 Metern über dem Meeresspiegel. Besonders im Frühling und Sommer eignet sich der Nationalgarten für Spaziergänge am Teich, Picknicks, Erholung auf den Grünflächen und verschiedene Aktivitäten im Freien. Wer eine ruhigere Atmosphäre bevorzugt, kann den Bereich am Morgen oder am späten Nachmittag besuchen und dabei am Teich entlang spazieren.\n\nAuch die Landschaftsgestaltung des Nationalgartens umfasst Obstbäume. Im Jahr 2026 wurde in dem zuvor angelegten gemischten Obstgarten eine praktische Schulung zum fachgerechten Beschneiden der Bäume durchgeführt. Zusätzlich wurden technische Planungen für eine mögliche Anlage mit Weinreben und Beerenpflanzen vorgenommen. Dadurch besitzt der Park neben seiner Freizeitfunktion auch eine Verbindung zu den landwirtschaftlichen und landschaftsbezogenen Arbeiten der Gemeinde.\n\nBesucher können im Saraykent-Nationalgarten vor allem am Teich entspannen, picknicken, kurze Spaziergänge unternehmen, mit Kindern Zeit auf dem Spielplatz verbringen und die Grünflächen genießen. Die Anlage ist weniger als Ziel für lange Wanderungen gedacht, sondern eher als Ort für Erholung, Freizeit und kurze Aufenthalte im Freien. Für Reisende, die Saraykent besuchen oder durch den östlichen Teil der Provinz Yozgat fahren, kann der Nationalgarten daher ein geeigneter Zwischenstopp sein. Vor dem Besuch empfiehlt es sich, den aktuellen Zustand und die Öffnungszeiten der vorhandenen sozialen Einrichtungen zu überprüfen."
+},
+"activities": {
+"tr": [
+"Yürüyüş yapmak",
+"Piknik yapmak",
+"Gölet manzarasını izlemek",
+"Doğada dinlenmek",
+"Fotoğraf çekmek",
+"Çocuk oyun alanında vakit geçirmek"
+],
+"en": [
+"Walking",
+"Having a picnic",
+"Enjoying the pond view",
+"Relaxing in nature",
+"Photography",
+"Spending time at the children's playground"
+],
+"de": [
+"Spazieren gehen",
+"Picknicken",
+"Den Blick auf den Teich genießen",
+"In der Natur entspannen",
+"Fotografieren",
+"Zeit auf dem Kinderspielplatz verbringen"
+]
+},
+"categories": {
+"tr": [
+"millet bahçesi",
+"doğa",
+"rekreasyon",
+"piknik"
+],
+"en": [
+"national garden",
+"nature",
+"recreation",
+"picnic"
+],
+"de": [
+"Nationalgarten",
+"Natur",
+"Erholung",
+"Picknick"
+]
+},
+"images": [
+"https://example.com/saraykent_millet_bahcesi.jpg"
+]
+}
+
 ]

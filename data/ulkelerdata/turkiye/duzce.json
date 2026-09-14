@@ -97,48 +97,58 @@
     ]
   },
   {
-    "slug": "guzeldere-selalesi",
-    "name": {
-      "tr": "Güzeldere Şelalesi",
-      "en": "Güzeldere Waterfall",
-      "de": "Güzeldere Wasserfall"
-    },
-    "latitude": 40.72354,
-    "longitude": 31.04988,
-    "description": {
-      "tr": "Güzeldere Şelalesi, Düzce’nin Gölyaka ilçesi sınırlarında, Güzeldere Tabiat Parkı içerisinde yer alan ve Batı Karadeniz’in en etkileyici doğal güzelliklerinden biridir. Yaklaşık 130 metre yükseklikten dökülen suyu ile Türkiye’nin en yüksek şelaleleri arasında gösterilir.\n\nOrmanlarla çevrili dik bir vadide bulunan şelale, özellikle ilkbahar aylarında artan su debisiyle birlikte oldukça görkemli bir manzara sunar. Gürül gürül akan su sesi ve çevresindeki zengin bitki örtüsü, ziyaretçilere huzurlu ve serin bir atmosfer sağlar.\n\nŞelaleye ulaşım için düzenlenmiş yürüyüş yolları ve merdivenler bulunmaktadır. Doğa yürüyüşü, fotoğrafçılık ve manzara seyri için oldukça elverişli bir ortam sunar. Sonbahar aylarında ise ormanın sarı ve kızıl tonları şelaleye ayrı bir güzellik katar.",
-      "en": "Güzeldere Waterfall is one of Düzce's most beautiful natural wonders. The view created by the water falling from a great height is perfect for nature lovers and photographers.\n",
-      "de": "Der Güzeldere-Wasserfall ist eines der schönsten Naturwunder von Düzce. Der Anblick des Wassers, das aus großer Höhe fällt, ist perfekt für Naturliebhaber und Fotografen.\n"
-    },
-    "activities": {
-      "tr": [
-        "Şelale etrafında yürüyüş yapmak",
-        "Doğal güzellikleri fotoğraflamak"
-      ],
-      "en": [
-        "Hike around the waterfall",
-        "Photograph the natural beauty"
-      ],
-      "de": [
-        "Rund um den Wasserfall wandern",
-        "Die natürliche Schönheit fotografieren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "şelale"
-      ],
-      "en": [
-        "waterfall"
-      ],
-      "de": [
-        "Wasserfall"
-      ]
-    },
-    "images": [
-      "https://example.com/guzeldere_selalesi.jpg"
+  "slug": "guzeldere-selalesi",
+  "name": {
+    "tr": "Güzeldere Şelalesi",
+    "en": "Güzeldere Waterfall",
+    "de": "Güzeldere Wasserfall"
+  },
+  "latitude": 40.72354,
+  "longitude": 31.04988,
+  "description": {
+    "tr": "Güzeldere Şelalesi Tabiat Parkı, Düzce ilinin Gölyaka ilçesi sınırlarında, Bıçkı Deresi üzerinde yer alan ve Batı Karadeniz bölgesinin en etkileyici doğa harikalarından biri kabul edilen koruma altındaki bir tabiat alanıdır. Şelale, devasa kayalık basamaklar üzerinden yaklaşık 120-135 metre yükseklikten Bıçkı Deresi yatağına dökülmektedir. Sularının metrelerce yüksekten kayalara çarparak süzülüşü ve vadide oluşturduğu gür su sesi, bölgeyi Türkiye'nin en yüksek ve en görkemli dökümlü şelalelerinden biri haline getirmektedir. 1993 yılında B Cins A Tipi Mesire Yeri, 2011 yılında ise resmen Tabiat Parkı statüsü kazanan alan, el değmemiş orman ekosistemiyle biyoçeşitlilik açısından büyük değer taşır.\n\nŞelalenin bulunduğu kanyon ve çevresi; kayın, gürgen, meşe, kestane, ıhlamur, akçaağaç, orman gülü ve köknar ağaçlarından oluşan zengin bir bitki örtüsüyle kaplıdır. Bu yoğun bitki örtüsü, mevsim dönüşümlerinde ziyaretçilere görsel bir şölen sunar; özellikle ilkbaharda karların erimesiyle coşan su debisi ve sonbaharda yaprakların büründüğü sarı, turuncu ve kızıl tonlar doğa fotoğrafçıları için benzersiz kareler yaratır. Şelalenin izleme platformuna ulaşmak için ahşap ve taş basamaklardan oluşan, seyir teraslarıyla desteklenmiş yürüyüş merdivenleri kullanılır. Bu merdivenler boyunca yapılan yürüyüş, kayın ağaçlarının gölgesinde serin ve huzurlu bir atmosfer sunmaktadır.\n\nGüzeldere Şelalesi Tabiat Parkı, sadece günlük ziyaretçiler için değil, doğada uzun vakit geçirmek isteyen kampçılar ve doğa yürüyüşçüleri için de gelişmiş altyapı olanaklarına sahiptir. Alan içerisinde piknik masaları, mesire alanları, kır lokantası, çocuk oyun parkları, bungalov konaklama tesisleri ve çadır/karavan kamp alanları yer almaktadır. Aynı zamanda Pürenli Yaylası, Balıklı Yaylası ve Efteni Gölü Kuş Cenneti gibi Düzce'nin diğer önemli ekoturizm rotalarının geçiş noktası üzerinde bulunması, bölgeyi doğa sporları, trekking, outdoor fotoğrafçılığı ve hafta sonı kaçamakları için Kuzey Batı Anadolu'nun en popüler destinasyonlarından biri yapmaktadır.",
+    "en": "Güzeldere Waterfall Nature Park, situated within the borders of Gölyaka district in Düzce Province, is one of the most magnificent natural landmarks in the Western Black Sea region of Turkey. Fed by the crystal-clear waters of the Bıçkı Stream, the waterfall plunges dramatically down a series of stepped rock faces from a towering height of approximately 120 to 135 meters into the canyon floor below. The sheer vertical drop and thunderous flow of the cascading water establish Güzeldere as one of the highest and most visually striking waterfalls in the country. Designated as a protected Nature Park in 2011, the sanctuary covers an expansive forested valley noted for its exceptional ecological diversity.\n\nThe surrounding gorge is enveloped by dense, pristine broadleaf and coniferous woodlands dominated by beech, hornbeam, oak, chestnut, lime, maple, and fir trees, alongside vibrant rhododendron undergrowth. This rich flora produces a breathtaking landscape that changes dramatically with the seasons. During spring, snowmelt increases the water volume to its peak intensity, while autumn transforms the forest canopy into a vibrant mosaic of gold, crimson, and amber hues, attracting landscape photographers and nature enthusiasts from around the world. Visitors descend to the canyon base via a well-maintained network of wooden and stone stairs equipped with several panoramic viewing platforms nestled beneath the shaded forest canopy.\n\nGüzeldere Waterfall Nature Park provides comprehensive recreational infrastructure for eco-tourists and outdoor adventurers. The park features designated picnic sites, a traditional country restaurant, wooden bungalow accommodations, and equipped campsites for tents and camper vans. Its strategic location along the regional trekking trails connecting nearby highland plateaus—such as Pürenli Plateau, Balıklı Plateau, and the Efteni Lake Wetland Reserve—makes Güzeldere an essential hub for hiking, alpine camping, and outdoor exploration within driving distance of major metropolitan hubs like Istanbul and Ankara.",
+    "de": "Der Güzeldere-Wasserfall ist eines der schönsten Naturwunder von Düzce. Der Anblick des Wassers, das aus großer Höhe fällt, ist perfekt für Naturliebhaber und Fotografen.\n"
+  },
+  "activities": {
+    "tr": [
+      "Seyir teraslarından Güzeldere Şelalesi'ni ve kanyonu gözlemlemek",
+      "Ahşap yürüyüş merdivenlerinde ve orman patikalarında trekking yapmak",
+      "Tabiat parkı içerisinde çadır ve karavan kampı yapmak",
+      "İlkbahar ve sonbahar renklerinde manzara fotoğrafçılığı yapmak",
+      "Efteni Gölü ve çevre yaylalara uzanan doğa rotalarını keşfetmek"
+    ],
+    "en": [
+      "Observe Güzeldere Waterfall from panoramic viewing platforms",
+      "Hike along the wooden canyon stairways and forest trails",
+      "Enjoy tent and caravan camping within the nature park",
+      "Capture seasonal landscape and nature photography",
+      "Explore regional eco-tourism routes leading to Efteni Lake and nearby plateaus"
+    ],
+    "de": [
+      "Rund um den Wasserfall wandern",
+      "Die natürliche Schönheit fotografieren"
     ]
   },
+  "categories": {
+    "tr": [
+      "şelale",
+      "tabiat parkı",
+      "doğa"
+    ],
+    "en": [
+      "waterfall",
+      "nature park",
+      "nature"
+    ],
+    "de": [
+      "Wasserfall"
+    ]
+  },
+  "images": [
+    "https://example.com/guzeldere_selalesi.jpg"
+  ]
+},
   {
     "slug": "prusias-ad-hypium-antik-kenti",
     "name": {

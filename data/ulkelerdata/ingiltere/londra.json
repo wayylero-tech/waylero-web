@@ -214,7 +214,7 @@
       "https://example.com/buckingham_palace.jpg"
     ]
   },
-  {
+ {
     "slug": "big-ben-ve-parlamento-binasi",
     "name": {
       "tr": "Big Ben ve Parlamento Binası",
@@ -224,39 +224,48 @@
     "latitude": 51.5007,
     "longitude": -0.1246,
     "description": {
-      "tr": "Big Ben ve Parlamento Binası, Londra'nın en ünlü simgelerinden biridir. Thames Nehri kıyısında yer alan bu ikonik yapı, hem tarihi hem de mimari açıdan büyük öneme sahiptir. Big Ben, aslında saat kulesinin adıdır ve Parlamento Binası ile birlikte şehrin en bilinen manzaralarını oluşturur. Ziyaretçiler kuleyi yakından görebilir, fotoğraf çekebilir ve nehir kenarında yürüyüş yapabilirler. Parlamento Binası, İngiliz siyasetinin merkezi olup rehberli turlar ile iç mekanlar keşfedilebilir. Özellikle gün batımında Thames Nehri ile birleşen manzara, turistler için unutulmaz bir deneyim sunar. Bu yapı, Londra gezilecek yerler listesinde mutlaka görülmesi gereken noktalar arasında yer almaktadır.",
-      "en": "Big Ben and the Houses of Parliament are among London’s most iconic landmarks. Located on the banks of the River Thames, this historic and architectural marvel is of great significance. Big Ben is actually the name of the clock tower, which together with the Parliament building creates one of the city’s most famous views. Visitors can see the tower up close, take photos, and enjoy a walk along the river. The Houses of Parliament are the center of British politics, and guided tours allow exploration of the interior. Especially at sunset, the view combining the Thames River and the iconic buildings offers an unforgettable experience. This landmark is a must-visit on any London sightseeing itinerary.",
-      "de": "Big Ben und das Parlament gehören zu den bekanntesten Wahrzeichen Londons. Am Ufer der Themse gelegen, hat dieses historische und architektonische Meisterwerk große Bedeutung. Big Ben ist eigentlich der Name des Uhrturms, der zusammen mit dem Parlamentsgebäude eine der berühmtesten Ansichten der Stadt bietet. Besucher können den Turm aus der Nähe betrachten, Fotos machen und am Flussufer spazieren gehen. Das Parlamentsgebäude ist das Zentrum der britischen Politik, und Führungen ermöglichen die Erkundung des Innenraums. Besonders bei Sonnenuntergang bietet die Aussicht mit der Themse und den ikonischen Gebäuden ein unvergessliches Erlebnis. Dieses Wahrzeichen ist ein Muss auf jeder London-Tour."
+      "tr": "Big Ben ve Westminster Sarayı (Parlamento Binası), İngiltere'nin başkenti Londra'da Thames Nehri'nin kuzey kıyısında yer alan ve Gotik mimarinin dünyadaki en görkemli şaheserlerinden biri kabul edilen ikonik yapılardır. UNESCO Dünya Mirası Listesi'nde yer alan bu tarihi kompleks, Birleşik Krallık demokrasisinin kalbi ve İngiliz siyasetinin merkezidir. Halk arasında \"Big Ben\" olarak bilinen devasa saat kulesi aslında 2012 yılında Kraliçe II. Elizabeth'in pırlanta jübilesi onuruna \"Elizabeth Kulesi\" (Elizabeth Tower) olarak adlandırılmıştır; Big Ben ismi ise aslen kule içindeki 13,7 tonluk dev muazzam çana verilmiştir. Sir Charles Barry ve Augustus Pugin tarafından Neo-Gotik tarzda tasarlanan yapı, 19. yüzyıl Viktorya dönemi mimarisinin en üstün işçiliğini sergiler.\n\nWestminster Sarayı, Avam Kamarası (House of Commons) ve Lordlar Kamarası (House of Lords) olmak üzere İngiliz Parlamentosu'nun iki kanadına ev sahipliği yapar. Bin odadan fazla odası, tarihi Westminster Hall salonu, ihtişamlı koridorları ve kraliyet salonlarıyla sadece bir yönetim merkezi değil, aynı zamanda canlı bir tarih müzesidir. Kulenin dört bir yanında bulunan devasa saat kadranları, opal camdan üretilmiş olup hassas zaman ölçümü ve ikonik saat başı çan sesleriyle yüzyılı aşkın süredir Londra'nın ritmini belirlemektedir. Westminster Köprüsü üzerinden veya Thames Nehri kıyısından izlenen silüeti, şehrin dünyaca en çok tanınan manzarasını sunar.\n\nZiyaretçiler rehberli turlar ile Parlamento Binası'nın tarihi salonlarını ve parlamento oturum alanlarını keşfedebilir, nehir kenarındaki gezinti yollarında yürüyüş yapabilirler. Özellikle gün batımında ve gece ışıklandırması altında Thames Nehri sularına yansıyan Gotik kuleler, fotoğraf tutkunları için büyüleyici bir görsel şölen yaratır. Big Ben ve Parlamento Binası, Londra'yı ziyaret eden her gezginin gezi listesinde ilk sırada yer alan zamansız bir başyapıttır.\n",
+      "en": "Big Ben and the Palace of Westminster (Houses of Parliament) stand on the north bank of the River Thames in London as one of the world's most magnificent masterpieces of Neo-Gothic architecture. Designated as a UNESCO World Heritage Site, this historic complex serves as the seat of the Parliament of the United Kingdom and the beating heart of British democracy. While globally known as Big Ben, the iconic clock tower was officially renamed the \"Elizabeth Tower\" in 2012 to honor Queen Elizabeth II's Diamond Jubilee, with the name \"Big Ben\" originally referring specifically to the massive 13.7-ton Great Bell inside. Designed by Sir Charles Barry and Augustus Pugin in the 19th century, the building represents the pinnacle of Victorian architectural design.\n\nThe Palace of Westminster houses the two chambers of the UK Parliament: the House of Commons and the House of Lords. Featuring over 1,000 rooms, the historic 11th-century Westminster Hall, lavish corridors, and royal robing rooms, it is both a functioning political hub and a living monument of national history. The famous four-faced clock, crafted with opal glass dials, has reliably kept time for London for over a century, its deep chimes echoing across the capital. The sweeping panorama of the complex from Westminster Bridge remains one of the most celebrated skylines on Earth.\n\nVisitors can join guided tours to explore the grand interior halls and parliamentary chambers or enjoy a stroll along the Victoria Tower Gardens and the River Thames promenade. Illuminated dramatically at night and reflecting across the waters of the Thames, the towers present an unforgettable sight for travelers and photographers alike. Big Ben and the Houses of Parliament remain an indispensable symbol of London's rich cultural and historical identity.\n",
+      "de": "Big Ben und der Palace of Westminster (Houses of Parliament) am Nordufer der Themse in London gehören zu den beeindruckendsten Meisterwerken der neugotischen Architektur weltweit. Der von der UNESCO als Weltkulturerbe geschützte historische Gebäudekomplex ist der Sitz des britischen Parlaments und das Herzstück der Demokratie des Vereinigten Königreichs. Während der weltbekannte Uhrturm im Volksmund als \"Big Ben\" bezeichnet wird, wurde er 2012 zu Ehren des diamantenen Thronjubiläums von Königin Elisabeth II. offiziell in \"Elizabeth Tower\" umbenannt; der Name Big Ben bezeichnete ursprünglich nur die 13,7 Tonnen schwere Hauptglocke im Inneren. Das Bauwerk wurde im 19. Jahrhundert von Sir Charles Barry und Augustus Pugin entworfen.\n\nDer Palast beherbergt die zwei Kammern des britischen Parlaments: das Unterhaus (House of Commons) und das Oberhaus (House of Lords). Mit mehr als 1.000 Räumen, der historischen Westminster Hall aus dem 11. Jahrhundert und glanzvollen königlichen Sälen verbindet der Komplex politische Gegenwart mit jahrhundertealter Geschichte. Die riesigen Zifferblätter der Vier-Seiten-Uhr aus Opalglas und der charakteristische Glockenschlag prägen seit Generationen das Stadtbild von London. Der Blick von der Westminster Bridge auf die imposante Fassade gehört zu den berühmtesten Postkartenmotiven der Welt.\n\nBesucher können im Rahmen von Führungen die prächtigen Innenräume und Sitzungssäle erkunden oder entlang des Themseufers flanieren. Besonders am Abend, wenn die gotischen Türme beleuchtet werden und sich im Wasser der Themse spiegeln, bietet sich ein unvergesslicher Anblick. Das Ensemble aus Big Ben und dem Parlamentsgebäude ist ein absolut unverzichtbarer Höhepunkt jeder London-Reise.\n"
     },
     "activities": {
       "tr": [
-        "Kuleyi ve Parlamento Binası'nı gezmek",
-        "Thames Nehri kenarında yürüyüş yapmak",
-        "Fotoğraf çekmek"
+        "Parlamento Binası'nın tarihi salonlarını rehberli turlarla gezmek",
+        "Westminster Köprüsü üzerinde ikonik saat kulesi önünde fotoğraf çekilmek",
+        "Thames Nehri kıyısında ve Victoria Tower Gardens'ta yürüyüş yapmak",
+        "Gece ışıklandırılan tarihi yapının nehir üzerindeki yansımasını izlemek"
       ],
       "en": [
-        "Tour the clock tower and Parliament",
-        "Walk along the Thames River",
-        "Take photos"
+        "Taking guided tours through the historic chambers of the Houses of Parliament",
+        "Photographing the iconic Elizabeth Tower from Westminster Bridge",
+        "Walking along the River Thames promenade and Victoria Tower Gardens",
+        "Admiring the striking nighttime illumination of the Gothic towers over the river"
       ],
       "de": [
-        "Den Uhrturm und das Parlament besichtigen",
-        "Am Ufer der Themse spazieren gehen",
-        "Fotos machen"
+        "Besichtigung der historischen Säle des Parlaments im Rahmen einer Führung",
+        "Fotografieren des ikonischen Uhrturms von der Westminster Bridge aus",
+        "Spazierengehen am Themseufer und durch die Victoria Tower Gardens",
+        "Genießen der stimmungsvollen nächtlichen Beleuchtung des Bauwerks"
       ]
     },
     "categories": {
       "tr": [
         "tarih",
-        "mimari"
+        "mimari",
+        "unesco",
+        "şehir simgesi"
       ],
       "en": [
         "historic",
-        "architecture"
+        "architecture",
+        "unesco",
+        "city landmark"
       ],
       "de": [
         "Historisch",
-        "Architektur"
+        "Architektur",
+        "unesco",
+        "Wahrzeichen der Stadt"
       ]
     },
     "images": [

@@ -94,62 +94,66 @@
     ]
   },
   {
-    "slug": "taskale-tahil-ambarlari",
-    "name": {
-      "tr": "Taşkale Tahıl Ambarları",
-      "en": "Taşkale Grain Silos",
-      "de": "Taşkale Getreidespeicher"
-    },
-    "latitude": 37.14017771398401,
-    "longitude": 33.60699567244597,
-    "description": {
-      "en": "The Taşkale Grain Silos, located in the Taşkale village of Karaman Province in Turkey, are a remarkable example of traditional storage structures carved directly into the rock. Dating back hundreds of years, these silos were used to store wheat, barley, and other grains, protecting them from moisture, pests, and extreme weather. The complex consists of numerous rock-cut chambers connected by narrow passages, reflecting the ingenuity of past communities in adapting to the harsh Central Anatolian climate. Visitors can explore the labyrinthine network of silos, observe the historical construction techniques, and learn about the agricultural practices of the region. The Taşkale Grain Silos are not only an architectural and historical treasure but also a symbol of local cultural heritage, making them a unique destination for history enthusiasts, architects, and travelers interested in traditional Anatolian life.",
-      "tr": "Taşkale Tahıl Ambarları, Türkiye’nin Karaman iline bağlı Taşkale köyünde yer alan, kayaya oyulmuş geleneksel depolama yapılarının dikkat çekici bir örneğidir. Yüzlerce yıl öncesine dayanan bu ambarlar, buğday, arpa ve diğer tahılları nem, haşere ve sert iklim koşullarından korumak amacıyla kullanılmıştır. Kompleks, dar geçitlerle birbirine bağlı çok sayıda kayaya oyulmuş odadan oluşur ve geçmiş toplulukların İç Anadolu’nun zorlu iklimine nasıl uyum sağladığını gösterir. Ziyaretçiler, labirent şeklindeki ambarları gezebilir, tarihi yapım tekniklerini inceleyebilir ve bölgenin tarım uygulamaları hakkında bilgi edinebilirler. Taşkale Tahıl Ambarları, hem mimari hem de tarihî açıdan önemli bir hazine olup, yerel kültürel mirasın simgesi olarak tarih meraklıları, mimarlar ve geleneksel Anadolu yaşamına ilgi duyan gezginler için eşsiz bir destinasyondur.",
-      "de": "Die Taşkale Getreidespeicher im Dorf Taşkale in der Provinz Karaman, Türkei, sind ein bemerkenswertes Beispiel traditioneller Lagerstrukturen, die direkt in den Fels gehauen wurden. Diese Hohlräume, die mehrere hundert Jahre alt sind, dienten der Aufbewahrung von Weizen, Gerste und anderen Getreidesorten und schützten sie vor Feuchtigkeit, Schädlingen und extremen Wetterbedingungen. Der Komplex besteht aus zahlreichen in den Fels gehauenen Kammern, die durch enge Gänge verbunden sind, und zeigt die Einfallsreichtum vergangener Gemeinschaften bei der Anpassung an das raue Klima Zentralanatoliens. Besucher können das labyrinthartige Netzwerk der Speicher erkunden, historische Bautechniken beobachten und mehr über die landwirtschaftlichen Praktiken der Region erfahren. Die Taşkale Getreidespeicher sind nicht nur ein architektonisches und historisches Juwel, sondern auch ein Symbol des lokalen Kulturerbes und somit ein einzigartiges Ziel für Geschichtsinteressierte, Architekten und Reisende, die das traditionelle anatolische Leben erleben möchten."
-    },
-    "activities": {
-      "tr": [
-        "Ambarları gezmek",
-        "Fotoğraf çekmek",
-        "Tarih ve mimariyi incelemek",
-        "Bölge tarımı hakkında bilgi almak"
-      ],
-      "en": [
-        "Explore the silos",
-        "Take photos",
-        "Study history and architecture",
-        "Learn about local agriculture"
-      ],
-      "de": [
-        "Die Speicher erkunden",
-        "Fotos machen",
-        "Geschichte und Architektur studieren",
-        "Mehr über die regionale Landwirtschaft erfahren"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih",
-        "mimari",
-        "kültür"
-      ],
-      "en": [
-        "history",
-        "architecture",
-        "culture"
-      ],
-      "de": [
-        "geschichte",
-        "architektur",
-        "kultur"
-      ]
-    },
-    "images": [
-      "https://example.com/taskale_tahil_ambarlari.jpg",
-      "https://example.com/taskale_tahil_ambarlari2.jpg",
-      "https://example.com/taskale_tahil_ambarlari3.jpg"
+  "slug": "taskale-tahil-ambarlari",
+  "name": {
+    "tr": "Taşkale Tahıl Ambarları",
+    "en": "Taşkale Grain Silos",
+    "de": "Taşkale Getreidespeicher"
+  },
+  "latitude": 37.14017771398401,
+  "longitude": 33.60699567244597,
+  "description": {
+    "tr": "Taşkale Tahıl Ambarları, Karaman il merkezine yaklaşık 48 kilometre mesafedeki Taşkale beldesinde yer alan, insan eliyle dikey tufa kayalara oyulmuş dünyadaki en özgün geleneksel depolama komplekslerinden biridir. Erken Hristiyanlık ve Bizans dönemlerinden itibaren kullanılmaya başlandığı değerlendirilen ve killi tüf kayadan oluşan devasa dikey falez yüzeyine oyulmuş 250'den fazla bağımsız ambar hücresi bulunmaktadır. Yerden yükseklikleri 40 metreyi bulan bu ambarlara kayalara oyulmuş basamaklar, tutamaklar veya makaralı ilkel asansör sistemleri vasıtasıyla tırmanılmaktadır.\n\nTüf kayanın doğal hava sirkülasyonu sağlama ve sabit ısı-nem dengesi koruma özelliği sayesinde ambarlara konulan buğday, arpa ve bakliyatlar hiçbir bozulmaya uğramadan 30-300 yıl boyunca tazeliğini koruyabilmektedir. Tek odalı veya bölmeli olarak tasarlanan hücreler, İç Anadolu insanoğlunun coğrafi koşullara adaptasyonunu gösteren nadide bir kırsal mimari harikasıdır. Ambarlar günümüzde hâlâ yerel halk tarafından kısmen depolama amacıyla kullanılmaya devam etmekte olup, özgün yapısıyla açık hava müzesi niteliğindedir.\n\nTarihi İpek Yolu güzergâhında yer alan ve Atatürk'ün ata toprakları olarak da bilinen Taşkale beldesindeki bu ambarlar; kültür gezginleri, mimarlık ve arkeoloji tutkunları ile fotoğraf sanatçıları için Karaman turlarının en şaşırtıcı ve ikonik duraklarından birini oluşturmaktadır.",
+    "en": "The Taşkale Grain Silos, located in the historic town of Taşkale approximately 48 kilometers east of Karaman, represent one of the world's most extraordinary rock-cut traditional agricultural storage complexes. Carved directly by hand into a 40-meter-high sheer cliff face of soft volcanic tuff stone, the cliff features over 250 individual chambers dating back to the Early Christian and Byzantine eras. Access to these elevated storage rooms was traditionally gained using hand-and-toe carved rock footholds, wooden ladders, or simple pulley-and-rope elevator systems.\n\nThe natural thermal insulation and humidity-regulating properties of the porous tuff rock create ideal microclimatic conditions, allowing stored grains such as wheat and barley to remain preserved without spoiling for up to decades. Each single or multi-chambered silo showcases human engineering adapted to harsh Central Anatolian weather conditions. Remarkably, several of these rock-cut chambers continue to be utilized by local villagers for organic food storage today.\n\nPositioned along historic trade routes in a region tied to Mustafa Kemal Atatürk's ancestral roots, the Taşkale Grain Silos serve as an iconic cultural landmark, drawing architects, heritage travelers, and landscape photographers seeking unique Anatolian vernacular architecture.",
+    "de": "Die Taşkale Getreidespeicher im Dorf Taşkale in der Provinz Karaman, Türkei, sind ein bemerkenswertes Beispiel traditioneller Lagerstrukturen, die direkt in den Fels gehauen wurden. Diese Hohlräume, die mehrere hundert Jahre alt sind, dienten der Aufbewahrung von Weizen, Gerste und anderen Getreidesorten und schützten sie vor Feuchtigkeit, Schädlingen und extremen Wetterbedingungen. Der Komplex besteht aus zahlreichen in den Fels gehauenen Kammern, die durch enge Gänge verbunden sind, und zeigt die Einfallsreichtum vergangener Gemeinschaften bei der Anpassung an das raue Klima Zentralanatoliens. Besucher können das labyrinthartige Netzwerk der Speicher erkunden, historische Bautechniken beobachten und mehr über die landwirtschaftlichen Praktiken der Region erfahren. Die Taşkale Getreidespeicher sind nicht nur ein architektonisches und historisches Juwel, sondern auch ein Symbol des lokalen Kulturerbes und somit ein einzigartiges Ziel für Geschichtsinteressierte, Architekten und Reisende, die das traditionelle anatolische Leben erleben möchten."
+  },
+  "activities": {
+    "tr": [
+      "Dikey kayalara oyulmuş 250'yi aşkın tarihi tahıl ambarını yerinde incelemek",
+      "Kaya duvarlarına oyulan tutamakları ve geleneksel depolama yöntemlerini fotoğraflamak",
+      "Taşkale beldesinin tarihi taş evlerini, Manazan Mağaraları'nı ve Taş Cami'yi ziyaret etmek",
+      "Yöresel Taşkale halı dokuma kültürünü ve organik köy ürünlerini keşfetmek"
+    ],
+    "en": [
+      "Explore over 250 historic grain storage chambers carved into vertical tuff cliffs",
+      "Photograph the unique rock-cut footholds and ancient food preservation structures",
+      "Visit nearby historic attractions including the Manazan Caves and the Rock Mosque",
+      "Discover traditional local carpet weaving crafts and regional village products"
+    ],
+    "de": [
+      "Die Speicher erkunden",
+      "Fotos machen",
+      "Geschichte und Architektur studieren",
+      "Mehr über die regionale Landwirtschaft erfahren"
     ]
   },
+  "categories": {
+    "tr": [
+      "tarih",
+      "mimari",
+      "kültür",
+      "mağara",
+      "açık hava müzesi"
+    ],
+    "en": [
+      "history",
+      "architecture",
+      "culture",
+      "cave",
+      "open air museum"
+    ],
+    "de": [
+      "geschichte",
+      "architektur",
+      "kultur"
+    ]
+  },
+  "images": [
+    "https://example.com/taskale_tahil_ambarlari.jpg",
+    "https://example.com/taskale_tahil_ambarlari2.jpg",
+    "https://example.com/taskale_tahil_ambarlari3.jpg"
+  ]
+},
   {
     "slug": "aktekke-camii",
     "name": {

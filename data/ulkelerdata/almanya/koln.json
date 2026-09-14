@@ -136,51 +136,63 @@
   },
  
 {
-  "slug": "cikolata-muzesi",
-  "name": {
-    "tr": "Çikolata Müzesi",
-    "en": "Chocolate Museum",
-    "de": "Schokoladenmuseum"
-  },
-  "latitude": 50.9309,
-  "longitude": 6.9646,
-  "description": {
-    "tr": "Çikolata Müzesi, Almanya'nın Köln şehrinde Ren Nehri kıyısında yer alan ve dünyanın en popüler çikolata müzelerinden biri olarak kabul edilen önemli bir kültürel cazibe merkezidir. Müze, kakao çekirdeğinin tropikal plantasyonlardan başlayarak modern çikolata üretimine kadar uzanan yolculuğunu ziyaretçilere interaktif sergilerle anlatır. İçerisinde çalışan bir çikolata fabrikası, dev çikolata çeşmesi ve çeşitli tadım alanları bulunmaktadır. Her yıl yüz binlerce ziyaretçiyi ağırlayan müze, Köln'ün en çok ziyaret edilen turistik noktalarından biridir.",
-    "en": "The Chocolate Museum is one of the most popular museums in Germany, located on the banks of the Rhine River in Cologne. It presents the journey of cocoa beans from tropical plantations to modern chocolate production through interactive exhibitions. Visitors can explore a functioning chocolate factory, a giant chocolate fountain, and various tasting stations. Welcoming hundreds of thousands of visitors each year, it is one of Cologne's most visited tourist attractions.",
-    "de": "Das Schokoladenmuseum befindet sich am Rheinufer in Köln und zählt zu den bekanntesten Schokoladenmuseen der Welt. Es zeigt den Weg der Kakaobohne von tropischen Plantagen bis zur modernen Schokoladenproduktion. Besucher können eine funktionierende Schokoladenfabrik, einen großen Schokoladenbrunnen und verschiedene Verkostungsbereiche erleben. Das Museum gehört zu den meistbesuchten Sehenswürdigkeiten Kölns."
-  },
-  "activities": {
-    "tr": [
-      "Çikolata yapım sürecini keşfetme",
-      "Çikolata tadımı yapma",
-      "Müze sergilerini gezme"
-    ],
-    "en": [
-      "Explore chocolate production",
-      "Taste chocolate",
-      "Visit museum exhibitions"
-    ],
-    "de": [
-      "Schokoladenherstellung entdecken",
-      "Schokolade probieren",
-      "Museumsausstellungen besuchen"
+    "slug": "cikolata-muzesi",
+    "name": {
+      "tr": "Çikolata Müzesi",
+      "en": "Chocolate Museum",
+      "de": "Schokoladenmuseum"
+    },
+    "latitude": 50.9309,
+    "longitude": 6.9646,
+    "description": {
+      "tr": "Köln Çikolata Müzesi (Imhoff-Schokoladenmuseum), Almanya'nın Köln şehrinde tarihi Rheinauhafen liman bölgesinde, Ren Nehri suları üzerinde yükselen benzersiz bir cam-çelik bina içerisinde yer alan dünyaca ünlü bir kültür ve tat merkezidir. 1993 yılında çikolata üreticisi Hans Imhoff tarafından kurulan müze, kakao çekirdeğinin Mayalar ve Aztekler dönemindeki kutsal geçmişinden günümüzün küresel çikolata endüstrisine uzanan 5.000 yıllık sürükleyici yolculuğunu gözler önüne serer. Müze kompleksi bünyesinde barındırdığı gerçek tropikal sera (Tropenhaus) ile ziyaretçilerine kakao ağaçlarını, vanilya sarmaşıklarını ve egzotik iklim bitkilerini doğal ortamlarında inceleme imkanı sunarak unutulmaz bir botanik ve kültürel deneyim vaat eder.\n\nMüzenin kalbinde, saatte yüzlerce kilogram çikolata işleyen tam donanımlı ve işleyen bir minyatür çikolata fabrikası yer almaktadır. Ziyaretçiler, kakao kırmasından kavurmaya, karıştırmadan kalıplamaya kadar üretimin her aşamasını şeffaf cam bölmelerin arkasından izleyebilirler. Serginin şüphesiz en büyüleyici ve tatlı simgesi, 3 metre yüksekliğe sahip olan ve içerisinden 200 kilogramdan fazla taze eritilmiş Lindt çikolatasının aktığı devasa çikolata çeşmesidir; müze görevlileri çeşmeye batırdıkları gofretleri ziyaretçilere ikram etmektedir. Ayrıca interaktif üniteler sayesinde ziyaretçiler kendi arzularına göre malzeme seçerek kişiselleştirilmiş özel çikolatalarını usta çikolatacılara hazırlatabilirler.\n\nKöln’ün simge yapıları arasında başı çeken müze, aynı zamanda paha biçilmez antika porselen çikolata takımları, tarihi otomat makineleri ve 20. yüzyılın nostaljik reklam afişlerini sergileyen geniş bir koleksiyona ev sahipliği yapar. Ren Nehri’nin büyüleyici panoramik manzarasına hakim kafeteryasında çikolatalı tatlılar ve özel sıcak çikolatalar tadılabilir, hediyelik eşya dükkanından dünyaca ünlü lezzetler satın alınabilir. Her yaştan gezgin, gastronomi tutkunu ve aile için mükemmel bir keşif durağı olan Çikolata Müzesi, Köln gezilerinin vazgeçilmez bir parçasıdır.\n",
+      "en": "The Imhoff-Schokoladenmuseum (Cologne Chocolate Museum) is a world-renowned cultural and culinary landmark housed in a striking glass-and-steel building situated directly on the Rhine River in the historic Rheinauhafen district of Cologne, Germany. Established in 1993 by chocolate manufacturer Hans Imhoff, the museum presents a captivating journey through the 5,000-year history of cocoa, tracing its origins as a sacred drink of the Mayans and Aztecs to today’s global chocolate industry. A highlight of the museum is its walk-in tropical greenhouse (Tropenhaus), a climate-controlled glass dome showcasing living cacao trees, vanilla vines, and lush tropical flora.\n\nAt the heart of the complex lies a fully operational miniature chocolate factory processing hundreds of kilograms of chocolate daily. Visitors can observe every step of automated production—from roasting and grinding cocoa beans to conching and final molding—through transparent viewing windows. The undisputed star attraction is the famous 3-meter-tall golden Chocolate Fountain, flowing continuously with over 200 kilograms of warm, melted Lindt chocolate, where staff dip crispy waffles to hand out fresh tastes to delighted guests. Interactive stations also allow visitors to design their custom chocolate bars with personalized toppings crafted by master chocolatiers.\n\nBeyond its production lines, the museum displays an impressive historical collection featuring antique porcelain drinking vessels, vintage chocolate vending machines, and nostalgic 20th-century advertising art. The glass-walled museum café offers scenic panoramic views of the Rhine along with decadent chocolate pastries and signature hot cocoa drinks. An unforgettable destination for families, food lovers, and international travelers, the Chocolate Museum stands as one of Germany's most cherished visitor attractions.\n",
+      "de": "Das Imhoff-Schokoladenmuseum in Köln ist eine weltberühmte kulturelle und kulinarische Attraktion, die sich in einem spektakulären Bauwerk aus Glas und Stahl direkt am Rheinufer im historischen Rheinauhafen befindet. Das 1993 vom Schokoladenfabrikanten Hans Imhoff gegründete Museum nimmt seine Besucher mit auf eine faszinierende Reise durch die 5.000-jährige Geschichte des Kakaos – von seinen Anfängen als heiliges Trankopfer der Maya und Azteken bis hin zur modernen industriellen Schokoladenherstellung. Ein besonderes Highlight des Museums ist das begehbare Tropenhaus, ein klimatisierter Glaskubus mit echten Kakaobäumen, Vanillepflanzen und exotischer Vegetation.\n\nDas Herzstück der Ausstellung bildet eine voll funktionsfähige Gläserne Schokoladenfabrik, die täglich hunderte Kilogramm Schokolade produziert. Durch große Panoramafenster können Besucher alle Schritte der Herstellung hautnah mitverfolgen – vom Rösten der Kakaobohnen über das Conchieren bis hin zur verpackten Tafel. Das unangefochtene Wahrzeichen des Museums ist der 3 Meter hohe Schokoladenbrunnen, aus dem pausenlos über 200 Kilogramm flüssige Lindt-Schokolade sprudeln; Museumsmitarbeiter verteilen dort frische, in Schokolade getauchte Waffeln an die Gäste. An interaktiven Stationen können sich Besucher zudem ihre individuelle Lieblingsschokolade von Meisterschokoladiers kreieren lassen.\n\nErgänzt wird das Erlebnis durch eine reichhaltige historische Sammlung aus antikem Porzellangeschirr, nostalgischen Schokoladenautomaten und historischen Werbeplakaten. Das Panoramacafé mit direktem Blick auf den Rhein lädt zum Verweilen bei feinsten Schokoladenspezialitäten und heißer Trinkschokolade ein. Für Familien, Genießer und Kölntouristen ist das Schokoladenmuseum ein absolutes Highlight im Herzen der Stadt.\n"
+    },
+    "activities": {
+      "tr": [
+        "3 metrelik dev çikolata çeşmesinden taze erimiş Lindt çikolatası tatmak",
+        "Şeffaf minyatür fabrikada çikolata üretim aşamalarını izlemek",
+        "Tropikal seradaki canlı kakao ağaçlarını ve bitkileri keşfetmek",
+        "Kendi arzunuza göre kişiselleştirilmiş özel çikolata barı tasarlatmak"
+      ],
+      "en": [
+        "Tasting fresh melted Lindt chocolate from the iconic 3-meter Chocolate Fountain",
+        "Watching the step-by-step production process inside the transparent miniature factory",
+        "Exploring live cocoa trees inside the walk-in climate-controlled tropical greenhouse",
+        "Designing a custom chocolate bar with your choice of gourmet toppings"
+      ],
+      "de": [
+        "Probieren von frischer, flüssiger Lindt-Schokolade am 3 Meter hohen Schokoladenbrunnen",
+        "Beobachten der Schokoladenherstellung in der gläsernen Miniaturfabrik",
+        "Erkunden echter Kakaobäume im begehbaren Tropenhaus",
+        "Kreieren einer eigenen Schokoladentafel mit individuellen Zutaten"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "müze",
+        "gastronomi",
+        "kültür",
+        "şehir simgesi"
+      ],
+      "en": [
+        "museum",
+        "gastronomy",
+        "culture",
+        "city landmark"
+      ],
+      "de": [
+        "Museum",
+        "Gastronomie",
+        "Kultur",
+        "Wahrzeichen der Stadt"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/Schokoladenmuseum_Koeln.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "müze"
-    ],
-    "en": [
-      "museum"
-    ],
-    "de": [
-      "museum"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/5/50/Schokoladenmuseum_Koeln.jpg"
-  ]
-},
   {
     "slug": "ludwig-muzesi",
     "name": {

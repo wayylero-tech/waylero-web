@@ -1,59 +1,65 @@
 [
-{
-  "slug": "kutsal-dis-emaneti-tapinagi-kandy",
-  "city": {
-    "tr": "Kandy",
-    "en": "Kandy",
-    "de": "Kandy"
-  },
-  "name": {
-    "tr": "Kutsal Diş Emaneti Tapınağı (Sri Dalada Maligawa)",
-    "en": "Temple of the Sacred Tooth Relic",
-    "de": "Zahntempel (Sri Dalada Maligawa)"
-  },
-  "latitude": 7.2936,
-  "longitude": 80.6414,
-  "description": {
-    "tr": "Sri Lanka'nın kültürel başkenti sayılan ve dağlarla çevrili olan Kandy şehrinde yer alan bu görkemli tapınak kompleksinin, Budizm dünyası için kutsal bir değeri vardır. UNESCO koruması altındaki tapınak, bizzat Buda'nın ölümünden sonra yakılan bedeninden kurtarılan ve buraya getirilen 'sol köpek dişini' barındırır. Tarih boyunca bu diş emanetine sahip olan kişinin Sri Lanka'nın hükümdarı olacağına inanıldığı için, tapınak kraliyet saray kompleksinin hemen içinde yer alır. Altın kubbeli bu kutsal mekanda her gün rahipler tarafından geleneksel ritüeller ve dualar gerçekleştirilir. Sri Lanka'nın manevi kalbi ve en önemli inanç merkezidir.",
-    "en": "Situated in the lush, mountain-enclosed city of Kandy, Sri Lanka's cultural capital, this grand temple complex is one of the most sacred places of worship in the Buddhist world. Located within the royal palace complex, the UNESCO-listed temple houses the sacred tooth relic of Lord Buddha, retrieved from his funeral pyre. Historically, the relic played a vital role in local politics, as it was believed that whoever held the relic held the divine right to rule the island. Adorned with a golden canopy, the temple hosts vibrant daily rituals and monks performing traditional prayers.",
-    "de": "In der zentralen Stadt Kandy, der Kulturhauptstadt Sri Lankas, befindet sich dieser weltberühmte buddhistische Tempel. Er liegt im ehemaligen Königspalast und hütet ein heiliges Relikt: den linken Eckzahn des historischen Buddha Siddhartha Gautama."
-  },
-  "activities": {
-    "tr": [
-      "İnanç ve kültür turizmi",
-      "Geleneksel Budist ritüellerini izleme",
-      "Tarihi tapınak gezisi"
-    ],
-    "en": [
-      "Faith and cultural tourism",
-      "Observing traditional Buddhist rituals",
-      "Historical temple sightseeing"
-    ],
-    "de": [
-      "Religiöser und kultureller Tourismus",
-      "Beobachtung traditioneller buddhistischer Rituale",
-      "Historische Tempelbesichtigung"
+  {
+    "slug": "kutsal-dis-emaneti-tapinagi-kandy",
+    "city": {
+      "tr": "Kandy",
+      "en": "Kandy",
+      "de": "Kandy"
+    },
+    "name": {
+      "tr": "Kutsal Diş Emaneti Tapınağı (Sri Dalada Maligawa)",
+      "en": "Temple of the Sacred Tooth Relic (Sri Dalada Maligawa)",
+      "de": "Zahntempel (Sri Dalada Maligawa)"
+    },
+    "latitude": 7.2936,
+    "longitude": 80.6414,
+    "description": {
+      "tr": "Sri Lanka'nın kültürel başkenti sayılan ve dağlarla çevrili Kandy şehrinde, Kandy Gölü'nün kıyısında yer alan bu görkemli tapınak kompleksi (Sri Dalada Maligawa), Budizm dünyasının en kutsal ve en çok ziyaret edilen ibadet merkezlerinden biridir. UNESCO Dünya Mirası Listesi'nde yer alan yapı, Gautama Buda'nın M.Ö. 483 yılında Hindistan'daki cenaze ateşinden kurtarılan sol köpek dişini barındırır. Tarih boyunca bu kutsal emanete sahip olan kişinin Sri Lanka adasında hükümdarlık yapma meşruiyetine ve ilahi hakkına sahip olduğuna inanıldığı için, tapınak doğrudan Kandy Krallığı'nın kraliyet saray kompleksi içerisine inşa edilmiştir.\n\nAltın kaplama çatısı, zarif ahşap oymaları, fildişi süslemeleri ve renkli duvar resimleriyle öne çıkan tapınak kompleksi; ana türbe binası (Vahakada), Kraliyet Sarayı, Ulusal Müze ve Audienz Hall (Kraliyet Kabul Salonu) gibi tarihi yapı gruplarından oluşur. Kutsal diş emaneti, altın ve pırlantalarla süslü lotus şeklindeki yedi katlı muhafaza sandığı içerisinde saklanır. Her gün şafak vakti, öğle ve akşam saatlerinde davullar, üflemeli çalgılar (horanawa) ve taze nilüfer çiçekleri eşliğinde Malwatte ve Asgiriya mezheplerine mensup rahipler tarafından gerçekleştirilen 'Tevava' ritüelleri, tapınağa mistik ve derin bir atmosfer katar.\n\nHer yıl Temmuz veya Ağustos aylarında düzenlenen dünyaca ünlü 'Esala Perahera' festivalinde, kutsal diş muhafazası süslenmiş filler, meşale taşıyıcıları ve yüzlerce geleneksel Kandy dansçısı eşliğinde şehir sokaklarında görkemli bir geçit töreniyle gezdirilir. Hem manevi derinliği hem de eşsiz Kandyan mimarisiyle Kutsal Diş Emaneti Tapınağı, Sri Lanka'nın inanç ve kültür mirasının en parlak simgesidir.\n",
+      "en": "Situated along the shores of Kandy Lake in the mountain-encircled cultural capital of Sri Lanka, the Temple of the Sacred Tooth Relic (Sri Dalada Maligawa) is one of the most venerated places of worship in the Buddhist world. Listed as a UNESCO World Heritage site, the complex houses the sacred left canine tooth of Gautama Buddha, which was retrieved from his funeral pyre in India in 483 BC. Historically, ownership of the relic was linked to the divine right to rule the island; hence, the shrine was constructed inside the Royal Palace complex of the Kingdom of Kandy.\n\nCharacterized by its gilded golden canopy, elaborate wooden carvings, ivory inlays, and vibrant murals, the temple complex includes the central shrine, the Royal Palace, the National Museum, and the historic Audience Hall. The sacred tooth relic itself is encased within seven concentric golden caskets shaped like stupas and studded with precious gemstones. Daily worshipping rituals known as 'Tevava' are performed three times a day at dawn, noon, and evening by monks of the Malwatte and Asgiriya chapters, accompanied by traditional drumming, horanawa trumpets, and offerings of fresh lotus blossoms.\n\nDuring the annual 'Esala Perahera' festival held in July or August, a replica of the sacred relic casket is paraded through the streets of Kandy atop a grandly caparisoned elephant, escorted by hundreds of fire-dancers, drummers, and traditional Kandyan performers. Combining spiritual significance with historic Kandyan architecture, the temple stands as the beating heart of Sri Lanka's cultural heritage.\n",
+      "de": "Der Zahntempel (Sri Dalada Maligawa) am Ufer des Kandy-Sees in der von Bergen umgebenen Kulturhauptstadt Sri Lankas gehört zu den heiligsten Stätten des Buddhismus weltweit. Der von der UNESCO als Weltkulturerbe geschützte Tempelkomplex beherbergt den linken Eckzahn des historischen Buddha Gautama, der 483 v. Chr. aus seiner Scheiterhaufen-Asche in Indien gerettet wurde. Da der Besitz des Relikts historisch als göttliches Recht zur Herrschaft über die Insel galt, wurde der Tempel direkt im königlichen Palastkomplex des Königreichs Kandy errichtet.\n\nDas Bauwerk zeichnet sich durch sein vergoldetes Dach, feine Holzgeschnitzte Decken, Elfenbeinarbeiten und farbenfrohe Wandgemälde aus. Das heilige Relikt selbst ruht gut geschützt in sieben ineinander verschachtelten, mit Edelsteinen besetzten goldenen Stupa-Kassetten. Dreimal täglich führen Mönche der Malwatte- und Asgiriya-Orden traditionelle 'Tevava'-Rituale durch, die von Trommelklängen, Hornmusik und frischen Lotosblüten-Opfern begleitet werden.\n\nEin jährlicher Höhepunkt ist das weltberühmte 'Esala Perahera'-Festival im Juli oder August, bei dem eine Replik des Reliktenbehälters auf einem festlich geschmückten Elefanten in einer großen Prozession mit Peitschenknallern, Feuertänzern und Trommlern durch Kandy getragen wird. Der Zahntempel ist das spirituelle und kulturelle Zentrum Sri Lankas.\n"
+    },
+    "activities": {
+      "tr": [
+        "Geleneksel Tevava ritüellerini ve davul gösterilerini izlemek",
+        "Altın kubbeli tapınak ve Kraliyet Sarayı kompleksini gezmek",
+        "Kandy Gölü kıyısında ve tapınak avlusunda huzurlu bir yürüyüş yapmak",
+        "Temmuz-Ağustos aylarındaki Esala Perahera festivaline katılmak"
+      ],
+      "en": [
+        "Observing the daily Tevava ritual ceremonies and traditional drumming",
+        "Exploring the golden-canopied main shrine and Royal Palace complex",
+        "Strolling around the peaceful courtyard and scenic Kandy Lake",
+        "Witnessing the grand Esala Perahera festival procession in summer"
+      ],
+      "de": [
+        "Beobachtung der täglichen Tevava-Ritualzeremonien und traditionellen Trommler",
+        "Besichtigung des vergoldeten Hauptschreins und des Königspalast-Komplexes",
+        "Spazierengehen im friedlichen Tempelhof und am Ufer des Kandy-Sees",
+        "Erleben der großen Esala-Perahera-Prozession im Sommer"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "tapinak",
+        "ibadethane",
+        "unesco"
+      ],
+      "en": [
+        "historical-site",
+        "temple",
+        "place-of-worship",
+        "unesco"
+      ],
+      "de": [
+        "historische-staette",
+        "tempel",
+        "gotteshaus",
+        "unesco"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Temple_of_the_Tooth_Kandy_Sri_Lanka.jpg"
     ]
-  },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "tapinak",
-      "ibadethane"
-    ],
-    "en": [
-      "historical-site",
-      "temple",
-      "place-of-worship"
-    ],
-    "de": [
-      "historische-staette",
-      "tempel",
-      "gotteshaus"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/c/ca/Temple_of_the_Tooth_Kandy_Sri_Lanka.jpg"
-  ]
-}
+  }
 ]

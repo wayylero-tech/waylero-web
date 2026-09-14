@@ -1,106 +1,114 @@
 [
- {
-  "slug": "lankaran-kalesi-ve-zindan",
-  "name": {
-    "tr": "Lankaran Kalesi ve Dairesel Zindan",
-    "en": "Lankaran Fortress and Circular Castle",
-    "de": "Festung Lankaran und Runder Turm"
-  },
-  "latitude": 38.7538,
-  "longitude": 48.8514,
-  "description": {
-    "tr": "18. yüzyılda Talış Hanlığı döneminde inşa edilen Lankaran Kalesi, şehrin en eski ve en önemli tarihi askeri savunma tahkimatlarından biridir. Orijinalinde çok daha büyük bir alanı kaplayan kaleden günümüze kalan en ikonik parça, 'Dairesel Kale' (Dairəvi Qala) veya halk arasındaki adıyla Zindan'dır. Kırmızı tuğladan silindirik bir kule mimarisiyle yapılan bu yapı, Rus İmparatorluğu döneminde hapishane olarak kullanılmıştır. Bu zindanın en büyük tarihi popülaritesi, 20. yüzyılın başlarında genç Joseph Stalin'in burada bir süre mahkum olarak yatması ve ardından gizli bir yer altı tünelinden kaçması efsanesidir. Günümüzde Lankaran'ın simgelerinden biri olan bu yapı, bölgenin siyasi ve askeri tarihini yansıtır.",
-    "en": "Built in the 18th century during the Talysh Khanate era, the Lankaran Fortress was a major military defense fortification. The most iconic surviving part of the complex is the 'Circular Castle' (Dairəvi Qala), widely known as the Old Prison. Constructed with red bricks in a cylindrical tower layout, it served as a prison during the Russian Empire. The structure's main historical fame comes from the fact that a young Joseph Stalin was imprisoned here in the early 20th century before successfully escaping through a secret underground tunnel. Today, it stands as a prominent historical landmark of Lankaran.",
-    "de": "Eine Festungsanlage aus dem 18. Jahrhundert. Der markante rote, runde Turm diente im Russischen Reich als Gefängnis, in dem Anfang des 20. Jahrhunderts unter anderem der junge Josef Stalin inhaftiert war."
-  },
-  "activities": {
-    "tr": [
-      "Tarihi askeri yapı gezisi",
-      "Fotoğrafçılık",
-      "Şehir turu"
-    ],
-    "en": [
-      "Historical military architecture tour",
-      "Photography",
-      "City exploration"
-    ],
-    "de": [
-      "Historische Militärarchitektur-Tour",
-      "Fotografie",
-      "Stadtbesichtigung"
+  {
+    "slug": "lankaran-kalesi-ve-zindan",
+    "name": {
+      "tr": "Lankaran Kalesi ve Dairesel Zindan",
+      "en": "Lankaran Fortress and Circular Castle",
+      "de": "Festung Lankaran und Runder Turm"
+    },
+    "latitude": 38.75083,
+    "longitude": 48.85611,
+    "description": {
+      "tr": "Lankaran Kalesi, Hazar Denizi'nin güneybatı kıyısındaki Lankaran şehrinin tarihî gelişiminde önemli rol oynayan 18. yüzyıl savunma sistemidir. Kale, Talış Hanlığı döneminde şehrin korunması amacıyla oluşturulmuş ve surlar, kuleler ile stratejik savunma noktalarından meydana gelmiştir. Lankaran'ın tarihî kalesi günümüzde bütünüyle ayakta değildir. Rus İmparatorluğu'nun bölgedeki hâkimiyetinin ardından 1813 yılında kale surlarının büyük bölümü yıkılmış ve eski savunma sistemi zaman içerisinde ortadan kalkmıştır. Buna rağmen kalenin iki önemli kulesi günümüze ulaşmıştır. Bunlardan biri deniz tarafında bulunan ve daha sonra deniz fenerine dönüştürülen kuledir. Diğeri ise Dairesel Kale veya Zindan olarak bilinen yuvarlak yapıdır. Dairesel Kale, 18. yüzyılda Lankaran Kalesi'nin güney savunma noktalarından biri olarak inşa edilmiştir. Yuvarlak planlı, kalın duvarlı ve tuğla ağırlıklı mimarisi yapının savunma amacıyla tasarlandığını gösterir. Kale sisteminin kuzey ve güneyindeki bu iki kule, ana sur hattının önemli destek noktaları olarak görev yapmıştır. Dairesel Kale'nin adı zamanla Zindan olarak da kullanılmaya başlanmıştır. Yapı 19. yüzyılda hapishane olarak kullanılmaya başlanmış ve uzun süre bu işlevini sürdürmüştür. Azerbaycan'ın resmî turizm kaynakları, genç Josef Stalin'in 1903-1904 yıllarında bu hapishanede kısa süreliğine tutulduğunun söylendiğini ve daha sonra deniz fenerine bağlanan yeraltı geçidiyle kaçırıldığını belirtmektedir. Ancak bu anlatı tarihsel kaynaklarda farklı biçimlerde aktarıldığından, ziyaretçilere kesinleşmiş bir olaydan ziyade yapıyla ilişkilendirilen tarihî bir anlatı olarak sunulması daha uygundur. Dairesel Kale'nin çevresi, Lankaran'ın tarihî şehir dokusunu anlamak açısından da önemlidir. Kale sistemi şehrin yalnızca askerî güvenliğini değil, ticaret yollarını ve Hazar kıyısındaki stratejik konumunu da yansıtır. Günümüzde ana kale surları büyük ölçüde kaybolmuş olsa da Dairesel Kale ve deniz feneri olarak kullanılan diğer kule, eski Lankaran Kalesi'nin izlerini takip etmeyi mümkün kılar. Dairesel Kale ayrıca Azerbaycan'da devlet tarafından korunan tarihî mimari anıtlardan biridir. Ziyaretçiler burada 18. yüzyıl savunma mimarisini, kırmızı tuğla işçiliğini ve Lankaran'ın geçmişteki askerî önemini inceleyebilir. Yapının şehir merkezindeki konumu sayesinde Lankaran'ın diğer tarihî noktalarıyla birlikte keşfedilmesi de mümkündür.",
+      "en": "Lankaran Fortress was an important defensive system in the historical development of Lankaran, a city situated on the southwestern coast of the Caspian Sea. The fortress was established during the period of the Talysh Khanate in the 18th century and consisted of defensive walls, towers and strategically positioned strongholds designed to protect the city. The original fortress has not survived as a complete complex. After Russian control was established in the region, much of the fortress wall was demolished in 1813 and the wider defensive system gradually disappeared. Two important towers, however, survived and remain associated with the former fortress. One of them stands closer to the Caspian coast and was later converted into a lighthouse. The other is the circular structure known as the Round Fortress, Circular Castle or Zindan. The Round Fortress was built in the 18th century as one of the southern strongholds of the Lankaran defensive system. Its circular plan, substantial walls and brick construction reflect its original military purpose. The northern and southern towers worked as important support points within the larger fortress system. Over time, the southern tower became known as Zindan because it was used as a prison. It served this function for many decades after the fortress itself had lost its original military role. The building is also connected with one of the most famous historical stories associated with Lankaran. Azerbaijan's official tourism information states that the young Josef Stalin is said to have been imprisoned there for a short period in 1903-1904 and later taken away through an underground passage connecting the prison tower with the lighthouse. Because accounts of this episode vary, it is more appropriate to present it as a historical tradition associated with the building rather than as an unquestionable fact. The relationship between the Round Fortress and the lighthouse is particularly interesting because the two structures represent the surviving parts of a much larger defensive landscape. The fortress reflected the strategic importance of Lankaran, which stood close to the Caspian coast and important regional routes. Today, the Round Fortress is one of the most recognizable historical landmarks of Lankaran and is protected as a cultural heritage monument. Visitors can examine its circular architecture, brickwork and defensive character while learning about the history of the former Lankaran Fortress. Although the original walls have largely disappeared, the surviving tower and lighthouse provide valuable physical evidence of the city's 18th-century military history. The site can also be combined with other historical buildings and cultural attractions in central Lankaran, making it a useful starting point for understanding the city's past."
+    ,
+    "de": "Die Festung von Lankaran entstand im 18. Jahrhundert. Von der ehemaligen Anlage sind unter anderem der runde Zindan-Turm und der spätere Leuchtturm erhalten. Der Zindan diente lange als Gefängnis."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kale ve kule gezisi",
+        "Tarihi mimariyi inceleme",
+        "Fotoğrafçılık",
+        "Lankaran şehir turu"
+      ],
+      "en": [
+        "Historical fortress and tower visit",
+        "Exploring historic architecture",
+        "Photography",
+        "Lankaran city tour"
+      ],
+      "de": [
+        "Historische Festungsbesichtigung",
+        "Architektur entdecken",
+        "Fotografie",
+        "Stadtrundgang"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "kale",
+        "zindan"
+      ],
+      "en": [
+        "historical-site",
+        "fortress",
+        "prison"
+      ],
+      "de": [
+        "historische-staette",
+        "festung",
+        "gefaengnis"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Circular_Castle_Lankaran.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "kale",
-      "zindan"
-    ],
-    "en": [
-      "historical-site",
-      "fortress",
-      "prison"
-    ],
-    "de": [
-      "historische-staette",
-      "festung",
-      "gefaengnis"
+  {
+    "slug": "hanbulan-golu-lankaran",
+    "name": {
+      "tr": "Hanbulan Gölü",
+      "en": "Khanbulan Lake",
+      "de": "Chanbulan-See"
+    },
+    "latitude": 38.6651,
+    "longitude": 48.7889,
+    "description": {
+      "tr": "Hanbulan Gölü, Azerbaycan'ın güneyindeki Lankaran bölgesinde, Talış Dağları'nın eteklerinde ve Hirkan Milli Parkı çevresindeki yoğun ormanların içinde yer alan önemli bir su rezervuarıdır. Halk arasında göl olarak bilinse de Hanbulan doğal oluşumlu bir gölden ziyade insan yapımı bir rezervuardır. Lankaran şehir merkezinin yaklaşık 17 kilometre güneybatısında bulunan su alanı, çevresindeki yemyeşil ormanlarla birleşerek bölgenin en dikkat çekici doğal manzaralarından birini oluşturur. Hanbulan'ın çevresindeki ormanlar, Hazar'ın güney kıyısındaki nemli subtropikal iklimin etkisiyle zengin bir bitki örtüsüne sahiptir. Hirkan Milli Parkı, Talış Dağları boyunca uzanan ve Azerbaycan'ın en önemli orman ekosistemlerinden birini koruyan geniş bir doğal alandır. Parkta demirağacı, kestane yapraklı meşe, gürgen ve çeşitli diğer nemli orman bitkileri bulunur. Özellikle demirağacı olarak bilinen ağaç türleri bölgenin en karakteristik doğal değerleri arasındadır. Hirkan ormanlarının biyolojik çeşitliliği yalnızca bitkilerle sınırlı değildir; bölgede farklı memeli ve kuş türleri de yaşamaktadır. Kafkas leoparı gibi nadir ve tehdit altındaki türler de Hirkan ekosisteminin korunan yaban hayatı arasında yer alır. Hanbulan çevresindeki manzara, su yüzeyinin ormanlık yamaçlarla çevrilmesi sayesinde özellikle fotoğrafçılık açısından dikkat çekicidir. Sakin havalarda ağaçların ve dağlık çevrenin göl yüzeyindeki yansımaları belirgin şekilde görülebilir. Bölge aynı zamanda doğa yürüyüşleri, piknik, kamp ve açık hava etkinlikleri için kullanılmaktadır. Azerbaycan'ın resmî turizm kaynakları Hanbulan çevresinde kamp yapma, piknik, atlı gezinti ve çeşitli yürüyüş rotalarının bulunduğunu belirtmektedir. Bununla birlikte ziyaretçilerin korunan milli park alanında belirlenmiş güzergâhlara ve yerel kurallara uyması önemlidir. Hanbulan'ın değeri yalnızca su manzarasından kaynaklanmaz. Göl çevresindeki ormanlar, Talış Dağları'nın doğal yapısı ve yakın köylerin kültürel dokusu birlikte değerlendirildiğinde bölge, Lankaran'ın subtropikal karakterini tanımak için önemli bir durak haline gelir. Şehir merkezinden uzaklaştıkça yoğun yapılaşmanın yerini ormanlık alanlar ve dağlık manzaralar almaya başlar. Bu nedenle Hanbulan, Lankaran'ın tarihî yapılarından farklı olarak bölgenin doğal mirasını ön plana çıkaran bir gezi noktasıdır. Özellikle doğa fotoğrafçılığı yapmak, orman havasında yürümek, sakin bir manzara eşliğinde vakit geçirmek veya Hirkan Milli Parkı'nın biyolojik çeşitliliğini keşfetmek isteyen ziyaretçiler için uygundur. Hanbulan Gölü, Lankaran ile Talış Dağları arasındaki doğal peyzajın önemli parçalarından biri olarak güney Azerbaycan'ın subtropikal doğasını yakından görmek isteyenler için değerli bir noktadır.",
+      "en": "Khanbulan Lake is an important water reservoir in southern Azerbaijan, located in the Lankaran region at the foothills of the Talysh Mountains and surrounded by the lush forests associated with Hirkan National Park. Although commonly called a lake, Khanbulan is an artificial reservoir rather than a naturally formed lake. Located approximately 17 kilometers southwest of Lankaran city, the reservoir has become one of the most recognizable natural landscapes in the region because of the dense forest and mountainous scenery surrounding its waters. The climate of southern Azerbaijan is strongly influenced by the Caspian Sea and produces humid subtropical conditions around Lankaran and the Talysh Mountains. These conditions support a rich forest ecosystem with numerous tree and plant species. Hirkan National Park protects one of the most important forest environments in Azerbaijan and is particularly well known for ancient tree species such as ironwood, as well as chestnut-leaved oak, hornbeam and other plants associated with the region's humid forests. The biological importance of Hirkan extends beyond vegetation. The protected area provides habitat for many species of mammals and birds, including rare and threatened wildlife such as the Caucasian leopard. Khanbulan provides an accessible landscape from which visitors can experience part of this forest environment. The reservoir is surrounded by wooded hills and, during calm weather, the surface of the water can reflect the surrounding vegetation and mountains. This makes the area particularly attractive for landscape photography and quiet outdoor activities. Azerbaijan's official tourism information lists camping, picnicking, horseback riding and hiking among the activities available around Khanbulan Lake. A number of hiking routes in the wider Hirkan area pass through forests and traditional settlements, allowing visitors to combine the reservoir with a broader exploration of the region. Because Hirkan is a protected natural area, visitors should follow designated routes and local regulations when exploring the surroundings. Khanbulan is also significant because it demonstrates the close relationship between water management and the natural landscape of southern Azerbaijan. The reservoir itself is a man-made feature, but over time it has become visually integrated with the surrounding forest environment. Its location near the Talysh Mountains also provides a transition from the lowland landscapes around Lankaran toward the more mountainous interior. For travelers interested in nature rather than urban attractions, Khanbulan offers a very different experience from the historic buildings of Lankaran city. The combination of forest, reservoir, mountain scenery and the biodiversity of the surrounding protected area makes it a useful base for experiencing the subtropical character of southern Azerbaijan. Whether visited for photography, a picnic, a forest walk or as part of a wider Hirkan National Park itinerary, Khanbulan Lake is one of the region's most distinctive outdoor destinations."
+    ,
+    "de": "Der Chanbulan-See ist ein künstlicher Stausee am Fuß des Talysch-Gebirges. Dichte subtropische Wälder, Wanderwege und die Nähe zum Hirkan-Nationalpark machen ihn zu einem beliebten Naturziel."
+   },
+    "activities": {
+      "tr": [
+        "Doğa kampı ve piknik",
+        "Orman yürüyüşü",
+        "Doğa fotoğrafçılığı",
+        "Manzara seyri"
+      ],
+      "en": [
+        "Nature camping and picnic",
+        "Forest hiking",
+        "Nature photography",
+        "Scenic viewing"
+      ],
+      "de": [
+        "Natur-Camping und Picknick",
+        "Waldwandern",
+        "Naturfotografie",
+        "Landschaftsbeobachtung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doga",
+        "gol",
+        "milli-park"
+      ],
+      "en": [
+        "nature",
+        "lake",
+        "national-park"
+      ],
+      "de": [
+        "natur",
+        "see",
+        "nationalpark"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/da/Khanbulan_Lake_Lankaran_Azerbaijan.jpg"
     ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ec/Circular_Castle_Lankaran.jpg"
-  ]
-},
-{
-  "slug": "hanbulan-golu-lankaran",
-  "name": {
-    "tr": "Hanbulan Gölü",
-    "en": "Khanbulan Lake",
-    "de": "Chanbulan-See"
-  },
-  "latitude": 38.6651,
-  "longitude": 48.7889,
-  "description": {
-    "tr": "Lankaran ile Lerik ilçeleri arasında, Hirkan Ulusal Parkı'nın sık ve balta girmemiş subtropikal ormanlarının kalbinde yer alan Hanbulan, aslında 1976 yılında sulama amaçlı yapılmış devasa bir yapay su rezervuarıdır. Ancak zamanla etrafını saran asırlık demir ağaçları, meşeler ve Kafkas şimşirleri sayesinde tamamen doğal bir göl ekosistemine ve büyüleyici bir doğa harikasına dönüşmüştür. Subtropikal iklimin etkisiyle yılın her dönemi yemyeşil kalan gölün yüzeyi, etrafındaki yoğun ormanın kusursuz yeşil yansımalarını sunar. Şehrin gürültüsünden uzaklaşmak, temiz orman havası almak ve Hazar'ın arkasındaki yemyeşil dağların huzurunu yaşamak isteyen seyyahlar ile kamp tutkunları için Lankaran'daki en popüler kaçış noktasıdır.",
-    "en": "Nestled between the Lankaran and Lerik regions, in the heart of the lush and dense subtropical forests of Hirkan National Park, Khanbulan is a massive water reservoir built in 1976. Over the decades, surrounded by ancient ironwood trees, oaks, and Caucasian boxwoods, it has integrated beautifully into nature, becoming a stunning lake ecosystem. Due to the unique subtropical climate, it remains vibrantly green year-round, offering perfect reflections on its calm waters. It is the most popular getaway for camping, eco-trekking, and escaping the urban bustle in southern Azerbaijan.",
-    "de": "Ein malerischer Stausee inmitten der dichten subtropikalischen Wälder des Hirkan-Nationalparks. Ein Paradies für Ökotourismus, Camping und Naturfotografie im Süden Aserbaidschans."
-  },
-  "activities": {
-    "tr": [
-      "Doğa kampı ve piknik",
-      "Orman trekkingi",
-      "Eko-turizm ve manzara seyri"
-    ],
-    "en": [
-      "Nature camping and picnic",
-      "Forest trekking",
-      "Eco-tourism and scenic viewing"
-    ],
-    "de": [
-      "Natur-Camping und Picknick",
-      "Waldwandern",
-      "Ökotourismus und Landschaftsgenuss"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "doga",
-      "gol",
-      "milli-park"
-    ],
-    "en": [
-      "nature",
-      "lake",
-      "national-park"
-    ],
-    "de": [
-      "natur",
-      "see",
-      "nationalpark"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/d/da/Khanbulan_Lake_Lankaran_Azerbaijan.jpg"
-  ]
-}
+  }
 ]

@@ -700,52 +700,73 @@
       "https://example.com/cirali_plaji.jpg"
     ]
   },
-  {
-    "slug": "alanya-kleopatra-plaji",
-    "name": {
-      "tr": "Alanya Kleopatra Plajı",
-      "en": "Alanya Cleopatra Beach",
-      "de": "Alanya Kleopatra Strand"
-    },
-    "latitude": 36.55524,
-    "longitude": 31.97286,
-    "description": {
-      "tr": "Alanya'nın merkezine oldukça yakın konumda bulunan Kleopatra Plajı, ince altın sarısı kumu ve berrak deniziyle ünlüdür. Bu plaj, hem tarih hem de doğal güzellikleri birleştirerek ziyaretçilerine eşsiz bir deneyim sunar. Efsaneye göre, Mısır Kraliçesi Kleopatra'nın burada yüzdüğü söylenir. Kleopatra Plajı, özellikle temiz denizi ve sakin atmosferi ile dikkat çeker.\n\nPlaj boyunca birçok otel, restoran ve kafe bulunur. Bu, ziyaretçilerin hem güneşin tadını çıkarabileceği hem de deniz kenarında dinlenebileceği birçok imkan sunar. Plaj, aynı zamanda su sporları ve deniz aktiviteleri için de uygundur.\n\nAlanya şehir merkezine yaklaşık 2 kilometre mesafede bulunan Kleopatra Plajı, ulaşım açısından oldukça kolaydır. Plaja yürüyerek de ulaşılabileceği gibi, toplu taşıma araçları ile de rahatça gidilebilir.",
-      "en": "Cleopatra Beach, which is very close to the centre of Alanya, is famous for its fine golden sand and crystal clear sea. This beach offers a unique experience to its visitors by combining both history and natural beauty. Legend has it that Cleopatra, Queen of Egypt, used to swim here. Cleopatra Beach is known for its clean sea and tranquil atmosphere.\n\nThere are many hotels, restaurants and cafes along the beach. This gives visitors plenty of opportunities to enjoy the sun and relax by the sea. The beach is also suitable for water sports and nautical activities.\n\nCleopatra Beach, which is about 2 kilometres from the centre of Alanya, is very easy to get to. The beach can be reached on foot or by public transport. ",
-      "de": "Der Kleopatra-Strand in der Nähe des Stadtzentrums von Alanya ist berühmt für seinen feinen goldenen Sand und das kristallklare Meer. Dieser Strand bietet seinen Besuchern ein einzigartiges Erlebnis, da er Geschichte und Naturschönheiten vereint. Der Legende nach soll die ägyptische Königin Kleopatra hier gebadet haben. Der Kleopatra-Strand zeichnet sich vor allem durch sein sauberes Meer und seine ruhige Atmosphäre aus.\n\nEntlang des Strandes befinden sich zahlreiche Hotels, Restaurants und Cafés. Es gibt viele Möglichkeiten, die Sonne zu genießen und sich am Meer zu entspannen. Der Strand eignet sich auch für Wassersport und andere Aktivitäten am Meer.\n\nDer Kleopatra-Strand liegt etwa 2 km vom Stadtzentrum Alanyas entfernt und ist leicht zu erreichen. Der Strand kann zu Fuß oder mit öffentlichen Verkehrsmitteln erreicht werden. "
-    },
-    "activities": {
-      "tr": [
-        "Denize girmek",
-        "Güneşlenmek",
-        "Su sporları yapmak"
-      ],
-      "en": [
-        "Swimming",
-        "Sunbathing",
-        "Water sports"
-      ],
-      "de": [
-        "Schwimmen",
-        "Sonnenbaden",
-        "Wassersport betreiben"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "plaj"
-      ],
-      "en": [
-        "beach"
-      ],
-      "de": [
-        "Strand"
-      ]
-    },
-    "images": [
-      "https://example.com/kleopatra_plaji.jpg"
+ {
+  "slug": "alanya-kleopatra-plaji",
+  "name": {
+    "tr": "Alanya Kleopatra Plajı",
+    "en": "Alanya Cleopatra Beach",
+    "de": "Alanya Kleopatra Strand"
+  },
+  "latitude": 36.55524,
+  "longitude": 31.97286,
+  "description": {
+    "tr": "Alanya Kleopatra Plajı, Antalya'nın Alanya ilçesinde, tarihi Alanya Yarımadası'nın batı kıyısında yer alan ve bölgenin en tanınmış sahillerinden biridir. Plaj, Damlataş Mağarası'nın hemen batısında uzanır ve arkasında Alanya'nın tarihi yarımadası yükselir. Altın tonlarına yaklaşan kumsalı, Akdeniz'in berrak mavi suları ve şehir merkezine yakın konumu sayesinde hem denize girmek hem de Alanya'yı keşfetmek isteyen ziyaretçiler için oldukça elverişli bir noktadır. GoTürkiye plajın yaklaşık 2 kilometre uzunluğunda olduğunu belirtirken, Alanya Belediyesi de Kleopatra Plajı'nı Mavi Bayraklı sahiller arasında göstermektedir.\n\nPlajın adı, Mısır Kraliçesi Kleopatra ile ilişkilendirilen eski bir anlatıdan gelir. Alanya ve çevresinin tarihi hakkında aktarılan anlatılarda Kleopatra ile Roma Generali Marcus Antonius'un bu kıyılarda yüzdüğü söylenir. Bu nedenle plajın adı zaman içinde Kleopatra ile özdeşleşmiştir. Bu hikâyeyi kesin olarak kanıtlanmış bir olaydan çok, Alanya'nın tarihî kimliğiyle iç içe geçmiş geleneksel bir anlatı olarak değerlendirmek daha doğru olur. Alanya'nın antik çağlardan Selçuklu dönemine kadar uzanan geçmişi, plajın hemen arkasındaki tarihi yarımada ve kale ile birlikte düşünüldüğünde bölgeye yalnızca bir deniz tatili noktası olmanın ötesinde farklı bir karakter kazandırır.\n\nKleopatra Plajı'nın önemli özelliklerinden biri de deniz suyunun berraklığıdır. Alanya Belediyesi, kıyının doğal yapısının kayalık bölümlerle çevrili olduğunu ve özellikle Kleopatra Koyu olarak adlandırılan bölümde suyun berraklığı sayesinde deniz gözlüğüyle su altındaki balıkları ve doğal deniz tabanını gözlemlemenin mümkün olduğunu belirtir. Bu nedenle yüzme ve güneşlenmenin yanı sıra hafif su aktiviteleri için de uygun bir ortam bulunur. Ancak Akdeniz kıyısında deniz koşulları rüzgâr ve dalga durumuna göre değişebileceğinden, özellikle çocuklarla denize girerken güncel koşullara dikkat etmek gerekir.\n\nPlajın çevresindeki konum da ziyaret açısından avantaj sağlar. Damlataş Mağarası, Alanya Kalesi, tarihi yarımada, seyir noktaları, restoranlar, kafeler ve şehir içindeki diğer turistik alanlara yakın olması sayesinde Kleopatra Plajı tek başına ziyaret edilebileceği gibi Alanya şehir turunun bir parçası olarak da değerlendirilebilir. Sabah saatlerinde deniz kenarında yürüyüş yapmak, gün içinde yüzmek ve güneşlenmek, daha sonra Damlataş Mağarası veya Alanya Kalesi çevresini keşfetmek oldukça pratik bir gezi planı oluşturur.\n\nKleopatra Plajı, Alanya'nın şehir yaşamı ile Akdeniz kıyı deneyimini aynı noktada buluşturması açısından özellikle dikkat çekicidir. Plajın çevresinde konaklama seçenekleri, yeme içme mekânları ve günlük ihtiyaçları karşılayabilecek işletmeler bulunur. Sahile şehir içinden yürüyerek veya toplu taşıma kullanarak ulaşmak da mümkündür. Tarih, deniz, şehir manzarası ve Akdeniz atmosferini aynı gezi içinde bir araya getirmek isteyenler için Kleopatra Plajı, Alanya'da görülmeye değer başlıca sahil duraklarından biridir.",
+    "en": "Alanya Cleopatra Beach is one of the best-known coastal destinations in Alanya, Antalya, stretching along the western side of the historic Alanya Peninsula. The beach lies close to Damlatas Cave, with the historic peninsula rising behind the shoreline. Its golden-toned sand, clear Mediterranean waters and convenient location near the town centre make it a popular choice for visitors who want to combine a beach day with sightseeing in Alanya. GoTürkiye describes Cleopatra Beach as approximately 2 kilometres long, while Alanya Municipality lists it among the area's Blue Flag beaches.\n\nThe name of the beach is connected with a long-standing story involving Cleopatra, the famous queen of ancient Egypt. Traditional accounts associated with the history of Alanya say that Cleopatra and the Roman general Marcus Antonius swam along this coast. This story has become an important part of the identity of the beach and the surrounding area. It is more appropriate to regard the story as a historical tradition or legend rather than as an event that can be established with complete certainty. The connection nevertheless gives the beach a distinctive cultural character, especially when combined with the ancient history of Alanya and the historic fortress located on the peninsula.\n\nOne of the most noticeable characteristics of Cleopatra Beach is the clarity of its Mediterranean water. Alanya Municipality highlights the clear water of the small bay associated with the beach and notes that visitors using swimming goggles can observe fish and parts of the natural seabed. Swimming and relaxing by the sea are therefore the main reasons people visit, while the coastal setting also provides opportunities for light water-based activities. As with any Mediterranean beach, sea conditions can vary depending on wind and waves, so visitors should pay attention to local conditions, particularly when swimming with children.\n\nThe beach is also valuable because of its location within Alanya's sightseeing area. Damlatas Cave is nearby, while Alanya Castle and the historic peninsula provide opportunities to explore the city's architectural and cultural heritage. Restaurants, cafes, accommodation and other visitor services can be found around the surrounding urban area, making it easy to combine time at the beach with a wider day of exploration. A visitor can spend the morning walking along the coast, enjoy a swim during the warmer part of the day and then continue towards Damlatas Cave or the historic peninsula.\n\nCleopatra Beach is not simply an isolated strip of sand away from the city. Its setting places the Mediterranean coastline directly alongside one of Alanya's most important historic areas. This combination gives visitors the chance to experience the sea, the urban atmosphere and the heritage of the peninsula within a relatively compact area. The beach can be reached on foot from parts of central Alanya and is also accessible by local public transportation.\n\nFor travellers looking for a beach that is easy to combine with cultural sightseeing, Cleopatra Beach is one of the most practical choices in Alanya. Its clear water, distinctive shoreline, connection with the Cleopatra legend and proximity to Damlatas Cave and Alanya Castle make it a natural stop on an Alanya itinerary. Whether the goal is swimming, relaxing in the Mediterranean sun, taking a coastal walk or exploring the historic peninsula afterwards, the beach offers a convenient introduction to the coastal character of Alanya.",
+    "de": "Der Kleopatra-Strand liegt westlich der historischen Halbinsel von Alanya, nahe der Damlataş-Höhle. Der etwa 2 Kilometer lange Strand ist für seinen goldfarbenen Sand, das klare Mittelmeerwasser und seine Verbindung mit der Kleopatra-Legende bekannt. Der Strand ist mit der Blauen Flagge ausgezeichnet und eignet sich zum Schwimmen, Sonnenbaden und für verschiedene Aktivitäten am Meer. Durch die Nähe zur Damlataş-Höhle und zur Burg von Alanya lässt sich ein Strandbesuch gut mit einer Stadtbesichtigung verbinden."
+  },
+  "activities": {
+    "tr": [
+      "Denize girmek",
+      "Güneşlenmek",
+      "Sahil yürüyüşü yapmak",
+      "Deniz gözlüğüyle su altını gözlemlemek",
+      "Fotoğraf çekmek",
+      "Su sporları yapmak"
+    ],
+    "en": [
+      "Swimming",
+      "Sunbathing",
+      "Walking along the beach",
+      "Exploring the seabed with swimming goggles",
+      "Photography",
+      "Water sports"
+    ],
+    "de": [
+      "Schwimmen",
+      "Sonnenbaden",
+      "Strandspaziergänge",
+      "Unterwasserbeobachtung",
+      "Fotografieren",
+      "Wassersport"
     ]
   },
+  "categories": {
+    "tr": [
+      "plaj",
+      "deniz",
+      "doğa",
+      "şehir",
+      "turizm"
+    ],
+    "en": [
+      "beach",
+      "sea",
+      "nature",
+      "city",
+      "tourism"
+    ],
+    "de": [
+      "Strand",
+      "Meer",
+      "Natur",
+      "Stadt",
+      "Tourismus"
+    ]
+  },
+  "images": [
+    "https://example.com/kleopatra_plaji.jpg"
+  ]
+},
   {
     "slug": "alanya-dim-cayi",
     "name": {
@@ -1157,51 +1178,78 @@
     ]
   },
   {
-    "slug": "termessos-milli-parki",
-    "name": {
-      "tr": "Termessos Milli Parkı",
-      "en": "Termessos National Park",
-      "de": "Termessos Nationalpark"
-    },
-    "latitude": 37.03073,
-    "longitude": 30.51164,
-    "description": {
-      "tr": "Termessos Milli Parkı, Antalya il sınırları içinde, Toros Dağları'nın eteklerinde yer alan bir milli parktır. Bu bölge, hem doğal güzellikleri hem de tarihi kalıntıları ile büyük bir ilgi görmektedir. Termessos, antik Pisidya kentlerinden biri olup, yüksek dağlar ve zorlu coğrafi koşullar sayesinde tarihte oldukça iyi korunmuş bir yerleşimdir. Antik kentin yüksekliği nedeniyle, bölgeye ulaşım zordur, ancak bu da burayı koruyan bir etken olmuştur.",
-      "en": "Termessos National Park is a national park located at the foot of the Taurus Mountains within the borders of Antalya province. This region attracts great attention with its natural beauties and historical ruins. Termessos is one of the ancient Pisidian cities and is a well-preserved settlement in history thanks to the high mountains and difficult geographical conditions. Due to the height of the ancient city, transportation to the area is difficult, but this has also been a factor in protecting it.",
-      "de": "Der Nationalpark Termessos liegt am Fuße des Taurusgebirges in der Provinz Antalya. Dieses Gebiet ist sowohl wegen seiner Naturschönheiten als auch wegen seiner historischen Ruinen sehr interessant. Termessos ist eine der antiken pisidischen Städte und dank der hohen Berge und der schwierigen geographischen Bedingungen eine gut erhaltene historische Siedlung. Die Höhenlage der antiken Stadt erschwert den Zugang zu der Region, ist aber auch ein Faktor, der sie schützt."
-    },
-    "activities": {
-      "tr": [
-        "Antik kalıntıları gezmek",
-        "Doğa Gezisi yürüyüşü yapmak",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Visit ancient ruins",
-        "Hike the nature trail",
-        "Take photos"
-      ],
-      "de": [
-        "Antike Ruinen besichtigen",
-        "Wanderung auf dem Naturpfad",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/termessos_milli_parki.jpg"
+  "slug": "termessos-milli-parki",
+  "name": {
+    "tr": "Termessos Milli Parkı",
+    "en": "Termessos National Park",
+    "de": "Termessos Nationalpark"
+  },
+  "latitude": 37.03073,
+  "longitude": 30.51164,
+  "description": {
+    "tr": "Güllük Dağı-Termessos Milli Parkı, Antalya'nın kuzeybatısında, Toros Dağları'nın etkileyici dağlık coğrafyası içerisinde yer alan ve tarih ile doğayı aynı alanda buluşturan önemli koruma alanlarından biridir. Yaklaşık 6.702 hektarlık bir alanı kapsayan milli park, 3 Kasım 1970 tarihinde ilan edilmiştir. Parkın en önemli kültürel değeri, günümüzde ormanların arasında ve yaklaşık 1.050 metre rakımda bulunan Termessos antik kentidir. Dağlık arazi, sarp kayalıklar ve doğal bitki örtüsü antik kentin çevresinde güçlü bir peyzaj oluşturur.\n\nTermessos, Pisidya bölgesinin önemli antik yerleşimlerinden biri olarak kabul edilir ve tarih boyunca bulunduğu coğrafyanın doğal savunma avantajlarından yararlanmıştır. Kentin tarih sahnesinde en çok öne çıktığı olaylardan biri Büyük İskender'in MÖ 333 yılında Termessos'u kuşatmasıdır. Termessosluların güçlü savunması karşısında İskender'in kenti ele geçirememesi, antik kentin tarihsel anlatısında önemli bir yer tutar. Kentin yüksek ve ulaşılması zor konumu, yalnızca savunma açısından değil, günümüze ulaşan kalıntıların doğal çevre içerisinde korunmasında da etkili olmuştur.\n\nAntik kent alanında surlar, kuleler, kral yolu, Hadrian Kapısı, gymnasium, agora, tiyatro, odeon, mezarlar, sarnıçlar ve çeşitli mimari kalıntılar görülebilir. Özellikle tiyatronun bulunduğu yüksek noktadan çevredeki dağlık araziyi görmek, Termessos ziyaretinin en dikkat çekici bölümlerinden biridir. Kentin yapıları doğrudan yoğun bir şehirleşme içerisinde değil, orman ve kayalık araziyle iç içe bulunduğundan ziyaret sırasında hem arkeolojik kalıntılar hem de doğal çevre birlikte deneyimlenir.\n\nMilli parkın değeri yalnızca Termessos antik kentiyle sınırlı değildir. Güllük Dağı'nın sarp kayalıkları, Mecine Kanyonu ve farklı yükseltilerde görülen Akdeniz bitki toplulukları bölgenin doğal karakterini oluşturur. Resmî kaynaklarda park içerisinde kızılçam ve maki topluluklarının yanı sıra çok sayıda bitki türünün bulunduğu belirtilmektedir. Alanda alageyik, yaban keçisi ve çeşitli kuş türleri gibi yaban hayatı unsurları da bulunmaktadır. Bu nedenle Termessos, arkeoloji meraklılarının yanı sıra doğa yürüyüşü, botanik, fotoğrafçılık ve yaban hayatı gözlemiyle ilgilenen ziyaretçiler için de farklı deneyimler sunar.\n\nTermessos'u ziyaret etmek, klasik bir antik kent gezisinden biraz daha farklıdır. Ören yerine ulaştıktan sonra kalıntılar arasında yürümek ve bazı bölümlerde eğimli, doğal patikalardan ilerlemek gerekir. Bu nedenle rahat yürüyüş ayakkabıları, su ve mevsime uygun kıyafet bulundurmak faydalıdır. Alanın dağlık karakteri nedeniyle hava koşulları da ziyaret deneyimini etkileyebilir. İlkbahar ve sonbahar, yürüyüş ve çevreyi keşfetmek açısından daha elverişli dönemler olabilir.\n\nGüllük Dağı-Termessos Milli Parkı, Antalya'nın deniz ve plaj turizmiyle özdeşleşen görüntüsünden farklı bir yüzünü gösterir. Burada antik bir kentin surları ve tiyatrosu, Akdeniz ormanları, yüksek kayalıklar ve dağ manzaraları aynı gezi içerisinde bir araya gelir. Tarihi kalıntıları doğal çevresiyle birlikte görmek isteyenler için Termessos, Antalya çevresindeki en karakteristik kültür ve doğa rotalarından biridir.",
+    "en": "Gulluk Mountain-Termessos National Park is an important protected area in northwestern Antalya where ancient history and the rugged landscapes of the Taurus Mountains come together. Covering approximately 6,702 hectares, the national park was officially declared in 1970. Its most important cultural attraction is the ancient city of Termessos, located within a forested mountain environment at an elevation of around 1,050 metres. The steep terrain, rocky slopes and Mediterranean vegetation create a distinctive setting around the archaeological remains.\n\nTermessos was an important ancient settlement in the Pisidian region and benefited greatly from its naturally defensive location. One of the best-known episodes in its history took place in 333 BC, when Alexander the Great attempted to capture the city. The inhabitants of Termessos successfully defended their settlement, and Alexander eventually abandoned the attempt. The city's elevated and difficult-to-reach position played an important role in its defence and also helped preserve the archaeological site within its natural surroundings over the centuries.\n\nThe ancient city contains a remarkable collection of remains spread across the mountainous landscape. Visitors can see sections of the city walls, towers, the King's Road, Hadrian's Gate, the gymnasium, agora, theatre, odeon, monumental tombs and cisterns. The theatre is particularly striking because of its elevated position and views over the surrounding mountains. Unlike archaeological sites located in dense urban environments, Termessos remains closely connected with the forest and rocky terrain around it. Walking between the ruins therefore becomes both an archaeological and a nature experience.\n\nThe national park itself extends far beyond the ancient settlement. The steep rocky formations of Gulluk Mountain, Mecine Canyon and the Mediterranean forest and maquis vegetation are among the area's major natural features. Official sources highlight the park's rich flora and wildlife, including species such as fallow deer, wild goats and numerous bird species. Botanical diversity is also an important part of the park, making the area interesting for visitors who enjoy nature observation as well as archaeology.\n\nA visit to Termessos is more active than a typical city-based museum or archaeological site. After reaching the archaeological area, visitors need to continue on foot along natural and sometimes steep paths. Comfortable walking shoes, sufficient drinking water and weather-appropriate clothing are therefore recommended. The mountainous character of the site also means that weather conditions can influence the experience. Spring and autumn are particularly attractive periods for walking and exploring the landscape, while conditions should always be considered before setting out.\n\nTermessos offers several ways to experience the area. Exploring the ancient ruins provides an insight into the city's history and architecture, while walking through the surrounding forest reveals the natural side of the national park. Photography is especially rewarding because the archaeological structures, pine forests, rocky mountain slopes and wide views can be combined in the same landscape. Nature enthusiasts may also be interested in the park's botanical and wildlife diversity.\n\nGulluk Mountain-Termessos National Park presents a different side of Antalya from the region's famous Mediterranean beaches and resort towns. Ancient walls, monumental tombs and a mountain theatre stand among forests and rugged rocks, creating a landscape in which cultural heritage and nature are inseparable. For travellers interested in ancient history, hiking, photography and protected natural landscapes, Termessos is one of the most distinctive destinations around Antalya.",
+    "de": "Der Termessos-Nationalpark liegt nordwestlich von Antalya im Taurusgebirge und verbindet eine beeindruckende Berglandschaft mit den Ruinen der antiken Stadt Termessos. Die Stadt liegt auf etwa 1.050 Metern Höhe und ist von Wäldern, Felsen und mediterraner Vegetation umgeben. Zu den wichtigsten Sehenswürdigkeiten gehören Stadtmauern, Türme, die Königsstraße, das Hadrianstor, das Theater, das Odeon, Gräber und Zisternen. Der Park ist außerdem für seine vielfältige Pflanzenwelt und Tierwelt bekannt. Wandern, Naturbeobachtung, Fotografie und die Erkundung der antiken Ruinen gehören zu den wichtigsten Erlebnissen."
+  },
+  "activities": {
+    "tr": [
+      "Antik kenti keşfetmek",
+      "Doğa yürüyüşü yapmak",
+      "Tarihi kalıntıları incelemek",
+      "Fotoğraf çekmek",
+      "Yaban hayatını gözlemlemek",
+      "Bitki çeşitliliğini keşfetmek",
+      "Piknik yapmak"
+    ],
+    "en": [
+      "Explore the ancient city",
+      "Hiking",
+      "Explore archaeological remains",
+      "Photography",
+      "Wildlife observation",
+      "Explore plant diversity",
+      "Picnicking"
+    ],
+    "de": [
+      "Antike Stadt besichtigen",
+      "Wandern",
+      "Archäologische Ruinen erkunden",
+      "Fotografieren",
+      "Wildtiere beobachten",
+      "Pflanzenwelt entdecken",
+      "Picknicken"
     ]
   },
+  "categories": {
+    "tr": [
+      "doğa",
+      "tarih",
+      "arkeoloji",
+      "milli park",
+      "antik kent",
+      "yürüyüş"
+    ],
+    "en": [
+      "nature",
+      "history",
+      "archaeology",
+      "national park",
+      "ancient city",
+      "hiking"
+    ],
+    "de": [
+      "Natur",
+      "Geschichte",
+      "Archäologie",
+      "Nationalpark",
+      "Antike Stadt",
+      "Wandern"
+    ]
+  },
+  "images": [
+    "https://example.com/termessos_milli_parki.jpg"
+  ]
+},
   
   {
     "slug": "kursunlu-selalesi",
@@ -2458,48 +2506,72 @@
     ]
   },
   {
-    "slug": "asiklar-magarasi",
-    "name": {
-      "tr": "Aşıklar Mağarası",
-      "en": "Lovers Cave",
-      "de": "Liebeshöhle"
-    },
-    "latitude": 36.53732,
-    "longitude": 31.98644,
-    "description": {
-      "tr": "Aşıklar Mağarası, Alanya'nın Alara bölgesinde bulunan ve kırmızımsı kayaları ile dikkat çeken bir mağaradır. Mağara, ilginç kaya oluşumları ve tarihî izlerle doludur. Alanya'nın tarihi ve doğal dokusuyla birleşen bu mağara, keşfe çıkanlar için farklı bir deneyim sunar.\n\nAşıklar Mağarası, Alanya şehir merkezine yaklaşık 30 km uzaklıkta yer alır. Ziyaretçilere, mağara içindeki doğal yapıları keşfetme fırsatı sunar ve çevresindeki doğal güzelliklerle birleşerek unutulmaz bir deneyim yaşatır.\n",
-      "en": "Lovers Cave is a cave located in the Alara region of Alanya and attracts attention with its reddish rocks. The cave is full of interesting rock formations and historical traces. Combined with the historical and natural structure of Alanya, this cave offers a different experience to those who explore it.\n\nThe Lovers Cave is located about 30 km from the center of Alanya. It offers visitors the opportunity to explore the natural structures inside the cave and provides an unforgettable experience by combining it with the natural beauties around it.\n",
-      "de": "Die Liebeshöhle ist eine Höhle in der Alara Region von Alanya, die mit ihren rötlichen Felsen die Aufmerksamkeit auf sich zieht. Die Höhle ist voll von interessanten Felsformationen und historischen Spuren. Kombiniert mit der historischen und natürlichen Struktur von Alanya, bietet diese Höhle eine andere Erfahrung für diejenigen, die sie erkunden.\n\nDie Liebeshöhle liegt etwa 30 km vom Stadtzentrum von Alanya entfernt. Sie bietet den Besuchern die Möglichkeit, die natürlichen Strukturen im Inneren der Höhle zu erforschen und in Kombination mit den Naturschönheiten der Umgebung ein unvergessliches Erlebnis zu erleben.\n"
-    },
-    "activities": {
-      "tr": [
-        "Mağara turu yapmak",
-        "Fotoğraf çekmek"
-      ],
-      "en": [
-        "Take a cave tour",
-        "Take photographs"
-      ],
-      "de": [
-        "An einer Höhlenführung teilnehmen",
-        "Fotos machen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "mağara"
-      ],
-      "en": [
-        "cave"
-      ],
-      "de": [
-        "Höhle"
-      ]
-    },
-    "images": [
-      "https://example.com/kizil_magara.jpg"
+  "slug": "asiklar-magarasi",
+  "name": {
+    "tr": "Aşıklar Mağarası",
+    "en": "Lovers Cave",
+    "de": "Liebeshöhle"
+  },
+  "latitude": 36.5295,
+  "longitude": 31.9889,
+  "description": {
+    "tr": "Aşıklar Mağarası, Alanya'nın tarihi yarımadasının güneybatı kesiminde, Akdeniz kıyısına yakın kayalıkların içerisinde yer alan doğal bir mağaradır. Alanya'nın deniz mağaraları arasında anılan bu oluşum, konumu ve çevresindeki kayalık kıyı yapısıyla tarihi yarımadanın doğal dokusunun önemli parçalarından biridir. Mağaranın giriş bölümü deniz seviyesinin üzerinde bulunur ve Alanya Belediyesi'ne göre giriş ile deniz suyu arasında yaklaşık 34 metrelik bir yükseklik vardır. Mağaranın iç kısmına doğru ilerleyen ziyaretçiler, doğal kaya oluşumları arasında farklı bir atmosferle karşılaşabilir.\n\nAşıklar Mağarası'nın dikkat çekici özelliklerinden biri, mağaranın iki girişinin bulunmasıdır. Antalya İl Kültür ve Turizm Müdürlüğü'nün Alanya tanıtım bilgilerinde mağaranın yaklaşık 75 metre uzunluğunda olduğu belirtilmektedir. Mağaranın iki farklı açıklığa sahip olması, burayı yalnızca kıyıdan görülen küçük bir kaya boşluğu olmaktan çıkararak Alanya'nın ilginç doğal oluşumlarından biri haline getirir. Mağaranın konumu aynı zamanda tarihi yarımadanın kayalık yapısını ve Akdeniz'e doğru uzanan kıyı çizgisini yakından görme fırsatı sunar.\n\nMağaranın adı çevresinde çeşitli yerel anlatılar ve söylentiler bulunur. Alanya'nın deniz mağaraları hakkında hazırlanan resmî tanıtım metninde Aşıklar Mağarası için de farklı hikâyelerin anlatıldığı belirtilir. Bu anlatılardan birine göre mağara geçmişte korsanlar tarafından esir alınan kadınları ve ganimetleri saklamak amacıyla kullanılmıştır. Bu tür hikâyeler Alanya kıyılarındaki mağaralarla ilgili geleneksel anlatıların bir parçasıdır ve kesin tarihsel gerçekler olarak değerlendirilmemelidir. Mağaranın ismi ve çevresindeki romantik atmosfer ise zaman içinde burayı Alanya'nın daha farklı ve merak uyandıran duraklarından biri haline getirmiştir.\n\nAşıklar Mağarası'nın bulunduğu bölge, Alanya'nın en yoğun turistik noktalarından bazılarına oldukça yakındır. Alanya Kalesi, Damlataş Mağarası, Kızılkule, tarihi yarımada ve çevredeki seyir noktaları aynı gezi içerisinde değerlendirilebilir. Bu nedenle mağarayı tek başına ziyaret etmek yerine tarihi yarımadayı keşfeden bir rota içerisinde görmek daha anlamlı olabilir. Özellikle kıyı manzaralarını sevenler için mağaranın bulunduğu kayalık çevre, Alanya'nın Akdeniz'e açılan güney yüzünü farklı bir açıdan görme imkânı sağlar.\n\nMağaraya ulaşım ve içeriye giriş konusunda dikkatli olmak gerekir. Kayalık arazi ve mağaranın konumu nedeniyle burası klasik bir turistik mağara işletmesi gibi düzenlenmiş, geniş yürüyüş yollarına sahip bir alan değildir. Bu nedenle uygun ayakkabı kullanmak, kaygan veya düzensiz yüzeylerde dikkatli hareket etmek ve özellikle çocuklarla birlikte ziyaret ediliyorsa güvenliğe öncelik vermek önemlidir. Deniz tarafındaki kayalıklar ve mağara çevresindeki doğal zemin, hava ve deniz koşullarına göre daha zor hale gelebilir.\n\nAşıklar Mağarası, büyük turistik mağaralarda görülen aydınlatılmış salonlar veya düzenlenmiş ziyaret parkurları yerine, Alanya'nın doğal kıyı peyzajını ve yerel anlatılarını deneyimleyebileceğiniz daha küçük ve karakteristik bir noktadır. Mağaranın doğal yapısını incelemek, çevrede fotoğraf çekmek ve tarihi yarımadanın kayalık kıyılarını keşfetmek başlıca deneyimler arasındadır. Alanya Kalesi çevresinde gezi yapan ve şehirdeki bilinen turistik durakların yanında daha farklı doğal noktalar görmek isteyenler için Aşıklar Mağarası kısa ama ilginç bir keşif durağı olabilir.",
+    "en": "Lovers Cave, known locally as Aşıklar Mağarası, is a natural cave located on the southwestern side of Alanya's historic peninsula, close to the Mediterranean coast. It is one of the coastal caves associated with Alanya and forms part of the rugged natural landscape surrounding the historic fortress area. According to Alanya Municipality, the cave is situated on the southwestern side of the peninsula, and the entrance is approximately 34 metres above sea level. Its position among the rocky cliffs gives visitors a different perspective on the natural character of Alanya's historic coastline.\n\nOne of the notable features of Lovers Cave is that it has two entrances. Information published by the Antalya Provincial Directorate of Culture and Tourism describes the cave as approximately 75 metres long. This makes it more than a simple opening in the coastal rocks and gives it a distinctive place among Alanya's natural attractions. Moving through the cave allows visitors to observe the natural rock structure while also experiencing the rugged landscape of the historic peninsula. The surrounding area offers views towards the Mediterranean and the rocky coastline of Alanya.\n\nSeveral local stories and legends are associated with Lovers Cave. The official Alanya tourism information mentions different traditional stories connected with the cave. According to one of these stories, pirates once used the cave to hide captured women and their treasures. Such stories belong to the local folklore surrounding the sea caves of Alanya and should be understood as legends rather than established historical facts. Nevertheless, these narratives contribute to the character of the cave and help explain why the site has retained a romantic and mysterious name.\n\nThe location of Lovers Cave makes it easy to combine with other attractions on Alanya's historic peninsula. Alanya Castle, Damlatas Cave, the Red Tower and several viewpoints are located in the same general sightseeing area. Instead of planning a separate long trip specifically for the cave, visitors can include it as part of a broader walk around the historic peninsula and its coastal surroundings. The combination of archaeological heritage, dramatic rocks and Mediterranean scenery gives this part of Alanya a character that is different from the city's long sandy beaches.\n\nVisitors should keep in mind that Lovers Cave is not the same type of attraction as a modern commercial show cave with paved paths, extensive lighting and controlled indoor routes. The surrounding terrain is rocky and natural, so suitable footwear and careful movement are important. Conditions around coastal rocks can also change depending on weather and sea conditions. Anyone visiting with children should take particular care around uneven surfaces and exposed sections.\n\nThe cave is especially interesting for travellers who enjoy natural formations, local legends and less conventional sightseeing stops. Photography can be rewarding around the rocky landscape, while the cave itself provides an opportunity to observe the natural structure of the peninsula from a different angle. The nearby coastline also offers views that connect the cave with Alanya's wider Mediterranean setting.\n\nLovers Cave is therefore best understood as a small but distinctive natural attraction within Alanya's historic peninsula. Its two entrances, approximately 75-metre length, rocky setting and collection of local legends make it different from the larger commercial caves in the region. For visitors already exploring Alanya Castle and the historic peninsula, the cave can add a short natural and atmospheric stop to an itinerary focused on the city's history, coastline and landscapes.",
+    "de": "Die Liebeshöhle liegt auf der Südwestseite der historischen Halbinsel von Alanya nahe der Mittelmeerküste. Die Höhle besitzt zwei Eingänge und ist etwa 75 Meter lang. Um die Höhle ranken sich verschiedene lokale Legenden, darunter Geschichten über Piraten und versteckte Schätze. Die natürliche Felslandschaft und die Nähe zur Burg von Alanya machen sie zu einem interessanten Abstecher für Besucher, die neben den bekannten Sehenswürdigkeiten auch die Natur der historischen Halbinsel entdecken möchten."
+  },
+  "activities": {
+    "tr": [
+      "Mağarayı keşfetmek",
+      "Kaya oluşumlarını incelemek",
+      "Fotoğraf çekmek",
+      "Tarihi yarımadada yürüyüş yapmak",
+      "Akdeniz manzarasını izlemek",
+      "Yerel efsaneleri keşfetmek"
+    ],
+    "en": [
+      "Explore the cave",
+      "Observe rock formations",
+      "Photography",
+      "Walk around the historic peninsula",
+      "Enjoy Mediterranean views",
+      "Discover local legends"
+    ],
+    "de": [
+      "Höhle erkunden",
+      "Felsformationen betrachten",
+      "Fotografieren",
+      "Auf der historischen Halbinsel spazieren",
+      "Meerblick genießen",
+      "Lokale Legenden entdecken"
     ]
   },
+  "categories": {
+    "tr": [
+      "mağara",
+      "doğa",
+      "jeoloji",
+      "tarih",
+      "keşif"
+    ],
+    "en": [
+      "cave",
+      "nature",
+      "geology",
+      "history",
+      "exploration"
+    ],
+    "de": [
+      "Höhle",
+      "Natur",
+      "Geologie",
+      "Geschichte",
+      "Entdeckung"
+    ]
+  },
+  "images": [
+    "https://example.com/kizil_magara.jpg"
+  ]
+},
   {
     "slug": "dim-magarasi-alanya",
     "name": {
@@ -2543,7 +2615,7 @@
       "https://example.com/dim_magara.jpg"
     ]
   },
-  {
+    {
     "slug": "beydaglari-sahil-milli-parki",
     "name": {
       "tr": "Beydağları Sahil Milli Parkı",
@@ -2553,36 +2625,66 @@
     "latitude": 36.59524,
     "longitude": 30.5102,
     "description": {
-      "tr": "Beydağları Sahil Milli Parkı, Antalya'nın Kemer ilçesinde yer alan büyük bir milli parktır. Bu park, Toros Dağları ile Akdeniz'in birleşim noktasında yer alır ve büyüleyici doğası, çeşitli bitki örtüsü ve hayvan yaşamı ile dikkat çeker. Park, doğa yürüyüşleri, kamp ve piknik yapmak için harika bir yerdir.\n\nBeydağları Sahil Milli Parkı, aynı zamanda çok sayıda kuş türüne ev sahipliği yapmaktadır. Ayrıca, bu alanda deniz ve dağ manzaralarının birleşimi, doğa severler için unutulmaz bir deneyim sunar. Antalya şehir merkezine yaklaşık 35 km mesafededir ve özel araçla kolayca ulaşılabilir.",
-      "en": "Beydaglari Coastal National Park is a large national park located in the Kemer district of Antalya. This park is located at the junction of the Taurus Mountains and the Mediterranean Sea and is known for its fascinating nature, diverse flora and fauna. The park is a great place for nature walks, camping and picnics.\n\nBeydağları Coastal National Park is also home to numerous bird species. In addition, the combination of sea and mountain views in this area provides an unforgettable experience for nature lovers. It is approximately 35 km from Antalya city center and is easily accessible by private car.",
-      "de": "Der Beydaglari Küsten-Nationalpark ist ein großer Nationalpark im Bezirk Kemer von Antalya. Der Park liegt an der Schnittstelle zwischen dem Taurusgebirge und dem Mittelmeer und besticht durch seine faszinierende Natur und seine vielfältige Flora und Fauna. Der Park eignet sich hervorragend zum Wandern, Campen und Picknicken.\n\nDer Beydağları Küsten-Nationalpark beherbergt auch zahlreiche Vogelarten. Darüber hinaus bietet die Kombination aus Meer- und Bergblick in diesem Gebiet ein unvergessliches Erlebnis für Naturliebhaber. Der Nationalpark liegt ca. 35 km vom Stadtzentrum Antalya entfernt und ist leicht mit dem Auto zu erreichen."
+      "tr": "Beydağları Sahil Milli Parkı, Antalya'nın Akdeniz kıyısı boyunca uzanan ve deniz, orman, dağ, yaban hayatı ve arkeolojik mirası aynı korunan alan içerisinde buluşturan geniş bir milli parktır. 1972 yılında milli park ilan edilen alan, günümüzde Konyaaltı, Kemer ve Kumluca ilçelerinin sınırları içerisinde yaklaşık 31.165 hektarlık bir alanı kapsar. Antalya'nın batısında Tünektepe çevresinden başlayarak Gelidonya Burnu'na kadar uzanan kıyı bandı boyunca farklı doğal ve kültürel peyzajlar görülebilir. Bu nedenle parkı yalnızca tek bir mesire veya yürüyüş alanı olarak düşünmek yerine, çok sayıda gezi noktasını bir araya getiren büyük bir doğa ve kültür rotası olarak değerlendirmek daha doğru olur. Parkın doğal yapısında Batı Toroslar'ın genç dağ kuşağına ait kalker ve serpantin kayaçlar önemli yer tutar. Dağların kısa mesafede denize ulaşması, bölgede hem yüksek rakımlı ormanların hem de kıyı ekosistemlerinin bir arada bulunmasını sağlar. Çam ormanları, makilik alanlar, kayalık yamaçlar ve Akdeniz kıyıları parkın karakteristik görünümünü oluşturur. Korunan alan aynı zamanda çok çeşitli hayvan türlerine ev sahipliği yapar. Resmî kaynaklarda bölgede çok sayıda kuş, sürüngen ve iki yaşamlı türü bulunduğu, ayrıca Ulupınar semenderi ve Kemer semenderi gibi endemik semender türlerinin park ve yakın çevresinde yaşadığı belirtilmektedir. Beydağları Sahil Milli Parkı'nın en önemli özelliklerinden biri doğal güzelliklerle tarihî mirasın iç içe olmasıdır. Park sınırları içerisinde Phaselis, Olympos, Chimaera ve Gagai gibi antik yerleşimlerle birlikte Beldibi mağarası, Çıralı Yanartaş, Adrasan ve Gelidonya Feneri gibi farklı karakterde noktalar bulunur. Likya Yolu'nun çeşitli bölümleri de parkın doğal ve kültürel dokusunu keşfetmek isteyen yürüyüşçüler için önemli rotalar oluşturur. Açık hava etkinlikleri açısından da oldukça zengin olan milli parkta doğa yürüyüşü, piknik, yüzme, bisiklet, kano, yaban hayatı gözlemi, fotoğrafçılık, kaya tırmanışı ve belirli alanlarda kamp gibi aktiviteler yapılabilir. Park içerisinde günübirlik kullanım alanları, kamp alanları, yürüyüş güzergâhları, manzara noktaları ve yaban hayatı gözlem alanları bulunmaktadır. Tahtalı Dağı'nın yüksek kesimlerine teleferikle çıkılması da bölgenin en dikkat çekici deneyimlerinden biridir. Dağın zirvesinden Akdeniz kıyısı, ormanlar ve çevredeki dağlık arazi geniş bir açıyla görülebilir. Çıralı kıyısı ise deniz kaplumbağalarının önemli yuvalama alanlarından biri olması nedeniyle özel bir çevresel değere sahiptir. Beydağları Sahil Milli Parkı'nı gezerken tek bir noktaya bağlı kalmak yerine farklı doğal ve tarihî durakları bir rota halinde değerlendirmek daha keyifli olur. Doğa yürüyüşleri, antik kent gezileri, kıyı manzaraları ve açık hava aktivitelerini bir arada isteyen gezginler için Antalya'nın en kapsamlı korunan alanlarından biridir.",
+      "en": "Beydağları Coastal National Park is a large protected area along the Mediterranean coast of Antalya where mountains, forests, coastline, wildlife and archaeological heritage come together within the same landscape. Declared a national park in 1972, the protected area covers approximately 31,165 hectares across parts of Konyaaltı, Kemer and Kumluca. It stretches along a long section of the Antalya coast, from the Tünektepe area toward Cape Gelidonya, and contains a wide variety of natural and cultural attractions. Rather than being a single recreational site, Beydağları is best understood as a large network of landscapes, walking routes, coastal areas and historical destinations. The geological structure of the park is dominated by limestone and serpentine formations associated with the Western Taurus mountain range. The mountains rise relatively close to the Mediterranean, creating a striking transition between forested slopes, rocky terrain and coastal ecosystems. Pine forests, Mediterranean vegetation, rocky hillsides and blue sea views form much of the characteristic scenery. The protected area also supports a rich variety of wildlife. Official conservation sources record numerous bird, reptile and amphibian species in the park and its surroundings, including endemic salamanders such as the Ulupınar salamander and Kemer salamander. One of the most remarkable aspects of Beydağları Coastal National Park is the way natural scenery and archaeological heritage exist side by side. Important ancient settlements such as Phaselis, Olympos, Chimaera and Gagai are located within or associated with the protected landscape, while other attractions include Beldibi Cave, Çıralı Yanartaş, Adrasan and Cape Gelidonya Lighthouse. Sections of the Lycian Way also pass through the wider park landscape, making the area especially attractive to hikers and outdoor travelers. The national park offers many different activities, including hiking, picnicking, swimming, cycling, canoeing, wildlife observation, photography and selected outdoor sports. Official park information lists day-use areas, camping areas, walking routes, viewpoints, wildlife observation locations, rock-climbing areas and paragliding launch sites. Mount Tahtalı is another major attraction. Visitors can reach the high mountain area by cable car and enjoy extensive views over the Mediterranean coastline and surrounding Taurus Mountains. Çıralı Beach is also environmentally important because it is a recognized nesting area for Caretta caretta sea turtles. Travelers visiting the park should therefore pay attention to local conservation rules, particularly around nesting beaches and protected natural areas. Beydağları Coastal National Park is ideal for travelers who want more than a conventional beach holiday. Ancient cities, mountain trails, forests, beaches, viewpoints and wildlife habitats can all be incorporated into a single itinerary. Its combination of natural diversity and archaeological heritage makes it one of the most comprehensive protected landscapes in the Antalya region.",
+      "de": "Küsten-Nationalpark"
     },
     "activities": {
       "tr": [
-        "Doğa yürüyüşleri yapmak",
-        "Kamp yapmak"
+        "Doğa yürüyüşü yapmak",
+        "Antik kentleri keşfetmek",
+        "Piknik yapmak",
+        "Denize girmek",
+        "Fotoğraf çekmek",
+        "Yaban hayatını gözlemlemek",
+        "Kamp yapmak",
+        "Tahtalı Dağı manzarasını izlemek"
       ],
       "en": [
         "Hike in nature",
-        "Camp in the park"
+        "Explore ancient sites",
+        "Have a picnic",
+        "Swim in the Mediterranean",
+        "Take photographs",
+        "Observe wildlife",
+        "Camp in designated areas",
+        "Enjoy views from Mount Tahtalı"
       ],
       "de": [
-        "Wandern in der Natur",
-        "Campen im Park"
+        "Wandern",
+        "Antike Stätten erkunden",
+        "Picknicken",
+        "Baden",
+        "Fotografieren",
+        "Wildtiere beobachten",
+        "Campen",
+        "Bergblick genießen"
       ]
     },
     "categories": {
       "tr": [
         "doğa",
-        "piknik"
+        "milli park",
+        "tarih",
+        "arkeoloji",
+        "deniz",
+        "yürüyüş"
       ],
       "en": [
         "nature",
-        "picnic"
+        "national park",
+        "history",
+        "archaeology",
+        "coast",
+        "hiking"
       ],
       "de": [
         "Natur",
-        "picknick"
+        "Nationalpark",
+        "Geschichte",
+        "Archäologie",
+        "Küste",
+        "Wandern"
       ]
     },
     "images": [
@@ -2599,36 +2701,63 @@
     "latitude": 36.40633,
     "longitude": 30.47423,
     "description": {
-      "tr": "Çıralı, Antalya'nın Kemer ilçesinde bulunan sakin ve doğa ile iç içe bir tatil beldesidir. Çıralı, ince kumlu plajı, temiz denizi ve çevresindeki doğal güzellikleri ile ünlüdür. Aynı zamanda Caretta Caretta deniz kaplumbağalarının üreme alanlarından biridir, bu nedenle çevre koruma açısından önemli bir bölgedir. Turistik tesislerin yanı sıra butik oteller ve kamp alanları ile de dikkat çeker.\n\nÇıralı'nın etrafı, Toros Dağları ve çam ormanları ile çevrilidir, bu da burayı doğa yürüyüşleri ve sakin bir tatil arayanlar için mükemmel bir yer yapar. Ayrıca, yakınlarda yer alan Olympos Antik Kenti ve Yanartaş (Chimaera) gibi tarihi ve doğal zenginlikler de ziyaretçilerin ilgisini çeker. Çıralı'ya Antalya şehir merkezinden yaklaşık 80 km mesafede ulaşılabilir.",
-      "en": "Çıralı is a quiet and natural vacation resort in the Kemer district of Antalya. Cirali is famous for its fine sandy beach, clean sea and the natural beauties around it. It is also one of the breeding areas of Caretta Caretta sea turtles, so it is an important region in terms of environmental protection. The beach attracts attention with boutique hotels and camping areas as well as tourist facilities.\n\nÇıralı is surrounded by the Taurus Mountains and pine forests, making it the perfect place for those looking for nature walks and a quiet vacation. In addition, the nearby ancient city of Olympos and Yanartas (Chimaera) are of great historical and natural interest to visitors. Cirali is about 80 km from Antalya city center.",
-      "de": "Çıralı ist ein ruhiger und naturnaher Ferienort im Bezirk Kemer von Antalya. Cirali ist bekannt für seinen feinen Sandstrand, das saubere Meer und die Naturschönheiten in seiner Umgebung. Es ist auch eines der Brutgebiete der Caretta Caretta Meeresschildkröten und somit eine wichtige Region für den Umweltschutz. Am Strand befinden sich Boutique-Hotels, Campingplätze und touristische Einrichtungen.\n\nÇıralı ist umgeben vom Taurusgebirge und Pinienwäldern und somit der ideale Ort für alle, die Spaziergänge in der Natur und einen ruhigen Urlaub suchen. Auch die historischen und natürlichen Reichtümer, wie die antike Stadt Olympos und Yanartas (Chimaera), die sich in der Nähe befinden, sind für Besucher von Interesse. Cirali liegt etwa 80 km vom Stadtzentrum von Antalya entfernt."
+      "tr": "Çıralı, Antalya'nın Kemer ilçesine bağlı Ulupınar Mahallesi sınırlarında yer alan ve doğal çevresi, uzun sahili, sakin atmosferi ve tarihî mirasıyla öne çıkan özel bir kıyı yerleşimidir. Çıralı'nın en önemli özelliği, Akdeniz kıyısındaki doğal yaşam ile turizmin nispeten düşük yoğunluklu bir ortamda bir arada bulunmasıdır. Bölge, Beydağları Sahil Milli Parkı'nın doğal ve kültürel peyzajıyla bağlantılıdır ve çevresindeki ormanlık alanlar, dağlar ve kıyı şeridi ziyaretçilere farklı deneyimler sunar. Çıralı sahili aynı zamanda Caretta caretta deniz kaplumbağalarının önemli yuvalama alanlarından biridir. Yuvalama döneminde sahilde koruma ve izleme çalışmaları yürütülür. Bu nedenle Çıralı'da deniz keyfinin yanı sıra doğal yaşamın korunmasına yönelik kurallara dikkat etmek önemlidir. Sahilin uzun ve doğal karakteri, bölgeyi klasik büyük tatil merkezlerinden ayıran özelliklerden biridir. Çıralı'nın çevresinde yürüyüş yapmak isteyenler için de çeşitli seçenekler bulunur. Sahilden kuzeye veya güneye doğru yapılan yürüyüşlerde Akdeniz manzarası, dağlar ve makilik alanlar eşlik eder. Bölgenin en bilinen tarihî ve doğal noktaları ise Olympos Antik Kenti ile Yanartaş'tır. Olympos, Çıralı'nın güney kesiminde yer alan önemli bir Likya yerleşimidir ve antik kalıntılarla doğal çevrenin iç içe geçtiği bir alandır. Yanartaş ise kayalık yamaçlardan doğal gaz çıkışı nedeniyle alevlerin görüldüğü etkileyici bir doğa olayıdır. Kemer Belediyesi'nin verdiği bilgilere göre Yanartaş'a araçla giriş bölgesine kadar ulaşılabilir ve buradan yaklaşık 30-40 dakikalık merdivenli bir yürüyüşle alana çıkılır. Çıralı'da konaklama seçenekleri arasında küçük oteller, pansiyonlar, bungalov tarzı tesisler ve kamp alanları bulunabilir. Yerleşimin doğal dokusu, özellikle sakin bir tatil geçirmek isteyen gezginler açısından bölgenin çekiciliğini artırır. Çıralı aynı zamanda çevredeki Likya rotalarını keşfetmek için iyi bir başlangıç noktasıdır. Doğa yürüyüşü, denize girme, bisiklet, fotoğrafçılık ve çevredeki tarihî alanları gezme gibi farklı aktiviteler aynı seyahatte bir araya getirilebilir. Caretta caretta yuvalama alanı olması nedeniyle gece saatlerinde sahilde ışık, gürültü ve diğer insan faaliyetleri konusunda koruma kurallarına özellikle dikkat edilmelidir. Çıralı'nın en güzel tarafı, plaj, orman, dağ ve antik mirası birbirinden ayrı deneyimler olarak değil, aynı doğal çevrenin parçaları olarak sunmasıdır. Bu nedenle yalnızca deniz tatili yapmak isteyenler kadar yürüyüş, tarih, doğa ve sürdürülebilir turizm deneyimi arayan gezginler için de Antalya'nın dikkat çekici duraklarından biridir.",
+      "en": "Çıralı is a coastal settlement in the Ulupınar area of Kemer, Antalya, known for its natural surroundings, long beach, peaceful atmosphere and proximity to important archaeological and natural attractions. Connected with the wider landscape of Beydağları Coastal National Park, Çıralı combines Mediterranean forests, mountains and coastline in a relatively low-density setting that feels different from the region's larger resort centers. One of its most important environmental features is Çıralı Beach's role as a nesting area for Caretta caretta sea turtles. Conservation and monitoring activities are carried out during the nesting season, so visitors should follow local protection rules and avoid disturbing nesting areas. The long, natural character of the beach is one of the main reasons travelers choose Çıralı for a quieter coastal experience. The surrounding landscape also offers opportunities for walking and outdoor exploration. Forest paths, mountain scenery and Mediterranean vegetation create a varied environment around the settlement, while the nearby archaeological and geological attractions make it possible to combine nature with history. Two of the best-known destinations are Ancient Olympos and Yanartaş. Olympos was an important Lycian settlement and is particularly interesting because its archaeological remains are surrounded by dense vegetation and natural terrain. Yanartaş is a natural gas phenomenon where flames emerge from rocky ground and have been burning for a very long time. According to Kemer Municipality information, visitors can reach the access area by vehicle and then walk up a stairway for roughly 30 to 40 minutes to reach the flames. Çıralı also offers a range of small-scale accommodation options, including pensions, boutique-style properties, bungalows and camping areas. This relatively intimate tourism structure contributes to the area's relaxed atmosphere. The settlement can also serve as a base for exploring sections of the Lycian landscape and nearby hiking routes. Swimming, hiking, cycling, photography and visiting archaeological sites can all be combined during the same trip. Because Çıralı is an important turtle nesting beach, special care is required at night. Artificial lighting, noise and unnecessary activity near nesting areas can disturb sea turtles, so visitors should follow current conservation instructions. Çıralı is particularly appealing because the beach, forest, mountains and ancient heritage are not isolated attractions but parts of the same landscape. Travelers can spend the day by the Mediterranean, walk through natural areas, visit Olympos and climb toward Yanartaş without having to travel far between completely different environments. For visitors looking for a combination of beach time, nature, archaeology and a quieter holiday atmosphere, Çıralı remains one of the distinctive destinations on Antalya's Mediterranean coast.",
+      "de": "Naturnaher Küstenort"
     },
     "activities": {
       "tr": [
-        "Denize girmek",
-        "Kamp yapmak",
-        "Antik Olympos’u gezmek"
+        "Çıralı sahilinde denize girmek",
+        "Doğa yürüyüşü yapmak",
+        "Caretta caretta koruma alanını gözlemlemek",
+        "Olympos Antik Kenti'ni gezmek",
+        "Yanartaş'ı görmek",
+        "Bisiklet sürmek",
+        "Fotoğraf çekmek"
       ],
       "en": [
-        "Swim in the sea",
-        "Camp",
-        "Explore Ancient Olympos"
+        "Swim at Çıralı Beach",
+        "Hike in nature",
+        "Observe the protected turtle nesting area",
+        "Explore Ancient Olympos",
+        "Visit Yanartaş",
+        "Cycle around the area",
+        "Take photographs"
       ],
       "de": [
-        "Im Meer schwimmen",
-        "Campen",
-        "Das antike Olympos erkunden"
+        "Am Strand baden",
+        "Wandern",
+        "Meeresschildkrötengebiet beobachten",
+        "Olympos erkunden",
+        "Yanartaş besuchen",
+        "Rad fahren",
+        "Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "plaj",
+        "deniz",
+        "tarih",
+        "arkeoloji",
+        "ekoturizm"
       ],
       "en": [
-        "nature"
+        "nature",
+        "beach",
+        "coast",
+        "history",
+        "archaeology",
+        "ecotourism"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Strand",
+        "Küste",
+        "Geschichte",
+        "Archäologie",
+        "Ökotourismus"
       ]
     },
     "images": [
@@ -2645,33 +2774,57 @@
     "latitude": 36.54305,
     "longitude": 29.65556,
     "description": {
-      "tr": "Gömbe Yaylası, Antalya'nın Demre ilçesinde yer alan ve yüksek dağlarla çevrili, serin havası ile ünlü bir yayladır. Özellikle yaz aylarında sıcaklardan kaçmak isteyenler için popüler bir tatil noktasidir. Gömbe Yaylası, yeşil doğası, göletleri ve çam ağaçlarıyla doğa severler için harika bir yerdir.\n\nYaylada yürüyüş yapabilir, kamp kurabilir veya sadece doğanın huzur veren atmosferinin tadını çıkarabilirsiniz. Gömbe Yaylası, aynı zamanda bölgedeki yöresel yaşamı gözlemleyebileceğiniz ve köy halkından geleneksel yiyecekler alabileceğiniz bir noktadır. Antalya şehir merkezine yaklaşık 110 km mesafededir.",
-      "en": "Gömbe Plateau is a plateau in the Demre district of Antalya, surrounded by high mountains and famous for its cool air. It is a popular vacation spot for those who want to escape the heat, especially in the summer. Gömbe Plateau is a great place for nature lovers with its green nature, ponds and pine trees.\n\nYou can hike, camp or just enjoy the peaceful atmosphere of nature. Gömbe Plateau is also a place where you can observe the local life in the region and buy traditional food from the villagers. It is about 110 km from Antalya city center.",
-      "de": "Die Gömbe-Hochebene ist eine von hohen Bergen umgebene Hochebene im Landkreis Demre von Antalya, die für ihre frische Luft bekannt ist. Vor allem im Sommer ist es ein beliebtes Urlaubsziel, um der Hitze zu entfliehen. Die Gömbe-Hochebene mit ihren grünen Teichen und Pinien ist ein idealer Ort für Naturliebhaber.\n\nAuf dem Plateau kann man wandern, zelten oder einfach nur die Ruhe der Natur genießen. Das Gömbe-Plateau ist auch ein Ort, an dem man das Leben in der Region beobachten und traditionelle Lebensmittel von den Dorfbewohnern kaufen kann. Die Hochebene liegt ca. 110 km vom Stadtzentrum Antalya entfernt."
+      "tr": "Gömbe Yaylası, Antalya'nın Kaş ilçesinde yer alan ve Akdağ'ın etkileyici dağ manzaralarıyla çevrili yüksek rakımlı bir yayla yerleşimidir. Mevcut kayıtlarda Gömbe'nin Kaş'ın yaklaşık 70 kilometre kuzeyinde bulunduğu, yaylanın ise yaklaşık 2000 metre rakımda olduğu belirtilmektedir. Bu nedenle başlangıçtaki veride yer alan 'Demre ilçesi' bilgisi doğru değildir; Gömbe Yaylası Kaş ilçesiyle ilişkilendirilen önemli bir yayla alanıdır. Akdeniz kıyılarının sıcak ve nemli yazlarından uzaklaşmak isteyenler için serin havası, ormanları ve yüksek dağ çevresiyle dikkat çeken Gömbe, Kaş'ın en bilinen yayla destinasyonlarından biridir. Yaylanın çevresinde kızılçam ormanlarının yanı sıra sedir ve ardıç ağaçları görülür. Bölgenin siluetini ise yaklaşık 3025 metre yüksekliğindeki Akdağ belirler. Dağlık çevre, yaylaya hem güçlü bir manzara karakteri kazandırır hem de doğa yürüyüşleri için çeşitli seçenekler sunar. Gömbe yalnızca doğal güzellikleriyle değil, geleneksel yayla kültürüyle de dikkat çeker. Kaş Kaymakamlığı'nın verdiği bilgilere göre bölge geçmişte hayvan pazarı olarak kullanılmış ve eski yağlı güreş gelenekleriyle ilişkilendirilmiştir. Bu tarihî ve kültürel arka plan, Gömbe'yi sıradan bir dağ yerleşiminden daha farklı bir konuma taşır. Yaylanın çevresindeki yerel ürünler de ziyaret deneyiminin önemli bir parçasıdır. Elma, ceviz ve armut gibi ürünler bölgeyle ilişkilendirilen yöresel tarımsal ürünler arasında yer alır. Akdağ'dan getirilen karla hazırlanan pekmezli karlama ise Gömbe'nin geleneksel lezzetlerinden biri olarak bilinir. Gömbe çevresinde doğa yürüyüşleri yapılabilir ve dağ manzaraları fotoğraflanabilir. Bölgedeki su kaynakları ve baraj çevresi de peyzaj açısından ilgi çekicidir. Gömbe Barajı çevredeki su ihtiyacında rol oynarken, bölgede balıkçılıkla ilgilenenler için sazan ve alabalık gibi türlerden söz edilmektedir. Yaylanın yüksek rakımı nedeniyle yaz aylarında bile hava kıyı kesimlerine göre daha serin olabilir. Ancak dağlık bölgelerde hava koşullarının hızlı değişebileceği unutulmamalı ve özellikle yürüyüş planlayanların uygun kıyafet ve ayakkabı kullanması tercih edilmelidir. Gömbe Yaylası, Kaş'ın deniz ve plaj odaklı turizminden farklı bir deneyim arayanlar için iyi bir alternatiftir. Orman yolları, yüksek dağ manzaraları, yerel ürünler ve yayla kültürü sayesinde bölge; doğa yürüyüşü, fotoğrafçılık, yerel yaşamı tanıma ve serin bir dağ atmosferinde dinlenme açısından değerlendirilebilir. Akdeniz kıyısından yüksek dağlara geçişi görmek isteyen gezginler için Gömbe, Antalya'nın daha az bilinen ancak karakteri güçlü doğal rotalarından biridir.",
+      "en": "Gömbe Plateau is a high-altitude settlement in the Kaş district of Antalya, surrounded by the dramatic mountain scenery of the Akdağ range. Local official sources place Gömbe roughly 70 kilometers north of Kaş, while regional tourism records list the plateau at around 2,000 meters above sea level. The original information identifying Gömbe as part of Demre is therefore incorrect; the plateau is associated with Kaş. Its high elevation gives Gömbe a noticeably cooler climate than the Mediterranean coast, making it a popular summer destination for people looking to escape the heat and humidity of the lowlands. The surrounding landscape contains pine forests as well as cedar and juniper trees, while the impressive 3,025-meter Akdağ dominates the wider scenery. This mountainous setting gives the plateau a strong visual character and provides opportunities for walking and landscape photography. Gömbe is also connected with the traditional highland culture of the region. According to Kaş District Governorate information, the area was historically used as an animal market and is associated with some of the oldest local oil-wrestling traditions. This cultural background adds an important dimension to a visit beyond the natural scenery. Local food and agricultural products are another part of the experience. Apples, walnuts and pears are among the products associated with the area, while a traditional dessert-like treat made with snow brought down from Akdağ and mixed with pekmez is known locally as karlama. The wider Gömbe area also contains water resources and mountain landscapes that can be explored on outdoor trips. Gömbe Dam plays a role in the water supply of the surrounding area, and local sources mention fishing opportunities involving species such as carp and trout. The plateau's altitude means that summer conditions can be considerably cooler than those on the coast. However, mountain weather can change quickly, so visitors planning longer walks should be prepared for changing conditions. Gömbe offers a very different experience from Kaş's better-known coastal attractions. Instead of beaches and boat tours, visitors encounter highland forests, mountain scenery, traditional rural culture and local products. Hiking, photography, exploring village life and enjoying the cool mountain atmosphere are among the most suitable activities. The journey from the Mediterranean coast into the highlands also provides a striking view of how quickly the landscape changes with elevation. For travelers who want to discover a quieter side of Antalya and experience the meeting point of Mediterranean culture and highland life, Gömbe Plateau is a distinctive destination worth including in a wider Kaş and western Antalya itinerary.",
+      "de": "Hochland bei Kaş"
     },
     "activities": {
       "tr": [
-        "Doğa yürüyüşleri yapmak",
-        "Kamp yapmak"
+        "Doğa yürüyüşü yapmak",
+        "Akdağ manzarasını izlemek",
+        "Yöresel ürünleri keşfetmek",
+        "Yayla yaşamını gözlemlemek",
+        "Fotoğraf çekmek",
+        "Dağ havasının tadını çıkarmak"
       ],
       "en": [
-        "Hike in nature",
-        "Camp in the green areas"
+        "Hike in the highlands",
+        "Enjoy views of Akdağ",
+        "Discover local products",
+        "Experience highland life",
+        "Take landscape photographs",
+        "Enjoy the cool mountain air"
       ],
       "de": [
-        "Wandern in der Natur",
-        "Im Grünen campen"
+        "Wandern",
+        "Akdağ bewundern",
+        "Lokale Produkte entdecken",
+        "Hochlandleben erleben",
+        "Fotografieren",
+        "Bergluft genießen"
       ]
     },
     "categories": {
       "tr": [
-        "yayla"
+        "yayla",
+        "doğa",
+        "dağ",
+        "kültür",
+        "ekoturizm"
       ],
       "en": [
-        "plateau"
+        "plateau",
+        "nature",
+        "mountain",
+        "culture",
+        "ecotourism"
       ],
       "de": [
-        "hochland"
+        "Hochland",
+        "Natur",
+        "Berg",
+        "Kultur",
+        "Ökotourismus"
       ]
     },
     "images": [
@@ -2688,47 +2841,63 @@
     "latitude": 36.53959,
     "longitude": 30.44221,
     "description": {
-      "tr": "Tahtalı Dağı, Antalya'nın Kemer ilçesinde yer alan ve 2.365 metre yüksekliğiyle bölgenin en yüksek dağıdır. Dağa, Olympos Teleferiği ile ulaşılabilir. Tahtalı Dağı, özellikle dağcılık, dağ yürüyüşleri ve doğa yürüyüşleri gibi açık hava aktiviteleri ile ilgilenenler için mükemmel bir alandır.\n\nTahtalı Dağı Kamp Alanı, doğa severler için mükemmel bir kamp yapma alanı sunar. Dağın zirvesinden Antalya'nın harika manzarası izlenebilir. Ayrıca, çevredeki ormanlık alanlar, yürüyüş yolları ve temiz hava, kampçılar için cazip bir deneyim yaratır. Kemer şehir merkezine yaklaşık 20 km mesafede yer alır ve teleferik ile zirveye çıkılabilir.",
-      "en": "Mount Tahtalı is the highest mountain in the region with a height of 2,365 meters, located in the Kemer district of Antalya. The mountain can be reached by the Olympos cable car. Tahtalı Mountain is a perfect area for those who are interested in outdoor activities such as mountaineering, mountain walks and nature walks.\n\nTahtalı Mountain Campground offers a perfect camping area for nature lovers. You can enjoy a wonderful view of Antalya from the top of the mountain. In addition, the surrounding forests, hiking trails and fresh air create an attractive experience for campers. It is located about 20 km from Kemer city center and you can reach the top by cable car.",
-      "de": "Der Berg Tahtalı ist mit einer Höhe von 2.365 m der höchste Berg der Region und befindet sich im Bezirk Kemer von Antalya. Der Berg kann mit der Olympos Seilbahn erreicht werden. Der Tahtalı-Berg ist ein hervorragendes Gebiet für alle, die sich für Outdoor-Aktivitäten wie Bergsteigen, Bergwandern und Spaziergänge in der Natur interessieren.\n\nDer Tahtalı Berg Campingplatz bietet ein perfektes Campinggebiet für Naturliebhaber. Vom Gipfel des Berges hat man einen herrlichen Blick auf Antalya. Außerdem bieten die umliegenden Wälder, Wanderwege und die frische Luft ein attraktives Erlebnis für Camper. Der Campingplatz liegt ca. 20 km vom Stadtzentrum von Kemer entfernt und ist mit der Seilbahn erreichbar."
+      "tr": "Tahtalı Dağı, Antalya'nın Kemer ilçesi sınırlarında, Beydağları Sahil Milli Parkı içerisinde yükselen ve 2365 metre yüksekliğe ulaşan etkileyici bir Toros Dağıdır. Bölgenin en yüksek zirvelerinden biri olan Tahtalı, Akdeniz kıyısından kısa bir mesafede bu kadar yüksek bir dağ manzarasının ortaya çıkması nedeniyle Antalya'nın en dikkat çekici doğal oluşumlarından biridir. Başlangıçtaki açıklamada yer alan 'bölgenin en yüksek dağı' ifadesi yerine, Tahtalı'nın Torosların bu bölümündeki en yüksek noktalardan biri olduğunu söylemek daha doğru olur. Dağın en bilinen ulaşım seçeneği Olympos Teleferiği'dir. Teleferik sayesinde kıyı seviyesinden yüksek dağ ortamına kısa sürede çıkılabilir ve yolculuk sırasında Akdeniz kıyısı, ormanlar ve kayalık dağ yamaçları farklı açılardan görülebilir. Zirveye ulaşıldığında manzara daha da genişler; açık havalarda Tekirova kıyıları, Akdeniz ve çevredeki Toros silsilesi izlenebilir. Tahtalı Dağı yalnızca teleferik gezisi için değil, doğa yürüyüşleri ve dağ sporları açısından da önemlidir. Beydağları Sahil Milli Parkı içerisinde Tahtalı-Beycik yürüyüş rotası gibi güzergâhlar bulunmaktadır. Yüksekliğin kısa mesafede değişmesi nedeniyle yürüyüş boyunca bitki örtüsü ve peyzaj da farklılaşır. Bu durum bölgeyi doğa gözlemi ve fotoğrafçılık açısından ilgi çekici hâle getirir. Tahtalı'nın zirvesi aynı zamanda yamaç paraşütü faaliyetleriyle de bilinir. Antalya İl Kültür ve Turizm Müdürlüğü, uygun koşullarda zirveden kalkış yapılarak Tekirova sahiline doğru uçuş gerçekleştirilebildiğini belirtmektedir. Ancak bu tür faaliyetlerin yalnızca yetkili ve güvenli operasyonlar kapsamında yapılması gerekir. Buradaki önemli bir nokta da 'Tahtalı Dağı Kamp Alanı' adının gerçek bir resmî kamp tesisini ifade edip etmediğidir. Beydağları Sahil Milli Parkı içerisinde kamp alanları bulunmakla birlikte Tahtalı zirvesinin kendisini doğrudan ve sürekli işletilen bir kamp alanı olarak tanımlamak doğru değildir. Bu nedenle sayfada Tahtalı Dağı'nı doğa, yürüyüş ve manzara noktası olarak tanımlamak daha güvenli bir içerik yaklaşımıdır. Dağlık alanda hava koşulları kıyıdan çok farklı olabilir. Zirveye çıkarken özellikle rüzgâr, sıcaklık değişimi ve görüş koşulları dikkate alınmalıdır. Doğa yürüyüşü planlayanların uygun ayakkabı, su ve hava koşullarına uygun kıyafet bulundurması önemlidir. Tahtalı Dağı; teleferik yolculuğu, yüksek dağ manzarası, Akdeniz kıyısına bakan zirvesi ve yürüyüş rotaları sayesinde Kemer çevresindeki en etkileyici doğal deneyimlerden birini sunar. Deniz tatilini dağ manzarası ve açık hava aktiviteleriyle birleştirmek isteyen gezginler için özellikle dikkat çekici bir duraktır.",
+      "en": "Mount Tahtalı rises to 2,365 meters within the Kemer area of Antalya and forms one of the most impressive peaks of the Taurus Mountains in the region. Located inside Beydağları Coastal National Park, the mountain is particularly striking because its high summit rises relatively close to the Mediterranean coast. Rather than describing Tahtalı as simply the highest mountain in the region, it is more accurate to identify it as one of the highest peaks in this part of the Taurus range. One of the mountain's best-known attractions is the Olympos Cable Car, which allows visitors to travel from the coastal environment toward the high mountain landscape in a relatively short journey. During the ascent, forests, rocky slopes and Mediterranean scenery gradually give way to the colder and more rugged environment of the summit. From the upper station, visitors can enjoy extensive views over the Mediterranean coastline, Tekirova and the surrounding Taurus Mountains when visibility is good. Mount Tahtalı is also important for outdoor activities. Hiking routes in the wider Beydağları Coastal National Park include the Tahtalı–Beycik route, allowing visitors to experience changes in vegetation and landscape as elevation increases. The combination of forests, mountain slopes and sea views makes the area particularly attractive for photography and nature observation. The summit is also associated with paragliding. Antalya's Provincial Directorate of Culture and Tourism states that, under suitable conditions and with appropriate operations, flights can be made from the summit toward the Tekirova coast. Such activities should always be undertaken through authorized and properly equipped operators. There is an important distinction regarding the name 'Tahtalı Mountain Camping Area' used in the original record. Although Beydağları Coastal National Park contains designated camping areas, the summit of Mount Tahtalı itself should not automatically be presented as a permanent official campground. For a travel database, it is therefore more accurate to focus the attraction on the mountain, hiking, viewpoints and cable-car experience rather than promising camping facilities directly at the summit. Mountain weather can also differ considerably from conditions along the coast. Wind, temperature changes and visibility should be considered before hiking or spending extended time outdoors. Suitable footwear, water and weather-appropriate clothing are recommended for longer outdoor activities. Mount Tahtalı offers a distinctive combination of high mountain scenery and Mediterranean views that is difficult to find elsewhere in Antalya. Visitors can begin the day near sea level, travel by cable car into a high alpine-like environment and look back toward the coastline from more than two kilometers above sea level. For travelers interested in hiking, photography, mountain landscapes, cable-car experiences and outdoor sports, Tahtalı is one of the most memorable natural destinations around Kemer.",
+      "de": "Berg- und Aussichtspunkt"
     },
     "activities": {
       "tr": [
-        "Dağa tırmanış yapmak",
-        "Kamp yapmak",
-        "Manzara izlemek"
+        "Olympos Teleferiği ile zirveye çıkmak",
+        "Dağ yürüyüşü yapmak",
+        "Akdeniz manzarasını izlemek",
+        "Fotoğraf çekmek",
+        "Doğal çevreyi gözlemlemek",
+        "Uygun koşullarda yamaç paraşütünü izlemek"
       ],
       "en": [
-        "Climb the mountain",
-        "Camp in the area",
-        "Enjoy the views"
+        "Ride the Olympos Cable Car",
+        "Hike in the mountain area",
+        "Enjoy Mediterranean views",
+        "Take landscape photographs",
+        "Observe the mountain environment",
+        "Watch paragliding activities under suitable conditions"
       ],
       "de": [
-        "Den Berg erklimmen",
-        "Im Bereich campen",
-        "Die Aussicht genießen"
+        "Seilbahn fahren",
+        "Wandern",
+        "Meerblick genießen",
+        "Fotografieren",
+        "Natur beobachten",
+        "Gleitschirmflüge sehen"
       ]
     },
     "categories": {
       "tr": [
+        "dağ",
         "doğa",
-        "kamp"
+        "manzara",
+        "yürüyüş",
+        "milli park"
       ],
       "en": [
+        "mountain",
         "nature",
-        "camping"
+        "viewpoint",
+        "hiking",
+        "national park"
       ],
       "de": [
+        "Berg",
         "Natur",
-        "Camping"
+        "Aussichtspunkt",
+        "Wandern",
+        "Nationalpark"
       ]
     },
     "images": [
       "https://example.com/tahtali_dagi_kamp.jpg"
     ]
   },
-
-
 {
   "slug": "sapadere-kanyonu",
   "name": {

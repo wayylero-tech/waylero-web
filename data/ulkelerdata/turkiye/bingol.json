@@ -138,51 +138,59 @@
     ]
   },
   {
-    "slug": "bingol-termal-kaplicalari",
-    "name": {
-      "tr": "Bingöl Termal Kaplıcaları",
-      "en": "Bingöl Thermal Springs",
-      "de": "Bingöl Thermalquellen"
-    },
-    "latitude": 38.98803,
-    "longitude": 40.67269,
-    "description": {
-      "tr": "Bingöl Termal Kaplıcaları, bölgedeki sağlık turizmi açısından büyük öneme sahip bir tesistir. Kaplıcanın doğal mineralli suları, ziyaretçilere çeşitli sağlık faydaları sunarken, rahatlatıcı ve huzurlu bir ortam sağlar. Kaplıca çevresinde yürüyüş yapabilir, doğanın keyfini çıkarabilir ve stresten uzak bir gün geçirebilirsiniz. Ayrıca kaplıca tesislerinde spa hizmetleri, masaj ve diğer sağlık uygulamaları da sunulmaktadır. Bu özellikleriyle Bingöl Termal Kaplıcaları, hem yerli hem de yabancı turistler için ideal bir dinlenme ve şifa mekânıdır.\n\nZiyaretçiler burada termal suyun şifalı etkilerini deneyimleyebilir ve kaplıcanın doğal çevresi ile bütünleşmiş bir şekilde doğa ile iç içe zaman geçirebilirler. Bölgede yapılan düzenlemeler sayesinde aileler, çiftler ve bireysel ziyaretçiler için farklı kullanım alanları mevcuttur. Kaplıca, yılın her mevsiminde ziyaretçilere açık olup sağlık, dinlenme ve doğa deneyimini bir arada sunar.",
-      "en": "Bingöl Thermal Springs are an important facility for health tourism in the region. The natural mineral waters of the springs offer various health benefits to visitors, providing a relaxing and peaceful environment. Around the springs, visitors can take walks, enjoy nature, and spend a stress-free day. The facility also offers spa services, massages, and other wellness treatments. With these features, Bingöl Thermal Springs is an ideal destination for both local and international tourists seeking relaxation and healing.\n\nVisitors can experience the therapeutic effects of the thermal waters and spend time immersed in nature, enjoying the tranquil surroundings. The area is designed to accommodate families, couples, and individual visitors, offering different spaces for various needs. Open year-round, the springs combine health, relaxation, and nature experiences in a single destination.",
-      "de": "Die Bingöl-Thermalquellen sind eine bedeutende Einrichtung für den Gesundheitstourismus in der Region. Das natürliche Mineralwasser der Quellen bietet den Besuchern verschiedene gesundheitliche Vorteile und sorgt für eine entspannte und friedliche Atmosphäre. In der Umgebung der Quellen können Besucher spazieren gehen, die Natur genießen und einen stressfreien Tag verbringen. Das Zentrum bietet außerdem Spa-Dienstleistungen, Massagen und andere Wellnessanwendungen. Mit diesen Merkmalen sind die Bingöl-Thermalquellen ein ideales Ziel für einheimische und internationale Touristen, die Entspannung und Heilung suchen.\n\nBesucher können die therapeutischen Wirkungen des Thermalwassers erleben und Zeit inmitten der Natur verbringen, um die ruhige Umgebung zu genießen. Das Gebiet ist so gestaltet, dass es Familien, Paaren und Einzelbesuchern unterschiedliche Nutzungsmöglichkeiten bietet. Die Quellen sind das ganze Jahr über geöffnet und verbinden Gesundheit, Entspannung und Naturerlebnis an einem Ort."
-    },
-    "activities": {
-      "tr": [
-        "Kaplıcalarda vakit geçirmek",
-        "Sağlık ve dinlenme",
-        "Doğal çevreyi keşfetmek"
-      ],
-      "en": [
-        "Spend time at the hot springs",
-        "Health and relaxation",
-        "Explore the natural environment"
-      ],
-      "de": [
-        "Zeit in den Thermalquellen verbringen",
-        "Gesundheit und Entspannung",
-        "Die natürliche Umgebung erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/bingol_termal.jpg"
+  "slug": "bingol-termal-kaplicalari",
+  "name": {
+    "tr": "Bingöl Termal Kaplıcaları (Kös Kaplıcaları)",
+    "en": "Bingöl Thermal Springs (Kös Thermal Springs)",
+    "de": "Bingöl Thermalquellen (Kös Thermalquellen)"
+  },
+  "latitude": 38.98803,
+  "longitude": 40.67269,
+  "description": {
+    "tr": "Bingöl Termal Kaplıcaları (yörede bilinen adıyla Kös Kaplıcaları), Bingöl kent merkezine yaklaşık 20 kilometre mesafede, Bingöl-Erzurum karayolu üzerinde, Ilıcalar beldesinde yer alan Doğu Anadolu'nun en önemli sağlık turizmi ve şifa merkezlerinden biridir. Vadinin içerisinden akan doğal su kaynakları ve etrafını saran çam ormanlarıyla çevrili olan kaplıca bölgesi, yüksek mineral değerine sahip yer altı sularıyla asırlardır yöre halkına ve çevre illerden gelen ziyaretçilere hizmet vermektedir. Yeryüzüne yaklaşık 40-50 °C sıcaklıkta çıkan termal sular; sodyum, bikarbonat, klorür ve sülfat açısından oldukça zengindir.\n\nBölgedeki kaplıca sularının romatizmal hastalıklar, kireçlenme, eklem ve kas ağrıları, kronik bel ağrıları, cilt rahatsızlıkları ve nörolojik sekellerin tedavisinde tamamlayıcı ve destekleyici şifa sağladığı bilinmektedir. Günümüzde modern termal oteller, kapalı termal havuzlar, aile banyoları, sauna ve Türk hamamı olanaklarıyla donatılan tesisler; ziyaretçilerine hem tedavi edici hem de dinlendirici bir konaklama konforu sunmaktadır. Doğa ile iç içe olan konumu sayesinde ziyaretçiler, termal banyonun yanı sıra vadi boyunca doğa yürüyüşleri yapabilir ve temiz dağ havasının tadını çıkarabilirler.\n\nDört mevsim boyunca kesintisiz hizmet veren Bingöl Termal Kaplıcaları, özellikle kış aylarında karla kaplı dağ manzaraları eşliğinde sıcak termal suların keyfini çıkarmak isteyen seyahat severler ve sağlık turistleri için Doğu Anadolu rotalarının vazgeçilmez duraklarından biridir.",
+    "en": "The Bingöl Thermal Springs, locally known as the Kös Thermal Springs, are located in the town of Ilıcalar, approximately 20 kilometers from the Bingöl city center along the Bingöl-Erzurum highway. Situated within a serene mountain valley surrounded by pine forests, this site is recognized as one of Eastern Anatolia's premier thermal wellness and health tourism destinations. Emerging naturally from subterranean aquifers at temperatures between 40°C and 50°C, the mineral-rich waters are densely packed with sodium, bicarbonate, chloride, and sulfate ions.\n\nThe thermal waters are widely renowned for their therapeutic benefits in alleviating rheumatological conditions, osteoarthritis, chronic joint and muscular pain, dermatological disorders, and rehabilitation therapy. Modern thermal resort facilities, private family bath suites, indoor thermal pools, Turkish baths, and wellness centers provide high-standard accommodation and spa services. Complementing the hydrotherapy options, the surrounding natural landscape offers visitors peaceful trail walking opportunities, scenic river views, and fresh mountain air.\n\nOperating year-round, the Bingöl Thermal Springs offer a unique retreat, particularly during the winter months when visitors can soak in steaming outdoor-view thermal pools surrounded by snow-covered peaks, making it an essential health and nature stop in Eastern Turkey.",
+    "de": "Die Bingöl-Thermalquellen sind eine bedeutende Einrichtung für den Gesundheitstourismus in der Region. Das natürliche Mineralwasser der Quellen bietet den Besuchern verschiedene gesundheitliche Vorteile und sorgt für eine entspannte und friedliche Atmosphäre. In der Umgebung der Quellen können Besucher spazieren gehen, die Natur genießen und einen stressfreien Tag verbringen. Das Zentrum bietet außerdem Spa-Dienstleistungen, Massagen und andere Wellnessanwendungen. Mit diesen Merkmalen sind die Bingöl-Thermalquellen ein ideales Ziel für einheimische und internationale Touristen, die Entspannung und Heilung suchen.\n\nBesucher können die therapeutischen Wirkungen des Thermalwassers erleben und Zeit inmitten der Natur verbringen, um die ruhige Umgebung zu genießen. Das Gebiet ist so gestaltet, dass es Familien, Paaren und Einzelbesuchern unterschiedliche Nutzungsmöglichkeiten bietet. Die Quellen sind das ganze Jahr über geöffnet und verbinden Gesundheit, Entspannung und Naturerlebnis an einem Ort."
+  },
+  "activities": {
+    "tr": [
+      "Mineral bakımından zengin şifalı termal havuzlarda ve aile banyolarında vakit geçirmek",
+      "Ilıcalar vadisi çevresinde ve çam ormanlarında doğa yürüyüşleri yapmak",
+      "Termal oteller bünyesindeki spa, masaj ve saunalar ile yenilenmek",
+      "Kış aylarında karlı dağ manzarası eşliğinde kaplıca keyfi yapmak"
+    ],
+    "en": [
+      "Soak in therapeutic mineral-rich thermal pools and private family baths",
+      "Hike along the scenic trails of the Ilıcalar valley and pine forests",
+      "Experience relaxing spa treatments, massages, and traditional Turkish baths",
+      "Enjoy thermal bathing with snowy mountain views during winter months"
+    ],
+    "de": [
+      "Zeit in den Thermalquellen verbringen",
+      "Gesundheit und Entspannung",
+      "Die natürliche Umgebung erkunden"
     ]
   },
+  "categories": {
+    "tr": [
+      "doğa",
+      "termal",
+      "kaplıca",
+      "sağlık turizmi"
+    ],
+    "en": [
+      "nature",
+      "thermal",
+      "hot springs",
+      "wellness"
+    ],
+    "de": [
+      "Natur"
+    ]
+  },
+  "images": [
+    "https://example.com/bingol_termal.jpg"
+  ]
+},
   {
     "slug": "bingol-universitesi-termal-kaplica-tesisleri",
     "name": {

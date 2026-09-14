@@ -817,7 +817,7 @@
       "https://example.com/sivas_muzesi.jpg"
     ]
   },
-  {
+ {
     "slug": "kangal-balikli-kaplica",
     "name": {
       "tr": "Kangal Balıklı Kaplıca",
@@ -827,36 +827,42 @@
     "latitude": 39.31401,
     "longitude": 37.46903,
     "description": {
-      "tr": "    Kangal Balıklı Kaplıca, Sivas’a bağlı Kangal ilçesinde bulunan ünlü bir kaplıcadır. Burada, balıklara tedavi ettiren sular bulunur.\n    Bu kaplıca, özel bir balık türü olan \"Dr. Fish\" (Garra rufa) ile ünlüdür. Bu balıklar, insanların cilt rahatsızlıklarını tedavi etmek için kullanılır.\n    Sıcak mineralli sularda yaşayan bu balıklar, ciltteki ölü hücreleri yiyerek, birçok deri hastalığına iyi gelmektedir.\n    Kangal Balıklı Kaplıca, sadece şifalı suları ile değil, aynı zamanda doğa ile iç içe bir tatil deneyimi sunmasıyla da bilinir.\n    Burası, sağlık turizmi açısından önemli bir noktadır ve yerli ve yabancı turistlerin ilgisini çeker.\n  ",
-      "en": "    Kangal Fish Spa is a famous thermal spring located in the Kangal district of Sivas. It is known for its waters that help treat with fish.\n    The spa is famous for a special fish species, \"Dr. Fish\" (Garra rufa), which are used for treating skin conditions.\n    These fish, living in warm mineral waters, feed on dead skin cells, providing relief for various skin diseases.\n    Kangal Fish Spa is not only known for its healing waters but also for offering a vacation experience that is intertwined with nature.\n    It is an important location for health tourism and attracts the attention of both local and foreign tourists.\n  ",
-      "de": "    Der Kangal Fischspa ist eine berühmte Thermalquelle im Landkreis Kangal in Sivas. Es ist bekannt für seine Gewässer, die mit Fischen zur Behandlung helfen.\n    Der Spa ist berühmt für eine spezielle Fischart, \"Dr. Fish\" (Garra rufa), die zur Behandlung von Hautkrankheiten verwendet wird.\n    Diese Fische, die in warmem Mineralwasser leben, ernähren sich von toten Hautzellen und helfen bei der Heilung verschiedener Hautkrankheiten.\n    Der Kangal Fischspa ist nicht nur für sein heilendes Wasser bekannt, sondern auch für das Angebot eines Urlaubserlebnisses, das mit der Natur verbunden ist.\n    Es ist ein wichtiger Ort für den Gesundheitstourismus und zieht sowohl inländische als auch ausländische Touristen an.\n  "
+      "tr": "Kangal Balıklı Kaplıca, Türkiye'nin Sivas iline bağlı Kangal ilçesinde, Kavak Köyü mevkiinde yer alan dünyaca ünlü eşsiz bir termal sağlık merkezidir. Deniz seviyesinden yaklaşık 1425 metre yükseklikte bulunan kaplıca, tıp dünyasında özellikle sedef hastalığı (psöriyazis) ve çeşitli cilt rahatsızlıklarının doğal tedavisindeki başarısıyla tanınan tıbbi bir fenomendir. Yaklaşık 35-37°C sabit sıcaklığa sahip termal suları, kalsiyum, magnezyum ve selenyum açısından oldukça zengindir; selenyum minerali cilt hücrelerinin yenilenmesinde ve iyileşme sürecinin hızlanmasında hayati bir rol oynar.\n\nKaplıcayı benzersiz kılan en temel unsur, bu sıcak mineralli suda doğal olarak yaşayan ve halk arasında \"Doktor Balıklar\" olarak bilinen Garra rufa ve Cyprinion macrostomum türü balıklardır. Balıklar, ciltteki ölü dokuları ve sedef plaklarını mikro masaj hareketleriyle temizleyerek şifalı suyun doğrudan alt deriye nüfuz etmesini sağlar. Steril yapısı ve doğal ekosistemi sayesinde tesis, yıl boyunca Türkiye'den ve dünyanın dört bir yanından gelen sağlık turistlerini ağırlamaktadır.\n\nAkarsu yatağında, etrafı yeşil doğa ve ağaçlarla çevrili huzurlu bir vadide yer alan komplekste açık ve kapalı termal havuzlar, konaklama tesisleri, fizik tedavi üniteleri ve dinlenme alanları bulunur. Kangal Balıklı Kaplıca, sadece alternatif tıp ve dermatolojik tedavi arayanlar için değil, doğayla iç içe dinlendirici ve tazeleyici bir termal tatil geçirmek isteyen herkes için Sivas'ın en önemli sağlık turizmi duraklarından biridir.\n",
+      "en": "Kangal Fish Thermal Springs, located near Kavak Village in the Kangal district of Sivas, Turkey, is a world-renowned natural thermal spa and health resort. Situated at an altitude of approximately 1,425 meters above sea level, the spa is internationally recognized in dermatology for its unique therapeutic role in treating skin conditions, particularly psoriasis. The mineral-rich thermal waters maintain a constant temperature of 35-37°C and contain high concentrations of bicarbonate, calcium, magnesium, and notably selenium, a key mineral that promotes skin healing and cellular regeneration.\n\nThe most distinctive feature of the thermal springs is the presence of two species of small fish—Garra rufa and Cyprinion macrostomum—affectionately known as \"Doctor Fish.\" Thriving naturally in the warm waters, these fish gently nibble away dead skin cells and psoriasis plaques, performing a gentle micro-massage that allows the healing mineral water to deeply penetrate the skin. The natural, chemical-free environment offers a soothing, non-invasive therapeutic experience sought by health tourists globally.\n\nSet in a picturesque green valley alongside a flowing stream, the spa complex features both indoor and outdoor thermal pools, lodging facilities, physical therapy units, and peaceful relaxation areas. Blending natural beauty with extraordinary biological healing properties, Kangal Fish Thermal Springs is an essential destination for wellness, dermatological rehabilitation, and health tourism in Turkey.\n",
+      "de": "Die Kangal Fisch Thermalquellen (Kangal Balıklı Kaplıca) im Landkreis Kangal in der türkischen Provinz Sivas sind ein weltweit einzigartiges heiltherapeutisches Zentrum. Die auf etwa 1.425 Metern Höhe gelegene Thermalquelle ist in der Dermatologie international für ihre natürlichen Behandlungserfolge bei Hautkrankheiten, insbesondere Schuppenflechte (Psoriasis), bekannt. Das mineralstoffreiche Thermalwasser weist eine konstante Temperatur von 35-37°C auf und ist besonders reich an Kalzium, Magnesium und Selen – einem Spurenelement, das die Hautregeneration maßgeblich fördert.\n\nDas herausragende Merkmal der Quelle sind die im warmen Wasser heimischen Fische der Arten Garra rufa und Cyprinion macrostomum, die auch als „Knabberfische“ oder „Doktorfische“ bekannt sind. Sie entfernen sanft abgestorbene Hautschuppen und Psoriasis-Plaques durch feine Mikromassagen, sodass das heilende Selenwasser direkt auf die betroffenen Hautpartien einwirken kann. Diese sanfte und natürliche Behandlungsmethode zieht jährlich Tausende von Gesundheitstouristen aus aller Welt an.\n\nDie Anlage liegt in einem idyllischen, von Natur umgebenen Tal und verfügt über überdachte sowie Freiluft-Thermalbecken, Unterkunftsmöglichkeiten und Entspannungsbereiche. Die Kangal Fisch Thermalquellen verbinden natürliche Heilkraft mit erholsamer Natur und gehören zu den wichtigsten Zielen für Gesundheitstourismus in der Türkei.\n"
     },
     "activities": {
       "tr": [
-        "Balıklarla tedavi olmak",
-        "Kaplıca sularında rahatlamak",
-        "Şifa aramak"
+        "Doktor balıklar (Garra rufa) eşliğinde doğal termal tedaviden faydalanmak",
+        "Selenyum açısından zengin şifalı kaplıca havuzlarında dinlenmek",
+        "Doğal vadide ve akarsu kenarında yürüyüş yaparak stres atmak"
       ],
       "en": [
-        "Therapy with fish",
-        "Relax in the thermal waters",
-        "Seek healing"
+        "Experiencing natural fish therapy with the famous Doctor Fish (Garra rufa)",
+        "Relaxing in mineral pools rich in selenium and calcium",
+        "Strolling around the peaceful green valley and natural stream"
       ],
       "de": [
-        "Therapie mit Fischen",
-        "In den Thermalquellen entspannen",
-        "Heilung suchen"
+        "Erleben der natürlichen Fischtherapie mit den berühmten Doktorfischen (Garra rufa)",
+        "Entpannen in den selen- und kalziumreichen Thermalbecken",
+        "Spazierengehen im ruhigen grünen Tal entlang des natürlichen Bachlaufs"
       ]
     },
     "categories": {
       "tr": [
-        "doğa"
+        "doğa",
+        "kaplıca",
+        "sağlık turizmi"
       ],
       "en": [
-        "nature"
+        "nature",
+        "thermal spring",
+        "health tourism"
       ],
       "de": [
-        "Natur"
+        "Natur",
+        "Thermalquelle",
+        "Gesundheitstourismus"
       ]
     },
     "images": [

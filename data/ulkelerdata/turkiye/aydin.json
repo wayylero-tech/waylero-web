@@ -139,66 +139,68 @@
     ]
   },
   {
-    "slug": "kusadasi",
-    "name": {
-      "tr": "Kuşadası",
-      "en": "Kuşadası",
-      "de": "Kuşadası"
-    },
-    "latitude": 37.857,
-    "longitude": 27.261,
-    "description": {
-      "tr": "Kuşadası, Aydın iline bağlı ve Ege Denizi kıyısında yer alan Türkiye’nin en popüler turizm merkezlerinden biridir. Doğal güzellikleri, masmavi plajları, kruvaziyer limanı ve tarihi zenginlikleriyle her yıl yerli ve yabancı milyonlarca ziyaretçiyi ağırlar. İlçe adını, sahil açıklarında yer alan ve kuş başını andıran Güvercinada’dan alır. Kuşadası aynı zamanda antik çağın önemli merkezlerinden Efes Antik Kenti’ne ve Meryem Ana Evi’ne oldukça yakın konumdadır. Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı ise tertemiz koyları ve zengin biyolojik çeşitliliğiyle doğa severler için eşsiz bir deneyim sunar. Yaz aylarında hareketli gece hayatı, beach kulüpleri ve festivalleriyle öne çıkan Kuşadası, hem deniz tatili hem kültür turizmi hem de doğa keşfi için ideal bir destinasyondur.",
-      "en": "Kuşadası is one of Turkey’s most popular tourist destinations, located on the Aegean coast in the province of Aydın. With its stunning beaches, turquoise waters, cruise port, and rich historical heritage, it attracts millions of domestic and international visitors every year. The town takes its name from Güvercinada (Pigeon Island), located just off the coast and resembling a bird’s head. Kuşadası is also very close to the ancient city of Ephesus and the House of the Virgin Mary, two of the region’s most important historical sites. The Dilek Peninsula–Büyük Menderes Delta National Park offers pristine bays and rich biodiversity for nature lovers. With its vibrant nightlife, beach clubs, and festivals during the summer, Kuşadası is an ideal destination for sea holidays, cultural tourism, and nature exploration.",
-      "de": "Kuşadası ist eines der beliebtesten Touristenziele der Türkei und liegt an der Ägäisküste in der Provinz Aydın. Mit seinen wunderschönen Stränden, dem türkisfarbenen Meer, dem Kreuzfahrthafen und seinem reichen historischen Erbe zieht die Stadt jedes Jahr Millionen von Besuchern an. Ihren Namen verdankt sie der vorgelagerten Insel Güvercinada, die einem Vogelkopf ähnelt. Kuşadası liegt zudem in der Nähe der antiken Stadt Ephesos und des Hauses der Jungfrau Maria, zwei bedeutenden historischen Stätten der Region. Der Nationalpark Dilek-Halbinsel–Büyük-Menderes-Delta bietet unberührte Buchten und eine vielfältige Tier- und Pflanzenwelt. Mit seinem lebhaften Nachtleben, Strandclubs und Sommerfestivals ist Kuşadası ein ideales Reiseziel für Badeurlaub, Kulturreisen und Naturerlebnisse."
-    },
-    "activities": {
-      "tr": [
-        "Denize girme ve plaj keyfi",
-        "Tekne turlarına katılma",
-        "Tarihi yerleri ziyaret etme",
-        "Milli parkta doğa yürüyüşü",
-        "Gece hayatını deneyimleme"
-      ],
-      "en": [
-        "Swimming and beach activities",
-        "Boat tours",
-        "Visiting historical sites",
-        "Nature walks in the national park",
-        "Experiencing nightlife"
-      ],
-      "de": [
-        "Schwimmen und Strandaktivitäten",
-        "Bootstouren",
-        "Besuch historischer Stätten",
-        "Naturwanderungen im Nationalpark",
-        "Nachtleben erleben"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "şehir",
-        "deniz",
-        "tarih",
-        "turizm"
-      ],
-      "en": [
-        "city",
-        "sea",
-        "history",
-        "tourism"
-      ],
-      "de": [
-        "Stadt",
-        "Meer",
-        "Geschichte",
-        "Tourismus"
-      ]
-    },
-    "images": [
-      "https://example.com/kusadasi.jpg"
+  "slug": "kusadasi",
+  "name": {
+    "tr": "Kuşadası",
+    "en": "Kuşadası",
+    "de": "Kuşadası"
+  },
+  "latitude": 37.857,
+  "longitude": 27.261,
+  "description": {
+    "tr": "Kuşadası, Türkiye'nin Ege kıyılarında, Aydın iline bağlı olan ve kruvaziyer turizminde ülkenin en büyük deniz kapısı sayılan dünyaca ünlü bir tatil destinasyonudur. Tarihi Orta Çağ'a ve Ceneviz surlarına uzanan ilçe, adını sahilin hemen karşısında yükselen ve Osmanlı döneminde kale surlarıyla pekiştirilen Güvercinada'dan almaktadır. Mavi bayraklı uzun plajları, Ege kültürünü yansıtan balık restoranları, marina kompleksleri ve lüks tatil köyleri ile her yıl milyonlarca yerli ve yabancı turiste ev sahipliği yapmaktadır.\n\nİlçe, dünya mirası kabul edilen tarihi ve doğal alanların tam merkezinde yer alır. UNESCO Dünya Mirası Listesi'nde bulunan Efes Antik Kenti, Meryem Ana Evi, Artemis Tapınağı ve Şirince köyüne oldukça yakın konumu, Kuşadası'nı kültür turizminin ana üssü haline getirmiştir. Sahil şeridinin güneyinde uzanan Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı ise el değmemiş bakir koyları, zengin Akdeniz maki florası ve yaban hayatı ile doğa seyahati sevenlere eşsiz imkânlar sunar. Kanyon yürüyüş yolları ve Zeusiç Mağarası, bölgenin görülmesi gereken başlıca doğal değerlerindendir.\n\nKuşadası aynı zamanda Türkiye'nin ilk turizm beldelerinden biri olma mirasıyla son derece gelişmiş bir eğlence ve alışveriş altyapısına sahiptir. Barlar Sokağı ve Kaleiçi bölgesi hareketli gece hayatının merkezini oluştururken, gün boyu koylarda düzenlenen tekne turları, su sporları merkezleri ve su parkları her yaştan gezgin için dinamik bir Ege tatili olanağı vadetmektedir.",
+    "en": "Kuşadası is an internationally renowned resort town and cruise ship gateway situated along Turkey's Aegean coast in the Aydın Province. Dating back to the Byzantine and Genoese eras, the town takes its name ('Bird Island') from Güvercinada, a fortified islet crowned with an Ottoman castle that sits just off the mainland coast connected by a causeway. Known for its expansive Blue Flag beaches, world-class marinas, vibrant waterfront promenades, and coastal dining, Kuşadası stands as one of the premier Mediterranean holiday destinations.\n\nThe town serves as the primary gateway to some of the ancient world's most impressive archaeological and spiritual treasures. Positioned mere minutes from the UNESCO-listed ancient city of Ephesus, the House of the Virgin Mary, and the historic village of Şirince, it attracts millions of heritage travelers year-round. To the south lies the pristine Dilek Peninsula–Büyük Menderes Delta National Park, a protected sanctuary featuring secluded turquoise coves, hiking trails through dense Aegean flora, wild fauna, and the famous Cave of Zeus.\n\nBoasting a long legacy as one of Turkey's pioneering tourism hubs, Kuşadası features a vibrant entertainment and recreational sector. The historic Kaleiçi quarter offers bustling bazaars and lively nightlife, while daily boat excursions, sea kayaking, water parks, and beach clubs cater to sun-seekers and outdoor enthusiasts throughout the summer season.",
+    "de": "Kuşadası ist eines der beliebtesten Touristenziele der Türkei und liegt an der Ägäisküste in der Provinz Aydın. Mit seinen wunderschönen Stränden, dem türkisfarbenen Meer, dem Kreuzfahrthafen und seinem reichen historischen Erbe zieht die Stadt jedes Jahr Millionen von Besuchern an. Ihren Namen verdankt sie der vorgelagerten Insel Güvercinada, die einem Vogelkopf ähnelt. Kuşadası liegt zudem in der Nähe der antiken Stadt Ephesos und des Hauses der Jungfrau Maria, zwei bedeutenden historischen Stätten der Region. Der Nationalpark Dilek-Halbinsel–Büyük-Menderes-Delta bietet unberührte Buchten und eine vielfältige Tier- und Pflanzenwelt. Mit seinem lebhaften Nachtleben, Strandclubs und Sommerfestivals ist Kuşadası ein ideales Reiseziel für Badeurlaub, Kulturreisen und Naturerlebnisse."
+  },
+  "activities": {
+    "tr": [
+      "Güvercinada Kalesi'ni ve Kaleiçi bölgesini yürüyerek keşfetmek",
+      "Efes Antik Kenti ve Meryem Ana Evi'ne günlük turlar düzenlemek",
+      "Dilek Yarımadası Milli Parkı koylarında denize girmek ve doğa yürüyüşü yapmak",
+      "Kuşadası marinası ve kordon boyunca akşam yürüyüşleri yapmak",
+      "Günübirlik Ege tekne turlarına katılmak ve su sporları yapmak"
+    ],
+    "en": [
+      "Explore historic Güvercinada Castle and the old Kaleiçi quarter on foot",
+      "Take day trips to Ephesus Ancient City and the House of the Virgin Mary",
+      "Swim in pristine coves and hike through Dilek Peninsula National Park",
+      "Stroll along the Kuşadası marina promenade and seaside boulevards",
+      "Join daily boat cruises across the Aegean bays and enjoy water sports"
+    ],
+    "de": [
+      "Schwimmen und Strandaktivitäten",
+      "Bootstouren",
+      "Besuch historischer Stätten",
+      "Naturwanderungen im Nationalpark",
+      "Nachtleben erleben"
     ]
   },
+  "categories": {
+    "tr": [
+      "şehir",
+      "deniz",
+      "tarih",
+      "turizm",
+      "plaj"
+    ],
+    "en": [
+      "city",
+      "sea",
+      "history",
+      "tourism",
+      "beach"
+    ],
+    "de": [
+      "Stadt",
+      "Meer",
+      "Geschichte",
+      "Tourismus"
+    ]
+  },
+  "images": [
+    "https://example.com/kusadasi.jpg"
+  ]
+},
   {
     "slug": "didyma-antik-kenti",
     "name": {

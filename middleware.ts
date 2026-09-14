@@ -9,7 +9,24 @@ const cityToCountryMap = rawCityToCountryMap as Record<string, string>;
 
 // Eski slug -> Yeni slug yönlendirme haritası
 const LEGACY_REDIRECTS: Record<string, string> = {
-  "hagios-stephanos-church-aziz-stefan-kilisesi": "hagios-georgios-metropolitik-kilisesi",
+  "hagios-stephanos-church-aziz-stefan-kilisesi":
+    "hagios-georgios-metropolitik-kilisesi",
+};
+
+// Eski tam URL -> Yeni tam URL yönlendirme haritası
+// Şehir veya ülke bilgisi de değişen URL'ler burada tutulur.
+const SPECIAL_LEGACY_REDIRECTS: Record<string, string> = {
+  "/tr/kesfet/turkiye/afyonkarahisar/ihsaniye-taskinpasa-camii":
+    "/tr/kesfet/turkiye/nevsehir/taskinpasa-camii",
+
+  "/en/kesfet/turkey/afyonkarahisar/ihsaniye-taskinpasa-camii":
+    "/en/kesfet/turkey/nevsehir/taskinpasa-camii",
+
+  "/tr/kesfet/turkiye/mersin/ayvagedigi-plaji":
+    "/tr/kesfet/turkiye/mersin/ayvagedigi-yaylasi",
+
+  "/en/kesfet/turkey/mersin/ayvagedigi-plaji":
+    "/en/kesfet/turkey/mersin/ayvagedigi-yaylasi",
 };
 
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
@@ -20,6 +37,7 @@ function getLocale(request: NextRequest): "tr" | "en" {
   if (referer) {
     try {
       const refererUrl = new URL(referer);
+
       const firstSegment = refererUrl.pathname
         .split("/")
         .filter(Boolean)[0]
@@ -45,18 +63,25 @@ function getLocale(request: NextRequest): "tr" | "en" {
     return "tr";
   }
 
-  const acceptLanguage = request.headers.get("accept-language") || "";
+  const acceptLanguage =
+    request.headers.get("accept-language") || "";
 
-  return acceptLanguage.toLowerCase().includes("tr") ? "tr" : "en";
+  return acceptLanguage.toLowerCase().includes("tr")
+    ? "tr"
+    : "en";
 }
 
 export function middleware(request: NextRequest) {
   const ua = request.headers.get("user-agent") || "";
-  const { pathname, search, searchParams } = request.nextUrl;
+
+  const { pathname, search, searchParams } =
+    request.nextUrl;
 
   // BOT BLOCK
   if (BAD_BOT_REGEX.test(ua)) {
-    return new NextResponse("Blocked", { status: 403 });
+    return new NextResponse("Blocked", {
+      status: 403,
+    });
   }
 
   // STATIC / API SKIP
@@ -78,49 +103,126 @@ export function middleware(request: NextRequest) {
     "/en/kesfet/asia",
   ];
 
-  if (gonePaths.includes(pathname.toLowerCase())) {
-    return new NextResponse("Gone", { status: 410 });
+  if (
+    gonePaths.includes(
+      pathname.toLowerCase()
+    )
+  ) {
+    return new NextResponse("Gone", {
+      status: 410,
+    });
   }
 
-  const segments = pathname.split("/").filter(Boolean);
-  const currentLocale = segments[0]?.toLowerCase();
-  const isLocale = currentLocale === "tr" || currentLocale === "en";
+  const segments = pathname
+    .split("/")
+    .filter(Boolean);
 
-  // --- 1. LEGACY SLUG / URL YÖNLENDİRMESİ (301) ---
-  // URL'nin sonundaki slug değerini kontrol eder
-  const lastSegment = segments[segments.length - 1]?.toLowerCase();
+  const currentLocale =
+    segments[0]?.toLowerCase();
 
-  if (lastSegment && LEGACY_REDIRECTS[lastSegment]) {
-    const newSlug = LEGACY_REDIRECTS[lastSegment];
-    const newPathname = pathname.replace(lastSegment, newSlug);
+  const isLocale =
+    currentLocale === "tr" ||
+    currentLocale === "en";
+
+  // =====================================================
+  // ÖZEL ESKİ URL YÖNLENDİRMELERİ
+  // =====================================================
+
+  const normalizedPathname =
+    pathname.toLowerCase();
+
+  if (
+    SPECIAL_LEGACY_REDIRECTS[
+      normalizedPathname
+    ]
+  ) {
+    const newPath =
+      SPECIAL_LEGACY_REDIRECTS[
+        normalizedPathname
+      ];
 
     return NextResponse.redirect(
-      new URL(`${newPathname}${search}`, request.url),
+      new URL(
+        `${newPath}${search}`,
+        request.url
+      ),
       301
     );
   }
 
-  // URL'deki dili kullan
-  const detectedLocale: "tr" | "en" = isLocale
-    ? (currentLocale as "tr" | "en")
-    : getLocale(request);
+  // =====================================================
+  // LEGACY SLUG / URL YÖNLENDİRMESİ (301)
+  // =====================================================
 
+  const lastSegment =
+    segments[
+      segments.length - 1
+    ]?.toLowerCase();
+
+  if (
+    lastSegment &&
+    LEGACY_REDIRECTS[lastSegment]
+  ) {
+    const newSlug =
+      LEGACY_REDIRECTS[lastSegment];
+
+    const newPathname =
+      pathname.replace(
+        lastSegment,
+        newSlug
+      );
+
+    return NextResponse.redirect(
+      new URL(
+        `${newPathname}${search}`,
+        request.url
+      ),
+      301
+    );
+  }
+
+  // =====================================================
+  // URL'DEKİ DİLİ KULLAN
+  // =====================================================
+
+  const detectedLocale: "tr" | "en" =
+    isLocale
+      ? (currentLocale as "tr" | "en")
+      : getLocale(request);
+
+  // =====================================================
   // ROOT REDIRECT
+  // =====================================================
+
   if (pathname === "/") {
     return NextResponse.redirect(
-      new URL(`/${detectedLocale}`, request.url),
+      new URL(
+        `/${detectedLocale}`,
+        request.url
+      ),
       307
     );
   }
 
+  // =====================================================
   // LOCALE OLMAYAN URL'LER
+  // =====================================================
+
   if (!isLocale) {
-    const locale = getLocale(request);
-    const slug = (segments[0] || "").toLowerCase();
+    const locale =
+      getLocale(request);
+
+    const slug =
+      (segments[0] || "").toLowerCase();
 
     // SEO URL - KEŞFET
-    const city = slugToCityMap[slug];
-    const country = city ? cityToCountryMap[city] : null;
+    const city =
+      slugToCityMap[slug];
+
+    const country =
+      city
+        ? cityToCountryMap[city]
+        : null;
 
     if (city && country) {
       return NextResponse.redirect(
@@ -133,9 +235,13 @@ export function middleware(request: NextRequest) {
     }
 
     // AKTİVİTELER
-    const cityParam = searchParams.get("city");
+    const cityParam =
+      searchParams.get("city");
 
-    if (pathname.includes("/aktiviteler") && cityParam) {
+    if (
+      pathname.includes("/aktiviteler") &&
+      cityParam
+    ) {
       return NextResponse.redirect(
         new URL(
           `/${locale}/aktiviteler/${cityParam.toLowerCase()}`,
@@ -148,7 +254,10 @@ export function middleware(request: NextRequest) {
     // q PARAMETRESİ
     let finalSearch = search;
 
-    if (pathname.includes("/kesfet") && searchParams.has("q")) {
+    if (
+      pathname.includes("/kesfet") &&
+      searchParams.has("q")
+    ) {
       finalSearch = "";
     }
 
@@ -161,10 +270,17 @@ export function middleware(request: NextRequest) {
     );
   }
 
+  // =====================================================
   // AKTİVİTELER CITY PARAMETRESİ
-  const cityParam = searchParams.get("city");
+  // =====================================================
 
-  if (pathname.endsWith("/aktiviteler") && cityParam) {
+  const cityParam =
+    searchParams.get("city");
+
+  if (
+    pathname.endsWith("/aktiviteler") &&
+    cityParam
+  ) {
     return NextResponse.redirect(
       new URL(
         `${pathname}/${cityParam.toLowerCase()}`,
@@ -174,27 +290,44 @@ export function middleware(request: NextRequest) {
     );
   }
 
+  // =====================================================
   // q PARAMETRESİNİ TEMİZLE
+  // =====================================================
+
   if (
     pathname.includes("/kesfet") &&
     searchParams.has("q")
   ) {
-    const url = new URL(request.url);
+    const url =
+      new URL(request.url);
+
     url.searchParams.delete("q");
 
-    return NextResponse.redirect(url, 301);
+    return NextResponse.redirect(
+      url,
+      301
+    );
   }
 
+  // =====================================================
   // SHORT URL FIX
-  const slugSegment = segments[1]?.toLowerCase();
+  // =====================================================
+
+  const slugSegment =
+    segments[1]?.toLowerCase();
 
   if (
     slugSegment &&
     slugSegment !== "kesfet" &&
     segments.length <= 2
   ) {
-    const city = slugToCityMap[slugSegment];
-    const country = city ? cityToCountryMap[city] : null;
+    const city =
+      slugToCityMap[slugSegment];
+
+    const country =
+      city
+        ? cityToCountryMap[city]
+        : null;
 
     if (city && country) {
       return NextResponse.redirect(

@@ -1,211 +1,226 @@
 [
- {
-  "slug": "susa-kalesi",
-  "name": {
-    "tr": "Şuşa Kalesi ve Gence Kapısı",
-    "en": "Shusha Fortress and Ganja Gate",
-    "de": "Festung Schuscha (Ganja-Tor)"
-  },
-  "latitude": 39.7658,
-  "longitude": 46.7497,
-  "description": {
-    "tr": "Şuşa Kalesi, 1751 yılında Karabağ Hanlığı'nın kurucusu Penahali Han tarafından şehri dış saldırılardan korumak amacıyla inşa ettirilmiş tarihi bir savunma yapısıdır. Sarp kayalıklar üzerinde stratejik bir konumda yer alan kale, yapıldığı dönemde aşılması imkansız bir tahkimat olarak kabul edilmiştir. Kalenin şehre girişi sağlayan en meşhur kapısı, kuzeyde yer alan ve Gence şehrine doğru açıldığı için bu adı alan 'Gence Kapısı'dır. Kesme taşlardan inşa edilen bu anıtsal kapı ve surlar, Karabağ mimarlık okulunun en karakteristik özelliklerini taşır. Şuşa'nın zorlu tarihinin ve direnişinin en önemli sembolü olan kale, günümüzde şehre gelen misafirleri tüm ihtişamıyla karşılayan ilk durak noktasıdır.",
-    "en": "The Shusha Fortress is a historic defensive structure built in 1751 by Panah Ali Khan, the founder of the Karabakh Khanate, to protect the city from foreign invasions. Situated strategically on steep cliffs, the fortress was considered an impenetrable fortification in its era. The most famous entrance to the fortress is the 'Ganja Gate', located in the north and named after the city it faces. Built with precisely cut stones, this monumental gate and the surrounding walls reflect the characteristic features of the Karabakh architectural school. Standing as the ultimate symbol of Shusha's challenging history and resilience, the fortress is today the first landmark that welcomes visitors to the city in all its grandeur.",
-    "de": "Die Festung von Schuscha wurde 1751 vom Gründer des Khanats Karabach erbaut. Das monumentale Ganja-Tor ist das bekannteste Symbol dieser historischen Verteidigungsanlage."
-  },
-  "activities": {
-    "tr": [
-      "Tarihi kale gezisi",
-      "Fotoğrafçılık",
-      "Kültür turu"
-    ],
-    "en": [
-      "Historical fortress tour",
-      "Photography",
-      "Cultural tour"
-    ],
-    "de": [
-      "Historische Festungstour",
-      "Fotografie",
-      "Kulturtour"
+  {
+    "slug": "susa-kalesi",
+    "name": {
+      "tr": "Şuşa Kalesi ve Gence Kapısı",
+      "en": "Shusha Fortress and Ganja Gate",
+      "de": "Festung Schuscha (Ganja-Tor)"
+    },
+    "latitude": 39.76593,
+    "longitude": 46.75018,
+    "description": {
+      "tr": "Şuşa Kalesi, Karabağ Hanlığı'nın kurucusu Penah Ali Han tarafından 18. yüzyılın ortalarında kurulan Şuşa şehrinin savunma sisteminin temel unsurudur. Şehir, doğal olarak savunmaya elverişli yüksek ve sarp bir arazi üzerine kurulmuş, kale surları ise çevredeki kayalıklar ve dik yamaçlarla birlikte güçlü bir savunma hattı oluşturmuştur. Şuşa'nın kuruluş tarihi bazı kaynaklarda 1751, bazı tarihsel çalışmalarda ise 1753-1754 dönemiyle ilişkilendirilir. Bu nedenle kalenin tek bir kesin yapım yılına indirgenmesi yerine 18. yüzyılın ortalarında inşa edilen bir tahkimat sistemi olarak değerlendirilmesi daha doğrudur. Kale ve şehir surları zaman içerisinde genişletilmiş, kuleler ve kapılar savunma düzeninin önemli parçaları haline gelmiştir. Şuşa'nın topoğrafyası, özellikle güney, doğu ve batı taraflarındaki doğal uçurumlar nedeniyle savunmacılara büyük avantaj sağlamış, kuzey yönündeki geçişler ise sur ve kapılarla kontrol edilmiştir. Gence Kapısı, kalenin kuzey tarafındaki en tanınmış girişlerden biridir ve adını kuzeye doğru uzanan Gence yolu ile bağlantısından alır. Taştan inşa edilen kapı, Şuşa'nın 18. yüzyıl savunma mimarisinin günümüze ulaşan önemli örneklerinden biridir. Şuşa Kalesi yalnızca askeri bir yapı değildir; çevresinde gelişen mahalleler, camiler, meydanlar, konutlar, ticaret yapıları ve diğer tarihi eserlerle birlikte Şuşa'nın tarihî kent dokusunun temelini oluşturur. Şehir, 18. ve 19. yüzyıllarda Karabağ bölgesinin önemli siyasi, ticari ve kültürel merkezlerinden biri haline gelmiştir. Günümüzde kale surları ve Gence Kapısı, Şuşa'nın tarihi kimliğini anlamak için en önemli duraklardan biridir. Ziyaret sırasında surların taş işçiliği, savunma kuleleri ve şehrin yüksek konumundan görülen çevre manzarası özellikle dikkat çeker. Kale, Şuşa'nın mimari geçmişini, Karabağ Hanlığı dönemindeki şehirleşme anlayışını ve bölgenin stratejik önemini birlikte incelemek isteyen ziyaretçiler için önemli bir tarihî noktadır.",
+      "en": "Shusha Fortress forms the central defensive element of the historic city of Shusha, which was established in the mid-18th century by Panah Ali Khan, founder of the Karabakh Khanate. The city was built on a naturally defensible mountainous site surrounded by steep cliffs and rugged terrain. These geographical features provided strong protection on several sides, while the northern approaches were reinforced with defensive walls, towers and gates. Sources associate the foundation of Shusha with the early 1750s, with dates such as 1751 and 1753-1754 appearing in historical accounts. Rather than assigning the entire fortress to a single construction date, it is more accurate to understand it as a defensive system that developed during the middle of the 18th century. The fortress walls and towers were constructed in stages as the city expanded, creating a close relationship between the natural landscape and the built defenses. Ganja Gate is one of the best-known entrances of the fortress. Located on the northern side, the gate takes its name from the historic route leading toward Ganja. Constructed from stone, it represents an important surviving element of Shusha's 18th-century defensive architecture. The fortress was not an isolated military structure. It formed the protective framework around a growing urban settlement containing residential districts, mosques, public spaces, commercial buildings and other architectural monuments. During the 18th and 19th centuries, Shusha developed into an important political, commercial and cultural center of the Karabakh region. Its elevated position also gave the city considerable strategic importance, while the surrounding mountains and valleys shaped the organization of its streets and neighborhoods. Today, Shusha Fortress and Ganja Gate provide an opportunity to understand the historical development of the city and the defensive principles used in the architecture of the Karabakh Khanate period. Visitors can examine the surviving stone walls, towers and gate structures while also observing the dramatic mountain landscape surrounding Shusha. The fortress is particularly significant because its architecture cannot be separated from the natural environment in which the city was built. Together, the fortifications and the historic urban fabric demonstrate how geography, defense, architecture and urban development were closely connected in Shusha."
+      ,
+      "de": "Die Festung von Schuscha entstand Mitte des 18. Jahrhunderts und bildete das wichtigste Verteidigungssystem der historischen Stadt. Das Ganja-Tor gehört zu den bekanntesten erhaltenen Teilen der Festungsmauer."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi kale gezisi",
+        "Gence Kapısı'nı görme",
+        "Fotoğrafçılık",
+        "Şuşa tarihi ve mimarisi keşfi"
+      ],
+      "en": [
+        "Historical fortress tour",
+        "Visit to Ganja Gate",
+        "Photography",
+        "Exploring Shusha's history and architecture"
+      ],
+      "de": [
+        "Historische Festungstour",
+        "Besichtigung des Ganja-Tores",
+        "Fotografie",
+        "Kulturentdeckung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "kale",
+        "anit"
+      ],
+      "en": [
+        "historical-site",
+        "fortress",
+        "monument"
+      ],
+      "de": [
+        "historische-staette",
+        "festung",
+        "denkmal"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ganja_Gate_of_Shusha_Fortress_2021.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "kale",
-      "anit"
-    ],
-    "en": [
-      "historical-site",
-      "fortress",
-      "monument"
-    ],
-    "de": [
-      "historische-staette",
-      "festung",
-      "denkmal"
+  {
+    "slug": "cidir-duzu",
+    "name": {
+      "tr": "Cıdır Düzü",
+      "en": "Jidir Duzu",
+      "de": "Dschidir-Ebene"
+    },
+    "latitude": 39.75375,
+    "longitude": 46.76021,
+    "description": {
+      "tr": "Cıdır Düzü, Şuşa'nın güney kesiminde yer alan ve şehrin doğal, kültürel ve edebî kimliğiyle yakından ilişkili tarihi bir düzlük ve manzara alanıdır. Yaklaşık 1300-1340 metre rakımda bulunan bu geniş alan, güneyindeki Daşaltı kanyonu ve çevredeki dağlık arazi nedeniyle Şuşa'nın en etkileyici seyir noktalarından biri olarak kabul edilir. Azerbaycanca “Cıdır” kelimesi at yarışı yapılan alan anlamında kullanılır ve Cıdır Düzü'nün adı da tarih boyunca burada düzenlenen at yarışlarıyla bağlantılıdır. Karabağ Hanlığı döneminden itibaren bu alanda at yarışlarının yanı sıra çovkan gibi geleneksel oyunlar, Nevruz kutlamaları, halk gösterileri, güreşler, ip cambazlığı etkinlikleri ve şiir toplantıları düzenlenmiştir. Bu nedenle Cıdır Düzü yalnızca doğal bir açıklık değil, Şuşa'nın toplumsal ve kültürel hayatında önemli bir buluşma alanı olmuştur. Düzlüğün kenarından aşağıya bakıldığında Daşaltı kanyonu ve vadinin içinden geçen Daşaltı Çayı görülebilir. Çevrede Topkhana ormanı, Üç Mıh dağı, Ağzıyastı mağarası ve Khazna kayalığı gibi doğal oluşumlar da bulunur. Cıdır Düzü ayrıca Karabağ kültürünün önemli sembollerinden biri haline gelen harı-bülbül çiçeğiyle ilişkilidir. Bu çiçek Şuşa ve Karabağ kültüründe özel bir yere sahiptir ve bölgenin kültürel simgelerinden biri olarak kabul edilir. Cıdır Düzü'nün önemi yalnızca geleneksel etkinliklerle sınırlı değildir. Şuşa'nın şiir ve müzik geleneğiyle de güçlü bir bağlantısı vardır. Molla Penah Vagif'in mezarı üzerine 1982 yılında inşa edilen anıt-türbe de Cıdır Düzü çevresindeki kayalık tepelerden birinde yer alır. Şuşa'nın kültürel yaşamının yeniden canlandırılması kapsamında Harı Bülbül Uluslararası Müzik Festivali gibi etkinlikler de şehirde düzenlenmektedir. Günümüzde Cıdır Düzü'nü ziyaret edenler panoramik manzarayı izleyebilir, tarihi etkinlik alanını keşfedebilir ve Daşaltı vadisinin doğal görünümünü fotoğraflayabilir. Alan, Şuşa'nın doğal çevresi ile tarihî ve kültürel mirasının aynı noktada birleştiği önemli bir açık hava mekânıdır.",
+      "en": "Jidir Duzu is a historic open plateau in the southern part of Shusha and one of the places most closely associated with the city's natural, cultural and literary identity. Situated at an elevation of approximately 1,300 to 1,340 meters, the plateau overlooks the Dashalti canyon and valley and provides broad views of the mountainous landscape surrounding Shusha. The Azerbaijani word “Jidir” is associated with horse riding and horse racing, reflecting the traditional use of the area. Since the period of the Karabakh Khanate, Jidir Duzu has been used for horse races, traditional games such as chovqan, Nowruz celebrations, public performances, wrestling, tightrope walking and poetry gatherings. These activities made the plateau an important social and cultural gathering place rather than simply an open natural area. One of the most striking features of Jidir Duzu is its position above the Dashalti canyon. From the edge of the plateau, visitors can see the canyon below and the Dashalti River flowing through the valley. The surrounding landscape includes Topkhana forest, Uch Mikh mountain, Aghziyasti cave and Khazna rock, adding to the area's natural character. Jidir Duzu is also strongly associated with the Kharibulbul flower, a cultural symbol of Shusha and Karabakh. The flower has become an important part of the region's cultural identity and is closely connected with local artistic traditions. The plateau also has an important literary connection through the nearby mausoleum of Molla Panah Vagif. The mausoleum was completed in 1982 over the grave of the celebrated Azerbaijani poet and statesman, whose life and work are closely connected with Shusha. In the modern period, the cultural revival of Shusha has also included major musical and artistic events such as the Kharibulbul International Music Festival. These events have reinforced the connection between the plateau and the city's musical heritage. Today, Jidir Duzu is one of the most recognizable outdoor landmarks of Shusha. Visitors can enjoy panoramic views, explore the historic landscape associated with traditional celebrations and horse racing, and photograph the dramatic Dashalti canyon. The site offers a particularly clear example of how the geography of Shusha has shaped its cultural traditions and public life over centuries."
+    ,
+    "de": "Die Dschidir-Ebene liegt südlich von Schuscha auf etwa 1.300–1.340 Metern Höhe. Sie ist für Pferderennen, traditionelle Feste, Panoramablicke auf die Dashalti-Schlucht und ihre Verbindung zur Kultur von Karabach bekannt."
+    },
+    "activities": {
+      "tr": [
+        "Doğa yürüyüşü",
+        "Panoramik manzara izleme",
+        "Fotoğrafçılık",
+        "Kültürel etkinliklere katılım"
+      ],
+      "en": [
+        "Nature walking",
+        "Panoramic viewpoint",
+        "Photography",
+        "Cultural events"
+      ],
+      "de": [
+        "Naturwandern",
+        "Panorama-Aussicht",
+        "Fotografie",
+        "Kulturveranstaltungen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doga",
+        "yayla",
+        "manzara"
+      ],
+      "en": [
+        "nature",
+        "plateau",
+        "viewpoint"
+      ],
+      "de": [
+        "natur",
+        "hochebene",
+        "aussichtspunkt"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jidir_Duzu_Shusha_Azerbaijan.jpg"
     ]
   },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ganja_Gate_of_Shusha_Fortress_2021.jpg"
-  ]
-},
-{
-  "slug": "cidir-duzu",
-  "name": {
-    "tr": "Cıdır Düzü",
-    "en": "Jidir Duzu",
-    "de": "Dschidir-Ebene"
-  },
-  "latitude": 39.7542,
-  "longitude": 46.7589,
-  "description": {
-    "tr": "Şuşa'nın güneyinde, Daşaltı Geçidi'nin hemen üzerinde yer alan Cıdır Düzü, Karabağ'ın hem doğal güzelliğini hem de kültürel mirasını simgeleyen efsanevi bir yayladır. Yüzyıllar boyunca Karabağ Hanlığı döneminde at yarışlarının (Cıdır), milli oyunların ve nevruz kutlamalarının yapıldığı bu düzlük, muazzam bir enerjiye sahiptir. Kenarında durduğunuzda altınızdaki derin kanyonun ve Daşaltı Çayı'nın nefes kesici manzarasını panoramik olarak görebilirsiniz. Aynı zamanda sadece bu bölgede yetişen ve Karabağ'ın sembolü olan endemik 'Harı-bülbül' çiçeğinin ana vatanıdır. Günümüzde her yıl düzenlenen uluslararası 'Harıbülbül Müzik Festivali'ne ev sahipliği yapan Cıdır Düzü, Azerbaycan halkı için yüksek bir manevi değere sahiptir.",
-    "en": "Located in the south of Shusha, just above the Dashalti Gorge, Jidir Duzu is a legendary plateau that symbolizes both the natural beauty and cultural heritage of Karabakh. For centuries, during the Karabakh Khanate, this flat highland hosted horse races (Jidir), national games, and Nowruz celebrations. Standing at its edge offers a breathtaking panoramic view of the deep canyon below and the Dashalti River. It is also the homeland of the endemic 'Khari-bulbul' flower, which grows only in this region and serves as the symbol of Karabakh. Today, hosting the annual international 'Kharybulyul Music Festival', Jidir Duzu holds profound spiritual and cultural significance for the Azerbaijani people.",
-    "de": "Die Dschidir-Ebene ist ein legendäres Plateau im Süden von Schuscha. Bekannt für Pferderennen im Khanat Karabach, atemberaubende Schluchtenpanoramen und die seltene Khari-Bulbul-Blume."
-  },
-  "activities": {
-    "tr": [
-      "Doğa yürüyüşü",
-      "Panoramik manzara izleme",
-      "Festival ve etkinlik katılımı"
-    ],
-    "en": [
-      "Nature trekking",
-      "Panoramic viewpoint",
-      "Festival and events attendance"
-    ],
-    "de": [
-      "Naturwandern",
-      "Panorama-Aussichtspunkt",
-      "Festival- und Eventbesuch"
+  {
+    "slug": "yukari-govher-aga-camii",
+    "name": {
+      "tr": "Yukarı Gövher Ağa Camii",
+      "en": "Yukhari Govhar Agha Mosque",
+      "de": "Obere Gövhar-Agha-Moschee"
+    },
+    "latitude": 39.76011,
+    "longitude": 46.75258,
+    "description": {
+      "tr": "Yukarı Gövher Ağa Camii, Şuşa'nın tarihi merkezinde yer alan ve Karabağ bölgesinin en önemli dini mimari eserlerinden biri kabul edilen tarihî bir camidir. Yapının geçmişi 18. yüzyıla kadar uzanır. Bugünkü caminin bulunduğu yerde 1768-1769 yıllarında İbrahim Halil Han döneminde bir cami inşa edilmiş, daha sonra Gövher Ağa'nın desteğiyle bu eski yapının yerine daha büyük bir cuma camisi yapılmıştır. Bugünkü yapı, ünlü Karabağlı mimar Kerbelayı Sefihan Karabaği tarafından 1883 yılında başlatılmış ve 1885 yılında tamamlanmıştır. Gövher Ağa, Karabağ Hanı İbrahim Halil Han'ın kızıydı ve Şuşa'daki önemli dini yapıların inşası ve yenilenmesinde önemli bir rol üstlenmiştir. Caminin mimarisinde Karabağ'a özgü geleneklerle İslam dini mimarisinin unsurları birlikte görülür. Yapının kuzey cephesinin büyük bölümünü kaplayan revaklı giriş bölümü, üç büyük kemerli açıklığı ve üzerindeki Kur'an yazısı ile dikkat çeker. Kareye yakın planlı ibadet mekânının içerisinde iki küçük kubbe bulunur ve yan bölümlerde galeriler yer alır. Caminin iki minaresi yapının en belirgin dış mimari unsurları arasındadır. Minare gövdelerinde tuğla işçiliği ve dekoratif düzenlemeler görülürken, ince merdivenler üst bölümlere ulaşır. Şuşa'nın tarihî şehir silüetinde önemli bir yere sahip olan cami, bölgenin siyasi ve kültürel tarihinde yaşanan çatışmalar nedeniyle uzun süre zarar görmüş ve farklı dönemlerde farklı işlevlerle kullanılmıştır. Günümüzde yapı kapsamlı restorasyon çalışmalarının ardından yeniden Şuşa'nın önemli tarihî ve dini yapıları arasında yer almaktadır. Caminin restorasyonu sırasında tarihî mimari karakterin ve özgün dekoratif unsurların korunmasına önem verilmiştir. Yukarı Gövher Ağa Camii, Şuşa'nın yalnızca dini tarihini değil, aynı zamanda 19. yüzyıl Karabağ mimarisinin gelişimini anlamak açısından da değerlidir. Ziyaretçiler burada caminin iki minaresini, kemerli revakını, taş ve tuğla detaylarını ve tarihî şehir dokusuyla ilişkisini inceleyebilir. Yapı, Şuşa'daki diğer tarihî camiler ve mimari eserlerle birlikte değerlendirildiğinde şehrin geçmişteki dini ve toplumsal yaşamı hakkında önemli bilgiler sunmaktadır.",
+      "en": "The Yukhari Govhar Agha Mosque is a historic mosque in the center of Shusha and one of the most important examples of religious architecture associated with the Karabakh region. The history of the site goes back to the 18th century. A mosque was established here in 1768-1769 during the period of Ibrahim Khalil Khan, and the present larger Friday mosque was later constructed on the site with the support of Govhar Agha, daughter of Ibrahim Khalil Khan. The present building was designed by the prominent regional architect Karbalayi Safikhan Karabakhi. Construction began in 1883 and was completed in 1885. Govhar Agha played an important role in supporting religious architecture in Shusha, and her name is associated with both the upper and lower Govhar Agha mosques of the city. The architecture of the Yukhari Govhar Agha Mosque combines local Karabakh traditions with elements of Islamic religious architecture. A large iwan and portico dominate much of the northern facade, with three large arches and a long Quranic inscription above them. The prayer hall has an almost square plan, with galleries along the sides and two small domes in the central part of the ceiling. The mosque's two minarets are among its most recognizable architectural features. Their shafts contain narrow spiral staircases leading to the upper platforms, while decorative brickwork and geometric details contribute to the visual character of the exterior. Because of its location in the historic center, the mosque has long been an important element of Shusha's urban skyline. The building suffered damage and neglect during periods of conflict and political change, and its history reflects the wider difficulties experienced by the city's architectural heritage. Restoration efforts in the modern period have aimed to recover the building's historical appearance and preserve its architectural character. Today, the mosque is an important monument for understanding the religious, architectural and urban history of Shusha. Visitors can examine the large arched entrance, twin minarets, masonry details and interior organization of the prayer hall. Together with other historic mosques, houses and public buildings in Shusha, the Yukhari Govhar Agha Mosque illustrates the development of Karabakh architecture during the 18th and 19th centuries and the important role religious buildings played in the social structure of the historic city."
+    ,
+    "de": "Die Obere Gövhar-Agha-Moschee ist eine bedeutende historische Moschee im Zentrum von Schuscha. Das heutige Gebäude wurde 1883–1885 von Kerbalayi Safikhan Karabakhi errichtet und besitzt zwei markante Minarette."
+    },
+    "activities": {
+      "tr": [
+        "Dini mimari gezisi",
+        "Tarihi gezi",
+        "Fotoğrafçılık",
+        "Şuşa şehir tarihi keşfi"
+      ],
+      "en": [
+        "Religious architecture tour",
+        "Historical sightseeing",
+        "Photography",
+        "Exploring Shusha's urban history"
+      ],
+      "de": [
+        "Religiöse Architekturführung",
+        "Historische Besichtigung",
+        "Fotografie",
+        "Stadterkundung"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarihi-yer",
+        "cami",
+        "ibadethane"
+      ],
+      "en": [
+        "historical-site",
+        "mosque",
+        "place-of-worship"
+      ],
+      "de": [
+        "historische-staette",
+        "moschee",
+        "gotteshaus"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Yukhari_Govhar_Agha_Mosque_after_restoration.jpg"
     ]
   },
-  "categories": {
-    "tr": [
-      "doga",
-      "yayla",
-      "manzara"
-    ],
-    "en": [
-      "nature",
-      "plateau",
-      "viewpoint"
-    ],
-    "de": [
-      "natur",
-      "hochebene",
-      "aussichtspunkt"
+  {
+    "slug": "molla-penah-vagif-turbesi",
+    "name": {
+      "tr": "Molla Penah Vagif Türbesi",
+      "en": "Molla Panah Vagif Mausoleum",
+      "de": "Molla-Panah-Wagif-Mausoleum"
+    },
+    "latitude": 39.75542,
+    "longitude": 46.75833,
+    "description": {
+      "tr": "Molla Penah Vagif Türbesi, Şuşa'nın güneyindeki Cıdır Düzü yakınlarında yer alan ve Azerbaycan'ın önemli şairlerinden Molla Penah Vagif'in anısına inşa edilmiş anıtsal bir yapıdır. Vagif 1717-1797 yılları arasında yaşamış, Azerbaycan edebiyatında özellikle gerçekçi üslubu, halk diline yakın şiirleri ve koşma, gazel ve tajnis gibi türlerdeki eserleriyle tanınmıştır. Aynı zamanda Karabağ Hanlığı'nın siyasi hayatında önemli bir görev üstlenmiş ve İbrahim Halil Han döneminde vezir olarak görev yapmıştır. Vagif'in Şuşa ile bağlantısı güçlüdür ve hayatının önemli bir bölümü burada geçmiştir. Şairin mezarı üzerine anıtsal bir yapı yapılması fikri 20. yüzyılın sonlarında gerçekleşmiş, türbenin inşası 1970'li yıllarda başlamış ve yapı 1982 yılında tamamlanmıştır. Proje, mimar Abdulvahab Salamzade ve Eldar Kanukov tarafından hazırlanmış, tasarımda geleneksel Azerbaycan kule tipi türbelerinden esinlenilirken modern mimari anlayış da kullanılmıştır. Yaklaşık 18 metre yüksekliğindeki yapı kare planlı ve dikey olarak yükselen bir tasarıma sahiptir. Beyaz ve kırmızı tonların kullanıldığı dış cephe düzenlemesi ile metal kafes benzeri geometrik yüzeyleri, türbeyi Şuşa'daki diğer tarihî yapılardan ayırır. İç mekânda Vagif'in mezarı ve ona ait anıtsal unsurlar bulunuyordu. Şuşa'nın 1990'lı yıllardaki çatışmalar sırasında yaşadığı tahribat türbeyi de etkiledi ve yapı zarar gördü. Daha sonraki dönemde restorasyon ve yeniden düzenleme çalışmaları başlatıldı. 2021 yılında gerçekleştirilen çalışmalarla türbenin mimari görünümünün yeniden ortaya çıkarılması ve Şuşa'nın kültürel mirasındaki yerinin güçlendirilmesi hedeflendi. Azerbaycan'ın kültür hayatında Vagif'in özel bir yere sahip olması nedeniyle türbe yalnızca bir mezar yapısı olarak değil, edebiyat tarihinin önemli bir anıtı olarak değerlendirilir. Cıdır Düzü'ne yakın konumu da yapının kültürel önemini artırır. Şuşa'nın şiir, müzik ve sanat geleneğiyle bağlantılı birçok etkinlik ve kültürel program bu bölgeyle ilişkilidir. Vagif'in şiir mirasının anılması amacıyla düzenlenen Vagif Şiir Günleri de Şuşa'nın edebî kimliğinin yeniden canlandırılmasında önemli bir yere sahiptir. Günümüzde türbe, Şuşa'yı ziyaret edenlerin hem Azerbaycan edebiyatının önemli isimlerinden birini tanıyabileceği hem de modern Azerbaycan mimarisinin dikkat çekici örneklerinden birini görebileceği kültürel bir duraktır.",
+      "en": "The Molla Panah Vagif Mausoleum stands near Jidir Duzu in Shusha and commemorates Molla Panah Vagif, one of the most important figures in Azerbaijani poetry and literary history. Vagif lived from 1717 to 1797 and became known for poetry characterized by realism, accessible language and strong connections with Azerbaijani folk traditions. He was also an important political figure in the Karabakh Khanate and served as vizier to Ibrahim Khalil Khan. Vagif spent a significant part of his life in Shusha, making the city an important part of his literary and political legacy. The mausoleum was built over his grave in the late 20th century. Construction began during the 1970s and the monument was completed in 1982. The design was prepared by Abdulvahab Salamzade and Eldar Kanukov, who combined principles of traditional Azerbaijani tower mausoleums with a distinctly modern architectural approach. The structure rises approximately 18 meters and has a strong vertical form based on a square plan. Its exterior combines geometric surfaces, stone elements and a distinctive metal lattice treatment, giving it a very different appearance from the older stone religious monuments found elsewhere in Shusha. Inside the original monument were memorial elements associated with Vagif and his burial place. The mausoleum was damaged during the conflicts that affected Shusha in the 1990s and subsequently suffered from prolonged neglect. Following the later restoration of Shusha, work was undertaken to recover the architectural character of the monument. Restoration efforts in 2021 helped revive the structure and return it to the cultural landscape of the city. The importance of the mausoleum extends beyond the physical building. Vagif occupies a special place in Azerbaijani literary history, and his connection with Shusha has contributed strongly to the city's reputation as a center of poetry and culture. The area around Jidir Duzu has also been associated with literary gatherings and cultural celebrations, while the revival of Vagif Poetry Days has strengthened the connection between the poet and the modern cultural life of Shusha. Today, the mausoleum is an important cultural landmark for visitors interested in Azerbaijani literature, history and architecture. Its location near Jidir Duzu also allows it to be visited together with one of Shusha's most famous landscapes. The combination of the poet's historical legacy, the monument's modern architectural design and the surrounding mountain scenery makes the Vagif Mausoleum an important part of Shusha's cultural heritage."
+ ,
+    "de": "Das Mausoleum erinnert an den bedeutenden aserbaidschanischen Dichter Molla Panah Wagif. Das 1982 vollendete Bauwerk liegt nahe Dschidir Düzü und verbindet traditionelle Formen mit moderner Architektur."
+    },
+    "activities": {
+      "tr": [
+        "Anıt mezar ziyareti",
+        "Kültür ve edebiyat gezisi",
+        "Fotoğrafçılık",
+        "Şuşa'nın edebî mirasını keşfetme"
+      ],
+      "en": [
+        "Mausoleum visit",
+        "Cultural and literature tour",
+        "Photography",
+        "Exploring Shusha's literary heritage"
+      ],
+      "de": [
+        "Mausoleum-Besuch",
+        "Kultur- und Literaturtour",
+        "Fotografie",
+        "Literaturerbe entdecken"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "anit",
+        "turbe",
+        "tarihi-yer"
+      ],
+      "en": [
+        "monument",
+        "mausoleum",
+        "historical-site"
+      ],
+      "de": [
+        "denkmal",
+        "mausoleum",
+        "historische-staette"
+      ]
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vagif_Mausoleum_in_Shusha_2021.jpg"
     ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jidir_Duzu_Shusha_Azerbaijan.jpg"
-  ]
-},
-{
-  "slug": "yukari-govher-aga-camii",
-  "name": {
-    "tr": "Yukarı Gövher Ağa Camii",
-    "en": "Yukhari Govhar Agha Mosque",
-    "de": "Obere Gövhar-Agha-Moschee"
-  },
-  "latitude": 39.7597,
-  "longitude": 46.7533,
-  "description": {
-    "tr": "Şuşa'nın merkez meydanında yer alan Yukarı Gövher Ağa Camii, Karabağ dini mimarisinin en görkemli ve tarihi anıtlarından biridir. İbrahim Halil Han'ın kızı Gövher Ağa'nın talimatıyla 1883-1885 yılları arasında ünlü mimar Kerbelayı Sefihan Karabaği tarafından inşa edilmiştir. Caminin en dikkat çekici özelliği, üzeri ince tuğla işçiliği ve geometrik desenlerle bezenmiş iki adet simetrik minaresidir. İç mekanında ise taş sütunlar ve İslam sanatının zarif hat örnekleri yer alır. Şehrin tarihi silüetinin ayrılmaz bir parçası olan bu cami, Şuşa'nın maruz kaldığı işgal ve yıkım dönemlerinin ardından aslına uygun olarak restore edilmiş ve yeniden ibadete ile ziyarete açılmıştır.",
-    "en": "Situated in the central square of Shusha, the Yukhari Govhar Agha Mosque is one of the most magnificent landmarks of Karabakh religious architecture. It was built between 1883 and 1885 by the renowned architect Kerbalayi Safikhan Karabakhi, commissioned by Govhar Agha, the daughter of Ibrahim Khalil Khan. The most striking feature of the mosque is its twin symmetric minarets, decorated with intricate brickwork and geometric patterns. The interior showcases elegant stone columns and fine examples of Islamic calligraphy. An inseparable part of the city's historic skyline, the mosque has been meticulously restored back to its original form following periods of conflict and is now open for worship and visitors.",
-    "de": "Eine historische Moschee im Zentrum von Schuscha, erbaut im späten 19. Jahrhundert. Bekannt für ihre zwei symmetrischen Minarette mit filigranen Ziegelmustern."
-  },
-  "activities": {
-    "tr": [
-      "Dini mimari gezisi",
-      "Tarihi gezi",
-      "Fotoğrafçılık"
-    ],
-    "en": [
-      "Religious architecture tour",
-      "Historical sightseeing",
-      "Photography"
-    ],
-    "de": [
-      "Religiöse Architekturführung",
-      "Historische Besichtigung",
-      "Fotografie"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "tarihi-yer",
-      "cami",
-      "ibadethane"
-    ],
-    "en": [
-      "historical-site",
-      "mosque",
-      "place-of-worship"
-    ],
-    "de": [
-      "historische-staette",
-      "moschee",
-      "gotteshaus"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/4/4e/Yukhari_Govhar_Agha_Mosque_after_restoration.jpg"
-  ]
-},
-{
-  "slug": "molla-penah-vagif-turbesi",
-  "name": {
-    "tr": "Molla Penah Vagif Türbesi",
-    "en": "Molla Panah Vagif Mausoleum",
-    "de": "Molla-Panah-Wagif-Mausoleum"
-  },
-  "latitude": 39.7548,
-  "longitude": 46.7602,
-  "description": {
-    "tr": "Cıdır Düzü'ne yakın bir konumda yer alan anıt-türbe, 18. yüzyıl Azerbaycan edebiyatının ve şiirinin en büyük ustalarından, aynı zamanda Karabağ Hanlığı'nın dışişleri bakanı olan Molla Penah Vagif'in anısına inşa edilmiştir. İlk olarak 1982 yılında açılışı yapılan bu anıtsal yapı, kule şeklinde yükselen dört köşe mimarisi ve üzeri beyaz mermer kaplı geometrik kafes pencereleriyle modern Azerbaycan mimarisinin eşsiz bir sentezidir. İşgal döneminde tamamen tahrip edilen türbe, 2021 yılında aslına sadık kalınarak yeniden inşa edilmiş ve eski ihtişamına kavuşturulmuştur. Şuşa'nın şiir ve edebiyat kenti kimliğinin en somut nişanesi olan bu yapı, kültürel hafızanın korunması açısından büyük önem taşır.",
-    "en": "Located near Jidir Duzu, this monument-mausoleum was erected in honor of Molla Panah Vagif, an 18th-century master of Azerbaijani poetry and the foreign minister of the Karabakh Khanate. Originally inaugurated in 1982, the towering quadrangular structure is a unique synthesis of modern Azerbaijani design, featuring white marble cladding and geometric lattice windows. Completely destroyed during the occupation period, the mausoleum was meticulously reconstructed in 2021 according to its original design. Standing as the most tangible token of Shusha’s identity as a city of poetry and literature, this structure holds immense importance in preserving cultural memory.",
-    "de": "Ein monumentales Mausoleum für den berühmten aserbaidschanischen Dichter des 18. Jahrhunderts, Molla Panah Wagif. Ein Meisterwerk moderner Architektur aus weißem Marmor."
-  },
-  "activities": {
-    "tr": [
-      "Anıt mezar ziyareti",
-      "Kültür ve edebiyat gezisi",
-      "Fotoğrafçılık"
-    ],
-    "en": [
-      "Mausoleum visit",
-      "Cultural and literature tour",
-      "Photography"
-    ],
-    "de": [
-      "Mausoleum-Besuch",
-      "Kultur- und Literaturtour",
-      "Fotografie"
-    ]
-  },
-  "categories": {
-    "tr": [
-      "anit",
-      "turbe",
-      "tarihi-yer"
-    ],
-    "en": [
-      "monument",
-      "mausoleum",
-      "historical-site"
-    ],
-    "de": [
-      "denkmal",
-      "mausoleum",
-      "historische-staette"
-    ]
-  },
-  "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vagif_Mausoleum_in_Shusha_2021.jpg"
-  ]
-}
-
+  }
 ]

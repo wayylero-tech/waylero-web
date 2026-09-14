@@ -334,53 +334,82 @@
       "https://example.com/odaiba_2.jpg"
     ]
   },
-  {
-    "slug": "ueno-parki",
-    "name": {
-      "tr": "Ueno Parkı",
-      "en": "Ueno Park",
-      "de": "Ueno Park"
-    },
-    "latitude": 35.7142,
-    "longitude": 139.7737,
-    "description": {
-      "tr": "Ueno Parkı, Tokyo'nun en büyük ve en popüler parklarından biridir. Park, geniş yeşil alanları, göletleri, yürüyüş yolları ve tarihi ağaçları ile ziyaretçilere doğayla iç içe bir deneyim sunar. Ayrıca Ueno Parkı, Tokyo Hayvanat Bahçesi'ne ev sahipliği yapar ve burası özellikle çocuklu aileler için önemli bir cazibe merkezidir. Parkta bulunan Tokyo Ulusal Müzesi, Batı ve Doğu sanatının zengin koleksiyonlarını barındırırken, Ueno Parkı aynı zamanda Japon kültürü ve tarihi hakkında bilgi edinmek isteyenler için mükemmel bir destinasyondur. Bahar aylarında park, kiraz çiçekleri (sakura) ile ünlüdür ve hem yerli halk hem de turistler tarafından yoğun ilgi görür. Yıl boyunca çeşitli kültürel etkinlikler ve festivaller düzenlenen Ueno Parkı, Tokyo gezi rehberlerinde mutlaka görülmesi gereken noktalar arasında yer alır.",
-      "en": "Ueno Park is one of Tokyo's largest and most popular parks. The park offers expansive green spaces, ponds, walking paths, and historic trees, providing visitors with an immersive nature experience. It is also home to the Ueno Zoo, a major attraction especially for families with children. The Tokyo National Museum, located within the park, houses extensive collections of both Western and Eastern art, making Ueno Park an excellent destination for those interested in Japanese culture and history. In spring, the park is famous for its cherry blossoms (sakura), attracting both locals and tourists. Throughout the year, Ueno Park hosts various cultural events and festivals, securing its place as a must-visit spot in Tokyo travel guides.",
-      "de": "Der Ueno Park ist einer der größten und beliebtesten Parks in Tokio. Der Park bietet weitläufige Grünflächen, Teiche, Spazierwege und historische Bäume, die den Besuchern ein naturverbundenes Erlebnis ermöglichen. Außerdem beherbergt der Park den Ueno Zoo, eine wichtige Attraktion, insbesondere für Familien mit Kindern. Das im Park gelegene Tokyo National Museum besitzt umfangreiche Sammlungen westlicher und östlicher Kunst und macht den Ueno Park zu einem idealen Ziel für alle, die sich für japanische Kultur und Geschichte interessieren. Im Frühling ist der Park für seine Kirschblüten (Sakura) bekannt und zieht sowohl Einheimische als auch Touristen an. Das ganze Jahr über finden im Ueno Park verschiedene kulturelle Veranstaltungen und Festivals statt, wodurch er als Muss in allen Tokio-Reiseführern gilt."
-    },
-    "activities": {
-      "tr": [
-        "Müzeleri ziyaret etmek",
-        "Hayvanat bahçesini gezmek",
-        "Sakura izlemek"
-      ],
-      "en": [
-        "Visit museums",
-        "Explore the zoo",
-        "Watch cherry blossoms"
-      ],
-      "de": [
-        "Museen besuchen",
-        "Den Zoo erkunden",
-        "Kirschblüten betrachten"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "park"
-      ],
-      "en": [
-        "park"
-      ],
-      "de": [
-        "park"
-      ]
-    },
-    "images": [
-      "https://example.com/ueno_park_1.jpg",
-      "https://example.com/ueno_park_2.jpg"
+ {
+  "slug": "ueno-parki",
+  "name": {
+    "tr": "Ueno Parkı",
+    "en": "Ueno Park",
+    "de": "Ueno Park"
+  },
+  "latitude": 35.7142,
+  "longitude": 139.7737,
+  "description": {
+    "tr": "Ueno Parkı, Tokyo'nun Taitō bölgesinde yer alan ve şehrin en önemli tarihi, kültürel ve rekreasyon alanlarından biri olan büyük bir şehir parkıdır. Geniş yeşil alanları, yürüyüş yolları, göletleri, tapınakları, müzeleri ve hayvanat bahçesiyle Ueno, Tokyo'da tek bir park ziyaretinde doğa, sanat, tarih ve Japon kültürünü bir arada görmek isteyenler için oldukça zengin bir deneyim sunar. Park özellikle ilkbaharda açan sakura ağaçlarıyla ünlüdür ve kiraz çiçekleri döneminde Tokyo'nun en yoğun ziyaret edilen noktalarından birine dönüşür.\n\nUeno Parkı'nın tarihi Edo dönemine kadar uzanır. Parkın bulunduğu alan geçmişte Kan'ei-ji Tapınağı'nın geniş arazisinin bir parçasıydı. Kan'ei-ji, Tokugawa şogunluğu döneminde Edo'nun önemli Budist tapınaklarından biri olarak gelişmişti. Meiji Restorasyonu sonrasında tapınak kompleksinin büyük bölümü ortadan kalkmış ve alanın önemli bir kısmı halka açık bir parka dönüştürülmüştür. Ueno Parkı 1873 yılında Japonya'nın ilk kamu parklarından biri olarak resmen açılmıştır. Bu tarih, parkın yalnızca rekreasyon alanı değil, modern Tokyo'nun kamusal şehir yaşamının gelişiminde de önemli bir yere sahip olduğunu gösterir.\n\nParkın en dikkat çekici özelliklerinden biri, çok sayıda önemli kültür kurumunu aynı alanda bir araya getirmesidir. Tokyo Ulusal Müzesi, Japonya'nın en önemli müzelerinden biridir ve Japonya ile Asya'nın farklı bölgelerine ait sanat eserleri, arkeolojik buluntular, tarihi objeler ve kültürel eserlerden oluşan geniş koleksiyonlara sahiptir. Bunun yanında Ulusal Doğa ve Bilim Müzesi, Tokyo Metropolitan Sanat Müzesi ve Ulusal Batı Sanatları Müzesi de Ueno Parkı çevresinde bulunur. Bu nedenle Ueno'yu yalnızca bir park olarak görmek yerine Tokyo'nun önemli müze bölgelerinden biri olarak değerlendirmek daha doğru olur. Özellikle yağmurlu havalarda veya sıcak yaz günlerinde park gezisini müze ziyaretleriyle birleştirmek oldukça pratiktir.\n\nUeno Parkı'nın doğu tarafında bulunan Ueno Hayvanat Bahçesi de bölgenin en tanınmış ziyaret noktalarından biridir. 1882 yılında açılan hayvanat bahçesi, Japonya'nın en eski hayvanat bahçesi olarak kabul edilir. Alan içerisinde farklı hayvan türlerinin bulunduğu çeşitli bölümler yer alır ve özellikle çocuklu ailelerin Tokyo programlarında sıkça tercih edilir. Hayvanat bahçesini ziyaret etmek isteyenlerin ayrı giriş kuralları ve çalışma saatleri bulunduğunu dikkate alması gerekir. Parkın kendisi ile hayvanat bahçesi aynı alanın içinde bulunsa da iki deneyim birbirinden farklı değerlendirilebilir.\n\nUeno'nun doğal manzarasının en bilinen bölümlerinden biri Shinobazu Göleti'dir. Parkın güney bölümünde bulunan gölet, yürüyüş yapmak ve şehir ortamından kısa süreliğine uzaklaşmak isteyenler için önemli bir duraktır. Gölet çevresinde farklı bitki örtüsü ve su kuşları görülebilir. Göletin ortasındaki Benten Adası'nda Bentendō Tapınağı bulunur. Buradaki kırmızı tapınak yapısı, su yüzeyi ve çevresindeki bitki örtüsüyle Ueno Parkı'nın en karakteristik manzaralarından birini oluşturur. Özellikle yaz aylarında gölet çevresindeki lotus bitkileri dikkat çekici bir görünüm oluşturabilir.\n\nParkın tarihî atmosferini tamamlayan bir başka önemli yapı ise Ueno Tōshō-gū Tapınağı'dır. Tokugawa Ieyasu'ya adanan bu Şinto tapınağı, altın renkli süslemeleri ve Edo dönemi mimari özellikleriyle park içerisindeki diğer yapılardan ayrılır. Tapınak çevresindeki taş fenerler ve tarihi yapıların oluşturduğu atmosfer, Ueno'nun yalnızca modern müzelerden oluşmadığını gösterir. Park içerisinde ayrıca Kiyomizu Kannon-dō gibi tarihî yapılar da bulunur. Bu nedenle yürüyüş sırasında yalnızca ana yolları takip etmek yerine tapınak ve tarihî yapıların bulunduğu bölümlere de zaman ayırmak Ueno deneyimini zenginleştirir.\n\nUeno Parkı denildiğinde akla ilk gelen görüntülerden biri ise sakuradır. İlkbaharda kiraz ağaçlarının çiçek açmasıyla parkın yürüyüş yolları ve açık alanları yoğun bir ziyaretçi hareketliliğine sahne olur. Hanami adı verilen gelenek kapsamında insanlar çiçek açan ağaçların altında bir araya gelir, piknik yapar ve baharın gelişini kutlar. Sakura dönemindeki yoğunluk nedeniyle özellikle hafta sonlarında park oldukça kalabalık olabilir. Fotoğraf çekmek isteyenler için sabah saatleri daha sakin bir deneyim sağlayabilir. Ancak sakura tarihleri hava koşullarına bağlı olarak her yıl değiştiğinden ziyaret planı yapılırken güncel çiçeklenme durumunun kontrol edilmesi gerekir.\n\nUeno Parkı yılın diğer dönemlerinde de ziyaret edilebilir. İlkbaharda sakura, yaz aylarında Shinobazu Göleti çevresindeki lotuslar, sonbaharda ağaçların renk değiştirmesi ve kış aylarında daha sakin park atmosferi farklı deneyimler sunar. Parkın geniş yapısı nedeniyle ziyaretçiler yalnızca belirli bir noktaya odaklanmak yerine müzeler, gölet, tapınaklar ve yürüyüş alanlarını birleştiren bir rota oluşturabilir. Ueno İstasyonu'nun hemen yanında bulunması da bölgeyi Tokyo'nun farklı noktalarından ulaşılması kolay destinasyonlardan biri haline getirir.\n\nUeno Parkı'nı gezerken parkın kendisi için uzun bir zaman ayırmak isteyenlerle müze ve hayvanat bahçelerini de ziyaret etmek isteyenlerin programlarını ayrı planlaması faydalı olur. Sadece park, gölet ve tapınaklar gezilecekse birkaç saatlik bir yürüyüş yeterli olabilir; müzeler veya hayvanat bahçesi de programa dahil edildiğinde ziyaret süresi önemli ölçüde uzar. Ueno Parkı, bu yönüyle Tokyo'da tek bir turistik noktadan çok, farklı ilgi alanlarını aynı bölgede birleştiren geniş bir kültür ve rekreasyon alanı olarak öne çıkar.",
+    
+    "en": "Ueno Park is a major historic, cultural and recreational park in Tokyo's Taitō district. With its large green spaces, walking paths, ponds, temples, museums and zoo, Ueno offers visitors the opportunity to experience nature, art, history and Japanese culture in one area. The park is particularly famous for its cherry blossoms in spring, when it becomes one of Tokyo's most popular destinations for hanami and attracts large numbers of both residents and visitors.\n\nThe history of Ueno Park goes back to the Edo period. The area was once part of the extensive grounds of Kan'ei-ji Temple, an important Buddhist temple associated with the Tokugawa shogunate. Following the Meiji Restoration, much of the temple complex was destroyed or lost, and part of the former temple grounds was transformed into a public park. Ueno Park was officially opened in 1873 and became one of Japan's earliest public parks. Its history therefore reflects not only the transformation of Tokyo's urban landscape but also the development of modern public spaces in Japan.\n\nOne of the park's greatest strengths is the concentration of major cultural institutions within and around its grounds. The Tokyo National Museum is one of Japan's most important museums and contains extensive collections of Japanese and Asian art, archaeology, historical objects and cultural artifacts. The National Museum of Nature and Science, the Tokyo Metropolitan Art Museum and the National Museum of Western Art are also located in the Ueno area. As a result, Ueno should not be viewed simply as a green park; it is also one of Tokyo's most important museum districts. Visitors can easily combine a walk through the park with one or more museum visits, particularly on rainy days or during the hot summer months.\n\nUeno Zoo is another major attraction within the park. Opened in 1882, it is generally regarded as Japan's oldest zoo. The zoo contains a wide range of animal exhibits and is particularly popular with families traveling with children. Visitors should remember that the zoo has its own admission rules and opening hours, even though it is located within the wider Ueno Park area. A visit to the zoo can therefore be planned separately from the historical and cultural attractions of the park itself.\n\nShinobazu Pond is one of the most recognizable natural features of Ueno Park. Located in the southern part of the park, the pond provides a peaceful contrast to the surrounding urban environment. Visitors can walk around the waterfront and observe vegetation and water birds. Benten Island sits in the middle of the pond and is home to Bentendō Temple. The red temple building, water and surrounding vegetation create one of the most distinctive landscapes in Ueno. During summer, lotus plants can also become a particularly attractive feature of the pond.\n\nUeno Tōshō-gū Shrine is another important historic site within the park. Dedicated to Tokugawa Ieyasu, the shrine is notable for its richly decorated architecture and golden details associated with the Edo period. Stone lanterns and traditional structures around the shrine create a very different atmosphere from the nearby modern museums. Other historic buildings, including Kiyomizu Kannon-dō, can also be found within the park. Exploring these sites adds a historical dimension to a visit that might otherwise focus only on the museums and open spaces.\n\nUeno Park is perhaps most famous for its cherry blossoms. When the sakura trees bloom in spring, the park's paths and open areas become extremely busy with visitors participating in hanami, the Japanese tradition of gathering beneath flowering cherry trees. Weekends during peak blossom periods can be particularly crowded. Photographers and travelers looking for a quieter experience may prefer visiting early in the morning. Because cherry blossom dates vary according to annual weather conditions, visitors should check current bloom forecasts when planning a spring trip.\n\nThe park is worth visiting throughout the year. Spring brings cherry blossoms, summer can bring lotus flowers around Shinobazu Pond, autumn offers colorful foliage, and winter provides a quieter atmosphere. Because Ueno is large and contains many different attractions, visitors can create their own route according to their interests, combining museums, temples, the pond and walking areas. Ueno Station is also immediately adjacent to the park, making the area particularly convenient to reach from other parts of Tokyo.\n\nTravelers should consider how many attractions they want to include when planning their visit. A walk through the park, around Shinobazu Pond and past the temples can be completed in a few hours, while adding the Tokyo National Museum, other museums or Ueno Zoo can turn the visit into a full-day experience. Ueno Park is therefore much more than a conventional city park: it is a large cultural and recreational district where visitors can experience several different aspects of Tokyo in one location.",
+    
+    "de": "Der Ueno Park in Tokio verbindet weitläufige Grünflächen mit Museen, historischen Tempeln, dem Ueno-Zoo und dem Shinobazu-Teich. Die Geschichte des Parks reicht bis in die Edo-Zeit zurück; 1873 wurde er als öffentlicher Park eröffnet. Heute gehört er zu den wichtigsten Kultur- und Erholungsgebieten Tokios.\n\nBesonders bekannt ist der Ueno Park im Frühling für seine Kirschblüten und die traditionelle Hanami-Zeit. Zu den wichtigsten Sehenswürdigkeiten gehören das Tokyo National Museum, der Ueno-Zoo, der Ueno-Tōshō-gū-Schrein, Bentendō am Shinobazu-Teich und Kiyomizu Kannon-dō. Durch die direkte Nähe zum Ueno-Bahnhof ist der Park außerdem sehr gut erreichbar."
+  },
+  "activities": {
+    "tr": [
+      "Tokyo Ulusal Müzesi'ni ziyaret etmek",
+      "Ueno Hayvanat Bahçesi'ni gezmek",
+      "Shinobazu Göleti çevresinde yürümek",
+      "Ueno Tōshō-gū Tapınağı'nı görmek",
+      "Sakura ve hanami deneyimi yaşamak",
+      "Fotoğraf çekmek",
+      "Diğer müzeleri keşfetmek"
+    ],
+    "en": [
+      "Visit the Tokyo National Museum",
+      "Explore Ueno Zoo",
+      "Walk around Shinobazu Pond",
+      "Visit Ueno Tōshō-gū Shrine",
+      "Enjoy cherry blossoms and hanami",
+      "Take photographs",
+      "Explore the other museums"
+    ],
+    "de": [
+      "Das Tokyo National Museum besuchen",
+      "Den Ueno-Zoo erkunden",
+      "Am Shinobazu-Teich spazieren",
+      "Den Ueno-Tōshō-gū-Schrein besuchen",
+      "Kirschblüten und Hanami erleben",
+      "Fotografieren",
+      "Weitere Museen erkunden"
     ]
   },
+  "categories": {
+    "tr": [
+      "park",
+      "müze",
+      "tarih",
+      "kültür",
+      "doğa",
+      "tapınak"
+    ],
+    "en": [
+      "park",
+      "museum",
+      "history",
+      "culture",
+      "nature",
+      "temple"
+    ],
+    "de": [
+      "park",
+      "museum",
+      "geschichte",
+      "kultur",
+      "natur",
+      "tempel"
+    ]
+  },
+  "images": [
+    "https://example.com/ueno_park_1.jpg",
+    "https://example.com/ueno_park_2.jpg"
+  ]
+},
   {
     "slug": "roppongi-hills",
     "name": {
@@ -391,36 +420,48 @@
     "latitude": 35.6605,
     "longitude": 139.7292,
     "description": {
-      "tr": "Roppongi Hills, Tokyo'nun en modern ve popüler semtlerinden biridir. Bölge, çağdaş mimarisi, yüksek binaları ve lüks alışveriş merkezleri ile dikkat çeker. Mori Sanat Müzesi'ne ev sahipliği yapan Roppongi Hills, çağdaş sanat severler için önemli bir destinasyondur. Ayrıca semtte çok sayıda kafe, restoran ve gece hayatı mekanları bulunur, bu nedenle hem gündüz hem gece ziyaret için uygundur. Roppongi Hills’in göz alıcı manzarası, özellikle Tokyo Tower ve şehir silüeti ile birleştiğinde turistler için unutulmaz bir deneyim sunar. Yıl boyunca çeşitli kültürel etkinlikler ve sergiler düzenlenen semt, Tokyo gezi rehberlerinde mutlaka görülmesi gereken yerlerden biridir.",
-      "en": "Roppongi Hills is one of Tokyo's most modern and popular districts. The area is notable for its contemporary architecture, high-rise buildings, and luxury shopping centers. Home to the Mori Art Museum, Roppongi Hills is an essential destination for contemporary art enthusiasts. The district also features numerous cafes, restaurants, and nightlife venues, making it suitable for both daytime and evening visits. Its stunning views, particularly combining Tokyo Tower and the city skyline, offer visitors an unforgettable experience. With various cultural events and exhibitions held throughout the year, Roppongi Hills is a must-visit spot in Tokyo travel guides.",
-      "de": "Roppongi Hills ist eines der modernsten und beliebtesten Viertel Tokios. Die Gegend zeichnet sich durch zeitgenössische Architektur, Hochhäuser und luxuriöse Einkaufszentren aus. Als Standort des Mori-Kunstmuseums ist Roppongi Hills ein wichtiges Ziel für Liebhaber zeitgenössischer Kunst. Außerdem bietet das Viertel zahlreiche Cafés, Restaurants und Nachtlebenmöglichkeiten, sodass es sowohl tagsüber als auch abends ein Besuch wert ist. Die atemberaubende Aussicht, insbesondere in Kombination mit dem Tokyo Tower und der Stadtsilhouette, bietet Besuchern ein unvergessliches Erlebnis. Mit verschiedenen kulturellen Veranstaltungen und Ausstellungen im Laufe des Jahres gehört Roppongi Hills zu den Must-See-Orten in Reiseführern über Tokio."
+      "tr": "Roppongi Hills, Japonya'nın başkenti Tokyo'da Minato semtinde yer alan ve \"şehir içinde şehir\" konseptiyle tasarlanmış dünyaca ünlü bir mega karma yaşam kompleksidir. 2003 yılında Minoru Mori liderliğinde tamamlanan bu yenilikçi kentsel dönüşüm projesi; gökdelenleri, lüks alışveriş merkezlerini, kültür-sanat alanlarını, konutları ve geniş yeşil parkları tek bir çatı altında birleştirir. Kompleksin merkezinde yükselen 54 katlı ve 238 metre yüksekliğindeki ikonik Mori Tower, çağdaş mimarisi ve teknolojik altyapısıyla Tokyo silüetinin en dikkat çekici yapıları arasında yer alır.\n\nMori Tower’ın en üst katlarında bulunan dünyaca ünlü Mori Sanat Müzesi (Mori Art Museum), çağdaş sanatın en seçkin küresel sergilerine ev sahipliği yapmaktadır. Aynı hizada yer alan Tokyo City View gözlem platformu ve açık havadaki Sky Deck, ziyaretçilerine nefes kesen 360 derecelik panoramik bir Tokyo manzarası sunar; buradan bakıldığında ikonik Tokyo Kulesi (Tokyo Tower) ve açık havalarda Fuji Dağı mükemmel bir açıdan izlenebilir. Kompleksin açık alanlarında ise Louise Bourgeois imzalı devasa tunç örümcek heykeli \"Maman\" gibi dünyaca ünlü kamu sanatı eserleri ve Edo döneminden kalma tarihi Mōri Bahçesi (Mōri Garden) yer almaktadır.\n\nRoppongi Hills, aynı zamanda gurme restoranları, dünyaca ünlü lüks moda markalarının mağazaları, sinema kompleksleri ve lüks Hyatt oteli ile gündüzden geceye uzanan canlı bir sosyal yaşam sunar. Yıl boyunca Tokyo Uluslararası Film Festivali'ne, çağdaş sanat etkinliklerine ve kış aylarındaki büyüleyici ışıklandırma (illumination) gösterilerine ev sahipliği yapan kompleks, Tokyo'nun modern yüzünü ve kültürel dinamizmini keşfetmek isteyen gezginler için vazgeçilmez bir duraktır.\n",
+      "en": "Roppongi Hills, located in Tokyo's Minato ward, is a world-renowned integrated mega-complex designed around the visionary concept of a \"city within a city.\" Completed in 2003 by building tycoon Minoru Mori, this groundbreaking urban redevelopment seamlessly combines high-rise office spaces, luxury residences, upscale retail, fine dining, and major cultural institutions. At the heart of the complex stands the imposing 54-story, 238-meter Mori Tower, a masterpiece of modern architectural engineering and an anchor of Tokyo's iconic skyline.\n\nThe upper floors of Mori Tower host the prestigious Mori Art Museum, globally celebrated for its cutting-edge contemporary art exhibitions and international showcases. Adjacent to the museum, the indoor Tokyo City View observation deck and the open-air Sky Deck offer staggering 360-degree panoramic vistas of the metropolis, boasting unparalleled views of Tokyo Tower and, on clear days, Mount Fuji. Throughout the plaza, visitors can admire striking public art installations—such as Louise Bourgeois’ giant bronze spider sculpture \"Maman\"—or relax in the tranquil Mōri Garden, a preserved landscape garden dating back to the Edo period.\n\nFrom luxury fashion boutiques and Michelin-starred culinary venues to state-of-the-art cinema complexes, Roppongi Hills presents a vibrant social environment day and night. Host to prestigious events like the Tokyo International Film Festival and dazzling winter illumination displays, this complex stands as a premier destination showcasing Tokyo's modern sophistication and artistic vibrancy.\n",
+      "de": "Roppongi Hills im Tokioter Bezirk Minato ist ein weltberühmter, integrierter Megakomplex, der nach dem zukunftsweisenden Konzept einer „Stadt in der Stadt“ entworfen wurde. Das 2003 unter der Leitung von Minoru Mori fertiggestellte städtebauliche Projekt verbindet Wolkenkratzer, luxuriöse Einkaufszentren, Kultur- und Kunststätten sowie Wohn- und Parkanlagen auf elegante Weise. Das Herzstück des Komplexes bildet der 54-stöckige und 238 Meter hohe Mori Tower, ein architektonisches Wahrzeichen der Tokioter Skyline.\n\nIn den obersten Etagen des Mori Towers befindet sich das renommierte Mori-Kunstmuseum (Mori Art Museum), das für seine hochkarätigen Ausstellungen zeitgenössischer Kunst bekannt ist. Direkt daneben bieten das überdachte Aussichtsdeck Tokyo City View und das Open-Air Sky Deck einen atemberaubenden 360-Grad-Panoramablick auf die Megacity, einschließlich perfekter Aussichten auf den Tokyo Tower und bei klarem Wetter auf den Fuji. Im Außenbereich faszinieren weltberühmte Kunstwerke wie die riesige Bronzespinnen-Skulptur „Maman“ von Louise Bourgeois sowie der historische Mōri-Garten aus der Edo-Zeit.\n\nMit exklusiven Modegeschäften, erstklassigen Restaurants, einem Großkino und kulturellen Events wie dem Tokyo International Film Festival bietet Roppongi Hills rund um die Uhr ein dynamisches Stadt- und Nachtleben. Der Komplex ist ein unverzichtbares Ziel für alle, die das moderne und künstlerische Tokio hautnah erleben möchten.\n"
     },
     "activities": {
       "tr": [
-        "Sanat galerilerini gezmek",
-        "Lüks mağazalarda alışveriş yapmak",
-        "Şehir manzarasını izlemek"
+        "Tokyo City View ve Sky Deck'ten panoramik Tokyo ve Tokyo Kulesi manzarasını izlemek",
+        "Mori Sanat Müzesi'ndeki çağdaş sanat sergilerini gezmek",
+        "Maman örümcek heykeli ve açık alanlardaki kamu sanatı eserlerini incelemek",
+        "Tarihi Mōri Bahçesi'nde ve lüks alışveriş alanlarında zaman geçirmek"
       ],
       "en": [
-        "Visit art galleries",
-        "Shop at luxury stores",
-        "Enjoy the city view"
+        "Enjoying 360-degree panoramic views of Tokyo and Tokyo Tower from Tokyo City View and Sky Deck",
+        "Exploring world-class contemporary art exhibitions at the Mori Art Museum",
+        "Admiring public art installations like Louise Bourgeois’ giant spider sculpture Maman",
+        "Strolling through the historic Mōri Garden and luxury shopping plazas"
       ],
       "de": [
-        "Kunstgalerien besuchen",
-        "In Luxusgeschäften einkaufen",
-        "Die Stadtansicht genießen"
+        "Genießen des 360-Grad-Panoramablicks auf Tokio und den Tokyo Tower vom Tokyo City View",
+        "Besuchen hochkarätiger Ausstellungen zeitgenössischer Kunst im Mori Art Museum",
+        "Betrachten beeindruckender Kunstwerke im öffentlichen Raum wie der Spinnenskulptur Maman",
+        "Entspannen im historischen Mōri-Garten und Flanieren durch exklusive Einkaufsmeilen"
       ]
     },
     "categories": {
       "tr": [
-        "şehir turu"
+        "şehir turu",
+        "müze",
+        "mimarî eser",
+        "manzara noktası"
       ],
       "en": [
-        "city tour"
+        "city tour",
+        "museum",
+        "architecture",
+        "viewpoint"
       ],
       "de": [
-        "stadtrundfahrt"
+        "stadtrundfahrt",
+        "museum",
+        "architektur",
+        "aussichtspunkt"
       ]
     },
     "images": [

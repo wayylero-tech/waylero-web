@@ -43,48 +43,57 @@
     ]
   },
   {
-    "slug": "bilecik-saat-kulesi",
-    "name": {
-      "tr": "Bilecik Saat Kulesi",
-      "en": "Bilecik Clock Tower",
-      "de": "Bilecik Uhrturm"
-    },
-    "latitude": 40.13802,
-    "longitude": 29.98341,
-    "description": {
-      "tr": "Bilecik Saat Kulesi, şehrin simgelerinden biri olarak öne çıkar. Osmanlı dönemine ait bu tarihi yapı, 1909 yılında inşa edildiği tahmin edilmektedir. Kule, şehrin merkezinde yer almakta olup çevresindeki meydan ile birlikte ziyaretçilere hem tarih hem de şehir yaşamını gözlemleme fırsatı sunar. Taş ve tuğla işçiliği ile dikkat çeken yapı, Bilecik’in kültürel mirasının önemli bir parçasıdır.\n\nZiyaretçiler kuleyi fotoğraflayabilir, etrafında yürüyüş yapabilir ve bölgenin tarihî atmosferini hissedebilirler. Bilecik Saat Kulesi, şehir turu sırasında mutlaka görülmesi gereken bir noktadır ve kültürel geziler için ideal bir duraktır.",
-      "en": "Bilecik Clock Tower stands out as one of the city's landmarks. This historic structure from the Ottoman period is believed to have been built in 1909. Located in the city center, the tower, along with its surrounding square, offers visitors an opportunity to observe both history and urban life. Its stone and brick craftsmanship highlights the tower as an important part of Bilecik's cultural heritage.\n\nVisitors can photograph the tower, walk around it, and experience the historical atmosphere of the area. Bilecik Clock Tower is a must-see destination during a city tour and an ideal stop for cultural exploration.",
-      "de": "Der Bilecik-Uhrturm ist eines der Wahrzeichen der Stadt. Dieses historische Bauwerk aus der osmanischen Zeit wurde vermutlich 1909 erbaut. Im Stadtzentrum gelegen, bietet der Turm zusammen mit dem umliegenden Platz den Besuchern die Möglichkeit, sowohl Geschichte als auch das städtische Leben zu beobachten. Seine Stein- und Ziegelbauweise macht den Turm zu einem wichtigen Teil des kulturellen Erbes von Bilecik.\n\nBesucher können den Turm fotografieren, ihn zu Fuß erkunden und die historische Atmosphäre der Umgebung erleben. Der Bilecik-Uhrturm ist ein Muss bei einer Stadttour und ein idealer Halt für kulturelle Entdeckungen."
-    },
-    "activities": {
-      "tr": [
-        "Saat Kulesi’ni fotoğraflama",
-        "Bölgedeki çarşıda alışveriş yapma"
-      ],
-      "en": [
-        "Photograph the Clock Tower",
-        "Shop in the local market"
-      ],
-      "de": [
-        "Den Uhrturm fotografieren",
-        "Auf dem lokalen Markt einkaufen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "şehir simgesi"
-      ],
-      "en": [
-        "city landmark"
-      ],
-      "de": [
-        "Wahrzeichen der Stadt"
-      ]
-    },
-    "images": [
-      "https://example.com/bilecik_saat_kulesi.jpg"
+  "slug": "bilecik-saat-kulesi",
+  "name": {
+    "tr": "Bilecik Saat Kulesi",
+    "en": "Bilecik Clock Tower",
+    "de": "Bilecik Uhrturm"
+  },
+  "latitude": 40.13802,
+  "longitude": 29.98341,
+  "description": {
+    "tr": "Bilecik Saat Kulesi, Osmanlı Devleti’nin doğuşuna tanıklık etmiş köklü bir coğrafyanın kalbinde, kentin tarihi ve kentsel kimliğini simgeleyen en anıtsal yapılardan biridir. Sultan II. Abdülhamid’in tahta çıkışının 30. yılı anısına imparatorluk genelinde başlatılan saat kulesi inşa etme geleneğinin nitelikli bir örneği olan yapı, 1907 yılında Bilecik Mutasarrıfı Ertuğrul Ersoy’un talimatı ve planlamasıyla yükselmeye başlamıştır. Yapımı 1907 yılında tamamlanan kule, hem kamusal alanda zaman bilincini standardize etmek hem de Osmanlı devlet otoritesinin modern yüzünü taşraya taşımak amacıyla kentin idari merkezine konumlandırılmıştır.\n\nMimari üslup açısından geç dönem Osmanlı sivil mimarlık estetiğini mükemmel şekilde yansıtan Bilecik Saat Kulesi, yukarı doğru hafifçe daralan dört katlı bir kütle tanzimine sahiptir. Yapının inşasında bölgeden çıkarılan kaliteli kireç taşı ve kesme taş malzemeler kullanılmış, kat araları belirgin kornişlerle birbirinden ayrılmıştır. Dört cephesinde de dairesel saat kadranları yer alan kulenin en üst katında zamanı ilan eden anıtsal bir çanak çan yer alır. Cephelerdeki pencereler, nişler ve taş işçiliğindeki incelik, kuleye yalın fakat görkemli bir hava katmaktadır. Kurtuluş Savaşı yıllarında bölgede yaşanan çetin çatışmalar ve yıkımlara rağmen ayakta kalmayı başaran bu tarihi anıt, kentin geçirdiği sosyo-kültürel dönüşümün en canlı tanıklarından biridir.\n\nGünümüzde Bilecik Valilik Binası bahçesinde yer alan saat kulesi, çevresindeki tarihi sokaklar, kamu binaları ve yeşil alanlarla entegre bir açık hava müzesi hissi sunar. Yerli ve yabancı ziyaretçiler için kent gezilerinin vazgeçilmez bir başlangıç noktası olan kule, Osmanlı son dönem mimarisine merak duyanlar, fotoğraf tutkunları ve kültür turizmi meraklıları için eşsiz bir görsel şölen oluşturur. Bilecik Saat Kulesi, yalnızca zamanı gösteren bir mekanizma değil; aynı zamanda kentin tarihsel hafızasını, mimari mirasını ve kültürel sürekliliğini günümüze taşıyan canlı bir abide niteliğindedir.\n",
+    "en": "The Bilecik Clock Tower stands as one of the most prominent monumental structures symbolizing the historical and urban identity of Bilecik, a city deeply rooted in the founding history of the Ottoman Empire. Constructed in 1907 under the auspices of the Governor (Mutasarrıf) of the Ertuğrul Sanjak, Ertuğrul Ersoy, the tower was erected as part of a nationwide architectural campaign commemorating the 30th anniversary of Sultan Abdülhamid II's accession to the throne. Positioned strategically within the administrative heart of the city, the tower served the dual purpose of modernizing civic life by standardizing timekeeping and representing the central authority of the late Ottoman state in provincial capitals.\n\nArchitecturally, the structure serves as an exemplary model of late Ottoman civic design, characterized by a four-tiered stone shaft that subtly tapers as it rises. Crafted from high-quality locally sourced ashlar and cut limestone, each level is distinctly delineated by molded stone cornices. The top story houses four round clock faces facing the cardinal directions, capped by a wooden-framed cupola containing a historical brass bell that chimed to mark the hours for the surrounding town. Despite the heavy destruction suffered by Bilecik during the Turkish War of Independence in the early 1920s, the clock tower remarkably survived, making it one of the few standing original heritage structures connecting modern Bilecik with its imperial past.\n\nToday, situated within the courtyard of the historical Bilecik Governorate Building, the clock tower serves as an essential focal point for cultural tourism and urban exploration. Visitors can admire the fine masonry craftsmanship, explore the surrounding historic district, and experience the nostalgic atmosphere of the city center. As a key stop on regional heritage trails, the Bilecik Clock Tower is not merely a timepiece, but an enduring monument to the region's rich history, architectural evolution, and cultural resilience.\n",
+    "de": "Der Uhrturm von Bilecik (Bilecik Saat Kulesi) ist eines der bedeutendsten monumentalen Bauwerke im Herzen der Stadt, die als Wiege des Osmanischen Reiches gilt. Der Turm wurde 1907 unter der Leitung des damaligen Gouverneurs (Mutasarrıf) des Ertuğrul-Sandschaks, Ertuğrul Ersoy, erbaut. Er entstand im Rahmen einer reichsweiten Bauinitiative anlässlich des 30. Thronjubiläums von Sultan Abdülhamid II. Im administrativen Zentrum der Stadt errichtet, sollte der Turm nicht nur die Zeitmessung im öffentlichen Raum vereinheitlichen, sondern auch die Modernität und Präsenz des osmanischen Staates in den Provinzen symbolisieren.\n\nArchitektonisch verkörpert der Turm die elegante zivile Baukunst der späten osmanischen Epoche. Das Bauwerk gliedert sich in vier Etagen, die sich nach oben hin leicht verjüngen. Für den Bau wurden hochwertiger lokaler Kalkstein und präzise behauene Quadersteine verwendet, wobei die einzelnen Stockwerke durch ausgeprägte Gesimse optisch voneinander getrennt sind. Auf der obersten Ebene befinden sich vier kreisförmige Zifferblätter, die in alle vier Himmelsrichtungen blicken, sowie eine historische Bronzeglocke unter einem kuppelartigen Dach. Trotz der schweren Zerstörungen, die Bilecik während des türkischen Befreiungskrieges in den 1920er Jahren erlitt, blieb der Uhrturm weitgehend unversehrt und gilt daher als eines der wenigen verbliebenen Originaldenkmäler der historischen Altstadt.\n\nHeute befindet sich der Uhrturm im Garten des historischen Regierungsgebäudes von Bilecik und bildet einen zentralen Anziehungspunkt für Kulturreisende und Geschichtsinteressierte. Besucher können die feine Steinmetzkunst bewundern, die umliegenden historischen Viertel erkunden und die besondere Atmosphäre des Stadtzentrums genießen. Der Uhrturm von Bilecik ist weit mehr als ein historisches Zeitmessgerät; er ist ein lebendiges Symbol für das kulturelle Erbe, die architektonische Entwicklung und die Kontinuität der Region.\n"
+  },
+  "activities": {
+    "tr": [
+      "Tarihi Saat Kulesi'ni ve taş işçiliğini incelemek",
+      "Kule ve Valilik bahçesi çevresinde fotoğraf çekmek",
+      "Bilecik'in tarihi şehir merkezini ve çevredeki Osmanlı mirasını keşfetmek"
+    ],
+    "en": [
+      "Examining the historical Clock Tower and its stonework",
+      "Taking photographs around the tower and the Governorate courtyard",
+      "Exploring the historic city center of Bilecik and surrounding Ottoman heritage"
+    ],
+    "de": [
+      "Den historischen Uhrturm und seine Steinmetzkunst bewundern",
+      "Fotografieren im Garten des Regierungsgebäudes und am Turm",
+      "Das historische Stadtzentrum von Bilecik und das osmanische Erbe erkunden"
     ]
   },
+  "categories": {
+    "tr": [
+      "şehir simgesi",
+      "tarihi yapı",
+      "saat kulesi"
+    ],
+    "en": [
+      "city landmark",
+      "historical building",
+      "clock tower"
+    ],
+    "de": [
+      "Wahrzeichen der Stadt",
+      "historisches Gebäude",
+      "Uhrturm"
+    ]
+  },
+  "images": [
+    "https://example.com/bilecik_saat_kulesi.jpg"
+  ]
+},
   {
     "slug": "osmaneli-evleri",
     "name": {
@@ -95,40 +104,51 @@
     "latitude": 40.15267,
     "longitude": 29.97756,
     "description": {
-      "tr": "Osmaneli, Bilecik’in tarihi dokusunu koruyan nadir kasabalardan biridir. Yüzyıllardır ayakta kalmış taş evleri, camileri ve köprüleri ile bölgenin geçmişine ışık tutar. Kasaba, ziyaretçilerine Osmanlı ve öncesi dönemlere ait mimari ve kültürel öğeleri yakından görme imkânı sunar. Dar sokakları ve taş kaldırımları, Osmaneli’yi adeta yaşayan bir tarih müzesi hâline getirir.\n\nOsmaneli, hem fotoğraf meraklıları hem de tarih ve kültür tutkunu turistler için cazip bir destinasyondur. Kasabanın tarihi atmosferi, ziyaretçilere zaman içinde yolculuk yapıyormuş hissi verir. Ayrıca yöresel el sanatları ve küçük kafeler, geziniz sırasında dinlenme ve alışveriş fırsatları sunar.",
-      "en": "Osmaneli is one of the rare towns in Bilecik that preserves its historical character. Its centuries-old stone houses, mosques, and bridges reflect the region’s past. The town offers visitors a close look at architectural and cultural elements from the Ottoman period and earlier. Its narrow streets and stone pavements make Osmaneli feel like a living history museum.\n\nOsmaneli is an attractive destination for photographers, history enthusiasts, and cultural tourists. The historic atmosphere of the town gives visitors the sensation of traveling through time. Additionally, local handicrafts and small cafés provide opportunities for relaxation and shopping during the visit.",
-      "de": "Osmaneli ist eine der wenigen Städte in Bilecik, die ihr historisches Erbe bewahrt hat. Ihre jahrhundertealten Steinhäuser, Moscheen und Brücken spiegeln die Vergangenheit der Region wider. Die Stadt bietet den Besuchern einen genauen Einblick in architektonische und kulturelle Elemente aus der osmanischen Zeit und früher. Die engen Straßen und Steinpflaster lassen Osmaneli wie ein lebendiges Geschichtsmuseum wirken.\n\nOsmaneli ist ein attraktives Ziel für Fotografen, Geschichtsinteressierte und Kulturtouristen. Die historische Atmosphäre der Stadt vermittelt den Besuchern das Gefühl, durch die Zeit zu reisen. Darüber hinaus bieten lokale Handwerkskunst und kleine Cafés Möglichkeiten zur Entspannung und zum Einkaufen während des Besuchs."
+      "tr": "Bilecik’in kuzeyinde, Sakarya Nehri’nin kıyısında yer alan Osmaneli ilçesi, Osmanlı sivil mimarisinin en özgün ve bozulmamış örneklerine ev sahipliği yapan tarihi bir yerleşim alanıdır. Tarihi Roma, Bizans ve Osmanlı dönemlerine kadar uzanan bölge, yüzyıllar boyunca ticaret yollarının ve ipek yolunun önemli bir geçiş noktası olmuştur. Kent dokusu içerisinde korunan yüzlerce tescilli tarihi konak, geleneksel Türk ev mimarisinin ahşap ve kerpiç işçiliğini günümüze taşır. Genellikle iki veya üç katlı olarak inşa edilen bu konaklar, zemin katlarda taş duvar örgüleri, üst katlarda ise ahşap karkas arası kerpiç dolgu veya bağdadi teknikleriyle şekillendirilmiştir. Cumba yapıları, geniş saçakları, ahşap tavan işlemeleri ve özgün iç mekan düzenlemeleriyle Osmaneli Evleri, dönemin sosyal ve ailevi yaşam kültürünü somut bir şekilde gözler önüne serer.\n\nOsmaneli Evleri’nin en dikkat çekici özelliklerinden biri, bölgede yaşamış Türk ve Rum ustaların ortak mimari birikimini ve estetik anlayışını yansıtmasıdır. Konakların dış cephelerindeki ahşap payandalar, pencerelerdeki kafes sistemleri ve geometrik süslemeler, Osmanlı kent kimliğinin inceliklerini sergiler. Dar, taş döşeli sokaklar boyunca sıralanan bu evler, mahalleyi ve komşuluk ilişkilerini merkeze alan geleneksel şehir planlamasının canlı birer örneğidir. Bölgede yürütülen restorasyon ve koruma projeleri sayesinde bu tarihi yapılar butik oteller, kültür merkezleri, zanaat atölyeleri ve restoranlar olarak yeniden hayata kazandırılmaktadır.\n\nZiyaretçiler için Osmaneli sokaklarında yürümek, geçmiş yüzyılların atmosferinde adeta bir zaman yolculuğuna çıkmak anlamına gelir. Fotoğraf tutkunları için zengin ışık ve doku olanakları sunan mahalleler, mimari tarih meraklıları ve kültür turizmi tutkunları için keşfedilmeye değer bir açık hava müzesi niteliğindedir. Konakların gölgesinde yürürken yerel el sanatlarını inceleyebilir, tarihi dokunun huzur verici sessizliğini deneyimleyebilir ve Osmaneli’nin köklü mirasına yakından tanıklık edebilirsiniz.\n",
+      "en": "Situated along the banks of the Sakarya River in northern Bilecik, the district of Osmaneli is a historic settlement home to some of the most authentic and remarkably preserved examples of Ottoman vernacular architecture. With a rich history extending back through the Roman, Byzantine, and Ottoman eras, the town historically served as an essential trade stop along key regional routes, including the Silk Road. Today, hundreds of registered heritage mansions preserved within the urban fabric demonstrate the finest timber-frame and mudbrick craftsmanship of traditional Turkish residential design. Typically constructed as two or three-story structures, these houses feature stone masonry ground floors topped by timber-framed upper levels filled with mudbrick or plaster, showcasing classic cantilevers, wide eaves, and intricately carved wooden ceilings.\n\nA defining characteristic of the Osmaneli Houses is their reflection of a shared architectural lineage created by local Turkish and Greek craftsmen over centuries. The wooden brackets supporting cantilevered upper floors, decorative window frames, and geometric woodwork highlights the refined aesthetic of late Ottoman residential planning. Lined along narrow, stone-paved streets, these homes exemplify a community-centric urban layout designed to foster close neighborhood ties. Ongoing restoration and heritage conservation initiatives have revitalized many of these historic mansions, repurposing them into boutique hotels, cultural centers, artisan workshops, and local dining venues.\n\nStrolling through the historic streets of Osmaneli offers visitors an immersive journey into past centuries. The neighborhood provides rich visual textures for photographers and serves as an invaluable open-air museum for architectural historians and cultural travelers alike. Walking beneath the iconic wooden eaves, visitors can observe traditional handicrafts, enjoy the serene atmosphere of the old quarter, and experience the deep-rooted cultural heritage of Osmaneli firsthand.\n",
+      "de": "Die im Norden von Bilecik am Ufer des Sakarya-Flusses gelegene Stadt Osmaneli ist eine historische Siedlung, die einige der authentischsten und am besten erhaltenen Beispiele osmanischer Zivilarchitektur beherbergt. Die Geschichte der Region reicht bis in die römische, byzantinische und osmanische Zeit zurück, als die Stadt ein wichtiger Knotenpunkt an historischen Handelsrouten und der Seidenstraße war. Hunderte von denkmalgeschützten Herrenhäusern im historischen Stadtkern zeugen von der hohen Handwerkskunst des traditionellen türkischen Fachwerk- und Lehmbaus. Die meist zwei- bis dreistöckigen Gebäude zeichnen sich durch ein Erdgeschoss aus Naturstein sowie oberste Stockwerke in Holzfachwerkbauweise mit aufwendig verzierten Holeldecken und charakteristischen Auskragungen (Cumba) aus.\n\nEin besonderes Merkmal der Osmaneli-Häuser ist die Verschmelzung türkischer und griechischer Architekturtraditionen, da Handwerker beider Kulturen über Jahrhunderte hinweg gemeinsam an der Gestaltung des Stadtbildes wirkten. Die hölzernen Stützelemente, verzierten Fensterrahmen und geometrischen Holzarbeiten spiegeln die Raffinesse der spätosmanischen Wohnkultur wider. Die entlang enger, kopfsteingepflasterter Gassen aufgereihten Häuser sind ein lebendiges Beispiel für eine nachbarschaftsorientierte Stadtplanung. Durch umfangreiche Restaurierungsprojekte wurden viele dieser historischen Herrenhäuser als Boutique-Hotels, Kulturzentren, Handwerksbetriebe und Restaurants zu neuem Leben erweckt.\n\nEin Spaziergang durch die historischen Straßen von Osmaneli gleicht einer Zeitreise in vergangene Jahrhunderte. Die Viertel bieten Fotografen faszinierende Motive und dienen Architekturbegeisterten sowie Kulturtouristen als eindrucksvolles Freilichtmuseum. Im Schatten der historischen Holzfassaden können Besucher lokales Kunsthandwerk entdecken, die friedliche Atmosphäre der Altstadt genießen und das reiche kulturelle Erbe von Osmaneli hautnah erleben.\n"
     },
     "activities": {
       "tr": [
-        "Tarihi Osmaneli evlerini gezme",
-        "Bölgedeki restoranlarda yöresel yemekleri deneme"
+        "Tarihi Osmaneli konaklarını ve mimari detayları inceleme",
+        "Arasta sokaklarında ve taş kaldırımlarda yürüyüş yapma",
+        "Restore edilen konaklardaki restoranlarda yöresel lezzetleri tadma",
+        "Fotoğrafçılık ve mimari doku çalışması yapma"
       ],
       "en": [
-        "Tour the historic Osmaneli houses",
-        "Try local dishes in nearby restaurants"
+        "Touring historic Osmaneli mansions and architectural details",
+        "Walking through historic cobblestone streets and bazaars",
+        "Sampling regional cuisine in restored historic mansions",
+        "Architectural photography and heritage sightseeing"
       ],
       "de": [
-        "Die historischen Osmaneli-Häuser besichtigen",
-        "Lokale Gerichte in nahegelegenen Restaurants probieren"
+        "Besichtigung der historischen Herrenhäuser und architektonischen Details",
+        "Spaziergang durch die historischen Kopfsteinpflastergassen",
+        "Probieren lokaler Spezialitäten in restaurierten Herrenhäusern",
+        "Architekturfotografie und historische Erkundungen"
       ]
     },
     "categories": {
       "tr": [
-        "tarihi semtler"
+        "tarihi semtler",
+        "mimari miras",
+        "osmanlı konakları"
       ],
       "en": [
-        "historic districts"
+        "historic districts",
+        "architectural heritage",
+        "ottoman mansions"
       ],
       "de": [
-        "historische Viertel"
+        "historische Viertel",
+        "Architekturerbe",
+        "Osmanische Herrenhäuser"
       ]
     },
     "images": [
       "https://example.com/osmaneli_evleri.jpg"
     ]
   },
- 
   {
     "slug": "bilecik-seyh-edebali-turbesi",
     "name": {
@@ -139,33 +159,47 @@
     "latitude": 40.14391,
     "longitude": 29.98828,
     "description": {
-      "tr": "Şeyh Edebali Türbesi, Osmanlı İmparatorluğu’nun kurucusu Osman Gazi'nin kayınpederi olan Şeyh Edebali’ye ait önemli bir tarihi yapıdır. Türbe, Bilecik il merkezine yakın konumda bulunmakta olup Osmanlı’nın erken dönem tarihine ışık tutar. Ziyaretçiler, burayı hem tarihi değerleri görmek hem de manevi bir atmosfer deneyimlemek için ziyaret edebilirler. Türbe, mimari detayları ve çevresindeki doğal alanlarla dikkat çeker.\n\nŞeyh Edebali Türbesi, tarih ve kültür meraklıları için ideal bir durak olup, rehberli turlar ve bilgilendirici panolar sayesinde ziyaretçilere detaylı bilgiler sunar. Ayrıca, bölge halkı tarafından düzenlenen anma ve kutlama etkinlikleri de bu tarihi mekâna ayrı bir önem kazandırmaktadır.",
-      "en": "The Şeyh Edebali Tomb is an important historical site belonging to Şeyh Edebali, the father-in-law of Osman Gazi, the founder of the Ottoman Empire. Located near the center of Bilecik, the tomb sheds light on the early history of the Ottoman period. Visitors can explore it to see its historical significance and experience its spiritual atmosphere. The tomb is notable for its architectural details and the surrounding natural environment.\n\nThe Şeyh Edebali Tomb is an ideal stop for history and culture enthusiasts, offering detailed information through guided tours and informative panels. Additionally, commemorative and cultural events organized by the local community add special significance to this historic site.",
-      "de": "Das Şeyh Edebali Grab ist ein bedeutender historischer Ort, der Şeyh Edebali gehört, dem Schwiegervater von Osman Gazi, dem Gründer des Osmanischen Reiches. Es befindet sich in der Nähe des Stadtzentrums von Bilecik und bietet Einblicke in die frühe Geschichte der Osmanischen Zeit. Besucher können es besichtigen, um die historische Bedeutung zu sehen und die spirituelle Atmosphäre zu erleben. Das Grab zeichnet sich durch architektonische Details und die umliegende Natur aus.\n\nDas Şeyh Edebali Grab ist ein idealer Halt für Geschichts- und Kulturinteressierte und bietet durch Führungen und informative Tafeln detaillierte Informationen. Darüber hinaus verleihen Gedenk- und Kulturveranstaltungen der lokalen Bevölkerung diesem historischen Ort eine besondere Bedeutung."
+      "tr": "Bilecik Şeyh Edebali Türbesi, Osmanlı İmparatorluğu’nun kuruluş harcını karmış büyük İslam alimi, müfessir ve Ahi teşkilatı lideri Şeyh Edebali’nin son istirahatgahıdır. Osmanlı Devleti’nin kurucusu Osman Gazi’nin kayınpederi ve manevi önderi olan Şeyh Edebali,\"İnsanı yaşat ki devlet yaşasın\"  sözüyle simgeleşen adalet, merhamet ve liyakat ilkeleriyle imparatorluğun yönetim felsefesine yön vermiştir. Kent merkezine hakim bir vadide, eski Bilecik yerleşiminin tepe noktasında yer alan türbe kompleksi, hem tarihsel ve siyasi açıdan bir simge hem de yüzyıllardır süregelen güçlü bir manevi ziyaretgah konumundadır.\n\nTürbe kompleksi, geç dönem Osmanlı mimarisi ile erken dönem yapı unsurlarının harmanlandığı nitelikli bir külliye yapısı sergiler. Asıl türbe binası kubbeli bir ana mekandan oluşmakta olup içerisinde Şeyh Edebali, eşi, kızı Bala Hatun ve dönemin diğer yakın müntesiplerine ait sandukalar yer alır. Yapı, geçirdiği çeşitli yangın ve savaş tahribatlarının ardından Sultan II. Abdülhamid döneminde geniş kapsamlı bir yenilemeden geçmiş ve günümüzdeki anıtsal görünümüne kavuşmuştur. Türbenin çevresinde yer alan Orhan Gazi Camii, tarihi hamam kalıntıları ve eski kentin izleri, alanın Osmanlı kuruluş dönemindeki stratejik ve dini önemini pekiştirmektedir.\n\nZiyaretçiler için Şeyh Edebali Türbesi, yalnızca tarihi bir anıtı görmek değil, Osmanlı Devleti’nin manevi doğum yerine tanıklık etmek anlamına gelir. Vadinin sunduğu panoramik manzara, bakımlı peyzaj alanları ve manevi atmosfer, ziyaretçilere derin bir huzur ve tefekkür ortamı sunar. Kompleks içerisinde yer alan Osmanlı Padişahları Tarih Şeridi ve bilgi panoları sayesinde kuruluş dönemine ait tarihi detaylar kolayca öğrenilebilir. Her yıl binlerce yerli ve yabancı turistin ziyaret ettiği yapı, Türkiye'nin tarihsel ve manevi mirasının en önemli odak noktalarından biridir.\n",
+      "en": "The Şeyh Edebali Tomb in Bilecik serves as the final resting place of Şeyh Edebali, the revered Islamic scholar, spiritual leader of the Ahi guild, and key mentor behind the founding of the Ottoman Empire. As the father-in-law and spiritual guide of Osman Gazi, the empire’s founder, Edebali formulated the moral and administrative philosophy of the nascent state, famously summarized in his advice: 'Keep human alive so that the state may live.' Situated on a high promontory overlooking a valley in old Bilecik, this tomb complex holds immense historical, political, and spiritual significance as the symbolic birthplace of Ottoman statehood.\n\nThe complex showcases an architectural synthesis of early and late Ottoman features. The main tomb building consists of a domed chamber housing the sarcophagi of Şeyh Edebali, his wife, his daughter Bala Hatun, and several close associates of the era. Having suffered damage from fires and historical conflicts over the centuries, the structure underwent major restorations during the reign of Sultan Abdülhamid II, receiving its current monumental form. Surrounding the tomb are other historical landmarks, including the Orhan Gazi Mosque and the ruins of an early Ottoman bath, emphasizing the site's role as a major religious and administrative sanctuary in the 14th century.\n\nFor visitors, a trip to the Şeyh Edebali Tomb provides a profound opportunity to experience the spiritual origin of the Ottoman Empire. The site offers sweeping views over the surrounding valley, meticulously landscaped gardens, and a tranquil atmosphere conducive to reflection. The nearby Ottoman Sultans History Walkway and informative displays provide detailed context regarding the foundation era. Attracting thousands of domestic and international visitors annually, the tomb stands as a cornerstone of Turkey's historical and cultural heritage.\n",
+      "de": "Das Şeyh Edebali Grab in Bilecik ist die letzte Ruhestätte von Şeyh Edebali, einem hochverehrten islamischen Gelehrten, Führer der Ahi-Gilde und geistigen Vater des Osmanischen Reiches. Als Schwiegervater und geistiger Mentor von Osman Gazi, dem Gründer des Reiches, prägte Edebali die Staatsphilosophie mit Grundsätzen der Gerechtigkeit und Humanität, die in seinem berühmten Zitat 'Lass den Menschen leben, damit der Staat lebt' gipfelten. Auf einem Hügel über einem Tal im historischen Teil von Bilecik gelegen, ist der Grabkomplex ein Symbol von imenser historischer, politischer und spiritueller Bedeutung.\n\nDie Anlage vereint architektonische Elemente der frühen und späten osmanischen Epoche. Das Hauptgebäude besteht aus einem überkuppelten Raum, der die Sarkophage von Şeyh Edebali, seiner Frau, seiner Tochter Bala Hatun und mehreren Weggefährten beherbergt. Nach Beschädigungen durch Brüche und kriegerische Auseinandersetzungen im Laufe der Jahrhunderte wurde das Grabmal unter Sultan Abdülhamid II. grundlegend restauriert und erhielt seine heutige monumentale Gestalt. In unmittelbarer Nähe befinden sich die Orhan-Gazi-Moschee und Ruinen eines historischen Bades, was die Bedeutung des Ortes in der Frühzeit des Reiches unterstreicht.\n
+
+Für Besucher bietet das Şeyh Edebali Grab die Möglichkeit, den spirituellen Ursprung des Osmanischen Reiches hautnah zu erleben. Die Panoramalage über dem Tal, die gepflegten Gartenanlagen und die würdevolle Atmosphäre laden zur Besinnung ein. Ein historischer Lehrpfad zu den osmanischen Sultanen sowie Informationstafeln vermitteln Wissenswertes über die Gründungszeit. Der Komplex zieht jährlich Tausende von Besuchern an und gehört zu den wichtigsten kulturellen und spirituellen Denkmälern der Türkei.\n"
     },
     "activities": {
       "tr": [
-        "Şeyh Edebali Türbesi’ni ziyaret etme",
-        "Tarihi dokuyu keşfetme"
+        "Şeyh Edebali Türbesi'ni ve kopyasını ziyaret edip dua etme",
+        "Osmanlı Padişahları Tarih Şeridi'ni gezme ve bilgi edinme",
+        "Kompleks içindeki Orhan Gazi Camii'ni ve tarihi kalıntıları inceleme",
+        "Vadinin panoramik manzarasını seyretme ve fotoğraf çekme"
       ],
       "en": [
-        "Visit the Şeyh Edebali Tomb",
-        "Explore the historical site"
+        "Visiting the Şeyh Edebali Tomb and paying respects",
+        "Exploring the Ottoman Sultans History Walkway",
+        "Examining the adjacent Orhan Gazi Mosque and historical ruins",
+        "Enjoying panoramic valley views and photography"
       ],
       "de": [
-        "Das Şeyh Edebali Grab besuchen",
-        "Die historische Stätte erkunden"
+        "Besuch des Şeyh Edebali Grabes und stille Einkehr",
+        "Erkundung des historischen Lehrpfads der osmanischen Sultane",
+        "Besichtigung der benachbarten Orhan-Gazi-Moschee und Ruinen",
+        "Genießen des Panoramablicks über das Tal und Fotografieren"
       ]
     },
     "categories": {
       "tr": [
-        "tarih"
+        "tarih",
+        "türbe",
+        "manevi mekan"
       ],
       "en": [
-        "historic"
+        "historic",
+        "tomb",
+        "spiritual site"
       ],
       "de": [
-        "Historisch"
+        "Historisch",
+        "Grabmal",
+        "spiritueller Ort"
       ]
     },
     "images": [
@@ -182,33 +216,45 @@
     "latitude": 40.14409,
     "longitude": 29.98192,
     "description": {
-      "tr": "Bilecik Müzesi, şehrin tarihî ve kültürel mirasını sergileyen önemli bir kurumdur. Müze, Neolitik dönemden Osmanlı dönemine kadar uzanan çok sayıda eser barındırmaktadır. Sergiler arasında taş aletler, seramikler, yazılı belgeler ve günlük yaşam objeleri yer almakta olup, ziyaretçilere Bilecik’in tarihini detaylı bir şekilde keşfetme imkânı sunar. Müze, hem eğitim hem de kültürel geziler için ideal bir duraktır.\n\nZiyaretçiler müzeyi gezerek bölgenin tarihî gelişimini, farklı medeniyetlerin etkilerini ve yerel kültürel öğeleri yakından görebilirler. Bilecik Müzesi, hem yerli hem de yabancı turistler için şehrin kültürel değerlerini anlamak adına önemli bir noktadır.",
-      "en": "Bilecik Museum is an important institution showcasing the historical and cultural heritage of the city. The museum houses numerous artifacts dating from the Neolithic period to the Ottoman era. Exhibits include stone tools, ceramics, written documents, and everyday objects, offering visitors a detailed insight into the history of Bilecik. It is an ideal stop for educational purposes and cultural tours.\n\nVisitors can explore the museum to observe the region’s historical development, the influence of different civilizations, and local cultural elements up close. Bilecik Museum is a significant destination for both local and international tourists to understand the city’s cultural values.",
-      "de": "Das Bilecik-Museum ist eine bedeutende Einrichtung, die das historische und kulturelle Erbe der Stadt präsentiert. Das Museum beherbergt zahlreiche Artefakte von der Neolithischen Zeit bis zur Osmanischen Ära. Zu den Ausstellungen gehören Steinwerkzeuge, Keramiken, schriftliche Dokumente und Alltagsgegenstände, die den Besuchern einen detaillierten Einblick in die Geschichte von Bilecik bieten. Es ist ein idealer Halt für Bildungs- und Kulturreisen.\n\nBesucher können das Museum erkunden, um die historische Entwicklung der Region, den Einfluss verschiedener Zivilisationen und lokale kulturelle Elemente aus nächster Nähe zu beobachten. Das Bilecik-Museum ist ein bedeutendes Ziel für einheimische und internationale Touristen, um die kulturellen Werte der Stadt zu verstehen."
+      "tr": "Bilecik Müzesi, bölgenin Neolitik Çağ’dan başlayarak Tunç Çağı, Frig, Roma, Bizans, Osmanlı ve Cumhuriyet dönemlerine uzanan zengin arkeolojik ve etnografik mirasını koruyan ve sergileyen kentin en önemli kültür kurumudur. Müze binası kendisi de tarihi bir anıt niteliğinde olup, 1874 yılında inşa edilen eski adliye ve hapishane binasının titizlikle restore edilmesi sonucu 2006 yılında müze olarak hizmete açılmıştır. Kesme taş ve tuğla işçiliğiyle dikkat çeken bu iki katlı tarihi Osmanlı yapısı, Bilecik kent merkezinde kentin tarihsel kimliğini yansıtan mimari bir nirengi noktasıdır.\n\nMüze sergileme salonları kronolojik ve tematik bir düzen içerisinde kurgulanmıştır. Arkeoloji seksiyonunda; bölgedeki kazılardan çıkarılan Paleolitik dönem el baltaları, Neolitik seramikler, Roma dönemi adak stelleri, lahittler, cam eserler, sikkeler ve pişmiş toprak kaplar yer alır. Özellikle Bilecik ve çevresindeki eski yerleşim alanlarında yürütülen arkeolojik araştırmalar, bölgenin Anadolu tarih yazımındaki erken dönem rolünü açıkça ortaya koymaktadır. Etnografya seksiyonunda ise Osmanlı son dönemi ve erken Cumhuriyet yıllarına ait geleneksel kıyafetler, silahlar, dokumalar, mutfak eşyaları ve madeni sanat eserleri sergilenerek yöre halkının tarihsel yaşam kültürü canlı bir şekilde sunulur.\n\nBilecik Müzesi, ziyaretçilerine yalnızca nesneleri sergilemekle kalmaz; dioramalar, canlandırma odaları ve bilgilendirici panolar vasıtasıyla interaktif bir tarih öğrenme deneyimi vaat eder. Osmanlı Devleti’nin kuruluş sürecine dair özel sergileme alanları, müzenin anlatısını bölgenin tarihsel misyonuyla bütünleştirir. Eğitim grupları, araştırmacılar ve kültür turistleri için eşsiz bir bilgi kaynağı olan müze, Bilecik’in binlerce yıllık geçmişini anlaşılır ve etkileyici bir görsellikle ziyaretçilerine aktarmaktadır.\n",
+      "en": "The Bilecik Museum stands as the province's primary cultural institution dedicated to preserving and exhibiting a vast archaeological and ethnographic heritage ranging from the Neolithic Age through the Bronze Age, Phrygian, Roman, Byzantine, Ottoman, and early Republican eras. Housed in a historic landmark itself, the museum building was originally constructed in 1874 as a Ottoman courthouse and prison. Following meticulous restoration efforts, the two-story stone-and-brick Ottoman structure was officially repurposed and opened to the public as a museum in 2006, serving as an architectural anchor in central Bilecik.\n\nThe museum’s exhibition halls are curated chronologically and thematically to offer a comprehensive historical narrative. The archaeological section features Paleolithic stone axes, Neolithic ceramics, Roman votive stelae, sarcophagi, glassware, ancient coins, and terracotta artifacts recovered from regional excavations. These artifacts highlight Bilecik's strategic importance in Anatolian antiquity. In the ethnographic halls, visitors can examine late Ottoman and early Republican traditional attire, weaponry, handwoven textiles, household items, and metalwork, illustrating the daily life and cultural traditions of the region’s inhabitants over recent centuries.\n\nThrough realistic dioramas, recreated living spaces, and informative multimedia panels, the Bilecik Museum provides an engaging and educational visitor experience. Special display sections dedicated to the founding era of the Ottoman Empire further tie the museum's narrative to the region's pivotal historical role. Serving as a vital resource for scholars, student groups, and heritage tourists, the museum effectively brings thousands of years of Bilecik’s history to life.\n",
+      "de": "Das Bilecik-Museum ist die wichtigste kulturelle Einrichtung der Provinz zur Bewahrung und Präsentation des reichen archäologischen und ethnografischen Erbes der Region, das vom Neolithikum über die Bronzezeit, die phrygische, römische, byzantinische und osmanische Epoche bis zur frühen Republik reicht. Das Museum befindet sich in einem historischen Gebäude aus dem Jahr 1874, das ursprünglich als osmanisches Gerichts- und Gefängnisgebäude diente. Nach sorgfältiger Restaurierung wurde das zweistöckige Stein-Ziegel-Bauwerk im Jahr 2006 als Museum eröffnet und prägt seither das Stadtbild im Zentrum von Bilecik.\n\nDie Ausstellungsräume des Museums sind chronologisch und thematisch gegliedert. Der archäologische Bereich zeigt altsteinzeitliche Faustkeile, neolithische Keramik, römische Grabstelen, Sarkophage, Glaswaren, historische Münzen und Terrakotta-Gefäße aus regionalen Ausgrabungen. Diese Funde verdeutlichen die historische Bedeutung der Region im antiken Anatolien. Im ethnografischen Bereich werden traditionelle Trachten, Waffen, Textilien, Haushaltsgeräte und Kunsthandwerk aus der späten osmanischen Zeit und den ersten Jahren der Republik ausgestellt, die Einblicke in den Alltag der Bevölkerung geben.\n\nDurch lebensnahe Dioramen, rekonstruierte Wohnräume und informative Dokumentationstafeln bietet das Bilecik-Museum ein anschauliches Lerneffekt. Spezielle Ausstellungsbereiche zur Gründungsphase des Osmanischen Reiches verbinden die Exponate mit der historischen Bedeutung der Region. Als bedeutender Anlaufpunkt für Forscher, Schulklassen und Kulturtouristen vermittelt das Museum die jahrtausendealte Geschichte Bileciks auf eindrucksvolle Weise.\n"
     },
     "activities": {
       "tr": [
-        "Arkeolojik ve etnografik eserleri inceleme",
-        "Bilecik’in tarihi geçmişi hakkında bilgi edinme"
+        "Arkeolojik ve etnografik eserleri kronolojik sırayla inceleme",
+        "Tarihi 1874 Osmanlı adliye binasının mimarisini keşfetme",
+        "Osmanlı kuruluş dönemi ve yöre kültürüne dair canlandırmaları izleme",
+        "Müze koleksiyonundaki antik sikkeleri ve seramikleri görme"
       ],
       "en": [
-        "Examine archaeological and ethnographic artifacts",
-        "Learn about Bilecik’s historical past"
+        "Examining archaeological and ethnographic exhibits chronologically",
+        "Exploring the architecture of the historic 1874 Ottoman courthouse",
+        "Viewing displays on the founding era of the Ottoman Empire",
+        "Observing ancient coins, glasswork, and ceramics"
       ],
       "de": [
-        "Archäologische und ethnografische Artefakte untersuchen",
-        "Mehr über die historische Vergangenheit von Bilecik erfahren"
+        "Besichtigung archäologischer und ethnografischer Exponate",
+        "Erkundung der Architektur des historischen Gerichtsgebäudes von 1874",
+        "Betrachten der Darstellungen zur osmanischen Gründungszeit",
+        "Begutachtung antiker Münzen, Glaswaren und Keramiken"
       ]
     },
     "categories": {
       "tr": [
-        "müze"
+        "müze",
+        "arkeoloji",
+        "etnografya"
       ],
       "en": [
-        "museum"
+        "museum",
+        "archaeology",
+        "ethnography"
       ],
       "de": [
-        "Museum"
+        "Museum",
+        "Archäologie",
+        "Ethnografie"
       ]
     },
     "images": [
@@ -216,48 +262,63 @@
     ]
   },
   {
-    "slug": "pelitozu-golpark",
-    "name": {
-      "tr": "Pelitözü Gölpark",
-      "en": "Pelitözü Lake Park",
-      "de": "Pelitözü Seepark"
-    },
-    "latitude": 40.16202,
-    "longitude": 29.9372,
-    "description": {
-      "tr": "Pelitözü Gölpark, Bolu’nun doğal güzelliklerini keşfetmek isteyenler için ideal bir destinasyondur. Göl çevresinde yürüyüş yolları bulunmakta olup, ziyaretçiler doğayla iç içe keyifli zaman geçirebilirler. Park, özellikle sabah yürüyüşleri, bisiklet sürüşleri ve açık hava sporları için uygundur. Göl manzarası eşliğinde piknik yapabilir, fotoğraf çekebilir ve dinlenebilirsiniz. Pelitözü Gölpark, aynı zamanda bölgedeki kuş türlerini gözlemlemek isteyen doğa tutkunları için de harika bir noktadır.\n\nÇocuklar için oyun alanları ve spor sahaları bulunan parkta, aileler rahatça vakit geçirebilir. Ziyaretçiler için bilgilendirici tabelalar ve yönlendirmeler, parkın keyfini artırmaktadır. Bu doğal alan, hem hafta sonu kaçamakları hem de uzun doğa yürüyüşleri için uygundur ve Bolu’nun yeşil dokusunu deneyimlemek isteyen herkes için mükemmel bir seçenektir.",
-      "en": "Pelitözü Lake Park is an ideal destination for those wishing to explore the natural beauty of Bolu. There are walking paths around the lake where visitors can enjoy time immersed in nature. The park is especially suitable for morning walks, cycling, and outdoor sports. You can have a picnic with the lake view, take photographs, and relax. Pelitözü Lake Park is also a great spot for nature enthusiasts interested in observing local bird species.\n\nThe park includes playgrounds and sports fields for children, allowing families to spend quality time together. Informative signs and guidance enhance the visitor experience. This natural area is suitable for both weekend getaways and long hikes, making it a perfect choice for anyone wanting to experience the green landscape of Bolu.",
-      "de": "Der Pelitözü Seepark ist ein ideales Ziel für alle, die die natürliche Schönheit von Bolu entdecken möchten. Rund um den See gibt es Spazierwege, auf denen Besucher die Zeit in der Natur genießen können. Der Park eignet sich besonders für morgendliche Spaziergänge, Radfahren und Outdoor-Sportarten. Man kann ein Picknick mit Seeblick machen, Fotos aufnehmen und entspannen. Der Pelitözü Seepark ist zudem ein hervorragender Ort für Naturliebhaber, die die örtlichen Vogelarten beobachten möchten.\n\nDer Park verfügt über Spielplätze und Sportfelder für Kinder, sodass Familien gemeinsam Zeit verbringen können. Informationsschilder und Wegweiser verbessern das Besuchserlebnis. Dieses Naturgebiet ist sowohl für Wochenendausflüge als auch für längere Wanderungen geeignet und bietet eine perfekte Möglichkeit, die grüne Landschaft von Bolu zu erleben."
-    },
-    "activities": {
-      "tr": [
-        "Göl kenarında yürüyüş yapma",
-        "Doğa ile iç içe piknik yapma"
-      ],
-      "en": [
-        "Walk by the lake",
-        "Have a picnic in nature"
-      ],
-      "de": [
-        "Am See spazieren gehen",
-        "Picknicken in der Natur"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/pelitözü_golpark.jpg"
+  "slug": "pelitozu-golpark",
+  "name": {
+    "tr": "Pelitözü Gölpark",
+    "en": "Pelitözü Lake Park",
+    "de": "Pelitözü Seepark"
+  },
+  "latitude": 40.16202,
+  "longitude": 29.9372,
+  "description": {
+    "tr": "Pelitözü Gölpark, Bilecik il merkezine yaklaşık 7 kilometre uzaklıkta bulunan ve kentin en önemli doğal rekreasyon ile cazibe alanlarından biri olan geniş bir park alanıdır. Orijinalinde 1980’li yıllarda tarımsal sulama amacıyla oluşturulmuş bir gölet etrafında şekillenen alan, ilerleyen yıllarda yapılan peyzaj düzenlemeleri, sosyal tesis eklemeleri ve altyapı çalışmalarıyla modern bir açık hava yaşam merkezine dönüştürülmüştür. Çam ve meşe ormanlarıyla çevrili olan Pelitözü Göleti, yaklaşık 213 hektarlık geniş bir alana yayılmakta olup şehir hayatının karmaşasından uzaklaşmak isteyen Bilecikliler ve çevre illerden gelen ziyaretçiler için birinci tercih noktası konumundadır.\n\nGölpark çevresinde gölün tüm etrafını dolaşan geniş yürüyüş yolları, bisiklet parkurları, koşu yolları ve dinlenme alanları yer almaktadır. Doğa tutkunları için yürüyüş ve bisiklet turlarına imkan tanıyan rekreasyon alanı, aynı zamanda göl yüzeyinde deniz bisikleti ve kanoyla gezinti yapma olanağı sunar. Park içerisinde ailelerin huzurla vakit geçirebileceği geniş piknik alanları, mangal ve mesire yerleri, çocuk oyun parkları, voleybol ve basketbol sahaları ile spor alanları bulunmaktadır. Ayrıca göl kıyısında hizmet veren kahvaltı salonları, çay bahçeleri, kır lokantaları ve kafeteryalar, ziyaretçilere zengin lezzet seçenekleriyle göl manzarası eşliğinde dinlenme imkanı sağlar.\n\nPelitözü Gölpark, yalnızca rekreasyonel aktivitelerle değil, barındırdığı zengin ekosistemi ve doğal güzellikleriyle de öne çıkar. Yılın her mevsiminde farklı renk tonlarına bürünen gölet çevresi, özellikle sonbahar ve ilkbahar aylarında doğa fotoğrafçıları için harika görsel kompozisyonlar sunar. Gölet ve çevresi, göçmen kuşların geçiş rotasında yer alması nedeniyle kuş gözlemcileri ve doğa bilimciler için de biyolojik çeşitlilik açısından kıymetli bir doğal habitat niteliğindedir. Bilecik’in yeşil dokusunu ve temiz havasını deneyimlemek isteyenler için Pelitözü Gölpark, kent turizminin en canlı noktalarından biridir.\n",
+    "en": "Pelitözü Lake Park (Pelitözü Gölpark) is one of the most prominent natural recreation and leisure destinations in Bilecik, located approximately 7 kilometers from the city center. Originally constructed in the 1980s as a reservoir for agricultural irrigation, the surrounding area was comprehensively redeveloped through extensive landscape architecture, social facility additions, and infrastructure improvements into a premier regional outdoor activity center. Surrounded by dense pine and oak forests, the lake covers an expansive area of nearly 213 hectares, serving as a primary sanctuary for locals and travelers seeking tranquility away from urban stress.\n\nThe park features a fully paved perimeter path around the lake, ideal for walking, jogging, and cycling enthusiasts. Visitors looking for water activities can rent paddle boats or canoes to explore the calm waters of the reservoir. The recreation grounds are equipped with dedicated picnic areas, designated barbecue zones, well-maintained children's playgrounds, and open-air sports fields for volleyball and basketball. In addition, several waterfront cafés, traditional breakfast spots, tea gardens, and country-style restaurants operate along the shore, allowing visitors to dine while enjoying sweeping views of the surrounding natural landscape.\n\nBeyond its recreational appeal, Pelitözü Lake Park is a biologically rich ecosystem that displays breathtaking seasonal transformations throughout the year. The foliage around the water presents vivid colors during autumn and spring, making it a highly favored location for nature photography and landscape paintings. Positioned along regional avian migratory routes, the reservoir also attracts diverse bird species, offering ample opportunities for birdwatchers and nature enthusiasts. As a centerpiece of Bilecik’s eco-tourism initiatives, Pelitözü Lake Park offers an indispensable combination of fresh air, serene scenery, and outdoor recreation.\n",
+    "de": "Der Pelitözü Seepark (Pelitözü Gölpark) ist eines der bedeutendsten Naherholungs- und Naturgebiete der Provinz Bilecik und liegt etwa 7 Kilometer vom Stadtzentrum entfernt. Ursprünglich in den 1980er Jahren als Stausee für die landwirtschaftliche Bewässerung angelegt, wurde das Areal durch umfangreiche Landschaftsgestaltungen, Infrastrukturmaßnahmen und den Bau moderner Freizeiteinrichtungen zu einem erstklassigen Freiluftzentrum umgestaltet. Umgeben von dichten Kiefern- und Eichenwäldern erstreckt sich das Areal um den See über eine Fläche von fast 213 Hektar und dient als geschätzter Rückzugsort für Anwohner und Besucher aus den umliegenden Regionen.\n\nRund um den See verläuft ein gut ausgebauter Rundweg, der sich ideal zum Spazierengehen, Joggen und Radfahren eignet. Auf dem ruhigen Gewässer können Besucher Tretboote und Kanus mieten, um den See vom Wasser aus zu erkunden. Das Parkgelände verfügt über großzügige Picknickzonen, ausgewiesene Grillplätze, Spielplätze für Kinder sowie Volleyball- und Basketballfelder. Darüber hinaus bieten mehrere Restaurants, Teegärten und Cafés direkt am Ufer regionale Spezialitäten und ein entspanntes Gastronomieangebot mit Panoramablick auf das Wasser.\n\nNeben den vielfältigen Freizeitmöglichkeiten besticht der Pelitözü Seepark durch sein artenreiches Ökosystem und seine landschaftliche Schönheit, die im Laufe der Jahreszeiten faszinierende Farbenspiele hervorbringt. Besonders im Frühling und Herbst zieht der Park zahlreiche Naturfotografen an. Da der See auf den Routen verschiedener Zugvögel liegt, bietet das Gebiet zudem Vogelbeobachtern interessante Einblicke in die regionale Fauna. Für alle, die die grüne Seite von Bilecik und frische Waldluft genießen möchten, ist der Pelitözü Seepark ein unverzichtbares Ausflugsziel.\n"
+  },
+  "activities": {
+    "tr": [
+      "Göl çevresinde yürüyüş ve bisiklet turu yapma",
+      "Göl yüzeyinde deniz bisikleti ile gezinti",
+      "Piknik ve mesire alanlarında vakit geçirme",
+      "Doğa fotoğrafçılığı ve kuş gözlemi"
+    ],
+    "en": [
+      "Walking and cycling around the lake perimeter",
+      "Renting paddle boats on the reservoir",
+      "Picnicking in designated recreation zones",
+      "Nature photography and birdwatching"
+    ],
+    "de": [
+      "Spazierengehen und Radfahren auf dem Seerundweg",
+      "Tretbootfahren auf dem Stausee",
+      "Picknicken in den ausgewiesenen Erholungsbereichen",
+      "Naturfotografie und Vogelbeobachtung"
     ]
   },
+  "categories": {
+    "tr": [
+      "doğa",
+      "göl",
+      "park",
+      "rekreasyon alanı"
+    ],
+    "en": [
+      "nature",
+      "lake",
+      "park",
+      "recreation area"
+    ],
+    "de": [
+      "Natur",
+      "See",
+      "Park",
+      "Erholungsgebiet"
+    ]
+  },
+  "images": [
+    "https://example.com/pelitozu_golpark.jpg"
+  ]
+},
   {
     "slug": "vezirhan-kasabasi",
     "name": {
@@ -302,46 +363,61 @@
     ]
   },
   {
-    "slug": "bilecik-kent-ormani",
-    "name": {
-      "tr": "Bilecik Kent Ormanı",
-      "en": "Bilecik City Forest",
-      "de": "Bilecik Stadtwald"
-    },
-    "latitude": 40.13317,
-    "longitude": 29.99252,
-    "description": {
-      "tr": "Bilecik Kent Ormanı, şehir merkezine yakın konumuyla hem yerli halk hem de turistler için kolay ulaşılabilir bir doğa alanıdır. Orman, geniş yürüyüş yolları, dinlenme alanları ve piknik bölgeleri ile doğayla iç içe zaman geçirmek isteyenler için mükemmel bir mekândır. Ziyaretçiler sabah yürüyüşleri yapabilir, koşu ve bisiklet aktivitelerinde bulunabilir veya ağaçların gölgesinde rahatlayabilirler. Ayrıca çocuklar için oyun alanları ve spor alanları mevcut olup, aileler için de uygun bir dinlenme alanı sunmaktadır.\n\nKent Ormanı, doğal bitki örtüsü ve yeşil alanlarıyla fotoğrafçılar ve doğa severler için cazip bir duraktır. Mevsimsel değişikliklerle birlikte farklı manzaralar sunan orman, yılın her döneminde ziyaretçilerini kendine çeker. Ziyaretçiler ayrıca bilgilendirici tabelalar sayesinde bölgedeki bitki ve hayvan çeşitliliğini öğrenebilir, doğa ile ilgili bilinçlenebilirler. Bilecik Kent Ormanı, şehir hayatından uzaklaşmak, temiz hava almak ve doğanın tadını çıkarmak isteyen herkes için ideal bir destinasyondur.",
-      "en": "Bilecik City Forest is a natural area conveniently located close to the city center, making it easily accessible for both locals and tourists. The forest offers wide walking paths, rest areas, and picnic spots, making it an excellent place for those wanting to spend time close to nature. Visitors can enjoy morning walks, jogging, cycling, or simply relax under the shade of trees. There are also playgrounds and sports areas for children, making it suitable for family outings.\n\nWith its natural vegetation and green spaces, the city forest is an attractive spot for photographers and nature enthusiasts. Changing seasonal scenery offers unique views throughout the year. Informative signs allow visitors to learn about the local plant and animal species, promoting awareness of nature. Bilecik City Forest is an ideal destination for anyone wishing to escape city life, breathe fresh air, and enjoy the beauty of nature.",
-      "de": "Der Bilecik Stadtwald ist ein Naturgebiet, das günstig in der Nähe des Stadtzentrums liegt und somit sowohl für Einheimische als auch für Touristen leicht zugänglich ist. Der Wald bietet breite Spazierwege, Ruhebereiche und Picknickplätze und ist damit ein hervorragender Ort für alle, die Zeit in der Natur verbringen möchten. Besucher können morgendliche Spaziergänge machen, joggen, Rad fahren oder einfach im Schatten der Bäume entspannen. Zudem gibt es Spielplätze und Sportbereiche für Kinder, wodurch der Ort für Familienausflüge geeignet ist.\n\nMit seiner natürlichen Vegetation und den Grünflächen ist der Stadtwald ein attraktiver Ort für Fotografen und Naturliebhaber. Die wechselnde saisonale Landschaft bietet das ganze Jahr über einzigartige Ausblicke. Informationsschilder ermöglichen den Besuchern, etwas über die örtliche Pflanzen- und Tierwelt zu lernen und ein Bewusstsein für die Natur zu entwickeln. Der Bilecik Stadtwald ist ein idealer Ort für alle, die dem Stadtleben entfliehen, frische Luft genießen und die Schönheit der Natur erleben möchten."
-    },
-    "activities": {
-      "tr": [
-        "Piknik yapma",
-        "Doğa yürüyüşü"
-      ],
-      "en": [
-        "Picnic",
-        "Nature walk"
-      ],
-      "de": [
-        "Picknick machen",
-        "Spaziergang in der Natur"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "doğa"
-      ],
-      "en": [
-        "nature"
-      ],
-      "de": [
-        "Natur"
-      ]
-    },
-    "images": [
-      "https://example.com/bilecik_kent_ormani.jpg"
+  "slug": "bilecik-kent-ormani",
+  "name": {
+    "tr": "Bilecik Kent Ormanı",
+    "en": "Bilecik City Forest",
+    "de": "Bilecik Stadtwald"
+  },
+  "latitude": 40.13317,
+  "longitude": 29.99252,
+  "description": {
+    "tr": "Bilecik Kent Ormanı, kentin güneybatı kesiminde, şehir merkezine oldukça yakın bir konumda yer alan ve Bilecik halkı ile ziyaretçilerine doğayla kentsel yaşamı buluşturan en önemli ekolojik açık hava alanlarından biridir. Bölgenin engebeli topoğrafyası üzerine kurulan kent ormanı, meşe, çam, köknar ve ardıç ağaçlarından oluşan zengin bitki örtüsüyle kente nefes aldıran adeta yeşil bir akciğer işlevi görür. Bilecik’in tarihsel ve coğrafi dokusuna uyumlu bir rekreasyon alanı olarak planlanan park, şehir içi ulaşım imkanlarının kolaylığı sayesinde günün her saatinde yerli ve yabancı ziyaretçilere ev sahipliği yapmaktadır.\n\nKent Ormanı’nın içerisindeki altyapı düzenlemeleri, doğaya zarar vermeyecek ahşap ve taş mimari unsurlar kullanılarak kurgulanmıştır. Orman dokusu boyunca kıvrılan yürüyüş hatları, koşu parkurları ve dağ bisikleti rotaları, doğa sporlarıyla ilgilenen sporcular için elverişli zeminler sunar. Çocuklu aileler için ahşap oyun grupları, piknik masaları, kamelyalar ve mangal yapmaya uygun düzenlenmiş mesire alanları mevcuttur. Alanın yüksek noktalarında konumlanan seyir terasları ise ziyaretçilere Bilecik’in vadi manzarasını ve çevredeki tepe silsilelerini panoramik bir açıyla seyretme olanağı verir. Şehrin gürültüsünden uzaklaşmak isteyenler için sessiz okuma ve dinlenme köşeleri de alanın sunduğu olanaklar arasındadır.\n\nBiyolojik çeşitlilik açısından oldukça zengin bir habitat barındıran Bilecik Kent Ormanı, mevsim geçişlerinde sergilediği renk cümbüşüyle öne çıkar. Özellikle sonbahar aylarında sarı, turuncu ve kızıl tonlarına bürünen yapraklar doğa fotoğrafçıları için harika görsel kompozisyonlar sunarken; ilkbaharda ise tomurcuklanan bitkiler ve kuş sesleri canlı bir atmosfer yaratır. Eğitim grupları için bölgenin florasını ve faunasını tanıtan bilgilendirme panoları yer almaktadır. Doğal ekosistemin korunarak rekreasyon alanlarıyla harmanlandığı Bilecik Kent Ormanı, kent yaşamına değer katan canlı bir koruma alanı niteliğindedir.\n",
+    "en": "Bilecik City Forest (Bilecik Kent Ormanı) is a key ecological outdoor destination located in close proximity to the city center, seamlessly linking urban life with the surrounding natural ecosystem. Established upon the region's rugged topography, the city forest acts as a green lung for the city, boasting a rich botanical cover dominated by oak, pine, fir, and juniper trees. Thoughtfully planned to respect Bilecik’s historical and geographical context, this recreational park remains highly accessible to both local residents and travelers throughout the year.\n\nThe infrastructure within the forest was meticulously designed using eco-friendly timber and stone elements to preserve the surrounding environment. Winding nature trails, dedicated jogging tracks, and mountain biking paths offer ideal conditions for sports enthusiasts seeking outdoor activity. For families, the site features sustainable wooden playgrounds, shaded picnic tables, gazebos, and designated barbecue areas. Observation decks situated at higher elevations provide visitors with panoramic views over Bilecik’s valley landscape and surrounding ridge lines, while quiet reading nooks offer solitude away from the hustle of city life.\n\nBiologically diverse, the Bilecik City Forest displays dramatic seasonal transformations that attract nature photographers, botanists, and outdoor lovers alike. In autumn, the canopy shifts to vibrant shades of amber, orange, and crimson, while spring brings blooming flora and active birdlife to the area. Informative educational signage positioned along walking routes highlights local flora and fauna, fostering environmental awareness among visiting student groups and tourists. Serving as an exemplar of sustainable urban forestry, Bilecik City Forest stands as an invaluable haven for health, relaxation, and ecological conservation.\n",
+    "de": "Der Stadtwald von Bilecik (Bilecik Kent Ormanı) ist ein bedeutendes ökologisches Naherholungsgebiet in unmittelbarer Nähe des Stadtzentrums, das städtischen Lebensraum harmonisch mit der umgebenden Natur verbindet. Auf der hügeligen Topografie der Region angelegt, fungiert der Wald als grüne Lunge der Stadt und beherbergt einen dichten Baumbestand aus Eichen, Kiefern, Tannen und Wacholder. Das Areal wurde so konzipiert, dass es sich nahtlos in die geografische Landschaft von Bilecik einfügt und dank der guten Verkehrsanbindung für Einheimische und Besucher leicht erreichbar ist.\n\nDie Infrastruktur innerhalb des Stadtwaldes wurde umweltfreundlich unter Verwendung von Holz- und Natursteinelementen errichtet, um das natürliche Ökosystem zu schonen. Geschwungene Wanderwege, Laufstrecken und Mountainbike-Pfade bieten optimale Bedingungen für Sportbegeisterte. Für Familien stehen Kinderspielplätze aus Holz, schattige Picknicktische, Pavillons und ausgewiesene Grillzonen zur Verfügung. Aussichtsplattformen auf den höheren Punkten des Geländes ermöglichen einen Panoramablick auf das Tal von Bilecik und die umliegenden Hügelketten, während ruhige Rückzugsorte Raum zum Entspannen bieten.\n\nAufgrund seiner biologischen Vielfalt zeigt der Stadtwald von Bilecik im Laufe der Jahreszeiten faszinierende Naturschauspiele. Im Herbst verwandelt sich das Blätterdach in warme Gold-, Orange- und Rottöne, die zahlreiche Fotografen anziehen, während der Frühling mit blühender Flora und Vogelgesang aufwartet. Informationstafeln entlang der Wege informieren über die heimische Tier- und Pflanzenwelt und fördern das Umweltbewusstsein von Schulklassen und Besuchern. Der Stadtwald von Bilecik ist ein hervorragendes Beispiel für nachhaltige urbane Forstwirtschaft und ein geschätzter Ort für Erholung und Naturschutz.\n"
+  },
+  "activities": {
+    "tr": [
+      "Orman içi yollarda doğa yürüyüşü ve koşu yapma",
+      "Mesire ve piknik alanlarında vakit geçirme",
+      "Seyir teraslarından panoramic Bilecik manzarasını izleme",
+      "Dağ bisikleti turları ve doğa fotoğrafçılığı"
+    ],
+    "en": [
+      "Hiking and jogging along forest trails",
+      "Picnicking in designated recreation areas",
+      "Enjoying panoramic city views from observation decks",
+      "Mountain biking and nature photography"
+    ],
+    "de": [
+      "Wandern und Joggen auf den Waldpfaden",
+      "Picknicken in den ausgewiesenen Erholungsbereichen",
+      "Genießen des Panoramablicks von den Aussichtsplattformen",
+      "Mountainbiken und Naturfotografie"
     ]
-  }
+  },
+  "categories": {
+    "tr": [
+      "doğa",
+      "kent ormanı",
+      "park",
+      "rekreasyon alanı"
+    ],
+    "en": [
+      "nature",
+      "city forest",
+      "park",
+      "recreation area"
+    ],
+    "de": [
+      "Natur",
+      "Stadtwald",
+      "Park",
+      "Erholungsgebiet"
+    ]
+  },
+  "images": [
+    "https://example.com/bilecik_kent_ormani.jpg"
+  ]
+}
 ]
