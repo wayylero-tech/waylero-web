@@ -598,7 +598,7 @@
       "https://example.com/devrent_vadisi.jpg"
     ]
   },
-  [
+  
   {
     "slug": "gizli-vadisi-guvercinlik-vadisi",
     "name": {
@@ -791,7 +791,7 @@
       "https://example.com/asmalı_konak.jpg"
     ]
   },
-[
+
   {
     "slug": "gulludere-vadisi",
     "name": {
@@ -1221,5 +1221,5 @@
   "images": [
     "https://example.com/saruhan_kervansarayi.jpg"
   ]
-}
+  }
 ]
