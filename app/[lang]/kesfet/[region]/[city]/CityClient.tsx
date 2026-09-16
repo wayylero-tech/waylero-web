@@ -458,20 +458,55 @@ const actualCityKey =
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto shrink-0">
-            
-            <Link
-              href={exploreBase}
-              className="w-full sm:w-auto group relative overflow-hidden px-6 py-4 rounded-2xl bg-white text-black transition-all duration-300 hover:bg-blue-600 hover:text-white hover:scale-105 flex flex-col items-start justify-center min-w-[140px] h-[52px]"
-            >
-              <span className="text-[9px] tracking-widest uppercase font-black text-gray-400 group-hover:text-white/80">
-                {isEn ? "EXPLORE" : "KEŞFET"}
-              </span>
-              <span className="text-xs font-bold mt-0.5 whitespace-nowrap">
-                {t.backBtn}
-              </span>
-            </Link>
-          </div>
+        
+<div className="relative z-20 flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto shrink-0">
+
+  {/* KEŞFET */}
+
+  <Link
+    href={exploreBase}
+    className="relative z-30 w-full sm:w-auto px-6 py-4 rounded-2xl bg-white text-black hover:bg-blue-600 hover:text-white transition-all duration-300 flex flex-col items-start justify-center min-w-[140px] h-[52px] cursor-pointer"
+  >
+    <span className="text-[9px] tracking-widest uppercase font-black text-gray-400 hover:text-white">
+      {isEn ? "EXPLORE" : "KEŞFET"}
+    </span>
+    <span className="text-xs font-bold mt-0.5 whitespace-nowrap">
+      {t.backBtn}
+    </span>
+  </Link>
+
+  {/* OTELLER */}
+  <Link
+    href={`${exploreBase.replace("/kesfet", "")}/hotels/${currentCitySlug}`}
+    className="relative z-30 w-full sm:w-auto px-5 py-4 rounded-2xl bg-white/10 text-white border border-white/10 hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center min-w-[110px] h-[52px] cursor-pointer"
+  >
+    <span className="text-[10px] font-black uppercase tracking-widest whitespace-nowrap">
+      {isEn ? "HOTELS" : "OTELLER"}
+    </span>
+  </Link>
+
+  {/* ETKİNLİKLER */}
+  <Link
+    href={`${exploreBase.replace("/kesfet", "")}/etkinlikler/${currentCitySlug}`}
+    className="relative z-30 w-full sm:w-auto px-5 py-4 rounded-2xl bg-white/10 text-white border border-white/10 hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center min-w-[120px] h-[52px] cursor-pointer"
+  >
+    <span className="text-[10px] font-black uppercase tracking-widest whitespace-nowrap">
+      {isEn ? "EVENTS" : "ETKİNLİKLER"}
+    </span>
+  </Link>
+
+  {/* TURLAR */}
+  <Link
+    href={`${exploreBase.replace("/kesfet", "")}/etkinlikler/${currentCitySlug}`}
+    className="relative z-30 w-full sm:w-auto px-5 py-4 rounded-2xl bg-white/10 text-white border border-white/10 hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center min-w-[100px] h-[52px] cursor-pointer"
+  >
+    <span className="text-[10px] font-black uppercase tracking-widest whitespace-nowrap">
+      {isEn ? "TOURS" : "TURLAR"}
+    </span>
+  </Link>
+
+</div>
+
         </div>
       </footer>
     </div>

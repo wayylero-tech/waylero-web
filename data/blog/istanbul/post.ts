@@ -48,9 +48,9 @@ Bu rehber, İstanbul’u ilk kez ziyaret edenler veya şehri daha detaylı keşf
 
 ---
 
-# 🏛 Tarihi Yerler
+## 🏛 Tarihi Yerler
 
-## 🕌 Ayasofya (Hagia Sophia) – İstanbul’un 1500 Yıllık Tarihi
+### 🕌 Ayasofya (Hagia Sophia) – İstanbul’un 1500 Yıllık Tarihi
 
 Ayasofya, İstanbul’un en ikonik ve en çok ziyaret edilen tarihi yapılarından biridir. 537 yılında Bizans İmparatoru I. Justinianus tarafından büyük bir katedral olarak inşa edilmiştir. Yaklaşık 1500 yıllık tarihiyle hem Bizans hem Osmanlı mimarisinin izlerini taşıyan eşsiz bir yapıdır ve mimarlık dünyasında dünya çapında bir başyapıt olarak kabul edilir.
 
@@ -89,7 +89,7 @@ tarih ve mimari açısından eşsiz bir eserdir.
 
 ---
 
-## 🏰 Topkapı Sarayı – Osmanlı Padişahlarının 400 Yıllık İhtişamı
+### 🏰 Topkapı Sarayı – Osmanlı Padişahlarının 400 Yıllık İhtişamı
 
 Topkapı Sarayı, Osmanlı padişahlarının yaklaşık 400 yıl boyunca ikamet ettiği ve devleti yönettiği görkemli saraydır. Fatih Sultan Mehmet tarafından İstanbul’un fethinden kısa bir süre sonra yaptırılmıştır. Saray, hem yönetim merkezi hem de padişahların yaşam alanı olarak Osmanlı İmparatorluğu’nun kalbinde tarihi bir simge oluşturur.
 
@@ -125,7 +125,7 @@ tarihi koleksiyonlarıyla dünyanın en önemli saraylarından biridir.
 
 ---
 
-## 🕌 Sultanahmet Camii – İstanbul’un Mavi İhtişamı
+### 🕌 Sultanahmet Camii – İstanbul’un Mavi İhtişamı
 
 Sultanahmet Camii, diğer adıyla Mavi Cami, İstanbul’un en ünlü ve en çok ziyaret edilen camilerinden biridir. 1609-1616 yılları arasında Osmanlı Padişahı I. Ahmed tarafından yaptırılmıştır. İsmini, iç mekanındaki mavi çinilerden alır ve Osmanlı mimarisinin en göz alıcı örneklerinden biri olarak kabul edilir.
 
@@ -161,7 +161,7 @@ Osmanlı mimarisinin en önemli eserlerindendir.
 
 ---
 
-## 🏛 Yerebatan Sarnıcı – İstanbul’un Yeraltındaki Gizemli Hazinesi
+### 🏛 Yerebatan Sarnıcı – İstanbul’un Yeraltındaki Gizemli Hazinesi
 
 Yerebatan Sarnıcı, İstanbul’un en etkileyici ve mistik yapılarından biridir. Bizans İmparatoru I. Justinianus tarafından 6. yüzyılda inşa edilen bu yer altı su deposu, İstanbul’un su ihtiyacını karşılamak için kullanılmıştır. "Sarnıç" olarak bilinen yapı, yaklaşık 9.800 metrekarelik alanı ve 336 mermer sütunu ile görkemli bir mimari harikadır.
 
@@ -195,7 +195,7 @@ Bizans döneminden günümüze ulaşan en önemli su sarnıçlarındandır.
 
 ---
 
-## 🏛 Dolmabahçe Sarayı – Osmanlı’nın Avrupa Tarzı İhtişamı
+### 🏛 Dolmabahçe Sarayı – Osmanlı’nın Avrupa Tarzı İhtişamı
 
 Dolmabahçe Sarayı, Osmanlı İmparatorluğu’nun son dönem padişahlarının yönetim merkezi ve İstanbul Boğazı kıyısında inşa edilmiş görkemli saraydır. 1843-1856 yılları arasında Sultan Abdülmecid tarafından yaptırılmıştır ve klasik Osmanlı mimarisini Batı tarzı barok ve rokoko ile birleştiren eşsiz bir yapıdır.
 
@@ -231,9 +231,9 @@ Osmanlı’nın modernleşme döneminin en önemli simgelerindendir.
 
 ---
 
-# 🌆 İstanbul’un İkonik Yerleri
+## 🌆 İstanbul’un İkonik Yerleri
 
-## 🗼 Galata Kulesi – İstanbul’un Tarihi Gözcüsü
+### 🗼 Galata Kulesi – İstanbul’un Tarihi Gözcüsü
 
 Galata Kulesi, İstanbul’un en ikonik yapılarından biri olarak 1348 yılında Cenevizliler tarafından inşa edilmiştir. Şehrin en eski taş kulelerinden biri olan Galata Kulesi, hem Bizans hem de Osmanlı dönemlerinde farklı amaçlarla kullanılmış; gözetleme kulesi, yangın gözetleme noktası ve savunma kulesi olarak işlev görmüştür.
 
@@ -270,7 +270,7 @@ Yakındaki kafelerde ve İstiklal Caddesi’nde İstanbul’un modern ve tarihi 
 
 ---
 
-## 🛍 Kapalıçarşı – İstanbul’un Tarihi Alışveriş Cenneti
+### 🛍 Kapalıçarşı – İstanbul’un Tarihi Alışveriş Cenneti
 
 Kapalıçarşı, İstanbul’un ve dünyanın en büyük ve en eski kapalı çarşılarından biridir. 1461 yılında Fatih Sultan Mehmet döneminde inşa edilen çarşı, Osmanlı döneminde ticaretin merkezi olarak kullanılmıştır. Günümüzde 4.000’den fazla dükkanıyla hem turistlerin hem de İstanbulluların uğrak noktasıdır.
 
@@ -306,7 +306,7 @@ Osmanlı döneminden günümüze uzanan tarihiyle
 
 ---
 
-## 🛍 Mısır Çarşısı – İstanbul’un Baharat ve Lezzet Merkezi
+### 🛍 Mısır Çarşısı – İstanbul’un Baharat ve Lezzet Merkezi
 
 Mısır Çarşısı, İstanbul’un en ünlü ve renkli kapalı çarşılarından biridir. 1660 yılında IV. Murad döneminde inşa edilmiş olup, Osmanlı döneminde özellikle baharat ticaretinin merkezi olarak kullanılmıştır. Günümüzde baharat, kuru yemiş, lokum, çay, kahve ve hediyelik ürünler bulabileceğiniz en popüler duraklardan biridir.
 
@@ -343,9 +343,9 @@ yüzyıllardır ticaretin önemli merkezlerinden biridir.
 
 ---
 
-# 🌉 Boğaz ve Manzara Yerleri
+## 🌉 Boğaz ve Manzara Yerleri
 
-## 🌉 Ortaköy Meydanı – Boğaz’ın Kalbinde Tarih ve Eğlence
+### 🌉 Ortaköy Meydanı – Boğaz’ın Kalbinde Tarih ve Eğlence
 
 Ortaköy Meydanı, İstanbul Boğazı’nın en gözde noktalarından biri olup hem tarihi dokusu hem de sosyal yaşamıyla ünlüdür. 18. yüzyılda inşa edilen Ortaköy Camii ve çevresindeki kafeler, restoranlar ve butiklerle meydan, hem yerli halkın hem de turistlerin buluşma noktasıdır.
 
@@ -379,7 +379,7 @@ Boğaz köprüsü ve çevresini fotoğraflamak
 
 ---
 
-## 🌄 Çamlıca Tepesi – İstanbul’un Panoramik Manzarası
+### 🌄 Çamlıca Tepesi – İstanbul’un Panoramik Manzarası
 
 Çamlıca Tepesi, İstanbul’un Asya yakasında yer alan ve şehrin en yüksek noktalarından biri olarak bilinen eşsiz bir panoramik noktadır. Hem tarihi hem de doğal güzellikleriyle ünlü olan tepe, özellikle İstanbul Boğazı, Marmara Denizi ve şehir siluetini görmek isteyen ziyaretçiler için ideal bir duraktır.
 
@@ -416,7 +416,7 @@ Yürüyüş yollarında doğa ile iç içe vakit geçirmek
 
 ---
 
-## 🌄 Pierre Loti Tepesi – İstanbul’un Romantik Manzarası
+### 🌄 Pierre Loti Tepesi – İstanbul’un Romantik Manzarası
 
 Pierre Loti Tepesi, İstanbul’un Eyüp ilçesinde Haliç manzarasına karşı konumlanmış tarihi ve turistik bir tepedir. Adını Fransız yazar Pierre Loti’den alır; yazar bu tepede İstanbul’u izlerken eserlerinde şehri tasvir etmiştir.
 
@@ -452,7 +452,7 @@ Haliç’i yukarıdan izleyebileceğiniz en güzel noktalardan biri olan
 
 ---
 
-## 🏝 Kız Kulesi – İstanbul Boğazı’nın Simgesi
+### 🏝 Kız Kulesi – İstanbul Boğazı’nın Simgesi
 
 Kız Kulesi, İstanbul Boğazı’nın ortasında yer alan ve şehrin en romantik simgelerinden biridir. Tarihi Bizans dönemine kadar uzanan kule, zamanla deniz feneri, savunma kulesi ve karantina merkezi olarak kullanılmıştır. Günümüzde ise restoran ve kafesiyle hem yerli hem de yabancı turistlerin uğrak noktasıdır.
 
@@ -488,9 +488,9 @@ tarihi ve efsaneleriyle şehrin en ikonik yapılarındandır.
 
 ---
 
-# 🌿 Doğal ve Popüler Yerler
+## 🌿 Doğal ve Popüler Yerler
 
-## 🌳 Gülhane Parkı – İstanbul’un Tarihi ve Doğal Sığınağı
+###🌳 Gülhane Parkı – İstanbul’un Tarihi ve Doğal Sığınağı
 
 Gülhane Parkı, İstanbul’un Sultanahmet semtinde yer alan ve şehrin en eski ve en geniş parklarından biridir. Osmanlı döneminde Topkapı Sarayı’nın bir parçası olarak kullanılan alan, günümüzde hem tarihi hem de doğal güzellikleriyle ziyaretçilerini karşılamaktadır.
 
@@ -524,7 +524,7 @@ Detaylar için tıkla 🔗 **[Gülhane Parkı](https://www.waylero.com/tr/kesfet
 
 ---
 
-## 🌳 Emirgan Korusu – İstanbul’un Renkli ve Tarihi Doğa Harikası
+### 🌳 Emirgan Korusu – İstanbul’un Renkli ve Tarihi Doğa Harikası
 
 Emirgan Korusu, İstanbul’un Sarıyer ilçesinde Boğaz manzarasına hakim konumda yer alan tarihi ve doğal bir parktır. Osmanlı döneminde Sultan Abdülmecid tarafından yaptırılan koru, özellikle Lale Festivali ile ünlüdür ve yılın her döneminde ziyaretçilere eşsiz bir doğa deneyimi sunar.
 
@@ -558,7 +558,7 @@ Detaylar için tıkla 🔗 **[Emirgan Korusu](https://www.waylero.com/tr/kesfet/
 
 ---
 
-## 🌲 Belgrad Ormanı – İstanbul’un Doğa ile Buluşma Noktası
+### 🌲 Belgrad Ormanı – İstanbul’un Doğa ile Buluşma Noktası
 
 Belgrad Ormanı, İstanbul’un Sarıyer ve Eyüp ilçeleri arasında yer alan, şehrin en büyük ve en popüler doğal alanlarından biridir. Osmanlı döneminde şehre su temini amacıyla kullanılmış ve günümüzde yürüyüş, koşu, bisiklet ve doğa sporları için ideal bir noktadır.
 
@@ -592,9 +592,9 @@ Detaylar için tıkla 🔗 **[Belgrad Ormanı](https://www.waylero.com/tr/kesfet
 
 ---
 
-# 🏙 Gezilecek Semtler
+## 🏙 Gezilecek Semtler
 
-## 🏘 Balat – İstanbul’un Renkli Tarihi Mahallesi
+### 🏘 Balat – İstanbul’un Renkli Tarihi Mahallesi
 
 Balat, İstanbul’un Fatih ilçesinde yer alan, tarihi dokusu ve renkli sokaklarıyla ünlü bir semttir. Bizans ve Osmanlı dönemlerinden günümüze ulaşan yapıları, eski Rum ve Yahudi mahalleleri ile İstanbul’un kültürel mozaiğini gözler önüne serer.
 
@@ -627,7 +627,7 @@ Yakındaki Fener ve Haliç bölgeleri ile birlikte tarihi keşif yapmak
 
 ---
 
-## ⚓ Karaköy – İstanbul’un Tarihi Liman ve Modern Buluşma Noktası
+### ⚓ Karaköy – İstanbul’un Tarihi Liman ve Modern Buluşma Noktası
 
 Karaköy, İstanbul’un Beyoğlu ilçesinde, Haliç ve Boğaz kıyısında yer alan tarihi ve canlı bir semttir. Osmanlı döneminde liman ve ticaret merkezi olarak kullanılan Karaköy, günümüzde kafeleri, sanat galerileri, butik mağazaları ve tarihi yapılarıyla ünlüdür.
 
@@ -659,7 +659,7 @@ Yakındaki Tophane ve Galata Kulesi ile birlikte İstanbul’un kültürel rotas
 
 ---
 
-## 🏙 Kadıköy – İstanbul’un Asya Yakası Kültür ve Eğlence Merkezi
+### 🏙 Kadıköy – İstanbul’un Asya Yakası Kültür ve Eğlence Merkezi
 
 Kadıköy, İstanbul’un en canlı ve renkli semtlerinden biri olup Asya yakasında konumlanmıştır. Tarihi çarşıları, kafeleri, sanat galerileri ve sahil yürüyüş alanlarıyla hem yerli halk hem de turistler için vazgeçilmez bir destinasyondur.
 
@@ -693,7 +693,7 @@ Alışveriş yapmak ve bölgedeki müzik mekanlarını keşfetmek
 
 ---
 
-## 🌊 Üsküdar – İstanbul’un Tarihi ve Boğaz’a Açılan Semti
+### 🌊 Üsküdar – İstanbul’un Tarihi ve Boğaz’a Açılan Semti
 
 Üsküdar, İstanbul’un Asya yakasında yer alan, tarihi camileri, sahil yürüyüşleri ve Boğaz manzarasıyla ünlü bir semttir. Osmanlı döneminden kalma yapıları, medreseleri ve tarihi çeşmeleri ile İstanbul’un kültürel zenginliğini yansıtır.
 
@@ -770,9 +770,9 @@ For those looking to spend time immersed in nature, Gülhane Park, Emirgan Grove
 This guide is designed for first-time visitors to Istanbul or those wishing to explore the city in greater detail. You can find all the details about the best historical sites, photogenic viewpoints, popular neighborhoods, natural areas, and tourist routes to visit in Istanbul in 2026, as well as information on travel duration, transportation, and visiting tips.
 
 ---
-# 🏛 Historical Sites
+## 🏛 Historical Sites
 
-## 🕌 Hagia Sophia – Istanbul’s 1,500-Year History
+### 🕌 Hagia Sophia – Istanbul’s 1,500-Year History
 
 Hagia Sophia is one of Istanbul’s most iconic and most visited historical structures. It was built in 537 by Byzantine Emperor Justinian I as a grand cathedral. With a history spanning approximately 1,500 years, it is a unique structure bearing the traces of both Byzantine and Ottoman architecture and is recognized worldwide as a masterpiece of architecture.
 
@@ -807,7 +807,7 @@ Tour Istanbul’s most important tourist route, including nearby historic buildi
 Click here for details 🔗 **[Hagia Sophia](https://www.waylero.com/en/kesfet/turkiye/istanbul/ayasofya)**
 
 ---
-## 🏰 Topkapı Palace – 400 Years of Splendor of the Ottoman Sultans
+### 🏰 Topkapı Palace – 400 Years of Splendor of the Ottoman Sultans
 
 Topkapı Palace is the magnificent palace where the Ottoman sultans resided and governed the empire for nearly 400 years. It was built by Fatih Sultan Mehmet shortly after the conquest of Istanbul. The palace stands as a historic symbol at the heart of the Ottoman Empire, serving both as a center of government and as the sultans’ living quarters.
 
@@ -841,7 +841,7 @@ Click here for details 🔗 **[Topkapı Palace](https://www.waylero.com/en/kesfe
 
 ---
 
-## 🕌 Sultanahmet Mosque – Istanbul’s Blue Splendor
+### 🕌 Sultanahmet Mosque – Istanbul’s Blue Splendor
 
 The Sultanahmet Mosque, also known as the Blue Mosque, is one of Istanbul’s most famous and most visited mosques. It was commissioned by Ottoman Sultan Ahmed I and constructed between 1609 and 1616. It derives its name from the blue tiles adorning its interior and is considered one of the most striking examples of Ottoman architecture.
 
@@ -874,7 +874,7 @@ Explore Istanbul’s most important tourist route along with nearby historic str
 Click here for details 🔗 **[Sultanahmet Mosque](https://www.waylero.com/en/kesfet/turkiye/istanbul/sultanahmet-camii)**
 
 ---
-## 🏛 The Basilica Cistern – Istanbul’s Mysterious Underground Treasure
+### 🏛 The Basilica Cistern – Istanbul’s Mysterious Underground Treasure
 
 The Basilica Cistern is one of Istanbul’s most impressive and mystical structures. Built in the 6th century by Byzantine Emperor Justinian I, this underground water reservoir was used to meet Istanbul’s water needs. Known as the “Cistern,” the structure is a magnificent architectural marvel with an area of approximately 9,800 square meters and 336 marble columns.
 
@@ -904,7 +904,7 @@ Explore the Sultanahmet district along with nearby historic structures
 Click for details 🔗 **[Yerebatan Cistern](https://www.waylero.com/en/kesfet/turkiye/istanbul/yerebatan-sarnici)**
 
 ---
-## 🏛 Dolmabahçe Palace – The Splendor of the Ottoman Empire in European Style
+### 🏛 Dolmabahçe Palace – The Splendor of the Ottoman Empire in European Style
 
 Dolmabahçe Palace was the administrative center of the Ottoman Empire’s last sultans and a magnificent palace built along the shores of the Bosphorus. Commissioned by Sultan Abdülmecid between 1843 and 1856, it is a unique structure that blends classical Ottoman architecture with Western-style Baroque and Rococo elements.
 
@@ -938,9 +938,9 @@ Click here for details 🔗 **[Dolmabahçe Palace](https://www.waylero.com/en/ke
 
 ---
 
-# 🌆 Istanbul’s Iconic Landmarks
+## 🌆 Istanbul’s Iconic Landmarks
 
-## 🗼 Galata Tower – Istanbul’s Historic Watchtower
+### 🗼 Galata Tower – Istanbul’s Historic Watchtower
 
 Galata Tower, one of Istanbul’s most iconic structures, was built by the Genoese in 1348. As one of the city’s oldest stone towers, the Galata Tower served various purposes during both the Byzantine and Ottoman periods, functioning as a watchtower, a fire lookout point, and a defensive tower.
 
@@ -973,7 +973,7 @@ Experience Istanbul’s modern and historical charm at nearby cafes and on Istik
 Click here for details 🔗 **[Galata Tower](https://www.waylero.com/en/kesfet/turkiye/istanbul/galata-kulesi)**
 
 ---
-## 🛍 Grand Bazaar – Istanbul’s Historic Shopping Paradise
+### 🛍 Grand Bazaar – Istanbul’s Historic Shopping Paradise
 
 The Grand Bazaar is one of the largest and oldest covered markets in Istanbul and the world. Built in 1461 during the reign of Fatih Sultan Mehmet, the bazaar served as a hub of commerce during the Ottoman period. Today, with over 4,000 shops, it is a popular destination for both tourists and locals.
 
@@ -1007,7 +1007,7 @@ Click here for details 🔗 **[Grand Bazaar](https://www.waylero.com/en/kesfet/t
 
 ---
 
-## 🛍 Spice Bazaar – Istanbul’s Hub of Spices and Flavors
+### 🛍 Spice Bazaar – Istanbul’s Hub of Spices and Flavors
 
 The Spice Bazaar is one of Istanbul’s most famous and vibrant covered markets. Built in 1660 during the reign of Murad IV, it served as a major hub for the spice trade during the Ottoman period. Today, it is one of the most popular stops where you can find spices, dried nuts, Turkish delight, tea, coffee, and souvenirs.
 
@@ -1040,9 +1040,9 @@ Explore Istanbul’s tourist route, including the nearby Yeni Mosque and Galata 
 Click here for details 🔗 **[Spice Bazaar](https://www.waylero.com/en/kesfet/turkiye/istanbul/misir-carsisi)**
 
 ---
-# 🌉 Bosphorus and Scenic Spots
+## 🌉 Bosphorus and Scenic Spots
 
-## 🌉 Ortaköy Square – History and Entertainment in the Heart of the Bosphorus
+### 🌉 Ortaköy Square – History and Entertainment in the Heart of the Bosphorus
 
 Ortaköy Square is one of the most popular spots along the Bosphorus, renowned for both its historical charm and vibrant social life. Built in the 18th century, Ortaköy Mosque, along with the surrounding cafes, restaurants, and boutiques, makes the square a meeting place for both locals and tourists.
 
@@ -1074,7 +1074,7 @@ Take photos of the Bosphorus Bridge and its surroundings
 
 
 ---
-## 🌄 Çamlıca Hill – Istanbul’s Panoramic View
+### 🌄 Çamlıca Hill – Istanbul’s Panoramic View
 
 Çamlıca Hill is a unique vantage point located on the Asian side of Istanbul and known as one of the city’s highest points. Renowned for both its historical and natural beauty, the hill is an ideal stop for visitors seeking views of the Bosphorus Strait, the Sea of Marmara, and the city skyline.
 
@@ -1108,7 +1108,7 @@ Click here for details 🔗 **[Çamlıca Hill](https://www.waylero.com/en/kesfet
 
 ---
 
-## 🌄 Pierre Loti Hill – Istanbul’s Romantic View
+### 🌄 Pierre Loti Hill – Istanbul’s Romantic View
 
 Pierre Loti Hill is a historic and popular tourist spot located in Istanbul’s Eyüp district, overlooking the Golden Horn. It is named after the French writer Pierre Loti, who described the city in his works while gazing at Istanbul from this hill.
 
@@ -1140,8 +1140,8 @@ Explore the nearby Eyüp Sultan Mosque and historic districts
 Click here for details 🔗 **[Pierre Loti Hill](https://www.waylero.com/en/kesfet/turkiye/istanbul/pierre-loti-tepesi)**
 
 ---
+### 🏝 Maiden's Tower – An Icon of the Bosphorus
 
-## 🏝 Maiden's Tower – An Icon of the Bosphorus
 
 The Maiden's Tower, located in the middle of the Bosphorus, is one of the city’s most romantic landmarks. Dating back to the Byzantine era, the tower has served over the years as a lighthouse, a defensive tower, and a quarantine station. Today, it is a popular destination for both local and foreign tourists, featuring a restaurant and café.
 
@@ -1175,9 +1175,9 @@ Click here for details 🔗 **[Maiden’s Tower](https://www.waylero.com/en/kesf
 
 ---
 
-# 🌿 Natural and Popular Places
+## 🌿 Natural and Popular Places
 
-## 🌳 Gülhane Park – Istanbul’s Historic and Natural Haven
+### 🌳 Gülhane Park – Istanbul’s Historic and Natural Haven
 
 Gülhane Park, located in Istanbul’s Sultanahmet district, is one of the city’s oldest and largest parks. Originally part of the Topkapı Palace during the Ottoman period, the area now welcomes visitors with both its historical and natural beauty.
 
@@ -1211,7 +1211,7 @@ Click here for details 🔗 **[Gülhane Park](https://www.waylero.com/en/kesfet/
 
 ---
 
-## 🌳 Emirgan Park – Istanbul’s Colorful and Historic Natural Wonder
+### 🌳 Emirgan Park – Istanbul’s Colorful and Historic Natural Wonder
 
 Emirgan Park is a historic and natural park located in Istanbul’s Sarıyer district, offering commanding views of the Bosphorus. Commissioned by Sultan Abdülmecid during the Ottoman period, the park is particularly famous for the Tulip Festival and offers visitors a unique natural experience throughout the year.
 
@@ -1246,7 +1246,7 @@ Click here for details 🔗 **[Emirgan Park](https://www.waylero.com/en/kesfet/t
 
 ---
 
-## 🌲 Belgrade Forest – Istanbul’s Gateway to Nature
+### 🌲 Belgrade Forest – Istanbul’s Gateway to Nature
 
 Belgrade Forest, located between the districts of Sarıyer and Eyüp in Istanbul, is one of the city’s largest and most popular natural areas. Used during the Ottoman period to supply water to the city, it is now an ideal spot for walking, running, cycling, and outdoor sports.
 
@@ -1281,9 +1281,9 @@ Click here for details 🔗 **[Belgrade Forest](https://www.waylero.com/en/kesfe
 
 ---
 
-# 🏙 Neighborhoods to Explore
+## 🏙 Neighborhoods to Explore
 
-## 🏘 Balat – Istanbul’s Colorful Historic Neighborhood
+### 🏘 Balat – Istanbul’s Colorful Historic Neighborhood
 
 Balat is a neighborhood located in Istanbul’s Fatih district, renowned for its historic charm and vibrant streets. With buildings dating back to the Byzantine and Ottoman eras and its former Greek and Jewish quarters, it showcases Istanbul’s cultural mosaic.
 
@@ -1317,7 +1317,7 @@ Explore the historic areas of Fener and the Golden Horn
 
 ---
 
-## ⚓ Karaköy – Istanbul’s Historic Port and Modern Hub
+### ⚓ Karaköy – Istanbul’s Historic Port and Modern Hub
 
 Karaköy is a historic and vibrant neighborhood located in Istanbul’s Beyoğlu district, along the shores of the Golden Horn and the Bosphorus. Used as a port and commercial center during the Ottoman period, Karaköy is now famous for its cafes, art galleries, boutique shops, and historic buildings.
 
@@ -1349,7 +1349,7 @@ Complete Istanbul’s cultural route by visiting nearby Tophane and the Galata T
 
 
 ---
-## 🏙 Kadıköy – Istanbul’s Asian Side Cultural and Entertainment Hub
+### 🏙 Kadıköy – Istanbul’s Asian Side Cultural and Entertainment Hub
 
 Kadıköy is one of Istanbul’s liveliest and most vibrant neighborhoods, located on the Asian side of the city. With its historic markets, cafes, art galleries, and seaside promenades, it is an indispensable destination for both locals and tourists.
 
@@ -1382,7 +1382,7 @@ Go shopping and discover the area’s music venues
 
 
 ---
-## 🌊 Üsküdar – Istanbul’s Historic Neighborhood Overlooking the Bosphorus
+### 🌊 Üsküdar – Istanbul’s Historic Neighborhood Overlooking the Bosphorus
 
 Üsküdar is a neighborhood located on the Asian side of Istanbul, renowned for its historic mosques, waterfront walks, and Bosphorus views. With its Ottoman-era buildings, madrasas, and historic fountains, it reflects Istanbul’s cultural richness.
 

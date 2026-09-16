@@ -1,33 +1,37 @@
 import CityPageClient from "./CityPageClient";
 import { notFound } from "next/navigation";
+import globalPlaces from "@/data/globalPlaces.json";
 
 type Params = {
   city: string;
   lang: "tr" | "en";
 };
 
+type Place = {
+  city?: string;
+};
+
 const BASE_URL = "https://www.waylero.com";
 
-const VALID_CITIES = [
-  "istanbul",
-  "nevsehir",
-  "antalya",
-  "izmir",
-  "mugla",
-  "aydin",
-  "trabzon",
-  "viyana",
-  "roma",
-  "paris",
-  "dubai",
-  "bangkok",
-];
+const cities = Array.from(
+  new Set(
+    (globalPlaces as Place[])
+      .map((place) => place.city?.toLowerCase().trim())
+      .filter(Boolean)
+  )
+);
 
 function getCityName(citySlug: string) {
   return citySlug
     .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .map(
+      (word) => word.charAt(0).toUpperCase() + word.slice(1)
+    )
     .join(" ");
+}
+
+function isValidCity(city: string) {
+  return cities.includes(city.toLowerCase().trim());
 }
 
 export async function generateMetadata({
@@ -39,7 +43,7 @@ export async function generateMetadata({
 
   if (
     (lang !== "tr" && lang !== "en") ||
-    !VALID_CITIES.includes(city)
+    !isValidCity(city)
   ) {
     return {};
   }
@@ -101,14 +105,13 @@ export default async function Page({
 
   if (
     (lang !== "tr" && lang !== "en") ||
-    !VALID_CITIES.includes(city)
+    !isValidCity(city)
   ) {
     notFound();
   }
 
   const cityName = getCityName(city);
   const schemaUrl = `${BASE_URL}/${lang}/etkinlikler/${city}`;
-
   const isTR = lang === "tr";
 
   const jsonLd = {
@@ -152,7 +155,7 @@ export default async function Page({
 }
 
 export function generateStaticParams() {
-  return VALID_CITIES.flatMap((city) => [
+  return cities.flatMap((city) => [
     {
       lang: "tr",
       city,

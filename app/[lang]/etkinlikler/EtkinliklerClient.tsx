@@ -1,244 +1,266 @@
 "use client";
 
-import React, { useMemo } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
-import { MapPin, ChevronRight } from "lucide-react";
+import { MapPin, ChevronRight, Globe2 } from "lucide-react";
 
-/* 🔹 ŞEHİR VERİLERİ */
-const cities = [
-  {
-    id: "istanbul",
-    name: { tr: "İstanbul", en: "Istanbul" },
-    image: "/assets/sehir1/istanbul.webp",
-    desc: {
-      tr: "Boğaz turları, tarihi yerler ve etkinlikler",
-      en: "Bosphorus tours, historical places and events",
-    },
-  },
-  {
-    id: "nevsehir",
-    name: { tr: "Nevşehir", en: "Nevsehir" },
-    image: "/assets/sehir1/nevsehir.webp",
-    desc: {
-      tr: "Kapadokya balon turları ve peri bacaları",
-      en: "Cappadocia hot air balloon tours and fairy chimneys",
-    },
-  },
-  {
-    id: "antalya",
-    name: { tr: "Antalya", en: "Antalya" },
-    image: "/assets/sehir1/antalya.webp",
-    desc: {
-      tr: "Plajlar, şelaleler ve antik kentler",
-      en: "Beaches, waterfalls and ancient cities",
-    },
-  },
-  {
-    id: "izmir",
-    name: { tr: "İzmir", en: "Izmir" },
-    image: "/assets/sehir1/izmir.webp",
-    desc: {
-      tr: "Efes Antik Kenti ve Ege kıyıları",
-      en: "Ephesus Ancient City and Aegean coast",
-    },
-  },
-  {
-    id: "mugla",
-    name: { tr: "Muğla", en: "Mugla" },
-    image: "/assets/sehir1/mugla.webp",
-    desc: {
-      tr: "Bodrum, Marmaris ve Fethiye'nin eşsiz koyları",
-      en: "Unique bays of Bodrum, Marmaris and Fethiye",
-    },
-  },
-  {
-    id: "aydin",
-    name: { tr: "Aydın", en: "Aydin" },
-    image: "/assets/sehir1/aydin.webp",
-    desc: {
-      tr: "Kuşadası ve Didim plajları, antik kalıntılar",
-      en: "Kusadasi and Didim beaches, ancient ruins",
-    },
-  },
-  {
-    id: "trabzon",
-    name: { tr: "Trabzon", en: "Trabzon" },
-    image: "/assets/sehir1/trabzon.webp",
-    desc: {
-      tr: "Sümela Manastırı ve Karadeniz yaylaları",
-      en: "Sumela Monastery and Black Sea plateaus",
-    },
-  },
-  {
-    id: "viyana",
-    name: { tr: "Viyana", en: "Vienna" },
-    image: "/assets/sehir1/viyana.webp",
-    desc: {
-      tr: "Klasik müzik, saraylar ve sanat galerileri",
-      en: "Classical music, palaces and art galleries",
-    },
-  },
-  {
-    id: "roma",
-    name: { tr: "Roma", en: "Rome" },
-    image: "/assets/sehir1/roma.webp",
-    desc: {
-      tr: "Kolezyum, Vatikan ve tarihi meydanlar",
-      en: "Colosseum, Vatican and historical squares",
-    },
-  },
-  {
-    id: "paris",
-    name: { tr: "Paris", en: "Paris" },
-    image: "/assets/sehir1/paris.webp",
-    desc: {
-      tr: "Eyfel Kulesi, Louvre Müzesi ve romantik sokaklar",
-      en: "Eiffel Tower, Louvre Museum and romantic streets",
-    },
-  },
-  {
-    id: "dubai",
-    name: { tr: "Dubai", en: "Dubai" },
-    image: "/assets/sehir1/dubai.webp",
-    desc: {
-      tr: "Gökdelenler, lüks alışveriş ve çöl safarisi",
-      en: "Skyscrapers, luxury shopping and desert safari",
-    },
-  },
-  {
-    id: "bangkok",
-    name: { tr: "Bangkok", en: "Bangkok" },
-    image: "/assets/sehir1/bangkok.webp",
-    desc: {
-      tr: "Tapınaklar, sokak lezzetleri ve gece hayatı",
-      en: "Temples, street food and nightlife",
-    },
-  },
-];
+type Lang = "tr" | "en";
 
-const AFFILIATE_BASE = "https://www.getyourguide.com";
+type City = {
+  id: string;
+  country: string;
+  image: string;
+};
+
+const CLOUDINARY_BASE_URL =
+  "https://res.cloudinary.com/dewd42ppf/image/upload";
+
+const getCloudinaryUrl = (path: string, width = 500) => {
+  if (!path) return "";
+
+  return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(
+    /^\/+/,
+    ""
+  )}`;
+};
+
+const cityName = (city: string, lang: Lang) => {
+  return city
+    .replace(/[-_]+/g, " ")
+    .split(" ")
+    .map((word) =>
+      word ? word.charAt(0).toUpperCase() + word.slice(1) : ""
+    )
+    .join(" ");
+};
+
+const formatCountryName = (country: string) => {
+  return country
+    .replace(/[-_]+/g, " ")
+    .split(" ")
+    .map((word) =>
+      word ? word.charAt(0).toUpperCase() + word.slice(1) : ""
+    )
+    .join(" ");
+};
 
 export default function EtkinliklerClient({
   currentLang,
+  cities = [],
 }: {
-  currentLang: "en" | "tr";
+  currentLang: Lang;
+  cities?: City[];
 }) {
+  const [selectedCountry, setSelectedCountry] = useState("");
+  const [selectedCity, setSelectedCity] = useState("");
 
-  const t = useMemo(
-    () =>
-      currentLang === "tr"
-        ? {
-            title: "Etkinlikleri Keşfet",
-            subtitle: "Şehrini seç ve sana en uygun etkinlikleri listele.",
-            popular: "Popüler Şehirler",
-            affiliateText: "GetYourGuide turlarını gör →",
-            note: "Daha fazla şehir yakında eklenecek.",
-            badge: "EĞLENCEYE BAŞLA",
-          }
-        : {
-            title: "Discover Events",
-            subtitle: "Choose your city and find the best events & tours.",
-            popular: "Popular Cities",
-            affiliateText: "View tours on GetYourGuide →",
-            note: "More cities coming soon.",
-            badge: "START THE FUN",
-          },
-    [currentLang]
-  );
+  const isTR = currentLang === "tr";
 
-  /* ✅ FIX: DOĞRU ROUTE */
-  const getLocalizedLink = (cityId: string) => {
-  return `/${currentLang}/etkinlikler/${cityId}`;
-};
+  const t = isTR
+    ? {
+        title: "Etkinlikleri Keşfet",
+        subtitle:
+          "Ülke veya şehir seçerek turları, aktiviteleri ve deneyimleri keşfet.",
+        country: "Ülke Seç",
+        city: "Şehir Seç",
+        allCountries: "Tüm Ülkeler",
+        allCities: "Tüm Şehirler",
+        noResults: "Bu seçime uygun şehir bulunamadı.",
+      }
+    : {
+        title: "Discover Experiences",
+        subtitle:
+          "Choose a country or city to explore tours, activities, and experiences.",
+        country: "Select Country",
+        city: "Select City",
+        allCountries: "All Countries",
+        allCities: "All Cities",
+        noResults: "No cities found for this selection.",
+      };
 
-  const getAffiliateLink = (cityId: string) =>
-    `${AFFILIATE_BASE}/${cityId}-l123/?partner_id=WAYLERO_PRO`;
+  const sortedCities = useMemo(() => {
+    return [...cities].sort((a, b) =>
+      cityName(a.id, currentLang).localeCompare(
+        cityName(b.id, currentLang),
+        currentLang === "tr" ? "tr-TR" : "en-US"
+      )
+    );
+  }, [cities, currentLang]);
+
+  const countries = useMemo(() => {
+    return Array.from(
+      new Set(sortedCities.map((city) => city.country).filter(Boolean))
+    ).sort((a, b) =>
+      formatCountryName(a).localeCompare(
+        formatCountryName(b),
+        currentLang === "tr" ? "tr-TR" : "en-US"
+      )
+    );
+  }, [sortedCities, currentLang]);
+
+  const availableCities = useMemo(() => {
+    return sortedCities.filter(
+      (city) => !selectedCountry || city.country === selectedCountry
+    );
+  }, [sortedCities, selectedCountry]);
+
+  const filteredCities = useMemo(() => {
+    return sortedCities.filter((city) => {
+      const countryMatch =
+        !selectedCountry || city.country === selectedCountry;
+
+      const cityMatch =
+        !selectedCity || city.id === selectedCity;
+
+      return countryMatch && cityMatch;
+    });
+  }, [sortedCities, selectedCountry, selectedCity]);
+
+  const handleCountryChange = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
+    const country = event.target.value;
+
+    setSelectedCountry(country);
+    setSelectedCity("");
+  };
 
   return (
     <div className="min-h-screen bg-white">
+      <section className="relative overflow-hidden pt-32 pb-32">
+        <div className="absolute inset-0 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]" />
 
-      {/* HERO */}
-      <section className="pt-40 pb-60 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
-        <div className="container mx-auto px-6 text-center">
-          <div className="inline-block px-4 py-1.5 bg-orange-50 text-orange-700 text-xs font-bold uppercase tracking-widest rounded-full mb-6 border border-orange-100">
-            {t.badge}
-          </div>
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-20"
+          style={{
+            backgroundImage: "url('/assets/etkinlik.webp')",
+          }}
+        />
 
+        <div className="relative container mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-gray-900 mb-6">
             {t.title}
           </h1>
 
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto italic">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-10">
             {t.subtitle}
           </p>
+
+          <div className="max-w-4xl mx-auto bg-white rounded-[2rem] shadow-xl border border-gray-100 p-4 md:p-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="relative text-left">
+                <label className="flex items-center gap-2 text-sm font-bold text-gray-700 mb-2 px-2">
+                  <Globe2 size={17} />
+                  {t.country}
+                </label>
+
+                <select
+                  value={selectedCountry}
+                  onChange={handleCountryChange}
+                  className="w-full appearance-none rounded-2xl border border-gray-200 bg-gray-50 px-5 py-4 text-gray-800 font-medium outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"
+                >
+                  <option value="">{t.allCountries}</option>
+
+                  {countries.map((country) => (
+                    <option key={country} value={country}>
+                      {formatCountryName(country)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              <div className="relative text-left">
+                <label className="flex items-center gap-2 text-sm font-bold text-gray-700 mb-2 px-2">
+                  <MapPin size={17} />
+                  {t.city}
+                </label>
+
+                <select
+                  value={selectedCity}
+                  onChange={(event) =>
+                    setSelectedCity(event.target.value)
+                  }
+                  className="w-full appearance-none rounded-2xl border border-gray-200 bg-gray-50 px-5 py-4 text-gray-800 font-medium outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"
+                >
+                  <option value="">{t.allCities}</option>
+
+                  {availableCities.map((city) => (
+                    <option key={city.id} value={city.id}>
+                      {cityName(city.id, currentLang)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* CITIES */}
-      <section className="container mx-auto px-6 -mt-16 pb-24 relative z-10">
-        <h2 className="text-2xl font-serif font-bold text-gray-800 mb-10 italic">
-          {t.popular}
-        </h2>
+      <section className="container mx-auto px-6 py-24 relative z-10">
+        {filteredCities.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {filteredCities.map((city) => {
+              const name = cityName(city.id, currentLang);
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              return (
+                <Link
+                  key={city.id}
+                  href={`/${currentLang}/etkinlikler/${city.id}`}
+                  className="group block h-[420px] rounded-[2.5rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 relative"
+                >
+                  {city.image ? (
+                    <img
+                      src={getCloudinaryUrl(city.image, 500)}
+                      alt={
+                        isTR
+                          ? `${name} etkinlikleri`
+                          : `${name} experiences`
+                      }
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+                      <MapPin
+                        size={48}
+                        className="text-gray-400"
+                      />
+                    </div>
+                  )}
 
-          {cities.map((city) => (
-            <div key={city.id} className="group">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
-              {/* CITY CARD */}
-              <Link
-                href={getLocalizedLink(city.id)}
-                className="block h-[400px] rounded-[2.5rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 relative"
-              >
-                <img
-                  src={city.image}
-                  alt={city.name[currentLang]}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
+                  <div className="absolute bottom-0 left-0 p-8 w-full">
+                    <div className="flex items-center gap-2 mb-2 text-blue-300 text-[10px] uppercase tracking-widest font-black">
+                      <MapPin size={12} />
+                      <span>{name}</span>
+                    </div>
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+                    <h2 className="text-white text-3xl font-black mb-3">
+                      {name}
+                    </h2>
 
-                <div className="absolute bottom-0 left-0 p-8 w-full">
-
-                  <div className="flex items-center gap-2 mb-2 text-blue-300 text-[10px] uppercase tracking-widest font-black">
-                    <MapPin size={12} />
-                    <span>
-                      {currentLang === "tr"
-                        ? `Türkiye • ${city.name.tr}`
-                        : `Turkey • ${city.name.en}`}
-                    </span>
+                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:bg-orange-500 transition-all duration-700">
+                      <ChevronRight size={20} />
+                    </div>
                   </div>
+                </Link>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="text-center py-20">
+            <MapPin
+              size={42}
+              className="mx-auto mb-4 text-gray-300"
+            />
 
-                  <h3 className="text-white text-3xl font-black mb-4">
-                    {city.name[currentLang]}
-                  </h3>
-
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:bg-orange-500 transition-all">
-                    <ChevronRight size={20} />
-                  </div>
-
-                </div>
-              </Link>
-
-              {/* AFFILIATE */}
-              <a
-                href={getAffiliateLink(city.id)}
-                target="_blank"
-                rel="sponsored nofollow"
-                className="block mt-4 text-xs font-bold text-orange-600 hover:underline uppercase tracking-tighter"
-              >
-                {t.affiliateText}
-              </a>
-
-            </div>
-          ))}
-
-        </div>
-
-        <p className="text-center text-gray-500 mt-16 italic">
-          {t.note}
-        </p>
-
+            <p className="text-lg font-semibold text-gray-500">
+              {t.noResults}
+            </p>
+          </div>
+        )}
       </section>
     </div>
   );

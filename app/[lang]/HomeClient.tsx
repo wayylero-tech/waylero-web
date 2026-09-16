@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation"; // App Router için doğrusu budur.
 import { Suspense } from "react"; // 1. Import et
 import HotelCard from "@/components/HotelCard";
 import { wayleroLiveVideos as videos, addSlugs } from "@/videos";
-
+import globalPlaces from "@/data/globalPlaces.json";
 
 const trackClick = (type: string, label: string, destination?: string) => {
   window.gtag?.("event", "click", {
@@ -416,37 +416,32 @@ export default function HomeClient({
   {/* Kartlar */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-7 lg:gap-10 items-stretch">
 
-    <div className="h-full">
-  <HotelCard
-    city="istanbul"
-    link={getLocalizedLink("/hotels/istanbul")}
-    lang={lang as "tr" | "en"}
-  />
-</div>
+    {["istanbul", "antalya", "paris", "roma"].map((city) => {
 
-<div className="h-full">
-  <HotelCard
-    city="antalya"
-    link={getLocalizedLink("/hotels/antalya")}
-    lang={lang as "tr" | "en"}
-  />
-</div>
+      const cityPlace = globalPlaces.find(
+        (place) =>
+          place.city?.toLowerCase().trim() === city &&
+          place.image
+      );
 
-<div className="h-full">
-  <HotelCard
-    city="paris"
-    link={getLocalizedLink("/hotels/paris")}
-    lang={lang as "tr" | "en"}
-  />
-</div>
+      const cityImage = cityPlace?.image
+        ? `https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_auto:eco,w_1200,c_fill/${cityPlace.image.replace(
+            /^\/+/,
+            ""
+          )}`
+        : undefined;
 
-<div className="h-full">
-  <HotelCard
-    city="roma"
-    link={getLocalizedLink("/hotels/roma")}
-    lang={lang as "tr" | "en"}
-  />
-</div>
+      return (
+        <div key={city} className="h-full">
+          <HotelCard
+            city={city}
+            image={cityImage}
+            link={getLocalizedLink(`/hotels/${city}`)}
+            lang={lang as "tr" | "en"}
+          />
+        </div>
+      );
+    })}
 
   </div>
 </section>
