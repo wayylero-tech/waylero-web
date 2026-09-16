@@ -516,54 +516,7 @@
       "https://example.com/tsukiji_fish_market_2.jpg"
     ]
   },
-  {
-    "slug": "akihabara",
-    "name": {
-      "tr": "Akihabara",
-      "en": "Akihabara",
-      "de": "Akihabara"
-    },
-    "latitude": 35.7023,
-    "longitude": 139.7745,
-    "description": {
-      "tr": "Akihabara, Tokyo'nun en popüler ve kültürel açıdan etkileyici bölgelerinden biridir. Elektronik mağazalarıyla ünlü olan bu semt, bilgisayar parçaları, ses sistemleri, kameralar ve çeşitli teknoloji ürünlerini bulabileceğiniz bir cennet olarak kabul edilir. 20. yüzyılın ortalarından itibaren elektronik pazarı olarak gelişen Akihabara, zamanla anime, manga ve video oyun kültürünün merkezi haline gelmiştir. Bölgede sayısız anime mağazası, figür dükkanları, manga kafeleri ve cosplay mağazaları bulunur. Özellikle gençler ve turistler, popüler anime karakterlerinin figürlerini ve koleksiyon ürünlerini buradan satın almayı tercih eder. Akihabara aynı zamanda oyun salonları (arcade) ve retro oyun dükkanlarıyla da bilinir; ziyaretçiler hem modern hem de nostaljik oyun deneyimlerini yaşayabilirler. Maid cafeler, yani temalı kafeler, Akihabara’nın en ikonik noktalarından biri olup, ziyaretçilere eşsiz ve eğlenceli bir deneyim sunar. Semt, Japon pop kültürünü ve teknoloji dünyasını bir araya getiren bir merkez olarak, cosplay etkinlikleri, anime festivalleri ve özel ürün lansmanları gibi kültürel etkinliklere de ev sahipliği yapar. Ayrıca semtin caddeleri ve sokakları, renkli neon ışıkları, afişleri ve vitrinleriyle gece ve gündüz canlıdır. Akihabara, sadece alışveriş değil, aynı zamanda Japon popüler kültürünü deneyimlemek isteyenler için bir destinasyondur. Semtin yakınlarında elektronik marketler, ikinci el teknoloji ürünleri satan dükkanlar ve özel koleksiyon ürünleri sunan mağazalar da mevcuttur. Özellikle hafta sonları ve tatil dönemlerinde bölge yoğun turist akınına uğrar ve etkinliklerle dolup taşar. Akihabara, Tokyo gezilecek yerler listesinde mutlaka görülmesi gereken, teknoloji ve pop kültürünü bir arada deneyimleyebileceğiniz eşsiz bir bölgedir.",
-      "en": "Akihabara is one of Tokyo’s most popular and culturally vibrant districts. Famous for its electronics stores, it is a paradise for computer parts, audio systems, cameras, and various tech products. Since the mid-20th century, Akihabara has evolved from an electronics marketplace into a hub for anime, manga, and video game culture. The area hosts numerous anime shops, figure stores, manga cafes, and cosplay boutiques. Visitors, especially young people and tourists, often purchase figures and collectible items of popular anime characters. Akihabara is also known for its gaming arcades and retro game shops, allowing visitors to experience both modern and nostalgic gaming. Maid cafés, themed restaurants, are one of Akihabara’s iconic attractions, offering a unique and entertaining experience. The district also hosts cultural events like cosplay gatherings, anime festivals, and special product launches, making it a center for Japanese pop culture and technology. Streets are alive day and night with colorful neon lights, banners, and shop displays. Akihabara is not only a shopping destination but also a place to immerse yourself in Japanese pop culture. Nearby, there are electronics markets, second-hand tech shops, and stores offering rare collectible items. Especially on weekends and holidays, the area is crowded with tourists and filled with events. Akihabara is a must-visit spot in Tokyo, offering a unique experience where technology and pop culture converge.",
-      "de": "Akihabara ist eines der beliebtesten und kulturell lebendigsten Viertel Tokios. Berühmt für seine Elektronikgeschäfte, gilt es als Paradies für Computerteile, Audiosysteme, Kameras und verschiedene Technikprodukte. Seit der Mitte des 20. Jahrhunderts hat sich Akihabara von einem Elektronikmarkt zu einem Zentrum für Anime-, Manga- und Videospielkultur entwickelt. Das Viertel beherbergt zahlreiche Anime-Läden, Figuren-Geschäfte, Manga-Cafés und Cosplay-Boutiquen. Besonders junge Besucher und Touristen kaufen hier oft Figuren und Sammlerartikel beliebter Anime-Charaktere. Akihabara ist auch für seine Spielhallen und Retro-Spieleläden bekannt, die es den Besuchern ermöglichen, sowohl moderne als auch nostalgische Spielerlebnisse zu genießen. Maid Cafés, thematische Restaurants, sind eine der ikonischen Attraktionen Akihabaras und bieten ein einzigartiges und unterhaltsames Erlebnis. Das Viertel richtet zudem kulturelle Veranstaltungen aus, wie Cosplay-Treffen, Anime-Festivals und Produktlancierungen, und ist damit ein Zentrum für japanische Popkultur und Technologie. Die Straßen sind Tag und Nacht lebendig, beleuchtet von bunten Neonlichtern, Bannern und Schaufenstern. Akihabara ist nicht nur ein Einkaufsziel, sondern auch ein Ort, um in die japanische Popkultur einzutauchen. In der Nähe gibt es Elektronikmärkte, Second-Hand-Technikläden und Geschäfte, die seltene Sammlerartikel anbieten. Besonders an Wochenenden und Feiertagen ist das Gebiet von Touristen überfüllt und voller Veranstaltungen. Akihabara ist ein unverzichtbares Ziel in Tokio, das ein einzigartiges Erlebnis bietet, in dem Technologie und Popkultur zusammenkommen."
-    },
-    "activities": {
-      "tr": [
-        "Anime mağazalarını gezmek",
-        "Retro oyunlar oynamak",
-        "Teknoloji alışverişi yapmak"
-      ],
-      "en": [
-        "Visit anime stores",
-        "Play retro games",
-        "Shop for electronics"
-      ],
-      "de": [
-        "Anime-Läden besuchen",
-        "Retro-Spiele spielen",
-        "Elektronik einkaufen"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "şehir turu"
-      ],
-      "en": [
-        "city tour"
-      ],
-      "de": [
-        "stadtrundfahrt"
-      ]
-    },
-    "images": [
-      "https://example.com/akihabara_1.jpg",
-      "https://example.com/akihabara_2.jpg"
-    ]
-  },
-  {
+   {
     "slug": "shibuya",
     "name": {
       "tr": "Shibuya",

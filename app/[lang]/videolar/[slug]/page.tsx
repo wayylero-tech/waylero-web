@@ -17,8 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   console.log("Gelen Parametreler:", { slug, lang });
 
   const videosWithSlugs = addSlugs(wayleroLiveVideos);
-  
-  // Aranan slug ile listedeki slugları karşılaştır
+
   const video = videosWithSlugs.find(
     (v: any) => v.slug && v.slug.toLowerCase() === slug?.toLowerCase()
   );
@@ -36,33 +35,48 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = {
     tr: {
       title: `${video.title} | Canlı İzle | Waylero Live`,
-      desc: `${video.location} konumundaki ${video.title} mekanına ait güncel videoyu hemen izleyin.`
+      desc: `${video.location} konumundaki ${video.title} mekanına ait güncel videoyu hemen izleyin.`,
     },
     en: {
       title: `${video.title} | Watch Live | Waylero Live`,
-      desc: `Watch the latest footage of ${video.title} in ${video.location} with Waylero Live.`
-    }
+      desc: `Watch the latest footage of ${video.title} in ${video.location} with Waylero Live.`,
+    },
   }[currentLang];
 
-  const url = `${baseUrl}${currentLang === "en" ? "/en" : ""}/videolar/${video.slug}`;
+  const url = `${baseUrl}/${currentLang}/videolar/${video.slug}`;
   const image = `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`;
 
   return {
+    metadataBase: new URL(baseUrl), // 🚀 EKLENDİ: URL çakışmalarını engellemek için şart
     title: t.title,
     description: t.desc,
+
     alternates: {
       canonical: url,
       languages: {
-        "tr-TR": `${baseUrl}/videolar/${video.slug}`,
+        "tr-TR": `${baseUrl}/tr/videolar/${video.slug}`,
         "en-US": `${baseUrl}/en/videolar/${video.slug}`,
+        "x-default": `${baseUrl}/tr/videolar/${video.slug}`, // 🚀 EKLENDİ: Uluslararası SEO için varsayılan dil
       },
     },
+
     openGraph: {
       title: t.title,
       description: t.desc,
-      url,
-      images: [{ url: image, width: 1200, height: 630, alt: video.title }],
+      url, // Canonical ile BİREBİR AYNI
+      type: "video.other", // 🚀 DÜZELTİLDİ: Video sayfaları için "video.other" standardı
+      siteName: "Waylero", // 🚀 EKLENDİ
+      locale: currentLang === "tr" ? "tr_TR" : "en_US", // 🚀 EKLENDİ
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: video.title,
+        },
+      ],
     },
+
     twitter: {
       card: "summary_large_image",
       title: t.title,
@@ -114,7 +128,7 @@ export default async function Page({ params }: Props) {
     ],
     "uploadDate": "2026-04-09T09:00:00+03:00",
     "embedUrl": `https://www.youtube.com/embed/${video.youtubeId}`,
-    "contentUrl": `https://www.waylero.com${currentLang === "en" ? "/en" : ""}/videolar/${video.slug}`,
+    "contentUrl": `https://www.waylero.com/${currentLang}/videolar/${video.slug}`,
   };
 
   return (

@@ -1,243 +1,228 @@
 // videos.ts
 export const wayleroLiveVideos = [
-  { 
-  id: 33, 
-  title: "Göksu Yerköprü Şelalesi", 
-  youtubeId: "oOqcc_kRjUs",
-  location: "Konya, Türkiye"
-},
-  { 
-  id: 34, 
-  title: "Hierapolis Antik Kenti", 
-  youtubeId: "-ORDq_6z1ZY",
-  location: "Denizli, Türkiye"
-},
-
-  { 
-  id: 35, 
-  title: "Laodikeia Antik kenti", 
-  youtubeId: "kONMruUrlnQ",
-  location: "Denizli, Türkiye"
-},
-
-  { 
-  id: 36, 
-  title: "Beyşehir Karaburun Plajı ", 
-  youtubeId: "t0j9qQu4Nfw",
-  location: "Konya, Türkiye"
-},
- { 
-  id: 37, 
-  title: "İvriz Kaya Anıtı", 
-  youtubeId: "sFMS9-ZVqHs",
-  location: "Konya, Türkiye"
-},
-
-  { 
-  id: 38, 
-  title: "Karapınar Acıgöl", 
-  youtubeId: "B7cxqVwFzB8",
-  location: "Konya, Türkiye"
-},
-
-  { 
-  id: 39, 
-  title: "Doğan Hisar Gölcük Gölü Ve Mesire Alanı ", 
-  youtubeId: "yeyS8c4S_sA",
-  location: "Konya, Türkiye"
-},
-
-
-{ 
-  id: 28, 
-  title: "Kibyra Antik Kenti Tholos Nymphaeum ", 
-  youtubeId: "pQz5ViXco3Q",
-  location: "Burdur, Türkiye"
-},
-{ 
-  id: 31, 
-  title: "Sagalassos Antoninler Çeşmesi", 
-  youtubeId: "36LV1nJEgDw",
-  location: "Burdur, Türkiye"
-},
-
-{ 
-  id: 29, 
-  title: "Kibyra Antik Kenti Medusa Mozaiği", 
-  youtubeId: "k1zIYCkKbms",
-  location: "Burdur, Türkiye"
-},
-{ 
-  id: 27, 
-  title: "Çatalhöyük", 
-  youtubeId: "ir21dkVWNDQ",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 32, 
-  title: "Hızırbeycami Eğirdir ", 
-  youtubeId: "KPjNoFf1Drw",
-  location: "Isparta, Türkiye"
-},
-{ 
-  id: 30, 
-  title: "Kibyra Antik Kenti Agora", 
-  youtubeId: "JtkHQvhFZ1A",
-  location: "Burdur, Türkiye"
-},
-
-  { 
-    id: 1, 
-    title: "Tantavi Kültür ve Sanat Merkezi", 
-    youtubeId: "B5pG6oETEqQ",
-    location: "Konya, Türkiye" 
+  {
+    id: 1,
+    title: "Göksu Yerköprü Şelalesi",
+    youtubeId: "oOqcc_kRjUs",
+    location: "Konya, Türkiye"
   },
-  { 
-    id: 2, 
-    title: "Zenburi Camii", 
+  
+  {
+    id: 3,
+    title: "Laodikeia Antik kenti",
+    youtubeId: "kONMruUrlnQ",
+    location: "Denizli, Türkiye"
+  },
+  {
+    id: 4,
+    title: "Beyşehir Karaburun Plajı",
+    youtubeId: "t0j9qQu4Nfw",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 5,
+    title: "İvriz Kaya Anıtı",
+    youtubeId: "sFMS9-ZVqHs",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 6,
+    title: "Karapınar Acıgöl",
+    youtubeId: "B7cxqVwFzB8",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 7,
+    title: "Doğan Hisar Gölcük Gölü Ve Mesire Alanı",
+    youtubeId: "yeyS8c4S_sA",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 8,
+    title: "Kibyra Antik Kenti Tholos Nymphaeum",
+    youtubeId: "pQz5ViXco3Q",
+    location: "Burdur, Türkiye"
+  },
+  {
+    id: 9,
+    title: "Sagalassos Antoninler Çeşmesi",
+    youtubeId: "36LV1nJEgDw",
+    location: "Burdur, Türkiye"
+  },
+  {
+    id: 10,
+    title: "Kibyra Antik Kenti Medusa Mozaiği",
+    youtubeId: "k1zIYCkKbms",
+    location: "Burdur, Türkiye"
+  },
+  {
+    id: 11,
+    title: "Çatalhöyük",
+    youtubeId: "ir21dkVWNDQ",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 12,
+    title: "Hızırbeycami Eğirdir",
+    youtubeId: "KPjNoFf1Drw",
+    location: "Isparta, Türkiye"
+  },
+  {
+    id: 13,
+    title: "Kibyra Antik Kenti Agora",
+    youtubeId: "JtkHQvhFZ1A",
+    location: "Burdur, Türkiye"
+  },
+  {
+    id: 14,
+    title: "Tantavi Kültür ve Sanat Merkezi",
+    youtubeId: "B5pG6oETEqQ",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 15,
+    title: "Zenburi Camii",
     youtubeId: "tZXjrwIAhcg",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 3, 
-    title: "Kızlar Kayası", 
+  {
+    id: 16,
+    title: "Kızlar Kayası",
     youtubeId: "HOMMUxmU97c",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 4, 
-    title: "Sırçalı Mescid", 
+  {
+    id: 17,
+    title: "Sırçalı Mescid",
     youtubeId: "Fx4obbMFTbA",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 5, 
-    title: "Eşrefoğlu Camii", 
+  {
+    id: 18,
+    title: "Eşrefoğlu Camii",
     youtubeId: "xh8GzzdfMB0",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 6, 
-    title: "Şemsi Tebrizi Camii ve Türbesi", 
+  {
+    id: 19,
+    title: "Şemsi Tebrizi Camii ve Türbesi",
     youtubeId: "U9-KHPRN8m4",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 7, 
-    title: "Başarakavak Hanı", 
+  {
+    id: 20,
+    title: "Başarakavak Hanı",
     youtubeId: "mY6d5R8RaVg",
     location: "Konya, Türkiye"
   },
-{ 
-    id: 8, 
-    title: "Dokuzun Hanı", 
+  {
+    id: 21,
+    title: "Dokuzun Hanı",
     youtubeId: "VtGvqaTwMJU",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 9, 
-    title: "Tınaztepe mağarası", 
+  {
+    id: 22,
+    title: "Tınaztepe mağarası",
     youtubeId: "BcyKpLN5E-8",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 11, 
-    title: "Tahir Paşa Cami", 
+  {
+    id: 23,
+    title: "Tahir Paşa Cami",
     youtubeId: "yGBldDGKGzQ",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 12, 
-    title: "Nasuhbey Camii", 
+  {
+    id: 24,
+    title: "Nasuhbey Camii",
     youtubeId: "6Hlj_Y88fJA",
     location: "Konya, Türkiye"
   },
-  { 
-    id: 13, 
-    title: "Bellapais manastırı", 
+  {
+    id: 25,
+    title: "Bellapais manastırı",
     youtubeId: "pucwV5b6aMc",
     location: "Beylerbey Köyü, KKTC"
   },
-{ 
-  id: 14, 
-  title: "Eflatun Pınarı Hitit Su Anıtı 7", 
-  youtubeId: "qVp6lhmrSWs",
-  location: "Konya, Türkiye"
-},{ 
-  id: 15, 
-  title: "Çatalhöyük", 
-  youtubeId: "ir21dkVWNDQ",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 16, 
-  title: "Göbeklİ Tepe", 
-  youtubeId: "WfNlggXs3QE",
-  location: "Şanlıurfa, Türkiye"
-},
-{ 
-  id: 17, 
-  title: "Konya Ecdat Parkı", 
-  youtubeId: "0hoJSt90OeY",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 18, 
-  title: "Konya Nasuhbey Camii", 
-  youtubeId: "6Hlj_Y88fJA",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 19, 
-  title: "Konya Kadı Mürsel Camii", 
-  youtubeId: "2MqnJhxWcTY",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 20, 
-  title: "Konya Sırçalı Medrese", 
-  youtubeId: "kQVr6bfwLZg",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 21, 
-  title: "Obruk Han ve Oburuğu", 
-  youtubeId: "azdYBIkBiHg",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 22, 
-  title: "Konya Erdemşah Mecsidi", 
-  youtubeId: "yApZSgo-2_4",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 23, 
-  title: "Alaaddin Camii", 
-  youtubeId: "z4Jixsnyy1o",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 24, 
-  title: "Savatra Antik Kenti", 
-  youtubeId: "NgOwd9vJqsc",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 25, 
-  title: "Mavi Boğaz Kanyonu", 
-  youtubeId: "S8BZDvCcQxc",
-  location: "Konya, Türkiye"
-},
-{ 
-  id: 26, 
-  title: "Yalburt Hitit Anıtı", 
-  youtubeId: "MFXYJzlZpeI",
-  location: "Konya, Türkiye"
-}
-
-
-
+  {
+    id: 26,
+    title: "Eflatun Pınarı Hitit Su Anıtı 7",
+    youtubeId: "qVp6lhmrSWs",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 27,
+    title: "Göbeklİ Tepe",
+    youtubeId: "WfNlggXs3QE",
+    location: "Şanlıurfa, Türkiye"
+  },
+  {
+    id: 28,
+    title: "Konya Ecdat Parkı",
+    youtubeId: "0hoJSt90OeY",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 29,
+    title: "Konya Nasuhbey Camii",
+    youtubeId: "6Hlj_Y88fJA",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 30,
+    title: "Konya Kadı Mürsel Camii",
+    youtubeId: "2MqnJhxWcTY",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 31,
+    title: "Konya Sırçalı Medrese",
+    youtubeId: "kQVr6bfwLZg",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 32,
+    title: "Obruk Han ve Oburuğu",
+    youtubeId: "azdYBIkBiHg",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 33,
+    title: "Konya Erdemşah Mecsidi",
+    youtubeId: "yApZSgo-2_4",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 34,
+    title: "Alaaddin Camii",
+    youtubeId: "z4Jixsnyy1o",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 35,
+    title: "Savatra Antik Kenti",
+    youtubeId: "NgOwd9vJqsc",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 36,
+    title: "Mavi Boğaz Kanyonu",
+    youtubeId: "S8BZDvCcQxc",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 37,
+    title: "Yalburt Hitit Anıtı",
+    youtubeId: "MFXYJzlZpeI",
+    location: "Konya, Türkiye"
+  },
+  {
+    id: 2,
+    title: "Hierapolis Antik Kenti",
+    youtubeId: "-ORDq_6z1ZY",
+    location: "Denizli, Türkiye"
+  }
 ];
 
 /**
@@ -260,12 +245,16 @@ export const addSlugs = (videos: typeof wayleroLiveVideos) => {
 
   return videos.map(video => {
     let slug = video.title.toLowerCase();
+
     // Türkçe karakterleri değiştir
     slug = slug.replace(/[çğıİöşü]/g, (char) => turkishMap[char] || char);
+
     // Boşlukları tireye çevir
     slug = slug.replace(/\s+/g, "-");
+
     // Özel karakterleri temizle
     slug = slug.replace(/[^\w-]+/g, "");
+
     return { ...video, slug };
   });
 };

@@ -275,50 +275,7 @@
       "https://example.com/ayancik_sahili.jpg"
     ]
   },
-  {
-    "slug": "sinop-cezaevi",
-    "name": {
-      "tr": "Sinop Cezaevi",
-      "en": "Sinop Prison",
-      "de": "Sinop Gefängnis"
-    },
-    "latitude": 42.02979,
-    "longitude": 35.14403,
-    "description": {
-      "tr": "Sinop Cezaevi, Türkiye’nin en eski ve en ünlü tarihi cezaevlerinden biridir. 1887 yılında inşa edilen yapı, Osmanlı döneminde ve Cumhuriyetin ilk yıllarında faaliyette bulunmuş, ağır suçluların tutulduğu bir hapishane olarak ün kazanmıştır. 1997 yılında kapatılan cezaevi, günümüzde müze olarak ziyaretçilere açıktır.\n\nCezaevi, hapishane mimarisinin klasik örneklerinden biridir. Yüksek duvarlar, küçük hücreler ve merkezi avlu, ziyaretçilere geçmişteki ağır yaşam koşullarını hissettirir. Tarihi cezaevinde işlenen suçlar, mahkûmların yaşamı ve hapishane düzeni hakkında bilgilendirici sergiler bulunmaktadır.\n\nSinop Cezaevi, sadece tarih meraklıları için değil, aynı zamanda kültürel bir gezi yapmak isteyen ziyaretçiler için de cazip bir noktadır. Fotoğrafçılar için ise cezaevinin tarihi dokusu ve avluları etkileyici kareler sunar.\n\nMüze olarak ziyarete açılmasıyla birlikte rehberli turlar düzenlenmekte ve cezaevinin tarihi hakkında detaylı bilgiler verilmektedir.\n\nCezaevi, Sinop şehir merkezine oldukça yakın konumda olup, yürüyerek veya kısa bir araç yolculuğuyla ulaşılabilir.\n\nEn uygun ziyaret zamanı ilkbahar ve yaz aylarıdır. Bu dönemlerde hava daha ılımandır ve geziler daha keyifli hale gelir.\n\nSonuç olarak Sinop Cezaevi, hem tarih hem de kültürel keşif açısından Sinop’un en önemli ziyaret noktalarından biridir.",
-      "en": "Sinop Prison is one of Turkey’s oldest and most famous historical prisons. Built in 1887, it operated during the Ottoman era and the early years of the Republic, gaining a reputation as a high-security prison for serious offenders. Closed in 1997, the prison is now open to visitors as a museum.\n\nThe prison is a classic example of prison architecture, featuring high walls, small cells, and a central courtyard, giving visitors a sense of the harsh living conditions of the past. Exhibits provide informative details about the crimes committed, the lives of inmates, and the organization of the prison.\n\nSinop Prison is attractive not only to history enthusiasts but also to visitors seeking a cultural experience. For photographers, the historical architecture and courtyards provide striking visuals.\n\nGuided tours offer detailed insights into the history and operation of the prison.\n\nThe prison is conveniently located close to the city center of Sinop, accessible on foot or by a short drive.\n\nThe best time to visit is during spring and summer, when the weather is mild and visits are more enjoyable.\n\nOverall, Sinop Prison is one of the most significant visitor attractions in Sinop for both historical and cultural exploration.",
-      "de": "Das Gefängnis Sinop ist eines der ältesten und bekanntesten historischen Gefängnisse der Türkei. Es wurde 1887 erbaut und war sowohl in der osmanischen Zeit als auch in den frühen Jahren der Republik in Betrieb, bekannt als Hochsicherheitsgefängnis für Schwerverbrecher. 1997 wurde es geschlossen und ist heute als Museum für Besucher zugänglich.\n\nDas Gefängnis ist ein klassisches Beispiel für Gefängnisarchitektur mit hohen Mauern, kleinen Zellen und einem zentralen Innenhof, der den Besuchern die harten Lebensbedingungen früherer Zeiten vermittelt. Ausstellungen informieren über begangene Verbrechen, das Leben der Gefangenen und die Organisation des Gefängnisses.\n\nDas Gefängnis Sinop ist nicht nur für Geschichtsinteressierte interessant, sondern auch für Besucher, die kulturelle Erkundungen unternehmen möchten. Für Fotografen bieten die historischen Gebäude und Innenhöfe beeindruckende Motive.\n\nGeführte Touren geben detaillierte Einblicke in die Geschichte und den Betrieb des Gefängnisses.\n\nDas Gefängnis liegt in der Nähe des Stadtzentrums von Sinop und ist zu Fuß oder mit einer kurzen Fahrt erreichbar.\n\nDie beste Besuchszeit ist Frühling und Sommer, wenn das Wetter angenehm ist.\n\nInsgesamt ist das Gefängnis Sinop eine der bedeutendsten Sehenswürdigkeiten in Sinop für historische und kulturelle Entdeckungen."
-    },
-    "activities": {
-      "tr": [
-        "Cezaevini gezmek",
-        "Tarihi detayları incelemek"
-      ],
-      "en": [
-        "Tour the prison",
-        "Explore the historical details"
-      ],
-      "de": [
-        "Das Gefängnis besichtigen",
-        "Die historischen Details erkunden"
-      ]
-    },
-    "categories": {
-      "tr": [
-        "tarih"
-      ],
-      "en": [
-        "historic"
-      ],
-      "de": [
-        "Historisch"
-      ]
-    },
-    "images": [
-      "https://example.com/sinop_cezaevi.jpg"
-    ]
-  },
-  {
+   {
     "slug": "erfelek-selaleleri",
     "name": {
       "tr": "Erfelek Şelaleleri",

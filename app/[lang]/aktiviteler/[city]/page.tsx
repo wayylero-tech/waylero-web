@@ -74,7 +74,7 @@ export async function generateMetadata({
   );
 
   const cityData = slugMap[citySlug];
-  
+
   // 🚀 Şehir sistemde yoksa botlar taramasın
   if (!cityData) return { title: "Waylero" };
 
@@ -86,9 +86,10 @@ export async function generateMetadata({
     const data = await fetchEtkinlikData({
       cityId: cityData.id.toString(),
       lang: currentLang,
-      take: "1" // Sadece etkinlik var mı yok mu anlamak için 1 tane çekiyoruz
+      take: "1", // Sadece etkinlik var mı yok mu anlamak için 1 tane çekiyoruz
     });
-    const events = data.items || data.data || (Array.isArray(data) ? data : []);
+    const events =
+      data.items || data.data || (Array.isArray(data) ? data : []);
     if (events.length === 0) hasEvents = false;
   } catch {
     hasEvents = false;
@@ -105,16 +106,27 @@ export async function generateMetadata({
     },
   }[currentLang];
 
+  // 🎯 Canonical ve Open Graph için TEK bir Dinamik URL oluşturuyoruz
+  const pageUrl = `${BASE_SITE_URL}/${currentLang}/aktiviteler/${citySlug}`;
+
   return {
     metadataBase: new URL(BASE_SITE_URL),
     title: t.title,
     description: t.desc,
     alternates: {
-      canonical: `${BASE_SITE_URL}/${currentLang}/aktiviteler/${citySlug}`,
+      canonical: pageUrl,
+    },
+    // 🚀 HATA ÇÖZÜMÜ: Open Graph objesi eklendi ve canonical ile eşitlendi!
+    openGraph: {
+      title: t.title,
+      description: t.desc,
+      url: pageUrl, // Canonical URL ile birebir aynı tutuldu
+      siteName: "Waylero",
+      locale: currentLang === "tr" ? "tr_TR" : "en_US",
+      type: "website",
     },
     // 🎯 EĞER ETKİNLİK YOKSA: Google'a "Bu sayfayı dizine ekleme (noindex)" talimatı veriyoruz.
-    // Böylece Soft 404 hatasından tamamen kurtuluyorsun.
-    robots: hasEvents ? null : { index: false, follow: true }
+    robots: hasEvents ? null : { index: false, follow: true },
   };
 }
 

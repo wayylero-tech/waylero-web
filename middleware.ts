@@ -16,6 +16,7 @@ const LEGACY_REDIRECTS: Record<string, string> = {
 // Eski tam URL -> Yeni tam URL yönlendirme haritası
 // Şehir veya ülke bilgisi de değişen URL'ler burada tutulur.
 const SPECIAL_LEGACY_REDIRECTS: Record<string, string> = {
+  // --- MEVCUT YÖNLENDİRMELER ---
   "/tr/kesfet/turkiye/afyonkarahisar/ihsaniye-taskinpasa-camii":
     "/tr/kesfet/turkiye/nevsehir/taskinpasa-camii",
 
@@ -27,6 +28,19 @@ const SPECIAL_LEGACY_REDIRECTS: Record<string, string> = {
 
   "/en/kesfet/turkey/mersin/ayvagedigi-plaji":
     "/en/kesfet/turkey/mersin/ayvagedigi-yaylasi",
+
+  // --- HONG KONG (TR & EN) ---
+  "/tr/kesfet/cin/hong-kong": "/tr/kesfet/cin/hongkong",
+  "/tr/cin/hongkong": "/tr/kesfet/cin/hongkong",
+  "/en/kesfet/cin/hong-kong": "/en/kesfet/cin/hongkong",
+
+  // --- NEW YORK (TR & EN) ---
+  "/tr/amerika/newyork": "/tr/kesfet/amerika/newyork",
+  "/en/kesfet/amerika/new-york": "/en/kesfet/amerika/newyork",
+
+  // --- AFYONKARAHİSAR (TR & EN) ---
+  "/tr/aktiviteler/afyon": "/tr/aktiviteler/afyonkarahisar",
+  "/en/aktiviteler/afyon": "/en/aktiviteler/afyonkarahisar",
 };
 
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;
@@ -130,6 +144,35 @@ export function middleware(request: NextRequest) {
 
   const normalizedPathname =
     pathname.toLowerCase();
+
+
+ if (
+    normalizedPathname ===
+      "/blog/genel/albay-koyu-gezi-rehberi-akyaka" ||
+    normalizedPathname ===
+      "/tr/blog/genel/albay-koyu-gezi-rehberi-akyaka" ||
+    normalizedPathname ===
+      "/en/blog/genel/albay-koyu-gezi-rehberi-akyaka"
+  ) {
+    const legacyLocale =
+      currentLocale === "en"
+        ? "en"
+        : "tr";
+
+    const newBlogPath =
+      legacyLocale === "en"
+        ? "/en/blog/mugla/albay-koyu-gezi-rehberi-akyaka"
+        : "/tr/blog/mugla/albay-koyu-gezi-rehberi-akyaka";
+
+    return NextResponse.redirect(
+      new URL(
+        `${newBlogPath}${search}`,
+        request.url
+      ),
+      301
+    );
+  }
+
 
   if (
     SPECIAL_LEGACY_REDIRECTS[

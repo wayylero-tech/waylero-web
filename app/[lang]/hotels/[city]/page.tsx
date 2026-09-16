@@ -36,21 +36,23 @@ function getCityContent(city: string) {
 |--------------------------------------------------------------------------
 */
 
+/*
+|--------------------------------------------------------------------------
+| METADATA
+|--------------------------------------------------------------------------
+*/
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<Params>;
 }): Promise<Metadata> {
-
   const { lang, city } = await params;
-
   const citySlug = city.toLowerCase();
 
   if (
     !LANGS.includes(lang as "tr" | "en") ||
-    !HOTEL_CITIES.includes(
-      citySlug as (typeof HOTEL_CITIES)[number]
-    )
+    !HOTEL_CITIES.includes(citySlug as (typeof HOTEL_CITIES)[number])
   ) {
     return {};
   }
@@ -62,7 +64,6 @@ export async function generateMetadata({
   }
 
   const isTR = lang === "tr";
-
   const cityName = content.name[lang as "tr" | "en"];
 
   const title = isTR
@@ -73,31 +74,29 @@ export async function generateMetadata({
     ? `${cityName} için konaklama rehberi. Nerede kalınır, en iyi bölgeler, otel seçenekleri ve konaklama ipuçlarını keşfedin.`
     : `Accommodation guide for ${cityName}. Discover where to stay, the best areas, hotel options and useful booking tips.`;
 
-  const path = `/${lang}/hotels/${citySlug}`;
+  // 🎯 Canonical ve Open Graph için TEK URL tanımı
+  const pageUrl = `${BASE_URL}/${lang}/hotels/${citySlug}`;
 
   return {
+    metadataBase: new URL(BASE_URL), // Next.js URL çakışmalarını önlemek için şart
     title,
     description,
 
     alternates: {
-      canonical: `${BASE_URL}${path}`,
-
+      canonical: pageUrl,
       languages: {
         "tr-TR": `${BASE_URL}/tr/hotels/${citySlug}`,
         "en-US": `${BASE_URL}/en/hotels/${citySlug}`,
+        "x-default": `${BASE_URL}/tr/hotels/${citySlug}`,
       },
     },
 
     openGraph: {
       title,
       description,
-      url: `${BASE_URL}${path}`,
+      url: pageUrl, // Canonical ile BİREBİR AYNI!
       type: "article",
-
-      locale: isTR
-        ? "tr_TR"
-        : "en_US",
-
+      locale: isTR ? "tr_TR" : "en_US",
       siteName: "Waylero",
     },
 
@@ -107,7 +106,6 @@ export async function generateMetadata({
     },
   };
 }
-
 
 /*
 |--------------------------------------------------------------------------

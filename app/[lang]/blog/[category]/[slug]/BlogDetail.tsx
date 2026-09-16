@@ -67,8 +67,13 @@ export default function BlogDetail({
   const displayTitle =
     post.title?.[lang] || post.title?.tr || "";
 
-  const displayContent =
-    post.content?.[lang] || post.content?.tr || "";
+  const rawContent =
+  post.content?.[lang] || post.content?.tr || "";
+
+const displayContent = rawContent.replace(
+  /^\s*#\s+.+(?:\r?\n)+/,
+  ""
+);
 
   const allImages = post.gallery?.length
     ? post.gallery
@@ -788,11 +793,7 @@ export default function BlogDetail({
                   </p>
 
                   <Link
-                    href={
-                      lang === "tr"
-                        ? "/blog"
-                        : "/en/blog"
-                    }
+                   href={`/${lang}/blog`}
                     className="block w-full text-center py-4 bg-gray-50 text-gray-900 rounded-2xl font-black text-[10px] tracking-[0.2em] hover:bg-gray-900 hover:text-white transition-all uppercase"
                   >
 

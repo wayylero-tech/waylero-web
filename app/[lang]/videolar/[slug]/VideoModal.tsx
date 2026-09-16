@@ -25,7 +25,7 @@ export default function VideoModal({ video, lang }: VideoModalProps) {
   }, []);
 
   // 🌍 Kapatma linkini dile göre ayarla
-  const closeLink = lang === "tr" ? "/videolar" : `/${lang}/videolar`;
+  const closeLink = `/${lang}/videolar`;
 
   const translations = {
     tr: {

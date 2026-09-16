@@ -750,7 +750,7 @@ export default function HomeClient({
     <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight font-serif text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
       {t.blogTitle}
     </h2>
-    <Link href={getLocalizedLink("/blog")} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-colors">
+    <Link href={`/${lang}/blog`} className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-colors">
       {t.seeAll} →
     </Link>
   </div>
