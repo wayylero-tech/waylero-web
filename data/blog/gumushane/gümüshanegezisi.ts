@@ -31,7 +31,7 @@ export const gümüshanegezisiPosts = [
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1787740182/places/turkey/g%C3%BCm%C3%BC%C5%9Fhane/kadirga-yaylasi-ustu-acik-cami/kadirga-yaylasi-ustu-acik-cami_1787740178326_0.47707233836116114.webp"
   ],
   "date": "2026-09-07",
-  "city": "gümüshane",
+  "city": "gumushane",
   "authorEmail": "wayylero@gmail.com",
   "authorName": "waylero",
   "socials": {

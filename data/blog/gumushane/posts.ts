@@ -31,7 +31,7 @@ export const tomaraPosts = [
     "https://res.cloudinary.com/dewd42ppf/image/upload/v1776278317/places/turkey/g%C3%BCm%C3%BC%C5%9Fhane/gumushane-tomara-selalesi/elj2fldzljx5bq5ofqc2.jpg"
   ],
   "date": "2026-05-18",
-  "city": "gümüshane",
+  "city": "gumushane",
   "authorEmail": "wayylero@gmail.com",
   "authorName": "waylero",
   "socials": {
