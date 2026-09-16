@@ -26,7 +26,8 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://waylero.com" ),
+  // DÜZELTİLDİ: "https://waylero.com" yerine www eklendi
+  metadataBase: new URL("https://www.waylero.com"),
 
   title: {
     default: "Waylero | Explore Cities, Events & Travel Experiences",
@@ -46,7 +47,8 @@ export const metadata: Metadata = {
     title: "Waylero | Travel & City Explorer",
     description:
       "Explore cities, events, concerts, tours and travel experiences worldwide.",
-    url: "https://waylero.com",
+    // DÜZELTİLDİ: "https://waylero.com" yerine www eklendi
+    url: "https://www.waylero.com",
     siteName: "Waylero",
     type: "website",
     images: [
@@ -72,7 +74,7 @@ export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}> ) {
+}>) {
   const headersList = await headers();
 
   const headerLocale = headersList.get("x-waylero-lang")?.toLowerCase();
@@ -108,7 +110,7 @@ export default async function RootLayout({
                 t.async=1;
                 t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
 
-                y=l.getElementsByTagName(r )[0];
+                y=l.getElementsByTagName(r)[0];
                 y.parentNode.insertBefore(t,y);
               })(window, document, "clarity", "script", "x3v9pxahkm");
             })();

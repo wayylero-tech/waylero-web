@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useState } from "react";
@@ -10,6 +9,22 @@ interface Props {
   gallery?: string[];
 }
 
+// Cloudinary URL'lerini güvenle optimize eden helper
+function getCloudinaryUrl(url: string, params: string) {
+  if (!url || !url.includes("/upload/")) return url;
+
+  const uploadIndex = url.indexOf("/upload/") + "/upload/".length;
+  const baseUrl = url.substring(0, uploadIndex);
+  let restUrl = url.substring(uploadIndex);
+
+  // Varsa önceden kalmış f_auto, q_60 vb. parametreleri temizler
+  if (/^(?:[a-z]_[^/]+,?)+\//.test(restUrl)) {
+    restUrl = restUrl.replace(/^(?:[a-z]_[^/]+,?)+\//, "");
+  }
+
+  return `${baseUrl}${params}/${restUrl}`;
+}
+
 export default function BlogLightboxImage({
   src,
   alt,
@@ -18,21 +33,15 @@ export default function BlogLightboxImage({
 }: Props) {
   const images = gallery.length > 0 ? gallery : [src];
 
-  const initialIndex = Math.max(
-    0,
-    images.indexOf(src)
-  );
+  const initialIndex = Math.max(0, images.indexOf(src));
 
   const [open, setOpen] = useState(false);
-  const [currentIndex, setCurrentIndex] =
-    useState(initialIndex);
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
 
-  const currentSrc =
-    images[currentIndex] || src;
+  const currentSrc = images[currentIndex] || src;
 
   const hasPrevious = currentIndex > 0;
-  const hasNext =
-    currentIndex < images.length - 1;
+  const hasNext = currentIndex < images.length - 1;
 
   const closeLightbox = () => {
     setOpen(false);
@@ -65,35 +74,28 @@ export default function BlogLightboxImage({
       }
     };
 
-    document.addEventListener(
-      "keydown",
-      handleKeyDown
-    );
-
+    document.addEventListener("keydown", handleKeyDown);
     document.body.style.overflow = "hidden";
 
     return () => {
-      document.removeEventListener(
-        "keydown",
-        handleKeyDown
-      );
-
+      document.removeEventListener("keydown", handleKeyDown);
       document.body.style.overflow = "";
     };
   }, [open, currentIndex]);
+
+  // Cloudinary optimizasyonlu URL'ler
+  const optimizedMainSrc = getCloudinaryUrl(src, "f_auto,q_70,w_1200");
+  const optimizedLightboxSrc = getCloudinaryUrl(currentSrc, "f_auto,q_85,w_1600");
 
   return (
     <>
       {/* NORMAL IMAGE */}
       <div className="my-12 relative group">
         <img
-          src={`${src}?f=auto&q=70&w=1200`}
+          src={optimizedMainSrc}
           loading="lazy"
           decoding="async"
-          alt={
-            alt ||
-            `${displayTitle} İçerik Görseli`
-          }
+          alt={alt || `${displayTitle} İçerik Görseli`}
           className="w-full h-auto rounded-[2.5rem] shadow-xl transition-transform duration-500 group-hover:scale-[1.01] cursor-zoom-in border-4 border-white shadow-gray-200"
           onClick={() => {
             setCurrentIndex(initialIndex);
@@ -144,14 +146,10 @@ export default function BlogLightboxImage({
 
           {/* IMAGE */}
           <img
-            src={`${currentSrc}?f=auto&q=85&w=1600`}
-            alt={`${displayTitle} - Fotoğraf ${
-              currentIndex + 1
-            }`}
+            src={optimizedLightboxSrc}
+            alt={`${displayTitle} - Fotoğraf ${currentIndex + 1}`}
             decoding="async"
-            onClick={(event) =>
-              event.stopPropagation()
-            }
+            onClick={(event) => event.stopPropagation()}
             className="max-h-[85vh] max-w-[85vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300 select-none"
           />
 

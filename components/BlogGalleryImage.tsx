@@ -13,6 +13,22 @@ interface Props {
   loading?: "lazy" | "eager";
 }
 
+// Cloudinary URL'lerini güvenle optimize eden fonksiyon
+function getCloudinaryUrl(url: string, params: string) {
+  if (!url || !url.includes("/upload/")) return url;
+
+  const uploadIndex = url.indexOf("/upload/") + "/upload/".length;
+  const baseUrl = url.substring(0, uploadIndex);
+  let restUrl = url.substring(uploadIndex);
+
+  // Link içinde önceden f_auto, q_60 vb. parametreler varsa onları temizler (çakışmayı önler)
+  if (/^(?:[a-z]_[^/]+,?)+\//.test(restUrl)) {
+    restUrl = restUrl.replace(/^(?:[a-z]_[^/]+,?)+\//, "");
+  }
+
+  return `${baseUrl}${params}/${restUrl}`;
+}
+
 export default function BlogGalleryImage({
   src,
   alt,
@@ -25,14 +41,15 @@ export default function BlogGalleryImage({
 }: Props) {
   const [open, setOpen] = useState(false);
 
+  // Güvenli şekilde optimize edilmiş URL'ler
+  const optimizedSrc = getCloudinaryUrl(src, `f_auto,q_${quality},w_${width}`);
+  const lightboxSrc = getCloudinaryUrl(src, "f_auto,q_85,w_1600");
+
   return (
     <>
       <div className={className} onClick={() => setOpen(true)}>
         <img
-          src={src.replace(
-  "/upload/",
-  `/upload/f_auto,q_${quality},w_${width}/`
-)}
+          src={optimizedSrc}
           alt={alt}
           fetchPriority={priority ? "high" : "low"}
           loading={loading}
@@ -47,10 +64,7 @@ export default function BlogGalleryImage({
           className="fixed inset-0 bg-black/98 backdrop-blur-xl flex justify-center items-center z-[9999] p-4 cursor-zoom-out"
         >
           <img
-           src={src.replace(
-  "/upload/",
-  "/upload/f_auto,q_85,w_1600/"
-)}
+            src={lightboxSrc}
             alt={alt}
             decoding="async"
             className="max-h-[85vh] max-w-[90vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300"

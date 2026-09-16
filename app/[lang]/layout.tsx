@@ -48,19 +48,19 @@ export async function generateMetadata({
       template: "%s | Waylero",
     },
 
-   description: isEn
-  ? "Discover cities, find events and easily create your travel plan with Waylero."
-  : "Waylero ile şehirleri keşfet, etkinlikleri bul ve kolayca gezi planı oluştur.",
+    description: isEn
+      ? "Discover cities, find events and easily create your travel plan with Waylero."
+      : "Waylero ile şehirleri keşfet, etkinlikleri bul ve kolayca gezi planı oluştur.",
 
-verification: {
-  yandex: "81cbfcf8784b9317",
-},
+    verification: {
+      yandex: "81cbfcf8784b9317",
+    },
 
-icons: {
-  icon: "/waylero-icon.png",
-  shortcut: "/waylero-icon.png",
-  apple: "/waylero-icon.png",
-},
+    icons: {
+      icon: "/waylero-icon.png",
+      shortcut: "/waylero-icon.png",
+      apple: "/waylero-icon.png",
+    },
 
     openGraph: {
       title: isEn
@@ -69,7 +69,8 @@ icons: {
       description: isEn
         ? "Explore cities, events, concerts, tours and travel experiences worldwide."
         : "Şehirleri, etkinlikleri, konserleri, turları ve seyahat deneyimlerini keşfet.",
-      url: "https://waylero.com",
+      // DÜZELTİLDİ: www eklendi
+      url: "https://www.waylero.com",
       siteName: "Waylero",
       type: "website",
       images: [
