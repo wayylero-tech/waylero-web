@@ -89,13 +89,7 @@ export async function generateMetadata({
   params,
 }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-
   const { lang, region } = resolvedParams;
-  const regionName =
-  regionNameMap[region]?.[lang === "en" ? "en" : "tr"] ??
-  region.replace(/-/g, " ");
-
-
   const isEn = lang === "en";
 
   const name =
@@ -113,13 +107,45 @@ export async function generateMetadata({
   const pathUrl = `/kesfet/${region}`;
   const url = `${BASE_URL}/${lang}${pathUrl}`;
 
+  // -------------------------------------------------
+  // DİNAMİK BÖLGE GÖRSELİNİ BULMA
+  // -------------------------------------------------
+  const imagePath = path.join(
+    process.cwd(),
+    "data/ulkedataimages",
+    `${region}.json`
+  );
+
+  let regionCoverImage = `${BASE_URL}/og/region.jpg`; // Varsayılan fallback
+
+  if (fs.existsSync(imagePath)) {
+    try {
+      const imagesJson = JSON.parse(
+        fs.readFileSync(imagePath, "utf-8")
+      );
+      
+      // İlk bulduğumuz şehir ve görsel anahtarını alıyoruz
+      const firstCityKey = Object.keys(imagesJson)[0];
+      if (firstCityKey) {
+        const cityImages = imagesJson[firstCityKey];
+        const firstImageKey = Object.keys(cityImages)[0];
+        if (firstImageKey && cityImages[firstImageKey]?.[0]) {
+          const rawImg = cityImages[firstImageKey][0];
+          // Cloudinary URL formatına çeviriyoruz
+          regionCoverImage = `https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_auto:eco,w_1200,c_fill/${rawImg.replace(/^\/+/, "")}`;
+        }
+      }
+    } catch (error) {
+      console.error(`Metadata görseli okunamadı: ${imagePath}`, error);
+    }
+  }
+
   return {
     title,
     description,
 
     alternates: {
       canonical: url,
-
       languages: {
         "tr-TR": `${BASE_URL}/tr${pathUrl}`,
         "en-US": `${BASE_URL}/en${pathUrl}`,
@@ -132,10 +158,9 @@ export async function generateMetadata({
       url,
       siteName: "Waylero",
       type: "website",
-
       images: [
         {
-          url: `${BASE_URL}/og/region.jpg`,
+          url: regionCoverImage,
           width: 1200,
           height: 630,
           alt: name,
@@ -147,7 +172,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [`${BASE_URL}/og/region.jpg`],
+      images: [regionCoverImage],
     },
   };
 }

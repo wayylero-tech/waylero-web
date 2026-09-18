@@ -17,6 +17,7 @@ interface Props {
 const BASE_URL = "https://www.waylero.com";
 
 // 🧠 SEO METADATA
+// 🧠 SEO METADATA
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const { lang, region, city } = resolvedParams;
@@ -31,15 +32,55 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   const title = isEn
-  ? `Best Places to Visit in ${cityName} (${regionName}) | Travel Guide`
-  : `${cityName} Gezilecek Yerler 2026 | En Güzel Yerler ve Gezi Rehberi`;
+    ? `Best Places to Visit in ${cityName} (${regionName}) | Travel Guide`
+    : `${cityName} Gezilecek Yerler 2026 | En Güzel Yerler ve Gezi Rehberi`;
 
-const description = isEn
-  ? `Discover the best places to visit in ${cityName}. Attractions, museums, nature spots, travel tips and local guides.`
-  : `${cityName} gezilecek yerler rehberi. Tarihi mekanlar, doğal güzellikler, müzeler ve keşfedilecek en güzel noktaları inceleyin.`;
+  const description = isEn
+    ? `Discover the best places to visit in ${cityName}. Attractions, museums, nature spots, travel tips and local guides.`
+    : `${cityName} gezilecek yerler rehberi. Tarihi mekanlar, doğal güzellikler, müzeler ve keşfedilecek en güzel noktaları inceleyin.`;
 
   const pathUrl = `/${lang}/kesfet/${region}/${city}`;
   const url = `${BASE_URL}${pathUrl}`;
+
+  // -------------------------------------------------
+  // 🌟 DİNAMİK ŞEHİR GÖRSELİNİ BULMA (OG İÇİN)
+  // -------------------------------------------------
+  const cityFilePath = path.join(
+    process.cwd(),
+    "data/ulkelerdata",
+    region,
+    `${city}.json`
+  );
+
+  const imagesPath = path.join(
+    process.cwd(),
+    "data/ulkedataimages",
+    `${region}.json`
+  );
+
+  let cityCoverImage = `${BASE_URL}/og/city.jpg`; // Fallback
+
+  try {
+    if (fs.existsSync(cityFilePath) && fs.existsSync(imagesPath)) {
+      const cityPlaces = JSON.parse(fs.readFileSync(cityFilePath, "utf-8"));
+      const imagesJson = JSON.parse(fs.readFileSync(imagesPath, "utf-8"));
+      
+      const firstPlace = cityPlaces?.[0];
+      const cityImages = imagesJson[city] || imagesJson[city.toLowerCase()] || {};
+
+      if (firstPlace) {
+        const citySlug = city.toLowerCase();
+        const imageKey = `${citySlug}-${firstPlace.slug}`;
+        const rawImg = cityImages[imageKey]?.[0] || cityImages[Object.keys(cityImages)[0]]?.[0];
+
+        if (rawImg) {
+          cityCoverImage = `https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_auto:eco,w_1200,c_fill/${rawImg.replace(/^\/+/, "")}`;
+        }
+      }
+    }
+  } catch (error) {
+    console.error(`Şehir metadata görseli okunamadı:`, error);
+  }
 
   return {
     title,
@@ -59,7 +100,7 @@ const description = isEn
       type: "website",
       images: [
         {
-          url: `${BASE_URL}/og/city.jpg`,
+          url: cityCoverImage,
           width: 1200,
           height: 630,
           alt: cityName,
@@ -70,7 +111,7 @@ const description = isEn
       card: "summary_large_image",
       title,
       description,
-      images: [`${BASE_URL}/og/city.jpg`],
+      images: [cityCoverImage],
     },
   };
 }

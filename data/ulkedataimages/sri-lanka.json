@@ -1,13 +1,16 @@
 {
-  "sri-lanka": {
-    "sri-lanka-sigiriya-kayasi": [
-      "places/asia/sri-lanka/sri-lanka-sigiriya-kayasi/blm6trdesk72gaocgjmi"
-    ],
-    "sri-lanka-polonnaruwa-antik-kenti": [
-      "places/asia/sri-lanka/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1776408328642",
-      "places/asia/sri-lanka/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1776408332087"
-    ],
-    "sri-lanka-kandy-golu": [
+  "sigiriya": {
+    "sigiriya-kayasi": [
+"places/europa/sigiriya/sigiriya-kayasi/sigiriya-kayasi_1789760551422_0.4420275152627554","places/europa/sigiriya/sigiriya-kayasi/sigiriya-kayasi_1789760555615_0.6556114811585233","places/europa/sigiriya/sigiriya-kayasi/sigiriya-kayasi_1789760559056_0.7381869261125025","places/europa/sigiriya/sigiriya-kayasi/sigiriya-kayasi_1789760565336_0.5908754007990171"
+    ]
+  },
+ "polonnaruwa": {
+    "polonnaruwa-polonnaruwa-antik-kenti": [
+      "places/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1789758398125_0.43444922239508543","places/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1789758404497_0.993181662856046","places/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1789758406675_0.7189659711895697","places/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1789758409672_0.6987871920012688","places/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti/polonnaruwa-antik-kenti_1789758412224_0.059746596317252654"
+    ]
+  },
+   "kandy": {
+    "kandy-kandy-golu": [
       "places/asia/sri-lanka/kandy-golu/kandy-golu_1776408522744"
     ]
   }

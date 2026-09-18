@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import fs from "fs";
+import path from "path";
 
 import HotelCityPageClient from "./HotelCityPageClient";
 import globalPlaces from "@/data/globalPlaces.json";
@@ -30,10 +32,6 @@ const places = globalPlaces as GlobalPlace[];
 |--------------------------------------------------------------------------
 | GLOBAL ŞEHİR LİSTESİ
 |--------------------------------------------------------------------------
-|
-| Artık HOTEL_CITIES kullanılmıyor.
-| Şehirler doğrudan globalPlaces.json içinden geliyor.
-|
 */
 
 const HOTEL_CITY_SLUGS = Array.from(
@@ -48,10 +46,6 @@ const HOTEL_CITY_SLUGS = Array.from(
 |--------------------------------------------------------------------------
 | ŞEHİR ADI
 |--------------------------------------------------------------------------
-|
-| globalPlaces.json içinde şehirlerin ayrı TR/EN isim alanı yok.
-| Bu nedenle mevcut slug üzerinden okunabilir bir isim oluşturuyoruz.
-|
 */
 
 function formatCityName(city: string, lang: "tr" | "en") {
@@ -86,6 +80,43 @@ function isValidCity(city: string) {
   return HOTEL_CITY_SLUGS.includes(city.toLowerCase());
 }
 
+/*
+|--------------------------------------------------------------------------
+| 🌟 ŞEHİR ÖZGÜN AÇIKLAMASINI OKUMA (citiesdata klasöründen)
+|--------------------------------------------------------------------------
+*/
+function loadCityDescription(citySlug: string) {
+  try {
+    const citiesDataDir = path.join(process.cwd(), "data/citiesdata");
+    
+    if (!fs.existsSync(citiesDataDir)) {
+      return null;
+    }
+
+    const files = fs.readdirSync(citiesDataDir);
+
+    for (const file of files) {
+      if (!file.endsWith(".json")) continue;
+
+      const filePath = path.join(citiesDataDir, file);
+      const fileContent = fs.readFileSync(filePath, "utf-8");
+      const jsonData = JSON.parse(fileContent);
+
+      if (Array.isArray(jsonData)) {
+        const foundCity = jsonData.find(
+          (item: any) => item.slug?.toLowerCase() === citySlug.toLowerCase()
+        );
+
+        if (foundCity?.description) {
+          return foundCity.description;
+        }
+      }
+    }
+  } catch (error) {
+    // Hata durumunda sessizce null döner
+  }
+  return null;
+}
 /*
 |--------------------------------------------------------------------------
 | METADATA
@@ -178,23 +209,12 @@ export default async function Page({
 }) {
   const { lang, city } = await params;
 
-  /*
-   * LANG
-   */
-
   if (!LANGS.includes(lang as "tr" | "en")) {
     notFound();
   }
 
   const currentLang = lang as "tr" | "en";
   const citySlug = city.toLowerCase();
-
-  /*
-   * ŞEHİR
-   *
-   * Artık HOTEL_CITIES yok.
-   * globalPlaces.json'daki bütün şehirler geçerli.
-   */
 
   if (!isValidCity(citySlug)) {
     notFound();
@@ -207,39 +227,26 @@ export default async function Page({
 
   const isTR = currentLang === "tr";
 
-  /*
-   |--------------------------------------------------------------------------
-   | HOTEL DATA
-   |--------------------------------------------------------------------------
-   |
-   | HotelCityPageClient artık şehir adını kullanarak
-   | Booking / Hotels.com bağlantılarını oluşturuyor.
-   |
-   */
+  // 🌟 Şehre ait özgün açıklamayı JSON'dan çekiyoruz
+  const cityDescription = loadCityDescription(citySlug);
 
   const cityPlace = places.find(
-  (place) =>
-    place.city?.toLowerCase().trim() === citySlug &&
-    place.image
-);
+    (place) =>
+      place.city?.toLowerCase().trim() === citySlug &&
+      place.image
+  );
 
-const cityImage = cityPlace?.image
-  ? `https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_auto:eco,w_1200,c_fill/${cityPlace.image.replace(/^\/+/, "")}`
-  : undefined;
+  const cityImage = cityPlace?.image
+    ? `https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_auto:eco,w_1200,c_fill/${cityPlace.image.replace(/^\/+/, "")}`
+    : undefined;
 
-const cityData = [
-  {
-    id: citySlug,
-    city: citySlug,
-    image: cityImage,
-  },
-];
-
-  /*
-   |--------------------------------------------------------------------------
-   | JSON-LD
-   |--------------------------------------------------------------------------
-   */
+  const cityData = [
+    {
+      id: citySlug,
+      city: citySlug,
+      image: cityImage,
+    },
+  ];
 
   const pageUrl =
     `${BASE_URL}/${currentLang}/hotels/${citySlug}`;
@@ -320,6 +327,7 @@ const cityData = [
         city={citySlug}
         lang={currentLang}
         cityHotels={cityData}
+        cityDescription={cityDescription}
       />
     </>
   );
@@ -329,19 +337,6 @@ const cityData = [
 |--------------------------------------------------------------------------
 | STATIC PARAMS
 |--------------------------------------------------------------------------
-|
-| Artık sadece 13 şehir yok.
-|
-| globalPlaces.json içinde bulunan bütün şehirler:
-|
-| İstanbul
-| Berlin
-| Paris
-| Roma
-| ...
-|
-| TR + EN olarak oluşturulur.
-|
 */
 
 export function generateStaticParams() {

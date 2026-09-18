@@ -1,0 +1,45 @@
+[
+{
+    "slug": "minsk-baskent",
+    "name": {
+      "tr": "Minsk (Başkent)",
+      "en": "Minsk (Capital)",
+      "de": "Minsk (Hauptstadt)"
+    },
+    "latitude": 53.9,
+    "longitude": 27.5667,
+    "description": {
+  "tr": "Belarus’un başkenti ve aynı zamanda ülkenin siyasi, ekonomik ve kültürel merkezidir. Dinyeper Nehri’nin bir kolu olan Svislaç Nehri kıyısında yer alan şehir, tarih boyunca birçok kez yeniden inşa edilmiş ve özellikle 2. Dünya Savaşı sonrası modern Sovyet şehir planlamasıyla yeniden şekillendirilmiştir. Bu nedenle Minsk, hem tarihi izler hem de Sovyet dönemine ait mimari karakteri bir arada sunan nadir Avrupa başkentlerinden biridir.\n\nŞehirde Sovyet dönemine ait geniş bulvarlar, anıtsal yapılar ve büyük meydanlar dikkat çeker. Özellikle Bağımsızlık Meydanı ve Zafer Meydanı gibi alanlar, Minsk’in tarihsel ve politik önemini yansıtan simgesel noktalardır. Bu meydanlar, hem resmi törenlere hem de halk etkinliklerine ev sahipliği yaparak şehrin sosyal yaşamında önemli bir rol oynar.\n\nMinsk aynı zamanda önemli bir kültür merkezidir. Şehirde çok sayıda tiyatro, müze, konser salonu ve sanat galerisi bulunur. Belarus Ulusal Sanat Müzesi ve Büyük Tiyatro Opera ve Bale Binası, kültürel yaşamın en önemli yapıları arasında yer alır. Bu kurumlar, hem klasik hem de modern sanatın gelişimine katkı sağlar.\n\nSovyet döneminden kalan mimari yapılar, Minsk’in şehir siluetini belirleyen önemli unsurlardır. Geniş apartman blokları, hükümet binaları ve anıtsal yapılar bu dönemin izlerini taşır. Bununla birlikte şehir, son yıllarda modern mimari projelerle de gelişmeye devam etmektedir ve eski ile yeni yapılar bir arada varlık göstermektedir.\n\nMinsk ayrıca yeşil alanlarıyla da dikkat çeker. Şehir içerisinde çok sayıda park, bahçe ve rekreasyon alanı bulunur. Gorky Parkı ve Chelyuskinites Parkı gibi alanlar, hem yerel halk hem de ziyaretçiler için dinlenme ve eğlence imkânı sunar.\n\nEkonomik açıdan Minsk, Belarus’un en gelişmiş şehridir. Sanayi, teknoloji ve hizmet sektörleri şehir ekonomisinin temelini oluşturur. Ayrıca eğitim kurumları ve üniversiteler sayesinde önemli bir öğrenci nüfusuna sahiptir.\n\nSonuç olarak Minsk, Sovyet mirasını modern şehir yaşamıyla birleştiren, kültürel açıdan zengin ve tarihi derinliği olan bir başkenttir.",
+  "en": " is the capital and largest city of Belarus, serving as the country’s political, economic, and cultural center. Located along the Svislač River, Minsk has a long history of destruction and rebuilding, most notably after World War II, when it was extensively reconstructed in a Soviet architectural style. As a result, the city presents a unique blend of historical layers and Soviet-era urban design.\n\nThe city is characterized by wide avenues, monumental buildings, and large public squares typical of Soviet city planning. Key landmarks such as Independence Square and Victory Square reflect Minsk’s historical and political significance. These spaces are used for official ceremonies, public gatherings, and cultural events.\n\nMinsk is also a major cultural hub in Belarus. It is home to numerous theaters, museums, concert halls, and art galleries. Institutions such as the National Art Museum of Belarus and the Belarusian State Opera and Ballet Theatre play an important role in the country’s artistic life, hosting both classical and contemporary performances.\n\nSoviet-era architecture is a defining feature of the city’s skyline. Large residential blocks, government buildings, and monumental structures reflect the design principles of that period. At the same time, modern architectural developments are gradually reshaping parts of the city, creating a contrast between old and new styles.\n\nMinsk is also known for its green spaces. Parks and recreational areas such as Gorky Park and Chelyuskinites Park provide residents and visitors with places for relaxation, leisure activities, and outdoor entertainment.\n\nEconomically, Minsk is the most developed city in Belarus, with strong industries in manufacturing, technology, and services. It is also an important educational center, hosting several major universities and a large student population.\n\nOverall, Minsk is a city that combines Soviet heritage with modern urban life, offering a rich cultural landscape and significant historical depth.",
+  "de": " ist die Hauptstadt und größte Stadt von Belarus und zugleich das politische, wirtschaftliche und kulturelle Zentrum des Landes. Die Stadt liegt am Fluss Swislatsch und wurde im Laufe ihrer Geschichte mehrfach zerstört und wieder aufgebaut, insbesondere nach dem Zweiten Weltkrieg, als sie im sowjetischen Stil neu gestaltet wurde.\n\nDas Stadtbild ist geprägt von breiten Boulevards, monumentalen Gebäuden und großen Plätzen, die typisch für die sowjetische Stadtplanung sind. Besonders der Unabhängigkeitsplatz und der Siegesplatz sind wichtige historische und politische Orte.\n\nMinsk ist auch ein bedeutendes Kulturzentrum mit zahlreichen Theatern, Museen und Konzertsälen. Einrichtungen wie das Nationalkunstmuseum von Belarus und das Staatliche Opern- und Balletttheater spielen eine zentrale Rolle im kulturellen Leben.\n\nDie Architektur der Stadt zeigt deutlich den Einfluss der Sowjetzeit mit großen Wohnblöcken und repräsentativen Verwaltungsgebäuden, während moderne Bauprojekte zunehmend das Stadtbild ergänzen.\n\nZudem verfügt Minsk über viele Parks und Grünflächen wie den Gorki-Park, die Erholungsmöglichkeiten für Einwohner und Besucher bieten.\n\nWirtschaftlich ist Minsk die wichtigste Stadt des Landes mit Schwerpunkten in Industrie, Technologie und Dienstleistungen.\n\nInsgesamt verbindet Minsk sein sowjetisches Erbe mit moderner Stadtentwicklung und bildet ein bedeutendes kulturelles und historisches Zentrum."
+},
+    "activities": {
+      "tr": [
+        "Tarihi meydanları gezme",
+        "Müze ziyaretleri yapma"
+      ],
+      "en": [
+        "Explore historic squares",
+        "Visit museums"
+      ],
+      "de": [
+        "Historische Plätze erkunden",
+        "Museen besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "tarih"
+      ],
+      "en": [
+        "historic"
+      ],
+      "de": [
+        "Historisch"
+      ]
+    },
+    "images": [
+      "https://example.com/minsk.jpg"
+    ]
+  }
+]

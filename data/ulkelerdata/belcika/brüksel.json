@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "grand-place",
+    "city": "Brüksel",
+    "name": {
+      "tr": "Grand Place",
+      "en": "Grand Place",
+      "de": "Grote Markt"
+    },
+    "latitude": 50.8467,
+    "longitude": 4.3525,
+    "description": {
+      "tr": "Grand Place (Grote Markt), Belçika'nın başkenti Brüksel'in kalbinde yer alan, UNESCO Dünya Mirası Listesi'ndeki tarihi şehir meydanıdır. Gotik tarzdaki görkemli Belediye Binası (Hôtel de Ville) ve lonca evleriyle çevrili olan meydan, Avrupa'nın en etkileyici mimari alanlarından biri kabul edilir. Yıl boyunca çeşitli kültürel etkinliklere ve iki yılda bir düzenlenen devasa çiçek halısı festivaline ev sahipliği yapar. Meydana erişim ve meydanda yürümek tamamen ücretsizdir.",
+      "en": "The Grand Place is the central square of Brussels, celebrated for its opulent guildhalls and the Gothic Town Hall. Recognized as a UNESCO World Heritage Site, it is widely considered one of the most beautiful squares in Europe. The plaza hosts various cultural events throughout the year, including the famous biennial flower carpet.",
+      "de": "Der Grand Place ist der zentrale Marktplatz von Brüssel und gehört zum UNESCO-Welterbe. Umgeben von barocken Zunfthäusern und dem gotischen Rathaus gilt er als einer der schönsten Plätze Europas. Hier finden regelmäßige kulturelle Veranstaltungen und der berühmte zweijährliche Teppich aus Blumen statt."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi lonca evlerini ve Belediye Binası'nı incelemek",
+        "Meydandaki kafelerde vakit geçirmek",
+        "Fotoğraf çekmek",
+        "Gece ışıklandırmasını izlemek"
+      ],
+      "en": [
+        "Admire the guildhalls and Town Hall",
+        "Relax at outdoor cafes",
+        "Photography",
+        "Watch the evening illumination"
+      ],
+      "de": [
+        "Die Zunfthäuser und das Rathaus bewundern",
+        "In den Cafés am Platz verweilen",
+        "Fotografieren",
+        "Die Abendbeleuchtung genießen"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "kultur", "meydan"],
+      "en": ["historic", "architecture", "cultural", "square"],
+      "de": ["Historisch", "Architektur", "Kulturell", "Platz"]
+    },
+    "images": [
+      "https://example.com/grand_place.jpg"
+    ]
+  },
+  {
+    "slug": "atomium",
+    "city": "Brüksel",
+    "name": {
+      "tr": "Atomium",
+      "en": "Atomium",
+      "de": "Atomium"
+    },
+    "latitude": 50.8949,
+    "longitude": 4.3415,
+    "description": {
+      "tr": "Atomium, 1958 Brüksel Dünya Fuarı (Expo 58) için inşa edilmiş ve günümüzde şehrin en önemli modern simgelerinden biri haline gelmiş anıtsal bir yapıdır. Bir demir kristalinin 165 milyar kez büyütülmüş halini temsil eden 9 çelik küreden oluşur. Küreler arasında tüp merdivenlerle geçiş yapılır; en üst kürede panoramik Brüksel manzarası sunan bir seyir terası ve restoran yer alır. Kürelerin iç mekan ziyaretleri biletlidir.",
+      "en": "The Atomium is an iconic landmark in Brussels, originally constructed for the 1958 Brussels World's Fair (Expo 58). Designed to represent an iron crystal cell magnified 165 billion times, it consists of nine stainless steel spheres connected by tubes. Visitors can explore internal exhibitions and enjoy a panoramic view of the city from the top sphere.",
+      "de": "Das Atomium ist ein bekanntes Bauwerk in Brüssel, das für die Weltausstellung Expo 58 errichtet wurde. Es stellt eine 165-milliardenfache Vergrößerung einer Eisen-Kristallstruktur dar. In den miteinander verbundenen Edelstahlkugeln befinden sich Ausstellungen sowie eine Aussichtsplattform in der obersten Kugel."
+    },
+    "activities": {
+      "tr": [
+        "Panoramik şehir manzarasını izlemek",
+        "Tüp merdivenlerde ve küre içlerindeki sergileri gezmek",
+        "Modern mimari fotoğrafçılığı yapmak"
+      ],
+      "en": [
+        "Enjoy panoramic city views",
+        "Explore internal sphere exhibitions",
+        "Modern architectural photography"
+      ],
+      "de": [
+        "Panoramaausblick über Brüssel genießen",
+        "Ausstellungen in den Kugeln besuchen",
+        "Moderne Architektur fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": ["mimari", "modern", "manzara", "muze"],
+      "en": ["architecture", "modern", "scenic spot", "museum"],
+      "de": ["Architektur", "Modern", "Aussicht", "Museum"]
+    },
+    "images": [
+      "https://example.com/atomium.jpg"
+    ]
+  },
+  {
+    "slug": "manneken-pis",
+    "city": "Brüksel",
+    "name": {
+      "tr": "Manneken Pis",
+      "en": "Manneken Pis",
+      "de": "Manneken Pis"
+    },
+    "latitude": 50.8450,
+    "longitude": 4.3499,
+    "description": {
+      "tr": "Manneken Pis (İşeyen Çocuk Heykeli), Brüksel'in sokak köşelerinden birinde yer alan küçük ama dünyaca ünlü bronz bir çeşme heykelidir. 17. yüzyıldan kalma bu mizahi simge, Brüksel halkının espri anlayışını ve bağımsızlık ruhunu temsil eder. Yılın belirli günlerinde özel kostümler giydirilen heykelin gardırobu yakındaki Brüksel Şehir Müzesi'nde sergilenmektedir. Sokak üzerinde dışarıdan görülmesi ücretsizdir.",
+      "en": "Manneken Pis is a famous bronze fountain sculpture depicting a small boy urinating into a basin. Located near the Grand Place, this 17th-century landmark symbolizes the local sense of humor and irreverent spirit. The statue is frequently dressed in various costumes throughout the year.",
+      "de": "Manneken Pis ist eine bekannte Bronze-Brunnenfigur eines pinkelnden Jungen im Zentrum von Brüssel. Das Kunstwerk aus dem 17. Jahrhundert gilt als humorvolles Wahrzeichen der Stadt und wird zu besonderen Anlässen regelmäßig in verschiedene Kostüme gekleidet."
+    },
+    "activities": {
+      "tr": [
+        "Tarihi heykeli ve üzerindeki kostümü görmek",
+        "Fotoğraf çekmek",
+        "Çevredeki waffle ve çikolata dükkanlarını keşfetmek"
+      ],
+      "en": [
+        "View the historic statue and its costume",
+        "Photography",
+        "Explore nearby waffle and chocolate shops"
+      ],
+      "de": [
+        "Das Wahrzeichen und die Kostüme betrachten",
+        "Fotografieren",
+        "Nahegelegene Waffel- und Schokoladengeschäfte besuchen"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "heykel", "kultur", "sokak"],
+      "en": ["historic", "statue", "cultural", "street"],
+      "de": ["Historisch", "Statue", "Kulturell", "Straße"]
+    },
+    "images": [
+      "https://example.com/manneken_pis.jpg"
+    ]
+  },
+  {
+    "slug": "st-michael-ve-st-gudula-katedrali",
+    "city": "Brüksel",
+    "name": {
+      "tr": "St. Michael ve St. Gudula Katedrali",
+      "en": "St. Michael and St. Gudula Cathedral",
+      "de": "Kathedrale St. Michael und St. Gudula"
+    },
+    "latitude": 50.8478,
+    "longitude": 4.3601,
+    "description": {
+      "tr": "St. Michael ve St. Gudula Katedrali, Brüksel'in ana Katolik kilisesidir ve Brabant Gotik mimarisinin en nitelikli örneklerinden biridir. Yapımı 11. yüzyılda başlamış ve 15. yüzyılda tamamlanmıştır. Görkemli ikiz kuleleri, 16. yüzyıldan kalma vitray pencereleri ve ahşap oymacılığı ahşap vaaz kürsüsü ile dikkat çeker. Kraliyet düğünleri gibi devlet törenlerine ev sahipliği yapan katedralin ana alanına giriş ücretsizdir.",
+      "en": "The Cathedral of St. Michael and St. Gudula is a Roman Catholic church and a premier example of Brabantine Gothic architecture. Construction spanned several centuries from the 11th to the 15th century. It features impressive twin towers, 16th-century stained-glass windows, and an ornate carved wooden pulpit.",
+      "de": "Die Kathedrale St. Michael und St. Gudula ist die Hauptkirche von Brüssel und ein bedeutendes Beispiel der brabantischen Gotik. Die Kirche beeindruckt durch ihre Doppeltürme, historische Glasmalereien aus dem 16. Jahrhundert und eine aufwendig geschnitzte Kanzel."
+    },
+    "activities": {
+      "tr": [
+        "Gotik mimariyi ve vitray pencereleri incelemek",
+        "Katedral içi dini sanat eserlerini görmek",
+        "Sessiz bir ortamda mola vermek"
+      ],
+      "en": [
+        "Admire Gothic architecture and stained glass",
+        "View religious artworks inside",
+        "Experience quiet reflection"
+      ],
+      "de": [
+        "Gotische Architektur und Glasmalereien betrachten",
+        "Küstlerische Details im Innenraum erkunden",
+        "Eine ruhige Auszeit nehmen"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "dini", "katedral"],
+      "en": ["historic", "architecture", "religious", "cathedral"],
+      "de": ["Historisch", "Architektur", "Religiös", "Kathedrale"]
+    },
+    "images": [
+      "https://example.com/st_gudula_cathedral.jpg"
+    ]
+  }
+]

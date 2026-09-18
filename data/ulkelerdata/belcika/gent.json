@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "gravensteen",
+    "city": "Gent",
+    "name": {
+      "tr": "Gravensteen (Kontlar Kalesi)",
+      "en": "Gravensteen",
+      "de": "Burg Gravensteen"
+    },
+    "latitude": 51.0575,
+    "longitude": 3.7208,
+    "description": {
+      "tr": "Gravensteen, Gent şehir merkezinde yer alan, 1180 yılında Flanders Kontu Philip tarafından inşa ettirilmiş görkemli bir Orta Çağ kalesidir. Etrafı hendeklerle çevrili olan kale; tarihi zindanları, işkence aletleri müzesi ve sur duvarlarından sunduğu panoramik Gent manzarasıyla şehrin en ikonik yapılarından biridir. Kale içi ziyareti biletlidir.",
+      "en": "Gravensteen is a medieval castle in the heart of Ghent, built in 1180 by Philip of Alsace, Count of Flanders. Surrounded by a moat, the fortress features historic dungeons, a museum of torture equipment, and impressive views over Ghent from its ramparts.",
+      "de": "Gravensteen ist eine gut erhaltene mittelalterliche Wasserburg im Zentrum von Gent, die 1180 erbaut wurde. Die Burg bietet historische Foltermuseen, Waffenkammern und einen weiten Blick über die Altstadt von den Burgmauern aus."
+    },
+    "activities": {
+      "tr": [
+        "Orta Çağ kalesini ve zindanları gezmek",
+        "Sur duvarlarından Gent manzarasını izlemek",
+        "İşkence Aletleri Müzesi'ni incelemek",
+        "Fotoğraf çekmek"
+      ],
+      "en": [
+        "Explore the medieval castle and dungeons",
+        "Enjoy panoramic views from the castle walls",
+        "Visit the Museum of Torture",
+        "Photography"
+      ],
+      "de": [
+        "Die mittelalterliche Burg und die Verliese erkunden",
+        "Den Ausblick von den Burgmauern genießen",
+        "Das Foltermuseum besuchen",
+        "Fotografieren"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "kale", "mimari", "muze"],
+      "en": ["historic", "castle", "architecture", "museum"],
+      "de": ["Historisch", "Burg", "Architektur", "Museum"]
+    },
+    "images": [
+      "https://example.com/gravensteen.jpg"
+    ]
+  },
+  {
+    "slug": "ghent-can-kulesi",
+    "city": "Gent",
+    "name": {
+      "tr": "Gent Çan Kulesi",
+      "en": "Belfry of Ghent",
+      "de": "Belfried von Gent"
+    },
+    "latitude": 51.0536,
+    "longitude": 3.7250,
+    "description": {
+      "tr": "Gent Çan Kulesi, 91 metrelik yüksekliğiyle UNESCO Dünya Mirası Listesi'nde yer alan anıtsal bir zivil çan kulesidir. Orta Çağ'da şehrin bağımsızlığını ve ticari gücünü simgeleyen kule, tepesindeki ejderha rüzgar gülü ve tarihi carillon çan mekanizmasıyla ünlüdür. Asansör veya merdivenlerle zirvesine çıkılarak şehir izlenebilir; kuleye tırmanış biletlidir.",
+      "en": "The Belfry of Ghent is a 91-meter-tall UNESCO World Heritage site symbolizing the civic independence of medieval Ghent. Crowned with a famous gilded dragon, it houses a historic carillon bell mechanism and offers sweeping views of the historic center.",
+      "de": "Der Belfried von Gent ist ein 91 Meter hoher Glockenturm und gehört zum UNESCO-Welterbe. Er steht als Symbol für die Unabhängigkeit der Stadt und bietet nach dem Aufstieg eine spektakuläre Aussicht auf die Altstadt."
+    },
+    "activities": {
+      "tr": [
+        "Kuleye çıkarak panoramik Gent manzarasını izlemek",
+        "Ejderha heykelini ve Carillon çanlarını incelemek",
+        "UNESCO mirası sivil mimariyi keşfetmek"
+      ],
+      "en": [
+        "Climb the tower for panoramic city views",
+        "View the gilded dragon and carillon mechanism",
+        "Discover UNESCO civic heritage"
+      ],
+      "de": [
+        "Auf den Turm steigen und das Stadtpanorama genießen",
+        "Den vergoldeten Drachen und das Glockenspiel betrachten",
+        "Das UNESCO-Kulturerbe entdecken"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "manzara", "kule"],
+      "en": ["historic", "architecture", "scenic spot", "tower"],
+      "de": ["Historisch", "Architektur", "Aussicht", "Turm"]
+    },
+    "images": [
+      "https://example.com/belfry_ghent.jpg"
+    ]
+  },
+  {
+    "slug": "aziz-bavo-katedrali",
+    "city": "Gent",
+    "name": {
+      "tr": "Aziz Bavo Katedrali",
+      "en": "St. Bavo's Cathedral",
+      "de": "St.-Bavo-Kathedrale"
+    },
+    "latitude": 51.0531,
+    "longitude": 3.7268,
+    "description": {
+      "tr": "Aziz Bavo Katedrali (Sint-Baafskathedral), Gotik ve Barok mimarisiyle Gent'in en önemli dini yapısıdır. Sanat dünyasının en ünlü eserlerinden biri olan Van Eyck kardeşlerin 'Mistik Kuzunun Kuzusu' (Gent Altarpiece) kanatlı tablosuna ev sahipliği yapar. Katedral ana alanını gezmek ücretsizken, özel sanat eseri şapelini görmek biletlidir.",
+      "en": "St. Bavo's Cathedral is an impressive Gothic structure known worldwide for housing the famous 'Adoration of the Mystic Lamb' (Ghent Altarpiece) masterpiece by the Van Eyck brothers. The interior features rich art, elaborate pulpits, and historic crypts.",
+      "de": "Die St.-Bavo-Kathedrale ist eine bedeutende gotische Kirche in Gent. Sie ist weltberühmt für den 'Genter Altar' (Die Anbetung des Lamm Gottes) der Brüder van Eyck sowie für ihre imposante Architektur und Kunstschätze."
+    },
+    "activities": {
+      "tr": [
+        "Gent Altarpiece (Mistik Kuzu) tablosunu görmek",
+        "Gotik mimariyi ve vitray pencereleri incelemek",
+        "Katedral mahzenlerini ziyaret etmek"
+      ],
+      "en": [
+        "Admire the Ghent Altarpiece masterpiece",
+        "Explore Gothic architecture and stained glass",
+        "Visit the cathedral crypt"
+      ],
+      "de": [
+        "Den Genter Altar besichtigen",
+        "Die gotische Architektur bewundern",
+        "Die Krypta erkunden"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "dini", "katedral"],
+      "en": ["historic", "architecture", "religious", "cathedral"],
+      "de": ["Historisch", "Architektur", "Religiös", "Kathedrale"]
+    },
+    "images": [
+      "https://example.com/st_bavo_ghent.jpg"
+    ]
+  },
+  {
+    "slug": "graslei-ve-korenlei",
+    "city": "Gent",
+    "name": {
+      "tr": "Graslei ve Korenlei Kordonu",
+      "en": "Graslei and Korenlei",
+      "de": "Graslei und Korenlei"
+    },
+    "latitude": 51.0547,
+    "longitude": 3.7214,
+    "description": {
+      "tr": "Graslei ve Korenlei, Leie Nehir kıyısında karşılıklı yer alan ve Orta Çağ lonca evleriyle çevrili tarihi bir liman alanıdır. Gent'in en canlı açık hava buluşma noktası olan bu kanal kıyısı, kanal turlarının kalkış noktasıdır. Nehir boyunca yürümek, kafe teraslarında oturmak veya kıyıda dinlenmek tamamen ücretsizdir.",
+      "en": "Graslei and Korenlei are historic quays along the Leie River in central Ghent, lined with uniquely preserved medieval guildhouses. Serving as the heart of Ghent's historic harbor, it is a prime spot for boat tours, outdoor dining, and relaxing by the water.",
+      "de": "Graslei und Korenlei sind historische Uferstraßen an der Leie im Zentrum von Gent. Umgeben von gut erhaltenen Zunfthäusern bildet die Promenade ein beliebtes Ziel für Bootsfahrten, Spaziergänge und Außengastronomie."
+    },
+    "activities": {
+      "tr": [
+        "Kanal kenarında yürüyüş yapmak",
+        "Tekne turlarına katılmak",
+        "Tarihi lonca evlerini fotoğraflamak",
+        "Kanal kıyısındaki kafelerde vakit geçirmek"
+      ],
+      "en": [
+        "Stroll along the historic canal banks",
+        "Take a scenic boat tour",
+        "Photograph historic guildhouses",
+        "Enjoy outdoor cafes by the river"
+      ],
+      "de": [
+        "Entlang des Kanals spazieren",
+        "Eine Bootsfahrt machen",
+        "Die historischen Zunfthäuser fotografieren",
+        "In den Cafés am Ufer verweilen"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "kanal", "mimari", "sokak"],
+      "en": ["historic", "canal", "architecture", "street"],
+      "de": ["Historisch", "Kanal", "Architektur", "Straße"]
+    },
+    "images": [
+      "https://example.com/graslei_korenlei.jpg"
+    ]
+  }
+]

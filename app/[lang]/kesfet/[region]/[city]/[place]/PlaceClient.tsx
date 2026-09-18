@@ -33,6 +33,7 @@ export default function PlaceClient({
   const isEn = lang === "en";
   const langPrefix = lang === "en" ? "/en" : "/tr";
   const cityName = city.charAt(0).toUpperCase() + city.slice(1);
+  
 
   const eventCities = [
     "istanbul",

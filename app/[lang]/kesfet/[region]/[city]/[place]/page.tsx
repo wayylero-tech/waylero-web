@@ -93,12 +93,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   : `${name} Rehberi: Nerede ve Nasıl Gidilir?`;
 
   // 🎯 ESKİ HALİ: .slice(0, 160) yerine Akıllı Kırpma uyguluyoruz
-  const rawDescription = found.description?.[lang] || found.description?.tr || "";
-  const description = smartTrim(rawDescription, 155); 
+  const rawDescription = found.description?.[lang] || found.description?.tr || "";
+  const description = smartTrim(rawDescription, 155);
 
-  const pathUrl = `/kesfet/${region}/${city}/${place}`;
-  const url = `${BASE_URL}/${lang}${pathUrl}`;
-  const ogImageUrl = `${BASE_URL}/og/place.jpg`;
+  const pathUrl = `/kesfet/${region}/${city}/${place}`;
+  const url = `${BASE_URL}/${lang}${pathUrl}`;
+
+  // 🖼️ Mekânın gerçek görselini OG resmi olarak kullan
+  const imagesData = await loadImages(region);
+  const imageGroup = imagesData[city] || {};
+  const imageKey = `${slugify(city)}-${slugify(found.slug)}`;
+  const placeImages = imageGroup[imageKey] || [];
+
+  const ogImageUrl =
+    placeImages.length > 0
+      ? placeImages[0]
+      : `${BASE_URL}/og/place.jpg`;
 
   return {
     title,

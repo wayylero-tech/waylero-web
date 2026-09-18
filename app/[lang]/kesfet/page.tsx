@@ -37,6 +37,7 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   "avustralya": { tr: "Avustralya", en: "Australia" },
   "gurcistan": { tr: "Gürcistan", en: "Georgia" },
   "iskocya": { tr: "İskoçya", en: "Scotland" },
+   "belcika": { tr: "Belçika", en: "Belgium" },
   "galler": { tr: "Galler", en: "Wales" },
   "malezya": { tr: "Malezya", en: "Malaysia" },
   "cin": { tr: "Çin", en: "China" },

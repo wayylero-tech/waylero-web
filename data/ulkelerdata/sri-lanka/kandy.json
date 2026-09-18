@@ -61,5 +61,55 @@
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/c/ca/Temple_of_the_Tooth_Kandy_Sri_Lanka.jpg"
     ]
+  },
+ {
+    "slug": "kandy-golu",
+    "name": {
+      "tr": "Kandy Gölü",
+      "en": "Kandy Lake",
+      "de": "Kandy See"
+    },
+    "latitude": 7.29152,
+    "longitude": 80.64118,
+"description": {
+      "tr": "Kandy Gölü (Kiri Muhuda), Sri Lanka'nın sisli dağlarla çevrili son bağımsız krallık başkenti Kandy'nin tam kalbinde, asil bir zümrüt ayna gibi parıldayan, 19. yüzyılın başlarında inşa edilmiş dünyaca ünlü muazzam bir yapay su yapıtı ve mistik bir şehir koridorudur. Yerel halk tarafından 'Süt Denizi' olarak adlandırılan bu tarihi göl, sadece kentsel bir su kütlesi değil; 1807 yılında son Kandy Kralı Sri Wickrama Rajasinghe'nin vizyoner dehasıyla, hemen kıyısında yükselen ve Budizm dünyasının en kutsal mekanlarından biri kabul edilen Kutsal Diş Emaneti Tapınağı'nı (Sri Dalada Maligawa) estetik olarak tamamlamak için tasarlanmış asil bir yeryüzü mirasıdır. Gölün çevresini saran ve o meşhur dalga şeklindeki neoklasik taş duvarlar olan 'Walakulu Wall' (Bulut Duvarı) patikalarına adım attığınız andan itibaren, modern dünyaya ait tüm zihinsel yorgunluk bir anda silinir; yerini suya akseden tropik ağaçların gölgesine, tapınaktan yükselen mistik davul seslerine ve derin bir ruhsal dinginliğe bırakır. Kandy Gölü'nü dünyada benzersiz ve efsanevi kılan asıl büyük deha, ortasında yer alan ve kralın özel harem sığınağı olarak kullanılan masalsı 'Diyatilaka Mandapaya' adacığı ile gökyüzüne dikilen tropik tepelerin yarattığı o muazzam panoramik silüettir. Göl kıyısı boyunca sıralanan asırlık palmiye ağaçları, egzotik kuş türleri ve her köşede kendisini hissettiren o asil Seylan burjuvazisi, ziyaretçilerine derin bir edebi şiirsellik sunar. Kandy seyahatinizde, dağların pusu eşliğinde o meşhur İsviçre saatini andıran İsviçre-Britanya sömürge mimarisiyle harmanlanmış mistik Kandy kültürü felsefesini en rafine tonlarıyla iliklerinize kadar hissetmek istiyorsanız, Kandy Gölü kesinlikle keşif listenizin en huzurlu ve kaçırılmaması gereken en merkezi başyapıtıdır.",
+      "en": "Kandy Lake, historically known as the Kiri Muhuda or the Sea of Milk, stands proudly as the ultimate historical, spiritual, and scenic sanctuary of central Sri Lanka, masterfully anchoring the absolute center of the sacred mountain capital. Commissioned in 1807 by the tragic last ruling monarch of the Kandyan Kingdom, King Sri Wickrama Rajasinghe, this spectacular artificial body of water operates far beyond a traditional municipal reservoir; it functions as a hallowed living monument designed to visually exalt the adjacent Sri Dalada Maligawa, the world-renowned Temple of the Sacred Tooth Relic. The absolute moment you step onto its historic lakeside promenades, framed by the iconic, undulating white stone structures known as the Walakulu Wall (Cloud Wall), the superficial noise of the modern world instantly dissolves, replaced by a deeply atmospheric aura of mountain mists, soft chanting, and profound inner peace. What makes this landmark truly legendary is its fierce layout harmony, granting visitors the immense privilege of admiring the picturesque Diyatilaka Mandapaya—a tiny, romantic island pavilion anchored in the lake's heart that once served as the king's private pleasure estate. Sweeping along its paths reveals a protected biodiversity matrix thriving with exotic waterfowl, giant monitor lizards, and soaring ancient tropical canopies that reflect off the emerald waters against the dramatic backdrop of the Udawattakele sanctuary hills. Seamlessly bridging royal Sinhalese heritage with refined cultural prestige and peaceful fika corners, this destination captures the poetic pulse of ancient Ceylon. To experience the authentic, serene, and thrilling pulse of Kandy’s majestic water heritage, exploring Kandy Lake is an absolute must-visit crowning destination.",
+      "de": "Der Kandy-See ist ein künstlicher See in der Stadt Kandy, Sri Lanka. Er wurde im 19. Jahrhundert unter der Herrschaft von König Sri Wickrama Rajasinghe erbaut. Der See befindet sich in der Nähe des Zentrums von Kandy und bietet einen atemberaubenden Blick auf die umliegenden Hügel. Der Kandy-See ist eines der bedeutendsten Touristenziele in Sri Lanka und zieht Besucher mit seinen malerischen Spazierwegen, Parks und nahegelegenen religiösen Stätten an.\n"
+    },
+    "activities": {
+      "tr": [
+        "Kandy Gölü etrafında yürüyüş yapmak",
+        "Göl manzarasında fotoğraf çekmek",
+        "Göl çevresindeki parkları gezmek",
+        "Dini yapıları ziyaret etmek"
+      ],
+      "en": [
+        "Walk around Kandy Lake",
+        "Take photos of the lake view",
+        "Explore the parks around the lake",
+        "Visit the nearby religious sites"
+      ],
+      "de": [
+        "Um den Kandy-See spazieren gehen",
+        "Fotos vom See machen",
+        "Die Parks rund um den See erkunden",
+        "Die nahegelegenen religiösen Stätten besuchen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/kandy_lake_1.jpg",
+      "https://example.com/kandy_lake_2.jpg"
+    ]
   }
 ]

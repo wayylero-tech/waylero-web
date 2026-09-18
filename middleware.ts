@@ -28,11 +28,42 @@ const SPECIAL_LEGACY_REDIRECTS: Record<string, string> = {
 
   "/en/kesfet/turkey/mersin/ayvagedigi-plaji":
     "/en/kesfet/turkey/mersin/ayvagedigi-yaylasi",
+    
+// --- BRUGGE / ÇAN KULESİ ---
+  "/tr/kesfet/fransa/brugge/belcika-ve-fransa-nin-can-kulesi":
+    "/tr/kesfet/belcika/brugge/brugge-can-kulesi",
+
+  "/en/kesfet/fransa/brugge/belcika-ve-fransa-nin-can-kulesi":
+    "/en/kesfet/belcika/brugge/brugge-can-kulesi",
 
   // --- HONG KONG (TR & EN) ---
   "/tr/kesfet/cin/hong-kong": "/tr/kesfet/cin/hongkong",
   "/tr/cin/hongkong": "/tr/kesfet/cin/hongkong",
   "/en/kesfet/cin/hong-kong": "/en/kesfet/cin/hongkong",
+
+  // --- ORDESA ---
+  "/tr/kesfet/fransa/ordesa": "/tr/kesfet/ispanya/ordesa",
+  "/en/kesfet/fransa/ordesa": "/en/kesfet/ispanya/ordesa",
+
+  // --- TOULOUSE & CHARTRES DÜZELTMELERİ ---
+  "/tr/kesfet/fransa/toulse": "/tr/kesfet/fransa/toulouse",
+  "/en/kesfet/fransa/toulse": "/en/kesfet/fransa/toulouse",
+
+ "/tr/kesfet/fransa/chartes": "/tr/kesfet/fransa/chartres",
+  "/en/kesfet/fransa/chartes": "/en/kesfet/fransa/chartres",
+
+// --- XI'AN ESKİ URL'LER (TR & EN) ---
+"/tr/kesfet/cin/xi-anfianal":
+  "/tr/kesfet/cin/xi-an",
+
+"/en/kesfet/cin/xi-anfianal":
+  "/en/kesfet/cin/xi-an",
+
+"/tr/kesfet/cin/xi-anfiana":
+  "/tr/kesfet/cin/xi-an",
+
+"/en/kesfet/cin/xi-anfiana":
+  "/en/kesfet/cin/xi-an",
 
   // --- NEW YORK (TR & EN) ---
   "/tr/amerika/newyork": "/tr/kesfet/amerika/newyork",
@@ -41,6 +72,60 @@ const SPECIAL_LEGACY_REDIRECTS: Record<string, string> = {
   // --- AFYONKARAHİSAR (TR & EN) ---
   "/tr/aktiviteler/afyon": "/tr/aktiviteler/afyonkarahisar",
   "/en/aktiviteler/afyon": "/en/aktiviteler/afyonkarahisar",
+
+  "/tr/kesfet/fransa/brugge":
+  "/tr/kesfet/belcika/brugge",
+
+"/en/kesfet/fransa/brugge":
+  "/en/kesfet/belcika/brugge",
+
+  // --- SRI LANKA / POLONNARUWA ---
+"/tr/kesfet/sri-lanka/sri-lanka":
+  "/tr/kesfet/sri-lanka/polonnaruwa",
+
+"/en/kesfet/sri-lanka/sri-lanka":
+  "/en/kesfet/sri-lanka/polonnaruwa",
+
+  // --- SRI LANKA ESKİ ŞEHİR URL'LERİ ---
+
+"/tr/kesfet/sri-lanka/sri-lanka/sigiriya-kayasi":
+  "/tr/kesfet/sri-lanka/sigiriya/sigiriya-kayasi",
+
+"/en/kesfet/sri-lanka/sri-lanka/sigiriya-kayasi":
+  "/en/kesfet/sri-lanka/sigiriya/sigiriya-kayasi",
+
+"/tr/kesfet/sri-lanka/sri-lanka/polonnaruwa-antik-kenti":
+  "/tr/kesfet/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti",
+
+"/en/kesfet/sri-lanka/sri-lanka/polonnaruwa-antik-kenti":
+  "/en/kesfet/sri-lanka/polonnaruwa/polonnaruwa-antik-kenti",
+
+"/tr/kesfet/sri-lanka/sri-lanka/kandy-golu":
+  "/tr/kesfet/sri-lanka/kandy/kandy-golu",
+
+"/en/kesfet/sri-lanka/sri-lanka/kandy-golu":
+  "/en/kesfet/sri-lanka/kandy/kandy-golu",
+
+  // --- BELARUS ESKİ URL'LERİ ---
+
+"/tr/kesfet/belarus/belarus":
+  "/tr/kesfet/belarus/brest",
+
+"/en/kesfet/belarus/belarus":
+  "/en/kesfet/belarus/brest",
+
+"/tr/kesfet/belarus/belarus/minsk-baskent":
+  "/tr/kesfet/belarus/minsk/minsk-baskent",
+
+"/en/kesfet/belarus/belarus/minsk-baskent":
+  "/en/kesfet/belarus/minsk/minsk-baskent",
+
+"/tr/kesfet/belarus/belarus/brest-kalesi":
+  "/tr/kesfet/belarus/brest/brest-kalesi",
+
+"/en/kesfet/belarus/belarus/brest-kalesi":
+  "/en/kesfet/belarus/brest/brest-kalesi",
+
 };
 
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;

@@ -131,6 +131,18 @@
       "en": "Russia offers diverse travel experiences through historic cities such as Moscow and Saint Petersburg, as well as its vast geography and varied cultural regions."
     }
   },
+{
+"id": "belcika",
+  "country_name": {
+    "tr": "Belçika",
+    "en": "Belgium"
+  },
+  "summary": {
+    "tr": "Belçika; Brüksel, Brugge ve Gent gibi tarihi şehirleri, orta çağ mimarisi, zengin çikolata ve bira kültürü ile kompakt ama renkli seyahat deneyimleri sunar.",
+    "en": "Belgium offers compact yet vibrant travel experiences through historic cities such as Brussels, Bruges, and Ghent, alongside its medieval architecture and rich chocolate and beer culture."
+}
+
+  },
   {
     "id": "portekiz",
     "country_name": {

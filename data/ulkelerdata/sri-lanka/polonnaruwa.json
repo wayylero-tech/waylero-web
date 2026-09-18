@@ -1,0 +1,56 @@
+[
+    {
+    "slug": "polonnaruwa-antik-kenti",
+    "name": {
+      "tr": "Polonnaruwa Antik Kenti",
+      "en": "Polonnaruwa Ancient City",
+      "de": "Antike Stadt Polonnaruwa"
+    },
+    "latitude": 7.94596,
+    "longitude": 81.00033,
+   "description": {
+      "tr": "Polonnaruwa Antik Kenti, Sri Lanka'nın kültürel üçgeninin tam kalbinde, balta girmemiş tropik ormanların ve yapay göllerin arasında masalsı bir zaman kapsülü gibi uzanan, UNESCO Dünya Mirası Listesi'ndeki en asil, en mistik ve en sarsıcı arkeolojik başyapıtlardan biridir. Anuradhapura'nın düşüşünün ardından, 11. ve 12. yüzyıllarda Seylan adasının ikinci büyük görkemli başkenti olarak hüküm süren bu kadim krallık, sadece taş kalıntıların sıralandığı sıradan bir ören yeri değil; Budist felsefesi ile mühendislik dehasının yeryüzündeki en rafine, en elit sentezidir. Kentin asırlık banyan ağaçlarının kökleriyle sarılmış o geniş toprak yollarına adım atıp tarihi saray kalıntıları arasına saptığınız andan itibaren, modern dünyaya ait tüm zihinsel karmaşa bir anda silinir; yerini bin yıllık granit duvarların fısıltısına ve mistik bir esrimenin o büyüleyici atmosferine bırakır. Polonnaruwa'yı dünyada benzersiz ve kutsal kılan asıl büyük deha, dahi Kral I. Parakramabahu döneminde inşa edilen ve adeta bir denizi andıran devasa yapay su bendi Parakrama Samudra'nın yanı sıra, tek bir canlı granit kayanın gövdesine paha biçilemez bir zarafetle oyulmuş o meşhur dört muazzam Buda heykelini barındran Gal Vihara tapınağıdır. Ziyaretçileri mimari geometrisiyle büyüleyen dairesel Vatadage tapınağı, gökyüzüne meydan okuyan tuğla stupalar ve yedi katlı kraliyet sarayının kalıntıları, burada yürüyen her ruha derin bir entelektüel huşu fısıldar. Sri Lanka seyahatinizde Asya'nın o meşhur epik krallık mirasını, asil mimari lüksü ve doğanın kalbindeki o dingin Budist öğretisini bizzat yerinde keşfetmek istiyorsanız, Polonnaruwa keşif listenizin kesinlikle en görkemli tepe noktasıdır.",
+      "en": "The Ancient City of Polonnaruwa stands proudly as the ultimate historical, spiritual, and architectural sanctuary of Sri Lanka, masterfully resting within the sun-drenched plains of the island’s cultural triangle as a sublime UNESCO World Heritage site. Serving as the second glorious medieval capital of the Sinhalese Kingdom during the 11th and 12th centuries following the destruction of Anuradhapura, this spectacular archaeological park operates far beyond a traditional complex of ruins; it functions as a hallowed living monument representing the absolute pinnacle of ancient Asian hydraulic engineering, Buddhist philosophy, and royal sovereignty. The absolute moment you explore its expansive, forest-fringed pathways beneath the canopy of ancient banyan trees, the modern world instantly dissolves, replaced by a deeply atmospheric aura of weathering brick monuments, spiritual awe, and profound historical luxury. What makes this landmark truly legendary is its fierce, unparalleled structural design, granting visitors the immense privilege of standing before the iconic Gal Vihara—a breathtaking rock sanctuary where four monumental, serene figures of the Buddha are masterfully carved directly into a single massive granite cliff face. The sensory and emotional journey spans seamlessly from the multi-tiered ruins of King Parakramabahu I’s grand royal palace to the perfectly symmetrical concentric brickwork of the sacred Polonnaruwa Vatadage. Flanked by the vast, ocean-like artificial reservoir of the Parakrama Samudra and towering dome stupas, this destination bridges deep religious devotion with extraordinary engineering triumph. To experience the authentic, poetic, and thrilling pulse of ancient Ceylon's golden age, exploring Polonnaruwa is an absolute must-visit crowning destination.",
+      "de": "Die Antike Stadt Polonnaruwa ist eine der alten Hauptstädte von Sri Lanka und ist als UNESCO-Weltkulturerbe gelistet. Sie war im 11. und 12. Jahrhundert nach Anuradhapura die Hauptstadt von Sri Lanka. Die antike Stadt ist bekannt für ihre historischen Tempel, große Statuen und Palastruinen. Die massiven Bauwerke aus der Regierungszeit von König Parakramabahu I. gehören zu den wichtigsten Sehenswürdigkeiten der Region. Polonnaruwa bietet den Besuchern die Möglichkeit, das reiche historische und kulturelle Erbe zu entdecken.\n"
+    },
+    "activities": {
+      "tr": [
+        "Polonnaruwa Antik Kenti’ni keşfetmek",
+        "Büyük Buddha Heykeli’ni görmek",
+        "Parakramabahu Sarayı’nı gezmek",
+        "Tarihi tapınakları ziyaret etmek",
+        "Şehirde fotoğraf çekmek"
+      ],
+      "en": [
+        "Explore Polonnaruwa Ancient City",
+        "See the Great Buddha Statue",
+        "Visit the Palace of Parakramabahu",
+        "Tour the ancient temples",
+        "Take photos around the city"
+      ],
+      "de": [
+        "Die Antike Stadt Polonnaruwa erkunden",
+        "Die Große Buddha-Statue sehen",
+        "Den Palast von Parakramabahu besuchen",
+        "Die antiken Tempel besichtigen",
+        "Fotos in der Stadt machen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "antik kent"
+      ],
+      "en": [
+        "ancient site"
+      ],
+      "de": [
+        "Antike Stätte"
+      ]
+    },
+    "images": [
+      "https://example.com/polonnaruwa_ancient_city_1.jpg",
+      "https://example.com/polonnaruwa_ancient_city_2.jpg"
+    ]
+  }
+ 
+]

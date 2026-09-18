@@ -1,7 +1,12 @@
 {
-  "belarus": {
-    "belarus-minsk-baskent": [
-      "places/europa/belarus/belarus-minsk-baskent/nwkdv43ffckdibddmgfu"
+  "minsk": {
+    "minsk-minsk-baskent": [
+      "places/europa/belarus/belarus-minsk-baskent/nwkdv43ffckdibddmgfu","places/europa/minsk/minsk-baskent/minsk-baskent_1789759568030_0.761338166939486"
     ]
+  },
+"brest": {
+    "brest-brest-kalesi": [
+"places/europa/brest/brest-kalesi/brest-kalesi_1789759344462_0.7511014116114191","places/europa/brest/brest-kalesi/brest-kalesi_1789759352809_0.9547345734271708","places/europa/brest/brest-kalesi/brest-kalesi_1789759360573_0.032232010225833996"    ]
   }
+
 }

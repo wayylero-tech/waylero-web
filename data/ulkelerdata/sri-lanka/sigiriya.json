@@ -1,0 +1,53 @@
+[
+  
+{
+    "slug": "sigiriya-kayasi",
+    "name": {
+      "tr": "Sigiriya Kayası",
+      "en": "Sigiriya Rock",
+      "de": "Sigiriya Felsen"
+    },
+    "latitude": 7.9566,
+    "longitude": 80.7602,
+    "description": {
+      "tr": "Sigiriya (Aslan Kayası), Sri Lanka'nın balta girmemiş tropik muson ormanlarının tam kalbinde, magma kırılmalarıyla gökyüzüne doğru fırlatılmış 200 metrelik devasa bir granit kütlesinin zirvesinde yükselen, mühendislik dehası ile mistik krallık ihtişamını buluşturan dünyaca ünlü muazzam bir saray-kale kompleksi ve UNESCO Dünya Mirası Listesi'ndeki en sarsıcı yeryüzü tapınağıdır. Genellikle 'Dünyanın Gayriresmi Sekizinci Harikası' olarak anılan bu antik sit alanı, sıradan bir arkeolojik kalıntı değil; MS 5. yüzyılda çılgın ve dahi Kral Kasyapa'nın, babasını katledip tahtı gasp ettikten sonra üvey kardeşinin gazabından kaçmak için bulutların üzerine inşa ettirdiği asil, kibirli ve paha biçilemez bir gökyüzü sığınağıdır. Kayanın çevresindeki simetrik su bahçelerine, hendeklere ve fıskiyeli tarihi havuzlara adım attığınız andan itibaren, modern dünyaya ait tüm kentsel algılar bir anda silinir; yerini bin yıllık terasların gizemli fısıltısına ve insan iradesinin o büyüleyici atmosferine bırakır. Sigiriya'yı dünyada benzersiz ve masalsı kılan asıl büyük deha, zirveye tırmanan 1200 basamaklı dikey rotanın ortasında yer alan ve kayanın gövdesine asırlar önce özel bir sıvayla resmedilmiş, apsaraları (göksel su perilerini) tasvir eden o meşhur rengarenk 'Sigiriya Freskleri' ile kralların ihtişamını yansıtan cilalı 'Ayna Duvarı'dır (Mirror Wall). Ziyaretçileri devasa iki aslan pençesinin (Lion's Paw) arasından geçiren o görkemli ana kapıdan geçip rüzgarlı zirve düzlüğüne ulaştığınızda; antik kraliyet havuzlarının, taht odalarının kalıntılarının ve ayaklarınızın altına serilen uçsuz bucaksız zümrüt orman denizinin 360 derecelik o nefes kesen panoraması karşısında büyülenirsiniz. Sri Lanka seyahatinizde Asya'nın o meşhur derin, egzotik ve sarsıcı gücünü tüm duyularınızla bizzat hissederek keşfetmek istiyorsanız, Sigiriya rotanızın kesinlikle en görkemli tepe noktasıdır.",
+      "en": "Sigiriya, the legendary Lion Rock, stands proudly as the ultimate archaeological, historical, and panoramic sanctuary of Sri Lanka, masterfully rising as a sheer 200-meter-high granite monolith from the emerald depths of the central cultural triangle's tropical forests. Celebrated globally as an unofficial eighth wonder of the world and protected as a sublime UNESCO World Heritage site, this spectacular fortress-palace complex operates far beyond a traditional historic ruin; it functions as a hallowed living time capsule bridging dramatic military deha with the eccentric architectural vision of King Kasyapa in the 5th century AD. The absolute moment you step through its meticulously engineered outer moats into the world's oldest landscaped water, boulder, and terraced pleasure gardens, the modern world instantly dissolves, replaced by a deeply atmospheric aura of creative awe, mystic royal isolation, and profound historical luxury. What makes this landmark truly legendary is its fierce, gravity-defying structural layout, granting visitors the immense privilege of ascending 1,200 steep steps while encountering the paradigm-shifting 'Sigiriya Frescoes'—vibrant, centuries-old celestial nymphs painted directly onto the sheer rock face—flanked by the historic, highly polished Mirror Wall that echoes ancient graffiti. The sensory and emotional climax of the journey peaks at the mid-level terrace, where you pass through the colossal stone remnants of the iconic Lion's Paws to conquer the windswept summit. Upon the crown, the sprawling ruins of the royal palace, sacred bathing pools, and defensive parapets reveal an unobstructed, breathtaking 360-degree visual feast of the misty Sri Lankan jungle canopy below. To experience the authentic, poetic, and thrilling pulse of ancient Asian sovereignty, exploring Sigiriya is an absolute must-visit crowning destination.",
+      "de": "Der Sigiriya-Felsen ist eine historische und natürliche Stätte in Sri Lanka. Er wurde im 5. Jahrhundert v. Chr. von König Kasyapa als königlicher Palast und Festung erbaut. Der 200 Meter hohe Felsen bietet eine atemberaubende historische und natürliche Schönheit. Sigiriya ist ein UNESCO-Weltkulturerbe, und auf seinem Gipfel können Besucher Palastruinen und die berühmten Sigiriya-Fresken sehen. Besucher können den Felsen erklimmen, um diese historischen Stätten zu erkunden und die atemberaubende Aussicht zu genießen.\n"
+    },
+    "activities": {
+      "tr": [
+        "Sigiriya Kayası’na tırmanmak",
+        "Freskleri incelemek",
+        "Tarihi saray kalıntılarını keşfetmek",
+        "Manzaranın tadını çıkarmak"
+      ],
+      "en": [
+        "Climb Sigiriya Rock",
+        "Examine the frescoes",
+        "Explore the palace ruins",
+        "Enjoy the view"
+      ],
+      "de": [
+        "Den Sigiriya-Felsen erklimmen",
+        "Die Fresken untersuchen",
+        "Die Palastruinen erkunden",
+        "Die Aussicht genießen"
+      ]
+    },
+    "categories": {
+      "tr": [
+        "doğa"
+      ],
+      "en": [
+        "nature"
+      ],
+      "de": [
+        "Natur"
+      ]
+    },
+    "images": [
+      "https://example.com/sigiriya_rock_1.jpg",
+      "https://example.com/sigiriya_rock_2.jpg"
+    ]
+  }
+]

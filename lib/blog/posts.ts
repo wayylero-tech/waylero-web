@@ -70,6 +70,8 @@ import { boluyedigollerPosts } from "@/data/blog/bolu/bolu";
 import { borckaKaragolPosts } from "@/data/blog/artvin/borkca";
 import { safranboluPosts } from "@/data/blog/karabuk/safranbolu";
 import { amasraPosts } from "@/data/blog/bartin/amasra";
+import {dunyasonbaharPosts} from "@/data/blog/genel/dunya";
+import {turkeysonbaharPosts} from "@/data/blog/turkey/sonbahar";
 
 
 
@@ -145,7 +147,9 @@ export const allPosts = [
 ...boluyedigollerPosts,
 ...borckaKaragolPosts,
 ...safranboluPosts,
-...amasraPosts
+...amasraPosts,
+...dunyasonbaharPosts,
+...turkeysonbaharPosts
 
 
 ];

@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "brugge-can-kulesi",
+    "city": "Brugge",
+    "name": {
+      "tr": "Brugge Çan Kulesi",
+      "en": "Belfry of Bruges",
+      "de": "Belfried von Brügge"
+    },
+    "latitude": 51.2083,
+    "longitude": 3.2248,
+    "description": {
+      "tr": "Brugge Çan Kulesi (Belfort van Brugge), 83 metrelik yüksekliğiyle şehrin en belirgin Orta Çağ simgesidir. UNESCO Dünya Mirası Listesi'nde yer alan kule, 13. yüzyılda inşa edilmiş ve kentsel bağımsızlığın sembolü olmuştur. Zirvesindeki panoramik seyir terasına çıkmak için 366 basamak tırmanılır; kule içinde 47 çanlı tarihi bir carillon mekanizması bulunur. İç mekan ve kule tırmanışı biletlidir.",
+      "en": "The Belfry of Bruges is a medieval bell tower standing 83 meters high in the heart of Bruges. Included in the UNESCO World Heritage list, it was built in the 13th century to store civic treasures and serve as an observation post. Visitors can climb its 366 steps for sweeping city views and see its historic 47-bell carillon mechanism.",
+      "de": "Der Belfried von Brügge ist ein 83 Meter hoher mittelalterlicher Glockenturm im Zentrum von Brügge und gehört zum UNESCO-Welterbe. Die 366 Stufen führen zu einer Aussichtsplattform mit Blick über die historische Altstadt und das historische Glockenspiel."
+    },
+    "activities": {
+      "tr": [
+        "366 basamağı tırmanarak panoramik Brugge manzarasını izlemek",
+        "Tarihi carillon çan sistemini incelemek",
+        "UNESCO mirası sivil mimariyi keşfetmek"
+      ],
+      "en": [
+        "Climb the 366 steps for panoramic city views",
+        "Examine the historic carillon mechanism",
+        "Discover UNESCO civic heritage"
+      ],
+      "de": [
+        "Die 366 Stufen für eine Panoramaaussicht erklimmen",
+        "Das historische Glockenspiel betrachten",
+        "Das UNESCO-Kulturerbe entdecken"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "manzara", "kule"],
+      "en": ["historic", "architecture", "scenic spot", "tower"],
+      "de": ["Historisch", "Architektur", "Aussicht", "Turm"]
+    },
+    "images": [
+      "https://example.com/belfry_bruges.jpg"
+    ]
+  },
+  {
+    "slug": "grote-markt-brugge",
+    "city": "Brugge",
+    "name": {
+      "tr": "Grote Markt (Pazar Meydanı)",
+      "en": "Market Square (Markt)",
+      "de": "Grote Markt"
+    },
+    "latitude": 51.2086,
+    "longitude": 3.2245,
+    "description": {
+      "tr": "Grote Markt, Brugge'ün tarihi kent merkezinin ana pazar meydanıdır. Rengarenk lonca evleri, neogotik Eyalet Sarayı (Provinciaal Hof) ve görkemli Çan Kulesi ile çevrilidir. Araç trafiğine kapalı olan meydan; fayton turlarının başlangıç noktası, açık hava restoranları ve geleneksel pazarlarıyla şehrin en kalabalık buluşma noktasıdır. Meydanda gezmek tamamen ücretsizdir.",
+      "en": "The Market Square (Markt) is the historic heart of Bruges, surrounded by colorful gabled guildhouses, the neo-Gothic Provincial Court, and the towering Belfry. Serving as a pedestrianized hub for horse-drawn carriage tours, open-air cafes, and traditional markets, it is the city's central landmark.",
+      "de": "Der Grote Markt ist der zentrale Platz der Altstadt von Brügge. Umgeben von bunten Zunfthäusern, dem neugotischen Provinzpalast und dem Belfried bildet er das touristische Zentrum der Stadt mit Pferdekutschen und Außenbereichen von Restaurants."
+    },
+    "activities": {
+      "tr": [
+        "Renkli lonca evlerini ve neogotik mimariyi fotoğraflamak",
+        "Fayton turlarına katılmak",
+        "Meydan kafelerinde Belçika waffle'ı ve birası denemek"
+      ],
+      "en": [
+        "Photograph colorful gabled guildhouses and architecture",
+        "Take a traditional horse-drawn carriage tour",
+        "Enjoy Belgian waffles and beers at outdoor cafes"
+      ],
+      "de": [
+        "Bunte Zunfthäuser und Neugotik fotografieren",
+        "Eine Kutschfahrt buchen",
+        "In den Cafés belgische Waffeln und Bierspezialitäten genießen"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "kultur", "meydan"],
+      "en": ["historic", "architecture", "cultural", "square"],
+      "de": ["Historisch", "Architektur", "Kulturell", "Platz"]
+    },
+    "images": [
+      "https://example.com/grote_markt_bruges.jpg"
+    ]
+  },
+  {
+    "slug": "minnewater-parki",
+    "city": "Brugge",
+    "name": {
+      "tr": "Minnewater Parkı (Aşk Gölü)",
+      "en": "Minnewater Park (Lake of Love)",
+      "de": "Minnewater-Park"
+    },
+    "latitude": 51.1994,
+    "longitude": 3.2241,
+    "description": {
+      "tr": "Minnewater Parkı ve gölü, Brugge'ün güney girişinde yer alan romantik ve huzurlu bir doğa alanıdır. 'Aşk Gölü' olarak bilinen alan; kuğuları, tarihi kuleli köprüsü, şato tarzı binaları ve ağaçlıklı yürüyüş yollarıyla ünlüdür. Şehir merkezine kısa bir yürüyüş mesafesinde yer alan parka giriş ve park içinde gezinti tamamen ücretsizdir.",
+      "en": "Minnewater Park and its iconic 'Lake of Love' form a tranquil green sanctuary at the southern entrance of Bruges. Famous for its resident swans, historic watchtower bridge, castle-like structures, and shaded paths, it offers one of the most romantic settings in the city.",
+      "de": "Der Minnewater-Park mit seinem 'See der Liebe' ist eine ruhige Grünanlage im Süden von Brügge. Die Parkanlage ist bekannt für ihre Schwäne, die historische Turmbrücke und schattige Spazierwege."
+    },
+    "activities": {
+      "tr": [
+        "Gölet ve kuğular eşliğinde romantik yürüyüşler yapmak",
+        "Tarihi Minnewater Köprüsü'nü ve kuleyi fotoğraflamak",
+        "Doğa içinde dinlenmek"
+      ],
+      "en": [
+        "Take romantic walks along the lake and watch the swans",
+        "Photograph the historic Minnewater Bridge and watchtower",
+        "Relax in a tranquil park setting"
+      ],
+      "de": [
+        "Romantische Spaziergänge am See unternehmen",
+        "Die historische Brücke und den Turm fotografieren",
+        "In der Natur entspannen"
+      ]
+    },
+    "categories": {
+      "tr": ["doga", "park", "romantik", "manzara"],
+      "en": ["nature", "park", "romantic", "scenic spot"],
+      "de": ["Natur", "Park", "Romantisch", "Aussicht"]
+    },
+    "images": [
+      "https://example.com/minnewater_bruges.jpg"
+    ]
+  },
+  {
+    "slug": "kutsal-kan-bazilikasi",
+    "city": "Brugge",
+    "name": {
+      "tr": "Kutsal Kan Bazilikası",
+      "en": "Basilica of the Holy Blood",
+      "de": "Heilig-Blut-Basilika"
+    },
+    "latitude": 51.2081,
+    "longitude": 3.2267,
+    "description": {
+      "tr": "Kutsal Kan Bazilikası (Heilig-Bloedbasiliek), Burg Meydanı'nda yer alan 12. yüzyıldan kalma iki katlı tarihi bir kilisedir. Alt katı Romanesk tarzda kalmışken, üst katı 19. yüzyılda Neogotik tarzda yenilenmiştir. Haçlı Seferleri sırasında İkinci Haçlı Seferi'nden getirildiğine inanılan İsa Peygamber'in kan damlası kalıntısına ev sahipliği yapmasıyla dini açıdan büyük önem taşır. Alt kilise ücretsiz, kutsal emanet ve müze bölümü biletlidir.",
+      "en": "The Basilica of the Holy Blood is a 12th-century church located on the Burg square. It consists of a lower Romanesque chapel and an upper Neo-Gothic chapel housing a revered relic: a vial said to contain the blood of Jesus Christ brought from the Second Crusade.",
+      "de": "Die Heilig-Blut-Basilika am Burg-Platz ist eine Doppelkapelle aus dem 12. Jahrhundert. Die Unterkirche ist romanisch, die Oberkirche neugotisch gestaltet. Sie beherbergt eine Reliquie mit dem Blut Christi aus der Zeit der Kreuzzüge."
+    },
+    "activities": {
+      "tr": [
+        "Romanesk ve Neogotik mimari kombinasyonunu incelemek",
+        "Kutsal Kan emaneti şapelini ve müzeyi ziyaret etmek",
+        "Burg Meydanı'ndaki tarihi atmosferi yaşamak"
+      ],
+      "en": [
+        "Observe the combination of Romanesque and Neo-Gothic architecture",
+        "Visit the relic chapel and museum",
+        "Experience the historic ambiance of Burg square"
+      ],
+      "de": [
+        "Die Kombination aus Romanik und Neugotik betrachten",
+        "Die Reliquienkapelle und das Museum besuchen",
+        "Die historische Atmosphäre am Burg-Platz erleben"
+      ]
+    },
+    "categories": {
+      "tr": ["tarih", "mimari", "dini", "kilise"],
+      "en": ["historic", "architecture", "religious", "church"],
+      "de": ["Historisch", "Architektur", "Religiös", "Kirche"]
+    },
+    "images": [
+      "https://example.com/holy_blood_bruges.jpg"
+    ]
+  }
+]
