@@ -72,6 +72,7 @@ import { safranboluPosts } from "@/data/blog/karabuk/safranbolu";
 import { amasraPosts } from "@/data/blog/bartin/amasra";
 import {dunyasonbaharPosts} from "@/data/blog/genel/dunya";
 import {turkeysonbaharPosts} from "@/data/blog/turkey/sonbahar";
+import { baskonusPosts } from "@/data/blog/kahramanmaras/baskonus";
 
 
 
@@ -149,7 +150,8 @@ export const allPosts = [
 ...safranboluPosts,
 ...amasraPosts,
 ...dunyasonbaharPosts,
-...turkeysonbaharPosts
+...turkeysonbaharPosts,
+...baskonusPosts
 
 
 ];

@@ -308,8 +308,8 @@ export default function RegionClient({
         ]?.[0];
 
       const selectedPlaces = places
-        .filter(Boolean)
-        .slice(0, 5);
+  .filter(Boolean)
+  .slice(0, 3);
 
       return {
         name: formatCityName(cityKey, lang),
@@ -393,18 +393,16 @@ export default function RegionClient({
                 <div className="relative aspect-[4/5] overflow-hidden bg-gray-900">
                   {city.coverImage ? (
                     <img
-                      src={getCloudinaryUrl(
-                        city.coverImage,
-                        600
-                      )}
-                      alt={city.name}
-                      loading={
-                        index < 3
-                          ? "eager"
-                          : "lazy"
-                      }
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                    />
+  src={getCloudinaryUrl(
+    city.coverImage,
+    400
+  )}
+  alt={city.name}
+  loading={index === 0 ? "eager" : "lazy"}
+  fetchPriority={index === 0 ? "high" : "low"}
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+/>
                   ) : (
                     <>
                       <img

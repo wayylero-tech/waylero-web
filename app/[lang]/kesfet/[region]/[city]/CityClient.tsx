@@ -380,7 +380,7 @@ const actualCityKey =
       {/* 2. PLACES GRID */}
       <section className="container mx-auto px-6 -mt-24 pb-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          {cityPlaces.map((place: any) => {
+         {cityPlaces.map((place: any, index: number) => {
             const placeName = place.name?.[lang] || place.name?.tr || "Place";
             const imageKey = `${slugify(actualCityKey)}-${slugify(place.slug)}`;
             const coverImage = cityImages[imageKey]?.[0] || cityImages[place.slug]?.[0];
@@ -395,11 +395,14 @@ const actualCityKey =
               >
                 <div className="relative aspect-[4/5] overflow-hidden">
                   {coverImage ? (
-                    <img
-                      src={getCloudinaryUrl(coverImage, 600)}
-                      alt={placeName}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                    />
+               <img
+  src={getCloudinaryUrl(coverImage, 400)}
+  alt={placeName}
+  loading={index === 0 ? "eager" : "lazy"}
+  fetchPriority={index === 0 ? "high" : "low"}
+  decoding="async"
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+/>
                   ) : (
                     /* 🌟 Tamamen Özelleştirilmiş Vektörel Kart Arka Planı */
                     <div className="absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105">
