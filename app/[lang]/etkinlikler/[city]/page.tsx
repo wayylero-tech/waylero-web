@@ -58,8 +58,8 @@ export async function generateMetadata({
     : `${cityName} Tours & Experiences | Waylero`;
 
   const description = isTR
-    ? `${cityName} için gezi rehberi, yapılacaklar, günlük rota önerileri, seyahat ipuçları ve en iyi turları keşfedin.`
-    : `Discover the best things to do in ${cityName}, including travel tips, itinerary ideas, tours and experiences.`;
+      ? `${cityName} turlarını, aktivitelerini ve seyahat deneyimlerini keşfedin. Şehirde yapılacak şeyleri ve popüler tur seçeneklerini inceleyin.`
+  : `Discover tours, activities and travel experiences in ${cityName}. Explore things to do and popular tour options for your trip.`;
 
   return {
     title,

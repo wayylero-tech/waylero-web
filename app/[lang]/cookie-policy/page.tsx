@@ -4,26 +4,32 @@ type Props = {
   params: Promise<{ lang: string }>;
 };
 
-// 🌍 SEO ve Metadata
+// --- SEO ve Metadata ---
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   const isEn = lang === "en";
   const baseUrl = "https://www.waylero.com";
 
-  return {
-    title: isEn
-      ? "Cookie Policy | Waylero"
-      : "Çerez Politikası | Waylero",
+  const title = isEn
+    ? "Cookie Policy | Waylero"
+    : "Çerez Politikası | Waylero";
 
-    description: isEn
-      ? "Waylero's cookie policy explains how cookies and similar technologies are used on the platform."
-      : "Waylero çerez politikası, çerezlerin ve benzer teknolojilerin platform üzerinde nasıl kullanıldığını açıklar.",
+  const description = isEn
+    ? "Learn how Waylero uses cookies and similar technologies to improve website functionality, security, analytics and user experience."
+    : "Waylero'nun çerezleri ve benzer teknolojileri web sitesi işlevleri, güvenlik, analiz ve kullanıcı deneyimini geliştirmek amacıyla nasıl kullandığını öğrenin.";
+
+  const url = `${baseUrl}/${isEn ? "en" : "tr"}/cookie-policy`;
+
+  return {
+    title,
+    description,
 
     alternates: {
-      canonical: `${baseUrl}${isEn ? "/en" : ""}/cerez-politikasi`,
+      canonical: url,
       languages: {
-        "tr-TR": `${baseUrl}/cerez-politikasi`,
-        "en-US": `${baseUrl}/en/cerez-politikasi`,
+        "tr-TR": `${baseUrl}/tr/cookie-policy`,
+        "en-US": `${baseUrl}/en/cookie-policy`,
+        "x-default": `${baseUrl}/en/cookie-policy`,
       },
     },
 
@@ -31,12 +37,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       index: true,
       follow: true,
     },
+
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Waylero",
+      locale: isEn ? "en_US" : "tr_TR",
+      type: "website",
+    },
+
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
   };
 }
 
 export default async function CookiePolicyPage({ params }: Props) {
   const { lang } = await params;
   const isEn = lang === "en";
+
+  const pageUrl = `https://www.waylero.com/${
+    isEn ? "en" : "tr"
+  }/cookie-policy`;
 
   const content = {
     title: isEn ? "Cookie Policy" : "Çerez Politikası",
@@ -163,88 +188,112 @@ export default async function CookiePolicyPage({ params }: Props) {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-20 bg-white">
-      <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-gray-900 tracking-tight">
-        {content.title}
-      </h1>
+    <>
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: content.title,
+            description: isEn
+              ? "Waylero's cookie policy explains how cookies and similar technologies are used on the platform."
+              : "Waylero çerez politikası, çerezlerin ve benzer teknolojilerin platform üzerinde nasıl kullanıldığını açıklar.",
+            url: pageUrl,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "Waylero",
+              url: "https://www.waylero.com",
+            },
+            inLanguage: isEn ? "en-US" : "tr-TR",
+          }),
+        }}
+      />
 
-      <p className="text-xs text-gray-400 mb-12 font-black uppercase tracking-widest italic border-b pb-6">
-        {content.date}
-      </p>
+      <div className="max-w-4xl mx-auto px-6 py-20 bg-white">
+        <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-gray-900 tracking-tight">
+          {content.title}
+        </h1>
 
-      <section className="space-y-12 text-gray-700 leading-relaxed">
-        {/* Vurgu Kutusu */}
-        <div className="bg-orange-50 p-8 rounded-[2.5rem] border border-orange-100 relative overflow-hidden transition-hover hover:shadow-lg duration-500">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-orange-100/50 rounded-full -mr-16 -mt-16" />
+        <p className="text-xs text-gray-400 mb-12 font-black uppercase tracking-widest italic border-b pb-6">
+          {content.date}
+        </p>
 
-          <h2 className="text-2xl font-serif font-bold mb-4 text-orange-900 relative z-10">
-            {content.introTitle}
-          </h2>
+        <section className="space-y-12 text-gray-700 leading-relaxed">
+          {/* Vurgu Kutusu */}
+          <div className="bg-orange-50 p-8 rounded-[2.5rem] border border-orange-100 relative overflow-hidden transition-hover hover:shadow-lg duration-500">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-orange-100/50 rounded-full -mr-16 -mt-16" />
 
-          <p className="text-orange-800 relative z-10 leading-relaxed font-medium">
-            {content.introText}
-          </p>
-        </div>
+            <h2 className="text-2xl font-serif font-bold mb-4 text-orange-900 relative z-10">
+              {content.introTitle}
+            </h2>
 
-        {/* Bölümler */}
-        <div className="grid gap-12">
-          {content.sections.map((section, i) => (
-            <div
-              key={i}
-              className="group border-l-2 border-gray-100 hover:border-orange-500 pl-8 transition-all duration-300"
-            >
-              <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900 group-hover:text-orange-600 transition-colors">
-                {section.title}
-              </h3>
+            <p className="text-orange-800 relative z-10 leading-relaxed font-medium">
+              {content.introText}
+            </p>
+          </div>
 
-              {section.body && (
-                <p className="mb-4 text-gray-600 font-medium text-lg">
-                  {section.body}
-                </p>
-              )}
+          {/* Bölümler */}
+          <div className="grid gap-12">
+            {content.sections.map((section, i) => (
+              <div
+                key={i}
+                className="group border-l-2 border-gray-100 hover:border-orange-500 pl-8 transition-all duration-300"
+              >
+                <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900 group-hover:text-orange-600 transition-colors">
+                  {section.title}
+                </h3>
 
-              {section.list && (
-                <ul className="grid gap-3">
-                  {section.list.map((item, idx) => (
-                    <li
-                      key={idx}
-                      className="flex items-start gap-3 text-gray-600 text-lg"
+                {section.body && (
+                  <p className="mb-4 text-gray-600 font-medium text-lg">
+                    {section.body}
+                  </p>
+                )}
+
+                {section.list && (
+                  <ul className="grid gap-3">
+                    {section.list.map((item, idx) => (
+                      <li
+                        key={idx}
+                        className="flex items-start gap-3 text-gray-600 text-lg"
+                      >
+                        <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-orange-400 shrink-0" />
+
+                        <span className="font-medium">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+                {section.contact && (
+                  <div className="mt-6 flex items-center gap-3 bg-gray-50 w-fit px-5 py-3 rounded-2xl border border-gray-100">
+                    <span className="text-lg">📧</span>
+
+                    <a
+                      href={`mailto:${section.contact}`}
+                      className="text-gray-900 font-bold hover:text-orange-600 transition-colors underline decoration-orange-200 underline-offset-4"
                     >
-                      <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-orange-400 shrink-0" />
+                      {section.contact}
+                    </a>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
 
-                      <span className="font-medium">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              )}
+          {/* Footer Marka Bilgisi */}
+          <div className="pt-16 border-t text-center">
+            <p className="font-serif text-3xl font-bold text-gray-900 mb-1">
+              Waylero
+            </p>
 
-              {section.contact && (
-                <div className="mt-6 flex items-center gap-3 bg-gray-50 w-fit px-5 py-3 rounded-2xl border border-gray-100">
-                  <span className="text-lg">📧</span>
-
-                  <a
-                    href={`mailto:${section.contact}`}
-                    className="text-gray-900 font-bold hover:text-orange-600 transition-colors underline decoration-orange-200 underline-offset-4"
-                  >
-                    {section.contact}
-                  </a>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-
-        {/* Footer Marka Bilgisi */}
-        <div className="pt-16 border-t text-center">
-          <p className="font-serif text-3xl font-bold text-gray-900 mb-1">
-            Waylero
-          </p>
-
-          <p className="text-[10px] text-orange-600 font-black tracking-[0.4em] uppercase">
-            Trust & Transparency
-          </p>
-        </div>
-      </section>
-    </div>
+            <p className="text-[10px] text-orange-600 font-black tracking-[0.4em] uppercase">
+              {isEn ? "Trust & Transparency" : "Güven ve Şeffaflık"}
+            </p>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }

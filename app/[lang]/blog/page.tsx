@@ -19,14 +19,13 @@ export async function generateMetadata(
   const lang = resolvedParams.lang === "en" ? "en" : "tr";
   const isEn = lang === "en";
 
-  const title = isEn
-    ? "Travel Blog | Guides, Tips & Destinations - Waylero"
-    : "Seyahat Blogu | Rehberler ve Gezi Yazıları - Waylero";
+const title = isEn
+  ? "Travel Blog | Guides, Tips & Destinations | Waylero"
+  : "Seyahat Blogu | Gezi Rehberleri, İpuçları ve Destinasyonlar | Waylero";
 
-  const description = isEn
-    ? "Discover the latest travel guides, tips and destination stories on Waylero Blog."
-    : "En güncel gezi rehberleri, ipuçları ve seyahat yazıları Waylero Blog’da.";
-
+const description = isEn
+  ? "Explore travel guides, destination ideas, things to do, city tips and travel inspiration from around the world with Waylero."
+  : "Dünyadan gezi rehberleri, destinasyon önerileri, yapılacaklar, şehir ipuçları ve seyahat ilhamını Waylero Blog ile keşfedin.";
   const pathUrl = "/blog";
   const url = `${BASE_URL}/${lang}${pathUrl}`;
 

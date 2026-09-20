@@ -143,7 +143,7 @@ const displayContent = rawContent.replace(
 
   return (
     <>
-      <BlogViewCounter slug={post.slug} />
+      {/* <BlogViewCounter slug={post.slug} /> */}
 
       <div className="min-h-screen bg-white pb-32">
 

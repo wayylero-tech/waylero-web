@@ -88,9 +88,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEn = lang === "en";
   const name = found.name?.[lang] || found.name?.tr || found.slug;
   
- const title = isEn
-  ? `${name} Travel Guide: How to Get There?`
-  : `${name} Rehberi: Nerede ve Nasıl Gidilir?`;
+const title = isEn
+  ? `${name} Travel Guide | Things to Know & How to Visit`
+  : `${name} Rehberi | Nerede, Nasıl Gidilir ve Neler Yapılır?`;
 
   // 🎯 ESKİ HALİ: .slice(0, 160) yerine Akıllı Kırpma uyguluyoruz
   const rawDescription = found.description?.[lang] || found.description?.tr || "";

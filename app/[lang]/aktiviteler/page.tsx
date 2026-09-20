@@ -31,16 +31,16 @@ export async function generateMetadata({
   const { lang } = await params;
   const currentLang = (lang === "en" ? "en" : "tr") as "tr" | "en";
 
-  const t = {
-    tr: {
-      title: "Türkiye Etkinlik Rehberi | Waylero",
-      desc: "Türkiye genelindeki en güncel konserler ve etkinlikler Waylero'da."
-    },
-    en: {
-      title: "Events in Turkey Guide | Waylero",
-      desc: "Discover the latest concerts and events in Turkey on Waylero."
-    }
-  }[currentLang];
+const t = {
+  tr: {
+    title: "Türkiye Konserleri ve Etkinlikleri | Waylero",
+    desc: "Türkiye'deki konserleri, etkinlikleri ve yaklaşan etkinlikleri şehir ve tarihe göre keşfedin."
+  },
+  en: {
+    title: "Concerts & Events in Turkey | Waylero",
+    desc: "Discover concerts, events and upcoming activities in Turkey by city and date."
+  }
+}[currentLang];
 
   const path = "/aktiviteler";
   const fullUrl = `${BASE_SITE_URL}/${currentLang}${path}`;

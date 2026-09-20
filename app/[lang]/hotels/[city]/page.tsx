@@ -144,15 +144,16 @@ export async function generateMetadata({
   const cityName = formatCityName(citySlug, currentLang);
 
   const title =
-    currentLang === "tr"
-      ? `${cityName} Otelleri ve Konaklama Rehberi | Waylero`
-      : `Best Hotels in ${cityName} | Accommodation Guide | Waylero`;
+  currentLang === "tr"
+    ? `${cityName} Otelleri | Konaklama ve Otel Rehberi | Waylero`
+    : `Hotels in ${cityName} | Accommodation Guide | Waylero`;
 
-  const description =
-    currentLang === "tr"
-      ? `${cityName} için otel ve konaklama seçeneklerini keşfedin. Şehirdeki otelleri inceleyin ve konaklama seçeneklerine göz atın.`
-      : `Discover hotels and accommodation options in ${cityName}. Explore hotels and find the right place to stay.`;
+const description =
+  currentLang === "tr"
+    ? `${cityName} otellerini ve konaklama seçeneklerini keşfedin. Şehirdeki otelleri inceleyin ve seyahatiniz için uygun konaklama seçeneklerini bulun.`
+    : `Explore hotels and accommodation options in ${cityName}. Compare places to stay and find suitable accommodation for your trip.`;
 
+    
   const pageUrl =
     `${BASE_URL}/${currentLang}/hotels/${citySlug}`;
 

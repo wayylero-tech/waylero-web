@@ -35,14 +35,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return { title: "Not Found" };
 
   const name = city.names[lang] || city.names["tr"];
-  const description =
-    city.descriptions[lang]?.substring(0, 160) || "Waylero";
 
-  const url = `https://waylero.com/${lang}/${country}/${citySlug}`;
+const title =
+  lang === "tr"
+    ? `${name} Gezi Rehberi | Gezilecek Yerler ve Seyahat Bilgileri | Waylero`
+    : `${name} Travel Guide | Things to Do & Travel Information | Waylero`;
 
-  return {
-    title: `${name} | Waylero`,
-    description,
+const description =
+  city.descriptions[lang]?.substring(0, 155) ||
+  (lang === "tr"
+    ? `${name} gezilecek yerler, seyahat bilgileri, oteller ve keşfedilecek noktalar için Waylero şehir rehberini inceleyin.`
+    : `Explore ${name} with travel information, places to visit, hotels and things to do in this Waylero city guide.`);
+
+const url = `https://waylero.com/${lang}/${country}/${citySlug}`;
+
+return {
+  title,
+  description,
 
     // 🔥 SEO canonical + hreflang
     alternates: {
@@ -55,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     // 🔥 OPEN GRAPH (Facebook, WhatsApp, Discord vs.)
     openGraph: {
-      title: `${name} | Waylero`,
+      title,
       description,
       url,
       siteName: "Waylero",
@@ -74,7 +83,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // 🔥 TWITTER CARD
     twitter: {
       card: "summary_large_image",
-      title: `${name} | Waylero`,
+      title,
       description,
       images: [city.image || "https://waylero.com/og-default.jpg"],
       creator: "@waylero",

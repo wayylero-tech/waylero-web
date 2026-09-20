@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  experimental: {
+    optimizePackageImports: ["lucide-react", "framer-motion"],
+  },
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -29,11 +32,11 @@ const nextConfig: NextConfig = {
         hostname: "ifyazilim.nyc3.cdn.digitaloceanspaces.com",
       },
 
-      // ☁️ CLOUDINARY EKLENDİ
+      // ☁️ CLOUDINARY
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
-        pathname: '/**',
+        pathname: "/**",
       },
     ],
   },

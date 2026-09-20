@@ -95,16 +95,16 @@ export async function generateMetadata({
     hasEvents = false;
   }
 
-  const t = {
-    tr: {
-      title: `${cityName} Etkinlikleri | Waylero`,
-      desc: `${cityName} konser, tiyatro ve kültür sanat etkinlikleri.`,
-    },
-    en: {
-      title: `Events in ${cityName} | Waylero`,
-      desc: `Discover concerts, theaters and cultural events in ${cityName}.`,
-    },
-  }[currentLang];
+const t = {
+  tr: {
+    title: `${cityName} Konserleri ve Etkinlikleri | Waylero`,
+    desc: `${cityName} konserlerini, tiyatro gösterilerini ve kültür sanat etkinliklerini keşfedin. Yaklaşan etkinlikleri inceleyin.`,
+  },
+  en: {
+    title: `Concerts & Events in ${cityName} | Waylero`,
+    desc: `Discover concerts, theater shows and cultural events in ${cityName}. Explore upcoming events and activities.`,
+  },
+}[currentLang];
 
   // 🎯 Canonical ve Open Graph için TEK bir Dinamik URL oluşturuyoruz
   const pageUrl = `${BASE_SITE_URL}/${currentLang}/aktiviteler/${citySlug}`;

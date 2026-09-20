@@ -66,12 +66,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isEn = lang === "en";
 
   const title = isEn
-    ? "Explore Countries & Cities Worldwide | Waylero"
-    : "Ülkeleri ve Şehirleri Keşfet | Waylero";
+  ? "Explore Countries, Cities & Travel Destinations | Waylero"
+  : "Ülkeleri, Şehirleri ve Seyahat Rotalarını Keşfet | Waylero";
 
-  const description = isEn
-    ? "Discover top destinations, cities and travel guides worldwide with Waylero."
-    : "Dünyadaki en popüler ülke ve şehirleri Waylero ile keşfet.";
+const description = isEn
+  ? "Explore countries, cities and popular travel destinations worldwide. Discover places to visit, things to do and travel inspiration with Waylero."
+  : "Dünyadaki ülkeleri, şehirleri ve popüler seyahat rotalarını keşfet. Gezilecek yerleri, yapılacakları ve seyahat ilhamını Waylero ile bul.";
 
   const url = `${BASE_URL}/${lang}/kesfet`;
 

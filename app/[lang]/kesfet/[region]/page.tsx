@@ -40,10 +40,7 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
   hollanda: { tr: "Hollanda", en: "Netherlands" },
   avusturya: { tr: "Avusturya", en: "Austria" },
   yunanistan: { tr: "Yunanistan", en: "Greece" },
-  "cek-cumhuriyeti": {
-    tr: "Çek Cumhuriyeti",
-    en: "Czech Republic",
-  },
+  "cek-cumhuriyeti": { tr: "Çek Cumhuriyeti", en: "Czech Republic" },
   rusya: { tr: "Rusya", en: "Russia" },
   portekiz: { tr: "Portekiz", en: "Portugal" },
   romanya: { tr: "Romanya", en: "Romania" },
@@ -54,10 +51,7 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
   isvicre: { tr: "İsviçre", en: "Switzerland" },
   endonezya: { tr: "Endonezya", en: "Indonesia" },
   irlanda: { tr: "İrlanda", en: "Ireland" },
-  "bosna-hersek": {
-    tr: "Bosna Hersek",
-    en: "Bosnia and Herzegovina",
-  },
+  "bosna-hersek": { tr: "Bosna Hersek", en: "Bosnia and Herzegovina" },
   avustralya: { tr: "Avustralya", en: "Australia" },
   gurcistan: { tr: "Gürcistan", en: "Georgia" },
   iskocya: { tr: "İskoçya", en: "Scotland" },
@@ -72,10 +66,7 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
   "sri-lanka": { tr: "Sri Lanka", en: "Sri Lanka" },
   singapur: { tr: "Singapur", en: "Singapore" },
   umman: { tr: "Umman", en: "Oman" },
-  "suudi-arabistan": {
-    tr: "Suudi Arabistan",
-    en: "Saudi Arabia",
-  },
+  "suudi-arabistan": { tr: "Suudi Arabistan", en: "Saudi Arabia" },
   misir: { tr: "Mısır", en: "Egypt" },
   belarus: { tr: "Belarus", en: "Belarus" },
   kktc: { tr: "KKTC", en: "Northern Cyprus" },
@@ -85,9 +76,7 @@ const regionNameMap: Record<string, { tr: string; en: string }> = {
 
 const BASE_URL = "https://www.waylero.com";
 
-export async function generateMetadata({
-  params,
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const { lang, region } = resolvedParams;
   const isEn = lang === "en";
@@ -96,42 +85,33 @@ export async function generateMetadata({
     regionNameMap[region]?.[isEn ? "en" : "tr"] ??
     region.replace(/-/g, " ");
 
-  const title = isEn
-    ? `Best Places to Visit in ${name} | Travel Guide`
-    : `${name} Gezilecek Yerler 2026 | En Güzel Şehirler ve Gezi Rehberi`;
+const title = isEn
+  ? `Best Places to Visit in ${name} | Cities & Travel Guide`
+  : `${name} Gezilecek Yerler 2026 | Şehirler ve Gezi Rehberi`;
 
-  const description = isEn
-    ? `Discover the best cities, attractions, historical sites and travel destinations in ${name}.`
-    : `${name}'de gezilecek yerleri keşfedin. Şehirler, tarihi mekanlar, doğal güzellikler ve popüler turistik noktalar için kapsamlı gezi rehberi.`;
-
+const description = isEn
+  ? `Explore the best cities, places to visit, attractions, historical sites and travel destinations in ${name}. Find travel tips and inspiration with Waylero.`
+  : `${name}'de gezilecek en güzel yerleri keşfedin. Şehirleri, tarihi mekanları, doğal güzellikleri ve turistik noktaları Waylero gezi rehberiyle keşfedin.`;
   const pathUrl = `/kesfet/${region}`;
   const url = `${BASE_URL}/${lang}${pathUrl}`;
 
-  // -------------------------------------------------
-  // DİNAMİK BÖLGE GÖRSELİNİ BULMA
-  // -------------------------------------------------
   const imagePath = path.join(
     process.cwd(),
     "data/ulkedataimages",
     `${region}.json`
   );
 
-  let regionCoverImage = `${BASE_URL}/og/region.jpg`; // Varsayılan fallback
+  let regionCoverImage = `${BASE_URL}/og/region.jpg`;
 
   if (fs.existsSync(imagePath)) {
     try {
-      const imagesJson = JSON.parse(
-        fs.readFileSync(imagePath, "utf-8")
-      );
-      
-      // İlk bulduğumuz şehir ve görsel anahtarını alıyoruz
+      const imagesJson = JSON.parse(fs.readFileSync(imagePath, "utf-8"));
       const firstCityKey = Object.keys(imagesJson)[0];
       if (firstCityKey) {
         const cityImages = imagesJson[firstCityKey];
         const firstImageKey = Object.keys(cityImages)[0];
         if (firstImageKey && cityImages[firstImageKey]?.[0]) {
           const rawImg = cityImages[firstImageKey][0];
-          // Cloudinary URL formatına çeviriyoruz
           regionCoverImage = `https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_auto:eco,w_1200,c_fill/${rawImg.replace(/^\/+/, "")}`;
         }
       }
@@ -143,7 +123,6 @@ export async function generateMetadata({
   return {
     title,
     description,
-
     alternates: {
       canonical: url,
       languages: {
@@ -151,7 +130,6 @@ export async function generateMetadata({
         "en-US": `${BASE_URL}/en${pathUrl}`,
       },
     },
-
     openGraph: {
       title,
       description,
@@ -167,7 +145,6 @@ export async function generateMetadata({
         },
       ],
     },
-
     twitter: {
       card: "summary_large_image",
       title,
@@ -177,46 +154,35 @@ export async function generateMetadata({
   };
 }
 
+// Yardımcı kısa açıklama oluşturucu (Server-side)
+const getShortDescriptionServer = (description: string | undefined, maxLength = 190) => {
+  if (!description) return "";
+  const beforeHeading = description.split(/\n\s*\*\*/)[0];
+  const clean = beforeHeading.replace(/\s+/g, " ").trim();
+  if (clean.length <= maxLength) return clean;
+  const shortened = clean.slice(0, maxLength);
+  const lastSpace = shortened.lastIndexOf(" ");
+  return lastSpace > 80 ? `${shortened.slice(0, lastSpace)}...` : `${shortened}...`;
+};
+
 export default async function Page({ params }: Props) {
   const resolvedParams = await params;
-
   const { lang, region } = resolvedParams;
+  const isEn = lang === "en";
+
   const regionName =
-  regionNameMap[region]?.[lang === "en" ? "en" : "tr"] ??
-  region.replace(/-/g, " ");
+    regionNameMap[region]?.[isEn ? "en" : "tr"] ??
+    region.replace(/-/g, " ");
 
   if (!region) {
     return (
-      <div
-        style={{
-          padding: "2rem",
-          textAlign: "center",
-        }}
-      >
+      <div style={{ padding: "2rem", textAlign: "center" }}>
         Geçersiz bölge parametresi.
       </div>
     );
   }
 
-  /*
-   * -------------------------------------------------------
-   * ŞEHİR JSON DOSYALARINI SERVER TARAFINDA OKUYORUZ
-   *
-   * Örnek:
-   *
-   * data/ulkelerdata/turkiye/konya.json
-   * data/ulkelerdata/turkiye/antalya.json
-   *
-   * data/ulkelerdata/fransa/paris.json
-   * -------------------------------------------------------
-   */
-
-  const dataPath = path.join(
-    process.cwd(),
-    "data/ulkelerdata",
-    region
-  );
-
+  const dataPath = path.join(process.cwd(), "data/ulkelerdata", region);
   let cityData: Record<string, any[]> = {};
 
   if (fs.existsSync(dataPath)) {
@@ -224,65 +190,52 @@ export default async function Page({ params }: Props) {
 
     for (const file of files) {
       if (!file.endsWith(".json")) continue;
-
       const city = file.replace(".json", "");
-
       const filePath = path.join(dataPath, file);
 
       try {
         const content = fs.readFileSync(filePath, "utf-8");
-
         const parsed = JSON.parse(content);
 
-        /*
-         * Şehir JSON'u array olduğu için doğrudan saklıyoruz.
-         */
         if (Array.isArray(parsed)) {
-          cityData[city] = parsed;
+          // 🚀 SERVER-SIDE HAFİFLETME: İstemciye sadece ihtiyaç duyulan alanları iletiyoruz
+          cityData[city] = parsed.slice(0, 3).map((place: any) => {
+            const rawDesc = place.description?.[isEn ? "en" : "tr"] || place.description?.tr || place.description?.en || "";
+            
+            return {
+              slug: place.slug || "",
+              name: {
+                tr: place.name?.tr || "",
+                en: place.name?.en || "",
+              },
+              shortDesc: getShortDescriptionServer(rawDesc, 190),
+            };
+          });
         }
       } catch (error) {
-        console.error(
-          `Şehir JSON okunamadı: ${filePath}`,
-          error
-        );
+        console.error(`Şehir JSON okunamadı: ${filePath}`, error);
       }
     }
   }
 
-  /*
-   * -------------------------------------------------------
-   * ŞEHİR KAPAK GÖRSELLERİ
-   * -------------------------------------------------------
-   */
-
-  const imagePath = path.join(
-    process.cwd(),
-    "data/ulkedataimages",
-    `${region}.json`
-  );
-
+  const imagePath = path.join(process.cwd(), "data/ulkedataimages", `${region}.json`);
   let images: Record<string, any> = {};
 
   if (fs.existsSync(imagePath)) {
     try {
-      images = JSON.parse(
-        fs.readFileSync(imagePath, "utf-8")
-      );
+      images = JSON.parse(fs.readFileSync(imagePath, "utf-8"));
     } catch (error) {
-      console.error(
-        `Bölge görselleri okunamadı: ${imagePath}`,
-        error
-      );
+      console.error(`Bölge görselleri okunamadı: ${imagePath}`, error);
     }
   }
 
   return (
-<RegionClient 
-  region={region}
-  regionName={regionName}
-  lang={lang}
-  data={cityData}
-  images={images}
-/>
+    <RegionClient
+      region={region}
+      regionName={regionName}
+      lang={lang}
+      data={cityData}
+      images={images}
+    />
   );
 }

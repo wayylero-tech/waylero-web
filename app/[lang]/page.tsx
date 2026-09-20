@@ -18,9 +18,9 @@ export async function generateMetadata(
     : "Waylero | Şehirleri, Etkinlikleri ve Seyahat Deneyimlerini Keşfet";
 
   const description = isEn
-    ? "Discover 40+ countries including Turkey, Spain and USA. Explore 300+ cities like Paris, Istanbul and New York, and 2000+ iconic places such as Eiffel Tower, Kız Kulesi and Giza Pyramids. Find concerts, events, tickets, and tours, and plan your trip easily. Read travel blogs and get inspired for your next journey."
-    : "Türkiye, İspanya ve Amerika dahil 40+ ülkeyi keşfet. Paris, İstanbul ve New York gibi 300+ şehri gez, Eyfel Kulesi, Kız Kulesi ve Giza Piramitleri gibi 2000+ ikonik yeri keşfet. Konserleri ve etkinlikleri bul, bilet al, turları keşfet ve seyahatini kolayca planla. Blog yazılarıyla ilham al ve bir sonraki yolculuğunu planla.";
-
+  ? "Explore 40+ countries, 300+ cities and 2000+ places. Discover events, concerts, tours and travel inspiration with Waylero."
+  : "40+ ülke, 300+ şehir ve 2000+ yeri keşfet. Etkinlikleri, konserleri, turları ve seyahat ilhamını Waylero ile bul.";
+  
   const url = `https://waylero.com/${lang}`;
 
   return {

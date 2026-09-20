@@ -6,7 +6,6 @@ import "../globals.css";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import GoogleAnalytics from "./components/GoogleAnalytics";
 import CookieConsent from "./components/CookieConsent";
 
 const geistSans = Geist({
@@ -23,6 +22,7 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
 });
+
 export async function generateMetadata({
   params,
 }: {
@@ -31,7 +31,6 @@ export async function generateMetadata({
   const { lang } = await params;
 
   const finalLang = lang === "en" ? "en" : "tr";
-
   const isEn = finalLang === "en";
 
   return {
@@ -65,7 +64,6 @@ export async function generateMetadata({
       description: isEn
         ? "Explore cities, events, concerts, tours and travel experiences worldwide."
         : "Şehirleri, etkinlikleri, konserleri, turları ve seyahat deneyimlerini keşfet.",
-      // DÜZELTİLDİ: www eklendi
       url: "https://www.waylero.com",
       siteName: "Waylero",
       type: "website",
@@ -98,16 +96,34 @@ export default async function RootLayout({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-
-  const finalLang: "tr" | "en" =
-    lang === "en" ? "en" : "tr";
+  const finalLang: "tr" | "en" = lang === "en" ? "en" : "tr";
 
   return (
     <html lang={finalLang}>
+      <head>
+        {/* Cloudinary görsellerinin hızlı yüklenmesi için bağlantıyı önden kurar */}
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
-        <Script id="microsoft-clarity" strategy="afterInteractive">
+        {/* GTM KODU: Erteleme stratejisi (afterInteractive) ile değiştirildi */}
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','G-SMS2634C53');
+            `,
+          }}
+        />
+
+        {/* CLARITY KODU: Zaten doğru olan lazyOnload stratejisi korundu */}
+        <Script id="microsoft-clarity" strategy="lazyOnload">
           {`
             (function() {
               var consent = localStorage.getItem("waylero_cookie_consent");
@@ -134,13 +150,9 @@ export default async function RootLayout({
 
         <Header lang={finalLang} />
 
-        <GoogleAnalytics />
-
         <CookieConsent lang={finalLang} />
 
-        <main className="flex-1">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
 
         <Footer lang={finalLang} />
       </body>

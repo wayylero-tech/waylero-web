@@ -31,14 +31,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
-  const title = isEn
-    ? `Best Places to Visit in ${cityName} (${regionName}) | Travel Guide`
-    : `${cityName} Gezilecek Yerler 2026 | En Güzel Yerler ve Gezi Rehberi`;
+const title = isEn
+  ? `Best Places to Visit in ${cityName}, ${regionName} | Travel Guide`
+  : `${cityName} Gezilecek Yerler 2026 | En Güzel Yerler ve Gezi Rehberi`;
 
-  const description = isEn
-    ? `Discover the best places to visit in ${cityName}. Attractions, museums, nature spots, travel tips and local guides.`
-    : `${cityName} gezilecek yerler rehberi. Tarihi mekanlar, doğal güzellikler, müzeler ve keşfedilecek en güzel noktaları inceleyin.`;
-
+const description = isEn
+  ? `Explore the best places to visit in ${cityName}, ${regionName}. Discover attractions, historical sites, museums, nature spots and travel tips with Waylero.`
+  : `${cityName} gezilecek yerler rehberini keşfedin. Tarihi mekanlar, müzeler, doğal güzellikler ve görülmesi gereken yerleri Waylero ile keşfedin.`;
+  
   const pathUrl = `/${lang}/kesfet/${region}/${city}`;
   const url = `${BASE_URL}${pathUrl}`;
 

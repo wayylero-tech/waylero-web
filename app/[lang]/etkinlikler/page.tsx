@@ -1,5 +1,6 @@
 import EtkinliklerClient from "./EtkinliklerClient";
 import globalPlaces from "@/data/globalPlaces.json";
+import type { Metadata } from "next";
 
 type Props = {
   params: Promise<{ lang?: string }>;
@@ -16,6 +17,55 @@ type City = {
   country: string;
   image: string;
 };
+
+const BASE_URL = "https://www.waylero.com";
+
+export async function generateMetadata({
+  params,
+}: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const lang = resolvedParams?.lang === "en" ? "en" : "tr";
+
+  const isEn = lang === "en";
+
+const title = isEn
+  ? "Tours & Experiences Worldwide | Waylero"
+  : "Turlar ve Deneyimler | Dünyayı Keşfet | Waylero";
+
+const description = isEn
+  ? "Discover tours, activities and travel experiences in cities and destinations around the world with Waylero."
+  : "Dünyanın farklı şehir ve destinasyonlarındaki turları, aktiviteleri ve seyahat deneyimlerini Waylero ile keşfedin.";
+  const url = `${BASE_URL}/${lang}/etkinlikler`;
+
+  return {
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        "tr-TR": `${BASE_URL}/tr/etkinlikler`,
+        "en-US": `${BASE_URL}/en/etkinlikler`,
+      },
+    },
+
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Waylero",
+      type: "website",
+      locale: isEn ? "en_US" : "tr_TR",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
+
 
 export default async function Page({ params }: Props) {
   const resolvedParams = await params;
