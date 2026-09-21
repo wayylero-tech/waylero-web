@@ -85,13 +85,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     regionNameMap[region]?.[isEn ? "en" : "tr"] ??
     region.replace(/-/g, " ");
 
-const title = isEn
-  ? `Best Places to Visit in ${name} | Cities & Travel Guide`
-  : `${name} Gezilecek Yerler 2026 | Şehirler ve Gezi Rehberi`;
+  const title = isEn
+    ? `Best Places to Visit in ${name} | Cities & Travel Guide`
+    : `${name} Gezilecek Yerler 2026 | Şehirler ve Gezi Rehberi`;
 
-const description = isEn
-  ? `Explore the best cities, places to visit, attractions, historical sites and travel destinations in ${name}. Find travel tips and inspiration with Waylero.`
-  : `${name}'de gezilecek en güzel yerleri keşfedin. Şehirleri, tarihi mekanları, doğal güzellikleri ve turistik noktaları Waylero gezi rehberiyle keşfedin.`;
+  const description = isEn
+    ? `Explore the best cities, places to visit, attractions, historical sites and travel destinations in ${name}. Find travel tips and inspiration with Waylero.`
+    : `${name}'de gezilecek en güzel yerleri keşfedin. Şehirleri, tarihi mekanları, doğal güzellikleri ve turistik noktaları Waylero gezi rehberiyle keşfedin.`;
+  
   const pathUrl = `/kesfet/${region}`;
   const url = `${BASE_URL}/${lang}${pathUrl}`;
 
@@ -131,7 +132,7 @@ const description = isEn
       },
     },
     openGraph: {
-      title,
+      title: `${title} | Waylero`,
       description,
       url,
       siteName: "Waylero",
@@ -147,7 +148,7 @@ const description = isEn
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: `${title} | Waylero`,
       description,
       images: [regionCoverImage],
     },
@@ -198,7 +199,7 @@ export default async function Page({ params }: Props) {
         const parsed = JSON.parse(content);
 
         if (Array.isArray(parsed)) {
-          // 🚀 SERVER-SIDE HAFİFLETME: İstemciye sadece ihtiyaç duyulan alanları iletiyoruz
+          // SERVER-SIDE HAFİFLETME
           cityData[city] = parsed.slice(0, 3).map((place: any) => {
             const rawDesc = place.description?.[isEn ? "en" : "tr"] || place.description?.tr || place.description?.en || "";
             
@@ -229,13 +230,39 @@ export default async function Page({ params }: Props) {
     }
   }
 
+  // Dinamik ItemList JSON-LD Şeması (Ülkedeki Tüm Şehirleri Google ve Botlara Sunar)
+  const cityList = Object.keys(cityData);
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": isEn ? `Cities and Places to Visit in ${regionName}` : `${regionName} Şehirleri ve Gezilecek Yerler`,
+    "description": isEn
+      ? `Explore top cities and travel destinations in ${regionName}.`
+      : `${regionName} ülkesindeki öne çıkan şehirler ve turistik rotalar.`,
+    "url": `${BASE_URL}/${lang}/kesfet/${region}`,
+    "itemListElement": cityList.map((cityName, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": cityName.charAt(0).toUpperCase() + cityName.slice(1),
+      "url": `${BASE_URL}/${lang}/kesfet/${region}/${cityName}`,
+    })),
+  };
+
   return (
-    <RegionClient
-      region={region}
-      regionName={regionName}
-      lang={lang}
-      data={cityData}
-      images={images}
-    />
+    <>
+      {/* Dinamik JSON-LD Script'i */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      
+      <RegionClient
+        region={region}
+        regionName={regionName}
+        lang={lang}
+        data={cityData}
+        images={images}
+      />
+    </>
   );
 }

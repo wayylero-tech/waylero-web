@@ -100,10 +100,66 @@ export default async function Page({ params }: Props) {
 
   const cities = Array.from(cityMap.values());
 
-  return (
+const isEn = lang === "en";
+
+const pageUrl = `${BASE_URL}/${lang}/etkinlikler`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: isEn
+    ? "Tours & Experiences Worldwide | Waylero"
+    : "Turlar ve Deneyimler | Dünyayı Keşfet | Waylero",
+  description: isEn
+    ? "Discover tours, activities and travel experiences in cities and destinations around the world with Waylero."
+    : "Dünyanın farklı şehir ve destinasyonlarındaki turları, aktiviteleri ve seyahat deneyimlerini Waylero ile keşfedin.",
+  url: pageUrl,
+  inLanguage: lang,
+
+  publisher: {
+    "@type": "Organization",
+    name: "Waylero",
+    url: BASE_URL,
+  },
+
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Waylero",
+    url: BASE_URL,
+  },
+
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: isEn ? "Home" : "Anasayfa",
+        item: `${BASE_URL}/${lang}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: isEn ? "Tours & Experiences" : "Turlar ve Deneyimler",
+        item: pageUrl,
+      },
+    ],
+  },
+};
+
+return (
+  <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(jsonLd),
+      }}
+    />
+
     <EtkinliklerClient
       currentLang={lang}
       cities={cities}
     />
-  );
+  </>
+);
 }

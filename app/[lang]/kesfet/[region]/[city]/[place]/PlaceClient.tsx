@@ -15,8 +15,7 @@ import {
   Hotel,
 } from "lucide-react";
 import PlaceSlider from "./PlaceSlider";
-import { trackPlaceViewed } from "@/lib/analytics";
-import { useEffect, useState } from "react";
+
 
 const BASE_URL = "https://www.waylero.com";
 
@@ -82,49 +81,10 @@ export default function PlaceClient({
         feeTitle: "Giriş Ücreti",
       };
 
-  // SEO Schema (JSON-LD)
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "TouristAttraction",
-    "@id": canonical,
-    name: foundPlace.name,
-    description: foundPlace.description,
-    url: canonical,
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": canonical,
-    },
-    image:
-      images?.length > 0
-        ? images[0]?.url || images[0]
-        : `${BASE_URL}/images/waylero-placeholder.jpg`,
-    hasMap: `https://www.google.com/maps?q=${foundPlace.latitude},${foundPlace.longitude}`,
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: Number(foundPlace.latitude),
-      longitude: Number(foundPlace.longitude),
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: cityName,
-      addressRegion: region,
-    },
-    touristType: [
-      "Tourists",
-      "Travelers",
-      "Backpackers",
-      "Photographers",
-    ],
-    isAccessibleForFree: true,
-    publicAccess: true,
-    potentialAction: {
-      "@type": "ViewAction",
-      target: canonical,
-    },
-  };
+  
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* 1. HERO SECTION */}
       <section className="relative pt-20 pb-32 bg-[linear-gradient(110deg,#fdfaf7_50%,#e6f4f9_50%)]">
         <div className="container mx-auto px-6">
@@ -491,13 +451,6 @@ export default function PlaceClient({
           </div>
         </div>
       </section>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(schema),
-        }}
-      />
-    </main>
+    </div>
   );
 }

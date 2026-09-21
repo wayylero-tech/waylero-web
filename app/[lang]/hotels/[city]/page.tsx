@@ -253,29 +253,30 @@ export default async function Page({
     `${BASE_URL}/${currentLang}/hotels/${citySlug}`;
 
   const jsonLd = {
-    "@context": "https://schema.org",
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: isTR
+    ? `${cityName} Otelleri`
+    : `Hotels in ${cityName}`,
+  description: isTR
+    ? `${cityName} otelleri ve konaklama seçeneklerini keşfedin.`
+    : `Discover hotels and accommodation options in ${cityName}.`,
+  url: pageUrl,
+  inLanguage: currentLang,
 
-    "@type": "WebPage",
+  publisher: {
+    "@type": "Organization",
+    name: "Waylero",
+    url: BASE_URL,
+  },
 
-    name: isTR
-      ? `${cityName} Otelleri`
-      : `Hotels in ${cityName}`,
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Waylero",
+    url: BASE_URL,
+  },
 
-    description: isTR
-      ? `${cityName} otelleri ve konaklama seçeneklerini keşfedin.`
-      : `Discover hotels and accommodation options in ${cityName}.`,
-
-    url: pageUrl,
-
-    inLanguage: currentLang,
-
-    isPartOf: {
-      "@type": "WebSite",
-      name: "Waylero",
-      url: BASE_URL,
-    },
-
-    breadcrumb: {
+  breadcrumb: {
       "@type": "BreadcrumbList",
 
       itemListElement: [

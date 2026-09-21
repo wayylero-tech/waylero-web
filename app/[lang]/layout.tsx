@@ -40,7 +40,7 @@ export async function generateMetadata({
       default: isEn
         ? "Waylero | Create Travel Plan, Explore Events"
         : "Waylero | Gezi Planı Oluştur, Etkinlikleri Keşfet",
-      template: "%s | Waylero",
+      template: "%s | Waylero", // Alt sayfalarda sadece sayfa adını vereceğiz, burası Otomatik "| Waylero" ekleyecek!
     },
 
     description: isEn
@@ -98,16 +98,45 @@ export default async function RootLayout({
   const { lang } = await params;
   const finalLang: "tr" | "en" = lang === "en" ? "en" : "tr";
 
+  // Google ve AI botlarının markayı tanıması için Global Organization & WebSite Scheması
+  const globalSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.waylero.com/#organization",
+        "name": "Waylero",
+        "url": "https://www.waylero.com",
+        "logo": "https://www.waylero.com/waylero-icon.png",
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.waylero.com/#website",
+        "url": "https://www.waylero.com",
+        "name": "Waylero",
+        "publisher": {
+          "@id": "https://www.waylero.com/#organization"
+        }
+      }
+    ]
+  };
+
   return (
     <html lang={finalLang}>
       <head>
-        {/* Cloudinary görsellerinin hızlı yüklenmesi için bağlantıyı önden kurar */}
+        {/* Cloudinary görsellerinin hızlı yüklenmesi için preconnect */}
         <link rel="preconnect" href="https://res.cloudinary.com" />
+        {/* Tüm sitede geçerli Marka ve WebSite JSON-LD Şeması */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
-        {/* GTM KODU: Erteleme stratejisi (afterInteractive) ile değiştirildi */}
+        {/* GTM KODU */}
         <Script
           id="gtm-script"
           strategy="afterInteractive"
@@ -122,7 +151,7 @@ export default async function RootLayout({
           }}
         />
 
-        {/* CLARITY KODU: Zaten doğru olan lazyOnload stratejisi korundu */}
+        {/* CLARITY KODU */}
         <Script id="microsoft-clarity" strategy="lazyOnload">
           {`
             (function() {

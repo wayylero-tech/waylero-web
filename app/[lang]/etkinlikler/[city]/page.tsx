@@ -115,27 +115,57 @@ export default async function Page({
   const isTR = lang === "tr";
 
   const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
 
-    name: isTR
-      ? `${cityName} Turları ve Deneyimleri`
-      : `${cityName} Tours & Experiences`,
+  name: isTR
+    ? `${cityName} Turları ve Deneyimleri`
+    : `${cityName} Tours & Experiences`,
 
-    description: isTR
-      ? `${cityName} için gezi rehberi, yapılacaklar, seyahat ipuçları, günlük rota önerileri ve turlar.`
-      : `Travel guide for ${cityName} with things to do, travel tips, itinerary ideas, tours and experiences.`,
+  description: isTR
+    ? `${cityName} turlarını, aktivitelerini ve seyahat deneyimlerini keşfedin. Şehirde yapılacak şeyleri ve popüler tur seçeneklerini inceleyin.`
+    : `Discover tours, activities and travel experiences in ${cityName}. Explore things to do and popular tour options for your trip.`,
 
-    url: schemaUrl,
+  url: schemaUrl,
 
-    isPartOf: {
-      "@type": "WebSite",
-      name: "Waylero",
-      url: BASE_URL,
-    },
+  inLanguage: lang,
 
-    inLanguage: lang,
-  };
+  publisher: {
+    "@type": "Organization",
+    name: "Waylero",
+    url: BASE_URL,
+  },
+
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Waylero",
+    url: BASE_URL,
+  },
+
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: isTR ? "Anasayfa" : "Home",
+        item: `${BASE_URL}/${lang}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: isTR ? "Turlar ve Deneyimler" : "Tours & Experiences",
+        item: `${BASE_URL}/${lang}/etkinlikler`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: cityName,
+        item: schemaUrl,
+      },
+    ],
+  },
+};
 
   return (
     <>

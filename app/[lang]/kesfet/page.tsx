@@ -1,11 +1,8 @@
-import { Suspense } from "react";
 import KesfetClient from "./KesfetClient";
 import { Metadata } from "next";
 
-
 export const revalidate = 86400; // 24 saat ISR
 export const dynamic = "force-static";
-
 
 // Ülke isimleri sözlüğü
 const countryNames: Record<string, { tr: string; en: string }> = {
@@ -37,7 +34,7 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   "avustralya": { tr: "Avustralya", en: "Australia" },
   "gurcistan": { tr: "Gürcistan", en: "Georgia" },
   "iskocya": { tr: "İskoçya", en: "Scotland" },
-   "belcika": { tr: "Belçika", en: "Belgium" },
+  "belcika": { tr: "Belçika", en: "Belgium" },
   "galler": { tr: "Galler", en: "Wales" },
   "malezya": { tr: "Malezya", en: "Malaysia" },
   "cin": { tr: "Çin", en: "China" },
@@ -59,19 +56,20 @@ type Props = {
   params: Promise<{ lang: string }>;
 };
 
-// ✅ METADATA (SEO FULL)
+// ✅ METADATA (SEO FULL - Çift Marka Düzeltildi)
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const lang = resolvedParams.lang === "en" ? "en" : "tr";
   const isEn = lang === "en";
 
+  // "| Waylero" takısını sildik, layout.tsx otomatik ekleyecek.
   const title = isEn
-  ? "Explore Countries, Cities & Travel Destinations | Waylero"
-  : "Ülkeleri, Şehirleri ve Seyahat Rotalarını Keşfet | Waylero";
+    ? "Explore Countries, Cities & Travel Destinations"
+    : "Ülkeleri, Şehirleri ve Seyahat Rotalarını Keşfet";
 
-const description = isEn
-  ? "Explore countries, cities and popular travel destinations worldwide. Discover places to visit, things to do and travel inspiration with Waylero."
-  : "Dünyadaki ülkeleri, şehirleri ve popüler seyahat rotalarını keşfet. Gezilecek yerleri, yapılacakları ve seyahat ilhamını Waylero ile bul.";
+  const description = isEn
+    ? "Explore countries, cities and popular travel destinations worldwide. Discover places to visit, things to do and travel inspiration with Waylero."
+    : "Dünyadaki ülkeleri, şehirleri ve popüler seyahat rotalarını keşfet. Gezilecek yerleri, yapılacakları ve seyahat ilhamını Waylero ile bul.";
 
   const url = `${BASE_URL}/${lang}/kesfet`;
 
@@ -86,7 +84,7 @@ const description = isEn
       },
     },
     openGraph: {
-      title,
+      title: `${title} | Waylero`,
       description,
       url,
       siteName: "Waylero",
@@ -103,7 +101,7 @@ const description = isEn
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: `${title} | Waylero`,
       description,
       images: [`${BASE_URL}/og/kesfet.jpg`],
     },
@@ -114,30 +112,50 @@ const description = isEn
 export default async function KesfetPage({ params }: Props) {
   const resolvedParams = await params;
   const lang = resolvedParams.lang === "en" ? "en" : "tr";
+  const isEn = lang === "en";
+
+  // Dinamik Hub Şeması (CollectionPage)
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": isEn ? "Explore World - Waylero" : "Dünyayı Keşfet - Waylero",
+    "url": `${BASE_URL}/${lang}/kesfet`,
+    "description": isEn
+      ? "Explore countries, cities and travel destinations worldwide."
+      : "Dünyadaki tüm ülkeleri, şehirleri ve gezilecek yerleri keşfedin.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": Object.entries(countryNames).map(([slug, names], index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": isEn ? names.en : names.tr,
+        "url": `${BASE_URL}/${lang}/kesfet/${slug}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen">
+      {/* Google ve AI Botları İçin JSON-LD Şeması */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+
       {/* SEO H1 + Internal Links */}
       <div className="sr-only">
-  <nav aria-label={lang === "en" ? "Countries" : "Ülkeler"}>
-    {Object.entries(countryNames).map(([slug, names]) => (
-      <a key={slug} href={`/${lang}/kesfet/${slug}`}>
-        {lang === "en" ? names.en : names.tr}
-      </a>
-    ))}
-  </nav>
-</div>
+        <h1>{isEn ? "Explore Countries & Cities" : "Ülkeleri ve Şehirleri Keşfet"}</h1>
+        <nav aria-label={isEn ? "Countries" : "Ülkeler"}>
+          {Object.entries(countryNames).map(([slug, names]) => (
+            <a key={slug} href={`/${lang}/kesfet/${slug}`}>
+              {isEn ? names.en : names.tr}
+            </a>
+          ))}
+        </nav>
+      </div>
 
-      {/* CONTENT */}
-      <Suspense
-        fallback={
-          <div className="py-20 text-center text-xs font-bold animate-pulse">
-            {lang === "en" ? "LOADING..." : "YÜKLENİYOR..."}
-          </div>
-        }
-      >
-        <KesfetClient lang={lang} />
-      </Suspense>
+      {/* CONTENT (Suspense ve YÜKLENİYOR yazısı kaldırıldı, doğrudan Render ediliyor) */}
+      <KesfetClient lang={lang} />
     </div>
   );
 }
