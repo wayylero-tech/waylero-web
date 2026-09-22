@@ -15,6 +15,7 @@ import {
   Hotel,
 } from "lucide-react";
 import PlaceSlider from "./PlaceSlider";
+import { useEffect } from "react";
 
 
 const BASE_URL = "https://www.waylero.com";
@@ -81,7 +82,9 @@ export default function PlaceClient({
         feeTitle: "Giriş Ücreti",
       };
 
-  
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, [place]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -417,37 +420,38 @@ export default function PlaceClient({
               </div>
             )}
 
-            {/* YAKIN YERLER */}
-            <div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
-              <h3 className="font-serif font-bold text-xl mb-6">
-                {t.nearby}
-              </h3>
+           {/* YAKIN YERLER */}
+<div className="bg-gray-50 rounded-[2.5rem] p-8 border border-gray-100">
+  <h3 className="font-serif font-bold text-xl mb-6">
+    {t.nearby}
+  </h3>
 
-              <div className="space-y-6">
-                {nearbyPlaces.map((p: any) => (
-                  <Link
-                    key={p.slug}
-                    href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
-                    className="flex flex-col gap-1 group"
-                  >
-                    <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
-                      {p.name}
-                    </span>
+  <div className="space-y-6">
+    {nearbyPlaces.map((p: any) => (
+      <Link
+        key={p.slug}
+        href={`${langPrefix}/kesfet/${region}/${city}/${p.slug}`}
+        scroll={true} // 🚀 BURAYA EKLENDİ: Yakın mekâna tıklandığında ekranı en üste taşır
+        className="flex flex-col gap-1 group"
+      >
+        <span className="text-gray-900 font-bold group-hover:text-blue-600 transition-colors uppercase">
+          {p.name}
+        </span>
 
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-[10px] text-blue-500 font-black uppercase tracking-widest bg-blue-50 px-1.5 py-0.5 rounded">
-                        {t.estimated}
-                      </span>
+        <div className="flex items-center gap-1.5">
+          <span className="text-[10px] text-blue-500 font-black uppercase tracking-widest bg-blue-50 px-1.5 py-0.5 rounded">
+            {t.estimated}
+          </span>
 
-                      <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
-                        {p.distance.toFixed(1)} {t.unit}{" "}
-                        {t.distanceNote}
-                      </span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
+          <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest">
+            {p.distance.toFixed(1)} {t.unit}{" "}
+            {t.distanceNote}
+          </span>
+        </div>
+      </Link>
+    ))}
+  </div>
+</div>
           </div>
         </div>
       </section>

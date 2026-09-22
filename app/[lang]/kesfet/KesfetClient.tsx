@@ -187,11 +187,12 @@ export default function KesfetClient({ lang }: { lang: string }) {
 
                   {data.coverPath ? (
                     <img
-                      src={getCloudinaryUrl(data.coverPath, 600)}
-                      alt={countryName}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                      loading={index < 6 ? "eager" : "lazy"}
-                    />
+  src={getCloudinaryUrl(data.coverPath, 600)}
+  alt={countryName}
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+  loading={index === 0 ? "eager" : "lazy"}
+  fetchPriority={index === 0 ? "high" : "auto"}
+/>
                   ) : (
                     <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
                       <Map size={40} className="text-gray-300" />
