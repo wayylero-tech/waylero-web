@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
 
+# --- Eski / Kaldırılan Sayfalar (Crawl Budget Koruması) ---
+Disallow: /kesfet/turkey
+Disallow: /en/kesfet/turkey
+Disallow: /kesfet/europa
+Disallow: /en/kesfet/europa
+Disallow: /kesfet/asia
+Disallow: /en/kesfet/asia
+
 Sitemap: https://www.waylero.com/sitemap.xml
