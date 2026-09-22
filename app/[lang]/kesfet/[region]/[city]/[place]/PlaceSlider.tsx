@@ -1,16 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
-// Cloudinary Yapılandırması
-const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dewd42ppf/image/upload";
-
-const getCloudinaryUrl = (path: string, width: number) => {
-  if (!path) return "";
-  // 🌟 Hem formatı (WebP/AVIF) hem de kaliteyi doğrudan Cloudinary sunucusunda sıkıştırıyoruz. Vercel dokunmuyor!
-return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(/^\/+/, "")}`;};
+import { getCloudinaryUrl } from "@/lib/cloudinary-url";
 
 export default function PlaceSlider({
   images,
@@ -23,12 +18,21 @@ export default function PlaceSlider({
 
   useEffect(() => {
     if (index === null) return;
+
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setIndex(null);
-      if (e.key === "ArrowRight" && index < images.length - 1) setIndex(index + 1);
-      if (e.key === "ArrowLeft" && index > 0) setIndex(index - 1);
+
+      if (e.key === "ArrowRight" && index < images.length - 1) {
+        setIndex(index + 1);
+      }
+
+      if (e.key === "ArrowLeft" && index > 0) {
+        setIndex(index - 1);
+      }
     };
+
     window.addEventListener("keydown", handleKey);
+
     return () => window.removeEventListener("keydown", handleKey);
   }, [index, images.length]);
 
@@ -42,11 +46,14 @@ export default function PlaceSlider({
       <div className="hidden md:block mb-12">
         {/* 1 RESİM VARSA */}
         {images.length === 1 && (
-          <div className="relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+          <div
+            className="relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+            onClick={() => setIndex(0)}
+          >
             <img
               src={getCloudinaryUrl(images[0], 1200)}
               alt={title}
-              fetchPriority="high" // 🌟 Tarayıcıya "LCP resmi bu, ilk buna aban" talimatı
+              fetchPriority="high"
               decoding="async"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             />
@@ -57,11 +64,15 @@ export default function PlaceSlider({
         {images.length === 2 && (
           <div className="grid grid-cols-2 gap-4 h-[500px]">
             {images.map((img, i) => (
-              <div key={i} className="relative overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i)}>
+              <div
+                key={i}
+                className="relative overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+                onClick={() => setIndex(i)}
+              >
                 <img
                   src={getCloudinaryUrl(img, 800)}
                   alt={`${title} ${i + 1}`}
-                  fetchPriority={i === 0 ? "high" : "low"} // Sadece ilk resim öncelikli
+                  fetchPriority={i === 0 ? "high" : "low"}
                   decoding="async"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -73,21 +84,29 @@ export default function PlaceSlider({
         {/* 3 RESİM VARSA */}
         {images.length === 3 && (
           <div className="grid grid-cols-2 grid-rows-2 gap-4 h-[500px]">
-            <div className="relative row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+            <div
+              className="relative row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+              onClick={() => setIndex(0)}
+            >
               <img
                 src={getCloudinaryUrl(images[0], 600)}
                 alt={title}
-                fetchPriority="high" // Ana büyük resim öncelikli
+                fetchPriority="high"
                 decoding="async"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
             </div>
+
             {images.slice(1, 3).map((img, i) => (
-              <div key={i} className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i + 1)}>
+              <div
+                key={i}
+                className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+                onClick={() => setIndex(i + 1)}
+              >
                 <img
                   src={getCloudinaryUrl(img, 600)}
                   alt={`${title} ${i + 2}`}
-                  loading="lazy" // Ekranın altında kalabilecek veya ufak resimler tembel yüklensin
+                  loading="lazy"
                   decoding="async"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                 />
@@ -99,7 +118,10 @@ export default function PlaceSlider({
         {/* 4 RESİM VARSA */}
         {images.length === 4 && (
           <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
-            <div className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+            <div
+              className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+              onClick={() => setIndex(0)}
+            >
               <img
                 src={getCloudinaryUrl(images[0], 600)}
                 alt={title}
@@ -108,7 +130,11 @@ export default function PlaceSlider({
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
             </div>
-            <div className="relative col-span-2 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(1)}>
+
+            <div
+              className="relative col-span-2 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+              onClick={() => setIndex(1)}
+            >
               <img
                 src={getCloudinaryUrl(images[1], 600)}
                 alt={`${title} 2`}
@@ -117,8 +143,13 @@ export default function PlaceSlider({
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
             </div>
+
             {images.slice(2, 4).map((img, i) => (
-              <div key={i} className="relative col-span-1 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i + 2)}>
+              <div
+                key={i}
+                className="relative col-span-1 row-span-1 overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+                onClick={() => setIndex(i + 2)}
+              >
                 <img
                   src={getCloudinaryUrl(img, 400)}
                   alt={`${title} ${i + 3}`}
@@ -134,7 +165,10 @@ export default function PlaceSlider({
         {/* 5 VEYA DAHA FAZLA RESİM VARSA */}
         {images.length >= 5 && (
           <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
-            <div className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in" onClick={() => setIndex(0)}>
+            <div
+              className="relative col-span-2 row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+              onClick={() => setIndex(0)}
+            >
               <img
                 src={getCloudinaryUrl(images[0], 600)}
                 alt={title}
@@ -143,8 +177,13 @@ export default function PlaceSlider({
                 className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
+
             {images.slice(1, 5).map((img, i) => (
-              <div key={i} className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in" onClick={() => setIndex(i + 1)}>
+              <div
+                key={i}
+                className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+                onClick={() => setIndex(i + 1)}
+              >
                 <img
                   src={getCloudinaryUrl(img, 400)}
                   alt={`${title} ${i + 2}`}
@@ -152,10 +191,16 @@ export default function PlaceSlider({
                   decoding="async"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                 />
+
                 {i === 3 && extraImages > 0 && (
                   <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] flex flex-col items-center justify-center text-white transition-colors hover:bg-black/20 z-10">
-                    <span className="text-2xl font-black">+{extraImages}</span>
-                    <span className="text-[10px] font-bold uppercase tracking-widest">Fotoğraf</span>
+                    <span className="text-2xl font-black">
+                      +{extraImages}
+                    </span>
+
+                    <span className="text-[10px] font-bold uppercase tracking-widest">
+                      Fotoğraf
+                    </span>
                   </div>
                 )}
               </div>
@@ -175,19 +220,22 @@ export default function PlaceSlider({
           className="rounded-[2rem] overflow-hidden"
         >
           {images.slice(0, 8).map((img, i) => (
-            <SwiperSlide key={i}>
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-gray-100" onClick={() => setIndex(i)}>
-                <img
-                  src={getCloudinaryUrl(img, 600)}
-                  alt={`${title} ${i + 1}`}
-                  fetchPriority={i === 0 ? "high" : "low"}
-                  loading={i === 0 ? "eager" : "lazy"}
-                  decoding="async"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              </div>
-            </SwiperSlide>
-          ))}
+  <SwiperSlide key={i}>
+    <div
+      className="relative aspect-[4/3] w-full overflow-hidden bg-gray-100"
+      onClick={() => setIndex(i)}
+    >
+      <img
+        src={getCloudinaryUrl(img, i === 0 ? 480 : 400)}
+        alt={`${title} ${i + 1}`}
+        fetchPriority={i === 0 ? "high" : "low"}
+        loading={i === 0 ? "eager" : "lazy"}
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+  </SwiperSlide>
+))}
         </Swiper>
       </div>
 
@@ -200,6 +248,7 @@ export default function PlaceSlider({
               alt=""
               className="w-full h-full object-cover scale-110 blur-3xl opacity-40"
             />
+
             <div className="absolute inset-0 bg-black/30 backdrop-blur-2xl" />
           </div>
 

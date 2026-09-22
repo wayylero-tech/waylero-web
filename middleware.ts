@@ -126,6 +126,47 @@ const SPECIAL_LEGACY_REDIRECTS: Record<string, string> = {
 "/en/kesfet/belarus/belarus/brest-kalesi":
   "/en/kesfet/belarus/brest/brest-kalesi",
 
+  // --- TIMISOARA / PIATA UNIRII ---
+  "/tr/kesfet/romanya/timisoara/unirii-meydani":
+    "/tr/kesfet/romanya/timisoara/piata-unirii-timisoara",
+
+  "/en/kesfet/romanya/timisoara/unirii-meydani":
+    "/en/kesfet/romanya/timisoara/piata-unirii-timisoara",
+
+    // --- MERSIN / KANLIDIVANE ---
+  "/tr/kesfet/turkiye/mersin/kanlidivane-oren-yeri":
+    "/tr/kesfet/turkiye/mersin/kanli-divane-oren-yeri",
+
+  "/en/kesfet/turkey/mersin/kanlidivane-oren-yeri":
+    "/en/kesfet/turkey/mersin/kanli-divane-oren-yeri",
+
+    // --- LİZBON / BELÉM KULESİ ---
+  "/tr/kesfet/portekiz/lizbon/bel-m-kulesi":
+    "/tr/kesfet/portekiz/lizbon/belem-kulesi",
+
+  "/en/kesfet/portekiz/lizbon/bel-m-kulesi":
+    "/en/kesfet/portekiz/lizbon/belem-kulesi",
+
+    // --- CLUJ-NAPOCA / BOTANİK BAHÇESİ ---
+  "/tr/kesfet/romanya/cluj-napoca/botanik-bahcesi":
+    "/tr/kesfet/romanya/cluj-napoca/alexandru-borza-botanik-bahcesi",
+
+  "/en/kesfet/romanya/cluj-napoca/botanik-bahcesi":
+    "/en/kesfet/romanya/cluj-napoca/alexandru-borza-botanik-bahcesi",
+
+    // --- MONTGOMERY / ROSA PARKS MUSEUM ---
+  "/tr/kesfet/amerika/montgomery/montgomery-medeniyetler-muzesi":
+    "/tr/kesfet/amerika/montgomery/rosa-parks-museum",
+
+  "/en/kesfet/amerika/montgomery/montgomery-medeniyetler-muzesi":
+    "/en/kesfet/amerika/montgomery/rosa-parks-museum",
+
+    // --- ORLANDO / EPCOT ---
+  "/tr/kesfet/amerika/orlando/epcot-center":
+    "/tr/kesfet/amerika/orlando/epcot",
+
+  "/en/kesfet/amerika/orlando/epcot-center":
+    "/en/kesfet/amerika/orlando/epcot",
 };
 
 const BAD_BOT_REGEX = /curl|wget|python|scrapy|node-fetch|go-http/i;

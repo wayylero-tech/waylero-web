@@ -206,65 +206,61 @@ const displayContent = rawContent.replace(
                 )}
 
 
-                {/* 2 IMAGES */}
+               {/* 2 IMAGES */}
 
-                {gridImages.length === 2 && (
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-[500px]">
+{gridImages.length === 2 && (
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-[600px] md:h-[500px]">
 
-                    {gridImages.map((img, i) => (
-                      <BlogGalleryImage
-                        key={i}
-                        src={img}
-                        alt={`${displayTitle} ${i + 1}`}
-                        priority={i === 0}
-                        quality={60}
-                        width={800}
-                        className="relative overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
-                        imageClassName="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                        loading={
-                          i === 0
-                            ? "eager"
-                            : "lazy"
-                        }
-                      />
-                    ))}
+    {gridImages.map((img, i) => (
+      <BlogGalleryImage
+        key={i}
+        src={img}
+        alt={`${displayTitle} ${i + 1}`}
+        priority={i === 0}
+        quality={60}
+        width={800}
+        className="relative overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+        imageClassName="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+        loading={i === 0 ? "eager" : "lazy"}
+      />
+    ))}
 
-                  </div>
-                )}
+  </div>
+)}
 
 
-                {/* 3 IMAGES */}
+            {/* 3 IMAGES */}
 
-                {gridImages.length === 3 && (
-                  <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4 h-auto md:h-[500px]">
+{gridImages.length === 3 && (
+  <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4 h-[600px] md:h-[500px]">
 
-                    <BlogGalleryImage
-                      src={gridImages[0]}
-                      alt={displayTitle}
-                      priority={true}
-                      quality={45}
-                      width={700}
-                      className="relative md:row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
-                      imageClassName="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                    />
+    <BlogGalleryImage
+      src={gridImages[0]}
+      alt={displayTitle}
+      priority={true}
+      quality={45}
+      width={700}
+      className="relative md:row-span-2 overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in"
+      imageClassName="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+    />
 
-                    {gridImages
-                      .slice(1, 3)
-                      .map((img, i) => (
-                        <BlogGalleryImage
-                          key={i}
-                          src={img}
-                          alt={`${displayTitle} ${i + 2}`}
-                          quality={60}
-                          width={600}
-                          className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
-                          imageClassName="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
-                          loading="lazy"
-                        />
-                      ))}
+    {gridImages
+      .slice(1, 3)
+      .map((img, i) => (
+        <BlogGalleryImage
+          key={i}
+          src={img}
+          alt={`${displayTitle} ${i + 2}`}
+          quality={60}
+          width={600}
+          className="relative overflow-hidden rounded-3xl border border-gray-100 cursor-zoom-in"
+          imageClassName="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+          loading="lazy"
+        />
+      ))}
 
-                  </div>
-                )}
+  </div>
+)}
 
 
                 {/* 4 IMAGES */}

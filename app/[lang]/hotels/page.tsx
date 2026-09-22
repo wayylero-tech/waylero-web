@@ -62,36 +62,35 @@ export default async function Page({ params }: Props) {
   const t = content[lang];
 
   // Global Otel Arama Sayfası Şeması
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": t.title,
-    "description": t.description,
-    "url": `${BASE_URL}${t.path}`,
-    "mainEntity": {
-      "@type": "LodgingBusiness", // Genel konaklama işi kategorisi
-      "name": "Waylero",
-      "description": lang === "en" 
-        ? "Global hotel search and booking platform." 
-        : "Dünya çapında otel arama ve rezervasyon platformu."
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": lang === "en" ? "Home" : "Anasayfa",
-          "item": `${BASE_URL}${lang === "en" ? "/en" : "/tr"}`
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": lang === "en" ? "Hotels" : "Oteller",
-          "item": `${BASE_URL}${t.path}`
-        }
-      ]
-    }
+ const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": t.title,
+  "description": t.description,
+  "url": `${BASE_URL}${t.path}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Waylero",
+    "url": BASE_URL
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": lang === "en" ? "Home" : "Anasayfa",
+        "item": `${BASE_URL}${lang === "en" ? "/en" : "/tr"}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": lang === "en" ? "Hotels" : "Oteller",
+        "item": `${BASE_URL}${t.path}`
+      }
+    ]
+  }
+
   };
 
   return (
