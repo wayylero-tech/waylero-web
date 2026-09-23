@@ -5,6 +5,7 @@ import BlogDetail from "./BlogDetail";
 import { allPosts } from "@/lib/blog/posts";
 
 export const dynamic = "force-static";
+export const dynamicParams = true; // 🔥 EKLENDİ: SSG'de listede bulunmayan sayfalar kullanıcı tıklayınca dinamik üretilir, build kilitlenmez!
 export const revalidate = 2592000; // 1 ay cache
 
 const BASE_URL = "https://www.waylero.com";
@@ -121,6 +122,7 @@ export async function generateMetadata({
       description,
       url,
       type: "article",
+
       siteName: "Waylero",
 
       images: p.image
@@ -197,11 +199,11 @@ export default async function Page({
   // JSON-LD
   // --------------------
 
-const title =
-  p.seo?.title?.[lang] ||
-  p.title?.[lang] ||
-  p.title?.tr ||
-  "Travel Guide";
+  const title =
+    p.seo?.title?.[lang] ||
+    p.title?.[lang] ||
+    p.title?.tr ||
+    "Travel Guide";
 
   const description =
     p.seo?.description?.[lang] ||
@@ -216,74 +218,73 @@ const title =
   const imageUrl = p.image || undefined;
 
   const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
 
-  headline: title,
+    headline: title,
 
-  description: description.slice(0, 155),
+    description: description.slice(0, 155),
 
-  image: imageUrl
-    ? {
-        "@type": "ImageObject",
-        url: imageUrl,
-      }
-    : undefined,
+    image: imageUrl
+      ? {
+          "@type": "ImageObject",
+          url: imageUrl,
+        }
+      : undefined,
 
-  url: pageUrl,
+    url: pageUrl,
 
-  inLanguage: lang === "en" ? "en-US" : "tr-TR",
+    inLanguage: lang === "en" ? "en-US" : "tr-TR",
 
-  datePublished: p.date,
+    datePublished: p.date,
 
-  author: {
-    "@type": "Organization",
-    name: p.authorName || "Waylero",
-    url: BASE_URL,
-  },
+    author: {
+      "@type": "Organization",
+      name: p.authorName || "Waylero",
+      url: BASE_URL,
+    },
 
-  publisher: {
-    "@type": "Organization",
-    name: "Waylero",
-    url: BASE_URL,
-  },
+    publisher: {
+      "@type": "Organization",
+      name: "Waylero",
+      url: BASE_URL,
+    },
 
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": pageUrl,
-  },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": pageUrl,
+    },
 
-  isPartOf: {
-    "@type": "WebSite",
-    name: "Waylero",
-    url: BASE_URL,
-  },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Waylero",
+      url: BASE_URL,
+    },
 
-  breadcrumb: {
-    "@type": "BreadcrumbList",
+    breadcrumb: {
+      "@type": "BreadcrumbList",
 
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: lang === "en" ? "Home" : "Anasayfa",
-        item: `${BASE_URL}/${lang}`,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: lang === "en" ? "Travel Blog" : "Seyahat Blogu",
-        item: `${BASE_URL}/${lang}/blog`,
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: title,
-        item: pageUrl,
-      },
-    ],
-  },
-
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: lang === "en" ? "Home" : "Anasayfa",
+          item: `${BASE_URL}/${lang}`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: lang === "en" ? "Travel Blog" : "Seyahat Blogu",
+          item: `${BASE_URL}/${lang}/blog`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: title,
+          item: pageUrl,
+        },
+      ],
+    },
   };
 
   return (

@@ -391,6 +391,7 @@ const actualCityKey =
               <Link
                 key={place.slug}
                 href={`${exploreBase}/${region}/${city}/${place.slug}`}
+                scroll={true} // 🚀 BURAYA EKLENDİ: Sayfa geçişinde scroll'u en üste zorlar
                 className="group relative flex flex-col bg-white rounded-[3rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3"
               >
                 <div className="relative aspect-[4/5] overflow-hidden">

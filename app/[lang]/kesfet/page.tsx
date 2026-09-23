@@ -144,15 +144,14 @@ export default async function KesfetPage({ params }: Props) {
 
       {/* SEO H1 + Internal Links */}
       <div className="sr-only">
-        <h1>{isEn ? "Explore Countries & Cities" : "Ülkeleri ve Şehirleri Keşfet"}</h1>
-        <nav aria-label={isEn ? "Countries" : "Ülkeler"}>
-          {Object.entries(countryNames).map(([slug, names]) => (
-            <a key={slug} href={`/${lang}/kesfet/${slug}`}>
-              {isEn ? names.en : names.tr}
-            </a>
-          ))}
-        </nav>
-      </div>
+  <nav aria-label={isEn ? "Countries" : "Ülkeler"}>
+    {Object.entries(countryNames).map(([slug, names]) => (
+      <a key={slug} href={`/${lang}/kesfet/${slug}`}>
+        {isEn ? names.en : names.tr}
+      </a>
+    ))}
+  </nav>
+</div>
 
       {/* CONTENT (Suspense ve YÜKLENİYOR yazısı kaldırıldı, doğrudan Render ediliyor) */}
       <KesfetClient lang={lang} />

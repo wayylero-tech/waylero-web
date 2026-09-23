@@ -1,8 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  //  Doğru Key Name: staticPageGenerationTimeout
+  staticPageGenerationTimeout: 180,
+
   experimental: {
     optimizePackageImports: ["lucide-react", "framer-motion"],
+    optimizeCss: true,
   },
   images: {
     unoptimized: true,

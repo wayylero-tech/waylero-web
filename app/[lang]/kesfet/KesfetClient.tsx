@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useMemo } from "react";
@@ -12,10 +11,11 @@ import { Sparkles, Map, Globe2 } from "lucide-react";
 const CLOUDINARY_BASE_URL =
   "https://res.cloudinary.com/dewd42ppf/image/upload";
 
-const getCloudinaryUrl = (path: string, width: number) => {
+// Cloudinary parametreleri optimize edildi (AVIF formatı ve ideal genişlik)
+const getCloudinaryUrl = (path: string, width: number = 500) => {
   if (!path) return "";
 
-  return `${CLOUDINARY_BASE_URL}/f_auto,q_auto:eco,w_${width},c_fill/${path.replace(
+  return `${CLOUDINARY_BASE_URL}/f_avif,q_auto:good,w_${width},c_fill/${path.replace(
     /^\/+/,
     ""
   )}`;
@@ -55,7 +55,7 @@ const countryNames: Record<string, { tr: string; en: string }> = {
   gurcistan: { tr: "Gürcistan", en: "Georgia" },
   iskocya: { tr: "İskoçya", en: "Scotland" },
   belcika: { tr: "Belçika", en: "Belgium" },
-  
+
   galler: { tr: "Galler", en: "Wales" },
   malezya: { tr: "Malezya", en: "Malaysia" },
   cin: { tr: "Çin", en: "China" },
@@ -95,7 +95,7 @@ export default function KesfetClient({ lang }: { lang: string }) {
 
   const t = isEn
     ? {
-        title: "Explore World",
+        title: "Explore Countries & Cities",
         subTitle: "Thousands of spots, endless adventure.",
         city: "City",
         point: "Points",
@@ -103,7 +103,7 @@ export default function KesfetClient({ lang }: { lang: string }) {
         explore: "EXPLORE",
       }
     : {
-        title: "Dünyayı Keşfet",
+        title: "Ülkeleri ve Şehirleri Keşfet",
         subTitle: "Binlerce nokta, sınırsız macera.",
         city: "Şehir",
         point: "Nokta",
@@ -112,7 +112,7 @@ export default function KesfetClient({ lang }: { lang: string }) {
       };
 
   const getLocalizedLink = (path: string) =>
-  isEn ? `/en${path}` : `/tr${path}`;
+    isEn ? `/en${path}` : `/tr${path}`;
 
   const allCountries = useMemo(
     () => Object.entries(exploreMeta),
@@ -174,6 +174,9 @@ export default function KesfetClient({ lang }: { lang: string }) {
             const description =
               summary?.summary?.[isEn ? "en" : "tr"] || "";
 
+            // Ekran üstünde görünen ilk 2 kart yüksek öncelikle yüklensin (LCP iyileştirmesi)
+            const isPriority = index < 2;
+
             return (
               <Link
                 key={slug}
@@ -187,12 +190,13 @@ export default function KesfetClient({ lang }: { lang: string }) {
 
                   {data.coverPath ? (
                     <img
-  src={getCloudinaryUrl(data.coverPath, 600)}
-  alt={countryName}
-  className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-  loading={index === 0 ? "eager" : "lazy"}
-  fetchPriority={index === 0 ? "high" : "auto"}
-/>
+                      src={getCloudinaryUrl(data.coverPath, 500)}
+                      alt={countryName}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                      loading={isPriority ? "eager" : "lazy"}
+                      fetchPriority={isPriority ? "high" : "low"}
+                      decoding="async"
+                    />
                   ) : (
                     <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
                       <Map size={40} className="text-gray-300" />
@@ -254,25 +258,24 @@ export default function KesfetClient({ lang }: { lang: string }) {
 
                 {/* TEXT - RESMİN ALTINDA */}
 
-                {/* TEXT - RESMİN ALTINDA */}
-<div className="p-8 md:p-10 bg-white">
-  <p className="text-gray-600 text-[15px] md:text-base leading-7">
-    {description}
-  </p>
+                <div className="p-8 md:p-10 bg-white flex-1 flex flex-col justify-between">
+                  <p className="text-gray-600 text-[15px] md:text-base leading-7">
+                    {description}
+                  </p>
 
-  {/* CTA */}
-  <div className="mt-7 flex items-center gap-2 text-blue-600 group-hover:text-blue-700 transition-colors">
-    <span className="text-xs md:text-sm font-bold">
-      {isEn
-        ? "Click to see places to visit in this country"
-        : "Ülkedeki gezilecek yerleri görmek için tıklayın"}
-    </span>
+                  {/* CTA */}
+                  <div className="mt-7 flex items-center gap-2 text-blue-600 group-hover:text-blue-700 transition-colors">
+                    <span className="text-xs md:text-sm font-bold">
+                      {isEn
+                        ? "Click to see places to visit in this country"
+                        : "Ülkedeki gezilecek yerleri görmek için tıklayın"}
+                    </span>
 
-    <span className="text-lg transition-transform duration-300 group-hover:translate-x-1">
-      →
-    </span>
-  </div>
-</div>
+                    <span className="text-lg transition-transform duration-300 group-hover:translate-x-1">
+                      →
+                    </span>
+                  </div>
+                </div>
 
               </Link>
             );

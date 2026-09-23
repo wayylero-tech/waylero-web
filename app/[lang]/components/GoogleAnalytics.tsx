@@ -72,9 +72,10 @@ export default function GoogleAnalytics() {
         <AnalyticsContent />
       </Suspense>
 
+      {/* strategy="lazyOnload" ile Google Analytics ertelemesi sağlandı */}
       <Script
         id="ga-loader"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       >
         {`
           (function() {
@@ -94,7 +95,7 @@ export default function GoogleAnalytics() {
 
       <Script
         id="ga-init"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       >
         {`
           window.dataLayer = window.dataLayer || [];
