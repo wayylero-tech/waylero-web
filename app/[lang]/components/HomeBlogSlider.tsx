@@ -6,6 +6,16 @@ import { allPosts } from "@/lib/blog/posts";
 
 const posts = allPosts;
 
+const optimizeCloudinary = (url: string, width: number) => {
+  if (!url.includes("/upload/")) return url;
+
+  return url.replace(
+    "/upload/",
+    `/upload/f_auto,q_auto,w_${width},c_fill/`
+  );
+};
+
+
 export default function HomeBlogSlider() {
   const pathname = usePathname();
   
@@ -45,12 +55,18 @@ export default function HomeBlogSlider() {
               {/* Resim Alanı (Yatay/Dikey dengesi aspect-ratio ile sağlandı) */}
               <div className="aspect-[3/4] sm:aspect-[4/5] md:aspect-square overflow-hidden rounded-t-[1.5rem] md:rounded-t-[2.5rem]">
                 <img
-                  src={post.image}
-                  alt={displayTitle}
-                  loading={i < 2 ? "eager" : "lazy"}
-                  decoding="async"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
+  src={optimizeCloudinary(post.image, 600)}
+  srcSet={`
+    ${optimizeCloudinary(post.image, 300)} 300w,
+    ${optimizeCloudinary(post.image, 600)} 600w,
+    ${optimizeCloudinary(post.image, 900)} 900w
+  `}
+  sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
+  alt={displayTitle}
+  loading={i < 2 ? "eager" : "lazy"}
+  decoding="async"
+  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+/>
               </div>
 
               {/* Metin Alanı (Mobil ve PC için padding/font boyutları optimize edildi) */}

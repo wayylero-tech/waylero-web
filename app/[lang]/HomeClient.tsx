@@ -56,6 +56,16 @@ export default function HomeClient({
     .replace(/ü/g, "u")
     .replace(/\s+/g, "-");
 
+
+    const optimizeCloudinary = (url: string, width: number) => {
+  if (!url?.includes("/upload/")) return url;
+
+  return url.replace(
+    "/upload/",
+    `/upload/f_auto,q_auto:eco,w_${width},c_fill/`
+  );
+};
+
     
   // 🌍 Genişletilmiş Sözlük
   const t = {
@@ -325,10 +335,18 @@ export default function HomeClient({
               <div className="w-[180px] flex-shrink-0 cursor-pointer">
                 <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
                   <img
-                    src={c.image}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    alt={c.name}
-                  />
+  src={optimizeCloudinary(c.image, 400)}
+  srcSet={`
+    ${optimizeCloudinary(c.image, 250)} 250w,
+    ${optimizeCloudinary(c.image, 400)} 400w,
+    ${optimizeCloudinary(c.image, 600)} 600w
+  `}
+  sizes="180px"
+  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+  alt={c.name}
+  loading="lazy"
+  decoding="async"
+/>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="font-bold text-lg leading-tight">{c.name}</p>
@@ -358,10 +376,18 @@ export default function HomeClient({
               <div className="w-[180px] flex-shrink-0 cursor-pointer">
                 <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
                   <img
-                    src={c.image}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    alt={c.name}
-                  />
+  src={optimizeCloudinary(c.image, 400)}
+  srcSet={`
+    ${optimizeCloudinary(c.image, 250)} 250w,
+    ${optimizeCloudinary(c.image, 400)} 400w,
+    ${optimizeCloudinary(c.image, 600)} 600w
+  `}
+  sizes="180px"
+  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+  alt={c.name}
+  loading="lazy"
+  decoding="async"
+/>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="font-bold text-lg leading-tight">{c.name}</p>

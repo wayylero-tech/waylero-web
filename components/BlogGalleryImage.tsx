@@ -49,13 +49,19 @@ export default function BlogGalleryImage({
     <>
       <div className={className} onClick={() => setOpen(true)}>
         <img
-          src={optimizedSrc}
-          alt={alt}
-          fetchPriority={priority ? "high" : "low"}
-          loading={loading}
-          decoding="async"
-          className={imageClassName}
-        />
+  src={optimizedSrc}
+  srcSet={`
+    ${getCloudinaryUrl(src, `f_auto,q_${quality},w_400`)} 400w,
+    ${getCloudinaryUrl(src, `f_auto,q_${quality},w_800`)} 800w,
+    ${getCloudinaryUrl(src, `f_auto,q_${quality},w_${width}`)} ${width}w
+  `}
+  sizes="(max-width:768px) 100vw, (max-width:1200px) 80vw, 1200px"
+  alt={alt}
+  fetchPriority={priority ? "high" : "low"}
+  loading={loading ?? (priority ? "eager" : "lazy")}
+  decoding="async"
+  className={imageClassName}
+/>
       </div>
 
       {open && (

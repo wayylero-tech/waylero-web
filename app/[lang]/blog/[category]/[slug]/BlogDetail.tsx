@@ -17,6 +17,17 @@ import BlogShareButton from "@/components/BlogShareButton";
 import BlogLightboxImage from "@/components/BlogLightboxImage";
 import BlogGalleryImage from "@/components/BlogGalleryImage";
 
+
+const optimizeCloudinary = (url: string, width: number) => {
+  if (!url?.includes("/upload/")) return url;
+
+  return url.replace(
+    "/upload/",
+    `/upload/f_auto,q_auto:eco,w_${width},c_fill/`
+  );
+};
+
+
 interface Post {
   slug: string;
   title: {
@@ -721,14 +732,18 @@ const displayContent = rawContent.replace(
                             <div className="aspect-[16/9] overflow-hidden">
 
                               <img
-                                src={item.image}
-                                alt={
-                                  item.title?.[lang] ||
-                                  item.title?.tr
-                                }
-                                loading="lazy"
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                              />
+  src={optimizeCloudinary(item.image, 500)}
+  srcSet={`
+    ${optimizeCloudinary(item.image, 300)} 300w,
+    ${optimizeCloudinary(item.image, 500)} 500w,
+    ${optimizeCloudinary(item.image, 800)} 800w
+  `}
+  sizes="(max-width:1024px) 100vw, 320px"
+  alt={item.title?.[lang] || item.title?.tr}
+  loading="lazy"
+  decoding="async"
+  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
 
                             </div>
 
