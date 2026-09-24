@@ -49,6 +49,9 @@ export async function generateMetadata({
 
     verification: {
       yandex: "81cbfcf8784b9317",
+      other: {
+        "p:domain_verify": "6620883efd257ea9afa6e7d9fe3a893a",
+      },
     },
 
     icons: {
