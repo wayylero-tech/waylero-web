@@ -14,9 +14,14 @@ import {
   Ticket,
   Hotel,
 } from "lucide-react";
-import PlaceSlider from "./PlaceSlider";
 import { useEffect } from "react";
+import dynamic from "next/dynamic"; // 👈 1. Buraya ekledin
 
+// 👈 2. Buraya tanımladın (Artık normal PlaceSlider import'una gerek yok, silebilirsin)
+const PlaceSlider = dynamic(() => import("./PlaceSlider"), {
+  ssr: false, 
+  loading: () => <div className="h-[500px] bg-gray-100 rounded-[3rem] animate-pulse" />
+});
 
 const BASE_URL = "https://www.waylero.com";
 

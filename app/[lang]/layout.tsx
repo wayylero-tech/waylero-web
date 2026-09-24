@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
-import Script from "next/script";
 
 import "../globals.css";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,7 +40,7 @@ export async function generateMetadata({
       default: isEn
         ? "Waylero | Create Travel Plan, Explore Events"
         : "Waylero | Gezi Planı Oluştur, Etkinlikleri Keşfet",
-      template: "%s | Waylero", // Alt sayfalarda sadece sayfa adını vereceğiz, burası Otomatik "| Waylero" ekleyecek!
+      template: "%s | Waylero",
     },
 
     description: isEn
@@ -98,90 +98,57 @@ export default async function RootLayout({
   const { lang } = await params;
   const finalLang: "tr" | "en" = lang === "en" ? "en" : "tr";
 
-  // Google ve AI botlarının markayı tanıması için Global Organization & WebSite Scheması
   const globalSchema = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Organization",
         "@id": "https://www.waylero.com/#organization",
-        "name": "Waylero",
-        "url": "https://www.waylero.com",
-        "logo": "https://www.waylero.com/waylero-icon.png",
-        "sameAs": []
+        name: "Waylero",
+        url: "https://www.waylero.com",
+        logo: "https://www.waylero.com/waylero-icon.png",
+        sameAs: [],
       },
       {
         "@type": "WebSite",
         "@id": "https://www.waylero.com/#website",
-        "url": "https://www.waylero.com",
-        "name": "Waylero",
-        "publisher": {
-          "@id": "https://www.waylero.com/#organization"
-        }
-      }
-    ]
+        url: "https://www.waylero.com",
+        name: "Waylero",
+        publisher: {
+          "@id": "https://www.waylero.com/#organization",
+        },
+      },
+    ],
   };
 
   return (
     <html lang={finalLang}>
       <head>
-        {/* Cloudinary görsellerinin hızlı yüklenmesi için preconnect */}
-        <link rel="preconnect" href="https://res.cloudinary.com" />
-        {/* Tüm sitede geçerli Marka ve WebSite JSON-LD Şeması */}
+        <link
+          rel="preconnect"
+          href="https://res.cloudinary.com"
+        />
+
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(globalSchema),
+          }}
         />
       </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
-        {/* GTM KODU */}
-        <Script
-          id="gtm-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','G-SMS2634C53');
-            `,
-          }}
-        />
-
-        {/* CLARITY KODU */}
-        <Script id="microsoft-clarity" strategy="lazyOnload">
-          {`
-            (function() {
-              var consent = localStorage.getItem("waylero_cookie_consent");
-
-              if (consent !== "accepted") {
-                return;
-              }
-
-              (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){
-                  (c[a].q=c[a].q||[]).push(arguments)
-                };
-
-                t=l.createElement(r);
-                t.async=1;
-                t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-
-                y=l.getElementsByTagName(r)[0];
-                y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "x3v9pxahkm");
-            })();
-          `}
-        </Script>
-
         <Header lang={finalLang} />
 
         <CookieConsent lang={finalLang} />
 
-        <main className="flex-1">{children}</main>
+        <GoogleAnalytics />
+
+        <main className="flex-1">
+          {children}
+        </main>
 
         <Footer lang={finalLang} />
       </body>
