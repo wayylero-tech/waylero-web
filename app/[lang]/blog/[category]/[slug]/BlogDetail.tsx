@@ -731,14 +731,8 @@ const displayContent = rawContent.replace(
 
                             <div className="aspect-[16/9] overflow-hidden">
 
-                              <img
+                            <img
   src={optimizeCloudinary(item.image, 500)}
-  srcSet={`
-    ${optimizeCloudinary(item.image, 300)} 300w,
-    ${optimizeCloudinary(item.image, 500)} 500w,
-    ${optimizeCloudinary(item.image, 800)} 800w
-  `}
-  sizes="(max-width:1024px) 100vw, 320px"
   alt={item.title?.[lang] || item.title?.tr}
   loading="lazy"
   decoding="async"

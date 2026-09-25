@@ -13,17 +13,44 @@ interface Props {
   loading?: "lazy" | "eager";
 }
 
-// Cloudinary URL'lerini güvenle optimize eden fonksiyon
-function getCloudinaryUrl(url: string, params: string) {
-  if (!url || !url.includes("/upload/")) return url;
+function isCloudinaryUrl(url: string): boolean {
+  return Boolean(url && url.includes("res.cloudinary.com") && url.includes("/upload/"));
+}
 
-  const uploadIndex = url.indexOf("/upload/") + "/upload/".length;
-  const baseUrl = url.substring(0, uploadIndex);
-  let restUrl = url.substring(uploadIndex);
+function getCloudinaryUrl(url: string, params: string): string {
+  if (!url || !isCloudinaryUrl(url)) {
+    return url;
+  }
 
-  // Link içinde önceden f_auto, q_60 vb. parametreler varsa onları temizler (çakışmayı önler)
-  if (/^(?:[a-z]_[^/]+,?)+\//.test(restUrl)) {
-    restUrl = restUrl.replace(/^(?:[a-z]_[^/]+,?)+\//, "");
+  const uploadMarker = "/upload/";
+  const uploadIndex = url.indexOf(uploadMarker);
+
+  if (uploadIndex === -1) {
+    return url;
+  }
+
+  const baseUrl = url.substring(
+    0,
+    uploadIndex + uploadMarker.length
+  );
+
+  let restUrl = url.substring(
+    uploadIndex + uploadMarker.length
+  );
+
+  // Mevcut Cloudinary transformation'larını temizle
+  const firstSlash = restUrl.indexOf("/");
+
+  if (firstSlash !== -1) {
+    const firstPart = restUrl.substring(0, firstSlash);
+
+    const looksLikeTransformation =
+      firstPart.includes("_") &&
+      /^[a-zA-Z0-9_,:.@-]+$/.test(firstPart);
+
+    if (looksLikeTransformation) {
+      restUrl = restUrl.substring(firstSlash + 1);
+    }
   }
 
   return `${baseUrl}${params}/${restUrl}`;
@@ -35,33 +62,47 @@ export default function BlogGalleryImage({
   priority = false,
   quality = 70,
   width = 1200,
-  className = "relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in",
-  imageClassName = "absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105",
+  className =
+    "relative h-[500px] overflow-hidden rounded-[2.5rem] border border-gray-100 cursor-zoom-in",
+  imageClassName =
+    "absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105",
   loading,
 }: Props) {
   const [open, setOpen] = useState(false);
 
-  // Güvenli şekilde optimize edilmiş URL'ler
-  const optimizedSrc = getCloudinaryUrl(src, `f_auto,q_${quality},w_${width}`);
-  const lightboxSrc = getCloudinaryUrl(src, "f_auto,q_85,w_1600");
+  const cloudinary = isCloudinaryUrl(src);
+
+  const optimizedSrc = cloudinary
+    ? getCloudinaryUrl(
+        src,
+        `f_auto,q_${quality},w_${width},c_fill`
+      )
+    : src;
+
+  const lightboxSrc = cloudinary
+    ? getCloudinaryUrl(
+        src,
+        "f_auto,q_85,w_1600"
+      )
+    : src;
 
   return (
     <>
-      <div className={className} onClick={() => setOpen(true)}>
+      <div
+        className={className}
+        onClick={() => setOpen(true)}
+      >
         <img
-  src={optimizedSrc}
-  srcSet={`
-    ${getCloudinaryUrl(src, `f_auto,q_${quality},w_400`)} 400w,
-    ${getCloudinaryUrl(src, `f_auto,q_${quality},w_800`)} 800w,
-    ${getCloudinaryUrl(src, `f_auto,q_${quality},w_${width}`)} ${width}w
-  `}
-  sizes="(max-width:768px) 100vw, (max-width:1200px) 80vw, 1200px"
-  alt={alt}
-  fetchPriority={priority ? "high" : "low"}
-  loading={loading ?? (priority ? "eager" : "lazy")}
-  decoding="async"
-  className={imageClassName}
-/>
+          src={optimizedSrc}
+          alt={alt}
+          fetchPriority={priority ? "high" : "low"}
+          loading={
+            loading ??
+            (priority ? "eager" : "lazy")
+          }
+          decoding="async"
+          className={imageClassName}
+        />
       </div>
 
       {open && (

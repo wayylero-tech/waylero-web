@@ -38,10 +38,9 @@ export default function HomeClient({
  const lang = serverLang || "tr";
   const router = useRouter();
 
-  const getLocalizedLink = (path: string) => {
-    if (lang === "tr") return path;
-    return `/${lang}${path === "/" ? "" : path}`;
-  };
+const getLocalizedLink = (path: string) => {
+  return `/${lang}${path === "/" ? "" : path}`;
+};
 
   const slugify = (text: string) =>
   text
@@ -334,14 +333,8 @@ export default function HomeClient({
             <Link key={i} href={getCityUrl(countrySlug, citySlug)}>
               <div className="w-[180px] flex-shrink-0 cursor-pointer">
                 <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
-                  <img
+           <img
   src={optimizeCloudinary(c.image, 400)}
-  srcSet={`
-    ${optimizeCloudinary(c.image, 250)} 250w,
-    ${optimizeCloudinary(c.image, 400)} 400w,
-    ${optimizeCloudinary(c.image, 600)} 600w
-  `}
-  sizes="180px"
   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
   alt={c.name}
   loading="lazy"
@@ -375,14 +368,8 @@ export default function HomeClient({
             <Link key={i} href={getCityUrl(countrySlug, citySlug)}>
               <div className="w-[180px] flex-shrink-0 cursor-pointer">
                 <div className="relative h-[260px] rounded-2xl overflow-hidden shadow-lg group">
-                  <img
+                 <img
   src={optimizeCloudinary(c.image, 400)}
-  srcSet={`
-    ${optimizeCloudinary(c.image, 250)} 250w,
-    ${optimizeCloudinary(c.image, 400)} 400w,
-    ${optimizeCloudinary(c.image, 600)} 600w
-  `}
-  sizes="180px"
   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
   alt={c.name}
   loading="lazy"

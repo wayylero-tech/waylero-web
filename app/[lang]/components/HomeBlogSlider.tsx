@@ -1,13 +1,14 @@
+
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation"; // URL kontrolü için
+import { usePathname } from "next/navigation";
 import { allPosts } from "@/lib/blog/posts";
 
 const posts = allPosts;
 
 const optimizeCloudinary = (url: string, width: number) => {
-  if (!url.includes("/upload/")) return url;
+  if (!url || !url.includes("/upload/")) return url;
 
   return url.replace(
     "/upload/",
@@ -15,36 +16,48 @@ const optimizeCloudinary = (url: string, width: number) => {
   );
 };
 
-
 export default function HomeBlogSlider() {
   const pathname = usePathname();
-  
-  // 🔥 GARANTİLİ DİL TESPİTİ
+
+  // Dil tespiti
   const activeLang = pathname.startsWith("/en") ? "en" : "tr";
 
-  const getLocalizedLink = (path: string) => {
-    if (activeLang === "tr") return path;
-    const cleanPath = path.startsWith("/") ? path : `/${path}`;
-    return `/en${cleanPath}`;
-  };
+ const getLocalizedLink = (path: string) => {
+  const cleanPath = path.startsWith("/") ? path : `/${path}`;
+
+  return `/${activeLang}${cleanPath}`;
+};
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-8 p-2">
       {posts
-        .sort((a, b) => Number(new Date(b.date)) - Number(new Date(a.date)))
+        .sort(
+          (a, b) =>
+            Number(new Date(b.date)) -
+            Number(new Date(a.date))
+        )
         .slice(0, 4)
         .map((post, i) => {
           const rawHref = `/blog/${post.city}/${post.slug}`;
           const localizedHref = getLocalizedLink(rawHref);
 
-          // Dile göre başlık ve özet seçimi
-          const displayTitle = typeof post.title === 'object' 
-            ? (post.title[activeLang as keyof typeof post.title] || post.title['tr']) 
-            : post.title;
-            
-          const displayExcerpt = typeof post.excerpt === 'object' 
-            ? (post.excerpt[activeLang as keyof typeof post.excerpt] || post.excerpt['tr']) 
-            : post.excerpt;
+          const displayTitle =
+            typeof post.title === "object"
+              ? (
+                  post.title[
+                    activeLang as keyof typeof post.title
+                  ] || post.title["tr"]
+                )
+              : post.title;
+
+          const displayExcerpt =
+            typeof post.excerpt === "object"
+              ? (
+                  post.excerpt[
+                    activeLang as keyof typeof post.excerpt
+                  ] || post.excerpt["tr"]
+                )
+              : post.excerpt;
 
           return (
             <Link
@@ -52,28 +65,23 @@ export default function HomeBlogSlider() {
               href={localizedHref}
               className="group w-full rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 flex flex-col"
             >
-              {/* Resim Alanı (Yatay/Dikey dengesi aspect-ratio ile sağlandı) */}
+              {/* Resim */}
               <div className="aspect-[3/4] sm:aspect-[4/5] md:aspect-square overflow-hidden rounded-t-[1.5rem] md:rounded-t-[2.5rem]">
                 <img
-  src={optimizeCloudinary(post.image, 600)}
-  srcSet={`
-    ${optimizeCloudinary(post.image, 300)} 300w,
-    ${optimizeCloudinary(post.image, 600)} 600w,
-    ${optimizeCloudinary(post.image, 900)} 900w
-  `}
-  sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
-  alt={displayTitle}
-  loading={i < 2 ? "eager" : "lazy"}
-  decoding="async"
-  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-/>
+                  src={optimizeCloudinary(post.image, 600)}
+                  alt={displayTitle}
+                  loading={i < 2 ? "eager" : "lazy"}
+                  decoding="async"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
               </div>
 
-              {/* Metin Alanı (Mobil ve PC için padding/font boyutları optimize edildi) */}
+              {/* Metin */}
               <div className="p-3 md:p-6 flex-1 flex flex-col justify-start">
                 <h3 className="font-bold text-gray-900 text-xs md:text-base line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors">
                   {displayTitle}
                 </h3>
+
                 <p className="text-[10px] md:text-xs text-gray-500 mt-1.5 md:mt-3 line-clamp-2 md:line-clamp-3 leading-relaxed">
                   {displayExcerpt}
                 </p>

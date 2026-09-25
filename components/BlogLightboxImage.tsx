@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -9,17 +10,79 @@ interface Props {
   gallery?: string[];
 }
 
-// Cloudinary URL'lerini güvenle optimize eden helper
-function getCloudinaryUrl(url: string, params: string) {
-  if (!url || !url.includes("/upload/")) return url;
+/**
+ * URL'nin Cloudinary görseli olup olmadığını kontrol eder.
+ */
+function isCloudinaryUrl(url: string): boolean {
+  return Boolean(url && url.includes("/upload/"));
+}
 
-  const uploadIndex = url.indexOf("/upload/") + "/upload/".length;
-  const baseUrl = url.substring(0, uploadIndex);
-  let restUrl = url.substring(uploadIndex);
+/**
+ * Cloudinary URL'sini güvenli şekilde optimize eder.
+ *
+ * Örnek:
+ *
+ * https://res.cloudinary.com/dewd42ppf/image/upload/w_700/resim.jpg
+ *
+ * ->
+ *
+ * https://res.cloudinary.com/dewd42ppf/image/upload/f_auto,q_70,w_1200/resim.jpg
+ */
+function getCloudinaryUrl(
+  url: string,
+  params: string
+): string {
+  if (!url || !isCloudinaryUrl(url)) {
+    return url;
+  }
 
-  // Varsa önceden kalmış f_auto, q_60 vb. parametreleri temizler
-  if (/^(?:[a-z]_[^/]+,?)+\//.test(restUrl)) {
-    restUrl = restUrl.replace(/^(?:[a-z]_[^/]+,?)+\//, "");
+  const uploadMarker = "/upload/";
+  const uploadIndex = url.indexOf(uploadMarker);
+
+  if (uploadIndex === -1) {
+    return url;
+  }
+
+  const baseUrl = url.substring(
+    0,
+    uploadIndex + uploadMarker.length
+  );
+
+  let restUrl = url.substring(
+    uploadIndex + uploadMarker.length
+  );
+
+  /**
+   * Cloudinary'de /upload/ sonrasında bulunan
+   * eski transformation kısmını temizle.
+   *
+   * Örnek:
+   *
+   * w_700/resim.jpg
+   * f_auto,q_auto:eco,w_700,c_fill/resim.jpg
+   * c_fill,w_800,q_70/resim.jpg
+   *
+   * sadece:
+   *
+   * resim.jpg
+   *
+   * olarak kalır.
+   */
+  const firstSlash = restUrl.indexOf("/");
+
+  if (firstSlash !== -1) {
+    const possibleTransformation =
+      restUrl.substring(0, firstSlash);
+
+    const looksLikeTransformation =
+      possibleTransformation.includes("_") &&
+      /^[a-zA-Z0-9_,:.@-]+$/.test(
+        possibleTransformation
+      );
+
+    if (looksLikeTransformation) {
+      restUrl = restUrl.substring(firstSlash + 1);
+    }
   }
 
   return `${baseUrl}${params}/${restUrl}`;
@@ -31,17 +94,30 @@ export default function BlogLightboxImage({
   displayTitle,
   gallery = [],
 }: Props) {
-  const images = gallery.length > 0 ? gallery : [src];
+  /**
+   * Galeri varsa galeri kullanılır.
+   * Yoksa sadece mevcut görsel kullanılır.
+   */
+  const images =
+    gallery.length > 0 ? gallery : [src];
 
-  const initialIndex = Math.max(0, images.indexOf(src));
+  const initialIndex = Math.max(
+    0,
+    images.indexOf(src)
+  );
 
   const [open, setOpen] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+  const [currentIndex, setCurrentIndex] =
+    useState(initialIndex);
 
-  const currentSrc = images[currentIndex] || src;
+  const currentSrc =
+    images[currentIndex] || src;
 
-  const hasPrevious = currentIndex > 0;
-  const hasNext = currentIndex < images.length - 1;
+  const hasPrevious =
+    currentIndex > 0;
+
+  const hasNext =
+    currentIndex < images.length - 1;
 
   const closeLightbox = () => {
     setOpen(false);
@@ -49,18 +125,26 @@ export default function BlogLightboxImage({
 
   const previousImage = () => {
     if (!hasPrevious) return;
-    setCurrentIndex((prev) => prev - 1);
+
+    setCurrentIndex(
+      (prev) => prev - 1
+    );
   };
 
   const nextImage = () => {
     if (!hasNext) return;
-    setCurrentIndex((prev) => prev + 1);
+
+    setCurrentIndex(
+      (prev) => prev + 1
+    );
   };
 
   useEffect(() => {
     if (!open) return;
 
-    const handleKeyDown = (event: KeyboardEvent) => {
+    const handleKeyDown = (
+      event: KeyboardEvent
+    ) => {
       if (event.key === "Escape") {
         closeLightbox();
       }
@@ -74,28 +158,60 @@ export default function BlogLightboxImage({
       }
     };
 
-    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener(
+      "keydown",
+      handleKeyDown
+    );
+
     document.body.style.overflow = "hidden";
 
     return () => {
-      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener(
+        "keydown",
+        handleKeyDown
+      );
+
       document.body.style.overflow = "";
     };
   }, [open, currentIndex]);
 
-  // Cloudinary optimizasyonlu URL'ler
-  const optimizedMainSrc = getCloudinaryUrl(src, "f_auto,q_70,w_1200");
-  const optimizedLightboxSrc = getCloudinaryUrl(currentSrc, "f_auto,q_85,w_1600");
+  /**
+   * Ana görsel
+   */
+  const optimizedMainSrc =
+    isCloudinaryUrl(src)
+      ? getCloudinaryUrl(
+          src,
+          "f_auto,q_70,w_1200"
+        )
+      : src;
+
+  /**
+   * Lightbox görseli
+   */
+  const optimizedLightboxSrc =
+    isCloudinaryUrl(currentSrc)
+      ? getCloudinaryUrl(
+          currentSrc,
+          "f_auto,q_85,w_1600"
+        )
+      : currentSrc;
 
   return (
     <>
+      {/* ===================================================== */}
       {/* NORMAL IMAGE */}
+      {/* ===================================================== */}
+
       <div className="my-12 relative group">
         <img
           src={optimizedMainSrc}
           loading="lazy"
           decoding="async"
-          alt={alt || `${displayTitle} İçerik Görseli`}
+          alt={
+            alt ||
+            `${displayTitle} İçerik Görseli`
+          }
           className="w-full h-auto rounded-[2.5rem] shadow-xl transition-transform duration-500 group-hover:scale-[1.01] cursor-zoom-in border-4 border-white shadow-gray-200"
           onClick={() => {
             setCurrentIndex(initialIndex);
@@ -110,13 +226,17 @@ export default function BlogLightboxImage({
         )}
       </div>
 
+      {/* ===================================================== */}
       {/* LIGHTBOX */}
+      {/* ===================================================== */}
+
       {open && (
         <div
           className="fixed inset-0 bg-black/98 backdrop-blur-xl flex justify-center items-center z-[9999] p-4"
           onClick={closeLightbox}
         >
           {/* CLOSE BUTTON */}
+
           <button
             type="button"
             aria-label="Kapat"
@@ -130,6 +250,7 @@ export default function BlogLightboxImage({
           </button>
 
           {/* PREVIOUS */}
+
           {hasPrevious && (
             <button
               type="button"
@@ -145,15 +266,21 @@ export default function BlogLightboxImage({
           )}
 
           {/* IMAGE */}
+
           <img
             src={optimizedLightboxSrc}
-            alt={`${displayTitle} - Fotoğraf ${currentIndex + 1}`}
+            alt={`${displayTitle} - Fotoğraf ${
+              currentIndex + 1
+            }`}
             decoding="async"
-            onClick={(event) => event.stopPropagation()}
+            onClick={(event) =>
+              event.stopPropagation()
+            }
             className="max-h-[85vh] max-w-[85vw] object-contain rounded-2xl animate-in zoom-in-95 duration-300 select-none"
           />
 
           {/* NEXT */}
+
           {hasNext && (
             <button
               type="button"
@@ -169,13 +296,16 @@ export default function BlogLightboxImage({
           )}
 
           {/* COUNTER */}
+
           {images.length > 1 && (
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 bg-black/50 text-white px-5 py-2 rounded-full text-xs font-bold tracking-widest">
-              {currentIndex + 1} / {images.length}
+              {currentIndex + 1} /{" "}
+              {images.length}
             </div>
           )}
 
           {/* HELP */}
+
           <div className="absolute top-8 left-1/2 -translate-x-1/2 text-white/50 text-[10px] font-black tracking-widest uppercase hidden md:block">
             ESC Kapat · ← → Geçiş
           </div>
